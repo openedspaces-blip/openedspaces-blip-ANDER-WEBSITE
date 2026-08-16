@@ -1073,92 +1073,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Que se passe-t-il au début ?",
+            "prompt": "Complète ce détail de l’audio.\n\n“_____ !”",
             "options": [
               {
                 "id": "o1",
-                "text": "Je m’appelle Camila et je suis dominicaine."
+                "text": "Bonjour"
               },
               {
                 "id": "o2",
-                "text": "Dans la classe, il y a Léa, Karim et plusieurs autres élèves."
+                "text": "sympathiques"
               },
               {
                 "id": "o3",
-                "text": "Ils sont très sympathiques."
+                "text": "dominicaine"
               },
               {
                 "id": "o4",
-                "text": "À la fin de la journée, je dis au revoir à mes nouveaux amis."
+                "text": "Aujourd’hui"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Que fait la personne ensuite ?",
+            "prompt": "Quel mot complète la phrase entendue ?\n\n“Je suis un peu nerveuse, mais je suis aussi très _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Je m’appelle Camila et je suis dominicaine."
+                "text": "sympathiques"
               },
               {
                 "id": "o2",
-                "text": "Dans la classe, il y a Léa, Karim et plusieurs autres élèves."
+                "text": "contente"
               },
               {
                 "id": "o3",
-                "text": "Ils sont très sympathiques."
+                "text": "dominicaine"
               },
               {
                 "id": "o4",
-                "text": "À la fin de la journée, je dis au revoir à mes nouveaux amis."
+                "text": "Aujourd’hui"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Quel autre détail est correct ?",
+            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“La professeure dit : « Vous êtes tous les _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Je m’appelle Camila et je suis dominicaine."
+                "text": "Camila"
               },
               {
                 "id": "o2",
-                "text": "Dans la classe, il y a Léa, Karim et plusieurs autres élèves."
+                "text": "classe"
               },
               {
                 "id": "o3",
-                "text": "Ils sont très sympathiques."
+                "text": "bienvenus"
               },
               {
                 "id": "o4",
-                "text": "À la fin de la journée, je dis au revoir à mes nouveaux amis."
+                "text": "autres"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Que se passe-t-il à la fin ?",
+            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“La professeure dit : « Vous êtes tous les bienvenus. » Nous sommes dans la même classe et nous sommes prêts à _____ le français.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Je m’appelle Camila et je suis dominicaine."
+                "text": "Camila"
               },
               {
                 "id": "o2",
-                "text": "Dans la classe, il y a Léa, Karim et plusieurs autres élèves."
+                "text": "classe"
               },
               {
                 "id": "o3",
-                "text": "Ils sont très sympathiques."
+                "text": "autres"
               },
               {
                 "id": "o4",
-                "text": "À la fin de la journée, je dis au revoir à mes nouveaux amis."
+                "text": "apprendre"
               }
             ]
           }
@@ -1169,42 +1169,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Que se passe-t-il au début ?",
+        "prompt": "Complète ce détail de l’audio.\n\n“_____ !”",
         "options": [
-          "Je m’appelle Camila et je suis dominicaine.",
-          "Dans la classe, il y a Léa, Karim et plusieurs autres élèves.",
-          "Ils sont très sympathiques.",
-          "À la fin de la journée, je dis au revoir à mes nouveaux amis."
+          "Bonjour",
+          "sympathiques",
+          "dominicaine",
+          "Aujourd’hui"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Que fait la personne ensuite ?",
+        "prompt": "Quel mot complète la phrase entendue ?\n\n“Je suis un peu nerveuse, mais je suis aussi très _____.”",
         "options": [
-          "Je m’appelle Camila et je suis dominicaine.",
-          "Dans la classe, il y a Léa, Karim et plusieurs autres élèves.",
-          "Ils sont très sympathiques.",
-          "À la fin de la journée, je dis au revoir à mes nouveaux amis."
+          "sympathiques",
+          "contente",
+          "dominicaine",
+          "Aujourd’hui"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel autre détail est correct ?",
+        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“La professeure dit : « Vous êtes tous les _____.”",
         "options": [
-          "Je m’appelle Camila et je suis dominicaine.",
-          "Dans la classe, il y a Léa, Karim et plusieurs autres élèves.",
-          "Ils sont très sympathiques.",
-          "À la fin de la journée, je dis au revoir à mes nouveaux amis."
+          "Camila",
+          "classe",
+          "bienvenus",
+          "autres"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Que se passe-t-il à la fin ?",
+        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“La professeure dit : « Vous êtes tous les bienvenus. » Nous sommes dans la même classe et nous sommes prêts à _____ le français.”",
         "options": [
-          "Je m’appelle Camila et je suis dominicaine.",
-          "Dans la classe, il y a Léa, Karim et plusieurs autres élèves.",
-          "Ils sont très sympathiques.",
-          "À la fin de la journée, je dis au revoir à mes nouveaux amis."
+          "Camila",
+          "classe",
+          "autres",
+          "apprendre"
         ]
       }
     ]
@@ -1293,92 +1293,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Dans « Le panier oublié », quel détail présente la situation ?",
+            "prompt": "Complète ce détail de l’audio.\n\n“Samedi matin, Camila et Léa sont retournées au marché de _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Samedi matin, Camila et Léa sont retournées au marché de Tours."
+                "text": "Tours"
               },
               {
                 "id": "o2",
-                "text": "Le marché était moins cher et les produits étaient plus frais."
+                "text": "supermarché"
               },
               {
                 "id": "o3",
-                "text": "Sur le chemin du retour, Léa a vu que le panier était trop léger."
+                "text": "retournées"
               },
               {
                 "id": "o4",
-                "text": "Camila a récupéré le panier, la monnaie et le reçu, puis elle a remercié le vendeur avec un grand sourire."
+                "text": "vingt-cinq"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Après « Samedi matin, Camila et Léa sont retournées au marché de Tours. », que se passe-t-il ensuite dans « Le panier oublié » ?",
+            "prompt": "Quel mot complète la phrase entendue ?\n\n“Le marché était moins cher et les _____ étaient plus frais.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Samedi matin, Camila et Léa sont retournées au marché de Tours."
+                "text": "matin"
               },
               {
                 "id": "o2",
-                "text": "Le marché était moins cher et les produits étaient plus frais."
+                "text": "produits"
               },
               {
                 "id": "o3",
-                "text": "Sur le chemin du retour, Léa a vu que le panier était trop léger."
+                "text": "Tours"
               },
               {
                 "id": "o4",
-                "text": "Camila a récupéré le panier, la monnaie et le reçu, puis elle a remercié le vendeur avec un grand sourire."
+                "text": "kilos"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Le panier oublié » ?",
+            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Sur le chemin du retour, _____ a vu que le panier était trop léger.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Samedi matin, Camila et Léa sont retournées au marché de Tours."
+                "text": "supermarché"
               },
               {
                 "id": "o2",
-                "text": "Le marché était moins cher et les produits étaient plus frais."
+                "text": "retournées"
               },
               {
                 "id": "o3",
-                "text": "Sur le chemin du retour, Léa a vu que le panier était trop léger."
+                "text": "Léa"
               },
               {
                 "id": "o4",
-                "text": "Camila a récupéré le panier, la monnaie et le reçu, puis elle a remercié le vendeur avec un grand sourire."
+                "text": "vingt-cinq"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel résultat conclut « Le panier oublié » après « Sur le chemin du retour, Léa a vu que le panier était trop léger. » ?",
+            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Camila a récupéré le panier, la monnaie et le reçu, puis elle a remercié le _____ avec un grand sourire.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Samedi matin, Camila et Léa sont retournées au marché de Tours."
+                "text": "supermarché"
               },
               {
                 "id": "o2",
-                "text": "Le marché était moins cher et les produits étaient plus frais."
+                "text": "retournées"
               },
               {
                 "id": "o3",
-                "text": "Sur le chemin du retour, Léa a vu que le panier était trop léger."
+                "text": "deux"
               },
               {
                 "id": "o4",
-                "text": "Camila a récupéré le panier, la monnaie et le reçu, puis elle a remercié le vendeur avec un grand sourire."
+                "text": "vendeur"
               }
             ]
           }
@@ -1389,42 +1389,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Dans « Le panier oublié », quel détail présente la situation ?",
+        "prompt": "Complète ce détail de l’audio.\n\n“Samedi matin, Camila et Léa sont retournées au marché de _____.”",
         "options": [
-          "Samedi matin, Camila et Léa sont retournées au marché de Tours.",
-          "Le marché était moins cher et les produits étaient plus frais.",
-          "Sur le chemin du retour, Léa a vu que le panier était trop léger.",
-          "Camila a récupéré le panier, la monnaie et le reçu, puis elle a remercié le vendeur avec un grand sourire."
+          "Tours",
+          "supermarché",
+          "retournées",
+          "vingt-cinq"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Après « Samedi matin, Camila et Léa sont retournées au marché de Tours. », que se passe-t-il ensuite dans « Le panier oublié » ?",
+        "prompt": "Quel mot complète la phrase entendue ?\n\n“Le marché était moins cher et les _____ étaient plus frais.”",
         "options": [
-          "Samedi matin, Camila et Léa sont retournées au marché de Tours.",
-          "Le marché était moins cher et les produits étaient plus frais.",
-          "Sur le chemin du retour, Léa a vu que le panier était trop léger.",
-          "Camila a récupéré le panier, la monnaie et le reçu, puis elle a remercié le vendeur avec un grand sourire."
+          "matin",
+          "produits",
+          "Tours",
+          "kilos"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Le panier oublié » ?",
+        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Sur le chemin du retour, _____ a vu que le panier était trop léger.”",
         "options": [
-          "Samedi matin, Camila et Léa sont retournées au marché de Tours.",
-          "Le marché était moins cher et les produits étaient plus frais.",
-          "Sur le chemin du retour, Léa a vu que le panier était trop léger.",
-          "Camila a récupéré le panier, la monnaie et le reçu, puis elle a remercié le vendeur avec un grand sourire."
+          "supermarché",
+          "retournées",
+          "Léa",
+          "vingt-cinq"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel résultat conclut « Le panier oublié » après « Sur le chemin du retour, Léa a vu que le panier était trop léger. » ?",
+        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Camila a récupéré le panier, la monnaie et le reçu, puis elle a remercié le _____ avec un grand sourire.”",
         "options": [
-          "Samedi matin, Camila et Léa sont retournées au marché de Tours.",
-          "Le marché était moins cher et les produits étaient plus frais.",
-          "Sur le chemin du retour, Léa a vu que le panier était trop léger.",
-          "Camila a récupéré le panier, la monnaie et le reçu, puis elle a remercié le vendeur avec un grand sourire."
+          "supermarché",
+          "retournées",
+          "deux",
+          "vendeur"
         ]
       }
     ]
@@ -1544,92 +1544,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Dans « Documentaire : L’autonomie, pierre angulaire de l’université française », quel détail présente la situation ?",
+            "prompt": "Complète ce détail de l’audio.\n\n“Personne ne viendra vous chercher si vous manquez trois _____ de cours.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Personne ne viendra vous chercher si vous manquez trois semaines de cours."
+                "text": "semaines"
               },
               {
                 "id": "o2",
-                "text": "Contrairement au lycée, où l'élève est suivi de près, encadré par des professeurs principaux et des conseils de classe réguliers, l'université repose sur un principe radicalement différent : c'est à l'étudiant lui-même qu'il revient d'organiser son travail, de solliciter de l'aide en cas de difficulté et de construire, semestre après semestre, son propre parcours au sein d'unités d'enseignement souvent peu coordonnées entre elles."
+                "text": "responsabilités"
               },
               {
                 "id": "o3",
-                "text": "C’est la différence entre le lycée et l’université qui déstabilise d’abord les nouveaux étudiants, et c’est leur autonomie que les enseignants veulent développer."
+                "text": "transformation"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "d'enseignement"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Après « Personne ne viendra vous chercher si vous manquez trois semaines de… », que se passe-t-il ensuite dans « Documentaire : L’autonomie, pierre angulaire de l’université française » ?",
+            "prompt": "Quel mot complète la phrase entendue ?\n\n“Contrairement au lycée, où _____ est suivi de près, encadré par des professeurs principaux et des conseils de classe réguliers, l'université repose sur un principe radicalement différent : c'est à l'étudiant lui-même qu'il revient d'organiser son travail, de solliciter de l'aide en cas de difficulté et de construire, semestre après semestre, son propre parcours au sein d'unités d'enseignement souvent peu coordonnées entre elles.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Personne ne viendra vous chercher si vous manquez trois semaines de cours."
+                "text": "responsabilités"
               },
               {
                 "id": "o2",
-                "text": "Contrairement au lycée, où l'élève est suivi de près, encadré par des professeurs principaux et des conseils de classe réguliers, l'université repose sur un principe radicalement différent : c'est à l'étudiant lui-même qu'il revient d'organiser son travail, de solliciter de l'aide en cas de difficulté et de construire, semestre après semestre, son propre parcours au sein d'unités d'enseignement souvent peu coordonnées entre elles."
+                "text": "l'élève"
               },
               {
                 "id": "o3",
-                "text": "C’est la différence entre le lycée et l’université qui déstabilise d’abord les nouveaux étudiants, et c’est leur autonomie que les enseignants veulent développer."
+                "text": "transformation"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "d'enseignement"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Documentaire : L’autonomie, pierre angulaire de l’université française » ?",
+            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“C’est la différence entre le lycée et l’université qui _____ d’abord les nouveaux étudiants, et c’est leur autonomie que les enseignants veulent développer.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Personne ne viendra vous chercher si vous manquez trois semaines de cours."
+                "text": "responsabilités"
               },
               {
                 "id": "o2",
-                "text": "Contrairement au lycée, où l'élève est suivi de près, encadré par des professeurs principaux et des conseils de classe réguliers, l'université repose sur un principe radicalement différent : c'est à l'étudiant lui-même qu'il revient d'organiser son travail, de solliciter de l'aide en cas de difficulté et de construire, semestre après semestre, son propre parcours au sein d'unités d'enseignement souvent peu coordonnées entre elles."
+                "text": "Personne"
               },
               {
                 "id": "o3",
-                "text": "C’est la différence entre le lycée et l’université qui déstabilise d’abord les nouveaux étudiants, et c’est leur autonomie que les enseignants veulent développer."
+                "text": "déstabilise"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "chercher"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel résultat conclut « Documentaire : L’autonomie, pierre angulaire de l’université française » après « C’est la différence entre le lycée et l’université qui déstabilise… » ?",
+            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Personne ne viendra vous chercher si vous manquez trois semaines de cours."
+                "text": "responsabilités"
               },
               {
                 "id": "o2",
-                "text": "Contrairement au lycée, où l'élève est suivi de près, encadré par des professeurs principaux et des conseils de classe réguliers, l'université repose sur un principe radicalement différent : c'est à l'étudiant lui-même qu'il revient d'organiser son travail, de solliciter de l'aide en cas de difficulté et de construire, semestre après semestre, son propre parcours au sein d'unités d'enseignement souvent peu coordonnées entre elles."
+                "text": "transformation"
               },
               {
                 "id": "o3",
-                "text": "C’est la différence entre le lycée et l’université qui déstabilise d’abord les nouveaux étudiants, et c’est leur autonomie que les enseignants veulent développer."
+                "text": "d'enseignement"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "relier"
               }
             ]
           }
@@ -1640,42 +1640,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Dans « Documentaire : L’autonomie, pierre angulaire de l’université française », quel détail présente la situation ?",
+        "prompt": "Complète ce détail de l’audio.\n\n“Personne ne viendra vous chercher si vous manquez trois _____ de cours.”",
         "options": [
-          "Personne ne viendra vous chercher si vous manquez trois semaines de cours.",
-          "Contrairement au lycée, où l'élève est suivi de près, encadré par des professeurs principaux et des conseils de classe réguliers, l'université repose sur un principe radicalement différent : c'est à l'étudiant lui-même qu'il revient d'organiser son travail, de solliciter de l'aide en cas de difficulté et de construire, semestre après semestre, son propre parcours au sein d'unités d'enseignement souvent peu coordonnées entre elles.",
-          "C’est la différence entre le lycée et l’université qui déstabilise d’abord les nouveaux étudiants, et c’est leur autonomie que les enseignants veulent développer.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "semaines",
+          "responsabilités",
+          "transformation",
+          "d'enseignement"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Après « Personne ne viendra vous chercher si vous manquez trois semaines de… », que se passe-t-il ensuite dans « Documentaire : L’autonomie, pierre angulaire de l’université française » ?",
+        "prompt": "Quel mot complète la phrase entendue ?\n\n“Contrairement au lycée, où _____ est suivi de près, encadré par des professeurs principaux et des conseils de classe réguliers, l'université repose sur un principe radicalement différent : c'est à l'étudiant lui-même qu'il revient d'organiser son travail, de solliciter de l'aide en cas de difficulté et de construire, semestre après semestre, son propre parcours au sein d'unités d'enseignement souvent peu coordonnées entre elles.”",
         "options": [
-          "Personne ne viendra vous chercher si vous manquez trois semaines de cours.",
-          "Contrairement au lycée, où l'élève est suivi de près, encadré par des professeurs principaux et des conseils de classe réguliers, l'université repose sur un principe radicalement différent : c'est à l'étudiant lui-même qu'il revient d'organiser son travail, de solliciter de l'aide en cas de difficulté et de construire, semestre après semestre, son propre parcours au sein d'unités d'enseignement souvent peu coordonnées entre elles.",
-          "C’est la différence entre le lycée et l’université qui déstabilise d’abord les nouveaux étudiants, et c’est leur autonomie que les enseignants veulent développer.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "responsabilités",
+          "l'élève",
+          "transformation",
+          "d'enseignement"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Documentaire : L’autonomie, pierre angulaire de l’université française » ?",
+        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“C’est la différence entre le lycée et l’université qui _____ d’abord les nouveaux étudiants, et c’est leur autonomie que les enseignants veulent développer.”",
         "options": [
-          "Personne ne viendra vous chercher si vous manquez trois semaines de cours.",
-          "Contrairement au lycée, où l'élève est suivi de près, encadré par des professeurs principaux et des conseils de classe réguliers, l'université repose sur un principe radicalement différent : c'est à l'étudiant lui-même qu'il revient d'organiser son travail, de solliciter de l'aide en cas de difficulté et de construire, semestre après semestre, son propre parcours au sein d'unités d'enseignement souvent peu coordonnées entre elles.",
-          "C’est la différence entre le lycée et l’université qui déstabilise d’abord les nouveaux étudiants, et c’est leur autonomie que les enseignants veulent développer.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "responsabilités",
+          "Personne",
+          "déstabilise",
+          "chercher"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel résultat conclut « Documentaire : L’autonomie, pierre angulaire de l’université française » après « C’est la différence entre le lycée et l’université qui déstabilise… » ?",
+        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
         "options": [
-          "Personne ne viendra vous chercher si vous manquez trois semaines de cours.",
-          "Contrairement au lycée, où l'élève est suivi de près, encadré par des professeurs principaux et des conseils de classe réguliers, l'université repose sur un principe radicalement différent : c'est à l'étudiant lui-même qu'il revient d'organiser son travail, de solliciter de l'aide en cas de difficulté et de construire, semestre après semestre, son propre parcours au sein d'unités d'enseignement souvent peu coordonnées entre elles.",
-          "C’est la différence entre le lycée et l’université qui déstabilise d’abord les nouveaux étudiants, et c’est leur autonomie que les enseignants veulent développer.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "responsabilités",
+          "transformation",
+          "d'enseignement",
+          "relier"
         ]
       }
     ]
@@ -1810,92 +1810,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Dans « Documentaire : La machine peut-elle véritablement créer ? », quel détail présente la situation ?",
+            "prompt": "Complète ce détail de l’audio.\n\n“Un jury peine parfois à distinguer une image générée d’une œuvre humaine, ce qui relance une question ancienne sous une forme _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Un jury peine parfois à distinguer une image générée d’une œuvre humaine, ce qui relance une question ancienne sous une forme nouvelle."
+                "text": "nouvelle"
               },
               {
                 "id": "o2",
-                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+                "text": "interchangeables"
               },
               {
                 "id": "o3",
-                "text": "Il semblerait qu’un modèle génératif produise une œuvre plausible, mais il ne pourrait s’agir de créativité au sens plein que si un choix humain substantiel demeurait décelable."
+                "text": "d’entraînement"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "véritablement"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Après « Un jury peine parfois à distinguer une image générée d’une œuvre… », que se passe-t-il ensuite dans « Documentaire : La machine peut-elle véritablement créer ? » ?",
+            "prompt": "Quel mot complète la phrase entendue ?\n\n“Une _____ sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Un jury peine parfois à distinguer une image générée d’une œuvre humaine, ce qui relance une question ancienne sous une forme nouvelle."
+                "text": "interchangeables"
               },
               {
                 "id": "o2",
-                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+                "text": "réponse"
               },
               {
                 "id": "o3",
-                "text": "Il semblerait qu’un modèle génératif produise une œuvre plausible, mais il ne pourrait s’agir de créativité au sens plein que si un choix humain substantiel demeurait décelable."
+                "text": "d’entraînement"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "véritablement"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Documentaire : La machine peut-elle véritablement créer ? » ?",
+            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Il semblerait qu’un modèle génératif _____ une œuvre plausible, mais il ne pourrait s’agir de créativité au sens plein que si un choix humain substantiel demeurait décelable.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Un jury peine parfois à distinguer une image générée d’une œuvre humaine, ce qui relance une question ancienne sous une forme nouvelle."
+                "text": "interchangeables"
               },
               {
                 "id": "o2",
-                "text": "Il semblerait qu’un modèle génératif produise une œuvre plausible, mais il ne pourrait s’agir de créativité au sens plein que si un choix humain substantiel demeurait décelable."
+                "text": "d’entraînement"
               },
               {
                 "id": "o3",
-                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+                "text": "produise"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "véritablement"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel résultat conclut « Documentaire : La machine peut-elle véritablement créer ? » après « Une réponse sérieuse doit distinguer ce que les données montrent, le… » ?",
+            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Un jury peine parfois à distinguer une image générée d’une œuvre humaine, ce qui relance une question ancienne sous une forme nouvelle."
+                "text": "interchangeables"
               },
               {
                 "id": "o2",
-                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+                "text": "d’entraînement"
               },
               {
                 "id": "o3",
-                "text": "Il semblerait qu’un modèle génératif produise une œuvre plausible, mais il ne pourrait s’agir de créativité au sens plein que si un choix humain substantiel demeurait décelable."
+                "text": "véritablement"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "relier"
               }
             ]
           }
@@ -1906,42 +1906,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Dans « Documentaire : La machine peut-elle véritablement créer ? », quel détail présente la situation ?",
+        "prompt": "Complète ce détail de l’audio.\n\n“Un jury peine parfois à distinguer une image générée d’une œuvre humaine, ce qui relance une question ancienne sous une forme _____.”",
         "options": [
-          "Un jury peine parfois à distinguer une image générée d’une œuvre humaine, ce qui relance une question ancienne sous une forme nouvelle.",
-          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.",
-          "Il semblerait qu’un modèle génératif produise une œuvre plausible, mais il ne pourrait s’agir de créativité au sens plein que si un choix humain substantiel demeurait décelable.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "nouvelle",
+          "interchangeables",
+          "d’entraînement",
+          "véritablement"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Après « Un jury peine parfois à distinguer une image générée d’une œuvre… », que se passe-t-il ensuite dans « Documentaire : La machine peut-elle véritablement créer ? » ?",
+        "prompt": "Quel mot complète la phrase entendue ?\n\n“Une _____ sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.”",
         "options": [
-          "Un jury peine parfois à distinguer une image générée d’une œuvre humaine, ce qui relance une question ancienne sous une forme nouvelle.",
-          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.",
-          "Il semblerait qu’un modèle génératif produise une œuvre plausible, mais il ne pourrait s’agir de créativité au sens plein que si un choix humain substantiel demeurait décelable.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "interchangeables",
+          "réponse",
+          "d’entraînement",
+          "véritablement"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Documentaire : La machine peut-elle véritablement créer ? » ?",
+        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Il semblerait qu’un modèle génératif _____ une œuvre plausible, mais il ne pourrait s’agir de créativité au sens plein que si un choix humain substantiel demeurait décelable.”",
         "options": [
-          "Un jury peine parfois à distinguer une image générée d’une œuvre humaine, ce qui relance une question ancienne sous une forme nouvelle.",
-          "Il semblerait qu’un modèle génératif produise une œuvre plausible, mais il ne pourrait s’agir de créativité au sens plein que si un choix humain substantiel demeurait décelable.",
-          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "interchangeables",
+          "d’entraînement",
+          "produise",
+          "véritablement"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel résultat conclut « Documentaire : La machine peut-elle véritablement créer ? » après « Une réponse sérieuse doit distinguer ce que les données montrent, le… » ?",
+        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
         "options": [
-          "Un jury peine parfois à distinguer une image générée d’une œuvre humaine, ce qui relance une question ancienne sous une forme nouvelle.",
-          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.",
-          "Il semblerait qu’un modèle génératif produise une œuvre plausible, mais il ne pourrait s’agir de créativité au sens plein que si un choix humain substantiel demeurait décelable.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "interchangeables",
+          "d’entraînement",
+          "véritablement",
+          "relier"
         ]
       }
     ]
@@ -2033,38 +2033,145 @@
           "text": "L’avenir n’est pas toujours prévisible, mais un choix réfléchi permet de commencer avec plus de confiance."
         }
       ],
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "french-b1-projets-et-avenir-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Complète ce détail de l’audio.\n\n“Bienvenue dans notre podcast consacré aux projets _____.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "d’avenir"
+              },
+              {
+                "id": "o2",
+                "text": "professionnel"
+              },
+              {
+                "id": "o3",
+                "text": "accordez-vous"
+              },
+              {
+                "id": "o4",
+                "text": "développerez"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quel mot complète la phrase entendue ?\n\n“Si vous choisissez une _____, vous développerez peut-être de nouvelles compétences, mais vous devrez organiser votre temps.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "professionnel"
+              },
+              {
+                "id": "o2",
+                "text": "formation"
+              },
+              {
+                "id": "o3",
+                "text": "accordez-vous"
+              },
+              {
+                "id": "o4",
+                "text": "simple"
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Parlez avec des personnes de confiance, _____ des informations précises et accordez-vous un délai.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "professionnel"
+              },
+              {
+                "id": "o2",
+                "text": "accordez-vous"
+              },
+              {
+                "id": "o3",
+                "text": "cherchez"
+              },
+              {
+                "id": "o4",
+                "text": "développerez"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“L’avenir n’est pas toujours prévisible, mais un choix réfléchi permet de _____ avec plus de confiance.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "professionnel"
+              },
+              {
+                "id": "o2",
+                "text": "accordez-vous"
+              },
+              {
+                "id": "o3",
+                "text": "simple"
+              },
+              {
+                "id": "o4",
+                "text": "commencer"
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Que se passe-t-il si Camila reste, selon elle ?",
+        "prompt": "Complète ce détail de l’audio.\n\n“Bienvenue dans notre podcast consacré aux projets _____.”",
         "options": [
-          "Elle va oublier le français",
-          "Elle va continuer à progresser en français",
-          "Elle va retourner tout de suite",
-          "Elle va changer de famille"
+          "d’avenir",
+          "professionnel",
+          "accordez-vous",
+          "développerez"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Que dit Léa sur la décision de Camila ?",
+        "prompt": "Quel mot complète la phrase entendue ?\n\n“Si vous choisissez une _____, vous développerez peut-être de nouvelles compétences, mais vous devrez organiser votre temps.”",
         "options": [
-          "Qu’elle est mauvaise",
-          "Qu’il n’y a pas de mauvaise décision",
-          "Qu’elle doit rester obligatoirement",
-          "Qu’elle ne la comprend pas"
+          "professionnel",
+          "formation",
+          "accordez-vous",
+          "simple"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Comment Camila se sent-elle après avoir parlé avec Léa ?",
+        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Parlez avec des personnes de confiance, _____ des informations précises et accordez-vous un délai.”",
         "options": [
-          "Plus confuse",
-          "Aidée et soutenue",
-          "Fâchée",
-          "Indifférente"
+          "professionnel",
+          "accordez-vous",
+          "cherchez",
+          "développerez"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“L’avenir n’est pas toujours prévisible, mais un choix réfléchi permet de _____ avec plus de confiance.”",
+        "options": [
+          "professionnel",
+          "accordez-vous",
+          "simple",
+          "commencer"
         ]
       }
     ]
@@ -2176,48 +2283,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "french-b2-retour-a-saint-domingue-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Complète ce détail de l’audio.\n\n“Quand mon avion a atterri à Saint-Domingue, j’ai ressenti une joie immédiate, mais aussi une étrange _____.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "inquiétude"
+              },
+              {
+                "id": "o2",
+                "text": "Saint-Domingue"
+              },
+              {
+                "id": "o3",
+                "text": "atterri"
+              },
+              {
+                "id": "o4",
+                "text": "étrange"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quel mot complète la phrase entendue ?\n\n“Pourtant, dès les _____ jours, j’ai compris que le retour ne serait pas aussi simple.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Saint-Domingue"
+              },
+              {
+                "id": "o2",
+                "text": "premiers"
+              },
+              {
+                "id": "o3",
+                "text": "retrouvailles"
+              },
+              {
+                "id": "o4",
+                "text": "conversations"
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Ce mal du pays inversé m’a obligée à m’adapter une _____ fois.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Saint-Domingue"
+              },
+              {
+                "id": "o2",
+                "text": "retrouvailles"
+              },
+              {
+                "id": "o3",
+                "text": "nouvelle"
+              },
+              {
+                "id": "o4",
+                "text": "conversations"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Mes expériences s’étaient ajoutées les unes aux autres et _____ maintenant une identité plus large.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Saint-Domingue"
+              },
+              {
+                "id": "o2",
+                "text": "retrouvailles"
+              },
+              {
+                "id": "o3",
+                "text": "conversations"
+              },
+              {
+                "id": "o4",
+                "text": "formaient"
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Comment Sofía réagit-elle en voyant Camila ?",
+        "prompt": "Complète ce détail de l’audio.\n\n“Quand mon avion a atterri à Saint-Domingue, j’ai ressenti une joie immédiate, mais aussi une étrange _____.”",
         "options": [
-          "Avec indifférence",
-          "Avec une grande joie",
-          "Avec de la colère",
-          "Avec de la tristesse"
+          "inquiétude",
+          "Saint-Domingue",
+          "atterri",
+          "étrange"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Que remarque Sofía dans la façon de parler de Camila ?",
+        "prompt": "Quel mot complète la phrase entendue ?\n\n“Pourtant, dès les _____ jours, j’ai compris que le retour ne serait pas aussi simple.”",
         "options": [
-          "Elle parle trop vite",
-          "Elle fait des pauses avant de parler",
-          "Elle ne parle plus espagnol",
-          "Elle chuchote"
+          "Saint-Domingue",
+          "premiers",
+          "retrouvailles",
+          "conversations"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Comment Camila explique-t-elle ce changement ?",
+        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Ce mal du pays inversé m’a obligée à m’adapter une _____ fois.”",
         "options": [
-          "Elle ne l’explique pas",
-          "Elle a dû traduire dans sa tête pendant longtemps",
-          "Elle est fatiguée du voyage",
-          "Elle ne veut plus parler"
+          "Saint-Domingue",
+          "retrouvailles",
+          "nouvelle",
+          "conversations"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le ton général de cette conversation ?",
+        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Mes expériences s’étaient ajoutées les unes aux autres et _____ maintenant une identité plus large.”",
         "options": [
-          "Tendu et froid",
-          "Chaleureux et joyeux",
-          "Fâché",
-          "Indifférent"
+          "Saint-Domingue",
+          "retrouvailles",
+          "conversations",
+          "formaient"
         ]
       }
     ]
@@ -6781,92 +6985,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Que se passe-t-il au début ?",
+            "prompt": "Complète ce détail de l’audio.\n\n“Je m’appelle Camila Rodríguez et j’ai _____ ans.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Je m’appelle Camila Rodríguez et j’ai dix-huit ans."
+                "text": "dix-huit"
               },
               {
                 "id": "o2",
-                "text": "Je ne suis pas française"
+                "text": "dominicaine"
               },
               {
                 "id": "o3",
-                "text": "Je suis étudiante et je suis une personne calme et curieuse."
+                "text": "Tours"
               },
               {
                 "id": "o4",
-                "text": "Mon objectif est simple : je veux parler français pour communiquer avec de nouvelles personnes"
+                "text": "parle"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Que fait la personne ensuite ?",
+            "prompt": "Quel mot complète la phrase entendue ?\n\n“Je ne suis pas française, mais _____ beaucoup la France.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Je m’appelle Camila Rodríguez et j’ai dix-huit ans."
+                "text": "dominicaine"
               },
               {
                 "id": "o2",
-                "text": "Je ne suis pas française"
+                "text": "j’aime"
               },
               {
                 "id": "o3",
-                "text": "Je suis étudiante et je suis une personne calme et curieuse."
+                "text": "vocabulaire"
               },
               {
                 "id": "o4",
-                "text": "Mon objectif est simple : je veux parler français pour communiquer avec de nouvelles personnes"
+                "text": "communiquer"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Quel autre détail est correct ?",
+            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Je suis _____ et je suis une personne calme et curieuse.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Je m’appelle Camila Rodríguez et j’ai dix-huit ans."
+                "text": "Camila"
               },
               {
                 "id": "o2",
-                "text": "Je ne suis pas française"
+                "text": "j’aime"
               },
               {
                 "id": "o3",
-                "text": "Je suis étudiante et je suis une personne calme et curieuse."
+                "text": "étudiante"
               },
               {
                 "id": "o4",
-                "text": "Mon objectif est simple : je veux parler français pour communiquer avec de nouvelles personnes"
+                "text": "France"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Que se passe-t-il à la fin ?",
+            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Mon objectif est simple : je veux parler français pour _____ avec de nouvelles personnes et mieux découvrir la culture française.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Je m’appelle Camila Rodríguez et j’ai dix-huit ans."
+                "text": "dix-huit"
               },
               {
                 "id": "o2",
-                "text": "Je ne suis pas française"
+                "text": "j’habite"
               },
               {
                 "id": "o3",
-                "text": "Je suis étudiante et je suis une personne calme et curieuse."
+                "text": "beaucoup"
               },
               {
                 "id": "o4",
-                "text": "Mon objectif est simple : je veux parler français pour communiquer avec de nouvelles personnes"
+                "text": "communiquer"
               }
             ]
           }
@@ -6877,42 +7081,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Que se passe-t-il au début ?",
+        "prompt": "Complète ce détail de l’audio.\n\n“Je m’appelle Camila Rodríguez et j’ai _____ ans.”",
         "options": [
-          "Je m’appelle Camila Rodríguez et j’ai dix-huit ans.",
-          "Je ne suis pas française",
-          "Je suis étudiante et je suis une personne calme et curieuse.",
-          "Mon objectif est simple : je veux parler français pour communiquer avec de nouvelles personnes"
+          "dix-huit",
+          "dominicaine",
+          "Tours",
+          "parle"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Que fait la personne ensuite ?",
+        "prompt": "Quel mot complète la phrase entendue ?\n\n“Je ne suis pas française, mais _____ beaucoup la France.”",
         "options": [
-          "Je m’appelle Camila Rodríguez et j’ai dix-huit ans.",
-          "Je ne suis pas française",
-          "Je suis étudiante et je suis une personne calme et curieuse.",
-          "Mon objectif est simple : je veux parler français pour communiquer avec de nouvelles personnes"
+          "dominicaine",
+          "j’aime",
+          "vocabulaire",
+          "communiquer"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel autre détail est correct ?",
+        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Je suis _____ et je suis une personne calme et curieuse.”",
         "options": [
-          "Je m’appelle Camila Rodríguez et j’ai dix-huit ans.",
-          "Je ne suis pas française",
-          "Je suis étudiante et je suis une personne calme et curieuse.",
-          "Mon objectif est simple : je veux parler français pour communiquer avec de nouvelles personnes"
+          "Camila",
+          "j’aime",
+          "étudiante",
+          "France"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Que se passe-t-il à la fin ?",
+        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Mon objectif est simple : je veux parler français pour _____ avec de nouvelles personnes et mieux découvrir la culture française.”",
         "options": [
-          "Je m’appelle Camila Rodríguez et j’ai dix-huit ans.",
-          "Je ne suis pas française",
-          "Je suis étudiante et je suis une personne calme et curieuse.",
-          "Mon objectif est simple : je veux parler français pour communiquer avec de nouvelles personnes"
+          "dix-huit",
+          "j’habite",
+          "beaucoup",
+          "communiquer"
         ]
       }
     ]
@@ -6991,92 +7195,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Dans « Une surprise pour Léa », quel détail présente la situation ?",
+            "prompt": "Complète ce détail de l’audio.\n\n“Pour l’anniversaire de Léa, Monsieur Lambert a réservé une table au Petit _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Pour l’anniversaire de Léa, Monsieur Lambert a réservé une table au Petit Jardin."
+                "text": "Jardin"
               },
               {
                 "id": "o2",
-                "text": "Le serveur leur a apporté la carte et a expliqué qu’il fallait goûter les pâtes maison."
+                "text": "l’anniversaire"
               },
               {
                 "id": "o3",
-                "text": "Le serveur n’a rien oublié : il a rapporté la soupe chaude, puis un dessert avec une bougie."
+                "text": "Pourriez-vous"
               },
               {
                 "id": "o4",
-                "text": "Quand la soupe de Camila est arrivée froide, elle a demandé poliment : « Pourriez-vous la réchauffer ? » Le serveur n’a rien oublié : il a rapporté la soupe chaude, puis un dessert avec une bougie."
+                "text": "restaurant"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Après « Pour l’anniversaire de Léa, Monsieur Lambert a réservé une table au… », que se passe-t-il ensuite dans « Une surprise pour Léa » ?",
+            "prompt": "Quel mot complète la phrase entendue ?\n\n“Le serveur leur a _____ la carte et a expliqué qu’il fallait goûter les pâtes maison.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Pour l’anniversaire de Léa, Monsieur Lambert a réservé une table au Petit Jardin."
+                "text": "l’anniversaire"
               },
               {
                 "id": "o2",
-                "text": "Le serveur leur a apporté la carte et a expliqué qu’il fallait goûter les pâtes maison."
+                "text": "apporté"
               },
               {
                 "id": "o3",
-                "text": "Le serveur n’a rien oublié : il a rapporté la soupe chaude, puis un dessert avec une bougie."
+                "text": "Pourriez-vous"
               },
               {
                 "id": "o4",
-                "text": "Quand la soupe de Camila est arrivée froide, elle a demandé poliment : « Pourriez-vous la réchauffer ? » Le serveur n’a rien oublié : il a rapporté la soupe chaude, puis un dessert avec une bougie."
+                "text": "restaurant"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Une surprise pour Léa » ?",
+            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Le serveur n’a rien oublié : il a rapporté la soupe _____, puis un dessert avec une bougie.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Pour l’anniversaire de Léa, Monsieur Lambert a réservé une table au Petit Jardin."
+                "text": "l’anniversaire"
               },
               {
                 "id": "o2",
-                "text": "Le serveur leur a apporté la carte et a expliqué qu’il fallait goûter les pâtes maison."
+                "text": "Pourriez-vous"
               },
               {
                 "id": "o3",
-                "text": "Le serveur n’a rien oublié : il a rapporté la soupe chaude, puis un dessert avec une bougie."
+                "text": "chaude"
               },
               {
                 "id": "o4",
-                "text": "Quand la soupe de Camila est arrivée froide, elle a demandé poliment : « Pourriez-vous la réchauffer ? » Le serveur n’a rien oublié : il a rapporté la soupe chaude, puis un dessert avec une bougie."
+                "text": "restaurant"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel résultat conclut « Une surprise pour Léa » après « Le serveur n’a rien oublié : il a rapporté la soupe chaude, puis un… » ?",
+            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Quand la soupe de Camila est arrivée froide, elle a demandé _____ : « Pourriez-vous la réchauffer ? » Le serveur n’a rien oublié : il a rapporté la soupe chaude, puis un dessert avec une bougie.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Pour l’anniversaire de Léa, Monsieur Lambert a réservé une table au Petit Jardin."
+                "text": "l’anniversaire"
               },
               {
                 "id": "o2",
-                "text": "Le serveur leur a apporté la carte et a expliqué qu’il fallait goûter les pâtes maison."
+                "text": "Pourriez-vous"
               },
               {
                 "id": "o3",
-                "text": "Le serveur n’a rien oublié : il a rapporté la soupe chaude, puis un dessert avec une bougie."
+                "text": "table"
               },
               {
                 "id": "o4",
-                "text": "Quand la soupe de Camila est arrivée froide, elle a demandé poliment : « Pourriez-vous la réchauffer ? » Le serveur n’a rien oublié : il a rapporté la soupe chaude, puis un dessert avec une bougie."
+                "text": "poliment"
               }
             ]
           }
@@ -7087,42 +7291,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Dans « Une surprise pour Léa », quel détail présente la situation ?",
+        "prompt": "Complète ce détail de l’audio.\n\n“Pour l’anniversaire de Léa, Monsieur Lambert a réservé une table au Petit _____.”",
         "options": [
-          "Pour l’anniversaire de Léa, Monsieur Lambert a réservé une table au Petit Jardin.",
-          "Le serveur leur a apporté la carte et a expliqué qu’il fallait goûter les pâtes maison.",
-          "Le serveur n’a rien oublié : il a rapporté la soupe chaude, puis un dessert avec une bougie.",
-          "Quand la soupe de Camila est arrivée froide, elle a demandé poliment : « Pourriez-vous la réchauffer ? » Le serveur n’a rien oublié : il a rapporté la soupe chaude, puis un dessert avec une bougie."
+          "Jardin",
+          "l’anniversaire",
+          "Pourriez-vous",
+          "restaurant"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Après « Pour l’anniversaire de Léa, Monsieur Lambert a réservé une table au… », que se passe-t-il ensuite dans « Une surprise pour Léa » ?",
+        "prompt": "Quel mot complète la phrase entendue ?\n\n“Le serveur leur a _____ la carte et a expliqué qu’il fallait goûter les pâtes maison.”",
         "options": [
-          "Pour l’anniversaire de Léa, Monsieur Lambert a réservé une table au Petit Jardin.",
-          "Le serveur leur a apporté la carte et a expliqué qu’il fallait goûter les pâtes maison.",
-          "Le serveur n’a rien oublié : il a rapporté la soupe chaude, puis un dessert avec une bougie.",
-          "Quand la soupe de Camila est arrivée froide, elle a demandé poliment : « Pourriez-vous la réchauffer ? » Le serveur n’a rien oublié : il a rapporté la soupe chaude, puis un dessert avec une bougie."
+          "l’anniversaire",
+          "apporté",
+          "Pourriez-vous",
+          "restaurant"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Une surprise pour Léa » ?",
+        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Le serveur n’a rien oublié : il a rapporté la soupe _____, puis un dessert avec une bougie.”",
         "options": [
-          "Pour l’anniversaire de Léa, Monsieur Lambert a réservé une table au Petit Jardin.",
-          "Le serveur leur a apporté la carte et a expliqué qu’il fallait goûter les pâtes maison.",
-          "Le serveur n’a rien oublié : il a rapporté la soupe chaude, puis un dessert avec une bougie.",
-          "Quand la soupe de Camila est arrivée froide, elle a demandé poliment : « Pourriez-vous la réchauffer ? » Le serveur n’a rien oublié : il a rapporté la soupe chaude, puis un dessert avec une bougie."
+          "l’anniversaire",
+          "Pourriez-vous",
+          "chaude",
+          "restaurant"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel résultat conclut « Une surprise pour Léa » après « Le serveur n’a rien oublié : il a rapporté la soupe chaude, puis un… » ?",
+        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Quand la soupe de Camila est arrivée froide, elle a demandé _____ : « Pourriez-vous la réchauffer ? » Le serveur n’a rien oublié : il a rapporté la soupe chaude, puis un dessert avec une bougie.”",
         "options": [
-          "Pour l’anniversaire de Léa, Monsieur Lambert a réservé une table au Petit Jardin.",
-          "Le serveur leur a apporté la carte et a expliqué qu’il fallait goûter les pâtes maison.",
-          "Le serveur n’a rien oublié : il a rapporté la soupe chaude, puis un dessert avec une bougie.",
-          "Quand la soupe de Camila est arrivée froide, elle a demandé poliment : « Pourriez-vous la réchauffer ? » Le serveur n’a rien oublié : il a rapporté la soupe chaude, puis un dessert avec une bougie."
+          "l’anniversaire",
+          "Pourriez-vous",
+          "table",
+          "poliment"
         ]
       }
     ]
@@ -7242,92 +7446,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Dans « Podcast : Créoles caribéens : d’une langue de la plantation à une langue de la nation », quel détail présente la situation ?",
+            "prompt": "Complète ce détail de l’audio.\n\n“Un mot, deux syllabes, et pourtant des siècles de préjugés à déconstruire : c'est ainsi que l'on pourrait résumer, en une phrase, l'histoire des langues créoles _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Un mot, deux syllabes, et pourtant des siècles de préjugés à déconstruire : c'est ainsi que l'on pourrait résumer, en une phrase, l'histoire des langues créoles caribéennes."
+                "text": "caribéennes"
               },
               {
                 "id": "o2",
-                "text": "Confrontées à un français administratif qu'elles ne maîtrisaient pas et entre elles souvent dépourvues d'une langue commune, les populations réduites en esclavage ont élaboré des systèmes linguistiques nouveaux, empruntant leur lexique en grande partie au français tout en développant une grammaire propre, largement influencée par les langues d'Afrique de l'Ouest."
+                "text": "interdisciplinaire"
               },
               {
                 "id": "o3",
-                "text": "Le professeur avait répondu que la diversité des approches enrichissait la problématique et il avait ajouté que le groupe trouverait un consensus."
+                "text": "syllabes"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "pourtant"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Après « Un mot, deux syllabes, et pourtant des siècles de préjugés à… », que se passe-t-il ensuite dans « Podcast : Créoles caribéens : d’une langue de la plantation à une langue de la nation » ?",
+            "prompt": "Quel mot complète la phrase entendue ?\n\n“Confrontées à un _____ administratif qu'elles ne maîtrisaient pas et entre elles souvent dépourvues d'une langue commune, les populations réduites en esclavage ont élaboré des systèmes linguistiques nouveaux, empruntant leur lexique en grande partie au français tout en développant une grammaire propre, largement influencée par les langues d'Afrique de l'Ouest.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Un mot, deux syllabes, et pourtant des siècles de préjugés à déconstruire : c'est ainsi que l'on pourrait résumer, en une phrase, l'histoire des langues créoles caribéennes."
+                "text": "interdisciplinaire"
               },
               {
                 "id": "o2",
-                "text": "Confrontées à un français administratif qu'elles ne maîtrisaient pas et entre elles souvent dépourvues d'une langue commune, les populations réduites en esclavage ont élaboré des systèmes linguistiques nouveaux, empruntant leur lexique en grande partie au français tout en développant une grammaire propre, largement influencée par les langues d'Afrique de l'Ouest."
+                "text": "français"
               },
               {
                 "id": "o3",
-                "text": "Le professeur avait répondu que la diversité des approches enrichissait la problématique et il avait ajouté que le groupe trouverait un consensus."
+                "text": "administratif"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "linguistiques"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Podcast : Créoles caribéens : d’une langue de la plantation à une langue de la nation » ?",
+            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Le professeur avait répondu que la diversité des _____ enrichissait la problématique et il avait ajouté que le groupe trouverait un consensus.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Un mot, deux syllabes, et pourtant des siècles de préjugés à déconstruire : c'est ainsi que l'on pourrait résumer, en une phrase, l'histoire des langues créoles caribéennes."
+                "text": "interdisciplinaire"
               },
               {
                 "id": "o2",
-                "text": "Confrontées à un français administratif qu'elles ne maîtrisaient pas et entre elles souvent dépourvues d'une langue commune, les populations réduites en esclavage ont élaboré des systèmes linguistiques nouveaux, empruntant leur lexique en grande partie au français tout en développant une grammaire propre, largement influencée par les langues d'Afrique de l'Ouest."
+                "text": "administratif"
               },
               {
                 "id": "o3",
-                "text": "Le professeur avait répondu que la diversité des approches enrichissait la problématique et il avait ajouté que le groupe trouverait un consensus."
+                "text": "approches"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "linguistiques"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel résultat conclut « Podcast : Créoles caribéens : d’une langue de la plantation à une langue de la nation » après « Le professeur avait répondu que la diversité des approches… » ?",
+            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Un mot, deux syllabes, et pourtant des siècles de préjugés à déconstruire : c'est ainsi que l'on pourrait résumer, en une phrase, l'histoire des langues créoles caribéennes."
+                "text": "interdisciplinaire"
               },
               {
                 "id": "o2",
-                "text": "Confrontées à un français administratif qu'elles ne maîtrisaient pas et entre elles souvent dépourvues d'une langue commune, les populations réduites en esclavage ont élaboré des systèmes linguistiques nouveaux, empruntant leur lexique en grande partie au français tout en développant une grammaire propre, largement influencée par les langues d'Afrique de l'Ouest."
+                "text": "administratif"
               },
               {
                 "id": "o3",
-                "text": "Le professeur avait répondu que la diversité des approches enrichissait la problématique et il avait ajouté que le groupe trouverait un consensus."
+                "text": "linguistiques"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "relier"
               }
             ]
           }
@@ -7338,42 +7542,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Dans « Podcast : Créoles caribéens : d’une langue de la plantation à une langue de la nation », quel détail présente la situation ?",
+        "prompt": "Complète ce détail de l’audio.\n\n“Un mot, deux syllabes, et pourtant des siècles de préjugés à déconstruire : c'est ainsi que l'on pourrait résumer, en une phrase, l'histoire des langues créoles _____.”",
         "options": [
-          "Un mot, deux syllabes, et pourtant des siècles de préjugés à déconstruire : c'est ainsi que l'on pourrait résumer, en une phrase, l'histoire des langues créoles caribéennes.",
-          "Confrontées à un français administratif qu'elles ne maîtrisaient pas et entre elles souvent dépourvues d'une langue commune, les populations réduites en esclavage ont élaboré des systèmes linguistiques nouveaux, empruntant leur lexique en grande partie au français tout en développant une grammaire propre, largement influencée par les langues d'Afrique de l'Ouest.",
-          "Le professeur avait répondu que la diversité des approches enrichissait la problématique et il avait ajouté que le groupe trouverait un consensus.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "caribéennes",
+          "interdisciplinaire",
+          "syllabes",
+          "pourtant"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Après « Un mot, deux syllabes, et pourtant des siècles de préjugés à… », que se passe-t-il ensuite dans « Podcast : Créoles caribéens : d’une langue de la plantation à une langue de la nation » ?",
+        "prompt": "Quel mot complète la phrase entendue ?\n\n“Confrontées à un _____ administratif qu'elles ne maîtrisaient pas et entre elles souvent dépourvues d'une langue commune, les populations réduites en esclavage ont élaboré des systèmes linguistiques nouveaux, empruntant leur lexique en grande partie au français tout en développant une grammaire propre, largement influencée par les langues d'Afrique de l'Ouest.”",
         "options": [
-          "Un mot, deux syllabes, et pourtant des siècles de préjugés à déconstruire : c'est ainsi que l'on pourrait résumer, en une phrase, l'histoire des langues créoles caribéennes.",
-          "Confrontées à un français administratif qu'elles ne maîtrisaient pas et entre elles souvent dépourvues d'une langue commune, les populations réduites en esclavage ont élaboré des systèmes linguistiques nouveaux, empruntant leur lexique en grande partie au français tout en développant une grammaire propre, largement influencée par les langues d'Afrique de l'Ouest.",
-          "Le professeur avait répondu que la diversité des approches enrichissait la problématique et il avait ajouté que le groupe trouverait un consensus.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "interdisciplinaire",
+          "français",
+          "administratif",
+          "linguistiques"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Podcast : Créoles caribéens : d’une langue de la plantation à une langue de la nation » ?",
+        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Le professeur avait répondu que la diversité des _____ enrichissait la problématique et il avait ajouté que le groupe trouverait un consensus.”",
         "options": [
-          "Un mot, deux syllabes, et pourtant des siècles de préjugés à déconstruire : c'est ainsi que l'on pourrait résumer, en une phrase, l'histoire des langues créoles caribéennes.",
-          "Confrontées à un français administratif qu'elles ne maîtrisaient pas et entre elles souvent dépourvues d'une langue commune, les populations réduites en esclavage ont élaboré des systèmes linguistiques nouveaux, empruntant leur lexique en grande partie au français tout en développant une grammaire propre, largement influencée par les langues d'Afrique de l'Ouest.",
-          "Le professeur avait répondu que la diversité des approches enrichissait la problématique et il avait ajouté que le groupe trouverait un consensus.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "interdisciplinaire",
+          "administratif",
+          "approches",
+          "linguistiques"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel résultat conclut « Podcast : Créoles caribéens : d’une langue de la plantation à une langue de la nation » après « Le professeur avait répondu que la diversité des approches… » ?",
+        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
         "options": [
-          "Un mot, deux syllabes, et pourtant des siècles de préjugés à déconstruire : c'est ainsi que l'on pourrait résumer, en une phrase, l'histoire des langues créoles caribéennes.",
-          "Confrontées à un français administratif qu'elles ne maîtrisaient pas et entre elles souvent dépourvues d'une langue commune, les populations réduites en esclavage ont élaboré des systèmes linguistiques nouveaux, empruntant leur lexique en grande partie au français tout en développant une grammaire propre, largement influencée par les langues d'Afrique de l'Ouest.",
-          "Le professeur avait répondu que la diversité des approches enrichissait la problématique et il avait ajouté que le groupe trouverait un consensus.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "interdisciplinaire",
+          "administratif",
+          "linguistiques",
+          "relier"
         ]
       }
     ]
@@ -7508,92 +7712,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Dans « Podcast : Décarboner à temps : course contre une horloge incertaine », quel détail présente la situation ?",
+            "prompt": "Complète ce détail de l’audio.\n\n“Chaque rapport annuel sur le climat répète le même constat : la trajectoire actuelle ne suffit pas encore à respecter les seuils fixés _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Chaque rapport annuel sur le climat répète le même constat : la trajectoire actuelle ne suffit pas encore à respecter les seuils fixés collectivement."
+                "text": "collectivement"
               },
               {
                 "id": "o2",
-                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+                "text": "trajectoire"
               },
               {
                 "id": "o3",
-                "text": "Si la trajectoire actuelle des émissions s’était infléchie plus tôt, le seuil de 1,5 degré aurait pu rester atteignable sans mesures aussi coûteuses."
+                "text": "dépassement"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "l’expliquer"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Après « Chaque rapport annuel sur le climat répète le même constat : la… », que se passe-t-il ensuite dans « Podcast : Décarboner à temps : course contre une horloge incertaine » ?",
+            "prompt": "Quel mot complète la phrase entendue ?\n\n“Une _____ sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Chaque rapport annuel sur le climat répète le même constat : la trajectoire actuelle ne suffit pas encore à respecter les seuils fixés collectivement."
+                "text": "l’électrification"
               },
               {
                 "id": "o2",
-                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+                "text": "réponse"
               },
               {
                 "id": "o3",
-                "text": "Si la trajectoire actuelle des émissions s’était infléchie plus tôt, le seuil de 1,5 degré aurait pu rester atteignable sans mesures aussi coûteuses."
+                "text": "interchangeables"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "préindustrielle"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Podcast : Décarboner à temps : course contre une horloge incertaine » ?",
+            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Si la trajectoire actuelle des émissions _____ infléchie plus tôt, le seuil de 1,5 degré aurait pu rester atteignable sans mesures aussi coûteuses.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Chaque rapport annuel sur le climat répète le même constat : la trajectoire actuelle ne suffit pas encore à respecter les seuils fixés collectivement."
+                "text": "l’électrification"
               },
               {
                 "id": "o2",
-                "text": "Si la trajectoire actuelle des émissions s’était infléchie plus tôt, le seuil de 1,5 degré aurait pu rester atteignable sans mesures aussi coûteuses."
+                "text": "interchangeables"
               },
               {
                 "id": "o3",
-                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+                "text": "s’était"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "préindustrielle"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel résultat conclut « Podcast : Décarboner à temps : course contre une horloge incertaine » après « Une réponse sérieuse doit distinguer ce que les données montrent, le… » ?",
+            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Chaque rapport annuel sur le climat répète le même constat : la trajectoire actuelle ne suffit pas encore à respecter les seuils fixés collectivement."
+                "text": "l’électrification"
               },
               {
                 "id": "o2",
-                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+                "text": "interchangeables"
               },
               {
                 "id": "o3",
-                "text": "Si la trajectoire actuelle des émissions s’était infléchie plus tôt, le seuil de 1,5 degré aurait pu rester atteignable sans mesures aussi coûteuses."
+                "text": "préindustrielle"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "relier"
               }
             ]
           }
@@ -7604,42 +7808,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Dans « Podcast : Décarboner à temps : course contre une horloge incertaine », quel détail présente la situation ?",
+        "prompt": "Complète ce détail de l’audio.\n\n“Chaque rapport annuel sur le climat répète le même constat : la trajectoire actuelle ne suffit pas encore à respecter les seuils fixés _____.”",
         "options": [
-          "Chaque rapport annuel sur le climat répète le même constat : la trajectoire actuelle ne suffit pas encore à respecter les seuils fixés collectivement.",
-          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.",
-          "Si la trajectoire actuelle des émissions s’était infléchie plus tôt, le seuil de 1,5 degré aurait pu rester atteignable sans mesures aussi coûteuses.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "collectivement",
+          "trajectoire",
+          "dépassement",
+          "l’expliquer"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Après « Chaque rapport annuel sur le climat répète le même constat : la… », que se passe-t-il ensuite dans « Podcast : Décarboner à temps : course contre une horloge incertaine » ?",
+        "prompt": "Quel mot complète la phrase entendue ?\n\n“Une _____ sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.”",
         "options": [
-          "Chaque rapport annuel sur le climat répète le même constat : la trajectoire actuelle ne suffit pas encore à respecter les seuils fixés collectivement.",
-          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.",
-          "Si la trajectoire actuelle des émissions s’était infléchie plus tôt, le seuil de 1,5 degré aurait pu rester atteignable sans mesures aussi coûteuses.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "l’électrification",
+          "réponse",
+          "interchangeables",
+          "préindustrielle"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Podcast : Décarboner à temps : course contre une horloge incertaine » ?",
+        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Si la trajectoire actuelle des émissions _____ infléchie plus tôt, le seuil de 1,5 degré aurait pu rester atteignable sans mesures aussi coûteuses.”",
         "options": [
-          "Chaque rapport annuel sur le climat répète le même constat : la trajectoire actuelle ne suffit pas encore à respecter les seuils fixés collectivement.",
-          "Si la trajectoire actuelle des émissions s’était infléchie plus tôt, le seuil de 1,5 degré aurait pu rester atteignable sans mesures aussi coûteuses.",
-          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "l’électrification",
+          "interchangeables",
+          "s’était",
+          "préindustrielle"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel résultat conclut « Podcast : Décarboner à temps : course contre une horloge incertaine » après « Une réponse sérieuse doit distinguer ce que les données montrent, le… » ?",
+        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
         "options": [
-          "Chaque rapport annuel sur le climat répète le même constat : la trajectoire actuelle ne suffit pas encore à respecter les seuils fixés collectivement.",
-          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.",
-          "Si la trajectoire actuelle des émissions s’était infléchie plus tôt, le seuil de 1,5 degré aurait pu rester atteignable sans mesures aussi coûteuses.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "l’électrification",
+          "interchangeables",
+          "préindustrielle",
+          "relier"
         ]
       }
     ]
@@ -7731,38 +7935,145 @@
           "text": "Mon parcours me rappelle qu’un petit défi peut parfois transformer durablement notre manière de nous voir."
         }
       ],
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "french-b1-identite-et-parcours-personnel-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Complète ce détail de l’audio.\n\n“Je m’appelle Élodie et, aujourd’hui, je vais vous parler de mon _____.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "parcours"
+              },
+              {
+                "id": "o2",
+                "text": "représentation"
+              },
+              {
+                "id": "o3",
+                "text": "complètement"
+              },
+              {
+                "id": "o4",
+                "text": "aujourd’hui"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quel mot complète la phrase entendue ?\n\n“Un jour, une professeure m’a _____ de rejoindre un atelier de théâtre.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "représentation"
+              },
+              {
+                "id": "o2",
+                "text": "proposé"
+              },
+              {
+                "id": "o3",
+                "text": "complètement"
+              },
+              {
+                "id": "o4",
+                "text": "aujourd’hui"
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“La première représentation a changé _____ chose en moi : j’ai compris que je pouvais dépasser mes inquiétudes.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "représentation"
+              },
+              {
+                "id": "o2",
+                "text": "complètement"
+              },
+              {
+                "id": "o3",
+                "text": "quelque"
+              },
+              {
+                "id": "o4",
+                "text": "aujourd’hui"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Mon parcours me rappelle qu’un petit défi peut parfois transformer _____ notre manière de nous voir.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "parcours"
+              },
+              {
+                "id": "o2",
+                "text": "patience"
+              },
+              {
+                "id": "o3",
+                "text": "respirer"
+              },
+              {
+                "id": "o4",
+                "text": "durablement"
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Comment Camila décrit-elle sa personnalité avant son arrivée en France ?",
+        "prompt": "Complète ce détail de l’audio.\n\n“Je m’appelle Élodie et, aujourd’hui, je vais vous parler de mon _____.”",
         "options": [
-          "Bavarde",
-          "Timide",
-          "Impatiente",
-          "Fâchée"
+          "parcours",
+          "représentation",
+          "complètement",
+          "aujourd’hui"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Comment réagit Karim à cette information ?",
+        "prompt": "Quel mot complète la phrase entendue ?\n\n“Un jour, une professeure m’a _____ de rejoindre un atelier de théâtre.”",
         "options": [
-          "Il n’est pas surpris",
-          "Il est surpris",
-          "Il ne la croit pas",
-          "Il change de sujet"
+          "représentation",
+          "proposé",
+          "complètement",
+          "aujourd’hui"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Que dit Camila sur son évolution ?",
+        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“La première représentation a changé _____ chose en moi : j’ai compris que je pouvais dépasser mes inquiétudes.”",
         "options": [
-          "Elle n’a pas changé",
-          "Elle a beaucoup changé",
-          "Elle veut redevenir comme avant",
-          "Elle ne sait pas"
+          "représentation",
+          "complètement",
+          "quelque",
+          "aujourd’hui"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Mon parcours me rappelle qu’un petit défi peut parfois transformer _____ notre manière de nous voir.”",
+        "options": [
+          "parcours",
+          "patience",
+          "respirer",
+          "durablement"
         ]
       }
     ]
@@ -7884,38 +8195,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "french-b2-candidature-universitaire-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Complète ce détail de l’audio.\n\n“Une bonne lettre de motivation ne répète pas _____ le CV.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "simplement"
+              },
+              {
+                "id": "o2",
+                "text": "l’établissement"
+              },
+              {
+                "id": "o3",
+                "text": "choisie"
+              },
+              {
+                "id": "o4",
+                "text": "compris"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quel mot complète la phrase entendue ?\n\n“Évitez les _____ générales comme « J’ai toujours aimé apprendre ».”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "formation"
+              },
+              {
+                "id": "o2",
+                "text": "déclarations"
+              },
+              {
+                "id": "o3",
+                "text": "démarquer"
+              },
+              {
+                "id": "o4",
+                "text": "important"
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Le premier doit annoncer votre démarche ; le _____ apporte des preuves ; le dernier ouvre sur l’avenir.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "l’établissement"
+              },
+              {
+                "id": "o2",
+                "text": "déclarations"
+              },
+              {
+                "id": "o3",
+                "text": "deuxième"
+              },
+              {
+                "id": "o4",
+                "text": "responsables"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Elle permet au lecteur de comprendre ce que vous avez déjà construit et pourquoi cette _____ représente une étape cohérente.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "l’établissement"
+              },
+              {
+                "id": "o2",
+                "text": "lettre"
+              },
+              {
+                "id": "o3",
+                "text": "répète"
+              },
+              {
+                "id": "o4",
+                "text": "formation"
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Quel est le problème de Camila au début ?",
+        "prompt": "Complète ce détail de l’audio.\n\n“Une bonne lettre de motivation ne répète pas _____ le CV.”",
         "options": [
-          "Elle n’a pas d’ordinateur",
-          "Elle ne sait pas comment commencer sa lettre",
-          "Elle a raté la date limite",
-          "Elle ne veut plus étudier en France"
+          "simplement",
+          "l’établissement",
+          "choisie",
+          "compris"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Que conseille Karim en premier ?",
+        "prompt": "Quel mot complète la phrase entendue ?\n\n“Évitez les _____ générales comme « J’ai toujours aimé apprendre ».”",
         "options": [
-          "De copier une lettre modèle",
-          "D’expliquer ce qui a déclenché son intérêt",
-          "De ne rien écrire de personnel",
-          "D’écrire en anglais"
+          "formation",
+          "déclarations",
+          "démarquer",
+          "important"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Que doit expliquer Camila à la fin de la lettre, selon Karim ?",
+        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Le premier doit annoncer votre démarche ; le _____ apporte des preuves ; le dernier ouvre sur l’avenir.”",
         "options": [
-          "Ses notes scolaires uniquement",
-          "Ce qu’elle apportera à l’université",
-          "Ses problèmes personnels",
-          "Le prix des études"
+          "l’établissement",
+          "déclarations",
+          "deuxième",
+          "responsables"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Elle permet au lecteur de comprendre ce que vous avez déjà construit et pourquoi cette _____ représente une étape cohérente.”",
+        "options": [
+          "l’établissement",
+          "lettre",
+          "répète",
+          "formation"
         ]
       }
     ]
@@ -12266,92 +12684,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Que se passe-t-il au début ?",
+            "prompt": "Complète ce détail de l’audio.\n\n“Ma famille habite en République _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Ma famille habite en République dominicaine."
+                "text": "dominicaine"
               },
               {
                 "id": "o2",
-                "text": "Mes parents me téléphonent souvent."
+                "text": "football"
               },
               {
                 "id": "o3",
-                "text": "Léa est ma nouvelle amie et Paul est son petit frère."
+                "text": "j’habite"
               },
               {
                 "id": "o4",
-                "text": "Ma famille me manque"
+                "text": "nouvelle"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Que fait la personne ensuite ?",
+            "prompt": "Quel mot complète la phrase entendue ?\n\n“Mes _____ me téléphonent souvent.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Ma famille habite en République dominicaine."
+                "text": "dominicaine"
               },
               {
                 "id": "o2",
-                "text": "Mes parents me téléphonent souvent."
+                "text": "parents"
               },
               {
                 "id": "o3",
-                "text": "Léa est ma nouvelle amie et Paul est son petit frère."
+                "text": "téléphonent"
               },
               {
                 "id": "o4",
-                "text": "Ma famille me manque"
+                "text": "confortable"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Quel autre détail est correct ?",
+            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“_____ est ma nouvelle amie et Paul est son petit frère.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Ma famille habite en République dominicaine."
+                "text": "dominicaine"
               },
               {
                 "id": "o2",
-                "text": "Mes parents me téléphonent souvent."
+                "text": "téléphonent"
               },
               {
                 "id": "o3",
-                "text": "Léa est ma nouvelle amie et Paul est son petit frère."
+                "text": "Léa"
               },
               {
                 "id": "o4",
-                "text": "Ma famille me manque"
+                "text": "confortable"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Que se passe-t-il à la fin ?",
+            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ma famille me manque, mais ma famille d’accueil m’aide à me _____ bien en France.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Ma famille habite en République dominicaine."
+                "text": "dominicaine"
               },
               {
                 "id": "o2",
-                "text": "Mes parents me téléphonent souvent."
+                "text": "téléphonent"
               },
               {
                 "id": "o3",
-                "text": "Léa est ma nouvelle amie et Paul est son petit frère."
+                "text": "confortable"
               },
               {
                 "id": "o4",
-                "text": "Ma famille me manque"
+                "text": "sentir"
               }
             ]
           }
@@ -12362,42 +12780,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Que se passe-t-il au début ?",
+        "prompt": "Complète ce détail de l’audio.\n\n“Ma famille habite en République _____.”",
         "options": [
-          "Ma famille habite en République dominicaine.",
-          "Mes parents me téléphonent souvent.",
-          "Léa est ma nouvelle amie et Paul est son petit frère.",
-          "Ma famille me manque"
+          "dominicaine",
+          "football",
+          "j’habite",
+          "nouvelle"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Que fait la personne ensuite ?",
+        "prompt": "Quel mot complète la phrase entendue ?\n\n“Mes _____ me téléphonent souvent.”",
         "options": [
-          "Ma famille habite en République dominicaine.",
-          "Mes parents me téléphonent souvent.",
-          "Léa est ma nouvelle amie et Paul est son petit frère.",
-          "Ma famille me manque"
+          "dominicaine",
+          "parents",
+          "téléphonent",
+          "confortable"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel autre détail est correct ?",
+        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“_____ est ma nouvelle amie et Paul est son petit frère.”",
         "options": [
-          "Ma famille habite en République dominicaine.",
-          "Mes parents me téléphonent souvent.",
-          "Léa est ma nouvelle amie et Paul est son petit frère.",
-          "Ma famille me manque"
+          "dominicaine",
+          "téléphonent",
+          "Léa",
+          "confortable"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Que se passe-t-il à la fin ?",
+        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ma famille me manque, mais ma famille d’accueil m’aide à me _____ bien en France.”",
         "options": [
-          "Ma famille habite en République dominicaine.",
-          "Mes parents me téléphonent souvent.",
-          "Léa est ma nouvelle amie et Paul est son petit frère.",
-          "Ma famille me manque"
+          "dominicaine",
+          "téléphonent",
+          "confortable",
+          "sentir"
         ]
       }
     ]
@@ -12486,92 +12904,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Dans « Le mauvais arrêt », quel détail présente la situation ?",
+            "prompt": "Complète ce détail de l’audio.\n\n“Camila doit retrouver Karim à la bibliothèque, mais elle _____ du bus un arrêt trop tôt.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Camila doit retrouver Karim à la bibliothèque, mais elle descend du bus un arrêt trop tôt."
+                "text": "descend"
               },
               {
                 "id": "o2",
-                "text": "Camila répète les indications pour ne pas les oublier."
+                "text": "bibliothèque"
               },
               {
                 "id": "o3",
-                "text": "Elle retrouve Karim devant l’entrée et lui montre son ticket de bus."
+                "text": "boulangerie"
               },
               {
                 "id": "o4",
-                "text": "Un employé lui explique que la bibliothèque est près du musée : « Prenez la deuxième rue à droite et continuez jusqu’au parc. » Cette fois, Camila suit chaque instruction."
+                "text": "indications"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Après « Camila doit retrouver Karim à la bibliothèque, mais elle descend du… », que se passe-t-il ensuite dans « Le mauvais arrêt » ?",
+            "prompt": "Quel mot complète la phrase entendue ?\n\n“Camila _____ les indications pour ne pas les oublier.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Camila doit retrouver Karim à la bibliothèque, mais elle descend du bus un arrêt trop tôt."
+                "text": "bibliothèque"
               },
               {
                 "id": "o2",
-                "text": "Camila répète les indications pour ne pas les oublier."
+                "text": "répète"
               },
               {
                 "id": "o3",
-                "text": "Elle retrouve Karim devant l’entrée et lui montre son ticket de bus."
+                "text": "boulangerie"
               },
               {
                 "id": "o4",
-                "text": "Un employé lui explique que la bibliothèque est près du musée : « Prenez la deuxième rue à droite et continuez jusqu’au parc. » Cette fois, Camila suit chaque instruction."
+                "text": "indications"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Le mauvais arrêt » ?",
+            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Elle retrouve Karim devant _____ et lui montre son ticket de bus.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Camila doit retrouver Karim à la bibliothèque, mais elle descend du bus un arrêt trop tôt."
+                "text": "bibliothèque"
               },
               {
                 "id": "o2",
-                "text": "Camila répète les indications pour ne pas les oublier."
+                "text": "Karim"
               },
               {
                 "id": "o3",
-                "text": "Elle retrouve Karim devant l’entrée et lui montre son ticket de bus."
+                "text": "l’entrée"
               },
               {
                 "id": "o4",
-                "text": "Un employé lui explique que la bibliothèque est près du musée : « Prenez la deuxième rue à droite et continuez jusqu’au parc. » Cette fois, Camila suit chaque instruction."
+                "text": "arrêt"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel résultat conclut « Le mauvais arrêt » après « Elle retrouve Karim devant l’entrée et lui montre son ticket de bus. » ?",
+            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Un employé lui explique que la bibliothèque est près du musée : « Prenez la deuxième rue à _____ et continuez jusqu’au parc. » Cette fois, Camila suit chaque instruction.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Camila doit retrouver Karim à la bibliothèque, mais elle descend du bus un arrêt trop tôt."
+                "text": "bibliothèque"
               },
               {
                 "id": "o2",
-                "text": "Camila répète les indications pour ne pas les oublier."
+                "text": "boulangerie"
               },
               {
                 "id": "o3",
-                "text": "Elle retrouve Karim devant l’entrée et lui montre son ticket de bus."
+                "text": "indications"
               },
               {
                 "id": "o4",
-                "text": "Un employé lui explique que la bibliothèque est près du musée : « Prenez la deuxième rue à droite et continuez jusqu’au parc. » Cette fois, Camila suit chaque instruction."
+                "text": "droite"
               }
             ]
           }
@@ -12582,42 +13000,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Dans « Le mauvais arrêt », quel détail présente la situation ?",
+        "prompt": "Complète ce détail de l’audio.\n\n“Camila doit retrouver Karim à la bibliothèque, mais elle _____ du bus un arrêt trop tôt.”",
         "options": [
-          "Camila doit retrouver Karim à la bibliothèque, mais elle descend du bus un arrêt trop tôt.",
-          "Camila répète les indications pour ne pas les oublier.",
-          "Elle retrouve Karim devant l’entrée et lui montre son ticket de bus.",
-          "Un employé lui explique que la bibliothèque est près du musée : « Prenez la deuxième rue à droite et continuez jusqu’au parc. » Cette fois, Camila suit chaque instruction."
+          "descend",
+          "bibliothèque",
+          "boulangerie",
+          "indications"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Après « Camila doit retrouver Karim à la bibliothèque, mais elle descend du… », que se passe-t-il ensuite dans « Le mauvais arrêt » ?",
+        "prompt": "Quel mot complète la phrase entendue ?\n\n“Camila _____ les indications pour ne pas les oublier.”",
         "options": [
-          "Camila doit retrouver Karim à la bibliothèque, mais elle descend du bus un arrêt trop tôt.",
-          "Camila répète les indications pour ne pas les oublier.",
-          "Elle retrouve Karim devant l’entrée et lui montre son ticket de bus.",
-          "Un employé lui explique que la bibliothèque est près du musée : « Prenez la deuxième rue à droite et continuez jusqu’au parc. » Cette fois, Camila suit chaque instruction."
+          "bibliothèque",
+          "répète",
+          "boulangerie",
+          "indications"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Le mauvais arrêt » ?",
+        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Elle retrouve Karim devant _____ et lui montre son ticket de bus.”",
         "options": [
-          "Camila doit retrouver Karim à la bibliothèque, mais elle descend du bus un arrêt trop tôt.",
-          "Camila répète les indications pour ne pas les oublier.",
-          "Elle retrouve Karim devant l’entrée et lui montre son ticket de bus.",
-          "Un employé lui explique que la bibliothèque est près du musée : « Prenez la deuxième rue à droite et continuez jusqu’au parc. » Cette fois, Camila suit chaque instruction."
+          "bibliothèque",
+          "Karim",
+          "l’entrée",
+          "arrêt"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel résultat conclut « Le mauvais arrêt » après « Elle retrouve Karim devant l’entrée et lui montre son ticket de bus. » ?",
+        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Un employé lui explique que la bibliothèque est près du musée : « Prenez la deuxième rue à _____ et continuez jusqu’au parc. » Cette fois, Camila suit chaque instruction.”",
         "options": [
-          "Camila doit retrouver Karim à la bibliothèque, mais elle descend du bus un arrêt trop tôt.",
-          "Camila répète les indications pour ne pas les oublier.",
-          "Elle retrouve Karim devant l’entrée et lui montre son ticket de bus.",
-          "Un employé lui explique que la bibliothèque est près du musée : « Prenez la deuxième rue à droite et continuez jusqu’au parc. » Cette fois, Camila suit chaque instruction."
+          "bibliothèque",
+          "boulangerie",
+          "indications",
+          "droite"
         ]
       }
     ]
@@ -12742,92 +13160,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Dans « Éditorial : Une information, plusieurs récits », quel détail présente la situation ?",
+            "prompt": "Complète ce détail de l’audio.\n\n“Un chiffre, deux mots, trois traitements radicalement différents : voilà ce qu’a produit, au printemps 2023, l’annonce de la réforme des retraites en _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Un chiffre, deux mots, trois traitements radicalement différents : voilà ce qu’a produit, au printemps 2023, l’annonce de la réforme des retraites en France."
+                "text": "France"
               },
               {
                 "id": "o2",
-                "text": "Les rédactions citaient les mêmes projections démographiques du Conseil d’orientation des retraites ; aucune ne racontait tout à fait la même histoire."
+                "text": "hiérarchisation"
               },
               {
                 "id": "o3",
-                "text": "Elles ne constituent pas une simple liste : chacune éclaire une étape, une tension ou une conséquence du problème."
+                "text": "manifestations"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "démographiques"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Après « Un chiffre, deux mots, trois traitements radicalement différents :… », que se passe-t-il ensuite dans « Éditorial : Une information, plusieurs récits » ?",
+            "prompt": "Quel mot complète la phrase entendue ?\n\n“Les _____ citaient les mêmes projections démographiques du Conseil d’orientation des retraites ; aucune ne racontait tout à fait la même histoire.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Un chiffre, deux mots, trois traitements radicalement différents : voilà ce qu’a produit, au printemps 2023, l’annonce de la réforme des retraites en France."
+                "text": "hiérarchisation"
               },
               {
                 "id": "o2",
-                "text": "Les rédactions citaient les mêmes projections démographiques du Conseil d’orientation des retraites ; aucune ne racontait tout à fait la même histoire."
+                "text": "rédactions"
               },
               {
                 "id": "o3",
-                "text": "Elles ne constituent pas une simple liste : chacune éclaire une étape, une tension ou une conséquence du problème."
+                "text": "manifestations"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "démographiques"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Éditorial : Une information, plusieurs récits » ?",
+            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Elles ne constituent pas une simple liste : chacune _____ une étape, une tension ou une conséquence du problème.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Un chiffre, deux mots, trois traitements radicalement différents : voilà ce qu’a produit, au printemps 2023, l’annonce de la réforme des retraites en France."
+                "text": "hiérarchisation"
               },
               {
                 "id": "o2",
-                "text": "Les rédactions citaient les mêmes projections démographiques du Conseil d’orientation des retraites ; aucune ne racontait tout à fait la même histoire."
+                "text": "manifestations"
               },
               {
                 "id": "o3",
-                "text": "Elles ne constituent pas une simple liste : chacune éclaire une étape, une tension ou une conséquence du problème."
+                "text": "éclaire"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "démographiques"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel résultat conclut « Éditorial : Une information, plusieurs récits » après « Elles ne constituent pas une simple liste : chacune éclaire une étape,… » ?",
+            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Un chiffre, deux mots, trois traitements radicalement différents : voilà ce qu’a produit, au printemps 2023, l’annonce de la réforme des retraites en France."
+                "text": "hiérarchisation"
               },
               {
                 "id": "o2",
-                "text": "Les rédactions citaient les mêmes projections démographiques du Conseil d’orientation des retraites ; aucune ne racontait tout à fait la même histoire."
+                "text": "manifestations"
               },
               {
                 "id": "o3",
-                "text": "Elles ne constituent pas une simple liste : chacune éclaire une étape, une tension ou une conséquence du problème."
+                "text": "démographiques"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "relier"
               }
             ]
           }
@@ -12838,42 +13256,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Dans « Éditorial : Une information, plusieurs récits », quel détail présente la situation ?",
+        "prompt": "Complète ce détail de l’audio.\n\n“Un chiffre, deux mots, trois traitements radicalement différents : voilà ce qu’a produit, au printemps 2023, l’annonce de la réforme des retraites en _____.”",
         "options": [
-          "Un chiffre, deux mots, trois traitements radicalement différents : voilà ce qu’a produit, au printemps 2023, l’annonce de la réforme des retraites en France.",
-          "Les rédactions citaient les mêmes projections démographiques du Conseil d’orientation des retraites ; aucune ne racontait tout à fait la même histoire.",
-          "Elles ne constituent pas une simple liste : chacune éclaire une étape, une tension ou une conséquence du problème.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "France",
+          "hiérarchisation",
+          "manifestations",
+          "démographiques"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Après « Un chiffre, deux mots, trois traitements radicalement différents :… », que se passe-t-il ensuite dans « Éditorial : Une information, plusieurs récits » ?",
+        "prompt": "Quel mot complète la phrase entendue ?\n\n“Les _____ citaient les mêmes projections démographiques du Conseil d’orientation des retraites ; aucune ne racontait tout à fait la même histoire.”",
         "options": [
-          "Un chiffre, deux mots, trois traitements radicalement différents : voilà ce qu’a produit, au printemps 2023, l’annonce de la réforme des retraites en France.",
-          "Les rédactions citaient les mêmes projections démographiques du Conseil d’orientation des retraites ; aucune ne racontait tout à fait la même histoire.",
-          "Elles ne constituent pas une simple liste : chacune éclaire une étape, une tension ou une conséquence du problème.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "hiérarchisation",
+          "rédactions",
+          "manifestations",
+          "démographiques"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Éditorial : Une information, plusieurs récits » ?",
+        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Elles ne constituent pas une simple liste : chacune _____ une étape, une tension ou une conséquence du problème.”",
         "options": [
-          "Un chiffre, deux mots, trois traitements radicalement différents : voilà ce qu’a produit, au printemps 2023, l’annonce de la réforme des retraites en France.",
-          "Les rédactions citaient les mêmes projections démographiques du Conseil d’orientation des retraites ; aucune ne racontait tout à fait la même histoire.",
-          "Elles ne constituent pas une simple liste : chacune éclaire une étape, une tension ou une conséquence du problème.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "hiérarchisation",
+          "manifestations",
+          "éclaire",
+          "démographiques"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel résultat conclut « Éditorial : Une information, plusieurs récits » après « Elles ne constituent pas une simple liste : chacune éclaire une étape,… » ?",
+        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
         "options": [
-          "Un chiffre, deux mots, trois traitements radicalement différents : voilà ce qu’a produit, au printemps 2023, l’annonce de la réforme des retraites en France.",
-          "Les rédactions citaient les mêmes projections démographiques du Conseil d’orientation des retraites ; aucune ne racontait tout à fait la même histoire.",
-          "Elles ne constituent pas une simple liste : chacune éclaire une étape, une tension ou une conséquence du problème.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "hiérarchisation",
+          "manifestations",
+          "démographiques",
+          "relier"
         ]
       }
     ]
@@ -13008,92 +13426,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Dans « Éditorial : Un monde multipolaire est-il nécessairement plus instable ? », quel détail présente la situation ?",
+            "prompt": "Complète ce détail de l’audio.\n\n“Deux puissances dominantes ou plusieurs pôles rivaux : la structure même du pouvoir mondial influence-t-elle la fréquence des conflits qui _____ ?”",
             "options": [
               {
                 "id": "o1",
-                "text": "Deux puissances dominantes ou plusieurs pôles rivaux : la structure même du pouvoir mondial influence-t-elle la fréquence des conflits qui l’agitent ?"
+                "text": "l’agitent"
               },
               {
                 "id": "o2",
-                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+                "text": "influence-t-elle"
               },
               {
                 "id": "o3",
-                "text": "Selon certains analystes, la multipolarité multiplierait les frictions ; d’autres soutiennent au contraire qu’elle multiplie les canaux de médiation disponibles."
+                "text": "interchangeables"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "multilatéralisme"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Après « Deux puissances dominantes ou plusieurs pôles rivaux : la structure… », que se passe-t-il ensuite dans « Éditorial : Un monde multipolaire est-il nécessairement plus instable ? » ?",
+            "prompt": "Quel mot complète la phrase entendue ?\n\n“Une _____ sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Deux puissances dominantes ou plusieurs pôles rivaux : la structure même du pouvoir mondial influence-t-elle la fréquence des conflits qui l’agitent ?"
+                "text": "influence-t-elle"
               },
               {
                 "id": "o2",
-                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+                "text": "réponse"
               },
               {
                 "id": "o3",
-                "text": "Selon certains analystes, la multipolarité multiplierait les frictions ; d’autres soutiennent au contraire qu’elle multiplie les canaux de médiation disponibles."
+                "text": "interchangeables"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "multilatéralisme"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Éditorial : Un monde multipolaire est-il nécessairement plus instable ? » ?",
+            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Selon certains analystes, la _____ multiplierait les frictions ; d’autres soutiennent au contraire qu’elle multiplie les canaux de médiation disponibles.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Deux puissances dominantes ou plusieurs pôles rivaux : la structure même du pouvoir mondial influence-t-elle la fréquence des conflits qui l’agitent ?"
+                "text": "puissances"
               },
               {
                 "id": "o2",
-                "text": "Selon certains analystes, la multipolarité multiplierait les frictions ; d’autres soutiennent au contraire qu’elle multiplie les canaux de médiation disponibles."
+                "text": "dominantes"
               },
               {
                 "id": "o3",
-                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+                "text": "multipolarité"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "influence-t-elle"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel résultat conclut « Éditorial : Un monde multipolaire est-il nécessairement plus instable ? » après « Une réponse sérieuse doit distinguer ce que les données montrent, le… » ?",
+            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Deux puissances dominantes ou plusieurs pôles rivaux : la structure même du pouvoir mondial influence-t-elle la fréquence des conflits qui l’agitent ?"
+                "text": "influence-t-elle"
               },
               {
                 "id": "o2",
-                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+                "text": "interchangeables"
               },
               {
                 "id": "o3",
-                "text": "Selon certains analystes, la multipolarité multiplierait les frictions ; d’autres soutiennent au contraire qu’elle multiplie les canaux de médiation disponibles."
+                "text": "multilatéralisme"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "relier"
               }
             ]
           }
@@ -13104,42 +13522,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Dans « Éditorial : Un monde multipolaire est-il nécessairement plus instable ? », quel détail présente la situation ?",
+        "prompt": "Complète ce détail de l’audio.\n\n“Deux puissances dominantes ou plusieurs pôles rivaux : la structure même du pouvoir mondial influence-t-elle la fréquence des conflits qui _____ ?”",
         "options": [
-          "Deux puissances dominantes ou plusieurs pôles rivaux : la structure même du pouvoir mondial influence-t-elle la fréquence des conflits qui l’agitent ?",
-          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.",
-          "Selon certains analystes, la multipolarité multiplierait les frictions ; d’autres soutiennent au contraire qu’elle multiplie les canaux de médiation disponibles.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "l’agitent",
+          "influence-t-elle",
+          "interchangeables",
+          "multilatéralisme"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Après « Deux puissances dominantes ou plusieurs pôles rivaux : la structure… », que se passe-t-il ensuite dans « Éditorial : Un monde multipolaire est-il nécessairement plus instable ? » ?",
+        "prompt": "Quel mot complète la phrase entendue ?\n\n“Une _____ sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.”",
         "options": [
-          "Deux puissances dominantes ou plusieurs pôles rivaux : la structure même du pouvoir mondial influence-t-elle la fréquence des conflits qui l’agitent ?",
-          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.",
-          "Selon certains analystes, la multipolarité multiplierait les frictions ; d’autres soutiennent au contraire qu’elle multiplie les canaux de médiation disponibles.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "influence-t-elle",
+          "réponse",
+          "interchangeables",
+          "multilatéralisme"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Éditorial : Un monde multipolaire est-il nécessairement plus instable ? » ?",
+        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Selon certains analystes, la _____ multiplierait les frictions ; d’autres soutiennent au contraire qu’elle multiplie les canaux de médiation disponibles.”",
         "options": [
-          "Deux puissances dominantes ou plusieurs pôles rivaux : la structure même du pouvoir mondial influence-t-elle la fréquence des conflits qui l’agitent ?",
-          "Selon certains analystes, la multipolarité multiplierait les frictions ; d’autres soutiennent au contraire qu’elle multiplie les canaux de médiation disponibles.",
-          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "puissances",
+          "dominantes",
+          "multipolarité",
+          "influence-t-elle"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel résultat conclut « Éditorial : Un monde multipolaire est-il nécessairement plus instable ? » après « Une réponse sérieuse doit distinguer ce que les données montrent, le… » ?",
+        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
         "options": [
-          "Deux puissances dominantes ou plusieurs pôles rivaux : la structure même du pouvoir mondial influence-t-elle la fréquence des conflits qui l’agitent ?",
-          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.",
-          "Selon certains analystes, la multipolarité multiplierait les frictions ; d’autres soutiennent au contraire qu’elle multiplie les canaux de médiation disponibles.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "influence-t-elle",
+          "interchangeables",
+          "multilatéralisme",
+          "relier"
         ]
       }
     ]
@@ -13241,38 +13659,145 @@
           "text": "Essayez ces conseils pendant une semaine, puis observez ceux qui fonctionnent le mieux pour vous."
         }
       ],
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "french-b1-etudes-et-apprentissage-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Complète ce détail de l’audio.\n\n“Bonjour et bienvenue dans cette capsule consacrée aux _____.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "révisions"
+              },
+              {
+                "id": "o2",
+                "text": "l’organisation"
+              },
+              {
+                "id": "o3",
+                "text": "quarante-cinq"
+              },
+              {
+                "id": "o4",
+                "text": "examen"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quel mot complète la phrase entendue ?\n\n“Vous devriez _____ plus de temps aux notions que vous comprenez moins bien.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "l’organisation"
+              },
+              {
+                "id": "o2",
+                "text": "consacrer"
+              },
+              {
+                "id": "o3",
+                "text": "quarante-cinq"
+              },
+              {
+                "id": "o4",
+                "text": "examen"
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“_____, n’oubliez pas les pauses.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "l’organisation"
+              },
+              {
+                "id": "o2",
+                "text": "quarante-cinq"
+              },
+              {
+                "id": "o3",
+                "text": "Enfin"
+              },
+              {
+                "id": "o4",
+                "text": "fonctionnent"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Essayez ces conseils pendant une semaine, puis observez ceux qui _____ le mieux pour vous.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "bienvenue"
+              },
+              {
+                "id": "o2",
+                "text": "consacrée"
+              },
+              {
+                "id": "o3",
+                "text": "révisions"
+              },
+              {
+                "id": "o4",
+                "text": "fonctionnent"
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Quel est le problème de Camila ?",
+        "prompt": "Complète ce détail de l’audio.\n\n“Bonjour et bienvenue dans cette capsule consacrée aux _____.”",
         "options": [
-          "Elle n’a pas de livre",
-          "Elle oublie tout en révisant seule",
-          "Elle n’aime pas Karim",
-          "Elle n’a pas le temps"
+          "révisions",
+          "l’organisation",
+          "quarante-cinq",
+          "examen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel conseil Karim donne-t-il en premier ?",
+        "prompt": "Quel mot complète la phrase entendue ?\n\n“Vous devriez _____ plus de temps aux notions que vous comprenez moins bien.”",
         "options": [
-          "Étudier avec de la musique",
-          "Commencer par les exercices simples",
-          "Étudier seulement la nuit",
-          "Ne pas étudier du tout"
+          "l’organisation",
+          "consacrer",
+          "quarante-cinq",
+          "examen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle technique Karim recommande-t-il ensuite ?",
+        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“_____, n’oubliez pas les pauses.”",
         "options": [
-          "Copier les réponses",
-          "Expliquer à voix haute",
-          "Dormir plus",
-          "Éviter les mathématiques"
+          "l’organisation",
+          "quarante-cinq",
+          "Enfin",
+          "fonctionnent"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Essayez ces conseils pendant une semaine, puis observez ceux qui _____ le mieux pour vous.”",
+        "options": [
+          "bienvenue",
+          "consacrée",
+          "révisions",
+          "fonctionnent"
         ]
       }
     ]
@@ -13379,48 +13904,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "french-b2-debats-de-societe-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Complète ce détail de l’audio.\n\n“Dans un débat de société, défendre un point de vue ne consiste pas à répéter une opinion plus fort que les _____.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "autres"
+              },
+              {
+                "id": "o2",
+                "text": "contre-arguments"
+              },
+              {
+                "id": "o3",
+                "text": "participation"
+              },
+              {
+                "id": "o4",
+                "text": "compréhension"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quel mot complète la phrase entendue ?\n\n“Le débat est alors transformé en _____ et certaines nuances sont perdues.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "contre-arguments"
+              },
+              {
+                "id": "o2",
+                "text": "spectacle"
+              },
+              {
+                "id": "o3",
+                "text": "participation"
+              },
+              {
+                "id": "o4",
+                "text": "compréhension"
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Pour améliorer la discussion, chaque _____ devrait être accompagné d’une source identifiable.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "contre-arguments"
+              },
+              {
+                "id": "o2",
+                "text": "participation"
+              },
+              {
+                "id": "o3",
+                "text": "argument"
+              },
+              {
+                "id": "o4",
+                "text": "compréhension"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Une démocratie a _____ de désaccords, mais elle a surtout besoin de règles qui permettent à ces désaccords de produire de la compréhension plutôt que de la méfiance.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "contre-arguments"
+              },
+              {
+                "id": "o2",
+                "text": "participation"
+              },
+              {
+                "id": "o3",
+                "text": "compréhension"
+              },
+              {
+                "id": "o4",
+                "text": "besoin"
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Quel est le premier argument de l’étudiant belge ?",
+        "prompt": "Complète ce détail de l’audio.\n\n“Dans un débat de société, défendre un point de vue ne consiste pas à répéter une opinion plus fort que les _____.”",
         "options": [
-          "Les écrans sont toujours mauvais",
-          "Les écrans peuvent être un bon outil éducatif",
-          "Il faut interdire les écrans",
-          "Il n’utilise jamais d’écran"
+          "autres",
+          "contre-arguments",
+          "participation",
+          "compréhension"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel risque mentionne la participante française ?",
+        "prompt": "Quel mot complète la phrase entendue ?\n\n“Le débat est alors transformé en _____ et certaines nuances sont perdues.”",
         "options": [
-          "Le prix des écrans",
-          "Le risque d’addiction",
-          "La pollution",
-          "Le manque de wifi"
+          "contre-arguments",
+          "spectacle",
+          "participation",
+          "compréhension"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel autre problème l’étudiant belge mentionne-t-il ensuite ?",
+        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Pour améliorer la discussion, chaque _____ devrait être accompagné d’une source identifiable.”",
         "options": [
-          "Le manque de contrôle parental",
-          "Le prix des téléphones",
-          "La vitesse d’internet",
-          "Le manque d’écoles"
+          "contre-arguments",
+          "participation",
+          "argument",
+          "compréhension"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Comment se termine cet échange ?",
+        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Une démocratie a _____ de désaccords, mais elle a surtout besoin de règles qui permettent à ces désaccords de produire de la compréhension plutôt que de la méfiance.”",
         "options": [
-          "Par une dispute",
-          "Par un accord partiel et nuancé",
-          "Par un désaccord total",
-          "Sans conclusion"
+          "contre-arguments",
+          "participation",
+          "compréhension",
+          "besoin"
         ]
       }
     ]
@@ -17878,92 +18500,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Que se passe-t-il au début ?",
+            "prompt": "Complète ce détail de l’audio.\n\n“Mon école à Tours est grande et _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Mon école à Tours est grande et moderne."
+                "text": "moderne"
               },
               {
                 "id": "o2",
-                "text": "La professeure a un livre, des feuilles et des stylos."
+                "text": "mathématiques"
               },
               {
                 "id": "o3",
-                "text": "Le matin, nous étudions le français et les mathématiques."
+                "text": "intéressantes"
               },
               {
                 "id": "o4",
-                "text": "J’aime l’école parce que les professeurs sont gentils et les activités sont intéressantes."
+                "text": "bibliothèque"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Que fait la personne ensuite ?",
+            "prompt": "Quel mot complète la phrase entendue ?\n\n“La professeure a un livre, des _____ et des stylos.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Mon école à Tours est grande et moderne."
+                "text": "mathématiques"
               },
               {
                 "id": "o2",
-                "text": "La professeure a un livre, des feuilles et des stylos."
+                "text": "feuilles"
               },
               {
                 "id": "o3",
-                "text": "Le matin, nous étudions le français et les mathématiques."
+                "text": "intéressantes"
               },
               {
                 "id": "o4",
-                "text": "J’aime l’école parce que les professeurs sont gentils et les activités sont intéressantes."
+                "text": "bibliothèque"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Quel autre détail est correct ?",
+            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Le matin, nous _____ le français et les mathématiques.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Mon école à Tours est grande et moderne."
+                "text": "mathématiques"
               },
               {
                 "id": "o2",
-                "text": "La professeure a un livre, des feuilles et des stylos."
+                "text": "intéressantes"
               },
               {
                 "id": "o3",
-                "text": "Le matin, nous étudions le français et les mathématiques."
+                "text": "étudions"
               },
               {
                 "id": "o4",
-                "text": "J’aime l’école parce que les professeurs sont gentils et les activités sont intéressantes."
+                "text": "bibliothèque"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Que se passe-t-il à la fin ?",
+            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“J’aime l’école parce que les professeurs sont gentils et les activités sont _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Mon école à Tours est grande et moderne."
+                "text": "ordinateur"
               },
               {
                 "id": "o2",
-                "text": "La professeure a un livre, des feuilles et des stylos."
+                "text": "professeure"
               },
               {
                 "id": "o3",
-                "text": "Le matin, nous étudions le français et les mathématiques."
+                "text": "professeurs"
               },
               {
                 "id": "o4",
-                "text": "J’aime l’école parce que les professeurs sont gentils et les activités sont intéressantes."
+                "text": "intéressantes"
               }
             ]
           }
@@ -17974,42 +18596,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Que se passe-t-il au début ?",
+        "prompt": "Complète ce détail de l’audio.\n\n“Mon école à Tours est grande et _____.”",
         "options": [
-          "Mon école à Tours est grande et moderne.",
-          "La professeure a un livre, des feuilles et des stylos.",
-          "Le matin, nous étudions le français et les mathématiques.",
-          "J’aime l’école parce que les professeurs sont gentils et les activités sont intéressantes."
+          "moderne",
+          "mathématiques",
+          "intéressantes",
+          "bibliothèque"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Que fait la personne ensuite ?",
+        "prompt": "Quel mot complète la phrase entendue ?\n\n“La professeure a un livre, des _____ et des stylos.”",
         "options": [
-          "Mon école à Tours est grande et moderne.",
-          "La professeure a un livre, des feuilles et des stylos.",
-          "Le matin, nous étudions le français et les mathématiques.",
-          "J’aime l’école parce que les professeurs sont gentils et les activités sont intéressantes."
+          "mathématiques",
+          "feuilles",
+          "intéressantes",
+          "bibliothèque"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel autre détail est correct ?",
+        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Le matin, nous _____ le français et les mathématiques.”",
         "options": [
-          "Mon école à Tours est grande et moderne.",
-          "La professeure a un livre, des feuilles et des stylos.",
-          "Le matin, nous étudions le français et les mathématiques.",
-          "J’aime l’école parce que les professeurs sont gentils et les activités sont intéressantes."
+          "mathématiques",
+          "intéressantes",
+          "étudions",
+          "bibliothèque"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Que se passe-t-il à la fin ?",
+        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“J’aime l’école parce que les professeurs sont gentils et les activités sont _____.”",
         "options": [
-          "Mon école à Tours est grande et moderne.",
-          "La professeure a un livre, des feuilles et des stylos.",
-          "Le matin, nous étudions le français et les mathématiques.",
-          "J’aime l’école parce que les professeurs sont gentils et les activités sont intéressantes."
+          "ordinateur",
+          "professeure",
+          "professeurs",
+          "intéressantes"
         ]
       }
     ]
@@ -18098,92 +18720,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Dans « Une journée pour se reposer », quel détail présente la situation ?",
+            "prompt": "Complète ce détail de l’audio.\n\n“Depuis deux jours, Camila se sent _____ et elle a mal à la gorge.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Depuis deux jours, Camila se sent fatiguée et elle a mal à la gorge."
+                "text": "fatiguée"
               },
               {
                 "id": "o2",
-                "text": "Le médecin examine Camila et lui demande où elle a mal."
+                "text": "l’accompagne"
               },
               {
                 "id": "o3",
-                "text": "Le médecin lui conseille de se reposer, de boire beaucoup d’eau et de prendre un médicament trois fois par jour."
+                "text": "consultation"
               },
               {
                 "id": "o4",
-                "text": "Le soir, elle se sent déjà mieux et promet de rester au calme le lendemain."
+                "text": "jours"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Après « Depuis deux jours, Camila se sent fatiguée et elle a mal à la gorge. », que se passe-t-il ensuite dans « Une journée pour se reposer » ?",
+            "prompt": "Quel mot complète la phrase entendue ?\n\n“Le médecin _____ Camila et lui demande où elle a mal.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Depuis deux jours, Camila se sent fatiguée et elle a mal à la gorge."
+                "text": "l’accompagne"
               },
               {
                 "id": "o2",
-                "text": "Le médecin examine Camila et lui demande où elle a mal."
+                "text": "examine"
               },
               {
                 "id": "o3",
-                "text": "Le médecin lui conseille de se reposer, de boire beaucoup d’eau et de prendre un médicament trois fois par jour."
+                "text": "consultation"
               },
               {
                 "id": "o4",
-                "text": "Le soir, elle se sent déjà mieux et promet de rester au calme le lendemain."
+                "text": "rendez-vous"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Une journée pour se reposer » ?",
+            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Le médecin lui conseille de se reposer, de boire _____ d’eau et de prendre un médicament trois fois par jour.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Depuis deux jours, Camila se sent fatiguée et elle a mal à la gorge."
+                "text": "l’accompagne"
               },
               {
                 "id": "o2",
-                "text": "Le médecin examine Camila et lui demande où elle a mal."
+                "text": "consultation"
               },
               {
                 "id": "o3",
-                "text": "Le médecin lui conseille de se reposer, de boire beaucoup d’eau et de prendre un médicament trois fois par jour."
+                "text": "beaucoup"
               },
               {
                 "id": "o4",
-                "text": "Le soir, elle se sent déjà mieux et promet de rester au calme le lendemain."
+                "text": "jours"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel résultat conclut « Une journée pour se reposer » après « Le médecin lui conseille de se reposer, de boire beaucoup d’eau et de… » ?",
+            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Le soir, elle se sent déjà mieux et promet de rester au calme le _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Depuis deux jours, Camila se sent fatiguée et elle a mal à la gorge."
+                "text": "Depuis"
               },
               {
                 "id": "o2",
-                "text": "Le médecin examine Camila et lui demande où elle a mal."
+                "text": "Camila"
               },
               {
                 "id": "o3",
-                "text": "Le médecin lui conseille de se reposer, de boire beaucoup d’eau et de prendre un médicament trois fois par jour."
+                "text": "fièvre"
               },
               {
                 "id": "o4",
-                "text": "Le soir, elle se sent déjà mieux et promet de rester au calme le lendemain."
+                "text": "lendemain"
               }
             ]
           }
@@ -18194,42 +18816,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Dans « Une journée pour se reposer », quel détail présente la situation ?",
+        "prompt": "Complète ce détail de l’audio.\n\n“Depuis deux jours, Camila se sent _____ et elle a mal à la gorge.”",
         "options": [
-          "Depuis deux jours, Camila se sent fatiguée et elle a mal à la gorge.",
-          "Le médecin examine Camila et lui demande où elle a mal.",
-          "Le médecin lui conseille de se reposer, de boire beaucoup d’eau et de prendre un médicament trois fois par jour.",
-          "Le soir, elle se sent déjà mieux et promet de rester au calme le lendemain."
+          "fatiguée",
+          "l’accompagne",
+          "consultation",
+          "jours"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Après « Depuis deux jours, Camila se sent fatiguée et elle a mal à la gorge. », que se passe-t-il ensuite dans « Une journée pour se reposer » ?",
+        "prompt": "Quel mot complète la phrase entendue ?\n\n“Le médecin _____ Camila et lui demande où elle a mal.”",
         "options": [
-          "Depuis deux jours, Camila se sent fatiguée et elle a mal à la gorge.",
-          "Le médecin examine Camila et lui demande où elle a mal.",
-          "Le médecin lui conseille de se reposer, de boire beaucoup d’eau et de prendre un médicament trois fois par jour.",
-          "Le soir, elle se sent déjà mieux et promet de rester au calme le lendemain."
+          "l’accompagne",
+          "examine",
+          "consultation",
+          "rendez-vous"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Une journée pour se reposer » ?",
+        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Le médecin lui conseille de se reposer, de boire _____ d’eau et de prendre un médicament trois fois par jour.”",
         "options": [
-          "Depuis deux jours, Camila se sent fatiguée et elle a mal à la gorge.",
-          "Le médecin examine Camila et lui demande où elle a mal.",
-          "Le médecin lui conseille de se reposer, de boire beaucoup d’eau et de prendre un médicament trois fois par jour.",
-          "Le soir, elle se sent déjà mieux et promet de rester au calme le lendemain."
+          "l’accompagne",
+          "consultation",
+          "beaucoup",
+          "jours"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel résultat conclut « Une journée pour se reposer » après « Le médecin lui conseille de se reposer, de boire beaucoup d’eau et de… » ?",
+        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Le soir, elle se sent déjà mieux et promet de rester au calme le _____.”",
         "options": [
-          "Depuis deux jours, Camila se sent fatiguée et elle a mal à la gorge.",
-          "Le médecin examine Camila et lui demande où elle a mal.",
-          "Le médecin lui conseille de se reposer, de boire beaucoup d’eau et de prendre un médicament trois fois par jour.",
-          "Le soir, elle se sent déjà mieux et promet de rester au calme le lendemain."
+          "Depuis",
+          "Camila",
+          "fièvre",
+          "lendemain"
         ]
       }
     ]
@@ -18354,92 +18976,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Dans « Conférence : Traduire sans effacer la voix », quel détail présente la situation ?",
+            "prompt": "Complète ce détail de l’audio.\n\n“Soumettre une page de Patrick Chamoiseau à un moteur de traduction neuronale, c’est observer en direct les limites d’une technologie par ailleurs _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Soumettre une page de Patrick Chamoiseau à un moteur de traduction neuronale, c’est observer en direct les limites d’une technologie par ailleurs impressionnante."
+                "text": "impressionnante"
               },
               {
                 "id": "o2",
-                "text": "Les défenseurs de ces outils rappellent, à juste titre, le temps qu’ils permettent de gagner : Google Translate traite aujourd’hui plus de cent milliards de mots par jour, un volume qu’aucune profession humaine ne pourrait absorber."
+                "text": "martiniquais"
               },
               {
                 "id": "o3",
-                "text": "Elles ne constituent pas une simple liste : chacune éclaire une étape, une tension ou une conséquence du problème."
+                "text": "raisonnement"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "sous-entendu"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Après « Soumettre une page de Patrick Chamoiseau à un moteur de traduction… », que se passe-t-il ensuite dans « Conférence : Traduire sans effacer la voix » ?",
+            "prompt": "Quel mot complète la phrase entendue ?\n\n“Les _____ de ces outils rappellent, à juste titre, le temps qu’ils permettent de gagner : Google Translate traite aujourd’hui plus de cent milliards de mots par jour, un volume qu’aucune profession humaine ne pourrait absorber.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Soumettre une page de Patrick Chamoiseau à un moteur de traduction neuronale, c’est observer en direct les limites d’une technologie par ailleurs impressionnante."
+                "text": "grammaticalement"
               },
               {
                 "id": "o2",
-                "text": "Les défenseurs de ces outils rappellent, à juste titre, le temps qu’ils permettent de gagner : Google Translate traite aujourd’hui plus de cent milliards de mots par jour, un volume qu’aucune profession humaine ne pourrait absorber."
+                "text": "défenseurs"
               },
               {
                 "id": "o3",
-                "text": "Elles ne constituent pas une simple liste : chacune éclaire une étape, une tension ou une conséquence du problème."
+                "text": "systématiquement"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "impressionnante"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Conférence : Traduire sans effacer la voix » ?",
+            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Elles ne constituent pas une simple liste : chacune _____ une étape, une tension ou une conséquence du problème.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Soumettre une page de Patrick Chamoiseau à un moteur de traduction neuronale, c’est observer en direct les limites d’une technologie par ailleurs impressionnante."
+                "text": "grammaticalement"
               },
               {
                 "id": "o2",
-                "text": "Les défenseurs de ces outils rappellent, à juste titre, le temps qu’ils permettent de gagner : Google Translate traite aujourd’hui plus de cent milliards de mots par jour, un volume qu’aucune profession humaine ne pourrait absorber."
+                "text": "systématiquement"
               },
               {
                 "id": "o3",
-                "text": "Elles ne constituent pas une simple liste : chacune éclaire une étape, une tension ou une conséquence du problème."
+                "text": "éclaire"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "impressionnante"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel résultat conclut « Conférence : Traduire sans effacer la voix » après « Elles ne constituent pas une simple liste : chacune éclaire une étape,… » ?",
+            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Soumettre une page de Patrick Chamoiseau à un moteur de traduction neuronale, c’est observer en direct les limites d’une technologie par ailleurs impressionnante."
+                "text": "grammaticalement"
               },
               {
                 "id": "o2",
-                "text": "Les défenseurs de ces outils rappellent, à juste titre, le temps qu’ils permettent de gagner : Google Translate traite aujourd’hui plus de cent milliards de mots par jour, un volume qu’aucune profession humaine ne pourrait absorber."
+                "text": "systématiquement"
               },
               {
                 "id": "o3",
-                "text": "Elles ne constituent pas une simple liste : chacune éclaire une étape, une tension ou une conséquence du problème."
+                "text": "impressionnante"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "relier"
               }
             ]
           }
@@ -18450,42 +19072,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Dans « Conférence : Traduire sans effacer la voix », quel détail présente la situation ?",
+        "prompt": "Complète ce détail de l’audio.\n\n“Soumettre une page de Patrick Chamoiseau à un moteur de traduction neuronale, c’est observer en direct les limites d’une technologie par ailleurs _____.”",
         "options": [
-          "Soumettre une page de Patrick Chamoiseau à un moteur de traduction neuronale, c’est observer en direct les limites d’une technologie par ailleurs impressionnante.",
-          "Les défenseurs de ces outils rappellent, à juste titre, le temps qu’ils permettent de gagner : Google Translate traite aujourd’hui plus de cent milliards de mots par jour, un volume qu’aucune profession humaine ne pourrait absorber.",
-          "Elles ne constituent pas une simple liste : chacune éclaire une étape, une tension ou une conséquence du problème.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "impressionnante",
+          "martiniquais",
+          "raisonnement",
+          "sous-entendu"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Après « Soumettre une page de Patrick Chamoiseau à un moteur de traduction… », que se passe-t-il ensuite dans « Conférence : Traduire sans effacer la voix » ?",
+        "prompt": "Quel mot complète la phrase entendue ?\n\n“Les _____ de ces outils rappellent, à juste titre, le temps qu’ils permettent de gagner : Google Translate traite aujourd’hui plus de cent milliards de mots par jour, un volume qu’aucune profession humaine ne pourrait absorber.”",
         "options": [
-          "Soumettre une page de Patrick Chamoiseau à un moteur de traduction neuronale, c’est observer en direct les limites d’une technologie par ailleurs impressionnante.",
-          "Les défenseurs de ces outils rappellent, à juste titre, le temps qu’ils permettent de gagner : Google Translate traite aujourd’hui plus de cent milliards de mots par jour, un volume qu’aucune profession humaine ne pourrait absorber.",
-          "Elles ne constituent pas une simple liste : chacune éclaire une étape, une tension ou une conséquence du problème.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "grammaticalement",
+          "défenseurs",
+          "systématiquement",
+          "impressionnante"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Conférence : Traduire sans effacer la voix » ?",
+        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Elles ne constituent pas une simple liste : chacune _____ une étape, une tension ou une conséquence du problème.”",
         "options": [
-          "Soumettre une page de Patrick Chamoiseau à un moteur de traduction neuronale, c’est observer en direct les limites d’une technologie par ailleurs impressionnante.",
-          "Les défenseurs de ces outils rappellent, à juste titre, le temps qu’ils permettent de gagner : Google Translate traite aujourd’hui plus de cent milliards de mots par jour, un volume qu’aucune profession humaine ne pourrait absorber.",
-          "Elles ne constituent pas une simple liste : chacune éclaire une étape, une tension ou une conséquence du problème.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "grammaticalement",
+          "systématiquement",
+          "éclaire",
+          "impressionnante"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel résultat conclut « Conférence : Traduire sans effacer la voix » après « Elles ne constituent pas une simple liste : chacune éclaire une étape,… » ?",
+        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
         "options": [
-          "Soumettre une page de Patrick Chamoiseau à un moteur de traduction neuronale, c’est observer en direct les limites d’une technologie par ailleurs impressionnante.",
-          "Les défenseurs de ces outils rappellent, à juste titre, le temps qu’ils permettent de gagner : Google Translate traite aujourd’hui plus de cent milliards de mots par jour, un volume qu’aucune profession humaine ne pourrait absorber.",
-          "Elles ne constituent pas une simple liste : chacune éclaire une étape, une tension ou une conséquence du problème.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "grammaticalement",
+          "systématiquement",
+          "impressionnante",
+          "relier"
         ]
       }
     ]
@@ -18620,92 +19242,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Dans « Conférence : Les écrans rendent-ils vraiment malheureux ? », quel détail présente la situation ?",
+            "prompt": "Complète ce détail de l’audio.\n\n“Sur un même écran, un adolescent défile pendant des heures, ce qui inquiète autant que cela divise les chercheurs sur ses _____ réels.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Sur un même écran, un adolescent défile pendant des heures, ce qui inquiète autant que cela divise les chercheurs sur ses effets réels."
+                "text": "effets"
               },
               {
                 "id": "o2",
-                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+                "text": "interchangeables"
               },
               {
                 "id": "o3",
-                "text": "Pour autant que l’usage demeure actif plutôt que passif, il n’est pas certain que le lien entre réseaux sociaux et mal-être soit aussi massif qu’on le prétend."
+                "text": "statistiquement"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "généralisation"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Après « Sur un même écran, un adolescent défile pendant des heures, ce qui… », que se passe-t-il ensuite dans « Conférence : Les écrans rendent-ils vraiment malheureux ? » ?",
+            "prompt": "Quel mot complète la phrase entendue ?\n\n“Une _____ sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Sur un même écran, un adolescent défile pendant des heures, ce qui inquiète autant que cela divise les chercheurs sur ses effets réels."
+                "text": "interchangeables"
               },
               {
                 "id": "o2",
-                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+                "text": "réponse"
               },
               {
                 "id": "o3",
-                "text": "Pour autant que l’usage demeure actif plutôt que passif, il n’est pas certain que le lien entre réseaux sociaux et mal-être soit aussi massif qu’on le prétend."
+                "text": "statistiquement"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "généralisation"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Conférence : Les écrans rendent-ils vraiment malheureux ? » ?",
+            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Pour autant que l’usage demeure actif _____ que passif, il n’est pas certain que le lien entre réseaux sociaux et mal-être soit aussi massif qu’on le prétend.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Sur un même écran, un adolescent défile pendant des heures, ce qui inquiète autant que cela divise les chercheurs sur ses effets réels."
+                "text": "interchangeables"
               },
               {
                 "id": "o2",
-                "text": "Pour autant que l’usage demeure actif plutôt que passif, il n’est pas certain que le lien entre réseaux sociaux et mal-être soit aussi massif qu’on le prétend."
+                "text": "statistiquement"
               },
               {
                 "id": "o3",
-                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+                "text": "plutôt"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "généralisation"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel résultat conclut « Conférence : Les écrans rendent-ils vraiment malheureux ? » après « Une réponse sérieuse doit distinguer ce que les données montrent, le… » ?",
+            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Sur un même écran, un adolescent défile pendant des heures, ce qui inquiète autant que cela divise les chercheurs sur ses effets réels."
+                "text": "interchangeables"
               },
               {
                 "id": "o2",
-                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+                "text": "statistiquement"
               },
               {
                 "id": "o3",
-                "text": "Pour autant que l’usage demeure actif plutôt que passif, il n’est pas certain que le lien entre réseaux sociaux et mal-être soit aussi massif qu’on le prétend."
+                "text": "généralisation"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "relier"
               }
             ]
           }
@@ -18716,42 +19338,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Dans « Conférence : Les écrans rendent-ils vraiment malheureux ? », quel détail présente la situation ?",
+        "prompt": "Complète ce détail de l’audio.\n\n“Sur un même écran, un adolescent défile pendant des heures, ce qui inquiète autant que cela divise les chercheurs sur ses _____ réels.”",
         "options": [
-          "Sur un même écran, un adolescent défile pendant des heures, ce qui inquiète autant que cela divise les chercheurs sur ses effets réels.",
-          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.",
-          "Pour autant que l’usage demeure actif plutôt que passif, il n’est pas certain que le lien entre réseaux sociaux et mal-être soit aussi massif qu’on le prétend.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "effets",
+          "interchangeables",
+          "statistiquement",
+          "généralisation"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Après « Sur un même écran, un adolescent défile pendant des heures, ce qui… », que se passe-t-il ensuite dans « Conférence : Les écrans rendent-ils vraiment malheureux ? » ?",
+        "prompt": "Quel mot complète la phrase entendue ?\n\n“Une _____ sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.”",
         "options": [
-          "Sur un même écran, un adolescent défile pendant des heures, ce qui inquiète autant que cela divise les chercheurs sur ses effets réels.",
-          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.",
-          "Pour autant que l’usage demeure actif plutôt que passif, il n’est pas certain que le lien entre réseaux sociaux et mal-être soit aussi massif qu’on le prétend.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "interchangeables",
+          "réponse",
+          "statistiquement",
+          "généralisation"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Conférence : Les écrans rendent-ils vraiment malheureux ? » ?",
+        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Pour autant que l’usage demeure actif _____ que passif, il n’est pas certain que le lien entre réseaux sociaux et mal-être soit aussi massif qu’on le prétend.”",
         "options": [
-          "Sur un même écran, un adolescent défile pendant des heures, ce qui inquiète autant que cela divise les chercheurs sur ses effets réels.",
-          "Pour autant que l’usage demeure actif plutôt que passif, il n’est pas certain que le lien entre réseaux sociaux et mal-être soit aussi massif qu’on le prétend.",
-          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "interchangeables",
+          "statistiquement",
+          "plutôt",
+          "généralisation"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel résultat conclut « Conférence : Les écrans rendent-ils vraiment malheureux ? » après « Une réponse sérieuse doit distinguer ce que les données montrent, le… » ?",
+        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
         "options": [
-          "Sur un même écran, un adolescent défile pendant des heures, ce qui inquiète autant que cela divise les chercheurs sur ses effets réels.",
-          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.",
-          "Pour autant que l’usage demeure actif plutôt que passif, il n’est pas certain que le lien entre réseaux sociaux et mal-être soit aussi massif qu’on le prétend.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "interchangeables",
+          "statistiquement",
+          "généralisation",
+          "relier"
         ]
       }
     ]
@@ -18848,38 +19470,145 @@
           "text": "Chaque entretien est une occasion d’apprendre, même lorsque la candidature n’est pas retenue."
         }
       ],
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "french-b1-monde-du-travail-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Complète ce détail de l’audio.\n\n“Vous avez obtenu un entretien _____ ou de stage ?”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "d’embauche"
+              },
+              {
+                "id": "o2",
+                "text": "l’organisation"
+              },
+              {
+                "id": "o3",
+                "text": "Relisez"
+              },
+              {
+                "id": "o4",
+                "text": "d’abord"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quel mot complète la phrase entendue ?\n\n“Le jour de l’entretien, _____ quelques minutes en avance et adoptez un langage professionnel.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "l’organisation"
+              },
+              {
+                "id": "o2",
+                "text": "arrivez"
+              },
+              {
+                "id": "o3",
+                "text": "professionnel"
+              },
+              {
+                "id": "o4",
+                "text": "Pourriez-vous"
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Ne cherchez pas à réciter des réponses _____.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "l’organisation"
+              },
+              {
+                "id": "o2",
+                "text": "professionnel"
+              },
+              {
+                "id": "o3",
+                "text": "parfaites"
+              },
+              {
+                "id": "o4",
+                "text": "Pourriez-vous"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Au lieu de dire « Je veux ce poste », vous pourriez dire : « Je voudrais rejoindre votre équipe parce que ce stage correspond à mon _____. » Si une question n’est pas claire, demandez poliment : « Pourriez-vous la reformuler, s’il vous plaît ? » Vous pouvez aussi poser une question sur les missions ou l’organisation du travail.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "l’organisation"
+              },
+              {
+                "id": "o2",
+                "text": "professionnel"
+              },
+              {
+                "id": "o3",
+                "text": "Pourriez-vous"
+              },
+              {
+                "id": "o4",
+                "text": "projet"
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Pourquoi Karim veut-il faire ce stage ?",
+        "prompt": "Complète ce détail de l’audio.\n\n“Vous avez obtenu un entretien _____ ou de stage ?”",
         "options": [
-          "Pour gagner de l’argent",
-          "Parce qu’il adore la lecture et aider les autres",
-          "Parce que c’est obligatoire",
-          "Il ne sait pas pourquoi"
+          "d’embauche",
+          "l’organisation",
+          "Relisez",
+          "d’abord"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelles qualités Karim mentionne-t-il ?",
+        "prompt": "Quel mot complète la phrase entendue ?\n\n“Le jour de l’entretien, _____ quelques minutes en avance et adoptez un langage professionnel.”",
         "options": [
-          "Rapide et impatient",
-          "Organisé et bon en équipe",
-          "Timide et lent",
-          "Créatif seulement"
+          "l’organisation",
+          "arrivez",
+          "professionnel",
+          "Pourriez-vous"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qui joue le rôle du recruteur dans cette simulation ?",
+        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Ne cherchez pas à réciter des réponses _____.”",
         "options": [
-          "Karim",
-          "Camila",
-          "Léa",
-          "Madame Lambert"
+          "l’organisation",
+          "professionnel",
+          "parfaites",
+          "Pourriez-vous"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Au lieu de dire « Je veux ce poste », vous pourriez dire : « Je voudrais rejoindre votre équipe parce que ce stage correspond à mon _____. » Si une question n’est pas claire, demandez poliment : « Pourriez-vous la reformuler, s’il vous plaît ? » Vous pouvez aussi poser une question sur les missions ou l’organisation du travail.”",
+        "options": [
+          "l’organisation",
+          "professionnel",
+          "Pourriez-vous",
+          "projet"
         ]
       }
     ]
@@ -18991,38 +19720,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "french-b2-le-teletravail-et-lavenir-professionnel-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Complète ce détail de l’audio.\n\n“En travaillant depuis chez elle pendant trois ans, Sarah a découvert les deux faces du _____.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "télétravail"
+              },
+              {
+                "id": "o2",
+                "text": "professionnelles"
+              },
+              {
+                "id": "o3",
+                "text": "progressivement"
+              },
+              {
+                "id": "o4",
+                "text": "professionnelle"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quel mot complète la phrase entendue ?\n\n“Cependant, les _____ sont progressivement devenues plus longues.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "professionnelles"
+              },
+              {
+                "id": "o2",
+                "text": "journées"
+              },
+              {
+                "id": "o3",
+                "text": "progressivement"
+              },
+              {
+                "id": "o4",
+                "text": "professionnelle"
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Sarah a alors proposé un fonctionnement _____ : deux jours au bureau, trois jours à distance et une réunion sans écran chaque mois.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "professionnelles"
+              },
+              {
+                "id": "o2",
+                "text": "progressivement"
+              },
+              {
+                "id": "o3",
+                "text": "hybride"
+              },
+              {
+                "id": "o4",
+                "text": "professionnelle"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Son efficacité dépend des règles auxquelles _____ adhère, des outils dont elle dispose et de la capacité de chacun à protéger les limites entre vie professionnelle et vie personnelle.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "professionnelles"
+              },
+              {
+                "id": "o2",
+                "text": "progressivement"
+              },
+              {
+                "id": "o3",
+                "text": "professionnelle"
+              },
+              {
+                "id": "o4",
+                "text": "l’équipe"
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Comment Camila décrit-elle son nouveau travail au début ?",
+        "prompt": "Complète ce détail de l’audio.\n\n“En travaillant depuis chez elle pendant trois ans, Sarah a découvert les deux faces du _____.”",
         "options": [
-          "Terrible",
-          "Plutôt bien, mais étrange sans collègues",
-          "Complètement décevant",
-          "Trop facile"
+          "télétravail",
+          "professionnelles",
+          "progressivement",
+          "professionnelle"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Que suggère Karim ?",
+        "prompt": "Quel mot complète la phrase entendue ?\n\n“Cependant, les _____ sont progressivement devenues plus longues.”",
         "options": [
-          "D’arrêter le travail",
-          "De sortir travailler ailleurs parfois",
-          "De travailler toute la nuit",
-          "De ne rien changer"
+          "professionnelles",
+          "journées",
+          "progressivement",
+          "professionnelle"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Que décide de faire Camila ?",
+        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Sarah a alors proposé un fonctionnement _____ : deux jours au bureau, trois jours à distance et une réunion sans écran chaque mois.”",
         "options": [
-          "Rien du tout",
-          "Essayer de travailler dans un café",
-          "Démissionner",
-          "Déménager"
+          "professionnelles",
+          "progressivement",
+          "hybride",
+          "professionnelle"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Son efficacité dépend des règles auxquelles _____ adhère, des outils dont elle dispose et de la capacité de chacun à protéger les limites entre vie professionnelle et vie personnelle.”",
+        "options": [
+          "professionnelles",
+          "progressivement",
+          "professionnelle",
+          "l’équipe"
         ]
       }
     ]
@@ -23468,92 +24304,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Que se passe-t-il au début ?",
+            "prompt": "Complète ce détail de l’audio.\n\n“Chaque matin, je me réveille à six heures _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Chaque matin, je me réveille à six heures trente."
+                "text": "trente"
               },
               {
                 "id": "o2",
-                "text": "Ensuite, je prépare mon sac et je mange avec la famille Lambert."
+                "text": "quarante-cinq"
               },
               {
                 "id": "o3",
-                "text": "À midi, je déjeune avec Léa et Karim."
+                "text": "rapidement"
               },
               {
                 "id": "o4",
-                "text": "Le soir, je me repose, je prépare mes vêtements et je me couche vers dix heures trente."
+                "text": "commencent"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Que fait la personne ensuite ?",
+            "prompt": "Quel mot complète la phrase entendue ?\n\n“Ensuite, je _____ mon sac et je mange avec la famille Lambert.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Chaque matin, je me réveille à six heures trente."
+                "text": "quarante-cinq"
               },
               {
                 "id": "o2",
-                "text": "Ensuite, je prépare mon sac et je mange avec la famille Lambert."
+                "text": "prépare"
               },
               {
                 "id": "o3",
-                "text": "À midi, je déjeune avec Léa et Karim."
+                "text": "lève"
               },
               {
                 "id": "o4",
-                "text": "Le soir, je me repose, je prépare mes vêtements et je me couche vers dix heures trente."
+                "text": "lave"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Quel autre détail est correct ?",
+            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“À midi, je _____ avec Léa et Karim.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Chaque matin, je me réveille à six heures trente."
+                "text": "quarante-cinq"
               },
               {
                 "id": "o2",
-                "text": "Ensuite, je prépare mon sac et je mange avec la famille Lambert."
+                "text": "lève"
               },
               {
                 "id": "o3",
-                "text": "À midi, je déjeune avec Léa et Karim."
+                "text": "déjeune"
               },
               {
                 "id": "o4",
-                "text": "Le soir, je me repose, je prépare mes vêtements et je me couche vers dix heures trente."
+                "text": "lave"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Que se passe-t-il à la fin ?",
+            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Le soir, je me repose, je prépare mes vêtements et je me couche vers dix heures _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Chaque matin, je me réveille à six heures trente."
+                "text": "quarante-cinq"
               },
               {
                 "id": "o2",
-                "text": "Ensuite, je prépare mon sac et je mange avec la famille Lambert."
+                "text": "rapidement"
               },
               {
                 "id": "o3",
-                "text": "À midi, je déjeune avec Léa et Karim."
+                "text": "commencent"
               },
               {
                 "id": "o4",
-                "text": "Le soir, je me repose, je prépare mes vêtements et je me couche vers dix heures trente."
+                "text": "trente"
               }
             ]
           }
@@ -23564,42 +24400,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Que se passe-t-il au début ?",
+        "prompt": "Complète ce détail de l’audio.\n\n“Chaque matin, je me réveille à six heures _____.”",
         "options": [
-          "Chaque matin, je me réveille à six heures trente.",
-          "Ensuite, je prépare mon sac et je mange avec la famille Lambert.",
-          "À midi, je déjeune avec Léa et Karim.",
-          "Le soir, je me repose, je prépare mes vêtements et je me couche vers dix heures trente."
+          "trente",
+          "quarante-cinq",
+          "rapidement",
+          "commencent"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Que fait la personne ensuite ?",
+        "prompt": "Quel mot complète la phrase entendue ?\n\n“Ensuite, je _____ mon sac et je mange avec la famille Lambert.”",
         "options": [
-          "Chaque matin, je me réveille à six heures trente.",
-          "Ensuite, je prépare mon sac et je mange avec la famille Lambert.",
-          "À midi, je déjeune avec Léa et Karim.",
-          "Le soir, je me repose, je prépare mes vêtements et je me couche vers dix heures trente."
+          "quarante-cinq",
+          "prépare",
+          "lève",
+          "lave"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel autre détail est correct ?",
+        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“À midi, je _____ avec Léa et Karim.”",
         "options": [
-          "Chaque matin, je me réveille à six heures trente.",
-          "Ensuite, je prépare mon sac et je mange avec la famille Lambert.",
-          "À midi, je déjeune avec Léa et Karim.",
-          "Le soir, je me repose, je prépare mes vêtements et je me couche vers dix heures trente."
+          "quarante-cinq",
+          "lève",
+          "déjeune",
+          "lave"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Que se passe-t-il à la fin ?",
+        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Le soir, je me repose, je prépare mes vêtements et je me couche vers dix heures _____.”",
         "options": [
-          "Chaque matin, je me réveille à six heures trente.",
-          "Ensuite, je prépare mon sac et je mange avec la famille Lambert.",
-          "À midi, je déjeune avec Léa et Karim.",
-          "Le soir, je me repose, je prépare mes vêtements et je me couche vers dix heures trente."
+          "quarante-cinq",
+          "rapidement",
+          "commencent",
+          "trente"
         ]
       }
     ]
@@ -23688,92 +24524,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Dans « Une semaine bien organisée », quel détail présente la situation ?",
+            "prompt": "Complète ce détail de l’audio.\n\n“Cette semaine, l’emploi du temps de Camila est très _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Cette semaine, l’emploi du temps de Camila est très chargé."
+                "text": "chargé"
               },
               {
                 "id": "o2",
-                "text": "Après l’école, elle fait souvent ses devoirs à la bibliothèque avec Karim."
+                "text": "petit-déjeuner"
               },
               {
                 "id": "o3",
-                "text": "Vendredi matin, Camila oublie son cahier à la maison et doit revenir le chercher."
+                "text": "bibliothèque"
               },
               {
                 "id": "o4",
-                "text": "Grâce à cette nouvelle routine, elle arrive à l’heure et profite davantage de ses activités."
+                "text": "D’habitude"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Après « Cette semaine, l’emploi du temps de Camila est très chargé. », que se passe-t-il ensuite dans « Une semaine bien organisée » ?",
+            "prompt": "Quel mot complète la phrase entendue ?\n\n“Après _____, elle fait souvent ses devoirs à la bibliothèque avec Karim.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Cette semaine, l’emploi du temps de Camila est très chargé."
+                "text": "petit-déjeuner"
               },
               {
                 "id": "o2",
-                "text": "Après l’école, elle fait souvent ses devoirs à la bibliothèque avec Karim."
+                "text": "l’école"
               },
               {
                 "id": "o3",
-                "text": "Vendredi matin, Camila oublie son cahier à la maison et doit revenir le chercher."
+                "text": "bibliothèque"
               },
               {
                 "id": "o4",
-                "text": "Grâce à cette nouvelle routine, elle arrive à l’heure et profite davantage de ses activités."
+                "text": "très"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Une semaine bien organisée » ?",
+            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Vendredi matin, Camila oublie son _____ à la maison et doit revenir le chercher.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Cette semaine, l’emploi du temps de Camila est très chargé."
+                "text": "petit-déjeuner"
               },
               {
                 "id": "o2",
-                "text": "Après l’école, elle fait souvent ses devoirs à la bibliothèque avec Karim."
+                "text": "bibliothèque"
               },
               {
                 "id": "o3",
-                "text": "Vendredi matin, Camila oublie son cahier à la maison et doit revenir le chercher."
+                "text": "cahier"
               },
               {
                 "id": "o4",
-                "text": "Grâce à cette nouvelle routine, elle arrive à l’heure et profite davantage de ses activités."
+                "text": "D’habitude"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel résultat conclut « Une semaine bien organisée » après « Vendredi matin, Camila oublie son cahier à la maison et doit revenir… » ?",
+            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Grâce à cette nouvelle routine, elle arrive à l’heure et _____ davantage de ses activités.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Cette semaine, l’emploi du temps de Camila est très chargé."
+                "text": "petit-déjeuner"
               },
               {
                 "id": "o2",
-                "text": "Après l’école, elle fait souvent ses devoirs à la bibliothèque avec Karim."
+                "text": "bibliothèque"
               },
               {
                 "id": "o3",
-                "text": "Vendredi matin, Camila oublie son cahier à la maison et doit revenir le chercher."
+                "text": "très"
               },
               {
                 "id": "o4",
-                "text": "Grâce à cette nouvelle routine, elle arrive à l’heure et profite davantage de ses activités."
+                "text": "profite"
               }
             ]
           }
@@ -23784,42 +24620,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Dans « Une semaine bien organisée », quel détail présente la situation ?",
+        "prompt": "Complète ce détail de l’audio.\n\n“Cette semaine, l’emploi du temps de Camila est très _____.”",
         "options": [
-          "Cette semaine, l’emploi du temps de Camila est très chargé.",
-          "Après l’école, elle fait souvent ses devoirs à la bibliothèque avec Karim.",
-          "Vendredi matin, Camila oublie son cahier à la maison et doit revenir le chercher.",
-          "Grâce à cette nouvelle routine, elle arrive à l’heure et profite davantage de ses activités."
+          "chargé",
+          "petit-déjeuner",
+          "bibliothèque",
+          "D’habitude"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Après « Cette semaine, l’emploi du temps de Camila est très chargé. », que se passe-t-il ensuite dans « Une semaine bien organisée » ?",
+        "prompt": "Quel mot complète la phrase entendue ?\n\n“Après _____, elle fait souvent ses devoirs à la bibliothèque avec Karim.”",
         "options": [
-          "Cette semaine, l’emploi du temps de Camila est très chargé.",
-          "Après l’école, elle fait souvent ses devoirs à la bibliothèque avec Karim.",
-          "Vendredi matin, Camila oublie son cahier à la maison et doit revenir le chercher.",
-          "Grâce à cette nouvelle routine, elle arrive à l’heure et profite davantage de ses activités."
+          "petit-déjeuner",
+          "l’école",
+          "bibliothèque",
+          "très"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Une semaine bien organisée » ?",
+        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Vendredi matin, Camila oublie son _____ à la maison et doit revenir le chercher.”",
         "options": [
-          "Cette semaine, l’emploi du temps de Camila est très chargé.",
-          "Après l’école, elle fait souvent ses devoirs à la bibliothèque avec Karim.",
-          "Vendredi matin, Camila oublie son cahier à la maison et doit revenir le chercher.",
-          "Grâce à cette nouvelle routine, elle arrive à l’heure et profite davantage de ses activités."
+          "petit-déjeuner",
+          "bibliothèque",
+          "cahier",
+          "D’habitude"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel résultat conclut « Une semaine bien organisée » après « Vendredi matin, Camila oublie son cahier à la maison et doit revenir… » ?",
+        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Grâce à cette nouvelle routine, elle arrive à l’heure et _____ davantage de ses activités.”",
         "options": [
-          "Cette semaine, l’emploi du temps de Camila est très chargé.",
-          "Après l’école, elle fait souvent ses devoirs à la bibliothèque avec Karim.",
-          "Vendredi matin, Camila oublie son cahier à la maison et doit revenir le chercher.",
-          "Grâce à cette nouvelle routine, elle arrive à l’heure et profite davantage de ses activités."
+          "petit-déjeuner",
+          "bibliothèque",
+          "très",
+          "profite"
         ]
       }
     ]
@@ -23944,92 +24780,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Dans « Dossier d’actualité : Les archives de grand-mère », quel détail présente la situation ?",
+            "prompt": "Complète ce détail de l’audio.\n\n“Une boîte à chaussures, cent trente-sept lettres, deux écritures qui se répondent pendant douze ans : c’est à partir d’un fonds de cette nature, aujourd’hui banal dans les centres d’archives régionales, que les historiens de la migration reconstituent depuis une trentaine d’années des trajectoires que la mémoire familiale a coutume de résumer en quelques mots — on partait, on réussissait, puis on _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Une boîte à chaussures, cent trente-sept lettres, deux écritures qui se répondent pendant douze ans : c’est à partir d’un fonds de cette nature, aujourd’hui banal dans les centres d’archives régionales, que les historiens de la migration reconstituent depuis une trentaine d’années des trajectoires que la mémoire familiale a coutume de résumer en quelques mots — on partait, on réussissait, puis on revenait."
+                "text": "revenait"
               },
               {
                 "id": "o2",
-                "text": "Six notions permettent de suivre le raisonnement : une archive, un récit linéaire, minimiser, un fragment, une constellation et combler un silence."
+                "text": "particulièrement"
               },
               {
                 "id": "o3",
-                "text": "La grand-mère avait longtemps minimisé cette archive, puis elle confia qu’un fragment manquait au récit familial."
+                "text": "reconstituent"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "s’intéressent"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Après « Une boîte à chaussures, cent trente-sept lettres, deux écritures qui… », que se passe-t-il ensuite dans « Dossier d’actualité : Les archives de grand-mère » ?",
+            "prompt": "Quel mot complète la phrase entendue ?\n\n“Six _____ permettent de suivre le raisonnement : une archive, un récit linéaire, minimiser, un fragment, une constellation et combler un silence.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Une boîte à chaussures, cent trente-sept lettres, deux écritures qui se répondent pendant douze ans : c’est à partir d’un fonds de cette nature, aujourd’hui banal dans les centres d’archives régionales, que les historiens de la migration reconstituent depuis une trentaine d’années des trajectoires que la mémoire familiale a coutume de résumer en quelques mots — on partait, on réussissait, puis on revenait."
+                "text": "particulièrement"
               },
               {
                 "id": "o2",
-                "text": "Six notions permettent de suivre le raisonnement : une archive, un récit linéaire, minimiser, un fragment, une constellation et combler un silence."
+                "text": "notions"
               },
               {
                 "id": "o3",
-                "text": "La grand-mère avait longtemps minimisé cette archive, puis elle confia qu’un fragment manquait au récit familial."
+                "text": "reconstituent"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "s’intéressent"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Dossier d’actualité : Les archives de grand-mère » ?",
+            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“La grand-mère avait longtemps minimisé cette _____, puis elle confia qu’un fragment manquait au récit familial.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Une boîte à chaussures, cent trente-sept lettres, deux écritures qui se répondent pendant douze ans : c’est à partir d’un fonds de cette nature, aujourd’hui banal dans les centres d’archives régionales, que les historiens de la migration reconstituent depuis une trentaine d’années des trajectoires que la mémoire familiale a coutume de résumer en quelques mots — on partait, on réussissait, puis on revenait."
+                "text": "particulièrement"
               },
               {
                 "id": "o2",
-                "text": "Six notions permettent de suivre le raisonnement : une archive, un récit linéaire, minimiser, un fragment, une constellation et combler un silence."
+                "text": "reconstituent"
               },
               {
                 "id": "o3",
-                "text": "La grand-mère avait longtemps minimisé cette archive, puis elle confia qu’un fragment manquait au récit familial."
+                "text": "archive"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "s’intéressent"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel résultat conclut « Dossier d’actualité : Les archives de grand-mère » après « La grand-mère avait longtemps minimisé cette archive, puis elle confia… » ?",
+            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Une boîte à chaussures, cent trente-sept lettres, deux écritures qui se répondent pendant douze ans : c’est à partir d’un fonds de cette nature, aujourd’hui banal dans les centres d’archives régionales, que les historiens de la migration reconstituent depuis une trentaine d’années des trajectoires que la mémoire familiale a coutume de résumer en quelques mots — on partait, on réussissait, puis on revenait."
+                "text": "particulièrement"
               },
               {
                 "id": "o2",
-                "text": "Six notions permettent de suivre le raisonnement : une archive, un récit linéaire, minimiser, un fragment, une constellation et combler un silence."
+                "text": "reconstituent"
               },
               {
                 "id": "o3",
-                "text": "La grand-mère avait longtemps minimisé cette archive, puis elle confia qu’un fragment manquait au récit familial."
+                "text": "s’intéressent"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "relier"
               }
             ]
           }
@@ -24040,42 +24876,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Dans « Dossier d’actualité : Les archives de grand-mère », quel détail présente la situation ?",
+        "prompt": "Complète ce détail de l’audio.\n\n“Une boîte à chaussures, cent trente-sept lettres, deux écritures qui se répondent pendant douze ans : c’est à partir d’un fonds de cette nature, aujourd’hui banal dans les centres d’archives régionales, que les historiens de la migration reconstituent depuis une trentaine d’années des trajectoires que la mémoire familiale a coutume de résumer en quelques mots — on partait, on réussissait, puis on _____.”",
         "options": [
-          "Une boîte à chaussures, cent trente-sept lettres, deux écritures qui se répondent pendant douze ans : c’est à partir d’un fonds de cette nature, aujourd’hui banal dans les centres d’archives régionales, que les historiens de la migration reconstituent depuis une trentaine d’années des trajectoires que la mémoire familiale a coutume de résumer en quelques mots — on partait, on réussissait, puis on revenait.",
-          "Six notions permettent de suivre le raisonnement : une archive, un récit linéaire, minimiser, un fragment, une constellation et combler un silence.",
-          "La grand-mère avait longtemps minimisé cette archive, puis elle confia qu’un fragment manquait au récit familial.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "revenait",
+          "particulièrement",
+          "reconstituent",
+          "s’intéressent"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Après « Une boîte à chaussures, cent trente-sept lettres, deux écritures qui… », que se passe-t-il ensuite dans « Dossier d’actualité : Les archives de grand-mère » ?",
+        "prompt": "Quel mot complète la phrase entendue ?\n\n“Six _____ permettent de suivre le raisonnement : une archive, un récit linéaire, minimiser, un fragment, une constellation et combler un silence.”",
         "options": [
-          "Une boîte à chaussures, cent trente-sept lettres, deux écritures qui se répondent pendant douze ans : c’est à partir d’un fonds de cette nature, aujourd’hui banal dans les centres d’archives régionales, que les historiens de la migration reconstituent depuis une trentaine d’années des trajectoires que la mémoire familiale a coutume de résumer en quelques mots — on partait, on réussissait, puis on revenait.",
-          "Six notions permettent de suivre le raisonnement : une archive, un récit linéaire, minimiser, un fragment, une constellation et combler un silence.",
-          "La grand-mère avait longtemps minimisé cette archive, puis elle confia qu’un fragment manquait au récit familial.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "particulièrement",
+          "notions",
+          "reconstituent",
+          "s’intéressent"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Dossier d’actualité : Les archives de grand-mère » ?",
+        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“La grand-mère avait longtemps minimisé cette _____, puis elle confia qu’un fragment manquait au récit familial.”",
         "options": [
-          "Une boîte à chaussures, cent trente-sept lettres, deux écritures qui se répondent pendant douze ans : c’est à partir d’un fonds de cette nature, aujourd’hui banal dans les centres d’archives régionales, que les historiens de la migration reconstituent depuis une trentaine d’années des trajectoires que la mémoire familiale a coutume de résumer en quelques mots — on partait, on réussissait, puis on revenait.",
-          "Six notions permettent de suivre le raisonnement : une archive, un récit linéaire, minimiser, un fragment, une constellation et combler un silence.",
-          "La grand-mère avait longtemps minimisé cette archive, puis elle confia qu’un fragment manquait au récit familial.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "particulièrement",
+          "reconstituent",
+          "archive",
+          "s’intéressent"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel résultat conclut « Dossier d’actualité : Les archives de grand-mère » après « La grand-mère avait longtemps minimisé cette archive, puis elle confia… » ?",
+        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
         "options": [
-          "Une boîte à chaussures, cent trente-sept lettres, deux écritures qui se répondent pendant douze ans : c’est à partir d’un fonds de cette nature, aujourd’hui banal dans les centres d’archives régionales, que les historiens de la migration reconstituent depuis une trentaine d’années des trajectoires que la mémoire familiale a coutume de résumer en quelques mots — on partait, on réussissait, puis on revenait.",
-          "Six notions permettent de suivre le raisonnement : une archive, un récit linéaire, minimiser, un fragment, une constellation et combler un silence.",
-          "La grand-mère avait longtemps minimisé cette archive, puis elle confia qu’un fragment manquait au récit familial.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "particulièrement",
+          "reconstituent",
+          "s’intéressent",
+          "relier"
         ]
       }
     ]
@@ -24210,92 +25046,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Dans « Dossier d’actualité : La croissance mondiale profite-t-elle à tous ? », quel détail présente la situation ?",
+            "prompt": "Complète ce détail de l’audio.\n\n“Pendant que l’extrême pauvreté recule, la part de richesse captée par les plus fortunés continue, elle, de progresser presque _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Pendant que l’extrême pauvreté recule, la part de richesse captée par les plus fortunés continue, elle, de progresser presque partout."
+                "text": "partout"
               },
               {
                 "id": "o2",
-                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+                "text": "interchangeables"
               },
               {
                 "id": "o3",
-                "text": "La concentration de la richesse mondiale s’explique par le rendement du capital, lequel a dépassé la croissance elle-même sur longue période."
+                "text": "profite-t-elle"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "redistribution"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Après « Pendant que l’extrême pauvreté recule, la part de richesse captée par… », que se passe-t-il ensuite dans « Dossier d’actualité : La croissance mondiale profite-t-elle à tous ? » ?",
+            "prompt": "Quel mot complète la phrase entendue ?\n\n“Une _____ sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Pendant que l’extrême pauvreté recule, la part de richesse captée par les plus fortunés continue, elle, de progresser presque partout."
+                "text": "interchangeables"
               },
               {
                 "id": "o2",
-                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+                "text": "réponse"
               },
               {
                 "id": "o3",
-                "text": "La concentration de la richesse mondiale s’explique par le rendement du capital, lequel a dépassé la croissance elle-même sur longue période."
+                "text": "profite-t-elle"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "redistribution"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Dossier d’actualité : La croissance mondiale profite-t-elle à tous ? » ?",
+            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“La concentration de la richesse mondiale _____ par le rendement du capital, lequel a dépassé la croissance elle-même sur longue période.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Pendant que l’extrême pauvreté recule, la part de richesse captée par les plus fortunés continue, elle, de progresser presque partout."
+                "text": "interchangeables"
               },
               {
                 "id": "o2",
-                "text": "La concentration de la richesse mondiale s’explique par le rendement du capital, lequel a dépassé la croissance elle-même sur longue période."
+                "text": "profite-t-elle"
               },
               {
                 "id": "o3",
-                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+                "text": "s’explique"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "redistribution"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel résultat conclut « Dossier d’actualité : La croissance mondiale profite-t-elle à tous ? » après « Une réponse sérieuse doit distinguer ce que les données montrent, le… » ?",
+            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Pendant que l’extrême pauvreté recule, la part de richesse captée par les plus fortunés continue, elle, de progresser presque partout."
+                "text": "interchangeables"
               },
               {
                 "id": "o2",
-                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+                "text": "profite-t-elle"
               },
               {
                 "id": "o3",
-                "text": "La concentration de la richesse mondiale s’explique par le rendement du capital, lequel a dépassé la croissance elle-même sur longue période."
+                "text": "redistribution"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "relier"
               }
             ]
           }
@@ -24306,42 +25142,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Dans « Dossier d’actualité : La croissance mondiale profite-t-elle à tous ? », quel détail présente la situation ?",
+        "prompt": "Complète ce détail de l’audio.\n\n“Pendant que l’extrême pauvreté recule, la part de richesse captée par les plus fortunés continue, elle, de progresser presque _____.”",
         "options": [
-          "Pendant que l’extrême pauvreté recule, la part de richesse captée par les plus fortunés continue, elle, de progresser presque partout.",
-          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.",
-          "La concentration de la richesse mondiale s’explique par le rendement du capital, lequel a dépassé la croissance elle-même sur longue période.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "partout",
+          "interchangeables",
+          "profite-t-elle",
+          "redistribution"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Après « Pendant que l’extrême pauvreté recule, la part de richesse captée par… », que se passe-t-il ensuite dans « Dossier d’actualité : La croissance mondiale profite-t-elle à tous ? » ?",
+        "prompt": "Quel mot complète la phrase entendue ?\n\n“Une _____ sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.”",
         "options": [
-          "Pendant que l’extrême pauvreté recule, la part de richesse captée par les plus fortunés continue, elle, de progresser presque partout.",
-          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.",
-          "La concentration de la richesse mondiale s’explique par le rendement du capital, lequel a dépassé la croissance elle-même sur longue période.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "interchangeables",
+          "réponse",
+          "profite-t-elle",
+          "redistribution"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Dossier d’actualité : La croissance mondiale profite-t-elle à tous ? » ?",
+        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“La concentration de la richesse mondiale _____ par le rendement du capital, lequel a dépassé la croissance elle-même sur longue période.”",
         "options": [
-          "Pendant que l’extrême pauvreté recule, la part de richesse captée par les plus fortunés continue, elle, de progresser presque partout.",
-          "La concentration de la richesse mondiale s’explique par le rendement du capital, lequel a dépassé la croissance elle-même sur longue période.",
-          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "interchangeables",
+          "profite-t-elle",
+          "s’explique",
+          "redistribution"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel résultat conclut « Dossier d’actualité : La croissance mondiale profite-t-elle à tous ? » après « Une réponse sérieuse doit distinguer ce que les données montrent, le… » ?",
+        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
         "options": [
-          "Pendant que l’extrême pauvreté recule, la part de richesse captée par les plus fortunés continue, elle, de progresser presque partout.",
-          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.",
-          "La concentration de la richesse mondiale s’explique par le rendement du capital, lequel a dépassé la croissance elle-même sur longue période.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "interchangeables",
+          "profite-t-elle",
+          "redistribution",
+          "relier"
         ]
       }
     ]
@@ -24428,38 +25264,145 @@
           "text": "Aujourd’hui, elle apprécie cette expérience parce qu’elle lui permet de mieux comprendre les autres, mais aussi de regarder sa propre culture avec un œil nouveau."
         }
       ],
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "french-b1-voyages-et-interculturalite-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Complète ce détail de l’audio.\n\n“Pour notre chronique interculturelle, je vais raconter les premières semaines de Lucie au _____.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Québec"
+              },
+              {
+                "id": "o2",
+                "text": "interculturelle"
+              },
+              {
+                "id": "o3",
+                "text": "nécessairement"
+              },
+              {
+                "id": "o4",
+                "text": "comprenaient"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quel mot complète la phrase entendue ?\n\n“Elle a aussi remarqué que les _____ avec les professeurs étaient plus détendues, alors que son ancienne université lui semblait plus formelle.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "interculturelle"
+              },
+              {
+                "id": "o2",
+                "text": "relations"
+              },
+              {
+                "id": "o3",
+                "text": "nécessairement"
+              },
+              {
+                "id": "o4",
+                "text": "Québec"
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Puis elle a commencé à observer, à _____ des explications et à comparer sans juger.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "interculturelle"
+              },
+              {
+                "id": "o2",
+                "text": "nécessairement"
+              },
+              {
+                "id": "o3",
+                "text": "demander"
+              },
+              {
+                "id": "o4",
+                "text": "comprenaient"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Aujourd’hui, elle apprécie cette expérience parce qu’elle lui permet de mieux _____ les autres, mais aussi de regarder sa propre culture avec un œil nouveau.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "interculturelle"
+              },
+              {
+                "id": "o2",
+                "text": "nécessairement"
+              },
+              {
+                "id": "o3",
+                "text": "souvent"
+              },
+              {
+                "id": "o4",
+                "text": "comprendre"
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qu’est-ce qui a le plus surpris Camila ?",
+        "prompt": "Complète ce détail de l’audio.\n\n“Pour notre chronique interculturelle, je vais raconter les premières semaines de Lucie au _____.”",
         "options": [
-          "La langue française",
-          "La durée des repas",
-          "Le climat",
-          "Les vêtements"
+          "Québec",
+          "interculturelle",
+          "nécessairement",
+          "comprenaient"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Comment mange-t-on généralement chez Camila, selon elle ?",
+        "prompt": "Quel mot complète la phrase entendue ?\n\n“Elle a aussi remarqué que les _____ avec les professeurs étaient plus détendues, alors que son ancienne université lui semblait plus formelle.”",
         "options": [
-          "Plus lentement qu’en France",
-          "Plus vite qu’en France",
-          "De la même façon qu’en France",
-          "Elle ne le précise pas"
+          "interculturelle",
+          "relations",
+          "nécessairement",
+          "Québec"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Que préfère finalement Camila ?",
+        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Puis elle a commencé à observer, à _____ des explications et à comparer sans juger.”",
         "options": [
-          "Seulement la façon française",
-          "Seulement la façon dominicaine",
-          "Les deux, selon l’occasion",
-          "Aucune des deux"
+          "interculturelle",
+          "nécessairement",
+          "demander",
+          "comprenaient"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Aujourd’hui, elle apprécie cette expérience parce qu’elle lui permet de mieux _____ les autres, mais aussi de regarder sa propre culture avec un œil nouveau.”",
+        "options": [
+          "interculturelle",
+          "nécessairement",
+          "souvent",
+          "comprendre"
         ]
       }
     ]
@@ -24571,38 +25514,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "french-b2-litterature-francophone-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Complète ce détail de l’audio.\n\n“Bienvenue dans notre podcast _____.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "littéraire"
+              },
+              {
+                "id": "o2",
+                "text": "autobiographique"
+              },
+              {
+                "id": "o3",
+                "text": "progressivement"
+              },
+              {
+                "id": "o4",
+                "text": "interprétation"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quel mot complète la phrase entendue ?\n\n“Elle avait ajouté que le _____ principal n’était pas un portrait exact, mais une figure inspirée de plusieurs générations.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "autobiographique"
+              },
+              {
+                "id": "o2",
+                "text": "personnage"
+              },
+              {
+                "id": "o3",
+                "text": "progressivement"
+              },
+              {
+                "id": "o4",
+                "text": "interprétation"
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Le thème récurrent de la maison résonne avec de _____ lecteurs, même lorsque leur propre parcours est différent.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "autobiographique"
+              },
+              {
+                "id": "o2",
+                "text": "progressivement"
+              },
+              {
+                "id": "o3",
+                "text": "nombreux"
+              },
+              {
+                "id": "o4",
+                "text": "interprétation"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“C’est précisément cette liberté qui permet à chaque _____ d’y reconnaître une part de son histoire et de construire sa propre relation avec le texte.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "autobiographique"
+              },
+              {
+                "id": "o2",
+                "text": "progressivement"
+              },
+              {
+                "id": "o3",
+                "text": "interprétation"
+              },
+              {
+                "id": "o4",
+                "text": "lecteur"
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Que rapporte l’animatrice sur l’intention de l’autrice ?",
+        "prompt": "Complète ce détail de l’audio.\n\n“Bienvenue dans notre podcast _____.”",
         "options": [
-          "Qu’elle voulait raconter une histoire d’amour",
-          "Qu’elle voulait explorer le thème du déracinement",
-          "Qu’elle voulait écrire un roman policier",
-          "Qu’elle ne voulait rien exprimer de particulier"
+          "littéraire",
+          "autobiographique",
+          "progressivement",
+          "interprétation"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Comment Camila réagit-elle à cette explication ?",
+        "prompt": "Quel mot complète la phrase entendue ?\n\n“Elle avait ajouté que le _____ principal n’était pas un portrait exact, mais une figure inspirée de plusieurs générations.”",
         "options": [
-          "Elle est indifférente",
-          "Elle se reconnaît dans ce thème",
-          "Elle n’est pas d’accord",
-          "Elle ne comprend pas"
+          "autobiographique",
+          "personnage",
+          "progressivement",
+          "interprétation"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "À quoi Camila compare-t-elle le thème du roman ?",
+        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Le thème récurrent de la maison résonne avec de _____ lecteurs, même lorsque leur propre parcours est différent.”",
         "options": [
-          "À un film qu’elle a vu",
-          "À sa propre expérience entre deux pays",
-          "À un cours d’histoire",
-          "À rien en particulier"
+          "autobiographique",
+          "progressivement",
+          "nombreux",
+          "interprétation"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“C’est précisément cette liberté qui permet à chaque _____ d’y reconnaître une part de son histoire et de construire sa propre relation avec le texte.”",
+        "options": [
+          "autobiographique",
+          "progressivement",
+          "interprétation",
+          "lecteur"
         ]
       }
     ]
@@ -29049,92 +30099,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Que se passe-t-il au début ?",
+            "prompt": "Complète ce détail de l’audio.\n\n“Aujourd’hui, nous sommes le samedi _____ mai.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Aujourd’hui, nous sommes le samedi quinze mai."
+                "text": "quinze"
               },
               {
                 "id": "o2",
-                "text": "Camila et Paul préparent la décoration."
+                "text": "l’anniversaire"
               },
               {
                 "id": "o3",
-                "text": "En mai, il fait souvent beau à Tours"
+                "text": "l’après-midi"
               },
               {
                 "id": "o4",
-                "text": "Léa ouvre encore quelques cartes et remercie sa famille pour cette belle journée."
+                "text": "anniversaire"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Que fait la personne ensuite ?",
+            "prompt": "Quel mot complète la phrase entendue ?\n\n“Le matin, Camila et _____ préparent la décoration.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Aujourd’hui, nous sommes le samedi quinze mai."
+                "text": "l’anniversaire"
               },
               {
                 "id": "o2",
-                "text": "Camila et Paul préparent la décoration."
+                "text": "Paul"
               },
               {
                 "id": "o3",
-                "text": "En mai, il fait souvent beau à Tours"
+                "text": "l’après-midi"
               },
               {
                 "id": "o4",
-                "text": "Léa ouvre encore quelques cartes et remercie sa famille pour cette belle journée."
+                "text": "anniversaire"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Quel autre détail est correct ?",
+            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Les invités arrivent à _____ heures.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Aujourd’hui, nous sommes le samedi quinze mai."
+                "text": "l’anniversaire"
               },
               {
                 "id": "o2",
-                "text": "Camila et Paul préparent la décoration."
+                "text": "l’après-midi"
               },
               {
                 "id": "o3",
-                "text": "En mai, il fait souvent beau à Tours"
+                "text": "quatre"
               },
               {
                 "id": "o4",
-                "text": "Léa ouvre encore quelques cartes et remercie sa famille pour cette belle journée."
+                "text": "anniversaire"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Que se passe-t-il à la fin ?",
+            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Le dimanche matin, Léa ouvre encore quelques cartes et _____ sa famille pour cette belle journée.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Aujourd’hui, nous sommes le samedi quinze mai."
+                "text": "l’anniversaire"
               },
               {
                 "id": "o2",
-                "text": "Camila et Paul préparent la décoration."
+                "text": "l’après-midi"
               },
               {
                 "id": "o3",
-                "text": "En mai, il fait souvent beau à Tours"
+                "text": "anniversaire"
               },
               {
                 "id": "o4",
-                "text": "Léa ouvre encore quelques cartes et remercie sa famille pour cette belle journée."
+                "text": "remercie"
               }
             ]
           }
@@ -29145,42 +30195,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Que se passe-t-il au début ?",
+        "prompt": "Complète ce détail de l’audio.\n\n“Aujourd’hui, nous sommes le samedi _____ mai.”",
         "options": [
-          "Aujourd’hui, nous sommes le samedi quinze mai.",
-          "Camila et Paul préparent la décoration.",
-          "En mai, il fait souvent beau à Tours",
-          "Léa ouvre encore quelques cartes et remercie sa famille pour cette belle journée."
+          "quinze",
+          "l’anniversaire",
+          "l’après-midi",
+          "anniversaire"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Que fait la personne ensuite ?",
+        "prompt": "Quel mot complète la phrase entendue ?\n\n“Le matin, Camila et _____ préparent la décoration.”",
         "options": [
-          "Aujourd’hui, nous sommes le samedi quinze mai.",
-          "Camila et Paul préparent la décoration.",
-          "En mai, il fait souvent beau à Tours",
-          "Léa ouvre encore quelques cartes et remercie sa famille pour cette belle journée."
+          "l’anniversaire",
+          "Paul",
+          "l’après-midi",
+          "anniversaire"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel autre détail est correct ?",
+        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Les invités arrivent à _____ heures.”",
         "options": [
-          "Aujourd’hui, nous sommes le samedi quinze mai.",
-          "Camila et Paul préparent la décoration.",
-          "En mai, il fait souvent beau à Tours",
-          "Léa ouvre encore quelques cartes et remercie sa famille pour cette belle journée."
+          "l’anniversaire",
+          "l’après-midi",
+          "quatre",
+          "anniversaire"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Que se passe-t-il à la fin ?",
+        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Le dimanche matin, Léa ouvre encore quelques cartes et _____ sa famille pour cette belle journée.”",
         "options": [
-          "Aujourd’hui, nous sommes le samedi quinze mai.",
-          "Camila et Paul préparent la décoration.",
-          "En mai, il fait souvent beau à Tours",
-          "Léa ouvre encore quelques cartes et remercie sa famille pour cette belle journée."
+          "l’anniversaire",
+          "l’après-midi",
+          "anniversaire",
+          "remercie"
         ]
       }
     ]
@@ -29264,92 +30314,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Dans « Le premier voyage de Mamadou », quel détail présente la situation ?",
+            "prompt": "Complète ce détail de l’audio.\n\n“Bonjour, je m’appelle Mamadou et je vais vous raconter mon premier voyage sans mes _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Bonjour, je m’appelle Mamadou et je vais vous raconter mon premier voyage sans mes parents."
+                "text": "parents"
               },
               {
                 "id": "o2",
-                "text": "Nous sommes arrivés tôt le matin, puis nous sommes descendus jusqu’au Vieux-Port."
+                "text": "centre-ville"
               },
               {
                 "id": "o3",
-                "text": "Le soir, nous sommes revenus au centre-ville et sommes entrés dans un restaurant familial."
+                "text": "inoubliable"
               },
               {
                 "id": "o4",
-                "text": "Je me souviens de cette expérience inoubliable : pour la première fois, je me suis senti responsable de mon propre voyage."
+                "text": "responsable"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Après « Bonjour, je m’appelle Mamadou et je vais vous raconter mon premier… », que se passe-t-il ensuite dans « Le premier voyage de Mamadou » ?",
+            "prompt": "Quel mot complète la phrase entendue ?\n\n“Nous sommes _____ tôt le matin, puis nous sommes descendus jusqu’au Vieux-Port.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Bonjour, je m’appelle Mamadou et je vais vous raconter mon premier voyage sans mes parents."
+                "text": "centre-ville"
               },
               {
                 "id": "o2",
-                "text": "Nous sommes arrivés tôt le matin, puis nous sommes descendus jusqu’au Vieux-Port."
+                "text": "arrivés"
               },
               {
                 "id": "o3",
-                "text": "Le soir, nous sommes revenus au centre-ville et sommes entrés dans un restaurant familial."
+                "text": "inoubliable"
               },
               {
                 "id": "o4",
-                "text": "Je me souviens de cette expérience inoubliable : pour la première fois, je me suis senti responsable de mon propre voyage."
+                "text": "responsable"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Le premier voyage de Mamadou » ?",
+            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Le soir, nous _____ revenus au centre-ville et sommes entrés dans un restaurant familial.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Bonjour, je m’appelle Mamadou et je vais vous raconter mon premier voyage sans mes parents."
+                "text": "centre-ville"
               },
               {
                 "id": "o2",
-                "text": "Nous sommes arrivés tôt le matin, puis nous sommes descendus jusqu’au Vieux-Port."
+                "text": "inoubliable"
               },
               {
                 "id": "o3",
-                "text": "Le soir, nous sommes revenus au centre-ville et sommes entrés dans un restaurant familial."
+                "text": "sommes"
               },
               {
                 "id": "o4",
-                "text": "Je me souviens de cette expérience inoubliable : pour la première fois, je me suis senti responsable de mon propre voyage."
+                "text": "responsable"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel résultat conclut « Le premier voyage de Mamadou » après « Le soir, nous sommes revenus au centre-ville et sommes entrés dans un… » ?",
+            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Je me souviens de cette expérience inoubliable : pour la première fois, je me suis senti responsable de mon _____ voyage.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Bonjour, je m’appelle Mamadou et je vais vous raconter mon premier voyage sans mes parents."
+                "text": "centre-ville"
               },
               {
                 "id": "o2",
-                "text": "Nous sommes arrivés tôt le matin, puis nous sommes descendus jusqu’au Vieux-Port."
+                "text": "inoubliable"
               },
               {
                 "id": "o3",
-                "text": "Le soir, nous sommes revenus au centre-ville et sommes entrés dans un restaurant familial."
+                "text": "responsable"
               },
               {
                 "id": "o4",
-                "text": "Je me souviens de cette expérience inoubliable : pour la première fois, je me suis senti responsable de mon propre voyage."
+                "text": "propre"
               }
             ]
           }
@@ -29360,42 +30410,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Dans « Le premier voyage de Mamadou », quel détail présente la situation ?",
+        "prompt": "Complète ce détail de l’audio.\n\n“Bonjour, je m’appelle Mamadou et je vais vous raconter mon premier voyage sans mes _____.”",
         "options": [
-          "Bonjour, je m’appelle Mamadou et je vais vous raconter mon premier voyage sans mes parents.",
-          "Nous sommes arrivés tôt le matin, puis nous sommes descendus jusqu’au Vieux-Port.",
-          "Le soir, nous sommes revenus au centre-ville et sommes entrés dans un restaurant familial.",
-          "Je me souviens de cette expérience inoubliable : pour la première fois, je me suis senti responsable de mon propre voyage."
+          "parents",
+          "centre-ville",
+          "inoubliable",
+          "responsable"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Après « Bonjour, je m’appelle Mamadou et je vais vous raconter mon premier… », que se passe-t-il ensuite dans « Le premier voyage de Mamadou » ?",
+        "prompt": "Quel mot complète la phrase entendue ?\n\n“Nous sommes _____ tôt le matin, puis nous sommes descendus jusqu’au Vieux-Port.”",
         "options": [
-          "Bonjour, je m’appelle Mamadou et je vais vous raconter mon premier voyage sans mes parents.",
-          "Nous sommes arrivés tôt le matin, puis nous sommes descendus jusqu’au Vieux-Port.",
-          "Le soir, nous sommes revenus au centre-ville et sommes entrés dans un restaurant familial.",
-          "Je me souviens de cette expérience inoubliable : pour la première fois, je me suis senti responsable de mon propre voyage."
+          "centre-ville",
+          "arrivés",
+          "inoubliable",
+          "responsable"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Le premier voyage de Mamadou » ?",
+        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Le soir, nous _____ revenus au centre-ville et sommes entrés dans un restaurant familial.”",
         "options": [
-          "Bonjour, je m’appelle Mamadou et je vais vous raconter mon premier voyage sans mes parents.",
-          "Nous sommes arrivés tôt le matin, puis nous sommes descendus jusqu’au Vieux-Port.",
-          "Le soir, nous sommes revenus au centre-ville et sommes entrés dans un restaurant familial.",
-          "Je me souviens de cette expérience inoubliable : pour la première fois, je me suis senti responsable de mon propre voyage."
+          "centre-ville",
+          "inoubliable",
+          "sommes",
+          "responsable"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel résultat conclut « Le premier voyage de Mamadou » après « Le soir, nous sommes revenus au centre-ville et sommes entrés dans un… » ?",
+        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Je me souviens de cette expérience inoubliable : pour la première fois, je me suis senti responsable de mon _____ voyage.”",
         "options": [
-          "Bonjour, je m’appelle Mamadou et je vais vous raconter mon premier voyage sans mes parents.",
-          "Nous sommes arrivés tôt le matin, puis nous sommes descendus jusqu’au Vieux-Port.",
-          "Le soir, nous sommes revenus au centre-ville et sommes entrés dans un restaurant familial.",
-          "Je me souviens de cette expérience inoubliable : pour la première fois, je me suis senti responsable de mon propre voyage."
+          "centre-ville",
+          "inoubliable",
+          "responsable",
+          "propre"
         ]
       }
     ]
@@ -29520,92 +30570,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Dans « Analyse : Le mérite en question », quel détail présente la situation ?",
+            "prompt": "Complète ce détail de l’audio.\n\n“Chaque printemps depuis 2018, environ neuf cent mille lycéens formulent leurs vœux sur Parcoursup, la plateforme nationale d’admission postbac, et chaque printemps la même polémique ressurgit : l’algorithme serait-il un simple outil neutre, ou reproduit-il des inégalités antérieures à tout _____ ?”",
             "options": [
               {
                 "id": "o1",
-                "text": "Chaque printemps depuis 2018, environ neuf cent mille lycéens formulent leurs vœux sur Parcoursup, la plateforme nationale d’admission postbac, et chaque printemps la même polémique ressurgit : l’algorithme serait-il un simple outil neutre, ou reproduit-il des inégalités antérieures à tout classement ?"
+                "text": "classement"
               },
               {
                 "id": "o2",
-                "text": "Six notions permettent de suivre le raisonnement : la méritocratie, l’équité, déterministe, un justificatif, une égalité formelle et un effet inégal."
+                "text": "administratives"
               },
               {
                 "id": "o3",
-                "text": "Certes, la méritocratie promet une égalité formelle ; néanmoins, des conditions de départ différentes produisent un effet inégal."
+                "text": "méritocratique"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "environ"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Après « Chaque printemps depuis 2018, environ neuf cent mille lycéens… », que se passe-t-il ensuite dans « Analyse : Le mérite en question » ?",
+            "prompt": "Quel mot complète la phrase entendue ?\n\n“Six _____ permettent de suivre le raisonnement : la méritocratie, l’équité, déterministe, un justificatif, une égalité formelle et un effet inégal.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Chaque printemps depuis 2018, environ neuf cent mille lycéens formulent leurs vœux sur Parcoursup, la plateforme nationale d’admission postbac, et chaque printemps la même polémique ressurgit : l’algorithme serait-il un simple outil neutre, ou reproduit-il des inégalités antérieures à tout classement ?"
+                "text": "administratives"
               },
               {
                 "id": "o2",
-                "text": "Six notions permettent de suivre le raisonnement : la méritocratie, l’équité, déterministe, un justificatif, une égalité formelle et un effet inégal."
+                "text": "notions"
               },
               {
                 "id": "o3",
-                "text": "Certes, la méritocratie promet une égalité formelle ; néanmoins, des conditions de départ différentes produisent un effet inégal."
+                "text": "méritocratique"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "l’algorithme"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Analyse : Le mérite en question » ?",
+            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Certes, la méritocratie promet une _____ formelle ; néanmoins, des conditions de départ différentes produisent un effet inégal.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Chaque printemps depuis 2018, environ neuf cent mille lycéens formulent leurs vœux sur Parcoursup, la plateforme nationale d’admission postbac, et chaque printemps la même polémique ressurgit : l’algorithme serait-il un simple outil neutre, ou reproduit-il des inégalités antérieures à tout classement ?"
+                "text": "administratives"
               },
               {
                 "id": "o2",
-                "text": "Six notions permettent de suivre le raisonnement : la méritocratie, l’équité, déterministe, un justificatif, une égalité formelle et un effet inégal."
+                "text": "méritocratique"
               },
               {
                 "id": "o3",
-                "text": "Certes, la méritocratie promet une égalité formelle ; néanmoins, des conditions de départ différentes produisent un effet inégal."
+                "text": "égalité"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "l’algorithme"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel résultat conclut « Analyse : Le mérite en question » après « Certes, la méritocratie promet une égalité formelle ; néanmoins, des… » ?",
+            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Chaque printemps depuis 2018, environ neuf cent mille lycéens formulent leurs vœux sur Parcoursup, la plateforme nationale d’admission postbac, et chaque printemps la même polémique ressurgit : l’algorithme serait-il un simple outil neutre, ou reproduit-il des inégalités antérieures à tout classement ?"
+                "text": "administratives"
               },
               {
                 "id": "o2",
-                "text": "Six notions permettent de suivre le raisonnement : la méritocratie, l’équité, déterministe, un justificatif, une égalité formelle et un effet inégal."
+                "text": "méritocratique"
               },
               {
                 "id": "o3",
-                "text": "Certes, la méritocratie promet une égalité formelle ; néanmoins, des conditions de départ différentes produisent un effet inégal."
+                "text": "l’algorithme"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "relier"
               }
             ]
           }
@@ -29616,42 +30666,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Dans « Analyse : Le mérite en question », quel détail présente la situation ?",
+        "prompt": "Complète ce détail de l’audio.\n\n“Chaque printemps depuis 2018, environ neuf cent mille lycéens formulent leurs vœux sur Parcoursup, la plateforme nationale d’admission postbac, et chaque printemps la même polémique ressurgit : l’algorithme serait-il un simple outil neutre, ou reproduit-il des inégalités antérieures à tout _____ ?”",
         "options": [
-          "Chaque printemps depuis 2018, environ neuf cent mille lycéens formulent leurs vœux sur Parcoursup, la plateforme nationale d’admission postbac, et chaque printemps la même polémique ressurgit : l’algorithme serait-il un simple outil neutre, ou reproduit-il des inégalités antérieures à tout classement ?",
-          "Six notions permettent de suivre le raisonnement : la méritocratie, l’équité, déterministe, un justificatif, une égalité formelle et un effet inégal.",
-          "Certes, la méritocratie promet une égalité formelle ; néanmoins, des conditions de départ différentes produisent un effet inégal.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "classement",
+          "administratives",
+          "méritocratique",
+          "environ"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Après « Chaque printemps depuis 2018, environ neuf cent mille lycéens… », que se passe-t-il ensuite dans « Analyse : Le mérite en question » ?",
+        "prompt": "Quel mot complète la phrase entendue ?\n\n“Six _____ permettent de suivre le raisonnement : la méritocratie, l’équité, déterministe, un justificatif, une égalité formelle et un effet inégal.”",
         "options": [
-          "Chaque printemps depuis 2018, environ neuf cent mille lycéens formulent leurs vœux sur Parcoursup, la plateforme nationale d’admission postbac, et chaque printemps la même polémique ressurgit : l’algorithme serait-il un simple outil neutre, ou reproduit-il des inégalités antérieures à tout classement ?",
-          "Six notions permettent de suivre le raisonnement : la méritocratie, l’équité, déterministe, un justificatif, une égalité formelle et un effet inégal.",
-          "Certes, la méritocratie promet une égalité formelle ; néanmoins, des conditions de départ différentes produisent un effet inégal.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "administratives",
+          "notions",
+          "méritocratique",
+          "l’algorithme"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Analyse : Le mérite en question » ?",
+        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Certes, la méritocratie promet une _____ formelle ; néanmoins, des conditions de départ différentes produisent un effet inégal.”",
         "options": [
-          "Chaque printemps depuis 2018, environ neuf cent mille lycéens formulent leurs vœux sur Parcoursup, la plateforme nationale d’admission postbac, et chaque printemps la même polémique ressurgit : l’algorithme serait-il un simple outil neutre, ou reproduit-il des inégalités antérieures à tout classement ?",
-          "Six notions permettent de suivre le raisonnement : la méritocratie, l’équité, déterministe, un justificatif, une égalité formelle et un effet inégal.",
-          "Certes, la méritocratie promet une égalité formelle ; néanmoins, des conditions de départ différentes produisent un effet inégal.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "administratives",
+          "méritocratique",
+          "égalité",
+          "l’algorithme"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel résultat conclut « Analyse : Le mérite en question » après « Certes, la méritocratie promet une égalité formelle ; néanmoins, des… » ?",
+        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
         "options": [
-          "Chaque printemps depuis 2018, environ neuf cent mille lycéens formulent leurs vœux sur Parcoursup, la plateforme nationale d’admission postbac, et chaque printemps la même polémique ressurgit : l’algorithme serait-il un simple outil neutre, ou reproduit-il des inégalités antérieures à tout classement ?",
-          "Six notions permettent de suivre le raisonnement : la méritocratie, l’équité, déterministe, un justificatif, une égalité formelle et un effet inégal.",
-          "Certes, la méritocratie promet une égalité formelle ; néanmoins, des conditions de départ différentes produisent un effet inégal.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "administratives",
+          "méritocratique",
+          "l’algorithme",
+          "relier"
         ]
       }
     ]
@@ -29786,92 +30836,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Dans « Analyse : Sommes-nous sur le point de détecter une vie extraterrestre ? », quel détail présente la situation ?",
+            "prompt": "Complète ce détail de l’audio.\n\n“Un télescope capte la lumière filtrée par l’atmosphère d’une planète lointaine, et une question ancienne redevient soudain _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Un télescope capte la lumière filtrée par l’atmosphère d’une planète lointaine, et une question ancienne redevient soudain concrète."
+                "text": "concrète"
               },
               {
                 "id": "o2",
-                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+                "text": "interchangeables"
               },
               {
                 "id": "o3",
-                "text": "Lorsque les astronomes auront confirmé une biosignature de manière indépendante, ils pourront enfin distinguer une origine biologique d’une simple origine abiotique."
+                "text": "astrobiologique"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "extraterrestre"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Après « Un télescope capte la lumière filtrée par l’atmosphère d’une planète… », que se passe-t-il ensuite dans « Analyse : Sommes-nous sur le point de détecter une vie extraterrestre ? » ?",
+            "prompt": "Quel mot complète la phrase entendue ?\n\n“Une _____ sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Un télescope capte la lumière filtrée par l’atmosphère d’une planète lointaine, et une question ancienne redevient soudain concrète."
+                "text": "interchangeables"
               },
               {
                 "id": "o2",
-                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+                "text": "réponse"
               },
               {
                 "id": "o3",
-                "text": "Lorsque les astronomes auront confirmé une biosignature de manière indépendante, ils pourront enfin distinguer une origine biologique d’une simple origine abiotique."
+                "text": "astrobiologique"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "extraterrestre"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Analyse : Sommes-nous sur le point de détecter une vie extraterrestre ? » ?",
+            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Lorsque les astronomes auront _____ une biosignature de manière indépendante, ils pourront enfin distinguer une origine biologique d’une simple origine abiotique.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Un télescope capte la lumière filtrée par l’atmosphère d’une planète lointaine, et une question ancienne redevient soudain concrète."
+                "text": "interchangeables"
               },
               {
                 "id": "o2",
-                "text": "Lorsque les astronomes auront confirmé une biosignature de manière indépendante, ils pourront enfin distinguer une origine biologique d’une simple origine abiotique."
+                "text": "astrobiologique"
               },
               {
                 "id": "o3",
-                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+                "text": "confirmé"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "extraterrestre"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel résultat conclut « Analyse : Sommes-nous sur le point de détecter une vie extraterrestre ? » après « Une réponse sérieuse doit distinguer ce que les données montrent, le… » ?",
+            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Un télescope capte la lumière filtrée par l’atmosphère d’une planète lointaine, et une question ancienne redevient soudain concrète."
+                "text": "interchangeables"
               },
               {
                 "id": "o2",
-                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+                "text": "astrobiologique"
               },
               {
                 "id": "o3",
-                "text": "Lorsque les astronomes auront confirmé une biosignature de manière indépendante, ils pourront enfin distinguer une origine biologique d’une simple origine abiotique."
+                "text": "extraterrestre"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "relier"
               }
             ]
           }
@@ -29882,42 +30932,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Dans « Analyse : Sommes-nous sur le point de détecter une vie extraterrestre ? », quel détail présente la situation ?",
+        "prompt": "Complète ce détail de l’audio.\n\n“Un télescope capte la lumière filtrée par l’atmosphère d’une planète lointaine, et une question ancienne redevient soudain _____.”",
         "options": [
-          "Un télescope capte la lumière filtrée par l’atmosphère d’une planète lointaine, et une question ancienne redevient soudain concrète.",
-          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.",
-          "Lorsque les astronomes auront confirmé une biosignature de manière indépendante, ils pourront enfin distinguer une origine biologique d’une simple origine abiotique.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "concrète",
+          "interchangeables",
+          "astrobiologique",
+          "extraterrestre"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Après « Un télescope capte la lumière filtrée par l’atmosphère d’une planète… », que se passe-t-il ensuite dans « Analyse : Sommes-nous sur le point de détecter une vie extraterrestre ? » ?",
+        "prompt": "Quel mot complète la phrase entendue ?\n\n“Une _____ sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.”",
         "options": [
-          "Un télescope capte la lumière filtrée par l’atmosphère d’une planète lointaine, et une question ancienne redevient soudain concrète.",
-          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.",
-          "Lorsque les astronomes auront confirmé une biosignature de manière indépendante, ils pourront enfin distinguer une origine biologique d’une simple origine abiotique.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "interchangeables",
+          "réponse",
+          "astrobiologique",
+          "extraterrestre"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Analyse : Sommes-nous sur le point de détecter une vie extraterrestre ? » ?",
+        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Lorsque les astronomes auront _____ une biosignature de manière indépendante, ils pourront enfin distinguer une origine biologique d’une simple origine abiotique.”",
         "options": [
-          "Un télescope capte la lumière filtrée par l’atmosphère d’une planète lointaine, et une question ancienne redevient soudain concrète.",
-          "Lorsque les astronomes auront confirmé une biosignature de manière indépendante, ils pourront enfin distinguer une origine biologique d’une simple origine abiotique.",
-          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "interchangeables",
+          "astrobiologique",
+          "confirmé",
+          "extraterrestre"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel résultat conclut « Analyse : Sommes-nous sur le point de détecter une vie extraterrestre ? » après « Une réponse sérieuse doit distinguer ce que les données montrent, le… » ?",
+        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
         "options": [
-          "Un télescope capte la lumière filtrée par l’atmosphère d’une planète lointaine, et une question ancienne redevient soudain concrète.",
-          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.",
-          "Lorsque les astronomes auront confirmé une biosignature de manière indépendante, ils pourront enfin distinguer une origine biologique d’une simple origine abiotique.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "interchangeables",
+          "astrobiologique",
+          "extraterrestre",
+          "relier"
         ]
       }
     ]
@@ -30004,38 +31054,145 @@
           "text": "La question n’est donc pas seulement de savoir si les réseaux sont bons ou mauvais, mais de décider quelles habitudes numériques protègent réellement notre attention et nos relations."
         }
       ],
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "french-b1-technologie-et-societe-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Complète ce détail de l’audio.\n\n“Les réseaux sociaux occupent une place importante dans notre vie _____.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "quotidienne"
+              },
+              {
+                "id": "o2",
+                "text": "confidentialité"
+              },
+              {
+                "id": "o3",
+                "text": "occupent"
+              },
+              {
+                "id": "o4",
+                "text": "partager"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quel mot complète la phrase entendue ?\n\n“Cependant, la _____ n’est pas seule responsable de ces difficultés.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "confidentialité"
+              },
+              {
+                "id": "o2",
+                "text": "technologie"
+              },
+              {
+                "id": "o3",
+                "text": "occupent"
+              },
+              {
+                "id": "o4",
+                "text": "partager"
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Il faut aussi que les plateformes expliquent plus clairement _____ leurs algorithmes sélectionnent les contenus.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "confidentialité"
+              },
+              {
+                "id": "o2",
+                "text": "désinformation"
+              },
+              {
+                "id": "o3",
+                "text": "comment"
+              },
+              {
+                "id": "o4",
+                "text": "sélectionnent"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“La question n’est donc pas seulement de savoir si les réseaux sont bons ou mauvais, mais de _____ quelles habitudes numériques protègent réellement notre attention et nos relations.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "confidentialité"
+              },
+              {
+                "id": "o2",
+                "text": "désinformation"
+              },
+              {
+                "id": "o3",
+                "text": "sélectionnent"
+              },
+              {
+                "id": "o4",
+                "text": "décider"
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Quel argument Karim présente-t-il ?",
+        "prompt": "Complète ce détail de l’audio.\n\n“Les réseaux sociaux occupent une place importante dans notre vie _____.”",
         "options": [
-          "Les réseaux sociaux sont dangereux",
-          "Les réseaux sociaux aident à rester connectés",
-          "Il ne les utilise jamais",
-          "Il préfère les lettres"
+          "quotidienne",
+          "confidentialité",
+          "occupent",
+          "partager"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "À quoi Léa fait-elle attention ?",
+        "prompt": "Quel mot complète la phrase entendue ?\n\n“Cependant, la _____ n’est pas seule responsable de ces difficultés.”",
         "options": [
-          "Au temps passé en ligne",
-          "Aux informations partagées",
-          "Au prix du téléphone",
-          "À la vitesse d’internet"
+          "confidentialité",
+          "technologie",
+          "occupent",
+          "partager"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Sur quoi Karim et Léa sont-ils finalement d’accord ?",
+        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Il faut aussi que les plateformes expliquent plus clairement _____ leurs algorithmes sélectionnent les contenus.”",
         "options": [
-          "Que les réseaux sociaux sont inutiles",
-          "Que l’équilibre est important",
-          "Qu’il faut les interdire",
-          "Qu’il faut les utiliser sans limite"
+          "confidentialité",
+          "désinformation",
+          "comment",
+          "sélectionnent"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“La question n’est donc pas seulement de savoir si les réseaux sont bons ou mauvais, mais de _____ quelles habitudes numériques protègent réellement notre attention et nos relations.”",
+        "options": [
+          "confidentialité",
+          "désinformation",
+          "sélectionnent",
+          "décider"
         ]
       }
     ]
@@ -30137,38 +31294,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "french-b2-cinema-et-critique-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Complète ce détail de l’audio.\n\n“Le film « Une ville en silence » raconte vingt-quatre heures dans la vie de trois inconnus dont les chemins finissent par se _____.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "croiser"
+              },
+              {
+                "id": "o2",
+                "text": "particulièrement"
+              },
+              {
+                "id": "o3",
+                "text": "rebondissement"
+              },
+              {
+                "id": "o4",
+                "text": "volontairement"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quel mot complète la phrase entendue ?\n\n“Un ticket _____ et une porte mal fermée préparent un rebondissement que le spectateur ne comprend qu’à la fin.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "particulièrement"
+              },
+              {
+                "id": "o2",
+                "text": "oublié"
+              },
+              {
+                "id": "o3",
+                "text": "rebondissement"
+              },
+              {
+                "id": "o4",
+                "text": "volontairement"
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Le rythme est parfois lent, mais cette lenteur me _____ nécessaire.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "particulièrement"
+              },
+              {
+                "id": "o2",
+                "text": "rebondissement"
+              },
+              {
+                "id": "o3",
+                "text": "paraît"
+              },
+              {
+                "id": "o4",
+                "text": "volontairement"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Je le recommande aux spectateurs qui aiment observer, interpréter et _____ qu’une œuvre ne fournisse pas toutes les réponses.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "particulièrement"
+              },
+              {
+                "id": "o2",
+                "text": "rebondissement"
+              },
+              {
+                "id": "o3",
+                "text": "volontairement"
+              },
+              {
+                "id": "o4",
+                "text": "accepter"
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qu’est-ce qui a le plus marqué Camila ?",
+        "prompt": "Complète ce détail de l’audio.\n\n“Le film « Une ville en silence » raconte vingt-quatre heures dans la vie de trois inconnus dont les chemins finissent par se _____.”",
         "options": [
-          "La musique",
-          "Le jeu des actrices",
-          "Les décors",
-          "La durée du film"
+          "croiser",
+          "particulièrement",
+          "rebondissement",
+          "volontairement"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Que pense Sofía du début du film ?",
+        "prompt": "Quel mot complète la phrase entendue ?\n\n“Un ticket _____ et une porte mal fermée préparent un rebondissement que le spectateur ne comprend qu’à la fin.”",
         "options": [
-          "Qu’il est trop rapide",
-          "Qu’il est un peu lent",
-          "Qu’il est parfait",
-          "Qu’il est incompréhensible"
+          "particulièrement",
+          "oublié",
+          "rebondissement",
+          "volontairement"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Comment Camila conclut-elle la conversation ?",
+        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Le rythme est parfois lent, mais cette lenteur me _____ nécessaire.”",
         "options": [
-          "Que le film ne valait pas la peine",
-          "Que ça valait vraiment la peine d’attendre",
-          "Qu’elle ne recommande pas le film",
-          "Qu’elle veut le revoir immédiatement"
+          "particulièrement",
+          "rebondissement",
+          "paraît",
+          "volontairement"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Je le recommande aux spectateurs qui aiment observer, interpréter et _____ qu’une œuvre ne fournisse pas toutes les réponses.”",
+        "options": [
+          "particulièrement",
+          "rebondissement",
+          "volontairement",
+          "accepter"
         ]
       }
     ]
@@ -34578,92 +35842,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Que se passe-t-il au début ?",
+            "prompt": "Complète ce détail de l’audio.\n\n“Ce soir, la famille Lambert prépare un dîner _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Ce soir, la famille Lambert prépare un dîner spécial."
+                "text": "spécial"
               },
               {
                 "id": "o2",
-                "text": "Paul veut du jus d’orange"
+                "text": "soir"
               },
               {
                 "id": "o3",
-                "text": "Elle aime beaucoup les légumes"
+                "text": "pain"
               },
               {
                 "id": "o4",
-                "text": "Elle remercie la famille et dit qu’elle veut apprendre à préparer ce repas."
+                "text": "Paul"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Que fait la personne ensuite ?",
+            "prompt": "Quel mot complète la phrase entendue ?\n\n“Paul veut du jus _____, mais Léa préfère de l’eau.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Ce soir, la famille Lambert prépare un dîner spécial."
+                "text": "dîner"
               },
               {
                 "id": "o2",
-                "text": "Paul veut du jus d’orange"
+                "text": "d’orange"
               },
               {
                 "id": "o3",
-                "text": "Elle aime beaucoup les légumes"
+                "text": "table"
               },
               {
                 "id": "o4",
-                "text": "Elle remercie la famille et dit qu’elle veut apprendre à préparer ce repas."
+                "text": "l’eau"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Quel autre détail est correct ?",
+            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Elle aime beaucoup les légumes, mais elle préfère les _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Ce soir, la famille Lambert prépare un dîner spécial."
+                "text": "dîner"
               },
               {
                 "id": "o2",
-                "text": "Paul veut du jus d’orange"
+                "text": "table"
               },
               {
                 "id": "o3",
-                "text": "Elle aime beaucoup les légumes"
+                "text": "carottes"
               },
               {
                 "id": "o4",
-                "text": "Elle remercie la famille et dit qu’elle veut apprendre à préparer ce repas."
+                "text": "l’eau"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Que se passe-t-il à la fin ?",
+            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Elle _____ la famille et dit qu’elle veut apprendre à préparer ce repas.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Ce soir, la famille Lambert prépare un dîner spécial."
+                "text": "dîner"
               },
               {
                 "id": "o2",
-                "text": "Paul veut du jus d’orange"
+                "text": "table"
               },
               {
                 "id": "o3",
-                "text": "Elle aime beaucoup les légumes"
+                "text": "l’eau"
               },
               {
                 "id": "o4",
-                "text": "Elle remercie la famille et dit qu’elle veut apprendre à préparer ce repas."
+                "text": "remercie"
               }
             ]
           }
@@ -34674,42 +35938,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Que se passe-t-il au début ?",
+        "prompt": "Complète ce détail de l’audio.\n\n“Ce soir, la famille Lambert prépare un dîner _____.”",
         "options": [
-          "Ce soir, la famille Lambert prépare un dîner spécial.",
-          "Paul veut du jus d’orange",
-          "Elle aime beaucoup les légumes",
-          "Elle remercie la famille et dit qu’elle veut apprendre à préparer ce repas."
+          "spécial",
+          "soir",
+          "pain",
+          "Paul"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Que fait la personne ensuite ?",
+        "prompt": "Quel mot complète la phrase entendue ?\n\n“Paul veut du jus _____, mais Léa préfère de l’eau.”",
         "options": [
-          "Ce soir, la famille Lambert prépare un dîner spécial.",
-          "Paul veut du jus d’orange",
-          "Elle aime beaucoup les légumes",
-          "Elle remercie la famille et dit qu’elle veut apprendre à préparer ce repas."
+          "dîner",
+          "d’orange",
+          "table",
+          "l’eau"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel autre détail est correct ?",
+        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Elle aime beaucoup les légumes, mais elle préfère les _____.”",
         "options": [
-          "Ce soir, la famille Lambert prépare un dîner spécial.",
-          "Paul veut du jus d’orange",
-          "Elle aime beaucoup les légumes",
-          "Elle remercie la famille et dit qu’elle veut apprendre à préparer ce repas."
+          "dîner",
+          "table",
+          "carottes",
+          "l’eau"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Que se passe-t-il à la fin ?",
+        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Elle _____ la famille et dit qu’elle veut apprendre à préparer ce repas.”",
         "options": [
-          "Ce soir, la famille Lambert prépare un dîner spécial.",
-          "Paul veut du jus d’orange",
-          "Elle aime beaucoup les légumes",
-          "Elle remercie la famille et dit qu’elle veut apprendre à préparer ce repas."
+          "dîner",
+          "table",
+          "l’eau",
+          "remercie"
         ]
       }
     ]
@@ -34803,92 +36067,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Dans « Découvrez Saint-Louis du Sénégal », quel détail présente la situation ?",
+            "prompt": "Complète ce détail de l’audio.\n\n“Vous cherchez une destination pour vos prochaines _____ ?”",
             "options": [
               {
                 "id": "o1",
-                "text": "Vous cherchez une destination pour vos prochaines vacances ?"
+                "text": "vacances"
               },
               {
                 "id": "o2",
-                "text": "Ensuite, vous allez rejoindre Saint-Louis en voiture et découvrir son centre historique."
+                "text": "traditionnels"
               },
               {
                 "id": "o3",
-                "text": "Notre équipe va réserver votre chambre et organiser les transports."
+                "text": "destination"
               },
               {
                 "id": "o4",
-                "text": "Réservez dès aujourd’hui votre prochain séjour."
+                "text": "Saint-Louis"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Après « Vous cherchez une destination pour vos prochaines vacances ? », que se passe-t-il ensuite dans « Découvrez Saint-Louis du Sénégal » ?",
+            "prompt": "Quel mot complète la phrase entendue ?\n\n“Ensuite, vous allez _____ Saint-Louis en voiture et découvrir son centre historique.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Vous cherchez une destination pour vos prochaines vacances ?"
+                "text": "traditionnels"
               },
               {
                 "id": "o2",
-                "text": "Ensuite, vous allez rejoindre Saint-Louis en voiture et découvrir son centre historique."
+                "text": "rejoindre"
               },
               {
                 "id": "o3",
-                "text": "Notre équipe va réserver votre chambre et organiser les transports."
+                "text": "séjour"
               },
               {
                 "id": "o4",
-                "text": "Réservez dès aujourd’hui votre prochain séjour."
+                "text": "centre"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Découvrez Saint-Louis du Sénégal » ?",
+            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Notre équipe va réserver votre _____ et organiser les transports.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Vous cherchez une destination pour vos prochaines vacances ?"
+                "text": "traditionnels"
               },
               {
                 "id": "o2",
-                "text": "Ensuite, vous allez rejoindre Saint-Louis en voiture et découvrir son centre historique."
+                "text": "destination"
               },
               {
                 "id": "o3",
-                "text": "Notre équipe va réserver votre chambre et organiser les transports."
+                "text": "chambre"
               },
               {
                 "id": "o4",
-                "text": "Réservez dès aujourd’hui votre prochain séjour."
+                "text": "Saint-Louis"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel résultat conclut « Découvrez Saint-Louis du Sénégal » après « Notre équipe va réserver votre chambre et organiser les transports. » ?",
+            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Réservez dès _____ votre prochain séjour.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Vous cherchez une destination pour vos prochaines vacances ?"
+                "text": "cherchez"
               },
               {
                 "id": "o2",
-                "text": "Ensuite, vous allez rejoindre Saint-Louis en voiture et découvrir son centre historique."
+                "text": "vacances"
               },
               {
                 "id": "o3",
-                "text": "Notre équipe va réserver votre chambre et organiser les transports."
+                "text": "réserver"
               },
               {
                 "id": "o4",
-                "text": "Réservez dès aujourd’hui votre prochain séjour."
+                "text": "aujourd’hui"
               }
             ]
           }
@@ -34899,42 +36163,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Dans « Découvrez Saint-Louis du Sénégal », quel détail présente la situation ?",
+        "prompt": "Complète ce détail de l’audio.\n\n“Vous cherchez une destination pour vos prochaines _____ ?”",
         "options": [
-          "Vous cherchez une destination pour vos prochaines vacances ?",
-          "Ensuite, vous allez rejoindre Saint-Louis en voiture et découvrir son centre historique.",
-          "Notre équipe va réserver votre chambre et organiser les transports.",
-          "Réservez dès aujourd’hui votre prochain séjour."
+          "vacances",
+          "traditionnels",
+          "destination",
+          "Saint-Louis"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Après « Vous cherchez une destination pour vos prochaines vacances ? », que se passe-t-il ensuite dans « Découvrez Saint-Louis du Sénégal » ?",
+        "prompt": "Quel mot complète la phrase entendue ?\n\n“Ensuite, vous allez _____ Saint-Louis en voiture et découvrir son centre historique.”",
         "options": [
-          "Vous cherchez une destination pour vos prochaines vacances ?",
-          "Ensuite, vous allez rejoindre Saint-Louis en voiture et découvrir son centre historique.",
-          "Notre équipe va réserver votre chambre et organiser les transports.",
-          "Réservez dès aujourd’hui votre prochain séjour."
+          "traditionnels",
+          "rejoindre",
+          "séjour",
+          "centre"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Découvrez Saint-Louis du Sénégal » ?",
+        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Notre équipe va réserver votre _____ et organiser les transports.”",
         "options": [
-          "Vous cherchez une destination pour vos prochaines vacances ?",
-          "Ensuite, vous allez rejoindre Saint-Louis en voiture et découvrir son centre historique.",
-          "Notre équipe va réserver votre chambre et organiser les transports.",
-          "Réservez dès aujourd’hui votre prochain séjour."
+          "traditionnels",
+          "destination",
+          "chambre",
+          "Saint-Louis"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel résultat conclut « Découvrez Saint-Louis du Sénégal » après « Notre équipe va réserver votre chambre et organiser les transports. » ?",
+        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Réservez dès _____ votre prochain séjour.”",
         "options": [
-          "Vous cherchez une destination pour vos prochaines vacances ?",
-          "Ensuite, vous allez rejoindre Saint-Louis en voiture et découvrir son centre historique.",
-          "Notre équipe va réserver votre chambre et organiser les transports.",
-          "Réservez dès aujourd’hui votre prochain séjour."
+          "cherchez",
+          "vacances",
+          "réserver",
+          "aujourd’hui"
         ]
       }
     ]
@@ -35049,92 +36313,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Dans « Chronique : Le campus peut-il devenir sobre ? », quel détail présente la situation ?",
+            "prompt": "Complète ce détail de l’audio.\n\n“Réduire le chauffage à dix-neuf degrés, éteindre l’éclairage extérieur après vingt-deux heures, décaler certains cours en visioconférence les jours de tension sur le réseau : ce sont les mesures très concrètes qu’une majorité d’universités françaises ont adoptées à partir de l’automne 2022, dans le cadre du plan national de sobriété énergétique lancé après la crise liée à la guerre en Ukraine, avec pour objectif affiché une baisse de dix pour cent de la _____ en deux ans.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Réduire le chauffage à dix-neuf degrés, éteindre l’éclairage extérieur après vingt-deux heures, décaler certains cours en visioconférence les jours de tension sur le réseau : ce sont les mesures très concrètes qu’une majorité d’universités françaises ont adoptées à partir de l’automne 2022, dans le cadre du plan national de sobriété énergétique lancé après la crise liée à la guerre en Ukraine, avec pour objectif affiché une baisse de dix pour cent de la consommation en deux ans."
+                "text": "consommation"
               },
               {
                 "id": "o2",
-                "text": "Six notions permettent de suivre le raisonnement : la sobriété énergétique, énergivore, un arbitrage, structurel, un indicateur et proportionné."
+                "text": "chauffage"
               },
               {
                 "id": "o3",
-                "text": "Si le campus avait mesuré plus tôt sa consommation, il aurait évité certains choix énergivores et aurait mieux réparti les coûts."
+                "text": "extérieur"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "visioconférence"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Après « Réduire le chauffage à dix-neuf degrés, éteindre l’éclairage extérieur… », que se passe-t-il ensuite dans « Chronique : Le campus peut-il devenir sobre ? » ?",
+            "prompt": "Quel mot complète la phrase entendue ?\n\n“Six _____ permettent de suivre le raisonnement : la sobriété énergétique, énergivore, un arbitrage, structurel, un indicateur et proportionné.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Réduire le chauffage à dix-neuf degrés, éteindre l’éclairage extérieur après vingt-deux heures, décaler certains cours en visioconférence les jours de tension sur le réseau : ce sont les mesures très concrètes qu’une majorité d’universités françaises ont adoptées à partir de l’automne 2022, dans le cadre du plan national de sobriété énergétique lancé après la crise liée à la guerre en Ukraine, avec pour objectif affiché une baisse de dix pour cent de la consommation en deux ans."
+                "text": "visioconférence"
               },
               {
                 "id": "o2",
-                "text": "Six notions permettent de suivre le raisonnement : la sobriété énergétique, énergivore, un arbitrage, structurel, un indicateur et proportionné."
+                "text": "notions"
               },
               {
                 "id": "o3",
-                "text": "Si le campus avait mesuré plus tôt sa consommation, il aurait évité certains choix énergivores et aurait mieux réparti les coûts."
+                "text": "responsabilités"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "d’universités"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Chronique : Le campus peut-il devenir sobre ? » ?",
+            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Si le campus avait mesuré plus tôt sa consommation, il _____ évité certains choix énergivores et aurait mieux réparti les coûts.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Réduire le chauffage à dix-neuf degrés, éteindre l’éclairage extérieur après vingt-deux heures, décaler certains cours en visioconférence les jours de tension sur le réseau : ce sont les mesures très concrètes qu’une majorité d’universités françaises ont adoptées à partir de l’automne 2022, dans le cadre du plan national de sobriété énergétique lancé après la crise liée à la guerre en Ukraine, avec pour objectif affiché une baisse de dix pour cent de la consommation en deux ans."
+                "text": "visioconférence"
               },
               {
                 "id": "o2",
-                "text": "Six notions permettent de suivre le raisonnement : la sobriété énergétique, énergivore, un arbitrage, structurel, un indicateur et proportionné."
+                "text": "responsabilités"
               },
               {
                 "id": "o3",
-                "text": "Si le campus avait mesuré plus tôt sa consommation, il aurait évité certains choix énergivores et aurait mieux réparti les coûts."
+                "text": "aurait"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "d’universités"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel résultat conclut « Chronique : Le campus peut-il devenir sobre ? » après « Si le campus avait mesuré plus tôt sa consommation, il aurait évité… » ?",
+            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Réduire le chauffage à dix-neuf degrés, éteindre l’éclairage extérieur après vingt-deux heures, décaler certains cours en visioconférence les jours de tension sur le réseau : ce sont les mesures très concrètes qu’une majorité d’universités françaises ont adoptées à partir de l’automne 2022, dans le cadre du plan national de sobriété énergétique lancé après la crise liée à la guerre en Ukraine, avec pour objectif affiché une baisse de dix pour cent de la consommation en deux ans."
+                "text": "visioconférence"
               },
               {
                 "id": "o2",
-                "text": "Six notions permettent de suivre le raisonnement : la sobriété énergétique, énergivore, un arbitrage, structurel, un indicateur et proportionné."
+                "text": "responsabilités"
               },
               {
                 "id": "o3",
-                "text": "Si le campus avait mesuré plus tôt sa consommation, il aurait évité certains choix énergivores et aurait mieux réparti les coûts."
+                "text": "d’universités"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "relier"
               }
             ]
           }
@@ -35145,42 +36409,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Dans « Chronique : Le campus peut-il devenir sobre ? », quel détail présente la situation ?",
+        "prompt": "Complète ce détail de l’audio.\n\n“Réduire le chauffage à dix-neuf degrés, éteindre l’éclairage extérieur après vingt-deux heures, décaler certains cours en visioconférence les jours de tension sur le réseau : ce sont les mesures très concrètes qu’une majorité d’universités françaises ont adoptées à partir de l’automne 2022, dans le cadre du plan national de sobriété énergétique lancé après la crise liée à la guerre en Ukraine, avec pour objectif affiché une baisse de dix pour cent de la _____ en deux ans.”",
         "options": [
-          "Réduire le chauffage à dix-neuf degrés, éteindre l’éclairage extérieur après vingt-deux heures, décaler certains cours en visioconférence les jours de tension sur le réseau : ce sont les mesures très concrètes qu’une majorité d’universités françaises ont adoptées à partir de l’automne 2022, dans le cadre du plan national de sobriété énergétique lancé après la crise liée à la guerre en Ukraine, avec pour objectif affiché une baisse de dix pour cent de la consommation en deux ans.",
-          "Six notions permettent de suivre le raisonnement : la sobriété énergétique, énergivore, un arbitrage, structurel, un indicateur et proportionné.",
-          "Si le campus avait mesuré plus tôt sa consommation, il aurait évité certains choix énergivores et aurait mieux réparti les coûts.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "consommation",
+          "chauffage",
+          "extérieur",
+          "visioconférence"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Après « Réduire le chauffage à dix-neuf degrés, éteindre l’éclairage extérieur… », que se passe-t-il ensuite dans « Chronique : Le campus peut-il devenir sobre ? » ?",
+        "prompt": "Quel mot complète la phrase entendue ?\n\n“Six _____ permettent de suivre le raisonnement : la sobriété énergétique, énergivore, un arbitrage, structurel, un indicateur et proportionné.”",
         "options": [
-          "Réduire le chauffage à dix-neuf degrés, éteindre l’éclairage extérieur après vingt-deux heures, décaler certains cours en visioconférence les jours de tension sur le réseau : ce sont les mesures très concrètes qu’une majorité d’universités françaises ont adoptées à partir de l’automne 2022, dans le cadre du plan national de sobriété énergétique lancé après la crise liée à la guerre en Ukraine, avec pour objectif affiché une baisse de dix pour cent de la consommation en deux ans.",
-          "Six notions permettent de suivre le raisonnement : la sobriété énergétique, énergivore, un arbitrage, structurel, un indicateur et proportionné.",
-          "Si le campus avait mesuré plus tôt sa consommation, il aurait évité certains choix énergivores et aurait mieux réparti les coûts.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "visioconférence",
+          "notions",
+          "responsabilités",
+          "d’universités"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Chronique : Le campus peut-il devenir sobre ? » ?",
+        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Si le campus avait mesuré plus tôt sa consommation, il _____ évité certains choix énergivores et aurait mieux réparti les coûts.”",
         "options": [
-          "Réduire le chauffage à dix-neuf degrés, éteindre l’éclairage extérieur après vingt-deux heures, décaler certains cours en visioconférence les jours de tension sur le réseau : ce sont les mesures très concrètes qu’une majorité d’universités françaises ont adoptées à partir de l’automne 2022, dans le cadre du plan national de sobriété énergétique lancé après la crise liée à la guerre en Ukraine, avec pour objectif affiché une baisse de dix pour cent de la consommation en deux ans.",
-          "Six notions permettent de suivre le raisonnement : la sobriété énergétique, énergivore, un arbitrage, structurel, un indicateur et proportionné.",
-          "Si le campus avait mesuré plus tôt sa consommation, il aurait évité certains choix énergivores et aurait mieux réparti les coûts.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "visioconférence",
+          "responsabilités",
+          "aurait",
+          "d’universités"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel résultat conclut « Chronique : Le campus peut-il devenir sobre ? » après « Si le campus avait mesuré plus tôt sa consommation, il aurait évité… » ?",
+        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
         "options": [
-          "Réduire le chauffage à dix-neuf degrés, éteindre l’éclairage extérieur après vingt-deux heures, décaler certains cours en visioconférence les jours de tension sur le réseau : ce sont les mesures très concrètes qu’une majorité d’universités françaises ont adoptées à partir de l’automne 2022, dans le cadre du plan national de sobriété énergétique lancé après la crise liée à la guerre en Ukraine, avec pour objectif affiché une baisse de dix pour cent de la consommation en deux ans.",
-          "Six notions permettent de suivre le raisonnement : la sobriété énergétique, énergivore, un arbitrage, structurel, un indicateur et proportionné.",
-          "Si le campus avait mesuré plus tôt sa consommation, il aurait évité certains choix énergivores et aurait mieux réparti les coûts.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "visioconférence",
+          "responsabilités",
+          "d’universités",
+          "relier"
         ]
       }
     ]
@@ -35315,92 +36579,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Dans « Chronique : Corriger le génome, corriger le jugement : deux frontières médicales », quel détail présente la situation ?",
+            "prompt": "Complète ce détail de l’audio.\n\n“Modifier un gène avant la naissance, entraîner un algorithme à diagnostiquer une maladie : deux frontières médicales avancent plus vite que leur cadre _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Modifier un gène avant la naissance, entraîner un algorithme à diagnostiquer une maladie : deux frontières médicales avancent plus vite que leur cadre éthique."
+                "text": "éthique"
               },
               {
                 "id": "o2",
-                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+                "text": "interchangeables"
               },
               {
                 "id": "o3",
-                "text": "Quoique l’édition somatique soit désormais bien maîtrisée, l’édition germinale demeure suspendue à un moratoire international informel."
+                "text": "diagnostiquer"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "contemporaine"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Après « Modifier un gène avant la naissance, entraîner un algorithme à… », que se passe-t-il ensuite dans « Chronique : Corriger le génome, corriger le jugement : deux frontières médicales » ?",
+            "prompt": "Quel mot complète la phrase entendue ?\n\n“Une _____ sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Modifier un gène avant la naissance, entraîner un algorithme à diagnostiquer une maladie : deux frontières médicales avancent plus vite que leur cadre éthique."
+                "text": "interchangeables"
               },
               {
                 "id": "o2",
-                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+                "text": "réponse"
               },
               {
                 "id": "o3",
-                "text": "Quoique l’édition somatique soit désormais bien maîtrisée, l’édition germinale demeure suspendue à un moratoire international informel."
+                "text": "diagnostiquer"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "contemporaine"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Chronique : Corriger le génome, corriger le jugement : deux frontières médicales » ?",
+            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Quoique l’édition somatique soit _____ bien maîtrisée, l’édition germinale demeure suspendue à un moratoire international informel.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Modifier un gène avant la naissance, entraîner un algorithme à diagnostiquer une maladie : deux frontières médicales avancent plus vite que leur cadre éthique."
+                "text": "interchangeables"
               },
               {
                 "id": "o2",
-                "text": "Quoique l’édition somatique soit désormais bien maîtrisée, l’édition germinale demeure suspendue à un moratoire international informel."
+                "text": "diagnostiquer"
               },
               {
                 "id": "o3",
-                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+                "text": "désormais"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "contemporaine"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel résultat conclut « Chronique : Corriger le génome, corriger le jugement : deux frontières médicales » après « Une réponse sérieuse doit distinguer ce que les données montrent, le… » ?",
+            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Modifier un gène avant la naissance, entraîner un algorithme à diagnostiquer une maladie : deux frontières médicales avancent plus vite que leur cadre éthique."
+                "text": "interchangeables"
               },
               {
                 "id": "o2",
-                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+                "text": "diagnostiquer"
               },
               {
                 "id": "o3",
-                "text": "Quoique l’édition somatique soit désormais bien maîtrisée, l’édition germinale demeure suspendue à un moratoire international informel."
+                "text": "contemporaine"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "relier"
               }
             ]
           }
@@ -35411,42 +36675,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Dans « Chronique : Corriger le génome, corriger le jugement : deux frontières médicales », quel détail présente la situation ?",
+        "prompt": "Complète ce détail de l’audio.\n\n“Modifier un gène avant la naissance, entraîner un algorithme à diagnostiquer une maladie : deux frontières médicales avancent plus vite que leur cadre _____.”",
         "options": [
-          "Modifier un gène avant la naissance, entraîner un algorithme à diagnostiquer une maladie : deux frontières médicales avancent plus vite que leur cadre éthique.",
-          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.",
-          "Quoique l’édition somatique soit désormais bien maîtrisée, l’édition germinale demeure suspendue à un moratoire international informel.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "éthique",
+          "interchangeables",
+          "diagnostiquer",
+          "contemporaine"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Après « Modifier un gène avant la naissance, entraîner un algorithme à… », que se passe-t-il ensuite dans « Chronique : Corriger le génome, corriger le jugement : deux frontières médicales » ?",
+        "prompt": "Quel mot complète la phrase entendue ?\n\n“Une _____ sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.”",
         "options": [
-          "Modifier un gène avant la naissance, entraîner un algorithme à diagnostiquer une maladie : deux frontières médicales avancent plus vite que leur cadre éthique.",
-          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.",
-          "Quoique l’édition somatique soit désormais bien maîtrisée, l’édition germinale demeure suspendue à un moratoire international informel.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "interchangeables",
+          "réponse",
+          "diagnostiquer",
+          "contemporaine"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Chronique : Corriger le génome, corriger le jugement : deux frontières médicales » ?",
+        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Quoique l’édition somatique soit _____ bien maîtrisée, l’édition germinale demeure suspendue à un moratoire international informel.”",
         "options": [
-          "Modifier un gène avant la naissance, entraîner un algorithme à diagnostiquer une maladie : deux frontières médicales avancent plus vite que leur cadre éthique.",
-          "Quoique l’édition somatique soit désormais bien maîtrisée, l’édition germinale demeure suspendue à un moratoire international informel.",
-          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "interchangeables",
+          "diagnostiquer",
+          "désormais",
+          "contemporaine"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel résultat conclut « Chronique : Corriger le génome, corriger le jugement : deux frontières médicales » après « Une réponse sérieuse doit distinguer ce que les données montrent, le… » ?",
+        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
         "options": [
-          "Modifier un gène avant la naissance, entraîner un algorithme à diagnostiquer une maladie : deux frontières médicales avancent plus vite que leur cadre éthique.",
-          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.",
-          "Quoique l’édition somatique soit désormais bien maîtrisée, l’édition germinale demeure suspendue à un moratoire international informel.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "interchangeables",
+          "diagnostiquer",
+          "contemporaine",
+          "relier"
         ]
       }
     ]
@@ -35538,38 +36802,145 @@
           "text": "Demander de l’aide est une décision responsable, pas un signe de faiblesse."
         }
       ],
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "french-b1-sante-et-mode-de-vie-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Complète ce détail de l’audio.\n\n“Cette minute santé s’adresse aux étudiants qui ressentent du stress avant un _____.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "examen"
+              },
+              {
+                "id": "o2",
+                "text": "reconnaissiez"
+              },
+              {
+                "id": "o3",
+                "text": "concentration"
+              },
+              {
+                "id": "o4",
+                "text": "professionnel"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quel mot complète la phrase entendue ?\n\n“Il vaut mieux que vous prépariez un _____ simple, avec des objectifs réalisables.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "reconnaissiez"
+              },
+              {
+                "id": "o2",
+                "text": "programme"
+              },
+              {
+                "id": "o3",
+                "text": "concentration"
+              },
+              {
+                "id": "o4",
+                "text": "professionnel"
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Évitez de comparer votre rythme à celui des _____.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "reconnaissiez"
+              },
+              {
+                "id": "o2",
+                "text": "concentration"
+              },
+              {
+                "id": "o3",
+                "text": "autres"
+              },
+              {
+                "id": "o4",
+                "text": "professionnel"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“_____ de l’aide est une décision responsable, pas un signe de faiblesse.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "reconnaissiez"
+              },
+              {
+                "id": "o2",
+                "text": "concentration"
+              },
+              {
+                "id": "o3",
+                "text": "professionnel"
+              },
+              {
+                "id": "o4",
+                "text": "Demander"
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Quel conseil Madame Lambert donne-t-elle sur les révisions ?",
+        "prompt": "Complète ce détail de l’audio.\n\n“Cette minute santé s’adresse aux étudiants qui ressentent du stress avant un _____.”",
         "options": [
-          "Réviser sans pause",
-          "Faire des pauses régulières",
-          "Réviser seulement la nuit",
-          "Ne pas réviser du tout"
+          "examen",
+          "reconnaissiez",
+          "concentration",
+          "professionnel"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Combien d’heures de sommeil recommande-t-elle ?",
+        "prompt": "Quel mot complète la phrase entendue ?\n\n“Il vaut mieux que vous prépariez un _____ simple, avec des objectifs réalisables.”",
         "options": [
-          "Cinq heures",
-          "Sept heures",
-          "Neuf heures",
-          "Dix heures"
+          "reconnaissiez",
+          "programme",
+          "concentration",
+          "professionnel"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Comment Camila réagit-elle aux conseils ?",
+        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Évitez de comparer votre rythme à celui des _____.”",
         "options": [
-          "Elle les refuse",
-          "Elle accepte de les essayer",
-          "Elle ne répond pas",
-          "Elle se fâche"
+          "reconnaissiez",
+          "concentration",
+          "autres",
+          "professionnel"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“_____ de l’aide est une décision responsable, pas un signe de faiblesse.”",
+        "options": [
+          "reconnaissiez",
+          "concentration",
+          "professionnel",
+          "Demander"
         ]
       }
     ]
@@ -35686,38 +37057,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "french-b2-dilemmes-ethiques-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Complète ce détail de l’audio.\n\n“Il y a quelques mois, j’ai été témoin d’une situation qui me fait encore _____.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "réfléchir"
+              },
+              {
+                "id": "o2",
+                "text": "immédiatement"
+              },
+              {
+                "id": "o3",
+                "text": "témoin"
+              },
+              {
+                "id": "o4",
+                "text": "encore"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quel mot complète la phrase entendue ?\n\n“Si j’avais parlé _____, j’aurais peut-être évité que la situation dure.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "entreprise"
+              },
+              {
+                "id": "o2",
+                "text": "immédiatement"
+              },
+              {
+                "id": "o3",
+                "text": "mentionner"
+              },
+              {
+                "id": "o4",
+                "text": "J’hésitais"
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Elle a organisé une discussion et la contribution de la _____ a été reconnue.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "immédiatement"
+              },
+              {
+                "id": "o2",
+                "text": "témoin"
+              },
+              {
+                "id": "o3",
+                "text": "stagiaire"
+              },
+              {
+                "id": "o4",
+                "text": "encore"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Mais nos valeurs deviennent concrètes seulement lorsque nous _____ d’agir malgré l’inconfort.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "immédiatement"
+              },
+              {
+                "id": "o2",
+                "text": "témoin"
+              },
+              {
+                "id": "o3",
+                "text": "encore"
+              },
+              {
+                "id": "o4",
+                "text": "acceptons"
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qu’aurait fait le participant argentin ?",
+        "prompt": "Complète ce détail de l’audio.\n\n“Il y a quelques mois, j’ai été témoin d’une situation qui me fait encore _____.”",
         "options": [
-          "Il aurait ignoré la situation",
-          "Il aurait confronté son ami directement",
-          "Il aurait dénoncé publiquement",
-          "Il n’aurait rien fait"
+          "réfléchir",
+          "immédiatement",
+          "témoin",
+          "encore"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "De quoi dépendrait la décision de l’étudiante sénégalaise ?",
+        "prompt": "Quel mot complète la phrase entendue ?\n\n“Si j’avais parlé _____, j’aurais peut-être évité que la situation dure.”",
         "options": [
-          "De son humeur",
-          "Des conséquences réelles du mensonge",
-          "De l’opinion générale",
-          "De l’âge de son ami"
+          "entreprise",
+          "immédiatement",
+          "mentionner",
+          "J’hésitais"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Sur quoi les deux participants sont-ils d’accord à la fin ?",
+        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Elle a organisé une discussion et la contribution de la _____ a été reconnue.”",
         "options": [
-          "Qu’il faut toujours dénoncer",
-          "Que chacun réagit différemment",
-          "Qu’il ne faut jamais rien dire",
-          "Qu’ils ont totalement tort tous les deux"
+          "immédiatement",
+          "témoin",
+          "stagiaire",
+          "encore"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Mais nos valeurs deviennent concrètes seulement lorsque nous _____ d’agir malgré l’inconfort.”",
+        "options": [
+          "immédiatement",
+          "témoin",
+          "encore",
+          "acceptons"
         ]
       }
     ]
@@ -40148,92 +41626,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Que se passe-t-il au début ?",
+            "prompt": "Complète ce détail de l’audio.\n\n“Ma chambre à Tours est petite, mais elle est très _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Ma chambre à Tours est petite"
+                "text": "agréable"
               },
               {
                 "id": "o2",
-                "text": "Sous la chaise, il y a mon sac d’école."
+                "text": "Tours"
               },
               {
                 "id": "o3",
-                "text": "C’est mon coin préféré pour lire."
+                "text": "lampe"
               },
               {
                 "id": "o4",
-                "text": "J’aime ma chambre parce qu’elle est calme et lumineuse."
+                "text": "trois"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Que fait la personne ensuite ?",
+            "prompt": "Quel mot complète la phrase entendue ?\n\n“Sous la _____, il y a mon sac d’école.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Ma chambre à Tours est petite"
+                "text": "ordinateur"
               },
               {
                 "id": "o2",
-                "text": "Sous la chaise, il y a mon sac d’école."
+                "text": "chaise"
               },
               {
                 "id": "o3",
-                "text": "C’est mon coin préféré pour lire."
+                "text": "chaussures"
               },
               {
                 "id": "o4",
-                "text": "J’aime ma chambre parce qu’elle est calme et lumineuse."
+                "text": "est"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Quel autre détail est correct ?",
+            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“C’est mon coin _____ pour lire.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Ma chambre à Tours est petite"
+                "text": "très"
               },
               {
                 "id": "o2",
-                "text": "Sous la chaise, il y a mon sac d’école."
+                "text": "près"
               },
               {
                 "id": "o3",
-                "text": "C’est mon coin préféré pour lire."
+                "text": "préféré"
               },
               {
                 "id": "o4",
-                "text": "J’aime ma chambre parce qu’elle est calme et lumineuse."
+                "text": "ordinateur"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Que se passe-t-il à la fin ?",
+            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“J’aime ma _____ parce qu’elle est calme et lumineuse.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Ma chambre à Tours est petite"
+                "text": "très"
               },
               {
                 "id": "o2",
-                "text": "Sous la chaise, il y a mon sac d’école."
+                "text": "près"
               },
               {
                 "id": "o3",
-                "text": "C’est mon coin préféré pour lire."
+                "text": "ordinateur"
               },
               {
                 "id": "o4",
-                "text": "J’aime ma chambre parce qu’elle est calme et lumineuse."
+                "text": "chambre"
               }
             ]
           }
@@ -40244,42 +41722,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Que se passe-t-il au début ?",
+        "prompt": "Complète ce détail de l’audio.\n\n“Ma chambre à Tours est petite, mais elle est très _____.”",
         "options": [
-          "Ma chambre à Tours est petite",
-          "Sous la chaise, il y a mon sac d’école.",
-          "C’est mon coin préféré pour lire.",
-          "J’aime ma chambre parce qu’elle est calme et lumineuse."
+          "agréable",
+          "Tours",
+          "lampe",
+          "trois"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Que fait la personne ensuite ?",
+        "prompt": "Quel mot complète la phrase entendue ?\n\n“Sous la _____, il y a mon sac d’école.”",
         "options": [
-          "Ma chambre à Tours est petite",
-          "Sous la chaise, il y a mon sac d’école.",
-          "C’est mon coin préféré pour lire.",
-          "J’aime ma chambre parce qu’elle est calme et lumineuse."
+          "ordinateur",
+          "chaise",
+          "chaussures",
+          "est"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel autre détail est correct ?",
+        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“C’est mon coin _____ pour lire.”",
         "options": [
-          "Ma chambre à Tours est petite",
-          "Sous la chaise, il y a mon sac d’école.",
-          "C’est mon coin préféré pour lire.",
-          "J’aime ma chambre parce qu’elle est calme et lumineuse."
+          "très",
+          "près",
+          "préféré",
+          "ordinateur"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Que se passe-t-il à la fin ?",
+        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“J’aime ma _____ parce qu’elle est calme et lumineuse.”",
         "options": [
-          "Ma chambre à Tours est petite",
-          "Sous la chaise, il y a mon sac d’école.",
-          "C’est mon coin préféré pour lire.",
-          "J’aime ma chambre parce qu’elle est calme et lumineuse."
+          "très",
+          "près",
+          "ordinateur",
+          "chambre"
         ]
       }
     ]
@@ -40373,92 +41851,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Dans « Deux logements à louer à Nantes », quel détail présente la situation ?",
+            "prompt": "Complète ce détail de l’audio.\n\n“Bonjour et bienvenue dans notre annonce immobilière de la _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Bonjour et bienvenue dans notre annonce immobilière de la semaine."
+                "text": "semaine"
               },
               {
                 "id": "o2",
-                "text": "Il y a une grande fenêtre et un coin cuisine, mais il n’y a pas de balcon."
+                "text": "l’appartement"
               },
               {
                 "id": "o3",
-                "text": "La chambre est plus petite que le studio, mais l’appartement est plus calme et beaucoup moins cher."
+                "text": "centre-ville"
               },
               {
                 "id": "o4",
-                "text": "Pour visiter l’un de ces logements, contactez notre agence avant vendredi."
+                "text": "colocataires"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Après « Bonjour et bienvenue dans notre annonce immobilière de la semaine. », que se passe-t-il ensuite dans « Deux logements à louer à Nantes » ?",
+            "prompt": "Quel mot complète la phrase entendue ?\n\n“Il y a une grande _____ et un coin cuisine, mais il n’y a pas de balcon.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Bonjour et bienvenue dans notre annonce immobilière de la semaine."
+                "text": "l’appartement"
               },
               {
                 "id": "o2",
-                "text": "Il y a une grande fenêtre et un coin cuisine, mais il n’y a pas de balcon."
+                "text": "fenêtre"
               },
               {
                 "id": "o3",
-                "text": "La chambre est plus petite que le studio, mais l’appartement est plus calme et beaucoup moins cher."
+                "text": "centre-ville"
               },
               {
                 "id": "o4",
-                "text": "Pour visiter l’un de ces logements, contactez notre agence avant vendredi."
+                "text": "colocataires"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Deux logements à louer à Nantes » ?",
+            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“La chambre est plus petite que le studio, mais _____ est plus calme et beaucoup moins cher.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Bonjour et bienvenue dans notre annonce immobilière de la semaine."
+                "text": "présentons"
               },
               {
                 "id": "o2",
-                "text": "Il y a une grande fenêtre et un coin cuisine, mais il n’y a pas de balcon."
+                "text": "colocation"
               },
               {
                 "id": "o3",
-                "text": "La chambre est plus petite que le studio, mais l’appartement est plus calme et beaucoup moins cher."
+                "text": "l’appartement"
               },
               {
                 "id": "o4",
-                "text": "Pour visiter l’un de ces logements, contactez notre agence avant vendredi."
+                "text": "immobilière"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel résultat conclut « Deux logements à louer à Nantes » après « La chambre est plus petite que le studio, mais l’appartement est plus… » ?",
+            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Pour _____ l’un de ces logements, contactez notre agence avant vendredi.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Bonjour et bienvenue dans notre annonce immobilière de la semaine."
+                "text": "l’appartement"
               },
               {
                 "id": "o2",
-                "text": "Il y a une grande fenêtre et un coin cuisine, mais il n’y a pas de balcon."
+                "text": "centre-ville"
               },
               {
                 "id": "o3",
-                "text": "La chambre est plus petite que le studio, mais l’appartement est plus calme et beaucoup moins cher."
+                "text": "colocataires"
               },
               {
                 "id": "o4",
-                "text": "Pour visiter l’un de ces logements, contactez notre agence avant vendredi."
+                "text": "visiter"
               }
             ]
           }
@@ -40469,42 +41947,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Dans « Deux logements à louer à Nantes », quel détail présente la situation ?",
+        "prompt": "Complète ce détail de l’audio.\n\n“Bonjour et bienvenue dans notre annonce immobilière de la _____.”",
         "options": [
-          "Bonjour et bienvenue dans notre annonce immobilière de la semaine.",
-          "Il y a une grande fenêtre et un coin cuisine, mais il n’y a pas de balcon.",
-          "La chambre est plus petite que le studio, mais l’appartement est plus calme et beaucoup moins cher.",
-          "Pour visiter l’un de ces logements, contactez notre agence avant vendredi."
+          "semaine",
+          "l’appartement",
+          "centre-ville",
+          "colocataires"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Après « Bonjour et bienvenue dans notre annonce immobilière de la semaine. », que se passe-t-il ensuite dans « Deux logements à louer à Nantes » ?",
+        "prompt": "Quel mot complète la phrase entendue ?\n\n“Il y a une grande _____ et un coin cuisine, mais il n’y a pas de balcon.”",
         "options": [
-          "Bonjour et bienvenue dans notre annonce immobilière de la semaine.",
-          "Il y a une grande fenêtre et un coin cuisine, mais il n’y a pas de balcon.",
-          "La chambre est plus petite que le studio, mais l’appartement est plus calme et beaucoup moins cher.",
-          "Pour visiter l’un de ces logements, contactez notre agence avant vendredi."
+          "l’appartement",
+          "fenêtre",
+          "centre-ville",
+          "colocataires"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Deux logements à louer à Nantes » ?",
+        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“La chambre est plus petite que le studio, mais _____ est plus calme et beaucoup moins cher.”",
         "options": [
-          "Bonjour et bienvenue dans notre annonce immobilière de la semaine.",
-          "Il y a une grande fenêtre et un coin cuisine, mais il n’y a pas de balcon.",
-          "La chambre est plus petite que le studio, mais l’appartement est plus calme et beaucoup moins cher.",
-          "Pour visiter l’un de ces logements, contactez notre agence avant vendredi."
+          "présentons",
+          "colocation",
+          "l’appartement",
+          "immobilière"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel résultat conclut « Deux logements à louer à Nantes » après « La chambre est plus petite que le studio, mais l’appartement est plus… » ?",
+        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Pour _____ l’un de ces logements, contactez notre agence avant vendredi.”",
         "options": [
-          "Bonjour et bienvenue dans notre annonce immobilière de la semaine.",
-          "Il y a une grande fenêtre et un coin cuisine, mais il n’y a pas de balcon.",
-          "La chambre est plus petite que le studio, mais l’appartement est plus calme et beaucoup moins cher.",
-          "Pour visiter l’un de ces logements, contactez notre agence avant vendredi."
+          "l’appartement",
+          "centre-ville",
+          "colocataires",
+          "visiter"
         ]
       }
     ]
@@ -40624,92 +42102,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Dans « Réflexion : Qui a le droit de bien parler ? », quel détail présente la situation ?",
+            "prompt": "Complète ce détail de l’audio.\n\n“En 2020, l’Assemblée nationale française a inscrit la « glottophobie » — la discrimination fondée sur l’accent ou la façon de parler — dans la loi relative à la lutte contre les discriminations, aux côtés du sexisme et du _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "En 2020, l’Assemblée nationale française a inscrit la « glottophobie » — la discrimination fondée sur l’accent ou la façon de parler — dans la loi relative à la lutte contre les discriminations, aux côtés du sexisme et du racisme."
+                "text": "racisme"
               },
               {
                 "id": "o2",
-                "text": "Ce n’est donc pas la prononciation elle-même qui pose problème lors des corrections répétées subies par certains locuteurs dès l’enfance, à l’école comme dans la vie professionnelle : c’est l’association implicite que la société établit entre une manière de parler et un supposé manque de sérieux ou de compétence."
+                "text": "discriminations"
               },
               {
                 "id": "o3",
-                "text": "La norme linguistique dont l’institution se réclame n’est pas la seule variété à laquelle les étudiants donnent une légitimité."
+                "text": "sociolinguistes"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "professionnelle"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Après « En 2020, l’Assemblée nationale française a inscrit la « glottophobie »… », que se passe-t-il ensuite dans « Réflexion : Qui a le droit de bien parler ? » ?",
+            "prompt": "Quel mot complète la phrase entendue ?\n\n“Ce n’est donc pas la prononciation _____ qui pose problème lors des corrections répétées subies par certains locuteurs dès l’enfance, à l’école comme dans la vie professionnelle : c’est l’association implicite que la société établit entre une manière de parler et un supposé manque de sérieux ou de compétence.”",
             "options": [
               {
                 "id": "o1",
-                "text": "En 2020, l’Assemblée nationale française a inscrit la « glottophobie » — la discrimination fondée sur l’accent ou la façon de parler — dans la loi relative à la lutte contre les discriminations, aux côtés du sexisme et du racisme."
+                "text": "discriminations"
               },
               {
                 "id": "o2",
-                "text": "Ce n’est donc pas la prononciation elle-même qui pose problème lors des corrections répétées subies par certains locuteurs dès l’enfance, à l’école comme dans la vie professionnelle : c’est l’association implicite que la société établit entre une manière de parler et un supposé manque de sérieux ou de compétence."
+                "text": "elle-même"
               },
               {
                 "id": "o3",
-                "text": "La norme linguistique dont l’institution se réclame n’est pas la seule variété à laquelle les étudiants donnent une légitimité."
+                "text": "sociolinguistes"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "professionnelle"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Réflexion : Qui a le droit de bien parler ? » ?",
+            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“La norme linguistique dont l’institution se réclame n’est pas la seule _____ à laquelle les étudiants donnent une légitimité.”",
             "options": [
               {
                 "id": "o1",
-                "text": "En 2020, l’Assemblée nationale française a inscrit la « glottophobie » — la discrimination fondée sur l’accent ou la façon de parler — dans la loi relative à la lutte contre les discriminations, aux côtés du sexisme et du racisme."
+                "text": "discriminations"
               },
               {
                 "id": "o2",
-                "text": "Ce n’est donc pas la prononciation elle-même qui pose problème lors des corrections répétées subies par certains locuteurs dès l’enfance, à l’école comme dans la vie professionnelle : c’est l’association implicite que la société établit entre une manière de parler et un supposé manque de sérieux ou de compétence."
+                "text": "sociolinguistes"
               },
               {
                 "id": "o3",
-                "text": "Ce dont ils ont besoin, c’est d’un cadre dans lequel un écart ne serve pas de prétexte à stigmatiser ; voilà ce à quoi devrait conduire l’inclusion."
+                "text": "variété"
               },
               {
                 "id": "o4",
-                "text": "La norme linguistique dont l’institution se réclame n’est pas la seule variété à laquelle les étudiants donnent une légitimité."
+                "text": "professionnelle"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel résultat conclut « Réflexion : Qui a le droit de bien parler ? » après « Ce dont ils ont besoin, c’est d’un cadre dans lequel un écart ne serve… » ?",
+            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
             "options": [
               {
                 "id": "o1",
-                "text": "En 2020, l’Assemblée nationale française a inscrit la « glottophobie » — la discrimination fondée sur l’accent ou la façon de parler — dans la loi relative à la lutte contre les discriminations, aux côtés du sexisme et du racisme."
+                "text": "discriminations"
               },
               {
                 "id": "o2",
-                "text": "Ce n’est donc pas la prononciation elle-même qui pose problème lors des corrections répétées subies par certains locuteurs dès l’enfance, à l’école comme dans la vie professionnelle : c’est l’association implicite que la société établit entre une manière de parler et un supposé manque de sérieux ou de compétence."
+                "text": "sociolinguistes"
               },
               {
                 "id": "o3",
-                "text": "La norme linguistique dont l’institution se réclame n’est pas la seule variété à laquelle les étudiants donnent une légitimité."
+                "text": "professionnelle"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "relier"
               }
             ]
           }
@@ -40720,42 +42198,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Dans « Réflexion : Qui a le droit de bien parler ? », quel détail présente la situation ?",
+        "prompt": "Complète ce détail de l’audio.\n\n“En 2020, l’Assemblée nationale française a inscrit la « glottophobie » — la discrimination fondée sur l’accent ou la façon de parler — dans la loi relative à la lutte contre les discriminations, aux côtés du sexisme et du _____.”",
         "options": [
-          "En 2020, l’Assemblée nationale française a inscrit la « glottophobie » — la discrimination fondée sur l’accent ou la façon de parler — dans la loi relative à la lutte contre les discriminations, aux côtés du sexisme et du racisme.",
-          "Ce n’est donc pas la prononciation elle-même qui pose problème lors des corrections répétées subies par certains locuteurs dès l’enfance, à l’école comme dans la vie professionnelle : c’est l’association implicite que la société établit entre une manière de parler et un supposé manque de sérieux ou de compétence.",
-          "La norme linguistique dont l’institution se réclame n’est pas la seule variété à laquelle les étudiants donnent une légitimité.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "racisme",
+          "discriminations",
+          "sociolinguistes",
+          "professionnelle"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Après « En 2020, l’Assemblée nationale française a inscrit la « glottophobie »… », que se passe-t-il ensuite dans « Réflexion : Qui a le droit de bien parler ? » ?",
+        "prompt": "Quel mot complète la phrase entendue ?\n\n“Ce n’est donc pas la prononciation _____ qui pose problème lors des corrections répétées subies par certains locuteurs dès l’enfance, à l’école comme dans la vie professionnelle : c’est l’association implicite que la société établit entre une manière de parler et un supposé manque de sérieux ou de compétence.”",
         "options": [
-          "En 2020, l’Assemblée nationale française a inscrit la « glottophobie » — la discrimination fondée sur l’accent ou la façon de parler — dans la loi relative à la lutte contre les discriminations, aux côtés du sexisme et du racisme.",
-          "Ce n’est donc pas la prononciation elle-même qui pose problème lors des corrections répétées subies par certains locuteurs dès l’enfance, à l’école comme dans la vie professionnelle : c’est l’association implicite que la société établit entre une manière de parler et un supposé manque de sérieux ou de compétence.",
-          "La norme linguistique dont l’institution se réclame n’est pas la seule variété à laquelle les étudiants donnent une légitimité.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "discriminations",
+          "elle-même",
+          "sociolinguistes",
+          "professionnelle"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Réflexion : Qui a le droit de bien parler ? » ?",
+        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“La norme linguistique dont l’institution se réclame n’est pas la seule _____ à laquelle les étudiants donnent une légitimité.”",
         "options": [
-          "En 2020, l’Assemblée nationale française a inscrit la « glottophobie » — la discrimination fondée sur l’accent ou la façon de parler — dans la loi relative à la lutte contre les discriminations, aux côtés du sexisme et du racisme.",
-          "Ce n’est donc pas la prononciation elle-même qui pose problème lors des corrections répétées subies par certains locuteurs dès l’enfance, à l’école comme dans la vie professionnelle : c’est l’association implicite que la société établit entre une manière de parler et un supposé manque de sérieux ou de compétence.",
-          "Ce dont ils ont besoin, c’est d’un cadre dans lequel un écart ne serve pas de prétexte à stigmatiser ; voilà ce à quoi devrait conduire l’inclusion.",
-          "La norme linguistique dont l’institution se réclame n’est pas la seule variété à laquelle les étudiants donnent une légitimité."
+          "discriminations",
+          "sociolinguistes",
+          "variété",
+          "professionnelle"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel résultat conclut « Réflexion : Qui a le droit de bien parler ? » après « Ce dont ils ont besoin, c’est d’un cadre dans lequel un écart ne serve… » ?",
+        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
         "options": [
-          "En 2020, l’Assemblée nationale française a inscrit la « glottophobie » — la discrimination fondée sur l’accent ou la façon de parler — dans la loi relative à la lutte contre les discriminations, aux côtés du sexisme et du racisme.",
-          "Ce n’est donc pas la prononciation elle-même qui pose problème lors des corrections répétées subies par certains locuteurs dès l’enfance, à l’école comme dans la vie professionnelle : c’est l’association implicite que la société établit entre une manière de parler et un supposé manque de sérieux ou de compétence.",
-          "La norme linguistique dont l’institution se réclame n’est pas la seule variété à laquelle les étudiants donnent une légitimité.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "discriminations",
+          "sociolinguistes",
+          "professionnelle",
+          "relier"
         ]
       }
     ]
@@ -40890,92 +42368,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Dans « Réflexion : L’épuisement professionnel est-il un problème individuel ou organisationnel ? », quel détail présente la situation ?",
+            "prompt": "Complète ce détail de l’audio.\n\n“Une charge de travail qui ne diminue jamais, un sentiment d’épuisement qui s’installe durablement : l’individu _____ seul en cause ?”",
             "options": [
               {
                 "id": "o1",
-                "text": "Une charge de travail qui ne diminue jamais, un sentiment d’épuisement qui s’installe durablement : l’individu est-il seul en cause ?"
+                "text": "est-il"
               },
               {
                 "id": "o2",
-                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+                "text": "interchangeables"
               },
               {
                 "id": "o3",
-                "text": "L’épuisement professionnel est décrit par l’OMS comme un déséquilibre entre exigences et ressources, sans que la responsabilité en soit réduite à l’individu."
+                "text": "organisationnel"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "L’Organisation"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Après « Une charge de travail qui ne diminue jamais, un sentiment d’épuisement… », que se passe-t-il ensuite dans « Réflexion : L’épuisement professionnel est-il un problème individuel ou organisationnel ? » ?",
+            "prompt": "Quel mot complète la phrase entendue ?\n\n“Une _____ sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Une charge de travail qui ne diminue jamais, un sentiment d’épuisement qui s’installe durablement : l’individu est-il seul en cause ?"
+                "text": "interchangeables"
               },
               {
                 "id": "o2",
-                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+                "text": "réponse"
               },
               {
                 "id": "o3",
-                "text": "L’épuisement professionnel est décrit par l’OMS comme un déséquilibre entre exigences et ressources, sans que la responsabilité en soit réduite à l’individu."
+                "text": "organisationnel"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "L’Organisation"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Réflexion : L’épuisement professionnel est-il un problème individuel ou organisationnel ? » ?",
+            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“L’épuisement professionnel est décrit par l’OMS comme un _____ entre exigences et ressources, sans que la responsabilité en soit réduite à l’individu.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Une charge de travail qui ne diminue jamais, un sentiment d’épuisement qui s’installe durablement : l’individu est-il seul en cause ?"
+                "text": "interchangeables"
               },
               {
                 "id": "o2",
-                "text": "L’épuisement professionnel est décrit par l’OMS comme un déséquilibre entre exigences et ressources, sans que la responsabilité en soit réduite à l’individu."
+                "text": "sentiment"
               },
               {
                 "id": "o3",
-                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+                "text": "déséquilibre"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "organisationnel"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel résultat conclut « Réflexion : L’épuisement professionnel est-il un problème individuel ou organisationnel ? » après « Une réponse sérieuse doit distinguer ce que les données montrent, le… » ?",
+            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Une charge de travail qui ne diminue jamais, un sentiment d’épuisement qui s’installe durablement : l’individu est-il seul en cause ?"
+                "text": "interchangeables"
               },
               {
                 "id": "o2",
-                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+                "text": "organisationnel"
               },
               {
                 "id": "o3",
-                "text": "L’épuisement professionnel est décrit par l’OMS comme un déséquilibre entre exigences et ressources, sans que la responsabilité en soit réduite à l’individu."
+                "text": "L’Organisation"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "relier"
               }
             ]
           }
@@ -40986,42 +42464,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Dans « Réflexion : L’épuisement professionnel est-il un problème individuel ou organisationnel ? », quel détail présente la situation ?",
+        "prompt": "Complète ce détail de l’audio.\n\n“Une charge de travail qui ne diminue jamais, un sentiment d’épuisement qui s’installe durablement : l’individu _____ seul en cause ?”",
         "options": [
-          "Une charge de travail qui ne diminue jamais, un sentiment d’épuisement qui s’installe durablement : l’individu est-il seul en cause ?",
-          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.",
-          "L’épuisement professionnel est décrit par l’OMS comme un déséquilibre entre exigences et ressources, sans que la responsabilité en soit réduite à l’individu.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "est-il",
+          "interchangeables",
+          "organisationnel",
+          "L’Organisation"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Après « Une charge de travail qui ne diminue jamais, un sentiment d’épuisement… », que se passe-t-il ensuite dans « Réflexion : L’épuisement professionnel est-il un problème individuel ou organisationnel ? » ?",
+        "prompt": "Quel mot complète la phrase entendue ?\n\n“Une _____ sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.”",
         "options": [
-          "Une charge de travail qui ne diminue jamais, un sentiment d’épuisement qui s’installe durablement : l’individu est-il seul en cause ?",
-          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.",
-          "L’épuisement professionnel est décrit par l’OMS comme un déséquilibre entre exigences et ressources, sans que la responsabilité en soit réduite à l’individu.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "interchangeables",
+          "réponse",
+          "organisationnel",
+          "L’Organisation"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Réflexion : L’épuisement professionnel est-il un problème individuel ou organisationnel ? » ?",
+        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“L’épuisement professionnel est décrit par l’OMS comme un _____ entre exigences et ressources, sans que la responsabilité en soit réduite à l’individu.”",
         "options": [
-          "Une charge de travail qui ne diminue jamais, un sentiment d’épuisement qui s’installe durablement : l’individu est-il seul en cause ?",
-          "L’épuisement professionnel est décrit par l’OMS comme un déséquilibre entre exigences et ressources, sans que la responsabilité en soit réduite à l’individu.",
-          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "interchangeables",
+          "sentiment",
+          "déséquilibre",
+          "organisationnel"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel résultat conclut « Réflexion : L’épuisement professionnel est-il un problème individuel ou organisationnel ? » après « Une réponse sérieuse doit distinguer ce que les données montrent, le… » ?",
+        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
         "options": [
-          "Une charge de travail qui ne diminue jamais, un sentiment d’épuisement qui s’installe durablement : l’individu est-il seul en cause ?",
-          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.",
-          "L’épuisement professionnel est décrit par l’OMS comme un déséquilibre entre exigences et ressources, sans que la responsabilité en soit réduite à l’individu.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "interchangeables",
+          "organisationnel",
+          "L’Organisation",
+          "relier"
         ]
       }
     ]
@@ -41108,38 +42586,145 @@
           "text": "Ce projet montre qu’une action locale peut produire un résultat mesurable lorsque les élèves comprennent la cause du problème et participent directement à la solution."
         }
       ],
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "french-b1-environnement-et-consommation-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Complète ce détail de l’audio.\n\n“Voici une initiative environnementale menée dans un collège de _____.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Bordeaux"
+              },
+              {
+                "id": "o2",
+                "text": "environnementale"
+              },
+              {
+                "id": "o3",
+                "text": "représentaient"
+              },
+              {
+                "id": "o4",
+                "text": "réutilisable"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quel mot complète la phrase entendue ?\n\n“D’abord, _____ élève a reçu une gourde réutilisable, parce que les bouteilles représentaient une grande partie des poubelles.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "environnementale"
+              },
+              {
+                "id": "o2",
+                "text": "chaque"
+              },
+              {
+                "id": "o3",
+                "text": "représentaient"
+              },
+              {
+                "id": "o4",
+                "text": "réutilisable"
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Un groupe de volontaires organise aussi le _____ du papier et explique les nouvelles règles dans chaque classe.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "environnementale"
+              },
+              {
+                "id": "o2",
+                "text": "représentaient"
+              },
+              {
+                "id": "o3",
+                "text": "recyclage"
+              },
+              {
+                "id": "o4",
+                "text": "élèves"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce projet montre qu’une action locale peut _____ un résultat mesurable lorsque les élèves comprennent la cause du problème et participent directement à la solution.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "environnementale"
+              },
+              {
+                "id": "o2",
+                "text": "représentaient"
+              },
+              {
+                "id": "o3",
+                "text": "réutilisable"
+              },
+              {
+                "id": "o4",
+                "text": "produire"
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Quel problème Camila présente-t-elle ?",
+        "prompt": "Complète ce détail de l’audio.\n\n“Voici une initiative environnementale menée dans un collège de _____.”",
         "options": [
-          "Le bruit",
-          "Les déchets plastiques",
-          "Le manque de professeurs",
-          "Le prix de la cantine"
+          "Bordeaux",
+          "environnementale",
+          "représentaient",
+          "réutilisable"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelles solutions Karim propose-t-il ?",
+        "prompt": "Quel mot complète la phrase entendue ?\n\n“D’abord, _____ élève a reçu une gourde réutilisable, parce que les bouteilles représentaient une grande partie des poubelles.”",
         "options": [
-          "Fermer la cantine",
-          "Le tri sélectif et les gourdes réutilisables",
-          "Plus de vacances",
-          "Rien de spécial"
+          "environnementale",
+          "chaque",
+          "représentaient",
+          "réutilisable"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Comment réagit le directeur ?",
+        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Un groupe de volontaires organise aussi le _____ du papier et explique les nouvelles règles dans chaque classe.”",
         "options": [
-          "Il refuse immédiatement",
-          "Il trouve l’idée excellente",
-          "Il ne répond pas",
-          "Il se fâche"
+          "environnementale",
+          "représentaient",
+          "recyclage",
+          "élèves"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce projet montre qu’une action locale peut _____ un résultat mesurable lorsque les élèves comprennent la cause du problème et participent directement à la solution.”",
+        "options": [
+          "environnementale",
+          "représentaient",
+          "réutilisable",
+          "produire"
         ]
       }
     ]
@@ -41241,38 +42826,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "french-b2-sciences-et-innovations-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Complète ce détail de l’audio.\n\n“Une équipe européenne vient de présenter un algorithme capable d’aider les médecins à repérer plus tôt certaines _____ rares.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "maladies"
+              },
+              {
+                "id": "o2",
+                "text": "responsabilité"
+              },
+              {
+                "id": "o3",
+                "text": "répercussions"
+              },
+              {
+                "id": "o4",
+                "text": "particulière"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quel mot complète la phrase entendue ?\n\n“Cependant, les _____ insistent sur un point : l’outil ne remplace pas la décision médicale.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "responsabilité"
+              },
+              {
+                "id": "o2",
+                "text": "chercheurs"
+              },
+              {
+                "id": "o3",
+                "text": "capable"
+              },
+              {
+                "id": "o4",
+                "text": "d’aider"
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Les répercussions concernent aussi la vie _____, car ces images contiennent des informations sensibles.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "responsabilité"
+              },
+              {
+                "id": "o2",
+                "text": "répercussions"
+              },
+              {
+                "id": "o3",
+                "text": "privée"
+              },
+              {
+                "id": "o4",
+                "text": "particulière"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Selon eux, une attitude proactive consiste à tester _____ dans des conditions réelles tout en conservant une responsabilité humaine clairement identifiable.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "présenter"
+              },
+              {
+                "id": "o2",
+                "text": "certaines"
+              },
+              {
+                "id": "o3",
+                "text": "médicales"
+              },
+              {
+                "id": "o4",
+                "text": "l’innovation"
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Quelle est la condition de l’optimisme de Karim ?",
+        "prompt": "Complète ce détail de l’audio.\n\n“Une équipe européenne vient de présenter un algorithme capable d’aider les médecins à repérer plus tôt certaines _____ rares.”",
         "options": [
-          "Que l’IA soit gratuite",
-          "Que l’IA reste contrôlée par des humains",
-          "Que l’IA remplace tous les métiers",
-          "Aucune condition"
+          "maladies",
+          "responsabilité",
+          "répercussions",
+          "particulière"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Que répond Camila à Karim ?",
+        "prompt": "Quel mot complète la phrase entendue ?\n\n“Cependant, les _____ insistent sur un point : l’outil ne remplace pas la décision médicale.”",
         "options": [
-          "Qu’il a complètement tort",
-          "Qu’il a peut-être raison, mais qu’il faut rester vigilant",
-          "Qu’elle est totalement d’accord sans réserve",
-          "Qu’elle ne veut plus en parler"
+          "responsabilité",
+          "chercheurs",
+          "capable",
+          "d’aider"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Sur quoi Karim et Camila sont-ils finalement d’accord ?",
+        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Les répercussions concernent aussi la vie _____, car ces images contiennent des informations sensibles.”",
         "options": [
-          "Que la technologie n’est jamais neutre",
-          "Que l’IA est complètement mauvaise",
-          "Que l’IA est complètement bonne",
-          "Ils ne sont d’accord sur rien"
+          "responsabilité",
+          "répercussions",
+          "privée",
+          "particulière"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Selon eux, une attitude proactive consiste à tester _____ dans des conditions réelles tout en conservant une responsabilité humaine clairement identifiable.”",
+        "options": [
+          "présenter",
+          "certaines",
+          "médicales",
+          "l’innovation"
         ]
       }
     ]
@@ -45705,92 +47397,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Que se passe-t-il au début ?",
+            "prompt": "Complète ce détail de l’audio.\n\n“Samedi matin, Camila va au centre-ville avec _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Camila va au centre-ville avec Léa."
+                "text": "Léa"
               },
               {
                 "id": "o2",
-                "text": "Ensuite, elles vont au marché pour acheter des fruits."
+                "text": "centre-ville"
               },
               {
                 "id": "o3",
-                "text": "La bibliothèque est à côté du musée."
+                "text": "bibliothèque"
               },
               {
                 "id": "o4",
-                "text": "Camila aime marcher dans Tours parce que la ville est belle et facile à découvrir."
+                "text": "s’assoient"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Que fait la personne ensuite ?",
+            "prompt": "Quel mot complète la phrase entendue ?\n\n“Camila veut aussi aller aux _____ près de la grande place.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Camila va au centre-ville avec Léa."
+                "text": "centre-ville"
               },
               {
                 "id": "o2",
-                "text": "Ensuite, elles vont au marché pour acheter des fruits."
+                "text": "magasins"
               },
               {
                 "id": "o3",
-                "text": "La bibliothèque est à côté du musée."
+                "text": "bibliothèque"
               },
               {
                 "id": "o4",
-                "text": "Camila aime marcher dans Tours parce que la ville est belle et facile à découvrir."
+                "text": "matin"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Quel autre détail est correct ?",
+            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“» La _____ est à côté du musée.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Camila va au centre-ville avec Léa."
+                "text": "continuez"
               },
               {
                 "id": "o2",
-                "text": "Ensuite, elles vont au marché pour acheter des fruits."
+                "text": "découvrir"
               },
               {
                 "id": "o3",
-                "text": "La bibliothèque est à côté du musée."
+                "text": "bibliothèque"
               },
               {
                 "id": "o4",
-                "text": "Camila aime marcher dans Tours parce que la ville est belle et facile à découvrir."
+                "text": "s’assoient"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Que se passe-t-il à la fin ?",
+            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Pour trouver la bibliothèque, Léa explique le chemin : « _____ tout droit, tournez à gauche, puis continuez jusqu’au parc. » La bibliothèque est à côté du musée.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Camila va au centre-ville avec Léa."
+                "text": "centre-ville"
               },
               {
                 "id": "o2",
-                "text": "Ensuite, elles vont au marché pour acheter des fruits."
+                "text": "bibliothèque"
               },
               {
                 "id": "o3",
-                "text": "La bibliothèque est à côté du musée."
+                "text": "s’assoient"
               },
               {
                 "id": "o4",
-                "text": "Camila aime marcher dans Tours parce que la ville est belle et facile à découvrir."
+                "text": "Allez"
               }
             ]
           }
@@ -45801,42 +47493,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Que se passe-t-il au début ?",
+        "prompt": "Complète ce détail de l’audio.\n\n“Samedi matin, Camila va au centre-ville avec _____.”",
         "options": [
-          "Camila va au centre-ville avec Léa.",
-          "Ensuite, elles vont au marché pour acheter des fruits.",
-          "La bibliothèque est à côté du musée.",
-          "Camila aime marcher dans Tours parce que la ville est belle et facile à découvrir."
+          "Léa",
+          "centre-ville",
+          "bibliothèque",
+          "s’assoient"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Que fait la personne ensuite ?",
+        "prompt": "Quel mot complète la phrase entendue ?\n\n“Camila veut aussi aller aux _____ près de la grande place.”",
         "options": [
-          "Camila va au centre-ville avec Léa.",
-          "Ensuite, elles vont au marché pour acheter des fruits.",
-          "La bibliothèque est à côté du musée.",
-          "Camila aime marcher dans Tours parce que la ville est belle et facile à découvrir."
+          "centre-ville",
+          "magasins",
+          "bibliothèque",
+          "matin"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel autre détail est correct ?",
+        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“» La _____ est à côté du musée.”",
         "options": [
-          "Camila va au centre-ville avec Léa.",
-          "Ensuite, elles vont au marché pour acheter des fruits.",
-          "La bibliothèque est à côté du musée.",
-          "Camila aime marcher dans Tours parce que la ville est belle et facile à découvrir."
+          "continuez",
+          "découvrir",
+          "bibliothèque",
+          "s’assoient"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Que se passe-t-il à la fin ?",
+        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Pour trouver la bibliothèque, Léa explique le chemin : « _____ tout droit, tournez à gauche, puis continuez jusqu’au parc. » La bibliothèque est à côté du musée.”",
         "options": [
-          "Camila va au centre-ville avec Léa.",
-          "Ensuite, elles vont au marché pour acheter des fruits.",
-          "La bibliothèque est à côté du musée.",
-          "Camila aime marcher dans Tours parce que la ville est belle et facile à découvrir."
+          "centre-ville",
+          "bibliothèque",
+          "s’assoient",
+          "Allez"
         ]
       }
     ]
@@ -45925,92 +47617,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Dans « Le club média lance sa première émission », quel détail présente la situation ?",
+            "prompt": "Complète ce détail de l’audio.\n\n“_____ à tous.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Bonjour à tous."
+                "text": "Bonjour"
               },
               {
                 "id": "o2",
-                "text": "Au début, les membres avaient trois idées : Zoé préférait une courte série, Yanis aimait mieux un documentaire sur le quartier et Mei proposait une émission avec des interviews."
+                "text": "enregistrements"
               },
               {
                 "id": "o3",
-                "text": "La série a reçu beaucoup de votes, mais elle demandait trop de temps."
+                "text": "documentaire"
               },
               {
                 "id": "o4",
-                "text": "La première émission sera disponible vendredi sur le site de l’école."
+                "text": "l’actualité"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Après « Bonjour à tous. », que se passe-t-il ensuite dans « Le club média lance sa première émission » ?",
+            "prompt": "Quel mot complète la phrase entendue ?\n\n“Au début, les membres _____ trois idées : Zoé préférait une courte série, Yanis aimait mieux un documentaire sur le quartier et Mei proposait une émission avec des interviews.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Bonjour à tous."
+                "text": "enregistrements"
               },
               {
                 "id": "o2",
-                "text": "Au début, les membres avaient trois idées : Zoé préférait une courte série, Yanis aimait mieux un documentaire sur le quartier et Mei proposait une émission avec des interviews."
+                "text": "avaient"
               },
               {
                 "id": "o3",
-                "text": "La série a reçu beaucoup de votes, mais elle demandait trop de temps."
+                "text": "documentaire"
               },
               {
                 "id": "o4",
-                "text": "La première émission sera disponible vendredi sur le site de l’école."
+                "text": "l’actualité"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Le club média lance sa première émission » ?",
+            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“La série a reçu beaucoup de votes, mais elle _____ trop de temps.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Bonjour à tous."
+                "text": "enregistrements"
               },
               {
                 "id": "o2",
-                "text": "Au début, les membres avaient trois idées : Zoé préférait une courte série, Yanis aimait mieux un documentaire sur le quartier et Mei proposait une émission avec des interviews."
+                "text": "lancer"
               },
               {
                 "id": "o3",
-                "text": "La série a reçu beaucoup de votes, mais elle demandait trop de temps."
+                "text": "demandait"
               },
               {
                 "id": "o4",
-                "text": "La première émission sera disponible vendredi sur le site de l’école."
+                "text": "courte"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel résultat conclut « Le club média lance sa première émission » après « La série a reçu beaucoup de votes, mais elle demandait trop de temps. » ?",
+            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“La _____ émission sera disponible vendredi sur le site de l’école.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Bonjour à tous."
+                "text": "enregistrements"
               },
               {
                 "id": "o2",
-                "text": "Au début, les membres avaient trois idées : Zoé préférait une courte série, Yanis aimait mieux un documentaire sur le quartier et Mei proposait une émission avec des interviews."
+                "text": "documentaire"
               },
               {
                 "id": "o3",
-                "text": "La série a reçu beaucoup de votes, mais elle demandait trop de temps."
+                "text": "Voici"
               },
               {
                 "id": "o4",
-                "text": "La première émission sera disponible vendredi sur le site de l’école."
+                "text": "première"
               }
             ]
           }
@@ -46021,42 +47713,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Dans « Le club média lance sa première émission », quel détail présente la situation ?",
+        "prompt": "Complète ce détail de l’audio.\n\n“_____ à tous.”",
         "options": [
-          "Bonjour à tous.",
-          "Au début, les membres avaient trois idées : Zoé préférait une courte série, Yanis aimait mieux un documentaire sur le quartier et Mei proposait une émission avec des interviews.",
-          "La série a reçu beaucoup de votes, mais elle demandait trop de temps.",
-          "La première émission sera disponible vendredi sur le site de l’école."
+          "Bonjour",
+          "enregistrements",
+          "documentaire",
+          "l’actualité"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Après « Bonjour à tous. », que se passe-t-il ensuite dans « Le club média lance sa première émission » ?",
+        "prompt": "Quel mot complète la phrase entendue ?\n\n“Au début, les membres _____ trois idées : Zoé préférait une courte série, Yanis aimait mieux un documentaire sur le quartier et Mei proposait une émission avec des interviews.”",
         "options": [
-          "Bonjour à tous.",
-          "Au début, les membres avaient trois idées : Zoé préférait une courte série, Yanis aimait mieux un documentaire sur le quartier et Mei proposait une émission avec des interviews.",
-          "La série a reçu beaucoup de votes, mais elle demandait trop de temps.",
-          "La première émission sera disponible vendredi sur le site de l’école."
+          "enregistrements",
+          "avaient",
+          "documentaire",
+          "l’actualité"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Le club média lance sa première émission » ?",
+        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“La série a reçu beaucoup de votes, mais elle _____ trop de temps.”",
         "options": [
-          "Bonjour à tous.",
-          "Au début, les membres avaient trois idées : Zoé préférait une courte série, Yanis aimait mieux un documentaire sur le quartier et Mei proposait une émission avec des interviews.",
-          "La série a reçu beaucoup de votes, mais elle demandait trop de temps.",
-          "La première émission sera disponible vendredi sur le site de l’école."
+          "enregistrements",
+          "lancer",
+          "demandait",
+          "courte"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel résultat conclut « Le club média lance sa première émission » après « La série a reçu beaucoup de votes, mais elle demandait trop de temps. » ?",
+        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“La _____ émission sera disponible vendredi sur le site de l’école.”",
         "options": [
-          "Bonjour à tous.",
-          "Au début, les membres avaient trois idées : Zoé préférait une courte série, Yanis aimait mieux un documentaire sur le quartier et Mei proposait une émission avec des interviews.",
-          "La série a reçu beaucoup de votes, mais elle demandait trop de temps.",
-          "La première émission sera disponible vendredi sur le site de l’école."
+          "enregistrements",
+          "documentaire",
+          "Voici",
+          "première"
         ]
       }
     ]
@@ -46181,92 +47873,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Dans « Reportage : Ce que signifie ne pas encore savoir », quel détail présente la situation ?",
+            "prompt": "Complète ce détail de l’audio.\n\n“En mars 2020, l’Organisation mondiale de la santé déconseillait encore le port généralisé du masque en population générale ; six semaines plus tard, elle le recommandait _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "En mars 2020, l’Organisation mondiale de la santé déconseillait encore le port généralisé du masque en population générale ; six semaines plus tard, elle le recommandait explicitement."
+                "text": "explicitement"
               },
               {
                 "id": "o2",
-                "text": "La première suggère un vide, la seconde un savoir en construction, organisé par des méthodes, des données et des critères de réfutation explicites."
+                "text": "généralisé"
               },
               {
                 "id": "o3",
-                "text": "Elles ne constituent pas une simple liste : chacune éclaire une étape, une tension ou une conséquence du problème."
+                "text": "population"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "revirement"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Après « En mars 2020, l’Organisation mondiale de la santé déconseillait encore… », que se passe-t-il ensuite dans « Reportage : Ce que signifie ne pas encore savoir » ?",
+            "prompt": "Quel mot complète la phrase entendue ?\n\n“La première _____ un vide, la seconde un savoir en construction, organisé par des méthodes, des données et des critères de réfutation explicites.”",
             "options": [
               {
                 "id": "o1",
-                "text": "En mars 2020, l’Organisation mondiale de la santé déconseillait encore le port généralisé du masque en population générale ; six semaines plus tard, elle le recommandait explicitement."
+                "text": "l’Organisation"
               },
               {
                 "id": "o2",
-                "text": "La première suggère un vide, la seconde un savoir en construction, organisé par des méthodes, des données et des critères de réfutation explicites."
+                "text": "suggère"
               },
               {
                 "id": "o3",
-                "text": "Elles ne constituent pas une simple liste : chacune éclaire une étape, une tension ou une conséquence du problème."
+                "text": "déconseillait"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "explicitement"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Reportage : Ce que signifie ne pas encore savoir » ?",
+            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Elles ne constituent pas une simple liste : chacune _____ une étape, une tension ou une conséquence du problème.”",
             "options": [
               {
                 "id": "o1",
-                "text": "En mars 2020, l’Organisation mondiale de la santé déconseillait encore le port généralisé du masque en population générale ; six semaines plus tard, elle le recommandait explicitement."
+                "text": "l’Organisation"
               },
               {
                 "id": "o2",
-                "text": "Elles ne constituent pas une simple liste : chacune éclaire une étape, une tension ou une conséquence du problème."
+                "text": "déconseillait"
               },
               {
                 "id": "o3",
-                "text": "La première suggère un vide, la seconde un savoir en construction, organisé par des méthodes, des données et des critères de réfutation explicites."
+                "text": "éclaire"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "explicitement"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel résultat conclut « Reportage : Ce que signifie ne pas encore savoir » après « La première suggère un vide, la seconde un savoir en construction,… » ?",
+            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
             "options": [
               {
                 "id": "o1",
-                "text": "En mars 2020, l’Organisation mondiale de la santé déconseillait encore le port généralisé du masque en population générale ; six semaines plus tard, elle le recommandait explicitement."
+                "text": "l’Organisation"
               },
               {
                 "id": "o2",
-                "text": "La première suggère un vide, la seconde un savoir en construction, organisé par des méthodes, des données et des critères de réfutation explicites."
+                "text": "déconseillait"
               },
               {
                 "id": "o3",
-                "text": "Elles ne constituent pas une simple liste : chacune éclaire une étape, une tension ou une conséquence du problème."
+                "text": "explicitement"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "relier"
               }
             ]
           }
@@ -46277,42 +47969,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Dans « Reportage : Ce que signifie ne pas encore savoir », quel détail présente la situation ?",
+        "prompt": "Complète ce détail de l’audio.\n\n“En mars 2020, l’Organisation mondiale de la santé déconseillait encore le port généralisé du masque en population générale ; six semaines plus tard, elle le recommandait _____.”",
         "options": [
-          "En mars 2020, l’Organisation mondiale de la santé déconseillait encore le port généralisé du masque en population générale ; six semaines plus tard, elle le recommandait explicitement.",
-          "La première suggère un vide, la seconde un savoir en construction, organisé par des méthodes, des données et des critères de réfutation explicites.",
-          "Elles ne constituent pas une simple liste : chacune éclaire une étape, une tension ou une conséquence du problème.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "explicitement",
+          "généralisé",
+          "population",
+          "revirement"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Après « En mars 2020, l’Organisation mondiale de la santé déconseillait encore… », que se passe-t-il ensuite dans « Reportage : Ce que signifie ne pas encore savoir » ?",
+        "prompt": "Quel mot complète la phrase entendue ?\n\n“La première _____ un vide, la seconde un savoir en construction, organisé par des méthodes, des données et des critères de réfutation explicites.”",
         "options": [
-          "En mars 2020, l’Organisation mondiale de la santé déconseillait encore le port généralisé du masque en population générale ; six semaines plus tard, elle le recommandait explicitement.",
-          "La première suggère un vide, la seconde un savoir en construction, organisé par des méthodes, des données et des critères de réfutation explicites.",
-          "Elles ne constituent pas une simple liste : chacune éclaire une étape, une tension ou une conséquence du problème.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "l’Organisation",
+          "suggère",
+          "déconseillait",
+          "explicitement"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Reportage : Ce que signifie ne pas encore savoir » ?",
+        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Elles ne constituent pas une simple liste : chacune _____ une étape, une tension ou une conséquence du problème.”",
         "options": [
-          "En mars 2020, l’Organisation mondiale de la santé déconseillait encore le port généralisé du masque en population générale ; six semaines plus tard, elle le recommandait explicitement.",
-          "Elles ne constituent pas une simple liste : chacune éclaire une étape, une tension ou une conséquence du problème.",
-          "La première suggère un vide, la seconde un savoir en construction, organisé par des méthodes, des données et des critères de réfutation explicites.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "l’Organisation",
+          "déconseillait",
+          "éclaire",
+          "explicitement"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel résultat conclut « Reportage : Ce que signifie ne pas encore savoir » après « La première suggère un vide, la seconde un savoir en construction,… » ?",
+        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
         "options": [
-          "En mars 2020, l’Organisation mondiale de la santé déconseillait encore le port généralisé du masque en population générale ; six semaines plus tard, elle le recommandait explicitement.",
-          "La première suggère un vide, la seconde un savoir en construction, organisé par des méthodes, des données et des critères de réfutation explicites.",
-          "Elles ne constituent pas une simple liste : chacune éclaire une étape, une tension ou une conséquence du problème.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "l’Organisation",
+          "déconseillait",
+          "explicitement",
+          "relier"
         ]
       }
     ]
@@ -46447,92 +48139,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Dans « Reportage : Les frontières peuvent-elles contenir des mouvements structurels ? », quel détail présente la situation ?",
+            "prompt": "Complète ce détail de l’audio.\n\n“La plupart des personnes déplacées de force ne franchissent jamais un océan ; elles restent tout près de chez elles, dans un pays _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "La plupart des personnes déplacées de force ne franchissent jamais un océan ; elles restent tout près de chez elles, dans un pays voisin."
+                "text": "voisin"
               },
               {
                 "id": "o2",
-                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+                "text": "l’externalisation"
               },
               {
                 "id": "o3",
-                "text": "La plupart des personnes déplacées, dont le nombre dépasse cent millions, restent dans un pays limitrophe plutôt que de rejoindre un pays riche."
+                "text": "interchangeables"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "non-refoulement"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Après « La plupart des personnes déplacées de force ne franchissent jamais un… », que se passe-t-il ensuite dans « Reportage : Les frontières peuvent-elles contenir des mouvements structurels ? » ?",
+            "prompt": "Quel mot complète la phrase entendue ?\n\n“Une _____ sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.”",
             "options": [
               {
                 "id": "o1",
-                "text": "La plupart des personnes déplacées de force ne franchissent jamais un océan ; elles restent tout près de chez elles, dans un pays voisin."
+                "text": "l’externalisation"
               },
               {
                 "id": "o2",
-                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+                "text": "réponse"
               },
               {
                 "id": "o3",
-                "text": "La plupart des personnes déplacées, dont le nombre dépasse cent millions, restent dans un pays limitrophe plutôt que de rejoindre un pays riche."
+                "text": "interchangeables"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "non-refoulement"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Reportage : Les frontières peuvent-elles contenir des mouvements structurels ? » ?",
+            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“La plupart des personnes déplacées, dont le _____ dépasse cent millions, restent dans un pays limitrophe plutôt que de rejoindre un pays riche.”",
             "options": [
               {
                 "id": "o1",
-                "text": "La plupart des personnes déplacées de force ne franchissent jamais un océan ; elles restent tout près de chez elles, dans un pays voisin."
+                "text": "l’externalisation"
               },
               {
                 "id": "o2",
-                "text": "La plupart des personnes déplacées, dont le nombre dépasse cent millions, restent dans un pays limitrophe plutôt que de rejoindre un pays riche."
+                "text": "interchangeables"
               },
               {
                 "id": "o3",
-                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+                "text": "nombre"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "non-refoulement"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel résultat conclut « Reportage : Les frontières peuvent-elles contenir des mouvements structurels ? » après « Une réponse sérieuse doit distinguer ce que les données montrent, le… » ?",
+            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
             "options": [
               {
                 "id": "o1",
-                "text": "La plupart des personnes déplacées de force ne franchissent jamais un océan ; elles restent tout près de chez elles, dans un pays voisin."
+                "text": "l’externalisation"
               },
               {
                 "id": "o2",
-                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+                "text": "interchangeables"
               },
               {
                 "id": "o3",
-                "text": "La plupart des personnes déplacées, dont le nombre dépasse cent millions, restent dans un pays limitrophe plutôt que de rejoindre un pays riche."
+                "text": "non-refoulement"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "relier"
               }
             ]
           }
@@ -46543,42 +48235,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Dans « Reportage : Les frontières peuvent-elles contenir des mouvements structurels ? », quel détail présente la situation ?",
+        "prompt": "Complète ce détail de l’audio.\n\n“La plupart des personnes déplacées de force ne franchissent jamais un océan ; elles restent tout près de chez elles, dans un pays _____.”",
         "options": [
-          "La plupart des personnes déplacées de force ne franchissent jamais un océan ; elles restent tout près de chez elles, dans un pays voisin.",
-          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.",
-          "La plupart des personnes déplacées, dont le nombre dépasse cent millions, restent dans un pays limitrophe plutôt que de rejoindre un pays riche.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "voisin",
+          "l’externalisation",
+          "interchangeables",
+          "non-refoulement"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Après « La plupart des personnes déplacées de force ne franchissent jamais un… », que se passe-t-il ensuite dans « Reportage : Les frontières peuvent-elles contenir des mouvements structurels ? » ?",
+        "prompt": "Quel mot complète la phrase entendue ?\n\n“Une _____ sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.”",
         "options": [
-          "La plupart des personnes déplacées de force ne franchissent jamais un océan ; elles restent tout près de chez elles, dans un pays voisin.",
-          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.",
-          "La plupart des personnes déplacées, dont le nombre dépasse cent millions, restent dans un pays limitrophe plutôt que de rejoindre un pays riche.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "l’externalisation",
+          "réponse",
+          "interchangeables",
+          "non-refoulement"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Reportage : Les frontières peuvent-elles contenir des mouvements structurels ? » ?",
+        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“La plupart des personnes déplacées, dont le _____ dépasse cent millions, restent dans un pays limitrophe plutôt que de rejoindre un pays riche.”",
         "options": [
-          "La plupart des personnes déplacées de force ne franchissent jamais un océan ; elles restent tout près de chez elles, dans un pays voisin.",
-          "La plupart des personnes déplacées, dont le nombre dépasse cent millions, restent dans un pays limitrophe plutôt que de rejoindre un pays riche.",
-          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "l’externalisation",
+          "interchangeables",
+          "nombre",
+          "non-refoulement"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel résultat conclut « Reportage : Les frontières peuvent-elles contenir des mouvements structurels ? » après « Une réponse sérieuse doit distinguer ce que les données montrent, le… » ?",
+        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
         "options": [
-          "La plupart des personnes déplacées de force ne franchissent jamais un océan ; elles restent tout près de chez elles, dans un pays voisin.",
-          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.",
-          "La plupart des personnes déplacées, dont le nombre dépasse cent millions, restent dans un pays limitrophe plutôt que de rejoindre un pays riche.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "l’externalisation",
+          "interchangeables",
+          "non-refoulement",
+          "relier"
         ]
       }
     ]
@@ -46690,38 +48382,145 @@
           "text": "Face à la désinformation, ralentir est déjà une forme de responsabilité."
         }
       ],
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "french-b1-medias-et-information-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Complète ce détail de l’audio.\n\n“Avant de partager une information, adoptez trois réflexes _____.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "simples"
+              },
+              {
+                "id": "o2",
+                "text": "désinformation"
+              },
+              {
+                "id": "o3",
+                "text": "responsabilité"
+              },
+              {
+                "id": "o4",
+                "text": "généralement"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quel mot complète la phrase entendue ?\n\n“Une _____ affirme peut-être qu’un événement exceptionnel a eu lieu, mais d’autres médias fiables doivent pouvoir le confirmer.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "partager"
+              },
+              {
+                "id": "o2",
+                "text": "publication"
+              },
+              {
+                "id": "o3",
+                "text": "réflexes"
+              },
+              {
+                "id": "o4",
+                "text": "utilisés"
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Des outils de recherche _____ souvent de retrouver sa première publication.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "désinformation"
+              },
+              {
+                "id": "o2",
+                "text": "responsabilité"
+              },
+              {
+                "id": "o3",
+                "text": "permettent"
+              },
+              {
+                "id": "o4",
+                "text": "adoptez"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Face à la _____, ralentir est déjà une forme de responsabilité.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "information"
+              },
+              {
+                "id": "o2",
+                "text": "publication"
+              },
+              {
+                "id": "o3",
+                "text": "influencent"
+              },
+              {
+                "id": "o4",
+                "text": "désinformation"
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Que prétend l’article ?",
+        "prompt": "Complète ce détail de l’audio.\n\n“Avant de partager une information, adoptez trois réflexes _____.”",
         "options": [
-          "Qu’un fruit guérit tout",
-          "Qu’il va pleuvoir",
-          "Qu’une école ferme",
-          "Qu’un examen est reporté"
+          "simples",
+          "désinformation",
+          "responsabilité",
+          "généralement"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Pourquoi Karim doute-t-il de l’article ?",
+        "prompt": "Quel mot complète la phrase entendue ?\n\n“Une _____ affirme peut-être qu’un événement exceptionnel a eu lieu, mais d’autres médias fiables doivent pouvoir le confirmer.”",
         "options": [
-          "Il n’aime pas les fruits",
-          "Il n’y a pas de source citée",
-          "L’article est trop court",
-          "Il ne l’a pas lu"
+          "partager",
+          "publication",
+          "réflexes",
+          "utilisés"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Que décident de faire Camila et Karim ?",
+        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Des outils de recherche _____ souvent de retrouver sa première publication.”",
         "options": [
-          "Partager l’article",
-          "Vérifier sur un site fiable",
-          "Ignorer le problème",
-          "Croire l’article sans vérifier"
+          "désinformation",
+          "responsabilité",
+          "permettent",
+          "adoptez"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Face à la _____, ralentir est déjà une forme de responsabilité.”",
+        "options": [
+          "information",
+          "publication",
+          "influencent",
+          "désinformation"
         ]
       }
     ]
@@ -46828,38 +48627,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "french-b2-histoire-et-memoire-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Complète ce détail de l’audio.\n\n“Dans les archives d’une petite ville, une équipe a retrouvé plusieurs cassettes enregistrées dans les années _____.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "quatre-vingt"
+              },
+              {
+                "id": "o2",
+                "text": "plusieurs"
+              },
+              {
+                "id": "o3",
+                "text": "cassettes"
+              },
+              {
+                "id": "o4",
+                "text": "racontait"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quel mot complète la phrase entendue ?\n\n“Elle décrit les fêtes, les _____ économiques et les réseaux de solidarité auxquels les familles avaient participé.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "archives"
+              },
+              {
+                "id": "o2",
+                "text": "difficultés"
+              },
+              {
+                "id": "o3",
+                "text": "retrouvé"
+              },
+              {
+                "id": "o4",
+                "text": "contient"
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Ce travail montre que la mémoire _____ ne se limite pas aux grands événements.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "qu’elle"
+              },
+              {
+                "id": "o2",
+                "text": "connues"
+              },
+              {
+                "id": "o3",
+                "text": "collective"
+              },
+              {
+                "id": "o4",
+                "text": "absente"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Elle permet au contraire de comparer plusieurs points de vue et de _____ un héritage plus riche aux générations qui n’ont pas connu cette époque.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "archives"
+              },
+              {
+                "id": "o2",
+                "text": "retrouvé"
+              },
+              {
+                "id": "o3",
+                "text": "contient"
+              },
+              {
+                "id": "o4",
+                "text": "transmettre"
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "De qui la grand-mère se souvient-elle le mieux ?",
+        "prompt": "Complète ce détail de l’audio.\n\n“Dans les archives d’une petite ville, une équipe a retrouvé plusieurs cassettes enregistrées dans les années _____.”",
         "options": [
-          "De sa propre mère",
-          "De l’arrière-arrière-grand-mère de Camila",
-          "D’une voisine actuelle",
-          "D’une amie d’école"
+          "quatre-vingt",
+          "plusieurs",
+          "cassettes",
+          "racontait"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qu’avait fait cette ancêtre ?",
+        "prompt": "Quel mot complète la phrase entendue ?\n\n“Elle décrit les fêtes, les _____ économiques et les réseaux de solidarité auxquels les familles avaient participé.”",
         "options": [
-          "Elle avait voyagé en Europe",
-          "Elle avait accueilli des voisins haïtiens chez elle",
-          "Elle avait écrit un livre",
-          "Elle avait fondé une école"
+          "archives",
+          "difficultés",
+          "retrouvé",
+          "contient"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Comment Camila réagit-elle à ce récit ?",
+        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Ce travail montre que la mémoire _____ ne se limite pas aux grands événements.”",
         "options": [
-          "Avec indifférence",
-          "Avec gratitude et intérêt",
-          "Avec colère",
-          "Avec incrédulité"
+          "qu’elle",
+          "connues",
+          "collective",
+          "absente"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Elle permet au contraire de comparer plusieurs points de vue et de _____ un héritage plus riche aux générations qui n’ont pas connu cette époque.”",
+        "options": [
+          "archives",
+          "retrouvé",
+          "contient",
+          "transmettre"
         ]
       }
     ]
@@ -51269,92 +53175,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Que se passe-t-il au début ?",
+            "prompt": "Complète ce détail de l’audio.\n\n“Pendant mon temps libre, je peux faire plusieurs _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Pendant mon temps libre, je peux faire plusieurs activités."
+                "text": "activités"
               },
               {
                 "id": "o2",
-                "text": "Karim joue au football avec ses amis et Paul joue aux jeux vidéo."
+                "text": "samedi"
               },
               {
                 "id": "o3",
-                "text": "Je peux aussi jouer un peu de la guitare"
+                "text": "danser"
               },
               {
                 "id": "o4",
-                "text": "Mes loisirs m’aident à me détendre et à pratiquer le français avec mes nouveaux amis."
+                "text": "encore"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Que fait la personne ensuite ?",
+            "prompt": "Quel mot complète la phrase entendue ?\n\n“Karim joue au _____ avec ses amis et Paul joue aux jeux vidéo.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Pendant mon temps libre, je peux faire plusieurs activités."
+                "text": "temps"
               },
               {
                 "id": "o2",
-                "text": "Karim joue au football avec ses amis et Paul joue aux jeux vidéo."
+                "text": "football"
               },
               {
                 "id": "o3",
-                "text": "Je peux aussi jouer un peu de la guitare"
+                "text": "libre"
               },
               {
                 "id": "o4",
-                "text": "Mes loisirs m’aident à me détendre et à pratiquer le français avec mes nouveaux amis."
+                "text": "faire"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Quel autre détail est correct ?",
+            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Je peux aussi jouer un peu de la guitare, mais je ne sais pas _____ jouer très bien.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Pendant mon temps libre, je peux faire plusieurs activités."
+                "text": "mon"
               },
               {
                 "id": "o2",
-                "text": "Karim joue au football avec ses amis et Paul joue aux jeux vidéo."
+                "text": "plusieurs"
               },
               {
                 "id": "o3",
-                "text": "Je peux aussi jouer un peu de la guitare"
+                "text": "encore"
               },
               {
                 "id": "o4",
-                "text": "Mes loisirs m’aident à me détendre et à pratiquer le français avec mes nouveaux amis."
+                "text": "activités"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Que se passe-t-il à la fin ?",
+            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Mes loisirs m’aident à me détendre et à pratiquer le _____ avec mes nouveaux amis.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Pendant mon temps libre, je peux faire plusieurs activités."
+                "text": "temps"
               },
               {
                 "id": "o2",
-                "text": "Karim joue au football avec ses amis et Paul joue aux jeux vidéo."
+                "text": "libre"
               },
               {
                 "id": "o3",
-                "text": "Je peux aussi jouer un peu de la guitare"
+                "text": "faire"
               },
               {
                 "id": "o4",
-                "text": "Mes loisirs m’aident à me détendre et à pratiquer le français avec mes nouveaux amis."
+                "text": "français"
               }
             ]
           }
@@ -51365,42 +53271,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Que se passe-t-il au début ?",
+        "prompt": "Complète ce détail de l’audio.\n\n“Pendant mon temps libre, je peux faire plusieurs _____.”",
         "options": [
-          "Pendant mon temps libre, je peux faire plusieurs activités.",
-          "Karim joue au football avec ses amis et Paul joue aux jeux vidéo.",
-          "Je peux aussi jouer un peu de la guitare",
-          "Mes loisirs m’aident à me détendre et à pratiquer le français avec mes nouveaux amis."
+          "activités",
+          "samedi",
+          "danser",
+          "encore"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Que fait la personne ensuite ?",
+        "prompt": "Quel mot complète la phrase entendue ?\n\n“Karim joue au _____ avec ses amis et Paul joue aux jeux vidéo.”",
         "options": [
-          "Pendant mon temps libre, je peux faire plusieurs activités.",
-          "Karim joue au football avec ses amis et Paul joue aux jeux vidéo.",
-          "Je peux aussi jouer un peu de la guitare",
-          "Mes loisirs m’aident à me détendre et à pratiquer le français avec mes nouveaux amis."
+          "temps",
+          "football",
+          "libre",
+          "faire"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel autre détail est correct ?",
+        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Je peux aussi jouer un peu de la guitare, mais je ne sais pas _____ jouer très bien.”",
         "options": [
-          "Pendant mon temps libre, je peux faire plusieurs activités.",
-          "Karim joue au football avec ses amis et Paul joue aux jeux vidéo.",
-          "Je peux aussi jouer un peu de la guitare",
-          "Mes loisirs m’aident à me détendre et à pratiquer le français avec mes nouveaux amis."
+          "mon",
+          "plusieurs",
+          "encore",
+          "activités"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Que se passe-t-il à la fin ?",
+        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Mes loisirs m’aident à me détendre et à pratiquer le _____ avec mes nouveaux amis.”",
         "options": [
-          "Pendant mon temps libre, je peux faire plusieurs activités.",
-          "Karim joue au football avec ses amis et Paul joue aux jeux vidéo.",
-          "Je peux aussi jouer un peu de la guitare",
-          "Mes loisirs m’aident à me détendre et à pratiquer le français avec mes nouveaux amis."
+          "temps",
+          "libre",
+          "faire",
+          "français"
         ]
       }
     ]
@@ -51494,92 +53400,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Dans « Comment garder une amitié à distance », quel détail présente la situation ?",
+            "prompt": "Complète ce détail de l’audio.\n\n“Bienvenue dans notre chronique sur les _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Bienvenue dans notre chronique sur les relations."
+                "text": "relations"
               },
               {
                 "id": "o2",
-                "text": "Ils se sont rencontrés grâce à un projet que leurs professeurs ont organisé."
+                "text": "correspondants"
               },
               {
                 "id": "o3",
-                "text": "Ils ne sont pas toujours d’accord : Noah préfère écrire, tandis que Salomé aime les appels vidéo."
+                "text": "Fort-de-France"
               },
               {
                 "id": "o4",
-                "text": "Leur conseil est simple : choisissez un rythme réaliste et partagez des activités qui vous intéressent."
+                "text": "Salomé"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Après « Bienvenue dans notre chronique sur les relations. », que se passe-t-il ensuite dans « Comment garder une amitié à distance » ?",
+            "prompt": "Quel mot complète la phrase entendue ?\n\n“Ils se sont _____ grâce à un projet que leurs professeurs ont organisé.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Bienvenue dans notre chronique sur les relations."
+                "text": "correspondants"
               },
               {
                 "id": "o2",
-                "text": "Ils se sont rencontrés grâce à un projet que leurs professeurs ont organisé."
+                "text": "rencontrés"
               },
               {
                 "id": "o3",
-                "text": "Ils ne sont pas toujours d’accord : Noah préfère écrire, tandis que Salomé aime les appels vidéo."
+                "text": "Fort-de-France"
               },
               {
                 "id": "o4",
-                "text": "Leur conseil est simple : choisissez un rythme réaliste et partagez des activités qui vous intéressent."
+                "text": "comment"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Comment garder une amitié à distance » ?",
+            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Ils ne sont pas toujours d’accord : _____ préfère écrire, tandis que Salomé aime les appels vidéo.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Bienvenue dans notre chronique sur les relations."
+                "text": "correspondants"
               },
               {
                 "id": "o2",
-                "text": "Ils se sont rencontrés grâce à un projet que leurs professeurs ont organisé."
+                "text": "Fort-de-France"
               },
               {
                 "id": "o3",
-                "text": "Ils ne sont pas toujours d’accord : Noah préfère écrire, tandis que Salomé aime les appels vidéo."
+                "text": "Noah"
               },
               {
                 "id": "o4",
-                "text": "Leur conseil est simple : choisissez un rythme réaliste et partagez des activités qui vous intéressent."
+                "text": "Aujourd’hui"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel résultat conclut « Comment garder une amitié à distance » après « Ils ne sont pas toujours d’accord : Noah préfère écrire, tandis que… » ?",
+            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Leur conseil est simple : choisissez un rythme _____ et partagez des activités qui vous intéressent.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Bienvenue dans notre chronique sur les relations."
+                "text": "correspondants"
               },
               {
                 "id": "o2",
-                "text": "Ils se sont rencontrés grâce à un projet que leurs professeurs ont organisé."
+                "text": "Fort-de-France"
               },
               {
                 "id": "o3",
-                "text": "Ils ne sont pas toujours d’accord : Noah préfère écrire, tandis que Salomé aime les appels vidéo."
+                "text": "notre"
               },
               {
                 "id": "o4",
-                "text": "Leur conseil est simple : choisissez un rythme réaliste et partagez des activités qui vous intéressent."
+                "text": "réaliste"
               }
             ]
           }
@@ -51590,42 +53496,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Dans « Comment garder une amitié à distance », quel détail présente la situation ?",
+        "prompt": "Complète ce détail de l’audio.\n\n“Bienvenue dans notre chronique sur les _____.”",
         "options": [
-          "Bienvenue dans notre chronique sur les relations.",
-          "Ils se sont rencontrés grâce à un projet que leurs professeurs ont organisé.",
-          "Ils ne sont pas toujours d’accord : Noah préfère écrire, tandis que Salomé aime les appels vidéo.",
-          "Leur conseil est simple : choisissez un rythme réaliste et partagez des activités qui vous intéressent."
+          "relations",
+          "correspondants",
+          "Fort-de-France",
+          "Salomé"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Après « Bienvenue dans notre chronique sur les relations. », que se passe-t-il ensuite dans « Comment garder une amitié à distance » ?",
+        "prompt": "Quel mot complète la phrase entendue ?\n\n“Ils se sont _____ grâce à un projet que leurs professeurs ont organisé.”",
         "options": [
-          "Bienvenue dans notre chronique sur les relations.",
-          "Ils se sont rencontrés grâce à un projet que leurs professeurs ont organisé.",
-          "Ils ne sont pas toujours d’accord : Noah préfère écrire, tandis que Salomé aime les appels vidéo.",
-          "Leur conseil est simple : choisissez un rythme réaliste et partagez des activités qui vous intéressent."
+          "correspondants",
+          "rencontrés",
+          "Fort-de-France",
+          "comment"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Comment garder une amitié à distance » ?",
+        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Ils ne sont pas toujours d’accord : _____ préfère écrire, tandis que Salomé aime les appels vidéo.”",
         "options": [
-          "Bienvenue dans notre chronique sur les relations.",
-          "Ils se sont rencontrés grâce à un projet que leurs professeurs ont organisé.",
-          "Ils ne sont pas toujours d’accord : Noah préfère écrire, tandis que Salomé aime les appels vidéo.",
-          "Leur conseil est simple : choisissez un rythme réaliste et partagez des activités qui vous intéressent."
+          "correspondants",
+          "Fort-de-France",
+          "Noah",
+          "Aujourd’hui"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel résultat conclut « Comment garder une amitié à distance » après « Ils ne sont pas toujours d’accord : Noah préfère écrire, tandis que… » ?",
+        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Leur conseil est simple : choisissez un rythme _____ et partagez des activités qui vous intéressent.”",
         "options": [
-          "Bienvenue dans notre chronique sur les relations.",
-          "Ils se sont rencontrés grâce à un projet que leurs professeurs ont organisé.",
-          "Ils ne sont pas toujours d’accord : Noah préfère écrire, tandis que Salomé aime les appels vidéo.",
-          "Leur conseil est simple : choisissez un rythme réaliste et partagez des activités qui vous intéressent."
+          "correspondants",
+          "Fort-de-France",
+          "notre",
+          "réaliste"
         ]
       }
     ]
@@ -51750,92 +53656,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Dans « Essai sonore : L’œuvre que personne ne voulait exposer », quel détail présente la situation ?",
+            "prompt": "Complète ce détail de l’audio.\n\n“En novembre 2014, l’installation « Exhibit B » du metteur en scène sud-africain Brett Bailey — une reconstitution de « zoos humains » coloniaux, jouée par des acteurs noirs immobiles dans des vitrines — devait s’ouvrir au théâtre Gérard-Philipe de _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "En novembre 2014, l’installation « Exhibit B » du metteur en scène sud-africain Brett Bailey — une reconstitution de « zoos humains » coloniaux, jouée par des acteurs noirs immobiles dans des vitrines — devait s’ouvrir au théâtre Gérard-Philipe de Saint-Denis."
+                "text": "Saint-Denis"
               },
               {
                 "id": "o2",
-                "text": "Les enquêtes journalistiques menées sur cette affaire ont interrogé la direction, l’artiste et les collectifs antiracistes qui formulaient des critiques opposées : l’un jugeait l’œuvre nécessaire pour affronter la mémoire coloniale, l’autre y voyait une reconstitution déshumanisante rejouant, sans le vouloir, la logique qu’elle prétendait dénoncer."
+                "text": "représentations"
               },
               {
                 "id": "o3",
-                "text": "Elles ne constituent pas une simple liste : chacune éclaire une étape, une tension ou une conséquence du problème."
+                "text": "journalistiques"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "novembre"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Après « En novembre 2014, l’installation « Exhibit B » du metteur en scène… », que se passe-t-il ensuite dans « Essai sonore : L’œuvre que personne ne voulait exposer » ?",
+            "prompt": "Quel mot complète la phrase entendue ?\n\n“Les _____ journalistiques menées sur cette affaire ont interrogé la direction, l’artiste et les collectifs antiracistes qui formulaient des critiques opposées : l’un jugeait l’œuvre nécessaire pour affronter la mémoire coloniale, l’autre y voyait une reconstitution déshumanisante rejouant, sans le vouloir, la logique qu’elle prétendait dénoncer.”",
             "options": [
               {
                 "id": "o1",
-                "text": "En novembre 2014, l’installation « Exhibit B » du metteur en scène sud-africain Brett Bailey — une reconstitution de « zoos humains » coloniaux, jouée par des acteurs noirs immobiles dans des vitrines — devait s’ouvrir au théâtre Gérard-Philipe de Saint-Denis."
+                "text": "représentations"
               },
               {
                 "id": "o2",
-                "text": "Les enquêtes journalistiques menées sur cette affaire ont interrogé la direction, l’artiste et les collectifs antiracistes qui formulaient des critiques opposées : l’un jugeait l’œuvre nécessaire pour affronter la mémoire coloniale, l’autre y voyait une reconstitution déshumanisante rejouant, sans le vouloir, la logique qu’elle prétendait dénoncer."
+                "text": "enquêtes"
               },
               {
                 "id": "o3",
-                "text": "Elles ne constituent pas une simple liste : chacune éclaire une étape, une tension ou une conséquence du problème."
+                "text": "journalistiques"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "l’installation"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Essai sonore : L’œuvre que personne ne voulait exposer » ?",
+            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Elles ne constituent pas une simple liste : chacune _____ une étape, une tension ou une conséquence du problème.”",
             "options": [
               {
                 "id": "o1",
-                "text": "En novembre 2014, l’installation « Exhibit B » du metteur en scène sud-africain Brett Bailey — une reconstitution de « zoos humains » coloniaux, jouée par des acteurs noirs immobiles dans des vitrines — devait s’ouvrir au théâtre Gérard-Philipe de Saint-Denis."
+                "text": "représentations"
               },
               {
                 "id": "o2",
-                "text": "Les enquêtes journalistiques menées sur cette affaire ont interrogé la direction, l’artiste et les collectifs antiracistes qui formulaient des critiques opposées : l’un jugeait l’œuvre nécessaire pour affronter la mémoire coloniale, l’autre y voyait une reconstitution déshumanisante rejouant, sans le vouloir, la logique qu’elle prétendait dénoncer."
+                "text": "journalistiques"
               },
               {
                 "id": "o3",
-                "text": "Elles ne constituent pas une simple liste : chacune éclaire une étape, une tension ou une conséquence du problème."
+                "text": "éclaire"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "l’installation"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel résultat conclut « Essai sonore : L’œuvre que personne ne voulait exposer » après « Elles ne constituent pas une simple liste : chacune éclaire une étape,… » ?",
+            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
             "options": [
               {
                 "id": "o1",
-                "text": "En novembre 2014, l’installation « Exhibit B » du metteur en scène sud-africain Brett Bailey — une reconstitution de « zoos humains » coloniaux, jouée par des acteurs noirs immobiles dans des vitrines — devait s’ouvrir au théâtre Gérard-Philipe de Saint-Denis."
+                "text": "représentations"
               },
               {
                 "id": "o2",
-                "text": "Les enquêtes journalistiques menées sur cette affaire ont interrogé la direction, l’artiste et les collectifs antiracistes qui formulaient des critiques opposées : l’un jugeait l’œuvre nécessaire pour affronter la mémoire coloniale, l’autre y voyait une reconstitution déshumanisante rejouant, sans le vouloir, la logique qu’elle prétendait dénoncer."
+                "text": "journalistiques"
               },
               {
                 "id": "o3",
-                "text": "Elles ne constituent pas une simple liste : chacune éclaire une étape, une tension ou une conséquence du problème."
+                "text": "l’installation"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "relier"
               }
             ]
           }
@@ -51846,42 +53752,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Dans « Essai sonore : L’œuvre que personne ne voulait exposer », quel détail présente la situation ?",
+        "prompt": "Complète ce détail de l’audio.\n\n“En novembre 2014, l’installation « Exhibit B » du metteur en scène sud-africain Brett Bailey — une reconstitution de « zoos humains » coloniaux, jouée par des acteurs noirs immobiles dans des vitrines — devait s’ouvrir au théâtre Gérard-Philipe de _____.”",
         "options": [
-          "En novembre 2014, l’installation « Exhibit B » du metteur en scène sud-africain Brett Bailey — une reconstitution de « zoos humains » coloniaux, jouée par des acteurs noirs immobiles dans des vitrines — devait s’ouvrir au théâtre Gérard-Philipe de Saint-Denis.",
-          "Les enquêtes journalistiques menées sur cette affaire ont interrogé la direction, l’artiste et les collectifs antiracistes qui formulaient des critiques opposées : l’un jugeait l’œuvre nécessaire pour affronter la mémoire coloniale, l’autre y voyait une reconstitution déshumanisante rejouant, sans le vouloir, la logique qu’elle prétendait dénoncer.",
-          "Elles ne constituent pas une simple liste : chacune éclaire une étape, une tension ou une conséquence du problème.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "Saint-Denis",
+          "représentations",
+          "journalistiques",
+          "novembre"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Après « En novembre 2014, l’installation « Exhibit B » du metteur en scène… », que se passe-t-il ensuite dans « Essai sonore : L’œuvre que personne ne voulait exposer » ?",
+        "prompt": "Quel mot complète la phrase entendue ?\n\n“Les _____ journalistiques menées sur cette affaire ont interrogé la direction, l’artiste et les collectifs antiracistes qui formulaient des critiques opposées : l’un jugeait l’œuvre nécessaire pour affronter la mémoire coloniale, l’autre y voyait une reconstitution déshumanisante rejouant, sans le vouloir, la logique qu’elle prétendait dénoncer.”",
         "options": [
-          "En novembre 2014, l’installation « Exhibit B » du metteur en scène sud-africain Brett Bailey — une reconstitution de « zoos humains » coloniaux, jouée par des acteurs noirs immobiles dans des vitrines — devait s’ouvrir au théâtre Gérard-Philipe de Saint-Denis.",
-          "Les enquêtes journalistiques menées sur cette affaire ont interrogé la direction, l’artiste et les collectifs antiracistes qui formulaient des critiques opposées : l’un jugeait l’œuvre nécessaire pour affronter la mémoire coloniale, l’autre y voyait une reconstitution déshumanisante rejouant, sans le vouloir, la logique qu’elle prétendait dénoncer.",
-          "Elles ne constituent pas une simple liste : chacune éclaire une étape, une tension ou une conséquence du problème.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "représentations",
+          "enquêtes",
+          "journalistiques",
+          "l’installation"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Essai sonore : L’œuvre que personne ne voulait exposer » ?",
+        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Elles ne constituent pas une simple liste : chacune _____ une étape, une tension ou une conséquence du problème.”",
         "options": [
-          "En novembre 2014, l’installation « Exhibit B » du metteur en scène sud-africain Brett Bailey — une reconstitution de « zoos humains » coloniaux, jouée par des acteurs noirs immobiles dans des vitrines — devait s’ouvrir au théâtre Gérard-Philipe de Saint-Denis.",
-          "Les enquêtes journalistiques menées sur cette affaire ont interrogé la direction, l’artiste et les collectifs antiracistes qui formulaient des critiques opposées : l’un jugeait l’œuvre nécessaire pour affronter la mémoire coloniale, l’autre y voyait une reconstitution déshumanisante rejouant, sans le vouloir, la logique qu’elle prétendait dénoncer.",
-          "Elles ne constituent pas une simple liste : chacune éclaire une étape, une tension ou une conséquence du problème.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "représentations",
+          "journalistiques",
+          "éclaire",
+          "l’installation"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel résultat conclut « Essai sonore : L’œuvre que personne ne voulait exposer » après « Elles ne constituent pas une simple liste : chacune éclaire une étape,… » ?",
+        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
         "options": [
-          "En novembre 2014, l’installation « Exhibit B » du metteur en scène sud-africain Brett Bailey — une reconstitution de « zoos humains » coloniaux, jouée par des acteurs noirs immobiles dans des vitrines — devait s’ouvrir au théâtre Gérard-Philipe de Saint-Denis.",
-          "Les enquêtes journalistiques menées sur cette affaire ont interrogé la direction, l’artiste et les collectifs antiracistes qui formulaient des critiques opposées : l’un jugeait l’œuvre nécessaire pour affronter la mémoire coloniale, l’autre y voyait une reconstitution déshumanisante rejouant, sans le vouloir, la logique qu’elle prétendait dénoncer.",
-          "Elles ne constituent pas une simple liste : chacune éclaire une étape, une tension ou une conséquence du problème.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "représentations",
+          "journalistiques",
+          "l’installation",
+          "relier"
         ]
       }
     ]
@@ -52016,92 +53922,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Dans « Essai sonore : La désinformation détermine-t-elle réellement les élections ? », quel détail présente la situation ?",
+            "prompt": "Complète ce détail de l’audio.\n\n“Un contenu trompeur se diffuse en quelques minutes, tandis que son démenti met des heures à atteindre le même _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Un contenu trompeur se diffuse en quelques minutes, tandis que son démenti met des heures à atteindre le même public."
+                "text": "public"
               },
               {
                 "id": "o2",
-                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+                "text": "détermine-t-elle"
               },
               {
                 "id": "o3",
-                "text": "Puisque la désinformation vise surtout des convictions déjà établies, dès lors la conversion massive d’électeurs indécis paraît moins probable qu’on ne le suppose."
+                "text": "interchangeables"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "désinformation"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Après « Un contenu trompeur se diffuse en quelques minutes, tandis que son… », que se passe-t-il ensuite dans « Essai sonore : La désinformation détermine-t-elle réellement les élections ? » ?",
+            "prompt": "Quel mot complète la phrase entendue ?\n\n“Une _____ sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Un contenu trompeur se diffuse en quelques minutes, tandis que son démenti met des heures à atteindre le même public."
+                "text": "détermine-t-elle"
               },
               {
                 "id": "o2",
-                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+                "text": "réponse"
               },
               {
                 "id": "o3",
-                "text": "Puisque la désinformation vise surtout des convictions déjà établies, dès lors la conversion massive d’électeurs indécis paraît moins probable qu’on ne le suppose."
+                "text": "interchangeables"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "désinformation"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Essai sonore : La désinformation détermine-t-elle réellement les élections ? » ?",
+            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Puisque la désinformation vise surtout des _____ déjà établies, dès lors la conversion massive d’électeurs indécis paraît moins probable qu’on ne le suppose.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Un contenu trompeur se diffuse en quelques minutes, tandis que son démenti met des heures à atteindre le même public."
+                "text": "détermine-t-elle"
               },
               {
                 "id": "o2",
-                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+                "text": "interchangeables"
               },
               {
                 "id": "o3",
-                "text": "Le Digital News Report 2024 de l’institut Reuters constate une érosion continue de la confiance dans les médias traditionnels dans de nombreux pays, une évolution souvent présentée comme la cause directe d’une vulnérabilité démocratique croissante face à la désinformation, alors que la relation causale précise entre exposition à un contenu trompeur et changement effectif du comportement électoral reste empiriquement plus incertaine que ne le suggère le débat public."
+                "text": "convictions"
               },
               {
                 "id": "o4",
-                "text": "Puisque la désinformation vise surtout des convictions déjà établies, dès lors la conversion massive d’électeurs indécis paraît moins probable qu’on ne le suppose."
+                "text": "trompeur"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel résultat conclut « Essai sonore : La désinformation détermine-t-elle réellement les élections ? » après « Le Digital News Report 2024 de l’institut Reuters constate une érosion… » ?",
+            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Un contenu trompeur se diffuse en quelques minutes, tandis que son démenti met des heures à atteindre le même public."
+                "text": "détermine-t-elle"
               },
               {
                 "id": "o2",
-                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+                "text": "interchangeables"
               },
               {
                 "id": "o3",
-                "text": "Puisque la désinformation vise surtout des convictions déjà établies, dès lors la conversion massive d’électeurs indécis paraît moins probable qu’on ne le suppose."
+                "text": "désinformation"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "relier"
               }
             ]
           }
@@ -52112,42 +54018,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Dans « Essai sonore : La désinformation détermine-t-elle réellement les élections ? », quel détail présente la situation ?",
+        "prompt": "Complète ce détail de l’audio.\n\n“Un contenu trompeur se diffuse en quelques minutes, tandis que son démenti met des heures à atteindre le même _____.”",
         "options": [
-          "Un contenu trompeur se diffuse en quelques minutes, tandis que son démenti met des heures à atteindre le même public.",
-          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.",
-          "Puisque la désinformation vise surtout des convictions déjà établies, dès lors la conversion massive d’électeurs indécis paraît moins probable qu’on ne le suppose.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "public",
+          "détermine-t-elle",
+          "interchangeables",
+          "désinformation"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Après « Un contenu trompeur se diffuse en quelques minutes, tandis que son… », que se passe-t-il ensuite dans « Essai sonore : La désinformation détermine-t-elle réellement les élections ? » ?",
+        "prompt": "Quel mot complète la phrase entendue ?\n\n“Une _____ sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.”",
         "options": [
-          "Un contenu trompeur se diffuse en quelques minutes, tandis que son démenti met des heures à atteindre le même public.",
-          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.",
-          "Puisque la désinformation vise surtout des convictions déjà établies, dès lors la conversion massive d’électeurs indécis paraît moins probable qu’on ne le suppose.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "détermine-t-elle",
+          "réponse",
+          "interchangeables",
+          "désinformation"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Essai sonore : La désinformation détermine-t-elle réellement les élections ? » ?",
+        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Puisque la désinformation vise surtout des _____ déjà établies, dès lors la conversion massive d’électeurs indécis paraît moins probable qu’on ne le suppose.”",
         "options": [
-          "Un contenu trompeur se diffuse en quelques minutes, tandis que son démenti met des heures à atteindre le même public.",
-          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.",
-          "Le Digital News Report 2024 de l’institut Reuters constate une érosion continue de la confiance dans les médias traditionnels dans de nombreux pays, une évolution souvent présentée comme la cause directe d’une vulnérabilité démocratique croissante face à la désinformation, alors que la relation causale précise entre exposition à un contenu trompeur et changement effectif du comportement électoral reste empiriquement plus incertaine que ne le suggère le débat public.",
-          "Puisque la désinformation vise surtout des convictions déjà établies, dès lors la conversion massive d’électeurs indécis paraît moins probable qu’on ne le suppose."
+          "détermine-t-elle",
+          "interchangeables",
+          "convictions",
+          "trompeur"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel résultat conclut « Essai sonore : La désinformation détermine-t-elle réellement les élections ? » après « Le Digital News Report 2024 de l’institut Reuters constate une érosion… » ?",
+        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
         "options": [
-          "Un contenu trompeur se diffuse en quelques minutes, tandis que son démenti met des heures à atteindre le même public.",
-          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.",
-          "Puisque la désinformation vise surtout des convictions déjà établies, dès lors la conversion massive d’électeurs indécis paraît moins probable qu’on ne le suppose.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "détermine-t-elle",
+          "interchangeables",
+          "désinformation",
+          "relier"
         ]
       }
     ]
@@ -52239,38 +54145,145 @@
           "text": "Un désaccord bien géré peut finalement renforcer une relation, car il apprend aux personnes à communiquer avec plus d’honnêteté."
         }
       ],
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "french-b1-relations-et-conflits-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Complète ce détail de l’audio.\n\n“Bienvenue dans notre podcast sur les _____.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "relations"
+              },
+              {
+                "id": "o2",
+                "text": "interprétation"
+              },
+              {
+                "id": "o3",
+                "text": "immédiatement"
+              },
+              {
+                "id": "o4",
+                "text": "tandis"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quel mot complète la phrase entendue ?\n\n“Pour trouver un _____, il faut d’abord décrire les faits sans accuser.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "interprétation"
+              },
+              {
+                "id": "o2",
+                "text": "compromis"
+              },
+              {
+                "id": "o3",
+                "text": "immédiatement"
+              },
+              {
+                "id": "o4",
+                "text": "tandis"
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“L’objectif n’est pas de prouver que l’un a raison et que _____ a tort, mais de chercher une solution acceptable.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "interprétation"
+              },
+              {
+                "id": "o2",
+                "text": "immédiatement"
+              },
+              {
+                "id": "o3",
+                "text": "l’autre"
+              },
+              {
+                "id": "o4",
+                "text": "Aujourd’hui"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“On peut dire : « Je suis déçu que tu aies changé le projet sans me prévenir », plutôt que : « Tu ne respectes _____ personne. » Il est également utile que chacun explique ce dont il a besoin.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "interprétation"
+              },
+              {
+                "id": "o2",
+                "text": "immédiatement"
+              },
+              {
+                "id": "o3",
+                "text": "Aujourd’hui"
+              },
+              {
+                "id": "o4",
+                "text": "jamais"
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Pourquoi Léa s’excuse-t-elle ?",
+        "prompt": "Complète ce détail de l’audio.\n\n“Bienvenue dans notre podcast sur les _____.”",
         "options": [
-          "Parce qu’elle a menti",
-          "Parce qu’elle était stressée",
-          "Parce qu’elle est en retard",
-          "Parce qu’elle a oublié le projet"
+          "relations",
+          "interprétation",
+          "immédiatement",
+          "tandis"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Que propose Léa pour résoudre le conflit ?",
+        "prompt": "Quel mot complète la phrase entendue ?\n\n“Pour trouver un _____, il faut d’abord décrire les faits sans accuser.”",
         "options": [
-          "D’arrêter le projet",
-          "De trouver un compromis",
-          "De travailler séparément",
-          "De changer de sujet"
+          "interprétation",
+          "compromis",
+          "immédiatement",
+          "tandis"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel compromis acceptent-elles ?",
+        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“L’objectif n’est pas de prouver que l’un a raison et que _____ a tort, mais de chercher une solution acceptable.”",
         "options": [
-          "Léa fait tout",
-          "Camila fait tout",
-          "Léa la structure, Camila les idées créatives",
-          "Elles ne décident rien"
+          "interprétation",
+          "immédiatement",
+          "l’autre",
+          "Aujourd’hui"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“On peut dire : « Je suis déçu que tu aies changé le projet sans me prévenir », plutôt que : « Tu ne respectes _____ personne. » Il est également utile que chacun explique ce dont il a besoin.”",
+        "options": [
+          "interprétation",
+          "immédiatement",
+          "Aujourd’hui",
+          "jamais"
         ]
       }
     ]
@@ -52377,38 +54390,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "french-b2-ecologie-et-engagement-citoyen-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Complète ce détail de l’audio.\n\n“Dans une région côtière, des habitants, des scientifiques et des pêcheurs ont créé un partenariat pour restaurer la _____.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "mangrove"
+              },
+              {
+                "id": "o2",
+                "text": "scientifiques"
+              },
+              {
+                "id": "o3",
+                "text": "constructions"
+              },
+              {
+                "id": "o4",
+                "text": "participation"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quel mot complète la phrase entendue ?\n\n“Les _____ ont lancé une pétition afin que les autorités limitent les nouveaux projets près du rivage.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "scientifiques"
+              },
+              {
+                "id": "o2",
+                "text": "citoyens"
+              },
+              {
+                "id": "o3",
+                "text": "constructions"
+              },
+              {
+                "id": "o4",
+                "text": "participation"
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Certains responsables ne pensent pas que les _____ locales suffisent, car les pressions économiques restent importantes.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "scientifiques"
+              },
+              {
+                "id": "o2",
+                "text": "constructions"
+              },
+              {
+                "id": "o3",
+                "text": "actions"
+              },
+              {
+                "id": "o4",
+                "text": "participation"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Le projet ne consiste donc pas seulement à planter des arbres : il _____ à construire un équilibre entre protection de la biodiversité, activité économique et participation des habitants.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "scientifiques"
+              },
+              {
+                "id": "o2",
+                "text": "constructions"
+              },
+              {
+                "id": "o3",
+                "text": "participation"
+              },
+              {
+                "id": "o4",
+                "text": "cherche"
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Que protègent les mangroves, selon Ana ?",
+        "prompt": "Complète ce détail de l’audio.\n\n“Dans une région côtière, des habitants, des scientifiques et des pêcheurs ont créé un partenariat pour restaurer la _____.”",
         "options": [
-          "Rien de particulier",
-          "La côte et la biodiversité",
-          "Seulement les poissons",
-          "Les routes"
+          "mangrove",
+          "scientifiques",
+          "constructions",
+          "participation"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelles menaces pèsent sur les mangroves ?",
+        "prompt": "Quel mot complète la phrase entendue ?\n\n“Les _____ ont lancé une pétition afin que les autorités limitent les nouveaux projets près du rivage.”",
         "options": [
-          "Le vent",
-          "La construction et la pollution",
-          "Les oiseaux",
-          "Le soleil"
+          "scientifiques",
+          "citoyens",
+          "constructions",
+          "participation"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Que veut faire Camila après cette explication ?",
+        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Certains responsables ne pensent pas que les _____ locales suffisent, car les pressions économiques restent importantes.”",
         "options": [
-          "Partir immédiatement",
-          "S’impliquer pour aider à les protéger",
-          "Ignorer le problème",
-          "Changer de sujet"
+          "scientifiques",
+          "constructions",
+          "actions",
+          "participation"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Le projet ne consiste donc pas seulement à planter des arbres : il _____ à construire un équilibre entre protection de la biodiversité, activité économique et participation des habitants.”",
+        "options": [
+          "scientifiques",
+          "constructions",
+          "participation",
+          "cherche"
         ]
       }
     ]
@@ -56741,92 +58861,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Que se passe-t-il au début ?",
+            "prompt": "Complète ce détail de l’audio.\n\n“Samedi après-midi, Camila va dans un magasin avec _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Camila va dans un magasin avec Léa."
+                "text": "Léa"
               },
               {
                 "id": "o2",
-                "text": "Cette robe lui plaît beaucoup"
+                "text": "confortables"
               },
               {
                 "id": "o3",
-                "text": "La robe est à sa taille et les chaussures sont confortables."
+                "text": "après-midi"
               },
               {
                 "id": "o4",
-                "text": "Elle est prête pour la fête."
+                "text": "chaussures"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Que fait la personne ensuite ?",
+            "prompt": "Quel mot complète la phrase entendue ?\n\n“Camila _____ à la vendeuse : « Combien coûte cette robe ? »”",
             "options": [
               {
                 "id": "o1",
-                "text": "Camila va dans un magasin avec Léa."
+                "text": "confortables"
               },
               {
                 "id": "o2",
-                "text": "Cette robe lui plaît beaucoup"
+                "text": "demande"
               },
               {
                 "id": "o3",
-                "text": "La robe est à sa taille et les chaussures sont confortables."
+                "text": "après-midi"
               },
               {
                 "id": "o4",
-                "text": "Elle est prête pour la fête."
+                "text": "fête"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Quel autre détail est correct ?",
+            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“La robe est à sa _____ et les chaussures sont confortables.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Camila va dans un magasin avec Léa."
+                "text": "confortables"
               },
               {
                 "id": "o2",
-                "text": "Cette robe lui plaît beaucoup"
+                "text": "après-midi"
               },
               {
                 "id": "o3",
-                "text": "La robe est à sa taille et les chaussures sont confortables."
+                "text": "taille"
               },
               {
                 "id": "o4",
-                "text": "Elle est prête pour la fête."
+                "text": "chaussures"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Que se passe-t-il à la fin ?",
+            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Camila demande à la vendeuse : « Combien coûte cette robe ? » La vendeuse _____ : « Elle coûte trente euros. » Camila essaie la robe et les chaussures.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Camila va dans un magasin avec Léa."
+                "text": "confortables"
               },
               {
                 "id": "o2",
-                "text": "Cette robe lui plaît beaucoup"
+                "text": "après-midi"
               },
               {
                 "id": "o3",
-                "text": "La robe est à sa taille et les chaussures sont confortables."
+                "text": "chaussures"
               },
               {
                 "id": "o4",
-                "text": "Elle est prête pour la fête."
+                "text": "répond"
               }
             ]
           }
@@ -56837,42 +58957,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Que se passe-t-il au début ?",
+        "prompt": "Complète ce détail de l’audio.\n\n“Samedi après-midi, Camila va dans un magasin avec _____.”",
         "options": [
-          "Camila va dans un magasin avec Léa.",
-          "Cette robe lui plaît beaucoup",
-          "La robe est à sa taille et les chaussures sont confortables.",
-          "Elle est prête pour la fête."
+          "Léa",
+          "confortables",
+          "après-midi",
+          "chaussures"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Que fait la personne ensuite ?",
+        "prompt": "Quel mot complète la phrase entendue ?\n\n“Camila _____ à la vendeuse : « Combien coûte cette robe ? »”",
         "options": [
-          "Camila va dans un magasin avec Léa.",
-          "Cette robe lui plaît beaucoup",
-          "La robe est à sa taille et les chaussures sont confortables.",
-          "Elle est prête pour la fête."
+          "confortables",
+          "demande",
+          "après-midi",
+          "fête"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel autre détail est correct ?",
+        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“La robe est à sa _____ et les chaussures sont confortables.”",
         "options": [
-          "Camila va dans un magasin avec Léa.",
-          "Cette robe lui plaît beaucoup",
-          "La robe est à sa taille et les chaussures sont confortables.",
-          "Elle est prête pour la fête."
+          "confortables",
+          "après-midi",
+          "taille",
+          "chaussures"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Que se passe-t-il à la fin ?",
+        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Camila demande à la vendeuse : « Combien coûte cette robe ? » La vendeuse _____ : « Elle coûte trente euros. » Camila essaie la robe et les chaussures.”",
         "options": [
-          "Camila va dans un magasin avec Léa.",
-          "Cette robe lui plaît beaucoup",
-          "La robe est à sa taille et les chaussures sont confortables.",
-          "Elle est prête pour la fête."
+          "confortables",
+          "après-midi",
+          "chaussures",
+          "répond"
         ]
       }
     ]
@@ -56971,92 +59091,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Dans « Information de la mairie », quel détail présente la situation ?",
+            "prompt": "Complète ce détail de l’audio.\n\n“_____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Bonjour."
+                "text": "Bonjour"
               },
               {
                 "id": "o2",
-                "text": "Vous pouvez télécharger le formulaire sur le site de la ville et y accéder depuis votre espace personnel."
+                "text": "justificatif"
               },
               {
                 "id": "o3",
-                "text": "Le matin, vous pouvez venir sans rendez-vous."
+                "text": "l’après-midi"
               },
               {
                 "id": "o4",
-                "text": "Pour toute question, contactez le service des cartes municipales."
+                "text": "municipales"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Après « Bonjour. », que se passe-t-il ensuite dans « Information de la mairie » ?",
+            "prompt": "Quel mot complète la phrase entendue ?\n\n“Vous pouvez _____ le formulaire sur le site de la ville et y accéder depuis votre espace personnel.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Bonjour."
+                "text": "démarche"
               },
               {
                 "id": "o2",
-                "text": "Vous pouvez télécharger le formulaire sur le site de la ville et y accéder depuis votre espace personnel."
+                "text": "télécharger"
               },
               {
                 "id": "o3",
-                "text": "Le matin, vous pouvez venir sans rendez-vous."
+                "text": "apporter"
               },
               {
                 "id": "o4",
-                "text": "Pour toute question, contactez le service des cartes municipales."
+                "text": "domicile"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Information de la mairie » ?",
+            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Le matin, vous pouvez venir sans _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Bonjour."
+                "text": "démarche"
               },
               {
                 "id": "o2",
-                "text": "Vous pouvez télécharger le formulaire sur le site de la ville et y accéder depuis votre espace personnel."
+                "text": "apporter"
               },
               {
                 "id": "o3",
-                "text": "Vous en aurez besoin d’un seul par personne."
+                "text": "rendez-vous"
               },
               {
                 "id": "o4",
-                "text": "Le matin, vous pouvez venir sans rendez-vous."
+                "text": "domicile"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel résultat conclut « Information de la mairie » après « Vous en aurez besoin d’un seul par personne. » ?",
+            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Pour toute _____, contactez le service des cartes municipales.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Bonjour."
+                "text": "justificatif"
               },
               {
                 "id": "o2",
-                "text": "Vous pouvez télécharger le formulaire sur le site de la ville et y accéder depuis votre espace personnel."
+                "text": "l’après-midi"
               },
               {
                 "id": "o3",
-                "text": "Le matin, vous pouvez venir sans rendez-vous."
+                "text": "municipales"
               },
               {
                 "id": "o4",
-                "text": "Pour toute question, contactez le service des cartes municipales."
+                "text": "question"
               }
             ]
           }
@@ -57067,42 +59187,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Dans « Information de la mairie », quel détail présente la situation ?",
+        "prompt": "Complète ce détail de l’audio.\n\n“_____.”",
         "options": [
-          "Bonjour.",
-          "Vous pouvez télécharger le formulaire sur le site de la ville et y accéder depuis votre espace personnel.",
-          "Le matin, vous pouvez venir sans rendez-vous.",
-          "Pour toute question, contactez le service des cartes municipales."
+          "Bonjour",
+          "justificatif",
+          "l’après-midi",
+          "municipales"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Après « Bonjour. », que se passe-t-il ensuite dans « Information de la mairie » ?",
+        "prompt": "Quel mot complète la phrase entendue ?\n\n“Vous pouvez _____ le formulaire sur le site de la ville et y accéder depuis votre espace personnel.”",
         "options": [
-          "Bonjour.",
-          "Vous pouvez télécharger le formulaire sur le site de la ville et y accéder depuis votre espace personnel.",
-          "Le matin, vous pouvez venir sans rendez-vous.",
-          "Pour toute question, contactez le service des cartes municipales."
+          "démarche",
+          "télécharger",
+          "apporter",
+          "domicile"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Information de la mairie » ?",
+        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Le matin, vous pouvez venir sans _____.”",
         "options": [
-          "Bonjour.",
-          "Vous pouvez télécharger le formulaire sur le site de la ville et y accéder depuis votre espace personnel.",
-          "Vous en aurez besoin d’un seul par personne.",
-          "Le matin, vous pouvez venir sans rendez-vous."
+          "démarche",
+          "apporter",
+          "rendez-vous",
+          "domicile"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel résultat conclut « Information de la mairie » après « Vous en aurez besoin d’un seul par personne. » ?",
+        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Pour toute _____, contactez le service des cartes municipales.”",
         "options": [
-          "Bonjour.",
-          "Vous pouvez télécharger le formulaire sur le site de la ville et y accéder depuis votre espace personnel.",
-          "Le matin, vous pouvez venir sans rendez-vous.",
-          "Pour toute question, contactez le service des cartes municipales."
+          "justificatif",
+          "l’après-midi",
+          "municipales",
+          "question"
         ]
       }
     ]
@@ -57217,92 +59337,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Dans « Portrait : La proposition de Montréal », quel détail présente la situation ?",
+            "prompt": "Complète ce détail de l’audio.\n\n“Plus de dix millions de personnes ont participé au programme Erasmus+ depuis sa création en 1987, et chaque année un nombre croissant d’étudiants français en fin de licence reçoivent, par ce biais ou par des accords bilatéraux comme celui qui lie certaines universités françaises à des établissements québécois, des propositions de mobilité internationale — master ou stage — au moment précis où leur réseau amical et professionnel local devient enfin _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Plus de dix millions de personnes ont participé au programme Erasmus+ depuis sa création en 1987, et chaque année un nombre croissant d’étudiants français en fin de licence reçoivent, par ce biais ou par des accords bilatéraux comme celui qui lie certaines universités françaises à des établissements québécois, des propositions de mobilité internationale — master ou stage — au moment précis où leur réseau amical et professionnel local devient enfin solide."
+                "text": "solide"
               },
               {
                 "id": "o2",
-                "text": "Six notions permettent de suivre le raisonnement : une voie, une unité de comparaison, irréversible, révisable, dramatiser et assumer une incertitude."
+                "text": "établissements"
               },
               {
                 "id": "o3",
-                "text": "Lorsque l’étudiante aura comparé chaque voie, elle aura mieux distingué ce qui est révisable de ce qui paraît irréversible."
+                "text": "internationale"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "professionnel"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Après « Plus de dix millions de personnes ont participé au programme Erasmus+… », que se passe-t-il ensuite dans « Portrait : La proposition de Montréal » ?",
+            "prompt": "Quel mot complète la phrase entendue ?\n\n“Six _____ permettent de suivre le raisonnement : une voie, une unité de comparaison, irréversible, révisable, dramatiser et assumer une incertitude.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Plus de dix millions de personnes ont participé au programme Erasmus+ depuis sa création en 1987, et chaque année un nombre croissant d’étudiants français en fin de licence reçoivent, par ce biais ou par des accords bilatéraux comme celui qui lie certaines universités françaises à des établissements québécois, des propositions de mobilité internationale — master ou stage — au moment précis où leur réseau amical et professionnel local devient enfin solide."
+                "text": "établissements"
               },
               {
                 "id": "o2",
-                "text": "Six notions permettent de suivre le raisonnement : une voie, une unité de comparaison, irréversible, révisable, dramatiser et assumer une incertitude."
+                "text": "notions"
               },
               {
                 "id": "o3",
-                "text": "Lorsque l’étudiante aura comparé chaque voie, elle aura mieux distingué ce qui est révisable de ce qui paraît irréversible."
+                "text": "internationale"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "professionnel"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Portrait : La proposition de Montréal » ?",
+            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Lorsque l’étudiante aura comparé _____ voie, elle aura mieux distingué ce qui est révisable de ce qui paraît irréversible.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Plus de dix millions de personnes ont participé au programme Erasmus+ depuis sa création en 1987, et chaque année un nombre croissant d’étudiants français en fin de licence reçoivent, par ce biais ou par des accords bilatéraux comme celui qui lie certaines universités françaises à des établissements québécois, des propositions de mobilité internationale — master ou stage — au moment précis où leur réseau amical et professionnel local devient enfin solide."
+                "text": "établissements"
               },
               {
                 "id": "o2",
-                "text": "Six notions permettent de suivre le raisonnement : une voie, une unité de comparaison, irréversible, révisable, dramatiser et assumer une incertitude."
+                "text": "internationale"
               },
               {
                 "id": "o3",
-                "text": "Lorsque l’étudiante aura comparé chaque voie, elle aura mieux distingué ce qui est révisable de ce qui paraît irréversible."
+                "text": "chaque"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "professionnel"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel résultat conclut « Portrait : La proposition de Montréal » après « Lorsque l’étudiante aura comparé chaque voie, elle aura mieux… » ?",
+            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Plus de dix millions de personnes ont participé au programme Erasmus+ depuis sa création en 1987, et chaque année un nombre croissant d’étudiants français en fin de licence reçoivent, par ce biais ou par des accords bilatéraux comme celui qui lie certaines universités françaises à des établissements québécois, des propositions de mobilité internationale — master ou stage — au moment précis où leur réseau amical et professionnel local devient enfin solide."
+                "text": "établissements"
               },
               {
                 "id": "o2",
-                "text": "Six notions permettent de suivre le raisonnement : une voie, une unité de comparaison, irréversible, révisable, dramatiser et assumer une incertitude."
+                "text": "internationale"
               },
               {
                 "id": "o3",
-                "text": "Lorsque l’étudiante aura comparé chaque voie, elle aura mieux distingué ce qui est révisable de ce qui paraît irréversible."
+                "text": "professionnel"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "relier"
               }
             ]
           }
@@ -57313,42 +59433,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Dans « Portrait : La proposition de Montréal », quel détail présente la situation ?",
+        "prompt": "Complète ce détail de l’audio.\n\n“Plus de dix millions de personnes ont participé au programme Erasmus+ depuis sa création en 1987, et chaque année un nombre croissant d’étudiants français en fin de licence reçoivent, par ce biais ou par des accords bilatéraux comme celui qui lie certaines universités françaises à des établissements québécois, des propositions de mobilité internationale — master ou stage — au moment précis où leur réseau amical et professionnel local devient enfin _____.”",
         "options": [
-          "Plus de dix millions de personnes ont participé au programme Erasmus+ depuis sa création en 1987, et chaque année un nombre croissant d’étudiants français en fin de licence reçoivent, par ce biais ou par des accords bilatéraux comme celui qui lie certaines universités françaises à des établissements québécois, des propositions de mobilité internationale — master ou stage — au moment précis où leur réseau amical et professionnel local devient enfin solide.",
-          "Six notions permettent de suivre le raisonnement : une voie, une unité de comparaison, irréversible, révisable, dramatiser et assumer une incertitude.",
-          "Lorsque l’étudiante aura comparé chaque voie, elle aura mieux distingué ce qui est révisable de ce qui paraît irréversible.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "solide",
+          "établissements",
+          "internationale",
+          "professionnel"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Après « Plus de dix millions de personnes ont participé au programme Erasmus+… », que se passe-t-il ensuite dans « Portrait : La proposition de Montréal » ?",
+        "prompt": "Quel mot complète la phrase entendue ?\n\n“Six _____ permettent de suivre le raisonnement : une voie, une unité de comparaison, irréversible, révisable, dramatiser et assumer une incertitude.”",
         "options": [
-          "Plus de dix millions de personnes ont participé au programme Erasmus+ depuis sa création en 1987, et chaque année un nombre croissant d’étudiants français en fin de licence reçoivent, par ce biais ou par des accords bilatéraux comme celui qui lie certaines universités françaises à des établissements québécois, des propositions de mobilité internationale — master ou stage — au moment précis où leur réseau amical et professionnel local devient enfin solide.",
-          "Six notions permettent de suivre le raisonnement : une voie, une unité de comparaison, irréversible, révisable, dramatiser et assumer une incertitude.",
-          "Lorsque l’étudiante aura comparé chaque voie, elle aura mieux distingué ce qui est révisable de ce qui paraît irréversible.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "établissements",
+          "notions",
+          "internationale",
+          "professionnel"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Portrait : La proposition de Montréal » ?",
+        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Lorsque l’étudiante aura comparé _____ voie, elle aura mieux distingué ce qui est révisable de ce qui paraît irréversible.”",
         "options": [
-          "Plus de dix millions de personnes ont participé au programme Erasmus+ depuis sa création en 1987, et chaque année un nombre croissant d’étudiants français en fin de licence reçoivent, par ce biais ou par des accords bilatéraux comme celui qui lie certaines universités françaises à des établissements québécois, des propositions de mobilité internationale — master ou stage — au moment précis où leur réseau amical et professionnel local devient enfin solide.",
-          "Six notions permettent de suivre le raisonnement : une voie, une unité de comparaison, irréversible, révisable, dramatiser et assumer une incertitude.",
-          "Lorsque l’étudiante aura comparé chaque voie, elle aura mieux distingué ce qui est révisable de ce qui paraît irréversible.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "établissements",
+          "internationale",
+          "chaque",
+          "professionnel"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel résultat conclut « Portrait : La proposition de Montréal » après « Lorsque l’étudiante aura comparé chaque voie, elle aura mieux… » ?",
+        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
         "options": [
-          "Plus de dix millions de personnes ont participé au programme Erasmus+ depuis sa création en 1987, et chaque année un nombre croissant d’étudiants français en fin de licence reçoivent, par ce biais ou par des accords bilatéraux comme celui qui lie certaines universités françaises à des établissements québécois, des propositions de mobilité internationale — master ou stage — au moment précis où leur réseau amical et professionnel local devient enfin solide.",
-          "Six notions permettent de suivre le raisonnement : une voie, une unité de comparaison, irréversible, révisable, dramatiser et assumer une incertitude.",
-          "Lorsque l’étudiante aura comparé chaque voie, elle aura mieux distingué ce qui est révisable de ce qui paraît irréversible.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "établissements",
+          "internationale",
+          "professionnel",
+          "relier"
         ]
       }
     ]
@@ -57483,92 +59603,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Dans « Portrait : Le marché de l’art fabrique-t-il la valeur artistique ? », quel détail présente la situation ?",
+            "prompt": "Complète ce détail de l’audio.\n\n“Une toile se vend à un prix record, tandis que la plupart des artistes vivants peinent à en tirer un revenu _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Une toile se vend à un prix record, tandis que la plupart des artistes vivants peinent à en tirer un revenu suffisant."
+                "text": "suffisant"
               },
               {
                 "id": "o2",
-                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+                "text": "interchangeables"
               },
               {
                 "id": "o3",
-                "text": "Les trois légitimations — critique, institutionnelle et marchande — convergeant sur un même artiste, elles produisent un effet cumulatif difficile à inverser."
+                "text": "institutionnelle"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "financiarisation"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Après « Une toile se vend à un prix record, tandis que la plupart des artistes… », que se passe-t-il ensuite dans « Portrait : Le marché de l’art fabrique-t-il la valeur artistique ? » ?",
+            "prompt": "Quel mot complète la phrase entendue ?\n\n“Une _____ sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Une toile se vend à un prix record, tandis que la plupart des artistes vivants peinent à en tirer un revenu suffisant."
+                "text": "interchangeables"
               },
               {
                 "id": "o2",
-                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+                "text": "réponse"
               },
               {
                 "id": "o3",
-                "text": "Les trois légitimations — critique, institutionnelle et marchande — convergeant sur un même artiste, elles produisent un effet cumulatif difficile à inverser."
+                "text": "institutionnelle"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "financiarisation"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Portrait : Le marché de l’art fabrique-t-il la valeur artistique ? » ?",
+            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Les trois légitimations — critique, _____ et marchande — convergeant sur un même artiste, elles produisent un effet cumulatif difficile à inverser.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Une toile se vend à un prix record, tandis que la plupart des artistes vivants peinent à en tirer un revenu suffisant."
+                "text": "fabrique-t-il"
               },
               {
                 "id": "o2",
-                "text": "Les trois légitimations — critique, institutionnelle et marchande — convergeant sur un même artiste, elles produisent un effet cumulatif difficile à inverser."
+                "text": "contemporaine"
               },
               {
                 "id": "o3",
-                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+                "text": "institutionnelle"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "régulièrement"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel résultat conclut « Portrait : Le marché de l’art fabrique-t-il la valeur artistique ? » après « Une réponse sérieuse doit distinguer ce que les données montrent, le… » ?",
+            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Une toile se vend à un prix record, tandis que la plupart des artistes vivants peinent à en tirer un revenu suffisant."
+                "text": "interchangeables"
               },
               {
                 "id": "o2",
-                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+                "text": "institutionnelle"
               },
               {
                 "id": "o3",
-                "text": "Les trois légitimations — critique, institutionnelle et marchande — convergeant sur un même artiste, elles produisent un effet cumulatif difficile à inverser."
+                "text": "financiarisation"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "relier"
               }
             ]
           }
@@ -57579,42 +59699,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Dans « Portrait : Le marché de l’art fabrique-t-il la valeur artistique ? », quel détail présente la situation ?",
+        "prompt": "Complète ce détail de l’audio.\n\n“Une toile se vend à un prix record, tandis que la plupart des artistes vivants peinent à en tirer un revenu _____.”",
         "options": [
-          "Une toile se vend à un prix record, tandis que la plupart des artistes vivants peinent à en tirer un revenu suffisant.",
-          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.",
-          "Les trois légitimations — critique, institutionnelle et marchande — convergeant sur un même artiste, elles produisent un effet cumulatif difficile à inverser.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "suffisant",
+          "interchangeables",
+          "institutionnelle",
+          "financiarisation"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Après « Une toile se vend à un prix record, tandis que la plupart des artistes… », que se passe-t-il ensuite dans « Portrait : Le marché de l’art fabrique-t-il la valeur artistique ? » ?",
+        "prompt": "Quel mot complète la phrase entendue ?\n\n“Une _____ sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.”",
         "options": [
-          "Une toile se vend à un prix record, tandis que la plupart des artistes vivants peinent à en tirer un revenu suffisant.",
-          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.",
-          "Les trois légitimations — critique, institutionnelle et marchande — convergeant sur un même artiste, elles produisent un effet cumulatif difficile à inverser.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "interchangeables",
+          "réponse",
+          "institutionnelle",
+          "financiarisation"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Portrait : Le marché de l’art fabrique-t-il la valeur artistique ? » ?",
+        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Les trois légitimations — critique, _____ et marchande — convergeant sur un même artiste, elles produisent un effet cumulatif difficile à inverser.”",
         "options": [
-          "Une toile se vend à un prix record, tandis que la plupart des artistes vivants peinent à en tirer un revenu suffisant.",
-          "Les trois légitimations — critique, institutionnelle et marchande — convergeant sur un même artiste, elles produisent un effet cumulatif difficile à inverser.",
-          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "fabrique-t-il",
+          "contemporaine",
+          "institutionnelle",
+          "régulièrement"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel résultat conclut « Portrait : Le marché de l’art fabrique-t-il la valeur artistique ? » après « Une réponse sérieuse doit distinguer ce que les données montrent, le… » ?",
+        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
         "options": [
-          "Une toile se vend à un prix record, tandis que la plupart des artistes vivants peinent à en tirer un revenu suffisant.",
-          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.",
-          "Les trois légitimations — critique, institutionnelle et marchande — convergeant sur un même artiste, elles produisent un effet cumulatif difficile à inverser.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "interchangeables",
+          "institutionnelle",
+          "financiarisation",
+          "relier"
         ]
       }
     ]
@@ -57731,38 +59851,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "french-b2-art-et-creativite-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Complète ce détail de l’audio.\n\n“Mireille crée des œuvres qui mélangent peinture, textile et enregistrements _____.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "sonores"
+              },
+              {
+                "id": "o2",
+                "text": "enregistrements"
+              },
+              {
+                "id": "o3",
+                "text": "interprétations"
+              },
+              {
+                "id": "o4",
+                "text": "conversations"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quel mot complète la phrase entendue ?\n\n“Sa préparation _____ de moins en moins solitaire : elle invite des habitants à raconter un souvenir, puis transforme certains mots en motifs visuels.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "enregistrements"
+              },
+              {
+                "id": "o2",
+                "text": "devient"
+              },
+              {
+                "id": "o3",
+                "text": "interprétations"
+              },
+              {
+                "id": "o4",
+                "text": "conversations"
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Mireille affirme que le public _____ aussi au processus.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "enregistrements"
+              },
+              {
+                "id": "o2",
+                "text": "interprétations"
+              },
+              {
+                "id": "o3",
+                "text": "participe"
+              },
+              {
+                "id": "o4",
+                "text": "conversations"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Elle considère cette ouverture non comme une faiblesse, mais comme la partie la plus vivante de sa _____.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "enregistrements"
+              },
+              {
+                "id": "o2",
+                "text": "interprétations"
+              },
+              {
+                "id": "o3",
+                "text": "conversations"
+              },
+              {
+                "id": "o4",
+                "text": "création"
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Par quoi commence le processus créatif de Mireille ?",
+        "prompt": "Complète ce détail de l’audio.\n\n“Mireille crée des œuvres qui mélangent peinture, textile et enregistrements _____.”",
         "options": [
-          "Par la vente",
-          "Par une période d’observation",
-          "Par un voyage",
-          "Par un cours"
+          "sonores",
+          "enregistrements",
+          "interprétations",
+          "conversations"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qu’est-ce qui inspire le plus Mireille ?",
+        "prompt": "Quel mot complète la phrase entendue ?\n\n“Sa préparation _____ de moins en moins solitaire : elle invite des habitants à raconter un souvenir, puis transforme certains mots en motifs visuels.”",
         "options": [
-          "La musique",
-          "Les couleurs et textures du quotidien",
-          "Les livres",
-          "Les films"
+          "enregistrements",
+          "devient",
+          "interprétations",
+          "conversations"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel type de question Camila pose-t-elle dans cet extrait ?",
+        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Mireille affirme que le public _____ aussi au processus.”",
         "options": [
-          "Des questions personnelles sans rapport",
-          "Des questions sur le processus créatif",
-          "Des questions sur le prix des œuvres",
-          "Des questions sur sa famille"
+          "enregistrements",
+          "interprétations",
+          "participe",
+          "conversations"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Elle considère cette ouverture non comme une faiblesse, mais comme la partie la plus vivante de sa _____.”",
+        "options": [
+          "enregistrements",
+          "interprétations",
+          "conversations",
+          "création"
         ]
       }
     ]
@@ -61503,92 +63730,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Que se passe-t-il au début ?",
+            "prompt": "Complète ce détail de l’audio.\n\n“Vendredi soir, la famille Lambert prépare un voyage à _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Vendredi soir, la famille Lambert prépare un voyage à Paris."
+                "text": "Paris"
               },
               {
                 "id": "o2",
-                "text": "Le train va partir de la gare de Tours à huit heures"
+                "text": "inoubliable"
               },
               {
                 "id": "o3",
-                "text": "Dimanche, il va faire beau et il y aura du soleil."
+                "text": "parapluie"
               },
               {
                 "id": "o4",
-                "text": "Camila pense que ce voyage va être inoubliable."
+                "text": "reprendre"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Que fait la personne ensuite ?",
+            "prompt": "Quel mot complète la phrase entendue ?\n\n“Le train va partir de la gare de _____ à huit heures et va arriver à Paris avant midi.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Vendredi soir, la famille Lambert prépare un voyage à Paris."
+                "text": "inoubliable"
               },
               {
                 "id": "o2",
-                "text": "Le train va partir de la gare de Tours à huit heures"
+                "text": "Tours"
               },
               {
                 "id": "o3",
-                "text": "Dimanche, il va faire beau et il y aura du soleil."
+                "text": "parapluie"
               },
               {
                 "id": "o4",
-                "text": "Camila pense que ce voyage va être inoubliable."
+                "text": "reprendre"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Quel autre détail est correct ?",
+            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Dimanche, il va faire beau et il y aura du _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Vendredi soir, la famille Lambert prépare un voyage à Paris."
+                "text": "inoubliable"
               },
               {
                 "id": "o2",
-                "text": "Le train va partir de la gare de Tours à huit heures"
+                "text": "met"
               },
               {
                 "id": "o3",
-                "text": "Dimanche, il va faire beau et il y aura du soleil."
+                "text": "soleil"
               },
               {
                 "id": "o4",
-                "text": "Camila pense que ce voyage va être inoubliable."
+                "text": "parapluie"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Que se passe-t-il à la fin ?",
+            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Camila pense que ce voyage va être _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Vendredi soir, la famille Lambert prépare un voyage à Paris."
+                "text": "Vendredi"
               },
               {
                 "id": "o2",
-                "text": "Le train va partir de la gare de Tours à huit heures"
+                "text": "pleuvoir"
               },
               {
                 "id": "o3",
-                "text": "Dimanche, il va faire beau et il y aura du soleil."
+                "text": "Dimanche"
               },
               {
                 "id": "o4",
-                "text": "Camila pense que ce voyage va être inoubliable."
+                "text": "inoubliable"
               }
             ]
           }
@@ -61599,42 +63826,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Que se passe-t-il au début ?",
+        "prompt": "Complète ce détail de l’audio.\n\n“Vendredi soir, la famille Lambert prépare un voyage à _____.”",
         "options": [
-          "Vendredi soir, la famille Lambert prépare un voyage à Paris.",
-          "Le train va partir de la gare de Tours à huit heures",
-          "Dimanche, il va faire beau et il y aura du soleil.",
-          "Camila pense que ce voyage va être inoubliable."
+          "Paris",
+          "inoubliable",
+          "parapluie",
+          "reprendre"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Que fait la personne ensuite ?",
+        "prompt": "Quel mot complète la phrase entendue ?\n\n“Le train va partir de la gare de _____ à huit heures et va arriver à Paris avant midi.”",
         "options": [
-          "Vendredi soir, la famille Lambert prépare un voyage à Paris.",
-          "Le train va partir de la gare de Tours à huit heures",
-          "Dimanche, il va faire beau et il y aura du soleil.",
-          "Camila pense que ce voyage va être inoubliable."
+          "inoubliable",
+          "Tours",
+          "parapluie",
+          "reprendre"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel autre détail est correct ?",
+        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Dimanche, il va faire beau et il y aura du _____.”",
         "options": [
-          "Vendredi soir, la famille Lambert prépare un voyage à Paris.",
-          "Le train va partir de la gare de Tours à huit heures",
-          "Dimanche, il va faire beau et il y aura du soleil.",
-          "Camila pense que ce voyage va être inoubliable."
+          "inoubliable",
+          "met",
+          "soleil",
+          "parapluie"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Que se passe-t-il à la fin ?",
+        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Camila pense que ce voyage va être _____.”",
         "options": [
-          "Vendredi soir, la famille Lambert prépare un voyage à Paris.",
-          "Le train va partir de la gare de Tours à huit heures",
-          "Dimanche, il va faire beau et il y aura du soleil.",
-          "Camila pense que ce voyage va être inoubliable."
+          "Vendredi",
+          "pleuvoir",
+          "Dimanche",
+          "inoubliable"
         ]
       }
     ]
@@ -61728,92 +63955,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Dans « Appel aux bénévoles », quel détail présente la situation ?",
+            "prompt": "Complète ce détail de l’audio.\n\n“Bonjour à _____ et à tous.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Bonjour à toutes et à tous."
+                "text": "toutes"
               },
               {
                 "id": "o2",
-                "text": "Vous pourriez apporter vos dons entre neuf heures et quinze heures."
+                "text": "L’association"
               },
               {
                 "id": "o3",
-                "text": "Si vous souhaitez aider, pourriez-vous vous inscrire avant jeudi sur notre site ou par téléphone ?"
+                "text": "pourriez-vous"
               },
               {
                 "id": "o4",
-                "text": "Merci de votre participation et rendez-vous samedi au centre culturel."
+                "text": "participation"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Après « Bonjour à toutes et à tous. », que se passe-t-il ensuite dans « Appel aux bénévoles » ?",
+            "prompt": "Quel mot complète la phrase entendue ?\n\n“Vous pourriez _____ vos dons entre neuf heures et quinze heures.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Bonjour à toutes et à tous."
+                "text": "L’association"
               },
               {
                 "id": "o2",
-                "text": "Vous pourriez apporter vos dons entre neuf heures et quinze heures."
+                "text": "apporter"
               },
               {
                 "id": "o3",
-                "text": "Si vous souhaitez aider, pourriez-vous vous inscrire avant jeudi sur notre site ou par téléphone ?"
+                "text": "pourriez-vous"
               },
               {
                 "id": "o4",
-                "text": "Merci de votre participation et rendez-vous samedi au centre culturel."
+                "text": "participation"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Appel aux bénévoles » ?",
+            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Si vous souhaitez aider, pourriez-vous vous inscrire avant jeudi sur notre site ou par _____ ?”",
             "options": [
               {
                 "id": "o1",
-                "text": "Bonjour à toutes et à tous."
+                "text": "L’association"
               },
               {
                 "id": "o2",
-                "text": "Vous pourriez apporter vos dons entre neuf heures et quinze heures."
+                "text": "pourriez-vous"
               },
               {
                 "id": "o3",
-                "text": "Nous avons également besoin de bénévoles pour accueillir les participants, trier les dons et préparer les cartons."
+                "text": "téléphone"
               },
               {
                 "id": "o4",
-                "text": "Si vous souhaitez aider, pourriez-vous vous inscrire avant jeudi sur notre site ou par téléphone ?"
+                "text": "participation"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel résultat conclut « Appel aux bénévoles » après « Nous avons également besoin de bénévoles pour accueillir les… » ?",
+            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Merci de votre participation et rendez-vous samedi au centre _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Bonjour à toutes et à tous."
+                "text": "L’association"
               },
               {
                 "id": "o2",
-                "text": "Vous pourriez apporter vos dons entre neuf heures et quinze heures."
+                "text": "pourriez-vous"
               },
               {
                 "id": "o3",
-                "text": "Si vous souhaitez aider, pourriez-vous vous inscrire avant jeudi sur notre site ou par téléphone ?"
+                "text": "participation"
               },
               {
                 "id": "o4",
-                "text": "Merci de votre participation et rendez-vous samedi au centre culturel."
+                "text": "culturel"
               }
             ]
           }
@@ -61824,42 +64051,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Dans « Appel aux bénévoles », quel détail présente la situation ?",
+        "prompt": "Complète ce détail de l’audio.\n\n“Bonjour à _____ et à tous.”",
         "options": [
-          "Bonjour à toutes et à tous.",
-          "Vous pourriez apporter vos dons entre neuf heures et quinze heures.",
-          "Si vous souhaitez aider, pourriez-vous vous inscrire avant jeudi sur notre site ou par téléphone ?",
-          "Merci de votre participation et rendez-vous samedi au centre culturel."
+          "toutes",
+          "L’association",
+          "pourriez-vous",
+          "participation"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Après « Bonjour à toutes et à tous. », que se passe-t-il ensuite dans « Appel aux bénévoles » ?",
+        "prompt": "Quel mot complète la phrase entendue ?\n\n“Vous pourriez _____ vos dons entre neuf heures et quinze heures.”",
         "options": [
-          "Bonjour à toutes et à tous.",
-          "Vous pourriez apporter vos dons entre neuf heures et quinze heures.",
-          "Si vous souhaitez aider, pourriez-vous vous inscrire avant jeudi sur notre site ou par téléphone ?",
-          "Merci de votre participation et rendez-vous samedi au centre culturel."
+          "L’association",
+          "apporter",
+          "pourriez-vous",
+          "participation"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Appel aux bénévoles » ?",
+        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Si vous souhaitez aider, pourriez-vous vous inscrire avant jeudi sur notre site ou par _____ ?”",
         "options": [
-          "Bonjour à toutes et à tous.",
-          "Vous pourriez apporter vos dons entre neuf heures et quinze heures.",
-          "Nous avons également besoin de bénévoles pour accueillir les participants, trier les dons et préparer les cartons.",
-          "Si vous souhaitez aider, pourriez-vous vous inscrire avant jeudi sur notre site ou par téléphone ?"
+          "L’association",
+          "pourriez-vous",
+          "téléphone",
+          "participation"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel résultat conclut « Appel aux bénévoles » après « Nous avons également besoin de bénévoles pour accueillir les… » ?",
+        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Merci de votre participation et rendez-vous samedi au centre _____.”",
         "options": [
-          "Bonjour à toutes et à tous.",
-          "Vous pourriez apporter vos dons entre neuf heures et quinze heures.",
-          "Si vous souhaitez aider, pourriez-vous vous inscrire avant jeudi sur notre site ou par téléphone ?",
-          "Merci de votre participation et rendez-vous samedi au centre culturel."
+          "L’association",
+          "pourriez-vous",
+          "participation",
+          "culturel"
         ]
       }
     ]
@@ -61979,92 +64206,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Dans « Synthèse : Ce qu’un parcours d’intégration donne à transmettre », quel détail présente la situation ?",
+            "prompt": "Complète ce détail de l’audio.\n\n“Selon l’agence Campus France, plus de quatre cent mille étudiants internationaux ont été accueillis dans l’enseignement supérieur français lors d’une récente année universitaire — un chiffre en constante progression, qui explique la multiplication, dans de nombreuses universités, d’ateliers animés par d’anciens étudiants mobiles à destination des nouveaux _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Selon l’agence Campus France, plus de quatre cent mille étudiants internationaux ont été accueillis dans l’enseignement supérieur français lors d’une récente année universitaire — un chiffre en constante progression, qui explique la multiplication, dans de nombreuses universités, d’ateliers animés par d’anciens étudiants mobiles à destination des nouveaux arrivants."
+                "text": "arrivants"
               },
               {
                 "id": "o2",
-                "text": "Le mot réussite suggère un parcours mesurable et presque uniforme, alors que l’expérience de la mobilité internationale est le plus souvent faite d’avancées, de retours en arrière et de liens qui ne se laissent pas réduire à une méthode."
+                "text": "l’administration"
               },
               {
                 "id": "o3",
-                "text": "Une ancienne étudiante mobile relit son parcours, puis elle en dégage une idée : celui-ci n’a jamais été uniforme."
+                "text": "internationaux"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "l’enseignement"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Après « Selon l’agence Campus France, plus de quatre cent mille étudiants… », que se passe-t-il ensuite dans « Synthèse : Ce qu’un parcours d’intégration donne à transmettre » ?",
+            "prompt": "Quel mot complète la phrase entendue ?\n\n“Le mot réussite _____ un parcours mesurable et presque uniforme, alors que l’expérience de la mobilité internationale est le plus souvent faite d’avancées, de retours en arrière et de liens qui ne se laissent pas réduire à une méthode.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Selon l’agence Campus France, plus de quatre cent mille étudiants internationaux ont été accueillis dans l’enseignement supérieur français lors d’une récente année universitaire — un chiffre en constante progression, qui explique la multiplication, dans de nombreuses universités, d’ateliers animés par d’anciens étudiants mobiles à destination des nouveaux arrivants."
+                "text": "l’administration"
               },
               {
                 "id": "o2",
-                "text": "Le mot réussite suggère un parcours mesurable et presque uniforme, alors que l’expérience de la mobilité internationale est le plus souvent faite d’avancées, de retours en arrière et de liens qui ne se laissent pas réduire à une méthode."
+                "text": "suggère"
               },
               {
                 "id": "o3",
-                "text": "Une ancienne étudiante mobile relit son parcours, puis elle en dégage une idée : celui-ci n’a jamais été uniforme."
+                "text": "internationaux"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "l’enseignement"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Synthèse : Ce qu’un parcours d’intégration donne à transmettre » ?",
+            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Une ancienne étudiante _____ relit son parcours, puis elle en dégage une idée : celui-ci n’a jamais été uniforme.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Selon l’agence Campus France, plus de quatre cent mille étudiants internationaux ont été accueillis dans l’enseignement supérieur français lors d’une récente année universitaire — un chiffre en constante progression, qui explique la multiplication, dans de nombreuses universités, d’ateliers animés par d’anciens étudiants mobiles à destination des nouveaux arrivants."
+                "text": "l’administration"
               },
               {
                 "id": "o2",
-                "text": "Le mot réussite suggère un parcours mesurable et presque uniforme, alors que l’expérience de la mobilité internationale est le plus souvent faite d’avancées, de retours en arrière et de liens qui ne se laissent pas réduire à une méthode."
+                "text": "internationaux"
               },
               {
                 "id": "o3",
-                "text": "Ces intervenants hésitent fréquemment devant le titre proposé par l’administration : « Réussir son intégration »."
+                "text": "mobile"
               },
               {
                 "id": "o4",
-                "text": "Une ancienne étudiante mobile relit son parcours, puis elle en dégage une idée : celui-ci n’a jamais été uniforme."
+                "text": "l’enseignement"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel résultat conclut « Synthèse : Ce qu’un parcours d’intégration donne à transmettre » après « Ces intervenants hésitent fréquemment devant le titre proposé par… » ?",
+            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Selon l’agence Campus France, plus de quatre cent mille étudiants internationaux ont été accueillis dans l’enseignement supérieur français lors d’une récente année universitaire — un chiffre en constante progression, qui explique la multiplication, dans de nombreuses universités, d’ateliers animés par d’anciens étudiants mobiles à destination des nouveaux arrivants."
+                "text": "l’administration"
               },
               {
                 "id": "o2",
-                "text": "Le mot réussite suggère un parcours mesurable et presque uniforme, alors que l’expérience de la mobilité internationale est le plus souvent faite d’avancées, de retours en arrière et de liens qui ne se laissent pas réduire à une méthode."
+                "text": "internationaux"
               },
               {
                 "id": "o3",
-                "text": "Une ancienne étudiante mobile relit son parcours, puis elle en dégage une idée : celui-ci n’a jamais été uniforme."
+                "text": "l’enseignement"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "relier"
               }
             ]
           }
@@ -62075,42 +64302,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Dans « Synthèse : Ce qu’un parcours d’intégration donne à transmettre », quel détail présente la situation ?",
+        "prompt": "Complète ce détail de l’audio.\n\n“Selon l’agence Campus France, plus de quatre cent mille étudiants internationaux ont été accueillis dans l’enseignement supérieur français lors d’une récente année universitaire — un chiffre en constante progression, qui explique la multiplication, dans de nombreuses universités, d’ateliers animés par d’anciens étudiants mobiles à destination des nouveaux _____.”",
         "options": [
-          "Selon l’agence Campus France, plus de quatre cent mille étudiants internationaux ont été accueillis dans l’enseignement supérieur français lors d’une récente année universitaire — un chiffre en constante progression, qui explique la multiplication, dans de nombreuses universités, d’ateliers animés par d’anciens étudiants mobiles à destination des nouveaux arrivants.",
-          "Le mot réussite suggère un parcours mesurable et presque uniforme, alors que l’expérience de la mobilité internationale est le plus souvent faite d’avancées, de retours en arrière et de liens qui ne se laissent pas réduire à une méthode.",
-          "Une ancienne étudiante mobile relit son parcours, puis elle en dégage une idée : celui-ci n’a jamais été uniforme.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "arrivants",
+          "l’administration",
+          "internationaux",
+          "l’enseignement"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Après « Selon l’agence Campus France, plus de quatre cent mille étudiants… », que se passe-t-il ensuite dans « Synthèse : Ce qu’un parcours d’intégration donne à transmettre » ?",
+        "prompt": "Quel mot complète la phrase entendue ?\n\n“Le mot réussite _____ un parcours mesurable et presque uniforme, alors que l’expérience de la mobilité internationale est le plus souvent faite d’avancées, de retours en arrière et de liens qui ne se laissent pas réduire à une méthode.”",
         "options": [
-          "Selon l’agence Campus France, plus de quatre cent mille étudiants internationaux ont été accueillis dans l’enseignement supérieur français lors d’une récente année universitaire — un chiffre en constante progression, qui explique la multiplication, dans de nombreuses universités, d’ateliers animés par d’anciens étudiants mobiles à destination des nouveaux arrivants.",
-          "Le mot réussite suggère un parcours mesurable et presque uniforme, alors que l’expérience de la mobilité internationale est le plus souvent faite d’avancées, de retours en arrière et de liens qui ne se laissent pas réduire à une méthode.",
-          "Une ancienne étudiante mobile relit son parcours, puis elle en dégage une idée : celui-ci n’a jamais été uniforme.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "l’administration",
+          "suggère",
+          "internationaux",
+          "l’enseignement"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Synthèse : Ce qu’un parcours d’intégration donne à transmettre » ?",
+        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Une ancienne étudiante _____ relit son parcours, puis elle en dégage une idée : celui-ci n’a jamais été uniforme.”",
         "options": [
-          "Selon l’agence Campus France, plus de quatre cent mille étudiants internationaux ont été accueillis dans l’enseignement supérieur français lors d’une récente année universitaire — un chiffre en constante progression, qui explique la multiplication, dans de nombreuses universités, d’ateliers animés par d’anciens étudiants mobiles à destination des nouveaux arrivants.",
-          "Le mot réussite suggère un parcours mesurable et presque uniforme, alors que l’expérience de la mobilité internationale est le plus souvent faite d’avancées, de retours en arrière et de liens qui ne se laissent pas réduire à une méthode.",
-          "Ces intervenants hésitent fréquemment devant le titre proposé par l’administration : « Réussir son intégration ».",
-          "Une ancienne étudiante mobile relit son parcours, puis elle en dégage une idée : celui-ci n’a jamais été uniforme."
+          "l’administration",
+          "internationaux",
+          "mobile",
+          "l’enseignement"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel résultat conclut « Synthèse : Ce qu’un parcours d’intégration donne à transmettre » après « Ces intervenants hésitent fréquemment devant le titre proposé par… » ?",
+        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
         "options": [
-          "Selon l’agence Campus France, plus de quatre cent mille étudiants internationaux ont été accueillis dans l’enseignement supérieur français lors d’une récente année universitaire — un chiffre en constante progression, qui explique la multiplication, dans de nombreuses universités, d’ateliers animés par d’anciens étudiants mobiles à destination des nouveaux arrivants.",
-          "Le mot réussite suggère un parcours mesurable et presque uniforme, alors que l’expérience de la mobilité internationale est le plus souvent faite d’avancées, de retours en arrière et de liens qui ne se laissent pas réduire à une méthode.",
-          "Une ancienne étudiante mobile relit son parcours, puis elle en dégage une idée : celui-ci n’a jamais été uniforme.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "l’administration",
+          "internationaux",
+          "l’enseignement",
+          "relier"
         ]
       }
     ]
@@ -62245,92 +64472,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Dans « Synthèse : Un algorithme peut-il être neutre ? », quel détail présente la situation ?",
+            "prompt": "Complète ce détail de l’audio.\n\n“Un algorithme paraît neutre parce qu’il calcule ; pourtant chaque variable qu’il retient _____ déjà un choix qui ne l’est pas.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Un algorithme paraît neutre parce qu’il calcule ; pourtant chaque variable qu’il retient traduit déjà un choix qui ne l’est pas."
+                "text": "traduit"
               },
               {
                 "id": "o2",
-                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+                "text": "conséquentialisme"
               },
               {
                 "id": "o3",
-                "text": "Il se pourrait qu’un système paraisse neutre alors même qu’il encoderait une hiérarchie de valeurs à travers le choix d’un simple proxy."
+                "text": "interchangeables"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "progressivement"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Après « Un algorithme paraît neutre parce qu’il calcule ; pourtant chaque… », que se passe-t-il ensuite dans « Synthèse : Un algorithme peut-il être neutre ? » ?",
+            "prompt": "Quel mot complète la phrase entendue ?\n\n“Une _____ sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Un algorithme paraît neutre parce qu’il calcule ; pourtant chaque variable qu’il retient traduit déjà un choix qui ne l’est pas."
+                "text": "conséquentialisme"
               },
               {
                 "id": "o2",
-                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+                "text": "réponse"
               },
               {
                 "id": "o3",
-                "text": "Il se pourrait qu’un système paraisse neutre alors même qu’il encoderait une hiérarchie de valeurs à travers le choix d’un simple proxy."
+                "text": "interchangeables"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "progressivement"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Synthèse : Un algorithme peut-il être neutre ? » ?",
+            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Il se pourrait qu’un système paraisse _____ alors même qu’il encoderait une hiérarchie de valeurs à travers le choix d’un simple proxy.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Un algorithme paraît neutre parce qu’il calcule ; pourtant chaque variable qu’il retient traduit déjà un choix qui ne l’est pas."
+                "text": "conséquentialisme"
               },
               {
                 "id": "o2",
-                "text": "Il se pourrait qu’un système paraisse neutre alors même qu’il encoderait une hiérarchie de valeurs à travers le choix d’un simple proxy."
+                "text": "interchangeables"
               },
               {
                 "id": "o3",
-                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+                "text": "neutre"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "progressivement"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel résultat conclut « Synthèse : Un algorithme peut-il être neutre ? » après « Une réponse sérieuse doit distinguer ce que les données montrent, le… » ?",
+            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Un algorithme paraît neutre parce qu’il calcule ; pourtant chaque variable qu’il retient traduit déjà un choix qui ne l’est pas."
+                "text": "conséquentialisme"
               },
               {
                 "id": "o2",
-                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
+                "text": "interchangeables"
               },
               {
                 "id": "o3",
-                "text": "Il se pourrait qu’un système paraisse neutre alors même qu’il encoderait une hiérarchie de valeurs à travers le choix d’un simple proxy."
+                "text": "progressivement"
               },
               {
                 "id": "o4",
-                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
+                "text": "relier"
               }
             ]
           }
@@ -62341,42 +64568,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Dans « Synthèse : Un algorithme peut-il être neutre ? », quel détail présente la situation ?",
+        "prompt": "Complète ce détail de l’audio.\n\n“Un algorithme paraît neutre parce qu’il calcule ; pourtant chaque variable qu’il retient _____ déjà un choix qui ne l’est pas.”",
         "options": [
-          "Un algorithme paraît neutre parce qu’il calcule ; pourtant chaque variable qu’il retient traduit déjà un choix qui ne l’est pas.",
-          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.",
-          "Il se pourrait qu’un système paraisse neutre alors même qu’il encoderait une hiérarchie de valeurs à travers le choix d’un simple proxy.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "traduit",
+          "conséquentialisme",
+          "interchangeables",
+          "progressivement"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Après « Un algorithme paraît neutre parce qu’il calcule ; pourtant chaque… », que se passe-t-il ensuite dans « Synthèse : Un algorithme peut-il être neutre ? » ?",
+        "prompt": "Quel mot complète la phrase entendue ?\n\n“Une _____ sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.”",
         "options": [
-          "Un algorithme paraît neutre parce qu’il calcule ; pourtant chaque variable qu’il retient traduit déjà un choix qui ne l’est pas.",
-          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.",
-          "Il se pourrait qu’un système paraisse neutre alors même qu’il encoderait une hiérarchie de valeurs à travers le choix d’un simple proxy.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "conséquentialisme",
+          "réponse",
+          "interchangeables",
+          "progressivement"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Synthèse : Un algorithme peut-il être neutre ? » ?",
+        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Il se pourrait qu’un système paraisse _____ alors même qu’il encoderait une hiérarchie de valeurs à travers le choix d’un simple proxy.”",
         "options": [
-          "Un algorithme paraît neutre parce qu’il calcule ; pourtant chaque variable qu’il retient traduit déjà un choix qui ne l’est pas.",
-          "Il se pourrait qu’un système paraisse neutre alors même qu’il encoderait une hiérarchie de valeurs à travers le choix d’un simple proxy.",
-          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "conséquentialisme",
+          "interchangeables",
+          "neutre",
+          "progressivement"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel résultat conclut « Synthèse : Un algorithme peut-il être neutre ? » après « Une réponse sérieuse doit distinguer ce que les données montrent, le… » ?",
+        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
         "options": [
-          "Un algorithme paraît neutre parce qu’il calcule ; pourtant chaque variable qu’il retient traduit déjà un choix qui ne l’est pas.",
-          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.",
-          "Il se pourrait qu’un système paraisse neutre alors même qu’il encoderait une hiérarchie de valeurs à travers le choix d’un simple proxy.",
-          "Ce cadre permet enfin de relier les faits à une décision argumentée."
+          "conséquentialisme",
+          "interchangeables",
+          "progressivement",
+          "relier"
         ]
       }
     ]
@@ -62483,38 +64710,145 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "grammarTest": null,
-      "listeningComprehension": null
+      "listeningComprehension": {
+        "id": "french-b2-bilan-et-projets-davenir-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Complète ce détail de l’audio.\n\n“Avec le recul, je mesure moins mon parcours par les résultats obtenus que par les décisions qui m’ont _____.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "transformée"
+              },
+              {
+                "id": "o2",
+                "text": "accomplissements"
+              },
+              {
+                "id": "o3",
+                "text": "parcours"
+              },
+              {
+                "id": "o4",
+                "text": "ailleurs"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quel mot complète la phrase entendue ?\n\n“Certains _____ sont visibles, comme un diplôme ou un projet terminé.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "d’incertitude"
+              },
+              {
+                "id": "o2",
+                "text": "accomplissements"
+              },
+              {
+                "id": "o3",
+                "text": "détermination"
+              },
+              {
+                "id": "o4",
+                "text": "recul"
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Aujourd’hui, je suis déterminée à poursuivre mes _____, mais je ne veux plus confondre détermination et rigidité.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "accomplissements"
+              },
+              {
+                "id": "o2",
+                "text": "d’incertitude"
+              },
+              {
+                "id": "o3",
+                "text": "études"
+              },
+              {
+                "id": "o4",
+                "text": "détermination"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Il ressemble plutôt à un point de départ conscient : je sais mieux ce que j’ai construit, ce qui reste _____ et la direction dans laquelle je souhaite avancer.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "accomplissements"
+              },
+              {
+                "id": "o2",
+                "text": "d’incertitude"
+              },
+              {
+                "id": "o3",
+                "text": "détermination"
+              },
+              {
+                "id": "o4",
+                "text": "fragile"
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Quelle nouvelle Camila annonce-t-elle ?",
+        "prompt": "Complète ce détail de l’audio.\n\n“Avec le recul, je mesure moins mon parcours par les résultats obtenus que par les décisions qui m’ont _____.”",
         "options": [
-          "Qu’elle déménage",
-          "Qu’elle est acceptée à l’université de Tours",
-          "Qu’elle change de métier",
-          "Qu’elle part en vacances"
+          "transformée",
+          "accomplissements",
+          "parcours",
+          "ailleurs"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Comment réagit Léa ?",
+        "prompt": "Quel mot complète la phrase entendue ?\n\n“Certains _____ sont visibles, comme un diplôme ou un projet terminé.”",
         "options": [
-          "Avec indifférence",
-          "Avec une grande joie",
-          "Avec tristesse",
-          "Avec surprise négative"
+          "d’incertitude",
+          "accomplissements",
+          "détermination",
+          "recul"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Que se réjouit de faire Karim ?",
+        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Aujourd’hui, je suis déterminée à poursuivre mes _____, mais je ne veux plus confondre détermination et rigidité.”",
         "options": [
-          "De déménager lui-même",
-          "De revoir Camila en vrai",
-          "De ne plus lui parler",
-          "De changer d’université"
+          "accomplissements",
+          "d’incertitude",
+          "études",
+          "détermination"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Il ressemble plutôt à un point de départ conscient : je sais mieux ce que j’ai construit, ce qui reste _____ et la direction dans laquelle je souhaite avancer.”",
+        "options": [
+          "accomplissements",
+          "d’incertitude",
+          "détermination",
+          "fragile"
         ]
       }
     ]

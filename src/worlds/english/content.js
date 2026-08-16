@@ -1063,92 +1063,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In “Nice to Meet You”, which detail establishes the situation?",
+            "prompt": "Complete this detail from the audio.\n\n“_____!”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hello!"
+                "text": "Hello"
               },
               {
                 "id": "o2",
-                "text": "I feel a little nervous, but I am also excited."
+                "text": "Dominican"
               },
               {
                 "id": "o3",
-                "text": "Leo is from Italy."
+                "text": "classroom"
               },
               {
                 "id": "o4",
-                "text": "At the end, we say, “Nice to meet you” and “See you tomorrow."
+                "text": "countries"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Hello!”, what happens next in “Nice to Meet You”?",
+            "prompt": "Which word completes the sentence you hear?\n\n“I feel a little _____, but I am also excited.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hello!"
+                "text": "name"
               },
               {
                 "id": "o2",
-                "text": "I feel a little nervous, but I am also excited."
+                "text": "nervous"
               },
               {
                 "id": "o3",
-                "text": "Leo is from Italy."
+                "text": "feel"
               },
               {
                 "id": "o4",
-                "text": "At the end, we say, “Nice to meet you” and “See you tomorrow."
+                "text": "also"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in “Nice to Meet You”?",
+            "prompt": "Choose the missing word from the recording.\n\n“Leo is from _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hello!"
+                "text": "Dominican"
               },
               {
                 "id": "o2",
-                "text": "I feel a little nervous, but I am also excited."
+                "text": "classroom"
               },
               {
                 "id": "o3",
-                "text": "Leo is from Italy."
+                "text": "Italy"
               },
               {
                 "id": "o4",
-                "text": "At the end, we say, “Nice to meet you” and “See you tomorrow."
+                "text": "countries"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Nice to Meet You” after “Leo is from Italy.”?",
+            "prompt": "What is the exact missing word in this audio detail?\n\n“At the end, we say, “Nice to meet you” and “See you _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hello!"
+                "text": "Hello"
               },
               {
                 "id": "o2",
-                "text": "I feel a little nervous, but I am also excited."
+                "text": "years"
               },
               {
                 "id": "o3",
-                "text": "Leo is from Italy."
+                "text": "Today"
               },
               {
                 "id": "o4",
-                "text": "At the end, we say, “Nice to meet you” and “See you tomorrow."
+                "text": "tomorrow"
               }
             ]
           }
@@ -1159,42 +1159,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In “Nice to Meet You”, which detail establishes the situation?",
+        "prompt": "Complete this detail from the audio.\n\n“_____!”",
         "options": [
-          "Hello!",
-          "I feel a little nervous, but I am also excited.",
-          "Leo is from Italy.",
-          "At the end, we say, “Nice to meet you” and “See you tomorrow."
+          "Hello",
+          "Dominican",
+          "classroom",
+          "countries"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Hello!”, what happens next in “Nice to Meet You”?",
+        "prompt": "Which word completes the sentence you hear?\n\n“I feel a little _____, but I am also excited.”",
         "options": [
-          "Hello!",
-          "I feel a little nervous, but I am also excited.",
-          "Leo is from Italy.",
-          "At the end, we say, “Nice to meet you” and “See you tomorrow."
+          "name",
+          "nervous",
+          "feel",
+          "also"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in “Nice to Meet You”?",
+        "prompt": "Choose the missing word from the recording.\n\n“Leo is from _____.”",
         "options": [
-          "Hello!",
-          "I feel a little nervous, but I am also excited.",
-          "Leo is from Italy.",
-          "At the end, we say, “Nice to meet you” and “See you tomorrow."
+          "Dominican",
+          "classroom",
+          "Italy",
+          "countries"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Nice to Meet You” after “Leo is from Italy.”?",
+        "prompt": "What is the exact missing word in this audio detail?\n\n“At the end, we say, “Nice to meet you” and “See you _____.”",
         "options": [
-          "Hello!",
-          "I feel a little nervous, but I am also excited.",
-          "Leo is from Italy.",
-          "At the end, we say, “Nice to meet you” and “See you tomorrow."
+          "Hello",
+          "years",
+          "Today",
+          "tomorrow"
         ]
       }
     ]
@@ -1325,92 +1325,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In “A Busy Weekday”, which detail establishes the situation?",
+            "prompt": "Complete this detail from the audio.\n\n“Daniel has a very busy _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Daniel has a very busy weekday."
+                "text": "weekday"
               },
               {
                 "id": "o2",
-                "text": "He usually takes the train because the traffic is heavy in the morning."
+                "text": "very"
               },
               {
                 "id": "o3",
-                "text": "After work, Daniel sometimes goes to the gym, but on Tuesdays he takes an English class."
+                "text": "busy"
               },
               {
                 "id": "o4",
-                "text": "He usually goes to bed before eleven."
+                "text": "work"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Daniel has a very busy weekday.”, what happens next in “A Busy Weekday”?",
+            "prompt": "Which word completes the sentence you hear?\n\n“He usually takes the train because the _____ is heavy in the morning.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Daniel has a very busy weekday."
+                "text": "very"
               },
               {
                 "id": "o2",
-                "text": "He usually takes the train because the traffic is heavy in the morning."
+                "text": "traffic"
               },
               {
                 "id": "o3",
-                "text": "After work, Daniel sometimes goes to the gym, but on Tuesdays he takes an English class."
+                "text": "busy"
               },
               {
                 "id": "o4",
-                "text": "He usually goes to bed before eleven."
+                "text": "work"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in “A Busy Weekday”?",
+            "prompt": "Choose the missing word from the recording.\n\n“After work, Daniel sometimes goes to the gym, but on Tuesdays he takes an _____ class.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Daniel has a very busy weekday."
+                "text": "very"
               },
               {
                 "id": "o2",
-                "text": "After work, Daniel sometimes goes to the gym, but on Tuesdays he takes an English class."
+                "text": "busy"
               },
               {
                 "id": "o3",
-                "text": "He usually takes the train because the traffic is heavy in the morning."
+                "text": "English"
               },
               {
                 "id": "o4",
-                "text": "He usually goes to bed before eleven."
+                "text": "work"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “A Busy Weekday” after “He usually takes the train because the traffic is heavy in the morning.”?",
+            "prompt": "What is the exact missing word in this audio detail?\n\n“He usually goes to bed before _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Daniel has a very busy weekday."
+                "text": "has"
               },
               {
                 "id": "o2",
-                "text": "He usually takes the train because the traffic is heavy in the morning."
+                "text": "six"
               },
               {
                 "id": "o3",
-                "text": "After work, Daniel sometimes goes to the gym, but on Tuesdays he takes an English class."
+                "text": "breakfast"
               },
               {
                 "id": "o4",
-                "text": "He usually goes to bed before eleven."
+                "text": "eleven"
               }
             ]
           }
@@ -1421,42 +1421,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In “A Busy Weekday”, which detail establishes the situation?",
+        "prompt": "Complete this detail from the audio.\n\n“Daniel has a very busy _____.”",
         "options": [
-          "Daniel has a very busy weekday.",
-          "He usually takes the train because the traffic is heavy in the morning.",
-          "After work, Daniel sometimes goes to the gym, but on Tuesdays he takes an English class.",
-          "He usually goes to bed before eleven."
+          "weekday",
+          "very",
+          "busy",
+          "work"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Daniel has a very busy weekday.”, what happens next in “A Busy Weekday”?",
+        "prompt": "Which word completes the sentence you hear?\n\n“He usually takes the train because the _____ is heavy in the morning.”",
         "options": [
-          "Daniel has a very busy weekday.",
-          "He usually takes the train because the traffic is heavy in the morning.",
-          "After work, Daniel sometimes goes to the gym, but on Tuesdays he takes an English class.",
-          "He usually goes to bed before eleven."
+          "very",
+          "traffic",
+          "busy",
+          "work"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in “A Busy Weekday”?",
+        "prompt": "Choose the missing word from the recording.\n\n“After work, Daniel sometimes goes to the gym, but on Tuesdays he takes an _____ class.”",
         "options": [
-          "Daniel has a very busy weekday.",
-          "After work, Daniel sometimes goes to the gym, but on Tuesdays he takes an English class.",
-          "He usually takes the train because the traffic is heavy in the morning.",
-          "He usually goes to bed before eleven."
+          "very",
+          "busy",
+          "English",
+          "work"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “A Busy Weekday” after “He usually takes the train because the traffic is heavy in the morning.”?",
+        "prompt": "What is the exact missing word in this audio detail?\n\n“He usually goes to bed before _____.”",
         "options": [
-          "Daniel has a very busy weekday.",
-          "He usually takes the train because the traffic is heavy in the morning.",
-          "After work, Daniel sometimes goes to the gym, but on Tuesdays he takes an English class.",
-          "He usually goes to bed before eleven."
+          "has",
+          "six",
+          "breakfast",
+          "eleven"
         ]
       }
     ]
@@ -1596,92 +1596,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces “The Silent Return of Untreatable Infections”?",
+            "prompt": "Complete this detail from the audio.\n\n“Antibiotics have transformed modern medicine, yet their effectiveness cannot be taken for _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Antibiotics have transformed modern medicine, yet their effectiveness cannot be taken for granted."
+                "text": "granted"
               },
               {
                 "id": "o2",
-                "text": "Overuse is part of the explanation, but individual patients are not the only actors."
+                "text": "effectiveness"
               },
               {
                 "id": "o3",
-                "text": "Restricting medicine without improving access would be equally dangerous, since many people still cannot obtain the treatment they genuinely need."
+                "text": "Antimicrobial"
               },
               {
                 "id": "o4",
-                "text": "What matters is whether health systems can detect change early, share evidence, prevent infection, and treat existing medicines as a common resource rather than an unlimited convenience."
+                "text": "surveillance"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows “Antibiotics have transformed modern medicine, yet their effectiveness…” in “The Silent Return of Untreatable Infections”?",
+            "prompt": "Which word completes the sentence you hear?\n\n“Overuse is part of the _____, but individual patients are not the only actors.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Antibiotics have transformed modern medicine, yet their effectiveness cannot be taken for granted."
+                "text": "medicine"
               },
               {
                 "id": "o2",
-                "text": "Antimicrobial resistance develops when bacteria, viruses, fungi, or parasites survive treatments that once controlled them."
+                "text": "explanation"
               },
               {
                 "id": "o3",
-                "text": "Overuse is part of the explanation, but individual patients are not the only actors."
+                "text": "develops"
               },
               {
                 "id": "o4",
-                "text": "Restricting medicine without improving access would be equally dangerous, since many people still cannot obtain the treatment they genuinely need."
+                "text": "bacteria"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “The Silent Return of Untreatable Infections”?",
+            "prompt": "Choose the missing word from the recording.\n\n“Restricting medicine without _____ access would be equally dangerous, since many people still cannot obtain the treatment they genuinely need.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Antibiotics have transformed modern medicine, yet their effectiveness cannot be taken for granted."
+                "text": "effectiveness"
               },
               {
                 "id": "o2",
-                "text": "Overuse is part of the explanation, but individual patients are not the only actors."
+                "text": "Antimicrobial"
               },
               {
                 "id": "o3",
-                "text": "Restricting medicine without improving access would be equally dangerous, since many people still cannot obtain the treatment they genuinely need."
+                "text": "improving"
               },
               {
                 "id": "o4",
-                "text": "What matters is whether health systems can detect change early, share evidence, prevent infection, and treat existing medicines as a common resource rather than an unlimited convenience."
+                "text": "modern"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes “The Silent Return of Untreatable Infections”?",
+            "prompt": "What is the exact missing word in this audio detail?\n\n“What matters is whether health systems can detect _____ early, share evidence, prevent infection, and treat existing medicines as a common resource rather than an unlimited convenience.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Antibiotics have transformed modern medicine, yet their effectiveness cannot be taken for granted."
+                "text": "effectiveness"
               },
               {
                 "id": "o2",
-                "text": "Overuse is part of the explanation, but individual patients are not the only actors."
+                "text": "Antimicrobial"
               },
               {
                 "id": "o3",
-                "text": "Restricting medicine without improving access would be equally dangerous, since many people still cannot obtain the treatment they genuinely need."
+                "text": "surveillance"
               },
               {
                 "id": "o4",
-                "text": "What matters is whether health systems can detect change early, share evidence, prevent infection, and treat existing medicines as a common resource rather than an unlimited convenience."
+                "text": "change"
               }
             ]
           }
@@ -1692,42 +1692,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces “The Silent Return of Untreatable Infections”?",
+        "prompt": "Complete this detail from the audio.\n\n“Antibiotics have transformed modern medicine, yet their effectiveness cannot be taken for _____.”",
         "options": [
-          "Antibiotics have transformed modern medicine, yet their effectiveness cannot be taken for granted.",
-          "Overuse is part of the explanation, but individual patients are not the only actors.",
-          "Restricting medicine without improving access would be equally dangerous, since many people still cannot obtain the treatment they genuinely need.",
-          "What matters is whether health systems can detect change early, share evidence, prevent infection, and treat existing medicines as a common resource rather than an unlimited convenience."
+          "granted",
+          "effectiveness",
+          "Antimicrobial",
+          "surveillance"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows “Antibiotics have transformed modern medicine, yet their effectiveness…” in “The Silent Return of Untreatable Infections”?",
+        "prompt": "Which word completes the sentence you hear?\n\n“Overuse is part of the _____, but individual patients are not the only actors.”",
         "options": [
-          "Antibiotics have transformed modern medicine, yet their effectiveness cannot be taken for granted.",
-          "Antimicrobial resistance develops when bacteria, viruses, fungi, or parasites survive treatments that once controlled them.",
-          "Overuse is part of the explanation, but individual patients are not the only actors.",
-          "Restricting medicine without improving access would be equally dangerous, since many people still cannot obtain the treatment they genuinely need."
+          "medicine",
+          "explanation",
+          "develops",
+          "bacteria"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “The Silent Return of Untreatable Infections”?",
+        "prompt": "Choose the missing word from the recording.\n\n“Restricting medicine without _____ access would be equally dangerous, since many people still cannot obtain the treatment they genuinely need.”",
         "options": [
-          "Antibiotics have transformed modern medicine, yet their effectiveness cannot be taken for granted.",
-          "Overuse is part of the explanation, but individual patients are not the only actors.",
-          "Restricting medicine without improving access would be equally dangerous, since many people still cannot obtain the treatment they genuinely need.",
-          "What matters is whether health systems can detect change early, share evidence, prevent infection, and treat existing medicines as a common resource rather than an unlimited convenience."
+          "effectiveness",
+          "Antimicrobial",
+          "improving",
+          "modern"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes “The Silent Return of Untreatable Infections”?",
+        "prompt": "What is the exact missing word in this audio detail?\n\n“What matters is whether health systems can detect _____ early, share evidence, prevent infection, and treat existing medicines as a common resource rather than an unlimited convenience.”",
         "options": [
-          "Antibiotics have transformed modern medicine, yet their effectiveness cannot be taken for granted.",
-          "Overuse is part of the explanation, but individual patients are not the only actors.",
-          "Restricting medicine without improving access would be equally dangerous, since many people still cannot obtain the treatment they genuinely need.",
-          "What matters is whether health systems can detect change early, share evidence, prevent infection, and treat existing medicines as a common resource rather than an unlimited convenience."
+          "effectiveness",
+          "Antimicrobial",
+          "surveillance",
+          "change"
         ]
       }
     ]
@@ -1857,92 +1857,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces “Adult Language Learning Beyond the Critical Period”?",
+            "prompt": "Complete this detail from the audio.\n\n“The claim that adults are simply too old to master another language confuses an average tendency with a biological _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "The claim that adults are simply too old to master another language confuses an average tendency with a biological verdict."
+                "text": "verdict"
               },
               {
                 "id": "o2",
-                "text": "A cross-sectional difference between multilingual and monolingual adults does not establish what caused it; people who persist in language learning may already differ in education, motivation, or opportunity."
+                "text": "neuroplasticity"
               },
               {
                 "id": "o3",
-                "text": "Compared with children, adults possess stronger analytic knowledge and richer conceptual experience, while often receiving less input and facing greater anxiety about error."
+                "text": "cross-sectional"
               },
               {
                 "id": "o4",
-                "text": "What deserves explanation is not whether adults can learn, which they plainly do, but how instruction can exploit their strengths while providing the intensive perception and interaction that natural childhood environments once supplied."
+                "text": "interpretation"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows “The claim that adults are simply too old to master another language…” in “Adult Language Learning Beyond the Critical Period”?",
+            "prompt": "Which word completes the sentence you hear?\n\n“A cross-sectional _____ between multilingual and monolingual adults does not establish what caused it; people who persist in language learning may already differ in education, motivation, or opportunity.”",
             "options": [
               {
                 "id": "o1",
-                "text": "The claim that adults are simply too old to master another language confuses an average tendency with a biological verdict."
+                "text": "neuroplasticity"
               },
               {
                 "id": "o2",
-                "text": "Childhood offers advantages, particularly in acquiring pronunciation through sustained immersion, yet adult neuroplasticity does not disappear."
+                "text": "difference"
               },
               {
                 "id": "o3",
-                "text": "A cross-sectional difference between multilingual and monolingual adults does not establish what caused it; people who persist in language learning may already differ in education, motivation, or opportunity."
+                "text": "cross-sectional"
               },
               {
                 "id": "o4",
-                "text": "Compared with children, adults possess stronger analytic knowledge and richer conceptual experience, while often receiving less input and facing greater anxiety about error."
+                "text": "interpretation"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Adult Language Learning Beyond the Critical Period”?",
+            "prompt": "Choose the missing word from the recording.\n\n“Compared with children, adults _____ stronger analytic knowledge and richer conceptual experience, while often receiving less input and facing greater anxiety about error.”",
             "options": [
               {
                 "id": "o1",
-                "text": "The claim that adults are simply too old to master another language confuses an average tendency with a biological verdict."
+                "text": "neuroplasticity"
               },
               {
                 "id": "o2",
-                "text": "A cross-sectional difference between multilingual and monolingual adults does not establish what caused it; people who persist in language learning may already differ in education, motivation, or opportunity."
+                "text": "cross-sectional"
               },
               {
                 "id": "o3",
-                "text": "Near-native pronunciation is an inappropriate universal benchmark because communicative mastery includes vocabulary, discourse, cultural interpretation, and strategic flexibility."
+                "text": "possess"
               },
               {
                 "id": "o4",
-                "text": "Compared with children, adults possess stronger analytic knowledge and richer conceptual experience, while often receiving less input and facing greater anxiety about error."
+                "text": "interpretation"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes “Adult Language Learning Beyond the Critical Period”?",
+            "prompt": "What is the exact missing word in this audio detail?\n\n“What deserves explanation is not whether adults can learn, which they plainly do, but how _____ can exploit their strengths while providing the intensive perception and interaction that natural childhood environments once supplied.”",
             "options": [
               {
                 "id": "o1",
-                "text": "The claim that adults are simply too old to master another language confuses an average tendency with a biological verdict."
+                "text": "neuroplasticity"
               },
               {
                 "id": "o2",
-                "text": "A cross-sectional difference between multilingual and monolingual adults does not establish what caused it; people who persist in language learning may already differ in education, motivation, or opportunity."
+                "text": "cross-sectional"
               },
               {
                 "id": "o3",
-                "text": "Compared with children, adults possess stronger analytic knowledge and richer conceptual experience, while often receiving less input and facing greater anxiety about error."
+                "text": "language"
               },
               {
                 "id": "o4",
-                "text": "What deserves explanation is not whether adults can learn, which they plainly do, but how instruction can exploit their strengths while providing the intensive perception and interaction that natural childhood environments once supplied."
+                "text": "instruction"
               }
             ]
           }
@@ -1953,42 +1953,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces “Adult Language Learning Beyond the Critical Period”?",
+        "prompt": "Complete this detail from the audio.\n\n“The claim that adults are simply too old to master another language confuses an average tendency with a biological _____.”",
         "options": [
-          "The claim that adults are simply too old to master another language confuses an average tendency with a biological verdict.",
-          "A cross-sectional difference between multilingual and monolingual adults does not establish what caused it; people who persist in language learning may already differ in education, motivation, or opportunity.",
-          "Compared with children, adults possess stronger analytic knowledge and richer conceptual experience, while often receiving less input and facing greater anxiety about error.",
-          "What deserves explanation is not whether adults can learn, which they plainly do, but how instruction can exploit their strengths while providing the intensive perception and interaction that natural childhood environments once supplied."
+          "verdict",
+          "neuroplasticity",
+          "cross-sectional",
+          "interpretation"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows “The claim that adults are simply too old to master another language…” in “Adult Language Learning Beyond the Critical Period”?",
+        "prompt": "Which word completes the sentence you hear?\n\n“A cross-sectional _____ between multilingual and monolingual adults does not establish what caused it; people who persist in language learning may already differ in education, motivation, or opportunity.”",
         "options": [
-          "The claim that adults are simply too old to master another language confuses an average tendency with a biological verdict.",
-          "Childhood offers advantages, particularly in acquiring pronunciation through sustained immersion, yet adult neuroplasticity does not disappear.",
-          "A cross-sectional difference between multilingual and monolingual adults does not establish what caused it; people who persist in language learning may already differ in education, motivation, or opportunity.",
-          "Compared with children, adults possess stronger analytic knowledge and richer conceptual experience, while often receiving less input and facing greater anxiety about error."
+          "neuroplasticity",
+          "difference",
+          "cross-sectional",
+          "interpretation"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Adult Language Learning Beyond the Critical Period”?",
+        "prompt": "Choose the missing word from the recording.\n\n“Compared with children, adults _____ stronger analytic knowledge and richer conceptual experience, while often receiving less input and facing greater anxiety about error.”",
         "options": [
-          "The claim that adults are simply too old to master another language confuses an average tendency with a biological verdict.",
-          "A cross-sectional difference between multilingual and monolingual adults does not establish what caused it; people who persist in language learning may already differ in education, motivation, or opportunity.",
-          "Near-native pronunciation is an inappropriate universal benchmark because communicative mastery includes vocabulary, discourse, cultural interpretation, and strategic flexibility.",
-          "Compared with children, adults possess stronger analytic knowledge and richer conceptual experience, while often receiving less input and facing greater anxiety about error."
+          "neuroplasticity",
+          "cross-sectional",
+          "possess",
+          "interpretation"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes “Adult Language Learning Beyond the Critical Period”?",
+        "prompt": "What is the exact missing word in this audio detail?\n\n“What deserves explanation is not whether adults can learn, which they plainly do, but how _____ can exploit their strengths while providing the intensive perception and interaction that natural childhood environments once supplied.”",
         "options": [
-          "The claim that adults are simply too old to master another language confuses an average tendency with a biological verdict.",
-          "A cross-sectional difference between multilingual and monolingual adults does not establish what caused it; people who persist in language learning may already differ in education, motivation, or opportunity.",
-          "Compared with children, adults possess stronger analytic knowledge and richer conceptual experience, while often receiving less input and facing greater anxiety about error.",
-          "What deserves explanation is not whether adults can learn, which they plainly do, but how instruction can exploit their strengths while providing the intensive perception and interaction that natural childhood environments once supplied."
+          "neuroplasticity",
+          "cross-sectional",
+          "language",
+          "instruction"
         ]
       }
     ]
@@ -2083,92 +2083,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces “My First Month at a New Job”?",
+            "prompt": "Complete this detail from the audio.\n\n“Three employees compare what they have learned during their first month at a new _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Three employees compare what they have learned during their first month at a new company."
+                "text": "company"
               },
               {
                 "id": "o2",
-                "text": "Jonah has completed an online course, but he still has to deal with a new software system."
+                "text": "improvements"
               },
               {
                 "id": "o3",
-                "text": "They have made mistakes, changed their routines, and kept track of small improvements."
+                "text": "experienced"
               },
               {
                 "id": "o4",
-                "text": "The experience shows that confidence often develops after people accept a challenge, not before."
+                "text": "team"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows “Three employees compare what they have learned during their first…” in “My First Month at a New Job”?",
+            "prompt": "Which word completes the sentence you hear?\n\n“Jonah has _____ an online course, but he still has to deal with a new software system.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Three employees compare what they have learned during their first month at a new company."
+                "text": "during"
               },
               {
                 "id": "o2",
-                "text": "Malik has already led a short meeting, although he had never spoken to a large team before."
+                "text": "completed"
               },
               {
                 "id": "o3",
-                "text": "Jonah has completed an online course, but he still has to deal with a new software system."
+                "text": "spoken"
               },
               {
                 "id": "o4",
-                "text": "They have made mistakes, changed their routines, and kept track of small improvements."
+                "text": "online"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “My First Month at a New Job”?",
+            "prompt": "Choose the missing word from the recording.\n\n“They have made mistakes, changed their routines, and kept track of small _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Three employees compare what they have learned during their first month at a new company."
+                "text": "employees"
               },
               {
                 "id": "o2",
-                "text": "Jonah has completed an online course, but he still has to deal with a new software system."
+                "text": "difficult"
               },
               {
                 "id": "o3",
-                "text": "In fact, the team has solved problems more quickly because the new employees have shared their doubts."
+                "text": "improvements"
               },
               {
                 "id": "o4",
-                "text": "They have made mistakes, changed their routines, and kept track of small improvements."
+                "text": "colleague"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes “My First Month at a New Job”?",
+            "prompt": "What is the exact missing word in this audio detail?\n\n“The experience shows that confidence often develops after people accept a _____, not before.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Three employees compare what they have learned during their first month at a new company."
+                "text": "during"
               },
               {
                 "id": "o2",
-                "text": "Jonah has completed an online course, but he still has to deal with a new software system."
+                "text": "spoken"
               },
               {
                 "id": "o3",
-                "text": "They have made mistakes, changed their routines, and kept track of small improvements."
+                "text": "online"
               },
               {
                 "id": "o4",
-                "text": "The experience shows that confidence often develops after people accept a challenge, not before."
+                "text": "challenge"
               }
             ]
           }
@@ -2179,42 +2179,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces “My First Month at a New Job”?",
+        "prompt": "Complete this detail from the audio.\n\n“Three employees compare what they have learned during their first month at a new _____.”",
         "options": [
-          "Three employees compare what they have learned during their first month at a new company.",
-          "Jonah has completed an online course, but he still has to deal with a new software system.",
-          "They have made mistakes, changed their routines, and kept track of small improvements.",
-          "The experience shows that confidence often develops after people accept a challenge, not before."
+          "company",
+          "improvements",
+          "experienced",
+          "team"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows “Three employees compare what they have learned during their first…” in “My First Month at a New Job”?",
+        "prompt": "Which word completes the sentence you hear?\n\n“Jonah has _____ an online course, but he still has to deal with a new software system.”",
         "options": [
-          "Three employees compare what they have learned during their first month at a new company.",
-          "Malik has already led a short meeting, although he had never spoken to a large team before.",
-          "Jonah has completed an online course, but he still has to deal with a new software system.",
-          "They have made mistakes, changed their routines, and kept track of small improvements."
+          "during",
+          "completed",
+          "spoken",
+          "online"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “My First Month at a New Job”?",
+        "prompt": "Choose the missing word from the recording.\n\n“They have made mistakes, changed their routines, and kept track of small _____.”",
         "options": [
-          "Three employees compare what they have learned during their first month at a new company.",
-          "Jonah has completed an online course, but he still has to deal with a new software system.",
-          "In fact, the team has solved problems more quickly because the new employees have shared their doubts.",
-          "They have made mistakes, changed their routines, and kept track of small improvements."
+          "employees",
+          "difficult",
+          "improvements",
+          "colleague"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes “My First Month at a New Job”?",
+        "prompt": "What is the exact missing word in this audio detail?\n\n“The experience shows that confidence often develops after people accept a _____, not before.”",
         "options": [
-          "Three employees compare what they have learned during their first month at a new company.",
-          "Jonah has completed an online course, but he still has to deal with a new software system.",
-          "They have made mistakes, changed their routines, and kept track of small improvements.",
-          "The experience shows that confidence often develops after people accept a challenge, not before."
+          "during",
+          "spoken",
+          "online",
+          "challenge"
         ]
       }
     ]
@@ -2349,92 +2349,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces “When AI Makes a False Story Look Real”?",
+            "prompt": "Complete this detail from the audio.\n\n“Host: A video about a city election went viral last week, but fact-checkers later described it as _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: A video about a city election went viral last week, but fact-checkers later described it as misleading."
+                "text": "misleading"
               },
               {
                 "id": "o2",
-                "text": "The original source was difficult to find because thousands of accounts had already shared the shorter version."
+                "text": "recommendation"
               },
               {
                 "id": "o3",
-                "text": "That does not prove deliberate bias, but it helps explain why the false claim spread quickly."
+                "text": "fact-checkers"
               },
               {
                 "id": "o4",
-                "text": "Otherwise, fact-checking itself may be seen as political control."
+                "text": "opinion"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows “A video about a city election went viral last week, but fact-checkers…” in “When AI Makes a False Story Look Real”?",
+            "prompt": "Which word completes the sentence you hear?\n\n“The original _____ was difficult to find because thousands of accounts had already shared the shorter version.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: A video about a city election went viral last week, but fact-checkers later described it as misleading."
+                "text": "recommendation"
               },
               {
                 "id": "o2",
-                "text": "How did it influence public opinion?"
+                "text": "source"
               },
               {
                 "id": "o3",
-                "text": "The original source was difficult to find because thousands of accounts had already shared the shorter version."
+                "text": "fact-checkers"
               },
               {
                 "id": "o4",
-                "text": "That does not prove deliberate bias, but it helps explain why the false claim spread quickly."
+                "text": "fact-checking"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “When AI Makes a False Story Look Real”?",
+            "prompt": "Choose the missing word from the recording.\n\n“That does not prove deliberate bias, but it helps explain why the false claim spread _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: A video about a city election went viral last week, but fact-checkers later described it as misleading."
+                "text": "recommendation"
               },
               {
                 "id": "o2",
-                "text": "That does not prove deliberate bias, but it helps explain why the false claim spread quickly."
+                "text": "fact-checkers"
               },
               {
                 "id": "o3",
-                "text": "The original source was difficult to find because thousands of accounts had already shared the shorter version."
+                "text": "quickly"
               },
               {
                 "id": "o4",
-                "text": "Otherwise, fact-checking itself may be seen as political control."
+                "text": "fact-checking"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes “When AI Makes a False Story Look Real”?",
+            "prompt": "What is the exact missing word in this audio detail?\n\n“_____, fact-checking itself may be seen as political control.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: A video about a city election went viral last week, but fact-checkers later described it as misleading."
+                "text": "recommendation"
               },
               {
                 "id": "o2",
-                "text": "The original source was difficult to find because thousands of accounts had already shared the shorter version."
+                "text": "fact-checkers"
               },
               {
                 "id": "o3",
-                "text": "That does not prove deliberate bias, but it helps explain why the false claim spread quickly."
+                "text": "fact-checking"
               },
               {
                 "id": "o4",
-                "text": "Otherwise, fact-checking itself may be seen as political control."
+                "text": "Otherwise"
               }
             ]
           }
@@ -2445,42 +2445,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces “When AI Makes a False Story Look Real”?",
+        "prompt": "Complete this detail from the audio.\n\n“Host: A video about a city election went viral last week, but fact-checkers later described it as _____.”",
         "options": [
-          "Host: A video about a city election went viral last week, but fact-checkers later described it as misleading.",
-          "The original source was difficult to find because thousands of accounts had already shared the shorter version.",
-          "That does not prove deliberate bias, but it helps explain why the false claim spread quickly.",
-          "Otherwise, fact-checking itself may be seen as political control."
+          "misleading",
+          "recommendation",
+          "fact-checkers",
+          "opinion"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows “A video about a city election went viral last week, but fact-checkers…” in “When AI Makes a False Story Look Real”?",
+        "prompt": "Which word completes the sentence you hear?\n\n“The original _____ was difficult to find because thousands of accounts had already shared the shorter version.”",
         "options": [
-          "Host: A video about a city election went viral last week, but fact-checkers later described it as misleading.",
-          "How did it influence public opinion?",
-          "The original source was difficult to find because thousands of accounts had already shared the shorter version.",
-          "That does not prove deliberate bias, but it helps explain why the false claim spread quickly."
+          "recommendation",
+          "source",
+          "fact-checkers",
+          "fact-checking"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “When AI Makes a False Story Look Real”?",
+        "prompt": "Choose the missing word from the recording.\n\n“That does not prove deliberate bias, but it helps explain why the false claim spread _____.”",
         "options": [
-          "Host: A video about a city election went viral last week, but fact-checkers later described it as misleading.",
-          "That does not prove deliberate bias, but it helps explain why the false claim spread quickly.",
-          "The original source was difficult to find because thousands of accounts had already shared the shorter version.",
-          "Otherwise, fact-checking itself may be seen as political control."
+          "recommendation",
+          "fact-checkers",
+          "quickly",
+          "fact-checking"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes “When AI Makes a False Story Look Real”?",
+        "prompt": "What is the exact missing word in this audio detail?\n\n“_____, fact-checking itself may be seen as political control.”",
         "options": [
-          "Host: A video about a city election went viral last week, but fact-checkers later described it as misleading.",
-          "The original source was difficult to find because thousands of accounts had already shared the shorter version.",
-          "That does not prove deliberate bias, but it helps explain why the false claim spread quickly.",
-          "Otherwise, fact-checking itself may be seen as political control."
+          "recommendation",
+          "fact-checkers",
+          "fact-checking",
+          "Otherwise"
         ]
       }
     ]
@@ -7383,92 +7383,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In “This Is Me”, which detail establishes the situation?",
+            "prompt": "Complete this detail from the audio.\n\n“My name is _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "My name is Daniel."
+                "text": "Daniel"
               },
               {
                 "id": "o2",
-                "text": "I speak Spanish, and I understand a little English."
+                "text": "grandparents"
               },
               {
                 "id": "o3",
-                "text": "My favorite color is blue, and my favorite food is pizza."
+                "text": "understand"
               },
               {
                 "id": "o4",
-                "text": "I want to improve my English because I would like to travel and meet people from different countries."
+                "text": "different"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “My name is Daniel.”, what happens next in “This Is Me”?",
+            "prompt": "Which word completes the sentence you hear?\n\n“I speak Spanish, and I _____ a little English.”",
             "options": [
               {
                 "id": "o1",
-                "text": "My name is Daniel."
+                "text": "Domingo"
               },
               {
                 "id": "o2",
-                "text": "I speak Spanish, and I understand a little English."
+                "text": "understand"
               },
               {
                 "id": "o3",
-                "text": "My favorite color is blue, and my favorite food is pizza."
+                "text": "student"
               },
               {
                 "id": "o4",
-                "text": "I want to improve my English because I would like to travel and meet people from different countries."
+                "text": "English"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in “This Is Me”?",
+            "prompt": "Choose the missing word from the recording.\n\n“My _____ color is blue, and my favorite food is pizza.”",
             "options": [
               {
                 "id": "o1",
-                "text": "My name is Daniel."
+                "text": "grandparents"
               },
               {
                 "id": "o2",
-                "text": "I speak Spanish, and I understand a little English."
+                "text": "years"
               },
               {
                 "id": "o3",
-                "text": "My favorite color is blue, and my favorite food is pizza."
+                "text": "favorite"
               },
               {
                 "id": "o4",
-                "text": "I want to improve my English because I would like to travel and meet people from different countries."
+                "text": "Santo"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “This Is Me” after “My favorite color is blue, and my favorite food is pizza.”?",
+            "prompt": "What is the exact missing word in this audio detail?\n\n“I want to improve my English because I would like to travel and meet people from different _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "My name is Daniel."
+                "text": "Daniel"
               },
               {
                 "id": "o2",
-                "text": "I speak Spanish, and I understand a little English."
+                "text": "school"
               },
               {
                 "id": "o3",
-                "text": "My favorite color is blue, and my favorite food is pizza."
+                "text": "little"
               },
               {
                 "id": "o4",
-                "text": "I want to improve my English because I would like to travel and meet people from different countries."
+                "text": "countries"
               }
             ]
           }
@@ -7479,42 +7479,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In “This Is Me”, which detail establishes the situation?",
+        "prompt": "Complete this detail from the audio.\n\n“My name is _____.”",
         "options": [
-          "My name is Daniel.",
-          "I speak Spanish, and I understand a little English.",
-          "My favorite color is blue, and my favorite food is pizza.",
-          "I want to improve my English because I would like to travel and meet people from different countries."
+          "Daniel",
+          "grandparents",
+          "understand",
+          "different"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “My name is Daniel.”, what happens next in “This Is Me”?",
+        "prompt": "Which word completes the sentence you hear?\n\n“I speak Spanish, and I _____ a little English.”",
         "options": [
-          "My name is Daniel.",
-          "I speak Spanish, and I understand a little English.",
-          "My favorite color is blue, and my favorite food is pizza.",
-          "I want to improve my English because I would like to travel and meet people from different countries."
+          "Domingo",
+          "understand",
+          "student",
+          "English"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in “This Is Me”?",
+        "prompt": "Choose the missing word from the recording.\n\n“My _____ color is blue, and my favorite food is pizza.”",
         "options": [
-          "My name is Daniel.",
-          "I speak Spanish, and I understand a little English.",
-          "My favorite color is blue, and my favorite food is pizza.",
-          "I want to improve my English because I would like to travel and meet people from different countries."
+          "grandparents",
+          "years",
+          "favorite",
+          "Santo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “This Is Me” after “My favorite color is blue, and my favorite food is pizza.”?",
+        "prompt": "What is the exact missing word in this audio detail?\n\n“I want to improve my English because I would like to travel and meet people from different _____.”",
         "options": [
-          "My name is Daniel.",
-          "I speak Spanish, and I understand a little English.",
-          "My favorite color is blue, and my favorite food is pizza.",
-          "I want to improve my English because I would like to travel and meet people from different countries."
+          "Daniel",
+          "school",
+          "little",
+          "countries"
         ]
       }
     ]
@@ -7640,92 +7640,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In “A Special Family Sunday”, which detail establishes the situation?",
+            "prompt": "Complete this detail from the audio.\n\n“Every Sunday, Emma visits her grandparents with her parents and younger _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Every Sunday, Emma visits her grandparents with her parents and younger brother."
+                "text": "brother"
               },
               {
                 "id": "o2",
-                "text": "Emma’s grandmother prepares lunch, and everyone helps set the table."
+                "text": "grandparents"
               },
               {
                 "id": "o3",
-                "text": "Emma sometimes disagrees with her brother because he does not like helping with the dishes, but they usually solve the problem by talking calmly."
+                "text": "grandmother"
               },
               {
                 "id": "o4",
-                "text": "Emma enjoys these Sundays because they give her time to relax, listen, and feel close to the people she loves."
+                "text": "grandfather"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Every Sunday, Emma visits her grandparents with her parents and…”, what happens next in “A Special Family Sunday”?",
+            "prompt": "Which word completes the sentence you hear?\n\n“Emma’s _____ prepares lunch, and everyone helps set the table.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Every Sunday, Emma visits her grandparents with her parents and younger brother."
+                "text": "prepares"
               },
               {
                 "id": "o2",
-                "text": "Emma’s grandmother prepares lunch, and everyone helps set the table."
+                "text": "grandmother"
               },
               {
                 "id": "o3",
-                "text": "Emma sometimes disagrees with her brother because he does not like helping with the dishes, but they usually solve the problem by talking calmly."
+                "text": "everyone"
               },
               {
                 "id": "o4",
-                "text": "Emma enjoys these Sundays because they give her time to relax, listen, and feel close to the people she loves."
+                "text": "childhood"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in “A Special Family Sunday”?",
+            "prompt": "Choose the missing word from the recording.\n\n“Emma sometimes disagrees with her _____ because he does not like helping with the dishes, but they usually solve the problem by talking calmly.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Every Sunday, Emma visits her grandparents with her parents and younger brother."
+                "text": "grandparents"
               },
               {
                 "id": "o2",
-                "text": "Emma’s grandmother prepares lunch, and everyone helps set the table."
+                "text": "grandmother"
               },
               {
                 "id": "o3",
-                "text": "Emma sometimes disagrees with her brother because he does not like helping with the dishes, but they usually solve the problem by talking calmly."
+                "text": "brother"
               },
               {
                 "id": "o4",
-                "text": "Emma enjoys these Sundays because they give her time to relax, listen, and feel close to the people she loves."
+                "text": "grandfather"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “A Special Family Sunday” after “Emma sometimes disagrees with her brother because he does not like…”?",
+            "prompt": "What is the exact missing word in this audio detail?\n\n“_____ enjoys these Sundays because they give her time to relax, listen, and feel close to the people she loves.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Every Sunday, Emma visits her grandparents with her parents and younger brother."
+                "text": "grandparents"
               },
               {
                 "id": "o2",
-                "text": "Emma’s grandmother prepares lunch, and everyone helps set the table."
+                "text": "grandmother"
               },
               {
                 "id": "o3",
-                "text": "Emma sometimes disagrees with her brother because he does not like helping with the dishes, but they usually solve the problem by talking calmly."
+                "text": "grandfather"
               },
               {
                 "id": "o4",
-                "text": "Emma enjoys these Sundays because they give her time to relax, listen, and feel close to the people she loves."
+                "text": "Emma"
               }
             ]
           }
@@ -7736,42 +7736,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In “A Special Family Sunday”, which detail establishes the situation?",
+        "prompt": "Complete this detail from the audio.\n\n“Every Sunday, Emma visits her grandparents with her parents and younger _____.”",
         "options": [
-          "Every Sunday, Emma visits her grandparents with her parents and younger brother.",
-          "Emma’s grandmother prepares lunch, and everyone helps set the table.",
-          "Emma sometimes disagrees with her brother because he does not like helping with the dishes, but they usually solve the problem by talking calmly.",
-          "Emma enjoys these Sundays because they give her time to relax, listen, and feel close to the people she loves."
+          "brother",
+          "grandparents",
+          "grandmother",
+          "grandfather"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Every Sunday, Emma visits her grandparents with her parents and…”, what happens next in “A Special Family Sunday”?",
+        "prompt": "Which word completes the sentence you hear?\n\n“Emma’s _____ prepares lunch, and everyone helps set the table.”",
         "options": [
-          "Every Sunday, Emma visits her grandparents with her parents and younger brother.",
-          "Emma’s grandmother prepares lunch, and everyone helps set the table.",
-          "Emma sometimes disagrees with her brother because he does not like helping with the dishes, but they usually solve the problem by talking calmly.",
-          "Emma enjoys these Sundays because they give her time to relax, listen, and feel close to the people she loves."
+          "prepares",
+          "grandmother",
+          "everyone",
+          "childhood"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in “A Special Family Sunday”?",
+        "prompt": "Choose the missing word from the recording.\n\n“Emma sometimes disagrees with her _____ because he does not like helping with the dishes, but they usually solve the problem by talking calmly.”",
         "options": [
-          "Every Sunday, Emma visits her grandparents with her parents and younger brother.",
-          "Emma’s grandmother prepares lunch, and everyone helps set the table.",
-          "Emma sometimes disagrees with her brother because he does not like helping with the dishes, but they usually solve the problem by talking calmly.",
-          "Emma enjoys these Sundays because they give her time to relax, listen, and feel close to the people she loves."
+          "grandparents",
+          "grandmother",
+          "brother",
+          "grandfather"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “A Special Family Sunday” after “Emma sometimes disagrees with her brother because he does not like…”?",
+        "prompt": "What is the exact missing word in this audio detail?\n\n“_____ enjoys these Sundays because they give her time to relax, listen, and feel close to the people she loves.”",
         "options": [
-          "Every Sunday, Emma visits her grandparents with her parents and younger brother.",
-          "Emma’s grandmother prepares lunch, and everyone helps set the table.",
-          "Emma sometimes disagrees with her brother because he does not like helping with the dishes, but they usually solve the problem by talking calmly.",
-          "Emma enjoys these Sundays because they give her time to relax, listen, and feel close to the people she loves."
+          "grandparents",
+          "grandmother",
+          "grandfather",
+          "Emma"
         ]
       }
     ]
@@ -7906,92 +7906,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces “The Hidden Energy Cost of AI”?",
+            "prompt": "Complete this detail from the audio.\n\n“An artificial-intelligence response may appear instantly on a screen, but it depends on a physical system that is largely _____ to the user.”",
             "options": [
               {
                 "id": "o1",
-                "text": "An artificial-intelligence response may appear instantly on a screen, but it depends on a physical system that is largely invisible to the user."
+                "text": "invisible"
               },
               {
                 "id": "o2",
-                "text": "A new chip may perform the same computing workload with less energy, yet cheaper and faster systems can encourage far more use."
+                "text": "artificial-intelligence"
               },
               {
                 "id": "o3",
-                "text": "A centre supplied by low-carbon power during periods of surplus has a different impact from one that extends the life of a fossil-fuel plant."
+                "text": "infrastructure"
               },
               {
                 "id": "o4",
-                "text": "It is whether the infrastructure behind that computation can grow without transferring hidden costs to households, public services, and the climate."
+                "text": "substantially"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows “An artificial-intelligence response may appear instantly on a screen,…” in “The Hidden Energy Cost of AI”?",
+            "prompt": "Which word completes the sentence you hear?\n\n“A new chip may perform the same _____ workload with less energy, yet cheaper and faster systems can encourage far more use.”",
             "options": [
               {
                 "id": "o1",
-                "text": "An artificial-intelligence response may appear instantly on a screen, but it depends on a physical system that is largely invisible to the user."
+                "text": "artificial-intelligence"
               },
               {
                 "id": "o2",
-                "text": "Data centres contain specialised chips, cooling equipment, backup power, and network infrastructure."
+                "text": "computing"
               },
               {
                 "id": "o3",
-                "text": "A new chip may perform the same computing workload with less energy, yet cheaper and faster systems can encourage far more use."
+                "text": "infrastructure"
               },
               {
                 "id": "o4",
-                "text": "A centre supplied by low-carbon power during periods of surplus has a different impact from one that extends the life of a fossil-fuel plant."
+                "text": "substantially"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “The Hidden Energy Cost of AI”?",
+            "prompt": "Choose the missing word from the recording.\n\n“A centre supplied by low-carbon power _____ periods of surplus has a different impact from one that extends the life of a fossil-fuel plant.”",
             "options": [
               {
                 "id": "o1",
-                "text": "An artificial-intelligence response may appear instantly on a screen, but it depends on a physical system that is largely invisible to the user."
+                "text": "artificial-intelligence"
               },
               {
                 "id": "o2",
-                "text": "A new chip may perform the same computing workload with less energy, yet cheaper and faster systems can encourage far more use."
+                "text": "infrastructure"
               },
               {
                 "id": "o3",
-                "text": "Precise forecasts remain difficult because firms disclose limited operational data and efficiency improves rapidly."
+                "text": "during"
               },
               {
                 "id": "o4",
-                "text": "A centre supplied by low-carbon power during periods of surplus has a different impact from one that extends the life of a fossil-fuel plant."
+                "text": "substantially"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes “The Hidden Energy Cost of AI”?",
+            "prompt": "What is the exact missing word in this audio detail?\n\n“It is whether the infrastructure behind that computation can grow without _____ hidden costs to households, public services, and the climate.”",
             "options": [
               {
                 "id": "o1",
-                "text": "An artificial-intelligence response may appear instantly on a screen, but it depends on a physical system that is largely invisible to the user."
+                "text": "artificial-intelligence"
               },
               {
                 "id": "o2",
-                "text": "A new chip may perform the same computing workload with less energy, yet cheaper and faster systems can encourage far more use."
+                "text": "instantly"
               },
               {
                 "id": "o3",
-                "text": "A centre supplied by low-carbon power during periods of surplus has a different impact from one that extends the life of a fossil-fuel plant."
+                "text": "invisible"
               },
               {
                 "id": "o4",
-                "text": "It is whether the infrastructure behind that computation can grow without transferring hidden costs to households, public services, and the climate."
+                "text": "transferring"
               }
             ]
           }
@@ -8002,42 +8002,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces “The Hidden Energy Cost of AI”?",
+        "prompt": "Complete this detail from the audio.\n\n“An artificial-intelligence response may appear instantly on a screen, but it depends on a physical system that is largely _____ to the user.”",
         "options": [
-          "An artificial-intelligence response may appear instantly on a screen, but it depends on a physical system that is largely invisible to the user.",
-          "A new chip may perform the same computing workload with less energy, yet cheaper and faster systems can encourage far more use.",
-          "A centre supplied by low-carbon power during periods of surplus has a different impact from one that extends the life of a fossil-fuel plant.",
-          "It is whether the infrastructure behind that computation can grow without transferring hidden costs to households, public services, and the climate."
+          "invisible",
+          "artificial-intelligence",
+          "infrastructure",
+          "substantially"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows “An artificial-intelligence response may appear instantly on a screen,…” in “The Hidden Energy Cost of AI”?",
+        "prompt": "Which word completes the sentence you hear?\n\n“A new chip may perform the same _____ workload with less energy, yet cheaper and faster systems can encourage far more use.”",
         "options": [
-          "An artificial-intelligence response may appear instantly on a screen, but it depends on a physical system that is largely invisible to the user.",
-          "Data centres contain specialised chips, cooling equipment, backup power, and network infrastructure.",
-          "A new chip may perform the same computing workload with less energy, yet cheaper and faster systems can encourage far more use.",
-          "A centre supplied by low-carbon power during periods of surplus has a different impact from one that extends the life of a fossil-fuel plant."
+          "artificial-intelligence",
+          "computing",
+          "infrastructure",
+          "substantially"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “The Hidden Energy Cost of AI”?",
+        "prompt": "Choose the missing word from the recording.\n\n“A centre supplied by low-carbon power _____ periods of surplus has a different impact from one that extends the life of a fossil-fuel plant.”",
         "options": [
-          "An artificial-intelligence response may appear instantly on a screen, but it depends on a physical system that is largely invisible to the user.",
-          "A new chip may perform the same computing workload with less energy, yet cheaper and faster systems can encourage far more use.",
-          "Precise forecasts remain difficult because firms disclose limited operational data and efficiency improves rapidly.",
-          "A centre supplied by low-carbon power during periods of surplus has a different impact from one that extends the life of a fossil-fuel plant."
+          "artificial-intelligence",
+          "infrastructure",
+          "during",
+          "substantially"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes “The Hidden Energy Cost of AI”?",
+        "prompt": "What is the exact missing word in this audio detail?\n\n“It is whether the infrastructure behind that computation can grow without _____ hidden costs to households, public services, and the climate.”",
         "options": [
-          "An artificial-intelligence response may appear instantly on a screen, but it depends on a physical system that is largely invisible to the user.",
-          "A new chip may perform the same computing workload with less energy, yet cheaper and faster systems can encourage far more use.",
-          "A centre supplied by low-carbon power during periods of surplus has a different impact from one that extends the life of a fossil-fuel plant.",
-          "It is whether the infrastructure behind that computation can grow without transferring hidden costs to households, public services, and the climate."
+          "artificial-intelligence",
+          "instantly",
+          "invisible",
+          "transferring"
         ]
       }
     ]
@@ -8192,92 +8192,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces “The Memory Paradox: Why Difficulty Helps Learning”?",
+            "prompt": "Complete this detail from the audio.\n\n“Rereading feels productive because the page becomes familiar, yet familiarity is a poor substitute for _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Rereading feels productive because the page becomes familiar, yet familiarity is a poor substitute for access."
+                "text": "access"
               },
               {
                 "id": "o2",
-                "text": "The principle is frequently oversimplified into a perfect schedule."
+                "text": "oversimplified"
               },
               {
                 "id": "o3",
-                "text": "Interleaving related topics may reduce the familiarity illusion further by forcing learners to decide which idea applies."
+                "text": "Interleaving"
               },
               {
                 "id": "o4",
-                "text": "Learning becomes less comfortable at the moment of practice precisely because memory is being required to do the work it will need to do in the future."
+                "text": "familiarity"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows “Rereading feels productive because the page becomes familiar, yet…” in “The Memory Paradox: Why Difficulty Helps Learning”?",
+            "prompt": "Which word completes the sentence you hear?\n\n“The principle is _____ oversimplified into a perfect schedule.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Rereading feels productive because the page becomes familiar, yet familiarity is a poor substitute for access."
+                "text": "oversimplified"
               },
               {
                 "id": "o2",
-                "text": "Retrieval practice requires learners to reconstruct information without immediately seeing it: recalling a word, explaining an argument, or completing a sentence from memory."
+                "text": "frequently"
               },
               {
                 "id": "o3",
-                "text": "The principle is frequently oversimplified into a perfect schedule."
+                "text": "becomes"
               },
               {
                 "id": "o4",
-                "text": "Interleaving related topics may reduce the familiarity illusion further by forcing learners to decide which idea applies."
+                "text": "without"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “The Memory Paradox: Why Difficulty Helps Learning”?",
+            "prompt": "Choose the missing word from the recording.\n\n“Interleaving related topics may _____ the familiarity illusion further by forcing learners to decide which idea applies.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Rereading feels productive because the page becomes familiar, yet familiarity is a poor substitute for access."
+                "text": "oversimplified"
               },
               {
                 "id": "o2",
-                "text": "The principle is frequently oversimplified into a perfect schedule."
+                "text": "Interleaving"
               },
               {
                 "id": "o3",
-                "text": "Interleaving related topics may reduce the familiarity illusion further by forcing learners to decide which idea applies."
+                "text": "reduce"
               },
               {
                 "id": "o4",
-                "text": "Learning becomes less comfortable at the moment of practice precisely because memory is being required to do the work it will need to do in the future."
+                "text": "familiarity"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes “The Memory Paradox: Why Difficulty Helps Learning”?",
+            "prompt": "What is the exact missing word in this audio detail?\n\n“Learning becomes less comfortable at the moment of practice _____ because memory is being required to do the work it will need to do in the future.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Rereading feels productive because the page becomes familiar, yet familiarity is a poor substitute for access."
+                "text": "oversimplified"
               },
               {
                 "id": "o2",
-                "text": "The principle is frequently oversimplified into a perfect schedule."
+                "text": "access"
               },
               {
                 "id": "o3",
-                "text": "Interleaving related topics may reduce the familiarity illusion further by forcing learners to decide which idea applies."
+                "text": "seeing"
               },
               {
                 "id": "o4",
-                "text": "Learning becomes less comfortable at the moment of practice precisely because memory is being required to do the work it will need to do in the future."
+                "text": "precisely"
               }
             ]
           }
@@ -8288,42 +8288,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces “The Memory Paradox: Why Difficulty Helps Learning”?",
+        "prompt": "Complete this detail from the audio.\n\n“Rereading feels productive because the page becomes familiar, yet familiarity is a poor substitute for _____.”",
         "options": [
-          "Rereading feels productive because the page becomes familiar, yet familiarity is a poor substitute for access.",
-          "The principle is frequently oversimplified into a perfect schedule.",
-          "Interleaving related topics may reduce the familiarity illusion further by forcing learners to decide which idea applies.",
-          "Learning becomes less comfortable at the moment of practice precisely because memory is being required to do the work it will need to do in the future."
+          "access",
+          "oversimplified",
+          "Interleaving",
+          "familiarity"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows “Rereading feels productive because the page becomes familiar, yet…” in “The Memory Paradox: Why Difficulty Helps Learning”?",
+        "prompt": "Which word completes the sentence you hear?\n\n“The principle is _____ oversimplified into a perfect schedule.”",
         "options": [
-          "Rereading feels productive because the page becomes familiar, yet familiarity is a poor substitute for access.",
-          "Retrieval practice requires learners to reconstruct information without immediately seeing it: recalling a word, explaining an argument, or completing a sentence from memory.",
-          "The principle is frequently oversimplified into a perfect schedule.",
-          "Interleaving related topics may reduce the familiarity illusion further by forcing learners to decide which idea applies."
+          "oversimplified",
+          "frequently",
+          "becomes",
+          "without"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “The Memory Paradox: Why Difficulty Helps Learning”?",
+        "prompt": "Choose the missing word from the recording.\n\n“Interleaving related topics may _____ the familiarity illusion further by forcing learners to decide which idea applies.”",
         "options": [
-          "Rereading feels productive because the page becomes familiar, yet familiarity is a poor substitute for access.",
-          "The principle is frequently oversimplified into a perfect schedule.",
-          "Interleaving related topics may reduce the familiarity illusion further by forcing learners to decide which idea applies.",
-          "Learning becomes less comfortable at the moment of practice precisely because memory is being required to do the work it will need to do in the future."
+          "oversimplified",
+          "Interleaving",
+          "reduce",
+          "familiarity"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes “The Memory Paradox: Why Difficulty Helps Learning”?",
+        "prompt": "What is the exact missing word in this audio detail?\n\n“Learning becomes less comfortable at the moment of practice _____ because memory is being required to do the work it will need to do in the future.”",
         "options": [
-          "Rereading feels productive because the page becomes familiar, yet familiarity is a poor substitute for access.",
-          "The principle is frequently oversimplified into a perfect schedule.",
-          "Interleaving related topics may reduce the familiarity illusion further by forcing learners to decide which idea applies.",
-          "Learning becomes less comfortable at the moment of practice precisely because memory is being required to do the work it will need to do in the future."
+          "oversimplified",
+          "access",
+          "seeing",
+          "precisely"
         ]
       }
     ]
@@ -8413,92 +8413,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces “Getting Ready for a Job Interview”?",
+            "prompt": "Complete this detail from the audio.\n\n“Career adviser Mia Torres is giving practical advice to people preparing for an _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Career adviser Mia Torres is giving practical advice to people preparing for an interview."
+                "text": "interview"
               },
               {
                 "id": "o2",
-                "text": "They are also going to practice short answers instead of memorizing a complete speech."
+                "text": "responsibility"
               },
               {
                 "id": "o3",
-                "text": "Candidates should check their internet connection if the meeting is online, and they should arrange a quiet space in advance."
+                "text": "Career"
               },
               {
                 "id": "o4",
-                "text": "Mia says an interview is not only a test; it is also an opportunity to decide whether the job supports a person’s long-term goals."
+                "text": "Torres"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows “Career adviser Mia Torres is giving practical advice to people…” in “Getting Ready for a Job Interview”?",
+            "prompt": "Which word completes the sentence you hear?\n\n“They are also going to practice short _____ instead of memorizing a complete speech.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Career adviser Mia Torres is giving practical advice to people preparing for an interview."
+                "text": "responsibility"
               },
               {
                 "id": "o2",
-                "text": "First, candidates are going to research the company and choose examples that demonstrate their skills."
+                "text": "answers"
               },
               {
                 "id": "o3",
-                "text": "They are also going to practice short answers instead of memorizing a complete speech."
+                "text": "demonstrate"
               },
               {
                 "id": "o4",
-                "text": "Candidates should check their internet connection if the meeting is online, and they should arrange a quiet space in advance."
+                "text": "opportunity"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Getting Ready for a Job Interview”?",
+            "prompt": "Choose the missing word from the recording.\n\n“Candidates should check their internet _____ if the meeting is online, and they should arrange a quiet space in advance.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Career adviser Mia Torres is giving practical advice to people preparing for an interview."
+                "text": "responsibility"
               },
               {
                 "id": "o2",
-                "text": "They are also going to practice short answers instead of memorizing a complete speech."
+                "text": "adviser"
               },
               {
                 "id": "o3",
-                "text": "Mia recommends preparing one question about the role because curiosity creates a positive impression."
+                "text": "connection"
               },
               {
                 "id": "o4",
-                "text": "Candidates should check their internet connection if the meeting is online, and they should arrange a quiet space in advance."
+                "text": "company"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes “Getting Ready for a Job Interview”?",
+            "prompt": "What is the exact missing word in this audio detail?\n\n“Mia says an interview is not only a test; it is also an opportunity to decide whether the job _____ a person’s long-term goals.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Career adviser Mia Torres is giving practical advice to people preparing for an interview."
+                "text": "responsibility"
               },
               {
                 "id": "o2",
-                "text": "They are also going to practice short answers instead of memorizing a complete speech."
+                "text": "First"
               },
               {
                 "id": "o3",
-                "text": "Candidates should check their internet connection if the meeting is online, and they should arrange a quiet space in advance."
+                "text": "going"
               },
               {
                 "id": "o4",
-                "text": "Mia says an interview is not only a test; it is also an opportunity to decide whether the job supports a person’s long-term goals."
+                "text": "supports"
               }
             ]
           }
@@ -8509,42 +8509,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces “Getting Ready for a Job Interview”?",
+        "prompt": "Complete this detail from the audio.\n\n“Career adviser Mia Torres is giving practical advice to people preparing for an _____.”",
         "options": [
-          "Career adviser Mia Torres is giving practical advice to people preparing for an interview.",
-          "They are also going to practice short answers instead of memorizing a complete speech.",
-          "Candidates should check their internet connection if the meeting is online, and they should arrange a quiet space in advance.",
-          "Mia says an interview is not only a test; it is also an opportunity to decide whether the job supports a person’s long-term goals."
+          "interview",
+          "responsibility",
+          "Career",
+          "Torres"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows “Career adviser Mia Torres is giving practical advice to people…” in “Getting Ready for a Job Interview”?",
+        "prompt": "Which word completes the sentence you hear?\n\n“They are also going to practice short _____ instead of memorizing a complete speech.”",
         "options": [
-          "Career adviser Mia Torres is giving practical advice to people preparing for an interview.",
-          "First, candidates are going to research the company and choose examples that demonstrate their skills.",
-          "They are also going to practice short answers instead of memorizing a complete speech.",
-          "Candidates should check their internet connection if the meeting is online, and they should arrange a quiet space in advance."
+          "responsibility",
+          "answers",
+          "demonstrate",
+          "opportunity"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Getting Ready for a Job Interview”?",
+        "prompt": "Choose the missing word from the recording.\n\n“Candidates should check their internet _____ if the meeting is online, and they should arrange a quiet space in advance.”",
         "options": [
-          "Career adviser Mia Torres is giving practical advice to people preparing for an interview.",
-          "They are also going to practice short answers instead of memorizing a complete speech.",
-          "Mia recommends preparing one question about the role because curiosity creates a positive impression.",
-          "Candidates should check their internet connection if the meeting is online, and they should arrange a quiet space in advance."
+          "responsibility",
+          "adviser",
+          "connection",
+          "company"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes “Getting Ready for a Job Interview”?",
+        "prompt": "What is the exact missing word in this audio detail?\n\n“Mia says an interview is not only a test; it is also an opportunity to decide whether the job _____ a person’s long-term goals.”",
         "options": [
-          "Career adviser Mia Torres is giving practical advice to people preparing for an interview.",
-          "They are also going to practice short answers instead of memorizing a complete speech.",
-          "Candidates should check their internet connection if the meeting is online, and they should arrange a quiet space in advance.",
-          "Mia says an interview is not only a test; it is also an opportunity to decide whether the job supports a person’s long-term goals."
+          "responsibility",
+          "First",
+          "going",
+          "supports"
         ]
       }
     ]
@@ -8684,92 +8684,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces “Why Cities Are Cutting Single-Use Plastic”?",
+            "prompt": "Complete this detail from the audio.\n\n“Host: The river clean-up collected hundreds of bags after the _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: The river clean-up collected hundreds of bags after the festival."
+                "text": "festival"
               },
               {
                 "id": "o2",
-                "text": "Over time, some pieces will break down into microplastic."
+                "text": "responsibility"
               },
               {
                 "id": "o3",
-                "text": "Host: Who carries the greatest responsibility?"
+                "text": "microplastic"
               },
               {
                 "id": "o4",
-                "text": "That would prevent waste instead of merely having it collected afterward."
+                "text": "river"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows “The river clean-up collected hundreds of bags after the festival.” in “Why Cities Are Cutting Single-Use Plastic”?",
+            "prompt": "Which word completes the sentence you hear?\n\n“Over time, some _____ will break down into microplastic.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: The river clean-up collected hundreds of bags after the festival."
+                "text": "responsibility"
               },
               {
                 "id": "o2",
-                "text": "What did volunteers find?"
+                "text": "pieces"
               },
               {
                 "id": "o3",
-                "text": "Over time, some pieces will break down into microplastic."
+                "text": "microplastic"
               },
               {
                 "id": "o4",
-                "text": "Host: Who carries the greatest responsibility?"
+                "text": "volunteers"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Why Cities Are Cutting Single-Use Plastic”?",
+            "prompt": "Choose the missing word from the recording.\n\n“Host: Who carries the _____ responsibility?”",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: The river clean-up collected hundreds of bags after the festival."
+                "text": "responsibility"
               },
               {
                 "id": "o2",
-                "text": "Over time, some pieces will break down into microplastic."
+                "text": "microplastic"
               },
               {
                 "id": "o3",
-                "text": "Organizers should have vendors use reusable containers, and they can get water stations installed instead of selling individual bottles."
+                "text": "greatest"
               },
               {
                 "id": "o4",
-                "text": "Host: Who carries the greatest responsibility?"
+                "text": "river"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes “Why Cities Are Cutting Single-Use Plastic”?",
+            "prompt": "What is the exact missing word in this audio detail?\n\n“That would prevent waste instead of merely having it collected _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: The river clean-up collected hundreds of bags after the festival."
+                "text": "responsibility"
               },
               {
                 "id": "o2",
-                "text": "Over time, some pieces will break down into microplastic."
+                "text": "pieces"
               },
               {
                 "id": "o3",
-                "text": "Host: Who carries the greatest responsibility?"
+                "text": "microplastic"
               },
               {
                 "id": "o4",
-                "text": "That would prevent waste instead of merely having it collected afterward."
+                "text": "afterward"
               }
             ]
           }
@@ -8780,42 +8780,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces “Why Cities Are Cutting Single-Use Plastic”?",
+        "prompt": "Complete this detail from the audio.\n\n“Host: The river clean-up collected hundreds of bags after the _____.”",
         "options": [
-          "Host: The river clean-up collected hundreds of bags after the festival.",
-          "Over time, some pieces will break down into microplastic.",
-          "Host: Who carries the greatest responsibility?",
-          "That would prevent waste instead of merely having it collected afterward."
+          "festival",
+          "responsibility",
+          "microplastic",
+          "river"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows “The river clean-up collected hundreds of bags after the festival.” in “Why Cities Are Cutting Single-Use Plastic”?",
+        "prompt": "Which word completes the sentence you hear?\n\n“Over time, some _____ will break down into microplastic.”",
         "options": [
-          "Host: The river clean-up collected hundreds of bags after the festival.",
-          "What did volunteers find?",
-          "Over time, some pieces will break down into microplastic.",
-          "Host: Who carries the greatest responsibility?"
+          "responsibility",
+          "pieces",
+          "microplastic",
+          "volunteers"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Why Cities Are Cutting Single-Use Plastic”?",
+        "prompt": "Choose the missing word from the recording.\n\n“Host: Who carries the _____ responsibility?”",
         "options": [
-          "Host: The river clean-up collected hundreds of bags after the festival.",
-          "Over time, some pieces will break down into microplastic.",
-          "Organizers should have vendors use reusable containers, and they can get water stations installed instead of selling individual bottles.",
-          "Host: Who carries the greatest responsibility?"
+          "responsibility",
+          "microplastic",
+          "greatest",
+          "river"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes “Why Cities Are Cutting Single-Use Plastic”?",
+        "prompt": "What is the exact missing word in this audio detail?\n\n“That would prevent waste instead of merely having it collected _____.”",
         "options": [
-          "Host: The river clean-up collected hundreds of bags after the festival.",
-          "Over time, some pieces will break down into microplastic.",
-          "Host: Who carries the greatest responsibility?",
-          "That would prevent waste instead of merely having it collected afterward."
+          "responsibility",
+          "pieces",
+          "microplastic",
+          "afterward"
         ]
       }
     ]
@@ -13626,92 +13626,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In “My Family Photo”, which detail establishes the situation?",
+            "prompt": "Complete this detail from the audio.\n\n“This is a photo of my _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "This is a photo of my family."
+                "text": "family"
               },
               {
                 "id": "o2",
-                "text": "I have one brother and one sister."
+                "text": "ten"
               },
               {
                 "id": "o3",
-                "text": "She loves drawing and dancing."
+                "text": "She"
               },
               {
                 "id": "o4",
-                "text": "My family is busy, but we are very close and happy."
+                "text": "dog"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “This is a photo of my family.”, what happens next in “My Family Photo”?",
+            "prompt": "Which word completes the sentence you hear?\n\n“I have one brother and one _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "This is a photo of my family."
+                "text": "ten"
               },
               {
                 "id": "o2",
-                "text": "I have one brother and one sister."
+                "text": "sister"
               },
               {
                 "id": "o3",
-                "text": "She loves drawing and dancing."
+                "text": "She"
               },
               {
                 "id": "o4",
-                "text": "My family is busy, but we are very close and happy."
+                "text": "dog"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in “My Family Photo”?",
+            "prompt": "Choose the missing word from the recording.\n\n“_____ loves drawing and dancing.”",
             "options": [
               {
                 "id": "o1",
-                "text": "This is a photo of my family."
+                "text": "mother’s"
               },
               {
                 "id": "o2",
-                "text": "I have one brother and one sister."
+                "text": "father’s"
               },
               {
                 "id": "o3",
-                "text": "She loves drawing and dancing."
+                "text": "She"
               },
               {
                 "id": "o4",
-                "text": "My family is busy, but we are very close and happy."
+                "text": "together"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “My Family Photo” after “She loves drawing and dancing.”?",
+            "prompt": "What is the exact missing word in this audio detail?\n\n“My _____ is busy, but we are very close and happy.”",
             "options": [
               {
                 "id": "o1",
-                "text": "This is a photo of my family."
+                "text": "ten"
               },
               {
                 "id": "o2",
-                "text": "I have one brother and one sister."
+                "text": "She"
               },
               {
                 "id": "o3",
-                "text": "She loves drawing and dancing."
+                "text": "dog"
               },
               {
                 "id": "o4",
-                "text": "My family is busy, but we are very close and happy."
+                "text": "family"
               }
             ]
           }
@@ -13722,42 +13722,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In “My Family Photo”, which detail establishes the situation?",
+        "prompt": "Complete this detail from the audio.\n\n“This is a photo of my _____.”",
         "options": [
-          "This is a photo of my family.",
-          "I have one brother and one sister.",
-          "She loves drawing and dancing.",
-          "My family is busy, but we are very close and happy."
+          "family",
+          "ten",
+          "She",
+          "dog"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “This is a photo of my family.”, what happens next in “My Family Photo”?",
+        "prompt": "Which word completes the sentence you hear?\n\n“I have one brother and one _____.”",
         "options": [
-          "This is a photo of my family.",
-          "I have one brother and one sister.",
-          "She loves drawing and dancing.",
-          "My family is busy, but we are very close and happy."
+          "ten",
+          "sister",
+          "She",
+          "dog"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in “My Family Photo”?",
+        "prompt": "Choose the missing word from the recording.\n\n“_____ loves drawing and dancing.”",
         "options": [
-          "This is a photo of my family.",
-          "I have one brother and one sister.",
-          "She loves drawing and dancing.",
-          "My family is busy, but we are very close and happy."
+          "mother’s",
+          "father’s",
+          "She",
+          "together"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “My Family Photo” after “She loves drawing and dancing.”?",
+        "prompt": "What is the exact missing word in this audio detail?\n\n“My _____ is busy, but we are very close and happy.”",
         "options": [
-          "This is a photo of my family.",
-          "I have one brother and one sister.",
-          "She loves drawing and dancing.",
-          "My family is busy, but we are very close and happy."
+          "ten",
+          "She",
+          "dog",
+          "family"
         ]
       }
     ]
@@ -13888,92 +13888,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In “Moving to a New Neighborhood”, which detail establishes the situation?",
+            "prompt": "Complete this detail from the audio.\n\n“Last month, Henry moved to a new apartment in a different _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Last month, Henry moved to a new apartment in a different neighborhood."
+                "text": "neighborhood"
               },
               {
                 "id": "o2",
-                "text": "The area is quieter than his old neighborhood, and there are many useful places nearby."
+                "text": "apartment"
               },
               {
                 "id": "o3",
-                "text": "On his first day, the woman next door introduced herself and helped him carry some boxes."
+                "text": "different"
               },
               {
                 "id": "o4",
-                "text": "He still misses his old friends, but he is beginning to feel comfortable in his new home."
+                "text": "neighbors"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Last month, Henry moved to a new apartment in a different neighborhood.”, what happens next in “Moving to a New Neighborhood”?",
+            "prompt": "Which word completes the sentence you hear?\n\n“The area is quieter than his old _____, and there are many useful places nearby.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Last month, Henry moved to a new apartment in a different neighborhood."
+                "text": "apartment"
               },
               {
                 "id": "o2",
-                "text": "The area is quieter than his old neighborhood, and there are many useful places nearby."
+                "text": "neighborhood"
               },
               {
                 "id": "o3",
-                "text": "On his first day, the woman next door introduced herself and helped him carry some boxes."
+                "text": "different"
               },
               {
                 "id": "o4",
-                "text": "He still misses his old friends, but he is beginning to feel comfortable in his new home."
+                "text": "neighbors"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in “Moving to a New Neighborhood”?",
+            "prompt": "Choose the missing word from the recording.\n\n“On his first day, the woman next door _____ herself and helped him carry some boxes.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Last month, Henry moved to a new apartment in a different neighborhood."
+                "text": "nervous"
               },
               {
                 "id": "o2",
-                "text": "The area is quieter than his old neighborhood, and there are many useful places nearby."
+                "text": "quieter"
               },
               {
                 "id": "o3",
-                "text": "At first, he felt nervous because he did not know anyone."
+                "text": "introduced"
               },
               {
                 "id": "o4",
-                "text": "On his first day, the woman next door introduced herself and helped him carry some boxes."
+                "text": "walking"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Moving to a New Neighborhood” after “At first, he felt nervous because he did not know anyone.”?",
+            "prompt": "What is the exact missing word in this audio detail?\n\n“He still misses his old _____, but he is beginning to feel comfortable in his new home.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Last month, Henry moved to a new apartment in a different neighborhood."
+                "text": "neighborhood"
               },
               {
                 "id": "o2",
-                "text": "The area is quieter than his old neighborhood, and there are many useful places nearby."
+                "text": "supermarket"
               },
               {
                 "id": "o3",
-                "text": "On his first day, the woman next door introduced herself and helped him carry some boxes."
+                "text": "comfortable"
               },
               {
                 "id": "o4",
-                "text": "He still misses his old friends, but he is beginning to feel comfortable in his new home."
+                "text": "friends"
               }
             ]
           }
@@ -13984,42 +13984,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In “Moving to a New Neighborhood”, which detail establishes the situation?",
+        "prompt": "Complete this detail from the audio.\n\n“Last month, Henry moved to a new apartment in a different _____.”",
         "options": [
-          "Last month, Henry moved to a new apartment in a different neighborhood.",
-          "The area is quieter than his old neighborhood, and there are many useful places nearby.",
-          "On his first day, the woman next door introduced herself and helped him carry some boxes.",
-          "He still misses his old friends, but he is beginning to feel comfortable in his new home."
+          "neighborhood",
+          "apartment",
+          "different",
+          "neighbors"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Last month, Henry moved to a new apartment in a different neighborhood.”, what happens next in “Moving to a New Neighborhood”?",
+        "prompt": "Which word completes the sentence you hear?\n\n“The area is quieter than his old _____, and there are many useful places nearby.”",
         "options": [
-          "Last month, Henry moved to a new apartment in a different neighborhood.",
-          "The area is quieter than his old neighborhood, and there are many useful places nearby.",
-          "On his first day, the woman next door introduced herself and helped him carry some boxes.",
-          "He still misses his old friends, but he is beginning to feel comfortable in his new home."
+          "apartment",
+          "neighborhood",
+          "different",
+          "neighbors"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in “Moving to a New Neighborhood”?",
+        "prompt": "Choose the missing word from the recording.\n\n“On his first day, the woman next door _____ herself and helped him carry some boxes.”",
         "options": [
-          "Last month, Henry moved to a new apartment in a different neighborhood.",
-          "The area is quieter than his old neighborhood, and there are many useful places nearby.",
-          "At first, he felt nervous because he did not know anyone.",
-          "On his first day, the woman next door introduced herself and helped him carry some boxes."
+          "nervous",
+          "quieter",
+          "introduced",
+          "walking"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Moving to a New Neighborhood” after “At first, he felt nervous because he did not know anyone.”?",
+        "prompt": "What is the exact missing word in this audio detail?\n\n“He still misses his old _____, but he is beginning to feel comfortable in his new home.”",
         "options": [
-          "Last month, Henry moved to a new apartment in a different neighborhood.",
-          "The area is quieter than his old neighborhood, and there are many useful places nearby.",
-          "On his first day, the woman next door introduced herself and helped him carry some boxes.",
-          "He still misses his old friends, but he is beginning to feel comfortable in his new home."
+          "neighborhood",
+          "supermarket",
+          "comfortable",
+          "friends"
         ]
       }
     ]
@@ -14149,92 +14149,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces “Gene Editing: Who Gets the Cure?”?",
+            "prompt": "Complete this detail from the audio.\n\n“Gene editing is beginning to move from laboratory promise to clinical _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Gene editing is beginning to move from laboratory promise to clinical treatment."
+                "text": "treatment"
               },
               {
                 "id": "o2",
-                "text": "Eligibility criteria can also exclude patients whose condition is advanced or whose location makes follow-up difficult."
+                "text": "scientifically"
               },
               {
                 "id": "o3",
-                "text": "Equity requires more than asking manufacturers to lower a headline price."
+                "text": "automatically"
               },
               {
                 "id": "o4",
-                "text": "The breakthrough will be fully realised only when health systems can identify eligible patients, explain uncertainty honestly, and distribute the benefits without allowing birthplace or income to determine who gets a chance at recovery."
+                "text": "manufacturers"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows “Gene editing is beginning to move from laboratory promise to clinical…” in “Gene Editing: Who Gets the Cure?”?",
+            "prompt": "Which word completes the sentence you hear?\n\n“Eligibility _____ can also exclude patients whose condition is advanced or whose location makes follow-up difficult.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Gene editing is beginning to move from laboratory promise to clinical treatment."
+                "text": "scientifically"
               },
               {
                 "id": "o2",
-                "text": "For some inherited disorders, a patient’s cells can be modified so that the body produces healthier blood or corrects a damaging biological process."
+                "text": "criteria"
               },
               {
                 "id": "o3",
-                "text": "Eligibility criteria can also exclude patients whose condition is advanced or whose location makes follow-up difficult."
+                "text": "automatically"
               },
               {
                 "id": "o4",
-                "text": "Equity requires more than asking manufacturers to lower a headline price."
+                "text": "manufacturers"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Gene Editing: Who Gets the Cure?”?",
+            "prompt": "Choose the missing word from the recording.\n\n“Equity requires more than asking _____ to lower a headline price.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Gene editing is beginning to move from laboratory promise to clinical treatment."
+                "text": "laboratory"
               },
               {
                 "id": "o2",
-                "text": "Eligibility criteria can also exclude patients whose condition is advanced or whose location makes follow-up difficult."
+                "text": "biological"
               },
               {
                 "id": "o3",
-                "text": "Equity requires more than asking manufacturers to lower a headline price."
+                "text": "manufacturers"
               },
               {
                 "id": "o4",
-                "text": "The breakthrough will be fully realised only when health systems can identify eligible patients, explain uncertainty honestly, and distribute the benefits without allowing birthplace or income to determine who gets a chance at recovery."
+                "text": "scientific"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes “Gene Editing: Who Gets the Cure?”?",
+            "prompt": "What is the exact missing word in this audio detail?\n\n“The breakthrough will be fully realised only when health systems can identify _____ patients, explain uncertainty honestly, and distribute the benefits without allowing birthplace or income to determine who gets a chance at recovery.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Gene editing is beginning to move from laboratory promise to clinical treatment."
+                "text": "scientifically"
               },
               {
                 "id": "o2",
-                "text": "Eligibility criteria can also exclude patients whose condition is advanced or whose location makes follow-up difficult."
+                "text": "automatically"
               },
               {
                 "id": "o3",
-                "text": "Equity requires more than asking manufacturers to lower a headline price."
+                "text": "manufacturers"
               },
               {
                 "id": "o4",
-                "text": "The breakthrough will be fully realised only when health systems can identify eligible patients, explain uncertainty honestly, and distribute the benefits without allowing birthplace or income to determine who gets a chance at recovery."
+                "text": "eligible"
               }
             ]
           }
@@ -14245,42 +14245,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces “Gene Editing: Who Gets the Cure?”?",
+        "prompt": "Complete this detail from the audio.\n\n“Gene editing is beginning to move from laboratory promise to clinical _____.”",
         "options": [
-          "Gene editing is beginning to move from laboratory promise to clinical treatment.",
-          "Eligibility criteria can also exclude patients whose condition is advanced or whose location makes follow-up difficult.",
-          "Equity requires more than asking manufacturers to lower a headline price.",
-          "The breakthrough will be fully realised only when health systems can identify eligible patients, explain uncertainty honestly, and distribute the benefits without allowing birthplace or income to determine who gets a chance at recovery."
+          "treatment",
+          "scientifically",
+          "automatically",
+          "manufacturers"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows “Gene editing is beginning to move from laboratory promise to clinical…” in “Gene Editing: Who Gets the Cure?”?",
+        "prompt": "Which word completes the sentence you hear?\n\n“Eligibility _____ can also exclude patients whose condition is advanced or whose location makes follow-up difficult.”",
         "options": [
-          "Gene editing is beginning to move from laboratory promise to clinical treatment.",
-          "For some inherited disorders, a patient’s cells can be modified so that the body produces healthier blood or corrects a damaging biological process.",
-          "Eligibility criteria can also exclude patients whose condition is advanced or whose location makes follow-up difficult.",
-          "Equity requires more than asking manufacturers to lower a headline price."
+          "scientifically",
+          "criteria",
+          "automatically",
+          "manufacturers"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Gene Editing: Who Gets the Cure?”?",
+        "prompt": "Choose the missing word from the recording.\n\n“Equity requires more than asking _____ to lower a headline price.”",
         "options": [
-          "Gene editing is beginning to move from laboratory promise to clinical treatment.",
-          "Eligibility criteria can also exclude patients whose condition is advanced or whose location makes follow-up difficult.",
-          "Equity requires more than asking manufacturers to lower a headline price.",
-          "The breakthrough will be fully realised only when health systems can identify eligible patients, explain uncertainty honestly, and distribute the benefits without allowing birthplace or income to determine who gets a chance at recovery."
+          "laboratory",
+          "biological",
+          "manufacturers",
+          "scientific"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes “Gene Editing: Who Gets the Cure?”?",
+        "prompt": "What is the exact missing word in this audio detail?\n\n“The breakthrough will be fully realised only when health systems can identify _____ patients, explain uncertainty honestly, and distribute the benefits without allowing birthplace or income to determine who gets a chance at recovery.”",
         "options": [
-          "Gene editing is beginning to move from laboratory promise to clinical treatment.",
-          "Eligibility criteria can also exclude patients whose condition is advanced or whose location makes follow-up difficult.",
-          "Equity requires more than asking manufacturers to lower a headline price.",
-          "The breakthrough will be fully realised only when health systems can identify eligible patients, explain uncertainty honestly, and distribute the benefits without allowing birthplace or income to determine who gets a chance at recovery."
+          "scientifically",
+          "automatically",
+          "manufacturers",
+          "eligible"
         ]
       }
     ]
@@ -14420,92 +14420,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces “The Sleeping Brain and the Words It Keeps”?",
+            "prompt": "Complete this detail from the audio.\n\n“Learning does not end when a study session _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Learning does not end when a study session finishes."
+                "text": "finishes"
               },
               {
                 "id": "o2",
-                "text": "Slow-wave sleep has been associated with stabilising declarative memories, while rapid eye movement sleep may support integration and abstraction."
+                "text": "consolidation"
               },
               {
                 "id": "o3",
-                "text": "Material reviewed across several days has had repeated opportunities to be reactivated, whereas an all-night study session compresses exposure while sacrificing rest."
+                "text": "relationships"
               },
               {
                 "id": "o4",
-                "text": "The sensible implication is not a fashionable “sleep hack.” It is a learning schedule in which focused study, retrieval, and adequate rest operate as parts of the same biological system."
+                "text": "opportunities"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows “Learning does not end when a study session finishes.” in “The Sleeping Brain and the Words It Keeps”?",
+            "prompt": "Which word completes the sentence you hear?\n\n“These _____ are not mechanical recipes.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Learning does not end when a study session finishes."
+                "text": "vocabulary"
               },
               {
                 "id": "o2",
-                "text": "After new vocabulary has been encoded, memory continues changing through offline processing, and sleep appears to support that consolidation."
+                "text": "relationships"
               },
               {
                 "id": "o3",
-                "text": "Slow-wave sleep has been associated with stabilising declarative memories, while rapid eye movement sleep may support integration and abstraction."
+                "text": "processing"
               },
               {
                 "id": "o4",
-                "text": "Material reviewed across several days has had repeated opportunities to be reactivated, whereas an all-night study session compresses exposure while sacrificing rest."
+                "text": "integrated"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “The Sleeping Brain and the Words It Keeps”?",
+            "prompt": "Choose the missing word from the recording.\n\n“Had learners encountered the same words _____ and retrieved them repeatedly, they would have entered the examination with stronger traces.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Learning does not end when a study session finishes."
+                "text": "consolidation"
               },
               {
                 "id": "o2",
-                "text": "Slow-wave sleep has been associated with stabilising declarative memories, while rapid eye movement sleep may support integration and abstraction."
+                "text": "relationships"
               },
               {
                 "id": "o3",
-                "text": "Researchers distinguish stages of sleep because they may contribute differently."
+                "text": "earlier"
               },
               {
                 "id": "o4",
-                "text": "Material reviewed across several days has had repeated opportunities to be reactivated, whereas an all-night study session compresses exposure while sacrificing rest."
+                "text": "opportunities"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes “The Sleeping Brain and the Words It Keeps”?",
+            "prompt": "What is the exact missing word in this audio detail?\n\n“It is a learning schedule in which focused study, retrieval, and adequate rest _____ as parts of the same biological system.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Learning does not end when a study session finishes."
+                "text": "consolidation"
               },
               {
                 "id": "o2",
-                "text": "Slow-wave sleep has been associated with stabilising declarative memories, while rapid eye movement sleep may support integration and abstraction."
+                "text": "relationships"
               },
               {
                 "id": "o3",
-                "text": "Material reviewed across several days has had repeated opportunities to be reactivated, whereas an all-night study session compresses exposure while sacrificing rest."
+                "text": "opportunities"
               },
               {
                 "id": "o4",
-                "text": "The sensible implication is not a fashionable “sleep hack.” It is a learning schedule in which focused study, retrieval, and adequate rest operate as parts of the same biological system."
+                "text": "operate"
               }
             ]
           }
@@ -14516,42 +14516,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces “The Sleeping Brain and the Words It Keeps”?",
+        "prompt": "Complete this detail from the audio.\n\n“Learning does not end when a study session _____.”",
         "options": [
-          "Learning does not end when a study session finishes.",
-          "Slow-wave sleep has been associated with stabilising declarative memories, while rapid eye movement sleep may support integration and abstraction.",
-          "Material reviewed across several days has had repeated opportunities to be reactivated, whereas an all-night study session compresses exposure while sacrificing rest.",
-          "The sensible implication is not a fashionable “sleep hack.” It is a learning schedule in which focused study, retrieval, and adequate rest operate as parts of the same biological system."
+          "finishes",
+          "consolidation",
+          "relationships",
+          "opportunities"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows “Learning does not end when a study session finishes.” in “The Sleeping Brain and the Words It Keeps”?",
+        "prompt": "Which word completes the sentence you hear?\n\n“These _____ are not mechanical recipes.”",
         "options": [
-          "Learning does not end when a study session finishes.",
-          "After new vocabulary has been encoded, memory continues changing through offline processing, and sleep appears to support that consolidation.",
-          "Slow-wave sleep has been associated with stabilising declarative memories, while rapid eye movement sleep may support integration and abstraction.",
-          "Material reviewed across several days has had repeated opportunities to be reactivated, whereas an all-night study session compresses exposure while sacrificing rest."
+          "vocabulary",
+          "relationships",
+          "processing",
+          "integrated"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “The Sleeping Brain and the Words It Keeps”?",
+        "prompt": "Choose the missing word from the recording.\n\n“Had learners encountered the same words _____ and retrieved them repeatedly, they would have entered the examination with stronger traces.”",
         "options": [
-          "Learning does not end when a study session finishes.",
-          "Slow-wave sleep has been associated with stabilising declarative memories, while rapid eye movement sleep may support integration and abstraction.",
-          "Researchers distinguish stages of sleep because they may contribute differently.",
-          "Material reviewed across several days has had repeated opportunities to be reactivated, whereas an all-night study session compresses exposure while sacrificing rest."
+          "consolidation",
+          "relationships",
+          "earlier",
+          "opportunities"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes “The Sleeping Brain and the Words It Keeps”?",
+        "prompt": "What is the exact missing word in this audio detail?\n\n“It is a learning schedule in which focused study, retrieval, and adequate rest _____ as parts of the same biological system.”",
         "options": [
-          "Learning does not end when a study session finishes.",
-          "Slow-wave sleep has been associated with stabilising declarative memories, while rapid eye movement sleep may support integration and abstraction.",
-          "Material reviewed across several days has had repeated opportunities to be reactivated, whereas an all-night study session compresses exposure while sacrificing rest.",
-          "The sensible implication is not a fashionable “sleep hack.” It is a learning schedule in which focused study, retrieval, and adequate rest operate as parts of the same biological system."
+          "consolidation",
+          "relationships",
+          "opportunities",
+          "operate"
         ]
       }
     ]
@@ -14641,92 +14641,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces “Solving a Neighborhood Problem”?",
+            "prompt": "Complete this detail from the audio.\n\n“Residents of Oak Street are using a group chat to solve a common problem: rubbish is being left beside full _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Residents of Oak Street are using a group chat to solve a common problem: rubbish is being left beside full containers."
+                "text": "containers"
               },
               {
                 "id": "o2",
-                "text": "The group could simply complain online, but one member proposes a practical plan."
+                "text": "responsibilities"
               },
               {
                 "id": "o3",
-                "text": "Local businesses also have to store their waste safely."
+                "text": "representatives"
               },
               {
                 "id": "o4",
-                "text": "The conversation shows how neighbors can move from frustration to action when they listen to different opinions and agree on realistic responsibilities."
+                "text": "problem"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows “Residents of Oak Street are using a group chat to solve a common…” in “Solving a Neighborhood Problem”?",
+            "prompt": "Which word completes the sentence you hear?\n\n“The group could simply _____ online, but one member proposes a practical plan.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Residents of Oak Street are using a group chat to solve a common problem: rubbish is being left beside full containers."
+                "text": "responsibilities"
               },
               {
                 "id": "o2",
-                "text": "Some neighbors say the council must collect waste more frequently, while others think residents should separate recycling correctly."
+                "text": "complain"
               },
               {
                 "id": "o3",
-                "text": "The group could simply complain online, but one member proposes a practical plan."
+                "text": "representatives"
               },
               {
                 "id": "o4",
-                "text": "Local businesses also have to store their waste safely."
+                "text": "conversation"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Solving a Neighborhood Problem”?",
+            "prompt": "Choose the missing word from the recording.\n\n“_____ businesses also have to store their waste safely.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Residents of Oak Street are using a group chat to solve a common problem: rubbish is being left beside full containers."
+                "text": "responsibilities"
               },
               {
                 "id": "o2",
-                "text": "Local businesses also have to store their waste safely."
+                "text": "representatives"
               },
               {
                 "id": "o3",
-                "text": "The group could simply complain online, but one member proposes a practical plan."
+                "text": "Local"
               },
               {
                 "id": "o4",
-                "text": "The conversation shows how neighbors can move from frustration to action when they listen to different opinions and agree on realistic responsibilities."
+                "text": "conversation"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes “Solving a Neighborhood Problem”?",
+            "prompt": "What is the exact missing word in this audio detail?\n\n“The conversation shows how neighbors can move from frustration to action when they listen to _____ opinions and agree on realistic responsibilities.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Residents of Oak Street are using a group chat to solve a common problem: rubbish is being left beside full containers."
+                "text": "responsibilities"
               },
               {
                 "id": "o2",
-                "text": "The group could simply complain online, but one member proposes a practical plan."
+                "text": "representatives"
               },
               {
                 "id": "o3",
-                "text": "Local businesses also have to store their waste safely."
+                "text": "Street"
               },
               {
                 "id": "o4",
-                "text": "The conversation shows how neighbors can move from frustration to action when they listen to different opinions and agree on realistic responsibilities."
+                "text": "different"
               }
             ]
           }
@@ -14737,42 +14737,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces “Solving a Neighborhood Problem”?",
+        "prompt": "Complete this detail from the audio.\n\n“Residents of Oak Street are using a group chat to solve a common problem: rubbish is being left beside full _____.”",
         "options": [
-          "Residents of Oak Street are using a group chat to solve a common problem: rubbish is being left beside full containers.",
-          "The group could simply complain online, but one member proposes a practical plan.",
-          "Local businesses also have to store their waste safely.",
-          "The conversation shows how neighbors can move from frustration to action when they listen to different opinions and agree on realistic responsibilities."
+          "containers",
+          "responsibilities",
+          "representatives",
+          "problem"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows “Residents of Oak Street are using a group chat to solve a common…” in “Solving a Neighborhood Problem”?",
+        "prompt": "Which word completes the sentence you hear?\n\n“The group could simply _____ online, but one member proposes a practical plan.”",
         "options": [
-          "Residents of Oak Street are using a group chat to solve a common problem: rubbish is being left beside full containers.",
-          "Some neighbors say the council must collect waste more frequently, while others think residents should separate recycling correctly.",
-          "The group could simply complain online, but one member proposes a practical plan.",
-          "Local businesses also have to store their waste safely."
+          "responsibilities",
+          "complain",
+          "representatives",
+          "conversation"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Solving a Neighborhood Problem”?",
+        "prompt": "Choose the missing word from the recording.\n\n“_____ businesses also have to store their waste safely.”",
         "options": [
-          "Residents of Oak Street are using a group chat to solve a common problem: rubbish is being left beside full containers.",
-          "Local businesses also have to store their waste safely.",
-          "The group could simply complain online, but one member proposes a practical plan.",
-          "The conversation shows how neighbors can move from frustration to action when they listen to different opinions and agree on realistic responsibilities."
+          "responsibilities",
+          "representatives",
+          "Local",
+          "conversation"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes “Solving a Neighborhood Problem”?",
+        "prompt": "What is the exact missing word in this audio detail?\n\n“The conversation shows how neighbors can move from frustration to action when they listen to _____ opinions and agree on realistic responsibilities.”",
         "options": [
-          "Residents of Oak Street are using a group chat to solve a common problem: rubbish is being left beside full containers.",
-          "The group could simply complain online, but one member proposes a practical plan.",
-          "Local businesses also have to store their waste safely.",
-          "The conversation shows how neighbors can move from frustration to action when they listen to different opinions and agree on realistic responsibilities."
+          "responsibilities",
+          "representatives",
+          "Street",
+          "different"
         ]
       }
     ]
@@ -14907,92 +14907,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces “Extreme Weather and Everyday Choices”?",
+            "prompt": "Complete this detail from the audio.\n\n“Host: People are often told to reduce their carbon _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: People are often told to reduce their carbon footprint."
+                "text": "footprint"
               },
               {
                 "id": "o2",
-                "text": "And if clean infrastructure were available everywhere, many households would already be using renewable energy."
+                "text": "transportation"
               },
               {
                 "id": "o3",
-                "text": "However, mitigation also requires rules for major producers, while adaptation requires communities to prepare for effects that are already unavoidable."
+                "text": "infrastructure"
               },
               {
                 "id": "o4",
-                "text": "Daily decisions are useful when public investment makes better decisions possible."
+                "text": "responsibility"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows “People are often told to reduce their carbon footprint.” in “Extreme Weather and Everyday Choices”?",
+            "prompt": "Which word completes the sentence you hear?\n\n“And if clean infrastructure were _____ everywhere, many households would already be using renewable energy.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: People are often told to reduce their carbon footprint."
+                "text": "transportation"
               },
               {
                 "id": "o2",
-                "text": "Are personal choices enough?"
+                "text": "available"
               },
               {
                 "id": "o3",
-                "text": "And if clean infrastructure were available everywhere, many households would already be using renewable energy."
+                "text": "infrastructure"
               },
               {
                 "id": "o4",
-                "text": "However, mitigation also requires rules for major producers, while adaptation requires communities to prepare for effects that are already unavoidable."
+                "text": "responsibility"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Extreme Weather and Everyday Choices”?",
+            "prompt": "Choose the missing word from the recording.\n\n“However, mitigation also requires rules for major _____, while adaptation requires communities to prepare for effects that are already unavoidable.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: People are often told to reduce their carbon footprint."
+                "text": "transportation"
               },
               {
                 "id": "o2",
-                "text": "And if clean infrastructure were available everywhere, many households would already be using renewable energy."
+                "text": "infrastructure"
               },
               {
                 "id": "o3",
-                "text": "However, mitigation also requires rules for major producers, while adaptation requires communities to prepare for effects that are already unavoidable."
+                "text": "producers"
               },
               {
                 "id": "o4",
-                "text": "Daily decisions are useful when public investment makes better decisions possible."
+                "text": "responsibility"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes “Extreme Weather and Everyday Choices”?",
+            "prompt": "What is the exact missing word in this audio detail?\n\n“Daily decisions are useful when public investment makes _____ decisions possible.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: People are often told to reduce their carbon footprint."
+                "text": "transportation"
               },
               {
                 "id": "o2",
-                "text": "And if clean infrastructure were available everywhere, many households would already be using renewable energy."
+                "text": "infrastructure"
               },
               {
                 "id": "o3",
-                "text": "However, mitigation also requires rules for major producers, while adaptation requires communities to prepare for effects that are already unavoidable."
+                "text": "responsibility"
               },
               {
                 "id": "o4",
-                "text": "Daily decisions are useful when public investment makes better decisions possible."
+                "text": "better"
               }
             ]
           }
@@ -15003,42 +15003,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces “Extreme Weather and Everyday Choices”?",
+        "prompt": "Complete this detail from the audio.\n\n“Host: People are often told to reduce their carbon _____.”",
         "options": [
-          "Host: People are often told to reduce their carbon footprint.",
-          "And if clean infrastructure were available everywhere, many households would already be using renewable energy.",
-          "However, mitigation also requires rules for major producers, while adaptation requires communities to prepare for effects that are already unavoidable.",
-          "Daily decisions are useful when public investment makes better decisions possible."
+          "footprint",
+          "transportation",
+          "infrastructure",
+          "responsibility"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows “People are often told to reduce their carbon footprint.” in “Extreme Weather and Everyday Choices”?",
+        "prompt": "Which word completes the sentence you hear?\n\n“And if clean infrastructure were _____ everywhere, many households would already be using renewable energy.”",
         "options": [
-          "Host: People are often told to reduce their carbon footprint.",
-          "Are personal choices enough?",
-          "And if clean infrastructure were available everywhere, many households would already be using renewable energy.",
-          "However, mitigation also requires rules for major producers, while adaptation requires communities to prepare for effects that are already unavoidable."
+          "transportation",
+          "available",
+          "infrastructure",
+          "responsibility"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Extreme Weather and Everyday Choices”?",
+        "prompt": "Choose the missing word from the recording.\n\n“However, mitigation also requires rules for major _____, while adaptation requires communities to prepare for effects that are already unavoidable.”",
         "options": [
-          "Host: People are often told to reduce their carbon footprint.",
-          "And if clean infrastructure were available everywhere, many households would already be using renewable energy.",
-          "However, mitigation also requires rules for major producers, while adaptation requires communities to prepare for effects that are already unavoidable.",
-          "Daily decisions are useful when public investment makes better decisions possible."
+          "transportation",
+          "infrastructure",
+          "producers",
+          "responsibility"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes “Extreme Weather and Everyday Choices”?",
+        "prompt": "What is the exact missing word in this audio detail?\n\n“Daily decisions are useful when public investment makes _____ decisions possible.”",
         "options": [
-          "Host: People are often told to reduce their carbon footprint.",
-          "And if clean infrastructure were available everywhere, many households would already be using renewable energy.",
-          "However, mitigation also requires rules for major producers, while adaptation requires communities to prepare for effects that are already unavoidable.",
-          "Daily decisions are useful when public investment makes better decisions possible."
+          "transportation",
+          "infrastructure",
+          "responsibility",
+          "better"
         ]
       }
     ]
@@ -19849,92 +19849,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In “My First School Day”, which detail establishes the situation?",
+            "prompt": "Complete this detail from the audio.\n\n“Today is my first day at a new _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Today is my first day at a new school."
+                "text": "school"
               },
               {
                 "id": "o2",
-                "text": "She is kind and friendly."
+                "text": "interesting"
               },
               {
                 "id": "o3",
-                "text": "After English, we have math and science."
+                "text": "whiteboard"
               },
               {
                 "id": "o4",
-                "text": "Brown."
+                "text": "day"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Today is my first day at a new school.”, what happens next in “My First School Day”?",
+            "prompt": "Which word completes the sentence you hear?\n\n“She is kind and _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Today is my first day at a new school."
+                "text": "Today"
               },
               {
                 "id": "o2",
-                "text": "She is kind and friendly."
+                "text": "friendly"
               },
               {
                 "id": "o3",
-                "text": "After English, we have math and science."
+                "text": "first"
               },
               {
                 "id": "o4",
-                "text": "Brown."
+                "text": "large"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in “My First School Day”?",
+            "prompt": "Choose the missing word from the recording.\n\n“Our first class is _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Today is my first day at a new school."
+                "text": "interesting"
               },
               {
                 "id": "o2",
-                "text": "She is kind and friendly."
+                "text": "whiteboard"
               },
               {
                 "id": "o3",
-                "text": "I feel happy because my new school is interesting."
+                "text": "English"
               },
               {
                 "id": "o4",
-                "text": "After English, we have math and science."
+                "text": "name"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “My First School Day” after “I feel happy because my new school is interesting.”?",
+            "prompt": "What is the exact missing word in this audio detail?\n\n“My teacher’s name is _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Today is my first day at a new school."
+                "text": "interesting"
               },
               {
                 "id": "o2",
-                "text": "She is kind and friendly."
+                "text": "whiteboard"
               },
               {
                 "id": "o3",
-                "text": "After English, we have math and science."
+                "text": "classroom"
               },
               {
                 "id": "o4",
-                "text": "Brown."
+                "text": "Mrs"
               }
             ]
           }
@@ -19945,42 +19945,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In “My First School Day”, which detail establishes the situation?",
+        "prompt": "Complete this detail from the audio.\n\n“Today is my first day at a new _____.”",
         "options": [
-          "Today is my first day at a new school.",
-          "She is kind and friendly.",
-          "After English, we have math and science.",
-          "Brown."
+          "school",
+          "interesting",
+          "whiteboard",
+          "day"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Today is my first day at a new school.”, what happens next in “My First School Day”?",
+        "prompt": "Which word completes the sentence you hear?\n\n“She is kind and _____.”",
         "options": [
-          "Today is my first day at a new school.",
-          "She is kind and friendly.",
-          "After English, we have math and science.",
-          "Brown."
+          "Today",
+          "friendly",
+          "first",
+          "large"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in “My First School Day”?",
+        "prompt": "Choose the missing word from the recording.\n\n“Our first class is _____.”",
         "options": [
-          "Today is my first day at a new school.",
-          "She is kind and friendly.",
-          "I feel happy because my new school is interesting.",
-          "After English, we have math and science."
+          "interesting",
+          "whiteboard",
+          "English",
+          "name"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “My First School Day” after “I feel happy because my new school is interesting.”?",
+        "prompt": "What is the exact missing word in this audio detail?\n\n“My teacher’s name is _____.”",
         "options": [
-          "Today is my first day at a new school.",
-          "She is kind and friendly.",
-          "After English, we have math and science.",
-          "Brown."
+          "interesting",
+          "whiteboard",
+          "classroom",
+          "Mrs"
         ]
       }
     ]
@@ -20116,92 +20116,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In “Shopping for Dinner”, which detail establishes the situation?",
+            "prompt": "Complete this detail from the audio.\n\n“Grace and Samuel decide to cook dinner _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Grace and Samuel decide to cook dinner together."
+                "text": "together"
               },
               {
                 "id": "o2",
-                "text": "Grace chooses carrots, onions, and potatoes."
+                "text": "Grace"
               },
               {
                 "id": "o3",
-                "text": "They also buy some juice and a small dessert."
+                "text": "check"
               },
               {
                 "id": "o4",
-                "text": "When they return home, they prepare the meal together and are pleased with the result."
+                "text": "supermarket"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Grace and Samuel decide to cook dinner together.”, what happens next in “Shopping for Dinner”?",
+            "prompt": "Which word completes the sentence you hear?\n\n“Grace _____ carrots, onions, and potatoes.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Grace and Samuel decide to cook dinner together."
+                "text": "supermarket"
               },
               {
                 "id": "o2",
-                "text": "Grace chooses carrots, onions, and potatoes."
+                "text": "chooses"
               },
               {
                 "id": "o3",
-                "text": "They also buy some juice and a small dessert."
+                "text": "cook"
               },
               {
                 "id": "o4",
-                "text": "When they return home, they prepare the meal together and are pleased with the result."
+                "text": "vegetables"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in “Shopping for Dinner”?",
+            "prompt": "Choose the missing word from the recording.\n\n“They also buy some juice and a small _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Grace and Samuel decide to cook dinner together."
+                "text": "supermarket"
               },
               {
                 "id": "o2",
-                "text": "Grace chooses carrots, onions, and potatoes."
+                "text": "cook"
               },
               {
                 "id": "o3",
-                "text": "They also buy some juice and a small dessert."
+                "text": "dessert"
               },
               {
                 "id": "o4",
-                "text": "When they return home, they prepare the meal together and are pleased with the result."
+                "text": "vegetables"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Shopping for Dinner” after “They also buy some juice and a small dessert.”?",
+            "prompt": "What is the exact missing word in this audio detail?\n\n“When they _____ home, they prepare the meal together and are pleased with the result.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Grace and Samuel decide to cook dinner together."
+                "text": "supermarket"
               },
               {
                 "id": "o2",
-                "text": "Grace chooses carrots, onions, and potatoes."
+                "text": "vegetables"
               },
               {
                 "id": "o3",
-                "text": "They also buy some juice and a small dessert."
+                "text": "but"
               },
               {
                 "id": "o4",
-                "text": "When they return home, they prepare the meal together and are pleased with the result."
+                "text": "return"
               }
             ]
           }
@@ -20212,42 +20212,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In “Shopping for Dinner”, which detail establishes the situation?",
+        "prompt": "Complete this detail from the audio.\n\n“Grace and Samuel decide to cook dinner _____.”",
         "options": [
-          "Grace and Samuel decide to cook dinner together.",
-          "Grace chooses carrots, onions, and potatoes.",
-          "They also buy some juice and a small dessert.",
-          "When they return home, they prepare the meal together and are pleased with the result."
+          "together",
+          "Grace",
+          "check",
+          "supermarket"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Grace and Samuel decide to cook dinner together.”, what happens next in “Shopping for Dinner”?",
+        "prompt": "Which word completes the sentence you hear?\n\n“Grace _____ carrots, onions, and potatoes.”",
         "options": [
-          "Grace and Samuel decide to cook dinner together.",
-          "Grace chooses carrots, onions, and potatoes.",
-          "They also buy some juice and a small dessert.",
-          "When they return home, they prepare the meal together and are pleased with the result."
+          "supermarket",
+          "chooses",
+          "cook",
+          "vegetables"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in “Shopping for Dinner”?",
+        "prompt": "Choose the missing word from the recording.\n\n“They also buy some juice and a small _____.”",
         "options": [
-          "Grace and Samuel decide to cook dinner together.",
-          "Grace chooses carrots, onions, and potatoes.",
-          "They also buy some juice and a small dessert.",
-          "When they return home, they prepare the meal together and are pleased with the result."
+          "supermarket",
+          "cook",
+          "dessert",
+          "vegetables"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Shopping for Dinner” after “They also buy some juice and a small dessert.”?",
+        "prompt": "What is the exact missing word in this audio detail?\n\n“When they _____ home, they prepare the meal together and are pleased with the result.”",
         "options": [
-          "Grace and Samuel decide to cook dinner together.",
-          "Grace chooses carrots, onions, and potatoes.",
-          "They also buy some juice and a small dessert.",
-          "When they return home, they prepare the meal together and are pleased with the result."
+          "supermarket",
+          "vegetables",
+          "but",
+          "return"
         ]
       }
     ]
@@ -20377,92 +20377,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces “Clean Air and the Health Dividend”?",
+            "prompt": "Complete this detail from the audio.\n\n“Climate policy is often presented as protection for a distant future, but cleaner energy can improve health almost _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Climate policy is often presented as protection for a distant future, but cleaner energy can improve health almost immediately."
+                "text": "immediately"
               },
               {
                 "id": "o2",
-                "text": "Having measured hospital admissions alongside pollution levels, public-health teams can estimate where action would prevent the greatest harm."
+                "text": "Decarbonisation"
               },
               {
                 "id": "o3",
-                "text": "If costs are shifted onto households with the fewest resources, a climate measure may deepen inequality even while reducing emissions overall."
+                "text": "Exposure"
               },
               {
                 "id": "o4",
-                "text": "It is a choice about whose exposure is reduced first, who can afford new technology, and whether the health gains of cleaner energy are treated as a public benefit rather than a private luxury."
+                "text": "produces"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows “Climate policy is often presented as protection for a distant future,…” in “Clean Air and the Health Dividend”?",
+            "prompt": "Which word completes the sentence you hear?\n\n“Having _____ hospital admissions alongside pollution levels, public-health teams can estimate where action would prevent the greatest harm.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Climate policy is often presented as protection for a distant future, but cleaner energy can improve health almost immediately."
+                "text": "Decarbonisation"
               },
               {
                 "id": "o2",
-                "text": "Coal, diesel, and other fuels release fine particulate matter that enters the lungs and bloodstream."
+                "text": "measured"
               },
               {
                 "id": "o3",
-                "text": "Having measured hospital admissions alongside pollution levels, public-health teams can estimate where action would prevent the greatest harm."
+                "text": "greenhouse-gas"
               },
               {
                 "id": "o4",
-                "text": "If costs are shifted onto households with the fewest resources, a climate measure may deepen inequality even while reducing emissions overall."
+                "text": "public-health"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Clean Air and the Health Dividend”?",
+            "prompt": "Choose the missing word from the recording.\n\n“If costs are shifted onto households with the fewest _____, a climate measure may deepen inequality even while reducing emissions overall.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Climate policy is often presented as protection for a distant future, but cleaner energy can improve health almost immediately."
+                "text": "Decarbonisation"
               },
               {
                 "id": "o2",
-                "text": "Having measured hospital admissions alongside pollution levels, public-health teams can estimate where action would prevent the greatest harm."
+                "text": "greenhouse-gas"
               },
               {
                 "id": "o3",
-                "text": "A family experiencing energy poverty cannot simply replace a vehicle, heating system, or stove because officials recommend it."
+                "text": "resources"
               },
               {
                 "id": "o4",
-                "text": "If costs are shifted onto households with the fewest resources, a climate measure may deepen inequality even while reducing emissions overall."
+                "text": "public-health"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes “Clean Air and the Health Dividend”?",
+            "prompt": "What is the exact missing word in this audio detail?\n\n“It is a choice about whose exposure is reduced first, who can afford new technology, and _____ the health gains of cleaner energy are treated as a public benefit rather than a private luxury.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Climate policy is often presented as protection for a distant future, but cleaner energy can improve health almost immediately."
+                "text": "Decarbonisation"
               },
               {
                 "id": "o2",
-                "text": "Having measured hospital admissions alongside pollution levels, public-health teams can estimate where action would prevent the greatest harm."
+                "text": "greenhouse-gas"
               },
               {
                 "id": "o3",
-                "text": "If costs are shifted onto households with the fewest resources, a climate measure may deepen inequality even while reducing emissions overall."
+                "text": "public-health"
               },
               {
                 "id": "o4",
-                "text": "It is a choice about whose exposure is reduced first, who can afford new technology, and whether the health gains of cleaner energy are treated as a public benefit rather than a private luxury."
+                "text": "whether"
               }
             ]
           }
@@ -20473,42 +20473,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces “Clean Air and the Health Dividend”?",
+        "prompt": "Complete this detail from the audio.\n\n“Climate policy is often presented as protection for a distant future, but cleaner energy can improve health almost _____.”",
         "options": [
-          "Climate policy is often presented as protection for a distant future, but cleaner energy can improve health almost immediately.",
-          "Having measured hospital admissions alongside pollution levels, public-health teams can estimate where action would prevent the greatest harm.",
-          "If costs are shifted onto households with the fewest resources, a climate measure may deepen inequality even while reducing emissions overall.",
-          "It is a choice about whose exposure is reduced first, who can afford new technology, and whether the health gains of cleaner energy are treated as a public benefit rather than a private luxury."
+          "immediately",
+          "Decarbonisation",
+          "Exposure",
+          "produces"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows “Climate policy is often presented as protection for a distant future,…” in “Clean Air and the Health Dividend”?",
+        "prompt": "Which word completes the sentence you hear?\n\n“Having _____ hospital admissions alongside pollution levels, public-health teams can estimate where action would prevent the greatest harm.”",
         "options": [
-          "Climate policy is often presented as protection for a distant future, but cleaner energy can improve health almost immediately.",
-          "Coal, diesel, and other fuels release fine particulate matter that enters the lungs and bloodstream.",
-          "Having measured hospital admissions alongside pollution levels, public-health teams can estimate where action would prevent the greatest harm.",
-          "If costs are shifted onto households with the fewest resources, a climate measure may deepen inequality even while reducing emissions overall."
+          "Decarbonisation",
+          "measured",
+          "greenhouse-gas",
+          "public-health"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Clean Air and the Health Dividend”?",
+        "prompt": "Choose the missing word from the recording.\n\n“If costs are shifted onto households with the fewest _____, a climate measure may deepen inequality even while reducing emissions overall.”",
         "options": [
-          "Climate policy is often presented as protection for a distant future, but cleaner energy can improve health almost immediately.",
-          "Having measured hospital admissions alongside pollution levels, public-health teams can estimate where action would prevent the greatest harm.",
-          "A family experiencing energy poverty cannot simply replace a vehicle, heating system, or stove because officials recommend it.",
-          "If costs are shifted onto households with the fewest resources, a climate measure may deepen inequality even while reducing emissions overall."
+          "Decarbonisation",
+          "greenhouse-gas",
+          "resources",
+          "public-health"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes “Clean Air and the Health Dividend”?",
+        "prompt": "What is the exact missing word in this audio detail?\n\n“It is a choice about whose exposure is reduced first, who can afford new technology, and _____ the health gains of cleaner energy are treated as a public benefit rather than a private luxury.”",
         "options": [
-          "Climate policy is often presented as protection for a distant future, but cleaner energy can improve health almost immediately.",
-          "Having measured hospital admissions alongside pollution levels, public-health teams can estimate where action would prevent the greatest harm.",
-          "If costs are shifted onto households with the fewest resources, a climate measure may deepen inequality even while reducing emissions overall.",
-          "It is a choice about whose exposure is reduced first, who can afford new technology, and whether the health gains of cleaner energy are treated as a public benefit rather than a private luxury."
+          "Decarbonisation",
+          "greenhouse-gas",
+          "public-health",
+          "whether"
         ]
       }
     ]
@@ -20648,92 +20648,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces “Learning by Exposure: How Input Becomes Language”?",
+            "prompt": "Complete this detail from the audio.\n\n“Much of a language is acquired incidentally while attention is directed toward a story, _____, game, or task.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Much of a language is acquired incidentally while attention is directed toward a story, conversation, game, or task."
+                "text": "conversation"
               },
               {
                 "id": "o2",
-                "text": "Comprehensible input is therefore neither perfectly understood language nor an incomprehensible flood."
+                "text": "incomprehensible"
               },
               {
                 "id": "o3",
-                "text": "A brief gloss, a highlighted expression, or a question asked after listening may direct attention without turning the entire activity into vocabulary study."
+                "text": "attention"
               },
               {
                 "id": "o4",
-                "text": "Instruction can prepare learners to understand; meaningful input then supplies the quantity, diversity, and surprise through which language becomes more than a list of taught items."
+                "text": "knowledge"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows “Much of a language is acquired incidentally while attention is…” in “Learning by Exposure: How Input Becomes Language”?",
+            "prompt": "Which word completes the sentence you hear?\n\n“Comprehensible input is _____ neither perfectly understood language nor an incomprehensible flood.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Much of a language is acquired incidentally while attention is directed toward a story, conversation, game, or task."
+                "text": "incomprehensible"
               },
               {
                 "id": "o2",
-                "text": "A learner may infer a word from context without having intended to memorise it."
+                "text": "therefore"
               },
               {
                 "id": "o3",
-                "text": "Comprehensible input is therefore neither perfectly understood language nor an incomprehensible flood."
+                "text": "Comprehensible"
               },
               {
                 "id": "o4",
-                "text": "A brief gloss, a highlighted expression, or a question asked after listening may direct attention without turning the entire activity into vocabulary study."
+                "text": "representation"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Learning by Exposure: How Input Becomes Language”?",
+            "prompt": "Choose the missing word from the recording.\n\n“A brief gloss, a highlighted expression, or a question asked after _____ may direct attention without turning the entire activity into vocabulary study.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Much of a language is acquired incidentally while attention is directed toward a story, conversation, game, or task."
+                "text": "incomprehensible"
               },
               {
                 "id": "o2",
-                "text": "Comprehensible input is therefore neither perfectly understood language nor an incomprehensible flood."
+                "text": "Comprehensible"
               },
               {
                 "id": "o3",
-                "text": "Frequency helps, but repeated encounters need variation."
+                "text": "listening"
               },
               {
                 "id": "o4",
-                "text": "A brief gloss, a highlighted expression, or a question asked after listening may direct attention without turning the entire activity into vocabulary study."
+                "text": "representation"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes “Learning by Exposure: How Input Becomes Language”?",
+            "prompt": "What is the exact missing word in this audio detail?\n\n“Instruction can prepare learners to understand; meaningful input then _____ the quantity, diversity, and surprise through which language becomes more than a list of taught items.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Much of a language is acquired incidentally while attention is directed toward a story, conversation, game, or task."
+                "text": "incomprehensible"
               },
               {
                 "id": "o2",
-                "text": "Comprehensible input is therefore neither perfectly understood language nor an incomprehensible flood."
+                "text": "Comprehensible"
               },
               {
                 "id": "o3",
-                "text": "A brief gloss, a highlighted expression, or a question asked after listening may direct attention without turning the entire activity into vocabulary study."
+                "text": "representation"
               },
               {
                 "id": "o4",
-                "text": "Instruction can prepare learners to understand; meaningful input then supplies the quantity, diversity, and surprise through which language becomes more than a list of taught items."
+                "text": "supplies"
               }
             ]
           }
@@ -20744,42 +20744,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces “Learning by Exposure: How Input Becomes Language”?",
+        "prompt": "Complete this detail from the audio.\n\n“Much of a language is acquired incidentally while attention is directed toward a story, _____, game, or task.”",
         "options": [
-          "Much of a language is acquired incidentally while attention is directed toward a story, conversation, game, or task.",
-          "Comprehensible input is therefore neither perfectly understood language nor an incomprehensible flood.",
-          "A brief gloss, a highlighted expression, or a question asked after listening may direct attention without turning the entire activity into vocabulary study.",
-          "Instruction can prepare learners to understand; meaningful input then supplies the quantity, diversity, and surprise through which language becomes more than a list of taught items."
+          "conversation",
+          "incomprehensible",
+          "attention",
+          "knowledge"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows “Much of a language is acquired incidentally while attention is…” in “Learning by Exposure: How Input Becomes Language”?",
+        "prompt": "Which word completes the sentence you hear?\n\n“Comprehensible input is _____ neither perfectly understood language nor an incomprehensible flood.”",
         "options": [
-          "Much of a language is acquired incidentally while attention is directed toward a story, conversation, game, or task.",
-          "A learner may infer a word from context without having intended to memorise it.",
-          "Comprehensible input is therefore neither perfectly understood language nor an incomprehensible flood.",
-          "A brief gloss, a highlighted expression, or a question asked after listening may direct attention without turning the entire activity into vocabulary study."
+          "incomprehensible",
+          "therefore",
+          "Comprehensible",
+          "representation"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Learning by Exposure: How Input Becomes Language”?",
+        "prompt": "Choose the missing word from the recording.\n\n“A brief gloss, a highlighted expression, or a question asked after _____ may direct attention without turning the entire activity into vocabulary study.”",
         "options": [
-          "Much of a language is acquired incidentally while attention is directed toward a story, conversation, game, or task.",
-          "Comprehensible input is therefore neither perfectly understood language nor an incomprehensible flood.",
-          "Frequency helps, but repeated encounters need variation.",
-          "A brief gloss, a highlighted expression, or a question asked after listening may direct attention without turning the entire activity into vocabulary study."
+          "incomprehensible",
+          "Comprehensible",
+          "listening",
+          "representation"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes “Learning by Exposure: How Input Becomes Language”?",
+        "prompt": "What is the exact missing word in this audio detail?\n\n“Instruction can prepare learners to understand; meaningful input then _____ the quantity, diversity, and surprise through which language becomes more than a list of taught items.”",
         "options": [
-          "Much of a language is acquired incidentally while attention is directed toward a story, conversation, game, or task.",
-          "Comprehensible input is therefore neither perfectly understood language nor an incomprehensible flood.",
-          "A brief gloss, a highlighted expression, or a question asked after listening may direct attention without turning the entire activity into vocabulary study.",
-          "Instruction can prepare learners to understand; meaningful input then supplies the quantity, diversity, and surprise through which language becomes more than a list of taught items."
+          "incomprehensible",
+          "Comprehensible",
+          "representation",
+          "supplies"
         ]
       }
     ]
@@ -20869,92 +20869,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces “What to Do When Your Flight Is Canceled”?",
+            "prompt": "Complete this detail from the audio.\n\n“Travel presenter Noah Reed was waiting to board a flight when the airline announced a _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Travel presenter Noah Reed was waiting to board a flight when the airline announced a cancellation."
+                "text": "cancellation"
               },
               {
                 "id": "o2",
-                "text": "A family nearby did not understand the announcement, so Noah helped them find the customer-service desk."
+                "text": "customer-service"
               },
               {
                 "id": "o3",
-                "text": "Before leaving the airport, he confirmed the baggage arrangements and downloaded the new tickets."
+                "text": "presenter"
               },
               {
                 "id": "o4",
-                "text": "Noah recommends checking passenger rights, asking specific questions, and keeping important documents together whenever a journey changes unexpectedly."
+                "text": "announced"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows “Travel presenter Noah Reed was waiting to board a flight when the…” in “What to Do When Your Flight Is Canceled”?",
+            "prompt": "Which word completes the sentence you hear?\n\n“A family _____ did not understand the announcement, so Noah helped them find the customer-service desk.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Travel presenter Noah Reed was waiting to board a flight when the airline announced a cancellation."
+                "text": "customer-service"
               },
               {
                 "id": "o2",
-                "text": "While other passengers were forming a long line, he was checking the airline’s app and looking for another route."
+                "text": "nearby"
               },
               {
                 "id": "o3",
-                "text": "A family nearby did not understand the announcement, so Noah helped them find the customer-service desk."
+                "text": "transportation"
               },
               {
                 "id": "o4",
-                "text": "Before leaving the airport, he confirmed the baggage arrangements and downloaded the new tickets."
+                "text": "cancellation"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “What to Do When Your Flight Is Canceled”?",
+            "prompt": "Choose the missing word from the recording.\n\n“Before leaving the airport, he confirmed the _____ arrangements and downloaded the new tickets.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Travel presenter Noah Reed was waiting to board a flight when the airline announced a cancellation."
+                "text": "customer-service"
               },
               {
                 "id": "o2",
-                "text": "A family nearby did not understand the announcement, so Noah helped them find the customer-service desk."
+                "text": "transportation"
               },
               {
                 "id": "o3",
-                "text": "He kept track of receipts because the airline might refund meals and transportation."
+                "text": "baggage"
               },
               {
                 "id": "o4",
-                "text": "Before leaving the airport, he confirmed the baggage arrangements and downloaded the new tickets."
+                "text": "cancellation"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes “What to Do When Your Flight Is Canceled”?",
+            "prompt": "What is the exact missing word in this audio detail?\n\n“Noah recommends checking passenger rights, _____ specific questions, and keeping important documents together whenever a journey changes unexpectedly.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Travel presenter Noah Reed was waiting to board a flight when the airline announced a cancellation."
+                "text": "customer-service"
               },
               {
                 "id": "o2",
-                "text": "A family nearby did not understand the announcement, so Noah helped them find the customer-service desk."
+                "text": "transportation"
               },
               {
                 "id": "o3",
-                "text": "Before leaving the airport, he confirmed the baggage arrangements and downloaded the new tickets."
+                "text": "cancellation"
               },
               {
                 "id": "o4",
-                "text": "Noah recommends checking passenger rights, asking specific questions, and keeping important documents together whenever a journey changes unexpectedly."
+                "text": "asking"
               }
             ]
           }
@@ -20965,42 +20965,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces “What to Do When Your Flight Is Canceled”?",
+        "prompt": "Complete this detail from the audio.\n\n“Travel presenter Noah Reed was waiting to board a flight when the airline announced a _____.”",
         "options": [
-          "Travel presenter Noah Reed was waiting to board a flight when the airline announced a cancellation.",
-          "A family nearby did not understand the announcement, so Noah helped them find the customer-service desk.",
-          "Before leaving the airport, he confirmed the baggage arrangements and downloaded the new tickets.",
-          "Noah recommends checking passenger rights, asking specific questions, and keeping important documents together whenever a journey changes unexpectedly."
+          "cancellation",
+          "customer-service",
+          "presenter",
+          "announced"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows “Travel presenter Noah Reed was waiting to board a flight when the…” in “What to Do When Your Flight Is Canceled”?",
+        "prompt": "Which word completes the sentence you hear?\n\n“A family _____ did not understand the announcement, so Noah helped them find the customer-service desk.”",
         "options": [
-          "Travel presenter Noah Reed was waiting to board a flight when the airline announced a cancellation.",
-          "While other passengers were forming a long line, he was checking the airline’s app and looking for another route.",
-          "A family nearby did not understand the announcement, so Noah helped them find the customer-service desk.",
-          "Before leaving the airport, he confirmed the baggage arrangements and downloaded the new tickets."
+          "customer-service",
+          "nearby",
+          "transportation",
+          "cancellation"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “What to Do When Your Flight Is Canceled”?",
+        "prompt": "Choose the missing word from the recording.\n\n“Before leaving the airport, he confirmed the _____ arrangements and downloaded the new tickets.”",
         "options": [
-          "Travel presenter Noah Reed was waiting to board a flight when the airline announced a cancellation.",
-          "A family nearby did not understand the announcement, so Noah helped them find the customer-service desk.",
-          "He kept track of receipts because the airline might refund meals and transportation.",
-          "Before leaving the airport, he confirmed the baggage arrangements and downloaded the new tickets."
+          "customer-service",
+          "transportation",
+          "baggage",
+          "cancellation"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes “What to Do When Your Flight Is Canceled”?",
+        "prompt": "What is the exact missing word in this audio detail?\n\n“Noah recommends checking passenger rights, _____ specific questions, and keeping important documents together whenever a journey changes unexpectedly.”",
         "options": [
-          "Travel presenter Noah Reed was waiting to board a flight when the airline announced a cancellation.",
-          "A family nearby did not understand the announcement, so Noah helped them find the customer-service desk.",
-          "Before leaving the airport, he confirmed the baggage arrangements and downloaded the new tickets.",
-          "Noah recommends checking passenger rights, asking specific questions, and keeping important documents together whenever a journey changes unexpectedly."
+          "customer-service",
+          "transportation",
+          "cancellation",
+          "asking"
         ]
       }
     ]
@@ -21140,92 +21140,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces “Why Public Contracts Need Transparency”?",
+            "prompt": "Complete this detail from the audio.\n\n“Host: A public procurement contract doubled in price, although several repairs were never _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: A public procurement contract doubled in price, although several repairs were never completed."
+                "text": "completed"
               },
               {
                 "id": "o2",
-                "text": "Host: Some residents immediately alleged bribery."
+                "text": "accountability"
               },
               {
                 "id": "o3",
-                "text": "The documents might also have been removed later to protect someone."
+                "text": "investigators"
               },
               {
                 "id": "o4",
-                "text": "Transparent records would allow residents to distinguish poor management from deliberate wrongdoing and would make future contracts easier to examine."
+                "text": "whistleblower"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows “A public procurement contract doubled in price, although several…” in “Why Public Contracts Need Transparency”?",
+            "prompt": "Which word completes the sentence you hear?\n\n“Host: _____ residents immediately alleged bribery.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: A public procurement contract doubled in price, although several repairs were never completed."
+                "text": "accountability"
               },
               {
                 "id": "o2",
-                "text": "What might have happened?"
+                "text": "Some"
               },
               {
                 "id": "o3",
-                "text": "Host: Some residents immediately alleged bribery."
+                "text": "investigators"
               },
               {
                 "id": "o4",
-                "text": "The documents might also have been removed later to protect someone."
+                "text": "whistleblower"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Why Public Contracts Need Transparency”?",
+            "prompt": "Choose the missing word from the recording.\n\n“The documents might also have been removed later to protect _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: A public procurement contract doubled in price, although several repairs were never completed."
+                "text": "accountability"
               },
               {
                 "id": "o2",
-                "text": "Host: Some residents immediately alleged bribery."
+                "text": "investigators"
               },
               {
                 "id": "o3",
-                "text": "Guest: Officials may have acted too quickly after the hurricane, but the missing records suggest more than simple confusion."
+                "text": "someone"
               },
               {
                 "id": "o4",
-                "text": "The documents might also have been removed later to protect someone."
+                "text": "whistleblower"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes “Why Public Contracts Need Transparency”?",
+            "prompt": "What is the exact missing word in this audio detail?\n\n“Transparent records would allow residents to distinguish poor management from _____ wrongdoing and would make future contracts easier to examine.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: A public procurement contract doubled in price, although several repairs were never completed."
+                "text": "accountability"
               },
               {
                 "id": "o2",
-                "text": "Host: Some residents immediately alleged bribery."
+                "text": "doubled"
               },
               {
                 "id": "o3",
-                "text": "The documents might also have been removed later to protect someone."
+                "text": "several"
               },
               {
                 "id": "o4",
-                "text": "Transparent records would allow residents to distinguish poor management from deliberate wrongdoing and would make future contracts easier to examine."
+                "text": "deliberate"
               }
             ]
           }
@@ -21236,42 +21236,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces “Why Public Contracts Need Transparency”?",
+        "prompt": "Complete this detail from the audio.\n\n“Host: A public procurement contract doubled in price, although several repairs were never _____.”",
         "options": [
-          "Host: A public procurement contract doubled in price, although several repairs were never completed.",
-          "Host: Some residents immediately alleged bribery.",
-          "The documents might also have been removed later to protect someone.",
-          "Transparent records would allow residents to distinguish poor management from deliberate wrongdoing and would make future contracts easier to examine."
+          "completed",
+          "accountability",
+          "investigators",
+          "whistleblower"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows “A public procurement contract doubled in price, although several…” in “Why Public Contracts Need Transparency”?",
+        "prompt": "Which word completes the sentence you hear?\n\n“Host: _____ residents immediately alleged bribery.”",
         "options": [
-          "Host: A public procurement contract doubled in price, although several repairs were never completed.",
-          "What might have happened?",
-          "Host: Some residents immediately alleged bribery.",
-          "The documents might also have been removed later to protect someone."
+          "accountability",
+          "Some",
+          "investigators",
+          "whistleblower"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Why Public Contracts Need Transparency”?",
+        "prompt": "Choose the missing word from the recording.\n\n“The documents might also have been removed later to protect _____.”",
         "options": [
-          "Host: A public procurement contract doubled in price, although several repairs were never completed.",
-          "Host: Some residents immediately alleged bribery.",
-          "Guest: Officials may have acted too quickly after the hurricane, but the missing records suggest more than simple confusion.",
-          "The documents might also have been removed later to protect someone."
+          "accountability",
+          "investigators",
+          "someone",
+          "whistleblower"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes “Why Public Contracts Need Transparency”?",
+        "prompt": "What is the exact missing word in this audio detail?\n\n“Transparent records would allow residents to distinguish poor management from _____ wrongdoing and would make future contracts easier to examine.”",
         "options": [
-          "Host: A public procurement contract doubled in price, although several repairs were never completed.",
-          "Host: Some residents immediately alleged bribery.",
-          "The documents might also have been removed later to protect someone.",
-          "Transparent records would allow residents to distinguish poor management from deliberate wrongdoing and would make future contracts easier to examine."
+          "accountability",
+          "doubled",
+          "several",
+          "deliberate"
         ]
       }
     ]
@@ -26072,92 +26072,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In “My Busy Morning”, which detail establishes the situation?",
+            "prompt": "Complete this detail from the audio.\n\n“I wake up at six thirty every _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "I wake up at six thirty every morning."
+                "text": "morning"
               },
               {
                 "id": "o2",
-                "text": "At seven o’clock, I eat breakfast with my family."
+                "text": "wake"
               },
               {
                 "id": "o3",
-                "text": "After breakfast, I put my books in my school bag."
+                "text": "take"
               },
               {
                 "id": "o4",
-                "text": "I am sometimes tired in the morning, but I like seeing my friends and learning new things."
+                "text": "Then"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “I wake up at six thirty every morning.”, what happens next in “My Busy Morning”?",
+            "prompt": "Which word completes the sentence you hear?\n\n“At seven o’clock, I eat _____ with my family.”",
             "options": [
               {
                 "id": "o1",
-                "text": "I wake up at six thirty every morning."
+                "text": "thirty"
               },
               {
                 "id": "o2",
-                "text": "At seven o’clock, I eat breakfast with my family."
+                "text": "breakfast"
               },
               {
                 "id": "o3",
-                "text": "After breakfast, I put my books in my school bag."
+                "text": "shower"
               },
               {
                 "id": "o4",
-                "text": "I am sometimes tired in the morning, but I like seeing my friends and learning new things."
+                "text": "family"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in “My Busy Morning”?",
+            "prompt": "Choose the missing word from the recording.\n\n“After breakfast, I put my books in my _____ bag.”",
             "options": [
               {
                 "id": "o1",
-                "text": "I wake up at six thirty every morning."
+                "text": "six"
               },
               {
                 "id": "o2",
-                "text": "At seven o’clock, I eat breakfast with my family."
+                "text": "get"
               },
               {
                 "id": "o3",
-                "text": "After breakfast, I put my books in my school bag."
+                "text": "school"
               },
               {
                 "id": "o4",
-                "text": "I am sometimes tired in the morning, but I like seeing my friends and learning new things."
+                "text": "out"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “My Busy Morning” after “After breakfast, I put my books in my school bag.”?",
+            "prompt": "What is the exact missing word in this audio detail?\n\n“I am sometimes tired in the morning, but I like seeing my friends and learning new _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "I wake up at six thirty every morning."
+                "text": "six"
               },
               {
                 "id": "o2",
-                "text": "At seven o’clock, I eat breakfast with my family."
+                "text": "get"
               },
               {
                 "id": "o3",
-                "text": "After breakfast, I put my books in my school bag."
+                "text": "out"
               },
               {
                 "id": "o4",
-                "text": "I am sometimes tired in the morning, but I like seeing my friends and learning new things."
+                "text": "things"
               }
             ]
           }
@@ -26168,42 +26168,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In “My Busy Morning”, which detail establishes the situation?",
+        "prompt": "Complete this detail from the audio.\n\n“I wake up at six thirty every _____.”",
         "options": [
-          "I wake up at six thirty every morning.",
-          "At seven o’clock, I eat breakfast with my family.",
-          "After breakfast, I put my books in my school bag.",
-          "I am sometimes tired in the morning, but I like seeing my friends and learning new things."
+          "morning",
+          "wake",
+          "take",
+          "Then"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “I wake up at six thirty every morning.”, what happens next in “My Busy Morning”?",
+        "prompt": "Which word completes the sentence you hear?\n\n“At seven o’clock, I eat _____ with my family.”",
         "options": [
-          "I wake up at six thirty every morning.",
-          "At seven o’clock, I eat breakfast with my family.",
-          "After breakfast, I put my books in my school bag.",
-          "I am sometimes tired in the morning, but I like seeing my friends and learning new things."
+          "thirty",
+          "breakfast",
+          "shower",
+          "family"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in “My Busy Morning”?",
+        "prompt": "Choose the missing word from the recording.\n\n“After breakfast, I put my books in my _____ bag.”",
         "options": [
-          "I wake up at six thirty every morning.",
-          "At seven o’clock, I eat breakfast with my family.",
-          "After breakfast, I put my books in my school bag.",
-          "I am sometimes tired in the morning, but I like seeing my friends and learning new things."
+          "six",
+          "get",
+          "school",
+          "out"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “My Busy Morning” after “After breakfast, I put my books in my school bag.”?",
+        "prompt": "What is the exact missing word in this audio detail?\n\n“I am sometimes tired in the morning, but I like seeing my friends and learning new _____.”",
         "options": [
-          "I wake up at six thirty every morning.",
-          "At seven o’clock, I eat breakfast with my family.",
-          "After breakfast, I put my books in my school bag.",
-          "I am sometimes tired in the morning, but I like seeing my friends and learning new things."
+          "six",
+          "get",
+          "out",
+          "things"
         ]
       }
     ]
@@ -26334,92 +26334,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In “A Weekend in the Countryside”, which detail establishes the situation?",
+            "prompt": "Complete this detail from the audio.\n\n“Last weekend, Ryan visited his grandparents in the _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Last weekend, Ryan visited his grandparents in the countryside."
+                "text": "countryside"
               },
               {
                 "id": "o2",
-                "text": "The weather was cool and sunny, so they spent most of the day outside."
+                "text": "traveled"
               },
               {
                 "id": "o3",
-                "text": "That evening, the family sat outside and listened to old stories."
+                "text": "Saturday"
               },
               {
                 "id": "o4",
-                "text": "He returned home tired but happy on Sunday afternoon."
+                "text": "pictures"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Last weekend, Ryan visited his grandparents in the countryside.”, what happens next in “A Weekend in the Countryside”?",
+            "prompt": "Which word completes the sentence you hear?\n\n“The weather was cool and sunny, so they spent most of the day _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Last weekend, Ryan visited his grandparents in the countryside."
+                "text": "grandparents"
               },
               {
                 "id": "o2",
-                "text": "The weather was cool and sunny, so they spent most of the day outside."
+                "text": "outside"
               },
               {
                 "id": "o3",
-                "text": "That evening, the family sat outside and listened to old stories."
+                "text": "countryside"
               },
               {
                 "id": "o4",
-                "text": "He returned home tired but happy on Sunday afternoon."
+                "text": "grandfather"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in “A Weekend in the Countryside”?",
+            "prompt": "Choose the missing word from the recording.\n\n“That evening, the family sat outside and _____ to old stories.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Last weekend, Ryan visited his grandparents in the countryside."
+                "text": "grandparents"
               },
               {
                 "id": "o2",
-                "text": "The weather was cool and sunny, so they spent most of the day outside."
+                "text": "countryside"
               },
               {
                 "id": "o3",
-                "text": "That evening, the family sat outside and listened to old stories."
+                "text": "listened"
               },
               {
                 "id": "o4",
-                "text": "He returned home tired but happy on Sunday afternoon."
+                "text": "early"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “A Weekend in the Countryside” after “That evening, the family sat outside and listened to old stories.”?",
+            "prompt": "What is the exact missing word in this audio detail?\n\n“He returned home tired but happy on Sunday _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Last weekend, Ryan visited his grandparents in the countryside."
+                "text": "grandparents"
               },
               {
                 "id": "o2",
-                "text": "The weather was cool and sunny, so they spent most of the day outside."
+                "text": "sister"
               },
               {
                 "id": "o3",
-                "text": "That evening, the family sat outside and listened to old stories."
+                "text": "helped"
               },
               {
                 "id": "o4",
-                "text": "He returned home tired but happy on Sunday afternoon."
+                "text": "afternoon"
               }
             ]
           }
@@ -26430,42 +26430,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In “A Weekend in the Countryside”, which detail establishes the situation?",
+        "prompt": "Complete this detail from the audio.\n\n“Last weekend, Ryan visited his grandparents in the _____.”",
         "options": [
-          "Last weekend, Ryan visited his grandparents in the countryside.",
-          "The weather was cool and sunny, so they spent most of the day outside.",
-          "That evening, the family sat outside and listened to old stories.",
-          "He returned home tired but happy on Sunday afternoon."
+          "countryside",
+          "traveled",
+          "Saturday",
+          "pictures"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Last weekend, Ryan visited his grandparents in the countryside.”, what happens next in “A Weekend in the Countryside”?",
+        "prompt": "Which word completes the sentence you hear?\n\n“The weather was cool and sunny, so they spent most of the day _____.”",
         "options": [
-          "Last weekend, Ryan visited his grandparents in the countryside.",
-          "The weather was cool and sunny, so they spent most of the day outside.",
-          "That evening, the family sat outside and listened to old stories.",
-          "He returned home tired but happy on Sunday afternoon."
+          "grandparents",
+          "outside",
+          "countryside",
+          "grandfather"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in “A Weekend in the Countryside”?",
+        "prompt": "Choose the missing word from the recording.\n\n“That evening, the family sat outside and _____ to old stories.”",
         "options": [
-          "Last weekend, Ryan visited his grandparents in the countryside.",
-          "The weather was cool and sunny, so they spent most of the day outside.",
-          "That evening, the family sat outside and listened to old stories.",
-          "He returned home tired but happy on Sunday afternoon."
+          "grandparents",
+          "countryside",
+          "listened",
+          "early"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “A Weekend in the Countryside” after “That evening, the family sat outside and listened to old stories.”?",
+        "prompt": "What is the exact missing word in this audio detail?\n\n“He returned home tired but happy on Sunday _____.”",
         "options": [
-          "Last weekend, Ryan visited his grandparents in the countryside.",
-          "The weather was cool and sunny, so they spent most of the day outside.",
-          "That evening, the family sat outside and listened to old stories.",
-          "He returned home tired but happy on Sunday afternoon."
+          "grandparents",
+          "sister",
+          "helped",
+          "afternoon"
         ]
       }
     ]
@@ -26595,92 +26595,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces “The Architecture of Loneliness”?",
+            "prompt": "Complete this detail from the audio.\n\n“Loneliness is often described as an individual emotion, yet its causes are partly shaped by the places and institutions _____ us.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Loneliness is often described as an individual emotion, yet its causes are partly shaped by the places and institutions around us."
+                "text": "around"
               },
               {
                 "id": "o2",
-                "text": "Research links persistent disconnection with poorer mental and physical health, although it would be misleading to claim that every lonely period causes illness."
+                "text": "infrastructure"
               },
               {
                 "id": "o3",
-                "text": "These settings are not a guaranteed cure, but they create protective conditions."
+                "text": "disconnection"
               },
               {
                 "id": "o4",
-                "text": "It recognises that connection becomes easier when societies design everyday life so that people can meet, contribute, and belong."
+                "text": "companionship"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows “Loneliness is often described as an individual emotion, yet its causes…” in “The Architecture of Loneliness”?",
+            "prompt": "Which word completes the sentence you hear?\n\n“Research links _____ disconnection with poorer mental and physical health, although it would be misleading to claim that every lonely period causes illness.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Loneliness is often described as an individual emotion, yet its causes are partly shaped by the places and institutions around us."
+                "text": "infrastructure"
               },
               {
                 "id": "o2",
-                "text": "What many people lack is not constant company but meaningful, reliable connection."
+                "text": "persistent"
               },
               {
                 "id": "o3",
-                "text": "Research links persistent disconnection with poorer mental and physical health, although it would be misleading to claim that every lonely period causes illness."
+                "text": "emotion"
               },
               {
                 "id": "o4",
-                "text": "These settings are not a guaranteed cure, but they create protective conditions."
+                "text": "company"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “The Architecture of Loneliness”?",
+            "prompt": "Choose the missing word from the recording.\n\n“These settings are not a guaranteed cure, but they _____ protective conditions.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Loneliness is often described as an individual emotion, yet its causes are partly shaped by the places and institutions around us."
+                "text": "infrastructure"
               },
               {
                 "id": "o2",
-                "text": "Research links persistent disconnection with poorer mental and physical health, although it would be misleading to claim that every lonely period causes illness."
+                "text": "disconnection"
               },
               {
                 "id": "o3",
-                "text": "This distinction matters because loneliness and social isolation are related but not identical."
+                "text": "create"
               },
               {
                 "id": "o4",
-                "text": "These settings are not a guaranteed cure, but they create protective conditions."
+                "text": "companionship"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes “The Architecture of Loneliness”?",
+            "prompt": "What is the exact missing word in this audio detail?\n\n“It recognises that connection becomes easier when societies _____ everyday life so that people can meet, contribute, and belong.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Loneliness is often described as an individual emotion, yet its causes are partly shaped by the places and institutions around us."
+                "text": "infrastructure"
               },
               {
                 "id": "o2",
-                "text": "Research links persistent disconnection with poorer mental and physical health, although it would be misleading to claim that every lonely period causes illness."
+                "text": "disconnection"
               },
               {
                 "id": "o3",
-                "text": "These settings are not a guaranteed cure, but they create protective conditions."
+                "text": "companionship"
               },
               {
                 "id": "o4",
-                "text": "It recognises that connection becomes easier when societies design everyday life so that people can meet, contribute, and belong."
+                "text": "design"
               }
             ]
           }
@@ -26691,42 +26691,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces “The Architecture of Loneliness”?",
+        "prompt": "Complete this detail from the audio.\n\n“Loneliness is often described as an individual emotion, yet its causes are partly shaped by the places and institutions _____ us.”",
         "options": [
-          "Loneliness is often described as an individual emotion, yet its causes are partly shaped by the places and institutions around us.",
-          "Research links persistent disconnection with poorer mental and physical health, although it would be misleading to claim that every lonely period causes illness.",
-          "These settings are not a guaranteed cure, but they create protective conditions.",
-          "It recognises that connection becomes easier when societies design everyday life so that people can meet, contribute, and belong."
+          "around",
+          "infrastructure",
+          "disconnection",
+          "companionship"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows “Loneliness is often described as an individual emotion, yet its causes…” in “The Architecture of Loneliness”?",
+        "prompt": "Which word completes the sentence you hear?\n\n“Research links _____ disconnection with poorer mental and physical health, although it would be misleading to claim that every lonely period causes illness.”",
         "options": [
-          "Loneliness is often described as an individual emotion, yet its causes are partly shaped by the places and institutions around us.",
-          "What many people lack is not constant company but meaningful, reliable connection.",
-          "Research links persistent disconnection with poorer mental and physical health, although it would be misleading to claim that every lonely period causes illness.",
-          "These settings are not a guaranteed cure, but they create protective conditions."
+          "infrastructure",
+          "persistent",
+          "emotion",
+          "company"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “The Architecture of Loneliness”?",
+        "prompt": "Choose the missing word from the recording.\n\n“These settings are not a guaranteed cure, but they _____ protective conditions.”",
         "options": [
-          "Loneliness is often described as an individual emotion, yet its causes are partly shaped by the places and institutions around us.",
-          "Research links persistent disconnection with poorer mental and physical health, although it would be misleading to claim that every lonely period causes illness.",
-          "This distinction matters because loneliness and social isolation are related but not identical.",
-          "These settings are not a guaranteed cure, but they create protective conditions."
+          "infrastructure",
+          "disconnection",
+          "create",
+          "companionship"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes “The Architecture of Loneliness”?",
+        "prompt": "What is the exact missing word in this audio detail?\n\n“It recognises that connection becomes easier when societies _____ everyday life so that people can meet, contribute, and belong.”",
         "options": [
-          "Loneliness is often described as an individual emotion, yet its causes are partly shaped by the places and institutions around us.",
-          "Research links persistent disconnection with poorer mental and physical health, although it would be misleading to claim that every lonely period causes illness.",
-          "These settings are not a guaranteed cure, but they create protective conditions.",
-          "It recognises that connection becomes easier when societies design everyday life so that people can meet, contribute, and belong."
+          "infrastructure",
+          "disconnection",
+          "companionship",
+          "design"
         ]
       }
     ]
@@ -26876,92 +26876,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces “When Multimedia Overloads the Mind”?",
+            "prompt": "Complete this detail from the audio.\n\n“A video containing speech, captions, animation, and written labels may appear educationally rich, yet adding modes does not guarantee deeper _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "A video containing speech, captions, animation, and written labels may appear educationally rich, yet adding modes does not guarantee deeper learning."
+                "text": "learning"
               },
               {
                 "id": "o2",
-                "text": "The redundancy effect is similarly misunderstood."
+                "text": "educationally"
               },
               {
                 "id": "o3",
-                "text": "Removing them completely may be equally unhelpful if comprehension collapses."
+                "text": "Multimodality"
               },
               {
                 "id": "o4",
-                "text": "A well-designed lesson allows sound, image, and text to reinforce a mental model without requiring the learner to solve the presentation itself before engaging with the content."
+                "text": "misunderstood"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows “A video containing speech, captions, animation, and written labels may…” in “When Multimedia Overloads the Mind”?",
+            "prompt": "Which word completes the sentence you hear?\n\n“The redundancy _____ is similarly misunderstood.”",
             "options": [
               {
                 "id": "o1",
-                "text": "A video containing speech, captions, animation, and written labels may appear educationally rich, yet adding modes does not guarantee deeper learning."
+                "text": "educationally"
               },
               {
                 "id": "o2",
-                "text": "Multimodality helps when each element performs a useful function."
+                "text": "effect"
               },
               {
                 "id": "o3",
-                "text": "The redundancy effect is similarly misunderstood."
+                "text": "Multimodality"
               },
               {
                 "id": "o4",
-                "text": "Removing them completely may be equally unhelpful if comprehension collapses."
+                "text": "misunderstood"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “When Multimedia Overloads the Mind”?",
+            "prompt": "Choose the missing word from the recording.\n\n“Removing them completely may be equally _____ if comprehension collapses.”",
             "options": [
               {
                 "id": "o1",
-                "text": "A video containing speech, captions, animation, and written labels may appear educationally rich, yet adding modes does not guarantee deeper learning."
+                "text": "educationally"
               },
               {
                 "id": "o2",
-                "text": "The redundancy effect is similarly misunderstood."
+                "text": "Multimodality"
               },
               {
                 "id": "o3",
-                "text": "Cohesive economy also matters: interfaces should reference an idea consistently rather than renaming it for stylistic variety."
+                "text": "unhelpful"
               },
               {
                 "id": "o4",
-                "text": "Removing them completely may be equally unhelpful if comprehension collapses."
+                "text": "misunderstood"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes “When Multimedia Overloads the Mind”?",
+            "prompt": "What is the exact missing word in this audio detail?\n\n“A well-designed lesson allows sound, image, and text to reinforce a mental model _____ requiring the learner to solve the presentation itself before engaging with the content.”",
             "options": [
               {
                 "id": "o1",
-                "text": "A video containing speech, captions, animation, and written labels may appear educationally rich, yet adding modes does not guarantee deeper learning."
+                "text": "educationally"
               },
               {
                 "id": "o2",
-                "text": "The redundancy effect is similarly misunderstood."
+                "text": "Multimodality"
               },
               {
                 "id": "o3",
-                "text": "Removing them completely may be equally unhelpful if comprehension collapses."
+                "text": "misunderstood"
               },
               {
                 "id": "o4",
-                "text": "A well-designed lesson allows sound, image, and text to reinforce a mental model without requiring the learner to solve the presentation itself before engaging with the content."
+                "text": "without"
               }
             ]
           }
@@ -26972,42 +26972,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces “When Multimedia Overloads the Mind”?",
+        "prompt": "Complete this detail from the audio.\n\n“A video containing speech, captions, animation, and written labels may appear educationally rich, yet adding modes does not guarantee deeper _____.”",
         "options": [
-          "A video containing speech, captions, animation, and written labels may appear educationally rich, yet adding modes does not guarantee deeper learning.",
-          "The redundancy effect is similarly misunderstood.",
-          "Removing them completely may be equally unhelpful if comprehension collapses.",
-          "A well-designed lesson allows sound, image, and text to reinforce a mental model without requiring the learner to solve the presentation itself before engaging with the content."
+          "learning",
+          "educationally",
+          "Multimodality",
+          "misunderstood"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows “A video containing speech, captions, animation, and written labels may…” in “When Multimedia Overloads the Mind”?",
+        "prompt": "Which word completes the sentence you hear?\n\n“The redundancy _____ is similarly misunderstood.”",
         "options": [
-          "A video containing speech, captions, animation, and written labels may appear educationally rich, yet adding modes does not guarantee deeper learning.",
-          "Multimodality helps when each element performs a useful function.",
-          "The redundancy effect is similarly misunderstood.",
-          "Removing them completely may be equally unhelpful if comprehension collapses."
+          "educationally",
+          "effect",
+          "Multimodality",
+          "misunderstood"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “When Multimedia Overloads the Mind”?",
+        "prompt": "Choose the missing word from the recording.\n\n“Removing them completely may be equally _____ if comprehension collapses.”",
         "options": [
-          "A video containing speech, captions, animation, and written labels may appear educationally rich, yet adding modes does not guarantee deeper learning.",
-          "The redundancy effect is similarly misunderstood.",
-          "Cohesive economy also matters: interfaces should reference an idea consistently rather than renaming it for stylistic variety.",
-          "Removing them completely may be equally unhelpful if comprehension collapses."
+          "educationally",
+          "Multimodality",
+          "unhelpful",
+          "misunderstood"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes “When Multimedia Overloads the Mind”?",
+        "prompt": "What is the exact missing word in this audio detail?\n\n“A well-designed lesson allows sound, image, and text to reinforce a mental model _____ requiring the learner to solve the presentation itself before engaging with the content.”",
         "options": [
-          "A video containing speech, captions, animation, and written labels may appear educationally rich, yet adding modes does not guarantee deeper learning.",
-          "The redundancy effect is similarly misunderstood.",
-          "Removing them completely may be equally unhelpful if comprehension collapses.",
-          "A well-designed lesson allows sound, image, and text to reinforce a mental model without requiring the learner to solve the presentation itself before engaging with the content."
+          "educationally",
+          "Multimodality",
+          "misunderstood",
+          "without"
         ]
       }
     ]
@@ -27107,92 +27107,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces “A Realistic Plan for Better Sleep”?",
+            "prompt": "Complete this detail from the audio.\n\n“In a popular health _____, Dr.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In a popular health podcast, Dr."
+                "text": "podcast"
               },
               {
                 "id": "o2",
-                "text": "She suggests choosing a regular bedtime, reducing caffeine late in the day, and preparing tomorrow’s tasks before the evening."
+                "text": "responsibilities"
               },
               {
                 "id": "o3",
-                "text": "Dr."
+                "text": "Lena"
               },
               {
                 "id": "o4",
-                "text": "A useful routine should improve well-being without becoming another source of pressure."
+                "text": "many"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows “In a popular health podcast, Dr.” in “A Realistic Plan for Better Sleep”?",
+            "prompt": "Which word completes the sentence you hear?\n\n“She _____ choosing a regular bedtime, reducing caffeine late in the day, and preparing tomorrow’s tasks before the evening.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In a popular health podcast, Dr."
+                "text": "responsibilities"
               },
               {
                 "id": "o2",
-                "text": "Lena Ortiz explains why many adults struggle to sleep."
+                "text": "suggests"
               },
               {
                 "id": "o3",
-                "text": "She suggests choosing a regular bedtime, reducing caffeine late in the day, and preparing tomorrow’s tasks before the evening."
+                "text": "Ortiz"
               },
               {
                 "id": "o4",
-                "text": "Dr."
+                "text": "sleep"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “A Realistic Plan for Better Sleep”?",
+            "prompt": "Choose the missing word from the recording.\n\n“_____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In a popular health podcast, Dr."
+                "text": "responsibilities"
               },
               {
                 "id": "o2",
-                "text": "She suggests choosing a regular bedtime, reducing caffeine late in the day, and preparing tomorrow’s tasks before the evening."
+                "text": "tomorrow’s"
               },
               {
                 "id": "o3",
-                "text": "People often need to stop checking messages in bed, but they do not have to transform their entire routine overnight."
+                "text": "Dr"
               },
               {
                 "id": "o4",
-                "text": "Dr."
+                "text": "themselves"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes “A Realistic Plan for Better Sleep”?",
+            "prompt": "What is the exact missing word in this audio detail?\n\n“A useful routine should improve well-being _____ becoming another source of pressure.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In a popular health podcast, Dr."
+                "text": "responsibilities"
               },
               {
                 "id": "o2",
-                "text": "She suggests choosing a regular bedtime, reducing caffeine late in the day, and preparing tomorrow’s tasks before the evening."
+                "text": "Lena"
               },
               {
                 "id": "o3",
-                "text": "Dr."
+                "text": "many"
               },
               {
                 "id": "o4",
-                "text": "A useful routine should improve well-being without becoming another source of pressure."
+                "text": "without"
               }
             ]
           }
@@ -27203,42 +27203,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces “A Realistic Plan for Better Sleep”?",
+        "prompt": "Complete this detail from the audio.\n\n“In a popular health _____, Dr.”",
         "options": [
-          "In a popular health podcast, Dr.",
-          "She suggests choosing a regular bedtime, reducing caffeine late in the day, and preparing tomorrow’s tasks before the evening.",
-          "Dr.",
-          "A useful routine should improve well-being without becoming another source of pressure."
+          "podcast",
+          "responsibilities",
+          "Lena",
+          "many"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows “In a popular health podcast, Dr.” in “A Realistic Plan for Better Sleep”?",
+        "prompt": "Which word completes the sentence you hear?\n\n“She _____ choosing a regular bedtime, reducing caffeine late in the day, and preparing tomorrow’s tasks before the evening.”",
         "options": [
-          "In a popular health podcast, Dr.",
-          "Lena Ortiz explains why many adults struggle to sleep.",
-          "She suggests choosing a regular bedtime, reducing caffeine late in the day, and preparing tomorrow’s tasks before the evening.",
-          "Dr."
+          "responsibilities",
+          "suggests",
+          "Ortiz",
+          "sleep"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “A Realistic Plan for Better Sleep”?",
+        "prompt": "Choose the missing word from the recording.\n\n“_____.”",
         "options": [
-          "In a popular health podcast, Dr.",
-          "She suggests choosing a regular bedtime, reducing caffeine late in the day, and preparing tomorrow’s tasks before the evening.",
-          "People often need to stop checking messages in bed, but they do not have to transform their entire routine overnight.",
-          "Dr."
+          "responsibilities",
+          "tomorrow’s",
+          "Dr",
+          "themselves"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes “A Realistic Plan for Better Sleep”?",
+        "prompt": "What is the exact missing word in this audio detail?\n\n“A useful routine should improve well-being _____ becoming another source of pressure.”",
         "options": [
-          "In a popular health podcast, Dr.",
-          "She suggests choosing a regular bedtime, reducing caffeine late in the day, and preparing tomorrow’s tasks before the evening.",
-          "Dr.",
-          "A useful routine should improve well-being without becoming another source of pressure."
+          "responsibilities",
+          "Lena",
+          "many",
+          "without"
         ]
       }
     ]
@@ -27368,92 +27368,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces “What the Fourth of July Means Today”?",
+            "prompt": "Complete this detail from the audio.\n\n“Host: Fireworks are beginning _____ the city.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Fireworks are beginning across the city."
+                "text": "across"
               },
               {
                 "id": "o2",
-                "text": "Host: Yet the celebration can also produce discomfort."
+                "text": "responsibility"
               },
               {
                 "id": "o3",
-                "text": "It asks whether the promise was available to everyone."
+                "text": "contradiction"
               },
               {
                 "id": "o4",
-                "text": "Celebrated thoughtfully, it can join pride with responsibility: people can value a national tradition while acknowledging the unfinished work required to make liberty real."
+                "text": "acknowledging"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows “Fireworks are beginning across the city.” in “What the Fourth of July Means Today”?",
+            "prompt": "Which word completes the sentence you hear?\n\n“Host: _____ the celebration can also produce discomfort.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Fireworks are beginning across the city."
+                "text": "responsibility"
               },
               {
                 "id": "o2",
-                "text": "What does the Fourth of July commemorate?"
+                "text": "Yet"
               },
               {
                 "id": "o3",
-                "text": "Host: Yet the celebration can also produce discomfort."
+                "text": "contradiction"
               },
               {
                 "id": "o4",
-                "text": "It asks whether the promise was available to everyone."
+                "text": "acknowledging"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “What the Fourth of July Means Today”?",
+            "prompt": "Choose the missing word from the recording.\n\n“It asks whether the promise was available to _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Fireworks are beginning across the city."
+                "text": "responsibility"
               },
               {
                 "id": "o2",
-                "text": "Host: Yet the celebration can also produce discomfort."
+                "text": "contradiction"
               },
               {
                 "id": "o3",
-                "text": "It asks whether the promise was available to everyone."
+                "text": "everyone"
               },
               {
                 "id": "o4",
-                "text": "Celebrated thoughtfully, it can join pride with responsibility: people can value a national tradition while acknowledging the unfinished work required to make liberty real."
+                "text": "acknowledging"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes “What the Fourth of July Means Today”?",
+            "prompt": "What is the exact missing word in this audio detail?\n\n“Celebrated thoughtfully, it can join pride with responsibility: people can value a national _____ while acknowledging the unfinished work required to make liberty real.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Fireworks are beginning across the city."
+                "text": "responsibility"
               },
               {
                 "id": "o2",
-                "text": "Host: Yet the celebration can also produce discomfort."
+                "text": "contradiction"
               },
               {
                 "id": "o3",
-                "text": "It asks whether the promise was available to everyone."
+                "text": "acknowledging"
               },
               {
                 "id": "o4",
-                "text": "Celebrated thoughtfully, it can join pride with responsibility: people can value a national tradition while acknowledging the unfinished work required to make liberty real."
+                "text": "tradition"
               }
             ]
           }
@@ -27464,42 +27464,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces “What the Fourth of July Means Today”?",
+        "prompt": "Complete this detail from the audio.\n\n“Host: Fireworks are beginning _____ the city.”",
         "options": [
-          "Host: Fireworks are beginning across the city.",
-          "Host: Yet the celebration can also produce discomfort.",
-          "It asks whether the promise was available to everyone.",
-          "Celebrated thoughtfully, it can join pride with responsibility: people can value a national tradition while acknowledging the unfinished work required to make liberty real."
+          "across",
+          "responsibility",
+          "contradiction",
+          "acknowledging"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows “Fireworks are beginning across the city.” in “What the Fourth of July Means Today”?",
+        "prompt": "Which word completes the sentence you hear?\n\n“Host: _____ the celebration can also produce discomfort.”",
         "options": [
-          "Host: Fireworks are beginning across the city.",
-          "What does the Fourth of July commemorate?",
-          "Host: Yet the celebration can also produce discomfort.",
-          "It asks whether the promise was available to everyone."
+          "responsibility",
+          "Yet",
+          "contradiction",
+          "acknowledging"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “What the Fourth of July Means Today”?",
+        "prompt": "Choose the missing word from the recording.\n\n“It asks whether the promise was available to _____.”",
         "options": [
-          "Host: Fireworks are beginning across the city.",
-          "Host: Yet the celebration can also produce discomfort.",
-          "It asks whether the promise was available to everyone.",
-          "Celebrated thoughtfully, it can join pride with responsibility: people can value a national tradition while acknowledging the unfinished work required to make liberty real."
+          "responsibility",
+          "contradiction",
+          "everyone",
+          "acknowledging"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes “What the Fourth of July Means Today”?",
+        "prompt": "What is the exact missing word in this audio detail?\n\n“Celebrated thoughtfully, it can join pride with responsibility: people can value a national _____ while acknowledging the unfinished work required to make liberty real.”",
         "options": [
-          "Host: Fireworks are beginning across the city.",
-          "Host: Yet the celebration can also produce discomfort.",
-          "It asks whether the promise was available to everyone.",
-          "Celebrated thoughtfully, it can join pride with responsibility: people can value a national tradition while acknowledging the unfinished work required to make liberty real."
+          "responsibility",
+          "contradiction",
+          "acknowledging",
+          "tradition"
         ]
       }
     ]
@@ -32300,92 +32300,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In “An Important Day”, which detail establishes the situation?",
+            "prompt": "Complete this detail from the audio.\n\n“Today is Monday, March _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Today is Monday, March twelfth."
+                "text": "twelfth"
               },
               {
                 "id": "o2",
-                "text": "She arrives at school at nine fifteen."
+                "text": "test"
               },
               {
                 "id": "o3",
-                "text": "At twelve thirty, she has lunch with her friends."
+                "text": "nine"
               },
               {
                 "id": "o4",
-                "text": "She is tired, but she is happy because she thinks she did well on her test."
+                "text": "goes"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Today is Monday, March twelfth.”, what happens next in “An Important Day”?",
+            "prompt": "Which word completes the sentence you hear?\n\n“She _____ at school at nine fifteen.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Today is Monday, March twelfth."
+                "text": "test"
               },
               {
                 "id": "o2",
-                "text": "She arrives at school at nine fifteen."
+                "text": "arrives"
               },
               {
                 "id": "o3",
-                "text": "At twelve thirty, she has lunch with her friends."
+                "text": "nine"
               },
               {
                 "id": "o4",
-                "text": "She is tired, but she is happy because she thinks she did well on her test."
+                "text": "goes"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in “An Important Day”?",
+            "prompt": "Choose the missing word from the recording.\n\n“At _____ thirty, she has lunch with her friends.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Today is Monday, March twelfth."
+                "text": "important"
               },
               {
                 "id": "o2",
-                "text": "She arrives at school at nine fifteen."
+                "text": "day"
               },
               {
                 "id": "o3",
-                "text": "It is an important day for Sofia because she has an English test."
+                "text": "twelve"
               },
               {
                 "id": "o4",
-                "text": "At twelve thirty, she has lunch with her friends."
+                "text": "she"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “An Important Day” after “It is an important day for Sofia because she has an English test.”?",
+            "prompt": "What is the exact missing word in this audio detail?\n\n“She is tired, but she is happy because she _____ she did well on her test.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Today is Monday, March twelfth."
+                "text": "important"
               },
               {
                 "id": "o2",
-                "text": "She arrives at school at nine fifteen."
+                "text": "day"
               },
               {
                 "id": "o3",
-                "text": "At twelve thirty, she has lunch with her friends."
+                "text": "she"
               },
               {
                 "id": "o4",
-                "text": "She is tired, but she is happy because she thinks she did well on her test."
+                "text": "thinks"
               }
             ]
           }
@@ -32396,42 +32396,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In “An Important Day”, which detail establishes the situation?",
+        "prompt": "Complete this detail from the audio.\n\n“Today is Monday, March _____.”",
         "options": [
-          "Today is Monday, March twelfth.",
-          "She arrives at school at nine fifteen.",
-          "At twelve thirty, she has lunch with her friends.",
-          "She is tired, but she is happy because she thinks she did well on her test."
+          "twelfth",
+          "test",
+          "nine",
+          "goes"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Today is Monday, March twelfth.”, what happens next in “An Important Day”?",
+        "prompt": "Which word completes the sentence you hear?\n\n“She _____ at school at nine fifteen.”",
         "options": [
-          "Today is Monday, March twelfth.",
-          "She arrives at school at nine fifteen.",
-          "At twelve thirty, she has lunch with her friends.",
-          "She is tired, but she is happy because she thinks she did well on her test."
+          "test",
+          "arrives",
+          "nine",
+          "goes"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in “An Important Day”?",
+        "prompt": "Choose the missing word from the recording.\n\n“At _____ thirty, she has lunch with her friends.”",
         "options": [
-          "Today is Monday, March twelfth.",
-          "She arrives at school at nine fifteen.",
-          "It is an important day for Sofia because she has an English test.",
-          "At twelve thirty, she has lunch with her friends."
+          "important",
+          "day",
+          "twelve",
+          "she"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “An Important Day” after “It is an important day for Sofia because she has an English test.”?",
+        "prompt": "What is the exact missing word in this audio detail?\n\n“She is tired, but she is happy because she _____ she did well on her test.”",
         "options": [
-          "Today is Monday, March twelfth.",
-          "She arrives at school at nine fifteen.",
-          "At twelve thirty, she has lunch with her friends.",
-          "She is tired, but she is happy because she thinks she did well on her test."
+          "important",
+          "day",
+          "she",
+          "thinks"
         ]
       }
     ]
@@ -32561,92 +32561,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In “Finding the Train Station”, which detail establishes the situation?",
+            "prompt": "Complete this detail from the audio.\n\n“Sofia arrives in a new city and needs to find the train _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Sofia arrives in a new city and needs to find the train station."
+                "text": "station"
               },
               {
                 "id": "o2",
-                "text": "She asks a police officer for help."
+                "text": "city"
               },
               {
                 "id": "o3",
-                "text": "Sofia needs to get off at Market Square and walk behind a large hotel."
+                "text": "find"
               },
               {
                 "id": "o4",
-                "text": "When she finally reaches the station, she still has enough time to buy a drink before her train leaves."
+                "text": "weak"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Sofia arrives in a new city and needs to find the train station.”, what happens next in “Finding the Train Station”?",
+            "prompt": "Which word completes the sentence you hear?\n\n“She asks a _____ officer for help.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Sofia arrives in a new city and needs to find the train station."
+                "text": "new"
               },
               {
                 "id": "o2",
-                "text": "She asks a police officer for help."
+                "text": "police"
               },
               {
                 "id": "o3",
-                "text": "Sofia needs to get off at Market Square and walk behind a large hotel."
+                "text": "She"
               },
               {
                 "id": "o4",
-                "text": "When she finally reaches the station, she still has enough time to buy a drink before her train leaves."
+                "text": "map"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in “Finding the Train Station”?",
+            "prompt": "Choose the missing word from the recording.\n\n“Sofia needs to get off at Market Square and walk _____ a large hotel.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Sofia arrives in a new city and needs to find the train station."
+                "text": "new"
               },
               {
                 "id": "o2",
-                "text": "She asks a police officer for help."
+                "text": "She"
               },
               {
                 "id": "o3",
-                "text": "Sofia needs to get off at Market Square and walk behind a large hotel."
+                "text": "behind"
               },
               {
                 "id": "o4",
-                "text": "When she finally reaches the station, she still has enough time to buy a drink before her train leaves."
+                "text": "map"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Finding the Train Station” after “Sofia needs to get off at Market Square and walk behind a large hotel.”?",
+            "prompt": "What is the exact missing word in this audio detail?\n\n“When she _____ reaches the station, she still has enough time to buy a drink before her train leaves.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Sofia arrives in a new city and needs to find the train station."
+                "text": "city"
               },
               {
                 "id": "o2",
-                "text": "She asks a police officer for help."
+                "text": "find"
               },
               {
                 "id": "o3",
-                "text": "Sofia needs to get off at Market Square and walk behind a large hotel."
+                "text": "weak"
               },
               {
                 "id": "o4",
-                "text": "When she finally reaches the station, she still has enough time to buy a drink before her train leaves."
+                "text": "finally"
               }
             ]
           }
@@ -32657,42 +32657,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In “Finding the Train Station”, which detail establishes the situation?",
+        "prompt": "Complete this detail from the audio.\n\n“Sofia arrives in a new city and needs to find the train _____.”",
         "options": [
-          "Sofia arrives in a new city and needs to find the train station.",
-          "She asks a police officer for help.",
-          "Sofia needs to get off at Market Square and walk behind a large hotel.",
-          "When she finally reaches the station, she still has enough time to buy a drink before her train leaves."
+          "station",
+          "city",
+          "find",
+          "weak"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Sofia arrives in a new city and needs to find the train station.”, what happens next in “Finding the Train Station”?",
+        "prompt": "Which word completes the sentence you hear?\n\n“She asks a _____ officer for help.”",
         "options": [
-          "Sofia arrives in a new city and needs to find the train station.",
-          "She asks a police officer for help.",
-          "Sofia needs to get off at Market Square and walk behind a large hotel.",
-          "When she finally reaches the station, she still has enough time to buy a drink before her train leaves."
+          "new",
+          "police",
+          "She",
+          "map"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in “Finding the Train Station”?",
+        "prompt": "Choose the missing word from the recording.\n\n“Sofia needs to get off at Market Square and walk _____ a large hotel.”",
         "options": [
-          "Sofia arrives in a new city and needs to find the train station.",
-          "She asks a police officer for help.",
-          "Sofia needs to get off at Market Square and walk behind a large hotel.",
-          "When she finally reaches the station, she still has enough time to buy a drink before her train leaves."
+          "new",
+          "She",
+          "behind",
+          "map"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Finding the Train Station” after “Sofia needs to get off at Market Square and walk behind a large hotel.”?",
+        "prompt": "What is the exact missing word in this audio detail?\n\n“When she _____ reaches the station, she still has enough time to buy a drink before her train leaves.”",
         "options": [
-          "Sofia arrives in a new city and needs to find the train station.",
-          "She asks a police officer for help.",
-          "Sofia needs to get off at Market Square and walk behind a large hotel.",
-          "When she finally reaches the station, she still has enough time to buy a drink before her train leaves."
+          "city",
+          "find",
+          "weak",
+          "finally"
         ]
       }
     ]
@@ -32822,92 +32822,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces “Who Cares in an Ageing Society?”?",
+            "prompt": "Complete this detail from the audio.\n\n“Longer life expectancy is a major social achievement, but it exposes a question many countries have postponed: who will provide long-term care, and under what _____?”",
             "options": [
               {
                 "id": "o1",
-                "text": "Longer life expectancy is a major social achievement, but it exposes a question many countries have postponed: who will provide long-term care, and under what conditions?"
+                "text": "conditions"
               },
               {
                 "id": "o2",
-                "text": "Rarely does the debate acknowledge that care is both an intimate relationship and essential economic infrastructure."
+                "text": "disproportionately"
               },
               {
                 "id": "o3",
-                "text": "The dependency ratio is frequently used to describe an ageing population, yet it can oversimplify reality."
+                "text": "infrastructure"
               },
               {
                 "id": "o4",
-                "text": "Only when care is treated as a shared responsibility can longer lives remain a collective success rather than a private crisis."
+                "text": "responsibility"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows “Longer life expectancy is a major social achievement, but it exposes a…” in “Who Cares in an Ageing Society?”?",
+            "prompt": "Which word completes the sentence you hear?\n\n“Rarely does the _____ acknowledge that care is both an intimate relationship and essential economic infrastructure.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Longer life expectancy is a major social achievement, but it exposes a question many countries have postponed: who will provide long-term care, and under what conditions?"
+                "text": "disproportionately"
               },
               {
                 "id": "o2",
-                "text": "Never have so many families had to combine paid employment with support for an older relative."
+                "text": "debate"
               },
               {
                 "id": "o3",
-                "text": "Rarely does the debate acknowledge that care is both an intimate relationship and essential economic infrastructure."
+                "text": "infrastructure"
               },
               {
                 "id": "o4",
-                "text": "The dependency ratio is frequently used to describe an ageing population, yet it can oversimplify reality."
+                "text": "responsibility"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Who Cares in an Ageing Society?”?",
+            "prompt": "Choose the missing word from the recording.\n\n“The dependency ratio is frequently used to describe an _____ population, yet it can oversimplify reality.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Longer life expectancy is a major social achievement, but it exposes a question many countries have postponed: who will provide long-term care, and under what conditions?"
+                "text": "disproportionately"
               },
               {
                 "id": "o2",
-                "text": "Rarely does the debate acknowledge that care is both an intimate relationship and essential economic infrastructure."
+                "text": "infrastructure"
               },
               {
                 "id": "o3",
-                "text": "The dependency ratio is frequently used to describe an ageing population, yet it can oversimplify reality."
+                "text": "ageing"
               },
               {
                 "id": "o4",
-                "text": "Only when care is treated as a shared responsibility can longer lives remain a collective success rather than a private crisis."
+                "text": "responsibility"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes “Who Cares in an Ageing Society?”?",
+            "prompt": "What is the exact missing word in this audio detail?\n\n“Only when care is treated as a shared responsibility can longer lives _____ a collective success rather than a private crisis.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Longer life expectancy is a major social achievement, but it exposes a question many countries have postponed: who will provide long-term care, and under what conditions?"
+                "text": "disproportionately"
               },
               {
                 "id": "o2",
-                "text": "Rarely does the debate acknowledge that care is both an intimate relationship and essential economic infrastructure."
+                "text": "infrastructure"
               },
               {
                 "id": "o3",
-                "text": "The dependency ratio is frequently used to describe an ageing population, yet it can oversimplify reality."
+                "text": "responsibility"
               },
               {
                 "id": "o4",
-                "text": "Only when care is treated as a shared responsibility can longer lives remain a collective success rather than a private crisis."
+                "text": "remain"
               }
             ]
           }
@@ -32918,42 +32918,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces “Who Cares in an Ageing Society?”?",
+        "prompt": "Complete this detail from the audio.\n\n“Longer life expectancy is a major social achievement, but it exposes a question many countries have postponed: who will provide long-term care, and under what _____?”",
         "options": [
-          "Longer life expectancy is a major social achievement, but it exposes a question many countries have postponed: who will provide long-term care, and under what conditions?",
-          "Rarely does the debate acknowledge that care is both an intimate relationship and essential economic infrastructure.",
-          "The dependency ratio is frequently used to describe an ageing population, yet it can oversimplify reality.",
-          "Only when care is treated as a shared responsibility can longer lives remain a collective success rather than a private crisis."
+          "conditions",
+          "disproportionately",
+          "infrastructure",
+          "responsibility"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows “Longer life expectancy is a major social achievement, but it exposes a…” in “Who Cares in an Ageing Society?”?",
+        "prompt": "Which word completes the sentence you hear?\n\n“Rarely does the _____ acknowledge that care is both an intimate relationship and essential economic infrastructure.”",
         "options": [
-          "Longer life expectancy is a major social achievement, but it exposes a question many countries have postponed: who will provide long-term care, and under what conditions?",
-          "Never have so many families had to combine paid employment with support for an older relative.",
-          "Rarely does the debate acknowledge that care is both an intimate relationship and essential economic infrastructure.",
-          "The dependency ratio is frequently used to describe an ageing population, yet it can oversimplify reality."
+          "disproportionately",
+          "debate",
+          "infrastructure",
+          "responsibility"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Who Cares in an Ageing Society?”?",
+        "prompt": "Choose the missing word from the recording.\n\n“The dependency ratio is frequently used to describe an _____ population, yet it can oversimplify reality.”",
         "options": [
-          "Longer life expectancy is a major social achievement, but it exposes a question many countries have postponed: who will provide long-term care, and under what conditions?",
-          "Rarely does the debate acknowledge that care is both an intimate relationship and essential economic infrastructure.",
-          "The dependency ratio is frequently used to describe an ageing population, yet it can oversimplify reality.",
-          "Only when care is treated as a shared responsibility can longer lives remain a collective success rather than a private crisis."
+          "disproportionately",
+          "infrastructure",
+          "ageing",
+          "responsibility"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes “Who Cares in an Ageing Society?”?",
+        "prompt": "What is the exact missing word in this audio detail?\n\n“Only when care is treated as a shared responsibility can longer lives _____ a collective success rather than a private crisis.”",
         "options": [
-          "Longer life expectancy is a major social achievement, but it exposes a question many countries have postponed: who will provide long-term care, and under what conditions?",
-          "Rarely does the debate acknowledge that care is both an intimate relationship and essential economic infrastructure.",
-          "The dependency ratio is frequently used to describe an ageing population, yet it can oversimplify reality.",
-          "Only when care is treated as a shared responsibility can longer lives remain a collective success rather than a private crisis."
+          "disproportionately",
+          "infrastructure",
+          "responsibility",
+          "remain"
         ]
       }
     ]
@@ -33108,92 +33108,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces “How Conversation Repairs Build Fluency”?",
+            "prompt": "Complete this detail from the audio.\n\n“Conversation becomes especially valuable when understanding _____ fails.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Conversation becomes especially valuable when understanding briefly fails."
+                "text": "briefly"
               },
               {
                 "id": "o2",
-                "text": "An idea that feels clear internally may prove difficult to express, revealing missing vocabulary or uncertain grammar."
+                "text": "misunderstanding"
               },
               {
                 "id": "o3",
-                "text": "Teachers can model neutral phrases and allow enough time for a speaker to self-correct."
+                "text": "understanding"
               },
               {
                 "id": "o4",
-                "text": "What appears to be a disruption is often the point at which attention, form, and communicative purpose become most closely aligned."
+                "text": "clarification"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows “Conversation becomes especially valuable when understanding briefly…” in “How Conversation Repairs Build Fluency”?",
+            "prompt": "Which word completes the sentence you hear?\n\n“Modified _____—the revised sentence produced after a problem—can therefore function as a small experiment.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Conversation becomes especially valuable when understanding briefly fails."
+                "text": "misunderstanding"
               },
               {
                 "id": "o2",
-                "text": "A listener may use a clarification request, a comprehension check, or a confirmation check: “Do you mean the deadline changed?” The speaker then repeats, simplifies, or produces a more precise form."
+                "text": "output"
               },
               {
                 "id": "o3",
-                "text": "An idea that feels clear internally may prove difficult to express, revealing missing vocabulary or uncertain grammar."
+                "text": "understanding"
               },
               {
                 "id": "o4",
-                "text": "Teachers can model neutral phrases and allow enough time for a speaker to self-correct."
+                "text": "clarification"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “How Conversation Repairs Build Fluency”?",
+            "prompt": "Choose the missing word from the recording.\n\n“Digital conversation creates _____ possibilities, including transcripts and replay, but it may remove facial cues that support understanding.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Conversation becomes especially valuable when understanding briefly fails."
+                "text": "misunderstanding"
               },
               {
                 "id": "o2",
-                "text": "An idea that feels clear internally may prove difficult to express, revealing missing vocabulary or uncertain grammar."
+                "text": "becomes"
               },
               {
                 "id": "o3",
-                "text": "Teachers can model neutral phrases and allow enough time for a speaker to self-correct."
+                "text": "additional"
               },
               {
                 "id": "o4",
-                "text": "What appears to be a disruption is often the point at which attention, form, and communicative purpose become most closely aligned."
+                "text": "understanding"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes “How Conversation Repairs Build Fluency”?",
+            "prompt": "What is the exact missing word in this audio detail?\n\n“The _____ then repeats, simplifies, or produces a more precise form.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Conversation becomes especially valuable when understanding briefly fails."
+                "text": "misunderstanding"
               },
               {
                 "id": "o2",
-                "text": "An idea that feels clear internally may prove difficult to express, revealing missing vocabulary or uncertain grammar."
+                "text": "understanding"
               },
               {
                 "id": "o3",
-                "text": "Teachers can model neutral phrases and allow enough time for a speaker to self-correct."
+                "text": "clarification"
               },
               {
                 "id": "o4",
-                "text": "What appears to be a disruption is often the point at which attention, form, and communicative purpose become most closely aligned."
+                "text": "speaker"
               }
             ]
           }
@@ -33204,42 +33204,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces “How Conversation Repairs Build Fluency”?",
+        "prompt": "Complete this detail from the audio.\n\n“Conversation becomes especially valuable when understanding _____ fails.”",
         "options": [
-          "Conversation becomes especially valuable when understanding briefly fails.",
-          "An idea that feels clear internally may prove difficult to express, revealing missing vocabulary or uncertain grammar.",
-          "Teachers can model neutral phrases and allow enough time for a speaker to self-correct.",
-          "What appears to be a disruption is often the point at which attention, form, and communicative purpose become most closely aligned."
+          "briefly",
+          "misunderstanding",
+          "understanding",
+          "clarification"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows “Conversation becomes especially valuable when understanding briefly…” in “How Conversation Repairs Build Fluency”?",
+        "prompt": "Which word completes the sentence you hear?\n\n“Modified _____—the revised sentence produced after a problem—can therefore function as a small experiment.”",
         "options": [
-          "Conversation becomes especially valuable when understanding briefly fails.",
-          "A listener may use a clarification request, a comprehension check, or a confirmation check: “Do you mean the deadline changed?” The speaker then repeats, simplifies, or produces a more precise form.",
-          "An idea that feels clear internally may prove difficult to express, revealing missing vocabulary or uncertain grammar.",
-          "Teachers can model neutral phrases and allow enough time for a speaker to self-correct."
+          "misunderstanding",
+          "output",
+          "understanding",
+          "clarification"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “How Conversation Repairs Build Fluency”?",
+        "prompt": "Choose the missing word from the recording.\n\n“Digital conversation creates _____ possibilities, including transcripts and replay, but it may remove facial cues that support understanding.”",
         "options": [
-          "Conversation becomes especially valuable when understanding briefly fails.",
-          "An idea that feels clear internally may prove difficult to express, revealing missing vocabulary or uncertain grammar.",
-          "Teachers can model neutral phrases and allow enough time for a speaker to self-correct.",
-          "What appears to be a disruption is often the point at which attention, form, and communicative purpose become most closely aligned."
+          "misunderstanding",
+          "becomes",
+          "additional",
+          "understanding"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes “How Conversation Repairs Build Fluency”?",
+        "prompt": "What is the exact missing word in this audio detail?\n\n“The _____ then repeats, simplifies, or produces a more precise form.”",
         "options": [
-          "Conversation becomes especially valuable when understanding briefly fails.",
-          "An idea that feels clear internally may prove difficult to express, revealing missing vocabulary or uncertain grammar.",
-          "Teachers can model neutral phrases and allow enough time for a speaker to self-correct.",
-          "What appears to be a disruption is often the point at which attention, form, and communicative purpose become most closely aligned."
+          "misunderstanding",
+          "understanding",
+          "clarification",
+          "speaker"
         ]
       }
     ]
@@ -33334,92 +33334,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces “How to Control Monthly Spending”?",
+            "prompt": "Complete this detail from the audio.\n\n“A financial coach reviews a typical monthly budget with two university _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "A financial coach reviews a typical monthly budget with two university students."
+                "text": "students"
               },
               {
                 "id": "o2",
-                "text": "If they plan three simple meals each week, they can reduce food waste and avoid expensive last-minute orders."
+                "text": "subscriptions"
               },
               {
                 "id": "o3",
-                "text": "Instead, she asks them to choose what is genuinely worth paying for."
+                "text": "entertainment"
               },
               {
                 "id": "o4",
-                "text": "A budget works best when it reflects real priorities, includes unexpected expenses, and leaves some room for entertainment."
+                "text": "coach"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows “A financial coach reviews a typical monthly budget with two university…” in “How to Control Monthly Spending”?",
+            "prompt": "Which word completes the sentence you hear?\n\n“If they plan three simple meals each week, they can _____ food waste and avoid expensive last-minute orders.”",
             "options": [
               {
                 "id": "o1",
-                "text": "A financial coach reviews a typical monthly budget with two university students."
+                "text": "subscriptions"
               },
               {
                 "id": "o2",
-                "text": "Small subscriptions, food deliveries, and transport apps are costing more than they expected."
+                "text": "reduce"
               },
               {
                 "id": "o3",
-                "text": "If they plan three simple meals each week, they can reduce food waste and avoid expensive last-minute orders."
+                "text": "entertainment"
               },
               {
                 "id": "o4",
-                "text": "Instead, she asks them to choose what is genuinely worth paying for."
+                "text": "last-minute"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “How to Control Monthly Spending”?",
+            "prompt": "Choose the missing word from the recording.\n\n“Instead, she asks them to choose what is genuinely worth _____ for.”",
             "options": [
               {
                 "id": "o1",
-                "text": "A financial coach reviews a typical monthly budget with two university students."
+                "text": "subscriptions"
               },
               {
                 "id": "o2",
-                "text": "Instead, she asks them to choose what is genuinely worth paying for."
+                "text": "entertainment"
               },
               {
                 "id": "o3",
-                "text": "If they plan three simple meals each week, they can reduce food waste and avoid expensive last-minute orders."
+                "text": "paying"
               },
               {
                 "id": "o4",
-                "text": "A budget works best when it reflects real priorities, includes unexpected expenses, and leaves some room for entertainment."
+                "text": "last-minute"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes “How to Control Monthly Spending”?",
+            "prompt": "What is the exact missing word in this audio detail?\n\n“A budget works best when it reflects real priorities, includes unexpected _____, and leaves some room for entertainment.”",
             "options": [
               {
                 "id": "o1",
-                "text": "A financial coach reviews a typical monthly budget with two university students."
+                "text": "subscriptions"
               },
               {
                 "id": "o2",
-                "text": "If they plan three simple meals each week, they can reduce food waste and avoid expensive last-minute orders."
+                "text": "entertainment"
               },
               {
                 "id": "o3",
-                "text": "Instead, she asks them to choose what is genuinely worth paying for."
+                "text": "coach"
               },
               {
                 "id": "o4",
-                "text": "A budget works best when it reflects real priorities, includes unexpected expenses, and leaves some room for entertainment."
+                "text": "expenses"
               }
             ]
           }
@@ -33430,42 +33430,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces “How to Control Monthly Spending”?",
+        "prompt": "Complete this detail from the audio.\n\n“A financial coach reviews a typical monthly budget with two university _____.”",
         "options": [
-          "A financial coach reviews a typical monthly budget with two university students.",
-          "If they plan three simple meals each week, they can reduce food waste and avoid expensive last-minute orders.",
-          "Instead, she asks them to choose what is genuinely worth paying for.",
-          "A budget works best when it reflects real priorities, includes unexpected expenses, and leaves some room for entertainment."
+          "students",
+          "subscriptions",
+          "entertainment",
+          "coach"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows “A financial coach reviews a typical monthly budget with two university…” in “How to Control Monthly Spending”?",
+        "prompt": "Which word completes the sentence you hear?\n\n“If they plan three simple meals each week, they can _____ food waste and avoid expensive last-minute orders.”",
         "options": [
-          "A financial coach reviews a typical monthly budget with two university students.",
-          "Small subscriptions, food deliveries, and transport apps are costing more than they expected.",
-          "If they plan three simple meals each week, they can reduce food waste and avoid expensive last-minute orders.",
-          "Instead, she asks them to choose what is genuinely worth paying for."
+          "subscriptions",
+          "reduce",
+          "entertainment",
+          "last-minute"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “How to Control Monthly Spending”?",
+        "prompt": "Choose the missing word from the recording.\n\n“Instead, she asks them to choose what is genuinely worth _____ for.”",
         "options": [
-          "A financial coach reviews a typical monthly budget with two university students.",
-          "Instead, she asks them to choose what is genuinely worth paying for.",
-          "If they plan three simple meals each week, they can reduce food waste and avoid expensive last-minute orders.",
-          "A budget works best when it reflects real priorities, includes unexpected expenses, and leaves some room for entertainment."
+          "subscriptions",
+          "entertainment",
+          "paying",
+          "last-minute"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes “How to Control Monthly Spending”?",
+        "prompt": "What is the exact missing word in this audio detail?\n\n“A budget works best when it reflects real priorities, includes unexpected _____, and leaves some room for entertainment.”",
         "options": [
-          "A financial coach reviews a typical monthly budget with two university students.",
-          "If they plan three simple meals each week, they can reduce food waste and avoid expensive last-minute orders.",
-          "Instead, she asks them to choose what is genuinely worth paying for.",
-          "A budget works best when it reflects real priorities, includes unexpected expenses, and leaves some room for entertainment."
+          "subscriptions",
+          "entertainment",
+          "coach",
+          "expenses"
         ]
       }
     ]
@@ -33610,92 +33610,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces “Living Between Languages and Cultures”?",
+            "prompt": "Complete this detail from the audio.\n\n“Host: Our guest Maya grew up in a diaspora _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Our guest Maya grew up in a diaspora family."
+                "text": "family"
               },
               {
                 "id": "o2",
-                "text": "Both places belong to my identity."
+                "text": "participating"
               },
               {
                 "id": "o3",
-                "text": "The neighbors who welcomed my parents also became part of our story."
+                "text": "Assimilation"
               },
               {
                 "id": "o4",
-                "text": "Identity is not a suitcase with room for only one object; it is a relationship among memory, place and the people with whom we build a life."
+                "text": "relationship"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows “Our guest Maya grew up in a diaspora family.” in “Living Between Languages and Cultures”?",
+            "prompt": "Which word completes the sentence you hear?\n\n“Both _____ belong to my identity.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Our guest Maya grew up in a diaspora family."
+                "text": "participating"
               },
               {
                 "id": "o2",
-                "text": "Maya, where do you call home?"
+                "text": "places"
               },
               {
                 "id": "o3",
-                "text": "Both places belong to my identity."
+                "text": "Assimilation"
               },
               {
                 "id": "o4",
-                "text": "The neighbors who welcomed my parents also became part of our story."
+                "text": "relationship"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Living Between Languages and Cultures”?",
+            "prompt": "Choose the missing word from the recording.\n\n“The neighbors who welcomed my parents also _____ part of our story.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Our guest Maya grew up in a diaspora family."
+                "text": "participating"
               },
               {
                 "id": "o2",
-                "text": "Both places belong to my identity."
+                "text": "Assimilation"
               },
               {
                 "id": "o3",
-                "text": "The neighbors who welcomed my parents also became part of our story."
+                "text": "became"
               },
               {
                 "id": "o4",
-                "text": "Identity is not a suitcase with room for only one object; it is a relationship among memory, place and the people with whom we build a life."
+                "text": "relationship"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes “Living Between Languages and Cultures”?",
+            "prompt": "What is the exact missing word in this audio detail?\n\n“Identity is not a suitcase with room for only one object; it is a relationship among memory, place and the _____ with whom we build a life.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Our guest Maya grew up in a diaspora family."
+                "text": "participating"
               },
               {
                 "id": "o2",
-                "text": "Both places belong to my identity."
+                "text": "Assimilation"
               },
               {
                 "id": "o3",
-                "text": "The neighbors who welcomed my parents also became part of our story."
+                "text": "relationship"
               },
               {
                 "id": "o4",
-                "text": "Identity is not a suitcase with room for only one object; it is a relationship among memory, place and the people with whom we build a life."
+                "text": "people"
               }
             ]
           }
@@ -33706,42 +33706,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces “Living Between Languages and Cultures”?",
+        "prompt": "Complete this detail from the audio.\n\n“Host: Our guest Maya grew up in a diaspora _____.”",
         "options": [
-          "Host: Our guest Maya grew up in a diaspora family.",
-          "Both places belong to my identity.",
-          "The neighbors who welcomed my parents also became part of our story.",
-          "Identity is not a suitcase with room for only one object; it is a relationship among memory, place and the people with whom we build a life."
+          "family",
+          "participating",
+          "Assimilation",
+          "relationship"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows “Our guest Maya grew up in a diaspora family.” in “Living Between Languages and Cultures”?",
+        "prompt": "Which word completes the sentence you hear?\n\n“Both _____ belong to my identity.”",
         "options": [
-          "Host: Our guest Maya grew up in a diaspora family.",
-          "Maya, where do you call home?",
-          "Both places belong to my identity.",
-          "The neighbors who welcomed my parents also became part of our story."
+          "participating",
+          "places",
+          "Assimilation",
+          "relationship"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Living Between Languages and Cultures”?",
+        "prompt": "Choose the missing word from the recording.\n\n“The neighbors who welcomed my parents also _____ part of our story.”",
         "options": [
-          "Host: Our guest Maya grew up in a diaspora family.",
-          "Both places belong to my identity.",
-          "The neighbors who welcomed my parents also became part of our story.",
-          "Identity is not a suitcase with room for only one object; it is a relationship among memory, place and the people with whom we build a life."
+          "participating",
+          "Assimilation",
+          "became",
+          "relationship"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes “Living Between Languages and Cultures”?",
+        "prompt": "What is the exact missing word in this audio detail?\n\n“Identity is not a suitcase with room for only one object; it is a relationship among memory, place and the _____ with whom we build a life.”",
         "options": [
-          "Host: Our guest Maya grew up in a diaspora family.",
-          "Both places belong to my identity.",
-          "The neighbors who welcomed my parents also became part of our story.",
-          "Identity is not a suitcase with room for only one object; it is a relationship among memory, place and the people with whom we build a life."
+          "participating",
+          "Assimilation",
+          "relationship",
+          "people"
         ]
       }
     ]
@@ -38547,92 +38547,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In “Lunch at a Café”, which detail establishes the situation?",
+            "prompt": "Complete this detail from the audio.\n\n“_____ goes to a small café for lunch.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Julia goes to a small café for lunch."
+                "text": "Julia"
               },
               {
                 "id": "o2",
-                "text": "Her friend Mark orders a hamburger, French fries, and some water."
+                "text": "hamburger"
               },
               {
                 "id": "o3",
-                "text": "Mark enjoys his hamburger too."
+                "text": "delicious"
               },
               {
                 "id": "o4",
-                "text": "It is a simple but very nice lunch."
+                "text": "chocolate"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Julia goes to a small café for lunch.”, what happens next in “Lunch at a Café”?",
+            "prompt": "Which word completes the sentence you hear?\n\n“Her friend _____ orders a hamburger, French fries, and some water.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Julia goes to a small café for lunch."
+                "text": "hamburger"
               },
               {
                 "id": "o2",
-                "text": "Her friend Mark orders a hamburger, French fries, and some water."
+                "text": "Mark"
               },
               {
                 "id": "o3",
-                "text": "Mark enjoys his hamburger too."
+                "text": "delicious"
               },
               {
                 "id": "o4",
-                "text": "It is a simple but very nice lunch."
+                "text": "chocolate"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in “Lunch at a Café”?",
+            "prompt": "Choose the missing word from the recording.\n\n“_____ enjoys his hamburger too.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Julia goes to a small café for lunch."
+                "text": "hamburger"
               },
               {
                 "id": "o2",
-                "text": "Her friend Mark orders a hamburger, French fries, and some water."
+                "text": "delicious"
               },
               {
                 "id": "o3",
-                "text": "Julia likes her sandwich because it is fresh and delicious."
+                "text": "Mark"
               },
               {
                 "id": "o4",
-                "text": "Mark enjoys his hamburger too."
+                "text": "chocolate"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Lunch at a Café” after “Julia likes her sandwich because it is fresh and delicious.”?",
+            "prompt": "What is the exact missing word in this audio detail?\n\n“It is a _____ but very nice lunch.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Julia goes to a small café for lunch."
+                "text": "She"
               },
               {
                 "id": "o2",
-                "text": "Her friend Mark orders a hamburger, French fries, and some water."
+                "text": "hamburger"
               },
               {
                 "id": "o3",
-                "text": "Mark enjoys his hamburger too."
+                "text": "but"
               },
               {
                 "id": "o4",
-                "text": "It is a simple but very nice lunch."
+                "text": "simple"
               }
             ]
           }
@@ -38643,42 +38643,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In “Lunch at a Café”, which detail establishes the situation?",
+        "prompt": "Complete this detail from the audio.\n\n“_____ goes to a small café for lunch.”",
         "options": [
-          "Julia goes to a small café for lunch.",
-          "Her friend Mark orders a hamburger, French fries, and some water.",
-          "Mark enjoys his hamburger too.",
-          "It is a simple but very nice lunch."
+          "Julia",
+          "hamburger",
+          "delicious",
+          "chocolate"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Julia goes to a small café for lunch.”, what happens next in “Lunch at a Café”?",
+        "prompt": "Which word completes the sentence you hear?\n\n“Her friend _____ orders a hamburger, French fries, and some water.”",
         "options": [
-          "Julia goes to a small café for lunch.",
-          "Her friend Mark orders a hamburger, French fries, and some water.",
-          "Mark enjoys his hamburger too.",
-          "It is a simple but very nice lunch."
+          "hamburger",
+          "Mark",
+          "delicious",
+          "chocolate"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in “Lunch at a Café”?",
+        "prompt": "Choose the missing word from the recording.\n\n“_____ enjoys his hamburger too.”",
         "options": [
-          "Julia goes to a small café for lunch.",
-          "Her friend Mark orders a hamburger, French fries, and some water.",
-          "Julia likes her sandwich because it is fresh and delicious.",
-          "Mark enjoys his hamburger too."
+          "hamburger",
+          "delicious",
+          "Mark",
+          "chocolate"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Lunch at a Café” after “Julia likes her sandwich because it is fresh and delicious.”?",
+        "prompt": "What is the exact missing word in this audio detail?\n\n“It is a _____ but very nice lunch.”",
         "options": [
-          "Julia goes to a small café for lunch.",
-          "Her friend Mark orders a hamburger, French fries, and some water.",
-          "Mark enjoys his hamburger too.",
-          "It is a simple but very nice lunch."
+          "She",
+          "hamburger",
+          "but",
+          "simple"
         ]
       }
     ]
@@ -38808,92 +38808,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In “A Visit to the Doctor”, which detail establishes the situation?",
+            "prompt": "Complete this detail from the audio.\n\n“For two days, Lucas has had a sore throat, a headache, and a _____ fever.”",
             "options": [
               {
                 "id": "o1",
-                "text": "For two days, Lucas has had a sore throat, a headache, and a slight fever."
+                "text": "slight"
               },
               {
                 "id": "o2",
-                "text": "His mother takes him to the doctor in the morning."
+                "text": "temperature"
               },
               {
                 "id": "o3",
-                "text": "The doctor tells him to rest, drink plenty of fluids, and avoid exercise for a few days."
+                "text": "difficulty"
               },
               {
                 "id": "o4",
-                "text": "Lucas decides to follow the advice because he wants to feel better before an important school activity."
+                "text": "has"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “For two days, Lucas has had a sore throat, a headache, and a slight…”, what happens next in “A Visit to the Doctor”?",
+            "prompt": "Which word completes the sentence you hear?\n\n“His mother takes him to the _____ in the morning.”",
             "options": [
               {
                 "id": "o1",
-                "text": "For two days, Lucas has had a sore throat, a headache, and a slight fever."
+                "text": "temperature"
               },
               {
                 "id": "o2",
-                "text": "His mother takes him to the doctor in the morning."
+                "text": "doctor"
               },
               {
                 "id": "o3",
-                "text": "The doctor tells him to rest, drink plenty of fluids, and avoid exercise for a few days."
+                "text": "difficulty"
               },
               {
                 "id": "o4",
-                "text": "Lucas decides to follow the advice because he wants to feel better before an important school activity."
+                "text": "has"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in “A Visit to the Doctor”?",
+            "prompt": "Choose the missing word from the recording.\n\n“The doctor tells him to rest, drink plenty of fluids, and avoid _____ for a few days.”",
             "options": [
               {
                 "id": "o1",
-                "text": "For two days, Lucas has had a sore throat, a headache, and a slight fever."
+                "text": "Lucas"
               },
               {
                 "id": "o2",
-                "text": "His mother takes him to the doctor in the morning."
+                "text": "fever"
               },
               {
                 "id": "o3",
-                "text": "The doctor tells him to rest, drink plenty of fluids, and avoid exercise for a few days."
+                "text": "exercise"
               },
               {
                 "id": "o4",
-                "text": "Lucas decides to follow the advice because he wants to feel better before an important school activity."
+                "text": "feels"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “A Visit to the Doctor” after “The doctor tells him to rest, drink plenty of fluids, and avoid…”?",
+            "prompt": "What is the exact missing word in this audio detail?\n\n“Lucas decides to follow the advice because he wants to feel better before an _____ school activity.”",
             "options": [
               {
                 "id": "o1",
-                "text": "For two days, Lucas has had a sore throat, a headache, and a slight fever."
+                "text": "throat"
               },
               {
                 "id": "o2",
-                "text": "His mother takes him to the doctor in the morning."
+                "text": "slight"
               },
               {
                 "id": "o3",
-                "text": "The doctor tells him to rest, drink plenty of fluids, and avoid exercise for a few days."
+                "text": "mother"
               },
               {
                 "id": "o4",
-                "text": "Lucas decides to follow the advice because he wants to feel better before an important school activity."
+                "text": "important"
               }
             ]
           }
@@ -38904,42 +38904,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In “A Visit to the Doctor”, which detail establishes the situation?",
+        "prompt": "Complete this detail from the audio.\n\n“For two days, Lucas has had a sore throat, a headache, and a _____ fever.”",
         "options": [
-          "For two days, Lucas has had a sore throat, a headache, and a slight fever.",
-          "His mother takes him to the doctor in the morning.",
-          "The doctor tells him to rest, drink plenty of fluids, and avoid exercise for a few days.",
-          "Lucas decides to follow the advice because he wants to feel better before an important school activity."
+          "slight",
+          "temperature",
+          "difficulty",
+          "has"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “For two days, Lucas has had a sore throat, a headache, and a slight…”, what happens next in “A Visit to the Doctor”?",
+        "prompt": "Which word completes the sentence you hear?\n\n“His mother takes him to the _____ in the morning.”",
         "options": [
-          "For two days, Lucas has had a sore throat, a headache, and a slight fever.",
-          "His mother takes him to the doctor in the morning.",
-          "The doctor tells him to rest, drink plenty of fluids, and avoid exercise for a few days.",
-          "Lucas decides to follow the advice because he wants to feel better before an important school activity."
+          "temperature",
+          "doctor",
+          "difficulty",
+          "has"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in “A Visit to the Doctor”?",
+        "prompt": "Choose the missing word from the recording.\n\n“The doctor tells him to rest, drink plenty of fluids, and avoid _____ for a few days.”",
         "options": [
-          "For two days, Lucas has had a sore throat, a headache, and a slight fever.",
-          "His mother takes him to the doctor in the morning.",
-          "The doctor tells him to rest, drink plenty of fluids, and avoid exercise for a few days.",
-          "Lucas decides to follow the advice because he wants to feel better before an important school activity."
+          "Lucas",
+          "fever",
+          "exercise",
+          "feels"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “A Visit to the Doctor” after “The doctor tells him to rest, drink plenty of fluids, and avoid…”?",
+        "prompt": "What is the exact missing word in this audio detail?\n\n“Lucas decides to follow the advice because he wants to feel better before an _____ school activity.”",
         "options": [
-          "For two days, Lucas has had a sore throat, a headache, and a slight fever.",
-          "His mother takes him to the doctor in the morning.",
-          "The doctor tells him to rest, drink plenty of fluids, and avoid exercise for a few days.",
-          "Lucas decides to follow the advice because he wants to feel better before an important school activity."
+          "throat",
+          "slight",
+          "mother",
+          "important"
         ]
       }
     ]
@@ -39069,92 +39069,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces “Clean Energy’s Dirty Supply Chain”?",
+            "prompt": "Complete this detail from the audio.\n\n“Electric vehicles, batteries, wind turbines, and power networks require large quantities of lithium, copper, nickel, and other critical _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Electric vehicles, batteries, wind turbines, and power networks require large quantities of lithium, copper, nickel, and other critical minerals."
+                "text": "minerals"
               },
               {
                 "id": "o2",
-                "text": "This does not mean clean technology is equivalent to fossil-fuel extraction."
+                "text": "environmental"
               },
               {
                 "id": "o3",
-                "text": "Recycling alone, however, cannot meet near-term demand because many required minerals have not yet entered the waste stream."
+                "text": "complementary"
               },
               {
                 "id": "o4",
-                "text": "The transition will be judged not only by how rapidly emissions fall, but by whether the new material economy distributes benefits, respects rights, and learns from the injustices of the old one."
+                "text": "manufacturing"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows “Electric vehicles, batteries, wind turbines, and power networks…” in “Clean Energy’s Dirty Supply Chain”?",
+            "prompt": "Which word completes the sentence you hear?\n\n“This does not mean clean technology is _____ to fossil-fuel extraction.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Electric vehicles, batteries, wind turbines, and power networks require large quantities of lithium, copper, nickel, and other critical minerals."
+                "text": "require"
               },
               {
                 "id": "o2",
-                "text": "Had the energy transition remained slow, existing supply systems might have attracted less attention."
+                "text": "equivalent"
               },
               {
                 "id": "o3",
-                "text": "This does not mean clean technology is equivalent to fossil-fuel extraction."
+                "text": "lithium"
               },
               {
                 "id": "o4",
-                "text": "Recycling alone, however, cannot meet near-term demand because many required minerals have not yet entered the waste stream."
+                "text": "systems"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Clean Energy’s Dirty Supply Chain”?",
+            "prompt": "Choose the missing word from the recording.\n\n“Recycling alone, however, cannot meet _____ demand because many required minerals have not yet entered the waste stream.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Electric vehicles, batteries, wind turbines, and power networks require large quantities of lithium, copper, nickel, and other critical minerals."
+                "text": "environmental"
               },
               {
                 "id": "o2",
-                "text": "This does not mean clean technology is equivalent to fossil-fuel extraction."
+                "text": "complementary"
               },
               {
                 "id": "o3",
-                "text": "Recycling alone, however, cannot meet near-term demand because many required minerals have not yet entered the waste stream."
+                "text": "near-term"
               },
               {
                 "id": "o4",
-                "text": "The transition will be judged not only by how rapidly emissions fall, but by whether the new material economy distributes benefits, respects rights, and learns from the injustices of the old one."
+                "text": "manufacturing"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes “Clean Energy’s Dirty Supply Chain”?",
+            "prompt": "What is the exact missing word in this audio detail?\n\n“The transition will be judged not only by how rapidly emissions fall, but by whether the new _____ economy distributes benefits, respects rights, and learns from the injustices of the old one.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Electric vehicles, batteries, wind turbines, and power networks require large quantities of lithium, copper, nickel, and other critical minerals."
+                "text": "environmental"
               },
               {
                 "id": "o2",
-                "text": "This does not mean clean technology is equivalent to fossil-fuel extraction."
+                "text": "complementary"
               },
               {
                 "id": "o3",
-                "text": "Recycling alone, however, cannot meet near-term demand because many required minerals have not yet entered the waste stream."
+                "text": "manufacturing"
               },
               {
                 "id": "o4",
-                "text": "The transition will be judged not only by how rapidly emissions fall, but by whether the new material economy distributes benefits, respects rights, and learns from the injustices of the old one."
+                "text": "material"
               }
             ]
           }
@@ -39165,42 +39165,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces “Clean Energy’s Dirty Supply Chain”?",
+        "prompt": "Complete this detail from the audio.\n\n“Electric vehicles, batteries, wind turbines, and power networks require large quantities of lithium, copper, nickel, and other critical _____.”",
         "options": [
-          "Electric vehicles, batteries, wind turbines, and power networks require large quantities of lithium, copper, nickel, and other critical minerals.",
-          "This does not mean clean technology is equivalent to fossil-fuel extraction.",
-          "Recycling alone, however, cannot meet near-term demand because many required minerals have not yet entered the waste stream.",
-          "The transition will be judged not only by how rapidly emissions fall, but by whether the new material economy distributes benefits, respects rights, and learns from the injustices of the old one."
+          "minerals",
+          "environmental",
+          "complementary",
+          "manufacturing"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows “Electric vehicles, batteries, wind turbines, and power networks…” in “Clean Energy’s Dirty Supply Chain”?",
+        "prompt": "Which word completes the sentence you hear?\n\n“This does not mean clean technology is _____ to fossil-fuel extraction.”",
         "options": [
-          "Electric vehicles, batteries, wind turbines, and power networks require large quantities of lithium, copper, nickel, and other critical minerals.",
-          "Had the energy transition remained slow, existing supply systems might have attracted less attention.",
-          "This does not mean clean technology is equivalent to fossil-fuel extraction.",
-          "Recycling alone, however, cannot meet near-term demand because many required minerals have not yet entered the waste stream."
+          "require",
+          "equivalent",
+          "lithium",
+          "systems"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Clean Energy’s Dirty Supply Chain”?",
+        "prompt": "Choose the missing word from the recording.\n\n“Recycling alone, however, cannot meet _____ demand because many required minerals have not yet entered the waste stream.”",
         "options": [
-          "Electric vehicles, batteries, wind turbines, and power networks require large quantities of lithium, copper, nickel, and other critical minerals.",
-          "This does not mean clean technology is equivalent to fossil-fuel extraction.",
-          "Recycling alone, however, cannot meet near-term demand because many required minerals have not yet entered the waste stream.",
-          "The transition will be judged not only by how rapidly emissions fall, but by whether the new material economy distributes benefits, respects rights, and learns from the injustices of the old one."
+          "environmental",
+          "complementary",
+          "near-term",
+          "manufacturing"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes “Clean Energy’s Dirty Supply Chain”?",
+        "prompt": "What is the exact missing word in this audio detail?\n\n“The transition will be judged not only by how rapidly emissions fall, but by whether the new _____ economy distributes benefits, respects rights, and learns from the injustices of the old one.”",
         "options": [
-          "Electric vehicles, batteries, wind turbines, and power networks require large quantities of lithium, copper, nickel, and other critical minerals.",
-          "This does not mean clean technology is equivalent to fossil-fuel extraction.",
-          "Recycling alone, however, cannot meet near-term demand because many required minerals have not yet entered the waste stream.",
-          "The transition will be judged not only by how rapidly emissions fall, but by whether the new material economy distributes benefits, respects rights, and learns from the injustices of the old one."
+          "environmental",
+          "complementary",
+          "manufacturing",
+          "material"
         ]
       }
     ]
@@ -39350,92 +39350,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces “Corrective Feedback: When to Intervene”?",
+            "prompt": "Complete this detail from the audio.\n\n“Corrective feedback presents a practical _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Corrective feedback presents a practical dilemma."
+                "text": "dilemma"
               },
               {
                 "id": "o2",
-                "text": "It preserves conversational flow, but the learner may interpret it as simple agreement."
+                "text": "misunderstanding"
               },
               {
                 "id": "o3",
-                "text": "Immediate intervention is more defensible when a misunderstanding is spreading or a brief prompt will genuinely help."
+                "text": "conversational"
               },
               {
                 "id": "o4",
-                "text": "It is a learning environment in which feedback preserves agency, makes patterns perceptible, and gradually reduces the distance between intended and expressed meaning."
+                "text": "metalinguistic"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows “Corrective feedback presents a practical dilemma.” in “Corrective Feedback: When to Intervene”?",
+            "prompt": "Which word completes the sentence you hear?\n\n“Elicitation or a _____ clue makes the correction more visible: “Try that verb again in the past.” Such prompts can produce uptake and repair, although they require time and may feel intrusive during an emotionally demanding discussion.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Corrective feedback presents a practical dilemma."
+                "text": "appropriate"
               },
               {
                 "id": "o2",
-                "text": "If every error interrupts communication, learners may become cautious and silent."
+                "text": "metalinguistic"
               },
               {
                 "id": "o3",
-                "text": "It preserves conversational flow, but the learner may interpret it as simple agreement."
+                "text": "identifying"
               },
               {
                 "id": "o4",
-                "text": "Immediate intervention is more defensible when a misunderstanding is spreading or a brief prompt will genuinely help."
+                "text": "Elicitation"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Corrective Feedback: When to Intervene”?",
+            "prompt": "Choose the missing word from the recording.\n\n“Peer correction also requires norms that _____ dignity.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Corrective feedback presents a practical dilemma."
+                "text": "misunderstanding"
               },
               {
                 "id": "o2",
-                "text": "It preserves conversational flow, but the learner may interpret it as simple agreement."
+                "text": "conversational"
               },
               {
                 "id": "o3",
-                "text": "Teachers should prioritise forms connected to the lesson, errors that block meaning, and patterns a learner is ready to revise."
+                "text": "protect"
               },
               {
                 "id": "o4",
-                "text": "Immediate intervention is more defensible when a misunderstanding is spreading or a brief prompt will genuinely help."
+                "text": "metalinguistic"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes “Corrective Feedback: When to Intervene”?",
+            "prompt": "What is the exact missing word in this audio detail?\n\n“Such prompts can produce uptake and repair, _____ they require time and may feel intrusive during an emotionally demanding discussion.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Corrective feedback presents a practical dilemma."
+                "text": "misunderstanding"
               },
               {
                 "id": "o2",
-                "text": "It preserves conversational flow, but the learner may interpret it as simple agreement."
+                "text": "conversational"
               },
               {
                 "id": "o3",
-                "text": "Immediate intervention is more defensible when a misunderstanding is spreading or a brief prompt will genuinely help."
+                "text": "metalinguistic"
               },
               {
                 "id": "o4",
-                "text": "It is a learning environment in which feedback preserves agency, makes patterns perceptible, and gradually reduces the distance between intended and expressed meaning."
+                "text": "although"
               }
             ]
           }
@@ -39446,42 +39446,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces “Corrective Feedback: When to Intervene”?",
+        "prompt": "Complete this detail from the audio.\n\n“Corrective feedback presents a practical _____.”",
         "options": [
-          "Corrective feedback presents a practical dilemma.",
-          "It preserves conversational flow, but the learner may interpret it as simple agreement.",
-          "Immediate intervention is more defensible when a misunderstanding is spreading or a brief prompt will genuinely help.",
-          "It is a learning environment in which feedback preserves agency, makes patterns perceptible, and gradually reduces the distance between intended and expressed meaning."
+          "dilemma",
+          "misunderstanding",
+          "conversational",
+          "metalinguistic"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows “Corrective feedback presents a practical dilemma.” in “Corrective Feedback: When to Intervene”?",
+        "prompt": "Which word completes the sentence you hear?\n\n“Elicitation or a _____ clue makes the correction more visible: “Try that verb again in the past.” Such prompts can produce uptake and repair, although they require time and may feel intrusive during an emotionally demanding discussion.”",
         "options": [
-          "Corrective feedback presents a practical dilemma.",
-          "If every error interrupts communication, learners may become cautious and silent.",
-          "It preserves conversational flow, but the learner may interpret it as simple agreement.",
-          "Immediate intervention is more defensible when a misunderstanding is spreading or a brief prompt will genuinely help."
+          "appropriate",
+          "metalinguistic",
+          "identifying",
+          "Elicitation"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Corrective Feedback: When to Intervene”?",
+        "prompt": "Choose the missing word from the recording.\n\n“Peer correction also requires norms that _____ dignity.”",
         "options": [
-          "Corrective feedback presents a practical dilemma.",
-          "It preserves conversational flow, but the learner may interpret it as simple agreement.",
-          "Teachers should prioritise forms connected to the lesson, errors that block meaning, and patterns a learner is ready to revise.",
-          "Immediate intervention is more defensible when a misunderstanding is spreading or a brief prompt will genuinely help."
+          "misunderstanding",
+          "conversational",
+          "protect",
+          "metalinguistic"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes “Corrective Feedback: When to Intervene”?",
+        "prompt": "What is the exact missing word in this audio detail?\n\n“Such prompts can produce uptake and repair, _____ they require time and may feel intrusive during an emotionally demanding discussion.”",
         "options": [
-          "Corrective feedback presents a practical dilemma.",
-          "It preserves conversational flow, but the learner may interpret it as simple agreement.",
-          "Immediate intervention is more defensible when a misunderstanding is spreading or a brief prompt will genuinely help.",
-          "It is a learning environment in which feedback preserves agency, makes patterns perceptible, and gradually reduces the distance between intended and expressed meaning."
+          "misunderstanding",
+          "conversational",
+          "metalinguistic",
+          "although"
         ]
       }
     ]
@@ -39571,92 +39571,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces “How to Spot an Online Scam”?",
+            "prompt": "Complete this detail from the audio.\n\n“Technology reporter Jamal Brooks examines a message that appears to come from a delivery _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Technology reporter Jamal Brooks examines a message that appears to come from a delivery company."
+                "text": "company"
               },
               {
                 "id": "o2",
-                "text": "The website that receives the payment looks professional, but its address contains an extra letter."
+                "text": "professional"
               },
               {
                 "id": "o3",
-                "text": "They can also activate two-step verification and avoid sharing security codes."
+                "text": "verification"
               },
               {
                 "id": "o4",
-                "text": "The safest digital habit is to pause, verify the request through another channel, and report the scam so other users are warned."
+                "text": "information"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows “Technology reporter Jamal Brooks examines a message that appears to…” in “How to Spot an Online Scam”?",
+            "prompt": "Which word completes the sentence you hear?\n\n“The website that _____ the payment looks professional, but its address contains an extra letter.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Technology reporter Jamal Brooks examines a message that appears to come from a delivery company."
+                "text": "professional"
               },
               {
                 "id": "o2",
-                "text": "The message, which creates a sense of urgency, asks the user to open a link and pay a small fee."
+                "text": "receives"
               },
               {
                 "id": "o3",
-                "text": "The website that receives the payment looks professional, but its address contains an extra letter."
+                "text": "verification"
               },
               {
                 "id": "o4",
-                "text": "They can also activate two-step verification and avoid sharing security codes."
+                "text": "Jamal"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “How to Spot an Online Scam”?",
+            "prompt": "Choose the missing word from the recording.\n\n“They can also activate two-step verification and avoid _____ security codes.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Technology reporter Jamal Brooks examines a message that appears to come from a delivery company."
+                "text": "professional"
               },
               {
                 "id": "o2",
-                "text": "The website that receives the payment looks professional, but its address contains an extra letter."
+                "text": "verification"
               },
               {
                 "id": "o3",
-                "text": "People who receive suspicious messages should open the company’s official app instead of following the link."
+                "text": "sharing"
               },
               {
                 "id": "o4",
-                "text": "They can also activate two-step verification and avoid sharing security codes."
+                "text": "information"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes “How to Spot an Online Scam”?",
+            "prompt": "What is the exact missing word in this audio detail?\n\n“The safest digital habit is to pause, verify the request through _____ channel, and report the scam so other users are warned.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Technology reporter Jamal Brooks examines a message that appears to come from a delivery company."
+                "text": "professional"
               },
               {
                 "id": "o2",
-                "text": "The website that receives the payment looks professional, but its address contains an extra letter."
+                "text": "verification"
               },
               {
                 "id": "o3",
-                "text": "They can also activate two-step verification and avoid sharing security codes."
+                "text": "information"
               },
               {
                 "id": "o4",
-                "text": "The safest digital habit is to pause, verify the request through another channel, and report the scam so other users are warned."
+                "text": "another"
               }
             ]
           }
@@ -39667,42 +39667,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces “How to Spot an Online Scam”?",
+        "prompt": "Complete this detail from the audio.\n\n“Technology reporter Jamal Brooks examines a message that appears to come from a delivery _____.”",
         "options": [
-          "Technology reporter Jamal Brooks examines a message that appears to come from a delivery company.",
-          "The website that receives the payment looks professional, but its address contains an extra letter.",
-          "They can also activate two-step verification and avoid sharing security codes.",
-          "The safest digital habit is to pause, verify the request through another channel, and report the scam so other users are warned."
+          "company",
+          "professional",
+          "verification",
+          "information"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows “Technology reporter Jamal Brooks examines a message that appears to…” in “How to Spot an Online Scam”?",
+        "prompt": "Which word completes the sentence you hear?\n\n“The website that _____ the payment looks professional, but its address contains an extra letter.”",
         "options": [
-          "Technology reporter Jamal Brooks examines a message that appears to come from a delivery company.",
-          "The message, which creates a sense of urgency, asks the user to open a link and pay a small fee.",
-          "The website that receives the payment looks professional, but its address contains an extra letter.",
-          "They can also activate two-step verification and avoid sharing security codes."
+          "professional",
+          "receives",
+          "verification",
+          "Jamal"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “How to Spot an Online Scam”?",
+        "prompt": "Choose the missing word from the recording.\n\n“They can also activate two-step verification and avoid _____ security codes.”",
         "options": [
-          "Technology reporter Jamal Brooks examines a message that appears to come from a delivery company.",
-          "The website that receives the payment looks professional, but its address contains an extra letter.",
-          "People who receive suspicious messages should open the company’s official app instead of following the link.",
-          "They can also activate two-step verification and avoid sharing security codes."
+          "professional",
+          "verification",
+          "sharing",
+          "information"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes “How to Spot an Online Scam”?",
+        "prompt": "What is the exact missing word in this audio detail?\n\n“The safest digital habit is to pause, verify the request through _____ channel, and report the scam so other users are warned.”",
         "options": [
-          "Technology reporter Jamal Brooks examines a message that appears to come from a delivery company.",
-          "The website that receives the payment looks professional, but its address contains an extra letter.",
-          "They can also activate two-step verification and avoid sharing security codes.",
-          "The safest digital habit is to pause, verify the request through another channel, and report the scam so other users are warned."
+          "professional",
+          "verification",
+          "information",
+          "another"
         ]
       }
     ]
@@ -39827,92 +39827,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces “Why Rent Keeps Rising”?",
+            "prompt": "Complete this detail from the audio.\n\n“Host: Lena, a tenant in the city center, has received another rent _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Lena, a tenant in the city center, has received another rent increase."
+                "text": "increase"
               },
               {
                 "id": "o2",
-                "text": "The cost of living has risen much faster than household income, so affordable housing is becoming far harder to find."
+                "text": "transportation"
               },
               {
                 "id": "o3",
-                "text": "Host: Would new construction solve the problem?"
+                "text": "substantially"
               },
               {
                 "id": "o4",
-                "text": "The strongest policy would be more ambitious: protect existing tenants, build substantially more homes and connect housing decisions to transportation, wages and local services."
+                "text": "considerably"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows “Lena, a tenant in the city center, has received another rent increase.” in “Why Rent Keeps Rising”?",
+            "prompt": "Which word completes the sentence you hear?\n\n“The cost of living has risen much _____ than household income, so affordable housing is becoming far harder to find.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Lena, a tenant in the city center, has received another rent increase."
+                "text": "transportation"
               },
               {
                 "id": "o2",
-                "text": "How serious is the change?"
+                "text": "faster"
               },
               {
                 "id": "o3",
-                "text": "The cost of living has risen much faster than household income, so affordable housing is becoming far harder to find."
+                "text": "substantially"
               },
               {
                 "id": "o4",
-                "text": "Host: Would new construction solve the problem?"
+                "text": "considerably"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Why Rent Keeps Rising”?",
+            "prompt": "Choose the missing word from the recording.\n\n“_____: Would new construction solve the problem?”",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Lena, a tenant in the city center, has received another rent increase."
+                "text": "transportation"
               },
               {
                 "id": "o2",
-                "text": "The cost of living has risen much faster than household income, so affordable housing is becoming far harder to find."
+                "text": "substantially"
               },
               {
                 "id": "o3",
-                "text": "Host: Would new construction solve the problem?"
+                "text": "Host"
               },
               {
                 "id": "o4",
-                "text": "The strongest policy would be more ambitious: protect existing tenants, build substantially more homes and connect housing decisions to transportation, wages and local services."
+                "text": "considerably"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes “Why Rent Keeps Rising”?",
+            "prompt": "What is the exact missing word in this audio detail?\n\n“The strongest policy would be more ambitious: protect existing _____, build substantially more homes and connect housing decisions to transportation, wages and local services.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Lena, a tenant in the city center, has received another rent increase."
+                "text": "transportation"
               },
               {
                 "id": "o2",
-                "text": "The cost of living has risen much faster than household income, so affordable housing is becoming far harder to find."
+                "text": "substantially"
               },
               {
                 "id": "o3",
-                "text": "Host: Would new construction solve the problem?"
+                "text": "considerably"
               },
               {
                 "id": "o4",
-                "text": "The strongest policy would be more ambitious: protect existing tenants, build substantially more homes and connect housing decisions to transportation, wages and local services."
+                "text": "tenants"
               }
             ]
           }
@@ -39923,42 +39923,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces “Why Rent Keeps Rising”?",
+        "prompt": "Complete this detail from the audio.\n\n“Host: Lena, a tenant in the city center, has received another rent _____.”",
         "options": [
-          "Host: Lena, a tenant in the city center, has received another rent increase.",
-          "The cost of living has risen much faster than household income, so affordable housing is becoming far harder to find.",
-          "Host: Would new construction solve the problem?",
-          "The strongest policy would be more ambitious: protect existing tenants, build substantially more homes and connect housing decisions to transportation, wages and local services."
+          "increase",
+          "transportation",
+          "substantially",
+          "considerably"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows “Lena, a tenant in the city center, has received another rent increase.” in “Why Rent Keeps Rising”?",
+        "prompt": "Which word completes the sentence you hear?\n\n“The cost of living has risen much _____ than household income, so affordable housing is becoming far harder to find.”",
         "options": [
-          "Host: Lena, a tenant in the city center, has received another rent increase.",
-          "How serious is the change?",
-          "The cost of living has risen much faster than household income, so affordable housing is becoming far harder to find.",
-          "Host: Would new construction solve the problem?"
+          "transportation",
+          "faster",
+          "substantially",
+          "considerably"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Why Rent Keeps Rising”?",
+        "prompt": "Choose the missing word from the recording.\n\n“_____: Would new construction solve the problem?”",
         "options": [
-          "Host: Lena, a tenant in the city center, has received another rent increase.",
-          "The cost of living has risen much faster than household income, so affordable housing is becoming far harder to find.",
-          "Host: Would new construction solve the problem?",
-          "The strongest policy would be more ambitious: protect existing tenants, build substantially more homes and connect housing decisions to transportation, wages and local services."
+          "transportation",
+          "substantially",
+          "Host",
+          "considerably"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes “Why Rent Keeps Rising”?",
+        "prompt": "What is the exact missing word in this audio detail?\n\n“The strongest policy would be more ambitious: protect existing _____, build substantially more homes and connect housing decisions to transportation, wages and local services.”",
         "options": [
-          "Host: Lena, a tenant in the city center, has received another rent increase.",
-          "The cost of living has risen much faster than household income, so affordable housing is becoming far harder to find.",
-          "Host: Would new construction solve the problem?",
-          "The strongest policy would be more ambitious: protect existing tenants, build substantially more homes and connect housing decisions to transportation, wages and local services."
+          "transportation",
+          "substantially",
+          "considerably",
+          "tenants"
         ]
       }
     ]
@@ -44764,92 +44764,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In “Where Is My Backpack?”, which detail establishes the situation?",
+            "prompt": "Complete this detail from the audio.\n\n“Lucas is getting ready for school, but he cannot find his _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Lucas is getting ready for school, but he cannot find his backpack."
+                "text": "backpack"
               },
               {
                 "id": "o2",
-                "text": "He goes to the living room and looks behind the sofa."
+                "text": "Lucas"
               },
               {
                 "id": "o3",
-                "text": "His backpack is under the kitchen table, next to a chair."
+                "text": "ready"
               },
               {
                 "id": "o4",
-                "text": "He does not want to be late for school."
+                "text": "looks"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Lucas is getting ready for school, but he cannot find his backpack.”, what happens next in “Where Is My Backpack?”?",
+            "prompt": "Which word completes the sentence you hear?\n\n“He goes to the living room and looks _____ the sofa.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Lucas is getting ready for school, but he cannot find his backpack."
+                "text": "but"
               },
               {
                 "id": "o2",
-                "text": "He goes to the living room and looks behind the sofa."
+                "text": "behind"
               },
               {
                 "id": "o3",
-                "text": "His backpack is under the kitchen table, next to a chair."
+                "text": "bed"
               },
               {
                 "id": "o4",
-                "text": "He does not want to be late for school."
+                "text": "not"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in “Where Is My Backpack?”?",
+            "prompt": "Choose the missing word from the recording.\n\n“His backpack is under the _____ table, next to a chair.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Lucas is getting ready for school, but he cannot find his backpack."
+                "text": "find"
               },
               {
                 "id": "o2",
-                "text": "He goes to the living room and looks behind the sofa."
+                "text": "next"
               },
               {
                 "id": "o3",
-                "text": "His backpack is under the kitchen table, next to a chair."
+                "text": "kitchen"
               },
               {
                 "id": "o4",
-                "text": "He does not want to be late for school."
+                "text": "desk"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Where Is My Backpack?” after “His backpack is under the kitchen table, next to a chair.”?",
+            "prompt": "What is the exact missing word in this audio detail?\n\n“He does not want to be late for _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Lucas is getting ready for school, but he cannot find his backpack."
+                "text": "but"
               },
               {
                 "id": "o2",
-                "text": "He goes to the living room and looks behind the sofa."
+                "text": "bed"
               },
               {
                 "id": "o3",
-                "text": "His backpack is under the kitchen table, next to a chair."
+                "text": "not"
               },
               {
                 "id": "o4",
-                "text": "He does not want to be late for school."
+                "text": "school"
               }
             ]
           }
@@ -44860,42 +44860,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In “Where Is My Backpack?”, which detail establishes the situation?",
+        "prompt": "Complete this detail from the audio.\n\n“Lucas is getting ready for school, but he cannot find his _____.”",
         "options": [
-          "Lucas is getting ready for school, but he cannot find his backpack.",
-          "He goes to the living room and looks behind the sofa.",
-          "His backpack is under the kitchen table, next to a chair.",
-          "He does not want to be late for school."
+          "backpack",
+          "Lucas",
+          "ready",
+          "looks"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Lucas is getting ready for school, but he cannot find his backpack.”, what happens next in “Where Is My Backpack?”?",
+        "prompt": "Which word completes the sentence you hear?\n\n“He goes to the living room and looks _____ the sofa.”",
         "options": [
-          "Lucas is getting ready for school, but he cannot find his backpack.",
-          "He goes to the living room and looks behind the sofa.",
-          "His backpack is under the kitchen table, next to a chair.",
-          "He does not want to be late for school."
+          "but",
+          "behind",
+          "bed",
+          "not"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in “Where Is My Backpack?”?",
+        "prompt": "Choose the missing word from the recording.\n\n“His backpack is under the _____ table, next to a chair.”",
         "options": [
-          "Lucas is getting ready for school, but he cannot find his backpack.",
-          "He goes to the living room and looks behind the sofa.",
-          "His backpack is under the kitchen table, next to a chair.",
-          "He does not want to be late for school."
+          "find",
+          "next",
+          "kitchen",
+          "desk"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Where Is My Backpack?” after “His backpack is under the kitchen table, next to a chair.”?",
+        "prompt": "What is the exact missing word in this audio detail?\n\n“He does not want to be late for _____.”",
         "options": [
-          "Lucas is getting ready for school, but he cannot find his backpack.",
-          "He goes to the living room and looks behind the sofa.",
-          "His backpack is under the kitchen table, next to a chair.",
-          "He does not want to be late for school."
+          "but",
+          "bed",
+          "not",
+          "school"
         ]
       }
     ]
@@ -45030,92 +45030,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In “Planning a Birthday Surprise”, which detail establishes the situation?",
+            "prompt": "Complete this detail from the audio.\n\n“Laura and Chris are planning a surprise birthday party for their friend _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Laura and Chris are planning a surprise birthday party for their friend Daniel."
+                "text": "Daniel"
               },
               {
                 "id": "o2",
-                "text": "Laura is responsible for the decorations and music."
+                "text": "responsible"
               },
               {
                 "id": "o3",
-                "text": "Daniel’s sister is making the birthday cake."
+                "text": "decorations"
               },
               {
                 "id": "o4",
-                "text": "They hope the surprise will make him feel very special."
+                "text": "community"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Laura and Chris are planning a surprise birthday party for their…”, what happens next in “Planning a Birthday Surprise”?",
+            "prompt": "Which word completes the sentence you hear?\n\n“Laura is _____ for the decorations and music.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Laura and Chris are planning a surprise birthday party for their friend Daniel."
+                "text": "planning"
               },
               {
                 "id": "o2",
-                "text": "Laura is responsible for the decorations and music."
+                "text": "responsible"
               },
               {
                 "id": "o3",
-                "text": "Daniel’s sister is making the birthday cake."
+                "text": "surprise"
               },
               {
                 "id": "o4",
-                "text": "They hope the surprise will make him feel very special."
+                "text": "birthday"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in “Planning a Birthday Surprise”?",
+            "prompt": "Choose the missing word from the recording.\n\n“Daniel’s sister is making the _____ cake.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Laura and Chris are planning a surprise birthday party for their friend Daniel."
+                "text": "Laura"
               },
               {
                 "id": "o2",
-                "text": "Laura is responsible for the decorations and music."
+                "text": "Chris"
               },
               {
                 "id": "o3",
-                "text": "They still need to decide who will bring Daniel to the party."
+                "text": "birthday"
               },
               {
                 "id": "o4",
-                "text": "Daniel’s sister is making the birthday cake."
+                "text": "party"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Planning a Birthday Surprise” after “They still need to decide who will bring Daniel to the party.”?",
+            "prompt": "What is the exact missing word in this audio detail?\n\n“They hope the surprise will make him feel very _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Laura and Chris are planning a surprise birthday party for their friend Daniel."
+                "text": "responsible"
               },
               {
                 "id": "o2",
-                "text": "Laura is responsible for the decorations and music."
+                "text": "decorations"
               },
               {
                 "id": "o3",
-                "text": "Daniel’s sister is making the birthday cake."
+                "text": "book"
               },
               {
                 "id": "o4",
-                "text": "They hope the surprise will make him feel very special."
+                "text": "special"
               }
             ]
           }
@@ -45126,42 +45126,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In “Planning a Birthday Surprise”, which detail establishes the situation?",
+        "prompt": "Complete this detail from the audio.\n\n“Laura and Chris are planning a surprise birthday party for their friend _____.”",
         "options": [
-          "Laura and Chris are planning a surprise birthday party for their friend Daniel.",
-          "Laura is responsible for the decorations and music.",
-          "Daniel’s sister is making the birthday cake.",
-          "They hope the surprise will make him feel very special."
+          "Daniel",
+          "responsible",
+          "decorations",
+          "community"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Laura and Chris are planning a surprise birthday party for their…”, what happens next in “Planning a Birthday Surprise”?",
+        "prompt": "Which word completes the sentence you hear?\n\n“Laura is _____ for the decorations and music.”",
         "options": [
-          "Laura and Chris are planning a surprise birthday party for their friend Daniel.",
-          "Laura is responsible for the decorations and music.",
-          "Daniel’s sister is making the birthday cake.",
-          "They hope the surprise will make him feel very special."
+          "planning",
+          "responsible",
+          "surprise",
+          "birthday"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in “Planning a Birthday Surprise”?",
+        "prompt": "Choose the missing word from the recording.\n\n“Daniel’s sister is making the _____ cake.”",
         "options": [
-          "Laura and Chris are planning a surprise birthday party for their friend Daniel.",
-          "Laura is responsible for the decorations and music.",
-          "They still need to decide who will bring Daniel to the party.",
-          "Daniel’s sister is making the birthday cake."
+          "Laura",
+          "Chris",
+          "birthday",
+          "party"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Planning a Birthday Surprise” after “They still need to decide who will bring Daniel to the party.”?",
+        "prompt": "What is the exact missing word in this audio detail?\n\n“They hope the surprise will make him feel very _____.”",
         "options": [
-          "Laura and Chris are planning a surprise birthday party for their friend Daniel.",
-          "Laura is responsible for the decorations and music.",
-          "Daniel’s sister is making the birthday cake.",
-          "They hope the surprise will make him feel very special."
+          "responsible",
+          "decorations",
+          "book",
+          "special"
         ]
       }
     ]
@@ -45301,92 +45301,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces “Deepfakes and the Collapse of Visual Proof”?",
+            "prompt": "Complete this detail from the audio.\n\n“A convincing video once appeared to offer unusually strong evidence: viewers could see a public figure speak and hear the words _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "A convincing video once appeared to offer unusually strong evidence: viewers could see a public figure speak and hear the words directly."
+                "text": "directly"
               },
               {
                 "id": "o2",
-                "text": "The existence of deepfakes also creates plausible deniability."
+                "text": "Fact-checkers"
               },
               {
                 "id": "o3",
-                "text": "Media literacy remains essential, although telling citizens to distrust everything would be a disastrous response."
+                "text": "transparently"
               },
               {
                 "id": "o4",
-                "text": "When verification becomes visible as a process rather than a mysterious verdict, the public has a better chance of resisting both deception and cynical denial."
+                "text": "increasingly"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows “A convincing video once appeared to offer unusually strong evidence:…” in “Deepfakes and the Collapse of Visual Proof”?",
+            "prompt": "Which word completes the sentence you hear?\n\n“The existence of _____ also creates plausible deniability.”",
             "options": [
               {
                 "id": "o1",
-                "text": "A convincing video once appeared to offer unusually strong evidence: viewers could see a public figure speak and hear the words directly."
+                "text": "Fact-checkers"
               },
               {
                 "id": "o2",
-                "text": "Synthetic media has weakened that assumption."
+                "text": "deepfakes"
               },
               {
                 "id": "o3",
-                "text": "The existence of deepfakes also creates plausible deniability."
+                "text": "transparently"
               },
               {
                 "id": "o4",
-                "text": "Media literacy remains essential, although telling citizens to distrust everything would be a disastrous response."
+                "text": "strong"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Deepfakes and the Collapse of Visual Proof”?",
+            "prompt": "Choose the missing word from the recording.\n\n“Media literacy remains _____, although telling citizens to distrust everything would be a disastrous response.”",
             "options": [
               {
                 "id": "o1",
-                "text": "A convincing video once appeared to offer unusually strong evidence: viewers could see a public figure speak and hear the words directly."
+                "text": "Fact-checkers"
               },
               {
                 "id": "o2",
-                "text": "The existence of deepfakes also creates plausible deniability."
+                "text": "transparently"
               },
               {
                 "id": "o3",
-                "text": "Media literacy remains essential, although telling citizens to distrust everything would be a disastrous response."
+                "text": "essential"
               },
               {
                 "id": "o4",
-                "text": "When verification becomes visible as a process rather than a mysterious verdict, the public has a better chance of resisting both deception and cynical denial."
+                "text": "strong"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes “Deepfakes and the Collapse of Visual Proof”?",
+            "prompt": "What is the exact missing word in this audio detail?\n\n“When verification becomes visible as a process rather than a _____ verdict, the public has a better chance of resisting both deception and cynical denial.”",
             "options": [
               {
                 "id": "o1",
-                "text": "A convincing video once appeared to offer unusually strong evidence: viewers could see a public figure speak and hear the words directly."
+                "text": "viewers"
               },
               {
                 "id": "o2",
-                "text": "The existence of deepfakes also creates plausible deniability."
+                "text": "limited"
               },
               {
                 "id": "o3",
-                "text": "Media literacy remains essential, although telling citizens to distrust everything would be a disastrous response."
+                "text": "creates"
               },
               {
                 "id": "o4",
-                "text": "When verification becomes visible as a process rather than a mysterious verdict, the public has a better chance of resisting both deception and cynical denial."
+                "text": "mysterious"
               }
             ]
           }
@@ -45397,42 +45397,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces “Deepfakes and the Collapse of Visual Proof”?",
+        "prompt": "Complete this detail from the audio.\n\n“A convincing video once appeared to offer unusually strong evidence: viewers could see a public figure speak and hear the words _____.”",
         "options": [
-          "A convincing video once appeared to offer unusually strong evidence: viewers could see a public figure speak and hear the words directly.",
-          "The existence of deepfakes also creates plausible deniability.",
-          "Media literacy remains essential, although telling citizens to distrust everything would be a disastrous response.",
-          "When verification becomes visible as a process rather than a mysterious verdict, the public has a better chance of resisting both deception and cynical denial."
+          "directly",
+          "Fact-checkers",
+          "transparently",
+          "increasingly"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows “A convincing video once appeared to offer unusually strong evidence:…” in “Deepfakes and the Collapse of Visual Proof”?",
+        "prompt": "Which word completes the sentence you hear?\n\n“The existence of _____ also creates plausible deniability.”",
         "options": [
-          "A convincing video once appeared to offer unusually strong evidence: viewers could see a public figure speak and hear the words directly.",
-          "Synthetic media has weakened that assumption.",
-          "The existence of deepfakes also creates plausible deniability.",
-          "Media literacy remains essential, although telling citizens to distrust everything would be a disastrous response."
+          "Fact-checkers",
+          "deepfakes",
+          "transparently",
+          "strong"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Deepfakes and the Collapse of Visual Proof”?",
+        "prompt": "Choose the missing word from the recording.\n\n“Media literacy remains _____, although telling citizens to distrust everything would be a disastrous response.”",
         "options": [
-          "A convincing video once appeared to offer unusually strong evidence: viewers could see a public figure speak and hear the words directly.",
-          "The existence of deepfakes also creates plausible deniability.",
-          "Media literacy remains essential, although telling citizens to distrust everything would be a disastrous response.",
-          "When verification becomes visible as a process rather than a mysterious verdict, the public has a better chance of resisting both deception and cynical denial."
+          "Fact-checkers",
+          "transparently",
+          "essential",
+          "strong"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes “Deepfakes and the Collapse of Visual Proof”?",
+        "prompt": "What is the exact missing word in this audio detail?\n\n“When verification becomes visible as a process rather than a _____ verdict, the public has a better chance of resisting both deception and cynical denial.”",
         "options": [
-          "A convincing video once appeared to offer unusually strong evidence: viewers could see a public figure speak and hear the words directly.",
-          "The existence of deepfakes also creates plausible deniability.",
-          "Media literacy remains essential, although telling citizens to distrust everything would be a disastrous response.",
-          "When verification becomes visible as a process rather than a mysterious verdict, the public has a better chance of resisting both deception and cynical denial."
+          "viewers",
+          "limited",
+          "creates",
+          "mysterious"
         ]
       }
     ]
@@ -45567,92 +45567,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces “Training the Ear Before the Voice”?",
+            "prompt": "Complete this detail from the audio.\n\n“Pronunciation difficulties are often described as failures of the mouth, yet production may be constrained by _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Pronunciation difficulties are often described as failures of the mouth, yet production may be constrained by perception."
+                "text": "perception"
               },
               {
                 "id": "o2",
-                "text": "Sounds change with neighbouring segments, speaking rate, accent, and position."
+                "text": "High-variability"
               },
               {
                 "id": "o3",
-                "text": "Responsibility is shared: speakers can refine contrasts that repeatedly cause confusion, and listeners can become more flexible toward unfamiliar accents."
+                "text": "intelligibility"
               },
               {
                 "id": "o4",
-                "text": "Speech training is most effective when perception, production, and communicative consequence are treated as one system rather than three separate exercises."
+                "text": "Responsibility"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows “Pronunciation difficulties are often described as failures of the…” in “Training the Ear Before the Voice”?",
+            "prompt": "Which word completes the sentence you hear?\n\n“Sounds _____ with neighbouring segments, speaking rate, accent, and position.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Pronunciation difficulties are often described as failures of the mouth, yet production may be constrained by perception."
+                "text": "High-variability"
               },
               {
                 "id": "o2",
-                "text": "When two sounds are not contrastive in a listener’s first language, both can be assimilated to a familiar category."
+                "text": "change"
               },
               {
                 "id": "o3",
-                "text": "Sounds change with neighbouring segments, speaking rate, accent, and position."
+                "text": "intelligibility"
               },
               {
                 "id": "o4",
-                "text": "Responsibility is shared: speakers can refine contrasts that repeatedly cause confusion, and listeners can become more flexible toward unfamiliar accents."
+                "text": "Responsibility"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Training the Ear Before the Voice”?",
+            "prompt": "Choose the missing word from the recording.\n\n“Responsibility is shared: speakers can _____ contrasts that repeatedly cause confusion, and listeners can become more flexible toward unfamiliar accents.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Pronunciation difficulties are often described as failures of the mouth, yet production may be constrained by perception."
+                "text": "High-variability"
               },
               {
                 "id": "o2",
-                "text": "Sounds change with neighbouring segments, speaking rate, accent, and position."
+                "text": "intelligibility"
               },
               {
                 "id": "o3",
-                "text": "Improvement should be measured through intelligibility, not imitation of an idealised native accent."
+                "text": "refine"
               },
               {
                 "id": "o4",
-                "text": "Responsibility is shared: speakers can refine contrasts that repeatedly cause confusion, and listeners can become more flexible toward unfamiliar accents."
+                "text": "Responsibility"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes “Training the Ear Before the Voice”?",
+            "prompt": "What is the exact missing word in this audio detail?\n\n“Speech training is most effective when perception, production, and _____ consequence are treated as one system rather than three separate exercises.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Pronunciation difficulties are often described as failures of the mouth, yet production may be constrained by perception."
+                "text": "production"
               },
               {
                 "id": "o2",
-                "text": "Sounds change with neighbouring segments, speaking rate, accent, and position."
+                "text": "perception"
               },
               {
                 "id": "o3",
-                "text": "Responsibility is shared: speakers can refine contrasts that repeatedly cause confusion, and listeners can become more flexible toward unfamiliar accents."
+                "text": "listener’s"
               },
               {
                 "id": "o4",
-                "text": "Speech training is most effective when perception, production, and communicative consequence are treated as one system rather than three separate exercises."
+                "text": "communicative"
               }
             ]
           }
@@ -45663,42 +45663,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces “Training the Ear Before the Voice”?",
+        "prompt": "Complete this detail from the audio.\n\n“Pronunciation difficulties are often described as failures of the mouth, yet production may be constrained by _____.”",
         "options": [
-          "Pronunciation difficulties are often described as failures of the mouth, yet production may be constrained by perception.",
-          "Sounds change with neighbouring segments, speaking rate, accent, and position.",
-          "Responsibility is shared: speakers can refine contrasts that repeatedly cause confusion, and listeners can become more flexible toward unfamiliar accents.",
-          "Speech training is most effective when perception, production, and communicative consequence are treated as one system rather than three separate exercises."
+          "perception",
+          "High-variability",
+          "intelligibility",
+          "Responsibility"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows “Pronunciation difficulties are often described as failures of the…” in “Training the Ear Before the Voice”?",
+        "prompt": "Which word completes the sentence you hear?\n\n“Sounds _____ with neighbouring segments, speaking rate, accent, and position.”",
         "options": [
-          "Pronunciation difficulties are often described as failures of the mouth, yet production may be constrained by perception.",
-          "When two sounds are not contrastive in a listener’s first language, both can be assimilated to a familiar category.",
-          "Sounds change with neighbouring segments, speaking rate, accent, and position.",
-          "Responsibility is shared: speakers can refine contrasts that repeatedly cause confusion, and listeners can become more flexible toward unfamiliar accents."
+          "High-variability",
+          "change",
+          "intelligibility",
+          "Responsibility"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Training the Ear Before the Voice”?",
+        "prompt": "Choose the missing word from the recording.\n\n“Responsibility is shared: speakers can _____ contrasts that repeatedly cause confusion, and listeners can become more flexible toward unfamiliar accents.”",
         "options": [
-          "Pronunciation difficulties are often described as failures of the mouth, yet production may be constrained by perception.",
-          "Sounds change with neighbouring segments, speaking rate, accent, and position.",
-          "Improvement should be measured through intelligibility, not imitation of an idealised native accent.",
-          "Responsibility is shared: speakers can refine contrasts that repeatedly cause confusion, and listeners can become more flexible toward unfamiliar accents."
+          "High-variability",
+          "intelligibility",
+          "refine",
+          "Responsibility"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes “Training the Ear Before the Voice”?",
+        "prompt": "What is the exact missing word in this audio detail?\n\n“Speech training is most effective when perception, production, and _____ consequence are treated as one system rather than three separate exercises.”",
         "options": [
-          "Pronunciation difficulties are often described as failures of the mouth, yet production may be constrained by perception.",
-          "Sounds change with neighbouring segments, speaking rate, accent, and position.",
-          "Responsibility is shared: speakers can refine contrasts that repeatedly cause confusion, and listeners can become more flexible toward unfamiliar accents.",
-          "Speech training is most effective when perception, production, and communicative consequence are treated as one system rather than three separate exercises."
+          "production",
+          "perception",
+          "listener’s",
+          "communicative"
         ]
       }
     ]
@@ -45783,92 +45783,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces “Choosing What to Watch Next”?",
+            "prompt": "Complete this detail from the audio.\n\n“Three friends compare a documentary, a comedy series, and a science-fiction film on a streaming _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Three friends compare a documentary, a comedy series, and a science-fiction film on a streaming platform."
+                "text": "platform"
               },
               {
                 "id": "o2",
-                "text": "The comedy is easier to watch and has the funniest dialogue, although its story is less original."
+                "text": "science-fiction"
               },
               {
                 "id": "o3",
-                "text": "Instead of relying only on the platform’s recommendations, the friends explain what kind of experience they want that evening."
+                "text": "recommendations"
               },
               {
                 "id": "o4",
-                "text": "Their discussion shows that the “best” program depends on mood, interests, time, and the people watching together."
+                "text": "documentary"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows “Three friends compare a documentary, a comedy series, and a…” in “Choosing What to Watch Next”?",
+            "prompt": "Which word completes the sentence you hear?\n\n“The comedy is _____ to watch and has the funniest dialogue, although its story is less original.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Three friends compare a documentary, a comedy series, and a science-fiction film on a streaming platform."
+                "text": "science-fiction"
               },
               {
                 "id": "o2",
-                "text": "The documentary is by far the most informative choice, but one viewer finds it slightly longer than necessary."
+                "text": "easier"
               },
               {
                 "id": "o3",
-                "text": "The comedy is easier to watch and has the funniest dialogue, although its story is less original."
+                "text": "recommendations"
               },
               {
                 "id": "o4",
-                "text": "Instead of relying only on the platform’s recommendations, the friends explain what kind of experience they want that evening."
+                "text": "documentary"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Choosing What to Watch Next”?",
+            "prompt": "Choose the missing word from the recording.\n\n“Instead of relying only on the platform’s _____, the friends explain what kind of experience they want that evening.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Three friends compare a documentary, a comedy series, and a science-fiction film on a streaming platform."
+                "text": "science-fiction"
               },
               {
                 "id": "o2",
-                "text": "The comedy is easier to watch and has the funniest dialogue, although its story is less original."
+                "text": "friends"
               },
               {
                 "id": "o3",
-                "text": "Instead of relying only on the platform’s recommendations, the friends explain what kind of experience they want that evening."
+                "text": "recommendations"
               },
               {
                 "id": "o4",
-                "text": "Their discussion shows that the “best” program depends on mood, interests, time, and the people watching together."
+                "text": "compare"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes “Choosing What to Watch Next”?",
+            "prompt": "What is the exact missing word in this audio detail?\n\n“Their discussion shows that the “best” program depends on mood, interests, time, and the people _____ together.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Three friends compare a documentary, a comedy series, and a science-fiction film on a streaming platform."
+                "text": "science-fiction"
               },
               {
                 "id": "o2",
-                "text": "The comedy is easier to watch and has the funniest dialogue, although its story is less original."
+                "text": "recommendations"
               },
               {
                 "id": "o3",
-                "text": "Instead of relying only on the platform’s recommendations, the friends explain what kind of experience they want that evening."
+                "text": "documentary"
               },
               {
                 "id": "o4",
-                "text": "Their discussion shows that the “best” program depends on mood, interests, time, and the people watching together."
+                "text": "watching"
               }
             ]
           }
@@ -45879,42 +45879,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces “Choosing What to Watch Next”?",
+        "prompt": "Complete this detail from the audio.\n\n“Three friends compare a documentary, a comedy series, and a science-fiction film on a streaming _____.”",
         "options": [
-          "Three friends compare a documentary, a comedy series, and a science-fiction film on a streaming platform.",
-          "The comedy is easier to watch and has the funniest dialogue, although its story is less original.",
-          "Instead of relying only on the platform’s recommendations, the friends explain what kind of experience they want that evening.",
-          "Their discussion shows that the “best” program depends on mood, interests, time, and the people watching together."
+          "platform",
+          "science-fiction",
+          "recommendations",
+          "documentary"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows “Three friends compare a documentary, a comedy series, and a…” in “Choosing What to Watch Next”?",
+        "prompt": "Which word completes the sentence you hear?\n\n“The comedy is _____ to watch and has the funniest dialogue, although its story is less original.”",
         "options": [
-          "Three friends compare a documentary, a comedy series, and a science-fiction film on a streaming platform.",
-          "The documentary is by far the most informative choice, but one viewer finds it slightly longer than necessary.",
-          "The comedy is easier to watch and has the funniest dialogue, although its story is less original.",
-          "Instead of relying only on the platform’s recommendations, the friends explain what kind of experience they want that evening."
+          "science-fiction",
+          "easier",
+          "recommendations",
+          "documentary"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Choosing What to Watch Next”?",
+        "prompt": "Choose the missing word from the recording.\n\n“Instead of relying only on the platform’s _____, the friends explain what kind of experience they want that evening.”",
         "options": [
-          "Three friends compare a documentary, a comedy series, and a science-fiction film on a streaming platform.",
-          "The comedy is easier to watch and has the funniest dialogue, although its story is less original.",
-          "Instead of relying only on the platform’s recommendations, the friends explain what kind of experience they want that evening.",
-          "Their discussion shows that the “best” program depends on mood, interests, time, and the people watching together."
+          "science-fiction",
+          "friends",
+          "recommendations",
+          "compare"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes “Choosing What to Watch Next”?",
+        "prompt": "What is the exact missing word in this audio detail?\n\n“Their discussion shows that the “best” program depends on mood, interests, time, and the people _____ together.”",
         "options": [
-          "Three friends compare a documentary, a comedy series, and a science-fiction film on a streaming platform.",
-          "The comedy is easier to watch and has the funniest dialogue, although its story is less original.",
-          "Instead of relying only on the platform’s recommendations, the friends explain what kind of experience they want that evening.",
-          "Their discussion shows that the “best” program depends on mood, interests, time, and the people watching together."
+          "science-fiction",
+          "recommendations",
+          "documentary",
+          "watching"
         ]
       }
     ]
@@ -46044,92 +46044,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces “How AI Is Changing Entry-Level Work”?",
+            "prompt": "Complete this detail from the audio.\n\n“Host: A regional hotel chain has introduced an automated scheduling _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: A regional hotel chain has introduced an automated scheduling system."
+                "text": "system"
               },
               {
                 "id": "o2",
-                "text": "Host: What concerns have employees raised?"
+                "text": "decision-making"
               },
               {
                 "id": "o3",
-                "text": "Host: How should the hotel respond?"
+                "text": "recommendations"
               },
               {
                 "id": "o4",
-                "text": "Automation can support workers, but only a transparent system allows them to challenge a harmful decision."
+                "text": "productivity"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows “A regional hotel chain has introduced an automated scheduling system.” in “How AI Is Changing Entry-Level Work”?",
+            "prompt": "Which word completes the sentence you hear?\n\n“Host: What _____ have employees raised?”",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: A regional hotel chain has introduced an automated scheduling system."
+                "text": "decision-making"
               },
               {
                 "id": "o2",
-                "text": "What will have changed by next year?"
+                "text": "concerns"
               },
               {
                 "id": "o3",
-                "text": "Host: What concerns have employees raised?"
+                "text": "recommendations"
               },
               {
                 "id": "o4",
-                "text": "Host: How should the hotel respond?"
+                "text": "productivity"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “How AI Is Changing Entry-Level Work”?",
+            "prompt": "Choose the missing word from the recording.\n\n“Host: How should the hotel _____?”",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: A regional hotel chain has introduced an automated scheduling system."
+                "text": "decision-making"
               },
               {
                 "id": "o2",
-                "text": "Host: What concerns have employees raised?"
+                "text": "recommendations"
               },
               {
                 "id": "o3",
-                "text": "Host: How should the hotel respond?"
+                "text": "respond"
               },
               {
                 "id": "o4",
-                "text": "Automation can support workers, but only a transparent system allows them to challenge a harmful decision."
+                "text": "productivity"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes “How AI Is Changing Entry-Level Work”?",
+            "prompt": "What is the exact missing word in this audio detail?\n\n“Automation can support workers, but only a transparent system _____ them to challenge a harmful decision.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: A regional hotel chain has introduced an automated scheduling system."
+                "text": "decision-making"
               },
               {
                 "id": "o2",
-                "text": "Host: What concerns have employees raised?"
+                "text": "recommendations"
               },
               {
                 "id": "o3",
-                "text": "Host: How should the hotel respond?"
+                "text": "productivity"
               },
               {
                 "id": "o4",
-                "text": "Automation can support workers, but only a transparent system allows them to challenge a harmful decision."
+                "text": "allows"
               }
             ]
           }
@@ -46140,42 +46140,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces “How AI Is Changing Entry-Level Work”?",
+        "prompt": "Complete this detail from the audio.\n\n“Host: A regional hotel chain has introduced an automated scheduling _____.”",
         "options": [
-          "Host: A regional hotel chain has introduced an automated scheduling system.",
-          "Host: What concerns have employees raised?",
-          "Host: How should the hotel respond?",
-          "Automation can support workers, but only a transparent system allows them to challenge a harmful decision."
+          "system",
+          "decision-making",
+          "recommendations",
+          "productivity"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows “A regional hotel chain has introduced an automated scheduling system.” in “How AI Is Changing Entry-Level Work”?",
+        "prompt": "Which word completes the sentence you hear?\n\n“Host: What _____ have employees raised?”",
         "options": [
-          "Host: A regional hotel chain has introduced an automated scheduling system.",
-          "What will have changed by next year?",
-          "Host: What concerns have employees raised?",
-          "Host: How should the hotel respond?"
+          "decision-making",
+          "concerns",
+          "recommendations",
+          "productivity"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “How AI Is Changing Entry-Level Work”?",
+        "prompt": "Choose the missing word from the recording.\n\n“Host: How should the hotel _____?”",
         "options": [
-          "Host: A regional hotel chain has introduced an automated scheduling system.",
-          "Host: What concerns have employees raised?",
-          "Host: How should the hotel respond?",
-          "Automation can support workers, but only a transparent system allows them to challenge a harmful decision."
+          "decision-making",
+          "recommendations",
+          "respond",
+          "productivity"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes “How AI Is Changing Entry-Level Work”?",
+        "prompt": "What is the exact missing word in this audio detail?\n\n“Automation can support workers, but only a transparent system _____ them to challenge a harmful decision.”",
         "options": [
-          "Host: A regional hotel chain has introduced an automated scheduling system.",
-          "Host: What concerns have employees raised?",
-          "Host: How should the hotel respond?",
-          "Automation can support workers, but only a transparent system allows them to challenge a harmful decision."
+          "decision-making",
+          "recommendations",
+          "productivity",
+          "allows"
         ]
       }
     ]
@@ -50976,92 +50976,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In “A Walk Through My Town”, which detail establishes the situation?",
+            "prompt": "Complete this detail from the audio.\n\n“My town is small, but it has many useful _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "My town is small, but it has many useful places."
+                "text": "places"
               },
               {
                 "id": "o2",
-                "text": "The pharmacy is between the bakery and the bus station."
+                "text": "supermarket"
               },
               {
                 "id": "o3",
-                "text": "On Saturdays, I walk to the library with my sister."
+                "text": "but"
               },
               {
                 "id": "o4",
-                "text": "I like my town because it is quiet, friendly, and easy to explore."
+                "text": "has"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “My town is small, but it has many useful places.”, what happens next in “A Walk Through My Town”?",
+            "prompt": "Which word completes the sentence you hear?\n\n“The pharmacy is _____ the bakery and the bus station.”",
             "options": [
               {
                 "id": "o1",
-                "text": "My town is small, but it has many useful places."
+                "text": "supermarket"
               },
               {
                 "id": "o2",
-                "text": "The pharmacy is between the bakery and the bus station."
+                "text": "between"
               },
               {
                 "id": "o3",
-                "text": "On Saturdays, I walk to the library with my sister."
+                "text": "town"
               },
               {
                 "id": "o4",
-                "text": "I like my town because it is quiet, friendly, and easy to explore."
+                "text": "many"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in “A Walk Through My Town”?",
+            "prompt": "Choose the missing word from the recording.\n\n“On _____, I walk to the library with my sister.”",
             "options": [
               {
                 "id": "o1",
-                "text": "My town is small, but it has many useful places."
+                "text": "useful"
               },
               {
                 "id": "o2",
-                "text": "The pharmacy is between the bakery and the bus station."
+                "text": "places"
               },
               {
                 "id": "o3",
-                "text": "My favorite place is the park because it has many trees and benches."
+                "text": "Saturdays"
               },
               {
                 "id": "o4",
-                "text": "On Saturdays, I walk to the library with my sister."
+                "text": "office"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “A Walk Through My Town” after “My favorite place is the park because it has many trees and benches.”?",
+            "prompt": "What is the exact missing word in this audio detail?\n\n“I like my town because it is quiet, friendly, and easy to _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "My town is small, but it has many useful places."
+                "text": "supermarket"
               },
               {
                 "id": "o2",
-                "text": "The pharmacy is between the bakery and the bus station."
+                "text": "town"
               },
               {
                 "id": "o3",
-                "text": "On Saturdays, I walk to the library with my sister."
+                "text": "many"
               },
               {
                 "id": "o4",
-                "text": "I like my town because it is quiet, friendly, and easy to explore."
+                "text": "explore"
               }
             ]
           }
@@ -51072,42 +51072,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In “A Walk Through My Town”, which detail establishes the situation?",
+        "prompt": "Complete this detail from the audio.\n\n“My town is small, but it has many useful _____.”",
         "options": [
-          "My town is small, but it has many useful places.",
-          "The pharmacy is between the bakery and the bus station.",
-          "On Saturdays, I walk to the library with my sister.",
-          "I like my town because it is quiet, friendly, and easy to explore."
+          "places",
+          "supermarket",
+          "but",
+          "has"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “My town is small, but it has many useful places.”, what happens next in “A Walk Through My Town”?",
+        "prompt": "Which word completes the sentence you hear?\n\n“The pharmacy is _____ the bakery and the bus station.”",
         "options": [
-          "My town is small, but it has many useful places.",
-          "The pharmacy is between the bakery and the bus station.",
-          "On Saturdays, I walk to the library with my sister.",
-          "I like my town because it is quiet, friendly, and easy to explore."
+          "supermarket",
+          "between",
+          "town",
+          "many"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in “A Walk Through My Town”?",
+        "prompt": "Choose the missing word from the recording.\n\n“On _____, I walk to the library with my sister.”",
         "options": [
-          "My town is small, but it has many useful places.",
-          "The pharmacy is between the bakery and the bus station.",
-          "My favorite place is the park because it has many trees and benches.",
-          "On Saturdays, I walk to the library with my sister."
+          "useful",
+          "places",
+          "Saturdays",
+          "office"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “A Walk Through My Town” after “My favorite place is the park because it has many trees and benches.”?",
+        "prompt": "What is the exact missing word in this audio detail?\n\n“I like my town because it is quiet, friendly, and easy to _____.”",
         "options": [
-          "My town is small, but it has many useful places.",
-          "The pharmacy is between the bakery and the bus station.",
-          "On Saturdays, I walk to the library with my sister.",
-          "I like my town because it is quiet, friendly, and easy to explore."
+          "supermarket",
+          "town",
+          "many",
+          "explore"
         ]
       }
     ]
@@ -51237,92 +51237,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In “My First Part-Time Job”, which detail establishes the situation?",
+            "prompt": "Complete this detail from the audio.\n\n“Isabella recently started a part-time job at a _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Isabella recently started a part-time job at a bookstore."
+                "text": "bookstore"
               },
               {
                 "id": "o2",
-                "text": "Her main responsibilities are organizing shelves, helping customers, and working at the cash register."
+                "text": "responsibilities"
               },
               {
                 "id": "o3",
-                "text": "Her coworkers were patient and gave her useful advice."
+                "text": "school"
               },
               {
                 "id": "o4",
-                "text": "The job sometimes makes her tired, but it is teaching her how to manage her time and become more responsible."
+                "text": "During"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Isabella recently started a part-time job at a bookstore.”, what happens next in “My First Part-Time Job”?",
+            "prompt": "Which word completes the sentence you hear?\n\n“Her main responsibilities are _____ shelves, helping customers, and working at the cash register.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Isabella recently started a part-time job at a bookstore."
+                "text": "responsibilities"
               },
               {
                 "id": "o2",
-                "text": "Her main responsibilities are organizing shelves, helping customers, and working at the cash register."
+                "text": "organizing"
               },
               {
                 "id": "o3",
-                "text": "Her coworkers were patient and gave her useful advice."
+                "text": "started"
               },
               {
                 "id": "o4",
-                "text": "The job sometimes makes her tired, but it is teaching her how to manage her time and become more responsible."
+                "text": "shelves"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in “My First Part-Time Job”?",
+            "prompt": "Choose the missing word from the recording.\n\n“Her coworkers were patient and gave her useful _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Isabella recently started a part-time job at a bookstore."
+                "text": "responsibilities"
               },
               {
                 "id": "o2",
-                "text": "Her main responsibilities are organizing shelves, helping customers, and working at the cash register."
+                "text": "responsible"
               },
               {
                 "id": "o3",
-                "text": "Her coworkers were patient and gave her useful advice."
+                "text": "advice"
               },
               {
                 "id": "o4",
-                "text": "The job sometimes makes her tired, but it is teaching her how to manage her time and become more responsible."
+                "text": "afternoons"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “My First Part-Time Job” after “Her coworkers were patient and gave her useful advice.”?",
+            "prompt": "What is the exact missing word in this audio detail?\n\n“The job _____ makes her tired, but it is teaching her how to manage her time and become more responsible.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Isabella recently started a part-time job at a bookstore."
+                "text": "responsibilities"
               },
               {
                 "id": "o2",
-                "text": "Her main responsibilities are organizing shelves, helping customers, and working at the cash register."
+                "text": "school"
               },
               {
                 "id": "o3",
-                "text": "Her coworkers were patient and gave her useful advice."
+                "text": "During"
               },
               {
                 "id": "o4",
-                "text": "The job sometimes makes her tired, but it is teaching her how to manage her time and become more responsible."
+                "text": "sometimes"
               }
             ]
           }
@@ -51333,42 +51333,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In “My First Part-Time Job”, which detail establishes the situation?",
+        "prompt": "Complete this detail from the audio.\n\n“Isabella recently started a part-time job at a _____.”",
         "options": [
-          "Isabella recently started a part-time job at a bookstore.",
-          "Her main responsibilities are organizing shelves, helping customers, and working at the cash register.",
-          "Her coworkers were patient and gave her useful advice.",
-          "The job sometimes makes her tired, but it is teaching her how to manage her time and become more responsible."
+          "bookstore",
+          "responsibilities",
+          "school",
+          "During"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Isabella recently started a part-time job at a bookstore.”, what happens next in “My First Part-Time Job”?",
+        "prompt": "Which word completes the sentence you hear?\n\n“Her main responsibilities are _____ shelves, helping customers, and working at the cash register.”",
         "options": [
-          "Isabella recently started a part-time job at a bookstore.",
-          "Her main responsibilities are organizing shelves, helping customers, and working at the cash register.",
-          "Her coworkers were patient and gave her useful advice.",
-          "The job sometimes makes her tired, but it is teaching her how to manage her time and become more responsible."
+          "responsibilities",
+          "organizing",
+          "started",
+          "shelves"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in “My First Part-Time Job”?",
+        "prompt": "Choose the missing word from the recording.\n\n“Her coworkers were patient and gave her useful _____.”",
         "options": [
-          "Isabella recently started a part-time job at a bookstore.",
-          "Her main responsibilities are organizing shelves, helping customers, and working at the cash register.",
-          "Her coworkers were patient and gave her useful advice.",
-          "The job sometimes makes her tired, but it is teaching her how to manage her time and become more responsible."
+          "responsibilities",
+          "responsible",
+          "advice",
+          "afternoons"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “My First Part-Time Job” after “Her coworkers were patient and gave her useful advice.”?",
+        "prompt": "What is the exact missing word in this audio detail?\n\n“The job _____ makes her tired, but it is teaching her how to manage her time and become more responsible.”",
         "options": [
-          "Isabella recently started a part-time job at a bookstore.",
-          "Her main responsibilities are organizing shelves, helping customers, and working at the cash register.",
-          "Her coworkers were patient and gave her useful advice.",
-          "The job sometimes makes her tired, but it is teaching her how to manage her time and become more responsible."
+          "responsibilities",
+          "school",
+          "During",
+          "sometimes"
         ]
       }
     ]
@@ -51508,92 +51508,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces “Climate Migration: The Cities People Move To”?",
+            "prompt": "Complete this detail from the audio.\n\n“Climate migration is often imagined as a sudden movement across national borders, but much of it is internal, gradual, and closely connected to _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Climate migration is often imagined as a sudden movement across national borders, but much of it is internal, gradual, and closely connected to employment."
+                "text": "employment"
               },
               {
                 "id": "o2",
-                "text": "Yet mobility planned early can be a form of adaptation rather than failure."
+                "text": "qualifications"
               },
               {
                 "id": "o3",
-                "text": "Not everyone wants to move, and not everyone has the resources to do so."
+                "text": "neighbourhoods"
               },
               {
                 "id": "o4",
-                "text": "The question is whether cities will prepare inclusively or allow predictable movement to become an avoidable humanitarian crisis."
+                "text": "Climate"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows “Climate migration is often imagined as a sudden movement across…” in “Climate Migration: The Cities People Move To”?",
+            "prompt": "Which word completes the sentence you hear?\n\n“Yet _____ planned early can be a form of adaptation rather than failure.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Climate migration is often imagined as a sudden movement across national borders, but much of it is internal, gradual, and closely connected to employment."
+                "text": "qualifications"
               },
               {
                 "id": "o2",
-                "text": "Families facing repeated floods, crop losses, or extreme heat may first send one member to a nearby town."
+                "text": "mobility"
               },
               {
                 "id": "o3",
-                "text": "Yet mobility planned early can be a form of adaptation rather than failure."
+                "text": "neighbourhoods"
               },
               {
                 "id": "o4",
-                "text": "Not everyone wants to move, and not everyone has the resources to do so."
+                "text": "participation"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Climate Migration: The Cities People Move To”?",
+            "prompt": "Choose the missing word from the recording.\n\n“Not everyone wants to move, and not everyone has the _____ to do so.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Climate migration is often imagined as a sudden movement across national borders, but much of it is internal, gradual, and closely connected to employment."
+                "text": "qualifications"
               },
               {
                 "id": "o2",
-                "text": "Yet mobility planned early can be a form of adaptation rather than failure."
+                "text": "neighbourhoods"
               },
               {
                 "id": "o3",
-                "text": "Not everyone wants to move, and not everyone has the resources to do so."
+                "text": "resources"
               },
               {
                 "id": "o4",
-                "text": "The question is whether cities will prepare inclusively or allow predictable movement to become an avoidable humanitarian crisis."
+                "text": "participation"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes “Climate Migration: The Cities People Move To”?",
+            "prompt": "What is the exact missing word in this audio detail?\n\n“The question is whether cities will prepare inclusively or allow _____ movement to become an avoidable humanitarian crisis.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Climate migration is often imagined as a sudden movement across national borders, but much of it is internal, gradual, and closely connected to employment."
+                "text": "imagined"
               },
               {
                 "id": "o2",
-                "text": "Yet mobility planned early can be a form of adaptation rather than failure."
+                "text": "movement"
               },
               {
                 "id": "o3",
-                "text": "Not everyone wants to move, and not everyone has the resources to do so."
+                "text": "national"
               },
               {
                 "id": "o4",
-                "text": "The question is whether cities will prepare inclusively or allow predictable movement to become an avoidable humanitarian crisis."
+                "text": "predictable"
               }
             ]
           }
@@ -51604,42 +51604,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces “Climate Migration: The Cities People Move To”?",
+        "prompt": "Complete this detail from the audio.\n\n“Climate migration is often imagined as a sudden movement across national borders, but much of it is internal, gradual, and closely connected to _____.”",
         "options": [
-          "Climate migration is often imagined as a sudden movement across national borders, but much of it is internal, gradual, and closely connected to employment.",
-          "Yet mobility planned early can be a form of adaptation rather than failure.",
-          "Not everyone wants to move, and not everyone has the resources to do so.",
-          "The question is whether cities will prepare inclusively or allow predictable movement to become an avoidable humanitarian crisis."
+          "employment",
+          "qualifications",
+          "neighbourhoods",
+          "Climate"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows “Climate migration is often imagined as a sudden movement across…” in “Climate Migration: The Cities People Move To”?",
+        "prompt": "Which word completes the sentence you hear?\n\n“Yet _____ planned early can be a form of adaptation rather than failure.”",
         "options": [
-          "Climate migration is often imagined as a sudden movement across national borders, but much of it is internal, gradual, and closely connected to employment.",
-          "Families facing repeated floods, crop losses, or extreme heat may first send one member to a nearby town.",
-          "Yet mobility planned early can be a form of adaptation rather than failure.",
-          "Not everyone wants to move, and not everyone has the resources to do so."
+          "qualifications",
+          "mobility",
+          "neighbourhoods",
+          "participation"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Climate Migration: The Cities People Move To”?",
+        "prompt": "Choose the missing word from the recording.\n\n“Not everyone wants to move, and not everyone has the _____ to do so.”",
         "options": [
-          "Climate migration is often imagined as a sudden movement across national borders, but much of it is internal, gradual, and closely connected to employment.",
-          "Yet mobility planned early can be a form of adaptation rather than failure.",
-          "Not everyone wants to move, and not everyone has the resources to do so.",
-          "The question is whether cities will prepare inclusively or allow predictable movement to become an avoidable humanitarian crisis."
+          "qualifications",
+          "neighbourhoods",
+          "resources",
+          "participation"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes “Climate Migration: The Cities People Move To”?",
+        "prompt": "What is the exact missing word in this audio detail?\n\n“The question is whether cities will prepare inclusively or allow _____ movement to become an avoidable humanitarian crisis.”",
         "options": [
-          "Climate migration is often imagined as a sudden movement across national borders, but much of it is internal, gradual, and closely connected to employment.",
-          "Yet mobility planned early can be a form of adaptation rather than failure.",
-          "Not everyone wants to move, and not everyone has the resources to do so.",
-          "The question is whether cities will prepare inclusively or allow predictable movement to become an avoidable humanitarian crisis."
+          "imagined",
+          "movement",
+          "national",
+          "predictable"
         ]
       }
     ]
@@ -51789,92 +51789,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces “The Cognitive Cost of Language Anxiety”?",
+            "prompt": "Complete this detail from the audio.\n\n“Language anxiety does more than create an unpleasant _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Language anxiety does more than create an unpleasant feeling."
+                "text": "feeling"
               },
               {
                 "id": "o2",
-                "text": "This does not mean anxiety explains every difficulty, nor that all pressure is harmful."
+                "text": "self-surveillance"
               },
               {
                 "id": "o3",
-                "text": "Learners can also rehearse the opening of a response, use notes containing key ideas rather than full sentences, and redirect attention toward the listener’s meaning."
+                "text": "self-monitoring"
               },
               {
                 "id": "o4",
-                "text": "When attention is released from constant self-surveillance, language becomes available again as a tool for thought and connection."
+                "text": "simultaneously"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows “Language anxiety does more than create an unpleasant feeling.” in “The Cognitive Cost of Language Anxiety”?",
+            "prompt": "Which word completes the sentence you hear?\n\n“This does not mean anxiety _____ every difficulty, nor that all pressure is harmful.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Language anxiety does more than create an unpleasant feeling."
+                "text": "self-surveillance"
               },
               {
                 "id": "o2",
-                "text": "It competes for attention."
+                "text": "explains"
               },
               {
                 "id": "o3",
-                "text": "This does not mean anxiety explains every difficulty, nor that all pressure is harmful."
+                "text": "self-monitoring"
               },
               {
                 "id": "o4",
-                "text": "Learners can also rehearse the opening of a response, use notes containing key ideas rather than full sentences, and redirect attention toward the listener’s meaning."
+                "text": "simultaneously"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “The Cognitive Cost of Language Anxiety”?",
+            "prompt": "Choose the missing word from the recording.\n\n“Learners can also rehearse the opening of a _____, use notes containing key ideas rather than full sentences, and redirect attention toward the listener’s meaning.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Language anxiety does more than create an unpleasant feeling."
+                "text": "self-surveillance"
               },
               {
                 "id": "o2",
-                "text": "This does not mean anxiety explains every difficulty, nor that all pressure is harmful."
+                "text": "self-monitoring"
               },
               {
                 "id": "o3",
-                "text": "Working memory that should organise the message is partly occupied by threat."
+                "text": "response"
               },
               {
                 "id": "o4",
-                "text": "Learners can also rehearse the opening of a response, use notes containing key ideas rather than full sentences, and redirect attention toward the listener’s meaning."
+                "text": "simultaneously"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes “The Cognitive Cost of Language Anxiety”?",
+            "prompt": "What is the exact missing word in this audio detail?\n\n“When attention is released from constant self-surveillance, language _____ available again as a tool for thought and connection.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Language anxiety does more than create an unpleasant feeling."
+                "text": "self-surveillance"
               },
               {
                 "id": "o2",
-                "text": "This does not mean anxiety explains every difficulty, nor that all pressure is harmful."
+                "text": "self-monitoring"
               },
               {
                 "id": "o3",
-                "text": "Learners can also rehearse the opening of a response, use notes containing key ideas rather than full sentences, and redirect attention toward the listener’s meaning."
+                "text": "simultaneously"
               },
               {
                 "id": "o4",
-                "text": "When attention is released from constant self-surveillance, language becomes available again as a tool for thought and connection."
+                "text": "becomes"
               }
             ]
           }
@@ -51885,42 +51885,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces “The Cognitive Cost of Language Anxiety”?",
+        "prompt": "Complete this detail from the audio.\n\n“Language anxiety does more than create an unpleasant _____.”",
         "options": [
-          "Language anxiety does more than create an unpleasant feeling.",
-          "This does not mean anxiety explains every difficulty, nor that all pressure is harmful.",
-          "Learners can also rehearse the opening of a response, use notes containing key ideas rather than full sentences, and redirect attention toward the listener’s meaning.",
-          "When attention is released from constant self-surveillance, language becomes available again as a tool for thought and connection."
+          "feeling",
+          "self-surveillance",
+          "self-monitoring",
+          "simultaneously"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows “Language anxiety does more than create an unpleasant feeling.” in “The Cognitive Cost of Language Anxiety”?",
+        "prompt": "Which word completes the sentence you hear?\n\n“This does not mean anxiety _____ every difficulty, nor that all pressure is harmful.”",
         "options": [
-          "Language anxiety does more than create an unpleasant feeling.",
-          "It competes for attention.",
-          "This does not mean anxiety explains every difficulty, nor that all pressure is harmful.",
-          "Learners can also rehearse the opening of a response, use notes containing key ideas rather than full sentences, and redirect attention toward the listener’s meaning."
+          "self-surveillance",
+          "explains",
+          "self-monitoring",
+          "simultaneously"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “The Cognitive Cost of Language Anxiety”?",
+        "prompt": "Choose the missing word from the recording.\n\n“Learners can also rehearse the opening of a _____, use notes containing key ideas rather than full sentences, and redirect attention toward the listener’s meaning.”",
         "options": [
-          "Language anxiety does more than create an unpleasant feeling.",
-          "This does not mean anxiety explains every difficulty, nor that all pressure is harmful.",
-          "Working memory that should organise the message is partly occupied by threat.",
-          "Learners can also rehearse the opening of a response, use notes containing key ideas rather than full sentences, and redirect attention toward the listener’s meaning."
+          "self-surveillance",
+          "self-monitoring",
+          "response",
+          "simultaneously"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes “The Cognitive Cost of Language Anxiety”?",
+        "prompt": "What is the exact missing word in this audio detail?\n\n“When attention is released from constant self-surveillance, language _____ available again as a tool for thought and connection.”",
         "options": [
-          "Language anxiety does more than create an unpleasant feeling.",
-          "This does not mean anxiety explains every difficulty, nor that all pressure is harmful.",
-          "Learners can also rehearse the opening of a response, use notes containing key ideas rather than full sentences, and redirect attention toward the listener’s meaning.",
-          "When attention is released from constant self-surveillance, language becomes available again as a tool for thought and connection."
+          "self-surveillance",
+          "self-monitoring",
+          "simultaneously",
+          "becomes"
         ]
       }
     ]
@@ -52015,92 +52015,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces “Should We Share an Apartment?”?",
+            "prompt": "Complete this detail from the audio.\n\n“Four young professionals are deciding whether to rent an apartment _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Four young professionals are deciding whether to rent an apartment together."
+                "text": "together"
               },
               {
                 "id": "o2",
-                "text": "One person works at night, while another needs quiet mornings for online meetings."
+                "text": "professionals"
               },
               {
                 "id": "o3",
-                "text": "Before signing a contract, they decide to discuss their routines and write simple house rules."
+                "text": "consideration"
               },
               {
                 "id": "o4",
-                "text": "Honest conversation about expectations would help them decide whether they are truly compatible as roommates."
+                "text": "conversation"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows “Four young professionals are deciding whether to rent an apartment…” in “Should We Share an Apartment?”?",
+            "prompt": "Which word completes the sentence you hear?\n\n“One person works at night, while _____ needs quiet mornings for online meetings.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Four young professionals are deciding whether to rent an apartment together."
+                "text": "professionals"
               },
               {
                 "id": "o2",
-                "text": "If they shared the home, each person would pay less and they could choose a better location."
+                "text": "another"
               },
               {
                 "id": "o3",
-                "text": "One person works at night, while another needs quiet mornings for online meetings."
+                "text": "consideration"
               },
               {
                 "id": "o4",
-                "text": "Before signing a contract, they decide to discuss their routines and write simple house rules."
+                "text": "conversation"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Should We Share an Apartment?”?",
+            "prompt": "Choose the missing word from the recording.\n\n“Before signing a contract, they decide to _____ their routines and write simple house rules.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Four young professionals are deciding whether to rent an apartment together."
+                "text": "professionals"
               },
               {
                 "id": "o2",
-                "text": "One person works at night, while another needs quiet mornings for online meetings."
+                "text": "consideration"
               },
               {
                 "id": "o3",
-                "text": "Before signing a contract, they decide to discuss their routines and write simple house rules."
+                "text": "discuss"
               },
               {
                 "id": "o4",
-                "text": "Honest conversation about expectations would help them decide whether they are truly compatible as roommates."
+                "text": "conversation"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes “Should We Share an Apartment?”?",
+            "prompt": "What is the exact missing word in this audio detail?\n\n“Honest conversation about expectations would help them decide whether they are truly _____ as roommates.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Four young professionals are deciding whether to rent an apartment together."
+                "text": "professionals"
               },
               {
                 "id": "o2",
-                "text": "One person works at night, while another needs quiet mornings for online meetings."
+                "text": "whether"
               },
               {
                 "id": "o3",
-                "text": "Before signing a contract, they decide to discuss their routines and write simple house rules."
+                "text": "However"
               },
               {
                 "id": "o4",
-                "text": "Honest conversation about expectations would help them decide whether they are truly compatible as roommates."
+                "text": "compatible"
               }
             ]
           }
@@ -52111,42 +52111,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces “Should We Share an Apartment?”?",
+        "prompt": "Complete this detail from the audio.\n\n“Four young professionals are deciding whether to rent an apartment _____.”",
         "options": [
-          "Four young professionals are deciding whether to rent an apartment together.",
-          "One person works at night, while another needs quiet mornings for online meetings.",
-          "Before signing a contract, they decide to discuss their routines and write simple house rules.",
-          "Honest conversation about expectations would help them decide whether they are truly compatible as roommates."
+          "together",
+          "professionals",
+          "consideration",
+          "conversation"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows “Four young professionals are deciding whether to rent an apartment…” in “Should We Share an Apartment?”?",
+        "prompt": "Which word completes the sentence you hear?\n\n“One person works at night, while _____ needs quiet mornings for online meetings.”",
         "options": [
-          "Four young professionals are deciding whether to rent an apartment together.",
-          "If they shared the home, each person would pay less and they could choose a better location.",
-          "One person works at night, while another needs quiet mornings for online meetings.",
-          "Before signing a contract, they decide to discuss their routines and write simple house rules."
+          "professionals",
+          "another",
+          "consideration",
+          "conversation"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Should We Share an Apartment?”?",
+        "prompt": "Choose the missing word from the recording.\n\n“Before signing a contract, they decide to _____ their routines and write simple house rules.”",
         "options": [
-          "Four young professionals are deciding whether to rent an apartment together.",
-          "One person works at night, while another needs quiet mornings for online meetings.",
-          "Before signing a contract, they decide to discuss their routines and write simple house rules.",
-          "Honest conversation about expectations would help them decide whether they are truly compatible as roommates."
+          "professionals",
+          "consideration",
+          "discuss",
+          "conversation"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes “Should We Share an Apartment?”?",
+        "prompt": "What is the exact missing word in this audio detail?\n\n“Honest conversation about expectations would help them decide whether they are truly _____ as roommates.”",
         "options": [
-          "Four young professionals are deciding whether to rent an apartment together.",
-          "One person works at night, while another needs quiet mornings for online meetings.",
-          "Before signing a contract, they decide to discuss their routines and write simple house rules.",
-          "Honest conversation about expectations would help them decide whether they are truly compatible as roommates."
+          "professionals",
+          "whether",
+          "However",
+          "compatible"
         ]
       }
     ]
@@ -52276,92 +52276,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces “Why Cheap Fashion Goes Viral”?",
+            "prompt": "Complete this detail from the audio.\n\n“Host: A five-pound shirt looks _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: A five-pound shirt looks affordable."
+                "text": "affordable"
               },
               {
                 "id": "o2",
-                "text": "Host: Some people argue that fast fashion makes clothing accessible."
+                "text": "garment"
               },
               {
                 "id": "o3",
-                "text": "Host: Can labels help?"
+                "text": "factory"
               },
               {
                 "id": "o4",
-                "text": "Affordability matters, but it should not depend on keeping workers and environmental damage invisible."
+                "text": "fashion"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows “A five-pound shirt looks affordable.” in “Why Cheap Fashion Goes Viral”?",
+            "prompt": "Which word completes the sentence you hear?\n\n“Host: _____ people argue that fast fashion makes clothing accessible.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: A five-pound shirt looks affordable."
+                "text": "labour-rights"
               },
               {
                 "id": "o2",
-                "text": "Why might its real price be higher?"
+                "text": "Some"
               },
               {
                 "id": "o3",
-                "text": "Host: Some people argue that fast fashion makes clothing accessible."
+                "text": "Affordability"
               },
               {
                 "id": "o4",
-                "text": "Host: Can labels help?"
+                "text": "environmental"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Why Cheap Fashion Goes Viral”?",
+            "prompt": "Choose the missing word from the recording.\n\n“_____: Can labels help?”",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: A five-pound shirt looks affordable."
+                "text": "labour-rights"
               },
               {
                 "id": "o2",
-                "text": "Host: Some people argue that fast fashion makes clothing accessible."
+                "text": "Affordability"
               },
               {
                 "id": "o3",
-                "text": "Guest: That is true, even though the disposable model encourages people to buy more than they need."
+                "text": "Host"
               },
               {
                 "id": "o4",
-                "text": "Host: Can labels help?"
+                "text": "environmental"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes “Why Cheap Fashion Goes Viral”?",
+            "prompt": "What is the exact missing word in this audio detail?\n\n“Affordability matters, but it should not depend on keeping _____ and environmental damage invisible.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: A five-pound shirt looks affordable."
+                "text": "labour-rights"
               },
               {
                 "id": "o2",
-                "text": "Host: Some people argue that fast fashion makes clothing accessible."
+                "text": "Affordability"
               },
               {
                 "id": "o3",
-                "text": "Host: Can labels help?"
+                "text": "environmental"
               },
               {
                 "id": "o4",
-                "text": "Affordability matters, but it should not depend on keeping workers and environmental damage invisible."
+                "text": "workers"
               }
             ]
           }
@@ -52372,42 +52372,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces “Why Cheap Fashion Goes Viral”?",
+        "prompt": "Complete this detail from the audio.\n\n“Host: A five-pound shirt looks _____.”",
         "options": [
-          "Host: A five-pound shirt looks affordable.",
-          "Host: Some people argue that fast fashion makes clothing accessible.",
-          "Host: Can labels help?",
-          "Affordability matters, but it should not depend on keeping workers and environmental damage invisible."
+          "affordable",
+          "garment",
+          "factory",
+          "fashion"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows “A five-pound shirt looks affordable.” in “Why Cheap Fashion Goes Viral”?",
+        "prompt": "Which word completes the sentence you hear?\n\n“Host: _____ people argue that fast fashion makes clothing accessible.”",
         "options": [
-          "Host: A five-pound shirt looks affordable.",
-          "Why might its real price be higher?",
-          "Host: Some people argue that fast fashion makes clothing accessible.",
-          "Host: Can labels help?"
+          "labour-rights",
+          "Some",
+          "Affordability",
+          "environmental"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Why Cheap Fashion Goes Viral”?",
+        "prompt": "Choose the missing word from the recording.\n\n“_____: Can labels help?”",
         "options": [
-          "Host: A five-pound shirt looks affordable.",
-          "Host: Some people argue that fast fashion makes clothing accessible.",
-          "Guest: That is true, even though the disposable model encourages people to buy more than they need.",
-          "Host: Can labels help?"
+          "labour-rights",
+          "Affordability",
+          "Host",
+          "environmental"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes “Why Cheap Fashion Goes Viral”?",
+        "prompt": "What is the exact missing word in this audio detail?\n\n“Affordability matters, but it should not depend on keeping _____ and environmental damage invisible.”",
         "options": [
-          "Host: A five-pound shirt looks affordable.",
-          "Host: Some people argue that fast fashion makes clothing accessible.",
-          "Host: Can labels help?",
-          "Affordability matters, but it should not depend on keeping workers and environmental damage invisible."
+          "labour-rights",
+          "Affordability",
+          "environmental",
+          "workers"
         ]
       }
     ]
@@ -57203,92 +57203,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In “My Favorite Weekend Activities”, which detail establishes the situation?",
+            "prompt": "Complete this detail from the audio.\n\n“On _____, I have more free time.”",
             "options": [
               {
                 "id": "o1",
-                "text": "On weekends, I have more free time."
+                "text": "weekends"
               },
               {
                 "id": "o2",
-                "text": "In the afternoon, I listen to music and read adventure stories."
+                "text": "grandparents"
               },
               {
                 "id": "o3",
-                "text": "My grandmother makes a delicious lunch, and my grandfather tells funny stories."
+                "text": "music"
               },
               {
                 "id": "o4",
-                "text": "I enjoy my weekends because I can relax, spend time with people I love, and do my favorite activities."
+                "text": "watch"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “On weekends, I have more free time.”, what happens next in “My Favorite Weekend Activities”?",
+            "prompt": "Which word completes the sentence you hear?\n\n“In the afternoon, I _____ to music and read adventure stories.”",
             "options": [
               {
                 "id": "o1",
-                "text": "On weekends, I have more free time."
+                "text": "grandparents"
               },
               {
                 "id": "o2",
-                "text": "In the afternoon, I listen to music and read adventure stories."
+                "text": "listen"
               },
               {
                 "id": "o3",
-                "text": "My grandmother makes a delicious lunch, and my grandfather tells funny stories."
+                "text": "grandmother"
               },
               {
                 "id": "o4",
-                "text": "I enjoy my weekends because I can relax, spend time with people I love, and do my favorite activities."
+                "text": "grandfather"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in “My Favorite Weekend Activities”?",
+            "prompt": "Choose the missing word from the recording.\n\n“My grandmother makes a delicious lunch, and my grandfather tells funny _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "On weekends, I have more free time."
+                "text": "grandparents"
               },
               {
                 "id": "o2",
-                "text": "In the afternoon, I listen to music and read adventure stories."
+                "text": "grandmother"
               },
               {
                 "id": "o3",
-                "text": "My grandmother makes a delicious lunch, and my grandfather tells funny stories."
+                "text": "stories"
               },
               {
                 "id": "o4",
-                "text": "I enjoy my weekends because I can relax, spend time with people I love, and do my favorite activities."
+                "text": "grandfather"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “My Favorite Weekend Activities” after “My grandmother makes a delicious lunch, and my grandfather tells funny…”?",
+            "prompt": "What is the exact missing word in this audio detail?\n\n“I enjoy my weekends because I can relax, spend time with _____ I love, and do my favorite activities.”",
             "options": [
               {
                 "id": "o1",
-                "text": "On weekends, I have more free time."
+                "text": "grandparents"
               },
               {
                 "id": "o2",
-                "text": "In the afternoon, I listen to music and read adventure stories."
+                "text": "grandmother"
               },
               {
                 "id": "o3",
-                "text": "My grandmother makes a delicious lunch, and my grandfather tells funny stories."
+                "text": "grandfather"
               },
               {
                 "id": "o4",
-                "text": "I enjoy my weekends because I can relax, spend time with people I love, and do my favorite activities."
+                "text": "people"
               }
             ]
           }
@@ -57299,42 +57299,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In “My Favorite Weekend Activities”, which detail establishes the situation?",
+        "prompt": "Complete this detail from the audio.\n\n“On _____, I have more free time.”",
         "options": [
-          "On weekends, I have more free time.",
-          "In the afternoon, I listen to music and read adventure stories.",
-          "My grandmother makes a delicious lunch, and my grandfather tells funny stories.",
-          "I enjoy my weekends because I can relax, spend time with people I love, and do my favorite activities."
+          "weekends",
+          "grandparents",
+          "music",
+          "watch"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “On weekends, I have more free time.”, what happens next in “My Favorite Weekend Activities”?",
+        "prompt": "Which word completes the sentence you hear?\n\n“In the afternoon, I _____ to music and read adventure stories.”",
         "options": [
-          "On weekends, I have more free time.",
-          "In the afternoon, I listen to music and read adventure stories.",
-          "My grandmother makes a delicious lunch, and my grandfather tells funny stories.",
-          "I enjoy my weekends because I can relax, spend time with people I love, and do my favorite activities."
+          "grandparents",
+          "listen",
+          "grandmother",
+          "grandfather"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in “My Favorite Weekend Activities”?",
+        "prompt": "Choose the missing word from the recording.\n\n“My grandmother makes a delicious lunch, and my grandfather tells funny _____.”",
         "options": [
-          "On weekends, I have more free time.",
-          "In the afternoon, I listen to music and read adventure stories.",
-          "My grandmother makes a delicious lunch, and my grandfather tells funny stories.",
-          "I enjoy my weekends because I can relax, spend time with people I love, and do my favorite activities."
+          "grandparents",
+          "grandmother",
+          "stories",
+          "grandfather"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “My Favorite Weekend Activities” after “My grandmother makes a delicious lunch, and my grandfather tells funny…”?",
+        "prompt": "What is the exact missing word in this audio detail?\n\n“I enjoy my weekends because I can relax, spend time with _____ I love, and do my favorite activities.”",
         "options": [
-          "On weekends, I have more free time.",
-          "In the afternoon, I listen to music and read adventure stories.",
-          "My grandmother makes a delicious lunch, and my grandfather tells funny stories.",
-          "I enjoy my weekends because I can relax, spend time with people I love, and do my favorite activities."
+          "grandparents",
+          "grandmother",
+          "grandfather",
+          "people"
         ]
       }
     ]
@@ -57469,92 +57469,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In “Reaching an Important Goal”, which detail establishes the situation?",
+            "prompt": "Complete this detail from the audio.\n\n“For many years, Marcus wanted to complete a city _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "For many years, Marcus wanted to complete a city marathon."
+                "text": "marathon"
               },
               {
                 "id": "o2",
-                "text": "He followed a weekly plan, changed his eating habits, and trained even on rainy mornings."
+                "text": "achievements"
               },
               {
                 "id": "o3",
-                "text": "On the day of the marathon, Marcus felt nervous but prepared."
+                "text": "years"
               },
               {
                 "id": "o4",
-                "text": "He learned that steady effort can lead to great achievements."
+                "text": "began"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “For many years, Marcus wanted to complete a city marathon.”, what happens next in “Reaching an Important Goal”?",
+            "prompt": "Which word completes the sentence you hear?\n\n“He followed a _____ plan, changed his eating habits, and trained even on rainy mornings.”",
             "options": [
               {
                 "id": "o1",
-                "text": "For many years, Marcus wanted to complete a city marathon."
+                "text": "achievements"
               },
               {
                 "id": "o2",
-                "text": "He followed a weekly plan, changed his eating habits, and trained even on rainy mornings."
+                "text": "weekly"
               },
               {
                 "id": "o3",
-                "text": "On the day of the marathon, Marcus felt nervous but prepared."
+                "text": "kilometers"
               },
               {
                 "id": "o4",
-                "text": "He learned that steady effort can lead to great achievements."
+                "text": "encouraged"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in “Reaching an Important Goal”?",
+            "prompt": "Choose the missing word from the recording.\n\n“On the day of the marathon, Marcus felt nervous but _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "For many years, Marcus wanted to complete a city marathon."
+                "text": "achievements"
               },
               {
                 "id": "o2",
-                "text": "On the day of the marathon, Marcus felt nervous but prepared."
+                "text": "years"
               },
               {
                 "id": "o3",
-                "text": "He followed a weekly plan, changed his eating habits, and trained even on rainy mornings."
+                "text": "prepared"
               },
               {
                 "id": "o4",
-                "text": "He learned that steady effort can lead to great achievements."
+                "text": "began"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Reaching an Important Goal” after “He followed a weekly plan, changed his eating habits, and trained even…”?",
+            "prompt": "What is the exact missing word in this audio detail?\n\n“He learned that _____ effort can lead to great achievements.”",
             "options": [
               {
                 "id": "o1",
-                "text": "For many years, Marcus wanted to complete a city marathon."
+                "text": "achievements"
               },
               {
                 "id": "o2",
-                "text": "He followed a weekly plan, changed his eating habits, and trained even on rainy mornings."
+                "text": "kilometers"
               },
               {
                 "id": "o3",
-                "text": "On the day of the marathon, Marcus felt nervous but prepared."
+                "text": "encouraged"
               },
               {
                 "id": "o4",
-                "text": "He learned that steady effort can lead to great achievements."
+                "text": "steady"
               }
             ]
           }
@@ -57565,42 +57565,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In “Reaching an Important Goal”, which detail establishes the situation?",
+        "prompt": "Complete this detail from the audio.\n\n“For many years, Marcus wanted to complete a city _____.”",
         "options": [
-          "For many years, Marcus wanted to complete a city marathon.",
-          "He followed a weekly plan, changed his eating habits, and trained even on rainy mornings.",
-          "On the day of the marathon, Marcus felt nervous but prepared.",
-          "He learned that steady effort can lead to great achievements."
+          "marathon",
+          "achievements",
+          "years",
+          "began"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “For many years, Marcus wanted to complete a city marathon.”, what happens next in “Reaching an Important Goal”?",
+        "prompt": "Which word completes the sentence you hear?\n\n“He followed a _____ plan, changed his eating habits, and trained even on rainy mornings.”",
         "options": [
-          "For many years, Marcus wanted to complete a city marathon.",
-          "He followed a weekly plan, changed his eating habits, and trained even on rainy mornings.",
-          "On the day of the marathon, Marcus felt nervous but prepared.",
-          "He learned that steady effort can lead to great achievements."
+          "achievements",
+          "weekly",
+          "kilometers",
+          "encouraged"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in “Reaching an Important Goal”?",
+        "prompt": "Choose the missing word from the recording.\n\n“On the day of the marathon, Marcus felt nervous but _____.”",
         "options": [
-          "For many years, Marcus wanted to complete a city marathon.",
-          "On the day of the marathon, Marcus felt nervous but prepared.",
-          "He followed a weekly plan, changed his eating habits, and trained even on rainy mornings.",
-          "He learned that steady effort can lead to great achievements."
+          "achievements",
+          "years",
+          "prepared",
+          "began"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Reaching an Important Goal” after “He followed a weekly plan, changed his eating habits, and trained even…”?",
+        "prompt": "What is the exact missing word in this audio detail?\n\n“He learned that _____ effort can lead to great achievements.”",
         "options": [
-          "For many years, Marcus wanted to complete a city marathon.",
-          "He followed a weekly plan, changed his eating habits, and trained even on rainy mornings.",
-          "On the day of the marathon, Marcus felt nervous but prepared.",
-          "He learned that steady effort can lead to great achievements."
+          "achievements",
+          "kilometers",
+          "encouraged",
+          "steady"
         ]
       }
     ]
@@ -57730,92 +57730,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces “Neural Data and the Right to Mental Privacy”?",
+            "prompt": "Complete this detail from the audio.\n\n“Neurotechnology can translate patterns of brain activity into information that helps a person move a cursor, communicate, or control a prosthetic _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neurotechnology can translate patterns of brain activity into information that helps a person move a cursor, communicate, or control a prosthetic device."
+                "text": "device"
               },
               {
                 "id": "o2",
-                "text": "It is essential that public discussion avoid both exaggerated fear and careless optimism."
+                "text": "Neurotechnology"
               },
               {
                 "id": "o3",
-                "text": "Researchers recommend that mental privacy be recognised before consumer systems become widespread, rather than after harmful practices are established."
+                "text": "independence"
               },
               {
                 "id": "o4",
-                "text": "Innovation can expand human agency, but only if the people generating the data retain meaningful control over how it is interpreted, combined, and used."
+                "text": "Nevertheless"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows “Neurotechnology can translate patterns of brain activity into…” in “Neural Data and the Right to Mental Privacy”?",
+            "prompt": "Which word completes the sentence you hear?\n\n“It is essential that _____ discussion avoid both exaggerated fear and careless optimism.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neurotechnology can translate patterns of brain activity into information that helps a person move a cursor, communicate, or control a prosthetic device."
+                "text": "Neurotechnology"
               },
               {
                 "id": "o2",
-                "text": "These advances may restore independence, but they also create a category of data that feels unusually intimate."
+                "text": "public"
               },
               {
                 "id": "o3",
-                "text": "It is essential that public discussion avoid both exaggerated fear and careless optimism."
+                "text": "independence"
               },
               {
                 "id": "o4",
-                "text": "Researchers recommend that mental privacy be recognised before consumer systems become widespread, rather than after harmful practices are established."
+                "text": "Nevertheless"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Neural Data and the Right to Mental Privacy”?",
+            "prompt": "Choose the missing word from the recording.\n\n“Researchers recommend that mental _____ be recognised before consumer systems become widespread, rather than after harmful practices are established.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neurotechnology can translate patterns of brain activity into information that helps a person move a cursor, communicate, or control a prosthetic device."
+                "text": "Neurotechnology"
               },
               {
                 "id": "o2",
-                "text": "It is essential that public discussion avoid both exaggerated fear and careless optimism."
+                "text": "independence"
               },
               {
                 "id": "o3",
-                "text": "Regulators should require that neural data be collected for a specific purpose, stored securely, and deleted when no longer necessary."
+                "text": "privacy"
               },
               {
                 "id": "o4",
-                "text": "Researchers recommend that mental privacy be recognised before consumer systems become widespread, rather than after harmful practices are established."
+                "text": "Nevertheless"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes “Neural Data and the Right to Mental Privacy”?",
+            "prompt": "What is the exact missing word in this audio detail?\n\n“Innovation can expand human agency, but only if the people generating the data _____ meaningful control over how it is interpreted, combined, and used.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neurotechnology can translate patterns of brain activity into information that helps a person move a cursor, communicate, or control a prosthetic device."
+                "text": "Neurotechnology"
               },
               {
                 "id": "o2",
-                "text": "It is essential that public discussion avoid both exaggerated fear and careless optimism."
+                "text": "independence"
               },
               {
                 "id": "o3",
-                "text": "Researchers recommend that mental privacy be recognised before consumer systems become widespread, rather than after harmful practices are established."
+                "text": "Nevertheless"
               },
               {
                 "id": "o4",
-                "text": "Innovation can expand human agency, but only if the people generating the data retain meaningful control over how it is interpreted, combined, and used."
+                "text": "retain"
               }
             ]
           }
@@ -57826,42 +57826,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces “Neural Data and the Right to Mental Privacy”?",
+        "prompt": "Complete this detail from the audio.\n\n“Neurotechnology can translate patterns of brain activity into information that helps a person move a cursor, communicate, or control a prosthetic _____.”",
         "options": [
-          "Neurotechnology can translate patterns of brain activity into information that helps a person move a cursor, communicate, or control a prosthetic device.",
-          "It is essential that public discussion avoid both exaggerated fear and careless optimism.",
-          "Researchers recommend that mental privacy be recognised before consumer systems become widespread, rather than after harmful practices are established.",
-          "Innovation can expand human agency, but only if the people generating the data retain meaningful control over how it is interpreted, combined, and used."
+          "device",
+          "Neurotechnology",
+          "independence",
+          "Nevertheless"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows “Neurotechnology can translate patterns of brain activity into…” in “Neural Data and the Right to Mental Privacy”?",
+        "prompt": "Which word completes the sentence you hear?\n\n“It is essential that _____ discussion avoid both exaggerated fear and careless optimism.”",
         "options": [
-          "Neurotechnology can translate patterns of brain activity into information that helps a person move a cursor, communicate, or control a prosthetic device.",
-          "These advances may restore independence, but they also create a category of data that feels unusually intimate.",
-          "It is essential that public discussion avoid both exaggerated fear and careless optimism.",
-          "Researchers recommend that mental privacy be recognised before consumer systems become widespread, rather than after harmful practices are established."
+          "Neurotechnology",
+          "public",
+          "independence",
+          "Nevertheless"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Neural Data and the Right to Mental Privacy”?",
+        "prompt": "Choose the missing word from the recording.\n\n“Researchers recommend that mental _____ be recognised before consumer systems become widespread, rather than after harmful practices are established.”",
         "options": [
-          "Neurotechnology can translate patterns of brain activity into information that helps a person move a cursor, communicate, or control a prosthetic device.",
-          "It is essential that public discussion avoid both exaggerated fear and careless optimism.",
-          "Regulators should require that neural data be collected for a specific purpose, stored securely, and deleted when no longer necessary.",
-          "Researchers recommend that mental privacy be recognised before consumer systems become widespread, rather than after harmful practices are established."
+          "Neurotechnology",
+          "independence",
+          "privacy",
+          "Nevertheless"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes “Neural Data and the Right to Mental Privacy”?",
+        "prompt": "What is the exact missing word in this audio detail?\n\n“Innovation can expand human agency, but only if the people generating the data _____ meaningful control over how it is interpreted, combined, and used.”",
         "options": [
-          "Neurotechnology can translate patterns of brain activity into information that helps a person move a cursor, communicate, or control a prosthetic device.",
-          "It is essential that public discussion avoid both exaggerated fear and careless optimism.",
-          "Researchers recommend that mental privacy be recognised before consumer systems become widespread, rather than after harmful practices are established.",
-          "Innovation can expand human agency, but only if the people generating the data retain meaningful control over how it is interpreted, combined, and used."
+          "Neurotechnology",
+          "independence",
+          "Nevertheless",
+          "retain"
         ]
       }
     ]
@@ -58006,92 +58006,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces “Beyond the Average Learner”?",
+            "prompt": "Complete this detail from the audio.\n\n“Group _____s are indispensable to research, but no individual learner is literally average.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Group averages are indispensable to research, but no individual learner is literally average."
+                "text": "average"
               },
               {
                 "id": "o2",
-                "text": "Nor should language aptitude be treated as a fixed score that ranks human potential."
+                "text": "individual-difference"
               },
               {
                 "id": "o3",
-                "text": "Context can amplify or suppress them."
+                "text": "Personalisation"
               },
               {
                 "id": "o4",
-                "text": "Only ongoing observation of a real learner can reveal what support, challenge, and opportunity that particular person needs next."
+                "text": "indispensable"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows “Group averages are indispensable to research, but no individual…” in “Beyond the Average Learner”?",
+            "prompt": "Which word completes the sentence you hear?\n\n“Nor _____ language aptitude be treated as a fixed score that ranks human potential.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Group averages are indispensable to research, but no individual learner is literally average."
+                "text": "individual-difference"
               },
               {
                 "id": "o2",
-                "text": "Two students receiving the same instruction may differ in phonological memory, analytic ability, processing speed, prior languages, motivation, and available time."
+                "text": "should"
               },
               {
                 "id": "o3",
-                "text": "Nor should language aptitude be treated as a fixed score that ranks human potential."
+                "text": "Personalisation"
               },
               {
                 "id": "o4",
-                "text": "Context can amplify or suppress them."
+                "text": "indispensable"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Beyond the Average Learner”?",
+            "prompt": "Choose the missing word from the recording.\n\n“_____ can amplify or suppress them.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Group averages are indispensable to research, but no individual learner is literally average."
+                "text": "individual-difference"
               },
               {
                 "id": "o2",
-                "text": "Context can amplify or suppress them."
+                "text": "Personalisation"
               },
               {
                 "id": "o3",
-                "text": "Nor should language aptitude be treated as a fixed score that ranks human potential."
+                "text": "Context"
               },
               {
                 "id": "o4",
-                "text": "Only ongoing observation of a real learner can reveal what support, challenge, and opportunity that particular person needs next."
+                "text": "indispensable"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes “Beyond the Average Learner”?",
+            "prompt": "What is the exact missing word in this audio detail?\n\n“Only ongoing observation of a real learner can reveal what _____, challenge, and opportunity that particular person needs next.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Group averages are indispensable to research, but no individual learner is literally average."
+                "text": "individual-difference"
               },
               {
                 "id": "o2",
-                "text": "Nor should language aptitude be treated as a fixed score that ranks human potential."
+                "text": "Personalisation"
               },
               {
                 "id": "o3",
-                "text": "Context can amplify or suppress them."
+                "text": "indispensable"
               },
               {
                 "id": "o4",
-                "text": "Only ongoing observation of a real learner can reveal what support, challenge, and opportunity that particular person needs next."
+                "text": "support"
               }
             ]
           }
@@ -58102,42 +58102,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces “Beyond the Average Learner”?",
+        "prompt": "Complete this detail from the audio.\n\n“Group _____s are indispensable to research, but no individual learner is literally average.”",
         "options": [
-          "Group averages are indispensable to research, but no individual learner is literally average.",
-          "Nor should language aptitude be treated as a fixed score that ranks human potential.",
-          "Context can amplify or suppress them.",
-          "Only ongoing observation of a real learner can reveal what support, challenge, and opportunity that particular person needs next."
+          "average",
+          "individual-difference",
+          "Personalisation",
+          "indispensable"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows “Group averages are indispensable to research, but no individual…” in “Beyond the Average Learner”?",
+        "prompt": "Which word completes the sentence you hear?\n\n“Nor _____ language aptitude be treated as a fixed score that ranks human potential.”",
         "options": [
-          "Group averages are indispensable to research, but no individual learner is literally average.",
-          "Two students receiving the same instruction may differ in phonological memory, analytic ability, processing speed, prior languages, motivation, and available time.",
-          "Nor should language aptitude be treated as a fixed score that ranks human potential.",
-          "Context can amplify or suppress them."
+          "individual-difference",
+          "should",
+          "Personalisation",
+          "indispensable"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Beyond the Average Learner”?",
+        "prompt": "Choose the missing word from the recording.\n\n“_____ can amplify or suppress them.”",
         "options": [
-          "Group averages are indispensable to research, but no individual learner is literally average.",
-          "Context can amplify or suppress them.",
-          "Nor should language aptitude be treated as a fixed score that ranks human potential.",
-          "Only ongoing observation of a real learner can reveal what support, challenge, and opportunity that particular person needs next."
+          "individual-difference",
+          "Personalisation",
+          "Context",
+          "indispensable"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes “Beyond the Average Learner”?",
+        "prompt": "What is the exact missing word in this audio detail?\n\n“Only ongoing observation of a real learner can reveal what _____, challenge, and opportunity that particular person needs next.”",
         "options": [
-          "Group averages are indispensable to research, but no individual learner is literally average.",
-          "Nor should language aptitude be treated as a fixed score that ranks human potential.",
-          "Context can amplify or suppress them.",
-          "Only ongoing observation of a real learner can reveal what support, challenge, and opportunity that particular person needs next."
+          "individual-difference",
+          "Personalisation",
+          "indispensable",
+          "support"
         ]
       }
     ]
@@ -58222,92 +58222,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces “Plans for the Next Five Years”?",
+            "prompt": "Complete this detail from the audio.\n\n“In a radio program, callers describe how their plans have _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In a radio program, callers describe how their plans have changed."
+                "text": "changed"
               },
               {
                 "id": "o2",
-                "text": "A restaurant worker explains that his manager had encouraged him to study business, so he enrolled in an evening course."
+                "text": "says"
               },
               {
                 "id": "o3",
-                "text": "The host reminds listeners that a goal can provide direction without becoming a strict deadline."
+                "text": "home"
               },
               {
                 "id": "o4",
-                "text": "By the end of the program, the guests have turned broad hopes into practical steps: compare courses, review savings, request flexible hours, and speak to people already working in a desired field."
+                "text": "made"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows “In a radio program, callers describe how their plans have changed.” in “Plans for the Next Five Years”?",
+            "prompt": "Which word completes the sentence you hear?\n\n“A restaurant _____ explains that his manager had encouraged him to study business, so he enrolled in an evening course.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In a radio program, callers describe how their plans have changed."
+                "text": "reconsider"
               },
               {
                 "id": "o2",
-                "text": "An engineer says she had expected to buy a home by thirty, but rising prices made her reconsider."
+                "text": "worker"
               },
               {
                 "id": "o3",
-                "text": "A restaurant worker explains that his manager had encouraged him to study business, so he enrolled in an evening course."
+                "text": "restaurant"
               },
               {
                 "id": "o4",
-                "text": "The host reminds listeners that a goal can provide direction without becoming a strict deadline."
+                "text": "encouraged"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Plans for the Next Five Years”?",
+            "prompt": "Choose the missing word from the recording.\n\n“The host reminds listeners that a goal can provide _____ without becoming a strict deadline.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In a radio program, callers describe how their plans have changed."
+                "text": "thirty"
               },
               {
                 "id": "o2",
-                "text": "A restaurant worker explains that his manager had encouraged him to study business, so he enrolled in an evening course."
+                "text": "rising"
               },
               {
                 "id": "o3",
-                "text": "The host reminds listeners that a goal can provide direction without becoming a strict deadline."
+                "text": "direction"
               },
               {
                 "id": "o4",
-                "text": "By the end of the program, the guests have turned broad hopes into practical steps: compare courses, review savings, request flexible hours, and speak to people already working in a desired field."
+                "text": "prices"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes “Plans for the Next Five Years”?",
+            "prompt": "What is the exact missing word in this audio detail?\n\n“By the end of the program, the guests have turned broad hopes into practical steps: compare _____, review savings, request flexible hours, and speak to people already working in a desired field.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In a radio program, callers describe how their plans have changed."
+                "text": "says"
               },
               {
                 "id": "o2",
-                "text": "A restaurant worker explains that his manager had encouraged him to study business, so he enrolled in an evening course."
+                "text": "home"
               },
               {
                 "id": "o3",
-                "text": "The host reminds listeners that a goal can provide direction without becoming a strict deadline."
+                "text": "made"
               },
               {
                 "id": "o4",
-                "text": "By the end of the program, the guests have turned broad hopes into practical steps: compare courses, review savings, request flexible hours, and speak to people already working in a desired field."
+                "text": "courses"
               }
             ]
           }
@@ -58318,42 +58318,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces “Plans for the Next Five Years”?",
+        "prompt": "Complete this detail from the audio.\n\n“In a radio program, callers describe how their plans have _____.”",
         "options": [
-          "In a radio program, callers describe how their plans have changed.",
-          "A restaurant worker explains that his manager had encouraged him to study business, so he enrolled in an evening course.",
-          "The host reminds listeners that a goal can provide direction without becoming a strict deadline.",
-          "By the end of the program, the guests have turned broad hopes into practical steps: compare courses, review savings, request flexible hours, and speak to people already working in a desired field."
+          "changed",
+          "says",
+          "home",
+          "made"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows “In a radio program, callers describe how their plans have changed.” in “Plans for the Next Five Years”?",
+        "prompt": "Which word completes the sentence you hear?\n\n“A restaurant _____ explains that his manager had encouraged him to study business, so he enrolled in an evening course.”",
         "options": [
-          "In a radio program, callers describe how their plans have changed.",
-          "An engineer says she had expected to buy a home by thirty, but rising prices made her reconsider.",
-          "A restaurant worker explains that his manager had encouraged him to study business, so he enrolled in an evening course.",
-          "The host reminds listeners that a goal can provide direction without becoming a strict deadline."
+          "reconsider",
+          "worker",
+          "restaurant",
+          "encouraged"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Plans for the Next Five Years”?",
+        "prompt": "Choose the missing word from the recording.\n\n“The host reminds listeners that a goal can provide _____ without becoming a strict deadline.”",
         "options": [
-          "In a radio program, callers describe how their plans have changed.",
-          "A restaurant worker explains that his manager had encouraged him to study business, so he enrolled in an evening course.",
-          "The host reminds listeners that a goal can provide direction without becoming a strict deadline.",
-          "By the end of the program, the guests have turned broad hopes into practical steps: compare courses, review savings, request flexible hours, and speak to people already working in a desired field."
+          "thirty",
+          "rising",
+          "direction",
+          "prices"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes “Plans for the Next Five Years”?",
+        "prompt": "What is the exact missing word in this audio detail?\n\n“By the end of the program, the guests have turned broad hopes into practical steps: compare _____, review savings, request flexible hours, and speak to people already working in a desired field.”",
         "options": [
-          "In a radio program, callers describe how their plans have changed.",
-          "A restaurant worker explains that his manager had encouraged him to study business, so he enrolled in an evening course.",
-          "The host reminds listeners that a goal can provide direction without becoming a strict deadline.",
-          "By the end of the program, the guests have turned broad hopes into practical steps: compare courses, review savings, request flexible hours, and speak to people already working in a desired field."
+          "says",
+          "home",
+          "made",
+          "courses"
         ]
       }
     ]
@@ -58488,92 +58488,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces “Can Education Still Create Opportunity?”?",
+            "prompt": "Complete this detail from the audio.\n\n“Host: A community mentoring program supports Aisha, whose grades qualify her for a _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: A community mentoring program supports Aisha, whose grades qualify her for a scholarship."
+                "text": "scholarship"
               },
               {
                 "id": "o2",
-                "text": "Host: Some people say scholarships reward merit fairly."
+                "text": "supports"
               },
               {
                 "id": "o3",
-                "text": "Host: What would improve social mobility?"
+                "text": "evenings"
               },
               {
                 "id": "o4",
-                "text": "Education creates opportunity, but it cannot remove every social barrier by itself."
+                "text": "reliable"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows “A community mentoring program supports Aisha, whose grades qualify her…” in “Can Education Still Create Opportunity?”?",
+            "prompt": "Which word completes the sentence you hear?\n\n“Host: _____ people say scholarships reward merit fairly.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: A community mentoring program supports Aisha, whose grades qualify her for a scholarship."
+                "text": "transportation"
               },
               {
                 "id": "o2",
-                "text": "Why is her application unfinished?"
+                "text": "Some"
               },
               {
                 "id": "o3",
-                "text": "Host: Some people say scholarships reward merit fairly."
+                "text": "scholarships"
               },
               {
                 "id": "o4",
-                "text": "Host: What would improve social mobility?"
+                "text": "institutions"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Can Education Still Create Opportunity?”?",
+            "prompt": "Choose the missing word from the recording.\n\n“Host: What would improve social _____?”",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: A community mentoring program supports Aisha, whose grades qualify her for a scholarship."
+                "text": "transportation"
               },
               {
                 "id": "o2",
-                "text": "Host: Some people say scholarships reward merit fairly."
+                "text": "scholarships"
               },
               {
                 "id": "o3",
-                "text": "Students also need safe schools, mentoring and access to activities that strengthen an application."
+                "text": "mobility"
               },
               {
                 "id": "o4",
-                "text": "Host: What would improve social mobility?"
+                "text": "institutions"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes “Can Education Still Create Opportunity?”?",
+            "prompt": "What is the exact missing word in this audio detail?\n\n“Education creates opportunity, but it cannot remove every _____ barrier by itself.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: A community mentoring program supports Aisha, whose grades qualify her for a scholarship."
+                "text": "transportation"
               },
               {
                 "id": "o2",
-                "text": "Host: Some people say scholarships reward merit fairly."
+                "text": "scholarships"
               },
               {
                 "id": "o3",
-                "text": "Host: What would improve social mobility?"
+                "text": "institutions"
               },
               {
                 "id": "o4",
-                "text": "Education creates opportunity, but it cannot remove every social barrier by itself."
+                "text": "social"
               }
             ]
           }
@@ -58584,42 +58584,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces “Can Education Still Create Opportunity?”?",
+        "prompt": "Complete this detail from the audio.\n\n“Host: A community mentoring program supports Aisha, whose grades qualify her for a _____.”",
         "options": [
-          "Host: A community mentoring program supports Aisha, whose grades qualify her for a scholarship.",
-          "Host: Some people say scholarships reward merit fairly.",
-          "Host: What would improve social mobility?",
-          "Education creates opportunity, but it cannot remove every social barrier by itself."
+          "scholarship",
+          "supports",
+          "evenings",
+          "reliable"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows “A community mentoring program supports Aisha, whose grades qualify her…” in “Can Education Still Create Opportunity?”?",
+        "prompt": "Which word completes the sentence you hear?\n\n“Host: _____ people say scholarships reward merit fairly.”",
         "options": [
-          "Host: A community mentoring program supports Aisha, whose grades qualify her for a scholarship.",
-          "Why is her application unfinished?",
-          "Host: Some people say scholarships reward merit fairly.",
-          "Host: What would improve social mobility?"
+          "transportation",
+          "Some",
+          "scholarships",
+          "institutions"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Can Education Still Create Opportunity?”?",
+        "prompt": "Choose the missing word from the recording.\n\n“Host: What would improve social _____?”",
         "options": [
-          "Host: A community mentoring program supports Aisha, whose grades qualify her for a scholarship.",
-          "Host: Some people say scholarships reward merit fairly.",
-          "Students also need safe schools, mentoring and access to activities that strengthen an application.",
-          "Host: What would improve social mobility?"
+          "transportation",
+          "scholarships",
+          "mobility",
+          "institutions"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes “Can Education Still Create Opportunity?”?",
+        "prompt": "What is the exact missing word in this audio detail?\n\n“Education creates opportunity, but it cannot remove every _____ barrier by itself.”",
         "options": [
-          "Host: A community mentoring program supports Aisha, whose grades qualify her for a scholarship.",
-          "Host: Some people say scholarships reward merit fairly.",
-          "Host: What would improve social mobility?",
-          "Education creates opportunity, but it cannot remove every social barrier by itself."
+          "transportation",
+          "scholarships",
+          "institutions",
+          "social"
         ]
       }
     ]
@@ -63336,92 +63336,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In “A New Shirt”, which detail establishes the situation?",
+            "prompt": "Complete this detail from the audio.\n\n“Maria needs a new shirt for a _____ party.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Maria needs a new shirt for a family party."
+                "text": "family"
               },
               {
                 "id": "o2",
-                "text": "The shirt is twenty-five dollars."
+                "text": "twenty-five"
               },
               {
                 "id": "o3",
-                "text": "Her mother finds a similar white shirt on sale."
+                "text": "new"
               },
               {
                 "id": "o4",
-                "text": "She buys the white shirt and a pair of black pants for the party."
+                "text": "She"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Maria needs a new shirt for a family party.”, what happens next in “A New Shirt”?",
+            "prompt": "Which word completes the sentence you hear?\n\n“The shirt is twenty-five _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Maria needs a new shirt for a family party."
+                "text": "twenty-five"
               },
               {
                 "id": "o2",
-                "text": "The shirt is twenty-five dollars."
+                "text": "dollars"
               },
               {
                 "id": "o3",
-                "text": "Her mother finds a similar white shirt on sale."
+                "text": "goes"
               },
               {
                 "id": "o4",
-                "text": "She buys the white shirt and a pair of black pants for the party."
+                "text": "sees"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in “A New Shirt”?",
+            "prompt": "Choose the missing word from the recording.\n\n“Her mother finds a _____ white shirt on sale.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Maria needs a new shirt for a family party."
+                "text": "twenty-five"
               },
               {
                 "id": "o2",
-                "text": "The shirt is twenty-five dollars."
+                "text": "goes"
               },
               {
                 "id": "o3",
-                "text": "Her mother finds a similar white shirt on sale."
+                "text": "similar"
               },
               {
                 "id": "o4",
-                "text": "She buys the white shirt and a pair of black pants for the party."
+                "text": "sees"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “A New Shirt” after “Her mother finds a similar white shirt on sale.”?",
+            "prompt": "What is the exact missing word in this audio detail?\n\n“_____ buys the white shirt and a pair of black pants for the party.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Maria needs a new shirt for a family party."
+                "text": "twenty-five"
               },
               {
                 "id": "o2",
-                "text": "The shirt is twenty-five dollars."
+                "text": "clothing"
               },
               {
                 "id": "o3",
-                "text": "Her mother finds a similar white shirt on sale."
+                "text": "eighteen"
               },
               {
                 "id": "o4",
-                "text": "She buys the white shirt and a pair of black pants for the party."
+                "text": "She"
               }
             ]
           }
@@ -63432,42 +63432,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In “A New Shirt”, which detail establishes the situation?",
+        "prompt": "Complete this detail from the audio.\n\n“Maria needs a new shirt for a _____ party.”",
         "options": [
-          "Maria needs a new shirt for a family party.",
-          "The shirt is twenty-five dollars.",
-          "Her mother finds a similar white shirt on sale.",
-          "She buys the white shirt and a pair of black pants for the party."
+          "family",
+          "twenty-five",
+          "new",
+          "She"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Maria needs a new shirt for a family party.”, what happens next in “A New Shirt”?",
+        "prompt": "Which word completes the sentence you hear?\n\n“The shirt is twenty-five _____.”",
         "options": [
-          "Maria needs a new shirt for a family party.",
-          "The shirt is twenty-five dollars.",
-          "Her mother finds a similar white shirt on sale.",
-          "She buys the white shirt and a pair of black pants for the party."
+          "twenty-five",
+          "dollars",
+          "goes",
+          "sees"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in “A New Shirt”?",
+        "prompt": "Choose the missing word from the recording.\n\n“Her mother finds a _____ white shirt on sale.”",
         "options": [
-          "Maria needs a new shirt for a family party.",
-          "The shirt is twenty-five dollars.",
-          "Her mother finds a similar white shirt on sale.",
-          "She buys the white shirt and a pair of black pants for the party."
+          "twenty-five",
+          "goes",
+          "similar",
+          "sees"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “A New Shirt” after “Her mother finds a similar white shirt on sale.”?",
+        "prompt": "What is the exact missing word in this audio detail?\n\n“_____ buys the white shirt and a pair of black pants for the party.”",
         "options": [
-          "Maria needs a new shirt for a family party.",
-          "The shirt is twenty-five dollars.",
-          "Her mother finds a similar white shirt on sale.",
-          "She buys the white shirt and a pair of black pants for the party."
+          "twenty-five",
+          "clothing",
+          "eighteen",
+          "She"
         ]
       }
     ]
@@ -63602,92 +63602,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces “Synthetic Biology: Promise, Risk, and Control”?",
+            "prompt": "Complete this detail from the audio.\n\n“Synthetic biology allows researchers to design or modify biological systems for purposes ranging from medicine to sustainable _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Synthetic biology allows researchers to design or modify biological systems for purposes ranging from medicine to sustainable materials."
+                "text": "materials"
               },
               {
                 "id": "o2",
-                "text": "Biosecurity is sometimes presented as the opposite of scientific freedom."
+                "text": "counterproductive"
               },
               {
                 "id": "o3",
-                "text": "Conversely, voluntary promises alone may not remain adequate as capabilities spread."
+                "text": "high-consequence"
               },
               {
                 "id": "o4",
-                "text": "Trust will depend on whether institutions can demonstrate that anticipation, accountability, and public benefit are built into innovation from the beginning."
+                "text": "petroleum-based"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows “Synthetic biology allows researchers to design or modify biological…” in “Synthetic Biology: Promise, Risk, and Control”?",
+            "prompt": "Which word completes the sentence you hear?\n\n“Biosecurity is _____ presented as the opposite of scientific freedom.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Synthetic biology allows researchers to design or modify biological systems for purposes ranging from medicine to sustainable materials."
+                "text": "counterproductive"
               },
               {
                 "id": "o2",
-                "text": "Engineered microbes may produce drugs, detect contamination, or replace petroleum-based chemicals."
+                "text": "sometimes"
               },
               {
                 "id": "o3",
-                "text": "Biosecurity is sometimes presented as the opposite of scientific freedom."
+                "text": "high-consequence"
               },
               {
                 "id": "o4",
-                "text": "Conversely, voluntary promises alone may not remain adequate as capabilities spread."
+                "text": "petroleum-based"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Synthetic Biology: Promise, Risk, and Control”?",
+            "prompt": "Choose the missing word from the recording.\n\n“Conversely, voluntary promises alone may not _____ adequate as capabilities spread.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Synthetic biology allows researchers to design or modify biological systems for purposes ranging from medicine to sustainable materials."
+                "text": "counterproductive"
               },
               {
                 "id": "o2",
-                "text": "Biosecurity is sometimes presented as the opposite of scientific freedom."
+                "text": "high-consequence"
               },
               {
                 "id": "o3",
-                "text": "International coordination is particularly important because biological risks do not respect borders, while regulatory capacity varies greatly."
+                "text": "remain"
               },
               {
                 "id": "o4",
-                "text": "Conversely, voluntary promises alone may not remain adequate as capabilities spread."
+                "text": "petroleum-based"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes “Synthetic Biology: Promise, Risk, and Control”?",
+            "prompt": "What is the exact missing word in this audio detail?\n\n“Trust will depend on whether institutions can demonstrate that _____, accountability, and public benefit are built into innovation from the beginning.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Synthetic biology allows researchers to design or modify biological systems for purposes ranging from medicine to sustainable materials."
+                "text": "counterproductive"
               },
               {
                 "id": "o2",
-                "text": "Biosecurity is sometimes presented as the opposite of scientific freedom."
+                "text": "high-consequence"
               },
               {
                 "id": "o3",
-                "text": "Conversely, voluntary promises alone may not remain adequate as capabilities spread."
+                "text": "Synthetic"
               },
               {
                 "id": "o4",
-                "text": "Trust will depend on whether institutions can demonstrate that anticipation, accountability, and public benefit are built into innovation from the beginning."
+                "text": "anticipation"
               }
             ]
           }
@@ -63698,42 +63698,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces “Synthetic Biology: Promise, Risk, and Control”?",
+        "prompt": "Complete this detail from the audio.\n\n“Synthetic biology allows researchers to design or modify biological systems for purposes ranging from medicine to sustainable _____.”",
         "options": [
-          "Synthetic biology allows researchers to design or modify biological systems for purposes ranging from medicine to sustainable materials.",
-          "Biosecurity is sometimes presented as the opposite of scientific freedom.",
-          "Conversely, voluntary promises alone may not remain adequate as capabilities spread.",
-          "Trust will depend on whether institutions can demonstrate that anticipation, accountability, and public benefit are built into innovation from the beginning."
+          "materials",
+          "counterproductive",
+          "high-consequence",
+          "petroleum-based"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows “Synthetic biology allows researchers to design or modify biological…” in “Synthetic Biology: Promise, Risk, and Control”?",
+        "prompt": "Which word completes the sentence you hear?\n\n“Biosecurity is _____ presented as the opposite of scientific freedom.”",
         "options": [
-          "Synthetic biology allows researchers to design or modify biological systems for purposes ranging from medicine to sustainable materials.",
-          "Engineered microbes may produce drugs, detect contamination, or replace petroleum-based chemicals.",
-          "Biosecurity is sometimes presented as the opposite of scientific freedom.",
-          "Conversely, voluntary promises alone may not remain adequate as capabilities spread."
+          "counterproductive",
+          "sometimes",
+          "high-consequence",
+          "petroleum-based"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Synthetic Biology: Promise, Risk, and Control”?",
+        "prompt": "Choose the missing word from the recording.\n\n“Conversely, voluntary promises alone may not _____ adequate as capabilities spread.”",
         "options": [
-          "Synthetic biology allows researchers to design or modify biological systems for purposes ranging from medicine to sustainable materials.",
-          "Biosecurity is sometimes presented as the opposite of scientific freedom.",
-          "International coordination is particularly important because biological risks do not respect borders, while regulatory capacity varies greatly.",
-          "Conversely, voluntary promises alone may not remain adequate as capabilities spread."
+          "counterproductive",
+          "high-consequence",
+          "remain",
+          "petroleum-based"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes “Synthetic Biology: Promise, Risk, and Control”?",
+        "prompt": "What is the exact missing word in this audio detail?\n\n“Trust will depend on whether institutions can demonstrate that _____, accountability, and public benefit are built into innovation from the beginning.”",
         "options": [
-          "Synthetic biology allows researchers to design or modify biological systems for purposes ranging from medicine to sustainable materials.",
-          "Biosecurity is sometimes presented as the opposite of scientific freedom.",
-          "Conversely, voluntary promises alone may not remain adequate as capabilities spread.",
-          "Trust will depend on whether institutions can demonstrate that anticipation, accountability, and public benefit are built into innovation from the beginning."
+          "counterproductive",
+          "high-consequence",
+          "Synthetic",
+          "anticipation"
         ]
       }
     ]
@@ -63883,92 +63883,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces “Building a Word: Context, Collocation, and Meaning”?",
+            "prompt": "Complete this detail from the audio.\n\n“Knowing a word involves far more than matching it to an equivalent in another _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Knowing a word involves far more than matching it to an equivalent in another language."
+                "text": "language"
               },
               {
                 "id": "o2",
-                "text": "A translation may offer an entry point while concealing this network."
+                "text": "interpretation"
               },
               {
                 "id": "o3",
-                "text": "Productive knowledge also requires constraint: understanding where a word does not belong."
+                "text": "pronunciation"
               },
               {
                 "id": "o4",
-                "text": "A word becomes genuinely known when it participates in a system rich enough to support interpretation and precise choice."
+                "text": "comprehension"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows “Knowing a word involves far more than matching it to an equivalent in…” in “Building a Word: Context, Collocation, and Meaning”?",
+            "prompt": "Which word completes the sentence you hear?\n\n“A translation may offer an entry point while _____ this network.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Knowing a word involves far more than matching it to an equivalent in another language."
+                "text": "interpretation"
               },
               {
                 "id": "o2",
-                "text": "Lexical depth includes pronunciation, spelling, grammatical behaviour, collocation, register, polysemy, and membership in a word family."
+                "text": "concealing"
               },
               {
                 "id": "o3",
-                "text": "A translation may offer an entry point while concealing this network."
+                "text": "Knowing"
               },
               {
                 "id": "o4",
-                "text": "Productive knowledge also requires constraint: understanding where a word does not belong."
+                "text": "another"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Building a Word: Context, Collocation, and Meaning”?",
+            "prompt": "Choose the missing word from the recording.\n\n“Productive knowledge also requires _____: understanding where a word does not belong.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Knowing a word involves far more than matching it to an equivalent in another language."
+                "text": "interpretation"
               },
               {
                 "id": "o2",
-                "text": "A translation may offer an entry point while concealing this network."
+                "text": "Knowing"
               },
               {
                 "id": "o3",
-                "text": "Learners should notice form during comprehension, test meanings against context, record useful phrases rather than isolated labels, and revisit them through retrieval."
+                "text": "constraint"
               },
               {
                 "id": "o4",
-                "text": "Productive knowledge also requires constraint: understanding where a word does not belong."
+                "text": "another"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes “Building a Word: Context, Collocation, and Meaning”?",
+            "prompt": "What is the exact missing word in this audio detail?\n\n“A word becomes genuinely known when it participates in a system rich enough to _____ interpretation and precise choice.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Knowing a word involves far more than matching it to an equivalent in another language."
+                "text": "interpretation"
               },
               {
                 "id": "o2",
-                "text": "A translation may offer an entry point while concealing this network."
+                "text": "pronunciation"
               },
               {
                 "id": "o3",
-                "text": "Productive knowledge also requires constraint: understanding where a word does not belong."
+                "text": "comprehension"
               },
               {
                 "id": "o4",
-                "text": "A word becomes genuinely known when it participates in a system rich enough to support interpretation and precise choice."
+                "text": "support"
               }
             ]
           }
@@ -63979,42 +63979,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces “Building a Word: Context, Collocation, and Meaning”?",
+        "prompt": "Complete this detail from the audio.\n\n“Knowing a word involves far more than matching it to an equivalent in another _____.”",
         "options": [
-          "Knowing a word involves far more than matching it to an equivalent in another language.",
-          "A translation may offer an entry point while concealing this network.",
-          "Productive knowledge also requires constraint: understanding where a word does not belong.",
-          "A word becomes genuinely known when it participates in a system rich enough to support interpretation and precise choice."
+          "language",
+          "interpretation",
+          "pronunciation",
+          "comprehension"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows “Knowing a word involves far more than matching it to an equivalent in…” in “Building a Word: Context, Collocation, and Meaning”?",
+        "prompt": "Which word completes the sentence you hear?\n\n“A translation may offer an entry point while _____ this network.”",
         "options": [
-          "Knowing a word involves far more than matching it to an equivalent in another language.",
-          "Lexical depth includes pronunciation, spelling, grammatical behaviour, collocation, register, polysemy, and membership in a word family.",
-          "A translation may offer an entry point while concealing this network.",
-          "Productive knowledge also requires constraint: understanding where a word does not belong."
+          "interpretation",
+          "concealing",
+          "Knowing",
+          "another"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Building a Word: Context, Collocation, and Meaning”?",
+        "prompt": "Choose the missing word from the recording.\n\n“Productive knowledge also requires _____: understanding where a word does not belong.”",
         "options": [
-          "Knowing a word involves far more than matching it to an equivalent in another language.",
-          "A translation may offer an entry point while concealing this network.",
-          "Learners should notice form during comprehension, test meanings against context, record useful phrases rather than isolated labels, and revisit them through retrieval.",
-          "Productive knowledge also requires constraint: understanding where a word does not belong."
+          "interpretation",
+          "Knowing",
+          "constraint",
+          "another"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes “Building a Word: Context, Collocation, and Meaning”?",
+        "prompt": "What is the exact missing word in this audio detail?\n\n“A word becomes genuinely known when it participates in a system rich enough to _____ interpretation and precise choice.”",
         "options": [
-          "Knowing a word involves far more than matching it to an equivalent in another language.",
-          "A translation may offer an entry point while concealing this network.",
-          "Productive knowledge also requires constraint: understanding where a word does not belong.",
-          "A word becomes genuinely known when it participates in a system rich enough to support interpretation and precise choice."
+          "interpretation",
+          "pronunciation",
+          "comprehension",
+          "support"
         ]
       }
     ]
@@ -64104,92 +64104,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces “Saving Energy at Home”?",
+            "prompt": "Complete this detail from the audio.\n\n“An energy adviser visits an apartment building where electricity costs have _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "An energy adviser visits an apartment building where electricity costs have increased."
+                "text": "increased"
               },
               {
                 "id": "o2",
-                "text": "A shared drying area is being created so fewer dryers will be used."
+                "text": "air-conditioning"
               },
               {
                 "id": "o3",
-                "text": "Monthly usage will be displayed privately in each apartment, not published to the whole building."
+                "text": "uncomfortable"
               },
               {
                 "id": "o4",
-                "text": "It is to reduce waste, lower bills, and identify improvements that should be funded by the property owner or the city."
+                "text": "energy"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows “An energy adviser visits an apartment building where electricity costs…” in “Saving Energy at Home”?",
+            "prompt": "Which word completes the sentence you hear?\n\n“A shared _____ area is being created so fewer dryers will be used.”",
             "options": [
               {
                 "id": "o1",
-                "text": "An energy adviser visits an apartment building where electricity costs have increased."
+                "text": "air-conditioning"
               },
               {
                 "id": "o2",
-                "text": "Residents are shown which appliances use the most power, and inefficient bulbs are replaced with LED lighting."
+                "text": "drying"
               },
               {
                 "id": "o3",
-                "text": "A shared drying area is being created so fewer dryers will be used."
+                "text": "uncomfortable"
               },
               {
                 "id": "o4",
-                "text": "Monthly usage will be displayed privately in each apartment, not published to the whole building."
+                "text": "improvements"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Saving Energy at Home”?",
+            "prompt": "Choose the missing word from the recording.\n\n“Monthly usage will be displayed privately in each _____, not published to the whole building.”",
             "options": [
               {
                 "id": "o1",
-                "text": "An energy adviser visits an apartment building where electricity costs have increased."
+                "text": "air-conditioning"
               },
               {
                 "id": "o2",
-                "text": "A shared drying area is being created so fewer dryers will be used."
+                "text": "uncomfortable"
               },
               {
                 "id": "o3",
-                "text": "Heating and air-conditioning settings are also being checked, because small adjustments can reduce consumption without making homes uncomfortable."
+                "text": "apartment"
               },
               {
                 "id": "o4",
-                "text": "Monthly usage will be displayed privately in each apartment, not published to the whole building."
+                "text": "energy"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes “Saving Energy at Home”?",
+            "prompt": "What is the exact missing word in this audio detail?\n\n“It is to reduce waste, lower bills, and identify improvements that should be funded by the _____ owner or the city.”",
             "options": [
               {
                 "id": "o1",
-                "text": "An energy adviser visits an apartment building where electricity costs have increased."
+                "text": "air-conditioning"
               },
               {
                 "id": "o2",
-                "text": "A shared drying area is being created so fewer dryers will be used."
+                "text": "uncomfortable"
               },
               {
                 "id": "o3",
-                "text": "Monthly usage will be displayed privately in each apartment, not published to the whole building."
+                "text": "improvements"
               },
               {
                 "id": "o4",
-                "text": "It is to reduce waste, lower bills, and identify improvements that should be funded by the property owner or the city."
+                "text": "property"
               }
             ]
           }
@@ -64200,42 +64200,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces “Saving Energy at Home”?",
+        "prompt": "Complete this detail from the audio.\n\n“An energy adviser visits an apartment building where electricity costs have _____.”",
         "options": [
-          "An energy adviser visits an apartment building where electricity costs have increased.",
-          "A shared drying area is being created so fewer dryers will be used.",
-          "Monthly usage will be displayed privately in each apartment, not published to the whole building.",
-          "It is to reduce waste, lower bills, and identify improvements that should be funded by the property owner or the city."
+          "increased",
+          "air-conditioning",
+          "uncomfortable",
+          "energy"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows “An energy adviser visits an apartment building where electricity costs…” in “Saving Energy at Home”?",
+        "prompt": "Which word completes the sentence you hear?\n\n“A shared _____ area is being created so fewer dryers will be used.”",
         "options": [
-          "An energy adviser visits an apartment building where electricity costs have increased.",
-          "Residents are shown which appliances use the most power, and inefficient bulbs are replaced with LED lighting.",
-          "A shared drying area is being created so fewer dryers will be used.",
-          "Monthly usage will be displayed privately in each apartment, not published to the whole building."
+          "air-conditioning",
+          "drying",
+          "uncomfortable",
+          "improvements"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Saving Energy at Home”?",
+        "prompt": "Choose the missing word from the recording.\n\n“Monthly usage will be displayed privately in each _____, not published to the whole building.”",
         "options": [
-          "An energy adviser visits an apartment building where electricity costs have increased.",
-          "A shared drying area is being created so fewer dryers will be used.",
-          "Heating and air-conditioning settings are also being checked, because small adjustments can reduce consumption without making homes uncomfortable.",
-          "Monthly usage will be displayed privately in each apartment, not published to the whole building."
+          "air-conditioning",
+          "uncomfortable",
+          "apartment",
+          "energy"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes “Saving Energy at Home”?",
+        "prompt": "What is the exact missing word in this audio detail?\n\n“It is to reduce waste, lower bills, and identify improvements that should be funded by the _____ owner or the city.”",
         "options": [
-          "An energy adviser visits an apartment building where electricity costs have increased.",
-          "A shared drying area is being created so fewer dryers will be used.",
-          "Monthly usage will be displayed privately in each apartment, not published to the whole building.",
-          "It is to reduce waste, lower bills, and identify improvements that should be funded by the property owner or the city."
+          "air-conditioning",
+          "uncomfortable",
+          "improvements",
+          "property"
         ]
       }
     ]
@@ -64375,92 +64375,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces “Who Decides What Stays Online?”?",
+            "prompt": "Complete this detail from the audio.\n\n“Host: A community forum removed a post containing a harmful claim about a local _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: A community forum removed a post containing a harmful claim about a local clinic."
+                "text": "clinic"
               },
               {
                 "id": "o2",
-                "text": "The clinic reported that patients were canceling appointments because of the claim."
+                "text": "misinformation"
               },
               {
                 "id": "o3",
-                "text": "Host: Was removal proportionate?"
+                "text": "proportionate"
               },
               {
                 "id": "o4",
-                "text": "A fair policy should not silence unpopular opinions; it should distinguish opinion from false factual claims and explain every restriction transparently."
+                "text": "transparently"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows “A community forum removed a post containing a harmful claim about a…” in “Who Decides What Stays Online?”?",
+            "prompt": "Which word completes the sentence you hear?\n\n“The clinic _____ that patients were canceling appointments because of the claim.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: A community forum removed a post containing a harmful claim about a local clinic."
+                "text": "misinformation"
               },
               {
                 "id": "o2",
-                "text": "Critics called the decision censorship."
+                "text": "reported"
               },
               {
                 "id": "o3",
-                "text": "The clinic reported that patients were canceling appointments because of the claim."
+                "text": "proportionate"
               },
               {
                 "id": "o4",
-                "text": "Host: Was removal proportionate?"
+                "text": "transparently"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Who Decides What Stays Online?”?",
+            "prompt": "Choose the missing word from the recording.\n\n“_____: Was removal proportionate?”",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: A community forum removed a post containing a harmful claim about a local clinic."
+                "text": "misinformation"
               },
               {
                 "id": "o2",
-                "text": "Host: Was removal proportionate?"
+                "text": "proportionate"
               },
               {
                 "id": "o3",
-                "text": "The clinic reported that patients were canceling appointments because of the claim."
+                "text": "Host"
               },
               {
                 "id": "o4",
-                "text": "A fair policy should not silence unpopular opinions; it should distinguish opinion from false factual claims and explain every restriction transparently."
+                "text": "transparently"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes “Who Decides What Stays Online?”?",
+            "prompt": "What is the exact missing word in this audio detail?\n\n“A fair policy _____ not silence unpopular opinions; it should distinguish opinion from false factual claims and explain every restriction transparently.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: A community forum removed a post containing a harmful claim about a local clinic."
+                "text": "misinformation"
               },
               {
                 "id": "o2",
-                "text": "The clinic reported that patients were canceling appointments because of the claim."
+                "text": "proportionate"
               },
               {
                 "id": "o3",
-                "text": "Host: Was removal proportionate?"
+                "text": "transparently"
               },
               {
                 "id": "o4",
-                "text": "A fair policy should not silence unpopular opinions; it should distinguish opinion from false factual claims and explain every restriction transparently."
+                "text": "should"
               }
             ]
           }
@@ -64471,42 +64471,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces “Who Decides What Stays Online?”?",
+        "prompt": "Complete this detail from the audio.\n\n“Host: A community forum removed a post containing a harmful claim about a local _____.”",
         "options": [
-          "Host: A community forum removed a post containing a harmful claim about a local clinic.",
-          "The clinic reported that patients were canceling appointments because of the claim.",
-          "Host: Was removal proportionate?",
-          "A fair policy should not silence unpopular opinions; it should distinguish opinion from false factual claims and explain every restriction transparently."
+          "clinic",
+          "misinformation",
+          "proportionate",
+          "transparently"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows “A community forum removed a post containing a harmful claim about a…” in “Who Decides What Stays Online?”?",
+        "prompt": "Which word completes the sentence you hear?\n\n“The clinic _____ that patients were canceling appointments because of the claim.”",
         "options": [
-          "Host: A community forum removed a post containing a harmful claim about a local clinic.",
-          "Critics called the decision censorship.",
-          "The clinic reported that patients were canceling appointments because of the claim.",
-          "Host: Was removal proportionate?"
+          "misinformation",
+          "reported",
+          "proportionate",
+          "transparently"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Who Decides What Stays Online?”?",
+        "prompt": "Choose the missing word from the recording.\n\n“_____: Was removal proportionate?”",
         "options": [
-          "Host: A community forum removed a post containing a harmful claim about a local clinic.",
-          "Host: Was removal proportionate?",
-          "The clinic reported that patients were canceling appointments because of the claim.",
-          "A fair policy should not silence unpopular opinions; it should distinguish opinion from false factual claims and explain every restriction transparently."
+          "misinformation",
+          "proportionate",
+          "Host",
+          "transparently"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes “Who Decides What Stays Online?”?",
+        "prompt": "What is the exact missing word in this audio detail?\n\n“A fair policy _____ not silence unpopular opinions; it should distinguish opinion from false factual claims and explain every restriction transparently.”",
         "options": [
-          "Host: A community forum removed a post containing a harmful claim about a local clinic.",
-          "The clinic reported that patients were canceling appointments because of the claim.",
-          "Host: Was removal proportionate?",
-          "A fair policy should not silence unpopular opinions; it should distinguish opinion from false factual claims and explain every restriction transparently."
+          "misinformation",
+          "proportionate",
+          "transparently",
+          "should"
         ]
       }
     ]
@@ -68415,92 +68415,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In “A Day at the Beach”, which detail establishes the situation?",
+            "prompt": "Complete this detail from the audio.\n\n“It is Saturday morning, and the _____ is sunny and warm.”",
             "options": [
               {
                 "id": "o1",
-                "text": "It is Saturday morning, and the weather is sunny and warm."
+                "text": "weather"
               },
               {
                 "id": "o2",
-                "text": "They pack towels, water, food, and sunscreen."
+                "text": "warm"
               },
               {
                 "id": "o3",
-                "text": "Sofia swims in the sea and plays with her brother."
+                "text": "pack"
               },
               {
                 "id": "o4",
-                "text": "The family packs their things and goes home before the rain begins."
+                "text": "food"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “It is Saturday morning, and the weather is sunny and warm.”, what happens next in “A Day at the Beach”?",
+            "prompt": "Which word completes the sentence you hear?\n\n“They pack towels, water, food, and _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "It is Saturday morning, and the weather is sunny and warm."
+                "text": "family"
               },
               {
                 "id": "o2",
-                "text": "They pack towels, water, food, and sunscreen."
+                "text": "sunscreen"
               },
               {
                 "id": "o3",
-                "text": "Sofia swims in the sea and plays with her brother."
+                "text": "decide"
               },
               {
                 "id": "o4",
-                "text": "The family packs their things and goes home before the rain begins."
+                "text": "towels"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in “A Day at the Beach”?",
+            "prompt": "Choose the missing word from the recording.\n\n“Sofia swims in the sea and plays with her _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "It is Saturday morning, and the weather is sunny and warm."
+                "text": "warm"
               },
               {
                 "id": "o2",
-                "text": "They pack towels, water, food, and sunscreen."
+                "text": "pack"
               },
               {
                 "id": "o3",
-                "text": "Sofia swims in the sea and plays with her brother."
+                "text": "brother"
               },
               {
                 "id": "o4",
-                "text": "The family packs their things and goes home before the rain begins."
+                "text": "food"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “A Day at the Beach” after “Sofia swims in the sea and plays with her brother.”?",
+            "prompt": "What is the exact missing word in this audio detail?\n\n“The family packs their things and goes home before the rain _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "It is Saturday morning, and the weather is sunny and warm."
+                "text": "sunscreen"
               },
               {
                 "id": "o2",
-                "text": "They pack towels, water, food, and sunscreen."
+                "text": "may"
               },
               {
                 "id": "o3",
-                "text": "Sofia swims in the sea and plays with her brother."
+                "text": "afternoon"
               },
               {
                 "id": "o4",
-                "text": "The family packs their things and goes home before the rain begins."
+                "text": "begins"
               }
             ]
           }
@@ -68511,42 +68511,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In “A Day at the Beach”, which detail establishes the situation?",
+        "prompt": "Complete this detail from the audio.\n\n“It is Saturday morning, and the _____ is sunny and warm.”",
         "options": [
-          "It is Saturday morning, and the weather is sunny and warm.",
-          "They pack towels, water, food, and sunscreen.",
-          "Sofia swims in the sea and plays with her brother.",
-          "The family packs their things and goes home before the rain begins."
+          "weather",
+          "warm",
+          "pack",
+          "food"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “It is Saturday morning, and the weather is sunny and warm.”, what happens next in “A Day at the Beach”?",
+        "prompt": "Which word completes the sentence you hear?\n\n“They pack towels, water, food, and _____.”",
         "options": [
-          "It is Saturday morning, and the weather is sunny and warm.",
-          "They pack towels, water, food, and sunscreen.",
-          "Sofia swims in the sea and plays with her brother.",
-          "The family packs their things and goes home before the rain begins."
+          "family",
+          "sunscreen",
+          "decide",
+          "towels"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in “A Day at the Beach”?",
+        "prompt": "Choose the missing word from the recording.\n\n“Sofia swims in the sea and plays with her _____.”",
         "options": [
-          "It is Saturday morning, and the weather is sunny and warm.",
-          "They pack towels, water, food, and sunscreen.",
-          "Sofia swims in the sea and plays with her brother.",
-          "The family packs their things and goes home before the rain begins."
+          "warm",
+          "pack",
+          "brother",
+          "food"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “A Day at the Beach” after “Sofia swims in the sea and plays with her brother.”?",
+        "prompt": "What is the exact missing word in this audio detail?\n\n“The family packs their things and goes home before the rain _____.”",
         "options": [
-          "It is Saturday morning, and the weather is sunny and warm.",
-          "They pack towels, water, food, and sunscreen.",
-          "Sofia swims in the sea and plays with her brother.",
-          "The family packs their things and goes home before the rain begins."
+          "sunscreen",
+          "may",
+          "afternoon",
+          "begins"
         ]
       }
     ]
@@ -68681,92 +68681,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces “Global Health: Progress for Whom?”?",
+            "prompt": "Complete this detail from the audio.\n\n“Global health indicators show genuine progress: more children survive infancy, vaccination has prevented millions of deaths, and treatment has transformed once-fatal _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Global health indicators show genuine progress: more children survive infancy, vaccination has prevented millions of deaths, and treatment has transformed once-fatal diseases."
+                "text": "diseases"
               },
               {
                 "id": "o2",
-                "text": "Universal health coverage is therefore not achieved by enrolment alone."
+                "text": "communicating"
               },
               {
                 "id": "o3",
-                "text": "Resilience does not mean maintaining a large emergency stockpile while neglecting everyday services."
+                "text": "International"
               },
               {
                 "id": "o4",
-                "text": "The fairest measure of progress is not merely whether the average rises, but whether preventable suffering declines among the people whom health systems have historically failed to reach."
+                "text": "demonstrated"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows “Global health indicators show genuine progress: more children survive…” in “Global Health: Progress for Whom?”?",
+            "prompt": "Which word completes the sentence you hear?\n\n“Universal _____ coverage is therefore not achieved by enrolment alone.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Global health indicators show genuine progress: more children survive infancy, vaccination has prevented millions of deaths, and treatment has transformed once-fatal diseases."
+                "text": "communicating"
               },
               {
                 "id": "o2",
-                "text": "However, averages can conceal fragile systems and widening inequality."
+                "text": "health"
               },
               {
                 "id": "o3",
-                "text": "Universal health coverage is therefore not achieved by enrolment alone."
+                "text": "International"
               },
               {
                 "id": "o4",
-                "text": "Resilience does not mean maintaining a large emergency stockpile while neglecting everyday services."
+                "text": "demonstrated"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Global Health: Progress for Whom?”?",
+            "prompt": "Choose the missing word from the recording.\n\n“Resilience does not mean maintaining a large emergency _____ while neglecting everyday services.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Global health indicators show genuine progress: more children survive infancy, vaccination has prevented millions of deaths, and treatment has transformed once-fatal diseases."
+                "text": "communicating"
               },
               {
                 "id": "o2",
-                "text": "Universal health coverage is therefore not achieved by enrolment alone."
+                "text": "International"
               },
               {
                 "id": "o3",
-                "text": "Data gaps make the picture harder to interpret because the people missing from surveys are often those facing the greatest barriers."
+                "text": "stockpile"
               },
               {
                 "id": "o4",
-                "text": "Resilience does not mean maintaining a large emergency stockpile while neglecting everyday services."
+                "text": "Global"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes “Global Health: Progress for Whom?”?",
+            "prompt": "What is the exact missing word in this audio detail?\n\n“The fairest measure of progress is not merely whether the _____ rises, but whether preventable suffering declines among the people whom health systems have historically failed to reach.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Global health indicators show genuine progress: more children survive infancy, vaccination has prevented millions of deaths, and treatment has transformed once-fatal diseases."
+                "text": "communicating"
               },
               {
                 "id": "o2",
-                "text": "Universal health coverage is therefore not achieved by enrolment alone."
+                "text": "International"
               },
               {
                 "id": "o3",
-                "text": "Resilience does not mean maintaining a large emergency stockpile while neglecting everyday services."
+                "text": "demonstrated"
               },
               {
                 "id": "o4",
-                "text": "The fairest measure of progress is not merely whether the average rises, but whether preventable suffering declines among the people whom health systems have historically failed to reach."
+                "text": "average"
               }
             ]
           }
@@ -68777,42 +68777,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces “Global Health: Progress for Whom?”?",
+        "prompt": "Complete this detail from the audio.\n\n“Global health indicators show genuine progress: more children survive infancy, vaccination has prevented millions of deaths, and treatment has transformed once-fatal _____.”",
         "options": [
-          "Global health indicators show genuine progress: more children survive infancy, vaccination has prevented millions of deaths, and treatment has transformed once-fatal diseases.",
-          "Universal health coverage is therefore not achieved by enrolment alone.",
-          "Resilience does not mean maintaining a large emergency stockpile while neglecting everyday services.",
-          "The fairest measure of progress is not merely whether the average rises, but whether preventable suffering declines among the people whom health systems have historically failed to reach."
+          "diseases",
+          "communicating",
+          "International",
+          "demonstrated"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows “Global health indicators show genuine progress: more children survive…” in “Global Health: Progress for Whom?”?",
+        "prompt": "Which word completes the sentence you hear?\n\n“Universal _____ coverage is therefore not achieved by enrolment alone.”",
         "options": [
-          "Global health indicators show genuine progress: more children survive infancy, vaccination has prevented millions of deaths, and treatment has transformed once-fatal diseases.",
-          "However, averages can conceal fragile systems and widening inequality.",
-          "Universal health coverage is therefore not achieved by enrolment alone.",
-          "Resilience does not mean maintaining a large emergency stockpile while neglecting everyday services."
+          "communicating",
+          "health",
+          "International",
+          "demonstrated"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Global Health: Progress for Whom?”?",
+        "prompt": "Choose the missing word from the recording.\n\n“Resilience does not mean maintaining a large emergency _____ while neglecting everyday services.”",
         "options": [
-          "Global health indicators show genuine progress: more children survive infancy, vaccination has prevented millions of deaths, and treatment has transformed once-fatal diseases.",
-          "Universal health coverage is therefore not achieved by enrolment alone.",
-          "Data gaps make the picture harder to interpret because the people missing from surveys are often those facing the greatest barriers.",
-          "Resilience does not mean maintaining a large emergency stockpile while neglecting everyday services."
+          "communicating",
+          "International",
+          "stockpile",
+          "Global"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes “Global Health: Progress for Whom?”?",
+        "prompt": "What is the exact missing word in this audio detail?\n\n“The fairest measure of progress is not merely whether the _____ rises, but whether preventable suffering declines among the people whom health systems have historically failed to reach.”",
         "options": [
-          "Global health indicators show genuine progress: more children survive infancy, vaccination has prevented millions of deaths, and treatment has transformed once-fatal diseases.",
-          "Universal health coverage is therefore not achieved by enrolment alone.",
-          "Resilience does not mean maintaining a large emergency stockpile while neglecting everyday services.",
-          "The fairest measure of progress is not merely whether the average rises, but whether preventable suffering declines among the people whom health systems have historically failed to reach."
+          "communicating",
+          "International",
+          "demonstrated",
+          "average"
         ]
       }
     ]
@@ -68962,92 +68962,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces “AI Tutors: Fluent, Adaptive—and Sometimes Wrong”?",
+            "prompt": "Complete this detail from the audio.\n\n“Generative models can sustain conversation, explain grammar, create examples, and provide feedback within _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Generative models can sustain conversation, explain grammar, create examples, and provide feedback within seconds."
+                "text": "seconds"
               },
               {
                 "id": "o2",
-                "text": "Adaptive feedback requires more than changing difficulty after a correct answer."
+                "text": "experimentation"
               },
               {
                 "id": "o3",
-                "text": "They define conditions for responsible use."
+                "text": "misconception"
               },
               {
                 "id": "o4",
-                "text": "The future tutor should expand human judgement, access, and experimentation—not replace them with an interface that sounds certain."
+                "text": "conversation"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows “Generative models can sustain conversation, explain grammar, create…” in “AI Tutors: Fluent, Adaptive—and Sometimes Wrong”?",
+            "prompt": "Which word completes the sentence you hear?\n\n“Adaptive _____ requires more than changing difficulty after a correct answer.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Generative models can sustain conversation, explain grammar, create examples, and provide feedback within seconds."
+                "text": "experimentation"
               },
               {
                 "id": "o2",
-                "text": "For a language learner who lacks regular access to a tutor, that availability is significant."
+                "text": "feedback"
               },
               {
                 "id": "o3",
-                "text": "Adaptive feedback requires more than changing difficulty after a correct answer."
+                "text": "misconception"
               },
               {
                 "id": "o4",
-                "text": "They define conditions for responsible use."
+                "text": "conversation"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “AI Tutors: Fluent, Adaptive—and Sometimes Wrong”?",
+            "prompt": "Choose the missing word from the recording.\n\n“They _____ conditions for responsible use.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Generative models can sustain conversation, explain grammar, create examples, and provide feedback within seconds."
+                "text": "experimentation"
               },
               {
                 "id": "o2",
-                "text": "Adaptive feedback requires more than changing difficulty after a correct answer."
+                "text": "misconception"
               },
               {
                 "id": "o3",
-                "text": "Institutions should disclose data practices and evaluate systems with diverse speakers."
+                "text": "define"
               },
               {
                 "id": "o4",
-                "text": "They define conditions for responsible use."
+                "text": "conversation"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes “AI Tutors: Fluent, Adaptive—and Sometimes Wrong”?",
+            "prompt": "What is the exact missing word in this audio detail?\n\n“The future tutor should expand human judgement, access, and _____—not replace them with an interface that sounds certain.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Generative models can sustain conversation, explain grammar, create examples, and provide feedback within seconds."
+                "text": "conversation"
               },
               {
                 "id": "o2",
-                "text": "Adaptive feedback requires more than changing difficulty after a correct answer."
+                "text": "availability"
               },
               {
                 "id": "o3",
-                "text": "They define conditions for responsible use."
+                "text": "overwhelming"
               },
               {
                 "id": "o4",
-                "text": "The future tutor should expand human judgement, access, and experimentation—not replace them with an interface that sounds certain."
+                "text": "experimentation"
               }
             ]
           }
@@ -69058,42 +69058,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces “AI Tutors: Fluent, Adaptive—and Sometimes Wrong”?",
+        "prompt": "Complete this detail from the audio.\n\n“Generative models can sustain conversation, explain grammar, create examples, and provide feedback within _____.”",
         "options": [
-          "Generative models can sustain conversation, explain grammar, create examples, and provide feedback within seconds.",
-          "Adaptive feedback requires more than changing difficulty after a correct answer.",
-          "They define conditions for responsible use.",
-          "The future tutor should expand human judgement, access, and experimentation—not replace them with an interface that sounds certain."
+          "seconds",
+          "experimentation",
+          "misconception",
+          "conversation"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows “Generative models can sustain conversation, explain grammar, create…” in “AI Tutors: Fluent, Adaptive—and Sometimes Wrong”?",
+        "prompt": "Which word completes the sentence you hear?\n\n“Adaptive _____ requires more than changing difficulty after a correct answer.”",
         "options": [
-          "Generative models can sustain conversation, explain grammar, create examples, and provide feedback within seconds.",
-          "For a language learner who lacks regular access to a tutor, that availability is significant.",
-          "Adaptive feedback requires more than changing difficulty after a correct answer.",
-          "They define conditions for responsible use."
+          "experimentation",
+          "feedback",
+          "misconception",
+          "conversation"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “AI Tutors: Fluent, Adaptive—and Sometimes Wrong”?",
+        "prompt": "Choose the missing word from the recording.\n\n“They _____ conditions for responsible use.”",
         "options": [
-          "Generative models can sustain conversation, explain grammar, create examples, and provide feedback within seconds.",
-          "Adaptive feedback requires more than changing difficulty after a correct answer.",
-          "Institutions should disclose data practices and evaluate systems with diverse speakers.",
-          "They define conditions for responsible use."
+          "experimentation",
+          "misconception",
+          "define",
+          "conversation"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes “AI Tutors: Fluent, Adaptive—and Sometimes Wrong”?",
+        "prompt": "What is the exact missing word in this audio detail?\n\n“The future tutor should expand human judgement, access, and _____—not replace them with an interface that sounds certain.”",
         "options": [
-          "Generative models can sustain conversation, explain grammar, create examples, and provide feedback within seconds.",
-          "Adaptive feedback requires more than changing difficulty after a correct answer.",
-          "They define conditions for responsible use.",
-          "The future tutor should expand human judgement, access, and experimentation—not replace them with an interface that sounds certain."
+          "conversation",
+          "availability",
+          "overwhelming",
+          "experimentation"
         ]
       }
     ]
@@ -69178,92 +69178,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces “Useful English for Asking for Clarification”?",
+            "prompt": "Complete this detail from the audio.\n\n“During an international video meeting, several participants misunderstand a project _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "During an international video meeting, several participants misunderstand a project deadline."
+                "text": "deadline"
               },
               {
                 "id": "o2",
-                "text": "The team leader explains the task and asks if everyone can access the shared folder."
+                "text": "international"
               },
               {
                 "id": "o3",
-                "text": "Instead, the group uses direct but polite questions, repeats key information, and writes decisions in the meeting notes."
+                "text": "misunderstand"
               },
               {
                 "id": "o4",
-                "text": "Asking for clarification saves time, prevents mistakes, and is especially useful when people communicate in a second language or work across different time zones."
+                "text": "embarrassment"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows “During an international video meeting, several participants…” in “Useful English for Asking for Clarification”?",
+            "prompt": "Which word completes the sentence you hear?\n\n“A participant who _____ one detail says, “Would you mind repeating the last point?” Nobody pretends to understand simply to avoid embarrassment.”",
             "options": [
               {
                 "id": "o1",
-                "text": "During an international video meeting, several participants misunderstand a project deadline."
+                "text": "international"
               },
               {
                 "id": "o2",
-                "text": "One employee asks, “Could you clarify what we need to send by Friday?” Another checks whether the final report should include financial data."
+                "text": "missed"
               },
               {
                 "id": "o3",
-                "text": "The team leader explains the task and asks if everyone can access the shared folder."
+                "text": "misunderstand"
               },
               {
                 "id": "o4",
-                "text": "Instead, the group uses direct but polite questions, repeats key information, and writes decisions in the meeting notes."
+                "text": "embarrassment"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Useful English for Asking for Clarification”?",
+            "prompt": "Choose the missing word from the recording.\n\n“One employee asks, “Could you clarify what we need to send by _____?”",
             "options": [
               {
                 "id": "o1",
-                "text": "During an international video meeting, several participants misunderstand a project deadline."
+                "text": "international"
               },
               {
                 "id": "o2",
-                "text": "The team leader explains the task and asks if everyone can access the shared folder."
+                "text": "misunderstand"
               },
               {
                 "id": "o3",
-                "text": "Instead, the group uses direct but polite questions, repeats key information, and writes decisions in the meeting notes."
+                "text": "Friday"
               },
               {
                 "id": "o4",
-                "text": "Asking for clarification saves time, prevents mistakes, and is especially useful when people communicate in a second language or work across different time zones."
+                "text": "embarrassment"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes “Useful English for Asking for Clarification”?",
+            "prompt": "What is the exact missing word in this audio detail?\n\n“_____ pretends to understand simply to avoid embarrassment.”",
             "options": [
               {
                 "id": "o1",
-                "text": "During an international video meeting, several participants misunderstand a project deadline."
+                "text": "international"
               },
               {
                 "id": "o2",
-                "text": "The team leader explains the task and asks if everyone can access the shared folder."
+                "text": "misunderstand"
               },
               {
                 "id": "o3",
-                "text": "Instead, the group uses direct but polite questions, repeats key information, and writes decisions in the meeting notes."
+                "text": "embarrassment"
               },
               {
                 "id": "o4",
-                "text": "Asking for clarification saves time, prevents mistakes, and is especially useful when people communicate in a second language or work across different time zones."
+                "text": "Nobody"
               }
             ]
           }
@@ -69274,42 +69274,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces “Useful English for Asking for Clarification”?",
+        "prompt": "Complete this detail from the audio.\n\n“During an international video meeting, several participants misunderstand a project _____.”",
         "options": [
-          "During an international video meeting, several participants misunderstand a project deadline.",
-          "The team leader explains the task and asks if everyone can access the shared folder.",
-          "Instead, the group uses direct but polite questions, repeats key information, and writes decisions in the meeting notes.",
-          "Asking for clarification saves time, prevents mistakes, and is especially useful when people communicate in a second language or work across different time zones."
+          "deadline",
+          "international",
+          "misunderstand",
+          "embarrassment"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows “During an international video meeting, several participants…” in “Useful English for Asking for Clarification”?",
+        "prompt": "Which word completes the sentence you hear?\n\n“A participant who _____ one detail says, “Would you mind repeating the last point?” Nobody pretends to understand simply to avoid embarrassment.”",
         "options": [
-          "During an international video meeting, several participants misunderstand a project deadline.",
-          "One employee asks, “Could you clarify what we need to send by Friday?” Another checks whether the final report should include financial data.",
-          "The team leader explains the task and asks if everyone can access the shared folder.",
-          "Instead, the group uses direct but polite questions, repeats key information, and writes decisions in the meeting notes."
+          "international",
+          "missed",
+          "misunderstand",
+          "embarrassment"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Useful English for Asking for Clarification”?",
+        "prompt": "Choose the missing word from the recording.\n\n“One employee asks, “Could you clarify what we need to send by _____?”",
         "options": [
-          "During an international video meeting, several participants misunderstand a project deadline.",
-          "The team leader explains the task and asks if everyone can access the shared folder.",
-          "Instead, the group uses direct but polite questions, repeats key information, and writes decisions in the meeting notes.",
-          "Asking for clarification saves time, prevents mistakes, and is especially useful when people communicate in a second language or work across different time zones."
+          "international",
+          "misunderstand",
+          "Friday",
+          "embarrassment"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes “Useful English for Asking for Clarification”?",
+        "prompt": "What is the exact missing word in this audio detail?\n\n“_____ pretends to understand simply to avoid embarrassment.”",
         "options": [
-          "During an international video meeting, several participants misunderstand a project deadline.",
-          "The team leader explains the task and asks if everyone can access the shared folder.",
-          "Instead, the group uses direct but polite questions, repeats key information, and writes decisions in the meeting notes.",
-          "Asking for clarification saves time, prevents mistakes, and is especially useful when people communicate in a second language or work across different time zones."
+          "international",
+          "misunderstand",
+          "embarrassment",
+          "Nobody"
         ]
       }
     ]
@@ -69454,92 +69454,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces “When a Neighborhood Organizes for Change”?",
+            "prompt": "Complete this detail from the audio.\n\n“Host: Residents had complained about poor lighting for _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Residents had complained about poor lighting for months."
+                "text": "months"
               },
               {
                 "id": "o2",
-                "text": "Guest: A volunteer mapped the problems, while other residents created a petition."
+                "text": "public-service"
               },
               {
                 "id": "o3",
-                "text": "What officials emphasized was the limited public-service budget."
+                "text": "responsibility"
               },
               {
                 "id": "o4",
-                "text": "What made the campaign effective was its combination of practical evidence, respectful pressure and shared responsibility."
+                "text": "frustration"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows “Residents had complained about poor lighting for months.” in “When a Neighborhood Organizes for Change”?",
+            "prompt": "Which word completes the sentence you hear?\n\n“Guest: A _____ mapped the problems, while other residents created a petition.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Residents had complained about poor lighting for months."
+                "text": "public-service"
               },
               {
                 "id": "o2",
-                "text": "What finally changed?"
+                "text": "volunteer"
               },
               {
                 "id": "o3",
-                "text": "Guest: A volunteer mapped the problems, while other residents created a petition."
+                "text": "responsibility"
               },
               {
                 "id": "o4",
-                "text": "What officials emphasized was the limited public-service budget."
+                "text": "months"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “When a Neighborhood Organizes for Change”?",
+            "prompt": "Choose the missing word from the recording.\n\n“What officials emphasized was the limited _____ budget.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Residents had complained about poor lighting for months."
+                "text": "frustration"
               },
               {
                 "id": "o2",
-                "text": "Guest: A volunteer mapped the problems, while other residents created a petition."
+                "text": "stakeholder"
               },
               {
                 "id": "o3",
-                "text": "The residents responded that volunteers could provide local knowledge but should not replace trained workers."
+                "text": "public-service"
               },
               {
                 "id": "o4",
-                "text": "What officials emphasized was the limited public-service budget."
+                "text": "distinction"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes “When a Neighborhood Organizes for Change”?",
+            "prompt": "What is the exact missing word in this audio detail?\n\n“What made the campaign effective was its combination of practical evidence, _____ pressure and shared responsibility.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Residents had complained about poor lighting for months."
+                "text": "public-service"
               },
               {
                 "id": "o2",
-                "text": "Guest: A volunteer mapped the problems, while other residents created a petition."
+                "text": "responsibility"
               },
               {
                 "id": "o3",
-                "text": "What officials emphasized was the limited public-service budget."
+                "text": "finally"
               },
               {
                 "id": "o4",
-                "text": "What made the campaign effective was its combination of practical evidence, respectful pressure and shared responsibility."
+                "text": "respectful"
               }
             ]
           }
@@ -69550,42 +69550,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces “When a Neighborhood Organizes for Change”?",
+        "prompt": "Complete this detail from the audio.\n\n“Host: Residents had complained about poor lighting for _____.”",
         "options": [
-          "Host: Residents had complained about poor lighting for months.",
-          "Guest: A volunteer mapped the problems, while other residents created a petition.",
-          "What officials emphasized was the limited public-service budget.",
-          "What made the campaign effective was its combination of practical evidence, respectful pressure and shared responsibility."
+          "months",
+          "public-service",
+          "responsibility",
+          "frustration"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows “Residents had complained about poor lighting for months.” in “When a Neighborhood Organizes for Change”?",
+        "prompt": "Which word completes the sentence you hear?\n\n“Guest: A _____ mapped the problems, while other residents created a petition.”",
         "options": [
-          "Host: Residents had complained about poor lighting for months.",
-          "What finally changed?",
-          "Guest: A volunteer mapped the problems, while other residents created a petition.",
-          "What officials emphasized was the limited public-service budget."
+          "public-service",
+          "volunteer",
+          "responsibility",
+          "months"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “When a Neighborhood Organizes for Change”?",
+        "prompt": "Choose the missing word from the recording.\n\n“What officials emphasized was the limited _____ budget.”",
         "options": [
-          "Host: Residents had complained about poor lighting for months.",
-          "Guest: A volunteer mapped the problems, while other residents created a petition.",
-          "The residents responded that volunteers could provide local knowledge but should not replace trained workers.",
-          "What officials emphasized was the limited public-service budget."
+          "frustration",
+          "stakeholder",
+          "public-service",
+          "distinction"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes “When a Neighborhood Organizes for Change”?",
+        "prompt": "What is the exact missing word in this audio detail?\n\n“What made the campaign effective was its combination of practical evidence, _____ pressure and shared responsibility.”",
         "options": [
-          "Host: Residents had complained about poor lighting for months.",
-          "Guest: A volunteer mapped the problems, while other residents created a petition.",
-          "What officials emphasized was the limited public-service budget.",
-          "What made the campaign effective was its combination of practical evidence, respectful pressure and shared responsibility."
+          "public-service",
+          "responsibility",
+          "finally",
+          "respectful"
         ]
       }
     ]

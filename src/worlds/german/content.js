@@ -83,13 +83,12 @@
     ],
     "reading": {
       "title": "Deutsch A1 Reading",
-      "text": "Jonas ist an eine Geburtstagsfeier. Dort trifft Jonas seinen Cousin und sagt freundlich Hallo. Jonas möchte eine Einladung verstehen, deshalb hört sie gut zu und benutzt einfache Wörter. seinen Cousin antwortet langsam und zeigt, was helfen kann.\n\nDanach sprechen beide über eine kleine Situation aus dem Alltag. Jonas stellt eine Frage, bekommt eine Antwort und sagt Danke. Bevor sie gehen, wiederholen sie die wichtigsten Wörter. So wird das nächste Gespräch leichter.",
+      "text": "Heute ist Anna in Berlin. Sie trifft Leon in ihrem Viertel und begrüßt ihn freundlich. Beide sprechen langsam und hören gut zu. Anna möchte Deutsch in einer echten Situation benutzen. Deshalb sagt sie einen einfachen Satz, und Leon antwortet ihr mit einem Lächeln.\n\nIm Gespräch benutzen sie wichtige Wörter aus der Lektion: Geburtstag, Einladung, feiern, Uhr, heute. Leon stellt eine einfache Frage, und Anna antwortet in Ruhe. Wenn sie ein Wort nicht versteht, fragt sie: „Kannst du das bitte wiederholen?\" Danach wiederholen beide die wichtigsten Wörter und finden zu jedem Wort ein kleines Beispiel.\n\nBevor Anna nach Hause geht, bedankt sie sich bei Leon. Sie sagt, dass Zuhören, Sprechen und Wiederholen ihr mehr Sicherheit geben. Leon stimmt zu und schlägt ein neues Treffen für morgen vor. Anna geht zufrieden nach Hause und schreibt die neuen Wörter des Tages in ihr Heft.",
       "questions": [
-        "Worum geht es im Text?",
-        "Was macht die Hauptperson zuerst?",
-        "Welche Rolle hat die zweite Person?",
-        "Warum arbeitet die Gruppe zusammen?",
-        "Was ist das gemeinsame Ziel?"
+        "Wo ist Anna?",
+        "Mit wem spricht Anna?",
+        "Was fragt Anna, wenn sie ein Wort nicht versteht?",
+        "Warum wiederholt Anna die Wörter?"
       ]
     }
   },
@@ -564,60 +563,64 @@
     "dialogue": [],
     "reading": {
       "title": "Begrüßung und Name",
-      "text": "eine neu angekommene Studentin ist an den Platz an der Station. Dort trifft eine neu angekommene Studentin Leon und sagt freundlich Hallo. eine neu angekommene Studentin möchte sich vorstellen und Informationen fragen, deshalb hört sie gut zu und benutzt einfache Wörter. Leon antwortet langsam und zeigt, was helfen kann.\n\nDanach sprechen beide über eine kleine Situation aus dem Alltag. eine neu angekommene Studentin stellt eine Frage, bekommt eine Antwort und sagt Danke. Bevor sie gehen, wiederholen sie die wichtigsten Wörter. So wird das nächste Gespräch leichter.",
+      "text": "Heute ist Anna in Berlin. Sie trifft Leon in ihrem Viertel und begrüßt ihn freundlich. Beide sprechen langsam und hören gut zu. Anna möchte Deutsch in einer echten Situation benutzen. Deshalb sagt sie einen einfachen Satz, und Leon antwortet ihr mit einem Lächeln.\n\nIm Gespräch benutzen sie wichtige Wörter aus der Lektion: Hallo, Name, Land, Sprache, wohnen. Leon stellt eine einfache Frage, und Anna antwortet in Ruhe. Wenn sie ein Wort nicht versteht, fragt sie: „Kannst du das bitte wiederholen?\" Danach wiederholen beide die wichtigsten Wörter und finden zu jedem Wort ein kleines Beispiel.\n\nBevor Anna nach Hause geht, bedankt sie sich bei Leon. Sie sagt, dass Zuhören, Sprechen und Wiederholen ihr mehr Sicherheit geben. Leon stimmt zu und schlägt ein neues Treffen für morgen vor. Anna geht zufrieden nach Hause und schreibt die neuen Wörter des Tages in ihr Heft.",
       "questions": [
-        "Worum geht es im Text?",
-        "Was macht die Hauptperson zuerst?",
-        "Welche Rolle hat die zweite Person?",
-        "Warum arbeitet die Gruppe zusammen?",
-        "Was ist das gemeinsame Ziel?"
+        "Wo ist Anna?",
+        "Mit wem spricht Anna?",
+        "Was fragt Anna, wenn sie ein Wort nicht versteht?",
+        "Warum wiederholt Anna die Wörter?"
       ],
       "parts": [
-        "eine neu angekommene Studentin ist an den Platz an der Station. Dort trifft eine neu angekommene Studentin Leon und sagt freundlich Hallo. eine neu angekommene Studentin möchte sich vorstellen und Informationen fragen, deshalb hört sie gut zu und benutzt einfache Wörter. Leon antwortet langsam und zeigt, was helfen kann.",
-        "Danach sprechen beide über eine kleine Situation aus dem Alltag. eine neu angekommene Studentin stellt eine Frage, bekommt eine Antwort und sagt Danke. Bevor sie gehen, wiederholen sie die wichtigsten Wörter. So wird das nächste Gespräch leichter."
+        "Heute ist Anna in Berlin. Sie trifft Leon in ihrem Viertel und begrüßt ihn freundlich. Beide sprechen langsam und hören gut zu. Anna möchte Deutsch in einer echten Situation benutzen. Deshalb sagt sie einen einfachen Satz, und Leon antwortet ihr mit einem Lächeln.",
+        "Im Gespräch benutzen sie wichtige Wörter aus der Lektion: Hallo, Name, Land, Sprache, wohnen. Leon stellt eine einfache Frage, und Anna antwortet in Ruhe. Wenn sie ein Wort nicht versteht, fragt sie: „Kannst du das bitte wiederholen?\" Danach wiederholen beide die wichtigsten Wörter und finden zu jedem Wort ein kleines Beispiel.",
+        "Bevor Anna nach Hause geht, bedankt sie sich bei Leon. Sie sagt, dass Zuhören, Sprechen und Wiederholen ihr mehr Sicherheit geben. Leon stimmt zu und schlägt ein neues Treffen für morgen vor. Anna geht zufrieden nach Hause und schreibt die neuen Wörter des Tages in ihr Heft."
       ]
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
+        "id": "german-a1-begrussung-und-name-reading-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Worüber spricht die Gruppe?",
+        "prompt": "Wo ist Anna?",
         "options": [
-          "Hallo",
-          "danke",
-          "bitte",
-          "Freund"
+          "Berlin",
+          "Hamburg",
+          "München",
+          "Köln"
         ]
       },
       {
+        "id": "german-a1-begrussung-und-name-reading-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Was macht jede Person?",
+        "prompt": "Mit wem spricht Anna?",
         "options": [
-          "Erzählt von einer Erfahrung, hört zu und schlägt eine Lösung vor.",
-          "Kauft eine Eintrittskarte für eine Veranstaltung.",
-          "Hört den anderen Personen nicht zu.",
-          "Sagt das Projekt ab."
+          "Leon",
+          "Paul",
+          "Mia",
+          "Lukas"
         ]
       },
       {
+        "id": "german-a1-begrussung-und-name-reading-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Warum arbeiten sie zusammen?",
+        "prompt": "Was fragt Anna, wenn sie ein Wort nicht versteht?",
         "options": [
-          "Weil sie ein klares Ziel haben.",
-          "Weil sie keine Zeit haben.",
-          "Weil sie das Thema nicht kennen.",
-          "Weil sie lieber allein arbeiten."
+          "Kannst du das bitte wiederholen?",
+          "Wo ist mein Zug?",
+          "Wie viel kostet das?",
+          "Wann beginnt die Schule?"
         ]
       },
       {
+        "id": "german-a1-begrussung-und-name-reading-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Welche Idee hilft im Alltag?",
+        "prompt": "Warum wiederholt Anna die Wörter?",
         "options": [
-          "Eine konkrete Lösung, die gemeinsam umgesetzt wird.",
-          "Eine Liste ohne Zusammenhang.",
-          "Eine Diskussion ohne Ziel.",
-          "Eine Entscheidung von nur einer Person."
+          "Damit sie mehr Sicherheit hat",
+          "Damit sie nicht sprechen muss",
+          "Damit sie ein Ticket kauft",
+          "Damit sie Leon vermeidet"
         ]
       }
     ]
@@ -758,12 +761,12 @@
       {
         "id": "german-a2-alltag-und-termine-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Alltag und Termine“?",
+        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ fand die Erfahrung hilfreich, weil sie neue Wörter gelernt und mehr Mut bekommen hatte.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Alltag und Termine darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Claudia",
+          "Deshalb",
+          "Während",
+          "zuhörte"
         ]
       }
     ]
@@ -905,12 +908,12 @@
       {
         "id": "german-b1-arbeit-und-ziele-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Arbeit und Ziele“?",
+        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ möchte die Situation verantwortungsvoll verbessern und aus der Erfahrung lernen.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Arbeit und Ziele darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Sie",
+          "Für",
+          "vor",
+          "von"
         ]
       }
     ]
@@ -1004,34 +1007,34 @@
       {
         "id": "german-b2-b2-projekte-und-verantwortung-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Projekte und Verantwortung · Lesen“?",
+        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Projekte und Verantwortung · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "einzige",
+          "sondern",
+          "Antwort",
+          "Grenzen"
         ]
       },
       {
         "id": "german-b2-b2-projekte-und-verantwortung-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Welche Aussage fasst „Projekte und Verantwortung · Lesen“ am besten zusammen?",
+        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Projekte und Verantwortung · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Jede",
+          "soll",
+          "klar",
+          "Ende"
         ]
       },
       {
         "id": "german-b2-b2-projekte-und-verantwortung-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Projekte und Verantwortung · Lesen“?",
+        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Projekte und Verantwortung · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Der",
+          "und",
+          "die",
+          "ein"
         ]
       }
     ]
@@ -1125,34 +1128,34 @@
       {
         "id": "german-c1-c1-offentliche-argumentation-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Öffentliche Argumentation · Lesen“?",
+        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Öffentliche Argumentation · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "einzige",
+          "sondern",
+          "Antwort",
+          "Grenzen"
         ]
       },
       {
         "id": "german-c1-c1-offentliche-argumentation-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Welche Aussage fasst „Öffentliche Argumentation · Lesen“ am besten zusammen?",
+        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Öffentliche Argumentation · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "tesi",
+          "Jede",
+          "soll",
+          "Ende"
         ]
       },
       {
         "id": "german-c1-c1-offentliche-argumentation-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Öffentliche Argumentation · Lesen“?",
+        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Öffentliche Argumentation · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Der",
+          "die",
+          "und",
+          "ein"
         ]
       }
     ]
@@ -1246,34 +1249,34 @@
       {
         "id": "german-c2-c2-sprache-und-uberzeugung-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Sprache und Überzeugung · Lesen“?",
+        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Sprache und Überzeugung · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Sprache",
+          "einzige",
+          "Antwort",
+          "sondern"
         ]
       },
       {
         "id": "german-c2-c2-sprache-und-uberzeugung-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Welche Aussage fasst „Sprache und Überzeugung · Lesen“ am besten zusammen?",
+        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Sprache und Überzeugung · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Jede",
+          "soll",
+          "klar",
+          "Ende"
         ]
       },
       {
         "id": "german-c2-c2-sprache-und-uberzeugung-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Sprache und Überzeugung · Lesen“?",
+        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Sprache und Überzeugung · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Der",
+          "und",
+          "die",
+          "ein"
         ]
       }
     ]
@@ -2154,92 +2157,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «Begrüßung und Name: Wortschatz», which detail establishes the situation?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „Begrüßung und Name“ spricht eine kleine Gruppe aus der Gemeinschaft über Hallo, Name und _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Begrüßung und Name“ spricht eine kleine Gruppe aus der Gemeinschaft über Hallo, Name und Land."
+                "text": "Land"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "entscheiden"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «Im Thema „Begrüßung und Name“ spricht eine kleine Gruppe aus der…», what happens next in «Begrüßung und Name: Wortschatz»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Begrüßung und Name“ spricht eine kleine Gruppe aus der Gemeinschaft über Hallo, Name und Land."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Person"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "entscheiden"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «Begrüßung und Name: Wortschatz»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Begrüßung und Name“ spricht eine kleine Gruppe aus der Gemeinschaft über Hallo, Name und Land."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "klares"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "entscheiden"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «Begrüßung und Name: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Begrüßung und Name“ spricht eine kleine Gruppe aus der Gemeinschaft über Hallo, Name und Land."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "entscheiden"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Danach"
               }
             ]
           }
@@ -2250,42 +2253,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «Begrüßung und Name: Wortschatz», which detail establishes the situation?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „Begrüßung und Name“ spricht eine kleine Gruppe aus der Gemeinschaft über Hallo, Name und _____.”",
         "options": [
-          "Im Thema „Begrüßung und Name“ spricht eine kleine Gruppe aus der Gemeinschaft über Hallo, Name und Land.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Land",
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "entscheiden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «Im Thema „Begrüßung und Name“ spricht eine kleine Gruppe aus der…», what happens next in «Begrüßung und Name: Wortschatz»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
         "options": [
-          "Im Thema „Begrüßung und Name“ spricht eine kleine Gruppe aus der Gemeinschaft über Hallo, Name und Land.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Person",
+          "Gemeinschaft",
+          "entscheiden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «Begrüßung und Name: Wortschatz»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
         "options": [
-          "Im Thema „Begrüßung und Name“ spricht eine kleine Gruppe aus der Gemeinschaft über Hallo, Name und Land.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "klares",
+          "entscheiden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «Begrüßung und Name: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
         "options": [
-          "Im Thema „Begrüßung und Name“ spricht eine kleine Gruppe aus der Gemeinschaft über Hallo, Name und Land.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "entscheiden",
+          "Danach"
         ]
       }
     ]
@@ -2374,92 +2377,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «Alltag und Termine: Wortschatz», which detail establishes the situation?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „Alltag und Termine“ spricht eine kleine Gruppe aus der Gemeinschaft über Termin, Kalender und _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Alltag und Termine“ spricht eine kleine Gruppe aus der Gemeinschaft über Termin, Kalender und früher."
+                "text": "früher"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "entscheiden"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «Im Thema „Alltag und Termine“ spricht eine kleine Gruppe aus der…», what happens next in «Alltag und Termine: Wortschatz»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Alltag und Termine“ spricht eine kleine Gruppe aus der Gemeinschaft über Termin, Kalender und früher."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Person"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "entscheiden"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «Alltag und Termine: Wortschatz»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Alltag und Termine“ spricht eine kleine Gruppe aus der Gemeinschaft über Termin, Kalender und früher."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "klares"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "entscheiden"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «Alltag und Termine: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Alltag und Termine“ spricht eine kleine Gruppe aus der Gemeinschaft über Termin, Kalender und früher."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "entscheiden"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Danach"
               }
             ]
           }
@@ -2470,42 +2473,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «Alltag und Termine: Wortschatz», which detail establishes the situation?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „Alltag und Termine“ spricht eine kleine Gruppe aus der Gemeinschaft über Termin, Kalender und _____.”",
         "options": [
-          "Im Thema „Alltag und Termine“ spricht eine kleine Gruppe aus der Gemeinschaft über Termin, Kalender und früher.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "früher",
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "entscheiden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «Im Thema „Alltag und Termine“ spricht eine kleine Gruppe aus der…», what happens next in «Alltag und Termine: Wortschatz»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
         "options": [
-          "Im Thema „Alltag und Termine“ spricht eine kleine Gruppe aus der Gemeinschaft über Termin, Kalender und früher.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Person",
+          "Gemeinschaft",
+          "entscheiden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «Alltag und Termine: Wortschatz»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
         "options": [
-          "Im Thema „Alltag und Termine“ spricht eine kleine Gruppe aus der Gemeinschaft über Termin, Kalender und früher.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "klares",
+          "entscheiden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «Alltag und Termine: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
         "options": [
-          "Im Thema „Alltag und Termine“ spricht eine kleine Gruppe aus der Gemeinschaft über Termin, Kalender und früher.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "entscheiden",
+          "Danach"
         ]
       }
     ]
@@ -2594,92 +2597,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Arbeit und Ziele: Wortschatz»?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „Arbeit und Ziele“ spricht eine kleine Gruppe aus der Gemeinschaft über Ziel, Frist und _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Arbeit und Ziele“ spricht eine kleine Gruppe aus der Gemeinschaft über Ziel, Frist und Team."
+                "text": "Team"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "entscheiden"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «Im Thema „Arbeit und Ziele“ spricht eine kleine Gruppe aus der…» in «Arbeit und Ziele: Wortschatz»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Arbeit und Ziele“ spricht eine kleine Gruppe aus der Gemeinschaft über Ziel, Frist und Team."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Person"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "entscheiden"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Arbeit und Ziele: Wortschatz»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Arbeit und Ziele“ spricht eine kleine Gruppe aus der Gemeinschaft über Ziel, Frist und Team."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "klares"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "entscheiden"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Arbeit und Ziele: Wortschatz»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Arbeit und Ziele“ spricht eine kleine Gruppe aus der Gemeinschaft über Ziel, Frist und Team."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "entscheiden"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Danach"
               }
             ]
           }
@@ -2690,42 +2693,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Arbeit und Ziele: Wortschatz»?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „Arbeit und Ziele“ spricht eine kleine Gruppe aus der Gemeinschaft über Ziel, Frist und _____.”",
         "options": [
-          "Im Thema „Arbeit und Ziele“ spricht eine kleine Gruppe aus der Gemeinschaft über Ziel, Frist und Team.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Team",
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "entscheiden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «Im Thema „Arbeit und Ziele“ spricht eine kleine Gruppe aus der…» in «Arbeit und Ziele: Wortschatz»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
         "options": [
-          "Im Thema „Arbeit und Ziele“ spricht eine kleine Gruppe aus der Gemeinschaft über Ziel, Frist und Team.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Person",
+          "Gemeinschaft",
+          "entscheiden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Arbeit und Ziele: Wortschatz»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
         "options": [
-          "Im Thema „Arbeit und Ziele“ spricht eine kleine Gruppe aus der Gemeinschaft über Ziel, Frist und Team.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "klares",
+          "entscheiden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Arbeit und Ziele: Wortschatz»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
         "options": [
-          "Im Thema „Arbeit und Ziele“ spricht eine kleine Gruppe aus der Gemeinschaft über Ziel, Frist und Team.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "entscheiden",
+          "Danach"
         ]
       }
     ]
@@ -3020,92 +3023,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Projekte und Verantwortung · Hörverstehen»?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Projekte und Verantwortung vergleichen zwei Personen ihre _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Projekte und Verantwortung vergleichen zwei Personen ihre Standpunkte."
+                "text": "Standpunkte"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass incarico nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Projekte"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: risorsa kann die Perspektive der Zuhörenden verändern."
+                "text": "Personen"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "scadenza"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In dieser Sendung über Projekte und Verantwortung vergleichen zwei…» in «Projekte und Verantwortung · Hörverstehen»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass incarico nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Projekte und Verantwortung vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass incarico nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "andere"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: risorsa kann die Perspektive der Zuhörenden verändern."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "Verantwortung"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Projekte und Verantwortung · Hörverstehen»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: _____ kann die Perspektive der Zuhörenden verändern.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Projekte und Verantwortung vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass incarico nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: risorsa kann die Perspektive der Zuhörenden verändern."
+                "text": "risorsa"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "Verantwortung"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Projekte und Verantwortung · Hörverstehen»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Projekte und Verantwortung vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass incarico nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: risorsa kann die Perspektive der Zuhörenden verändern."
+                "text": "Verantwortung"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "begründen"
               }
             ]
           }
@@ -3125,42 +3128,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Projekte und Verantwortung · Hörverstehen»?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Projekte und Verantwortung vergleichen zwei Personen ihre _____.”",
         "options": [
-          "In dieser Sendung über Projekte und Verantwortung vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass incarico nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: risorsa kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Standpunkte",
+          "Projekte",
+          "Personen",
+          "scadenza"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In dieser Sendung über Projekte und Verantwortung vergleichen zwei…» in «Projekte und Verantwortung · Hörverstehen»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass incarico nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
         "options": [
-          "In dieser Sendung über Projekte und Verantwortung vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass incarico nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: risorsa kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "andere",
+          "Entscheidungen",
+          "Verantwortung"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Projekte und Verantwortung · Hörverstehen»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: _____ kann die Perspektive der Zuhörenden verändern.”",
         "options": [
-          "In dieser Sendung über Projekte und Verantwortung vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass incarico nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: risorsa kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "Entscheidungen",
+          "risorsa",
+          "Verantwortung"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Projekte und Verantwortung · Hörverstehen»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
         "options": [
-          "In dieser Sendung über Projekte und Verantwortung vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass incarico nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: risorsa kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "Entscheidungen",
+          "Verantwortung",
+          "begründen"
         ]
       }
     ]
@@ -3227,92 +3230,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Öffentliche Argumentation · Hörverstehen»?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Öffentliche Argumentation vergleichen zwei Personen ihre _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Öffentliche Argumentation vergleichen zwei Personen ihre Standpunkte."
+                "text": "Standpunkte"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass obiezione nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Personen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: evidenza kann die Perspektive der Zuhörenden verändern."
+                "text": "isoliert"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "konkrete"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In dieser Sendung über Öffentliche Argumentation vergleichen zwei…» in «Öffentliche Argumentation · Hörverstehen»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass obiezione nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Öffentliche Argumentation vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass obiezione nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "andere"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: evidenza kann die Perspektive der Zuhörenden verändern."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "Argumentation"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Öffentliche Argumentation · Hörverstehen»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: _____ kann die Perspektive der Zuhörenden verändern.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Öffentliche Argumentation vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass obiezione nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: evidenza kann die Perspektive der Zuhörenden verändern."
+                "text": "evidenza"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "Argumentation"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Öffentliche Argumentation · Hörverstehen»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Öffentliche Argumentation vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass obiezione nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: evidenza kann die Perspektive der Zuhörenden verändern."
+                "text": "Argumentation"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "begründen"
               }
             ]
           }
@@ -3332,42 +3335,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Öffentliche Argumentation · Hörverstehen»?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Öffentliche Argumentation vergleichen zwei Personen ihre _____.”",
         "options": [
-          "In dieser Sendung über Öffentliche Argumentation vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass obiezione nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: evidenza kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Standpunkte",
+          "Personen",
+          "isoliert",
+          "konkrete"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In dieser Sendung über Öffentliche Argumentation vergleichen zwei…» in «Öffentliche Argumentation · Hörverstehen»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass obiezione nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
         "options": [
-          "In dieser Sendung über Öffentliche Argumentation vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass obiezione nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: evidenza kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "andere",
+          "Entscheidungen",
+          "Argumentation"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Öffentliche Argumentation · Hörverstehen»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: _____ kann die Perspektive der Zuhörenden verändern.”",
         "options": [
-          "In dieser Sendung über Öffentliche Argumentation vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass obiezione nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: evidenza kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "Entscheidungen",
+          "evidenza",
+          "Argumentation"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Öffentliche Argumentation · Hörverstehen»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
         "options": [
-          "In dieser Sendung über Öffentliche Argumentation vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass obiezione nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: evidenza kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "Entscheidungen",
+          "Argumentation",
+          "begründen"
         ]
       }
     ]
@@ -3434,92 +3437,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Sprache und Überzeugung · Hörverstehen»?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Sprache und Überzeugung vergleichen zwei Personen ihre _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Sprache und Überzeugung vergleichen zwei Personen ihre Standpunkte."
+                "text": "Standpunkte"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass premessa nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Personen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: inferenza kann die Perspektive der Zuhörenden verändern."
+                "text": "retorica"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "isoliert"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In dieser Sendung über Sprache und Überzeugung vergleichen zwei…» in «Sprache und Überzeugung · Hörverstehen»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass premessa nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Sprache und Überzeugung vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass premessa nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "andere"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: inferenza kann die Perspektive der Zuhörenden verändern."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "überprüfbaren"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Sprache und Überzeugung · Hörverstehen»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: _____ kann die Perspektive der Zuhörenden verändern.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Sprache und Überzeugung vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass premessa nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: inferenza kann die Perspektive der Zuhörenden verändern."
+                "text": "inferenza"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "überprüfbaren"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Sprache und Überzeugung · Hörverstehen»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Sprache und Überzeugung vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass premessa nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: inferenza kann die Perspektive der Zuhörenden verändern."
+                "text": "überprüfbaren"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "begründen"
               }
             ]
           }
@@ -3539,42 +3542,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Sprache und Überzeugung · Hörverstehen»?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Sprache und Überzeugung vergleichen zwei Personen ihre _____.”",
         "options": [
-          "In dieser Sendung über Sprache und Überzeugung vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass premessa nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: inferenza kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Standpunkte",
+          "Personen",
+          "retorica",
+          "isoliert"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In dieser Sendung über Sprache und Überzeugung vergleichen zwei…» in «Sprache und Überzeugung · Hörverstehen»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass premessa nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
         "options": [
-          "In dieser Sendung über Sprache und Überzeugung vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass premessa nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: inferenza kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "andere",
+          "Entscheidungen",
+          "überprüfbaren"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Sprache und Überzeugung · Hörverstehen»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: _____ kann die Perspektive der Zuhörenden verändern.”",
         "options": [
-          "In dieser Sendung über Sprache und Überzeugung vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass premessa nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: inferenza kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "Entscheidungen",
+          "inferenza",
+          "überprüfbaren"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Sprache und Überzeugung · Hörverstehen»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
         "options": [
-          "In dieser Sendung über Sprache und Überzeugung vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass premessa nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: inferenza kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "Entscheidungen",
+          "überprüfbaren",
+          "begründen"
         ]
       }
     ]
@@ -5911,60 +5914,64 @@
     "dialogue": [],
     "reading": {
       "title": "Im Café",
-      "text": "Julia ist an ein Café im Viertel. Dort trifft Julia den Kellner Paul und sagt freundlich Hallo. Julia möchte höflich bestellen, deshalb hört sie gut zu und benutzt einfache Wörter. den Kellner Paul antwortet langsam und zeigt, was helfen kann.\n\nDanach sprechen beide über eine kleine Situation aus dem Alltag. Julia stellt eine Frage, bekommt eine Antwort und sagt Danke. Bevor sie gehen, wiederholen sie die wichtigsten Wörter. So wird das nächste Gespräch leichter.",
+      "text": "Heute ist Anna in Berlin. Sie trifft Leon in ihrem Viertel und begrüßt ihn freundlich. Beide sprechen langsam und hören gut zu. Anna möchte Deutsch in einer echten Situation benutzen. Deshalb sagt sie einen einfachen Satz, und Leon antwortet ihr mit einem Lächeln.\n\nIm Gespräch benutzen sie wichtige Wörter aus der Lektion: Kaffee, Tee, Wasser, Brot, bitte. Leon stellt eine einfache Frage, und Anna antwortet in Ruhe. Wenn sie ein Wort nicht versteht, fragt sie: „Kannst du das bitte wiederholen?\" Danach wiederholen beide die wichtigsten Wörter und finden zu jedem Wort ein kleines Beispiel.\n\nBevor Anna nach Hause geht, bedankt sie sich bei Leon. Sie sagt, dass Zuhören, Sprechen und Wiederholen ihr mehr Sicherheit geben. Leon stimmt zu und schlägt ein neues Treffen für morgen vor. Anna geht zufrieden nach Hause und schreibt die neuen Wörter des Tages in ihr Heft.",
       "questions": [
-        "Worum geht es im Text?",
-        "Was macht die Hauptperson zuerst?",
-        "Welche Rolle hat die zweite Person?",
-        "Warum arbeitet die Gruppe zusammen?",
-        "Was ist das gemeinsame Ziel?"
+        "Wo ist Anna?",
+        "Mit wem spricht Anna?",
+        "Was fragt Anna, wenn sie ein Wort nicht versteht?",
+        "Warum wiederholt Anna die Wörter?"
       ],
       "parts": [
-        "Julia ist an ein Café im Viertel. Dort trifft Julia den Kellner Paul und sagt freundlich Hallo. Julia möchte höflich bestellen, deshalb hört sie gut zu und benutzt einfache Wörter. den Kellner Paul antwortet langsam und zeigt, was helfen kann.",
-        "Danach sprechen beide über eine kleine Situation aus dem Alltag. Julia stellt eine Frage, bekommt eine Antwort und sagt Danke. Bevor sie gehen, wiederholen sie die wichtigsten Wörter. So wird das nächste Gespräch leichter."
+        "Heute ist Anna in Berlin. Sie trifft Leon in ihrem Viertel und begrüßt ihn freundlich. Beide sprechen langsam und hören gut zu. Anna möchte Deutsch in einer echten Situation benutzen. Deshalb sagt sie einen einfachen Satz, und Leon antwortet ihr mit einem Lächeln.",
+        "Im Gespräch benutzen sie wichtige Wörter aus der Lektion: Kaffee, Tee, Wasser, Brot, bitte. Leon stellt eine einfache Frage, und Anna antwortet in Ruhe. Wenn sie ein Wort nicht versteht, fragt sie: „Kannst du das bitte wiederholen?\" Danach wiederholen beide die wichtigsten Wörter und finden zu jedem Wort ein kleines Beispiel.",
+        "Bevor Anna nach Hause geht, bedankt sie sich bei Leon. Sie sagt, dass Zuhören, Sprechen und Wiederholen ihr mehr Sicherheit geben. Leon stimmt zu und schlägt ein neues Treffen für morgen vor. Anna geht zufrieden nach Hause und schreibt die neuen Wörter des Tages in ihr Heft."
       ]
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
+        "id": "german-a1-im-cafe-reading-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Worüber spricht die Gruppe?",
+        "prompt": "Wo ist Anna?",
         "options": [
-          "Kaffee",
-          "Tisch",
-          "lecker",
-          "Rechnung"
+          "Berlin",
+          "Hamburg",
+          "München",
+          "Köln"
         ]
       },
       {
+        "id": "german-a1-im-cafe-reading-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Was macht jede Person?",
+        "prompt": "Mit wem spricht Anna?",
         "options": [
-          "Erzählt von einer Erfahrung, hört zu und schlägt eine Lösung vor.",
-          "Kauft eine Eintrittskarte für eine Veranstaltung.",
-          "Hört den anderen Personen nicht zu.",
-          "Sagt das Projekt ab."
+          "Leon",
+          "Paul",
+          "Mia",
+          "Lukas"
         ]
       },
       {
+        "id": "german-a1-im-cafe-reading-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Warum arbeiten sie zusammen?",
+        "prompt": "Was fragt Anna, wenn sie ein Wort nicht versteht?",
         "options": [
-          "Weil sie ein klares Ziel haben.",
-          "Weil sie keine Zeit haben.",
-          "Weil sie das Thema nicht kennen.",
-          "Weil sie lieber allein arbeiten."
+          "Kannst du das bitte wiederholen?",
+          "Wo ist mein Zug?",
+          "Wie viel kostet das?",
+          "Wann beginnt die Schule?"
         ]
       },
       {
+        "id": "german-a1-im-cafe-reading-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Welche Idee hilft im Alltag?",
+        "prompt": "Warum wiederholt Anna die Wörter?",
         "options": [
-          "Eine konkrete Lösung, die gemeinsam umgesetzt wird.",
-          "Eine Liste ohne Zusammenhang.",
-          "Eine Diskussion ohne Ziel.",
-          "Eine Entscheidung von nur einer Person."
+          "Damit sie mehr Sicherheit hat",
+          "Damit sie nicht sprechen muss",
+          "Damit sie ein Ticket kauft",
+          "Damit sie Leon vermeidet"
         ]
       }
     ]
@@ -6105,12 +6112,12 @@
       {
         "id": "german-a2-wohnen-und-nachbarschaft-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Wohnen und Nachbarschaft“?",
+        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ fand die Erfahrung hilfreich, weil sie neue Wörter gelernt und mehr Mut bekommen hatte.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Wohnen und Nachbarschaft darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Marta",
+          "Woche",
+          "Stadt",
+          "David"
         ]
       }
     ]
@@ -6252,12 +6259,12 @@
       {
         "id": "german-b1-bewusst-reisen-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Bewusst reisen“?",
+        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ möchte die Situation verantwortungsvoll verbessern und aus der Erfahrung lernen.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Bewusst reisen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Sie",
+          "Für",
+          "Ort",
+          "auf"
         ]
       }
     ]
@@ -6351,34 +6358,34 @@
       {
         "id": "german-b2-b2-stadt-und-mobilitat-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Stadt und Mobilität · Lesen“?",
+        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Stadt und Mobilität · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "einzige",
+          "sondern",
+          "Antwort",
+          "Grenzen"
         ]
       },
       {
         "id": "german-b2-b2-stadt-und-mobilitat-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Welche Aussage fasst „Stadt und Mobilität · Lesen“ am besten zusammen?",
+        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Stadt und Mobilität · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Jede",
+          "soll",
+          "klar",
+          "Ende"
         ]
       },
       {
         "id": "german-b2-b2-stadt-und-mobilitat-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Stadt und Mobilität · Lesen“?",
+        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Stadt und Mobilität · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Der",
+          "und",
+          "die",
+          "ein"
         ]
       }
     ]
@@ -6472,34 +6479,34 @@
       {
         "id": "german-c1-c1-innovation-und-gesellschaft-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Innovation und Gesellschaft · Lesen“?",
+        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Innovation und Gesellschaft · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "accesso",
+          "einzige",
+          "Antwort",
+          "sondern"
         ]
       },
       {
         "id": "german-c1-c1-innovation-und-gesellschaft-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Welche Aussage fasst „Innovation und Gesellschaft · Lesen“ am besten zusammen?",
+        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Innovation und Gesellschaft · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Jede",
+          "soll",
+          "klar",
+          "Ende"
         ]
       },
       {
         "id": "german-c1-c1-innovation-und-gesellschaft-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Innovation und Gesellschaft · Lesen“?",
+        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Innovation und Gesellschaft · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Der",
+          "und",
+          "die",
+          "ein"
         ]
       }
     ]
@@ -6593,34 +6600,34 @@
       {
         "id": "german-c2-c2-offentliche-politik-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Öffentliche Politik · Lesen“?",
+        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Öffentliche Politik · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Politik",
+          "impatto",
+          "Antwort",
+          "einzige"
         ]
       },
       {
         "id": "german-c2-c2-offentliche-politik-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Welche Aussage fasst „Öffentliche Politik · Lesen“ am besten zusammen?",
+        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Öffentliche Politik · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Jede",
+          "soll",
+          "klar",
+          "Ende"
         ]
       },
       {
         "id": "german-c2-c2-offentliche-politik-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Öffentliche Politik · Lesen“?",
+        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Öffentliche Politik · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Der",
+          "die",
+          "und",
+          "ein"
         ]
       }
     ]
@@ -7501,92 +7508,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «Im Café: Wortschatz», which detail establishes the situation?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „Im Café“ spricht eine kleine Gruppe aus der Gemeinschaft über Kaffee, Tee und _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Im Café“ spricht eine kleine Gruppe aus der Gemeinschaft über Kaffee, Tee und Wasser."
+                "text": "Wasser"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "entscheiden"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «Im Thema „Im Café“ spricht eine kleine Gruppe aus der Gemeinschaft…», what happens next in «Im Café: Wortschatz»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Im Café“ spricht eine kleine Gruppe aus der Gemeinschaft über Kaffee, Tee und Wasser."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Person"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "entscheiden"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «Im Café: Wortschatz»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Im Café“ spricht eine kleine Gruppe aus der Gemeinschaft über Kaffee, Tee und Wasser."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "klares"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "entscheiden"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «Im Café: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Im Café“ spricht eine kleine Gruppe aus der Gemeinschaft über Kaffee, Tee und Wasser."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "entscheiden"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Danach"
               }
             ]
           }
@@ -7597,42 +7604,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «Im Café: Wortschatz», which detail establishes the situation?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „Im Café“ spricht eine kleine Gruppe aus der Gemeinschaft über Kaffee, Tee und _____.”",
         "options": [
-          "Im Thema „Im Café“ spricht eine kleine Gruppe aus der Gemeinschaft über Kaffee, Tee und Wasser.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Wasser",
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "entscheiden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «Im Thema „Im Café“ spricht eine kleine Gruppe aus der Gemeinschaft…», what happens next in «Im Café: Wortschatz»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
         "options": [
-          "Im Thema „Im Café“ spricht eine kleine Gruppe aus der Gemeinschaft über Kaffee, Tee und Wasser.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Person",
+          "Gemeinschaft",
+          "entscheiden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «Im Café: Wortschatz»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
         "options": [
-          "Im Thema „Im Café“ spricht eine kleine Gruppe aus der Gemeinschaft über Kaffee, Tee und Wasser.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "klares",
+          "entscheiden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «Im Café: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
         "options": [
-          "Im Thema „Im Café“ spricht eine kleine Gruppe aus der Gemeinschaft über Kaffee, Tee und Wasser.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "entscheiden",
+          "Danach"
         ]
       }
     ]
@@ -7721,92 +7728,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «Wohnen und Nachbarschaft: Wortschatz», which detail establishes the situation?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „Wohnen und Nachbarschaft“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohnung, Nachbar und _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Wohnen und Nachbarschaft“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohnung, Nachbar und umziehen."
+                "text": "umziehen"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Nachbarschaft"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Gemeinschaft"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «Im Thema „Wohnen und Nachbarschaft“ spricht eine kleine Gruppe aus der…», what happens next in «Wohnen und Nachbarschaft: Wortschatz»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Wohnen und Nachbarschaft“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohnung, Nachbar und umziehen."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Person"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Nachbarschaft"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Gemeinschaft"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «Wohnen und Nachbarschaft: Wortschatz»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Wohnen und Nachbarschaft“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohnung, Nachbar und umziehen."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Nachbarschaft"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "klares"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Gemeinschaft"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «Wohnen und Nachbarschaft: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Wohnen und Nachbarschaft“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohnung, Nachbar und umziehen."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Nachbarschaft"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Danach"
               }
             ]
           }
@@ -7817,42 +7824,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «Wohnen und Nachbarschaft: Wortschatz», which detail establishes the situation?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „Wohnen und Nachbarschaft“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohnung, Nachbar und _____.”",
         "options": [
-          "Im Thema „Wohnen und Nachbarschaft“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohnung, Nachbar und umziehen.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "umziehen",
+          "Zusammenarbeit",
+          "Nachbarschaft",
+          "Gemeinschaft"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «Im Thema „Wohnen und Nachbarschaft“ spricht eine kleine Gruppe aus der…», what happens next in «Wohnen und Nachbarschaft: Wortschatz»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
         "options": [
-          "Im Thema „Wohnen und Nachbarschaft“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohnung, Nachbar und umziehen.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Person",
+          "Nachbarschaft",
+          "Gemeinschaft"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «Wohnen und Nachbarschaft: Wortschatz»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
         "options": [
-          "Im Thema „Wohnen und Nachbarschaft“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohnung, Nachbar und umziehen.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Nachbarschaft",
+          "klares",
+          "Gemeinschaft"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «Wohnen und Nachbarschaft: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
         "options": [
-          "Im Thema „Wohnen und Nachbarschaft“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohnung, Nachbar und umziehen.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Nachbarschaft",
+          "Gemeinschaft",
+          "Danach"
         ]
       }
     ]
@@ -7941,92 +7948,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Bewusst reisen: Wortschatz»?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „Bewusst reisen“ spricht eine kleine Gruppe aus der Gemeinschaft über Reiseplan, Buchung und _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Bewusst reisen“ spricht eine kleine Gruppe aus der Gemeinschaft über Reiseplan, Buchung und Landschaft."
+                "text": "Landschaft"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Bewusst"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "spricht"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «Im Thema „Bewusst reisen“ spricht eine kleine Gruppe aus der…» in «Bewusst reisen: Wortschatz»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Bewusst reisen“ spricht eine kleine Gruppe aus der Gemeinschaft über Reiseplan, Buchung und Landschaft."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Person"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "entscheiden"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Bewusst reisen: Wortschatz»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Bewusst reisen“ spricht eine kleine Gruppe aus der Gemeinschaft über Reiseplan, Buchung und Landschaft."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "klares"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "entscheiden"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Bewusst reisen: Wortschatz»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Bewusst reisen“ spricht eine kleine Gruppe aus der Gemeinschaft über Reiseplan, Buchung und Landschaft."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "entscheiden"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Danach"
               }
             ]
           }
@@ -8037,42 +8044,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Bewusst reisen: Wortschatz»?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „Bewusst reisen“ spricht eine kleine Gruppe aus der Gemeinschaft über Reiseplan, Buchung und _____.”",
         "options": [
-          "Im Thema „Bewusst reisen“ spricht eine kleine Gruppe aus der Gemeinschaft über Reiseplan, Buchung und Landschaft.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Landschaft",
+          "Zusammenarbeit",
+          "Bewusst",
+          "spricht"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «Im Thema „Bewusst reisen“ spricht eine kleine Gruppe aus der…» in «Bewusst reisen: Wortschatz»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
         "options": [
-          "Im Thema „Bewusst reisen“ spricht eine kleine Gruppe aus der Gemeinschaft über Reiseplan, Buchung und Landschaft.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Person",
+          "Gemeinschaft",
+          "entscheiden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Bewusst reisen: Wortschatz»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
         "options": [
-          "Im Thema „Bewusst reisen“ spricht eine kleine Gruppe aus der Gemeinschaft über Reiseplan, Buchung und Landschaft.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "klares",
+          "entscheiden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Bewusst reisen: Wortschatz»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
         "options": [
-          "Im Thema „Bewusst reisen“ spricht eine kleine Gruppe aus der Gemeinschaft über Reiseplan, Buchung und Landschaft.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "entscheiden",
+          "Danach"
         ]
       }
     ]
@@ -8367,92 +8374,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Stadt und Mobilität · Hörverstehen»?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Stadt und Mobilität vergleichen zwei Personen ihre _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Stadt und Mobilität vergleichen zwei Personen ihre Standpunkte."
+                "text": "Standpunkte"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass traffico nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Personen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: abbonamento kann die Perspektive der Zuhörenden verändern."
+                "text": "percorso"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "isoliert"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In dieser Sendung über Stadt und Mobilität vergleichen zwei Personen…» in «Stadt und Mobilität · Hörverstehen»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass traffico nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Stadt und Mobilität vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass traffico nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "andere"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: abbonamento kann die Perspektive der Zuhörenden verändern."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "überprüfbaren"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Stadt und Mobilität · Hörverstehen»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: _____ kann die Perspektive der Zuhörenden verändern.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Stadt und Mobilität vergleichen zwei Personen ihre Standpunkte."
+                "text": "Personen"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass traffico nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "percorso"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: abbonamento kann die Perspektive der Zuhörenden verändern."
+                "text": "abbonamento"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "isoliert"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Stadt und Mobilität · Hörverstehen»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Stadt und Mobilität vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass traffico nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: abbonamento kann die Perspektive der Zuhörenden verändern."
+                "text": "überprüfbaren"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "begründen"
               }
             ]
           }
@@ -8472,42 +8479,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Stadt und Mobilität · Hörverstehen»?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Stadt und Mobilität vergleichen zwei Personen ihre _____.”",
         "options": [
-          "In dieser Sendung über Stadt und Mobilität vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass traffico nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: abbonamento kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Standpunkte",
+          "Personen",
+          "percorso",
+          "isoliert"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In dieser Sendung über Stadt und Mobilität vergleichen zwei Personen…» in «Stadt und Mobilität · Hörverstehen»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass traffico nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
         "options": [
-          "In dieser Sendung über Stadt und Mobilität vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass traffico nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: abbonamento kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "andere",
+          "Entscheidungen",
+          "überprüfbaren"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Stadt und Mobilität · Hörverstehen»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: _____ kann die Perspektive der Zuhörenden verändern.”",
         "options": [
-          "In dieser Sendung über Stadt und Mobilität vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass traffico nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: abbonamento kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Personen",
+          "percorso",
+          "abbonamento",
+          "isoliert"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Stadt und Mobilität · Hörverstehen»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
         "options": [
-          "In dieser Sendung über Stadt und Mobilität vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass traffico nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: abbonamento kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "Entscheidungen",
+          "überprüfbaren",
+          "begründen"
         ]
       }
     ]
@@ -8574,92 +8581,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Innovation und Gesellschaft · Hörverstehen»?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Innovation und Gesellschaft vergleichen zwei Personen ihre _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Innovation und Gesellschaft vergleichen zwei Personen ihre Standpunkte."
+                "text": "Standpunkte"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass accesso nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Personen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: divario kann die Perspektive der Zuhörenden verändern."
+                "text": "isoliert"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "konkrete"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In dieser Sendung über Innovation und Gesellschaft vergleichen zwei…» in «Innovation und Gesellschaft · Hörverstehen»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass accesso nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Innovation und Gesellschaft vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass accesso nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "andere"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: divario kann die Perspektive der Zuhörenden verändern."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "überprüfbaren"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Innovation und Gesellschaft · Hörverstehen»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: _____ kann die Perspektive der Zuhörenden verändern.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Innovation und Gesellschaft vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass accesso nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: divario kann die Perspektive der Zuhörenden verändern."
+                "text": "divario"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "überprüfbaren"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Innovation und Gesellschaft · Hörverstehen»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Innovation und Gesellschaft vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass accesso nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: divario kann die Perspektive der Zuhörenden verändern."
+                "text": "überprüfbaren"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "begründen"
               }
             ]
           }
@@ -8679,42 +8686,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Innovation und Gesellschaft · Hörverstehen»?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Innovation und Gesellschaft vergleichen zwei Personen ihre _____.”",
         "options": [
-          "In dieser Sendung über Innovation und Gesellschaft vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass accesso nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: divario kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Standpunkte",
+          "Personen",
+          "isoliert",
+          "konkrete"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In dieser Sendung über Innovation und Gesellschaft vergleichen zwei…» in «Innovation und Gesellschaft · Hörverstehen»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass accesso nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
         "options": [
-          "In dieser Sendung über Innovation und Gesellschaft vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass accesso nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: divario kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "andere",
+          "Entscheidungen",
+          "überprüfbaren"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Innovation und Gesellschaft · Hörverstehen»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: _____ kann die Perspektive der Zuhörenden verändern.”",
         "options": [
-          "In dieser Sendung über Innovation und Gesellschaft vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass accesso nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: divario kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "Entscheidungen",
+          "divario",
+          "überprüfbaren"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Innovation und Gesellschaft · Hörverstehen»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
         "options": [
-          "In dieser Sendung über Innovation und Gesellschaft vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass accesso nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: divario kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "Entscheidungen",
+          "überprüfbaren",
+          "begründen"
         ]
       }
     ]
@@ -8781,92 +8788,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Öffentliche Politik · Hörverstehen»?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Öffentliche Politik vergleichen zwei Personen ihre _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Öffentliche Politik vergleichen zwei Personen ihre Standpunkte."
+                "text": "Standpunkte"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass impatto nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Personen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: criterio kann die Perspektive der Zuhörenden verändern."
+                "text": "politica"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "isoliert"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In dieser Sendung über Öffentliche Politik vergleichen zwei Personen…» in «Öffentliche Politik · Hörverstehen»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass impatto nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Öffentliche Politik vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass impatto nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "andere"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: criterio kann die Perspektive der Zuhörenden verändern."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "überprüfbaren"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Öffentliche Politik · Hörverstehen»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: _____ kann die Perspektive der Zuhörenden verändern.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Öffentliche Politik vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass impatto nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: criterio kann die Perspektive der Zuhörenden verändern."
+                "text": "criterio"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "überprüfbaren"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Öffentliche Politik · Hörverstehen»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Öffentliche Politik vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass impatto nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: criterio kann die Perspektive der Zuhörenden verändern."
+                "text": "überprüfbaren"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "begründen"
               }
             ]
           }
@@ -8886,42 +8893,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Öffentliche Politik · Hörverstehen»?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Öffentliche Politik vergleichen zwei Personen ihre _____.”",
         "options": [
-          "In dieser Sendung über Öffentliche Politik vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass impatto nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: criterio kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Standpunkte",
+          "Personen",
+          "politica",
+          "isoliert"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In dieser Sendung über Öffentliche Politik vergleichen zwei Personen…» in «Öffentliche Politik · Hörverstehen»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass impatto nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
         "options": [
-          "In dieser Sendung über Öffentliche Politik vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass impatto nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: criterio kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "andere",
+          "Entscheidungen",
+          "überprüfbaren"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Öffentliche Politik · Hörverstehen»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: _____ kann die Perspektive der Zuhörenden verändern.”",
         "options": [
-          "In dieser Sendung über Öffentliche Politik vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass impatto nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: criterio kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "Entscheidungen",
+          "criterio",
+          "überprüfbaren"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Öffentliche Politik · Hörverstehen»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
         "options": [
-          "In dieser Sendung über Öffentliche Politik vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass impatto nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: criterio kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "Entscheidungen",
+          "überprüfbaren",
+          "begründen"
         ]
       }
     ]
@@ -11258,60 +11265,64 @@
     "dialogue": [],
     "reading": {
       "title": "Familie und Haus",
-      "text": "Elena ist an die Küche zu Hause. Dort trifft Elena ihre Großmutter und sagt freundlich Hallo. Elena möchte über die Familie erzählen, deshalb hört sie gut zu und benutzt einfache Wörter. ihre Großmutter antwortet langsam und zeigt, was helfen kann.\n\nDanach sprechen beide über eine kleine Situation aus dem Alltag. Elena stellt eine Frage, bekommt eine Antwort und sagt Danke. Bevor sie gehen, wiederholen sie die wichtigsten Wörter. So wird das nächste Gespräch leichter.",
+      "text": "Heute ist Anna in Berlin. Sie trifft Leon in ihrem Viertel und begrüßt ihn freundlich. Beide sprechen langsam und hören gut zu. Anna möchte Deutsch in einer echten Situation benutzen. Deshalb sagt sie einen einfachen Satz, und Leon antwortet ihr mit einem Lächeln.\n\nIm Gespräch benutzen sie wichtige Wörter aus der Lektion: Familie, Mutter, Vater, Bruder, Zimmer. Leon stellt eine einfache Frage, und Anna antwortet in Ruhe. Wenn sie ein Wort nicht versteht, fragt sie: „Kannst du das bitte wiederholen?\" Danach wiederholen beide die wichtigsten Wörter und finden zu jedem Wort ein kleines Beispiel.\n\nBevor Anna nach Hause geht, bedankt sie sich bei Leon. Sie sagt, dass Zuhören, Sprechen und Wiederholen ihr mehr Sicherheit geben. Leon stimmt zu und schlägt ein neues Treffen für morgen vor. Anna geht zufrieden nach Hause und schreibt die neuen Wörter des Tages in ihr Heft.",
       "questions": [
-        "Worum geht es im Text?",
-        "Was macht die Hauptperson zuerst?",
-        "Welche Rolle hat die zweite Person?",
-        "Warum arbeitet die Gruppe zusammen?",
-        "Was ist das gemeinsame Ziel?"
+        "Wo ist Anna?",
+        "Mit wem spricht Anna?",
+        "Was fragt Anna, wenn sie ein Wort nicht versteht?",
+        "Warum wiederholt Anna die Wörter?"
       ],
       "parts": [
-        "Elena ist an die Küche zu Hause. Dort trifft Elena ihre Großmutter und sagt freundlich Hallo. Elena möchte über die Familie erzählen, deshalb hört sie gut zu und benutzt einfache Wörter. ihre Großmutter antwortet langsam und zeigt, was helfen kann.",
-        "Danach sprechen beide über eine kleine Situation aus dem Alltag. Elena stellt eine Frage, bekommt eine Antwort und sagt Danke. Bevor sie gehen, wiederholen sie die wichtigsten Wörter. So wird das nächste Gespräch leichter."
+        "Heute ist Anna in Berlin. Sie trifft Leon in ihrem Viertel und begrüßt ihn freundlich. Beide sprechen langsam und hören gut zu. Anna möchte Deutsch in einer echten Situation benutzen. Deshalb sagt sie einen einfachen Satz, und Leon antwortet ihr mit einem Lächeln.",
+        "Im Gespräch benutzen sie wichtige Wörter aus der Lektion: Familie, Mutter, Vater, Bruder, Zimmer. Leon stellt eine einfache Frage, und Anna antwortet in Ruhe. Wenn sie ein Wort nicht versteht, fragt sie: „Kannst du das bitte wiederholen?\" Danach wiederholen beide die wichtigsten Wörter und finden zu jedem Wort ein kleines Beispiel.",
+        "Bevor Anna nach Hause geht, bedankt sie sich bei Leon. Sie sagt, dass Zuhören, Sprechen und Wiederholen ihr mehr Sicherheit geben. Leon stimmt zu und schlägt ein neues Treffen für morgen vor. Anna geht zufrieden nach Hause und schreibt die neuen Wörter des Tages in ihr Heft."
       ]
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
+        "id": "german-a1-familie-und-haus-reading-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Worüber spricht die Gruppe?",
+        "prompt": "Wo ist Anna?",
         "options": [
-          "Familie",
-          "klein",
-          "groß",
-          "zusammen"
+          "Berlin",
+          "Hamburg",
+          "München",
+          "Köln"
         ]
       },
       {
+        "id": "german-a1-familie-und-haus-reading-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Was macht jede Person?",
+        "prompt": "Mit wem spricht Anna?",
         "options": [
-          "Erzählt von einer Erfahrung, hört zu und schlägt eine Lösung vor.",
-          "Kauft eine Eintrittskarte für eine Veranstaltung.",
-          "Hört den anderen Personen nicht zu.",
-          "Sagt das Projekt ab."
+          "Leon",
+          "Paul",
+          "Mia",
+          "Lukas"
         ]
       },
       {
+        "id": "german-a1-familie-und-haus-reading-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Warum arbeiten sie zusammen?",
+        "prompt": "Was fragt Anna, wenn sie ein Wort nicht versteht?",
         "options": [
-          "Weil sie ein klares Ziel haben.",
-          "Weil sie keine Zeit haben.",
-          "Weil sie das Thema nicht kennen.",
-          "Weil sie lieber allein arbeiten."
+          "Kannst du das bitte wiederholen?",
+          "Wo ist mein Zug?",
+          "Wie viel kostet das?",
+          "Wann beginnt die Schule?"
         ]
       },
       {
+        "id": "german-a1-familie-und-haus-reading-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Welche Idee hilft im Alltag?",
+        "prompt": "Warum wiederholt Anna die Wörter?",
         "options": [
-          "Eine konkrete Lösung, die gemeinsam umgesetzt wird.",
-          "Eine Liste ohne Zusammenhang.",
-          "Eine Diskussion ohne Ziel.",
-          "Eine Entscheidung von nur einer Person."
+          "Damit sie mehr Sicherheit hat",
+          "Damit sie nicht sprechen muss",
+          "Damit sie ein Ticket kauft",
+          "Damit sie Leon vermeidet"
         ]
       }
     ]
@@ -11452,12 +11463,12 @@
       {
         "id": "german-a2-gesundheit-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Gesundheit“?",
+        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ fand die Erfahrung hilfreich, weil sie neue Wörter gelernt und mehr Mut bekommen hatte.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Gesundheit darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Laura",
+          "Woche",
+          "hatte",
+          "Letzte"
         ]
       }
     ]
@@ -11599,12 +11610,12 @@
       {
         "id": "german-b1-gesundheit-und-balance-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Gesundheit und Balance“?",
+        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ möchte die Situation verantwortungsvoll verbessern und aus der Erfahrung lernen.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Gesundheit und Balance darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Sie",
+          "Für",
+          "auf",
+          "die"
         ]
       }
     ]
@@ -11698,34 +11709,34 @@
       {
         "id": "german-b2-b2-arbeit-und-kompetenzen-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Arbeit und Kompetenzen · Lesen“?",
+        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Arbeit und Kompetenzen · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "einzige",
+          "sondern",
+          "Antwort",
+          "Grenzen"
         ]
       },
       {
         "id": "german-b2-b2-arbeit-und-kompetenzen-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Welche Aussage fasst „Arbeit und Kompetenzen · Lesen“ am besten zusammen?",
+        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Arbeit und Kompetenzen · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Jede",
+          "soll",
+          "klar",
+          "Ende"
         ]
       },
       {
         "id": "german-b2-b2-arbeit-und-kompetenzen-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Arbeit und Kompetenzen · Lesen“?",
+        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Arbeit und Kompetenzen · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Der",
+          "und",
+          "die",
+          "ein"
         ]
       }
     ]
@@ -11819,34 +11830,34 @@
       {
         "id": "german-c1-c1-ethik-und-entscheidungen-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Ethik und Entscheidungen · Lesen“?",
+        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Ethik und Entscheidungen · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "dilemma",
+          "einzige",
+          "Antwort",
+          "sondern"
         ]
       },
       {
         "id": "german-c1-c1-ethik-und-entscheidungen-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Welche Aussage fasst „Ethik und Entscheidungen · Lesen“ am besten zusammen?",
+        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Ethik und Entscheidungen · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Jede",
+          "soll",
+          "klar",
+          "Ende"
         ]
       },
       {
         "id": "german-c1-c1-ethik-und-entscheidungen-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Ethik und Entscheidungen · Lesen“?",
+        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Ethik und Entscheidungen · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Der",
+          "und",
+          "die",
+          "ein"
         ]
       }
     ]
@@ -11940,34 +11951,34 @@
       {
         "id": "german-c2-c2-wissen-und-unsicherheit-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Wissen und Unsicherheit · Lesen“?",
+        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Wissen und Unsicherheit · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "ipotesi",
+          "einzige",
+          "Antwort",
+          "sondern"
         ]
       },
       {
         "id": "german-c2-c2-wissen-und-unsicherheit-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Welche Aussage fasst „Wissen und Unsicherheit · Lesen“ am besten zusammen?",
+        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Wissen und Unsicherheit · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Jede",
+          "soll",
+          "klar",
+          "Ende"
         ]
       },
       {
         "id": "german-c2-c2-wissen-und-unsicherheit-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Wissen und Unsicherheit · Lesen“?",
+        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Wissen und Unsicherheit · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Der",
+          "und",
+          "die",
+          "ein"
         ]
       }
     ]
@@ -12848,92 +12859,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «Familie und Haus: Wortschatz», which detail establishes the situation?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „Familie und Haus“ spricht eine kleine Gruppe aus der Gemeinschaft über Familie, Mutter und _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Familie und Haus“ spricht eine kleine Gruppe aus der Gemeinschaft über Familie, Mutter und Vater."
+                "text": "Vater"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "entscheiden"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «Im Thema „Familie und Haus“ spricht eine kleine Gruppe aus der…», what happens next in «Familie und Haus: Wortschatz»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Familie und Haus“ spricht eine kleine Gruppe aus der Gemeinschaft über Familie, Mutter und Vater."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Person"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "entscheiden"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «Familie und Haus: Wortschatz»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Familie und Haus“ spricht eine kleine Gruppe aus der Gemeinschaft über Familie, Mutter und Vater."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "klares"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "entscheiden"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «Familie und Haus: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Familie und Haus“ spricht eine kleine Gruppe aus der Gemeinschaft über Familie, Mutter und Vater."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "entscheiden"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Danach"
               }
             ]
           }
@@ -12944,42 +12955,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «Familie und Haus: Wortschatz», which detail establishes the situation?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „Familie und Haus“ spricht eine kleine Gruppe aus der Gemeinschaft über Familie, Mutter und _____.”",
         "options": [
-          "Im Thema „Familie und Haus“ spricht eine kleine Gruppe aus der Gemeinschaft über Familie, Mutter und Vater.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Vater",
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "entscheiden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «Im Thema „Familie und Haus“ spricht eine kleine Gruppe aus der…», what happens next in «Familie und Haus: Wortschatz»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
         "options": [
-          "Im Thema „Familie und Haus“ spricht eine kleine Gruppe aus der Gemeinschaft über Familie, Mutter und Vater.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Person",
+          "Gemeinschaft",
+          "entscheiden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «Familie und Haus: Wortschatz»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
         "options": [
-          "Im Thema „Familie und Haus“ spricht eine kleine Gruppe aus der Gemeinschaft über Familie, Mutter und Vater.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "klares",
+          "entscheiden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «Familie und Haus: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
         "options": [
-          "Im Thema „Familie und Haus“ spricht eine kleine Gruppe aus der Gemeinschaft über Familie, Mutter und Vater.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "entscheiden",
+          "Danach"
         ]
       }
     ]
@@ -13068,92 +13079,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «Gesundheit: Wortschatz», which detail establishes the situation?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „Gesundheit“ spricht eine kleine Gruppe aus der Gemeinschaft über Gesundheit, Arzt und _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Gesundheit“ spricht eine kleine Gruppe aus der Gemeinschaft über Gesundheit, Arzt und Schmerz."
+                "text": "Schmerz"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "entscheiden"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «Im Thema „Gesundheit“ spricht eine kleine Gruppe aus der Gemeinschaft…», what happens next in «Gesundheit: Wortschatz»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Gesundheit“ spricht eine kleine Gruppe aus der Gemeinschaft über Gesundheit, Arzt und Schmerz."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Person"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "entscheiden"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «Gesundheit: Wortschatz»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Gesundheit“ spricht eine kleine Gruppe aus der Gemeinschaft über Gesundheit, Arzt und Schmerz."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "klares"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "entscheiden"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «Gesundheit: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Gesundheit“ spricht eine kleine Gruppe aus der Gemeinschaft über Gesundheit, Arzt und Schmerz."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "entscheiden"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Danach"
               }
             ]
           }
@@ -13164,42 +13175,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «Gesundheit: Wortschatz», which detail establishes the situation?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „Gesundheit“ spricht eine kleine Gruppe aus der Gemeinschaft über Gesundheit, Arzt und _____.”",
         "options": [
-          "Im Thema „Gesundheit“ spricht eine kleine Gruppe aus der Gemeinschaft über Gesundheit, Arzt und Schmerz.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Schmerz",
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "entscheiden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «Im Thema „Gesundheit“ spricht eine kleine Gruppe aus der Gemeinschaft…», what happens next in «Gesundheit: Wortschatz»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
         "options": [
-          "Im Thema „Gesundheit“ spricht eine kleine Gruppe aus der Gemeinschaft über Gesundheit, Arzt und Schmerz.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Person",
+          "Gemeinschaft",
+          "entscheiden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «Gesundheit: Wortschatz»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
         "options": [
-          "Im Thema „Gesundheit“ spricht eine kleine Gruppe aus der Gemeinschaft über Gesundheit, Arzt und Schmerz.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "klares",
+          "entscheiden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «Gesundheit: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
         "options": [
-          "Im Thema „Gesundheit“ spricht eine kleine Gruppe aus der Gemeinschaft über Gesundheit, Arzt und Schmerz.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "entscheiden",
+          "Danach"
         ]
       }
     ]
@@ -13288,92 +13299,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Gesundheit und Balance: Wortschatz»?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „Gesundheit und Balance“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohlbefinden, Erholung und _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Gesundheit und Balance“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohlbefinden, Erholung und Bewegung."
+                "text": "Bewegung"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Wohlbefinden"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «Im Thema „Gesundheit und Balance“ spricht eine kleine Gruppe aus der…» in «Gesundheit und Balance: Wortschatz»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Gesundheit und Balance“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohlbefinden, Erholung und Bewegung."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Person"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Wohlbefinden"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Gesundheit und Balance: Wortschatz»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Gesundheit und Balance“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohlbefinden, Erholung und Bewegung."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "klares"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Wohlbefinden"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Gesundheit und Balance: Wortschatz»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Gesundheit und Balance“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohlbefinden, Erholung und Bewegung."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Wohlbefinden"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Danach"
               }
             ]
           }
@@ -13384,42 +13395,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Gesundheit und Balance: Wortschatz»?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „Gesundheit und Balance“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohlbefinden, Erholung und _____.”",
         "options": [
-          "Im Thema „Gesundheit und Balance“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohlbefinden, Erholung und Bewegung.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Bewegung",
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "Wohlbefinden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «Im Thema „Gesundheit und Balance“ spricht eine kleine Gruppe aus der…» in «Gesundheit und Balance: Wortschatz»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
         "options": [
-          "Im Thema „Gesundheit und Balance“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohlbefinden, Erholung und Bewegung.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Person",
+          "Gemeinschaft",
+          "Wohlbefinden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Gesundheit und Balance: Wortschatz»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
         "options": [
-          "Im Thema „Gesundheit und Balance“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohlbefinden, Erholung und Bewegung.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "klares",
+          "Wohlbefinden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Gesundheit und Balance: Wortschatz»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
         "options": [
-          "Im Thema „Gesundheit und Balance“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohlbefinden, Erholung und Bewegung.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "Wohlbefinden",
+          "Danach"
         ]
       }
     ]
@@ -13714,92 +13725,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Arbeit und Kompetenzen · Hörverstehen»?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Arbeit und Kompetenzen vergleichen zwei Personen ihre _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Arbeit und Kompetenzen vergleichen zwei Personen ihre Standpunkte."
+                "text": "Standpunkte"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass esperienza nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Personen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: candidatura kann die Perspektive der Zuhörenden verändern."
+                "text": "isoliert"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "konkrete"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In dieser Sendung über Arbeit und Kompetenzen vergleichen zwei…» in «Arbeit und Kompetenzen · Hörverstehen»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass esperienza nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Arbeit und Kompetenzen vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass esperienza nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "andere"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: candidatura kann die Perspektive der Zuhörenden verändern."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "überprüfbaren"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Arbeit und Kompetenzen · Hörverstehen»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: _____ kann die Perspektive der Zuhörenden verändern.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Arbeit und Kompetenzen vergleichen zwei Personen ihre Standpunkte."
+                "text": "Personen"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass esperienza nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "isoliert"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: candidatura kann die Perspektive der Zuhörenden verändern."
+                "text": "candidatura"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "konkrete"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Arbeit und Kompetenzen · Hörverstehen»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Arbeit und Kompetenzen vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass esperienza nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: candidatura kann die Perspektive der Zuhörenden verändern."
+                "text": "überprüfbaren"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "begründen"
               }
             ]
           }
@@ -13819,42 +13830,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Arbeit und Kompetenzen · Hörverstehen»?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Arbeit und Kompetenzen vergleichen zwei Personen ihre _____.”",
         "options": [
-          "In dieser Sendung über Arbeit und Kompetenzen vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass esperienza nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: candidatura kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Standpunkte",
+          "Personen",
+          "isoliert",
+          "konkrete"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In dieser Sendung über Arbeit und Kompetenzen vergleichen zwei…» in «Arbeit und Kompetenzen · Hörverstehen»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass esperienza nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
         "options": [
-          "In dieser Sendung über Arbeit und Kompetenzen vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass esperienza nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: candidatura kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "andere",
+          "Entscheidungen",
+          "überprüfbaren"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Arbeit und Kompetenzen · Hörverstehen»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: _____ kann die Perspektive der Zuhörenden verändern.”",
         "options": [
-          "In dieser Sendung über Arbeit und Kompetenzen vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass esperienza nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: candidatura kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Personen",
+          "isoliert",
+          "candidatura",
+          "konkrete"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Arbeit und Kompetenzen · Hörverstehen»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
         "options": [
-          "In dieser Sendung über Arbeit und Kompetenzen vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass esperienza nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: candidatura kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "Entscheidungen",
+          "überprüfbaren",
+          "begründen"
         ]
       }
     ]
@@ -13921,92 +13932,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Ethik und Entscheidungen · Hörverstehen»?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Ethik und Entscheidungen vergleichen zwei Personen ihre _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Ethik und Entscheidungen vergleichen zwei Personen ihre Standpunkte."
+                "text": "Standpunkte"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass principio nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: responsabilità kann die Perspektive der Zuhörenden verändern."
+                "text": "Personen"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "isoliert"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In dieser Sendung über Ethik und Entscheidungen vergleichen zwei…» in «Ethik und Entscheidungen · Hörverstehen»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass principio nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Ethik und Entscheidungen vergleichen zwei Personen ihre Standpunkte."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass principio nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "andere"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: responsabilità kann die Perspektive der Zuhörenden verändern."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "responsabilità"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Ethik und Entscheidungen · Hörverstehen»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: _____ kann die Perspektive der Zuhörenden verändern.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Ethik und Entscheidungen vergleichen zwei Personen ihre Standpunkte."
+                "text": "vergleichen"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass principio nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Standpunkte"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: responsabilità kann die Perspektive der Zuhörenden verändern."
+                "text": "responsabilità"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "Perspektive"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Ethik und Entscheidungen · Hörverstehen»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Ethik und Entscheidungen vergleichen zwei Personen ihre Standpunkte."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass principio nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: responsabilità kann die Perspektive der Zuhörenden verändern."
+                "text": "responsabilità"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "begründen"
               }
             ]
           }
@@ -14026,42 +14037,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Ethik und Entscheidungen · Hörverstehen»?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Ethik und Entscheidungen vergleichen zwei Personen ihre _____.”",
         "options": [
-          "In dieser Sendung über Ethik und Entscheidungen vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass principio nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: responsabilità kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Standpunkte",
+          "Entscheidungen",
+          "Personen",
+          "isoliert"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In dieser Sendung über Ethik und Entscheidungen vergleichen zwei…» in «Ethik und Entscheidungen · Hörverstehen»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass principio nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
         "options": [
-          "In dieser Sendung über Ethik und Entscheidungen vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass principio nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: responsabilità kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Entscheidungen",
+          "andere",
+          "Aufmerksamkeit",
+          "responsabilità"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Ethik und Entscheidungen · Hörverstehen»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: _____ kann die Perspektive der Zuhörenden verändern.”",
         "options": [
-          "In dieser Sendung über Ethik und Entscheidungen vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass principio nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: responsabilità kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "vergleichen",
+          "Standpunkte",
+          "responsabilità",
+          "Perspektive"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Ethik und Entscheidungen · Hörverstehen»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
         "options": [
-          "In dieser Sendung über Ethik und Entscheidungen vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass principio nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: responsabilità kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Entscheidungen",
+          "Aufmerksamkeit",
+          "responsabilità",
+          "begründen"
         ]
       }
     ]
@@ -14128,92 +14139,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Wissen und Unsicherheit · Hörverstehen»?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Wissen und Unsicherheit vergleichen zwei Personen ihre _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Wissen und Unsicherheit vergleichen zwei Personen ihre Standpunkte."
+                "text": "Standpunkte"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass probabilità nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Personen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: evidenza kann die Perspektive der Zuhörenden verändern."
+                "text": "isoliert"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "konkrete"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In dieser Sendung über Wissen und Unsicherheit vergleichen zwei…» in «Wissen und Unsicherheit · Hörverstehen»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass probabilità nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Wissen und Unsicherheit vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass probabilità nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "andere"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: evidenza kann die Perspektive der Zuhörenden verändern."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "überprüfbaren"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Wissen und Unsicherheit · Hörverstehen»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: _____ kann die Perspektive der Zuhörenden verändern.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Wissen und Unsicherheit vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass probabilità nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: evidenza kann die Perspektive der Zuhörenden verändern."
+                "text": "evidenza"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "überprüfbaren"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Wissen und Unsicherheit · Hörverstehen»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Wissen und Unsicherheit vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass probabilità nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: evidenza kann die Perspektive der Zuhörenden verändern."
+                "text": "überprüfbaren"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "begründen"
               }
             ]
           }
@@ -14233,42 +14244,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Wissen und Unsicherheit · Hörverstehen»?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Wissen und Unsicherheit vergleichen zwei Personen ihre _____.”",
         "options": [
-          "In dieser Sendung über Wissen und Unsicherheit vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass probabilità nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: evidenza kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Standpunkte",
+          "Personen",
+          "isoliert",
+          "konkrete"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In dieser Sendung über Wissen und Unsicherheit vergleichen zwei…» in «Wissen und Unsicherheit · Hörverstehen»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass probabilità nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
         "options": [
-          "In dieser Sendung über Wissen und Unsicherheit vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass probabilità nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: evidenza kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "andere",
+          "Entscheidungen",
+          "überprüfbaren"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Wissen und Unsicherheit · Hörverstehen»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: _____ kann die Perspektive der Zuhörenden verändern.”",
         "options": [
-          "In dieser Sendung über Wissen und Unsicherheit vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass probabilità nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: evidenza kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "Entscheidungen",
+          "evidenza",
+          "überprüfbaren"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Wissen und Unsicherheit · Hörverstehen»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
         "options": [
-          "In dieser Sendung über Wissen und Unsicherheit vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass probabilità nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: evidenza kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "Entscheidungen",
+          "überprüfbaren",
+          "begründen"
         ]
       }
     ]
@@ -16605,60 +16616,64 @@
     "dialogue": [],
     "reading": {
       "title": "Einkaufen",
-      "text": "Lukas ist an den Wochenmarkt. Dort trifft Lukas die Verkäuferin und sagt freundlich Hallo. Lukas möchte Obst und Gemüse kaufen, deshalb hört sie gut zu und benutzt einfache Wörter. die Verkäuferin antwortet langsam und zeigt, was helfen kann.\n\nDanach sprechen beide über eine kleine Situation aus dem Alltag. Lukas stellt eine Frage, bekommt eine Antwort und sagt Danke. Bevor sie gehen, wiederholen sie die wichtigsten Wörter. So wird das nächste Gespräch leichter.",
+      "text": "Heute ist Anna in Berlin. Sie trifft Leon in ihrem Viertel und begrüßt ihn freundlich. Beide sprechen langsam und hören gut zu. Anna möchte Deutsch in einer echten Situation benutzen. Deshalb sagt sie einen einfachen Satz, und Leon antwortet ihr mit einem Lächeln.\n\nIm Gespräch benutzen sie wichtige Wörter aus der Lektion: Markt, Preis, Euro, kaufen, Gemüse. Leon stellt eine einfache Frage, und Anna antwortet in Ruhe. Wenn sie ein Wort nicht versteht, fragt sie: „Kannst du das bitte wiederholen?\" Danach wiederholen beide die wichtigsten Wörter und finden zu jedem Wort ein kleines Beispiel.\n\nBevor Anna nach Hause geht, bedankt sie sich bei Leon. Sie sagt, dass Zuhören, Sprechen und Wiederholen ihr mehr Sicherheit geben. Leon stimmt zu und schlägt ein neues Treffen für morgen vor. Anna geht zufrieden nach Hause und schreibt die neuen Wörter des Tages in ihr Heft.",
       "questions": [
-        "Worum geht es im Text?",
-        "Was macht die Hauptperson zuerst?",
-        "Welche Rolle hat die zweite Person?",
-        "Warum arbeitet die Gruppe zusammen?",
-        "Was ist das gemeinsame Ziel?"
+        "Wo ist Anna?",
+        "Mit wem spricht Anna?",
+        "Was fragt Anna, wenn sie ein Wort nicht versteht?",
+        "Warum wiederholt Anna die Wörter?"
       ],
       "parts": [
-        "Lukas ist an den Wochenmarkt. Dort trifft Lukas die Verkäuferin und sagt freundlich Hallo. Lukas möchte Obst und Gemüse kaufen, deshalb hört sie gut zu und benutzt einfache Wörter. die Verkäuferin antwortet langsam und zeigt, was helfen kann.",
-        "Danach sprechen beide über eine kleine Situation aus dem Alltag. Lukas stellt eine Frage, bekommt eine Antwort und sagt Danke. Bevor sie gehen, wiederholen sie die wichtigsten Wörter. So wird das nächste Gespräch leichter."
+        "Heute ist Anna in Berlin. Sie trifft Leon in ihrem Viertel und begrüßt ihn freundlich. Beide sprechen langsam und hören gut zu. Anna möchte Deutsch in einer echten Situation benutzen. Deshalb sagt sie einen einfachen Satz, und Leon antwortet ihr mit einem Lächeln.",
+        "Im Gespräch benutzen sie wichtige Wörter aus der Lektion: Markt, Preis, Euro, kaufen, Gemüse. Leon stellt eine einfache Frage, und Anna antwortet in Ruhe. Wenn sie ein Wort nicht versteht, fragt sie: „Kannst du das bitte wiederholen?\" Danach wiederholen beide die wichtigsten Wörter und finden zu jedem Wort ein kleines Beispiel.",
+        "Bevor Anna nach Hause geht, bedankt sie sich bei Leon. Sie sagt, dass Zuhören, Sprechen und Wiederholen ihr mehr Sicherheit geben. Leon stimmt zu und schlägt ein neues Treffen für morgen vor. Anna geht zufrieden nach Hause und schreibt die neuen Wörter des Tages in ihr Heft."
       ]
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
+        "id": "german-a1-einkaufen-reading-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Worüber spricht die Gruppe?",
+        "prompt": "Wo ist Anna?",
         "options": [
-          "Markt",
-          "billig",
-          "teuer",
-          "Tasche"
+          "Berlin",
+          "Hamburg",
+          "München",
+          "Köln"
         ]
       },
       {
+        "id": "german-a1-einkaufen-reading-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Was macht jede Person?",
+        "prompt": "Mit wem spricht Anna?",
         "options": [
-          "Erzählt von einer Erfahrung, hört zu und schlägt eine Lösung vor.",
-          "Kauft eine Eintrittskarte für eine Veranstaltung.",
-          "Hört den anderen Personen nicht zu.",
-          "Sagt das Projekt ab."
+          "Leon",
+          "Paul",
+          "Mia",
+          "Lukas"
         ]
       },
       {
+        "id": "german-a1-einkaufen-reading-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Warum arbeiten sie zusammen?",
+        "prompt": "Was fragt Anna, wenn sie ein Wort nicht versteht?",
         "options": [
-          "Weil sie ein klares Ziel haben.",
-          "Weil sie keine Zeit haben.",
-          "Weil sie das Thema nicht kennen.",
-          "Weil sie lieber allein arbeiten."
+          "Kannst du das bitte wiederholen?",
+          "Wo ist mein Zug?",
+          "Wie viel kostet das?",
+          "Wann beginnt die Schule?"
         ]
       },
       {
+        "id": "german-a1-einkaufen-reading-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Welche Idee hilft im Alltag?",
+        "prompt": "Warum wiederholt Anna die Wörter?",
         "options": [
-          "Eine konkrete Lösung, die gemeinsam umgesetzt wird.",
-          "Eine Liste ohne Zusammenhang.",
-          "Eine Diskussion ohne Ziel.",
-          "Eine Entscheidung von nur einer Person."
+          "Damit sie mehr Sicherheit hat",
+          "Damit sie nicht sprechen muss",
+          "Damit sie ein Ticket kauft",
+          "Damit sie Leon vermeidet"
         ]
       }
     ]
@@ -16799,12 +16814,12 @@
       {
         "id": "german-a2-arbeit-und-beruf-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Arbeit und Beruf“?",
+        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ fand die Erfahrung hilfreich, weil sie neue Wörter gelernt und mehr Mut bekommen hatte.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Arbeit und Beruf darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Andreas",
+          "Deshalb",
+          "Während",
+          "zuhörte"
         ]
       }
     ]
@@ -16946,12 +16961,12 @@
       {
         "id": "german-b1-kultur-und-medien-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Kultur und Medien“?",
+        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ möchte die Situation verantwortungsvoll verbessern und aus der Erfahrung lernen.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Kultur und Medien darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Sie",
+          "Für",
+          "vor",
+          "von"
         ]
       }
     ]
@@ -17045,34 +17060,34 @@
       {
         "id": "german-b2-b2-umwelt-und-konsum-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Umwelt und Konsum · Lesen“?",
+        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Umwelt und Konsum · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "impatto",
+          "einzige",
+          "Antwort",
+          "sondern"
         ]
       },
       {
         "id": "german-b2-b2-umwelt-und-konsum-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Welche Aussage fasst „Umwelt und Konsum · Lesen“ am besten zusammen?",
+        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Umwelt und Konsum · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Jede",
+          "soll",
+          "klar",
+          "Ende"
         ]
       },
       {
         "id": "german-b2-b2-umwelt-und-konsum-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Umwelt und Konsum · Lesen“?",
+        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Umwelt und Konsum · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Der",
+          "und",
+          "die",
+          "ein"
         ]
       }
     ]
@@ -17166,34 +17181,34 @@
       {
         "id": "german-c1-c1-kunst-und-interpretation-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Kunst und Interpretation · Lesen“?",
+        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Kunst und Interpretation · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "einzige",
+          "sondern",
+          "Antwort",
+          "Grenzen"
         ]
       },
       {
         "id": "german-c1-c1-kunst-und-interpretation-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Welche Aussage fasst „Kunst und Interpretation · Lesen“ am besten zusammen?",
+        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Kunst und Interpretation · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Jede",
+          "soll",
+          "klar",
+          "Ende"
         ]
       },
       {
         "id": "german-c1-c1-kunst-und-interpretation-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Kunst und Interpretation · Lesen“?",
+        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Kunst und Interpretation · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Der",
+          "und",
+          "die",
+          "ein"
         ]
       }
     ]
@@ -17287,34 +17302,34 @@
       {
         "id": "german-c2-c2-erzahlung-und-identitat-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Erzählung und Identität · Lesen“?",
+        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Erzählung und Identität · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "memoria",
+          "einzige",
+          "Antwort",
+          "sondern"
         ]
       },
       {
         "id": "german-c2-c2-erzahlung-und-identitat-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Welche Aussage fasst „Erzählung und Identität · Lesen“ am besten zusammen?",
+        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Erzählung und Identität · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Jede",
+          "soll",
+          "klar",
+          "Ende"
         ]
       },
       {
         "id": "german-c2-c2-erzahlung-und-identitat-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Erzählung und Identität · Lesen“?",
+        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Erzählung und Identität · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Der",
+          "und",
+          "die",
+          "ein"
         ]
       }
     ]
@@ -18195,92 +18210,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «Einkaufen: Wortschatz», which detail establishes the situation?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „Einkaufen“ spricht eine kleine Gruppe aus der Gemeinschaft über Markt, Preis und _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Einkaufen“ spricht eine kleine Gruppe aus der Gemeinschaft über Markt, Preis und Euro."
+                "text": "Euro"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "entscheiden"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «Im Thema „Einkaufen“ spricht eine kleine Gruppe aus der Gemeinschaft…», what happens next in «Einkaufen: Wortschatz»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Einkaufen“ spricht eine kleine Gruppe aus der Gemeinschaft über Markt, Preis und Euro."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Person"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "entscheiden"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «Einkaufen: Wortschatz»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Einkaufen“ spricht eine kleine Gruppe aus der Gemeinschaft über Markt, Preis und Euro."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "klares"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "entscheiden"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «Einkaufen: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Einkaufen“ spricht eine kleine Gruppe aus der Gemeinschaft über Markt, Preis und Euro."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "entscheiden"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Danach"
               }
             ]
           }
@@ -18291,42 +18306,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «Einkaufen: Wortschatz», which detail establishes the situation?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „Einkaufen“ spricht eine kleine Gruppe aus der Gemeinschaft über Markt, Preis und _____.”",
         "options": [
-          "Im Thema „Einkaufen“ spricht eine kleine Gruppe aus der Gemeinschaft über Markt, Preis und Euro.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Euro",
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "entscheiden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «Im Thema „Einkaufen“ spricht eine kleine Gruppe aus der Gemeinschaft…», what happens next in «Einkaufen: Wortschatz»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
         "options": [
-          "Im Thema „Einkaufen“ spricht eine kleine Gruppe aus der Gemeinschaft über Markt, Preis und Euro.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Person",
+          "Gemeinschaft",
+          "entscheiden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «Einkaufen: Wortschatz»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
         "options": [
-          "Im Thema „Einkaufen“ spricht eine kleine Gruppe aus der Gemeinschaft über Markt, Preis und Euro.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "klares",
+          "entscheiden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «Einkaufen: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
         "options": [
-          "Im Thema „Einkaufen“ spricht eine kleine Gruppe aus der Gemeinschaft über Markt, Preis und Euro.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "entscheiden",
+          "Danach"
         ]
       }
     ]
@@ -18415,92 +18430,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «Arbeit und Beruf: Wortschatz», which detail establishes the situation?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „Arbeit und Beruf“ spricht eine kleine Gruppe aus der Gemeinschaft über Beruf, Aufgabe und _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Arbeit und Beruf“ spricht eine kleine Gruppe aus der Gemeinschaft über Beruf, Aufgabe und Kollegin."
+                "text": "Kollegin"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Thema"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «Im Thema „Arbeit und Beruf“ spricht eine kleine Gruppe aus der…», what happens next in «Arbeit und Beruf: Wortschatz»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Arbeit und Beruf“ spricht eine kleine Gruppe aus der Gemeinschaft über Beruf, Aufgabe und Kollegin."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Person"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "entscheiden"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «Arbeit und Beruf: Wortschatz»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Arbeit und Beruf“ spricht eine kleine Gruppe aus der Gemeinschaft über Beruf, Aufgabe und Kollegin."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "klares"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "entscheiden"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «Arbeit und Beruf: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Arbeit und Beruf“ spricht eine kleine Gruppe aus der Gemeinschaft über Beruf, Aufgabe und Kollegin."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "entscheiden"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Danach"
               }
             ]
           }
@@ -18511,42 +18526,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «Arbeit und Beruf: Wortschatz», which detail establishes the situation?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „Arbeit und Beruf“ spricht eine kleine Gruppe aus der Gemeinschaft über Beruf, Aufgabe und _____.”",
         "options": [
-          "Im Thema „Arbeit und Beruf“ spricht eine kleine Gruppe aus der Gemeinschaft über Beruf, Aufgabe und Kollegin.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Kollegin",
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "Thema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «Im Thema „Arbeit und Beruf“ spricht eine kleine Gruppe aus der…», what happens next in «Arbeit und Beruf: Wortschatz»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
         "options": [
-          "Im Thema „Arbeit und Beruf“ spricht eine kleine Gruppe aus der Gemeinschaft über Beruf, Aufgabe und Kollegin.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Person",
+          "Gemeinschaft",
+          "entscheiden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «Arbeit und Beruf: Wortschatz»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
         "options": [
-          "Im Thema „Arbeit und Beruf“ spricht eine kleine Gruppe aus der Gemeinschaft über Beruf, Aufgabe und Kollegin.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "klares",
+          "entscheiden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «Arbeit und Beruf: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
         "options": [
-          "Im Thema „Arbeit und Beruf“ spricht eine kleine Gruppe aus der Gemeinschaft über Beruf, Aufgabe und Kollegin.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "entscheiden",
+          "Danach"
         ]
       }
     ]
@@ -18635,92 +18650,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Kultur und Medien: Wortschatz»?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „Kultur und Medien“ spricht eine kleine Gruppe aus der Gemeinschaft über Nachricht, Quelle und _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Kultur und Medien“ spricht eine kleine Gruppe aus der Gemeinschaft über Nachricht, Quelle und Publikum."
+                "text": "Publikum"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Thema"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «Im Thema „Kultur und Medien“ spricht eine kleine Gruppe aus der…» in «Kultur und Medien: Wortschatz»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Kultur und Medien“ spricht eine kleine Gruppe aus der Gemeinschaft über Nachricht, Quelle und Publikum."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Person"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "entscheiden"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Kultur und Medien: Wortschatz»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Kultur und Medien“ spricht eine kleine Gruppe aus der Gemeinschaft über Nachricht, Quelle und Publikum."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "klares"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "entscheiden"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Kultur und Medien: Wortschatz»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Kultur und Medien“ spricht eine kleine Gruppe aus der Gemeinschaft über Nachricht, Quelle und Publikum."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "entscheiden"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Danach"
               }
             ]
           }
@@ -18731,42 +18746,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Kultur und Medien: Wortschatz»?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „Kultur und Medien“ spricht eine kleine Gruppe aus der Gemeinschaft über Nachricht, Quelle und _____.”",
         "options": [
-          "Im Thema „Kultur und Medien“ spricht eine kleine Gruppe aus der Gemeinschaft über Nachricht, Quelle und Publikum.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Publikum",
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "Thema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «Im Thema „Kultur und Medien“ spricht eine kleine Gruppe aus der…» in «Kultur und Medien: Wortschatz»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
         "options": [
-          "Im Thema „Kultur und Medien“ spricht eine kleine Gruppe aus der Gemeinschaft über Nachricht, Quelle und Publikum.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Person",
+          "Gemeinschaft",
+          "entscheiden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Kultur und Medien: Wortschatz»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
         "options": [
-          "Im Thema „Kultur und Medien“ spricht eine kleine Gruppe aus der Gemeinschaft über Nachricht, Quelle und Publikum.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "klares",
+          "entscheiden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Kultur und Medien: Wortschatz»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
         "options": [
-          "Im Thema „Kultur und Medien“ spricht eine kleine Gruppe aus der Gemeinschaft über Nachricht, Quelle und Publikum.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "entscheiden",
+          "Danach"
         ]
       }
     ]
@@ -19061,92 +19076,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Umwelt und Konsum · Hörverstehen»?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Umwelt und Konsum vergleichen zwei Personen ihre _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Umwelt und Konsum vergleichen zwei Personen ihre Standpunkte."
+                "text": "Standpunkte"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass raccolta nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Personen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: spreco kann die Perspektive der Zuhörenden verändern."
+                "text": "isoliert"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "konkrete"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In dieser Sendung über Umwelt und Konsum vergleichen zwei Personen…» in «Umwelt und Konsum · Hörverstehen»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass raccolta nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Umwelt und Konsum vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass raccolta nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "andere"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: spreco kann die Perspektive der Zuhörenden verändern."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "überprüfbaren"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Umwelt und Konsum · Hörverstehen»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: _____ kann die Perspektive der Zuhörenden verändern.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Umwelt und Konsum vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass raccolta nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: spreco kann die Perspektive der Zuhörenden verändern."
+                "text": "spreco"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "überprüfbaren"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Umwelt und Konsum · Hörverstehen»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Umwelt und Konsum vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass raccolta nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: spreco kann die Perspektive der Zuhörenden verändern."
+                "text": "überprüfbaren"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "begründen"
               }
             ]
           }
@@ -19166,42 +19181,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Umwelt und Konsum · Hörverstehen»?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Umwelt und Konsum vergleichen zwei Personen ihre _____.”",
         "options": [
-          "In dieser Sendung über Umwelt und Konsum vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass raccolta nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: spreco kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Standpunkte",
+          "Personen",
+          "isoliert",
+          "konkrete"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In dieser Sendung über Umwelt und Konsum vergleichen zwei Personen…» in «Umwelt und Konsum · Hörverstehen»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass raccolta nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
         "options": [
-          "In dieser Sendung über Umwelt und Konsum vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass raccolta nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: spreco kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "andere",
+          "Entscheidungen",
+          "überprüfbaren"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Umwelt und Konsum · Hörverstehen»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: _____ kann die Perspektive der Zuhörenden verändern.”",
         "options": [
-          "In dieser Sendung über Umwelt und Konsum vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass raccolta nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: spreco kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "Entscheidungen",
+          "spreco",
+          "überprüfbaren"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Umwelt und Konsum · Hörverstehen»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
         "options": [
-          "In dieser Sendung über Umwelt und Konsum vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass raccolta nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: spreco kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "Entscheidungen",
+          "überprüfbaren",
+          "begründen"
         ]
       }
     ]
@@ -19268,92 +19283,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Kunst und Interpretation · Hörverstehen»?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Kunst und Interpretation vergleichen zwei Personen ihre _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Kunst und Interpretation vergleichen zwei Personen ihre Standpunkte."
+                "text": "Standpunkte"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass linguaggio nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "interpretazione"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: interpretazione kann die Perspektive der Zuhörenden verändern."
+                "text": "Interpretation"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "Personen"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In dieser Sendung über Kunst und Interpretation vergleichen zwei…» in «Kunst und Interpretation · Hörverstehen»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass linguaggio nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Kunst und Interpretation vergleichen zwei Personen ihre Standpunkte."
+                "text": "interpretazione"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass linguaggio nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "andere"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: interpretazione kann die Perspektive der Zuhörenden verändern."
+                "text": "Interpretation"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "Aufmerksamkeit"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Kunst und Interpretation · Hörverstehen»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: _____ kann die Perspektive der Zuhörenden verändern.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Kunst und Interpretation vergleichen zwei Personen ihre Standpunkte."
+                "text": "Entscheidung"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass linguaggio nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "überprüfbaren"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: interpretazione kann die Perspektive der Zuhörenden verändern."
+                "text": "interpretazione"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "Schwierigkeit"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Kunst und Interpretation · Hörverstehen»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Kunst und Interpretation vergleichen zwei Personen ihre Standpunkte."
+                "text": "interpretazione"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass linguaggio nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Interpretation"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: interpretazione kann die Perspektive der Zuhörenden verändern."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "begründen"
               }
             ]
           }
@@ -19373,42 +19388,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Kunst und Interpretation · Hörverstehen»?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Kunst und Interpretation vergleichen zwei Personen ihre _____.”",
         "options": [
-          "In dieser Sendung über Kunst und Interpretation vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass linguaggio nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: interpretazione kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Standpunkte",
+          "interpretazione",
+          "Interpretation",
+          "Personen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In dieser Sendung über Kunst und Interpretation vergleichen zwei…» in «Kunst und Interpretation · Hörverstehen»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass linguaggio nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
         "options": [
-          "In dieser Sendung über Kunst und Interpretation vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass linguaggio nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: interpretazione kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "interpretazione",
+          "andere",
+          "Interpretation",
+          "Aufmerksamkeit"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Kunst und Interpretation · Hörverstehen»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: _____ kann die Perspektive der Zuhörenden verändern.”",
         "options": [
-          "In dieser Sendung über Kunst und Interpretation vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass linguaggio nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: interpretazione kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Entscheidung",
+          "überprüfbaren",
+          "interpretazione",
+          "Schwierigkeit"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Kunst und Interpretation · Hörverstehen»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
         "options": [
-          "In dieser Sendung über Kunst und Interpretation vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass linguaggio nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: interpretazione kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "interpretazione",
+          "Interpretation",
+          "Aufmerksamkeit",
+          "begründen"
         ]
       }
     ]
@@ -19475,92 +19490,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Erzählung und Identität · Hörverstehen»?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Erzählung und Identität vergleichen zwei Personen ihre _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Erzählung und Identität vergleichen zwei Personen ihre Standpunkte."
+                "text": "Standpunkte"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass memoria nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Personen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: voce kann die Perspektive der Zuhörenden verändern."
+                "text": "isoliert"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "konkrete"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In dieser Sendung über Erzählung und Identität vergleichen zwei…» in «Erzählung und Identität · Hörverstehen»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass memoria nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Erzählung und Identität vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass memoria nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "andere"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: voce kann die Perspektive der Zuhörenden verändern."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "überprüfbaren"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Erzählung und Identität · Hörverstehen»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: voce kann die _____ der Zuhörenden verändern.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Erzählung und Identität vergleichen zwei Personen ihre Standpunkte."
+                "text": "Personen"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass memoria nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "isoliert"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: voce kann die Perspektive der Zuhörenden verändern."
+                "text": "Perspektive"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "konkrete"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Erzählung und Identität · Hörverstehen»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Erzählung und Identität vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass memoria nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: voce kann die Perspektive der Zuhörenden verändern."
+                "text": "überprüfbaren"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "begründen"
               }
             ]
           }
@@ -19580,42 +19595,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Erzählung und Identität · Hörverstehen»?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Erzählung und Identität vergleichen zwei Personen ihre _____.”",
         "options": [
-          "In dieser Sendung über Erzählung und Identität vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass memoria nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: voce kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Standpunkte",
+          "Personen",
+          "isoliert",
+          "konkrete"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In dieser Sendung über Erzählung und Identität vergleichen zwei…» in «Erzählung und Identität · Hörverstehen»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass memoria nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
         "options": [
-          "In dieser Sendung über Erzählung und Identität vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass memoria nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: voce kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "andere",
+          "Entscheidungen",
+          "überprüfbaren"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Erzählung und Identität · Hörverstehen»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: voce kann die _____ der Zuhörenden verändern.”",
         "options": [
-          "In dieser Sendung über Erzählung und Identität vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass memoria nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: voce kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Personen",
+          "isoliert",
+          "Perspektive",
+          "konkrete"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Erzählung und Identität · Hörverstehen»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
         "options": [
-          "In dieser Sendung über Erzählung und Identität vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass memoria nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: voce kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "Entscheidungen",
+          "überprüfbaren",
+          "begründen"
         ]
       }
     ]
@@ -21952,60 +21967,64 @@
     "dialogue": [],
     "reading": {
       "title": "In der Stadt",
-      "text": "Marta ist an die Straßen der Stadt. Dort trifft Marta den Nachbarn David und sagt freundlich Hallo. Marta möchte einen Weg finden, deshalb hört sie gut zu und benutzt einfache Wörter. den Nachbarn David antwortet langsam und zeigt, was helfen kann.\n\nDanach sprechen beide über eine kleine Situation aus dem Alltag. Marta stellt eine Frage, bekommt eine Antwort und sagt Danke. Bevor sie gehen, wiederholen sie die wichtigsten Wörter. So wird das nächste Gespräch leichter.",
+      "text": "Heute ist Anna in Berlin. Sie trifft Leon in ihrem Viertel und begrüßt ihn freundlich. Beide sprechen langsam und hören gut zu. Anna möchte Deutsch in einer echten Situation benutzen. Deshalb sagt sie einen einfachen Satz, und Leon antwortet ihr mit einem Lächeln.\n\nIm Gespräch benutzen sie wichtige Wörter aus der Lektion: Straße, Bahnhof, Apotheke, Schule, links. Leon stellt eine einfache Frage, und Anna antwortet in Ruhe. Wenn sie ein Wort nicht versteht, fragt sie: „Kannst du das bitte wiederholen?\" Danach wiederholen beide die wichtigsten Wörter und finden zu jedem Wort ein kleines Beispiel.\n\nBevor Anna nach Hause geht, bedankt sie sich bei Leon. Sie sagt, dass Zuhören, Sprechen und Wiederholen ihr mehr Sicherheit geben. Leon stimmt zu und schlägt ein neues Treffen für morgen vor. Anna geht zufrieden nach Hause und schreibt die neuen Wörter des Tages in ihr Heft.",
       "questions": [
-        "Worum geht es im Text?",
-        "Was macht die Hauptperson zuerst?",
-        "Welche Rolle hat die zweite Person?",
-        "Warum arbeitet die Gruppe zusammen?",
-        "Was ist das gemeinsame Ziel?"
+        "Wo ist Anna?",
+        "Mit wem spricht Anna?",
+        "Was fragt Anna, wenn sie ein Wort nicht versteht?",
+        "Warum wiederholt Anna die Wörter?"
       ],
       "parts": [
-        "Marta ist an die Straßen der Stadt. Dort trifft Marta den Nachbarn David und sagt freundlich Hallo. Marta möchte einen Weg finden, deshalb hört sie gut zu und benutzt einfache Wörter. den Nachbarn David antwortet langsam und zeigt, was helfen kann.",
-        "Danach sprechen beide über eine kleine Situation aus dem Alltag. Marta stellt eine Frage, bekommt eine Antwort und sagt Danke. Bevor sie gehen, wiederholen sie die wichtigsten Wörter. So wird das nächste Gespräch leichter."
+        "Heute ist Anna in Berlin. Sie trifft Leon in ihrem Viertel und begrüßt ihn freundlich. Beide sprechen langsam und hören gut zu. Anna möchte Deutsch in einer echten Situation benutzen. Deshalb sagt sie einen einfachen Satz, und Leon antwortet ihr mit einem Lächeln.",
+        "Im Gespräch benutzen sie wichtige Wörter aus der Lektion: Straße, Bahnhof, Apotheke, Schule, links. Leon stellt eine einfache Frage, und Anna antwortet in Ruhe. Wenn sie ein Wort nicht versteht, fragt sie: „Kannst du das bitte wiederholen?\" Danach wiederholen beide die wichtigsten Wörter und finden zu jedem Wort ein kleines Beispiel.",
+        "Bevor Anna nach Hause geht, bedankt sie sich bei Leon. Sie sagt, dass Zuhören, Sprechen und Wiederholen ihr mehr Sicherheit geben. Leon stimmt zu und schlägt ein neues Treffen für morgen vor. Anna geht zufrieden nach Hause und schreibt die neuen Wörter des Tages in ihr Heft."
       ]
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
+        "id": "german-a1-in-der-stadt-reading-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Worüber spricht die Gruppe?",
+        "prompt": "Wo ist Anna?",
         "options": [
-          "Straße",
-          "nahe",
-          "Bus",
-          "Karte"
+          "Berlin",
+          "Hamburg",
+          "München",
+          "Köln"
         ]
       },
       {
+        "id": "german-a1-in-der-stadt-reading-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Was macht jede Person?",
+        "prompt": "Mit wem spricht Anna?",
         "options": [
-          "Erzählt von einer Erfahrung, hört zu und schlägt eine Lösung vor.",
-          "Kauft eine Eintrittskarte für eine Veranstaltung.",
-          "Hört den anderen Personen nicht zu.",
-          "Sagt das Projekt ab."
+          "Leon",
+          "Paul",
+          "Mia",
+          "Lukas"
         ]
       },
       {
+        "id": "german-a1-in-der-stadt-reading-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Warum arbeiten sie zusammen?",
+        "prompt": "Was fragt Anna, wenn sie ein Wort nicht versteht?",
         "options": [
-          "Weil sie ein klares Ziel haben.",
-          "Weil sie keine Zeit haben.",
-          "Weil sie das Thema nicht kennen.",
-          "Weil sie lieber allein arbeiten."
+          "Kannst du das bitte wiederholen?",
+          "Wo ist mein Zug?",
+          "Wie viel kostet das?",
+          "Wann beginnt die Schule?"
         ]
       },
       {
+        "id": "german-a1-in-der-stadt-reading-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Welche Idee hilft im Alltag?",
+        "prompt": "Warum wiederholt Anna die Wörter?",
         "options": [
-          "Eine konkrete Lösung, die gemeinsam umgesetzt wird.",
-          "Eine Liste ohne Zusammenhang.",
-          "Eine Diskussion ohne Ziel.",
-          "Eine Entscheidung von nur einer Person."
+          "Damit sie mehr Sicherheit hat",
+          "Damit sie nicht sprechen muss",
+          "Damit sie ein Ticket kauft",
+          "Damit sie Leon vermeidet"
         ]
       }
     ]
@@ -22146,12 +22165,12 @@
       {
         "id": "german-a2-reisen-und-erlebnisse-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Reisen und Erlebnisse“?",
+        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ fand die Erfahrung hilfreich, weil sie neue Wörter gelernt und mehr Mut bekommen hatte.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Reisen und Erlebnisse darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Sofia",
+          "Woche",
+          "Stadt",
+          "hatte"
         ]
       }
     ]
@@ -22293,12 +22312,12 @@
       {
         "id": "german-b1-umwelt-im-viertel-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Umwelt im Viertel“?",
+        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ möchte die Situation verantwortungsvoll verbessern und aus der Erfahrung lernen.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Umwelt im Viertel darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Sie",
+          "Für",
+          "Hof",
+          "vor"
         ]
       }
     ]
@@ -22392,34 +22411,34 @@
       {
         "id": "german-b2-b2-medien-und-information-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Medien und Information · Lesen“?",
+        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Medien und Information · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "notizia",
+          "einzige",
+          "Antwort",
+          "sondern"
         ]
       },
       {
         "id": "german-b2-b2-medien-und-information-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Welche Aussage fasst „Medien und Information · Lesen“ am besten zusammen?",
+        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Medien und Information · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Jede",
+          "soll",
+          "klar",
+          "Ende"
         ]
       },
       {
         "id": "german-b2-b2-medien-und-information-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Medien und Information · Lesen“?",
+        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Medien und Information · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Der",
+          "und",
+          "die",
+          "ein"
         ]
       }
     ]
@@ -22513,34 +22532,34 @@
       {
         "id": "german-c1-c1-forschung-und-methode-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Forschung und Methode · Lesen“?",
+        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Forschung und Methode · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Methode",
+          "ipotesi",
+          "Antwort",
+          "einzige"
         ]
       },
       {
         "id": "german-c1-c1-forschung-und-methode-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Welche Aussage fasst „Forschung und Methode · Lesen“ am besten zusammen?",
+        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Forschung und Methode · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Jede",
+          "soll",
+          "klar",
+          "Ende"
         ]
       },
       {
         "id": "german-c1-c1-forschung-und-methode-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Forschung und Methode · Lesen“?",
+        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Forschung und Methode · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Der",
+          "und",
+          "die",
+          "ein"
         ]
       }
     ]
@@ -22634,34 +22653,34 @@
       {
         "id": "german-c2-c2-recht-und-verantwortung-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Recht und Verantwortung · Lesen“?",
+        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Recht und Verantwortung · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "diritto",
+          "einzige",
+          "Antwort",
+          "sondern"
         ]
       },
       {
         "id": "german-c2-c2-recht-und-verantwortung-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Welche Aussage fasst „Recht und Verantwortung · Lesen“ am besten zusammen?",
+        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Recht und Verantwortung · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Jede",
+          "soll",
+          "klar",
+          "Ende"
         ]
       },
       {
         "id": "german-c2-c2-recht-und-verantwortung-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Recht und Verantwortung · Lesen“?",
+        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Recht und Verantwortung · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Der",
+          "und",
+          "die",
+          "ein"
         ]
       }
     ]
@@ -23542,92 +23561,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «In der Stadt: Wortschatz», which detail establishes the situation?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „In der Stadt“ spricht eine kleine Gruppe aus der Gemeinschaft über Straße, Bahnhof und _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „In der Stadt“ spricht eine kleine Gruppe aus der Gemeinschaft über Straße, Bahnhof und Apotheke."
+                "text": "Apotheke"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Thema"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «Im Thema „In der Stadt“ spricht eine kleine Gruppe aus der…», what happens next in «In der Stadt: Wortschatz»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „In der Stadt“ spricht eine kleine Gruppe aus der Gemeinschaft über Straße, Bahnhof und Apotheke."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Person"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "entscheiden"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «In der Stadt: Wortschatz»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „In der Stadt“ spricht eine kleine Gruppe aus der Gemeinschaft über Straße, Bahnhof und Apotheke."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "klares"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "entscheiden"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «In der Stadt: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „In der Stadt“ spricht eine kleine Gruppe aus der Gemeinschaft über Straße, Bahnhof und Apotheke."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "entscheiden"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Danach"
               }
             ]
           }
@@ -23638,42 +23657,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «In der Stadt: Wortschatz», which detail establishes the situation?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „In der Stadt“ spricht eine kleine Gruppe aus der Gemeinschaft über Straße, Bahnhof und _____.”",
         "options": [
-          "Im Thema „In der Stadt“ spricht eine kleine Gruppe aus der Gemeinschaft über Straße, Bahnhof und Apotheke.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Apotheke",
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "Thema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «Im Thema „In der Stadt“ spricht eine kleine Gruppe aus der…», what happens next in «In der Stadt: Wortschatz»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
         "options": [
-          "Im Thema „In der Stadt“ spricht eine kleine Gruppe aus der Gemeinschaft über Straße, Bahnhof und Apotheke.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Person",
+          "Gemeinschaft",
+          "entscheiden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «In der Stadt: Wortschatz»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
         "options": [
-          "Im Thema „In der Stadt“ spricht eine kleine Gruppe aus der Gemeinschaft über Straße, Bahnhof und Apotheke.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "klares",
+          "entscheiden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «In der Stadt: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
         "options": [
-          "Im Thema „In der Stadt“ spricht eine kleine Gruppe aus der Gemeinschaft über Straße, Bahnhof und Apotheke.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "entscheiden",
+          "Danach"
         ]
       }
     ]
@@ -23762,92 +23781,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «Reisen und Erlebnisse: Wortschatz», which detail establishes the situation?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „Reisen und Erlebnisse“ spricht eine kleine Gruppe aus der Gemeinschaft über Reise, erlebt und _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Reisen und Erlebnisse“ spricht eine kleine Gruppe aus der Gemeinschaft über Reise, erlebt und besucht."
+                "text": "besucht"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "entscheiden"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «Im Thema „Reisen und Erlebnisse“ spricht eine kleine Gruppe aus der…», what happens next in «Reisen und Erlebnisse: Wortschatz»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Reisen und Erlebnisse“ spricht eine kleine Gruppe aus der Gemeinschaft über Reise, erlebt und besucht."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Person"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "entscheiden"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «Reisen und Erlebnisse: Wortschatz»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Reisen und Erlebnisse“ spricht eine kleine Gruppe aus der Gemeinschaft über Reise, erlebt und besucht."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "klares"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "entscheiden"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «Reisen und Erlebnisse: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Reisen und Erlebnisse“ spricht eine kleine Gruppe aus der Gemeinschaft über Reise, erlebt und besucht."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "entscheiden"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Danach"
               }
             ]
           }
@@ -23858,42 +23877,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «Reisen und Erlebnisse: Wortschatz», which detail establishes the situation?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „Reisen und Erlebnisse“ spricht eine kleine Gruppe aus der Gemeinschaft über Reise, erlebt und _____.”",
         "options": [
-          "Im Thema „Reisen und Erlebnisse“ spricht eine kleine Gruppe aus der Gemeinschaft über Reise, erlebt und besucht.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "besucht",
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "entscheiden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «Im Thema „Reisen und Erlebnisse“ spricht eine kleine Gruppe aus der…», what happens next in «Reisen und Erlebnisse: Wortschatz»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
         "options": [
-          "Im Thema „Reisen und Erlebnisse“ spricht eine kleine Gruppe aus der Gemeinschaft über Reise, erlebt und besucht.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Person",
+          "Gemeinschaft",
+          "entscheiden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «Reisen und Erlebnisse: Wortschatz»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
         "options": [
-          "Im Thema „Reisen und Erlebnisse“ spricht eine kleine Gruppe aus der Gemeinschaft über Reise, erlebt und besucht.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "klares",
+          "entscheiden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «Reisen und Erlebnisse: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
         "options": [
-          "Im Thema „Reisen und Erlebnisse“ spricht eine kleine Gruppe aus der Gemeinschaft über Reise, erlebt und besucht.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "entscheiden",
+          "Danach"
         ]
       }
     ]
@@ -23982,92 +24001,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Umwelt im Viertel: Wortschatz»?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „Umwelt im Viertel“ spricht eine kleine Gruppe aus der Gemeinschaft über Abfall, Sammlung und _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Umwelt im Viertel“ spricht eine kleine Gruppe aus der Gemeinschaft über Abfall, Sammlung und Ressource."
+                "text": "Ressource"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Umwelt"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "kleine"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «Im Thema „Umwelt im Viertel“ spricht eine kleine Gruppe aus der…» in «Umwelt im Viertel: Wortschatz»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Umwelt im Viertel“ spricht eine kleine Gruppe aus der Gemeinschaft über Abfall, Sammlung und Ressource."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Person"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "entscheiden"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Umwelt im Viertel: Wortschatz»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Umwelt im Viertel“ spricht eine kleine Gruppe aus der Gemeinschaft über Abfall, Sammlung und Ressource."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "klares"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "entscheiden"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Umwelt im Viertel: Wortschatz»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Umwelt im Viertel“ spricht eine kleine Gruppe aus der Gemeinschaft über Abfall, Sammlung und Ressource."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "entscheiden"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Danach"
               }
             ]
           }
@@ -24078,42 +24097,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Umwelt im Viertel: Wortschatz»?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „Umwelt im Viertel“ spricht eine kleine Gruppe aus der Gemeinschaft über Abfall, Sammlung und _____.”",
         "options": [
-          "Im Thema „Umwelt im Viertel“ spricht eine kleine Gruppe aus der Gemeinschaft über Abfall, Sammlung und Ressource.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Ressource",
+          "Zusammenarbeit",
+          "Umwelt",
+          "kleine"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «Im Thema „Umwelt im Viertel“ spricht eine kleine Gruppe aus der…» in «Umwelt im Viertel: Wortschatz»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
         "options": [
-          "Im Thema „Umwelt im Viertel“ spricht eine kleine Gruppe aus der Gemeinschaft über Abfall, Sammlung und Ressource.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Person",
+          "Gemeinschaft",
+          "entscheiden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Umwelt im Viertel: Wortschatz»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
         "options": [
-          "Im Thema „Umwelt im Viertel“ spricht eine kleine Gruppe aus der Gemeinschaft über Abfall, Sammlung und Ressource.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "klares",
+          "entscheiden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Umwelt im Viertel: Wortschatz»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
         "options": [
-          "Im Thema „Umwelt im Viertel“ spricht eine kleine Gruppe aus der Gemeinschaft über Abfall, Sammlung und Ressource.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "entscheiden",
+          "Danach"
         ]
       }
     ]
@@ -24408,92 +24427,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Medien und Information · Hörverstehen»?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Medien und Information vergleichen zwei Personen ihre _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Medien und Information vergleichen zwei Personen ihre Standpunkte."
+                "text": "Standpunkte"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass notizia nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Personen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: verificare kann die Perspektive der Zuhörenden verändern."
+                "text": "isoliert"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "konkrete"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In dieser Sendung über Medien und Information vergleichen zwei…» in «Medien und Information · Hörverstehen»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass notizia nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Medien und Information vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass notizia nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "andere"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: verificare kann die Perspektive der Zuhörenden verändern."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "überprüfbaren"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Medien und Information · Hörverstehen»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: _____ kann die Perspektive der Zuhörenden verändern.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Medien und Information vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass notizia nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: verificare kann die Perspektive der Zuhörenden verändern."
+                "text": "verificare"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "Sendung"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Medien und Information · Hörverstehen»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Medien und Information vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass notizia nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: verificare kann die Perspektive der Zuhörenden verändern."
+                "text": "überprüfbaren"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "begründen"
               }
             ]
           }
@@ -24513,42 +24532,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Medien und Information · Hörverstehen»?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Medien und Information vergleichen zwei Personen ihre _____.”",
         "options": [
-          "In dieser Sendung über Medien und Information vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass notizia nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: verificare kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Standpunkte",
+          "Personen",
+          "isoliert",
+          "konkrete"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In dieser Sendung über Medien und Information vergleichen zwei…» in «Medien und Information · Hörverstehen»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass notizia nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
         "options": [
-          "In dieser Sendung über Medien und Information vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass notizia nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: verificare kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "andere",
+          "Entscheidungen",
+          "überprüfbaren"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Medien und Information · Hörverstehen»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: _____ kann die Perspektive der Zuhörenden verändern.”",
         "options": [
-          "In dieser Sendung über Medien und Information vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass notizia nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: verificare kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "Entscheidungen",
+          "verificare",
+          "Sendung"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Medien und Information · Hörverstehen»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
         "options": [
-          "In dieser Sendung über Medien und Information vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass notizia nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: verificare kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "Entscheidungen",
+          "überprüfbaren",
+          "begründen"
         ]
       }
     ]
@@ -24615,92 +24634,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Forschung und Methode · Hörverstehen»?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Forschung und Methode vergleichen zwei Personen ihre _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Forschung und Methode vergleichen zwei Personen ihre Standpunkte."
+                "text": "Standpunkte"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass campione nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Personen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: risultato kann die Perspektive der Zuhörenden verändern."
+                "text": "isoliert"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "konkrete"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In dieser Sendung über Forschung und Methode vergleichen zwei Personen…» in «Forschung und Methode · Hörverstehen»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass campione nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Forschung und Methode vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass campione nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "andere"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: risultato kann die Perspektive der Zuhörenden verändern."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "überprüfbaren"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Forschung und Methode · Hörverstehen»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: _____ kann die Perspektive der Zuhörenden verändern.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Forschung und Methode vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass campione nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: risultato kann die Perspektive der Zuhörenden verändern."
+                "text": "risultato"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "überprüfbaren"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Forschung und Methode · Hörverstehen»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Forschung und Methode vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass campione nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: risultato kann die Perspektive der Zuhörenden verändern."
+                "text": "überprüfbaren"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "begründen"
               }
             ]
           }
@@ -24720,42 +24739,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Forschung und Methode · Hörverstehen»?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Forschung und Methode vergleichen zwei Personen ihre _____.”",
         "options": [
-          "In dieser Sendung über Forschung und Methode vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass campione nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: risultato kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Standpunkte",
+          "Personen",
+          "isoliert",
+          "konkrete"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In dieser Sendung über Forschung und Methode vergleichen zwei Personen…» in «Forschung und Methode · Hörverstehen»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass campione nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
         "options": [
-          "In dieser Sendung über Forschung und Methode vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass campione nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: risultato kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "andere",
+          "Entscheidungen",
+          "überprüfbaren"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Forschung und Methode · Hörverstehen»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: _____ kann die Perspektive der Zuhörenden verändern.”",
         "options": [
-          "In dieser Sendung über Forschung und Methode vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass campione nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: risultato kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "Entscheidungen",
+          "risultato",
+          "überprüfbaren"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Forschung und Methode · Hörverstehen»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
         "options": [
-          "In dieser Sendung über Forschung und Methode vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass campione nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: risultato kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "Entscheidungen",
+          "überprüfbaren",
+          "begründen"
         ]
       }
     ]
@@ -24822,92 +24841,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Recht und Verantwortung · Hörverstehen»?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Recht und Verantwortung vergleichen zwei Personen ihre _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Recht und Verantwortung vergleichen zwei Personen ihre Standpunkte."
+                "text": "Standpunkte"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass dovere nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Personen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: principio kann die Perspektive der Zuhörenden verändern."
+                "text": "isoliert"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "konkrete"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In dieser Sendung über Recht und Verantwortung vergleichen zwei…» in «Recht und Verantwortung · Hörverstehen»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass dovere nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Recht und Verantwortung vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass dovere nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "andere"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: principio kann die Perspektive der Zuhörenden verändern."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "Verantwortung"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Recht und Verantwortung · Hörverstehen»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: _____ kann die Perspektive der Zuhörenden verändern.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Recht und Verantwortung vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass dovere nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: principio kann die Perspektive der Zuhörenden verändern."
+                "text": "principio"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "Verantwortung"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Recht und Verantwortung · Hörverstehen»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Recht und Verantwortung vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass dovere nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: principio kann die Perspektive der Zuhörenden verändern."
+                "text": "Verantwortung"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "begründen"
               }
             ]
           }
@@ -24927,42 +24946,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Recht und Verantwortung · Hörverstehen»?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Recht und Verantwortung vergleichen zwei Personen ihre _____.”",
         "options": [
-          "In dieser Sendung über Recht und Verantwortung vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass dovere nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: principio kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Standpunkte",
+          "Personen",
+          "isoliert",
+          "konkrete"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In dieser Sendung über Recht und Verantwortung vergleichen zwei…» in «Recht und Verantwortung · Hörverstehen»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass dovere nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
         "options": [
-          "In dieser Sendung über Recht und Verantwortung vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass dovere nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: principio kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "andere",
+          "Entscheidungen",
+          "Verantwortung"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Recht und Verantwortung · Hörverstehen»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: _____ kann die Perspektive der Zuhörenden verändern.”",
         "options": [
-          "In dieser Sendung über Recht und Verantwortung vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass dovere nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: principio kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "Entscheidungen",
+          "principio",
+          "Verantwortung"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Recht und Verantwortung · Hörverstehen»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
         "options": [
-          "In dieser Sendung über Recht und Verantwortung vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass dovere nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: principio kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "Entscheidungen",
+          "Verantwortung",
+          "begründen"
         ]
       }
     ]
@@ -27299,60 +27318,64 @@
     "dialogue": [],
     "reading": {
       "title": "Schule und Freunde",
-      "text": "Sara ist an die Schulbibliothek. Dort trifft Sara ihre Freundin Nina und sagt freundlich Hallo. Sara möchte mit Freunden lernen, deshalb hört sie gut zu und benutzt einfache Wörter. ihre Freundin Nina antwortet langsam und zeigt, was helfen kann.\n\nDanach sprechen beide über eine kleine Situation aus dem Alltag. Sara stellt eine Frage, bekommt eine Antwort und sagt Danke. Bevor sie gehen, wiederholen sie die wichtigsten Wörter. So wird das nächste Gespräch leichter.",
+      "text": "Heute ist Anna in Berlin. Sie trifft Leon in ihrem Viertel und begrüßt ihn freundlich. Beide sprechen langsam und hören gut zu. Anna möchte Deutsch in einer echten Situation benutzen. Deshalb sagt sie einen einfachen Satz, und Leon antwortet ihr mit einem Lächeln.\n\nIm Gespräch benutzen sie wichtige Wörter aus der Lektion: Schule, Klasse, Lehrer, Freund, lernen. Leon stellt eine einfache Frage, und Anna antwortet in Ruhe. Wenn sie ein Wort nicht versteht, fragt sie: „Kannst du das bitte wiederholen?\" Danach wiederholen beide die wichtigsten Wörter und finden zu jedem Wort ein kleines Beispiel.\n\nBevor Anna nach Hause geht, bedankt sie sich bei Leon. Sie sagt, dass Zuhören, Sprechen und Wiederholen ihr mehr Sicherheit geben. Leon stimmt zu und schlägt ein neues Treffen für morgen vor. Anna geht zufrieden nach Hause und schreibt die neuen Wörter des Tages in ihr Heft.",
       "questions": [
-        "Worum geht es im Text?",
-        "Was macht die Hauptperson zuerst?",
-        "Welche Rolle hat die zweite Person?",
-        "Warum arbeitet die Gruppe zusammen?",
-        "Was ist das gemeinsame Ziel?"
+        "Wo ist Anna?",
+        "Mit wem spricht Anna?",
+        "Was fragt Anna, wenn sie ein Wort nicht versteht?",
+        "Warum wiederholt Anna die Wörter?"
       ],
       "parts": [
-        "Sara ist an die Schulbibliothek. Dort trifft Sara ihre Freundin Nina und sagt freundlich Hallo. Sara möchte mit Freunden lernen, deshalb hört sie gut zu und benutzt einfache Wörter. ihre Freundin Nina antwortet langsam und zeigt, was helfen kann.",
-        "Danach sprechen beide über eine kleine Situation aus dem Alltag. Sara stellt eine Frage, bekommt eine Antwort und sagt Danke. Bevor sie gehen, wiederholen sie die wichtigsten Wörter. So wird das nächste Gespräch leichter."
+        "Heute ist Anna in Berlin. Sie trifft Leon in ihrem Viertel und begrüßt ihn freundlich. Beide sprechen langsam und hören gut zu. Anna möchte Deutsch in einer echten Situation benutzen. Deshalb sagt sie einen einfachen Satz, und Leon antwortet ihr mit einem Lächeln.",
+        "Im Gespräch benutzen sie wichtige Wörter aus der Lektion: Schule, Klasse, Lehrer, Freund, lernen. Leon stellt eine einfache Frage, und Anna antwortet in Ruhe. Wenn sie ein Wort nicht versteht, fragt sie: „Kannst du das bitte wiederholen?\" Danach wiederholen beide die wichtigsten Wörter und finden zu jedem Wort ein kleines Beispiel.",
+        "Bevor Anna nach Hause geht, bedankt sie sich bei Leon. Sie sagt, dass Zuhören, Sprechen und Wiederholen ihr mehr Sicherheit geben. Leon stimmt zu und schlägt ein neues Treffen für morgen vor. Anna geht zufrieden nach Hause und schreibt die neuen Wörter des Tages in ihr Heft."
       ]
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
+        "id": "german-a1-schule-und-freunde-reading-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Worüber spricht die Gruppe?",
+        "prompt": "Wo ist Anna?",
         "options": [
-          "Schule",
-          "heute",
-          "morgen",
-          "zusammen"
+          "Berlin",
+          "Hamburg",
+          "München",
+          "Köln"
         ]
       },
       {
+        "id": "german-a1-schule-und-freunde-reading-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Was macht jede Person?",
+        "prompt": "Mit wem spricht Anna?",
         "options": [
-          "Erzählt von einer Erfahrung, hört zu und schlägt eine Lösung vor.",
-          "Kauft eine Eintrittskarte für eine Veranstaltung.",
-          "Hört den anderen Personen nicht zu.",
-          "Sagt das Projekt ab."
+          "Leon",
+          "Paul",
+          "Mia",
+          "Lukas"
         ]
       },
       {
+        "id": "german-a1-schule-und-freunde-reading-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Warum arbeiten sie zusammen?",
+        "prompt": "Was fragt Anna, wenn sie ein Wort nicht versteht?",
         "options": [
-          "Weil sie ein klares Ziel haben.",
-          "Weil sie keine Zeit haben.",
-          "Weil sie das Thema nicht kennen.",
-          "Weil sie lieber allein arbeiten."
+          "Kannst du das bitte wiederholen?",
+          "Wo ist mein Zug?",
+          "Wie viel kostet das?",
+          "Wann beginnt die Schule?"
         ]
       },
       {
+        "id": "german-a1-schule-und-freunde-reading-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Welche Idee hilft im Alltag?",
+        "prompt": "Warum wiederholt Anna die Wörter?",
         "options": [
-          "Eine konkrete Lösung, die gemeinsam umgesetzt wird.",
-          "Eine Liste ohne Zusammenhang.",
-          "Eine Diskussion ohne Ziel.",
-          "Eine Entscheidung von nur einer Person."
+          "Damit sie mehr Sicherheit hat",
+          "Damit sie nicht sprechen muss",
+          "Damit sie ein Ticket kauft",
+          "Damit sie Leon vermeidet"
         ]
       }
     ]
@@ -27493,12 +27516,12 @@
       {
         "id": "german-a2-essen-und-kultur-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Essen und Kultur“?",
+        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ fand die Erfahrung hilfreich, weil sie neue Wörter gelernt und mehr Mut bekommen hatte.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Essen und Kultur darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Marta",
+          "Woche",
+          "ihren",
+          "Onkel"
         ]
       }
     ]
@@ -27640,12 +27663,12 @@
       {
         "id": "german-b1-geschichten-und-erinnerungen-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Geschichten und Erinnerungen“?",
+        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ möchte die Situation verantwortungsvoll verbessern und aus der Erfahrung lernen.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Geschichten und Erinnerungen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Sie",
+          "Für",
+          "und",
+          "ein"
         ]
       }
     ]
@@ -27739,34 +27762,34 @@
       {
         "id": "german-b2-b2-gesundheit-und-wohlbefinden-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Gesundheit und Wohlbefinden · Lesen“?",
+        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Gesundheit und Wohlbefinden · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "einzige",
+          "sondern",
+          "Antwort",
+          "Grenzen"
         ]
       },
       {
         "id": "german-b2-b2-gesundheit-und-wohlbefinden-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Welche Aussage fasst „Gesundheit und Wohlbefinden · Lesen“ am besten zusammen?",
+        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Gesundheit und Wohlbefinden · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Jede",
+          "soll",
+          "klar",
+          "Ende"
         ]
       },
       {
         "id": "german-b2-b2-gesundheit-und-wohlbefinden-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Gesundheit und Wohlbefinden · Lesen“?",
+        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Gesundheit und Wohlbefinden · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Der",
+          "und",
+          "die",
+          "ein"
         ]
       }
     ]
@@ -27860,34 +27883,34 @@
       {
         "id": "german-c1-c1-alltagsokonomie-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Alltagsökonomie · Lesen“?",
+        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Alltagsökonomie · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "einzige",
+          "sondern",
+          "Antwort",
+          "Grenzen"
         ]
       },
       {
         "id": "german-c1-c1-alltagsokonomie-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Welche Aussage fasst „Alltagsökonomie · Lesen“ am besten zusammen?",
+        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Alltagsökonomie · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Jede",
+          "soll",
+          "klar",
+          "Ende"
         ]
       },
       {
         "id": "german-c1-c1-alltagsokonomie-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Alltagsökonomie · Lesen“?",
+        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Alltagsökonomie · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Der",
+          "die",
+          "und",
+          "ein"
         ]
       }
     ]
@@ -27981,34 +28004,34 @@
       {
         "id": "german-c2-c2-okonomie-und-ungleichheit-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Ökonomie und Ungleichheit · Lesen“?",
+        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Ökonomie und Ungleichheit · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "reddito",
+          "einzige",
+          "Antwort",
+          "sondern"
         ]
       },
       {
         "id": "german-c2-c2-okonomie-und-ungleichheit-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Welche Aussage fasst „Ökonomie und Ungleichheit · Lesen“ am besten zusammen?",
+        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Ökonomie und Ungleichheit · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Jede",
+          "soll",
+          "klar",
+          "Ende"
         ]
       },
       {
         "id": "german-c2-c2-okonomie-und-ungleichheit-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Ökonomie und Ungleichheit · Lesen“?",
+        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Ökonomie und Ungleichheit · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Der",
+          "und",
+          "die",
+          "ein"
         ]
       }
     ]
@@ -28889,92 +28912,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «Schule und Freunde: Wortschatz», which detail establishes the situation?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „Schule und Freunde“ spricht eine kleine Gruppe aus der Gemeinschaft über Schule, Klasse und _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Schule und Freunde“ spricht eine kleine Gruppe aus der Gemeinschaft über Schule, Klasse und Lehrer."
+                "text": "Lehrer"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "entscheiden"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «Im Thema „Schule und Freunde“ spricht eine kleine Gruppe aus der…», what happens next in «Schule und Freunde: Wortschatz»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Schule und Freunde“ spricht eine kleine Gruppe aus der Gemeinschaft über Schule, Klasse und Lehrer."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Person"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "entscheiden"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «Schule und Freunde: Wortschatz»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Schule und Freunde“ spricht eine kleine Gruppe aus der Gemeinschaft über Schule, Klasse und Lehrer."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "klares"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "entscheiden"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «Schule und Freunde: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Schule und Freunde“ spricht eine kleine Gruppe aus der Gemeinschaft über Schule, Klasse und Lehrer."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "entscheiden"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Danach"
               }
             ]
           }
@@ -28985,42 +29008,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «Schule und Freunde: Wortschatz», which detail establishes the situation?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „Schule und Freunde“ spricht eine kleine Gruppe aus der Gemeinschaft über Schule, Klasse und _____.”",
         "options": [
-          "Im Thema „Schule und Freunde“ spricht eine kleine Gruppe aus der Gemeinschaft über Schule, Klasse und Lehrer.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Lehrer",
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "entscheiden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «Im Thema „Schule und Freunde“ spricht eine kleine Gruppe aus der…», what happens next in «Schule und Freunde: Wortschatz»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
         "options": [
-          "Im Thema „Schule und Freunde“ spricht eine kleine Gruppe aus der Gemeinschaft über Schule, Klasse und Lehrer.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Person",
+          "Gemeinschaft",
+          "entscheiden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «Schule und Freunde: Wortschatz»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
         "options": [
-          "Im Thema „Schule und Freunde“ spricht eine kleine Gruppe aus der Gemeinschaft über Schule, Klasse und Lehrer.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "klares",
+          "entscheiden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «Schule und Freunde: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
         "options": [
-          "Im Thema „Schule und Freunde“ spricht eine kleine Gruppe aus der Gemeinschaft über Schule, Klasse und Lehrer.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "entscheiden",
+          "Danach"
         ]
       }
     ]
@@ -29109,92 +29132,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «Essen und Kultur: Wortschatz», which detail establishes the situation?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „Essen und Kultur“ spricht eine kleine Gruppe aus der Gemeinschaft über Rezept, Zutaten und _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Essen und Kultur“ spricht eine kleine Gruppe aus der Gemeinschaft über Rezept, Zutaten und kochen."
+                "text": "kochen"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "entscheiden"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «Im Thema „Essen und Kultur“ spricht eine kleine Gruppe aus der…», what happens next in «Essen und Kultur: Wortschatz»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Essen und Kultur“ spricht eine kleine Gruppe aus der Gemeinschaft über Rezept, Zutaten und kochen."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Person"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "entscheiden"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «Essen und Kultur: Wortschatz»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Essen und Kultur“ spricht eine kleine Gruppe aus der Gemeinschaft über Rezept, Zutaten und kochen."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "klares"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "entscheiden"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «Essen und Kultur: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Essen und Kultur“ spricht eine kleine Gruppe aus der Gemeinschaft über Rezept, Zutaten und kochen."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "entscheiden"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Danach"
               }
             ]
           }
@@ -29205,42 +29228,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «Essen und Kultur: Wortschatz», which detail establishes the situation?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „Essen und Kultur“ spricht eine kleine Gruppe aus der Gemeinschaft über Rezept, Zutaten und _____.”",
         "options": [
-          "Im Thema „Essen und Kultur“ spricht eine kleine Gruppe aus der Gemeinschaft über Rezept, Zutaten und kochen.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "kochen",
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "entscheiden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «Im Thema „Essen und Kultur“ spricht eine kleine Gruppe aus der…», what happens next in «Essen und Kultur: Wortschatz»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
         "options": [
-          "Im Thema „Essen und Kultur“ spricht eine kleine Gruppe aus der Gemeinschaft über Rezept, Zutaten und kochen.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Person",
+          "Gemeinschaft",
+          "entscheiden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «Essen und Kultur: Wortschatz»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
         "options": [
-          "Im Thema „Essen und Kultur“ spricht eine kleine Gruppe aus der Gemeinschaft über Rezept, Zutaten und kochen.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "klares",
+          "entscheiden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «Essen und Kultur: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
         "options": [
-          "Im Thema „Essen und Kultur“ spricht eine kleine Gruppe aus der Gemeinschaft über Rezept, Zutaten und kochen.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "entscheiden",
+          "Danach"
         ]
       }
     ]
@@ -29329,92 +29352,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Geschichten und Erinnerungen: Wortschatz»?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „Geschichten und Erinnerungen“ spricht eine kleine Gruppe aus der Gemeinschaft über Erinnerung, Kindheit und _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Geschichten und Erinnerungen“ spricht eine kleine Gruppe aus der Gemeinschaft über Erinnerung, Kindheit und Veränderung."
+                "text": "Veränderung"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Kindheit"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "konkrete"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Zusammenarbeit"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «Im Thema „Geschichten und Erinnerungen“ spricht eine kleine Gruppe aus…» in «Geschichten und Erinnerungen: Wortschatz»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Geschichten und Erinnerungen“ spricht eine kleine Gruppe aus der Gemeinschaft über Erinnerung, Kindheit und Veränderung."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Person"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Erinnerungen"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Gemeinschaft"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Geschichten und Erinnerungen: Wortschatz»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Geschichten und Erinnerungen“ spricht eine kleine Gruppe aus der Gemeinschaft über Erinnerung, Kindheit und Veränderung."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Erinnerungen"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "klares"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Gemeinschaft"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Geschichten und Erinnerungen: Wortschatz»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Geschichten und Erinnerungen“ spricht eine kleine Gruppe aus der Gemeinschaft über Erinnerung, Kindheit und Veränderung."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Erinnerungen"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Danach"
               }
             ]
           }
@@ -29425,42 +29448,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Geschichten und Erinnerungen: Wortschatz»?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „Geschichten und Erinnerungen“ spricht eine kleine Gruppe aus der Gemeinschaft über Erinnerung, Kindheit und _____.”",
         "options": [
-          "Im Thema „Geschichten und Erinnerungen“ spricht eine kleine Gruppe aus der Gemeinschaft über Erinnerung, Kindheit und Veränderung.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Veränderung",
+          "Kindheit",
+          "konkrete",
+          "Zusammenarbeit"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «Im Thema „Geschichten und Erinnerungen“ spricht eine kleine Gruppe aus…» in «Geschichten und Erinnerungen: Wortschatz»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
         "options": [
-          "Im Thema „Geschichten und Erinnerungen“ spricht eine kleine Gruppe aus der Gemeinschaft über Erinnerung, Kindheit und Veränderung.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Person",
+          "Erinnerungen",
+          "Gemeinschaft"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Geschichten und Erinnerungen: Wortschatz»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
         "options": [
-          "Im Thema „Geschichten und Erinnerungen“ spricht eine kleine Gruppe aus der Gemeinschaft über Erinnerung, Kindheit und Veränderung.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Erinnerungen",
+          "klares",
+          "Gemeinschaft"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Geschichten und Erinnerungen: Wortschatz»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
         "options": [
-          "Im Thema „Geschichten und Erinnerungen“ spricht eine kleine Gruppe aus der Gemeinschaft über Erinnerung, Kindheit und Veränderung.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Erinnerungen",
+          "Gemeinschaft",
+          "Danach"
         ]
       }
     ]
@@ -29755,92 +29778,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Gesundheit und Wohlbefinden · Hörverstehen»?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Gesundheit und Wohlbefinden vergleichen zwei Personen ihre _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Gesundheit und Wohlbefinden vergleichen zwei Personen ihre Standpunkte."
+                "text": "Standpunkte"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass prevenzione nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Personen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: riposo kann die Perspektive der Zuhörenden verändern."
+                "text": "isoliert"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "konkrete"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In dieser Sendung über Gesundheit und Wohlbefinden vergleichen zwei…» in «Gesundheit und Wohlbefinden · Hörverstehen»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass prevenzione nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Gesundheit und Wohlbefinden vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass prevenzione nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "andere"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: riposo kann die Perspektive der Zuhörenden verändern."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "überprüfbaren"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Gesundheit und Wohlbefinden · Hörverstehen»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: _____ kann die Perspektive der Zuhörenden verändern.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Gesundheit und Wohlbefinden vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass prevenzione nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: riposo kann die Perspektive der Zuhörenden verändern."
+                "text": "riposo"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "überprüfbaren"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Gesundheit und Wohlbefinden · Hörverstehen»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Gesundheit und Wohlbefinden vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass prevenzione nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: riposo kann die Perspektive der Zuhörenden verändern."
+                "text": "überprüfbaren"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "begründen"
               }
             ]
           }
@@ -29860,42 +29883,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Gesundheit und Wohlbefinden · Hörverstehen»?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Gesundheit und Wohlbefinden vergleichen zwei Personen ihre _____.”",
         "options": [
-          "In dieser Sendung über Gesundheit und Wohlbefinden vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass prevenzione nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: riposo kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Standpunkte",
+          "Personen",
+          "isoliert",
+          "konkrete"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In dieser Sendung über Gesundheit und Wohlbefinden vergleichen zwei…» in «Gesundheit und Wohlbefinden · Hörverstehen»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass prevenzione nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
         "options": [
-          "In dieser Sendung über Gesundheit und Wohlbefinden vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass prevenzione nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: riposo kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "andere",
+          "Entscheidungen",
+          "überprüfbaren"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Gesundheit und Wohlbefinden · Hörverstehen»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: _____ kann die Perspektive der Zuhörenden verändern.”",
         "options": [
-          "In dieser Sendung über Gesundheit und Wohlbefinden vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass prevenzione nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: riposo kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "Entscheidungen",
+          "riposo",
+          "überprüfbaren"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Gesundheit und Wohlbefinden · Hörverstehen»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
         "options": [
-          "In dieser Sendung über Gesundheit und Wohlbefinden vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass prevenzione nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: riposo kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "Entscheidungen",
+          "überprüfbaren",
+          "begründen"
         ]
       }
     ]
@@ -29962,92 +29985,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Alltagsökonomie · Hörverstehen»?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Alltagsökonomie vergleichen zwei Personen ihre _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Alltagsökonomie vergleichen zwei Personen ihre Standpunkte."
+                "text": "Standpunkte"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass risparmio nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Alltagsökonomie"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: investimento kann die Perspektive der Zuhörenden verändern."
+                "text": "Personen"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "bilancio"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In dieser Sendung über Alltagsökonomie vergleichen zwei Personen ihre…» in «Alltagsökonomie · Hörverstehen»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass risparmio nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Alltagsökonomie vergleichen zwei Personen ihre Standpunkte."
+                "text": "Alltagsökonomie"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass risparmio nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "andere"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: investimento kann die Perspektive der Zuhörenden verändern."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "Entscheidungen"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Alltagsökonomie · Hörverstehen»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: _____ kann die Perspektive der Zuhörenden verändern.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Alltagsökonomie vergleichen zwei Personen ihre Standpunkte."
+                "text": "Alltagsökonomie"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass risparmio nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "risparmio"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: investimento kann die Perspektive der Zuhörenden verändern."
+                "text": "investimento"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "hilfreich"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Alltagsökonomie · Hörverstehen»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Alltagsökonomie vergleichen zwei Personen ihre Standpunkte."
+                "text": "Alltagsökonomie"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass risparmio nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: investimento kann die Perspektive der Zuhörenden verändern."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "begründen"
               }
             ]
           }
@@ -30067,42 +30090,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Alltagsökonomie · Hörverstehen»?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Alltagsökonomie vergleichen zwei Personen ihre _____.”",
         "options": [
-          "In dieser Sendung über Alltagsökonomie vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass risparmio nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: investimento kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Standpunkte",
+          "Alltagsökonomie",
+          "Personen",
+          "bilancio"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In dieser Sendung über Alltagsökonomie vergleichen zwei Personen ihre…» in «Alltagsökonomie · Hörverstehen»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass risparmio nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
         "options": [
-          "In dieser Sendung über Alltagsökonomie vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass risparmio nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: investimento kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Alltagsökonomie",
+          "andere",
+          "Aufmerksamkeit",
+          "Entscheidungen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Alltagsökonomie · Hörverstehen»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: _____ kann die Perspektive der Zuhörenden verändern.”",
         "options": [
-          "In dieser Sendung über Alltagsökonomie vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass risparmio nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: investimento kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Alltagsökonomie",
+          "risparmio",
+          "investimento",
+          "hilfreich"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Alltagsökonomie · Hörverstehen»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
         "options": [
-          "In dieser Sendung über Alltagsökonomie vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass risparmio nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: investimento kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Alltagsökonomie",
+          "Aufmerksamkeit",
+          "Entscheidungen",
+          "begründen"
         ]
       }
     ]
@@ -30169,92 +30192,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Ökonomie und Ungleichheit · Hörverstehen»?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Ökonomie und Ungleichheit vergleichen zwei Personen ihre _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Ökonomie und Ungleichheit vergleichen zwei Personen ihre Standpunkte."
+                "text": "Standpunkte"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass reddito nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Ökonomie"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: indicatore kann die Perspektive der Zuhörenden verändern."
+                "text": "Personen"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "disuguaglianza"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In dieser Sendung über Ökonomie und Ungleichheit vergleichen zwei…» in «Ökonomie und Ungleichheit · Hörverstehen»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass reddito nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Ökonomie und Ungleichheit vergleichen zwei Personen ihre Standpunkte."
+                "text": "disuguaglianza"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass reddito nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "andere"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: indicatore kann die Perspektive der Zuhörenden verändern."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "Entscheidungen"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Ökonomie und Ungleichheit · Hörverstehen»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: _____ kann die Perspektive der Zuhörenden verändern.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Ökonomie und Ungleichheit vergleichen zwei Personen ihre Standpunkte."
+                "text": "disuguaglianza"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass reddito nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: indicatore kann die Perspektive der Zuhörenden verändern."
+                "text": "indicatore"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "Entscheidungen"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Ökonomie und Ungleichheit · Hörverstehen»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Ökonomie und Ungleichheit vergleichen zwei Personen ihre Standpunkte."
+                "text": "disuguaglianza"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass reddito nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: indicatore kann die Perspektive der Zuhörenden verändern."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "begründen"
               }
             ]
           }
@@ -30274,42 +30297,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Ökonomie und Ungleichheit · Hörverstehen»?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Ökonomie und Ungleichheit vergleichen zwei Personen ihre _____.”",
         "options": [
-          "In dieser Sendung über Ökonomie und Ungleichheit vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass reddito nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: indicatore kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Standpunkte",
+          "Ökonomie",
+          "Personen",
+          "disuguaglianza"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In dieser Sendung über Ökonomie und Ungleichheit vergleichen zwei…» in «Ökonomie und Ungleichheit · Hörverstehen»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass reddito nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
         "options": [
-          "In dieser Sendung über Ökonomie und Ungleichheit vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass reddito nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: indicatore kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "disuguaglianza",
+          "andere",
+          "Aufmerksamkeit",
+          "Entscheidungen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Ökonomie und Ungleichheit · Hörverstehen»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: _____ kann die Perspektive der Zuhörenden verändern.”",
         "options": [
-          "In dieser Sendung über Ökonomie und Ungleichheit vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass reddito nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: indicatore kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "disuguaglianza",
+          "Aufmerksamkeit",
+          "indicatore",
+          "Entscheidungen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Ökonomie und Ungleichheit · Hörverstehen»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
         "options": [
-          "In dieser Sendung über Ökonomie und Ungleichheit vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass reddito nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: indicatore kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "disuguaglianza",
+          "Aufmerksamkeit",
+          "Entscheidungen",
+          "begründen"
         ]
       }
     ]
@@ -32646,60 +32669,64 @@
     "dialogue": [],
     "reading": {
       "title": "Zu Hause",
-      "text": "Paul ist an eine helle Wohnung. Dort trifft Paul seine Schwester Anna und sagt freundlich Hallo. Paul möchte die Wohnung beschreiben, deshalb hört sie gut zu und benutzt einfache Wörter. seine Schwester Anna antwortet langsam und zeigt, was helfen kann.\n\nDanach sprechen beide über eine kleine Situation aus dem Alltag. Paul stellt eine Frage, bekommt eine Antwort und sagt Danke. Bevor sie gehen, wiederholen sie die wichtigsten Wörter. So wird das nächste Gespräch leichter.",
+      "text": "Heute ist Anna in Berlin. Sie trifft Leon in ihrem Viertel und begrüßt ihn freundlich. Beide sprechen langsam und hören gut zu. Anna möchte Deutsch in einer echten Situation benutzen. Deshalb sagt sie einen einfachen Satz, und Leon antwortet ihr mit einem Lächeln.\n\nIm Gespräch benutzen sie wichtige Wörter aus der Lektion: aufstehen, frühstücken, arbeiten, kochen, schlafen. Leon stellt eine einfache Frage, und Anna antwortet in Ruhe. Wenn sie ein Wort nicht versteht, fragt sie: „Kannst du das bitte wiederholen?\" Danach wiederholen beide die wichtigsten Wörter und finden zu jedem Wort ein kleines Beispiel.\n\nBevor Anna nach Hause geht, bedankt sie sich bei Leon. Sie sagt, dass Zuhören, Sprechen und Wiederholen ihr mehr Sicherheit geben. Leon stimmt zu und schlägt ein neues Treffen für morgen vor. Anna geht zufrieden nach Hause und schreibt die neuen Wörter des Tages in ihr Heft.",
       "questions": [
-        "Worum geht es im Text?",
-        "Was macht die Hauptperson zuerst?",
-        "Welche Rolle hat die zweite Person?",
-        "Warum arbeitet die Gruppe zusammen?",
-        "Was ist das gemeinsame Ziel?"
+        "Wo ist Anna?",
+        "Mit wem spricht Anna?",
+        "Was fragt Anna, wenn sie ein Wort nicht versteht?",
+        "Warum wiederholt Anna die Wörter?"
       ],
       "parts": [
-        "Paul ist an eine helle Wohnung. Dort trifft Paul seine Schwester Anna und sagt freundlich Hallo. Paul möchte die Wohnung beschreiben, deshalb hört sie gut zu und benutzt einfache Wörter. seine Schwester Anna antwortet langsam und zeigt, was helfen kann.",
-        "Danach sprechen beide über eine kleine Situation aus dem Alltag. Paul stellt eine Frage, bekommt eine Antwort und sagt Danke. Bevor sie gehen, wiederholen sie die wichtigsten Wörter. So wird das nächste Gespräch leichter."
+        "Heute ist Anna in Berlin. Sie trifft Leon in ihrem Viertel und begrüßt ihn freundlich. Beide sprechen langsam und hören gut zu. Anna möchte Deutsch in einer echten Situation benutzen. Deshalb sagt sie einen einfachen Satz, und Leon antwortet ihr mit einem Lächeln.",
+        "Im Gespräch benutzen sie wichtige Wörter aus der Lektion: aufstehen, frühstücken, arbeiten, kochen, schlafen. Leon stellt eine einfache Frage, und Anna antwortet in Ruhe. Wenn sie ein Wort nicht versteht, fragt sie: „Kannst du das bitte wiederholen?\" Danach wiederholen beide die wichtigsten Wörter und finden zu jedem Wort ein kleines Beispiel.",
+        "Bevor Anna nach Hause geht, bedankt sie sich bei Leon. Sie sagt, dass Zuhören, Sprechen und Wiederholen ihr mehr Sicherheit geben. Leon stimmt zu und schlägt ein neues Treffen für morgen vor. Anna geht zufrieden nach Hause und schreibt die neuen Wörter des Tages in ihr Heft."
       ]
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
+        "id": "german-a1-zu-hause-reading-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Worüber spricht die Gruppe?",
+        "prompt": "Wo ist Anna?",
         "options": [
-          "aufstehen",
-          "abends",
-          "Haushalt",
-          "ruhig"
+          "Berlin",
+          "Hamburg",
+          "München",
+          "Köln"
         ]
       },
       {
+        "id": "german-a1-zu-hause-reading-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Was macht jede Person?",
+        "prompt": "Mit wem spricht Anna?",
         "options": [
-          "Erzählt von einer Erfahrung, hört zu und schlägt eine Lösung vor.",
-          "Kauft eine Eintrittskarte für eine Veranstaltung.",
-          "Hört den anderen Personen nicht zu.",
-          "Sagt das Projekt ab."
+          "Leon",
+          "Paul",
+          "Mia",
+          "Lukas"
         ]
       },
       {
+        "id": "german-a1-zu-hause-reading-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Warum arbeiten sie zusammen?",
+        "prompt": "Was fragt Anna, wenn sie ein Wort nicht versteht?",
         "options": [
-          "Weil sie ein klares Ziel haben.",
-          "Weil sie keine Zeit haben.",
-          "Weil sie das Thema nicht kennen.",
-          "Weil sie lieber allein arbeiten."
+          "Kannst du das bitte wiederholen?",
+          "Wo ist mein Zug?",
+          "Wie viel kostet das?",
+          "Wann beginnt die Schule?"
         ]
       },
       {
+        "id": "german-a1-zu-hause-reading-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Welche Idee hilft im Alltag?",
+        "prompt": "Warum wiederholt Anna die Wörter?",
         "options": [
-          "Eine konkrete Lösung, die gemeinsam umgesetzt wird.",
-          "Eine Liste ohne Zusammenhang.",
-          "Eine Diskussion ohne Ziel.",
-          "Eine Entscheidung von nur einer Person."
+          "Damit sie mehr Sicherheit hat",
+          "Damit sie nicht sprechen muss",
+          "Damit sie ein Ticket kauft",
+          "Damit sie Leon vermeidet"
         ]
       }
     ]
@@ -32840,12 +32867,12 @@
       {
         "id": "german-a2-natur-und-umwelt-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Natur und Umwelt“?",
+        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ fand die Erfahrung hilfreich, weil sie neue Wörter gelernt und mehr Mut bekommen hatte.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Natur und Umwelt darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Irene",
+          "Woche",
+          "hatte",
+          "Letzte"
         ]
       }
     ]
@@ -32987,12 +33014,12 @@
       {
         "id": "german-b1-gemeinschaftsprojekt-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Gemeinschaftsprojekt“?",
+        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ möchte die Situation verantwortungsvoll verbessern und aus der Erfahrung lernen.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Gemeinschaftsprojekt darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Sie",
+          "Für",
+          "die",
+          "vor"
         ]
       }
     ]
@@ -33086,34 +33113,34 @@
       {
         "id": "german-b2-b2-kultur-und-identitat-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Kultur und Identität · Lesen“?",
+        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Kultur und Identität · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "einzige",
+          "sondern",
+          "Antwort",
+          "Grenzen"
         ]
       },
       {
         "id": "german-b2-b2-kultur-und-identitat-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Welche Aussage fasst „Kultur und Identität · Lesen“ am besten zusammen?",
+        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Kultur und Identität · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Jede",
+          "soll",
+          "klar",
+          "Ende"
         ]
       },
       {
         "id": "german-b2-b2-kultur-und-identitat-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Kultur und Identität · Lesen“?",
+        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Kultur und Identität · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Der",
+          "und",
+          "die",
+          "ein"
         ]
       }
     ]
@@ -33207,34 +33234,34 @@
       {
         "id": "german-c1-c1-orte-und-erinnerung-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Orte und Erinnerung · Lesen“?",
+        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Orte und Erinnerung · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "memoria",
+          "einzige",
+          "Antwort",
+          "sondern"
         ]
       },
       {
         "id": "german-c1-c1-orte-und-erinnerung-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Welche Aussage fasst „Orte und Erinnerung · Lesen“ am besten zusammen?",
+        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Orte und Erinnerung · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Orte",
+          "Jede",
+          "soll",
+          "Ende"
         ]
       },
       {
         "id": "german-c1-c1-orte-und-erinnerung-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Orte und Erinnerung · Lesen“?",
+        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Orte und Erinnerung · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Der",
+          "und",
+          "die",
+          "ein"
         ]
       }
     ]
@@ -33328,34 +33355,34 @@
       {
         "id": "german-c2-c2-umwelt-und-zukunft-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Umwelt und Zukunft · Lesen“?",
+        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Umwelt und Zukunft · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Zukunft",
+          "risorsa",
+          "Antwort",
+          "einzige"
         ]
       },
       {
         "id": "german-c2-c2-umwelt-und-zukunft-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Welche Aussage fasst „Umwelt und Zukunft · Lesen“ am besten zusammen?",
+        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Umwelt und Zukunft · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Jede",
+          "soll",
+          "klar",
+          "Ende"
         ]
       },
       {
         "id": "german-c2-c2-umwelt-und-zukunft-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Umwelt und Zukunft · Lesen“?",
+        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Umwelt und Zukunft · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Der",
+          "und",
+          "die",
+          "ein"
         ]
       }
     ]
@@ -34236,92 +34263,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «Zu Hause: Wortschatz», which detail establishes the situation?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „Zu Hause“ spricht eine kleine Gruppe aus der Gemeinschaft über aufstehen, frühstücken und _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Zu Hause“ spricht eine kleine Gruppe aus der Gemeinschaft über aufstehen, frühstücken und arbeiten."
+                "text": "arbeiten"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Thema"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «Im Thema „Zu Hause“ spricht eine kleine Gruppe aus der Gemeinschaft…», what happens next in «Zu Hause: Wortschatz»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Zu Hause“ spricht eine kleine Gruppe aus der Gemeinschaft über aufstehen, frühstücken und arbeiten."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Person"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "frühstücken"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «Zu Hause: Wortschatz»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Zu Hause“ spricht eine kleine Gruppe aus der Gemeinschaft über aufstehen, frühstücken und arbeiten."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "klares"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "frühstücken"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «Zu Hause: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Zu Hause“ spricht eine kleine Gruppe aus der Gemeinschaft über aufstehen, frühstücken und arbeiten."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "frühstücken"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Danach"
               }
             ]
           }
@@ -34332,42 +34359,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «Zu Hause: Wortschatz», which detail establishes the situation?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „Zu Hause“ spricht eine kleine Gruppe aus der Gemeinschaft über aufstehen, frühstücken und _____.”",
         "options": [
-          "Im Thema „Zu Hause“ spricht eine kleine Gruppe aus der Gemeinschaft über aufstehen, frühstücken und arbeiten.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "arbeiten",
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "Thema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «Im Thema „Zu Hause“ spricht eine kleine Gruppe aus der Gemeinschaft…», what happens next in «Zu Hause: Wortschatz»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
         "options": [
-          "Im Thema „Zu Hause“ spricht eine kleine Gruppe aus der Gemeinschaft über aufstehen, frühstücken und arbeiten.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Person",
+          "Gemeinschaft",
+          "frühstücken"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «Zu Hause: Wortschatz»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
         "options": [
-          "Im Thema „Zu Hause“ spricht eine kleine Gruppe aus der Gemeinschaft über aufstehen, frühstücken und arbeiten.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "klares",
+          "frühstücken"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «Zu Hause: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
         "options": [
-          "Im Thema „Zu Hause“ spricht eine kleine Gruppe aus der Gemeinschaft über aufstehen, frühstücken und arbeiten.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "frühstücken",
+          "Danach"
         ]
       }
     ]
@@ -34456,92 +34483,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «Natur und Umwelt: Wortschatz», which detail establishes the situation?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „Natur und Umwelt“ spricht eine kleine Gruppe aus der Gemeinschaft über Umwelt, Müll und _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Natur und Umwelt“ spricht eine kleine Gruppe aus der Gemeinschaft über Umwelt, Müll und trennen."
+                "text": "trennen"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "entscheiden"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «Im Thema „Natur und Umwelt“ spricht eine kleine Gruppe aus der…», what happens next in «Natur und Umwelt: Wortschatz»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Natur und Umwelt“ spricht eine kleine Gruppe aus der Gemeinschaft über Umwelt, Müll und trennen."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Person"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "entscheiden"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «Natur und Umwelt: Wortschatz»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Natur und Umwelt“ spricht eine kleine Gruppe aus der Gemeinschaft über Umwelt, Müll und trennen."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "klares"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "entscheiden"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «Natur und Umwelt: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Natur und Umwelt“ spricht eine kleine Gruppe aus der Gemeinschaft über Umwelt, Müll und trennen."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "entscheiden"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Danach"
               }
             ]
           }
@@ -34552,42 +34579,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «Natur und Umwelt: Wortschatz», which detail establishes the situation?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „Natur und Umwelt“ spricht eine kleine Gruppe aus der Gemeinschaft über Umwelt, Müll und _____.”",
         "options": [
-          "Im Thema „Natur und Umwelt“ spricht eine kleine Gruppe aus der Gemeinschaft über Umwelt, Müll und trennen.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "trennen",
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "entscheiden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «Im Thema „Natur und Umwelt“ spricht eine kleine Gruppe aus der…», what happens next in «Natur und Umwelt: Wortschatz»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
         "options": [
-          "Im Thema „Natur und Umwelt“ spricht eine kleine Gruppe aus der Gemeinschaft über Umwelt, Müll und trennen.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Person",
+          "Gemeinschaft",
+          "entscheiden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «Natur und Umwelt: Wortschatz»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
         "options": [
-          "Im Thema „Natur und Umwelt“ spricht eine kleine Gruppe aus der Gemeinschaft über Umwelt, Müll und trennen.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "klares",
+          "entscheiden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «Natur und Umwelt: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
         "options": [
-          "Im Thema „Natur und Umwelt“ spricht eine kleine Gruppe aus der Gemeinschaft über Umwelt, Müll und trennen.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "entscheiden",
+          "Danach"
         ]
       }
     ]
@@ -34676,92 +34703,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Gemeinschaftsprojekt: Wortschatz»?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „Gemeinschaftsprojekt“ spricht eine kleine Gruppe aus der Gemeinschaft über Projekt, Recherche und _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Gemeinschaftsprojekt“ spricht eine kleine Gruppe aus der Gemeinschaft über Projekt, Recherche und Aufgabe."
+                "text": "Aufgabe"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Gemeinschaftsprojekt"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Gemeinschaft"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «Im Thema „Gemeinschaftsprojekt“ spricht eine kleine Gruppe aus der…» in «Gemeinschaftsprojekt: Wortschatz»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Gemeinschaftsprojekt“ spricht eine kleine Gruppe aus der Gemeinschaft über Projekt, Recherche und Aufgabe."
+                "text": "Gemeinschaftsprojekt"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Person"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Gemeinschaft"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Gemeinschaftsprojekt: Wortschatz»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Gemeinschaftsprojekt“ spricht eine kleine Gruppe aus der Gemeinschaft über Projekt, Recherche und Aufgabe."
+                "text": "Gemeinschaftsprojekt"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "klares"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Gemeinschaft"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Gemeinschaftsprojekt: Wortschatz»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Gemeinschaftsprojekt“ spricht eine kleine Gruppe aus der Gemeinschaft über Projekt, Recherche und Aufgabe."
+                "text": "Gemeinschaftsprojekt"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Danach"
               }
             ]
           }
@@ -34772,42 +34799,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Gemeinschaftsprojekt: Wortschatz»?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „Gemeinschaftsprojekt“ spricht eine kleine Gruppe aus der Gemeinschaft über Projekt, Recherche und _____.”",
         "options": [
-          "Im Thema „Gemeinschaftsprojekt“ spricht eine kleine Gruppe aus der Gemeinschaft über Projekt, Recherche und Aufgabe.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Aufgabe",
+          "Gemeinschaftsprojekt",
+          "Zusammenarbeit",
+          "Gemeinschaft"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «Im Thema „Gemeinschaftsprojekt“ spricht eine kleine Gruppe aus der…» in «Gemeinschaftsprojekt: Wortschatz»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
         "options": [
-          "Im Thema „Gemeinschaftsprojekt“ spricht eine kleine Gruppe aus der Gemeinschaft über Projekt, Recherche und Aufgabe.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Gemeinschaftsprojekt",
+          "Person",
+          "Zusammenarbeit",
+          "Gemeinschaft"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Gemeinschaftsprojekt: Wortschatz»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
         "options": [
-          "Im Thema „Gemeinschaftsprojekt“ spricht eine kleine Gruppe aus der Gemeinschaft über Projekt, Recherche und Aufgabe.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Gemeinschaftsprojekt",
+          "Zusammenarbeit",
+          "klares",
+          "Gemeinschaft"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Gemeinschaftsprojekt: Wortschatz»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
         "options": [
-          "Im Thema „Gemeinschaftsprojekt“ spricht eine kleine Gruppe aus der Gemeinschaft über Projekt, Recherche und Aufgabe.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Gemeinschaftsprojekt",
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "Danach"
         ]
       }
     ]
@@ -35102,92 +35129,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Kultur und Identität · Hörverstehen»?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Kultur und Identität vergleichen zwei Personen ihre _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Kultur und Identität vergleichen zwei Personen ihre Standpunkte."
+                "text": "Standpunkte"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass appartenenza nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Personen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: prospettiva kann die Perspektive der Zuhörenden verändern."
+                "text": "isoliert"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "konkrete"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In dieser Sendung über Kultur und Identität vergleichen zwei Personen…» in «Kultur und Identität · Hörverstehen»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass appartenenza nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Kultur und Identität vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass appartenenza nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "andere"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: prospettiva kann die Perspektive der Zuhörenden verändern."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "überprüfbaren"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Kultur und Identität · Hörverstehen»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: _____ kann die Perspektive der Zuhörenden verändern.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Kultur und Identität vergleichen zwei Personen ihre Standpunkte."
+                "text": "Personen"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass appartenenza nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "isoliert"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: prospettiva kann die Perspektive der Zuhörenden verändern."
+                "text": "prospettiva"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "konkrete"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Kultur und Identität · Hörverstehen»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Kultur und Identität vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass appartenenza nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: prospettiva kann die Perspektive der Zuhörenden verändern."
+                "text": "überprüfbaren"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "begründen"
               }
             ]
           }
@@ -35207,42 +35234,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Kultur und Identität · Hörverstehen»?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Kultur und Identität vergleichen zwei Personen ihre _____.”",
         "options": [
-          "In dieser Sendung über Kultur und Identität vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass appartenenza nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: prospettiva kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Standpunkte",
+          "Personen",
+          "isoliert",
+          "konkrete"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In dieser Sendung über Kultur und Identität vergleichen zwei Personen…» in «Kultur und Identität · Hörverstehen»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass appartenenza nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
         "options": [
-          "In dieser Sendung über Kultur und Identität vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass appartenenza nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: prospettiva kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "andere",
+          "Entscheidungen",
+          "überprüfbaren"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Kultur und Identität · Hörverstehen»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: _____ kann die Perspektive der Zuhörenden verändern.”",
         "options": [
-          "In dieser Sendung über Kultur und Identität vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass appartenenza nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: prospettiva kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Personen",
+          "isoliert",
+          "prospettiva",
+          "konkrete"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Kultur und Identität · Hörverstehen»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
         "options": [
-          "In dieser Sendung über Kultur und Identität vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass appartenenza nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: prospettiva kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "Entscheidungen",
+          "überprüfbaren",
+          "begründen"
         ]
       }
     ]
@@ -35309,92 +35336,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Orte und Erinnerung · Hörverstehen»?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Orte und Erinnerung vergleichen zwei Personen ihre _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Orte und Erinnerung vergleichen zwei Personen ihre Standpunkte."
+                "text": "Standpunkte"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass patrimonio nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Personen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: trasformazione kann die Perspektive der Zuhörenden verändern."
+                "text": "isoliert"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "konkrete"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In dieser Sendung über Orte und Erinnerung vergleichen zwei Personen…» in «Orte und Erinnerung · Hörverstehen»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass patrimonio nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Orte und Erinnerung vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass patrimonio nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "andere"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: trasformazione kann die Perspektive der Zuhörenden verändern."
+                "text": "trasformazione"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "Entscheidungen"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Orte und Erinnerung · Hörverstehen»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: _____ kann die Perspektive der Zuhörenden verändern.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Orte und Erinnerung vergleichen zwei Personen ihre Standpunkte."
+                "text": "vergleichen"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass patrimonio nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Standpunkte"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: trasformazione kann die Perspektive der Zuhörenden verändern."
+                "text": "trasformazione"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "Perspektive"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Orte und Erinnerung · Hörverstehen»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Orte und Erinnerung vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass patrimonio nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "trasformazione"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: trasformazione kann die Perspektive der Zuhörenden verändern."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "begründen"
               }
             ]
           }
@@ -35414,42 +35441,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Orte und Erinnerung · Hörverstehen»?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Orte und Erinnerung vergleichen zwei Personen ihre _____.”",
         "options": [
-          "In dieser Sendung über Orte und Erinnerung vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass patrimonio nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: trasformazione kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Standpunkte",
+          "Personen",
+          "isoliert",
+          "konkrete"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In dieser Sendung über Orte und Erinnerung vergleichen zwei Personen…» in «Orte und Erinnerung · Hörverstehen»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass patrimonio nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
         "options": [
-          "In dieser Sendung über Orte und Erinnerung vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass patrimonio nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: trasformazione kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "andere",
+          "trasformazione",
+          "Entscheidungen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Orte und Erinnerung · Hörverstehen»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: _____ kann die Perspektive der Zuhörenden verändern.”",
         "options": [
-          "In dieser Sendung über Orte und Erinnerung vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass patrimonio nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: trasformazione kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "vergleichen",
+          "Standpunkte",
+          "trasformazione",
+          "Perspektive"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Orte und Erinnerung · Hörverstehen»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
         "options": [
-          "In dieser Sendung über Orte und Erinnerung vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass patrimonio nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: trasformazione kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "trasformazione",
+          "Entscheidungen",
+          "begründen"
         ]
       }
     ]
@@ -35516,92 +35543,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Umwelt und Zukunft · Hörverstehen»?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Umwelt und Zukunft vergleichen zwei Personen ihre _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Umwelt und Zukunft vergleichen zwei Personen ihre Standpunkte."
+                "text": "Standpunkte"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass risorsa nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Personen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: mitigare kann die Perspektive der Zuhörenden verändern."
+                "text": "scenario"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "isoliert"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In dieser Sendung über Umwelt und Zukunft vergleichen zwei Personen…» in «Umwelt und Zukunft · Hörverstehen»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass risorsa nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Umwelt und Zukunft vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass risorsa nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "andere"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: mitigare kann die Perspektive der Zuhörenden verändern."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "überprüfbaren"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Umwelt und Zukunft · Hörverstehen»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: _____ kann die Perspektive der Zuhörenden verändern.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Umwelt und Zukunft vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass risorsa nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: mitigare kann die Perspektive der Zuhörenden verändern."
+                "text": "mitigare"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "überprüfbaren"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Umwelt und Zukunft · Hörverstehen»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Umwelt und Zukunft vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass risorsa nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: mitigare kann die Perspektive der Zuhörenden verändern."
+                "text": "überprüfbaren"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "begründen"
               }
             ]
           }
@@ -35621,42 +35648,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Umwelt und Zukunft · Hörverstehen»?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Umwelt und Zukunft vergleichen zwei Personen ihre _____.”",
         "options": [
-          "In dieser Sendung über Umwelt und Zukunft vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass risorsa nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: mitigare kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Standpunkte",
+          "Personen",
+          "scenario",
+          "isoliert"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In dieser Sendung über Umwelt und Zukunft vergleichen zwei Personen…» in «Umwelt und Zukunft · Hörverstehen»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass risorsa nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
         "options": [
-          "In dieser Sendung über Umwelt und Zukunft vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass risorsa nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: mitigare kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "andere",
+          "Entscheidungen",
+          "überprüfbaren"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Umwelt und Zukunft · Hörverstehen»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: _____ kann die Perspektive der Zuhörenden verändern.”",
         "options": [
-          "In dieser Sendung über Umwelt und Zukunft vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass risorsa nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: mitigare kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "Entscheidungen",
+          "mitigare",
+          "überprüfbaren"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Umwelt und Zukunft · Hörverstehen»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
         "options": [
-          "In dieser Sendung über Umwelt und Zukunft vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass risorsa nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: mitigare kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "Entscheidungen",
+          "überprüfbaren",
+          "begründen"
         ]
       }
     ]
@@ -37993,60 +38020,64 @@
     "dialogue": [],
     "reading": {
       "title": "Wetter und Jahreszeiten",
-      "text": "Clara ist an den Park. Dort trifft Clara ihren Vater und sagt freundlich Hallo. Clara möchte über das Wetter sprechen, deshalb hört sie gut zu und benutzt einfache Wörter. ihren Vater antwortet langsam und zeigt, was helfen kann.\n\nDanach sprechen beide über eine kleine Situation aus dem Alltag. Clara stellt eine Frage, bekommt eine Antwort und sagt Danke. Bevor sie gehen, wiederholen sie die wichtigsten Wörter. So wird das nächste Gespräch leichter.",
+      "text": "Heute ist Anna in Berlin. Sie trifft Leon in ihrem Viertel und begrüßt ihn freundlich. Beide sprechen langsam und hören gut zu. Anna möchte Deutsch in einer echten Situation benutzen. Deshalb sagt sie einen einfachen Satz, und Leon antwortet ihr mit einem Lächeln.\n\nIm Gespräch benutzen sie wichtige Wörter aus der Lektion: Wetter, Sonne, Regen, kalt, warm. Leon stellt eine einfache Frage, und Anna antwortet in Ruhe. Wenn sie ein Wort nicht versteht, fragt sie: „Kannst du das bitte wiederholen?\" Danach wiederholen beide die wichtigsten Wörter und finden zu jedem Wort ein kleines Beispiel.\n\nBevor Anna nach Hause geht, bedankt sie sich bei Leon. Sie sagt, dass Zuhören, Sprechen und Wiederholen ihr mehr Sicherheit geben. Leon stimmt zu und schlägt ein neues Treffen für morgen vor. Anna geht zufrieden nach Hause und schreibt die neuen Wörter des Tages in ihr Heft.",
       "questions": [
-        "Worum geht es im Text?",
-        "Was macht die Hauptperson zuerst?",
-        "Welche Rolle hat die zweite Person?",
-        "Warum arbeitet die Gruppe zusammen?",
-        "Was ist das gemeinsame Ziel?"
+        "Wo ist Anna?",
+        "Mit wem spricht Anna?",
+        "Was fragt Anna, wenn sie ein Wort nicht versteht?",
+        "Warum wiederholt Anna die Wörter?"
       ],
       "parts": [
-        "Clara ist an den Park. Dort trifft Clara ihren Vater und sagt freundlich Hallo. Clara möchte über das Wetter sprechen, deshalb hört sie gut zu und benutzt einfache Wörter. ihren Vater antwortet langsam und zeigt, was helfen kann.",
-        "Danach sprechen beide über eine kleine Situation aus dem Alltag. Clara stellt eine Frage, bekommt eine Antwort und sagt Danke. Bevor sie gehen, wiederholen sie die wichtigsten Wörter. So wird das nächste Gespräch leichter."
+        "Heute ist Anna in Berlin. Sie trifft Leon in ihrem Viertel und begrüßt ihn freundlich. Beide sprechen langsam und hören gut zu. Anna möchte Deutsch in einer echten Situation benutzen. Deshalb sagt sie einen einfachen Satz, und Leon antwortet ihr mit einem Lächeln.",
+        "Im Gespräch benutzen sie wichtige Wörter aus der Lektion: Wetter, Sonne, Regen, kalt, warm. Leon stellt eine einfache Frage, und Anna antwortet in Ruhe. Wenn sie ein Wort nicht versteht, fragt sie: „Kannst du das bitte wiederholen?\" Danach wiederholen beide die wichtigsten Wörter und finden zu jedem Wort ein kleines Beispiel.",
+        "Bevor Anna nach Hause geht, bedankt sie sich bei Leon. Sie sagt, dass Zuhören, Sprechen und Wiederholen ihr mehr Sicherheit geben. Leon stimmt zu und schlägt ein neues Treffen für morgen vor. Anna geht zufrieden nach Hause und schreibt die neuen Wörter des Tages in ihr Heft."
       ]
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
+        "id": "german-a1-wetter-und-jahreszeiten-reading-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Worüber spricht die Gruppe?",
+        "prompt": "Wo ist Anna?",
         "options": [
-          "Wetter",
-          "Jacke",
-          "heute",
-          "draußen"
+          "Berlin",
+          "Hamburg",
+          "München",
+          "Köln"
         ]
       },
       {
+        "id": "german-a1-wetter-und-jahreszeiten-reading-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Was macht jede Person?",
+        "prompt": "Mit wem spricht Anna?",
         "options": [
-          "Erzählt von einer Erfahrung, hört zu und schlägt eine Lösung vor.",
-          "Kauft eine Eintrittskarte für eine Veranstaltung.",
-          "Hört den anderen Personen nicht zu.",
-          "Sagt das Projekt ab."
+          "Leon",
+          "Paul",
+          "Mia",
+          "Lukas"
         ]
       },
       {
+        "id": "german-a1-wetter-und-jahreszeiten-reading-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Warum arbeiten sie zusammen?",
+        "prompt": "Was fragt Anna, wenn sie ein Wort nicht versteht?",
         "options": [
-          "Weil sie ein klares Ziel haben.",
-          "Weil sie keine Zeit haben.",
-          "Weil sie das Thema nicht kennen.",
-          "Weil sie lieber allein arbeiten."
+          "Kannst du das bitte wiederholen?",
+          "Wo ist mein Zug?",
+          "Wie viel kostet das?",
+          "Wann beginnt die Schule?"
         ]
       },
       {
+        "id": "german-a1-wetter-und-jahreszeiten-reading-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Welche Idee hilft im Alltag?",
+        "prompt": "Warum wiederholt Anna die Wörter?",
         "options": [
-          "Eine konkrete Lösung, die gemeinsam umgesetzt wird.",
-          "Eine Liste ohne Zusammenhang.",
-          "Eine Diskussion ohne Ziel.",
-          "Eine Entscheidung von nur einer Person."
+          "Damit sie mehr Sicherheit hat",
+          "Damit sie nicht sprechen muss",
+          "Damit sie ein Ticket kauft",
+          "Damit sie Leon vermeidet"
         ]
       }
     ]
@@ -38187,12 +38218,12 @@
       {
         "id": "german-a2-medien-und-kommunikation-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Medien und Kommunikation“?",
+        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ fand die Erfahrung hilfreich, weil sie neue Wörter gelernt und mehr Mut bekommen hatte.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Medien und Kommunikation darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Julia",
+          "Woche",
+          "hatte",
+          "Letzte"
         ]
       }
     ]
@@ -38334,12 +38365,12 @@
       {
         "id": "german-b1-technik-im-alltag-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Technik im Alltag“?",
+        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ möchte die Situation verantwortungsvoll verbessern und aus der Erfahrung lernen.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Technik im Alltag darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Sie",
+          "Für",
+          "den",
+          "das"
         ]
       }
     ]
@@ -38433,34 +38464,34 @@
       {
         "id": "german-b2-b2-technik-und-datenschutz-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Technik und Datenschutz · Lesen“?",
+        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Technik und Datenschutz · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Technik",
+          "einzige",
+          "Antwort",
+          "sondern"
         ]
       },
       {
         "id": "german-b2-b2-technik-und-datenschutz-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Welche Aussage fasst „Technik und Datenschutz · Lesen“ am besten zusammen?",
+        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Technik und Datenschutz · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "dati",
+          "Jede",
+          "soll",
+          "Ende"
         ]
       },
       {
         "id": "german-b2-b2-technik-und-datenschutz-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Technik und Datenschutz · Lesen“?",
+        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Technik und Datenschutz · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Der",
+          "und",
+          "die",
+          "ein"
         ]
       }
     ]
@@ -38554,34 +38585,34 @@
       {
         "id": "german-c1-c1-kommunikation-und-register-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Kommunikation und Register · Lesen“?",
+        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Kommunikation und Register · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "einzige",
+          "sondern",
+          "Antwort",
+          "Grenzen"
         ]
       },
       {
         "id": "german-c1-c1-kommunikation-und-register-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Welche Aussage fasst „Kommunikation und Register · Lesen“ am besten zusammen?",
+        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Kommunikation und Register · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Jede",
+          "soll",
+          "klar",
+          "Ende"
         ]
       },
       {
         "id": "german-c1-c1-kommunikation-und-register-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Kommunikation und Register · Lesen“?",
+        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Kommunikation und Register · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Der",
+          "und",
+          "die",
+          "ein"
         ]
       }
     ]
@@ -38675,34 +38706,34 @@
       {
         "id": "german-c2-c2-medien-und-diskurs-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Medien und Diskurs · Lesen“?",
+        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Medien und Diskurs · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Diskurs",
+          "cornice",
+          "Antwort",
+          "einzige"
         ]
       },
       {
         "id": "german-c2-c2-medien-und-diskurs-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Welche Aussage fasst „Medien und Diskurs · Lesen“ am besten zusammen?",
+        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Medien und Diskurs · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Jede",
+          "soll",
+          "klar",
+          "Ende"
         ]
       },
       {
         "id": "german-c2-c2-medien-und-diskurs-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Medien und Diskurs · Lesen“?",
+        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Medien und Diskurs · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Der",
+          "und",
+          "die",
+          "ein"
         ]
       }
     ]
@@ -39583,92 +39614,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «Wetter und Jahreszeiten: Wortschatz», which detail establishes the situation?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „Wetter und Jahreszeiten“ spricht eine kleine Gruppe aus der Gemeinschaft über Wetter, Sonne und _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Wetter und Jahreszeiten“ spricht eine kleine Gruppe aus der Gemeinschaft über Wetter, Sonne und Regen."
+                "text": "Regen"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Jahreszeiten"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Gemeinschaft"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «Im Thema „Wetter und Jahreszeiten“ spricht eine kleine Gruppe aus der…», what happens next in «Wetter und Jahreszeiten: Wortschatz»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Wetter und Jahreszeiten“ spricht eine kleine Gruppe aus der Gemeinschaft über Wetter, Sonne und Regen."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Person"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Jahreszeiten"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Gemeinschaft"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «Wetter und Jahreszeiten: Wortschatz»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Wetter und Jahreszeiten“ spricht eine kleine Gruppe aus der Gemeinschaft über Wetter, Sonne und Regen."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Jahreszeiten"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "klares"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Gemeinschaft"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «Wetter und Jahreszeiten: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Wetter und Jahreszeiten“ spricht eine kleine Gruppe aus der Gemeinschaft über Wetter, Sonne und Regen."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Jahreszeiten"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Danach"
               }
             ]
           }
@@ -39679,42 +39710,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «Wetter und Jahreszeiten: Wortschatz», which detail establishes the situation?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „Wetter und Jahreszeiten“ spricht eine kleine Gruppe aus der Gemeinschaft über Wetter, Sonne und _____.”",
         "options": [
-          "Im Thema „Wetter und Jahreszeiten“ spricht eine kleine Gruppe aus der Gemeinschaft über Wetter, Sonne und Regen.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Regen",
+          "Zusammenarbeit",
+          "Jahreszeiten",
+          "Gemeinschaft"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «Im Thema „Wetter und Jahreszeiten“ spricht eine kleine Gruppe aus der…», what happens next in «Wetter und Jahreszeiten: Wortschatz»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
         "options": [
-          "Im Thema „Wetter und Jahreszeiten“ spricht eine kleine Gruppe aus der Gemeinschaft über Wetter, Sonne und Regen.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Person",
+          "Jahreszeiten",
+          "Gemeinschaft"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «Wetter und Jahreszeiten: Wortschatz»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
         "options": [
-          "Im Thema „Wetter und Jahreszeiten“ spricht eine kleine Gruppe aus der Gemeinschaft über Wetter, Sonne und Regen.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Jahreszeiten",
+          "klares",
+          "Gemeinschaft"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «Wetter und Jahreszeiten: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
         "options": [
-          "Im Thema „Wetter und Jahreszeiten“ spricht eine kleine Gruppe aus der Gemeinschaft über Wetter, Sonne und Regen.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Jahreszeiten",
+          "Gemeinschaft",
+          "Danach"
         ]
       }
     ]
@@ -39803,92 +39834,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «Medien und Kommunikation: Wortschatz», which detail establishes the situation?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „Medien und Kommunikation“ spricht eine kleine Gruppe aus der Gemeinschaft über Nachricht, Zeitung und _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Medien und Kommunikation“ spricht eine kleine Gruppe aus der Gemeinschaft über Nachricht, Zeitung und Handy."
+                "text": "Handy"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Kommunikation"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Gemeinschaft"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «Im Thema „Medien und Kommunikation“ spricht eine kleine Gruppe aus der…», what happens next in «Medien und Kommunikation: Wortschatz»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Medien und Kommunikation“ spricht eine kleine Gruppe aus der Gemeinschaft über Nachricht, Zeitung und Handy."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Person"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Kommunikation"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Gemeinschaft"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «Medien und Kommunikation: Wortschatz»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Medien und Kommunikation“ spricht eine kleine Gruppe aus der Gemeinschaft über Nachricht, Zeitung und Handy."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Kommunikation"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "klares"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Gemeinschaft"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «Medien und Kommunikation: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Medien und Kommunikation“ spricht eine kleine Gruppe aus der Gemeinschaft über Nachricht, Zeitung und Handy."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Kommunikation"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Danach"
               }
             ]
           }
@@ -39899,42 +39930,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «Medien und Kommunikation: Wortschatz», which detail establishes the situation?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „Medien und Kommunikation“ spricht eine kleine Gruppe aus der Gemeinschaft über Nachricht, Zeitung und _____.”",
         "options": [
-          "Im Thema „Medien und Kommunikation“ spricht eine kleine Gruppe aus der Gemeinschaft über Nachricht, Zeitung und Handy.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Handy",
+          "Zusammenarbeit",
+          "Kommunikation",
+          "Gemeinschaft"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «Im Thema „Medien und Kommunikation“ spricht eine kleine Gruppe aus der…», what happens next in «Medien und Kommunikation: Wortschatz»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
         "options": [
-          "Im Thema „Medien und Kommunikation“ spricht eine kleine Gruppe aus der Gemeinschaft über Nachricht, Zeitung und Handy.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Person",
+          "Kommunikation",
+          "Gemeinschaft"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «Medien und Kommunikation: Wortschatz»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
         "options": [
-          "Im Thema „Medien und Kommunikation“ spricht eine kleine Gruppe aus der Gemeinschaft über Nachricht, Zeitung und Handy.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Kommunikation",
+          "klares",
+          "Gemeinschaft"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «Medien und Kommunikation: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
         "options": [
-          "Im Thema „Medien und Kommunikation“ spricht eine kleine Gruppe aus der Gemeinschaft über Nachricht, Zeitung und Handy.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Kommunikation",
+          "Gemeinschaft",
+          "Danach"
         ]
       }
     ]
@@ -40023,92 +40054,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Technik im Alltag: Wortschatz»?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „Technik im Alltag“ spricht eine kleine Gruppe aus der Gemeinschaft über Technik, Gerät und _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Technik im Alltag“ spricht eine kleine Gruppe aus der Gemeinschaft über Technik, Gerät und Vorteil."
+                "text": "Vorteil"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "entscheiden"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «Im Thema „Technik im Alltag“ spricht eine kleine Gruppe aus der…» in «Technik im Alltag: Wortschatz»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Technik im Alltag“ spricht eine kleine Gruppe aus der Gemeinschaft über Technik, Gerät und Vorteil."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Person"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "entscheiden"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Technik im Alltag: Wortschatz»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Technik im Alltag“ spricht eine kleine Gruppe aus der Gemeinschaft über Technik, Gerät und Vorteil."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "klares"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "entscheiden"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Technik im Alltag: Wortschatz»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Technik im Alltag“ spricht eine kleine Gruppe aus der Gemeinschaft über Technik, Gerät und Vorteil."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "entscheiden"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Danach"
               }
             ]
           }
@@ -40119,42 +40150,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Technik im Alltag: Wortschatz»?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „Technik im Alltag“ spricht eine kleine Gruppe aus der Gemeinschaft über Technik, Gerät und _____.”",
         "options": [
-          "Im Thema „Technik im Alltag“ spricht eine kleine Gruppe aus der Gemeinschaft über Technik, Gerät und Vorteil.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Vorteil",
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "entscheiden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «Im Thema „Technik im Alltag“ spricht eine kleine Gruppe aus der…» in «Technik im Alltag: Wortschatz»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
         "options": [
-          "Im Thema „Technik im Alltag“ spricht eine kleine Gruppe aus der Gemeinschaft über Technik, Gerät und Vorteil.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Person",
+          "Gemeinschaft",
+          "entscheiden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Technik im Alltag: Wortschatz»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
         "options": [
-          "Im Thema „Technik im Alltag“ spricht eine kleine Gruppe aus der Gemeinschaft über Technik, Gerät und Vorteil.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "klares",
+          "entscheiden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Technik im Alltag: Wortschatz»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
         "options": [
-          "Im Thema „Technik im Alltag“ spricht eine kleine Gruppe aus der Gemeinschaft über Technik, Gerät und Vorteil.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "entscheiden",
+          "Danach"
         ]
       }
     ]
@@ -40449,92 +40480,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Technik und Datenschutz · Hörverstehen»?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Technik und Datenschutz vergleichen zwei Personen ihre _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Technik und Datenschutz vergleichen zwei Personen ihre Standpunkte."
+                "text": "Standpunkte"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass dati nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Personen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: proteggere kann die Perspektive der Zuhörenden verändern."
+                "text": "isoliert"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "konkrete"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In dieser Sendung über Technik und Datenschutz vergleichen zwei…» in «Technik und Datenschutz · Hörverstehen»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass dati nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Technik und Datenschutz vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass dati nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "andere"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: proteggere kann die Perspektive der Zuhörenden verändern."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "überprüfbaren"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Technik und Datenschutz · Hörverstehen»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: _____ kann die Perspektive der Zuhörenden verändern.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Technik und Datenschutz vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass dati nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: proteggere kann die Perspektive der Zuhörenden verändern."
+                "text": "proteggere"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "Sendung"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Technik und Datenschutz · Hörverstehen»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Technik und Datenschutz vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass dati nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: proteggere kann die Perspektive der Zuhörenden verändern."
+                "text": "überprüfbaren"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "begründen"
               }
             ]
           }
@@ -40554,42 +40585,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Technik und Datenschutz · Hörverstehen»?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Technik und Datenschutz vergleichen zwei Personen ihre _____.”",
         "options": [
-          "In dieser Sendung über Technik und Datenschutz vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass dati nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: proteggere kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Standpunkte",
+          "Personen",
+          "isoliert",
+          "konkrete"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In dieser Sendung über Technik und Datenschutz vergleichen zwei…» in «Technik und Datenschutz · Hörverstehen»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass dati nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
         "options": [
-          "In dieser Sendung über Technik und Datenschutz vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass dati nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: proteggere kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "andere",
+          "Entscheidungen",
+          "überprüfbaren"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Technik und Datenschutz · Hörverstehen»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: _____ kann die Perspektive der Zuhörenden verändern.”",
         "options": [
-          "In dieser Sendung über Technik und Datenschutz vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass dati nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: proteggere kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "Entscheidungen",
+          "proteggere",
+          "Sendung"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Technik und Datenschutz · Hörverstehen»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
         "options": [
-          "In dieser Sendung über Technik und Datenschutz vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass dati nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: proteggere kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "Entscheidungen",
+          "überprüfbaren",
+          "begründen"
         ]
       }
     ]
@@ -40656,92 +40687,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Kommunikation und Register · Hörverstehen»?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Kommunikation und Register vergleichen zwei Personen ihre _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Kommunikation und Register vergleichen zwei Personen ihre Standpunkte."
+                "text": "Standpunkte"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass destinatario nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Register"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: intenzione kann die Perspektive der Zuhörenden verändern."
+                "text": "Personen"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "registro"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In dieser Sendung über Kommunikation und Register vergleichen zwei…» in «Kommunikation und Register · Hörverstehen»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass destinatario nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Kommunikation und Register vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass destinatario nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "andere"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: intenzione kann die Perspektive der Zuhörenden verändern."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "Kommunikation"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Kommunikation und Register · Hörverstehen»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: _____ kann die Perspektive der Zuhörenden verändern.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Kommunikation und Register vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass destinatario nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: intenzione kann die Perspektive der Zuhörenden verändern."
+                "text": "intenzione"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "Sendung"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Kommunikation und Register · Hörverstehen»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Kommunikation und Register vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass destinatario nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: intenzione kann die Perspektive der Zuhörenden verändern."
+                "text": "Kommunikation"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "begründen"
               }
             ]
           }
@@ -40761,42 +40792,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Kommunikation und Register · Hörverstehen»?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Kommunikation und Register vergleichen zwei Personen ihre _____.”",
         "options": [
-          "In dieser Sendung über Kommunikation und Register vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass destinatario nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: intenzione kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Standpunkte",
+          "Register",
+          "Personen",
+          "registro"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In dieser Sendung über Kommunikation und Register vergleichen zwei…» in «Kommunikation und Register · Hörverstehen»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass destinatario nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
         "options": [
-          "In dieser Sendung über Kommunikation und Register vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass destinatario nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: intenzione kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "andere",
+          "Entscheidungen",
+          "Kommunikation"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Kommunikation und Register · Hörverstehen»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: _____ kann die Perspektive der Zuhörenden verändern.”",
         "options": [
-          "In dieser Sendung über Kommunikation und Register vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass destinatario nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: intenzione kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "Entscheidungen",
+          "intenzione",
+          "Sendung"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Kommunikation und Register · Hörverstehen»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
         "options": [
-          "In dieser Sendung über Kommunikation und Register vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass destinatario nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: intenzione kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "Entscheidungen",
+          "Kommunikation",
+          "begründen"
         ]
       }
     ]
@@ -40863,92 +40894,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Medien und Diskurs · Hörverstehen»?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Medien und Diskurs vergleichen zwei Personen ihre _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Medien und Diskurs vergleichen zwei Personen ihre Standpunkte."
+                "text": "Standpunkte"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass narrazione nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Personen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: selezionare kann die Perspektive der Zuhörenden verändern."
+                "text": "isoliert"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "konkrete"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In dieser Sendung über Medien und Diskurs vergleichen zwei Personen…» in «Medien und Diskurs · Hörverstehen»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass narrazione nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Medien und Diskurs vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass narrazione nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "andere"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: selezionare kann die Perspektive der Zuhörenden verändern."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "überprüfbaren"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Medien und Diskurs · Hörverstehen»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: _____ kann die Perspektive der Zuhörenden verändern.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Medien und Diskurs vergleichen zwei Personen ihre Standpunkte."
+                "text": "Personen"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass narrazione nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "isoliert"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: selezionare kann die Perspektive der Zuhörenden verändern."
+                "text": "selezionare"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "konkrete"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Medien und Diskurs · Hörverstehen»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Medien und Diskurs vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass narrazione nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: selezionare kann die Perspektive der Zuhörenden verändern."
+                "text": "überprüfbaren"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "begründen"
               }
             ]
           }
@@ -40968,42 +40999,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Medien und Diskurs · Hörverstehen»?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Medien und Diskurs vergleichen zwei Personen ihre _____.”",
         "options": [
-          "In dieser Sendung über Medien und Diskurs vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass narrazione nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: selezionare kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Standpunkte",
+          "Personen",
+          "isoliert",
+          "konkrete"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In dieser Sendung über Medien und Diskurs vergleichen zwei Personen…» in «Medien und Diskurs · Hörverstehen»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass narrazione nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
         "options": [
-          "In dieser Sendung über Medien und Diskurs vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass narrazione nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: selezionare kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "andere",
+          "Entscheidungen",
+          "überprüfbaren"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Medien und Diskurs · Hörverstehen»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: _____ kann die Perspektive der Zuhörenden verändern.”",
         "options": [
-          "In dieser Sendung über Medien und Diskurs vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass narrazione nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: selezionare kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Personen",
+          "isoliert",
+          "selezionare",
+          "konkrete"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Medien und Diskurs · Hörverstehen»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
         "options": [
-          "In dieser Sendung über Medien und Diskurs vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass narrazione nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: selezionare kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "Entscheidungen",
+          "überprüfbaren",
+          "begründen"
         ]
       }
     ]
@@ -43340,60 +43371,64 @@
     "dialogue": [],
     "reading": {
       "title": "Freizeit",
-      "text": "Amir ist an ein Nachbarschaftsfest. Dort trifft Amir Frau Rosa und sagt freundlich Hallo. Amir möchte Menschen einladen, deshalb hört sie gut zu und benutzt einfache Wörter. Frau Rosa antwortet langsam und zeigt, was helfen kann.\n\nDanach sprechen beide über eine kleine Situation aus dem Alltag. Amir stellt eine Frage, bekommt eine Antwort und sagt Danke. Bevor sie gehen, wiederholen sie die wichtigsten Wörter. So wird das nächste Gespräch leichter.",
+      "text": "Heute ist Anna in Berlin. Sie trifft Leon in ihrem Viertel und begrüßt ihn freundlich. Beide sprechen langsam und hören gut zu. Anna möchte Deutsch in einer echten Situation benutzen. Deshalb sagt sie einen einfachen Satz, und Leon antwortet ihr mit einem Lächeln.\n\nIm Gespräch benutzen sie wichtige Wörter aus der Lektion: Hobby, lesen, laufen, Kino, Sport. Leon stellt eine einfache Frage, und Anna antwortet in Ruhe. Wenn sie ein Wort nicht versteht, fragt sie: „Kannst du das bitte wiederholen?\" Danach wiederholen beide die wichtigsten Wörter und finden zu jedem Wort ein kleines Beispiel.\n\nBevor Anna nach Hause geht, bedankt sie sich bei Leon. Sie sagt, dass Zuhören, Sprechen und Wiederholen ihr mehr Sicherheit geben. Leon stimmt zu und schlägt ein neues Treffen für morgen vor. Anna geht zufrieden nach Hause und schreibt die neuen Wörter des Tages in ihr Heft.",
       "questions": [
-        "Worum geht es im Text?",
-        "Was macht die Hauptperson zuerst?",
-        "Welche Rolle hat die zweite Person?",
-        "Warum arbeitet die Gruppe zusammen?",
-        "Was ist das gemeinsame Ziel?"
+        "Wo ist Anna?",
+        "Mit wem spricht Anna?",
+        "Was fragt Anna, wenn sie ein Wort nicht versteht?",
+        "Warum wiederholt Anna die Wörter?"
       ],
       "parts": [
-        "Amir ist an ein Nachbarschaftsfest. Dort trifft Amir Frau Rosa und sagt freundlich Hallo. Amir möchte Menschen einladen, deshalb hört sie gut zu und benutzt einfache Wörter. Frau Rosa antwortet langsam und zeigt, was helfen kann.",
-        "Danach sprechen beide über eine kleine Situation aus dem Alltag. Amir stellt eine Frage, bekommt eine Antwort und sagt Danke. Bevor sie gehen, wiederholen sie die wichtigsten Wörter. So wird das nächste Gespräch leichter."
+        "Heute ist Anna in Berlin. Sie trifft Leon in ihrem Viertel und begrüßt ihn freundlich. Beide sprechen langsam und hören gut zu. Anna möchte Deutsch in einer echten Situation benutzen. Deshalb sagt sie einen einfachen Satz, und Leon antwortet ihr mit einem Lächeln.",
+        "Im Gespräch benutzen sie wichtige Wörter aus der Lektion: Hobby, lesen, laufen, Kino, Sport. Leon stellt eine einfache Frage, und Anna antwortet in Ruhe. Wenn sie ein Wort nicht versteht, fragt sie: „Kannst du das bitte wiederholen?\" Danach wiederholen beide die wichtigsten Wörter und finden zu jedem Wort ein kleines Beispiel.",
+        "Bevor Anna nach Hause geht, bedankt sie sich bei Leon. Sie sagt, dass Zuhören, Sprechen und Wiederholen ihr mehr Sicherheit geben. Leon stimmt zu und schlägt ein neues Treffen für morgen vor. Anna geht zufrieden nach Hause und schreibt die neuen Wörter des Tages in ihr Heft."
       ]
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
+        "id": "german-a1-freizeit-reading-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Worüber spricht die Gruppe?",
+        "prompt": "Wo ist Anna?",
         "options": [
-          "Hobby",
-          "manchmal",
-          "oft",
-          "Zeit"
+          "Berlin",
+          "Hamburg",
+          "München",
+          "Köln"
         ]
       },
       {
+        "id": "german-a1-freizeit-reading-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Was macht jede Person?",
+        "prompt": "Mit wem spricht Anna?",
         "options": [
-          "Erzählt von einer Erfahrung, hört zu und schlägt eine Lösung vor.",
-          "Kauft eine Eintrittskarte für eine Veranstaltung.",
-          "Hört den anderen Personen nicht zu.",
-          "Sagt das Projekt ab."
+          "Leon",
+          "Paul",
+          "Mia",
+          "Lukas"
         ]
       },
       {
+        "id": "german-a1-freizeit-reading-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Warum arbeiten sie zusammen?",
+        "prompt": "Was fragt Anna, wenn sie ein Wort nicht versteht?",
         "options": [
-          "Weil sie ein klares Ziel haben.",
-          "Weil sie keine Zeit haben.",
-          "Weil sie das Thema nicht kennen.",
-          "Weil sie lieber allein arbeiten."
+          "Kannst du das bitte wiederholen?",
+          "Wo ist mein Zug?",
+          "Wie viel kostet das?",
+          "Wann beginnt die Schule?"
         ]
       },
       {
+        "id": "german-a1-freizeit-reading-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Welche Idee hilft im Alltag?",
+        "prompt": "Warum wiederholt Anna die Wörter?",
         "options": [
-          "Eine konkrete Lösung, die gemeinsam umgesetzt wird.",
-          "Eine Liste ohne Zusammenhang.",
-          "Eine Diskussion ohne Ziel.",
-          "Eine Entscheidung von nur einer Person."
+          "Damit sie mehr Sicherheit hat",
+          "Damit sie nicht sprechen muss",
+          "Damit sie ein Ticket kauft",
+          "Damit sie Leon vermeidet"
         ]
       }
     ]
@@ -43534,12 +43569,12 @@
       {
         "id": "german-a2-lernen-und-ziele-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Lernen und Ziele“?",
+        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ fand die Erfahrung hilfreich, weil sie neue Wörter gelernt und mehr Mut bekommen hatte.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Lernen und Ziele darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Nadia",
+          "Woche",
+          "hatte",
+          "Letzte"
         ]
       }
     ]
@@ -43681,12 +43716,12 @@
       {
         "id": "german-b1-stadt-und-mobilitat-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Stadt und Mobilität“?",
+        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ möchte die Situation verantwortungsvoll verbessern und aus der Erfahrung lernen.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Stadt und Mobilität darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Sie",
+          "Für",
+          "der",
+          "vor"
         ]
       }
     ]
@@ -43780,34 +43815,34 @@
       {
         "id": "german-b2-b2-bewusst-reisen-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Bewusst reisen · Lesen“?",
+        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Bewusst reisen · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Bewusst",
+          "einzige",
+          "Antwort",
+          "sondern"
         ]
       },
       {
         "id": "german-b2-b2-bewusst-reisen-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Welche Aussage fasst „Bewusst reisen · Lesen“ am besten zusammen?",
+        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Bewusst reisen · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Jede",
+          "soll",
+          "klar",
+          "Ende"
         ]
       },
       {
         "id": "german-b2-b2-bewusst-reisen-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Bewusst reisen · Lesen“?",
+        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Bewusst reisen · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Der",
+          "die",
+          "und",
+          "ein"
         ]
       }
     ]
@@ -43901,34 +43936,34 @@
       {
         "id": "german-c1-c1-wissenschaft-und-vermittlung-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Wissenschaft und Vermittlung · Lesen“?",
+        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Wissenschaft und Vermittlung · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "einzige",
+          "sondern",
+          "Antwort",
+          "Grenzen"
         ]
       },
       {
         "id": "german-c1-c1-wissenschaft-und-vermittlung-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Welche Aussage fasst „Wissenschaft und Vermittlung · Lesen“ am besten zusammen?",
+        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Wissenschaft und Vermittlung · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Jede",
+          "soll",
+          "klar",
+          "Ende"
         ]
       },
       {
         "id": "german-c1-c1-wissenschaft-und-vermittlung-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Wissenschaft und Vermittlung · Lesen“?",
+        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Wissenschaft und Vermittlung · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Der",
+          "und",
+          "die",
+          "ein"
         ]
       }
     ]
@@ -44022,34 +44057,34 @@
       {
         "id": "german-c2-c2-wissenschaft-und-verantwortung-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Wissenschaft und Verantwortung · Lesen“?",
+        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Wissenschaft und Verantwortung · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "einzige",
+          "sondern",
+          "Antwort",
+          "Grenzen"
         ]
       },
       {
         "id": "german-c2-c2-wissenschaft-und-verantwortung-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Welche Aussage fasst „Wissenschaft und Verantwortung · Lesen“ am besten zusammen?",
+        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Wissenschaft und Verantwortung · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Jede",
+          "soll",
+          "klar",
+          "Ende"
         ]
       },
       {
         "id": "german-c2-c2-wissenschaft-und-verantwortung-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Wissenschaft und Verantwortung · Lesen“?",
+        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Wissenschaft und Verantwortung · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Der",
+          "und",
+          "die",
+          "ein"
         ]
       }
     ]
@@ -44930,92 +44965,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «Freizeit: Wortschatz», which detail establishes the situation?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „Freizeit“ spricht eine kleine Gruppe aus der Gemeinschaft über Hobby, lesen und _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Freizeit“ spricht eine kleine Gruppe aus der Gemeinschaft über Hobby, lesen und laufen."
+                "text": "laufen"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "entscheiden"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «Im Thema „Freizeit“ spricht eine kleine Gruppe aus der Gemeinschaft…», what happens next in «Freizeit: Wortschatz»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Freizeit“ spricht eine kleine Gruppe aus der Gemeinschaft über Hobby, lesen und laufen."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Person"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "entscheiden"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «Freizeit: Wortschatz»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Freizeit“ spricht eine kleine Gruppe aus der Gemeinschaft über Hobby, lesen und laufen."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "klares"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "entscheiden"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «Freizeit: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Freizeit“ spricht eine kleine Gruppe aus der Gemeinschaft über Hobby, lesen und laufen."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "entscheiden"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Danach"
               }
             ]
           }
@@ -45026,42 +45061,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «Freizeit: Wortschatz», which detail establishes the situation?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „Freizeit“ spricht eine kleine Gruppe aus der Gemeinschaft über Hobby, lesen und _____.”",
         "options": [
-          "Im Thema „Freizeit“ spricht eine kleine Gruppe aus der Gemeinschaft über Hobby, lesen und laufen.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "laufen",
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "entscheiden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «Im Thema „Freizeit“ spricht eine kleine Gruppe aus der Gemeinschaft…», what happens next in «Freizeit: Wortschatz»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
         "options": [
-          "Im Thema „Freizeit“ spricht eine kleine Gruppe aus der Gemeinschaft über Hobby, lesen und laufen.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Person",
+          "Gemeinschaft",
+          "entscheiden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «Freizeit: Wortschatz»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
         "options": [
-          "Im Thema „Freizeit“ spricht eine kleine Gruppe aus der Gemeinschaft über Hobby, lesen und laufen.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "klares",
+          "entscheiden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «Freizeit: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
         "options": [
-          "Im Thema „Freizeit“ spricht eine kleine Gruppe aus der Gemeinschaft über Hobby, lesen und laufen.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "entscheiden",
+          "Danach"
         ]
       }
     ]
@@ -45150,92 +45185,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «Lernen und Ziele: Wortschatz», which detail establishes the situation?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „Lernen und Ziele“ spricht eine kleine Gruppe aus der Gemeinschaft über Ziel, _____ und üben.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Lernen und Ziele“ spricht eine kleine Gruppe aus der Gemeinschaft über Ziel, Kurs und üben."
+                "text": "Kurs"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "entscheiden"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «Im Thema „Lernen und Ziele“ spricht eine kleine Gruppe aus der…», what happens next in «Lernen und Ziele: Wortschatz»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Lernen und Ziele“ spricht eine kleine Gruppe aus der Gemeinschaft über Ziel, Kurs und üben."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Person"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "entscheiden"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «Lernen und Ziele: Wortschatz»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Lernen und Ziele“ spricht eine kleine Gruppe aus der Gemeinschaft über Ziel, Kurs und üben."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "klares"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "entscheiden"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «Lernen und Ziele: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Lernen und Ziele“ spricht eine kleine Gruppe aus der Gemeinschaft über Ziel, Kurs und üben."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "entscheiden"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Danach"
               }
             ]
           }
@@ -45246,42 +45281,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «Lernen und Ziele: Wortschatz», which detail establishes the situation?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „Lernen und Ziele“ spricht eine kleine Gruppe aus der Gemeinschaft über Ziel, _____ und üben.”",
         "options": [
-          "Im Thema „Lernen und Ziele“ spricht eine kleine Gruppe aus der Gemeinschaft über Ziel, Kurs und üben.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Kurs",
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "entscheiden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «Im Thema „Lernen und Ziele“ spricht eine kleine Gruppe aus der…», what happens next in «Lernen und Ziele: Wortschatz»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
         "options": [
-          "Im Thema „Lernen und Ziele“ spricht eine kleine Gruppe aus der Gemeinschaft über Ziel, Kurs und üben.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Person",
+          "Gemeinschaft",
+          "entscheiden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «Lernen und Ziele: Wortschatz»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
         "options": [
-          "Im Thema „Lernen und Ziele“ spricht eine kleine Gruppe aus der Gemeinschaft über Ziel, Kurs und üben.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "klares",
+          "entscheiden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «Lernen und Ziele: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
         "options": [
-          "Im Thema „Lernen und Ziele“ spricht eine kleine Gruppe aus der Gemeinschaft über Ziel, Kurs und üben.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "entscheiden",
+          "Danach"
         ]
       }
     ]
@@ -45370,92 +45405,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Stadt und Mobilität: Wortschatz»?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „Stadt und Mobilität“ spricht eine kleine Gruppe aus der Gemeinschaft über Verkehr, Strecke und _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Stadt und Mobilität“ spricht eine kleine Gruppe aus der Gemeinschaft über Verkehr, Strecke und Stau."
+                "text": "Stau"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "entscheiden"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «Im Thema „Stadt und Mobilität“ spricht eine kleine Gruppe aus der…» in «Stadt und Mobilität: Wortschatz»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Stadt und Mobilität“ spricht eine kleine Gruppe aus der Gemeinschaft über Verkehr, Strecke und Stau."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Person"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "entscheiden"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Stadt und Mobilität: Wortschatz»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Stadt und Mobilität“ spricht eine kleine Gruppe aus der Gemeinschaft über Verkehr, Strecke und Stau."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "klares"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "entscheiden"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Stadt und Mobilität: Wortschatz»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Stadt und Mobilität“ spricht eine kleine Gruppe aus der Gemeinschaft über Verkehr, Strecke und Stau."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "entscheiden"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Danach"
               }
             ]
           }
@@ -45466,42 +45501,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Stadt und Mobilität: Wortschatz»?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „Stadt und Mobilität“ spricht eine kleine Gruppe aus der Gemeinschaft über Verkehr, Strecke und _____.”",
         "options": [
-          "Im Thema „Stadt und Mobilität“ spricht eine kleine Gruppe aus der Gemeinschaft über Verkehr, Strecke und Stau.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Stau",
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "entscheiden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «Im Thema „Stadt und Mobilität“ spricht eine kleine Gruppe aus der…» in «Stadt und Mobilität: Wortschatz»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
         "options": [
-          "Im Thema „Stadt und Mobilität“ spricht eine kleine Gruppe aus der Gemeinschaft über Verkehr, Strecke und Stau.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Person",
+          "Gemeinschaft",
+          "entscheiden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Stadt und Mobilität: Wortschatz»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
         "options": [
-          "Im Thema „Stadt und Mobilität“ spricht eine kleine Gruppe aus der Gemeinschaft über Verkehr, Strecke und Stau.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "klares",
+          "entscheiden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Stadt und Mobilität: Wortschatz»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
         "options": [
-          "Im Thema „Stadt und Mobilität“ spricht eine kleine Gruppe aus der Gemeinschaft über Verkehr, Strecke und Stau.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "entscheiden",
+          "Danach"
         ]
       }
     ]
@@ -45796,92 +45831,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Bewusst reisen · Hörverstehen»?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Bewusst reisen vergleichen zwei Personen ihre _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Bewusst reisen vergleichen zwei Personen ihre Standpunkte."
+                "text": "Standpunkte"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass alloggio nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Personen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: imprevisto kann die Perspektive der Zuhörenden verändern."
+                "text": "isoliert"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "konkrete"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In dieser Sendung über Bewusst reisen vergleichen zwei Personen ihre…» in «Bewusst reisen · Hörverstehen»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass alloggio nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Bewusst reisen vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass alloggio nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "andere"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: imprevisto kann die Perspektive der Zuhörenden verändern."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "überprüfbaren"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Bewusst reisen · Hörverstehen»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: _____ kann die Perspektive der Zuhörenden verändern.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Bewusst reisen vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass alloggio nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: imprevisto kann die Perspektive der Zuhörenden verändern."
+                "text": "imprevisto"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "Sendung"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Bewusst reisen · Hörverstehen»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Bewusst reisen vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass alloggio nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: imprevisto kann die Perspektive der Zuhörenden verändern."
+                "text": "überprüfbaren"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "begründen"
               }
             ]
           }
@@ -45901,42 +45936,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Bewusst reisen · Hörverstehen»?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Bewusst reisen vergleichen zwei Personen ihre _____.”",
         "options": [
-          "In dieser Sendung über Bewusst reisen vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass alloggio nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: imprevisto kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Standpunkte",
+          "Personen",
+          "isoliert",
+          "konkrete"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In dieser Sendung über Bewusst reisen vergleichen zwei Personen ihre…» in «Bewusst reisen · Hörverstehen»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass alloggio nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
         "options": [
-          "In dieser Sendung über Bewusst reisen vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass alloggio nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: imprevisto kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "andere",
+          "Entscheidungen",
+          "überprüfbaren"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Bewusst reisen · Hörverstehen»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: _____ kann die Perspektive der Zuhörenden verändern.”",
         "options": [
-          "In dieser Sendung über Bewusst reisen vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass alloggio nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: imprevisto kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "Entscheidungen",
+          "imprevisto",
+          "Sendung"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Bewusst reisen · Hörverstehen»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
         "options": [
-          "In dieser Sendung über Bewusst reisen vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass alloggio nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: imprevisto kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "Entscheidungen",
+          "überprüfbaren",
+          "begründen"
         ]
       }
     ]
@@ -46003,92 +46038,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Wissenschaft und Vermittlung · Hörverstehen»?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Wissenschaft und Vermittlung vergleichen zwei Personen ihre _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Wissenschaft und Vermittlung vergleichen zwei Personen ihre Standpunkte."
+                "text": "Standpunkte"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass evidenza nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Personen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: modello kann die Perspektive der Zuhörenden verändern."
+                "text": "fenomeno"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "isoliert"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In dieser Sendung über Wissenschaft und Vermittlung vergleichen zwei…» in «Wissenschaft und Vermittlung · Hörverstehen»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass evidenza nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Wissenschaft und Vermittlung vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass evidenza nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "andere"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: modello kann die Perspektive der Zuhörenden verändern."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "überprüfbaren"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Wissenschaft und Vermittlung · Hörverstehen»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: _____ kann die Perspektive der Zuhörenden verändern.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Wissenschaft und Vermittlung vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass evidenza nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: modello kann die Perspektive der Zuhörenden verändern."
+                "text": "modello"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "überprüfbaren"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Wissenschaft und Vermittlung · Hörverstehen»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Wissenschaft und Vermittlung vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass evidenza nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: modello kann die Perspektive der Zuhörenden verändern."
+                "text": "überprüfbaren"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "begründen"
               }
             ]
           }
@@ -46108,42 +46143,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Wissenschaft und Vermittlung · Hörverstehen»?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Wissenschaft und Vermittlung vergleichen zwei Personen ihre _____.”",
         "options": [
-          "In dieser Sendung über Wissenschaft und Vermittlung vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass evidenza nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: modello kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Standpunkte",
+          "Personen",
+          "fenomeno",
+          "isoliert"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In dieser Sendung über Wissenschaft und Vermittlung vergleichen zwei…» in «Wissenschaft und Vermittlung · Hörverstehen»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass evidenza nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
         "options": [
-          "In dieser Sendung über Wissenschaft und Vermittlung vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass evidenza nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: modello kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "andere",
+          "Entscheidungen",
+          "überprüfbaren"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Wissenschaft und Vermittlung · Hörverstehen»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: _____ kann die Perspektive der Zuhörenden verändern.”",
         "options": [
-          "In dieser Sendung über Wissenschaft und Vermittlung vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass evidenza nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: modello kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "Entscheidungen",
+          "modello",
+          "überprüfbaren"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Wissenschaft und Vermittlung · Hörverstehen»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
         "options": [
-          "In dieser Sendung über Wissenschaft und Vermittlung vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass evidenza nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: modello kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "Entscheidungen",
+          "überprüfbaren",
+          "begründen"
         ]
       }
     ]
@@ -46210,92 +46245,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Wissenschaft und Verantwortung · Hörverstehen»?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Wissenschaft und Verantwortung vergleichen zwei Personen ihre _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Wissenschaft und Verantwortung vergleichen zwei Personen ihre Standpunkte."
+                "text": "Standpunkte"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass limite nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Personen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: replicare kann die Perspektive der Zuhörenden verändern."
+                "text": "isoliert"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "konkrete"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In dieser Sendung über Wissenschaft und Verantwortung vergleichen zwei…» in «Wissenschaft und Verantwortung · Hörverstehen»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass limite nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Wissenschaft und Verantwortung vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass limite nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "andere"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: replicare kann die Perspektive der Zuhörenden verändern."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "Verantwortung"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Wissenschaft und Verantwortung · Hörverstehen»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: _____ kann die Perspektive der Zuhörenden verändern.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Wissenschaft und Verantwortung vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass limite nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: replicare kann die Perspektive der Zuhörenden verändern."
+                "text": "replicare"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "Verantwortung"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Wissenschaft und Verantwortung · Hörverstehen»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Wissenschaft und Verantwortung vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass limite nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: replicare kann die Perspektive der Zuhörenden verändern."
+                "text": "Verantwortung"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "begründen"
               }
             ]
           }
@@ -46315,42 +46350,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Wissenschaft und Verantwortung · Hörverstehen»?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Wissenschaft und Verantwortung vergleichen zwei Personen ihre _____.”",
         "options": [
-          "In dieser Sendung über Wissenschaft und Verantwortung vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass limite nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: replicare kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Standpunkte",
+          "Personen",
+          "isoliert",
+          "konkrete"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In dieser Sendung über Wissenschaft und Verantwortung vergleichen zwei…» in «Wissenschaft und Verantwortung · Hörverstehen»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass limite nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
         "options": [
-          "In dieser Sendung über Wissenschaft und Verantwortung vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass limite nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: replicare kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "andere",
+          "Entscheidungen",
+          "Verantwortung"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Wissenschaft und Verantwortung · Hörverstehen»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: _____ kann die Perspektive der Zuhörenden verändern.”",
         "options": [
-          "In dieser Sendung über Wissenschaft und Verantwortung vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass limite nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: replicare kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "Entscheidungen",
+          "replicare",
+          "Verantwortung"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Wissenschaft und Verantwortung · Hörverstehen»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
         "options": [
-          "In dieser Sendung über Wissenschaft und Verantwortung vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass limite nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: replicare kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "Entscheidungen",
+          "Verantwortung",
+          "begründen"
         ]
       }
     ]
@@ -48687,60 +48722,64 @@
     "dialogue": [],
     "reading": {
       "title": "Unterwegs",
-      "text": "Valentina ist an den Hauptbahnhof. Dort trifft Valentina einen freundlichen Schaffner und sagt freundlich Hallo. Valentina möchte mit dem Zug reisen, deshalb hört sie gut zu und benutzt einfache Wörter. einen freundlichen Schaffner antwortet langsam und zeigt, was helfen kann.\n\nDanach sprechen beide über eine kleine Situation aus dem Alltag. Valentina stellt eine Frage, bekommt eine Antwort und sagt Danke. Bevor sie gehen, wiederholen sie die wichtigsten Wörter. So wird das nächste Gespräch leichter.",
+      "text": "Heute ist Anna in Berlin. Sie trifft Leon in ihrem Viertel und begrüßt ihn freundlich. Beide sprechen langsam und hören gut zu. Anna möchte Deutsch in einer echten Situation benutzen. Deshalb sagt sie einen einfachen Satz, und Leon antwortet ihr mit einem Lächeln.\n\nIm Gespräch benutzen sie wichtige Wörter aus der Lektion: Zug, Ticket, Abfahrt, Ankunft, Reise. Leon stellt eine einfache Frage, und Anna antwortet in Ruhe. Wenn sie ein Wort nicht versteht, fragt sie: „Kannst du das bitte wiederholen?\" Danach wiederholen beide die wichtigsten Wörter und finden zu jedem Wort ein kleines Beispiel.\n\nBevor Anna nach Hause geht, bedankt sie sich bei Leon. Sie sagt, dass Zuhören, Sprechen und Wiederholen ihr mehr Sicherheit geben. Leon stimmt zu und schlägt ein neues Treffen für morgen vor. Anna geht zufrieden nach Hause und schreibt die neuen Wörter des Tages in ihr Heft.",
       "questions": [
-        "Worum geht es im Text?",
-        "Was macht die Hauptperson zuerst?",
-        "Welche Rolle hat die zweite Person?",
-        "Warum arbeitet die Gruppe zusammen?",
-        "Was ist das gemeinsame Ziel?"
+        "Wo ist Anna?",
+        "Mit wem spricht Anna?",
+        "Was fragt Anna, wenn sie ein Wort nicht versteht?",
+        "Warum wiederholt Anna die Wörter?"
       ],
       "parts": [
-        "Valentina ist an den Hauptbahnhof. Dort trifft Valentina einen freundlichen Schaffner und sagt freundlich Hallo. Valentina möchte mit dem Zug reisen, deshalb hört sie gut zu und benutzt einfache Wörter. einen freundlichen Schaffner antwortet langsam und zeigt, was helfen kann.",
-        "Danach sprechen beide über eine kleine Situation aus dem Alltag. Valentina stellt eine Frage, bekommt eine Antwort und sagt Danke. Bevor sie gehen, wiederholen sie die wichtigsten Wörter. So wird das nächste Gespräch leichter."
+        "Heute ist Anna in Berlin. Sie trifft Leon in ihrem Viertel und begrüßt ihn freundlich. Beide sprechen langsam und hören gut zu. Anna möchte Deutsch in einer echten Situation benutzen. Deshalb sagt sie einen einfachen Satz, und Leon antwortet ihr mit einem Lächeln.",
+        "Im Gespräch benutzen sie wichtige Wörter aus der Lektion: Zug, Ticket, Abfahrt, Ankunft, Reise. Leon stellt eine einfache Frage, und Anna antwortet in Ruhe. Wenn sie ein Wort nicht versteht, fragt sie: „Kannst du das bitte wiederholen?\" Danach wiederholen beide die wichtigsten Wörter und finden zu jedem Wort ein kleines Beispiel.",
+        "Bevor Anna nach Hause geht, bedankt sie sich bei Leon. Sie sagt, dass Zuhören, Sprechen und Wiederholen ihr mehr Sicherheit geben. Leon stimmt zu und schlägt ein neues Treffen für morgen vor. Anna geht zufrieden nach Hause und schreibt die neuen Wörter des Tages in ihr Heft."
       ]
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
+        "id": "german-a1-unterwegs-reading-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Worüber spricht die Gruppe?",
+        "prompt": "Wo ist Anna?",
         "options": [
-          "Zug",
-          "warten",
-          "fahren",
-          "besuchen"
+          "Berlin",
+          "Hamburg",
+          "München",
+          "Köln"
         ]
       },
       {
+        "id": "german-a1-unterwegs-reading-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Was macht jede Person?",
+        "prompt": "Mit wem spricht Anna?",
         "options": [
-          "Erzählt von einer Erfahrung, hört zu und schlägt eine Lösung vor.",
-          "Kauft eine Eintrittskarte für eine Veranstaltung.",
-          "Hört den anderen Personen nicht zu.",
-          "Sagt das Projekt ab."
+          "Leon",
+          "Paul",
+          "Mia",
+          "Lukas"
         ]
       },
       {
+        "id": "german-a1-unterwegs-reading-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Warum arbeiten sie zusammen?",
+        "prompt": "Was fragt Anna, wenn sie ein Wort nicht versteht?",
         "options": [
-          "Weil sie ein klares Ziel haben.",
-          "Weil sie keine Zeit haben.",
-          "Weil sie das Thema nicht kennen.",
-          "Weil sie lieber allein arbeiten."
+          "Kannst du das bitte wiederholen?",
+          "Wo ist mein Zug?",
+          "Wie viel kostet das?",
+          "Wann beginnt die Schule?"
         ]
       },
       {
+        "id": "german-a1-unterwegs-reading-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Welche Idee hilft im Alltag?",
+        "prompt": "Warum wiederholt Anna die Wörter?",
         "options": [
-          "Eine konkrete Lösung, die gemeinsam umgesetzt wird.",
-          "Eine Liste ohne Zusammenhang.",
-          "Eine Diskussion ohne Ziel.",
-          "Eine Entscheidung von nur einer Person."
+          "Damit sie mehr Sicherheit hat",
+          "Damit sie nicht sprechen muss",
+          "Damit sie ein Ticket kauft",
+          "Damit sie Leon vermeidet"
         ]
       }
     ]
@@ -48881,12 +48920,12 @@
       {
         "id": "german-a2-stadt-und-service-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Stadt und Service“?",
+        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ fand die Erfahrung hilfreich, weil sie neue Wörter gelernt und mehr Mut bekommen hatte.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Stadt und Service darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Lukas",
+          "Woche",
+          "hatte",
+          "Letzte"
         ]
       }
     ]
@@ -49028,12 +49067,12 @@
       {
         "id": "german-b1-plane-fur-die-zukunft-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Pläne für die Zukunft“?",
+        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ möchte die Situation verantwortungsvoll verbessern und aus der Erfahrung lernen.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Pläne für die Zukunft darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Sie",
+          "Für",
+          "Weg",
+          "die"
         ]
       }
     ]
@@ -49127,34 +49166,34 @@
       {
         "id": "german-b2-b2-beziehungen-und-vermittlung-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Beziehungen und Vermittlung · Lesen“?",
+        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Beziehungen und Vermittlung · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "einzige",
+          "sondern",
+          "Antwort",
+          "Grenzen"
         ]
       },
       {
         "id": "german-b2-b2-beziehungen-und-vermittlung-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Welche Aussage fasst „Beziehungen und Vermittlung · Lesen“ am besten zusammen?",
+        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Beziehungen und Vermittlung · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Jede",
+          "soll",
+          "klar",
+          "Ende"
         ]
       },
       {
         "id": "german-b2-b2-beziehungen-und-vermittlung-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Beziehungen und Vermittlung · Lesen“?",
+        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Beziehungen und Vermittlung · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Der",
+          "und",
+          "die",
+          "ein"
         ]
       }
     ]
@@ -49248,34 +49287,34 @@
       {
         "id": "german-c1-c1-konflikt-und-verhandlung-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Konflikt und Verhandlung · Lesen“?",
+        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Konflikt und Verhandlung · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "einzige",
+          "sondern",
+          "Antwort",
+          "Grenzen"
         ]
       },
       {
         "id": "german-c1-c1-konflikt-und-verhandlung-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Welche Aussage fasst „Konflikt und Verhandlung · Lesen“ am besten zusammen?",
+        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Konflikt und Verhandlung · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Jede",
+          "soll",
+          "klar",
+          "Ende"
         ]
       },
       {
         "id": "german-c1-c1-konflikt-und-verhandlung-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Konflikt und Verhandlung · Lesen“?",
+        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Konflikt und Verhandlung · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Der",
+          "und",
+          "die",
+          "ein"
         ]
       }
     ]
@@ -49369,34 +49408,34 @@
       {
         "id": "german-c2-c2-alltagsphilosophie-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Alltagsphilosophie · Lesen“?",
+        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Alltagsphilosophie · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "einzige",
+          "sondern",
+          "Antwort",
+          "Grenzen"
         ]
       },
       {
         "id": "german-c2-c2-alltagsphilosophie-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Welche Aussage fasst „Alltagsphilosophie · Lesen“ am besten zusammen?",
+        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Alltagsphilosophie · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Jede",
+          "soll",
+          "klar",
+          "Ende"
         ]
       },
       {
         "id": "german-c2-c2-alltagsphilosophie-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Alltagsphilosophie · Lesen“?",
+        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Alltagsphilosophie · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Der",
+          "die",
+          "und",
+          "ein"
         ]
       }
     ]
@@ -50277,92 +50316,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «Unterwegs: Wortschatz», which detail establishes the situation?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „Unterwegs“ spricht eine kleine Gruppe aus der Gemeinschaft über Zug, Ticket und _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Unterwegs“ spricht eine kleine Gruppe aus der Gemeinschaft über Zug, Ticket und Abfahrt."
+                "text": "Abfahrt"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "entscheiden"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «Im Thema „Unterwegs“ spricht eine kleine Gruppe aus der Gemeinschaft…», what happens next in «Unterwegs: Wortschatz»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Unterwegs“ spricht eine kleine Gruppe aus der Gemeinschaft über Zug, Ticket und Abfahrt."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Person"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "entscheiden"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «Unterwegs: Wortschatz»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Unterwegs“ spricht eine kleine Gruppe aus der Gemeinschaft über Zug, Ticket und Abfahrt."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "klares"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "entscheiden"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «Unterwegs: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Unterwegs“ spricht eine kleine Gruppe aus der Gemeinschaft über Zug, Ticket und Abfahrt."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "entscheiden"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Danach"
               }
             ]
           }
@@ -50373,42 +50412,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «Unterwegs: Wortschatz», which detail establishes the situation?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „Unterwegs“ spricht eine kleine Gruppe aus der Gemeinschaft über Zug, Ticket und _____.”",
         "options": [
-          "Im Thema „Unterwegs“ spricht eine kleine Gruppe aus der Gemeinschaft über Zug, Ticket und Abfahrt.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Abfahrt",
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "entscheiden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «Im Thema „Unterwegs“ spricht eine kleine Gruppe aus der Gemeinschaft…», what happens next in «Unterwegs: Wortschatz»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
         "options": [
-          "Im Thema „Unterwegs“ spricht eine kleine Gruppe aus der Gemeinschaft über Zug, Ticket und Abfahrt.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Person",
+          "Gemeinschaft",
+          "entscheiden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «Unterwegs: Wortschatz»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
         "options": [
-          "Im Thema „Unterwegs“ spricht eine kleine Gruppe aus der Gemeinschaft über Zug, Ticket und Abfahrt.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "klares",
+          "entscheiden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «Unterwegs: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
         "options": [
-          "Im Thema „Unterwegs“ spricht eine kleine Gruppe aus der Gemeinschaft über Zug, Ticket und Abfahrt.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "entscheiden",
+          "Danach"
         ]
       }
     ]
@@ -50497,92 +50536,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «Stadt und Service: Wortschatz», which detail establishes the situation?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „Stadt und Service“ spricht eine kleine Gruppe aus der Gemeinschaft über Service, Formular und _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Stadt und Service“ spricht eine kleine Gruppe aus der Gemeinschaft über Service, Formular und Rathaus."
+                "text": "Rathaus"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "entscheiden"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «Im Thema „Stadt und Service“ spricht eine kleine Gruppe aus der…», what happens next in «Stadt und Service: Wortschatz»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Stadt und Service“ spricht eine kleine Gruppe aus der Gemeinschaft über Service, Formular und Rathaus."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Person"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "entscheiden"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «Stadt und Service: Wortschatz»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Stadt und Service“ spricht eine kleine Gruppe aus der Gemeinschaft über Service, Formular und Rathaus."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "klares"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "entscheiden"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «Stadt und Service: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Stadt und Service“ spricht eine kleine Gruppe aus der Gemeinschaft über Service, Formular und Rathaus."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "entscheiden"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Danach"
               }
             ]
           }
@@ -50593,42 +50632,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «Stadt und Service: Wortschatz», which detail establishes the situation?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „Stadt und Service“ spricht eine kleine Gruppe aus der Gemeinschaft über Service, Formular und _____.”",
         "options": [
-          "Im Thema „Stadt und Service“ spricht eine kleine Gruppe aus der Gemeinschaft über Service, Formular und Rathaus.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Rathaus",
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "entscheiden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «Im Thema „Stadt und Service“ spricht eine kleine Gruppe aus der…», what happens next in «Stadt und Service: Wortschatz»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
         "options": [
-          "Im Thema „Stadt und Service“ spricht eine kleine Gruppe aus der Gemeinschaft über Service, Formular und Rathaus.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Person",
+          "Gemeinschaft",
+          "entscheiden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «Stadt und Service: Wortschatz»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
         "options": [
-          "Im Thema „Stadt und Service“ spricht eine kleine Gruppe aus der Gemeinschaft über Service, Formular und Rathaus.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "klares",
+          "entscheiden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «Stadt und Service: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
         "options": [
-          "Im Thema „Stadt und Service“ spricht eine kleine Gruppe aus der Gemeinschaft über Service, Formular und Rathaus.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "entscheiden",
+          "Danach"
         ]
       }
     ]
@@ -50717,92 +50756,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Pläne für die Zukunft: Wortschatz»?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „Pläne für die Zukunft“ spricht eine kleine Gruppe aus der Gemeinschaft über Zukunft, Ziel und _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Pläne für die Zukunft“ spricht eine kleine Gruppe aus der Gemeinschaft über Zukunft, Ziel und Möglichkeit."
+                "text": "Möglichkeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "konkrete"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "zusammen"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «Im Thema „Pläne für die Zukunft“ spricht eine kleine Gruppe aus der…» in «Pläne für die Zukunft: Wortschatz»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Pläne für die Zukunft“ spricht eine kleine Gruppe aus der Gemeinschaft über Zukunft, Ziel und Möglichkeit."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Person"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Möglichkeit"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Pläne für die Zukunft: Wortschatz»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Pläne für die Zukunft“ spricht eine kleine Gruppe aus der Gemeinschaft über Zukunft, Ziel und Möglichkeit."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "klares"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Möglichkeit"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Pläne für die Zukunft: Wortschatz»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Pläne für die Zukunft“ spricht eine kleine Gruppe aus der Gemeinschaft über Zukunft, Ziel und Möglichkeit."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Möglichkeit"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Danach"
               }
             ]
           }
@@ -50813,42 +50852,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Pläne für die Zukunft: Wortschatz»?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „Pläne für die Zukunft“ spricht eine kleine Gruppe aus der Gemeinschaft über Zukunft, Ziel und _____.”",
         "options": [
-          "Im Thema „Pläne für die Zukunft“ spricht eine kleine Gruppe aus der Gemeinschaft über Zukunft, Ziel und Möglichkeit.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Möglichkeit",
+          "konkrete",
+          "Zusammenarbeit",
+          "zusammen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «Im Thema „Pläne für die Zukunft“ spricht eine kleine Gruppe aus der…» in «Pläne für die Zukunft: Wortschatz»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
         "options": [
-          "Im Thema „Pläne für die Zukunft“ spricht eine kleine Gruppe aus der Gemeinschaft über Zukunft, Ziel und Möglichkeit.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Person",
+          "Gemeinschaft",
+          "Möglichkeit"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Pläne für die Zukunft: Wortschatz»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
         "options": [
-          "Im Thema „Pläne für die Zukunft“ spricht eine kleine Gruppe aus der Gemeinschaft über Zukunft, Ziel und Möglichkeit.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "klares",
+          "Möglichkeit"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Pläne für die Zukunft: Wortschatz»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
         "options": [
-          "Im Thema „Pläne für die Zukunft“ spricht eine kleine Gruppe aus der Gemeinschaft über Zukunft, Ziel und Möglichkeit.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "Möglichkeit",
+          "Danach"
         ]
       }
     ]
@@ -51143,92 +51182,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Beziehungen und Vermittlung · Hörverstehen»?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Beziehungen und Vermittlung vergleichen zwei Personen ihre _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Beziehungen und Vermittlung vergleichen zwei Personen ihre Standpunkte."
+                "text": "Standpunkte"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass ascoltare nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Personen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: chiarire kann die Perspektive der Zuhörenden verändern."
+                "text": "equivoco"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "isoliert"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In dieser Sendung über Beziehungen und Vermittlung vergleichen zwei…» in «Beziehungen und Vermittlung · Hörverstehen»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass ascoltare nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Beziehungen und Vermittlung vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass ascoltare nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "andere"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: chiarire kann die Perspektive der Zuhörenden verändern."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "überprüfbaren"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Beziehungen und Vermittlung · Hörverstehen»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: _____ kann die Perspektive der Zuhörenden verändern.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Beziehungen und Vermittlung vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass ascoltare nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: chiarire kann die Perspektive der Zuhörenden verändern."
+                "text": "chiarire"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "überprüfbaren"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Beziehungen und Vermittlung · Hörverstehen»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Beziehungen und Vermittlung vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass ascoltare nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: chiarire kann die Perspektive der Zuhörenden verändern."
+                "text": "überprüfbaren"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "begründen"
               }
             ]
           }
@@ -51248,42 +51287,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Beziehungen und Vermittlung · Hörverstehen»?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Beziehungen und Vermittlung vergleichen zwei Personen ihre _____.”",
         "options": [
-          "In dieser Sendung über Beziehungen und Vermittlung vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass ascoltare nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: chiarire kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Standpunkte",
+          "Personen",
+          "equivoco",
+          "isoliert"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In dieser Sendung über Beziehungen und Vermittlung vergleichen zwei…» in «Beziehungen und Vermittlung · Hörverstehen»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass ascoltare nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
         "options": [
-          "In dieser Sendung über Beziehungen und Vermittlung vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass ascoltare nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: chiarire kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "andere",
+          "Entscheidungen",
+          "überprüfbaren"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Beziehungen und Vermittlung · Hörverstehen»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: _____ kann die Perspektive der Zuhörenden verändern.”",
         "options": [
-          "In dieser Sendung über Beziehungen und Vermittlung vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass ascoltare nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: chiarire kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "Entscheidungen",
+          "chiarire",
+          "überprüfbaren"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Beziehungen und Vermittlung · Hörverstehen»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
         "options": [
-          "In dieser Sendung über Beziehungen und Vermittlung vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass ascoltare nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: chiarire kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "Entscheidungen",
+          "überprüfbaren",
+          "begründen"
         ]
       }
     ]
@@ -51350,92 +51389,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Konflikt und Verhandlung · Hörverstehen»?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Konflikt und Verhandlung vergleichen zwei Personen ihre _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Konflikt und Verhandlung vergleichen zwei Personen ihre Standpunkte."
+                "text": "Standpunkte"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass compromesso nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Konflikt"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: vincolo kann die Perspektive der Zuhörenden verändern."
+                "text": "Personen"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "isoliert"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In dieser Sendung über Konflikt und Verhandlung vergleichen zwei…» in «Konflikt und Verhandlung · Hörverstehen»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass compromesso nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Konflikt und Verhandlung vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass compromesso nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "andere"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: vincolo kann die Perspektive der Zuhörenden verändern."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "überprüfbaren"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Konflikt und Verhandlung · Hörverstehen»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: _____ kann die Perspektive der Zuhörenden verändern.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Konflikt und Verhandlung vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass compromesso nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: vincolo kann die Perspektive der Zuhörenden verändern."
+                "text": "vincolo"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "überprüfbaren"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Konflikt und Verhandlung · Hörverstehen»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Konflikt und Verhandlung vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass compromesso nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: vincolo kann die Perspektive der Zuhörenden verändern."
+                "text": "überprüfbaren"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "begründen"
               }
             ]
           }
@@ -51455,42 +51494,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Konflikt und Verhandlung · Hörverstehen»?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Konflikt und Verhandlung vergleichen zwei Personen ihre _____.”",
         "options": [
-          "In dieser Sendung über Konflikt und Verhandlung vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass compromesso nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: vincolo kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Standpunkte",
+          "Konflikt",
+          "Personen",
+          "isoliert"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In dieser Sendung über Konflikt und Verhandlung vergleichen zwei…» in «Konflikt und Verhandlung · Hörverstehen»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass compromesso nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
         "options": [
-          "In dieser Sendung über Konflikt und Verhandlung vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass compromesso nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: vincolo kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "andere",
+          "Entscheidungen",
+          "überprüfbaren"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Konflikt und Verhandlung · Hörverstehen»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: _____ kann die Perspektive der Zuhörenden verändern.”",
         "options": [
-          "In dieser Sendung über Konflikt und Verhandlung vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass compromesso nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: vincolo kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "Entscheidungen",
+          "vincolo",
+          "überprüfbaren"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Konflikt und Verhandlung · Hörverstehen»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
         "options": [
-          "In dieser Sendung über Konflikt und Verhandlung vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass compromesso nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: vincolo kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "Entscheidungen",
+          "überprüfbaren",
+          "begründen"
         ]
       }
     ]
@@ -51557,92 +51596,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Alltagsphilosophie · Hörverstehen»?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Alltagsphilosophie vergleichen zwei Personen ihre _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Alltagsphilosophie vergleichen zwei Personen ihre Standpunkte."
+                "text": "Standpunkte"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass paradosso nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Alltagsphilosophie"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: argomentare kann die Perspektive der Zuhörenden verändern."
+                "text": "Personen"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "concetto"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In dieser Sendung über Alltagsphilosophie vergleichen zwei Personen…» in «Alltagsphilosophie · Hörverstehen»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass paradosso nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Alltagsphilosophie vergleichen zwei Personen ihre Standpunkte."
+                "text": "Alltagsphilosophie"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass paradosso nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "andere"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: argomentare kann die Perspektive der Zuhörenden verändern."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "Entscheidungen"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Alltagsphilosophie · Hörverstehen»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: _____ kann die Perspektive der Zuhörenden verändern.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Alltagsphilosophie vergleichen zwei Personen ihre Standpunkte."
+                "text": "Alltagsphilosophie"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass paradosso nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Personen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: argomentare kann die Perspektive der Zuhörenden verändern."
+                "text": "argomentare"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "concetto"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Alltagsphilosophie · Hörverstehen»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Alltagsphilosophie vergleichen zwei Personen ihre Standpunkte."
+                "text": "Alltagsphilosophie"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass paradosso nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: argomentare kann die Perspektive der Zuhörenden verändern."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "begründen"
               }
             ]
           }
@@ -51662,42 +51701,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Alltagsphilosophie · Hörverstehen»?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Alltagsphilosophie vergleichen zwei Personen ihre _____.”",
         "options": [
-          "In dieser Sendung über Alltagsphilosophie vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass paradosso nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: argomentare kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Standpunkte",
+          "Alltagsphilosophie",
+          "Personen",
+          "concetto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In dieser Sendung über Alltagsphilosophie vergleichen zwei Personen…» in «Alltagsphilosophie · Hörverstehen»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass paradosso nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
         "options": [
-          "In dieser Sendung über Alltagsphilosophie vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass paradosso nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: argomentare kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Alltagsphilosophie",
+          "andere",
+          "Aufmerksamkeit",
+          "Entscheidungen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Alltagsphilosophie · Hörverstehen»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: _____ kann die Perspektive der Zuhörenden verändern.”",
         "options": [
-          "In dieser Sendung über Alltagsphilosophie vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass paradosso nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: argomentare kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Alltagsphilosophie",
+          "Personen",
+          "argomentare",
+          "concetto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Alltagsphilosophie · Hörverstehen»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
         "options": [
-          "In dieser Sendung über Alltagsphilosophie vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass paradosso nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: argomentare kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Alltagsphilosophie",
+          "Aufmerksamkeit",
+          "Entscheidungen",
+          "begründen"
         ]
       }
     ]
@@ -54034,60 +54073,64 @@
     "dialogue": [],
     "reading": {
       "title": "Kleidung und Farben",
-      "text": "Lea ist an ein kleines Geschäft. Dort trifft Lea ihre Freundin Emma und sagt freundlich Hallo. Lea möchte Kleidung und Farben auswählen, deshalb hört sie gut zu und benutzt einfache Wörter. ihre Freundin Emma antwortet langsam und zeigt, was helfen kann.\n\nDanach sprechen beide über eine kleine Situation aus dem Alltag. Lea stellt eine Frage, bekommt eine Antwort und sagt Danke. Bevor sie gehen, wiederholen sie die wichtigsten Wörter. So wird das nächste Gespräch leichter.",
+      "text": "Heute ist Anna in Berlin. Sie trifft Leon in ihrem Viertel und begrüßt ihn freundlich. Beide sprechen langsam und hören gut zu. Anna möchte Deutsch in einer echten Situation benutzen. Deshalb sagt sie einen einfachen Satz, und Leon antwortet ihr mit einem Lächeln.\n\nIm Gespräch benutzen sie wichtige Wörter aus der Lektion: Kleidung, Hemd, Hose, Kleid, Farbe. Leon stellt eine einfache Frage, und Anna antwortet in Ruhe. Wenn sie ein Wort nicht versteht, fragt sie: „Kannst du das bitte wiederholen?\" Danach wiederholen beide die wichtigsten Wörter und finden zu jedem Wort ein kleines Beispiel.\n\nBevor Anna nach Hause geht, bedankt sie sich bei Leon. Sie sagt, dass Zuhören, Sprechen und Wiederholen ihr mehr Sicherheit geben. Leon stimmt zu und schlägt ein neues Treffen für morgen vor. Anna geht zufrieden nach Hause und schreibt die neuen Wörter des Tages in ihr Heft.",
       "questions": [
-        "Worum geht es im Text?",
-        "Was macht die Hauptperson zuerst?",
-        "Welche Rolle hat die zweite Person?",
-        "Warum arbeitet die Gruppe zusammen?",
-        "Was ist das gemeinsame Ziel?"
+        "Wo ist Anna?",
+        "Mit wem spricht Anna?",
+        "Was fragt Anna, wenn sie ein Wort nicht versteht?",
+        "Warum wiederholt Anna die Wörter?"
       ],
       "parts": [
-        "Lea ist an ein kleines Geschäft. Dort trifft Lea ihre Freundin Emma und sagt freundlich Hallo. Lea möchte Kleidung und Farben auswählen, deshalb hört sie gut zu und benutzt einfache Wörter. ihre Freundin Emma antwortet langsam und zeigt, was helfen kann.",
-        "Danach sprechen beide über eine kleine Situation aus dem Alltag. Lea stellt eine Frage, bekommt eine Antwort und sagt Danke. Bevor sie gehen, wiederholen sie die wichtigsten Wörter. So wird das nächste Gespräch leichter."
+        "Heute ist Anna in Berlin. Sie trifft Leon in ihrem Viertel und begrüßt ihn freundlich. Beide sprechen langsam und hören gut zu. Anna möchte Deutsch in einer echten Situation benutzen. Deshalb sagt sie einen einfachen Satz, und Leon antwortet ihr mit einem Lächeln.",
+        "Im Gespräch benutzen sie wichtige Wörter aus der Lektion: Kleidung, Hemd, Hose, Kleid, Farbe. Leon stellt eine einfache Frage, und Anna antwortet in Ruhe. Wenn sie ein Wort nicht versteht, fragt sie: „Kannst du das bitte wiederholen?\" Danach wiederholen beide die wichtigsten Wörter und finden zu jedem Wort ein kleines Beispiel.",
+        "Bevor Anna nach Hause geht, bedankt sie sich bei Leon. Sie sagt, dass Zuhören, Sprechen und Wiederholen ihr mehr Sicherheit geben. Leon stimmt zu und schlägt ein neues Treffen für morgen vor. Anna geht zufrieden nach Hause und schreibt die neuen Wörter des Tages in ihr Heft."
       ]
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
+        "id": "german-a1-kleidung-und-farben-reading-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Worüber spricht die Gruppe?",
+        "prompt": "Wo ist Anna?",
         "options": [
-          "Kleidung",
-          "tragen",
-          "passen",
-          "kaufen"
+          "Berlin",
+          "Hamburg",
+          "München",
+          "Köln"
         ]
       },
       {
+        "id": "german-a1-kleidung-und-farben-reading-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Was macht jede Person?",
+        "prompt": "Mit wem spricht Anna?",
         "options": [
-          "Erzählt von einer Erfahrung, hört zu und schlägt eine Lösung vor.",
-          "Kauft eine Eintrittskarte für eine Veranstaltung.",
-          "Hört den anderen Personen nicht zu.",
-          "Sagt das Projekt ab."
+          "Leon",
+          "Paul",
+          "Mia",
+          "Lukas"
         ]
       },
       {
+        "id": "german-a1-kleidung-und-farben-reading-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Warum arbeiten sie zusammen?",
+        "prompt": "Was fragt Anna, wenn sie ein Wort nicht versteht?",
         "options": [
-          "Weil sie ein klares Ziel haben.",
-          "Weil sie keine Zeit haben.",
-          "Weil sie das Thema nicht kennen.",
-          "Weil sie lieber allein arbeiten."
+          "Kannst du das bitte wiederholen?",
+          "Wo ist mein Zug?",
+          "Wie viel kostet das?",
+          "Wann beginnt die Schule?"
         ]
       },
       {
+        "id": "german-a1-kleidung-und-farben-reading-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Welche Idee hilft im Alltag?",
+        "prompt": "Warum wiederholt Anna die Wörter?",
         "options": [
-          "Eine konkrete Lösung, die gemeinsam umgesetzt wird.",
-          "Eine Liste ohne Zusammenhang.",
-          "Eine Diskussion ohne Ziel.",
-          "Eine Entscheidung von nur einer Person."
+          "Damit sie mehr Sicherheit hat",
+          "Damit sie nicht sprechen muss",
+          "Damit sie ein Ticket kauft",
+          "Damit sie Leon vermeidet"
         ]
       }
     ]
@@ -54228,12 +54271,12 @@
       {
         "id": "german-a2-feste-und-traditionen-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Feste und Traditionen“?",
+        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ fand die Erfahrung hilfreich, weil sie neue Wörter gelernt und mehr Mut bekommen hatte.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Feste und Traditionen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Amir",
+          "nach",
+          "fand",
+          "dass"
         ]
       }
     ]
@@ -54375,12 +54418,12 @@
       {
         "id": "german-b1-beziehungen-und-kommunikation-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Beziehungen und Kommunikation“?",
+        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ möchte die Situation verantwortungsvoll verbessern und aus der Erfahrung lernen.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Beziehungen und Kommunikation darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Sie",
+          "Für",
+          "und",
+          "ein"
         ]
       }
     ]
@@ -54474,34 +54517,34 @@
       {
         "id": "german-b2-b2-aktive-burgerschaft-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Aktive Bürgerschaft · Lesen“?",
+        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Aktive Bürgerschaft · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "einzige",
+          "sondern",
+          "Antwort",
+          "Grenzen"
         ]
       },
       {
         "id": "german-b2-b2-aktive-burgerschaft-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Welche Aussage fasst „Aktive Bürgerschaft · Lesen“ am besten zusammen?",
+        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Aktive Bürgerschaft · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Jede",
+          "soll",
+          "klar",
+          "Ende"
         ]
       },
       {
         "id": "german-b2-b2-aktive-burgerschaft-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Aktive Bürgerschaft · Lesen“?",
+        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Aktive Bürgerschaft · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Der",
+          "die",
+          "und",
+          "ein"
         ]
       }
     ]
@@ -54595,34 +54638,34 @@
       {
         "id": "german-c1-c1-literatur-und-stimme-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Literatur und Stimme · Lesen“?",
+        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Literatur und Stimme · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "einzige",
+          "sondern",
+          "Antwort",
+          "Grenzen"
         ]
       },
       {
         "id": "german-c1-c1-literatur-und-stimme-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Welche Aussage fasst „Literatur und Stimme · Lesen“ am besten zusammen?",
+        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Literatur und Stimme · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "tono",
+          "Jede",
+          "soll",
+          "Ende"
         ]
       },
       {
         "id": "german-c1-c1-literatur-und-stimme-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Literatur und Stimme · Lesen“?",
+        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Literatur und Stimme · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Der",
+          "und",
+          "die",
+          "ein"
         ]
       }
     ]
@@ -54716,34 +54759,34 @@
       {
         "id": "german-c2-c2-interkulturelle-vermittlung-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Interkulturelle Vermittlung · Lesen“?",
+        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Interkulturelle Vermittlung · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "einzige",
+          "sondern",
+          "Antwort",
+          "Grenzen"
         ]
       },
       {
         "id": "german-c2-c2-interkulturelle-vermittlung-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Welche Aussage fasst „Interkulturelle Vermittlung · Lesen“ am besten zusammen?",
+        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Interkulturelle Vermittlung · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Jede",
+          "soll",
+          "klar",
+          "Ende"
         ]
       },
       {
         "id": "german-c2-c2-interkulturelle-vermittlung-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Interkulturelle Vermittlung · Lesen“?",
+        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Interkulturelle Vermittlung · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Der",
+          "die",
+          "und",
+          "ein"
         ]
       }
     ]
@@ -55624,92 +55667,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «Kleidung und Farben: Wortschatz», which detail establishes the situation?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „Kleidung und Farben“ spricht eine kleine Gruppe aus der Gemeinschaft über Kleidung, Hemd und _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Kleidung und Farben“ spricht eine kleine Gruppe aus der Gemeinschaft über Kleidung, Hemd und Hose."
+                "text": "Hose"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "entscheiden"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «Im Thema „Kleidung und Farben“ spricht eine kleine Gruppe aus der…», what happens next in «Kleidung und Farben: Wortschatz»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Kleidung und Farben“ spricht eine kleine Gruppe aus der Gemeinschaft über Kleidung, Hemd und Hose."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Person"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "entscheiden"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «Kleidung und Farben: Wortschatz»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Kleidung und Farben“ spricht eine kleine Gruppe aus der Gemeinschaft über Kleidung, Hemd und Hose."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "klares"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "entscheiden"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «Kleidung und Farben: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Kleidung und Farben“ spricht eine kleine Gruppe aus der Gemeinschaft über Kleidung, Hemd und Hose."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "entscheiden"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Danach"
               }
             ]
           }
@@ -55720,42 +55763,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «Kleidung und Farben: Wortschatz», which detail establishes the situation?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „Kleidung und Farben“ spricht eine kleine Gruppe aus der Gemeinschaft über Kleidung, Hemd und _____.”",
         "options": [
-          "Im Thema „Kleidung und Farben“ spricht eine kleine Gruppe aus der Gemeinschaft über Kleidung, Hemd und Hose.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Hose",
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "entscheiden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «Im Thema „Kleidung und Farben“ spricht eine kleine Gruppe aus der…», what happens next in «Kleidung und Farben: Wortschatz»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
         "options": [
-          "Im Thema „Kleidung und Farben“ spricht eine kleine Gruppe aus der Gemeinschaft über Kleidung, Hemd und Hose.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Person",
+          "Gemeinschaft",
+          "entscheiden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «Kleidung und Farben: Wortschatz»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
         "options": [
-          "Im Thema „Kleidung und Farben“ spricht eine kleine Gruppe aus der Gemeinschaft über Kleidung, Hemd und Hose.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "klares",
+          "entscheiden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «Kleidung und Farben: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
         "options": [
-          "Im Thema „Kleidung und Farben“ spricht eine kleine Gruppe aus der Gemeinschaft über Kleidung, Hemd und Hose.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "entscheiden",
+          "Danach"
         ]
       }
     ]
@@ -55844,92 +55887,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «Feste und Traditionen: Wortschatz», which detail establishes the situation?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „Feste und Traditionen“ spricht eine kleine Gruppe aus der Gemeinschaft über Fest, Tradition und _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Feste und Traditionen“ spricht eine kleine Gruppe aus der Gemeinschaft über Fest, Tradition und feiern."
+                "text": "feiern"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Traditionen"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «Im Thema „Feste und Traditionen“ spricht eine kleine Gruppe aus der…», what happens next in «Feste und Traditionen: Wortschatz»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Feste und Traditionen“ spricht eine kleine Gruppe aus der Gemeinschaft über Fest, Tradition und feiern."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Person"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Traditionen"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «Feste und Traditionen: Wortschatz»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Feste und Traditionen“ spricht eine kleine Gruppe aus der Gemeinschaft über Fest, Tradition und feiern."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "klares"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Traditionen"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «Feste und Traditionen: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Feste und Traditionen“ spricht eine kleine Gruppe aus der Gemeinschaft über Fest, Tradition und feiern."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Traditionen"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Danach"
               }
             ]
           }
@@ -55940,42 +55983,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «Feste und Traditionen: Wortschatz», which detail establishes the situation?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „Feste und Traditionen“ spricht eine kleine Gruppe aus der Gemeinschaft über Fest, Tradition und _____.”",
         "options": [
-          "Im Thema „Feste und Traditionen“ spricht eine kleine Gruppe aus der Gemeinschaft über Fest, Tradition und feiern.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "feiern",
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "Traditionen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «Im Thema „Feste und Traditionen“ spricht eine kleine Gruppe aus der…», what happens next in «Feste und Traditionen: Wortschatz»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
         "options": [
-          "Im Thema „Feste und Traditionen“ spricht eine kleine Gruppe aus der Gemeinschaft über Fest, Tradition und feiern.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Person",
+          "Gemeinschaft",
+          "Traditionen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «Feste und Traditionen: Wortschatz»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
         "options": [
-          "Im Thema „Feste und Traditionen“ spricht eine kleine Gruppe aus der Gemeinschaft über Fest, Tradition und feiern.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "klares",
+          "Traditionen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «Feste und Traditionen: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
         "options": [
-          "Im Thema „Feste und Traditionen“ spricht eine kleine Gruppe aus der Gemeinschaft über Fest, Tradition und feiern.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "Traditionen",
+          "Danach"
         ]
       }
     ]
@@ -56064,92 +56107,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Beziehungen und Kommunikation: Wortschatz»?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „Beziehungen und Kommunikation“ spricht eine kleine Gruppe aus der Gemeinschaft über Beziehung, zuhören und _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Beziehungen und Kommunikation“ spricht eine kleine Gruppe aus der Gemeinschaft über Beziehung, zuhören und erklären."
+                "text": "erklären"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Kommunikation"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Gemeinschaft"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «Im Thema „Beziehungen und Kommunikation“ spricht eine kleine Gruppe…» in «Beziehungen und Kommunikation: Wortschatz»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Beziehungen und Kommunikation“ spricht eine kleine Gruppe aus der Gemeinschaft über Beziehung, zuhören und erklären."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Person"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Kommunikation"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Gemeinschaft"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Beziehungen und Kommunikation: Wortschatz»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Beziehungen und Kommunikation“ spricht eine kleine Gruppe aus der Gemeinschaft über Beziehung, zuhören und erklären."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Kommunikation"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "klares"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Gemeinschaft"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Beziehungen und Kommunikation: Wortschatz»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Beziehungen und Kommunikation“ spricht eine kleine Gruppe aus der Gemeinschaft über Beziehung, zuhören und erklären."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Kommunikation"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Danach"
               }
             ]
           }
@@ -56160,42 +56203,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Beziehungen und Kommunikation: Wortschatz»?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „Beziehungen und Kommunikation“ spricht eine kleine Gruppe aus der Gemeinschaft über Beziehung, zuhören und _____.”",
         "options": [
-          "Im Thema „Beziehungen und Kommunikation“ spricht eine kleine Gruppe aus der Gemeinschaft über Beziehung, zuhören und erklären.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "erklären",
+          "Zusammenarbeit",
+          "Kommunikation",
+          "Gemeinschaft"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «Im Thema „Beziehungen und Kommunikation“ spricht eine kleine Gruppe…» in «Beziehungen und Kommunikation: Wortschatz»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
         "options": [
-          "Im Thema „Beziehungen und Kommunikation“ spricht eine kleine Gruppe aus der Gemeinschaft über Beziehung, zuhören und erklären.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Person",
+          "Kommunikation",
+          "Gemeinschaft"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Beziehungen und Kommunikation: Wortschatz»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
         "options": [
-          "Im Thema „Beziehungen und Kommunikation“ spricht eine kleine Gruppe aus der Gemeinschaft über Beziehung, zuhören und erklären.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Kommunikation",
+          "klares",
+          "Gemeinschaft"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Beziehungen und Kommunikation: Wortschatz»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
         "options": [
-          "Im Thema „Beziehungen und Kommunikation“ spricht eine kleine Gruppe aus der Gemeinschaft über Beziehung, zuhören und erklären.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Kommunikation",
+          "Gemeinschaft",
+          "Danach"
         ]
       }
     ]
@@ -56490,92 +56533,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Aktive Bürgerschaft · Hörverstehen»?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Aktive Bürgerschaft vergleichen zwei Personen ihre _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Aktive Bürgerschaft vergleichen zwei Personen ihre Standpunkte."
+                "text": "Standpunkte"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass quartiere nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Personen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: partecipare kann die Perspektive der Zuhörenden verändern."
+                "text": "isoliert"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "konkrete"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In dieser Sendung über Aktive Bürgerschaft vergleichen zwei Personen…» in «Aktive Bürgerschaft · Hörverstehen»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass quartiere nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Aktive Bürgerschaft vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass quartiere nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "andere"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: partecipare kann die Perspektive der Zuhörenden verändern."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "überprüfbaren"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Aktive Bürgerschaft · Hörverstehen»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: _____ kann die Perspektive der Zuhörenden verändern.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Aktive Bürgerschaft vergleichen zwei Personen ihre Standpunkte."
+                "text": "Personen"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass quartiere nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "isoliert"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: partecipare kann die Perspektive der Zuhörenden verändern."
+                "text": "partecipare"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "konkrete"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Aktive Bürgerschaft · Hörverstehen»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Aktive Bürgerschaft vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass quartiere nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: partecipare kann die Perspektive der Zuhörenden verändern."
+                "text": "überprüfbaren"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "begründen"
               }
             ]
           }
@@ -56595,42 +56638,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Aktive Bürgerschaft · Hörverstehen»?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Aktive Bürgerschaft vergleichen zwei Personen ihre _____.”",
         "options": [
-          "In dieser Sendung über Aktive Bürgerschaft vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass quartiere nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: partecipare kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Standpunkte",
+          "Personen",
+          "isoliert",
+          "konkrete"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In dieser Sendung über Aktive Bürgerschaft vergleichen zwei Personen…» in «Aktive Bürgerschaft · Hörverstehen»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass quartiere nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
         "options": [
-          "In dieser Sendung über Aktive Bürgerschaft vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass quartiere nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: partecipare kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "andere",
+          "Entscheidungen",
+          "überprüfbaren"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Aktive Bürgerschaft · Hörverstehen»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: _____ kann die Perspektive der Zuhörenden verändern.”",
         "options": [
-          "In dieser Sendung über Aktive Bürgerschaft vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass quartiere nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: partecipare kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Personen",
+          "isoliert",
+          "partecipare",
+          "konkrete"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Aktive Bürgerschaft · Hörverstehen»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
         "options": [
-          "In dieser Sendung über Aktive Bürgerschaft vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass quartiere nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: partecipare kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "Entscheidungen",
+          "überprüfbaren",
+          "begründen"
         ]
       }
     ]
@@ -56697,92 +56740,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Literatur und Stimme · Hörverstehen»?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Literatur und Stimme vergleichen zwei Personen ihre _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Literatur und Stimme vergleichen zwei Personen ihre Standpunkte."
+                "text": "Standpunkte"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass tono nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Personen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: metafora kann die Perspektive der Zuhörenden verändern."
+                "text": "isoliert"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "konkrete"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In dieser Sendung über Literatur und Stimme vergleichen zwei Personen…» in «Literatur und Stimme · Hörverstehen»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass tono nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Literatur und Stimme vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass tono nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "andere"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: metafora kann die Perspektive der Zuhörenden verändern."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "überprüfbaren"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Literatur und Stimme · Hörverstehen»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: _____ kann die Perspektive der Zuhörenden verändern.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Literatur und Stimme vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass tono nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: metafora kann die Perspektive der Zuhörenden verändern."
+                "text": "metafora"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "überprüfbaren"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Literatur und Stimme · Hörverstehen»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Literatur und Stimme vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass tono nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: metafora kann die Perspektive der Zuhörenden verändern."
+                "text": "überprüfbaren"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "begründen"
               }
             ]
           }
@@ -56802,42 +56845,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Literatur und Stimme · Hörverstehen»?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Literatur und Stimme vergleichen zwei Personen ihre _____.”",
         "options": [
-          "In dieser Sendung über Literatur und Stimme vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass tono nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: metafora kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Standpunkte",
+          "Personen",
+          "isoliert",
+          "konkrete"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In dieser Sendung über Literatur und Stimme vergleichen zwei Personen…» in «Literatur und Stimme · Hörverstehen»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass tono nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
         "options": [
-          "In dieser Sendung über Literatur und Stimme vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass tono nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: metafora kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "andere",
+          "Entscheidungen",
+          "überprüfbaren"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Literatur und Stimme · Hörverstehen»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: _____ kann die Perspektive der Zuhörenden verändern.”",
         "options": [
-          "In dieser Sendung über Literatur und Stimme vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass tono nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: metafora kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "Entscheidungen",
+          "metafora",
+          "überprüfbaren"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Literatur und Stimme · Hörverstehen»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
         "options": [
-          "In dieser Sendung über Literatur und Stimme vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass tono nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: metafora kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "Entscheidungen",
+          "überprüfbaren",
+          "begründen"
         ]
       }
     ]
@@ -56904,92 +56947,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Interkulturelle Vermittlung · Hörverstehen»?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Interkulturelle Vermittlung vergleichen zwei Personen ihre _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Interkulturelle Vermittlung vergleichen zwei Personen ihre Standpunkte."
+                "text": "Standpunkte"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass contesto nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Interkulturelle"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: equivoco kann die Perspektive der Zuhörenden verändern."
+                "text": "Personen"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "isoliert"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In dieser Sendung über Interkulturelle Vermittlung vergleichen zwei…» in «Interkulturelle Vermittlung · Hörverstehen»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass contesto nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Interkulturelle Vermittlung vergleichen zwei Personen ihre Standpunkte."
+                "text": "Interkulturelle"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass contesto nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "andere"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: equivoco kann die Perspektive der Zuhörenden verändern."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "Entscheidungen"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Interkulturelle Vermittlung · Hörverstehen»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: _____ kann die Perspektive der Zuhörenden verändern.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Interkulturelle Vermittlung vergleichen zwei Personen ihre Standpunkte."
+                "text": "Interkulturelle"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass contesto nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: equivoco kann die Perspektive der Zuhörenden verändern."
+                "text": "equivoco"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "Entscheidungen"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Interkulturelle Vermittlung · Hörverstehen»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Interkulturelle Vermittlung vergleichen zwei Personen ihre Standpunkte."
+                "text": "Interkulturelle"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass contesto nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: equivoco kann die Perspektive der Zuhörenden verändern."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "begründen"
               }
             ]
           }
@@ -57009,42 +57052,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Interkulturelle Vermittlung · Hörverstehen»?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Interkulturelle Vermittlung vergleichen zwei Personen ihre _____.”",
         "options": [
-          "In dieser Sendung über Interkulturelle Vermittlung vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass contesto nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: equivoco kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Standpunkte",
+          "Interkulturelle",
+          "Personen",
+          "isoliert"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In dieser Sendung über Interkulturelle Vermittlung vergleichen zwei…» in «Interkulturelle Vermittlung · Hörverstehen»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass contesto nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
         "options": [
-          "In dieser Sendung über Interkulturelle Vermittlung vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass contesto nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: equivoco kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Interkulturelle",
+          "andere",
+          "Aufmerksamkeit",
+          "Entscheidungen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Interkulturelle Vermittlung · Hörverstehen»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: _____ kann die Perspektive der Zuhörenden verändern.”",
         "options": [
-          "In dieser Sendung über Interkulturelle Vermittlung vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass contesto nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: equivoco kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Interkulturelle",
+          "Aufmerksamkeit",
+          "equivoco",
+          "Entscheidungen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Interkulturelle Vermittlung · Hörverstehen»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
         "options": [
-          "In dieser Sendung über Interkulturelle Vermittlung vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass contesto nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: equivoco kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Interkulturelle",
+          "Aufmerksamkeit",
+          "Entscheidungen",
+          "begründen"
         ]
       }
     ]
@@ -59381,60 +59424,64 @@
     "dialogue": [],
     "reading": {
       "title": "Geburtstag und Einladung",
-      "text": "Jonas ist an eine Geburtstagsfeier. Dort trifft Jonas seinen Cousin und sagt freundlich Hallo. Jonas möchte eine Einladung verstehen, deshalb hört sie gut zu und benutzt einfache Wörter. seinen Cousin antwortet langsam und zeigt, was helfen kann.\n\nDanach sprechen beide über eine kleine Situation aus dem Alltag. Jonas stellt eine Frage, bekommt eine Antwort und sagt Danke. Bevor sie gehen, wiederholen sie die wichtigsten Wörter. So wird das nächste Gespräch leichter.",
+      "text": "Heute ist Anna in Berlin. Sie trifft Leon in ihrem Viertel und begrüßt ihn freundlich. Beide sprechen langsam und hören gut zu. Anna möchte Deutsch in einer echten Situation benutzen. Deshalb sagt sie einen einfachen Satz, und Leon antwortet ihr mit einem Lächeln.\n\nIm Gespräch benutzen sie wichtige Wörter aus der Lektion: Geburtstag, Einladung, feiern, Uhr, heute. Leon stellt eine einfache Frage, und Anna antwortet in Ruhe. Wenn sie ein Wort nicht versteht, fragt sie: „Kannst du das bitte wiederholen?\" Danach wiederholen beide die wichtigsten Wörter und finden zu jedem Wort ein kleines Beispiel.\n\nBevor Anna nach Hause geht, bedankt sie sich bei Leon. Sie sagt, dass Zuhören, Sprechen und Wiederholen ihr mehr Sicherheit geben. Leon stimmt zu und schlägt ein neues Treffen für morgen vor. Anna geht zufrieden nach Hause und schreibt die neuen Wörter des Tages in ihr Heft.",
       "questions": [
-        "Worum geht es im Text?",
-        "Was macht die Hauptperson zuerst?",
-        "Welche Rolle hat die zweite Person?",
-        "Warum arbeitet die Gruppe zusammen?",
-        "Was ist das gemeinsame Ziel?"
+        "Wo ist Anna?",
+        "Mit wem spricht Anna?",
+        "Was fragt Anna, wenn sie ein Wort nicht versteht?",
+        "Warum wiederholt Anna die Wörter?"
       ],
       "parts": [
-        "Jonas ist an eine Geburtstagsfeier. Dort trifft Jonas seinen Cousin und sagt freundlich Hallo. Jonas möchte eine Einladung verstehen, deshalb hört sie gut zu und benutzt einfache Wörter. seinen Cousin antwortet langsam und zeigt, was helfen kann.",
-        "Danach sprechen beide über eine kleine Situation aus dem Alltag. Jonas stellt eine Frage, bekommt eine Antwort und sagt Danke. Bevor sie gehen, wiederholen sie die wichtigsten Wörter. So wird das nächste Gespräch leichter."
+        "Heute ist Anna in Berlin. Sie trifft Leon in ihrem Viertel und begrüßt ihn freundlich. Beide sprechen langsam und hören gut zu. Anna möchte Deutsch in einer echten Situation benutzen. Deshalb sagt sie einen einfachen Satz, und Leon antwortet ihr mit einem Lächeln.",
+        "Im Gespräch benutzen sie wichtige Wörter aus der Lektion: Geburtstag, Einladung, feiern, Uhr, heute. Leon stellt eine einfache Frage, und Anna antwortet in Ruhe. Wenn sie ein Wort nicht versteht, fragt sie: „Kannst du das bitte wiederholen?\" Danach wiederholen beide die wichtigsten Wörter und finden zu jedem Wort ein kleines Beispiel.",
+        "Bevor Anna nach Hause geht, bedankt sie sich bei Leon. Sie sagt, dass Zuhören, Sprechen und Wiederholen ihr mehr Sicherheit geben. Leon stimmt zu und schlägt ein neues Treffen für morgen vor. Anna geht zufrieden nach Hause und schreibt die neuen Wörter des Tages in ihr Heft."
       ]
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
+        "id": "german-a1-geburtstag-und-einladung-reading-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Worüber spricht die Gruppe?",
+        "prompt": "Wo ist Anna?",
         "options": [
-          "Geburtstag",
-          "kommen",
-          "bringen",
-          "Geschenk"
+          "Berlin",
+          "Hamburg",
+          "München",
+          "Köln"
         ]
       },
       {
+        "id": "german-a1-geburtstag-und-einladung-reading-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Was macht jede Person?",
+        "prompt": "Mit wem spricht Anna?",
         "options": [
-          "Erzählt von einer Erfahrung, hört zu und schlägt eine Lösung vor.",
-          "Kauft eine Eintrittskarte für eine Veranstaltung.",
-          "Hört den anderen Personen nicht zu.",
-          "Sagt das Projekt ab."
+          "Leon",
+          "Paul",
+          "Mia",
+          "Lukas"
         ]
       },
       {
+        "id": "german-a1-geburtstag-und-einladung-reading-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Warum arbeiten sie zusammen?",
+        "prompt": "Was fragt Anna, wenn sie ein Wort nicht versteht?",
         "options": [
-          "Weil sie ein klares Ziel haben.",
-          "Weil sie keine Zeit haben.",
-          "Weil sie das Thema nicht kennen.",
-          "Weil sie lieber allein arbeiten."
+          "Kannst du das bitte wiederholen?",
+          "Wo ist mein Zug?",
+          "Wie viel kostet das?",
+          "Wann beginnt die Schule?"
         ]
       },
       {
+        "id": "german-a1-geburtstag-und-einladung-reading-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Welche Idee hilft im Alltag?",
+        "prompt": "Warum wiederholt Anna die Wörter?",
         "options": [
-          "Eine konkrete Lösung, die gemeinsam umgesetzt wird.",
-          "Eine Liste ohne Zusammenhang.",
-          "Eine Diskussion ohne Ziel.",
-          "Eine Entscheidung von nur einer Person."
+          "Damit sie mehr Sicherheit hat",
+          "Damit sie nicht sprechen muss",
+          "Damit sie ein Ticket kauft",
+          "Damit sie Leon vermeidet"
         ]
       }
     ]
@@ -59575,12 +59622,12 @@
       {
         "id": "german-a2-wohnungssuche-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Wohnungssuche“?",
+        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ fand die Erfahrung hilfreich, weil sie neue Wörter gelernt und mehr Mut bekommen hatte.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Wohnungssuche darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Ricarda",
+          "Deshalb",
+          "Während",
+          "zuhörte"
         ]
       }
     ]
@@ -59722,12 +59769,12 @@
       {
         "id": "german-b1-gesellschaft-und-mitwirkung-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Gesellschaft und Mitwirkung“?",
+        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ möchte die Situation verantwortungsvoll verbessern und aus der Erfahrung lernen.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Gesellschaft und Mitwirkung darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Sie",
+          "Für",
+          "vor",
+          "von"
         ]
       }
     ]
@@ -59821,34 +59868,34 @@
       {
         "id": "german-b2-b2-bilanz-und-perspektiven-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Bilanz und Perspektiven · Lesen“?",
+        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Bilanz und Perspektiven · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "einzige",
+          "sondern",
+          "Antwort",
+          "Grenzen"
         ]
       },
       {
         "id": "german-b2-b2-bilanz-und-perspektiven-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Welche Aussage fasst „Bilanz und Perspektiven · Lesen“ am besten zusammen?",
+        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Bilanz und Perspektiven · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Jede",
+          "soll",
+          "klar",
+          "Ende"
         ]
       },
       {
         "id": "german-b2-b2-bilanz-und-perspektiven-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Bilanz und Perspektiven · Lesen“?",
+        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Bilanz und Perspektiven · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Der",
+          "und",
+          "die",
+          "ein"
         ]
       }
     ]
@@ -59942,34 +59989,34 @@
       {
         "id": "german-c1-c1-personliches-projekt-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Persönliches Projekt · Lesen“?",
+        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Persönliches Projekt · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Projekt",
+          "visione",
+          "Antwort",
+          "einzige"
         ]
       },
       {
         "id": "german-c1-c1-personliches-projekt-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Welche Aussage fasst „Persönliches Projekt · Lesen“ am besten zusammen?",
+        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Persönliches Projekt · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Jede",
+          "soll",
+          "klar",
+          "Ende"
         ]
       },
       {
         "id": "german-c1-c1-personliches-projekt-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Persönliches Projekt · Lesen“?",
+        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Persönliches Projekt · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Der",
+          "die",
+          "und",
+          "ein"
         ]
       }
     ]
@@ -60063,34 +60110,34 @@
       {
         "id": "german-c2-c2-synthese-und-vorschlag-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Synthese und Vorschlag · Lesen“?",
+        "prompt": "Wähle das fehlende Wort aus der Lektüre.\n\n“Die Diskussion sucht keine einzige _____, sondern verbindet Folgen, Grenzen und mögliche Lösungen.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Synthese und Vorschlag · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "sintesi",
+          "einzige",
+          "Antwort",
+          "sondern"
         ]
       },
       {
         "id": "german-c2-c2-synthese-und-vorschlag-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Welche Aussage fasst „Synthese und Vorschlag · Lesen“ am besten zusammen?",
+        "prompt": "Welches genaue Wort fehlt in diesem Detail?\n\n“Am _____ formuliert die Gruppe eine gemeinsame Zusammenfassung.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Synthese und Vorschlag · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Jede",
+          "soll",
+          "klar",
+          "Ende"
         ]
       },
       {
         "id": "german-c2-c2-synthese-und-vorschlag-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Synthese und Vorschlag · Lesen“?",
+        "prompt": "Welches Wort gehört laut Text in die Lücke?\n\n“_____ Vorschlag soll klar, umsetzbar und gegenüber verschiedenen Sichtweisen respektvoll sein.”",
         "options": [
-          "Die wichtigsten Ideen und Details von Synthese und Vorschlag · Lesen darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Der",
+          "und",
+          "die",
+          "ein"
         ]
       }
     ]
@@ -60971,92 +61018,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «Geburtstag und Einladung: Wortschatz», which detail establishes the situation?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „Geburtstag und Einladung“ spricht eine kleine Gruppe aus der Gemeinschaft über Geburtstag, Einladung und _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Geburtstag und Einladung“ spricht eine kleine Gruppe aus der Gemeinschaft über Geburtstag, Einladung und feiern."
+                "text": "feiern"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "entscheiden"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «Im Thema „Geburtstag und Einladung“ spricht eine kleine Gruppe aus der…», what happens next in «Geburtstag und Einladung: Wortschatz»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Geburtstag und Einladung“ spricht eine kleine Gruppe aus der Gemeinschaft über Geburtstag, Einladung und feiern."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Person"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "entscheiden"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «Geburtstag und Einladung: Wortschatz»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Geburtstag und Einladung“ spricht eine kleine Gruppe aus der Gemeinschaft über Geburtstag, Einladung und feiern."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "klares"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "entscheiden"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «Geburtstag und Einladung: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Geburtstag und Einladung“ spricht eine kleine Gruppe aus der Gemeinschaft über Geburtstag, Einladung und feiern."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "entscheiden"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Danach"
               }
             ]
           }
@@ -61067,42 +61114,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «Geburtstag und Einladung: Wortschatz», which detail establishes the situation?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „Geburtstag und Einladung“ spricht eine kleine Gruppe aus der Gemeinschaft über Geburtstag, Einladung und _____.”",
         "options": [
-          "Im Thema „Geburtstag und Einladung“ spricht eine kleine Gruppe aus der Gemeinschaft über Geburtstag, Einladung und feiern.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "feiern",
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "entscheiden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «Im Thema „Geburtstag und Einladung“ spricht eine kleine Gruppe aus der…», what happens next in «Geburtstag und Einladung: Wortschatz»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
         "options": [
-          "Im Thema „Geburtstag und Einladung“ spricht eine kleine Gruppe aus der Gemeinschaft über Geburtstag, Einladung und feiern.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Person",
+          "Gemeinschaft",
+          "entscheiden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «Geburtstag und Einladung: Wortschatz»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
         "options": [
-          "Im Thema „Geburtstag und Einladung“ spricht eine kleine Gruppe aus der Gemeinschaft über Geburtstag, Einladung und feiern.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "klares",
+          "entscheiden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «Geburtstag und Einladung: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
         "options": [
-          "Im Thema „Geburtstag und Einladung“ spricht eine kleine Gruppe aus der Gemeinschaft über Geburtstag, Einladung und feiern.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Gemeinschaft",
+          "entscheiden",
+          "Danach"
         ]
       }
     ]
@@ -61191,92 +61238,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «Wohnungssuche: Wortschatz», which detail establishes the situation?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „Wohnungssuche“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohnung, Zimmer und _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Wohnungssuche“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohnung, Zimmer und Miete."
+                "text": "Miete"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Wohnungssuche"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Gemeinschaft"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «Im Thema „Wohnungssuche“ spricht eine kleine Gruppe aus der…», what happens next in «Wohnungssuche: Wortschatz»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Wohnungssuche“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohnung, Zimmer und Miete."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Person"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Wohnungssuche"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Gemeinschaft"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «Wohnungssuche: Wortschatz»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Wohnungssuche“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohnung, Zimmer und Miete."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Wohnungssuche"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "klares"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Gemeinschaft"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «Wohnungssuche: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Wohnungssuche“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohnung, Zimmer und Miete."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Wohnungssuche"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Danach"
               }
             ]
           }
@@ -61287,42 +61334,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «Wohnungssuche: Wortschatz», which detail establishes the situation?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „Wohnungssuche“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohnung, Zimmer und _____.”",
         "options": [
-          "Im Thema „Wohnungssuche“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohnung, Zimmer und Miete.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Miete",
+          "Zusammenarbeit",
+          "Wohnungssuche",
+          "Gemeinschaft"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «Im Thema „Wohnungssuche“ spricht eine kleine Gruppe aus der…», what happens next in «Wohnungssuche: Wortschatz»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
         "options": [
-          "Im Thema „Wohnungssuche“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohnung, Zimmer und Miete.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Person",
+          "Wohnungssuche",
+          "Gemeinschaft"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «Wohnungssuche: Wortschatz»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
         "options": [
-          "Im Thema „Wohnungssuche“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohnung, Zimmer und Miete.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Wohnungssuche",
+          "klares",
+          "Gemeinschaft"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «Wohnungssuche: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
         "options": [
-          "Im Thema „Wohnungssuche“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohnung, Zimmer und Miete.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Wohnungssuche",
+          "Gemeinschaft",
+          "Danach"
         ]
       }
     ]
@@ -61411,92 +61458,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Gesellschaft und Mitwirkung: Wortschatz»?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „Gesellschaft und Mitwirkung“ spricht eine kleine Gruppe aus der Gemeinschaft über Gesellschaft, mitwirken und _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Gesellschaft und Mitwirkung“ spricht eine kleine Gruppe aus der Gemeinschaft über Gesellschaft, mitwirken und Recht."
+                "text": "Recht"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Gesellschaft"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Gemeinschaft"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «Im Thema „Gesellschaft und Mitwirkung“ spricht eine kleine Gruppe aus…» in «Gesellschaft und Mitwirkung: Wortschatz»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Gesellschaft und Mitwirkung“ spricht eine kleine Gruppe aus der Gemeinschaft über Gesellschaft, mitwirken und Recht."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Person"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Gesellschaft"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Gemeinschaft"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Gesellschaft und Mitwirkung: Wortschatz»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Gesellschaft und Mitwirkung“ spricht eine kleine Gruppe aus der Gemeinschaft über Gesellschaft, mitwirken und Recht."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Gesellschaft"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "klares"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Gemeinschaft"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Gesellschaft und Mitwirkung: Wortschatz»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Im Thema „Gesellschaft und Mitwirkung“ spricht eine kleine Gruppe aus der Gemeinschaft über Gesellschaft, mitwirken und Recht."
+                "text": "Zusammenarbeit"
               },
               {
                 "id": "o2",
-                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+                "text": "Gesellschaft"
               },
               {
                 "id": "o3",
-                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+                "text": "Gemeinschaft"
               },
               {
                 "id": "o4",
-                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+                "text": "Danach"
               }
             ]
           }
@@ -61507,42 +61554,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Gesellschaft und Mitwirkung: Wortschatz»?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“Im Thema „Gesellschaft und Mitwirkung“ spricht eine kleine Gruppe aus der Gemeinschaft über Gesellschaft, mitwirken und _____.”",
         "options": [
-          "Im Thema „Gesellschaft und Mitwirkung“ spricht eine kleine Gruppe aus der Gemeinschaft über Gesellschaft, mitwirken und Recht.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Recht",
+          "Zusammenarbeit",
+          "Gesellschaft",
+          "Gemeinschaft"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «Im Thema „Gesellschaft und Mitwirkung“ spricht eine kleine Gruppe aus…» in «Gesellschaft und Mitwirkung: Wortschatz»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Jede _____ erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.”",
         "options": [
-          "Im Thema „Gesellschaft und Mitwirkung“ spricht eine kleine Gruppe aus der Gemeinschaft über Gesellschaft, mitwirken und Recht.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Person",
+          "Gesellschaft",
+          "Gemeinschaft"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Gesellschaft und Mitwirkung: Wortschatz»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Am Ende entscheiden sie sich für Zusammenarbeit, weil ein _____ Ziel den Alltag verbessern kann.”",
         "options": [
-          "Im Thema „Gesellschaft und Mitwirkung“ spricht eine kleine Gruppe aus der Gemeinschaft über Gesellschaft, mitwirken und Recht.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Gesellschaft",
+          "klares",
+          "Gemeinschaft"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Gesellschaft und Mitwirkung: Wortschatz»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“_____ fasst die Gruppe die wichtigsten Ideen zusammen.”",
         "options": [
-          "Im Thema „Gesellschaft und Mitwirkung“ spricht eine kleine Gruppe aus der Gemeinschaft über Gesellschaft, mitwirken und Recht.",
-          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
-          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
-          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+          "Zusammenarbeit",
+          "Gesellschaft",
+          "Gemeinschaft",
+          "Danach"
         ]
       }
     ]
@@ -61837,92 +61884,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Bilanz und Perspektiven · Hörverstehen»?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Bilanz und Perspektiven vergleichen zwei Personen ihre _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Bilanz und Perspektiven vergleichen zwei Personen ihre Standpunkte."
+                "text": "Standpunkte"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass ostacolo nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Personen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: percorso kann die Perspektive der Zuhörenden verändern."
+                "text": "isoliert"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "konkrete"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In dieser Sendung über Bilanz und Perspektiven vergleichen zwei…» in «Bilanz und Perspektiven · Hörverstehen»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass ostacolo nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Bilanz und Perspektiven vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass ostacolo nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "andere"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: percorso kann die Perspektive der Zuhörenden verändern."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "überprüfbaren"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Bilanz und Perspektiven · Hörverstehen»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: _____ kann die Perspektive der Zuhörenden verändern.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Bilanz und Perspektiven vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass ostacolo nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: percorso kann die Perspektive der Zuhörenden verändern."
+                "text": "percorso"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "überprüfbaren"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Bilanz und Perspektiven · Hörverstehen»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Bilanz und Perspektiven vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass ostacolo nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: percorso kann die Perspektive der Zuhörenden verändern."
+                "text": "überprüfbaren"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "begründen"
               }
             ]
           }
@@ -61942,42 +61989,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Bilanz und Perspektiven · Hörverstehen»?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Bilanz und Perspektiven vergleichen zwei Personen ihre _____.”",
         "options": [
-          "In dieser Sendung über Bilanz und Perspektiven vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass ostacolo nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: percorso kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Standpunkte",
+          "Personen",
+          "isoliert",
+          "konkrete"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In dieser Sendung über Bilanz und Perspektiven vergleichen zwei…» in «Bilanz und Perspektiven · Hörverstehen»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass ostacolo nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
         "options": [
-          "In dieser Sendung über Bilanz und Perspektiven vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass ostacolo nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: percorso kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "andere",
+          "Entscheidungen",
+          "überprüfbaren"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Bilanz und Perspektiven · Hörverstehen»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: _____ kann die Perspektive der Zuhörenden verändern.”",
         "options": [
-          "In dieser Sendung über Bilanz und Perspektiven vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass ostacolo nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: percorso kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "Entscheidungen",
+          "percorso",
+          "überprüfbaren"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Bilanz und Perspektiven · Hörverstehen»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
         "options": [
-          "In dieser Sendung über Bilanz und Perspektiven vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass ostacolo nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: percorso kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "Entscheidungen",
+          "überprüfbaren",
+          "begründen"
         ]
       }
     ]
@@ -62044,92 +62091,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Persönliches Projekt · Hörverstehen»?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Persönliches Projekt vergleichen zwei Personen ihre _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Persönliches Projekt vergleichen zwei Personen ihre Standpunkte."
+                "text": "Standpunkte"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass strategia nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Personen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: risorsa kann die Perspektive der Zuhörenden verändern."
+                "text": "isoliert"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "konkrete"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In dieser Sendung über Persönliches Projekt vergleichen zwei Personen…» in «Persönliches Projekt · Hörverstehen»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass strategia nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Persönliches Projekt vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass strategia nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "andere"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: risorsa kann die Perspektive der Zuhörenden verändern."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "überprüfbaren"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Persönliches Projekt · Hörverstehen»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: _____ kann die Perspektive der Zuhörenden verändern.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Persönliches Projekt vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass strategia nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: risorsa kann die Perspektive der Zuhörenden verändern."
+                "text": "risorsa"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "überprüfbaren"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Persönliches Projekt · Hörverstehen»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Persönliches Projekt vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass strategia nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: risorsa kann die Perspektive der Zuhörenden verändern."
+                "text": "überprüfbaren"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "begründen"
               }
             ]
           }
@@ -62149,42 +62196,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Persönliches Projekt · Hörverstehen»?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Persönliches Projekt vergleichen zwei Personen ihre _____.”",
         "options": [
-          "In dieser Sendung über Persönliches Projekt vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass strategia nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: risorsa kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Standpunkte",
+          "Personen",
+          "isoliert",
+          "konkrete"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In dieser Sendung über Persönliches Projekt vergleichen zwei Personen…» in «Persönliches Projekt · Hörverstehen»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass strategia nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
         "options": [
-          "In dieser Sendung über Persönliches Projekt vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass strategia nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: risorsa kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "andere",
+          "Entscheidungen",
+          "überprüfbaren"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Persönliches Projekt · Hörverstehen»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: _____ kann die Perspektive der Zuhörenden verändern.”",
         "options": [
-          "In dieser Sendung über Persönliches Projekt vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass strategia nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: risorsa kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "Entscheidungen",
+          "risorsa",
+          "überprüfbaren"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Persönliches Projekt · Hörverstehen»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
         "options": [
-          "In dieser Sendung über Persönliches Projekt vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass strategia nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: risorsa kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "Entscheidungen",
+          "überprüfbaren",
+          "begründen"
         ]
       }
     ]
@@ -62251,92 +62298,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Synthese und Vorschlag · Hörverstehen»?",
+            "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Synthese und Vorschlag vergleichen zwei Personen ihre _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Synthese und Vorschlag vergleichen zwei Personen ihre Standpunkte."
+                "text": "Standpunkte"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass fonte nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Synthese"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: priorità kann die Perspektive der Zuhörenden verändern."
+                "text": "Personen"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "isoliert"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In dieser Sendung über Synthese und Vorschlag vergleichen zwei…» in «Synthese und Vorschlag · Hörverstehen»?",
+            "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass fonte nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Synthese und Vorschlag vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass fonte nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "andere"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: priorità kann die Perspektive der Zuhörenden verändern."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "überprüfbaren"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Synthese und Vorschlag · Hörverstehen»?",
+            "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: _____ kann die Perspektive der Zuhörenden verändern.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Synthese und Vorschlag vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass fonte nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: priorità kann die Perspektive der Zuhörenden verändern."
+                "text": "priorità"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "überprüfbaren"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Synthese und Vorschlag · Hörverstehen»?",
+            "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In dieser Sendung über Synthese und Vorschlag vergleichen zwei Personen ihre Standpunkte."
+                "text": "Aufmerksamkeit"
               },
               {
                 "id": "o2",
-                "text": "Die andere ergänzt, dass fonte nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird."
+                "text": "Entscheidungen"
               },
               {
                 "id": "o3",
-                "text": "Im Gespräch zeigt sich eine mögliche Schwierigkeit: priorità kann die Perspektive der Zuhörenden verändern."
+                "text": "überprüfbaren"
               },
               {
                 "id": "o4",
-                "text": "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+                "text": "begründen"
               }
             ]
           }
@@ -62356,42 +62403,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Synthese und Vorschlag · Hörverstehen»?",
+        "prompt": "Vervollständige dieses Detail aus dem Audio.\n\n“In dieser Sendung über Synthese und Vorschlag vergleichen zwei Personen ihre _____.”",
         "options": [
-          "In dieser Sendung über Synthese und Vorschlag vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass fonte nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: priorità kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Standpunkte",
+          "Synthese",
+          "Personen",
+          "isoliert"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In dieser Sendung über Synthese und Vorschlag vergleichen zwei…» in «Synthese und Vorschlag · Hörverstehen»?",
+        "prompt": "Welches Wort ergänzt den gehörten Satz?\n\n“Die _____ ergänzt, dass fonte nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.”",
         "options": [
-          "In dieser Sendung über Synthese und Vorschlag vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass fonte nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: priorità kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "andere",
+          "Entscheidungen",
+          "überprüfbaren"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Synthese und Vorschlag · Hörverstehen»?",
+        "prompt": "Wähle das fehlende Wort aus der Aufnahme.\n\n“Im Gespräch zeigt sich eine mögliche Schwierigkeit: _____ kann die Perspektive der Zuhörenden verändern.”",
         "options": [
-          "In dieser Sendung über Synthese und Vorschlag vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass fonte nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: priorità kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "Entscheidungen",
+          "priorità",
+          "überprüfbaren"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Synthese und Vorschlag · Hörverstehen»?",
+        "prompt": "Welches genaue Wort fehlt in diesem Audio-Detail?\n\n“Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu _____ und für eine Überprüfung offen zu bleiben.”",
         "options": [
-          "In dieser Sendung über Synthese und Vorschlag vergleichen zwei Personen ihre Standpunkte.",
-          "Die andere ergänzt, dass fonte nur dann hilfreich ist, wenn es mit überprüfbaren Beispielen erklärt wird.",
-          "Im Gespräch zeigt sich eine mögliche Schwierigkeit: priorità kann die Perspektive der Zuhörenden verändern.",
-          "Am Ende einigen sich die Beteiligten auf ein Kriterium: Entscheidungen klar zu begründen und für eine Überprüfung offen zu bleiben."
+          "Aufmerksamkeit",
+          "Entscheidungen",
+          "überprüfbaren",
+          "begründen"
         ]
       }
     ]

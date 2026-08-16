@@ -23,7 +23,7 @@ function refreshAllListeningComprehension() {
     // applyContextualListeningBank() replaces dialogue/transcript wholesale,
     // which would silently desync the audio from the on-screen text/
     // questions, so these are left untouched on every rebuild.
-    if (row.target_language === 'french' && ['B1', 'B2'].includes(row.level)) continue;
+    // Dialogues retain their audio and transcript; only their questions change.
     // Every routed Listening follows the same four-question format. The
     // generator keeps A1 prompts concise while preserving a consistent
     // evaluation and progress experience across the learning path.

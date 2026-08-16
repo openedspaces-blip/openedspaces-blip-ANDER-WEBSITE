@@ -46,12 +46,12 @@
     ],
     "reading": {
       "title": "Italiano A1 Reading",
-      "text": "Sofia è em Bologna. Hoje descobre contar una experiencia sencilla. Encontra Marco e diz: “Oggi ho imparato molto.”. Os dois falam com respeito e aprendem quatro palavras novas: oggi, domani, casa e esperienza.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.\n\nAl final, Sofia scrive una nota: “Oggi ho imparato molto.”.",
+      "text": "Oggi Sofia è a Bologna. Incontra Marco nel suo quartiere e lo saluta con un sorriso. I due parlano lentamente e si ascoltano con attenzione. Sofia vuole usare l'italiano in una situazione vera, quindi prova una frase semplice e Marco le risponde con gentilezza.\n\nDurante la conversazione usano parole utili della lezione: parole semplici. Marco fa una domanda e Sofia risponde senza fretta. Se non capisce una parola, chiede: «Puoi ripetere, per favore?». Poi ripetono insieme le parole più importanti e trovano un piccolo esempio per ciascuna.\n\nPrima di tornare a casa, Sofia ringrazia Marco. Dice che ascoltare, parlare e ripetere la aiuta a sentirsi più sicura. Marco è d'accordo e propone di incontrarsi di nuovo domani. Sofia torna a casa contenta e scrive nel suo quaderno le nuove parole della giornata.",
       "questions": [
-        "Dove è Sofia?",
+        "Dove si trova Sofia?",
         "Con chi parla Sofia?",
-        "Quale frase usa Sofia?",
-        "Perché l’esperienza è importante?"
+        "Che cosa fa Sofia se non capisce una parola?",
+        "Perché Sofia ripete le parole?"
       ]
     }
   },
@@ -549,12 +549,12 @@
       {
         "id": "italian-b1-lavoro-e-obiettivi-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Lavoro e obiettivi»?",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“Sofia non cerca una risposta perfetta: vuole un modo responsabile per migliorare la situazione e imparare _____.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Lavoro e obiettivi",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "dall'esperienza",
+          "responsabile",
+          "laboratorio",
+          "distinguere"
         ]
       }
     ]
@@ -648,34 +648,34 @@
       {
         "id": "italian-b2-progetti-e-responsabilita-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Progetti e responsabilità · Lettura»?",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“La discussione non cerca una risposta unica: mette in relazione _____, limiti e possibili soluzioni.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Progetti e responsabilità · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "prospettive",
+          "discussione",
+          "conseguenze",
+          "partecipante"
         ]
       },
       {
         "id": "italian-b2-progetti-e-responsabilita-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Progetti e responsabilità · Lettura»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“_____ fine, il gruppo formula una sintesi condivisa.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Progetti e responsabilità · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Ogni",
+          "fine",
+          "deve",
+          "Alla"
         ]
       },
       {
         "id": "italian-b2-progetti-e-responsabilita-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Progetti e responsabilità · Lettura»?",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“La proposta deve _____ chiara, realizzabile e rispettosa dei diversi punti di vista.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Progetti e responsabilità · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "essere",
+          "modulo",
+          "gruppo",
+          "limiti"
         ]
       }
     ]
@@ -769,34 +769,34 @@
       {
         "id": "italian-c1-argomentazione-pubblica-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Argomentazione pubblica · Lettura»?",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“La discussione non cerca una risposta unica: mette in relazione _____, limiti e possibili soluzioni.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Argomentazione pubblica · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "prospettive",
+          "discussione",
+          "conseguenze",
+          "partecipante"
         ]
       },
       {
         "id": "italian-c1-argomentazione-pubblica-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Argomentazione pubblica · Lettura»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“_____ fine, il gruppo formula una sintesi condivisa.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Argomentazione pubblica · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "tesi",
+          "Ogni",
+          "fine",
+          "Alla"
         ]
       },
       {
         "id": "italian-c1-argomentazione-pubblica-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Argomentazione pubblica · Lettura»?",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“La proposta deve _____ chiara, realizzabile e rispettosa dei diversi punti di vista.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Argomentazione pubblica · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "essere",
+          "modulo",
+          "gruppo",
+          "limiti"
         ]
       }
     ]
@@ -890,34 +890,34 @@
       {
         "id": "italian-c2-linguaggio-e-persuasione-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Linguaggio e persuasione · Lettura»?",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“La discussione non cerca una risposta unica: mette in relazione _____, limiti e possibili soluzioni.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Linguaggio e persuasione · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "persuasione",
+          "prospettive",
+          "conseguenze",
+          "discussione"
         ]
       },
       {
         "id": "italian-c2-linguaggio-e-persuasione-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Linguaggio e persuasione · Lettura»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“_____ fine, il gruppo formula una sintesi condivisa.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Linguaggio e persuasione · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Ogni",
+          "fine",
+          "deve",
+          "Alla"
         ]
       },
       {
         "id": "italian-c2-linguaggio-e-persuasione-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Linguaggio e persuasione · Lettura»?",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“La proposta deve _____ chiara, realizzabile e rispettosa dei diversi punti di vista.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Linguaggio e persuasione · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "essere",
+          "modulo",
+          "gruppo",
+          "limiti"
         ]
       }
     ]
@@ -932,7 +932,7 @@
     "isFree": true,
     "xpReward": 25,
     "orderIndex": 10,
-    "estimatedMinutes": 8,
+    "estimatedMinutes": 10,
     "description": "Saluti e presentazioni a Bologna",
     "intro": "Saluti e presentazioni a Bologna",
     "mission": "",
@@ -943,61 +943,63 @@
     "reading": {
       "title": "Benvenuti in Italia",
       "parts": [
-        "Sofia è em Bologna. Hoje descobre saluti e presentazioni a bologna. Encontra Marco e diz: “Ciao, come stai?”. Os dois falam com respeito e aprendem quatro palavras novas: ciao, buongiorno, piacere e grazie.",
-        "Marco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.",
-        "Al final, Sofia scrive una nota: “Ciao, come stai?”."
+        "Oggi Sofia è a Bologna. Incontra Marco nel suo quartiere e lo saluta con un sorriso. I due parlano lentamente e si ascoltano con attenzione. Sofia vuole usare l'italiano in una situazione vera, quindi prova una frase semplice e Marco le risponde con gentilezza.",
+        "Durante la conversazione usano parole utili della lezione: parole semplici. Marco fa una domanda e Sofia risponde senza fretta. Se non capisce una parola, chiede: «Puoi ripetere, per favore?». Poi ripetono insieme le parole più importanti e trovano un piccolo esempio per ciascuna.",
+        "Prima di tornare a casa, Sofia ringrazia Marco. Dice che ascoltare, parlare e ripetere la aiuta a sentirsi più sicura. Marco è d'accordo e propone di incontrarsi di nuovo domani. Sofia torna a casa contenta e scrive nel suo quaderno le nuove parole della giornata."
       ],
       "questions": [
-        "Dove è Sofia?",
+        "Dove si trova Sofia?",
         "Con chi parla Sofia?",
-        "Quale frase usa Sofia?",
-        "Perché l’esperienza è importante?"
+        "Che cosa fa Sofia se non capisce una parola?",
+        "Perché Sofia ripete le parole?"
       ],
-      "text": "Sofia è em Bologna. Hoje descobre saluti e presentazioni a bologna. Encontra Marco e diz: “Ciao, come stai?”. Os dois falam com respeito e aprendem quatro palavras novas: ciao, buongiorno, piacere e grazie.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.\n\nAl final, Sofia scrive una nota: “Ciao, come stai?”."
+      "text": "Oggi Sofia è a Bologna. Incontra Marco nel suo quartiere e lo saluta con un sorriso. I due parlano lentamente e si ascoltano con attenzione. Sofia vuole usare l'italiano in una situazione vera, quindi prova una frase semplice e Marco le risponde con gentilezza.\n\nDurante la conversazione usano parole utili della lezione: parole semplici. Marco fa una domanda e Sofia risponde senza fretta. Se non capisce una parola, chiede: «Puoi ripetere, per favore?». Poi ripetono insieme le parole più importanti e trovano un piccolo esempio per ciascuna.\n\nPrima di tornare a casa, Sofia ringrazia Marco. Dice che ascoltare, parlare e ripetere la aiuta a sentirsi più sicura. Marco è d'accordo e propone di incontrarsi di nuovo domani. Sofia torna a casa contenta e scrive nel suo quaderno le nuove parole della giornata."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
+        "id": "italian-a1-benvenuti-in-italia-reading-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Che cosa pratica l’unità?",
+        "prompt": "Dove si trova Sofia?",
         "options": [
-          "salutare e presentarsi",
-          "Una regola isolata",
-          "Un esame tecnico",
-          "Un tema senza contesto"
+          "Bologna",
+          "Roma",
+          "Milano",
+          "Napoli"
         ]
       },
       {
+        "id": "italian-a1-benvenuti-in-italia-reading-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Che cosa fa lo studente?",
+        "prompt": "Con chi parla Sofia?",
         "options": [
-          "salutare e presentarsi",
-          "Memorizza senza usare",
-          "Evita di parlare",
-          "Traduce soltanto"
+          "Marco",
+          "Lucia",
+          "Paolo",
+          "Anna"
         ]
       },
       {
-        "id": "italian-a1-benvenuti-in-italia-reading-comprehension-3",
+        "id": "italian-a1-benvenuti-in-italia-reading-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Benvenuti in Italia»?",
+        "prompt": "Che cosa fa Sofia se non capisce una parola?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Benvenuti in Italia",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Chiede di ripetere",
+          "Va via subito",
+          "Non ascolta",
+          "Cambia città"
         ]
       },
       {
-        "id": "italian-a1-benvenuti-in-italia-reading-comprehension-4",
+        "id": "italian-a1-benvenuti-in-italia-reading-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Benvenuti in Italia»?",
+        "prompt": "Perché Sofia ripete le parole?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Benvenuti in Italia",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Per sentirsi più sicura",
+          "Per fare un esame tecnico",
+          "Per comprare un biglietto",
+          "Per evitare Marco"
         ]
       }
     ]
@@ -1061,34 +1063,34 @@
       {
         "id": "italian-a2-vita-in-citta-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Vita in città»?",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“e spiega perché questa experiência è _____ per il quartiere.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Vita in città",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "ascoltando",
+          "servicios",
+          "importante",
+          "l’autobus"
         ]
       },
       {
         "id": "italian-a2-vita-in-citta-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Vita in città»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“La conversazione mostra che la cultura si impara ascoltando e _____.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Vita in città",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "experiência",
+          "conversazione",
+          "importante",
+          "partecipando"
         ]
       },
       {
         "id": "italian-a2-vita-in-citta-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Vita in città»?",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“Al final, Sofia scrive una nota: “Di _____ prendo l’autobus.”.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Vita in città",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "solito",
+          "prendo",
+          "spiega",
+          "perché"
         ]
       }
     ]
@@ -1441,92 +1443,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Lavoro e obiettivi: parole»?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Lavoro e obiettivi», un piccolo gruppo della comunità parla di obiettivi, scadenza e _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Lavoro e obiettivi», un piccolo gruppo della comunità parla di obiettivi, scadenza e squadra."
+                "text": "squadra"
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "un'esperienza"
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "collaborare"
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "tema"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «Nel tema «Lavoro e obiettivi», un piccolo gruppo della comunità parla…» in «Lavoro e obiettivi: parole»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Lavoro e obiettivi», un piccolo gruppo della comunità parla di obiettivi, scadenza e squadra."
+                "text": "un'esperienza"
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "persona"
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "collaborare"
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "tema"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Lavoro e obiettivi: parole»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Lavoro e obiettivi», un piccolo gruppo della comunità parla di obiettivi, scadenza e squadra."
+                "text": "un'esperienza"
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "collaborare"
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "perché"
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "migliorare"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Lavoro e obiettivi: parole»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Lavoro e obiettivi», un piccolo gruppo della comunità parla di obiettivi, scadenza e squadra."
+                "text": "un'esperienza"
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "collaborare"
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "migliorare"
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "gruppo"
               }
             ]
           }
@@ -1537,42 +1539,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Lavoro e obiettivi: parole»?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Lavoro e obiettivi», un piccolo gruppo della comunità parla di obiettivi, scadenza e _____.”",
         "options": [
-          "Nel tema «Lavoro e obiettivi», un piccolo gruppo della comunità parla di obiettivi, scadenza e squadra.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "squadra",
+          "un'esperienza",
+          "collaborare",
+          "tema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «Nel tema «Lavoro e obiettivi», un piccolo gruppo della comunità parla…» in «Lavoro e obiettivi: parole»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
         "options": [
-          "Nel tema «Lavoro e obiettivi», un piccolo gruppo della comunità parla di obiettivi, scadenza e squadra.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "un'esperienza",
+          "persona",
+          "collaborare",
+          "tema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Lavoro e obiettivi: parole»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
         "options": [
-          "Nel tema «Lavoro e obiettivi», un piccolo gruppo della comunità parla di obiettivi, scadenza e squadra.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "un'esperienza",
+          "collaborare",
+          "perché",
+          "migliorare"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Lavoro e obiettivi: parole»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
         "options": [
-          "Nel tema «Lavoro e obiettivi», un piccolo gruppo della comunità parla di obiettivi, scadenza e squadra.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "un'esperienza",
+          "collaborare",
+          "migliorare",
+          "gruppo"
         ]
       }
     ]
@@ -1867,92 +1869,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Progetti e responsabilità · Ascolto»?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Progetti e responsabilità, due partecipanti mettono a confronto le loro _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Progetti e responsabilità, due partecipanti mettono a confronto le loro posizioni."
+                "text": "posizioni"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che incarico è utile solo se viene spiegato con esempi verificabili."
+                "text": "responsabilità"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: risorsa può cambiare la prospettiva di chi ascolta."
+                "text": "partecipanti"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "essere"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In questa puntata dedicata a Progetti e responsabilità, due…» in «Progetti e responsabilità · Ascolto»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che incarico è utile solo se viene spiegato con esempi verificabili.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Progetti e responsabilità, due partecipanti mettono a confronto le loro posizioni."
+                "text": "responsabilità"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che incarico è utile solo se viene spiegato con esempi verificabili."
+                "text": "aggiunge"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: risorsa può cambiare la prospettiva di chi ascolta."
+                "text": "partecipanti"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "isolatamente"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Progetti e responsabilità · Ascolto»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: risorsa può cambiare la prospettiva di chi ascolta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Progetti e responsabilità, due partecipanti mettono a confronto le loro posizioni."
+                "text": "responsabilità"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che incarico è utile solo se viene spiegato con esempi verificabili."
+                "text": "partecipanti"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: risorsa può cambiare la prospettiva di chi ascolta."
+                "text": "possibile"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "essere"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Progetti e responsabilità · Ascolto»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Progetti e responsabilità, due partecipanti mettono a confronto le loro posizioni."
+                "text": "responsabilità"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che incarico è utile solo se viene spiegato con esempi verificabili."
+                "text": "partecipanti"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: risorsa può cambiare la prospettiva di chi ascolta."
+                "text": "isolatamente"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "scelte"
               }
             ]
           }
@@ -1972,42 +1974,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Progetti e responsabilità · Ascolto»?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Progetti e responsabilità, due partecipanti mettono a confronto le loro _____.”",
         "options": [
-          "In questa puntata dedicata a Progetti e responsabilità, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che incarico è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: risorsa può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "posizioni",
+          "responsabilità",
+          "partecipanti",
+          "essere"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In questa puntata dedicata a Progetti e responsabilità, due…» in «Progetti e responsabilità · Ascolto»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che incarico è utile solo se viene spiegato con esempi verificabili.”",
         "options": [
-          "In questa puntata dedicata a Progetti e responsabilità, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che incarico è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: risorsa può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "responsabilità",
+          "aggiunge",
+          "partecipanti",
+          "isolatamente"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Progetti e responsabilità · Ascolto»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: risorsa può cambiare la prospettiva di chi ascolta.”",
         "options": [
-          "In questa puntata dedicata a Progetti e responsabilità, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che incarico è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: risorsa può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "responsabilità",
+          "partecipanti",
+          "possibile",
+          "essere"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Progetti e responsabilità · Ascolto»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
         "options": [
-          "In questa puntata dedicata a Progetti e responsabilità, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che incarico è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: risorsa può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "responsabilità",
+          "partecipanti",
+          "isolatamente",
+          "scelte"
         ]
       }
     ]
@@ -2074,92 +2076,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Argomentazione pubblica · Ascolto»?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Argomentazione pubblica, due partecipanti mettono a confronto le loro _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Argomentazione pubblica, due partecipanti mettono a confronto le loro posizioni."
+                "text": "posizioni"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che obiezione è utile solo se viene spiegato con esempi verificabili."
+                "text": "Argomentazione"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: evidenza può cambiare la prospettiva di chi ascolta."
+                "text": "partecipanti"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "essere"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In questa puntata dedicata a Argomentazione pubblica, due partecipanti…» in «Argomentazione pubblica · Ascolto»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che obiezione è utile solo se viene spiegato con esempi verificabili.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Argomentazione pubblica, due partecipanti mettono a confronto le loro posizioni."
+                "text": "Argomentazione"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che obiezione è utile solo se viene spiegato con esempi verificabili."
+                "text": "aggiunge"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: evidenza può cambiare la prospettiva di chi ascolta."
+                "text": "partecipanti"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "isolatamente"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Argomentazione pubblica · Ascolto»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: evidenza può cambiare la prospettiva di chi ascolta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Argomentazione pubblica, due partecipanti mettono a confronto le loro posizioni."
+                "text": "Argomentazione"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che obiezione è utile solo se viene spiegato con esempi verificabili."
+                "text": "partecipanti"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: evidenza può cambiare la prospettiva di chi ascolta."
+                "text": "possibile"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "essere"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Argomentazione pubblica · Ascolto»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Argomentazione pubblica, due partecipanti mettono a confronto le loro posizioni."
+                "text": "Argomentazione"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che obiezione è utile solo se viene spiegato con esempi verificabili."
+                "text": "partecipanti"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: evidenza può cambiare la prospettiva di chi ascolta."
+                "text": "isolatamente"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "scelte"
               }
             ]
           }
@@ -2179,42 +2181,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Argomentazione pubblica · Ascolto»?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Argomentazione pubblica, due partecipanti mettono a confronto le loro _____.”",
         "options": [
-          "In questa puntata dedicata a Argomentazione pubblica, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che obiezione è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: evidenza può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "posizioni",
+          "Argomentazione",
+          "partecipanti",
+          "essere"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In questa puntata dedicata a Argomentazione pubblica, due partecipanti…» in «Argomentazione pubblica · Ascolto»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che obiezione è utile solo se viene spiegato con esempi verificabili.”",
         "options": [
-          "In questa puntata dedicata a Argomentazione pubblica, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che obiezione è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: evidenza può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "Argomentazione",
+          "aggiunge",
+          "partecipanti",
+          "isolatamente"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Argomentazione pubblica · Ascolto»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: evidenza può cambiare la prospettiva di chi ascolta.”",
         "options": [
-          "In questa puntata dedicata a Argomentazione pubblica, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che obiezione è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: evidenza può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "Argomentazione",
+          "partecipanti",
+          "possibile",
+          "essere"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Argomentazione pubblica · Ascolto»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
         "options": [
-          "In questa puntata dedicata a Argomentazione pubblica, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che obiezione è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: evidenza può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "Argomentazione",
+          "partecipanti",
+          "isolatamente",
+          "scelte"
         ]
       }
     ]
@@ -2281,92 +2283,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Linguaggio e persuasione · Ascolto»?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Linguaggio e persuasione, due partecipanti mettono a confronto le loro _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Linguaggio e persuasione, due partecipanti mettono a confronto le loro posizioni."
+                "text": "posizioni"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che premessa è utile solo se viene spiegato con esempi verificabili."
+                "text": "partecipanti"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: inferenza può cambiare la prospettiva di chi ascolta."
+                "text": "essere"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "isolatamente"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In questa puntata dedicata a Linguaggio e persuasione, due…» in «Linguaggio e persuasione · Ascolto»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che premessa è utile solo se viene spiegato con esempi verificabili.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Linguaggio e persuasione, due partecipanti mettono a confronto le loro posizioni."
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che premessa è utile solo se viene spiegato con esempi verificabili."
+                "text": "aggiunge"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: inferenza può cambiare la prospettiva di chi ascolta."
+                "text": "isolatamente"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "verificabili"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Linguaggio e persuasione · Ascolto»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: inferenza può cambiare la prospettiva di chi ascolta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Linguaggio e persuasione, due partecipanti mettono a confronto le loro posizioni."
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che premessa è utile solo se viene spiegato con esempi verificabili."
+                "text": "essere"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: inferenza può cambiare la prospettiva di chi ascolta."
+                "text": "possibile"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "isolatamente"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Linguaggio e persuasione · Ascolto»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Linguaggio e persuasione, due partecipanti mettono a confronto le loro posizioni."
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che premessa è utile solo se viene spiegato con esempi verificabili."
+                "text": "isolatamente"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: inferenza può cambiare la prospettiva di chi ascolta."
+                "text": "verificabili"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "scelte"
               }
             ]
           }
@@ -2386,42 +2388,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Linguaggio e persuasione · Ascolto»?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Linguaggio e persuasione, due partecipanti mettono a confronto le loro _____.”",
         "options": [
-          "In questa puntata dedicata a Linguaggio e persuasione, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che premessa è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: inferenza può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "posizioni",
+          "partecipanti",
+          "essere",
+          "isolatamente"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In questa puntata dedicata a Linguaggio e persuasione, due…» in «Linguaggio e persuasione · Ascolto»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che premessa è utile solo se viene spiegato con esempi verificabili.”",
         "options": [
-          "In questa puntata dedicata a Linguaggio e persuasione, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che premessa è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: inferenza può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "partecipanti",
+          "aggiunge",
+          "isolatamente",
+          "verificabili"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Linguaggio e persuasione · Ascolto»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: inferenza può cambiare la prospettiva di chi ascolta.”",
         "options": [
-          "In questa puntata dedicata a Linguaggio e persuasione, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che premessa è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: inferenza può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "partecipanti",
+          "essere",
+          "possibile",
+          "isolatamente"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Linguaggio e persuasione · Ascolto»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
         "options": [
-          "In questa puntata dedicata a Linguaggio e persuasione, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che premessa è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: inferenza può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "partecipanti",
+          "isolatamente",
+          "verificabili",
+          "scelte"
         ]
       }
     ]
@@ -2479,92 +2481,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «Benvenuti in Italia: ascolta», which detail establishes the situation?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“_____, come stai?”",
             "options": [
               {
                 "id": "o1",
-                "text": "Ciao, come stai?"
+                "text": "Ciao"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di ciao."
+                "text": "Parliamo"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "imparare"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "comunità"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «Ciao, come stai?», what happens next in «Benvenuti in Italia: ascolta»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“_____ di ciao.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Ciao, come stai?"
+                "text": "piace"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di ciao."
+                "text": "Parliamo"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "domani"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "pratica"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «Benvenuti in Italia: ascolta»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Ciao, come stai?"
+                "text": "piace"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di ciao."
+                "text": "domani"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "comunità"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "pratica"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «Benvenuti in Italia: ascolta» after «Mi piace imparare con la comunità.»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Ciao, come stai?"
+                "text": "Ciao"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di ciao."
+                "text": "stai"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "piace"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "pratica"
               }
             ]
           }
@@ -2575,42 +2577,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «Benvenuti in Italia: ascolta», which detail establishes the situation?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“_____, come stai?”",
         "options": [
-          "Ciao, come stai?",
-          "Parliamo di ciao.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Ciao",
+          "Parliamo",
+          "imparare",
+          "comunità"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «Ciao, come stai?», what happens next in «Benvenuti in Italia: ascolta»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“_____ di ciao.”",
         "options": [
-          "Ciao, come stai?",
-          "Parliamo di ciao.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "piace",
+          "Parliamo",
+          "domani",
+          "pratica"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «Benvenuti in Italia: ascolta»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
         "options": [
-          "Ciao, come stai?",
-          "Parliamo di ciao.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "piace",
+          "domani",
+          "comunità",
+          "pratica"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «Benvenuti in Italia: ascolta» after «Mi piace imparare con la comunità.»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
         "options": [
-          "Ciao, come stai?",
-          "Parliamo di ciao.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Ciao",
+          "stai",
+          "piace",
+          "pratica"
         ]
       }
     ]
@@ -2668,92 +2670,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «Vita in città: ascolta», which detail establishes the situation?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“Di solito prendo _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Di solito prendo l’autobus."
+                "text": "l’autobus"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di quartiere."
+                "text": "solito"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "prendo"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "domani"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «Di solito prendo l’autobus.», what happens next in «Vita in città: ascolta»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Di solito prendo l’autobus."
+                "text": "solito"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di quartiere."
+                "text": "quartiere"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "prendo"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "domani"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «Vita in città: ascolta»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Di solito prendo l’autobus."
+                "text": "piace"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di quartiere."
+                "text": "solito"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "comunità"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "prendo"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «Vita in città: ascolta» after «Mi piace imparare con la comunità.»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Di solito prendo l’autobus."
+                "text": "l’autobus"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di quartiere."
+                "text": "quartiere"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "piace"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "pratica"
               }
             ]
           }
@@ -2764,42 +2766,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «Vita in città: ascolta», which detail establishes the situation?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“Di solito prendo _____.”",
         "options": [
-          "Di solito prendo l’autobus.",
-          "Parliamo di quartiere.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "l’autobus",
+          "solito",
+          "prendo",
+          "domani"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «Di solito prendo l’autobus.», what happens next in «Vita in città: ascolta»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
         "options": [
-          "Di solito prendo l’autobus.",
-          "Parliamo di quartiere.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "solito",
+          "quartiere",
+          "prendo",
+          "domani"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «Vita in città: ascolta»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
         "options": [
-          "Di solito prendo l’autobus.",
-          "Parliamo di quartiere.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "piace",
+          "solito",
+          "comunità",
+          "prendo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «Vita in città: ascolta» after «Mi piace imparare con la comunità.»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
         "options": [
-          "Di solito prendo l’autobus.",
-          "Parliamo di quartiere.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "l’autobus",
+          "quartiere",
+          "piace",
+          "pratica"
         ]
       }
     ]
@@ -4647,12 +4649,12 @@
       {
         "id": "italian-b1-viaggi-consapevoli-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Viaggi consapevoli»?",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“Sofia non cerca una risposta perfetta: vuole un modo responsabile per migliorare la situazione e imparare _____.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Viaggi consapevoli",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "dall'esperienza",
+          "responsabile",
+          "distinguere",
+          "discussione"
         ]
       }
     ]
@@ -4746,34 +4748,34 @@
       {
         "id": "italian-b2-citta-e-mobilita-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Città e mobilità · Lettura»?",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“La discussione non cerca una risposta unica: mette in relazione _____, limiti e possibili soluzioni.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Città e mobilità · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "prospettive",
+          "discussione",
+          "conseguenze",
+          "partecipante"
         ]
       },
       {
         "id": "italian-b2-citta-e-mobilita-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Città e mobilità · Lettura»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“_____ fine, il gruppo formula una sintesi condivisa.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Città e mobilità · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Ogni",
+          "fine",
+          "deve",
+          "Alla"
         ]
       },
       {
         "id": "italian-b2-citta-e-mobilita-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Città e mobilità · Lettura»?",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“La proposta deve _____ chiara, realizzabile e rispettosa dei diversi punti di vista.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Città e mobilità · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "essere",
+          "modulo",
+          "gruppo",
+          "limiti"
         ]
       }
     ]
@@ -4867,34 +4869,34 @@
       {
         "id": "italian-c1-innovazione-e-societa-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Innovazione e società · Lettura»?",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“La discussione non cerca una risposta unica: mette in relazione _____, limiti e possibili soluzioni.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Innovazione e società · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Innovazione",
+          "prospettive",
+          "conseguenze",
+          "discussione"
         ]
       },
       {
         "id": "italian-c1-innovazione-e-societa-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Innovazione e società · Lettura»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“_____ fine, il gruppo formula una sintesi condivisa.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Innovazione e società · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Ogni",
+          "fine",
+          "deve",
+          "Alla"
         ]
       },
       {
         "id": "italian-c1-innovazione-e-societa-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Innovazione e società · Lettura»?",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“La proposta deve _____ chiara, realizzabile e rispettosa dei diversi punti di vista.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Innovazione e società · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "essere",
+          "modulo",
+          "gruppo",
+          "limiti"
         ]
       }
     ]
@@ -4988,34 +4990,34 @@
       {
         "id": "italian-c2-politiche-pubbliche-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Politiche pubbliche · Lettura»?",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“La discussione non cerca una risposta unica: mette in relazione _____, limiti e possibili soluzioni.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Politiche pubbliche · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "prospettive",
+          "discussione",
+          "conseguenze",
+          "partecipante"
         ]
       },
       {
         "id": "italian-c2-politiche-pubbliche-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Politiche pubbliche · Lettura»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“_____ fine, il gruppo formula una sintesi condivisa.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Politiche pubbliche · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Ogni",
+          "fine",
+          "deve",
+          "Alla"
         ]
       },
       {
         "id": "italian-c2-politiche-pubbliche-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Politiche pubbliche · Lettura»?",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“La proposta deve _____ chiara, realizzabile e rispettosa dei diversi punti di vista.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Politiche pubbliche · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "essere",
+          "modulo",
+          "gruppo",
+          "limiti"
         ]
       }
     ]
@@ -5030,7 +5032,7 @@
     "isFree": true,
     "xpReward": 25,
     "orderIndex": 20,
-    "estimatedMinutes": 8,
+    "estimatedMinutes": 10,
     "description": "Un bar di quartiere e le cortesie quotidiane",
     "intro": "Un bar di quartiere e le cortesie quotidiane",
     "mission": "",
@@ -5041,61 +5043,63 @@
     "reading": {
       "title": "Un caffè al bar",
       "parts": [
-        "Sofia è em Bologna. Hoje descobre un bar di quartiere e le cortesie quotidiane. Encontra Marco e diz: “Un caffè, per favore.”. Os dois falam com respeito e aprendem quatro palavras novas: caffè, acqua, per favore e grazie.",
-        "Marco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.",
-        "Al final, Sofia scrive una nota: “Un caffè, per favore.”."
+        "Oggi Sofia è a Bologna. Incontra Marco nel suo quartiere e lo saluta con un sorriso. I due parlano lentamente e si ascoltano con attenzione. Sofia vuole usare l'italiano in una situazione vera, quindi prova una frase semplice e Marco le risponde con gentilezza.",
+        "Durante la conversazione usano parole utili della lezione: parole semplici. Marco fa una domanda e Sofia risponde senza fretta. Se non capisce una parola, chiede: «Puoi ripetere, per favore?». Poi ripetono insieme le parole più importanti e trovano un piccolo esempio per ciascuna.",
+        "Prima di tornare a casa, Sofia ringrazia Marco. Dice che ascoltare, parlare e ripetere la aiuta a sentirsi più sicura. Marco è d'accordo e propone di incontrarsi di nuovo domani. Sofia torna a casa contenta e scrive nel suo quaderno le nuove parole della giornata."
       ],
       "questions": [
-        "Dove è Sofia?",
+        "Dove si trova Sofia?",
         "Con chi parla Sofia?",
-        "Quale frase usa Sofia?",
-        "Perché l’esperienza è importante?"
+        "Che cosa fa Sofia se non capisce una parola?",
+        "Perché Sofia ripete le parole?"
       ],
-      "text": "Sofia è em Bologna. Hoje descobre un bar di quartiere e le cortesie quotidiane. Encontra Marco e diz: “Un caffè, per favore.”. Os dois falam com respeito e aprendem quatro palavras novas: caffè, acqua, per favore e grazie.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.\n\nAl final, Sofia scrive una nota: “Un caffè, per favore.”."
+      "text": "Oggi Sofia è a Bologna. Incontra Marco nel suo quartiere e lo saluta con un sorriso. I due parlano lentamente e si ascoltano con attenzione. Sofia vuole usare l'italiano in una situazione vera, quindi prova una frase semplice e Marco le risponde con gentilezza.\n\nDurante la conversazione usano parole utili della lezione: parole semplici. Marco fa una domanda e Sofia risponde senza fretta. Se non capisce una parola, chiede: «Puoi ripetere, per favore?». Poi ripetono insieme le parole più importanti e trovano un piccolo esempio per ciascuna.\n\nPrima di tornare a casa, Sofia ringrazia Marco. Dice che ascoltare, parlare e ripetere la aiuta a sentirsi più sicura. Marco è d'accordo e propone di incontrarsi di nuovo domani. Sofia torna a casa contenta e scrive nel suo quaderno le nuove parole della giornata."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
+        "id": "italian-a1-un-caffe-al-bar-reading-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Che cosa pratica l’unità?",
+        "prompt": "Dove si trova Sofia?",
         "options": [
-          "ordinare con cortesia",
-          "Una regola isolata",
-          "Un esame tecnico",
-          "Un tema senza contesto"
+          "Bologna",
+          "Roma",
+          "Milano",
+          "Napoli"
         ]
       },
       {
+        "id": "italian-a1-un-caffe-al-bar-reading-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Che cosa fa lo studente?",
+        "prompt": "Con chi parla Sofia?",
         "options": [
-          "ordinare con cortesia",
-          "Memorizza senza usare",
-          "Evita di parlare",
-          "Traduce soltanto"
+          "Marco",
+          "Lucia",
+          "Paolo",
+          "Anna"
         ]
       },
       {
-        "id": "italian-a1-un-caffe-al-bar-reading-comprehension-3",
+        "id": "italian-a1-un-caffe-al-bar-reading-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Un caffè al bar»?",
+        "prompt": "Che cosa fa Sofia se non capisce una parola?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Un caffè al bar",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Chiede di ripetere",
+          "Va via subito",
+          "Non ascolta",
+          "Cambia città"
         ]
       },
       {
-        "id": "italian-a1-un-caffe-al-bar-reading-comprehension-4",
+        "id": "italian-a1-un-caffe-al-bar-reading-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Un caffè al bar»?",
+        "prompt": "Perché Sofia ripete le parole?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Un caffè al bar",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Per sentirsi più sicura",
+          "Per fare un esame tecnico",
+          "Per comprare un biglietto",
+          "Per evitare Marco"
         ]
       }
     ]
@@ -5159,34 +5163,34 @@
       {
         "id": "italian-a2-un-fine-settimana-a-napoli-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Un fine settimana a Napoli»?",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“e spiega perché questa experiência è _____ per il quartiere.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Un fine settimana a Napoli",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "planificar",
+          "respetuosa",
+          "importante",
+          "ascoltando"
         ]
       },
       {
         "id": "italian-a2-un-fine-settimana-a-napoli-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Un fine settimana a Napoli»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“La conversazione mostra che la cultura si impara ascoltando e _____.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Un fine settimana a Napoli",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "experiência",
+          "conversazione",
+          "planificar",
+          "partecipando"
         ]
       },
       {
         "id": "italian-a2-un-fine-settimana-a-napoli-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Un fine settimana a Napoli»?",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“Al final, Sofia scrive una nota: “Vorrei _____ il museo.”.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Un fine settimana a Napoli",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "visitare",
+          "Bologna",
+          "quartiere",
+          "cultura"
         ]
       }
     ]
@@ -5539,92 +5543,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Viaggi consapevoli: parole»?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Viaggi consapevoli», un piccolo gruppo della comunità parla di itinerario, prenotazione e _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Viaggi consapevoli», un piccolo gruppo della comunità parla di itinerario, prenotazione e paesaggio."
+                "text": "paesaggio"
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "un'esperienza"
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "Viaggi"
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "gruppo"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «Nel tema «Viaggi consapevoli», un piccolo gruppo della comunità parla…» in «Viaggi consapevoli: parole»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Viaggi consapevoli», un piccolo gruppo della comunità parla di itinerario, prenotazione e paesaggio."
+                "text": "un'esperienza"
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "persona"
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "prenotazione"
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "consapevoli"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Viaggi consapevoli: parole»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Viaggi consapevoli», un piccolo gruppo della comunità parla di itinerario, prenotazione e paesaggio."
+                "text": "un'esperienza"
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "prenotazione"
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "perché"
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "consapevoli"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Viaggi consapevoli: parole»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Viaggi consapevoli», un piccolo gruppo della comunità parla di itinerario, prenotazione e paesaggio."
+                "text": "un'esperienza"
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "prenotazione"
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "consapevoli"
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "gruppo"
               }
             ]
           }
@@ -5635,42 +5639,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Viaggi consapevoli: parole»?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Viaggi consapevoli», un piccolo gruppo della comunità parla di itinerario, prenotazione e _____.”",
         "options": [
-          "Nel tema «Viaggi consapevoli», un piccolo gruppo della comunità parla di itinerario, prenotazione e paesaggio.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "paesaggio",
+          "un'esperienza",
+          "Viaggi",
+          "gruppo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «Nel tema «Viaggi consapevoli», un piccolo gruppo della comunità parla…» in «Viaggi consapevoli: parole»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
         "options": [
-          "Nel tema «Viaggi consapevoli», un piccolo gruppo della comunità parla di itinerario, prenotazione e paesaggio.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "un'esperienza",
+          "persona",
+          "prenotazione",
+          "consapevoli"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Viaggi consapevoli: parole»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
         "options": [
-          "Nel tema «Viaggi consapevoli», un piccolo gruppo della comunità parla di itinerario, prenotazione e paesaggio.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "un'esperienza",
+          "prenotazione",
+          "perché",
+          "consapevoli"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Viaggi consapevoli: parole»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
         "options": [
-          "Nel tema «Viaggi consapevoli», un piccolo gruppo della comunità parla di itinerario, prenotazione e paesaggio.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "un'esperienza",
+          "prenotazione",
+          "consapevoli",
+          "gruppo"
         ]
       }
     ]
@@ -5965,92 +5969,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Città e mobilità · Ascolto»?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Città e mobilità, due partecipanti mettono a confronto le loro _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Città e mobilità, due partecipanti mettono a confronto le loro posizioni."
+                "text": "posizioni"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che traffico è utile solo se viene spiegato con esempi verificabili."
+                "text": "partecipanti"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: abbonamento può cambiare la prospettiva di chi ascolta."
+                "text": "essere"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "isolatamente"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In questa puntata dedicata a Città e mobilità, due partecipanti…» in «Città e mobilità · Ascolto»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che traffico è utile solo se viene spiegato con esempi verificabili.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Città e mobilità, due partecipanti mettono a confronto le loro posizioni."
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che traffico è utile solo se viene spiegato con esempi verificabili."
+                "text": "aggiunge"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: abbonamento può cambiare la prospettiva di chi ascolta."
+                "text": "isolatamente"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "verificabili"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Città e mobilità · Ascolto»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: abbonamento può cambiare la prospettiva di chi ascolta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Città e mobilità, due partecipanti mettono a confronto le loro posizioni."
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che traffico è utile solo se viene spiegato con esempi verificabili."
+                "text": "essere"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: abbonamento può cambiare la prospettiva di chi ascolta."
+                "text": "possibile"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "isolatamente"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Città e mobilità · Ascolto»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Città e mobilità, due partecipanti mettono a confronto le loro posizioni."
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che traffico è utile solo se viene spiegato con esempi verificabili."
+                "text": "isolatamente"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: abbonamento può cambiare la prospettiva di chi ascolta."
+                "text": "verificabili"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "scelte"
               }
             ]
           }
@@ -6070,42 +6074,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Città e mobilità · Ascolto»?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Città e mobilità, due partecipanti mettono a confronto le loro _____.”",
         "options": [
-          "In questa puntata dedicata a Città e mobilità, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che traffico è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: abbonamento può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "posizioni",
+          "partecipanti",
+          "essere",
+          "isolatamente"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In questa puntata dedicata a Città e mobilità, due partecipanti…» in «Città e mobilità · Ascolto»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che traffico è utile solo se viene spiegato con esempi verificabili.”",
         "options": [
-          "In questa puntata dedicata a Città e mobilità, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che traffico è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: abbonamento può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "partecipanti",
+          "aggiunge",
+          "isolatamente",
+          "verificabili"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Città e mobilità · Ascolto»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: abbonamento può cambiare la prospettiva di chi ascolta.”",
         "options": [
-          "In questa puntata dedicata a Città e mobilità, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che traffico è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: abbonamento può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "partecipanti",
+          "essere",
+          "possibile",
+          "isolatamente"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Città e mobilità · Ascolto»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
         "options": [
-          "In questa puntata dedicata a Città e mobilità, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che traffico è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: abbonamento può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "partecipanti",
+          "isolatamente",
+          "verificabili",
+          "scelte"
         ]
       }
     ]
@@ -6172,92 +6176,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Innovazione e società · Ascolto»?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Innovazione e società, due partecipanti mettono a confronto le loro _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Innovazione e società, due partecipanti mettono a confronto le loro posizioni."
+                "text": "posizioni"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che accesso è utile solo se viene spiegato con esempi verificabili."
+                "text": "partecipanti"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: divario può cambiare la prospettiva di chi ascolta."
+                "text": "essere"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "isolatamente"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In questa puntata dedicata a Innovazione e società, due partecipanti…» in «Innovazione e società · Ascolto»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che accesso è utile solo se viene spiegato con esempi verificabili.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Innovazione e società, due partecipanti mettono a confronto le loro posizioni."
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che accesso è utile solo se viene spiegato con esempi verificabili."
+                "text": "aggiunge"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: divario può cambiare la prospettiva di chi ascolta."
+                "text": "isolatamente"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "verificabili"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Innovazione e società · Ascolto»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: divario può cambiare la prospettiva di chi ascolta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Innovazione e società, due partecipanti mettono a confronto le loro posizioni."
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che accesso è utile solo se viene spiegato con esempi verificabili."
+                "text": "essere"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: divario può cambiare la prospettiva di chi ascolta."
+                "text": "possibile"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "isolatamente"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Innovazione e società · Ascolto»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Innovazione e società, due partecipanti mettono a confronto le loro posizioni."
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che accesso è utile solo se viene spiegato con esempi verificabili."
+                "text": "isolatamente"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: divario può cambiare la prospettiva di chi ascolta."
+                "text": "verificabili"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "scelte"
               }
             ]
           }
@@ -6277,42 +6281,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Innovazione e società · Ascolto»?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Innovazione e società, due partecipanti mettono a confronto le loro _____.”",
         "options": [
-          "In questa puntata dedicata a Innovazione e società, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che accesso è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: divario può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "posizioni",
+          "partecipanti",
+          "essere",
+          "isolatamente"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In questa puntata dedicata a Innovazione e società, due partecipanti…» in «Innovazione e società · Ascolto»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che accesso è utile solo se viene spiegato con esempi verificabili.”",
         "options": [
-          "In questa puntata dedicata a Innovazione e società, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che accesso è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: divario può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "partecipanti",
+          "aggiunge",
+          "isolatamente",
+          "verificabili"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Innovazione e società · Ascolto»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: divario può cambiare la prospettiva di chi ascolta.”",
         "options": [
-          "In questa puntata dedicata a Innovazione e società, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che accesso è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: divario può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "partecipanti",
+          "essere",
+          "possibile",
+          "isolatamente"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Innovazione e società · Ascolto»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
         "options": [
-          "In questa puntata dedicata a Innovazione e società, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che accesso è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: divario può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "partecipanti",
+          "isolatamente",
+          "verificabili",
+          "scelte"
         ]
       }
     ]
@@ -6379,92 +6383,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Politiche pubbliche · Ascolto»?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Politiche pubbliche, due partecipanti mettono a confronto le loro _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Politiche pubbliche, due partecipanti mettono a confronto le loro posizioni."
+                "text": "posizioni"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che impatto è utile solo se viene spiegato con esempi verificabili."
+                "text": "partecipanti"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: criterio può cambiare la prospettiva di chi ascolta."
+                "text": "essere"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "isolatamente"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In questa puntata dedicata a Politiche pubbliche, due partecipanti…» in «Politiche pubbliche · Ascolto»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che impatto è utile solo se viene spiegato con esempi verificabili.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Politiche pubbliche, due partecipanti mettono a confronto le loro posizioni."
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che impatto è utile solo se viene spiegato con esempi verificabili."
+                "text": "aggiunge"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: criterio può cambiare la prospettiva di chi ascolta."
+                "text": "isolatamente"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "verificabili"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Politiche pubbliche · Ascolto»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: criterio può cambiare la prospettiva di chi ascolta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Politiche pubbliche, due partecipanti mettono a confronto le loro posizioni."
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che impatto è utile solo se viene spiegato con esempi verificabili."
+                "text": "essere"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: criterio può cambiare la prospettiva di chi ascolta."
+                "text": "possibile"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "isolatamente"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Politiche pubbliche · Ascolto»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Politiche pubbliche, due partecipanti mettono a confronto le loro posizioni."
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che impatto è utile solo se viene spiegato con esempi verificabili."
+                "text": "isolatamente"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: criterio può cambiare la prospettiva di chi ascolta."
+                "text": "verificabili"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "scelte"
               }
             ]
           }
@@ -6484,42 +6488,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Politiche pubbliche · Ascolto»?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Politiche pubbliche, due partecipanti mettono a confronto le loro _____.”",
         "options": [
-          "In questa puntata dedicata a Politiche pubbliche, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che impatto è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: criterio può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "posizioni",
+          "partecipanti",
+          "essere",
+          "isolatamente"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In questa puntata dedicata a Politiche pubbliche, due partecipanti…» in «Politiche pubbliche · Ascolto»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che impatto è utile solo se viene spiegato con esempi verificabili.”",
         "options": [
-          "In questa puntata dedicata a Politiche pubbliche, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che impatto è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: criterio può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "partecipanti",
+          "aggiunge",
+          "isolatamente",
+          "verificabili"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Politiche pubbliche · Ascolto»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: criterio può cambiare la prospettiva di chi ascolta.”",
         "options": [
-          "In questa puntata dedicata a Politiche pubbliche, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che impatto è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: criterio può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "partecipanti",
+          "essere",
+          "possibile",
+          "isolatamente"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Politiche pubbliche · Ascolto»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
         "options": [
-          "In questa puntata dedicata a Politiche pubbliche, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che impatto è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: criterio può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "partecipanti",
+          "isolatamente",
+          "verificabili",
+          "scelte"
         ]
       }
     ]
@@ -6577,92 +6581,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «Un caffè al bar: ascolta», which detail establishes the situation?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“Un caffè, per _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Un caffè, per favore."
+                "text": "favore"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di caffè."
+                "text": "per"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "con"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "Parliamo"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «Un caffè, per favore.», what happens next in «Un caffè al bar: ascolta»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“_____ di caffè.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Un caffè, per favore."
+                "text": "caffè"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di caffè."
+                "text": "Parliamo"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "piace"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "favore"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «Un caffè al bar: ascolta»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Un caffè, per favore."
+                "text": "caffè"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di caffè."
+                "text": "piace"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "comunità"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "favore"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «Un caffè al bar: ascolta» after «Mi piace imparare con la comunità.»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Un caffè, per favore."
+                "text": "caffè"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di caffè."
+                "text": "piace"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "favore"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "pratica"
               }
             ]
           }
@@ -6673,42 +6677,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «Un caffè al bar: ascolta», which detail establishes the situation?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“Un caffè, per _____.”",
         "options": [
-          "Un caffè, per favore.",
-          "Parliamo di caffè.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "favore",
+          "per",
+          "con",
+          "Parliamo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «Un caffè, per favore.», what happens next in «Un caffè al bar: ascolta»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“_____ di caffè.”",
         "options": [
-          "Un caffè, per favore.",
-          "Parliamo di caffè.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "caffè",
+          "Parliamo",
+          "piace",
+          "favore"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «Un caffè al bar: ascolta»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
         "options": [
-          "Un caffè, per favore.",
-          "Parliamo di caffè.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "caffè",
+          "piace",
+          "comunità",
+          "favore"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «Un caffè al bar: ascolta» after «Mi piace imparare con la comunità.»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
         "options": [
-          "Un caffè, per favore.",
-          "Parliamo di caffè.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "caffè",
+          "piace",
+          "favore",
+          "pratica"
         ]
       }
     ]
@@ -6766,92 +6770,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «Un fine settimana a Napoli: ascolta», which detail establishes the situation?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“Vorrei _____ il museo.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Vorrei visitare il museo."
+                "text": "visitare"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di museo."
+                "text": "museo"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "piace"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "Vorrei"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «Vorrei visitare il museo.», what happens next in «Un fine settimana a Napoli: ascolta»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“_____ di museo.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Vorrei visitare il museo."
+                "text": "museo"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di museo."
+                "text": "Parliamo"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "piace"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "Vorrei"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «Un fine settimana a Napoli: ascolta»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Vorrei visitare il museo."
+                "text": "museo"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di museo."
+                "text": "piace"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "comunità"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "Vorrei"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «Un fine settimana a Napoli: ascolta» after «Mi piace imparare con la comunità.»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Vorrei visitare il museo."
+                "text": "museo"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di museo."
+                "text": "piace"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "Vorrei"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "pratica"
               }
             ]
           }
@@ -6862,42 +6866,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «Un fine settimana a Napoli: ascolta», which detail establishes the situation?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“Vorrei _____ il museo.”",
         "options": [
-          "Vorrei visitare il museo.",
-          "Parliamo di museo.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "visitare",
+          "museo",
+          "piace",
+          "Vorrei"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «Vorrei visitare il museo.», what happens next in «Un fine settimana a Napoli: ascolta»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“_____ di museo.”",
         "options": [
-          "Vorrei visitare il museo.",
-          "Parliamo di museo.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "museo",
+          "Parliamo",
+          "piace",
+          "Vorrei"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «Un fine settimana a Napoli: ascolta»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
         "options": [
-          "Vorrei visitare il museo.",
-          "Parliamo di museo.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "museo",
+          "piace",
+          "comunità",
+          "Vorrei"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «Un fine settimana a Napoli: ascolta» after «Mi piace imparare con la comunità.»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
         "options": [
-          "Vorrei visitare il museo.",
-          "Parliamo di museo.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "museo",
+          "piace",
+          "Vorrei",
+          "pratica"
         ]
       }
     ]
@@ -8745,12 +8749,12 @@
       {
         "id": "italian-b1-salute-e-benessere-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Salute e benessere»?",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“Elena non cerca una risposta perfetta: vuole un modo responsabile per migliorare la situazione e imparare _____.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Salute e benessere",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "dall'esperienza",
+          "responsabile",
+          "sostenibile",
+          "distinguere"
         ]
       }
     ]
@@ -8844,34 +8848,34 @@
       {
         "id": "italian-b2-lavoro-e-competenze-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Lavoro e competenze · Lettura»?",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“La discussione non cerca una risposta unica: mette in relazione _____, limiti e possibili soluzioni.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Lavoro e competenze · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "prospettive",
+          "discussione",
+          "conseguenze",
+          "competenze"
         ]
       },
       {
         "id": "italian-b2-lavoro-e-competenze-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Lavoro e competenze · Lettura»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“_____ fine, il gruppo formula una sintesi condivisa.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Lavoro e competenze · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Ogni",
+          "fine",
+          "deve",
+          "Alla"
         ]
       },
       {
         "id": "italian-b2-lavoro-e-competenze-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Lavoro e competenze · Lettura»?",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“La proposta deve _____ chiara, realizzabile e rispettosa dei diversi punti di vista.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Lavoro e competenze · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "essere",
+          "modulo",
+          "Lavoro",
+          "gruppo"
         ]
       }
     ]
@@ -8965,34 +8969,34 @@
       {
         "id": "italian-c1-etica-e-decisioni-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Etica e decisioni · Lettura»?",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“La discussione non cerca una risposta unica: mette in relazione _____, limiti e possibili soluzioni.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Etica e decisioni · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "prospettive",
+          "discussione",
+          "conseguenze",
+          "partecipante"
         ]
       },
       {
         "id": "italian-c1-etica-e-decisioni-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Etica e decisioni · Lettura»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“_____ fine, il gruppo formula una sintesi condivisa.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Etica e decisioni · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Ogni",
+          "fine",
+          "deve",
+          "Alla"
         ]
       },
       {
         "id": "italian-c1-etica-e-decisioni-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Etica e decisioni · Lettura»?",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“La proposta deve _____ chiara, realizzabile e rispettosa dei diversi punti di vista.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Etica e decisioni · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "essere",
+          "modulo",
+          "gruppo",
+          "limiti"
         ]
       }
     ]
@@ -9086,34 +9090,34 @@
       {
         "id": "italian-c2-conoscenza-e-incertezza-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Conoscenza e incertezza · Lettura»?",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“La discussione non cerca una risposta unica: mette in relazione _____, limiti e possibili soluzioni.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Conoscenza e incertezza · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "probabilità",
+          "prospettive",
+          "conseguenze",
+          "discussione"
         ]
       },
       {
         "id": "italian-c2-conoscenza-e-incertezza-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Conoscenza e incertezza · Lettura»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“_____ fine, il gruppo formula una sintesi condivisa.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Conoscenza e incertezza · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Ogni",
+          "fine",
+          "deve",
+          "Alla"
         ]
       },
       {
         "id": "italian-c2-conoscenza-e-incertezza-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Conoscenza e incertezza · Lettura»?",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“La proposta deve _____ chiara, realizzabile e rispettosa dei diversi punti di vista.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Conoscenza e incertezza · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "essere",
+          "modulo",
+          "gruppo",
+          "limiti"
         ]
       }
     ]
@@ -9128,7 +9132,7 @@
     "isFree": true,
     "xpReward": 25,
     "orderIndex": 30,
-    "estimatedMinutes": 8,
+    "estimatedMinutes": 10,
     "description": "Una cena familiare e gli orari italiani",
     "intro": "Una cena familiare e gli orari italiani",
     "mission": "",
@@ -9139,61 +9143,63 @@
     "reading": {
       "title": "La famiglia a tavola",
       "parts": [
-        "Sofia è em Bologna. Hoje descobre una cena familiare e gli orari italiani. Encontra Marco e diz: “Ceniamo insieme.”. Os dois falam com respeito e aprendem quatro palavras novas: famiglia, cena, tavola e insieme.",
-        "Marco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.",
-        "Al final, Sofia scrive una nota: “Ceniamo insieme.”."
+        "Oggi Sofia è a Bologna. Incontra Marco nel suo quartiere e lo saluta con un sorriso. I due parlano lentamente e si ascoltano con attenzione. Sofia vuole usare l'italiano in una situazione vera, quindi prova una frase semplice e Marco le risponde con gentilezza.",
+        "Durante la conversazione usano parole utili della lezione: parole semplici. Marco fa una domanda e Sofia risponde senza fretta. Se non capisce una parola, chiede: «Puoi ripetere, per favore?». Poi ripetono insieme le parole più importanti e trovano un piccolo esempio per ciascuna.",
+        "Prima di tornare a casa, Sofia ringrazia Marco. Dice che ascoltare, parlare e ripetere la aiuta a sentirsi più sicura. Marco è d'accordo e propone di incontrarsi di nuovo domani. Sofia torna a casa contenta e scrive nel suo quaderno le nuove parole della giornata."
       ],
       "questions": [
-        "Dove è Sofia?",
+        "Dove si trova Sofia?",
         "Con chi parla Sofia?",
-        "Quale frase usa Sofia?",
-        "Perché l’esperienza è importante?"
+        "Che cosa fa Sofia se non capisce una parola?",
+        "Perché Sofia ripete le parole?"
       ],
-      "text": "Sofia è em Bologna. Hoje descobre una cena familiare e gli orari italiani. Encontra Marco e diz: “Ceniamo insieme.”. Os dois falam com respeito e aprendem quatro palavras novas: famiglia, cena, tavola e insieme.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.\n\nAl final, Sofia scrive una nota: “Ceniamo insieme.”."
+      "text": "Oggi Sofia è a Bologna. Incontra Marco nel suo quartiere e lo saluta con un sorriso. I due parlano lentamente e si ascoltano con attenzione. Sofia vuole usare l'italiano in una situazione vera, quindi prova una frase semplice e Marco le risponde con gentilezza.\n\nDurante la conversazione usano parole utili della lezione: parole semplici. Marco fa una domanda e Sofia risponde senza fretta. Se non capisce una parola, chiede: «Puoi ripetere, per favore?». Poi ripetono insieme le parole più importanti e trovano un piccolo esempio per ciascuna.\n\nPrima di tornare a casa, Sofia ringrazia Marco. Dice che ascoltare, parlare e ripetere la aiuta a sentirsi più sicura. Marco è d'accordo e propone di incontrarsi di nuovo domani. Sofia torna a casa contenta e scrive nel suo quaderno le nuove parole della giornata."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
+        "id": "italian-a1-la-famiglia-a-tavola-reading-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Che cosa pratica l’unità?",
+        "prompt": "Dove si trova Sofia?",
         "options": [
-          "parlare della famiglia",
-          "Una regola isolata",
-          "Un esame tecnico",
-          "Un tema senza contesto"
+          "Bologna",
+          "Roma",
+          "Milano",
+          "Napoli"
         ]
       },
       {
+        "id": "italian-a1-la-famiglia-a-tavola-reading-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Che cosa fa lo studente?",
+        "prompt": "Con chi parla Sofia?",
         "options": [
-          "parlare della famiglia",
-          "Memorizza senza usare",
-          "Evita di parlare",
-          "Traduce soltanto"
+          "Marco",
+          "Lucia",
+          "Paolo",
+          "Anna"
         ]
       },
       {
-        "id": "italian-a1-la-famiglia-a-tavola-reading-comprehension-3",
+        "id": "italian-a1-la-famiglia-a-tavola-reading-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «La famiglia a tavola»?",
+        "prompt": "Che cosa fa Sofia se non capisce una parola?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di La famiglia a tavola",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Chiede di ripetere",
+          "Va via subito",
+          "Non ascolta",
+          "Cambia città"
         ]
       },
       {
-        "id": "italian-a1-la-famiglia-a-tavola-reading-comprehension-4",
+        "id": "italian-a1-la-famiglia-a-tavola-reading-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «La famiglia a tavola»?",
+        "prompt": "Perché Sofia ripete le parole?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di La famiglia a tavola",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Per sentirsi più sicura",
+          "Per fare un esame tecnico",
+          "Per comprare un biglietto",
+          "Per evitare Marco"
         ]
       }
     ]
@@ -9257,34 +9263,34 @@
       {
         "id": "italian-a2-ricette-di-famiglia-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Ricette di famiglia»?",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“e spiega perché questa experiência è _____ per il quartiere.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Ricette di famiglia",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "ascoltando",
+          "recuerdos",
+          "importante",
+          "experiência"
         ]
       },
       {
         "id": "italian-a2-ricette-di-famiglia-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Ricette di famiglia»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“La conversazione mostra che la cultura si impara ascoltando e _____.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Ricette di famiglia",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "experiência",
+          "conversazione",
+          "importante",
+          "partecipando"
         ]
       },
       {
         "id": "italian-a2-ricette-di-famiglia-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Ricette di famiglia»?",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“Al final, Sofia scrive una nota: “_____ taglio le verdure.”.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Ricette di famiglia",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Prima",
+          "Sofia",
+          "parla",
+          "Marco"
         ]
       }
     ]
@@ -9637,92 +9643,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Salute e benessere: parole»?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Salute e benessere», un piccolo gruppo della comunità parla di benessere, riposo e _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Salute e benessere», un piccolo gruppo della comunità parla di benessere, riposo e allenamento."
+                "text": "allenamento"
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "comunità"
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "racconta"
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "concreta"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «Nel tema «Salute e benessere», un piccolo gruppo della comunità parla…» in «Salute e benessere: parole»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Salute e benessere», un piccolo gruppo della comunità parla di benessere, riposo e allenamento."
+                "text": "un'esperienza"
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "persona"
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "allenamento"
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "collaborare"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Salute e benessere: parole»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Salute e benessere», un piccolo gruppo della comunità parla di benessere, riposo e allenamento."
+                "text": "un'esperienza"
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "allenamento"
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "perché"
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "collaborare"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Salute e benessere: parole»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Salute e benessere», un piccolo gruppo della comunità parla di benessere, riposo e allenamento."
+                "text": "un'esperienza"
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "allenamento"
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "collaborare"
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "gruppo"
               }
             ]
           }
@@ -9733,42 +9739,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Salute e benessere: parole»?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Salute e benessere», un piccolo gruppo della comunità parla di benessere, riposo e _____.”",
         "options": [
-          "Nel tema «Salute e benessere», un piccolo gruppo della comunità parla di benessere, riposo e allenamento.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "allenamento",
+          "comunità",
+          "racconta",
+          "concreta"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «Nel tema «Salute e benessere», un piccolo gruppo della comunità parla…» in «Salute e benessere: parole»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
         "options": [
-          "Nel tema «Salute e benessere», un piccolo gruppo della comunità parla di benessere, riposo e allenamento.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "un'esperienza",
+          "persona",
+          "allenamento",
+          "collaborare"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Salute e benessere: parole»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
         "options": [
-          "Nel tema «Salute e benessere», un piccolo gruppo della comunità parla di benessere, riposo e allenamento.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "un'esperienza",
+          "allenamento",
+          "perché",
+          "collaborare"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Salute e benessere: parole»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
         "options": [
-          "Nel tema «Salute e benessere», un piccolo gruppo della comunità parla di benessere, riposo e allenamento.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "un'esperienza",
+          "allenamento",
+          "collaborare",
+          "gruppo"
         ]
       }
     ]
@@ -10063,92 +10069,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Lavoro e competenze · Ascolto»?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Lavoro e competenze, due partecipanti mettono a confronto le loro _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Lavoro e competenze, due partecipanti mettono a confronto le loro posizioni."
+                "text": "posizioni"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che esperienza è utile solo se viene spiegato con esempi verificabili."
+                "text": "Lavoro"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: candidatura può cambiare la prospettiva di chi ascolta."
+                "text": "partecipanti"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "essere"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In questa puntata dedicata a Lavoro e competenze, due partecipanti…» in «Lavoro e competenze · Ascolto»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che esperienza è utile solo se viene spiegato con esempi verificabili.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Lavoro e competenze, due partecipanti mettono a confronto le loro posizioni."
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che esperienza è utile solo se viene spiegato con esempi verificabili."
+                "text": "aggiunge"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: candidatura può cambiare la prospettiva di chi ascolta."
+                "text": "isolatamente"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "verificabili"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Lavoro e competenze · Ascolto»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: candidatura può cambiare la prospettiva di chi ascolta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Lavoro e competenze, due partecipanti mettono a confronto le loro posizioni."
+                "text": "Lavoro"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che esperienza è utile solo se viene spiegato con esempi verificabili."
+                "text": "partecipanti"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: candidatura può cambiare la prospettiva di chi ascolta."
+                "text": "possibile"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "essere"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Lavoro e competenze · Ascolto»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Lavoro e competenze, due partecipanti mettono a confronto le loro posizioni."
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che esperienza è utile solo se viene spiegato con esempi verificabili."
+                "text": "isolatamente"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: candidatura può cambiare la prospettiva di chi ascolta."
+                "text": "verificabili"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "scelte"
               }
             ]
           }
@@ -10168,42 +10174,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Lavoro e competenze · Ascolto»?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Lavoro e competenze, due partecipanti mettono a confronto le loro _____.”",
         "options": [
-          "In questa puntata dedicata a Lavoro e competenze, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che esperienza è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: candidatura può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "posizioni",
+          "Lavoro",
+          "partecipanti",
+          "essere"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In questa puntata dedicata a Lavoro e competenze, due partecipanti…» in «Lavoro e competenze · Ascolto»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che esperienza è utile solo se viene spiegato con esempi verificabili.”",
         "options": [
-          "In questa puntata dedicata a Lavoro e competenze, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che esperienza è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: candidatura può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "partecipanti",
+          "aggiunge",
+          "isolatamente",
+          "verificabili"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Lavoro e competenze · Ascolto»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: candidatura può cambiare la prospettiva di chi ascolta.”",
         "options": [
-          "In questa puntata dedicata a Lavoro e competenze, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che esperienza è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: candidatura può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "Lavoro",
+          "partecipanti",
+          "possibile",
+          "essere"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Lavoro e competenze · Ascolto»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
         "options": [
-          "In questa puntata dedicata a Lavoro e competenze, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che esperienza è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: candidatura può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "partecipanti",
+          "isolatamente",
+          "verificabili",
+          "scelte"
         ]
       }
     ]
@@ -10270,92 +10276,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Etica e decisioni · Ascolto»?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Etica e decisioni, due partecipanti mettono a confronto le loro _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Etica e decisioni, due partecipanti mettono a confronto le loro posizioni."
+                "text": "posizioni"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che principio è utile solo se viene spiegato con esempi verificabili."
+                "text": "responsabilità"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: responsabilità può cambiare la prospettiva di chi ascolta."
+                "text": "partecipanti"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "essere"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In questa puntata dedicata a Etica e decisioni, due partecipanti…» in «Etica e decisioni · Ascolto»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che principio è utile solo se viene spiegato con esempi verificabili.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Etica e decisioni, due partecipanti mettono a confronto le loro posizioni."
+                "text": "responsabilità"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che principio è utile solo se viene spiegato con esempi verificabili."
+                "text": "aggiunge"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: responsabilità può cambiare la prospettiva di chi ascolta."
+                "text": "partecipanti"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "isolatamente"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Etica e decisioni · Ascolto»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: responsabilità può cambiare la prospettiva di chi ascolta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Etica e decisioni, due partecipanti mettono a confronto le loro posizioni."
+                "text": "responsabilità"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che principio è utile solo se viene spiegato con esempi verificabili."
+                "text": "partecipanti"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: responsabilità può cambiare la prospettiva di chi ascolta."
+                "text": "possibile"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "essere"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Etica e decisioni · Ascolto»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Etica e decisioni, due partecipanti mettono a confronto le loro posizioni."
+                "text": "responsabilità"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che principio è utile solo se viene spiegato con esempi verificabili."
+                "text": "partecipanti"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: responsabilità può cambiare la prospettiva di chi ascolta."
+                "text": "isolatamente"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "scelte"
               }
             ]
           }
@@ -10375,42 +10381,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Etica e decisioni · Ascolto»?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Etica e decisioni, due partecipanti mettono a confronto le loro _____.”",
         "options": [
-          "In questa puntata dedicata a Etica e decisioni, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che principio è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: responsabilità può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "posizioni",
+          "responsabilità",
+          "partecipanti",
+          "essere"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In questa puntata dedicata a Etica e decisioni, due partecipanti…» in «Etica e decisioni · Ascolto»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che principio è utile solo se viene spiegato con esempi verificabili.”",
         "options": [
-          "In questa puntata dedicata a Etica e decisioni, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che principio è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: responsabilità può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "responsabilità",
+          "aggiunge",
+          "partecipanti",
+          "isolatamente"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Etica e decisioni · Ascolto»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: responsabilità può cambiare la prospettiva di chi ascolta.”",
         "options": [
-          "In questa puntata dedicata a Etica e decisioni, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che principio è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: responsabilità può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "responsabilità",
+          "partecipanti",
+          "possibile",
+          "essere"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Etica e decisioni · Ascolto»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
         "options": [
-          "In questa puntata dedicata a Etica e decisioni, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che principio è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: responsabilità può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "responsabilità",
+          "partecipanti",
+          "isolatamente",
+          "scelte"
         ]
       }
     ]
@@ -10477,92 +10483,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Conoscenza e incertezza · Ascolto»?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Conoscenza e incertezza, due partecipanti mettono a confronto le loro _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Conoscenza e incertezza, due partecipanti mettono a confronto le loro posizioni."
+                "text": "posizioni"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che probabilità è utile solo se viene spiegato con esempi verificabili."
+                "text": "partecipanti"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: evidenza può cambiare la prospettiva di chi ascolta."
+                "text": "essere"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "isolatamente"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In questa puntata dedicata a Conoscenza e incertezza, due partecipanti…» in «Conoscenza e incertezza · Ascolto»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che probabilità è utile solo se viene spiegato con esempi verificabili.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Conoscenza e incertezza, due partecipanti mettono a confronto le loro posizioni."
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che probabilità è utile solo se viene spiegato con esempi verificabili."
+                "text": "aggiunge"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: evidenza può cambiare la prospettiva di chi ascolta."
+                "text": "isolatamente"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "verificabili"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Conoscenza e incertezza · Ascolto»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: evidenza può cambiare la prospettiva di chi ascolta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Conoscenza e incertezza, due partecipanti mettono a confronto le loro posizioni."
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che probabilità è utile solo se viene spiegato con esempi verificabili."
+                "text": "essere"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: evidenza può cambiare la prospettiva di chi ascolta."
+                "text": "possibile"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "isolatamente"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Conoscenza e incertezza · Ascolto»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Conoscenza e incertezza, due partecipanti mettono a confronto le loro posizioni."
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che probabilità è utile solo se viene spiegato con esempi verificabili."
+                "text": "isolatamente"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: evidenza può cambiare la prospettiva di chi ascolta."
+                "text": "verificabili"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "scelte"
               }
             ]
           }
@@ -10582,42 +10588,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Conoscenza e incertezza · Ascolto»?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Conoscenza e incertezza, due partecipanti mettono a confronto le loro _____.”",
         "options": [
-          "In questa puntata dedicata a Conoscenza e incertezza, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che probabilità è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: evidenza può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "posizioni",
+          "partecipanti",
+          "essere",
+          "isolatamente"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In questa puntata dedicata a Conoscenza e incertezza, due partecipanti…» in «Conoscenza e incertezza · Ascolto»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che probabilità è utile solo se viene spiegato con esempi verificabili.”",
         "options": [
-          "In questa puntata dedicata a Conoscenza e incertezza, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che probabilità è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: evidenza può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "partecipanti",
+          "aggiunge",
+          "isolatamente",
+          "verificabili"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Conoscenza e incertezza · Ascolto»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: evidenza può cambiare la prospettiva di chi ascolta.”",
         "options": [
-          "In questa puntata dedicata a Conoscenza e incertezza, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che probabilità è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: evidenza può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "partecipanti",
+          "essere",
+          "possibile",
+          "isolatamente"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Conoscenza e incertezza · Ascolto»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
         "options": [
-          "In questa puntata dedicata a Conoscenza e incertezza, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che probabilità è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: evidenza può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "partecipanti",
+          "isolatamente",
+          "verificabili",
+          "scelte"
         ]
       }
     ]
@@ -10675,92 +10681,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «La famiglia a tavola: ascolta», which detail establishes the situation?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“Ceniamo _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Ceniamo insieme."
+                "text": "insieme"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di famiglia."
+                "text": "piace"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "Parliamo"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "famiglia"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «Ceniamo insieme.», what happens next in «La famiglia a tavola: ascolta»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Ceniamo insieme."
+                "text": "piace"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di famiglia."
+                "text": "famiglia"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "domani"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "Ceniamo"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «La famiglia a tavola: ascolta»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Ceniamo insieme."
+                "text": "piace"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di famiglia."
+                "text": "domani"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "comunità"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "Ceniamo"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «La famiglia a tavola: ascolta» after «Mi piace imparare con la comunità.»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Ceniamo insieme."
+                "text": "piace"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di famiglia."
+                "text": "Parliamo"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "famiglia"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "pratica"
               }
             ]
           }
@@ -10771,42 +10777,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «La famiglia a tavola: ascolta», which detail establishes the situation?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“Ceniamo _____.”",
         "options": [
-          "Ceniamo insieme.",
-          "Parliamo di famiglia.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "insieme",
+          "piace",
+          "Parliamo",
+          "famiglia"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «Ceniamo insieme.», what happens next in «La famiglia a tavola: ascolta»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
         "options": [
-          "Ceniamo insieme.",
-          "Parliamo di famiglia.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "piace",
+          "famiglia",
+          "domani",
+          "Ceniamo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «La famiglia a tavola: ascolta»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
         "options": [
-          "Ceniamo insieme.",
-          "Parliamo di famiglia.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "piace",
+          "domani",
+          "comunità",
+          "Ceniamo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «La famiglia a tavola: ascolta» after «Mi piace imparare con la comunità.»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
         "options": [
-          "Ceniamo insieme.",
-          "Parliamo di famiglia.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "piace",
+          "Parliamo",
+          "famiglia",
+          "pratica"
         ]
       }
     ]
@@ -10864,92 +10870,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «Ricette di famiglia: ascolta», which detail establishes the situation?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“Prima taglio le _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Prima taglio le verdure."
+                "text": "verdure"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di ricetta."
+                "text": "Prima"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "piace"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "taglio"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «Prima taglio le verdure.», what happens next in «Ricette di famiglia: ascolta»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Prima taglio le verdure."
+                "text": "Prima"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di ricetta."
+                "text": "ricetta"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "piace"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "taglio"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «Ricette di famiglia: ascolta»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Prima taglio le verdure."
+                "text": "Prima"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di ricetta."
+                "text": "piace"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "comunità"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "taglio"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «Ricette di famiglia: ascolta» after «Mi piace imparare con la comunità.»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Prima taglio le verdure."
+                "text": "Prima"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di ricetta."
+                "text": "piace"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "taglio"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "pratica"
               }
             ]
           }
@@ -10960,42 +10966,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «Ricette di famiglia: ascolta», which detail establishes the situation?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“Prima taglio le _____.”",
         "options": [
-          "Prima taglio le verdure.",
-          "Parliamo di ricetta.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "verdure",
+          "Prima",
+          "piace",
+          "taglio"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «Prima taglio le verdure.», what happens next in «Ricette di famiglia: ascolta»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
         "options": [
-          "Prima taglio le verdure.",
-          "Parliamo di ricetta.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Prima",
+          "ricetta",
+          "piace",
+          "taglio"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «Ricette di famiglia: ascolta»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
         "options": [
-          "Prima taglio le verdure.",
-          "Parliamo di ricetta.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Prima",
+          "piace",
+          "comunità",
+          "taglio"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «Ricette di famiglia: ascolta» after «Mi piace imparare con la comunità.»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
         "options": [
-          "Prima taglio le verdure.",
-          "Parliamo di ricetta.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Prima",
+          "piace",
+          "taglio",
+          "pratica"
         ]
       }
     ]
@@ -12843,12 +12849,12 @@
       {
         "id": "italian-b1-cultura-e-media-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Cultura e media»?",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“Giulia non cerca una risposta perfetta: vuole un modo responsabile per migliorare la situazione e imparare _____.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Cultura e media",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "dall'esperienza",
+          "responsabile",
+          "distinguere",
+          "discussione"
         ]
       }
     ]
@@ -12942,34 +12948,34 @@
       {
         "id": "italian-b2-ambiente-e-consumi-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Ambiente e consumi · Lettura»?",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“La discussione non cerca una risposta unica: mette in relazione _____, limiti e possibili soluzioni.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Ambiente e consumi · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "prospettive",
+          "discussione",
+          "conseguenze",
+          "partecipante"
         ]
       },
       {
         "id": "italian-b2-ambiente-e-consumi-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Ambiente e consumi · Lettura»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“_____ fine, il gruppo formula una sintesi condivisa.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Ambiente e consumi · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Ogni",
+          "fine",
+          "deve",
+          "Alla"
         ]
       },
       {
         "id": "italian-b2-ambiente-e-consumi-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Ambiente e consumi · Lettura»?",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“La proposta deve _____ chiara, realizzabile e rispettosa dei diversi punti di vista.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Ambiente e consumi · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "essere",
+          "modulo",
+          "gruppo",
+          "limiti"
         ]
       }
     ]
@@ -13063,34 +13069,34 @@
       {
         "id": "italian-c1-arte-e-interpretazione-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Arte e interpretazione · Lettura»?",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“La discussione non cerca una risposta unica: mette in relazione _____, limiti e possibili soluzioni.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Arte e interpretazione · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "prospettive",
+          "discussione",
+          "conseguenze",
+          "linguaggio"
         ]
       },
       {
         "id": "italian-c1-arte-e-interpretazione-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Arte e interpretazione · Lettura»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“_____ fine, il gruppo formula una sintesi condivisa.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Arte e interpretazione · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Arte",
+          "Ogni",
+          "fine",
+          "Alla"
         ]
       },
       {
         "id": "italian-c1-arte-e-interpretazione-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Arte e interpretazione · Lettura»?",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“La proposta deve _____ chiara, realizzabile e rispettosa dei diversi punti di vista.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Arte e interpretazione · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "essere",
+          "modulo",
+          "gruppo",
+          "limiti"
         ]
       }
     ]
@@ -13184,34 +13190,34 @@
       {
         "id": "italian-c2-narrazione-e-identita-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Narrazione e identità · Lettura»?",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“La discussione non cerca una risposta unica: mette in relazione _____, limiti e possibili soluzioni.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Narrazione e identità · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "prospettive",
+          "discussione",
+          "conseguenze",
+          "Narrazione"
         ]
       },
       {
         "id": "italian-c2-narrazione-e-identita-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Narrazione e identità · Lettura»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“_____ fine, il gruppo formula una sintesi condivisa.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Narrazione e identità · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Ogni",
+          "fine",
+          "deve",
+          "Alla"
         ]
       },
       {
         "id": "italian-c2-narrazione-e-identita-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Narrazione e identità · Lettura»?",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“La proposta deve _____ chiara, realizzabile e rispettosa dei diversi punti di vista.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Narrazione e identità · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "essere",
+          "modulo",
+          "gruppo",
+          "limiti"
         ]
       }
     ]
@@ -13226,7 +13232,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 40,
-    "estimatedMinutes": 8,
+    "estimatedMinutes": 10,
     "description": "Frutta, verdura e prezzi al mercato",
     "intro": "Frutta, verdura e prezzi al mercato",
     "mission": "",
@@ -13237,61 +13243,63 @@
     "reading": {
       "title": "Il mercato del sabato",
       "parts": [
-        "Sofia è em Bologna. Hoje descobre frutta, verdura e prezzi al mercato. Encontra Marco e diz: “Quanto costa un chilo?”. Os dois falam com respeito e aprendem quatro palavras novas: pomodoro, mela, chilo e euro.",
-        "Marco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.",
-        "Al final, Sofia scrive una nota: “Quanto costa un chilo?”."
+        "Oggi Sofia è a Bologna. Incontra Marco nel suo quartiere e lo saluta con un sorriso. I due parlano lentamente e si ascoltano con attenzione. Sofia vuole usare l'italiano in una situazione vera, quindi prova una frase semplice e Marco le risponde con gentilezza.",
+        "Durante la conversazione usano parole utili della lezione: parole semplici. Marco fa una domanda e Sofia risponde senza fretta. Se non capisce una parola, chiede: «Puoi ripetere, per favore?». Poi ripetono insieme le parole più importanti e trovano un piccolo esempio per ciascuna.",
+        "Prima di tornare a casa, Sofia ringrazia Marco. Dice che ascoltare, parlare e ripetere la aiuta a sentirsi più sicura. Marco è d'accordo e propone di incontrarsi di nuovo domani. Sofia torna a casa contenta e scrive nel suo quaderno le nuove parole della giornata."
       ],
       "questions": [
-        "Dove è Sofia?",
+        "Dove si trova Sofia?",
         "Con chi parla Sofia?",
-        "Quale frase usa Sofia?",
-        "Perché l’esperienza è importante?"
+        "Che cosa fa Sofia se non capisce una parola?",
+        "Perché Sofia ripete le parole?"
       ],
-      "text": "Sofia è em Bologna. Hoje descobre frutta, verdura e prezzi al mercato. Encontra Marco e diz: “Quanto costa un chilo?”. Os dois falam com respeito e aprendem quatro palavras novas: pomodoro, mela, chilo e euro.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.\n\nAl final, Sofia scrive una nota: “Quanto costa un chilo?”."
+      "text": "Oggi Sofia è a Bologna. Incontra Marco nel suo quartiere e lo saluta con un sorriso. I due parlano lentamente e si ascoltano con attenzione. Sofia vuole usare l'italiano in una situazione vera, quindi prova una frase semplice e Marco le risponde con gentilezza.\n\nDurante la conversazione usano parole utili della lezione: parole semplici. Marco fa una domanda e Sofia risponde senza fretta. Se non capisce una parola, chiede: «Puoi ripetere, per favore?». Poi ripetono insieme le parole più importanti e trovano un piccolo esempio per ciascuna.\n\nPrima di tornare a casa, Sofia ringrazia Marco. Dice che ascoltare, parlare e ripetere la aiuta a sentirsi più sicura. Marco è d'accordo e propone di incontrarsi di nuovo domani. Sofia torna a casa contenta e scrive nel suo quaderno le nuove parole della giornata."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
+        "id": "italian-a1-il-mercato-del-sabato-reading-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Che cosa pratica l’unità?",
+        "prompt": "Dove si trova Sofia?",
         "options": [
-          "comprare al mercato",
-          "Una regola isolata",
-          "Un esame tecnico",
-          "Un tema senza contesto"
+          "Bologna",
+          "Roma",
+          "Milano",
+          "Napoli"
         ]
       },
       {
+        "id": "italian-a1-il-mercato-del-sabato-reading-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Che cosa fa lo studente?",
+        "prompt": "Con chi parla Sofia?",
         "options": [
-          "comprare al mercato",
-          "Memorizza senza usare",
-          "Evita di parlare",
-          "Traduce soltanto"
+          "Marco",
+          "Lucia",
+          "Paolo",
+          "Anna"
         ]
       },
       {
-        "id": "italian-a1-il-mercato-del-sabato-reading-comprehension-3",
+        "id": "italian-a1-il-mercato-del-sabato-reading-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Il mercato del sabato»?",
+        "prompt": "Che cosa fa Sofia se non capisce una parola?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Il mercato del sabato",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Chiede di ripetere",
+          "Va via subito",
+          "Non ascolta",
+          "Cambia città"
         ]
       },
       {
-        "id": "italian-a1-il-mercato-del-sabato-reading-comprehension-4",
+        "id": "italian-a1-il-mercato-del-sabato-reading-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Il mercato del sabato»?",
+        "prompt": "Perché Sofia ripete le parole?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Il mercato del sabato",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Per sentirsi più sicura",
+          "Per fare un esame tecnico",
+          "Per comprare un biglietto",
+          "Per evitare Marco"
         ]
       }
     ]
@@ -13355,34 +13363,34 @@
       {
         "id": "italian-a2-il-lavoro-e-il-caffe-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Il lavoro e il caffè»?",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“e spiega perché questa experiência è _____ per il quartiere.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Il lavoro e il caffè",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "ascoltando",
+          "laborales",
+          "importante",
+          "registros"
         ]
       },
       {
         "id": "italian-a2-il-lavoro-e-il-caffe-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Il lavoro e il caffè»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“La conversazione mostra che la cultura si impara ascoltando e _____.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Il lavoro e il caffè",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "experiência",
+          "conversazione",
+          "importante",
+          "partecipando"
         ]
       },
       {
         "id": "italian-a2-il-lavoro-e-il-caffe-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Il lavoro e il caffè»?",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“Al final, Sofia _____ una nota: “Posso fare una pausa?”.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Il lavoro e il caffè",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "scrive",
+          "pausas",
+          "spiega",
+          "perché"
         ]
       }
     ]
@@ -13735,92 +13743,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Cultura e media: parole»?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Cultura e media», un piccolo gruppo della comunità parla di notizia, fonte e _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Cultura e media», un piccolo gruppo della comunità parla di notizia, fonte e pubblico."
+                "text": "pubblico"
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "un'esperienza"
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "media"
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "parla"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «Nel tema «Cultura e media», un piccolo gruppo della comunità parla di…» in «Cultura e media: parole»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Cultura e media», un piccolo gruppo della comunità parla di notizia, fonte e pubblico."
+                "text": "un'esperienza"
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "persona"
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "collaborare"
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "tema"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Cultura e media: parole»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Cultura e media», un piccolo gruppo della comunità parla di notizia, fonte e pubblico."
+                "text": "un'esperienza"
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "collaborare"
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "perché"
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "migliorare"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Cultura e media: parole»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Cultura e media», un piccolo gruppo della comunità parla di notizia, fonte e pubblico."
+                "text": "un'esperienza"
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "collaborare"
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "migliorare"
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "gruppo"
               }
             ]
           }
@@ -13831,42 +13839,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Cultura e media: parole»?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Cultura e media», un piccolo gruppo della comunità parla di notizia, fonte e _____.”",
         "options": [
-          "Nel tema «Cultura e media», un piccolo gruppo della comunità parla di notizia, fonte e pubblico.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "pubblico",
+          "un'esperienza",
+          "media",
+          "parla"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «Nel tema «Cultura e media», un piccolo gruppo della comunità parla di…» in «Cultura e media: parole»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
         "options": [
-          "Nel tema «Cultura e media», un piccolo gruppo della comunità parla di notizia, fonte e pubblico.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "un'esperienza",
+          "persona",
+          "collaborare",
+          "tema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Cultura e media: parole»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
         "options": [
-          "Nel tema «Cultura e media», un piccolo gruppo della comunità parla di notizia, fonte e pubblico.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "un'esperienza",
+          "collaborare",
+          "perché",
+          "migliorare"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Cultura e media: parole»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
         "options": [
-          "Nel tema «Cultura e media», un piccolo gruppo della comunità parla di notizia, fonte e pubblico.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "un'esperienza",
+          "collaborare",
+          "migliorare",
+          "gruppo"
         ]
       }
     ]
@@ -14161,92 +14169,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Ambiente e consumi · Ascolto»?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Ambiente e consumi, due partecipanti mettono a confronto le loro _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Ambiente e consumi, due partecipanti mettono a confronto le loro posizioni."
+                "text": "posizioni"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che raccolta è utile solo se viene spiegato con esempi verificabili."
+                "text": "partecipanti"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: spreco può cambiare la prospettiva di chi ascolta."
+                "text": "essere"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "isolatamente"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In questa puntata dedicata a Ambiente e consumi, due partecipanti…» in «Ambiente e consumi · Ascolto»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che raccolta è utile solo se viene spiegato con esempi verificabili.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Ambiente e consumi, due partecipanti mettono a confronto le loro posizioni."
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che raccolta è utile solo se viene spiegato con esempi verificabili."
+                "text": "aggiunge"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: spreco può cambiare la prospettiva di chi ascolta."
+                "text": "isolatamente"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "verificabili"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Ambiente e consumi · Ascolto»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: spreco può cambiare la prospettiva di chi ascolta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Ambiente e consumi, due partecipanti mettono a confronto le loro posizioni."
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che raccolta è utile solo se viene spiegato con esempi verificabili."
+                "text": "essere"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: spreco può cambiare la prospettiva di chi ascolta."
+                "text": "possibile"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "isolatamente"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Ambiente e consumi · Ascolto»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Ambiente e consumi, due partecipanti mettono a confronto le loro posizioni."
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che raccolta è utile solo se viene spiegato con esempi verificabili."
+                "text": "isolatamente"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: spreco può cambiare la prospettiva di chi ascolta."
+                "text": "verificabili"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "scelte"
               }
             ]
           }
@@ -14266,42 +14274,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Ambiente e consumi · Ascolto»?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Ambiente e consumi, due partecipanti mettono a confronto le loro _____.”",
         "options": [
-          "In questa puntata dedicata a Ambiente e consumi, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che raccolta è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: spreco può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "posizioni",
+          "partecipanti",
+          "essere",
+          "isolatamente"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In questa puntata dedicata a Ambiente e consumi, due partecipanti…» in «Ambiente e consumi · Ascolto»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che raccolta è utile solo se viene spiegato con esempi verificabili.”",
         "options": [
-          "In questa puntata dedicata a Ambiente e consumi, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che raccolta è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: spreco può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "partecipanti",
+          "aggiunge",
+          "isolatamente",
+          "verificabili"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Ambiente e consumi · Ascolto»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: spreco può cambiare la prospettiva di chi ascolta.”",
         "options": [
-          "In questa puntata dedicata a Ambiente e consumi, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che raccolta è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: spreco può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "partecipanti",
+          "essere",
+          "possibile",
+          "isolatamente"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Ambiente e consumi · Ascolto»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
         "options": [
-          "In questa puntata dedicata a Ambiente e consumi, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che raccolta è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: spreco può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "partecipanti",
+          "isolatamente",
+          "verificabili",
+          "scelte"
         ]
       }
     ]
@@ -14368,92 +14376,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Arte e interpretazione · Ascolto»?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Arte e interpretazione, due partecipanti mettono a confronto le loro _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Arte e interpretazione, due partecipanti mettono a confronto le loro posizioni."
+                "text": "posizioni"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che linguaggio è utile solo se viene spiegato con esempi verificabili."
+                "text": "interpretazione"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: interpretazione può cambiare la prospettiva di chi ascolta."
+                "text": "partecipanti"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "essere"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In questa puntata dedicata a Arte e interpretazione, due partecipanti…» in «Arte e interpretazione · Ascolto»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che linguaggio è utile solo se viene spiegato con esempi verificabili.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Arte e interpretazione, due partecipanti mettono a confronto le loro posizioni."
+                "text": "interpretazione"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che linguaggio è utile solo se viene spiegato con esempi verificabili."
+                "text": "aggiunge"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: interpretazione può cambiare la prospettiva di chi ascolta."
+                "text": "partecipanti"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "isolatamente"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Arte e interpretazione · Ascolto»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: interpretazione può cambiare la prospettiva di chi ascolta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Arte e interpretazione, due partecipanti mettono a confronto le loro posizioni."
+                "text": "interpretazione"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che linguaggio è utile solo se viene spiegato con esempi verificabili."
+                "text": "partecipanti"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: interpretazione può cambiare la prospettiva di chi ascolta."
+                "text": "possibile"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "essere"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Arte e interpretazione · Ascolto»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Arte e interpretazione, due partecipanti mettono a confronto le loro posizioni."
+                "text": "interpretazione"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che linguaggio è utile solo se viene spiegato con esempi verificabili."
+                "text": "partecipanti"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: interpretazione può cambiare la prospettiva di chi ascolta."
+                "text": "isolatamente"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "scelte"
               }
             ]
           }
@@ -14473,42 +14481,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Arte e interpretazione · Ascolto»?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Arte e interpretazione, due partecipanti mettono a confronto le loro _____.”",
         "options": [
-          "In questa puntata dedicata a Arte e interpretazione, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che linguaggio è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: interpretazione può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "posizioni",
+          "interpretazione",
+          "partecipanti",
+          "essere"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In questa puntata dedicata a Arte e interpretazione, due partecipanti…» in «Arte e interpretazione · Ascolto»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che linguaggio è utile solo se viene spiegato con esempi verificabili.”",
         "options": [
-          "In questa puntata dedicata a Arte e interpretazione, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che linguaggio è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: interpretazione può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "interpretazione",
+          "aggiunge",
+          "partecipanti",
+          "isolatamente"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Arte e interpretazione · Ascolto»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: interpretazione può cambiare la prospettiva di chi ascolta.”",
         "options": [
-          "In questa puntata dedicata a Arte e interpretazione, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che linguaggio è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: interpretazione può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "interpretazione",
+          "partecipanti",
+          "possibile",
+          "essere"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Arte e interpretazione · Ascolto»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
         "options": [
-          "In questa puntata dedicata a Arte e interpretazione, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che linguaggio è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: interpretazione può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "interpretazione",
+          "partecipanti",
+          "isolatamente",
+          "scelte"
         ]
       }
     ]
@@ -14575,92 +14583,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Narrazione e identità · Ascolto»?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Narrazione e identità, due partecipanti mettono a confronto le loro _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Narrazione e identità, due partecipanti mettono a confronto le loro posizioni."
+                "text": "posizioni"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che memoria è utile solo se viene spiegato con esempi verificabili."
+                "text": "partecipanti"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: voce può cambiare la prospettiva di chi ascolta."
+                "text": "essere"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "isolatamente"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In questa puntata dedicata a Narrazione e identità, due partecipanti…» in «Narrazione e identità · Ascolto»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che memoria è utile solo se viene spiegato con esempi verificabili.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Narrazione e identità, due partecipanti mettono a confronto le loro posizioni."
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che memoria è utile solo se viene spiegato con esempi verificabili."
+                "text": "aggiunge"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: voce può cambiare la prospettiva di chi ascolta."
+                "text": "isolatamente"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "verificabili"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Narrazione e identità · Ascolto»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: voce può cambiare la prospettiva di chi ascolta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Narrazione e identità, due partecipanti mettono a confronto le loro posizioni."
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che memoria è utile solo se viene spiegato con esempi verificabili."
+                "text": "essere"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: voce può cambiare la prospettiva di chi ascolta."
+                "text": "possibile"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "isolatamente"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Narrazione e identità · Ascolto»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Narrazione e identità, due partecipanti mettono a confronto le loro posizioni."
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che memoria è utile solo se viene spiegato con esempi verificabili."
+                "text": "isolatamente"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: voce può cambiare la prospettiva di chi ascolta."
+                "text": "verificabili"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "scelte"
               }
             ]
           }
@@ -14680,42 +14688,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Narrazione e identità · Ascolto»?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Narrazione e identità, due partecipanti mettono a confronto le loro _____.”",
         "options": [
-          "In questa puntata dedicata a Narrazione e identità, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che memoria è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: voce può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "posizioni",
+          "partecipanti",
+          "essere",
+          "isolatamente"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In questa puntata dedicata a Narrazione e identità, due partecipanti…» in «Narrazione e identità · Ascolto»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che memoria è utile solo se viene spiegato con esempi verificabili.”",
         "options": [
-          "In questa puntata dedicata a Narrazione e identità, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che memoria è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: voce può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "partecipanti",
+          "aggiunge",
+          "isolatamente",
+          "verificabili"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Narrazione e identità · Ascolto»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: voce può cambiare la prospettiva di chi ascolta.”",
         "options": [
-          "In questa puntata dedicata a Narrazione e identità, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che memoria è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: voce può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "partecipanti",
+          "essere",
+          "possibile",
+          "isolatamente"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Narrazione e identità · Ascolto»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
         "options": [
-          "In questa puntata dedicata a Narrazione e identità, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che memoria è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: voce può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "partecipanti",
+          "isolatamente",
+          "verificabili",
+          "scelte"
         ]
       }
     ]
@@ -14773,92 +14781,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «Il mercato del sabato: ascolta», which detail establishes the situation?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“_____ costa un chilo?”",
             "options": [
               {
                 "id": "o1",
-                "text": "Quanto costa un chilo?"
+                "text": "Quanto"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di pomodoro."
+                "text": "con"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "Parliamo"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "pomodoro"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «Quanto costa un chilo?», what happens next in «Il mercato del sabato: ascolta»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Quanto costa un chilo?"
+                "text": "costa"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di pomodoro."
+                "text": "pomodoro"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "chilo"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "piace"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «Il mercato del sabato: ascolta»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Quanto costa un chilo?"
+                "text": "costa"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di pomodoro."
+                "text": "chilo"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "comunità"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "piace"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «Il mercato del sabato: ascolta» after «Mi piace imparare con la comunità.»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Quanto costa un chilo?"
+                "text": "costa"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di pomodoro."
+                "text": "chilo"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "piace"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "pratica"
               }
             ]
           }
@@ -14869,42 +14877,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «Il mercato del sabato: ascolta», which detail establishes the situation?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“_____ costa un chilo?”",
         "options": [
-          "Quanto costa un chilo?",
-          "Parliamo di pomodoro.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Quanto",
+          "con",
+          "Parliamo",
+          "pomodoro"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «Quanto costa un chilo?», what happens next in «Il mercato del sabato: ascolta»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
         "options": [
-          "Quanto costa un chilo?",
-          "Parliamo di pomodoro.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "costa",
+          "pomodoro",
+          "chilo",
+          "piace"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «Il mercato del sabato: ascolta»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
         "options": [
-          "Quanto costa un chilo?",
-          "Parliamo di pomodoro.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "costa",
+          "chilo",
+          "comunità",
+          "piace"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «Il mercato del sabato: ascolta» after «Mi piace imparare con la comunità.»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
         "options": [
-          "Quanto costa un chilo?",
-          "Parliamo di pomodoro.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "costa",
+          "chilo",
+          "piace",
+          "pratica"
         ]
       }
     ]
@@ -14962,92 +14970,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «Il lavoro e il caffè: ascolta», which detail establishes the situation?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“_____ fare una pausa?”",
             "options": [
               {
                 "id": "o1",
-                "text": "Posso fare una pausa?"
+                "text": "Posso"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di collega."
+                "text": "Parliamo"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "imparare"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "comunità"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «Posso fare una pausa?», what happens next in «Il lavoro e il caffè: ascolta»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Posso fare una pausa?"
+                "text": "fare"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di collega."
+                "text": "collega"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "Posso"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "pausa"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «Il lavoro e il caffè: ascolta»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Posso fare una pausa?"
+                "text": "Posso"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di collega."
+                "text": "pausa"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "comunità"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "piace"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «Il lavoro e il caffè: ascolta» after «Mi piace imparare con la comunità.»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Posso fare una pausa?"
+                "text": "fare"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di collega."
+                "text": "Posso"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "pausa"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "pratica"
               }
             ]
           }
@@ -15058,42 +15066,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «Il lavoro e il caffè: ascolta», which detail establishes the situation?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“_____ fare una pausa?”",
         "options": [
-          "Posso fare una pausa?",
-          "Parliamo di collega.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Posso",
+          "Parliamo",
+          "imparare",
+          "comunità"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «Posso fare una pausa?», what happens next in «Il lavoro e il caffè: ascolta»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
         "options": [
-          "Posso fare una pausa?",
-          "Parliamo di collega.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "fare",
+          "collega",
+          "Posso",
+          "pausa"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «Il lavoro e il caffè: ascolta»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
         "options": [
-          "Posso fare una pausa?",
-          "Parliamo di collega.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Posso",
+          "pausa",
+          "comunità",
+          "piace"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «Il lavoro e il caffè: ascolta» after «Mi piace imparare con la comunità.»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
         "options": [
-          "Posso fare una pausa?",
-          "Parliamo di collega.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "fare",
+          "Posso",
+          "pausa",
+          "pratica"
         ]
       }
     ]
@@ -16941,12 +16949,12 @@
       {
         "id": "italian-b1-ambiente-nel-quartiere-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Ambiente nel quartiere»?",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“Lorenzo non cerca una risposta perfetta: vuole un modo responsabile per migliorare la situazione e imparare _____.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Ambiente nel quartiere",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "dall'esperienza",
+          "responsabile",
+          "distinguere",
+          "discussione"
         ]
       }
     ]
@@ -17040,34 +17048,34 @@
       {
         "id": "italian-b2-media-e-informazione-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Media e informazione · Lettura»?",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“La discussione non cerca una risposta unica: mette in relazione _____, limiti e possibili soluzioni.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Media e informazione · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "prospettive",
+          "discussione",
+          "conseguenze",
+          "informazione"
         ]
       },
       {
         "id": "italian-b2-media-e-informazione-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Media e informazione · Lettura»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“_____ fine, il gruppo formula una sintesi condivisa.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Media e informazione · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Ogni",
+          "fine",
+          "deve",
+          "Alla"
         ]
       },
       {
         "id": "italian-b2-media-e-informazione-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Media e informazione · Lettura»?",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“La proposta deve _____ chiara, realizzabile e rispettosa dei diversi punti di vista.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Media e informazione · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "essere",
+          "modulo",
+          "gruppo",
+          "limiti"
         ]
       }
     ]
@@ -17161,34 +17169,34 @@
       {
         "id": "italian-c1-ricerca-e-metodo-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Ricerca e metodo · Lettura»?",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“La discussione non cerca una risposta unica: mette in relazione _____, limiti e possibili soluzioni.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Ricerca e metodo · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "prospettive",
+          "discussione",
+          "conseguenze",
+          "partecipante"
         ]
       },
       {
         "id": "italian-c1-ricerca-e-metodo-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Ricerca e metodo · Lettura»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“_____ fine, il gruppo formula una sintesi condivisa.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Ricerca e metodo · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Ogni",
+          "fine",
+          "deve",
+          "Alla"
         ]
       },
       {
         "id": "italian-c1-ricerca-e-metodo-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Ricerca e metodo · Lettura»?",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“La proposta deve _____ chiara, realizzabile e rispettosa dei diversi punti di vista.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Ricerca e metodo · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "essere",
+          "modulo",
+          "metodo",
+          "gruppo"
         ]
       }
     ]
@@ -17282,34 +17290,34 @@
       {
         "id": "italian-c2-diritto-e-responsabilita-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Diritto e responsabilità · Lettura»?",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“La discussione non cerca una risposta unica: mette in relazione _____, limiti e possibili soluzioni.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Diritto e responsabilità · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "prospettive",
+          "discussione",
+          "conseguenze",
+          "partecipante"
         ]
       },
       {
         "id": "italian-c2-diritto-e-responsabilita-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Diritto e responsabilità · Lettura»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“_____ fine, il gruppo formula una sintesi condivisa.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Diritto e responsabilità · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Ogni",
+          "fine",
+          "deve",
+          "Alla"
         ]
       },
       {
         "id": "italian-c2-diritto-e-responsabilita-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Diritto e responsabilità · Lettura»?",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“La proposta deve _____ chiara, realizzabile e rispettosa dei diversi punti di vista.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Diritto e responsabilità · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "essere",
+          "modulo",
+          "gruppo",
+          "dovere"
         ]
       }
     ]
@@ -17324,7 +17332,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 50,
-    "estimatedMinutes": 8,
+    "estimatedMinutes": 10,
     "description": "Moverse por la ciudad en bicicleta",
     "intro": "Moverse por la ciudad en bicicleta",
     "mission": "",
@@ -17335,61 +17343,63 @@
     "reading": {
       "title": "In bicicletta",
       "parts": [
-        "Sofia è em Bologna. Hoje descobre moverse por la ciudad en bicicleta. Encontra Marco e diz: “Dov’è la stazione?”. Os dois falam com respeito e aprendem quatro palavras novas: strada, piazza, stazione e bicicletta.",
-        "Marco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.",
-        "Al final, Sofia scrive una nota: “Dov’è la stazione?”."
+        "Oggi Sofia è a Bologna. Incontra Marco nel suo quartiere e lo saluta con un sorriso. I due parlano lentamente e si ascoltano con attenzione. Sofia vuole usare l'italiano in una situazione vera, quindi prova una frase semplice e Marco le risponde con gentilezza.",
+        "Durante la conversazione usano parole utili della lezione: parole semplici. Marco fa una domanda e Sofia risponde senza fretta. Se non capisce una parola, chiede: «Puoi ripetere, per favore?». Poi ripetono insieme le parole più importanti e trovano un piccolo esempio per ciascuna.",
+        "Prima di tornare a casa, Sofia ringrazia Marco. Dice che ascoltare, parlare e ripetere la aiuta a sentirsi più sicura. Marco è d'accordo e propone di incontrarsi di nuovo domani. Sofia torna a casa contenta e scrive nel suo quaderno le nuove parole della giornata."
       ],
       "questions": [
-        "Dove è Sofia?",
+        "Dove si trova Sofia?",
         "Con chi parla Sofia?",
-        "Quale frase usa Sofia?",
-        "Perché l’esperienza è importante?"
+        "Che cosa fa Sofia se non capisce una parola?",
+        "Perché Sofia ripete le parole?"
       ],
-      "text": "Sofia è em Bologna. Hoje descobre moverse por la ciudad en bicicleta. Encontra Marco e diz: “Dov’è la stazione?”. Os dois falam com respeito e aprendem quatro palavras novas: strada, piazza, stazione e bicicletta.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.\n\nAl final, Sofia scrive una nota: “Dov’è la stazione?”."
+      "text": "Oggi Sofia è a Bologna. Incontra Marco nel suo quartiere e lo saluta con un sorriso. I due parlano lentamente e si ascoltano con attenzione. Sofia vuole usare l'italiano in una situazione vera, quindi prova una frase semplice e Marco le risponde con gentilezza.\n\nDurante la conversazione usano parole utili della lezione: parole semplici. Marco fa una domanda e Sofia risponde senza fretta. Se non capisce una parola, chiede: «Puoi ripetere, per favore?». Poi ripetono insieme le parole più importanti e trovano un piccolo esempio per ciascuna.\n\nPrima di tornare a casa, Sofia ringrazia Marco. Dice che ascoltare, parlare e ripetere la aiuta a sentirsi più sicura. Marco è d'accordo e propone di incontrarsi di nuovo domani. Sofia torna a casa contenta e scrive nel suo quaderno le nuove parole della giornata."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
+        "id": "italian-a1-in-bicicletta-reading-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Che cosa pratica l’unità?",
+        "prompt": "Dove si trova Sofia?",
         "options": [
-          "chiedere indicazioni",
-          "Una regola isolata",
-          "Un esame tecnico",
-          "Un tema senza contesto"
+          "Bologna",
+          "Roma",
+          "Milano",
+          "Napoli"
         ]
       },
       {
+        "id": "italian-a1-in-bicicletta-reading-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Che cosa fa lo studente?",
+        "prompt": "Con chi parla Sofia?",
         "options": [
-          "chiedere indicazioni",
-          "Memorizza senza usare",
-          "Evita di parlare",
-          "Traduce soltanto"
+          "Marco",
+          "Lucia",
+          "Paolo",
+          "Anna"
         ]
       },
       {
-        "id": "italian-a1-in-bicicletta-reading-comprehension-3",
+        "id": "italian-a1-in-bicicletta-reading-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «In bicicletta»?",
+        "prompt": "Che cosa fa Sofia se non capisce una parola?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di In bicicletta",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Chiede di ripetere",
+          "Va via subito",
+          "Non ascolta",
+          "Cambia città"
         ]
       },
       {
-        "id": "italian-a1-in-bicicletta-reading-comprehension-4",
+        "id": "italian-a1-in-bicicletta-reading-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «In bicicletta»?",
+        "prompt": "Perché Sofia ripete le parole?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di In bicicletta",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Per sentirsi più sicura",
+          "Per fare un esame tecnico",
+          "Per comprare un biglietto",
+          "Per evitare Marco"
         ]
       }
     ]
@@ -17453,34 +17463,34 @@
       {
         "id": "italian-a2-arte-nel-quartiere-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Arte nel quartiere»?",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“e spiega perché questa experiência è _____ per il quartiere.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Arte nel quartiere",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "ascoltando",
+          "compartidos",
+          "importante",
+          "experiência"
         ]
       },
       {
         "id": "italian-a2-arte-nel-quartiere-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Arte nel quartiere»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“La conversazione mostra che la cultura si impara ascoltando e _____.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Arte nel quartiere",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "interessante",
+          "compartidos",
+          "experiência",
+          "partecipando"
         ]
       },
       {
         "id": "italian-a2-arte-nel-quartiere-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Arte nel quartiere»?",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“Al final, Sofia scrive una nota: “La mostra era _____.”.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Arte nel quartiere",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "interessante",
+          "partecipando",
+          "compartidos",
+          "experiência"
         ]
       }
     ]
@@ -17833,92 +17843,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Ambiente nel quartiere: parole»?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Ambiente nel quartiere», un piccolo gruppo della comunità parla di rifiuto, raccolta e _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Ambiente nel quartiere», un piccolo gruppo della comunità parla di rifiuto, raccolta e risorsa."
+                "text": "risorsa"
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "un'esperienza"
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "collaborare"
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "tema"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «Nel tema «Ambiente nel quartiere», un piccolo gruppo della comunità…» in «Ambiente nel quartiere: parole»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Ambiente nel quartiere», un piccolo gruppo della comunità parla di rifiuto, raccolta e risorsa."
+                "text": "un'esperienza"
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "persona"
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "collaborare"
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "tema"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Ambiente nel quartiere: parole»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Ambiente nel quartiere», un piccolo gruppo della comunità parla di rifiuto, raccolta e risorsa."
+                "text": "un'esperienza"
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "collaborare"
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "perché"
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "migliorare"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Ambiente nel quartiere: parole»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Ambiente nel quartiere», un piccolo gruppo della comunità parla di rifiuto, raccolta e risorsa."
+                "text": "un'esperienza"
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "collaborare"
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "migliorare"
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "gruppo"
               }
             ]
           }
@@ -17929,42 +17939,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Ambiente nel quartiere: parole»?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Ambiente nel quartiere», un piccolo gruppo della comunità parla di rifiuto, raccolta e _____.”",
         "options": [
-          "Nel tema «Ambiente nel quartiere», un piccolo gruppo della comunità parla di rifiuto, raccolta e risorsa.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "risorsa",
+          "un'esperienza",
+          "collaborare",
+          "tema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «Nel tema «Ambiente nel quartiere», un piccolo gruppo della comunità…» in «Ambiente nel quartiere: parole»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
         "options": [
-          "Nel tema «Ambiente nel quartiere», un piccolo gruppo della comunità parla di rifiuto, raccolta e risorsa.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "un'esperienza",
+          "persona",
+          "collaborare",
+          "tema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Ambiente nel quartiere: parole»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
         "options": [
-          "Nel tema «Ambiente nel quartiere», un piccolo gruppo della comunità parla di rifiuto, raccolta e risorsa.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "un'esperienza",
+          "collaborare",
+          "perché",
+          "migliorare"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Ambiente nel quartiere: parole»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
         "options": [
-          "Nel tema «Ambiente nel quartiere», un piccolo gruppo della comunità parla di rifiuto, raccolta e risorsa.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "un'esperienza",
+          "collaborare",
+          "migliorare",
+          "gruppo"
         ]
       }
     ]
@@ -18259,92 +18269,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Media e informazione · Ascolto»?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Media e informazione, due partecipanti mettono a confronto le loro _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Media e informazione, due partecipanti mettono a confronto le loro posizioni."
+                "text": "posizioni"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che notizia è utile solo se viene spiegato con esempi verificabili."
+                "text": "informazione"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: verificare può cambiare la prospettiva di chi ascolta."
+                "text": "partecipanti"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "essere"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In questa puntata dedicata a Media e informazione, due partecipanti…» in «Media e informazione · Ascolto»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che notizia è utile solo se viene spiegato con esempi verificabili.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Media e informazione, due partecipanti mettono a confronto le loro posizioni."
+                "text": "informazione"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che notizia è utile solo se viene spiegato con esempi verificabili."
+                "text": "aggiunge"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: verificare può cambiare la prospettiva di chi ascolta."
+                "text": "partecipanti"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "isolatamente"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Media e informazione · Ascolto»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: verificare può cambiare la prospettiva di chi ascolta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Media e informazione, due partecipanti mettono a confronto le loro posizioni."
+                "text": "informazione"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che notizia è utile solo se viene spiegato con esempi verificabili."
+                "text": "partecipanti"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: verificare può cambiare la prospettiva di chi ascolta."
+                "text": "possibile"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "essere"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Media e informazione · Ascolto»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Media e informazione, due partecipanti mettono a confronto le loro posizioni."
+                "text": "informazione"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che notizia è utile solo se viene spiegato con esempi verificabili."
+                "text": "partecipanti"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: verificare può cambiare la prospettiva di chi ascolta."
+                "text": "isolatamente"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "scelte"
               }
             ]
           }
@@ -18364,42 +18374,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Media e informazione · Ascolto»?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Media e informazione, due partecipanti mettono a confronto le loro _____.”",
         "options": [
-          "In questa puntata dedicata a Media e informazione, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che notizia è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: verificare può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "posizioni",
+          "informazione",
+          "partecipanti",
+          "essere"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In questa puntata dedicata a Media e informazione, due partecipanti…» in «Media e informazione · Ascolto»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che notizia è utile solo se viene spiegato con esempi verificabili.”",
         "options": [
-          "In questa puntata dedicata a Media e informazione, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che notizia è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: verificare può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "informazione",
+          "aggiunge",
+          "partecipanti",
+          "isolatamente"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Media e informazione · Ascolto»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: verificare può cambiare la prospettiva di chi ascolta.”",
         "options": [
-          "In questa puntata dedicata a Media e informazione, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che notizia è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: verificare può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "informazione",
+          "partecipanti",
+          "possibile",
+          "essere"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Media e informazione · Ascolto»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
         "options": [
-          "In questa puntata dedicata a Media e informazione, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che notizia è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: verificare può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "informazione",
+          "partecipanti",
+          "isolatamente",
+          "scelte"
         ]
       }
     ]
@@ -18466,92 +18476,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Ricerca e metodo · Ascolto»?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Ricerca e metodo, due partecipanti mettono a confronto le loro _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Ricerca e metodo, due partecipanti mettono a confronto le loro posizioni."
+                "text": "posizioni"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che campione è utile solo se viene spiegato con esempi verificabili."
+                "text": "metodo"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: risultato può cambiare la prospettiva di chi ascolta."
+                "text": "partecipanti"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "essere"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In questa puntata dedicata a Ricerca e metodo, due partecipanti…» in «Ricerca e metodo · Ascolto»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che campione è utile solo se viene spiegato con esempi verificabili.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Ricerca e metodo, due partecipanti mettono a confronto le loro posizioni."
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che campione è utile solo se viene spiegato con esempi verificabili."
+                "text": "aggiunge"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: risultato può cambiare la prospettiva di chi ascolta."
+                "text": "isolatamente"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "verificabili"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Ricerca e metodo · Ascolto»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: risultato può cambiare la prospettiva di chi ascolta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Ricerca e metodo, due partecipanti mettono a confronto le loro posizioni."
+                "text": "metodo"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che campione è utile solo se viene spiegato con esempi verificabili."
+                "text": "partecipanti"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: risultato può cambiare la prospettiva di chi ascolta."
+                "text": "possibile"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "essere"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Ricerca e metodo · Ascolto»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Ricerca e metodo, due partecipanti mettono a confronto le loro posizioni."
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che campione è utile solo se viene spiegato con esempi verificabili."
+                "text": "isolatamente"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: risultato può cambiare la prospettiva di chi ascolta."
+                "text": "verificabili"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "scelte"
               }
             ]
           }
@@ -18571,42 +18581,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Ricerca e metodo · Ascolto»?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Ricerca e metodo, due partecipanti mettono a confronto le loro _____.”",
         "options": [
-          "In questa puntata dedicata a Ricerca e metodo, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che campione è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: risultato può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "posizioni",
+          "metodo",
+          "partecipanti",
+          "essere"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In questa puntata dedicata a Ricerca e metodo, due partecipanti…» in «Ricerca e metodo · Ascolto»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che campione è utile solo se viene spiegato con esempi verificabili.”",
         "options": [
-          "In questa puntata dedicata a Ricerca e metodo, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che campione è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: risultato può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "partecipanti",
+          "aggiunge",
+          "isolatamente",
+          "verificabili"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Ricerca e metodo · Ascolto»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: risultato può cambiare la prospettiva di chi ascolta.”",
         "options": [
-          "In questa puntata dedicata a Ricerca e metodo, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che campione è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: risultato può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "metodo",
+          "partecipanti",
+          "possibile",
+          "essere"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Ricerca e metodo · Ascolto»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
         "options": [
-          "In questa puntata dedicata a Ricerca e metodo, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che campione è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: risultato può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "partecipanti",
+          "isolatamente",
+          "verificabili",
+          "scelte"
         ]
       }
     ]
@@ -18673,92 +18683,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Diritto e responsabilità · Ascolto»?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Diritto e responsabilità, due partecipanti mettono a confronto le loro _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Diritto e responsabilità, due partecipanti mettono a confronto le loro posizioni."
+                "text": "posizioni"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che dovere è utile solo se viene spiegato con esempi verificabili."
+                "text": "responsabilità"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: principio può cambiare la prospettiva di chi ascolta."
+                "text": "partecipanti"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "essere"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In questa puntata dedicata a Diritto e responsabilità, due…» in «Diritto e responsabilità · Ascolto»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che dovere è utile solo se viene spiegato con esempi verificabili.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Diritto e responsabilità, due partecipanti mettono a confronto le loro posizioni."
+                "text": "responsabilità"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che dovere è utile solo se viene spiegato con esempi verificabili."
+                "text": "aggiunge"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: principio può cambiare la prospettiva di chi ascolta."
+                "text": "partecipanti"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "isolatamente"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Diritto e responsabilità · Ascolto»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: principio può cambiare la prospettiva di chi ascolta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Diritto e responsabilità, due partecipanti mettono a confronto le loro posizioni."
+                "text": "responsabilità"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che dovere è utile solo se viene spiegato con esempi verificabili."
+                "text": "partecipanti"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: principio può cambiare la prospettiva di chi ascolta."
+                "text": "possibile"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "essere"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Diritto e responsabilità · Ascolto»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Diritto e responsabilità, due partecipanti mettono a confronto le loro posizioni."
+                "text": "responsabilità"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che dovere è utile solo se viene spiegato con esempi verificabili."
+                "text": "partecipanti"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: principio può cambiare la prospettiva di chi ascolta."
+                "text": "isolatamente"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "scelte"
               }
             ]
           }
@@ -18778,42 +18788,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Diritto e responsabilità · Ascolto»?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Diritto e responsabilità, due partecipanti mettono a confronto le loro _____.”",
         "options": [
-          "In questa puntata dedicata a Diritto e responsabilità, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che dovere è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: principio può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "posizioni",
+          "responsabilità",
+          "partecipanti",
+          "essere"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In questa puntata dedicata a Diritto e responsabilità, due…» in «Diritto e responsabilità · Ascolto»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che dovere è utile solo se viene spiegato con esempi verificabili.”",
         "options": [
-          "In questa puntata dedicata a Diritto e responsabilità, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che dovere è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: principio può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "responsabilità",
+          "aggiunge",
+          "partecipanti",
+          "isolatamente"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Diritto e responsabilità · Ascolto»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: principio può cambiare la prospettiva di chi ascolta.”",
         "options": [
-          "In questa puntata dedicata a Diritto e responsabilità, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che dovere è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: principio può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "responsabilità",
+          "partecipanti",
+          "possibile",
+          "essere"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Diritto e responsabilità · Ascolto»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
         "options": [
-          "In questa puntata dedicata a Diritto e responsabilità, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che dovere è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: principio può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "responsabilità",
+          "partecipanti",
+          "isolatamente",
+          "scelte"
         ]
       }
     ]
@@ -18871,92 +18881,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «In bicicletta: ascolta», which detail establishes the situation?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“Dov’è la _____?”",
             "options": [
               {
                 "id": "o1",
-                "text": "Dov’è la stazione?"
+                "text": "stazione"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di strada."
+                "text": "Dov’è"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "piace"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "strada"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «Dov’è la stazione?», what happens next in «In bicicletta: ascolta»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Dov’è la stazione?"
+                "text": "con"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di strada."
+                "text": "strada"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "stazione"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "Parliamo"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «In bicicletta: ascolta»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Dov’è la stazione?"
+                "text": "Dov’è"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di strada."
+                "text": "piace"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "comunità"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "strada"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «In bicicletta: ascolta» after «Mi piace imparare con la comunità.»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Dov’è la stazione?"
+                "text": "Dov’è"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di strada."
+                "text": "piace"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "stazione"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "pratica"
               }
             ]
           }
@@ -18967,42 +18977,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «In bicicletta: ascolta», which detail establishes the situation?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“Dov’è la _____?”",
         "options": [
-          "Dov’è la stazione?",
-          "Parliamo di strada.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "stazione",
+          "Dov’è",
+          "piace",
+          "strada"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «Dov’è la stazione?», what happens next in «In bicicletta: ascolta»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
         "options": [
-          "Dov’è la stazione?",
-          "Parliamo di strada.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "con",
+          "strada",
+          "stazione",
+          "Parliamo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «In bicicletta: ascolta»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
         "options": [
-          "Dov’è la stazione?",
-          "Parliamo di strada.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Dov’è",
+          "piace",
+          "comunità",
+          "strada"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «In bicicletta: ascolta» after «Mi piace imparare con la comunità.»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
         "options": [
-          "Dov’è la stazione?",
-          "Parliamo di strada.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Dov’è",
+          "piace",
+          "stazione",
+          "pratica"
         ]
       }
     ]
@@ -19060,92 +19070,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «Arte nel quartiere: ascolta», which detail establishes the situation?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“La mostra era _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "La mostra era interessante."
+                "text": "interessante"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di mostra."
+                "text": "mostra"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "era"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "Parliamo"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «La mostra era interessante.», what happens next in «Arte nel quartiere: ascolta»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "La mostra era interessante."
+                "text": "interessante"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di mostra."
+                "text": "mostra"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "era"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "con"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «Arte nel quartiere: ascolta»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "La mostra era interessante."
+                "text": "interessante"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di mostra."
+                "text": "piace"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "comunità"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "mostra"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «Arte nel quartiere: ascolta» after «Mi piace imparare con la comunità.»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
             "options": [
               {
                 "id": "o1",
-                "text": "La mostra era interessante."
+                "text": "interessante"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di mostra."
+                "text": "piace"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "mostra"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "pratica"
               }
             ]
           }
@@ -19156,42 +19166,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «Arte nel quartiere: ascolta», which detail establishes the situation?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“La mostra era _____.”",
         "options": [
-          "La mostra era interessante.",
-          "Parliamo di mostra.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "interessante",
+          "mostra",
+          "era",
+          "Parliamo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «La mostra era interessante.», what happens next in «Arte nel quartiere: ascolta»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
         "options": [
-          "La mostra era interessante.",
-          "Parliamo di mostra.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "interessante",
+          "mostra",
+          "era",
+          "con"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «Arte nel quartiere: ascolta»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
         "options": [
-          "La mostra era interessante.",
-          "Parliamo di mostra.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "interessante",
+          "piace",
+          "comunità",
+          "mostra"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «Arte nel quartiere: ascolta» after «Mi piace imparare con la comunità.»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
         "options": [
-          "La mostra era interessante.",
-          "Parliamo di mostra.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "interessante",
+          "piace",
+          "mostra",
+          "pratica"
         ]
       }
     ]
@@ -21039,12 +21049,12 @@
       {
         "id": "italian-b1-storie-e-memoria-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Storie e memoria»?",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“Marta non cerca una risposta perfetta: vuole un modo responsabile per migliorare la situazione e imparare _____.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Storie e memoria",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "dall'esperienza",
+          "responsabile",
+          "cambiamento",
+          "distinguere"
         ]
       }
     ]
@@ -21138,34 +21148,34 @@
       {
         "id": "italian-b2-salute-e-benessere-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Salute e benessere · Lettura»?",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“La discussione non cerca una risposta unica: mette in relazione _____, limiti e possibili soluzioni.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Salute e benessere · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "prevenzione",
+          "prospettive",
+          "conseguenze",
+          "discussione"
         ]
       },
       {
         "id": "italian-b2-salute-e-benessere-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Salute e benessere · Lettura»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“_____ fine, il gruppo formula una sintesi condivisa.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Salute e benessere · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Ogni",
+          "fine",
+          "deve",
+          "Alla"
         ]
       },
       {
         "id": "italian-b2-salute-e-benessere-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Salute e benessere · Lettura»?",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“La proposta deve _____ chiara, realizzabile e rispettosa dei diversi punti di vista.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Salute e benessere · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "essere",
+          "modulo",
+          "Salute",
+          "gruppo"
         ]
       }
     ]
@@ -21259,34 +21269,34 @@
       {
         "id": "italian-c1-economia-quotidiana-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Economia quotidiana · Lettura»?",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“La discussione non cerca una risposta unica: mette in relazione _____, limiti e possibili soluzioni.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Economia quotidiana · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "prospettive",
+          "discussione",
+          "conseguenze",
+          "quotidiana"
         ]
       },
       {
         "id": "italian-c1-economia-quotidiana-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Economia quotidiana · Lettura»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“_____ fine, il gruppo formula una sintesi condivisa.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Economia quotidiana · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Ogni",
+          "fine",
+          "deve",
+          "Alla"
         ]
       },
       {
         "id": "italian-c1-economia-quotidiana-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Economia quotidiana · Lettura»?",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“La proposta deve _____ chiara, realizzabile e rispettosa dei diversi punti di vista.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Economia quotidiana · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "essere",
+          "modulo",
+          "gruppo",
+          "limiti"
         ]
       }
     ]
@@ -21380,34 +21390,34 @@
       {
         "id": "italian-c2-economia-e-disuguaglianza-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Economia e disuguaglianza · Lettura»?",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“La discussione non cerca una risposta unica: mette in relazione _____, limiti e possibili soluzioni.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Economia e disuguaglianza · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "prospettive",
+          "discussione",
+          "conseguenze",
+          "partecipante"
         ]
       },
       {
         "id": "italian-c2-economia-e-disuguaglianza-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Economia e disuguaglianza · Lettura»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“_____ fine, il gruppo formula una sintesi condivisa.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Economia e disuguaglianza · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Ogni",
+          "fine",
+          "deve",
+          "Alla"
         ]
       },
       {
         "id": "italian-c2-economia-e-disuguaglianza-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Economia e disuguaglianza · Lettura»?",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“La proposta deve _____ chiara, realizzabile e rispettosa dei diversi punti di vista.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Economia e disuguaglianza · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "essere",
+          "modulo",
+          "gruppo",
+          "limiti"
         ]
       }
     ]
@@ -21422,7 +21432,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 60,
-    "estimatedMinutes": 8,
+    "estimatedMinutes": 10,
     "description": "La vida escolar y una merienda",
     "intro": "La vida escolar y una merienda",
     "mission": "",
@@ -21433,61 +21443,63 @@
     "reading": {
       "title": "Scuola e amici",
       "parts": [
-        "Sofia è em Bologna. Hoje descobre la vida escolar y una merienda. Encontra Marco e diz: “Che materia ti piace?”. Os dois falam com respeito e aprendem quatro palavras novas: scuola, amico, lezione e compito.",
-        "Marco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.",
-        "Al final, Sofia scrive una nota: “Che materia ti piace?”."
+        "Oggi Sofia è a Bologna. Incontra Marco nel suo quartiere e lo saluta con un sorriso. I due parlano lentamente e si ascoltano con attenzione. Sofia vuole usare l'italiano in una situazione vera, quindi prova una frase semplice e Marco le risponde con gentilezza.",
+        "Durante la conversazione usano parole utili della lezione: parole semplici. Marco fa una domanda e Sofia risponde senza fretta. Se non capisce una parola, chiede: «Puoi ripetere, per favore?». Poi ripetono insieme le parole più importanti e trovano un piccolo esempio per ciascuna.",
+        "Prima di tornare a casa, Sofia ringrazia Marco. Dice che ascoltare, parlare e ripetere la aiuta a sentirsi più sicura. Marco è d'accordo e propone di incontrarsi di nuovo domani. Sofia torna a casa contenta e scrive nel suo quaderno le nuove parole della giornata."
       ],
       "questions": [
-        "Dove è Sofia?",
+        "Dove si trova Sofia?",
         "Con chi parla Sofia?",
-        "Quale frase usa Sofia?",
-        "Perché l’esperienza è importante?"
+        "Che cosa fa Sofia se non capisce una parola?",
+        "Perché Sofia ripete le parole?"
       ],
-      "text": "Sofia è em Bologna. Hoje descobre la vida escolar y una merienda. Encontra Marco e diz: “Che materia ti piace?”. Os dois falam com respeito e aprendem quatro palavras novas: scuola, amico, lezione e compito.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.\n\nAl final, Sofia scrive una nota: “Che materia ti piace?”."
+      "text": "Oggi Sofia è a Bologna. Incontra Marco nel suo quartiere e lo saluta con un sorriso. I due parlano lentamente e si ascoltano con attenzione. Sofia vuole usare l'italiano in una situazione vera, quindi prova una frase semplice e Marco le risponde con gentilezza.\n\nDurante la conversazione usano parole utili della lezione: parole semplici. Marco fa una domanda e Sofia risponde senza fretta. Se non capisce una parola, chiede: «Puoi ripetere, per favore?». Poi ripetono insieme le parole più importanti e trovano un piccolo esempio per ciascuna.\n\nPrima di tornare a casa, Sofia ringrazia Marco. Dice che ascoltare, parlare e ripetere la aiuta a sentirsi più sicura. Marco è d'accordo e propone di incontrarsi di nuovo domani. Sofia torna a casa contenta e scrive nel suo quaderno le nuove parole della giornata."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
+        "id": "italian-a1-scuola-e-amici-reading-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Che cosa pratica l’unità?",
+        "prompt": "Dove si trova Sofia?",
         "options": [
-          "hablar de gustos",
-          "Una regola isolata",
-          "Un esame tecnico",
-          "Un tema senza contesto"
+          "Bologna",
+          "Roma",
+          "Milano",
+          "Napoli"
         ]
       },
       {
+        "id": "italian-a1-scuola-e-amici-reading-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Che cosa fa lo studente?",
+        "prompt": "Con chi parla Sofia?",
         "options": [
-          "hablar de gustos",
-          "Memorizza senza usare",
-          "Evita di parlare",
-          "Traduce soltanto"
+          "Marco",
+          "Lucia",
+          "Paolo",
+          "Anna"
         ]
       },
       {
-        "id": "italian-a1-scuola-e-amici-reading-comprehension-3",
+        "id": "italian-a1-scuola-e-amici-reading-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Scuola e amici»?",
+        "prompt": "Che cosa fa Sofia se non capisce una parola?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Scuola e amici",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Chiede di ripetere",
+          "Va via subito",
+          "Non ascolta",
+          "Cambia città"
         ]
       },
       {
-        "id": "italian-a1-scuola-e-amici-reading-comprehension-4",
+        "id": "italian-a1-scuola-e-amici-reading-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Scuola e amici»?",
+        "prompt": "Perché Sofia ripete le parole?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Scuola e amici",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Per sentirsi più sicura",
+          "Per fare un esame tecnico",
+          "Per comprare un biglietto",
+          "Per evitare Marco"
         ]
       }
     ]
@@ -21551,34 +21563,34 @@
       {
         "id": "italian-a2-viaggiare-con-responsabilita-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Viaggiare con responsabilità»?",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“e spiega perché questa experiência è _____ per il quartiere.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Viaggiare con responsabilità",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "disturbare",
+          "ascoltando",
+          "importante",
+          "residenti"
         ]
       },
       {
         "id": "italian-a2-viaggiare-con-responsabilita-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Viaggiare con responsabilità»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“La conversazione mostra che la cultura si impara ascoltando e _____.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Viaggiare con responsabilità",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "experiência",
+          "conversazione",
+          "disturbare",
+          "partecipando"
         ]
       },
       {
         "id": "italian-a2-viaggiare-con-responsabilita-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Viaggiare con responsabilità»?",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“Al final, Sofia _____ una nota: “Non voglio disturbare i residenti.”.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Viaggiare con responsabilità",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "scrive",
+          "viajar",
+          "voglio",
+          "spiega"
         ]
       }
     ]
@@ -21931,92 +21943,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Storie e memoria: parole»?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Storie e memoria», un piccolo gruppo della comunità parla di memoria, infanzia e _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Storie e memoria», un piccolo gruppo della comunità parla di memoria, infanzia e cambiamento."
+                "text": "cambiamento"
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "comunità"
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "infanzia"
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "racconta"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «Nel tema «Storie e memoria», un piccolo gruppo della comunità parla di…» in «Storie e memoria: parole»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Storie e memoria», un piccolo gruppo della comunità parla di memoria, infanzia e cambiamento."
+                "text": "un'esperienza"
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "persona"
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "cambiamento"
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "collaborare"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Storie e memoria: parole»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Storie e memoria», un piccolo gruppo della comunità parla di memoria, infanzia e cambiamento."
+                "text": "un'esperienza"
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "cambiamento"
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "perché"
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "collaborare"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Storie e memoria: parole»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Storie e memoria», un piccolo gruppo della comunità parla di memoria, infanzia e cambiamento."
+                "text": "un'esperienza"
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "cambiamento"
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "collaborare"
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "gruppo"
               }
             ]
           }
@@ -22027,42 +22039,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Storie e memoria: parole»?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Storie e memoria», un piccolo gruppo della comunità parla di memoria, infanzia e _____.”",
         "options": [
-          "Nel tema «Storie e memoria», un piccolo gruppo della comunità parla di memoria, infanzia e cambiamento.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "cambiamento",
+          "comunità",
+          "infanzia",
+          "racconta"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «Nel tema «Storie e memoria», un piccolo gruppo della comunità parla di…» in «Storie e memoria: parole»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
         "options": [
-          "Nel tema «Storie e memoria», un piccolo gruppo della comunità parla di memoria, infanzia e cambiamento.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "un'esperienza",
+          "persona",
+          "cambiamento",
+          "collaborare"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Storie e memoria: parole»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
         "options": [
-          "Nel tema «Storie e memoria», un piccolo gruppo della comunità parla di memoria, infanzia e cambiamento.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "un'esperienza",
+          "cambiamento",
+          "perché",
+          "collaborare"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Storie e memoria: parole»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
         "options": [
-          "Nel tema «Storie e memoria», un piccolo gruppo della comunità parla di memoria, infanzia e cambiamento.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "un'esperienza",
+          "cambiamento",
+          "collaborare",
+          "gruppo"
         ]
       }
     ]
@@ -22357,92 +22369,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Salute e benessere · Ascolto»?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Salute e benessere, due partecipanti mettono a confronto le loro _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Salute e benessere, due partecipanti mettono a confronto le loro posizioni."
+                "text": "posizioni"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che prevenzione è utile solo se viene spiegato con esempi verificabili."
+                "text": "Salute"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: riposo può cambiare la prospettiva di chi ascolta."
+                "text": "partecipanti"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "essere"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In questa puntata dedicata a Salute e benessere, due partecipanti…» in «Salute e benessere · Ascolto»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che prevenzione è utile solo se viene spiegato con esempi verificabili.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Salute e benessere, due partecipanti mettono a confronto le loro posizioni."
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che prevenzione è utile solo se viene spiegato con esempi verificabili."
+                "text": "aggiunge"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: riposo può cambiare la prospettiva di chi ascolta."
+                "text": "isolatamente"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "verificabili"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Salute e benessere · Ascolto»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: riposo può cambiare la prospettiva di chi ascolta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Salute e benessere, due partecipanti mettono a confronto le loro posizioni."
+                "text": "Salute"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che prevenzione è utile solo se viene spiegato con esempi verificabili."
+                "text": "partecipanti"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: riposo può cambiare la prospettiva di chi ascolta."
+                "text": "possibile"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "essere"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Salute e benessere · Ascolto»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Salute e benessere, due partecipanti mettono a confronto le loro posizioni."
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che prevenzione è utile solo se viene spiegato con esempi verificabili."
+                "text": "isolatamente"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: riposo può cambiare la prospettiva di chi ascolta."
+                "text": "verificabili"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "scelte"
               }
             ]
           }
@@ -22462,42 +22474,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Salute e benessere · Ascolto»?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Salute e benessere, due partecipanti mettono a confronto le loro _____.”",
         "options": [
-          "In questa puntata dedicata a Salute e benessere, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che prevenzione è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: riposo può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "posizioni",
+          "Salute",
+          "partecipanti",
+          "essere"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In questa puntata dedicata a Salute e benessere, due partecipanti…» in «Salute e benessere · Ascolto»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che prevenzione è utile solo se viene spiegato con esempi verificabili.”",
         "options": [
-          "In questa puntata dedicata a Salute e benessere, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che prevenzione è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: riposo può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "partecipanti",
+          "aggiunge",
+          "isolatamente",
+          "verificabili"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Salute e benessere · Ascolto»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: riposo può cambiare la prospettiva di chi ascolta.”",
         "options": [
-          "In questa puntata dedicata a Salute e benessere, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che prevenzione è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: riposo può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "Salute",
+          "partecipanti",
+          "possibile",
+          "essere"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Salute e benessere · Ascolto»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
         "options": [
-          "In questa puntata dedicata a Salute e benessere, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che prevenzione è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: riposo può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "partecipanti",
+          "isolatamente",
+          "verificabili",
+          "scelte"
         ]
       }
     ]
@@ -22564,92 +22576,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Economia quotidiana · Ascolto»?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Economia quotidiana, due partecipanti mettono a confronto le loro _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Economia quotidiana, due partecipanti mettono a confronto le loro posizioni."
+                "text": "posizioni"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che risparmio è utile solo se viene spiegato con esempi verificabili."
+                "text": "partecipanti"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: investimento può cambiare la prospettiva di chi ascolta."
+                "text": "essere"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "isolatamente"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In questa puntata dedicata a Economia quotidiana, due partecipanti…» in «Economia quotidiana · Ascolto»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che risparmio è utile solo se viene spiegato con esempi verificabili.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Economia quotidiana, due partecipanti mettono a confronto le loro posizioni."
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che risparmio è utile solo se viene spiegato con esempi verificabili."
+                "text": "aggiunge"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: investimento può cambiare la prospettiva di chi ascolta."
+                "text": "isolatamente"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "verificabili"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Economia quotidiana · Ascolto»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: investimento può cambiare la prospettiva di chi ascolta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Economia quotidiana, due partecipanti mettono a confronto le loro posizioni."
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che risparmio è utile solo se viene spiegato con esempi verificabili."
+                "text": "essere"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: investimento può cambiare la prospettiva di chi ascolta."
+                "text": "possibile"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "isolatamente"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Economia quotidiana · Ascolto»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Economia quotidiana, due partecipanti mettono a confronto le loro posizioni."
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che risparmio è utile solo se viene spiegato con esempi verificabili."
+                "text": "isolatamente"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: investimento può cambiare la prospettiva di chi ascolta."
+                "text": "verificabili"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "scelte"
               }
             ]
           }
@@ -22669,42 +22681,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Economia quotidiana · Ascolto»?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Economia quotidiana, due partecipanti mettono a confronto le loro _____.”",
         "options": [
-          "In questa puntata dedicata a Economia quotidiana, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che risparmio è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: investimento può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "posizioni",
+          "partecipanti",
+          "essere",
+          "isolatamente"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In questa puntata dedicata a Economia quotidiana, due partecipanti…» in «Economia quotidiana · Ascolto»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che risparmio è utile solo se viene spiegato con esempi verificabili.”",
         "options": [
-          "In questa puntata dedicata a Economia quotidiana, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che risparmio è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: investimento può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "partecipanti",
+          "aggiunge",
+          "isolatamente",
+          "verificabili"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Economia quotidiana · Ascolto»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: investimento può cambiare la prospettiva di chi ascolta.”",
         "options": [
-          "In questa puntata dedicata a Economia quotidiana, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che risparmio è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: investimento può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "partecipanti",
+          "essere",
+          "possibile",
+          "isolatamente"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Economia quotidiana · Ascolto»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
         "options": [
-          "In questa puntata dedicata a Economia quotidiana, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che risparmio è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: investimento può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "partecipanti",
+          "isolatamente",
+          "verificabili",
+          "scelte"
         ]
       }
     ]
@@ -22771,92 +22783,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Economia e disuguaglianza · Ascolto»?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Economia e disuguaglianza, due partecipanti mettono a confronto le loro _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Economia e disuguaglianza, due partecipanti mettono a confronto le loro posizioni."
+                "text": "posizioni"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che reddito è utile solo se viene spiegato con esempi verificabili."
+                "text": "disuguaglianza"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: indicatore può cambiare la prospettiva di chi ascolta."
+                "text": "partecipanti"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "essere"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In questa puntata dedicata a Economia e disuguaglianza, due…» in «Economia e disuguaglianza · Ascolto»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che reddito è utile solo se viene spiegato con esempi verificabili.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Economia e disuguaglianza, due partecipanti mettono a confronto le loro posizioni."
+                "text": "disuguaglianza"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che reddito è utile solo se viene spiegato con esempi verificabili."
+                "text": "aggiunge"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: indicatore può cambiare la prospettiva di chi ascolta."
+                "text": "partecipanti"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "isolatamente"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Economia e disuguaglianza · Ascolto»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: indicatore può cambiare la prospettiva di chi ascolta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Economia e disuguaglianza, due partecipanti mettono a confronto le loro posizioni."
+                "text": "disuguaglianza"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che reddito è utile solo se viene spiegato con esempi verificabili."
+                "text": "partecipanti"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: indicatore può cambiare la prospettiva di chi ascolta."
+                "text": "possibile"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "essere"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Economia e disuguaglianza · Ascolto»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Economia e disuguaglianza, due partecipanti mettono a confronto le loro posizioni."
+                "text": "disuguaglianza"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che reddito è utile solo se viene spiegato con esempi verificabili."
+                "text": "partecipanti"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: indicatore può cambiare la prospettiva di chi ascolta."
+                "text": "isolatamente"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "scelte"
               }
             ]
           }
@@ -22876,42 +22888,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Economia e disuguaglianza · Ascolto»?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Economia e disuguaglianza, due partecipanti mettono a confronto le loro _____.”",
         "options": [
-          "In questa puntata dedicata a Economia e disuguaglianza, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che reddito è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: indicatore può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "posizioni",
+          "disuguaglianza",
+          "partecipanti",
+          "essere"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In questa puntata dedicata a Economia e disuguaglianza, due…» in «Economia e disuguaglianza · Ascolto»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che reddito è utile solo se viene spiegato con esempi verificabili.”",
         "options": [
-          "In questa puntata dedicata a Economia e disuguaglianza, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che reddito è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: indicatore può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "disuguaglianza",
+          "aggiunge",
+          "partecipanti",
+          "isolatamente"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Economia e disuguaglianza · Ascolto»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: indicatore può cambiare la prospettiva di chi ascolta.”",
         "options": [
-          "In questa puntata dedicata a Economia e disuguaglianza, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che reddito è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: indicatore può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "disuguaglianza",
+          "partecipanti",
+          "possibile",
+          "essere"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Economia e disuguaglianza · Ascolto»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
         "options": [
-          "In questa puntata dedicata a Economia e disuguaglianza, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che reddito è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: indicatore può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "disuguaglianza",
+          "partecipanti",
+          "isolatamente",
+          "scelte"
         ]
       }
     ]
@@ -22969,92 +22981,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «Scuola e amici: ascolta», which detail establishes the situation?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“Che _____ ti piace?”",
             "options": [
               {
                 "id": "o1",
-                "text": "Che materia ti piace?"
+                "text": "materia"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di scuola."
+                "text": "piace"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "Parliamo"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "scuola"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «Che materia ti piace?», what happens next in «Scuola e amici: ascolta»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Che materia ti piace?"
+                "text": "Che"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di scuola."
+                "text": "scuola"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "con"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "Parliamo"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «Scuola e amici: ascolta»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Che materia ti piace?"
+                "text": "piace"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di scuola."
+                "text": "scuola"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "comunità"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "domani"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «Scuola e amici: ascolta» after «Mi piace imparare con la comunità.»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Che materia ti piace?"
+                "text": "piace"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di scuola."
+                "text": "Parliamo"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "scuola"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "pratica"
               }
             ]
           }
@@ -23065,42 +23077,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «Scuola e amici: ascolta», which detail establishes the situation?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“Che _____ ti piace?”",
         "options": [
-          "Che materia ti piace?",
-          "Parliamo di scuola.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "materia",
+          "piace",
+          "Parliamo",
+          "scuola"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «Che materia ti piace?», what happens next in «Scuola e amici: ascolta»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
         "options": [
-          "Che materia ti piace?",
-          "Parliamo di scuola.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Che",
+          "scuola",
+          "con",
+          "Parliamo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «Scuola e amici: ascolta»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
         "options": [
-          "Che materia ti piace?",
-          "Parliamo di scuola.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "piace",
+          "scuola",
+          "comunità",
+          "domani"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «Scuola e amici: ascolta» after «Mi piace imparare con la comunità.»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
         "options": [
-          "Che materia ti piace?",
-          "Parliamo di scuola.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "piace",
+          "Parliamo",
+          "scuola",
+          "pratica"
         ]
       }
     ]
@@ -23158,92 +23170,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «Viaggiare con responsabilità: ascolta», which detail establishes the situation?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“Non voglio disturbare i _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Non voglio disturbare i residenti."
+                "text": "residenti"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di residente."
+                "text": "voglio"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "domani"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "pratica"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «Non voglio disturbare i residenti.», what happens next in «Viaggiare con responsabilità: ascolta»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Non voglio disturbare i residenti."
+                "text": "voglio"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di residente."
+                "text": "residente"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "domani"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "pratica"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «Viaggiare con responsabilità: ascolta»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Non voglio disturbare i residenti."
+                "text": "piace"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di residente."
+                "text": "voglio"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "comunità"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "disturbare"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «Viaggiare con responsabilità: ascolta» after «Mi piace imparare con la comunità.»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Non voglio disturbare i residenti."
+                "text": "disturbare"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di residente."
+                "text": "residenti"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "residente"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "pratica"
               }
             ]
           }
@@ -23254,42 +23266,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «Viaggiare con responsabilità: ascolta», which detail establishes the situation?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“Non voglio disturbare i _____.”",
         "options": [
-          "Non voglio disturbare i residenti.",
-          "Parliamo di residente.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "residenti",
+          "voglio",
+          "domani",
+          "pratica"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «Non voglio disturbare i residenti.», what happens next in «Viaggiare con responsabilità: ascolta»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
         "options": [
-          "Non voglio disturbare i residenti.",
-          "Parliamo di residente.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "voglio",
+          "residente",
+          "domani",
+          "pratica"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «Viaggiare con responsabilità: ascolta»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
         "options": [
-          "Non voglio disturbare i residenti.",
-          "Parliamo di residente.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "piace",
+          "voglio",
+          "comunità",
+          "disturbare"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «Viaggiare con responsabilità: ascolta» after «Mi piace imparare con la comunità.»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
         "options": [
-          "Non voglio disturbare i residenti.",
-          "Parliamo di residente.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "disturbare",
+          "residenti",
+          "residente",
+          "pratica"
         ]
       }
     ]
@@ -25137,12 +25149,12 @@
       {
         "id": "italian-b1-progetti-di-classe-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Progetti di classe»?",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“Paolo non cerca una risposta perfetta: vuole un modo responsabile per migliorare la situazione e imparare _____.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Progetti di classe",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "dall'esperienza",
+          "responsabile",
+          "distinguere",
+          "discussione"
         ]
       }
     ]
@@ -25236,34 +25248,34 @@
       {
         "id": "italian-b2-cultura-e-identita-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Cultura e identità · Lettura»?",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“La discussione non cerca una risposta unica: mette in relazione _____, limiti e possibili soluzioni.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Cultura e identità · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "prospettive",
+          "discussione",
+          "conseguenze",
+          "tradizione"
         ]
       },
       {
         "id": "italian-b2-cultura-e-identita-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Cultura e identità · Lettura»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“_____ fine, il gruppo formula una sintesi condivisa.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Cultura e identità · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Ogni",
+          "fine",
+          "deve",
+          "Alla"
         ]
       },
       {
         "id": "italian-b2-cultura-e-identita-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Cultura e identità · Lettura»?",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“La proposta deve _____ chiara, realizzabile e rispettosa dei diversi punti di vista.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Cultura e identità · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "essere",
+          "modulo",
+          "gruppo",
+          "limiti"
         ]
       }
     ]
@@ -25357,34 +25369,34 @@
       {
         "id": "italian-c1-territori-e-memoria-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Territori e memoria · Lettura»?",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“La discussione non cerca una risposta unica: mette in relazione _____, limiti e possibili soluzioni.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Territori e memoria · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "prospettive",
+          "discussione",
+          "conseguenze",
+          "patrimonio"
         ]
       },
       {
         "id": "italian-c1-territori-e-memoria-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Territori e memoria · Lettura»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“_____ fine, il gruppo formula una sintesi condivisa.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Territori e memoria · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Ogni",
+          "fine",
+          "deve",
+          "Alla"
         ]
       },
       {
         "id": "italian-c1-territori-e-memoria-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Territori e memoria · Lettura»?",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“La proposta deve _____ chiara, realizzabile e rispettosa dei diversi punti di vista.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Territori e memoria · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "essere",
+          "modulo",
+          "gruppo",
+          "limiti"
         ]
       }
     ]
@@ -25478,34 +25490,34 @@
       {
         "id": "italian-c2-ambiente-e-futuro-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Ambiente e futuro · Lettura»?",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“La discussione non cerca una risposta unica: mette in relazione _____, limiti e possibili soluzioni.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Ambiente e futuro · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "prospettive",
+          "discussione",
+          "conseguenze",
+          "partecipante"
         ]
       },
       {
         "id": "italian-c2-ambiente-e-futuro-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Ambiente e futuro · Lettura»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“_____ fine, il gruppo formula una sintesi condivisa.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Ambiente e futuro · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Ogni",
+          "fine",
+          "deve",
+          "Alla"
         ]
       },
       {
         "id": "italian-c2-ambiente-e-futuro-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Ambiente e futuro · Lettura»?",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“La proposta deve _____ chiara, realizzabile e rispettosa dei diversi punti di vista.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Ambiente e futuro · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "essere",
+          "modulo",
+          "futuro",
+          "gruppo"
         ]
       }
     ]
@@ -25520,7 +25532,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 70,
-    "estimatedMinutes": 8,
+    "estimatedMinutes": 10,
     "description": "Habitaciones y vida en casa",
     "intro": "Habitaciones y vida en casa",
     "mission": "",
@@ -25531,61 +25543,63 @@
     "reading": {
       "title": "Una casa italiana",
       "parts": [
-        "Sofia è em Bologna. Hoje descobre habitaciones y vida en casa. Encontra Marco e diz: “La cucina è luminosa.”. Os dois falam com respeito e aprendem quatro palavras novas: cucina, camera, finestra e balcone.",
-        "Marco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.",
-        "Al final, Sofia scrive una nota: “La cucina è luminosa.”."
+        "Oggi Sofia è a Bologna. Incontra Marco nel suo quartiere e lo saluta con un sorriso. I due parlano lentamente e si ascoltano con attenzione. Sofia vuole usare l'italiano in una situazione vera, quindi prova una frase semplice e Marco le risponde con gentilezza.",
+        "Durante la conversazione usano parole utili della lezione: parole semplici. Marco fa una domanda e Sofia risponde senza fretta. Se non capisce una parola, chiede: «Puoi ripetere, per favore?». Poi ripetono insieme le parole più importanti e trovano un piccolo esempio per ciascuna.",
+        "Prima di tornare a casa, Sofia ringrazia Marco. Dice che ascoltare, parlare e ripetere la aiuta a sentirsi più sicura. Marco è d'accordo e propone di incontrarsi di nuovo domani. Sofia torna a casa contenta e scrive nel suo quaderno le nuove parole della giornata."
       ],
       "questions": [
-        "Dove è Sofia?",
+        "Dove si trova Sofia?",
         "Con chi parla Sofia?",
-        "Quale frase usa Sofia?",
-        "Perché l’esperienza è importante?"
+        "Che cosa fa Sofia se non capisce una parola?",
+        "Perché Sofia ripete le parole?"
       ],
-      "text": "Sofia è em Bologna. Hoje descobre habitaciones y vida en casa. Encontra Marco e diz: “La cucina è luminosa.”. Os dois falam com respeito e aprendem quatro palavras novas: cucina, camera, finestra e balcone.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.\n\nAl final, Sofia scrive una nota: “La cucina è luminosa.”."
+      "text": "Oggi Sofia è a Bologna. Incontra Marco nel suo quartiere e lo saluta con un sorriso. I due parlano lentamente e si ascoltano con attenzione. Sofia vuole usare l'italiano in una situazione vera, quindi prova una frase semplice e Marco le risponde con gentilezza.\n\nDurante la conversazione usano parole utili della lezione: parole semplici. Marco fa una domanda e Sofia risponde senza fretta. Se non capisce una parola, chiede: «Puoi ripetere, per favore?». Poi ripetono insieme le parole più importanti e trovano un piccolo esempio per ciascuna.\n\nPrima di tornare a casa, Sofia ringrazia Marco. Dice che ascoltare, parlare e ripetere la aiuta a sentirsi più sicura. Marco è d'accordo e propone di incontrarsi di nuovo domani. Sofia torna a casa contenta e scrive nel suo quaderno le nuove parole della giornata."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
+        "id": "italian-a1-una-casa-italiana-reading-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Che cosa pratica l’unità?",
+        "prompt": "Dove si trova Sofia?",
         "options": [
-          "describir una casa",
-          "Una regola isolata",
-          "Un esame tecnico",
-          "Un tema senza contesto"
+          "Bologna",
+          "Roma",
+          "Milano",
+          "Napoli"
         ]
       },
       {
+        "id": "italian-a1-una-casa-italiana-reading-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Che cosa fa lo studente?",
+        "prompt": "Con chi parla Sofia?",
         "options": [
-          "describir una casa",
-          "Memorizza senza usare",
-          "Evita di parlare",
-          "Traduce soltanto"
+          "Marco",
+          "Lucia",
+          "Paolo",
+          "Anna"
         ]
       },
       {
-        "id": "italian-a1-una-casa-italiana-reading-comprehension-3",
+        "id": "italian-a1-una-casa-italiana-reading-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Una casa italiana»?",
+        "prompt": "Che cosa fa Sofia se non capisce una parola?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Una casa italiana",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Chiede di ripetere",
+          "Va via subito",
+          "Non ascolta",
+          "Cambia città"
         ]
       },
       {
-        "id": "italian-a1-una-casa-italiana-reading-comprehension-4",
+        "id": "italian-a1-una-casa-italiana-reading-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Una casa italiana»?",
+        "prompt": "Perché Sofia ripete le parole?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Una casa italiana",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Per sentirsi più sicura",
+          "Per fare un esame tecnico",
+          "Per comprare un biglietto",
+          "Per evitare Marco"
         ]
       }
     ]
@@ -25649,34 +25663,34 @@
       {
         "id": "italian-a2-sport-e-tempo-libero-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Sport e tempo libero»?",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“e spiega perché questa experiência è _____ per il quartiere.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Sport e tempo libero",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "ascoltando",
+          "aficiones",
+          "importante",
+          "experiência"
         ]
       },
       {
         "id": "italian-a2-sport-e-tempo-libero-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Sport e tempo libero»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“La conversazione mostra che la cultura si impara ascoltando e _____.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Sport e tempo libero",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "experiência",
+          "conversazione",
+          "importante",
+          "partecipando"
         ]
       },
       {
         "id": "italian-a2-sport-e-tempo-libero-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Sport e tempo libero»?",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“Al final, Sofia scrive una nota: “Da _____ giocavo spesso.”.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Sport e tempo libero",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "giovane",
+          "Bologna",
+          "deporte",
+          "giocavo"
         ]
       }
     ]
@@ -26029,92 +26043,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Progetti di classe: parole»?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Progetti di classe», un piccolo gruppo della comunità parla di progetto, ricerca e _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Progetti di classe», un piccolo gruppo della comunità parla di progetto, ricerca e compito."
+                "text": "compito"
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "un'esperienza"
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "collaborare"
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "tema"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «Nel tema «Progetti di classe», un piccolo gruppo della comunità parla…» in «Progetti di classe: parole»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Progetti di classe», un piccolo gruppo della comunità parla di progetto, ricerca e compito."
+                "text": "un'esperienza"
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "persona"
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "collaborare"
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "tema"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Progetti di classe: parole»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Progetti di classe», un piccolo gruppo della comunità parla di progetto, ricerca e compito."
+                "text": "un'esperienza"
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "collaborare"
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "perché"
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "migliorare"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Progetti di classe: parole»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Progetti di classe», un piccolo gruppo della comunità parla di progetto, ricerca e compito."
+                "text": "un'esperienza"
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "collaborare"
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "migliorare"
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "gruppo"
               }
             ]
           }
@@ -26125,42 +26139,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Progetti di classe: parole»?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Progetti di classe», un piccolo gruppo della comunità parla di progetto, ricerca e _____.”",
         "options": [
-          "Nel tema «Progetti di classe», un piccolo gruppo della comunità parla di progetto, ricerca e compito.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "compito",
+          "un'esperienza",
+          "collaborare",
+          "tema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «Nel tema «Progetti di classe», un piccolo gruppo della comunità parla…» in «Progetti di classe: parole»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
         "options": [
-          "Nel tema «Progetti di classe», un piccolo gruppo della comunità parla di progetto, ricerca e compito.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "un'esperienza",
+          "persona",
+          "collaborare",
+          "tema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Progetti di classe: parole»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
         "options": [
-          "Nel tema «Progetti di classe», un piccolo gruppo della comunità parla di progetto, ricerca e compito.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "un'esperienza",
+          "collaborare",
+          "perché",
+          "migliorare"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Progetti di classe: parole»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
         "options": [
-          "Nel tema «Progetti di classe», un piccolo gruppo della comunità parla di progetto, ricerca e compito.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "un'esperienza",
+          "collaborare",
+          "migliorare",
+          "gruppo"
         ]
       }
     ]
@@ -26455,92 +26469,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Cultura e identità · Ascolto»?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Cultura e identità, due partecipanti mettono a confronto le loro _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Cultura e identità, due partecipanti mettono a confronto le loro posizioni."
+                "text": "posizioni"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che appartenenza è utile solo se viene spiegato con esempi verificabili."
+                "text": "partecipanti"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: prospettiva può cambiare la prospettiva di chi ascolta."
+                "text": "essere"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "isolatamente"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In questa puntata dedicata a Cultura e identità, due partecipanti…» in «Cultura e identità · Ascolto»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che appartenenza è utile solo se viene spiegato con esempi verificabili.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Cultura e identità, due partecipanti mettono a confronto le loro posizioni."
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che appartenenza è utile solo se viene spiegato con esempi verificabili."
+                "text": "aggiunge"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: prospettiva può cambiare la prospettiva di chi ascolta."
+                "text": "isolatamente"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "appartenenza"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Cultura e identità · Ascolto»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: prospettiva può cambiare la prospettiva di chi ascolta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Cultura e identità, due partecipanti mettono a confronto le loro posizioni."
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che appartenenza è utile solo se viene spiegato con esempi verificabili."
+                "text": "essere"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: prospettiva può cambiare la prospettiva di chi ascolta."
+                "text": "possibile"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "isolatamente"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Cultura e identità · Ascolto»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Cultura e identità, due partecipanti mettono a confronto le loro posizioni."
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che appartenenza è utile solo se viene spiegato con esempi verificabili."
+                "text": "isolatamente"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: prospettiva può cambiare la prospettiva di chi ascolta."
+                "text": "appartenenza"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "scelte"
               }
             ]
           }
@@ -26560,42 +26574,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Cultura e identità · Ascolto»?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Cultura e identità, due partecipanti mettono a confronto le loro _____.”",
         "options": [
-          "In questa puntata dedicata a Cultura e identità, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che appartenenza è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: prospettiva può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "posizioni",
+          "partecipanti",
+          "essere",
+          "isolatamente"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In questa puntata dedicata a Cultura e identità, due partecipanti…» in «Cultura e identità · Ascolto»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che appartenenza è utile solo se viene spiegato con esempi verificabili.”",
         "options": [
-          "In questa puntata dedicata a Cultura e identità, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che appartenenza è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: prospettiva può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "partecipanti",
+          "aggiunge",
+          "isolatamente",
+          "appartenenza"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Cultura e identità · Ascolto»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: prospettiva può cambiare la prospettiva di chi ascolta.”",
         "options": [
-          "In questa puntata dedicata a Cultura e identità, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che appartenenza è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: prospettiva può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "partecipanti",
+          "essere",
+          "possibile",
+          "isolatamente"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Cultura e identità · Ascolto»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
         "options": [
-          "In questa puntata dedicata a Cultura e identità, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che appartenenza è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: prospettiva può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "partecipanti",
+          "isolatamente",
+          "appartenenza",
+          "scelte"
         ]
       }
     ]
@@ -26662,92 +26676,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Territori e memoria · Ascolto»?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Territori e memoria, due partecipanti mettono a confronto le loro _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Territori e memoria, due partecipanti mettono a confronto le loro posizioni."
+                "text": "posizioni"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che patrimonio è utile solo se viene spiegato con esempi verificabili."
+                "text": "trasformazione"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: trasformazione può cambiare la prospettiva di chi ascolta."
+                "text": "partecipanti"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "essere"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In questa puntata dedicata a Territori e memoria, due partecipanti…» in «Territori e memoria · Ascolto»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che patrimonio è utile solo se viene spiegato con esempi verificabili.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Territori e memoria, due partecipanti mettono a confronto le loro posizioni."
+                "text": "trasformazione"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che patrimonio è utile solo se viene spiegato con esempi verificabili."
+                "text": "aggiunge"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: trasformazione può cambiare la prospettiva di chi ascolta."
+                "text": "partecipanti"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "isolatamente"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Territori e memoria · Ascolto»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: trasformazione può cambiare la prospettiva di chi ascolta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Territori e memoria, due partecipanti mettono a confronto le loro posizioni."
+                "text": "trasformazione"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che patrimonio è utile solo se viene spiegato con esempi verificabili."
+                "text": "partecipanti"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: trasformazione può cambiare la prospettiva di chi ascolta."
+                "text": "possibile"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "essere"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Territori e memoria · Ascolto»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Territori e memoria, due partecipanti mettono a confronto le loro posizioni."
+                "text": "trasformazione"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che patrimonio è utile solo se viene spiegato con esempi verificabili."
+                "text": "partecipanti"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: trasformazione può cambiare la prospettiva di chi ascolta."
+                "text": "isolatamente"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "scelte"
               }
             ]
           }
@@ -26767,42 +26781,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Territori e memoria · Ascolto»?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Territori e memoria, due partecipanti mettono a confronto le loro _____.”",
         "options": [
-          "In questa puntata dedicata a Territori e memoria, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che patrimonio è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: trasformazione può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "posizioni",
+          "trasformazione",
+          "partecipanti",
+          "essere"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In questa puntata dedicata a Territori e memoria, due partecipanti…» in «Territori e memoria · Ascolto»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che patrimonio è utile solo se viene spiegato con esempi verificabili.”",
         "options": [
-          "In questa puntata dedicata a Territori e memoria, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che patrimonio è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: trasformazione può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "trasformazione",
+          "aggiunge",
+          "partecipanti",
+          "isolatamente"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Territori e memoria · Ascolto»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: trasformazione può cambiare la prospettiva di chi ascolta.”",
         "options": [
-          "In questa puntata dedicata a Territori e memoria, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che patrimonio è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: trasformazione può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "trasformazione",
+          "partecipanti",
+          "possibile",
+          "essere"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Territori e memoria · Ascolto»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
         "options": [
-          "In questa puntata dedicata a Territori e memoria, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che patrimonio è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: trasformazione può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "trasformazione",
+          "partecipanti",
+          "isolatamente",
+          "scelte"
         ]
       }
     ]
@@ -26869,92 +26883,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Ambiente e futuro · Ascolto»?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Ambiente e futuro, due partecipanti mettono a confronto le loro _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Ambiente e futuro, due partecipanti mettono a confronto le loro posizioni."
+                "text": "posizioni"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che risorsa è utile solo se viene spiegato con esempi verificabili."
+                "text": "futuro"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: mitigare può cambiare la prospettiva di chi ascolta."
+                "text": "partecipanti"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "essere"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In questa puntata dedicata a Ambiente e futuro, due partecipanti…» in «Ambiente e futuro · Ascolto»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che risorsa è utile solo se viene spiegato con esempi verificabili.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Ambiente e futuro, due partecipanti mettono a confronto le loro posizioni."
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che risorsa è utile solo se viene spiegato con esempi verificabili."
+                "text": "aggiunge"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: mitigare può cambiare la prospettiva di chi ascolta."
+                "text": "isolatamente"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "verificabili"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Ambiente e futuro · Ascolto»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: mitigare può cambiare la prospettiva di chi ascolta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Ambiente e futuro, due partecipanti mettono a confronto le loro posizioni."
+                "text": "futuro"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che risorsa è utile solo se viene spiegato con esempi verificabili."
+                "text": "partecipanti"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: mitigare può cambiare la prospettiva di chi ascolta."
+                "text": "possibile"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "essere"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Ambiente e futuro · Ascolto»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Ambiente e futuro, due partecipanti mettono a confronto le loro posizioni."
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che risorsa è utile solo se viene spiegato con esempi verificabili."
+                "text": "isolatamente"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: mitigare può cambiare la prospettiva di chi ascolta."
+                "text": "verificabili"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "scelte"
               }
             ]
           }
@@ -26974,42 +26988,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Ambiente e futuro · Ascolto»?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Ambiente e futuro, due partecipanti mettono a confronto le loro _____.”",
         "options": [
-          "In questa puntata dedicata a Ambiente e futuro, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che risorsa è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: mitigare può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "posizioni",
+          "futuro",
+          "partecipanti",
+          "essere"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In questa puntata dedicata a Ambiente e futuro, due partecipanti…» in «Ambiente e futuro · Ascolto»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che risorsa è utile solo se viene spiegato con esempi verificabili.”",
         "options": [
-          "In questa puntata dedicata a Ambiente e futuro, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che risorsa è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: mitigare può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "partecipanti",
+          "aggiunge",
+          "isolatamente",
+          "verificabili"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Ambiente e futuro · Ascolto»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: mitigare può cambiare la prospettiva di chi ascolta.”",
         "options": [
-          "In questa puntata dedicata a Ambiente e futuro, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che risorsa è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: mitigare può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "futuro",
+          "partecipanti",
+          "possibile",
+          "essere"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Ambiente e futuro · Ascolto»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
         "options": [
-          "In questa puntata dedicata a Ambiente e futuro, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che risorsa è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: mitigare può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "partecipanti",
+          "isolatamente",
+          "verificabili",
+          "scelte"
         ]
       }
     ]
@@ -27067,92 +27081,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «Una casa italiana: ascolta», which detail establishes the situation?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“La cucina è _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "La cucina è luminosa."
+                "text": "luminosa"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di cucina."
+                "text": "piace"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "cucina"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "domani"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «La cucina è luminosa.», what happens next in «Una casa italiana: ascolta»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "La cucina è luminosa."
+                "text": "con"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di cucina."
+                "text": "cucina"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "luminosa"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "Parliamo"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «Una casa italiana: ascolta»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "La cucina è luminosa."
+                "text": "piace"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di cucina."
+                "text": "cucina"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "comunità"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "domani"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «Una casa italiana: ascolta» after «Mi piace imparare con la comunità.»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
             "options": [
               {
                 "id": "o1",
-                "text": "La cucina è luminosa."
+                "text": "piace"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di cucina."
+                "text": "cucina"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "luminosa"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "pratica"
               }
             ]
           }
@@ -27163,42 +27177,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «Una casa italiana: ascolta», which detail establishes the situation?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“La cucina è _____.”",
         "options": [
-          "La cucina è luminosa.",
-          "Parliamo di cucina.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "luminosa",
+          "piace",
+          "cucina",
+          "domani"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «La cucina è luminosa.», what happens next in «Una casa italiana: ascolta»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
         "options": [
-          "La cucina è luminosa.",
-          "Parliamo di cucina.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "con",
+          "cucina",
+          "luminosa",
+          "Parliamo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «Una casa italiana: ascolta»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
         "options": [
-          "La cucina è luminosa.",
-          "Parliamo di cucina.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "piace",
+          "cucina",
+          "comunità",
+          "domani"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «Una casa italiana: ascolta» after «Mi piace imparare con la comunità.»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
         "options": [
-          "La cucina è luminosa.",
-          "Parliamo di cucina.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "piace",
+          "cucina",
+          "luminosa",
+          "pratica"
         ]
       }
     ]
@@ -27256,92 +27270,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «Sport e tempo libero: ascolta», which detail establishes the situation?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“Da giovane giocavo _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Da giovane giocavo spesso."
+                "text": "spesso"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di nuoto."
+                "text": "con"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "Parliamo"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "imparare"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «Da giovane giocavo spesso.», what happens next in «Sport e tempo libero: ascolta»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“_____ di nuoto.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Da giovane giocavo spesso."
+                "text": "nuoto"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di nuoto."
+                "text": "Parliamo"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "piace"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "spesso"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «Sport e tempo libero: ascolta»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Da giovane giocavo spesso."
+                "text": "nuoto"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di nuoto."
+                "text": "piace"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "comunità"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "spesso"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «Sport e tempo libero: ascolta» after «Mi piace imparare con la comunità.»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Da giovane giocavo spesso."
+                "text": "nuoto"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di nuoto."
+                "text": "piace"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "spesso"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "pratica"
               }
             ]
           }
@@ -27352,42 +27366,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «Sport e tempo libero: ascolta», which detail establishes the situation?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“Da giovane giocavo _____.”",
         "options": [
-          "Da giovane giocavo spesso.",
-          "Parliamo di nuoto.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "spesso",
+          "con",
+          "Parliamo",
+          "imparare"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «Da giovane giocavo spesso.», what happens next in «Sport e tempo libero: ascolta»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“_____ di nuoto.”",
         "options": [
-          "Da giovane giocavo spesso.",
-          "Parliamo di nuoto.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "nuoto",
+          "Parliamo",
+          "piace",
+          "spesso"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «Sport e tempo libero: ascolta»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
         "options": [
-          "Da giovane giocavo spesso.",
-          "Parliamo di nuoto.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "nuoto",
+          "piace",
+          "comunità",
+          "spesso"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «Sport e tempo libero: ascolta» after «Mi piace imparare con la comunità.»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
         "options": [
-          "Da giovane giocavo spesso.",
-          "Parliamo di nuoto.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "nuoto",
+          "piace",
+          "spesso",
+          "pratica"
         ]
       }
     ]
@@ -29235,12 +29249,12 @@
       {
         "id": "italian-b1-tecnologia-quotidiana-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Tecnologia quotidiana»?",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“Chiara non cerca una risposta perfetta: vuole un modo responsabile per migliorare la situazione e imparare _____.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Tecnologia quotidiana",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "dall'esperienza",
+          "responsabile",
+          "laboratorio",
+          "distinguere"
         ]
       }
     ]
@@ -29334,34 +29348,34 @@
       {
         "id": "italian-b2-tecnologia-e-privacy-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Tecnologia e privacy · Lettura»?",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“La discussione non cerca una risposta unica: mette in relazione _____, limiti e possibili soluzioni.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Tecnologia e privacy · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "dispositivo",
+          "prospettive",
+          "conseguenze",
+          "discussione"
         ]
       },
       {
         "id": "italian-b2-tecnologia-e-privacy-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Tecnologia e privacy · Lettura»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“_____ fine, il gruppo formula una sintesi condivisa.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Tecnologia e privacy · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "dati",
+          "Ogni",
+          "fine",
+          "Alla"
         ]
       },
       {
         "id": "italian-b2-tecnologia-e-privacy-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Tecnologia e privacy · Lettura»?",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“La proposta deve _____ chiara, realizzabile e rispettosa dei diversi punti di vista.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Tecnologia e privacy · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "essere",
+          "modulo",
+          "gruppo",
+          "limiti"
         ]
       }
     ]
@@ -29455,34 +29469,34 @@
       {
         "id": "italian-c1-comunicazione-e-registro-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Comunicazione e registro · Lettura»?",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“La discussione non cerca una risposta unica: mette in relazione _____, limiti e possibili soluzioni.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Comunicazione e registro · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "prospettive",
+          "discussione",
+          "conseguenze",
+          "destinatario"
         ]
       },
       {
         "id": "italian-c1-comunicazione-e-registro-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Comunicazione e registro · Lettura»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“_____ fine, il gruppo formula una sintesi condivisa.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Comunicazione e registro · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Ogni",
+          "fine",
+          "deve",
+          "Alla"
         ]
       },
       {
         "id": "italian-c1-comunicazione-e-registro-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Comunicazione e registro · Lettura»?",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“La proposta deve _____ chiara, realizzabile e rispettosa dei diversi punti di vista.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Comunicazione e registro · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "essere",
+          "modulo",
+          "gruppo",
+          "limiti"
         ]
       }
     ]
@@ -29576,34 +29590,34 @@
       {
         "id": "italian-c2-media-e-discorso-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Media e discorso · Lettura»?",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“La discussione non cerca una risposta unica: mette in relazione _____, limiti e possibili soluzioni.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Media e discorso · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "prospettive",
+          "discussione",
+          "conseguenze",
+          "narrazione"
         ]
       },
       {
         "id": "italian-c2-media-e-discorso-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Media e discorso · Lettura»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“_____ fine, il gruppo formula una sintesi condivisa.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Media e discorso · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Ogni",
+          "fine",
+          "deve",
+          "Alla"
         ]
       },
       {
         "id": "italian-c2-media-e-discorso-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Media e discorso · Lettura»?",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“La proposta deve _____ chiara, realizzabile e rispettosa dei diversi punti di vista.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Media e discorso · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "essere",
+          "modulo",
+          "gruppo",
+          "limiti"
         ]
       }
     ]
@@ -29618,7 +29632,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 80,
-    "estimatedMinutes": 8,
+    "estimatedMinutes": 10,
     "description": "El clima y las estaciones",
     "intro": "El clima y las estaciones",
     "mission": "",
@@ -29629,61 +29643,63 @@
     "reading": {
       "title": "Il tempo e le stagioni",
       "parts": [
-        "Sofia è em Bologna. Hoje descobre el clima y las estaciones. Encontra Marco e diz: “Oggi fa caldo.”. Os dois falam com respeito e aprendem quatro palavras novas: sole, pioggia, caldo e freddo.",
-        "Marco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.",
-        "Al final, Sofia scrive una nota: “Oggi fa caldo.”."
+        "Oggi Sofia è a Bologna. Incontra Marco nel suo quartiere e lo saluta con un sorriso. I due parlano lentamente e si ascoltano con attenzione. Sofia vuole usare l'italiano in una situazione vera, quindi prova una frase semplice e Marco le risponde con gentilezza.",
+        "Durante la conversazione usano parole utili della lezione: parole semplici. Marco fa una domanda e Sofia risponde senza fretta. Se non capisce una parola, chiede: «Puoi ripetere, per favore?». Poi ripetono insieme le parole più importanti e trovano un piccolo esempio per ciascuna.",
+        "Prima di tornare a casa, Sofia ringrazia Marco. Dice che ascoltare, parlare e ripetere la aiuta a sentirsi più sicura. Marco è d'accordo e propone di incontrarsi di nuovo domani. Sofia torna a casa contenta e scrive nel suo quaderno le nuove parole della giornata."
       ],
       "questions": [
-        "Dove è Sofia?",
+        "Dove si trova Sofia?",
         "Con chi parla Sofia?",
-        "Quale frase usa Sofia?",
-        "Perché l’esperienza è importante?"
+        "Che cosa fa Sofia se non capisce una parola?",
+        "Perché Sofia ripete le parole?"
       ],
-      "text": "Sofia è em Bologna. Hoje descobre el clima y las estaciones. Encontra Marco e diz: “Oggi fa caldo.”. Os dois falam com respeito e aprendem quatro palavras novas: sole, pioggia, caldo e freddo.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.\n\nAl final, Sofia scrive una nota: “Oggi fa caldo.”."
+      "text": "Oggi Sofia è a Bologna. Incontra Marco nel suo quartiere e lo saluta con un sorriso. I due parlano lentamente e si ascoltano con attenzione. Sofia vuole usare l'italiano in una situazione vera, quindi prova una frase semplice e Marco le risponde con gentilezza.\n\nDurante la conversazione usano parole utili della lezione: parole semplici. Marco fa una domanda e Sofia risponde senza fretta. Se non capisce una parola, chiede: «Puoi ripetere, per favore?». Poi ripetono insieme le parole più importanti e trovano un piccolo esempio per ciascuna.\n\nPrima di tornare a casa, Sofia ringrazia Marco. Dice che ascoltare, parlare e ripetere la aiuta a sentirsi più sicura. Marco è d'accordo e propone di incontrarsi di nuovo domani. Sofia torna a casa contenta e scrive nel suo quaderno le nuove parole della giornata."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
+        "id": "italian-a1-il-tempo-e-le-stagioni-reading-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Che cosa pratica l’unità?",
+        "prompt": "Dove si trova Sofia?",
         "options": [
-          "hablar del tiempo",
-          "Una regola isolata",
-          "Un esame tecnico",
-          "Un tema senza contesto"
+          "Bologna",
+          "Roma",
+          "Milano",
+          "Napoli"
         ]
       },
       {
+        "id": "italian-a1-il-tempo-e-le-stagioni-reading-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Che cosa fa lo studente?",
+        "prompt": "Con chi parla Sofia?",
         "options": [
-          "hablar del tiempo",
-          "Memorizza senza usare",
-          "Evita di parlare",
-          "Traduce soltanto"
+          "Marco",
+          "Lucia",
+          "Paolo",
+          "Anna"
         ]
       },
       {
-        "id": "italian-a1-il-tempo-e-le-stagioni-reading-comprehension-3",
+        "id": "italian-a1-il-tempo-e-le-stagioni-reading-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Il tempo e le stagioni»?",
+        "prompt": "Che cosa fa Sofia se non capisce una parola?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Il tempo e le stagioni",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Chiede di ripetere",
+          "Va via subito",
+          "Non ascolta",
+          "Cambia città"
         ]
       },
       {
-        "id": "italian-a1-il-tempo-e-le-stagioni-reading-comprehension-4",
+        "id": "italian-a1-il-tempo-e-le-stagioni-reading-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Il tempo e le stagioni»?",
+        "prompt": "Perché Sofia ripete le parole?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Il tempo e le stagioni",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Per sentirsi più sicura",
+          "Per fare un esame tecnico",
+          "Per comprare un biglietto",
+          "Per evitare Marco"
         ]
       }
     ]
@@ -29747,34 +29763,34 @@
       {
         "id": "italian-a2-la-salute-ogni-giorno-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «La salute ogni giorno»?",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“e spiega perché questa experiência è _____ per il quartiere.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di La salute ogni giorno",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "ascoltando",
+          "bienestar",
+          "importante",
+          "experiência"
         ]
       },
       {
         "id": "italian-a2-la-salute-ogni-giorno-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «La salute ogni giorno»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“La conversazione mostra che la cultura si impara ascoltando e _____.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di La salute ogni giorno",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "experiência",
+          "conversazione",
+          "importante",
+          "partecipando"
         ]
       },
       {
         "id": "italian-a2-la-salute-ogni-giorno-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «La salute ogni giorno»?",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“Al final, Sofia _____ una nota: “Mi fa male la gola.”.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di La salute ogni giorno",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "scrive",
+          "spiega",
+          "perché",
+          "mostra"
         ]
       }
     ]
@@ -30127,92 +30143,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Tecnologia quotidiana: parole»?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Tecnologia quotidiana», un piccolo gruppo della comunità parla di tecnologia, dispositivo e _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Tecnologia quotidiana», un piccolo gruppo della comunità parla di tecnologia, dispositivo e vantaggio."
+                "text": "vantaggio"
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "un'esperienza"
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "gruppo"
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "perché"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «Nel tema «Tecnologia quotidiana», un piccolo gruppo della comunità…» in «Tecnologia quotidiana: parole»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Tecnologia quotidiana», un piccolo gruppo della comunità parla di tecnologia, dispositivo e vantaggio."
+                "text": "un'esperienza"
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "persona"
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "dispositivo"
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "collaborare"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Tecnologia quotidiana: parole»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Tecnologia quotidiana», un piccolo gruppo della comunità parla di tecnologia, dispositivo e vantaggio."
+                "text": "un'esperienza"
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "dispositivo"
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "perché"
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "collaborare"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Tecnologia quotidiana: parole»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Tecnologia quotidiana», un piccolo gruppo della comunità parla di tecnologia, dispositivo e vantaggio."
+                "text": "un'esperienza"
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "dispositivo"
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "collaborare"
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "gruppo"
               }
             ]
           }
@@ -30223,42 +30239,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Tecnologia quotidiana: parole»?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Tecnologia quotidiana», un piccolo gruppo della comunità parla di tecnologia, dispositivo e _____.”",
         "options": [
-          "Nel tema «Tecnologia quotidiana», un piccolo gruppo della comunità parla di tecnologia, dispositivo e vantaggio.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "vantaggio",
+          "un'esperienza",
+          "gruppo",
+          "perché"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «Nel tema «Tecnologia quotidiana», un piccolo gruppo della comunità…» in «Tecnologia quotidiana: parole»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
         "options": [
-          "Nel tema «Tecnologia quotidiana», un piccolo gruppo della comunità parla di tecnologia, dispositivo e vantaggio.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "un'esperienza",
+          "persona",
+          "dispositivo",
+          "collaborare"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Tecnologia quotidiana: parole»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
         "options": [
-          "Nel tema «Tecnologia quotidiana», un piccolo gruppo della comunità parla di tecnologia, dispositivo e vantaggio.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "un'esperienza",
+          "dispositivo",
+          "perché",
+          "collaborare"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Tecnologia quotidiana: parole»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
         "options": [
-          "Nel tema «Tecnologia quotidiana», un piccolo gruppo della comunità parla di tecnologia, dispositivo e vantaggio.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "un'esperienza",
+          "dispositivo",
+          "collaborare",
+          "gruppo"
         ]
       }
     ]
@@ -30553,92 +30569,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Tecnologia e privacy · Ascolto»?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Tecnologia e privacy, due partecipanti mettono a confronto le loro _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Tecnologia e privacy, due partecipanti mettono a confronto le loro posizioni."
+                "text": "posizioni"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che dati è utile solo se viene spiegato con esempi verificabili."
+                "text": "partecipanti"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: proteggere può cambiare la prospettiva di chi ascolta."
+                "text": "essere"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "isolatamente"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In questa puntata dedicata a Tecnologia e privacy, due partecipanti…» in «Tecnologia e privacy · Ascolto»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che dati è utile solo se viene spiegato con esempi verificabili.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Tecnologia e privacy, due partecipanti mettono a confronto le loro posizioni."
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che dati è utile solo se viene spiegato con esempi verificabili."
+                "text": "aggiunge"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: proteggere può cambiare la prospettiva di chi ascolta."
+                "text": "isolatamente"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "verificabili"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Tecnologia e privacy · Ascolto»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: proteggere può cambiare la prospettiva di chi ascolta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Tecnologia e privacy, due partecipanti mettono a confronto le loro posizioni."
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che dati è utile solo se viene spiegato con esempi verificabili."
+                "text": "essere"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: proteggere può cambiare la prospettiva di chi ascolta."
+                "text": "possibile"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "isolatamente"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Tecnologia e privacy · Ascolto»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Tecnologia e privacy, due partecipanti mettono a confronto le loro posizioni."
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che dati è utile solo se viene spiegato con esempi verificabili."
+                "text": "isolatamente"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: proteggere può cambiare la prospettiva di chi ascolta."
+                "text": "verificabili"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "scelte"
               }
             ]
           }
@@ -30658,42 +30674,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Tecnologia e privacy · Ascolto»?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Tecnologia e privacy, due partecipanti mettono a confronto le loro _____.”",
         "options": [
-          "In questa puntata dedicata a Tecnologia e privacy, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che dati è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: proteggere può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "posizioni",
+          "partecipanti",
+          "essere",
+          "isolatamente"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In questa puntata dedicata a Tecnologia e privacy, due partecipanti…» in «Tecnologia e privacy · Ascolto»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che dati è utile solo se viene spiegato con esempi verificabili.”",
         "options": [
-          "In questa puntata dedicata a Tecnologia e privacy, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che dati è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: proteggere può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "partecipanti",
+          "aggiunge",
+          "isolatamente",
+          "verificabili"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Tecnologia e privacy · Ascolto»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: proteggere può cambiare la prospettiva di chi ascolta.”",
         "options": [
-          "In questa puntata dedicata a Tecnologia e privacy, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che dati è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: proteggere può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "partecipanti",
+          "essere",
+          "possibile",
+          "isolatamente"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Tecnologia e privacy · Ascolto»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
         "options": [
-          "In questa puntata dedicata a Tecnologia e privacy, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che dati è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: proteggere può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "partecipanti",
+          "isolatamente",
+          "verificabili",
+          "scelte"
         ]
       }
     ]
@@ -30760,92 +30776,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Comunicazione e registro · Ascolto»?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Comunicazione e registro, due partecipanti mettono a confronto le loro _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Comunicazione e registro, due partecipanti mettono a confronto le loro posizioni."
+                "text": "posizioni"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che destinatario è utile solo se viene spiegato con esempi verificabili."
+                "text": "Comunicazione"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: intenzione può cambiare la prospettiva di chi ascolta."
+                "text": "partecipanti"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "essere"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In questa puntata dedicata a Comunicazione e registro, due…» in «Comunicazione e registro · Ascolto»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che destinatario è utile solo se viene spiegato con esempi verificabili.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Comunicazione e registro, due partecipanti mettono a confronto le loro posizioni."
+                "text": "Comunicazione"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che destinatario è utile solo se viene spiegato con esempi verificabili."
+                "text": "aggiunge"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: intenzione può cambiare la prospettiva di chi ascolta."
+                "text": "partecipanti"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "isolatamente"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Comunicazione e registro · Ascolto»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: intenzione può cambiare la prospettiva di chi ascolta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Comunicazione e registro, due partecipanti mettono a confronto le loro posizioni."
+                "text": "Comunicazione"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che destinatario è utile solo se viene spiegato con esempi verificabili."
+                "text": "partecipanti"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: intenzione può cambiare la prospettiva di chi ascolta."
+                "text": "possibile"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "essere"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Comunicazione e registro · Ascolto»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Comunicazione e registro, due partecipanti mettono a confronto le loro posizioni."
+                "text": "Comunicazione"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che destinatario è utile solo se viene spiegato con esempi verificabili."
+                "text": "partecipanti"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: intenzione può cambiare la prospettiva di chi ascolta."
+                "text": "isolatamente"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "scelte"
               }
             ]
           }
@@ -30865,42 +30881,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Comunicazione e registro · Ascolto»?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Comunicazione e registro, due partecipanti mettono a confronto le loro _____.”",
         "options": [
-          "In questa puntata dedicata a Comunicazione e registro, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che destinatario è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: intenzione può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "posizioni",
+          "Comunicazione",
+          "partecipanti",
+          "essere"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In questa puntata dedicata a Comunicazione e registro, due…» in «Comunicazione e registro · Ascolto»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che destinatario è utile solo se viene spiegato con esempi verificabili.”",
         "options": [
-          "In questa puntata dedicata a Comunicazione e registro, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che destinatario è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: intenzione può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "Comunicazione",
+          "aggiunge",
+          "partecipanti",
+          "isolatamente"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Comunicazione e registro · Ascolto»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: intenzione può cambiare la prospettiva di chi ascolta.”",
         "options": [
-          "In questa puntata dedicata a Comunicazione e registro, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che destinatario è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: intenzione può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "Comunicazione",
+          "partecipanti",
+          "possibile",
+          "essere"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Comunicazione e registro · Ascolto»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
         "options": [
-          "In questa puntata dedicata a Comunicazione e registro, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che destinatario è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: intenzione può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "Comunicazione",
+          "partecipanti",
+          "isolatamente",
+          "scelte"
         ]
       }
     ]
@@ -30967,92 +30983,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Media e discorso · Ascolto»?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Media e discorso, due partecipanti mettono a confronto le loro _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Media e discorso, due partecipanti mettono a confronto le loro posizioni."
+                "text": "posizioni"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che narrazione è utile solo se viene spiegato con esempi verificabili."
+                "text": "partecipanti"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: selezionare può cambiare la prospettiva di chi ascolta."
+                "text": "essere"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "isolatamente"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In questa puntata dedicata a Media e discorso, due partecipanti…» in «Media e discorso · Ascolto»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che narrazione è utile solo se viene spiegato con esempi verificabili.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Media e discorso, due partecipanti mettono a confronto le loro posizioni."
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che narrazione è utile solo se viene spiegato con esempi verificabili."
+                "text": "aggiunge"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: selezionare può cambiare la prospettiva di chi ascolta."
+                "text": "isolatamente"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "verificabili"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Media e discorso · Ascolto»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: selezionare può cambiare la prospettiva di chi ascolta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Media e discorso, due partecipanti mettono a confronto le loro posizioni."
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che narrazione è utile solo se viene spiegato con esempi verificabili."
+                "text": "essere"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: selezionare può cambiare la prospettiva di chi ascolta."
+                "text": "possibile"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "isolatamente"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Media e discorso · Ascolto»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Media e discorso, due partecipanti mettono a confronto le loro posizioni."
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che narrazione è utile solo se viene spiegato con esempi verificabili."
+                "text": "isolatamente"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: selezionare può cambiare la prospettiva di chi ascolta."
+                "text": "verificabili"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "scelte"
               }
             ]
           }
@@ -31072,42 +31088,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Media e discorso · Ascolto»?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Media e discorso, due partecipanti mettono a confronto le loro _____.”",
         "options": [
-          "In questa puntata dedicata a Media e discorso, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che narrazione è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: selezionare può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "posizioni",
+          "partecipanti",
+          "essere",
+          "isolatamente"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In questa puntata dedicata a Media e discorso, due partecipanti…» in «Media e discorso · Ascolto»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che narrazione è utile solo se viene spiegato con esempi verificabili.”",
         "options": [
-          "In questa puntata dedicata a Media e discorso, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che narrazione è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: selezionare può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "partecipanti",
+          "aggiunge",
+          "isolatamente",
+          "verificabili"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Media e discorso · Ascolto»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: selezionare può cambiare la prospettiva di chi ascolta.”",
         "options": [
-          "In questa puntata dedicata a Media e discorso, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che narrazione è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: selezionare può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "partecipanti",
+          "essere",
+          "possibile",
+          "isolatamente"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Media e discorso · Ascolto»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
         "options": [
-          "In questa puntata dedicata a Media e discorso, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che narrazione è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: selezionare può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "partecipanti",
+          "isolatamente",
+          "verificabili",
+          "scelte"
         ]
       }
     ]
@@ -31165,92 +31181,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «Il tempo e le stagioni: ascolta», which detail establishes the situation?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“_____ fa caldo.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Oggi fa caldo."
+                "text": "Oggi"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di sole."
+                "text": "Parliamo"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "imparare"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "comunità"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «Oggi fa caldo.», what happens next in «Il tempo e le stagioni: ascolta»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“_____ di sole.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Oggi fa caldo."
+                "text": "caldo"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di sole."
+                "text": "Parliamo"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "piace"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "domani"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «Il tempo e le stagioni: ascolta»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Oggi fa caldo."
+                "text": "caldo"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di sole."
+                "text": "piace"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "comunità"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "domani"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «Il tempo e le stagioni: ascolta» after «Mi piace imparare con la comunità.»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Oggi fa caldo."
+                "text": "Oggi"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di sole."
+                "text": "sole"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "caldo"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "pratica"
               }
             ]
           }
@@ -31261,42 +31277,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «Il tempo e le stagioni: ascolta», which detail establishes the situation?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“_____ fa caldo.”",
         "options": [
-          "Oggi fa caldo.",
-          "Parliamo di sole.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Oggi",
+          "Parliamo",
+          "imparare",
+          "comunità"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «Oggi fa caldo.», what happens next in «Il tempo e le stagioni: ascolta»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“_____ di sole.”",
         "options": [
-          "Oggi fa caldo.",
-          "Parliamo di sole.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "caldo",
+          "Parliamo",
+          "piace",
+          "domani"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «Il tempo e le stagioni: ascolta»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
         "options": [
-          "Oggi fa caldo.",
-          "Parliamo di sole.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "caldo",
+          "piace",
+          "comunità",
+          "domani"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «Il tempo e le stagioni: ascolta» after «Mi piace imparare con la comunità.»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
         "options": [
-          "Oggi fa caldo.",
-          "Parliamo di sole.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Oggi",
+          "sole",
+          "caldo",
+          "pratica"
         ]
       }
     ]
@@ -31354,92 +31370,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «La salute ogni giorno: ascolta», which detail establishes the situation?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“Mi fa male la _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Mi fa male la gola."
+                "text": "gola"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di farmacia."
+                "text": "Parliamo"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "farmacia"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "imparare"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «Mi fa male la gola.», what happens next in «La salute ogni giorno: ascolta»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Mi fa male la gola."
+                "text": "piace"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di farmacia."
+                "text": "farmacia"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "domani"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "pratica"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «La salute ogni giorno: ascolta»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Mi fa male la gola."
+                "text": "piace"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di farmacia."
+                "text": "domani"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "comunità"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "pratica"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «La salute ogni giorno: ascolta» after «Mi piace imparare con la comunità.»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Mi fa male la gola."
+                "text": "male"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di farmacia."
+                "text": "gola"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "piace"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "pratica"
               }
             ]
           }
@@ -31450,42 +31466,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «La salute ogni giorno: ascolta», which detail establishes the situation?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“Mi fa male la _____.”",
         "options": [
-          "Mi fa male la gola.",
-          "Parliamo di farmacia.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "gola",
+          "Parliamo",
+          "farmacia",
+          "imparare"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «Mi fa male la gola.», what happens next in «La salute ogni giorno: ascolta»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
         "options": [
-          "Mi fa male la gola.",
-          "Parliamo di farmacia.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "piace",
+          "farmacia",
+          "domani",
+          "pratica"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «La salute ogni giorno: ascolta»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
         "options": [
-          "Mi fa male la gola.",
-          "Parliamo di farmacia.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "piace",
+          "domani",
+          "comunità",
+          "pratica"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «La salute ogni giorno: ascolta» after «Mi piace imparare con la comunità.»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
         "options": [
-          "Mi fa male la gola.",
-          "Parliamo di farmacia.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "male",
+          "gola",
+          "piace",
+          "pratica"
         ]
       }
     ]
@@ -33333,12 +33349,12 @@
       {
         "id": "italian-b1-citta-e-mobilita-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Città e mobilità»?",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“Davide non cerca una risposta perfetta: vuole un modo responsabile per migliorare la situazione e imparare _____.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Città e mobilità",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "dall'esperienza",
+          "responsabile",
+          "spostamenti",
+          "distinguere"
         ]
       }
     ]
@@ -33432,34 +33448,34 @@
       {
         "id": "italian-b2-viaggi-consapevoli-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Viaggi consapevoli · Lettura»?",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“La discussione non cerca una risposta unica: mette in relazione _____, limiti e possibili soluzioni.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Viaggi consapevoli · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "consapevoli",
+          "prospettive",
+          "conseguenze",
+          "discussione"
         ]
       },
       {
         "id": "italian-b2-viaggi-consapevoli-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Viaggi consapevoli · Lettura»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“_____ fine, il gruppo formula una sintesi condivisa.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Viaggi consapevoli · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Ogni",
+          "fine",
+          "deve",
+          "Alla"
         ]
       },
       {
         "id": "italian-b2-viaggi-consapevoli-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Viaggi consapevoli · Lettura»?",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“La proposta deve _____ chiara, realizzabile e rispettosa dei diversi punti di vista.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Viaggi consapevoli · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "essere",
+          "modulo",
+          "Viaggi",
+          "gruppo"
         ]
       }
     ]
@@ -33553,34 +33569,34 @@
       {
         "id": "italian-c1-scienza-e-divulgazione-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Scienza e divulgazione · Lettura»?",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“La discussione non cerca una risposta unica: mette in relazione _____, limiti e possibili soluzioni.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Scienza e divulgazione · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "prospettive",
+          "discussione",
+          "conseguenze",
+          "divulgazione"
         ]
       },
       {
         "id": "italian-c1-scienza-e-divulgazione-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Scienza e divulgazione · Lettura»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“_____ fine, il gruppo formula una sintesi condivisa.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Scienza e divulgazione · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Ogni",
+          "fine",
+          "deve",
+          "Alla"
         ]
       },
       {
         "id": "italian-c1-scienza-e-divulgazione-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Scienza e divulgazione · Lettura»?",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“La proposta deve _____ chiara, realizzabile e rispettosa dei diversi punti di vista.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Scienza e divulgazione · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "essere",
+          "modulo",
+          "gruppo",
+          "limiti"
         ]
       }
     ]
@@ -33674,34 +33690,34 @@
       {
         "id": "italian-c2-scienza-e-responsabilita-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Scienza e responsabilità · Lettura»?",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“La discussione non cerca una risposta unica: mette in relazione _____, limiti e possibili soluzioni.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Scienza e responsabilità · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "prospettive",
+          "discussione",
+          "conseguenze",
+          "partecipante"
         ]
       },
       {
         "id": "italian-c2-scienza-e-responsabilita-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Scienza e responsabilità · Lettura»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“_____ fine, il gruppo formula una sintesi condivisa.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Scienza e responsabilità · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Ogni",
+          "fine",
+          "deve",
+          "Alla"
         ]
       },
       {
         "id": "italian-c2-scienza-e-responsabilita-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Scienza e responsabilità · Lettura»?",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“La proposta deve _____ chiara, realizzabile e rispettosa dei diversi punti di vista.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Scienza e responsabilità · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "essere",
+          "modulo",
+          "gruppo",
+          "metodo"
         ]
       }
     ]
@@ -33716,7 +33732,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 90,
-    "estimatedMinutes": 8,
+    "estimatedMinutes": 10,
     "description": "Una pequeña fiesta comunitaria",
     "intro": "Una pequeña fiesta comunitaria",
     "mission": "",
@@ -33727,61 +33743,63 @@
     "reading": {
       "title": "Una festa di quartiere",
       "parts": [
-        "Sofia è em Bologna. Hoje descobre una pequeña fiesta comunitaria. Encontra Marco e diz: “Ci vediamo alla festa.”. Os dois falam com respeito e aprendem quatro palavras novas: festa, musica, vicino e sabato.",
-        "Marco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.",
-        "Al final, Sofia scrive una nota: “Ci vediamo alla festa.”."
+        "Oggi Sofia è a Bologna. Incontra Marco nel suo quartiere e lo saluta con un sorriso. I due parlano lentamente e si ascoltano con attenzione. Sofia vuole usare l'italiano in una situazione vera, quindi prova una frase semplice e Marco le risponde con gentilezza.",
+        "Durante la conversazione usano parole utili della lezione: parole semplici. Marco fa una domanda e Sofia risponde senza fretta. Se non capisce una parola, chiede: «Puoi ripetere, per favore?». Poi ripetono insieme le parole più importanti e trovano un piccolo esempio per ciascuna.",
+        "Prima di tornare a casa, Sofia ringrazia Marco. Dice che ascoltare, parlare e ripetere la aiuta a sentirsi più sicura. Marco è d'accordo e propone di incontrarsi di nuovo domani. Sofia torna a casa contenta e scrive nel suo quaderno le nuove parole della giornata."
       ],
       "questions": [
-        "Dove è Sofia?",
+        "Dove si trova Sofia?",
         "Con chi parla Sofia?",
-        "Quale frase usa Sofia?",
-        "Perché l’esperienza è importante?"
+        "Che cosa fa Sofia se non capisce una parola?",
+        "Perché Sofia ripete le parole?"
       ],
-      "text": "Sofia è em Bologna. Hoje descobre una pequeña fiesta comunitaria. Encontra Marco e diz: “Ci vediamo alla festa.”. Os dois falam com respeito e aprendem quatro palavras novas: festa, musica, vicino e sabato.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.\n\nAl final, Sofia scrive una nota: “Ci vediamo alla festa.”."
+      "text": "Oggi Sofia è a Bologna. Incontra Marco nel suo quartiere e lo saluta con un sorriso. I due parlano lentamente e si ascoltano con attenzione. Sofia vuole usare l'italiano in una situazione vera, quindi prova una frase semplice e Marco le risponde con gentilezza.\n\nDurante la conversazione usano parole utili della lezione: parole semplici. Marco fa una domanda e Sofia risponde senza fretta. Se non capisce una parola, chiede: «Puoi ripetere, per favore?». Poi ripetono insieme le parole più importanti e trovano un piccolo esempio per ciascuna.\n\nPrima di tornare a casa, Sofia ringrazia Marco. Dice che ascoltare, parlare e ripetere la aiuta a sentirsi più sicura. Marco è d'accordo e propone di incontrarsi di nuovo domani. Sofia torna a casa contenta e scrive nel suo quaderno le nuove parole della giornata."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
+        "id": "italian-a1-una-festa-di-quartiere-reading-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Che cosa pratica l’unità?",
+        "prompt": "Dove si trova Sofia?",
         "options": [
-          "invitar y aceptar",
-          "Una regola isolata",
-          "Un esame tecnico",
-          "Un tema senza contesto"
+          "Bologna",
+          "Roma",
+          "Milano",
+          "Napoli"
         ]
       },
       {
+        "id": "italian-a1-una-festa-di-quartiere-reading-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Che cosa fa lo studente?",
+        "prompt": "Con chi parla Sofia?",
         "options": [
-          "invitar y aceptar",
-          "Memorizza senza usare",
-          "Evita di parlare",
-          "Traduce soltanto"
+          "Marco",
+          "Lucia",
+          "Paolo",
+          "Anna"
         ]
       },
       {
-        "id": "italian-a1-una-festa-di-quartiere-reading-comprehension-3",
+        "id": "italian-a1-una-festa-di-quartiere-reading-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Una festa di quartiere»?",
+        "prompt": "Che cosa fa Sofia se non capisce una parola?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Una festa di quartiere",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Chiede di ripetere",
+          "Va via subito",
+          "Non ascolta",
+          "Cambia città"
         ]
       },
       {
-        "id": "italian-a1-una-festa-di-quartiere-reading-comprehension-4",
+        "id": "italian-a1-una-festa-di-quartiere-reading-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Una festa di quartiere»?",
+        "prompt": "Perché Sofia ripete le parole?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Una festa di quartiere",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Per sentirsi più sicura",
+          "Per fare un esame tecnico",
+          "Per comprare un biglietto",
+          "Per evitare Marco"
         ]
       }
     ]
@@ -33845,34 +33863,34 @@
       {
         "id": "italian-a2-storie-di-migrazione-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Storie di migrazione»?",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“e spiega perché questa experiência è _____ per il quartiere.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Storie di migrazione",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "ascoltando",
+          "experiência",
+          "importante",
+          "quartiere"
         ]
       },
       {
         "id": "italian-a2-storie-di-migrazione-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Storie di migrazione»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“La conversazione mostra che la cultura si impara ascoltando e _____.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Storie di migrazione",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "trayectorias",
+          "experiência",
+          "conversazione",
+          "partecipando"
         ]
       },
       {
         "id": "italian-a2-storie-di-migrazione-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Storie di migrazione»?",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“Al final, Sofia scrive una nota: “La sua famiglia è _____ anni fa.”.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Storie di migrazione",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "arrivata",
+          "familias",
+          "famiglia",
+          "Bologna"
         ]
       }
     ]
@@ -34225,92 +34243,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Città e mobilità: parole»?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Città e mobilità», un piccolo gruppo della comunità parla di trasporto, percorso e _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Città e mobilità», un piccolo gruppo della comunità parla di trasporto, percorso e traffico."
+                "text": "traffico"
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "un'esperienza"
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "Città"
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "parla"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «Nel tema «Città e mobilità», un piccolo gruppo della comunità parla di…» in «Città e mobilità: parole»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Città e mobilità», un piccolo gruppo della comunità parla di trasporto, percorso e traffico."
+                "text": "un'esperienza"
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "persona"
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "collaborare"
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "tema"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Città e mobilità: parole»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Città e mobilità», un piccolo gruppo della comunità parla di trasporto, percorso e traffico."
+                "text": "un'esperienza"
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "collaborare"
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "perché"
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "migliorare"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Città e mobilità: parole»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Città e mobilità», un piccolo gruppo della comunità parla di trasporto, percorso e traffico."
+                "text": "un'esperienza"
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "collaborare"
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "migliorare"
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "gruppo"
               }
             ]
           }
@@ -34321,42 +34339,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Città e mobilità: parole»?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Città e mobilità», un piccolo gruppo della comunità parla di trasporto, percorso e _____.”",
         "options": [
-          "Nel tema «Città e mobilità», un piccolo gruppo della comunità parla di trasporto, percorso e traffico.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "traffico",
+          "un'esperienza",
+          "Città",
+          "parla"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «Nel tema «Città e mobilità», un piccolo gruppo della comunità parla di…» in «Città e mobilità: parole»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
         "options": [
-          "Nel tema «Città e mobilità», un piccolo gruppo della comunità parla di trasporto, percorso e traffico.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "un'esperienza",
+          "persona",
+          "collaborare",
+          "tema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Città e mobilità: parole»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
         "options": [
-          "Nel tema «Città e mobilità», un piccolo gruppo della comunità parla di trasporto, percorso e traffico.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "un'esperienza",
+          "collaborare",
+          "perché",
+          "migliorare"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Città e mobilità: parole»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
         "options": [
-          "Nel tema «Città e mobilità», un piccolo gruppo della comunità parla di trasporto, percorso e traffico.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "un'esperienza",
+          "collaborare",
+          "migliorare",
+          "gruppo"
         ]
       }
     ]
@@ -34651,92 +34669,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Viaggi consapevoli · Ascolto»?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Viaggi consapevoli, due partecipanti mettono a confronto le loro _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Viaggi consapevoli, due partecipanti mettono a confronto le loro posizioni."
+                "text": "posizioni"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che alloggio è utile solo se viene spiegato con esempi verificabili."
+                "text": "Viaggi"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: imprevisto può cambiare la prospettiva di chi ascolta."
+                "text": "partecipanti"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "essere"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In questa puntata dedicata a Viaggi consapevoli, due partecipanti…» in «Viaggi consapevoli · Ascolto»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che alloggio è utile solo se viene spiegato con esempi verificabili.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Viaggi consapevoli, due partecipanti mettono a confronto le loro posizioni."
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che alloggio è utile solo se viene spiegato con esempi verificabili."
+                "text": "aggiunge"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: imprevisto può cambiare la prospettiva di chi ascolta."
+                "text": "isolatamente"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "verificabili"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Viaggi consapevoli · Ascolto»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: imprevisto può cambiare la prospettiva di chi ascolta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Viaggi consapevoli, due partecipanti mettono a confronto le loro posizioni."
+                "text": "Viaggi"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che alloggio è utile solo se viene spiegato con esempi verificabili."
+                "text": "partecipanti"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: imprevisto può cambiare la prospettiva di chi ascolta."
+                "text": "possibile"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "essere"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Viaggi consapevoli · Ascolto»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Viaggi consapevoli, due partecipanti mettono a confronto le loro posizioni."
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che alloggio è utile solo se viene spiegato con esempi verificabili."
+                "text": "isolatamente"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: imprevisto può cambiare la prospettiva di chi ascolta."
+                "text": "verificabili"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "scelte"
               }
             ]
           }
@@ -34756,42 +34774,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Viaggi consapevoli · Ascolto»?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Viaggi consapevoli, due partecipanti mettono a confronto le loro _____.”",
         "options": [
-          "In questa puntata dedicata a Viaggi consapevoli, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che alloggio è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: imprevisto può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "posizioni",
+          "Viaggi",
+          "partecipanti",
+          "essere"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In questa puntata dedicata a Viaggi consapevoli, due partecipanti…» in «Viaggi consapevoli · Ascolto»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che alloggio è utile solo se viene spiegato con esempi verificabili.”",
         "options": [
-          "In questa puntata dedicata a Viaggi consapevoli, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che alloggio è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: imprevisto può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "partecipanti",
+          "aggiunge",
+          "isolatamente",
+          "verificabili"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Viaggi consapevoli · Ascolto»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: imprevisto può cambiare la prospettiva di chi ascolta.”",
         "options": [
-          "In questa puntata dedicata a Viaggi consapevoli, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che alloggio è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: imprevisto può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "Viaggi",
+          "partecipanti",
+          "possibile",
+          "essere"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Viaggi consapevoli · Ascolto»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
         "options": [
-          "In questa puntata dedicata a Viaggi consapevoli, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che alloggio è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: imprevisto può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "partecipanti",
+          "isolatamente",
+          "verificabili",
+          "scelte"
         ]
       }
     ]
@@ -34858,92 +34876,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Scienza e divulgazione · Ascolto»?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Scienza e divulgazione, due partecipanti mettono a confronto le loro _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Scienza e divulgazione, due partecipanti mettono a confronto le loro posizioni."
+                "text": "posizioni"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che evidenza è utile solo se viene spiegato con esempi verificabili."
+                "text": "divulgazione"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: modello può cambiare la prospettiva di chi ascolta."
+                "text": "partecipanti"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "essere"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In questa puntata dedicata a Scienza e divulgazione, due partecipanti…» in «Scienza e divulgazione · Ascolto»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che evidenza è utile solo se viene spiegato con esempi verificabili.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Scienza e divulgazione, due partecipanti mettono a confronto le loro posizioni."
+                "text": "divulgazione"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che evidenza è utile solo se viene spiegato con esempi verificabili."
+                "text": "aggiunge"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: modello può cambiare la prospettiva di chi ascolta."
+                "text": "partecipanti"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "isolatamente"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Scienza e divulgazione · Ascolto»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: modello può cambiare la prospettiva di chi ascolta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Scienza e divulgazione, due partecipanti mettono a confronto le loro posizioni."
+                "text": "divulgazione"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che evidenza è utile solo se viene spiegato con esempi verificabili."
+                "text": "partecipanti"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: modello può cambiare la prospettiva di chi ascolta."
+                "text": "possibile"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "essere"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Scienza e divulgazione · Ascolto»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Scienza e divulgazione, due partecipanti mettono a confronto le loro posizioni."
+                "text": "divulgazione"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che evidenza è utile solo se viene spiegato con esempi verificabili."
+                "text": "partecipanti"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: modello può cambiare la prospettiva di chi ascolta."
+                "text": "isolatamente"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "scelte"
               }
             ]
           }
@@ -34963,42 +34981,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Scienza e divulgazione · Ascolto»?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Scienza e divulgazione, due partecipanti mettono a confronto le loro _____.”",
         "options": [
-          "In questa puntata dedicata a Scienza e divulgazione, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che evidenza è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: modello può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "posizioni",
+          "divulgazione",
+          "partecipanti",
+          "essere"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In questa puntata dedicata a Scienza e divulgazione, due partecipanti…» in «Scienza e divulgazione · Ascolto»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che evidenza è utile solo se viene spiegato con esempi verificabili.”",
         "options": [
-          "In questa puntata dedicata a Scienza e divulgazione, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che evidenza è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: modello può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "divulgazione",
+          "aggiunge",
+          "partecipanti",
+          "isolatamente"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Scienza e divulgazione · Ascolto»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: modello può cambiare la prospettiva di chi ascolta.”",
         "options": [
-          "In questa puntata dedicata a Scienza e divulgazione, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che evidenza è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: modello può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "divulgazione",
+          "partecipanti",
+          "possibile",
+          "essere"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Scienza e divulgazione · Ascolto»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
         "options": [
-          "In questa puntata dedicata a Scienza e divulgazione, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che evidenza è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: modello può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "divulgazione",
+          "partecipanti",
+          "isolatamente",
+          "scelte"
         ]
       }
     ]
@@ -35065,92 +35083,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Scienza e responsabilità · Ascolto»?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Scienza e responsabilità, due partecipanti mettono a confronto le loro _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Scienza e responsabilità, due partecipanti mettono a confronto le loro posizioni."
+                "text": "posizioni"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che limite è utile solo se viene spiegato con esempi verificabili."
+                "text": "responsabilità"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: replicare può cambiare la prospettiva di chi ascolta."
+                "text": "partecipanti"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "metodo"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In questa puntata dedicata a Scienza e responsabilità, due…» in «Scienza e responsabilità · Ascolto»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che limite è utile solo se viene spiegato con esempi verificabili.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Scienza e responsabilità, due partecipanti mettono a confronto le loro posizioni."
+                "text": "responsabilità"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che limite è utile solo se viene spiegato con esempi verificabili."
+                "text": "aggiunge"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: replicare può cambiare la prospettiva di chi ascolta."
+                "text": "partecipanti"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "isolatamente"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Scienza e responsabilità · Ascolto»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: replicare può cambiare la prospettiva di chi ascolta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Scienza e responsabilità, due partecipanti mettono a confronto le loro posizioni."
+                "text": "responsabilità"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che limite è utile solo se viene spiegato con esempi verificabili."
+                "text": "partecipanti"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: replicare può cambiare la prospettiva di chi ascolta."
+                "text": "possibile"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "metodo"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Scienza e responsabilità · Ascolto»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Scienza e responsabilità, due partecipanti mettono a confronto le loro posizioni."
+                "text": "responsabilità"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che limite è utile solo se viene spiegato con esempi verificabili."
+                "text": "partecipanti"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: replicare può cambiare la prospettiva di chi ascolta."
+                "text": "isolatamente"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "scelte"
               }
             ]
           }
@@ -35170,42 +35188,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Scienza e responsabilità · Ascolto»?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Scienza e responsabilità, due partecipanti mettono a confronto le loro _____.”",
         "options": [
-          "In questa puntata dedicata a Scienza e responsabilità, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che limite è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: replicare può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "posizioni",
+          "responsabilità",
+          "partecipanti",
+          "metodo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In questa puntata dedicata a Scienza e responsabilità, due…» in «Scienza e responsabilità · Ascolto»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che limite è utile solo se viene spiegato con esempi verificabili.”",
         "options": [
-          "In questa puntata dedicata a Scienza e responsabilità, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che limite è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: replicare può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "responsabilità",
+          "aggiunge",
+          "partecipanti",
+          "isolatamente"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Scienza e responsabilità · Ascolto»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: replicare può cambiare la prospettiva di chi ascolta.”",
         "options": [
-          "In questa puntata dedicata a Scienza e responsabilità, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che limite è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: replicare può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "responsabilità",
+          "partecipanti",
+          "possibile",
+          "metodo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Scienza e responsabilità · Ascolto»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
         "options": [
-          "In questa puntata dedicata a Scienza e responsabilità, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che limite è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: replicare può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "responsabilità",
+          "partecipanti",
+          "isolatamente",
+          "scelte"
         ]
       }
     ]
@@ -35263,92 +35281,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «Una festa di quartiere: ascolta», which detail establishes the situation?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“Ci _____ alla festa.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Ci vediamo alla festa."
+                "text": "vediamo"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di festa."
+                "text": "alla"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "festa"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "piace"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «Ci vediamo alla festa.», what happens next in «Una festa di quartiere: ascolta»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“_____ di festa.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Ci vediamo alla festa."
+                "text": "festa"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di festa."
+                "text": "Parliamo"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "piace"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "domani"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «Una festa di quartiere: ascolta»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Ci vediamo alla festa."
+                "text": "festa"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di festa."
+                "text": "piace"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "comunità"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "domani"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «Una festa di quartiere: ascolta» after «Mi piace imparare con la comunità.»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Ci vediamo alla festa."
+                "text": "alla"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di festa."
+                "text": "festa"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "piace"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "pratica"
               }
             ]
           }
@@ -35359,42 +35377,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «Una festa di quartiere: ascolta», which detail establishes the situation?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“Ci _____ alla festa.”",
         "options": [
-          "Ci vediamo alla festa.",
-          "Parliamo di festa.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "vediamo",
+          "alla",
+          "festa",
+          "piace"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «Ci vediamo alla festa.», what happens next in «Una festa di quartiere: ascolta»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“_____ di festa.”",
         "options": [
-          "Ci vediamo alla festa.",
-          "Parliamo di festa.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "festa",
+          "Parliamo",
+          "piace",
+          "domani"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «Una festa di quartiere: ascolta»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
         "options": [
-          "Ci vediamo alla festa.",
-          "Parliamo di festa.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "festa",
+          "piace",
+          "comunità",
+          "domani"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «Una festa di quartiere: ascolta» after «Mi piace imparare con la comunità.»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
         "options": [
-          "Ci vediamo alla festa.",
-          "Parliamo di festa.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "alla",
+          "festa",
+          "piace",
+          "pratica"
         ]
       }
     ]
@@ -35452,92 +35470,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «Storie di migrazione: ascolta», which detail establishes the situation?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“La sua famiglia è _____ anni fa.”",
             "options": [
               {
                 "id": "o1",
-                "text": "La sua famiglia è arrivata anni fa."
+                "text": "arrivata"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di famiglia."
+                "text": "piace"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "domani"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "pratica"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «La sua famiglia è arrivata anni fa.», what happens next in «Storie di migrazione: ascolta»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "La sua famiglia è arrivata anni fa."
+                "text": "piace"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di famiglia."
+                "text": "famiglia"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "domani"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "pratica"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «Storie di migrazione: ascolta»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "La sua famiglia è arrivata anni fa."
+                "text": "piace"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di famiglia."
+                "text": "domani"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "comunità"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "pratica"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «Storie di migrazione: ascolta» after «Mi piace imparare con la comunità.»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
             "options": [
               {
                 "id": "o1",
-                "text": "La sua famiglia è arrivata anni fa."
+                "text": "anni"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di famiglia."
+                "text": "piace"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "famiglia"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "pratica"
               }
             ]
           }
@@ -35548,42 +35566,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «Storie di migrazione: ascolta», which detail establishes the situation?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“La sua famiglia è _____ anni fa.”",
         "options": [
-          "La sua famiglia è arrivata anni fa.",
-          "Parliamo di famiglia.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "arrivata",
+          "piace",
+          "domani",
+          "pratica"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «La sua famiglia è arrivata anni fa.», what happens next in «Storie di migrazione: ascolta»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
         "options": [
-          "La sua famiglia è arrivata anni fa.",
-          "Parliamo di famiglia.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "piace",
+          "famiglia",
+          "domani",
+          "pratica"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «Storie di migrazione: ascolta»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
         "options": [
-          "La sua famiglia è arrivata anni fa.",
-          "Parliamo di famiglia.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "piace",
+          "domani",
+          "comunità",
+          "pratica"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «Storie di migrazione: ascolta» after «Mi piace imparare con la comunità.»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
         "options": [
-          "La sua famiglia è arrivata anni fa.",
-          "Parliamo di famiglia.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "anni",
+          "piace",
+          "famiglia",
+          "pratica"
         ]
       }
     ]
@@ -37431,12 +37449,12 @@
       {
         "id": "italian-b1-piani-per-il-futuro-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Piani per il futuro»?",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“Nadia non cerca una risposta perfetta: vuole un modo responsabile per migliorare la situazione e imparare _____.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Piani per il futuro",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "dall'esperienza",
+          "orientamento",
+          "responsabile",
+          "distinguere"
         ]
       }
     ]
@@ -37530,34 +37548,34 @@
       {
         "id": "italian-b2-relazioni-e-mediazione-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Relazioni e mediazione · Lettura»?",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“La discussione non cerca una risposta unica: mette in relazione _____, limiti e possibili soluzioni.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Relazioni e mediazione · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "prospettive",
+          "discussione",
+          "conseguenze",
+          "mediazione"
         ]
       },
       {
         "id": "italian-b2-relazioni-e-mediazione-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Relazioni e mediazione · Lettura»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“_____ fine, il gruppo formula una sintesi condivisa.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Relazioni e mediazione · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Ogni",
+          "fine",
+          "deve",
+          "Alla"
         ]
       },
       {
         "id": "italian-b2-relazioni-e-mediazione-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Relazioni e mediazione · Lettura»?",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“La proposta deve _____ chiara, realizzabile e rispettosa dei diversi punti di vista.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Relazioni e mediazione · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "essere",
+          "modulo",
+          "gruppo",
+          "limiti"
         ]
       }
     ]
@@ -37651,34 +37669,34 @@
       {
         "id": "italian-c1-conflitto-e-negoziazione-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Conflitto e negoziazione · Lettura»?",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“La discussione non cerca una risposta unica: mette in relazione _____, limiti e possibili soluzioni.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Conflitto e negoziazione · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "compromesso",
+          "prospettive",
+          "conseguenze",
+          "discussione"
         ]
       },
       {
         "id": "italian-c1-conflitto-e-negoziazione-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Conflitto e negoziazione · Lettura»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“_____ fine, il gruppo formula una sintesi condivisa.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Conflitto e negoziazione · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Ogni",
+          "fine",
+          "deve",
+          "Alla"
         ]
       },
       {
         "id": "italian-c1-conflitto-e-negoziazione-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Conflitto e negoziazione · Lettura»?",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“La proposta deve _____ chiara, realizzabile e rispettosa dei diversi punti di vista.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Conflitto e negoziazione · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "essere",
+          "modulo",
+          "gruppo",
+          "limiti"
         ]
       }
     ]
@@ -37772,34 +37790,34 @@
       {
         "id": "italian-c2-filosofia-quotidiana-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Filosofia quotidiana · Lettura»?",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“La discussione non cerca una risposta unica: mette in relazione _____, limiti e possibili soluzioni.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Filosofia quotidiana · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "prospettive",
+          "discussione",
+          "conseguenze",
+          "quotidiana"
         ]
       },
       {
         "id": "italian-c2-filosofia-quotidiana-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Filosofia quotidiana · Lettura»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“_____ fine, il gruppo formula una sintesi condivisa.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Filosofia quotidiana · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Ogni",
+          "fine",
+          "deve",
+          "Alla"
         ]
       },
       {
         "id": "italian-c2-filosofia-quotidiana-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Filosofia quotidiana · Lettura»?",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“La proposta deve _____ chiara, realizzabile e rispettosa dei diversi punti di vista.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Filosofia quotidiana · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "essere",
+          "modulo",
+          "gruppo",
+          "limiti"
         ]
       }
     ]
@@ -37814,7 +37832,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 100,
-    "estimatedMinutes": 8,
+    "estimatedMinutes": 10,
     "description": "Un viaje corto en tren regional",
     "intro": "Un viaje corto en tren regional",
     "mission": "",
@@ -37825,61 +37843,63 @@
     "reading": {
       "title": "In treno",
       "parts": [
-        "Sofia è em Bologna. Hoje descobre un viaje corto en tren regional. Encontra Marco e diz: “Un biglietto per Firenze.”. Os dois falam com respeito e aprendem quatro palavras novas: treno, biglietto, binario e viaggio.",
-        "Marco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.",
-        "Al final, Sofia scrive una nota: “Un biglietto per Firenze.”."
+        "Oggi Sofia è a Bologna. Incontra Marco nel suo quartiere e lo saluta con un sorriso. I due parlano lentamente e si ascoltano con attenzione. Sofia vuole usare l'italiano in una situazione vera, quindi prova una frase semplice e Marco le risponde con gentilezza.",
+        "Durante la conversazione usano parole utili della lezione: parole semplici. Marco fa una domanda e Sofia risponde senza fretta. Se non capisce una parola, chiede: «Puoi ripetere, per favore?». Poi ripetono insieme le parole più importanti e trovano un piccolo esempio per ciascuna.",
+        "Prima di tornare a casa, Sofia ringrazia Marco. Dice che ascoltare, parlare e ripetere la aiuta a sentirsi più sicura. Marco è d'accordo e propone di incontrarsi di nuovo domani. Sofia torna a casa contenta e scrive nel suo quaderno le nuove parole della giornata."
       ],
       "questions": [
-        "Dove è Sofia?",
+        "Dove si trova Sofia?",
         "Con chi parla Sofia?",
-        "Quale frase usa Sofia?",
-        "Perché l’esperienza è importante?"
+        "Che cosa fa Sofia se non capisce una parola?",
+        "Perché Sofia ripete le parole?"
       ],
-      "text": "Sofia è em Bologna. Hoje descobre un viaje corto en tren regional. Encontra Marco e diz: “Un biglietto per Firenze.”. Os dois falam com respeito e aprendem quatro palavras novas: treno, biglietto, binario e viaggio.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.\n\nAl final, Sofia scrive una nota: “Un biglietto per Firenze.”."
+      "text": "Oggi Sofia è a Bologna. Incontra Marco nel suo quartiere e lo saluta con un sorriso. I due parlano lentamente e si ascoltano con attenzione. Sofia vuole usare l'italiano in una situazione vera, quindi prova una frase semplice e Marco le risponde con gentilezza.\n\nDurante la conversazione usano parole utili della lezione: parole semplici. Marco fa una domanda e Sofia risponde senza fretta. Se non capisce una parola, chiede: «Puoi ripetere, per favore?». Poi ripetono insieme le parole più importanti e trovano un piccolo esempio per ciascuna.\n\nPrima di tornare a casa, Sofia ringrazia Marco. Dice che ascoltare, parlare e ripetere la aiuta a sentirsi più sicura. Marco è d'accordo e propone di incontrarsi di nuovo domani. Sofia torna a casa contenta e scrive nel suo quaderno le nuove parole della giornata."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
+        "id": "italian-a1-in-treno-reading-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Che cosa pratica l’unità?",
+        "prompt": "Dove si trova Sofia?",
         "options": [
-          "comprar un billete",
-          "Una regola isolata",
-          "Un esame tecnico",
-          "Un tema senza contesto"
+          "Bologna",
+          "Roma",
+          "Milano",
+          "Napoli"
         ]
       },
       {
+        "id": "italian-a1-in-treno-reading-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Che cosa fa lo studente?",
+        "prompt": "Con chi parla Sofia?",
         "options": [
-          "comprar un billete",
-          "Memorizza senza usare",
-          "Evita di parlare",
-          "Traduce soltanto"
+          "Marco",
+          "Lucia",
+          "Paolo",
+          "Anna"
         ]
       },
       {
-        "id": "italian-a1-in-treno-reading-comprehension-3",
+        "id": "italian-a1-in-treno-reading-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «In treno»?",
+        "prompt": "Che cosa fa Sofia se non capisce una parola?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di In treno",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Chiede di ripetere",
+          "Va via subito",
+          "Non ascolta",
+          "Cambia città"
         ]
       },
       {
-        "id": "italian-a1-in-treno-reading-comprehension-4",
+        "id": "italian-a1-in-treno-reading-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «In treno»?",
+        "prompt": "Perché Sofia ripete le parole?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di In treno",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Per sentirsi più sicura",
+          "Per fare un esame tecnico",
+          "Per comprare un biglietto",
+          "Per evitare Marco"
         ]
       }
     ]
@@ -37943,34 +37963,34 @@
       {
         "id": "italian-a2-un-progetto-di-classe-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Un progetto di classe»?",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“e spiega perché questa experiência è _____ per il quartiere.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Un progetto di classe",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "ascoltando",
+          "colaborar",
+          "importante",
+          "propuesta"
         ]
       },
       {
         "id": "italian-a2-un-progetto-di-classe-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Un progetto di classe»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“La conversazione mostra che la cultura si impara ascoltando e _____.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Un progetto di classe",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "experiência",
+          "conversazione",
+          "importante",
+          "partecipando"
         ]
       },
       {
         "id": "italian-a2-un-progetto-di-classe-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Un progetto di classe»?",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“Al final, Sofia scrive una nota: “_____ dividere i compiti.”.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Un progetto di classe",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Possiamo",
+          "dividere",
+          "Bologna",
+          "colaborar"
         ]
       }
     ]
@@ -38323,92 +38343,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Piani per il futuro: parole»?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Piani per il futuro», un piccolo gruppo della comunità parla di futuro, obiettivo e _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Piani per il futuro», un piccolo gruppo della comunità parla di futuro, obiettivo e opportunità."
+                "text": "opportunità"
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "comunità"
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "racconta"
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "concreta"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «Nel tema «Piani per il futuro», un piccolo gruppo della comunità parla…» in «Piani per il futuro: parole»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Piani per il futuro», un piccolo gruppo della comunità parla di futuro, obiettivo e opportunità."
+                "text": "un'esperienza"
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "persona"
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "opportunità"
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "collaborare"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Piani per il futuro: parole»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Piani per il futuro», un piccolo gruppo della comunità parla di futuro, obiettivo e opportunità."
+                "text": "un'esperienza"
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "opportunità"
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "perché"
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "collaborare"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Piani per il futuro: parole»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Piani per il futuro», un piccolo gruppo della comunità parla di futuro, obiettivo e opportunità."
+                "text": "un'esperienza"
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "opportunità"
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "collaborare"
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "gruppo"
               }
             ]
           }
@@ -38419,42 +38439,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Piani per il futuro: parole»?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Piani per il futuro», un piccolo gruppo della comunità parla di futuro, obiettivo e _____.”",
         "options": [
-          "Nel tema «Piani per il futuro», un piccolo gruppo della comunità parla di futuro, obiettivo e opportunità.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "opportunità",
+          "comunità",
+          "racconta",
+          "concreta"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «Nel tema «Piani per il futuro», un piccolo gruppo della comunità parla…» in «Piani per il futuro: parole»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
         "options": [
-          "Nel tema «Piani per il futuro», un piccolo gruppo della comunità parla di futuro, obiettivo e opportunità.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "un'esperienza",
+          "persona",
+          "opportunità",
+          "collaborare"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Piani per il futuro: parole»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
         "options": [
-          "Nel tema «Piani per il futuro», un piccolo gruppo della comunità parla di futuro, obiettivo e opportunità.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "un'esperienza",
+          "opportunità",
+          "perché",
+          "collaborare"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Piani per il futuro: parole»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
         "options": [
-          "Nel tema «Piani per il futuro», un piccolo gruppo della comunità parla di futuro, obiettivo e opportunità.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "un'esperienza",
+          "opportunità",
+          "collaborare",
+          "gruppo"
         ]
       }
     ]
@@ -38749,92 +38769,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Relazioni e mediazione · Ascolto»?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Relazioni e mediazione, due partecipanti mettono a confronto le loro _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Relazioni e mediazione, due partecipanti mettono a confronto le loro posizioni."
+                "text": "posizioni"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che ascoltare è utile solo se viene spiegato con esempi verificabili."
+                "text": "partecipanti"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: chiarire può cambiare la prospettiva di chi ascolta."
+                "text": "essere"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "isolatamente"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In questa puntata dedicata a Relazioni e mediazione, due partecipanti…» in «Relazioni e mediazione · Ascolto»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che ascoltare è utile solo se viene spiegato con esempi verificabili.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Relazioni e mediazione, due partecipanti mettono a confronto le loro posizioni."
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che ascoltare è utile solo se viene spiegato con esempi verificabili."
+                "text": "aggiunge"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: chiarire può cambiare la prospettiva di chi ascolta."
+                "text": "isolatamente"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "verificabili"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Relazioni e mediazione · Ascolto»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: chiarire può cambiare la prospettiva di chi ascolta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Relazioni e mediazione, due partecipanti mettono a confronto le loro posizioni."
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che ascoltare è utile solo se viene spiegato con esempi verificabili."
+                "text": "essere"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: chiarire può cambiare la prospettiva di chi ascolta."
+                "text": "possibile"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "isolatamente"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Relazioni e mediazione · Ascolto»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Relazioni e mediazione, due partecipanti mettono a confronto le loro posizioni."
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che ascoltare è utile solo se viene spiegato con esempi verificabili."
+                "text": "isolatamente"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: chiarire può cambiare la prospettiva di chi ascolta."
+                "text": "verificabili"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "scelte"
               }
             ]
           }
@@ -38854,42 +38874,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Relazioni e mediazione · Ascolto»?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Relazioni e mediazione, due partecipanti mettono a confronto le loro _____.”",
         "options": [
-          "In questa puntata dedicata a Relazioni e mediazione, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che ascoltare è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: chiarire può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "posizioni",
+          "partecipanti",
+          "essere",
+          "isolatamente"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In questa puntata dedicata a Relazioni e mediazione, due partecipanti…» in «Relazioni e mediazione · Ascolto»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che ascoltare è utile solo se viene spiegato con esempi verificabili.”",
         "options": [
-          "In questa puntata dedicata a Relazioni e mediazione, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che ascoltare è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: chiarire può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "partecipanti",
+          "aggiunge",
+          "isolatamente",
+          "verificabili"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Relazioni e mediazione · Ascolto»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: chiarire può cambiare la prospettiva di chi ascolta.”",
         "options": [
-          "In questa puntata dedicata a Relazioni e mediazione, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che ascoltare è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: chiarire può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "partecipanti",
+          "essere",
+          "possibile",
+          "isolatamente"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Relazioni e mediazione · Ascolto»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
         "options": [
-          "In questa puntata dedicata a Relazioni e mediazione, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che ascoltare è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: chiarire può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "partecipanti",
+          "isolatamente",
+          "verificabili",
+          "scelte"
         ]
       }
     ]
@@ -38956,92 +38976,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Conflitto e negoziazione · Ascolto»?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Conflitto e negoziazione, due partecipanti mettono a confronto le loro _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Conflitto e negoziazione, due partecipanti mettono a confronto le loro posizioni."
+                "text": "posizioni"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che compromesso è utile solo se viene spiegato con esempi verificabili."
+                "text": "negoziazione"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: vincolo può cambiare la prospettiva di chi ascolta."
+                "text": "partecipanti"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "essere"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In questa puntata dedicata a Conflitto e negoziazione, due…» in «Conflitto e negoziazione · Ascolto»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che compromesso è utile solo se viene spiegato con esempi verificabili.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Conflitto e negoziazione, due partecipanti mettono a confronto le loro posizioni."
+                "text": "negoziazione"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che compromesso è utile solo se viene spiegato con esempi verificabili."
+                "text": "aggiunge"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: vincolo può cambiare la prospettiva di chi ascolta."
+                "text": "partecipanti"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "isolatamente"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Conflitto e negoziazione · Ascolto»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: vincolo può cambiare la prospettiva di chi ascolta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Conflitto e negoziazione, due partecipanti mettono a confronto le loro posizioni."
+                "text": "negoziazione"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che compromesso è utile solo se viene spiegato con esempi verificabili."
+                "text": "partecipanti"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: vincolo può cambiare la prospettiva di chi ascolta."
+                "text": "possibile"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "essere"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Conflitto e negoziazione · Ascolto»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Conflitto e negoziazione, due partecipanti mettono a confronto le loro posizioni."
+                "text": "negoziazione"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che compromesso è utile solo se viene spiegato con esempi verificabili."
+                "text": "partecipanti"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: vincolo può cambiare la prospettiva di chi ascolta."
+                "text": "isolatamente"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "scelte"
               }
             ]
           }
@@ -39061,42 +39081,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Conflitto e negoziazione · Ascolto»?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Conflitto e negoziazione, due partecipanti mettono a confronto le loro _____.”",
         "options": [
-          "In questa puntata dedicata a Conflitto e negoziazione, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che compromesso è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: vincolo può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "posizioni",
+          "negoziazione",
+          "partecipanti",
+          "essere"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In questa puntata dedicata a Conflitto e negoziazione, due…» in «Conflitto e negoziazione · Ascolto»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che compromesso è utile solo se viene spiegato con esempi verificabili.”",
         "options": [
-          "In questa puntata dedicata a Conflitto e negoziazione, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che compromesso è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: vincolo può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "negoziazione",
+          "aggiunge",
+          "partecipanti",
+          "isolatamente"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Conflitto e negoziazione · Ascolto»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: vincolo può cambiare la prospettiva di chi ascolta.”",
         "options": [
-          "In questa puntata dedicata a Conflitto e negoziazione, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che compromesso è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: vincolo può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "negoziazione",
+          "partecipanti",
+          "possibile",
+          "essere"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Conflitto e negoziazione · Ascolto»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
         "options": [
-          "In questa puntata dedicata a Conflitto e negoziazione, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che compromesso è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: vincolo può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "negoziazione",
+          "partecipanti",
+          "isolatamente",
+          "scelte"
         ]
       }
     ]
@@ -39163,92 +39183,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Filosofia quotidiana · Ascolto»?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Filosofia quotidiana, due partecipanti mettono a confronto le loro _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Filosofia quotidiana, due partecipanti mettono a confronto le loro posizioni."
+                "text": "posizioni"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che paradosso è utile solo se viene spiegato con esempi verificabili."
+                "text": "partecipanti"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: argomentare può cambiare la prospettiva di chi ascolta."
+                "text": "essere"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "isolatamente"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In questa puntata dedicata a Filosofia quotidiana, due partecipanti…» in «Filosofia quotidiana · Ascolto»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che paradosso è utile solo se viene spiegato con esempi verificabili.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Filosofia quotidiana, due partecipanti mettono a confronto le loro posizioni."
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che paradosso è utile solo se viene spiegato con esempi verificabili."
+                "text": "aggiunge"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: argomentare può cambiare la prospettiva di chi ascolta."
+                "text": "isolatamente"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "verificabili"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Filosofia quotidiana · Ascolto»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: argomentare può cambiare la prospettiva di chi ascolta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Filosofia quotidiana, due partecipanti mettono a confronto le loro posizioni."
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che paradosso è utile solo se viene spiegato con esempi verificabili."
+                "text": "essere"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: argomentare può cambiare la prospettiva di chi ascolta."
+                "text": "possibile"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "isolatamente"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Filosofia quotidiana · Ascolto»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Filosofia quotidiana, due partecipanti mettono a confronto le loro posizioni."
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che paradosso è utile solo se viene spiegato con esempi verificabili."
+                "text": "isolatamente"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: argomentare può cambiare la prospettiva di chi ascolta."
+                "text": "verificabili"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "scelte"
               }
             ]
           }
@@ -39268,42 +39288,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Filosofia quotidiana · Ascolto»?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Filosofia quotidiana, due partecipanti mettono a confronto le loro _____.”",
         "options": [
-          "In questa puntata dedicata a Filosofia quotidiana, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che paradosso è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: argomentare può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "posizioni",
+          "partecipanti",
+          "essere",
+          "isolatamente"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In questa puntata dedicata a Filosofia quotidiana, due partecipanti…» in «Filosofia quotidiana · Ascolto»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che paradosso è utile solo se viene spiegato con esempi verificabili.”",
         "options": [
-          "In questa puntata dedicata a Filosofia quotidiana, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che paradosso è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: argomentare può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "partecipanti",
+          "aggiunge",
+          "isolatamente",
+          "verificabili"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Filosofia quotidiana · Ascolto»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: argomentare può cambiare la prospettiva di chi ascolta.”",
         "options": [
-          "In questa puntata dedicata a Filosofia quotidiana, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che paradosso è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: argomentare può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "partecipanti",
+          "essere",
+          "possibile",
+          "isolatamente"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Filosofia quotidiana · Ascolto»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
         "options": [
-          "In questa puntata dedicata a Filosofia quotidiana, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che paradosso è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: argomentare può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "partecipanti",
+          "isolatamente",
+          "verificabili",
+          "scelte"
         ]
       }
     ]
@@ -39361,92 +39381,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «In treno: ascolta», which detail establishes the situation?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“Un biglietto per _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Un biglietto per Firenze."
+                "text": "Firenze"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di treno."
+                "text": "biglietto"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "treno"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "piace"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «Un biglietto per Firenze.», what happens next in «In treno: ascolta»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“_____ di treno.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Un biglietto per Firenze."
+                "text": "treno"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di treno."
+                "text": "Parliamo"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "piace"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "domani"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «In treno: ascolta»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Un biglietto per Firenze."
+                "text": "treno"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di treno."
+                "text": "piace"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "comunità"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "domani"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «In treno: ascolta» after «Mi piace imparare con la comunità.»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Un biglietto per Firenze."
+                "text": "biglietto"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di treno."
+                "text": "treno"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "piace"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "pratica"
               }
             ]
           }
@@ -39457,42 +39477,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «In treno: ascolta», which detail establishes the situation?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“Un biglietto per _____.”",
         "options": [
-          "Un biglietto per Firenze.",
-          "Parliamo di treno.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Firenze",
+          "biglietto",
+          "treno",
+          "piace"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «Un biglietto per Firenze.», what happens next in «In treno: ascolta»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“_____ di treno.”",
         "options": [
-          "Un biglietto per Firenze.",
-          "Parliamo di treno.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "treno",
+          "Parliamo",
+          "piace",
+          "domani"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «In treno: ascolta»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
         "options": [
-          "Un biglietto per Firenze.",
-          "Parliamo di treno.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "treno",
+          "piace",
+          "comunità",
+          "domani"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «In treno: ascolta» after «Mi piace imparare con la comunità.»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
         "options": [
-          "Un biglietto per Firenze.",
-          "Parliamo di treno.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "biglietto",
+          "treno",
+          "piace",
+          "pratica"
         ]
       }
     ]
@@ -39550,92 +39570,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «Un progetto di classe: ascolta», which detail establishes the situation?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“Possiamo dividere i _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Possiamo dividere i compiti."
+                "text": "compiti"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di progetto."
+                "text": "piace"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "Possiamo"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "dividere"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «Possiamo dividere i compiti.», what happens next in «Un progetto di classe: ascolta»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Possiamo dividere i compiti."
+                "text": "piace"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di progetto."
+                "text": "progetto"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "domani"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "compiti"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «Un progetto di classe: ascolta»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Possiamo dividere i compiti."
+                "text": "piace"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di progetto."
+                "text": "domani"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "comunità"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "compiti"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «Un progetto di classe: ascolta» after «Mi piace imparare con la comunità.»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Possiamo dividere i compiti."
+                "text": "piace"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di progetto."
+                "text": "Possiamo"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "dividere"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "pratica"
               }
             ]
           }
@@ -39646,42 +39666,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «Un progetto di classe: ascolta», which detail establishes the situation?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“Possiamo dividere i _____.”",
         "options": [
-          "Possiamo dividere i compiti.",
-          "Parliamo di progetto.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "compiti",
+          "piace",
+          "Possiamo",
+          "dividere"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «Possiamo dividere i compiti.», what happens next in «Un progetto di classe: ascolta»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
         "options": [
-          "Possiamo dividere i compiti.",
-          "Parliamo di progetto.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "piace",
+          "progetto",
+          "domani",
+          "compiti"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «Un progetto di classe: ascolta»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
         "options": [
-          "Possiamo dividere i compiti.",
-          "Parliamo di progetto.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "piace",
+          "domani",
+          "comunità",
+          "compiti"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «Un progetto di classe: ascolta» after «Mi piace imparare con la comunità.»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
         "options": [
-          "Possiamo dividere i compiti.",
-          "Parliamo di progetto.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "piace",
+          "Possiamo",
+          "dividere",
+          "pratica"
         ]
       }
     ]
@@ -41529,12 +41549,12 @@
       {
         "id": "italian-b1-relazioni-e-comunicazione-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Relazioni e comunicazione»?",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“Elisa non cerca una risposta perfetta: vuole un modo responsabile per migliorare la situazione e imparare _____.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Relazioni e comunicazione",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "dall'esperienza",
+          "responsabile",
+          "distinguere",
+          "discussione"
         ]
       }
     ]
@@ -41628,34 +41648,34 @@
       {
         "id": "italian-b2-cittadinanza-attiva-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Cittadinanza attiva · Lettura»?",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“La discussione non cerca una risposta unica: mette in relazione _____, limiti e possibili soluzioni.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Cittadinanza attiva · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "prospettive",
+          "discussione",
+          "conseguenze",
+          "Cittadinanza"
         ]
       },
       {
         "id": "italian-b2-cittadinanza-attiva-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Cittadinanza attiva · Lettura»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“_____ fine, il gruppo formula una sintesi condivisa.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Cittadinanza attiva · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Ogni",
+          "fine",
+          "deve",
+          "Alla"
         ]
       },
       {
         "id": "italian-b2-cittadinanza-attiva-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Cittadinanza attiva · Lettura»?",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“La proposta deve _____ chiara, realizzabile e rispettosa dei diversi punti di vista.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Cittadinanza attiva · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "essere",
+          "modulo",
+          "attiva",
+          "gruppo"
         ]
       }
     ]
@@ -41749,34 +41769,34 @@
       {
         "id": "italian-c1-letteratura-e-voce-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Letteratura e voce · Lettura»?",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“La discussione non cerca una risposta unica: mette in relazione _____, limiti e possibili soluzioni.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Letteratura e voce · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Letteratura",
+          "prospettive",
+          "conseguenze",
+          "discussione"
         ]
       },
       {
         "id": "italian-c1-letteratura-e-voce-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Letteratura e voce · Lettura»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“_____ fine, il gruppo formula una sintesi condivisa.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Letteratura e voce · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "voce",
+          "tono",
+          "Ogni",
+          "Alla"
         ]
       },
       {
         "id": "italian-c1-letteratura-e-voce-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Letteratura e voce · Lettura»?",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“La proposta deve _____ chiara, realizzabile e rispettosa dei diversi punti di vista.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Letteratura e voce · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "essere",
+          "modulo",
+          "gruppo",
+          "limiti"
         ]
       }
     ]
@@ -41870,34 +41890,34 @@
       {
         "id": "italian-c2-mediazione-interculturale-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Mediazione interculturale · Lettura»?",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“La discussione non cerca una risposta unica: mette in relazione _____, limiti e possibili soluzioni.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Mediazione interculturale · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "prospettive",
+          "discussione",
+          "conseguenze",
+          "Mediazione"
         ]
       },
       {
         "id": "italian-c2-mediazione-interculturale-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Mediazione interculturale · Lettura»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“_____ fine, il gruppo formula una sintesi condivisa.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Mediazione interculturale · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Ogni",
+          "fine",
+          "deve",
+          "Alla"
         ]
       },
       {
         "id": "italian-c2-mediazione-interculturale-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Mediazione interculturale · Lettura»?",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“La proposta deve _____ chiara, realizzabile e rispettosa dei diversi punti di vista.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Mediazione interculturale · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "essere",
+          "modulo",
+          "gruppo",
+          "limiti"
         ]
       }
     ]
@@ -41912,7 +41932,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 110,
-    "estimatedMinutes": 8,
+    "estimatedMinutes": 10,
     "description": "Sabores regionales sin estereotipos",
     "intro": "Sabores regionales sin estereotipos",
     "mission": "",
@@ -41923,61 +41943,63 @@
     "reading": {
       "title": "Sapori d'Italia",
       "parts": [
-        "Sofia è em Bologna. Hoje descobre sabores regionales sin estereotipos. Encontra Marco e diz: “Mi piace questa zuppa.”. Os dois falam com respeito e aprendem quatro palavras novas: pane, zuppa, formaggio e gusto.",
-        "Marco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.",
-        "Al final, Sofia scrive una nota: “Mi piace questa zuppa.”."
+        "Oggi Sofia è a Bologna. Incontra Marco nel suo quartiere e lo saluta con un sorriso. I due parlano lentamente e si ascoltano con attenzione. Sofia vuole usare l'italiano in una situazione vera, quindi prova una frase semplice e Marco le risponde con gentilezza.",
+        "Durante la conversazione usano parole utili della lezione: parole semplici. Marco fa una domanda e Sofia risponde senza fretta. Se non capisce una parola, chiede: «Puoi ripetere, per favore?». Poi ripetono insieme le parole più importanti e trovano un piccolo esempio per ciascuna.",
+        "Prima di tornare a casa, Sofia ringrazia Marco. Dice che ascoltare, parlare e ripetere la aiuta a sentirsi più sicura. Marco è d'accordo e propone di incontrarsi di nuovo domani. Sofia torna a casa contenta e scrive nel suo quaderno le nuove parole della giornata."
       ],
       "questions": [
-        "Dove è Sofia?",
+        "Dove si trova Sofia?",
         "Con chi parla Sofia?",
-        "Quale frase usa Sofia?",
-        "Perché l’esperienza è importante?"
+        "Che cosa fa Sofia se non capisce una parola?",
+        "Perché Sofia ripete le parole?"
       ],
-      "text": "Sofia è em Bologna. Hoje descobre sabores regionales sin estereotipos. Encontra Marco e diz: “Mi piace questa zuppa.”. Os dois falam com respeito e aprendem quatro palavras novas: pane, zuppa, formaggio e gusto.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.\n\nAl final, Sofia scrive una nota: “Mi piace questa zuppa.”."
+      "text": "Oggi Sofia è a Bologna. Incontra Marco nel suo quartiere e lo saluta con un sorriso. I due parlano lentamente e si ascoltano con attenzione. Sofia vuole usare l'italiano in una situazione vera, quindi prova una frase semplice e Marco le risponde con gentilezza.\n\nDurante la conversazione usano parole utili della lezione: parole semplici. Marco fa una domanda e Sofia risponde senza fretta. Se non capisce una parola, chiede: «Puoi ripetere, per favore?». Poi ripetono insieme le parole più importanti e trovano un piccolo esempio per ciascuna.\n\nPrima di tornare a casa, Sofia ringrazia Marco. Dice che ascoltare, parlare e ripetere la aiuta a sentirsi più sicura. Marco è d'accordo e propone di incontrarsi di nuovo domani. Sofia torna a casa contenta e scrive nel suo quaderno le nuove parole della giornata."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
+        "id": "italian-a1-sapori-d-italia-reading-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Che cosa pratica l’unità?",
+        "prompt": "Dove si trova Sofia?",
         "options": [
-          "expresar preferencias",
-          "Una regola isolata",
-          "Un esame tecnico",
-          "Un tema senza contesto"
+          "Bologna",
+          "Roma",
+          "Milano",
+          "Napoli"
         ]
       },
       {
+        "id": "italian-a1-sapori-d-italia-reading-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Che cosa fa lo studente?",
+        "prompt": "Con chi parla Sofia?",
         "options": [
-          "expresar preferencias",
-          "Memorizza senza usare",
-          "Evita di parlare",
-          "Traduce soltanto"
+          "Marco",
+          "Lucia",
+          "Paolo",
+          "Anna"
         ]
       },
       {
-        "id": "italian-a1-sapori-d-italia-reading-comprehension-3",
+        "id": "italian-a1-sapori-d-italia-reading-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Sapori d'Italia»?",
+        "prompt": "Che cosa fa Sofia se non capisce una parola?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Sapori d'Italia",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Chiede di ripetere",
+          "Va via subito",
+          "Non ascolta",
+          "Cambia città"
         ]
       },
       {
-        "id": "italian-a1-sapori-d-italia-reading-comprehension-4",
+        "id": "italian-a1-sapori-d-italia-reading-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Sapori d'Italia»?",
+        "prompt": "Perché Sofia ripete le parole?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Sapori d'Italia",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Per sentirsi più sicura",
+          "Per fare un esame tecnico",
+          "Per comprare un biglietto",
+          "Per evitare Marco"
         ]
       }
     ]
@@ -42041,34 +42063,34 @@
       {
         "id": "italian-a2-ambiente-e-citta-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Ambiente e città»?",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“e spiega perché questa experiência è _____ per il quartiere.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Ambiente e città",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "ascoltando",
+          "reciclaje",
+          "importante",
+          "movilidad"
         ]
       },
       {
         "id": "italian-a2-ambiente-e-citta-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Ambiente e città»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“La conversazione mostra che la cultura si impara ascoltando e _____.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Ambiente e città",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "experiência",
+          "conversazione",
+          "importante",
+          "partecipando"
         ]
       },
       {
         "id": "italian-a2-ambiente-e-citta-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Ambiente e città»?",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“Al final, Sofia scrive una nota: “Vorrei usare meno _____.”.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Ambiente e città",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "plastica",
+          "Bologna",
+          "reciclaje",
+          "movilidad"
         ]
       }
     ]
@@ -42421,92 +42443,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Relazioni e comunicazione: parole»?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Relazioni e comunicazione», un piccolo gruppo della comunità parla di relazione, ascoltare e _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Relazioni e comunicazione», un piccolo gruppo della comunità parla di relazione, ascoltare e spiegare."
+                "text": "spiegare"
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "comunicazione"
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "un'esperienza"
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "parla"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «Nel tema «Relazioni e comunicazione», un piccolo gruppo della comunità…» in «Relazioni e comunicazione: parole»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Relazioni e comunicazione», un piccolo gruppo della comunità parla di relazione, ascoltare e spiegare."
+                "text": "comunicazione"
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "persona"
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "un'esperienza"
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "collaborare"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Relazioni e comunicazione: parole»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Relazioni e comunicazione», un piccolo gruppo della comunità parla di relazione, ascoltare e spiegare."
+                "text": "comunicazione"
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "un'esperienza"
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "perché"
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "collaborare"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Relazioni e comunicazione: parole»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Relazioni e comunicazione», un piccolo gruppo della comunità parla di relazione, ascoltare e spiegare."
+                "text": "comunicazione"
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "un'esperienza"
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "collaborare"
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "gruppo"
               }
             ]
           }
@@ -42517,42 +42539,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Relazioni e comunicazione: parole»?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Relazioni e comunicazione», un piccolo gruppo della comunità parla di relazione, ascoltare e _____.”",
         "options": [
-          "Nel tema «Relazioni e comunicazione», un piccolo gruppo della comunità parla di relazione, ascoltare e spiegare.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "spiegare",
+          "comunicazione",
+          "un'esperienza",
+          "parla"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «Nel tema «Relazioni e comunicazione», un piccolo gruppo della comunità…» in «Relazioni e comunicazione: parole»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
         "options": [
-          "Nel tema «Relazioni e comunicazione», un piccolo gruppo della comunità parla di relazione, ascoltare e spiegare.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "comunicazione",
+          "persona",
+          "un'esperienza",
+          "collaborare"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Relazioni e comunicazione: parole»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
         "options": [
-          "Nel tema «Relazioni e comunicazione», un piccolo gruppo della comunità parla di relazione, ascoltare e spiegare.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "comunicazione",
+          "un'esperienza",
+          "perché",
+          "collaborare"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Relazioni e comunicazione: parole»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
         "options": [
-          "Nel tema «Relazioni e comunicazione», un piccolo gruppo della comunità parla di relazione, ascoltare e spiegare.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "comunicazione",
+          "un'esperienza",
+          "collaborare",
+          "gruppo"
         ]
       }
     ]
@@ -42847,92 +42869,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Cittadinanza attiva · Ascolto»?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Cittadinanza attiva, due partecipanti mettono a confronto le loro _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Cittadinanza attiva, due partecipanti mettono a confronto le loro posizioni."
+                "text": "posizioni"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che quartiere è utile solo se viene spiegato con esempi verificabili."
+                "text": "Cittadinanza"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: partecipare può cambiare la prospettiva di chi ascolta."
+                "text": "attiva"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "partecipanti"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In questa puntata dedicata a Cittadinanza attiva, due partecipanti…» in «Cittadinanza attiva · Ascolto»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che quartiere è utile solo se viene spiegato con esempi verificabili.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Cittadinanza attiva, due partecipanti mettono a confronto le loro posizioni."
+                "text": "Cittadinanza"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che quartiere è utile solo se viene spiegato con esempi verificabili."
+                "text": "aggiunge"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: partecipare può cambiare la prospettiva di chi ascolta."
+                "text": "partecipanti"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "isolatamente"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Cittadinanza attiva · Ascolto»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: partecipare può cambiare la prospettiva di chi ascolta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Cittadinanza attiva, due partecipanti mettono a confronto le loro posizioni."
+                "text": "Cittadinanza"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che quartiere è utile solo se viene spiegato con esempi verificabili."
+                "text": "attiva"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: partecipare può cambiare la prospettiva di chi ascolta."
+                "text": "possibile"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "partecipanti"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Cittadinanza attiva · Ascolto»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Cittadinanza attiva, due partecipanti mettono a confronto le loro posizioni."
+                "text": "Cittadinanza"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che quartiere è utile solo se viene spiegato con esempi verificabili."
+                "text": "partecipanti"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: partecipare può cambiare la prospettiva di chi ascolta."
+                "text": "isolatamente"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "scelte"
               }
             ]
           }
@@ -42952,42 +42974,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Cittadinanza attiva · Ascolto»?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Cittadinanza attiva, due partecipanti mettono a confronto le loro _____.”",
         "options": [
-          "In questa puntata dedicata a Cittadinanza attiva, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che quartiere è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: partecipare può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "posizioni",
+          "Cittadinanza",
+          "attiva",
+          "partecipanti"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In questa puntata dedicata a Cittadinanza attiva, due partecipanti…» in «Cittadinanza attiva · Ascolto»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che quartiere è utile solo se viene spiegato con esempi verificabili.”",
         "options": [
-          "In questa puntata dedicata a Cittadinanza attiva, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che quartiere è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: partecipare può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "Cittadinanza",
+          "aggiunge",
+          "partecipanti",
+          "isolatamente"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Cittadinanza attiva · Ascolto»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: partecipare può cambiare la prospettiva di chi ascolta.”",
         "options": [
-          "In questa puntata dedicata a Cittadinanza attiva, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che quartiere è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: partecipare può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "Cittadinanza",
+          "attiva",
+          "possibile",
+          "partecipanti"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Cittadinanza attiva · Ascolto»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
         "options": [
-          "In questa puntata dedicata a Cittadinanza attiva, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che quartiere è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: partecipare può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "Cittadinanza",
+          "partecipanti",
+          "isolatamente",
+          "scelte"
         ]
       }
     ]
@@ -43054,92 +43076,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Letteratura e voce · Ascolto»?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Letteratura e voce, due partecipanti mettono a confronto le loro _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Letteratura e voce, due partecipanti mettono a confronto le loro posizioni."
+                "text": "posizioni"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che tono è utile solo se viene spiegato con esempi verificabili."
+                "text": "partecipanti"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: metafora può cambiare la prospettiva di chi ascolta."
+                "text": "essere"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "isolatamente"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In questa puntata dedicata a Letteratura e voce, due partecipanti…» in «Letteratura e voce · Ascolto»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che tono è utile solo se viene spiegato con esempi verificabili.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Letteratura e voce, due partecipanti mettono a confronto le loro posizioni."
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che tono è utile solo se viene spiegato con esempi verificabili."
+                "text": "aggiunge"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: metafora può cambiare la prospettiva di chi ascolta."
+                "text": "isolatamente"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "verificabili"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Letteratura e voce · Ascolto»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: metafora può cambiare la prospettiva di chi ascolta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Letteratura e voce, due partecipanti mettono a confronto le loro posizioni."
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che tono è utile solo se viene spiegato con esempi verificabili."
+                "text": "essere"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: metafora può cambiare la prospettiva di chi ascolta."
+                "text": "possibile"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "isolatamente"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Letteratura e voce · Ascolto»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Letteratura e voce, due partecipanti mettono a confronto le loro posizioni."
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che tono è utile solo se viene spiegato con esempi verificabili."
+                "text": "isolatamente"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: metafora può cambiare la prospettiva di chi ascolta."
+                "text": "verificabili"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "scelte"
               }
             ]
           }
@@ -43159,42 +43181,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Letteratura e voce · Ascolto»?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Letteratura e voce, due partecipanti mettono a confronto le loro _____.”",
         "options": [
-          "In questa puntata dedicata a Letteratura e voce, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che tono è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: metafora può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "posizioni",
+          "partecipanti",
+          "essere",
+          "isolatamente"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In questa puntata dedicata a Letteratura e voce, due partecipanti…» in «Letteratura e voce · Ascolto»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che tono è utile solo se viene spiegato con esempi verificabili.”",
         "options": [
-          "In questa puntata dedicata a Letteratura e voce, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che tono è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: metafora può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "partecipanti",
+          "aggiunge",
+          "isolatamente",
+          "verificabili"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Letteratura e voce · Ascolto»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: metafora può cambiare la prospettiva di chi ascolta.”",
         "options": [
-          "In questa puntata dedicata a Letteratura e voce, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che tono è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: metafora può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "partecipanti",
+          "essere",
+          "possibile",
+          "isolatamente"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Letteratura e voce · Ascolto»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
         "options": [
-          "In questa puntata dedicata a Letteratura e voce, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che tono è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: metafora può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "partecipanti",
+          "isolatamente",
+          "verificabili",
+          "scelte"
         ]
       }
     ]
@@ -43261,92 +43283,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Mediazione interculturale · Ascolto»?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Mediazione interculturale, due partecipanti mettono a confronto le loro _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Mediazione interculturale, due partecipanti mettono a confronto le loro posizioni."
+                "text": "posizioni"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che contesto è utile solo se viene spiegato con esempi verificabili."
+                "text": "interculturale"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: equivoco può cambiare la prospettiva di chi ascolta."
+                "text": "partecipanti"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "essere"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In questa puntata dedicata a Mediazione interculturale, due…» in «Mediazione interculturale · Ascolto»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che contesto è utile solo se viene spiegato con esempi verificabili.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Mediazione interculturale, due partecipanti mettono a confronto le loro posizioni."
+                "text": "interculturale"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che contesto è utile solo se viene spiegato con esempi verificabili."
+                "text": "aggiunge"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: equivoco può cambiare la prospettiva di chi ascolta."
+                "text": "partecipanti"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "isolatamente"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Mediazione interculturale · Ascolto»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: equivoco può cambiare la prospettiva di chi ascolta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Mediazione interculturale, due partecipanti mettono a confronto le loro posizioni."
+                "text": "interculturale"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che contesto è utile solo se viene spiegato con esempi verificabili."
+                "text": "partecipanti"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: equivoco può cambiare la prospettiva di chi ascolta."
+                "text": "possibile"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "essere"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Mediazione interculturale · Ascolto»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Mediazione interculturale, due partecipanti mettono a confronto le loro posizioni."
+                "text": "interculturale"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che contesto è utile solo se viene spiegato con esempi verificabili."
+                "text": "partecipanti"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: equivoco può cambiare la prospettiva di chi ascolta."
+                "text": "isolatamente"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "scelte"
               }
             ]
           }
@@ -43366,42 +43388,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Mediazione interculturale · Ascolto»?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Mediazione interculturale, due partecipanti mettono a confronto le loro _____.”",
         "options": [
-          "In questa puntata dedicata a Mediazione interculturale, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che contesto è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: equivoco può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "posizioni",
+          "interculturale",
+          "partecipanti",
+          "essere"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In questa puntata dedicata a Mediazione interculturale, due…» in «Mediazione interculturale · Ascolto»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che contesto è utile solo se viene spiegato con esempi verificabili.”",
         "options": [
-          "In questa puntata dedicata a Mediazione interculturale, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che contesto è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: equivoco può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "interculturale",
+          "aggiunge",
+          "partecipanti",
+          "isolatamente"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Mediazione interculturale · Ascolto»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: equivoco può cambiare la prospettiva di chi ascolta.”",
         "options": [
-          "In questa puntata dedicata a Mediazione interculturale, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che contesto è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: equivoco può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "interculturale",
+          "partecipanti",
+          "possibile",
+          "essere"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Mediazione interculturale · Ascolto»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
         "options": [
-          "In questa puntata dedicata a Mediazione interculturale, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che contesto è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: equivoco può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "interculturale",
+          "partecipanti",
+          "isolatamente",
+          "scelte"
         ]
       }
     ]
@@ -43459,92 +43481,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «Sapori d'Italia: ascolta», which detail establishes the situation?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“Mi piace questa _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Mi piace questa zuppa."
+                "text": "zuppa"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di pane."
+                "text": "Parliamo"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "imparare"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "comunità"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «Mi piace questa zuppa.», what happens next in «Sapori d'Italia: ascolta»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“_____ di pane.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Mi piace questa zuppa."
+                "text": "piace"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di pane."
+                "text": "Parliamo"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "zuppa"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "domani"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «Sapori d'Italia: ascolta»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Mi piace questa zuppa."
+                "text": "piace"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di pane."
+                "text": "zuppa"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "comunità"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "domani"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «Sapori d'Italia: ascolta» after «Mi piace imparare con la comunità.»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Mi piace questa zuppa."
+                "text": "pane"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di pane."
+                "text": "piace"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "zuppa"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "pratica"
               }
             ]
           }
@@ -43555,42 +43577,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «Sapori d'Italia: ascolta», which detail establishes the situation?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“Mi piace questa _____.”",
         "options": [
-          "Mi piace questa zuppa.",
-          "Parliamo di pane.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "zuppa",
+          "Parliamo",
+          "imparare",
+          "comunità"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «Mi piace questa zuppa.», what happens next in «Sapori d'Italia: ascolta»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“_____ di pane.”",
         "options": [
-          "Mi piace questa zuppa.",
-          "Parliamo di pane.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "piace",
+          "Parliamo",
+          "zuppa",
+          "domani"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «Sapori d'Italia: ascolta»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
         "options": [
-          "Mi piace questa zuppa.",
-          "Parliamo di pane.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "piace",
+          "zuppa",
+          "comunità",
+          "domani"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «Sapori d'Italia: ascolta» after «Mi piace imparare con la comunità.»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
         "options": [
-          "Mi piace questa zuppa.",
-          "Parliamo di pane.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "pane",
+          "piace",
+          "zuppa",
+          "pratica"
         ]
       }
     ]
@@ -43648,92 +43670,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «Ambiente e città: ascolta», which detail establishes the situation?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“Vorrei usare meno _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Vorrei usare meno plastica."
+                "text": "plastica"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di rifiuti."
+                "text": "usare"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "piace"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "Vorrei"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «Vorrei usare meno plastica.», what happens next in «Ambiente e città: ascolta»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Vorrei usare meno plastica."
+                "text": "meno"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di rifiuti."
+                "text": "rifiuti"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "usare"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "piace"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «Ambiente e città: ascolta»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Vorrei usare meno plastica."
+                "text": "usare"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di rifiuti."
+                "text": "piace"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "comunità"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "Vorrei"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «Ambiente e città: ascolta» after «Mi piace imparare con la comunità.»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Vorrei usare meno plastica."
+                "text": "meno"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di rifiuti."
+                "text": "usare"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "piace"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "pratica"
               }
             ]
           }
@@ -43744,42 +43766,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «Ambiente e città: ascolta», which detail establishes the situation?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“Vorrei usare meno _____.”",
         "options": [
-          "Vorrei usare meno plastica.",
-          "Parliamo di rifiuti.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "plastica",
+          "usare",
+          "piace",
+          "Vorrei"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «Vorrei usare meno plastica.», what happens next in «Ambiente e città: ascolta»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
         "options": [
-          "Vorrei usare meno plastica.",
-          "Parliamo di rifiuti.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "meno",
+          "rifiuti",
+          "usare",
+          "piace"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «Ambiente e città: ascolta»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
         "options": [
-          "Vorrei usare meno plastica.",
-          "Parliamo di rifiuti.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "usare",
+          "piace",
+          "comunità",
+          "Vorrei"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «Ambiente e città: ascolta» after «Mi piace imparare con la comunità.»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
         "options": [
-          "Vorrei usare meno plastica.",
-          "Parliamo di rifiuti.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "meno",
+          "usare",
+          "piace",
+          "pratica"
         ]
       }
     ]
@@ -45627,12 +45649,12 @@
       {
         "id": "italian-b1-cittadinanza-e-partecipazione-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Cittadinanza e partecipazione»?",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“Elisa non cerca una risposta perfetta: vuole un modo responsabile per migliorare la situazione e imparare _____.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Cittadinanza e partecipazione",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "dall'esperienza",
+          "responsabile",
+          "partecipare",
+          "distinguere"
         ]
       }
     ]
@@ -45726,34 +45748,34 @@
       {
         "id": "italian-b2-bilanci-e-prospettive-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Bilanci e prospettive · Lettura»?",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“La discussione non cerca una risposta unica: mette in relazione _____, limiti e possibili soluzioni.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Bilanci e prospettive · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "prospettive",
+          "discussione",
+          "conseguenze",
+          "partecipante"
         ]
       },
       {
         "id": "italian-b2-bilanci-e-prospettive-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Bilanci e prospettive · Lettura»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“_____ fine, il gruppo formula una sintesi condivisa.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Bilanci e prospettive · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Ogni",
+          "fine",
+          "deve",
+          "Alla"
         ]
       },
       {
         "id": "italian-b2-bilanci-e-prospettive-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Bilanci e prospettive · Lettura»?",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“La proposta deve _____ chiara, realizzabile e rispettosa dei diversi punti di vista.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Bilanci e prospettive · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "essere",
+          "modulo",
+          "gruppo",
+          "limiti"
         ]
       }
     ]
@@ -45847,34 +45869,34 @@
       {
         "id": "italian-c1-progetto-personale-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Progetto personale · Lettura»?",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“La discussione non cerca una risposta unica: mette in relazione _____, limiti e possibili soluzioni.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Progetto personale · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "prospettive",
+          "discussione",
+          "conseguenze",
+          "partecipante"
         ]
       },
       {
         "id": "italian-c1-progetto-personale-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Progetto personale · Lettura»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“_____ fine, il gruppo formula una sintesi condivisa.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Progetto personale · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Ogni",
+          "fine",
+          "deve",
+          "Alla"
         ]
       },
       {
         "id": "italian-c1-progetto-personale-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Progetto personale · Lettura»?",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“La proposta deve _____ chiara, realizzabile e rispettosa dei diversi punti di vista.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Progetto personale · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "essere",
+          "modulo",
+          "gruppo",
+          "limiti"
         ]
       }
     ]
@@ -45968,34 +45990,34 @@
       {
         "id": "italian-c2-sintesi-e-proposta-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Sintesi e proposta · Lettura»?",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“La discussione non cerca una risposta unica: mette in relazione _____, limiti e possibili soluzioni.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Sintesi e proposta · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "prospettive",
+          "discussione",
+          "conseguenze",
+          "partecipante"
         ]
       },
       {
         "id": "italian-c2-sintesi-e-proposta-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Sintesi e proposta · Lettura»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“_____ fine, il gruppo formula una sintesi condivisa.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Sintesi e proposta · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Ogni",
+          "fine",
+          "deve",
+          "Alla"
         ]
       },
       {
         "id": "italian-c2-sintesi-e-proposta-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Sintesi e proposta · Lettura»?",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“La proposta deve _____ chiara, realizzabile e rispettosa dei diversi punti di vista.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Sintesi e proposta · Lettura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "essere",
+          "modulo",
+          "gruppo",
+          "limiti"
         ]
       }
     ]
@@ -46010,7 +46032,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 120,
-    "estimatedMinutes": 8,
+    "estimatedMinutes": 10,
     "description": "Contar una experiencia sencilla",
     "intro": "Contar una experiencia sencilla",
     "mission": "",
@@ -46021,61 +46043,63 @@
     "reading": {
       "title": "Un messaggio a casa",
       "parts": [
-        "Sofia è em Bologna. Hoje descobre contar una experiencia sencilla. Encontra Marco e diz: “Oggi ho imparato molto.”. Os dois falam com respeito e aprendem quatro palavras novas: oggi, domani, casa e esperienza.",
-        "Marco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.",
-        "Al final, Sofia scrive una nota: “Oggi ho imparato molto.”."
+        "Oggi Sofia è a Bologna. Incontra Marco nel suo quartiere e lo saluta con un sorriso. I due parlano lentamente e si ascoltano con attenzione. Sofia vuole usare l'italiano in una situazione vera, quindi prova una frase semplice e Marco le risponde con gentilezza.",
+        "Durante la conversazione usano parole utili della lezione: parole semplici. Marco fa una domanda e Sofia risponde senza fretta. Se non capisce una parola, chiede: «Puoi ripetere, per favore?». Poi ripetono insieme le parole più importanti e trovano un piccolo esempio per ciascuna.",
+        "Prima di tornare a casa, Sofia ringrazia Marco. Dice che ascoltare, parlare e ripetere la aiuta a sentirsi più sicura. Marco è d'accordo e propone di incontrarsi di nuovo domani. Sofia torna a casa contenta e scrive nel suo quaderno le nuove parole della giornata."
       ],
       "questions": [
-        "Dove è Sofia?",
+        "Dove si trova Sofia?",
         "Con chi parla Sofia?",
-        "Quale frase usa Sofia?",
-        "Perché l’esperienza è importante?"
+        "Che cosa fa Sofia se non capisce una parola?",
+        "Perché Sofia ripete le parole?"
       ],
-      "text": "Sofia è em Bologna. Hoje descobre contar una experiencia sencilla. Encontra Marco e diz: “Oggi ho imparato molto.”. Os dois falam com respeito e aprendem quatro palavras novas: oggi, domani, casa e esperienza.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.\n\nAl final, Sofia scrive una nota: “Oggi ho imparato molto.”."
+      "text": "Oggi Sofia è a Bologna. Incontra Marco nel suo quartiere e lo saluta con un sorriso. I due parlano lentamente e si ascoltano con attenzione. Sofia vuole usare l'italiano in una situazione vera, quindi prova una frase semplice e Marco le risponde con gentilezza.\n\nDurante la conversazione usano parole utili della lezione: parole semplici. Marco fa una domanda e Sofia risponde senza fretta. Se non capisce una parola, chiede: «Puoi ripetere, per favore?». Poi ripetono insieme le parole più importanti e trovano un piccolo esempio per ciascuna.\n\nPrima di tornare a casa, Sofia ringrazia Marco. Dice che ascoltare, parlare e ripetere la aiuta a sentirsi più sicura. Marco è d'accordo e propone di incontrarsi di nuovo domani. Sofia torna a casa contenta e scrive nel suo quaderno le nuove parole della giornata."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
+        "id": "italian-a1-un-messaggio-a-casa-reading-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Che cosa pratica l’unità?",
+        "prompt": "Dove si trova Sofia?",
         "options": [
-          "escribir un mensaje breve",
-          "Una regola isolata",
-          "Un esame tecnico",
-          "Un tema senza contesto"
+          "Bologna",
+          "Roma",
+          "Milano",
+          "Napoli"
         ]
       },
       {
+        "id": "italian-a1-un-messaggio-a-casa-reading-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Che cosa fa lo studente?",
+        "prompt": "Con chi parla Sofia?",
         "options": [
-          "escribir un mensaje breve",
-          "Memorizza senza usare",
-          "Evita di parlare",
-          "Traduce soltanto"
+          "Marco",
+          "Lucia",
+          "Paolo",
+          "Anna"
         ]
       },
       {
-        "id": "italian-a1-un-messaggio-a-casa-reading-comprehension-3",
+        "id": "italian-a1-un-messaggio-a-casa-reading-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Un messaggio a casa»?",
+        "prompt": "Che cosa fa Sofia se non capisce una parola?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Un messaggio a casa",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Chiede di ripetere",
+          "Va via subito",
+          "Non ascolta",
+          "Cambia città"
         ]
       },
       {
-        "id": "italian-a1-un-messaggio-a-casa-reading-comprehension-4",
+        "id": "italian-a1-un-messaggio-a-casa-reading-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Un messaggio a casa»?",
+        "prompt": "Perché Sofia ripete le parole?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Un messaggio a casa",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Per sentirsi più sicura",
+          "Per fare un esame tecnico",
+          "Per comprare un biglietto",
+          "Per evitare Marco"
         ]
       }
     ]
@@ -46139,34 +46163,34 @@
       {
         "id": "italian-a2-raccontare-il-proprio-viaggio-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Raccontare il proprio viaggio»?",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“e spiega perché questa experiência è _____ per il quartiere.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Raccontare il proprio viaggio",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "ascoltando",
+          "experiencia",
+          "importante",
+          "experiência"
         ]
       },
       {
         "id": "italian-a2-raccontare-il-proprio-viaggio-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Raccontare il proprio viaggio»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“La conversazione mostra che la cultura si impara ascoltando e _____.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Raccontare il proprio viaggio",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "experiencia",
+          "experiência",
+          "conversazione",
+          "partecipando"
         ]
       },
       {
         "id": "italian-a2-raccontare-il-proprio-viaggio-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Raccontare il proprio viaggio»?",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“Al final, Sofia scrive una nota: “È stato un viaggio _____.”.”",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Raccontare il proprio viaggio",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "importante",
+          "ascoltando",
+          "experiencia",
+          "experiência"
         ]
       }
     ]
@@ -46519,92 +46543,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Cittadinanza e partecipazione: parole»?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Cittadinanza e partecipazione», un piccolo gruppo della comunità parla di cittadinanza, partecipare e _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Cittadinanza e partecipazione», un piccolo gruppo della comunità parla di cittadinanza, partecipare e diritto."
+                "text": "diritto"
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "partecipazione"
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "un'esperienza"
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "Cittadinanza"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «Nel tema «Cittadinanza e partecipazione», un piccolo gruppo della…» in «Cittadinanza e partecipazione: parole»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Cittadinanza e partecipazione», un piccolo gruppo della comunità parla di cittadinanza, partecipare e diritto."
+                "text": "partecipazione"
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "persona"
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "un'esperienza"
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "Cittadinanza"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Cittadinanza e partecipazione: parole»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Cittadinanza e partecipazione», un piccolo gruppo della comunità parla di cittadinanza, partecipare e diritto."
+                "text": "partecipazione"
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "un'esperienza"
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "perché"
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "Cittadinanza"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Cittadinanza e partecipazione: parole»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Nel tema «Cittadinanza e partecipazione», un piccolo gruppo della comunità parla di cittadinanza, partecipare e diritto."
+                "text": "partecipazione"
               },
               {
                 "id": "o2",
-                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
+                "text": "un'esperienza"
               },
               {
                 "id": "o3",
-                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
+                "text": "Cittadinanza"
               },
               {
                 "id": "o4",
-                "text": "Poi il gruppo riassume le idee più importanti."
+                "text": "gruppo"
               }
             ]
           }
@@ -46615,42 +46639,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Cittadinanza e partecipazione: parole»?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Cittadinanza e partecipazione», un piccolo gruppo della comunità parla di cittadinanza, partecipare e _____.”",
         "options": [
-          "Nel tema «Cittadinanza e partecipazione», un piccolo gruppo della comunità parla di cittadinanza, partecipare e diritto.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "diritto",
+          "partecipazione",
+          "un'esperienza",
+          "Cittadinanza"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «Nel tema «Cittadinanza e partecipazione», un piccolo gruppo della…» in «Cittadinanza e partecipazione: parole»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
         "options": [
-          "Nel tema «Cittadinanza e partecipazione», un piccolo gruppo della comunità parla di cittadinanza, partecipare e diritto.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "partecipazione",
+          "persona",
+          "un'esperienza",
+          "Cittadinanza"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Cittadinanza e partecipazione: parole»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
         "options": [
-          "Nel tema «Cittadinanza e partecipazione», un piccolo gruppo della comunità parla di cittadinanza, partecipare e diritto.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "partecipazione",
+          "un'esperienza",
+          "perché",
+          "Cittadinanza"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Cittadinanza e partecipazione: parole»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
         "options": [
-          "Nel tema «Cittadinanza e partecipazione», un piccolo gruppo della comunità parla di cittadinanza, partecipare e diritto.",
-          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
-          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-          "Poi il gruppo riassume le idee più importanti."
+          "partecipazione",
+          "un'esperienza",
+          "Cittadinanza",
+          "gruppo"
         ]
       }
     ]
@@ -46945,92 +46969,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Bilanci e prospettive · Ascolto»?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Bilanci e prospettive, due partecipanti mettono a confronto le loro _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Bilanci e prospettive, due partecipanti mettono a confronto le loro posizioni."
+                "text": "posizioni"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che ostacolo è utile solo se viene spiegato con esempi verificabili."
+                "text": "partecipanti"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: percorso può cambiare la prospettiva di chi ascolta."
+                "text": "essere"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "isolatamente"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In questa puntata dedicata a Bilanci e prospettive, due partecipanti…» in «Bilanci e prospettive · Ascolto»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che ostacolo è utile solo se viene spiegato con esempi verificabili.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Bilanci e prospettive, due partecipanti mettono a confronto le loro posizioni."
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che ostacolo è utile solo se viene spiegato con esempi verificabili."
+                "text": "aggiunge"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: percorso può cambiare la prospettiva di chi ascolta."
+                "text": "isolatamente"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "verificabili"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Bilanci e prospettive · Ascolto»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: percorso può cambiare la prospettiva di chi ascolta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Bilanci e prospettive, due partecipanti mettono a confronto le loro posizioni."
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che ostacolo è utile solo se viene spiegato con esempi verificabili."
+                "text": "essere"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: percorso può cambiare la prospettiva di chi ascolta."
+                "text": "possibile"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "isolatamente"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Bilanci e prospettive · Ascolto»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Bilanci e prospettive, due partecipanti mettono a confronto le loro posizioni."
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che ostacolo è utile solo se viene spiegato con esempi verificabili."
+                "text": "isolatamente"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: percorso può cambiare la prospettiva di chi ascolta."
+                "text": "verificabili"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "scelte"
               }
             ]
           }
@@ -47050,42 +47074,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Bilanci e prospettive · Ascolto»?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Bilanci e prospettive, due partecipanti mettono a confronto le loro _____.”",
         "options": [
-          "In questa puntata dedicata a Bilanci e prospettive, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che ostacolo è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: percorso può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "posizioni",
+          "partecipanti",
+          "essere",
+          "isolatamente"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In questa puntata dedicata a Bilanci e prospettive, due partecipanti…» in «Bilanci e prospettive · Ascolto»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che ostacolo è utile solo se viene spiegato con esempi verificabili.”",
         "options": [
-          "In questa puntata dedicata a Bilanci e prospettive, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che ostacolo è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: percorso può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "partecipanti",
+          "aggiunge",
+          "isolatamente",
+          "verificabili"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Bilanci e prospettive · Ascolto»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: percorso può cambiare la prospettiva di chi ascolta.”",
         "options": [
-          "In questa puntata dedicata a Bilanci e prospettive, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che ostacolo è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: percorso può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "partecipanti",
+          "essere",
+          "possibile",
+          "isolatamente"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Bilanci e prospettive · Ascolto»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
         "options": [
-          "In questa puntata dedicata a Bilanci e prospettive, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che ostacolo è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: percorso può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "partecipanti",
+          "isolatamente",
+          "verificabili",
+          "scelte"
         ]
       }
     ]
@@ -47152,92 +47176,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Progetto personale · Ascolto»?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Progetto personale, due partecipanti mettono a confronto le loro _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Progetto personale, due partecipanti mettono a confronto le loro posizioni."
+                "text": "posizioni"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che strategia è utile solo se viene spiegato con esempi verificabili."
+                "text": "partecipanti"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: risorsa può cambiare la prospettiva di chi ascolta."
+                "text": "essere"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "isolatamente"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In questa puntata dedicata a Progetto personale, due partecipanti…» in «Progetto personale · Ascolto»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che strategia è utile solo se viene spiegato con esempi verificabili.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Progetto personale, due partecipanti mettono a confronto le loro posizioni."
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che strategia è utile solo se viene spiegato con esempi verificabili."
+                "text": "aggiunge"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: risorsa può cambiare la prospettiva di chi ascolta."
+                "text": "isolatamente"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "verificabili"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Progetto personale · Ascolto»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: risorsa può cambiare la prospettiva di chi ascolta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Progetto personale, due partecipanti mettono a confronto le loro posizioni."
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che strategia è utile solo se viene spiegato con esempi verificabili."
+                "text": "essere"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: risorsa può cambiare la prospettiva di chi ascolta."
+                "text": "possibile"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "isolatamente"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Progetto personale · Ascolto»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Progetto personale, due partecipanti mettono a confronto le loro posizioni."
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che strategia è utile solo se viene spiegato con esempi verificabili."
+                "text": "isolatamente"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: risorsa può cambiare la prospettiva di chi ascolta."
+                "text": "verificabili"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "scelte"
               }
             ]
           }
@@ -47257,42 +47281,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Progetto personale · Ascolto»?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Progetto personale, due partecipanti mettono a confronto le loro _____.”",
         "options": [
-          "In questa puntata dedicata a Progetto personale, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che strategia è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: risorsa può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "posizioni",
+          "partecipanti",
+          "essere",
+          "isolatamente"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In questa puntata dedicata a Progetto personale, due partecipanti…» in «Progetto personale · Ascolto»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che strategia è utile solo se viene spiegato con esempi verificabili.”",
         "options": [
-          "In questa puntata dedicata a Progetto personale, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che strategia è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: risorsa può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "partecipanti",
+          "aggiunge",
+          "isolatamente",
+          "verificabili"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Progetto personale · Ascolto»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: risorsa può cambiare la prospettiva di chi ascolta.”",
         "options": [
-          "In questa puntata dedicata a Progetto personale, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che strategia è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: risorsa può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "partecipanti",
+          "essere",
+          "possibile",
+          "isolatamente"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Progetto personale · Ascolto»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
         "options": [
-          "In questa puntata dedicata a Progetto personale, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che strategia è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: risorsa può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "partecipanti",
+          "isolatamente",
+          "verificabili",
+          "scelte"
         ]
       }
     ]
@@ -47359,92 +47383,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Sintesi e proposta · Ascolto»?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Sintesi e proposta, due partecipanti mettono a confronto le loro _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Sintesi e proposta, due partecipanti mettono a confronto le loro posizioni."
+                "text": "posizioni"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che fonte è utile solo se viene spiegato con esempi verificabili."
+                "text": "partecipanti"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: priorità può cambiare la prospettiva di chi ascolta."
+                "text": "essere"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "isolatamente"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «In questa puntata dedicata a Sintesi e proposta, due partecipanti…» in «Sintesi e proposta · Ascolto»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che fonte è utile solo se viene spiegato con esempi verificabili.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Sintesi e proposta, due partecipanti mettono a confronto le loro posizioni."
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che fonte è utile solo se viene spiegato con esempi verificabili."
+                "text": "aggiunge"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: priorità può cambiare la prospettiva di chi ascolta."
+                "text": "isolatamente"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "verificabili"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Sintesi e proposta · Ascolto»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: priorità può cambiare la prospettiva di chi ascolta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Sintesi e proposta, due partecipanti mettono a confronto le loro posizioni."
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che fonte è utile solo se viene spiegato con esempi verificabili."
+                "text": "essere"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: priorità può cambiare la prospettiva di chi ascolta."
+                "text": "possibile"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "isolatamente"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Sintesi e proposta · Ascolto»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
             "options": [
               {
                 "id": "o1",
-                "text": "In questa puntata dedicata a Sintesi e proposta, due partecipanti mettono a confronto le loro posizioni."
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "L’altro aggiunge che fonte è utile solo se viene spiegato con esempi verificabili."
+                "text": "isolatamente"
               },
               {
                 "id": "o3",
-                "text": "Nel confronto emerge una possibile difficoltà: priorità può cambiare la prospettiva di chi ascolta."
+                "text": "verificabili"
               },
               {
                 "id": "o4",
-                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+                "text": "scelte"
               }
             ]
           }
@@ -47464,42 +47488,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Sintesi e proposta · Ascolto»?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Sintesi e proposta, due partecipanti mettono a confronto le loro _____.”",
         "options": [
-          "In questa puntata dedicata a Sintesi e proposta, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che fonte è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: priorità può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "posizioni",
+          "partecipanti",
+          "essere",
+          "isolatamente"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «In questa puntata dedicata a Sintesi e proposta, due partecipanti…» in «Sintesi e proposta · Ascolto»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che fonte è utile solo se viene spiegato con esempi verificabili.”",
         "options": [
-          "In questa puntata dedicata a Sintesi e proposta, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che fonte è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: priorità può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "partecipanti",
+          "aggiunge",
+          "isolatamente",
+          "verificabili"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Sintesi e proposta · Ascolto»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: priorità può cambiare la prospettiva di chi ascolta.”",
         "options": [
-          "In questa puntata dedicata a Sintesi e proposta, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che fonte è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: priorità può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "partecipanti",
+          "essere",
+          "possibile",
+          "isolatamente"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Sintesi e proposta · Ascolto»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
         "options": [
-          "In questa puntata dedicata a Sintesi e proposta, due partecipanti mettono a confronto le loro posizioni.",
-          "L’altro aggiunge che fonte è utile solo se viene spiegato con esempi verificabili.",
-          "Nel confronto emerge una possibile difficoltà: priorità può cambiare la prospettiva di chi ascolta.",
-          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
+          "partecipanti",
+          "isolatamente",
+          "verificabili",
+          "scelte"
         ]
       }
     ]
@@ -47557,92 +47581,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «Un messaggio a casa: ascolta», which detail establishes the situation?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“Oggi ho _____ molto.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Oggi ho imparato molto."
+                "text": "imparato"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di oggi."
+                "text": "molto"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "piace"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "domani"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «Oggi ho imparato molto.», what happens next in «Un messaggio a casa: ascolta»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“_____ di oggi.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Oggi ho imparato molto."
+                "text": "molto"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di oggi."
+                "text": "Parliamo"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "piace"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "domani"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «Un messaggio a casa: ascolta»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Oggi ho imparato molto."
+                "text": "molto"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di oggi."
+                "text": "piace"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "comunità"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "domani"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «Un messaggio a casa: ascolta» after «Mi piace imparare con la comunità.»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Oggi ho imparato molto."
+                "text": "Oggi"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di oggi."
+                "text": "molto"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "piace"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "pratica"
               }
             ]
           }
@@ -47653,42 +47677,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «Un messaggio a casa: ascolta», which detail establishes the situation?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“Oggi ho _____ molto.”",
         "options": [
-          "Oggi ho imparato molto.",
-          "Parliamo di oggi.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "imparato",
+          "molto",
+          "piace",
+          "domani"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «Oggi ho imparato molto.», what happens next in «Un messaggio a casa: ascolta»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“_____ di oggi.”",
         "options": [
-          "Oggi ho imparato molto.",
-          "Parliamo di oggi.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "molto",
+          "Parliamo",
+          "piace",
+          "domani"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «Un messaggio a casa: ascolta»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
         "options": [
-          "Oggi ho imparato molto.",
-          "Parliamo di oggi.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "molto",
+          "piace",
+          "comunità",
+          "domani"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «Un messaggio a casa: ascolta» after «Mi piace imparare con la comunità.»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
         "options": [
-          "Oggi ho imparato molto.",
-          "Parliamo di oggi.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "Oggi",
+          "molto",
+          "piace",
+          "pratica"
         ]
       }
     ]
@@ -47746,92 +47770,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «Raccontare il proprio viaggio: ascolta», which detail establishes the situation?",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“È stato un viaggio _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "È stato un viaggio importante."
+                "text": "importante"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di ricordo."
+                "text": "viaggio"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "ricordo"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "pratica"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «È stato un viaggio importante.», what happens next in «Raccontare il proprio viaggio: ascolta»?",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "È stato un viaggio importante."
+                "text": "importante"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di ricordo."
+                "text": "ricordo"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "stato"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "piace"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «Raccontare il proprio viaggio: ascolta»?",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "È stato un viaggio importante."
+                "text": "stato"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di ricordo."
+                "text": "piace"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "comunità"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "importante"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «Raccontare il proprio viaggio: ascolta» after «Mi piace imparare con la comunità.»?",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
             "options": [
               {
                 "id": "o1",
-                "text": "È stato un viaggio importante."
+                "text": "importante"
               },
               {
                 "id": "o2",
-                "text": "Parliamo di ricordo."
+                "text": "stato"
               },
               {
                 "id": "o3",
-                "text": "Mi piace imparare con la comunità."
+                "text": "piace"
               },
               {
                 "id": "o4",
-                "text": "Facciamo pratica insieme domani."
+                "text": "pratica"
               }
             ]
           }
@@ -47842,42 +47866,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «Raccontare il proprio viaggio: ascolta», which detail establishes the situation?",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“È stato un viaggio _____.”",
         "options": [
-          "È stato un viaggio importante.",
-          "Parliamo di ricordo.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "importante",
+          "viaggio",
+          "ricordo",
+          "pratica"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «È stato un viaggio importante.», what happens next in «Raccontare il proprio viaggio: ascolta»?",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
         "options": [
-          "È stato un viaggio importante.",
-          "Parliamo di ricordo.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "importante",
+          "ricordo",
+          "stato",
+          "piace"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «Raccontare il proprio viaggio: ascolta»?",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
         "options": [
-          "È stato un viaggio importante.",
-          "Parliamo di ricordo.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "stato",
+          "piace",
+          "comunità",
+          "importante"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «Raccontare il proprio viaggio: ascolta» after «Mi piace imparare con la comunità.»?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
         "options": [
-          "È stato un viaggio importante.",
-          "Parliamo di ricordo.",
-          "Mi piace imparare con la comunità.",
-          "Facciamo pratica insieme domani."
+          "importante",
+          "stato",
+          "piace",
+          "pratica"
         ]
       }
     ]

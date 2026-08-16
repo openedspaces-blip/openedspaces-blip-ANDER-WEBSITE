@@ -48,28 +48,28 @@ Marta vive in un appartamento al terzo piano di un edificio antico. La sua casa 
 
 **Tipo:** monólogo · **Voz:** narradora
 
-Stamattina piove, ma nel pomeriggio forse esce il sole. Per questo porto un ombrello e una giacca leggera. In primavera il tempo cambia molto velocemente: a volte fa freddo, poi arriva il sole. Mi piace la primavera perché ci sono molti fiori e le giornate sono più lunghe. In estate preferisco andare al mare e nuotare. In inverno, invece, resto più spesso a casa con un tè caldo e un buon libro.
+Stamattina piove, ma nel pomeriggio forse esce il sole. Per questo porto un ombrello e una giacca leggera. In primavera il tempo cambia molto velocemente: a volte fa freddo, poi arriva il sole. Mi piace la primavera perché ci sono molti fiori e le giornate sono più lunghe. In estate preferisco andare al mare e nuotare, soprattutto sulla costa dell’Emilia-Romagna. In inverno, invece, resto più spesso a casa con un tè caldo e un buon libro. Quando nevica, mi piace guardare i tetti della città dalla finestra.
 
 ## Unidad 9 · Una festa di quartiere
 
 **Tipo:** monólogo · **Voz:** narrador
 
-Sabato pomeriggio nel quartiere di Sara c’è una piccola festa. Nella piazza ci sono tavoli, musica e tante luci colorate. Alcuni vicini preparano panini e bevande; altri organizzano giochi per i bambini. Sara arriva con sua sorella alle cinque e incontra molti amici. Un gruppo suona canzoni italiane e le persone cantano insieme. Più tardi, Sara aiuta a raccogliere i bicchieri di carta. È stanca, ma contenta, perché la festa fa sentire tutti più vicini.
+Sabato pomeriggio nel quartiere di Sara c’è una piccola festa. Nella piazza ci sono tavoli, musica e tante luci colorate. Alcuni vicini preparano panini e bevande; altri organizzano giochi per i bambini. Sara arriva con sua sorella alle cinque e incontra molti amici. Un gruppo suona canzoni italiane e le persone cantano insieme. C’è anche un piccolo banco con focaccia e limonata fresca. Più tardi, Sara aiuta a raccogliere i bicchieri di carta. È stanca, ma contenta, perché la festa fa sentire tutti più vicini.
 
 ## Unidad 10 · In treno
 
 **Tipo:** monólogo · **Voz:** narrador
 
-Oggi viaggio in treno da Bologna a Firenze. Il treno parte dal binario quattro alle dieci e venti e arriva alle undici e quaranta. È un treno diretto, quindi non devo cambiare treno. Arrivo alla stazione un po’ prima perché voglio comprare una bottiglia d’acqua e controllare il mio biglietto. Nel mio zaino ho un libro, il telefono e una piccola merenda. Mi piace guardare il paesaggio dal finestrino durante il viaggio. Sono molto felice di visitare Firenze.
+Oggi viaggio in treno da Bologna a Firenze. Il treno parte dal binario quattro alle dieci e venti e arriva alle undici e quaranta. È un treno diretto, quindi non devo cambiare treno. Arrivo alla stazione un po’ prima perché voglio comprare una bottiglia d’acqua e controllare il mio biglietto. Nel mio zaino ho un libro, il telefono e una piccola merenda. Mi piace guardare il paesaggio dal finestrino durante il viaggio. Quando arrivo a Firenze, voglio vedere il Duomo e passeggiare vicino all’Arno. Sono molto felice di visitare Firenze.
 
 ## Unidad 11 · Sapori d’Italia
 
 **Tipo:** monólogo · **Voz:** narradora
 
-Per la cena di venerdì, Chiara prepara un piatto semplice per i suoi amici. Compra pasta, pomodori, basilico fresco e formaggio. Prima lava i pomodori e poi taglia il basilico. In una padella cucina una salsa con olio e aglio. Quando la pasta è pronta, unisce tutto e aggiunge un po’ di formaggio. I suoi amici arrivano alle otto con una bottiglia di acqua frizzante e un dolce. Tutti apprezzano la cena, soprattutto perché Chiara cucina con calma e con amore.
+Per la cena di venerdì, Chiara prepara un piatto semplice per i suoi amici. Compra pasta, pomodori, basilico fresco e formaggio. Prima lava i pomodori e poi taglia il basilico. In una padella cucina una salsa con olio e aglio. Quando la pasta è pronta, unisce tutto e aggiunge un po’ di formaggio. I suoi amici arrivano alle otto con una bottiglia di acqua frizzante e un dolce. Dopo cena bevono un caffè e parlano dei loro programmi per il fine settimana. Tutti apprezzano la cena, soprattutto perché Chiara cucina con calma e con amore.
 
 ## Unidad 12 · Un messaggio a casa
 
 **Tipo:** monólogo · **Voz:** Davide
 
-Ciao mamma, come stai? Io sto bene. Oggi è stata una giornata piena, ma molto bella. Stamattina ho avuto lezione di italiano e ho parlato con una nuova compagna di classe. Si chiama Elena e viene da Napoli. Dopo la lezione abbiamo pranzato in un piccolo ristorante vicino alla scuola. Nel pomeriggio sono andato in biblioteca per studiare un po’. Adesso torno a casa in autobus. Domani ti chiamo con più calma. Un abbraccio grande!
+Ciao mamma, come stai? Io sto bene. Oggi è stata una giornata piena, ma molto bella. Stamattina ho avuto lezione di italiano e ho parlato con una nuova compagna di classe. Si chiama Elena e viene da Napoli. Dopo la lezione abbiamo pranzato in un piccolo ristorante vicino alla scuola. Nel pomeriggio sono andato in biblioteca per studiare un po’. Ho preso in prestito un libro sulla storia di Roma. Adesso torno a casa in autobus. Domani ti chiamo con più calma e ti racconto tutto. Un abbraccio grande!

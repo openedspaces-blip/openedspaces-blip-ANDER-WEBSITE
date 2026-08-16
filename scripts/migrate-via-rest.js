@@ -27,7 +27,10 @@ const LEVEL_META = {
 const LANGUAGE_META = {
   english: 'English',
   french: 'Français',
-  spanish: 'Español'
+  spanish: 'Español',
+  italian: 'Italiano',
+  portuguese: 'Português (Brasil)',
+  german: 'Deutsch'
 };
 
 // Matches the branded course titles already used by the hand-written
@@ -54,7 +57,13 @@ async function main() {
   if (!LANGUAGE_META[language]) throw new Error(`Unknown language "${language}"`);
 
   const units = seedUnits.filter((row) => row.target_language === language && row.level === level);
-  const lessons = seedLessons.filter((row) => row.target_language === language && row.level === level);
+  // A few legacy showcase lessons live in the seed without a unit_slug.
+  // They cannot be part of the normalized course route (every route lesson
+  // needs a course_units foreign key), so publish only the canonical
+  // unit-backed curriculum here.
+  const lessons = seedLessons.filter(
+    (row) => row.target_language === language && row.level === level && row.unit_slug
+  );
   if (!units.length || !lessons.length) {
     throw new Error(`No seed rows found for ${language} ${level}. Build the seed first.`);
   }
@@ -80,13 +89,19 @@ async function main() {
   );
 
   const unitIds = {};
+  // course_units.slug is globally unique in the current schema. Italian B2
+  // intentionally reuses a few human-readable topic slugs from other
+  // levels, so namespace its database identifiers while retaining the
+  // original title and route order displayed to learners.
+  const databaseUnitSlug = (unitSlug) =>
+    language === 'italian' && level === 'B2' ? `italian-b2-${unitSlug}` : unitSlug;
   for (const unit of units) {
     const row = await upsertOne(
       client,
       'course_units',
       {
         course_id: courseRow.id,
-        slug: unit.slug,
+        slug: databaseUnitSlug(unit.slug),
         title: unit.title,
         description: unit.description || '',
         order_index: unit.order_index
@@ -186,7 +201,7 @@ async function main() {
   // inserts/updates, never removes a slug that's no longer in this build.
   // Must run after the course_lessons prune above: lessons still pointed at
   // these old unit ids until that delete ran.
-  const keptUnitSlugs = units.map((unit) => unit.slug);
+  const keptUnitSlugs = units.map((unit) => databaseUnitSlug(unit.slug));
   const { error: pruneUnitsError } = await client
     .from('course_units')
     .delete()

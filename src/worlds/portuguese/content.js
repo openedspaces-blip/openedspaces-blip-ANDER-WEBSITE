@@ -46,12 +46,12 @@
     ],
     "reading": {
       "title": "Português (Brasil) A1 Reading",
-      "text": "Luana está em Recife. Hoje aprende a escrever mensagem curta. Encontra Rafael e diz: “Hoje eu aprendi muito.”. Os dois conversam com respeito e aprendem quatro palavras novas: hoje, amanhã, casa e experiência.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. A conversa mostra que a cultura se aprende escutando e participando.\n\nNo final, Luana escreve: “Hoje eu aprendi muito.”.",
+      "text": "Hoje Luana está em Recife. Ela encontra Rafael no bairro e o cumprimenta com um sorriso. Os dois falam devagar e escutam com atenção. Luana quer usar o português em uma situação real, por isso tenta uma frase simples e Rafael responde com gentileza.\n\nNa conversa, eles usam palavras úteis da lição: parole semplici. Rafael faz uma pergunta e Luana responde sem pressa. Quando ela não entende uma palavra, pergunta: «Pode repetir, por favor?». Depois, os dois repetem as palavras mais importantes e criam um exemplo pequeno para cada uma.\n\nAntes de voltar para casa, Luana agradece a Rafael. Ela diz que escutar, falar e repetir ajudam a ter mais confiança. Rafael concorda e propõe um novo encontro amanhã. Luana volta para casa feliz e escreve no caderno as palavras novas do dia.",
       "questions": [
-        "Onde está Luana?",
+        "Onde Luana está?",
         "Com quem Luana conversa?",
-        "Qual frase Luana usa?",
-        "Por que a experiência é importante?"
+        "O que Luana pergunta quando não entende uma palavra?",
+        "Por que Luana repete as palavras?"
       ]
     }
   },
@@ -494,56 +494,56 @@
       {
         "id": "portuguese-b1-trabalho-e-planos-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Trabalho e planos\"?",
+        "prompt": "Complete este detalhe da leitura.\n\n“Para Sofia, definir metas concretas tornou-se um assunto concreto depois de uma reunião em uma pequena _____.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Trabalho e planos",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-b1-trabalho-e-planos-reading-comprehension-2",
-        "type": "mcq",
-        "prompt": "Qual afirmacao resume melhor \"Trabalho e planos\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Trabalho e planos",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-b1-trabalho-e-planos-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Trabalho e planos\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Trabalho e planos",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-b1-trabalho-e-planos-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Qual afirmacao resume melhor \"Trabalho e planos\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Trabalho e planos",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "oficina",
+          "definir",
+          "assunto",
+          "reunião"
         ]
       },
       {
         "id": "portuguese-b1-trabalho-e-planos-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Trabalho e planos\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Sofia não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Trabalho e planos",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "aprender",
+          "concreto",
+          "pesquisa",
+          "conversa"
+        ]
+      },
+      {
+        "id": "portuguese-b1-trabalho-e-planos-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Sofia não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
+        "options": [
+          "aprender",
+          "concreto",
+          "pesquisa",
+          "conversa"
+        ]
+      },
+      {
+        "id": "portuguese-b1-trabalho-e-planos-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Sofia não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
+        "options": [
+          "aprender",
+          "concreto",
+          "pesquisa",
+          "conversa"
+        ]
+      },
+      {
+        "id": "portuguese-b1-trabalho-e-planos-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Sofia não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
+        "options": [
+          "aprender",
+          "concreto",
+          "pesquisa",
+          "conversa"
         ]
       }
     ]
@@ -635,36 +635,36 @@
         ]
       },
       {
-        "id": "portuguese-b2-b2-projetos-e-responsabilidades-reading-comprehension-3",
+        "id": "portuguese-b2-b2-projetos-e-responsabilidades-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Projetos e responsabilidades · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Projetos e responsabilidades · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-b2-b2-projetos-e-responsabilidades-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Qual afirmacao resume melhor \"Projetos e responsabilidades · Leitura\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Projetos e responsabilidades · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "diferentes",
+          "justifica",
+          "discussão"
         ]
       },
       {
         "id": "portuguese-b2-b2-projetos-e-responsabilidades-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Projetos e responsabilidades · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Projetos e responsabilidades · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "diferentes",
+          "justifica",
+          "discussão"
+        ]
+      },
+      {
+        "id": "portuguese-b2-b2-projetos-e-responsabilidades-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
+        "options": [
+          "respeitosa",
+          "diferentes",
+          "justifica",
+          "discussão"
         ]
       }
     ]
@@ -756,36 +756,36 @@
         ]
       },
       {
-        "id": "portuguese-c1-c1-argumentacao-publica-reading-comprehension-3",
+        "id": "portuguese-c1-c1-argumentacao-publica-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Argumentação pública · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Argumentação pública · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-c1-c1-argumentacao-publica-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Qual afirmacao resume melhor \"Argumentação pública · Leitura\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Argumentação pública · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "diferentes",
+          "obiezione",
+          "justifica"
         ]
       },
       {
         "id": "portuguese-c1-c1-argumentacao-publica-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Argumentação pública · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Argumentação pública · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "diferentes",
+          "obiezione",
+          "justifica"
+        ]
+      },
+      {
+        "id": "portuguese-c1-c1-argumentacao-publica-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
+        "options": [
+          "respeitosa",
+          "diferentes",
+          "obiezione",
+          "justifica"
         ]
       }
     ]
@@ -877,36 +877,36 @@
         ]
       },
       {
-        "id": "portuguese-c2-c2-linguagem-e-persuasao-reading-comprehension-3",
+        "id": "portuguese-c2-c2-linguagem-e-persuasao-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Linguagem e persuasão · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Linguagem e persuasão · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-c2-c2-linguagem-e-persuasao-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Qual afirmacao resume melhor \"Linguagem e persuasão · Leitura\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Linguagem e persuasão · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "diferentes",
+          "Linguagem",
+          "persuasão"
         ]
       },
       {
         "id": "portuguese-c2-c2-linguagem-e-persuasao-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Linguagem e persuasão · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Linguagem e persuasão · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "diferentes",
+          "Linguagem",
+          "persuasão"
+        ]
+      },
+      {
+        "id": "portuguese-c2-c2-linguagem-e-persuasao-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
+        "options": [
+          "respeitosa",
+          "diferentes",
+          "Linguagem",
+          "persuasão"
         ]
       }
     ]
@@ -921,7 +921,7 @@
     "isFree": true,
     "xpReward": 25,
     "orderIndex": 10,
-    "estimatedMinutes": 8,
+    "estimatedMinutes": 10,
     "description": "Saludos y presentaciones en Recife",
     "intro": "Saludos y presentaciones en Recife",
     "mission": "",
@@ -932,63 +932,63 @@
     "reading": {
       "title": "Chegando ao Brasil",
       "parts": [
-        "Luana está em Recife. Hoje aprende a cumprimentar e apresentar-se. Encontra Rafael e diz: “Oi, tudo bem?”. Os dois conversam com respeito e aprendem quatro palavras novas: oi, bom dia, prazer e obrigada.",
-        "Rafael faz uma pergunta simples e Luana responde com uma frase curta. A conversa mostra que a cultura se aprende escutando e participando.",
-        "No final, Luana escreve: “Oi, tudo bem?”."
+        "Hoje Luana está em Recife. Ela encontra Rafael no bairro e o cumprimenta com um sorriso. Os dois falam devagar e escutam com atenção. Luana quer usar o português em uma situação real, por isso tenta uma frase simples e Rafael responde com gentileza.",
+        "Na conversa, eles usam palavras úteis da lição: parole semplici. Rafael faz uma pergunta e Luana responde sem pressa. Quando ela não entende uma palavra, pergunta: «Pode repetir, por favor?». Depois, os dois repetem as palavras mais importantes e criam um exemplo pequeno para cada uma.",
+        "Antes de voltar para casa, Luana agradece a Rafael. Ela diz que escutar, falar e repetir ajudam a ter mais confiança. Rafael concorda e propõe um novo encontro amanhã. Luana volta para casa feliz e escreve no caderno as palavras novas do dia."
       ],
       "questions": [
-        "Onde está Luana?",
+        "Onde Luana está?",
         "Com quem Luana conversa?",
-        "Qual frase Luana usa?",
-        "Por que a experiência é importante?"
+        "O que Luana pergunta quando não entende uma palavra?",
+        "Por que Luana repete as palavras?"
       ],
-      "text": "Luana está em Recife. Hoje aprende a cumprimentar e apresentar-se. Encontra Rafael e diz: “Oi, tudo bem?”. Os dois conversam com respeito e aprendem quatro palavras novas: oi, bom dia, prazer e obrigada.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. A conversa mostra que a cultura se aprende escutando e participando.\n\nNo final, Luana escreve: “Oi, tudo bem?”."
+      "text": "Hoje Luana está em Recife. Ela encontra Rafael no bairro e o cumprimenta com um sorriso. Os dois falam devagar e escutam com atenção. Luana quer usar o português em uma situação real, por isso tenta uma frase simples e Rafael responde com gentileza.\n\nNa conversa, eles usam palavras úteis da lição: parole semplici. Rafael faz uma pergunta e Luana responde sem pressa. Quando ela não entende uma palavra, pergunta: «Pode repetir, por favor?». Depois, os dois repetem as palavras mais importantes e criam um exemplo pequeno para cada uma.\n\nAntes de voltar para casa, Luana agradece a Rafael. Ela diz que escutar, falar e repetir ajudam a ter mais confiança. Rafael concorda e propõe um novo encontro amanhã. Luana volta para casa feliz e escreve no caderno as palavras novas do dia."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "id": "portuguese-a1-chegando-ao-brasil-reading-comprehension-1",
+        "id": "portuguese-a1-chegando-ao-brasil-reading-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Qual é o objetivo principal de \"Chegando ao Brasil\"?",
+        "prompt": "Onde Luana está?",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Chegando ao Brasil",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "Recife",
+          "Salvador",
+          "Rio de Janeiro",
+          "Brasília"
         ]
       },
       {
-        "id": "portuguese-a1-chegando-ao-brasil-reading-comprehension-2",
+        "id": "portuguese-a1-chegando-ao-brasil-reading-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Qual afirmação resume melhor \"Chegando ao Brasil\"?",
+        "prompt": "Com quem Luana conversa?",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Chegando ao Brasil",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "Rafael",
+          "Pedro",
+          "Marina",
+          "Carlos"
         ]
       },
       {
         "id": "portuguese-a1-chegando-ao-brasil-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Que ideia central aparece em \"Chegando ao Brasil\"?",
+        "prompt": "Escolha a palavra que falta na leitura.\n\n“Depois, os dois repetem as palavras mais _____ e criam um exemplo pequeno para cada uma.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Chegando ao Brasil",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "conversa",
+          "palavras",
+          "importantes",
+          "semplici"
         ]
       },
       {
         "id": "portuguese-a1-chegando-ao-brasil-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Que detalhe é essencial em \"Chegando ao Brasil\"?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“Luana volta para casa feliz e _____ no caderno as palavras novas do dia.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Chegando ao Brasil",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "repetem",
+          "exemplo",
+          "pequeno",
+          "escreve"
         ]
       }
     ]
@@ -1032,56 +1032,56 @@
       {
         "id": "portuguese-a2-rotina-na-cidade-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Qual é o objetivo principal de \"Rotina na cidade\"?",
+        "prompt": "Complete este detalhe da leitura.\n\n“Luana mora em Recife e conversa com Rafael sobre como descrever _____.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Rotina na cidade",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "rotina",
+          "Recife",
+          "Rafael",
+          "ônibus"
         ]
       },
       {
         "id": "portuguese-a2-rotina-na-cidade-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Qual afirmação resume melhor \"Rotina na cidade\"?",
+        "prompt": "Qual palavra completa esta frase do texto?\n\n“Luana diz: “_____ vou de ônibus.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Rotina na cidade",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-a2-rotina-na-cidade-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Que ideia central aparece em \"Rotina na cidade\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Rotina na cidade",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-a2-rotina-na-cidade-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Que detalhe é essencial em \"Rotina na cidade\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Rotina na cidade",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "experiência",
+          "Normalmente",
+          "importante",
+          "participando"
         ]
       },
       {
         "id": "portuguese-a2-rotina-na-cidade-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Que conclusão o texto permite tirar sobre \"Rotina na cidade\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“No final, Luana escreve: “Normalmente vou de _____.”.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Rotina na cidade",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "ônibus",
+          "Recife",
+          "Rafael",
+          "rotina"
+        ]
+      },
+      {
+        "id": "portuguese-a2-rotina-na-cidade-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“No final, Luana escreve: “Normalmente vou de _____.”.”",
+        "options": [
+          "ônibus",
+          "Recife",
+          "Rafael",
+          "rotina"
+        ]
+      },
+      {
+        "id": "portuguese-a2-rotina-na-cidade-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“No final, Luana escreve: “Normalmente vou de _____.”.”",
+        "options": [
+          "ônibus",
+          "Recife",
+          "Rafael",
+          "rotina"
         ]
       }
     ]
@@ -1434,92 +1434,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Trabalho e planos: palavras»?",
+            "prompt": "Complete este detalhe do áudio.\n\n“No tema «Trabalho e planos», um pequeno grupo da comunidade conversa sobre meta, prazo e _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Trabalho e planos», um pequeno grupo da comunidade conversa sobre meta, prazo e equipe."
+                "text": "equipe"
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "experiência"
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "importantes"
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "comunidade"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «No tema «Trabalho e planos», um pequeno grupo da comunidade conversa…» in «Trabalho e planos: palavras»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Cada _____ conta uma experiência, escuta as outras e propõe uma solução concreta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Trabalho e planos», um pequeno grupo da comunidade conversa sobre meta, prazo e equipe."
+                "text": "experiência"
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "pessoa"
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "importantes"
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "comunidade"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Trabalho e planos: palavras»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“No final, decidem colaborar porque um objetivo claro ajuda a _____ a vida cotidiana.”",
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Trabalho e planos», um pequeno grupo da comunidade conversa sobre meta, prazo e equipe."
+                "text": "grupo"
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "prazo"
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "melhorar"
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "conta"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Trabalho e planos: palavras»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Depois, o grupo _____ as ideias mais importantes.”",
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Trabalho e planos», um pequeno grupo da comunidade conversa sobre meta, prazo e equipe."
+                "text": "experiência"
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "importantes"
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "comunidade"
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "resume"
               }
             ]
           }
@@ -1530,42 +1530,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Trabalho e planos: palavras»?",
+        "prompt": "Complete este detalhe do áudio.\n\n“No tema «Trabalho e planos», um pequeno grupo da comunidade conversa sobre meta, prazo e _____.”",
         "options": [
-          "No tema «Trabalho e planos», um pequeno grupo da comunidade conversa sobre meta, prazo e equipe.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "equipe",
+          "experiência",
+          "importantes",
+          "comunidade"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «No tema «Trabalho e planos», um pequeno grupo da comunidade conversa…» in «Trabalho e planos: palavras»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Cada _____ conta uma experiência, escuta as outras e propõe uma solução concreta.”",
         "options": [
-          "No tema «Trabalho e planos», um pequeno grupo da comunidade conversa sobre meta, prazo e equipe.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "experiência",
+          "pessoa",
+          "importantes",
+          "comunidade"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Trabalho e planos: palavras»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“No final, decidem colaborar porque um objetivo claro ajuda a _____ a vida cotidiana.”",
         "options": [
-          "No tema «Trabalho e planos», um pequeno grupo da comunidade conversa sobre meta, prazo e equipe.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "grupo",
+          "prazo",
+          "melhorar",
+          "conta"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Trabalho e planos: palavras»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Depois, o grupo _____ as ideias mais importantes.”",
         "options": [
-          "No tema «Trabalho e planos», um pequeno grupo da comunidade conversa sobre meta, prazo e equipe.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "experiência",
+          "importantes",
+          "comunidade",
+          "resume"
         ]
       }
     ]
@@ -1860,92 +1860,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Projetos e responsabilidades · Compreensão oral»?",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Projetos e responsabilidades, duas pessoas comparam suas _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Projetos e responsabilidades, duas pessoas comparam suas posições."
+                "text": "posições"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que incarico só é útil quando é explicado com exemplos verificáveis."
+                "text": "responsabilidades"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: risorsa pode mudar a perspectiva de quem escuta."
+                "text": "consequências"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "verificáveis"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «Neste episódio sobre Projetos e responsabilidades, duas pessoas…» in «Projetos e responsabilidades · Compreensão oral»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Projetos e responsabilidades, duas pessoas comparam suas posições."
+                "text": "responsabilidades"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que incarico só é útil quando é explicado com exemplos verificáveis."
+                "text": "incarico"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: risorsa pode mudar a perspectiva de quem escuta."
+                "text": "consequências"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "verificáveis"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Projetos e responsabilidades · Compreensão oral»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Projetos e responsabilidades, duas pessoas comparam suas posições."
+                "text": "responsabilidades"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que incarico só é útil quando é explicado com exemplos verificáveis."
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: risorsa pode mudar a perspectiva de quem escuta."
+                "text": "risorsa"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "verificáveis"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Projetos e responsabilidades · Compreensão oral»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Projetos e responsabilidades, duas pessoas comparam suas posições."
+                "text": "responsabilidades"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que incarico só é útil quando é explicado com exemplos verificáveis."
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: risorsa pode mudar a perspectiva de quem escuta."
+                "text": "verificáveis"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "clareza"
               }
             ]
           }
@@ -1965,42 +1965,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Projetos e responsabilidades · Compreensão oral»?",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Projetos e responsabilidades, duas pessoas comparam suas _____.”",
         "options": [
-          "Neste episódio sobre Projetos e responsabilidades, duas pessoas comparam suas posições.",
-          "A outra acrescenta que incarico só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: risorsa pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "posições",
+          "responsabilidades",
+          "consequências",
+          "verificáveis"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «Neste episódio sobre Projetos e responsabilidades, duas pessoas…» in «Projetos e responsabilidades · Compreensão oral»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
         "options": [
-          "Neste episódio sobre Projetos e responsabilidades, duas pessoas comparam suas posições.",
-          "A outra acrescenta que incarico só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: risorsa pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "responsabilidades",
+          "incarico",
+          "consequências",
+          "verificáveis"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Projetos e responsabilidades · Compreensão oral»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
         "options": [
-          "Neste episódio sobre Projetos e responsabilidades, duas pessoas comparam suas posições.",
-          "A outra acrescenta que incarico só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: risorsa pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "responsabilidades",
+          "consequências",
+          "risorsa",
+          "verificáveis"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Projetos e responsabilidades · Compreensão oral»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
         "options": [
-          "Neste episódio sobre Projetos e responsabilidades, duas pessoas comparam suas posições.",
-          "A outra acrescenta que incarico só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: risorsa pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "responsabilidades",
+          "consequências",
+          "verificáveis",
+          "clareza"
         ]
       }
     ]
@@ -2067,92 +2067,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Argumentação pública · Compreensão oral»?",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Argumentação pública, duas pessoas comparam suas _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Argumentação pública, duas pessoas comparam suas posições."
+                "text": "posições"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que obiezione só é útil quando é explicado com exemplos verificáveis."
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: evidenza pode mudar a perspectiva de quem escuta."
+                "text": "Argumentação"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "verificáveis"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «Neste episódio sobre Argumentação pública, duas pessoas comparam suas…» in «Argumentação pública · Compreensão oral»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Argumentação pública, duas pessoas comparam suas posições."
+                "text": "consequências"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que obiezione só é útil quando é explicado com exemplos verificáveis."
+                "text": "obiezione"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: evidenza pode mudar a perspectiva de quem escuta."
+                "text": "Argumentação"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "produz"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Argumentação pública · Compreensão oral»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Argumentação pública, duas pessoas comparam suas posições."
+                "text": "consequências"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que obiezione só é útil quando é explicado com exemplos verificáveis."
+                "text": "Argumentação"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: evidenza pode mudar a perspectiva de quem escuta."
+                "text": "evidenza"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "verificáveis"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Argumentação pública · Compreensão oral»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Argumentação pública, duas pessoas comparam suas posições."
+                "text": "consequências"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que obiezione só é útil quando é explicado com exemplos verificáveis."
+                "text": "Argumentação"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: evidenza pode mudar a perspectiva de quem escuta."
+                "text": "verificáveis"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "clareza"
               }
             ]
           }
@@ -2172,42 +2172,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Argumentação pública · Compreensão oral»?",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Argumentação pública, duas pessoas comparam suas _____.”",
         "options": [
-          "Neste episódio sobre Argumentação pública, duas pessoas comparam suas posições.",
-          "A outra acrescenta que obiezione só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: evidenza pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "posições",
+          "consequências",
+          "Argumentação",
+          "verificáveis"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «Neste episódio sobre Argumentação pública, duas pessoas comparam suas…» in «Argumentação pública · Compreensão oral»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
         "options": [
-          "Neste episódio sobre Argumentação pública, duas pessoas comparam suas posições.",
-          "A outra acrescenta que obiezione só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: evidenza pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "consequências",
+          "obiezione",
+          "Argumentação",
+          "produz"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Argumentação pública · Compreensão oral»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
         "options": [
-          "Neste episódio sobre Argumentação pública, duas pessoas comparam suas posições.",
-          "A outra acrescenta que obiezione só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: evidenza pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "consequências",
+          "Argumentação",
+          "evidenza",
+          "verificáveis"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Argumentação pública · Compreensão oral»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
         "options": [
-          "Neste episódio sobre Argumentação pública, duas pessoas comparam suas posições.",
-          "A outra acrescenta que obiezione só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: evidenza pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "consequências",
+          "Argumentação",
+          "verificáveis",
+          "clareza"
         ]
       }
     ]
@@ -2274,92 +2274,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Linguagem e persuasão · Compreensão oral»?",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Linguagem e persuasão, duas pessoas comparam suas _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Linguagem e persuasão, duas pessoas comparam suas posições."
+                "text": "posições"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que premessa só é útil quando é explicado com exemplos verificáveis."
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: inferenza pode mudar a perspectiva de quem escuta."
+                "text": "verificáveis"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "Neste"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «Neste episódio sobre Linguagem e persuasão, duas pessoas comparam suas…» in «Linguagem e persuasão · Compreensão oral»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Linguagem e persuasão, duas pessoas comparam suas posições."
+                "text": "consequências"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que premessa só é útil quando é explicado com exemplos verificáveis."
+                "text": "premessa"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: inferenza pode mudar a perspectiva de quem escuta."
+                "text": "verificáveis"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "Neste"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Linguagem e persuasão · Compreensão oral»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Linguagem e persuasão, duas pessoas comparam suas posições."
+                "text": "consequências"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que premessa só é útil quando é explicado com exemplos verificáveis."
+                "text": "produz"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: inferenza pode mudar a perspectiva de quem escuta."
+                "text": "inferenza"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "verificáveis"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Linguagem e persuasão · Compreensão oral»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Linguagem e persuasão, duas pessoas comparam suas posições."
+                "text": "consequências"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que premessa só é útil quando é explicado com exemplos verificáveis."
+                "text": "verificáveis"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: inferenza pode mudar a perspectiva de quem escuta."
+                "text": "considerado"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "clareza"
               }
             ]
           }
@@ -2379,42 +2379,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Linguagem e persuasão · Compreensão oral»?",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Linguagem e persuasão, duas pessoas comparam suas _____.”",
         "options": [
-          "Neste episódio sobre Linguagem e persuasão, duas pessoas comparam suas posições.",
-          "A outra acrescenta que premessa só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: inferenza pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "posições",
+          "consequências",
+          "verificáveis",
+          "Neste"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «Neste episódio sobre Linguagem e persuasão, duas pessoas comparam suas…» in «Linguagem e persuasão · Compreensão oral»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
         "options": [
-          "Neste episódio sobre Linguagem e persuasão, duas pessoas comparam suas posições.",
-          "A outra acrescenta que premessa só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: inferenza pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "consequências",
+          "premessa",
+          "verificáveis",
+          "Neste"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Linguagem e persuasão · Compreensão oral»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
         "options": [
-          "Neste episódio sobre Linguagem e persuasão, duas pessoas comparam suas posições.",
-          "A outra acrescenta que premessa só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: inferenza pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "consequências",
+          "produz",
+          "inferenza",
+          "verificáveis"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Linguagem e persuasão · Compreensão oral»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
         "options": [
-          "Neste episódio sobre Linguagem e persuasão, duas pessoas comparam suas posições.",
-          "A outra acrescenta que premessa só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: inferenza pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "consequências",
+          "verificáveis",
+          "considerado",
+          "clareza"
         ]
       }
     ]
@@ -2472,92 +2472,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «Chegando ao Brasil: ouça», which detail establishes the situation?",
+            "prompt": "Complete este detalhe do áudio.\n\n“Oi, tudo _____?”",
             "options": [
               {
                 "id": "o1",
-                "text": "Oi, tudo bem?"
+                "text": "bem"
               },
               {
                 "id": "o2",
-                "text": "Falamos de oi."
+                "text": "comunidade"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "aprender"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "praticar"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «Oi, tudo bem?», what happens next in «Chegando ao Brasil: ouça»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“_____ de oi.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Oi, tudo bem?"
+                "text": "tudo"
               },
               {
                 "id": "o2",
-                "text": "Falamos de oi."
+                "text": "Falamos"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "comunidade"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "Gosto"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «Chegando ao Brasil: ouça»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Oi, tudo bem?"
+                "text": "comunidade"
               },
               {
                 "id": "o2",
-                "text": "Falamos de oi."
+                "text": "aprender"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "Gosto"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "praticar"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «Chegando ao Brasil: ouça» after «Gosto de aprender com a comunidade.»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Oi, tudo bem?"
+                "text": "Gosto"
               },
               {
                 "id": "o2",
-                "text": "Falamos de oi."
+                "text": "Vamos"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "comunidade"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "praticar"
               }
             ]
           }
@@ -2568,42 +2568,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «Chegando ao Brasil: ouça», which detail establishes the situation?",
+        "prompt": "Complete este detalhe do áudio.\n\n“Oi, tudo _____?”",
         "options": [
-          "Oi, tudo bem?",
-          "Falamos de oi.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "bem",
+          "comunidade",
+          "aprender",
+          "praticar"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «Oi, tudo bem?», what happens next in «Chegando ao Brasil: ouça»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“_____ de oi.”",
         "options": [
-          "Oi, tudo bem?",
-          "Falamos de oi.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "tudo",
+          "Falamos",
+          "comunidade",
+          "Gosto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «Chegando ao Brasil: ouça»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
         "options": [
-          "Oi, tudo bem?",
-          "Falamos de oi.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "comunidade",
+          "aprender",
+          "Gosto",
+          "praticar"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «Chegando ao Brasil: ouça» after «Gosto de aprender com a comunidade.»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
         "options": [
-          "Oi, tudo bem?",
-          "Falamos de oi.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "Gosto",
+          "Vamos",
+          "comunidade",
+          "praticar"
         ]
       }
     ]
@@ -2661,92 +2661,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «Rotina na cidade: ouça», which detail establishes the situation?",
+            "prompt": "Complete este detalhe do áudio.\n\n“Normalmente vou de _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Normalmente vou de ônibus."
+                "text": "ônibus"
               },
               {
                 "id": "o2",
-                "text": "Falamos de bairro."
+                "text": "Normalmente"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "comunidade"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "vou"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «Normalmente vou de ônibus.», what happens next in «Rotina na cidade: ouça»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Falamos de _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Normalmente vou de ônibus."
+                "text": "Normalmente"
               },
               {
                 "id": "o2",
-                "text": "Falamos de bairro."
+                "text": "bairro"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "comunidade"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "vou"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «Rotina na cidade: ouça»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Normalmente vou de ônibus."
+                "text": "Normalmente"
               },
               {
                 "id": "o2",
-                "text": "Falamos de bairro."
+                "text": "comunidade"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "Gosto"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "aprender"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «Rotina na cidade: ouça» after «Gosto de aprender com a comunidade.»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Normalmente vou de ônibus."
+                "text": "Normalmente"
               },
               {
                 "id": "o2",
-                "text": "Falamos de bairro."
+                "text": "Gosto"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "Vamos"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "praticar"
               }
             ]
           }
@@ -2757,42 +2757,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «Rotina na cidade: ouça», which detail establishes the situation?",
+        "prompt": "Complete este detalhe do áudio.\n\n“Normalmente vou de _____.”",
         "options": [
-          "Normalmente vou de ônibus.",
-          "Falamos de bairro.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "ônibus",
+          "Normalmente",
+          "comunidade",
+          "vou"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «Normalmente vou de ônibus.», what happens next in «Rotina na cidade: ouça»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Falamos de _____.”",
         "options": [
-          "Normalmente vou de ônibus.",
-          "Falamos de bairro.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "Normalmente",
+          "bairro",
+          "comunidade",
+          "vou"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «Rotina na cidade: ouça»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
         "options": [
-          "Normalmente vou de ônibus.",
-          "Falamos de bairro.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "Normalmente",
+          "comunidade",
+          "Gosto",
+          "aprender"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «Rotina na cidade: ouça» after «Gosto de aprender com a comunidade.»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
         "options": [
-          "Normalmente vou de ônibus.",
-          "Falamos de bairro.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "Normalmente",
+          "Gosto",
+          "Vamos",
+          "praticar"
         ]
       }
     ]
@@ -4600,56 +4600,56 @@
       {
         "id": "portuguese-b1-viagens-com-respeito-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Viagens com respeito\"?",
+        "prompt": "Complete este detalhe da leitura.\n\n“Para Sofia, proteger um lugar durante a viagem tornou-se um assunto concreto depois de uma reunião em uma região visitada por _____.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Viagens com respeito",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-b1-viagens-com-respeito-reading-comprehension-2",
-        "type": "mcq",
-        "prompt": "Qual afirmacao resume melhor \"Viagens com respeito\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Viagens com respeito",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-b1-viagens-com-respeito-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Viagens com respeito\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Viagens com respeito",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-b1-viagens-com-respeito-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Qual afirmacao resume melhor \"Viagens com respeito\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Viagens com respeito",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "turistas",
+          "proteger",
+          "concreto",
+          "visitada"
         ]
       },
       {
         "id": "portuguese-b1-viagens-com-respeito-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Viagens com respeito\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Sofia não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Viagens com respeito",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "aprender",
+          "proteger",
+          "concreto",
+          "visitada"
+        ]
+      },
+      {
+        "id": "portuguese-b1-viagens-com-respeito-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Sofia não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
+        "options": [
+          "aprender",
+          "proteger",
+          "concreto",
+          "visitada"
+        ]
+      },
+      {
+        "id": "portuguese-b1-viagens-com-respeito-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Sofia não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
+        "options": [
+          "aprender",
+          "proteger",
+          "concreto",
+          "visitada"
+        ]
+      },
+      {
+        "id": "portuguese-b1-viagens-com-respeito-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Sofia não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
+        "options": [
+          "aprender",
+          "proteger",
+          "concreto",
+          "visitada"
         ]
       }
     ]
@@ -4741,36 +4741,36 @@
         ]
       },
       {
-        "id": "portuguese-b2-b2-cidade-e-mobilidade-reading-comprehension-3",
+        "id": "portuguese-b2-b2-cidade-e-mobilidade-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Cidade e mobilidade · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Cidade e mobilidade · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-b2-b2-cidade-e-mobilidade-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Qual afirmacao resume melhor \"Cidade e mobilidade · Leitura\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Cidade e mobilidade · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "mobilidade",
+          "diferentes",
+          "justifica"
         ]
       },
       {
         "id": "portuguese-b2-b2-cidade-e-mobilidade-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Cidade e mobilidade · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Cidade e mobilidade · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "mobilidade",
+          "diferentes",
+          "justifica"
+        ]
+      },
+      {
+        "id": "portuguese-b2-b2-cidade-e-mobilidade-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
+        "options": [
+          "respeitosa",
+          "mobilidade",
+          "diferentes",
+          "justifica"
         ]
       }
     ]
@@ -4862,36 +4862,36 @@
         ]
       },
       {
-        "id": "portuguese-c1-c1-inovacao-e-sociedade-reading-comprehension-3",
+        "id": "portuguese-c1-c1-inovacao-e-sociedade-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Inovação e sociedade · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Inovação e sociedade · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-c1-c1-inovacao-e-sociedade-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Qual afirmacao resume melhor \"Inovação e sociedade · Leitura\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Inovação e sociedade · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "diferentes",
+          "sociedade",
+          "innovazione"
         ]
       },
       {
         "id": "portuguese-c1-c1-inovacao-e-sociedade-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Inovação e sociedade · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Inovação e sociedade · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "diferentes",
+          "sociedade",
+          "innovazione"
+        ]
+      },
+      {
+        "id": "portuguese-c1-c1-inovacao-e-sociedade-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
+        "options": [
+          "respeitosa",
+          "diferentes",
+          "sociedade",
+          "innovazione"
         ]
       }
     ]
@@ -4983,36 +4983,36 @@
         ]
       },
       {
-        "id": "portuguese-c2-c2-politicas-publicas-reading-comprehension-3",
+        "id": "portuguese-c2-c2-politicas-publicas-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Políticas públicas · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Políticas públicas · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-c2-c2-politicas-publicas-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Qual afirmacao resume melhor \"Políticas públicas · Leitura\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Políticas públicas · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "diferentes",
+          "Políticas",
+          "justifica"
         ]
       },
       {
         "id": "portuguese-c2-c2-politicas-publicas-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Políticas públicas · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Políticas públicas · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "diferentes",
+          "Políticas",
+          "justifica"
+        ]
+      },
+      {
+        "id": "portuguese-c2-c2-politicas-publicas-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
+        "options": [
+          "respeitosa",
+          "diferentes",
+          "Políticas",
+          "justifica"
         ]
       }
     ]
@@ -5027,7 +5027,7 @@
     "isFree": true,
     "xpReward": 25,
     "orderIndex": 20,
-    "estimatedMinutes": 8,
+    "estimatedMinutes": 10,
     "description": "Una panadería de barrio y sus pedidos",
     "intro": "Una panadería de barrio y sus pedidos",
     "mission": "",
@@ -5038,63 +5038,63 @@
     "reading": {
       "title": "Um café na padaria",
       "parts": [
-        "Luana está em Recife. Hoje aprende a pedir com cortesia. Encontra Rafael e diz: “Um café, por favor.”. Os dois conversam com respeito e aprendem quatro palavras novas: café, pão, água e por favor.",
-        "Rafael faz uma pergunta simples e Luana responde com uma frase curta. A conversa mostra que a cultura se aprende escutando e participando.",
-        "No final, Luana escreve: “Um café, por favor.”."
+        "Hoje Luana está em Recife. Ela encontra Rafael no bairro e o cumprimenta com um sorriso. Os dois falam devagar e escutam com atenção. Luana quer usar o português em uma situação real, por isso tenta uma frase simples e Rafael responde com gentileza.",
+        "Na conversa, eles usam palavras úteis da lição: parole semplici. Rafael faz uma pergunta e Luana responde sem pressa. Quando ela não entende uma palavra, pergunta: «Pode repetir, por favor?». Depois, os dois repetem as palavras mais importantes e criam um exemplo pequeno para cada uma.",
+        "Antes de voltar para casa, Luana agradece a Rafael. Ela diz que escutar, falar e repetir ajudam a ter mais confiança. Rafael concorda e propõe um novo encontro amanhã. Luana volta para casa feliz e escreve no caderno as palavras novas do dia."
       ],
       "questions": [
-        "Onde está Luana?",
+        "Onde Luana está?",
         "Com quem Luana conversa?",
-        "Qual frase Luana usa?",
-        "Por que a experiência é importante?"
+        "O que Luana pergunta quando não entende uma palavra?",
+        "Por que Luana repete as palavras?"
       ],
-      "text": "Luana está em Recife. Hoje aprende a pedir com cortesia. Encontra Rafael e diz: “Um café, por favor.”. Os dois conversam com respeito e aprendem quatro palavras novas: café, pão, água e por favor.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. A conversa mostra que a cultura se aprende escutando e participando.\n\nNo final, Luana escreve: “Um café, por favor.”."
+      "text": "Hoje Luana está em Recife. Ela encontra Rafael no bairro e o cumprimenta com um sorriso. Os dois falam devagar e escutam com atenção. Luana quer usar o português em uma situação real, por isso tenta uma frase simples e Rafael responde com gentileza.\n\nNa conversa, eles usam palavras úteis da lição: parole semplici. Rafael faz uma pergunta e Luana responde sem pressa. Quando ela não entende uma palavra, pergunta: «Pode repetir, por favor?». Depois, os dois repetem as palavras mais importantes e criam um exemplo pequeno para cada uma.\n\nAntes de voltar para casa, Luana agradece a Rafael. Ela diz que escutar, falar e repetir ajudam a ter mais confiança. Rafael concorda e propõe um novo encontro amanhã. Luana volta para casa feliz e escreve no caderno as palavras novas do dia."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "id": "portuguese-a1-um-cafe-na-padaria-reading-comprehension-1",
+        "id": "portuguese-a1-um-cafe-na-padaria-reading-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Qual é o objetivo principal de \"Um café na padaria\"?",
+        "prompt": "Onde Luana está?",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Um café na padaria",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "Recife",
+          "Salvador",
+          "Rio de Janeiro",
+          "Brasília"
         ]
       },
       {
-        "id": "portuguese-a1-um-cafe-na-padaria-reading-comprehension-2",
+        "id": "portuguese-a1-um-cafe-na-padaria-reading-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Qual afirmação resume melhor \"Um café na padaria\"?",
+        "prompt": "Com quem Luana conversa?",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Um café na padaria",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "Rafael",
+          "Pedro",
+          "Marina",
+          "Carlos"
         ]
       },
       {
         "id": "portuguese-a1-um-cafe-na-padaria-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Que ideia central aparece em \"Um café na padaria\"?",
+        "prompt": "Escolha a palavra que falta na leitura.\n\n“Depois, os dois repetem as palavras mais _____ e criam um exemplo pequeno para cada uma.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Um café na padaria",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "conversa",
+          "palavras",
+          "importantes",
+          "semplici"
         ]
       },
       {
         "id": "portuguese-a1-um-cafe-na-padaria-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Que detalhe é essencial em \"Um café na padaria\"?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“Luana volta para casa feliz e _____ no caderno as palavras novas do dia.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Um café na padaria",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "repetem",
+          "exemplo",
+          "pequeno",
+          "escreve"
         ]
       }
     ]
@@ -5138,56 +5138,56 @@
       {
         "id": "portuguese-a2-um-fim-de-semana-em-salvador-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Qual é o objetivo principal de \"Um fim de semana em Salvador\"?",
+        "prompt": "Complete este detalhe da leitura.\n\n“Luana mora em Recife e conversa com Rafael sobre como fazer _____.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Um fim de semana em Salvador",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "planos",
+          "Recife",
+          "Rafael",
+          "bairro"
         ]
       },
       {
         "id": "portuguese-a2-um-fim-de-semana-em-salvador-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Qual afirmação resume melhor \"Um fim de semana em Salvador\"?",
+        "prompt": "Qual palavra completa esta frase do texto?\n\n“Luana diz: “_____ de visitar o museu.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Um fim de semana em Salvador",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-a2-um-fim-de-semana-em-salvador-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Que ideia central aparece em \"Um fim de semana em Salvador\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Um fim de semana em Salvador",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-a2-um-fim-de-semana-em-salvador-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Que detalhe é essencial em \"Um fim de semana em Salvador\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Um fim de semana em Salvador",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "conversa",
+          "Gostaria",
+          "visitar",
+          "explica"
         ]
       },
       {
         "id": "portuguese-a2-um-fim-de-semana-em-salvador-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Que conclusão o texto permite tirar sobre \"Um fim de semana em Salvador\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“No final, Luana escreve: “Gostaria de _____ o museu.”.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Um fim de semana em Salvador",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "visitar",
+          "explica",
+          "cultura",
+          "aprende"
+        ]
+      },
+      {
+        "id": "portuguese-a2-um-fim-de-semana-em-salvador-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“No final, Luana escreve: “Gostaria de _____ o museu.”.”",
+        "options": [
+          "visitar",
+          "explica",
+          "cultura",
+          "aprende"
+        ]
+      },
+      {
+        "id": "portuguese-a2-um-fim-de-semana-em-salvador-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“No final, Luana escreve: “Gostaria de _____ o museu.”.”",
+        "options": [
+          "visitar",
+          "explica",
+          "cultura",
+          "aprende"
         ]
       }
     ]
@@ -5540,92 +5540,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Viagens com respeito: palavras»?",
+            "prompt": "Complete este detalhe do áudio.\n\n“No tema «Viagens com respeito», um pequeno grupo da comunidade conversa sobre roteiro, reserva e _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Viagens com respeito», um pequeno grupo da comunidade conversa sobre roteiro, reserva e paisagem."
+                "text": "paisagem"
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "grupo"
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "conta"
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "experiência"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «No tema «Viagens com respeito», um pequeno grupo da comunidade…» in «Viagens com respeito: palavras»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Cada _____ conta uma experiência, escuta as outras e propõe uma solução concreta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Viagens com respeito», um pequeno grupo da comunidade conversa sobre roteiro, reserva e paisagem."
+                "text": "experiência"
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "pessoa"
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "importantes"
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "comunidade"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Viagens com respeito: palavras»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“No final, decidem colaborar porque um objetivo claro ajuda a _____ a vida cotidiana.”",
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Viagens com respeito», um pequeno grupo da comunidade conversa sobre roteiro, reserva e paisagem."
+                "text": "grupo"
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "conta"
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "melhorar"
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "experiência"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Viagens com respeito: palavras»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Depois, o grupo _____ as ideias mais importantes.”",
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Viagens com respeito», um pequeno grupo da comunidade conversa sobre roteiro, reserva e paisagem."
+                "text": "experiência"
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "importantes"
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "comunidade"
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "resume"
               }
             ]
           }
@@ -5636,42 +5636,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Viagens com respeito: palavras»?",
+        "prompt": "Complete este detalhe do áudio.\n\n“No tema «Viagens com respeito», um pequeno grupo da comunidade conversa sobre roteiro, reserva e _____.”",
         "options": [
-          "No tema «Viagens com respeito», um pequeno grupo da comunidade conversa sobre roteiro, reserva e paisagem.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "paisagem",
+          "grupo",
+          "conta",
+          "experiência"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «No tema «Viagens com respeito», um pequeno grupo da comunidade…» in «Viagens com respeito: palavras»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Cada _____ conta uma experiência, escuta as outras e propõe uma solução concreta.”",
         "options": [
-          "No tema «Viagens com respeito», um pequeno grupo da comunidade conversa sobre roteiro, reserva e paisagem.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "experiência",
+          "pessoa",
+          "importantes",
+          "comunidade"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Viagens com respeito: palavras»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“No final, decidem colaborar porque um objetivo claro ajuda a _____ a vida cotidiana.”",
         "options": [
-          "No tema «Viagens com respeito», um pequeno grupo da comunidade conversa sobre roteiro, reserva e paisagem.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "grupo",
+          "conta",
+          "melhorar",
+          "experiência"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Viagens com respeito: palavras»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Depois, o grupo _____ as ideias mais importantes.”",
         "options": [
-          "No tema «Viagens com respeito», um pequeno grupo da comunidade conversa sobre roteiro, reserva e paisagem.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "experiência",
+          "importantes",
+          "comunidade",
+          "resume"
         ]
       }
     ]
@@ -5966,92 +5966,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Cidade e mobilidade · Compreensão oral»?",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Cidade e mobilidade, duas pessoas comparam suas _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Cidade e mobilidade, duas pessoas comparam suas posições."
+                "text": "posições"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que traffico só é útil quando é explicado com exemplos verificáveis."
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: abbonamento pode mudar a perspectiva de quem escuta."
+                "text": "verificáveis"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "Neste"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «Neste episódio sobre Cidade e mobilidade, duas pessoas comparam suas…» in «Cidade e mobilidade · Compreensão oral»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Cidade e mobilidade, duas pessoas comparam suas posições."
+                "text": "consequências"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que traffico só é útil quando é explicado com exemplos verificáveis."
+                "text": "traffico"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: abbonamento pode mudar a perspectiva de quem escuta."
+                "text": "verificáveis"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "Neste"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Cidade e mobilidade · Compreensão oral»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Cidade e mobilidade, duas pessoas comparam suas posições."
+                "text": "episódio"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que traffico só é útil quando é explicado com exemplos verificáveis."
+                "text": "comparam"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: abbonamento pode mudar a perspectiva de quem escuta."
+                "text": "abbonamento"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "posições"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Cidade e mobilidade · Compreensão oral»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Cidade e mobilidade, duas pessoas comparam suas posições."
+                "text": "consequências"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que traffico só é útil quando é explicado com exemplos verificáveis."
+                "text": "verificáveis"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: abbonamento pode mudar a perspectiva de quem escuta."
+                "text": "considerado"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "clareza"
               }
             ]
           }
@@ -6071,42 +6071,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Cidade e mobilidade · Compreensão oral»?",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Cidade e mobilidade, duas pessoas comparam suas _____.”",
         "options": [
-          "Neste episódio sobre Cidade e mobilidade, duas pessoas comparam suas posições.",
-          "A outra acrescenta que traffico só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: abbonamento pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "posições",
+          "consequências",
+          "verificáveis",
+          "Neste"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «Neste episódio sobre Cidade e mobilidade, duas pessoas comparam suas…» in «Cidade e mobilidade · Compreensão oral»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
         "options": [
-          "Neste episódio sobre Cidade e mobilidade, duas pessoas comparam suas posições.",
-          "A outra acrescenta que traffico só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: abbonamento pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "consequências",
+          "traffico",
+          "verificáveis",
+          "Neste"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Cidade e mobilidade · Compreensão oral»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
         "options": [
-          "Neste episódio sobre Cidade e mobilidade, duas pessoas comparam suas posições.",
-          "A outra acrescenta que traffico só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: abbonamento pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "episódio",
+          "comparam",
+          "abbonamento",
+          "posições"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Cidade e mobilidade · Compreensão oral»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
         "options": [
-          "Neste episódio sobre Cidade e mobilidade, duas pessoas comparam suas posições.",
-          "A outra acrescenta que traffico só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: abbonamento pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "consequências",
+          "verificáveis",
+          "considerado",
+          "clareza"
         ]
       }
     ]
@@ -6173,92 +6173,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Inovação e sociedade · Compreensão oral»?",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Inovação e sociedade, duas pessoas comparam suas _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Inovação e sociedade, duas pessoas comparam suas posições."
+                "text": "posições"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que accesso só é útil quando é explicado com exemplos verificáveis."
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: divario pode mudar a perspectiva de quem escuta."
+                "text": "verificáveis"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "Neste"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «Neste episódio sobre Inovação e sociedade, duas pessoas comparam suas…» in «Inovação e sociedade · Compreensão oral»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Inovação e sociedade, duas pessoas comparam suas posições."
+                "text": "consequências"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que accesso só é útil quando é explicado com exemplos verificáveis."
+                "text": "accesso"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: divario pode mudar a perspectiva de quem escuta."
+                "text": "verificáveis"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "innovazione"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Inovação e sociedade · Compreensão oral»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Inovação e sociedade, duas pessoas comparam suas posições."
+                "text": "consequências"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que accesso só é útil quando é explicado com exemplos verificáveis."
+                "text": "verificáveis"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: divario pode mudar a perspectiva de quem escuta."
+                "text": "divario"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "innovazione"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Inovação e sociedade · Compreensão oral»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Inovação e sociedade, duas pessoas comparam suas posições."
+                "text": "consequências"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que accesso só é útil quando é explicado com exemplos verificáveis."
+                "text": "verificáveis"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: divario pode mudar a perspectiva de quem escuta."
+                "text": "innovazione"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "clareza"
               }
             ]
           }
@@ -6278,42 +6278,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Inovação e sociedade · Compreensão oral»?",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Inovação e sociedade, duas pessoas comparam suas _____.”",
         "options": [
-          "Neste episódio sobre Inovação e sociedade, duas pessoas comparam suas posições.",
-          "A outra acrescenta que accesso só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: divario pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "posições",
+          "consequências",
+          "verificáveis",
+          "Neste"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «Neste episódio sobre Inovação e sociedade, duas pessoas comparam suas…» in «Inovação e sociedade · Compreensão oral»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
         "options": [
-          "Neste episódio sobre Inovação e sociedade, duas pessoas comparam suas posições.",
-          "A outra acrescenta que accesso só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: divario pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "consequências",
+          "accesso",
+          "verificáveis",
+          "innovazione"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Inovação e sociedade · Compreensão oral»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
         "options": [
-          "Neste episódio sobre Inovação e sociedade, duas pessoas comparam suas posições.",
-          "A outra acrescenta que accesso só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: divario pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "consequências",
+          "verificáveis",
+          "divario",
+          "innovazione"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Inovação e sociedade · Compreensão oral»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
         "options": [
-          "Neste episódio sobre Inovação e sociedade, duas pessoas comparam suas posições.",
-          "A outra acrescenta que accesso só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: divario pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "consequências",
+          "verificáveis",
+          "innovazione",
+          "clareza"
         ]
       }
     ]
@@ -6380,92 +6380,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Políticas públicas · Compreensão oral»?",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Políticas públicas, duas pessoas comparam suas _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Políticas públicas, duas pessoas comparam suas posições."
+                "text": "posições"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que impatto só é útil quando é explicado com exemplos verificáveis."
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: criterio pode mudar a perspectiva de quem escuta."
+                "text": "verificáveis"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "Neste"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «Neste episódio sobre Políticas públicas, duas pessoas comparam suas…» in «Políticas públicas · Compreensão oral»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Políticas públicas, duas pessoas comparam suas posições."
+                "text": "consequências"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que impatto só é útil quando é explicado com exemplos verificáveis."
+                "text": "impatto"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: criterio pode mudar a perspectiva de quem escuta."
+                "text": "verificáveis"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "considerado"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Políticas públicas · Compreensão oral»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Políticas públicas, duas pessoas comparam suas posições."
+                "text": "consequências"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que impatto só é útil quando é explicado com exemplos verificáveis."
+                "text": "verificáveis"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: criterio pode mudar a perspectiva de quem escuta."
+                "text": "criterio"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "Neste"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Políticas públicas · Compreensão oral»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Políticas públicas, duas pessoas comparam suas posições."
+                "text": "consequências"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que impatto só é útil quando é explicado com exemplos verificáveis."
+                "text": "verificáveis"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: criterio pode mudar a perspectiva de quem escuta."
+                "text": "considerado"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "clareza"
               }
             ]
           }
@@ -6485,42 +6485,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Políticas públicas · Compreensão oral»?",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Políticas públicas, duas pessoas comparam suas _____.”",
         "options": [
-          "Neste episódio sobre Políticas públicas, duas pessoas comparam suas posições.",
-          "A outra acrescenta que impatto só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: criterio pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "posições",
+          "consequências",
+          "verificáveis",
+          "Neste"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «Neste episódio sobre Políticas públicas, duas pessoas comparam suas…» in «Políticas públicas · Compreensão oral»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
         "options": [
-          "Neste episódio sobre Políticas públicas, duas pessoas comparam suas posições.",
-          "A outra acrescenta que impatto só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: criterio pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "consequências",
+          "impatto",
+          "verificáveis",
+          "considerado"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Políticas públicas · Compreensão oral»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
         "options": [
-          "Neste episódio sobre Políticas públicas, duas pessoas comparam suas posições.",
-          "A outra acrescenta que impatto só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: criterio pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "consequências",
+          "verificáveis",
+          "criterio",
+          "Neste"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Políticas públicas · Compreensão oral»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
         "options": [
-          "Neste episódio sobre Políticas públicas, duas pessoas comparam suas posições.",
-          "A outra acrescenta que impatto só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: criterio pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "consequências",
+          "verificáveis",
+          "considerado",
+          "clareza"
         ]
       }
     ]
@@ -6578,92 +6578,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «Um café na padaria: ouça», which detail establishes the situation?",
+            "prompt": "Complete este detalhe do áudio.\n\n“Um café, por _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Um café, por favor."
+                "text": "favor"
               },
               {
                 "id": "o2",
-                "text": "Falamos de café."
+                "text": "comunidade"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "aprender"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "praticar"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «Um café, por favor.», what happens next in «Um café na padaria: ouça»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“_____ de café.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Um café, por favor."
+                "text": "café"
               },
               {
                 "id": "o2",
-                "text": "Falamos de café."
+                "text": "Falamos"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "comunidade"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "favor"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «Um café na padaria: ouça»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Um café, por favor."
+                "text": "comunidade"
               },
               {
                 "id": "o2",
-                "text": "Falamos de café."
+                "text": "aprender"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "Gosto"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "praticar"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «Um café na padaria: ouça» after «Gosto de aprender com a comunidade.»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Um café, por favor."
+                "text": "favor"
               },
               {
                 "id": "o2",
-                "text": "Falamos de café."
+                "text": "Gosto"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "Vamos"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "praticar"
               }
             ]
           }
@@ -6674,42 +6674,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «Um café na padaria: ouça», which detail establishes the situation?",
+        "prompt": "Complete este detalhe do áudio.\n\n“Um café, por _____.”",
         "options": [
-          "Um café, por favor.",
-          "Falamos de café.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "favor",
+          "comunidade",
+          "aprender",
+          "praticar"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «Um café, por favor.», what happens next in «Um café na padaria: ouça»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“_____ de café.”",
         "options": [
-          "Um café, por favor.",
-          "Falamos de café.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "café",
+          "Falamos",
+          "comunidade",
+          "favor"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «Um café na padaria: ouça»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
         "options": [
-          "Um café, por favor.",
-          "Falamos de café.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "comunidade",
+          "aprender",
+          "Gosto",
+          "praticar"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «Um café na padaria: ouça» after «Gosto de aprender com a comunidade.»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
         "options": [
-          "Um café, por favor.",
-          "Falamos de café.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "favor",
+          "Gosto",
+          "Vamos",
+          "praticar"
         ]
       }
     ]
@@ -6767,92 +6767,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «Um fim de semana em Salvador: ouça», which detail establishes the situation?",
+            "prompt": "Complete este detalhe do áudio.\n\n“Gostaria de _____ o museu.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Gostaria de visitar o museu."
+                "text": "visitar"
               },
               {
                 "id": "o2",
-                "text": "Falamos de museu."
+                "text": "comunidade"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "museu"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "Gosto"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «Gostaria de visitar o museu.», what happens next in «Um fim de semana em Salvador: ouça»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“_____ de museu.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Gostaria de visitar o museu."
+                "text": "comunidade"
               },
               {
                 "id": "o2",
-                "text": "Falamos de museu."
+                "text": "Falamos"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "museu"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "Gosto"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «Um fim de semana em Salvador: ouça»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Gostaria de visitar o museu."
+                "text": "comunidade"
               },
               {
                 "id": "o2",
-                "text": "Falamos de museu."
+                "text": "Gostaria"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "Gosto"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "aprender"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «Um fim de semana em Salvador: ouça» after «Gosto de aprender com a comunidade.»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Gostaria de visitar o museu."
+                "text": "museu"
               },
               {
                 "id": "o2",
-                "text": "Falamos de museu."
+                "text": "Gosto"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "Vamos"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "praticar"
               }
             ]
           }
@@ -6863,42 +6863,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «Um fim de semana em Salvador: ouça», which detail establishes the situation?",
+        "prompt": "Complete este detalhe do áudio.\n\n“Gostaria de _____ o museu.”",
         "options": [
-          "Gostaria de visitar o museu.",
-          "Falamos de museu.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "visitar",
+          "comunidade",
+          "museu",
+          "Gosto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «Gostaria de visitar o museu.», what happens next in «Um fim de semana em Salvador: ouça»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“_____ de museu.”",
         "options": [
-          "Gostaria de visitar o museu.",
-          "Falamos de museu.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "comunidade",
+          "Falamos",
+          "museu",
+          "Gosto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «Um fim de semana em Salvador: ouça»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
         "options": [
-          "Gostaria de visitar o museu.",
-          "Falamos de museu.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "comunidade",
+          "Gostaria",
+          "Gosto",
+          "aprender"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «Um fim de semana em Salvador: ouça» after «Gosto de aprender com a comunidade.»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
         "options": [
-          "Gostaria de visitar o museu.",
-          "Falamos de museu.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "museu",
+          "Gosto",
+          "Vamos",
+          "praticar"
         ]
       }
     ]
@@ -8706,56 +8706,56 @@
       {
         "id": "portuguese-b1-saude-e-equilibrio-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Saúde e equilíbrio\"?",
+        "prompt": "Complete este detalhe da leitura.\n\n“Para Elena, buscar equilíbrio duradouro tornou-se um assunto concreto depois de uma reunião em um centro _____.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Saúde e equilíbrio",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-b1-saude-e-equilibrio-reading-comprehension-2",
-        "type": "mcq",
-        "prompt": "Qual afirmacao resume melhor \"Saúde e equilíbrio\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Saúde e equilíbrio",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-b1-saude-e-equilibrio-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Saúde e equilíbrio\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Saúde e equilíbrio",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-b1-saude-e-equilibrio-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Qual afirmacao resume melhor \"Saúde e equilíbrio\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Saúde e equilíbrio",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "comunitário",
+          "experiência",
+          "equilíbrio",
+          "participar"
         ]
       },
       {
         "id": "portuguese-b1-saude-e-equilibrio-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Saúde e equilíbrio\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Elena não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Saúde e equilíbrio",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "aprender",
+          "concreto",
+          "pesquisa",
+          "conversa"
+        ]
+      },
+      {
+        "id": "portuguese-b1-saude-e-equilibrio-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Elena não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
+        "options": [
+          "aprender",
+          "concreto",
+          "pesquisa",
+          "conversa"
+        ]
+      },
+      {
+        "id": "portuguese-b1-saude-e-equilibrio-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Elena não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
+        "options": [
+          "aprender",
+          "concreto",
+          "pesquisa",
+          "conversa"
+        ]
+      },
+      {
+        "id": "portuguese-b1-saude-e-equilibrio-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Elena não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
+        "options": [
+          "aprender",
+          "concreto",
+          "pesquisa",
+          "conversa"
         ]
       }
     ]
@@ -8847,36 +8847,36 @@
         ]
       },
       {
-        "id": "portuguese-b2-b2-trabalho-e-competencias-reading-comprehension-3",
+        "id": "portuguese-b2-b2-trabalho-e-competencias-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Trabalho e competências · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Trabalho e competências · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-b2-b2-trabalho-e-competencias-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Qual afirmacao resume melhor \"Trabalho e competências · Leitura\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Trabalho e competências · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "esperienza",
+          "diferentes",
+          "colloquio"
         ]
       },
       {
         "id": "portuguese-b2-b2-trabalho-e-competencias-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Trabalho e competências · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Trabalho e competências · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "esperienza",
+          "diferentes",
+          "colloquio"
+        ]
+      },
+      {
+        "id": "portuguese-b2-b2-trabalho-e-competencias-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
+        "options": [
+          "respeitosa",
+          "esperienza",
+          "diferentes",
+          "colloquio"
         ]
       }
     ]
@@ -8968,36 +8968,36 @@
         ]
       },
       {
-        "id": "portuguese-c1-c1-etica-e-decisoes-reading-comprehension-3",
+        "id": "portuguese-c1-c1-etica-e-decisoes-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Ética e decisões · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Ética e decisões · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-c1-c1-etica-e-decisoes-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Qual afirmacao resume melhor \"Ética e decisões · Leitura\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Ética e decisões · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "diferentes",
+          "principio",
+          "justifica"
         ]
       },
       {
         "id": "portuguese-c1-c1-etica-e-decisoes-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Ética e decisões · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Ética e decisões · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "diferentes",
+          "principio",
+          "justifica"
+        ]
+      },
+      {
+        "id": "portuguese-c1-c1-etica-e-decisoes-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
+        "options": [
+          "respeitosa",
+          "diferentes",
+          "principio",
+          "justifica"
         ]
       }
     ]
@@ -9089,36 +9089,36 @@
         ]
       },
       {
-        "id": "portuguese-c2-c2-conhecimento-e-incerteza-reading-comprehension-3",
+        "id": "portuguese-c2-c2-conhecimento-e-incerteza-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Conhecimento e incerteza · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Conhecimento e incerteza · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-c2-c2-conhecimento-e-incerteza-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Qual afirmacao resume melhor \"Conhecimento e incerteza · Leitura\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Conhecimento e incerteza · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "diferentes",
+          "incerteza",
+          "probabilità"
         ]
       },
       {
         "id": "portuguese-c2-c2-conhecimento-e-incerteza-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Conhecimento e incerteza · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Conhecimento e incerteza · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "diferentes",
+          "incerteza",
+          "probabilità"
+        ]
+      },
+      {
+        "id": "portuguese-c2-c2-conhecimento-e-incerteza-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
+        "options": [
+          "respeitosa",
+          "diferentes",
+          "incerteza",
+          "probabilità"
         ]
       }
     ]
@@ -9133,7 +9133,7 @@
     "isFree": true,
     "xpReward": 25,
     "orderIndex": 30,
-    "estimatedMinutes": 8,
+    "estimatedMinutes": 10,
     "description": "Una comida familiar cotidiana",
     "intro": "Una comida familiar cotidiana",
     "mission": "",
@@ -9144,63 +9144,63 @@
     "reading": {
       "title": "Família e almoço",
       "parts": [
-        "Luana está em Recife. Hoje aprende a falar da família. Encontra Rafael e diz: “A família almoça junta.”. Os dois conversam com respeito e aprendem quatro palavras novas: família, almoço, mesa e juntos.",
-        "Rafael faz uma pergunta simples e Luana responde com uma frase curta. A conversa mostra que a cultura se aprende escutando e participando.",
-        "No final, Luana escreve: “A família almoça junta.”."
+        "Hoje Luana está em Recife. Ela encontra Rafael no bairro e o cumprimenta com um sorriso. Os dois falam devagar e escutam com atenção. Luana quer usar o português em uma situação real, por isso tenta uma frase simples e Rafael responde com gentileza.",
+        "Na conversa, eles usam palavras úteis da lição: parole semplici. Rafael faz uma pergunta e Luana responde sem pressa. Quando ela não entende uma palavra, pergunta: «Pode repetir, por favor?». Depois, os dois repetem as palavras mais importantes e criam um exemplo pequeno para cada uma.",
+        "Antes de voltar para casa, Luana agradece a Rafael. Ela diz que escutar, falar e repetir ajudam a ter mais confiança. Rafael concorda e propõe um novo encontro amanhã. Luana volta para casa feliz e escreve no caderno as palavras novas do dia."
       ],
       "questions": [
-        "Onde está Luana?",
+        "Onde Luana está?",
         "Com quem Luana conversa?",
-        "Qual frase Luana usa?",
-        "Por que a experiência é importante?"
+        "O que Luana pergunta quando não entende uma palavra?",
+        "Por que Luana repete as palavras?"
       ],
-      "text": "Luana está em Recife. Hoje aprende a falar da família. Encontra Rafael e diz: “A família almoça junta.”. Os dois conversam com respeito e aprendem quatro palavras novas: família, almoço, mesa e juntos.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. A conversa mostra que a cultura se aprende escutando e participando.\n\nNo final, Luana escreve: “A família almoça junta.”."
+      "text": "Hoje Luana está em Recife. Ela encontra Rafael no bairro e o cumprimenta com um sorriso. Os dois falam devagar e escutam com atenção. Luana quer usar o português em uma situação real, por isso tenta uma frase simples e Rafael responde com gentileza.\n\nNa conversa, eles usam palavras úteis da lição: parole semplici. Rafael faz uma pergunta e Luana responde sem pressa. Quando ela não entende uma palavra, pergunta: «Pode repetir, por favor?». Depois, os dois repetem as palavras mais importantes e criam um exemplo pequeno para cada uma.\n\nAntes de voltar para casa, Luana agradece a Rafael. Ela diz que escutar, falar e repetir ajudam a ter mais confiança. Rafael concorda e propõe um novo encontro amanhã. Luana volta para casa feliz e escreve no caderno as palavras novas do dia."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "id": "portuguese-a1-familia-e-almoco-reading-comprehension-1",
+        "id": "portuguese-a1-familia-e-almoco-reading-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Qual é o objetivo principal de \"Família e almoço\"?",
+        "prompt": "Onde Luana está?",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Família e almoço",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "Recife",
+          "Salvador",
+          "Rio de Janeiro",
+          "Brasília"
         ]
       },
       {
-        "id": "portuguese-a1-familia-e-almoco-reading-comprehension-2",
+        "id": "portuguese-a1-familia-e-almoco-reading-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Qual afirmação resume melhor \"Família e almoço\"?",
+        "prompt": "Com quem Luana conversa?",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Família e almoço",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "Rafael",
+          "Pedro",
+          "Marina",
+          "Carlos"
         ]
       },
       {
         "id": "portuguese-a1-familia-e-almoco-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Que ideia central aparece em \"Família e almoço\"?",
+        "prompt": "Escolha a palavra que falta na leitura.\n\n“Depois, os dois repetem as palavras mais _____ e criam um exemplo pequeno para cada uma.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Família e almoço",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "conversa",
+          "palavras",
+          "importantes",
+          "semplici"
         ]
       },
       {
         "id": "portuguese-a1-familia-e-almoco-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Que detalhe é essencial em \"Família e almoço\"?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“Luana volta para casa feliz e _____ no caderno as palavras novas do dia.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Família e almoço",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "repetem",
+          "exemplo",
+          "pequeno",
+          "escreve"
         ]
       }
     ]
@@ -9244,56 +9244,56 @@
       {
         "id": "portuguese-a2-receitas-e-memorias-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Qual é o objetivo principal de \"Receitas e memórias\"?",
+        "prompt": "Complete este detalhe da leitura.\n\n“Luana mora em Recife e conversa com Rafael sobre como explicar _____.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Receitas e memórias",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "sequência",
+          "escutando",
+          "conversa",
+          "explicar"
         ]
       },
       {
         "id": "portuguese-a2-receitas-e-memorias-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Qual afirmação resume melhor \"Receitas e memórias\"?",
+        "prompt": "Qual palavra completa esta frase do texto?\n\n“Luana diz: “_____ corto os legumes.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Receitas e memórias",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-a2-receitas-e-memorias-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Que ideia central aparece em \"Receitas e memórias\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Receitas e memórias",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-a2-receitas-e-memorias-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Que detalhe é essencial em \"Receitas e memórias\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Receitas e memórias",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "conversa",
+          "Primeiro",
+          "explicar",
+          "sequência"
         ]
       },
       {
         "id": "portuguese-a2-receitas-e-memorias-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Que conclusão o texto permite tirar sobre \"Receitas e memórias\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“No final, Luana escreve: “Primeiro corto os _____.”.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Receitas e memórias",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "legumes",
+          "explica",
+          "cultura",
+          "aprende"
+        ]
+      },
+      {
+        "id": "portuguese-a2-receitas-e-memorias-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“No final, Luana escreve: “Primeiro corto os _____.”.”",
+        "options": [
+          "legumes",
+          "explica",
+          "cultura",
+          "aprende"
+        ]
+      },
+      {
+        "id": "portuguese-a2-receitas-e-memorias-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“No final, Luana escreve: “Primeiro corto os _____.”.”",
+        "options": [
+          "legumes",
+          "explica",
+          "cultura",
+          "aprende"
         ]
       }
     ]
@@ -9646,92 +9646,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Saúde e equilíbrio: palavras»?",
+            "prompt": "Complete este detalhe do áudio.\n\n“No tema «Saúde e equilíbrio», um pequeno grupo da comunidade conversa sobre bem-estar, descanso e _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Saúde e equilíbrio», um pequeno grupo da comunidade conversa sobre bem-estar, descanso e exercício."
+                "text": "exercício"
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "pessoa"
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "escuta"
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "outras"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «No tema «Saúde e equilíbrio», um pequeno grupo da comunidade conversa…» in «Saúde e equilíbrio: palavras»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Cada _____ conta uma experiência, escuta as outras e propõe uma solução concreta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Saúde e equilíbrio», um pequeno grupo da comunidade conversa sobre bem-estar, descanso e exercício."
+                "text": "experiência"
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "pessoa"
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "importantes"
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "equilíbrio"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Saúde e equilíbrio: palavras»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“No final, decidem colaborar porque um objetivo claro ajuda a _____ a vida cotidiana.”",
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Saúde e equilíbrio», um pequeno grupo da comunidade conversa sobre bem-estar, descanso e exercício."
+                "text": "Saúde"
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "grupo"
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "melhorar"
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "conta"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Saúde e equilíbrio: palavras»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Depois, o grupo _____ as ideias mais importantes.”",
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Saúde e equilíbrio», um pequeno grupo da comunidade conversa sobre bem-estar, descanso e exercício."
+                "text": "experiência"
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "importantes"
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "equilíbrio"
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "resume"
               }
             ]
           }
@@ -9742,42 +9742,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Saúde e equilíbrio: palavras»?",
+        "prompt": "Complete este detalhe do áudio.\n\n“No tema «Saúde e equilíbrio», um pequeno grupo da comunidade conversa sobre bem-estar, descanso e _____.”",
         "options": [
-          "No tema «Saúde e equilíbrio», um pequeno grupo da comunidade conversa sobre bem-estar, descanso e exercício.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "exercício",
+          "pessoa",
+          "escuta",
+          "outras"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «No tema «Saúde e equilíbrio», um pequeno grupo da comunidade conversa…» in «Saúde e equilíbrio: palavras»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Cada _____ conta uma experiência, escuta as outras e propõe uma solução concreta.”",
         "options": [
-          "No tema «Saúde e equilíbrio», um pequeno grupo da comunidade conversa sobre bem-estar, descanso e exercício.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "experiência",
+          "pessoa",
+          "importantes",
+          "equilíbrio"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Saúde e equilíbrio: palavras»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“No final, decidem colaborar porque um objetivo claro ajuda a _____ a vida cotidiana.”",
         "options": [
-          "No tema «Saúde e equilíbrio», um pequeno grupo da comunidade conversa sobre bem-estar, descanso e exercício.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "Saúde",
+          "grupo",
+          "melhorar",
+          "conta"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Saúde e equilíbrio: palavras»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Depois, o grupo _____ as ideias mais importantes.”",
         "options": [
-          "No tema «Saúde e equilíbrio», um pequeno grupo da comunidade conversa sobre bem-estar, descanso e exercício.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "experiência",
+          "importantes",
+          "equilíbrio",
+          "resume"
         ]
       }
     ]
@@ -10072,92 +10072,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Trabalho e competências · Compreensão oral»?",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Trabalho e competências, duas pessoas comparam suas _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Trabalho e competências, duas pessoas comparam suas posições."
+                "text": "posições"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que esperienza só é útil quando é explicado com exemplos verificáveis."
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: candidatura pode mudar a perspectiva de quem escuta."
+                "text": "competências"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "verificáveis"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «Neste episódio sobre Trabalho e competências, duas pessoas comparam…» in «Trabalho e competências · Compreensão oral»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Trabalho e competências, duas pessoas comparam suas posições."
+                "text": "pessoas"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que esperienza só é útil quando é explicado com exemplos verificáveis."
+                "text": "esperienza"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: candidatura pode mudar a perspectiva de quem escuta."
+                "text": "observa"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "isolada"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Trabalho e competências · Compreensão oral»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Trabalho e competências, duas pessoas comparam suas posições."
+                "text": "episódio"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que esperienza só é útil quando é explicado com exemplos verificáveis."
+                "text": "Trabalho"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: candidatura pode mudar a perspectiva de quem escuta."
+                "text": "candidatura"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "comparam"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Trabalho e competências · Compreensão oral»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Trabalho e competências, duas pessoas comparam suas posições."
+                "text": "consequências"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que esperienza só é útil quando é explicado com exemplos verificáveis."
+                "text": "competências"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: candidatura pode mudar a perspectiva de quem escuta."
+                "text": "verificáveis"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "clareza"
               }
             ]
           }
@@ -10177,42 +10177,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Trabalho e competências · Compreensão oral»?",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Trabalho e competências, duas pessoas comparam suas _____.”",
         "options": [
-          "Neste episódio sobre Trabalho e competências, duas pessoas comparam suas posições.",
-          "A outra acrescenta que esperienza só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: candidatura pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "posições",
+          "consequências",
+          "competências",
+          "verificáveis"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «Neste episódio sobre Trabalho e competências, duas pessoas comparam…» in «Trabalho e competências · Compreensão oral»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
         "options": [
-          "Neste episódio sobre Trabalho e competências, duas pessoas comparam suas posições.",
-          "A outra acrescenta que esperienza só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: candidatura pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "pessoas",
+          "esperienza",
+          "observa",
+          "isolada"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Trabalho e competências · Compreensão oral»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
         "options": [
-          "Neste episódio sobre Trabalho e competências, duas pessoas comparam suas posições.",
-          "A outra acrescenta que esperienza só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: candidatura pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "episódio",
+          "Trabalho",
+          "candidatura",
+          "comparam"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Trabalho e competências · Compreensão oral»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
         "options": [
-          "Neste episódio sobre Trabalho e competências, duas pessoas comparam suas posições.",
-          "A outra acrescenta que esperienza só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: candidatura pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "consequências",
+          "competências",
+          "verificáveis",
+          "clareza"
         ]
       }
     ]
@@ -10279,92 +10279,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Ética e decisões · Compreensão oral»?",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Ética e decisões, duas pessoas comparam suas _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Ética e decisões, duas pessoas comparam suas posições."
+                "text": "posições"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que principio só é útil quando é explicado com exemplos verificáveis."
+                "text": "responsabilità"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: responsabilità pode mudar a perspectiva de quem escuta."
+                "text": "consequências"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "verificáveis"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «Neste episódio sobre Ética e decisões, duas pessoas comparam suas…» in «Ética e decisões · Compreensão oral»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Ética e decisões, duas pessoas comparam suas posições."
+                "text": "responsabilità"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que principio só é útil quando é explicado com exemplos verificáveis."
+                "text": "principio"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: responsabilità pode mudar a perspectiva de quem escuta."
+                "text": "consequências"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "produz"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Ética e decisões · Compreensão oral»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Ética e decisões, duas pessoas comparam suas posições."
+                "text": "considerado"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que principio só é útil quando é explicado com exemplos verificáveis."
+                "text": "dificuldade"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: responsabilità pode mudar a perspectiva de quem escuta."
+                "text": "responsabilità"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "perspectiva"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Ética e decisões · Compreensão oral»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Ética e decisões, duas pessoas comparam suas posições."
+                "text": "responsabilità"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que principio só é útil quando é explicado com exemplos verificáveis."
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: responsabilità pode mudar a perspectiva de quem escuta."
+                "text": "verificáveis"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "clareza"
               }
             ]
           }
@@ -10384,42 +10384,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Ética e decisões · Compreensão oral»?",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Ética e decisões, duas pessoas comparam suas _____.”",
         "options": [
-          "Neste episódio sobre Ética e decisões, duas pessoas comparam suas posições.",
-          "A outra acrescenta que principio só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: responsabilità pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "posições",
+          "responsabilità",
+          "consequências",
+          "verificáveis"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «Neste episódio sobre Ética e decisões, duas pessoas comparam suas…» in «Ética e decisões · Compreensão oral»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
         "options": [
-          "Neste episódio sobre Ética e decisões, duas pessoas comparam suas posições.",
-          "A outra acrescenta que principio só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: responsabilità pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "responsabilità",
+          "principio",
+          "consequências",
+          "produz"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Ética e decisões · Compreensão oral»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
         "options": [
-          "Neste episódio sobre Ética e decisões, duas pessoas comparam suas posições.",
-          "A outra acrescenta que principio só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: responsabilità pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "considerado",
+          "dificuldade",
+          "responsabilità",
+          "perspectiva"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Ética e decisões · Compreensão oral»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
         "options": [
-          "Neste episódio sobre Ética e decisões, duas pessoas comparam suas posições.",
-          "A outra acrescenta que principio só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: responsabilità pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "responsabilità",
+          "consequências",
+          "verificáveis",
+          "clareza"
         ]
       }
     ]
@@ -10486,92 +10486,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Conhecimento e incerteza · Compreensão oral»?",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Conhecimento e incerteza, duas pessoas comparam suas _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Conhecimento e incerteza, duas pessoas comparam suas posições."
+                "text": "posições"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que probabilità só é útil quando é explicado com exemplos verificáveis."
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: evidenza pode mudar a perspectiva de quem escuta."
+                "text": "Conhecimento"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "verificáveis"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «Neste episódio sobre Conhecimento e incerteza, duas pessoas comparam…» in «Conhecimento e incerteza · Compreensão oral»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Conhecimento e incerteza, duas pessoas comparam suas posições."
+                "text": "episódio"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que probabilità só é útil quando é explicado com exemplos verificáveis."
+                "text": "probabilità"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: evidenza pode mudar a perspectiva de quem escuta."
+                "text": "comparam"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "posições"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Conhecimento e incerteza · Compreensão oral»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Conhecimento e incerteza, duas pessoas comparam suas posições."
+                "text": "consequências"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que probabilità só é útil quando é explicado com exemplos verificáveis."
+                "text": "Conhecimento"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: evidenza pode mudar a perspectiva de quem escuta."
+                "text": "evidenza"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "verificáveis"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Conhecimento e incerteza · Compreensão oral»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Conhecimento e incerteza, duas pessoas comparam suas posições."
+                "text": "consequências"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que probabilità só é útil quando é explicado com exemplos verificáveis."
+                "text": "Conhecimento"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: evidenza pode mudar a perspectiva de quem escuta."
+                "text": "verificáveis"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "clareza"
               }
             ]
           }
@@ -10591,42 +10591,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Conhecimento e incerteza · Compreensão oral»?",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Conhecimento e incerteza, duas pessoas comparam suas _____.”",
         "options": [
-          "Neste episódio sobre Conhecimento e incerteza, duas pessoas comparam suas posições.",
-          "A outra acrescenta que probabilità só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: evidenza pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "posições",
+          "consequências",
+          "Conhecimento",
+          "verificáveis"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «Neste episódio sobre Conhecimento e incerteza, duas pessoas comparam…» in «Conhecimento e incerteza · Compreensão oral»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
         "options": [
-          "Neste episódio sobre Conhecimento e incerteza, duas pessoas comparam suas posições.",
-          "A outra acrescenta que probabilità só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: evidenza pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "episódio",
+          "probabilità",
+          "comparam",
+          "posições"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Conhecimento e incerteza · Compreensão oral»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
         "options": [
-          "Neste episódio sobre Conhecimento e incerteza, duas pessoas comparam suas posições.",
-          "A outra acrescenta que probabilità só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: evidenza pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "consequências",
+          "Conhecimento",
+          "evidenza",
+          "verificáveis"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Conhecimento e incerteza · Compreensão oral»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
         "options": [
-          "Neste episódio sobre Conhecimento e incerteza, duas pessoas comparam suas posições.",
-          "A outra acrescenta que probabilità só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: evidenza pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "consequências",
+          "Conhecimento",
+          "verificáveis",
+          "clareza"
         ]
       }
     ]
@@ -10684,92 +10684,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «Família e almoço: ouça», which detail establishes the situation?",
+            "prompt": "Complete este detalhe do áudio.\n\n“A família _____ junta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "A família almoça junta."
+                "text": "almoça"
               },
               {
                 "id": "o2",
-                "text": "Falamos de família."
+                "text": "comunidade"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "aprender"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "praticar"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «A família almoça junta.», what happens next in «Família e almoço: ouça»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Falamos de _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "A família almoça junta."
+                "text": "comunidade"
               },
               {
                 "id": "o2",
-                "text": "Falamos de família."
+                "text": "família"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "junta"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "Gosto"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «Família e almoço: ouça»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
             "options": [
               {
                 "id": "o1",
-                "text": "A família almoça junta."
+                "text": "comunidade"
               },
               {
                 "id": "o2",
-                "text": "Falamos de família."
+                "text": "aprender"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "Gosto"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "praticar"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «Família e almoço: ouça» after «Gosto de aprender com a comunidade.»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
             "options": [
               {
                 "id": "o1",
-                "text": "A família almoça junta."
+                "text": "junta"
               },
               {
                 "id": "o2",
-                "text": "Falamos de família."
+                "text": "Gosto"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "Vamos"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "praticar"
               }
             ]
           }
@@ -10780,42 +10780,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «Família e almoço: ouça», which detail establishes the situation?",
+        "prompt": "Complete este detalhe do áudio.\n\n“A família _____ junta.”",
         "options": [
-          "A família almoça junta.",
-          "Falamos de família.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "almoça",
+          "comunidade",
+          "aprender",
+          "praticar"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «A família almoça junta.», what happens next in «Família e almoço: ouça»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Falamos de _____.”",
         "options": [
-          "A família almoça junta.",
-          "Falamos de família.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "comunidade",
+          "família",
+          "junta",
+          "Gosto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «Família e almoço: ouça»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
         "options": [
-          "A família almoça junta.",
-          "Falamos de família.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "comunidade",
+          "aprender",
+          "Gosto",
+          "praticar"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «Família e almoço: ouça» after «Gosto de aprender com a comunidade.»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
         "options": [
-          "A família almoça junta.",
-          "Falamos de família.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "junta",
+          "Gosto",
+          "Vamos",
+          "praticar"
         ]
       }
     ]
@@ -10873,92 +10873,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «Receitas e memórias: ouça», which detail establishes the situation?",
+            "prompt": "Complete este detalhe do áudio.\n\n“Primeiro corto os _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Primeiro corto os legumes."
+                "text": "legumes"
               },
               {
                 "id": "o2",
-                "text": "Falamos de receita."
+                "text": "comunidade"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "corto"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "Gosto"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «Primeiro corto os legumes.», what happens next in «Receitas e memórias: ouça»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Falamos de _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Primeiro corto os legumes."
+                "text": "comunidade"
               },
               {
                 "id": "o2",
-                "text": "Falamos de receita."
+                "text": "receita"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "corto"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "Gosto"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «Receitas e memórias: ouça»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Primeiro corto os legumes."
+                "text": "comunidade"
               },
               {
                 "id": "o2",
-                "text": "Falamos de receita."
+                "text": "Primeiro"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "Gosto"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "aprender"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «Receitas e memórias: ouça» after «Gosto de aprender com a comunidade.»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Primeiro corto os legumes."
+                "text": "corto"
               },
               {
                 "id": "o2",
-                "text": "Falamos de receita."
+                "text": "Gosto"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "Vamos"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "praticar"
               }
             ]
           }
@@ -10969,42 +10969,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «Receitas e memórias: ouça», which detail establishes the situation?",
+        "prompt": "Complete este detalhe do áudio.\n\n“Primeiro corto os _____.”",
         "options": [
-          "Primeiro corto os legumes.",
-          "Falamos de receita.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "legumes",
+          "comunidade",
+          "corto",
+          "Gosto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «Primeiro corto os legumes.», what happens next in «Receitas e memórias: ouça»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Falamos de _____.”",
         "options": [
-          "Primeiro corto os legumes.",
-          "Falamos de receita.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "comunidade",
+          "receita",
+          "corto",
+          "Gosto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «Receitas e memórias: ouça»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
         "options": [
-          "Primeiro corto os legumes.",
-          "Falamos de receita.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "comunidade",
+          "Primeiro",
+          "Gosto",
+          "aprender"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «Receitas e memórias: ouça» after «Gosto de aprender com a comunidade.»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
         "options": [
-          "Primeiro corto os legumes.",
-          "Falamos de receita.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "corto",
+          "Gosto",
+          "Vamos",
+          "praticar"
         ]
       }
     ]
@@ -12812,56 +12812,56 @@
       {
         "id": "portuguese-b1-cultura-e-informacao-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Cultura e informação\"?",
+        "prompt": "Complete este detalhe da leitura.\n\n“Para Julia, avaliar uma notícia tornou-se um assunto concreto depois de uma reunião em uma redação _____.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Cultura e informação",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-b1-cultura-e-informacao-reading-comprehension-2",
-        "type": "mcq",
-        "prompt": "Qual afirmacao resume melhor \"Cultura e informação\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Cultura e informação",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-b1-cultura-e-informacao-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Cultura e informação\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Cultura e informação",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-b1-cultura-e-informacao-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Qual afirmacao resume melhor \"Cultura e informação\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Cultura e informação",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "comunitária",
+          "experiência",
+          "participar",
+          "perspectivas"
         ]
       },
       {
         "id": "portuguese-b1-cultura-e-informacao-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Cultura e informação\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Julia não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Cultura e informação",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "aprender",
+          "concreto",
+          "pesquisa",
+          "conversa"
+        ]
+      },
+      {
+        "id": "portuguese-b1-cultura-e-informacao-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Julia não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
+        "options": [
+          "aprender",
+          "concreto",
+          "pesquisa",
+          "conversa"
+        ]
+      },
+      {
+        "id": "portuguese-b1-cultura-e-informacao-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Julia não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
+        "options": [
+          "aprender",
+          "concreto",
+          "pesquisa",
+          "conversa"
+        ]
+      },
+      {
+        "id": "portuguese-b1-cultura-e-informacao-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Julia não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
+        "options": [
+          "aprender",
+          "concreto",
+          "pesquisa",
+          "conversa"
         ]
       }
     ]
@@ -12953,36 +12953,36 @@
         ]
       },
       {
-        "id": "portuguese-b2-b2-ambiente-e-consumo-reading-comprehension-3",
+        "id": "portuguese-b2-b2-ambiente-e-consumo-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Ambiente e consumo · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Ambiente e consumo · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-b2-b2-ambiente-e-consumo-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Qual afirmacao resume melhor \"Ambiente e consumo · Leitura\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Ambiente e consumo · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "diferentes",
+          "justifica",
+          "discussão"
         ]
       },
       {
         "id": "portuguese-b2-b2-ambiente-e-consumo-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Ambiente e consumo · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Ambiente e consumo · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "diferentes",
+          "justifica",
+          "discussão"
+        ]
+      },
+      {
+        "id": "portuguese-b2-b2-ambiente-e-consumo-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
+        "options": [
+          "respeitosa",
+          "diferentes",
+          "justifica",
+          "discussão"
         ]
       }
     ]
@@ -13074,36 +13074,36 @@
         ]
       },
       {
-        "id": "portuguese-c1-c1-arte-e-interpretacao-reading-comprehension-3",
+        "id": "portuguese-c1-c1-arte-e-interpretacao-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Arte e interpretação · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Arte e interpretação · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-c1-c1-arte-e-interpretacao-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Qual afirmacao resume melhor \"Arte e interpretação · Leitura\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Arte e interpretação · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "linguaggio",
+          "diferentes",
+          "justifica"
         ]
       },
       {
         "id": "portuguese-c1-c1-arte-e-interpretacao-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Arte e interpretação · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Arte e interpretação · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "linguaggio",
+          "diferentes",
+          "justifica"
+        ]
+      },
+      {
+        "id": "portuguese-c1-c1-arte-e-interpretacao-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
+        "options": [
+          "respeitosa",
+          "linguaggio",
+          "diferentes",
+          "justifica"
         ]
       }
     ]
@@ -13195,36 +13195,36 @@
         ]
       },
       {
-        "id": "portuguese-c2-c2-narrativa-e-identidade-reading-comprehension-3",
+        "id": "portuguese-c2-c2-narrativa-e-identidade-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Narrativa e identidade · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Narrativa e identidade · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-c2-c2-narrativa-e-identidade-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Qual afirmacao resume melhor \"Narrativa e identidade · Leitura\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Narrativa e identidade · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "identidade",
+          "narrazione",
+          "diferentes"
         ]
       },
       {
         "id": "portuguese-c2-c2-narrativa-e-identidade-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Narrativa e identidade · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Narrativa e identidade · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "identidade",
+          "narrazione",
+          "diferentes"
+        ]
+      },
+      {
+        "id": "portuguese-c2-c2-narrativa-e-identidade-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
+        "options": [
+          "respeitosa",
+          "identidade",
+          "narrazione",
+          "diferentes"
         ]
       }
     ]
@@ -13239,7 +13239,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 40,
-    "estimatedMinutes": 8,
+    "estimatedMinutes": 10,
     "description": "Frutas, verduras y medidas en la feria",
     "intro": "Frutas, verduras y medidas en la feria",
     "mission": "",
@@ -13250,63 +13250,63 @@
     "reading": {
       "title": "A feira do bairro",
       "parts": [
-        "Luana está em Recife. Hoje aprende a comprar na feira. Encontra Rafael e diz: “Quanto custa um quilo?”. Os dois conversam com respeito e aprendem quatro palavras novas: banana, tomate, quilo e real.",
-        "Rafael faz uma pergunta simples e Luana responde com uma frase curta. A conversa mostra que a cultura se aprende escutando e participando.",
-        "No final, Luana escreve: “Quanto custa um quilo?”."
+        "Hoje Luana está em Recife. Ela encontra Rafael no bairro e o cumprimenta com um sorriso. Os dois falam devagar e escutam com atenção. Luana quer usar o português em uma situação real, por isso tenta uma frase simples e Rafael responde com gentileza.",
+        "Na conversa, eles usam palavras úteis da lição: parole semplici. Rafael faz uma pergunta e Luana responde sem pressa. Quando ela não entende uma palavra, pergunta: «Pode repetir, por favor?». Depois, os dois repetem as palavras mais importantes e criam um exemplo pequeno para cada uma.",
+        "Antes de voltar para casa, Luana agradece a Rafael. Ela diz que escutar, falar e repetir ajudam a ter mais confiança. Rafael concorda e propõe um novo encontro amanhã. Luana volta para casa feliz e escreve no caderno as palavras novas do dia."
       ],
       "questions": [
-        "Onde está Luana?",
+        "Onde Luana está?",
         "Com quem Luana conversa?",
-        "Qual frase Luana usa?",
-        "Por que a experiência é importante?"
+        "O que Luana pergunta quando não entende uma palavra?",
+        "Por que Luana repete as palavras?"
       ],
-      "text": "Luana está em Recife. Hoje aprende a comprar na feira. Encontra Rafael e diz: “Quanto custa um quilo?”. Os dois conversam com respeito e aprendem quatro palavras novas: banana, tomate, quilo e real.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. A conversa mostra que a cultura se aprende escutando e participando.\n\nNo final, Luana escreve: “Quanto custa um quilo?”."
+      "text": "Hoje Luana está em Recife. Ela encontra Rafael no bairro e o cumprimenta com um sorriso. Os dois falam devagar e escutam com atenção. Luana quer usar o português em uma situação real, por isso tenta uma frase simples e Rafael responde com gentileza.\n\nNa conversa, eles usam palavras úteis da lição: parole semplici. Rafael faz uma pergunta e Luana responde sem pressa. Quando ela não entende uma palavra, pergunta: «Pode repetir, por favor?». Depois, os dois repetem as palavras mais importantes e criam um exemplo pequeno para cada uma.\n\nAntes de voltar para casa, Luana agradece a Rafael. Ela diz que escutar, falar e repetir ajudam a ter mais confiança. Rafael concorda e propõe um novo encontro amanhã. Luana volta para casa feliz e escreve no caderno as palavras novas do dia."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "id": "portuguese-a1-a-feira-do-bairro-reading-comprehension-1",
+        "id": "portuguese-a1-a-feira-do-bairro-reading-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Qual é o objetivo principal de \"A feira do bairro\"?",
+        "prompt": "Onde Luana está?",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de A feira do bairro",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "Recife",
+          "Salvador",
+          "Rio de Janeiro",
+          "Brasília"
         ]
       },
       {
-        "id": "portuguese-a1-a-feira-do-bairro-reading-comprehension-2",
+        "id": "portuguese-a1-a-feira-do-bairro-reading-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Qual afirmação resume melhor \"A feira do bairro\"?",
+        "prompt": "Com quem Luana conversa?",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de A feira do bairro",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "Rafael",
+          "Pedro",
+          "Marina",
+          "Carlos"
         ]
       },
       {
         "id": "portuguese-a1-a-feira-do-bairro-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Que ideia central aparece em \"A feira do bairro\"?",
+        "prompt": "Escolha a palavra que falta na leitura.\n\n“Depois, os dois repetem as palavras mais _____ e criam um exemplo pequeno para cada uma.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de A feira do bairro",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "conversa",
+          "palavras",
+          "importantes",
+          "semplici"
         ]
       },
       {
         "id": "portuguese-a1-a-feira-do-bairro-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Que detalhe é essencial em \"A feira do bairro\"?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“Luana volta para casa feliz e _____ no caderno as palavras novas do dia.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de A feira do bairro",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "repetem",
+          "exemplo",
+          "pequeno",
+          "escreve"
         ]
       }
     ]
@@ -13350,56 +13350,56 @@
       {
         "id": "portuguese-a2-trabalho-e-pausa-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Qual é o objetivo principal de \"Trabalho e pausa\"?",
+        "prompt": "Complete este detalhe da leitura.\n\n“Luana mora em Recife e conversa com Rafael sobre como interagir no _____.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Trabalho e pausa",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "trabalho",
+          "conversa",
+          "interagir",
+          "explica"
         ]
       },
       {
         "id": "portuguese-a2-trabalho-e-pausa-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Qual afirmação resume melhor \"Trabalho e pausa\"?",
+        "prompt": "Qual palavra completa esta frase do texto?\n\n“Luana diz: “_____ fazer uma pausa?”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Trabalho e pausa",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-a2-trabalho-e-pausa-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Que ideia central aparece em \"Trabalho e pausa\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Trabalho e pausa",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-a2-trabalho-e-pausa-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Que detalhe é essencial em \"Trabalho e pausa\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Trabalho e pausa",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "Luana",
+          "Posso",
+          "fazer",
+          "pausa"
         ]
       },
       {
         "id": "portuguese-a2-trabalho-e-pausa-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Que conclusão o texto permite tirar sobre \"Trabalho e pausa\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“No final, Luana _____: “Posso fazer uma pausa?”.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Trabalho e pausa",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "escreve",
+          "explica",
+          "cultura",
+          "aprende"
+        ]
+      },
+      {
+        "id": "portuguese-a2-trabalho-e-pausa-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“No final, Luana _____: “Posso fazer uma pausa?”.”",
+        "options": [
+          "escreve",
+          "explica",
+          "cultura",
+          "aprende"
+        ]
+      },
+      {
+        "id": "portuguese-a2-trabalho-e-pausa-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“No final, Luana _____: “Posso fazer uma pausa?”.”",
+        "options": [
+          "escreve",
+          "explica",
+          "cultura",
+          "aprende"
         ]
       }
     ]
@@ -13752,92 +13752,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Cultura e informação: palavras»?",
+            "prompt": "Complete este detalhe do áudio.\n\n“No tema «Cultura e informação», um pequeno grupo da comunidade conversa sobre notícia, fonte e _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Cultura e informação», um pequeno grupo da comunidade conversa sobre notícia, fonte e público."
+                "text": "público"
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "experiência"
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "importantes"
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "tema"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «No tema «Cultura e informação», um pequeno grupo da comunidade…» in «Cultura e informação: palavras»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Cada _____ conta uma experiência, escuta as outras e propõe uma solução concreta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Cultura e informação», um pequeno grupo da comunidade conversa sobre notícia, fonte e público."
+                "text": "experiência"
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "pessoa"
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "importantes"
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "informação"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Cultura e informação: palavras»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“No final, decidem colaborar porque um objetivo claro ajuda a _____ a vida cotidiana.”",
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Cultura e informação», um pequeno grupo da comunidade conversa sobre notícia, fonte e público."
+                "text": "grupo"
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "fonte"
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "melhorar"
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "conta"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Cultura e informação: palavras»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Depois, o grupo _____ as ideias mais importantes.”",
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Cultura e informação», um pequeno grupo da comunidade conversa sobre notícia, fonte e público."
+                "text": "experiência"
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "importantes"
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "informação"
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "resume"
               }
             ]
           }
@@ -13848,42 +13848,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Cultura e informação: palavras»?",
+        "prompt": "Complete este detalhe do áudio.\n\n“No tema «Cultura e informação», um pequeno grupo da comunidade conversa sobre notícia, fonte e _____.”",
         "options": [
-          "No tema «Cultura e informação», um pequeno grupo da comunidade conversa sobre notícia, fonte e público.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "público",
+          "experiência",
+          "importantes",
+          "tema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «No tema «Cultura e informação», um pequeno grupo da comunidade…» in «Cultura e informação: palavras»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Cada _____ conta uma experiência, escuta as outras e propõe uma solução concreta.”",
         "options": [
-          "No tema «Cultura e informação», um pequeno grupo da comunidade conversa sobre notícia, fonte e público.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "experiência",
+          "pessoa",
+          "importantes",
+          "informação"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Cultura e informação: palavras»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“No final, decidem colaborar porque um objetivo claro ajuda a _____ a vida cotidiana.”",
         "options": [
-          "No tema «Cultura e informação», um pequeno grupo da comunidade conversa sobre notícia, fonte e público.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "grupo",
+          "fonte",
+          "melhorar",
+          "conta"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Cultura e informação: palavras»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Depois, o grupo _____ as ideias mais importantes.”",
         "options": [
-          "No tema «Cultura e informação», um pequeno grupo da comunidade conversa sobre notícia, fonte e público.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "experiência",
+          "importantes",
+          "informação",
+          "resume"
         ]
       }
     ]
@@ -14178,92 +14178,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Ambiente e consumo · Compreensão oral»?",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Ambiente e consumo, duas pessoas comparam suas _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Ambiente e consumo, duas pessoas comparam suas posições."
+                "text": "posições"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que raccolta só é útil quando é explicado com exemplos verificáveis."
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: spreco pode mudar a perspectiva de quem escuta."
+                "text": "verificáveis"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "Neste"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «Neste episódio sobre Ambiente e consumo, duas pessoas comparam suas…» in «Ambiente e consumo · Compreensão oral»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Ambiente e consumo, duas pessoas comparam suas posições."
+                "text": "consequências"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que raccolta só é útil quando é explicado com exemplos verificáveis."
+                "text": "raccolta"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: spreco pode mudar a perspectiva de quem escuta."
+                "text": "verificáveis"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "Neste"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Ambiente e consumo · Compreensão oral»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Ambiente e consumo, duas pessoas comparam suas posições."
+                "text": "consequências"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que raccolta só é útil quando é explicado com exemplos verificáveis."
+                "text": "verificáveis"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: spreco pode mudar a perspectiva de quem escuta."
+                "text": "spreco"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "considerado"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Ambiente e consumo · Compreensão oral»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Ambiente e consumo, duas pessoas comparam suas posições."
+                "text": "consequências"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que raccolta só é útil quando é explicado com exemplos verificáveis."
+                "text": "verificáveis"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: spreco pode mudar a perspectiva de quem escuta."
+                "text": "considerado"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "clareza"
               }
             ]
           }
@@ -14283,42 +14283,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Ambiente e consumo · Compreensão oral»?",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Ambiente e consumo, duas pessoas comparam suas _____.”",
         "options": [
-          "Neste episódio sobre Ambiente e consumo, duas pessoas comparam suas posições.",
-          "A outra acrescenta que raccolta só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: spreco pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "posições",
+          "consequências",
+          "verificáveis",
+          "Neste"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «Neste episódio sobre Ambiente e consumo, duas pessoas comparam suas…» in «Ambiente e consumo · Compreensão oral»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
         "options": [
-          "Neste episódio sobre Ambiente e consumo, duas pessoas comparam suas posições.",
-          "A outra acrescenta que raccolta só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: spreco pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "consequências",
+          "raccolta",
+          "verificáveis",
+          "Neste"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Ambiente e consumo · Compreensão oral»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
         "options": [
-          "Neste episódio sobre Ambiente e consumo, duas pessoas comparam suas posições.",
-          "A outra acrescenta que raccolta só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: spreco pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "consequências",
+          "verificáveis",
+          "spreco",
+          "considerado"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Ambiente e consumo · Compreensão oral»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
         "options": [
-          "Neste episódio sobre Ambiente e consumo, duas pessoas comparam suas posições.",
-          "A outra acrescenta que raccolta só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: spreco pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "consequências",
+          "verificáveis",
+          "considerado",
+          "clareza"
         ]
       }
     ]
@@ -14385,92 +14385,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Arte e interpretação · Compreensão oral»?",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Arte e interpretação, duas pessoas comparam suas _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Arte e interpretação, duas pessoas comparam suas posições."
+                "text": "posições"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que linguaggio só é útil quando é explicado com exemplos verificáveis."
+                "text": "interpretazione"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: interpretazione pode mudar a perspectiva de quem escuta."
+                "text": "interpretação"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "consequências"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «Neste episódio sobre Arte e interpretação, duas pessoas comparam suas…» in «Arte e interpretação · Compreensão oral»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Arte e interpretação, duas pessoas comparam suas posições."
+                "text": "interpretazione"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que linguaggio só é útil quando é explicado com exemplos verificáveis."
+                "text": "linguaggio"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: interpretazione pode mudar a perspectiva de quem escuta."
+                "text": "interpretação"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "pessoas"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Arte e interpretação · Compreensão oral»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Arte e interpretação, duas pessoas comparam suas posições."
+                "text": "verificáveis"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que linguaggio só é útil quando é explicado com exemplos verificáveis."
+                "text": "interpretação"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: interpretazione pode mudar a perspectiva de quem escuta."
+                "text": "interpretazione"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "consequências"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Arte e interpretação · Compreensão oral»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Arte e interpretação, duas pessoas comparam suas posições."
+                "text": "interpretazione"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que linguaggio só é útil quando é explicado com exemplos verificáveis."
+                "text": "interpretação"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: interpretazione pode mudar a perspectiva de quem escuta."
+                "text": "consequências"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "clareza"
               }
             ]
           }
@@ -14490,42 +14490,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Arte e interpretação · Compreensão oral»?",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Arte e interpretação, duas pessoas comparam suas _____.”",
         "options": [
-          "Neste episódio sobre Arte e interpretação, duas pessoas comparam suas posições.",
-          "A outra acrescenta que linguaggio só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: interpretazione pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "posições",
+          "interpretazione",
+          "interpretação",
+          "consequências"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «Neste episódio sobre Arte e interpretação, duas pessoas comparam suas…» in «Arte e interpretação · Compreensão oral»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
         "options": [
-          "Neste episódio sobre Arte e interpretação, duas pessoas comparam suas posições.",
-          "A outra acrescenta que linguaggio só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: interpretazione pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "interpretazione",
+          "linguaggio",
+          "interpretação",
+          "pessoas"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Arte e interpretação · Compreensão oral»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
         "options": [
-          "Neste episódio sobre Arte e interpretação, duas pessoas comparam suas posições.",
-          "A outra acrescenta que linguaggio só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: interpretazione pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "verificáveis",
+          "interpretação",
+          "interpretazione",
+          "consequências"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Arte e interpretação · Compreensão oral»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
         "options": [
-          "Neste episódio sobre Arte e interpretação, duas pessoas comparam suas posições.",
-          "A outra acrescenta que linguaggio só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: interpretazione pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "interpretazione",
+          "interpretação",
+          "consequências",
+          "clareza"
         ]
       }
     ]
@@ -14592,92 +14592,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Narrativa e identidade · Compreensão oral»?",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Narrativa e identidade, duas pessoas comparam suas _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Narrativa e identidade, duas pessoas comparam suas posições."
+                "text": "posições"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que memoria só é útil quando é explicado com exemplos verificáveis."
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: voce pode mudar a perspectiva de quem escuta."
+                "text": "verificáveis"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "Neste"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «Neste episódio sobre Narrativa e identidade, duas pessoas comparam…» in «Narrativa e identidade · Compreensão oral»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Narrativa e identidade, duas pessoas comparam suas posições."
+                "text": "consequências"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que memoria só é útil quando é explicado com exemplos verificáveis."
+                "text": "memoria"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: voce pode mudar a perspectiva de quem escuta."
+                "text": "verificáveis"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "considerado"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Narrativa e identidade · Compreensão oral»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: voce pode mudar a _____ de quem escuta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Narrativa e identidade, duas pessoas comparam suas posições."
+                "text": "episódio"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que memoria só é útil quando é explicado com exemplos verificáveis."
+                "text": "comparam"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: voce pode mudar a perspectiva de quem escuta."
+                "text": "perspectiva"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "posições"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Narrativa e identidade · Compreensão oral»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Narrativa e identidade, duas pessoas comparam suas posições."
+                "text": "consequências"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que memoria só é útil quando é explicado com exemplos verificáveis."
+                "text": "verificáveis"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: voce pode mudar a perspectiva de quem escuta."
+                "text": "considerado"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "clareza"
               }
             ]
           }
@@ -14697,42 +14697,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Narrativa e identidade · Compreensão oral»?",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Narrativa e identidade, duas pessoas comparam suas _____.”",
         "options": [
-          "Neste episódio sobre Narrativa e identidade, duas pessoas comparam suas posições.",
-          "A outra acrescenta que memoria só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: voce pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "posições",
+          "consequências",
+          "verificáveis",
+          "Neste"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «Neste episódio sobre Narrativa e identidade, duas pessoas comparam…» in «Narrativa e identidade · Compreensão oral»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
         "options": [
-          "Neste episódio sobre Narrativa e identidade, duas pessoas comparam suas posições.",
-          "A outra acrescenta que memoria só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: voce pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "consequências",
+          "memoria",
+          "verificáveis",
+          "considerado"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Narrativa e identidade · Compreensão oral»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: voce pode mudar a _____ de quem escuta.”",
         "options": [
-          "Neste episódio sobre Narrativa e identidade, duas pessoas comparam suas posições.",
-          "A outra acrescenta que memoria só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: voce pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "episódio",
+          "comparam",
+          "perspectiva",
+          "posições"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Narrativa e identidade · Compreensão oral»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
         "options": [
-          "Neste episódio sobre Narrativa e identidade, duas pessoas comparam suas posições.",
-          "A outra acrescenta que memoria só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: voce pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "consequências",
+          "verificáveis",
+          "considerado",
+          "clareza"
         ]
       }
     ]
@@ -14790,92 +14790,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «A feira do bairro: ouça», which detail establishes the situation?",
+            "prompt": "Complete este detalhe do áudio.\n\n“_____ custa um quilo?”",
             "options": [
               {
                 "id": "o1",
-                "text": "Quanto custa um quilo?"
+                "text": "Quanto"
               },
               {
                 "id": "o2",
-                "text": "Falamos de banana."
+                "text": "comunidade"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "aprender"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "praticar"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «Quanto custa um quilo?», what happens next in «A feira do bairro: ouça»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Falamos de _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Quanto custa um quilo?"
+                "text": "comunidade"
               },
               {
                 "id": "o2",
-                "text": "Falamos de banana."
+                "text": "banana"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "aprender"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "praticar"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «A feira do bairro: ouça»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Quanto custa um quilo?"
+                "text": "comunidade"
               },
               {
                 "id": "o2",
-                "text": "Falamos de banana."
+                "text": "aprender"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "Gosto"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "praticar"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «A feira do bairro: ouça» after «Gosto de aprender com a comunidade.»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Quanto custa um quilo?"
+                "text": "custa"
               },
               {
                 "id": "o2",
-                "text": "Falamos de banana."
+                "text": "quilo"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "Gosto"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "praticar"
               }
             ]
           }
@@ -14886,42 +14886,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «A feira do bairro: ouça», which detail establishes the situation?",
+        "prompt": "Complete este detalhe do áudio.\n\n“_____ custa um quilo?”",
         "options": [
-          "Quanto custa um quilo?",
-          "Falamos de banana.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "Quanto",
+          "comunidade",
+          "aprender",
+          "praticar"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «Quanto custa um quilo?», what happens next in «A feira do bairro: ouça»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Falamos de _____.”",
         "options": [
-          "Quanto custa um quilo?",
-          "Falamos de banana.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "comunidade",
+          "banana",
+          "aprender",
+          "praticar"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «A feira do bairro: ouça»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
         "options": [
-          "Quanto custa um quilo?",
-          "Falamos de banana.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "comunidade",
+          "aprender",
+          "Gosto",
+          "praticar"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «A feira do bairro: ouça» after «Gosto de aprender com a comunidade.»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
         "options": [
-          "Quanto custa um quilo?",
-          "Falamos de banana.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "custa",
+          "quilo",
+          "Gosto",
+          "praticar"
         ]
       }
     ]
@@ -14979,92 +14979,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «Trabalho e pausa: ouça», which detail establishes the situation?",
+            "prompt": "Complete este detalhe do áudio.\n\n“_____ fazer uma pausa?”",
             "options": [
               {
                 "id": "o1",
-                "text": "Posso fazer uma pausa?"
+                "text": "Posso"
               },
               {
                 "id": "o2",
-                "text": "Falamos de colega."
+                "text": "comunidade"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "aprender"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "praticar"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «Posso fazer uma pausa?», what happens next in «Trabalho e pausa: ouça»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Falamos de _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Posso fazer uma pausa?"
+                "text": "comunidade"
               },
               {
                 "id": "o2",
-                "text": "Falamos de colega."
+                "text": "colega"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "aprender"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "praticar"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «Trabalho e pausa: ouça»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Posso fazer uma pausa?"
+                "text": "comunidade"
               },
               {
                 "id": "o2",
-                "text": "Falamos de colega."
+                "text": "aprender"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "Gosto"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "praticar"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «Trabalho e pausa: ouça» after «Gosto de aprender com a comunidade.»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Posso fazer uma pausa?"
+                "text": "Posso"
               },
               {
                 "id": "o2",
-                "text": "Falamos de colega."
+                "text": "fazer"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "pausa"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "praticar"
               }
             ]
           }
@@ -15075,42 +15075,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «Trabalho e pausa: ouça», which detail establishes the situation?",
+        "prompt": "Complete este detalhe do áudio.\n\n“_____ fazer uma pausa?”",
         "options": [
-          "Posso fazer uma pausa?",
-          "Falamos de colega.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "Posso",
+          "comunidade",
+          "aprender",
+          "praticar"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «Posso fazer uma pausa?», what happens next in «Trabalho e pausa: ouça»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Falamos de _____.”",
         "options": [
-          "Posso fazer uma pausa?",
-          "Falamos de colega.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "comunidade",
+          "colega",
+          "aprender",
+          "praticar"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «Trabalho e pausa: ouça»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
         "options": [
-          "Posso fazer uma pausa?",
-          "Falamos de colega.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "comunidade",
+          "aprender",
+          "Gosto",
+          "praticar"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «Trabalho e pausa: ouça» after «Gosto de aprender com a comunidade.»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
         "options": [
-          "Posso fazer uma pausa?",
-          "Falamos de colega.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "Posso",
+          "fazer",
+          "pausa",
+          "praticar"
         ]
       }
     ]
@@ -16918,56 +16918,56 @@
       {
         "id": "portuguese-b1-ambiente-no-bairro-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Ambiente no bairro\"?",
+        "prompt": "Complete este detalhe da leitura.\n\n“Para Lorenzo, reduzir resíduos tornou-se um assunto concreto depois de uma reunião em um pátio _____.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Ambiente no bairro",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-b1-ambiente-no-bairro-reading-comprehension-2",
-        "type": "mcq",
-        "prompt": "Qual afirmacao resume melhor \"Ambiente no bairro\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Ambiente no bairro",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-b1-ambiente-no-bairro-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Ambiente no bairro\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Ambiente no bairro",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-b1-ambiente-no-bairro-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Qual afirmacao resume melhor \"Ambiente no bairro\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Ambiente no bairro",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "coletivo",
+          "resíduos",
+          "concreto",
+          "pesquisa"
         ]
       },
       {
         "id": "portuguese-b1-ambiente-no-bairro-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Ambiente no bairro\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Lorenzo não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Ambiente no bairro",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "aprender",
+          "resíduos",
+          "concreto",
+          "coletivo"
+        ]
+      },
+      {
+        "id": "portuguese-b1-ambiente-no-bairro-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Lorenzo não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
+        "options": [
+          "aprender",
+          "resíduos",
+          "concreto",
+          "coletivo"
+        ]
+      },
+      {
+        "id": "portuguese-b1-ambiente-no-bairro-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Lorenzo não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
+        "options": [
+          "aprender",
+          "resíduos",
+          "concreto",
+          "coletivo"
+        ]
+      },
+      {
+        "id": "portuguese-b1-ambiente-no-bairro-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Lorenzo não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
+        "options": [
+          "aprender",
+          "resíduos",
+          "concreto",
+          "coletivo"
         ]
       }
     ]
@@ -17059,36 +17059,36 @@
         ]
       },
       {
-        "id": "portuguese-b2-b2-midia-e-informacao-reading-comprehension-3",
+        "id": "portuguese-b2-b2-midia-e-informacao-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Mídia e informação · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Mídia e informação · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-b2-b2-midia-e-informacao-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Qual afirmacao resume melhor \"Mídia e informação · Leitura\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Mídia e informação · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "informação",
+          "diferentes",
+          "justifica"
         ]
       },
       {
         "id": "portuguese-b2-b2-midia-e-informacao-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Mídia e informação · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Mídia e informação · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "informação",
+          "diferentes",
+          "justifica"
+        ]
+      },
+      {
+        "id": "portuguese-b2-b2-midia-e-informacao-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
+        "options": [
+          "respeitosa",
+          "informação",
+          "diferentes",
+          "justifica"
         ]
       }
     ]
@@ -17180,36 +17180,36 @@
         ]
       },
       {
-        "id": "portuguese-c1-c1-pesquisa-e-metodo-reading-comprehension-3",
+        "id": "portuguese-c1-c1-pesquisa-e-metodo-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Pesquisa e método · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Pesquisa e método · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-c1-c1-pesquisa-e-metodo-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Qual afirmacao resume melhor \"Pesquisa e método · Leitura\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Pesquisa e método · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "diferentes",
+          "justifica",
+          "discussão"
         ]
       },
       {
         "id": "portuguese-c1-c1-pesquisa-e-metodo-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Pesquisa e método · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Pesquisa e método · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "diferentes",
+          "justifica",
+          "discussão"
+        ]
+      },
+      {
+        "id": "portuguese-c1-c1-pesquisa-e-metodo-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
+        "options": [
+          "respeitosa",
+          "diferentes",
+          "justifica",
+          "discussão"
         ]
       }
     ]
@@ -17301,36 +17301,36 @@
         ]
       },
       {
-        "id": "portuguese-c2-c2-direito-e-responsabilidade-reading-comprehension-3",
+        "id": "portuguese-c2-c2-direito-e-responsabilidade-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Direito e responsabilidade · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Direito e responsabilidade · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-c2-c2-direito-e-responsabilidade-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Qual afirmacao resume melhor \"Direito e responsabilidade · Leitura\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Direito e responsabilidade · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "diferentes",
+          "justifica",
+          "discussão"
         ]
       },
       {
         "id": "portuguese-c2-c2-direito-e-responsabilidade-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Direito e responsabilidade · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Direito e responsabilidade · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "diferentes",
+          "justifica",
+          "discussão"
+        ]
+      },
+      {
+        "id": "portuguese-c2-c2-direito-e-responsabilidade-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
+        "options": [
+          "respeitosa",
+          "diferentes",
+          "justifica",
+          "discussão"
         ]
       }
     ]
@@ -17345,7 +17345,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 50,
-    "estimatedMinutes": 8,
+    "estimatedMinutes": 10,
     "description": "Moverse por la ciudad con claridad",
     "intro": "Moverse por la ciudad con claridad",
     "mission": "",
@@ -17356,63 +17356,63 @@
     "reading": {
       "title": "Caminhos da cidade",
       "parts": [
-        "Luana está em Recife. Hoje aprende a pedir informações. Encontra Rafael e diz: “Onde fica a parada?”. Os dois conversam com respeito e aprendem quatro palavras novas: rua, praça, parada e bicicleta.",
-        "Rafael faz uma pergunta simples e Luana responde com uma frase curta. A conversa mostra que a cultura se aprende escutando e participando.",
-        "No final, Luana escreve: “Onde fica a parada?”."
+        "Hoje Luana está em Recife. Ela encontra Rafael no bairro e o cumprimenta com um sorriso. Os dois falam devagar e escutam com atenção. Luana quer usar o português em uma situação real, por isso tenta uma frase simples e Rafael responde com gentileza.",
+        "Na conversa, eles usam palavras úteis da lição: parole semplici. Rafael faz uma pergunta e Luana responde sem pressa. Quando ela não entende uma palavra, pergunta: «Pode repetir, por favor?». Depois, os dois repetem as palavras mais importantes e criam um exemplo pequeno para cada uma.",
+        "Antes de voltar para casa, Luana agradece a Rafael. Ela diz que escutar, falar e repetir ajudam a ter mais confiança. Rafael concorda e propõe um novo encontro amanhã. Luana volta para casa feliz e escreve no caderno as palavras novas do dia."
       ],
       "questions": [
-        "Onde está Luana?",
+        "Onde Luana está?",
         "Com quem Luana conversa?",
-        "Qual frase Luana usa?",
-        "Por que a experiência é importante?"
+        "O que Luana pergunta quando não entende uma palavra?",
+        "Por que Luana repete as palavras?"
       ],
-      "text": "Luana está em Recife. Hoje aprende a pedir informações. Encontra Rafael e diz: “Onde fica a parada?”. Os dois conversam com respeito e aprendem quatro palavras novas: rua, praça, parada e bicicleta.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. A conversa mostra que a cultura se aprende escutando e participando.\n\nNo final, Luana escreve: “Onde fica a parada?”."
+      "text": "Hoje Luana está em Recife. Ela encontra Rafael no bairro e o cumprimenta com um sorriso. Os dois falam devagar e escutam com atenção. Luana quer usar o português em uma situação real, por isso tenta uma frase simples e Rafael responde com gentileza.\n\nNa conversa, eles usam palavras úteis da lição: parole semplici. Rafael faz uma pergunta e Luana responde sem pressa. Quando ela não entende uma palavra, pergunta: «Pode repetir, por favor?». Depois, os dois repetem as palavras mais importantes e criam um exemplo pequeno para cada uma.\n\nAntes de voltar para casa, Luana agradece a Rafael. Ela diz que escutar, falar e repetir ajudam a ter mais confiança. Rafael concorda e propõe um novo encontro amanhã. Luana volta para casa feliz e escreve no caderno as palavras novas do dia."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "id": "portuguese-a1-caminhos-da-cidade-reading-comprehension-1",
+        "id": "portuguese-a1-caminhos-da-cidade-reading-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Qual é o objetivo principal de \"Caminhos da cidade\"?",
+        "prompt": "Onde Luana está?",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Caminhos da cidade",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "Recife",
+          "Salvador",
+          "Rio de Janeiro",
+          "Brasília"
         ]
       },
       {
-        "id": "portuguese-a1-caminhos-da-cidade-reading-comprehension-2",
+        "id": "portuguese-a1-caminhos-da-cidade-reading-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Qual afirmação resume melhor \"Caminhos da cidade\"?",
+        "prompt": "Com quem Luana conversa?",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Caminhos da cidade",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "Rafael",
+          "Pedro",
+          "Marina",
+          "Carlos"
         ]
       },
       {
         "id": "portuguese-a1-caminhos-da-cidade-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Que ideia central aparece em \"Caminhos da cidade\"?",
+        "prompt": "Escolha a palavra que falta na leitura.\n\n“Depois, os dois repetem as palavras mais _____ e criam um exemplo pequeno para cada uma.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Caminhos da cidade",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "conversa",
+          "palavras",
+          "importantes",
+          "semplici"
         ]
       },
       {
         "id": "portuguese-a1-caminhos-da-cidade-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Que detalhe é essencial em \"Caminhos da cidade\"?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“Luana volta para casa feliz e _____ no caderno as palavras novas do dia.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Caminhos da cidade",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "repetem",
+          "exemplo",
+          "pequeno",
+          "escreve"
         ]
       }
     ]
@@ -17456,56 +17456,56 @@
       {
         "id": "portuguese-a2-arte-na-comunidade-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Qual é o objetivo principal de \"Arte na comunidade\"?",
+        "prompt": "Complete este detalhe da leitura.\n\n“Luana mora em Recife e conversa com Rafael sobre como dar _____.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Arte na comunidade",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "opinião",
+          "explica",
+          "cultura",
+          "aprende"
         ]
       },
       {
         "id": "portuguese-a2-arte-na-comunidade-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Qual afirmação resume melhor \"Arte na comunidade\"?",
+        "prompt": "Qual palavra completa esta frase do texto?\n\n“Luana diz: “A _____ foi interessante.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Arte na comunidade",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-a2-arte-na-comunidade-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Que ideia central aparece em \"Arte na comunidade\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Arte na comunidade",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-a2-arte-na-comunidade-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Que detalhe é essencial em \"Arte na comunidade\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Arte na comunidade",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "escutando",
+          "exposição",
+          "conversa",
+          "importante"
         ]
       },
       {
         "id": "portuguese-a2-arte-na-comunidade-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Que conclusão o texto permite tirar sobre \"Arte na comunidade\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“No final, Luana escreve: “A exposição foi _____.”.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Arte na comunidade",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "interessante",
+          "participando",
+          "experiência",
+          "importante"
+        ]
+      },
+      {
+        "id": "portuguese-a2-arte-na-comunidade-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“No final, Luana escreve: “A exposição foi _____.”.”",
+        "options": [
+          "interessante",
+          "participando",
+          "experiência",
+          "importante"
+        ]
+      },
+      {
+        "id": "portuguese-a2-arte-na-comunidade-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“No final, Luana escreve: “A exposição foi _____.”.”",
+        "options": [
+          "interessante",
+          "participando",
+          "experiência",
+          "importante"
         ]
       }
     ]
@@ -17858,92 +17858,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Ambiente no bairro: palavras»?",
+            "prompt": "Complete este detalhe do áudio.\n\n“No tema «Ambiente no bairro», um pequeno grupo da comunidade conversa sobre resíduo, coleta e _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Ambiente no bairro», um pequeno grupo da comunidade conversa sobre resíduo, coleta e recurso."
+                "text": "recurso"
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "experiência"
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "importantes"
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "tema"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «No tema «Ambiente no bairro», um pequeno grupo da comunidade conversa…» in «Ambiente no bairro: palavras»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Cada _____ conta uma experiência, escuta as outras e propõe uma solução concreta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Ambiente no bairro», um pequeno grupo da comunidade conversa sobre resíduo, coleta e recurso."
+                "text": "experiência"
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "pessoa"
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "importantes"
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "comunidade"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Ambiente no bairro: palavras»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“No final, decidem colaborar porque um objetivo claro ajuda a _____ a vida cotidiana.”",
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Ambiente no bairro», um pequeno grupo da comunidade conversa sobre resíduo, coleta e recurso."
+                "text": "grupo"
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "conta"
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "melhorar"
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "experiência"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Ambiente no bairro: palavras»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Depois, o grupo _____ as ideias mais importantes.”",
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Ambiente no bairro», um pequeno grupo da comunidade conversa sobre resíduo, coleta e recurso."
+                "text": "experiência"
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "importantes"
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "comunidade"
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "resume"
               }
             ]
           }
@@ -17954,42 +17954,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Ambiente no bairro: palavras»?",
+        "prompt": "Complete este detalhe do áudio.\n\n“No tema «Ambiente no bairro», um pequeno grupo da comunidade conversa sobre resíduo, coleta e _____.”",
         "options": [
-          "No tema «Ambiente no bairro», um pequeno grupo da comunidade conversa sobre resíduo, coleta e recurso.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "recurso",
+          "experiência",
+          "importantes",
+          "tema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «No tema «Ambiente no bairro», um pequeno grupo da comunidade conversa…» in «Ambiente no bairro: palavras»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Cada _____ conta uma experiência, escuta as outras e propõe uma solução concreta.”",
         "options": [
-          "No tema «Ambiente no bairro», um pequeno grupo da comunidade conversa sobre resíduo, coleta e recurso.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "experiência",
+          "pessoa",
+          "importantes",
+          "comunidade"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Ambiente no bairro: palavras»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“No final, decidem colaborar porque um objetivo claro ajuda a _____ a vida cotidiana.”",
         "options": [
-          "No tema «Ambiente no bairro», um pequeno grupo da comunidade conversa sobre resíduo, coleta e recurso.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "grupo",
+          "conta",
+          "melhorar",
+          "experiência"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Ambiente no bairro: palavras»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Depois, o grupo _____ as ideias mais importantes.”",
         "options": [
-          "No tema «Ambiente no bairro», um pequeno grupo da comunidade conversa sobre resíduo, coleta e recurso.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "experiência",
+          "importantes",
+          "comunidade",
+          "resume"
         ]
       }
     ]
@@ -18284,92 +18284,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Mídia e informação · Compreensão oral»?",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Mídia e informação, duas pessoas comparam suas _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Mídia e informação, duas pessoas comparam suas posições."
+                "text": "posições"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que notizia só é útil quando é explicado com exemplos verificáveis."
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: verificare pode mudar a perspectiva de quem escuta."
+                "text": "verificáveis"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "Neste"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «Neste episódio sobre Mídia e informação, duas pessoas comparam suas…» in «Mídia e informação · Compreensão oral»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Mídia e informação, duas pessoas comparam suas posições."
+                "text": "consequências"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que notizia só é útil quando é explicado com exemplos verificáveis."
+                "text": "notizia"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: verificare pode mudar a perspectiva de quem escuta."
+                "text": "verificáveis"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "considerado"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Mídia e informação · Compreensão oral»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Mídia e informação, duas pessoas comparam suas posições."
+                "text": "pessoas"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que notizia só é útil quando é explicado com exemplos verificáveis."
+                "text": "observa"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: verificare pode mudar a perspectiva de quem escuta."
+                "text": "verificare"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "isolada"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Mídia e informação · Compreensão oral»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Mídia e informação, duas pessoas comparam suas posições."
+                "text": "consequências"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que notizia só é útil quando é explicado com exemplos verificáveis."
+                "text": "verificáveis"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: verificare pode mudar a perspectiva de quem escuta."
+                "text": "considerado"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "clareza"
               }
             ]
           }
@@ -18389,42 +18389,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Mídia e informação · Compreensão oral»?",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Mídia e informação, duas pessoas comparam suas _____.”",
         "options": [
-          "Neste episódio sobre Mídia e informação, duas pessoas comparam suas posições.",
-          "A outra acrescenta que notizia só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: verificare pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "posições",
+          "consequências",
+          "verificáveis",
+          "Neste"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «Neste episódio sobre Mídia e informação, duas pessoas comparam suas…» in «Mídia e informação · Compreensão oral»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
         "options": [
-          "Neste episódio sobre Mídia e informação, duas pessoas comparam suas posições.",
-          "A outra acrescenta que notizia só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: verificare pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "consequências",
+          "notizia",
+          "verificáveis",
+          "considerado"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Mídia e informação · Compreensão oral»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
         "options": [
-          "Neste episódio sobre Mídia e informação, duas pessoas comparam suas posições.",
-          "A outra acrescenta que notizia só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: verificare pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "pessoas",
+          "observa",
+          "verificare",
+          "isolada"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Mídia e informação · Compreensão oral»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
         "options": [
-          "Neste episódio sobre Mídia e informação, duas pessoas comparam suas posições.",
-          "A outra acrescenta que notizia só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: verificare pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "consequências",
+          "verificáveis",
+          "considerado",
+          "clareza"
         ]
       }
     ]
@@ -18491,92 +18491,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Pesquisa e método · Compreensão oral»?",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Pesquisa e método, duas pessoas comparam suas _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Pesquisa e método, duas pessoas comparam suas posições."
+                "text": "posições"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que campione só é útil quando é explicado com exemplos verificáveis."
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: risultato pode mudar a perspectiva de quem escuta."
+                "text": "verificáveis"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "Neste"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «Neste episódio sobre Pesquisa e método, duas pessoas comparam suas…» in «Pesquisa e método · Compreensão oral»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Pesquisa e método, duas pessoas comparam suas posições."
+                "text": "consequências"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que campione só é útil quando é explicado com exemplos verificáveis."
+                "text": "campione"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: risultato pode mudar a perspectiva de quem escuta."
+                "text": "verificáveis"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "Neste"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Pesquisa e método · Compreensão oral»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Pesquisa e método, duas pessoas comparam suas posições."
+                "text": "consequências"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que campione só é útil quando é explicado com exemplos verificáveis."
+                "text": "método"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: risultato pode mudar a perspectiva de quem escuta."
+                "text": "risultato"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "produz"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Pesquisa e método · Compreensão oral»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Pesquisa e método, duas pessoas comparam suas posições."
+                "text": "consequências"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que campione só é útil quando é explicado com exemplos verificáveis."
+                "text": "verificáveis"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: risultato pode mudar a perspectiva de quem escuta."
+                "text": "considerado"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "clareza"
               }
             ]
           }
@@ -18596,42 +18596,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Pesquisa e método · Compreensão oral»?",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Pesquisa e método, duas pessoas comparam suas _____.”",
         "options": [
-          "Neste episódio sobre Pesquisa e método, duas pessoas comparam suas posições.",
-          "A outra acrescenta que campione só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: risultato pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "posições",
+          "consequências",
+          "verificáveis",
+          "Neste"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «Neste episódio sobre Pesquisa e método, duas pessoas comparam suas…» in «Pesquisa e método · Compreensão oral»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
         "options": [
-          "Neste episódio sobre Pesquisa e método, duas pessoas comparam suas posições.",
-          "A outra acrescenta que campione só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: risultato pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "consequências",
+          "campione",
+          "verificáveis",
+          "Neste"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Pesquisa e método · Compreensão oral»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
         "options": [
-          "Neste episódio sobre Pesquisa e método, duas pessoas comparam suas posições.",
-          "A outra acrescenta que campione só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: risultato pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "consequências",
+          "método",
+          "risultato",
+          "produz"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Pesquisa e método · Compreensão oral»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
         "options": [
-          "Neste episódio sobre Pesquisa e método, duas pessoas comparam suas posições.",
-          "A outra acrescenta que campione só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: risultato pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "consequências",
+          "verificáveis",
+          "considerado",
+          "clareza"
         ]
       }
     ]
@@ -18698,92 +18698,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Direito e responsabilidade · Compreensão oral»?",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Direito e responsabilidade, duas pessoas comparam suas _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Direito e responsabilidade, duas pessoas comparam suas posições."
+                "text": "posições"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que dovere só é útil quando é explicado com exemplos verificáveis."
+                "text": "responsabilidade"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: principio pode mudar a perspectiva de quem escuta."
+                "text": "consequências"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "verificáveis"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «Neste episódio sobre Direito e responsabilidade, duas pessoas comparam…» in «Direito e responsabilidade · Compreensão oral»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Direito e responsabilidade, duas pessoas comparam suas posições."
+                "text": "responsabilidade"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que dovere só é útil quando é explicado com exemplos verificáveis."
+                "text": "dovere"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: principio pode mudar a perspectiva de quem escuta."
+                "text": "consequências"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "verificáveis"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Direito e responsabilidade · Compreensão oral»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Direito e responsabilidade, duas pessoas comparam suas posições."
+                "text": "responsabilidade"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que dovere só é útil quando é explicado com exemplos verificáveis."
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: principio pode mudar a perspectiva de quem escuta."
+                "text": "principio"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "produz"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Direito e responsabilidade · Compreensão oral»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Direito e responsabilidade, duas pessoas comparam suas posições."
+                "text": "responsabilidade"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que dovere só é útil quando é explicado com exemplos verificáveis."
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: principio pode mudar a perspectiva de quem escuta."
+                "text": "verificáveis"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "clareza"
               }
             ]
           }
@@ -18803,42 +18803,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Direito e responsabilidade · Compreensão oral»?",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Direito e responsabilidade, duas pessoas comparam suas _____.”",
         "options": [
-          "Neste episódio sobre Direito e responsabilidade, duas pessoas comparam suas posições.",
-          "A outra acrescenta que dovere só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: principio pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "posições",
+          "responsabilidade",
+          "consequências",
+          "verificáveis"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «Neste episódio sobre Direito e responsabilidade, duas pessoas comparam…» in «Direito e responsabilidade · Compreensão oral»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
         "options": [
-          "Neste episódio sobre Direito e responsabilidade, duas pessoas comparam suas posições.",
-          "A outra acrescenta que dovere só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: principio pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "responsabilidade",
+          "dovere",
+          "consequências",
+          "verificáveis"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Direito e responsabilidade · Compreensão oral»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
         "options": [
-          "Neste episódio sobre Direito e responsabilidade, duas pessoas comparam suas posições.",
-          "A outra acrescenta que dovere só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: principio pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "responsabilidade",
+          "consequências",
+          "principio",
+          "produz"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Direito e responsabilidade · Compreensão oral»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
         "options": [
-          "Neste episódio sobre Direito e responsabilidade, duas pessoas comparam suas posições.",
-          "A outra acrescenta que dovere só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: principio pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "responsabilidade",
+          "consequências",
+          "verificáveis",
+          "clareza"
         ]
       }
     ]
@@ -18896,92 +18896,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «Caminhos da cidade: ouça», which detail establishes the situation?",
+            "prompt": "Complete este detalhe do áudio.\n\n“Onde fica a _____?”",
             "options": [
               {
                 "id": "o1",
-                "text": "Onde fica a parada?"
+                "text": "parada"
               },
               {
                 "id": "o2",
-                "text": "Falamos de rua."
+                "text": "comunidade"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "rua"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "Onde"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «Onde fica a parada?», what happens next in «Caminhos da cidade: ouça»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“_____ de rua.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Onde fica a parada?"
+                "text": "Onde"
               },
               {
                 "id": "o2",
-                "text": "Falamos de rua."
+                "text": "Falamos"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "fica"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "comunidade"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «Caminhos da cidade: ouça»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Onde fica a parada?"
+                "text": "comunidade"
               },
               {
                 "id": "o2",
-                "text": "Falamos de rua."
+                "text": "aprender"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "Gosto"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "praticar"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «Caminhos da cidade: ouça» after «Gosto de aprender com a comunidade.»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Onde fica a parada?"
+                "text": "Gosto"
               },
               {
                 "id": "o2",
-                "text": "Falamos de rua."
+                "text": "Vamos"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "parada"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "praticar"
               }
             ]
           }
@@ -18992,42 +18992,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «Caminhos da cidade: ouça», which detail establishes the situation?",
+        "prompt": "Complete este detalhe do áudio.\n\n“Onde fica a _____?”",
         "options": [
-          "Onde fica a parada?",
-          "Falamos de rua.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "parada",
+          "comunidade",
+          "rua",
+          "Onde"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «Onde fica a parada?», what happens next in «Caminhos da cidade: ouça»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“_____ de rua.”",
         "options": [
-          "Onde fica a parada?",
-          "Falamos de rua.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "Onde",
+          "Falamos",
+          "fica",
+          "comunidade"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «Caminhos da cidade: ouça»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
         "options": [
-          "Onde fica a parada?",
-          "Falamos de rua.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "comunidade",
+          "aprender",
+          "Gosto",
+          "praticar"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «Caminhos da cidade: ouça» after «Gosto de aprender com a comunidade.»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
         "options": [
-          "Onde fica a parada?",
-          "Falamos de rua.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "Gosto",
+          "Vamos",
+          "parada",
+          "praticar"
         ]
       }
     ]
@@ -19085,92 +19085,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «Arte na comunidade: ouça», which detail establishes the situation?",
+            "prompt": "Complete este detalhe do áudio.\n\n“A exposição foi _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "A exposição foi interessante."
+                "text": "interessante"
               },
               {
                 "id": "o2",
-                "text": "Falamos de exposição."
+                "text": "exposição"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "comunidade"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "foi"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «A exposição foi interessante.», what happens next in «Arte na comunidade: ouça»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Falamos de _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "A exposição foi interessante."
+                "text": "interessante"
               },
               {
                 "id": "o2",
-                "text": "Falamos de exposição."
+                "text": "exposição"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "juntos"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "amanhã"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «Arte na comunidade: ouça»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
             "options": [
               {
                 "id": "o1",
-                "text": "A exposição foi interessante."
+                "text": "interessante"
               },
               {
                 "id": "o2",
-                "text": "Falamos de exposição."
+                "text": "comunidade"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "Gosto"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "exposição"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «Arte na comunidade: ouça» after «Gosto de aprender com a comunidade.»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
             "options": [
               {
                 "id": "o1",
-                "text": "A exposição foi interessante."
+                "text": "interessante"
               },
               {
                 "id": "o2",
-                "text": "Falamos de exposição."
+                "text": "Gosto"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "Vamos"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "praticar"
               }
             ]
           }
@@ -19181,42 +19181,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «Arte na comunidade: ouça», which detail establishes the situation?",
+        "prompt": "Complete este detalhe do áudio.\n\n“A exposição foi _____.”",
         "options": [
-          "A exposição foi interessante.",
-          "Falamos de exposição.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "interessante",
+          "exposição",
+          "comunidade",
+          "foi"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «A exposição foi interessante.», what happens next in «Arte na comunidade: ouça»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Falamos de _____.”",
         "options": [
-          "A exposição foi interessante.",
-          "Falamos de exposição.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "interessante",
+          "exposição",
+          "juntos",
+          "amanhã"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «Arte na comunidade: ouça»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
         "options": [
-          "A exposição foi interessante.",
-          "Falamos de exposição.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "interessante",
+          "comunidade",
+          "Gosto",
+          "exposição"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «Arte na comunidade: ouça» after «Gosto de aprender com a comunidade.»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
         "options": [
-          "A exposição foi interessante.",
-          "Falamos de exposição.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "interessante",
+          "Gosto",
+          "Vamos",
+          "praticar"
         ]
       }
     ]
@@ -21024,56 +21024,56 @@
       {
         "id": "portuguese-b1-historias-e-memorias-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Histórias e memórias\"?",
+        "prompt": "Complete este detalhe da leitura.\n\n“Para Marta, ligar memória e mudança tornou-se um assunto concreto depois de uma reunião em um álbum de _____.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Histórias e memórias",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-b1-historias-e-memorias-reading-comprehension-2",
-        "type": "mcq",
-        "prompt": "Qual afirmacao resume melhor \"Histórias e memórias\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Histórias e memórias",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-b1-historias-e-memorias-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Histórias e memórias\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Histórias e memórias",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-b1-historias-e-memorias-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Qual afirmacao resume melhor \"Histórias e memórias\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Histórias e memórias",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "fotografias",
+          "experiência",
+          "participar",
+          "perspectivas"
         ]
       },
       {
         "id": "portuguese-b1-historias-e-memorias-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Histórias e memórias\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Marta não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Histórias e memórias",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "aprender",
+          "concreto",
+          "pesquisa",
+          "conversa"
+        ]
+      },
+      {
+        "id": "portuguese-b1-historias-e-memorias-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Marta não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
+        "options": [
+          "aprender",
+          "concreto",
+          "pesquisa",
+          "conversa"
+        ]
+      },
+      {
+        "id": "portuguese-b1-historias-e-memorias-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Marta não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
+        "options": [
+          "aprender",
+          "concreto",
+          "pesquisa",
+          "conversa"
+        ]
+      },
+      {
+        "id": "portuguese-b1-historias-e-memorias-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Marta não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
+        "options": [
+          "aprender",
+          "concreto",
+          "pesquisa",
+          "conversa"
         ]
       }
     ]
@@ -21165,36 +21165,36 @@
         ]
       },
       {
-        "id": "portuguese-b2-b2-saude-e-bem-estar-reading-comprehension-3",
+        "id": "portuguese-b2-b2-saude-e-bem-estar-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Saúde e bem-estar · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Saúde e bem-estar · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-b2-b2-saude-e-bem-estar-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Qual afirmacao resume melhor \"Saúde e bem-estar · Leitura\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Saúde e bem-estar · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "diferentes",
+          "bem-estar",
+          "benessere"
         ]
       },
       {
         "id": "portuguese-b2-b2-saude-e-bem-estar-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Saúde e bem-estar · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Saúde e bem-estar · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "diferentes",
+          "bem-estar",
+          "benessere"
+        ]
+      },
+      {
+        "id": "portuguese-b2-b2-saude-e-bem-estar-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
+        "options": [
+          "respeitosa",
+          "diferentes",
+          "bem-estar",
+          "benessere"
         ]
       }
     ]
@@ -21286,36 +21286,36 @@
         ]
       },
       {
-        "id": "portuguese-c1-c1-economia-cotidiana-reading-comprehension-3",
+        "id": "portuguese-c1-c1-economia-cotidiana-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Economia cotidiana · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Economia cotidiana · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-c1-c1-economia-cotidiana-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Qual afirmacao resume melhor \"Economia cotidiana · Leitura\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Economia cotidiana · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "diferentes",
+          "cotidiana",
+          "risparmio"
         ]
       },
       {
         "id": "portuguese-c1-c1-economia-cotidiana-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Economia cotidiana · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Economia cotidiana · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "diferentes",
+          "cotidiana",
+          "risparmio"
+        ]
+      },
+      {
+        "id": "portuguese-c1-c1-economia-cotidiana-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
+        "options": [
+          "respeitosa",
+          "diferentes",
+          "cotidiana",
+          "risparmio"
         ]
       }
     ]
@@ -21407,36 +21407,36 @@
         ]
       },
       {
-        "id": "portuguese-c2-c2-economia-e-desigualdade-reading-comprehension-3",
+        "id": "portuguese-c2-c2-economia-e-desigualdade-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Economia e desigualdade · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Economia e desigualdade · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-c2-c2-economia-e-desigualdade-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Qual afirmacao resume melhor \"Economia e desigualdade · Leitura\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Economia e desigualdade · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "diferentes",
+          "justifica",
+          "discussão"
         ]
       },
       {
         "id": "portuguese-c2-c2-economia-e-desigualdade-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Economia e desigualdade · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Economia e desigualdade · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "diferentes",
+          "justifica",
+          "discussão"
+        ]
+      },
+      {
+        "id": "portuguese-c2-c2-economia-e-desigualdade-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
+        "options": [
+          "respeitosa",
+          "diferentes",
+          "justifica",
+          "discussão"
         ]
       }
     ]
@@ -21451,7 +21451,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 60,
-    "estimatedMinutes": 8,
+    "estimatedMinutes": 10,
     "description": "La escuela, amistades y proyectos",
     "intro": "La escuela, amistades y proyectos",
     "mission": "",
@@ -21462,63 +21462,63 @@
     "reading": {
       "title": "Escola e amizade",
       "parts": [
-        "Luana está em Recife. Hoje aprende a falar de gostos. Encontra Rafael e diz: “Qual matéria você gosta?”. Os dois conversam com respeito e aprendem quatro palavras novas: escola, amigo, aula e tarefa.",
-        "Rafael faz uma pergunta simples e Luana responde com uma frase curta. A conversa mostra que a cultura se aprende escutando e participando.",
-        "No final, Luana escreve: “Qual matéria você gosta?”."
+        "Hoje Luana está em Recife. Ela encontra Rafael no bairro e o cumprimenta com um sorriso. Os dois falam devagar e escutam com atenção. Luana quer usar o português em uma situação real, por isso tenta uma frase simples e Rafael responde com gentileza.",
+        "Na conversa, eles usam palavras úteis da lição: parole semplici. Rafael faz uma pergunta e Luana responde sem pressa. Quando ela não entende uma palavra, pergunta: «Pode repetir, por favor?». Depois, os dois repetem as palavras mais importantes e criam um exemplo pequeno para cada uma.",
+        "Antes de voltar para casa, Luana agradece a Rafael. Ela diz que escutar, falar e repetir ajudam a ter mais confiança. Rafael concorda e propõe um novo encontro amanhã. Luana volta para casa feliz e escreve no caderno as palavras novas do dia."
       ],
       "questions": [
-        "Onde está Luana?",
+        "Onde Luana está?",
         "Com quem Luana conversa?",
-        "Qual frase Luana usa?",
-        "Por que a experiência é importante?"
+        "O que Luana pergunta quando não entende uma palavra?",
+        "Por que Luana repete as palavras?"
       ],
-      "text": "Luana está em Recife. Hoje aprende a falar de gostos. Encontra Rafael e diz: “Qual matéria você gosta?”. Os dois conversam com respeito e aprendem quatro palavras novas: escola, amigo, aula e tarefa.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. A conversa mostra que a cultura se aprende escutando e participando.\n\nNo final, Luana escreve: “Qual matéria você gosta?”."
+      "text": "Hoje Luana está em Recife. Ela encontra Rafael no bairro e o cumprimenta com um sorriso. Os dois falam devagar e escutam com atenção. Luana quer usar o português em uma situação real, por isso tenta uma frase simples e Rafael responde com gentileza.\n\nNa conversa, eles usam palavras úteis da lição: parole semplici. Rafael faz uma pergunta e Luana responde sem pressa. Quando ela não entende uma palavra, pergunta: «Pode repetir, por favor?». Depois, os dois repetem as palavras mais importantes e criam um exemplo pequeno para cada uma.\n\nAntes de voltar para casa, Luana agradece a Rafael. Ela diz que escutar, falar e repetir ajudam a ter mais confiança. Rafael concorda e propõe um novo encontro amanhã. Luana volta para casa feliz e escreve no caderno as palavras novas do dia."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "id": "portuguese-a1-escola-e-amizade-reading-comprehension-1",
+        "id": "portuguese-a1-escola-e-amizade-reading-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Qual é o objetivo principal de \"Escola e amizade\"?",
+        "prompt": "Onde Luana está?",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Escola e amizade",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "Recife",
+          "Salvador",
+          "Rio de Janeiro",
+          "Brasília"
         ]
       },
       {
-        "id": "portuguese-a1-escola-e-amizade-reading-comprehension-2",
+        "id": "portuguese-a1-escola-e-amizade-reading-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Qual afirmação resume melhor \"Escola e amizade\"?",
+        "prompt": "Com quem Luana conversa?",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Escola e amizade",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "Rafael",
+          "Pedro",
+          "Marina",
+          "Carlos"
         ]
       },
       {
         "id": "portuguese-a1-escola-e-amizade-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Que ideia central aparece em \"Escola e amizade\"?",
+        "prompt": "Escolha a palavra que falta na leitura.\n\n“Depois, os dois repetem as palavras mais _____ e criam um exemplo pequeno para cada uma.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Escola e amizade",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "conversa",
+          "palavras",
+          "importantes",
+          "semplici"
         ]
       },
       {
         "id": "portuguese-a1-escola-e-amizade-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Que detalhe é essencial em \"Escola e amizade\"?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“Luana volta para casa feliz e _____ no caderno as palavras novas do dia.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Escola e amizade",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "repetem",
+          "exemplo",
+          "pequeno",
+          "escreve"
         ]
       }
     ]
@@ -21562,56 +21562,56 @@
       {
         "id": "portuguese-a2-viajar-com-respeito-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Qual é o objetivo principal de \"Viajar com respeito\"?",
+        "prompt": "Complete este detalhe da leitura.\n\n“Luana mora em Recife e conversa com Rafael sobre como expressar _____.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Viajar com respeito",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "intenção",
+          "conversa",
+          "expressar",
+          "incomodar"
         ]
       },
       {
         "id": "portuguese-a2-viajar-com-respeito-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Qual afirmação resume melhor \"Viajar com respeito\"?",
+        "prompt": "Qual palavra completa esta frase do texto?\n\n“Luana diz: “_____ quero incomodar os moradores.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Viajar com respeito",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-a2-viajar-com-respeito-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Que ideia central aparece em \"Viajar com respeito\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Viajar com respeito",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-a2-viajar-com-respeito-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Que detalhe é essencial em \"Viajar com respeito\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Viajar com respeito",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "diz",
+          "Não",
+          "por",
+          "mora"
         ]
       },
       {
         "id": "portuguese-a2-viajar-com-respeito-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Que conclusão o texto permite tirar sobre \"Viajar com respeito\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“No final, Luana escreve: “_____ quero incomodar os moradores.”.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Viajar com respeito",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "Não",
+          "diz",
+          "por",
+          "mora"
+        ]
+      },
+      {
+        "id": "portuguese-a2-viajar-com-respeito-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“No final, Luana escreve: “_____ quero incomodar os moradores.”.”",
+        "options": [
+          "Não",
+          "diz",
+          "por",
+          "mora"
+        ]
+      },
+      {
+        "id": "portuguese-a2-viajar-com-respeito-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“No final, Luana escreve: “_____ quero incomodar os moradores.”.”",
+        "options": [
+          "Não",
+          "diz",
+          "por",
+          "mora"
         ]
       }
     ]
@@ -21964,92 +21964,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Histórias e memórias: palavras»?",
+            "prompt": "Complete este detalhe do áudio.\n\n“No tema «Histórias e memórias», um pequeno grupo da comunidade conversa sobre memória, infância e _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Histórias e memórias», um pequeno grupo da comunidade conversa sobre memória, infância e mudança."
+                "text": "mudança"
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "experiência"
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "importantes"
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "tema"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «No tema «Histórias e memórias», um pequeno grupo da comunidade…» in «Histórias e memórias: palavras»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Cada _____ conta uma experiência, escuta as outras e propõe uma solução concreta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Histórias e memórias», um pequeno grupo da comunidade conversa sobre memória, infância e mudança."
+                "text": "experiência"
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "pessoa"
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "importantes"
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "comunidade"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Histórias e memórias: palavras»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“No final, decidem colaborar porque um objetivo claro ajuda a _____ a vida cotidiana.”",
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Histórias e memórias», um pequeno grupo da comunidade conversa sobre memória, infância e mudança."
+                "text": "grupo"
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "conta"
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "melhorar"
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "experiência"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Histórias e memórias: palavras»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Depois, o grupo _____ as ideias mais importantes.”",
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Histórias e memórias», um pequeno grupo da comunidade conversa sobre memória, infância e mudança."
+                "text": "experiência"
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "importantes"
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "comunidade"
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "resume"
               }
             ]
           }
@@ -22060,42 +22060,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Histórias e memórias: palavras»?",
+        "prompt": "Complete este detalhe do áudio.\n\n“No tema «Histórias e memórias», um pequeno grupo da comunidade conversa sobre memória, infância e _____.”",
         "options": [
-          "No tema «Histórias e memórias», um pequeno grupo da comunidade conversa sobre memória, infância e mudança.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "mudança",
+          "experiência",
+          "importantes",
+          "tema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «No tema «Histórias e memórias», um pequeno grupo da comunidade…» in «Histórias e memórias: palavras»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Cada _____ conta uma experiência, escuta as outras e propõe uma solução concreta.”",
         "options": [
-          "No tema «Histórias e memórias», um pequeno grupo da comunidade conversa sobre memória, infância e mudança.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "experiência",
+          "pessoa",
+          "importantes",
+          "comunidade"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Histórias e memórias: palavras»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“No final, decidem colaborar porque um objetivo claro ajuda a _____ a vida cotidiana.”",
         "options": [
-          "No tema «Histórias e memórias», um pequeno grupo da comunidade conversa sobre memória, infância e mudança.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "grupo",
+          "conta",
+          "melhorar",
+          "experiência"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Histórias e memórias: palavras»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Depois, o grupo _____ as ideias mais importantes.”",
         "options": [
-          "No tema «Histórias e memórias», um pequeno grupo da comunidade conversa sobre memória, infância e mudança.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "experiência",
+          "importantes",
+          "comunidade",
+          "resume"
         ]
       }
     ]
@@ -22390,92 +22390,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Saúde e bem-estar · Compreensão oral»?",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Saúde e bem-estar, duas pessoas comparam suas _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Saúde e bem-estar, duas pessoas comparam suas posições."
+                "text": "posições"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que prevenzione só é útil quando é explicado com exemplos verificáveis."
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: riposo pode mudar a perspectiva de quem escuta."
+                "text": "verificáveis"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "Neste"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «Neste episódio sobre Saúde e bem-estar, duas pessoas comparam suas…» in «Saúde e bem-estar · Compreensão oral»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Saúde e bem-estar, duas pessoas comparam suas posições."
+                "text": "episódio"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que prevenzione só é útil quando é explicado com exemplos verificáveis."
+                "text": "prevenzione"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: riposo pode mudar a perspectiva de quem escuta."
+                "text": "comparam"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "posições"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Saúde e bem-estar · Compreensão oral»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Saúde e bem-estar, duas pessoas comparam suas posições."
+                "text": "consequências"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que prevenzione só é útil quando é explicado com exemplos verificáveis."
+                "text": "verificáveis"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: riposo pode mudar a perspectiva de quem escuta."
+                "text": "riposo"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "considerado"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Saúde e bem-estar · Compreensão oral»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Saúde e bem-estar, duas pessoas comparam suas posições."
+                "text": "consequências"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que prevenzione só é útil quando é explicado com exemplos verificáveis."
+                "text": "verificáveis"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: riposo pode mudar a perspectiva de quem escuta."
+                "text": "considerado"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "clareza"
               }
             ]
           }
@@ -22495,42 +22495,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Saúde e bem-estar · Compreensão oral»?",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Saúde e bem-estar, duas pessoas comparam suas _____.”",
         "options": [
-          "Neste episódio sobre Saúde e bem-estar, duas pessoas comparam suas posições.",
-          "A outra acrescenta que prevenzione só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: riposo pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "posições",
+          "consequências",
+          "verificáveis",
+          "Neste"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «Neste episódio sobre Saúde e bem-estar, duas pessoas comparam suas…» in «Saúde e bem-estar · Compreensão oral»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
         "options": [
-          "Neste episódio sobre Saúde e bem-estar, duas pessoas comparam suas posições.",
-          "A outra acrescenta que prevenzione só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: riposo pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "episódio",
+          "prevenzione",
+          "comparam",
+          "posições"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Saúde e bem-estar · Compreensão oral»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
         "options": [
-          "Neste episódio sobre Saúde e bem-estar, duas pessoas comparam suas posições.",
-          "A outra acrescenta que prevenzione só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: riposo pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "consequências",
+          "verificáveis",
+          "riposo",
+          "considerado"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Saúde e bem-estar · Compreensão oral»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
         "options": [
-          "Neste episódio sobre Saúde e bem-estar, duas pessoas comparam suas posições.",
-          "A outra acrescenta que prevenzione só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: riposo pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "consequências",
+          "verificáveis",
+          "considerado",
+          "clareza"
         ]
       }
     ]
@@ -22597,92 +22597,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Economia cotidiana · Compreensão oral»?",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Economia cotidiana, duas pessoas comparam suas _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Economia cotidiana, duas pessoas comparam suas posições."
+                "text": "posições"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que risparmio só é útil quando é explicado com exemplos verificáveis."
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: investimento pode mudar a perspectiva de quem escuta."
+                "text": "verificáveis"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "investimento"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «Neste episódio sobre Economia cotidiana, duas pessoas comparam suas…» in «Economia cotidiana · Compreensão oral»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Economia cotidiana, duas pessoas comparam suas posições."
+                "text": "consequências"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que risparmio só é útil quando é explicado com exemplos verificáveis."
+                "text": "risparmio"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: investimento pode mudar a perspectiva de quem escuta."
+                "text": "produz"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "verificáveis"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Economia cotidiana · Compreensão oral»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Economia cotidiana, duas pessoas comparam suas posições."
+                "text": "cotidiana"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que risparmio só é útil quando é explicado com exemplos verificáveis."
+                "text": "concretas"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: investimento pode mudar a perspectiva de quem escuta."
+                "text": "investimento"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "risparmio"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Economia cotidiana · Compreensão oral»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Economia cotidiana, duas pessoas comparam suas posições."
+                "text": "consequências"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que risparmio só é útil quando é explicado com exemplos verificáveis."
+                "text": "verificáveis"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: investimento pode mudar a perspectiva de quem escuta."
+                "text": "investimento"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "clareza"
               }
             ]
           }
@@ -22702,42 +22702,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Economia cotidiana · Compreensão oral»?",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Economia cotidiana, duas pessoas comparam suas _____.”",
         "options": [
-          "Neste episódio sobre Economia cotidiana, duas pessoas comparam suas posições.",
-          "A outra acrescenta que risparmio só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: investimento pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "posições",
+          "consequências",
+          "verificáveis",
+          "investimento"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «Neste episódio sobre Economia cotidiana, duas pessoas comparam suas…» in «Economia cotidiana · Compreensão oral»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
         "options": [
-          "Neste episódio sobre Economia cotidiana, duas pessoas comparam suas posições.",
-          "A outra acrescenta que risparmio só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: investimento pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "consequências",
+          "risparmio",
+          "produz",
+          "verificáveis"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Economia cotidiana · Compreensão oral»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
         "options": [
-          "Neste episódio sobre Economia cotidiana, duas pessoas comparam suas posições.",
-          "A outra acrescenta que risparmio só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: investimento pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "cotidiana",
+          "concretas",
+          "investimento",
+          "risparmio"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Economia cotidiana · Compreensão oral»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
         "options": [
-          "Neste episódio sobre Economia cotidiana, duas pessoas comparam suas posições.",
-          "A outra acrescenta que risparmio só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: investimento pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "consequências",
+          "verificáveis",
+          "investimento",
+          "clareza"
         ]
       }
     ]
@@ -22804,92 +22804,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Economia e desigualdade · Compreensão oral»?",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Economia e desigualdade, duas pessoas comparam suas _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Economia e desigualdade, duas pessoas comparam suas posições."
+                "text": "posições"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que reddito só é útil quando é explicado com exemplos verificáveis."
+                "text": "disuguaglianza"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: indicatore pode mudar a perspectiva de quem escuta."
+                "text": "consequências"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "desigualdade"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «Neste episódio sobre Economia e desigualdade, duas pessoas comparam…» in «Economia e desigualdade · Compreensão oral»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Economia e desigualdade, duas pessoas comparam suas posições."
+                "text": "disuguaglianza"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que reddito só é útil quando é explicado com exemplos verificáveis."
+                "text": "reddito"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: indicatore pode mudar a perspectiva de quem escuta."
+                "text": "consequências"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "desigualdade"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Economia e desigualdade · Compreensão oral»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Economia e desigualdade, duas pessoas comparam suas posições."
+                "text": "disuguaglianza"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que reddito só é útil quando é explicado com exemplos verificáveis."
+                "text": "pessoas"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: indicatore pode mudar a perspectiva de quem escuta."
+                "text": "indicatore"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "observa"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Economia e desigualdade · Compreensão oral»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Economia e desigualdade, duas pessoas comparam suas posições."
+                "text": "disuguaglianza"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que reddito só é útil quando é explicado com exemplos verificáveis."
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: indicatore pode mudar a perspectiva de quem escuta."
+                "text": "desigualdade"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "clareza"
               }
             ]
           }
@@ -22909,42 +22909,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Economia e desigualdade · Compreensão oral»?",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Economia e desigualdade, duas pessoas comparam suas _____.”",
         "options": [
-          "Neste episódio sobre Economia e desigualdade, duas pessoas comparam suas posições.",
-          "A outra acrescenta que reddito só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: indicatore pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "posições",
+          "disuguaglianza",
+          "consequências",
+          "desigualdade"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «Neste episódio sobre Economia e desigualdade, duas pessoas comparam…» in «Economia e desigualdade · Compreensão oral»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
         "options": [
-          "Neste episódio sobre Economia e desigualdade, duas pessoas comparam suas posições.",
-          "A outra acrescenta que reddito só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: indicatore pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "disuguaglianza",
+          "reddito",
+          "consequências",
+          "desigualdade"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Economia e desigualdade · Compreensão oral»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
         "options": [
-          "Neste episódio sobre Economia e desigualdade, duas pessoas comparam suas posições.",
-          "A outra acrescenta que reddito só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: indicatore pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "disuguaglianza",
+          "pessoas",
+          "indicatore",
+          "observa"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Economia e desigualdade · Compreensão oral»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
         "options": [
-          "Neste episódio sobre Economia e desigualdade, duas pessoas comparam suas posições.",
-          "A outra acrescenta que reddito só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: indicatore pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "disuguaglianza",
+          "consequências",
+          "desigualdade",
+          "clareza"
         ]
       }
     ]
@@ -23002,92 +23002,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «Escola e amizade: ouça», which detail establishes the situation?",
+            "prompt": "Complete este detalhe do áudio.\n\n“Qual _____ você gosta?”",
             "options": [
               {
                 "id": "o1",
-                "text": "Qual matéria você gosta?"
+                "text": "matéria"
               },
               {
                 "id": "o2",
-                "text": "Falamos de escola."
+                "text": "Qual"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "você"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "comunidade"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «Qual matéria você gosta?», what happens next in «Escola e amizade: ouça»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Falamos de _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Qual matéria você gosta?"
+                "text": "comunidade"
               },
               {
                 "id": "o2",
-                "text": "Falamos de escola."
+                "text": "escola"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "Qual"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "você"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «Escola e amizade: ouça»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Qual matéria você gosta?"
+                "text": "comunidade"
               },
               {
                 "id": "o2",
-                "text": "Falamos de escola."
+                "text": "aprender"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "Gosto"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "praticar"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «Escola e amizade: ouça» after «Gosto de aprender com a comunidade.»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Qual matéria você gosta?"
+                "text": "gosta"
               },
               {
                 "id": "o2",
-                "text": "Falamos de escola."
+                "text": "Gosto"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "Vamos"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "praticar"
               }
             ]
           }
@@ -23098,42 +23098,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «Escola e amizade: ouça», which detail establishes the situation?",
+        "prompt": "Complete este detalhe do áudio.\n\n“Qual _____ você gosta?”",
         "options": [
-          "Qual matéria você gosta?",
-          "Falamos de escola.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "matéria",
+          "Qual",
+          "você",
+          "comunidade"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «Qual matéria você gosta?», what happens next in «Escola e amizade: ouça»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Falamos de _____.”",
         "options": [
-          "Qual matéria você gosta?",
-          "Falamos de escola.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "comunidade",
+          "escola",
+          "Qual",
+          "você"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «Escola e amizade: ouça»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
         "options": [
-          "Qual matéria você gosta?",
-          "Falamos de escola.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "comunidade",
+          "aprender",
+          "Gosto",
+          "praticar"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «Escola e amizade: ouça» after «Gosto de aprender com a comunidade.»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
         "options": [
-          "Qual matéria você gosta?",
-          "Falamos de escola.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "gosta",
+          "Gosto",
+          "Vamos",
+          "praticar"
         ]
       }
     ]
@@ -23191,92 +23191,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «Viajar com respeito: ouça», which detail establishes the situation?",
+            "prompt": "Complete este detalhe do áudio.\n\n“Não quero incomodar os _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Não quero incomodar os moradores."
+                "text": "moradores"
               },
               {
                 "id": "o2",
-                "text": "Falamos de morador."
+                "text": "juntos"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "amanhã"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "Falamos"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «Não quero incomodar os moradores.», what happens next in «Viajar com respeito: ouça»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Falamos de _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Não quero incomodar os moradores."
+                "text": "comunidade"
               },
               {
                 "id": "o2",
-                "text": "Falamos de morador."
+                "text": "morador"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "quero"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "incomodar"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «Viajar com respeito: ouça»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Não quero incomodar os moradores."
+                "text": "comunidade"
               },
               {
                 "id": "o2",
-                "text": "Falamos de morador."
+                "text": "incomodar"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "Gosto"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "moradores"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «Viajar com respeito: ouça» after «Gosto de aprender com a comunidade.»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Não quero incomodar os moradores."
+                "text": "quero"
               },
               {
                 "id": "o2",
-                "text": "Falamos de morador."
+                "text": "Gosto"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "Vamos"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "praticar"
               }
             ]
           }
@@ -23287,42 +23287,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «Viajar com respeito: ouça», which detail establishes the situation?",
+        "prompt": "Complete este detalhe do áudio.\n\n“Não quero incomodar os _____.”",
         "options": [
-          "Não quero incomodar os moradores.",
-          "Falamos de morador.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "moradores",
+          "juntos",
+          "amanhã",
+          "Falamos"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «Não quero incomodar os moradores.», what happens next in «Viajar com respeito: ouça»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Falamos de _____.”",
         "options": [
-          "Não quero incomodar os moradores.",
-          "Falamos de morador.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "comunidade",
+          "morador",
+          "quero",
+          "incomodar"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «Viajar com respeito: ouça»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
         "options": [
-          "Não quero incomodar os moradores.",
-          "Falamos de morador.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "comunidade",
+          "incomodar",
+          "Gosto",
+          "moradores"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «Viajar com respeito: ouça» after «Gosto de aprender com a comunidade.»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
         "options": [
-          "Não quero incomodar os moradores.",
-          "Falamos de morador.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "quero",
+          "Gosto",
+          "Vamos",
+          "praticar"
         ]
       }
     ]
@@ -25130,56 +25130,56 @@
       {
         "id": "portuguese-b1-projeto-coletivo-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Projeto coletivo\"?",
+        "prompt": "Complete este detalhe da leitura.\n\n“Para Frederico, apresentar uma pesquisa tornou-se um assunto concreto depois de uma reunião em a sala de _____.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Projeto coletivo",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-b1-projeto-coletivo-reading-comprehension-2",
-        "type": "mcq",
-        "prompt": "Qual afirmacao resume melhor \"Projeto coletivo\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Projeto coletivo",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-b1-projeto-coletivo-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Projeto coletivo\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Projeto coletivo",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-b1-projeto-coletivo-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Qual afirmacao resume melhor \"Projeto coletivo\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Projeto coletivo",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "ciências",
+          "pesquisa",
+          "concreto",
+          "conversa"
         ]
       },
       {
         "id": "portuguese-b1-projeto-coletivo-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Projeto coletivo\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Frederico não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Projeto coletivo",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "aprender",
+          "pesquisa",
+          "concreto",
+          "ciências"
+        ]
+      },
+      {
+        "id": "portuguese-b1-projeto-coletivo-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Frederico não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
+        "options": [
+          "aprender",
+          "pesquisa",
+          "concreto",
+          "ciências"
+        ]
+      },
+      {
+        "id": "portuguese-b1-projeto-coletivo-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Frederico não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
+        "options": [
+          "aprender",
+          "pesquisa",
+          "concreto",
+          "ciências"
+        ]
+      },
+      {
+        "id": "portuguese-b1-projeto-coletivo-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Frederico não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
+        "options": [
+          "aprender",
+          "pesquisa",
+          "concreto",
+          "ciências"
         ]
       }
     ]
@@ -25271,36 +25271,36 @@
         ]
       },
       {
-        "id": "portuguese-b2-b2-cultura-e-identidade-reading-comprehension-3",
+        "id": "portuguese-b2-b2-cultura-e-identidade-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Cultura e identidade · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Cultura e identidade · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-b2-b2-cultura-e-identidade-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Qual afirmacao resume melhor \"Cultura e identidade · Leitura\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Cultura e identidade · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "identidade",
+          "tradizione",
+          "diferentes"
         ]
       },
       {
         "id": "portuguese-b2-b2-cultura-e-identidade-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Cultura e identidade · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Cultura e identidade · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "identidade",
+          "tradizione",
+          "diferentes"
+        ]
+      },
+      {
+        "id": "portuguese-b2-b2-cultura-e-identidade-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
+        "options": [
+          "respeitosa",
+          "identidade",
+          "tradizione",
+          "diferentes"
         ]
       }
     ]
@@ -25392,36 +25392,36 @@
         ]
       },
       {
-        "id": "portuguese-c1-c1-territorios-e-memoria-reading-comprehension-3",
+        "id": "portuguese-c1-c1-territorios-e-memoria-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Territórios e memória · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Territórios e memória · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-c1-c1-territorios-e-memoria-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Qual afirmacao resume melhor \"Territórios e memória · Leitura\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Territórios e memória · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "patrimonio",
+          "diferentes",
+          "Territórios"
         ]
       },
       {
         "id": "portuguese-c1-c1-territorios-e-memoria-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Territórios e memória · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Territórios e memória · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "patrimonio",
+          "diferentes",
+          "Territórios"
+        ]
+      },
+      {
+        "id": "portuguese-c1-c1-territorios-e-memoria-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
+        "options": [
+          "respeitosa",
+          "patrimonio",
+          "diferentes",
+          "Territórios"
         ]
       }
     ]
@@ -25513,36 +25513,36 @@
         ]
       },
       {
-        "id": "portuguese-c2-c2-ambiente-e-futuro-reading-comprehension-3",
+        "id": "portuguese-c2-c2-ambiente-e-futuro-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Ambiente e futuro · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Ambiente e futuro · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-c2-c2-ambiente-e-futuro-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Qual afirmacao resume melhor \"Ambiente e futuro · Leitura\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Ambiente e futuro · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "diferentes",
+          "justifica",
+          "discussão"
         ]
       },
       {
         "id": "portuguese-c2-c2-ambiente-e-futuro-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Ambiente e futuro · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Ambiente e futuro · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "diferentes",
+          "justifica",
+          "discussão"
+        ]
+      },
+      {
+        "id": "portuguese-c2-c2-ambiente-e-futuro-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
+        "options": [
+          "respeitosa",
+          "diferentes",
+          "justifica",
+          "discussão"
         ]
       }
     ]
@@ -25557,7 +25557,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 70,
-    "estimatedMinutes": 8,
+    "estimatedMinutes": 10,
     "description": "La casa y el vecindario",
     "intro": "La casa y el vecindario",
     "mission": "",
@@ -25568,63 +25568,63 @@
     "reading": {
       "title": "Casa e vizinhança",
       "parts": [
-        "Luana está em Recife. Hoje aprende a descrever lugares. Encontra Rafael e diz: “A cozinha é clara.”. Os dois conversam com respeito e aprendem quatro palavras novas: cozinha, quarto, janela e varanda.",
-        "Rafael faz uma pergunta simples e Luana responde com uma frase curta. A conversa mostra que a cultura se aprende escutando e participando.",
-        "No final, Luana escreve: “A cozinha é clara.”."
+        "Hoje Luana está em Recife. Ela encontra Rafael no bairro e o cumprimenta com um sorriso. Os dois falam devagar e escutam com atenção. Luana quer usar o português em uma situação real, por isso tenta uma frase simples e Rafael responde com gentileza.",
+        "Na conversa, eles usam palavras úteis da lição: parole semplici. Rafael faz uma pergunta e Luana responde sem pressa. Quando ela não entende uma palavra, pergunta: «Pode repetir, por favor?». Depois, os dois repetem as palavras mais importantes e criam um exemplo pequeno para cada uma.",
+        "Antes de voltar para casa, Luana agradece a Rafael. Ela diz que escutar, falar e repetir ajudam a ter mais confiança. Rafael concorda e propõe um novo encontro amanhã. Luana volta para casa feliz e escreve no caderno as palavras novas do dia."
       ],
       "questions": [
-        "Onde está Luana?",
+        "Onde Luana está?",
         "Com quem Luana conversa?",
-        "Qual frase Luana usa?",
-        "Por que a experiência é importante?"
+        "O que Luana pergunta quando não entende uma palavra?",
+        "Por que Luana repete as palavras?"
       ],
-      "text": "Luana está em Recife. Hoje aprende a descrever lugares. Encontra Rafael e diz: “A cozinha é clara.”. Os dois conversam com respeito e aprendem quatro palavras novas: cozinha, quarto, janela e varanda.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. A conversa mostra que a cultura se aprende escutando e participando.\n\nNo final, Luana escreve: “A cozinha é clara.”."
+      "text": "Hoje Luana está em Recife. Ela encontra Rafael no bairro e o cumprimenta com um sorriso. Os dois falam devagar e escutam com atenção. Luana quer usar o português em uma situação real, por isso tenta uma frase simples e Rafael responde com gentileza.\n\nNa conversa, eles usam palavras úteis da lição: parole semplici. Rafael faz uma pergunta e Luana responde sem pressa. Quando ela não entende uma palavra, pergunta: «Pode repetir, por favor?». Depois, os dois repetem as palavras mais importantes e criam um exemplo pequeno para cada uma.\n\nAntes de voltar para casa, Luana agradece a Rafael. Ela diz que escutar, falar e repetir ajudam a ter mais confiança. Rafael concorda e propõe um novo encontro amanhã. Luana volta para casa feliz e escreve no caderno as palavras novas do dia."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "id": "portuguese-a1-casa-e-vizinhanca-reading-comprehension-1",
+        "id": "portuguese-a1-casa-e-vizinhanca-reading-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Qual é o objetivo principal de \"Casa e vizinhança\"?",
+        "prompt": "Onde Luana está?",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Casa e vizinhança",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "Recife",
+          "Salvador",
+          "Rio de Janeiro",
+          "Brasília"
         ]
       },
       {
-        "id": "portuguese-a1-casa-e-vizinhanca-reading-comprehension-2",
+        "id": "portuguese-a1-casa-e-vizinhanca-reading-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Qual afirmação resume melhor \"Casa e vizinhança\"?",
+        "prompt": "Com quem Luana conversa?",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Casa e vizinhança",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "Rafael",
+          "Pedro",
+          "Marina",
+          "Carlos"
         ]
       },
       {
         "id": "portuguese-a1-casa-e-vizinhanca-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Que ideia central aparece em \"Casa e vizinhança\"?",
+        "prompt": "Escolha a palavra que falta na leitura.\n\n“Depois, os dois repetem as palavras mais _____ e criam um exemplo pequeno para cada uma.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Casa e vizinhança",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "conversa",
+          "palavras",
+          "importantes",
+          "semplici"
         ]
       },
       {
         "id": "portuguese-a1-casa-e-vizinhanca-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Que detalhe é essencial em \"Casa e vizinhança\"?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“Luana volta para casa feliz e _____ no caderno as palavras novas do dia.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Casa e vizinhança",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "repetem",
+          "exemplo",
+          "pequeno",
+          "escreve"
         ]
       }
     ]
@@ -25668,56 +25668,56 @@
       {
         "id": "portuguese-a2-esporte-e-lazer-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Qual é o objetivo principal de \"Esporte e lazer\"?",
+        "prompt": "Complete este detalhe da leitura.\n\n“Luana mora em Recife e conversa com Rafael sobre como falar do _____.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Esporte e lazer",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "passado",
+          "criança",
+          "explica",
+          "cultura"
         ]
       },
       {
         "id": "portuguese-a2-esporte-e-lazer-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Qual afirmação resume melhor \"Esporte e lazer\"?",
+        "prompt": "Qual palavra completa esta frase do texto?\n\n“Luana diz: “_____ era criança, eu nadava.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Esporte e lazer",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-a2-esporte-e-lazer-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Que ideia central aparece em \"Esporte e lazer\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Esporte e lazer",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-a2-esporte-e-lazer-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Que detalhe é essencial em \"Esporte e lazer\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Esporte e lazer",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "Recife",
+          "Quando",
+          "Rafael",
+          "nadava"
         ]
       },
       {
         "id": "portuguese-a2-esporte-e-lazer-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Que conclusão o texto permite tirar sobre \"Esporte e lazer\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“No final, Luana escreve: “_____ era criança, eu nadava.”.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Esporte e lazer",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "Quando",
+          "Recife",
+          "Rafael",
+          "nadava"
+        ]
+      },
+      {
+        "id": "portuguese-a2-esporte-e-lazer-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“No final, Luana escreve: “_____ era criança, eu nadava.”.”",
+        "options": [
+          "Quando",
+          "Recife",
+          "Rafael",
+          "nadava"
+        ]
+      },
+      {
+        "id": "portuguese-a2-esporte-e-lazer-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“No final, Luana escreve: “_____ era criança, eu nadava.”.”",
+        "options": [
+          "Quando",
+          "Recife",
+          "Rafael",
+          "nadava"
         ]
       }
     ]
@@ -26070,92 +26070,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Projeto coletivo: palavras»?",
+            "prompt": "Complete este detalhe do áudio.\n\n“No tema «Projeto coletivo», um pequeno grupo da comunidade conversa sobre projeto, pesquisa e _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Projeto coletivo», um pequeno grupo da comunidade conversa sobre projeto, pesquisa e tarefa."
+                "text": "tarefa"
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "experiência"
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "importantes"
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "comunidade"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «No tema «Projeto coletivo», um pequeno grupo da comunidade conversa…» in «Projeto coletivo: palavras»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Cada _____ conta uma experiência, escuta as outras e propõe uma solução concreta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Projeto coletivo», um pequeno grupo da comunidade conversa sobre projeto, pesquisa e tarefa."
+                "text": "experiência"
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "pessoa"
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "importantes"
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "comunidade"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Projeto coletivo: palavras»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“No final, decidem colaborar porque um objetivo claro ajuda a _____ a vida cotidiana.”",
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Projeto coletivo», um pequeno grupo da comunidade conversa sobre projeto, pesquisa e tarefa."
+                "text": "grupo"
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "conta"
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "melhorar"
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "experiência"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Projeto coletivo: palavras»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Depois, o grupo _____ as ideias mais importantes.”",
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Projeto coletivo», um pequeno grupo da comunidade conversa sobre projeto, pesquisa e tarefa."
+                "text": "experiência"
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "importantes"
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "comunidade"
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "resume"
               }
             ]
           }
@@ -26166,42 +26166,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Projeto coletivo: palavras»?",
+        "prompt": "Complete este detalhe do áudio.\n\n“No tema «Projeto coletivo», um pequeno grupo da comunidade conversa sobre projeto, pesquisa e _____.”",
         "options": [
-          "No tema «Projeto coletivo», um pequeno grupo da comunidade conversa sobre projeto, pesquisa e tarefa.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "tarefa",
+          "experiência",
+          "importantes",
+          "comunidade"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «No tema «Projeto coletivo», um pequeno grupo da comunidade conversa…» in «Projeto coletivo: palavras»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Cada _____ conta uma experiência, escuta as outras e propõe uma solução concreta.”",
         "options": [
-          "No tema «Projeto coletivo», um pequeno grupo da comunidade conversa sobre projeto, pesquisa e tarefa.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "experiência",
+          "pessoa",
+          "importantes",
+          "comunidade"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Projeto coletivo: palavras»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“No final, decidem colaborar porque um objetivo claro ajuda a _____ a vida cotidiana.”",
         "options": [
-          "No tema «Projeto coletivo», um pequeno grupo da comunidade conversa sobre projeto, pesquisa e tarefa.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "grupo",
+          "conta",
+          "melhorar",
+          "experiência"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Projeto coletivo: palavras»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Depois, o grupo _____ as ideias mais importantes.”",
         "options": [
-          "No tema «Projeto coletivo», um pequeno grupo da comunidade conversa sobre projeto, pesquisa e tarefa.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "experiência",
+          "importantes",
+          "comunidade",
+          "resume"
         ]
       }
     ]
@@ -26496,92 +26496,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Cultura e identidade · Compreensão oral»?",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Cultura e identidade, duas pessoas comparam suas _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Cultura e identidade, duas pessoas comparam suas posições."
+                "text": "posições"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que appartenenza só é útil quando é explicado com exemplos verificáveis."
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: prospettiva pode mudar a perspectiva de quem escuta."
+                "text": "appartenenza"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "verificáveis"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «Neste episódio sobre Cultura e identidade, duas pessoas comparam suas…» in «Cultura e identidade · Compreensão oral»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Cultura e identidade, duas pessoas comparam suas posições."
+                "text": "concretas"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que appartenenza só é útil quando é explicado com exemplos verificáveis."
+                "text": "appartenenza"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: prospettiva pode mudar a perspectiva de quem escuta."
+                "text": "explicado"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "propostas"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Cultura e identidade · Compreensão oral»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Cultura e identidade, duas pessoas comparam suas posições."
+                "text": "episódio"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que appartenenza só é útil quando é explicado com exemplos verificáveis."
+                "text": "comparam"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: prospettiva pode mudar a perspectiva de quem escuta."
+                "text": "prospettiva"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "posições"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Cultura e identidade · Compreensão oral»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Cultura e identidade, duas pessoas comparam suas posições."
+                "text": "consequências"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que appartenenza só é útil quando é explicado com exemplos verificáveis."
+                "text": "appartenenza"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: prospettiva pode mudar a perspectiva de quem escuta."
+                "text": "verificáveis"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "clareza"
               }
             ]
           }
@@ -26601,42 +26601,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Cultura e identidade · Compreensão oral»?",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Cultura e identidade, duas pessoas comparam suas _____.”",
         "options": [
-          "Neste episódio sobre Cultura e identidade, duas pessoas comparam suas posições.",
-          "A outra acrescenta que appartenenza só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: prospettiva pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "posições",
+          "consequências",
+          "appartenenza",
+          "verificáveis"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «Neste episódio sobre Cultura e identidade, duas pessoas comparam suas…» in «Cultura e identidade · Compreensão oral»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
         "options": [
-          "Neste episódio sobre Cultura e identidade, duas pessoas comparam suas posições.",
-          "A outra acrescenta que appartenenza só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: prospettiva pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "concretas",
+          "appartenenza",
+          "explicado",
+          "propostas"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Cultura e identidade · Compreensão oral»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
         "options": [
-          "Neste episódio sobre Cultura e identidade, duas pessoas comparam suas posições.",
-          "A outra acrescenta que appartenenza só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: prospettiva pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "episódio",
+          "comparam",
+          "prospettiva",
+          "posições"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Cultura e identidade · Compreensão oral»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
         "options": [
-          "Neste episódio sobre Cultura e identidade, duas pessoas comparam suas posições.",
-          "A outra acrescenta que appartenenza só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: prospettiva pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "consequências",
+          "appartenenza",
+          "verificáveis",
+          "clareza"
         ]
       }
     ]
@@ -26703,92 +26703,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Territórios e memória · Compreensão oral»?",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Territórios e memória, duas pessoas comparam suas _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Territórios e memória, duas pessoas comparam suas posições."
+                "text": "posições"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que patrimonio só é útil quando é explicado com exemplos verificáveis."
+                "text": "trasformazione"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: trasformazione pode mudar a perspectiva de quem escuta."
+                "text": "consequências"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "verificáveis"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «Neste episódio sobre Territórios e memória, duas pessoas comparam suas…» in «Territórios e memória · Compreensão oral»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Territórios e memória, duas pessoas comparam suas posições."
+                "text": "trasformazione"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que patrimonio só é útil quando é explicado com exemplos verificáveis."
+                "text": "patrimonio"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: trasformazione pode mudar a perspectiva de quem escuta."
+                "text": "memória"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "pessoas"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Territórios e memória · Compreensão oral»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Territórios e memória, duas pessoas comparam suas posições."
+                "text": "Territórios"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que patrimonio só é útil quando é explicado com exemplos verificáveis."
+                "text": "considerado"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: trasformazione pode mudar a perspectiva de quem escuta."
+                "text": "trasformazione"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "dificuldade"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Territórios e memória · Compreensão oral»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Territórios e memória, duas pessoas comparam suas posições."
+                "text": "trasformazione"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que patrimonio só é útil quando é explicado com exemplos verificáveis."
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: trasformazione pode mudar a perspectiva de quem escuta."
+                "text": "verificáveis"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "clareza"
               }
             ]
           }
@@ -26808,42 +26808,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Territórios e memória · Compreensão oral»?",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Territórios e memória, duas pessoas comparam suas _____.”",
         "options": [
-          "Neste episódio sobre Territórios e memória, duas pessoas comparam suas posições.",
-          "A outra acrescenta que patrimonio só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: trasformazione pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "posições",
+          "trasformazione",
+          "consequências",
+          "verificáveis"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «Neste episódio sobre Territórios e memória, duas pessoas comparam suas…» in «Territórios e memória · Compreensão oral»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
         "options": [
-          "Neste episódio sobre Territórios e memória, duas pessoas comparam suas posições.",
-          "A outra acrescenta que patrimonio só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: trasformazione pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "trasformazione",
+          "patrimonio",
+          "memória",
+          "pessoas"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Territórios e memória · Compreensão oral»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
         "options": [
-          "Neste episódio sobre Territórios e memória, duas pessoas comparam suas posições.",
-          "A outra acrescenta que patrimonio só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: trasformazione pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "Territórios",
+          "considerado",
+          "trasformazione",
+          "dificuldade"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Territórios e memória · Compreensão oral»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
         "options": [
-          "Neste episódio sobre Territórios e memória, duas pessoas comparam suas posições.",
-          "A outra acrescenta que patrimonio só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: trasformazione pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "trasformazione",
+          "consequências",
+          "verificáveis",
+          "clareza"
         ]
       }
     ]
@@ -26910,92 +26910,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Ambiente e futuro · Compreensão oral»?",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Ambiente e futuro, duas pessoas comparam suas _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Ambiente e futuro, duas pessoas comparam suas posições."
+                "text": "posições"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que risorsa só é útil quando é explicado com exemplos verificáveis."
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: mitigare pode mudar a perspectiva de quem escuta."
+                "text": "verificáveis"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "Neste"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «Neste episódio sobre Ambiente e futuro, duas pessoas comparam suas…» in «Ambiente e futuro · Compreensão oral»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Ambiente e futuro, duas pessoas comparam suas posições."
+                "text": "consequências"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que risorsa só é útil quando é explicado com exemplos verificáveis."
+                "text": "risorsa"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: mitigare pode mudar a perspectiva de quem escuta."
+                "text": "verificáveis"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "considerado"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Ambiente e futuro · Compreensão oral»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Ambiente e futuro, duas pessoas comparam suas posições."
+                "text": "consequências"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que risorsa só é útil quando é explicado com exemplos verificáveis."
+                "text": "verificáveis"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: mitigare pode mudar a perspectiva de quem escuta."
+                "text": "mitigare"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "Neste"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Ambiente e futuro · Compreensão oral»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Ambiente e futuro, duas pessoas comparam suas posições."
+                "text": "consequências"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que risorsa só é útil quando é explicado com exemplos verificáveis."
+                "text": "verificáveis"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: mitigare pode mudar a perspectiva de quem escuta."
+                "text": "considerado"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "clareza"
               }
             ]
           }
@@ -27015,42 +27015,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Ambiente e futuro · Compreensão oral»?",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Ambiente e futuro, duas pessoas comparam suas _____.”",
         "options": [
-          "Neste episódio sobre Ambiente e futuro, duas pessoas comparam suas posições.",
-          "A outra acrescenta que risorsa só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: mitigare pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "posições",
+          "consequências",
+          "verificáveis",
+          "Neste"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «Neste episódio sobre Ambiente e futuro, duas pessoas comparam suas…» in «Ambiente e futuro · Compreensão oral»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
         "options": [
-          "Neste episódio sobre Ambiente e futuro, duas pessoas comparam suas posições.",
-          "A outra acrescenta que risorsa só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: mitigare pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "consequências",
+          "risorsa",
+          "verificáveis",
+          "considerado"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Ambiente e futuro · Compreensão oral»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
         "options": [
-          "Neste episódio sobre Ambiente e futuro, duas pessoas comparam suas posições.",
-          "A outra acrescenta que risorsa só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: mitigare pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "consequências",
+          "verificáveis",
+          "mitigare",
+          "Neste"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Ambiente e futuro · Compreensão oral»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
         "options": [
-          "Neste episódio sobre Ambiente e futuro, duas pessoas comparam suas posições.",
-          "A outra acrescenta que risorsa só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: mitigare pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "consequências",
+          "verificáveis",
+          "considerado",
+          "clareza"
         ]
       }
     ]
@@ -27108,92 +27108,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «Casa e vizinhança: ouça», which detail establishes the situation?",
+            "prompt": "Complete este detalhe do áudio.\n\n“A _____ é clara.”",
             "options": [
               {
                 "id": "o1",
-                "text": "A cozinha é clara."
+                "text": "cozinha"
               },
               {
                 "id": "o2",
-                "text": "Falamos de cozinha."
+                "text": "comunidade"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "clara"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "Gosto"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «A cozinha é clara.», what happens next in «Casa e vizinhança: ouça»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Falamos de _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "A cozinha é clara."
+                "text": "comunidade"
               },
               {
                 "id": "o2",
-                "text": "Falamos de cozinha."
+                "text": "cozinha"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "clara"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "Gosto"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «Casa e vizinhança: ouça»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
             "options": [
               {
                 "id": "o1",
-                "text": "A cozinha é clara."
+                "text": "comunidade"
               },
               {
                 "id": "o2",
-                "text": "Falamos de cozinha."
+                "text": "aprender"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "Gosto"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "praticar"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «Casa e vizinhança: ouça» after «Gosto de aprender com a comunidade.»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
             "options": [
               {
                 "id": "o1",
-                "text": "A cozinha é clara."
+                "text": "clara"
               },
               {
                 "id": "o2",
-                "text": "Falamos de cozinha."
+                "text": "Gosto"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "Vamos"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "praticar"
               }
             ]
           }
@@ -27204,42 +27204,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «Casa e vizinhança: ouça», which detail establishes the situation?",
+        "prompt": "Complete este detalhe do áudio.\n\n“A _____ é clara.”",
         "options": [
-          "A cozinha é clara.",
-          "Falamos de cozinha.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "cozinha",
+          "comunidade",
+          "clara",
+          "Gosto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «A cozinha é clara.», what happens next in «Casa e vizinhança: ouça»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Falamos de _____.”",
         "options": [
-          "A cozinha é clara.",
-          "Falamos de cozinha.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "comunidade",
+          "cozinha",
+          "clara",
+          "Gosto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «Casa e vizinhança: ouça»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
         "options": [
-          "A cozinha é clara.",
-          "Falamos de cozinha.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "comunidade",
+          "aprender",
+          "Gosto",
+          "praticar"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «Casa e vizinhança: ouça» after «Gosto de aprender com a comunidade.»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
         "options": [
-          "A cozinha é clara.",
-          "Falamos de cozinha.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "clara",
+          "Gosto",
+          "Vamos",
+          "praticar"
         ]
       }
     ]
@@ -27297,92 +27297,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «Esporte e lazer: ouça», which detail establishes the situation?",
+            "prompt": "Complete este detalhe do áudio.\n\n“Quando era criança, eu _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Quando era criança, eu nadava."
+                "text": "nadava"
               },
               {
                 "id": "o2",
-                "text": "Falamos de natação."
+                "text": "comunidade"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "era"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "aprender"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «Quando era criança, eu nadava.», what happens next in «Esporte e lazer: ouça»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Falamos de _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Quando era criança, eu nadava."
+                "text": "comunidade"
               },
               {
                 "id": "o2",
-                "text": "Falamos de natação."
+                "text": "natação"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "Gosto"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "Vamos"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «Esporte e lazer: ouça»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Quando era criança, eu nadava."
+                "text": "comunidade"
               },
               {
                 "id": "o2",
-                "text": "Falamos de natação."
+                "text": "aprender"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "Gosto"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "praticar"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «Esporte e lazer: ouça» after «Gosto de aprender com a comunidade.»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Quando era criança, eu nadava."
+                "text": "Gosto"
               },
               {
                 "id": "o2",
-                "text": "Falamos de natação."
+                "text": "Vamos"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "nadava"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "praticar"
               }
             ]
           }
@@ -27393,42 +27393,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «Esporte e lazer: ouça», which detail establishes the situation?",
+        "prompt": "Complete este detalhe do áudio.\n\n“Quando era criança, eu _____.”",
         "options": [
-          "Quando era criança, eu nadava.",
-          "Falamos de natação.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "nadava",
+          "comunidade",
+          "era",
+          "aprender"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «Quando era criança, eu nadava.», what happens next in «Esporte e lazer: ouça»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Falamos de _____.”",
         "options": [
-          "Quando era criança, eu nadava.",
-          "Falamos de natação.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "comunidade",
+          "natação",
+          "Gosto",
+          "Vamos"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «Esporte e lazer: ouça»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
         "options": [
-          "Quando era criança, eu nadava.",
-          "Falamos de natação.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "comunidade",
+          "aprender",
+          "Gosto",
+          "praticar"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «Esporte e lazer: ouça» after «Gosto de aprender com a comunidade.»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
         "options": [
-          "Quando era criança, eu nadava.",
-          "Falamos de natação.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "Gosto",
+          "Vamos",
+          "nadava",
+          "praticar"
         ]
       }
     ]
@@ -29236,56 +29236,56 @@
       {
         "id": "portuguese-b1-tecnologia-no-dia-a-dia-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Tecnologia no dia a dia\"?",
+        "prompt": "Complete este detalhe da leitura.\n\n“Para Clara, usar a tecnologia com atenção tornou-se um assunto concreto depois de uma reunião em um laboratório _____.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Tecnologia no dia a dia",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-b1-tecnologia-no-dia-a-dia-reading-comprehension-2",
-        "type": "mcq",
-        "prompt": "Qual afirmacao resume melhor \"Tecnologia no dia a dia\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Tecnologia no dia a dia",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-b1-tecnologia-no-dia-a-dia-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Tecnologia no dia a dia\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Tecnologia no dia a dia",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-b1-tecnologia-no-dia-a-dia-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Qual afirmacao resume melhor \"Tecnologia no dia a dia\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Tecnologia no dia a dia",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "digital",
+          "atenção",
+          "assunto",
+          "reunião"
         ]
       },
       {
         "id": "portuguese-b1-tecnologia-no-dia-a-dia-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Tecnologia no dia a dia\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Clara não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Tecnologia no dia a dia",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "aprender",
+          "concreto",
+          "pesquisa",
+          "conversa"
+        ]
+      },
+      {
+        "id": "portuguese-b1-tecnologia-no-dia-a-dia-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Clara não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
+        "options": [
+          "aprender",
+          "concreto",
+          "pesquisa",
+          "conversa"
+        ]
+      },
+      {
+        "id": "portuguese-b1-tecnologia-no-dia-a-dia-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Clara não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
+        "options": [
+          "aprender",
+          "concreto",
+          "pesquisa",
+          "conversa"
+        ]
+      },
+      {
+        "id": "portuguese-b1-tecnologia-no-dia-a-dia-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Clara não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
+        "options": [
+          "aprender",
+          "concreto",
+          "pesquisa",
+          "conversa"
         ]
       }
     ]
@@ -29377,36 +29377,36 @@
         ]
       },
       {
-        "id": "portuguese-b2-b2-tecnologia-e-privacidade-reading-comprehension-3",
+        "id": "portuguese-b2-b2-tecnologia-e-privacidade-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Tecnologia e privacidade · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Tecnologia e privacidade · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-b2-b2-tecnologia-e-privacidade-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Qual afirmacao resume melhor \"Tecnologia e privacidade · Leitura\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Tecnologia e privacidade · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "Tecnologia",
+          "diferentes",
+          "privacidade"
         ]
       },
       {
         "id": "portuguese-b2-b2-tecnologia-e-privacidade-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Tecnologia e privacidade · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Tecnologia e privacidade · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "Tecnologia",
+          "diferentes",
+          "privacidade"
+        ]
+      },
+      {
+        "id": "portuguese-b2-b2-tecnologia-e-privacidade-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
+        "options": [
+          "respeitosa",
+          "Tecnologia",
+          "diferentes",
+          "privacidade"
         ]
       }
     ]
@@ -29498,36 +29498,36 @@
         ]
       },
       {
-        "id": "portuguese-c1-c1-comunicacao-e-registro-reading-comprehension-3",
+        "id": "portuguese-c1-c1-comunicacao-e-registro-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Comunicação e registro · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Comunicação e registro · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-c1-c1-comunicacao-e-registro-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Qual afirmacao resume melhor \"Comunicação e registro · Leitura\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Comunicação e registro · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "diferentes",
+          "Comunicação",
+          "justifica"
         ]
       },
       {
         "id": "portuguese-c1-c1-comunicacao-e-registro-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Comunicação e registro · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Comunicação e registro · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "diferentes",
+          "Comunicação",
+          "justifica"
+        ]
+      },
+      {
+        "id": "portuguese-c1-c1-comunicacao-e-registro-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
+        "options": [
+          "respeitosa",
+          "diferentes",
+          "Comunicação",
+          "justifica"
         ]
       }
     ]
@@ -29619,36 +29619,36 @@
         ]
       },
       {
-        "id": "portuguese-c2-c2-midia-e-discurso-reading-comprehension-3",
+        "id": "portuguese-c2-c2-midia-e-discurso-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Mídia e discurso · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Mídia e discurso · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-c2-c2-midia-e-discurso-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Qual afirmacao resume melhor \"Mídia e discurso · Leitura\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Mídia e discurso · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "narrazione",
+          "diferentes",
+          "justifica"
         ]
       },
       {
         "id": "portuguese-c2-c2-midia-e-discurso-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Mídia e discurso · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Mídia e discurso · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "narrazione",
+          "diferentes",
+          "justifica"
+        ]
+      },
+      {
+        "id": "portuguese-c2-c2-midia-e-discurso-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
+        "options": [
+          "respeitosa",
+          "narrazione",
+          "diferentes",
+          "justifica"
         ]
       }
     ]
@@ -29663,7 +29663,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 80,
-    "estimatedMinutes": 8,
+    "estimatedMinutes": 10,
     "description": "El clima y las estaciones locales",
     "intro": "El clima y las estaciones locales",
     "mission": "",
@@ -29674,63 +29674,63 @@
     "reading": {
       "title": "Tempo no Recife",
       "parts": [
-        "Luana está em Recife. Hoje aprende a falar do tempo. Encontra Rafael e diz: “Hoje está quente.”. Os dois conversam com respeito e aprendem quatro palavras novas: sol, chuva, quente e vento.",
-        "Rafael faz uma pergunta simples e Luana responde com uma frase curta. A conversa mostra que a cultura se aprende escutando e participando.",
-        "No final, Luana escreve: “Hoje está quente.”."
+        "Hoje Luana está em Recife. Ela encontra Rafael no bairro e o cumprimenta com um sorriso. Os dois falam devagar e escutam com atenção. Luana quer usar o português em uma situação real, por isso tenta uma frase simples e Rafael responde com gentileza.",
+        "Na conversa, eles usam palavras úteis da lição: parole semplici. Rafael faz uma pergunta e Luana responde sem pressa. Quando ela não entende uma palavra, pergunta: «Pode repetir, por favor?». Depois, os dois repetem as palavras mais importantes e criam um exemplo pequeno para cada uma.",
+        "Antes de voltar para casa, Luana agradece a Rafael. Ela diz que escutar, falar e repetir ajudam a ter mais confiança. Rafael concorda e propõe um novo encontro amanhã. Luana volta para casa feliz e escreve no caderno as palavras novas do dia."
       ],
       "questions": [
-        "Onde está Luana?",
+        "Onde Luana está?",
         "Com quem Luana conversa?",
-        "Qual frase Luana usa?",
-        "Por que a experiência é importante?"
+        "O que Luana pergunta quando não entende uma palavra?",
+        "Por que Luana repete as palavras?"
       ],
-      "text": "Luana está em Recife. Hoje aprende a falar do tempo. Encontra Rafael e diz: “Hoje está quente.”. Os dois conversam com respeito e aprendem quatro palavras novas: sol, chuva, quente e vento.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. A conversa mostra que a cultura se aprende escutando e participando.\n\nNo final, Luana escreve: “Hoje está quente.”."
+      "text": "Hoje Luana está em Recife. Ela encontra Rafael no bairro e o cumprimenta com um sorriso. Os dois falam devagar e escutam com atenção. Luana quer usar o português em uma situação real, por isso tenta uma frase simples e Rafael responde com gentileza.\n\nNa conversa, eles usam palavras úteis da lição: parole semplici. Rafael faz uma pergunta e Luana responde sem pressa. Quando ela não entende uma palavra, pergunta: «Pode repetir, por favor?». Depois, os dois repetem as palavras mais importantes e criam um exemplo pequeno para cada uma.\n\nAntes de voltar para casa, Luana agradece a Rafael. Ela diz que escutar, falar e repetir ajudam a ter mais confiança. Rafael concorda e propõe um novo encontro amanhã. Luana volta para casa feliz e escreve no caderno as palavras novas do dia."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "id": "portuguese-a1-tempo-no-recife-reading-comprehension-1",
+        "id": "portuguese-a1-tempo-no-recife-reading-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Qual é o objetivo principal de \"Tempo no Recife\"?",
+        "prompt": "Onde Luana está?",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Tempo no Recife",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "Recife",
+          "Salvador",
+          "Rio de Janeiro",
+          "Brasília"
         ]
       },
       {
-        "id": "portuguese-a1-tempo-no-recife-reading-comprehension-2",
+        "id": "portuguese-a1-tempo-no-recife-reading-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Qual afirmação resume melhor \"Tempo no Recife\"?",
+        "prompt": "Com quem Luana conversa?",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Tempo no Recife",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "Rafael",
+          "Pedro",
+          "Marina",
+          "Carlos"
         ]
       },
       {
         "id": "portuguese-a1-tempo-no-recife-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Que ideia central aparece em \"Tempo no Recife\"?",
+        "prompt": "Escolha a palavra que falta na leitura.\n\n“Depois, os dois repetem as palavras mais _____ e criam um exemplo pequeno para cada uma.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Tempo no Recife",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "conversa",
+          "palavras",
+          "importantes",
+          "semplici"
         ]
       },
       {
         "id": "portuguese-a1-tempo-no-recife-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Que detalhe é essencial em \"Tempo no Recife\"?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“Luana volta para casa feliz e _____ no caderno as palavras novas do dia.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Tempo no Recife",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "repetem",
+          "exemplo",
+          "pequeno",
+          "escreve"
         ]
       }
     ]
@@ -29774,56 +29774,56 @@
       {
         "id": "portuguese-a2-saude-e-bem-estar-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Qual é o objetivo principal de \"Saúde e bem-estar\"?",
+        "prompt": "Complete este detalhe da leitura.\n\n“Luana mora em Recife e conversa com Rafael sobre como falar de _____.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Saúde e bem-estar",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "mal-estar",
+          "escutando",
+          "conversa",
+          "garganta"
         ]
       },
       {
         "id": "portuguese-a2-saude-e-bem-estar-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Qual afirmação resume melhor \"Saúde e bem-estar\"?",
+        "prompt": "Qual palavra completa esta frase do texto?\n\n“Luana diz: “_____ garganta está doendo.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Saúde e bem-estar",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-a2-saude-e-bem-estar-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Que ideia central aparece em \"Saúde e bem-estar\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Saúde e bem-estar",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-a2-saude-e-bem-estar-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Que detalhe é essencial em \"Saúde e bem-estar\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Saúde e bem-estar",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "Luana",
+          "Minha",
+          "falar",
+          "final"
         ]
       },
       {
         "id": "portuguese-a2-saude-e-bem-estar-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Que conclusão o texto permite tirar sobre \"Saúde e bem-estar\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“No final, Luana escreve: “_____ garganta está doendo.”.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Saúde e bem-estar",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "Minha",
+          "Luana",
+          "falar",
+          "final"
+        ]
+      },
+      {
+        "id": "portuguese-a2-saude-e-bem-estar-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“No final, Luana escreve: “_____ garganta está doendo.”.”",
+        "options": [
+          "Minha",
+          "Luana",
+          "falar",
+          "final"
+        ]
+      },
+      {
+        "id": "portuguese-a2-saude-e-bem-estar-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“No final, Luana escreve: “_____ garganta está doendo.”.”",
+        "options": [
+          "Minha",
+          "Luana",
+          "falar",
+          "final"
         ]
       }
     ]
@@ -30176,92 +30176,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Tecnologia no dia a dia: palavras»?",
+            "prompt": "Complete este detalhe do áudio.\n\n“No tema «Tecnologia no dia a dia», um pequeno grupo da comunidade conversa sobre tecnologia, aparelho e _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Tecnologia no dia a dia», um pequeno grupo da comunidade conversa sobre tecnologia, aparelho e vantagem."
+                "text": "vantagem"
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "grupo"
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "conta"
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "experiência"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «No tema «Tecnologia no dia a dia», um pequeno grupo da comunidade…» in «Tecnologia no dia a dia: palavras»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Cada _____ conta uma experiência, escuta as outras e propõe uma solução concreta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Tecnologia no dia a dia», um pequeno grupo da comunidade conversa sobre tecnologia, aparelho e vantagem."
+                "text": "experiência"
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "pessoa"
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "importantes"
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "Tecnologia"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Tecnologia no dia a dia: palavras»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“No final, decidem colaborar porque um objetivo claro ajuda a _____ a vida cotidiana.”",
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Tecnologia no dia a dia», um pequeno grupo da comunidade conversa sobre tecnologia, aparelho e vantagem."
+                "text": "grupo"
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "conta"
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "melhorar"
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "experiência"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Tecnologia no dia a dia: palavras»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Depois, o grupo _____ as ideias mais importantes.”",
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Tecnologia no dia a dia», um pequeno grupo da comunidade conversa sobre tecnologia, aparelho e vantagem."
+                "text": "experiência"
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "importantes"
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "Tecnologia"
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "resume"
               }
             ]
           }
@@ -30272,42 +30272,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Tecnologia no dia a dia: palavras»?",
+        "prompt": "Complete este detalhe do áudio.\n\n“No tema «Tecnologia no dia a dia», um pequeno grupo da comunidade conversa sobre tecnologia, aparelho e _____.”",
         "options": [
-          "No tema «Tecnologia no dia a dia», um pequeno grupo da comunidade conversa sobre tecnologia, aparelho e vantagem.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "vantagem",
+          "grupo",
+          "conta",
+          "experiência"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «No tema «Tecnologia no dia a dia», um pequeno grupo da comunidade…» in «Tecnologia no dia a dia: palavras»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Cada _____ conta uma experiência, escuta as outras e propõe uma solução concreta.”",
         "options": [
-          "No tema «Tecnologia no dia a dia», um pequeno grupo da comunidade conversa sobre tecnologia, aparelho e vantagem.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "experiência",
+          "pessoa",
+          "importantes",
+          "Tecnologia"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Tecnologia no dia a dia: palavras»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“No final, decidem colaborar porque um objetivo claro ajuda a _____ a vida cotidiana.”",
         "options": [
-          "No tema «Tecnologia no dia a dia», um pequeno grupo da comunidade conversa sobre tecnologia, aparelho e vantagem.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "grupo",
+          "conta",
+          "melhorar",
+          "experiência"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Tecnologia no dia a dia: palavras»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Depois, o grupo _____ as ideias mais importantes.”",
         "options": [
-          "No tema «Tecnologia no dia a dia», um pequeno grupo da comunidade conversa sobre tecnologia, aparelho e vantagem.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "experiência",
+          "importantes",
+          "Tecnologia",
+          "resume"
         ]
       }
     ]
@@ -30602,92 +30602,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Tecnologia e privacidade · Compreensão oral»?",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Tecnologia e privacidade, duas pessoas comparam suas _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Tecnologia e privacidade, duas pessoas comparam suas posições."
+                "text": "posições"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que dati só é útil quando é explicado com exemplos verificáveis."
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: proteggere pode mudar a perspectiva de quem escuta."
+                "text": "verificáveis"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "Neste"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «Neste episódio sobre Tecnologia e privacidade, duas pessoas comparam…» in «Tecnologia e privacidade · Compreensão oral»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que dati só é útil quando é _____ com exemplos verificáveis.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Tecnologia e privacidade, duas pessoas comparam suas posições."
+                "text": "consequências"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que dati só é útil quando é explicado com exemplos verificáveis."
+                "text": "explicado"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: proteggere pode mudar a perspectiva de quem escuta."
+                "text": "produz"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "verificáveis"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Tecnologia e privacidade · Compreensão oral»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Tecnologia e privacidade, duas pessoas comparam suas posições."
+                "text": "pessoas"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que dati só é útil quando é explicado com exemplos verificáveis."
+                "text": "observa"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: proteggere pode mudar a perspectiva de quem escuta."
+                "text": "proteggere"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "isolada"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Tecnologia e privacidade · Compreensão oral»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Tecnologia e privacidade, duas pessoas comparam suas posições."
+                "text": "consequências"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que dati só é útil quando é explicado com exemplos verificáveis."
+                "text": "verificáveis"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: proteggere pode mudar a perspectiva de quem escuta."
+                "text": "privacidade"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "clareza"
               }
             ]
           }
@@ -30707,42 +30707,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Tecnologia e privacidade · Compreensão oral»?",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Tecnologia e privacidade, duas pessoas comparam suas _____.”",
         "options": [
-          "Neste episódio sobre Tecnologia e privacidade, duas pessoas comparam suas posições.",
-          "A outra acrescenta que dati só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: proteggere pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "posições",
+          "consequências",
+          "verificáveis",
+          "Neste"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «Neste episódio sobre Tecnologia e privacidade, duas pessoas comparam…» in «Tecnologia e privacidade · Compreensão oral»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que dati só é útil quando é _____ com exemplos verificáveis.”",
         "options": [
-          "Neste episódio sobre Tecnologia e privacidade, duas pessoas comparam suas posições.",
-          "A outra acrescenta que dati só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: proteggere pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "consequências",
+          "explicado",
+          "produz",
+          "verificáveis"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Tecnologia e privacidade · Compreensão oral»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
         "options": [
-          "Neste episódio sobre Tecnologia e privacidade, duas pessoas comparam suas posições.",
-          "A outra acrescenta que dati só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: proteggere pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "pessoas",
+          "observa",
+          "proteggere",
+          "isolada"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Tecnologia e privacidade · Compreensão oral»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
         "options": [
-          "Neste episódio sobre Tecnologia e privacidade, duas pessoas comparam suas posições.",
-          "A outra acrescenta que dati só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: proteggere pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "consequências",
+          "verificáveis",
+          "privacidade",
+          "clareza"
         ]
       }
     ]
@@ -30809,92 +30809,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Comunicação e registro · Compreensão oral»?",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Comunicação e registro, duas pessoas comparam suas _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Comunicação e registro, duas pessoas comparam suas posições."
+                "text": "posições"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que destinatario só é útil quando é explicado com exemplos verificáveis."
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: intenzione pode mudar a perspectiva de quem escuta."
+                "text": "destinatario"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "verificáveis"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «Neste episódio sobre Comunicação e registro, duas pessoas comparam…» in «Comunicação e registro · Compreensão oral»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Comunicação e registro, duas pessoas comparam suas posições."
+                "text": "concretas"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que destinatario só é útil quando é explicado com exemplos verificáveis."
+                "text": "destinatario"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: intenzione pode mudar a perspectiva de quem escuta."
+                "text": "explicado"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "propostas"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Comunicação e registro · Compreensão oral»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Comunicação e registro, duas pessoas comparam suas posições."
+                "text": "pessoas"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que destinatario só é útil quando é explicado com exemplos verificáveis."
+                "text": "observa"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: intenzione pode mudar a perspectiva de quem escuta."
+                "text": "intenzione"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "isolada"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Comunicação e registro · Compreensão oral»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Comunicação e registro, duas pessoas comparam suas posições."
+                "text": "consequências"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que destinatario só é útil quando é explicado com exemplos verificáveis."
+                "text": "destinatario"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: intenzione pode mudar a perspectiva de quem escuta."
+                "text": "verificáveis"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "clareza"
               }
             ]
           }
@@ -30914,42 +30914,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Comunicação e registro · Compreensão oral»?",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Comunicação e registro, duas pessoas comparam suas _____.”",
         "options": [
-          "Neste episódio sobre Comunicação e registro, duas pessoas comparam suas posições.",
-          "A outra acrescenta que destinatario só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: intenzione pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "posições",
+          "consequências",
+          "destinatario",
+          "verificáveis"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «Neste episódio sobre Comunicação e registro, duas pessoas comparam…» in «Comunicação e registro · Compreensão oral»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
         "options": [
-          "Neste episódio sobre Comunicação e registro, duas pessoas comparam suas posições.",
-          "A outra acrescenta que destinatario só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: intenzione pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "concretas",
+          "destinatario",
+          "explicado",
+          "propostas"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Comunicação e registro · Compreensão oral»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
         "options": [
-          "Neste episódio sobre Comunicação e registro, duas pessoas comparam suas posições.",
-          "A outra acrescenta que destinatario só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: intenzione pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "pessoas",
+          "observa",
+          "intenzione",
+          "isolada"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Comunicação e registro · Compreensão oral»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
         "options": [
-          "Neste episódio sobre Comunicação e registro, duas pessoas comparam suas posições.",
-          "A outra acrescenta que destinatario só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: intenzione pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "consequências",
+          "destinatario",
+          "verificáveis",
+          "clareza"
         ]
       }
     ]
@@ -31016,92 +31016,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Mídia e discurso · Compreensão oral»?",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Mídia e discurso, duas pessoas comparam suas _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Mídia e discurso, duas pessoas comparam suas posições."
+                "text": "posições"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que narrazione só é útil quando é explicado com exemplos verificáveis."
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: selezionare pode mudar a perspectiva de quem escuta."
+                "text": "verificáveis"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "Neste"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «Neste episódio sobre Mídia e discurso, duas pessoas comparam suas…» in «Mídia e discurso · Compreensão oral»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Mídia e discurso, duas pessoas comparam suas posições."
+                "text": "pessoas"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que narrazione só é útil quando é explicado com exemplos verificáveis."
+                "text": "narrazione"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: selezionare pode mudar a perspectiva de quem escuta."
+                "text": "observa"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "cornice"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Mídia e discurso · Compreensão oral»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Mídia e discurso, duas pessoas comparam suas posições."
+                "text": "episódio"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que narrazione só é útil quando é explicado com exemplos verificáveis."
+                "text": "discurso"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: selezionare pode mudar a perspectiva de quem escuta."
+                "text": "selezionare"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "comparam"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Mídia e discurso · Compreensão oral»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Mídia e discurso, duas pessoas comparam suas posições."
+                "text": "consequências"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que narrazione só é útil quando é explicado com exemplos verificáveis."
+                "text": "verificáveis"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: selezionare pode mudar a perspectiva de quem escuta."
+                "text": "considerado"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "clareza"
               }
             ]
           }
@@ -31121,42 +31121,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Mídia e discurso · Compreensão oral»?",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Mídia e discurso, duas pessoas comparam suas _____.”",
         "options": [
-          "Neste episódio sobre Mídia e discurso, duas pessoas comparam suas posições.",
-          "A outra acrescenta que narrazione só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: selezionare pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "posições",
+          "consequências",
+          "verificáveis",
+          "Neste"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «Neste episódio sobre Mídia e discurso, duas pessoas comparam suas…» in «Mídia e discurso · Compreensão oral»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
         "options": [
-          "Neste episódio sobre Mídia e discurso, duas pessoas comparam suas posições.",
-          "A outra acrescenta que narrazione só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: selezionare pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "pessoas",
+          "narrazione",
+          "observa",
+          "cornice"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Mídia e discurso · Compreensão oral»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
         "options": [
-          "Neste episódio sobre Mídia e discurso, duas pessoas comparam suas posições.",
-          "A outra acrescenta que narrazione só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: selezionare pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "episódio",
+          "discurso",
+          "selezionare",
+          "comparam"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Mídia e discurso · Compreensão oral»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
         "options": [
-          "Neste episódio sobre Mídia e discurso, duas pessoas comparam suas posições.",
-          "A outra acrescenta que narrazione só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: selezionare pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "consequências",
+          "verificáveis",
+          "considerado",
+          "clareza"
         ]
       }
     ]
@@ -31214,92 +31214,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «Tempo no Recife: ouça», which detail establishes the situation?",
+            "prompt": "Complete este detalhe do áudio.\n\n“Hoje está _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoje está quente."
+                "text": "quente"
               },
               {
                 "id": "o2",
-                "text": "Falamos de sol."
+                "text": "comunidade"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "sol"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "Hoje"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «Hoje está quente.», what happens next in «Tempo no Recife: ouça»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“_____ de sol.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoje está quente."
+                "text": "Hoje"
               },
               {
                 "id": "o2",
-                "text": "Falamos de sol."
+                "text": "Falamos"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "comunidade"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "Gosto"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «Tempo no Recife: ouça»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoje está quente."
+                "text": "comunidade"
               },
               {
                 "id": "o2",
-                "text": "Falamos de sol."
+                "text": "aprender"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "Gosto"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "praticar"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «Tempo no Recife: ouça» after «Gosto de aprender com a comunidade.»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoje está quente."
+                "text": "Gosto"
               },
               {
                 "id": "o2",
-                "text": "Falamos de sol."
+                "text": "Vamos"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "quente"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "praticar"
               }
             ]
           }
@@ -31310,42 +31310,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «Tempo no Recife: ouça», which detail establishes the situation?",
+        "prompt": "Complete este detalhe do áudio.\n\n“Hoje está _____.”",
         "options": [
-          "Hoje está quente.",
-          "Falamos de sol.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "quente",
+          "comunidade",
+          "sol",
+          "Hoje"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «Hoje está quente.», what happens next in «Tempo no Recife: ouça»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“_____ de sol.”",
         "options": [
-          "Hoje está quente.",
-          "Falamos de sol.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "Hoje",
+          "Falamos",
+          "comunidade",
+          "Gosto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «Tempo no Recife: ouça»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
         "options": [
-          "Hoje está quente.",
-          "Falamos de sol.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "comunidade",
+          "aprender",
+          "Gosto",
+          "praticar"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «Tempo no Recife: ouça» after «Gosto de aprender com a comunidade.»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
         "options": [
-          "Hoje está quente.",
-          "Falamos de sol.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "Gosto",
+          "Vamos",
+          "quente",
+          "praticar"
         ]
       }
     ]
@@ -31403,92 +31403,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «Saúde e bem-estar: ouça», which detail establishes the situation?",
+            "prompt": "Complete este detalhe do áudio.\n\n“Minha garganta está _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Minha garganta está doendo."
+                "text": "doendo"
               },
               {
                 "id": "o2",
-                "text": "Falamos de farmácia."
+                "text": "comunidade"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "garganta"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "farmácia"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «Minha garganta está doendo.», what happens next in «Saúde e bem-estar: ouça»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Falamos de _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Minha garganta está doendo."
+                "text": "Minha"
               },
               {
                 "id": "o2",
-                "text": "Falamos de farmácia."
+                "text": "farmácia"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "Gosto"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "Vamos"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «Saúde e bem-estar: ouça»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Minha garganta está doendo."
+                "text": "comunidade"
               },
               {
                 "id": "o2",
-                "text": "Falamos de farmácia."
+                "text": "garganta"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "Gosto"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "farmácia"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «Saúde e bem-estar: ouça» after «Gosto de aprender com a comunidade.»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Minha garganta está doendo."
+                "text": "Minha"
               },
               {
                 "id": "o2",
-                "text": "Falamos de farmácia."
+                "text": "Gosto"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "Vamos"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "praticar"
               }
             ]
           }
@@ -31499,42 +31499,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «Saúde e bem-estar: ouça», which detail establishes the situation?",
+        "prompt": "Complete este detalhe do áudio.\n\n“Minha garganta está _____.”",
         "options": [
-          "Minha garganta está doendo.",
-          "Falamos de farmácia.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "doendo",
+          "comunidade",
+          "garganta",
+          "farmácia"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «Minha garganta está doendo.», what happens next in «Saúde e bem-estar: ouça»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Falamos de _____.”",
         "options": [
-          "Minha garganta está doendo.",
-          "Falamos de farmácia.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "Minha",
+          "farmácia",
+          "Gosto",
+          "Vamos"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «Saúde e bem-estar: ouça»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
         "options": [
-          "Minha garganta está doendo.",
-          "Falamos de farmácia.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "comunidade",
+          "garganta",
+          "Gosto",
+          "farmácia"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «Saúde e bem-estar: ouça» after «Gosto de aprender com a comunidade.»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
         "options": [
-          "Minha garganta está doendo.",
-          "Falamos de farmácia.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "Minha",
+          "Gosto",
+          "Vamos",
+          "praticar"
         ]
       }
     ]
@@ -33342,56 +33342,56 @@
       {
         "id": "portuguese-b1-cidade-e-mobilidade-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Cidade e mobilidade\"?",
+        "prompt": "Complete este detalhe da leitura.\n\n“Para Davi, melhorar os deslocamentos tornou-se um assunto concreto depois de uma reunião em uma avenida _____.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Cidade e mobilidade",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-b1-cidade-e-mobilidade-reading-comprehension-2",
-        "type": "mcq",
-        "prompt": "Qual afirmacao resume melhor \"Cidade e mobilidade\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Cidade e mobilidade",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-b1-cidade-e-mobilidade-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Cidade e mobilidade\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Cidade e mobilidade",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-b1-cidade-e-mobilidade-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Qual afirmacao resume melhor \"Cidade e mobilidade\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Cidade e mobilidade",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "movimentada",
+          "experiência",
+          "participar",
+          "perspectivas"
         ]
       },
       {
         "id": "portuguese-b1-cidade-e-mobilidade-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Cidade e mobilidade\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Davi não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Cidade e mobilidade",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "aprender",
+          "melhorar",
+          "concreto",
+          "pesquisa"
+        ]
+      },
+      {
+        "id": "portuguese-b1-cidade-e-mobilidade-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Davi não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
+        "options": [
+          "aprender",
+          "melhorar",
+          "concreto",
+          "pesquisa"
+        ]
+      },
+      {
+        "id": "portuguese-b1-cidade-e-mobilidade-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Davi não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
+        "options": [
+          "aprender",
+          "melhorar",
+          "concreto",
+          "pesquisa"
+        ]
+      },
+      {
+        "id": "portuguese-b1-cidade-e-mobilidade-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Davi não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
+        "options": [
+          "aprender",
+          "melhorar",
+          "concreto",
+          "pesquisa"
         ]
       }
     ]
@@ -33483,36 +33483,36 @@
         ]
       },
       {
-        "id": "portuguese-b2-b2-viagens-conscientes-reading-comprehension-3",
+        "id": "portuguese-b2-b2-viagens-conscientes-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Viagens conscientes · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Viagens conscientes · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-b2-b2-viagens-conscientes-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Qual afirmacao resume melhor \"Viagens conscientes · Leitura\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Viagens conscientes · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "itinerario",
+          "diferentes",
+          "conscientes"
         ]
       },
       {
         "id": "portuguese-b2-b2-viagens-conscientes-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Viagens conscientes · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Viagens conscientes · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "itinerario",
+          "diferentes",
+          "conscientes"
+        ]
+      },
+      {
+        "id": "portuguese-b2-b2-viagens-conscientes-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
+        "options": [
+          "respeitosa",
+          "itinerario",
+          "diferentes",
+          "conscientes"
         ]
       }
     ]
@@ -33604,36 +33604,36 @@
         ]
       },
       {
-        "id": "portuguese-c1-c1-ciencia-e-divulgacao-reading-comprehension-3",
+        "id": "portuguese-c1-c1-ciencia-e-divulgacao-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Ciência e divulgação · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Ciência e divulgação · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-c1-c1-ciencia-e-divulgacao-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Qual afirmacao resume melhor \"Ciência e divulgação · Leitura\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Ciência e divulgação · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "divulgação",
+          "diferentes",
+          "justifica"
         ]
       },
       {
         "id": "portuguese-c1-c1-ciencia-e-divulgacao-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Ciência e divulgação · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Ciência e divulgação · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "divulgação",
+          "diferentes",
+          "justifica"
+        ]
+      },
+      {
+        "id": "portuguese-c1-c1-ciencia-e-divulgacao-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
+        "options": [
+          "respeitosa",
+          "divulgação",
+          "diferentes",
+          "justifica"
         ]
       }
     ]
@@ -33725,36 +33725,36 @@
         ]
       },
       {
-        "id": "portuguese-c2-c2-ciencia-e-responsabilidade-reading-comprehension-3",
+        "id": "portuguese-c2-c2-ciencia-e-responsabilidade-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Ciência e responsabilidade · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Ciência e responsabilidade · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-c2-c2-ciencia-e-responsabilidade-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Qual afirmacao resume melhor \"Ciência e responsabilidade · Leitura\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Ciência e responsabilidade · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "diferentes",
+          "justifica",
+          "discussão"
         ]
       },
       {
         "id": "portuguese-c2-c2-ciencia-e-responsabilidade-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Ciência e responsabilidade · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Ciência e responsabilidade · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "diferentes",
+          "justifica",
+          "discussão"
+        ]
+      },
+      {
+        "id": "portuguese-c2-c2-ciencia-e-responsabilidade-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
+        "options": [
+          "respeitosa",
+          "diferentes",
+          "justifica",
+          "discussão"
         ]
       }
     ]
@@ -33769,7 +33769,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 90,
-    "estimatedMinutes": 8,
+    "estimatedMinutes": 10,
     "description": "Una actividad cultural comunitaria",
     "intro": "Una actividad cultural comunitaria",
     "mission": "",
@@ -33780,63 +33780,63 @@
     "reading": {
       "title": "Uma roda cultural",
       "parts": [
-        "Luana está em Recife. Hoje aprende a convidar alguém. Encontra Rafael e diz: “Vamos à roda no sábado.”. Os dois conversam com respeito e aprendem quatro palavras novas: roda, música, bairro e sábado.",
-        "Rafael faz uma pergunta simples e Luana responde com uma frase curta. A conversa mostra que a cultura se aprende escutando e participando.",
-        "No final, Luana escreve: “Vamos à roda no sábado.”."
+        "Hoje Luana está em Recife. Ela encontra Rafael no bairro e o cumprimenta com um sorriso. Os dois falam devagar e escutam com atenção. Luana quer usar o português em uma situação real, por isso tenta uma frase simples e Rafael responde com gentileza.",
+        "Na conversa, eles usam palavras úteis da lição: parole semplici. Rafael faz uma pergunta e Luana responde sem pressa. Quando ela não entende uma palavra, pergunta: «Pode repetir, por favor?». Depois, os dois repetem as palavras mais importantes e criam um exemplo pequeno para cada uma.",
+        "Antes de voltar para casa, Luana agradece a Rafael. Ela diz que escutar, falar e repetir ajudam a ter mais confiança. Rafael concorda e propõe um novo encontro amanhã. Luana volta para casa feliz e escreve no caderno as palavras novas do dia."
       ],
       "questions": [
-        "Onde está Luana?",
+        "Onde Luana está?",
         "Com quem Luana conversa?",
-        "Qual frase Luana usa?",
-        "Por que a experiência é importante?"
+        "O que Luana pergunta quando não entende uma palavra?",
+        "Por que Luana repete as palavras?"
       ],
-      "text": "Luana está em Recife. Hoje aprende a convidar alguém. Encontra Rafael e diz: “Vamos à roda no sábado.”. Os dois conversam com respeito e aprendem quatro palavras novas: roda, música, bairro e sábado.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. A conversa mostra que a cultura se aprende escutando e participando.\n\nNo final, Luana escreve: “Vamos à roda no sábado.”."
+      "text": "Hoje Luana está em Recife. Ela encontra Rafael no bairro e o cumprimenta com um sorriso. Os dois falam devagar e escutam com atenção. Luana quer usar o português em uma situação real, por isso tenta uma frase simples e Rafael responde com gentileza.\n\nNa conversa, eles usam palavras úteis da lição: parole semplici. Rafael faz uma pergunta e Luana responde sem pressa. Quando ela não entende uma palavra, pergunta: «Pode repetir, por favor?». Depois, os dois repetem as palavras mais importantes e criam um exemplo pequeno para cada uma.\n\nAntes de voltar para casa, Luana agradece a Rafael. Ela diz que escutar, falar e repetir ajudam a ter mais confiança. Rafael concorda e propõe um novo encontro amanhã. Luana volta para casa feliz e escreve no caderno as palavras novas do dia."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "id": "portuguese-a1-uma-roda-cultural-reading-comprehension-1",
+        "id": "portuguese-a1-uma-roda-cultural-reading-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Qual é o objetivo principal de \"Uma roda cultural\"?",
+        "prompt": "Onde Luana está?",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Uma roda cultural",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "Recife",
+          "Salvador",
+          "Rio de Janeiro",
+          "Brasília"
         ]
       },
       {
-        "id": "portuguese-a1-uma-roda-cultural-reading-comprehension-2",
+        "id": "portuguese-a1-uma-roda-cultural-reading-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Qual afirmação resume melhor \"Uma roda cultural\"?",
+        "prompt": "Com quem Luana conversa?",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Uma roda cultural",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "Rafael",
+          "Pedro",
+          "Marina",
+          "Carlos"
         ]
       },
       {
         "id": "portuguese-a1-uma-roda-cultural-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Que ideia central aparece em \"Uma roda cultural\"?",
+        "prompt": "Escolha a palavra que falta na leitura.\n\n“Depois, os dois repetem as palavras mais _____ e criam um exemplo pequeno para cada uma.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Uma roda cultural",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "conversa",
+          "palavras",
+          "importantes",
+          "semplici"
         ]
       },
       {
         "id": "portuguese-a1-uma-roda-cultural-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Que detalhe é essencial em \"Uma roda cultural\"?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“Luana volta para casa feliz e _____ no caderno as palavras novas do dia.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Uma roda cultural",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "repetem",
+          "exemplo",
+          "pequeno",
+          "escreve"
         ]
       }
     ]
@@ -33880,56 +33880,56 @@
       {
         "id": "portuguese-a2-historias-de-origem-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Qual é o objetivo principal de \"Histórias de origem\"?",
+        "prompt": "Complete este detalhe da leitura.\n\n“Luana mora em Recife e conversa com Rafael sobre como contar história _____.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Histórias de origem",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "simples",
+          "família",
+          "explica",
+          "cultura"
         ]
       },
       {
         "id": "portuguese-a2-historias-de-origem-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Qual afirmação resume melhor \"Histórias de origem\"?",
+        "prompt": "Qual palavra completa esta frase do texto?\n\n“Luana diz: “A _____ chegou há muitos anos.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Histórias de origem",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-a2-historias-de-origem-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Que ideia central aparece em \"Histórias de origem\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Histórias de origem",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-a2-historias-de-origem-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Que detalhe é essencial em \"Histórias de origem\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Histórias de origem",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "simples",
+          "família",
+          "explica",
+          "cultura"
         ]
       },
       {
         "id": "portuguese-a2-historias-de-origem-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Que conclusão o texto permite tirar sobre \"Histórias de origem\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“No final, Luana escreve: “A _____ chegou há muitos anos.”.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Histórias de origem",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "família",
+          "simples",
+          "explica",
+          "cultura"
+        ]
+      },
+      {
+        "id": "portuguese-a2-historias-de-origem-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“No final, Luana escreve: “A _____ chegou há muitos anos.”.”",
+        "options": [
+          "família",
+          "simples",
+          "explica",
+          "cultura"
+        ]
+      },
+      {
+        "id": "portuguese-a2-historias-de-origem-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“No final, Luana escreve: “A _____ chegou há muitos anos.”.”",
+        "options": [
+          "família",
+          "simples",
+          "explica",
+          "cultura"
         ]
       }
     ]
@@ -34282,92 +34282,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Cidade e mobilidade: palavras»?",
+            "prompt": "Complete este detalhe do áudio.\n\n“No tema «Cidade e mobilidade», um pequeno grupo da comunidade conversa sobre transporte, caminho e _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Cidade e mobilidade», um pequeno grupo da comunidade conversa sobre transporte, caminho e trânsito."
+                "text": "trânsito"
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "grupo"
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "conta"
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "experiência"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «No tema «Cidade e mobilidade», um pequeno grupo da comunidade conversa…» in «Cidade e mobilidade: palavras»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Cada _____ conta uma experiência, escuta as outras e propõe uma solução concreta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Cidade e mobilidade», um pequeno grupo da comunidade conversa sobre transporte, caminho e trânsito."
+                "text": "experiência"
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "pessoa"
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "importantes"
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "mobilidade"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Cidade e mobilidade: palavras»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“No final, decidem colaborar porque um objetivo claro ajuda a _____ a vida cotidiana.”",
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Cidade e mobilidade», um pequeno grupo da comunidade conversa sobre transporte, caminho e trânsito."
+                "text": "grupo"
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "conta"
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "melhorar"
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "experiência"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Cidade e mobilidade: palavras»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Depois, o grupo _____ as ideias mais importantes.”",
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Cidade e mobilidade», um pequeno grupo da comunidade conversa sobre transporte, caminho e trânsito."
+                "text": "experiência"
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "importantes"
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "mobilidade"
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "resume"
               }
             ]
           }
@@ -34378,42 +34378,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Cidade e mobilidade: palavras»?",
+        "prompt": "Complete este detalhe do áudio.\n\n“No tema «Cidade e mobilidade», um pequeno grupo da comunidade conversa sobre transporte, caminho e _____.”",
         "options": [
-          "No tema «Cidade e mobilidade», um pequeno grupo da comunidade conversa sobre transporte, caminho e trânsito.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "trânsito",
+          "grupo",
+          "conta",
+          "experiência"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «No tema «Cidade e mobilidade», um pequeno grupo da comunidade conversa…» in «Cidade e mobilidade: palavras»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Cada _____ conta uma experiência, escuta as outras e propõe uma solução concreta.”",
         "options": [
-          "No tema «Cidade e mobilidade», um pequeno grupo da comunidade conversa sobre transporte, caminho e trânsito.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "experiência",
+          "pessoa",
+          "importantes",
+          "mobilidade"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Cidade e mobilidade: palavras»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“No final, decidem colaborar porque um objetivo claro ajuda a _____ a vida cotidiana.”",
         "options": [
-          "No tema «Cidade e mobilidade», um pequeno grupo da comunidade conversa sobre transporte, caminho e trânsito.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "grupo",
+          "conta",
+          "melhorar",
+          "experiência"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Cidade e mobilidade: palavras»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Depois, o grupo _____ as ideias mais importantes.”",
         "options": [
-          "No tema «Cidade e mobilidade», um pequeno grupo da comunidade conversa sobre transporte, caminho e trânsito.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "experiência",
+          "importantes",
+          "mobilidade",
+          "resume"
         ]
       }
     ]
@@ -34708,92 +34708,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Viagens conscientes · Compreensão oral»?",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Viagens conscientes, duas pessoas comparam suas _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Viagens conscientes, duas pessoas comparam suas posições."
+                "text": "posições"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que alloggio só é útil quando é explicado com exemplos verificáveis."
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: imprevisto pode mudar a perspectiva de quem escuta."
+                "text": "verificáveis"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "Neste"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «Neste episódio sobre Viagens conscientes, duas pessoas comparam suas…» in «Viagens conscientes · Compreensão oral»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Viagens conscientes, duas pessoas comparam suas posições."
+                "text": "consequências"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que alloggio só é útil quando é explicado com exemplos verificáveis."
+                "text": "alloggio"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: imprevisto pode mudar a perspectiva de quem escuta."
+                "text": "verificáveis"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "Neste"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Viagens conscientes · Compreensão oral»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Viagens conscientes, duas pessoas comparam suas posições."
+                "text": "Viagens"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que alloggio só é útil quando é explicado com exemplos verificáveis."
+                "text": "pessoas"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: imprevisto pode mudar a perspectiva de quem escuta."
+                "text": "imprevisto"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "observa"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Viagens conscientes · Compreensão oral»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Viagens conscientes, duas pessoas comparam suas posições."
+                "text": "consequências"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que alloggio só é útil quando é explicado com exemplos verificáveis."
+                "text": "verificáveis"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: imprevisto pode mudar a perspectiva de quem escuta."
+                "text": "conscientes"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "clareza"
               }
             ]
           }
@@ -34813,42 +34813,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Viagens conscientes · Compreensão oral»?",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Viagens conscientes, duas pessoas comparam suas _____.”",
         "options": [
-          "Neste episódio sobre Viagens conscientes, duas pessoas comparam suas posições.",
-          "A outra acrescenta que alloggio só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: imprevisto pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "posições",
+          "consequências",
+          "verificáveis",
+          "Neste"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «Neste episódio sobre Viagens conscientes, duas pessoas comparam suas…» in «Viagens conscientes · Compreensão oral»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
         "options": [
-          "Neste episódio sobre Viagens conscientes, duas pessoas comparam suas posições.",
-          "A outra acrescenta que alloggio só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: imprevisto pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "consequências",
+          "alloggio",
+          "verificáveis",
+          "Neste"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Viagens conscientes · Compreensão oral»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
         "options": [
-          "Neste episódio sobre Viagens conscientes, duas pessoas comparam suas posições.",
-          "A outra acrescenta que alloggio só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: imprevisto pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "Viagens",
+          "pessoas",
+          "imprevisto",
+          "observa"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Viagens conscientes · Compreensão oral»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
         "options": [
-          "Neste episódio sobre Viagens conscientes, duas pessoas comparam suas posições.",
-          "A outra acrescenta que alloggio só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: imprevisto pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "consequências",
+          "verificáveis",
+          "conscientes",
+          "clareza"
         ]
       }
     ]
@@ -34915,92 +34915,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Ciência e divulgação · Compreensão oral»?",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Ciência e divulgação, duas pessoas comparam suas _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Ciência e divulgação, duas pessoas comparam suas posições."
+                "text": "posições"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que evidenza só é útil quando é explicado com exemplos verificáveis."
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: modello pode mudar a perspectiva de quem escuta."
+                "text": "verificáveis"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "Neste"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «Neste episódio sobre Ciência e divulgação, duas pessoas comparam suas…» in «Ciência e divulgação · Compreensão oral»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Ciência e divulgação, duas pessoas comparam suas posições."
+                "text": "consequências"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que evidenza só é útil quando é explicado com exemplos verificáveis."
+                "text": "evidenza"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: modello pode mudar a perspectiva de quem escuta."
+                "text": "verificáveis"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "Neste"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Ciência e divulgação · Compreensão oral»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Ciência e divulgação, duas pessoas comparam suas posições."
+                "text": "consequências"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que evidenza só é útil quando é explicado com exemplos verificáveis."
+                "text": "verificáveis"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: modello pode mudar a perspectiva de quem escuta."
+                "text": "modello"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "considerado"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Ciência e divulgação · Compreensão oral»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Ciência e divulgação, duas pessoas comparam suas posições."
+                "text": "consequências"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que evidenza só é útil quando é explicado com exemplos verificáveis."
+                "text": "verificáveis"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: modello pode mudar a perspectiva de quem escuta."
+                "text": "considerado"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "clareza"
               }
             ]
           }
@@ -35020,42 +35020,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Ciência e divulgação · Compreensão oral»?",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Ciência e divulgação, duas pessoas comparam suas _____.”",
         "options": [
-          "Neste episódio sobre Ciência e divulgação, duas pessoas comparam suas posições.",
-          "A outra acrescenta que evidenza só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: modello pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "posições",
+          "consequências",
+          "verificáveis",
+          "Neste"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «Neste episódio sobre Ciência e divulgação, duas pessoas comparam suas…» in «Ciência e divulgação · Compreensão oral»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
         "options": [
-          "Neste episódio sobre Ciência e divulgação, duas pessoas comparam suas posições.",
-          "A outra acrescenta que evidenza só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: modello pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "consequências",
+          "evidenza",
+          "verificáveis",
+          "Neste"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Ciência e divulgação · Compreensão oral»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
         "options": [
-          "Neste episódio sobre Ciência e divulgação, duas pessoas comparam suas posições.",
-          "A outra acrescenta que evidenza só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: modello pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "consequências",
+          "verificáveis",
+          "modello",
+          "considerado"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Ciência e divulgação · Compreensão oral»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
         "options": [
-          "Neste episódio sobre Ciência e divulgação, duas pessoas comparam suas posições.",
-          "A outra acrescenta que evidenza só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: modello pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "consequências",
+          "verificáveis",
+          "considerado",
+          "clareza"
         ]
       }
     ]
@@ -35122,92 +35122,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Ciência e responsabilidade · Compreensão oral»?",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Ciência e responsabilidade, duas pessoas comparam suas _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Ciência e responsabilidade, duas pessoas comparam suas posições."
+                "text": "posições"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que limite só é útil quando é explicado com exemplos verificáveis."
+                "text": "responsabilidade"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: replicare pode mudar a perspectiva de quem escuta."
+                "text": "consequências"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "verificáveis"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «Neste episódio sobre Ciência e responsabilidade, duas pessoas comparam…» in «Ciência e responsabilidade · Compreensão oral»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Ciência e responsabilidade, duas pessoas comparam suas posições."
+                "text": "responsabilidade"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que limite só é útil quando é explicado com exemplos verificáveis."
+                "text": "limite"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: replicare pode mudar a perspectiva de quem escuta."
+                "text": "consequências"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "verificáveis"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Ciência e responsabilidade · Compreensão oral»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Ciência e responsabilidade, duas pessoas comparam suas posições."
+                "text": "responsabilidade"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que limite só é útil quando é explicado com exemplos verificáveis."
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: replicare pode mudar a perspectiva de quem escuta."
+                "text": "replicare"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "metodo"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Ciência e responsabilidade · Compreensão oral»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Ciência e responsabilidade, duas pessoas comparam suas posições."
+                "text": "responsabilidade"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que limite só é útil quando é explicado com exemplos verificáveis."
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: replicare pode mudar a perspectiva de quem escuta."
+                "text": "verificáveis"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "clareza"
               }
             ]
           }
@@ -35227,42 +35227,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Ciência e responsabilidade · Compreensão oral»?",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Ciência e responsabilidade, duas pessoas comparam suas _____.”",
         "options": [
-          "Neste episódio sobre Ciência e responsabilidade, duas pessoas comparam suas posições.",
-          "A outra acrescenta que limite só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: replicare pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "posições",
+          "responsabilidade",
+          "consequências",
+          "verificáveis"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «Neste episódio sobre Ciência e responsabilidade, duas pessoas comparam…» in «Ciência e responsabilidade · Compreensão oral»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
         "options": [
-          "Neste episódio sobre Ciência e responsabilidade, duas pessoas comparam suas posições.",
-          "A outra acrescenta que limite só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: replicare pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "responsabilidade",
+          "limite",
+          "consequências",
+          "verificáveis"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Ciência e responsabilidade · Compreensão oral»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
         "options": [
-          "Neste episódio sobre Ciência e responsabilidade, duas pessoas comparam suas posições.",
-          "A outra acrescenta que limite só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: replicare pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "responsabilidade",
+          "consequências",
+          "replicare",
+          "metodo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Ciência e responsabilidade · Compreensão oral»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
         "options": [
-          "Neste episódio sobre Ciência e responsabilidade, duas pessoas comparam suas posições.",
-          "A outra acrescenta que limite só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: replicare pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "responsabilidade",
+          "consequências",
+          "verificáveis",
+          "clareza"
         ]
       }
     ]
@@ -35320,92 +35320,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «Uma roda cultural: ouça», which detail establishes the situation?",
+            "prompt": "Complete este detalhe do áudio.\n\n“Vamos à roda no _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Vamos à roda no sábado."
+                "text": "sábado"
               },
               {
                 "id": "o2",
-                "text": "Falamos de roda."
+                "text": "comunidade"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "roda"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "aprender"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «Vamos à roda no sábado.», what happens next in «Uma roda cultural: ouça»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“_____ de roda.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Vamos à roda no sábado."
+                "text": "roda"
               },
               {
                 "id": "o2",
-                "text": "Falamos de roda."
+                "text": "Falamos"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "comunidade"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "Vamos"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «Uma roda cultural: ouça»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Vamos à roda no sábado."
+                "text": "comunidade"
               },
               {
                 "id": "o2",
-                "text": "Falamos de roda."
+                "text": "aprender"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "Gosto"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "praticar"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «Uma roda cultural: ouça» after «Gosto de aprender com a comunidade.»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Vamos à roda no sábado."
+                "text": "Vamos"
               },
               {
                 "id": "o2",
-                "text": "Falamos de roda."
+                "text": "Gosto"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "sábado"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "praticar"
               }
             ]
           }
@@ -35416,42 +35416,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «Uma roda cultural: ouça», which detail establishes the situation?",
+        "prompt": "Complete este detalhe do áudio.\n\n“Vamos à roda no _____.”",
         "options": [
-          "Vamos à roda no sábado.",
-          "Falamos de roda.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "sábado",
+          "comunidade",
+          "roda",
+          "aprender"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «Vamos à roda no sábado.», what happens next in «Uma roda cultural: ouça»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“_____ de roda.”",
         "options": [
-          "Vamos à roda no sábado.",
-          "Falamos de roda.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "roda",
+          "Falamos",
+          "comunidade",
+          "Vamos"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «Uma roda cultural: ouça»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
         "options": [
-          "Vamos à roda no sábado.",
-          "Falamos de roda.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "comunidade",
+          "aprender",
+          "Gosto",
+          "praticar"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «Uma roda cultural: ouça» after «Gosto de aprender com a comunidade.»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
         "options": [
-          "Vamos à roda no sábado.",
-          "Falamos de roda.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "Vamos",
+          "Gosto",
+          "sábado",
+          "praticar"
         ]
       }
     ]
@@ -35509,92 +35509,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «Histórias de origem: ouça», which detail establishes the situation?",
+            "prompt": "Complete este detalhe do áudio.\n\n“A família chegou há _____ anos.”",
             "options": [
               {
                 "id": "o1",
-                "text": "A família chegou há muitos anos."
+                "text": "muitos"
               },
               {
                 "id": "o2",
-                "text": "Falamos de origem."
+                "text": "comunidade"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "anos"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "aprender"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «A família chegou há muitos anos.», what happens next in «Histórias de origem: ouça»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Falamos de _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "A família chegou há muitos anos."
+                "text": "comunidade"
               },
               {
                 "id": "o2",
-                "text": "Falamos de origem."
+                "text": "origem"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "anos"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "aprender"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «Histórias de origem: ouça»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
             "options": [
               {
                 "id": "o1",
-                "text": "A família chegou há muitos anos."
+                "text": "comunidade"
               },
               {
                 "id": "o2",
-                "text": "Falamos de origem."
+                "text": "aprender"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "Gosto"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "praticar"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «Histórias de origem: ouça» after «Gosto de aprender com a comunidade.»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
             "options": [
               {
                 "id": "o1",
-                "text": "A família chegou há muitos anos."
+                "text": "Gosto"
               },
               {
                 "id": "o2",
-                "text": "Falamos de origem."
+                "text": "Vamos"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "chegou"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "praticar"
               }
             ]
           }
@@ -35605,42 +35605,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «Histórias de origem: ouça», which detail establishes the situation?",
+        "prompt": "Complete este detalhe do áudio.\n\n“A família chegou há _____ anos.”",
         "options": [
-          "A família chegou há muitos anos.",
-          "Falamos de origem.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "muitos",
+          "comunidade",
+          "anos",
+          "aprender"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «A família chegou há muitos anos.», what happens next in «Histórias de origem: ouça»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Falamos de _____.”",
         "options": [
-          "A família chegou há muitos anos.",
-          "Falamos de origem.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "comunidade",
+          "origem",
+          "anos",
+          "aprender"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «Histórias de origem: ouça»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
         "options": [
-          "A família chegou há muitos anos.",
-          "Falamos de origem.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "comunidade",
+          "aprender",
+          "Gosto",
+          "praticar"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «Histórias de origem: ouça» after «Gosto de aprender com a comunidade.»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
         "options": [
-          "A família chegou há muitos anos.",
-          "Falamos de origem.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "Gosto",
+          "Vamos",
+          "chegou",
+          "praticar"
         ]
       }
     ]
@@ -37448,56 +37448,56 @@
       {
         "id": "portuguese-b1-planos-para-o-futuro-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Planos para o futuro\"?",
+        "prompt": "Complete este detalhe da leitura.\n\n“Para Nádia, escolher um caminho futuro tornou-se um assunto concreto depois de uma reunião em um centro de _____.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Planos para o futuro",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-b1-planos-para-o-futuro-reading-comprehension-2",
-        "type": "mcq",
-        "prompt": "Qual afirmacao resume melhor \"Planos para o futuro\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Planos para o futuro",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-b1-planos-para-o-futuro-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Planos para o futuro\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Planos para o futuro",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-b1-planos-para-o-futuro-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Qual afirmacao resume melhor \"Planos para o futuro\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Planos para o futuro",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "orientação",
+          "participar",
+          "diferentes",
+          "tornou-se"
         ]
       },
       {
         "id": "portuguese-b1-planos-para-o-futuro-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Planos para o futuro\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Nádia não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Planos para o futuro",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "aprender",
+          "escolher",
+          "concreto",
+          "pesquisa"
+        ]
+      },
+      {
+        "id": "portuguese-b1-planos-para-o-futuro-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Nádia não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
+        "options": [
+          "aprender",
+          "escolher",
+          "concreto",
+          "pesquisa"
+        ]
+      },
+      {
+        "id": "portuguese-b1-planos-para-o-futuro-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Nádia não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
+        "options": [
+          "aprender",
+          "escolher",
+          "concreto",
+          "pesquisa"
+        ]
+      },
+      {
+        "id": "portuguese-b1-planos-para-o-futuro-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Nádia não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
+        "options": [
+          "aprender",
+          "escolher",
+          "concreto",
+          "pesquisa"
         ]
       }
     ]
@@ -37589,36 +37589,36 @@
         ]
       },
       {
-        "id": "portuguese-b2-b2-relacoes-e-mediacao-reading-comprehension-3",
+        "id": "portuguese-b2-b2-relacoes-e-mediacao-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Relações e mediação · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Relações e mediação · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-b2-b2-relacoes-e-mediacao-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Qual afirmacao resume melhor \"Relações e mediação · Leitura\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Relações e mediação · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "diferentes",
+          "ascoltare",
+          "justifica"
         ]
       },
       {
         "id": "portuguese-b2-b2-relacoes-e-mediacao-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Relações e mediação · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Relações e mediação · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "diferentes",
+          "ascoltare",
+          "justifica"
+        ]
+      },
+      {
+        "id": "portuguese-b2-b2-relacoes-e-mediacao-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
+        "options": [
+          "respeitosa",
+          "diferentes",
+          "ascoltare",
+          "justifica"
         ]
       }
     ]
@@ -37710,36 +37710,36 @@
         ]
       },
       {
-        "id": "portuguese-c1-c1-conflito-e-negociacao-reading-comprehension-3",
+        "id": "portuguese-c1-c1-conflito-e-negociacao-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Conflito e negociação · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Conflito e negociação · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-c1-c1-conflito-e-negociacao-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Qual afirmacao resume melhor \"Conflito e negociação · Leitura\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Conflito e negociação · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "negociação",
+          "diferentes",
+          "interesse"
         ]
       },
       {
         "id": "portuguese-c1-c1-conflito-e-negociacao-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Conflito e negociação · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Conflito e negociação · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "negociação",
+          "diferentes",
+          "interesse"
+        ]
+      },
+      {
+        "id": "portuguese-c1-c1-conflito-e-negociacao-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
+        "options": [
+          "respeitosa",
+          "negociação",
+          "diferentes",
+          "interesse"
         ]
       }
     ]
@@ -37831,36 +37831,36 @@
         ]
       },
       {
-        "id": "portuguese-c2-c2-filosofia-cotidiana-reading-comprehension-3",
+        "id": "portuguese-c2-c2-filosofia-cotidiana-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Filosofia cotidiana · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Filosofia cotidiana · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-c2-c2-filosofia-cotidiana-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Qual afirmacao resume melhor \"Filosofia cotidiana · Leitura\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Filosofia cotidiana · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "diferentes",
+          "Filosofia",
+          "cotidiana"
         ]
       },
       {
         "id": "portuguese-c2-c2-filosofia-cotidiana-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Filosofia cotidiana · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Filosofia cotidiana · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "diferentes",
+          "Filosofia",
+          "cotidiana"
+        ]
+      },
+      {
+        "id": "portuguese-c2-c2-filosofia-cotidiana-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
+        "options": [
+          "respeitosa",
+          "diferentes",
+          "Filosofia",
+          "cotidiana"
         ]
       }
     ]
@@ -37875,7 +37875,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 100,
-    "estimatedMinutes": 8,
+    "estimatedMinutes": 10,
     "description": "Un trayecto y una tarjeta de transporte",
     "intro": "Un trayecto y una tarjeta de transporte",
     "mission": "",
@@ -37886,63 +37886,63 @@
     "reading": {
       "title": "De ônibus",
       "parts": [
-        "Luana está em Recife. Hoje aprende a usar transporte. Encontra Rafael e diz: “Um bilhete para o centro.”. Os dois conversam com respeito e aprendem quatro palavras novas: ônibus, bilhete, ponto e viagem.",
-        "Rafael faz uma pergunta simples e Luana responde com uma frase curta. A conversa mostra que a cultura se aprende escutando e participando.",
-        "No final, Luana escreve: “Um bilhete para o centro.”."
+        "Hoje Luana está em Recife. Ela encontra Rafael no bairro e o cumprimenta com um sorriso. Os dois falam devagar e escutam com atenção. Luana quer usar o português em uma situação real, por isso tenta uma frase simples e Rafael responde com gentileza.",
+        "Na conversa, eles usam palavras úteis da lição: parole semplici. Rafael faz uma pergunta e Luana responde sem pressa. Quando ela não entende uma palavra, pergunta: «Pode repetir, por favor?». Depois, os dois repetem as palavras mais importantes e criam um exemplo pequeno para cada uma.",
+        "Antes de voltar para casa, Luana agradece a Rafael. Ela diz que escutar, falar e repetir ajudam a ter mais confiança. Rafael concorda e propõe um novo encontro amanhã. Luana volta para casa feliz e escreve no caderno as palavras novas do dia."
       ],
       "questions": [
-        "Onde está Luana?",
+        "Onde Luana está?",
         "Com quem Luana conversa?",
-        "Qual frase Luana usa?",
-        "Por que a experiência é importante?"
+        "O que Luana pergunta quando não entende uma palavra?",
+        "Por que Luana repete as palavras?"
       ],
-      "text": "Luana está em Recife. Hoje aprende a usar transporte. Encontra Rafael e diz: “Um bilhete para o centro.”. Os dois conversam com respeito e aprendem quatro palavras novas: ônibus, bilhete, ponto e viagem.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. A conversa mostra que a cultura se aprende escutando e participando.\n\nNo final, Luana escreve: “Um bilhete para o centro.”."
+      "text": "Hoje Luana está em Recife. Ela encontra Rafael no bairro e o cumprimenta com um sorriso. Os dois falam devagar e escutam com atenção. Luana quer usar o português em uma situação real, por isso tenta uma frase simples e Rafael responde com gentileza.\n\nNa conversa, eles usam palavras úteis da lição: parole semplici. Rafael faz uma pergunta e Luana responde sem pressa. Quando ela não entende uma palavra, pergunta: «Pode repetir, por favor?». Depois, os dois repetem as palavras mais importantes e criam um exemplo pequeno para cada uma.\n\nAntes de voltar para casa, Luana agradece a Rafael. Ela diz que escutar, falar e repetir ajudam a ter mais confiança. Rafael concorda e propõe um novo encontro amanhã. Luana volta para casa feliz e escreve no caderno as palavras novas do dia."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "id": "portuguese-a1-de-onibus-reading-comprehension-1",
+        "id": "portuguese-a1-de-onibus-reading-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Qual é o objetivo principal de \"De ônibus\"?",
+        "prompt": "Onde Luana está?",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de De ônibus",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "Recife",
+          "Salvador",
+          "Rio de Janeiro",
+          "Brasília"
         ]
       },
       {
-        "id": "portuguese-a1-de-onibus-reading-comprehension-2",
+        "id": "portuguese-a1-de-onibus-reading-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Qual afirmação resume melhor \"De ônibus\"?",
+        "prompt": "Com quem Luana conversa?",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de De ônibus",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "Rafael",
+          "Pedro",
+          "Marina",
+          "Carlos"
         ]
       },
       {
         "id": "portuguese-a1-de-onibus-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Que ideia central aparece em \"De ônibus\"?",
+        "prompt": "Escolha a palavra que falta na leitura.\n\n“Depois, os dois repetem as palavras mais _____ e criam um exemplo pequeno para cada uma.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de De ônibus",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "conversa",
+          "palavras",
+          "importantes",
+          "semplici"
         ]
       },
       {
         "id": "portuguese-a1-de-onibus-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Que detalhe é essencial em \"De ônibus\"?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“Luana volta para casa feliz e _____ no caderno as palavras novas do dia.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de De ônibus",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "repetem",
+          "exemplo",
+          "pequeno",
+          "escreve"
         ]
       }
     ]
@@ -37986,56 +37986,56 @@
       {
         "id": "portuguese-a2-um-projeto-coletivo-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Qual é o objetivo principal de \"Um projeto coletivo\"?",
+        "prompt": "Complete este detalhe da leitura.\n\n“Luana mora em Recife e conversa com Rafael sobre como propor e _____.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Um projeto coletivo",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "colaborar",
+          "escutando",
+          "conversa",
+          "importante"
         ]
       },
       {
         "id": "portuguese-a2-um-projeto-coletivo-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Qual afirmação resume melhor \"Um projeto coletivo\"?",
+        "prompt": "Qual palavra completa esta frase do texto?\n\n“Luana diz: “_____ dividir as tarefas.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Um projeto coletivo",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-a2-um-projeto-coletivo-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Que ideia central aparece em \"Um projeto coletivo\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Um projeto coletivo",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-a2-um-projeto-coletivo-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Que detalhe é essencial em \"Um projeto coletivo\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Um projeto coletivo",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "dividir",
+          "Podemos",
+          "tarefas",
+          "explica"
         ]
       },
       {
         "id": "portuguese-a2-um-projeto-coletivo-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Que conclusão o texto permite tirar sobre \"Um projeto coletivo\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“No final, Luana escreve: “_____ dividir as tarefas.”.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Um projeto coletivo",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "Podemos",
+          "dividir",
+          "tarefas",
+          "explica"
+        ]
+      },
+      {
+        "id": "portuguese-a2-um-projeto-coletivo-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“No final, Luana escreve: “_____ dividir as tarefas.”.”",
+        "options": [
+          "Podemos",
+          "dividir",
+          "tarefas",
+          "explica"
+        ]
+      },
+      {
+        "id": "portuguese-a2-um-projeto-coletivo-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“No final, Luana escreve: “_____ dividir as tarefas.”.”",
+        "options": [
+          "Podemos",
+          "dividir",
+          "tarefas",
+          "explica"
         ]
       }
     ]
@@ -38388,92 +38388,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Planos para o futuro: palavras»?",
+            "prompt": "Complete este detalhe do áudio.\n\n“No tema «Planos para o futuro», um pequeno grupo da comunidade conversa sobre futuro, objetivo e _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Planos para o futuro», um pequeno grupo da comunidade conversa sobre futuro, objetivo e oportunidade."
+                "text": "oportunidade"
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "colaborar"
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "cotidiana"
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "comunidade"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «No tema «Planos para o futuro», um pequeno grupo da comunidade…» in «Planos para o futuro: palavras»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Cada _____ conta uma experiência, escuta as outras e propõe uma solução concreta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Planos para o futuro», um pequeno grupo da comunidade conversa sobre futuro, objetivo e oportunidade."
+                "text": "oportunidade"
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "pessoa"
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "experiência"
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "importantes"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Planos para o futuro: palavras»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“No final, decidem colaborar porque um objetivo claro ajuda a _____ a vida cotidiana.”",
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Planos para o futuro», um pequeno grupo da comunidade conversa sobre futuro, objetivo e oportunidade."
+                "text": "oportunidade"
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "grupo"
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "melhorar"
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "conta"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Planos para o futuro: palavras»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Depois, o grupo _____ as ideias mais importantes.”",
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Planos para o futuro», um pequeno grupo da comunidade conversa sobre futuro, objetivo e oportunidade."
+                "text": "oportunidade"
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "experiência"
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "importantes"
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "resume"
               }
             ]
           }
@@ -38484,42 +38484,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Planos para o futuro: palavras»?",
+        "prompt": "Complete este detalhe do áudio.\n\n“No tema «Planos para o futuro», um pequeno grupo da comunidade conversa sobre futuro, objetivo e _____.”",
         "options": [
-          "No tema «Planos para o futuro», um pequeno grupo da comunidade conversa sobre futuro, objetivo e oportunidade.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "oportunidade",
+          "colaborar",
+          "cotidiana",
+          "comunidade"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «No tema «Planos para o futuro», um pequeno grupo da comunidade…» in «Planos para o futuro: palavras»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Cada _____ conta uma experiência, escuta as outras e propõe uma solução concreta.”",
         "options": [
-          "No tema «Planos para o futuro», um pequeno grupo da comunidade conversa sobre futuro, objetivo e oportunidade.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "oportunidade",
+          "pessoa",
+          "experiência",
+          "importantes"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Planos para o futuro: palavras»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“No final, decidem colaborar porque um objetivo claro ajuda a _____ a vida cotidiana.”",
         "options": [
-          "No tema «Planos para o futuro», um pequeno grupo da comunidade conversa sobre futuro, objetivo e oportunidade.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "oportunidade",
+          "grupo",
+          "melhorar",
+          "conta"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Planos para o futuro: palavras»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Depois, o grupo _____ as ideias mais importantes.”",
         "options": [
-          "No tema «Planos para o futuro», um pequeno grupo da comunidade conversa sobre futuro, objetivo e oportunidade.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "oportunidade",
+          "experiência",
+          "importantes",
+          "resume"
         ]
       }
     ]
@@ -38814,92 +38814,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Relações e mediação · Compreensão oral»?",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Relações e mediação, duas pessoas comparam suas _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Relações e mediação, duas pessoas comparam suas posições."
+                "text": "posições"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que ascoltare só é útil quando é explicado com exemplos verificáveis."
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: chiarire pode mudar a perspectiva de quem escuta."
+                "text": "verificáveis"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "Neste"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «Neste episódio sobre Relações e mediação, duas pessoas comparam suas…» in «Relações e mediação · Compreensão oral»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Relações e mediação, duas pessoas comparam suas posições."
+                "text": "consequências"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que ascoltare só é útil quando é explicado com exemplos verificáveis."
+                "text": "ascoltare"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: chiarire pode mudar a perspectiva de quem escuta."
+                "text": "produz"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "verificáveis"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Relações e mediação · Compreensão oral»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Relações e mediação, duas pessoas comparam suas posições."
+                "text": "consequências"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que ascoltare só é útil quando é explicado com exemplos verificáveis."
+                "text": "verificáveis"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: chiarire pode mudar a perspectiva de quem escuta."
+                "text": "chiarire"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "Neste"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Relações e mediação · Compreensão oral»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Relações e mediação, duas pessoas comparam suas posições."
+                "text": "consequências"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que ascoltare só é útil quando é explicado com exemplos verificáveis."
+                "text": "verificáveis"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: chiarire pode mudar a perspectiva de quem escuta."
+                "text": "considerado"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "clareza"
               }
             ]
           }
@@ -38919,42 +38919,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Relações e mediação · Compreensão oral»?",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Relações e mediação, duas pessoas comparam suas _____.”",
         "options": [
-          "Neste episódio sobre Relações e mediação, duas pessoas comparam suas posições.",
-          "A outra acrescenta que ascoltare só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: chiarire pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "posições",
+          "consequências",
+          "verificáveis",
+          "Neste"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «Neste episódio sobre Relações e mediação, duas pessoas comparam suas…» in «Relações e mediação · Compreensão oral»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
         "options": [
-          "Neste episódio sobre Relações e mediação, duas pessoas comparam suas posições.",
-          "A outra acrescenta que ascoltare só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: chiarire pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "consequências",
+          "ascoltare",
+          "produz",
+          "verificáveis"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Relações e mediação · Compreensão oral»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
         "options": [
-          "Neste episódio sobre Relações e mediação, duas pessoas comparam suas posições.",
-          "A outra acrescenta que ascoltare só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: chiarire pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "consequências",
+          "verificáveis",
+          "chiarire",
+          "Neste"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Relações e mediação · Compreensão oral»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
         "options": [
-          "Neste episódio sobre Relações e mediação, duas pessoas comparam suas posições.",
-          "A outra acrescenta que ascoltare só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: chiarire pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "consequências",
+          "verificáveis",
+          "considerado",
+          "clareza"
         ]
       }
     ]
@@ -39021,92 +39021,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Conflito e negociação · Compreensão oral»?",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Conflito e negociação, duas pessoas comparam suas _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Conflito e negociação, duas pessoas comparam suas posições."
+                "text": "posições"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que compromesso só é útil quando é explicado com exemplos verificáveis."
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: vincolo pode mudar a perspectiva de quem escuta."
+                "text": "verificáveis"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "Neste"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «Neste episódio sobre Conflito e negociação, duas pessoas comparam suas…» in «Conflito e negociação · Compreensão oral»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Conflito e negociação, duas pessoas comparam suas posições."
+                "text": "episódio"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que compromesso só é útil quando é explicado com exemplos verificáveis."
+                "text": "compromesso"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: vincolo pode mudar a perspectiva de quem escuta."
+                "text": "Conflito"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "comparam"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Conflito e negociação · Compreensão oral»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Conflito e negociação, duas pessoas comparam suas posições."
+                "text": "consequências"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que compromesso só é útil quando é explicado com exemplos verificáveis."
+                "text": "verificáveis"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: vincolo pode mudar a perspectiva de quem escuta."
+                "text": "vincolo"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "considerado"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Conflito e negociação · Compreensão oral»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Conflito e negociação, duas pessoas comparam suas posições."
+                "text": "consequências"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que compromesso só é útil quando é explicado com exemplos verificáveis."
+                "text": "verificáveis"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: vincolo pode mudar a perspectiva de quem escuta."
+                "text": "considerado"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "clareza"
               }
             ]
           }
@@ -39126,42 +39126,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Conflito e negociação · Compreensão oral»?",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Conflito e negociação, duas pessoas comparam suas _____.”",
         "options": [
-          "Neste episódio sobre Conflito e negociação, duas pessoas comparam suas posições.",
-          "A outra acrescenta que compromesso só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: vincolo pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "posições",
+          "consequências",
+          "verificáveis",
+          "Neste"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «Neste episódio sobre Conflito e negociação, duas pessoas comparam suas…» in «Conflito e negociação · Compreensão oral»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
         "options": [
-          "Neste episódio sobre Conflito e negociação, duas pessoas comparam suas posições.",
-          "A outra acrescenta que compromesso só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: vincolo pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "episódio",
+          "compromesso",
+          "Conflito",
+          "comparam"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Conflito e negociação · Compreensão oral»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
         "options": [
-          "Neste episódio sobre Conflito e negociação, duas pessoas comparam suas posições.",
-          "A outra acrescenta que compromesso só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: vincolo pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "consequências",
+          "verificáveis",
+          "vincolo",
+          "considerado"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Conflito e negociação · Compreensão oral»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
         "options": [
-          "Neste episódio sobre Conflito e negociação, duas pessoas comparam suas posições.",
-          "A outra acrescenta que compromesso só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: vincolo pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "consequências",
+          "verificáveis",
+          "considerado",
+          "clareza"
         ]
       }
     ]
@@ -39228,92 +39228,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Filosofia cotidiana · Compreensão oral»?",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Filosofia cotidiana, duas pessoas comparam suas _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Filosofia cotidiana, duas pessoas comparam suas posições."
+                "text": "posições"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que paradosso só é útil quando é explicado com exemplos verificáveis."
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: argomentare pode mudar a perspectiva de quem escuta."
+                "text": "verificáveis"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "Neste"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «Neste episódio sobre Filosofia cotidiana, duas pessoas comparam suas…» in «Filosofia cotidiana · Compreensão oral»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Filosofia cotidiana, duas pessoas comparam suas posições."
+                "text": "consequências"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que paradosso só é útil quando é explicado com exemplos verificáveis."
+                "text": "paradosso"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: argomentare pode mudar a perspectiva de quem escuta."
+                "text": "produz"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "verificáveis"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Filosofia cotidiana · Compreensão oral»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Filosofia cotidiana, duas pessoas comparam suas posições."
+                "text": "episódio"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que paradosso só é útil quando é explicado com exemplos verificáveis."
+                "text": "comparam"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: argomentare pode mudar a perspectiva de quem escuta."
+                "text": "argomentare"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "posições"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Filosofia cotidiana · Compreensão oral»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Filosofia cotidiana, duas pessoas comparam suas posições."
+                "text": "consequências"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que paradosso só é útil quando é explicado com exemplos verificáveis."
+                "text": "verificáveis"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: argomentare pode mudar a perspectiva de quem escuta."
+                "text": "considerado"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "clareza"
               }
             ]
           }
@@ -39333,42 +39333,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Filosofia cotidiana · Compreensão oral»?",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Filosofia cotidiana, duas pessoas comparam suas _____.”",
         "options": [
-          "Neste episódio sobre Filosofia cotidiana, duas pessoas comparam suas posições.",
-          "A outra acrescenta que paradosso só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: argomentare pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "posições",
+          "consequências",
+          "verificáveis",
+          "Neste"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «Neste episódio sobre Filosofia cotidiana, duas pessoas comparam suas…» in «Filosofia cotidiana · Compreensão oral»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
         "options": [
-          "Neste episódio sobre Filosofia cotidiana, duas pessoas comparam suas posições.",
-          "A outra acrescenta que paradosso só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: argomentare pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "consequências",
+          "paradosso",
+          "produz",
+          "verificáveis"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Filosofia cotidiana · Compreensão oral»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
         "options": [
-          "Neste episódio sobre Filosofia cotidiana, duas pessoas comparam suas posições.",
-          "A outra acrescenta que paradosso só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: argomentare pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "episódio",
+          "comparam",
+          "argomentare",
+          "posições"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Filosofia cotidiana · Compreensão oral»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
         "options": [
-          "Neste episódio sobre Filosofia cotidiana, duas pessoas comparam suas posições.",
-          "A outra acrescenta que paradosso só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: argomentare pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "consequências",
+          "verificáveis",
+          "considerado",
+          "clareza"
         ]
       }
     ]
@@ -39426,92 +39426,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «De ônibus: ouça», which detail establishes the situation?",
+            "prompt": "Complete este detalhe do áudio.\n\n“Um bilhete para o _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Um bilhete para o centro."
+                "text": "centro"
               },
               {
                 "id": "o2",
-                "text": "Falamos de ônibus."
+                "text": "comunidade"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "aprender"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "praticar"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «Um bilhete para o centro.», what happens next in «De ônibus: ouça»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Falamos de _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Um bilhete para o centro."
+                "text": "comunidade"
               },
               {
                 "id": "o2",
-                "text": "Falamos de ônibus."
+                "text": "ônibus"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "aprender"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "praticar"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «De ônibus: ouça»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Um bilhete para o centro."
+                "text": "comunidade"
               },
               {
                 "id": "o2",
-                "text": "Falamos de ônibus."
+                "text": "aprender"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "Gosto"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "praticar"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «De ônibus: ouça» after «Gosto de aprender com a comunidade.»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Um bilhete para o centro."
+                "text": "Gosto"
               },
               {
                 "id": "o2",
-                "text": "Falamos de ônibus."
+                "text": "Vamos"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "centro"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "praticar"
               }
             ]
           }
@@ -39522,42 +39522,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «De ônibus: ouça», which detail establishes the situation?",
+        "prompt": "Complete este detalhe do áudio.\n\n“Um bilhete para o _____.”",
         "options": [
-          "Um bilhete para o centro.",
-          "Falamos de ônibus.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "centro",
+          "comunidade",
+          "aprender",
+          "praticar"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «Um bilhete para o centro.», what happens next in «De ônibus: ouça»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Falamos de _____.”",
         "options": [
-          "Um bilhete para o centro.",
-          "Falamos de ônibus.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "comunidade",
+          "ônibus",
+          "aprender",
+          "praticar"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «De ônibus: ouça»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
         "options": [
-          "Um bilhete para o centro.",
-          "Falamos de ônibus.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "comunidade",
+          "aprender",
+          "Gosto",
+          "praticar"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «De ônibus: ouça» after «Gosto de aprender com a comunidade.»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
         "options": [
-          "Um bilhete para o centro.",
-          "Falamos de ônibus.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "Gosto",
+          "Vamos",
+          "centro",
+          "praticar"
         ]
       }
     ]
@@ -39615,92 +39615,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «Um projeto coletivo: ouça», which detail establishes the situation?",
+            "prompt": "Complete este detalhe do áudio.\n\n“Podemos dividir as _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Podemos dividir as tarefas."
+                "text": "tarefas"
               },
               {
                 "id": "o2",
-                "text": "Falamos de projeto."
+                "text": "comunidade"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "Gosto"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "Vamos"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «Podemos dividir as tarefas.», what happens next in «Um projeto coletivo: ouça»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Falamos de _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Podemos dividir as tarefas."
+                "text": "comunidade"
               },
               {
                 "id": "o2",
-                "text": "Falamos de projeto."
+                "text": "projeto"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "Gosto"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "Vamos"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «Um projeto coletivo: ouça»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Podemos dividir as tarefas."
+                "text": "comunidade"
               },
               {
                 "id": "o2",
-                "text": "Falamos de projeto."
+                "text": "aprender"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "Gosto"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "praticar"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «Um projeto coletivo: ouça» after «Gosto de aprender com a comunidade.»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Podemos dividir as tarefas."
+                "text": "Gosto"
               },
               {
                 "id": "o2",
-                "text": "Falamos de projeto."
+                "text": "Vamos"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "comunidade"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "praticar"
               }
             ]
           }
@@ -39711,42 +39711,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «Um projeto coletivo: ouça», which detail establishes the situation?",
+        "prompt": "Complete este detalhe do áudio.\n\n“Podemos dividir as _____.”",
         "options": [
-          "Podemos dividir as tarefas.",
-          "Falamos de projeto.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "tarefas",
+          "comunidade",
+          "Gosto",
+          "Vamos"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «Podemos dividir as tarefas.», what happens next in «Um projeto coletivo: ouça»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Falamos de _____.”",
         "options": [
-          "Podemos dividir as tarefas.",
-          "Falamos de projeto.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "comunidade",
+          "projeto",
+          "Gosto",
+          "Vamos"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «Um projeto coletivo: ouça»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
         "options": [
-          "Podemos dividir as tarefas.",
-          "Falamos de projeto.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "comunidade",
+          "aprender",
+          "Gosto",
+          "praticar"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «Um projeto coletivo: ouça» after «Gosto de aprender com a comunidade.»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
         "options": [
-          "Podemos dividir as tarefas.",
-          "Falamos de projeto.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "Gosto",
+          "Vamos",
+          "comunidade",
+          "praticar"
         ]
       }
     ]
@@ -41554,56 +41554,56 @@
       {
         "id": "portuguese-b1-relacoes-e-comunicacao-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Relações e comunicação\"?",
+        "prompt": "Complete este detalhe da leitura.\n\n“Para Elisa, escutar e esclarecer um mal-entendido tornou-se um assunto concreto depois de uma reunião em uma equipe de _____.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Relações e comunicação",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-b1-relacoes-e-comunicacao-reading-comprehension-2",
-        "type": "mcq",
-        "prompt": "Qual afirmacao resume melhor \"Relações e comunicação\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Relações e comunicação",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-b1-relacoes-e-comunicacao-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Relações e comunicação\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Relações e comunicação",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-b1-relacoes-e-comunicacao-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Qual afirmacao resume melhor \"Relações e comunicação\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Relações e comunicação",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "trabalho",
+          "concreto",
+          "pesquisa",
+          "conversa"
         ]
       },
       {
         "id": "portuguese-b1-relacoes-e-comunicacao-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Relações e comunicação\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Elisa não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Relações e comunicação",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "aprender",
+          "concreto",
+          "trabalho",
+          "pesquisa"
+        ]
+      },
+      {
+        "id": "portuguese-b1-relacoes-e-comunicacao-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Elisa não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
+        "options": [
+          "aprender",
+          "concreto",
+          "trabalho",
+          "pesquisa"
+        ]
+      },
+      {
+        "id": "portuguese-b1-relacoes-e-comunicacao-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Elisa não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
+        "options": [
+          "aprender",
+          "concreto",
+          "trabalho",
+          "pesquisa"
+        ]
+      },
+      {
+        "id": "portuguese-b1-relacoes-e-comunicacao-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Elisa não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
+        "options": [
+          "aprender",
+          "concreto",
+          "trabalho",
+          "pesquisa"
         ]
       }
     ]
@@ -41695,36 +41695,36 @@
         ]
       },
       {
-        "id": "portuguese-b2-b2-cidadania-ativa-reading-comprehension-3",
+        "id": "portuguese-b2-b2-cidadania-ativa-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Cidadania ativa · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Cidadania ativa · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-b2-b2-cidadania-ativa-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Qual afirmacao resume melhor \"Cidadania ativa · Leitura\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Cidadania ativa · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "iniziativa",
+          "diferentes",
+          "Cidadania"
         ]
       },
       {
         "id": "portuguese-b2-b2-cidadania-ativa-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Cidadania ativa · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Cidadania ativa · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "iniziativa",
+          "diferentes",
+          "Cidadania"
+        ]
+      },
+      {
+        "id": "portuguese-b2-b2-cidadania-ativa-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
+        "options": [
+          "respeitosa",
+          "iniziativa",
+          "diferentes",
+          "Cidadania"
         ]
       }
     ]
@@ -41816,36 +41816,36 @@
         ]
       },
       {
-        "id": "portuguese-c1-c1-literatura-e-voz-reading-comprehension-3",
+        "id": "portuguese-c1-c1-literatura-e-voz-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Literatura e voz · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Literatura e voz · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-c1-c1-literatura-e-voz-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Qual afirmacao resume melhor \"Literatura e voz · Leitura\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Literatura e voz · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "Literatura",
+          "diferentes",
+          "narratore"
         ]
       },
       {
         "id": "portuguese-c1-c1-literatura-e-voz-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Literatura e voz · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Literatura e voz · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "Literatura",
+          "diferentes",
+          "narratore"
+        ]
+      },
+      {
+        "id": "portuguese-c1-c1-literatura-e-voz-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
+        "options": [
+          "respeitosa",
+          "Literatura",
+          "diferentes",
+          "narratore"
         ]
       }
     ]
@@ -41937,36 +41937,36 @@
         ]
       },
       {
-        "id": "portuguese-c2-c2-mediacao-intercultural-reading-comprehension-3",
+        "id": "portuguese-c2-c2-mediacao-intercultural-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Mediação intercultural · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Mediação intercultural · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-c2-c2-mediacao-intercultural-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Qual afirmacao resume melhor \"Mediação intercultural · Leitura\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Mediação intercultural · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "mediazione",
+          "diferentes",
+          "justifica"
         ]
       },
       {
         "id": "portuguese-c2-c2-mediacao-intercultural-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Mediação intercultural · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Mediação intercultural · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "mediazione",
+          "diferentes",
+          "justifica"
+        ]
+      },
+      {
+        "id": "portuguese-c2-c2-mediacao-intercultural-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
+        "options": [
+          "respeitosa",
+          "mediazione",
+          "diferentes",
+          "justifica"
         ]
       }
     ]
@@ -41981,7 +41981,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 110,
-    "estimatedMinutes": 8,
+    "estimatedMinutes": 10,
     "description": "Comidas cotidianas y regiones diversas",
     "intro": "Comidas cotidianas y regiones diversas",
     "mission": "",
@@ -41992,63 +41992,63 @@
     "reading": {
       "title": "Sabores do Brasil",
       "parts": [
-        "Luana está em Recife. Hoje aprende a expressar preferências. Encontra Rafael e diz: “Eu gosto desta sopa.”. Os dois conversam com respeito e aprendem quatro palavras novas: arroz, feijão, sopa e sabor.",
-        "Rafael faz uma pergunta simples e Luana responde com uma frase curta. A conversa mostra que a cultura se aprende escutando e participando.",
-        "No final, Luana escreve: “Eu gosto desta sopa.”."
+        "Hoje Luana está em Recife. Ela encontra Rafael no bairro e o cumprimenta com um sorriso. Os dois falam devagar e escutam com atenção. Luana quer usar o português em uma situação real, por isso tenta uma frase simples e Rafael responde com gentileza.",
+        "Na conversa, eles usam palavras úteis da lição: parole semplici. Rafael faz uma pergunta e Luana responde sem pressa. Quando ela não entende uma palavra, pergunta: «Pode repetir, por favor?». Depois, os dois repetem as palavras mais importantes e criam um exemplo pequeno para cada uma.",
+        "Antes de voltar para casa, Luana agradece a Rafael. Ela diz que escutar, falar e repetir ajudam a ter mais confiança. Rafael concorda e propõe um novo encontro amanhã. Luana volta para casa feliz e escreve no caderno as palavras novas do dia."
       ],
       "questions": [
-        "Onde está Luana?",
+        "Onde Luana está?",
         "Com quem Luana conversa?",
-        "Qual frase Luana usa?",
-        "Por que a experiência é importante?"
+        "O que Luana pergunta quando não entende uma palavra?",
+        "Por que Luana repete as palavras?"
       ],
-      "text": "Luana está em Recife. Hoje aprende a expressar preferências. Encontra Rafael e diz: “Eu gosto desta sopa.”. Os dois conversam com respeito e aprendem quatro palavras novas: arroz, feijão, sopa e sabor.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. A conversa mostra que a cultura se aprende escutando e participando.\n\nNo final, Luana escreve: “Eu gosto desta sopa.”."
+      "text": "Hoje Luana está em Recife. Ela encontra Rafael no bairro e o cumprimenta com um sorriso. Os dois falam devagar e escutam com atenção. Luana quer usar o português em uma situação real, por isso tenta uma frase simples e Rafael responde com gentileza.\n\nNa conversa, eles usam palavras úteis da lição: parole semplici. Rafael faz uma pergunta e Luana responde sem pressa. Quando ela não entende uma palavra, pergunta: «Pode repetir, por favor?». Depois, os dois repetem as palavras mais importantes e criam um exemplo pequeno para cada uma.\n\nAntes de voltar para casa, Luana agradece a Rafael. Ela diz que escutar, falar e repetir ajudam a ter mais confiança. Rafael concorda e propõe um novo encontro amanhã. Luana volta para casa feliz e escreve no caderno as palavras novas do dia."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "id": "portuguese-a1-sabores-do-brasil-reading-comprehension-1",
+        "id": "portuguese-a1-sabores-do-brasil-reading-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Qual é o objetivo principal de \"Sabores do Brasil\"?",
+        "prompt": "Onde Luana está?",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Sabores do Brasil",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "Recife",
+          "Salvador",
+          "Rio de Janeiro",
+          "Brasília"
         ]
       },
       {
-        "id": "portuguese-a1-sabores-do-brasil-reading-comprehension-2",
+        "id": "portuguese-a1-sabores-do-brasil-reading-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Qual afirmação resume melhor \"Sabores do Brasil\"?",
+        "prompt": "Com quem Luana conversa?",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Sabores do Brasil",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "Rafael",
+          "Pedro",
+          "Marina",
+          "Carlos"
         ]
       },
       {
         "id": "portuguese-a1-sabores-do-brasil-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Que ideia central aparece em \"Sabores do Brasil\"?",
+        "prompt": "Escolha a palavra que falta na leitura.\n\n“Depois, os dois repetem as palavras mais _____ e criam um exemplo pequeno para cada uma.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Sabores do Brasil",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "conversa",
+          "palavras",
+          "importantes",
+          "semplici"
         ]
       },
       {
         "id": "portuguese-a1-sabores-do-brasil-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Que detalhe é essencial em \"Sabores do Brasil\"?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“Luana volta para casa feliz e _____ no caderno as palavras novas do dia.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Sabores do Brasil",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "repetem",
+          "exemplo",
+          "pequeno",
+          "escreve"
         ]
       }
     ]
@@ -42092,56 +42092,56 @@
       {
         "id": "portuguese-a2-cidade-e-ambiente-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Qual é o objetivo principal de \"Cidade e ambiente\"?",
+        "prompt": "Complete este detalhe da leitura.\n\n“Luana mora em Recife e conversa com Rafael sobre como falar de _____.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Cidade e ambiente",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "hábitos",
+          "explica",
+          "cultura",
+          "aprende"
         ]
       },
       {
         "id": "portuguese-a2-cidade-e-ambiente-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Qual afirmação resume melhor \"Cidade e ambiente\"?",
+        "prompt": "Qual palavra completa esta frase do texto?\n\n“Luana diz: “_____ usar menos plástico.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Cidade e ambiente",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-a2-cidade-e-ambiente-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Que ideia central aparece em \"Cidade e ambiente\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Cidade e ambiente",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-a2-cidade-e-ambiente-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Que detalhe é essencial em \"Cidade e ambiente\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Cidade e ambiente",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "Luana",
+          "Quero",
+          "falar",
+          "menos"
         ]
       },
       {
         "id": "portuguese-a2-cidade-e-ambiente-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Que conclusão o texto permite tirar sobre \"Cidade e ambiente\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“No final, Luana escreve: “Quero usar menos _____.”.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Cidade e ambiente",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "plástico",
+          "conversa",
+          "hábitos",
+          "explica"
+        ]
+      },
+      {
+        "id": "portuguese-a2-cidade-e-ambiente-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“No final, Luana escreve: “Quero usar menos _____.”.”",
+        "options": [
+          "plástico",
+          "conversa",
+          "hábitos",
+          "explica"
+        ]
+      },
+      {
+        "id": "portuguese-a2-cidade-e-ambiente-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“No final, Luana escreve: “Quero usar menos _____.”.”",
+        "options": [
+          "plástico",
+          "conversa",
+          "hábitos",
+          "explica"
         ]
       }
     ]
@@ -42494,92 +42494,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Relações e comunicação: palavras»?",
+            "prompt": "Complete este detalhe do áudio.\n\n“No tema «Relações e comunicação», um pequeno grupo da comunidade conversa sobre relação, escutar e _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Relações e comunicação», um pequeno grupo da comunidade conversa sobre relação, escutar e explicar."
+                "text": "explicar"
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "comunicação"
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "grupo"
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "conta"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «No tema «Relações e comunicação», um pequeno grupo da comunidade…» in «Relações e comunicação: palavras»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Cada _____ conta uma experiência, escuta as outras e propõe uma solução concreta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Relações e comunicação», um pequeno grupo da comunidade conversa sobre relação, escutar e explicar."
+                "text": "comunicação"
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "pessoa"
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "experiência"
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "importantes"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Relações e comunicação: palavras»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“No final, decidem colaborar porque um objetivo claro ajuda a _____ a vida cotidiana.”",
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Relações e comunicação», um pequeno grupo da comunidade conversa sobre relação, escutar e explicar."
+                "text": "comunicação"
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "grupo"
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "melhorar"
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "conta"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Relações e comunicação: palavras»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Depois, o grupo _____ as ideias mais importantes.”",
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Relações e comunicação», um pequeno grupo da comunidade conversa sobre relação, escutar e explicar."
+                "text": "comunicação"
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "experiência"
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "importantes"
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "resume"
               }
             ]
           }
@@ -42590,42 +42590,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Relações e comunicação: palavras»?",
+        "prompt": "Complete este detalhe do áudio.\n\n“No tema «Relações e comunicação», um pequeno grupo da comunidade conversa sobre relação, escutar e _____.”",
         "options": [
-          "No tema «Relações e comunicação», um pequeno grupo da comunidade conversa sobre relação, escutar e explicar.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "explicar",
+          "comunicação",
+          "grupo",
+          "conta"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «No tema «Relações e comunicação», um pequeno grupo da comunidade…» in «Relações e comunicação: palavras»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Cada _____ conta uma experiência, escuta as outras e propõe uma solução concreta.”",
         "options": [
-          "No tema «Relações e comunicação», um pequeno grupo da comunidade conversa sobre relação, escutar e explicar.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "comunicação",
+          "pessoa",
+          "experiência",
+          "importantes"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Relações e comunicação: palavras»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“No final, decidem colaborar porque um objetivo claro ajuda a _____ a vida cotidiana.”",
         "options": [
-          "No tema «Relações e comunicação», um pequeno grupo da comunidade conversa sobre relação, escutar e explicar.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "comunicação",
+          "grupo",
+          "melhorar",
+          "conta"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Relações e comunicação: palavras»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Depois, o grupo _____ as ideias mais importantes.”",
         "options": [
-          "No tema «Relações e comunicação», um pequeno grupo da comunidade conversa sobre relação, escutar e explicar.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "comunicação",
+          "experiência",
+          "importantes",
+          "resume"
         ]
       }
     ]
@@ -42920,92 +42920,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Cidadania ativa · Compreensão oral»?",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Cidadania ativa, duas pessoas comparam suas _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Cidadania ativa, duas pessoas comparam suas posições."
+                "text": "posições"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que quartiere só é útil quando é explicado com exemplos verificáveis."
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: partecipare pode mudar a perspectiva de quem escuta."
+                "text": "verificáveis"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "Neste"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «Neste episódio sobre Cidadania ativa, duas pessoas comparam suas…» in «Cidadania ativa · Compreensão oral»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Cidadania ativa, duas pessoas comparam suas posições."
+                "text": "consequências"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que quartiere só é útil quando é explicado com exemplos verificáveis."
+                "text": "quartiere"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: partecipare pode mudar a perspectiva de quem escuta."
+                "text": "produz"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "verificáveis"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Cidadania ativa · Compreensão oral»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Cidadania ativa, duas pessoas comparam suas posições."
+                "text": "episódio"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que quartiere só é útil quando é explicado com exemplos verificáveis."
+                "text": "comparam"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: partecipare pode mudar a perspectiva de quem escuta."
+                "text": "partecipare"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "posições"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Cidadania ativa · Compreensão oral»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Cidadania ativa, duas pessoas comparam suas posições."
+                "text": "consequências"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que quartiere só é útil quando é explicado com exemplos verificáveis."
+                "text": "verificáveis"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: partecipare pode mudar a perspectiva de quem escuta."
+                "text": "considerado"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "clareza"
               }
             ]
           }
@@ -43025,42 +43025,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Cidadania ativa · Compreensão oral»?",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Cidadania ativa, duas pessoas comparam suas _____.”",
         "options": [
-          "Neste episódio sobre Cidadania ativa, duas pessoas comparam suas posições.",
-          "A outra acrescenta que quartiere só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: partecipare pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "posições",
+          "consequências",
+          "verificáveis",
+          "Neste"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «Neste episódio sobre Cidadania ativa, duas pessoas comparam suas…» in «Cidadania ativa · Compreensão oral»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
         "options": [
-          "Neste episódio sobre Cidadania ativa, duas pessoas comparam suas posições.",
-          "A outra acrescenta que quartiere só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: partecipare pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "consequências",
+          "quartiere",
+          "produz",
+          "verificáveis"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Cidadania ativa · Compreensão oral»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
         "options": [
-          "Neste episódio sobre Cidadania ativa, duas pessoas comparam suas posições.",
-          "A outra acrescenta que quartiere só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: partecipare pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "episódio",
+          "comparam",
+          "partecipare",
+          "posições"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Cidadania ativa · Compreensão oral»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
         "options": [
-          "Neste episódio sobre Cidadania ativa, duas pessoas comparam suas posições.",
-          "A outra acrescenta que quartiere só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: partecipare pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "consequências",
+          "verificáveis",
+          "considerado",
+          "clareza"
         ]
       }
     ]
@@ -43127,92 +43127,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Literatura e voz · Compreensão oral»?",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Literatura e voz, duas pessoas comparam suas _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Literatura e voz, duas pessoas comparam suas posições."
+                "text": "posições"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que tono só é útil quando é explicado com exemplos verificáveis."
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: metafora pode mudar a perspectiva de quem escuta."
+                "text": "verificáveis"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "Neste"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «Neste episódio sobre Literatura e voz, duas pessoas comparam suas…» in «Literatura e voz · Compreensão oral»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que tono só é útil quando é _____ com exemplos verificáveis.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Literatura e voz, duas pessoas comparam suas posições."
+                "text": "consequências"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que tono só é útil quando é explicado com exemplos verificáveis."
+                "text": "explicado"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: metafora pode mudar a perspectiva de quem escuta."
+                "text": "produz"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "verificáveis"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Literatura e voz · Compreensão oral»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Literatura e voz, duas pessoas comparam suas posições."
+                "text": "consequências"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que tono só é útil quando é explicado com exemplos verificáveis."
+                "text": "verificáveis"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: metafora pode mudar a perspectiva de quem escuta."
+                "text": "metafora"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "Neste"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Literatura e voz · Compreensão oral»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Literatura e voz, duas pessoas comparam suas posições."
+                "text": "consequências"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que tono só é útil quando é explicado com exemplos verificáveis."
+                "text": "verificáveis"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: metafora pode mudar a perspectiva de quem escuta."
+                "text": "considerado"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "clareza"
               }
             ]
           }
@@ -43232,42 +43232,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Literatura e voz · Compreensão oral»?",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Literatura e voz, duas pessoas comparam suas _____.”",
         "options": [
-          "Neste episódio sobre Literatura e voz, duas pessoas comparam suas posições.",
-          "A outra acrescenta que tono só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: metafora pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "posições",
+          "consequências",
+          "verificáveis",
+          "Neste"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «Neste episódio sobre Literatura e voz, duas pessoas comparam suas…» in «Literatura e voz · Compreensão oral»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que tono só é útil quando é _____ com exemplos verificáveis.”",
         "options": [
-          "Neste episódio sobre Literatura e voz, duas pessoas comparam suas posições.",
-          "A outra acrescenta que tono só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: metafora pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "consequências",
+          "explicado",
+          "produz",
+          "verificáveis"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Literatura e voz · Compreensão oral»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
         "options": [
-          "Neste episódio sobre Literatura e voz, duas pessoas comparam suas posições.",
-          "A outra acrescenta que tono só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: metafora pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "consequências",
+          "verificáveis",
+          "metafora",
+          "Neste"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Literatura e voz · Compreensão oral»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
         "options": [
-          "Neste episódio sobre Literatura e voz, duas pessoas comparam suas posições.",
-          "A outra acrescenta que tono só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: metafora pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "consequências",
+          "verificáveis",
+          "considerado",
+          "clareza"
         ]
       }
     ]
@@ -43334,92 +43334,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Mediação intercultural · Compreensão oral»?",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Mediação intercultural, duas pessoas comparam suas _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Mediação intercultural, duas pessoas comparam suas posições."
+                "text": "posições"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que contesto só é útil quando é explicado com exemplos verificáveis."
+                "text": "intercultural"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: equivoco pode mudar a perspectiva de quem escuta."
+                "text": "consequências"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "verificáveis"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «Neste episódio sobre Mediação intercultural, duas pessoas comparam…» in «Mediação intercultural · Compreensão oral»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Mediação intercultural, duas pessoas comparam suas posições."
+                "text": "intercultural"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que contesto só é útil quando é explicado com exemplos verificáveis."
+                "text": "contesto"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: equivoco pode mudar a perspectiva de quem escuta."
+                "text": "consequências"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "verificáveis"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Mediação intercultural · Compreensão oral»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Mediação intercultural, duas pessoas comparam suas posições."
+                "text": "intercultural"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que contesto só é útil quando é explicado com exemplos verificáveis."
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: equivoco pode mudar a perspectiva de quem escuta."
+                "text": "equivoco"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "verificáveis"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Mediação intercultural · Compreensão oral»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Mediação intercultural, duas pessoas comparam suas posições."
+                "text": "intercultural"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que contesto só é útil quando é explicado com exemplos verificáveis."
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: equivoco pode mudar a perspectiva de quem escuta."
+                "text": "verificáveis"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "clareza"
               }
             ]
           }
@@ -43439,42 +43439,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Mediação intercultural · Compreensão oral»?",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Mediação intercultural, duas pessoas comparam suas _____.”",
         "options": [
-          "Neste episódio sobre Mediação intercultural, duas pessoas comparam suas posições.",
-          "A outra acrescenta que contesto só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: equivoco pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "posições",
+          "intercultural",
+          "consequências",
+          "verificáveis"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «Neste episódio sobre Mediação intercultural, duas pessoas comparam…» in «Mediação intercultural · Compreensão oral»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
         "options": [
-          "Neste episódio sobre Mediação intercultural, duas pessoas comparam suas posições.",
-          "A outra acrescenta que contesto só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: equivoco pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "intercultural",
+          "contesto",
+          "consequências",
+          "verificáveis"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Mediação intercultural · Compreensão oral»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
         "options": [
-          "Neste episódio sobre Mediação intercultural, duas pessoas comparam suas posições.",
-          "A outra acrescenta que contesto só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: equivoco pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "intercultural",
+          "consequências",
+          "equivoco",
+          "verificáveis"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Mediação intercultural · Compreensão oral»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
         "options": [
-          "Neste episódio sobre Mediação intercultural, duas pessoas comparam suas posições.",
-          "A outra acrescenta que contesto só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: equivoco pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "intercultural",
+          "consequências",
+          "verificáveis",
+          "clareza"
         ]
       }
     ]
@@ -43532,92 +43532,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «Sabores do Brasil: ouça», which detail establishes the situation?",
+            "prompt": "Complete este detalhe do áudio.\n\n“Eu gosto desta _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Eu gosto desta sopa."
+                "text": "sopa"
               },
               {
                 "id": "o2",
-                "text": "Falamos de arroz."
+                "text": "comunidade"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "aprender"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "praticar"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «Eu gosto desta sopa.», what happens next in «Sabores do Brasil: ouça»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“_____ de arroz.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Eu gosto desta sopa."
+                "text": "sopa"
               },
               {
                 "id": "o2",
-                "text": "Falamos de arroz."
+                "text": "Falamos"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "comunidade"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "gosto"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «Sabores do Brasil: ouça»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Eu gosto desta sopa."
+                "text": "comunidade"
               },
               {
                 "id": "o2",
-                "text": "Falamos de arroz."
+                "text": "aprender"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "Gosto"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "praticar"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «Sabores do Brasil: ouça» after «Gosto de aprender com a comunidade.»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Eu gosto desta sopa."
+                "text": "gosto"
               },
               {
                 "id": "o2",
-                "text": "Falamos de arroz."
+                "text": "desta"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "arroz"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "praticar"
               }
             ]
           }
@@ -43628,42 +43628,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «Sabores do Brasil: ouça», which detail establishes the situation?",
+        "prompt": "Complete este detalhe do áudio.\n\n“Eu gosto desta _____.”",
         "options": [
-          "Eu gosto desta sopa.",
-          "Falamos de arroz.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "sopa",
+          "comunidade",
+          "aprender",
+          "praticar"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «Eu gosto desta sopa.», what happens next in «Sabores do Brasil: ouça»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“_____ de arroz.”",
         "options": [
-          "Eu gosto desta sopa.",
-          "Falamos de arroz.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "sopa",
+          "Falamos",
+          "comunidade",
+          "gosto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «Sabores do Brasil: ouça»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
         "options": [
-          "Eu gosto desta sopa.",
-          "Falamos de arroz.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "comunidade",
+          "aprender",
+          "Gosto",
+          "praticar"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «Sabores do Brasil: ouça» after «Gosto de aprender com a comunidade.»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
         "options": [
-          "Eu gosto desta sopa.",
-          "Falamos de arroz.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "gosto",
+          "desta",
+          "arroz",
+          "praticar"
         ]
       }
     ]
@@ -43721,92 +43721,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «Cidade e ambiente: ouça», which detail establishes the situation?",
+            "prompt": "Complete este detalhe do áudio.\n\n“Quero usar menos _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Quero usar menos plástico."
+                "text": "plástico"
               },
               {
                 "id": "o2",
-                "text": "Falamos de lixo."
+                "text": "Quero"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "menos"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "Gosto"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «Quero usar menos plástico.», what happens next in «Cidade e ambiente: ouça»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“_____ de lixo.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Quero usar menos plástico."
+                "text": "usar"
               },
               {
                 "id": "o2",
-                "text": "Falamos de lixo."
+                "text": "Falamos"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "lixo"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "comunidade"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «Cidade e ambiente: ouça»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Quero usar menos plástico."
+                "text": "comunidade"
               },
               {
                 "id": "o2",
-                "text": "Falamos de lixo."
+                "text": "plástico"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "Gosto"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "aprender"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «Cidade e ambiente: ouça» after «Gosto de aprender com a comunidade.»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Quero usar menos plástico."
+                "text": "Quero"
               },
               {
                 "id": "o2",
-                "text": "Falamos de lixo."
+                "text": "menos"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "Gosto"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "praticar"
               }
             ]
           }
@@ -43817,42 +43817,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «Cidade e ambiente: ouça», which detail establishes the situation?",
+        "prompt": "Complete este detalhe do áudio.\n\n“Quero usar menos _____.”",
         "options": [
-          "Quero usar menos plástico.",
-          "Falamos de lixo.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "plástico",
+          "Quero",
+          "menos",
+          "Gosto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «Quero usar menos plástico.», what happens next in «Cidade e ambiente: ouça»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“_____ de lixo.”",
         "options": [
-          "Quero usar menos plástico.",
-          "Falamos de lixo.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "usar",
+          "Falamos",
+          "lixo",
+          "comunidade"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «Cidade e ambiente: ouça»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
         "options": [
-          "Quero usar menos plástico.",
-          "Falamos de lixo.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "comunidade",
+          "plástico",
+          "Gosto",
+          "aprender"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «Cidade e ambiente: ouça» after «Gosto de aprender com a comunidade.»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
         "options": [
-          "Quero usar menos plástico.",
-          "Falamos de lixo.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "Quero",
+          "menos",
+          "Gosto",
+          "praticar"
         ]
       }
     ]
@@ -45660,56 +45660,56 @@
       {
         "id": "portuguese-b1-cidadania-e-participacao-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Cidadania e participação\"?",
+        "prompt": "Complete este detalhe da leitura.\n\n“Para Lucas, participar de uma decisão pública tornou-se um assunto concreto depois de uma reunião em uma reunião do _____.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Cidadania e participação",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-b1-cidadania-e-participacao-reading-comprehension-2",
-        "type": "mcq",
-        "prompt": "Qual afirmacao resume melhor \"Cidadania e participação\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Cidadania e participação",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-b1-cidadania-e-participacao-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Cidadania e participação\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Cidadania e participação",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-b1-cidadania-e-participacao-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Qual afirmacao resume melhor \"Cidadania e participação\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Cidadania e participação",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "bairro",
+          "depois",
+          "também",
+          "quando"
         ]
       },
       {
         "id": "portuguese-b1-cidadania-e-participacao-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Cidadania e participação\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Lucas não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Cidadania e participação",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "aprender",
+          "concreto",
+          "pesquisa",
+          "conversa"
+        ]
+      },
+      {
+        "id": "portuguese-b1-cidadania-e-participacao-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Lucas não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
+        "options": [
+          "aprender",
+          "concreto",
+          "pesquisa",
+          "conversa"
+        ]
+      },
+      {
+        "id": "portuguese-b1-cidadania-e-participacao-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Lucas não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
+        "options": [
+          "aprender",
+          "concreto",
+          "pesquisa",
+          "conversa"
+        ]
+      },
+      {
+        "id": "portuguese-b1-cidadania-e-participacao-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Lucas não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
+        "options": [
+          "aprender",
+          "concreto",
+          "pesquisa",
+          "conversa"
         ]
       }
     ]
@@ -45801,36 +45801,36 @@
         ]
       },
       {
-        "id": "portuguese-b2-b2-balancos-e-perspectivas-reading-comprehension-3",
+        "id": "portuguese-b2-b2-balancos-e-perspectivas-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Balanços e perspectivas · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Balanços e perspectivas · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-b2-b2-balancos-e-perspectivas-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Qual afirmacao resume melhor \"Balanços e perspectivas · Leitura\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Balanços e perspectivas · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "diferentes",
+          "traguardo",
+          "justifica"
         ]
       },
       {
         "id": "portuguese-b2-b2-balancos-e-perspectivas-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Balanços e perspectivas · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Balanços e perspectivas · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "diferentes",
+          "traguardo",
+          "justifica"
+        ]
+      },
+      {
+        "id": "portuguese-b2-b2-balancos-e-perspectivas-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
+        "options": [
+          "respeitosa",
+          "diferentes",
+          "traguardo",
+          "justifica"
         ]
       }
     ]
@@ -45922,36 +45922,36 @@
         ]
       },
       {
-        "id": "portuguese-c1-c1-projeto-pessoal-reading-comprehension-3",
+        "id": "portuguese-c1-c1-projeto-pessoal-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Projeto pessoal · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Projeto pessoal · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-c1-c1-projeto-pessoal-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Qual afirmacao resume melhor \"Projeto pessoal · Leitura\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Projeto pessoal · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "diferentes",
+          "strategia",
+          "justifica"
         ]
       },
       {
         "id": "portuguese-c1-c1-projeto-pessoal-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Projeto pessoal · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Projeto pessoal · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "diferentes",
+          "strategia",
+          "justifica"
+        ]
+      },
+      {
+        "id": "portuguese-c1-c1-projeto-pessoal-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
+        "options": [
+          "respeitosa",
+          "diferentes",
+          "strategia",
+          "justifica"
         ]
       }
     ]
@@ -46043,36 +46043,36 @@
         ]
       },
       {
-        "id": "portuguese-c2-c2-sintese-e-proposta-reading-comprehension-3",
+        "id": "portuguese-c2-c2-sintese-e-proposta-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Síntese e proposta · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Síntese e proposta · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-c2-c2-sintese-e-proposta-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Qual afirmacao resume melhor \"Síntese e proposta · Leitura\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Síntese e proposta · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "diferentes",
+          "justifica",
+          "discussão"
         ]
       },
       {
         "id": "portuguese-c2-c2-sintese-e-proposta-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual e o objetivo principal de \"Síntese e proposta · Leitura\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Síntese e proposta · Leitura",
-          "Apresentar um tema sem relacao",
-          "Dar uma lista sem contexto",
-          "Contar uma historia sem ligacao com o tema"
+          "respeitosa",
+          "diferentes",
+          "justifica",
+          "discussão"
+        ]
+      },
+      {
+        "id": "portuguese-c2-c2-sintese-e-proposta-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“A proposta deve ser clara, viável e _____ com diferentes pontos de vista.”",
+        "options": [
+          "respeitosa",
+          "diferentes",
+          "justifica",
+          "discussão"
         ]
       }
     ]
@@ -46087,7 +46087,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 120,
-    "estimatedMinutes": 8,
+    "estimatedMinutes": 10,
     "description": "Un mensaje sobre el día",
     "intro": "Un mensaje sobre el día",
     "mission": "",
@@ -46098,63 +46098,63 @@
     "reading": {
       "title": "Mensagem para casa",
       "parts": [
-        "Luana está em Recife. Hoje aprende a escrever mensagem curta. Encontra Rafael e diz: “Hoje eu aprendi muito.”. Os dois conversam com respeito e aprendem quatro palavras novas: hoje, amanhã, casa e experiência.",
-        "Rafael faz uma pergunta simples e Luana responde com uma frase curta. A conversa mostra que a cultura se aprende escutando e participando.",
-        "No final, Luana escreve: “Hoje eu aprendi muito.”."
+        "Hoje Luana está em Recife. Ela encontra Rafael no bairro e o cumprimenta com um sorriso. Os dois falam devagar e escutam com atenção. Luana quer usar o português em uma situação real, por isso tenta uma frase simples e Rafael responde com gentileza.",
+        "Na conversa, eles usam palavras úteis da lição: parole semplici. Rafael faz uma pergunta e Luana responde sem pressa. Quando ela não entende uma palavra, pergunta: «Pode repetir, por favor?». Depois, os dois repetem as palavras mais importantes e criam um exemplo pequeno para cada uma.",
+        "Antes de voltar para casa, Luana agradece a Rafael. Ela diz que escutar, falar e repetir ajudam a ter mais confiança. Rafael concorda e propõe um novo encontro amanhã. Luana volta para casa feliz e escreve no caderno as palavras novas do dia."
       ],
       "questions": [
-        "Onde está Luana?",
+        "Onde Luana está?",
         "Com quem Luana conversa?",
-        "Qual frase Luana usa?",
-        "Por que a experiência é importante?"
+        "O que Luana pergunta quando não entende uma palavra?",
+        "Por que Luana repete as palavras?"
       ],
-      "text": "Luana está em Recife. Hoje aprende a escrever mensagem curta. Encontra Rafael e diz: “Hoje eu aprendi muito.”. Os dois conversam com respeito e aprendem quatro palavras novas: hoje, amanhã, casa e experiência.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. A conversa mostra que a cultura se aprende escutando e participando.\n\nNo final, Luana escreve: “Hoje eu aprendi muito.”."
+      "text": "Hoje Luana está em Recife. Ela encontra Rafael no bairro e o cumprimenta com um sorriso. Os dois falam devagar e escutam com atenção. Luana quer usar o português em uma situação real, por isso tenta uma frase simples e Rafael responde com gentileza.\n\nNa conversa, eles usam palavras úteis da lição: parole semplici. Rafael faz uma pergunta e Luana responde sem pressa. Quando ela não entende uma palavra, pergunta: «Pode repetir, por favor?». Depois, os dois repetem as palavras mais importantes e criam um exemplo pequeno para cada uma.\n\nAntes de voltar para casa, Luana agradece a Rafael. Ela diz que escutar, falar e repetir ajudam a ter mais confiança. Rafael concorda e propõe um novo encontro amanhã. Luana volta para casa feliz e escreve no caderno as palavras novas do dia."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "id": "portuguese-a1-mensagem-para-casa-reading-comprehension-1",
+        "id": "portuguese-a1-mensagem-para-casa-reading-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Qual é o objetivo principal de \"Mensagem para casa\"?",
+        "prompt": "Onde Luana está?",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Mensagem para casa",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "Recife",
+          "Salvador",
+          "Rio de Janeiro",
+          "Brasília"
         ]
       },
       {
-        "id": "portuguese-a1-mensagem-para-casa-reading-comprehension-2",
+        "id": "portuguese-a1-mensagem-para-casa-reading-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Qual afirmação resume melhor \"Mensagem para casa\"?",
+        "prompt": "Com quem Luana conversa?",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Mensagem para casa",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "Rafael",
+          "Pedro",
+          "Marina",
+          "Carlos"
         ]
       },
       {
         "id": "portuguese-a1-mensagem-para-casa-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Que ideia central aparece em \"Mensagem para casa\"?",
+        "prompt": "Escolha a palavra que falta na leitura.\n\n“Depois, os dois repetem as palavras mais _____ e criam um exemplo pequeno para cada uma.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Mensagem para casa",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "conversa",
+          "palavras",
+          "importantes",
+          "semplici"
         ]
       },
       {
         "id": "portuguese-a1-mensagem-para-casa-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Que detalhe é essencial em \"Mensagem para casa\"?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“Luana volta para casa feliz e _____ no caderno as palavras novas do dia.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Mensagem para casa",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "repetem",
+          "exemplo",
+          "pequeno",
+          "escreve"
         ]
       }
     ]
@@ -46198,56 +46198,56 @@
       {
         "id": "portuguese-a2-contar-uma-experiencia-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Qual é o objetivo principal de \"Contar uma experiência\"?",
+        "prompt": "Complete este detalhe da leitura.\n\n“Luana mora em Recife e conversa com Rafael sobre como contar _____.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Contar uma experiência",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "experiência",
+          "importante",
+          "participando",
+          "escutando"
         ]
       },
       {
         "id": "portuguese-a2-contar-uma-experiencia-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Qual afirmação resume melhor \"Contar uma experiência\"?",
+        "prompt": "Qual palavra completa esta frase do texto?\n\n“Luana diz: “_____ uma viagem importante.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Contar uma experiência",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-a2-contar-uma-experiencia-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Que ideia central aparece em \"Contar uma experiência\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Contar uma experiência",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
-        ]
-      },
-      {
-        "id": "portuguese-a2-contar-uma-experiencia-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Que detalhe é essencial em \"Contar uma experiência\"?",
-        "options": [
-          "Apresentar as ideias e os detalhes essenciais de Contar uma experiência",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "diz",
+          "Foi",
+          "por",
+          "mora"
         ]
       },
       {
         "id": "portuguese-a2-contar-uma-experiencia-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Que conclusão o texto permite tirar sobre \"Contar uma experiência\"?",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“No final, Luana escreve: “_____ uma viagem importante.”.”",
         "options": [
-          "Apresentar as ideias e os detalhes essenciais de Contar uma experiência",
-          "Apresentar um tema sem relação",
-          "Dar uma lista sem contexto",
-          "Contar uma história sem ligação com o tema"
+          "Foi",
+          "diz",
+          "por",
+          "mora"
+        ]
+      },
+      {
+        "id": "portuguese-a2-contar-uma-experiencia-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“No final, Luana escreve: “_____ uma viagem importante.”.”",
+        "options": [
+          "Foi",
+          "diz",
+          "por",
+          "mora"
+        ]
+      },
+      {
+        "id": "portuguese-a2-contar-uma-experiencia-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“No final, Luana escreve: “_____ uma viagem importante.”.”",
+        "options": [
+          "Foi",
+          "diz",
+          "por",
+          "mora"
         ]
       }
     ]
@@ -46600,92 +46600,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Cidadania e participação: palavras»?",
+            "prompt": "Complete este detalhe do áudio.\n\n“No tema «Cidadania e participação», um pequeno grupo da comunidade conversa sobre cidadania, participar e _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Cidadania e participação», um pequeno grupo da comunidade conversa sobre cidadania, participar e direito."
+                "text": "direito"
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "participação"
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "experiência"
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "importantes"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «No tema «Cidadania e participação», um pequeno grupo da comunidade…» in «Cidadania e participação: palavras»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Cada _____ conta uma experiência, escuta as outras e propõe uma solução concreta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Cidadania e participação», um pequeno grupo da comunidade conversa sobre cidadania, participar e direito."
+                "text": "participação"
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "pessoa"
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "experiência"
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "importantes"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Cidadania e participação: palavras»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“No final, decidem colaborar porque um objetivo claro ajuda a _____ a vida cotidiana.”",
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Cidadania e participação», um pequeno grupo da comunidade conversa sobre cidadania, participar e direito."
+                "text": "participação"
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "grupo"
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "melhorar"
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "conta"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Cidadania e participação: palavras»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Depois, o grupo _____ as ideias mais importantes.”",
             "options": [
               {
                 "id": "o1",
-                "text": "No tema «Cidadania e participação», um pequeno grupo da comunidade conversa sobre cidadania, participar e direito."
+                "text": "participação"
               },
               {
                 "id": "o2",
-                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+                "text": "experiência"
               },
               {
                 "id": "o3",
-                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+                "text": "importantes"
               },
               {
                 "id": "o4",
-                "text": "Depois, o grupo resume as ideias mais importantes."
+                "text": "resume"
               }
             ]
           }
@@ -46696,42 +46696,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Cidadania e participação: palavras»?",
+        "prompt": "Complete este detalhe do áudio.\n\n“No tema «Cidadania e participação», um pequeno grupo da comunidade conversa sobre cidadania, participar e _____.”",
         "options": [
-          "No tema «Cidadania e participação», um pequeno grupo da comunidade conversa sobre cidadania, participar e direito.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "direito",
+          "participação",
+          "experiência",
+          "importantes"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «No tema «Cidadania e participação», um pequeno grupo da comunidade…» in «Cidadania e participação: palavras»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Cada _____ conta uma experiência, escuta as outras e propõe uma solução concreta.”",
         "options": [
-          "No tema «Cidadania e participação», um pequeno grupo da comunidade conversa sobre cidadania, participar e direito.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "participação",
+          "pessoa",
+          "experiência",
+          "importantes"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Cidadania e participação: palavras»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“No final, decidem colaborar porque um objetivo claro ajuda a _____ a vida cotidiana.”",
         "options": [
-          "No tema «Cidadania e participação», um pequeno grupo da comunidade conversa sobre cidadania, participar e direito.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "participação",
+          "grupo",
+          "melhorar",
+          "conta"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Cidadania e participação: palavras»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Depois, o grupo _____ as ideias mais importantes.”",
         "options": [
-          "No tema «Cidadania e participação», um pequeno grupo da comunidade conversa sobre cidadania, participar e direito.",
-          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
-          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
-          "Depois, o grupo resume as ideias mais importantes."
+          "participação",
+          "experiência",
+          "importantes",
+          "resume"
         ]
       }
     ]
@@ -47026,92 +47026,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Balanços e perspectivas · Compreensão oral»?",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Balanços e perspectivas, duas pessoas comparam suas _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Balanços e perspectivas, duas pessoas comparam suas posições."
+                "text": "posições"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que ostacolo só é útil quando é explicado com exemplos verificáveis."
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: percorso pode mudar a perspectiva de quem escuta."
+                "text": "perspectivas"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "verificáveis"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «Neste episódio sobre Balanços e perspectivas, duas pessoas comparam…» in «Balanços e perspectivas · Compreensão oral»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Balanços e perspectivas, duas pessoas comparam suas posições."
+                "text": "consequências"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que ostacolo só é útil quando é explicado com exemplos verificáveis."
+                "text": "ostacolo"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: percorso pode mudar a perspectiva de quem escuta."
+                "text": "perspectivas"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "verificáveis"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Balanços e perspectivas · Compreensão oral»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Balanços e perspectivas, duas pessoas comparam suas posições."
+                "text": "consequências"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que ostacolo só é útil quando é explicado com exemplos verificáveis."
+                "text": "perspectivas"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: percorso pode mudar a perspectiva de quem escuta."
+                "text": "percorso"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "verificáveis"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Balanços e perspectivas · Compreensão oral»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Balanços e perspectivas, duas pessoas comparam suas posições."
+                "text": "consequências"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que ostacolo só é útil quando é explicado com exemplos verificáveis."
+                "text": "perspectivas"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: percorso pode mudar a perspectiva de quem escuta."
+                "text": "verificáveis"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "clareza"
               }
             ]
           }
@@ -47131,42 +47131,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Balanços e perspectivas · Compreensão oral»?",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Balanços e perspectivas, duas pessoas comparam suas _____.”",
         "options": [
-          "Neste episódio sobre Balanços e perspectivas, duas pessoas comparam suas posições.",
-          "A outra acrescenta que ostacolo só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: percorso pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "posições",
+          "consequências",
+          "perspectivas",
+          "verificáveis"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «Neste episódio sobre Balanços e perspectivas, duas pessoas comparam…» in «Balanços e perspectivas · Compreensão oral»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
         "options": [
-          "Neste episódio sobre Balanços e perspectivas, duas pessoas comparam suas posições.",
-          "A outra acrescenta que ostacolo só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: percorso pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "consequências",
+          "ostacolo",
+          "perspectivas",
+          "verificáveis"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Balanços e perspectivas · Compreensão oral»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
         "options": [
-          "Neste episódio sobre Balanços e perspectivas, duas pessoas comparam suas posições.",
-          "A outra acrescenta que ostacolo só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: percorso pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "consequências",
+          "perspectivas",
+          "percorso",
+          "verificáveis"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Balanços e perspectivas · Compreensão oral»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
         "options": [
-          "Neste episódio sobre Balanços e perspectivas, duas pessoas comparam suas posições.",
-          "A outra acrescenta que ostacolo só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: percorso pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "consequências",
+          "perspectivas",
+          "verificáveis",
+          "clareza"
         ]
       }
     ]
@@ -47233,92 +47233,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Projeto pessoal · Compreensão oral»?",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Projeto pessoal, duas pessoas comparam suas _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Projeto pessoal, duas pessoas comparam suas posições."
+                "text": "posições"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que strategia só é útil quando é explicado com exemplos verificáveis."
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: risorsa pode mudar a perspectiva de quem escuta."
+                "text": "verificáveis"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "Neste"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «Neste episódio sobre Projeto pessoal, duas pessoas comparam suas…» in «Projeto pessoal · Compreensão oral»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Projeto pessoal, duas pessoas comparam suas posições."
+                "text": "consequências"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que strategia só é útil quando é explicado com exemplos verificáveis."
+                "text": "strategia"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: risorsa pode mudar a perspectiva de quem escuta."
+                "text": "produz"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "verificáveis"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Projeto pessoal · Compreensão oral»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Projeto pessoal, duas pessoas comparam suas posições."
+                "text": "consequências"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que strategia só é útil quando é explicado com exemplos verificáveis."
+                "text": "verificáveis"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: risorsa pode mudar a perspectiva de quem escuta."
+                "text": "risorsa"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "considerado"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Projeto pessoal · Compreensão oral»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Projeto pessoal, duas pessoas comparam suas posições."
+                "text": "consequências"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que strategia só é útil quando é explicado com exemplos verificáveis."
+                "text": "verificáveis"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: risorsa pode mudar a perspectiva de quem escuta."
+                "text": "considerado"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "clareza"
               }
             ]
           }
@@ -47338,42 +47338,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Projeto pessoal · Compreensão oral»?",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Projeto pessoal, duas pessoas comparam suas _____.”",
         "options": [
-          "Neste episódio sobre Projeto pessoal, duas pessoas comparam suas posições.",
-          "A outra acrescenta que strategia só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: risorsa pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "posições",
+          "consequências",
+          "verificáveis",
+          "Neste"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «Neste episódio sobre Projeto pessoal, duas pessoas comparam suas…» in «Projeto pessoal · Compreensão oral»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
         "options": [
-          "Neste episódio sobre Projeto pessoal, duas pessoas comparam suas posições.",
-          "A outra acrescenta que strategia só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: risorsa pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "consequências",
+          "strategia",
+          "produz",
+          "verificáveis"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Projeto pessoal · Compreensão oral»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
         "options": [
-          "Neste episódio sobre Projeto pessoal, duas pessoas comparam suas posições.",
-          "A outra acrescenta que strategia só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: risorsa pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "consequências",
+          "verificáveis",
+          "risorsa",
+          "considerado"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Projeto pessoal · Compreensão oral»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
         "options": [
-          "Neste episódio sobre Projeto pessoal, duas pessoas comparam suas posições.",
-          "A outra acrescenta que strategia só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: risorsa pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "consequências",
+          "verificáveis",
+          "considerado",
+          "clareza"
         ]
       }
     ]
@@ -47440,92 +47440,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which opening statement explicitly introduces «Síntese e proposta · Compreensão oral»?",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Síntese e proposta, duas pessoas comparam suas _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Síntese e proposta, duas pessoas comparam suas posições."
+                "text": "posições"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que fonte só é útil quando é explicado com exemplos verificáveis."
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: priorità pode mudar a perspectiva de quem escuta."
+                "text": "verificáveis"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "Neste"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement immediately follows «Neste episódio sobre Síntese e proposta, duas pessoas comparam suas…» in «Síntese e proposta · Compreensão oral»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que fonte só é útil quando é _____ com exemplos verificáveis.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Síntese e proposta, duas pessoas comparam suas posições."
+                "text": "consequências"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que fonte só é útil quando é explicado com exemplos verificáveis."
+                "text": "explicado"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: priorità pode mudar a perspectiva de quem escuta."
+                "text": "produz"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "verificáveis"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Síntese e proposta · Compreensão oral»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Síntese e proposta, duas pessoas comparam suas posições."
+                "text": "consequências"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que fonte só é útil quando é explicado com exemplos verificáveis."
+                "text": "verificáveis"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: priorità pode mudar a perspectiva de quem escuta."
+                "text": "priorità"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "Neste"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which final statement explicitly closes «Síntese e proposta · Compreensão oral»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Neste episódio sobre Síntese e proposta, duas pessoas comparam suas posições."
+                "text": "consequências"
               },
               {
                 "id": "o2",
-                "text": "A outra acrescenta que fonte só é útil quando é explicado com exemplos verificáveis."
+                "text": "verificáveis"
               },
               {
                 "id": "o3",
-                "text": "Na conversa surge uma dificuldade possível: priorità pode mudar a perspectiva de quem escuta."
+                "text": "considerado"
               },
               {
                 "id": "o4",
-                "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+                "text": "clareza"
               }
             ]
           }
@@ -47545,42 +47545,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which opening statement explicitly introduces «Síntese e proposta · Compreensão oral»?",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Síntese e proposta, duas pessoas comparam suas _____.”",
         "options": [
-          "Neste episódio sobre Síntese e proposta, duas pessoas comparam suas posições.",
-          "A outra acrescenta que fonte só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: priorità pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "posições",
+          "consequências",
+          "verificáveis",
+          "Neste"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement immediately follows «Neste episódio sobre Síntese e proposta, duas pessoas comparam suas…» in «Síntese e proposta · Compreensão oral»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que fonte só é útil quando é _____ com exemplos verificáveis.”",
         "options": [
-          "Neste episódio sobre Síntese e proposta, duas pessoas comparam suas posições.",
-          "A outra acrescenta que fonte só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: priorità pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "consequências",
+          "explicado",
+          "produz",
+          "verificáveis"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Síntese e proposta · Compreensão oral»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
         "options": [
-          "Neste episódio sobre Síntese e proposta, duas pessoas comparam suas posições.",
-          "A outra acrescenta que fonte só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: priorità pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "consequências",
+          "verificáveis",
+          "priorità",
+          "Neste"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which final statement explicitly closes «Síntese e proposta · Compreensão oral»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
         "options": [
-          "Neste episódio sobre Síntese e proposta, duas pessoas comparam suas posições.",
-          "A outra acrescenta que fonte só é útil quando é explicado com exemplos verificáveis.",
-          "Na conversa surge uma dificuldade possível: priorità pode mudar a perspectiva de quem escuta.",
-          "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "consequências",
+          "verificáveis",
+          "considerado",
+          "clareza"
         ]
       }
     ]
@@ -47638,92 +47638,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «Mensagem para casa: ouça», which detail establishes the situation?",
+            "prompt": "Complete este detalhe do áudio.\n\n“Hoje eu _____ muito.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoje eu aprendi muito."
+                "text": "aprendi"
               },
               {
                 "id": "o2",
-                "text": "Falamos de hoje."
+                "text": "Hoje"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "comunidade"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "muito"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «Hoje eu aprendi muito.», what happens next in «Mensagem para casa: ouça»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“_____ de hoje.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoje eu aprendi muito."
+                "text": "Hoje"
               },
               {
                 "id": "o2",
-                "text": "Falamos de hoje."
+                "text": "Falamos"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "comunidade"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "muito"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «Mensagem para casa: ouça»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoje eu aprendi muito."
+                "text": "comunidade"
               },
               {
                 "id": "o2",
-                "text": "Falamos de hoje."
+                "text": "aprender"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "Gosto"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "praticar"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «Mensagem para casa: ouça» after «Gosto de aprender com a comunidade.»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoje eu aprendi muito."
+                "text": "muito"
               },
               {
                 "id": "o2",
-                "text": "Falamos de hoje."
+                "text": "Gosto"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "Vamos"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "praticar"
               }
             ]
           }
@@ -47734,42 +47734,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «Mensagem para casa: ouça», which detail establishes the situation?",
+        "prompt": "Complete este detalhe do áudio.\n\n“Hoje eu _____ muito.”",
         "options": [
-          "Hoje eu aprendi muito.",
-          "Falamos de hoje.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "aprendi",
+          "Hoje",
+          "comunidade",
+          "muito"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «Hoje eu aprendi muito.», what happens next in «Mensagem para casa: ouça»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“_____ de hoje.”",
         "options": [
-          "Hoje eu aprendi muito.",
-          "Falamos de hoje.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "Hoje",
+          "Falamos",
+          "comunidade",
+          "muito"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «Mensagem para casa: ouça»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
         "options": [
-          "Hoje eu aprendi muito.",
-          "Falamos de hoje.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "comunidade",
+          "aprender",
+          "Gosto",
+          "praticar"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «Mensagem para casa: ouça» after «Gosto de aprender com a comunidade.»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
         "options": [
-          "Hoje eu aprendi muito.",
-          "Falamos de hoje.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "muito",
+          "Gosto",
+          "Vamos",
+          "praticar"
         ]
       }
     ]
@@ -47827,92 +47827,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In «Contar uma experiência: ouça», which detail establishes the situation?",
+            "prompt": "Complete este detalhe do áudio.\n\n“Foi uma viagem _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Foi uma viagem importante."
+                "text": "importante"
               },
               {
                 "id": "o2",
-                "text": "Falamos de lembrança."
+                "text": "Falamos"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "aprender"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "praticar"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After «Foi uma viagem importante.», what happens next in «Contar uma experiência: ouça»?",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Falamos de _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Foi uma viagem importante."
+                "text": "viagem"
               },
               {
                 "id": "o2",
-                "text": "Falamos de lembrança."
+                "text": "lembrança"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "juntos"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "amanhã"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in «Contar uma experiência: ouça»?",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Foi uma viagem importante."
+                "text": "importante"
               },
               {
                 "id": "o2",
-                "text": "Falamos de lembrança."
+                "text": "comunidade"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "Gosto"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "lembrança"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes «Contar uma experiência: ouça» after «Gosto de aprender com a comunidade.»?",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Foi uma viagem importante."
+                "text": "Gosto"
               },
               {
                 "id": "o2",
-                "text": "Falamos de lembrança."
+                "text": "Vamos"
               },
               {
                 "id": "o3",
-                "text": "Gosto de aprender com a comunidade."
+                "text": "viagem"
               },
               {
                 "id": "o4",
-                "text": "Vamos praticar juntos amanhã."
+                "text": "praticar"
               }
             ]
           }
@@ -47923,42 +47923,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In «Contar uma experiência: ouça», which detail establishes the situation?",
+        "prompt": "Complete este detalhe do áudio.\n\n“Foi uma viagem _____.”",
         "options": [
-          "Foi uma viagem importante.",
-          "Falamos de lembrança.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "importante",
+          "Falamos",
+          "aprender",
+          "praticar"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After «Foi uma viagem importante.», what happens next in «Contar uma experiência: ouça»?",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Falamos de _____.”",
         "options": [
-          "Foi uma viagem importante.",
-          "Falamos de lembrança.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "viagem",
+          "lembrança",
+          "juntos",
+          "amanhã"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in «Contar uma experiência: ouça»?",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
         "options": [
-          "Foi uma viagem importante.",
-          "Falamos de lembrança.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "importante",
+          "comunidade",
+          "Gosto",
+          "lembrança"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes «Contar uma experiência: ouça» after «Gosto de aprender com a comunidade.»?",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
         "options": [
-          "Foi uma viagem importante.",
-          "Falamos de lembrança.",
-          "Gosto de aprender com a comunidade.",
-          "Vamos praticar juntos amanhã."
+          "Gosto",
+          "Vamos",
+          "viagem",
+          "praticar"
         ]
       }
     ]

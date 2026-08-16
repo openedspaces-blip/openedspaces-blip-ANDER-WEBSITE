@@ -946,92 +946,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Escucha · Compras y cantidades», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“Esta mañana fui al mercado para comprar medio kilo de tomates, un kilo de arroz y una bolsa de _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Esta mañana fui al mercado para comprar medio kilo de tomates, un kilo de arroz y una bolsa de naranjas."
+                "text": "naranjas"
               },
               {
                 "id": "o2",
-                "text": "Decidí pagar con tarjeta."
+                "text": "medio"
               },
               {
                 "id": "o3",
-                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
+                "text": "arroz"
               },
               {
                 "id": "o4",
-                "text": "Me gusta tener un plan claro antes de seguir."
+                "text": "bolsa"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «Esta mañana fui al mercado para comprar medio kilo de tomates, un kilo…», ¿qué sucede a continuación en «Escucha · Compras y cantidades»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Decidí pagar con _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Esta mañana fui al mercado para comprar medio kilo de tomates, un kilo de arroz y una bolsa de naranjas."
+                "text": "información"
               },
               {
                 "id": "o2",
-                "text": "Decidí pagar con tarjeta."
+                "text": "tarjeta"
               },
               {
                 "id": "o3",
-                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
+                "text": "Esta"
               },
               {
                 "id": "o4",
-                "text": "Me gusta tener un plan claro antes de seguir."
+                "text": "kilo"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Compras y cantidades»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“Al final, repaso la información y preparo el _____ paso con calma.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Esta mañana fui al mercado para comprar medio kilo de tomates, un kilo de arroz y una bolsa de naranjas."
+                "text": "mañana"
               },
               {
                 "id": "o2",
-                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
+                "text": "Decidí"
               },
               {
                 "id": "o3",
-                "text": "Decidí pagar con tarjeta."
+                "text": "siguiente"
               },
               {
                 "id": "o4",
-                "text": "Me gusta tener un plan claro antes de seguir."
+                "text": "recibo"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Compras y cantidades» después de «Decidí pagar con tarjeta.»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Me gusta tener un plan claro antes de _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Esta mañana fui al mercado para comprar medio kilo de tomates, un kilo de arroz y una bolsa de naranjas."
+                "text": "información"
               },
               {
                 "id": "o2",
-                "text": "Decidí pagar con tarjeta."
+                "text": "fui"
               },
               {
                 "id": "o3",
-                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
+                "text": "una"
               },
               {
                 "id": "o4",
-                "text": "Me gusta tener un plan claro antes de seguir."
+                "text": "seguir"
               }
             ]
           }
@@ -1042,42 +1042,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Escucha · Compras y cantidades», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“Esta mañana fui al mercado para comprar medio kilo de tomates, un kilo de arroz y una bolsa de _____.”",
         "options": [
-          "Esta mañana fui al mercado para comprar medio kilo de tomates, un kilo de arroz y una bolsa de naranjas.",
-          "Decidí pagar con tarjeta.",
-          "Al final, repaso la información y preparo el siguiente paso con calma.",
-          "Me gusta tener un plan claro antes de seguir."
+          "naranjas",
+          "medio",
+          "arroz",
+          "bolsa"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «Esta mañana fui al mercado para comprar medio kilo de tomates, un kilo…», ¿qué sucede a continuación en «Escucha · Compras y cantidades»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Decidí pagar con _____.”",
         "options": [
-          "Esta mañana fui al mercado para comprar medio kilo de tomates, un kilo de arroz y una bolsa de naranjas.",
-          "Decidí pagar con tarjeta.",
-          "Al final, repaso la información y preparo el siguiente paso con calma.",
-          "Me gusta tener un plan claro antes de seguir."
+          "información",
+          "tarjeta",
+          "Esta",
+          "kilo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Compras y cantidades»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“Al final, repaso la información y preparo el _____ paso con calma.”",
         "options": [
-          "Esta mañana fui al mercado para comprar medio kilo de tomates, un kilo de arroz y una bolsa de naranjas.",
-          "Al final, repaso la información y preparo el siguiente paso con calma.",
-          "Decidí pagar con tarjeta.",
-          "Me gusta tener un plan claro antes de seguir."
+          "mañana",
+          "Decidí",
+          "siguiente",
+          "recibo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Compras y cantidades» después de «Decidí pagar con tarjeta.»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Me gusta tener un plan claro antes de _____.”",
         "options": [
-          "Esta mañana fui al mercado para comprar medio kilo de tomates, un kilo de arroz y una bolsa de naranjas.",
-          "Decidí pagar con tarjeta.",
-          "Al final, repaso la información y preparo el siguiente paso con calma.",
-          "Me gusta tener un plan claro antes de seguir."
+          "información",
+          "fui",
+          "una",
+          "seguir"
         ]
       }
     ]
@@ -1121,92 +1121,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Escucha · El día en que cambié de opinión», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“En este testimonio, comparto una experiencia que cambió mi manera de _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "En este testimonio, comparto una experiencia que cambió mi manera de decidir."
+                "text": "decidir"
               },
               {
                 "id": "o2",
-                "text": "Durante una visita a una biblioteca conocí a una voluntaria que explicaba cómo había vuelto a estudiar después de trabajar varios años."
+                "text": "experiencias"
               },
               {
                 "id": "o3",
-                "text": "De repente entendí que una decisión no tiene que ser definitiva para ser importante."
+                "text": "experiencia"
               },
               {
                 "id": "o4",
-                "text": "No fue un camino perfecto, pero el aprendizaje principal fue aceptar que puedo corregir una elección cuando aparecen nuevas experiencias."
+                "text": "equivocarme"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «En este testimonio, comparto una experiencia que cambió mi manera de…», ¿qué sucede a continuación en «Escucha · El día en que cambié de opinión»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Durante una _____ a una biblioteca conocí a una voluntaria que explicaba cómo había vuelto a estudiar después de trabajar varios años.”",
             "options": [
               {
                 "id": "o1",
-                "text": "En este testimonio, comparto una experiencia que cambió mi manera de decidir."
+                "text": "experiencias"
               },
               {
                 "id": "o2",
-                "text": "Durante una visita a una biblioteca conocí a una voluntaria que explicaba cómo había vuelto a estudiar después de trabajar varios años."
+                "text": "visita"
               },
               {
                 "id": "o3",
-                "text": "De repente entendí que una decisión no tiene que ser definitiva para ser importante."
+                "text": "experiencia"
               },
               {
                 "id": "o4",
-                "text": "No fue un camino perfecto, pero el aprendizaje principal fue aceptar que puedo corregir una elección cuando aparecen nuevas experiencias."
+                "text": "equivocarme"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · El día en que cambié de opinión»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“De repente entendí que una decisión no tiene que ser _____ para ser importante.”",
             "options": [
               {
                 "id": "o1",
-                "text": "En este testimonio, comparto una experiencia que cambió mi manera de decidir."
+                "text": "decidir"
               },
               {
                 "id": "o2",
-                "text": "Durante una visita a una biblioteca conocí a una voluntaria que explicaba cómo había vuelto a estudiar después de trabajar varios años."
+                "text": "pensaba"
               },
               {
                 "id": "o3",
-                "text": "De repente entendí que una decisión no tiene que ser definitiva para ser importante."
+                "text": "definitiva"
               },
               {
                 "id": "o4",
-                "text": "No fue un camino perfecto, pero el aprendizaje principal fue aceptar que puedo corregir una elección cuando aparecen nuevas experiencias."
+                "text": "carrera"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · El día en que cambié de opinión» después de «De repente entendí que una decisión no tiene que ser definitiva para…»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“No fue un camino perfecto, pero el aprendizaje principal fue aceptar que puedo _____ una elección cuando aparecen nuevas experiencias.”",
             "options": [
               {
                 "id": "o1",
-                "text": "En este testimonio, comparto una experiencia que cambió mi manera de decidir."
+                "text": "experiencias"
               },
               {
                 "id": "o2",
-                "text": "Durante una visita a una biblioteca conocí a una voluntaria que explicaba cómo había vuelto a estudiar después de trabajar varios años."
+                "text": "experiencia"
               },
               {
                 "id": "o3",
-                "text": "De repente entendí que una decisión no tiene que ser definitiva para ser importante."
+                "text": "debía"
               },
               {
                 "id": "o4",
-                "text": "No fue un camino perfecto, pero el aprendizaje principal fue aceptar que puedo corregir una elección cuando aparecen nuevas experiencias."
+                "text": "corregir"
               }
             ]
           }
@@ -1217,42 +1217,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Escucha · El día en que cambié de opinión», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“En este testimonio, comparto una experiencia que cambió mi manera de _____.”",
         "options": [
-          "En este testimonio, comparto una experiencia que cambió mi manera de decidir.",
-          "Durante una visita a una biblioteca conocí a una voluntaria que explicaba cómo había vuelto a estudiar después de trabajar varios años.",
-          "De repente entendí que una decisión no tiene que ser definitiva para ser importante.",
-          "No fue un camino perfecto, pero el aprendizaje principal fue aceptar que puedo corregir una elección cuando aparecen nuevas experiencias."
+          "decidir",
+          "experiencias",
+          "experiencia",
+          "equivocarme"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «En este testimonio, comparto una experiencia que cambió mi manera de…», ¿qué sucede a continuación en «Escucha · El día en que cambié de opinión»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Durante una _____ a una biblioteca conocí a una voluntaria que explicaba cómo había vuelto a estudiar después de trabajar varios años.”",
         "options": [
-          "En este testimonio, comparto una experiencia que cambió mi manera de decidir.",
-          "Durante una visita a una biblioteca conocí a una voluntaria que explicaba cómo había vuelto a estudiar después de trabajar varios años.",
-          "De repente entendí que una decisión no tiene que ser definitiva para ser importante.",
-          "No fue un camino perfecto, pero el aprendizaje principal fue aceptar que puedo corregir una elección cuando aparecen nuevas experiencias."
+          "experiencias",
+          "visita",
+          "experiencia",
+          "equivocarme"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · El día en que cambié de opinión»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“De repente entendí que una decisión no tiene que ser _____ para ser importante.”",
         "options": [
-          "En este testimonio, comparto una experiencia que cambió mi manera de decidir.",
-          "Durante una visita a una biblioteca conocí a una voluntaria que explicaba cómo había vuelto a estudiar después de trabajar varios años.",
-          "De repente entendí que una decisión no tiene que ser definitiva para ser importante.",
-          "No fue un camino perfecto, pero el aprendizaje principal fue aceptar que puedo corregir una elección cuando aparecen nuevas experiencias."
+          "decidir",
+          "pensaba",
+          "definitiva",
+          "carrera"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · El día en que cambié de opinión» después de «De repente entendí que una decisión no tiene que ser definitiva para…»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“No fue un camino perfecto, pero el aprendizaje principal fue aceptar que puedo _____ una elección cuando aparecen nuevas experiencias.”",
         "options": [
-          "En este testimonio, comparto una experiencia que cambió mi manera de decidir.",
-          "Durante una visita a una biblioteca conocí a una voluntaria que explicaba cómo había vuelto a estudiar después de trabajar varios años.",
-          "De repente entendí que una decisión no tiene que ser definitiva para ser importante.",
-          "No fue un camino perfecto, pero el aprendizaje principal fue aceptar que puedo corregir una elección cuando aparecen nuevas experiencias."
+          "experiencias",
+          "experiencia",
+          "debía",
+          "corregir"
         ]
       }
     ]
@@ -1296,92 +1296,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Escucha · ¿Somos nuestro perfil?», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“En este podcast de análisis, reviso una decisión cotidiana sobre identidad digital y _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "En este podcast de análisis, reviso una decisión cotidiana sobre identidad digital y privacidad."
+                "text": "privacidad"
               },
               {
                 "id": "o2",
-                "text": "En una aparecían fotos de actividades escolares; en otra, comentarios escritos cuando estaba molesto."
+                "text": "consentimiento"
               },
               {
                 "id": "o3",
-                "text": "Mi reputación no debería depender de parecer perfecto, sino de actuar con coherencia."
+                "text": "podcast"
               },
               {
                 "id": "o4",
-                "text": "Por eso, antes de publicar algo, reviso no solo el mensaje sino también quién podría verlo fuera de su contexto original."
+                "text": "digital"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «En este podcast de análisis, reviso una decisión cotidiana sobre…», ¿qué sucede a continuación en «Escucha · ¿Somos nuestro perfil?»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“En una aparecían fotos de _____ escolares; en otra, comentarios escritos cuando estaba molesto.”",
             "options": [
               {
                 "id": "o1",
-                "text": "En este podcast de análisis, reviso una decisión cotidiana sobre identidad digital y privacidad."
+                "text": "análisis"
               },
               {
                 "id": "o2",
-                "text": "En una aparecían fotos de actividades escolares; en otra, comentarios escritos cuando estaba molesto."
+                "text": "actividades"
               },
               {
                 "id": "o3",
-                "text": "Mi reputación no debería depender de parecer perfecto, sino de actuar con coherencia."
+                "text": "decisión"
               },
               {
                 "id": "o4",
-                "text": "Por eso, antes de publicar algo, reviso no solo el mensaje sino también quién podría verlo fuera de su contexto original."
+                "text": "escritos"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · ¿Somos nuestro perfil?»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“Mi reputación no debería depender de _____ perfecto, sino de actuar con coherencia.”",
             "options": [
               {
                 "id": "o1",
-                "text": "En este podcast de análisis, reviso una decisión cotidiana sobre identidad digital y privacidad."
+                "text": "consentimiento"
               },
               {
                 "id": "o2",
-                "text": "En una aparecían fotos de actividades escolares; en otra, comentarios escritos cuando estaba molesto."
+                "text": "conversación"
               },
               {
                 "id": "o3",
-                "text": "Mi reputación no debería depender de parecer perfecto, sino de actuar con coherencia."
+                "text": "parecer"
               },
               {
                 "id": "o4",
-                "text": "Por eso, antes de publicar algo, reviso no solo el mensaje sino también quién podría verlo fuera de su contexto original."
+                "text": "actividades"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · ¿Somos nuestro perfil?» después de «Mi reputación no debería depender de parecer perfecto, sino de actuar…»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Por eso, antes de publicar algo, reviso no solo el mensaje sino también quién podría verlo fuera de su _____ original.”",
             "options": [
               {
                 "id": "o1",
-                "text": "En este podcast de análisis, reviso una decisión cotidiana sobre identidad digital y privacidad."
+                "text": "consentimiento"
               },
               {
                 "id": "o2",
-                "text": "En una aparecían fotos de actividades escolares; en otra, comentarios escritos cuando estaba molesto."
+                "text": "conversación"
               },
               {
                 "id": "o3",
-                "text": "Mi reputación no debería depender de parecer perfecto, sino de actuar con coherencia."
+                "text": "antes"
               },
               {
                 "id": "o4",
-                "text": "Por eso, antes de publicar algo, reviso no solo el mensaje sino también quién podría verlo fuera de su contexto original."
+                "text": "contexto"
               }
             ]
           }
@@ -1392,42 +1392,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Escucha · ¿Somos nuestro perfil?», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“En este podcast de análisis, reviso una decisión cotidiana sobre identidad digital y _____.”",
         "options": [
-          "En este podcast de análisis, reviso una decisión cotidiana sobre identidad digital y privacidad.",
-          "En una aparecían fotos de actividades escolares; en otra, comentarios escritos cuando estaba molesto.",
-          "Mi reputación no debería depender de parecer perfecto, sino de actuar con coherencia.",
-          "Por eso, antes de publicar algo, reviso no solo el mensaje sino también quién podría verlo fuera de su contexto original."
+          "privacidad",
+          "consentimiento",
+          "podcast",
+          "digital"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «En este podcast de análisis, reviso una decisión cotidiana sobre…», ¿qué sucede a continuación en «Escucha · ¿Somos nuestro perfil?»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“En una aparecían fotos de _____ escolares; en otra, comentarios escritos cuando estaba molesto.”",
         "options": [
-          "En este podcast de análisis, reviso una decisión cotidiana sobre identidad digital y privacidad.",
-          "En una aparecían fotos de actividades escolares; en otra, comentarios escritos cuando estaba molesto.",
-          "Mi reputación no debería depender de parecer perfecto, sino de actuar con coherencia.",
-          "Por eso, antes de publicar algo, reviso no solo el mensaje sino también quién podría verlo fuera de su contexto original."
+          "análisis",
+          "actividades",
+          "decisión",
+          "escritos"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · ¿Somos nuestro perfil?»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“Mi reputación no debería depender de _____ perfecto, sino de actuar con coherencia.”",
         "options": [
-          "En este podcast de análisis, reviso una decisión cotidiana sobre identidad digital y privacidad.",
-          "En una aparecían fotos de actividades escolares; en otra, comentarios escritos cuando estaba molesto.",
-          "Mi reputación no debería depender de parecer perfecto, sino de actuar con coherencia.",
-          "Por eso, antes de publicar algo, reviso no solo el mensaje sino también quién podría verlo fuera de su contexto original."
+          "consentimiento",
+          "conversación",
+          "parecer",
+          "actividades"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · ¿Somos nuestro perfil?» después de «Mi reputación no debería depender de parecer perfecto, sino de actuar…»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Por eso, antes de publicar algo, reviso no solo el mensaje sino también quién podría verlo fuera de su _____ original.”",
         "options": [
-          "En este podcast de análisis, reviso una decisión cotidiana sobre identidad digital y privacidad.",
-          "En una aparecían fotos de actividades escolares; en otra, comentarios escritos cuando estaba molesto.",
-          "Mi reputación no debería depender de parecer perfecto, sino de actuar con coherencia.",
-          "Por eso, antes de publicar algo, reviso no solo el mensaje sino también quién podría verlo fuera de su contexto original."
+          "consentimiento",
+          "conversación",
+          "antes",
+          "contexto"
         ]
       }
     ]
@@ -1471,92 +1471,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Escucha · ¿La inteligencia artificial está cambiando nuestra manera de pensar?», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“¿Alguna vez has sentido que ya no necesitas recordar _____ cosas como antes?”",
             "options": [
               {
                 "id": "o1",
-                "text": "¿Alguna vez has sentido que ya no necesitas recordar tantas cosas como antes?"
+                "text": "tantas"
               },
               {
                 "id": "o2",
-                "text": "Cada día millones de personas le piden ayuda para escribir correos electrónicos, resumir documentos, traducir textos, resolver ejercicios o generar ideas para un proyecto."
+                "text": "preocupaciones"
               },
               {
                 "id": "o3",
-                "text": "Más tarde ocurrió lo mismo con las calculadoras y, después, con Internet."
+                "text": "perfectamente"
               },
               {
                 "id": "o4",
-                "text": "Eso explica por qué muchos estudiantes, profesionales y empresas la utilizan todos los días."
+                "text": "profesionales"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «¿Alguna vez has sentido que ya no necesitas recordar tantas cosas como…», ¿qué sucede a continuación en «Escucha · ¿La inteligencia artificial está cambiando nuestra manera de pensar?»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Cada día _____ de personas le piden ayuda para escribir correos electrónicos, resumir documentos, traducir textos, resolver ejercicios o generar ideas para un proyecto.”",
             "options": [
               {
                 "id": "o1",
-                "text": "¿Alguna vez has sentido que ya no necesitas recordar tantas cosas como antes?"
+                "text": "preocupaciones"
               },
               {
                 "id": "o2",
-                "text": "Cada día millones de personas le piden ayuda para escribir correos electrónicos, resumir documentos, traducir textos, resolver ejercicios o generar ideas para un proyecto."
+                "text": "millones"
               },
               {
                 "id": "o3",
-                "text": "Más tarde ocurrió lo mismo con las calculadoras y, después, con Internet."
+                "text": "perfectamente"
               },
               {
                 "id": "o4",
-                "text": "Eso explica por qué muchos estudiantes, profesionales y empresas la utilizan todos los días."
+                "text": "profesionales"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · ¿La inteligencia artificial está cambiando nuestra manera de pensar?»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“Más tarde ocurrió lo mismo con las calculadoras y, _____, con Internet.”",
             "options": [
               {
                 "id": "o1",
-                "text": "¿Alguna vez has sentido que ya no necesitas recordar tantas cosas como antes?"
+                "text": "preocupaciones"
               },
               {
                 "id": "o2",
-                "text": "Cada día millones de personas le piden ayuda para escribir correos electrónicos, resumir documentos, traducir textos, resolver ejercicios o generar ideas para un proyecto."
+                "text": "perfectamente"
               },
               {
                 "id": "o3",
-                "text": "La inteligencia artificial plantea un desafío distinto porque no solo almacena información; también puede organizarla, redactarla y presentarla como si fuera una persona."
+                "text": "después"
               },
               {
                 "id": "o4",
-                "text": "Más tarde ocurrió lo mismo con las calculadoras y, después, con Internet."
+                "text": "profesionales"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · ¿La inteligencia artificial está cambiando nuestra manera de pensar?» después de «La inteligencia artificial plantea un desafío distinto porque no solo…»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Eso explica por qué muchos estudiantes, profesionales y _____ la utilizan todos los días.”",
             "options": [
               {
                 "id": "o1",
-                "text": "¿Alguna vez has sentido que ya no necesitas recordar tantas cosas como antes?"
+                "text": "preocupaciones"
               },
               {
                 "id": "o2",
-                "text": "Cada día millones de personas le piden ayuda para escribir correos electrónicos, resumir documentos, traducir textos, resolver ejercicios o generar ideas para un proyecto."
+                "text": "perfectamente"
               },
               {
                 "id": "o3",
-                "text": "Más tarde ocurrió lo mismo con las calculadoras y, después, con Internet."
+                "text": "profesionales"
               },
               {
                 "id": "o4",
-                "text": "Eso explica por qué muchos estudiantes, profesionales y empresas la utilizan todos los días."
+                "text": "empresas"
               }
             ]
           }
@@ -1567,42 +1567,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Escucha · ¿La inteligencia artificial está cambiando nuestra manera de pensar?», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“¿Alguna vez has sentido que ya no necesitas recordar _____ cosas como antes?”",
         "options": [
-          "¿Alguna vez has sentido que ya no necesitas recordar tantas cosas como antes?",
-          "Cada día millones de personas le piden ayuda para escribir correos electrónicos, resumir documentos, traducir textos, resolver ejercicios o generar ideas para un proyecto.",
-          "Más tarde ocurrió lo mismo con las calculadoras y, después, con Internet.",
-          "Eso explica por qué muchos estudiantes, profesionales y empresas la utilizan todos los días."
+          "tantas",
+          "preocupaciones",
+          "perfectamente",
+          "profesionales"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «¿Alguna vez has sentido que ya no necesitas recordar tantas cosas como…», ¿qué sucede a continuación en «Escucha · ¿La inteligencia artificial está cambiando nuestra manera de pensar?»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Cada día _____ de personas le piden ayuda para escribir correos electrónicos, resumir documentos, traducir textos, resolver ejercicios o generar ideas para un proyecto.”",
         "options": [
-          "¿Alguna vez has sentido que ya no necesitas recordar tantas cosas como antes?",
-          "Cada día millones de personas le piden ayuda para escribir correos electrónicos, resumir documentos, traducir textos, resolver ejercicios o generar ideas para un proyecto.",
-          "Más tarde ocurrió lo mismo con las calculadoras y, después, con Internet.",
-          "Eso explica por qué muchos estudiantes, profesionales y empresas la utilizan todos los días."
+          "preocupaciones",
+          "millones",
+          "perfectamente",
+          "profesionales"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · ¿La inteligencia artificial está cambiando nuestra manera de pensar?»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“Más tarde ocurrió lo mismo con las calculadoras y, _____, con Internet.”",
         "options": [
-          "¿Alguna vez has sentido que ya no necesitas recordar tantas cosas como antes?",
-          "Cada día millones de personas le piden ayuda para escribir correos electrónicos, resumir documentos, traducir textos, resolver ejercicios o generar ideas para un proyecto.",
-          "La inteligencia artificial plantea un desafío distinto porque no solo almacena información; también puede organizarla, redactarla y presentarla como si fuera una persona.",
-          "Más tarde ocurrió lo mismo con las calculadoras y, después, con Internet."
+          "preocupaciones",
+          "perfectamente",
+          "después",
+          "profesionales"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · ¿La inteligencia artificial está cambiando nuestra manera de pensar?» después de «La inteligencia artificial plantea un desafío distinto porque no solo…»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Eso explica por qué muchos estudiantes, profesionales y _____ la utilizan todos los días.”",
         "options": [
-          "¿Alguna vez has sentido que ya no necesitas recordar tantas cosas como antes?",
-          "Cada día millones de personas le piden ayuda para escribir correos electrónicos, resumir documentos, traducir textos, resolver ejercicios o generar ideas para un proyecto.",
-          "Más tarde ocurrió lo mismo con las calculadoras y, después, con Internet.",
-          "Eso explica por qué muchos estudiantes, profesionales y empresas la utilizan todos los días."
+          "preocupaciones",
+          "perfectamente",
+          "profesionales",
+          "empresas"
         ]
       }
     ]
@@ -1646,92 +1646,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Escucha · Cómo los algoritmos deciden lo que ves cada día», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“Cada vez que una plataforma te recomienda un video, una noticia o una canción, toma una decisión basada en _____ que rara vez ves.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Cada vez que una plataforma te recomienda un video, una noticia o una canción, toma una decisión basada en señales que rara vez ves."
+                "text": "señales"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "investigación"
               },
               {
                 "id": "o3",
-                "text": "Desde esta perspectiva, reconstruir las decisiones invisibles que moldean la atención cotidiana no consiste en repetir una conclusión."
+                "text": "interpretarlo"
               },
               {
                 "id": "o4",
-                "text": "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+                "text": "recomendación"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «Cada vez que una plataforma te recomienda un video, una noticia o una…», ¿qué sucede a continuación en «Escucha · Cómo los algoritmos deciden lo que ves cada día»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Estos _____ ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Cada vez que una plataforma te recomienda un video, una noticia o una canción, toma una decisión basada en señales que rara vez ves."
+                "text": "investigación"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "conceptos"
               },
               {
                 "id": "o3",
-                "text": "Desde esta perspectiva, reconstruir las decisiones invisibles que moldean la atención cotidiana no consiste en repetir una conclusión."
+                "text": "interpretarlo"
               },
               {
                 "id": "o4",
-                "text": "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+                "text": "recomendación"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Cómo los algoritmos deciden lo que ves cada día»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“Desde esta perspectiva, reconstruir las decisiones _____ que moldean la atención cotidiana no consiste en repetir una conclusión.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Cada vez que una plataforma te recomienda un video, una noticia o una canción, toma una decisión basada en señales que rara vez ves."
+                "text": "noticia"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "canción"
               },
               {
                 "id": "o3",
-                "text": "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones."
+                "text": "invisibles"
               },
               {
                 "id": "o4",
-                "text": "Desde esta perspectiva, reconstruir las decisiones invisibles que moldean la atención cotidiana no consiste en repetir una conclusión."
+                "text": "señales"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Cómo los algoritmos deciden lo que ves cada día» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Por eso, una escucha avanzada no se limita a localizar una _____ literal.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Cada vez que una plataforma te recomienda un video, una noticia o una canción, toma una decisión basada en señales que rara vez ves."
+                "text": "investigación"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "interpretarlo"
               },
               {
                 "id": "o3",
-                "text": "Desde esta perspectiva, reconstruir las decisiones invisibles que moldean la atención cotidiana no consiste en repetir una conclusión."
+                "text": "recomendación"
               },
               {
                 "id": "o4",
-                "text": "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+                "text": "respuesta"
               }
             ]
           }
@@ -1742,42 +1742,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Escucha · Cómo los algoritmos deciden lo que ves cada día», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“Cada vez que una plataforma te recomienda un video, una noticia o una canción, toma una decisión basada en _____ que rara vez ves.”",
         "options": [
-          "Cada vez que una plataforma te recomienda un video, una noticia o una canción, toma una decisión basada en señales que rara vez ves.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "Desde esta perspectiva, reconstruir las decisiones invisibles que moldean la atención cotidiana no consiste en repetir una conclusión.",
-          "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+          "señales",
+          "investigación",
+          "interpretarlo",
+          "recomendación"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «Cada vez que una plataforma te recomienda un video, una noticia o una…», ¿qué sucede a continuación en «Escucha · Cómo los algoritmos deciden lo que ves cada día»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Estos _____ ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.”",
         "options": [
-          "Cada vez que una plataforma te recomienda un video, una noticia o una canción, toma una decisión basada en señales que rara vez ves.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "Desde esta perspectiva, reconstruir las decisiones invisibles que moldean la atención cotidiana no consiste en repetir una conclusión.",
-          "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+          "investigación",
+          "conceptos",
+          "interpretarlo",
+          "recomendación"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Cómo los algoritmos deciden lo que ves cada día»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“Desde esta perspectiva, reconstruir las decisiones _____ que moldean la atención cotidiana no consiste en repetir una conclusión.”",
         "options": [
-          "Cada vez que una plataforma te recomienda un video, una noticia o una canción, toma una decisión basada en señales que rara vez ves.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones.",
-          "Desde esta perspectiva, reconstruir las decisiones invisibles que moldean la atención cotidiana no consiste en repetir una conclusión."
+          "noticia",
+          "canción",
+          "invisibles",
+          "señales"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Cómo los algoritmos deciden lo que ves cada día» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Por eso, una escucha avanzada no se limita a localizar una _____ literal.”",
         "options": [
-          "Cada vez que una plataforma te recomienda un video, una noticia o una canción, toma una decisión basada en señales que rara vez ves.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "Desde esta perspectiva, reconstruir las decisiones invisibles que moldean la atención cotidiana no consiste en repetir una conclusión.",
-          "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+          "investigación",
+          "interpretarlo",
+          "recomendación",
+          "respuesta"
         ]
       }
     ]
@@ -1852,92 +1852,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Mucho gusto, ¿cómo te llamas?», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“Hola, me llamo _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hola, me llamo Valentina."
+                "text": "Valentina"
               },
               {
                 "id": "o2",
-                "text": "Vivo con mi familia y estudio español por las tardes."
+                "text": "tardes"
               },
               {
                 "id": "o3",
-                "text": "Hoy es mi primer día de clase y estoy un poco nerviosa, pero muy contenta."
+                "text": "música"
               },
               {
                 "id": "o4",
-                "text": "Mucho gusto, espero conocerte pronto."
+                "text": "hablar"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «Hola, me llamo Valentina.», ¿qué sucede a continuación en «Mucho gusto, ¿cómo te llamas?»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Vivo con mi _____ y estudio español por las tardes.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hola, me llamo Valentina."
+                "text": "Hola"
               },
               {
                 "id": "o2",
-                "text": "Vivo con mi familia y estudio español por las tardes."
+                "text": "familia"
               },
               {
                 "id": "o3",
-                "text": "Hoy es mi primer día de clase y estoy un poco nerviosa, pero muy contenta."
+                "text": "diecinueve"
               },
               {
                 "id": "o4",
-                "text": "Mucho gusto, espero conocerte pronto."
+                "text": "años"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Mucho gusto, ¿cómo te llamas?»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“Hoy es mi primer día de clase y estoy un poco nerviosa, pero muy _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hola, me llamo Valentina."
+                "text": "llamo"
               },
               {
                 "id": "o2",
-                "text": "Vivo con mi familia y estudio español por las tardes."
+                "text": "Tengo"
               },
               {
                 "id": "o3",
-                "text": "Hoy es mi primer día de clase y estoy un poco nerviosa, pero muy contenta."
+                "text": "contenta"
               },
               {
                 "id": "o4",
-                "text": "Mucho gusto, espero conocerte pronto."
+                "text": "Santo"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Mucho gusto, ¿cómo te llamas?» después de «Hoy es mi primer día de clase y estoy un poco nerviosa, pero muy…»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Mucho gusto, _____ conocerte pronto.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hola, me llamo Valentina."
+                "text": "diecinueve"
               },
               {
                 "id": "o2",
-                "text": "Vivo con mi familia y estudio español por las tardes."
+                "text": "Valentina"
               },
               {
                 "id": "o3",
-                "text": "Hoy es mi primer día de clase y estoy un poco nerviosa, pero muy contenta."
+                "text": "soy"
               },
               {
                 "id": "o4",
-                "text": "Mucho gusto, espero conocerte pronto."
+                "text": "espero"
               }
             ]
           }
@@ -1948,42 +1948,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Mucho gusto, ¿cómo te llamas?», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“Hola, me llamo _____.”",
         "options": [
-          "Hola, me llamo Valentina.",
-          "Vivo con mi familia y estudio español por las tardes.",
-          "Hoy es mi primer día de clase y estoy un poco nerviosa, pero muy contenta.",
-          "Mucho gusto, espero conocerte pronto."
+          "Valentina",
+          "tardes",
+          "música",
+          "hablar"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «Hola, me llamo Valentina.», ¿qué sucede a continuación en «Mucho gusto, ¿cómo te llamas?»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Vivo con mi _____ y estudio español por las tardes.”",
         "options": [
-          "Hola, me llamo Valentina.",
-          "Vivo con mi familia y estudio español por las tardes.",
-          "Hoy es mi primer día de clase y estoy un poco nerviosa, pero muy contenta.",
-          "Mucho gusto, espero conocerte pronto."
+          "Hola",
+          "familia",
+          "diecinueve",
+          "años"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Mucho gusto, ¿cómo te llamas?»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“Hoy es mi primer día de clase y estoy un poco nerviosa, pero muy _____.”",
         "options": [
-          "Hola, me llamo Valentina.",
-          "Vivo con mi familia y estudio español por las tardes.",
-          "Hoy es mi primer día de clase y estoy un poco nerviosa, pero muy contenta.",
-          "Mucho gusto, espero conocerte pronto."
+          "llamo",
+          "Tengo",
+          "contenta",
+          "Santo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Mucho gusto, ¿cómo te llamas?» después de «Hoy es mi primer día de clase y estoy un poco nerviosa, pero muy…»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Mucho gusto, _____ conocerte pronto.”",
         "options": [
-          "Hola, me llamo Valentina.",
-          "Vivo con mi familia y estudio español por las tardes.",
-          "Hoy es mi primer día de clase y estoy un poco nerviosa, pero muy contenta.",
-          "Mucho gusto, espero conocerte pronto."
+          "diecinueve",
+          "Valentina",
+          "soy",
+          "espero"
         ]
       }
     ]
@@ -6040,92 +6040,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Escucha · Orientarse en la ciudad», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“Hoy necesito llegar a la estación de tren, pero no conozco bien esta parte de la _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoy necesito llegar a la estación de tren, pero no conozco bien esta parte de la ciudad."
+                "text": "ciudad"
               },
               {
                 "id": "o2",
-                "text": "No debo cruzar la plaza."
+                "text": "indicaciones"
               },
               {
                 "id": "o3",
-                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
+                "text": "información"
               },
               {
                 "id": "o4",
-                "text": "Me gusta tener un plan claro antes de seguir."
+                "text": "Hoy"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «Hoy necesito llegar a la estación de tren, pero no conozco bien esta…», ¿qué sucede a continuación en «Escucha · Orientarse en la ciudad»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“No debo _____ la plaza.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoy necesito llegar a la estación de tren, pero no conozco bien esta parte de la ciudad."
+                "text": "indicaciones"
               },
               {
                 "id": "o2",
-                "text": "No debo cruzar la plaza."
+                "text": "cruzar"
               },
               {
                 "id": "o3",
-                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
+                "text": "información"
               },
               {
                 "id": "o4",
-                "text": "Me gusta tener un plan claro antes de seguir."
+                "text": "Hoy"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Orientarse en la ciudad»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“Al final, repaso la información y preparo el _____ paso con calma.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoy necesito llegar a la estación de tren, pero no conozco bien esta parte de la ciudad."
+                "text": "llegar"
               },
               {
                 "id": "o2",
-                "text": "No debo cruzar la plaza."
+                "text": "ciudad"
               },
               {
                 "id": "o3",
-                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
+                "text": "siguiente"
               },
               {
                 "id": "o4",
-                "text": "Me gusta tener un plan claro antes de seguir."
+                "text": "seguir"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Orientarse en la ciudad» después de «Al final, repaso la información y preparo el siguiente paso con calma.»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Me gusta tener un plan claro antes de _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoy necesito llegar a la estación de tren, pero no conozco bien esta parte de la ciudad."
+                "text": "indicaciones"
               },
               {
                 "id": "o2",
-                "text": "No debo cruzar la plaza."
+                "text": "información"
               },
               {
                 "id": "o3",
-                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
+                "text": "Hoy"
               },
               {
                 "id": "o4",
-                "text": "Me gusta tener un plan claro antes de seguir."
+                "text": "seguir"
               }
             ]
           }
@@ -6136,42 +6136,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Escucha · Orientarse en la ciudad», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“Hoy necesito llegar a la estación de tren, pero no conozco bien esta parte de la _____.”",
         "options": [
-          "Hoy necesito llegar a la estación de tren, pero no conozco bien esta parte de la ciudad.",
-          "No debo cruzar la plaza.",
-          "Al final, repaso la información y preparo el siguiente paso con calma.",
-          "Me gusta tener un plan claro antes de seguir."
+          "ciudad",
+          "indicaciones",
+          "información",
+          "Hoy"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «Hoy necesito llegar a la estación de tren, pero no conozco bien esta…», ¿qué sucede a continuación en «Escucha · Orientarse en la ciudad»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“No debo _____ la plaza.”",
         "options": [
-          "Hoy necesito llegar a la estación de tren, pero no conozco bien esta parte de la ciudad.",
-          "No debo cruzar la plaza.",
-          "Al final, repaso la información y preparo el siguiente paso con calma.",
-          "Me gusta tener un plan claro antes de seguir."
+          "indicaciones",
+          "cruzar",
+          "información",
+          "Hoy"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Orientarse en la ciudad»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“Al final, repaso la información y preparo el _____ paso con calma.”",
         "options": [
-          "Hoy necesito llegar a la estación de tren, pero no conozco bien esta parte de la ciudad.",
-          "No debo cruzar la plaza.",
-          "Al final, repaso la información y preparo el siguiente paso con calma.",
-          "Me gusta tener un plan claro antes de seguir."
+          "llegar",
+          "ciudad",
+          "siguiente",
+          "seguir"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Orientarse en la ciudad» después de «Al final, repaso la información y preparo el siguiente paso con calma.»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Me gusta tener un plan claro antes de _____.”",
         "options": [
-          "Hoy necesito llegar a la estación de tren, pero no conozco bien esta parte de la ciudad.",
-          "No debo cruzar la plaza.",
-          "Al final, repaso la información y preparo el siguiente paso con calma.",
-          "Me gusta tener un plan claro antes de seguir."
+          "indicaciones",
+          "información",
+          "Hoy",
+          "seguir"
         ]
       }
     ]
@@ -6215,92 +6215,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Escucha · ¿Qué cuenta como experiencia en el primer empleo?», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“Bienvenidas y bienvenidos a este breve podcast sobre la primera entrevista de _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Bienvenidas y bienvenidos a este breve podcast sobre la primera entrevista de trabajo."
+                "text": "trabajo"
               },
               {
                 "id": "o2",
-                "text": "Después revisé lo que ya había hecho: organicé actividades en mi barrio, ayudé a una amiga con su pequeño negocio y terminé un curso de diseño."
+                "text": "responsabilidad"
               },
               {
                 "id": "o3",
-                "text": "En la entrevista voy a explicar que puedo atender al público, trabajar con responsabilidad y aprender programas nuevos."
+                "text": "Bienvenidas"
               },
               {
                 "id": "o4",
-                "text": "Antes de salir, practiqué una respuesta de un minuto para no perderme en detalles."
+                "text": "bienvenidos"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «Bienvenidas y bienvenidos a este breve podcast sobre la primera…», ¿qué sucede a continuación en «Escucha · ¿Qué cuenta como experiencia en el primer empleo?»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Después _____ lo que ya había hecho: organicé actividades en mi barrio, ayudé a una amiga con su pequeño negocio y terminé un curso de diseño.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Bienvenidas y bienvenidos a este breve podcast sobre la primera entrevista de trabajo."
+                "text": "responsabilidad"
               },
               {
                 "id": "o2",
-                "text": "Después revisé lo que ya había hecho: organicé actividades en mi barrio, ayudé a una amiga con su pequeño negocio y terminé un curso de diseño."
+                "text": "revisé"
               },
               {
                 "id": "o3",
-                "text": "En la entrevista voy a explicar que puedo atender al público, trabajar con responsabilidad y aprender programas nuevos."
+                "text": "Bienvenidas"
               },
               {
                 "id": "o4",
-                "text": "Antes de salir, practiqué una respuesta de un minuto para no perderme en detalles."
+                "text": "bienvenidos"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · ¿Qué cuenta como experiencia en el primer empleo?»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“En la entrevista voy a explicar que puedo atender al _____, trabajar con responsabilidad y aprender programas nuevos.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Bienvenidas y bienvenidos a este breve podcast sobre la primera entrevista de trabajo."
+                "text": "responsabilidad"
               },
               {
                 "id": "o2",
-                "text": "Después revisé lo que ya había hecho: organicé actividades en mi barrio, ayudé a una amiga con su pequeño negocio y terminé un curso de diseño."
+                "text": "Bienvenidas"
               },
               {
                 "id": "o3",
-                "text": "Al principio creía que no tenía experiencia porque nunca había tenido un empleo formal."
+                "text": "público"
               },
               {
                 "id": "o4",
-                "text": "En la entrevista voy a explicar que puedo atender al público, trabajar con responsabilidad y aprender programas nuevos."
+                "text": "bienvenidos"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · ¿Qué cuenta como experiencia en el primer empleo?» después de «Al principio creía que no tenía experiencia porque nunca había tenido…»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Antes de salir, practiqué una respuesta de un minuto para no perderme en _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Bienvenidas y bienvenidos a este breve podcast sobre la primera entrevista de trabajo."
+                "text": "responsabilidad"
               },
               {
                 "id": "o2",
-                "text": "Después revisé lo que ya había hecho: organicé actividades en mi barrio, ayudé a una amiga con su pequeño negocio y terminé un curso de diseño."
+                "text": "Bienvenidas"
               },
               {
                 "id": "o3",
-                "text": "En la entrevista voy a explicar que puedo atender al público, trabajar con responsabilidad y aprender programas nuevos."
+                "text": "bienvenidos"
               },
               {
                 "id": "o4",
-                "text": "Antes de salir, practiqué una respuesta de un minuto para no perderme en detalles."
+                "text": "detalles"
               }
             ]
           }
@@ -6311,42 +6311,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Escucha · ¿Qué cuenta como experiencia en el primer empleo?», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“Bienvenidas y bienvenidos a este breve podcast sobre la primera entrevista de _____.”",
         "options": [
-          "Bienvenidas y bienvenidos a este breve podcast sobre la primera entrevista de trabajo.",
-          "Después revisé lo que ya había hecho: organicé actividades en mi barrio, ayudé a una amiga con su pequeño negocio y terminé un curso de diseño.",
-          "En la entrevista voy a explicar que puedo atender al público, trabajar con responsabilidad y aprender programas nuevos.",
-          "Antes de salir, practiqué una respuesta de un minuto para no perderme en detalles."
+          "trabajo",
+          "responsabilidad",
+          "Bienvenidas",
+          "bienvenidos"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «Bienvenidas y bienvenidos a este breve podcast sobre la primera…», ¿qué sucede a continuación en «Escucha · ¿Qué cuenta como experiencia en el primer empleo?»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Después _____ lo que ya había hecho: organicé actividades en mi barrio, ayudé a una amiga con su pequeño negocio y terminé un curso de diseño.”",
         "options": [
-          "Bienvenidas y bienvenidos a este breve podcast sobre la primera entrevista de trabajo.",
-          "Después revisé lo que ya había hecho: organicé actividades en mi barrio, ayudé a una amiga con su pequeño negocio y terminé un curso de diseño.",
-          "En la entrevista voy a explicar que puedo atender al público, trabajar con responsabilidad y aprender programas nuevos.",
-          "Antes de salir, practiqué una respuesta de un minuto para no perderme en detalles."
+          "responsabilidad",
+          "revisé",
+          "Bienvenidas",
+          "bienvenidos"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · ¿Qué cuenta como experiencia en el primer empleo?»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“En la entrevista voy a explicar que puedo atender al _____, trabajar con responsabilidad y aprender programas nuevos.”",
         "options": [
-          "Bienvenidas y bienvenidos a este breve podcast sobre la primera entrevista de trabajo.",
-          "Después revisé lo que ya había hecho: organicé actividades en mi barrio, ayudé a una amiga con su pequeño negocio y terminé un curso de diseño.",
-          "Al principio creía que no tenía experiencia porque nunca había tenido un empleo formal.",
-          "En la entrevista voy a explicar que puedo atender al público, trabajar con responsabilidad y aprender programas nuevos."
+          "responsabilidad",
+          "Bienvenidas",
+          "público",
+          "bienvenidos"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · ¿Qué cuenta como experiencia en el primer empleo?» después de «Al principio creía que no tenía experiencia porque nunca había tenido…»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Antes de salir, practiqué una respuesta de un minuto para no perderme en _____.”",
         "options": [
-          "Bienvenidas y bienvenidos a este breve podcast sobre la primera entrevista de trabajo.",
-          "Después revisé lo que ya había hecho: organicé actividades en mi barrio, ayudé a una amiga con su pequeño negocio y terminé un curso de diseño.",
-          "En la entrevista voy a explicar que puedo atender al público, trabajar con responsabilidad y aprender programas nuevos.",
-          "Antes de salir, practiqué una respuesta de un minuto para no perderme en detalles."
+          "responsabilidad",
+          "Bienvenidas",
+          "bienvenidos",
+          "detalles"
         ]
       }
     ]
@@ -6390,92 +6390,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Escucha · Moverse por la ciudad sin quedar fuera», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“En este reportaje sonoro, analizo un plan urbano que está cambiando la movilidad de mi _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "En este reportaje sonoro, analizo un plan urbano que está cambiando la movilidad de mi ciudad."
+                "text": "ciudad"
               },
               {
                 "id": "o2",
-                "text": "Sin embargo, algunos comerciantes temen que la movilidad sea más difícil para quienes llegan desde lejos."
+                "text": "infraestructura"
               },
               {
                 "id": "o3",
-                "text": "Si se diseñara el proyecto solo para turistas, aumentaría la desigualdad entre barrios."
+                "text": "accesibilidad"
               },
               {
                 "id": "o4",
-                "text": "La prueba debería incluir encuestas a peatones, comerciantes y conductores para que el resultado no dependa únicamente de una cifra."
+                "text": "comerciantes"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «En este reportaje sonoro, analizo un plan urbano que está cambiando la…», ¿qué sucede a continuación en «Escucha · Moverse por la ciudad sin quedar fuera»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Sin _____, algunos comerciantes temen que la movilidad sea más difícil para quienes llegan desde lejos.”",
             "options": [
               {
                 "id": "o1",
-                "text": "En este reportaje sonoro, analizo un plan urbano que está cambiando la movilidad de mi ciudad."
+                "text": "infraestructura"
               },
               {
                 "id": "o2",
-                "text": "Sin embargo, algunos comerciantes temen que la movilidad sea más difícil para quienes llegan desde lejos."
+                "text": "embargo"
               },
               {
                 "id": "o3",
-                "text": "Si se diseñara el proyecto solo para turistas, aumentaría la desigualdad entre barrios."
+                "text": "accesibilidad"
               },
               {
                 "id": "o4",
-                "text": "La prueba debería incluir encuestas a peatones, comerciantes y conductores para que el resultado no dependa únicamente de una cifra."
+                "text": "comerciantes"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Moverse por la ciudad sin quedar fuera»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“Si se diseñara el proyecto solo para turistas, _____ la desigualdad entre barrios.”",
             "options": [
               {
                 "id": "o1",
-                "text": "En este reportaje sonoro, analizo un plan urbano que está cambiando la movilidad de mi ciudad."
+                "text": "infraestructura"
               },
               {
                 "id": "o2",
-                "text": "Sin embargo, algunos comerciantes temen que la movilidad sea más difícil para quienes llegan desde lejos."
+                "text": "analizo"
               },
               {
                 "id": "o3",
-                "text": "Además, las decisiones deberían explicarse en un lenguaje claro antes de que se vuelvan permanentes."
+                "text": "aumentaría"
               },
               {
                 "id": "o4",
-                "text": "Si se diseñara el proyecto solo para turistas, aumentaría la desigualdad entre barrios."
+                "text": "ampliar"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Moverse por la ciudad sin quedar fuera» después de «Además, las decisiones deberían explicarse en un lenguaje claro antes…»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“La prueba debería incluir encuestas a peatones, _____ y conductores para que el resultado no dependa únicamente de una cifra.”",
             "options": [
               {
                 "id": "o1",
-                "text": "En este reportaje sonoro, analizo un plan urbano que está cambiando la movilidad de mi ciudad."
+                "text": "reportaje"
               },
               {
                 "id": "o2",
-                "text": "Sin embargo, algunos comerciantes temen que la movilidad sea más difícil para quienes llegan desde lejos."
+                "text": "cambiando"
               },
               {
                 "id": "o3",
-                "text": "Si se diseñara el proyecto solo para turistas, aumentaría la desigualdad entre barrios."
+                "text": "movilidad"
               },
               {
                 "id": "o4",
-                "text": "La prueba debería incluir encuestas a peatones, comerciantes y conductores para que el resultado no dependa únicamente de una cifra."
+                "text": "comerciantes"
               }
             ]
           }
@@ -6486,42 +6486,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Escucha · Moverse por la ciudad sin quedar fuera», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“En este reportaje sonoro, analizo un plan urbano que está cambiando la movilidad de mi _____.”",
         "options": [
-          "En este reportaje sonoro, analizo un plan urbano que está cambiando la movilidad de mi ciudad.",
-          "Sin embargo, algunos comerciantes temen que la movilidad sea más difícil para quienes llegan desde lejos.",
-          "Si se diseñara el proyecto solo para turistas, aumentaría la desigualdad entre barrios.",
-          "La prueba debería incluir encuestas a peatones, comerciantes y conductores para que el resultado no dependa únicamente de una cifra."
+          "ciudad",
+          "infraestructura",
+          "accesibilidad",
+          "comerciantes"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «En este reportaje sonoro, analizo un plan urbano que está cambiando la…», ¿qué sucede a continuación en «Escucha · Moverse por la ciudad sin quedar fuera»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Sin _____, algunos comerciantes temen que la movilidad sea más difícil para quienes llegan desde lejos.”",
         "options": [
-          "En este reportaje sonoro, analizo un plan urbano que está cambiando la movilidad de mi ciudad.",
-          "Sin embargo, algunos comerciantes temen que la movilidad sea más difícil para quienes llegan desde lejos.",
-          "Si se diseñara el proyecto solo para turistas, aumentaría la desigualdad entre barrios.",
-          "La prueba debería incluir encuestas a peatones, comerciantes y conductores para que el resultado no dependa únicamente de una cifra."
+          "infraestructura",
+          "embargo",
+          "accesibilidad",
+          "comerciantes"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Moverse por la ciudad sin quedar fuera»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“Si se diseñara el proyecto solo para turistas, _____ la desigualdad entre barrios.”",
         "options": [
-          "En este reportaje sonoro, analizo un plan urbano que está cambiando la movilidad de mi ciudad.",
-          "Sin embargo, algunos comerciantes temen que la movilidad sea más difícil para quienes llegan desde lejos.",
-          "Además, las decisiones deberían explicarse en un lenguaje claro antes de que se vuelvan permanentes.",
-          "Si se diseñara el proyecto solo para turistas, aumentaría la desigualdad entre barrios."
+          "infraestructura",
+          "analizo",
+          "aumentaría",
+          "ampliar"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Moverse por la ciudad sin quedar fuera» después de «Además, las decisiones deberían explicarse en un lenguaje claro antes…»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“La prueba debería incluir encuestas a peatones, _____ y conductores para que el resultado no dependa únicamente de una cifra.”",
         "options": [
-          "En este reportaje sonoro, analizo un plan urbano que está cambiando la movilidad de mi ciudad.",
-          "Sin embargo, algunos comerciantes temen que la movilidad sea más difícil para quienes llegan desde lejos.",
-          "Si se diseñara el proyecto solo para turistas, aumentaría la desigualdad entre barrios.",
-          "La prueba debería incluir encuestas a peatones, comerciantes y conductores para que el resultado no dependa únicamente de una cifra."
+          "reportaje",
+          "cambiando",
+          "movilidad",
+          "comerciantes"
         ]
       }
     ]
@@ -6565,92 +6565,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Escucha · De empleado a emprendedor digital: una historia de reinvención», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“Cuando Lucía dejó un empleo estable para crear su propia tienda digital, no estaba buscando una historia de éxito _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Cuando Lucía dejó un empleo estable para crear su propia tienda digital, no estaba buscando una historia de éxito rápido."
+                "text": "rápido"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "incertidumbre"
               },
               {
                 "id": "o3",
-                "text": "Aunque «reinventarse» parece una decisión individual, conviene considerar «incertidumbre» y «proyecto»."
+                "text": "interpretarlo"
               },
               {
                 "id": "o4",
-                "text": "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+                "text": "reinventarse"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «Cuando Lucía dejó un empleo estable para crear su propia tienda…», ¿qué sucede a continuación en «Escucha · De empleado a emprendedor digital: una historia de reinvención»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Estos _____ ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Cuando Lucía dejó un empleo estable para crear su propia tienda digital, no estaba buscando una historia de éxito rápido."
+                "text": "incertidumbre"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "conceptos"
               },
               {
                 "id": "o3",
-                "text": "Aunque «reinventarse» parece una decisión individual, conviene considerar «incertidumbre» y «proyecto»."
+                "text": "interpretarlo"
               },
               {
                 "id": "o4",
-                "text": "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+                "text": "empleo"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · De empleado a emprendedor digital: una historia de reinvención»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“Aunque «reinventarse» parece una _____ individual, conviene considerar «incertidumbre» y «proyecto».”",
             "options": [
               {
                 "id": "o1",
-                "text": "Cuando Lucía dejó un empleo estable para crear su propia tienda digital, no estaba buscando una historia de éxito rápido."
+                "text": "incertidumbre"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "interpretarlo"
               },
               {
                 "id": "o3",
-                "text": "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones."
+                "text": "decisión"
               },
               {
                 "id": "o4",
-                "text": "Aunque «reinventarse» parece una decisión individual, conviene considerar «incertidumbre» y «proyecto»."
+                "text": "reinventarse"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · De empleado a emprendedor digital: una historia de reinvención» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Puede sostener una conclusión provisional, identificar una _____ razonable y explicar qué nueva información obligaría a revisarla.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Cuando Lucía dejó un empleo estable para crear su propia tienda digital, no estaba buscando una historia de éxito rápido."
+                "text": "incertidumbre"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "interpretarlo"
               },
               {
                 "id": "o3",
-                "text": "Aunque «reinventarse» parece una decisión individual, conviene considerar «incertidumbre» y «proyecto»."
+                "text": "reinventarse"
               },
               {
                 "id": "o4",
-                "text": "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+                "text": "objeción"
               }
             ]
           }
@@ -6661,42 +6661,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Escucha · De empleado a emprendedor digital: una historia de reinvención», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“Cuando Lucía dejó un empleo estable para crear su propia tienda digital, no estaba buscando una historia de éxito _____.”",
         "options": [
-          "Cuando Lucía dejó un empleo estable para crear su propia tienda digital, no estaba buscando una historia de éxito rápido.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "Aunque «reinventarse» parece una decisión individual, conviene considerar «incertidumbre» y «proyecto».",
-          "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+          "rápido",
+          "incertidumbre",
+          "interpretarlo",
+          "reinventarse"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «Cuando Lucía dejó un empleo estable para crear su propia tienda…», ¿qué sucede a continuación en «Escucha · De empleado a emprendedor digital: una historia de reinvención»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Estos _____ ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.”",
         "options": [
-          "Cuando Lucía dejó un empleo estable para crear su propia tienda digital, no estaba buscando una historia de éxito rápido.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "Aunque «reinventarse» parece una decisión individual, conviene considerar «incertidumbre» y «proyecto».",
-          "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+          "incertidumbre",
+          "conceptos",
+          "interpretarlo",
+          "empleo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · De empleado a emprendedor digital: una historia de reinvención»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“Aunque «reinventarse» parece una _____ individual, conviene considerar «incertidumbre» y «proyecto».”",
         "options": [
-          "Cuando Lucía dejó un empleo estable para crear su propia tienda digital, no estaba buscando una historia de éxito rápido.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones.",
-          "Aunque «reinventarse» parece una decisión individual, conviene considerar «incertidumbre» y «proyecto»."
+          "incertidumbre",
+          "interpretarlo",
+          "decisión",
+          "reinventarse"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · De empleado a emprendedor digital: una historia de reinvención» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Puede sostener una conclusión provisional, identificar una _____ razonable y explicar qué nueva información obligaría a revisarla.”",
         "options": [
-          "Cuando Lucía dejó un empleo estable para crear su propia tienda digital, no estaba buscando una historia de éxito rápido.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "Aunque «reinventarse» parece una decisión individual, conviene considerar «incertidumbre» y «proyecto».",
-          "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+          "incertidumbre",
+          "interpretarlo",
+          "reinventarse",
+          "objeción"
         ]
       }
     ]
@@ -6740,92 +6740,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Escucha · Dentro de una empresa de inteligencia artificial», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“Dentro de una empresa de inteligencia artificial, la promesa de lanzar antes que la competencia convive con conversaciones mucho menos visibles: qué datos se aceptan, qué errores son tolerables y quién responde cuando el _____ falla.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Dentro de una empresa de inteligencia artificial, la promesa de lanzar antes que la competencia convive con conversaciones mucho menos visibles: qué datos se aceptan, qué errores son tolerables y quién responde cuando el sistema falla."
+                "text": "sistema"
               },
               {
                 "id": "o2",
-                "text": "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones."
+                "text": "responsabilidad"
               },
               {
                 "id": "o3",
-                "text": "Desde esta perspectiva, interpretar innovación, competencia y responsabilidad desde dentro no consiste en repetir una conclusión."
+                "text": "conversaciones"
               },
               {
                 "id": "o4",
-                "text": "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+                "text": "interpretarlo"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «Dentro de una empresa de inteligencia artificial, la promesa de lanzar…», ¿qué sucede a continuación en «Escucha · Dentro de una empresa de inteligencia artificial»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“La lectura _____ evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Dentro de una empresa de inteligencia artificial, la promesa de lanzar antes que la competencia convive con conversaciones mucho menos visibles: qué datos se aceptan, qué errores son tolerables y quién responde cuando el sistema falla."
+                "text": "responsabilidad"
               },
               {
                 "id": "o2",
-                "text": "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones."
+                "text": "propone"
               },
               {
                 "id": "o3",
-                "text": "Desde esta perspectiva, interpretar innovación, competencia y responsabilidad desde dentro no consiste en repetir una conclusión."
+                "text": "conversaciones"
               },
               {
                 "id": "o4",
-                "text": "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+                "text": "interpretarlo"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Dentro de una empresa de inteligencia artificial»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“Desde esta perspectiva, interpretar innovación, _____ y responsabilidad desde dentro no consiste en repetir una conclusión.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Dentro de una empresa de inteligencia artificial, la promesa de lanzar antes que la competencia convive con conversaciones mucho menos visibles: qué datos se aceptan, qué errores son tolerables y quién responde cuando el sistema falla."
+                "text": "responsabilidad"
               },
               {
                 "id": "o2",
-                "text": "Desde esta perspectiva, interpretar innovación, competencia y responsabilidad desde dentro no consiste en repetir una conclusión."
+                "text": "conversaciones"
               },
               {
                 "id": "o3",
-                "text": "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones."
+                "text": "competencia"
               },
               {
                 "id": "o4",
-                "text": "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+                "text": "visibles"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Dentro de una empresa de inteligencia artificial» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Por eso, una escucha avanzada no se limita a localizar una _____ literal.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Dentro de una empresa de inteligencia artificial, la promesa de lanzar antes que la competencia convive con conversaciones mucho menos visibles: qué datos se aceptan, qué errores son tolerables y quién responde cuando el sistema falla."
+                "text": "responsabilidad"
               },
               {
                 "id": "o2",
-                "text": "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones."
+                "text": "conversaciones"
               },
               {
                 "id": "o3",
-                "text": "Desde esta perspectiva, interpretar innovación, competencia y responsabilidad desde dentro no consiste en repetir una conclusión."
+                "text": "interpretarlo"
               },
               {
                 "id": "o4",
-                "text": "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+                "text": "respuesta"
               }
             ]
           }
@@ -6836,42 +6836,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Escucha · Dentro de una empresa de inteligencia artificial», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“Dentro de una empresa de inteligencia artificial, la promesa de lanzar antes que la competencia convive con conversaciones mucho menos visibles: qué datos se aceptan, qué errores son tolerables y quién responde cuando el _____ falla.”",
         "options": [
-          "Dentro de una empresa de inteligencia artificial, la promesa de lanzar antes que la competencia convive con conversaciones mucho menos visibles: qué datos se aceptan, qué errores son tolerables y quién responde cuando el sistema falla.",
-          "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones.",
-          "Desde esta perspectiva, interpretar innovación, competencia y responsabilidad desde dentro no consiste en repetir una conclusión.",
-          "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+          "sistema",
+          "responsabilidad",
+          "conversaciones",
+          "interpretarlo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «Dentro de una empresa de inteligencia artificial, la promesa de lanzar…», ¿qué sucede a continuación en «Escucha · Dentro de una empresa de inteligencia artificial»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“La lectura _____ evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones.”",
         "options": [
-          "Dentro de una empresa de inteligencia artificial, la promesa de lanzar antes que la competencia convive con conversaciones mucho menos visibles: qué datos se aceptan, qué errores son tolerables y quién responde cuando el sistema falla.",
-          "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones.",
-          "Desde esta perspectiva, interpretar innovación, competencia y responsabilidad desde dentro no consiste en repetir una conclusión.",
-          "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+          "responsabilidad",
+          "propone",
+          "conversaciones",
+          "interpretarlo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Dentro de una empresa de inteligencia artificial»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“Desde esta perspectiva, interpretar innovación, _____ y responsabilidad desde dentro no consiste en repetir una conclusión.”",
         "options": [
-          "Dentro de una empresa de inteligencia artificial, la promesa de lanzar antes que la competencia convive con conversaciones mucho menos visibles: qué datos se aceptan, qué errores son tolerables y quién responde cuando el sistema falla.",
-          "Desde esta perspectiva, interpretar innovación, competencia y responsabilidad desde dentro no consiste en repetir una conclusión.",
-          "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones.",
-          "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+          "responsabilidad",
+          "conversaciones",
+          "competencia",
+          "visibles"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Dentro de una empresa de inteligencia artificial» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Por eso, una escucha avanzada no se limita a localizar una _____ literal.”",
         "options": [
-          "Dentro de una empresa de inteligencia artificial, la promesa de lanzar antes que la competencia convive con conversaciones mucho menos visibles: qué datos se aceptan, qué errores son tolerables y quién responde cuando el sistema falla.",
-          "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones.",
-          "Desde esta perspectiva, interpretar innovación, competencia y responsabilidad desde dentro no consiste en repetir una conclusión.",
-          "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+          "responsabilidad",
+          "conversaciones",
+          "interpretarlo",
+          "respuesta"
         ]
       }
     ]
@@ -6946,92 +6946,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Un mensaje de voz», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“Este es mi compañero _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Este es mi compañero Marco."
+                "text": "Marco"
               },
               {
                 "id": "o2",
-                "text": "Estudia español porque quiere viajar por América Latina."
+                "text": "compañero"
               },
               {
                 "id": "o3",
-                "text": "Marco habla italiano e inglés, y también entiende un poco de francés."
+                "text": "Santiago"
               },
               {
                 "id": "o4",
-                "text": "Es muy amable y le gusta ayudar cuando alguien tiene una pregunta."
+                "text": "italiano"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «Este es mi compañero Marco.», ¿qué sucede a continuación en «Un mensaje de voz»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Estudia _____ porque quiere viajar por América Latina.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Este es mi compañero Marco."
+                "text": "Este"
               },
               {
                 "id": "o2",
-                "text": "Estudia español porque quiere viajar por América Latina."
+                "text": "español"
               },
               {
                 "id": "o3",
-                "text": "Marco habla italiano e inglés, y también entiende un poco de francés."
+                "text": "años"
               },
               {
                 "id": "o4",
-                "text": "Es muy amable y le gusta ayudar cuando alguien tiene una pregunta."
+                "text": "vive"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Un mensaje de voz»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“Marco habla italiano e inglés, y también _____ un poco de francés.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Este es mi compañero Marco."
+                "text": "Marco"
               },
               {
                 "id": "o2",
-                "text": "Marco habla italiano e inglés, y también entiende un poco de francés."
+                "text": "Tiene"
               },
               {
                 "id": "o3",
-                "text": "Estudia español porque quiere viajar por América Latina."
+                "text": "entiende"
               },
               {
                 "id": "o4",
-                "text": "Es muy amable y le gusta ayudar cuando alguien tiene una pregunta."
+                "text": "ahora"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Un mensaje de voz» después de «Estudia español porque quiere viajar por América Latina.»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Es muy amable y le gusta _____ cuando alguien tiene una pregunta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Este es mi compañero Marco."
+                "text": "compañero"
               },
               {
                 "id": "o2",
-                "text": "Estudia español porque quiere viajar por América Latina."
+                "text": "por"
               },
               {
                 "id": "o3",
-                "text": "Marco habla italiano e inglés, y también entiende un poco de francés."
+                "text": "una"
               },
               {
                 "id": "o4",
-                "text": "Es muy amable y le gusta ayudar cuando alguien tiene una pregunta."
+                "text": "ayudar"
               }
             ]
           }
@@ -7042,42 +7042,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Un mensaje de voz», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“Este es mi compañero _____.”",
         "options": [
-          "Este es mi compañero Marco.",
-          "Estudia español porque quiere viajar por América Latina.",
-          "Marco habla italiano e inglés, y también entiende un poco de francés.",
-          "Es muy amable y le gusta ayudar cuando alguien tiene una pregunta."
+          "Marco",
+          "compañero",
+          "Santiago",
+          "italiano"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «Este es mi compañero Marco.», ¿qué sucede a continuación en «Un mensaje de voz»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Estudia _____ porque quiere viajar por América Latina.”",
         "options": [
-          "Este es mi compañero Marco.",
-          "Estudia español porque quiere viajar por América Latina.",
-          "Marco habla italiano e inglés, y también entiende un poco de francés.",
-          "Es muy amable y le gusta ayudar cuando alguien tiene una pregunta."
+          "Este",
+          "español",
+          "años",
+          "vive"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Un mensaje de voz»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“Marco habla italiano e inglés, y también _____ un poco de francés.”",
         "options": [
-          "Este es mi compañero Marco.",
-          "Marco habla italiano e inglés, y también entiende un poco de francés.",
-          "Estudia español porque quiere viajar por América Latina.",
-          "Es muy amable y le gusta ayudar cuando alguien tiene una pregunta."
+          "Marco",
+          "Tiene",
+          "entiende",
+          "ahora"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Un mensaje de voz» después de «Estudia español porque quiere viajar por América Latina.»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Es muy amable y le gusta _____ cuando alguien tiene una pregunta.”",
         "options": [
-          "Este es mi compañero Marco.",
-          "Estudia español porque quiere viajar por América Latina.",
-          "Marco habla italiano e inglés, y también entiende un poco de francés.",
-          "Es muy amable y le gusta ayudar cuando alguien tiene una pregunta."
+          "compañero",
+          "por",
+          "una",
+          "ayudar"
         ]
       }
     ]
@@ -10973,92 +10973,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Escucha · Rutinas y horarios», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“Normalmente entro a trabajar a las ocho, pero esta semana empiezo a las diez porque estoy haciendo un curso por las _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Normalmente entro a trabajar a las ocho, pero esta semana empiezo a las diez porque estoy haciendo un curso por las mañanas."
+                "text": "mañanas"
               },
               {
                 "id": "o2",
-                "text": "Mientras estoy en clase, una compañera revisa los mensajes del trabajo."
+                "text": "Normalmente"
               },
               {
                 "id": "o3",
-                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
+                "text": "organizarme"
               },
               {
                 "id": "o4",
-                "text": "Me gusta tener un plan claro antes de seguir."
+                "text": "información"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «Normalmente entro a trabajar a las ocho, pero esta semana empiezo a…», ¿qué sucede a continuación en «Escucha · Rutinas y horarios»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Mientras estoy en clase, una _____ revisa los mensajes del trabajo.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Normalmente entro a trabajar a las ocho, pero esta semana empiezo a las diez porque estoy haciendo un curso por las mañanas."
+                "text": "semana"
               },
               {
                 "id": "o2",
-                "text": "Mientras estoy en clase, una compañera revisa los mensajes del trabajo."
+                "text": "compañera"
               },
               {
                 "id": "o3",
-                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
+                "text": "agenda"
               },
               {
                 "id": "o4",
-                "text": "Me gusta tener un plan claro antes de seguir."
+                "text": "revisa"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Rutinas y horarios»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“Al final, repaso la información y preparo el _____ paso con calma.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Normalmente entro a trabajar a las ocho, pero esta semana empiezo a las diez porque estoy haciendo un curso por las mañanas."
+                "text": "semana"
               },
               {
                 "id": "o2",
-                "text": "Mientras estoy en clase, una compañera revisa los mensajes del trabajo."
+                "text": "agenda"
               },
               {
                 "id": "o3",
-                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
+                "text": "siguiente"
               },
               {
                 "id": "o4",
-                "text": "Me gusta tener un plan claro antes de seguir."
+                "text": "revisa"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Rutinas y horarios» después de «Al final, repaso la información y preparo el siguiente paso con calma.»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Me gusta tener un plan claro antes de _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Normalmente entro a trabajar a las ocho, pero esta semana empiezo a las diez porque estoy haciendo un curso por las mañanas."
+                "text": "Normalmente"
               },
               {
                 "id": "o2",
-                "text": "Mientras estoy en clase, una compañera revisa los mensajes del trabajo."
+                "text": "organizarme"
               },
               {
                 "id": "o3",
-                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
+                "text": "información"
               },
               {
                 "id": "o4",
-                "text": "Me gusta tener un plan claro antes de seguir."
+                "text": "seguir"
               }
             ]
           }
@@ -11069,42 +11069,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Escucha · Rutinas y horarios», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“Normalmente entro a trabajar a las ocho, pero esta semana empiezo a las diez porque estoy haciendo un curso por las _____.”",
         "options": [
-          "Normalmente entro a trabajar a las ocho, pero esta semana empiezo a las diez porque estoy haciendo un curso por las mañanas.",
-          "Mientras estoy en clase, una compañera revisa los mensajes del trabajo.",
-          "Al final, repaso la información y preparo el siguiente paso con calma.",
-          "Me gusta tener un plan claro antes de seguir."
+          "mañanas",
+          "Normalmente",
+          "organizarme",
+          "información"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «Normalmente entro a trabajar a las ocho, pero esta semana empiezo a…», ¿qué sucede a continuación en «Escucha · Rutinas y horarios»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Mientras estoy en clase, una _____ revisa los mensajes del trabajo.”",
         "options": [
-          "Normalmente entro a trabajar a las ocho, pero esta semana empiezo a las diez porque estoy haciendo un curso por las mañanas.",
-          "Mientras estoy en clase, una compañera revisa los mensajes del trabajo.",
-          "Al final, repaso la información y preparo el siguiente paso con calma.",
-          "Me gusta tener un plan claro antes de seguir."
+          "semana",
+          "compañera",
+          "agenda",
+          "revisa"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Rutinas y horarios»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“Al final, repaso la información y preparo el _____ paso con calma.”",
         "options": [
-          "Normalmente entro a trabajar a las ocho, pero esta semana empiezo a las diez porque estoy haciendo un curso por las mañanas.",
-          "Mientras estoy en clase, una compañera revisa los mensajes del trabajo.",
-          "Al final, repaso la información y preparo el siguiente paso con calma.",
-          "Me gusta tener un plan claro antes de seguir."
+          "semana",
+          "agenda",
+          "siguiente",
+          "revisa"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Rutinas y horarios» después de «Al final, repaso la información y preparo el siguiente paso con calma.»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Me gusta tener un plan claro antes de _____.”",
         "options": [
-          "Normalmente entro a trabajar a las ocho, pero esta semana empiezo a las diez porque estoy haciendo un curso por las mañanas.",
-          "Mientras estoy en clase, una compañera revisa los mensajes del trabajo.",
-          "Al final, repaso la información y preparo el siguiente paso con calma.",
-          "Me gusta tener un plan claro antes de seguir."
+          "Normalmente",
+          "organizarme",
+          "información",
+          "seguir"
         ]
       }
     ]
@@ -11148,92 +11148,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Escucha · Veinticuatro horas lejos de casa», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“Esta es una crónica breve sobre un viaje que no salió como estaba _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Esta es una crónica breve sobre un viaje que no salió como estaba previsto."
+                "text": "previsto"
               },
               {
                 "id": "o2",
-                "text": "En lugar de discutir con la primera persona que vi, busqué el mostrador de información y pregunté con calma si habría una alternativa."
+                "text": "breve"
               },
               {
                 "id": "o3",
-                "text": "También guardé el recibo de la comida porque mi seguro de viaje cubría algunos gastos."
+                "text": "viaje"
               },
               {
                 "id": "o4",
-                "text": "También anoté el número de la incidencia para poder seguir el caso después del viaje."
+                "text": "salió"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «Esta es una crónica breve sobre un viaje que no salió como estaba…», ¿qué sucede a continuación en «Escucha · Veinticuatro horas lejos de casa»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“En lugar de discutir con la _____ persona que vi, busqué el mostrador de información y pregunté con calma si habría una alternativa.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Esta es una crónica breve sobre un viaje que no salió como estaba previsto."
+                "text": "información"
               },
               {
                 "id": "o2",
-                "text": "En lugar de discutir con la primera persona que vi, busqué el mostrador de información y pregunté con calma si habría una alternativa."
+                "text": "primera"
               },
               {
                 "id": "o3",
-                "text": "También guardé el recibo de la comida porque mi seguro de viaje cubría algunos gastos."
+                "text": "alternativa"
               },
               {
                 "id": "o4",
-                "text": "También anoté el número de la incidencia para poder seguir el caso después del viaje."
+                "text": "cancelación"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Veinticuatro horas lejos de casa»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“También guardé el recibo de la comida porque mi _____ de viaje cubría algunos gastos.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Esta es una crónica breve sobre un viaje que no salió como estaba previsto."
+                "text": "información"
               },
               {
                 "id": "o2",
-                "text": "En lugar de discutir con la primera persona que vi, busqué el mostrador de información y pregunté con calma si habría una alternativa."
+                "text": "alternativa"
               },
               {
                 "id": "o3",
-                "text": "También guardé el recibo de la comida porque mi seguro de viaje cubría algunos gastos."
+                "text": "seguro"
               },
               {
                 "id": "o4",
-                "text": "También anoté el número de la incidencia para poder seguir el caso después del viaje."
+                "text": "cancelación"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Veinticuatro horas lejos de casa» después de «También guardé el recibo de la comida porque mi seguro de viaje cubría…»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“También anoté el número de la _____ para poder seguir el caso después del viaje.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Esta es una crónica breve sobre un viaje que no salió como estaba previsto."
+                "text": "crónica"
               },
               {
                 "id": "o2",
-                "text": "En lugar de discutir con la primera persona que vi, busqué el mostrador de información y pregunté con calma si habría una alternativa."
+                "text": "retraso"
               },
               {
                 "id": "o3",
-                "text": "También guardé el recibo de la comida porque mi seguro de viaje cubría algunos gastos."
+                "text": "primera"
               },
               {
                 "id": "o4",
-                "text": "También anoté el número de la incidencia para poder seguir el caso después del viaje."
+                "text": "incidencia"
               }
             ]
           }
@@ -11244,42 +11244,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Escucha · Veinticuatro horas lejos de casa», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“Esta es una crónica breve sobre un viaje que no salió como estaba _____.”",
         "options": [
-          "Esta es una crónica breve sobre un viaje que no salió como estaba previsto.",
-          "En lugar de discutir con la primera persona que vi, busqué el mostrador de información y pregunté con calma si habría una alternativa.",
-          "También guardé el recibo de la comida porque mi seguro de viaje cubría algunos gastos.",
-          "También anoté el número de la incidencia para poder seguir el caso después del viaje."
+          "previsto",
+          "breve",
+          "viaje",
+          "salió"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «Esta es una crónica breve sobre un viaje que no salió como estaba…», ¿qué sucede a continuación en «Escucha · Veinticuatro horas lejos de casa»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“En lugar de discutir con la _____ persona que vi, busqué el mostrador de información y pregunté con calma si habría una alternativa.”",
         "options": [
-          "Esta es una crónica breve sobre un viaje que no salió como estaba previsto.",
-          "En lugar de discutir con la primera persona que vi, busqué el mostrador de información y pregunté con calma si habría una alternativa.",
-          "También guardé el recibo de la comida porque mi seguro de viaje cubría algunos gastos.",
-          "También anoté el número de la incidencia para poder seguir el caso después del viaje."
+          "información",
+          "primera",
+          "alternativa",
+          "cancelación"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Veinticuatro horas lejos de casa»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“También guardé el recibo de la comida porque mi _____ de viaje cubría algunos gastos.”",
         "options": [
-          "Esta es una crónica breve sobre un viaje que no salió como estaba previsto.",
-          "En lugar de discutir con la primera persona que vi, busqué el mostrador de información y pregunté con calma si habría una alternativa.",
-          "También guardé el recibo de la comida porque mi seguro de viaje cubría algunos gastos.",
-          "También anoté el número de la incidencia para poder seguir el caso después del viaje."
+          "información",
+          "alternativa",
+          "seguro",
+          "cancelación"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Veinticuatro horas lejos de casa» después de «También guardé el recibo de la comida porque mi seguro de viaje cubría…»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“También anoté el número de la _____ para poder seguir el caso después del viaje.”",
         "options": [
-          "Esta es una crónica breve sobre un viaje que no salió como estaba previsto.",
-          "En lugar de discutir con la primera persona que vi, busqué el mostrador de información y pregunté con calma si habría una alternativa.",
-          "También guardé el recibo de la comida porque mi seguro de viaje cubría algunos gastos.",
-          "También anoté el número de la incidencia para poder seguir el caso después del viaje."
+          "crónica",
+          "retraso",
+          "primera",
+          "incidencia"
         ]
       }
     ]
@@ -11323,92 +11323,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Escucha · Prepararse para empleos que todavía están cambiando», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“Este comentario laboral parte de un cambio tecnológico que afectará el trabajo de muchas _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Este comentario laboral parte de un cambio tecnológico que afectará el trabajo de muchas personas."
+                "text": "personas"
               },
               {
                 "id": "o2",
-                "text": "Él no cree que la tecnología sea buena o mala por sí sola: depende de cómo se organice la reconversión."
+                "text": "automatización"
               },
               {
                 "id": "o3",
-                "text": "Es probable que el teletrabajo y las herramientas digitales cambien la productividad, pero también pueden aumentar la incertidumbre si se usan para exigir disponibilidad constante."
+                "text": "disponibilidad"
               },
               {
                 "id": "o4",
-                "text": "La clave será garantizar que nadie quede fuera de ese aprendizaje por falta de tiempo o dinero."
+                "text": "mantenimiento"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «Este comentario laboral parte de un cambio tecnológico que afectará el…», ¿qué sucede a continuación en «Escucha · Prepararse para empleos que todavía están cambiando»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Él no cree que la tecnología sea buena o mala por sí sola: _____ de cómo se organice la reconversión.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Este comentario laboral parte de un cambio tecnológico que afectará el trabajo de muchas personas."
+                "text": "automatización"
               },
               {
                 "id": "o2",
-                "text": "Él no cree que la tecnología sea buena o mala por sí sola: depende de cómo se organice la reconversión."
+                "text": "depende"
               },
               {
                 "id": "o3",
-                "text": "Es probable que el teletrabajo y las herramientas digitales cambien la productividad, pero también pueden aumentar la incertidumbre si se usan para exigir disponibilidad constante."
+                "text": "disponibilidad"
               },
               {
                 "id": "o4",
-                "text": "La clave será garantizar que nadie quede fuera de ese aprendizaje por falta de tiempo o dinero."
+                "text": "mantenimiento"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Prepararse para empleos que todavía están cambiando»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“Es probable que el teletrabajo y las herramientas _____ cambien la productividad, pero también pueden aumentar la incertidumbre si se usan para exigir disponibilidad constante.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Este comentario laboral parte de un cambio tecnológico que afectará el trabajo de muchas personas."
+                "text": "automatización"
               },
               {
                 "id": "o2",
-                "text": "Él no cree que la tecnología sea buena o mala por sí sola: depende de cómo se organice la reconversión."
+                "text": "disponibilidad"
               },
               {
                 "id": "o3",
-                "text": "Además, los sindicatos y los centros de formación deberían participar antes de que el cambio esté decidido por completo."
+                "text": "digitales"
               },
               {
                 "id": "o4",
-                "text": "Es probable que el teletrabajo y las herramientas digitales cambien la productividad, pero también pueden aumentar la incertidumbre si se usan para exigir disponibilidad constante."
+                "text": "mantenimiento"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Prepararse para empleos que todavía están cambiando» después de «Además, los sindicatos y los centros de formación deberían participar…»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“La clave será garantizar que nadie quede fuera de ese _____ por falta de tiempo o dinero.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Este comentario laboral parte de un cambio tecnológico que afectará el trabajo de muchas personas."
+                "text": "afectará"
               },
               {
                 "id": "o2",
-                "text": "Él no cree que la tecnología sea buena o mala por sí sola: depende de cómo se organice la reconversión."
+                "text": "personas"
               },
               {
                 "id": "o3",
-                "text": "Es probable que el teletrabajo y las herramientas digitales cambien la productividad, pero también pueden aumentar la incertidumbre si se usan para exigir disponibilidad constante."
+                "text": "automatización"
               },
               {
                 "id": "o4",
-                "text": "La clave será garantizar que nadie quede fuera de ese aprendizaje por falta de tiempo o dinero."
+                "text": "aprendizaje"
               }
             ]
           }
@@ -11419,42 +11419,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Escucha · Prepararse para empleos que todavía están cambiando», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“Este comentario laboral parte de un cambio tecnológico que afectará el trabajo de muchas _____.”",
         "options": [
-          "Este comentario laboral parte de un cambio tecnológico que afectará el trabajo de muchas personas.",
-          "Él no cree que la tecnología sea buena o mala por sí sola: depende de cómo se organice la reconversión.",
-          "Es probable que el teletrabajo y las herramientas digitales cambien la productividad, pero también pueden aumentar la incertidumbre si se usan para exigir disponibilidad constante.",
-          "La clave será garantizar que nadie quede fuera de ese aprendizaje por falta de tiempo o dinero."
+          "personas",
+          "automatización",
+          "disponibilidad",
+          "mantenimiento"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «Este comentario laboral parte de un cambio tecnológico que afectará el…», ¿qué sucede a continuación en «Escucha · Prepararse para empleos que todavía están cambiando»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Él no cree que la tecnología sea buena o mala por sí sola: _____ de cómo se organice la reconversión.”",
         "options": [
-          "Este comentario laboral parte de un cambio tecnológico que afectará el trabajo de muchas personas.",
-          "Él no cree que la tecnología sea buena o mala por sí sola: depende de cómo se organice la reconversión.",
-          "Es probable que el teletrabajo y las herramientas digitales cambien la productividad, pero también pueden aumentar la incertidumbre si se usan para exigir disponibilidad constante.",
-          "La clave será garantizar que nadie quede fuera de ese aprendizaje por falta de tiempo o dinero."
+          "automatización",
+          "depende",
+          "disponibilidad",
+          "mantenimiento"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Prepararse para empleos que todavía están cambiando»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“Es probable que el teletrabajo y las herramientas _____ cambien la productividad, pero también pueden aumentar la incertidumbre si se usan para exigir disponibilidad constante.”",
         "options": [
-          "Este comentario laboral parte de un cambio tecnológico que afectará el trabajo de muchas personas.",
-          "Él no cree que la tecnología sea buena o mala por sí sola: depende de cómo se organice la reconversión.",
-          "Además, los sindicatos y los centros de formación deberían participar antes de que el cambio esté decidido por completo.",
-          "Es probable que el teletrabajo y las herramientas digitales cambien la productividad, pero también pueden aumentar la incertidumbre si se usan para exigir disponibilidad constante."
+          "automatización",
+          "disponibilidad",
+          "digitales",
+          "mantenimiento"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Prepararse para empleos que todavía están cambiando» después de «Además, los sindicatos y los centros de formación deberían participar…»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“La clave será garantizar que nadie quede fuera de ese _____ por falta de tiempo o dinero.”",
         "options": [
-          "Este comentario laboral parte de un cambio tecnológico que afectará el trabajo de muchas personas.",
-          "Él no cree que la tecnología sea buena o mala por sí sola: depende de cómo se organice la reconversión.",
-          "Es probable que el teletrabajo y las herramientas digitales cambien la productividad, pero también pueden aumentar la incertidumbre si se usan para exigir disponibilidad constante.",
-          "La clave será garantizar que nadie quede fuera de ese aprendizaje por falta de tiempo o dinero."
+          "afectará",
+          "personas",
+          "automatización",
+          "aprendizaje"
         ]
       }
     ]
@@ -11498,92 +11498,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Escucha · El día que Internet desapareció durante 24 horas», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“A las ocho de la mañana, una ciudad entera descubrió que Internet había _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "A las ocho de la mañana, una ciudad entera descubrió que Internet había desaparecido."
+                "text": "desaparecido"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "descubrió"
               },
               {
                 "id": "o3",
-                "text": "Aunque «conexión» parece una decisión individual, conviene considerar «colapso» y «infraestructura»."
+                "text": "virtuales"
               },
               {
                 "id": "o4",
-                "text": "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+                "text": "comodidad"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «A las ocho de la mañana, una ciudad entera descubrió que Internet…», ¿qué sucede a continuación en «Escucha · El día que Internet desapareció durante 24 horas»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Estos _____ ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.”",
             "options": [
               {
                 "id": "o1",
-                "text": "A las ocho de la mañana, una ciudad entera descubrió que Internet había desaparecido."
+                "text": "infraestructura"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "conceptos"
               },
               {
                 "id": "o3",
-                "text": "Aunque «conexión» parece una decisión individual, conviene considerar «colapso» y «infraestructura»."
+                "text": "interpretarlo"
               },
               {
                 "id": "o4",
-                "text": "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+                "text": "mañana"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · El día que Internet desapareció durante 24 horas»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“Aunque «conexión» parece una _____ individual, conviene considerar «colapso» y «infraestructura».”",
             "options": [
               {
                 "id": "o1",
-                "text": "A las ocho de la mañana, una ciudad entera descubrió que Internet había desaparecido."
+                "text": "infraestructura"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "interpretarlo"
               },
               {
                 "id": "o3",
-                "text": "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones."
+                "text": "decisión"
               },
               {
                 "id": "o4",
-                "text": "Aunque «conexión» parece una decisión individual, conviene considerar «colapso» y «infraestructura»."
+                "text": "desaparecido"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · El día que Internet desapareció durante 24 horas» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Puede sostener una conclusión provisional, identificar una _____ razonable y explicar qué nueva información obligaría a revisarla.”",
             "options": [
               {
                 "id": "o1",
-                "text": "A las ocho de la mañana, una ciudad entera descubrió que Internet había desaparecido."
+                "text": "infraestructura"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "interpretarlo"
               },
               {
                 "id": "o3",
-                "text": "Aunque «conexión» parece una decisión individual, conviene considerar «colapso» y «infraestructura»."
+                "text": "desaparecido"
               },
               {
                 "id": "o4",
-                "text": "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+                "text": "objeción"
               }
             ]
           }
@@ -11594,42 +11594,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Escucha · El día que Internet desapareció durante 24 horas», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“A las ocho de la mañana, una ciudad entera descubrió que Internet había _____.”",
         "options": [
-          "A las ocho de la mañana, una ciudad entera descubrió que Internet había desaparecido.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "Aunque «conexión» parece una decisión individual, conviene considerar «colapso» y «infraestructura».",
-          "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+          "desaparecido",
+          "descubrió",
+          "virtuales",
+          "comodidad"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «A las ocho de la mañana, una ciudad entera descubrió que Internet…», ¿qué sucede a continuación en «Escucha · El día que Internet desapareció durante 24 horas»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Estos _____ ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.”",
         "options": [
-          "A las ocho de la mañana, una ciudad entera descubrió que Internet había desaparecido.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "Aunque «conexión» parece una decisión individual, conviene considerar «colapso» y «infraestructura».",
-          "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+          "infraestructura",
+          "conceptos",
+          "interpretarlo",
+          "mañana"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · El día que Internet desapareció durante 24 horas»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“Aunque «conexión» parece una _____ individual, conviene considerar «colapso» y «infraestructura».”",
         "options": [
-          "A las ocho de la mañana, una ciudad entera descubrió que Internet había desaparecido.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones.",
-          "Aunque «conexión» parece una decisión individual, conviene considerar «colapso» y «infraestructura»."
+          "infraestructura",
+          "interpretarlo",
+          "decisión",
+          "desaparecido"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · El día que Internet desapareció durante 24 horas» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Puede sostener una conclusión provisional, identificar una _____ razonable y explicar qué nueva información obligaría a revisarla.”",
         "options": [
-          "A las ocho de la mañana, una ciudad entera descubrió que Internet había desaparecido.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "Aunque «conexión» parece una decisión individual, conviene considerar «colapso» y «infraestructura».",
-          "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+          "infraestructura",
+          "interpretarlo",
+          "desaparecido",
+          "objeción"
         ]
       }
     ]
@@ -11673,92 +11673,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Escucha · Un corresponsal de guerra cuenta lo que nunca salió en televisión», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“Un corresponsal de guerra aprende pronto que la cámara no _____ todo.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Un corresponsal de guerra aprende pronto que la cámara no registra todo."
+                "text": "registra"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "responsabilidad"
               },
               {
                 "id": "o3",
-                "text": "Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos."
+                "text": "interpretarlo"
               },
               {
                 "id": "o4",
-                "text": "Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación."
+                "text": "presuposición"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «Un corresponsal de guerra aprende pronto que la cámara no registra todo.», ¿qué sucede a continuación en «Escucha · Un corresponsal de guerra cuenta lo que nunca salió en televisión»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Estos _____ ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Un corresponsal de guerra aprende pronto que la cámara no registra todo."
+                "text": "responsabilidad"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "conceptos"
               },
               {
                 "id": "o3",
-                "text": "Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos."
+                "text": "interpretarlo"
               },
               {
                 "id": "o4",
-                "text": "Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación."
+                "text": "presuposición"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Un corresponsal de guerra cuenta lo que nunca salió en televisión»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“Exige argumentar con precisión, _____ límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Un corresponsal de guerra aprende pronto que la cámara no registra todo."
+                "text": "responsabilidad"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "interpretarlo"
               },
               {
                 "id": "o3",
-                "text": "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones."
+                "text": "reconocer"
               },
               {
                 "id": "o4",
-                "text": "Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos."
+                "text": "presuposición"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Un corresponsal de guerra cuenta lo que nunca salió en televisión» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Debe reconocer qué presuposición sostiene el argumento, qué _____ queda descartada y qué grado de certeza expresa cada formulación.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Un corresponsal de guerra aprende pronto que la cámara no registra todo."
+                "text": "responsabilidad"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "registra"
               },
               {
                 "id": "o3",
-                "text": "Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos."
+                "text": "historia"
               },
               {
                 "id": "o4",
-                "text": "Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación."
+                "text": "alternativa"
               }
             ]
           }
@@ -11769,42 +11769,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Escucha · Un corresponsal de guerra cuenta lo que nunca salió en televisión», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“Un corresponsal de guerra aprende pronto que la cámara no _____ todo.”",
         "options": [
-          "Un corresponsal de guerra aprende pronto que la cámara no registra todo.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos.",
-          "Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación."
+          "registra",
+          "responsabilidad",
+          "interpretarlo",
+          "presuposición"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «Un corresponsal de guerra aprende pronto que la cámara no registra todo.», ¿qué sucede a continuación en «Escucha · Un corresponsal de guerra cuenta lo que nunca salió en televisión»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Estos _____ ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.”",
         "options": [
-          "Un corresponsal de guerra aprende pronto que la cámara no registra todo.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos.",
-          "Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación."
+          "responsabilidad",
+          "conceptos",
+          "interpretarlo",
+          "presuposición"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Un corresponsal de guerra cuenta lo que nunca salió en televisión»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“Exige argumentar con precisión, _____ límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos.”",
         "options": [
-          "Un corresponsal de guerra aprende pronto que la cámara no registra todo.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones.",
-          "Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos."
+          "responsabilidad",
+          "interpretarlo",
+          "reconocer",
+          "presuposición"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Un corresponsal de guerra cuenta lo que nunca salió en televisión» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Debe reconocer qué presuposición sostiene el argumento, qué _____ queda descartada y qué grado de certeza expresa cada formulación.”",
         "options": [
-          "Un corresponsal de guerra aprende pronto que la cámara no registra todo.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos.",
-          "Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación."
+          "responsabilidad",
+          "registra",
+          "historia",
+          "alternativa"
         ]
       }
     ]
@@ -11881,92 +11881,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Esta es mi hermana», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“Quiero hablar de mi mejor amigo, _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Quiero hablar de mi mejor amigo, Kevin."
+                "text": "Kevin"
               },
               {
                 "id": "o2",
-                "text": "Tiene dieciocho años, es divertido y muy tranquilo."
+                "text": "dieciocho"
               },
               {
                 "id": "o3",
-                "text": "A Kevin le gusta jugar al fútbol, ver películas y cocinar pasta los domingos."
+                "text": "divertido"
               },
               {
                 "id": "o4",
-                "text": "Los sábados solemos ir al parque o tomar un jugo después de clase."
+                "text": "tranquilo"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «Quiero hablar de mi mejor amigo, Kevin.», ¿qué sucede a continuación en «Esta es mi hermana»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Tiene _____ años, es divertido y muy tranquilo.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Quiero hablar de mi mejor amigo, Kevin."
+                "text": "Quiero"
               },
               {
                 "id": "o2",
-                "text": "Tiene dieciocho años, es divertido y muy tranquilo."
+                "text": "dieciocho"
               },
               {
                 "id": "o3",
-                "text": "A Kevin le gusta jugar al fútbol, ver películas y cocinar pasta los domingos."
+                "text": "hablar"
               },
               {
                 "id": "o4",
-                "text": "Los sábados solemos ir al parque o tomar un jugo después de clase."
+                "text": "barrio"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Esta es mi hermana»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“A Kevin le gusta jugar al fútbol, ver películas y _____ pasta los domingos.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Quiero hablar de mi mejor amigo, Kevin."
+                "text": "años"
               },
               {
                 "id": "o2",
-                "text": "Tiene dieciocho años, es divertido y muy tranquilo."
+                "text": "jugo"
               },
               {
                 "id": "o3",
-                "text": "A Kevin le gusta jugar al fútbol, ver películas y cocinar pasta los domingos."
+                "text": "cocinar"
               },
               {
                 "id": "o4",
-                "text": "Los sábados solemos ir al parque o tomar un jugo después de clase."
+                "text": "mejor"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Esta es mi hermana» después de «A Kevin le gusta jugar al fútbol, ver películas y cocinar pasta los…»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“_____ sábados solemos ir al parque o tomar un jugo después de clase.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Quiero hablar de mi mejor amigo, Kevin."
+                "text": "dieciocho"
               },
               {
                 "id": "o2",
-                "text": "Tiene dieciocho años, es divertido y muy tranquilo."
+                "text": "divertido"
               },
               {
                 "id": "o3",
-                "text": "A Kevin le gusta jugar al fútbol, ver películas y cocinar pasta los domingos."
+                "text": "tranquilo"
               },
               {
                 "id": "o4",
-                "text": "Los sábados solemos ir al parque o tomar un jugo después de clase."
+                "text": "Los"
               }
             ]
           }
@@ -11977,42 +11977,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Esta es mi hermana», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“Quiero hablar de mi mejor amigo, _____.”",
         "options": [
-          "Quiero hablar de mi mejor amigo, Kevin.",
-          "Tiene dieciocho años, es divertido y muy tranquilo.",
-          "A Kevin le gusta jugar al fútbol, ver películas y cocinar pasta los domingos.",
-          "Los sábados solemos ir al parque o tomar un jugo después de clase."
+          "Kevin",
+          "dieciocho",
+          "divertido",
+          "tranquilo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «Quiero hablar de mi mejor amigo, Kevin.», ¿qué sucede a continuación en «Esta es mi hermana»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Tiene _____ años, es divertido y muy tranquilo.”",
         "options": [
-          "Quiero hablar de mi mejor amigo, Kevin.",
-          "Tiene dieciocho años, es divertido y muy tranquilo.",
-          "A Kevin le gusta jugar al fútbol, ver películas y cocinar pasta los domingos.",
-          "Los sábados solemos ir al parque o tomar un jugo después de clase."
+          "Quiero",
+          "dieciocho",
+          "hablar",
+          "barrio"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Esta es mi hermana»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“A Kevin le gusta jugar al fútbol, ver películas y _____ pasta los domingos.”",
         "options": [
-          "Quiero hablar de mi mejor amigo, Kevin.",
-          "Tiene dieciocho años, es divertido y muy tranquilo.",
-          "A Kevin le gusta jugar al fútbol, ver películas y cocinar pasta los domingos.",
-          "Los sábados solemos ir al parque o tomar un jugo después de clase."
+          "años",
+          "jugo",
+          "cocinar",
+          "mejor"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Esta es mi hermana» después de «A Kevin le gusta jugar al fútbol, ver películas y cocinar pasta los…»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“_____ sábados solemos ir al parque o tomar un jugo después de clase.”",
         "options": [
-          "Quiero hablar de mi mejor amigo, Kevin.",
-          "Tiene dieciocho años, es divertido y muy tranquilo.",
-          "A Kevin le gusta jugar al fútbol, ver películas y cocinar pasta los domingos.",
-          "Los sábados solemos ir al parque o tomar un jugo después de clase."
+          "dieciocho",
+          "divertido",
+          "tranquilo",
+          "Los"
         ]
       }
     ]
@@ -15908,92 +15908,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Escucha · Salud y bienestar», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“Desde ayer me duele la garganta y tengo un poco de _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Desde ayer me duele la garganta y tengo un poco de fiebre."
+                "text": "fiebre"
               },
               {
                 "id": "o2",
-                "text": "Ella cree que tengo una infección leve y me recomienda beber agua, descansar y tomar la medicina."
+                "text": "información"
               },
               {
                 "id": "o3",
-                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
+                "text": "descansado"
               },
               {
                 "id": "o4",
-                "text": "Me gusta tener un plan claro antes de seguir."
+                "text": "recomienda"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «Desde ayer me duele la garganta y tengo un poco de fiebre.», ¿qué sucede a continuación en «Escucha · Salud y bienestar»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Ella cree que tengo una _____ leve y me recomienda beber agua, descansar y tomar la medicina.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Desde ayer me duele la garganta y tengo un poco de fiebre."
+                "text": "fiebre"
               },
               {
                 "id": "o2",
-                "text": "Ella cree que tengo una infección leve y me recomienda beber agua, descansar y tomar la medicina."
+                "text": "infección"
               },
               {
                 "id": "o3",
-                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
+                "text": "semana"
               },
               {
                 "id": "o4",
-                "text": "Me gusta tener un plan claro antes de seguir."
+                "text": "Mañana"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Salud y bienestar»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“Al final, repaso la información y preparo el _____ paso con calma.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Desde ayer me duele la garganta y tengo un poco de fiebre."
+                "text": "fiebre"
               },
               {
                 "id": "o2",
-                "text": "Ella cree que tengo una infección leve y me recomienda beber agua, descansar y tomar la medicina."
+                "text": "semana"
               },
               {
                 "id": "o3",
-                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
+                "text": "siguiente"
               },
               {
                 "id": "o4",
-                "text": "Me gusta tener un plan claro antes de seguir."
+                "text": "Mañana"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Salud y bienestar» después de «Al final, repaso la información y preparo el siguiente paso con calma.»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Me gusta tener un plan claro antes de _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Desde ayer me duele la garganta y tengo un poco de fiebre."
+                "text": "información"
               },
               {
                 "id": "o2",
-                "text": "Ella cree que tengo una infección leve y me recomienda beber agua, descansar y tomar la medicina."
+                "text": "descansado"
               },
               {
                 "id": "o3",
-                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
+                "text": "recomienda"
               },
               {
                 "id": "o4",
-                "text": "Me gusta tener un plan claro antes de seguir."
+                "text": "seguir"
               }
             ]
           }
@@ -16004,42 +16004,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Escucha · Salud y bienestar», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“Desde ayer me duele la garganta y tengo un poco de _____.”",
         "options": [
-          "Desde ayer me duele la garganta y tengo un poco de fiebre.",
-          "Ella cree que tengo una infección leve y me recomienda beber agua, descansar y tomar la medicina.",
-          "Al final, repaso la información y preparo el siguiente paso con calma.",
-          "Me gusta tener un plan claro antes de seguir."
+          "fiebre",
+          "información",
+          "descansado",
+          "recomienda"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «Desde ayer me duele la garganta y tengo un poco de fiebre.», ¿qué sucede a continuación en «Escucha · Salud y bienestar»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Ella cree que tengo una _____ leve y me recomienda beber agua, descansar y tomar la medicina.”",
         "options": [
-          "Desde ayer me duele la garganta y tengo un poco de fiebre.",
-          "Ella cree que tengo una infección leve y me recomienda beber agua, descansar y tomar la medicina.",
-          "Al final, repaso la información y preparo el siguiente paso con calma.",
-          "Me gusta tener un plan claro antes de seguir."
+          "fiebre",
+          "infección",
+          "semana",
+          "Mañana"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Salud y bienestar»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“Al final, repaso la información y preparo el _____ paso con calma.”",
         "options": [
-          "Desde ayer me duele la garganta y tengo un poco de fiebre.",
-          "Ella cree que tengo una infección leve y me recomienda beber agua, descansar y tomar la medicina.",
-          "Al final, repaso la información y preparo el siguiente paso con calma.",
-          "Me gusta tener un plan claro antes de seguir."
+          "fiebre",
+          "semana",
+          "siguiente",
+          "Mañana"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Salud y bienestar» después de «Al final, repaso la información y preparo el siguiente paso con calma.»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Me gusta tener un plan claro antes de _____.”",
         "options": [
-          "Desde ayer me duele la garganta y tengo un poco de fiebre.",
-          "Ella cree que tengo una infección leve y me recomienda beber agua, descansar y tomar la medicina.",
-          "Al final, repaso la información y preparo el siguiente paso con calma.",
-          "Me gusta tener un plan claro antes de seguir."
+          "información",
+          "descansado",
+          "recomienda",
+          "seguir"
         ]
       }
     ]
@@ -16083,92 +16083,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Escucha · Antes de compartir ese titular», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“En este boletín de verificación, explico cómo comprobé una noticia que _____ en redes.”",
             "options": [
               {
                 "id": "o1",
-                "text": "En este boletín de verificación, explico cómo comprobé una noticia que circulaba en redes."
+                "text": "circulaba"
               },
               {
                 "id": "o2",
-                "text": "Yo abrí el enlace, busqué la fuente original y descubrí que el reportaje hablaba de una propuesta antigua, no de una decisión actual."
+                "text": "verificación"
               },
               {
                 "id": "o3",
-                "text": "Una compañera me contó que su familia ya estaba preocupada por el rumor."
+                "text": "cerrar"
               },
               {
                 "id": "o4",
-                "text": "Esa tarde compartí la corrección con el mismo grupo en el que había visto la publicación inicial."
+                "text": "Muchas"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «En este boletín de verificación, explico cómo comprobé una noticia que…», ¿qué sucede a continuación en «Escucha · Antes de compartir ese titular»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Yo abrí el enlace, _____ la fuente original y descubrí que el reportaje hablaba de una propuesta antigua, no de una decisión actual.”",
             "options": [
               {
                 "id": "o1",
-                "text": "En este boletín de verificación, explico cómo comprobé una noticia que circulaba en redes."
+                "text": "verificación"
               },
               {
                 "id": "o2",
-                "text": "Yo abrí el enlace, busqué la fuente original y descubrí que el reportaje hablaba de una propuesta antigua, no de una decisión actual."
+                "text": "busqué"
               },
               {
                 "id": "o3",
-                "text": "Una compañera me contó que su familia ya estaba preocupada por el rumor."
+                "text": "compartieron"
               },
               {
                 "id": "o4",
-                "text": "Esa tarde compartí la corrección con el mismo grupo en el que había visto la publicación inicial."
+                "text": "estudiantes"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Antes de compartir ese titular»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“Una compañera me contó que su familia ya _____ preocupada por el rumor.”",
             "options": [
               {
                 "id": "o1",
-                "text": "En este boletín de verificación, explico cómo comprobé una noticia que circulaba en redes."
+                "text": "verificación"
               },
               {
                 "id": "o2",
-                "text": "Yo abrí el enlace, busqué la fuente original y descubrí que el reportaje hablaba de una propuesta antigua, no de una decisión actual."
+                "text": "compartieron"
               },
               {
                 "id": "o3",
-                "text": "Una compañera me contó que su familia ya estaba preocupada por el rumor."
+                "text": "estaba"
               },
               {
                 "id": "o4",
-                "text": "Esa tarde compartí la corrección con el mismo grupo en el que había visto la publicación inicial."
+                "text": "estudiantes"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Antes de compartir ese titular» después de «Una compañera me contó que su familia ya estaba preocupada por el rumor.»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“_____ tarde compartí la corrección con el mismo grupo en el que había visto la publicación inicial.”",
             "options": [
               {
                 "id": "o1",
-                "text": "En este boletín de verificación, explico cómo comprobé una noticia que circulaba en redes."
+                "text": "verificación"
               },
               {
                 "id": "o2",
-                "text": "Yo abrí el enlace, busqué la fuente original y descubrí que el reportaje hablaba de una propuesta antigua, no de una decisión actual."
+                "text": "compartieron"
               },
               {
                 "id": "o3",
-                "text": "Una compañera me contó que su familia ya estaba preocupada por el rumor."
+                "text": "estudiantes"
               },
               {
                 "id": "o4",
-                "text": "Esa tarde compartí la corrección con el mismo grupo en el que había visto la publicación inicial."
+                "text": "Esa"
               }
             ]
           }
@@ -16179,42 +16179,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Escucha · Antes de compartir ese titular», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“En este boletín de verificación, explico cómo comprobé una noticia que _____ en redes.”",
         "options": [
-          "En este boletín de verificación, explico cómo comprobé una noticia que circulaba en redes.",
-          "Yo abrí el enlace, busqué la fuente original y descubrí que el reportaje hablaba de una propuesta antigua, no de una decisión actual.",
-          "Una compañera me contó que su familia ya estaba preocupada por el rumor.",
-          "Esa tarde compartí la corrección con el mismo grupo en el que había visto la publicación inicial."
+          "circulaba",
+          "verificación",
+          "cerrar",
+          "Muchas"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «En este boletín de verificación, explico cómo comprobé una noticia que…», ¿qué sucede a continuación en «Escucha · Antes de compartir ese titular»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Yo abrí el enlace, _____ la fuente original y descubrí que el reportaje hablaba de una propuesta antigua, no de una decisión actual.”",
         "options": [
-          "En este boletín de verificación, explico cómo comprobé una noticia que circulaba en redes.",
-          "Yo abrí el enlace, busqué la fuente original y descubrí que el reportaje hablaba de una propuesta antigua, no de una decisión actual.",
-          "Una compañera me contó que su familia ya estaba preocupada por el rumor.",
-          "Esa tarde compartí la corrección con el mismo grupo en el que había visto la publicación inicial."
+          "verificación",
+          "busqué",
+          "compartieron",
+          "estudiantes"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Antes de compartir ese titular»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“Una compañera me contó que su familia ya _____ preocupada por el rumor.”",
         "options": [
-          "En este boletín de verificación, explico cómo comprobé una noticia que circulaba en redes.",
-          "Yo abrí el enlace, busqué la fuente original y descubrí que el reportaje hablaba de una propuesta antigua, no de una decisión actual.",
-          "Una compañera me contó que su familia ya estaba preocupada por el rumor.",
-          "Esa tarde compartí la corrección con el mismo grupo en el que había visto la publicación inicial."
+          "verificación",
+          "compartieron",
+          "estaba",
+          "estudiantes"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Antes de compartir ese titular» después de «Una compañera me contó que su familia ya estaba preocupada por el rumor.»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“_____ tarde compartí la corrección con el mismo grupo en el que había visto la publicación inicial.”",
         "options": [
-          "En este boletín de verificación, explico cómo comprobé una noticia que circulaba en redes.",
-          "Yo abrí el enlace, busqué la fuente original y descubrí que el reportaje hablaba de una propuesta antigua, no de una decisión actual.",
-          "Una compañera me contó que su familia ya estaba preocupada por el rumor.",
-          "Esa tarde compartí la corrección con el mismo grupo en el que había visto la publicación inicial."
+          "verificación",
+          "compartieron",
+          "estudiantes",
+          "Esa"
         ]
       }
     ]
@@ -16258,92 +16258,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Escucha · La anatomía de un video viral», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“En nuestro boletín de verificación, explico por qué un video viral no demostraba lo que _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "En nuestro boletín de verificación, explico por qué un video viral no demostraba lo que prometía."
+                "text": "prometía"
               },
               {
                 "id": "o2",
-                "text": "Antes de compartirlo, busqué la evidencia."
+                "text": "verificación"
               },
               {
                 "id": "o3",
-                "text": "No digo que debamos confiar ciegamente en una marca, pero verificar no significa repetir una opinión oficial; significa comparar fuentes, mirar la fecha y reconocer cuando no sabemos algo."
+                "text": "video"
               },
               {
                 "id": "o4",
-                "text": "Al final, envié una corrección breve con la fuente completa y expliqué por qué el corte cambiaba el sentido."
+                "text": "viral"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «En nuestro boletín de verificación, explico por qué un video viral no…», ¿qué sucede a continuación en «Escucha · La anatomía de un video viral»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Antes de _____, busqué la evidencia.”",
             "options": [
               {
                 "id": "o1",
-                "text": "En nuestro boletín de verificación, explico por qué un video viral no demostraba lo que prometía."
+                "text": "prometía"
               },
               {
                 "id": "o2",
-                "text": "Antes de compartirlo, busqué la evidencia."
+                "text": "compartirlo"
               },
               {
                 "id": "o3",
-                "text": "No digo que debamos confiar ciegamente en una marca, pero verificar no significa repetir una opinión oficial; significa comparar fuentes, mirar la fecha y reconocer cuando no sabemos algo."
+                "text": "mostraba"
               },
               {
                 "id": "o4",
-                "text": "Al final, envié una corrección breve con la fuente completa y expliqué por qué el corte cambiaba el sentido."
+                "text": "supuesta"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · La anatomía de un video viral»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“No digo que debamos confiar ciegamente en una marca, pero _____ no significa repetir una opinión oficial; significa comparar fuentes, mirar la fecha y reconocer cuando no sabemos algo.”",
             "options": [
               {
                 "id": "o1",
-                "text": "En nuestro boletín de verificación, explico por qué un video viral no demostraba lo que prometía."
+                "text": "verificación"
               },
               {
                 "id": "o2",
-                "text": "Antes de compartirlo, busqué la evidencia."
+                "text": "semana"
               },
               {
                 "id": "o3",
-                "text": "El mensaje parecía convincente porque mostraba a una persona con bata blanca y citaba una supuesta fuente primaria."
+                "text": "verificar"
               },
               {
                 "id": "o4",
-                "text": "No digo que debamos confiar ciegamente en una marca, pero verificar no significa repetir una opinión oficial; significa comparar fuentes, mirar la fecha y reconocer cuando no sabemos algo."
+                "text": "pasada"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · La anatomía de un video viral» después de «El mensaje parecía convincente porque mostraba a una persona con bata…»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Al final, envié una corrección breve con la fuente completa y expliqué por qué el corte cambiaba el _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "En nuestro boletín de verificación, explico por qué un video viral no demostraba lo que prometía."
+                "text": "verificación"
               },
               {
                 "id": "o2",
-                "text": "Antes de compartirlo, busqué la evidencia."
+                "text": "convincente"
               },
               {
                 "id": "o3",
-                "text": "No digo que debamos confiar ciegamente en una marca, pero verificar no significa repetir una opinión oficial; significa comparar fuentes, mirar la fecha y reconocer cuando no sabemos algo."
+                "text": "compartirlo"
               },
               {
                 "id": "o4",
-                "text": "Al final, envié una corrección breve con la fuente completa y expliqué por qué el corte cambiaba el sentido."
+                "text": "sentido"
               }
             ]
           }
@@ -16354,42 +16354,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Escucha · La anatomía de un video viral», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“En nuestro boletín de verificación, explico por qué un video viral no demostraba lo que _____.”",
         "options": [
-          "En nuestro boletín de verificación, explico por qué un video viral no demostraba lo que prometía.",
-          "Antes de compartirlo, busqué la evidencia.",
-          "No digo que debamos confiar ciegamente en una marca, pero verificar no significa repetir una opinión oficial; significa comparar fuentes, mirar la fecha y reconocer cuando no sabemos algo.",
-          "Al final, envié una corrección breve con la fuente completa y expliqué por qué el corte cambiaba el sentido."
+          "prometía",
+          "verificación",
+          "video",
+          "viral"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «En nuestro boletín de verificación, explico por qué un video viral no…», ¿qué sucede a continuación en «Escucha · La anatomía de un video viral»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Antes de _____, busqué la evidencia.”",
         "options": [
-          "En nuestro boletín de verificación, explico por qué un video viral no demostraba lo que prometía.",
-          "Antes de compartirlo, busqué la evidencia.",
-          "No digo que debamos confiar ciegamente en una marca, pero verificar no significa repetir una opinión oficial; significa comparar fuentes, mirar la fecha y reconocer cuando no sabemos algo.",
-          "Al final, envié una corrección breve con la fuente completa y expliqué por qué el corte cambiaba el sentido."
+          "prometía",
+          "compartirlo",
+          "mostraba",
+          "supuesta"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · La anatomía de un video viral»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“No digo que debamos confiar ciegamente en una marca, pero _____ no significa repetir una opinión oficial; significa comparar fuentes, mirar la fecha y reconocer cuando no sabemos algo.”",
         "options": [
-          "En nuestro boletín de verificación, explico por qué un video viral no demostraba lo que prometía.",
-          "Antes de compartirlo, busqué la evidencia.",
-          "El mensaje parecía convincente porque mostraba a una persona con bata blanca y citaba una supuesta fuente primaria.",
-          "No digo que debamos confiar ciegamente en una marca, pero verificar no significa repetir una opinión oficial; significa comparar fuentes, mirar la fecha y reconocer cuando no sabemos algo."
+          "verificación",
+          "semana",
+          "verificar",
+          "pasada"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · La anatomía de un video viral» después de «El mensaje parecía convincente porque mostraba a una persona con bata…»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Al final, envié una corrección breve con la fuente completa y expliqué por qué el corte cambiaba el _____.”",
         "options": [
-          "En nuestro boletín de verificación, explico por qué un video viral no demostraba lo que prometía.",
-          "Antes de compartirlo, busqué la evidencia.",
-          "No digo que debamos confiar ciegamente en una marca, pero verificar no significa repetir una opinión oficial; significa comparar fuentes, mirar la fecha y reconocer cuando no sabemos algo.",
-          "Al final, envié una corrección breve con la fuente completa y expliqué por qué el corte cambiaba el sentido."
+          "verificación",
+          "convincente",
+          "compartirlo",
+          "sentido"
         ]
       }
     ]
@@ -16433,92 +16433,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Escucha · Vivir un año en otro país cambió mi forma de ver el mundo», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“Vivir fuera durante un año no le enseñó a Sofía una versión mejor del mundo, sino una versión más _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Vivir fuera durante un año no le enseñó a Sofía una versión mejor del mundo, sino una versión más compleja."
+                "text": "compleja"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "interpretarlo"
               },
               {
                 "id": "o3",
-                "text": "Es importante que la comunidad considere «desarraigo» antes de conocer un testimonio de adaptación cultural y distancia emocional."
+                "text": "intercultural"
               },
               {
                 "id": "o4",
-                "text": "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+                "text": "pertenencias"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «Vivir fuera durante un año no le enseñó a Sofía una versión mejor del…», ¿qué sucede a continuación en «Escucha · Vivir un año en otro país cambió mi forma de ver el mundo»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Estos _____ ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Vivir fuera durante un año no le enseñó a Sofía una versión mejor del mundo, sino una versión más compleja."
+                "text": "interpretarlo"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "conceptos"
               },
               {
                 "id": "o3",
-                "text": "Es importante que la comunidad considere «desarraigo» antes de conocer un testimonio de adaptación cultural y distancia emocional."
+                "text": "intercultural"
               },
               {
                 "id": "o4",
-                "text": "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+                "text": "enseñó"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Vivir un año en otro país cambió mi forma de ver el mundo»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“Es importante que la comunidad considere «_____» antes de conocer un testimonio de adaptación cultural y distancia emocional.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Vivir fuera durante un año no le enseñó a Sofía una versión mejor del mundo, sino una versión más compleja."
+                "text": "durante"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "versión"
               },
               {
                 "id": "o3",
-                "text": "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones."
+                "text": "desarraigo"
               },
               {
                 "id": "o4",
-                "text": "Es importante que la comunidad considere «desarraigo» antes de conocer un testimonio de adaptación cultural y distancia emocional."
+                "text": "revelar"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Vivir un año en otro país cambió mi forma de ver el mundo» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Puede sostener una conclusión provisional, identificar una _____ razonable y explicar qué nueva información obligaría a revisarla.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Vivir fuera durante un año no le enseñó a Sofía una versión mejor del mundo, sino una versión más compleja."
+                "text": "interpretarlo"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "intercultural"
               },
               {
                 "id": "o3",
-                "text": "Es importante que la comunidad considere «desarraigo» antes de conocer un testimonio de adaptación cultural y distancia emocional."
+                "text": "pertenencias"
               },
               {
                 "id": "o4",
-                "text": "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+                "text": "objeción"
               }
             ]
           }
@@ -16529,42 +16529,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Escucha · Vivir un año en otro país cambió mi forma de ver el mundo», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“Vivir fuera durante un año no le enseñó a Sofía una versión mejor del mundo, sino una versión más _____.”",
         "options": [
-          "Vivir fuera durante un año no le enseñó a Sofía una versión mejor del mundo, sino una versión más compleja.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "Es importante que la comunidad considere «desarraigo» antes de conocer un testimonio de adaptación cultural y distancia emocional.",
-          "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+          "compleja",
+          "interpretarlo",
+          "intercultural",
+          "pertenencias"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «Vivir fuera durante un año no le enseñó a Sofía una versión mejor del…», ¿qué sucede a continuación en «Escucha · Vivir un año en otro país cambió mi forma de ver el mundo»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Estos _____ ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.”",
         "options": [
-          "Vivir fuera durante un año no le enseñó a Sofía una versión mejor del mundo, sino una versión más compleja.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "Es importante que la comunidad considere «desarraigo» antes de conocer un testimonio de adaptación cultural y distancia emocional.",
-          "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+          "interpretarlo",
+          "conceptos",
+          "intercultural",
+          "enseñó"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Vivir un año en otro país cambió mi forma de ver el mundo»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“Es importante que la comunidad considere «_____» antes de conocer un testimonio de adaptación cultural y distancia emocional.”",
         "options": [
-          "Vivir fuera durante un año no le enseñó a Sofía una versión mejor del mundo, sino una versión más compleja.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones.",
-          "Es importante que la comunidad considere «desarraigo» antes de conocer un testimonio de adaptación cultural y distancia emocional."
+          "durante",
+          "versión",
+          "desarraigo",
+          "revelar"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Vivir un año en otro país cambió mi forma de ver el mundo» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Puede sostener una conclusión provisional, identificar una _____ razonable y explicar qué nueva información obligaría a revisarla.”",
         "options": [
-          "Vivir fuera durante un año no le enseñó a Sofía una versión mejor del mundo, sino una versión más compleja.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "Es importante que la comunidad considere «desarraigo» antes de conocer un testimonio de adaptación cultural y distancia emocional.",
-          "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+          "interpretarlo",
+          "intercultural",
+          "pertenencias",
+          "objeción"
         ]
       }
     ]
@@ -16608,92 +16608,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Escucha · La nueva carrera espacial: ¿quién conquistará Marte primero?», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“La nueva carrera hacia Marte se presenta como un triunfo de la ciencia, pero también reúne intereses empresariales, rivalidades nacionales y una palabra incómoda: _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "La nueva carrera hacia Marte se presenta como un triunfo de la ciencia, pero también reúne intereses empresariales, rivalidades nacionales y una palabra incómoda: conquista."
+                "text": "conquista"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "empresariales"
               },
               {
                 "id": "o3",
-                "text": "Desde esta perspectiva, cuestionar la idea de conquista y sus implicaciones éticas no consiste en repetir una conclusión."
+                "text": "interpretarlo"
               },
               {
                 "id": "o4",
-                "text": "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+                "text": "implicaciones"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «La nueva carrera hacia Marte se presenta como un triunfo de la…», ¿qué sucede a continuación en «Escucha · La nueva carrera espacial: ¿quién conquistará Marte primero?»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Estos _____ ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.”",
             "options": [
               {
                 "id": "o1",
-                "text": "La nueva carrera hacia Marte se presenta como un triunfo de la ciencia, pero también reúne intereses empresariales, rivalidades nacionales y una palabra incómoda: conquista."
+                "text": "empresariales"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "conceptos"
               },
               {
                 "id": "o3",
-                "text": "Desde esta perspectiva, cuestionar la idea de conquista y sus implicaciones éticas no consiste en repetir una conclusión."
+                "text": "interpretarlo"
               },
               {
                 "id": "o4",
-                "text": "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+                "text": "implicaciones"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · La nueva carrera espacial: ¿quién conquistará Marte primero?»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“Desde esta perspectiva, cuestionar la idea de conquista y sus _____ éticas no consiste en repetir una conclusión.”",
             "options": [
               {
                 "id": "o1",
-                "text": "La nueva carrera hacia Marte se presenta como un triunfo de la ciencia, pero también reúne intereses empresariales, rivalidades nacionales y una palabra incómoda: conquista."
+                "text": "nacionales"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "individual"
               },
               {
                 "id": "o3",
-                "text": "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones."
+                "text": "implicaciones"
               },
               {
                 "id": "o4",
-                "text": "Desde esta perspectiva, cuestionar la idea de conquista y sus implicaciones éticas no consiste en repetir una conclusión."
+                "text": "distinguir"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · La nueva carrera espacial: ¿quién conquistará Marte primero?» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Por eso, una escucha avanzada no se limita a localizar una _____ literal.”",
             "options": [
               {
                 "id": "o1",
-                "text": "La nueva carrera hacia Marte se presenta como un triunfo de la ciencia, pero también reúne intereses empresariales, rivalidades nacionales y una palabra incómoda: conquista."
+                "text": "empresariales"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "interpretarlo"
               },
               {
                 "id": "o3",
-                "text": "Desde esta perspectiva, cuestionar la idea de conquista y sus implicaciones éticas no consiste en repetir una conclusión."
+                "text": "implicaciones"
               },
               {
                 "id": "o4",
-                "text": "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+                "text": "respuesta"
               }
             ]
           }
@@ -16704,42 +16704,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Escucha · La nueva carrera espacial: ¿quién conquistará Marte primero?», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“La nueva carrera hacia Marte se presenta como un triunfo de la ciencia, pero también reúne intereses empresariales, rivalidades nacionales y una palabra incómoda: _____.”",
         "options": [
-          "La nueva carrera hacia Marte se presenta como un triunfo de la ciencia, pero también reúne intereses empresariales, rivalidades nacionales y una palabra incómoda: conquista.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "Desde esta perspectiva, cuestionar la idea de conquista y sus implicaciones éticas no consiste en repetir una conclusión.",
-          "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+          "conquista",
+          "empresariales",
+          "interpretarlo",
+          "implicaciones"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «La nueva carrera hacia Marte se presenta como un triunfo de la…», ¿qué sucede a continuación en «Escucha · La nueva carrera espacial: ¿quién conquistará Marte primero?»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Estos _____ ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.”",
         "options": [
-          "La nueva carrera hacia Marte se presenta como un triunfo de la ciencia, pero también reúne intereses empresariales, rivalidades nacionales y una palabra incómoda: conquista.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "Desde esta perspectiva, cuestionar la idea de conquista y sus implicaciones éticas no consiste en repetir una conclusión.",
-          "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+          "empresariales",
+          "conceptos",
+          "interpretarlo",
+          "implicaciones"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · La nueva carrera espacial: ¿quién conquistará Marte primero?»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“Desde esta perspectiva, cuestionar la idea de conquista y sus _____ éticas no consiste en repetir una conclusión.”",
         "options": [
-          "La nueva carrera hacia Marte se presenta como un triunfo de la ciencia, pero también reúne intereses empresariales, rivalidades nacionales y una palabra incómoda: conquista.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones.",
-          "Desde esta perspectiva, cuestionar la idea de conquista y sus implicaciones éticas no consiste en repetir una conclusión."
+          "nacionales",
+          "individual",
+          "implicaciones",
+          "distinguir"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · La nueva carrera espacial: ¿quién conquistará Marte primero?» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Por eso, una escucha avanzada no se limita a localizar una _____ literal.”",
         "options": [
-          "La nueva carrera hacia Marte se presenta como un triunfo de la ciencia, pero también reúne intereses empresariales, rivalidades nacionales y una palabra incómoda: conquista.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "Desde esta perspectiva, cuestionar la idea de conquista y sus implicaciones éticas no consiste en repetir una conclusión.",
-          "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+          "empresariales",
+          "interpretarlo",
+          "implicaciones",
+          "respuesta"
         ]
       }
     ]
@@ -16814,92 +16814,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «¿A qué hora te levantas?», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“Sofía vive con sus padres y sus dos _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Sofía vive con sus padres y sus dos hermanos."
+                "text": "hermanos"
               },
               {
                 "id": "o2",
-                "text": "Su hermana Lucía tiene dieciséis años y su hermano Tomás tiene nueve."
+                "text": "Sofía"
               },
               {
                 "id": "o3",
-                "text": "Los domingos la familia come junta en casa de la abuela Rosa."
+                "text": "madre"
               },
               {
                 "id": "o4",
-                "text": "Sofía dice que su familia es grande, pero muy cariñosa."
+                "text": "padre"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «Sofía vive con sus padres y sus dos hermanos.», ¿qué sucede a continuación en «¿A qué hora te levantas?»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Su hermana _____ tiene dieciséis años y su hermano Tomás tiene nueve.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Sofía vive con sus padres y sus dos hermanos."
+                "text": "conductor"
               },
               {
                 "id": "o2",
-                "text": "Su hermana Lucía tiene dieciséis años y su hermano Tomás tiene nueve."
+                "text": "Lucía"
               },
               {
                 "id": "o3",
-                "text": "Los domingos la familia come junta en casa de la abuela Rosa."
+                "text": "dieciséis"
               },
               {
                 "id": "o4",
-                "text": "Sofía dice que su familia es grande, pero muy cariñosa."
+                "text": "conversan"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «¿A qué hora te levantas?»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“Los domingos la familia come junta en casa de la _____ Rosa.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Sofía vive con sus padres y sus dos hermanos."
+                "text": "con"
               },
               {
                 "id": "o2",
-                "text": "Su hermana Lucía tiene dieciséis años y su hermano Tomás tiene nueve."
+                "text": "sus"
               },
               {
                 "id": "o3",
-                "text": "Los domingos la familia come junta en casa de la abuela Rosa."
+                "text": "abuela"
               },
               {
                 "id": "o4",
-                "text": "Sofía dice que su familia es grande, pero muy cariñosa."
+                "text": "dos"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «¿A qué hora te levantas?» después de «Los domingos la familia come junta en casa de la abuela Rosa.»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Sofía dice que su _____ es grande, pero muy cariñosa.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Sofía vive con sus padres y sus dos hermanos."
+                "text": "vive"
               },
               {
                 "id": "o2",
-                "text": "Su hermana Lucía tiene dieciséis años y su hermano Tomás tiene nueve."
+                "text": "años"
               },
               {
                 "id": "o3",
-                "text": "Los domingos la familia come junta en casa de la abuela Rosa."
+                "text": "casa"
               },
               {
                 "id": "o4",
-                "text": "Sofía dice que su familia es grande, pero muy cariñosa."
+                "text": "familia"
               }
             ]
           }
@@ -16910,42 +16910,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «¿A qué hora te levantas?», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“Sofía vive con sus padres y sus dos _____.”",
         "options": [
-          "Sofía vive con sus padres y sus dos hermanos.",
-          "Su hermana Lucía tiene dieciséis años y su hermano Tomás tiene nueve.",
-          "Los domingos la familia come junta en casa de la abuela Rosa.",
-          "Sofía dice que su familia es grande, pero muy cariñosa."
+          "hermanos",
+          "Sofía",
+          "madre",
+          "padre"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «Sofía vive con sus padres y sus dos hermanos.», ¿qué sucede a continuación en «¿A qué hora te levantas?»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Su hermana _____ tiene dieciséis años y su hermano Tomás tiene nueve.”",
         "options": [
-          "Sofía vive con sus padres y sus dos hermanos.",
-          "Su hermana Lucía tiene dieciséis años y su hermano Tomás tiene nueve.",
-          "Los domingos la familia come junta en casa de la abuela Rosa.",
-          "Sofía dice que su familia es grande, pero muy cariñosa."
+          "conductor",
+          "Lucía",
+          "dieciséis",
+          "conversan"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «¿A qué hora te levantas?»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“Los domingos la familia come junta en casa de la _____ Rosa.”",
         "options": [
-          "Sofía vive con sus padres y sus dos hermanos.",
-          "Su hermana Lucía tiene dieciséis años y su hermano Tomás tiene nueve.",
-          "Los domingos la familia come junta en casa de la abuela Rosa.",
-          "Sofía dice que su familia es grande, pero muy cariñosa."
+          "con",
+          "sus",
+          "abuela",
+          "dos"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «¿A qué hora te levantas?» después de «Los domingos la familia come junta en casa de la abuela Rosa.»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Sofía dice que su _____ es grande, pero muy cariñosa.”",
         "options": [
-          "Sofía vive con sus padres y sus dos hermanos.",
-          "Su hermana Lucía tiene dieciséis años y su hermano Tomás tiene nueve.",
-          "Los domingos la familia come junta en casa de la abuela Rosa.",
-          "Sofía dice que su familia es grande, pero muy cariñosa."
+          "vive",
+          "años",
+          "casa",
+          "familia"
         ]
       }
     ]
@@ -20849,92 +20849,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Escucha · Viajes y transporte», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“Hoy viajo a _____ en un tren que sale a las seis.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoy viajo a Valencia en un tren que sale a las seis."
+                "text": "Valencia"
               },
               {
                 "id": "o2",
-                "text": "Antes de subir, voy a dejar mi equipaje en la consigna y miraré el panel otra vez."
+                "text": "tranquilidad"
               },
               {
                 "id": "o3",
-                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
+                "text": "viajo"
               },
               {
                 "id": "o4",
-                "text": "Me gusta tener un plan claro antes de seguir."
+                "text": "andén"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «Hoy viajo a Valencia en un tren que sale a las seis.», ¿qué sucede a continuación en «Escucha · Viajes y transporte»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Antes de subir, voy a dejar mi _____ en la consigna y miraré el panel otra vez.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoy viajo a Valencia en un tren que sale a las seis."
+                "text": "tranquilidad"
               },
               {
                 "id": "o2",
-                "text": "Antes de subir, voy a dejar mi equipaje en la consigna y miraré el panel otra vez."
+                "text": "equipaje"
               },
               {
                 "id": "o3",
-                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
+                "text": "viajo"
               },
               {
                 "id": "o4",
-                "text": "Me gusta tener un plan claro antes de seguir."
+                "text": "andén"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Viajes y transporte»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“Al final, repaso la información y preparo el _____ paso con calma.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoy viajo a Valencia en un tren que sale a las seis."
+                "text": "cuatro"
               },
               {
                 "id": "o2",
-                "text": "Antes de subir, voy a dejar mi equipaje en la consigna y miraré el panel otra vez."
+                "text": "salida"
               },
               {
                 "id": "o3",
-                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
+                "text": "siguiente"
               },
               {
                 "id": "o4",
-                "text": "Me gusta tener un plan claro antes de seguir."
+                "text": "veinte"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Viajes y transporte» después de «Al final, repaso la información y preparo el siguiente paso con calma.»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Me gusta tener un plan claro antes de _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoy viajo a Valencia en un tren que sale a las seis."
+                "text": "tranquilidad"
               },
               {
                 "id": "o2",
-                "text": "Antes de subir, voy a dejar mi equipaje en la consigna y miraré el panel otra vez."
+                "text": "información"
               },
               {
                 "id": "o3",
-                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
+                "text": "Hoy"
               },
               {
                 "id": "o4",
-                "text": "Me gusta tener un plan claro antes de seguir."
+                "text": "seguir"
               }
             ]
           }
@@ -20945,42 +20945,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Escucha · Viajes y transporte», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“Hoy viajo a _____ en un tren que sale a las seis.”",
         "options": [
-          "Hoy viajo a Valencia en un tren que sale a las seis.",
-          "Antes de subir, voy a dejar mi equipaje en la consigna y miraré el panel otra vez.",
-          "Al final, repaso la información y preparo el siguiente paso con calma.",
-          "Me gusta tener un plan claro antes de seguir."
+          "Valencia",
+          "tranquilidad",
+          "viajo",
+          "andén"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «Hoy viajo a Valencia en un tren que sale a las seis.», ¿qué sucede a continuación en «Escucha · Viajes y transporte»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Antes de subir, voy a dejar mi _____ en la consigna y miraré el panel otra vez.”",
         "options": [
-          "Hoy viajo a Valencia en un tren que sale a las seis.",
-          "Antes de subir, voy a dejar mi equipaje en la consigna y miraré el panel otra vez.",
-          "Al final, repaso la información y preparo el siguiente paso con calma.",
-          "Me gusta tener un plan claro antes de seguir."
+          "tranquilidad",
+          "equipaje",
+          "viajo",
+          "andén"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Viajes y transporte»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“Al final, repaso la información y preparo el _____ paso con calma.”",
         "options": [
-          "Hoy viajo a Valencia en un tren que sale a las seis.",
-          "Antes de subir, voy a dejar mi equipaje en la consigna y miraré el panel otra vez.",
-          "Al final, repaso la información y preparo el siguiente paso con calma.",
-          "Me gusta tener un plan claro antes de seguir."
+          "cuatro",
+          "salida",
+          "siguiente",
+          "veinte"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Viajes y transporte» después de «Al final, repaso la información y preparo el siguiente paso con calma.»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Me gusta tener un plan claro antes de _____.”",
         "options": [
-          "Hoy viajo a Valencia en un tren que sale a las seis.",
-          "Antes de subir, voy a dejar mi equipaje en la consigna y miraré el panel otra vez.",
-          "Al final, repaso la información y preparo el siguiente paso con calma.",
-          "Me gusta tener un plan claro antes de seguir."
+          "tranquilidad",
+          "información",
+          "Hoy",
+          "seguir"
         ]
       }
     ]
@@ -21024,92 +21024,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Escucha · Cuando el grupo de chat nunca se calla», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“En mi diario sonoro de esta semana, quiero contar una situación que vivimos entre _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "En mi diario sonoro de esta semana, quiero contar una situación que vivimos entre amistades."
+                "text": "amistades"
               },
               {
                 "id": "o2",
-                "text": "Me preocupaba que, si ponía un límite, alguien pensara que ya no quería convivir con el grupo."
+                "text": "compartiéramos"
               },
               {
                 "id": "o3",
-                "text": "Me alegra que hayamos hablado antes de convertir una pequeña incomodidad en un problema mayor."
+                "text": "diario"
               },
               {
                 "id": "o4",
-                "text": "También acordamos avisar si alguien necesita silencio para estudiar o descansar."
+                "text": "sonoro"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «En mi diario sonoro de esta semana, quiero contar una situación que…», ¿qué sucede a continuación en «Escucha · Cuando el grupo de chat nunca se calla»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Me preocupaba que, si ponía un _____, alguien pensara que ya no quería convivir con el grupo.”",
             "options": [
               {
                 "id": "o1",
-                "text": "En mi diario sonoro de esta semana, quiero contar una situación que vivimos entre amistades."
+                "text": "compartiéramos"
               },
               {
                 "id": "o2",
-                "text": "Me preocupaba que, si ponía un límite, alguien pensara que ya no quería convivir con el grupo."
+                "text": "límite"
               },
               {
                 "id": "o3",
-                "text": "Me alegra que hayamos hablado antes de convertir una pequeña incomodidad en un problema mayor."
+                "text": "concentrarme"
               },
               {
                 "id": "o4",
-                "text": "También acordamos avisar si alguien necesita silencio para estudiar o descansar."
+                "text": "incomodidad"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Cuando el grupo de chat nunca se calla»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“Me alegra que hayamos hablado antes de _____ una pequeña incomodidad en un problema mayor.”",
             "options": [
               {
                 "id": "o1",
-                "text": "En mi diario sonoro de esta semana, quiero contar una situación que vivimos entre amistades."
+                "text": "compartiéramos"
               },
               {
                 "id": "o2",
-                "text": "Me preocupaba que, si ponía un límite, alguien pensara que ya no quería convivir con el grupo."
+                "text": "diario"
               },
               {
                 "id": "o3",
-                "text": "A veces recibía mensajes hasta muy tarde y sentía molestia porque no podía descansar ni concentrarme."
+                "text": "convertir"
               },
               {
                 "id": "o4",
-                "text": "Me alegra que hayamos hablado antes de convertir una pequeña incomodidad en un problema mayor."
+                "text": "sonoro"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Cuando el grupo de chat nunca se calla» después de «A veces recibía mensajes hasta muy tarde y sentía molestia porque no…»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“También acordamos avisar si alguien necesita silencio para _____ o descansar.”",
             "options": [
               {
                 "id": "o1",
-                "text": "En mi diario sonoro de esta semana, quiero contar una situación que vivimos entre amistades."
+                "text": "compartiéramos"
               },
               {
                 "id": "o2",
-                "text": "Me preocupaba que, si ponía un límite, alguien pensara que ya no quería convivir con el grupo."
+                "text": "concentrarme"
               },
               {
                 "id": "o3",
-                "text": "Me alegra que hayamos hablado antes de convertir una pequeña incomodidad en un problema mayor."
+                "text": "entre"
               },
               {
                 "id": "o4",
-                "text": "También acordamos avisar si alguien necesita silencio para estudiar o descansar."
+                "text": "estudiar"
               }
             ]
           }
@@ -21120,42 +21120,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Escucha · Cuando el grupo de chat nunca se calla», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“En mi diario sonoro de esta semana, quiero contar una situación que vivimos entre _____.”",
         "options": [
-          "En mi diario sonoro de esta semana, quiero contar una situación que vivimos entre amistades.",
-          "Me preocupaba que, si ponía un límite, alguien pensara que ya no quería convivir con el grupo.",
-          "Me alegra que hayamos hablado antes de convertir una pequeña incomodidad en un problema mayor.",
-          "También acordamos avisar si alguien necesita silencio para estudiar o descansar."
+          "amistades",
+          "compartiéramos",
+          "diario",
+          "sonoro"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «En mi diario sonoro de esta semana, quiero contar una situación que…», ¿qué sucede a continuación en «Escucha · Cuando el grupo de chat nunca se calla»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Me preocupaba que, si ponía un _____, alguien pensara que ya no quería convivir con el grupo.”",
         "options": [
-          "En mi diario sonoro de esta semana, quiero contar una situación que vivimos entre amistades.",
-          "Me preocupaba que, si ponía un límite, alguien pensara que ya no quería convivir con el grupo.",
-          "Me alegra que hayamos hablado antes de convertir una pequeña incomodidad en un problema mayor.",
-          "También acordamos avisar si alguien necesita silencio para estudiar o descansar."
+          "compartiéramos",
+          "límite",
+          "concentrarme",
+          "incomodidad"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Cuando el grupo de chat nunca se calla»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“Me alegra que hayamos hablado antes de _____ una pequeña incomodidad en un problema mayor.”",
         "options": [
-          "En mi diario sonoro de esta semana, quiero contar una situación que vivimos entre amistades.",
-          "Me preocupaba que, si ponía un límite, alguien pensara que ya no quería convivir con el grupo.",
-          "A veces recibía mensajes hasta muy tarde y sentía molestia porque no podía descansar ni concentrarme.",
-          "Me alegra que hayamos hablado antes de convertir una pequeña incomodidad en un problema mayor."
+          "compartiéramos",
+          "diario",
+          "convertir",
+          "sonoro"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Cuando el grupo de chat nunca se calla» después de «A veces recibía mensajes hasta muy tarde y sentía molestia porque no…»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“También acordamos avisar si alguien necesita silencio para _____ o descansar.”",
         "options": [
-          "En mi diario sonoro de esta semana, quiero contar una situación que vivimos entre amistades.",
-          "Me preocupaba que, si ponía un límite, alguien pensara que ya no quería convivir con el grupo.",
-          "Me alegra que hayamos hablado antes de convertir una pequeña incomodidad en un problema mayor.",
-          "También acordamos avisar si alguien necesita silencio para estudiar o descansar."
+          "compartiéramos",
+          "concentrarme",
+          "entre",
+          "estudiar"
         ]
       }
     ]
@@ -21199,92 +21199,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Escucha · La ciudad que todos visitan y pocos pueden habitar», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“Esta crónica local recoge una discusión que escuché en el _____ donde vive mi tía.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Esta crónica local recoge una discusión que escuché en el pueblo donde vive mi tía."
+                "text": "pueblo"
               },
               {
                 "id": "o2",
-                "text": "Yo asistí a una reunión y entendí que ambas preocupaciones tenían fundamento."
+                "text": "preocupaciones"
               },
               {
                 "id": "o3",
-                "text": "Mi postura no es rechazar a quienes viajan, sino pedir que las decisiones incluyan a residentes, trabajadores y pequeños comercios."
+                "text": "transparencia"
               },
               {
                 "id": "o4",
-                "text": "Así, las decisiones no dependerían solo de la temporada más rentable del año ni de un cálculo inmediato."
+                "text": "apartamentos"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «Esta crónica local recoge una discusión que escuché en el pueblo donde…», ¿qué sucede a continuación en «Escucha · La ciudad que todos visitan y pocos pueden habitar»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Yo asistí a una _____ y entendí que ambas preocupaciones tenían fundamento.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Esta crónica local recoge una discusión que escuché en el pueblo donde vive mi tía."
+                "text": "preocupaciones"
               },
               {
                 "id": "o2",
-                "text": "Yo asistí a una reunión y entendí que ambas preocupaciones tenían fundamento."
+                "text": "reunión"
               },
               {
                 "id": "o3",
-                "text": "Mi postura no es rechazar a quienes viajan, sino pedir que las decisiones incluyan a residentes, trabajadores y pequeños comercios."
+                "text": "transparencia"
               },
               {
                 "id": "o4",
-                "text": "Así, las decisiones no dependerían solo de la temporada más rentable del año ni de un cálculo inmediato."
+                "text": "apartamentos"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · La ciudad que todos visitan y pocos pueden habitar»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“Mi postura no es rechazar a quienes _____, sino pedir que las decisiones incluyan a residentes, trabajadores y pequeños comercios.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Esta crónica local recoge una discusión que escuché en el pueblo donde vive mi tía."
+                "text": "preocupaciones"
               },
               {
                 "id": "o2",
-                "text": "Yo asistí a una reunión y entendí que ambas preocupaciones tenían fundamento."
+                "text": "transparencia"
               },
               {
                 "id": "o3",
-                "text": "Aunque el patrimonio atrae visitantes, no debería convertirse en un escenario donde la gente local no pueda vivir."
+                "text": "viajan"
               },
               {
                 "id": "o4",
-                "text": "Mi postura no es rechazar a quienes viajan, sino pedir que las decisiones incluyan a residentes, trabajadores y pequeños comercios."
+                "text": "apartamentos"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · La ciudad que todos visitan y pocos pueden habitar» después de «Aunque el patrimonio atrae visitantes, no debería convertirse en un…»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Así, las decisiones no dependerían solo de la temporada más rentable del año ni de un _____ inmediato.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Esta crónica local recoge una discusión que escuché en el pueblo donde vive mi tía."
+                "text": "preocupaciones"
               },
               {
                 "id": "o2",
-                "text": "Yo asistí a una reunión y entendí que ambas preocupaciones tenían fundamento."
+                "text": "transparencia"
               },
               {
                 "id": "o3",
-                "text": "Mi postura no es rechazar a quienes viajan, sino pedir que las decisiones incluyan a residentes, trabajadores y pequeños comercios."
+                "text": "apartamentos"
               },
               {
                 "id": "o4",
-                "text": "Así, las decisiones no dependerían solo de la temporada más rentable del año ni de un cálculo inmediato."
+                "text": "cálculo"
               }
             ]
           }
@@ -21295,42 +21295,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Escucha · La ciudad que todos visitan y pocos pueden habitar», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“Esta crónica local recoge una discusión que escuché en el _____ donde vive mi tía.”",
         "options": [
-          "Esta crónica local recoge una discusión que escuché en el pueblo donde vive mi tía.",
-          "Yo asistí a una reunión y entendí que ambas preocupaciones tenían fundamento.",
-          "Mi postura no es rechazar a quienes viajan, sino pedir que las decisiones incluyan a residentes, trabajadores y pequeños comercios.",
-          "Así, las decisiones no dependerían solo de la temporada más rentable del año ni de un cálculo inmediato."
+          "pueblo",
+          "preocupaciones",
+          "transparencia",
+          "apartamentos"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «Esta crónica local recoge una discusión que escuché en el pueblo donde…», ¿qué sucede a continuación en «Escucha · La ciudad que todos visitan y pocos pueden habitar»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Yo asistí a una _____ y entendí que ambas preocupaciones tenían fundamento.”",
         "options": [
-          "Esta crónica local recoge una discusión que escuché en el pueblo donde vive mi tía.",
-          "Yo asistí a una reunión y entendí que ambas preocupaciones tenían fundamento.",
-          "Mi postura no es rechazar a quienes viajan, sino pedir que las decisiones incluyan a residentes, trabajadores y pequeños comercios.",
-          "Así, las decisiones no dependerían solo de la temporada más rentable del año ni de un cálculo inmediato."
+          "preocupaciones",
+          "reunión",
+          "transparencia",
+          "apartamentos"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · La ciudad que todos visitan y pocos pueden habitar»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“Mi postura no es rechazar a quienes _____, sino pedir que las decisiones incluyan a residentes, trabajadores y pequeños comercios.”",
         "options": [
-          "Esta crónica local recoge una discusión que escuché en el pueblo donde vive mi tía.",
-          "Yo asistí a una reunión y entendí que ambas preocupaciones tenían fundamento.",
-          "Aunque el patrimonio atrae visitantes, no debería convertirse en un escenario donde la gente local no pueda vivir.",
-          "Mi postura no es rechazar a quienes viajan, sino pedir que las decisiones incluyan a residentes, trabajadores y pequeños comercios."
+          "preocupaciones",
+          "transparencia",
+          "viajan",
+          "apartamentos"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · La ciudad que todos visitan y pocos pueden habitar» después de «Aunque el patrimonio atrae visitantes, no debería convertirse en un…»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Así, las decisiones no dependerían solo de la temporada más rentable del año ni de un _____ inmediato.”",
         "options": [
-          "Esta crónica local recoge una discusión que escuché en el pueblo donde vive mi tía.",
-          "Yo asistí a una reunión y entendí que ambas preocupaciones tenían fundamento.",
-          "Mi postura no es rechazar a quienes viajan, sino pedir que las decisiones incluyan a residentes, trabajadores y pequeños comercios.",
-          "Así, las decisiones no dependerían solo de la temporada más rentable del año ni de un cálculo inmediato."
+          "preocupaciones",
+          "transparencia",
+          "apartamentos",
+          "cálculo"
         ]
       }
     ]
@@ -21374,92 +21374,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Escucha · ¿Por qué sufrimos el síndrome del impostor?», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“Hay personas que reciben un ascenso, terminan un proyecto difícil o son felicitadas por su trabajo y, aun así, creen que en cualquier momento alguien descubrirá que no _____ estar allí.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hay personas que reciben un ascenso, terminan un proyecto difícil o son felicitadas por su trabajo y, aun así, creen que en cualquier momento alguien descubrirá que no merecían estar allí."
+                "text": "merecían"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "interpretarlo"
               },
               {
                 "id": "o3",
-                "text": "Desde esta perspectiva, distinguir autoexigencia, inseguridad y evaluación realista no consiste en repetir una conclusión."
+                "text": "autoexigencia"
               },
               {
                 "id": "o4",
-                "text": "La idea final es clara: hablar de ¿por qué sufrimos el síndrome del impostor?"
+                "text": "perspectivas"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «Hay personas que reciben un ascenso, terminan un proyecto difícil o…», ¿qué sucede a continuación en «Escucha · ¿Por qué sufrimos el síndrome del impostor?»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Estos _____ ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hay personas que reciben un ascenso, terminan un proyecto difícil o son felicitadas por su trabajo y, aun así, creen que en cualquier momento alguien descubrirá que no merecían estar allí."
+                "text": "interpretarlo"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "conceptos"
               },
               {
                 "id": "o3",
-                "text": "Desde esta perspectiva, distinguir autoexigencia, inseguridad y evaluación realista no consiste en repetir una conclusión."
+                "text": "autoexigencia"
               },
               {
                 "id": "o4",
-                "text": "La idea final es clara: hablar de ¿por qué sufrimos el síndrome del impostor?"
+                "text": "nombre"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · ¿Por qué sufrimos el síndrome del impostor?»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“Desde esta perspectiva, distinguir autoexigencia, _____ y evaluación realista no consiste en repetir una conclusión.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hay personas que reciben un ascenso, terminan un proyecto difícil o son felicitadas por su trabajo y, aun así, creen que en cualquier momento alguien descubrirá que no merecían estar allí."
+                "text": "personas"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "terminan"
               },
               {
                 "id": "o3",
-                "text": "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones."
+                "text": "inseguridad"
               },
               {
                 "id": "o4",
-                "text": "Desde esta perspectiva, distinguir autoexigencia, inseguridad y evaluación realista no consiste en repetir una conclusión."
+                "text": "proyecto"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · ¿Por qué sufrimos el síndrome del impostor?» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“La idea final es clara: hablar de ¿por qué _____ el síndrome del impostor?”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hay personas que reciben un ascenso, terminan un proyecto difícil o son felicitadas por su trabajo y, aun así, creen que en cualquier momento alguien descubrirá que no merecían estar allí."
+                "text": "interpretarlo"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "autoexigencia"
               },
               {
                 "id": "o3",
-                "text": "Desde esta perspectiva, distinguir autoexigencia, inseguridad y evaluación realista no consiste en repetir una conclusión."
+                "text": "perspectivas"
               },
               {
                 "id": "o4",
-                "text": "La idea final es clara: hablar de ¿por qué sufrimos el síndrome del impostor?"
+                "text": "sufrimos"
               }
             ]
           }
@@ -21470,42 +21470,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Escucha · ¿Por qué sufrimos el síndrome del impostor?», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“Hay personas que reciben un ascenso, terminan un proyecto difícil o son felicitadas por su trabajo y, aun así, creen que en cualquier momento alguien descubrirá que no _____ estar allí.”",
         "options": [
-          "Hay personas que reciben un ascenso, terminan un proyecto difícil o son felicitadas por su trabajo y, aun así, creen que en cualquier momento alguien descubrirá que no merecían estar allí.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "Desde esta perspectiva, distinguir autoexigencia, inseguridad y evaluación realista no consiste en repetir una conclusión.",
-          "La idea final es clara: hablar de ¿por qué sufrimos el síndrome del impostor?"
+          "merecían",
+          "interpretarlo",
+          "autoexigencia",
+          "perspectivas"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «Hay personas que reciben un ascenso, terminan un proyecto difícil o…», ¿qué sucede a continuación en «Escucha · ¿Por qué sufrimos el síndrome del impostor?»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Estos _____ ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.”",
         "options": [
-          "Hay personas que reciben un ascenso, terminan un proyecto difícil o son felicitadas por su trabajo y, aun así, creen que en cualquier momento alguien descubrirá que no merecían estar allí.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "Desde esta perspectiva, distinguir autoexigencia, inseguridad y evaluación realista no consiste en repetir una conclusión.",
-          "La idea final es clara: hablar de ¿por qué sufrimos el síndrome del impostor?"
+          "interpretarlo",
+          "conceptos",
+          "autoexigencia",
+          "nombre"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · ¿Por qué sufrimos el síndrome del impostor?»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“Desde esta perspectiva, distinguir autoexigencia, _____ y evaluación realista no consiste en repetir una conclusión.”",
         "options": [
-          "Hay personas que reciben un ascenso, terminan un proyecto difícil o son felicitadas por su trabajo y, aun así, creen que en cualquier momento alguien descubrirá que no merecían estar allí.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones.",
-          "Desde esta perspectiva, distinguir autoexigencia, inseguridad y evaluación realista no consiste en repetir una conclusión."
+          "personas",
+          "terminan",
+          "inseguridad",
+          "proyecto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · ¿Por qué sufrimos el síndrome del impostor?» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“La idea final es clara: hablar de ¿por qué _____ el síndrome del impostor?”",
         "options": [
-          "Hay personas que reciben un ascenso, terminan un proyecto difícil o son felicitadas por su trabajo y, aun así, creen que en cualquier momento alguien descubrirá que no merecían estar allí.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "Desde esta perspectiva, distinguir autoexigencia, inseguridad y evaluación realista no consiste en repetir una conclusión.",
-          "La idea final es clara: hablar de ¿por qué sufrimos el síndrome del impostor?"
+          "interpretarlo",
+          "autoexigencia",
+          "perspectivas",
+          "sufrimos"
         ]
       }
     ]
@@ -21549,92 +21549,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Escucha · Viví un año sin redes sociales: esto fue lo que aprendí», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“Durante un año, Martín no abrió una sola red _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Durante un año, Martín no abrió una sola red social."
+                "text": "social"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "interpretarlo"
               },
               {
                 "id": "o3",
-                "text": "Desde esta perspectiva, evaluar qué cambia cuando desaparece la exposición permanente no consiste en repetir una conclusión."
+                "text": "notificación"
               },
               {
                 "id": "o4",
-                "text": "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+                "text": "perspectivas"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «Durante un año, Martín no abrió una sola red social.», ¿qué sucede a continuación en «Escucha · Viví un año sin redes sociales: esto fue lo que aprendí»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Estos _____ ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Durante un año, Martín no abrió una sola red social."
+                "text": "interpretarlo"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "conceptos"
               },
               {
                 "id": "o3",
-                "text": "Desde esta perspectiva, evaluar qué cambia cuando desaparece la exposición permanente no consiste en repetir una conclusión."
+                "text": "Martín"
               },
               {
                 "id": "o4",
-                "text": "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+                "text": "social"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Viví un año sin redes sociales: esto fue lo que aprendí»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“Desde esta perspectiva, evaluar qué cambia cuando _____ la exposición permanente no consiste en repetir una conclusión.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Durante un año, Martín no abrió una sola red social."
+                "text": "Durante"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "buscaba"
               },
               {
                 "id": "o3",
-                "text": "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones."
+                "text": "desaparece"
               },
               {
                 "id": "o4",
-                "text": "Desde esta perspectiva, evaluar qué cambia cuando desaparece la exposición permanente no consiste en repetir una conclusión."
+                "text": "interpretarlo"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Viví un año sin redes sociales: esto fue lo que aprendí» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Por eso, una escucha avanzada no se limita a localizar una _____ literal.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Durante un año, Martín no abrió una sola red social."
+                "text": "interpretarlo"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "Martín"
               },
               {
                 "id": "o3",
-                "text": "Desde esta perspectiva, evaluar qué cambia cuando desaparece la exposición permanente no consiste en repetir una conclusión."
+                "text": "social"
               },
               {
                 "id": "o4",
-                "text": "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+                "text": "respuesta"
               }
             ]
           }
@@ -21645,42 +21645,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Escucha · Viví un año sin redes sociales: esto fue lo que aprendí», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“Durante un año, Martín no abrió una sola red _____.”",
         "options": [
-          "Durante un año, Martín no abrió una sola red social.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "Desde esta perspectiva, evaluar qué cambia cuando desaparece la exposición permanente no consiste en repetir una conclusión.",
-          "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+          "social",
+          "interpretarlo",
+          "notificación",
+          "perspectivas"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «Durante un año, Martín no abrió una sola red social.», ¿qué sucede a continuación en «Escucha · Viví un año sin redes sociales: esto fue lo que aprendí»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Estos _____ ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.”",
         "options": [
-          "Durante un año, Martín no abrió una sola red social.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "Desde esta perspectiva, evaluar qué cambia cuando desaparece la exposición permanente no consiste en repetir una conclusión.",
-          "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+          "interpretarlo",
+          "conceptos",
+          "Martín",
+          "social"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Viví un año sin redes sociales: esto fue lo que aprendí»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“Desde esta perspectiva, evaluar qué cambia cuando _____ la exposición permanente no consiste en repetir una conclusión.”",
         "options": [
-          "Durante un año, Martín no abrió una sola red social.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones.",
-          "Desde esta perspectiva, evaluar qué cambia cuando desaparece la exposición permanente no consiste en repetir una conclusión."
+          "Durante",
+          "buscaba",
+          "desaparece",
+          "interpretarlo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Viví un año sin redes sociales: esto fue lo que aprendí» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Por eso, una escucha avanzada no se limita a localizar una _____ literal.”",
         "options": [
-          "Durante un año, Martín no abrió una sola red social.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "Desde esta perspectiva, evaluar qué cambia cuando desaparece la exposición permanente no consiste en repetir una conclusión.",
-          "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+          "interpretarlo",
+          "Martín",
+          "social",
+          "respuesta"
         ]
       }
     ]
@@ -21755,92 +21755,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Así es mi casa», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“Vivo en una casa pequeña, pero _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Vivo en una casa pequeña, pero cómoda."
+                "text": "cómoda"
               },
               {
                 "id": "o2",
-                "text": "En mi habitación hay una cama, un armario y una mesa para estudiar."
+                "text": "habitaciones"
               },
               {
                 "id": "o3",
-                "text": "La sala tiene un sofá grande y unas fotos de mi familia."
+                "text": "habitación"
               },
               {
                 "id": "o4",
-                "text": "Me gusta sentarme allí por la tarde porque es tranquilo y puedo leer o escuchar música."
+                "text": "una"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «Vivo en una casa pequeña, pero cómoda.», ¿qué sucede a continuación en «Así es mi casa»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“En mi habitación hay una cama, un _____ y una mesa para estudiar.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Vivo en una casa pequeña, pero cómoda."
+                "text": "habitaciones"
               },
               {
                 "id": "o2",
-                "text": "En mi habitación hay una cama, un armario y una mesa para estudiar."
+                "text": "armario"
               },
               {
                 "id": "o3",
-                "text": "La sala tiene un sofá grande y unas fotos de mi familia."
+                "text": "Vivo"
               },
               {
                 "id": "o4",
-                "text": "Me gusta sentarme allí por la tarde porque es tranquilo y puedo leer o escuchar música."
+                "text": "casa"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Así es mi casa»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“La sala tiene un sofá grande y unas fotos de mi _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Vivo en una casa pequeña, pero cómoda."
+                "text": "habitaciones"
               },
               {
                 "id": "o2",
-                "text": "En mi habitación hay una cama, un armario y una mesa para estudiar."
+                "text": "Vivo"
               },
               {
                 "id": "o3",
-                "text": "La sala tiene un sofá grande y unas fotos de mi familia."
+                "text": "familia"
               },
               {
                 "id": "o4",
-                "text": "Me gusta sentarme allí por la tarde porque es tranquilo y puedo leer o escuchar música."
+                "text": "casa"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Así es mi casa» después de «La sala tiene un sofá grande y unas fotos de mi familia.»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Me gusta sentarme allí por la tarde porque es _____ y puedo leer o escuchar música.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Vivo en una casa pequeña, pero cómoda."
+                "text": "cómoda"
               },
               {
                 "id": "o2",
-                "text": "En mi habitación hay una cama, un armario y una mesa para estudiar."
+                "text": "habitaciones"
               },
               {
                 "id": "o3",
-                "text": "La sala tiene un sofá grande y unas fotos de mi familia."
+                "text": "cocina"
               },
               {
                 "id": "o4",
-                "text": "Me gusta sentarme allí por la tarde porque es tranquilo y puedo leer o escuchar música."
+                "text": "tranquilo"
               }
             ]
           }
@@ -21851,42 +21851,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Así es mi casa», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“Vivo en una casa pequeña, pero _____.”",
         "options": [
-          "Vivo en una casa pequeña, pero cómoda.",
-          "En mi habitación hay una cama, un armario y una mesa para estudiar.",
-          "La sala tiene un sofá grande y unas fotos de mi familia.",
-          "Me gusta sentarme allí por la tarde porque es tranquilo y puedo leer o escuchar música."
+          "cómoda",
+          "habitaciones",
+          "habitación",
+          "una"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «Vivo en una casa pequeña, pero cómoda.», ¿qué sucede a continuación en «Así es mi casa»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“En mi habitación hay una cama, un _____ y una mesa para estudiar.”",
         "options": [
-          "Vivo en una casa pequeña, pero cómoda.",
-          "En mi habitación hay una cama, un armario y una mesa para estudiar.",
-          "La sala tiene un sofá grande y unas fotos de mi familia.",
-          "Me gusta sentarme allí por la tarde porque es tranquilo y puedo leer o escuchar música."
+          "habitaciones",
+          "armario",
+          "Vivo",
+          "casa"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Así es mi casa»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“La sala tiene un sofá grande y unas fotos de mi _____.”",
         "options": [
-          "Vivo en una casa pequeña, pero cómoda.",
-          "En mi habitación hay una cama, un armario y una mesa para estudiar.",
-          "La sala tiene un sofá grande y unas fotos de mi familia.",
-          "Me gusta sentarme allí por la tarde porque es tranquilo y puedo leer o escuchar música."
+          "habitaciones",
+          "Vivo",
+          "familia",
+          "casa"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Así es mi casa» después de «La sala tiene un sofá grande y unas fotos de mi familia.»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Me gusta sentarme allí por la tarde porque es _____ y puedo leer o escuchar música.”",
         "options": [
-          "Vivo en una casa pequeña, pero cómoda.",
-          "En mi habitación hay una cama, un armario y una mesa para estudiar.",
-          "La sala tiene un sofá grande y unas fotos de mi familia.",
-          "Me gusta sentarme allí por la tarde porque es tranquilo y puedo leer o escuchar música."
+          "cómoda",
+          "habitaciones",
+          "cocina",
+          "tranquilo"
         ]
       }
     ]
@@ -25787,92 +25787,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Escucha · Casa y barrio», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“Estoy buscando un apartamento en la calle _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Estoy buscando un apartamento en la calle Mayor."
+                "text": "Mayor"
               },
               {
                 "id": "o2",
-                "text": "El barrio es seguro y hay poco ruido, aunque el alquiler es un poco más alto."
+                "text": "tranquilidad"
               },
               {
                 "id": "o3",
-                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
+                "text": "apartamento"
               },
               {
                 "id": "o4",
-                "text": "Me gusta tener un plan claro antes de seguir."
+                "text": "información"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «Estoy buscando un apartamento en la calle Mayor.», ¿qué sucede a continuación en «Escucha · Casa y barrio»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“El barrio es _____ y hay poco ruido, aunque el alquiler es un poco más alto.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Estoy buscando un apartamento en la calle Mayor."
+                "text": "tranquilidad"
               },
               {
                 "id": "o2",
-                "text": "El barrio es seguro y hay poco ruido, aunque el alquiler es un poco más alto."
+                "text": "seguro"
               },
               {
                 "id": "o3",
-                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
+                "text": "apartamento"
               },
               {
                 "id": "o4",
-                "text": "Me gusta tener un plan claro antes de seguir."
+                "text": "información"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Casa y barrio»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“Al final, repaso la información y preparo el _____ paso con calma.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Estoy buscando un apartamento en la calle Mayor."
+                "text": "mañana"
               },
               {
                 "id": "o2",
-                "text": "El barrio es seguro y hay poco ruido, aunque el alquiler es un poco más alto."
+                "text": "tranquilidad"
               },
               {
                 "id": "o3",
-                "text": "Me interesa porque tiene muebles básicos y mucha luz por la mañana."
+                "text": "siguiente"
               },
               {
                 "id": "o4",
-                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
+                "text": "barrio"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Casa y barrio» después de «Me interesa porque tiene muebles básicos y mucha luz por la mañana.»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Me gusta tener un plan claro antes de _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Estoy buscando un apartamento en la calle Mayor."
+                "text": "tranquilidad"
               },
               {
                 "id": "o2",
-                "text": "El barrio es seguro y hay poco ruido, aunque el alquiler es un poco más alto."
+                "text": "apartamento"
               },
               {
                 "id": "o3",
-                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
+                "text": "información"
               },
               {
                 "id": "o4",
-                "text": "Me gusta tener un plan claro antes de seguir."
+                "text": "seguir"
               }
             ]
           }
@@ -25883,42 +25883,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Escucha · Casa y barrio», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“Estoy buscando un apartamento en la calle _____.”",
         "options": [
-          "Estoy buscando un apartamento en la calle Mayor.",
-          "El barrio es seguro y hay poco ruido, aunque el alquiler es un poco más alto.",
-          "Al final, repaso la información y preparo el siguiente paso con calma.",
-          "Me gusta tener un plan claro antes de seguir."
+          "Mayor",
+          "tranquilidad",
+          "apartamento",
+          "información"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «Estoy buscando un apartamento en la calle Mayor.», ¿qué sucede a continuación en «Escucha · Casa y barrio»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“El barrio es _____ y hay poco ruido, aunque el alquiler es un poco más alto.”",
         "options": [
-          "Estoy buscando un apartamento en la calle Mayor.",
-          "El barrio es seguro y hay poco ruido, aunque el alquiler es un poco más alto.",
-          "Al final, repaso la información y preparo el siguiente paso con calma.",
-          "Me gusta tener un plan claro antes de seguir."
+          "tranquilidad",
+          "seguro",
+          "apartamento",
+          "información"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Casa y barrio»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“Al final, repaso la información y preparo el _____ paso con calma.”",
         "options": [
-          "Estoy buscando un apartamento en la calle Mayor.",
-          "El barrio es seguro y hay poco ruido, aunque el alquiler es un poco más alto.",
-          "Me interesa porque tiene muebles básicos y mucha luz por la mañana.",
-          "Al final, repaso la información y preparo el siguiente paso con calma."
+          "mañana",
+          "tranquilidad",
+          "siguiente",
+          "barrio"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Casa y barrio» después de «Me interesa porque tiene muebles básicos y mucha luz por la mañana.»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Me gusta tener un plan claro antes de _____.”",
         "options": [
-          "Estoy buscando un apartamento en la calle Mayor.",
-          "El barrio es seguro y hay poco ruido, aunque el alquiler es un poco más alto.",
-          "Al final, repaso la información y preparo el siguiente paso con calma.",
-          "Me gusta tener un plan claro antes de seguir."
+          "tranquilidad",
+          "apartamento",
+          "información",
+          "seguir"
         ]
       }
     ]
@@ -25962,92 +25962,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Escucha · La camiseta barata tiene una historia», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“En este consejo de consumo, explico cómo elegí unos audífonos sin decidir solo por el _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "En este consejo de consumo, explico cómo elegí unos audífonos sin decidir solo por el precio."
+                "text": "precio"
               },
               {
                 "id": "o2",
-                "text": "Leí la etiqueta de varias opciones y vi que algunas prendas eran más duraderas, aunque costaban un poco más."
+                "text": "reutilizarla"
               },
               {
                 "id": "o3",
-                "text": "No creo que una compra cambie todo el consumo, pero sí puedo elegir productos que duren y pensar qué ocurre después de usarlos."
+                "text": "convirtiera"
               },
               {
                 "id": "o4",
-                "text": "Además, comparé cuánto costaría reparar una prenda parecida y decidí reservar parte de mi dinero para una compra que pudiera cuidar durante más tiempo."
+                "text": "responsable"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «En este consejo de consumo, explico cómo elegí unos audífonos sin…», ¿qué sucede a continuación en «Escucha · La camiseta barata tiene una historia»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Leí la _____ de varias opciones y vi que algunas prendas eran más duraderas, aunque costaban un poco más.”",
             "options": [
               {
                 "id": "o1",
-                "text": "En este consejo de consumo, explico cómo elegí unos audífonos sin decidir solo por el precio."
+                "text": "reutilizarla"
               },
               {
                 "id": "o2",
-                "text": "Leí la etiqueta de varias opciones y vi que algunas prendas eran más duraderas, aunque costaban un poco más."
+                "text": "etiqueta"
               },
               {
                 "id": "o3",
-                "text": "No creo que una compra cambie todo el consumo, pero sí puedo elegir productos que duren y pensar qué ocurre después de usarlos."
+                "text": "elegí"
               },
               {
                 "id": "o4",
-                "text": "Además, comparé cuánto costaría reparar una prenda parecida y decidí reservar parte de mi dinero para una compra que pudiera cuidar durante más tiempo."
+                "text": "antes"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · La camiseta barata tiene una historia»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“No creo que una compra cambie todo el consumo, pero sí puedo _____ productos que duren y pensar qué ocurre después de usarlos.”",
             "options": [
               {
                 "id": "o1",
-                "text": "En este consejo de consumo, explico cómo elegí unos audífonos sin decidir solo por el precio."
+                "text": "reutilizarla"
               },
               {
                 "id": "o2",
-                "text": "Leí la etiqueta de varias opciones y vi que algunas prendas eran más duraderas, aunque costaban un poco más."
+                "text": "convirtiera"
               },
               {
                 "id": "o3",
-                "text": "Quería comprar una camiseta barata para una actividad del instituto, pero decidí comparar antes de pagar."
+                "text": "elegir"
               },
               {
                 "id": "o4",
-                "text": "No creo que una compra cambie todo el consumo, pero sí puedo elegir productos que duren y pensar qué ocurre después de usarlos."
+                "text": "responsable"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · La camiseta barata tiene una historia» después de «Quería comprar una camiseta barata para una actividad del instituto,…»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Además, comparé cuánto costaría reparar una _____ parecida y decidí reservar parte de mi dinero para una compra que pudiera cuidar durante más tiempo.”",
             "options": [
               {
                 "id": "o1",
-                "text": "En este consejo de consumo, explico cómo elegí unos audífonos sin decidir solo por el precio."
+                "text": "reutilizarla"
               },
               {
                 "id": "o2",
-                "text": "Leí la etiqueta de varias opciones y vi que algunas prendas eran más duraderas, aunque costaban un poco más."
+                "text": "convirtiera"
               },
               {
                 "id": "o3",
-                "text": "No creo que una compra cambie todo el consumo, pero sí puedo elegir productos que duren y pensar qué ocurre después de usarlos."
+                "text": "responsable"
               },
               {
                 "id": "o4",
-                "text": "Además, comparé cuánto costaría reparar una prenda parecida y decidí reservar parte de mi dinero para una compra que pudiera cuidar durante más tiempo."
+                "text": "prenda"
               }
             ]
           }
@@ -26058,42 +26058,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Escucha · La camiseta barata tiene una historia», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“En este consejo de consumo, explico cómo elegí unos audífonos sin decidir solo por el _____.”",
         "options": [
-          "En este consejo de consumo, explico cómo elegí unos audífonos sin decidir solo por el precio.",
-          "Leí la etiqueta de varias opciones y vi que algunas prendas eran más duraderas, aunque costaban un poco más.",
-          "No creo que una compra cambie todo el consumo, pero sí puedo elegir productos que duren y pensar qué ocurre después de usarlos.",
-          "Además, comparé cuánto costaría reparar una prenda parecida y decidí reservar parte de mi dinero para una compra que pudiera cuidar durante más tiempo."
+          "precio",
+          "reutilizarla",
+          "convirtiera",
+          "responsable"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «En este consejo de consumo, explico cómo elegí unos audífonos sin…», ¿qué sucede a continuación en «Escucha · La camiseta barata tiene una historia»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Leí la _____ de varias opciones y vi que algunas prendas eran más duraderas, aunque costaban un poco más.”",
         "options": [
-          "En este consejo de consumo, explico cómo elegí unos audífonos sin decidir solo por el precio.",
-          "Leí la etiqueta de varias opciones y vi que algunas prendas eran más duraderas, aunque costaban un poco más.",
-          "No creo que una compra cambie todo el consumo, pero sí puedo elegir productos que duren y pensar qué ocurre después de usarlos.",
-          "Además, comparé cuánto costaría reparar una prenda parecida y decidí reservar parte de mi dinero para una compra que pudiera cuidar durante más tiempo."
+          "reutilizarla",
+          "etiqueta",
+          "elegí",
+          "antes"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · La camiseta barata tiene una historia»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“No creo que una compra cambie todo el consumo, pero sí puedo _____ productos que duren y pensar qué ocurre después de usarlos.”",
         "options": [
-          "En este consejo de consumo, explico cómo elegí unos audífonos sin decidir solo por el precio.",
-          "Leí la etiqueta de varias opciones y vi que algunas prendas eran más duraderas, aunque costaban un poco más.",
-          "Quería comprar una camiseta barata para una actividad del instituto, pero decidí comparar antes de pagar.",
-          "No creo que una compra cambie todo el consumo, pero sí puedo elegir productos que duren y pensar qué ocurre después de usarlos."
+          "reutilizarla",
+          "convirtiera",
+          "elegir",
+          "responsable"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · La camiseta barata tiene una historia» después de «Quería comprar una camiseta barata para una actividad del instituto,…»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Además, comparé cuánto costaría reparar una _____ parecida y decidí reservar parte de mi dinero para una compra que pudiera cuidar durante más tiempo.”",
         "options": [
-          "En este consejo de consumo, explico cómo elegí unos audífonos sin decidir solo por el precio.",
-          "Leí la etiqueta de varias opciones y vi que algunas prendas eran más duraderas, aunque costaban un poco más.",
-          "No creo que una compra cambie todo el consumo, pero sí puedo elegir productos que duren y pensar qué ocurre después de usarlos.",
-          "Además, comparé cuánto costaría reparar una prenda parecida y decidí reservar parte de mi dinero para una compra que pudiera cuidar durante más tiempo."
+          "reutilizarla",
+          "convirtiera",
+          "responsable",
+          "prenda"
         ]
       }
     ]
@@ -26137,92 +26137,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Escucha · Aprender con IA sin entregar el pensamiento», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“En este editorial educativo, defiendo una forma más justa de hablar sobre las clases _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "En este editorial educativo, defiendo una forma más justa de hablar sobre las clases híbridas."
+                "text": "híbridas"
               },
               {
                 "id": "o2",
-                "text": "Sin embargo, la brecha no desaparece solo porque el material esté en línea: hay estudiantes que comparten un teléfono, cuidan a familiares o no tienen un espacio tranquilo."
+                "text": "retroalimentación"
               },
               {
                 "id": "o3",
-                "text": "Las actividades que requieren interacción deberían tener una alternativa presencial, mientras que los recursos grabados pueden servir para repasar."
+                "text": "participación"
               },
               {
                 "id": "o4",
-                "text": "También compararía el acceso a dispositivos, la carga de cuidados y las oportunidades reales de pedir ayuda cuando algo no se entiende en cada etapa."
+                "text": "oportunidades"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «En este editorial educativo, defiendo una forma más justa de hablar…», ¿qué sucede a continuación en «Escucha · Aprender con IA sin entregar el pensamiento»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Sin _____, la brecha no desaparece solo porque el material esté en línea: hay estudiantes que comparten un teléfono, cuidan a familiares o no tienen un espacio tranquilo.”",
             "options": [
               {
                 "id": "o1",
-                "text": "En este editorial educativo, defiendo una forma más justa de hablar sobre las clases híbridas."
+                "text": "retroalimentación"
               },
               {
                 "id": "o2",
-                "text": "Sin embargo, la brecha no desaparece solo porque el material esté en línea: hay estudiantes que comparten un teléfono, cuidan a familiares o no tienen un espacio tranquilo."
+                "text": "embargo"
               },
               {
                 "id": "o3",
-                "text": "Las actividades que requieren interacción deberían tener una alternativa presencial, mientras que los recursos grabados pueden servir para repasar."
+                "text": "participación"
               },
               {
                 "id": "o4",
-                "text": "También compararía el acceso a dispositivos, la carga de cuidados y las oportunidades reales de pedir ayuda cuando algo no se entiende en cada etapa."
+                "text": "oportunidades"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Aprender con IA sin entregar el pensamiento»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“Las actividades que requieren _____ deberían tener una alternativa presencial, mientras que los recursos grabados pueden servir para repasar.”",
             "options": [
               {
                 "id": "o1",
-                "text": "En este editorial educativo, defiendo una forma más justa de hablar sobre las clases híbridas."
+                "text": "retroalimentación"
               },
               {
                 "id": "o2",
-                "text": "Las actividades que requieren interacción deberían tener una alternativa presencial, mientras que los recursos grabados pueden servir para repasar."
+                "text": "defiendo"
               },
               {
                 "id": "o3",
-                "text": "Sin embargo, la brecha no desaparece solo porque el material esté en línea: hay estudiantes que comparten un teléfono, cuidan a familiares o no tienen un espacio tranquilo."
+                "text": "interacción"
               },
               {
                 "id": "o4",
-                "text": "También compararía el acceso a dispositivos, la carga de cuidados y las oportunidades reales de pedir ayuda cuando algo no se entiende en cada etapa."
+                "text": "híbridas"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Aprender con IA sin entregar el pensamiento» después de «Sin embargo, la brecha no desaparece solo porque el material esté en…»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“También compararía el acceso a dispositivos, la carga de cuidados y las oportunidades _____ de pedir ayuda cuando algo no se entiende en cada etapa.”",
             "options": [
               {
                 "id": "o1",
-                "text": "En este editorial educativo, defiendo una forma más justa de hablar sobre las clases híbridas."
+                "text": "retroalimentación"
               },
               {
                 "id": "o2",
-                "text": "Sin embargo, la brecha no desaparece solo porque el material esté en línea: hay estudiantes que comparten un teléfono, cuidan a familiares o no tienen un espacio tranquilo."
+                "text": "participación"
               },
               {
                 "id": "o3",
-                "text": "Las actividades que requieren interacción deberían tener una alternativa presencial, mientras que los recursos grabados pueden servir para repasar."
+                "text": "oportunidades"
               },
               {
                 "id": "o4",
-                "text": "También compararía el acceso a dispositivos, la carga de cuidados y las oportunidades reales de pedir ayuda cuando algo no se entiende en cada etapa."
+                "text": "reales"
               }
             ]
           }
@@ -26233,42 +26233,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Escucha · Aprender con IA sin entregar el pensamiento», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“En este editorial educativo, defiendo una forma más justa de hablar sobre las clases _____.”",
         "options": [
-          "En este editorial educativo, defiendo una forma más justa de hablar sobre las clases híbridas.",
-          "Sin embargo, la brecha no desaparece solo porque el material esté en línea: hay estudiantes que comparten un teléfono, cuidan a familiares o no tienen un espacio tranquilo.",
-          "Las actividades que requieren interacción deberían tener una alternativa presencial, mientras que los recursos grabados pueden servir para repasar.",
-          "También compararía el acceso a dispositivos, la carga de cuidados y las oportunidades reales de pedir ayuda cuando algo no se entiende en cada etapa."
+          "híbridas",
+          "retroalimentación",
+          "participación",
+          "oportunidades"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «En este editorial educativo, defiendo una forma más justa de hablar…», ¿qué sucede a continuación en «Escucha · Aprender con IA sin entregar el pensamiento»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Sin _____, la brecha no desaparece solo porque el material esté en línea: hay estudiantes que comparten un teléfono, cuidan a familiares o no tienen un espacio tranquilo.”",
         "options": [
-          "En este editorial educativo, defiendo una forma más justa de hablar sobre las clases híbridas.",
-          "Sin embargo, la brecha no desaparece solo porque el material esté en línea: hay estudiantes que comparten un teléfono, cuidan a familiares o no tienen un espacio tranquilo.",
-          "Las actividades que requieren interacción deberían tener una alternativa presencial, mientras que los recursos grabados pueden servir para repasar.",
-          "También compararía el acceso a dispositivos, la carga de cuidados y las oportunidades reales de pedir ayuda cuando algo no se entiende en cada etapa."
+          "retroalimentación",
+          "embargo",
+          "participación",
+          "oportunidades"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Aprender con IA sin entregar el pensamiento»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“Las actividades que requieren _____ deberían tener una alternativa presencial, mientras que los recursos grabados pueden servir para repasar.”",
         "options": [
-          "En este editorial educativo, defiendo una forma más justa de hablar sobre las clases híbridas.",
-          "Las actividades que requieren interacción deberían tener una alternativa presencial, mientras que los recursos grabados pueden servir para repasar.",
-          "Sin embargo, la brecha no desaparece solo porque el material esté en línea: hay estudiantes que comparten un teléfono, cuidan a familiares o no tienen un espacio tranquilo.",
-          "También compararía el acceso a dispositivos, la carga de cuidados y las oportunidades reales de pedir ayuda cuando algo no se entiende en cada etapa."
+          "retroalimentación",
+          "defiendo",
+          "interacción",
+          "híbridas"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Aprender con IA sin entregar el pensamiento» después de «Sin embargo, la brecha no desaparece solo porque el material esté en…»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“También compararía el acceso a dispositivos, la carga de cuidados y las oportunidades _____ de pedir ayuda cuando algo no se entiende en cada etapa.”",
         "options": [
-          "En este editorial educativo, defiendo una forma más justa de hablar sobre las clases híbridas.",
-          "Sin embargo, la brecha no desaparece solo porque el material esté en línea: hay estudiantes que comparten un teléfono, cuidan a familiares o no tienen un espacio tranquilo.",
-          "Las actividades que requieren interacción deberían tener una alternativa presencial, mientras que los recursos grabados pueden servir para repasar.",
-          "También compararía el acceso a dispositivos, la carga de cuidados y las oportunidades reales de pedir ayuda cuando algo no se entiende en cada etapa."
+          "retroalimentación",
+          "participación",
+          "oportunidades",
+          "reales"
         ]
       }
     ]
@@ -26312,92 +26312,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Escucha · Cómo una pequeña empresa emergente revolucionó una industria», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“La empresa empezó en una mesa pequeña y con un prototipo que apenas _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "La empresa empezó en una mesa pequeña y con un prototipo que apenas funcionaba."
+                "text": "funcionaba"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "transformación"
               },
               {
                 "id": "o3",
-                "text": "Aunque «empresa emergente» parece una decisión individual, conviene considerar «prototipo» y «inversión»."
+                "text": "empresa"
               },
               {
                 "id": "o4",
-                "text": "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+                "text": "pequeña"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «La empresa empezó en una mesa pequeña y con un prototipo que apenas…», ¿qué sucede a continuación en «Escucha · Cómo una pequeña empresa emergente revolucionó una industria»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Estos _____ ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.”",
             "options": [
               {
                 "id": "o1",
-                "text": "La empresa empezó en una mesa pequeña y con un prototipo que apenas funcionaba."
+                "text": "transformación"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "conceptos"
               },
               {
                 "id": "o3",
-                "text": "Aunque «empresa emergente» parece una decisión individual, conviene considerar «prototipo» y «inversión»."
+                "text": "interpretarlo"
               },
               {
                 "id": "o4",
-                "text": "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+                "text": "empezó"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Cómo una pequeña empresa emergente revolucionó una industria»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“Aunque «empresa emergente» _____ una decisión individual, conviene considerar «prototipo» y «inversión».”",
             "options": [
               {
                 "id": "o1",
-                "text": "La empresa empezó en una mesa pequeña y con un prototipo que apenas funcionaba."
+                "text": "transformación"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "interpretarlo"
               },
               {
                 "id": "o3",
-                "text": "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones."
+                "text": "parece"
               },
               {
                 "id": "o4",
-                "text": "Aunque «empresa emergente» parece una decisión individual, conviene considerar «prototipo» y «inversión»."
+                "text": "espectacular"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Cómo una pequeña empresa emergente revolucionó una industria» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Puede sostener una conclusión provisional, identificar una _____ razonable y explicar qué nueva información obligaría a revisarla.”",
             "options": [
               {
                 "id": "o1",
-                "text": "La empresa empezó en una mesa pequeña y con un prototipo que apenas funcionaba."
+                "text": "transformación"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "interpretarlo"
               },
               {
                 "id": "o3",
-                "text": "Aunque «empresa emergente» parece una decisión individual, conviene considerar «prototipo» y «inversión»."
+                "text": "espectacular"
               },
               {
                 "id": "o4",
-                "text": "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+                "text": "objeción"
               }
             ]
           }
@@ -26408,42 +26408,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Escucha · Cómo una pequeña empresa emergente revolucionó una industria», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“La empresa empezó en una mesa pequeña y con un prototipo que apenas _____.”",
         "options": [
-          "La empresa empezó en una mesa pequeña y con un prototipo que apenas funcionaba.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "Aunque «empresa emergente» parece una decisión individual, conviene considerar «prototipo» y «inversión».",
-          "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+          "funcionaba",
+          "transformación",
+          "empresa",
+          "pequeña"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «La empresa empezó en una mesa pequeña y con un prototipo que apenas…», ¿qué sucede a continuación en «Escucha · Cómo una pequeña empresa emergente revolucionó una industria»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Estos _____ ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.”",
         "options": [
-          "La empresa empezó en una mesa pequeña y con un prototipo que apenas funcionaba.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "Aunque «empresa emergente» parece una decisión individual, conviene considerar «prototipo» y «inversión».",
-          "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+          "transformación",
+          "conceptos",
+          "interpretarlo",
+          "empezó"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Cómo una pequeña empresa emergente revolucionó una industria»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“Aunque «empresa emergente» _____ una decisión individual, conviene considerar «prototipo» y «inversión».”",
         "options": [
-          "La empresa empezó en una mesa pequeña y con un prototipo que apenas funcionaba.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones.",
-          "Aunque «empresa emergente» parece una decisión individual, conviene considerar «prototipo» y «inversión»."
+          "transformación",
+          "interpretarlo",
+          "parece",
+          "espectacular"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Cómo una pequeña empresa emergente revolucionó una industria» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Puede sostener una conclusión provisional, identificar una _____ razonable y explicar qué nueva información obligaría a revisarla.”",
         "options": [
-          "La empresa empezó en una mesa pequeña y con un prototipo que apenas funcionaba.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "Aunque «empresa emergente» parece una decisión individual, conviene considerar «prototipo» y «inversión».",
-          "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+          "transformación",
+          "interpretarlo",
+          "espectacular",
+          "objeción"
         ]
       }
     ]
@@ -26487,92 +26487,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Escucha · ¿La inteligencia artificial reemplazará las profesiones creativas?», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“La pregunta no es solo si una inteligencia artificial puede escribir una canción, diseñar una imagen o proponer una _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "La pregunta no es solo si una inteligencia artificial puede escribir una canción, diseñar una imagen o proponer una campaña."
+                "text": "campaña"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "automatización"
               },
               {
                 "id": "o3",
-                "text": "Desde esta perspectiva, defender una postura compleja sobre creatividad humana y automatización no consiste en repetir una conclusión."
+                "text": "interpretarlo"
               },
               {
                 "id": "o4",
-                "text": "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+                "text": "inteligencia"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «La pregunta no es solo si una inteligencia artificial puede escribir…», ¿qué sucede a continuación en «Escucha · ¿La inteligencia artificial reemplazará las profesiones creativas?»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Estos _____ ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.”",
             "options": [
               {
                 "id": "o1",
-                "text": "La pregunta no es solo si una inteligencia artificial puede escribir una canción, diseñar una imagen o proponer una campaña."
+                "text": "automatización"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "conceptos"
               },
               {
                 "id": "o3",
-                "text": "Desde esta perspectiva, defender una postura compleja sobre creatividad humana y automatización no consiste en repetir una conclusión."
+                "text": "interpretarlo"
               },
               {
                 "id": "o4",
-                "text": "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+                "text": "inteligencia"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · ¿La inteligencia artificial reemplazará las profesiones creativas?»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“Desde esta perspectiva, defender una postura _____ sobre creatividad humana y automatización no consiste en repetir una conclusión.”",
             "options": [
               {
                 "id": "o1",
-                "text": "La pregunta no es solo si una inteligencia artificial puede escribir una canción, diseñar una imagen o proponer una campaña."
+                "text": "automatización"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "interpretarlo"
               },
               {
                 "id": "o3",
-                "text": "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones."
+                "text": "compleja"
               },
               {
                 "id": "o4",
-                "text": "Desde esta perspectiva, defender una postura compleja sobre creatividad humana y automatización no consiste en repetir una conclusión."
+                "text": "inteligencia"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · ¿La inteligencia artificial reemplazará las profesiones creativas?» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Por eso, una escucha avanzada no se limita a localizar una _____ literal.”",
             "options": [
               {
                 "id": "o1",
-                "text": "La pregunta no es solo si una inteligencia artificial puede escribir una canción, diseñar una imagen o proponer una campaña."
+                "text": "automatización"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "interpretarlo"
               },
               {
                 "id": "o3",
-                "text": "Desde esta perspectiva, defender una postura compleja sobre creatividad humana y automatización no consiste en repetir una conclusión."
+                "text": "inteligencia"
               },
               {
                 "id": "o4",
-                "text": "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+                "text": "respuesta"
               }
             ]
           }
@@ -26583,42 +26583,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Escucha · ¿La inteligencia artificial reemplazará las profesiones creativas?», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“La pregunta no es solo si una inteligencia artificial puede escribir una canción, diseñar una imagen o proponer una _____.”",
         "options": [
-          "La pregunta no es solo si una inteligencia artificial puede escribir una canción, diseñar una imagen o proponer una campaña.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "Desde esta perspectiva, defender una postura compleja sobre creatividad humana y automatización no consiste en repetir una conclusión.",
-          "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+          "campaña",
+          "automatización",
+          "interpretarlo",
+          "inteligencia"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «La pregunta no es solo si una inteligencia artificial puede escribir…», ¿qué sucede a continuación en «Escucha · ¿La inteligencia artificial reemplazará las profesiones creativas?»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Estos _____ ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.”",
         "options": [
-          "La pregunta no es solo si una inteligencia artificial puede escribir una canción, diseñar una imagen o proponer una campaña.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "Desde esta perspectiva, defender una postura compleja sobre creatividad humana y automatización no consiste en repetir una conclusión.",
-          "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+          "automatización",
+          "conceptos",
+          "interpretarlo",
+          "inteligencia"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · ¿La inteligencia artificial reemplazará las profesiones creativas?»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“Desde esta perspectiva, defender una postura _____ sobre creatividad humana y automatización no consiste en repetir una conclusión.”",
         "options": [
-          "La pregunta no es solo si una inteligencia artificial puede escribir una canción, diseñar una imagen o proponer una campaña.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones.",
-          "Desde esta perspectiva, defender una postura compleja sobre creatividad humana y automatización no consiste en repetir una conclusión."
+          "automatización",
+          "interpretarlo",
+          "compleja",
+          "inteligencia"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · ¿La inteligencia artificial reemplazará las profesiones creativas?» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Por eso, una escucha avanzada no se limita a localizar una _____ literal.”",
         "options": [
-          "La pregunta no es solo si una inteligencia artificial puede escribir una canción, diseñar una imagen o proponer una campaña.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "Desde esta perspectiva, defender una postura compleja sobre creatividad humana y automatización no consiste en repetir una conclusión.",
-          "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+          "automatización",
+          "interpretarlo",
+          "inteligencia",
+          "respuesta"
         ]
       }
     ]
@@ -26693,92 +26693,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Perdón, ¿dónde está el banco?», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“Cada día me _____ a las seis y media.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Cada día me levanto a las seis y media."
+                "text": "levanto"
               },
               {
                 "id": "o2",
-                "text": "Después camino a la escuela; las clases empiezan a las ocho."
+                "text": "Cada"
               },
               {
                 "id": "o3",
-                "text": "A veces veo una serie antes de cenar."
+                "text": "seis"
               },
               {
                 "id": "o4",
-                "text": "Así no tengo que correr por la mañana."
+                "text": "ocho"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «Cada día me levanto a las seis y media.», ¿qué sucede a continuación en «Perdón, ¿dónde está el banco?»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Después _____ a la escuela; las clases empiezan a las ocho.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Cada día me levanto a las seis y media."
+                "text": "día"
               },
               {
                 "id": "o2",
-                "text": "Después camino a la escuela; las clases empiezan a las ocho."
+                "text": "camino"
               },
               {
                 "id": "o3",
-                "text": "A veces veo una serie antes de cenar."
+                "text": "las"
               },
               {
                 "id": "o4",
-                "text": "Así no tengo que correr por la mañana."
+                "text": "Por"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Perdón, ¿dónde está el banco?»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“A veces veo una _____ antes de cenar.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Cada día me levanto a las seis y media."
+                "text": "siguiente"
               },
               {
                 "id": "o2",
-                "text": "Después camino a la escuela; las clases empiezan a las ocho."
+                "text": "desayuno"
               },
               {
                 "id": "o3",
-                "text": "A veces veo una serie antes de cenar."
+                "text": "serie"
               },
               {
                 "id": "o4",
-                "text": "Así no tengo que correr por la mañana."
+                "text": "empiezan"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Perdón, ¿dónde está el banco?» después de «A veces veo una serie antes de cenar.»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Así no tengo que correr por la _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Cada día me levanto a las seis y media."
+                "text": "día"
               },
               {
                 "id": "o2",
-                "text": "Después camino a la escuela; las clases empiezan a las ocho."
+                "text": "las"
               },
               {
                 "id": "o3",
-                "text": "A veces veo una serie antes de cenar."
+                "text": "Por"
               },
               {
                 "id": "o4",
-                "text": "Así no tengo que correr por la mañana."
+                "text": "mañana"
               }
             ]
           }
@@ -26789,42 +26789,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Perdón, ¿dónde está el banco?», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“Cada día me _____ a las seis y media.”",
         "options": [
-          "Cada día me levanto a las seis y media.",
-          "Después camino a la escuela; las clases empiezan a las ocho.",
-          "A veces veo una serie antes de cenar.",
-          "Así no tengo que correr por la mañana."
+          "levanto",
+          "Cada",
+          "seis",
+          "ocho"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «Cada día me levanto a las seis y media.», ¿qué sucede a continuación en «Perdón, ¿dónde está el banco?»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Después _____ a la escuela; las clases empiezan a las ocho.”",
         "options": [
-          "Cada día me levanto a las seis y media.",
-          "Después camino a la escuela; las clases empiezan a las ocho.",
-          "A veces veo una serie antes de cenar.",
-          "Así no tengo que correr por la mañana."
+          "día",
+          "camino",
+          "las",
+          "Por"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Perdón, ¿dónde está el banco?»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“A veces veo una _____ antes de cenar.”",
         "options": [
-          "Cada día me levanto a las seis y media.",
-          "Después camino a la escuela; las clases empiezan a las ocho.",
-          "A veces veo una serie antes de cenar.",
-          "Así no tengo que correr por la mañana."
+          "siguiente",
+          "desayuno",
+          "serie",
+          "empiezan"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Perdón, ¿dónde está el banco?» después de «A veces veo una serie antes de cenar.»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Así no tengo que correr por la _____.”",
         "options": [
-          "Cada día me levanto a las seis y media.",
-          "Después camino a la escuela; las clases empiezan a las ocho.",
-          "A veces veo una serie antes de cenar.",
-          "Así no tengo que correr por la mañana."
+          "día",
+          "las",
+          "Por",
+          "mañana"
         ]
       }
     ]
@@ -30706,92 +30706,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Escucha · Comidas y recetas», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“Esta noche voy a preparar una sopa de _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Esta noche voy a preparar una sopa de verduras."
+                "text": "verduras"
               },
               {
                 "id": "o2",
-                "text": "Añado la sal al final para comprobar mejor el sabor."
+                "text": "noche"
               },
               {
                 "id": "o3",
-                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
+                "text": "Tengo"
               },
               {
                 "id": "o4",
-                "text": "Me gusta tener un plan claro antes de seguir."
+                "text": "papas"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «Esta noche voy a preparar una sopa de verduras.», ¿qué sucede a continuación en «Escucha · Comidas y recetas»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Añado la sal al final para _____ mejor el sabor.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Esta noche voy a preparar una sopa de verduras."
+                "text": "hiervo"
               },
               {
                 "id": "o2",
-                "text": "Añado la sal al final para comprobar mejor el sabor."
+                "text": "comprobar"
               },
               {
                 "id": "o3",
-                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
+                "text": "veinte"
               },
               {
                 "id": "o4",
-                "text": "Me gusta tener un plan claro antes de seguir."
+                "text": "trozos"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Comidas y recetas»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“Al final, repaso la información y preparo el _____ paso con calma.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Esta noche voy a preparar una sopa de verduras."
+                "text": "hiervo"
               },
               {
                 "id": "o2",
-                "text": "Añado la sal al final para comprobar mejor el sabor."
+                "text": "veinte"
               },
               {
                 "id": "o3",
-                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
+                "text": "siguiente"
               },
               {
                 "id": "o4",
-                "text": "Me gusta tener un plan claro antes de seguir."
+                "text": "trozos"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Comidas y recetas» después de «Al final, repaso la información y preparo el siguiente paso con calma.»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Me gusta tener un plan claro antes de _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Esta noche voy a preparar una sopa de verduras."
+                "text": "información"
               },
               {
                 "id": "o2",
-                "text": "Añado la sal al final para comprobar mejor el sabor."
+                "text": "zanahorias"
               },
               {
                 "id": "o3",
-                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
+                "text": "voy"
               },
               {
                 "id": "o4",
-                "text": "Me gusta tener un plan claro antes de seguir."
+                "text": "seguir"
               }
             ]
           }
@@ -30802,42 +30802,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Escucha · Comidas y recetas», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“Esta noche voy a preparar una sopa de _____.”",
         "options": [
-          "Esta noche voy a preparar una sopa de verduras.",
-          "Añado la sal al final para comprobar mejor el sabor.",
-          "Al final, repaso la información y preparo el siguiente paso con calma.",
-          "Me gusta tener un plan claro antes de seguir."
+          "verduras",
+          "noche",
+          "Tengo",
+          "papas"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «Esta noche voy a preparar una sopa de verduras.», ¿qué sucede a continuación en «Escucha · Comidas y recetas»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Añado la sal al final para _____ mejor el sabor.”",
         "options": [
-          "Esta noche voy a preparar una sopa de verduras.",
-          "Añado la sal al final para comprobar mejor el sabor.",
-          "Al final, repaso la información y preparo el siguiente paso con calma.",
-          "Me gusta tener un plan claro antes de seguir."
+          "hiervo",
+          "comprobar",
+          "veinte",
+          "trozos"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Comidas y recetas»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“Al final, repaso la información y preparo el _____ paso con calma.”",
         "options": [
-          "Esta noche voy a preparar una sopa de verduras.",
-          "Añado la sal al final para comprobar mejor el sabor.",
-          "Al final, repaso la información y preparo el siguiente paso con calma.",
-          "Me gusta tener un plan claro antes de seguir."
+          "hiervo",
+          "veinte",
+          "siguiente",
+          "trozos"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Comidas y recetas» después de «Al final, repaso la información y preparo el siguiente paso con calma.»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Me gusta tener un plan claro antes de _____.”",
         "options": [
-          "Esta noche voy a preparar una sopa de verduras.",
-          "Añado la sal al final para comprobar mejor el sabor.",
-          "Al final, repaso la información y preparo el siguiente paso con calma.",
-          "Me gusta tener un plan claro antes de seguir."
+          "información",
+          "zanahorias",
+          "voy",
+          "seguir"
         ]
       }
     ]
@@ -30881,92 +30881,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Escucha · Una tradición que cambia para seguir viva», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“Hoy, en esta crónica cultural, cuento cómo ha cambiado una tradición de mi _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoy, en esta crónica cultural, cuento cómo ha cambiado una tradición de mi comunidad."
+                "text": "comunidad"
               },
               {
                 "id": "o2",
-                "text": "Ahora muchas personas los compran o los comparten por internet."
+                "text": "desapareciendo"
               },
               {
                 "id": "o3",
-                "text": "Se transmiten historias, recetas y formas de participar que forman parte de nuestro patrimonio."
+                "text": "explicaciones"
               },
               {
                 "id": "o4",
-                "text": "Escuchar esas explicaciones me ayuda a participar con más respeto y a distinguir entre conservar una memoria y repetirla sin comprenderla."
+                "text": "cuento"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «Hoy, en esta crónica cultural, cuento cómo ha cambiado una tradición…», ¿qué sucede a continuación en «Escucha · Una tradición que cambia para seguir viva»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Ahora _____ personas los compran o los comparten por internet.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoy, en esta crónica cultural, cuento cómo ha cambiado una tradición de mi comunidad."
+                "text": "desapareciendo"
               },
               {
                 "id": "o2",
-                "text": "Ahora muchas personas los compran o los comparten por internet."
+                "text": "muchas"
               },
               {
                 "id": "o3",
-                "text": "Se transmiten historias, recetas y formas de participar que forman parte de nuestro patrimonio."
+                "text": "explicaciones"
               },
               {
                 "id": "o4",
-                "text": "Escuchar esas explicaciones me ayuda a participar con más respeto y a distinguir entre conservar una memoria y repetirla sin comprenderla."
+                "text": "comprenderla"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Una tradición que cambia para seguir viva»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“Se transmiten historias, recetas y _____ de participar que forman parte de nuestro patrimonio.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoy, en esta crónica cultural, cuento cómo ha cambiado una tradición de mi comunidad."
+                "text": "desapareciendo"
               },
               {
                 "id": "o2",
-                "text": "Ahora muchas personas los compran o los comparten por internet."
+                "text": "explicaciones"
               },
               {
                 "id": "o3",
-                "text": "Se transmiten historias, recetas y formas de participar que forman parte de nuestro patrimonio."
+                "text": "formas"
               },
               {
                 "id": "o4",
-                "text": "Escuchar esas explicaciones me ayuda a participar con más respeto y a distinguir entre conservar una memoria y repetirla sin comprenderla."
+                "text": "comprenderla"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Una tradición que cambia para seguir viva» después de «Se transmiten historias, recetas y formas de participar que forman…»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Escuchar esas explicaciones me ayuda a participar con más respeto y a distinguir entre _____ una memoria y repetirla sin comprenderla.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoy, en esta crónica cultural, cuento cómo ha cambiado una tradición de mi comunidad."
+                "text": "desapareciendo"
               },
               {
                 "id": "o2",
-                "text": "Ahora muchas personas los compran o los comparten por internet."
+                "text": "explicaciones"
               },
               {
                 "id": "o3",
-                "text": "Se transmiten historias, recetas y formas de participar que forman parte de nuestro patrimonio."
+                "text": "cuento"
               },
               {
                 "id": "o4",
-                "text": "Escuchar esas explicaciones me ayuda a participar con más respeto y a distinguir entre conservar una memoria y repetirla sin comprenderla."
+                "text": "conservar"
               }
             ]
           }
@@ -30977,42 +30977,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Escucha · Una tradición que cambia para seguir viva», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“Hoy, en esta crónica cultural, cuento cómo ha cambiado una tradición de mi _____.”",
         "options": [
-          "Hoy, en esta crónica cultural, cuento cómo ha cambiado una tradición de mi comunidad.",
-          "Ahora muchas personas los compran o los comparten por internet.",
-          "Se transmiten historias, recetas y formas de participar que forman parte de nuestro patrimonio.",
-          "Escuchar esas explicaciones me ayuda a participar con más respeto y a distinguir entre conservar una memoria y repetirla sin comprenderla."
+          "comunidad",
+          "desapareciendo",
+          "explicaciones",
+          "cuento"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «Hoy, en esta crónica cultural, cuento cómo ha cambiado una tradición…», ¿qué sucede a continuación en «Escucha · Una tradición que cambia para seguir viva»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Ahora _____ personas los compran o los comparten por internet.”",
         "options": [
-          "Hoy, en esta crónica cultural, cuento cómo ha cambiado una tradición de mi comunidad.",
-          "Ahora muchas personas los compran o los comparten por internet.",
-          "Se transmiten historias, recetas y formas de participar que forman parte de nuestro patrimonio.",
-          "Escuchar esas explicaciones me ayuda a participar con más respeto y a distinguir entre conservar una memoria y repetirla sin comprenderla."
+          "desapareciendo",
+          "muchas",
+          "explicaciones",
+          "comprenderla"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Una tradición que cambia para seguir viva»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“Se transmiten historias, recetas y _____ de participar que forman parte de nuestro patrimonio.”",
         "options": [
-          "Hoy, en esta crónica cultural, cuento cómo ha cambiado una tradición de mi comunidad.",
-          "Ahora muchas personas los compran o los comparten por internet.",
-          "Se transmiten historias, recetas y formas de participar que forman parte de nuestro patrimonio.",
-          "Escuchar esas explicaciones me ayuda a participar con más respeto y a distinguir entre conservar una memoria y repetirla sin comprenderla."
+          "desapareciendo",
+          "explicaciones",
+          "formas",
+          "comprenderla"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Una tradición que cambia para seguir viva» después de «Se transmiten historias, recetas y formas de participar que forman…»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Escuchar esas explicaciones me ayuda a participar con más respeto y a distinguir entre _____ una memoria y repetirla sin comprenderla.”",
         "options": [
-          "Hoy, en esta crónica cultural, cuento cómo ha cambiado una tradición de mi comunidad.",
-          "Ahora muchas personas los compran o los comparten por internet.",
-          "Se transmiten historias, recetas y formas de participar que forman parte de nuestro patrimonio.",
-          "Escuchar esas explicaciones me ayuda a participar con más respeto y a distinguir entre conservar una memoria y repetirla sin comprenderla."
+          "desapareciendo",
+          "explicaciones",
+          "cuento",
+          "conservar"
         ]
       }
     ]
@@ -31056,92 +31056,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Escucha · Comer bien no depende solo de elegir bien», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“En este microdocumental sonoro, sigo una pregunta sencilla: quién puede elegir qué comer y en qué _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "En este microdocumental sonoro, sigo una pregunta sencilla: quién puede elegir qué comer y en qué condiciones."
+                "text": "condiciones"
               },
               {
                 "id": "o2",
-                "text": "En mi barrio hay productos frescos, pero a veces cuestan más que opciones ultraprocesadas."
+                "text": "microdocumental"
               },
               {
                 "id": "o3",
-                "text": "El consumo importa, aunque debe analizarse junto con las condiciones que lo hacen viable."
+                "text": "ultraprocesadas"
               },
               {
                 "id": "o4",
-                "text": "También condicionan esas elecciones los horarios laborales y escolares de cada hogar."
+                "text": "culpabilización"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «En este microdocumental sonoro, sigo una pregunta sencilla: quién…», ¿qué sucede a continuación en «Escucha · Comer bien no depende solo de elegir bien»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“En mi barrio hay _____ frescos, pero a veces cuestan más que opciones ultraprocesadas.”",
             "options": [
               {
                 "id": "o1",
-                "text": "En este microdocumental sonoro, sigo una pregunta sencilla: quién puede elegir qué comer y en qué condiciones."
+                "text": "microdocumental"
               },
               {
                 "id": "o2",
-                "text": "En mi barrio hay productos frescos, pero a veces cuestan más que opciones ultraprocesadas."
+                "text": "productos"
               },
               {
                 "id": "o3",
-                "text": "El consumo importa, aunque debe analizarse junto con las condiciones que lo hacen viable."
+                "text": "ultraprocesadas"
               },
               {
                 "id": "o4",
-                "text": "También condicionan esas elecciones los horarios laborales y escolares de cada hogar."
+                "text": "culpabilización"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Comer bien no depende solo de elegir bien»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“El consumo importa, aunque debe _____ junto con las condiciones que lo hacen viable.”",
             "options": [
               {
                 "id": "o1",
-                "text": "En este microdocumental sonoro, sigo una pregunta sencilla: quién puede elegir qué comer y en qué condiciones."
+                "text": "microdocumental"
               },
               {
                 "id": "o2",
-                "text": "En mi barrio hay productos frescos, pero a veces cuestan más que opciones ultraprocesadas."
+                "text": "ultraprocesadas"
               },
               {
                 "id": "o3",
-                "text": "También se desperdicia comida porque las fechas de etiquetado se interpretan mal."
+                "text": "analizarse"
               },
               {
                 "id": "o4",
-                "text": "El consumo importa, aunque debe analizarse junto con las condiciones que lo hacen viable."
+                "text": "culpabilización"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Comer bien no depende solo de elegir bien» después de «También se desperdicia comida porque las fechas de etiquetado se…»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“También _____ esas elecciones los horarios laborales y escolares de cada hogar.”",
             "options": [
               {
                 "id": "o1",
-                "text": "En este microdocumental sonoro, sigo una pregunta sencilla: quién puede elegir qué comer y en qué condiciones."
+                "text": "microdocumental"
               },
               {
                 "id": "o2",
-                "text": "En mi barrio hay productos frescos, pero a veces cuestan más que opciones ultraprocesadas."
+                "text": "ultraprocesadas"
               },
               {
                 "id": "o3",
-                "text": "El consumo importa, aunque debe analizarse junto con las condiciones que lo hacen viable."
+                "text": "culpabilización"
               },
               {
                 "id": "o4",
-                "text": "También condicionan esas elecciones los horarios laborales y escolares de cada hogar."
+                "text": "condicionan"
               }
             ]
           }
@@ -31152,42 +31152,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Escucha · Comer bien no depende solo de elegir bien», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“En este microdocumental sonoro, sigo una pregunta sencilla: quién puede elegir qué comer y en qué _____.”",
         "options": [
-          "En este microdocumental sonoro, sigo una pregunta sencilla: quién puede elegir qué comer y en qué condiciones.",
-          "En mi barrio hay productos frescos, pero a veces cuestan más que opciones ultraprocesadas.",
-          "El consumo importa, aunque debe analizarse junto con las condiciones que lo hacen viable.",
-          "También condicionan esas elecciones los horarios laborales y escolares de cada hogar."
+          "condiciones",
+          "microdocumental",
+          "ultraprocesadas",
+          "culpabilización"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «En este microdocumental sonoro, sigo una pregunta sencilla: quién…», ¿qué sucede a continuación en «Escucha · Comer bien no depende solo de elegir bien»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“En mi barrio hay _____ frescos, pero a veces cuestan más que opciones ultraprocesadas.”",
         "options": [
-          "En este microdocumental sonoro, sigo una pregunta sencilla: quién puede elegir qué comer y en qué condiciones.",
-          "En mi barrio hay productos frescos, pero a veces cuestan más que opciones ultraprocesadas.",
-          "El consumo importa, aunque debe analizarse junto con las condiciones que lo hacen viable.",
-          "También condicionan esas elecciones los horarios laborales y escolares de cada hogar."
+          "microdocumental",
+          "productos",
+          "ultraprocesadas",
+          "culpabilización"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Comer bien no depende solo de elegir bien»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“El consumo importa, aunque debe _____ junto con las condiciones que lo hacen viable.”",
         "options": [
-          "En este microdocumental sonoro, sigo una pregunta sencilla: quién puede elegir qué comer y en qué condiciones.",
-          "En mi barrio hay productos frescos, pero a veces cuestan más que opciones ultraprocesadas.",
-          "También se desperdicia comida porque las fechas de etiquetado se interpretan mal.",
-          "El consumo importa, aunque debe analizarse junto con las condiciones que lo hacen viable."
+          "microdocumental",
+          "ultraprocesadas",
+          "analizarse",
+          "culpabilización"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Comer bien no depende solo de elegir bien» después de «También se desperdicia comida porque las fechas de etiquetado se…»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“También _____ esas elecciones los horarios laborales y escolares de cada hogar.”",
         "options": [
-          "En este microdocumental sonoro, sigo una pregunta sencilla: quién puede elegir qué comer y en qué condiciones.",
-          "En mi barrio hay productos frescos, pero a veces cuestan más que opciones ultraprocesadas.",
-          "El consumo importa, aunque debe analizarse junto con las condiciones que lo hacen viable.",
-          "También condicionan esas elecciones los horarios laborales y escolares de cada hogar."
+          "microdocumental",
+          "ultraprocesadas",
+          "culpabilización",
+          "condicionan"
         ]
       }
     ]
@@ -31231,92 +31231,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Escucha · ¿Trabajar cuatro días a la semana realmente funciona?», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“Trabajar cuatro días por semana parece una promesa sencilla: más tiempo libre sin perder _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Trabajar cuatro días por semana parece una promesa sencilla: más tiempo libre sin perder resultados."
+                "text": "resultados"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "promesa"
               },
               {
                 "id": "o3",
-                "text": "Desde esta perspectiva, argumentar sobre condiciones y límites de una semana laboral más corta no consiste en repetir una conclusión."
+                "text": "productividad"
               },
               {
                 "id": "o4",
-                "text": "La idea final es clara: hablar de ¿trabajar cuatro días a la semana realmente funciona?"
+                "text": "interpretarlo"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «Trabajar cuatro días por semana parece una promesa sencilla: más…», ¿qué sucede a continuación en «Escucha · ¿Trabajar cuatro días a la semana realmente funciona?»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Estos _____ ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Trabajar cuatro días por semana parece una promesa sencilla: más tiempo libre sin perder resultados."
+                "text": "productividad"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "conceptos"
               },
               {
                 "id": "o3",
-                "text": "Desde esta perspectiva, argumentar sobre condiciones y límites de una semana laboral más corta no consiste en repetir una conclusión."
+                "text": "interpretarlo"
               },
               {
                 "id": "o4",
-                "text": "La idea final es clara: hablar de ¿trabajar cuatro días a la semana realmente funciona?"
+                "text": "cuatro"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · ¿Trabajar cuatro días a la semana realmente funciona?»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“Desde esta perspectiva, argumentar sobre condiciones y _____ de una semana laboral más corta no consiste en repetir una conclusión.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Trabajar cuatro días por semana parece una promesa sencilla: más tiempo libre sin perder resultados."
+                "text": "productividad"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "interpretarlo"
               },
               {
                 "id": "o3",
-                "text": "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones."
+                "text": "límites"
               },
               {
                 "id": "o4",
-                "text": "Desde esta perspectiva, argumentar sobre condiciones y límites de una semana laboral más corta no consiste en repetir una conclusión."
+                "text": "coordinación"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · ¿Trabajar cuatro días a la semana realmente funciona?» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“La idea final es clara: hablar de ¿trabajar cuatro días a la semana realmente _____?”",
             "options": [
               {
                 "id": "o1",
-                "text": "Trabajar cuatro días por semana parece una promesa sencilla: más tiempo libre sin perder resultados."
+                "text": "productividad"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "interpretarlo"
               },
               {
                 "id": "o3",
-                "text": "Desde esta perspectiva, argumentar sobre condiciones y límites de una semana laboral más corta no consiste en repetir una conclusión."
+                "text": "coordinación"
               },
               {
                 "id": "o4",
-                "text": "La idea final es clara: hablar de ¿trabajar cuatro días a la semana realmente funciona?"
+                "text": "funciona"
               }
             ]
           }
@@ -31327,42 +31327,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Escucha · ¿Trabajar cuatro días a la semana realmente funciona?», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“Trabajar cuatro días por semana parece una promesa sencilla: más tiempo libre sin perder _____.”",
         "options": [
-          "Trabajar cuatro días por semana parece una promesa sencilla: más tiempo libre sin perder resultados.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "Desde esta perspectiva, argumentar sobre condiciones y límites de una semana laboral más corta no consiste en repetir una conclusión.",
-          "La idea final es clara: hablar de ¿trabajar cuatro días a la semana realmente funciona?"
+          "resultados",
+          "promesa",
+          "productividad",
+          "interpretarlo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «Trabajar cuatro días por semana parece una promesa sencilla: más…», ¿qué sucede a continuación en «Escucha · ¿Trabajar cuatro días a la semana realmente funciona?»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Estos _____ ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.”",
         "options": [
-          "Trabajar cuatro días por semana parece una promesa sencilla: más tiempo libre sin perder resultados.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "Desde esta perspectiva, argumentar sobre condiciones y límites de una semana laboral más corta no consiste en repetir una conclusión.",
-          "La idea final es clara: hablar de ¿trabajar cuatro días a la semana realmente funciona?"
+          "productividad",
+          "conceptos",
+          "interpretarlo",
+          "cuatro"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · ¿Trabajar cuatro días a la semana realmente funciona?»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“Desde esta perspectiva, argumentar sobre condiciones y _____ de una semana laboral más corta no consiste en repetir una conclusión.”",
         "options": [
-          "Trabajar cuatro días por semana parece una promesa sencilla: más tiempo libre sin perder resultados.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones.",
-          "Desde esta perspectiva, argumentar sobre condiciones y límites de una semana laboral más corta no consiste en repetir una conclusión."
+          "productividad",
+          "interpretarlo",
+          "límites",
+          "coordinación"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · ¿Trabajar cuatro días a la semana realmente funciona?» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“La idea final es clara: hablar de ¿trabajar cuatro días a la semana realmente _____?”",
         "options": [
-          "Trabajar cuatro días por semana parece una promesa sencilla: más tiempo libre sin perder resultados.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "Desde esta perspectiva, argumentar sobre condiciones y límites de una semana laboral más corta no consiste en repetir una conclusión.",
-          "La idea final es clara: hablar de ¿trabajar cuatro días a la semana realmente funciona?"
+          "productividad",
+          "interpretarlo",
+          "coordinación",
+          "funciona"
         ]
       }
     ]
@@ -31406,92 +31406,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Escucha · El descubrimiento que nadie creyó... hasta que cambió el mundo», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“Cuando la científica presentó su _____, casi nadie le creyó.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Cuando la científica presentó su hallazgo, casi nadie le creyó."
+                "text": "hallazgo"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "interpretarlo"
               },
               {
                 "id": "o3",
-                "text": "Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos."
+                "text": "institucional"
               },
               {
                 "id": "o4",
-                "text": "Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación."
+                "text": "presuposición"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «Cuando la científica presentó su hallazgo, casi nadie le creyó.», ¿qué sucede a continuación en «Escucha · El descubrimiento que nadie creyó... hasta que cambió el mundo»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Estos _____ ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Cuando la científica presentó su hallazgo, casi nadie le creyó."
+                "text": "interpretarlo"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "conceptos"
               },
               {
                 "id": "o3",
-                "text": "Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos."
+                "text": "institucional"
               },
               {
                 "id": "o4",
-                "text": "Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación."
+                "text": "presuposición"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · El descubrimiento que nadie creyó... hasta que cambió el mundo»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“Exige argumentar con precisión, _____ límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Cuando la científica presentó su hallazgo, casi nadie le creyó."
+                "text": "interpretarlo"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "institucional"
               },
               {
                 "id": "o3",
-                "text": "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones."
+                "text": "reconocer"
               },
               {
                 "id": "o4",
-                "text": "Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos."
+                "text": "presuposición"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · El descubrimiento que nadie creyó... hasta que cambió el mundo» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Debe reconocer qué presuposición sostiene el argumento, qué _____ queda descartada y qué grado de certeza expresa cada formulación.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Cuando la científica presentó su hallazgo, casi nadie le creyó."
+                "text": "presentó"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "hallazgo"
               },
               {
                 "id": "o3",
-                "text": "Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos."
+                "text": "aceptada"
               },
               {
                 "id": "o4",
-                "text": "Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación."
+                "text": "alternativa"
               }
             ]
           }
@@ -31502,42 +31502,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Escucha · El descubrimiento que nadie creyó... hasta que cambió el mundo», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“Cuando la científica presentó su _____, casi nadie le creyó.”",
         "options": [
-          "Cuando la científica presentó su hallazgo, casi nadie le creyó.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos.",
-          "Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación."
+          "hallazgo",
+          "interpretarlo",
+          "institucional",
+          "presuposición"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «Cuando la científica presentó su hallazgo, casi nadie le creyó.», ¿qué sucede a continuación en «Escucha · El descubrimiento que nadie creyó... hasta que cambió el mundo»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Estos _____ ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.”",
         "options": [
-          "Cuando la científica presentó su hallazgo, casi nadie le creyó.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos.",
-          "Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación."
+          "interpretarlo",
+          "conceptos",
+          "institucional",
+          "presuposición"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · El descubrimiento que nadie creyó... hasta que cambió el mundo»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“Exige argumentar con precisión, _____ límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos.”",
         "options": [
-          "Cuando la científica presentó su hallazgo, casi nadie le creyó.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones.",
-          "Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos."
+          "interpretarlo",
+          "institucional",
+          "reconocer",
+          "presuposición"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · El descubrimiento que nadie creyó... hasta que cambió el mundo» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Debe reconocer qué presuposición sostiene el argumento, qué _____ queda descartada y qué grado de certeza expresa cada formulación.”",
         "options": [
-          "Cuando la científica presentó su hallazgo, casi nadie le creyó.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos.",
-          "Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación."
+          "presentó",
+          "hallazgo",
+          "aceptada",
+          "alternativa"
         ]
       }
     ]
@@ -31612,92 +31612,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «¿Qué desea pedir?», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“Un estudiante nuevo quiere llegar a la _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Un estudiante nuevo quiere llegar a la biblioteca."
+                "text": "biblioteca"
               },
               {
                 "id": "o2",
-                "text": "La biblioteca está frente al parque, al lado de una farmacia."
+                "text": "Primero"
               },
               {
                 "id": "o3",
-                "text": "Si necesita comprar agua, hay una tienda pequeña cerca de la entrada."
+                "text": "derecho"
               },
               {
                 "id": "o4",
-                "text": "Después agradece la ayuda y camina con más seguridad por el barrio."
+                "text": "comprar"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «Un estudiante nuevo quiere llegar a la biblioteca.», ¿qué sucede a continuación en «¿Qué desea pedir?»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“La biblioteca está _____ al parque, al lado de una farmacia.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Un estudiante nuevo quiere llegar a la biblioteca."
+                "text": "indicaciones"
               },
               {
                 "id": "o2",
-                "text": "La biblioteca está frente al parque, al lado de una farmacia."
+                "text": "frente"
               },
               {
                 "id": "o3",
-                "text": "Si necesita comprar agua, hay una tienda pequeña cerca de la entrada."
+                "text": "estudiante"
               },
               {
                 "id": "o4",
-                "text": "Después agradece la ayuda y camina con más seguridad por el barrio."
+                "text": "biblioteca"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «¿Qué desea pedir?»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“Si necesita comprar agua, hay una tienda _____ cerca de la entrada.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Un estudiante nuevo quiere llegar a la biblioteca."
+                "text": "indicaciones"
               },
               {
                 "id": "o2",
-                "text": "La biblioteca está frente al parque, al lado de una farmacia."
+                "text": "estudiante"
               },
               {
                 "id": "o3",
-                "text": "Si necesita comprar agua, hay una tienda pequeña cerca de la entrada."
+                "text": "pequeña"
               },
               {
                 "id": "o4",
-                "text": "Después agradece la ayuda y camina con más seguridad por el barrio."
+                "text": "biblioteca"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «¿Qué desea pedir?» después de «Si necesita comprar agua, hay una tienda pequeña cerca de la entrada.»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“_____ agradece la ayuda y camina con más seguridad por el barrio.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Un estudiante nuevo quiere llegar a la biblioteca."
+                "text": "indicaciones"
               },
               {
                 "id": "o2",
-                "text": "La biblioteca está frente al parque, al lado de una farmacia."
+                "text": "estudiante"
               },
               {
                 "id": "o3",
-                "text": "Si necesita comprar agua, hay una tienda pequeña cerca de la entrada."
+                "text": "biblioteca"
               },
               {
                 "id": "o4",
-                "text": "Después agradece la ayuda y camina con más seguridad por el barrio."
+                "text": "Después"
               }
             ]
           }
@@ -31708,42 +31708,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «¿Qué desea pedir?», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“Un estudiante nuevo quiere llegar a la _____.”",
         "options": [
-          "Un estudiante nuevo quiere llegar a la biblioteca.",
-          "La biblioteca está frente al parque, al lado de una farmacia.",
-          "Si necesita comprar agua, hay una tienda pequeña cerca de la entrada.",
-          "Después agradece la ayuda y camina con más seguridad por el barrio."
+          "biblioteca",
+          "Primero",
+          "derecho",
+          "comprar"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «Un estudiante nuevo quiere llegar a la biblioteca.», ¿qué sucede a continuación en «¿Qué desea pedir?»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“La biblioteca está _____ al parque, al lado de una farmacia.”",
         "options": [
-          "Un estudiante nuevo quiere llegar a la biblioteca.",
-          "La biblioteca está frente al parque, al lado de una farmacia.",
-          "Si necesita comprar agua, hay una tienda pequeña cerca de la entrada.",
-          "Después agradece la ayuda y camina con más seguridad por el barrio."
+          "indicaciones",
+          "frente",
+          "estudiante",
+          "biblioteca"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «¿Qué desea pedir?»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“Si necesita comprar agua, hay una tienda _____ cerca de la entrada.”",
         "options": [
-          "Un estudiante nuevo quiere llegar a la biblioteca.",
-          "La biblioteca está frente al parque, al lado de una farmacia.",
-          "Si necesita comprar agua, hay una tienda pequeña cerca de la entrada.",
-          "Después agradece la ayuda y camina con más seguridad por el barrio."
+          "indicaciones",
+          "estudiante",
+          "pequeña",
+          "biblioteca"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «¿Qué desea pedir?» después de «Si necesita comprar agua, hay una tienda pequeña cerca de la entrada.»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“_____ agradece la ayuda y camina con más seguridad por el barrio.”",
         "options": [
-          "Un estudiante nuevo quiere llegar a la biblioteca.",
-          "La biblioteca está frente al parque, al lado de una farmacia.",
-          "Si necesita comprar agua, hay una tienda pequeña cerca de la entrada.",
-          "Después agradece la ayuda y camina con más seguridad por el barrio."
+          "indicaciones",
+          "estudiante",
+          "biblioteca",
+          "Después"
         ]
       }
     ]
@@ -35632,92 +35632,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Escucha · Recuerdos y experiencias», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“El verano pasado viajé a Oaxaca con mi hermana y probamos muchos platos _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "El verano pasado viajé a Oaxaca con mi hermana y probamos muchos platos nuevos."
+                "text": "nuevos"
               },
               {
                 "id": "o2",
-                "text": "No volví a verla, pero le envié una foto cuando llegué a casa."
+                "text": "información"
               },
               {
                 "id": "o3",
-                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
+                "text": "con"
               },
               {
                 "id": "o4",
-                "text": "Me gusta tener un plan claro antes de seguir."
+                "text": "Una"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «El verano pasado viajé a Oaxaca con mi hermana y probamos muchos…», ¿qué sucede a continuación en «Escucha · Recuerdos y experiencias»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“No volví a verla, pero le envié una foto cuando _____ a casa.”",
             "options": [
               {
                 "id": "o1",
-                "text": "El verano pasado viajé a Oaxaca con mi hermana y probamos muchos platos nuevos."
+                "text": "información"
               },
               {
                 "id": "o2",
-                "text": "No volví a verla, pero le envié una foto cuando llegué a casa."
+                "text": "llegué"
               },
               {
                 "id": "o3",
-                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
+                "text": "con"
               },
               {
                 "id": "o4",
-                "text": "Me gusta tener un plan claro antes de seguir."
+                "text": "Una"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Recuerdos y experiencias»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“Al final, repaso la información y preparo el _____ paso con calma.”",
             "options": [
               {
                 "id": "o1",
-                "text": "El verano pasado viajé a Oaxaca con mi hermana y probamos muchos platos nuevos."
+                "text": "verano"
               },
               {
                 "id": "o2",
-                "text": "No volví a verla, pero le envié una foto cuando llegué a casa."
+                "text": "pasado"
               },
               {
                 "id": "o3",
-                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
+                "text": "siguiente"
               },
               {
                 "id": "o4",
-                "text": "Me gusta tener un plan claro antes de seguir."
+                "text": "Oaxaca"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Recuerdos y experiencias» después de «Al final, repaso la información y preparo el siguiente paso con calma.»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Me gusta tener un plan claro antes de _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "El verano pasado viajé a Oaxaca con mi hermana y probamos muchos platos nuevos."
+                "text": "información"
               },
               {
                 "id": "o2",
-                "text": "No volví a verla, pero le envié una foto cuando llegué a casa."
+                "text": "con"
               },
               {
                 "id": "o3",
-                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
+                "text": "Una"
               },
               {
                 "id": "o4",
-                "text": "Me gusta tener un plan claro antes de seguir."
+                "text": "seguir"
               }
             ]
           }
@@ -35728,42 +35728,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Escucha · Recuerdos y experiencias», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“El verano pasado viajé a Oaxaca con mi hermana y probamos muchos platos _____.”",
         "options": [
-          "El verano pasado viajé a Oaxaca con mi hermana y probamos muchos platos nuevos.",
-          "No volví a verla, pero le envié una foto cuando llegué a casa.",
-          "Al final, repaso la información y preparo el siguiente paso con calma.",
-          "Me gusta tener un plan claro antes de seguir."
+          "nuevos",
+          "información",
+          "con",
+          "Una"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «El verano pasado viajé a Oaxaca con mi hermana y probamos muchos…», ¿qué sucede a continuación en «Escucha · Recuerdos y experiencias»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“No volví a verla, pero le envié una foto cuando _____ a casa.”",
         "options": [
-          "El verano pasado viajé a Oaxaca con mi hermana y probamos muchos platos nuevos.",
-          "No volví a verla, pero le envié una foto cuando llegué a casa.",
-          "Al final, repaso la información y preparo el siguiente paso con calma.",
-          "Me gusta tener un plan claro antes de seguir."
+          "información",
+          "llegué",
+          "con",
+          "Una"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Recuerdos y experiencias»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“Al final, repaso la información y preparo el _____ paso con calma.”",
         "options": [
-          "El verano pasado viajé a Oaxaca con mi hermana y probamos muchos platos nuevos.",
-          "No volví a verla, pero le envié una foto cuando llegué a casa.",
-          "Al final, repaso la información y preparo el siguiente paso con calma.",
-          "Me gusta tener un plan claro antes de seguir."
+          "verano",
+          "pasado",
+          "siguiente",
+          "Oaxaca"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Recuerdos y experiencias» después de «Al final, repaso la información y preparo el siguiente paso con calma.»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Me gusta tener un plan claro antes de _____.”",
         "options": [
-          "El verano pasado viajé a Oaxaca con mi hermana y probamos muchos platos nuevos.",
-          "No volví a verla, pero le envié una foto cuando llegué a casa.",
-          "Al final, repaso la información y preparo el siguiente paso con calma.",
-          "Me gusta tener un plan claro antes de seguir."
+          "información",
+          "con",
+          "Una",
+          "seguir"
         ]
       }
     ]
@@ -35807,92 +35807,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Escucha · Elegir una carrera sin tener toda la vida resuelta», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“Este mensaje de orientación está dirigido a quienes buscan una formación compatible con su vida _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Este mensaje de orientación está dirigido a quienes buscan una formación compatible con su vida diaria."
+                "text": "diaria"
               },
               {
                 "id": "o2",
-                "text": "Antes de matricularme, comparé el precio, los requisitos y la posibilidad de solicitar una beca."
+                "text": "matricularme"
               },
               {
                 "id": "o3",
-                "text": "También me recomendó preguntar si el certificado será útil para el tipo de empleo que busco."
+                "text": "orientación"
               },
               {
                 "id": "o4",
-                "text": "Así puedo comparar sin elegir solo por la publicidad o por la opinión de otra persona."
+                "text": "posibilidad"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «Este mensaje de orientación está dirigido a quienes buscan una…», ¿qué sucede a continuación en «Escucha · Elegir una carrera sin tener toda la vida resuelta»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Antes de _____, comparé el precio, los requisitos y la posibilidad de solicitar una beca.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Este mensaje de orientación está dirigido a quienes buscan una formación compatible con su vida diaria."
+                "text": "formación"
               },
               {
                 "id": "o2",
-                "text": "Antes de matricularme, comparé el precio, los requisitos y la posibilidad de solicitar una beca."
+                "text": "matricularme"
               },
               {
                 "id": "o3",
-                "text": "También me recomendó preguntar si el certificado será útil para el tipo de empleo que busco."
+                "text": "modalidad"
               },
               {
                 "id": "o4",
-                "text": "Así puedo comparar sin elegir solo por la publicidad o por la opinión de otra persona."
+                "text": "solicitar"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Elegir una carrera sin tener toda la vida resuelta»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“También me recomendó preguntar si el certificado será útil para el tipo de _____ que busco.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Este mensaje de orientación está dirigido a quienes buscan una formación compatible con su vida diaria."
+                "text": "matricularme"
               },
               {
                 "id": "o2",
-                "text": "Antes de matricularme, comparé el precio, los requisitos y la posibilidad de solicitar una beca."
+                "text": "orientación"
               },
               {
                 "id": "o3",
-                "text": "También me recomendó preguntar si el certificado será útil para el tipo de empleo que busco."
+                "text": "empleo"
               },
               {
                 "id": "o4",
-                "text": "Así puedo comparar sin elegir solo por la publicidad o por la opinión de otra persona."
+                "text": "posibilidad"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Elegir una carrera sin tener toda la vida resuelta» después de «También me recomendó preguntar si el certificado será útil para el…»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Así puedo comparar sin elegir solo por la publicidad o por la opinión de otra _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Este mensaje de orientación está dirigido a quienes buscan una formación compatible con su vida diaria."
+                "text": "matricularme"
               },
               {
                 "id": "o2",
-                "text": "Antes de matricularme, comparé el precio, los requisitos y la posibilidad de solicitar una beca."
+                "text": "orientación"
               },
               {
                 "id": "o3",
-                "text": "También me recomendó preguntar si el certificado será útil para el tipo de empleo que busco."
+                "text": "posibilidad"
               },
               {
                 "id": "o4",
-                "text": "Así puedo comparar sin elegir solo por la publicidad o por la opinión de otra persona."
+                "text": "persona"
               }
             ]
           }
@@ -35903,42 +35903,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Escucha · Elegir una carrera sin tener toda la vida resuelta», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“Este mensaje de orientación está dirigido a quienes buscan una formación compatible con su vida _____.”",
         "options": [
-          "Este mensaje de orientación está dirigido a quienes buscan una formación compatible con su vida diaria.",
-          "Antes de matricularme, comparé el precio, los requisitos y la posibilidad de solicitar una beca.",
-          "También me recomendó preguntar si el certificado será útil para el tipo de empleo que busco.",
-          "Así puedo comparar sin elegir solo por la publicidad o por la opinión de otra persona."
+          "diaria",
+          "matricularme",
+          "orientación",
+          "posibilidad"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «Este mensaje de orientación está dirigido a quienes buscan una…», ¿qué sucede a continuación en «Escucha · Elegir una carrera sin tener toda la vida resuelta»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Antes de _____, comparé el precio, los requisitos y la posibilidad de solicitar una beca.”",
         "options": [
-          "Este mensaje de orientación está dirigido a quienes buscan una formación compatible con su vida diaria.",
-          "Antes de matricularme, comparé el precio, los requisitos y la posibilidad de solicitar una beca.",
-          "También me recomendó preguntar si el certificado será útil para el tipo de empleo que busco.",
-          "Así puedo comparar sin elegir solo por la publicidad o por la opinión de otra persona."
+          "formación",
+          "matricularme",
+          "modalidad",
+          "solicitar"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Elegir una carrera sin tener toda la vida resuelta»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“También me recomendó preguntar si el certificado será útil para el tipo de _____ que busco.”",
         "options": [
-          "Este mensaje de orientación está dirigido a quienes buscan una formación compatible con su vida diaria.",
-          "Antes de matricularme, comparé el precio, los requisitos y la posibilidad de solicitar una beca.",
-          "También me recomendó preguntar si el certificado será útil para el tipo de empleo que busco.",
-          "Así puedo comparar sin elegir solo por la publicidad o por la opinión de otra persona."
+          "matricularme",
+          "orientación",
+          "empleo",
+          "posibilidad"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Elegir una carrera sin tener toda la vida resuelta» después de «También me recomendó preguntar si el certificado será útil para el…»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Así puedo comparar sin elegir solo por la publicidad o por la opinión de otra _____.”",
         "options": [
-          "Este mensaje de orientación está dirigido a quienes buscan una formación compatible con su vida diaria.",
-          "Antes de matricularme, comparé el precio, los requisitos y la posibilidad de solicitar una beca.",
-          "También me recomendó preguntar si el certificado será útil para el tipo de empleo que busco.",
-          "Así puedo comparar sin elegir solo por la publicidad o por la opinión de otra persona."
+          "matricularme",
+          "orientación",
+          "posibilidad",
+          "persona"
         ]
       }
     ]
@@ -35982,92 +35982,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Escucha · ¿De quién es la pared?», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“Hoy comparto un comentario cultural sobre un mural y el derecho a participar en el espacio _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoy comparto un comentario cultural sobre un mural y el derecho a participar en el espacio público."
+                "text": "público"
               },
               {
                 "id": "o2",
-                "text": "Yo participé en una reunión porque me interesa cómo se decide quién puede hablar en un lugar público."
+                "text": "participación"
               },
               {
                 "id": "o3",
-                "text": "Si el proyecto se explica con claridad, el mural puede abrir una conversación sobre memoria, identidad y acceso a la cultura."
+                "text": "controversia"
               },
               {
                 "id": "o4",
-                "text": "Un espacio público mejora cuando la participación continúa después de la inauguración."
+                "text": "intervención"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «Hoy comparto un comentario cultural sobre un mural y el derecho a…», ¿qué sucede a continuación en «Escucha · ¿De quién es la pared?»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Yo participé en una _____ porque me interesa cómo se decide quién puede hablar en un lugar público.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoy comparto un comentario cultural sobre un mural y el derecho a participar en el espacio público."
+                "text": "participación"
               },
               {
                 "id": "o2",
-                "text": "Yo participé en una reunión porque me interesa cómo se decide quién puede hablar en un lugar público."
+                "text": "reunión"
               },
               {
                 "id": "o3",
-                "text": "Si el proyecto se explica con claridad, el mural puede abrir una conversación sobre memoria, identidad y acceso a la cultura."
+                "text": "controversia"
               },
               {
                 "id": "o4",
-                "text": "Un espacio público mejora cuando la participación continúa después de la inauguración."
+                "text": "intervención"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · ¿De quién es la pared?»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“Si el proyecto se explica con claridad, el mural puede abrir una _____ sobre memoria, identidad y acceso a la cultura.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoy comparto un comentario cultural sobre un mural y el derecho a participar en el espacio público."
+                "text": "propuesta"
               },
               {
                 "id": "o2",
-                "text": "Si el proyecto se explica con claridad, el mural puede abrir una conversación sobre memoria, identidad y acceso a la cultura."
+                "text": "expresión"
               },
               {
                 "id": "o3",
-                "text": "Yo participé en una reunión porque me interesa cómo se decide quién puede hablar en un lugar público."
+                "text": "conversación"
               },
               {
                 "id": "o4",
-                "text": "Un espacio público mejora cuando la participación continúa después de la inauguración."
+                "text": "necesaria"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · ¿De quién es la pared?» después de «Yo participé en una reunión porque me interesa cómo se decide quién…»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Un espacio público mejora cuando la participación continúa _____ de la inauguración.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoy comparto un comentario cultural sobre un mural y el derecho a participar en el espacio público."
+                "text": "participación"
               },
               {
                 "id": "o2",
-                "text": "Yo participé en una reunión porque me interesa cómo se decide quién puede hablar en un lugar público."
+                "text": "controversia"
               },
               {
                 "id": "o3",
-                "text": "Si el proyecto se explica con claridad, el mural puede abrir una conversación sobre memoria, identidad y acceso a la cultura."
+                "text": "intervención"
               },
               {
                 "id": "o4",
-                "text": "Un espacio público mejora cuando la participación continúa después de la inauguración."
+                "text": "después"
               }
             ]
           }
@@ -36078,42 +36078,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Escucha · ¿De quién es la pared?», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“Hoy comparto un comentario cultural sobre un mural y el derecho a participar en el espacio _____.”",
         "options": [
-          "Hoy comparto un comentario cultural sobre un mural y el derecho a participar en el espacio público.",
-          "Yo participé en una reunión porque me interesa cómo se decide quién puede hablar en un lugar público.",
-          "Si el proyecto se explica con claridad, el mural puede abrir una conversación sobre memoria, identidad y acceso a la cultura.",
-          "Un espacio público mejora cuando la participación continúa después de la inauguración."
+          "público",
+          "participación",
+          "controversia",
+          "intervención"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «Hoy comparto un comentario cultural sobre un mural y el derecho a…», ¿qué sucede a continuación en «Escucha · ¿De quién es la pared?»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Yo participé en una _____ porque me interesa cómo se decide quién puede hablar en un lugar público.”",
         "options": [
-          "Hoy comparto un comentario cultural sobre un mural y el derecho a participar en el espacio público.",
-          "Yo participé en una reunión porque me interesa cómo se decide quién puede hablar en un lugar público.",
-          "Si el proyecto se explica con claridad, el mural puede abrir una conversación sobre memoria, identidad y acceso a la cultura.",
-          "Un espacio público mejora cuando la participación continúa después de la inauguración."
+          "participación",
+          "reunión",
+          "controversia",
+          "intervención"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · ¿De quién es la pared?»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“Si el proyecto se explica con claridad, el mural puede abrir una _____ sobre memoria, identidad y acceso a la cultura.”",
         "options": [
-          "Hoy comparto un comentario cultural sobre un mural y el derecho a participar en el espacio público.",
-          "Si el proyecto se explica con claridad, el mural puede abrir una conversación sobre memoria, identidad y acceso a la cultura.",
-          "Yo participé en una reunión porque me interesa cómo se decide quién puede hablar en un lugar público.",
-          "Un espacio público mejora cuando la participación continúa después de la inauguración."
+          "propuesta",
+          "expresión",
+          "conversación",
+          "necesaria"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · ¿De quién es la pared?» después de «Yo participé en una reunión porque me interesa cómo se decide quién…»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Un espacio público mejora cuando la participación continúa _____ de la inauguración.”",
         "options": [
-          "Hoy comparto un comentario cultural sobre un mural y el derecho a participar en el espacio público.",
-          "Yo participé en una reunión porque me interesa cómo se decide quién puede hablar en un lugar público.",
-          "Si el proyecto se explica con claridad, el mural puede abrir una conversación sobre memoria, identidad y acceso a la cultura.",
-          "Un espacio público mejora cuando la participación continúa después de la inauguración."
+          "participación",
+          "controversia",
+          "intervención",
+          "después"
         ]
       }
     ]
@@ -36157,92 +36157,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Escucha · Dormimos menos que nunca: el costo invisible del cansancio», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“Dormir poco se ha convertido en una especie de medalla _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Dormir poco se ha convertido en una especie de medalla social."
+                "text": "social"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "concentración"
               },
               {
                 "id": "o3",
-                "text": "Aunque «sueño» parece una decisión individual, conviene considerar «agotamiento» y «rutina»."
+                "text": "interpretarlo"
               },
               {
                 "id": "o4",
-                "text": "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+                "text": "consecuencias"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «Dormir poco se ha convertido en una especie de medalla social.», ¿qué sucede a continuación en «Escucha · Dormimos menos que nunca: el costo invisible del cansancio»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Estos _____ ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Dormir poco se ha convertido en una especie de medalla social."
+                "text": "concentración"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "conceptos"
               },
               {
                 "id": "o3",
-                "text": "Aunque «sueño» parece una decisión individual, conviene considerar «agotamiento» y «rutina»."
+                "text": "interpretarlo"
               },
               {
                 "id": "o4",
-                "text": "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+                "text": "consecuencias"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Dormimos menos que nunca: el costo invisible del cansancio»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“Aunque «sueño» parece una decisión _____, conviene considerar «agotamiento» y «rutina».”",
             "options": [
               {
                 "id": "o1",
-                "text": "Dormir poco se ha convertido en una especie de medalla social."
+                "text": "especie"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "medalla"
               },
               {
                 "id": "o3",
-                "text": "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones."
+                "text": "individual"
               },
               {
                 "id": "o4",
-                "text": "Aunque «sueño» parece una decisión individual, conviene considerar «agotamiento» y «rutina»."
+                "text": "embargo"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Dormimos menos que nunca: el costo invisible del cansancio» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Puede sostener una conclusión provisional, identificar una _____ razonable y explicar qué nueva información obligaría a revisarla.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Dormir poco se ha convertido en una especie de medalla social."
+                "text": "concentración"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "interpretarlo"
               },
               {
                 "id": "o3",
-                "text": "Aunque «sueño» parece una decisión individual, conviene considerar «agotamiento» y «rutina»."
+                "text": "consecuencias"
               },
               {
                 "id": "o4",
-                "text": "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+                "text": "objeción"
               }
             ]
           }
@@ -36253,42 +36253,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Escucha · Dormimos menos que nunca: el costo invisible del cansancio», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“Dormir poco se ha convertido en una especie de medalla _____.”",
         "options": [
-          "Dormir poco se ha convertido en una especie de medalla social.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "Aunque «sueño» parece una decisión individual, conviene considerar «agotamiento» y «rutina».",
-          "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+          "social",
+          "concentración",
+          "interpretarlo",
+          "consecuencias"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «Dormir poco se ha convertido en una especie de medalla social.», ¿qué sucede a continuación en «Escucha · Dormimos menos que nunca: el costo invisible del cansancio»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Estos _____ ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.”",
         "options": [
-          "Dormir poco se ha convertido en una especie de medalla social.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "Aunque «sueño» parece una decisión individual, conviene considerar «agotamiento» y «rutina».",
-          "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+          "concentración",
+          "conceptos",
+          "interpretarlo",
+          "consecuencias"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Dormimos menos que nunca: el costo invisible del cansancio»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“Aunque «sueño» parece una decisión _____, conviene considerar «agotamiento» y «rutina».”",
         "options": [
-          "Dormir poco se ha convertido en una especie de medalla social.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones.",
-          "Aunque «sueño» parece una decisión individual, conviene considerar «agotamiento» y «rutina»."
+          "especie",
+          "medalla",
+          "individual",
+          "embargo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Dormimos menos que nunca: el costo invisible del cansancio» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Puede sostener una conclusión provisional, identificar una _____ razonable y explicar qué nueva información obligaría a revisarla.”",
         "options": [
-          "Dormir poco se ha convertido en una especie de medalla social.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "Aunque «sueño» parece una decisión individual, conviene considerar «agotamiento» y «rutina».",
-          "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+          "concentración",
+          "interpretarlo",
+          "consecuencias",
+          "objeción"
         ]
       }
     ]
@@ -36332,92 +36332,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Escucha · La economía de los creadores: cómo YouTube, TikTok y Spotify generan millones», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“La economía de los creadores suele contarse con cifras de seguidores y _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "La economía de los creadores suele contarse con cifras de seguidores y reproducciones."
+                "text": "reproducciones"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "plataformas"
               },
               {
                 "id": "o3",
-                "text": "Desde esta perspectiva, analizar visibilidad, monetización y precariedad en la economía digital no consiste en repetir una conclusión."
+                "text": "comprobarse"
               },
               {
                 "id": "o4",
-                "text": "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+                "text": "convincente"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «La economía de los creadores suele contarse con cifras de seguidores y…», ¿qué sucede a continuación en «Escucha · La economía de los creadores: cómo YouTube, TikTok y Spotify generan millones»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Estos _____ ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.”",
             "options": [
               {
                 "id": "o1",
-                "text": "La economía de los creadores suele contarse con cifras de seguidores y reproducciones."
+                "text": "reproducciones"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "conceptos"
               },
               {
                 "id": "o3",
-                "text": "Desde esta perspectiva, analizar visibilidad, monetización y precariedad en la economía digital no consiste en repetir una conclusión."
+                "text": "interpretarlo"
               },
               {
                 "id": "o4",
-                "text": "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+                "text": "cifras"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · La economía de los creadores: cómo YouTube, TikTok y Spotify generan millones»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“Desde esta perspectiva, analizar visibilidad, _____ y precariedad en la economía digital no consiste en repetir una conclusión.”",
             "options": [
               {
                 "id": "o1",
-                "text": "La economía de los creadores suele contarse con cifras de seguidores y reproducciones."
+                "text": "creadores"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "contratos"
               },
               {
                 "id": "o3",
-                "text": "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones."
+                "text": "monetización"
               },
               {
                 "id": "o4",
-                "text": "Desde esta perspectiva, analizar visibilidad, monetización y precariedad en la economía digital no consiste en repetir una conclusión."
+                "text": "invisible"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · La economía de los creadores: cómo YouTube, TikTok y Spotify generan millones» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Por eso, una escucha avanzada no se limita a localizar una _____ literal.”",
             "options": [
               {
                 "id": "o1",
-                "text": "La economía de los creadores suele contarse con cifras de seguidores y reproducciones."
+                "text": "reproducciones"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "interpretarlo"
               },
               {
                 "id": "o3",
-                "text": "Desde esta perspectiva, analizar visibilidad, monetización y precariedad en la economía digital no consiste en repetir una conclusión."
+                "text": "cifras"
               },
               {
                 "id": "o4",
-                "text": "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+                "text": "respuesta"
               }
             ]
           }
@@ -36428,42 +36428,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Escucha · La economía de los creadores: cómo YouTube, TikTok y Spotify generan millones», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“La economía de los creadores suele contarse con cifras de seguidores y _____.”",
         "options": [
-          "La economía de los creadores suele contarse con cifras de seguidores y reproducciones.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "Desde esta perspectiva, analizar visibilidad, monetización y precariedad en la economía digital no consiste en repetir una conclusión.",
-          "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+          "reproducciones",
+          "plataformas",
+          "comprobarse",
+          "convincente"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «La economía de los creadores suele contarse con cifras de seguidores y…», ¿qué sucede a continuación en «Escucha · La economía de los creadores: cómo YouTube, TikTok y Spotify generan millones»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Estos _____ ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.”",
         "options": [
-          "La economía de los creadores suele contarse con cifras de seguidores y reproducciones.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "Desde esta perspectiva, analizar visibilidad, monetización y precariedad en la economía digital no consiste en repetir una conclusión.",
-          "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+          "reproducciones",
+          "conceptos",
+          "interpretarlo",
+          "cifras"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · La economía de los creadores: cómo YouTube, TikTok y Spotify generan millones»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“Desde esta perspectiva, analizar visibilidad, _____ y precariedad en la economía digital no consiste en repetir una conclusión.”",
         "options": [
-          "La economía de los creadores suele contarse con cifras de seguidores y reproducciones.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones.",
-          "Desde esta perspectiva, analizar visibilidad, monetización y precariedad en la economía digital no consiste en repetir una conclusión."
+          "creadores",
+          "contratos",
+          "monetización",
+          "invisible"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · La economía de los creadores: cómo YouTube, TikTok y Spotify generan millones» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Por eso, una escucha avanzada no se limita a localizar una _____ literal.”",
         "options": [
-          "La economía de los creadores suele contarse con cifras de seguidores y reproducciones.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "Desde esta perspectiva, analizar visibilidad, monetización y precariedad en la economía digital no consiste en repetir una conclusión.",
-          "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+          "reproducciones",
+          "interpretarlo",
+          "cifras",
+          "respuesta"
         ]
       }
     ]
@@ -36538,92 +36538,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «¿Cuánto cuesta?», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“Hoy desayuno en una cafetería cerca de la _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoy desayuno en una cafetería cerca de la escuela."
+                "text": "escuela"
               },
               {
                 "id": "o2",
-                "text": "Para el almuerzo quiero una ensalada y un vaso de agua, porque no tengo mucha hambre."
+                "text": "Pido"
               },
               {
                 "id": "o3",
-                "text": "El mesero pregunta si deseo un jugo, pero prefiero agua."
+                "text": "café"
               },
               {
                 "id": "o4",
-                "text": "La comida llega caliente y todo está delicioso."
+                "text": "vaso"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «Hoy desayuno en una cafetería cerca de la escuela.», ¿qué sucede a continuación en «¿Cuánto cuesta?»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Para el almuerzo _____ una ensalada y un vaso de agua, porque no tengo mucha hambre.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoy desayuno en una cafetería cerca de la escuela."
+                "text": "Hoy"
               },
               {
                 "id": "o2",
-                "text": "Para el almuerzo quiero una ensalada y un vaso de agua, porque no tengo mucha hambre."
+                "text": "quiero"
               },
               {
                 "id": "o3",
-                "text": "El mesero pregunta si deseo un jugo, pero prefiero agua."
+                "text": "una"
               },
               {
                 "id": "o4",
-                "text": "La comida llega caliente y todo está delicioso."
+                "text": "cafetería"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «¿Cuánto cuesta?»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“El _____ pregunta si deseo un jugo, pero prefiero agua.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoy desayuno en una cafetería cerca de la escuela."
+                "text": "Hoy"
               },
               {
                 "id": "o2",
-                "text": "El mesero pregunta si deseo un jugo, pero prefiero agua."
+                "text": "una"
               },
               {
                 "id": "o3",
-                "text": "Para el almuerzo quiero una ensalada y un vaso de agua, porque no tengo mucha hambre."
+                "text": "mesero"
               },
               {
                 "id": "o4",
-                "text": "La comida llega caliente y todo está delicioso."
+                "text": "cafetería"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «¿Cuánto cuesta?» después de «Para el almuerzo quiero una ensalada y un vaso de agua, porque no…»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“La comida llega caliente y todo está _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoy desayuno en una cafetería cerca de la escuela."
+                "text": "quiero"
               },
               {
                 "id": "o2",
-                "text": "Para el almuerzo quiero una ensalada y un vaso de agua, porque no tengo mucha hambre."
+                "text": "hambre"
               },
               {
                 "id": "o3",
-                "text": "El mesero pregunta si deseo un jugo, pero prefiero agua."
+                "text": "mesero"
               },
               {
                 "id": "o4",
-                "text": "La comida llega caliente y todo está delicioso."
+                "text": "delicioso"
               }
             ]
           }
@@ -36634,42 +36634,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «¿Cuánto cuesta?», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“Hoy desayuno en una cafetería cerca de la _____.”",
         "options": [
-          "Hoy desayuno en una cafetería cerca de la escuela.",
-          "Para el almuerzo quiero una ensalada y un vaso de agua, porque no tengo mucha hambre.",
-          "El mesero pregunta si deseo un jugo, pero prefiero agua.",
-          "La comida llega caliente y todo está delicioso."
+          "escuela",
+          "Pido",
+          "café",
+          "vaso"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «Hoy desayuno en una cafetería cerca de la escuela.», ¿qué sucede a continuación en «¿Cuánto cuesta?»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Para el almuerzo _____ una ensalada y un vaso de agua, porque no tengo mucha hambre.”",
         "options": [
-          "Hoy desayuno en una cafetería cerca de la escuela.",
-          "Para el almuerzo quiero una ensalada y un vaso de agua, porque no tengo mucha hambre.",
-          "El mesero pregunta si deseo un jugo, pero prefiero agua.",
-          "La comida llega caliente y todo está delicioso."
+          "Hoy",
+          "quiero",
+          "una",
+          "cafetería"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «¿Cuánto cuesta?»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“El _____ pregunta si deseo un jugo, pero prefiero agua.”",
         "options": [
-          "Hoy desayuno en una cafetería cerca de la escuela.",
-          "El mesero pregunta si deseo un jugo, pero prefiero agua.",
-          "Para el almuerzo quiero una ensalada y un vaso de agua, porque no tengo mucha hambre.",
-          "La comida llega caliente y todo está delicioso."
+          "Hoy",
+          "una",
+          "mesero",
+          "cafetería"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «¿Cuánto cuesta?» después de «Para el almuerzo quiero una ensalada y un vaso de agua, porque no…»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“La comida llega caliente y todo está _____.”",
         "options": [
-          "Hoy desayuno en una cafetería cerca de la escuela.",
-          "Para el almuerzo quiero una ensalada y un vaso de agua, porque no tengo mucha hambre.",
-          "El mesero pregunta si deseo un jugo, pero prefiero agua.",
-          "La comida llega caliente y todo está delicioso."
+          "quiero",
+          "hambre",
+          "mesero",
+          "delicioso"
         ]
       }
     ]
@@ -40565,92 +40565,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Escucha · Celebraciones», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“El sábado celebramos el cumpleaños de mi _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "El sábado celebramos el cumpleaños de mi abuela."
+                "text": "abuela"
               },
               {
                 "id": "o2",
-                "text": "Él prefiere traer un postre para compartir y va a entregarlo antes de las cinco."
+                "text": "información"
               },
               {
                 "id": "o3",
-                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
+                "text": "celebramos"
               },
               {
                 "id": "o4",
-                "text": "Me gusta tener un plan claro antes de seguir."
+                "text": "cumpleaños"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «El sábado celebramos el cumpleaños de mi abuela.», ¿qué sucede a continuación en «Escucha · Celebraciones»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Él prefiere traer un _____ para compartir y va a entregarlo antes de las cinco.”",
             "options": [
               {
                 "id": "o1",
-                "text": "El sábado celebramos el cumpleaños de mi abuela."
+                "text": "información"
               },
               {
                 "id": "o2",
-                "text": "Él prefiere traer un postre para compartir y va a entregarlo antes de las cinco."
+                "text": "postre"
               },
               {
                 "id": "o3",
-                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
+                "text": "celebramos"
               },
               {
                 "id": "o4",
-                "text": "Me gusta tener un plan claro antes de seguir."
+                "text": "cumpleaños"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Celebraciones»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“Al final, repaso la información y preparo el _____ paso con calma.”",
             "options": [
               {
                 "id": "o1",
-                "text": "El sábado celebramos el cumpleaños de mi abuela."
+                "text": "sábado"
               },
               {
                 "id": "o2",
-                "text": "Él prefiere traer un postre para compartir y va a entregarlo antes de las cinco."
+                "text": "abuela"
               },
               {
                 "id": "o3",
-                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
+                "text": "siguiente"
               },
               {
                 "id": "o4",
-                "text": "Me gusta tener un plan claro antes de seguir."
+                "text": "llevar"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Celebraciones» después de «Al final, repaso la información y preparo el siguiente paso con calma.»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Me gusta tener un plan claro antes de _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "El sábado celebramos el cumpleaños de mi abuela."
+                "text": "información"
               },
               {
                 "id": "o2",
-                "text": "Él prefiere traer un postre para compartir y va a entregarlo antes de las cinco."
+                "text": "celebramos"
               },
               {
                 "id": "o3",
-                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
+                "text": "cumpleaños"
               },
               {
                 "id": "o4",
-                "text": "Me gusta tener un plan claro antes de seguir."
+                "text": "seguir"
               }
             ]
           }
@@ -40661,42 +40661,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Escucha · Celebraciones», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“El sábado celebramos el cumpleaños de mi _____.”",
         "options": [
-          "El sábado celebramos el cumpleaños de mi abuela.",
-          "Él prefiere traer un postre para compartir y va a entregarlo antes de las cinco.",
-          "Al final, repaso la información y preparo el siguiente paso con calma.",
-          "Me gusta tener un plan claro antes de seguir."
+          "abuela",
+          "información",
+          "celebramos",
+          "cumpleaños"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «El sábado celebramos el cumpleaños de mi abuela.», ¿qué sucede a continuación en «Escucha · Celebraciones»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Él prefiere traer un _____ para compartir y va a entregarlo antes de las cinco.”",
         "options": [
-          "El sábado celebramos el cumpleaños de mi abuela.",
-          "Él prefiere traer un postre para compartir y va a entregarlo antes de las cinco.",
-          "Al final, repaso la información y preparo el siguiente paso con calma.",
-          "Me gusta tener un plan claro antes de seguir."
+          "información",
+          "postre",
+          "celebramos",
+          "cumpleaños"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Celebraciones»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“Al final, repaso la información y preparo el _____ paso con calma.”",
         "options": [
-          "El sábado celebramos el cumpleaños de mi abuela.",
-          "Él prefiere traer un postre para compartir y va a entregarlo antes de las cinco.",
-          "Al final, repaso la información y preparo el siguiente paso con calma.",
-          "Me gusta tener un plan claro antes de seguir."
+          "sábado",
+          "abuela",
+          "siguiente",
+          "llevar"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Celebraciones» después de «Al final, repaso la información y preparo el siguiente paso con calma.»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Me gusta tener un plan claro antes de _____.”",
         "options": [
-          "El sábado celebramos el cumpleaños de mi abuela.",
-          "Él prefiere traer un postre para compartir y va a entregarlo antes de las cinco.",
-          "Al final, repaso la información y preparo el siguiente paso con calma.",
-          "Me gusta tener un plan claro antes de seguir."
+          "información",
+          "celebramos",
+          "cumpleaños",
+          "seguir"
         ]
       }
     ]
@@ -40740,92 +40740,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Escucha · El patio escolar que dejó de ser una isla de calor», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“En este reporte vecinal, presento una propuesta para mejorar un problema ambiental _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "En este reporte vecinal, presento una propuesta para mejorar un problema ambiental cercano."
+                "text": "cercano"
               },
               {
                 "id": "o2",
-                "text": "Si el centro reutilizara parte del agua de lluvia para cuidarlos, se reduciría el consumo y el patio sería más fresco."
+                "text": "mantenimiento"
               },
               {
                 "id": "o3",
-                "text": "Por eso reunimos fotos, medimos las zonas más calientes y enviamos una propuesta a la dirección."
+                "text": "insoportable"
               },
               {
                 "id": "o4",
-                "text": "Si conseguimos apoyo para los materiales, el grupo se encargará de explicar el proyecto a los cursos más pequeños y de cuidar las nuevas plantas."
+                "text": "contenedores"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «En este reporte vecinal, presento una propuesta para mejorar un…», ¿qué sucede a continuación en «Escucha · El patio escolar que dejó de ser una isla de calor»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Si el centro _____ parte del agua de lluvia para cuidarlos, se reduciría el consumo y el patio sería más fresco.”",
             "options": [
               {
                 "id": "o1",
-                "text": "En este reporte vecinal, presento una propuesta para mejorar un problema ambiental cercano."
+                "text": "presento"
               },
               {
                 "id": "o2",
-                "text": "Si el centro reutilizara parte del agua de lluvia para cuidarlos, se reduciría el consumo y el patio sería más fresco."
+                "text": "reutilizara"
               },
               {
                 "id": "o3",
-                "text": "Por eso reunimos fotos, medimos las zonas más calientes y enviamos una propuesta a la dirección."
+                "text": "problema"
               },
               {
                 "id": "o4",
-                "text": "Si conseguimos apoyo para los materiales, el grupo se encargará de explicar el proyecto a los cursos más pequeños y de cuidar las nuevas plantas."
+                "text": "mediodía"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · El patio escolar que dejó de ser una isla de calor»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“Por eso reunimos fotos, medimos las zonas más _____ y enviamos una propuesta a la dirección.”",
             "options": [
               {
                 "id": "o1",
-                "text": "En este reporte vecinal, presento una propuesta para mejorar un problema ambiental cercano."
+                "text": "mantenimiento"
               },
               {
                 "id": "o2",
-                "text": "Si el centro reutilizara parte del agua de lluvia para cuidarlos, se reduciría el consumo y el patio sería más fresco."
+                "text": "volvía"
               },
               {
                 "id": "o3",
-                "text": "El patio de mi instituto se volvía insoportable al mediodía porque casi no tenía sombra."
+                "text": "calientes"
               },
               {
                 "id": "o4",
-                "text": "Por eso reunimos fotos, medimos las zonas más calientes y enviamos una propuesta a la dirección."
+                "text": "insoportable"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · El patio escolar que dejó de ser una isla de calor» después de «El patio de mi instituto se volvía insoportable al mediodía porque…»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Si conseguimos apoyo para los materiales, el grupo se encargará de explicar el proyecto a los _____ más pequeños y de cuidar las nuevas plantas.”",
             "options": [
               {
                 "id": "o1",
-                "text": "En este reporte vecinal, presento una propuesta para mejorar un problema ambiental cercano."
+                "text": "mantenimiento"
               },
               {
                 "id": "o2",
-                "text": "Si el centro reutilizara parte del agua de lluvia para cuidarlos, se reduciría el consumo y el patio sería más fresco."
+                "text": "insoportable"
               },
               {
                 "id": "o3",
-                "text": "Por eso reunimos fotos, medimos las zonas más calientes y enviamos una propuesta a la dirección."
+                "text": "contenedores"
               },
               {
                 "id": "o4",
-                "text": "Si conseguimos apoyo para los materiales, el grupo se encargará de explicar el proyecto a los cursos más pequeños y de cuidar las nuevas plantas."
+                "text": "cursos"
               }
             ]
           }
@@ -40836,42 +40836,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Escucha · El patio escolar que dejó de ser una isla de calor», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“En este reporte vecinal, presento una propuesta para mejorar un problema ambiental _____.”",
         "options": [
-          "En este reporte vecinal, presento una propuesta para mejorar un problema ambiental cercano.",
-          "Si el centro reutilizara parte del agua de lluvia para cuidarlos, se reduciría el consumo y el patio sería más fresco.",
-          "Por eso reunimos fotos, medimos las zonas más calientes y enviamos una propuesta a la dirección.",
-          "Si conseguimos apoyo para los materiales, el grupo se encargará de explicar el proyecto a los cursos más pequeños y de cuidar las nuevas plantas."
+          "cercano",
+          "mantenimiento",
+          "insoportable",
+          "contenedores"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «En este reporte vecinal, presento una propuesta para mejorar un…», ¿qué sucede a continuación en «Escucha · El patio escolar que dejó de ser una isla de calor»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Si el centro _____ parte del agua de lluvia para cuidarlos, se reduciría el consumo y el patio sería más fresco.”",
         "options": [
-          "En este reporte vecinal, presento una propuesta para mejorar un problema ambiental cercano.",
-          "Si el centro reutilizara parte del agua de lluvia para cuidarlos, se reduciría el consumo y el patio sería más fresco.",
-          "Por eso reunimos fotos, medimos las zonas más calientes y enviamos una propuesta a la dirección.",
-          "Si conseguimos apoyo para los materiales, el grupo se encargará de explicar el proyecto a los cursos más pequeños y de cuidar las nuevas plantas."
+          "presento",
+          "reutilizara",
+          "problema",
+          "mediodía"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · El patio escolar que dejó de ser una isla de calor»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“Por eso reunimos fotos, medimos las zonas más _____ y enviamos una propuesta a la dirección.”",
         "options": [
-          "En este reporte vecinal, presento una propuesta para mejorar un problema ambiental cercano.",
-          "Si el centro reutilizara parte del agua de lluvia para cuidarlos, se reduciría el consumo y el patio sería más fresco.",
-          "El patio de mi instituto se volvía insoportable al mediodía porque casi no tenía sombra.",
-          "Por eso reunimos fotos, medimos las zonas más calientes y enviamos una propuesta a la dirección."
+          "mantenimiento",
+          "volvía",
+          "calientes",
+          "insoportable"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · El patio escolar que dejó de ser una isla de calor» después de «El patio de mi instituto se volvía insoportable al mediodía porque…»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Si conseguimos apoyo para los materiales, el grupo se encargará de explicar el proyecto a los _____ más pequeños y de cuidar las nuevas plantas.”",
         "options": [
-          "En este reporte vecinal, presento una propuesta para mejorar un problema ambiental cercano.",
-          "Si el centro reutilizara parte del agua de lluvia para cuidarlos, se reduciría el consumo y el patio sería más fresco.",
-          "Por eso reunimos fotos, medimos las zonas más calientes y enviamos una propuesta a la dirección.",
-          "Si conseguimos apoyo para los materiales, el grupo se encargará de explicar el proyecto a los cursos más pequeños y de cuidar las nuevas plantas."
+          "mantenimiento",
+          "insoportable",
+          "contenedores",
+          "cursos"
         ]
       }
     ]
@@ -40915,92 +40915,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Escucha · Innovar antes de conocer todas las consecuencias», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“Esta cápsula científica explica por qué un hallazgo prometedor también necesita cautela y _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Esta cápsula científica explica por qué un hallazgo prometedor también necesita cautela y supervisión."
+                "text": "supervisión"
               },
               {
                 "id": "o2",
-                "text": "Busqué el artículo y vi que la muestra era pequeña y que todavía faltaba confirmar los resultados con otros grupos."
+                "text": "hallazgo"
               },
               {
                 "id": "o3",
-                "text": "La ética exige explicar qué sabemos, qué no sabemos y a quién puede afectar cada decisión."
+                "text": "necesita"
               },
               {
                 "id": "o4",
-                "text": "De ese modo, la confianza no depende de ocultar dudas, sino de responderlas con evidencia."
+                "text": "solución"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «Esta cápsula científica explica por qué un hallazgo prometedor también…», ¿qué sucede a continuación en «Escucha · Innovar antes de conocer todas las consecuencias»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Busqué el _____ y vi que la muestra era pequeña y que todavía faltaba confirmar los resultados con otros grupos.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Esta cápsula científica explica por qué un hallazgo prometedor también necesita cautela y supervisión."
+                "text": "investigación"
               },
               {
                 "id": "o2",
-                "text": "Busqué el artículo y vi que la muestra era pequeña y que todavía faltaba confirmar los resultados con otros grupos."
+                "text": "artículo"
               },
               {
                 "id": "o3",
-                "text": "La ética exige explicar qué sabemos, qué no sabemos y a quién puede afectar cada decisión."
+                "text": "incertidumbre"
               },
               {
                 "id": "o4",
-                "text": "De ese modo, la confianza no depende de ocultar dudas, sino de responderlas con evidencia."
+                "text": "innecesarios"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Innovar antes de conocer todas las consecuencias»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“La ética exige explicar qué sabemos, qué no sabemos y a quién puede _____ cada decisión.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Esta cápsula científica explica por qué un hallazgo prometedor también necesita cautela y supervisión."
+                "text": "investigación"
               },
               {
                 "id": "o2",
-                "text": "Busqué el artículo y vi que la muestra era pequeña y que todavía faltaba confirmar los resultados con otros grupos."
+                "text": "incertidumbre"
               },
               {
                 "id": "o3",
-                "text": "La ética exige explicar qué sabemos, qué no sabemos y a quién puede afectar cada decisión."
+                "text": "afectar"
               },
               {
                 "id": "o4",
-                "text": "De ese modo, la confianza no depende de ocultar dudas, sino de responderlas con evidencia."
+                "text": "innecesarios"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Innovar antes de conocer todas las consecuencias» después de «La ética exige explicar qué sabemos, qué no sabemos y a quién puede…»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“De ese modo, la _____ no depende de ocultar dudas, sino de responderlas con evidencia.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Esta cápsula científica explica por qué un hallazgo prometedor también necesita cautela y supervisión."
+                "text": "investigación"
               },
               {
                 "id": "o2",
-                "text": "Busqué el artículo y vi que la muestra era pequeña y que todavía faltaba confirmar los resultados con otros grupos."
+                "text": "incertidumbre"
               },
               {
                 "id": "o3",
-                "text": "La ética exige explicar qué sabemos, qué no sabemos y a quién puede afectar cada decisión."
+                "text": "ensayo"
               },
               {
                 "id": "o4",
-                "text": "De ese modo, la confianza no depende de ocultar dudas, sino de responderlas con evidencia."
+                "text": "confianza"
               }
             ]
           }
@@ -41011,42 +41011,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Escucha · Innovar antes de conocer todas las consecuencias», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“Esta cápsula científica explica por qué un hallazgo prometedor también necesita cautela y _____.”",
         "options": [
-          "Esta cápsula científica explica por qué un hallazgo prometedor también necesita cautela y supervisión.",
-          "Busqué el artículo y vi que la muestra era pequeña y que todavía faltaba confirmar los resultados con otros grupos.",
-          "La ética exige explicar qué sabemos, qué no sabemos y a quién puede afectar cada decisión.",
-          "De ese modo, la confianza no depende de ocultar dudas, sino de responderlas con evidencia."
+          "supervisión",
+          "hallazgo",
+          "necesita",
+          "solución"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «Esta cápsula científica explica por qué un hallazgo prometedor también…», ¿qué sucede a continuación en «Escucha · Innovar antes de conocer todas las consecuencias»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Busqué el _____ y vi que la muestra era pequeña y que todavía faltaba confirmar los resultados con otros grupos.”",
         "options": [
-          "Esta cápsula científica explica por qué un hallazgo prometedor también necesita cautela y supervisión.",
-          "Busqué el artículo y vi que la muestra era pequeña y que todavía faltaba confirmar los resultados con otros grupos.",
-          "La ética exige explicar qué sabemos, qué no sabemos y a quién puede afectar cada decisión.",
-          "De ese modo, la confianza no depende de ocultar dudas, sino de responderlas con evidencia."
+          "investigación",
+          "artículo",
+          "incertidumbre",
+          "innecesarios"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Innovar antes de conocer todas las consecuencias»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“La ética exige explicar qué sabemos, qué no sabemos y a quién puede _____ cada decisión.”",
         "options": [
-          "Esta cápsula científica explica por qué un hallazgo prometedor también necesita cautela y supervisión.",
-          "Busqué el artículo y vi que la muestra era pequeña y que todavía faltaba confirmar los resultados con otros grupos.",
-          "La ética exige explicar qué sabemos, qué no sabemos y a quién puede afectar cada decisión.",
-          "De ese modo, la confianza no depende de ocultar dudas, sino de responderlas con evidencia."
+          "investigación",
+          "incertidumbre",
+          "afectar",
+          "innecesarios"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Innovar antes de conocer todas las consecuencias» después de «La ética exige explicar qué sabemos, qué no sabemos y a quién puede…»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“De ese modo, la _____ no depende de ocultar dudas, sino de responderlas con evidencia.”",
         "options": [
-          "Esta cápsula científica explica por qué un hallazgo prometedor también necesita cautela y supervisión.",
-          "Busqué el artículo y vi que la muestra era pequeña y que todavía faltaba confirmar los resultados con otros grupos.",
-          "La ética exige explicar qué sabemos, qué no sabemos y a quién puede afectar cada decisión.",
-          "De ese modo, la confianza no depende de ocultar dudas, sino de responderlas con evidencia."
+          "investigación",
+          "incertidumbre",
+          "ensayo",
+          "confianza"
         ]
       }
     ]
@@ -41090,92 +41090,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Escucha · La presión mental detrás del deporte de alto rendimiento», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“Cuando vemos a un atleta ganar, solemos mirar el _____ final.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Cuando vemos a un atleta ganar, solemos mirar el resultado final."
+                "text": "resultado"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "interpretarlo"
               },
               {
                 "id": "o3",
-                "text": "Aunque «presión» parece una decisión individual, conviene considerar «rendimiento» y «expectativa»."
+                "text": "atleta"
               },
               {
                 "id": "o4",
-                "text": "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+                "text": "Detrás"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «Cuando vemos a un atleta ganar, solemos mirar el resultado final.», ¿qué sucede a continuación en «Escucha · La presión mental detrás del deporte de alto rendimiento»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Estos _____ ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Cuando vemos a un atleta ganar, solemos mirar el resultado final."
+                "text": "interpretarlo"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "conceptos"
               },
               {
                 "id": "o3",
-                "text": "Aunque «presión» parece una decisión individual, conviene considerar «rendimiento» y «expectativa»."
+                "text": "atleta"
               },
               {
                 "id": "o4",
-                "text": "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+                "text": "Detrás"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · La presión mental detrás del deporte de alto rendimiento»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“Aunque «presión» parece una _____ individual, conviene considerar «rendimiento» y «expectativa».”",
             "options": [
               {
                 "id": "o1",
-                "text": "Cuando vemos a un atleta ganar, solemos mirar el resultado final."
+                "text": "interpretarlo"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "expectativas"
               },
               {
                 "id": "o3",
-                "text": "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones."
+                "text": "decisión"
               },
               {
                 "id": "o4",
-                "text": "Aunque «presión» parece una decisión individual, conviene considerar «rendimiento» y «expectativa»."
+                "text": "perspectivas"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · La presión mental detrás del deporte de alto rendimiento» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Puede sostener una conclusión provisional, identificar una _____ razonable y explicar qué nueva información obligaría a revisarla.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Cuando vemos a un atleta ganar, solemos mirar el resultado final."
+                "text": "interpretarlo"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "expectativas"
               },
               {
                 "id": "o3",
-                "text": "Aunque «presión» parece una decisión individual, conviene considerar «rendimiento» y «expectativa»."
+                "text": "perspectivas"
               },
               {
                 "id": "o4",
-                "text": "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+                "text": "objeción"
               }
             ]
           }
@@ -41186,42 +41186,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Escucha · La presión mental detrás del deporte de alto rendimiento», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“Cuando vemos a un atleta ganar, solemos mirar el _____ final.”",
         "options": [
-          "Cuando vemos a un atleta ganar, solemos mirar el resultado final.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "Aunque «presión» parece una decisión individual, conviene considerar «rendimiento» y «expectativa».",
-          "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+          "resultado",
+          "interpretarlo",
+          "atleta",
+          "Detrás"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «Cuando vemos a un atleta ganar, solemos mirar el resultado final.», ¿qué sucede a continuación en «Escucha · La presión mental detrás del deporte de alto rendimiento»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Estos _____ ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.”",
         "options": [
-          "Cuando vemos a un atleta ganar, solemos mirar el resultado final.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "Aunque «presión» parece una decisión individual, conviene considerar «rendimiento» y «expectativa».",
-          "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+          "interpretarlo",
+          "conceptos",
+          "atleta",
+          "Detrás"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · La presión mental detrás del deporte de alto rendimiento»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“Aunque «presión» parece una _____ individual, conviene considerar «rendimiento» y «expectativa».”",
         "options": [
-          "Cuando vemos a un atleta ganar, solemos mirar el resultado final.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones.",
-          "Aunque «presión» parece una decisión individual, conviene considerar «rendimiento» y «expectativa»."
+          "interpretarlo",
+          "expectativas",
+          "decisión",
+          "perspectivas"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · La presión mental detrás del deporte de alto rendimiento» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Puede sostener una conclusión provisional, identificar una _____ razonable y explicar qué nueva información obligaría a revisarla.”",
         "options": [
-          "Cuando vemos a un atleta ganar, solemos mirar el resultado final.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "Aunque «presión» parece una decisión individual, conviene considerar «rendimiento» y «expectativa».",
-          "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+          "interpretarlo",
+          "expectativas",
+          "perspectivas",
+          "objeción"
         ]
       }
     ]
@@ -41265,92 +41265,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Escucha · Sobrevivir a un desastre natural: decisiones que salvan vidas», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“En un desastre natural, una decisión tomada a tiempo puede _____ una vida.”",
             "options": [
               {
                 "id": "o1",
-                "text": "En un desastre natural, una decisión tomada a tiempo puede salvar una vida."
+                "text": "salvar"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "interpretarlo"
               },
               {
                 "id": "o3",
-                "text": "Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos."
+                "text": "presuposición"
               },
               {
                 "id": "o4",
-                "text": "Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación."
+                "text": "comunicación"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «En un desastre natural, una decisión tomada a tiempo puede salvar una…», ¿qué sucede a continuación en «Escucha · Sobrevivir a un desastre natural: decisiones que salvan vidas»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Estos _____ ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.”",
             "options": [
               {
                 "id": "o1",
-                "text": "En un desastre natural, una decisión tomada a tiempo puede salvar una vida."
+                "text": "interpretarlo"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "conceptos"
               },
               {
                 "id": "o3",
-                "text": "Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos."
+                "text": "presuposición"
               },
               {
                 "id": "o4",
-                "text": "Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación."
+                "text": "tomada"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Sobrevivir a un desastre natural: decisiones que salvan vidas»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“Exige argumentar con precisión, _____ límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos.”",
             "options": [
               {
                 "id": "o1",
-                "text": "En un desastre natural, una decisión tomada a tiempo puede salvar una vida."
+                "text": "interpretarlo"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "presuposición"
               },
               {
                 "id": "o3",
-                "text": "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones."
+                "text": "reconocer"
               },
               {
                 "id": "o4",
-                "text": "Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos."
+                "text": "tomada"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Sobrevivir a un desastre natural: decisiones que salvan vidas» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Debe reconocer qué presuposición sostiene el argumento, qué _____ queda descartada y qué grado de certeza expresa cada formulación.”",
             "options": [
               {
                 "id": "o1",
-                "text": "En un desastre natural, una decisión tomada a tiempo puede salvar una vida."
+                "text": "desastre"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "decisión"
               },
               {
                 "id": "o3",
-                "text": "Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos."
+                "text": "heroísmo"
               },
               {
                 "id": "o4",
-                "text": "Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación."
+                "text": "alternativa"
               }
             ]
           }
@@ -41361,42 +41361,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Escucha · Sobrevivir a un desastre natural: decisiones que salvan vidas», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“En un desastre natural, una decisión tomada a tiempo puede _____ una vida.”",
         "options": [
-          "En un desastre natural, una decisión tomada a tiempo puede salvar una vida.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos.",
-          "Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación."
+          "salvar",
+          "interpretarlo",
+          "presuposición",
+          "comunicación"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «En un desastre natural, una decisión tomada a tiempo puede salvar una…», ¿qué sucede a continuación en «Escucha · Sobrevivir a un desastre natural: decisiones que salvan vidas»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Estos _____ ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.”",
         "options": [
-          "En un desastre natural, una decisión tomada a tiempo puede salvar una vida.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos.",
-          "Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación."
+          "interpretarlo",
+          "conceptos",
+          "presuposición",
+          "tomada"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Sobrevivir a un desastre natural: decisiones que salvan vidas»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“Exige argumentar con precisión, _____ límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos.”",
         "options": [
-          "En un desastre natural, una decisión tomada a tiempo puede salvar una vida.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones.",
-          "Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos."
+          "interpretarlo",
+          "presuposición",
+          "reconocer",
+          "tomada"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Sobrevivir a un desastre natural: decisiones que salvan vidas» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Debe reconocer qué presuposición sostiene el argumento, qué _____ queda descartada y qué grado de certeza expresa cada formulación.”",
         "options": [
-          "En un desastre natural, una decisión tomada a tiempo puede salvar una vida.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos.",
-          "Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación."
+          "desastre",
+          "decisión",
+          "heroísmo",
+          "alternativa"
         ]
       }
     ]
@@ -41473,92 +41473,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Una entrevista breve», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“Carla necesita comprar una camisa para una _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Carla necesita comprar una camisa para una entrevista."
+                "text": "entrevista"
               },
               {
                 "id": "o2",
-                "text": "La vendedora dice que vale ochocientos pesos."
+                "text": "comprar"
               },
               {
                 "id": "o3",
-                "text": "Carla se la prueba, pero necesita una talla más grande."
+                "text": "mediana"
               },
               {
                 "id": "o4",
-                "text": "Al final paga con tarjeta y guarda el recibo en su cartera."
+                "text": "combina"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «Carla necesita comprar una camisa para una entrevista.», ¿qué sucede a continuación en «Una entrevista breve»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“La vendedora dice que vale _____ pesos.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Carla necesita comprar una camisa para una entrevista."
+                "text": "necesita"
               },
               {
                 "id": "o2",
-                "text": "La vendedora dice que vale ochocientos pesos."
+                "text": "ochocientos"
               },
               {
                 "id": "o3",
-                "text": "Carla se la prueba, pero necesita una talla más grande."
+                "text": "pregunta"
               },
               {
                 "id": "o4",
-                "text": "Al final paga con tarjeta y guarda el recibo en su cartera."
+                "text": "prefiere"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Una entrevista breve»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“Carla se la prueba, pero necesita una talla más _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Carla necesita comprar una camisa para una entrevista."
+                "text": "ochocientos"
               },
               {
                 "id": "o2",
-                "text": "La vendedora dice que vale ochocientos pesos."
+                "text": "entrevista"
               },
               {
                 "id": "o3",
-                "text": "También ve una camisa verde, aunque prefiere la azul porque combina con sus pantalones."
+                "text": "grande"
               },
               {
                 "id": "o4",
-                "text": "Carla se la prueba, pero necesita una talla más grande."
+                "text": "pantalones"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Una entrevista breve» después de «También ve una camisa verde, aunque prefiere la azul porque combina…»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Al final paga con tarjeta y _____ el recibo en su cartera.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Carla necesita comprar una camisa para una entrevista."
+                "text": "ochocientos"
               },
               {
                 "id": "o2",
-                "text": "La vendedora dice que vale ochocientos pesos."
+                "text": "entrevista"
               },
               {
                 "id": "o3",
-                "text": "Carla se la prueba, pero necesita una talla más grande."
+                "text": "pantalones"
               },
               {
                 "id": "o4",
-                "text": "Al final paga con tarjeta y guarda el recibo en su cartera."
+                "text": "guarda"
               }
             ]
           }
@@ -41569,42 +41569,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Una entrevista breve», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“Carla necesita comprar una camisa para una _____.”",
         "options": [
-          "Carla necesita comprar una camisa para una entrevista.",
-          "La vendedora dice que vale ochocientos pesos.",
-          "Carla se la prueba, pero necesita una talla más grande.",
-          "Al final paga con tarjeta y guarda el recibo en su cartera."
+          "entrevista",
+          "comprar",
+          "mediana",
+          "combina"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «Carla necesita comprar una camisa para una entrevista.», ¿qué sucede a continuación en «Una entrevista breve»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“La vendedora dice que vale _____ pesos.”",
         "options": [
-          "Carla necesita comprar una camisa para una entrevista.",
-          "La vendedora dice que vale ochocientos pesos.",
-          "Carla se la prueba, pero necesita una talla más grande.",
-          "Al final paga con tarjeta y guarda el recibo en su cartera."
+          "necesita",
+          "ochocientos",
+          "pregunta",
+          "prefiere"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Una entrevista breve»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“Carla se la prueba, pero necesita una talla más _____.”",
         "options": [
-          "Carla necesita comprar una camisa para una entrevista.",
-          "La vendedora dice que vale ochocientos pesos.",
-          "También ve una camisa verde, aunque prefiere la azul porque combina con sus pantalones.",
-          "Carla se la prueba, pero necesita una talla más grande."
+          "ochocientos",
+          "entrevista",
+          "grande",
+          "pantalones"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Una entrevista breve» después de «También ve una camisa verde, aunque prefiere la azul porque combina…»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Al final paga con tarjeta y _____ el recibo en su cartera.”",
         "options": [
-          "Carla necesita comprar una camisa para una entrevista.",
-          "La vendedora dice que vale ochocientos pesos.",
-          "Carla se la prueba, pero necesita una talla más grande.",
-          "Al final paga con tarjeta y guarda el recibo en su cartera."
+          "ochocientos",
+          "entrevista",
+          "pantalones",
+          "guarda"
         ]
       }
     ]
@@ -45512,92 +45512,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Escucha · Estudio y aprendizaje», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“Tengo un examen dentro de dos semanas y todavía no termino mis _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Tengo un examen dentro de dos semanas y todavía no termino mis apuntes."
+                "text": "apuntes"
               },
               {
                 "id": "o2",
-                "text": "Hoy organizaré el calendario y dividiré las tareas."
+                "text": "información"
               },
               {
                 "id": "o3",
-                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
+                "text": "tema"
               },
               {
                 "id": "o4",
-                "text": "Me gusta tener un plan claro antes de seguir."
+                "text": "cada"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «Tengo un examen dentro de dos semanas y todavía no termino mis apuntes.», ¿qué sucede a continuación en «Escucha · Estudio y aprendizaje»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Hoy _____ el calendario y dividiré las tareas.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Tengo un examen dentro de dos semanas y todavía no termino mis apuntes."
+                "text": "semanas"
               },
               {
                 "id": "o2",
-                "text": "Hoy organizaré el calendario y dividiré las tareas."
+                "text": "organizaré"
               },
               {
                 "id": "o3",
-                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
+                "text": "todavía"
               },
               {
                 "id": "o4",
-                "text": "Me gusta tener un plan claro antes de seguir."
+                "text": "termino"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Estudio y aprendizaje»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“Al final, repaso la información y preparo el _____ paso con calma.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Tengo un examen dentro de dos semanas y todavía no termino mis apuntes."
+                "text": "examen"
               },
               {
                 "id": "o2",
-                "text": "Hoy organizaré el calendario y dividiré las tareas."
+                "text": "dentro"
               },
               {
                 "id": "o3",
-                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
+                "text": "siguiente"
               },
               {
                 "id": "o4",
-                "text": "Me gusta tener un plan claro antes de seguir."
+                "text": "dejaré"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Estudio y aprendizaje» después de «Al final, repaso la información y preparo el siguiente paso con calma.»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Me gusta tener un plan claro antes de _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Tengo un examen dentro de dos semanas y todavía no termino mis apuntes."
+                "text": "información"
               },
               {
                 "id": "o2",
-                "text": "Hoy organizaré el calendario y dividiré las tareas."
+                "text": "estudiando"
               },
               {
                 "id": "o3",
-                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
+                "text": "organizaré"
               },
               {
                 "id": "o4",
-                "text": "Me gusta tener un plan claro antes de seguir."
+                "text": "seguir"
               }
             ]
           }
@@ -45608,42 +45608,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Escucha · Estudio y aprendizaje», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“Tengo un examen dentro de dos semanas y todavía no termino mis _____.”",
         "options": [
-          "Tengo un examen dentro de dos semanas y todavía no termino mis apuntes.",
-          "Hoy organizaré el calendario y dividiré las tareas.",
-          "Al final, repaso la información y preparo el siguiente paso con calma.",
-          "Me gusta tener un plan claro antes de seguir."
+          "apuntes",
+          "información",
+          "tema",
+          "cada"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «Tengo un examen dentro de dos semanas y todavía no termino mis apuntes.», ¿qué sucede a continuación en «Escucha · Estudio y aprendizaje»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Hoy _____ el calendario y dividiré las tareas.”",
         "options": [
-          "Tengo un examen dentro de dos semanas y todavía no termino mis apuntes.",
-          "Hoy organizaré el calendario y dividiré las tareas.",
-          "Al final, repaso la información y preparo el siguiente paso con calma.",
-          "Me gusta tener un plan claro antes de seguir."
+          "semanas",
+          "organizaré",
+          "todavía",
+          "termino"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Estudio y aprendizaje»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“Al final, repaso la información y preparo el _____ paso con calma.”",
         "options": [
-          "Tengo un examen dentro de dos semanas y todavía no termino mis apuntes.",
-          "Hoy organizaré el calendario y dividiré las tareas.",
-          "Al final, repaso la información y preparo el siguiente paso con calma.",
-          "Me gusta tener un plan claro antes de seguir."
+          "examen",
+          "dentro",
+          "siguiente",
+          "dejaré"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Estudio y aprendizaje» después de «Al final, repaso la información y preparo el siguiente paso con calma.»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Me gusta tener un plan claro antes de _____.”",
         "options": [
-          "Tengo un examen dentro de dos semanas y todavía no termino mis apuntes.",
-          "Hoy organizaré el calendario y dividiré las tareas.",
-          "Al final, repaso la información y preparo el siguiente paso con calma.",
-          "Me gusta tener un plan claro antes de seguir."
+          "información",
+          "estudiando",
+          "organizaré",
+          "seguir"
         ]
       }
     ]
@@ -45687,92 +45687,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Escucha · Dormir no es perder el tiempo», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“En este episodio breve de bienestar, comparto una rutina que me ayudó a reducir el _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "En este episodio breve de bienestar, comparto una rutina que me ayudó a reducir el estrés."
+                "text": "estrés"
               },
               {
                 "id": "o2",
-                "text": "Una médica me recomendó que estableciera una rutina sencilla: dejar el teléfono fuera de la cama, preparar el día siguiente y hacer una pausa corta después de estudiar."
+                "text": "desconectarme"
               },
               {
                 "id": "o3",
-                "text": "La constancia funciona mejor que los cambios extremos."
+                "text": "estableciera"
               },
               {
                 "id": "o4",
-                "text": "Ese pequeño cambio me permite estudiar sin sentir que debo estar disponible todo el tiempo."
+                "text": "convertirlo"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «En este episodio breve de bienestar, comparto una rutina que me ayudó…», ¿qué sucede a continuación en «Escucha · Dormir no es perder el tiempo»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Una _____ me recomendó que estableciera una rutina sencilla: dejar el teléfono fuera de la cama, preparar el día siguiente y hacer una pausa corta después de estudiar.”",
             "options": [
               {
                 "id": "o1",
-                "text": "En este episodio breve de bienestar, comparto una rutina que me ayudó a reducir el estrés."
+                "text": "desconectarme"
               },
               {
                 "id": "o2",
-                "text": "Una médica me recomendó que estableciera una rutina sencilla: dejar el teléfono fuera de la cama, preparar el día siguiente y hacer una pausa corta después de estudiar."
+                "text": "médica"
               },
               {
                 "id": "o3",
-                "text": "La constancia funciona mejor que los cambios extremos."
+                "text": "estableciera"
               },
               {
                 "id": "o4",
-                "text": "Ese pequeño cambio me permite estudiar sin sentir que debo estar disponible todo el tiempo."
+                "text": "convertirlo"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Dormir no es perder el tiempo»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“La constancia funciona mejor que los cambios _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "En este episodio breve de bienestar, comparto una rutina que me ayudó a reducir el estrés."
+                "text": "desconectarme"
               },
               {
                 "id": "o2",
-                "text": "Una médica me recomendó que estableciera una rutina sencilla: dejar el teléfono fuera de la cama, preparar el día siguiente y hacer una pausa corta después de estudiar."
+                "text": "estableciera"
               },
               {
                 "id": "o3",
-                "text": "La constancia funciona mejor que los cambios extremos."
+                "text": "extremos"
               },
               {
                 "id": "o4",
-                "text": "Ese pequeño cambio me permite estudiar sin sentir que debo estar disponible todo el tiempo."
+                "text": "breve"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Dormir no es perder el tiempo» después de «La constancia funciona mejor que los cambios extremos.»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Ese pequeño cambio me permite estudiar sin _____ que debo estar disponible todo el tiempo.”",
             "options": [
               {
                 "id": "o1",
-                "text": "En este episodio breve de bienestar, comparto una rutina que me ayudó a reducir el estrés."
+                "text": "desconectarme"
               },
               {
                 "id": "o2",
-                "text": "Una médica me recomendó que estableciera una rutina sencilla: dejar el teléfono fuera de la cama, preparar el día siguiente y hacer una pausa corta después de estudiar."
+                "text": "estableciera"
               },
               {
                 "id": "o3",
-                "text": "La constancia funciona mejor que los cambios extremos."
+                "text": "convertirlo"
               },
               {
                 "id": "o4",
-                "text": "Ese pequeño cambio me permite estudiar sin sentir que debo estar disponible todo el tiempo."
+                "text": "sentir"
               }
             ]
           }
@@ -45783,42 +45783,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Escucha · Dormir no es perder el tiempo», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“En este episodio breve de bienestar, comparto una rutina que me ayudó a reducir el _____.”",
         "options": [
-          "En este episodio breve de bienestar, comparto una rutina que me ayudó a reducir el estrés.",
-          "Una médica me recomendó que estableciera una rutina sencilla: dejar el teléfono fuera de la cama, preparar el día siguiente y hacer una pausa corta después de estudiar.",
-          "La constancia funciona mejor que los cambios extremos.",
-          "Ese pequeño cambio me permite estudiar sin sentir que debo estar disponible todo el tiempo."
+          "estrés",
+          "desconectarme",
+          "estableciera",
+          "convertirlo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «En este episodio breve de bienestar, comparto una rutina que me ayudó…», ¿qué sucede a continuación en «Escucha · Dormir no es perder el tiempo»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Una _____ me recomendó que estableciera una rutina sencilla: dejar el teléfono fuera de la cama, preparar el día siguiente y hacer una pausa corta después de estudiar.”",
         "options": [
-          "En este episodio breve de bienestar, comparto una rutina que me ayudó a reducir el estrés.",
-          "Una médica me recomendó que estableciera una rutina sencilla: dejar el teléfono fuera de la cama, preparar el día siguiente y hacer una pausa corta después de estudiar.",
-          "La constancia funciona mejor que los cambios extremos.",
-          "Ese pequeño cambio me permite estudiar sin sentir que debo estar disponible todo el tiempo."
+          "desconectarme",
+          "médica",
+          "estableciera",
+          "convertirlo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Dormir no es perder el tiempo»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“La constancia funciona mejor que los cambios _____.”",
         "options": [
-          "En este episodio breve de bienestar, comparto una rutina que me ayudó a reducir el estrés.",
-          "Una médica me recomendó que estableciera una rutina sencilla: dejar el teléfono fuera de la cama, preparar el día siguiente y hacer una pausa corta después de estudiar.",
-          "La constancia funciona mejor que los cambios extremos.",
-          "Ese pequeño cambio me permite estudiar sin sentir que debo estar disponible todo el tiempo."
+          "desconectarme",
+          "estableciera",
+          "extremos",
+          "breve"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Dormir no es perder el tiempo» después de «La constancia funciona mejor que los cambios extremos.»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Ese pequeño cambio me permite estudiar sin _____ que debo estar disponible todo el tiempo.”",
         "options": [
-          "En este episodio breve de bienestar, comparto una rutina que me ayudó a reducir el estrés.",
-          "Una médica me recomendó que estableciera una rutina sencilla: dejar el teléfono fuera de la cama, preparar el día siguiente y hacer una pausa corta después de estudiar.",
-          "La constancia funciona mejor que los cambios extremos.",
-          "Ese pequeño cambio me permite estudiar sin sentir que debo estar disponible todo el tiempo."
+          "desconectarme",
+          "estableciera",
+          "convertirlo",
+          "sentir"
         ]
       }
     ]
@@ -45862,92 +45862,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Escucha · Empezar la vida adulta sin poder salir de casa», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“En este testimonio urbano, parto de lo que ocurrió cuando una amiga tuvo que abandonar su _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "En este testimonio urbano, parto de lo que ocurrió cuando una amiga tuvo que abandonar su apartamento."
+                "text": "apartamento"
               },
               {
                 "id": "o2",
-                "text": "Algunas personas dicen que basta con buscar más lejos, pero ese desplazamiento aumenta el tiempo de transporte y aleja a la gente de su trabajo, su red de apoyo y sus estudios."
+                "text": "alquiler"
               },
               {
                 "id": "o3",
-                "text": "Creo que hacen falta medidas distintas: información transparente, viviendas públicas y reglas que protejan a los inquilinos sin ignorar que también hay propietarios pequeños."
+                "text": "contrato"
               },
               {
                 "id": "o4",
-                "text": "Esa información no sustituye la experiencia de mi amiga, pero ayuda a comprender por qué su caso se repite en tantas ciudades y bajo qué condiciones se producen los desalojos."
+                "text": "limitada"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «En este testimonio urbano, parto de lo que ocurrió cuando una amiga…», ¿qué sucede a continuación en «Escucha · Empezar la vida adulta sin poder salir de casa»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Algunas _____ dicen que basta con buscar más lejos, pero ese desplazamiento aumenta el tiempo de transporte y aleja a la gente de su trabajo, su red de apoyo y sus estudios.”",
             "options": [
               {
                 "id": "o1",
-                "text": "En este testimonio urbano, parto de lo que ocurrió cuando una amiga tuvo que abandonar su apartamento."
+                "text": "desplazamiento"
               },
               {
                 "id": "o2",
-                "text": "Algunas personas dicen que basta con buscar más lejos, pero ese desplazamiento aumenta el tiempo de transporte y aleja a la gente de su trabajo, su red de apoyo y sus estudios."
+                "text": "personas"
               },
               {
                 "id": "o3",
-                "text": "Creo que hacen falta medidas distintas: información transparente, viviendas públicas y reglas que protejan a los inquilinos sin ignorar que también hay propietarios pequeños."
+                "text": "transparente"
               },
               {
                 "id": "o4",
-                "text": "Esa información no sustituye la experiencia de mi amiga, pero ayuda a comprender por qué su caso se repite en tantas ciudades y bajo qué condiciones se producen los desalojos."
+                "text": "propietarios"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Empezar la vida adulta sin poder salir de casa»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“Creo que hacen falta medidas distintas: _____ transparente, viviendas públicas y reglas que protejan a los inquilinos sin ignorar que también hay propietarios pequeños.”",
             "options": [
               {
                 "id": "o1",
-                "text": "En este testimonio urbano, parto de lo que ocurrió cuando una amiga tuvo que abandonar su apartamento."
+                "text": "alquiler"
               },
               {
                 "id": "o2",
-                "text": "Algunas personas dicen que basta con buscar más lejos, pero ese desplazamiento aumenta el tiempo de transporte y aleja a la gente de su trabajo, su red de apoyo y sus estudios."
+                "text": "contrato"
               },
               {
                 "id": "o3",
-                "text": "Una amiga tuvo que dejar su apartamento porque el alquiler subió mucho al renovar el contrato."
+                "text": "información"
               },
               {
                 "id": "o4",
-                "text": "Creo que hacen falta medidas distintas: información transparente, viviendas públicas y reglas que protejan a los inquilinos sin ignorar que también hay propietarios pequeños."
+                "text": "limitada"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Empezar la vida adulta sin poder salir de casa» después de «Una amiga tuvo que dejar su apartamento porque el alquiler subió mucho…»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Esa información no sustituye la experiencia de mi amiga, pero ayuda a comprender por qué su caso se _____ en tantas ciudades y bajo qué condiciones se producen los desalojos.”",
             "options": [
               {
                 "id": "o1",
-                "text": "En este testimonio urbano, parto de lo que ocurrió cuando una amiga tuvo que abandonar su apartamento."
+                "text": "desplazamiento"
               },
               {
                 "id": "o2",
-                "text": "Algunas personas dicen que basta con buscar más lejos, pero ese desplazamiento aumenta el tiempo de transporte y aleja a la gente de su trabajo, su red de apoyo y sus estudios."
+                "text": "transparente"
               },
               {
                 "id": "o3",
-                "text": "Creo que hacen falta medidas distintas: información transparente, viviendas públicas y reglas que protejan a los inquilinos sin ignorar que también hay propietarios pequeños."
+                "text": "propietarios"
               },
               {
                 "id": "o4",
-                "text": "Esa información no sustituye la experiencia de mi amiga, pero ayuda a comprender por qué su caso se repite en tantas ciudades y bajo qué condiciones se producen los desalojos."
+                "text": "repite"
               }
             ]
           }
@@ -45958,42 +45958,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Escucha · Empezar la vida adulta sin poder salir de casa», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“En este testimonio urbano, parto de lo que ocurrió cuando una amiga tuvo que abandonar su _____.”",
         "options": [
-          "En este testimonio urbano, parto de lo que ocurrió cuando una amiga tuvo que abandonar su apartamento.",
-          "Algunas personas dicen que basta con buscar más lejos, pero ese desplazamiento aumenta el tiempo de transporte y aleja a la gente de su trabajo, su red de apoyo y sus estudios.",
-          "Creo que hacen falta medidas distintas: información transparente, viviendas públicas y reglas que protejan a los inquilinos sin ignorar que también hay propietarios pequeños.",
-          "Esa información no sustituye la experiencia de mi amiga, pero ayuda a comprender por qué su caso se repite en tantas ciudades y bajo qué condiciones se producen los desalojos."
+          "apartamento",
+          "alquiler",
+          "contrato",
+          "limitada"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «En este testimonio urbano, parto de lo que ocurrió cuando una amiga…», ¿qué sucede a continuación en «Escucha · Empezar la vida adulta sin poder salir de casa»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Algunas _____ dicen que basta con buscar más lejos, pero ese desplazamiento aumenta el tiempo de transporte y aleja a la gente de su trabajo, su red de apoyo y sus estudios.”",
         "options": [
-          "En este testimonio urbano, parto de lo que ocurrió cuando una amiga tuvo que abandonar su apartamento.",
-          "Algunas personas dicen que basta con buscar más lejos, pero ese desplazamiento aumenta el tiempo de transporte y aleja a la gente de su trabajo, su red de apoyo y sus estudios.",
-          "Creo que hacen falta medidas distintas: información transparente, viviendas públicas y reglas que protejan a los inquilinos sin ignorar que también hay propietarios pequeños.",
-          "Esa información no sustituye la experiencia de mi amiga, pero ayuda a comprender por qué su caso se repite en tantas ciudades y bajo qué condiciones se producen los desalojos."
+          "desplazamiento",
+          "personas",
+          "transparente",
+          "propietarios"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Empezar la vida adulta sin poder salir de casa»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“Creo que hacen falta medidas distintas: _____ transparente, viviendas públicas y reglas que protejan a los inquilinos sin ignorar que también hay propietarios pequeños.”",
         "options": [
-          "En este testimonio urbano, parto de lo que ocurrió cuando una amiga tuvo que abandonar su apartamento.",
-          "Algunas personas dicen que basta con buscar más lejos, pero ese desplazamiento aumenta el tiempo de transporte y aleja a la gente de su trabajo, su red de apoyo y sus estudios.",
-          "Una amiga tuvo que dejar su apartamento porque el alquiler subió mucho al renovar el contrato.",
-          "Creo que hacen falta medidas distintas: información transparente, viviendas públicas y reglas que protejan a los inquilinos sin ignorar que también hay propietarios pequeños."
+          "alquiler",
+          "contrato",
+          "información",
+          "limitada"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Empezar la vida adulta sin poder salir de casa» después de «Una amiga tuvo que dejar su apartamento porque el alquiler subió mucho…»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Esa información no sustituye la experiencia de mi amiga, pero ayuda a comprender por qué su caso se _____ en tantas ciudades y bajo qué condiciones se producen los desalojos.”",
         "options": [
-          "En este testimonio urbano, parto de lo que ocurrió cuando una amiga tuvo que abandonar su apartamento.",
-          "Algunas personas dicen que basta con buscar más lejos, pero ese desplazamiento aumenta el tiempo de transporte y aleja a la gente de su trabajo, su red de apoyo y sus estudios.",
-          "Creo que hacen falta medidas distintas: información transparente, viviendas públicas y reglas que protejan a los inquilinos sin ignorar que también hay propietarios pequeños.",
-          "Esa información no sustituye la experiencia de mi amiga, pero ayuda a comprender por qué su caso se repite en tantas ciudades y bajo qué condiciones se producen los desalojos."
+          "desplazamiento",
+          "transparente",
+          "propietarios",
+          "repite"
         ]
       }
     ]
@@ -46037,92 +46037,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Escucha · La decisión que tomé en cinco segundos cambió mi vida», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“La decisión duró cinco _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "La decisión duró cinco segundos."
+                "text": "segundos"
               },
               {
                 "id": "o2",
-                "text": "Para interpretarlo, debemos distinguir entre «instante», «decisión» y «consecuencia»."
+                "text": "responsabilidad"
               },
               {
                 "id": "o3",
-                "text": "Aunque «instante» parece una decisión individual, conviene considerar «decisión» y «consecuencia»."
+                "text": "especialmente"
               },
               {
                 "id": "o4",
-                "text": "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+                "text": "interpretarlo"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «La decisión duró cinco segundos.», ¿qué sucede a continuación en «Escucha · La decisión que tomé en cinco segundos cambió mi vida»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Para interpretarlo, _____ distinguir entre «instante», «decisión» y «consecuencia».”",
             "options": [
               {
                 "id": "o1",
-                "text": "La decisión duró cinco segundos."
+                "text": "responsabilidad"
               },
               {
                 "id": "o2",
-                "text": "Para interpretarlo, debemos distinguir entre «instante», «decisión» y «consecuencia»."
+                "text": "debemos"
               },
               {
                 "id": "o3",
-                "text": "Aunque «instante» parece una decisión individual, conviene considerar «decisión» y «consecuencia»."
+                "text": "especialmente"
               },
               {
                 "id": "o4",
-                "text": "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+                "text": "interpretarlo"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · La decisión que tomé en cinco segundos cambió mi vida»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“Aunque «instante» parece una _____ individual, conviene considerar «decisión» y «consecuencia».”",
             "options": [
               {
                 "id": "o1",
-                "text": "La decisión duró cinco segundos."
+                "text": "responsabilidad"
               },
               {
                 "id": "o2",
-                "text": "Para interpretarlo, debemos distinguir entre «instante», «decisión» y «consecuencia»."
+                "text": "especialmente"
               },
               {
                 "id": "o3",
-                "text": "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones."
+                "text": "decisión"
               },
               {
                 "id": "o4",
-                "text": "Aunque «instante» parece una decisión individual, conviene considerar «decisión» y «consecuencia»."
+                "text": "interpretarlo"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · La decisión que tomé en cinco segundos cambió mi vida» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Puede sostener una conclusión provisional, identificar una _____ razonable y explicar qué nueva información obligaría a revisarla.”",
             "options": [
               {
                 "id": "o1",
-                "text": "La decisión duró cinco segundos."
+                "text": "responsabilidad"
               },
               {
                 "id": "o2",
-                "text": "Para interpretarlo, debemos distinguir entre «instante», «decisión» y «consecuencia»."
+                "text": "especialmente"
               },
               {
                 "id": "o3",
-                "text": "Aunque «instante» parece una decisión individual, conviene considerar «decisión» y «consecuencia»."
+                "text": "interpretarlo"
               },
               {
                 "id": "o4",
-                "text": "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+                "text": "objeción"
               }
             ]
           }
@@ -46133,42 +46133,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Escucha · La decisión que tomé en cinco segundos cambió mi vida», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“La decisión duró cinco _____.”",
         "options": [
-          "La decisión duró cinco segundos.",
-          "Para interpretarlo, debemos distinguir entre «instante», «decisión» y «consecuencia».",
-          "Aunque «instante» parece una decisión individual, conviene considerar «decisión» y «consecuencia».",
-          "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+          "segundos",
+          "responsabilidad",
+          "especialmente",
+          "interpretarlo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «La decisión duró cinco segundos.», ¿qué sucede a continuación en «Escucha · La decisión que tomé en cinco segundos cambió mi vida»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Para interpretarlo, _____ distinguir entre «instante», «decisión» y «consecuencia».”",
         "options": [
-          "La decisión duró cinco segundos.",
-          "Para interpretarlo, debemos distinguir entre «instante», «decisión» y «consecuencia».",
-          "Aunque «instante» parece una decisión individual, conviene considerar «decisión» y «consecuencia».",
-          "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+          "responsabilidad",
+          "debemos",
+          "especialmente",
+          "interpretarlo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · La decisión que tomé en cinco segundos cambió mi vida»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“Aunque «instante» parece una _____ individual, conviene considerar «decisión» y «consecuencia».”",
         "options": [
-          "La decisión duró cinco segundos.",
-          "Para interpretarlo, debemos distinguir entre «instante», «decisión» y «consecuencia».",
-          "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones.",
-          "Aunque «instante» parece una decisión individual, conviene considerar «decisión» y «consecuencia»."
+          "responsabilidad",
+          "especialmente",
+          "decisión",
+          "interpretarlo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · La decisión que tomé en cinco segundos cambió mi vida» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Puede sostener una conclusión provisional, identificar una _____ razonable y explicar qué nueva información obligaría a revisarla.”",
         "options": [
-          "La decisión duró cinco segundos.",
-          "Para interpretarlo, debemos distinguir entre «instante», «decisión» y «consecuencia».",
-          "Aunque «instante» parece una decisión individual, conviene considerar «decisión» y «consecuencia».",
-          "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+          "responsabilidad",
+          "especialmente",
+          "interpretarlo",
+          "objeción"
         ]
       }
     ]
@@ -46212,92 +46212,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Escucha · La vida secreta de un piloto comercial: decisiones a 12 000 metros de altura», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“A doce mil metros de altura, un piloto comercial no _____ la calma.”",
             "options": [
               {
                 "id": "o1",
-                "text": "A doce mil metros de altura, un piloto comercial no improvisa la calma."
+                "text": "improvisa"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "responsabilidad"
               },
               {
                 "id": "o3",
-                "text": "Desde esta perspectiva, interpretar procedimientos, incertidumbre y responsabilidad técnica no consiste en repetir una conclusión."
+                "text": "procedimientos"
               },
               {
                 "id": "o4",
-                "text": "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+                "text": "meteorológico"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «A doce mil metros de altura, un piloto comercial no improvisa la calma.», ¿qué sucede a continuación en «Escucha · La vida secreta de un piloto comercial: decisiones a 12 000 metros de altura»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Estos _____ ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.”",
             "options": [
               {
                 "id": "o1",
-                "text": "A doce mil metros de altura, un piloto comercial no improvisa la calma."
+                "text": "responsabilidad"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "conceptos"
               },
               {
                 "id": "o3",
-                "text": "Desde esta perspectiva, interpretar procedimientos, incertidumbre y responsabilidad técnica no consiste en repetir una conclusión."
+                "text": "procedimientos"
               },
               {
                 "id": "o4",
-                "text": "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+                "text": "meteorológico"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · La vida secreta de un piloto comercial: decisiones a 12 000 metros de altura»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“Desde esta perspectiva, interpretar procedimientos, _____ y responsabilidad técnica no consiste en repetir una conclusión.”",
             "options": [
               {
                 "id": "o1",
-                "text": "A doce mil metros de altura, un piloto comercial no improvisa la calma."
+                "text": "individual"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "distinguir"
               },
               {
                 "id": "o3",
-                "text": "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones."
+                "text": "incertidumbre"
               },
               {
                 "id": "o4",
-                "text": "Desde esta perspectiva, interpretar procedimientos, incertidumbre y responsabilidad técnica no consiste en repetir una conclusión."
+                "text": "respuestas"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · La vida secreta de un piloto comercial: decisiones a 12 000 metros de altura» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Por eso, una escucha avanzada no se limita a localizar una _____ literal.”",
             "options": [
               {
                 "id": "o1",
-                "text": "A doce mil metros de altura, un piloto comercial no improvisa la calma."
+                "text": "responsabilidad"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "procedimientos"
               },
               {
                 "id": "o3",
-                "text": "Desde esta perspectiva, interpretar procedimientos, incertidumbre y responsabilidad técnica no consiste en repetir una conclusión."
+                "text": "meteorológico"
               },
               {
                 "id": "o4",
-                "text": "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+                "text": "respuesta"
               }
             ]
           }
@@ -46308,42 +46308,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Escucha · La vida secreta de un piloto comercial: decisiones a 12 000 metros de altura», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“A doce mil metros de altura, un piloto comercial no _____ la calma.”",
         "options": [
-          "A doce mil metros de altura, un piloto comercial no improvisa la calma.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "Desde esta perspectiva, interpretar procedimientos, incertidumbre y responsabilidad técnica no consiste en repetir una conclusión.",
-          "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+          "improvisa",
+          "responsabilidad",
+          "procedimientos",
+          "meteorológico"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «A doce mil metros de altura, un piloto comercial no improvisa la calma.», ¿qué sucede a continuación en «Escucha · La vida secreta de un piloto comercial: decisiones a 12 000 metros de altura»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Estos _____ ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.”",
         "options": [
-          "A doce mil metros de altura, un piloto comercial no improvisa la calma.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "Desde esta perspectiva, interpretar procedimientos, incertidumbre y responsabilidad técnica no consiste en repetir una conclusión.",
-          "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+          "responsabilidad",
+          "conceptos",
+          "procedimientos",
+          "meteorológico"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · La vida secreta de un piloto comercial: decisiones a 12 000 metros de altura»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“Desde esta perspectiva, interpretar procedimientos, _____ y responsabilidad técnica no consiste en repetir una conclusión.”",
         "options": [
-          "A doce mil metros de altura, un piloto comercial no improvisa la calma.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones.",
-          "Desde esta perspectiva, interpretar procedimientos, incertidumbre y responsabilidad técnica no consiste en repetir una conclusión."
+          "individual",
+          "distinguir",
+          "incertidumbre",
+          "respuestas"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · La vida secreta de un piloto comercial: decisiones a 12 000 metros de altura» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Por eso, una escucha avanzada no se limita a localizar una _____ literal.”",
         "options": [
-          "A doce mil metros de altura, un piloto comercial no improvisa la calma.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "Desde esta perspectiva, interpretar procedimientos, incertidumbre y responsabilidad técnica no consiste en repetir una conclusión.",
-          "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+          "responsabilidad",
+          "procedimientos",
+          "meteorológico",
+          "respuesta"
         ]
       }
     ]
@@ -46418,92 +46418,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «¿Quieres ir al cine?», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“Los sábados me gusta descansar después de una semana _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Los sábados me gusta descansar después de una semana ocupada."
+                "text": "ocupada"
               },
               {
                 "id": "o2",
-                "text": "Si hace buen tiempo, vamos al parque y comemos algo."
+                "text": "cine"
               },
               {
                 "id": "o3",
-                "text": "También me gusta leer, escuchar música y jugar al fútbol con mis amigos."
+                "text": "preferimos"
               },
               {
                 "id": "o4",
-                "text": "Me gustan los planes sencillos porque puedo conversar y descansar."
+                "text": "hace"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «Los sábados me gusta descansar después de una semana ocupada.», ¿qué sucede a continuación en «¿Quieres ir al cine?»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Si hace buen tiempo, vamos al _____ y comemos algo.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Los sábados me gusta descansar después de una semana ocupada."
+                "text": "preferimos"
               },
               {
                 "id": "o2",
-                "text": "Si hace buen tiempo, vamos al parque y comemos algo."
+                "text": "parque"
               },
               {
                 "id": "o3",
-                "text": "También me gusta leer, escuchar música y jugar al fútbol con mis amigos."
+                "text": "Los"
               },
               {
                 "id": "o4",
-                "text": "Me gustan los planes sencillos porque puedo conversar y descansar."
+                "text": "descansar"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «¿Quieres ir al cine?»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“También me gusta leer, escuchar música y jugar al fútbol con mis _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Los sábados me gusta descansar después de una semana ocupada."
+                "text": "preferimos"
               },
               {
                 "id": "o2",
-                "text": "Si hace buen tiempo, vamos al parque y comemos algo."
+                "text": "Los"
               },
               {
                 "id": "o3",
-                "text": "También me gusta leer, escuchar música y jugar al fútbol con mis amigos."
+                "text": "amigos"
               },
               {
                 "id": "o4",
-                "text": "Me gustan los planes sencillos porque puedo conversar y descansar."
+                "text": "descansar"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «¿Quieres ir al cine?» después de «También me gusta leer, escuchar música y jugar al fútbol con mis amigos.»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Me _____ los planes sencillos porque puedo conversar y descansar.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Los sábados me gusta descansar después de una semana ocupada."
+                "text": "preferimos"
               },
               {
                 "id": "o2",
-                "text": "Si hace buen tiempo, vamos al parque y comemos algo."
+                "text": "Los"
               },
               {
                 "id": "o3",
-                "text": "También me gusta leer, escuchar música y jugar al fútbol con mis amigos."
+                "text": "descansar"
               },
               {
                 "id": "o4",
-                "text": "Me gustan los planes sencillos porque puedo conversar y descansar."
+                "text": "gustan"
               }
             ]
           }
@@ -46514,42 +46514,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «¿Quieres ir al cine?», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“Los sábados me gusta descansar después de una semana _____.”",
         "options": [
-          "Los sábados me gusta descansar después de una semana ocupada.",
-          "Si hace buen tiempo, vamos al parque y comemos algo.",
-          "También me gusta leer, escuchar música y jugar al fútbol con mis amigos.",
-          "Me gustan los planes sencillos porque puedo conversar y descansar."
+          "ocupada",
+          "cine",
+          "preferimos",
+          "hace"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «Los sábados me gusta descansar después de una semana ocupada.», ¿qué sucede a continuación en «¿Quieres ir al cine?»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Si hace buen tiempo, vamos al _____ y comemos algo.”",
         "options": [
-          "Los sábados me gusta descansar después de una semana ocupada.",
-          "Si hace buen tiempo, vamos al parque y comemos algo.",
-          "También me gusta leer, escuchar música y jugar al fútbol con mis amigos.",
-          "Me gustan los planes sencillos porque puedo conversar y descansar."
+          "preferimos",
+          "parque",
+          "Los",
+          "descansar"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «¿Quieres ir al cine?»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“También me gusta leer, escuchar música y jugar al fútbol con mis _____.”",
         "options": [
-          "Los sábados me gusta descansar después de una semana ocupada.",
-          "Si hace buen tiempo, vamos al parque y comemos algo.",
-          "También me gusta leer, escuchar música y jugar al fútbol con mis amigos.",
-          "Me gustan los planes sencillos porque puedo conversar y descansar."
+          "preferimos",
+          "Los",
+          "amigos",
+          "descansar"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «¿Quieres ir al cine?» después de «También me gusta leer, escuchar música y jugar al fútbol con mis amigos.»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Me _____ los planes sencillos porque puedo conversar y descansar.”",
         "options": [
-          "Los sábados me gusta descansar después de una semana ocupada.",
-          "Si hace buen tiempo, vamos al parque y comemos algo.",
-          "También me gusta leer, escuchar música y jugar al fútbol con mis amigos.",
-          "Me gustan los planes sencillos porque puedo conversar y descansar."
+          "preferimos",
+          "Los",
+          "descansar",
+          "gustan"
         ]
       }
     ]
@@ -50444,92 +50444,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Escucha · Tecnología cotidiana», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“No puedo entrar en mi cuenta porque olvidé la _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "No puedo entrar en mi cuenta porque olvidé la contraseña."
+                "text": "contraseña"
               },
               {
                 "id": "o2",
-                "text": "Voy a comprobar que el mensaje llegó a la bandeja de entrada y no al spam."
+                "text": "Primero"
               },
               {
                 "id": "o3",
-                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
+                "text": "Después"
               },
               {
                 "id": "o4",
-                "text": "Me gusta tener un plan claro antes de seguir."
+                "text": "revisar"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «No puedo entrar en mi cuenta porque olvidé la contraseña.», ¿qué sucede a continuación en «Escucha · Tecnología cotidiana»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Voy a _____ que el mensaje llegó a la bandeja de entrada y no al spam.”",
             "options": [
               {
                 "id": "o1",
-                "text": "No puedo entrar en mi cuenta porque olvidé la contraseña."
+                "text": "entrar"
               },
               {
                 "id": "o2",
-                "text": "Voy a comprobar que el mensaje llegó a la bandeja de entrada y no al spam."
+                "text": "comprobar"
               },
               {
                 "id": "o3",
-                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
+                "text": "cuenta"
               },
               {
                 "id": "o4",
-                "text": "Me gusta tener un plan claro antes de seguir."
+                "text": "olvidé"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Tecnología cotidiana»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“Al final, repaso la información y preparo el _____ paso con calma.”",
             "options": [
               {
                 "id": "o1",
-                "text": "No puedo entrar en mi cuenta porque olvidé la contraseña."
+                "text": "entrar"
               },
               {
                 "id": "o2",
-                "text": "Voy a comprobar que el mensaje llegó a la bandeja de entrada y no al spam."
+                "text": "cuenta"
               },
               {
                 "id": "o3",
-                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
+                "text": "siguiente"
               },
               {
                 "id": "o4",
-                "text": "Me gusta tener un plan claro antes de seguir."
+                "text": "olvidé"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Tecnología cotidiana» después de «Al final, repaso la información y preparo el siguiente paso con calma.»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Me gusta tener un plan claro antes de _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "No puedo entrar en mi cuenta porque olvidé la contraseña."
+                "text": "información"
               },
               {
                 "id": "o2",
-                "text": "Voy a comprobar que el mensaje llegó a la bandeja de entrada y no al spam."
+                "text": "contraseña"
               },
               {
                 "id": "o3",
-                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
+                "text": "Finalmente"
               },
               {
                 "id": "o4",
-                "text": "Me gusta tener un plan claro antes de seguir."
+                "text": "seguir"
               }
             ]
           }
@@ -50540,42 +50540,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Escucha · Tecnología cotidiana», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“No puedo entrar en mi cuenta porque olvidé la _____.”",
         "options": [
-          "No puedo entrar en mi cuenta porque olvidé la contraseña.",
-          "Voy a comprobar que el mensaje llegó a la bandeja de entrada y no al spam.",
-          "Al final, repaso la información y preparo el siguiente paso con calma.",
-          "Me gusta tener un plan claro antes de seguir."
+          "contraseña",
+          "Primero",
+          "Después",
+          "revisar"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «No puedo entrar en mi cuenta porque olvidé la contraseña.», ¿qué sucede a continuación en «Escucha · Tecnología cotidiana»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Voy a _____ que el mensaje llegó a la bandeja de entrada y no al spam.”",
         "options": [
-          "No puedo entrar en mi cuenta porque olvidé la contraseña.",
-          "Voy a comprobar que el mensaje llegó a la bandeja de entrada y no al spam.",
-          "Al final, repaso la información y preparo el siguiente paso con calma.",
-          "Me gusta tener un plan claro antes de seguir."
+          "entrar",
+          "comprobar",
+          "cuenta",
+          "olvidé"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Tecnología cotidiana»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“Al final, repaso la información y preparo el _____ paso con calma.”",
         "options": [
-          "No puedo entrar en mi cuenta porque olvidé la contraseña.",
-          "Voy a comprobar que el mensaje llegó a la bandeja de entrada y no al spam.",
-          "Al final, repaso la información y preparo el siguiente paso con calma.",
-          "Me gusta tener un plan claro antes de seguir."
+          "entrar",
+          "cuenta",
+          "siguiente",
+          "olvidé"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Tecnología cotidiana» después de «Al final, repaso la información y preparo el siguiente paso con calma.»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Me gusta tener un plan claro antes de _____.”",
         "options": [
-          "No puedo entrar en mi cuenta porque olvidé la contraseña.",
-          "Voy a comprobar que el mensaje llegó a la bandeja de entrada y no al spam.",
-          "Al final, repaso la información y preparo el siguiente paso con calma.",
-          "Me gusta tener un plan claro antes de seguir."
+          "información",
+          "contraseña",
+          "Finalmente",
+          "seguir"
         ]
       }
     ]
@@ -50619,92 +50619,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Escucha · La suscripción que era fácil activar y difícil cancelar», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“Esta guía de servicio explica cómo presenté una reclamación sin perder claridad ni _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Esta guía de servicio explica cómo presenté una reclamación sin perder claridad ni cortesía."
+                "text": "cortesía"
               },
               {
                 "id": "o2",
-                "text": "Primero revisé la factura y la garantía del servicio; después anoté las fechas, guardé los mensajes y envié una solicitud clara."
+                "text": "proporcional"
               },
               {
                 "id": "o3",
-                "text": "Cuando la conexión volvió a fallar una semana después, ya sabía qué información debía enviar."
+                "text": "reclamación"
               },
               {
                 "id": "o4",
-                "text": "Si la solución no hubiera llegado, habría solicitado una revisión formal de la factura y del compromiso de servicio ofrecido."
+                "text": "falló"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «Esta guía de servicio explica cómo presenté una reclamación sin perder…», ¿qué sucede a continuación en «Escucha · La suscripción que era fácil activar y difícil cancelar»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Primero _____ la factura y la garantía del servicio; después anoté las fechas, guardé los mensajes y envié una solicitud clara.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Esta guía de servicio explica cómo presenté una reclamación sin perder claridad ni cortesía."
+                "text": "proporcional"
               },
               {
                 "id": "o2",
-                "text": "Primero revisé la factura y la garantía del servicio; después anoté las fechas, guardé los mensajes y envié una solicitud clara."
+                "text": "revisé"
               },
               {
                 "id": "o3",
-                "text": "Cuando la conexión volvió a fallar una semana después, ya sabía qué información debía enviar."
+                "text": "reclamación"
               },
               {
                 "id": "o4",
-                "text": "Si la solución no hubiera llegado, habría solicitado una revisión formal de la factura y del compromiso de servicio ofrecido."
+                "text": "exactamente"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · La suscripción que era fácil activar y difícil cancelar»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“Cuando la conexión volvió a fallar una _____ después, ya sabía qué información debía enviar.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Esta guía de servicio explica cómo presenté una reclamación sin perder claridad ni cortesía."
+                "text": "proporcional"
               },
               {
                 "id": "o2",
-                "text": "Primero revisé la factura y la garantía del servicio; después anoté las fechas, guardé los mensajes y envié una solicitud clara."
+                "text": "reclamación"
               },
               {
                 "id": "o3",
-                "text": "La segunda respuesta fue más rápida porque el caso estaba documentado desde el principio."
+                "text": "semana"
               },
               {
                 "id": "o4",
-                "text": "Cuando la conexión volvió a fallar una semana después, ya sabía qué información debía enviar."
+                "text": "exactamente"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · La suscripción que era fácil activar y difícil cancelar» después de «La segunda respuesta fue más rápida porque el caso estaba documentado…»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Si la solución no hubiera llegado, habría solicitado una _____ formal de la factura y del compromiso de servicio ofrecido.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Esta guía de servicio explica cómo presenté una reclamación sin perder claridad ni cortesía."
+                "text": "proporcional"
               },
               {
                 "id": "o2",
-                "text": "Primero revisé la factura y la garantía del servicio; después anoté las fechas, guardé los mensajes y envié una solicitud clara."
+                "text": "reclamación"
               },
               {
                 "id": "o3",
-                "text": "Cuando la conexión volvió a fallar una semana después, ya sabía qué información debía enviar."
+                "text": "falló"
               },
               {
                 "id": "o4",
-                "text": "Si la solución no hubiera llegado, habría solicitado una revisión formal de la factura y del compromiso de servicio ofrecido."
+                "text": "revisión"
               }
             ]
           }
@@ -50715,42 +50715,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Escucha · La suscripción que era fácil activar y difícil cancelar», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“Esta guía de servicio explica cómo presenté una reclamación sin perder claridad ni _____.”",
         "options": [
-          "Esta guía de servicio explica cómo presenté una reclamación sin perder claridad ni cortesía.",
-          "Primero revisé la factura y la garantía del servicio; después anoté las fechas, guardé los mensajes y envié una solicitud clara.",
-          "Cuando la conexión volvió a fallar una semana después, ya sabía qué información debía enviar.",
-          "Si la solución no hubiera llegado, habría solicitado una revisión formal de la factura y del compromiso de servicio ofrecido."
+          "cortesía",
+          "proporcional",
+          "reclamación",
+          "falló"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «Esta guía de servicio explica cómo presenté una reclamación sin perder…», ¿qué sucede a continuación en «Escucha · La suscripción que era fácil activar y difícil cancelar»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Primero _____ la factura y la garantía del servicio; después anoté las fechas, guardé los mensajes y envié una solicitud clara.”",
         "options": [
-          "Esta guía de servicio explica cómo presenté una reclamación sin perder claridad ni cortesía.",
-          "Primero revisé la factura y la garantía del servicio; después anoté las fechas, guardé los mensajes y envié una solicitud clara.",
-          "Cuando la conexión volvió a fallar una semana después, ya sabía qué información debía enviar.",
-          "Si la solución no hubiera llegado, habría solicitado una revisión formal de la factura y del compromiso de servicio ofrecido."
+          "proporcional",
+          "revisé",
+          "reclamación",
+          "exactamente"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · La suscripción que era fácil activar y difícil cancelar»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“Cuando la conexión volvió a fallar una _____ después, ya sabía qué información debía enviar.”",
         "options": [
-          "Esta guía de servicio explica cómo presenté una reclamación sin perder claridad ni cortesía.",
-          "Primero revisé la factura y la garantía del servicio; después anoté las fechas, guardé los mensajes y envié una solicitud clara.",
-          "La segunda respuesta fue más rápida porque el caso estaba documentado desde el principio.",
-          "Cuando la conexión volvió a fallar una semana después, ya sabía qué información debía enviar."
+          "proporcional",
+          "reclamación",
+          "semana",
+          "exactamente"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · La suscripción que era fácil activar y difícil cancelar» después de «La segunda respuesta fue más rápida porque el caso estaba documentado…»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Si la solución no hubiera llegado, habría solicitado una _____ formal de la factura y del compromiso de servicio ofrecido.”",
         "options": [
-          "Esta guía de servicio explica cómo presenté una reclamación sin perder claridad ni cortesía.",
-          "Primero revisé la factura y la garantía del servicio; después anoté las fechas, guardé los mensajes y envié una solicitud clara.",
-          "Cuando la conexión volvió a fallar una semana después, ya sabía qué información debía enviar.",
-          "Si la solución no hubiera llegado, habría solicitado una revisión formal de la factura y del compromiso de servicio ofrecido."
+          "proporcional",
+          "reclamación",
+          "falló",
+          "revisión"
         ]
       }
     ]
@@ -50794,92 +50794,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Escucha · Las palabras también negocian pertenencia», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“En esta mesa de ideas con una sola voz, organizo las preguntas principales sobre lenguaje e _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "En esta mesa de ideas con una sola voz, organizo las preguntas principales sobre lenguaje e inclusión."
+                "text": "inclusión"
               },
               {
                 "id": "o2",
-                "text": "Yo creo que el registro importa."
+                "text": "nuevos"
               },
               {
                 "id": "o3",
-                "text": "La inclusión exige escuchar, explicar las decisiones y aceptar que la convención puede variar según el contexto."
+                "text": "temían"
               },
               {
                 "id": "o4",
-                "text": "También exige explicar las razones sin ridiculizar a quien aprende un uso nuevo en situaciones diferentes y dentro de toda la comunidad."
+                "text": "cambio"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «En esta mesa de ideas con una sola voz, organizo las preguntas…», ¿qué sucede a continuación en «Escucha · Las palabras también negocian pertenencia»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Yo creo que el registro _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "En esta mesa de ideas con una sola voz, organizo las preguntas principales sobre lenguaje e inclusión."
+                "text": "comunicación"
               },
               {
                 "id": "o2",
-                "text": "Yo creo que el registro importa."
+                "text": "importa"
               },
               {
                 "id": "o3",
-                "text": "La inclusión exige escuchar, explicar las decisiones y aceptar que la convención puede variar según el contexto."
+                "text": "conversación"
               },
               {
                 "id": "o4",
-                "text": "También exige explicar las razones sin ridiculizar a quien aprende un uso nuevo en situaciones diferentes y dentro de toda la comunidad."
+                "text": "determinados"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Las palabras también negocian pertenencia»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“La inclusión exige escuchar, explicar las _____ y aceptar que la convención puede variar según el contexto.”",
             "options": [
               {
                 "id": "o1",
-                "text": "En esta mesa de ideas con una sola voz, organizo las preguntas principales sobre lenguaje e inclusión."
+                "text": "cambiar"
               },
               {
                 "id": "o2",
-                "text": "Yo creo que el registro importa."
+                "text": "sientan"
               },
               {
                 "id": "o3",
-                "text": "Algunas compañeras defendían nuevos usos porque el lenguaje también construye identidad; otros temían que cada cambio volviera la comunicación menos clara."
+                "text": "decisiones"
               },
               {
                 "id": "o4",
-                "text": "La inclusión exige escuchar, explicar las decisiones y aceptar que la convención puede variar según el contexto."
+                "text": "Algunas"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Las palabras también negocian pertenencia» después de «Algunas compañeras defendían nuevos usos porque el lenguaje también…»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“También exige explicar las razones sin ridiculizar a quien aprende un uso nuevo en situaciones _____ y dentro de toda la comunidad.”",
             "options": [
               {
                 "id": "o1",
-                "text": "En esta mesa de ideas con una sola voz, organizo las preguntas principales sobre lenguaje e inclusión."
+                "text": "cambiar"
               },
               {
                 "id": "o2",
-                "text": "Yo creo que el registro importa."
+                "text": "sientan"
               },
               {
                 "id": "o3",
-                "text": "La inclusión exige escuchar, explicar las decisiones y aceptar que la convención puede variar según el contexto."
+                "text": "Algunas"
               },
               {
                 "id": "o4",
-                "text": "También exige explicar las razones sin ridiculizar a quien aprende un uso nuevo en situaciones diferentes y dentro de toda la comunidad."
+                "text": "diferentes"
               }
             ]
           }
@@ -50890,42 +50890,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Escucha · Las palabras también negocian pertenencia», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“En esta mesa de ideas con una sola voz, organizo las preguntas principales sobre lenguaje e _____.”",
         "options": [
-          "En esta mesa de ideas con una sola voz, organizo las preguntas principales sobre lenguaje e inclusión.",
-          "Yo creo que el registro importa.",
-          "La inclusión exige escuchar, explicar las decisiones y aceptar que la convención puede variar según el contexto.",
-          "También exige explicar las razones sin ridiculizar a quien aprende un uso nuevo en situaciones diferentes y dentro de toda la comunidad."
+          "inclusión",
+          "nuevos",
+          "temían",
+          "cambio"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «En esta mesa de ideas con una sola voz, organizo las preguntas…», ¿qué sucede a continuación en «Escucha · Las palabras también negocian pertenencia»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Yo creo que el registro _____.”",
         "options": [
-          "En esta mesa de ideas con una sola voz, organizo las preguntas principales sobre lenguaje e inclusión.",
-          "Yo creo que el registro importa.",
-          "La inclusión exige escuchar, explicar las decisiones y aceptar que la convención puede variar según el contexto.",
-          "También exige explicar las razones sin ridiculizar a quien aprende un uso nuevo en situaciones diferentes y dentro de toda la comunidad."
+          "comunicación",
+          "importa",
+          "conversación",
+          "determinados"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Las palabras también negocian pertenencia»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“La inclusión exige escuchar, explicar las _____ y aceptar que la convención puede variar según el contexto.”",
         "options": [
-          "En esta mesa de ideas con una sola voz, organizo las preguntas principales sobre lenguaje e inclusión.",
-          "Yo creo que el registro importa.",
-          "Algunas compañeras defendían nuevos usos porque el lenguaje también construye identidad; otros temían que cada cambio volviera la comunicación menos clara.",
-          "La inclusión exige escuchar, explicar las decisiones y aceptar que la convención puede variar según el contexto."
+          "cambiar",
+          "sientan",
+          "decisiones",
+          "Algunas"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Las palabras también negocian pertenencia» después de «Algunas compañeras defendían nuevos usos porque el lenguaje también…»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“También exige explicar las razones sin ridiculizar a quien aprende un uso nuevo en situaciones _____ y dentro de toda la comunidad.”",
         "options": [
-          "En esta mesa de ideas con una sola voz, organizo las preguntas principales sobre lenguaje e inclusión.",
-          "Yo creo que el registro importa.",
-          "La inclusión exige escuchar, explicar las decisiones y aceptar que la convención puede variar según el contexto.",
-          "También exige explicar las razones sin ridiculizar a quien aprende un uso nuevo en situaciones diferentes y dentro de toda la comunidad."
+          "cambiar",
+          "sientan",
+          "Algunas",
+          "diferentes"
         ]
       }
     ]
@@ -50969,92 +50969,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Escucha · ¿Las redes sociales nos acercan o nos aíslan?», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“Nunca había sido tan fácil hablar con _____ que están lejos.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Nunca había sido tan fácil hablar con personas que están lejos."
+                "text": "personas"
               },
               {
                 "id": "o2",
-                "text": "Para interpretarlo, debemos distinguir entre «vínculo», «aislamiento» y «interacción»."
+                "text": "interpretarlo"
               },
               {
                 "id": "o3",
-                "text": "Desde esta perspectiva, evaluar beneficios y riesgos de la conexión permanente no consiste en repetir una conclusión."
+                "text": "perspectivas"
               },
               {
                 "id": "o4",
-                "text": "La idea final es clara: hablar de ¿las redes sociales nos acercan o nos aíslan?"
+                "text": "Nunca"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «Nunca había sido tan fácil hablar con personas que están lejos.», ¿qué sucede a continuación en «Escucha · ¿Las redes sociales nos acercan o nos aíslan?»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Para interpretarlo, _____ distinguir entre «vínculo», «aislamiento» y «interacción».”",
             "options": [
               {
                 "id": "o1",
-                "text": "Nunca había sido tan fácil hablar con personas que están lejos."
+                "text": "interpretarlo"
               },
               {
                 "id": "o2",
-                "text": "Para interpretarlo, debemos distinguir entre «vínculo», «aislamiento» y «interacción»."
+                "text": "debemos"
               },
               {
                 "id": "o3",
-                "text": "Desde esta perspectiva, evaluar beneficios y riesgos de la conexión permanente no consiste en repetir una conclusión."
+                "text": "perspectivas"
               },
               {
                 "id": "o4",
-                "text": "La idea final es clara: hablar de ¿las redes sociales nos acercan o nos aíslan?"
+                "text": "aislamiento"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · ¿Las redes sociales nos acercan o nos aíslan?»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“Desde esta perspectiva, evaluar beneficios y _____ de la conexión permanente no consiste en repetir una conclusión.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Nunca había sido tan fácil hablar con personas que están lejos."
+                "text": "interpretarlo"
               },
               {
                 "id": "o2",
-                "text": "Para interpretarlo, debemos distinguir entre «vínculo», «aislamiento» y «interacción»."
+                "text": "perspectivas"
               },
               {
                 "id": "o3",
-                "text": "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones."
+                "text": "riesgos"
               },
               {
                 "id": "o4",
-                "text": "Desde esta perspectiva, evaluar beneficios y riesgos de la conexión permanente no consiste en repetir una conclusión."
+                "text": "aislamiento"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · ¿Las redes sociales nos acercan o nos aíslan?» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“La idea final es clara: hablar de ¿las redes _____ nos acercan o nos aíslan?”",
             "options": [
               {
                 "id": "o1",
-                "text": "Nunca había sido tan fácil hablar con personas que están lejos."
+                "text": "interpretarlo"
               },
               {
                 "id": "o2",
-                "text": "Para interpretarlo, debemos distinguir entre «vínculo», «aislamiento» y «interacción»."
+                "text": "perspectivas"
               },
               {
                 "id": "o3",
-                "text": "Desde esta perspectiva, evaluar beneficios y riesgos de la conexión permanente no consiste en repetir una conclusión."
+                "text": "Nunca"
               },
               {
                 "id": "o4",
-                "text": "La idea final es clara: hablar de ¿las redes sociales nos acercan o nos aíslan?"
+                "text": "sociales"
               }
             ]
           }
@@ -51065,42 +51065,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Escucha · ¿Las redes sociales nos acercan o nos aíslan?», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“Nunca había sido tan fácil hablar con _____ que están lejos.”",
         "options": [
-          "Nunca había sido tan fácil hablar con personas que están lejos.",
-          "Para interpretarlo, debemos distinguir entre «vínculo», «aislamiento» y «interacción».",
-          "Desde esta perspectiva, evaluar beneficios y riesgos de la conexión permanente no consiste en repetir una conclusión.",
-          "La idea final es clara: hablar de ¿las redes sociales nos acercan o nos aíslan?"
+          "personas",
+          "interpretarlo",
+          "perspectivas",
+          "Nunca"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «Nunca había sido tan fácil hablar con personas que están lejos.», ¿qué sucede a continuación en «Escucha · ¿Las redes sociales nos acercan o nos aíslan?»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Para interpretarlo, _____ distinguir entre «vínculo», «aislamiento» y «interacción».”",
         "options": [
-          "Nunca había sido tan fácil hablar con personas que están lejos.",
-          "Para interpretarlo, debemos distinguir entre «vínculo», «aislamiento» y «interacción».",
-          "Desde esta perspectiva, evaluar beneficios y riesgos de la conexión permanente no consiste en repetir una conclusión.",
-          "La idea final es clara: hablar de ¿las redes sociales nos acercan o nos aíslan?"
+          "interpretarlo",
+          "debemos",
+          "perspectivas",
+          "aislamiento"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · ¿Las redes sociales nos acercan o nos aíslan?»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“Desde esta perspectiva, evaluar beneficios y _____ de la conexión permanente no consiste en repetir una conclusión.”",
         "options": [
-          "Nunca había sido tan fácil hablar con personas que están lejos.",
-          "Para interpretarlo, debemos distinguir entre «vínculo», «aislamiento» y «interacción».",
-          "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones.",
-          "Desde esta perspectiva, evaluar beneficios y riesgos de la conexión permanente no consiste en repetir una conclusión."
+          "interpretarlo",
+          "perspectivas",
+          "riesgos",
+          "aislamiento"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · ¿Las redes sociales nos acercan o nos aíslan?» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“La idea final es clara: hablar de ¿las redes _____ nos acercan o nos aíslan?”",
         "options": [
-          "Nunca había sido tan fácil hablar con personas que están lejos.",
-          "Para interpretarlo, debemos distinguir entre «vínculo», «aislamiento» y «interacción».",
-          "Desde esta perspectiva, evaluar beneficios y riesgos de la conexión permanente no consiste en repetir una conclusión.",
-          "La idea final es clara: hablar de ¿las redes sociales nos acercan o nos aíslan?"
+          "interpretarlo",
+          "perspectivas",
+          "Nunca",
+          "sociales"
         ]
       }
     ]
@@ -51144,92 +51144,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Escucha · ¿Por qué algunos recuerdos permanecen para siempre?», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“Algunos recuerdos permanecen durante décadas con una intensidad sorprendente, aunque los detalles cambien con el _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Algunos recuerdos permanecen durante décadas con una intensidad sorprendente, aunque los detalles cambien con el tiempo."
+                "text": "tiempo"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "reconstrucción"
               },
               {
                 "id": "o3",
-                "text": "Desde esta perspectiva, distinguir recuerdo fiable, reconstrucción y significado emocional no consiste en repetir una conclusión."
+                "text": "significativa"
               },
               {
                 "id": "o4",
-                "text": "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+                "text": "interpretarlo"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «Algunos recuerdos permanecen durante décadas con una intensidad…», ¿qué sucede a continuación en «Escucha · ¿Por qué algunos recuerdos permanecen para siempre?»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Estos _____ ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Algunos recuerdos permanecen durante décadas con una intensidad sorprendente, aunque los detalles cambien con el tiempo."
+                "text": "reconstrucción"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "conceptos"
               },
               {
                 "id": "o3",
-                "text": "Desde esta perspectiva, distinguir recuerdo fiable, reconstrucción y significado emocional no consiste en repetir una conclusión."
+                "text": "significativa"
               },
               {
                 "id": "o4",
-                "text": "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+                "text": "interpretarlo"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · ¿Por qué algunos recuerdos permanecen para siempre?»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“Desde esta perspectiva, distinguir recuerdo _____, reconstrucción y significado emocional no consiste en repetir una conclusión.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Algunos recuerdos permanecen durante décadas con una intensidad sorprendente, aunque los detalles cambien con el tiempo."
+                "text": "reconstrucción"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "significativa"
               },
               {
                 "id": "o3",
-                "text": "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones."
+                "text": "fiable"
               },
               {
                 "id": "o4",
-                "text": "Desde esta perspectiva, distinguir recuerdo fiable, reconstrucción y significado emocional no consiste en repetir una conclusión."
+                "text": "interpretarlo"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · ¿Por qué algunos recuerdos permanecen para siempre?» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Por eso, una escucha avanzada no se limita a localizar una _____ literal.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Algunos recuerdos permanecen durante décadas con una intensidad sorprendente, aunque los detalles cambien con el tiempo."
+                "text": "reconstrucción"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "significativa"
               },
               {
                 "id": "o3",
-                "text": "Desde esta perspectiva, distinguir recuerdo fiable, reconstrucción y significado emocional no consiste en repetir una conclusión."
+                "text": "interpretarlo"
               },
               {
                 "id": "o4",
-                "text": "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+                "text": "respuesta"
               }
             ]
           }
@@ -51240,42 +51240,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Escucha · ¿Por qué algunos recuerdos permanecen para siempre?», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“Algunos recuerdos permanecen durante décadas con una intensidad sorprendente, aunque los detalles cambien con el _____.”",
         "options": [
-          "Algunos recuerdos permanecen durante décadas con una intensidad sorprendente, aunque los detalles cambien con el tiempo.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "Desde esta perspectiva, distinguir recuerdo fiable, reconstrucción y significado emocional no consiste en repetir una conclusión.",
-          "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+          "tiempo",
+          "reconstrucción",
+          "significativa",
+          "interpretarlo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «Algunos recuerdos permanecen durante décadas con una intensidad…», ¿qué sucede a continuación en «Escucha · ¿Por qué algunos recuerdos permanecen para siempre?»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Estos _____ ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.”",
         "options": [
-          "Algunos recuerdos permanecen durante décadas con una intensidad sorprendente, aunque los detalles cambien con el tiempo.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "Desde esta perspectiva, distinguir recuerdo fiable, reconstrucción y significado emocional no consiste en repetir una conclusión.",
-          "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+          "reconstrucción",
+          "conceptos",
+          "significativa",
+          "interpretarlo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · ¿Por qué algunos recuerdos permanecen para siempre?»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“Desde esta perspectiva, distinguir recuerdo _____, reconstrucción y significado emocional no consiste en repetir una conclusión.”",
         "options": [
-          "Algunos recuerdos permanecen durante décadas con una intensidad sorprendente, aunque los detalles cambien con el tiempo.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones.",
-          "Desde esta perspectiva, distinguir recuerdo fiable, reconstrucción y significado emocional no consiste en repetir una conclusión."
+          "reconstrucción",
+          "significativa",
+          "fiable",
+          "interpretarlo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · ¿Por qué algunos recuerdos permanecen para siempre?» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Por eso, una escucha avanzada no se limita a localizar una _____ literal.”",
         "options": [
-          "Algunos recuerdos permanecen durante décadas con una intensidad sorprendente, aunque los detalles cambien con el tiempo.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "Desde esta perspectiva, distinguir recuerdo fiable, reconstrucción y significado emocional no consiste en repetir una conclusión.",
-          "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+          "reconstrucción",
+          "significativa",
+          "interpretarlo",
+          "respuesta"
         ]
       }
     ]
@@ -51350,92 +51350,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «En la farmacia», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“Esta mañana Isabel no se _____ bien.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Esta mañana Isabel no se siente bien."
+                "text": "siente"
               },
               {
                 "id": "o2",
-                "text": "Está cansada, por eso va a la farmacia."
+                "text": "farmacéutico"
               },
               {
                 "id": "o3",
-                "text": "El farmacéutico le recomienda descansar, beber mucha agua y consultar a un médico si no mejora."
+                "text": "recomienda"
               },
               {
                 "id": "o4",
-                "text": "Si mañana se siente mejor, volverá a clase; si el dolor continúa, pedirá una cita médica."
+                "text": "por"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «Esta mañana Isabel no se siente bien.», ¿qué sucede a continuación en «En la farmacia»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Está cansada, por eso va a la _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Esta mañana Isabel no se siente bien."
+                "text": "farmacéutico"
               },
               {
                 "id": "o2",
-                "text": "Está cansada, por eso va a la farmacia."
+                "text": "farmacia"
               },
               {
                 "id": "o3",
-                "text": "El farmacéutico le recomienda descansar, beber mucha agua y consultar a un médico si no mejora."
+                "text": "duele"
               },
               {
                 "id": "o4",
-                "text": "Si mañana se siente mejor, volverá a clase; si el dolor continúa, pedirá una cita médica."
+                "text": "tiene"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «En la farmacia»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“El farmacéutico le recomienda descansar, beber mucha agua y _____ a un médico si no mejora.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Esta mañana Isabel no se siente bien."
+                "text": "mañana"
               },
               {
                 "id": "o2",
-                "text": "Está cansada, por eso va a la farmacia."
+                "text": "Isabel"
               },
               {
                 "id": "o3",
-                "text": "El farmacéutico le recomienda descansar, beber mucha agua y consultar a un médico si no mejora."
+                "text": "consultar"
               },
               {
                 "id": "o4",
-                "text": "Si mañana se siente mejor, volverá a clase; si el dolor continúa, pedirá una cita médica."
+                "text": "siente"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «En la farmacia» después de «El farmacéutico le recomienda descansar, beber mucha agua y consultar…»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Si mañana se siente mejor, volverá a clase; si el dolor continúa, pedirá una cita _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Esta mañana Isabel no se siente bien."
+                "text": "farmacéutico"
               },
               {
                 "id": "o2",
-                "text": "Está cansada, por eso va a la farmacia."
+                "text": "recomienda"
               },
               {
                 "id": "o3",
-                "text": "El farmacéutico le recomienda descansar, beber mucha agua y consultar a un médico si no mejora."
+                "text": "por"
               },
               {
                 "id": "o4",
-                "text": "Si mañana se siente mejor, volverá a clase; si el dolor continúa, pedirá una cita médica."
+                "text": "médica"
               }
             ]
           }
@@ -51446,42 +51446,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «En la farmacia», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“Esta mañana Isabel no se _____ bien.”",
         "options": [
-          "Esta mañana Isabel no se siente bien.",
-          "Está cansada, por eso va a la farmacia.",
-          "El farmacéutico le recomienda descansar, beber mucha agua y consultar a un médico si no mejora.",
-          "Si mañana se siente mejor, volverá a clase; si el dolor continúa, pedirá una cita médica."
+          "siente",
+          "farmacéutico",
+          "recomienda",
+          "por"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «Esta mañana Isabel no se siente bien.», ¿qué sucede a continuación en «En la farmacia»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Está cansada, por eso va a la _____.”",
         "options": [
-          "Esta mañana Isabel no se siente bien.",
-          "Está cansada, por eso va a la farmacia.",
-          "El farmacéutico le recomienda descansar, beber mucha agua y consultar a un médico si no mejora.",
-          "Si mañana se siente mejor, volverá a clase; si el dolor continúa, pedirá una cita médica."
+          "farmacéutico",
+          "farmacia",
+          "duele",
+          "tiene"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «En la farmacia»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“El farmacéutico le recomienda descansar, beber mucha agua y _____ a un médico si no mejora.”",
         "options": [
-          "Esta mañana Isabel no se siente bien.",
-          "Está cansada, por eso va a la farmacia.",
-          "El farmacéutico le recomienda descansar, beber mucha agua y consultar a un médico si no mejora.",
-          "Si mañana se siente mejor, volverá a clase; si el dolor continúa, pedirá una cita médica."
+          "mañana",
+          "Isabel",
+          "consultar",
+          "siente"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «En la farmacia» después de «El farmacéutico le recomienda descansar, beber mucha agua y consultar…»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Si mañana se siente mejor, volverá a clase; si el dolor continúa, pedirá una cita _____.”",
         "options": [
-          "Esta mañana Isabel no se siente bien.",
-          "Está cansada, por eso va a la farmacia.",
-          "El farmacéutico le recomienda descansar, beber mucha agua y consultar a un médico si no mejora.",
-          "Si mañana se siente mejor, volverá a clase; si el dolor continúa, pedirá una cita médica."
+          "farmacéutico",
+          "recomienda",
+          "por",
+          "médica"
         ]
       }
     ]
@@ -55369,92 +55369,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Escucha · Planes y proyectos», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“Tengo que presentar un proyecto con mi compañera el _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Tengo que presentar un proyecto con mi compañera el viernes."
+                "text": "viernes"
               },
               {
                 "id": "o2",
-                "text": "Si terminamos el borrador ese día, tendremos tiempo para ensayar la presentación."
+                "text": "diapositivas"
               },
               {
                 "id": "o3",
-                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
+                "text": "presentación"
               },
               {
                 "id": "o4",
-                "text": "Me gusta tener un plan claro antes de seguir."
+                "text": "información"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «Tengo que presentar un proyecto con mi compañera el viernes.», ¿qué sucede a continuación en «Escucha · Planes y proyectos»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Si terminamos el _____ ese día, tendremos tiempo para ensayar la presentación.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Tengo que presentar un proyecto con mi compañera el viernes."
+                "text": "diapositivas"
               },
               {
                 "id": "o2",
-                "text": "Si terminamos el borrador ese día, tendremos tiempo para ensayar la presentación."
+                "text": "borrador"
               },
               {
                 "id": "o3",
-                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
+                "text": "presentación"
               },
               {
                 "id": "o4",
-                "text": "Me gusta tener un plan claro antes de seguir."
+                "text": "Tengo"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Planes y proyectos»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“Al final, repaso la información y preparo el _____ paso con calma.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Tengo que presentar un proyecto con mi compañera el viernes."
+                "text": "diapositivas"
               },
               {
                 "id": "o2",
-                "text": "Si terminamos el borrador ese día, tendremos tiempo para ensayar la presentación."
+                "text": "tiempo"
               },
               {
                 "id": "o3",
-                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
+                "text": "siguiente"
               },
               {
                 "id": "o4",
-                "text": "Me gusta tener un plan claro antes de seguir."
+                "text": "presentación"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Planes y proyectos» después de «Al final, repaso la información y preparo el siguiente paso con calma.»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Me gusta tener un plan claro antes de _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Tengo que presentar un proyecto con mi compañera el viernes."
+                "text": "diapositivas"
               },
               {
                 "id": "o2",
-                "text": "Si terminamos el borrador ese día, tendremos tiempo para ensayar la presentación."
+                "text": "presentación"
               },
               {
                 "id": "o3",
-                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
+                "text": "información"
               },
               {
                 "id": "o4",
-                "text": "Me gusta tener un plan claro antes de seguir."
+                "text": "seguir"
               }
             ]
           }
@@ -55465,42 +55465,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Escucha · Planes y proyectos», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“Tengo que presentar un proyecto con mi compañera el _____.”",
         "options": [
-          "Tengo que presentar un proyecto con mi compañera el viernes.",
-          "Si terminamos el borrador ese día, tendremos tiempo para ensayar la presentación.",
-          "Al final, repaso la información y preparo el siguiente paso con calma.",
-          "Me gusta tener un plan claro antes de seguir."
+          "viernes",
+          "diapositivas",
+          "presentación",
+          "información"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «Tengo que presentar un proyecto con mi compañera el viernes.», ¿qué sucede a continuación en «Escucha · Planes y proyectos»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Si terminamos el _____ ese día, tendremos tiempo para ensayar la presentación.”",
         "options": [
-          "Tengo que presentar un proyecto con mi compañera el viernes.",
-          "Si terminamos el borrador ese día, tendremos tiempo para ensayar la presentación.",
-          "Al final, repaso la información y preparo el siguiente paso con calma.",
-          "Me gusta tener un plan claro antes de seguir."
+          "diapositivas",
+          "borrador",
+          "presentación",
+          "Tengo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Planes y proyectos»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“Al final, repaso la información y preparo el _____ paso con calma.”",
         "options": [
-          "Tengo que presentar un proyecto con mi compañera el viernes.",
-          "Si terminamos el borrador ese día, tendremos tiempo para ensayar la presentación.",
-          "Al final, repaso la información y preparo el siguiente paso con calma.",
-          "Me gusta tener un plan claro antes de seguir."
+          "diapositivas",
+          "tiempo",
+          "siguiente",
+          "presentación"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Planes y proyectos» después de «Al final, repaso la información y preparo el siguiente paso con calma.»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Me gusta tener un plan claro antes de _____.”",
         "options": [
-          "Tengo que presentar un proyecto con mi compañera el viernes.",
-          "Si terminamos el borrador ese día, tendremos tiempo para ensayar la presentación.",
-          "Al final, repaso la información y preparo el siguiente paso con calma.",
-          "Me gusta tener un plan claro antes de seguir."
+          "diapositivas",
+          "presentación",
+          "información",
+          "seguir"
         ]
       }
     ]
@@ -55544,92 +55544,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Escucha · Una biblioteca vacía vuelve a tener voz», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“Atención, vecinas y vecinos: este anuncio comunitario presenta una propuesta para recuperar un espacio _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Atención, vecinas y vecinos: este anuncio comunitario presenta una propuesta para recuperar un espacio compartido."
+                "text": "compartido"
               },
               {
                 "id": "o2",
-                "text": "En una reunión propuse que no tratáramos las ideas como si fueran enemigas."
+                "text": "financiamiento"
               },
               {
                 "id": "o3",
-                "text": "El objetivo es que el proyecto comunitario sea útil y que la participación continúe cuando pase el entusiasmo inicial."
+                "text": "vecinas"
               },
               {
                 "id": "o4",
-                "text": "Un proyecto no es justo solo porque tenga buenas intenciones: debe permitir que las personas afectadas participen en sus decisiones."
+                "text": "vecinos"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «Atención, vecinas y vecinos: este anuncio comunitario presenta una…», ¿qué sucede a continuación en «Escucha · Una biblioteca vacía vuelve a tener voz»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“En una reunión _____ que no tratáramos las ideas como si fueran enemigas.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Atención, vecinas y vecinos: este anuncio comunitario presenta una propuesta para recuperar un espacio compartido."
+                "text": "financiamiento"
               },
               {
                 "id": "o2",
-                "text": "En una reunión propuse que no tratáramos las ideas como si fueran enemigas."
+                "text": "propuse"
               },
               {
                 "id": "o3",
-                "text": "El objetivo es que el proyecto comunitario sea útil y que la participación continúe cuando pase el entusiasmo inicial."
+                "text": "participación"
               },
               {
                 "id": "o4",
-                "text": "Un proyecto no es justo solo porque tenga buenas intenciones: debe permitir que las personas afectadas participen en sus decisiones."
+                "text": "voluntariado"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Una biblioteca vacía vuelve a tener voz»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“El objetivo es que el proyecto comunitario sea útil y que la _____ continúe cuando pase el entusiasmo inicial.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Atención, vecinas y vecinos: este anuncio comunitario presenta una propuesta para recuperar un espacio compartido."
+                "text": "compartido"
               },
               {
                 "id": "o2",
-                "text": "En una reunión propuse que no tratáramos las ideas como si fueran enemigas."
+                "text": "tratáramos"
               },
               {
                 "id": "o3",
-                "text": "El objetivo es que el proyecto comunitario sea útil y que la participación continúe cuando pase el entusiasmo inicial."
+                "text": "participación"
               },
               {
                 "id": "o4",
-                "text": "Un proyecto no es justo solo porque tenga buenas intenciones: debe permitir que las personas afectadas participen en sus decisiones."
+                "text": "calendario"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Una biblioteca vacía vuelve a tener voz» después de «El objetivo es que el proyecto comunitario sea útil y que la…»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Un proyecto no es justo solo porque tenga buenas intenciones: debe permitir que las personas _____ participen en sus decisiones.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Atención, vecinas y vecinos: este anuncio comunitario presenta una propuesta para recuperar un espacio compartido."
+                "text": "financiamiento"
               },
               {
                 "id": "o2",
-                "text": "En una reunión propuse que no tratáramos las ideas como si fueran enemigas."
+                "text": "participación"
               },
               {
                 "id": "o3",
-                "text": "El objetivo es que el proyecto comunitario sea útil y que la participación continúe cuando pase el entusiasmo inicial."
+                "text": "barrio"
               },
               {
                 "id": "o4",
-                "text": "Un proyecto no es justo solo porque tenga buenas intenciones: debe permitir que las personas afectadas participen en sus decisiones."
+                "text": "afectadas"
               }
             ]
           }
@@ -55640,42 +55640,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Escucha · Una biblioteca vacía vuelve a tener voz», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“Atención, vecinas y vecinos: este anuncio comunitario presenta una propuesta para recuperar un espacio _____.”",
         "options": [
-          "Atención, vecinas y vecinos: este anuncio comunitario presenta una propuesta para recuperar un espacio compartido.",
-          "En una reunión propuse que no tratáramos las ideas como si fueran enemigas.",
-          "El objetivo es que el proyecto comunitario sea útil y que la participación continúe cuando pase el entusiasmo inicial.",
-          "Un proyecto no es justo solo porque tenga buenas intenciones: debe permitir que las personas afectadas participen en sus decisiones."
+          "compartido",
+          "financiamiento",
+          "vecinas",
+          "vecinos"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «Atención, vecinas y vecinos: este anuncio comunitario presenta una…», ¿qué sucede a continuación en «Escucha · Una biblioteca vacía vuelve a tener voz»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“En una reunión _____ que no tratáramos las ideas como si fueran enemigas.”",
         "options": [
-          "Atención, vecinas y vecinos: este anuncio comunitario presenta una propuesta para recuperar un espacio compartido.",
-          "En una reunión propuse que no tratáramos las ideas como si fueran enemigas.",
-          "El objetivo es que el proyecto comunitario sea útil y que la participación continúe cuando pase el entusiasmo inicial.",
-          "Un proyecto no es justo solo porque tenga buenas intenciones: debe permitir que las personas afectadas participen en sus decisiones."
+          "financiamiento",
+          "propuse",
+          "participación",
+          "voluntariado"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Una biblioteca vacía vuelve a tener voz»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“El objetivo es que el proyecto comunitario sea útil y que la _____ continúe cuando pase el entusiasmo inicial.”",
         "options": [
-          "Atención, vecinas y vecinos: este anuncio comunitario presenta una propuesta para recuperar un espacio compartido.",
-          "En una reunión propuse que no tratáramos las ideas como si fueran enemigas.",
-          "El objetivo es que el proyecto comunitario sea útil y que la participación continúe cuando pase el entusiasmo inicial.",
-          "Un proyecto no es justo solo porque tenga buenas intenciones: debe permitir que las personas afectadas participen en sus decisiones."
+          "compartido",
+          "tratáramos",
+          "participación",
+          "calendario"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Una biblioteca vacía vuelve a tener voz» después de «El objetivo es que el proyecto comunitario sea útil y que la…»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Un proyecto no es justo solo porque tenga buenas intenciones: debe permitir que las personas _____ participen en sus decisiones.”",
         "options": [
-          "Atención, vecinas y vecinos: este anuncio comunitario presenta una propuesta para recuperar un espacio compartido.",
-          "En una reunión propuse que no tratáramos las ideas como si fueran enemigas.",
-          "El objetivo es que el proyecto comunitario sea útil y que la participación continúe cuando pase el entusiasmo inicial.",
-          "Un proyecto no es justo solo porque tenga buenas intenciones: debe permitir que las personas afectadas participen en sus decisiones."
+          "financiamiento",
+          "participación",
+          "barrio",
+          "afectadas"
         ]
       }
     ]
@@ -55719,92 +55719,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Escucha · Una propuesta juvenil que resiste preguntas difíciles», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“Esta intervención pública resume la propuesta que defendí en un foro _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Esta intervención pública resume la propuesta que defendí en un foro juvenil."
+                "text": "juvenil"
               },
               {
                 "id": "o2",
-                "text": "Una participante presentó una objeción razonable: mantener el lugar abierto costaría más y quizá no habría suficiente personal."
+                "text": "planteamiento"
               },
               {
                 "id": "o3",
-                "text": "Después del foro, la biblioteca aceptó estudiar la prueba con asociaciones estudiantiles y personal del edificio."
+                "text": "estudiantiles"
               },
               {
                 "id": "o4",
-                "text": "Ese compromiso también facilita que otras iniciativas aprendan de la experiencia en futuras decisiones."
+                "text": "intervención"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «Esta intervención pública resume la propuesta que defendí en un foro…», ¿qué sucede a continuación en «Escucha · Una propuesta juvenil que resiste preguntas difíciles»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Una _____ presentó una objeción razonable: mantener el lugar abierto costaría más y quizá no habría suficiente personal.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Esta intervención pública resume la propuesta que defendí en un foro juvenil."
+                "text": "propuesta"
               },
               {
                 "id": "o2",
-                "text": "Una participante presentó una objeción razonable: mantener el lugar abierto costaría más y quizá no habría suficiente personal."
+                "text": "participante"
               },
               {
                 "id": "o3",
-                "text": "Después del foro, la biblioteca aceptó estudiar la prueba con asociaciones estudiantiles y personal del edificio."
+                "text": "municipal"
               },
               {
                 "id": "o4",
-                "text": "Ese compromiso también facilita que otras iniciativas aprendan de la experiencia en futuras decisiones."
+                "text": "razonable"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Una propuesta juvenil que resiste preguntas difíciles»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“Después del foro, la biblioteca aceptó _____ la prueba con asociaciones estudiantiles y personal del edificio.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Esta intervención pública resume la propuesta que defendí en un foro juvenil."
+                "text": "planteamiento"
               },
               {
                 "id": "o2",
-                "text": "Una participante presentó una objeción razonable: mantener el lugar abierto costaría más y quizá no habría suficiente personal."
+                "text": "estudiantiles"
               },
               {
                 "id": "o3",
-                "text": "Después del foro, la biblioteca aceptó estudiar la prueba con asociaciones estudiantiles y personal del edificio."
+                "text": "estudiar"
               },
               {
                 "id": "o4",
-                "text": "Ese compromiso también facilita que otras iniciativas aprendan de la experiencia en futuras decisiones."
+                "text": "intervención"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Una propuesta juvenil que resiste preguntas difíciles» después de «Después del foro, la biblioteca aceptó estudiar la prueba con…»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Ese compromiso también facilita que otras iniciativas aprendan de la _____ en futuras decisiones.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Esta intervención pública resume la propuesta que defendí en un foro juvenil."
+                "text": "defender"
               },
               {
                 "id": "o2",
-                "text": "Una participante presentó una objeción razonable: mantener el lugar abierto costaría más y quizá no habría suficiente personal."
+                "text": "sencillo"
               },
               {
                 "id": "o3",
-                "text": "Después del foro, la biblioteca aceptó estudiar la prueba con asociaciones estudiantiles y personal del edificio."
+                "text": "estudiar"
               },
               {
                 "id": "o4",
-                "text": "Ese compromiso también facilita que otras iniciativas aprendan de la experiencia en futuras decisiones."
+                "text": "experiencia"
               }
             ]
           }
@@ -55815,42 +55815,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Escucha · Una propuesta juvenil que resiste preguntas difíciles», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“Esta intervención pública resume la propuesta que defendí en un foro _____.”",
         "options": [
-          "Esta intervención pública resume la propuesta que defendí en un foro juvenil.",
-          "Una participante presentó una objeción razonable: mantener el lugar abierto costaría más y quizá no habría suficiente personal.",
-          "Después del foro, la biblioteca aceptó estudiar la prueba con asociaciones estudiantiles y personal del edificio.",
-          "Ese compromiso también facilita que otras iniciativas aprendan de la experiencia en futuras decisiones."
+          "juvenil",
+          "planteamiento",
+          "estudiantiles",
+          "intervención"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «Esta intervención pública resume la propuesta que defendí en un foro…», ¿qué sucede a continuación en «Escucha · Una propuesta juvenil que resiste preguntas difíciles»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Una _____ presentó una objeción razonable: mantener el lugar abierto costaría más y quizá no habría suficiente personal.”",
         "options": [
-          "Esta intervención pública resume la propuesta que defendí en un foro juvenil.",
-          "Una participante presentó una objeción razonable: mantener el lugar abierto costaría más y quizá no habría suficiente personal.",
-          "Después del foro, la biblioteca aceptó estudiar la prueba con asociaciones estudiantiles y personal del edificio.",
-          "Ese compromiso también facilita que otras iniciativas aprendan de la experiencia en futuras decisiones."
+          "propuesta",
+          "participante",
+          "municipal",
+          "razonable"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Una propuesta juvenil que resiste preguntas difíciles»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“Después del foro, la biblioteca aceptó _____ la prueba con asociaciones estudiantiles y personal del edificio.”",
         "options": [
-          "Esta intervención pública resume la propuesta que defendí en un foro juvenil.",
-          "Una participante presentó una objeción razonable: mantener el lugar abierto costaría más y quizá no habría suficiente personal.",
-          "Después del foro, la biblioteca aceptó estudiar la prueba con asociaciones estudiantiles y personal del edificio.",
-          "Ese compromiso también facilita que otras iniciativas aprendan de la experiencia en futuras decisiones."
+          "planteamiento",
+          "estudiantiles",
+          "estudiar",
+          "intervención"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Una propuesta juvenil que resiste preguntas difíciles» después de «Después del foro, la biblioteca aceptó estudiar la prueba con…»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Ese compromiso también facilita que otras iniciativas aprendan de la _____ en futuras decisiones.”",
         "options": [
-          "Esta intervención pública resume la propuesta que defendí en un foro juvenil.",
-          "Una participante presentó una objeción razonable: mantener el lugar abierto costaría más y quizá no habría suficiente personal.",
-          "Después del foro, la biblioteca aceptó estudiar la prueba con asociaciones estudiantiles y personal del edificio.",
-          "Ese compromiso también facilita que otras iniciativas aprendan de la experiencia en futuras decisiones."
+          "defender",
+          "sencillo",
+          "estudiar",
+          "experiencia"
         ]
       }
     ]
@@ -55894,92 +55894,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Escucha · Aprender un idioma después de los cincuenta años», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“A los cincuenta y seis años, Elena decidió aprender un idioma que siempre había querido _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "A los cincuenta y seis años, Elena decidió aprender un idioma que siempre había querido hablar."
+                "text": "hablar"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "interpretarlo"
               },
               {
                 "id": "o3",
-                "text": "Aunque «constancia» parece una decisión individual, conviene considerar «memoria» y «fluidez»."
+                "text": "perspectivas"
               },
               {
                 "id": "o4",
-                "text": "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+                "text": "equivocarse"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «A los cincuenta y seis años, Elena decidió aprender un idioma que…», ¿qué sucede a continuación en «Escucha · Aprender un idioma después de los cincuenta años»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Estos _____ ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.”",
             "options": [
               {
                 "id": "o1",
-                "text": "A los cincuenta y seis años, Elena decidió aprender un idioma que siempre había querido hablar."
+                "text": "interpretarlo"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "conceptos"
               },
               {
                 "id": "o3",
-                "text": "Aunque «constancia» parece una decisión individual, conviene considerar «memoria» y «fluidez»."
+                "text": "idioma"
               },
               {
                 "id": "o4",
-                "text": "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+                "text": "hablar"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Aprender un idioma después de los cincuenta años»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“Aunque «constancia» parece una _____ individual, conviene considerar «memoria» y «fluidez».”",
             "options": [
               {
                 "id": "o1",
-                "text": "A los cincuenta y seis años, Elena decidió aprender un idioma que siempre había querido hablar."
+                "text": "interpretarlo"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "perspectivas"
               },
               {
                 "id": "o3",
-                "text": "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones."
+                "text": "decisión"
               },
               {
                 "id": "o4",
-                "text": "Aunque «constancia» parece una decisión individual, conviene considerar «memoria» y «fluidez»."
+                "text": "Elena"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Aprender un idioma después de los cincuenta años» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Puede sostener una conclusión provisional, identificar una _____ razonable y explicar qué nueva información obligaría a revisarla.”",
             "options": [
               {
                 "id": "o1",
-                "text": "A los cincuenta y seis años, Elena decidió aprender un idioma que siempre había querido hablar."
+                "text": "interpretarlo"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "perspectivas"
               },
               {
                 "id": "o3",
-                "text": "Aunque «constancia» parece una decisión individual, conviene considerar «memoria» y «fluidez»."
+                "text": "Elena"
               },
               {
                 "id": "o4",
-                "text": "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+                "text": "objeción"
               }
             ]
           }
@@ -55990,42 +55990,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Escucha · Aprender un idioma después de los cincuenta años», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“A los cincuenta y seis años, Elena decidió aprender un idioma que siempre había querido _____.”",
         "options": [
-          "A los cincuenta y seis años, Elena decidió aprender un idioma que siempre había querido hablar.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "Aunque «constancia» parece una decisión individual, conviene considerar «memoria» y «fluidez».",
-          "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+          "hablar",
+          "interpretarlo",
+          "perspectivas",
+          "equivocarse"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «A los cincuenta y seis años, Elena decidió aprender un idioma que…», ¿qué sucede a continuación en «Escucha · Aprender un idioma después de los cincuenta años»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Estos _____ ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.”",
         "options": [
-          "A los cincuenta y seis años, Elena decidió aprender un idioma que siempre había querido hablar.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "Aunque «constancia» parece una decisión individual, conviene considerar «memoria» y «fluidez».",
-          "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+          "interpretarlo",
+          "conceptos",
+          "idioma",
+          "hablar"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Aprender un idioma después de los cincuenta años»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“Aunque «constancia» parece una _____ individual, conviene considerar «memoria» y «fluidez».”",
         "options": [
-          "A los cincuenta y seis años, Elena decidió aprender un idioma que siempre había querido hablar.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones.",
-          "Aunque «constancia» parece una decisión individual, conviene considerar «memoria» y «fluidez»."
+          "interpretarlo",
+          "perspectivas",
+          "decisión",
+          "Elena"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Aprender un idioma después de los cincuenta años» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Puede sostener una conclusión provisional, identificar una _____ razonable y explicar qué nueva información obligaría a revisarla.”",
         "options": [
-          "A los cincuenta y seis años, Elena decidió aprender un idioma que siempre había querido hablar.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "Aunque «constancia» parece una decisión individual, conviene considerar «memoria» y «fluidez».",
-          "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+          "interpretarlo",
+          "perspectivas",
+          "Elena",
+          "objeción"
         ]
       }
     ]
@@ -56069,92 +56069,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Escucha · Cómo una idea nacida en un garaje terminó convirtiéndose en una empresa global», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“Muchas empresas globales empiezan con una idea pequeña, a veces en un _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Muchas empresas globales empiezan con una idea pequeña, a veces en un garaje."
+                "text": "garaje"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "interpretarlo"
               },
               {
                 "id": "o3",
-                "text": "Desde esta perspectiva, sintetizar innovación, estrategia, escala y consecuencias sociales no consiste en repetir una conclusión."
+                "text": "consecuencias"
               },
               {
                 "id": "o4",
-                "text": "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+                "text": "organización"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «Muchas empresas globales empiezan con una idea pequeña, a veces en un…», ¿qué sucede a continuación en «Escucha · Cómo una idea nacida en un garaje terminó convirtiéndose en una empresa global»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Estos _____ ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Muchas empresas globales empiezan con una idea pequeña, a veces en un garaje."
+                "text": "interpretarlo"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "conceptos"
               },
               {
                 "id": "o3",
-                "text": "Desde esta perspectiva, sintetizar innovación, estrategia, escala y consecuencias sociales no consiste en repetir una conclusión."
+                "text": "consecuencias"
               },
               {
                 "id": "o4",
-                "text": "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+                "text": "Muchas"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Cómo una idea nacida en un garaje terminó convirtiéndose en una empresa global»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“Desde esta perspectiva, sintetizar innovación, _____, escala y consecuencias sociales no consiste en repetir una conclusión.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Muchas empresas globales empiezan con una idea pequeña, a veces en un garaje."
+                "text": "pequeña"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "difícil"
               },
               {
                 "id": "o3",
-                "text": "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones."
+                "text": "estrategia"
               },
               {
                 "id": "o4",
-                "text": "Desde esta perspectiva, sintetizar innovación, estrategia, escala y consecuencias sociales no consiste en repetir una conclusión."
+                "text": "interpretarlo"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Escucha · Cómo una idea nacida en un garaje terminó convirtiéndose en una empresa global» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Por eso, una escucha avanzada no se limita a localizar una _____ literal.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Muchas empresas globales empiezan con una idea pequeña, a veces en un garaje."
+                "text": "interpretarlo"
               },
               {
                 "id": "o2",
-                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
+                "text": "consecuencias"
               },
               {
                 "id": "o3",
-                "text": "Desde esta perspectiva, sintetizar innovación, estrategia, escala y consecuencias sociales no consiste en repetir una conclusión."
+                "text": "Muchas"
               },
               {
                 "id": "o4",
-                "text": "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+                "text": "respuesta"
               }
             ]
           }
@@ -56165,42 +56165,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Escucha · Cómo una idea nacida en un garaje terminó convirtiéndose en una empresa global», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“Muchas empresas globales empiezan con una idea pequeña, a veces en un _____.”",
         "options": [
-          "Muchas empresas globales empiezan con una idea pequeña, a veces en un garaje.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "Desde esta perspectiva, sintetizar innovación, estrategia, escala y consecuencias sociales no consiste en repetir una conclusión.",
-          "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+          "garaje",
+          "interpretarlo",
+          "consecuencias",
+          "organización"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «Muchas empresas globales empiezan con una idea pequeña, a veces en un…», ¿qué sucede a continuación en «Escucha · Cómo una idea nacida en un garaje terminó convirtiéndose en una empresa global»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Estos _____ ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.”",
         "options": [
-          "Muchas empresas globales empiezan con una idea pequeña, a veces en un garaje.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "Desde esta perspectiva, sintetizar innovación, estrategia, escala y consecuencias sociales no consiste en repetir una conclusión.",
-          "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+          "interpretarlo",
+          "conceptos",
+          "consecuencias",
+          "Muchas"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Cómo una idea nacida en un garaje terminó convirtiéndose en una empresa global»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“Desde esta perspectiva, sintetizar innovación, _____, escala y consecuencias sociales no consiste en repetir una conclusión.”",
         "options": [
-          "Muchas empresas globales empiezan con una idea pequeña, a veces en un garaje.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones.",
-          "Desde esta perspectiva, sintetizar innovación, estrategia, escala y consecuencias sociales no consiste en repetir una conclusión."
+          "pequeña",
+          "difícil",
+          "estrategia",
+          "interpretarlo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Escucha · Cómo una idea nacida en un garaje terminó convirtiéndose en una empresa global» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Por eso, una escucha avanzada no se limita a localizar una _____ literal.”",
         "options": [
-          "Muchas empresas globales empiezan con una idea pequeña, a veces en un garaje.",
-          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
-          "Desde esta perspectiva, sintetizar innovación, estrategia, escala y consecuencias sociales no consiste en repetir una conclusión.",
-          "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+          "interpretarlo",
+          "consecuencias",
+          "Muchas",
+          "respuesta"
         ]
       }
     ]
@@ -56275,92 +56275,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Un mensaje sobre el fin de semana», ¿qué detalle presenta la situación?",
+            "prompt": "Completa este detalle del audio.\n\n“Este fin de semana voy a visitar la playa con mi _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Este fin de semana voy a visitar la playa con mi familia."
+                "text": "familia"
               },
               {
                 "id": "o2",
-                "text": "Mi hermano quiere jugar con una pelota y mi madre prepara unos sándwiches."
+                "text": "Este"
               },
               {
                 "id": "o3",
-                "text": "El domingo pienso descansar en casa y llamar a mi abuela."
+                "text": "algo"
               },
               {
                 "id": "o4",
-                "text": "Ya estoy preparando una mochila con agua, toallas y protector solar."
+                "text": "unos"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «Este fin de semana voy a visitar la playa con mi familia.», ¿qué sucede a continuación en «Un mensaje sobre el fin de semana»?",
+            "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Mi hermano quiere jugar con una _____ y mi madre prepara unos sándwiches.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Este fin de semana voy a visitar la playa con mi familia."
+                "text": "sándwiches"
               },
               {
                 "id": "o2",
-                "text": "Mi hermano quiere jugar con una pelota y mi madre prepara unos sándwiches."
+                "text": "pelota"
               },
               {
                 "id": "o3",
-                "text": "El domingo pienso descansar en casa y llamar a mi abuela."
+                "text": "preparando"
               },
               {
                 "id": "o4",
-                "text": "Ya estoy preparando una mochila con agua, toallas y protector solar."
+                "text": "fin"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Un mensaje sobre el fin de semana»?",
+            "prompt": "Elige la palabra que falta en la grabación.\n\n“El domingo pienso descansar en casa y _____ a mi abuela.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Este fin de semana voy a visitar la playa con mi familia."
+                "text": "sándwiches"
               },
               {
                 "id": "o2",
-                "text": "Mi hermano quiere jugar con una pelota y mi madre prepara unos sándwiches."
+                "text": "preparando"
               },
               {
                 "id": "o3",
-                "text": "El domingo pienso descansar en casa y llamar a mi abuela."
+                "text": "llamar"
               },
               {
                 "id": "o4",
-                "text": "Ya estoy preparando una mochila con agua, toallas y protector solar."
+                "text": "fin"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Un mensaje sobre el fin de semana» después de «El domingo pienso descansar en casa y llamar a mi abuela.»?",
+            "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Ya estoy preparando una _____ con agua, toallas y protector solar.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Este fin de semana voy a visitar la playa con mi familia."
+                "text": "Este"
               },
               {
                 "id": "o2",
-                "text": "Mi hermano quiere jugar con una pelota y mi madre prepara unos sándwiches."
+                "text": "algo"
               },
               {
                 "id": "o3",
-                "text": "El domingo pienso descansar en casa y llamar a mi abuela."
+                "text": "unos"
               },
               {
                 "id": "o4",
-                "text": "Ya estoy preparando una mochila con agua, toallas y protector solar."
+                "text": "mochila"
               }
             ]
           }
@@ -56371,42 +56371,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Un mensaje sobre el fin de semana», ¿qué detalle presenta la situación?",
+        "prompt": "Completa este detalle del audio.\n\n“Este fin de semana voy a visitar la playa con mi _____.”",
         "options": [
-          "Este fin de semana voy a visitar la playa con mi familia.",
-          "Mi hermano quiere jugar con una pelota y mi madre prepara unos sándwiches.",
-          "El domingo pienso descansar en casa y llamar a mi abuela.",
-          "Ya estoy preparando una mochila con agua, toallas y protector solar."
+          "familia",
+          "Este",
+          "algo",
+          "unos"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Después de «Este fin de semana voy a visitar la playa con mi familia.», ¿qué sucede a continuación en «Un mensaje sobre el fin de semana»?",
+        "prompt": "¿Qué palabra completa la oración que escuchas?\n\n“Mi hermano quiere jugar con una _____ y mi madre prepara unos sándwiches.”",
         "options": [
-          "Este fin de semana voy a visitar la playa con mi familia.",
-          "Mi hermano quiere jugar con una pelota y mi madre prepara unos sándwiches.",
-          "El domingo pienso descansar en casa y llamar a mi abuela.",
-          "Ya estoy preparando una mochila con agua, toallas y protector solar."
+          "sándwiches",
+          "pelota",
+          "preparando",
+          "fin"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Un mensaje sobre el fin de semana»?",
+        "prompt": "Elige la palabra que falta en la grabación.\n\n“El domingo pienso descansar en casa y _____ a mi abuela.”",
         "options": [
-          "Este fin de semana voy a visitar la playa con mi familia.",
-          "Mi hermano quiere jugar con una pelota y mi madre prepara unos sándwiches.",
-          "El domingo pienso descansar en casa y llamar a mi abuela.",
-          "Ya estoy preparando una mochila con agua, toallas y protector solar."
+          "sándwiches",
+          "preparando",
+          "llamar",
+          "fin"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Un mensaje sobre el fin de semana» después de «El domingo pienso descansar en casa y llamar a mi abuela.»?",
+        "prompt": "¿Cuál es la palabra exacta que falta en este detalle del audio?\n\n“Ya estoy preparando una _____ con agua, toallas y protector solar.”",
         "options": [
-          "Este fin de semana voy a visitar la playa con mi familia.",
-          "Mi hermano quiere jugar con una pelota y mi madre prepara unos sándwiches.",
-          "El domingo pienso descansar en casa y llamar a mi abuela.",
-          "Ya estoy preparando una mochila con agua, toallas y protector solar."
+          "Este",
+          "algo",
+          "unos",
+          "mochila"
         ]
       }
     ]
