@@ -525,14 +525,14 @@
         ]
       },
       {
-        "id": "portuguese-b1-trabalho-e-planos-reading-comprehension-4",
+        "id": "portuguese-b1-trabalho-e-planos-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“Sofia procurou quem não pôde participar, pois uma decisão é mais forte quando _____ perspectivas diferentes.”",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Sofia não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
         "options": [
-          "depois",
-          "também",
-          "quando",
-          "inclui"
+          "aprender",
+          "concreto",
+          "pesquisa",
+          "conversa"
         ]
       },
       {
@@ -4815,14 +4815,14 @@
         ]
       },
       {
-        "id": "portuguese-b1-viagens-com-respeito-reading-comprehension-4",
+        "id": "portuguese-b1-viagens-com-respeito-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“Sofia procurou quem não pôde participar, pois uma decisão é mais forte quando _____ perspectivas diferentes.”",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Sofia não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
         "options": [
-          "viagem",
-          "depois",
-          "região",
-          "inclui"
+          "aprender",
+          "proteger",
+          "concreto",
+          "visitada"
         ]
       },
       {
@@ -9105,14 +9105,14 @@
         ]
       },
       {
-        "id": "portuguese-b1-saude-e-equilibrio-reading-comprehension-4",
+        "id": "portuguese-b1-saude-e-equilibrio-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“Elena procurou quem não pôde participar, pois uma decisão é mais forte quando _____ perspectivas diferentes.”",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Elena não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
         "options": [
-          "buscar",
-          "depois",
-          "centro",
-          "inclui"
+          "aprender",
+          "concreto",
+          "pesquisa",
+          "conversa"
         ]
       },
       {
@@ -13395,14 +13395,14 @@
         ]
       },
       {
-        "id": "portuguese-b1-cultura-e-informacao-reading-comprehension-4",
+        "id": "portuguese-b1-cultura-e-informacao-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“Julia procurou quem não pôde participar, pois uma decisão é mais forte quando _____ perspectivas diferentes.”",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Julia não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
         "options": [
-          "depois",
-          "também",
-          "quando",
-          "inclui"
+          "aprender",
+          "concreto",
+          "pesquisa",
+          "conversa"
         ]
       },
       {
@@ -17685,14 +17685,14 @@
         ]
       },
       {
-        "id": "portuguese-b1-ambiente-no-bairro-reading-comprehension-4",
+        "id": "portuguese-b1-ambiente-no-bairro-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“Lorenzo procurou quem não pôde participar, pois uma decisão é mais forte quando _____ perspectivas diferentes.”",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Lorenzo não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
         "options": [
-          "depois",
-          "também",
-          "quando",
-          "inclui"
+          "aprender",
+          "resíduos",
+          "concreto",
+          "coletivo"
         ]
       },
       {
@@ -21975,14 +21975,14 @@
         ]
       },
       {
-        "id": "portuguese-b1-historias-e-memorias-reading-comprehension-4",
+        "id": "portuguese-b1-historias-e-memorias-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“Marta procurou quem não pôde participar, pois uma decisão é mais forte quando _____ perspectivas diferentes.”",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Marta não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
         "options": [
-          "depois",
-          "também",
-          "quando",
-          "inclui"
+          "aprender",
+          "concreto",
+          "pesquisa",
+          "conversa"
         ]
       },
       {
@@ -26265,14 +26265,14 @@
         ]
       },
       {
-        "id": "portuguese-b1-projeto-coletivo-reading-comprehension-4",
+        "id": "portuguese-b1-projeto-coletivo-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“Frederico procurou quem não pôde participar, pois uma decisão é mais forte quando _____ perspectivas diferentes.”",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Frederico não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
         "options": [
-          "depois",
-          "também",
-          "quando",
-          "inclui"
+          "aprender",
+          "pesquisa",
+          "concreto",
+          "ciências"
         ]
       },
       {
@@ -30555,14 +30555,14 @@
         ]
       },
       {
-        "id": "portuguese-b1-tecnologia-no-dia-a-dia-reading-comprehension-4",
+        "id": "portuguese-b1-tecnologia-no-dia-a-dia-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“Clara procurou quem não pôde participar, pois uma decisão é mais forte quando _____ perspectivas diferentes.”",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Clara não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
         "options": [
-          "depois",
-          "também",
-          "quando",
-          "inclui"
+          "aprender",
+          "concreto",
+          "pesquisa",
+          "conversa"
         ]
       },
       {
@@ -34845,14 +34845,14 @@
         ]
       },
       {
-        "id": "portuguese-b1-cidade-e-mobilidade-reading-comprehension-4",
+        "id": "portuguese-b1-cidade-e-mobilidade-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“Davi procurou quem não pôde participar, pois uma decisão é mais forte quando _____ perspectivas diferentes.”",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Davi não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
         "options": [
-          "depois",
-          "também",
-          "quando",
-          "inclui"
+          "aprender",
+          "melhorar",
+          "concreto",
+          "pesquisa"
         ]
       },
       {
@@ -39135,14 +39135,14 @@
         ]
       },
       {
-        "id": "portuguese-b1-planos-para-o-futuro-reading-comprehension-4",
+        "id": "portuguese-b1-planos-para-o-futuro-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“Nádia procurou quem não pôde participar, pois uma decisão é mais forte quando _____ perspectivas diferentes.”",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Nádia não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
         "options": [
-          "futuro",
-          "depois",
-          "centro",
-          "inclui"
+          "aprender",
+          "escolher",
+          "concreto",
+          "pesquisa"
         ]
       },
       {
@@ -43425,14 +43425,14 @@
         ]
       },
       {
-        "id": "portuguese-b1-relacoes-e-comunicacao-reading-comprehension-4",
+        "id": "portuguese-b1-relacoes-e-comunicacao-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“Elisa procurou quem não pôde participar, pois uma decisão é mais forte quando _____ perspectivas diferentes.”",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Elisa não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
         "options": [
-          "depois",
-          "equipe",
-          "também",
-          "inclui"
+          "aprender",
+          "concreto",
+          "trabalho",
+          "pesquisa"
         ]
       },
       {
@@ -47715,14 +47715,14 @@
         ]
       },
       {
-        "id": "portuguese-b1-cidadania-e-participacao-reading-comprehension-4",
+        "id": "portuguese-b1-cidadania-e-participacao-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“Lucas procurou quem não pôde participar, pois uma decisão é mais forte quando _____ perspectivas diferentes.”",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Lucas não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
         "options": [
-          "depois",
-          "bairro",
-          "também",
-          "inclui"
+          "aprender",
+          "concreto",
+          "pesquisa",
+          "conversa"
         ]
       },
       {
