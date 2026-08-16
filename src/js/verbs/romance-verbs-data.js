@@ -1078,12 +1078,6 @@
   // A compact set of practical contexts keeps the three examples useful
   // without inventing content at render time. The verb form itself always
   // comes from the deterministic conjugation engine below.
-  const FR_CONTEXTS = [
-    'avant le rendez-vous', 'dans cette situation', 'avec mon équipe',
-    'pour la prochaine étape', 'aujourd’hui au travail', 'pendant le cours',
-    'avant de partir', 'pour résoudre ce problème', 'dans la vie quotidienne',
-    'avec plus de confiance'
-  ];
   const FR_CORE_EXAMPLES = {
     être: ['Je suis prêt pour le cours.', 'Je ne suis pas disponible ce matin.', 'Est-ce que tu es prêt ?'],
     avoir: ['J’ai un rendez-vous à quinze heures.', 'Je n’ai pas mon carnet avec moi.', 'Est-ce que vous avez une question ?'],
@@ -1098,6 +1092,45 @@
     devoir: ['Je dois envoyer le dossier avant midi.', 'Tu ne dois pas oublier ton passeport.', 'Est-ce que je dois apporter quelque chose ?'],
     prendre: ['Je prends le bus pour aller au centre.', 'Il ne prend pas de sucre dans son café.', 'Quel train est-ce que vous prenez ?']
   };
+  // The wider catalogue is generated from conjugated forms. Rotate the
+  // grammatical person in its three card examples so learners see the
+  // paradigm in use instead of hundreds of cards starting with « Je ».
+  const FR_EXAMPLE_PERSONS = [
+    {label:'Je', index:0, tail:'souvent'},
+    {label:'Tu', index:1, tail:'maintenant'},
+    {label:'Elle', index:2, tail:'aujourd’hui'},
+    {label:'Nous', index:3, tail:'ensemble'},
+    {label:'Vous', index:4, tail:'dans ce contexte'},
+    {label:'Ils', index:5, tail:'ce matin'}
+  ];
+  function frenchCardSentence(person, form, negative=false, question=false) {
+    const subject=person.label;
+    const startsWithVowel=/^[aeiouyhàâäéèêëîïôöùûü]/i.test(form);
+    if (question) {
+      const questionSubject=subject.toLowerCase();
+      if (questionSubject==='je') {
+        return `Est-ce que ${startsWithVowel?"j’":'je '}${form} ${person.tail} ?`;
+      }
+      const questionPrefix=/^[aeiouyh]/i.test(questionSubject)?'Est-ce qu’':'Est-ce que ';
+      return `${questionPrefix}${questionSubject} ${form} ${person.tail} ?`;
+    }
+    if (negative) {
+      const negation=startsWithVowel?'n’':'ne ';
+      return `${subject} ${negation}${form} pas ${person.tail}.`;
+    }
+    const renderedSubject=subject==='Je'&&startsWithVowel?'J’':`${subject} `;
+    return `${renderedSubject}${form} ${person.tail}.`;
+  }
+  function buildFrenchCardExamples(present,index) {
+    const affirmative=FR_EXAMPLE_PERSONS[index%FR_EXAMPLE_PERSONS.length];
+    const negative=FR_EXAMPLE_PERSONS[(index+2)%FR_EXAMPLE_PERSONS.length];
+    const interrogative=FR_EXAMPLE_PERSONS[(index+4)%FR_EXAMPLE_PERSONS.length];
+    return {
+      affirmative:frenchCardSentence(affirmative,present[affirmative.index]),
+      negative:frenchCardSentence(negative,present[negative.index],true),
+      interrogative:frenchCardSentence(interrogative,present[interrogative.index],false,true)
+    };
+  }
   // Corrected here explicitly to keep the ranked list readable above.
   FR_IPA.reprendre='/ʁəpʁɑ̃dʁ/';
 
@@ -1390,17 +1423,12 @@
   }
   function buildFrench([inf,en,es,group],index){
     const forms=engines.french.principalForms(inf),present=frenchPresent(inf);
-    const vowelSound=/^[aeiouyhàâäéèêëîïôöùûü]/i.test(present[0]);
-    const subject=vowelSound?`J’${present[0]}`:`Je ${present[0]}`;
-    const negative=vowelSound?`Je n’${present[0]} pas`:`Je ne ${present[0]} pas`;
-    const question=vowelSound?`Est-ce que j’${present[0]}`:`Est-ce que je ${present[0]}`;
-    const context=FR_CONTEXTS[index%FR_CONTEXTS.length];
     const curatedExamples=FR_CORE_EXAMPLES[inf];
     const spanishGloss=es||'Verbo francés de uso frecuente';
     const englishGloss=en||'Common French verb';
     return{id:`verb-french-${inf}`,language:'french',rank:index+1,infinitive:inf,regular:group!==3,group:`${group}${group===1?'er':group===2?'e':'e'} groupe`,level:level(index+1),forms,
       translation:{spanish:spanishGloss,english:englishGloss},directDefinition:{french:es?`Verbe fréquent qui signifie « ${es} » en espagnol.`:'Verbe français fréquent : ouvre la fiche pour les exemples et la conjugaison.',english:en?`A frequent French verb meaning “${en}”.`:'A frequent French verb: open the detail for examples and conjugation.'},
-      pronunciation:FR_IPA[inf]||'',audioText:inf,examples:curatedExamples?{affirmative:curatedExamples[0],negative:curatedExamples[1],interrogative:curatedExamples[2]}:{affirmative:`${subject} ${context}.`,negative:`${negative} ${context}.`,interrogative:`${question} ${context} ?`},
+      pronunciation:FR_IPA[inf]||'',audioText:inf,examples:curatedExamples?{affirmative:curatedExamples[0],negative:curatedExamples[1],interrogative:curatedExamples[2]}:buildFrenchCardExamples(present,index),
       commonCollocations:[],synonyms:[],antonyms:[],notes:`${group===1?'1er':group===2?'2e':'3e'} groupe · #${index+1} par fréquence d’usage.`};
   }
   function buildSpanish([inf,en,fr],index){
