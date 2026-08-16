@@ -1,96 +1,93 @@
-import { router } from 'expo-router';
+import { router, useLocalSearchParams } from 'expo-router';
 import * as Haptics from 'expo-haptics';
+import { useAudioPlayer } from 'expo-audio';
 import { useState } from 'react';
-import { Pressable, StyleSheet, View } from 'react-native';
+import { Pressable, ScrollView, StyleSheet, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
 import { useGame } from '@/context/game';
 
-const QUESTIONS = [
-  { prompt: 'Selecciona el saludo correcto:', clue: 'Buenos días', answers: ['Good morning', 'Good night', 'Goodbye', 'Thank you'], correct: 0 },
-  { prompt: 'Completa la oración:', clue: 'I ___ Andrea.', answers: ['is', 'am', 'are', 'be'], correct: 1 },
-  { prompt: '¿Qué significa “Nice to meet you”?', clue: 'Elige la traducción', answers: ['¿Cómo estás?', 'Hasta mañana', 'Mucho gusto', 'Buenos días'], correct: 2 },
-  { prompt: 'Selecciona la respuesta correcta:', clue: 'How are you?', answers: ['I am fine, thanks.', 'My name are Luis.', 'Good night morning.', 'I is happy.'], correct: 0 },
-  { prompt: 'Orden lógico para presentarte:', clue: 'Elige la frase completa', answers: ['Hello, my name is Ana.', 'Goodbye, I fine.', 'Name my Ana is.', 'I hello are Ana.'], correct: 0 },
+const CORRECT_SOUND='data:audio/wav;base64,UklGRvQCAABXQVZFZm10IBAAAAABAAEAoA8AAEAfAAACABAAZGF0YdACAAAAAD8CEATV/o/2RveMBN8QaAsl9gboGfS3ED8eIQpR583c4/lGIXImAAAJ2PHb7QbbKeselPJf1czmVxNRKhUTducL10bz7ByiJk8GmN+P3AAA8CJ/H/X5g9sS5a4LDyXjFTnvVNt77zkVYyP8ChHnu96T+tgbah4AABfiEuUpBR8f8BYQ9oTgbu03Dggf9Q0Y7jDiw/byFOcbiwS56J3mAADiGF4Wufs/5g3tMQjpGUEPWfSc5pr0lw49GH8HDO936Vf8txJcFAAAJewz7mUDZBT2Do35qesQ9BcJvxPWCLr0Ve1A+vcMKxHHAtrxq/AAANQOPA19/frwCPW1BMQOnwh4+eXxuvn1BxgNAgQG9zL0G/6WCU4KAAAz9lT3ogGoCfsGCv3P9rL6+AN2CLYDXPt7+Lz9/ARwBgMB+/q5+gAAxgQbBED/tvsC/TgBnwP9AZj+Lv3Z/lMB8wGFAAH/7v7f/3QAQAAAAH4Cc/5U+dYFuggX9D/4dRJlAwboGgQLGxnye+WvGMEVLd1L854qAACz08YNdyci5hXhJiOYEzjXVvlRKm35S9jTElIhFOMg6PIjYQy32AAAuyb585DdjRbuGmvh+O5qI8gFVNuxBVcivO8+4+8YjxQV4V71tyEAANjeSQppHcTsEOkEGnkO9OEa+wgfMfsG47QNMRgO68Lu5BnkCNzjAACVG3X3n+frD/MSjOoX9K8YBASc5u0DnBfc9GDs9BDtDSPr2viRFgAA/enMBloTZvMK8eMQWQmv7N78vxP1/MLtlAgQDwnzZPXWD2cFAe8AAHAQ8vqt8UkJ+Aqt8zf58w1AAuXxKQLgDPv5gfX6CEsHMfVX/GwLAAAj9VADTAkI+gX5wgc6BGv3ov52CLn+ffh1A+8FBPsG/MgF6gEn+gAASwVv/rv7pwL+As78Vv44A3wALv1lACUCG/+i/v8AqQA//9T/RwA=';
+const WRONG_SOUND='data:audio/wav;base64,UklGRvQCAABXQVZFZm10IBAAAAABAAEAoA8AAEAfAAACABAAZGF0YdACAAAAAIwB3QTfBsgEEv5E9f/une+m+GkHsBVhHPgWJAYn8IPe29nI5ab+iBoTK3EpixZ8+hXh5tTZ2jfw4gs8IgMqKyALCXfujtsZ2FPlff1bFpAl5STcFF38veVj2uDeGvFCCTMdrCTBHPoIxvHa4CzdDui9/HESHiAyIN4S6f0s6tvfGONP8vQGWBhMHxsZlAjJ9AXmVeIO61P8yg7BGlwblRAg/2HuTOV/59bz+ASuE+cZOxXYB3/3CuuR51HuQPxqC30VaBYBDgAAWPKw6hHsrPVPAzcPgBQmEcgG5vnn79vs0/GD/FMIVhBYESYLigAN9gXwyvDR9/oB+AodD94MZgX9+5f0L/KR9Rz9hgVPCzEMBQi+AID5RfWm9UL6+wDzBsAJZwiyA8L9F/mK94r5Cv4GA20G9waiBJwArfxt+qP6/fxRACsDbwTFA64BNP9l/eb8uP1L/9QAswGtAf8AJACS/3r/u/8AAL4A0gLYBTsJTQxfDtYOSQ2MCcADT/zl82TryeMO3hDbcNuA3zHnDvJM/28MURjpIWYoQCtEKpMlpR02EzoHxfrw7sPkH92n2LTXT9ox4MnoTfPH/jIKjxT1HLEiSyWUJKkg7hkHEcQGEvzi8Rnpd+KI3prdtd+d5NjruvRy/iMI8xAfGA4dWR/ZHqYbFRatDh8GMP2q9E3tt+de5IPjLOUn6Q7vVPZN/kEGfw1nE3wXahkTGYwWGRIpDEoFH/5H913x3uwp6m/ps+rN7WvyHPhY/o0ENArODvwRgRNFE1sR+g16CUcE3v64+Uj17PHn71zvSvCQ8u71EPqR/ggDEQdVCpEMng1vDRUMvAmiBhYDbv/9+w/53/aY9Un17/Vt95f5Mfz7/rEBFwT8BToHwgeSB7sGXAWgA7YBz/8V/q/8t/s5+zb7oftl/GT9fv6U/4gARwHEAfoB7wGvAU0B3gB2ACgA//8=';
+
+const LESSONS=[
+ {title:'Saludos',questions:[
+  {prompt:'Selecciona el saludo correcto:',clue:'Buenos días',answers:['Good morning','Good night','Goodbye','Thank you'],correct:0,explanation:'“Good morning” se usa para saludar durante la mañana.'},
+  {prompt:'¿Cómo saludas por la tarde?',clue:'Buenas tardes',answers:['Good evening','Good afternoon','Good night','See you'],correct:1,explanation:'“Good afternoon” significa “Buenas tardes”.'},
+  {prompt:'¿Qué significa “Hello”?',clue:'Elige la traducción',answers:['Adiós','Gracias','Hola','Por favor'],correct:2,explanation:'“Hello” es una forma común de decir “Hola”.'},
+  {prompt:'Responde al saludo:',clue:'How are you?',answers:['I am fine, thanks.','My name are Luis.','Good night morning.','I is happy.'],correct:0,explanation:'“I am fine, thanks” responde de forma natural a “How are you?”.'},
+  {prompt:'Selecciona una despedida:',clue:'Nos vemos pronto',answers:['Nice to meet you','See you soon','Good morning','Welcome'],correct:1,explanation:'“See you soon” significa “Nos vemos pronto”.'},
+ ]},
+ {title:'Presentarte',questions:[
+  {prompt:'Completa tu presentación:',clue:'My ___ is Carlos.',answers:['old','name','from','live'],correct:1,explanation:'Usamos “My name is…” para decir nuestro nombre.'},
+  {prompt:'¿Cómo preguntas el nombre?',clue:'Elige la pregunta',answers:['Where are you?','How old is?','What is your name?','Who you are?'],correct:2,explanation:'“What is your name?” significa “¿Cómo te llamas?”.'},
+  {prompt:'Di de dónde eres:',clue:'Soy de República Dominicana.',answers:['I am from the Dominican Republic.','I live name Dominican.','My from is Dominican.','I are Dominican Republic.'],correct:0,explanation:'La estructura es “I am from + lugar”.'},
+  {prompt:'Responde tu edad:',clue:'How old are you?',answers:['I have twelve.','I am twelve years old.','My age have twelve.','I from twelve.'],correct:1,explanation:'En inglés la edad se expresa con “I am… years old”.'},
+  {prompt:'Cierra la presentación:',clue:'Mucho gusto',answers:['Nice to meet you','Good afternoon','See yesterday','You are welcome'],correct:0,explanation:'“Nice to meet you” se usa al conocer a alguien.'},
+ ]},
+ {title:'Verbo to be',questions:[
+  {prompt:'Completa la oración:',clue:'I ___ a student.',answers:['is','am','are','be'],correct:1,explanation:'Con “I” siempre usamos “am”.'},
+  {prompt:'Completa la oración:',clue:'She ___ my teacher.',answers:['am','are','is','be'],correct:2,explanation:'Con “she” usamos “is”.'},
+  {prompt:'Completa la oración:',clue:'They ___ at school.',answers:['is','am','are','be'],correct:2,explanation:'Con “they” usamos “are”.'},
+  {prompt:'Elige la negación correcta:',clue:'Él no está cansado.',answers:['He are not tired.','He is not tired.','He am not tired.','He not be tired.'],correct:1,explanation:'La forma negativa es “He is not…”.'},
+  {prompt:'Elige la pregunta correcta:',clue:'¿Eres estudiante?',answers:['Are you a student?','Is you a student?','Am you student?','You are a student?'],correct:0,explanation:'En preguntas invertimos: “Are + you…?”.'},
+ ]},
+ {title:'La familia',questions:[
+  {prompt:'¿Qué significa “mother”?',clue:'Vocabulario familiar',answers:['Hermana','Madre','Tía','Abuela'],correct:1,explanation:'“Mother” significa “madre”.'},
+  {prompt:'Selecciona “hermano”:',clue:'Miembro de la familia',answers:['Brother','Father','Cousin','Son'],correct:0,explanation:'“Brother” significa “hermano”.'},
+  {prompt:'Completa la frase:',clue:'She is my ___.',answers:['family','sister','parents','children'],correct:1,explanation:'“She is my sister” significa “Ella es mi hermana”.'},
+  {prompt:'¿Qué significa “parents”?',clue:'Elige la traducción',answers:['Primos','Abuelos','Padres','Hijos'],correct:2,explanation:'“Parents” se refiere a padre y madre.'},
+  {prompt:'Describe tu familia:',clue:'Tengo dos hermanos.',answers:['I am two brothers.','I have two brothers.','My two are brother.','I has brothers two.'],correct:1,explanation:'Para expresar posesión usamos “I have…”.'},
+ ]},
+ {title:'Rutinas',questions:[
+  {prompt:'¿Qué significa “wake up”?',clue:'Rutina diaria',answers:['Despertarse','Dormirse','Vestirse','Trabajar'],correct:0,explanation:'“Wake up” significa “despertarse”.'},
+  {prompt:'Completa la rutina:',clue:'I ___ breakfast at 7:00.',answers:['do','have','am','go'],correct:1,explanation:'Decimos “have breakfast” para desayunar.'},
+  {prompt:'Selecciona la oración correcta:',clue:'Ella va a la escuela.',answers:['She go to school.','She goes to school.','She going school.','She is go school.'],correct:1,explanation:'En presente simple, con “she” añadimos -s: “goes”.'},
+  {prompt:'¿Cómo dices “todos los días”?',clue:'Frecuencia',answers:['Every day','Yesterday','At night now','Last week'],correct:0,explanation:'“Every day” significa “todos los días”.'},
+  {prompt:'Ordena tu noche:',clue:'Me acuesto a las diez.',answers:['I bed go at ten.','I go to bed at ten.','I goes bed ten.','At ten I am bed go.'],correct:1,explanation:'La expresión correcta es “go to bed”.'},
+ ]},
+ {title:'Jefe final',questions:[
+  {prompt:'Preséntate correctamente:',clue:'Hola, me llamo Elena.',answers:['Hello, my name is Elena.','Goodbye, I Elena are.','Hello, name my Elena.','I is called Elena hello.'],correct:0,explanation:'“Hello, my name is Elena” es una presentación completa.'},
+  {prompt:'Completa con “to be”:',clue:'We ___ a family.',answers:['is','am','are','be'],correct:2,explanation:'Con “we” usamos “are”.'},
+  {prompt:'Identifica al familiar:',clue:'My father’s mother',answers:['My sister','My aunt','My grandmother','My daughter'],correct:2,explanation:'La madre de tu padre es tu abuela: “grandmother”.'},
+  {prompt:'Describe una rutina:',clue:'Él desayuna temprano.',answers:['He have breakfast early.','He has breakfast early.','He is breakfast early.','He breakfast have early.'],correct:1,explanation:'Con “he”, “have” cambia a “has”.'},
+  {prompt:'Responde correctamente:',clue:'Nice to meet you!',answers:['Nice to meet you too!','I am breakfast.','My mother is seven.','Good morning yesterday.'],correct:0,explanation:'Puedes responder “Nice to meet you too!”.'},
+ ]},
 ] as const;
 
-export default function LessonScreen() {
-  const game = useGame();
-  const [index, setIndex] = useState(0);
-  const [selected, setSelected] = useState<number | null>(null);
-  const [correct, setCorrect] = useState(0);
-  const [finished, setFinished] = useState(false);
-  const question = QUESTIONS[index];
+const VOCABULARY={
+ french:[
+  {title:'Bonjour',items:[['Bonjour','Hola'],['Bonsoir','Buenas noches'],['Merci','Gracias'],['Au revoir','Adiós'],['Comment ça va ?','¿Cómo estás?']]},
+  {title:'Se présenter',items:[['Je m’appelle Ana','Me llamo Ana'],['J’ai douze ans','Tengo doce años'],['Je viens de Saint-Domingue','Vengo de Santo Domingo'],['Enchanté','Mucho gusto'],['Quel est ton nom ?','¿Cómo te llamas?']]},
+  {title:'Verbe être',items:[['Je suis étudiant','Soy estudiante'],['Tu es gentil','Eres amable'],['Elle est professeure','Ella es profesora'],['Nous sommes prêts','Estamos listos'],['Ils sont ici','Ellos están aquí']]},
+  {title:'La famille',items:[['la mère','la madre'],['le père','el padre'],['la sœur','la hermana'],['le frère','el hermano'],['les grands-parents','los abuelos']]},
+  {title:'La routine',items:[['Je me réveille','Me despierto'],['Je prends le petit-déjeuner','Desayuno'],['Je vais à l’école','Voy a la escuela'],['Je fais mes devoirs','Hago mi tarea'],['Je vais au lit','Me acuesto']]},
+  {title:'Défi final',items:[['Bonjour, je m’appelle Luc','Hola, me llamo Luc'],['Nous sommes une famille','Somos una familia'],['Elle va à l’école','Ella va a la escuela'],['Mon frère est étudiant','Mi hermano es estudiante'],['À bientôt !','¡Hasta pronto!']]},
+ ],
+ spanish:[
+  {title:'Saludos',items:[['Hola','Hello'],['Buenos días','Good morning'],['Buenas tardes','Good afternoon'],['Adiós','Goodbye'],['¿Cómo estás?','How are you?']]},
+  {title:'Presentarse',items:[['Me llamo Ana','My name is Ana'],['Tengo doce años','I am twelve years old'],['Soy de Santo Domingo','I am from Santo Domingo'],['Mucho gusto','Nice to meet you'],['¿Cómo te llamas?','What is your name?']]},
+  {title:'Verbo ser',items:[['Yo soy estudiante','I am a student'],['Tú eres amable','You are kind'],['Ella es profesora','She is a teacher'],['Somos amigos','We are friends'],['Ellos son jóvenes','They are young']]},
+  {title:'La familia',items:[['la madre','the mother'],['el padre','the father'],['la hermana','the sister'],['el hermano','the brother'],['los abuelos','the grandparents']]},
+  {title:'Rutinas',items:[['Me despierto temprano','I wake up early'],['Desayuno a las siete','I have breakfast at seven'],['Voy a la escuela','I go to school'],['Hago mi tarea','I do my homework'],['Me acuesto a las diez','I go to bed at ten']]},
+  {title:'Desafío final',items:[['Hola, me llamo Luis','Hello, my name is Luis'],['Somos una familia','We are a family'],['Ella va a la escuela','She goes to school'],['Mi hermana es estudiante','My sister is a student'],['¡Hasta pronto!','See you soon!']]},
+ ],
+} as const;
 
-  const choose = (answer: number) => {
-    if (selected !== null) return;
-    setSelected(answer);
-    if (answer === question.correct) {
-      setCorrect((value) => value + 1);
-      Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
-    } else {
-      game.loseHeart();
-      Haptics.notificationAsync(Haptics.NotificationFeedbackType.Error);
-    }
-  };
+function vocabularyLesson(language:'french'|'spanish',unit:number){const source=VOCABULARY[language][unit];return {title:source.title,questions:source.items.map((item,index)=>({prompt:index%2===0?'Escucha y elige el significado:':'Traduce la expresión:',clue:item[0],answers:[item[1],...source.items.filter((_,i)=>i!==index).slice(0,3).map(other=>other[1])],correct:0,explanation:`${item[0]} significa “${item[1]}”.`}))};}
 
-  const continueLesson = () => {
-    const finalCorrect = correct + (selected === question.correct ? 0 : 0);
-    if (index === QUESTIONS.length - 1) {
-      game.finishLesson(finalCorrect, QUESTIONS.length);
-      setFinished(true);
-    } else {
-      setIndex((value) => value + 1);
-      setSelected(null);
-    }
-  };
-
-  if (finished) {
-    const earned = correct * 10 + (correct === QUESTIONS.length ? 20 : 0);
-    return <ThemedView style={styles.screen}><SafeAreaView style={styles.result}>
-      <ThemedText style={styles.trophy}>🏆</ThemedText>
-      <ThemedText style={styles.resultKicker}>MISIÓN COMPLETADA</ThemedText>
-      <ThemedText style={styles.resultTitle}>¡Excelente trabajo!</ThemedText>
-      <ThemedText style={styles.resultBody}>Superaste {correct} de {QUESTIONS.length} desafíos y desbloqueaste nuevas recompensas.</ThemedText>
-      <View style={styles.rewards}>
-        <View style={styles.reward}><ThemedText style={styles.rewardIcon}>⚡</ThemedText><ThemedText style={styles.rewardValue}>+{earned}</ThemedText><ThemedText style={styles.rewardLabel}>XP</ThemedText></View>
-        <View style={styles.reward}><ThemedText style={styles.rewardIcon}>🪙</ThemedText><ThemedText style={styles.rewardValue}>+{correct * 2}</ThemedText><ThemedText style={styles.rewardLabel}>MONEDAS</ThemedText></View>
-        <View style={styles.reward}><ThemedText style={styles.rewardIcon}>🎯</ThemedText><ThemedText style={styles.rewardValue}>{Math.round(correct / QUESTIONS.length * 100)}%</ThemedText><ThemedText style={styles.rewardLabel}>PRECISIÓN</ThemedText></View>
-      </View>
-      <Pressable onPress={() => router.replace('/')} style={styles.continue}><ThemedText style={styles.continueText}>Volver a mi aventura</ThemedText></Pressable>
-    </SafeAreaView></ThemedView>;
-  }
-
-  return <ThemedView style={styles.screen}><SafeAreaView style={styles.safe}>
-    <View style={styles.topbar}>
-      <Pressable onPress={() => router.back()} hitSlop={12}><ThemedText style={styles.close}>×</ThemedText></Pressable>
-      <View style={styles.progress}><View style={[styles.progressFill, { width: `${((index + 1) / QUESTIONS.length) * 100}%` }]} /></View>
-      <ThemedText style={styles.hearts}>❤️ {game.hearts}</ThemedText>
-    </View>
-    <View style={styles.content}>
-      <View><ThemedText style={styles.step}>DESAFÍO {index + 1} DE {QUESTIONS.length}</ThemedText><ThemedText style={styles.prompt}>{question.prompt}</ThemedText></View>
-      <View style={styles.clue}><ThemedText style={styles.clueIcon}>💬</ThemedText><ThemedText style={styles.clueText}>{question.clue}</ThemedText></View>
-      <View style={styles.answers}>{question.answers.map((answer, answerIndex) => {
-        const isSelected = selected === answerIndex;
-        const isCorrect = selected !== null && answerIndex === question.correct;
-        const isWrong = isSelected && answerIndex !== question.correct;
-        return <Pressable key={answer} onPress={() => choose(answerIndex)} style={[styles.answer, isCorrect && styles.correct, isWrong && styles.wrong]}>
-          <View style={[styles.answerKey, isCorrect && styles.correctKey, isWrong && styles.wrongKey]}><ThemedText style={styles.answerKeyText}>{String.fromCharCode(65 + answerIndex)}</ThemedText></View>
-          <ThemedText style={styles.answerText}>{answer}</ThemedText>
-          {isCorrect && <ThemedText style={styles.mark}>✓</ThemedText>}{isWrong && <ThemedText style={styles.wrongMark}>×</ThemedText>}
-        </Pressable>;
-      })}</View>
-    </View>
-    {selected !== null && <View style={[styles.feedback, selected === question.correct ? styles.feedbackGood : styles.feedbackBad]}>
-      <View style={styles.feedbackCopy}><ThemedText style={styles.feedbackTitle}>{selected === question.correct ? '¡Correcto! +10 XP' : 'Casi. Revisa la respuesta correcta.'}</ThemedText><ThemedText style={styles.feedbackBody}>{question.answers[question.correct]}</ThemedText></View>
-      <Pressable onPress={continueLesson} style={styles.feedbackButton}><ThemedText style={styles.feedbackButtonText}>{index === QUESTIONS.length - 1 ? 'Ver resultados' : 'Continuar'}</ThemedText></Pressable>
-    </View>}
-  </SafeAreaView></ThemedView>;
+export default function LessonScreen(){
+ const game=useGame(); const correctPlayer=useAudioPlayer(CORRECT_SOUND); const wrongPlayer=useAudioPlayer(WRONG_SOUND); const params=useLocalSearchParams<{unit?:string;language?:string}>(); const unitIndex=Math.max(0,Math.min(LESSONS.length-1,Number(params.unit)||0)); const language=params.language==='french'||params.language==='spanish'?params.language:'english'; const lesson=language==='english'?LESSONS[unitIndex]:vocabularyLesson(language,unitIndex); const questions=lesson.questions; const [index,setIndex]=useState(0); const [selected,setSelected]=useState<number|null>(null); const [correct,setCorrect]=useState(0); const [finished,setFinished]=useState(false); const question=questions[index];
+ const choose=(answer:number)=>{if(selected!==null)return;const isRight=answer===question.correct;const player=isRight?correctPlayer:wrongPlayer;player.seekTo(0);player.play();setSelected(answer);if(isRight){setCorrect(v=>v+1);Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);}else{game.loseHeart();Haptics.notificationAsync(Haptics.NotificationFeedbackType.Error);}};
+ const next=()=>{if(index===questions.length-1){game.finishLesson(correct,questions.length);setFinished(true);}else{setIndex(v=>v+1);setSelected(null);}};
+ if(game.hearts===0&&!finished&&selected===null)return <ThemedView style={styles.screen}><SafeAreaView style={styles.empty}><ThemedText style={styles.emptyIcon}>❤️</ThemedText><ThemedText style={styles.resultTitle}>Necesitas recuperar vidas</ThemedText><ThemedText style={styles.resultBody}>Puedes conseguir cinco vidas por 20 monedas desde tu perfil.</ThemedText><Pressable onPress={()=>router.replace('/explore')} style={styles.primary}><ThemedText style={styles.primaryText}>Ir a mi perfil</ThemedText></Pressable><Pressable onPress={()=>router.replace('/')} style={styles.secondary}><ThemedText style={styles.secondaryText}>Volver al inicio</ThemedText></Pressable></SafeAreaView></ThemedView>;
+ if(finished){const earned=correct*10+(correct===questions.length?20:0);return <ThemedView style={styles.screen}><SafeAreaView style={styles.result}><ThemedText style={styles.trophy}>{correct===questions.length?'🏆':'⭐'}</ThemedText><ThemedText style={styles.resultKicker}>{lesson.title.toUpperCase()} COMPLETADA</ThemedText><ThemedText style={styles.resultTitle}>{correct===questions.length?'¡Lección perfecta!':'¡Buen trabajo!'}</ThemedText><ThemedText style={styles.resultBody}>Superaste {correct} de {questions.length} desafíos. Tu avance quedó guardado.</ThemedText><View style={styles.rewards}><Reward icon="⚡" value={`+${earned}`} label="XP"/><Reward icon="🪙" value={`+${correct*2}`} label="MONEDAS"/><Reward icon="🎯" value={`${Math.round(correct/questions.length*100)}%`} label="PRECISIÓN"/></View><Pressable onPress={()=>router.replace('/')} style={styles.primary}><ThemedText style={styles.primaryText}>Continuar mi aventura</ThemedText></Pressable></SafeAreaView></ThemedView>;}
+ const answered=selected!==null; const isCorrect=selected===question.correct;
+ return <ThemedView style={styles.screen}><SafeAreaView style={styles.safe}><View style={styles.topbar}><Pressable accessibilityLabel="Cerrar lección" onPress={()=>router.back()} hitSlop={12}><ThemedText style={styles.close}>×</ThemedText></Pressable><View style={styles.progress}><View style={[styles.progressFill,{width:`${((index+1)/questions.length)*100}%`}]} /></View><ThemedText style={styles.hearts}>❤️ {game.hearts}</ThemedText></View><ScrollView contentContainerStyle={styles.content}><View><ThemedText style={styles.step}>{lesson.title.toUpperCase()} · DESAFÍO {index+1} DE {questions.length}</ThemedText><ThemedText style={styles.prompt}>{question.prompt}</ThemedText></View><View style={styles.clue}><ThemedText style={styles.clueIcon}>💬</ThemedText><ThemedText style={styles.clueText}>{question.clue}</ThemedText></View><View style={styles.answers}>{question.answers.map((answer,i)=>{const right=answered&&i===question.correct;const wrong=selected===i&&!right;return <Pressable accessibilityRole="button" accessibilityState={{selected:selected===i}} key={answer} disabled={answered} onPress={()=>choose(i)} style={[styles.answer,right&&styles.correct,wrong&&styles.wrong]}><View style={[styles.answerKey,right&&styles.correctKey,wrong&&styles.wrongKey]}><ThemedText style={styles.answerKeyText}>{String.fromCharCode(65+i)}</ThemedText></View><ThemedText style={styles.answerText}>{answer}</ThemedText>{right?<ThemedText style={styles.goodMark}>✓</ThemedText>:wrong?<ThemedText style={styles.badMark}>×</ThemedText>:null}</Pressable>;})}</View></ScrollView>{answered?<View style={[styles.feedback,isCorrect?styles.feedbackGood:styles.feedbackBad]}><View style={styles.feedbackCopy}><ThemedText style={styles.feedbackTitle}>{isCorrect?'¡Correcto! +10 XP':'Sigue practicando'}</ThemedText><ThemedText style={styles.feedbackBody}>{question.explanation}</ThemedText></View><Pressable onPress={next} style={styles.feedbackButton}><ThemedText style={styles.primaryText}>{index===questions.length-1?'Ver resultados':'Continuar'}</ThemedText></Pressable></View>:null}</SafeAreaView></ThemedView>;
 }
 
-const styles = StyleSheet.create({
-  screen:{flex:1},safe:{flex:1},topbar:{height:66,paddingHorizontal:18,flexDirection:'row',alignItems:'center',gap:14},close:{fontSize:32,color:'#64748B'},progress:{flex:1,height:11,borderRadius:6,backgroundColor:'#E2E8F0',overflow:'hidden'},progressFill:{height:'100%',backgroundColor:'#39D5F6'},hearts:{fontSize:14,fontWeight:'900'},content:{flex:1,padding:22,gap:24,width:'100%',maxWidth:680,alignSelf:'center'},step:{fontSize:11,fontWeight:'900',letterSpacing:1.1,color:'#2563EB',marginBottom:8},prompt:{fontSize:29,lineHeight:35,fontWeight:'900'},clue:{minHeight:112,borderRadius:25,padding:20,flexDirection:'row',alignItems:'center',gap:15,backgroundColor:'#173F91'},clueIcon:{fontSize:33},clueText:{flex:1,fontSize:24,fontWeight:'900',color:'#FFFFFF'},answers:{gap:11},answer:{minHeight:64,borderRadius:19,padding:11,flexDirection:'row',alignItems:'center',gap:12,backgroundColor:'#FFFFFF',borderWidth:2,borderColor:'#E2E8F0'},answerKey:{width:38,height:38,borderRadius:12,alignItems:'center',justifyContent:'center',backgroundColor:'#F1F5F9'},answerKeyText:{fontSize:14,fontWeight:'900',color:'#475569'},answerText:{flex:1,fontSize:16,fontWeight:'800'},correct:{borderColor:'#10B981',backgroundColor:'#ECFDF5'},wrong:{borderColor:'#F43F5E',backgroundColor:'#FFF1F2'},correctKey:{backgroundColor:'#A7F3D0'},wrongKey:{backgroundColor:'#FECDD3'},mark:{fontSize:24,color:'#059669'},wrongMark:{fontSize:27,color:'#E11D48'},feedback:{padding:18,paddingBottom:28,gap:13,borderTopWidth:1},feedbackGood:{backgroundColor:'#D1FAE5',borderColor:'#6EE7B7'},feedbackBad:{backgroundColor:'#FFE4E6',borderColor:'#FDA4AF'},feedbackCopy:{maxWidth:680,width:'100%',alignSelf:'center'},feedbackTitle:{fontSize:17,fontWeight:'900'},feedbackBody:{fontSize:13,color:'#475569'},feedbackButton:{minHeight:54,maxWidth:680,width:'100%',alignSelf:'center',alignItems:'center',justifyContent:'center',borderRadius:17,backgroundColor:'#173F91'},feedbackButtonText:{fontSize:16,fontWeight:'900',color:'#FFFFFF'},
-  result:{flex:1,padding:25,alignItems:'center',justifyContent:'center',gap:15},trophy:{fontSize:78},resultKicker:{fontSize:11,fontWeight:'900',letterSpacing:1.4,color:'#2563EB'},resultTitle:{fontSize:33,fontWeight:'900',textAlign:'center'},resultBody:{fontSize:16,lineHeight:23,color:'#64748B',textAlign:'center',maxWidth:440},rewards:{flexDirection:'row',gap:10,marginVertical:16},reward:{width:100,minHeight:116,borderRadius:22,alignItems:'center',justifyContent:'center',backgroundColor:'#FFFFFF',borderWidth:1,borderColor:'#E2E8F0'},rewardIcon:{fontSize:25},rewardValue:{fontSize:21,fontWeight:'900'},rewardLabel:{fontSize:9,fontWeight:'900',color:'#64748B'},continue:{minHeight:58,width:'100%',maxWidth:440,borderRadius:19,alignItems:'center',justifyContent:'center',backgroundColor:'#2563EB'},continueText:{fontSize:16,fontWeight:'900',color:'#FFFFFF'},
-});
+function Reward({icon,value,label}:{icon:string;value:string;label:string}){return <View style={styles.reward}><ThemedText style={styles.rewardIcon}>{icon}</ThemedText><ThemedText style={styles.rewardValue}>{value}</ThemedText><ThemedText style={styles.rewardLabel}>{label}</ThemedText></View>;}
+
+const styles=StyleSheet.create({screen:{flex:1},safe:{flex:1},topbar:{height:66,paddingHorizontal:18,flexDirection:'row',alignItems:'center',gap:14},close:{fontSize:32,color:'#64748B'},progress:{flex:1,height:11,borderRadius:6,backgroundColor:'#E2E8F0',overflow:'hidden'},progressFill:{height:'100%',backgroundColor:'#39D5F6'},hearts:{fontSize:14,fontWeight:'900'},content:{padding:22,paddingBottom:30,gap:24,width:'100%',maxWidth:680,alignSelf:'center'},step:{fontSize:11,fontWeight:'900',letterSpacing:1.1,color:'#2563EB',marginBottom:8},prompt:{fontSize:29,lineHeight:35,fontWeight:'900'},clue:{minHeight:112,borderRadius:25,padding:20,flexDirection:'row',alignItems:'center',gap:15,backgroundColor:'#173F91'},clueIcon:{fontSize:33},clueText:{flex:1,fontSize:24,fontWeight:'900',color:'#FFF'},answers:{gap:11},answer:{minHeight:64,borderRadius:19,padding:11,flexDirection:'row',alignItems:'center',gap:12,backgroundColor:'#FFF',borderWidth:2,borderColor:'#E2E8F0'},answerKey:{width:38,height:38,borderRadius:12,alignItems:'center',justifyContent:'center',backgroundColor:'#F1F5F9'},answerKeyText:{fontSize:14,fontWeight:'900',color:'#475569'},answerText:{flex:1,fontSize:16,fontWeight:'800'},correct:{borderColor:'#10B981',backgroundColor:'#ECFDF5'},wrong:{borderColor:'#F43F5E',backgroundColor:'#FFF1F2'},correctKey:{backgroundColor:'#A7F3D0'},wrongKey:{backgroundColor:'#FECDD3'},goodMark:{fontSize:24,color:'#059669'},badMark:{fontSize:27,color:'#E11D48'},feedback:{padding:18,paddingBottom:28,gap:13,borderTopWidth:1},feedbackGood:{backgroundColor:'#D1FAE5',borderColor:'#6EE7B7'},feedbackBad:{backgroundColor:'#FFE4E6',borderColor:'#FDA4AF'},feedbackCopy:{maxWidth:680,width:'100%',alignSelf:'center'},feedbackTitle:{fontSize:17,fontWeight:'900'},feedbackBody:{fontSize:13,lineHeight:18,color:'#475569'},feedbackButton:{minHeight:54,maxWidth:680,width:'100%',alignSelf:'center',alignItems:'center',justifyContent:'center',borderRadius:17,backgroundColor:'#173F91'},result:{flex:1,padding:25,alignItems:'center',justifyContent:'center',gap:15},empty:{flex:1,padding:28,alignItems:'center',justifyContent:'center',gap:16},emptyIcon:{fontSize:72},trophy:{fontSize:78},resultKicker:{fontSize:11,fontWeight:'900',letterSpacing:1.4,color:'#2563EB'},resultTitle:{fontSize:33,fontWeight:'900',textAlign:'center'},resultBody:{fontSize:16,lineHeight:23,color:'#64748B',textAlign:'center',maxWidth:440},rewards:{flexDirection:'row',gap:10,marginVertical:16},reward:{width:100,minHeight:116,borderRadius:22,alignItems:'center',justifyContent:'center',backgroundColor:'#FFF',borderWidth:1,borderColor:'#E2E8F0'},rewardIcon:{fontSize:25},rewardValue:{fontSize:21,fontWeight:'900'},rewardLabel:{fontSize:9,fontWeight:'900',color:'#64748B'},primary:{minHeight:58,width:'100%',maxWidth:440,borderRadius:19,alignItems:'center',justifyContent:'center',backgroundColor:'#2563EB'},primaryText:{fontSize:16,fontWeight:'900',color:'#FFF'},secondary:{minHeight:50,width:'100%',maxWidth:440,alignItems:'center',justifyContent:'center'},secondaryText:{fontSize:15,fontWeight:'900',color:'#2563EB'}});

@@ -4,6 +4,7 @@ import { createContext, PropsWithChildren, useContext, useEffect, useMemo, useSt
 const STORAGE_KEY = 'andergo.game.v1';
 
 export type GameState = {
+  targetLanguage: 'english' | 'french' | 'spanish';
   xp: number;
   coins: number;
   streak: number;
@@ -11,16 +12,21 @@ export type GameState = {
   lessons: number;
   dailyGoal: number;
   lastPractice: string | null;
+  bestScore: number;
+  perfectLessons: number;
 };
 
 const initialState: GameState = {
-  xp: 120,
-  coins: 45,
-  streak: 3,
+  targetLanguage: 'english',
+  xp: 0,
+  coins: 20,
+  streak: 0,
   hearts: 5,
-  lessons: 6,
-  dailyGoal: 1,
+  lessons: 0,
+  dailyGoal: 0,
   lastPractice: null,
+  bestScore: 0,
+  perfectLessons: 0,
 };
 
 type GameContextValue = GameState & {
@@ -28,6 +34,7 @@ type GameContextValue = GameState & {
   finishLesson: (correctAnswers: number, total: number) => void;
   loseHeart: () => void;
   refillHearts: () => void;
+  setTargetLanguage: (language: GameState['targetLanguage']) => void;
 };
 
 const GameContext = createContext<GameContextValue | null>(null);
@@ -51,15 +58,24 @@ export function GameProvider({ children }: PropsWithChildren) {
     ready,
     finishLesson(correctAnswers, total) {
       const today = new Date().toISOString().slice(0, 10);
+      const yesterday = new Date(Date.now() - 86400000).toISOString().slice(0, 10);
       const earnedXp = correctAnswers * 10 + (correctAnswers === total ? 20 : 0);
+      const score = Math.round((correctAnswers / total) * 100);
       setState((current) => ({
         ...current,
         xp: current.xp + earnedXp,
         coins: current.coins + correctAnswers * 2,
         lessons: current.lessons + 1,
-        dailyGoal: Math.min(3, current.dailyGoal + 1),
+        dailyGoal: current.lastPractice === today ? Math.min(3, current.dailyGoal + 1) : 1,
         lastPractice: today,
         hearts: Math.min(5, current.hearts + 1),
+        streak: current.lastPractice === today
+          ? current.streak
+          : current.lastPractice === yesterday
+            ? current.streak + 1
+            : 1,
+        bestScore: Math.max(current.bestScore, score),
+        perfectLessons: current.perfectLessons + (correctAnswers === total ? 1 : 0),
       }));
     },
     loseHeart() {
@@ -69,6 +85,9 @@ export function GameProvider({ children }: PropsWithChildren) {
       setState((current) => current.coins >= 20
         ? { ...current, coins: current.coins - 20, hearts: 5 }
         : current);
+    },
+    setTargetLanguage(targetLanguage) {
+      setState((current) => ({ ...current, targetLanguage }));
     },
   }), [ready, state]);
 

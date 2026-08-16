@@ -1,99 +1,49 @@
 import { Image } from 'expo-image';
 import { Href, router } from 'expo-router';
 import * as Haptics from 'expo-haptics';
-import { Pressable, ScrollView, StyleSheet, View } from 'react-native';
+import { useEffect, useState } from 'react';
+import { ActivityIndicator, Pressable, ScrollView, StyleSheet, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
 import { useGame } from '@/context/game';
+import { useAuth } from '@/context/auth';
+import { CurriculumLesson, loadCurriculum, missionForSkill } from '@/services/curriculum';
 
-const quests = [
-  { icon: '🎯', title: 'Completa una lección', reward: '+40 XP', done: false },
-  { icon: '⚡', title: 'Responde 5 preguntas', reward: '+10 monedas', done: false },
-  { icon: '🔥', title: 'Mantén tu racha', reward: 'Cofre diario', done: true },
-];
+const LANGUAGES=[{key:'english',flag:'🇺🇸',label:'Inglés'},{key:'french',flag:'🇫🇷',label:'Francés'},{key:'spanish',flag:'🇪🇸',label:'Español'}] as const;
+const UNIT_NAMES={english:['Saludos','Presentarte','Verbo to be','La familia','Rutinas','Gran desafío'],french:['Bonjour','Se présenter','Verbe être','La famille','La routine','Grand défi'],spanish:['Saludos','Presentarse','Verbo ser','La familia','Rutinas','Gran desafío']};
+const STATIONS=[
+ {mode:'lesson',icon:'🧭',label:'El portal de palabras',detail:'Descubre las claves del territorio'},
+ {mode:'listen',icon:'🔮',label:'El eco misterioso',detail:'Descifra la voz que viene del camino'},
+ {mode:'match',icon:'🧩',label:'El puente perdido',detail:'Encuentra los vínculos para poder cruzar'},
+ {mode:'order',icon:'🗺️',label:'El mapa fragmentado',detail:'Reconstruye la pista secreta'},
+ {mode:'speak',icon:'🗣️',label:'La cueva que responde',detail:'Usa tu voz para abrir la salida'},
+ {mode:'story',icon:'📜',label:'La historia escondida',detail:'Elige el rumbo de la aventura'},
+ {mode:'speed',icon:'⚡',label:'La carrera relámpago',detail:'Supera el camino antes de que cierre'},
+ {mode:'review',icon:'🛡️',label:'El guardián del saber',detail:'Demuestra lo aprendido para avanzar'},
+ {mode:'chest',icon:'🎁',label:'El tesoro del viajero',detail:'Abre la recompensa de esta expedición'},
+] as const;
+const REGIONS=[
+ {name:'Bahía de las palabras',icon:'🌊',tone:'#E0F2FE',border:'#7DD3FC',accent:'#0369A1'},
+ {name:'Bosque de las voces',icon:'🌿',tone:'#DCFCE7',border:'#86EFAC',accent:'#15803D'},
+ {name:'Cañón de las frases',icon:'🏜️',tone:'#FFF7ED',border:'#FDBA74',accent:'#C2410C'},
+ {name:'Cielo de las historias',icon:'☁️',tone:'#F3E8FF',border:'#D8B4FE',accent:'#7E22CE'},
+] as const;
 
-export default function HomeScreen() {
-  const game = useGame();
-  const level = Math.floor(game.xp / 200) + 1;
-  const levelProgress = game.xp % 200;
-
-  const startLesson = () => {
-    Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
-    router.push('/lesson' as Href);
-  };
-
-  return (
-    <ThemedView style={styles.screen}>
-      <SafeAreaView style={styles.safe}>
-        <ScrollView contentContainerStyle={styles.content} showsVerticalScrollIndicator={false}>
-          <View style={styles.header}>
-            <Image source={require('@/assets/images/android-icon-foreground.png')} style={styles.logo} />
-            <View style={styles.headerCopy}>
-              <ThemedText style={styles.eyebrow}>ANDERGO QUEST</ThemedText>
-              <ThemedText style={styles.greeting}>¡Hola, explorador!</ThemedText>
-            </View>
-            <View style={styles.resource}><ThemedText style={styles.resourceIcon}>🔥</ThemedText><ThemedText style={styles.resourceText}>{game.streak}</ThemedText></View>
-          </View>
-
-          <View style={styles.resources}>
-            <View style={styles.resource}><ThemedText style={styles.resourceIcon}>❤️</ThemedText><ThemedText style={styles.resourceText}>{game.hearts}</ThemedText></View>
-            <View style={styles.resource}><ThemedText style={styles.resourceIcon}>🪙</ThemedText><ThemedText style={styles.resourceText}>{game.coins}</ThemedText></View>
-            <View style={styles.resource}><ThemedText style={styles.resourceIcon}>⚡</ThemedText><ThemedText style={styles.resourceText}>{game.xp} XP</ThemedText></View>
-          </View>
-
-          <View style={styles.hero}>
-            <View style={styles.heroRow}>
-              <View style={styles.heroCopy}>
-                <ThemedText style={styles.heroKicker}>MUNDO 1 · INGLÉS A1</ThemedText>
-                <ThemedText style={styles.heroTitle}>La aventura comienza</ThemedText>
-                <ThemedText style={styles.heroBody}>Supera desafíos de vocabulario y gramática para desbloquear el siguiente territorio.</ThemedText>
-              </View>
-              <View style={styles.levelBadge}><ThemedText style={styles.levelLabel}>NIVEL</ThemedText><ThemedText style={styles.levelValue}>{level}</ThemedText></View>
-            </View>
-            <View style={styles.track}><View style={[styles.fill, { width: `${Math.max(8, levelProgress / 2)}%` }]} /></View>
-            <ThemedText style={styles.progressText}>{levelProgress} / 200 XP para subir de nivel</ThemedText>
-            <Pressable onPress={startLesson} style={({ pressed }) => [styles.playButton, pressed && styles.pressed]}>
-              <ThemedText style={styles.playIcon}>▶</ThemedText>
-              <View style={styles.playCopy}><ThemedText style={styles.playTitle}>Jugar lección</ThemedText><ThemedText style={styles.playMeta}>5 desafíos · hasta 70 XP</ThemedText></View>
-              <ThemedText style={styles.arrow}>›</ThemedText>
-            </Pressable>
-          </View>
-
-          <View style={styles.sectionHead}><ThemedText style={styles.sectionTitle}>Misiones de hoy</ThemedText><ThemedText style={styles.sectionMeta}>{game.dailyGoal}/3</ThemedText></View>
-          <View style={styles.questList}>
-            {quests.map((quest, index) => {
-              const done = index < game.dailyGoal;
-              return <View key={quest.title} style={[styles.quest, done && styles.questDone]}>
-                <View style={styles.questIcon}><ThemedText style={styles.questEmoji}>{done ? '✓' : quest.icon}</ThemedText></View>
-                <View style={styles.questCopy}><ThemedText style={styles.questTitle}>{quest.title}</ThemedText><ThemedText style={styles.questReward}>{quest.reward}</ThemedText></View>
-                <View style={[styles.questCheck, done && styles.questCheckDone]} />
-              </View>;
-            })}
-          </View>
-
-          <View style={styles.sectionHead}><ThemedText style={styles.sectionTitle}>Ruta de aprendizaje</ThemedText><ThemedText style={styles.sectionMeta}>1 de 6</ThemedText></View>
-          <View style={styles.path}>
-            {['Saludos', 'Presentarte', 'Verbo to be', 'La familia', 'Rutinas', 'Jefe final'].map((title, index) => (
-              <Pressable key={title} disabled={index > 1} onPress={startLesson} style={[styles.pathNode, index === 0 && styles.pathCurrent, index > 1 && styles.pathLocked]}>
-                <ThemedText style={styles.pathIcon}>{index === 0 ? '▶' : index === 1 ? '⭐' : index === 5 ? '🏆' : '🔒'}</ThemedText>
-                <View><ThemedText style={styles.pathTitle}>{title}</ThemedText><ThemedText style={styles.pathMeta}>{index === 0 ? 'En progreso' : index === 1 ? 'Siguiente' : 'Bloqueado'}</ThemedText></View>
-              </Pressable>
-            ))}
-          </View>
-        </ScrollView>
-      </SafeAreaView>
-    </ThemedView>
-  );
+export default function HomeScreen(){
+ const game=useGame(); const auth=useAuth(); const [courseLessons,setCourseLessons]=useState<CurriculumLesson[]>([]); const [syncing,setSyncing]=useState(true); const language=LANGUAGES.find(item=>item.key===game.targetLanguage)??LANGUAGES[0]; const activeLanguage=language.key; const fallbackUnits=UNIT_NAMES[activeLanguage]; const usingWebCourse=courseLessons.length>0; const total=usingWebCourse?courseLessons.length:fallbackUnits.length*3; const unlocked=Math.min(total,Math.max(1,game.lessons+1)); const level=Math.floor(game.xp/200)+1;
+ useEffect(()=>{let active=true;if(activeLanguage!==game.targetLanguage)game.setTargetLanguage(activeLanguage);setSyncing(true);loadCurriculum(activeLanguage,'A1',auth.session?.access_token).then(items=>{if(active)setCourseLessons(items);}).finally(()=>{if(active)setSyncing(false);});return()=>{active=false;};},[activeLanguage,game.targetLanguage,auth.session?.access_token]);
+ const play=(index:number)=>{Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);if(game.hearts<=0){router.push('/explore' as Href);return;}if(usingWebCourse){const lesson=courseLessons[index];const mission=missionForSkill(lesson.skill);router.push(`/game?mode=${mission.mode}&unit=${lesson.unitOrder||0}&language=${activeLanguage}&title=${encodeURIComponent(lesson.title)}&slug=${encodeURIComponent(lesson.slug)}` as Href);return;}const station=STATIONS[index%STATIONS.length];const unit=Math.min(fallbackUnits.length-1,Math.floor(index/3));if(station.mode==='lesson')router.push({pathname:'/lesson',params:{unit:String(unit),language:activeLanguage}});else router.push(`/game?mode=${station.mode}&unit=${unit}&language=${activeLanguage}&title=${encodeURIComponent(fallbackUnits[unit])}` as Href);};
+ return <ThemedView style={s.screen}><SafeAreaView style={s.safe}><ScrollView contentContainerStyle={s.content} showsVerticalScrollIndicator={false}>
+  <View style={s.header}><Image source={require('@/assets/images/andergo-logo-official.png')} style={{width:56,height:56}} contentFit="contain" accessibilityLabel="Logo de ANDERGO"/><View style={{flex:1}}/><Pressable onPress={()=>router.push('/explore')} style={s.resource}><ThemedText>🔥</ThemedText><ThemedText style={s.resourceText}>{game.streak}</ThemedText></Pressable></View>
+  <ThemedText style={s.greeting}>Tu gran aventura</ThemedText>
+  <View style={s.resources}><View style={s.resource}><ThemedText>❤️</ThemedText><ThemedText style={s.resourceText}>{game.hearts}</ThemedText></View><View style={s.resource}><ThemedText>🪙</ThemedText><ThemedText style={s.resourceText}>{game.coins}</ThemedText></View><View style={s.resource}><ThemedText>⚡</ThemedText><ThemedText style={s.resourceText}>{game.xp} XP</ThemedText></View></View>
+  <View><ThemedText style={s.languageTitle}>Elige tu mundo</ThemedText><View style={s.languageRow}>{LANGUAGES.map(item=><Pressable key={item.key} onPress={()=>game.setTargetLanguage(item.key)} style={[s.language,game.targetLanguage===item.key&&s.languageSelected]}><ThemedText style={s.flag}>{item.flag}</ThemedText><ThemedText style={[s.languageText,game.targetLanguage===item.key&&s.languageTextSelected]}>{item.label}</ThemedText></Pressable>)}</View></View>
+  <View style={s.world}><View style={s.worldTop}><View style={s.worldCopy}><ThemedText style={s.worldKicker}>EXPEDICIÓN · {language.label.toUpperCase()}</ThemedText><ThemedText style={s.worldTitle}>El camino del explorador</ThemedText><ThemedText style={s.worldBody}>Has descubierto {unlocked} de {total} secretos del mapa</ThemedText></View><View style={s.level}><ThemedText style={s.levelSmall}>RANGO</ThemedText><ThemedText style={s.levelBig}>{level}</ThemedText></View></View><View style={s.track}><View style={[s.fill,{width:`${Math.max(5,(unlocked/total)*100)}%`}]} /></View></View>
+  <Pressable onPress={()=>router.push('/tutor' as Href)} style={s.tutor}><View style={s.tutorCopy}><ThemedText style={s.tutorKicker}>ANDERGO TUTOR</ThemedText><ThemedText style={s.tutorTitle}>Practica conmigo antes de continuar</ThemedText></View><Image source={require('@/assets/images/andergo-tutor-official.png')} style={s.tutorImage} contentFit="cover" contentPosition="top"/></Pressable>
+  <View style={s.sectionHead}><View><ThemedText style={s.sectionTitle}>Mapa de la expedición</ThemedText><ThemedText style={s.mapHint}>{usingWebCourse?'Sincronizado con ANDERGO Language Academy':'Cada misión esconde una sorpresa diferente'}</ThemedText></View>{syncing?<ActivityIndicator color="#2563EB"/>:<ThemedText style={s.sectionMeta}>{unlocked}/{total}</ThemedText>}</View>
+  <View style={s.route}>{Array.from({length:total},(_,index)=>{const webLesson=courseLessons[index];const station=webLesson?missionForSkill(webLesson.skill):STATIONS[index%STATIONS.length];const unit=webLesson?(webLesson.unitId||`territorio-${webLesson.unitOrder||1}`).replace(/-/g,' '):fallbackUnits[Math.min(fallbackUnits.length-1,Math.floor(index/3))];const chapter=webLesson?Math.max(1,webLesson.unitOrder||1):Math.floor(index/3)+1;const region=REGIONS[(chapter-1)%REGIONS.length];const startsChapter=index===0||(webLesson&&courseLessons[index-1]?.unitId!==webLesson.unitId)||(!webLesson&&index%3===0);const locked=index>=unlocked||Boolean(webLesson?.locked&&index>game.lessons);const current=index===Math.min(game.lessons,total-1);const completed=index<game.lessons||Boolean(webLesson?.completed);const side=index%4===1?'left':index%4===3?'right':'center';return <View key={webLesson?.slug||`${unit}-${index}`} style={[s.stationRow,side==='left'&&s.stationLeft,side==='right'&&s.stationRight]}>{startsChapter?<View style={[s.region,{backgroundColor:region.tone,borderColor:region.border}]}><View style={[s.regionOrb,{backgroundColor:region.border}]}><ThemedText style={s.regionIcon}>{region.icon}</ThemedText></View><View style={s.regionCopy}><ThemedText style={[s.chapterKicker,{color:region.accent}]}>REGIÓN {chapter}</ThemedText><ThemedText style={[s.chapterTitle,{color:region.accent}]}>{region.name}</ThemedText><ThemedText style={s.regionDetail}>Territorio: {unit}</ThemedText></View><ThemedText style={[s.regionFlag,{color:region.accent}]}>✦</ThemedText></View>:null}<Pressable disabled={locked} onPress={()=>play(index)} style={[s.station,current&&s.stationCurrent,completed&&s.stationDone,station.mode==='chest'&&s.chest,locked&&s.locked]}><View style={[s.iconOrb,current&&s.iconOrbCurrent,completed&&s.iconOrbDone,station.mode==='chest'&&s.iconOrbChest]}><ThemedText style={s.stationIcon}>{locked?'🔒':completed?'✓':station.icon}</ThemedText></View><View style={s.stationCopy}><ThemedText style={s.stationUnit}>{current?'MISIÓN ACTUAL':completed?'MISIÓN SUPERADA':`PARADA ${index+1}`}</ThemedText><ThemedText style={s.stationTitle}>{locked?'Niebla del mapa':station.label}</ThemedText><ThemedText style={s.stationDetail}>{locked?'Avanza para descubrir esta parada':current?'¡La aventura continúa aquí!':webLesson?.title||station.detail}</ThemedText></View>{current?<View style={s.playBadge}><ThemedText style={s.playBadgeText}>JUGAR</ThemedText></View>:<ThemedText style={s.chevron}>›</ThemedText>}</Pressable>{index<total-1?<View style={[s.connector,side==='left'&&s.connectorLeft,side==='right'&&s.connectorRight,completed&&s.connectorDone]}/>:null}</View>;})}</View>
+  <Pressable onPress={()=>router.push('/explore')} style={s.profile}><ThemedText style={s.profileText}>Progreso, liga e insignias</ThemedText><ThemedText style={s.profileText}>›</ThemedText></Pressable>
+ </ScrollView></SafeAreaView></ThemedView>;
 }
-
-const styles = StyleSheet.create({
-  screen:{flex:1},safe:{flex:1},content:{padding:18,paddingBottom:120,gap:18,width:'100%',maxWidth:720,alignSelf:'center'},
-  header:{flexDirection:'row',alignItems:'center',gap:10},logo:{width:48,height:48},headerCopy:{flex:1},eyebrow:{fontSize:11,fontWeight:'900',letterSpacing:1.2,color:'#2563EB'},greeting:{fontSize:21,fontWeight:'900'},
-  resources:{flexDirection:'row',gap:8},resource:{flexDirection:'row',alignItems:'center',gap:5,paddingHorizontal:11,height:38,borderRadius:19,backgroundColor:'#FFFFFF',borderWidth:1,borderColor:'#E2E8F0'},resourceIcon:{fontSize:15},resourceText:{fontSize:13,fontWeight:'900',color:'#0F172A'},
-  hero:{padding:20,borderRadius:28,gap:14,backgroundColor:'#173F91'},heroRow:{flexDirection:'row',gap:12},heroCopy:{flex:1,gap:5},heroKicker:{fontSize:10,fontWeight:'900',letterSpacing:1.1,color:'#67E8F9'},heroTitle:{fontSize:27,lineHeight:32,fontWeight:'900',color:'#FFFFFF'},heroBody:{fontSize:14,lineHeight:20,color:'#DBEAFE'},levelBadge:{width:62,height:66,borderRadius:19,backgroundColor:'#FFFFFF',alignItems:'center',justifyContent:'center'},levelLabel:{fontSize:9,fontWeight:'900',color:'#2563EB'},levelValue:{fontSize:25,lineHeight:28,fontWeight:'900',color:'#173F91'},
-  track:{height:9,borderRadius:5,backgroundColor:'#315AAA',overflow:'hidden'},fill:{height:'100%',borderRadius:5,backgroundColor:'#39D5F6'},progressText:{fontSize:11,color:'#BFDBFE'},playButton:{minHeight:70,borderRadius:20,paddingHorizontal:16,flexDirection:'row',alignItems:'center',gap:12,backgroundColor:'#FFFFFF'},playIcon:{width:34,height:34,borderRadius:17,textAlign:'center',lineHeight:34,color:'#FFFFFF',backgroundColor:'#2563EB'},playCopy:{flex:1},playTitle:{fontSize:17,fontWeight:'900',color:'#0F172A'},playMeta:{fontSize:11,color:'#64748B'},arrow:{fontSize:30,color:'#2563EB'},pressed:{opacity:.82,transform:[{scale:.99}]},
-  sectionHead:{flexDirection:'row',justifyContent:'space-between',alignItems:'center'},sectionTitle:{fontSize:21,fontWeight:'900'},sectionMeta:{fontSize:13,fontWeight:'900',color:'#2563EB'},questList:{gap:9},quest:{minHeight:76,padding:13,borderRadius:20,flexDirection:'row',alignItems:'center',gap:12,backgroundColor:'#FFFFFF',borderWidth:1,borderColor:'#E2E8F0'},questDone:{backgroundColor:'#ECFDF5',borderColor:'#A7F3D0'},questIcon:{width:46,height:46,borderRadius:15,alignItems:'center',justifyContent:'center',backgroundColor:'#EAF2FF'},questEmoji:{fontSize:21,color:'#059669',fontWeight:'900'},questCopy:{flex:1},questTitle:{fontSize:14,fontWeight:'900'},questReward:{fontSize:11,color:'#64748B'},questCheck:{width:12,height:12,borderRadius:6,borderWidth:2,borderColor:'#CBD5E1'},questCheckDone:{backgroundColor:'#10B981',borderColor:'#10B981'},
-  path:{gap:10},pathNode:{minHeight:70,borderRadius:20,padding:14,flexDirection:'row',alignItems:'center',gap:13,backgroundColor:'#FFFFFF',borderWidth:1,borderColor:'#E2E8F0'},pathCurrent:{borderWidth:2,borderColor:'#2563EB',backgroundColor:'#EAF2FF'},pathLocked:{opacity:.5},pathIcon:{fontSize:23,width:38,textAlign:'center'},pathTitle:{fontSize:15,fontWeight:'900'},pathMeta:{fontSize:11,color:'#64748B'},
-});
+const s=StyleSheet.create({screen:{flex:1},safe:{flex:1},content:{padding:18,paddingBottom:70,gap:18,width:'100%',maxWidth:720,alignSelf:'center'},header:{flexDirection:'row',alignItems:'center',gap:10},logo:{width:48,height:48},headerCopy:{flex:1},eyebrow:{fontSize:10,fontWeight:'900',letterSpacing:1.2,color:'#2563EB'},greeting:{fontSize:22,fontWeight:'900'},resources:{flexDirection:'row',gap:8},resource:{flexDirection:'row',alignItems:'center',gap:5,paddingHorizontal:11,height:38,borderRadius:19,backgroundColor:'#FFF',borderWidth:1,borderColor:'#E2E8F0'},resourceText:{fontSize:13,fontWeight:'900',color:'#0F172A'},languageTitle:{fontSize:13,fontWeight:'900',marginBottom:9},languageRow:{flexDirection:'row',gap:8},language:{flex:1,minHeight:60,borderRadius:17,alignItems:'center',justifyContent:'center',backgroundColor:'#FFF',borderWidth:1,borderColor:'#E2E8F0'},languageSelected:{backgroundColor:'#2563EB'},flag:{fontSize:22},languageText:{fontSize:11,fontWeight:'900'},languageTextSelected:{color:'#FFF'},world:{padding:20,borderRadius:28,gap:16,backgroundColor:'#173F91'},worldTop:{flexDirection:'row'},worldCopy:{flex:1},worldKicker:{fontSize:10,fontWeight:'900',color:'#67E8F9'},worldTitle:{fontSize:26,fontWeight:'900',color:'#FFF'},worldBody:{fontSize:12,color:'#BFDBFE'},level:{width:60,height:62,borderRadius:18,backgroundColor:'#FFF',alignItems:'center',justifyContent:'center'},levelSmall:{fontSize:8,fontWeight:'900',color:'#2563EB'},levelBig:{fontSize:24,fontWeight:'900',color:'#173F91'},track:{height:10,borderRadius:5,backgroundColor:'#315AAA',overflow:'hidden'},fill:{height:'100%',backgroundColor:'#39D5F6'},tutor:{height:116,borderRadius:24,paddingLeft:18,flexDirection:'row',alignItems:'center',overflow:'hidden',backgroundColor:'#EAF2FF',borderWidth:1,borderColor:'#BFDBFE'},tutorCopy:{flex:1},tutorKicker:{fontSize:10,fontWeight:'900',color:'#2563EB'},tutorTitle:{fontSize:16,fontWeight:'900',maxWidth:220},tutorImage:{width:102,height:116},sectionHead:{flexDirection:'row',justifyContent:'space-between',alignItems:'center'},sectionTitle:{fontSize:22,fontWeight:'900'},mapHint:{fontSize:11,color:'#64748B',marginTop:2},sectionMeta:{fontSize:12,fontWeight:'900',color:'#FFF',backgroundColor:'#2563EB',paddingHorizontal:10,paddingVertical:6,borderRadius:14},route:{alignItems:'center',paddingTop:3},region:{width:'100%',minHeight:92,padding:14,borderRadius:26,borderWidth:1,marginTop:14,marginBottom:4,flexDirection:'row',alignItems:'center',gap:12},regionOrb:{width:54,height:54,borderRadius:27,alignItems:'center',justifyContent:'center'},regionIcon:{fontSize:27},regionCopy:{flex:1},regionDetail:{fontSize:11,color:'#475569',marginTop:2},regionFlag:{fontSize:26,fontWeight:'900'},chapterKicker:{fontSize:9,fontWeight:'900',letterSpacing:1.1},chapterTitle:{fontSize:18,fontWeight:'900'},stationRow:{width:'90%',alignItems:'center'},stationLeft:{alignSelf:'flex-start'},stationRight:{alignSelf:'flex-end'},station:{width:'100%',minHeight:82,borderRadius:26,padding:10,flexDirection:'row',alignItems:'center',gap:11,backgroundColor:'#FFF',borderWidth:1,borderColor:'#E2E8F0',shadowColor:'#0F172A',shadowOpacity:.07,shadowRadius:7,elevation:2},stationCurrent:{borderWidth:3,borderColor:'#2563EB',backgroundColor:'#EAF2FF',transform:[{scale:1.025}]},stationDone:{borderColor:'#86EFAC',backgroundColor:'#F0FDF4'},chest:{backgroundColor:'#FFF7D6',borderColor:'#FBBF24'},locked:{opacity:.42},iconOrb:{width:58,height:58,borderRadius:29,alignItems:'center',justifyContent:'center',backgroundColor:'#EEF2FF',borderWidth:2,borderColor:'#C7D2FE'},iconOrbCurrent:{backgroundColor:'#2563EB',borderColor:'#93C5FD'},iconOrbDone:{backgroundColor:'#22C55E',borderColor:'#86EFAC'},iconOrbChest:{backgroundColor:'#FEF3C7',borderColor:'#FBBF24'},stationIcon:{fontSize:28,textAlign:'center'},stationCopy:{flex:1},stationUnit:{fontSize:8,fontWeight:'900',letterSpacing:.8,color:'#64748B'},stationTitle:{fontSize:15,fontWeight:'900'},stationDetail:{fontSize:10,color:'#64748B',marginTop:2},playBadge:{paddingHorizontal:10,height:30,borderRadius:15,alignItems:'center',justifyContent:'center',backgroundColor:'#2563EB'},playBadgeText:{fontSize:9,fontWeight:'900',color:'#FFF'},chevron:{fontSize:24,fontWeight:'900',color:'#2563EB',paddingHorizontal:3},connector:{width:8,height:30,backgroundColor:'#CBD5E1',borderRadius:5,transform:[{rotate:'-11deg'}]},connectorLeft:{alignSelf:'flex-start',marginLeft:45,transform:[{rotate:'-24deg'}]},connectorRight:{alignSelf:'flex-end',marginRight:45,transform:[{rotate:'24deg'}]},connectorDone:{backgroundColor:'#22C55E'},profile:{minHeight:58,borderRadius:19,paddingHorizontal:18,flexDirection:'row',alignItems:'center',justifyContent:'space-between',backgroundColor:'#0F172A'},profileText:{fontSize:15,fontWeight:'900',color:'#FFF'}});

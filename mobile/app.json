@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "ANDERGO Language Academy",
+    "name": "ANDERGO APP",
     "slug": "andergo-mobile",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/andergo-logo-official.png",
     "scheme": "andergo",
     "userInterfaceStyle": "automatic",
     "ios": {
@@ -15,7 +15,7 @@
       "package": "online.andergo.academy",
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/images/android-icon-foreground.png",
+        "foregroundImage": "./assets/images/andergo-logo-official.png",
         "backgroundImage": "./assets/images/android-icon-background.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
@@ -31,11 +31,20 @@
         "expo-splash-screen",
         {
           "backgroundColor": "#208AEF",
-          "image": "./assets/images/splash-icon.png",
+          "image": "./assets/images/andergo-logo-official.png",
           "imageWidth": 76
         }
       ],
-      "expo-image"
+      "expo-image",
+      "expo-audio",
+      [
+        "expo-speech-recognition",
+        {
+          "microphonePermission": "Permite que ANDERGO APP use el micrófono para practicar idiomas con Andergo Tutor.",
+          "speechRecognitionPermission": "Permite que ANDERGO APP convierta tu voz en texto durante la práctica."
+        }
+      ],
+      "expo-asset"
     ],
     "experiments": {
       "typedRoutes": true,
