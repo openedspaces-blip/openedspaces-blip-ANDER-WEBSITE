@@ -20792,6 +20792,36 @@ const INFOGRAPHIC_SCENES = [
       ['Chicken', 48, 73],
       ['Fish', 80, 76]
     ]
+  },
+  {
+    id: 'supermarket',
+    title: 'At the Supermarket',
+    icon: '🛒',
+    parts: [
+      ['Shopper', 50, 38],
+      ['Shopping cart', 50, 70],
+      ['Fruit', 18, 42],
+      ['Vegetables', 18, 70],
+      ['Bread', 88, 52],
+      ['Milk', 91, 30],
+      ['Shelf', 51, 31],
+      ['Checkout', 68, 49]
+    ]
+  },
+  {
+    id: 'airport',
+    title: 'At the Airport',
+    icon: '✈️',
+    parts: [
+      ['Traveler', 41, 43],
+      ['Passport', 40, 37],
+      ['Boarding pass', 41, 34],
+      ['Suitcase', 53, 74],
+      ['Airplane', 11, 47],
+      ['Check-in counter', 85, 49],
+      ['Departure board', 70, 18],
+      ['Seat', 13, 64]
+    ]
   }
 ];
 
@@ -21144,6 +21174,29 @@ const INFOGRAPHIC_LOCALIZATION = {
   }
 };
 
+const INFOGRAPHIC_NEW_SCENE_LOCALIZATION = {
+  spanish: {
+    supermarket: { title: 'En el supermercado', words: ['Comprador/a', 'Carrito', 'Fruta', 'Verduras', 'Pan', 'Leche', 'Estante', 'Caja'] },
+    airport: { title: 'En el aeropuerto', words: ['Viajero/a', 'Pasaporte', 'Tarjeta de embarque', 'Maleta', 'Avión', 'Mostrador de facturación', 'Panel de salidas', 'Asiento'] }
+  },
+  french: {
+    supermarket: { title: 'Au supermarché', words: ['Client(e)', 'Caddie', 'Fruits', 'Légumes', 'Pain', 'Lait', 'Rayon', 'Caisse'] },
+    airport: { title: 'À l’aéroport', words: ['Voyageur / voyageuse', 'Passeport', 'Carte d’embarquement', 'Valise', 'Avion', 'Comptoir d’enregistrement', 'Tableau des départs', 'Siège'] }
+  },
+  italian: {
+    supermarket: { title: 'Al supermercato', words: ['Cliente', 'Carrello', 'Frutta', 'Verdure', 'Pane', 'Latte', 'Scaffale', 'Cassa'] },
+    airport: { title: 'All’aeroporto', words: ['Viaggiatore / viaggiatrice', 'Passaporto', 'Carta d’imbarco', 'Valigia', 'Aereo', 'Banco del check-in', 'Tabellone delle partenze', 'Sedile'] }
+  },
+  portuguese: {
+    supermarket: { title: 'No supermercado', words: ['Cliente', 'Carrinho', 'Frutas', 'Verduras', 'Pão', 'Leite', 'Prateleira', 'Caixa'] },
+    airport: { title: 'No aeroporto', words: ['Viajante', 'Passaporte', 'Cartão de embarque', 'Mala', 'Avião', 'Balcão de check-in', 'Painel de partidas', 'Assento'] }
+  },
+  german: {
+    supermarket: { title: 'Im Supermarkt', words: ['Kunde / Kundin', 'Einkaufswagen', 'Obst', 'Gemüse', 'Brot', 'Milch', 'Regal', 'Kasse'] },
+    airport: { title: 'Am Flughafen', words: ['Reisende/r', 'Reisepass', 'Bordkarte', 'Koffer', 'Flugzeug', 'Check-in-Schalter', 'Abflugtafel', 'Sitz'] }
+  }
+};
+
 const INFOGRAPHIC_DEFAULT_UI = [
   'Interactive picture dictionary',
   'Word bank',
@@ -21237,10 +21290,11 @@ function getLocalizedInfographicScene(baseScene, language = getEffectiveInterfac
   ensureInfographicExtras();
   const sceneIndex = INFOGRAPHIC_SCENES.findIndex((scene) => scene.id === baseScene.id);
   const localized = INFOGRAPHIC_LOCALIZATION[language];
-  const labels = localized?.words?.[sceneIndex] || baseScene.parts.map(([name]) => name);
+  const sceneLocalization = INFOGRAPHIC_NEW_SCENE_LOCALIZATION[language]?.[baseScene.id];
+  const labels = sceneLocalization?.words || localized?.words?.[sceneIndex] || baseScene.parts.map(([name]) => name);
   return {
     ...baseScene,
-    title: localized?.titles?.[sceneIndex] || baseScene.title,
+    title: sceneLocalization?.title || localized?.titles?.[sceneIndex] || baseScene.title,
     parts: baseScene.parts.map(([id, x, y], index) => [id, labels[index] || id, x, y])
   };
 }

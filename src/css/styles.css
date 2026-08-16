@@ -26116,7 +26116,7 @@ body {
 
 /* Interactive visual Pictionary (keeps the legacy #music route for saved links). */
 .infographic-section {
-  max-width: 1480px;
+  max-width: 1680px;
 }
 .infographic-app {
   display: grid;
@@ -26213,7 +26213,7 @@ body {
 }
 .infographic-workbench {
   display: grid;
-  grid-template-columns: minmax(0, 1.9fr) minmax(280px, 0.72fr);
+  grid-template-columns: minmax(0, 2.35fr) minmax(300px, 0.65fr);
   gap: 1rem;
   align-items: stretch;
 }
@@ -26259,8 +26259,8 @@ body {
 }
 .infographic-canvas {
   display: block;
-  width: min(100%, 860px);
-  max-height: 70vh;
+  width: min(100%, 1080px);
+  max-height: 82vh;
   margin: 0.25rem auto 0;
 }
 .info-art {
