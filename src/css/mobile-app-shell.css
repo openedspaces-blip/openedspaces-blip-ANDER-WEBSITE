@@ -118,6 +118,107 @@
   .hero-language-tabs button strong { overflow: hidden; font-size: .82rem; line-height: 1.1; text-overflow: ellipsis; white-space: nowrap; }
   .hero-language-tabs button small,
   .hero-language-tabs button i { display: none; }
+
+  /* The route controls are configuration, not lesson content. Keep them
+     compact on a phone so the learner reaches the units without a long form. */
+  .learning-path-section {
+    padding: 1rem .75rem 1.15rem;
+  }
+  .learning-path-section > .section-heading {
+    margin-bottom: .4rem;
+  }
+  .learning-path-section > .section-heading > span {
+    font-size: .68rem;
+  }
+  .learning-path-section > .section-heading h2 {
+    margin-block: .1rem;
+    font-size: 1.38rem;
+  }
+  .learning-path-section > .section-heading p {
+    margin-top: .2rem;
+    font-size: .74rem;
+    line-height: 1.35;
+  }
+  .route-path-controls {
+    gap: .42rem;
+    margin-bottom: .5rem;
+    padding: .5rem;
+    border-radius: 14px;
+  }
+  .route-target-identity {
+    min-height: 26px;
+    gap: .35rem;
+    padding: 0 .05rem .38rem;
+  }
+  .route-target-identity::before { width: 1.45rem; height: 1.45rem; border-radius: 8px; font-size: .62rem; }
+  .route-target-identity span { font-size: .62rem; }
+  .route-target-identity strong { font-size: .88rem; }
+  .route-path-controls .language-pair-bar {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: .4rem;
+  }
+  .route-path-controls .route-support-language { grid-column: 1 / -1; }
+  .route-path-controls .language-pair-field > span { font-size: .62rem; }
+  .route-path-controls .language-pair-field select {
+    min-height: 38px;
+    padding: .38rem .48rem;
+    border-radius: 10px;
+    font-size: .76rem;
+  }
+  .route-path-controls .path-pair-preview { display: none; }
+  #learning-path > .level-tabs {
+    width: 100%;
+    min-height: 40px;
+    margin-bottom: .35rem;
+    overflow-x: auto;
+    padding: .2rem;
+    border-radius: 12px;
+    scrollbar-width: none;
+  }
+  #learning-path > .level-tabs::-webkit-scrollbar { display: none; }
+  #learning-path > .level-tabs .level-tab {
+    flex: 0 0 auto;
+    min-height: 34px;
+    padding: .34rem .58rem;
+    font-size: .68rem;
+  }
+  #learning-path > .learning-route-context {
+    min-height: 26px;
+    margin-bottom: .45rem;
+    padding: .2rem .55rem;
+    font-size: .62rem;
+  }
+  .learn-route-toggle { min-height: 40px; margin-bottom: .55rem; padding: .5rem .75rem; font-size: .78rem; }
+
+  /* On phones the illustrated route is part of the lesson choice, not a
+     secondary drawer. Show it immediately and keep the artwork large enough
+     to be meaningful before the learner opens a unit. */
+  #learning-path .learn-route-toggle { display: none; }
+  .learning-path-layout .skill-graph,
+  .learning-path-layout .skill-graph.is-drawer-open {
+    order: 1;
+    max-height: none;
+    margin: 0 0 .65rem;
+    padding: .65rem;
+    border-width: 1px;
+    border-radius: 18px;
+    box-shadow: 0 8px 20px rgba(30,64,175,.08);
+    opacity: 1;
+    overflow: visible;
+  }
+  .learning-path-layout .lesson-workspace { order: 2; }
+  .path-unit {
+    grid-template-columns: 4.4rem minmax(0, 1fr) auto;
+    min-height: 92px;
+    padding: .55rem .6rem;
+  }
+  .path-unit-artwork {
+    grid-row: 1 / 4;
+    width: 4.4rem;
+    height: 4.4rem;
+    border-radius: 14px;
+  }
+  .path-unit-progress-track { left: 5.45rem; }
   .quick-stats { grid-template-columns: 1fr; gap:.55rem; margin-top: 1.1rem; }
   .quick-stats div { display:grid; grid-template-columns:1fr auto; align-items:center; gap:.5rem; padding:.75rem .85rem; border-radius:14px; }
   .quick-stats span { text-align:right; font-size:.69rem; }
