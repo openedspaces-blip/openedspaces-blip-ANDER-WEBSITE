@@ -3078,6 +3078,10 @@ function attachAuthHandlers() {
       setAuthMessage('Las contraseñas no coinciden.', true);
       return;
     }
+    if (!meetsRegistrationPasswordRequirements(password)) {
+      setAuthMessage('Usa al menos 8 caracteres e incluye al menos una letra y un número.', true);
+      return;
+    }
 
     const submitBtn = event.target.querySelector('button[type="submit"]');
     if (submitBtn) submitBtn.disabled = true;
@@ -3403,9 +3407,14 @@ async function ensureUsernameAvailableForSubmit(inputId, statusId) {
   return false;
 }
 
-// Client-side-only signal (never the source of truth for whether a
-// password is "good enough" - Supabase Auth's own password policy is what
-// actually enforces that) - just gives the student quick visual feedback.
+// Keep the client-side requirements aligned with authService's registration
+// guard. Supabase remains the authority, but the UI must never call a
+// password "Fuerte" when our own API will immediately reject it.
+function meetsRegistrationPasswordRequirements(value) {
+  const password = String(value || '');
+  return password.length >= 8 && /[A-Za-z]/.test(password) && /\d/.test(password);
+}
+
 function setupPasswordStrengthMeter(inputId, statusId) {
   const input = document.getElementById(inputId);
   const statusEl = document.getElementById(statusId);
@@ -3416,6 +3425,11 @@ function setupPasswordStrengthMeter(inputId, statusId) {
     if (!value) {
       statusEl.textContent = '';
       statusEl.className = 'password-strength';
+      return;
+    }
+    if (!meetsRegistrationPasswordRequirements(value)) {
+      statusEl.textContent = 'Incluye al menos una letra y un número';
+      statusEl.className = 'password-strength is-weak';
       return;
     }
     let score = 0;
@@ -5634,9 +5648,9 @@ const UNIT_LEARNING_SEQUENCE = [
   'reading',
   'listening',
   'speaking',
+  'writing',
   'grammar',
-  'vocabulary',
-  'writing'
+  'vocabulary'
 ];
 const UNIT_ROUTE_SKILLS = new Set(UNIT_LEARNING_SEQUENCE);
 
@@ -11368,6 +11382,8 @@ const READING_ILLUSTRATION_THEMES = [
       'community',
       'volunteer',
       'neighbourhood',
+      'neighborhood',
+      'town',
       'public',
       'communauté',
       'bénévole',
@@ -11460,16 +11476,260 @@ const READING_ILLUSTRATION_THEMES = [
   }
 ];
 
+// English has a broad curriculum whose advanced readings intentionally share
+// vocabulary ("work", "public", "study", etc.). A first-match keyword
+// rule therefore gave visibly wrong covers: a text about housing or climate
+// could end up in the office scene just because it mentioned "work" once.
+// Keep these editorial decisions close to the renderer so an unavailable
+// bespoke cover still resolves to the right atlas scene.
+const ENGLISH_READING_THEME_OVERRIDES = {
+  hello: 0,
+  'about-me': 0,
+  'family-and-friends': 10,
+  'my-school': 0,
+  'daily-routine': 11,
+  'time-and-dates': 0,
+  'food-and-drinks': 11,
+  'my-home': 10,
+  'my-town': 6,
+  'free-time': 10,
+  'clothes-and-shopping': 11,
+  'weather-and-travel': 4,
+  'everyday-life': 11,
+  'family-and-relationships': 10,
+  'home-and-neighborhood': 6,
+  'food-and-shopping': 11,
+  'past-experiences': 4,
+  'travel-and-transportation': 4,
+  'health-and-healthy-habits': 5,
+  'plans-and-celebrations': 10,
+  'school-and-work': 1,
+  'stories-and-achievements': 10,
+  'new-challenges': 1,
+  'work-and-ambition': 1,
+  'community-life': 6,
+  'travel-with-purpose': 4,
+  'health-and-balance': 5,
+  'money-and-choices': 11,
+  'digital-life': 2,
+  'culture-and-media': 7,
+  'relationships-and-decisions': 10,
+  'looking-ahead': 1,
+  'sustainable-futures': 3,
+  'learning-and-communication': 0,
+  'social-media-public-opinion': 2,
+  'plastic-pollution-cities': 3,
+  'climate-change-daily-decisions': 3,
+  'corruption-public-trust': 6,
+  'fourth-of-july': 7,
+  'migration-cultural-identity': 6,
+  'housing-inequality': 6,
+  'ai-and-employment': 8,
+  'fast-fashion-hidden-costs': 11,
+  'education-social-mobility': 0,
+  'free-speech-misinformation': 2,
+  'community-action': 6,
+  'antimicrobial-resistance': 5,
+  'ai-energy-demand': 8,
+  'gene-editing-access': 9,
+  'climate-health-air-pollution': 3,
+  'loneliness-public-health': 5,
+  'ageing-care-economy': 5,
+  'critical-minerals-transition': 3,
+  'deepfakes-democracy': 2,
+  'climate-migration-cities': 6,
+  'neurotechnology-mental-privacy': 8,
+  'synthetic-biology-biosecurity': 9,
+  'global-health-inequality': 5,
+  'adult-neuroplasticity': 9,
+  'retrieval-spacing': 0,
+  'sleep-consolidation': 5,
+  'incidental-acquisition': 0,
+  'multimodal-learning': 0,
+  'interaction-output': 0,
+  'corrective-feedback': 0,
+  'speech-perception': 0,
+  'anxiety-attention': 5,
+  'individual-differences': 0,
+  'contextual-vocabulary': 0,
+  'ai-language-tutoring': 8
+};
+
+const FRENCH_READING_THEME_OVERRIDES = {
+  'bonjour-et-bienvenue': 7,
+  'je-me-presente': 7,
+  'ma-famille-et-mes-amis': 10,
+  'a-l-ecole': 0,
+  'ma-journee': 5,
+  'l-heure-et-les-dates': 7,
+  'a-table': 11,
+  'chez-moi': 10,
+  'dans-ma-ville': 6,
+  'mes-loisirs': 7,
+  'les-vetements-et-les-achats': 11,
+  'la-meteo-et-les-voyages': 4,
+  'les-achats': 11,
+  'au-restaurant': 11,
+  'se-deplacer': 4,
+  'la-sante': 5,
+  'la-vie-quotidienne': 0,
+  'les-experiences-passees': 0,
+  'les-voyages-et-les-vacances': 4,
+  'le-logement': 10,
+  'les-loisirs-et-les-medias': 7,
+  'relations-et-communication': 10,
+  'services-et-demarches': 6,
+  'projets-solidaires': 6,
+  'la-rentree-universitaire': 0,
+  'un-exposer-a-preparer': 7,
+  'les-medias-et-la-fabrique-de-lopinion': 2,
+  'intelligence-artificielle-et-traduction': 8,
+  'memoire-migration-et-identite': 6,
+  'justice-sociale-et-inegalites': 6,
+  'ecologie-et-responsabilite-collective': 3,
+  'langues-pouvoir-et-inclusion': 6,
+  'science-doute-et-esprit-critique': 9,
+  'art-censure-et-liberte': 7,
+  'avenir-incertitude-et-choix': 1,
+  'bilan-identite-et-transmission': 6,
+  'intelligence-artificielle-et-creativite': 8,
+  'climat-et-transition-energetique': 3,
+  'geopolitique-et-conflits-contemporains': 6,
+  'reseaux-sociaux-et-sante-mentale': 2,
+  'economie-et-inegalites-mondiales': 1,
+  'espace-et-exploration-scientifique': 9,
+  'bioethique-edition-genetique-et-ia-medicale': 9,
+  'culture-du-travail-et-epuisement-professionnel': 5,
+  'migrations-et-frontieres': 6,
+  'desinformation-et-democratie': 2,
+  'art-contemporain-et-marche-culturel': 7,
+  'philosophie-de-la-technologie-et-ethique-algorithmique': 8,
+  'projets-et-avenir': 1,
+  'identite-et-parcours-personnel': 10,
+  'etudes-et-apprentissage': 0,
+  'monde-du-travail': 1,
+  'voyages-et-interculturalite': 4,
+  'technologie-et-societe': 2,
+  'sante-et-mode-de-vie': 5,
+  'environnement-et-consommation': 3,
+  'medias-et-information': 2,
+  'relations-et-conflits': 10,
+  'retour-a-saint-domingue': 4,
+  'candidature-universitaire': 0,
+  'debats-de-societe': 2,
+  'le-teletravail-et-lavenir-professionnel': 1,
+  'litterature-francophone': 7,
+  'cinema-et-critique': 7,
+  'dilemmes-ethiques': 9,
+  'sciences-et-innovations': 8,
+  'histoire-et-memoire': 7,
+  'ecologie-et-engagement-citoyen': 3,
+  'art-et-creativite': 7,
+  'bilan-et-projets-davenir': 4
+};
+
+const SPANISH_READING_THEME_OVERRIDES = {
+  'hola-mucho-gusto': 0,
+  'informacion-personal': 0,
+  'mi-familia-y-mis-amigos': 10,
+  'mi-rutina-diaria': 11,
+  'mi-casa': 10,
+  'mi-barrio-y-mi-ciudad': 6,
+  'comida-y-bebida': 11,
+  'de-compras': 11,
+  'estudios-y-trabajo': 1,
+  'tiempo-libre': 10,
+  'salud-y-bienestar-a1': 5,
+  'planes-y-repaso': 4,
+  'compras-y-cantidades': 11,
+  'orientarse-en-la-ciudad': 6,
+  'rutinas-y-horarios': 11,
+  'salud-y-bienestar': 5,
+  'viajes-y-transporte': 4,
+  'casa-y-barrio': 6,
+  'comidas-y-recetas': 11,
+  'recuerdos-y-experiencias': 10,
+  celebraciones: 10,
+  'estudio-y-aprendizaje': 0,
+  'tecnologia-cotidiana': 2,
+  'planes-y-proyectos': 1,
+  'historias-personales': 10,
+  'trabajo-y-talento': 1,
+  'viajes-con-imprevistos': 4,
+  'medios-y-noticias': 2,
+  'relaciones-y-convivencia': 10,
+  'consumo-responsable': 3,
+  'cultura-y-tradiciones': 7,
+  'educacion-y-metas': 0,
+  'medioambiente-local': 3,
+  'salud-y-habitos': 5,
+  'servicios-y-reclamaciones': 6,
+  'proyecto-comunitario': 6,
+  'identidad-digital': 2,
+  'ciudades-sostenibles': 3,
+  'trabajo-del-futuro': 1,
+  desinformacion: 2,
+  'turismo-y-comunidad': 4,
+  'educacion-digital': 0,
+  'alimentacion-y-sociedad': 11,
+  'arte-y-espacio-publico': 7,
+  'ciencia-y-etica': 9,
+  'vivienda-y-desigualdad': 6,
+  'lenguaje-e-inclusion': 6,
+  'foro-de-propuestas': 6,
+  'memoria-y-relato': 8,
+  'retorica-publica': 6,
+  'periodismo-de-investigacion': 3,
+  'justicia-y-reparacion': 4,
+  'innovacion-responsable': 5,
+  'literatura-y-voz': 1,
+  'economia-y-cuidados': 1,
+  'diversidad-del-espanol': 5,
+  'diplomacia-y-negociacion': 5,
+  'critica-cultural': 10,
+  'politicas-publicas': 2,
+  'coloquio-academico': 0,
+  'ambiguedad-y-sentido': 2,
+  'humor-e-ironia': 8,
+  'traduccion-y-mediacion': 2,
+  'filosofia-del-lenguaje': 9,
+  'analisis-juridico': 2,
+  'edicion-de-estilo': 8,
+  'debate-epistemico': 9,
+  'estetica-y-interpretacion': 2,
+  'discurso-cientifico': 3,
+  'mediacion-de-conflictos': 4,
+  'ensayo-de-alta-exigencia': 9,
+  'defensa-y-sintesis': 1
+};
+
 function getReadingIllustrationTheme(lesson = {}) {
-  const source = [lesson.title, lesson.description, lesson.reading?.title, lesson.reading?.text]
+  const source = [
+    lesson.title,
+    lesson.description,
+    lesson.reading?.title,
+    lesson.reading?.text,
+    ...(lesson.reading?.parts || [])
+  ]
     .filter(Boolean)
     .join(' ')
     .normalize('NFD')
     .replace(/[\u0300-\u036f]/g, '')
     .toLowerCase();
-  let index = READING_ILLUSTRATION_THEMES.findIndex((theme) =>
-    theme.terms.some((term) => source.includes(term))
-  );
+  const slug = String(lesson.slug || '');
+  const overrides = slug.startsWith('english-')
+    ? ENGLISH_READING_THEME_OVERRIDES
+    : slug.startsWith('french-')
+      ? FRENCH_READING_THEME_OVERRIDES
+      : slug.startsWith('spanish-')
+        ? SPANISH_READING_THEME_OVERRIDES
+        : null;
+  let index = overrides?.[lesson.unitId];
+  if (!Number.isInteger(index)) {
+    index = READING_ILLUSTRATION_THEMES.findIndex((theme) =>
+      theme.terms.some((term) => source.includes(term))
+    );
+  }
   if (index < 0) {
     const seed = String(lesson.unitId || lesson.slug || lesson.title || 'reading');
     index =
@@ -14558,8 +14818,8 @@ function renderSpeakingView(section, lesson) {
           // buildTutorInput).
           fallbackPrompt: `Quiero practicar una conversación oral sobre "${lesson.title}". Es el inicio: propón tú un tema o una situación concreta relacionada con la lección y hazme una pregunta sencilla para que yo empiece a hablar.`,
           welcomeMessage: speakingUiText(
-            `👋 Vamos a conversar en voz sobre «${lesson.title}». Pulsa «Hablar» o escribe algo - si no sabes por dónde empezar, solo pulsa «Enviar» y el Tutor te propondrá un tema.`,
-            `👋 Parlons à voix haute de « ${lesson.title} ». Appuyez sur « Parler » ou écrivez quelque chose - si vous ne savez pas par où commencer, appuyez simplement sur « Envoyer » et le Tuteur vous proposera un sujet.`
+            `🎙️ Practica una conversación sobre «${lesson.title}». Habla o escribe tu primera respuesta; el Tutor te ayudará con una corrección útil y una pregunta para continuar.`,
+            `🎙️ Entraînez-vous à converser sur « ${lesson.title} ». Parlez ou écrivez votre première réponse ; le Tuteur vous aidera avec une correction utile et une question pour continuer.`
           )
         });
         return;

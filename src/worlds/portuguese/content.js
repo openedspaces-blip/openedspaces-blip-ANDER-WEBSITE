@@ -1063,14 +1063,14 @@
         ]
       },
       {
-        "id": "portuguese-a2-rotina-na-cidade-reading-comprehension-4",
+        "id": "portuguese-a2-rotina-na-cidade-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“_____ usam as palavras novas em pequenas situações: no café, na escola ou na rua.”",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
         "options": [
-          "usam",
-          "café",
-          "pode",
-          "Eles"
+          "Ela",
+          "diz",
+          "vou",
+          "rua"
         ]
       },
       {
@@ -5725,13 +5725,13 @@
         ]
       },
       {
-        "id": "portuguese-a2-um-fim-de-semana-em-salvador-reading-comprehension-4",
+        "id": "portuguese-a2-um-fim-de-semana-em-salvador-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“_____ usam as palavras novas em pequenas situações: no café, na escola ou na rua.”",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
         "options": [
-          "usam",
-          "café",
-          "pode",
+          "Ela",
+          "diz",
+          "rua",
           "Eles"
         ]
       },
@@ -10387,13 +10387,13 @@
         ]
       },
       {
-        "id": "portuguese-a2-receitas-e-memorias-reading-comprehension-4",
+        "id": "portuguese-a2-receitas-e-memorias-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“_____ usam as palavras novas em pequenas situações: no café, na escola ou na rua.”",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
         "options": [
-          "usam",
-          "café",
-          "pode",
+          "Ela",
+          "diz",
+          "rua",
           "Eles"
         ]
       },
@@ -15049,13 +15049,13 @@
         ]
       },
       {
-        "id": "portuguese-a2-trabalho-e-pausa-reading-comprehension-4",
+        "id": "portuguese-a2-trabalho-e-pausa-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“_____ usam as palavras novas em pequenas situações: no café, na escola ou na rua.”",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
         "options": [
-          "usam",
-          "café",
-          "pode",
+          "Ela",
+          "diz",
+          "rua",
           "Eles"
         ]
       },
@@ -19711,14 +19711,14 @@
         ]
       },
       {
-        "id": "portuguese-a2-arte-na-comunidade-reading-comprehension-4",
+        "id": "portuguese-a2-arte-na-comunidade-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“_____ usam as palavras novas em pequenas situações: no café, na escola ou na rua.”",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
         "options": [
-          "usam",
-          "café",
-          "pode",
-          "Eles"
+          "Ela",
+          "diz",
+          "foi",
+          "rua"
         ]
       },
       {
@@ -24373,14 +24373,14 @@
         ]
       },
       {
-        "id": "portuguese-a2-viajar-com-respeito-reading-comprehension-4",
+        "id": "portuguese-a2-viajar-com-respeito-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“_____ usam as palavras novas em pequenas situações: no café, na escola ou na rua.”",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
         "options": [
-          "mapa",
-          "usam",
-          "café",
-          "Eles"
+          "Ela",
+          "diz",
+          "Não",
+          "rua"
         ]
       },
       {
@@ -29035,14 +29035,14 @@
         ]
       },
       {
-        "id": "portuguese-a2-esporte-e-lazer-reading-comprehension-4",
+        "id": "portuguese-a2-esporte-e-lazer-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“_____ usam as palavras novas em pequenas situações: no café, na escola ou na rua.”",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
         "options": [
-          "usam",
-          "café",
-          "pode",
-          "Eles"
+          "Ela",
+          "diz",
+          "era",
+          "rua"
         ]
       },
       {
@@ -33697,14 +33697,14 @@
         ]
       },
       {
-        "id": "portuguese-a2-saude-e-bem-estar-reading-comprehension-4",
+        "id": "portuguese-a2-saude-e-bem-estar-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“_____ usam as palavras novas em pequenas situações: no café, na escola ou na rua.”",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
         "options": [
-          "usam",
-          "café",
-          "pode",
-          "Eles"
+          "Ela",
+          "diz",
+          "dor",
+          "rua"
         ]
       },
       {
@@ -38359,14 +38359,14 @@
         ]
       },
       {
-        "id": "portuguese-a2-historias-de-origem-reading-comprehension-4",
+        "id": "portuguese-a2-historias-de-origem-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“_____ usam as palavras novas em pequenas situações: no café, na escola ou na rua.”",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
         "options": [
-          "anos",
-          "usam",
-          "café",
-          "Eles"
+          "Ela",
+          "diz",
+          "rua",
+          "anos"
         ]
       },
       {
@@ -43021,13 +43021,13 @@
         ]
       },
       {
-        "id": "portuguese-a2-um-projeto-coletivo-reading-comprehension-4",
+        "id": "portuguese-a2-um-projeto-coletivo-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“_____ usam as palavras novas em pequenas situações: no café, na escola ou na rua.”",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
         "options": [
-          "usam",
-          "café",
-          "pode",
+          "Ela",
+          "diz",
+          "rua",
           "Eles"
         ]
       },
@@ -47683,14 +47683,14 @@
         ]
       },
       {
-        "id": "portuguese-a2-cidade-e-ambiente-reading-comprehension-4",
+        "id": "portuguese-a2-cidade-e-ambiente-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“_____ usam as palavras novas em pequenas situações: no café, na escola ou na rua.”",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
         "options": [
-          "usar",
-          "lixo",
-          "usam",
-          "Eles"
+          "Ela",
+          "diz",
+          "rua",
+          "usar"
         ]
       },
       {
@@ -52345,14 +52345,14 @@
         ]
       },
       {
-        "id": "portuguese-a2-contar-uma-experiencia-reading-comprehension-4",
+        "id": "portuguese-a2-contar-uma-experiencia-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“_____ usam as palavras novas em pequenas situações: no café, na escola ou na rua.”",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
         "options": [
-          "usam",
-          "café",
-          "pode",
-          "Eles"
+          "Ela",
+          "diz",
+          "Foi",
+          "rua"
         ]
       },
       {

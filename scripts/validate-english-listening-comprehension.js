@@ -48,27 +48,21 @@ function validateLesson(row) {
     if (!transcriptSupportsOption(transcript, correct.text)) {
       issues.push(`${label}: correct answer is not explicit in the transcript`);
     }
-    if (normalize(question.explanation) !== normalize(correct.text)) {
-      issues.push(`${label}: explanation differs from the correct answer`);
+    if (!normalize(question.explanation).includes(normalize(correct.text))) {
+      issues.push(`${label}: explanation does not support the correct answer`);
     }
-
-    (question.options || []).forEach((option, optionIndex) => {
-      if (!transcriptSupportsOption(transcript, option.text)) {
-        issues.push(
-          `${label}/option${optionIndex + 1}: option is not explicit in the transcript`
-        );
-      }
-    });
+    if (question.evidence && !transcriptSupportsOption(transcript, question.evidence)) {
+      issues.push(`${label}: evidence is not explicit in the transcript`);
+    }
   });
 
   if (questions.length === 4 && storyLines.length >= 4) {
-    if (correctAnswers[0] !== normalize(storyLines[0])) {
+    const firstEvidence = questions[0]?.evidence || correctAnswers[0];
+    const lastEvidence = questions[3]?.evidence || correctAnswers[3];
+    if (normalize(firstEvidence) !== normalize(storyLines[0])) {
       issues.push('q1 does not use the opening statement');
     }
-    if (correctAnswers[1] !== normalize(storyLines[1])) {
-      issues.push('q2 does not use the immediately following statement');
-    }
-    if (correctAnswers[3] !== normalize(storyLines[storyLines.length - 1])) {
+    if (normalize(lastEvidence) !== normalize(storyLines[storyLines.length - 1])) {
       issues.push('q4 does not use the final statement');
     }
   }

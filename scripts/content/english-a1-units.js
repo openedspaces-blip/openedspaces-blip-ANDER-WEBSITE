@@ -2916,6 +2916,10 @@ const units = [
         description: 'A short text about the places near a student\'s home, in three parts.',
         reading: {
           title: 'My Neighborhood',
+          illustration: {
+            src: '/assets/readings/english/a1/my-neighborhood.png',
+            alt: 'A student walks through a friendly neighborhood with a park, bakery and market'
+          },
           parts: [
             'There is a small park near my house, and I play there with my friends every afternoon. There is also a supermarket, a bakery, and a pharmacy on my street. The bakery smells wonderful in the morning because they bake fresh bread.',
             'My school is not far; it is only a ten-minute walk. I walk there every day with my neighbor. Next to my school, there is a small bookstore where I buy notebooks and pencils. My town also has a beautiful library with many books.',

@@ -172,11 +172,109 @@ function arrangeWithCorrectAt(distractors, answer, correctIndex) {
   return arranged;
 }
 
+function selectEnglishComprehensionLines(lines) {
+  const first = lines[0];
+  const last = lines[lines.length - 1];
+  const middle = lines[Math.round((lines.length - 1) / 3)];
+  const contrast =
+    lines.find((line) => /\b(but|however|although|whereas|therefore|instead|yet|rather than)\b/i.test(line)) ||
+    lines[Math.round(((lines.length - 1) * 2) / 3)];
+  const middleChoices = uniqueTexts([
+    middle,
+    contrast,
+    ...selectSpread(lines, 4),
+    ...lines
+  ]).filter((line) => line !== first && line !== last);
+  return [first, ...middleChoices.slice(0, 2), last];
+}
+
+function buildStatementOptions(line, lines, questionIndex) {
+  const answer = chooseFocusToken(line, questionIndex);
+  const replacements = optionPool(lines, answer, answer).slice(0, 3);
+  if (!answer || replacements.length < 3) {
+    throw new Error('No se pudieron crear variantes de comprensión auditiva.');
+  }
+  const variants = replacements.map((replacement) =>
+    cleanText(line).replace(String(answer), replacement)
+  );
+  return arrangeWithCorrectAt(variants, cleanText(line), questionIndex);
+}
+
+function englishMeaningPrompt(level, title, questionIndex) {
+  const prompts = {
+    A2: [
+      `According to “${title}”, which detail is mentioned at the beginning?`,
+      `According to “${title}”, which detail does the audio develop?`,
+      `According to “${title}”, which situation does the speaker describe?`,
+      `According to “${title}”, which idea appears at the end?`
+    ],
+    B1: [
+      `According to “${title}”, which point introduces the topic?`,
+      `According to “${title}”, which supporting detail is stated?`,
+      `According to “${title}”, which contrast or consequence is made?`,
+      `According to “${title}”, which conclusion closes the audio?`
+    ],
+    B2: [
+      `According to “${title}”, which claim frames the discussion?`,
+      `According to “${title}”, which evidence or example supports the discussion?`,
+      `According to “${title}”, which qualification or consequence is presented?`,
+      `According to “${title}”, which conclusion closes the discussion?`
+    ],
+    C1: [
+      `According to “${title}”, which claim introduces the argument?`,
+      `According to “${title}”, which evidence develops the argument?`,
+      `According to “${title}”, which limitation, contrast or trade-off is identified?`,
+      `According to “${title}”, which conclusion does the speaker defend?`
+    ],
+    C2: [
+      `According to “${title}”, which claim establishes the central argument?`,
+      `According to “${title}”, which evidence or mechanism develops that argument?`,
+      `According to “${title}”, which qualification prevents an oversimplified conclusion?`,
+      `According to “${title}”, which final position does the speaker support?`
+    ]
+  };
+  return prompts[level][questionIndex];
+}
+
+function buildEnglishMeaningBank(row, lines) {
+  const content = row.content_json || {};
+  const title = content.extra?.storyTitle || row.title || 'this audio';
+  const selected = selectEnglishComprehensionLines(lines);
+  if (selected.length < 4) {
+    throw new Error(`${row.slug}: la transcripción necesita cuatro ideas verificables.`);
+  }
+  return {
+    id: `${row.slug}-listening-comprehension`,
+    passingScore: 70,
+    questions: selected.map((line, questionIndex) => {
+      const optionTexts = buildStatementOptions(line, lines, questionIndex);
+      return {
+        id: `q${questionIndex + 1}`,
+        type: 'mcq',
+        prompt: englishMeaningPrompt(row.level, title, questionIndex),
+        options: optionTexts.map((text, optionIndex) => ({ id: `o${optionIndex + 1}`, text })),
+        correctOptionId: `o${questionIndex + 1}`,
+        evidence: line,
+        explanation: `The audio states: “${line}”`
+      };
+    })
+  };
+}
+
 function buildContextualListeningBank(row) {
   const language = row.target_language || 'english';
   const storyLines = collectStoryLines(row);
   if (storyLines.length < 4) {
     throw new Error(`${row.slug}: la transcripción necesita al menos cuatro detalles verificables.`);
+  }
+
+  // At A2 and above, assess the meaning of a complete claim instead of a
+  // single recoverable word. The correct option is an exact, audible idea;
+  // the alternatives are plausible variants of that same statement, which
+  // keeps every question grounded without turning advanced Listening into a
+  // vocabulary fill-in exercise.
+  if (row.target_language === 'english' && ['A2', 'B1', 'B2', 'C1', 'C2'].includes(row.level)) {
+    return buildEnglishMeaningBank(row, storyLines);
   }
 
   const selected = selectSpread(storyLines, 4);
