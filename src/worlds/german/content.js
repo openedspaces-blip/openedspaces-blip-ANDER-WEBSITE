@@ -563,6 +563,10 @@
     "dialogue": [],
     "reading": {
       "title": "Begrüßung und Name",
+      "illustration": {
+        "src": "/images/readings/german-a1-begrussung-und-name-reading.png",
+        "alt": "Anna und Leon begrüßen sich in einem Berliner Viertel"
+      },
       "text": "Heute ist Anna in Berlin. Sie trifft Leon in ihrem Viertel und begrüßt ihn freundlich. Beide sprechen langsam und hören gut zu. Anna möchte Deutsch in einer echten Situation benutzen. Deshalb sagt sie einen einfachen Satz, und Leon antwortet ihr mit einem Lächeln.\n\nIm Gespräch benutzen sie wichtige Wörter aus der Lektion: Hallo, Name, Land, Sprache, wohnen. Leon stellt eine einfache Frage, und Anna antwortet in Ruhe. Wenn sie ein Wort nicht versteht, fragt sie: „Kannst du das bitte wiederholen?\" Danach wiederholen beide die wichtigsten Wörter und finden zu jedem Wort ein kleines Beispiel.\n\nBevor Anna nach Hause geht, bedankt sie sich bei Leon. Sie sagt, dass Zuhören, Sprechen und Wiederholen ihr mehr Sicherheit geben. Leon stimmt zu und schlägt ein neues Treffen für morgen vor. Anna geht zufrieden nach Hause und schreibt die neuen Wörter des Tages in ihr Heft.",
       "questions": [
         "Wo ist Anna?",
@@ -1353,93 +1357,198 @@
     "extra": {
       "grammarProfile": {
         "name": "sein, haben und Personalpronomen",
-        "definition": "Verwende sein für Identität und haben für Besitz; Personalpronomen ersetzen Namen.",
-        "structure": "Ich heiße Ana. Ich bin aus der Dominikanischen Republik.",
-        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
+        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
+        "structure": "Subjekt + Verb + Ergänzung",
+        "function": "Über Personen, Orte und Alltag sprechen.",
         "examples": [
-          "Ich heiße Ana. Ich bin aus der Dominikanischen Republik."
+          "Ich wohne im Viertel.",
+          "Leon spricht mit Anna."
         ]
       },
       "grammarTest": {
         "questions": [
           {
+            "id": "q1",
             "type": "mcq",
             "prompt": "Ergänze: Ich ___ im Viertel.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "wohne"
+              },
+              {
+                "id": "o2",
+                "text": "wohnt"
+              },
+              {
+                "id": "o3",
+                "text": "wohnen"
+              },
+              {
+                "id": "o4",
+                "text": "wohnst"
+              }
             ]
           },
           {
+            "id": "q2",
             "type": "mcq",
             "prompt": "Wähle den richtigen Satz.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Leon sprechen mit Anna."
+              },
+              {
+                "id": "o2",
+                "text": "Leon spricht mit Anna."
+              },
+              {
+                "id": "o3",
+                "text": "Leon spreche mit Anna."
+              },
+              {
+                "id": "o4",
+                "text": "Leon sprich mit Anna."
+              }
             ]
           },
           {
+            "id": "q3",
             "type": "mcq",
             "prompt": "Ergänze: Wir ___ jeden Tag Deutsch.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "lerne"
+              },
+              {
+                "id": "o2",
+                "text": "lernt"
+              },
+              {
+                "id": "o3",
+                "text": "lernen"
+              },
+              {
+                "id": "o4",
+                "text": "lernst"
+              }
             ]
           },
           {
+            "id": "q4",
             "type": "mcq",
             "prompt": "Welche Frage ist richtig?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Wo wohnst?"
+              },
+              {
+                "id": "o2",
+                "text": "Wo wohnen du?"
+              },
+              {
+                "id": "o3",
+                "text": "Wo du wohnst?"
+              },
+              {
+                "id": "o4",
+                "text": "Wo wohnst du?"
+              }
             ]
           },
           {
+            "id": "q5",
             "type": "mcq",
             "prompt": "Ergänze: Sie ___ eine Frage.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "stellt"
+              },
+              {
+                "id": "o2",
+                "text": "stelle"
+              },
+              {
+                "id": "o3",
+                "text": "stellen"
+              },
+              {
+                "id": "o4",
+                "text": "stellst"
+              }
             ]
           },
           {
+            "id": "q6",
             "type": "mcq",
             "prompt": "Wähle den Satz über ein Haus.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Das Haus sind hell."
+              },
+              {
+                "id": "o2",
+                "text": "Das Haus ist hell."
+              },
+              {
+                "id": "o3",
+                "text": "Die Haus ist hell."
+              },
+              {
+                "id": "o4",
+                "text": "Das Haus ist helle."
+              }
             ]
           },
           {
+            "id": "q7",
             "type": "mcq",
             "prompt": "Ergänze: Du ___ Kaffee.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "trinken"
+              },
+              {
+                "id": "o2",
+                "text": "trinkt"
+              },
+              {
+                "id": "o3",
+                "text": "trinkst"
+              },
+              {
+                "id": "o4",
+                "text": "trinke"
+              }
             ]
           },
           {
+            "id": "q8",
             "type": "mcq",
             "prompt": "Welcher Satz beschreibt eine Routine?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Jeden Morgen arbeitet ich im Zentrum."
+              },
+              {
+                "id": "o2",
+                "text": "Gestern arbeiten ich im Zentrum."
+              },
+              {
+                "id": "o3",
+                "text": "Morgen arbeitete ich im Zentrum."
+              },
+              {
+                "id": "o4",
+                "text": "Jeden Morgen arbeite ich im Zentrum."
+              }
             ]
           }
         ]
@@ -1448,91 +1557,203 @@
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
         "prompt": "Ergänze: Ich ___ im Viertel.",
         "options": [
-          "wohne",
-          "wohnt",
-          "wohnen",
-          "wohnst"
+          {
+            "id": "o1",
+            "text": "wohne"
+          },
+          {
+            "id": "o2",
+            "text": "wohnt"
+          },
+          {
+            "id": "o3",
+            "text": "wohnen"
+          },
+          {
+            "id": "o4",
+            "text": "wohnst"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q2",
         "type": "mcq",
         "prompt": "Wähle den richtigen Satz.",
         "options": [
-          "Leon sprechen mit Anna.",
-          "Leon spricht mit Anna.",
-          "Leon spreche mit Anna.",
-          "Leon sprich mit Anna."
+          {
+            "id": "o1",
+            "text": "Leon sprechen mit Anna."
+          },
+          {
+            "id": "o2",
+            "text": "Leon spricht mit Anna."
+          },
+          {
+            "id": "o3",
+            "text": "Leon spreche mit Anna."
+          },
+          {
+            "id": "o4",
+            "text": "Leon sprich mit Anna."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q3",
         "type": "mcq",
         "prompt": "Ergänze: Wir ___ jeden Tag Deutsch.",
         "options": [
-          "lerne",
-          "lernt",
-          "lernen",
-          "lernst"
+          {
+            "id": "o1",
+            "text": "lerne"
+          },
+          {
+            "id": "o2",
+            "text": "lernt"
+          },
+          {
+            "id": "o3",
+            "text": "lernen"
+          },
+          {
+            "id": "o4",
+            "text": "lernst"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q4",
         "type": "mcq",
         "prompt": "Welche Frage ist richtig?",
         "options": [
-          "Wo wohnst?",
-          "Wo wohnen du?",
-          "Wo du wohnst?",
-          "Wo wohnst du?"
+          {
+            "id": "o1",
+            "text": "Wo wohnst?"
+          },
+          {
+            "id": "o2",
+            "text": "Wo wohnen du?"
+          },
+          {
+            "id": "o3",
+            "text": "Wo du wohnst?"
+          },
+          {
+            "id": "o4",
+            "text": "Wo wohnst du?"
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q5",
         "type": "mcq",
         "prompt": "Ergänze: Sie ___ eine Frage.",
         "options": [
-          "stellt",
-          "stelle",
-          "stellen",
-          "stellst"
+          {
+            "id": "o1",
+            "text": "stellt"
+          },
+          {
+            "id": "o2",
+            "text": "stelle"
+          },
+          {
+            "id": "o3",
+            "text": "stellen"
+          },
+          {
+            "id": "o4",
+            "text": "stellst"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q6",
         "type": "mcq",
         "prompt": "Wähle den Satz über ein Haus.",
         "options": [
-          "Das Haus sind hell.",
-          "Das Haus ist hell.",
-          "Die Haus ist hell.",
-          "Das Haus ist helle."
+          {
+            "id": "o1",
+            "text": "Das Haus sind hell."
+          },
+          {
+            "id": "o2",
+            "text": "Das Haus ist hell."
+          },
+          {
+            "id": "o3",
+            "text": "Die Haus ist hell."
+          },
+          {
+            "id": "o4",
+            "text": "Das Haus ist helle."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q7",
         "type": "mcq",
         "prompt": "Ergänze: Du ___ Kaffee.",
         "options": [
-          "trinken",
-          "trinkt",
-          "trinkst",
-          "trinke"
+          {
+            "id": "o1",
+            "text": "trinken"
+          },
+          {
+            "id": "o2",
+            "text": "trinkt"
+          },
+          {
+            "id": "o3",
+            "text": "trinkst"
+          },
+          {
+            "id": "o4",
+            "text": "trinke"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q8",
         "type": "mcq",
         "prompt": "Welcher Satz beschreibt eine Routine?",
         "options": [
-          "Jeden Morgen arbeitet ich im Zentrum.",
-          "Gestern arbeiten ich im Zentrum.",
-          "Morgen arbeitete ich im Zentrum.",
-          "Jeden Morgen arbeite ich im Zentrum."
+          {
+            "id": "o1",
+            "text": "Jeden Morgen arbeitet ich im Zentrum."
+          },
+          {
+            "id": "o2",
+            "text": "Gestern arbeiten ich im Zentrum."
+          },
+          {
+            "id": "o3",
+            "text": "Morgen arbeitete ich im Zentrum."
+          },
+          {
+            "id": "o4",
+            "text": "Jeden Morgen arbeite ich im Zentrum."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       }
     ]
@@ -1613,93 +1834,198 @@
     "extra": {
       "grammarProfile": {
         "name": "Perfekt und Zeitangaben",
-        "definition": "Verwende das Perfekt für abgeschlossene Ereignisse und Zeitangaben für die Reihenfolge.",
-        "structure": "Gestern habe ich einen Termin vereinbart.",
-        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
+        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
+        "structure": "haben/sein + Partizip II",
+        "function": "Erfahrungen und Pläne erzählen.",
         "examples": [
-          "Gestern habe ich einen Termin vereinbart."
+          "Gestern habe ich das Museum besucht.",
+          "Danach haben wir zusammen gesprochen."
         ]
       },
       "grammarTest": {
         "questions": [
           {
+            "id": "q1",
             "type": "mcq",
             "prompt": "Ergänze: Gestern ___ ich das Museum ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "habe besucht"
+              },
+              {
+                "id": "o2",
+                "text": "besuche"
+              },
+              {
+                "id": "o3",
+                "text": "habe besuchen"
+              },
+              {
+                "id": "o4",
+                "text": "bin besucht"
+              }
             ]
           },
           {
+            "id": "q2",
             "type": "mcq",
             "prompt": "Wähle den richtigen Perfekt-Satz.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Wir haben zusammen essen."
+              },
+              {
+                "id": "o2",
+                "text": "Wir haben zusammen gegessen."
+              },
+              {
+                "id": "o3",
+                "text": "Wir sind zusammen gegessen."
+              },
+              {
+                "id": "o4",
+                "text": "Wir essen gestern zusammen."
+              }
             ]
           },
           {
+            "id": "q3",
             "type": "mcq",
             "prompt": "Ergänze: Marta ___ spät nach Hause ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "ist kommen"
+              },
+              {
+                "id": "o2",
+                "text": "hat gekommen"
+              },
+              {
+                "id": "o3",
+                "text": "ist gekommen"
+              },
+              {
+                "id": "o4",
+                "text": "kommt gestern"
+              }
             ]
           },
           {
+            "id": "q4",
             "type": "mcq",
             "prompt": "Welcher Satz zeigt eine Reihenfolge?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Zuerst haben wir gelernt, wenn sind wir gegangen."
+              },
+              {
+                "id": "o2",
+                "text": "Zuerst haben wir gelernt, weil sind wir gegangen."
+              },
+              {
+                "id": "o3",
+                "text": "Zuerst haben wir gelernt, obwohl sind wir gegangen."
+              },
+              {
+                "id": "o4",
+                "text": "Zuerst haben wir gelernt, dann sind wir gegangen."
+              }
             ]
           },
           {
+            "id": "q5",
             "type": "mcq",
             "prompt": "Ergänze: ___ du die Nachricht ___?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Hast gelesen"
+              },
+              {
+                "id": "o2",
+                "text": "Hast lesen"
+              },
+              {
+                "id": "o3",
+                "text": "Bist gelesen"
+              },
+              {
+                "id": "o4",
+                "text": "Liest gestern"
+              }
             ]
           },
           {
+            "id": "q6",
             "type": "mcq",
             "prompt": "Wähle den Perfekt-Satz mit dem richtigen Hilfsverb.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Meine Freunde sind den Bus genommen."
+              },
+              {
+                "id": "o2",
+                "text": "Meine Freunde haben den Bus genommen."
+              },
+              {
+                "id": "o3",
+                "text": "Meine Freunde haben den Bus nehmen."
+              },
+              {
+                "id": "o4",
+                "text": "Meine Freunde nehmen gestern den Bus."
+              }
             ]
           },
           {
+            "id": "q7",
             "type": "mcq",
             "prompt": "Ergänze: Wir ___ eine wichtige Erfahrung ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "haben machen"
+              },
+              {
+                "id": "o2",
+                "text": "sind gemacht"
+              },
+              {
+                "id": "o3",
+                "text": "haben gemacht"
+              },
+              {
+                "id": "o4",
+                "text": "machen gestern"
+              }
             ]
           },
           {
+            "id": "q8",
             "type": "mcq",
             "prompt": "Welcher Satz beschreibt eine abgeschlossene Handlung?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Am Samstag bin ich meine Cousine getroffen."
+              },
+              {
+                "id": "o2",
+                "text": "Am Samstag treffe ich meine Cousine morgen."
+              },
+              {
+                "id": "o3",
+                "text": "Am Samstag treffen meine Cousine."
+              },
+              {
+                "id": "o4",
+                "text": "Am Samstag habe ich meine Cousine getroffen."
+              }
             ]
           }
         ]
@@ -1708,91 +2034,203 @@
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
         "prompt": "Ergänze: Gestern ___ ich das Museum ___.",
         "options": [
-          "habe besucht",
-          "besuche",
-          "habe besuchen",
-          "bin besucht"
+          {
+            "id": "o1",
+            "text": "habe besucht"
+          },
+          {
+            "id": "o2",
+            "text": "besuche"
+          },
+          {
+            "id": "o3",
+            "text": "habe besuchen"
+          },
+          {
+            "id": "o4",
+            "text": "bin besucht"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q2",
         "type": "mcq",
         "prompt": "Wähle den richtigen Perfekt-Satz.",
         "options": [
-          "Wir haben zusammen essen.",
-          "Wir haben zusammen gegessen.",
-          "Wir sind zusammen gegessen.",
-          "Wir essen gestern zusammen."
+          {
+            "id": "o1",
+            "text": "Wir haben zusammen essen."
+          },
+          {
+            "id": "o2",
+            "text": "Wir haben zusammen gegessen."
+          },
+          {
+            "id": "o3",
+            "text": "Wir sind zusammen gegessen."
+          },
+          {
+            "id": "o4",
+            "text": "Wir essen gestern zusammen."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q3",
         "type": "mcq",
         "prompt": "Ergänze: Marta ___ spät nach Hause ___.",
         "options": [
-          "ist kommen",
-          "hat gekommen",
-          "ist gekommen",
-          "kommt gestern"
+          {
+            "id": "o1",
+            "text": "ist kommen"
+          },
+          {
+            "id": "o2",
+            "text": "hat gekommen"
+          },
+          {
+            "id": "o3",
+            "text": "ist gekommen"
+          },
+          {
+            "id": "o4",
+            "text": "kommt gestern"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q4",
         "type": "mcq",
         "prompt": "Welcher Satz zeigt eine Reihenfolge?",
         "options": [
-          "Zuerst haben wir gelernt, wenn sind wir gegangen.",
-          "Zuerst haben wir gelernt, weil sind wir gegangen.",
-          "Zuerst haben wir gelernt, obwohl sind wir gegangen.",
-          "Zuerst haben wir gelernt, dann sind wir gegangen."
+          {
+            "id": "o1",
+            "text": "Zuerst haben wir gelernt, wenn sind wir gegangen."
+          },
+          {
+            "id": "o2",
+            "text": "Zuerst haben wir gelernt, weil sind wir gegangen."
+          },
+          {
+            "id": "o3",
+            "text": "Zuerst haben wir gelernt, obwohl sind wir gegangen."
+          },
+          {
+            "id": "o4",
+            "text": "Zuerst haben wir gelernt, dann sind wir gegangen."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q5",
         "type": "mcq",
         "prompt": "Ergänze: ___ du die Nachricht ___?",
         "options": [
-          "Hast gelesen",
-          "Hast lesen",
-          "Bist gelesen",
-          "Liest gestern"
+          {
+            "id": "o1",
+            "text": "Hast gelesen"
+          },
+          {
+            "id": "o2",
+            "text": "Hast lesen"
+          },
+          {
+            "id": "o3",
+            "text": "Bist gelesen"
+          },
+          {
+            "id": "o4",
+            "text": "Liest gestern"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q6",
         "type": "mcq",
         "prompt": "Wähle den Perfekt-Satz mit dem richtigen Hilfsverb.",
         "options": [
-          "Meine Freunde sind den Bus genommen.",
-          "Meine Freunde haben den Bus genommen.",
-          "Meine Freunde haben den Bus nehmen.",
-          "Meine Freunde nehmen gestern den Bus."
+          {
+            "id": "o1",
+            "text": "Meine Freunde sind den Bus genommen."
+          },
+          {
+            "id": "o2",
+            "text": "Meine Freunde haben den Bus genommen."
+          },
+          {
+            "id": "o3",
+            "text": "Meine Freunde haben den Bus nehmen."
+          },
+          {
+            "id": "o4",
+            "text": "Meine Freunde nehmen gestern den Bus."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q7",
         "type": "mcq",
         "prompt": "Ergänze: Wir ___ eine wichtige Erfahrung ___.",
         "options": [
-          "haben machen",
-          "sind gemacht",
-          "haben gemacht",
-          "machen gestern"
+          {
+            "id": "o1",
+            "text": "haben machen"
+          },
+          {
+            "id": "o2",
+            "text": "sind gemacht"
+          },
+          {
+            "id": "o3",
+            "text": "haben gemacht"
+          },
+          {
+            "id": "o4",
+            "text": "machen gestern"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q8",
         "type": "mcq",
         "prompt": "Welcher Satz beschreibt eine abgeschlossene Handlung?",
         "options": [
-          "Am Samstag bin ich meine Cousine getroffen.",
-          "Am Samstag treffe ich meine Cousine morgen.",
-          "Am Samstag treffen meine Cousine.",
-          "Am Samstag habe ich meine Cousine getroffen."
+          {
+            "id": "o1",
+            "text": "Am Samstag bin ich meine Cousine getroffen."
+          },
+          {
+            "id": "o2",
+            "text": "Am Samstag treffe ich meine Cousine morgen."
+          },
+          {
+            "id": "o3",
+            "text": "Am Samstag treffen meine Cousine."
+          },
+          {
+            "id": "o4",
+            "text": "Am Samstag habe ich meine Cousine getroffen."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       }
     ]
@@ -1876,9 +2314,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Konjunktiv II für Wünsche",
-        "definition": "Práctica guiada de Konjunktiv II für Wünsche.",
+        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
         "structure": "Meinung + weil/obwohl/deshalb + Begründung",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Eine Meinung ausdrücken und begründen.",
         "examples": [
           "Ich finde den Vorschlag sinnvoll.",
           "Trotzdem müssen wir die Ergebnisse prüfen."
@@ -1887,83 +2325,187 @@
       "grammarTest": {
         "questions": [
           {
+            "id": "q1",
             "type": "mcq",
             "prompt": "Ergänze: Ich finde, dass der Vorschlag sinnvoll ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "ist"
+              },
+              {
+                "id": "o2",
+                "text": "sind"
+              },
+              {
+                "id": "o3",
+                "text": "sein"
+              },
+              {
+                "id": "o4",
+                "text": "sei"
+              }
             ]
           },
           {
+            "id": "q2",
             "type": "mcq",
             "prompt": "Wähle den Konnektor für einen Gegensatz.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Ich möchte ausgehen, deshalb es regnet."
+              },
+              {
+                "id": "o2",
+                "text": "Ich möchte ausgehen, aber es regnet."
+              },
+              {
+                "id": "o3",
+                "text": "Ich möchte ausgehen, weil es regnet."
+              },
+              {
+                "id": "o4",
+                "text": "Ich möchte ausgehen, dann es regnet."
+              }
             ]
           },
           {
+            "id": "q3",
             "type": "mcq",
             "prompt": "Ergänze: Ich bleibe zu Hause, weil ich müde ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "sein"
+              },
+              {
+                "id": "o2",
+                "text": "ist"
+              },
+              {
+                "id": "o3",
+                "text": "bin"
+              },
+              {
+                "id": "o4",
+                "text": "bist"
+              }
             ]
           },
           {
+            "id": "q4",
             "type": "mcq",
             "prompt": "Welcher Satz drückt eine Meinung aus?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Das Projekt funktioniert warum?"
+              },
+              {
+                "id": "o2",
+                "text": "Das Projekt gestern funktioniert?"
+              },
+              {
+                "id": "o3",
+                "text": "Funktionieren das Projekt meiner Meinung."
+              },
+              {
+                "id": "o4",
+                "text": "Meiner Meinung nach funktioniert das Projekt."
+              }
             ]
           },
           {
+            "id": "q5",
             "type": "mcq",
             "prompt": "Ergänze: Obwohl es spät ___, arbeiten wir weiter.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "ist"
+              },
+              {
+                "id": "o2",
+                "text": "sind"
+              },
+              {
+                "id": "o3",
+                "text": "sein"
+              },
+              {
+                "id": "o4",
+                "text": "bist"
+              }
             ]
           },
           {
+            "id": "q6",
             "type": "mcq",
             "prompt": "Wähle eine logische Folge.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Wir haben wenig Zeit, aber planen wir die Arbeit."
+              },
+              {
+                "id": "o2",
+                "text": "Wir haben wenig Zeit, deshalb planen wir die Arbeit."
+              },
+              {
+                "id": "o3",
+                "text": "Wir haben wenig Zeit, weil planen wir die Arbeit."
+              },
+              {
+                "id": "o4",
+                "text": "Wir haben wenig Zeit, obwohl planen wir die Arbeit."
+              }
             ]
           },
           {
+            "id": "q7",
             "type": "mcq",
             "prompt": "Ergänze: Ich glaube, dass sie Recht ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "sein"
+              },
+              {
+                "id": "o2",
+                "text": "haben"
+              },
+              {
+                "id": "o3",
+                "text": "hat"
+              },
+              {
+                "id": "o4",
+                "text": "hatte"
+              }
             ]
           },
           {
+            "id": "q8",
             "type": "mcq",
             "prompt": "Welcher Satz begründet eine Wahl?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Ich nehme den Zug er nachhaltiger ist weil."
+              },
+              {
+                "id": "o2",
+                "text": "Ich nehme den Zug, aber er nachhaltiger ist."
+              },
+              {
+                "id": "o3",
+                "text": "Ich nehme den Zug, deshalb er nachhaltiger ist?"
+              },
+              {
+                "id": "o4",
+                "text": "Ich nehme den Zug, weil er nachhaltiger ist."
+              }
             ]
           }
         ]
@@ -1972,91 +2514,203 @@
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
         "prompt": "Ergänze: Ich finde, dass der Vorschlag sinnvoll ___.",
         "options": [
-          "ist",
-          "sind",
-          "sein",
-          "sei"
+          {
+            "id": "o1",
+            "text": "ist"
+          },
+          {
+            "id": "o2",
+            "text": "sind"
+          },
+          {
+            "id": "o3",
+            "text": "sein"
+          },
+          {
+            "id": "o4",
+            "text": "sei"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q2",
         "type": "mcq",
         "prompt": "Wähle den Konnektor für einen Gegensatz.",
         "options": [
-          "Ich möchte ausgehen, deshalb es regnet.",
-          "Ich möchte ausgehen, aber es regnet.",
-          "Ich möchte ausgehen, weil es regnet.",
-          "Ich möchte ausgehen, dann es regnet."
+          {
+            "id": "o1",
+            "text": "Ich möchte ausgehen, deshalb es regnet."
+          },
+          {
+            "id": "o2",
+            "text": "Ich möchte ausgehen, aber es regnet."
+          },
+          {
+            "id": "o3",
+            "text": "Ich möchte ausgehen, weil es regnet."
+          },
+          {
+            "id": "o4",
+            "text": "Ich möchte ausgehen, dann es regnet."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q3",
         "type": "mcq",
         "prompt": "Ergänze: Ich bleibe zu Hause, weil ich müde ___.",
         "options": [
-          "sein",
-          "ist",
-          "bin",
-          "bist"
+          {
+            "id": "o1",
+            "text": "sein"
+          },
+          {
+            "id": "o2",
+            "text": "ist"
+          },
+          {
+            "id": "o3",
+            "text": "bin"
+          },
+          {
+            "id": "o4",
+            "text": "bist"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q4",
         "type": "mcq",
         "prompt": "Welcher Satz drückt eine Meinung aus?",
         "options": [
-          "Das Projekt funktioniert warum?",
-          "Das Projekt gestern funktioniert?",
-          "Funktionieren das Projekt meiner Meinung.",
-          "Meiner Meinung nach funktioniert das Projekt."
+          {
+            "id": "o1",
+            "text": "Das Projekt funktioniert warum?"
+          },
+          {
+            "id": "o2",
+            "text": "Das Projekt gestern funktioniert?"
+          },
+          {
+            "id": "o3",
+            "text": "Funktionieren das Projekt meiner Meinung."
+          },
+          {
+            "id": "o4",
+            "text": "Meiner Meinung nach funktioniert das Projekt."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q5",
         "type": "mcq",
         "prompt": "Ergänze: Obwohl es spät ___, arbeiten wir weiter.",
         "options": [
-          "ist",
-          "sind",
-          "sein",
-          "bist"
+          {
+            "id": "o1",
+            "text": "ist"
+          },
+          {
+            "id": "o2",
+            "text": "sind"
+          },
+          {
+            "id": "o3",
+            "text": "sein"
+          },
+          {
+            "id": "o4",
+            "text": "bist"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q6",
         "type": "mcq",
         "prompt": "Wähle eine logische Folge.",
         "options": [
-          "Wir haben wenig Zeit, aber planen wir die Arbeit.",
-          "Wir haben wenig Zeit, deshalb planen wir die Arbeit.",
-          "Wir haben wenig Zeit, weil planen wir die Arbeit.",
-          "Wir haben wenig Zeit, obwohl planen wir die Arbeit."
+          {
+            "id": "o1",
+            "text": "Wir haben wenig Zeit, aber planen wir die Arbeit."
+          },
+          {
+            "id": "o2",
+            "text": "Wir haben wenig Zeit, deshalb planen wir die Arbeit."
+          },
+          {
+            "id": "o3",
+            "text": "Wir haben wenig Zeit, weil planen wir die Arbeit."
+          },
+          {
+            "id": "o4",
+            "text": "Wir haben wenig Zeit, obwohl planen wir die Arbeit."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q7",
         "type": "mcq",
         "prompt": "Ergänze: Ich glaube, dass sie Recht ___.",
         "options": [
-          "sein",
-          "haben",
-          "hat",
-          "hatte"
+          {
+            "id": "o1",
+            "text": "sein"
+          },
+          {
+            "id": "o2",
+            "text": "haben"
+          },
+          {
+            "id": "o3",
+            "text": "hat"
+          },
+          {
+            "id": "o4",
+            "text": "hatte"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q8",
         "type": "mcq",
         "prompt": "Welcher Satz begründet eine Wahl?",
         "options": [
-          "Ich nehme den Zug er nachhaltiger ist weil.",
-          "Ich nehme den Zug, aber er nachhaltiger ist.",
-          "Ich nehme den Zug, deshalb er nachhaltiger ist?",
-          "Ich nehme den Zug, weil er nachhaltiger ist."
+          {
+            "id": "o1",
+            "text": "Ich nehme den Zug er nachhaltiger ist weil."
+          },
+          {
+            "id": "o2",
+            "text": "Ich nehme den Zug, aber er nachhaltiger ist."
+          },
+          {
+            "id": "o3",
+            "text": "Ich nehme den Zug, deshalb er nachhaltiger ist?"
+          },
+          {
+            "id": "o4",
+            "text": "Ich nehme den Zug, weil er nachhaltiger ist."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       }
     ]
@@ -3734,121 +4388,277 @@
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Hallo",
-          "Name",
-          "Land",
-          "Sprache"
-        ]
+          {
+            "id": "o1",
+            "text": "Hallo"
+          },
+          {
+            "id": "o2",
+            "text": "Name"
+          },
+          {
+            "id": "o3",
+            "text": "Land"
+          },
+          {
+            "id": "o4",
+            "text": "Sprache"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Hallo",
-          "Name",
-          "Land",
-          "Sprache"
-        ]
+          {
+            "id": "o1",
+            "text": "Hallo"
+          },
+          {
+            "id": "o2",
+            "text": "Name"
+          },
+          {
+            "id": "o3",
+            "text": "Land"
+          },
+          {
+            "id": "o4",
+            "text": "Sprache"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Name",
-          "Hallo",
-          "Land",
-          "Sprache"
-        ]
+          {
+            "id": "o1",
+            "text": "Name"
+          },
+          {
+            "id": "o2",
+            "text": "Hallo"
+          },
+          {
+            "id": "o3",
+            "text": "Land"
+          },
+          {
+            "id": "o4",
+            "text": "Sprache"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Land",
-          "Hallo",
-          "Name",
-          "Sprache"
-        ]
+          {
+            "id": "o1",
+            "text": "Land"
+          },
+          {
+            "id": "o2",
+            "text": "Hallo"
+          },
+          {
+            "id": "o3",
+            "text": "Name"
+          },
+          {
+            "id": "o4",
+            "text": "Sprache"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "wohnen",
-          "Hallo",
-          "Name",
-          "Land"
-        ]
+          {
+            "id": "o1",
+            "text": "wohnen"
+          },
+          {
+            "id": "o2",
+            "text": "Hallo"
+          },
+          {
+            "id": "o3",
+            "text": "Name"
+          },
+          {
+            "id": "o4",
+            "text": "Land"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Hallo",
-          "heißen",
-          "Name",
-          "Land"
-        ]
+          {
+            "id": "o1",
+            "text": "Hallo"
+          },
+          {
+            "id": "o2",
+            "text": "heißen"
+          },
+          {
+            "id": "o3",
+            "text": "Name"
+          },
+          {
+            "id": "o4",
+            "text": "Land"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Name",
-          "Hallo",
-          "lernen",
-          "Land"
-        ]
+          {
+            "id": "o1",
+            "text": "Name"
+          },
+          {
+            "id": "o2",
+            "text": "Hallo"
+          },
+          {
+            "id": "o3",
+            "text": "lernen"
+          },
+          {
+            "id": "o4",
+            "text": "Land"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Land",
-          "Hallo",
-          "Name",
-          "danke"
-        ]
+          {
+            "id": "o1",
+            "text": "Land"
+          },
+          {
+            "id": "o2",
+            "text": "Hallo"
+          },
+          {
+            "id": "o3",
+            "text": "Name"
+          },
+          {
+            "id": "o4",
+            "text": "danke"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "bitte",
-          "Hallo",
-          "Name",
-          "Land"
-        ]
+          {
+            "id": "o1",
+            "text": "bitte"
+          },
+          {
+            "id": "o2",
+            "text": "Hallo"
+          },
+          {
+            "id": "o3",
+            "text": "Name"
+          },
+          {
+            "id": "o4",
+            "text": "Land"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Hallo",
-          "Freund",
-          "Name",
-          "Land"
-        ]
+          {
+            "id": "o1",
+            "text": "Hallo"
+          },
+          {
+            "id": "o2",
+            "text": "Freund"
+          },
+          {
+            "id": "o3",
+            "text": "Name"
+          },
+          {
+            "id": "o4",
+            "text": "Land"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Name",
-          "Hallo",
-          "heute",
-          "Land"
-        ]
+          {
+            "id": "o1",
+            "text": "Name"
+          },
+          {
+            "id": "o2",
+            "text": "Hallo"
+          },
+          {
+            "id": "o3",
+            "text": "heute"
+          },
+          {
+            "id": "o4",
+            "text": "Land"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Land",
-          "Hallo",
-          "Name",
-          "zusammen"
-        ]
+          {
+            "id": "o1",
+            "text": "Land"
+          },
+          {
+            "id": "o2",
+            "text": "Hallo"
+          },
+          {
+            "id": "o3",
+            "text": "Name"
+          },
+          {
+            "id": "o4",
+            "text": "zusammen"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },
@@ -4016,121 +4826,277 @@
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Termin",
-          "Kalender",
-          "früher",
-          "später"
-        ]
+          {
+            "id": "o1",
+            "text": "Termin"
+          },
+          {
+            "id": "o2",
+            "text": "Kalender"
+          },
+          {
+            "id": "o3",
+            "text": "früher"
+          },
+          {
+            "id": "o4",
+            "text": "später"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Termin",
-          "Kalender",
-          "früher",
-          "später"
-        ]
+          {
+            "id": "o1",
+            "text": "Termin"
+          },
+          {
+            "id": "o2",
+            "text": "Kalender"
+          },
+          {
+            "id": "o3",
+            "text": "früher"
+          },
+          {
+            "id": "o4",
+            "text": "später"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Kalender",
-          "Termin",
-          "früher",
-          "später"
-        ]
+          {
+            "id": "o1",
+            "text": "Kalender"
+          },
+          {
+            "id": "o2",
+            "text": "Termin"
+          },
+          {
+            "id": "o3",
+            "text": "früher"
+          },
+          {
+            "id": "o4",
+            "text": "später"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "früher",
-          "Termin",
-          "Kalender",
-          "später"
-        ]
+          {
+            "id": "o1",
+            "text": "früher"
+          },
+          {
+            "id": "o2",
+            "text": "Termin"
+          },
+          {
+            "id": "o3",
+            "text": "Kalender"
+          },
+          {
+            "id": "o4",
+            "text": "später"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "meistens",
-          "Termin",
-          "Kalender",
-          "früher"
-        ]
+          {
+            "id": "o1",
+            "text": "meistens"
+          },
+          {
+            "id": "o2",
+            "text": "Termin"
+          },
+          {
+            "id": "o3",
+            "text": "Kalender"
+          },
+          {
+            "id": "o4",
+            "text": "früher"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Termin",
-          "treffen",
-          "Kalender",
-          "früher"
-        ]
+          {
+            "id": "o1",
+            "text": "Termin"
+          },
+          {
+            "id": "o2",
+            "text": "treffen"
+          },
+          {
+            "id": "o3",
+            "text": "Kalender"
+          },
+          {
+            "id": "o4",
+            "text": "früher"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Kalender",
-          "Termin",
-          "verschieben",
-          "früher"
-        ]
+          {
+            "id": "o1",
+            "text": "Kalender"
+          },
+          {
+            "id": "o2",
+            "text": "Termin"
+          },
+          {
+            "id": "o3",
+            "text": "verschieben"
+          },
+          {
+            "id": "o4",
+            "text": "früher"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "früher",
-          "Termin",
-          "Kalender",
-          "planen"
-        ]
+          {
+            "id": "o1",
+            "text": "früher"
+          },
+          {
+            "id": "o2",
+            "text": "Termin"
+          },
+          {
+            "id": "o3",
+            "text": "Kalender"
+          },
+          {
+            "id": "o4",
+            "text": "planen"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Woche",
-          "Termin",
-          "Kalender",
-          "früher"
-        ]
+          {
+            "id": "o1",
+            "text": "Woche"
+          },
+          {
+            "id": "o2",
+            "text": "Termin"
+          },
+          {
+            "id": "o3",
+            "text": "Kalender"
+          },
+          {
+            "id": "o4",
+            "text": "früher"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Termin",
-          "pünktlich",
-          "Kalender",
-          "früher"
-        ]
+          {
+            "id": "o1",
+            "text": "Termin"
+          },
+          {
+            "id": "o2",
+            "text": "pünktlich"
+          },
+          {
+            "id": "o3",
+            "text": "Kalender"
+          },
+          {
+            "id": "o4",
+            "text": "früher"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Kalender",
-          "Termin",
-          "heute",
-          "früher"
-        ]
+          {
+            "id": "o1",
+            "text": "Kalender"
+          },
+          {
+            "id": "o2",
+            "text": "Termin"
+          },
+          {
+            "id": "o3",
+            "text": "heute"
+          },
+          {
+            "id": "o4",
+            "text": "früher"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "früher",
-          "Termin",
-          "Kalender",
-          "zusammen"
-        ]
+          {
+            "id": "o1",
+            "text": "früher"
+          },
+          {
+            "id": "o2",
+            "text": "Termin"
+          },
+          {
+            "id": "o3",
+            "text": "Kalender"
+          },
+          {
+            "id": "o4",
+            "text": "zusammen"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },
@@ -4298,121 +5264,277 @@
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Ziel",
-          "Frist",
-          "Team",
-          "verbessern"
-        ]
+          {
+            "id": "o1",
+            "text": "Ziel"
+          },
+          {
+            "id": "o2",
+            "text": "Frist"
+          },
+          {
+            "id": "o3",
+            "text": "Team"
+          },
+          {
+            "id": "o4",
+            "text": "verbessern"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Ziel",
-          "Frist",
-          "Team",
-          "verbessern"
-        ]
+          {
+            "id": "o1",
+            "text": "Ziel"
+          },
+          {
+            "id": "o2",
+            "text": "Frist"
+          },
+          {
+            "id": "o3",
+            "text": "Team"
+          },
+          {
+            "id": "o4",
+            "text": "verbessern"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Frist",
-          "Ziel",
-          "Team",
-          "verbessern"
-        ]
+          {
+            "id": "o1",
+            "text": "Frist"
+          },
+          {
+            "id": "o2",
+            "text": "Ziel"
+          },
+          {
+            "id": "o3",
+            "text": "Team"
+          },
+          {
+            "id": "o4",
+            "text": "verbessern"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Team",
-          "Ziel",
-          "Frist",
-          "verbessern"
-        ]
+          {
+            "id": "o1",
+            "text": "Team"
+          },
+          {
+            "id": "o2",
+            "text": "Ziel"
+          },
+          {
+            "id": "o3",
+            "text": "Frist"
+          },
+          {
+            "id": "o4",
+            "text": "verbessern"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "wählen",
-          "Ziel",
-          "Frist",
-          "Team"
-        ]
+          {
+            "id": "o1",
+            "text": "wählen"
+          },
+          {
+            "id": "o2",
+            "text": "Ziel"
+          },
+          {
+            "id": "o3",
+            "text": "Frist"
+          },
+          {
+            "id": "o4",
+            "text": "Team"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Ziel",
-          "Ergebnis",
-          "Frist",
-          "Team"
-        ]
+          {
+            "id": "o1",
+            "text": "Ziel"
+          },
+          {
+            "id": "o2",
+            "text": "Ergebnis"
+          },
+          {
+            "id": "o3",
+            "text": "Frist"
+          },
+          {
+            "id": "o4",
+            "text": "Team"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Frist",
-          "Ziel",
-          "Verantwortung",
-          "Team"
-        ]
+          {
+            "id": "o1",
+            "text": "Frist"
+          },
+          {
+            "id": "o2",
+            "text": "Ziel"
+          },
+          {
+            "id": "o3",
+            "text": "Verantwortung"
+          },
+          {
+            "id": "o4",
+            "text": "Team"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Team",
-          "Ziel",
-          "Frist",
-          "Vorschlag"
-        ]
+          {
+            "id": "o1",
+            "text": "Team"
+          },
+          {
+            "id": "o2",
+            "text": "Ziel"
+          },
+          {
+            "id": "o3",
+            "text": "Frist"
+          },
+          {
+            "id": "o4",
+            "text": "Vorschlag"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Gewohnheit",
-          "Ziel",
-          "Frist",
-          "Team"
-        ]
+          {
+            "id": "o1",
+            "text": "Gewohnheit"
+          },
+          {
+            "id": "o2",
+            "text": "Ziel"
+          },
+          {
+            "id": "o3",
+            "text": "Frist"
+          },
+          {
+            "id": "o4",
+            "text": "Team"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Ziel",
-          "Vertrauen",
-          "Frist",
-          "Team"
-        ]
+          {
+            "id": "o1",
+            "text": "Ziel"
+          },
+          {
+            "id": "o2",
+            "text": "Vertrauen"
+          },
+          {
+            "id": "o3",
+            "text": "Frist"
+          },
+          {
+            "id": "o4",
+            "text": "Team"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Frist",
-          "Ziel",
-          "heute",
-          "Team"
-        ]
+          {
+            "id": "o1",
+            "text": "Frist"
+          },
+          {
+            "id": "o2",
+            "text": "Ziel"
+          },
+          {
+            "id": "o3",
+            "text": "heute"
+          },
+          {
+            "id": "o4",
+            "text": "Team"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Team",
-          "Ziel",
-          "Frist",
-          "zusammen"
-        ]
+          {
+            "id": "o1",
+            "text": "Team"
+          },
+          {
+            "id": "o2",
+            "text": "Ziel"
+          },
+          {
+            "id": "o3",
+            "text": "Frist"
+          },
+          {
+            "id": "o4",
+            "text": "zusammen"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },
@@ -6692,93 +7814,198 @@
     "extra": {
       "grammarProfile": {
         "name": "möchten, bestellen und Akkusativ",
-        "definition": "Mit möchten bestellst du höflich; viele Speisen und Getränke stehen im Akkusativ.",
-        "structure": "Ich möchte einen Kaffee, bitte.",
-        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
+        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
+        "structure": "Subjekt + Verb + Ergänzung",
+        "function": "Über Personen, Orte und Alltag sprechen.",
         "examples": [
-          "Ich möchte einen Kaffee, bitte."
+          "Ich wohne im Viertel.",
+          "Leon spricht mit Anna."
         ]
       },
       "grammarTest": {
         "questions": [
           {
+            "id": "q1",
             "type": "mcq",
             "prompt": "Ergänze: Ich ___ im Viertel.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "wohne"
+              },
+              {
+                "id": "o2",
+                "text": "wohnt"
+              },
+              {
+                "id": "o3",
+                "text": "wohnen"
+              },
+              {
+                "id": "o4",
+                "text": "wohnst"
+              }
             ]
           },
           {
+            "id": "q2",
             "type": "mcq",
             "prompt": "Wähle den richtigen Satz.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Leon sprechen mit Anna."
+              },
+              {
+                "id": "o2",
+                "text": "Leon spricht mit Anna."
+              },
+              {
+                "id": "o3",
+                "text": "Leon spreche mit Anna."
+              },
+              {
+                "id": "o4",
+                "text": "Leon sprich mit Anna."
+              }
             ]
           },
           {
+            "id": "q3",
             "type": "mcq",
             "prompt": "Ergänze: Wir ___ jeden Tag Deutsch.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "lerne"
+              },
+              {
+                "id": "o2",
+                "text": "lernt"
+              },
+              {
+                "id": "o3",
+                "text": "lernen"
+              },
+              {
+                "id": "o4",
+                "text": "lernst"
+              }
             ]
           },
           {
+            "id": "q4",
             "type": "mcq",
             "prompt": "Welche Frage ist richtig?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Wo wohnst?"
+              },
+              {
+                "id": "o2",
+                "text": "Wo wohnen du?"
+              },
+              {
+                "id": "o3",
+                "text": "Wo du wohnst?"
+              },
+              {
+                "id": "o4",
+                "text": "Wo wohnst du?"
+              }
             ]
           },
           {
+            "id": "q5",
             "type": "mcq",
             "prompt": "Ergänze: Sie ___ eine Frage.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "stellt"
+              },
+              {
+                "id": "o2",
+                "text": "stelle"
+              },
+              {
+                "id": "o3",
+                "text": "stellen"
+              },
+              {
+                "id": "o4",
+                "text": "stellst"
+              }
             ]
           },
           {
+            "id": "q6",
             "type": "mcq",
             "prompt": "Wähle den Satz über ein Haus.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Das Haus sind hell."
+              },
+              {
+                "id": "o2",
+                "text": "Das Haus ist hell."
+              },
+              {
+                "id": "o3",
+                "text": "Die Haus ist hell."
+              },
+              {
+                "id": "o4",
+                "text": "Das Haus ist helle."
+              }
             ]
           },
           {
+            "id": "q7",
             "type": "mcq",
             "prompt": "Ergänze: Du ___ Kaffee.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "trinken"
+              },
+              {
+                "id": "o2",
+                "text": "trinkt"
+              },
+              {
+                "id": "o3",
+                "text": "trinkst"
+              },
+              {
+                "id": "o4",
+                "text": "trinke"
+              }
             ]
           },
           {
+            "id": "q8",
             "type": "mcq",
             "prompt": "Welcher Satz beschreibt eine Routine?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Jeden Morgen arbeitet ich im Zentrum."
+              },
+              {
+                "id": "o2",
+                "text": "Gestern arbeiten ich im Zentrum."
+              },
+              {
+                "id": "o3",
+                "text": "Morgen arbeitete ich im Zentrum."
+              },
+              {
+                "id": "o4",
+                "text": "Jeden Morgen arbeite ich im Zentrum."
+              }
             ]
           }
         ]
@@ -6787,91 +8014,203 @@
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
         "prompt": "Ergänze: Ich ___ im Viertel.",
         "options": [
-          "wohne",
-          "wohnt",
-          "wohnen",
-          "wohnst"
+          {
+            "id": "o1",
+            "text": "wohne"
+          },
+          {
+            "id": "o2",
+            "text": "wohnt"
+          },
+          {
+            "id": "o3",
+            "text": "wohnen"
+          },
+          {
+            "id": "o4",
+            "text": "wohnst"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q2",
         "type": "mcq",
         "prompt": "Wähle den richtigen Satz.",
         "options": [
-          "Leon sprechen mit Anna.",
-          "Leon spricht mit Anna.",
-          "Leon spreche mit Anna.",
-          "Leon sprich mit Anna."
+          {
+            "id": "o1",
+            "text": "Leon sprechen mit Anna."
+          },
+          {
+            "id": "o2",
+            "text": "Leon spricht mit Anna."
+          },
+          {
+            "id": "o3",
+            "text": "Leon spreche mit Anna."
+          },
+          {
+            "id": "o4",
+            "text": "Leon sprich mit Anna."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q3",
         "type": "mcq",
         "prompt": "Ergänze: Wir ___ jeden Tag Deutsch.",
         "options": [
-          "lerne",
-          "lernt",
-          "lernen",
-          "lernst"
+          {
+            "id": "o1",
+            "text": "lerne"
+          },
+          {
+            "id": "o2",
+            "text": "lernt"
+          },
+          {
+            "id": "o3",
+            "text": "lernen"
+          },
+          {
+            "id": "o4",
+            "text": "lernst"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q4",
         "type": "mcq",
         "prompt": "Welche Frage ist richtig?",
         "options": [
-          "Wo wohnst?",
-          "Wo wohnen du?",
-          "Wo du wohnst?",
-          "Wo wohnst du?"
+          {
+            "id": "o1",
+            "text": "Wo wohnst?"
+          },
+          {
+            "id": "o2",
+            "text": "Wo wohnen du?"
+          },
+          {
+            "id": "o3",
+            "text": "Wo du wohnst?"
+          },
+          {
+            "id": "o4",
+            "text": "Wo wohnst du?"
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q5",
         "type": "mcq",
         "prompt": "Ergänze: Sie ___ eine Frage.",
         "options": [
-          "stellt",
-          "stelle",
-          "stellen",
-          "stellst"
+          {
+            "id": "o1",
+            "text": "stellt"
+          },
+          {
+            "id": "o2",
+            "text": "stelle"
+          },
+          {
+            "id": "o3",
+            "text": "stellen"
+          },
+          {
+            "id": "o4",
+            "text": "stellst"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q6",
         "type": "mcq",
         "prompt": "Wähle den Satz über ein Haus.",
         "options": [
-          "Das Haus sind hell.",
-          "Das Haus ist hell.",
-          "Die Haus ist hell.",
-          "Das Haus ist helle."
+          {
+            "id": "o1",
+            "text": "Das Haus sind hell."
+          },
+          {
+            "id": "o2",
+            "text": "Das Haus ist hell."
+          },
+          {
+            "id": "o3",
+            "text": "Die Haus ist hell."
+          },
+          {
+            "id": "o4",
+            "text": "Das Haus ist helle."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q7",
         "type": "mcq",
         "prompt": "Ergänze: Du ___ Kaffee.",
         "options": [
-          "trinken",
-          "trinkt",
-          "trinkst",
-          "trinke"
+          {
+            "id": "o1",
+            "text": "trinken"
+          },
+          {
+            "id": "o2",
+            "text": "trinkt"
+          },
+          {
+            "id": "o3",
+            "text": "trinkst"
+          },
+          {
+            "id": "o4",
+            "text": "trinke"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q8",
         "type": "mcq",
         "prompt": "Welcher Satz beschreibt eine Routine?",
         "options": [
-          "Jeden Morgen arbeitet ich im Zentrum.",
-          "Gestern arbeiten ich im Zentrum.",
-          "Morgen arbeitete ich im Zentrum.",
-          "Jeden Morgen arbeite ich im Zentrum."
+          {
+            "id": "o1",
+            "text": "Jeden Morgen arbeitet ich im Zentrum."
+          },
+          {
+            "id": "o2",
+            "text": "Gestern arbeiten ich im Zentrum."
+          },
+          {
+            "id": "o3",
+            "text": "Morgen arbeitete ich im Zentrum."
+          },
+          {
+            "id": "o4",
+            "text": "Jeden Morgen arbeite ich im Zentrum."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       }
     ]
@@ -6952,93 +8291,198 @@
     "extra": {
       "grammarProfile": {
         "name": "Wechselpräpositionen",
-        "definition": "in, an, auf y otras preposiciones usan acusativo para movimiento y dativo para posición.",
-        "structure": "Ich gehe in die Wohnung. Ich bin in der Wohnung.",
-        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
+        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
+        "structure": "haben/sein + Partizip II",
+        "function": "Erfahrungen und Pläne erzählen.",
         "examples": [
-          "Ich gehe in die Wohnung. Ich bin in der Wohnung."
+          "Gestern habe ich das Museum besucht.",
+          "Danach haben wir zusammen gesprochen."
         ]
       },
       "grammarTest": {
         "questions": [
           {
+            "id": "q1",
             "type": "mcq",
             "prompt": "Ergänze: Gestern ___ ich das Museum ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "habe besucht"
+              },
+              {
+                "id": "o2",
+                "text": "besuche"
+              },
+              {
+                "id": "o3",
+                "text": "habe besuchen"
+              },
+              {
+                "id": "o4",
+                "text": "bin besucht"
+              }
             ]
           },
           {
+            "id": "q2",
             "type": "mcq",
             "prompt": "Wähle den richtigen Perfekt-Satz.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Wir haben zusammen essen."
+              },
+              {
+                "id": "o2",
+                "text": "Wir haben zusammen gegessen."
+              },
+              {
+                "id": "o3",
+                "text": "Wir sind zusammen gegessen."
+              },
+              {
+                "id": "o4",
+                "text": "Wir essen gestern zusammen."
+              }
             ]
           },
           {
+            "id": "q3",
             "type": "mcq",
             "prompt": "Ergänze: Marta ___ spät nach Hause ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "ist kommen"
+              },
+              {
+                "id": "o2",
+                "text": "hat gekommen"
+              },
+              {
+                "id": "o3",
+                "text": "ist gekommen"
+              },
+              {
+                "id": "o4",
+                "text": "kommt gestern"
+              }
             ]
           },
           {
+            "id": "q4",
             "type": "mcq",
             "prompt": "Welcher Satz zeigt eine Reihenfolge?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Zuerst haben wir gelernt, wenn sind wir gegangen."
+              },
+              {
+                "id": "o2",
+                "text": "Zuerst haben wir gelernt, weil sind wir gegangen."
+              },
+              {
+                "id": "o3",
+                "text": "Zuerst haben wir gelernt, obwohl sind wir gegangen."
+              },
+              {
+                "id": "o4",
+                "text": "Zuerst haben wir gelernt, dann sind wir gegangen."
+              }
             ]
           },
           {
+            "id": "q5",
             "type": "mcq",
             "prompt": "Ergänze: ___ du die Nachricht ___?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Hast gelesen"
+              },
+              {
+                "id": "o2",
+                "text": "Hast lesen"
+              },
+              {
+                "id": "o3",
+                "text": "Bist gelesen"
+              },
+              {
+                "id": "o4",
+                "text": "Liest gestern"
+              }
             ]
           },
           {
+            "id": "q6",
             "type": "mcq",
             "prompt": "Wähle den Perfekt-Satz mit dem richtigen Hilfsverb.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Meine Freunde sind den Bus genommen."
+              },
+              {
+                "id": "o2",
+                "text": "Meine Freunde haben den Bus genommen."
+              },
+              {
+                "id": "o3",
+                "text": "Meine Freunde haben den Bus nehmen."
+              },
+              {
+                "id": "o4",
+                "text": "Meine Freunde nehmen gestern den Bus."
+              }
             ]
           },
           {
+            "id": "q7",
             "type": "mcq",
             "prompt": "Ergänze: Wir ___ eine wichtige Erfahrung ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "haben machen"
+              },
+              {
+                "id": "o2",
+                "text": "sind gemacht"
+              },
+              {
+                "id": "o3",
+                "text": "haben gemacht"
+              },
+              {
+                "id": "o4",
+                "text": "machen gestern"
+              }
             ]
           },
           {
+            "id": "q8",
             "type": "mcq",
             "prompt": "Welcher Satz beschreibt eine abgeschlossene Handlung?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Am Samstag bin ich meine Cousine getroffen."
+              },
+              {
+                "id": "o2",
+                "text": "Am Samstag treffe ich meine Cousine morgen."
+              },
+              {
+                "id": "o3",
+                "text": "Am Samstag treffen meine Cousine."
+              },
+              {
+                "id": "o4",
+                "text": "Am Samstag habe ich meine Cousine getroffen."
+              }
             ]
           }
         ]
@@ -7047,91 +8491,203 @@
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
         "prompt": "Ergänze: Gestern ___ ich das Museum ___.",
         "options": [
-          "habe besucht",
-          "besuche",
-          "habe besuchen",
-          "bin besucht"
+          {
+            "id": "o1",
+            "text": "habe besucht"
+          },
+          {
+            "id": "o2",
+            "text": "besuche"
+          },
+          {
+            "id": "o3",
+            "text": "habe besuchen"
+          },
+          {
+            "id": "o4",
+            "text": "bin besucht"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q2",
         "type": "mcq",
         "prompt": "Wähle den richtigen Perfekt-Satz.",
         "options": [
-          "Wir haben zusammen essen.",
-          "Wir haben zusammen gegessen.",
-          "Wir sind zusammen gegessen.",
-          "Wir essen gestern zusammen."
+          {
+            "id": "o1",
+            "text": "Wir haben zusammen essen."
+          },
+          {
+            "id": "o2",
+            "text": "Wir haben zusammen gegessen."
+          },
+          {
+            "id": "o3",
+            "text": "Wir sind zusammen gegessen."
+          },
+          {
+            "id": "o4",
+            "text": "Wir essen gestern zusammen."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q3",
         "type": "mcq",
         "prompt": "Ergänze: Marta ___ spät nach Hause ___.",
         "options": [
-          "ist kommen",
-          "hat gekommen",
-          "ist gekommen",
-          "kommt gestern"
+          {
+            "id": "o1",
+            "text": "ist kommen"
+          },
+          {
+            "id": "o2",
+            "text": "hat gekommen"
+          },
+          {
+            "id": "o3",
+            "text": "ist gekommen"
+          },
+          {
+            "id": "o4",
+            "text": "kommt gestern"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q4",
         "type": "mcq",
         "prompt": "Welcher Satz zeigt eine Reihenfolge?",
         "options": [
-          "Zuerst haben wir gelernt, wenn sind wir gegangen.",
-          "Zuerst haben wir gelernt, weil sind wir gegangen.",
-          "Zuerst haben wir gelernt, obwohl sind wir gegangen.",
-          "Zuerst haben wir gelernt, dann sind wir gegangen."
+          {
+            "id": "o1",
+            "text": "Zuerst haben wir gelernt, wenn sind wir gegangen."
+          },
+          {
+            "id": "o2",
+            "text": "Zuerst haben wir gelernt, weil sind wir gegangen."
+          },
+          {
+            "id": "o3",
+            "text": "Zuerst haben wir gelernt, obwohl sind wir gegangen."
+          },
+          {
+            "id": "o4",
+            "text": "Zuerst haben wir gelernt, dann sind wir gegangen."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q5",
         "type": "mcq",
         "prompt": "Ergänze: ___ du die Nachricht ___?",
         "options": [
-          "Hast gelesen",
-          "Hast lesen",
-          "Bist gelesen",
-          "Liest gestern"
+          {
+            "id": "o1",
+            "text": "Hast gelesen"
+          },
+          {
+            "id": "o2",
+            "text": "Hast lesen"
+          },
+          {
+            "id": "o3",
+            "text": "Bist gelesen"
+          },
+          {
+            "id": "o4",
+            "text": "Liest gestern"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q6",
         "type": "mcq",
         "prompt": "Wähle den Perfekt-Satz mit dem richtigen Hilfsverb.",
         "options": [
-          "Meine Freunde sind den Bus genommen.",
-          "Meine Freunde haben den Bus genommen.",
-          "Meine Freunde haben den Bus nehmen.",
-          "Meine Freunde nehmen gestern den Bus."
+          {
+            "id": "o1",
+            "text": "Meine Freunde sind den Bus genommen."
+          },
+          {
+            "id": "o2",
+            "text": "Meine Freunde haben den Bus genommen."
+          },
+          {
+            "id": "o3",
+            "text": "Meine Freunde haben den Bus nehmen."
+          },
+          {
+            "id": "o4",
+            "text": "Meine Freunde nehmen gestern den Bus."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q7",
         "type": "mcq",
         "prompt": "Ergänze: Wir ___ eine wichtige Erfahrung ___.",
         "options": [
-          "haben machen",
-          "sind gemacht",
-          "haben gemacht",
-          "machen gestern"
+          {
+            "id": "o1",
+            "text": "haben machen"
+          },
+          {
+            "id": "o2",
+            "text": "sind gemacht"
+          },
+          {
+            "id": "o3",
+            "text": "haben gemacht"
+          },
+          {
+            "id": "o4",
+            "text": "machen gestern"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q8",
         "type": "mcq",
         "prompt": "Welcher Satz beschreibt eine abgeschlossene Handlung?",
         "options": [
-          "Am Samstag bin ich meine Cousine getroffen.",
-          "Am Samstag treffe ich meine Cousine morgen.",
-          "Am Samstag treffen meine Cousine.",
-          "Am Samstag habe ich meine Cousine getroffen."
+          {
+            "id": "o1",
+            "text": "Am Samstag bin ich meine Cousine getroffen."
+          },
+          {
+            "id": "o2",
+            "text": "Am Samstag treffe ich meine Cousine morgen."
+          },
+          {
+            "id": "o3",
+            "text": "Am Samstag treffen meine Cousine."
+          },
+          {
+            "id": "o4",
+            "text": "Am Samstag habe ich meine Cousine getroffen."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       }
     ]
@@ -7215,9 +8771,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Relativsätze",
-        "definition": "Práctica guiada de Relativsätze.",
+        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
         "structure": "Meinung + weil/obwohl/deshalb + Begründung",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Eine Meinung ausdrücken und begründen.",
         "examples": [
           "Ich finde den Vorschlag sinnvoll.",
           "Trotzdem müssen wir die Ergebnisse prüfen."
@@ -7226,83 +8782,187 @@
       "grammarTest": {
         "questions": [
           {
+            "id": "q1",
             "type": "mcq",
             "prompt": "Ergänze: Ich finde, dass der Vorschlag sinnvoll ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "ist"
+              },
+              {
+                "id": "o2",
+                "text": "sind"
+              },
+              {
+                "id": "o3",
+                "text": "sein"
+              },
+              {
+                "id": "o4",
+                "text": "sei"
+              }
             ]
           },
           {
+            "id": "q2",
             "type": "mcq",
             "prompt": "Wähle den Konnektor für einen Gegensatz.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Ich möchte ausgehen, deshalb es regnet."
+              },
+              {
+                "id": "o2",
+                "text": "Ich möchte ausgehen, aber es regnet."
+              },
+              {
+                "id": "o3",
+                "text": "Ich möchte ausgehen, weil es regnet."
+              },
+              {
+                "id": "o4",
+                "text": "Ich möchte ausgehen, dann es regnet."
+              }
             ]
           },
           {
+            "id": "q3",
             "type": "mcq",
             "prompt": "Ergänze: Ich bleibe zu Hause, weil ich müde ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "sein"
+              },
+              {
+                "id": "o2",
+                "text": "ist"
+              },
+              {
+                "id": "o3",
+                "text": "bin"
+              },
+              {
+                "id": "o4",
+                "text": "bist"
+              }
             ]
           },
           {
+            "id": "q4",
             "type": "mcq",
             "prompt": "Welcher Satz drückt eine Meinung aus?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Das Projekt funktioniert warum?"
+              },
+              {
+                "id": "o2",
+                "text": "Das Projekt gestern funktioniert?"
+              },
+              {
+                "id": "o3",
+                "text": "Funktionieren das Projekt meiner Meinung."
+              },
+              {
+                "id": "o4",
+                "text": "Meiner Meinung nach funktioniert das Projekt."
+              }
             ]
           },
           {
+            "id": "q5",
             "type": "mcq",
             "prompt": "Ergänze: Obwohl es spät ___, arbeiten wir weiter.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "ist"
+              },
+              {
+                "id": "o2",
+                "text": "sind"
+              },
+              {
+                "id": "o3",
+                "text": "sein"
+              },
+              {
+                "id": "o4",
+                "text": "bist"
+              }
             ]
           },
           {
+            "id": "q6",
             "type": "mcq",
             "prompt": "Wähle eine logische Folge.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Wir haben wenig Zeit, aber planen wir die Arbeit."
+              },
+              {
+                "id": "o2",
+                "text": "Wir haben wenig Zeit, deshalb planen wir die Arbeit."
+              },
+              {
+                "id": "o3",
+                "text": "Wir haben wenig Zeit, weil planen wir die Arbeit."
+              },
+              {
+                "id": "o4",
+                "text": "Wir haben wenig Zeit, obwohl planen wir die Arbeit."
+              }
             ]
           },
           {
+            "id": "q7",
             "type": "mcq",
             "prompt": "Ergänze: Ich glaube, dass sie Recht ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "sein"
+              },
+              {
+                "id": "o2",
+                "text": "haben"
+              },
+              {
+                "id": "o3",
+                "text": "hat"
+              },
+              {
+                "id": "o4",
+                "text": "hatte"
+              }
             ]
           },
           {
+            "id": "q8",
             "type": "mcq",
             "prompt": "Welcher Satz begründet eine Wahl?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Ich nehme den Zug er nachhaltiger ist weil."
+              },
+              {
+                "id": "o2",
+                "text": "Ich nehme den Zug, aber er nachhaltiger ist."
+              },
+              {
+                "id": "o3",
+                "text": "Ich nehme den Zug, deshalb er nachhaltiger ist?"
+              },
+              {
+                "id": "o4",
+                "text": "Ich nehme den Zug, weil er nachhaltiger ist."
+              }
             ]
           }
         ]
@@ -7311,91 +8971,203 @@
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
         "prompt": "Ergänze: Ich finde, dass der Vorschlag sinnvoll ___.",
         "options": [
-          "ist",
-          "sind",
-          "sein",
-          "sei"
+          {
+            "id": "o1",
+            "text": "ist"
+          },
+          {
+            "id": "o2",
+            "text": "sind"
+          },
+          {
+            "id": "o3",
+            "text": "sein"
+          },
+          {
+            "id": "o4",
+            "text": "sei"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q2",
         "type": "mcq",
         "prompt": "Wähle den Konnektor für einen Gegensatz.",
         "options": [
-          "Ich möchte ausgehen, deshalb es regnet.",
-          "Ich möchte ausgehen, aber es regnet.",
-          "Ich möchte ausgehen, weil es regnet.",
-          "Ich möchte ausgehen, dann es regnet."
+          {
+            "id": "o1",
+            "text": "Ich möchte ausgehen, deshalb es regnet."
+          },
+          {
+            "id": "o2",
+            "text": "Ich möchte ausgehen, aber es regnet."
+          },
+          {
+            "id": "o3",
+            "text": "Ich möchte ausgehen, weil es regnet."
+          },
+          {
+            "id": "o4",
+            "text": "Ich möchte ausgehen, dann es regnet."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q3",
         "type": "mcq",
         "prompt": "Ergänze: Ich bleibe zu Hause, weil ich müde ___.",
         "options": [
-          "sein",
-          "ist",
-          "bin",
-          "bist"
+          {
+            "id": "o1",
+            "text": "sein"
+          },
+          {
+            "id": "o2",
+            "text": "ist"
+          },
+          {
+            "id": "o3",
+            "text": "bin"
+          },
+          {
+            "id": "o4",
+            "text": "bist"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q4",
         "type": "mcq",
         "prompt": "Welcher Satz drückt eine Meinung aus?",
         "options": [
-          "Das Projekt funktioniert warum?",
-          "Das Projekt gestern funktioniert?",
-          "Funktionieren das Projekt meiner Meinung.",
-          "Meiner Meinung nach funktioniert das Projekt."
+          {
+            "id": "o1",
+            "text": "Das Projekt funktioniert warum?"
+          },
+          {
+            "id": "o2",
+            "text": "Das Projekt gestern funktioniert?"
+          },
+          {
+            "id": "o3",
+            "text": "Funktionieren das Projekt meiner Meinung."
+          },
+          {
+            "id": "o4",
+            "text": "Meiner Meinung nach funktioniert das Projekt."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q5",
         "type": "mcq",
         "prompt": "Ergänze: Obwohl es spät ___, arbeiten wir weiter.",
         "options": [
-          "ist",
-          "sind",
-          "sein",
-          "bist"
+          {
+            "id": "o1",
+            "text": "ist"
+          },
+          {
+            "id": "o2",
+            "text": "sind"
+          },
+          {
+            "id": "o3",
+            "text": "sein"
+          },
+          {
+            "id": "o4",
+            "text": "bist"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q6",
         "type": "mcq",
         "prompt": "Wähle eine logische Folge.",
         "options": [
-          "Wir haben wenig Zeit, aber planen wir die Arbeit.",
-          "Wir haben wenig Zeit, deshalb planen wir die Arbeit.",
-          "Wir haben wenig Zeit, weil planen wir die Arbeit.",
-          "Wir haben wenig Zeit, obwohl planen wir die Arbeit."
+          {
+            "id": "o1",
+            "text": "Wir haben wenig Zeit, aber planen wir die Arbeit."
+          },
+          {
+            "id": "o2",
+            "text": "Wir haben wenig Zeit, deshalb planen wir die Arbeit."
+          },
+          {
+            "id": "o3",
+            "text": "Wir haben wenig Zeit, weil planen wir die Arbeit."
+          },
+          {
+            "id": "o4",
+            "text": "Wir haben wenig Zeit, obwohl planen wir die Arbeit."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q7",
         "type": "mcq",
         "prompt": "Ergänze: Ich glaube, dass sie Recht ___.",
         "options": [
-          "sein",
-          "haben",
-          "hat",
-          "hatte"
+          {
+            "id": "o1",
+            "text": "sein"
+          },
+          {
+            "id": "o2",
+            "text": "haben"
+          },
+          {
+            "id": "o3",
+            "text": "hat"
+          },
+          {
+            "id": "o4",
+            "text": "hatte"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q8",
         "type": "mcq",
         "prompt": "Welcher Satz begründet eine Wahl?",
         "options": [
-          "Ich nehme den Zug er nachhaltiger ist weil.",
-          "Ich nehme den Zug, aber er nachhaltiger ist.",
-          "Ich nehme den Zug, deshalb er nachhaltiger ist?",
-          "Ich nehme den Zug, weil er nachhaltiger ist."
+          {
+            "id": "o1",
+            "text": "Ich nehme den Zug er nachhaltiger ist weil."
+          },
+          {
+            "id": "o2",
+            "text": "Ich nehme den Zug, aber er nachhaltiger ist."
+          },
+          {
+            "id": "o3",
+            "text": "Ich nehme den Zug, deshalb er nachhaltiger ist?"
+          },
+          {
+            "id": "o4",
+            "text": "Ich nehme den Zug, weil er nachhaltiger ist."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       }
     ]
@@ -9073,121 +10845,277 @@
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Kaffee",
-          "Tee",
-          "Wasser",
-          "Brot"
-        ]
+          {
+            "id": "o1",
+            "text": "Kaffee"
+          },
+          {
+            "id": "o2",
+            "text": "Tee"
+          },
+          {
+            "id": "o3",
+            "text": "Wasser"
+          },
+          {
+            "id": "o4",
+            "text": "Brot"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Kaffee",
-          "Tee",
-          "Wasser",
-          "Brot"
-        ]
+          {
+            "id": "o1",
+            "text": "Kaffee"
+          },
+          {
+            "id": "o2",
+            "text": "Tee"
+          },
+          {
+            "id": "o3",
+            "text": "Wasser"
+          },
+          {
+            "id": "o4",
+            "text": "Brot"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Tee",
-          "Kaffee",
-          "Wasser",
-          "Brot"
-        ]
+          {
+            "id": "o1",
+            "text": "Tee"
+          },
+          {
+            "id": "o2",
+            "text": "Kaffee"
+          },
+          {
+            "id": "o3",
+            "text": "Wasser"
+          },
+          {
+            "id": "o4",
+            "text": "Brot"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Wasser",
-          "Kaffee",
-          "Tee",
-          "Brot"
-        ]
+          {
+            "id": "o1",
+            "text": "Wasser"
+          },
+          {
+            "id": "o2",
+            "text": "Kaffee"
+          },
+          {
+            "id": "o3",
+            "text": "Tee"
+          },
+          {
+            "id": "o4",
+            "text": "Brot"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "bitte",
-          "Kaffee",
-          "Tee",
-          "Wasser"
-        ]
+          {
+            "id": "o1",
+            "text": "bitte"
+          },
+          {
+            "id": "o2",
+            "text": "Kaffee"
+          },
+          {
+            "id": "o3",
+            "text": "Tee"
+          },
+          {
+            "id": "o4",
+            "text": "Wasser"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Kaffee",
-          "möchten",
-          "Tee",
-          "Wasser"
-        ]
+          {
+            "id": "o1",
+            "text": "Kaffee"
+          },
+          {
+            "id": "o2",
+            "text": "möchten"
+          },
+          {
+            "id": "o3",
+            "text": "Tee"
+          },
+          {
+            "id": "o4",
+            "text": "Wasser"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Tee",
-          "Kaffee",
-          "zahlen",
-          "Wasser"
-        ]
+          {
+            "id": "o1",
+            "text": "Tee"
+          },
+          {
+            "id": "o2",
+            "text": "Kaffee"
+          },
+          {
+            "id": "o3",
+            "text": "zahlen"
+          },
+          {
+            "id": "o4",
+            "text": "Wasser"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Wasser",
-          "Kaffee",
-          "Tee",
-          "Tisch"
-        ]
+          {
+            "id": "o1",
+            "text": "Wasser"
+          },
+          {
+            "id": "o2",
+            "text": "Kaffee"
+          },
+          {
+            "id": "o3",
+            "text": "Tee"
+          },
+          {
+            "id": "o4",
+            "text": "Tisch"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "lecker",
-          "Kaffee",
-          "Tee",
-          "Wasser"
-        ]
+          {
+            "id": "o1",
+            "text": "lecker"
+          },
+          {
+            "id": "o2",
+            "text": "Kaffee"
+          },
+          {
+            "id": "o3",
+            "text": "Tee"
+          },
+          {
+            "id": "o4",
+            "text": "Wasser"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Kaffee",
-          "Rechnung",
-          "Tee",
-          "Wasser"
-        ]
+          {
+            "id": "o1",
+            "text": "Kaffee"
+          },
+          {
+            "id": "o2",
+            "text": "Rechnung"
+          },
+          {
+            "id": "o3",
+            "text": "Tee"
+          },
+          {
+            "id": "o4",
+            "text": "Wasser"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Tee",
-          "Kaffee",
-          "heute",
-          "Wasser"
-        ]
+          {
+            "id": "o1",
+            "text": "Tee"
+          },
+          {
+            "id": "o2",
+            "text": "Kaffee"
+          },
+          {
+            "id": "o3",
+            "text": "heute"
+          },
+          {
+            "id": "o4",
+            "text": "Wasser"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Wasser",
-          "Kaffee",
-          "Tee",
-          "zusammen"
-        ]
+          {
+            "id": "o1",
+            "text": "Wasser"
+          },
+          {
+            "id": "o2",
+            "text": "Kaffee"
+          },
+          {
+            "id": "o3",
+            "text": "Tee"
+          },
+          {
+            "id": "o4",
+            "text": "zusammen"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },
@@ -9355,121 +11283,277 @@
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Wohnung",
-          "Nachbar",
-          "umziehen",
-          "Miete"
-        ]
+          {
+            "id": "o1",
+            "text": "Wohnung"
+          },
+          {
+            "id": "o2",
+            "text": "Nachbar"
+          },
+          {
+            "id": "o3",
+            "text": "umziehen"
+          },
+          {
+            "id": "o4",
+            "text": "Miete"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Wohnung",
-          "Nachbar",
-          "umziehen",
-          "Miete"
-        ]
+          {
+            "id": "o1",
+            "text": "Wohnung"
+          },
+          {
+            "id": "o2",
+            "text": "Nachbar"
+          },
+          {
+            "id": "o3",
+            "text": "umziehen"
+          },
+          {
+            "id": "o4",
+            "text": "Miete"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Nachbar",
-          "Wohnung",
-          "umziehen",
-          "Miete"
-        ]
+          {
+            "id": "o1",
+            "text": "Nachbar"
+          },
+          {
+            "id": "o2",
+            "text": "Wohnung"
+          },
+          {
+            "id": "o3",
+            "text": "umziehen"
+          },
+          {
+            "id": "o4",
+            "text": "Miete"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "umziehen",
-          "Wohnung",
-          "Nachbar",
-          "Miete"
-        ]
+          {
+            "id": "o1",
+            "text": "umziehen"
+          },
+          {
+            "id": "o2",
+            "text": "Wohnung"
+          },
+          {
+            "id": "o3",
+            "text": "Nachbar"
+          },
+          {
+            "id": "o4",
+            "text": "Miete"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "ruhig",
-          "Wohnung",
-          "Nachbar",
-          "umziehen"
-        ]
+          {
+            "id": "o1",
+            "text": "ruhig"
+          },
+          {
+            "id": "o2",
+            "text": "Wohnung"
+          },
+          {
+            "id": "o3",
+            "text": "Nachbar"
+          },
+          {
+            "id": "o4",
+            "text": "umziehen"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Wohnung",
-          "laut",
-          "Nachbar",
-          "umziehen"
-        ]
+          {
+            "id": "o1",
+            "text": "Wohnung"
+          },
+          {
+            "id": "o2",
+            "text": "laut"
+          },
+          {
+            "id": "o3",
+            "text": "Nachbar"
+          },
+          {
+            "id": "o4",
+            "text": "umziehen"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Nachbar",
-          "Wohnung",
-          "suchen",
-          "umziehen"
-        ]
+          {
+            "id": "o1",
+            "text": "Nachbar"
+          },
+          {
+            "id": "o2",
+            "text": "Wohnung"
+          },
+          {
+            "id": "o3",
+            "text": "suchen"
+          },
+          {
+            "id": "o4",
+            "text": "umziehen"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "umziehen",
-          "Wohnung",
-          "Nachbar",
-          "erklären"
-        ]
+          {
+            "id": "o1",
+            "text": "umziehen"
+          },
+          {
+            "id": "o2",
+            "text": "Wohnung"
+          },
+          {
+            "id": "o3",
+            "text": "Nachbar"
+          },
+          {
+            "id": "o4",
+            "text": "erklären"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Vorteil",
-          "Wohnung",
-          "Nachbar",
-          "umziehen"
-        ]
+          {
+            "id": "o1",
+            "text": "Vorteil"
+          },
+          {
+            "id": "o2",
+            "text": "Wohnung"
+          },
+          {
+            "id": "o3",
+            "text": "Nachbar"
+          },
+          {
+            "id": "o4",
+            "text": "umziehen"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Wohnung",
-          "gemeinsam",
-          "Nachbar",
-          "umziehen"
-        ]
+          {
+            "id": "o1",
+            "text": "Wohnung"
+          },
+          {
+            "id": "o2",
+            "text": "gemeinsam"
+          },
+          {
+            "id": "o3",
+            "text": "Nachbar"
+          },
+          {
+            "id": "o4",
+            "text": "umziehen"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Nachbar",
-          "Wohnung",
-          "heute",
-          "umziehen"
-        ]
+          {
+            "id": "o1",
+            "text": "Nachbar"
+          },
+          {
+            "id": "o2",
+            "text": "Wohnung"
+          },
+          {
+            "id": "o3",
+            "text": "heute"
+          },
+          {
+            "id": "o4",
+            "text": "umziehen"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "umziehen",
-          "Wohnung",
-          "Nachbar",
-          "zusammen"
-        ]
+          {
+            "id": "o1",
+            "text": "umziehen"
+          },
+          {
+            "id": "o2",
+            "text": "Wohnung"
+          },
+          {
+            "id": "o3",
+            "text": "Nachbar"
+          },
+          {
+            "id": "o4",
+            "text": "zusammen"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },
@@ -9637,121 +11721,277 @@
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Reiseplan",
-          "Buchung",
-          "Landschaft",
-          "vermeiden"
-        ]
+          {
+            "id": "o1",
+            "text": "Reiseplan"
+          },
+          {
+            "id": "o2",
+            "text": "Buchung"
+          },
+          {
+            "id": "o3",
+            "text": "Landschaft"
+          },
+          {
+            "id": "o4",
+            "text": "vermeiden"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Reiseplan",
-          "Buchung",
-          "Landschaft",
-          "vermeiden"
-        ]
+          {
+            "id": "o1",
+            "text": "Reiseplan"
+          },
+          {
+            "id": "o2",
+            "text": "Buchung"
+          },
+          {
+            "id": "o3",
+            "text": "Landschaft"
+          },
+          {
+            "id": "o4",
+            "text": "vermeiden"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Buchung",
-          "Reiseplan",
-          "Landschaft",
-          "vermeiden"
-        ]
+          {
+            "id": "o1",
+            "text": "Buchung"
+          },
+          {
+            "id": "o2",
+            "text": "Reiseplan"
+          },
+          {
+            "id": "o3",
+            "text": "Landschaft"
+          },
+          {
+            "id": "o4",
+            "text": "vermeiden"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Landschaft",
-          "Reiseplan",
-          "Buchung",
-          "vermeiden"
-        ]
+          {
+            "id": "o1",
+            "text": "Landschaft"
+          },
+          {
+            "id": "o2",
+            "text": "Reiseplan"
+          },
+          {
+            "id": "o3",
+            "text": "Buchung"
+          },
+          {
+            "id": "o4",
+            "text": "vermeiden"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "empfehlen",
-          "Reiseplan",
-          "Buchung",
-          "Landschaft"
-        ]
+          {
+            "id": "o1",
+            "text": "empfehlen"
+          },
+          {
+            "id": "o2",
+            "text": "Reiseplan"
+          },
+          {
+            "id": "o3",
+            "text": "Buchung"
+          },
+          {
+            "id": "o4",
+            "text": "Landschaft"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Reiseplan",
-          "Erfahrung",
-          "Buchung",
-          "Landschaft"
-        ]
+          {
+            "id": "o1",
+            "text": "Reiseplan"
+          },
+          {
+            "id": "o2",
+            "text": "Erfahrung"
+          },
+          {
+            "id": "o3",
+            "text": "Buchung"
+          },
+          {
+            "id": "o4",
+            "text": "Landschaft"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Buchung",
-          "Reiseplan",
-          "gastfreundlich",
-          "Landschaft"
-        ]
+          {
+            "id": "o1",
+            "text": "Buchung"
+          },
+          {
+            "id": "o2",
+            "text": "Reiseplan"
+          },
+          {
+            "id": "o3",
+            "text": "gastfreundlich"
+          },
+          {
+            "id": "o4",
+            "text": "Landschaft"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Landschaft",
-          "Reiseplan",
-          "Buchung",
-          "Verkehr"
-        ]
+          {
+            "id": "o1",
+            "text": "Landschaft"
+          },
+          {
+            "id": "o2",
+            "text": "Reiseplan"
+          },
+          {
+            "id": "o3",
+            "text": "Buchung"
+          },
+          {
+            "id": "o4",
+            "text": "Verkehr"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "nachhaltig",
-          "Reiseplan",
-          "Buchung",
-          "Landschaft"
-        ]
+          {
+            "id": "o1",
+            "text": "nachhaltig"
+          },
+          {
+            "id": "o2",
+            "text": "Reiseplan"
+          },
+          {
+            "id": "o3",
+            "text": "Buchung"
+          },
+          {
+            "id": "o4",
+            "text": "Landschaft"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Reiseplan",
-          "Erinnerung",
-          "Buchung",
-          "Landschaft"
-        ]
+          {
+            "id": "o1",
+            "text": "Reiseplan"
+          },
+          {
+            "id": "o2",
+            "text": "Erinnerung"
+          },
+          {
+            "id": "o3",
+            "text": "Buchung"
+          },
+          {
+            "id": "o4",
+            "text": "Landschaft"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Buchung",
-          "Reiseplan",
-          "heute",
-          "Landschaft"
-        ]
+          {
+            "id": "o1",
+            "text": "Buchung"
+          },
+          {
+            "id": "o2",
+            "text": "Reiseplan"
+          },
+          {
+            "id": "o3",
+            "text": "heute"
+          },
+          {
+            "id": "o4",
+            "text": "Landschaft"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Landschaft",
-          "Reiseplan",
-          "Buchung",
-          "zusammen"
-        ]
+          {
+            "id": "o1",
+            "text": "Landschaft"
+          },
+          {
+            "id": "o2",
+            "text": "Reiseplan"
+          },
+          {
+            "id": "o3",
+            "text": "Buchung"
+          },
+          {
+            "id": "o4",
+            "text": "zusammen"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },
@@ -12031,93 +14271,198 @@
     "extra": {
       "grammarProfile": {
         "name": "Possessivartikel und Plural",
-        "definition": "mein/dein zeigen Zugehörigkeit; Nomen haben Singular und Plural.",
-        "structure": "Das ist meine Familie. Meine Brüder wohnen hier.",
-        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
+        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
+        "structure": "Subjekt + Verb + Ergänzung",
+        "function": "Über Personen, Orte und Alltag sprechen.",
         "examples": [
-          "Das ist meine Familie. Meine Brüder wohnen hier."
+          "Ich wohne im Viertel.",
+          "Leon spricht mit Anna."
         ]
       },
       "grammarTest": {
         "questions": [
           {
+            "id": "q1",
             "type": "mcq",
             "prompt": "Ergänze: Ich ___ im Viertel.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "wohne"
+              },
+              {
+                "id": "o2",
+                "text": "wohnt"
+              },
+              {
+                "id": "o3",
+                "text": "wohnen"
+              },
+              {
+                "id": "o4",
+                "text": "wohnst"
+              }
             ]
           },
           {
+            "id": "q2",
             "type": "mcq",
             "prompt": "Wähle den richtigen Satz.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Leon sprechen mit Anna."
+              },
+              {
+                "id": "o2",
+                "text": "Leon spricht mit Anna."
+              },
+              {
+                "id": "o3",
+                "text": "Leon spreche mit Anna."
+              },
+              {
+                "id": "o4",
+                "text": "Leon sprich mit Anna."
+              }
             ]
           },
           {
+            "id": "q3",
             "type": "mcq",
             "prompt": "Ergänze: Wir ___ jeden Tag Deutsch.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "lerne"
+              },
+              {
+                "id": "o2",
+                "text": "lernt"
+              },
+              {
+                "id": "o3",
+                "text": "lernen"
+              },
+              {
+                "id": "o4",
+                "text": "lernst"
+              }
             ]
           },
           {
+            "id": "q4",
             "type": "mcq",
             "prompt": "Welche Frage ist richtig?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Wo wohnst?"
+              },
+              {
+                "id": "o2",
+                "text": "Wo wohnen du?"
+              },
+              {
+                "id": "o3",
+                "text": "Wo du wohnst?"
+              },
+              {
+                "id": "o4",
+                "text": "Wo wohnst du?"
+              }
             ]
           },
           {
+            "id": "q5",
             "type": "mcq",
             "prompt": "Ergänze: Sie ___ eine Frage.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "stellt"
+              },
+              {
+                "id": "o2",
+                "text": "stelle"
+              },
+              {
+                "id": "o3",
+                "text": "stellen"
+              },
+              {
+                "id": "o4",
+                "text": "stellst"
+              }
             ]
           },
           {
+            "id": "q6",
             "type": "mcq",
             "prompt": "Wähle den Satz über ein Haus.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Das Haus sind hell."
+              },
+              {
+                "id": "o2",
+                "text": "Das Haus ist hell."
+              },
+              {
+                "id": "o3",
+                "text": "Die Haus ist hell."
+              },
+              {
+                "id": "o4",
+                "text": "Das Haus ist helle."
+              }
             ]
           },
           {
+            "id": "q7",
             "type": "mcq",
             "prompt": "Ergänze: Du ___ Kaffee.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "trinken"
+              },
+              {
+                "id": "o2",
+                "text": "trinkt"
+              },
+              {
+                "id": "o3",
+                "text": "trinkst"
+              },
+              {
+                "id": "o4",
+                "text": "trinke"
+              }
             ]
           },
           {
+            "id": "q8",
             "type": "mcq",
             "prompt": "Welcher Satz beschreibt eine Routine?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Jeden Morgen arbeitet ich im Zentrum."
+              },
+              {
+                "id": "o2",
+                "text": "Gestern arbeiten ich im Zentrum."
+              },
+              {
+                "id": "o3",
+                "text": "Morgen arbeitete ich im Zentrum."
+              },
+              {
+                "id": "o4",
+                "text": "Jeden Morgen arbeite ich im Zentrum."
+              }
             ]
           }
         ]
@@ -12126,91 +14471,203 @@
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
         "prompt": "Ergänze: Ich ___ im Viertel.",
         "options": [
-          "wohne",
-          "wohnt",
-          "wohnen",
-          "wohnst"
+          {
+            "id": "o1",
+            "text": "wohne"
+          },
+          {
+            "id": "o2",
+            "text": "wohnt"
+          },
+          {
+            "id": "o3",
+            "text": "wohnen"
+          },
+          {
+            "id": "o4",
+            "text": "wohnst"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q2",
         "type": "mcq",
         "prompt": "Wähle den richtigen Satz.",
         "options": [
-          "Leon sprechen mit Anna.",
-          "Leon spricht mit Anna.",
-          "Leon spreche mit Anna.",
-          "Leon sprich mit Anna."
+          {
+            "id": "o1",
+            "text": "Leon sprechen mit Anna."
+          },
+          {
+            "id": "o2",
+            "text": "Leon spricht mit Anna."
+          },
+          {
+            "id": "o3",
+            "text": "Leon spreche mit Anna."
+          },
+          {
+            "id": "o4",
+            "text": "Leon sprich mit Anna."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q3",
         "type": "mcq",
         "prompt": "Ergänze: Wir ___ jeden Tag Deutsch.",
         "options": [
-          "lerne",
-          "lernt",
-          "lernen",
-          "lernst"
+          {
+            "id": "o1",
+            "text": "lerne"
+          },
+          {
+            "id": "o2",
+            "text": "lernt"
+          },
+          {
+            "id": "o3",
+            "text": "lernen"
+          },
+          {
+            "id": "o4",
+            "text": "lernst"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q4",
         "type": "mcq",
         "prompt": "Welche Frage ist richtig?",
         "options": [
-          "Wo wohnst?",
-          "Wo wohnen du?",
-          "Wo du wohnst?",
-          "Wo wohnst du?"
+          {
+            "id": "o1",
+            "text": "Wo wohnst?"
+          },
+          {
+            "id": "o2",
+            "text": "Wo wohnen du?"
+          },
+          {
+            "id": "o3",
+            "text": "Wo du wohnst?"
+          },
+          {
+            "id": "o4",
+            "text": "Wo wohnst du?"
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q5",
         "type": "mcq",
         "prompt": "Ergänze: Sie ___ eine Frage.",
         "options": [
-          "stellt",
-          "stelle",
-          "stellen",
-          "stellst"
+          {
+            "id": "o1",
+            "text": "stellt"
+          },
+          {
+            "id": "o2",
+            "text": "stelle"
+          },
+          {
+            "id": "o3",
+            "text": "stellen"
+          },
+          {
+            "id": "o4",
+            "text": "stellst"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q6",
         "type": "mcq",
         "prompt": "Wähle den Satz über ein Haus.",
         "options": [
-          "Das Haus sind hell.",
-          "Das Haus ist hell.",
-          "Die Haus ist hell.",
-          "Das Haus ist helle."
+          {
+            "id": "o1",
+            "text": "Das Haus sind hell."
+          },
+          {
+            "id": "o2",
+            "text": "Das Haus ist hell."
+          },
+          {
+            "id": "o3",
+            "text": "Die Haus ist hell."
+          },
+          {
+            "id": "o4",
+            "text": "Das Haus ist helle."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q7",
         "type": "mcq",
         "prompt": "Ergänze: Du ___ Kaffee.",
         "options": [
-          "trinken",
-          "trinkt",
-          "trinkst",
-          "trinke"
+          {
+            "id": "o1",
+            "text": "trinken"
+          },
+          {
+            "id": "o2",
+            "text": "trinkt"
+          },
+          {
+            "id": "o3",
+            "text": "trinkst"
+          },
+          {
+            "id": "o4",
+            "text": "trinke"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q8",
         "type": "mcq",
         "prompt": "Welcher Satz beschreibt eine Routine?",
         "options": [
-          "Jeden Morgen arbeitet ich im Zentrum.",
-          "Gestern arbeiten ich im Zentrum.",
-          "Morgen arbeitete ich im Zentrum.",
-          "Jeden Morgen arbeite ich im Zentrum."
+          {
+            "id": "o1",
+            "text": "Jeden Morgen arbeitet ich im Zentrum."
+          },
+          {
+            "id": "o2",
+            "text": "Gestern arbeiten ich im Zentrum."
+          },
+          {
+            "id": "o3",
+            "text": "Morgen arbeitete ich im Zentrum."
+          },
+          {
+            "id": "o4",
+            "text": "Jeden Morgen arbeite ich im Zentrum."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       }
     ]
@@ -12291,93 +14748,198 @@
     "extra": {
       "grammarProfile": {
         "name": "Modalverben im Präteritum",
-        "definition": "konnte, musste y wollte describen posibilidad, obligación o deseo en el pasado.",
-        "structure": "Ich musste zum Arzt gehen.",
-        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
+        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
+        "structure": "haben/sein + Partizip II",
+        "function": "Erfahrungen und Pläne erzählen.",
         "examples": [
-          "Ich musste zum Arzt gehen."
+          "Gestern habe ich das Museum besucht.",
+          "Danach haben wir zusammen gesprochen."
         ]
       },
       "grammarTest": {
         "questions": [
           {
+            "id": "q1",
             "type": "mcq",
             "prompt": "Ergänze: Gestern ___ ich das Museum ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "habe besucht"
+              },
+              {
+                "id": "o2",
+                "text": "besuche"
+              },
+              {
+                "id": "o3",
+                "text": "habe besuchen"
+              },
+              {
+                "id": "o4",
+                "text": "bin besucht"
+              }
             ]
           },
           {
+            "id": "q2",
             "type": "mcq",
             "prompt": "Wähle den richtigen Perfekt-Satz.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Wir haben zusammen essen."
+              },
+              {
+                "id": "o2",
+                "text": "Wir haben zusammen gegessen."
+              },
+              {
+                "id": "o3",
+                "text": "Wir sind zusammen gegessen."
+              },
+              {
+                "id": "o4",
+                "text": "Wir essen gestern zusammen."
+              }
             ]
           },
           {
+            "id": "q3",
             "type": "mcq",
             "prompt": "Ergänze: Marta ___ spät nach Hause ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "ist kommen"
+              },
+              {
+                "id": "o2",
+                "text": "hat gekommen"
+              },
+              {
+                "id": "o3",
+                "text": "ist gekommen"
+              },
+              {
+                "id": "o4",
+                "text": "kommt gestern"
+              }
             ]
           },
           {
+            "id": "q4",
             "type": "mcq",
             "prompt": "Welcher Satz zeigt eine Reihenfolge?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Zuerst haben wir gelernt, wenn sind wir gegangen."
+              },
+              {
+                "id": "o2",
+                "text": "Zuerst haben wir gelernt, weil sind wir gegangen."
+              },
+              {
+                "id": "o3",
+                "text": "Zuerst haben wir gelernt, obwohl sind wir gegangen."
+              },
+              {
+                "id": "o4",
+                "text": "Zuerst haben wir gelernt, dann sind wir gegangen."
+              }
             ]
           },
           {
+            "id": "q5",
             "type": "mcq",
             "prompt": "Ergänze: ___ du die Nachricht ___?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Hast gelesen"
+              },
+              {
+                "id": "o2",
+                "text": "Hast lesen"
+              },
+              {
+                "id": "o3",
+                "text": "Bist gelesen"
+              },
+              {
+                "id": "o4",
+                "text": "Liest gestern"
+              }
             ]
           },
           {
+            "id": "q6",
             "type": "mcq",
             "prompt": "Wähle den Perfekt-Satz mit dem richtigen Hilfsverb.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Meine Freunde sind den Bus genommen."
+              },
+              {
+                "id": "o2",
+                "text": "Meine Freunde haben den Bus genommen."
+              },
+              {
+                "id": "o3",
+                "text": "Meine Freunde haben den Bus nehmen."
+              },
+              {
+                "id": "o4",
+                "text": "Meine Freunde nehmen gestern den Bus."
+              }
             ]
           },
           {
+            "id": "q7",
             "type": "mcq",
             "prompt": "Ergänze: Wir ___ eine wichtige Erfahrung ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "haben machen"
+              },
+              {
+                "id": "o2",
+                "text": "sind gemacht"
+              },
+              {
+                "id": "o3",
+                "text": "haben gemacht"
+              },
+              {
+                "id": "o4",
+                "text": "machen gestern"
+              }
             ]
           },
           {
+            "id": "q8",
             "type": "mcq",
             "prompt": "Welcher Satz beschreibt eine abgeschlossene Handlung?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Am Samstag bin ich meine Cousine getroffen."
+              },
+              {
+                "id": "o2",
+                "text": "Am Samstag treffe ich meine Cousine morgen."
+              },
+              {
+                "id": "o3",
+                "text": "Am Samstag treffen meine Cousine."
+              },
+              {
+                "id": "o4",
+                "text": "Am Samstag habe ich meine Cousine getroffen."
+              }
             ]
           }
         ]
@@ -12386,91 +14948,203 @@
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
         "prompt": "Ergänze: Gestern ___ ich das Museum ___.",
         "options": [
-          "habe besucht",
-          "besuche",
-          "habe besuchen",
-          "bin besucht"
+          {
+            "id": "o1",
+            "text": "habe besucht"
+          },
+          {
+            "id": "o2",
+            "text": "besuche"
+          },
+          {
+            "id": "o3",
+            "text": "habe besuchen"
+          },
+          {
+            "id": "o4",
+            "text": "bin besucht"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q2",
         "type": "mcq",
         "prompt": "Wähle den richtigen Perfekt-Satz.",
         "options": [
-          "Wir haben zusammen essen.",
-          "Wir haben zusammen gegessen.",
-          "Wir sind zusammen gegessen.",
-          "Wir essen gestern zusammen."
+          {
+            "id": "o1",
+            "text": "Wir haben zusammen essen."
+          },
+          {
+            "id": "o2",
+            "text": "Wir haben zusammen gegessen."
+          },
+          {
+            "id": "o3",
+            "text": "Wir sind zusammen gegessen."
+          },
+          {
+            "id": "o4",
+            "text": "Wir essen gestern zusammen."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q3",
         "type": "mcq",
         "prompt": "Ergänze: Marta ___ spät nach Hause ___.",
         "options": [
-          "ist kommen",
-          "hat gekommen",
-          "ist gekommen",
-          "kommt gestern"
+          {
+            "id": "o1",
+            "text": "ist kommen"
+          },
+          {
+            "id": "o2",
+            "text": "hat gekommen"
+          },
+          {
+            "id": "o3",
+            "text": "ist gekommen"
+          },
+          {
+            "id": "o4",
+            "text": "kommt gestern"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q4",
         "type": "mcq",
         "prompt": "Welcher Satz zeigt eine Reihenfolge?",
         "options": [
-          "Zuerst haben wir gelernt, wenn sind wir gegangen.",
-          "Zuerst haben wir gelernt, weil sind wir gegangen.",
-          "Zuerst haben wir gelernt, obwohl sind wir gegangen.",
-          "Zuerst haben wir gelernt, dann sind wir gegangen."
+          {
+            "id": "o1",
+            "text": "Zuerst haben wir gelernt, wenn sind wir gegangen."
+          },
+          {
+            "id": "o2",
+            "text": "Zuerst haben wir gelernt, weil sind wir gegangen."
+          },
+          {
+            "id": "o3",
+            "text": "Zuerst haben wir gelernt, obwohl sind wir gegangen."
+          },
+          {
+            "id": "o4",
+            "text": "Zuerst haben wir gelernt, dann sind wir gegangen."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q5",
         "type": "mcq",
         "prompt": "Ergänze: ___ du die Nachricht ___?",
         "options": [
-          "Hast gelesen",
-          "Hast lesen",
-          "Bist gelesen",
-          "Liest gestern"
+          {
+            "id": "o1",
+            "text": "Hast gelesen"
+          },
+          {
+            "id": "o2",
+            "text": "Hast lesen"
+          },
+          {
+            "id": "o3",
+            "text": "Bist gelesen"
+          },
+          {
+            "id": "o4",
+            "text": "Liest gestern"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q6",
         "type": "mcq",
         "prompt": "Wähle den Perfekt-Satz mit dem richtigen Hilfsverb.",
         "options": [
-          "Meine Freunde sind den Bus genommen.",
-          "Meine Freunde haben den Bus genommen.",
-          "Meine Freunde haben den Bus nehmen.",
-          "Meine Freunde nehmen gestern den Bus."
+          {
+            "id": "o1",
+            "text": "Meine Freunde sind den Bus genommen."
+          },
+          {
+            "id": "o2",
+            "text": "Meine Freunde haben den Bus genommen."
+          },
+          {
+            "id": "o3",
+            "text": "Meine Freunde haben den Bus nehmen."
+          },
+          {
+            "id": "o4",
+            "text": "Meine Freunde nehmen gestern den Bus."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q7",
         "type": "mcq",
         "prompt": "Ergänze: Wir ___ eine wichtige Erfahrung ___.",
         "options": [
-          "haben machen",
-          "sind gemacht",
-          "haben gemacht",
-          "machen gestern"
+          {
+            "id": "o1",
+            "text": "haben machen"
+          },
+          {
+            "id": "o2",
+            "text": "sind gemacht"
+          },
+          {
+            "id": "o3",
+            "text": "haben gemacht"
+          },
+          {
+            "id": "o4",
+            "text": "machen gestern"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q8",
         "type": "mcq",
         "prompt": "Welcher Satz beschreibt eine abgeschlossene Handlung?",
         "options": [
-          "Am Samstag bin ich meine Cousine getroffen.",
-          "Am Samstag treffe ich meine Cousine morgen.",
-          "Am Samstag treffen meine Cousine.",
-          "Am Samstag habe ich meine Cousine getroffen."
+          {
+            "id": "o1",
+            "text": "Am Samstag bin ich meine Cousine getroffen."
+          },
+          {
+            "id": "o2",
+            "text": "Am Samstag treffe ich meine Cousine morgen."
+          },
+          {
+            "id": "o3",
+            "text": "Am Samstag treffen meine Cousine."
+          },
+          {
+            "id": "o4",
+            "text": "Am Samstag habe ich meine Cousine getroffen."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       }
     ]
@@ -12554,9 +15228,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Passiv im Präsens",
-        "definition": "Práctica guiada de Passiv im Präsens.",
+        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
         "structure": "Meinung + weil/obwohl/deshalb + Begründung",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Eine Meinung ausdrücken und begründen.",
         "examples": [
           "Ich finde den Vorschlag sinnvoll.",
           "Trotzdem müssen wir die Ergebnisse prüfen."
@@ -12565,83 +15239,187 @@
       "grammarTest": {
         "questions": [
           {
+            "id": "q1",
             "type": "mcq",
             "prompt": "Ergänze: Ich finde, dass der Vorschlag sinnvoll ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "ist"
+              },
+              {
+                "id": "o2",
+                "text": "sind"
+              },
+              {
+                "id": "o3",
+                "text": "sein"
+              },
+              {
+                "id": "o4",
+                "text": "sei"
+              }
             ]
           },
           {
+            "id": "q2",
             "type": "mcq",
             "prompt": "Wähle den Konnektor für einen Gegensatz.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Ich möchte ausgehen, deshalb es regnet."
+              },
+              {
+                "id": "o2",
+                "text": "Ich möchte ausgehen, aber es regnet."
+              },
+              {
+                "id": "o3",
+                "text": "Ich möchte ausgehen, weil es regnet."
+              },
+              {
+                "id": "o4",
+                "text": "Ich möchte ausgehen, dann es regnet."
+              }
             ]
           },
           {
+            "id": "q3",
             "type": "mcq",
             "prompt": "Ergänze: Ich bleibe zu Hause, weil ich müde ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "sein"
+              },
+              {
+                "id": "o2",
+                "text": "ist"
+              },
+              {
+                "id": "o3",
+                "text": "bin"
+              },
+              {
+                "id": "o4",
+                "text": "bist"
+              }
             ]
           },
           {
+            "id": "q4",
             "type": "mcq",
             "prompt": "Welcher Satz drückt eine Meinung aus?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Das Projekt funktioniert warum?"
+              },
+              {
+                "id": "o2",
+                "text": "Das Projekt gestern funktioniert?"
+              },
+              {
+                "id": "o3",
+                "text": "Funktionieren das Projekt meiner Meinung."
+              },
+              {
+                "id": "o4",
+                "text": "Meiner Meinung nach funktioniert das Projekt."
+              }
             ]
           },
           {
+            "id": "q5",
             "type": "mcq",
             "prompt": "Ergänze: Obwohl es spät ___, arbeiten wir weiter.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "ist"
+              },
+              {
+                "id": "o2",
+                "text": "sind"
+              },
+              {
+                "id": "o3",
+                "text": "sein"
+              },
+              {
+                "id": "o4",
+                "text": "bist"
+              }
             ]
           },
           {
+            "id": "q6",
             "type": "mcq",
             "prompt": "Wähle eine logische Folge.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Wir haben wenig Zeit, aber planen wir die Arbeit."
+              },
+              {
+                "id": "o2",
+                "text": "Wir haben wenig Zeit, deshalb planen wir die Arbeit."
+              },
+              {
+                "id": "o3",
+                "text": "Wir haben wenig Zeit, weil planen wir die Arbeit."
+              },
+              {
+                "id": "o4",
+                "text": "Wir haben wenig Zeit, obwohl planen wir die Arbeit."
+              }
             ]
           },
           {
+            "id": "q7",
             "type": "mcq",
             "prompt": "Ergänze: Ich glaube, dass sie Recht ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "sein"
+              },
+              {
+                "id": "o2",
+                "text": "haben"
+              },
+              {
+                "id": "o3",
+                "text": "hat"
+              },
+              {
+                "id": "o4",
+                "text": "hatte"
+              }
             ]
           },
           {
+            "id": "q8",
             "type": "mcq",
             "prompt": "Welcher Satz begründet eine Wahl?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Ich nehme den Zug er nachhaltiger ist weil."
+              },
+              {
+                "id": "o2",
+                "text": "Ich nehme den Zug, aber er nachhaltiger ist."
+              },
+              {
+                "id": "o3",
+                "text": "Ich nehme den Zug, deshalb er nachhaltiger ist?"
+              },
+              {
+                "id": "o4",
+                "text": "Ich nehme den Zug, weil er nachhaltiger ist."
+              }
             ]
           }
         ]
@@ -12650,91 +15428,203 @@
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
         "prompt": "Ergänze: Ich finde, dass der Vorschlag sinnvoll ___.",
         "options": [
-          "ist",
-          "sind",
-          "sein",
-          "sei"
+          {
+            "id": "o1",
+            "text": "ist"
+          },
+          {
+            "id": "o2",
+            "text": "sind"
+          },
+          {
+            "id": "o3",
+            "text": "sein"
+          },
+          {
+            "id": "o4",
+            "text": "sei"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q2",
         "type": "mcq",
         "prompt": "Wähle den Konnektor für einen Gegensatz.",
         "options": [
-          "Ich möchte ausgehen, deshalb es regnet.",
-          "Ich möchte ausgehen, aber es regnet.",
-          "Ich möchte ausgehen, weil es regnet.",
-          "Ich möchte ausgehen, dann es regnet."
+          {
+            "id": "o1",
+            "text": "Ich möchte ausgehen, deshalb es regnet."
+          },
+          {
+            "id": "o2",
+            "text": "Ich möchte ausgehen, aber es regnet."
+          },
+          {
+            "id": "o3",
+            "text": "Ich möchte ausgehen, weil es regnet."
+          },
+          {
+            "id": "o4",
+            "text": "Ich möchte ausgehen, dann es regnet."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q3",
         "type": "mcq",
         "prompt": "Ergänze: Ich bleibe zu Hause, weil ich müde ___.",
         "options": [
-          "sein",
-          "ist",
-          "bin",
-          "bist"
+          {
+            "id": "o1",
+            "text": "sein"
+          },
+          {
+            "id": "o2",
+            "text": "ist"
+          },
+          {
+            "id": "o3",
+            "text": "bin"
+          },
+          {
+            "id": "o4",
+            "text": "bist"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q4",
         "type": "mcq",
         "prompt": "Welcher Satz drückt eine Meinung aus?",
         "options": [
-          "Das Projekt funktioniert warum?",
-          "Das Projekt gestern funktioniert?",
-          "Funktionieren das Projekt meiner Meinung.",
-          "Meiner Meinung nach funktioniert das Projekt."
+          {
+            "id": "o1",
+            "text": "Das Projekt funktioniert warum?"
+          },
+          {
+            "id": "o2",
+            "text": "Das Projekt gestern funktioniert?"
+          },
+          {
+            "id": "o3",
+            "text": "Funktionieren das Projekt meiner Meinung."
+          },
+          {
+            "id": "o4",
+            "text": "Meiner Meinung nach funktioniert das Projekt."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q5",
         "type": "mcq",
         "prompt": "Ergänze: Obwohl es spät ___, arbeiten wir weiter.",
         "options": [
-          "ist",
-          "sind",
-          "sein",
-          "bist"
+          {
+            "id": "o1",
+            "text": "ist"
+          },
+          {
+            "id": "o2",
+            "text": "sind"
+          },
+          {
+            "id": "o3",
+            "text": "sein"
+          },
+          {
+            "id": "o4",
+            "text": "bist"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q6",
         "type": "mcq",
         "prompt": "Wähle eine logische Folge.",
         "options": [
-          "Wir haben wenig Zeit, aber planen wir die Arbeit.",
-          "Wir haben wenig Zeit, deshalb planen wir die Arbeit.",
-          "Wir haben wenig Zeit, weil planen wir die Arbeit.",
-          "Wir haben wenig Zeit, obwohl planen wir die Arbeit."
+          {
+            "id": "o1",
+            "text": "Wir haben wenig Zeit, aber planen wir die Arbeit."
+          },
+          {
+            "id": "o2",
+            "text": "Wir haben wenig Zeit, deshalb planen wir die Arbeit."
+          },
+          {
+            "id": "o3",
+            "text": "Wir haben wenig Zeit, weil planen wir die Arbeit."
+          },
+          {
+            "id": "o4",
+            "text": "Wir haben wenig Zeit, obwohl planen wir die Arbeit."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q7",
         "type": "mcq",
         "prompt": "Ergänze: Ich glaube, dass sie Recht ___.",
         "options": [
-          "sein",
-          "haben",
-          "hat",
-          "hatte"
+          {
+            "id": "o1",
+            "text": "sein"
+          },
+          {
+            "id": "o2",
+            "text": "haben"
+          },
+          {
+            "id": "o3",
+            "text": "hat"
+          },
+          {
+            "id": "o4",
+            "text": "hatte"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q8",
         "type": "mcq",
         "prompt": "Welcher Satz begründet eine Wahl?",
         "options": [
-          "Ich nehme den Zug er nachhaltiger ist weil.",
-          "Ich nehme den Zug, aber er nachhaltiger ist.",
-          "Ich nehme den Zug, deshalb er nachhaltiger ist?",
-          "Ich nehme den Zug, weil er nachhaltiger ist."
+          {
+            "id": "o1",
+            "text": "Ich nehme den Zug er nachhaltiger ist weil."
+          },
+          {
+            "id": "o2",
+            "text": "Ich nehme den Zug, aber er nachhaltiger ist."
+          },
+          {
+            "id": "o3",
+            "text": "Ich nehme den Zug, deshalb er nachhaltiger ist?"
+          },
+          {
+            "id": "o4",
+            "text": "Ich nehme den Zug, weil er nachhaltiger ist."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       }
     ]
@@ -14412,121 +17302,277 @@
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Familie",
-          "Mutter",
-          "Vater",
-          "Bruder"
-        ]
+          {
+            "id": "o1",
+            "text": "Familie"
+          },
+          {
+            "id": "o2",
+            "text": "Mutter"
+          },
+          {
+            "id": "o3",
+            "text": "Vater"
+          },
+          {
+            "id": "o4",
+            "text": "Bruder"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Familie",
-          "Mutter",
-          "Vater",
-          "Bruder"
-        ]
+          {
+            "id": "o1",
+            "text": "Familie"
+          },
+          {
+            "id": "o2",
+            "text": "Mutter"
+          },
+          {
+            "id": "o3",
+            "text": "Vater"
+          },
+          {
+            "id": "o4",
+            "text": "Bruder"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Mutter",
-          "Familie",
-          "Vater",
-          "Bruder"
-        ]
+          {
+            "id": "o1",
+            "text": "Mutter"
+          },
+          {
+            "id": "o2",
+            "text": "Familie"
+          },
+          {
+            "id": "o3",
+            "text": "Vater"
+          },
+          {
+            "id": "o4",
+            "text": "Bruder"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Vater",
-          "Familie",
-          "Mutter",
-          "Bruder"
-        ]
+          {
+            "id": "o1",
+            "text": "Vater"
+          },
+          {
+            "id": "o2",
+            "text": "Familie"
+          },
+          {
+            "id": "o3",
+            "text": "Mutter"
+          },
+          {
+            "id": "o4",
+            "text": "Bruder"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Zimmer",
-          "Familie",
-          "Mutter",
-          "Vater"
-        ]
+          {
+            "id": "o1",
+            "text": "Zimmer"
+          },
+          {
+            "id": "o2",
+            "text": "Familie"
+          },
+          {
+            "id": "o3",
+            "text": "Mutter"
+          },
+          {
+            "id": "o4",
+            "text": "Vater"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Familie",
-          "Küche",
-          "Mutter",
-          "Vater"
-        ]
+          {
+            "id": "o1",
+            "text": "Familie"
+          },
+          {
+            "id": "o2",
+            "text": "Küche"
+          },
+          {
+            "id": "o3",
+            "text": "Mutter"
+          },
+          {
+            "id": "o4",
+            "text": "Vater"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Mutter",
-          "Familie",
-          "wohnen",
-          "Vater"
-        ]
+          {
+            "id": "o1",
+            "text": "Mutter"
+          },
+          {
+            "id": "o2",
+            "text": "Familie"
+          },
+          {
+            "id": "o3",
+            "text": "wohnen"
+          },
+          {
+            "id": "o4",
+            "text": "Vater"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Vater",
-          "Familie",
-          "Mutter",
-          "klein"
-        ]
+          {
+            "id": "o1",
+            "text": "Vater"
+          },
+          {
+            "id": "o2",
+            "text": "Familie"
+          },
+          {
+            "id": "o3",
+            "text": "Mutter"
+          },
+          {
+            "id": "o4",
+            "text": "klein"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "groß",
-          "Familie",
-          "Mutter",
-          "Vater"
-        ]
+          {
+            "id": "o1",
+            "text": "groß"
+          },
+          {
+            "id": "o2",
+            "text": "Familie"
+          },
+          {
+            "id": "o3",
+            "text": "Mutter"
+          },
+          {
+            "id": "o4",
+            "text": "Vater"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Familie",
-          "zusammen",
-          "Mutter",
-          "Vater"
-        ]
+          {
+            "id": "o1",
+            "text": "Familie"
+          },
+          {
+            "id": "o2",
+            "text": "zusammen"
+          },
+          {
+            "id": "o3",
+            "text": "Mutter"
+          },
+          {
+            "id": "o4",
+            "text": "Vater"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Mutter",
-          "Familie",
-          "heute",
-          "Vater"
-        ]
+          {
+            "id": "o1",
+            "text": "Mutter"
+          },
+          {
+            "id": "o2",
+            "text": "Familie"
+          },
+          {
+            "id": "o3",
+            "text": "heute"
+          },
+          {
+            "id": "o4",
+            "text": "Vater"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Vater",
-          "Familie",
-          "Mutter",
-          "Viertel"
-        ]
+          {
+            "id": "o1",
+            "text": "Vater"
+          },
+          {
+            "id": "o2",
+            "text": "Familie"
+          },
+          {
+            "id": "o3",
+            "text": "Mutter"
+          },
+          {
+            "id": "o4",
+            "text": "Viertel"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },
@@ -14694,121 +17740,277 @@
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Gesundheit",
-          "Arzt",
-          "Schmerz",
-          "ausruhen"
-        ]
+          {
+            "id": "o1",
+            "text": "Gesundheit"
+          },
+          {
+            "id": "o2",
+            "text": "Arzt"
+          },
+          {
+            "id": "o3",
+            "text": "Schmerz"
+          },
+          {
+            "id": "o4",
+            "text": "ausruhen"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Gesundheit",
-          "Arzt",
-          "Schmerz",
-          "ausruhen"
-        ]
+          {
+            "id": "o1",
+            "text": "Gesundheit"
+          },
+          {
+            "id": "o2",
+            "text": "Arzt"
+          },
+          {
+            "id": "o3",
+            "text": "Schmerz"
+          },
+          {
+            "id": "o4",
+            "text": "ausruhen"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Arzt",
-          "Gesundheit",
-          "Schmerz",
-          "ausruhen"
-        ]
+          {
+            "id": "o1",
+            "text": "Arzt"
+          },
+          {
+            "id": "o2",
+            "text": "Gesundheit"
+          },
+          {
+            "id": "o3",
+            "text": "Schmerz"
+          },
+          {
+            "id": "o4",
+            "text": "ausruhen"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Schmerz",
-          "Gesundheit",
-          "Arzt",
-          "ausruhen"
-        ]
+          {
+            "id": "o1",
+            "text": "Schmerz"
+          },
+          {
+            "id": "o2",
+            "text": "Gesundheit"
+          },
+          {
+            "id": "o3",
+            "text": "Arzt"
+          },
+          {
+            "id": "o4",
+            "text": "ausruhen"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Medikament",
-          "Gesundheit",
-          "Arzt",
-          "Schmerz"
-        ]
+          {
+            "id": "o1",
+            "text": "Medikament"
+          },
+          {
+            "id": "o2",
+            "text": "Gesundheit"
+          },
+          {
+            "id": "o3",
+            "text": "Arzt"
+          },
+          {
+            "id": "o4",
+            "text": "Schmerz"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Gesundheit",
-          "gesund",
-          "Arzt",
-          "Schmerz"
-        ]
+          {
+            "id": "o1",
+            "text": "Gesundheit"
+          },
+          {
+            "id": "o2",
+            "text": "gesund"
+          },
+          {
+            "id": "o3",
+            "text": "Arzt"
+          },
+          {
+            "id": "o4",
+            "text": "Schmerz"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Arzt",
-          "Gesundheit",
-          "regelmäßig",
-          "Schmerz"
-        ]
+          {
+            "id": "o1",
+            "text": "Arzt"
+          },
+          {
+            "id": "o2",
+            "text": "Gesundheit"
+          },
+          {
+            "id": "o3",
+            "text": "regelmäßig"
+          },
+          {
+            "id": "o4",
+            "text": "Schmerz"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Schmerz",
-          "Gesundheit",
-          "Arzt",
-          "Rat"
-        ]
+          {
+            "id": "o1",
+            "text": "Schmerz"
+          },
+          {
+            "id": "o2",
+            "text": "Gesundheit"
+          },
+          {
+            "id": "o3",
+            "text": "Arzt"
+          },
+          {
+            "id": "o4",
+            "text": "Rat"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "besser",
-          "Gesundheit",
-          "Arzt",
-          "Schmerz"
-        ]
+          {
+            "id": "o1",
+            "text": "besser"
+          },
+          {
+            "id": "o2",
+            "text": "Gesundheit"
+          },
+          {
+            "id": "o3",
+            "text": "Arzt"
+          },
+          {
+            "id": "o4",
+            "text": "Schmerz"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Gesundheit",
-          "Termin",
-          "Arzt",
-          "Schmerz"
-        ]
+          {
+            "id": "o1",
+            "text": "Gesundheit"
+          },
+          {
+            "id": "o2",
+            "text": "Termin"
+          },
+          {
+            "id": "o3",
+            "text": "Arzt"
+          },
+          {
+            "id": "o4",
+            "text": "Schmerz"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Arzt",
-          "Gesundheit",
-          "heute",
-          "Schmerz"
-        ]
+          {
+            "id": "o1",
+            "text": "Arzt"
+          },
+          {
+            "id": "o2",
+            "text": "Gesundheit"
+          },
+          {
+            "id": "o3",
+            "text": "heute"
+          },
+          {
+            "id": "o4",
+            "text": "Schmerz"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Schmerz",
-          "Gesundheit",
-          "Arzt",
-          "zusammen"
-        ]
+          {
+            "id": "o1",
+            "text": "Schmerz"
+          },
+          {
+            "id": "o2",
+            "text": "Gesundheit"
+          },
+          {
+            "id": "o3",
+            "text": "Arzt"
+          },
+          {
+            "id": "o4",
+            "text": "zusammen"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },
@@ -14976,121 +18178,277 @@
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Wohlbefinden",
-          "Erholung",
-          "Bewegung",
-          "Gleichgewicht"
-        ]
+          {
+            "id": "o1",
+            "text": "Wohlbefinden"
+          },
+          {
+            "id": "o2",
+            "text": "Erholung"
+          },
+          {
+            "id": "o3",
+            "text": "Bewegung"
+          },
+          {
+            "id": "o4",
+            "text": "Gleichgewicht"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Wohlbefinden",
-          "Erholung",
-          "Bewegung",
-          "Gleichgewicht"
-        ]
+          {
+            "id": "o1",
+            "text": "Wohlbefinden"
+          },
+          {
+            "id": "o2",
+            "text": "Erholung"
+          },
+          {
+            "id": "o3",
+            "text": "Bewegung"
+          },
+          {
+            "id": "o4",
+            "text": "Gleichgewicht"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Erholung",
-          "Wohlbefinden",
-          "Bewegung",
-          "Gleichgewicht"
-        ]
+          {
+            "id": "o1",
+            "text": "Erholung"
+          },
+          {
+            "id": "o2",
+            "text": "Wohlbefinden"
+          },
+          {
+            "id": "o3",
+            "text": "Bewegung"
+          },
+          {
+            "id": "o4",
+            "text": "Gleichgewicht"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Bewegung",
-          "Wohlbefinden",
-          "Erholung",
-          "Gleichgewicht"
-        ]
+          {
+            "id": "o1",
+            "text": "Bewegung"
+          },
+          {
+            "id": "o2",
+            "text": "Wohlbefinden"
+          },
+          {
+            "id": "o3",
+            "text": "Erholung"
+          },
+          {
+            "id": "o4",
+            "text": "Gleichgewicht"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "verbessern",
-          "Wohlbefinden",
-          "Erholung",
-          "Bewegung"
-        ]
+          {
+            "id": "o1",
+            "text": "verbessern"
+          },
+          {
+            "id": "o2",
+            "text": "Wohlbefinden"
+          },
+          {
+            "id": "o3",
+            "text": "Erholung"
+          },
+          {
+            "id": "o4",
+            "text": "Bewegung"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Wohlbefinden",
-          "vorbeugen",
-          "Erholung",
-          "Bewegung"
-        ]
+          {
+            "id": "o1",
+            "text": "Wohlbefinden"
+          },
+          {
+            "id": "o2",
+            "text": "vorbeugen"
+          },
+          {
+            "id": "o3",
+            "text": "Erholung"
+          },
+          {
+            "id": "o4",
+            "text": "Bewegung"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Erholung",
-          "Wohlbefinden",
-          "Gewohnheit",
-          "Bewegung"
-        ]
+          {
+            "id": "o1",
+            "text": "Erholung"
+          },
+          {
+            "id": "o2",
+            "text": "Wohlbefinden"
+          },
+          {
+            "id": "o3",
+            "text": "Gewohnheit"
+          },
+          {
+            "id": "o4",
+            "text": "Bewegung"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Bewegung",
-          "Wohlbefinden",
-          "Erholung",
-          "Energie"
-        ]
+          {
+            "id": "o1",
+            "text": "Bewegung"
+          },
+          {
+            "id": "o2",
+            "text": "Wohlbefinden"
+          },
+          {
+            "id": "o3",
+            "text": "Erholung"
+          },
+          {
+            "id": "o4",
+            "text": "Energie"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Rat",
-          "Wohlbefinden",
-          "Erholung",
-          "Bewegung"
-        ]
+          {
+            "id": "o1",
+            "text": "Rat"
+          },
+          {
+            "id": "o2",
+            "text": "Wohlbefinden"
+          },
+          {
+            "id": "o3",
+            "text": "Erholung"
+          },
+          {
+            "id": "o4",
+            "text": "Bewegung"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Wohlbefinden",
-          "Entscheidung",
-          "Erholung",
-          "Bewegung"
-        ]
+          {
+            "id": "o1",
+            "text": "Wohlbefinden"
+          },
+          {
+            "id": "o2",
+            "text": "Entscheidung"
+          },
+          {
+            "id": "o3",
+            "text": "Erholung"
+          },
+          {
+            "id": "o4",
+            "text": "Bewegung"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Erholung",
-          "Wohlbefinden",
-          "heute",
-          "Bewegung"
-        ]
+          {
+            "id": "o1",
+            "text": "Erholung"
+          },
+          {
+            "id": "o2",
+            "text": "Wohlbefinden"
+          },
+          {
+            "id": "o3",
+            "text": "heute"
+          },
+          {
+            "id": "o4",
+            "text": "Bewegung"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Bewegung",
-          "Wohlbefinden",
-          "Erholung",
-          "zusammen"
-        ]
+          {
+            "id": "o1",
+            "text": "Bewegung"
+          },
+          {
+            "id": "o2",
+            "text": "Wohlbefinden"
+          },
+          {
+            "id": "o3",
+            "text": "Erholung"
+          },
+          {
+            "id": "o4",
+            "text": "zusammen"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },
@@ -17370,93 +20728,198 @@
     "extra": {
       "grammarProfile": {
         "name": "kein / nicht und Mengenangaben",
-        "definition": "kein verneint Nomen, nicht verneint Verben oder Eigenschaften.",
-        "structure": "Ich habe kein Brot. Das ist nicht teuer.",
-        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
+        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
+        "structure": "Subjekt + Verb + Ergänzung",
+        "function": "Über Personen, Orte und Alltag sprechen.",
         "examples": [
-          "Ich habe kein Brot. Das ist nicht teuer."
+          "Ich wohne im Viertel.",
+          "Leon spricht mit Anna."
         ]
       },
       "grammarTest": {
         "questions": [
           {
+            "id": "q1",
             "type": "mcq",
             "prompt": "Ergänze: Ich ___ im Viertel.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "wohne"
+              },
+              {
+                "id": "o2",
+                "text": "wohnt"
+              },
+              {
+                "id": "o3",
+                "text": "wohnen"
+              },
+              {
+                "id": "o4",
+                "text": "wohnst"
+              }
             ]
           },
           {
+            "id": "q2",
             "type": "mcq",
             "prompt": "Wähle den richtigen Satz.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Leon sprechen mit Anna."
+              },
+              {
+                "id": "o2",
+                "text": "Leon spricht mit Anna."
+              },
+              {
+                "id": "o3",
+                "text": "Leon spreche mit Anna."
+              },
+              {
+                "id": "o4",
+                "text": "Leon sprich mit Anna."
+              }
             ]
           },
           {
+            "id": "q3",
             "type": "mcq",
             "prompt": "Ergänze: Wir ___ jeden Tag Deutsch.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "lerne"
+              },
+              {
+                "id": "o2",
+                "text": "lernt"
+              },
+              {
+                "id": "o3",
+                "text": "lernen"
+              },
+              {
+                "id": "o4",
+                "text": "lernst"
+              }
             ]
           },
           {
+            "id": "q4",
             "type": "mcq",
             "prompt": "Welche Frage ist richtig?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Wo wohnst?"
+              },
+              {
+                "id": "o2",
+                "text": "Wo wohnen du?"
+              },
+              {
+                "id": "o3",
+                "text": "Wo du wohnst?"
+              },
+              {
+                "id": "o4",
+                "text": "Wo wohnst du?"
+              }
             ]
           },
           {
+            "id": "q5",
             "type": "mcq",
             "prompt": "Ergänze: Sie ___ eine Frage.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "stellt"
+              },
+              {
+                "id": "o2",
+                "text": "stelle"
+              },
+              {
+                "id": "o3",
+                "text": "stellen"
+              },
+              {
+                "id": "o4",
+                "text": "stellst"
+              }
             ]
           },
           {
+            "id": "q6",
             "type": "mcq",
             "prompt": "Wähle den Satz über ein Haus.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Das Haus sind hell."
+              },
+              {
+                "id": "o2",
+                "text": "Das Haus ist hell."
+              },
+              {
+                "id": "o3",
+                "text": "Die Haus ist hell."
+              },
+              {
+                "id": "o4",
+                "text": "Das Haus ist helle."
+              }
             ]
           },
           {
+            "id": "q7",
             "type": "mcq",
             "prompt": "Ergänze: Du ___ Kaffee.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "trinken"
+              },
+              {
+                "id": "o2",
+                "text": "trinkt"
+              },
+              {
+                "id": "o3",
+                "text": "trinkst"
+              },
+              {
+                "id": "o4",
+                "text": "trinke"
+              }
             ]
           },
           {
+            "id": "q8",
             "type": "mcq",
             "prompt": "Welcher Satz beschreibt eine Routine?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Jeden Morgen arbeitet ich im Zentrum."
+              },
+              {
+                "id": "o2",
+                "text": "Gestern arbeiten ich im Zentrum."
+              },
+              {
+                "id": "o3",
+                "text": "Morgen arbeitete ich im Zentrum."
+              },
+              {
+                "id": "o4",
+                "text": "Jeden Morgen arbeite ich im Zentrum."
+              }
             ]
           }
         ]
@@ -17465,91 +20928,203 @@
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
         "prompt": "Ergänze: Ich ___ im Viertel.",
         "options": [
-          "wohne",
-          "wohnt",
-          "wohnen",
-          "wohnst"
+          {
+            "id": "o1",
+            "text": "wohne"
+          },
+          {
+            "id": "o2",
+            "text": "wohnt"
+          },
+          {
+            "id": "o3",
+            "text": "wohnen"
+          },
+          {
+            "id": "o4",
+            "text": "wohnst"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q2",
         "type": "mcq",
         "prompt": "Wähle den richtigen Satz.",
         "options": [
-          "Leon sprechen mit Anna.",
-          "Leon spricht mit Anna.",
-          "Leon spreche mit Anna.",
-          "Leon sprich mit Anna."
+          {
+            "id": "o1",
+            "text": "Leon sprechen mit Anna."
+          },
+          {
+            "id": "o2",
+            "text": "Leon spricht mit Anna."
+          },
+          {
+            "id": "o3",
+            "text": "Leon spreche mit Anna."
+          },
+          {
+            "id": "o4",
+            "text": "Leon sprich mit Anna."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q3",
         "type": "mcq",
         "prompt": "Ergänze: Wir ___ jeden Tag Deutsch.",
         "options": [
-          "lerne",
-          "lernt",
-          "lernen",
-          "lernst"
+          {
+            "id": "o1",
+            "text": "lerne"
+          },
+          {
+            "id": "o2",
+            "text": "lernt"
+          },
+          {
+            "id": "o3",
+            "text": "lernen"
+          },
+          {
+            "id": "o4",
+            "text": "lernst"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q4",
         "type": "mcq",
         "prompt": "Welche Frage ist richtig?",
         "options": [
-          "Wo wohnst?",
-          "Wo wohnen du?",
-          "Wo du wohnst?",
-          "Wo wohnst du?"
+          {
+            "id": "o1",
+            "text": "Wo wohnst?"
+          },
+          {
+            "id": "o2",
+            "text": "Wo wohnen du?"
+          },
+          {
+            "id": "o3",
+            "text": "Wo du wohnst?"
+          },
+          {
+            "id": "o4",
+            "text": "Wo wohnst du?"
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q5",
         "type": "mcq",
         "prompt": "Ergänze: Sie ___ eine Frage.",
         "options": [
-          "stellt",
-          "stelle",
-          "stellen",
-          "stellst"
+          {
+            "id": "o1",
+            "text": "stellt"
+          },
+          {
+            "id": "o2",
+            "text": "stelle"
+          },
+          {
+            "id": "o3",
+            "text": "stellen"
+          },
+          {
+            "id": "o4",
+            "text": "stellst"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q6",
         "type": "mcq",
         "prompt": "Wähle den Satz über ein Haus.",
         "options": [
-          "Das Haus sind hell.",
-          "Das Haus ist hell.",
-          "Die Haus ist hell.",
-          "Das Haus ist helle."
+          {
+            "id": "o1",
+            "text": "Das Haus sind hell."
+          },
+          {
+            "id": "o2",
+            "text": "Das Haus ist hell."
+          },
+          {
+            "id": "o3",
+            "text": "Die Haus ist hell."
+          },
+          {
+            "id": "o4",
+            "text": "Das Haus ist helle."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q7",
         "type": "mcq",
         "prompt": "Ergänze: Du ___ Kaffee.",
         "options": [
-          "trinken",
-          "trinkt",
-          "trinkst",
-          "trinke"
+          {
+            "id": "o1",
+            "text": "trinken"
+          },
+          {
+            "id": "o2",
+            "text": "trinkt"
+          },
+          {
+            "id": "o3",
+            "text": "trinkst"
+          },
+          {
+            "id": "o4",
+            "text": "trinke"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q8",
         "type": "mcq",
         "prompt": "Welcher Satz beschreibt eine Routine?",
         "options": [
-          "Jeden Morgen arbeitet ich im Zentrum.",
-          "Gestern arbeiten ich im Zentrum.",
-          "Morgen arbeitete ich im Zentrum.",
-          "Jeden Morgen arbeite ich im Zentrum."
+          {
+            "id": "o1",
+            "text": "Jeden Morgen arbeitet ich im Zentrum."
+          },
+          {
+            "id": "o2",
+            "text": "Gestern arbeiten ich im Zentrum."
+          },
+          {
+            "id": "o3",
+            "text": "Morgen arbeitete ich im Zentrum."
+          },
+          {
+            "id": "o4",
+            "text": "Jeden Morgen arbeite ich im Zentrum."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       }
     ]
@@ -17630,93 +21205,198 @@
     "extra": {
       "grammarProfile": {
         "name": "Nebensätze mit weil und dass",
-        "definition": "En una oración subordinada, el verbo conjugado va al final.",
-        "structure": "Ich bleibe zu Hause, weil ich krank bin.",
-        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
+        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
+        "structure": "haben/sein + Partizip II",
+        "function": "Erfahrungen und Pläne erzählen.",
         "examples": [
-          "Ich bleibe zu Hause, weil ich krank bin."
+          "Gestern habe ich das Museum besucht.",
+          "Danach haben wir zusammen gesprochen."
         ]
       },
       "grammarTest": {
         "questions": [
           {
+            "id": "q1",
             "type": "mcq",
             "prompt": "Ergänze: Gestern ___ ich das Museum ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "habe besucht"
+              },
+              {
+                "id": "o2",
+                "text": "besuche"
+              },
+              {
+                "id": "o3",
+                "text": "habe besuchen"
+              },
+              {
+                "id": "o4",
+                "text": "bin besucht"
+              }
             ]
           },
           {
+            "id": "q2",
             "type": "mcq",
             "prompt": "Wähle den richtigen Perfekt-Satz.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Wir haben zusammen essen."
+              },
+              {
+                "id": "o2",
+                "text": "Wir haben zusammen gegessen."
+              },
+              {
+                "id": "o3",
+                "text": "Wir sind zusammen gegessen."
+              },
+              {
+                "id": "o4",
+                "text": "Wir essen gestern zusammen."
+              }
             ]
           },
           {
+            "id": "q3",
             "type": "mcq",
             "prompt": "Ergänze: Marta ___ spät nach Hause ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "ist kommen"
+              },
+              {
+                "id": "o2",
+                "text": "hat gekommen"
+              },
+              {
+                "id": "o3",
+                "text": "ist gekommen"
+              },
+              {
+                "id": "o4",
+                "text": "kommt gestern"
+              }
             ]
           },
           {
+            "id": "q4",
             "type": "mcq",
             "prompt": "Welcher Satz zeigt eine Reihenfolge?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Zuerst haben wir gelernt, wenn sind wir gegangen."
+              },
+              {
+                "id": "o2",
+                "text": "Zuerst haben wir gelernt, weil sind wir gegangen."
+              },
+              {
+                "id": "o3",
+                "text": "Zuerst haben wir gelernt, obwohl sind wir gegangen."
+              },
+              {
+                "id": "o4",
+                "text": "Zuerst haben wir gelernt, dann sind wir gegangen."
+              }
             ]
           },
           {
+            "id": "q5",
             "type": "mcq",
             "prompt": "Ergänze: ___ du die Nachricht ___?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Hast gelesen"
+              },
+              {
+                "id": "o2",
+                "text": "Hast lesen"
+              },
+              {
+                "id": "o3",
+                "text": "Bist gelesen"
+              },
+              {
+                "id": "o4",
+                "text": "Liest gestern"
+              }
             ]
           },
           {
+            "id": "q6",
             "type": "mcq",
             "prompt": "Wähle den Perfekt-Satz mit dem richtigen Hilfsverb.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Meine Freunde sind den Bus genommen."
+              },
+              {
+                "id": "o2",
+                "text": "Meine Freunde haben den Bus genommen."
+              },
+              {
+                "id": "o3",
+                "text": "Meine Freunde haben den Bus nehmen."
+              },
+              {
+                "id": "o4",
+                "text": "Meine Freunde nehmen gestern den Bus."
+              }
             ]
           },
           {
+            "id": "q7",
             "type": "mcq",
             "prompt": "Ergänze: Wir ___ eine wichtige Erfahrung ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "haben machen"
+              },
+              {
+                "id": "o2",
+                "text": "sind gemacht"
+              },
+              {
+                "id": "o3",
+                "text": "haben gemacht"
+              },
+              {
+                "id": "o4",
+                "text": "machen gestern"
+              }
             ]
           },
           {
+            "id": "q8",
             "type": "mcq",
             "prompt": "Welcher Satz beschreibt eine abgeschlossene Handlung?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Am Samstag bin ich meine Cousine getroffen."
+              },
+              {
+                "id": "o2",
+                "text": "Am Samstag treffe ich meine Cousine morgen."
+              },
+              {
+                "id": "o3",
+                "text": "Am Samstag treffen meine Cousine."
+              },
+              {
+                "id": "o4",
+                "text": "Am Samstag habe ich meine Cousine getroffen."
+              }
             ]
           }
         ]
@@ -17725,91 +21405,203 @@
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
         "prompt": "Ergänze: Gestern ___ ich das Museum ___.",
         "options": [
-          "habe besucht",
-          "besuche",
-          "habe besuchen",
-          "bin besucht"
+          {
+            "id": "o1",
+            "text": "habe besucht"
+          },
+          {
+            "id": "o2",
+            "text": "besuche"
+          },
+          {
+            "id": "o3",
+            "text": "habe besuchen"
+          },
+          {
+            "id": "o4",
+            "text": "bin besucht"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q2",
         "type": "mcq",
         "prompt": "Wähle den richtigen Perfekt-Satz.",
         "options": [
-          "Wir haben zusammen essen.",
-          "Wir haben zusammen gegessen.",
-          "Wir sind zusammen gegessen.",
-          "Wir essen gestern zusammen."
+          {
+            "id": "o1",
+            "text": "Wir haben zusammen essen."
+          },
+          {
+            "id": "o2",
+            "text": "Wir haben zusammen gegessen."
+          },
+          {
+            "id": "o3",
+            "text": "Wir sind zusammen gegessen."
+          },
+          {
+            "id": "o4",
+            "text": "Wir essen gestern zusammen."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q3",
         "type": "mcq",
         "prompt": "Ergänze: Marta ___ spät nach Hause ___.",
         "options": [
-          "ist kommen",
-          "hat gekommen",
-          "ist gekommen",
-          "kommt gestern"
+          {
+            "id": "o1",
+            "text": "ist kommen"
+          },
+          {
+            "id": "o2",
+            "text": "hat gekommen"
+          },
+          {
+            "id": "o3",
+            "text": "ist gekommen"
+          },
+          {
+            "id": "o4",
+            "text": "kommt gestern"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q4",
         "type": "mcq",
         "prompt": "Welcher Satz zeigt eine Reihenfolge?",
         "options": [
-          "Zuerst haben wir gelernt, wenn sind wir gegangen.",
-          "Zuerst haben wir gelernt, weil sind wir gegangen.",
-          "Zuerst haben wir gelernt, obwohl sind wir gegangen.",
-          "Zuerst haben wir gelernt, dann sind wir gegangen."
+          {
+            "id": "o1",
+            "text": "Zuerst haben wir gelernt, wenn sind wir gegangen."
+          },
+          {
+            "id": "o2",
+            "text": "Zuerst haben wir gelernt, weil sind wir gegangen."
+          },
+          {
+            "id": "o3",
+            "text": "Zuerst haben wir gelernt, obwohl sind wir gegangen."
+          },
+          {
+            "id": "o4",
+            "text": "Zuerst haben wir gelernt, dann sind wir gegangen."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q5",
         "type": "mcq",
         "prompt": "Ergänze: ___ du die Nachricht ___?",
         "options": [
-          "Hast gelesen",
-          "Hast lesen",
-          "Bist gelesen",
-          "Liest gestern"
+          {
+            "id": "o1",
+            "text": "Hast gelesen"
+          },
+          {
+            "id": "o2",
+            "text": "Hast lesen"
+          },
+          {
+            "id": "o3",
+            "text": "Bist gelesen"
+          },
+          {
+            "id": "o4",
+            "text": "Liest gestern"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q6",
         "type": "mcq",
         "prompt": "Wähle den Perfekt-Satz mit dem richtigen Hilfsverb.",
         "options": [
-          "Meine Freunde sind den Bus genommen.",
-          "Meine Freunde haben den Bus genommen.",
-          "Meine Freunde haben den Bus nehmen.",
-          "Meine Freunde nehmen gestern den Bus."
+          {
+            "id": "o1",
+            "text": "Meine Freunde sind den Bus genommen."
+          },
+          {
+            "id": "o2",
+            "text": "Meine Freunde haben den Bus genommen."
+          },
+          {
+            "id": "o3",
+            "text": "Meine Freunde haben den Bus nehmen."
+          },
+          {
+            "id": "o4",
+            "text": "Meine Freunde nehmen gestern den Bus."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q7",
         "type": "mcq",
         "prompt": "Ergänze: Wir ___ eine wichtige Erfahrung ___.",
         "options": [
-          "haben machen",
-          "sind gemacht",
-          "haben gemacht",
-          "machen gestern"
+          {
+            "id": "o1",
+            "text": "haben machen"
+          },
+          {
+            "id": "o2",
+            "text": "sind gemacht"
+          },
+          {
+            "id": "o3",
+            "text": "haben gemacht"
+          },
+          {
+            "id": "o4",
+            "text": "machen gestern"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q8",
         "type": "mcq",
         "prompt": "Welcher Satz beschreibt eine abgeschlossene Handlung?",
         "options": [
-          "Am Samstag bin ich meine Cousine getroffen.",
-          "Am Samstag treffe ich meine Cousine morgen.",
-          "Am Samstag treffen meine Cousine.",
-          "Am Samstag habe ich meine Cousine getroffen."
+          {
+            "id": "o1",
+            "text": "Am Samstag bin ich meine Cousine getroffen."
+          },
+          {
+            "id": "o2",
+            "text": "Am Samstag treffe ich meine Cousine morgen."
+          },
+          {
+            "id": "o3",
+            "text": "Am Samstag treffen meine Cousine."
+          },
+          {
+            "id": "o4",
+            "text": "Am Samstag habe ich meine Cousine getroffen."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       }
     ]
@@ -17893,9 +21685,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Indirekte Fragen",
-        "definition": "Práctica guiada de Indirekte Fragen.",
+        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
         "structure": "Meinung + weil/obwohl/deshalb + Begründung",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Eine Meinung ausdrücken und begründen.",
         "examples": [
           "Ich finde den Vorschlag sinnvoll.",
           "Trotzdem müssen wir die Ergebnisse prüfen."
@@ -17904,83 +21696,187 @@
       "grammarTest": {
         "questions": [
           {
+            "id": "q1",
             "type": "mcq",
             "prompt": "Ergänze: Ich finde, dass der Vorschlag sinnvoll ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "ist"
+              },
+              {
+                "id": "o2",
+                "text": "sind"
+              },
+              {
+                "id": "o3",
+                "text": "sein"
+              },
+              {
+                "id": "o4",
+                "text": "sei"
+              }
             ]
           },
           {
+            "id": "q2",
             "type": "mcq",
             "prompt": "Wähle den Konnektor für einen Gegensatz.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Ich möchte ausgehen, deshalb es regnet."
+              },
+              {
+                "id": "o2",
+                "text": "Ich möchte ausgehen, aber es regnet."
+              },
+              {
+                "id": "o3",
+                "text": "Ich möchte ausgehen, weil es regnet."
+              },
+              {
+                "id": "o4",
+                "text": "Ich möchte ausgehen, dann es regnet."
+              }
             ]
           },
           {
+            "id": "q3",
             "type": "mcq",
             "prompt": "Ergänze: Ich bleibe zu Hause, weil ich müde ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "sein"
+              },
+              {
+                "id": "o2",
+                "text": "ist"
+              },
+              {
+                "id": "o3",
+                "text": "bin"
+              },
+              {
+                "id": "o4",
+                "text": "bist"
+              }
             ]
           },
           {
+            "id": "q4",
             "type": "mcq",
             "prompt": "Welcher Satz drückt eine Meinung aus?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Das Projekt funktioniert warum?"
+              },
+              {
+                "id": "o2",
+                "text": "Das Projekt gestern funktioniert?"
+              },
+              {
+                "id": "o3",
+                "text": "Funktionieren das Projekt meiner Meinung."
+              },
+              {
+                "id": "o4",
+                "text": "Meiner Meinung nach funktioniert das Projekt."
+              }
             ]
           },
           {
+            "id": "q5",
             "type": "mcq",
             "prompt": "Ergänze: Obwohl es spät ___, arbeiten wir weiter.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "ist"
+              },
+              {
+                "id": "o2",
+                "text": "sind"
+              },
+              {
+                "id": "o3",
+                "text": "sein"
+              },
+              {
+                "id": "o4",
+                "text": "bist"
+              }
             ]
           },
           {
+            "id": "q6",
             "type": "mcq",
             "prompt": "Wähle eine logische Folge.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Wir haben wenig Zeit, aber planen wir die Arbeit."
+              },
+              {
+                "id": "o2",
+                "text": "Wir haben wenig Zeit, deshalb planen wir die Arbeit."
+              },
+              {
+                "id": "o3",
+                "text": "Wir haben wenig Zeit, weil planen wir die Arbeit."
+              },
+              {
+                "id": "o4",
+                "text": "Wir haben wenig Zeit, obwohl planen wir die Arbeit."
+              }
             ]
           },
           {
+            "id": "q7",
             "type": "mcq",
             "prompt": "Ergänze: Ich glaube, dass sie Recht ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "sein"
+              },
+              {
+                "id": "o2",
+                "text": "haben"
+              },
+              {
+                "id": "o3",
+                "text": "hat"
+              },
+              {
+                "id": "o4",
+                "text": "hatte"
+              }
             ]
           },
           {
+            "id": "q8",
             "type": "mcq",
             "prompt": "Welcher Satz begründet eine Wahl?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Ich nehme den Zug er nachhaltiger ist weil."
+              },
+              {
+                "id": "o2",
+                "text": "Ich nehme den Zug, aber er nachhaltiger ist."
+              },
+              {
+                "id": "o3",
+                "text": "Ich nehme den Zug, deshalb er nachhaltiger ist?"
+              },
+              {
+                "id": "o4",
+                "text": "Ich nehme den Zug, weil er nachhaltiger ist."
+              }
             ]
           }
         ]
@@ -17989,91 +21885,203 @@
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
         "prompt": "Ergänze: Ich finde, dass der Vorschlag sinnvoll ___.",
         "options": [
-          "ist",
-          "sind",
-          "sein",
-          "sei"
+          {
+            "id": "o1",
+            "text": "ist"
+          },
+          {
+            "id": "o2",
+            "text": "sind"
+          },
+          {
+            "id": "o3",
+            "text": "sein"
+          },
+          {
+            "id": "o4",
+            "text": "sei"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q2",
         "type": "mcq",
         "prompt": "Wähle den Konnektor für einen Gegensatz.",
         "options": [
-          "Ich möchte ausgehen, deshalb es regnet.",
-          "Ich möchte ausgehen, aber es regnet.",
-          "Ich möchte ausgehen, weil es regnet.",
-          "Ich möchte ausgehen, dann es regnet."
+          {
+            "id": "o1",
+            "text": "Ich möchte ausgehen, deshalb es regnet."
+          },
+          {
+            "id": "o2",
+            "text": "Ich möchte ausgehen, aber es regnet."
+          },
+          {
+            "id": "o3",
+            "text": "Ich möchte ausgehen, weil es regnet."
+          },
+          {
+            "id": "o4",
+            "text": "Ich möchte ausgehen, dann es regnet."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q3",
         "type": "mcq",
         "prompt": "Ergänze: Ich bleibe zu Hause, weil ich müde ___.",
         "options": [
-          "sein",
-          "ist",
-          "bin",
-          "bist"
+          {
+            "id": "o1",
+            "text": "sein"
+          },
+          {
+            "id": "o2",
+            "text": "ist"
+          },
+          {
+            "id": "o3",
+            "text": "bin"
+          },
+          {
+            "id": "o4",
+            "text": "bist"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q4",
         "type": "mcq",
         "prompt": "Welcher Satz drückt eine Meinung aus?",
         "options": [
-          "Das Projekt funktioniert warum?",
-          "Das Projekt gestern funktioniert?",
-          "Funktionieren das Projekt meiner Meinung.",
-          "Meiner Meinung nach funktioniert das Projekt."
+          {
+            "id": "o1",
+            "text": "Das Projekt funktioniert warum?"
+          },
+          {
+            "id": "o2",
+            "text": "Das Projekt gestern funktioniert?"
+          },
+          {
+            "id": "o3",
+            "text": "Funktionieren das Projekt meiner Meinung."
+          },
+          {
+            "id": "o4",
+            "text": "Meiner Meinung nach funktioniert das Projekt."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q5",
         "type": "mcq",
         "prompt": "Ergänze: Obwohl es spät ___, arbeiten wir weiter.",
         "options": [
-          "ist",
-          "sind",
-          "sein",
-          "bist"
+          {
+            "id": "o1",
+            "text": "ist"
+          },
+          {
+            "id": "o2",
+            "text": "sind"
+          },
+          {
+            "id": "o3",
+            "text": "sein"
+          },
+          {
+            "id": "o4",
+            "text": "bist"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q6",
         "type": "mcq",
         "prompt": "Wähle eine logische Folge.",
         "options": [
-          "Wir haben wenig Zeit, aber planen wir die Arbeit.",
-          "Wir haben wenig Zeit, deshalb planen wir die Arbeit.",
-          "Wir haben wenig Zeit, weil planen wir die Arbeit.",
-          "Wir haben wenig Zeit, obwohl planen wir die Arbeit."
+          {
+            "id": "o1",
+            "text": "Wir haben wenig Zeit, aber planen wir die Arbeit."
+          },
+          {
+            "id": "o2",
+            "text": "Wir haben wenig Zeit, deshalb planen wir die Arbeit."
+          },
+          {
+            "id": "o3",
+            "text": "Wir haben wenig Zeit, weil planen wir die Arbeit."
+          },
+          {
+            "id": "o4",
+            "text": "Wir haben wenig Zeit, obwohl planen wir die Arbeit."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q7",
         "type": "mcq",
         "prompt": "Ergänze: Ich glaube, dass sie Recht ___.",
         "options": [
-          "sein",
-          "haben",
-          "hat",
-          "hatte"
+          {
+            "id": "o1",
+            "text": "sein"
+          },
+          {
+            "id": "o2",
+            "text": "haben"
+          },
+          {
+            "id": "o3",
+            "text": "hat"
+          },
+          {
+            "id": "o4",
+            "text": "hatte"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q8",
         "type": "mcq",
         "prompt": "Welcher Satz begründet eine Wahl?",
         "options": [
-          "Ich nehme den Zug er nachhaltiger ist weil.",
-          "Ich nehme den Zug, aber er nachhaltiger ist.",
-          "Ich nehme den Zug, deshalb er nachhaltiger ist?",
-          "Ich nehme den Zug, weil er nachhaltiger ist."
+          {
+            "id": "o1",
+            "text": "Ich nehme den Zug er nachhaltiger ist weil."
+          },
+          {
+            "id": "o2",
+            "text": "Ich nehme den Zug, aber er nachhaltiger ist."
+          },
+          {
+            "id": "o3",
+            "text": "Ich nehme den Zug, deshalb er nachhaltiger ist?"
+          },
+          {
+            "id": "o4",
+            "text": "Ich nehme den Zug, weil er nachhaltiger ist."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       }
     ]
@@ -19751,121 +23759,277 @@
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Markt",
-          "Preis",
-          "Euro",
-          "kaufen"
-        ]
+          {
+            "id": "o1",
+            "text": "Markt"
+          },
+          {
+            "id": "o2",
+            "text": "Preis"
+          },
+          {
+            "id": "o3",
+            "text": "Euro"
+          },
+          {
+            "id": "o4",
+            "text": "kaufen"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Markt",
-          "Preis",
-          "Euro",
-          "kaufen"
-        ]
+          {
+            "id": "o1",
+            "text": "Markt"
+          },
+          {
+            "id": "o2",
+            "text": "Preis"
+          },
+          {
+            "id": "o3",
+            "text": "Euro"
+          },
+          {
+            "id": "o4",
+            "text": "kaufen"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Preis",
-          "Markt",
-          "Euro",
-          "kaufen"
-        ]
+          {
+            "id": "o1",
+            "text": "Preis"
+          },
+          {
+            "id": "o2",
+            "text": "Markt"
+          },
+          {
+            "id": "o3",
+            "text": "Euro"
+          },
+          {
+            "id": "o4",
+            "text": "kaufen"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Euro",
-          "Markt",
-          "Preis",
-          "kaufen"
-        ]
+          {
+            "id": "o1",
+            "text": "Euro"
+          },
+          {
+            "id": "o2",
+            "text": "Markt"
+          },
+          {
+            "id": "o3",
+            "text": "Preis"
+          },
+          {
+            "id": "o4",
+            "text": "kaufen"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Gemüse",
-          "Markt",
-          "Preis",
-          "Euro"
-        ]
+          {
+            "id": "o1",
+            "text": "Gemüse"
+          },
+          {
+            "id": "o2",
+            "text": "Markt"
+          },
+          {
+            "id": "o3",
+            "text": "Preis"
+          },
+          {
+            "id": "o4",
+            "text": "Euro"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Markt",
-          "Obst",
-          "Preis",
-          "Euro"
-        ]
+          {
+            "id": "o1",
+            "text": "Markt"
+          },
+          {
+            "id": "o2",
+            "text": "Obst"
+          },
+          {
+            "id": "o3",
+            "text": "Preis"
+          },
+          {
+            "id": "o4",
+            "text": "Euro"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Preis",
-          "Markt",
-          "brauchen",
-          "Euro"
-        ]
+          {
+            "id": "o1",
+            "text": "Preis"
+          },
+          {
+            "id": "o2",
+            "text": "Markt"
+          },
+          {
+            "id": "o3",
+            "text": "brauchen"
+          },
+          {
+            "id": "o4",
+            "text": "Euro"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Euro",
-          "Markt",
-          "Preis",
-          "billig"
-        ]
+          {
+            "id": "o1",
+            "text": "Euro"
+          },
+          {
+            "id": "o2",
+            "text": "Markt"
+          },
+          {
+            "id": "o3",
+            "text": "Preis"
+          },
+          {
+            "id": "o4",
+            "text": "billig"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "teuer",
-          "Markt",
-          "Preis",
-          "Euro"
-        ]
+          {
+            "id": "o1",
+            "text": "teuer"
+          },
+          {
+            "id": "o2",
+            "text": "Markt"
+          },
+          {
+            "id": "o3",
+            "text": "Preis"
+          },
+          {
+            "id": "o4",
+            "text": "Euro"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Markt",
-          "Tasche",
-          "Preis",
-          "Euro"
-        ]
+          {
+            "id": "o1",
+            "text": "Markt"
+          },
+          {
+            "id": "o2",
+            "text": "Tasche"
+          },
+          {
+            "id": "o3",
+            "text": "Preis"
+          },
+          {
+            "id": "o4",
+            "text": "Euro"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Preis",
-          "Markt",
-          "heute",
-          "Euro"
-        ]
+          {
+            "id": "o1",
+            "text": "Preis"
+          },
+          {
+            "id": "o2",
+            "text": "Markt"
+          },
+          {
+            "id": "o3",
+            "text": "heute"
+          },
+          {
+            "id": "o4",
+            "text": "Euro"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Euro",
-          "Markt",
-          "Preis",
-          "zusammen"
-        ]
+          {
+            "id": "o1",
+            "text": "Euro"
+          },
+          {
+            "id": "o2",
+            "text": "Markt"
+          },
+          {
+            "id": "o3",
+            "text": "Preis"
+          },
+          {
+            "id": "o4",
+            "text": "zusammen"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },
@@ -20033,121 +24197,277 @@
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Beruf",
-          "Aufgabe",
-          "Kollegin",
-          "Erfahrung"
-        ]
+          {
+            "id": "o1",
+            "text": "Beruf"
+          },
+          {
+            "id": "o2",
+            "text": "Aufgabe"
+          },
+          {
+            "id": "o3",
+            "text": "Kollegin"
+          },
+          {
+            "id": "o4",
+            "text": "Erfahrung"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Beruf",
-          "Aufgabe",
-          "Kollegin",
-          "Erfahrung"
-        ]
+          {
+            "id": "o1",
+            "text": "Beruf"
+          },
+          {
+            "id": "o2",
+            "text": "Aufgabe"
+          },
+          {
+            "id": "o3",
+            "text": "Kollegin"
+          },
+          {
+            "id": "o4",
+            "text": "Erfahrung"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Aufgabe",
-          "Beruf",
-          "Kollegin",
-          "Erfahrung"
-        ]
+          {
+            "id": "o1",
+            "text": "Aufgabe"
+          },
+          {
+            "id": "o2",
+            "text": "Beruf"
+          },
+          {
+            "id": "o3",
+            "text": "Kollegin"
+          },
+          {
+            "id": "o4",
+            "text": "Erfahrung"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Kollegin",
-          "Beruf",
-          "Aufgabe",
-          "Erfahrung"
-        ]
+          {
+            "id": "o1",
+            "text": "Kollegin"
+          },
+          {
+            "id": "o2",
+            "text": "Beruf"
+          },
+          {
+            "id": "o3",
+            "text": "Aufgabe"
+          },
+          {
+            "id": "o4",
+            "text": "Erfahrung"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "beginnen",
-          "Beruf",
-          "Aufgabe",
-          "Kollegin"
-        ]
+          {
+            "id": "o1",
+            "text": "beginnen"
+          },
+          {
+            "id": "o2",
+            "text": "Beruf"
+          },
+          {
+            "id": "o3",
+            "text": "Aufgabe"
+          },
+          {
+            "id": "o4",
+            "text": "Kollegin"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Beruf",
-          "Ende",
-          "Aufgabe",
-          "Kollegin"
-        ]
+          {
+            "id": "o1",
+            "text": "Beruf"
+          },
+          {
+            "id": "o2",
+            "text": "Ende"
+          },
+          {
+            "id": "o3",
+            "text": "Aufgabe"
+          },
+          {
+            "id": "o4",
+            "text": "Kollegin"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Aufgabe",
-          "Beruf",
-          "wichtig",
-          "Kollegin"
-        ]
+          {
+            "id": "o1",
+            "text": "Aufgabe"
+          },
+          {
+            "id": "o2",
+            "text": "Beruf"
+          },
+          {
+            "id": "o3",
+            "text": "wichtig"
+          },
+          {
+            "id": "o4",
+            "text": "Kollegin"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Kollegin",
-          "Beruf",
-          "Aufgabe",
-          "Bewerbung"
-        ]
+          {
+            "id": "o1",
+            "text": "Kollegin"
+          },
+          {
+            "id": "o2",
+            "text": "Beruf"
+          },
+          {
+            "id": "o3",
+            "text": "Aufgabe"
+          },
+          {
+            "id": "o4",
+            "text": "Bewerbung"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "lernen",
-          "Beruf",
-          "Aufgabe",
-          "Kollegin"
-        ]
+          {
+            "id": "o1",
+            "text": "lernen"
+          },
+          {
+            "id": "o2",
+            "text": "Beruf"
+          },
+          {
+            "id": "o3",
+            "text": "Aufgabe"
+          },
+          {
+            "id": "o4",
+            "text": "Kollegin"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Beruf",
-          "Chance",
-          "Aufgabe",
-          "Kollegin"
-        ]
+          {
+            "id": "o1",
+            "text": "Beruf"
+          },
+          {
+            "id": "o2",
+            "text": "Chance"
+          },
+          {
+            "id": "o3",
+            "text": "Aufgabe"
+          },
+          {
+            "id": "o4",
+            "text": "Kollegin"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Aufgabe",
-          "Beruf",
-          "heute",
-          "Kollegin"
-        ]
+          {
+            "id": "o1",
+            "text": "Aufgabe"
+          },
+          {
+            "id": "o2",
+            "text": "Beruf"
+          },
+          {
+            "id": "o3",
+            "text": "heute"
+          },
+          {
+            "id": "o4",
+            "text": "Kollegin"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Kollegin",
-          "Beruf",
-          "Aufgabe",
-          "zusammen"
-        ]
+          {
+            "id": "o1",
+            "text": "Kollegin"
+          },
+          {
+            "id": "o2",
+            "text": "Beruf"
+          },
+          {
+            "id": "o3",
+            "text": "Aufgabe"
+          },
+          {
+            "id": "o4",
+            "text": "zusammen"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },
@@ -20315,121 +24635,277 @@
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Nachricht",
-          "Quelle",
-          "Publikum",
-          "Meinung"
-        ]
+          {
+            "id": "o1",
+            "text": "Nachricht"
+          },
+          {
+            "id": "o2",
+            "text": "Quelle"
+          },
+          {
+            "id": "o3",
+            "text": "Publikum"
+          },
+          {
+            "id": "o4",
+            "text": "Meinung"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Nachricht",
-          "Quelle",
-          "Publikum",
-          "Meinung"
-        ]
+          {
+            "id": "o1",
+            "text": "Nachricht"
+          },
+          {
+            "id": "o2",
+            "text": "Quelle"
+          },
+          {
+            "id": "o3",
+            "text": "Publikum"
+          },
+          {
+            "id": "o4",
+            "text": "Meinung"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Quelle",
-          "Nachricht",
-          "Publikum",
-          "Meinung"
-        ]
+          {
+            "id": "o1",
+            "text": "Quelle"
+          },
+          {
+            "id": "o2",
+            "text": "Nachricht"
+          },
+          {
+            "id": "o3",
+            "text": "Publikum"
+          },
+          {
+            "id": "o4",
+            "text": "Meinung"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Publikum",
-          "Nachricht",
-          "Quelle",
-          "Meinung"
-        ]
+          {
+            "id": "o1",
+            "text": "Publikum"
+          },
+          {
+            "id": "o2",
+            "text": "Nachricht"
+          },
+          {
+            "id": "o3",
+            "text": "Quelle"
+          },
+          {
+            "id": "o4",
+            "text": "Meinung"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "vergleichen",
-          "Nachricht",
-          "Quelle",
-          "Publikum"
-        ]
+          {
+            "id": "o1",
+            "text": "vergleichen"
+          },
+          {
+            "id": "o2",
+            "text": "Nachricht"
+          },
+          {
+            "id": "o3",
+            "text": "Quelle"
+          },
+          {
+            "id": "o4",
+            "text": "Publikum"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Nachricht",
-          "Debatte",
-          "Quelle",
-          "Publikum"
-        ]
+          {
+            "id": "o1",
+            "text": "Nachricht"
+          },
+          {
+            "id": "o2",
+            "text": "Debatte"
+          },
+          {
+            "id": "o3",
+            "text": "Quelle"
+          },
+          {
+            "id": "o4",
+            "text": "Publikum"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Quelle",
-          "Nachricht",
-          "Inhalt",
-          "Publikum"
-        ]
+          {
+            "id": "o1",
+            "text": "Quelle"
+          },
+          {
+            "id": "o2",
+            "text": "Nachricht"
+          },
+          {
+            "id": "o3",
+            "text": "Inhalt"
+          },
+          {
+            "id": "o4",
+            "text": "Publikum"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Publikum",
-          "Nachricht",
-          "Quelle",
-          "zuverlässig"
-        ]
+          {
+            "id": "o1",
+            "text": "Publikum"
+          },
+          {
+            "id": "o2",
+            "text": "Nachricht"
+          },
+          {
+            "id": "o3",
+            "text": "Quelle"
+          },
+          {
+            "id": "o4",
+            "text": "zuverlässig"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Perspektive",
-          "Nachricht",
-          "Quelle",
-          "Publikum"
-        ]
+          {
+            "id": "o1",
+            "text": "Perspektive"
+          },
+          {
+            "id": "o2",
+            "text": "Nachricht"
+          },
+          {
+            "id": "o3",
+            "text": "Quelle"
+          },
+          {
+            "id": "o4",
+            "text": "Publikum"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Nachricht",
-          "kommunizieren",
-          "Quelle",
-          "Publikum"
-        ]
+          {
+            "id": "o1",
+            "text": "Nachricht"
+          },
+          {
+            "id": "o2",
+            "text": "kommunizieren"
+          },
+          {
+            "id": "o3",
+            "text": "Quelle"
+          },
+          {
+            "id": "o4",
+            "text": "Publikum"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Quelle",
-          "Nachricht",
-          "heute",
-          "Publikum"
-        ]
+          {
+            "id": "o1",
+            "text": "Quelle"
+          },
+          {
+            "id": "o2",
+            "text": "Nachricht"
+          },
+          {
+            "id": "o3",
+            "text": "heute"
+          },
+          {
+            "id": "o4",
+            "text": "Publikum"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Publikum",
-          "Nachricht",
-          "Quelle",
-          "zusammen"
-        ]
+          {
+            "id": "o1",
+            "text": "Publikum"
+          },
+          {
+            "id": "o2",
+            "text": "Nachricht"
+          },
+          {
+            "id": "o3",
+            "text": "Quelle"
+          },
+          {
+            "id": "o4",
+            "text": "zusammen"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },
@@ -22709,93 +27185,198 @@
     "extra": {
       "grammarProfile": {
         "name": "können und Wegbeschreibung",
-        "definition": "können steht auf Position zwei, der Infinitiv am Satzende.",
-        "structure": "Kannst du mir helfen? Du kannst geradeaus gehen.",
-        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
+        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
+        "structure": "Subjekt + Verb + Ergänzung",
+        "function": "Über Personen, Orte und Alltag sprechen.",
         "examples": [
-          "Kannst du mir helfen? Du kannst geradeaus gehen."
+          "Ich wohne im Viertel.",
+          "Leon spricht mit Anna."
         ]
       },
       "grammarTest": {
         "questions": [
           {
+            "id": "q1",
             "type": "mcq",
             "prompt": "Ergänze: Ich ___ im Viertel.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "wohne"
+              },
+              {
+                "id": "o2",
+                "text": "wohnt"
+              },
+              {
+                "id": "o3",
+                "text": "wohnen"
+              },
+              {
+                "id": "o4",
+                "text": "wohnst"
+              }
             ]
           },
           {
+            "id": "q2",
             "type": "mcq",
             "prompt": "Wähle den richtigen Satz.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Leon sprechen mit Anna."
+              },
+              {
+                "id": "o2",
+                "text": "Leon spricht mit Anna."
+              },
+              {
+                "id": "o3",
+                "text": "Leon spreche mit Anna."
+              },
+              {
+                "id": "o4",
+                "text": "Leon sprich mit Anna."
+              }
             ]
           },
           {
+            "id": "q3",
             "type": "mcq",
             "prompt": "Ergänze: Wir ___ jeden Tag Deutsch.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "lerne"
+              },
+              {
+                "id": "o2",
+                "text": "lernt"
+              },
+              {
+                "id": "o3",
+                "text": "lernen"
+              },
+              {
+                "id": "o4",
+                "text": "lernst"
+              }
             ]
           },
           {
+            "id": "q4",
             "type": "mcq",
             "prompt": "Welche Frage ist richtig?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Wo wohnst?"
+              },
+              {
+                "id": "o2",
+                "text": "Wo wohnen du?"
+              },
+              {
+                "id": "o3",
+                "text": "Wo du wohnst?"
+              },
+              {
+                "id": "o4",
+                "text": "Wo wohnst du?"
+              }
             ]
           },
           {
+            "id": "q5",
             "type": "mcq",
             "prompt": "Ergänze: Sie ___ eine Frage.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "stellt"
+              },
+              {
+                "id": "o2",
+                "text": "stelle"
+              },
+              {
+                "id": "o3",
+                "text": "stellen"
+              },
+              {
+                "id": "o4",
+                "text": "stellst"
+              }
             ]
           },
           {
+            "id": "q6",
             "type": "mcq",
             "prompt": "Wähle den Satz über ein Haus.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Das Haus sind hell."
+              },
+              {
+                "id": "o2",
+                "text": "Das Haus ist hell."
+              },
+              {
+                "id": "o3",
+                "text": "Die Haus ist hell."
+              },
+              {
+                "id": "o4",
+                "text": "Das Haus ist helle."
+              }
             ]
           },
           {
+            "id": "q7",
             "type": "mcq",
             "prompt": "Ergänze: Du ___ Kaffee.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "trinken"
+              },
+              {
+                "id": "o2",
+                "text": "trinkt"
+              },
+              {
+                "id": "o3",
+                "text": "trinkst"
+              },
+              {
+                "id": "o4",
+                "text": "trinke"
+              }
             ]
           },
           {
+            "id": "q8",
             "type": "mcq",
             "prompt": "Welcher Satz beschreibt eine Routine?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Jeden Morgen arbeitet ich im Zentrum."
+              },
+              {
+                "id": "o2",
+                "text": "Gestern arbeiten ich im Zentrum."
+              },
+              {
+                "id": "o3",
+                "text": "Morgen arbeitete ich im Zentrum."
+              },
+              {
+                "id": "o4",
+                "text": "Jeden Morgen arbeite ich im Zentrum."
+              }
             ]
           }
         ]
@@ -22804,91 +27385,203 @@
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
         "prompt": "Ergänze: Ich ___ im Viertel.",
         "options": [
-          "wohne",
-          "wohnt",
-          "wohnen",
-          "wohnst"
+          {
+            "id": "o1",
+            "text": "wohne"
+          },
+          {
+            "id": "o2",
+            "text": "wohnt"
+          },
+          {
+            "id": "o3",
+            "text": "wohnen"
+          },
+          {
+            "id": "o4",
+            "text": "wohnst"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q2",
         "type": "mcq",
         "prompt": "Wähle den richtigen Satz.",
         "options": [
-          "Leon sprechen mit Anna.",
-          "Leon spricht mit Anna.",
-          "Leon spreche mit Anna.",
-          "Leon sprich mit Anna."
+          {
+            "id": "o1",
+            "text": "Leon sprechen mit Anna."
+          },
+          {
+            "id": "o2",
+            "text": "Leon spricht mit Anna."
+          },
+          {
+            "id": "o3",
+            "text": "Leon spreche mit Anna."
+          },
+          {
+            "id": "o4",
+            "text": "Leon sprich mit Anna."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q3",
         "type": "mcq",
         "prompt": "Ergänze: Wir ___ jeden Tag Deutsch.",
         "options": [
-          "lerne",
-          "lernt",
-          "lernen",
-          "lernst"
+          {
+            "id": "o1",
+            "text": "lerne"
+          },
+          {
+            "id": "o2",
+            "text": "lernt"
+          },
+          {
+            "id": "o3",
+            "text": "lernen"
+          },
+          {
+            "id": "o4",
+            "text": "lernst"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q4",
         "type": "mcq",
         "prompt": "Welche Frage ist richtig?",
         "options": [
-          "Wo wohnst?",
-          "Wo wohnen du?",
-          "Wo du wohnst?",
-          "Wo wohnst du?"
+          {
+            "id": "o1",
+            "text": "Wo wohnst?"
+          },
+          {
+            "id": "o2",
+            "text": "Wo wohnen du?"
+          },
+          {
+            "id": "o3",
+            "text": "Wo du wohnst?"
+          },
+          {
+            "id": "o4",
+            "text": "Wo wohnst du?"
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q5",
         "type": "mcq",
         "prompt": "Ergänze: Sie ___ eine Frage.",
         "options": [
-          "stellt",
-          "stelle",
-          "stellen",
-          "stellst"
+          {
+            "id": "o1",
+            "text": "stellt"
+          },
+          {
+            "id": "o2",
+            "text": "stelle"
+          },
+          {
+            "id": "o3",
+            "text": "stellen"
+          },
+          {
+            "id": "o4",
+            "text": "stellst"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q6",
         "type": "mcq",
         "prompt": "Wähle den Satz über ein Haus.",
         "options": [
-          "Das Haus sind hell.",
-          "Das Haus ist hell.",
-          "Die Haus ist hell.",
-          "Das Haus ist helle."
+          {
+            "id": "o1",
+            "text": "Das Haus sind hell."
+          },
+          {
+            "id": "o2",
+            "text": "Das Haus ist hell."
+          },
+          {
+            "id": "o3",
+            "text": "Die Haus ist hell."
+          },
+          {
+            "id": "o4",
+            "text": "Das Haus ist helle."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q7",
         "type": "mcq",
         "prompt": "Ergänze: Du ___ Kaffee.",
         "options": [
-          "trinken",
-          "trinkt",
-          "trinkst",
-          "trinke"
+          {
+            "id": "o1",
+            "text": "trinken"
+          },
+          {
+            "id": "o2",
+            "text": "trinkt"
+          },
+          {
+            "id": "o3",
+            "text": "trinkst"
+          },
+          {
+            "id": "o4",
+            "text": "trinke"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q8",
         "type": "mcq",
         "prompt": "Welcher Satz beschreibt eine Routine?",
         "options": [
-          "Jeden Morgen arbeitet ich im Zentrum.",
-          "Gestern arbeiten ich im Zentrum.",
-          "Morgen arbeitete ich im Zentrum.",
-          "Jeden Morgen arbeite ich im Zentrum."
+          {
+            "id": "o1",
+            "text": "Jeden Morgen arbeitet ich im Zentrum."
+          },
+          {
+            "id": "o2",
+            "text": "Gestern arbeiten ich im Zentrum."
+          },
+          {
+            "id": "o3",
+            "text": "Morgen arbeitete ich im Zentrum."
+          },
+          {
+            "id": "o4",
+            "text": "Jeden Morgen arbeite ich im Zentrum."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       }
     ]
@@ -22969,93 +27662,198 @@
     "extra": {
       "grammarProfile": {
         "name": "Perfekt mit sein",
-        "definition": "Los verbos de movimiento o cambio suelen formar el Perfekt con sein.",
-        "structure": "Wir sind nach Berlin gefahren.",
-        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
+        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
+        "structure": "haben/sein + Partizip II",
+        "function": "Erfahrungen und Pläne erzählen.",
         "examples": [
-          "Wir sind nach Berlin gefahren."
+          "Gestern habe ich das Museum besucht.",
+          "Danach haben wir zusammen gesprochen."
         ]
       },
       "grammarTest": {
         "questions": [
           {
+            "id": "q1",
             "type": "mcq",
             "prompt": "Ergänze: Gestern ___ ich das Museum ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "habe besucht"
+              },
+              {
+                "id": "o2",
+                "text": "besuche"
+              },
+              {
+                "id": "o3",
+                "text": "habe besuchen"
+              },
+              {
+                "id": "o4",
+                "text": "bin besucht"
+              }
             ]
           },
           {
+            "id": "q2",
             "type": "mcq",
             "prompt": "Wähle den richtigen Perfekt-Satz.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Wir haben zusammen essen."
+              },
+              {
+                "id": "o2",
+                "text": "Wir haben zusammen gegessen."
+              },
+              {
+                "id": "o3",
+                "text": "Wir sind zusammen gegessen."
+              },
+              {
+                "id": "o4",
+                "text": "Wir essen gestern zusammen."
+              }
             ]
           },
           {
+            "id": "q3",
             "type": "mcq",
             "prompt": "Ergänze: Marta ___ spät nach Hause ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "ist kommen"
+              },
+              {
+                "id": "o2",
+                "text": "hat gekommen"
+              },
+              {
+                "id": "o3",
+                "text": "ist gekommen"
+              },
+              {
+                "id": "o4",
+                "text": "kommt gestern"
+              }
             ]
           },
           {
+            "id": "q4",
             "type": "mcq",
             "prompt": "Welcher Satz zeigt eine Reihenfolge?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Zuerst haben wir gelernt, wenn sind wir gegangen."
+              },
+              {
+                "id": "o2",
+                "text": "Zuerst haben wir gelernt, weil sind wir gegangen."
+              },
+              {
+                "id": "o3",
+                "text": "Zuerst haben wir gelernt, obwohl sind wir gegangen."
+              },
+              {
+                "id": "o4",
+                "text": "Zuerst haben wir gelernt, dann sind wir gegangen."
+              }
             ]
           },
           {
+            "id": "q5",
             "type": "mcq",
             "prompt": "Ergänze: ___ du die Nachricht ___?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Hast gelesen"
+              },
+              {
+                "id": "o2",
+                "text": "Hast lesen"
+              },
+              {
+                "id": "o3",
+                "text": "Bist gelesen"
+              },
+              {
+                "id": "o4",
+                "text": "Liest gestern"
+              }
             ]
           },
           {
+            "id": "q6",
             "type": "mcq",
             "prompt": "Wähle den Perfekt-Satz mit dem richtigen Hilfsverb.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Meine Freunde sind den Bus genommen."
+              },
+              {
+                "id": "o2",
+                "text": "Meine Freunde haben den Bus genommen."
+              },
+              {
+                "id": "o3",
+                "text": "Meine Freunde haben den Bus nehmen."
+              },
+              {
+                "id": "o4",
+                "text": "Meine Freunde nehmen gestern den Bus."
+              }
             ]
           },
           {
+            "id": "q7",
             "type": "mcq",
             "prompt": "Ergänze: Wir ___ eine wichtige Erfahrung ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "haben machen"
+              },
+              {
+                "id": "o2",
+                "text": "sind gemacht"
+              },
+              {
+                "id": "o3",
+                "text": "haben gemacht"
+              },
+              {
+                "id": "o4",
+                "text": "machen gestern"
+              }
             ]
           },
           {
+            "id": "q8",
             "type": "mcq",
             "prompt": "Welcher Satz beschreibt eine abgeschlossene Handlung?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Am Samstag bin ich meine Cousine getroffen."
+              },
+              {
+                "id": "o2",
+                "text": "Am Samstag treffe ich meine Cousine morgen."
+              },
+              {
+                "id": "o3",
+                "text": "Am Samstag treffen meine Cousine."
+              },
+              {
+                "id": "o4",
+                "text": "Am Samstag habe ich meine Cousine getroffen."
+              }
             ]
           }
         ]
@@ -23064,91 +27862,203 @@
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
         "prompt": "Ergänze: Gestern ___ ich das Museum ___.",
         "options": [
-          "habe besucht",
-          "besuche",
-          "habe besuchen",
-          "bin besucht"
+          {
+            "id": "o1",
+            "text": "habe besucht"
+          },
+          {
+            "id": "o2",
+            "text": "besuche"
+          },
+          {
+            "id": "o3",
+            "text": "habe besuchen"
+          },
+          {
+            "id": "o4",
+            "text": "bin besucht"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q2",
         "type": "mcq",
         "prompt": "Wähle den richtigen Perfekt-Satz.",
         "options": [
-          "Wir haben zusammen essen.",
-          "Wir haben zusammen gegessen.",
-          "Wir sind zusammen gegessen.",
-          "Wir essen gestern zusammen."
+          {
+            "id": "o1",
+            "text": "Wir haben zusammen essen."
+          },
+          {
+            "id": "o2",
+            "text": "Wir haben zusammen gegessen."
+          },
+          {
+            "id": "o3",
+            "text": "Wir sind zusammen gegessen."
+          },
+          {
+            "id": "o4",
+            "text": "Wir essen gestern zusammen."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q3",
         "type": "mcq",
         "prompt": "Ergänze: Marta ___ spät nach Hause ___.",
         "options": [
-          "ist kommen",
-          "hat gekommen",
-          "ist gekommen",
-          "kommt gestern"
+          {
+            "id": "o1",
+            "text": "ist kommen"
+          },
+          {
+            "id": "o2",
+            "text": "hat gekommen"
+          },
+          {
+            "id": "o3",
+            "text": "ist gekommen"
+          },
+          {
+            "id": "o4",
+            "text": "kommt gestern"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q4",
         "type": "mcq",
         "prompt": "Welcher Satz zeigt eine Reihenfolge?",
         "options": [
-          "Zuerst haben wir gelernt, wenn sind wir gegangen.",
-          "Zuerst haben wir gelernt, weil sind wir gegangen.",
-          "Zuerst haben wir gelernt, obwohl sind wir gegangen.",
-          "Zuerst haben wir gelernt, dann sind wir gegangen."
+          {
+            "id": "o1",
+            "text": "Zuerst haben wir gelernt, wenn sind wir gegangen."
+          },
+          {
+            "id": "o2",
+            "text": "Zuerst haben wir gelernt, weil sind wir gegangen."
+          },
+          {
+            "id": "o3",
+            "text": "Zuerst haben wir gelernt, obwohl sind wir gegangen."
+          },
+          {
+            "id": "o4",
+            "text": "Zuerst haben wir gelernt, dann sind wir gegangen."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q5",
         "type": "mcq",
         "prompt": "Ergänze: ___ du die Nachricht ___?",
         "options": [
-          "Hast gelesen",
-          "Hast lesen",
-          "Bist gelesen",
-          "Liest gestern"
+          {
+            "id": "o1",
+            "text": "Hast gelesen"
+          },
+          {
+            "id": "o2",
+            "text": "Hast lesen"
+          },
+          {
+            "id": "o3",
+            "text": "Bist gelesen"
+          },
+          {
+            "id": "o4",
+            "text": "Liest gestern"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q6",
         "type": "mcq",
         "prompt": "Wähle den Perfekt-Satz mit dem richtigen Hilfsverb.",
         "options": [
-          "Meine Freunde sind den Bus genommen.",
-          "Meine Freunde haben den Bus genommen.",
-          "Meine Freunde haben den Bus nehmen.",
-          "Meine Freunde nehmen gestern den Bus."
+          {
+            "id": "o1",
+            "text": "Meine Freunde sind den Bus genommen."
+          },
+          {
+            "id": "o2",
+            "text": "Meine Freunde haben den Bus genommen."
+          },
+          {
+            "id": "o3",
+            "text": "Meine Freunde haben den Bus nehmen."
+          },
+          {
+            "id": "o4",
+            "text": "Meine Freunde nehmen gestern den Bus."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q7",
         "type": "mcq",
         "prompt": "Ergänze: Wir ___ eine wichtige Erfahrung ___.",
         "options": [
-          "haben machen",
-          "sind gemacht",
-          "haben gemacht",
-          "machen gestern"
+          {
+            "id": "o1",
+            "text": "haben machen"
+          },
+          {
+            "id": "o2",
+            "text": "sind gemacht"
+          },
+          {
+            "id": "o3",
+            "text": "haben gemacht"
+          },
+          {
+            "id": "o4",
+            "text": "machen gestern"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q8",
         "type": "mcq",
         "prompt": "Welcher Satz beschreibt eine abgeschlossene Handlung?",
         "options": [
-          "Am Samstag bin ich meine Cousine getroffen.",
-          "Am Samstag treffe ich meine Cousine morgen.",
-          "Am Samstag treffen meine Cousine.",
-          "Am Samstag habe ich meine Cousine getroffen."
+          {
+            "id": "o1",
+            "text": "Am Samstag bin ich meine Cousine getroffen."
+          },
+          {
+            "id": "o2",
+            "text": "Am Samstag treffe ich meine Cousine morgen."
+          },
+          {
+            "id": "o3",
+            "text": "Am Samstag treffen meine Cousine."
+          },
+          {
+            "id": "o4",
+            "text": "Am Samstag habe ich meine Cousine getroffen."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       }
     ]
@@ -23232,9 +28142,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Konnektoren: obwohl, trotzdem und daher",
-        "definition": "Práctica guiada de Konnektoren: obwohl, trotzdem und daher.",
+        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
         "structure": "Meinung + weil/obwohl/deshalb + Begründung",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Eine Meinung ausdrücken und begründen.",
         "examples": [
           "Ich finde den Vorschlag sinnvoll.",
           "Trotzdem müssen wir die Ergebnisse prüfen."
@@ -23243,83 +28153,187 @@
       "grammarTest": {
         "questions": [
           {
+            "id": "q1",
             "type": "mcq",
             "prompt": "Ergänze: Ich finde, dass der Vorschlag sinnvoll ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "ist"
+              },
+              {
+                "id": "o2",
+                "text": "sind"
+              },
+              {
+                "id": "o3",
+                "text": "sein"
+              },
+              {
+                "id": "o4",
+                "text": "sei"
+              }
             ]
           },
           {
+            "id": "q2",
             "type": "mcq",
             "prompt": "Wähle den Konnektor für einen Gegensatz.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Ich möchte ausgehen, deshalb es regnet."
+              },
+              {
+                "id": "o2",
+                "text": "Ich möchte ausgehen, aber es regnet."
+              },
+              {
+                "id": "o3",
+                "text": "Ich möchte ausgehen, weil es regnet."
+              },
+              {
+                "id": "o4",
+                "text": "Ich möchte ausgehen, dann es regnet."
+              }
             ]
           },
           {
+            "id": "q3",
             "type": "mcq",
             "prompt": "Ergänze: Ich bleibe zu Hause, weil ich müde ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "sein"
+              },
+              {
+                "id": "o2",
+                "text": "ist"
+              },
+              {
+                "id": "o3",
+                "text": "bin"
+              },
+              {
+                "id": "o4",
+                "text": "bist"
+              }
             ]
           },
           {
+            "id": "q4",
             "type": "mcq",
             "prompt": "Welcher Satz drückt eine Meinung aus?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Das Projekt funktioniert warum?"
+              },
+              {
+                "id": "o2",
+                "text": "Das Projekt gestern funktioniert?"
+              },
+              {
+                "id": "o3",
+                "text": "Funktionieren das Projekt meiner Meinung."
+              },
+              {
+                "id": "o4",
+                "text": "Meiner Meinung nach funktioniert das Projekt."
+              }
             ]
           },
           {
+            "id": "q5",
             "type": "mcq",
             "prompt": "Ergänze: Obwohl es spät ___, arbeiten wir weiter.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "ist"
+              },
+              {
+                "id": "o2",
+                "text": "sind"
+              },
+              {
+                "id": "o3",
+                "text": "sein"
+              },
+              {
+                "id": "o4",
+                "text": "bist"
+              }
             ]
           },
           {
+            "id": "q6",
             "type": "mcq",
             "prompt": "Wähle eine logische Folge.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Wir haben wenig Zeit, aber planen wir die Arbeit."
+              },
+              {
+                "id": "o2",
+                "text": "Wir haben wenig Zeit, deshalb planen wir die Arbeit."
+              },
+              {
+                "id": "o3",
+                "text": "Wir haben wenig Zeit, weil planen wir die Arbeit."
+              },
+              {
+                "id": "o4",
+                "text": "Wir haben wenig Zeit, obwohl planen wir die Arbeit."
+              }
             ]
           },
           {
+            "id": "q7",
             "type": "mcq",
             "prompt": "Ergänze: Ich glaube, dass sie Recht ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "sein"
+              },
+              {
+                "id": "o2",
+                "text": "haben"
+              },
+              {
+                "id": "o3",
+                "text": "hat"
+              },
+              {
+                "id": "o4",
+                "text": "hatte"
+              }
             ]
           },
           {
+            "id": "q8",
             "type": "mcq",
             "prompt": "Welcher Satz begründet eine Wahl?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Ich nehme den Zug er nachhaltiger ist weil."
+              },
+              {
+                "id": "o2",
+                "text": "Ich nehme den Zug, aber er nachhaltiger ist."
+              },
+              {
+                "id": "o3",
+                "text": "Ich nehme den Zug, deshalb er nachhaltiger ist?"
+              },
+              {
+                "id": "o4",
+                "text": "Ich nehme den Zug, weil er nachhaltiger ist."
+              }
             ]
           }
         ]
@@ -23328,91 +28342,203 @@
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
         "prompt": "Ergänze: Ich finde, dass der Vorschlag sinnvoll ___.",
         "options": [
-          "ist",
-          "sind",
-          "sein",
-          "sei"
+          {
+            "id": "o1",
+            "text": "ist"
+          },
+          {
+            "id": "o2",
+            "text": "sind"
+          },
+          {
+            "id": "o3",
+            "text": "sein"
+          },
+          {
+            "id": "o4",
+            "text": "sei"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q2",
         "type": "mcq",
         "prompt": "Wähle den Konnektor für einen Gegensatz.",
         "options": [
-          "Ich möchte ausgehen, deshalb es regnet.",
-          "Ich möchte ausgehen, aber es regnet.",
-          "Ich möchte ausgehen, weil es regnet.",
-          "Ich möchte ausgehen, dann es regnet."
+          {
+            "id": "o1",
+            "text": "Ich möchte ausgehen, deshalb es regnet."
+          },
+          {
+            "id": "o2",
+            "text": "Ich möchte ausgehen, aber es regnet."
+          },
+          {
+            "id": "o3",
+            "text": "Ich möchte ausgehen, weil es regnet."
+          },
+          {
+            "id": "o4",
+            "text": "Ich möchte ausgehen, dann es regnet."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q3",
         "type": "mcq",
         "prompt": "Ergänze: Ich bleibe zu Hause, weil ich müde ___.",
         "options": [
-          "sein",
-          "ist",
-          "bin",
-          "bist"
+          {
+            "id": "o1",
+            "text": "sein"
+          },
+          {
+            "id": "o2",
+            "text": "ist"
+          },
+          {
+            "id": "o3",
+            "text": "bin"
+          },
+          {
+            "id": "o4",
+            "text": "bist"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q4",
         "type": "mcq",
         "prompt": "Welcher Satz drückt eine Meinung aus?",
         "options": [
-          "Das Projekt funktioniert warum?",
-          "Das Projekt gestern funktioniert?",
-          "Funktionieren das Projekt meiner Meinung.",
-          "Meiner Meinung nach funktioniert das Projekt."
+          {
+            "id": "o1",
+            "text": "Das Projekt funktioniert warum?"
+          },
+          {
+            "id": "o2",
+            "text": "Das Projekt gestern funktioniert?"
+          },
+          {
+            "id": "o3",
+            "text": "Funktionieren das Projekt meiner Meinung."
+          },
+          {
+            "id": "o4",
+            "text": "Meiner Meinung nach funktioniert das Projekt."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q5",
         "type": "mcq",
         "prompt": "Ergänze: Obwohl es spät ___, arbeiten wir weiter.",
         "options": [
-          "ist",
-          "sind",
-          "sein",
-          "bist"
+          {
+            "id": "o1",
+            "text": "ist"
+          },
+          {
+            "id": "o2",
+            "text": "sind"
+          },
+          {
+            "id": "o3",
+            "text": "sein"
+          },
+          {
+            "id": "o4",
+            "text": "bist"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q6",
         "type": "mcq",
         "prompt": "Wähle eine logische Folge.",
         "options": [
-          "Wir haben wenig Zeit, aber planen wir die Arbeit.",
-          "Wir haben wenig Zeit, deshalb planen wir die Arbeit.",
-          "Wir haben wenig Zeit, weil planen wir die Arbeit.",
-          "Wir haben wenig Zeit, obwohl planen wir die Arbeit."
+          {
+            "id": "o1",
+            "text": "Wir haben wenig Zeit, aber planen wir die Arbeit."
+          },
+          {
+            "id": "o2",
+            "text": "Wir haben wenig Zeit, deshalb planen wir die Arbeit."
+          },
+          {
+            "id": "o3",
+            "text": "Wir haben wenig Zeit, weil planen wir die Arbeit."
+          },
+          {
+            "id": "o4",
+            "text": "Wir haben wenig Zeit, obwohl planen wir die Arbeit."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q7",
         "type": "mcq",
         "prompt": "Ergänze: Ich glaube, dass sie Recht ___.",
         "options": [
-          "sein",
-          "haben",
-          "hat",
-          "hatte"
+          {
+            "id": "o1",
+            "text": "sein"
+          },
+          {
+            "id": "o2",
+            "text": "haben"
+          },
+          {
+            "id": "o3",
+            "text": "hat"
+          },
+          {
+            "id": "o4",
+            "text": "hatte"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q8",
         "type": "mcq",
         "prompt": "Welcher Satz begründet eine Wahl?",
         "options": [
-          "Ich nehme den Zug er nachhaltiger ist weil.",
-          "Ich nehme den Zug, aber er nachhaltiger ist.",
-          "Ich nehme den Zug, deshalb er nachhaltiger ist?",
-          "Ich nehme den Zug, weil er nachhaltiger ist."
+          {
+            "id": "o1",
+            "text": "Ich nehme den Zug er nachhaltiger ist weil."
+          },
+          {
+            "id": "o2",
+            "text": "Ich nehme den Zug, aber er nachhaltiger ist."
+          },
+          {
+            "id": "o3",
+            "text": "Ich nehme den Zug, deshalb er nachhaltiger ist?"
+          },
+          {
+            "id": "o4",
+            "text": "Ich nehme den Zug, weil er nachhaltiger ist."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       }
     ]
@@ -25090,121 +30216,277 @@
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Straße",
-          "Bahnhof",
-          "Apotheke",
-          "Schule"
-        ]
+          {
+            "id": "o1",
+            "text": "Straße"
+          },
+          {
+            "id": "o2",
+            "text": "Bahnhof"
+          },
+          {
+            "id": "o3",
+            "text": "Apotheke"
+          },
+          {
+            "id": "o4",
+            "text": "Schule"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Straße",
-          "Bahnhof",
-          "Apotheke",
-          "Schule"
-        ]
+          {
+            "id": "o1",
+            "text": "Straße"
+          },
+          {
+            "id": "o2",
+            "text": "Bahnhof"
+          },
+          {
+            "id": "o3",
+            "text": "Apotheke"
+          },
+          {
+            "id": "o4",
+            "text": "Schule"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Bahnhof",
-          "Straße",
-          "Apotheke",
-          "Schule"
-        ]
+          {
+            "id": "o1",
+            "text": "Bahnhof"
+          },
+          {
+            "id": "o2",
+            "text": "Straße"
+          },
+          {
+            "id": "o3",
+            "text": "Apotheke"
+          },
+          {
+            "id": "o4",
+            "text": "Schule"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Apotheke",
-          "Straße",
-          "Bahnhof",
-          "Schule"
-        ]
+          {
+            "id": "o1",
+            "text": "Apotheke"
+          },
+          {
+            "id": "o2",
+            "text": "Straße"
+          },
+          {
+            "id": "o3",
+            "text": "Bahnhof"
+          },
+          {
+            "id": "o4",
+            "text": "Schule"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "links",
-          "Straße",
-          "Bahnhof",
-          "Apotheke"
-        ]
+          {
+            "id": "o1",
+            "text": "links"
+          },
+          {
+            "id": "o2",
+            "text": "Straße"
+          },
+          {
+            "id": "o3",
+            "text": "Bahnhof"
+          },
+          {
+            "id": "o4",
+            "text": "Apotheke"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Straße",
-          "rechts",
-          "Bahnhof",
-          "Apotheke"
-        ]
+          {
+            "id": "o1",
+            "text": "Straße"
+          },
+          {
+            "id": "o2",
+            "text": "rechts"
+          },
+          {
+            "id": "o3",
+            "text": "Bahnhof"
+          },
+          {
+            "id": "o4",
+            "text": "Apotheke"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Bahnhof",
-          "Straße",
-          "geradeaus",
-          "Apotheke"
-        ]
+          {
+            "id": "o1",
+            "text": "Bahnhof"
+          },
+          {
+            "id": "o2",
+            "text": "Straße"
+          },
+          {
+            "id": "o3",
+            "text": "geradeaus"
+          },
+          {
+            "id": "o4",
+            "text": "Apotheke"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Apotheke",
-          "Straße",
-          "Bahnhof",
-          "nahe"
-        ]
+          {
+            "id": "o1",
+            "text": "Apotheke"
+          },
+          {
+            "id": "o2",
+            "text": "Straße"
+          },
+          {
+            "id": "o3",
+            "text": "Bahnhof"
+          },
+          {
+            "id": "o4",
+            "text": "nahe"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Bus",
-          "Straße",
-          "Bahnhof",
-          "Apotheke"
-        ]
+          {
+            "id": "o1",
+            "text": "Bus"
+          },
+          {
+            "id": "o2",
+            "text": "Straße"
+          },
+          {
+            "id": "o3",
+            "text": "Bahnhof"
+          },
+          {
+            "id": "o4",
+            "text": "Apotheke"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Straße",
-          "Karte",
-          "Bahnhof",
-          "Apotheke"
-        ]
+          {
+            "id": "o1",
+            "text": "Straße"
+          },
+          {
+            "id": "o2",
+            "text": "Karte"
+          },
+          {
+            "id": "o3",
+            "text": "Bahnhof"
+          },
+          {
+            "id": "o4",
+            "text": "Apotheke"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Bahnhof",
-          "Straße",
-          "heute",
-          "Apotheke"
-        ]
+          {
+            "id": "o1",
+            "text": "Bahnhof"
+          },
+          {
+            "id": "o2",
+            "text": "Straße"
+          },
+          {
+            "id": "o3",
+            "text": "heute"
+          },
+          {
+            "id": "o4",
+            "text": "Apotheke"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Apotheke",
-          "Straße",
-          "Bahnhof",
-          "zusammen"
-        ]
+          {
+            "id": "o1",
+            "text": "Apotheke"
+          },
+          {
+            "id": "o2",
+            "text": "Straße"
+          },
+          {
+            "id": "o3",
+            "text": "Bahnhof"
+          },
+          {
+            "id": "o4",
+            "text": "zusammen"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },
@@ -25372,121 +30654,277 @@
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Reise",
-          "erlebt",
-          "besucht",
-          "geblieben"
-        ]
+          {
+            "id": "o1",
+            "text": "Reise"
+          },
+          {
+            "id": "o2",
+            "text": "erlebt"
+          },
+          {
+            "id": "o3",
+            "text": "besucht"
+          },
+          {
+            "id": "o4",
+            "text": "geblieben"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Reise",
-          "erlebt",
-          "besucht",
-          "geblieben"
-        ]
+          {
+            "id": "o1",
+            "text": "Reise"
+          },
+          {
+            "id": "o2",
+            "text": "erlebt"
+          },
+          {
+            "id": "o3",
+            "text": "besucht"
+          },
+          {
+            "id": "o4",
+            "text": "geblieben"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "erlebt",
-          "Reise",
-          "besucht",
-          "geblieben"
-        ]
+          {
+            "id": "o1",
+            "text": "erlebt"
+          },
+          {
+            "id": "o2",
+            "text": "Reise"
+          },
+          {
+            "id": "o3",
+            "text": "besucht"
+          },
+          {
+            "id": "o4",
+            "text": "geblieben"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "besucht",
-          "Reise",
-          "erlebt",
-          "geblieben"
-        ]
+          {
+            "id": "o1",
+            "text": "besucht"
+          },
+          {
+            "id": "o2",
+            "text": "Reise"
+          },
+          {
+            "id": "o3",
+            "text": "erlebt"
+          },
+          {
+            "id": "o4",
+            "text": "geblieben"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "gesehen",
-          "Reise",
-          "erlebt",
-          "besucht"
-        ]
+          {
+            "id": "o1",
+            "text": "gesehen"
+          },
+          {
+            "id": "o2",
+            "text": "Reise"
+          },
+          {
+            "id": "o3",
+            "text": "erlebt"
+          },
+          {
+            "id": "o4",
+            "text": "besucht"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Reise",
-          "Hotel",
-          "erlebt",
-          "besucht"
-        ]
+          {
+            "id": "o1",
+            "text": "Reise"
+          },
+          {
+            "id": "o2",
+            "text": "Hotel"
+          },
+          {
+            "id": "o3",
+            "text": "erlebt"
+          },
+          {
+            "id": "o4",
+            "text": "besucht"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "erlebt",
-          "Reise",
-          "unterwegs",
-          "besucht"
-        ]
+          {
+            "id": "o1",
+            "text": "erlebt"
+          },
+          {
+            "id": "o2",
+            "text": "Reise"
+          },
+          {
+            "id": "o3",
+            "text": "unterwegs"
+          },
+          {
+            "id": "o4",
+            "text": "besucht"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "besucht",
-          "Reise",
-          "erlebt",
-          "Erinnerung"
-        ]
+          {
+            "id": "o1",
+            "text": "besucht"
+          },
+          {
+            "id": "o2",
+            "text": "Reise"
+          },
+          {
+            "id": "o3",
+            "text": "erlebt"
+          },
+          {
+            "id": "o4",
+            "text": "Erinnerung"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "planen",
-          "Reise",
-          "erlebt",
-          "besucht"
-        ]
+          {
+            "id": "o1",
+            "text": "planen"
+          },
+          {
+            "id": "o2",
+            "text": "Reise"
+          },
+          {
+            "id": "o3",
+            "text": "erlebt"
+          },
+          {
+            "id": "o4",
+            "text": "besucht"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Reise",
-          "interessant",
-          "erlebt",
-          "besucht"
-        ]
+          {
+            "id": "o1",
+            "text": "Reise"
+          },
+          {
+            "id": "o2",
+            "text": "interessant"
+          },
+          {
+            "id": "o3",
+            "text": "erlebt"
+          },
+          {
+            "id": "o4",
+            "text": "besucht"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "erlebt",
-          "Reise",
-          "heute",
-          "besucht"
-        ]
+          {
+            "id": "o1",
+            "text": "erlebt"
+          },
+          {
+            "id": "o2",
+            "text": "Reise"
+          },
+          {
+            "id": "o3",
+            "text": "heute"
+          },
+          {
+            "id": "o4",
+            "text": "besucht"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "besucht",
-          "Reise",
-          "erlebt",
-          "zusammen"
-        ]
+          {
+            "id": "o1",
+            "text": "besucht"
+          },
+          {
+            "id": "o2",
+            "text": "Reise"
+          },
+          {
+            "id": "o3",
+            "text": "erlebt"
+          },
+          {
+            "id": "o4",
+            "text": "zusammen"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },
@@ -25654,121 +31092,277 @@
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Abfall",
-          "Sammlung",
-          "Ressource",
-          "reduzieren"
-        ]
+          {
+            "id": "o1",
+            "text": "Abfall"
+          },
+          {
+            "id": "o2",
+            "text": "Sammlung"
+          },
+          {
+            "id": "o3",
+            "text": "Ressource"
+          },
+          {
+            "id": "o4",
+            "text": "reduzieren"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Abfall",
-          "Sammlung",
-          "Ressource",
-          "reduzieren"
-        ]
+          {
+            "id": "o1",
+            "text": "Abfall"
+          },
+          {
+            "id": "o2",
+            "text": "Sammlung"
+          },
+          {
+            "id": "o3",
+            "text": "Ressource"
+          },
+          {
+            "id": "o4",
+            "text": "reduzieren"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Sammlung",
-          "Abfall",
-          "Ressource",
-          "reduzieren"
-        ]
+          {
+            "id": "o1",
+            "text": "Sammlung"
+          },
+          {
+            "id": "o2",
+            "text": "Abfall"
+          },
+          {
+            "id": "o3",
+            "text": "Ressource"
+          },
+          {
+            "id": "o4",
+            "text": "reduzieren"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Ressource",
-          "Abfall",
-          "Sammlung",
-          "reduzieren"
-        ]
+          {
+            "id": "o1",
+            "text": "Ressource"
+          },
+          {
+            "id": "o2",
+            "text": "Abfall"
+          },
+          {
+            "id": "o3",
+            "text": "Sammlung"
+          },
+          {
+            "id": "o4",
+            "text": "reduzieren"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Viertel",
-          "Abfall",
-          "Sammlung",
-          "Ressource"
-        ]
+          {
+            "id": "o1",
+            "text": "Viertel"
+          },
+          {
+            "id": "o2",
+            "text": "Abfall"
+          },
+          {
+            "id": "o3",
+            "text": "Sammlung"
+          },
+          {
+            "id": "o4",
+            "text": "Ressource"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Abfall",
-          "freiwillig",
-          "Sammlung",
-          "Ressource"
-        ]
+          {
+            "id": "o1",
+            "text": "Abfall"
+          },
+          {
+            "id": "o2",
+            "text": "freiwillig"
+          },
+          {
+            "id": "o3",
+            "text": "Sammlung"
+          },
+          {
+            "id": "o4",
+            "text": "Ressource"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Sammlung",
-          "Abfall",
-          "Initiative",
-          "Ressource"
-        ]
+          {
+            "id": "o1",
+            "text": "Sammlung"
+          },
+          {
+            "id": "o2",
+            "text": "Abfall"
+          },
+          {
+            "id": "o3",
+            "text": "Initiative"
+          },
+          {
+            "id": "o4",
+            "text": "Ressource"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Ressource",
-          "Abfall",
-          "Sammlung",
-          "Wirkung"
-        ]
+          {
+            "id": "o1",
+            "text": "Ressource"
+          },
+          {
+            "id": "o2",
+            "text": "Abfall"
+          },
+          {
+            "id": "o3",
+            "text": "Sammlung"
+          },
+          {
+            "id": "o4",
+            "text": "Wirkung"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "verbessern",
-          "Abfall",
-          "Sammlung",
-          "Ressource"
-        ]
+          {
+            "id": "o1",
+            "text": "verbessern"
+          },
+          {
+            "id": "o2",
+            "text": "Abfall"
+          },
+          {
+            "id": "o3",
+            "text": "Sammlung"
+          },
+          {
+            "id": "o4",
+            "text": "Ressource"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Abfall",
-          "unterstützen",
-          "Sammlung",
-          "Ressource"
-        ]
+          {
+            "id": "o1",
+            "text": "Abfall"
+          },
+          {
+            "id": "o2",
+            "text": "unterstützen"
+          },
+          {
+            "id": "o3",
+            "text": "Sammlung"
+          },
+          {
+            "id": "o4",
+            "text": "Ressource"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Sammlung",
-          "Abfall",
-          "heute",
-          "Ressource"
-        ]
+          {
+            "id": "o1",
+            "text": "Sammlung"
+          },
+          {
+            "id": "o2",
+            "text": "Abfall"
+          },
+          {
+            "id": "o3",
+            "text": "heute"
+          },
+          {
+            "id": "o4",
+            "text": "Ressource"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Ressource",
-          "Abfall",
-          "Sammlung",
-          "zusammen"
-        ]
+          {
+            "id": "o1",
+            "text": "Ressource"
+          },
+          {
+            "id": "o2",
+            "text": "Abfall"
+          },
+          {
+            "id": "o3",
+            "text": "Sammlung"
+          },
+          {
+            "id": "o4",
+            "text": "zusammen"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },
@@ -28048,93 +33642,198 @@
     "extra": {
       "grammarProfile": {
         "name": "Präsens trennbarer Verben",
-        "definition": "Bei trennbaren Verben steht die Vorsilbe am Satzende.",
-        "structure": "Ich stehe um sieben Uhr auf.",
-        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
+        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
+        "structure": "Subjekt + Verb + Ergänzung",
+        "function": "Über Personen, Orte und Alltag sprechen.",
         "examples": [
-          "Ich stehe um sieben Uhr auf."
+          "Ich wohne im Viertel.",
+          "Leon spricht mit Anna."
         ]
       },
       "grammarTest": {
         "questions": [
           {
+            "id": "q1",
             "type": "mcq",
             "prompt": "Ergänze: Ich ___ im Viertel.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "wohne"
+              },
+              {
+                "id": "o2",
+                "text": "wohnt"
+              },
+              {
+                "id": "o3",
+                "text": "wohnen"
+              },
+              {
+                "id": "o4",
+                "text": "wohnst"
+              }
             ]
           },
           {
+            "id": "q2",
             "type": "mcq",
             "prompt": "Wähle den richtigen Satz.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Leon sprechen mit Anna."
+              },
+              {
+                "id": "o2",
+                "text": "Leon spricht mit Anna."
+              },
+              {
+                "id": "o3",
+                "text": "Leon spreche mit Anna."
+              },
+              {
+                "id": "o4",
+                "text": "Leon sprich mit Anna."
+              }
             ]
           },
           {
+            "id": "q3",
             "type": "mcq",
             "prompt": "Ergänze: Wir ___ jeden Tag Deutsch.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "lerne"
+              },
+              {
+                "id": "o2",
+                "text": "lernt"
+              },
+              {
+                "id": "o3",
+                "text": "lernen"
+              },
+              {
+                "id": "o4",
+                "text": "lernst"
+              }
             ]
           },
           {
+            "id": "q4",
             "type": "mcq",
             "prompt": "Welche Frage ist richtig?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Wo wohnst?"
+              },
+              {
+                "id": "o2",
+                "text": "Wo wohnen du?"
+              },
+              {
+                "id": "o3",
+                "text": "Wo du wohnst?"
+              },
+              {
+                "id": "o4",
+                "text": "Wo wohnst du?"
+              }
             ]
           },
           {
+            "id": "q5",
             "type": "mcq",
             "prompt": "Ergänze: Sie ___ eine Frage.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "stellt"
+              },
+              {
+                "id": "o2",
+                "text": "stelle"
+              },
+              {
+                "id": "o3",
+                "text": "stellen"
+              },
+              {
+                "id": "o4",
+                "text": "stellst"
+              }
             ]
           },
           {
+            "id": "q6",
             "type": "mcq",
             "prompt": "Wähle den Satz über ein Haus.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Das Haus sind hell."
+              },
+              {
+                "id": "o2",
+                "text": "Das Haus ist hell."
+              },
+              {
+                "id": "o3",
+                "text": "Die Haus ist hell."
+              },
+              {
+                "id": "o4",
+                "text": "Das Haus ist helle."
+              }
             ]
           },
           {
+            "id": "q7",
             "type": "mcq",
             "prompt": "Ergänze: Du ___ Kaffee.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "trinken"
+              },
+              {
+                "id": "o2",
+                "text": "trinkt"
+              },
+              {
+                "id": "o3",
+                "text": "trinkst"
+              },
+              {
+                "id": "o4",
+                "text": "trinke"
+              }
             ]
           },
           {
+            "id": "q8",
             "type": "mcq",
             "prompt": "Welcher Satz beschreibt eine Routine?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Jeden Morgen arbeitet ich im Zentrum."
+              },
+              {
+                "id": "o2",
+                "text": "Gestern arbeiten ich im Zentrum."
+              },
+              {
+                "id": "o3",
+                "text": "Morgen arbeitete ich im Zentrum."
+              },
+              {
+                "id": "o4",
+                "text": "Jeden Morgen arbeite ich im Zentrum."
+              }
             ]
           }
         ]
@@ -28143,91 +33842,203 @@
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
         "prompt": "Ergänze: Ich ___ im Viertel.",
         "options": [
-          "wohne",
-          "wohnt",
-          "wohnen",
-          "wohnst"
+          {
+            "id": "o1",
+            "text": "wohne"
+          },
+          {
+            "id": "o2",
+            "text": "wohnt"
+          },
+          {
+            "id": "o3",
+            "text": "wohnen"
+          },
+          {
+            "id": "o4",
+            "text": "wohnst"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q2",
         "type": "mcq",
         "prompt": "Wähle den richtigen Satz.",
         "options": [
-          "Leon sprechen mit Anna.",
-          "Leon spricht mit Anna.",
-          "Leon spreche mit Anna.",
-          "Leon sprich mit Anna."
+          {
+            "id": "o1",
+            "text": "Leon sprechen mit Anna."
+          },
+          {
+            "id": "o2",
+            "text": "Leon spricht mit Anna."
+          },
+          {
+            "id": "o3",
+            "text": "Leon spreche mit Anna."
+          },
+          {
+            "id": "o4",
+            "text": "Leon sprich mit Anna."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q3",
         "type": "mcq",
         "prompt": "Ergänze: Wir ___ jeden Tag Deutsch.",
         "options": [
-          "lerne",
-          "lernt",
-          "lernen",
-          "lernst"
+          {
+            "id": "o1",
+            "text": "lerne"
+          },
+          {
+            "id": "o2",
+            "text": "lernt"
+          },
+          {
+            "id": "o3",
+            "text": "lernen"
+          },
+          {
+            "id": "o4",
+            "text": "lernst"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q4",
         "type": "mcq",
         "prompt": "Welche Frage ist richtig?",
         "options": [
-          "Wo wohnst?",
-          "Wo wohnen du?",
-          "Wo du wohnst?",
-          "Wo wohnst du?"
+          {
+            "id": "o1",
+            "text": "Wo wohnst?"
+          },
+          {
+            "id": "o2",
+            "text": "Wo wohnen du?"
+          },
+          {
+            "id": "o3",
+            "text": "Wo du wohnst?"
+          },
+          {
+            "id": "o4",
+            "text": "Wo wohnst du?"
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q5",
         "type": "mcq",
         "prompt": "Ergänze: Sie ___ eine Frage.",
         "options": [
-          "stellt",
-          "stelle",
-          "stellen",
-          "stellst"
+          {
+            "id": "o1",
+            "text": "stellt"
+          },
+          {
+            "id": "o2",
+            "text": "stelle"
+          },
+          {
+            "id": "o3",
+            "text": "stellen"
+          },
+          {
+            "id": "o4",
+            "text": "stellst"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q6",
         "type": "mcq",
         "prompt": "Wähle den Satz über ein Haus.",
         "options": [
-          "Das Haus sind hell.",
-          "Das Haus ist hell.",
-          "Die Haus ist hell.",
-          "Das Haus ist helle."
+          {
+            "id": "o1",
+            "text": "Das Haus sind hell."
+          },
+          {
+            "id": "o2",
+            "text": "Das Haus ist hell."
+          },
+          {
+            "id": "o3",
+            "text": "Die Haus ist hell."
+          },
+          {
+            "id": "o4",
+            "text": "Das Haus ist helle."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q7",
         "type": "mcq",
         "prompt": "Ergänze: Du ___ Kaffee.",
         "options": [
-          "trinken",
-          "trinkt",
-          "trinkst",
-          "trinke"
+          {
+            "id": "o1",
+            "text": "trinken"
+          },
+          {
+            "id": "o2",
+            "text": "trinkt"
+          },
+          {
+            "id": "o3",
+            "text": "trinkst"
+          },
+          {
+            "id": "o4",
+            "text": "trinke"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q8",
         "type": "mcq",
         "prompt": "Welcher Satz beschreibt eine Routine?",
         "options": [
-          "Jeden Morgen arbeitet ich im Zentrum.",
-          "Gestern arbeiten ich im Zentrum.",
-          "Morgen arbeitete ich im Zentrum.",
-          "Jeden Morgen arbeite ich im Zentrum."
+          {
+            "id": "o1",
+            "text": "Jeden Morgen arbeitet ich im Zentrum."
+          },
+          {
+            "id": "o2",
+            "text": "Gestern arbeiten ich im Zentrum."
+          },
+          {
+            "id": "o3",
+            "text": "Morgen arbeitete ich im Zentrum."
+          },
+          {
+            "id": "o4",
+            "text": "Jeden Morgen arbeite ich im Zentrum."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       }
     ]
@@ -28308,93 +34119,198 @@
     "extra": {
       "grammarProfile": {
         "name": "Dativ und Akkusativ",
-        "definition": "El dativo suele marcar a la persona y el acusativo la cosa.",
-        "structure": "Ich gebe dem Freund ein Buch.",
-        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
+        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
+        "structure": "haben/sein + Partizip II",
+        "function": "Erfahrungen und Pläne erzählen.",
         "examples": [
-          "Ich gebe dem Freund ein Buch."
+          "Gestern habe ich das Museum besucht.",
+          "Danach haben wir zusammen gesprochen."
         ]
       },
       "grammarTest": {
         "questions": [
           {
+            "id": "q1",
             "type": "mcq",
             "prompt": "Ergänze: Gestern ___ ich das Museum ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "habe besucht"
+              },
+              {
+                "id": "o2",
+                "text": "besuche"
+              },
+              {
+                "id": "o3",
+                "text": "habe besuchen"
+              },
+              {
+                "id": "o4",
+                "text": "bin besucht"
+              }
             ]
           },
           {
+            "id": "q2",
             "type": "mcq",
             "prompt": "Wähle den richtigen Perfekt-Satz.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Wir haben zusammen essen."
+              },
+              {
+                "id": "o2",
+                "text": "Wir haben zusammen gegessen."
+              },
+              {
+                "id": "o3",
+                "text": "Wir sind zusammen gegessen."
+              },
+              {
+                "id": "o4",
+                "text": "Wir essen gestern zusammen."
+              }
             ]
           },
           {
+            "id": "q3",
             "type": "mcq",
             "prompt": "Ergänze: Marta ___ spät nach Hause ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "ist kommen"
+              },
+              {
+                "id": "o2",
+                "text": "hat gekommen"
+              },
+              {
+                "id": "o3",
+                "text": "ist gekommen"
+              },
+              {
+                "id": "o4",
+                "text": "kommt gestern"
+              }
             ]
           },
           {
+            "id": "q4",
             "type": "mcq",
             "prompt": "Welcher Satz zeigt eine Reihenfolge?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Zuerst haben wir gelernt, wenn sind wir gegangen."
+              },
+              {
+                "id": "o2",
+                "text": "Zuerst haben wir gelernt, weil sind wir gegangen."
+              },
+              {
+                "id": "o3",
+                "text": "Zuerst haben wir gelernt, obwohl sind wir gegangen."
+              },
+              {
+                "id": "o4",
+                "text": "Zuerst haben wir gelernt, dann sind wir gegangen."
+              }
             ]
           },
           {
+            "id": "q5",
             "type": "mcq",
             "prompt": "Ergänze: ___ du die Nachricht ___?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Hast gelesen"
+              },
+              {
+                "id": "o2",
+                "text": "Hast lesen"
+              },
+              {
+                "id": "o3",
+                "text": "Bist gelesen"
+              },
+              {
+                "id": "o4",
+                "text": "Liest gestern"
+              }
             ]
           },
           {
+            "id": "q6",
             "type": "mcq",
             "prompt": "Wähle den Perfekt-Satz mit dem richtigen Hilfsverb.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Meine Freunde sind den Bus genommen."
+              },
+              {
+                "id": "o2",
+                "text": "Meine Freunde haben den Bus genommen."
+              },
+              {
+                "id": "o3",
+                "text": "Meine Freunde haben den Bus nehmen."
+              },
+              {
+                "id": "o4",
+                "text": "Meine Freunde nehmen gestern den Bus."
+              }
             ]
           },
           {
+            "id": "q7",
             "type": "mcq",
             "prompt": "Ergänze: Wir ___ eine wichtige Erfahrung ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "haben machen"
+              },
+              {
+                "id": "o2",
+                "text": "sind gemacht"
+              },
+              {
+                "id": "o3",
+                "text": "haben gemacht"
+              },
+              {
+                "id": "o4",
+                "text": "machen gestern"
+              }
             ]
           },
           {
+            "id": "q8",
             "type": "mcq",
             "prompt": "Welcher Satz beschreibt eine abgeschlossene Handlung?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Am Samstag bin ich meine Cousine getroffen."
+              },
+              {
+                "id": "o2",
+                "text": "Am Samstag treffe ich meine Cousine morgen."
+              },
+              {
+                "id": "o3",
+                "text": "Am Samstag treffen meine Cousine."
+              },
+              {
+                "id": "o4",
+                "text": "Am Samstag habe ich meine Cousine getroffen."
+              }
             ]
           }
         ]
@@ -28403,91 +34319,203 @@
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
         "prompt": "Ergänze: Gestern ___ ich das Museum ___.",
         "options": [
-          "habe besucht",
-          "besuche",
-          "habe besuchen",
-          "bin besucht"
+          {
+            "id": "o1",
+            "text": "habe besucht"
+          },
+          {
+            "id": "o2",
+            "text": "besuche"
+          },
+          {
+            "id": "o3",
+            "text": "habe besuchen"
+          },
+          {
+            "id": "o4",
+            "text": "bin besucht"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q2",
         "type": "mcq",
         "prompt": "Wähle den richtigen Perfekt-Satz.",
         "options": [
-          "Wir haben zusammen essen.",
-          "Wir haben zusammen gegessen.",
-          "Wir sind zusammen gegessen.",
-          "Wir essen gestern zusammen."
+          {
+            "id": "o1",
+            "text": "Wir haben zusammen essen."
+          },
+          {
+            "id": "o2",
+            "text": "Wir haben zusammen gegessen."
+          },
+          {
+            "id": "o3",
+            "text": "Wir sind zusammen gegessen."
+          },
+          {
+            "id": "o4",
+            "text": "Wir essen gestern zusammen."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q3",
         "type": "mcq",
         "prompt": "Ergänze: Marta ___ spät nach Hause ___.",
         "options": [
-          "ist kommen",
-          "hat gekommen",
-          "ist gekommen",
-          "kommt gestern"
+          {
+            "id": "o1",
+            "text": "ist kommen"
+          },
+          {
+            "id": "o2",
+            "text": "hat gekommen"
+          },
+          {
+            "id": "o3",
+            "text": "ist gekommen"
+          },
+          {
+            "id": "o4",
+            "text": "kommt gestern"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q4",
         "type": "mcq",
         "prompt": "Welcher Satz zeigt eine Reihenfolge?",
         "options": [
-          "Zuerst haben wir gelernt, wenn sind wir gegangen.",
-          "Zuerst haben wir gelernt, weil sind wir gegangen.",
-          "Zuerst haben wir gelernt, obwohl sind wir gegangen.",
-          "Zuerst haben wir gelernt, dann sind wir gegangen."
+          {
+            "id": "o1",
+            "text": "Zuerst haben wir gelernt, wenn sind wir gegangen."
+          },
+          {
+            "id": "o2",
+            "text": "Zuerst haben wir gelernt, weil sind wir gegangen."
+          },
+          {
+            "id": "o3",
+            "text": "Zuerst haben wir gelernt, obwohl sind wir gegangen."
+          },
+          {
+            "id": "o4",
+            "text": "Zuerst haben wir gelernt, dann sind wir gegangen."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q5",
         "type": "mcq",
         "prompt": "Ergänze: ___ du die Nachricht ___?",
         "options": [
-          "Hast gelesen",
-          "Hast lesen",
-          "Bist gelesen",
-          "Liest gestern"
+          {
+            "id": "o1",
+            "text": "Hast gelesen"
+          },
+          {
+            "id": "o2",
+            "text": "Hast lesen"
+          },
+          {
+            "id": "o3",
+            "text": "Bist gelesen"
+          },
+          {
+            "id": "o4",
+            "text": "Liest gestern"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q6",
         "type": "mcq",
         "prompt": "Wähle den Perfekt-Satz mit dem richtigen Hilfsverb.",
         "options": [
-          "Meine Freunde sind den Bus genommen.",
-          "Meine Freunde haben den Bus genommen.",
-          "Meine Freunde haben den Bus nehmen.",
-          "Meine Freunde nehmen gestern den Bus."
+          {
+            "id": "o1",
+            "text": "Meine Freunde sind den Bus genommen."
+          },
+          {
+            "id": "o2",
+            "text": "Meine Freunde haben den Bus genommen."
+          },
+          {
+            "id": "o3",
+            "text": "Meine Freunde haben den Bus nehmen."
+          },
+          {
+            "id": "o4",
+            "text": "Meine Freunde nehmen gestern den Bus."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q7",
         "type": "mcq",
         "prompt": "Ergänze: Wir ___ eine wichtige Erfahrung ___.",
         "options": [
-          "haben machen",
-          "sind gemacht",
-          "haben gemacht",
-          "machen gestern"
+          {
+            "id": "o1",
+            "text": "haben machen"
+          },
+          {
+            "id": "o2",
+            "text": "sind gemacht"
+          },
+          {
+            "id": "o3",
+            "text": "haben gemacht"
+          },
+          {
+            "id": "o4",
+            "text": "machen gestern"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q8",
         "type": "mcq",
         "prompt": "Welcher Satz beschreibt eine abgeschlossene Handlung?",
         "options": [
-          "Am Samstag bin ich meine Cousine getroffen.",
-          "Am Samstag treffe ich meine Cousine morgen.",
-          "Am Samstag treffen meine Cousine.",
-          "Am Samstag habe ich meine Cousine getroffen."
+          {
+            "id": "o1",
+            "text": "Am Samstag bin ich meine Cousine getroffen."
+          },
+          {
+            "id": "o2",
+            "text": "Am Samstag treffe ich meine Cousine morgen."
+          },
+          {
+            "id": "o3",
+            "text": "Am Samstag treffen meine Cousine."
+          },
+          {
+            "id": "o4",
+            "text": "Am Samstag habe ich meine Cousine getroffen."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       }
     ]
@@ -28571,9 +34599,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Plusquamperfekt",
-        "definition": "Práctica guiada de Plusquamperfekt.",
+        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
         "structure": "Meinung + weil/obwohl/deshalb + Begründung",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Eine Meinung ausdrücken und begründen.",
         "examples": [
           "Ich finde den Vorschlag sinnvoll.",
           "Trotzdem müssen wir die Ergebnisse prüfen."
@@ -28582,83 +34610,187 @@
       "grammarTest": {
         "questions": [
           {
+            "id": "q1",
             "type": "mcq",
             "prompt": "Ergänze: Ich finde, dass der Vorschlag sinnvoll ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "ist"
+              },
+              {
+                "id": "o2",
+                "text": "sind"
+              },
+              {
+                "id": "o3",
+                "text": "sein"
+              },
+              {
+                "id": "o4",
+                "text": "sei"
+              }
             ]
           },
           {
+            "id": "q2",
             "type": "mcq",
             "prompt": "Wähle den Konnektor für einen Gegensatz.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Ich möchte ausgehen, deshalb es regnet."
+              },
+              {
+                "id": "o2",
+                "text": "Ich möchte ausgehen, aber es regnet."
+              },
+              {
+                "id": "o3",
+                "text": "Ich möchte ausgehen, weil es regnet."
+              },
+              {
+                "id": "o4",
+                "text": "Ich möchte ausgehen, dann es regnet."
+              }
             ]
           },
           {
+            "id": "q3",
             "type": "mcq",
             "prompt": "Ergänze: Ich bleibe zu Hause, weil ich müde ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "sein"
+              },
+              {
+                "id": "o2",
+                "text": "ist"
+              },
+              {
+                "id": "o3",
+                "text": "bin"
+              },
+              {
+                "id": "o4",
+                "text": "bist"
+              }
             ]
           },
           {
+            "id": "q4",
             "type": "mcq",
             "prompt": "Welcher Satz drückt eine Meinung aus?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Das Projekt funktioniert warum?"
+              },
+              {
+                "id": "o2",
+                "text": "Das Projekt gestern funktioniert?"
+              },
+              {
+                "id": "o3",
+                "text": "Funktionieren das Projekt meiner Meinung."
+              },
+              {
+                "id": "o4",
+                "text": "Meiner Meinung nach funktioniert das Projekt."
+              }
             ]
           },
           {
+            "id": "q5",
             "type": "mcq",
             "prompt": "Ergänze: Obwohl es spät ___, arbeiten wir weiter.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "ist"
+              },
+              {
+                "id": "o2",
+                "text": "sind"
+              },
+              {
+                "id": "o3",
+                "text": "sein"
+              },
+              {
+                "id": "o4",
+                "text": "bist"
+              }
             ]
           },
           {
+            "id": "q6",
             "type": "mcq",
             "prompt": "Wähle eine logische Folge.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Wir haben wenig Zeit, aber planen wir die Arbeit."
+              },
+              {
+                "id": "o2",
+                "text": "Wir haben wenig Zeit, deshalb planen wir die Arbeit."
+              },
+              {
+                "id": "o3",
+                "text": "Wir haben wenig Zeit, weil planen wir die Arbeit."
+              },
+              {
+                "id": "o4",
+                "text": "Wir haben wenig Zeit, obwohl planen wir die Arbeit."
+              }
             ]
           },
           {
+            "id": "q7",
             "type": "mcq",
             "prompt": "Ergänze: Ich glaube, dass sie Recht ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "sein"
+              },
+              {
+                "id": "o2",
+                "text": "haben"
+              },
+              {
+                "id": "o3",
+                "text": "hat"
+              },
+              {
+                "id": "o4",
+                "text": "hatte"
+              }
             ]
           },
           {
+            "id": "q8",
             "type": "mcq",
             "prompt": "Welcher Satz begründet eine Wahl?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Ich nehme den Zug er nachhaltiger ist weil."
+              },
+              {
+                "id": "o2",
+                "text": "Ich nehme den Zug, aber er nachhaltiger ist."
+              },
+              {
+                "id": "o3",
+                "text": "Ich nehme den Zug, deshalb er nachhaltiger ist?"
+              },
+              {
+                "id": "o4",
+                "text": "Ich nehme den Zug, weil er nachhaltiger ist."
+              }
             ]
           }
         ]
@@ -28667,91 +34799,203 @@
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
         "prompt": "Ergänze: Ich finde, dass der Vorschlag sinnvoll ___.",
         "options": [
-          "ist",
-          "sind",
-          "sein",
-          "sei"
+          {
+            "id": "o1",
+            "text": "ist"
+          },
+          {
+            "id": "o2",
+            "text": "sind"
+          },
+          {
+            "id": "o3",
+            "text": "sein"
+          },
+          {
+            "id": "o4",
+            "text": "sei"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q2",
         "type": "mcq",
         "prompt": "Wähle den Konnektor für einen Gegensatz.",
         "options": [
-          "Ich möchte ausgehen, deshalb es regnet.",
-          "Ich möchte ausgehen, aber es regnet.",
-          "Ich möchte ausgehen, weil es regnet.",
-          "Ich möchte ausgehen, dann es regnet."
+          {
+            "id": "o1",
+            "text": "Ich möchte ausgehen, deshalb es regnet."
+          },
+          {
+            "id": "o2",
+            "text": "Ich möchte ausgehen, aber es regnet."
+          },
+          {
+            "id": "o3",
+            "text": "Ich möchte ausgehen, weil es regnet."
+          },
+          {
+            "id": "o4",
+            "text": "Ich möchte ausgehen, dann es regnet."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q3",
         "type": "mcq",
         "prompt": "Ergänze: Ich bleibe zu Hause, weil ich müde ___.",
         "options": [
-          "sein",
-          "ist",
-          "bin",
-          "bist"
+          {
+            "id": "o1",
+            "text": "sein"
+          },
+          {
+            "id": "o2",
+            "text": "ist"
+          },
+          {
+            "id": "o3",
+            "text": "bin"
+          },
+          {
+            "id": "o4",
+            "text": "bist"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q4",
         "type": "mcq",
         "prompt": "Welcher Satz drückt eine Meinung aus?",
         "options": [
-          "Das Projekt funktioniert warum?",
-          "Das Projekt gestern funktioniert?",
-          "Funktionieren das Projekt meiner Meinung.",
-          "Meiner Meinung nach funktioniert das Projekt."
+          {
+            "id": "o1",
+            "text": "Das Projekt funktioniert warum?"
+          },
+          {
+            "id": "o2",
+            "text": "Das Projekt gestern funktioniert?"
+          },
+          {
+            "id": "o3",
+            "text": "Funktionieren das Projekt meiner Meinung."
+          },
+          {
+            "id": "o4",
+            "text": "Meiner Meinung nach funktioniert das Projekt."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q5",
         "type": "mcq",
         "prompt": "Ergänze: Obwohl es spät ___, arbeiten wir weiter.",
         "options": [
-          "ist",
-          "sind",
-          "sein",
-          "bist"
+          {
+            "id": "o1",
+            "text": "ist"
+          },
+          {
+            "id": "o2",
+            "text": "sind"
+          },
+          {
+            "id": "o3",
+            "text": "sein"
+          },
+          {
+            "id": "o4",
+            "text": "bist"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q6",
         "type": "mcq",
         "prompt": "Wähle eine logische Folge.",
         "options": [
-          "Wir haben wenig Zeit, aber planen wir die Arbeit.",
-          "Wir haben wenig Zeit, deshalb planen wir die Arbeit.",
-          "Wir haben wenig Zeit, weil planen wir die Arbeit.",
-          "Wir haben wenig Zeit, obwohl planen wir die Arbeit."
+          {
+            "id": "o1",
+            "text": "Wir haben wenig Zeit, aber planen wir die Arbeit."
+          },
+          {
+            "id": "o2",
+            "text": "Wir haben wenig Zeit, deshalb planen wir die Arbeit."
+          },
+          {
+            "id": "o3",
+            "text": "Wir haben wenig Zeit, weil planen wir die Arbeit."
+          },
+          {
+            "id": "o4",
+            "text": "Wir haben wenig Zeit, obwohl planen wir die Arbeit."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q7",
         "type": "mcq",
         "prompt": "Ergänze: Ich glaube, dass sie Recht ___.",
         "options": [
-          "sein",
-          "haben",
-          "hat",
-          "hatte"
+          {
+            "id": "o1",
+            "text": "sein"
+          },
+          {
+            "id": "o2",
+            "text": "haben"
+          },
+          {
+            "id": "o3",
+            "text": "hat"
+          },
+          {
+            "id": "o4",
+            "text": "hatte"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q8",
         "type": "mcq",
         "prompt": "Welcher Satz begründet eine Wahl?",
         "options": [
-          "Ich nehme den Zug er nachhaltiger ist weil.",
-          "Ich nehme den Zug, aber er nachhaltiger ist.",
-          "Ich nehme den Zug, deshalb er nachhaltiger ist?",
-          "Ich nehme den Zug, weil er nachhaltiger ist."
+          {
+            "id": "o1",
+            "text": "Ich nehme den Zug er nachhaltiger ist weil."
+          },
+          {
+            "id": "o2",
+            "text": "Ich nehme den Zug, aber er nachhaltiger ist."
+          },
+          {
+            "id": "o3",
+            "text": "Ich nehme den Zug, deshalb er nachhaltiger ist?"
+          },
+          {
+            "id": "o4",
+            "text": "Ich nehme den Zug, weil er nachhaltiger ist."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       }
     ]
@@ -30429,121 +36673,277 @@
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Schule",
-          "Klasse",
-          "Lehrer",
-          "Freund"
-        ]
+          {
+            "id": "o1",
+            "text": "Schule"
+          },
+          {
+            "id": "o2",
+            "text": "Klasse"
+          },
+          {
+            "id": "o3",
+            "text": "Lehrer"
+          },
+          {
+            "id": "o4",
+            "text": "Freund"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Schule",
-          "Klasse",
-          "Lehrer",
-          "Freund"
-        ]
+          {
+            "id": "o1",
+            "text": "Schule"
+          },
+          {
+            "id": "o2",
+            "text": "Klasse"
+          },
+          {
+            "id": "o3",
+            "text": "Lehrer"
+          },
+          {
+            "id": "o4",
+            "text": "Freund"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Klasse",
-          "Schule",
-          "Lehrer",
-          "Freund"
-        ]
+          {
+            "id": "o1",
+            "text": "Klasse"
+          },
+          {
+            "id": "o2",
+            "text": "Schule"
+          },
+          {
+            "id": "o3",
+            "text": "Lehrer"
+          },
+          {
+            "id": "o4",
+            "text": "Freund"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Lehrer",
-          "Schule",
-          "Klasse",
-          "Freund"
-        ]
+          {
+            "id": "o1",
+            "text": "Lehrer"
+          },
+          {
+            "id": "o2",
+            "text": "Schule"
+          },
+          {
+            "id": "o3",
+            "text": "Klasse"
+          },
+          {
+            "id": "o4",
+            "text": "Freund"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "lernen",
-          "Schule",
-          "Klasse",
-          "Lehrer"
-        ]
+          {
+            "id": "o1",
+            "text": "lernen"
+          },
+          {
+            "id": "o2",
+            "text": "Schule"
+          },
+          {
+            "id": "o3",
+            "text": "Klasse"
+          },
+          {
+            "id": "o4",
+            "text": "Lehrer"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Schule",
-          "spielen",
-          "Klasse",
-          "Lehrer"
-        ]
+          {
+            "id": "o1",
+            "text": "Schule"
+          },
+          {
+            "id": "o2",
+            "text": "spielen"
+          },
+          {
+            "id": "o3",
+            "text": "Klasse"
+          },
+          {
+            "id": "o4",
+            "text": "Lehrer"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Klasse",
-          "Schule",
-          "Musik",
-          "Lehrer"
-        ]
+          {
+            "id": "o1",
+            "text": "Klasse"
+          },
+          {
+            "id": "o2",
+            "text": "Schule"
+          },
+          {
+            "id": "o3",
+            "text": "Musik"
+          },
+          {
+            "id": "o4",
+            "text": "Lehrer"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Lehrer",
-          "Schule",
-          "Klasse",
-          "heute"
-        ]
+          {
+            "id": "o1",
+            "text": "Lehrer"
+          },
+          {
+            "id": "o2",
+            "text": "Schule"
+          },
+          {
+            "id": "o3",
+            "text": "Klasse"
+          },
+          {
+            "id": "o4",
+            "text": "heute"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "morgen",
-          "Schule",
-          "Klasse",
-          "Lehrer"
-        ]
+          {
+            "id": "o1",
+            "text": "morgen"
+          },
+          {
+            "id": "o2",
+            "text": "Schule"
+          },
+          {
+            "id": "o3",
+            "text": "Klasse"
+          },
+          {
+            "id": "o4",
+            "text": "Lehrer"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Schule",
-          "zusammen",
-          "Klasse",
-          "Lehrer"
-        ]
+          {
+            "id": "o1",
+            "text": "Schule"
+          },
+          {
+            "id": "o2",
+            "text": "zusammen"
+          },
+          {
+            "id": "o3",
+            "text": "Klasse"
+          },
+          {
+            "id": "o4",
+            "text": "Lehrer"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Klasse",
-          "Schule",
-          "Viertel",
-          "Lehrer"
-        ]
+          {
+            "id": "o1",
+            "text": "Klasse"
+          },
+          {
+            "id": "o2",
+            "text": "Schule"
+          },
+          {
+            "id": "o3",
+            "text": "Viertel"
+          },
+          {
+            "id": "o4",
+            "text": "Lehrer"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Lehrer",
-          "Schule",
-          "Klasse",
-          "Frage"
-        ]
+          {
+            "id": "o1",
+            "text": "Lehrer"
+          },
+          {
+            "id": "o2",
+            "text": "Schule"
+          },
+          {
+            "id": "o3",
+            "text": "Klasse"
+          },
+          {
+            "id": "o4",
+            "text": "Frage"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },
@@ -30711,121 +37111,277 @@
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Rezept",
-          "Zutaten",
-          "kochen",
-          "Geschmack"
-        ]
+          {
+            "id": "o1",
+            "text": "Rezept"
+          },
+          {
+            "id": "o2",
+            "text": "Zutaten"
+          },
+          {
+            "id": "o3",
+            "text": "kochen"
+          },
+          {
+            "id": "o4",
+            "text": "Geschmack"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Rezept",
-          "Zutaten",
-          "kochen",
-          "Geschmack"
-        ]
+          {
+            "id": "o1",
+            "text": "Rezept"
+          },
+          {
+            "id": "o2",
+            "text": "Zutaten"
+          },
+          {
+            "id": "o3",
+            "text": "kochen"
+          },
+          {
+            "id": "o4",
+            "text": "Geschmack"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Zutaten",
-          "Rezept",
-          "kochen",
-          "Geschmack"
-        ]
+          {
+            "id": "o1",
+            "text": "Zutaten"
+          },
+          {
+            "id": "o2",
+            "text": "Rezept"
+          },
+          {
+            "id": "o3",
+            "text": "kochen"
+          },
+          {
+            "id": "o4",
+            "text": "Geschmack"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "kochen",
-          "Rezept",
-          "Zutaten",
-          "Geschmack"
-        ]
+          {
+            "id": "o1",
+            "text": "kochen"
+          },
+          {
+            "id": "o2",
+            "text": "Rezept"
+          },
+          {
+            "id": "o3",
+            "text": "Zutaten"
+          },
+          {
+            "id": "o4",
+            "text": "Geschmack"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Tradition",
-          "Rezept",
-          "Zutaten",
-          "kochen"
-        ]
+          {
+            "id": "o1",
+            "text": "Tradition"
+          },
+          {
+            "id": "o2",
+            "text": "Rezept"
+          },
+          {
+            "id": "o3",
+            "text": "Zutaten"
+          },
+          {
+            "id": "o4",
+            "text": "kochen"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Rezept",
-          "zusammen",
-          "Zutaten",
-          "kochen"
-        ]
+          {
+            "id": "o1",
+            "text": "Rezept"
+          },
+          {
+            "id": "o2",
+            "text": "zusammen"
+          },
+          {
+            "id": "o3",
+            "text": "Zutaten"
+          },
+          {
+            "id": "o4",
+            "text": "kochen"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Zutaten",
-          "Rezept",
-          "probieren",
-          "kochen"
-        ]
+          {
+            "id": "o1",
+            "text": "Zutaten"
+          },
+          {
+            "id": "o2",
+            "text": "Rezept"
+          },
+          {
+            "id": "o3",
+            "text": "probieren"
+          },
+          {
+            "id": "o4",
+            "text": "kochen"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "kochen",
-          "Rezept",
-          "Zutaten",
-          "Restaurant"
-        ]
+          {
+            "id": "o1",
+            "text": "kochen"
+          },
+          {
+            "id": "o2",
+            "text": "Rezept"
+          },
+          {
+            "id": "o3",
+            "text": "Zutaten"
+          },
+          {
+            "id": "o4",
+            "text": "Restaurant"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "bestellen",
-          "Rezept",
-          "Zutaten",
-          "kochen"
-        ]
+          {
+            "id": "o1",
+            "text": "bestellen"
+          },
+          {
+            "id": "o2",
+            "text": "Rezept"
+          },
+          {
+            "id": "o3",
+            "text": "Zutaten"
+          },
+          {
+            "id": "o4",
+            "text": "kochen"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Rezept",
-          "typisch",
-          "Zutaten",
-          "kochen"
-        ]
+          {
+            "id": "o1",
+            "text": "Rezept"
+          },
+          {
+            "id": "o2",
+            "text": "typisch"
+          },
+          {
+            "id": "o3",
+            "text": "Zutaten"
+          },
+          {
+            "id": "o4",
+            "text": "kochen"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Zutaten",
-          "Rezept",
-          "heute",
-          "kochen"
-        ]
+          {
+            "id": "o1",
+            "text": "Zutaten"
+          },
+          {
+            "id": "o2",
+            "text": "Rezept"
+          },
+          {
+            "id": "o3",
+            "text": "heute"
+          },
+          {
+            "id": "o4",
+            "text": "kochen"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "kochen",
-          "Rezept",
-          "Zutaten",
-          "Viertel"
-        ]
+          {
+            "id": "o1",
+            "text": "kochen"
+          },
+          {
+            "id": "o2",
+            "text": "Rezept"
+          },
+          {
+            "id": "o3",
+            "text": "Zutaten"
+          },
+          {
+            "id": "o4",
+            "text": "Viertel"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },
@@ -30993,121 +37549,277 @@
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Erinnerung",
-          "Kindheit",
-          "Veränderung",
-          "erzählen"
-        ]
+          {
+            "id": "o1",
+            "text": "Erinnerung"
+          },
+          {
+            "id": "o2",
+            "text": "Kindheit"
+          },
+          {
+            "id": "o3",
+            "text": "Veränderung"
+          },
+          {
+            "id": "o4",
+            "text": "erzählen"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Erinnerung",
-          "Kindheit",
-          "Veränderung",
-          "erzählen"
-        ]
+          {
+            "id": "o1",
+            "text": "Erinnerung"
+          },
+          {
+            "id": "o2",
+            "text": "Kindheit"
+          },
+          {
+            "id": "o3",
+            "text": "Veränderung"
+          },
+          {
+            "id": "o4",
+            "text": "erzählen"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Kindheit",
-          "Erinnerung",
-          "Veränderung",
-          "erzählen"
-        ]
+          {
+            "id": "o1",
+            "text": "Kindheit"
+          },
+          {
+            "id": "o2",
+            "text": "Erinnerung"
+          },
+          {
+            "id": "o3",
+            "text": "Veränderung"
+          },
+          {
+            "id": "o4",
+            "text": "erzählen"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Veränderung",
-          "Erinnerung",
-          "Kindheit",
-          "erzählen"
-        ]
+          {
+            "id": "o1",
+            "text": "Veränderung"
+          },
+          {
+            "id": "o2",
+            "text": "Erinnerung"
+          },
+          {
+            "id": "o3",
+            "text": "Kindheit"
+          },
+          {
+            "id": "o4",
+            "text": "erzählen"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Vergangenheit",
-          "Erinnerung",
-          "Kindheit",
-          "Veränderung"
-        ]
+          {
+            "id": "o1",
+            "text": "Vergangenheit"
+          },
+          {
+            "id": "o2",
+            "text": "Erinnerung"
+          },
+          {
+            "id": "o3",
+            "text": "Kindheit"
+          },
+          {
+            "id": "o4",
+            "text": "Veränderung"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Erinnerung",
-          "Begegnung",
-          "Kindheit",
-          "Veränderung"
-        ]
+          {
+            "id": "o1",
+            "text": "Erinnerung"
+          },
+          {
+            "id": "o2",
+            "text": "Begegnung"
+          },
+          {
+            "id": "o3",
+            "text": "Kindheit"
+          },
+          {
+            "id": "o4",
+            "text": "Veränderung"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Kindheit",
-          "Erinnerung",
-          "Tradition",
-          "Veränderung"
-        ]
+          {
+            "id": "o1",
+            "text": "Kindheit"
+          },
+          {
+            "id": "o2",
+            "text": "Erinnerung"
+          },
+          {
+            "id": "o3",
+            "text": "Tradition"
+          },
+          {
+            "id": "o4",
+            "text": "Veränderung"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Veränderung",
-          "Erinnerung",
-          "Kindheit",
-          "Generation"
-        ]
+          {
+            "id": "o1",
+            "text": "Veränderung"
+          },
+          {
+            "id": "o2",
+            "text": "Erinnerung"
+          },
+          {
+            "id": "o3",
+            "text": "Kindheit"
+          },
+          {
+            "id": "o4",
+            "text": "Generation"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "lernen",
-          "Erinnerung",
-          "Kindheit",
-          "Veränderung"
-        ]
+          {
+            "id": "o1",
+            "text": "lernen"
+          },
+          {
+            "id": "o2",
+            "text": "Erinnerung"
+          },
+          {
+            "id": "o3",
+            "text": "Kindheit"
+          },
+          {
+            "id": "o4",
+            "text": "Veränderung"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Erinnerung",
-          "Bedeutung",
-          "Kindheit",
-          "Veränderung"
-        ]
+          {
+            "id": "o1",
+            "text": "Erinnerung"
+          },
+          {
+            "id": "o2",
+            "text": "Bedeutung"
+          },
+          {
+            "id": "o3",
+            "text": "Kindheit"
+          },
+          {
+            "id": "o4",
+            "text": "Veränderung"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Kindheit",
-          "Erinnerung",
-          "heute",
-          "Veränderung"
-        ]
+          {
+            "id": "o1",
+            "text": "Kindheit"
+          },
+          {
+            "id": "o2",
+            "text": "Erinnerung"
+          },
+          {
+            "id": "o3",
+            "text": "heute"
+          },
+          {
+            "id": "o4",
+            "text": "Veränderung"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Veränderung",
-          "Erinnerung",
-          "Kindheit",
-          "zusammen"
-        ]
+          {
+            "id": "o1",
+            "text": "Veränderung"
+          },
+          {
+            "id": "o2",
+            "text": "Erinnerung"
+          },
+          {
+            "id": "o3",
+            "text": "Kindheit"
+          },
+          {
+            "id": "o4",
+            "text": "zusammen"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },
@@ -33387,93 +40099,198 @@
     "extra": {
       "grammarProfile": {
         "name": "Akkusativartikel im Alltag",
-        "definition": "Der Akkusativ verändert den bestimmten und unbestimmten Artikel.",
-        "structure": "Ich sehe den Tisch und kaufe einen Stuhl.",
-        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
+        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
+        "structure": "Subjekt + Verb + Ergänzung",
+        "function": "Über Personen, Orte und Alltag sprechen.",
         "examples": [
-          "Ich sehe den Tisch und kaufe einen Stuhl."
+          "Ich wohne im Viertel.",
+          "Leon spricht mit Anna."
         ]
       },
       "grammarTest": {
         "questions": [
           {
+            "id": "q1",
             "type": "mcq",
             "prompt": "Ergänze: Ich ___ im Viertel.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "wohne"
+              },
+              {
+                "id": "o2",
+                "text": "wohnt"
+              },
+              {
+                "id": "o3",
+                "text": "wohnen"
+              },
+              {
+                "id": "o4",
+                "text": "wohnst"
+              }
             ]
           },
           {
+            "id": "q2",
             "type": "mcq",
             "prompt": "Wähle den richtigen Satz.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Leon sprechen mit Anna."
+              },
+              {
+                "id": "o2",
+                "text": "Leon spricht mit Anna."
+              },
+              {
+                "id": "o3",
+                "text": "Leon spreche mit Anna."
+              },
+              {
+                "id": "o4",
+                "text": "Leon sprich mit Anna."
+              }
             ]
           },
           {
+            "id": "q3",
             "type": "mcq",
             "prompt": "Ergänze: Wir ___ jeden Tag Deutsch.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "lerne"
+              },
+              {
+                "id": "o2",
+                "text": "lernt"
+              },
+              {
+                "id": "o3",
+                "text": "lernen"
+              },
+              {
+                "id": "o4",
+                "text": "lernst"
+              }
             ]
           },
           {
+            "id": "q4",
             "type": "mcq",
             "prompt": "Welche Frage ist richtig?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Wo wohnst?"
+              },
+              {
+                "id": "o2",
+                "text": "Wo wohnen du?"
+              },
+              {
+                "id": "o3",
+                "text": "Wo du wohnst?"
+              },
+              {
+                "id": "o4",
+                "text": "Wo wohnst du?"
+              }
             ]
           },
           {
+            "id": "q5",
             "type": "mcq",
             "prompt": "Ergänze: Sie ___ eine Frage.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "stellt"
+              },
+              {
+                "id": "o2",
+                "text": "stelle"
+              },
+              {
+                "id": "o3",
+                "text": "stellen"
+              },
+              {
+                "id": "o4",
+                "text": "stellst"
+              }
             ]
           },
           {
+            "id": "q6",
             "type": "mcq",
             "prompt": "Wähle den Satz über ein Haus.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Das Haus sind hell."
+              },
+              {
+                "id": "o2",
+                "text": "Das Haus ist hell."
+              },
+              {
+                "id": "o3",
+                "text": "Die Haus ist hell."
+              },
+              {
+                "id": "o4",
+                "text": "Das Haus ist helle."
+              }
             ]
           },
           {
+            "id": "q7",
             "type": "mcq",
             "prompt": "Ergänze: Du ___ Kaffee.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "trinken"
+              },
+              {
+                "id": "o2",
+                "text": "trinkt"
+              },
+              {
+                "id": "o3",
+                "text": "trinkst"
+              },
+              {
+                "id": "o4",
+                "text": "trinke"
+              }
             ]
           },
           {
+            "id": "q8",
             "type": "mcq",
             "prompt": "Welcher Satz beschreibt eine Routine?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Jeden Morgen arbeitet ich im Zentrum."
+              },
+              {
+                "id": "o2",
+                "text": "Gestern arbeiten ich im Zentrum."
+              },
+              {
+                "id": "o3",
+                "text": "Morgen arbeitete ich im Zentrum."
+              },
+              {
+                "id": "o4",
+                "text": "Jeden Morgen arbeite ich im Zentrum."
+              }
             ]
           }
         ]
@@ -33482,91 +40299,203 @@
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
         "prompt": "Ergänze: Ich ___ im Viertel.",
         "options": [
-          "wohne",
-          "wohnt",
-          "wohnen",
-          "wohnst"
+          {
+            "id": "o1",
+            "text": "wohne"
+          },
+          {
+            "id": "o2",
+            "text": "wohnt"
+          },
+          {
+            "id": "o3",
+            "text": "wohnen"
+          },
+          {
+            "id": "o4",
+            "text": "wohnst"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q2",
         "type": "mcq",
         "prompt": "Wähle den richtigen Satz.",
         "options": [
-          "Leon sprechen mit Anna.",
-          "Leon spricht mit Anna.",
-          "Leon spreche mit Anna.",
-          "Leon sprich mit Anna."
+          {
+            "id": "o1",
+            "text": "Leon sprechen mit Anna."
+          },
+          {
+            "id": "o2",
+            "text": "Leon spricht mit Anna."
+          },
+          {
+            "id": "o3",
+            "text": "Leon spreche mit Anna."
+          },
+          {
+            "id": "o4",
+            "text": "Leon sprich mit Anna."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q3",
         "type": "mcq",
         "prompt": "Ergänze: Wir ___ jeden Tag Deutsch.",
         "options": [
-          "lerne",
-          "lernt",
-          "lernen",
-          "lernst"
+          {
+            "id": "o1",
+            "text": "lerne"
+          },
+          {
+            "id": "o2",
+            "text": "lernt"
+          },
+          {
+            "id": "o3",
+            "text": "lernen"
+          },
+          {
+            "id": "o4",
+            "text": "lernst"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q4",
         "type": "mcq",
         "prompt": "Welche Frage ist richtig?",
         "options": [
-          "Wo wohnst?",
-          "Wo wohnen du?",
-          "Wo du wohnst?",
-          "Wo wohnst du?"
+          {
+            "id": "o1",
+            "text": "Wo wohnst?"
+          },
+          {
+            "id": "o2",
+            "text": "Wo wohnen du?"
+          },
+          {
+            "id": "o3",
+            "text": "Wo du wohnst?"
+          },
+          {
+            "id": "o4",
+            "text": "Wo wohnst du?"
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q5",
         "type": "mcq",
         "prompt": "Ergänze: Sie ___ eine Frage.",
         "options": [
-          "stellt",
-          "stelle",
-          "stellen",
-          "stellst"
+          {
+            "id": "o1",
+            "text": "stellt"
+          },
+          {
+            "id": "o2",
+            "text": "stelle"
+          },
+          {
+            "id": "o3",
+            "text": "stellen"
+          },
+          {
+            "id": "o4",
+            "text": "stellst"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q6",
         "type": "mcq",
         "prompt": "Wähle den Satz über ein Haus.",
         "options": [
-          "Das Haus sind hell.",
-          "Das Haus ist hell.",
-          "Die Haus ist hell.",
-          "Das Haus ist helle."
+          {
+            "id": "o1",
+            "text": "Das Haus sind hell."
+          },
+          {
+            "id": "o2",
+            "text": "Das Haus ist hell."
+          },
+          {
+            "id": "o3",
+            "text": "Die Haus ist hell."
+          },
+          {
+            "id": "o4",
+            "text": "Das Haus ist helle."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q7",
         "type": "mcq",
         "prompt": "Ergänze: Du ___ Kaffee.",
         "options": [
-          "trinken",
-          "trinkt",
-          "trinkst",
-          "trinke"
+          {
+            "id": "o1",
+            "text": "trinken"
+          },
+          {
+            "id": "o2",
+            "text": "trinkt"
+          },
+          {
+            "id": "o3",
+            "text": "trinkst"
+          },
+          {
+            "id": "o4",
+            "text": "trinke"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q8",
         "type": "mcq",
         "prompt": "Welcher Satz beschreibt eine Routine?",
         "options": [
-          "Jeden Morgen arbeitet ich im Zentrum.",
-          "Gestern arbeiten ich im Zentrum.",
-          "Morgen arbeitete ich im Zentrum.",
-          "Jeden Morgen arbeite ich im Zentrum."
+          {
+            "id": "o1",
+            "text": "Jeden Morgen arbeitet ich im Zentrum."
+          },
+          {
+            "id": "o2",
+            "text": "Gestern arbeiten ich im Zentrum."
+          },
+          {
+            "id": "o3",
+            "text": "Morgen arbeitete ich im Zentrum."
+          },
+          {
+            "id": "o4",
+            "text": "Jeden Morgen arbeite ich im Zentrum."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       }
     ]
@@ -33647,93 +40576,198 @@
     "extra": {
       "grammarProfile": {
         "name": "Komparativ und Superlativ",
-        "definition": "Usa -er y am ...-sten para comparar.",
-        "structure": "Der Park ist größer als der Platz.",
-        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
+        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
+        "structure": "haben/sein + Partizip II",
+        "function": "Erfahrungen und Pläne erzählen.",
         "examples": [
-          "Der Park ist größer als der Platz."
+          "Gestern habe ich das Museum besucht.",
+          "Danach haben wir zusammen gesprochen."
         ]
       },
       "grammarTest": {
         "questions": [
           {
+            "id": "q1",
             "type": "mcq",
             "prompt": "Ergänze: Gestern ___ ich das Museum ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "habe besucht"
+              },
+              {
+                "id": "o2",
+                "text": "besuche"
+              },
+              {
+                "id": "o3",
+                "text": "habe besuchen"
+              },
+              {
+                "id": "o4",
+                "text": "bin besucht"
+              }
             ]
           },
           {
+            "id": "q2",
             "type": "mcq",
             "prompt": "Wähle den richtigen Perfekt-Satz.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Wir haben zusammen essen."
+              },
+              {
+                "id": "o2",
+                "text": "Wir haben zusammen gegessen."
+              },
+              {
+                "id": "o3",
+                "text": "Wir sind zusammen gegessen."
+              },
+              {
+                "id": "o4",
+                "text": "Wir essen gestern zusammen."
+              }
             ]
           },
           {
+            "id": "q3",
             "type": "mcq",
             "prompt": "Ergänze: Marta ___ spät nach Hause ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "ist kommen"
+              },
+              {
+                "id": "o2",
+                "text": "hat gekommen"
+              },
+              {
+                "id": "o3",
+                "text": "ist gekommen"
+              },
+              {
+                "id": "o4",
+                "text": "kommt gestern"
+              }
             ]
           },
           {
+            "id": "q4",
             "type": "mcq",
             "prompt": "Welcher Satz zeigt eine Reihenfolge?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Zuerst haben wir gelernt, wenn sind wir gegangen."
+              },
+              {
+                "id": "o2",
+                "text": "Zuerst haben wir gelernt, weil sind wir gegangen."
+              },
+              {
+                "id": "o3",
+                "text": "Zuerst haben wir gelernt, obwohl sind wir gegangen."
+              },
+              {
+                "id": "o4",
+                "text": "Zuerst haben wir gelernt, dann sind wir gegangen."
+              }
             ]
           },
           {
+            "id": "q5",
             "type": "mcq",
             "prompt": "Ergänze: ___ du die Nachricht ___?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Hast gelesen"
+              },
+              {
+                "id": "o2",
+                "text": "Hast lesen"
+              },
+              {
+                "id": "o3",
+                "text": "Bist gelesen"
+              },
+              {
+                "id": "o4",
+                "text": "Liest gestern"
+              }
             ]
           },
           {
+            "id": "q6",
             "type": "mcq",
             "prompt": "Wähle den Perfekt-Satz mit dem richtigen Hilfsverb.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Meine Freunde sind den Bus genommen."
+              },
+              {
+                "id": "o2",
+                "text": "Meine Freunde haben den Bus genommen."
+              },
+              {
+                "id": "o3",
+                "text": "Meine Freunde haben den Bus nehmen."
+              },
+              {
+                "id": "o4",
+                "text": "Meine Freunde nehmen gestern den Bus."
+              }
             ]
           },
           {
+            "id": "q7",
             "type": "mcq",
             "prompt": "Ergänze: Wir ___ eine wichtige Erfahrung ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "haben machen"
+              },
+              {
+                "id": "o2",
+                "text": "sind gemacht"
+              },
+              {
+                "id": "o3",
+                "text": "haben gemacht"
+              },
+              {
+                "id": "o4",
+                "text": "machen gestern"
+              }
             ]
           },
           {
+            "id": "q8",
             "type": "mcq",
             "prompt": "Welcher Satz beschreibt eine abgeschlossene Handlung?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Am Samstag bin ich meine Cousine getroffen."
+              },
+              {
+                "id": "o2",
+                "text": "Am Samstag treffe ich meine Cousine morgen."
+              },
+              {
+                "id": "o3",
+                "text": "Am Samstag treffen meine Cousine."
+              },
+              {
+                "id": "o4",
+                "text": "Am Samstag habe ich meine Cousine getroffen."
+              }
             ]
           }
         ]
@@ -33742,91 +40776,203 @@
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
         "prompt": "Ergänze: Gestern ___ ich das Museum ___.",
         "options": [
-          "habe besucht",
-          "besuche",
-          "habe besuchen",
-          "bin besucht"
+          {
+            "id": "o1",
+            "text": "habe besucht"
+          },
+          {
+            "id": "o2",
+            "text": "besuche"
+          },
+          {
+            "id": "o3",
+            "text": "habe besuchen"
+          },
+          {
+            "id": "o4",
+            "text": "bin besucht"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q2",
         "type": "mcq",
         "prompt": "Wähle den richtigen Perfekt-Satz.",
         "options": [
-          "Wir haben zusammen essen.",
-          "Wir haben zusammen gegessen.",
-          "Wir sind zusammen gegessen.",
-          "Wir essen gestern zusammen."
+          {
+            "id": "o1",
+            "text": "Wir haben zusammen essen."
+          },
+          {
+            "id": "o2",
+            "text": "Wir haben zusammen gegessen."
+          },
+          {
+            "id": "o3",
+            "text": "Wir sind zusammen gegessen."
+          },
+          {
+            "id": "o4",
+            "text": "Wir essen gestern zusammen."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q3",
         "type": "mcq",
         "prompt": "Ergänze: Marta ___ spät nach Hause ___.",
         "options": [
-          "ist kommen",
-          "hat gekommen",
-          "ist gekommen",
-          "kommt gestern"
+          {
+            "id": "o1",
+            "text": "ist kommen"
+          },
+          {
+            "id": "o2",
+            "text": "hat gekommen"
+          },
+          {
+            "id": "o3",
+            "text": "ist gekommen"
+          },
+          {
+            "id": "o4",
+            "text": "kommt gestern"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q4",
         "type": "mcq",
         "prompt": "Welcher Satz zeigt eine Reihenfolge?",
         "options": [
-          "Zuerst haben wir gelernt, wenn sind wir gegangen.",
-          "Zuerst haben wir gelernt, weil sind wir gegangen.",
-          "Zuerst haben wir gelernt, obwohl sind wir gegangen.",
-          "Zuerst haben wir gelernt, dann sind wir gegangen."
+          {
+            "id": "o1",
+            "text": "Zuerst haben wir gelernt, wenn sind wir gegangen."
+          },
+          {
+            "id": "o2",
+            "text": "Zuerst haben wir gelernt, weil sind wir gegangen."
+          },
+          {
+            "id": "o3",
+            "text": "Zuerst haben wir gelernt, obwohl sind wir gegangen."
+          },
+          {
+            "id": "o4",
+            "text": "Zuerst haben wir gelernt, dann sind wir gegangen."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q5",
         "type": "mcq",
         "prompt": "Ergänze: ___ du die Nachricht ___?",
         "options": [
-          "Hast gelesen",
-          "Hast lesen",
-          "Bist gelesen",
-          "Liest gestern"
+          {
+            "id": "o1",
+            "text": "Hast gelesen"
+          },
+          {
+            "id": "o2",
+            "text": "Hast lesen"
+          },
+          {
+            "id": "o3",
+            "text": "Bist gelesen"
+          },
+          {
+            "id": "o4",
+            "text": "Liest gestern"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q6",
         "type": "mcq",
         "prompt": "Wähle den Perfekt-Satz mit dem richtigen Hilfsverb.",
         "options": [
-          "Meine Freunde sind den Bus genommen.",
-          "Meine Freunde haben den Bus genommen.",
-          "Meine Freunde haben den Bus nehmen.",
-          "Meine Freunde nehmen gestern den Bus."
+          {
+            "id": "o1",
+            "text": "Meine Freunde sind den Bus genommen."
+          },
+          {
+            "id": "o2",
+            "text": "Meine Freunde haben den Bus genommen."
+          },
+          {
+            "id": "o3",
+            "text": "Meine Freunde haben den Bus nehmen."
+          },
+          {
+            "id": "o4",
+            "text": "Meine Freunde nehmen gestern den Bus."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q7",
         "type": "mcq",
         "prompt": "Ergänze: Wir ___ eine wichtige Erfahrung ___.",
         "options": [
-          "haben machen",
-          "sind gemacht",
-          "haben gemacht",
-          "machen gestern"
+          {
+            "id": "o1",
+            "text": "haben machen"
+          },
+          {
+            "id": "o2",
+            "text": "sind gemacht"
+          },
+          {
+            "id": "o3",
+            "text": "haben gemacht"
+          },
+          {
+            "id": "o4",
+            "text": "machen gestern"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q8",
         "type": "mcq",
         "prompt": "Welcher Satz beschreibt eine abgeschlossene Handlung?",
         "options": [
-          "Am Samstag bin ich meine Cousine getroffen.",
-          "Am Samstag treffe ich meine Cousine morgen.",
-          "Am Samstag treffen meine Cousine.",
-          "Am Samstag habe ich meine Cousine getroffen."
+          {
+            "id": "o1",
+            "text": "Am Samstag bin ich meine Cousine getroffen."
+          },
+          {
+            "id": "o2",
+            "text": "Am Samstag treffe ich meine Cousine morgen."
+          },
+          {
+            "id": "o3",
+            "text": "Am Samstag treffen meine Cousine."
+          },
+          {
+            "id": "o4",
+            "text": "Am Samstag habe ich meine Cousine getroffen."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       }
     ]
@@ -33910,9 +41056,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Partizipien als Adjektive",
-        "definition": "Práctica guiada de Partizipien als Adjektive.",
+        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
         "structure": "Meinung + weil/obwohl/deshalb + Begründung",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Eine Meinung ausdrücken und begründen.",
         "examples": [
           "Ich finde den Vorschlag sinnvoll.",
           "Trotzdem müssen wir die Ergebnisse prüfen."
@@ -33921,83 +41067,187 @@
       "grammarTest": {
         "questions": [
           {
+            "id": "q1",
             "type": "mcq",
             "prompt": "Ergänze: Ich finde, dass der Vorschlag sinnvoll ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "ist"
+              },
+              {
+                "id": "o2",
+                "text": "sind"
+              },
+              {
+                "id": "o3",
+                "text": "sein"
+              },
+              {
+                "id": "o4",
+                "text": "sei"
+              }
             ]
           },
           {
+            "id": "q2",
             "type": "mcq",
             "prompt": "Wähle den Konnektor für einen Gegensatz.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Ich möchte ausgehen, deshalb es regnet."
+              },
+              {
+                "id": "o2",
+                "text": "Ich möchte ausgehen, aber es regnet."
+              },
+              {
+                "id": "o3",
+                "text": "Ich möchte ausgehen, weil es regnet."
+              },
+              {
+                "id": "o4",
+                "text": "Ich möchte ausgehen, dann es regnet."
+              }
             ]
           },
           {
+            "id": "q3",
             "type": "mcq",
             "prompt": "Ergänze: Ich bleibe zu Hause, weil ich müde ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "sein"
+              },
+              {
+                "id": "o2",
+                "text": "ist"
+              },
+              {
+                "id": "o3",
+                "text": "bin"
+              },
+              {
+                "id": "o4",
+                "text": "bist"
+              }
             ]
           },
           {
+            "id": "q4",
             "type": "mcq",
             "prompt": "Welcher Satz drückt eine Meinung aus?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Das Projekt funktioniert warum?"
+              },
+              {
+                "id": "o2",
+                "text": "Das Projekt gestern funktioniert?"
+              },
+              {
+                "id": "o3",
+                "text": "Funktionieren das Projekt meiner Meinung."
+              },
+              {
+                "id": "o4",
+                "text": "Meiner Meinung nach funktioniert das Projekt."
+              }
             ]
           },
           {
+            "id": "q5",
             "type": "mcq",
             "prompt": "Ergänze: Obwohl es spät ___, arbeiten wir weiter.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "ist"
+              },
+              {
+                "id": "o2",
+                "text": "sind"
+              },
+              {
+                "id": "o3",
+                "text": "sein"
+              },
+              {
+                "id": "o4",
+                "text": "bist"
+              }
             ]
           },
           {
+            "id": "q6",
             "type": "mcq",
             "prompt": "Wähle eine logische Folge.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Wir haben wenig Zeit, aber planen wir die Arbeit."
+              },
+              {
+                "id": "o2",
+                "text": "Wir haben wenig Zeit, deshalb planen wir die Arbeit."
+              },
+              {
+                "id": "o3",
+                "text": "Wir haben wenig Zeit, weil planen wir die Arbeit."
+              },
+              {
+                "id": "o4",
+                "text": "Wir haben wenig Zeit, obwohl planen wir die Arbeit."
+              }
             ]
           },
           {
+            "id": "q7",
             "type": "mcq",
             "prompt": "Ergänze: Ich glaube, dass sie Recht ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "sein"
+              },
+              {
+                "id": "o2",
+                "text": "haben"
+              },
+              {
+                "id": "o3",
+                "text": "hat"
+              },
+              {
+                "id": "o4",
+                "text": "hatte"
+              }
             ]
           },
           {
+            "id": "q8",
             "type": "mcq",
             "prompt": "Welcher Satz begründet eine Wahl?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Ich nehme den Zug er nachhaltiger ist weil."
+              },
+              {
+                "id": "o2",
+                "text": "Ich nehme den Zug, aber er nachhaltiger ist."
+              },
+              {
+                "id": "o3",
+                "text": "Ich nehme den Zug, deshalb er nachhaltiger ist?"
+              },
+              {
+                "id": "o4",
+                "text": "Ich nehme den Zug, weil er nachhaltiger ist."
+              }
             ]
           }
         ]
@@ -34006,91 +41256,203 @@
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
         "prompt": "Ergänze: Ich finde, dass der Vorschlag sinnvoll ___.",
         "options": [
-          "ist",
-          "sind",
-          "sein",
-          "sei"
+          {
+            "id": "o1",
+            "text": "ist"
+          },
+          {
+            "id": "o2",
+            "text": "sind"
+          },
+          {
+            "id": "o3",
+            "text": "sein"
+          },
+          {
+            "id": "o4",
+            "text": "sei"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q2",
         "type": "mcq",
         "prompt": "Wähle den Konnektor für einen Gegensatz.",
         "options": [
-          "Ich möchte ausgehen, deshalb es regnet.",
-          "Ich möchte ausgehen, aber es regnet.",
-          "Ich möchte ausgehen, weil es regnet.",
-          "Ich möchte ausgehen, dann es regnet."
+          {
+            "id": "o1",
+            "text": "Ich möchte ausgehen, deshalb es regnet."
+          },
+          {
+            "id": "o2",
+            "text": "Ich möchte ausgehen, aber es regnet."
+          },
+          {
+            "id": "o3",
+            "text": "Ich möchte ausgehen, weil es regnet."
+          },
+          {
+            "id": "o4",
+            "text": "Ich möchte ausgehen, dann es regnet."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q3",
         "type": "mcq",
         "prompt": "Ergänze: Ich bleibe zu Hause, weil ich müde ___.",
         "options": [
-          "sein",
-          "ist",
-          "bin",
-          "bist"
+          {
+            "id": "o1",
+            "text": "sein"
+          },
+          {
+            "id": "o2",
+            "text": "ist"
+          },
+          {
+            "id": "o3",
+            "text": "bin"
+          },
+          {
+            "id": "o4",
+            "text": "bist"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q4",
         "type": "mcq",
         "prompt": "Welcher Satz drückt eine Meinung aus?",
         "options": [
-          "Das Projekt funktioniert warum?",
-          "Das Projekt gestern funktioniert?",
-          "Funktionieren das Projekt meiner Meinung.",
-          "Meiner Meinung nach funktioniert das Projekt."
+          {
+            "id": "o1",
+            "text": "Das Projekt funktioniert warum?"
+          },
+          {
+            "id": "o2",
+            "text": "Das Projekt gestern funktioniert?"
+          },
+          {
+            "id": "o3",
+            "text": "Funktionieren das Projekt meiner Meinung."
+          },
+          {
+            "id": "o4",
+            "text": "Meiner Meinung nach funktioniert das Projekt."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q5",
         "type": "mcq",
         "prompt": "Ergänze: Obwohl es spät ___, arbeiten wir weiter.",
         "options": [
-          "ist",
-          "sind",
-          "sein",
-          "bist"
+          {
+            "id": "o1",
+            "text": "ist"
+          },
+          {
+            "id": "o2",
+            "text": "sind"
+          },
+          {
+            "id": "o3",
+            "text": "sein"
+          },
+          {
+            "id": "o4",
+            "text": "bist"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q6",
         "type": "mcq",
         "prompt": "Wähle eine logische Folge.",
         "options": [
-          "Wir haben wenig Zeit, aber planen wir die Arbeit.",
-          "Wir haben wenig Zeit, deshalb planen wir die Arbeit.",
-          "Wir haben wenig Zeit, weil planen wir die Arbeit.",
-          "Wir haben wenig Zeit, obwohl planen wir die Arbeit."
+          {
+            "id": "o1",
+            "text": "Wir haben wenig Zeit, aber planen wir die Arbeit."
+          },
+          {
+            "id": "o2",
+            "text": "Wir haben wenig Zeit, deshalb planen wir die Arbeit."
+          },
+          {
+            "id": "o3",
+            "text": "Wir haben wenig Zeit, weil planen wir die Arbeit."
+          },
+          {
+            "id": "o4",
+            "text": "Wir haben wenig Zeit, obwohl planen wir die Arbeit."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q7",
         "type": "mcq",
         "prompt": "Ergänze: Ich glaube, dass sie Recht ___.",
         "options": [
-          "sein",
-          "haben",
-          "hat",
-          "hatte"
+          {
+            "id": "o1",
+            "text": "sein"
+          },
+          {
+            "id": "o2",
+            "text": "haben"
+          },
+          {
+            "id": "o3",
+            "text": "hat"
+          },
+          {
+            "id": "o4",
+            "text": "hatte"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q8",
         "type": "mcq",
         "prompt": "Welcher Satz begründet eine Wahl?",
         "options": [
-          "Ich nehme den Zug er nachhaltiger ist weil.",
-          "Ich nehme den Zug, aber er nachhaltiger ist.",
-          "Ich nehme den Zug, deshalb er nachhaltiger ist?",
-          "Ich nehme den Zug, weil er nachhaltiger ist."
+          {
+            "id": "o1",
+            "text": "Ich nehme den Zug er nachhaltiger ist weil."
+          },
+          {
+            "id": "o2",
+            "text": "Ich nehme den Zug, aber er nachhaltiger ist."
+          },
+          {
+            "id": "o3",
+            "text": "Ich nehme den Zug, deshalb er nachhaltiger ist?"
+          },
+          {
+            "id": "o4",
+            "text": "Ich nehme den Zug, weil er nachhaltiger ist."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       }
     ]
@@ -35768,121 +43130,277 @@
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "aufstehen",
-          "frühstücken",
-          "arbeiten",
-          "kochen"
-        ]
+          {
+            "id": "o1",
+            "text": "aufstehen"
+          },
+          {
+            "id": "o2",
+            "text": "frühstücken"
+          },
+          {
+            "id": "o3",
+            "text": "arbeiten"
+          },
+          {
+            "id": "o4",
+            "text": "kochen"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "aufstehen",
-          "frühstücken",
-          "arbeiten",
-          "kochen"
-        ]
+          {
+            "id": "o1",
+            "text": "aufstehen"
+          },
+          {
+            "id": "o2",
+            "text": "frühstücken"
+          },
+          {
+            "id": "o3",
+            "text": "arbeiten"
+          },
+          {
+            "id": "o4",
+            "text": "kochen"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "frühstücken",
-          "aufstehen",
-          "arbeiten",
-          "kochen"
-        ]
+          {
+            "id": "o1",
+            "text": "frühstücken"
+          },
+          {
+            "id": "o2",
+            "text": "aufstehen"
+          },
+          {
+            "id": "o3",
+            "text": "arbeiten"
+          },
+          {
+            "id": "o4",
+            "text": "kochen"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "arbeiten",
-          "aufstehen",
-          "frühstücken",
-          "kochen"
-        ]
+          {
+            "id": "o1",
+            "text": "arbeiten"
+          },
+          {
+            "id": "o2",
+            "text": "aufstehen"
+          },
+          {
+            "id": "o3",
+            "text": "frühstücken"
+          },
+          {
+            "id": "o4",
+            "text": "kochen"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "schlafen",
-          "aufstehen",
-          "frühstücken",
-          "arbeiten"
-        ]
+          {
+            "id": "o1",
+            "text": "schlafen"
+          },
+          {
+            "id": "o2",
+            "text": "aufstehen"
+          },
+          {
+            "id": "o3",
+            "text": "frühstücken"
+          },
+          {
+            "id": "o4",
+            "text": "arbeiten"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "aufstehen",
-          "Uhr",
-          "frühstücken",
-          "arbeiten"
-        ]
+          {
+            "id": "o1",
+            "text": "aufstehen"
+          },
+          {
+            "id": "o2",
+            "text": "Uhr"
+          },
+          {
+            "id": "o3",
+            "text": "frühstücken"
+          },
+          {
+            "id": "o4",
+            "text": "arbeiten"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "frühstücken",
-          "aufstehen",
-          "morgens",
-          "arbeiten"
-        ]
+          {
+            "id": "o1",
+            "text": "frühstücken"
+          },
+          {
+            "id": "o2",
+            "text": "aufstehen"
+          },
+          {
+            "id": "o3",
+            "text": "morgens"
+          },
+          {
+            "id": "o4",
+            "text": "arbeiten"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "arbeiten",
-          "aufstehen",
-          "frühstücken",
-          "abends"
-        ]
+          {
+            "id": "o1",
+            "text": "arbeiten"
+          },
+          {
+            "id": "o2",
+            "text": "aufstehen"
+          },
+          {
+            "id": "o3",
+            "text": "frühstücken"
+          },
+          {
+            "id": "o4",
+            "text": "abends"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Haushalt",
-          "aufstehen",
-          "frühstücken",
-          "arbeiten"
-        ]
+          {
+            "id": "o1",
+            "text": "Haushalt"
+          },
+          {
+            "id": "o2",
+            "text": "aufstehen"
+          },
+          {
+            "id": "o3",
+            "text": "frühstücken"
+          },
+          {
+            "id": "o4",
+            "text": "arbeiten"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "aufstehen",
-          "ruhig",
-          "frühstücken",
-          "arbeiten"
-        ]
+          {
+            "id": "o1",
+            "text": "aufstehen"
+          },
+          {
+            "id": "o2",
+            "text": "ruhig"
+          },
+          {
+            "id": "o3",
+            "text": "frühstücken"
+          },
+          {
+            "id": "o4",
+            "text": "arbeiten"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "frühstücken",
-          "aufstehen",
-          "heute",
-          "arbeiten"
-        ]
+          {
+            "id": "o1",
+            "text": "frühstücken"
+          },
+          {
+            "id": "o2",
+            "text": "aufstehen"
+          },
+          {
+            "id": "o3",
+            "text": "heute"
+          },
+          {
+            "id": "o4",
+            "text": "arbeiten"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "arbeiten",
-          "aufstehen",
-          "frühstücken",
-          "zusammen"
-        ]
+          {
+            "id": "o1",
+            "text": "arbeiten"
+          },
+          {
+            "id": "o2",
+            "text": "aufstehen"
+          },
+          {
+            "id": "o3",
+            "text": "frühstücken"
+          },
+          {
+            "id": "o4",
+            "text": "zusammen"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },
@@ -36050,121 +43568,277 @@
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Umwelt",
-          "Müll",
-          "trennen",
-          "Energie"
-        ]
+          {
+            "id": "o1",
+            "text": "Umwelt"
+          },
+          {
+            "id": "o2",
+            "text": "Müll"
+          },
+          {
+            "id": "o3",
+            "text": "trennen"
+          },
+          {
+            "id": "o4",
+            "text": "Energie"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Umwelt",
-          "Müll",
-          "trennen",
-          "Energie"
-        ]
+          {
+            "id": "o1",
+            "text": "Umwelt"
+          },
+          {
+            "id": "o2",
+            "text": "Müll"
+          },
+          {
+            "id": "o3",
+            "text": "trennen"
+          },
+          {
+            "id": "o4",
+            "text": "Energie"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Müll",
-          "Umwelt",
-          "trennen",
-          "Energie"
-        ]
+          {
+            "id": "o1",
+            "text": "Müll"
+          },
+          {
+            "id": "o2",
+            "text": "Umwelt"
+          },
+          {
+            "id": "o3",
+            "text": "trennen"
+          },
+          {
+            "id": "o4",
+            "text": "Energie"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "trennen",
-          "Umwelt",
-          "Müll",
-          "Energie"
-        ]
+          {
+            "id": "o1",
+            "text": "trennen"
+          },
+          {
+            "id": "o2",
+            "text": "Umwelt"
+          },
+          {
+            "id": "o3",
+            "text": "Müll"
+          },
+          {
+            "id": "o4",
+            "text": "Energie"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Fahrrad",
-          "Umwelt",
-          "Müll",
-          "trennen"
-        ]
+          {
+            "id": "o1",
+            "text": "Fahrrad"
+          },
+          {
+            "id": "o2",
+            "text": "Umwelt"
+          },
+          {
+            "id": "o3",
+            "text": "Müll"
+          },
+          {
+            "id": "o4",
+            "text": "trennen"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Umwelt",
-          "sparen",
-          "Müll",
-          "trennen"
-        ]
+          {
+            "id": "o1",
+            "text": "Umwelt"
+          },
+          {
+            "id": "o2",
+            "text": "sparen"
+          },
+          {
+            "id": "o3",
+            "text": "Müll"
+          },
+          {
+            "id": "o4",
+            "text": "trennen"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Müll",
-          "Umwelt",
-          "sauber",
-          "trennen"
-        ]
+          {
+            "id": "o1",
+            "text": "Müll"
+          },
+          {
+            "id": "o2",
+            "text": "Umwelt"
+          },
+          {
+            "id": "o3",
+            "text": "sauber"
+          },
+          {
+            "id": "o4",
+            "text": "trennen"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "trennen",
-          "Umwelt",
-          "Müll",
-          "Park"
-        ]
+          {
+            "id": "o1",
+            "text": "trennen"
+          },
+          {
+            "id": "o2",
+            "text": "Umwelt"
+          },
+          {
+            "id": "o3",
+            "text": "Müll"
+          },
+          {
+            "id": "o4",
+            "text": "Park"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "schützen",
-          "Umwelt",
-          "Müll",
-          "trennen"
-        ]
+          {
+            "id": "o1",
+            "text": "schützen"
+          },
+          {
+            "id": "o2",
+            "text": "Umwelt"
+          },
+          {
+            "id": "o3",
+            "text": "Müll"
+          },
+          {
+            "id": "o4",
+            "text": "trennen"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Umwelt",
-          "wichtig",
-          "Müll",
-          "trennen"
-        ]
+          {
+            "id": "o1",
+            "text": "Umwelt"
+          },
+          {
+            "id": "o2",
+            "text": "wichtig"
+          },
+          {
+            "id": "o3",
+            "text": "Müll"
+          },
+          {
+            "id": "o4",
+            "text": "trennen"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Müll",
-          "Umwelt",
-          "heute",
-          "trennen"
-        ]
+          {
+            "id": "o1",
+            "text": "Müll"
+          },
+          {
+            "id": "o2",
+            "text": "Umwelt"
+          },
+          {
+            "id": "o3",
+            "text": "heute"
+          },
+          {
+            "id": "o4",
+            "text": "trennen"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "trennen",
-          "Umwelt",
-          "Müll",
-          "zusammen"
-        ]
+          {
+            "id": "o1",
+            "text": "trennen"
+          },
+          {
+            "id": "o2",
+            "text": "Umwelt"
+          },
+          {
+            "id": "o3",
+            "text": "Müll"
+          },
+          {
+            "id": "o4",
+            "text": "zusammen"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },
@@ -36332,121 +44006,277 @@
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Projekt",
-          "Recherche",
-          "Aufgabe",
-          "Zusammenarbeit"
-        ]
+          {
+            "id": "o1",
+            "text": "Projekt"
+          },
+          {
+            "id": "o2",
+            "text": "Recherche"
+          },
+          {
+            "id": "o3",
+            "text": "Aufgabe"
+          },
+          {
+            "id": "o4",
+            "text": "Zusammenarbeit"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Projekt",
-          "Recherche",
-          "Aufgabe",
-          "Zusammenarbeit"
-        ]
+          {
+            "id": "o1",
+            "text": "Projekt"
+          },
+          {
+            "id": "o2",
+            "text": "Recherche"
+          },
+          {
+            "id": "o3",
+            "text": "Aufgabe"
+          },
+          {
+            "id": "o4",
+            "text": "Zusammenarbeit"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Recherche",
-          "Projekt",
-          "Aufgabe",
-          "Zusammenarbeit"
-        ]
+          {
+            "id": "o1",
+            "text": "Recherche"
+          },
+          {
+            "id": "o2",
+            "text": "Projekt"
+          },
+          {
+            "id": "o3",
+            "text": "Aufgabe"
+          },
+          {
+            "id": "o4",
+            "text": "Zusammenarbeit"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Aufgabe",
-          "Projekt",
-          "Recherche",
-          "Zusammenarbeit"
-        ]
+          {
+            "id": "o1",
+            "text": "Aufgabe"
+          },
+          {
+            "id": "o2",
+            "text": "Projekt"
+          },
+          {
+            "id": "o3",
+            "text": "Recherche"
+          },
+          {
+            "id": "o4",
+            "text": "Zusammenarbeit"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "vorstellen",
-          "Projekt",
-          "Recherche",
-          "Aufgabe"
-        ]
+          {
+            "id": "o1",
+            "text": "vorstellen"
+          },
+          {
+            "id": "o2",
+            "text": "Projekt"
+          },
+          {
+            "id": "o3",
+            "text": "Recherche"
+          },
+          {
+            "id": "o4",
+            "text": "Aufgabe"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Projekt",
-          "Vereinbarung",
-          "Recherche",
-          "Aufgabe"
-        ]
+          {
+            "id": "o1",
+            "text": "Projekt"
+          },
+          {
+            "id": "o2",
+            "text": "Vereinbarung"
+          },
+          {
+            "id": "o3",
+            "text": "Recherche"
+          },
+          {
+            "id": "o4",
+            "text": "Aufgabe"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Recherche",
-          "Projekt",
-          "Lösung",
-          "Aufgabe"
-        ]
+          {
+            "id": "o1",
+            "text": "Recherche"
+          },
+          {
+            "id": "o2",
+            "text": "Projekt"
+          },
+          {
+            "id": "o3",
+            "text": "Lösung"
+          },
+          {
+            "id": "o4",
+            "text": "Aufgabe"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Aufgabe",
-          "Projekt",
-          "Recherche",
-          "Zweck"
-        ]
+          {
+            "id": "o1",
+            "text": "Aufgabe"
+          },
+          {
+            "id": "o2",
+            "text": "Projekt"
+          },
+          {
+            "id": "o3",
+            "text": "Recherche"
+          },
+          {
+            "id": "o4",
+            "text": "Zweck"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "teilnehmen",
-          "Projekt",
-          "Recherche",
-          "Aufgabe"
-        ]
+          {
+            "id": "o1",
+            "text": "teilnehmen"
+          },
+          {
+            "id": "o2",
+            "text": "Projekt"
+          },
+          {
+            "id": "o3",
+            "text": "Recherche"
+          },
+          {
+            "id": "o4",
+            "text": "Aufgabe"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Projekt",
-          "Ergebnis",
-          "Recherche",
-          "Aufgabe"
-        ]
+          {
+            "id": "o1",
+            "text": "Projekt"
+          },
+          {
+            "id": "o2",
+            "text": "Ergebnis"
+          },
+          {
+            "id": "o3",
+            "text": "Recherche"
+          },
+          {
+            "id": "o4",
+            "text": "Aufgabe"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Recherche",
-          "Projekt",
-          "heute",
-          "Aufgabe"
-        ]
+          {
+            "id": "o1",
+            "text": "Recherche"
+          },
+          {
+            "id": "o2",
+            "text": "Projekt"
+          },
+          {
+            "id": "o3",
+            "text": "heute"
+          },
+          {
+            "id": "o4",
+            "text": "Aufgabe"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Aufgabe",
-          "Projekt",
-          "Recherche",
-          "zusammen"
-        ]
+          {
+            "id": "o1",
+            "text": "Aufgabe"
+          },
+          {
+            "id": "o2",
+            "text": "Projekt"
+          },
+          {
+            "id": "o3",
+            "text": "Recherche"
+          },
+          {
+            "id": "o4",
+            "text": "zusammen"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },
@@ -38726,93 +46556,198 @@
     "extra": {
       "grammarProfile": {
         "name": "Wetter, es gibt und Zeitangaben",
-        "definition": "Es gibt nennt etwas Vorhandenes; Zeitangaben strukturieren den Satz.",
-        "structure": "Heute gibt es Regen. Im Sommer ist es warm.",
-        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
+        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
+        "structure": "Subjekt + Verb + Ergänzung",
+        "function": "Über Personen, Orte und Alltag sprechen.",
         "examples": [
-          "Heute gibt es Regen. Im Sommer ist es warm."
+          "Ich wohne im Viertel.",
+          "Leon spricht mit Anna."
         ]
       },
       "grammarTest": {
         "questions": [
           {
+            "id": "q1",
             "type": "mcq",
             "prompt": "Ergänze: Ich ___ im Viertel.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "wohne"
+              },
+              {
+                "id": "o2",
+                "text": "wohnt"
+              },
+              {
+                "id": "o3",
+                "text": "wohnen"
+              },
+              {
+                "id": "o4",
+                "text": "wohnst"
+              }
             ]
           },
           {
+            "id": "q2",
             "type": "mcq",
             "prompt": "Wähle den richtigen Satz.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Leon sprechen mit Anna."
+              },
+              {
+                "id": "o2",
+                "text": "Leon spricht mit Anna."
+              },
+              {
+                "id": "o3",
+                "text": "Leon spreche mit Anna."
+              },
+              {
+                "id": "o4",
+                "text": "Leon sprich mit Anna."
+              }
             ]
           },
           {
+            "id": "q3",
             "type": "mcq",
             "prompt": "Ergänze: Wir ___ jeden Tag Deutsch.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "lerne"
+              },
+              {
+                "id": "o2",
+                "text": "lernt"
+              },
+              {
+                "id": "o3",
+                "text": "lernen"
+              },
+              {
+                "id": "o4",
+                "text": "lernst"
+              }
             ]
           },
           {
+            "id": "q4",
             "type": "mcq",
             "prompt": "Welche Frage ist richtig?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Wo wohnst?"
+              },
+              {
+                "id": "o2",
+                "text": "Wo wohnen du?"
+              },
+              {
+                "id": "o3",
+                "text": "Wo du wohnst?"
+              },
+              {
+                "id": "o4",
+                "text": "Wo wohnst du?"
+              }
             ]
           },
           {
+            "id": "q5",
             "type": "mcq",
             "prompt": "Ergänze: Sie ___ eine Frage.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "stellt"
+              },
+              {
+                "id": "o2",
+                "text": "stelle"
+              },
+              {
+                "id": "o3",
+                "text": "stellen"
+              },
+              {
+                "id": "o4",
+                "text": "stellst"
+              }
             ]
           },
           {
+            "id": "q6",
             "type": "mcq",
             "prompt": "Wähle den Satz über ein Haus.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Das Haus sind hell."
+              },
+              {
+                "id": "o2",
+                "text": "Das Haus ist hell."
+              },
+              {
+                "id": "o3",
+                "text": "Die Haus ist hell."
+              },
+              {
+                "id": "o4",
+                "text": "Das Haus ist helle."
+              }
             ]
           },
           {
+            "id": "q7",
             "type": "mcq",
             "prompt": "Ergänze: Du ___ Kaffee.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "trinken"
+              },
+              {
+                "id": "o2",
+                "text": "trinkt"
+              },
+              {
+                "id": "o3",
+                "text": "trinkst"
+              },
+              {
+                "id": "o4",
+                "text": "trinke"
+              }
             ]
           },
           {
+            "id": "q8",
             "type": "mcq",
             "prompt": "Welcher Satz beschreibt eine Routine?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Jeden Morgen arbeitet ich im Zentrum."
+              },
+              {
+                "id": "o2",
+                "text": "Gestern arbeiten ich im Zentrum."
+              },
+              {
+                "id": "o3",
+                "text": "Morgen arbeitete ich im Zentrum."
+              },
+              {
+                "id": "o4",
+                "text": "Jeden Morgen arbeite ich im Zentrum."
+              }
             ]
           }
         ]
@@ -38821,91 +46756,203 @@
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
         "prompt": "Ergänze: Ich ___ im Viertel.",
         "options": [
-          "wohne",
-          "wohnt",
-          "wohnen",
-          "wohnst"
+          {
+            "id": "o1",
+            "text": "wohne"
+          },
+          {
+            "id": "o2",
+            "text": "wohnt"
+          },
+          {
+            "id": "o3",
+            "text": "wohnen"
+          },
+          {
+            "id": "o4",
+            "text": "wohnst"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q2",
         "type": "mcq",
         "prompt": "Wähle den richtigen Satz.",
         "options": [
-          "Leon sprechen mit Anna.",
-          "Leon spricht mit Anna.",
-          "Leon spreche mit Anna.",
-          "Leon sprich mit Anna."
+          {
+            "id": "o1",
+            "text": "Leon sprechen mit Anna."
+          },
+          {
+            "id": "o2",
+            "text": "Leon spricht mit Anna."
+          },
+          {
+            "id": "o3",
+            "text": "Leon spreche mit Anna."
+          },
+          {
+            "id": "o4",
+            "text": "Leon sprich mit Anna."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q3",
         "type": "mcq",
         "prompt": "Ergänze: Wir ___ jeden Tag Deutsch.",
         "options": [
-          "lerne",
-          "lernt",
-          "lernen",
-          "lernst"
+          {
+            "id": "o1",
+            "text": "lerne"
+          },
+          {
+            "id": "o2",
+            "text": "lernt"
+          },
+          {
+            "id": "o3",
+            "text": "lernen"
+          },
+          {
+            "id": "o4",
+            "text": "lernst"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q4",
         "type": "mcq",
         "prompt": "Welche Frage ist richtig?",
         "options": [
-          "Wo wohnst?",
-          "Wo wohnen du?",
-          "Wo du wohnst?",
-          "Wo wohnst du?"
+          {
+            "id": "o1",
+            "text": "Wo wohnst?"
+          },
+          {
+            "id": "o2",
+            "text": "Wo wohnen du?"
+          },
+          {
+            "id": "o3",
+            "text": "Wo du wohnst?"
+          },
+          {
+            "id": "o4",
+            "text": "Wo wohnst du?"
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q5",
         "type": "mcq",
         "prompt": "Ergänze: Sie ___ eine Frage.",
         "options": [
-          "stellt",
-          "stelle",
-          "stellen",
-          "stellst"
+          {
+            "id": "o1",
+            "text": "stellt"
+          },
+          {
+            "id": "o2",
+            "text": "stelle"
+          },
+          {
+            "id": "o3",
+            "text": "stellen"
+          },
+          {
+            "id": "o4",
+            "text": "stellst"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q6",
         "type": "mcq",
         "prompt": "Wähle den Satz über ein Haus.",
         "options": [
-          "Das Haus sind hell.",
-          "Das Haus ist hell.",
-          "Die Haus ist hell.",
-          "Das Haus ist helle."
+          {
+            "id": "o1",
+            "text": "Das Haus sind hell."
+          },
+          {
+            "id": "o2",
+            "text": "Das Haus ist hell."
+          },
+          {
+            "id": "o3",
+            "text": "Die Haus ist hell."
+          },
+          {
+            "id": "o4",
+            "text": "Das Haus ist helle."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q7",
         "type": "mcq",
         "prompt": "Ergänze: Du ___ Kaffee.",
         "options": [
-          "trinken",
-          "trinkt",
-          "trinkst",
-          "trinke"
+          {
+            "id": "o1",
+            "text": "trinken"
+          },
+          {
+            "id": "o2",
+            "text": "trinkt"
+          },
+          {
+            "id": "o3",
+            "text": "trinkst"
+          },
+          {
+            "id": "o4",
+            "text": "trinke"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q8",
         "type": "mcq",
         "prompt": "Welcher Satz beschreibt eine Routine?",
         "options": [
-          "Jeden Morgen arbeitet ich im Zentrum.",
-          "Gestern arbeiten ich im Zentrum.",
-          "Morgen arbeitete ich im Zentrum.",
-          "Jeden Morgen arbeite ich im Zentrum."
+          {
+            "id": "o1",
+            "text": "Jeden Morgen arbeitet ich im Zentrum."
+          },
+          {
+            "id": "o2",
+            "text": "Gestern arbeiten ich im Zentrum."
+          },
+          {
+            "id": "o3",
+            "text": "Morgen arbeitete ich im Zentrum."
+          },
+          {
+            "id": "o4",
+            "text": "Jeden Morgen arbeite ich im Zentrum."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       }
     ]
@@ -38986,93 +47033,198 @@
     "extra": {
       "grammarProfile": {
         "name": "Reflexive Verben",
-        "definition": "Los verbos reflexivos se usan con mich, dich, sich, uns o euch.",
-        "structure": "Ich interessiere mich für Musik.",
-        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
+        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
+        "structure": "haben/sein + Partizip II",
+        "function": "Erfahrungen und Pläne erzählen.",
         "examples": [
-          "Ich interessiere mich für Musik."
+          "Gestern habe ich das Museum besucht.",
+          "Danach haben wir zusammen gesprochen."
         ]
       },
       "grammarTest": {
         "questions": [
           {
+            "id": "q1",
             "type": "mcq",
             "prompt": "Ergänze: Gestern ___ ich das Museum ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "habe besucht"
+              },
+              {
+                "id": "o2",
+                "text": "besuche"
+              },
+              {
+                "id": "o3",
+                "text": "habe besuchen"
+              },
+              {
+                "id": "o4",
+                "text": "bin besucht"
+              }
             ]
           },
           {
+            "id": "q2",
             "type": "mcq",
             "prompt": "Wähle den richtigen Perfekt-Satz.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Wir haben zusammen essen."
+              },
+              {
+                "id": "o2",
+                "text": "Wir haben zusammen gegessen."
+              },
+              {
+                "id": "o3",
+                "text": "Wir sind zusammen gegessen."
+              },
+              {
+                "id": "o4",
+                "text": "Wir essen gestern zusammen."
+              }
             ]
           },
           {
+            "id": "q3",
             "type": "mcq",
             "prompt": "Ergänze: Marta ___ spät nach Hause ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "ist kommen"
+              },
+              {
+                "id": "o2",
+                "text": "hat gekommen"
+              },
+              {
+                "id": "o3",
+                "text": "ist gekommen"
+              },
+              {
+                "id": "o4",
+                "text": "kommt gestern"
+              }
             ]
           },
           {
+            "id": "q4",
             "type": "mcq",
             "prompt": "Welcher Satz zeigt eine Reihenfolge?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Zuerst haben wir gelernt, wenn sind wir gegangen."
+              },
+              {
+                "id": "o2",
+                "text": "Zuerst haben wir gelernt, weil sind wir gegangen."
+              },
+              {
+                "id": "o3",
+                "text": "Zuerst haben wir gelernt, obwohl sind wir gegangen."
+              },
+              {
+                "id": "o4",
+                "text": "Zuerst haben wir gelernt, dann sind wir gegangen."
+              }
             ]
           },
           {
+            "id": "q5",
             "type": "mcq",
             "prompt": "Ergänze: ___ du die Nachricht ___?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Hast gelesen"
+              },
+              {
+                "id": "o2",
+                "text": "Hast lesen"
+              },
+              {
+                "id": "o3",
+                "text": "Bist gelesen"
+              },
+              {
+                "id": "o4",
+                "text": "Liest gestern"
+              }
             ]
           },
           {
+            "id": "q6",
             "type": "mcq",
             "prompt": "Wähle den Perfekt-Satz mit dem richtigen Hilfsverb.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Meine Freunde sind den Bus genommen."
+              },
+              {
+                "id": "o2",
+                "text": "Meine Freunde haben den Bus genommen."
+              },
+              {
+                "id": "o3",
+                "text": "Meine Freunde haben den Bus nehmen."
+              },
+              {
+                "id": "o4",
+                "text": "Meine Freunde nehmen gestern den Bus."
+              }
             ]
           },
           {
+            "id": "q7",
             "type": "mcq",
             "prompt": "Ergänze: Wir ___ eine wichtige Erfahrung ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "haben machen"
+              },
+              {
+                "id": "o2",
+                "text": "sind gemacht"
+              },
+              {
+                "id": "o3",
+                "text": "haben gemacht"
+              },
+              {
+                "id": "o4",
+                "text": "machen gestern"
+              }
             ]
           },
           {
+            "id": "q8",
             "type": "mcq",
             "prompt": "Welcher Satz beschreibt eine abgeschlossene Handlung?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Am Samstag bin ich meine Cousine getroffen."
+              },
+              {
+                "id": "o2",
+                "text": "Am Samstag treffe ich meine Cousine morgen."
+              },
+              {
+                "id": "o3",
+                "text": "Am Samstag treffen meine Cousine."
+              },
+              {
+                "id": "o4",
+                "text": "Am Samstag habe ich meine Cousine getroffen."
+              }
             ]
           }
         ]
@@ -39081,91 +47233,203 @@
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
         "prompt": "Ergänze: Gestern ___ ich das Museum ___.",
         "options": [
-          "habe besucht",
-          "besuche",
-          "habe besuchen",
-          "bin besucht"
+          {
+            "id": "o1",
+            "text": "habe besucht"
+          },
+          {
+            "id": "o2",
+            "text": "besuche"
+          },
+          {
+            "id": "o3",
+            "text": "habe besuchen"
+          },
+          {
+            "id": "o4",
+            "text": "bin besucht"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q2",
         "type": "mcq",
         "prompt": "Wähle den richtigen Perfekt-Satz.",
         "options": [
-          "Wir haben zusammen essen.",
-          "Wir haben zusammen gegessen.",
-          "Wir sind zusammen gegessen.",
-          "Wir essen gestern zusammen."
+          {
+            "id": "o1",
+            "text": "Wir haben zusammen essen."
+          },
+          {
+            "id": "o2",
+            "text": "Wir haben zusammen gegessen."
+          },
+          {
+            "id": "o3",
+            "text": "Wir sind zusammen gegessen."
+          },
+          {
+            "id": "o4",
+            "text": "Wir essen gestern zusammen."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q3",
         "type": "mcq",
         "prompt": "Ergänze: Marta ___ spät nach Hause ___.",
         "options": [
-          "ist kommen",
-          "hat gekommen",
-          "ist gekommen",
-          "kommt gestern"
+          {
+            "id": "o1",
+            "text": "ist kommen"
+          },
+          {
+            "id": "o2",
+            "text": "hat gekommen"
+          },
+          {
+            "id": "o3",
+            "text": "ist gekommen"
+          },
+          {
+            "id": "o4",
+            "text": "kommt gestern"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q4",
         "type": "mcq",
         "prompt": "Welcher Satz zeigt eine Reihenfolge?",
         "options": [
-          "Zuerst haben wir gelernt, wenn sind wir gegangen.",
-          "Zuerst haben wir gelernt, weil sind wir gegangen.",
-          "Zuerst haben wir gelernt, obwohl sind wir gegangen.",
-          "Zuerst haben wir gelernt, dann sind wir gegangen."
+          {
+            "id": "o1",
+            "text": "Zuerst haben wir gelernt, wenn sind wir gegangen."
+          },
+          {
+            "id": "o2",
+            "text": "Zuerst haben wir gelernt, weil sind wir gegangen."
+          },
+          {
+            "id": "o3",
+            "text": "Zuerst haben wir gelernt, obwohl sind wir gegangen."
+          },
+          {
+            "id": "o4",
+            "text": "Zuerst haben wir gelernt, dann sind wir gegangen."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q5",
         "type": "mcq",
         "prompt": "Ergänze: ___ du die Nachricht ___?",
         "options": [
-          "Hast gelesen",
-          "Hast lesen",
-          "Bist gelesen",
-          "Liest gestern"
+          {
+            "id": "o1",
+            "text": "Hast gelesen"
+          },
+          {
+            "id": "o2",
+            "text": "Hast lesen"
+          },
+          {
+            "id": "o3",
+            "text": "Bist gelesen"
+          },
+          {
+            "id": "o4",
+            "text": "Liest gestern"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q6",
         "type": "mcq",
         "prompt": "Wähle den Perfekt-Satz mit dem richtigen Hilfsverb.",
         "options": [
-          "Meine Freunde sind den Bus genommen.",
-          "Meine Freunde haben den Bus genommen.",
-          "Meine Freunde haben den Bus nehmen.",
-          "Meine Freunde nehmen gestern den Bus."
+          {
+            "id": "o1",
+            "text": "Meine Freunde sind den Bus genommen."
+          },
+          {
+            "id": "o2",
+            "text": "Meine Freunde haben den Bus genommen."
+          },
+          {
+            "id": "o3",
+            "text": "Meine Freunde haben den Bus nehmen."
+          },
+          {
+            "id": "o4",
+            "text": "Meine Freunde nehmen gestern den Bus."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q7",
         "type": "mcq",
         "prompt": "Ergänze: Wir ___ eine wichtige Erfahrung ___.",
         "options": [
-          "haben machen",
-          "sind gemacht",
-          "haben gemacht",
-          "machen gestern"
+          {
+            "id": "o1",
+            "text": "haben machen"
+          },
+          {
+            "id": "o2",
+            "text": "sind gemacht"
+          },
+          {
+            "id": "o3",
+            "text": "haben gemacht"
+          },
+          {
+            "id": "o4",
+            "text": "machen gestern"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q8",
         "type": "mcq",
         "prompt": "Welcher Satz beschreibt eine abgeschlossene Handlung?",
         "options": [
-          "Am Samstag bin ich meine Cousine getroffen.",
-          "Am Samstag treffe ich meine Cousine morgen.",
-          "Am Samstag treffen meine Cousine.",
-          "Am Samstag habe ich meine Cousine getroffen."
+          {
+            "id": "o1",
+            "text": "Am Samstag bin ich meine Cousine getroffen."
+          },
+          {
+            "id": "o2",
+            "text": "Am Samstag treffe ich meine Cousine morgen."
+          },
+          {
+            "id": "o3",
+            "text": "Am Samstag treffen meine Cousine."
+          },
+          {
+            "id": "o4",
+            "text": "Am Samstag habe ich meine Cousine getroffen."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       }
     ]
@@ -39249,9 +47513,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Meinung und Argumentation",
-        "definition": "Práctica guiada de Meinung und Argumentation.",
+        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
         "structure": "Meinung + weil/obwohl/deshalb + Begründung",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Eine Meinung ausdrücken und begründen.",
         "examples": [
           "Ich finde den Vorschlag sinnvoll.",
           "Trotzdem müssen wir die Ergebnisse prüfen."
@@ -39260,83 +47524,187 @@
       "grammarTest": {
         "questions": [
           {
+            "id": "q1",
             "type": "mcq",
             "prompt": "Ergänze: Ich finde, dass der Vorschlag sinnvoll ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "ist"
+              },
+              {
+                "id": "o2",
+                "text": "sind"
+              },
+              {
+                "id": "o3",
+                "text": "sein"
+              },
+              {
+                "id": "o4",
+                "text": "sei"
+              }
             ]
           },
           {
+            "id": "q2",
             "type": "mcq",
             "prompt": "Wähle den Konnektor für einen Gegensatz.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Ich möchte ausgehen, deshalb es regnet."
+              },
+              {
+                "id": "o2",
+                "text": "Ich möchte ausgehen, aber es regnet."
+              },
+              {
+                "id": "o3",
+                "text": "Ich möchte ausgehen, weil es regnet."
+              },
+              {
+                "id": "o4",
+                "text": "Ich möchte ausgehen, dann es regnet."
+              }
             ]
           },
           {
+            "id": "q3",
             "type": "mcq",
             "prompt": "Ergänze: Ich bleibe zu Hause, weil ich müde ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "sein"
+              },
+              {
+                "id": "o2",
+                "text": "ist"
+              },
+              {
+                "id": "o3",
+                "text": "bin"
+              },
+              {
+                "id": "o4",
+                "text": "bist"
+              }
             ]
           },
           {
+            "id": "q4",
             "type": "mcq",
             "prompt": "Welcher Satz drückt eine Meinung aus?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Das Projekt funktioniert warum?"
+              },
+              {
+                "id": "o2",
+                "text": "Das Projekt gestern funktioniert?"
+              },
+              {
+                "id": "o3",
+                "text": "Funktionieren das Projekt meiner Meinung."
+              },
+              {
+                "id": "o4",
+                "text": "Meiner Meinung nach funktioniert das Projekt."
+              }
             ]
           },
           {
+            "id": "q5",
             "type": "mcq",
             "prompt": "Ergänze: Obwohl es spät ___, arbeiten wir weiter.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "ist"
+              },
+              {
+                "id": "o2",
+                "text": "sind"
+              },
+              {
+                "id": "o3",
+                "text": "sein"
+              },
+              {
+                "id": "o4",
+                "text": "bist"
+              }
             ]
           },
           {
+            "id": "q6",
             "type": "mcq",
             "prompt": "Wähle eine logische Folge.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Wir haben wenig Zeit, aber planen wir die Arbeit."
+              },
+              {
+                "id": "o2",
+                "text": "Wir haben wenig Zeit, deshalb planen wir die Arbeit."
+              },
+              {
+                "id": "o3",
+                "text": "Wir haben wenig Zeit, weil planen wir die Arbeit."
+              },
+              {
+                "id": "o4",
+                "text": "Wir haben wenig Zeit, obwohl planen wir die Arbeit."
+              }
             ]
           },
           {
+            "id": "q7",
             "type": "mcq",
             "prompt": "Ergänze: Ich glaube, dass sie Recht ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "sein"
+              },
+              {
+                "id": "o2",
+                "text": "haben"
+              },
+              {
+                "id": "o3",
+                "text": "hat"
+              },
+              {
+                "id": "o4",
+                "text": "hatte"
+              }
             ]
           },
           {
+            "id": "q8",
             "type": "mcq",
             "prompt": "Welcher Satz begründet eine Wahl?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Ich nehme den Zug er nachhaltiger ist weil."
+              },
+              {
+                "id": "o2",
+                "text": "Ich nehme den Zug, aber er nachhaltiger ist."
+              },
+              {
+                "id": "o3",
+                "text": "Ich nehme den Zug, deshalb er nachhaltiger ist?"
+              },
+              {
+                "id": "o4",
+                "text": "Ich nehme den Zug, weil er nachhaltiger ist."
+              }
             ]
           }
         ]
@@ -39345,91 +47713,203 @@
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
         "prompt": "Ergänze: Ich finde, dass der Vorschlag sinnvoll ___.",
         "options": [
-          "ist",
-          "sind",
-          "sein",
-          "sei"
+          {
+            "id": "o1",
+            "text": "ist"
+          },
+          {
+            "id": "o2",
+            "text": "sind"
+          },
+          {
+            "id": "o3",
+            "text": "sein"
+          },
+          {
+            "id": "o4",
+            "text": "sei"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q2",
         "type": "mcq",
         "prompt": "Wähle den Konnektor für einen Gegensatz.",
         "options": [
-          "Ich möchte ausgehen, deshalb es regnet.",
-          "Ich möchte ausgehen, aber es regnet.",
-          "Ich möchte ausgehen, weil es regnet.",
-          "Ich möchte ausgehen, dann es regnet."
+          {
+            "id": "o1",
+            "text": "Ich möchte ausgehen, deshalb es regnet."
+          },
+          {
+            "id": "o2",
+            "text": "Ich möchte ausgehen, aber es regnet."
+          },
+          {
+            "id": "o3",
+            "text": "Ich möchte ausgehen, weil es regnet."
+          },
+          {
+            "id": "o4",
+            "text": "Ich möchte ausgehen, dann es regnet."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q3",
         "type": "mcq",
         "prompt": "Ergänze: Ich bleibe zu Hause, weil ich müde ___.",
         "options": [
-          "sein",
-          "ist",
-          "bin",
-          "bist"
+          {
+            "id": "o1",
+            "text": "sein"
+          },
+          {
+            "id": "o2",
+            "text": "ist"
+          },
+          {
+            "id": "o3",
+            "text": "bin"
+          },
+          {
+            "id": "o4",
+            "text": "bist"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q4",
         "type": "mcq",
         "prompt": "Welcher Satz drückt eine Meinung aus?",
         "options": [
-          "Das Projekt funktioniert warum?",
-          "Das Projekt gestern funktioniert?",
-          "Funktionieren das Projekt meiner Meinung.",
-          "Meiner Meinung nach funktioniert das Projekt."
+          {
+            "id": "o1",
+            "text": "Das Projekt funktioniert warum?"
+          },
+          {
+            "id": "o2",
+            "text": "Das Projekt gestern funktioniert?"
+          },
+          {
+            "id": "o3",
+            "text": "Funktionieren das Projekt meiner Meinung."
+          },
+          {
+            "id": "o4",
+            "text": "Meiner Meinung nach funktioniert das Projekt."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q5",
         "type": "mcq",
         "prompt": "Ergänze: Obwohl es spät ___, arbeiten wir weiter.",
         "options": [
-          "ist",
-          "sind",
-          "sein",
-          "bist"
+          {
+            "id": "o1",
+            "text": "ist"
+          },
+          {
+            "id": "o2",
+            "text": "sind"
+          },
+          {
+            "id": "o3",
+            "text": "sein"
+          },
+          {
+            "id": "o4",
+            "text": "bist"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q6",
         "type": "mcq",
         "prompt": "Wähle eine logische Folge.",
         "options": [
-          "Wir haben wenig Zeit, aber planen wir die Arbeit.",
-          "Wir haben wenig Zeit, deshalb planen wir die Arbeit.",
-          "Wir haben wenig Zeit, weil planen wir die Arbeit.",
-          "Wir haben wenig Zeit, obwohl planen wir die Arbeit."
+          {
+            "id": "o1",
+            "text": "Wir haben wenig Zeit, aber planen wir die Arbeit."
+          },
+          {
+            "id": "o2",
+            "text": "Wir haben wenig Zeit, deshalb planen wir die Arbeit."
+          },
+          {
+            "id": "o3",
+            "text": "Wir haben wenig Zeit, weil planen wir die Arbeit."
+          },
+          {
+            "id": "o4",
+            "text": "Wir haben wenig Zeit, obwohl planen wir die Arbeit."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q7",
         "type": "mcq",
         "prompt": "Ergänze: Ich glaube, dass sie Recht ___.",
         "options": [
-          "sein",
-          "haben",
-          "hat",
-          "hatte"
+          {
+            "id": "o1",
+            "text": "sein"
+          },
+          {
+            "id": "o2",
+            "text": "haben"
+          },
+          {
+            "id": "o3",
+            "text": "hat"
+          },
+          {
+            "id": "o4",
+            "text": "hatte"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q8",
         "type": "mcq",
         "prompt": "Welcher Satz begründet eine Wahl?",
         "options": [
-          "Ich nehme den Zug er nachhaltiger ist weil.",
-          "Ich nehme den Zug, aber er nachhaltiger ist.",
-          "Ich nehme den Zug, deshalb er nachhaltiger ist?",
-          "Ich nehme den Zug, weil er nachhaltiger ist."
+          {
+            "id": "o1",
+            "text": "Ich nehme den Zug er nachhaltiger ist weil."
+          },
+          {
+            "id": "o2",
+            "text": "Ich nehme den Zug, aber er nachhaltiger ist."
+          },
+          {
+            "id": "o3",
+            "text": "Ich nehme den Zug, deshalb er nachhaltiger ist?"
+          },
+          {
+            "id": "o4",
+            "text": "Ich nehme den Zug, weil er nachhaltiger ist."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       }
     ]
@@ -41107,121 +49587,277 @@
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Wetter",
-          "Sonne",
-          "Regen",
-          "kalt"
-        ]
+          {
+            "id": "o1",
+            "text": "Wetter"
+          },
+          {
+            "id": "o2",
+            "text": "Sonne"
+          },
+          {
+            "id": "o3",
+            "text": "Regen"
+          },
+          {
+            "id": "o4",
+            "text": "kalt"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Wetter",
-          "Sonne",
-          "Regen",
-          "kalt"
-        ]
+          {
+            "id": "o1",
+            "text": "Wetter"
+          },
+          {
+            "id": "o2",
+            "text": "Sonne"
+          },
+          {
+            "id": "o3",
+            "text": "Regen"
+          },
+          {
+            "id": "o4",
+            "text": "kalt"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Sonne",
-          "Wetter",
-          "Regen",
-          "kalt"
-        ]
+          {
+            "id": "o1",
+            "text": "Sonne"
+          },
+          {
+            "id": "o2",
+            "text": "Wetter"
+          },
+          {
+            "id": "o3",
+            "text": "Regen"
+          },
+          {
+            "id": "o4",
+            "text": "kalt"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Regen",
-          "Wetter",
-          "Sonne",
-          "kalt"
-        ]
+          {
+            "id": "o1",
+            "text": "Regen"
+          },
+          {
+            "id": "o2",
+            "text": "Wetter"
+          },
+          {
+            "id": "o3",
+            "text": "Sonne"
+          },
+          {
+            "id": "o4",
+            "text": "kalt"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "warm",
-          "Wetter",
-          "Sonne",
-          "Regen"
-        ]
+          {
+            "id": "o1",
+            "text": "warm"
+          },
+          {
+            "id": "o2",
+            "text": "Wetter"
+          },
+          {
+            "id": "o3",
+            "text": "Sonne"
+          },
+          {
+            "id": "o4",
+            "text": "Regen"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Wetter",
-          "Sommer",
-          "Sonne",
-          "Regen"
-        ]
+          {
+            "id": "o1",
+            "text": "Wetter"
+          },
+          {
+            "id": "o2",
+            "text": "Sommer"
+          },
+          {
+            "id": "o3",
+            "text": "Sonne"
+          },
+          {
+            "id": "o4",
+            "text": "Regen"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Sonne",
-          "Wetter",
-          "Winter",
-          "Regen"
-        ]
+          {
+            "id": "o1",
+            "text": "Sonne"
+          },
+          {
+            "id": "o2",
+            "text": "Wetter"
+          },
+          {
+            "id": "o3",
+            "text": "Winter"
+          },
+          {
+            "id": "o4",
+            "text": "Regen"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Regen",
-          "Wetter",
-          "Sonne",
-          "Jacke"
-        ]
+          {
+            "id": "o1",
+            "text": "Regen"
+          },
+          {
+            "id": "o2",
+            "text": "Wetter"
+          },
+          {
+            "id": "o3",
+            "text": "Sonne"
+          },
+          {
+            "id": "o4",
+            "text": "Jacke"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "heute",
-          "Wetter",
-          "Sonne",
-          "Regen"
-        ]
+          {
+            "id": "o1",
+            "text": "heute"
+          },
+          {
+            "id": "o2",
+            "text": "Wetter"
+          },
+          {
+            "id": "o3",
+            "text": "Sonne"
+          },
+          {
+            "id": "o4",
+            "text": "Regen"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Wetter",
-          "draußen",
-          "Sonne",
-          "Regen"
-        ]
+          {
+            "id": "o1",
+            "text": "Wetter"
+          },
+          {
+            "id": "o2",
+            "text": "draußen"
+          },
+          {
+            "id": "o3",
+            "text": "Sonne"
+          },
+          {
+            "id": "o4",
+            "text": "Regen"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Sonne",
-          "Wetter",
-          "zusammen",
-          "Regen"
-        ]
+          {
+            "id": "o1",
+            "text": "Sonne"
+          },
+          {
+            "id": "o2",
+            "text": "Wetter"
+          },
+          {
+            "id": "o3",
+            "text": "zusammen"
+          },
+          {
+            "id": "o4",
+            "text": "Regen"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Regen",
-          "Wetter",
-          "Sonne",
-          "Viertel"
-        ]
+          {
+            "id": "o1",
+            "text": "Regen"
+          },
+          {
+            "id": "o2",
+            "text": "Wetter"
+          },
+          {
+            "id": "o3",
+            "text": "Sonne"
+          },
+          {
+            "id": "o4",
+            "text": "Viertel"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },
@@ -41389,121 +50025,277 @@
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Nachricht",
-          "Zeitung",
-          "Handy",
-          "Internet"
-        ]
+          {
+            "id": "o1",
+            "text": "Nachricht"
+          },
+          {
+            "id": "o2",
+            "text": "Zeitung"
+          },
+          {
+            "id": "o3",
+            "text": "Handy"
+          },
+          {
+            "id": "o4",
+            "text": "Internet"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Nachricht",
-          "Zeitung",
-          "Handy",
-          "Internet"
-        ]
+          {
+            "id": "o1",
+            "text": "Nachricht"
+          },
+          {
+            "id": "o2",
+            "text": "Zeitung"
+          },
+          {
+            "id": "o3",
+            "text": "Handy"
+          },
+          {
+            "id": "o4",
+            "text": "Internet"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Zeitung",
-          "Nachricht",
-          "Handy",
-          "Internet"
-        ]
+          {
+            "id": "o1",
+            "text": "Zeitung"
+          },
+          {
+            "id": "o2",
+            "text": "Nachricht"
+          },
+          {
+            "id": "o3",
+            "text": "Handy"
+          },
+          {
+            "id": "o4",
+            "text": "Internet"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Handy",
-          "Nachricht",
-          "Zeitung",
-          "Internet"
-        ]
+          {
+            "id": "o1",
+            "text": "Handy"
+          },
+          {
+            "id": "o2",
+            "text": "Nachricht"
+          },
+          {
+            "id": "o3",
+            "text": "Zeitung"
+          },
+          {
+            "id": "o4",
+            "text": "Internet"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "informieren",
-          "Nachricht",
-          "Zeitung",
-          "Handy"
-        ]
+          {
+            "id": "o1",
+            "text": "informieren"
+          },
+          {
+            "id": "o2",
+            "text": "Nachricht"
+          },
+          {
+            "id": "o3",
+            "text": "Zeitung"
+          },
+          {
+            "id": "o4",
+            "text": "Handy"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Nachricht",
-          "erzählen",
-          "Zeitung",
-          "Handy"
-        ]
+          {
+            "id": "o1",
+            "text": "Nachricht"
+          },
+          {
+            "id": "o2",
+            "text": "erzählen"
+          },
+          {
+            "id": "o3",
+            "text": "Zeitung"
+          },
+          {
+            "id": "o4",
+            "text": "Handy"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Zeitung",
-          "Nachricht",
-          "Meinung",
-          "Handy"
-        ]
+          {
+            "id": "o1",
+            "text": "Zeitung"
+          },
+          {
+            "id": "o2",
+            "text": "Nachricht"
+          },
+          {
+            "id": "o3",
+            "text": "Meinung"
+          },
+          {
+            "id": "o4",
+            "text": "Handy"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Handy",
-          "Nachricht",
-          "Zeitung",
-          "Bildschirm"
-        ]
+          {
+            "id": "o1",
+            "text": "Handy"
+          },
+          {
+            "id": "o2",
+            "text": "Nachricht"
+          },
+          {
+            "id": "o3",
+            "text": "Zeitung"
+          },
+          {
+            "id": "o4",
+            "text": "Bildschirm"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Verbindung",
-          "Nachricht",
-          "Zeitung",
-          "Handy"
-        ]
+          {
+            "id": "o1",
+            "text": "Verbindung"
+          },
+          {
+            "id": "o2",
+            "text": "Nachricht"
+          },
+          {
+            "id": "o3",
+            "text": "Zeitung"
+          },
+          {
+            "id": "o4",
+            "text": "Handy"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Nachricht",
-          "erklären",
-          "Zeitung",
-          "Handy"
-        ]
+          {
+            "id": "o1",
+            "text": "Nachricht"
+          },
+          {
+            "id": "o2",
+            "text": "erklären"
+          },
+          {
+            "id": "o3",
+            "text": "Zeitung"
+          },
+          {
+            "id": "o4",
+            "text": "Handy"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Zeitung",
-          "Nachricht",
-          "heute",
-          "Handy"
-        ]
+          {
+            "id": "o1",
+            "text": "Zeitung"
+          },
+          {
+            "id": "o2",
+            "text": "Nachricht"
+          },
+          {
+            "id": "o3",
+            "text": "heute"
+          },
+          {
+            "id": "o4",
+            "text": "Handy"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Handy",
-          "Nachricht",
-          "Zeitung",
-          "zusammen"
-        ]
+          {
+            "id": "o1",
+            "text": "Handy"
+          },
+          {
+            "id": "o2",
+            "text": "Nachricht"
+          },
+          {
+            "id": "o3",
+            "text": "Zeitung"
+          },
+          {
+            "id": "o4",
+            "text": "zusammen"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },
@@ -41671,121 +50463,277 @@
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Technik",
-          "Gerät",
-          "Vorteil",
-          "Risiko"
-        ]
+          {
+            "id": "o1",
+            "text": "Technik"
+          },
+          {
+            "id": "o2",
+            "text": "Gerät"
+          },
+          {
+            "id": "o3",
+            "text": "Vorteil"
+          },
+          {
+            "id": "o4",
+            "text": "Risiko"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Technik",
-          "Gerät",
-          "Vorteil",
-          "Risiko"
-        ]
+          {
+            "id": "o1",
+            "text": "Technik"
+          },
+          {
+            "id": "o2",
+            "text": "Gerät"
+          },
+          {
+            "id": "o3",
+            "text": "Vorteil"
+          },
+          {
+            "id": "o4",
+            "text": "Risiko"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Gerät",
-          "Technik",
-          "Vorteil",
-          "Risiko"
-        ]
+          {
+            "id": "o1",
+            "text": "Gerät"
+          },
+          {
+            "id": "o2",
+            "text": "Technik"
+          },
+          {
+            "id": "o3",
+            "text": "Vorteil"
+          },
+          {
+            "id": "o4",
+            "text": "Risiko"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Vorteil",
-          "Technik",
-          "Gerät",
-          "Risiko"
-        ]
+          {
+            "id": "o1",
+            "text": "Vorteil"
+          },
+          {
+            "id": "o2",
+            "text": "Technik"
+          },
+          {
+            "id": "o3",
+            "text": "Gerät"
+          },
+          {
+            "id": "o4",
+            "text": "Risiko"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "schützen",
-          "Technik",
-          "Gerät",
-          "Vorteil"
-        ]
+          {
+            "id": "o1",
+            "text": "schützen"
+          },
+          {
+            "id": "o2",
+            "text": "Technik"
+          },
+          {
+            "id": "o3",
+            "text": "Gerät"
+          },
+          {
+            "id": "o4",
+            "text": "Vorteil"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Technik",
-          "Gewohnheit",
-          "Gerät",
-          "Vorteil"
-        ]
+          {
+            "id": "o1",
+            "text": "Technik"
+          },
+          {
+            "id": "o2",
+            "text": "Gewohnheit"
+          },
+          {
+            "id": "o3",
+            "text": "Gerät"
+          },
+          {
+            "id": "o4",
+            "text": "Vorteil"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Gerät",
-          "Technik",
-          "Verbindung",
-          "Vorteil"
-        ]
+          {
+            "id": "o1",
+            "text": "Gerät"
+          },
+          {
+            "id": "o2",
+            "text": "Technik"
+          },
+          {
+            "id": "o3",
+            "text": "Verbindung"
+          },
+          {
+            "id": "o4",
+            "text": "Vorteil"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Vorteil",
-          "Technik",
-          "Gerät",
-          "Information"
-        ]
+          {
+            "id": "o1",
+            "text": "Vorteil"
+          },
+          {
+            "id": "o2",
+            "text": "Technik"
+          },
+          {
+            "id": "o3",
+            "text": "Gerät"
+          },
+          {
+            "id": "o4",
+            "text": "Information"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "wählen",
-          "Technik",
-          "Gerät",
-          "Vorteil"
-        ]
+          {
+            "id": "o1",
+            "text": "wählen"
+          },
+          {
+            "id": "o2",
+            "text": "Technik"
+          },
+          {
+            "id": "o3",
+            "text": "Gerät"
+          },
+          {
+            "id": "o4",
+            "text": "Vorteil"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Technik",
-          "Gleichgewicht",
-          "Gerät",
-          "Vorteil"
-        ]
+          {
+            "id": "o1",
+            "text": "Technik"
+          },
+          {
+            "id": "o2",
+            "text": "Gleichgewicht"
+          },
+          {
+            "id": "o3",
+            "text": "Gerät"
+          },
+          {
+            "id": "o4",
+            "text": "Vorteil"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Gerät",
-          "Technik",
-          "heute",
-          "Vorteil"
-        ]
+          {
+            "id": "o1",
+            "text": "Gerät"
+          },
+          {
+            "id": "o2",
+            "text": "Technik"
+          },
+          {
+            "id": "o3",
+            "text": "heute"
+          },
+          {
+            "id": "o4",
+            "text": "Vorteil"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Vorteil",
-          "Technik",
-          "Gerät",
-          "zusammen"
-        ]
+          {
+            "id": "o1",
+            "text": "Vorteil"
+          },
+          {
+            "id": "o2",
+            "text": "Technik"
+          },
+          {
+            "id": "o3",
+            "text": "Gerät"
+          },
+          {
+            "id": "o4",
+            "text": "zusammen"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },
@@ -44065,93 +53013,198 @@
     "extra": {
       "grammarProfile": {
         "name": "gern, lieber und Freizeit",
-        "definition": "gern und lieber drücken Vorlieben aus.",
-        "structure": "Ich lese gern, aber ich spiele lieber Fußball.",
-        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
+        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
+        "structure": "Subjekt + Verb + Ergänzung",
+        "function": "Über Personen, Orte und Alltag sprechen.",
         "examples": [
-          "Ich lese gern, aber ich spiele lieber Fußball."
+          "Ich wohne im Viertel.",
+          "Leon spricht mit Anna."
         ]
       },
       "grammarTest": {
         "questions": [
           {
+            "id": "q1",
             "type": "mcq",
             "prompt": "Ergänze: Ich ___ im Viertel.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "wohne"
+              },
+              {
+                "id": "o2",
+                "text": "wohnt"
+              },
+              {
+                "id": "o3",
+                "text": "wohnen"
+              },
+              {
+                "id": "o4",
+                "text": "wohnst"
+              }
             ]
           },
           {
+            "id": "q2",
             "type": "mcq",
             "prompt": "Wähle den richtigen Satz.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Leon sprechen mit Anna."
+              },
+              {
+                "id": "o2",
+                "text": "Leon spricht mit Anna."
+              },
+              {
+                "id": "o3",
+                "text": "Leon spreche mit Anna."
+              },
+              {
+                "id": "o4",
+                "text": "Leon sprich mit Anna."
+              }
             ]
           },
           {
+            "id": "q3",
             "type": "mcq",
             "prompt": "Ergänze: Wir ___ jeden Tag Deutsch.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "lerne"
+              },
+              {
+                "id": "o2",
+                "text": "lernt"
+              },
+              {
+                "id": "o3",
+                "text": "lernen"
+              },
+              {
+                "id": "o4",
+                "text": "lernst"
+              }
             ]
           },
           {
+            "id": "q4",
             "type": "mcq",
             "prompt": "Welche Frage ist richtig?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Wo wohnst?"
+              },
+              {
+                "id": "o2",
+                "text": "Wo wohnen du?"
+              },
+              {
+                "id": "o3",
+                "text": "Wo du wohnst?"
+              },
+              {
+                "id": "o4",
+                "text": "Wo wohnst du?"
+              }
             ]
           },
           {
+            "id": "q5",
             "type": "mcq",
             "prompt": "Ergänze: Sie ___ eine Frage.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "stellt"
+              },
+              {
+                "id": "o2",
+                "text": "stelle"
+              },
+              {
+                "id": "o3",
+                "text": "stellen"
+              },
+              {
+                "id": "o4",
+                "text": "stellst"
+              }
             ]
           },
           {
+            "id": "q6",
             "type": "mcq",
             "prompt": "Wähle den Satz über ein Haus.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Das Haus sind hell."
+              },
+              {
+                "id": "o2",
+                "text": "Das Haus ist hell."
+              },
+              {
+                "id": "o3",
+                "text": "Die Haus ist hell."
+              },
+              {
+                "id": "o4",
+                "text": "Das Haus ist helle."
+              }
             ]
           },
           {
+            "id": "q7",
             "type": "mcq",
             "prompt": "Ergänze: Du ___ Kaffee.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "trinken"
+              },
+              {
+                "id": "o2",
+                "text": "trinkt"
+              },
+              {
+                "id": "o3",
+                "text": "trinkst"
+              },
+              {
+                "id": "o4",
+                "text": "trinke"
+              }
             ]
           },
           {
+            "id": "q8",
             "type": "mcq",
             "prompt": "Welcher Satz beschreibt eine Routine?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Jeden Morgen arbeitet ich im Zentrum."
+              },
+              {
+                "id": "o2",
+                "text": "Gestern arbeiten ich im Zentrum."
+              },
+              {
+                "id": "o3",
+                "text": "Morgen arbeitete ich im Zentrum."
+              },
+              {
+                "id": "o4",
+                "text": "Jeden Morgen arbeite ich im Zentrum."
+              }
             ]
           }
         ]
@@ -44160,91 +53213,203 @@
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
         "prompt": "Ergänze: Ich ___ im Viertel.",
         "options": [
-          "wohne",
-          "wohnt",
-          "wohnen",
-          "wohnst"
+          {
+            "id": "o1",
+            "text": "wohne"
+          },
+          {
+            "id": "o2",
+            "text": "wohnt"
+          },
+          {
+            "id": "o3",
+            "text": "wohnen"
+          },
+          {
+            "id": "o4",
+            "text": "wohnst"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q2",
         "type": "mcq",
         "prompt": "Wähle den richtigen Satz.",
         "options": [
-          "Leon sprechen mit Anna.",
-          "Leon spricht mit Anna.",
-          "Leon spreche mit Anna.",
-          "Leon sprich mit Anna."
+          {
+            "id": "o1",
+            "text": "Leon sprechen mit Anna."
+          },
+          {
+            "id": "o2",
+            "text": "Leon spricht mit Anna."
+          },
+          {
+            "id": "o3",
+            "text": "Leon spreche mit Anna."
+          },
+          {
+            "id": "o4",
+            "text": "Leon sprich mit Anna."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q3",
         "type": "mcq",
         "prompt": "Ergänze: Wir ___ jeden Tag Deutsch.",
         "options": [
-          "lerne",
-          "lernt",
-          "lernen",
-          "lernst"
+          {
+            "id": "o1",
+            "text": "lerne"
+          },
+          {
+            "id": "o2",
+            "text": "lernt"
+          },
+          {
+            "id": "o3",
+            "text": "lernen"
+          },
+          {
+            "id": "o4",
+            "text": "lernst"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q4",
         "type": "mcq",
         "prompt": "Welche Frage ist richtig?",
         "options": [
-          "Wo wohnst?",
-          "Wo wohnen du?",
-          "Wo du wohnst?",
-          "Wo wohnst du?"
+          {
+            "id": "o1",
+            "text": "Wo wohnst?"
+          },
+          {
+            "id": "o2",
+            "text": "Wo wohnen du?"
+          },
+          {
+            "id": "o3",
+            "text": "Wo du wohnst?"
+          },
+          {
+            "id": "o4",
+            "text": "Wo wohnst du?"
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q5",
         "type": "mcq",
         "prompt": "Ergänze: Sie ___ eine Frage.",
         "options": [
-          "stellt",
-          "stelle",
-          "stellen",
-          "stellst"
+          {
+            "id": "o1",
+            "text": "stellt"
+          },
+          {
+            "id": "o2",
+            "text": "stelle"
+          },
+          {
+            "id": "o3",
+            "text": "stellen"
+          },
+          {
+            "id": "o4",
+            "text": "stellst"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q6",
         "type": "mcq",
         "prompt": "Wähle den Satz über ein Haus.",
         "options": [
-          "Das Haus sind hell.",
-          "Das Haus ist hell.",
-          "Die Haus ist hell.",
-          "Das Haus ist helle."
+          {
+            "id": "o1",
+            "text": "Das Haus sind hell."
+          },
+          {
+            "id": "o2",
+            "text": "Das Haus ist hell."
+          },
+          {
+            "id": "o3",
+            "text": "Die Haus ist hell."
+          },
+          {
+            "id": "o4",
+            "text": "Das Haus ist helle."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q7",
         "type": "mcq",
         "prompt": "Ergänze: Du ___ Kaffee.",
         "options": [
-          "trinken",
-          "trinkt",
-          "trinkst",
-          "trinke"
+          {
+            "id": "o1",
+            "text": "trinken"
+          },
+          {
+            "id": "o2",
+            "text": "trinkt"
+          },
+          {
+            "id": "o3",
+            "text": "trinkst"
+          },
+          {
+            "id": "o4",
+            "text": "trinke"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q8",
         "type": "mcq",
         "prompt": "Welcher Satz beschreibt eine Routine?",
         "options": [
-          "Jeden Morgen arbeitet ich im Zentrum.",
-          "Gestern arbeiten ich im Zentrum.",
-          "Morgen arbeitete ich im Zentrum.",
-          "Jeden Morgen arbeite ich im Zentrum."
+          {
+            "id": "o1",
+            "text": "Jeden Morgen arbeitet ich im Zentrum."
+          },
+          {
+            "id": "o2",
+            "text": "Gestern arbeiten ich im Zentrum."
+          },
+          {
+            "id": "o3",
+            "text": "Morgen arbeitete ich im Zentrum."
+          },
+          {
+            "id": "o4",
+            "text": "Jeden Morgen arbeite ich im Zentrum."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       }
     ]
@@ -44325,93 +53490,198 @@
     "extra": {
       "grammarProfile": {
         "name": "zu + Infinitiv",
-        "definition": "zu + infinitivo expresa intención, plan o necesidad.",
-        "structure": "Ich versuche, jeden Tag zu üben.",
-        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
+        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
+        "structure": "haben/sein + Partizip II",
+        "function": "Erfahrungen und Pläne erzählen.",
         "examples": [
-          "Ich versuche, jeden Tag zu üben."
+          "Gestern habe ich das Museum besucht.",
+          "Danach haben wir zusammen gesprochen."
         ]
       },
       "grammarTest": {
         "questions": [
           {
+            "id": "q1",
             "type": "mcq",
             "prompt": "Ergänze: Gestern ___ ich das Museum ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "habe besucht"
+              },
+              {
+                "id": "o2",
+                "text": "besuche"
+              },
+              {
+                "id": "o3",
+                "text": "habe besuchen"
+              },
+              {
+                "id": "o4",
+                "text": "bin besucht"
+              }
             ]
           },
           {
+            "id": "q2",
             "type": "mcq",
             "prompt": "Wähle den richtigen Perfekt-Satz.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Wir haben zusammen essen."
+              },
+              {
+                "id": "o2",
+                "text": "Wir haben zusammen gegessen."
+              },
+              {
+                "id": "o3",
+                "text": "Wir sind zusammen gegessen."
+              },
+              {
+                "id": "o4",
+                "text": "Wir essen gestern zusammen."
+              }
             ]
           },
           {
+            "id": "q3",
             "type": "mcq",
             "prompt": "Ergänze: Marta ___ spät nach Hause ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "ist kommen"
+              },
+              {
+                "id": "o2",
+                "text": "hat gekommen"
+              },
+              {
+                "id": "o3",
+                "text": "ist gekommen"
+              },
+              {
+                "id": "o4",
+                "text": "kommt gestern"
+              }
             ]
           },
           {
+            "id": "q4",
             "type": "mcq",
             "prompt": "Welcher Satz zeigt eine Reihenfolge?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Zuerst haben wir gelernt, wenn sind wir gegangen."
+              },
+              {
+                "id": "o2",
+                "text": "Zuerst haben wir gelernt, weil sind wir gegangen."
+              },
+              {
+                "id": "o3",
+                "text": "Zuerst haben wir gelernt, obwohl sind wir gegangen."
+              },
+              {
+                "id": "o4",
+                "text": "Zuerst haben wir gelernt, dann sind wir gegangen."
+              }
             ]
           },
           {
+            "id": "q5",
             "type": "mcq",
             "prompt": "Ergänze: ___ du die Nachricht ___?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Hast gelesen"
+              },
+              {
+                "id": "o2",
+                "text": "Hast lesen"
+              },
+              {
+                "id": "o3",
+                "text": "Bist gelesen"
+              },
+              {
+                "id": "o4",
+                "text": "Liest gestern"
+              }
             ]
           },
           {
+            "id": "q6",
             "type": "mcq",
             "prompt": "Wähle den Perfekt-Satz mit dem richtigen Hilfsverb.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Meine Freunde sind den Bus genommen."
+              },
+              {
+                "id": "o2",
+                "text": "Meine Freunde haben den Bus genommen."
+              },
+              {
+                "id": "o3",
+                "text": "Meine Freunde haben den Bus nehmen."
+              },
+              {
+                "id": "o4",
+                "text": "Meine Freunde nehmen gestern den Bus."
+              }
             ]
           },
           {
+            "id": "q7",
             "type": "mcq",
             "prompt": "Ergänze: Wir ___ eine wichtige Erfahrung ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "haben machen"
+              },
+              {
+                "id": "o2",
+                "text": "sind gemacht"
+              },
+              {
+                "id": "o3",
+                "text": "haben gemacht"
+              },
+              {
+                "id": "o4",
+                "text": "machen gestern"
+              }
             ]
           },
           {
+            "id": "q8",
             "type": "mcq",
             "prompt": "Welcher Satz beschreibt eine abgeschlossene Handlung?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Am Samstag bin ich meine Cousine getroffen."
+              },
+              {
+                "id": "o2",
+                "text": "Am Samstag treffe ich meine Cousine morgen."
+              },
+              {
+                "id": "o3",
+                "text": "Am Samstag treffen meine Cousine."
+              },
+              {
+                "id": "o4",
+                "text": "Am Samstag habe ich meine Cousine getroffen."
+              }
             ]
           }
         ]
@@ -44420,91 +53690,203 @@
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
         "prompt": "Ergänze: Gestern ___ ich das Museum ___.",
         "options": [
-          "habe besucht",
-          "besuche",
-          "habe besuchen",
-          "bin besucht"
+          {
+            "id": "o1",
+            "text": "habe besucht"
+          },
+          {
+            "id": "o2",
+            "text": "besuche"
+          },
+          {
+            "id": "o3",
+            "text": "habe besuchen"
+          },
+          {
+            "id": "o4",
+            "text": "bin besucht"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q2",
         "type": "mcq",
         "prompt": "Wähle den richtigen Perfekt-Satz.",
         "options": [
-          "Wir haben zusammen essen.",
-          "Wir haben zusammen gegessen.",
-          "Wir sind zusammen gegessen.",
-          "Wir essen gestern zusammen."
+          {
+            "id": "o1",
+            "text": "Wir haben zusammen essen."
+          },
+          {
+            "id": "o2",
+            "text": "Wir haben zusammen gegessen."
+          },
+          {
+            "id": "o3",
+            "text": "Wir sind zusammen gegessen."
+          },
+          {
+            "id": "o4",
+            "text": "Wir essen gestern zusammen."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q3",
         "type": "mcq",
         "prompt": "Ergänze: Marta ___ spät nach Hause ___.",
         "options": [
-          "ist kommen",
-          "hat gekommen",
-          "ist gekommen",
-          "kommt gestern"
+          {
+            "id": "o1",
+            "text": "ist kommen"
+          },
+          {
+            "id": "o2",
+            "text": "hat gekommen"
+          },
+          {
+            "id": "o3",
+            "text": "ist gekommen"
+          },
+          {
+            "id": "o4",
+            "text": "kommt gestern"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q4",
         "type": "mcq",
         "prompt": "Welcher Satz zeigt eine Reihenfolge?",
         "options": [
-          "Zuerst haben wir gelernt, wenn sind wir gegangen.",
-          "Zuerst haben wir gelernt, weil sind wir gegangen.",
-          "Zuerst haben wir gelernt, obwohl sind wir gegangen.",
-          "Zuerst haben wir gelernt, dann sind wir gegangen."
+          {
+            "id": "o1",
+            "text": "Zuerst haben wir gelernt, wenn sind wir gegangen."
+          },
+          {
+            "id": "o2",
+            "text": "Zuerst haben wir gelernt, weil sind wir gegangen."
+          },
+          {
+            "id": "o3",
+            "text": "Zuerst haben wir gelernt, obwohl sind wir gegangen."
+          },
+          {
+            "id": "o4",
+            "text": "Zuerst haben wir gelernt, dann sind wir gegangen."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q5",
         "type": "mcq",
         "prompt": "Ergänze: ___ du die Nachricht ___?",
         "options": [
-          "Hast gelesen",
-          "Hast lesen",
-          "Bist gelesen",
-          "Liest gestern"
+          {
+            "id": "o1",
+            "text": "Hast gelesen"
+          },
+          {
+            "id": "o2",
+            "text": "Hast lesen"
+          },
+          {
+            "id": "o3",
+            "text": "Bist gelesen"
+          },
+          {
+            "id": "o4",
+            "text": "Liest gestern"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q6",
         "type": "mcq",
         "prompt": "Wähle den Perfekt-Satz mit dem richtigen Hilfsverb.",
         "options": [
-          "Meine Freunde sind den Bus genommen.",
-          "Meine Freunde haben den Bus genommen.",
-          "Meine Freunde haben den Bus nehmen.",
-          "Meine Freunde nehmen gestern den Bus."
+          {
+            "id": "o1",
+            "text": "Meine Freunde sind den Bus genommen."
+          },
+          {
+            "id": "o2",
+            "text": "Meine Freunde haben den Bus genommen."
+          },
+          {
+            "id": "o3",
+            "text": "Meine Freunde haben den Bus nehmen."
+          },
+          {
+            "id": "o4",
+            "text": "Meine Freunde nehmen gestern den Bus."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q7",
         "type": "mcq",
         "prompt": "Ergänze: Wir ___ eine wichtige Erfahrung ___.",
         "options": [
-          "haben machen",
-          "sind gemacht",
-          "haben gemacht",
-          "machen gestern"
+          {
+            "id": "o1",
+            "text": "haben machen"
+          },
+          {
+            "id": "o2",
+            "text": "sind gemacht"
+          },
+          {
+            "id": "o3",
+            "text": "haben gemacht"
+          },
+          {
+            "id": "o4",
+            "text": "machen gestern"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q8",
         "type": "mcq",
         "prompt": "Welcher Satz beschreibt eine abgeschlossene Handlung?",
         "options": [
-          "Am Samstag bin ich meine Cousine getroffen.",
-          "Am Samstag treffe ich meine Cousine morgen.",
-          "Am Samstag treffen meine Cousine.",
-          "Am Samstag habe ich meine Cousine getroffen."
+          {
+            "id": "o1",
+            "text": "Am Samstag bin ich meine Cousine getroffen."
+          },
+          {
+            "id": "o2",
+            "text": "Am Samstag treffe ich meine Cousine morgen."
+          },
+          {
+            "id": "o3",
+            "text": "Am Samstag treffen meine Cousine."
+          },
+          {
+            "id": "o4",
+            "text": "Am Samstag habe ich meine Cousine getroffen."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       }
     ]
@@ -44588,9 +53970,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Futur I und Vermutungen",
-        "definition": "Práctica guiada de Futur I und Vermutungen.",
+        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
         "structure": "Meinung + weil/obwohl/deshalb + Begründung",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Eine Meinung ausdrücken und begründen.",
         "examples": [
           "Ich finde den Vorschlag sinnvoll.",
           "Trotzdem müssen wir die Ergebnisse prüfen."
@@ -44599,83 +53981,187 @@
       "grammarTest": {
         "questions": [
           {
+            "id": "q1",
             "type": "mcq",
             "prompt": "Ergänze: Ich finde, dass der Vorschlag sinnvoll ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "ist"
+              },
+              {
+                "id": "o2",
+                "text": "sind"
+              },
+              {
+                "id": "o3",
+                "text": "sein"
+              },
+              {
+                "id": "o4",
+                "text": "sei"
+              }
             ]
           },
           {
+            "id": "q2",
             "type": "mcq",
             "prompt": "Wähle den Konnektor für einen Gegensatz.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Ich möchte ausgehen, deshalb es regnet."
+              },
+              {
+                "id": "o2",
+                "text": "Ich möchte ausgehen, aber es regnet."
+              },
+              {
+                "id": "o3",
+                "text": "Ich möchte ausgehen, weil es regnet."
+              },
+              {
+                "id": "o4",
+                "text": "Ich möchte ausgehen, dann es regnet."
+              }
             ]
           },
           {
+            "id": "q3",
             "type": "mcq",
             "prompt": "Ergänze: Ich bleibe zu Hause, weil ich müde ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "sein"
+              },
+              {
+                "id": "o2",
+                "text": "ist"
+              },
+              {
+                "id": "o3",
+                "text": "bin"
+              },
+              {
+                "id": "o4",
+                "text": "bist"
+              }
             ]
           },
           {
+            "id": "q4",
             "type": "mcq",
             "prompt": "Welcher Satz drückt eine Meinung aus?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Das Projekt funktioniert warum?"
+              },
+              {
+                "id": "o2",
+                "text": "Das Projekt gestern funktioniert?"
+              },
+              {
+                "id": "o3",
+                "text": "Funktionieren das Projekt meiner Meinung."
+              },
+              {
+                "id": "o4",
+                "text": "Meiner Meinung nach funktioniert das Projekt."
+              }
             ]
           },
           {
+            "id": "q5",
             "type": "mcq",
             "prompt": "Ergänze: Obwohl es spät ___, arbeiten wir weiter.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "ist"
+              },
+              {
+                "id": "o2",
+                "text": "sind"
+              },
+              {
+                "id": "o3",
+                "text": "sein"
+              },
+              {
+                "id": "o4",
+                "text": "bist"
+              }
             ]
           },
           {
+            "id": "q6",
             "type": "mcq",
             "prompt": "Wähle eine logische Folge.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Wir haben wenig Zeit, aber planen wir die Arbeit."
+              },
+              {
+                "id": "o2",
+                "text": "Wir haben wenig Zeit, deshalb planen wir die Arbeit."
+              },
+              {
+                "id": "o3",
+                "text": "Wir haben wenig Zeit, weil planen wir die Arbeit."
+              },
+              {
+                "id": "o4",
+                "text": "Wir haben wenig Zeit, obwohl planen wir die Arbeit."
+              }
             ]
           },
           {
+            "id": "q7",
             "type": "mcq",
             "prompt": "Ergänze: Ich glaube, dass sie Recht ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "sein"
+              },
+              {
+                "id": "o2",
+                "text": "haben"
+              },
+              {
+                "id": "o3",
+                "text": "hat"
+              },
+              {
+                "id": "o4",
+                "text": "hatte"
+              }
             ]
           },
           {
+            "id": "q8",
             "type": "mcq",
             "prompt": "Welcher Satz begründet eine Wahl?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Ich nehme den Zug er nachhaltiger ist weil."
+              },
+              {
+                "id": "o2",
+                "text": "Ich nehme den Zug, aber er nachhaltiger ist."
+              },
+              {
+                "id": "o3",
+                "text": "Ich nehme den Zug, deshalb er nachhaltiger ist?"
+              },
+              {
+                "id": "o4",
+                "text": "Ich nehme den Zug, weil er nachhaltiger ist."
+              }
             ]
           }
         ]
@@ -44684,91 +54170,203 @@
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
         "prompt": "Ergänze: Ich finde, dass der Vorschlag sinnvoll ___.",
         "options": [
-          "ist",
-          "sind",
-          "sein",
-          "sei"
+          {
+            "id": "o1",
+            "text": "ist"
+          },
+          {
+            "id": "o2",
+            "text": "sind"
+          },
+          {
+            "id": "o3",
+            "text": "sein"
+          },
+          {
+            "id": "o4",
+            "text": "sei"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q2",
         "type": "mcq",
         "prompt": "Wähle den Konnektor für einen Gegensatz.",
         "options": [
-          "Ich möchte ausgehen, deshalb es regnet.",
-          "Ich möchte ausgehen, aber es regnet.",
-          "Ich möchte ausgehen, weil es regnet.",
-          "Ich möchte ausgehen, dann es regnet."
+          {
+            "id": "o1",
+            "text": "Ich möchte ausgehen, deshalb es regnet."
+          },
+          {
+            "id": "o2",
+            "text": "Ich möchte ausgehen, aber es regnet."
+          },
+          {
+            "id": "o3",
+            "text": "Ich möchte ausgehen, weil es regnet."
+          },
+          {
+            "id": "o4",
+            "text": "Ich möchte ausgehen, dann es regnet."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q3",
         "type": "mcq",
         "prompt": "Ergänze: Ich bleibe zu Hause, weil ich müde ___.",
         "options": [
-          "sein",
-          "ist",
-          "bin",
-          "bist"
+          {
+            "id": "o1",
+            "text": "sein"
+          },
+          {
+            "id": "o2",
+            "text": "ist"
+          },
+          {
+            "id": "o3",
+            "text": "bin"
+          },
+          {
+            "id": "o4",
+            "text": "bist"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q4",
         "type": "mcq",
         "prompt": "Welcher Satz drückt eine Meinung aus?",
         "options": [
-          "Das Projekt funktioniert warum?",
-          "Das Projekt gestern funktioniert?",
-          "Funktionieren das Projekt meiner Meinung.",
-          "Meiner Meinung nach funktioniert das Projekt."
+          {
+            "id": "o1",
+            "text": "Das Projekt funktioniert warum?"
+          },
+          {
+            "id": "o2",
+            "text": "Das Projekt gestern funktioniert?"
+          },
+          {
+            "id": "o3",
+            "text": "Funktionieren das Projekt meiner Meinung."
+          },
+          {
+            "id": "o4",
+            "text": "Meiner Meinung nach funktioniert das Projekt."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q5",
         "type": "mcq",
         "prompt": "Ergänze: Obwohl es spät ___, arbeiten wir weiter.",
         "options": [
-          "ist",
-          "sind",
-          "sein",
-          "bist"
+          {
+            "id": "o1",
+            "text": "ist"
+          },
+          {
+            "id": "o2",
+            "text": "sind"
+          },
+          {
+            "id": "o3",
+            "text": "sein"
+          },
+          {
+            "id": "o4",
+            "text": "bist"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q6",
         "type": "mcq",
         "prompt": "Wähle eine logische Folge.",
         "options": [
-          "Wir haben wenig Zeit, aber planen wir die Arbeit.",
-          "Wir haben wenig Zeit, deshalb planen wir die Arbeit.",
-          "Wir haben wenig Zeit, weil planen wir die Arbeit.",
-          "Wir haben wenig Zeit, obwohl planen wir die Arbeit."
+          {
+            "id": "o1",
+            "text": "Wir haben wenig Zeit, aber planen wir die Arbeit."
+          },
+          {
+            "id": "o2",
+            "text": "Wir haben wenig Zeit, deshalb planen wir die Arbeit."
+          },
+          {
+            "id": "o3",
+            "text": "Wir haben wenig Zeit, weil planen wir die Arbeit."
+          },
+          {
+            "id": "o4",
+            "text": "Wir haben wenig Zeit, obwohl planen wir die Arbeit."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q7",
         "type": "mcq",
         "prompt": "Ergänze: Ich glaube, dass sie Recht ___.",
         "options": [
-          "sein",
-          "haben",
-          "hat",
-          "hatte"
+          {
+            "id": "o1",
+            "text": "sein"
+          },
+          {
+            "id": "o2",
+            "text": "haben"
+          },
+          {
+            "id": "o3",
+            "text": "hat"
+          },
+          {
+            "id": "o4",
+            "text": "hatte"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q8",
         "type": "mcq",
         "prompt": "Welcher Satz begründet eine Wahl?",
         "options": [
-          "Ich nehme den Zug er nachhaltiger ist weil.",
-          "Ich nehme den Zug, aber er nachhaltiger ist.",
-          "Ich nehme den Zug, deshalb er nachhaltiger ist?",
-          "Ich nehme den Zug, weil er nachhaltiger ist."
+          {
+            "id": "o1",
+            "text": "Ich nehme den Zug er nachhaltiger ist weil."
+          },
+          {
+            "id": "o2",
+            "text": "Ich nehme den Zug, aber er nachhaltiger ist."
+          },
+          {
+            "id": "o3",
+            "text": "Ich nehme den Zug, deshalb er nachhaltiger ist?"
+          },
+          {
+            "id": "o4",
+            "text": "Ich nehme den Zug, weil er nachhaltiger ist."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       }
     ]
@@ -46446,121 +56044,277 @@
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Hobby",
-          "lesen",
-          "laufen",
-          "Kino"
-        ]
+          {
+            "id": "o1",
+            "text": "Hobby"
+          },
+          {
+            "id": "o2",
+            "text": "lesen"
+          },
+          {
+            "id": "o3",
+            "text": "laufen"
+          },
+          {
+            "id": "o4",
+            "text": "Kino"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Hobby",
-          "lesen",
-          "laufen",
-          "Kino"
-        ]
+          {
+            "id": "o1",
+            "text": "Hobby"
+          },
+          {
+            "id": "o2",
+            "text": "lesen"
+          },
+          {
+            "id": "o3",
+            "text": "laufen"
+          },
+          {
+            "id": "o4",
+            "text": "Kino"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "lesen",
-          "Hobby",
-          "laufen",
-          "Kino"
-        ]
+          {
+            "id": "o1",
+            "text": "lesen"
+          },
+          {
+            "id": "o2",
+            "text": "Hobby"
+          },
+          {
+            "id": "o3",
+            "text": "laufen"
+          },
+          {
+            "id": "o4",
+            "text": "Kino"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "laufen",
-          "Hobby",
-          "lesen",
-          "Kino"
-        ]
+          {
+            "id": "o1",
+            "text": "laufen"
+          },
+          {
+            "id": "o2",
+            "text": "Hobby"
+          },
+          {
+            "id": "o3",
+            "text": "lesen"
+          },
+          {
+            "id": "o4",
+            "text": "Kino"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Sport",
-          "Hobby",
-          "lesen",
-          "laufen"
-        ]
+          {
+            "id": "o1",
+            "text": "Sport"
+          },
+          {
+            "id": "o2",
+            "text": "Hobby"
+          },
+          {
+            "id": "o3",
+            "text": "lesen"
+          },
+          {
+            "id": "o4",
+            "text": "laufen"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Hobby",
-          "Wochenende",
-          "lesen",
-          "laufen"
-        ]
+          {
+            "id": "o1",
+            "text": "Hobby"
+          },
+          {
+            "id": "o2",
+            "text": "Wochenende"
+          },
+          {
+            "id": "o3",
+            "text": "lesen"
+          },
+          {
+            "id": "o4",
+            "text": "laufen"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "lesen",
-          "Hobby",
-          "gern",
-          "laufen"
-        ]
+          {
+            "id": "o1",
+            "text": "lesen"
+          },
+          {
+            "id": "o2",
+            "text": "Hobby"
+          },
+          {
+            "id": "o3",
+            "text": "gern"
+          },
+          {
+            "id": "o4",
+            "text": "laufen"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "laufen",
-          "Hobby",
-          "lesen",
-          "manchmal"
-        ]
+          {
+            "id": "o1",
+            "text": "laufen"
+          },
+          {
+            "id": "o2",
+            "text": "Hobby"
+          },
+          {
+            "id": "o3",
+            "text": "lesen"
+          },
+          {
+            "id": "o4",
+            "text": "manchmal"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "oft",
-          "Hobby",
-          "lesen",
-          "laufen"
-        ]
+          {
+            "id": "o1",
+            "text": "oft"
+          },
+          {
+            "id": "o2",
+            "text": "Hobby"
+          },
+          {
+            "id": "o3",
+            "text": "lesen"
+          },
+          {
+            "id": "o4",
+            "text": "laufen"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Hobby",
-          "Zeit",
-          "lesen",
-          "laufen"
-        ]
+          {
+            "id": "o1",
+            "text": "Hobby"
+          },
+          {
+            "id": "o2",
+            "text": "Zeit"
+          },
+          {
+            "id": "o3",
+            "text": "lesen"
+          },
+          {
+            "id": "o4",
+            "text": "laufen"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "lesen",
-          "Hobby",
-          "heute",
-          "laufen"
-        ]
+          {
+            "id": "o1",
+            "text": "lesen"
+          },
+          {
+            "id": "o2",
+            "text": "Hobby"
+          },
+          {
+            "id": "o3",
+            "text": "heute"
+          },
+          {
+            "id": "o4",
+            "text": "laufen"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "laufen",
-          "Hobby",
-          "lesen",
-          "zusammen"
-        ]
+          {
+            "id": "o1",
+            "text": "laufen"
+          },
+          {
+            "id": "o2",
+            "text": "Hobby"
+          },
+          {
+            "id": "o3",
+            "text": "lesen"
+          },
+          {
+            "id": "o4",
+            "text": "zusammen"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },
@@ -46728,121 +56482,277 @@
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Ziel",
-          "Kurs",
-          "üben",
-          "Fortschritt"
-        ]
+          {
+            "id": "o1",
+            "text": "Ziel"
+          },
+          {
+            "id": "o2",
+            "text": "Kurs"
+          },
+          {
+            "id": "o3",
+            "text": "üben"
+          },
+          {
+            "id": "o4",
+            "text": "Fortschritt"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Ziel",
-          "Kurs",
-          "üben",
-          "Fortschritt"
-        ]
+          {
+            "id": "o1",
+            "text": "Ziel"
+          },
+          {
+            "id": "o2",
+            "text": "Kurs"
+          },
+          {
+            "id": "o3",
+            "text": "üben"
+          },
+          {
+            "id": "o4",
+            "text": "Fortschritt"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Kurs",
-          "Ziel",
-          "üben",
-          "Fortschritt"
-        ]
+          {
+            "id": "o1",
+            "text": "Kurs"
+          },
+          {
+            "id": "o2",
+            "text": "Ziel"
+          },
+          {
+            "id": "o3",
+            "text": "üben"
+          },
+          {
+            "id": "o4",
+            "text": "Fortschritt"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "üben",
-          "Ziel",
-          "Kurs",
-          "Fortschritt"
-        ]
+          {
+            "id": "o1",
+            "text": "üben"
+          },
+          {
+            "id": "o2",
+            "text": "Ziel"
+          },
+          {
+            "id": "o3",
+            "text": "Kurs"
+          },
+          {
+            "id": "o4",
+            "text": "Fortschritt"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "schwierig",
-          "Ziel",
-          "Kurs",
-          "üben"
-        ]
+          {
+            "id": "o1",
+            "text": "schwierig"
+          },
+          {
+            "id": "o2",
+            "text": "Ziel"
+          },
+          {
+            "id": "o3",
+            "text": "Kurs"
+          },
+          {
+            "id": "o4",
+            "text": "üben"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Ziel",
-          "leichter",
-          "Kurs",
-          "üben"
-        ]
+          {
+            "id": "o1",
+            "text": "Ziel"
+          },
+          {
+            "id": "o2",
+            "text": "leichter"
+          },
+          {
+            "id": "o3",
+            "text": "Kurs"
+          },
+          {
+            "id": "o4",
+            "text": "üben"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Kurs",
-          "Ziel",
-          "verbessern",
-          "üben"
-        ]
+          {
+            "id": "o1",
+            "text": "Kurs"
+          },
+          {
+            "id": "o2",
+            "text": "Ziel"
+          },
+          {
+            "id": "o3",
+            "text": "verbessern"
+          },
+          {
+            "id": "o4",
+            "text": "üben"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "üben",
-          "Ziel",
-          "Kurs",
-          "Prüfung"
-        ]
+          {
+            "id": "o1",
+            "text": "üben"
+          },
+          {
+            "id": "o2",
+            "text": "Ziel"
+          },
+          {
+            "id": "o3",
+            "text": "Kurs"
+          },
+          {
+            "id": "o4",
+            "text": "Prüfung"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Methode",
-          "Ziel",
-          "Kurs",
-          "üben"
-        ]
+          {
+            "id": "o1",
+            "text": "Methode"
+          },
+          {
+            "id": "o2",
+            "text": "Ziel"
+          },
+          {
+            "id": "o3",
+            "text": "Kurs"
+          },
+          {
+            "id": "o4",
+            "text": "üben"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Ziel",
-          "Erfolg",
-          "Kurs",
-          "üben"
-        ]
+          {
+            "id": "o1",
+            "text": "Ziel"
+          },
+          {
+            "id": "o2",
+            "text": "Erfolg"
+          },
+          {
+            "id": "o3",
+            "text": "Kurs"
+          },
+          {
+            "id": "o4",
+            "text": "üben"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Kurs",
-          "Ziel",
-          "heute",
-          "üben"
-        ]
+          {
+            "id": "o1",
+            "text": "Kurs"
+          },
+          {
+            "id": "o2",
+            "text": "Ziel"
+          },
+          {
+            "id": "o3",
+            "text": "heute"
+          },
+          {
+            "id": "o4",
+            "text": "üben"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "üben",
-          "Ziel",
-          "Kurs",
-          "zusammen"
-        ]
+          {
+            "id": "o1",
+            "text": "üben"
+          },
+          {
+            "id": "o2",
+            "text": "Ziel"
+          },
+          {
+            "id": "o3",
+            "text": "Kurs"
+          },
+          {
+            "id": "o4",
+            "text": "zusammen"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },
@@ -47010,121 +56920,277 @@
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Verkehr",
-          "Strecke",
-          "Stau",
-          "Fahrrad"
-        ]
+          {
+            "id": "o1",
+            "text": "Verkehr"
+          },
+          {
+            "id": "o2",
+            "text": "Strecke"
+          },
+          {
+            "id": "o3",
+            "text": "Stau"
+          },
+          {
+            "id": "o4",
+            "text": "Fahrrad"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Verkehr",
-          "Strecke",
-          "Stau",
-          "Fahrrad"
-        ]
+          {
+            "id": "o1",
+            "text": "Verkehr"
+          },
+          {
+            "id": "o2",
+            "text": "Strecke"
+          },
+          {
+            "id": "o3",
+            "text": "Stau"
+          },
+          {
+            "id": "o4",
+            "text": "Fahrrad"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Strecke",
-          "Verkehr",
-          "Stau",
-          "Fahrrad"
-        ]
+          {
+            "id": "o1",
+            "text": "Strecke"
+          },
+          {
+            "id": "o2",
+            "text": "Verkehr"
+          },
+          {
+            "id": "o3",
+            "text": "Stau"
+          },
+          {
+            "id": "o4",
+            "text": "Fahrrad"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Stau",
-          "Verkehr",
-          "Strecke",
-          "Fahrrad"
-        ]
+          {
+            "id": "o1",
+            "text": "Stau"
+          },
+          {
+            "id": "o2",
+            "text": "Verkehr"
+          },
+          {
+            "id": "o3",
+            "text": "Strecke"
+          },
+          {
+            "id": "o4",
+            "text": "Fahrrad"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "verbessern",
-          "Verkehr",
-          "Strecke",
-          "Stau"
-        ]
+          {
+            "id": "o1",
+            "text": "verbessern"
+          },
+          {
+            "id": "o2",
+            "text": "Verkehr"
+          },
+          {
+            "id": "o3",
+            "text": "Strecke"
+          },
+          {
+            "id": "o4",
+            "text": "Stau"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Verkehr",
-          "zugänglich",
-          "Strecke",
-          "Stau"
-        ]
+          {
+            "id": "o1",
+            "text": "Verkehr"
+          },
+          {
+            "id": "o2",
+            "text": "zugänglich"
+          },
+          {
+            "id": "o3",
+            "text": "Strecke"
+          },
+          {
+            "id": "o4",
+            "text": "Stau"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Strecke",
-          "Verkehr",
-          "Verspätung",
-          "Stau"
-        ]
+          {
+            "id": "o1",
+            "text": "Strecke"
+          },
+          {
+            "id": "o2",
+            "text": "Verkehr"
+          },
+          {
+            "id": "o3",
+            "text": "Verspätung"
+          },
+          {
+            "id": "o4",
+            "text": "Stau"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Stau",
-          "Verkehr",
-          "Strecke",
-          "Dienst"
-        ]
+          {
+            "id": "o1",
+            "text": "Stau"
+          },
+          {
+            "id": "o2",
+            "text": "Verkehr"
+          },
+          {
+            "id": "o3",
+            "text": "Strecke"
+          },
+          {
+            "id": "o4",
+            "text": "Dienst"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "vorschlagen",
-          "Verkehr",
-          "Strecke",
-          "Stau"
-        ]
+          {
+            "id": "o1",
+            "text": "vorschlagen"
+          },
+          {
+            "id": "o2",
+            "text": "Verkehr"
+          },
+          {
+            "id": "o3",
+            "text": "Strecke"
+          },
+          {
+            "id": "o4",
+            "text": "Stau"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Verkehr",
-          "Viertel",
-          "Strecke",
-          "Stau"
-        ]
+          {
+            "id": "o1",
+            "text": "Verkehr"
+          },
+          {
+            "id": "o2",
+            "text": "Viertel"
+          },
+          {
+            "id": "o3",
+            "text": "Strecke"
+          },
+          {
+            "id": "o4",
+            "text": "Stau"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Strecke",
-          "Verkehr",
-          "heute",
-          "Stau"
-        ]
+          {
+            "id": "o1",
+            "text": "Strecke"
+          },
+          {
+            "id": "o2",
+            "text": "Verkehr"
+          },
+          {
+            "id": "o3",
+            "text": "heute"
+          },
+          {
+            "id": "o4",
+            "text": "Stau"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Stau",
-          "Verkehr",
-          "Strecke",
-          "zusammen"
-        ]
+          {
+            "id": "o1",
+            "text": "Stau"
+          },
+          {
+            "id": "o2",
+            "text": "Verkehr"
+          },
+          {
+            "id": "o3",
+            "text": "Strecke"
+          },
+          {
+            "id": "o4",
+            "text": "zusammen"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },
@@ -49404,93 +59470,198 @@
     "extra": {
       "grammarProfile": {
         "name": "Perfekt mit haben",
-        "definition": "Das Perfekt bildet man mit haben und Partizip II.",
-        "structure": "Ich habe ein Ticket gekauft.",
-        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
+        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
+        "structure": "Subjekt + Verb + Ergänzung",
+        "function": "Über Personen, Orte und Alltag sprechen.",
         "examples": [
-          "Ich habe ein Ticket gekauft."
+          "Ich wohne im Viertel.",
+          "Leon spricht mit Anna."
         ]
       },
       "grammarTest": {
         "questions": [
           {
+            "id": "q1",
             "type": "mcq",
             "prompt": "Ergänze: Ich ___ im Viertel.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "wohne"
+              },
+              {
+                "id": "o2",
+                "text": "wohnt"
+              },
+              {
+                "id": "o3",
+                "text": "wohnen"
+              },
+              {
+                "id": "o4",
+                "text": "wohnst"
+              }
             ]
           },
           {
+            "id": "q2",
             "type": "mcq",
             "prompt": "Wähle den richtigen Satz.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Leon sprechen mit Anna."
+              },
+              {
+                "id": "o2",
+                "text": "Leon spricht mit Anna."
+              },
+              {
+                "id": "o3",
+                "text": "Leon spreche mit Anna."
+              },
+              {
+                "id": "o4",
+                "text": "Leon sprich mit Anna."
+              }
             ]
           },
           {
+            "id": "q3",
             "type": "mcq",
             "prompt": "Ergänze: Wir ___ jeden Tag Deutsch.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "lerne"
+              },
+              {
+                "id": "o2",
+                "text": "lernt"
+              },
+              {
+                "id": "o3",
+                "text": "lernen"
+              },
+              {
+                "id": "o4",
+                "text": "lernst"
+              }
             ]
           },
           {
+            "id": "q4",
             "type": "mcq",
             "prompt": "Welche Frage ist richtig?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Wo wohnst?"
+              },
+              {
+                "id": "o2",
+                "text": "Wo wohnen du?"
+              },
+              {
+                "id": "o3",
+                "text": "Wo du wohnst?"
+              },
+              {
+                "id": "o4",
+                "text": "Wo wohnst du?"
+              }
             ]
           },
           {
+            "id": "q5",
             "type": "mcq",
             "prompt": "Ergänze: Sie ___ eine Frage.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "stellt"
+              },
+              {
+                "id": "o2",
+                "text": "stelle"
+              },
+              {
+                "id": "o3",
+                "text": "stellen"
+              },
+              {
+                "id": "o4",
+                "text": "stellst"
+              }
             ]
           },
           {
+            "id": "q6",
             "type": "mcq",
             "prompt": "Wähle den Satz über ein Haus.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Das Haus sind hell."
+              },
+              {
+                "id": "o2",
+                "text": "Das Haus ist hell."
+              },
+              {
+                "id": "o3",
+                "text": "Die Haus ist hell."
+              },
+              {
+                "id": "o4",
+                "text": "Das Haus ist helle."
+              }
             ]
           },
           {
+            "id": "q7",
             "type": "mcq",
             "prompt": "Ergänze: Du ___ Kaffee.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "trinken"
+              },
+              {
+                "id": "o2",
+                "text": "trinkt"
+              },
+              {
+                "id": "o3",
+                "text": "trinkst"
+              },
+              {
+                "id": "o4",
+                "text": "trinke"
+              }
             ]
           },
           {
+            "id": "q8",
             "type": "mcq",
             "prompt": "Welcher Satz beschreibt eine Routine?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Jeden Morgen arbeitet ich im Zentrum."
+              },
+              {
+                "id": "o2",
+                "text": "Gestern arbeiten ich im Zentrum."
+              },
+              {
+                "id": "o3",
+                "text": "Morgen arbeitete ich im Zentrum."
+              },
+              {
+                "id": "o4",
+                "text": "Jeden Morgen arbeite ich im Zentrum."
+              }
             ]
           }
         ]
@@ -49499,91 +59670,203 @@
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
         "prompt": "Ergänze: Ich ___ im Viertel.",
         "options": [
-          "wohne",
-          "wohnt",
-          "wohnen",
-          "wohnst"
+          {
+            "id": "o1",
+            "text": "wohne"
+          },
+          {
+            "id": "o2",
+            "text": "wohnt"
+          },
+          {
+            "id": "o3",
+            "text": "wohnen"
+          },
+          {
+            "id": "o4",
+            "text": "wohnst"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q2",
         "type": "mcq",
         "prompt": "Wähle den richtigen Satz.",
         "options": [
-          "Leon sprechen mit Anna.",
-          "Leon spricht mit Anna.",
-          "Leon spreche mit Anna.",
-          "Leon sprich mit Anna."
+          {
+            "id": "o1",
+            "text": "Leon sprechen mit Anna."
+          },
+          {
+            "id": "o2",
+            "text": "Leon spricht mit Anna."
+          },
+          {
+            "id": "o3",
+            "text": "Leon spreche mit Anna."
+          },
+          {
+            "id": "o4",
+            "text": "Leon sprich mit Anna."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q3",
         "type": "mcq",
         "prompt": "Ergänze: Wir ___ jeden Tag Deutsch.",
         "options": [
-          "lerne",
-          "lernt",
-          "lernen",
-          "lernst"
+          {
+            "id": "o1",
+            "text": "lerne"
+          },
+          {
+            "id": "o2",
+            "text": "lernt"
+          },
+          {
+            "id": "o3",
+            "text": "lernen"
+          },
+          {
+            "id": "o4",
+            "text": "lernst"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q4",
         "type": "mcq",
         "prompt": "Welche Frage ist richtig?",
         "options": [
-          "Wo wohnst?",
-          "Wo wohnen du?",
-          "Wo du wohnst?",
-          "Wo wohnst du?"
+          {
+            "id": "o1",
+            "text": "Wo wohnst?"
+          },
+          {
+            "id": "o2",
+            "text": "Wo wohnen du?"
+          },
+          {
+            "id": "o3",
+            "text": "Wo du wohnst?"
+          },
+          {
+            "id": "o4",
+            "text": "Wo wohnst du?"
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q5",
         "type": "mcq",
         "prompt": "Ergänze: Sie ___ eine Frage.",
         "options": [
-          "stellt",
-          "stelle",
-          "stellen",
-          "stellst"
+          {
+            "id": "o1",
+            "text": "stellt"
+          },
+          {
+            "id": "o2",
+            "text": "stelle"
+          },
+          {
+            "id": "o3",
+            "text": "stellen"
+          },
+          {
+            "id": "o4",
+            "text": "stellst"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q6",
         "type": "mcq",
         "prompt": "Wähle den Satz über ein Haus.",
         "options": [
-          "Das Haus sind hell.",
-          "Das Haus ist hell.",
-          "Die Haus ist hell.",
-          "Das Haus ist helle."
+          {
+            "id": "o1",
+            "text": "Das Haus sind hell."
+          },
+          {
+            "id": "o2",
+            "text": "Das Haus ist hell."
+          },
+          {
+            "id": "o3",
+            "text": "Die Haus ist hell."
+          },
+          {
+            "id": "o4",
+            "text": "Das Haus ist helle."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q7",
         "type": "mcq",
         "prompt": "Ergänze: Du ___ Kaffee.",
         "options": [
-          "trinken",
-          "trinkt",
-          "trinkst",
-          "trinke"
+          {
+            "id": "o1",
+            "text": "trinken"
+          },
+          {
+            "id": "o2",
+            "text": "trinkt"
+          },
+          {
+            "id": "o3",
+            "text": "trinkst"
+          },
+          {
+            "id": "o4",
+            "text": "trinke"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q8",
         "type": "mcq",
         "prompt": "Welcher Satz beschreibt eine Routine?",
         "options": [
-          "Jeden Morgen arbeitet ich im Zentrum.",
-          "Gestern arbeiten ich im Zentrum.",
-          "Morgen arbeitete ich im Zentrum.",
-          "Jeden Morgen arbeite ich im Zentrum."
+          {
+            "id": "o1",
+            "text": "Jeden Morgen arbeitet ich im Zentrum."
+          },
+          {
+            "id": "o2",
+            "text": "Gestern arbeiten ich im Zentrum."
+          },
+          {
+            "id": "o3",
+            "text": "Morgen arbeitete ich im Zentrum."
+          },
+          {
+            "id": "o4",
+            "text": "Jeden Morgen arbeite ich im Zentrum."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       }
     ]
@@ -49664,93 +59947,198 @@
     "extra": {
       "grammarProfile": {
         "name": "Konjunktiv II: höfliche Bitten",
-        "definition": "würde, könnte y hätte hacen las peticiones más corteses.",
-        "structure": "Könnten Sie mir bitte helfen?",
-        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
+        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
+        "structure": "haben/sein + Partizip II",
+        "function": "Erfahrungen und Pläne erzählen.",
         "examples": [
-          "Könnten Sie mir bitte helfen?"
+          "Gestern habe ich das Museum besucht.",
+          "Danach haben wir zusammen gesprochen."
         ]
       },
       "grammarTest": {
         "questions": [
           {
+            "id": "q1",
             "type": "mcq",
             "prompt": "Ergänze: Gestern ___ ich das Museum ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "habe besucht"
+              },
+              {
+                "id": "o2",
+                "text": "besuche"
+              },
+              {
+                "id": "o3",
+                "text": "habe besuchen"
+              },
+              {
+                "id": "o4",
+                "text": "bin besucht"
+              }
             ]
           },
           {
+            "id": "q2",
             "type": "mcq",
             "prompt": "Wähle den richtigen Perfekt-Satz.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Wir haben zusammen essen."
+              },
+              {
+                "id": "o2",
+                "text": "Wir haben zusammen gegessen."
+              },
+              {
+                "id": "o3",
+                "text": "Wir sind zusammen gegessen."
+              },
+              {
+                "id": "o4",
+                "text": "Wir essen gestern zusammen."
+              }
             ]
           },
           {
+            "id": "q3",
             "type": "mcq",
             "prompt": "Ergänze: Marta ___ spät nach Hause ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "ist kommen"
+              },
+              {
+                "id": "o2",
+                "text": "hat gekommen"
+              },
+              {
+                "id": "o3",
+                "text": "ist gekommen"
+              },
+              {
+                "id": "o4",
+                "text": "kommt gestern"
+              }
             ]
           },
           {
+            "id": "q4",
             "type": "mcq",
             "prompt": "Welcher Satz zeigt eine Reihenfolge?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Zuerst haben wir gelernt, wenn sind wir gegangen."
+              },
+              {
+                "id": "o2",
+                "text": "Zuerst haben wir gelernt, weil sind wir gegangen."
+              },
+              {
+                "id": "o3",
+                "text": "Zuerst haben wir gelernt, obwohl sind wir gegangen."
+              },
+              {
+                "id": "o4",
+                "text": "Zuerst haben wir gelernt, dann sind wir gegangen."
+              }
             ]
           },
           {
+            "id": "q5",
             "type": "mcq",
             "prompt": "Ergänze: ___ du die Nachricht ___?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Hast gelesen"
+              },
+              {
+                "id": "o2",
+                "text": "Hast lesen"
+              },
+              {
+                "id": "o3",
+                "text": "Bist gelesen"
+              },
+              {
+                "id": "o4",
+                "text": "Liest gestern"
+              }
             ]
           },
           {
+            "id": "q6",
             "type": "mcq",
             "prompt": "Wähle den Perfekt-Satz mit dem richtigen Hilfsverb.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Meine Freunde sind den Bus genommen."
+              },
+              {
+                "id": "o2",
+                "text": "Meine Freunde haben den Bus genommen."
+              },
+              {
+                "id": "o3",
+                "text": "Meine Freunde haben den Bus nehmen."
+              },
+              {
+                "id": "o4",
+                "text": "Meine Freunde nehmen gestern den Bus."
+              }
             ]
           },
           {
+            "id": "q7",
             "type": "mcq",
             "prompt": "Ergänze: Wir ___ eine wichtige Erfahrung ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "haben machen"
+              },
+              {
+                "id": "o2",
+                "text": "sind gemacht"
+              },
+              {
+                "id": "o3",
+                "text": "haben gemacht"
+              },
+              {
+                "id": "o4",
+                "text": "machen gestern"
+              }
             ]
           },
           {
+            "id": "q8",
             "type": "mcq",
             "prompt": "Welcher Satz beschreibt eine abgeschlossene Handlung?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Am Samstag bin ich meine Cousine getroffen."
+              },
+              {
+                "id": "o2",
+                "text": "Am Samstag treffe ich meine Cousine morgen."
+              },
+              {
+                "id": "o3",
+                "text": "Am Samstag treffen meine Cousine."
+              },
+              {
+                "id": "o4",
+                "text": "Am Samstag habe ich meine Cousine getroffen."
+              }
             ]
           }
         ]
@@ -49759,91 +60147,203 @@
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
         "prompt": "Ergänze: Gestern ___ ich das Museum ___.",
         "options": [
-          "habe besucht",
-          "besuche",
-          "habe besuchen",
-          "bin besucht"
+          {
+            "id": "o1",
+            "text": "habe besucht"
+          },
+          {
+            "id": "o2",
+            "text": "besuche"
+          },
+          {
+            "id": "o3",
+            "text": "habe besuchen"
+          },
+          {
+            "id": "o4",
+            "text": "bin besucht"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q2",
         "type": "mcq",
         "prompt": "Wähle den richtigen Perfekt-Satz.",
         "options": [
-          "Wir haben zusammen essen.",
-          "Wir haben zusammen gegessen.",
-          "Wir sind zusammen gegessen.",
-          "Wir essen gestern zusammen."
+          {
+            "id": "o1",
+            "text": "Wir haben zusammen essen."
+          },
+          {
+            "id": "o2",
+            "text": "Wir haben zusammen gegessen."
+          },
+          {
+            "id": "o3",
+            "text": "Wir sind zusammen gegessen."
+          },
+          {
+            "id": "o4",
+            "text": "Wir essen gestern zusammen."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q3",
         "type": "mcq",
         "prompt": "Ergänze: Marta ___ spät nach Hause ___.",
         "options": [
-          "ist kommen",
-          "hat gekommen",
-          "ist gekommen",
-          "kommt gestern"
+          {
+            "id": "o1",
+            "text": "ist kommen"
+          },
+          {
+            "id": "o2",
+            "text": "hat gekommen"
+          },
+          {
+            "id": "o3",
+            "text": "ist gekommen"
+          },
+          {
+            "id": "o4",
+            "text": "kommt gestern"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q4",
         "type": "mcq",
         "prompt": "Welcher Satz zeigt eine Reihenfolge?",
         "options": [
-          "Zuerst haben wir gelernt, wenn sind wir gegangen.",
-          "Zuerst haben wir gelernt, weil sind wir gegangen.",
-          "Zuerst haben wir gelernt, obwohl sind wir gegangen.",
-          "Zuerst haben wir gelernt, dann sind wir gegangen."
+          {
+            "id": "o1",
+            "text": "Zuerst haben wir gelernt, wenn sind wir gegangen."
+          },
+          {
+            "id": "o2",
+            "text": "Zuerst haben wir gelernt, weil sind wir gegangen."
+          },
+          {
+            "id": "o3",
+            "text": "Zuerst haben wir gelernt, obwohl sind wir gegangen."
+          },
+          {
+            "id": "o4",
+            "text": "Zuerst haben wir gelernt, dann sind wir gegangen."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q5",
         "type": "mcq",
         "prompt": "Ergänze: ___ du die Nachricht ___?",
         "options": [
-          "Hast gelesen",
-          "Hast lesen",
-          "Bist gelesen",
-          "Liest gestern"
+          {
+            "id": "o1",
+            "text": "Hast gelesen"
+          },
+          {
+            "id": "o2",
+            "text": "Hast lesen"
+          },
+          {
+            "id": "o3",
+            "text": "Bist gelesen"
+          },
+          {
+            "id": "o4",
+            "text": "Liest gestern"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q6",
         "type": "mcq",
         "prompt": "Wähle den Perfekt-Satz mit dem richtigen Hilfsverb.",
         "options": [
-          "Meine Freunde sind den Bus genommen.",
-          "Meine Freunde haben den Bus genommen.",
-          "Meine Freunde haben den Bus nehmen.",
-          "Meine Freunde nehmen gestern den Bus."
+          {
+            "id": "o1",
+            "text": "Meine Freunde sind den Bus genommen."
+          },
+          {
+            "id": "o2",
+            "text": "Meine Freunde haben den Bus genommen."
+          },
+          {
+            "id": "o3",
+            "text": "Meine Freunde haben den Bus nehmen."
+          },
+          {
+            "id": "o4",
+            "text": "Meine Freunde nehmen gestern den Bus."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q7",
         "type": "mcq",
         "prompt": "Ergänze: Wir ___ eine wichtige Erfahrung ___.",
         "options": [
-          "haben machen",
-          "sind gemacht",
-          "haben gemacht",
-          "machen gestern"
+          {
+            "id": "o1",
+            "text": "haben machen"
+          },
+          {
+            "id": "o2",
+            "text": "sind gemacht"
+          },
+          {
+            "id": "o3",
+            "text": "haben gemacht"
+          },
+          {
+            "id": "o4",
+            "text": "machen gestern"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q8",
         "type": "mcq",
         "prompt": "Welcher Satz beschreibt eine abgeschlossene Handlung?",
         "options": [
-          "Am Samstag bin ich meine Cousine getroffen.",
-          "Am Samstag treffe ich meine Cousine morgen.",
-          "Am Samstag treffen meine Cousine.",
-          "Am Samstag habe ich meine Cousine getroffen."
+          {
+            "id": "o1",
+            "text": "Am Samstag bin ich meine Cousine getroffen."
+          },
+          {
+            "id": "o2",
+            "text": "Am Samstag treffe ich meine Cousine morgen."
+          },
+          {
+            "id": "o3",
+            "text": "Am Samstag treffen meine Cousine."
+          },
+          {
+            "id": "o4",
+            "text": "Am Samstag habe ich meine Cousine getroffen."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       }
     ]
@@ -49927,9 +60427,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Verben mit Präpositionen",
-        "definition": "Práctica guiada de Verben mit Präpositionen.",
+        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
         "structure": "Meinung + weil/obwohl/deshalb + Begründung",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Eine Meinung ausdrücken und begründen.",
         "examples": [
           "Ich finde den Vorschlag sinnvoll.",
           "Trotzdem müssen wir die Ergebnisse prüfen."
@@ -49938,83 +60438,187 @@
       "grammarTest": {
         "questions": [
           {
+            "id": "q1",
             "type": "mcq",
             "prompt": "Ergänze: Ich finde, dass der Vorschlag sinnvoll ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "ist"
+              },
+              {
+                "id": "o2",
+                "text": "sind"
+              },
+              {
+                "id": "o3",
+                "text": "sein"
+              },
+              {
+                "id": "o4",
+                "text": "sei"
+              }
             ]
           },
           {
+            "id": "q2",
             "type": "mcq",
             "prompt": "Wähle den Konnektor für einen Gegensatz.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Ich möchte ausgehen, deshalb es regnet."
+              },
+              {
+                "id": "o2",
+                "text": "Ich möchte ausgehen, aber es regnet."
+              },
+              {
+                "id": "o3",
+                "text": "Ich möchte ausgehen, weil es regnet."
+              },
+              {
+                "id": "o4",
+                "text": "Ich möchte ausgehen, dann es regnet."
+              }
             ]
           },
           {
+            "id": "q3",
             "type": "mcq",
             "prompt": "Ergänze: Ich bleibe zu Hause, weil ich müde ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "sein"
+              },
+              {
+                "id": "o2",
+                "text": "ist"
+              },
+              {
+                "id": "o3",
+                "text": "bin"
+              },
+              {
+                "id": "o4",
+                "text": "bist"
+              }
             ]
           },
           {
+            "id": "q4",
             "type": "mcq",
             "prompt": "Welcher Satz drückt eine Meinung aus?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Das Projekt funktioniert warum?"
+              },
+              {
+                "id": "o2",
+                "text": "Das Projekt gestern funktioniert?"
+              },
+              {
+                "id": "o3",
+                "text": "Funktionieren das Projekt meiner Meinung."
+              },
+              {
+                "id": "o4",
+                "text": "Meiner Meinung nach funktioniert das Projekt."
+              }
             ]
           },
           {
+            "id": "q5",
             "type": "mcq",
             "prompt": "Ergänze: Obwohl es spät ___, arbeiten wir weiter.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "ist"
+              },
+              {
+                "id": "o2",
+                "text": "sind"
+              },
+              {
+                "id": "o3",
+                "text": "sein"
+              },
+              {
+                "id": "o4",
+                "text": "bist"
+              }
             ]
           },
           {
+            "id": "q6",
             "type": "mcq",
             "prompt": "Wähle eine logische Folge.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Wir haben wenig Zeit, aber planen wir die Arbeit."
+              },
+              {
+                "id": "o2",
+                "text": "Wir haben wenig Zeit, deshalb planen wir die Arbeit."
+              },
+              {
+                "id": "o3",
+                "text": "Wir haben wenig Zeit, weil planen wir die Arbeit."
+              },
+              {
+                "id": "o4",
+                "text": "Wir haben wenig Zeit, obwohl planen wir die Arbeit."
+              }
             ]
           },
           {
+            "id": "q7",
             "type": "mcq",
             "prompt": "Ergänze: Ich glaube, dass sie Recht ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "sein"
+              },
+              {
+                "id": "o2",
+                "text": "haben"
+              },
+              {
+                "id": "o3",
+                "text": "hat"
+              },
+              {
+                "id": "o4",
+                "text": "hatte"
+              }
             ]
           },
           {
+            "id": "q8",
             "type": "mcq",
             "prompt": "Welcher Satz begründet eine Wahl?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Ich nehme den Zug er nachhaltiger ist weil."
+              },
+              {
+                "id": "o2",
+                "text": "Ich nehme den Zug, aber er nachhaltiger ist."
+              },
+              {
+                "id": "o3",
+                "text": "Ich nehme den Zug, deshalb er nachhaltiger ist?"
+              },
+              {
+                "id": "o4",
+                "text": "Ich nehme den Zug, weil er nachhaltiger ist."
+              }
             ]
           }
         ]
@@ -50023,91 +60627,203 @@
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
         "prompt": "Ergänze: Ich finde, dass der Vorschlag sinnvoll ___.",
         "options": [
-          "ist",
-          "sind",
-          "sein",
-          "sei"
+          {
+            "id": "o1",
+            "text": "ist"
+          },
+          {
+            "id": "o2",
+            "text": "sind"
+          },
+          {
+            "id": "o3",
+            "text": "sein"
+          },
+          {
+            "id": "o4",
+            "text": "sei"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q2",
         "type": "mcq",
         "prompt": "Wähle den Konnektor für einen Gegensatz.",
         "options": [
-          "Ich möchte ausgehen, deshalb es regnet.",
-          "Ich möchte ausgehen, aber es regnet.",
-          "Ich möchte ausgehen, weil es regnet.",
-          "Ich möchte ausgehen, dann es regnet."
+          {
+            "id": "o1",
+            "text": "Ich möchte ausgehen, deshalb es regnet."
+          },
+          {
+            "id": "o2",
+            "text": "Ich möchte ausgehen, aber es regnet."
+          },
+          {
+            "id": "o3",
+            "text": "Ich möchte ausgehen, weil es regnet."
+          },
+          {
+            "id": "o4",
+            "text": "Ich möchte ausgehen, dann es regnet."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q3",
         "type": "mcq",
         "prompt": "Ergänze: Ich bleibe zu Hause, weil ich müde ___.",
         "options": [
-          "sein",
-          "ist",
-          "bin",
-          "bist"
+          {
+            "id": "o1",
+            "text": "sein"
+          },
+          {
+            "id": "o2",
+            "text": "ist"
+          },
+          {
+            "id": "o3",
+            "text": "bin"
+          },
+          {
+            "id": "o4",
+            "text": "bist"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q4",
         "type": "mcq",
         "prompt": "Welcher Satz drückt eine Meinung aus?",
         "options": [
-          "Das Projekt funktioniert warum?",
-          "Das Projekt gestern funktioniert?",
-          "Funktionieren das Projekt meiner Meinung.",
-          "Meiner Meinung nach funktioniert das Projekt."
+          {
+            "id": "o1",
+            "text": "Das Projekt funktioniert warum?"
+          },
+          {
+            "id": "o2",
+            "text": "Das Projekt gestern funktioniert?"
+          },
+          {
+            "id": "o3",
+            "text": "Funktionieren das Projekt meiner Meinung."
+          },
+          {
+            "id": "o4",
+            "text": "Meiner Meinung nach funktioniert das Projekt."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q5",
         "type": "mcq",
         "prompt": "Ergänze: Obwohl es spät ___, arbeiten wir weiter.",
         "options": [
-          "ist",
-          "sind",
-          "sein",
-          "bist"
+          {
+            "id": "o1",
+            "text": "ist"
+          },
+          {
+            "id": "o2",
+            "text": "sind"
+          },
+          {
+            "id": "o3",
+            "text": "sein"
+          },
+          {
+            "id": "o4",
+            "text": "bist"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q6",
         "type": "mcq",
         "prompt": "Wähle eine logische Folge.",
         "options": [
-          "Wir haben wenig Zeit, aber planen wir die Arbeit.",
-          "Wir haben wenig Zeit, deshalb planen wir die Arbeit.",
-          "Wir haben wenig Zeit, weil planen wir die Arbeit.",
-          "Wir haben wenig Zeit, obwohl planen wir die Arbeit."
+          {
+            "id": "o1",
+            "text": "Wir haben wenig Zeit, aber planen wir die Arbeit."
+          },
+          {
+            "id": "o2",
+            "text": "Wir haben wenig Zeit, deshalb planen wir die Arbeit."
+          },
+          {
+            "id": "o3",
+            "text": "Wir haben wenig Zeit, weil planen wir die Arbeit."
+          },
+          {
+            "id": "o4",
+            "text": "Wir haben wenig Zeit, obwohl planen wir die Arbeit."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q7",
         "type": "mcq",
         "prompt": "Ergänze: Ich glaube, dass sie Recht ___.",
         "options": [
-          "sein",
-          "haben",
-          "hat",
-          "hatte"
+          {
+            "id": "o1",
+            "text": "sein"
+          },
+          {
+            "id": "o2",
+            "text": "haben"
+          },
+          {
+            "id": "o3",
+            "text": "hat"
+          },
+          {
+            "id": "o4",
+            "text": "hatte"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q8",
         "type": "mcq",
         "prompt": "Welcher Satz begründet eine Wahl?",
         "options": [
-          "Ich nehme den Zug er nachhaltiger ist weil.",
-          "Ich nehme den Zug, aber er nachhaltiger ist.",
-          "Ich nehme den Zug, deshalb er nachhaltiger ist?",
-          "Ich nehme den Zug, weil er nachhaltiger ist."
+          {
+            "id": "o1",
+            "text": "Ich nehme den Zug er nachhaltiger ist weil."
+          },
+          {
+            "id": "o2",
+            "text": "Ich nehme den Zug, aber er nachhaltiger ist."
+          },
+          {
+            "id": "o3",
+            "text": "Ich nehme den Zug, deshalb er nachhaltiger ist?"
+          },
+          {
+            "id": "o4",
+            "text": "Ich nehme den Zug, weil er nachhaltiger ist."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       }
     ]
@@ -51785,121 +62501,277 @@
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Zug",
-          "Ticket",
-          "Abfahrt",
-          "Ankunft"
-        ]
+          {
+            "id": "o1",
+            "text": "Zug"
+          },
+          {
+            "id": "o2",
+            "text": "Ticket"
+          },
+          {
+            "id": "o3",
+            "text": "Abfahrt"
+          },
+          {
+            "id": "o4",
+            "text": "Ankunft"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Zug",
-          "Ticket",
-          "Abfahrt",
-          "Ankunft"
-        ]
+          {
+            "id": "o1",
+            "text": "Zug"
+          },
+          {
+            "id": "o2",
+            "text": "Ticket"
+          },
+          {
+            "id": "o3",
+            "text": "Abfahrt"
+          },
+          {
+            "id": "o4",
+            "text": "Ankunft"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Ticket",
-          "Zug",
-          "Abfahrt",
-          "Ankunft"
-        ]
+          {
+            "id": "o1",
+            "text": "Ticket"
+          },
+          {
+            "id": "o2",
+            "text": "Zug"
+          },
+          {
+            "id": "o3",
+            "text": "Abfahrt"
+          },
+          {
+            "id": "o4",
+            "text": "Ankunft"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Abfahrt",
-          "Zug",
-          "Ticket",
-          "Ankunft"
-        ]
+          {
+            "id": "o1",
+            "text": "Abfahrt"
+          },
+          {
+            "id": "o2",
+            "text": "Zug"
+          },
+          {
+            "id": "o3",
+            "text": "Ticket"
+          },
+          {
+            "id": "o4",
+            "text": "Ankunft"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Reise",
-          "Zug",
-          "Ticket",
-          "Abfahrt"
-        ]
+          {
+            "id": "o1",
+            "text": "Reise"
+          },
+          {
+            "id": "o2",
+            "text": "Zug"
+          },
+          {
+            "id": "o3",
+            "text": "Ticket"
+          },
+          {
+            "id": "o4",
+            "text": "Abfahrt"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Zug",
-          "Koffer",
-          "Ticket",
-          "Abfahrt"
-        ]
+          {
+            "id": "o1",
+            "text": "Zug"
+          },
+          {
+            "id": "o2",
+            "text": "Koffer"
+          },
+          {
+            "id": "o3",
+            "text": "Ticket"
+          },
+          {
+            "id": "o4",
+            "text": "Abfahrt"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Ticket",
-          "Zug",
-          "Bahnhof",
-          "Abfahrt"
-        ]
+          {
+            "id": "o1",
+            "text": "Ticket"
+          },
+          {
+            "id": "o2",
+            "text": "Zug"
+          },
+          {
+            "id": "o3",
+            "text": "Bahnhof"
+          },
+          {
+            "id": "o4",
+            "text": "Abfahrt"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Abfahrt",
-          "Zug",
-          "Ticket",
-          "warten"
-        ]
+          {
+            "id": "o1",
+            "text": "Abfahrt"
+          },
+          {
+            "id": "o2",
+            "text": "Zug"
+          },
+          {
+            "id": "o3",
+            "text": "Ticket"
+          },
+          {
+            "id": "o4",
+            "text": "warten"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "fahren",
-          "Zug",
-          "Ticket",
-          "Abfahrt"
-        ]
+          {
+            "id": "o1",
+            "text": "fahren"
+          },
+          {
+            "id": "o2",
+            "text": "Zug"
+          },
+          {
+            "id": "o3",
+            "text": "Ticket"
+          },
+          {
+            "id": "o4",
+            "text": "Abfahrt"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Zug",
-          "besuchen",
-          "Ticket",
-          "Abfahrt"
-        ]
+          {
+            "id": "o1",
+            "text": "Zug"
+          },
+          {
+            "id": "o2",
+            "text": "besuchen"
+          },
+          {
+            "id": "o3",
+            "text": "Ticket"
+          },
+          {
+            "id": "o4",
+            "text": "Abfahrt"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Ticket",
-          "Zug",
-          "heute",
-          "Abfahrt"
-        ]
+          {
+            "id": "o1",
+            "text": "Ticket"
+          },
+          {
+            "id": "o2",
+            "text": "Zug"
+          },
+          {
+            "id": "o3",
+            "text": "heute"
+          },
+          {
+            "id": "o4",
+            "text": "Abfahrt"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Abfahrt",
-          "Zug",
-          "Ticket",
-          "zusammen"
-        ]
+          {
+            "id": "o1",
+            "text": "Abfahrt"
+          },
+          {
+            "id": "o2",
+            "text": "Zug"
+          },
+          {
+            "id": "o3",
+            "text": "Ticket"
+          },
+          {
+            "id": "o4",
+            "text": "zusammen"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },
@@ -52067,121 +62939,277 @@
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Service",
-          "Formular",
-          "Rathaus",
-          "Auskunft"
-        ]
+          {
+            "id": "o1",
+            "text": "Service"
+          },
+          {
+            "id": "o2",
+            "text": "Formular"
+          },
+          {
+            "id": "o3",
+            "text": "Rathaus"
+          },
+          {
+            "id": "o4",
+            "text": "Auskunft"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Service",
-          "Formular",
-          "Rathaus",
-          "Auskunft"
-        ]
+          {
+            "id": "o1",
+            "text": "Service"
+          },
+          {
+            "id": "o2",
+            "text": "Formular"
+          },
+          {
+            "id": "o3",
+            "text": "Rathaus"
+          },
+          {
+            "id": "o4",
+            "text": "Auskunft"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Formular",
-          "Service",
-          "Rathaus",
-          "Auskunft"
-        ]
+          {
+            "id": "o1",
+            "text": "Formular"
+          },
+          {
+            "id": "o2",
+            "text": "Service"
+          },
+          {
+            "id": "o3",
+            "text": "Rathaus"
+          },
+          {
+            "id": "o4",
+            "text": "Auskunft"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Rathaus",
-          "Service",
-          "Formular",
-          "Auskunft"
-        ]
+          {
+            "id": "o1",
+            "text": "Rathaus"
+          },
+          {
+            "id": "o2",
+            "text": "Service"
+          },
+          {
+            "id": "o3",
+            "text": "Formular"
+          },
+          {
+            "id": "o4",
+            "text": "Auskunft"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Problem",
-          "Service",
-          "Formular",
-          "Rathaus"
-        ]
+          {
+            "id": "o1",
+            "text": "Problem"
+          },
+          {
+            "id": "o2",
+            "text": "Service"
+          },
+          {
+            "id": "o3",
+            "text": "Formular"
+          },
+          {
+            "id": "o4",
+            "text": "Rathaus"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Service",
-          "helfen",
-          "Formular",
-          "Rathaus"
-        ]
+          {
+            "id": "o1",
+            "text": "Service"
+          },
+          {
+            "id": "o2",
+            "text": "helfen"
+          },
+          {
+            "id": "o3",
+            "text": "Formular"
+          },
+          {
+            "id": "o4",
+            "text": "Rathaus"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Formular",
-          "Service",
-          "erklären",
-          "Rathaus"
-        ]
+          {
+            "id": "o1",
+            "text": "Formular"
+          },
+          {
+            "id": "o2",
+            "text": "Service"
+          },
+          {
+            "id": "o3",
+            "text": "erklären"
+          },
+          {
+            "id": "o4",
+            "text": "Rathaus"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Rathaus",
-          "Service",
-          "Formular",
-          "öffnen"
-        ]
+          {
+            "id": "o1",
+            "text": "Rathaus"
+          },
+          {
+            "id": "o2",
+            "text": "Service"
+          },
+          {
+            "id": "o3",
+            "text": "Formular"
+          },
+          {
+            "id": "o4",
+            "text": "öffnen"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "geschlossen",
-          "Service",
-          "Formular",
-          "Rathaus"
-        ]
+          {
+            "id": "o1",
+            "text": "geschlossen"
+          },
+          {
+            "id": "o2",
+            "text": "Service"
+          },
+          {
+            "id": "o3",
+            "text": "Formular"
+          },
+          {
+            "id": "o4",
+            "text": "Rathaus"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Service",
-          "Lösung",
-          "Formular",
-          "Rathaus"
-        ]
+          {
+            "id": "o1",
+            "text": "Service"
+          },
+          {
+            "id": "o2",
+            "text": "Lösung"
+          },
+          {
+            "id": "o3",
+            "text": "Formular"
+          },
+          {
+            "id": "o4",
+            "text": "Rathaus"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Formular",
-          "Service",
-          "heute",
-          "Rathaus"
-        ]
+          {
+            "id": "o1",
+            "text": "Formular"
+          },
+          {
+            "id": "o2",
+            "text": "Service"
+          },
+          {
+            "id": "o3",
+            "text": "heute"
+          },
+          {
+            "id": "o4",
+            "text": "Rathaus"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Rathaus",
-          "Service",
-          "Formular",
-          "zusammen"
-        ]
+          {
+            "id": "o1",
+            "text": "Rathaus"
+          },
+          {
+            "id": "o2",
+            "text": "Service"
+          },
+          {
+            "id": "o3",
+            "text": "Formular"
+          },
+          {
+            "id": "o4",
+            "text": "zusammen"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },
@@ -52349,121 +63377,277 @@
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Zukunft",
-          "Ziel",
-          "Möglichkeit",
-          "entscheiden"
-        ]
+          {
+            "id": "o1",
+            "text": "Zukunft"
+          },
+          {
+            "id": "o2",
+            "text": "Ziel"
+          },
+          {
+            "id": "o3",
+            "text": "Möglichkeit"
+          },
+          {
+            "id": "o4",
+            "text": "entscheiden"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Zukunft",
-          "Ziel",
-          "Möglichkeit",
-          "entscheiden"
-        ]
+          {
+            "id": "o1",
+            "text": "Zukunft"
+          },
+          {
+            "id": "o2",
+            "text": "Ziel"
+          },
+          {
+            "id": "o3",
+            "text": "Möglichkeit"
+          },
+          {
+            "id": "o4",
+            "text": "entscheiden"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Ziel",
-          "Zukunft",
-          "Möglichkeit",
-          "entscheiden"
-        ]
+          {
+            "id": "o1",
+            "text": "Ziel"
+          },
+          {
+            "id": "o2",
+            "text": "Zukunft"
+          },
+          {
+            "id": "o3",
+            "text": "Möglichkeit"
+          },
+          {
+            "id": "o4",
+            "text": "entscheiden"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Möglichkeit",
-          "Zukunft",
-          "Ziel",
-          "entscheiden"
-        ]
+          {
+            "id": "o1",
+            "text": "Möglichkeit"
+          },
+          {
+            "id": "o2",
+            "text": "Zukunft"
+          },
+          {
+            "id": "o3",
+            "text": "Ziel"
+          },
+          {
+            "id": "o4",
+            "text": "entscheiden"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Erfahrung",
-          "Zukunft",
-          "Ziel",
-          "Möglichkeit"
-        ]
+          {
+            "id": "o1",
+            "text": "Erfahrung"
+          },
+          {
+            "id": "o2",
+            "text": "Zukunft"
+          },
+          {
+            "id": "o3",
+            "text": "Ziel"
+          },
+          {
+            "id": "o4",
+            "text": "Möglichkeit"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Zukunft",
-          "Ausbildung",
-          "Ziel",
-          "Möglichkeit"
-        ]
+          {
+            "id": "o1",
+            "text": "Zukunft"
+          },
+          {
+            "id": "o2",
+            "text": "Ausbildung"
+          },
+          {
+            "id": "o3",
+            "text": "Ziel"
+          },
+          {
+            "id": "o4",
+            "text": "Möglichkeit"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Ziel",
-          "Zukunft",
-          "Weg",
-          "Möglichkeit"
-        ]
+          {
+            "id": "o1",
+            "text": "Ziel"
+          },
+          {
+            "id": "o2",
+            "text": "Zukunft"
+          },
+          {
+            "id": "o3",
+            "text": "Weg"
+          },
+          {
+            "id": "o4",
+            "text": "Möglichkeit"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Möglichkeit",
-          "Zukunft",
-          "Ziel",
-          "hoffen"
-        ]
+          {
+            "id": "o1",
+            "text": "Möglichkeit"
+          },
+          {
+            "id": "o2",
+            "text": "Zukunft"
+          },
+          {
+            "id": "o3",
+            "text": "Ziel"
+          },
+          {
+            "id": "o4",
+            "text": "hoffen"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Wahl",
-          "Zukunft",
-          "Ziel",
-          "Möglichkeit"
-        ]
+          {
+            "id": "o1",
+            "text": "Wahl"
+          },
+          {
+            "id": "o2",
+            "text": "Zukunft"
+          },
+          {
+            "id": "o3",
+            "text": "Ziel"
+          },
+          {
+            "id": "o4",
+            "text": "Möglichkeit"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Zukunft",
-          "erreichen",
-          "Ziel",
-          "Möglichkeit"
-        ]
+          {
+            "id": "o1",
+            "text": "Zukunft"
+          },
+          {
+            "id": "o2",
+            "text": "erreichen"
+          },
+          {
+            "id": "o3",
+            "text": "Ziel"
+          },
+          {
+            "id": "o4",
+            "text": "Möglichkeit"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Ziel",
-          "Zukunft",
-          "heute",
-          "Möglichkeit"
-        ]
+          {
+            "id": "o1",
+            "text": "Ziel"
+          },
+          {
+            "id": "o2",
+            "text": "Zukunft"
+          },
+          {
+            "id": "o3",
+            "text": "heute"
+          },
+          {
+            "id": "o4",
+            "text": "Möglichkeit"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Möglichkeit",
-          "Zukunft",
-          "Ziel",
-          "zusammen"
-        ]
+          {
+            "id": "o1",
+            "text": "Möglichkeit"
+          },
+          {
+            "id": "o2",
+            "text": "Zukunft"
+          },
+          {
+            "id": "o3",
+            "text": "Ziel"
+          },
+          {
+            "id": "o4",
+            "text": "zusammen"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },
@@ -54743,93 +65927,198 @@
     "extra": {
       "grammarProfile": {
         "name": "Adjektive und Farben",
-        "definition": "Adjektive beschreiben Nomen und folgen häufig dem Nomen.",
-        "structure": "Das blaue Hemd ist schön.",
-        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
+        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
+        "structure": "Subjekt + Verb + Ergänzung",
+        "function": "Über Personen, Orte und Alltag sprechen.",
         "examples": [
-          "Das blaue Hemd ist schön."
+          "Ich wohne im Viertel.",
+          "Leon spricht mit Anna."
         ]
       },
       "grammarTest": {
         "questions": [
           {
+            "id": "q1",
             "type": "mcq",
             "prompt": "Ergänze: Ich ___ im Viertel.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "wohne"
+              },
+              {
+                "id": "o2",
+                "text": "wohnt"
+              },
+              {
+                "id": "o3",
+                "text": "wohnen"
+              },
+              {
+                "id": "o4",
+                "text": "wohnst"
+              }
             ]
           },
           {
+            "id": "q2",
             "type": "mcq",
             "prompt": "Wähle den richtigen Satz.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Leon sprechen mit Anna."
+              },
+              {
+                "id": "o2",
+                "text": "Leon spricht mit Anna."
+              },
+              {
+                "id": "o3",
+                "text": "Leon spreche mit Anna."
+              },
+              {
+                "id": "o4",
+                "text": "Leon sprich mit Anna."
+              }
             ]
           },
           {
+            "id": "q3",
             "type": "mcq",
             "prompt": "Ergänze: Wir ___ jeden Tag Deutsch.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "lerne"
+              },
+              {
+                "id": "o2",
+                "text": "lernt"
+              },
+              {
+                "id": "o3",
+                "text": "lernen"
+              },
+              {
+                "id": "o4",
+                "text": "lernst"
+              }
             ]
           },
           {
+            "id": "q4",
             "type": "mcq",
             "prompt": "Welche Frage ist richtig?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Wo wohnst?"
+              },
+              {
+                "id": "o2",
+                "text": "Wo wohnen du?"
+              },
+              {
+                "id": "o3",
+                "text": "Wo du wohnst?"
+              },
+              {
+                "id": "o4",
+                "text": "Wo wohnst du?"
+              }
             ]
           },
           {
+            "id": "q5",
             "type": "mcq",
             "prompt": "Ergänze: Sie ___ eine Frage.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "stellt"
+              },
+              {
+                "id": "o2",
+                "text": "stelle"
+              },
+              {
+                "id": "o3",
+                "text": "stellen"
+              },
+              {
+                "id": "o4",
+                "text": "stellst"
+              }
             ]
           },
           {
+            "id": "q6",
             "type": "mcq",
             "prompt": "Wähle den Satz über ein Haus.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Das Haus sind hell."
+              },
+              {
+                "id": "o2",
+                "text": "Das Haus ist hell."
+              },
+              {
+                "id": "o3",
+                "text": "Die Haus ist hell."
+              },
+              {
+                "id": "o4",
+                "text": "Das Haus ist helle."
+              }
             ]
           },
           {
+            "id": "q7",
             "type": "mcq",
             "prompt": "Ergänze: Du ___ Kaffee.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "trinken"
+              },
+              {
+                "id": "o2",
+                "text": "trinkt"
+              },
+              {
+                "id": "o3",
+                "text": "trinkst"
+              },
+              {
+                "id": "o4",
+                "text": "trinke"
+              }
             ]
           },
           {
+            "id": "q8",
             "type": "mcq",
             "prompt": "Welcher Satz beschreibt eine Routine?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Jeden Morgen arbeitet ich im Zentrum."
+              },
+              {
+                "id": "o2",
+                "text": "Gestern arbeiten ich im Zentrum."
+              },
+              {
+                "id": "o3",
+                "text": "Morgen arbeitete ich im Zentrum."
+              },
+              {
+                "id": "o4",
+                "text": "Jeden Morgen arbeite ich im Zentrum."
+              }
             ]
           }
         ]
@@ -54838,91 +66127,203 @@
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
         "prompt": "Ergänze: Ich ___ im Viertel.",
         "options": [
-          "wohne",
-          "wohnt",
-          "wohnen",
-          "wohnst"
+          {
+            "id": "o1",
+            "text": "wohne"
+          },
+          {
+            "id": "o2",
+            "text": "wohnt"
+          },
+          {
+            "id": "o3",
+            "text": "wohnen"
+          },
+          {
+            "id": "o4",
+            "text": "wohnst"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q2",
         "type": "mcq",
         "prompt": "Wähle den richtigen Satz.",
         "options": [
-          "Leon sprechen mit Anna.",
-          "Leon spricht mit Anna.",
-          "Leon spreche mit Anna.",
-          "Leon sprich mit Anna."
+          {
+            "id": "o1",
+            "text": "Leon sprechen mit Anna."
+          },
+          {
+            "id": "o2",
+            "text": "Leon spricht mit Anna."
+          },
+          {
+            "id": "o3",
+            "text": "Leon spreche mit Anna."
+          },
+          {
+            "id": "o4",
+            "text": "Leon sprich mit Anna."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q3",
         "type": "mcq",
         "prompt": "Ergänze: Wir ___ jeden Tag Deutsch.",
         "options": [
-          "lerne",
-          "lernt",
-          "lernen",
-          "lernst"
+          {
+            "id": "o1",
+            "text": "lerne"
+          },
+          {
+            "id": "o2",
+            "text": "lernt"
+          },
+          {
+            "id": "o3",
+            "text": "lernen"
+          },
+          {
+            "id": "o4",
+            "text": "lernst"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q4",
         "type": "mcq",
         "prompt": "Welche Frage ist richtig?",
         "options": [
-          "Wo wohnst?",
-          "Wo wohnen du?",
-          "Wo du wohnst?",
-          "Wo wohnst du?"
+          {
+            "id": "o1",
+            "text": "Wo wohnst?"
+          },
+          {
+            "id": "o2",
+            "text": "Wo wohnen du?"
+          },
+          {
+            "id": "o3",
+            "text": "Wo du wohnst?"
+          },
+          {
+            "id": "o4",
+            "text": "Wo wohnst du?"
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q5",
         "type": "mcq",
         "prompt": "Ergänze: Sie ___ eine Frage.",
         "options": [
-          "stellt",
-          "stelle",
-          "stellen",
-          "stellst"
+          {
+            "id": "o1",
+            "text": "stellt"
+          },
+          {
+            "id": "o2",
+            "text": "stelle"
+          },
+          {
+            "id": "o3",
+            "text": "stellen"
+          },
+          {
+            "id": "o4",
+            "text": "stellst"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q6",
         "type": "mcq",
         "prompt": "Wähle den Satz über ein Haus.",
         "options": [
-          "Das Haus sind hell.",
-          "Das Haus ist hell.",
-          "Die Haus ist hell.",
-          "Das Haus ist helle."
+          {
+            "id": "o1",
+            "text": "Das Haus sind hell."
+          },
+          {
+            "id": "o2",
+            "text": "Das Haus ist hell."
+          },
+          {
+            "id": "o3",
+            "text": "Die Haus ist hell."
+          },
+          {
+            "id": "o4",
+            "text": "Das Haus ist helle."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q7",
         "type": "mcq",
         "prompt": "Ergänze: Du ___ Kaffee.",
         "options": [
-          "trinken",
-          "trinkt",
-          "trinkst",
-          "trinke"
+          {
+            "id": "o1",
+            "text": "trinken"
+          },
+          {
+            "id": "o2",
+            "text": "trinkt"
+          },
+          {
+            "id": "o3",
+            "text": "trinkst"
+          },
+          {
+            "id": "o4",
+            "text": "trinke"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q8",
         "type": "mcq",
         "prompt": "Welcher Satz beschreibt eine Routine?",
         "options": [
-          "Jeden Morgen arbeitet ich im Zentrum.",
-          "Gestern arbeiten ich im Zentrum.",
-          "Morgen arbeitete ich im Zentrum.",
-          "Jeden Morgen arbeite ich im Zentrum."
+          {
+            "id": "o1",
+            "text": "Jeden Morgen arbeitet ich im Zentrum."
+          },
+          {
+            "id": "o2",
+            "text": "Gestern arbeiten ich im Zentrum."
+          },
+          {
+            "id": "o3",
+            "text": "Morgen arbeitete ich im Zentrum."
+          },
+          {
+            "id": "o4",
+            "text": "Jeden Morgen arbeite ich im Zentrum."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       }
     ]
@@ -55003,93 +66404,198 @@
     "extra": {
       "grammarProfile": {
         "name": "Perfekt y conectores de secuencia",
-        "definition": "Primero, después y al final organizan una historia en pasado.",
-        "structure": "Zuerst haben wir gegessen, dann haben wir gefeiert.",
-        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
+        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
+        "structure": "haben/sein + Partizip II",
+        "function": "Erfahrungen und Pläne erzählen.",
         "examples": [
-          "Zuerst haben wir gegessen, dann haben wir gefeiert."
+          "Gestern habe ich das Museum besucht.",
+          "Danach haben wir zusammen gesprochen."
         ]
       },
       "grammarTest": {
         "questions": [
           {
+            "id": "q1",
             "type": "mcq",
             "prompt": "Ergänze: Gestern ___ ich das Museum ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "habe besucht"
+              },
+              {
+                "id": "o2",
+                "text": "besuche"
+              },
+              {
+                "id": "o3",
+                "text": "habe besuchen"
+              },
+              {
+                "id": "o4",
+                "text": "bin besucht"
+              }
             ]
           },
           {
+            "id": "q2",
             "type": "mcq",
             "prompt": "Wähle den richtigen Perfekt-Satz.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Wir haben zusammen essen."
+              },
+              {
+                "id": "o2",
+                "text": "Wir haben zusammen gegessen."
+              },
+              {
+                "id": "o3",
+                "text": "Wir sind zusammen gegessen."
+              },
+              {
+                "id": "o4",
+                "text": "Wir essen gestern zusammen."
+              }
             ]
           },
           {
+            "id": "q3",
             "type": "mcq",
             "prompt": "Ergänze: Marta ___ spät nach Hause ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "ist kommen"
+              },
+              {
+                "id": "o2",
+                "text": "hat gekommen"
+              },
+              {
+                "id": "o3",
+                "text": "ist gekommen"
+              },
+              {
+                "id": "o4",
+                "text": "kommt gestern"
+              }
             ]
           },
           {
+            "id": "q4",
             "type": "mcq",
             "prompt": "Welcher Satz zeigt eine Reihenfolge?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Zuerst haben wir gelernt, wenn sind wir gegangen."
+              },
+              {
+                "id": "o2",
+                "text": "Zuerst haben wir gelernt, weil sind wir gegangen."
+              },
+              {
+                "id": "o3",
+                "text": "Zuerst haben wir gelernt, obwohl sind wir gegangen."
+              },
+              {
+                "id": "o4",
+                "text": "Zuerst haben wir gelernt, dann sind wir gegangen."
+              }
             ]
           },
           {
+            "id": "q5",
             "type": "mcq",
             "prompt": "Ergänze: ___ du die Nachricht ___?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Hast gelesen"
+              },
+              {
+                "id": "o2",
+                "text": "Hast lesen"
+              },
+              {
+                "id": "o3",
+                "text": "Bist gelesen"
+              },
+              {
+                "id": "o4",
+                "text": "Liest gestern"
+              }
             ]
           },
           {
+            "id": "q6",
             "type": "mcq",
             "prompt": "Wähle den Perfekt-Satz mit dem richtigen Hilfsverb.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Meine Freunde sind den Bus genommen."
+              },
+              {
+                "id": "o2",
+                "text": "Meine Freunde haben den Bus genommen."
+              },
+              {
+                "id": "o3",
+                "text": "Meine Freunde haben den Bus nehmen."
+              },
+              {
+                "id": "o4",
+                "text": "Meine Freunde nehmen gestern den Bus."
+              }
             ]
           },
           {
+            "id": "q7",
             "type": "mcq",
             "prompt": "Ergänze: Wir ___ eine wichtige Erfahrung ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "haben machen"
+              },
+              {
+                "id": "o2",
+                "text": "sind gemacht"
+              },
+              {
+                "id": "o3",
+                "text": "haben gemacht"
+              },
+              {
+                "id": "o4",
+                "text": "machen gestern"
+              }
             ]
           },
           {
+            "id": "q8",
             "type": "mcq",
             "prompt": "Welcher Satz beschreibt eine abgeschlossene Handlung?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Am Samstag bin ich meine Cousine getroffen."
+              },
+              {
+                "id": "o2",
+                "text": "Am Samstag treffe ich meine Cousine morgen."
+              },
+              {
+                "id": "o3",
+                "text": "Am Samstag treffen meine Cousine."
+              },
+              {
+                "id": "o4",
+                "text": "Am Samstag habe ich meine Cousine getroffen."
+              }
             ]
           }
         ]
@@ -55098,91 +66604,203 @@
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
         "prompt": "Ergänze: Gestern ___ ich das Museum ___.",
         "options": [
-          "habe besucht",
-          "besuche",
-          "habe besuchen",
-          "bin besucht"
+          {
+            "id": "o1",
+            "text": "habe besucht"
+          },
+          {
+            "id": "o2",
+            "text": "besuche"
+          },
+          {
+            "id": "o3",
+            "text": "habe besuchen"
+          },
+          {
+            "id": "o4",
+            "text": "bin besucht"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q2",
         "type": "mcq",
         "prompt": "Wähle den richtigen Perfekt-Satz.",
         "options": [
-          "Wir haben zusammen essen.",
-          "Wir haben zusammen gegessen.",
-          "Wir sind zusammen gegessen.",
-          "Wir essen gestern zusammen."
+          {
+            "id": "o1",
+            "text": "Wir haben zusammen essen."
+          },
+          {
+            "id": "o2",
+            "text": "Wir haben zusammen gegessen."
+          },
+          {
+            "id": "o3",
+            "text": "Wir sind zusammen gegessen."
+          },
+          {
+            "id": "o4",
+            "text": "Wir essen gestern zusammen."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q3",
         "type": "mcq",
         "prompt": "Ergänze: Marta ___ spät nach Hause ___.",
         "options": [
-          "ist kommen",
-          "hat gekommen",
-          "ist gekommen",
-          "kommt gestern"
+          {
+            "id": "o1",
+            "text": "ist kommen"
+          },
+          {
+            "id": "o2",
+            "text": "hat gekommen"
+          },
+          {
+            "id": "o3",
+            "text": "ist gekommen"
+          },
+          {
+            "id": "o4",
+            "text": "kommt gestern"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q4",
         "type": "mcq",
         "prompt": "Welcher Satz zeigt eine Reihenfolge?",
         "options": [
-          "Zuerst haben wir gelernt, wenn sind wir gegangen.",
-          "Zuerst haben wir gelernt, weil sind wir gegangen.",
-          "Zuerst haben wir gelernt, obwohl sind wir gegangen.",
-          "Zuerst haben wir gelernt, dann sind wir gegangen."
+          {
+            "id": "o1",
+            "text": "Zuerst haben wir gelernt, wenn sind wir gegangen."
+          },
+          {
+            "id": "o2",
+            "text": "Zuerst haben wir gelernt, weil sind wir gegangen."
+          },
+          {
+            "id": "o3",
+            "text": "Zuerst haben wir gelernt, obwohl sind wir gegangen."
+          },
+          {
+            "id": "o4",
+            "text": "Zuerst haben wir gelernt, dann sind wir gegangen."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q5",
         "type": "mcq",
         "prompt": "Ergänze: ___ du die Nachricht ___?",
         "options": [
-          "Hast gelesen",
-          "Hast lesen",
-          "Bist gelesen",
-          "Liest gestern"
+          {
+            "id": "o1",
+            "text": "Hast gelesen"
+          },
+          {
+            "id": "o2",
+            "text": "Hast lesen"
+          },
+          {
+            "id": "o3",
+            "text": "Bist gelesen"
+          },
+          {
+            "id": "o4",
+            "text": "Liest gestern"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q6",
         "type": "mcq",
         "prompt": "Wähle den Perfekt-Satz mit dem richtigen Hilfsverb.",
         "options": [
-          "Meine Freunde sind den Bus genommen.",
-          "Meine Freunde haben den Bus genommen.",
-          "Meine Freunde haben den Bus nehmen.",
-          "Meine Freunde nehmen gestern den Bus."
+          {
+            "id": "o1",
+            "text": "Meine Freunde sind den Bus genommen."
+          },
+          {
+            "id": "o2",
+            "text": "Meine Freunde haben den Bus genommen."
+          },
+          {
+            "id": "o3",
+            "text": "Meine Freunde haben den Bus nehmen."
+          },
+          {
+            "id": "o4",
+            "text": "Meine Freunde nehmen gestern den Bus."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q7",
         "type": "mcq",
         "prompt": "Ergänze: Wir ___ eine wichtige Erfahrung ___.",
         "options": [
-          "haben machen",
-          "sind gemacht",
-          "haben gemacht",
-          "machen gestern"
+          {
+            "id": "o1",
+            "text": "haben machen"
+          },
+          {
+            "id": "o2",
+            "text": "sind gemacht"
+          },
+          {
+            "id": "o3",
+            "text": "haben gemacht"
+          },
+          {
+            "id": "o4",
+            "text": "machen gestern"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q8",
         "type": "mcq",
         "prompt": "Welcher Satz beschreibt eine abgeschlossene Handlung?",
         "options": [
-          "Am Samstag bin ich meine Cousine getroffen.",
-          "Am Samstag treffe ich meine Cousine morgen.",
-          "Am Samstag treffen meine Cousine.",
-          "Am Samstag habe ich meine Cousine getroffen."
+          {
+            "id": "o1",
+            "text": "Am Samstag bin ich meine Cousine getroffen."
+          },
+          {
+            "id": "o2",
+            "text": "Am Samstag treffe ich meine Cousine morgen."
+          },
+          {
+            "id": "o3",
+            "text": "Am Samstag treffen meine Cousine."
+          },
+          {
+            "id": "o4",
+            "text": "Am Samstag habe ich meine Cousine getroffen."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       }
     ]
@@ -55266,9 +66884,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Beziehungen: Relativsätze und indirekte Fragen",
-        "definition": "Práctica guiada de Beziehungen: Relativsätze und indirekte Fragen.",
+        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
         "structure": "Meinung + weil/obwohl/deshalb + Begründung",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Eine Meinung ausdrücken und begründen.",
         "examples": [
           "Ich finde den Vorschlag sinnvoll.",
           "Trotzdem müssen wir die Ergebnisse prüfen."
@@ -55277,83 +66895,187 @@
       "grammarTest": {
         "questions": [
           {
+            "id": "q1",
             "type": "mcq",
             "prompt": "Ergänze: Ich finde, dass der Vorschlag sinnvoll ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "ist"
+              },
+              {
+                "id": "o2",
+                "text": "sind"
+              },
+              {
+                "id": "o3",
+                "text": "sein"
+              },
+              {
+                "id": "o4",
+                "text": "sei"
+              }
             ]
           },
           {
+            "id": "q2",
             "type": "mcq",
             "prompt": "Wähle den Konnektor für einen Gegensatz.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Ich möchte ausgehen, deshalb es regnet."
+              },
+              {
+                "id": "o2",
+                "text": "Ich möchte ausgehen, aber es regnet."
+              },
+              {
+                "id": "o3",
+                "text": "Ich möchte ausgehen, weil es regnet."
+              },
+              {
+                "id": "o4",
+                "text": "Ich möchte ausgehen, dann es regnet."
+              }
             ]
           },
           {
+            "id": "q3",
             "type": "mcq",
             "prompt": "Ergänze: Ich bleibe zu Hause, weil ich müde ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "sein"
+              },
+              {
+                "id": "o2",
+                "text": "ist"
+              },
+              {
+                "id": "o3",
+                "text": "bin"
+              },
+              {
+                "id": "o4",
+                "text": "bist"
+              }
             ]
           },
           {
+            "id": "q4",
             "type": "mcq",
             "prompt": "Welcher Satz drückt eine Meinung aus?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Das Projekt funktioniert warum?"
+              },
+              {
+                "id": "o2",
+                "text": "Das Projekt gestern funktioniert?"
+              },
+              {
+                "id": "o3",
+                "text": "Funktionieren das Projekt meiner Meinung."
+              },
+              {
+                "id": "o4",
+                "text": "Meiner Meinung nach funktioniert das Projekt."
+              }
             ]
           },
           {
+            "id": "q5",
             "type": "mcq",
             "prompt": "Ergänze: Obwohl es spät ___, arbeiten wir weiter.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "ist"
+              },
+              {
+                "id": "o2",
+                "text": "sind"
+              },
+              {
+                "id": "o3",
+                "text": "sein"
+              },
+              {
+                "id": "o4",
+                "text": "bist"
+              }
             ]
           },
           {
+            "id": "q6",
             "type": "mcq",
             "prompt": "Wähle eine logische Folge.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Wir haben wenig Zeit, aber planen wir die Arbeit."
+              },
+              {
+                "id": "o2",
+                "text": "Wir haben wenig Zeit, deshalb planen wir die Arbeit."
+              },
+              {
+                "id": "o3",
+                "text": "Wir haben wenig Zeit, weil planen wir die Arbeit."
+              },
+              {
+                "id": "o4",
+                "text": "Wir haben wenig Zeit, obwohl planen wir die Arbeit."
+              }
             ]
           },
           {
+            "id": "q7",
             "type": "mcq",
             "prompt": "Ergänze: Ich glaube, dass sie Recht ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "sein"
+              },
+              {
+                "id": "o2",
+                "text": "haben"
+              },
+              {
+                "id": "o3",
+                "text": "hat"
+              },
+              {
+                "id": "o4",
+                "text": "hatte"
+              }
             ]
           },
           {
+            "id": "q8",
             "type": "mcq",
             "prompt": "Welcher Satz begründet eine Wahl?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Ich nehme den Zug er nachhaltiger ist weil."
+              },
+              {
+                "id": "o2",
+                "text": "Ich nehme den Zug, aber er nachhaltiger ist."
+              },
+              {
+                "id": "o3",
+                "text": "Ich nehme den Zug, deshalb er nachhaltiger ist?"
+              },
+              {
+                "id": "o4",
+                "text": "Ich nehme den Zug, weil er nachhaltiger ist."
+              }
             ]
           }
         ]
@@ -55362,91 +67084,203 @@
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
         "prompt": "Ergänze: Ich finde, dass der Vorschlag sinnvoll ___.",
         "options": [
-          "ist",
-          "sind",
-          "sein",
-          "sei"
+          {
+            "id": "o1",
+            "text": "ist"
+          },
+          {
+            "id": "o2",
+            "text": "sind"
+          },
+          {
+            "id": "o3",
+            "text": "sein"
+          },
+          {
+            "id": "o4",
+            "text": "sei"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q2",
         "type": "mcq",
         "prompt": "Wähle den Konnektor für einen Gegensatz.",
         "options": [
-          "Ich möchte ausgehen, deshalb es regnet.",
-          "Ich möchte ausgehen, aber es regnet.",
-          "Ich möchte ausgehen, weil es regnet.",
-          "Ich möchte ausgehen, dann es regnet."
+          {
+            "id": "o1",
+            "text": "Ich möchte ausgehen, deshalb es regnet."
+          },
+          {
+            "id": "o2",
+            "text": "Ich möchte ausgehen, aber es regnet."
+          },
+          {
+            "id": "o3",
+            "text": "Ich möchte ausgehen, weil es regnet."
+          },
+          {
+            "id": "o4",
+            "text": "Ich möchte ausgehen, dann es regnet."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q3",
         "type": "mcq",
         "prompt": "Ergänze: Ich bleibe zu Hause, weil ich müde ___.",
         "options": [
-          "sein",
-          "ist",
-          "bin",
-          "bist"
+          {
+            "id": "o1",
+            "text": "sein"
+          },
+          {
+            "id": "o2",
+            "text": "ist"
+          },
+          {
+            "id": "o3",
+            "text": "bin"
+          },
+          {
+            "id": "o4",
+            "text": "bist"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q4",
         "type": "mcq",
         "prompt": "Welcher Satz drückt eine Meinung aus?",
         "options": [
-          "Das Projekt funktioniert warum?",
-          "Das Projekt gestern funktioniert?",
-          "Funktionieren das Projekt meiner Meinung.",
-          "Meiner Meinung nach funktioniert das Projekt."
+          {
+            "id": "o1",
+            "text": "Das Projekt funktioniert warum?"
+          },
+          {
+            "id": "o2",
+            "text": "Das Projekt gestern funktioniert?"
+          },
+          {
+            "id": "o3",
+            "text": "Funktionieren das Projekt meiner Meinung."
+          },
+          {
+            "id": "o4",
+            "text": "Meiner Meinung nach funktioniert das Projekt."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q5",
         "type": "mcq",
         "prompt": "Ergänze: Obwohl es spät ___, arbeiten wir weiter.",
         "options": [
-          "ist",
-          "sind",
-          "sein",
-          "bist"
+          {
+            "id": "o1",
+            "text": "ist"
+          },
+          {
+            "id": "o2",
+            "text": "sind"
+          },
+          {
+            "id": "o3",
+            "text": "sein"
+          },
+          {
+            "id": "o4",
+            "text": "bist"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q6",
         "type": "mcq",
         "prompt": "Wähle eine logische Folge.",
         "options": [
-          "Wir haben wenig Zeit, aber planen wir die Arbeit.",
-          "Wir haben wenig Zeit, deshalb planen wir die Arbeit.",
-          "Wir haben wenig Zeit, weil planen wir die Arbeit.",
-          "Wir haben wenig Zeit, obwohl planen wir die Arbeit."
+          {
+            "id": "o1",
+            "text": "Wir haben wenig Zeit, aber planen wir die Arbeit."
+          },
+          {
+            "id": "o2",
+            "text": "Wir haben wenig Zeit, deshalb planen wir die Arbeit."
+          },
+          {
+            "id": "o3",
+            "text": "Wir haben wenig Zeit, weil planen wir die Arbeit."
+          },
+          {
+            "id": "o4",
+            "text": "Wir haben wenig Zeit, obwohl planen wir die Arbeit."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q7",
         "type": "mcq",
         "prompt": "Ergänze: Ich glaube, dass sie Recht ___.",
         "options": [
-          "sein",
-          "haben",
-          "hat",
-          "hatte"
+          {
+            "id": "o1",
+            "text": "sein"
+          },
+          {
+            "id": "o2",
+            "text": "haben"
+          },
+          {
+            "id": "o3",
+            "text": "hat"
+          },
+          {
+            "id": "o4",
+            "text": "hatte"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q8",
         "type": "mcq",
         "prompt": "Welcher Satz begründet eine Wahl?",
         "options": [
-          "Ich nehme den Zug er nachhaltiger ist weil.",
-          "Ich nehme den Zug, aber er nachhaltiger ist.",
-          "Ich nehme den Zug, deshalb er nachhaltiger ist?",
-          "Ich nehme den Zug, weil er nachhaltiger ist."
+          {
+            "id": "o1",
+            "text": "Ich nehme den Zug er nachhaltiger ist weil."
+          },
+          {
+            "id": "o2",
+            "text": "Ich nehme den Zug, aber er nachhaltiger ist."
+          },
+          {
+            "id": "o3",
+            "text": "Ich nehme den Zug, deshalb er nachhaltiger ist?"
+          },
+          {
+            "id": "o4",
+            "text": "Ich nehme den Zug, weil er nachhaltiger ist."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       }
     ]
@@ -57124,121 +68958,277 @@
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Kleidung",
-          "Hemd",
-          "Hose",
-          "Kleid"
-        ]
+          {
+            "id": "o1",
+            "text": "Kleidung"
+          },
+          {
+            "id": "o2",
+            "text": "Hemd"
+          },
+          {
+            "id": "o3",
+            "text": "Hose"
+          },
+          {
+            "id": "o4",
+            "text": "Kleid"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Kleidung",
-          "Hemd",
-          "Hose",
-          "Kleid"
-        ]
+          {
+            "id": "o1",
+            "text": "Kleidung"
+          },
+          {
+            "id": "o2",
+            "text": "Hemd"
+          },
+          {
+            "id": "o3",
+            "text": "Hose"
+          },
+          {
+            "id": "o4",
+            "text": "Kleid"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Hemd",
-          "Kleidung",
-          "Hose",
-          "Kleid"
-        ]
+          {
+            "id": "o1",
+            "text": "Hemd"
+          },
+          {
+            "id": "o2",
+            "text": "Kleidung"
+          },
+          {
+            "id": "o3",
+            "text": "Hose"
+          },
+          {
+            "id": "o4",
+            "text": "Kleid"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Hose",
-          "Kleidung",
-          "Hemd",
-          "Kleid"
-        ]
+          {
+            "id": "o1",
+            "text": "Hose"
+          },
+          {
+            "id": "o2",
+            "text": "Kleidung"
+          },
+          {
+            "id": "o3",
+            "text": "Hemd"
+          },
+          {
+            "id": "o4",
+            "text": "Kleid"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Farbe",
-          "Kleidung",
-          "Hemd",
-          "Hose"
-        ]
+          {
+            "id": "o1",
+            "text": "Farbe"
+          },
+          {
+            "id": "o2",
+            "text": "Kleidung"
+          },
+          {
+            "id": "o3",
+            "text": "Hemd"
+          },
+          {
+            "id": "o4",
+            "text": "Hose"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Kleidung",
-          "blau",
-          "Hemd",
-          "Hose"
-        ]
+          {
+            "id": "o1",
+            "text": "Kleidung"
+          },
+          {
+            "id": "o2",
+            "text": "blau"
+          },
+          {
+            "id": "o3",
+            "text": "Hemd"
+          },
+          {
+            "id": "o4",
+            "text": "Hose"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Hemd",
-          "Kleidung",
-          "rot",
-          "Hose"
-        ]
+          {
+            "id": "o1",
+            "text": "Hemd"
+          },
+          {
+            "id": "o2",
+            "text": "Kleidung"
+          },
+          {
+            "id": "o3",
+            "text": "rot"
+          },
+          {
+            "id": "o4",
+            "text": "Hose"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Hose",
-          "Kleidung",
-          "Hemd",
-          "tragen"
-        ]
+          {
+            "id": "o1",
+            "text": "Hose"
+          },
+          {
+            "id": "o2",
+            "text": "Kleidung"
+          },
+          {
+            "id": "o3",
+            "text": "Hemd"
+          },
+          {
+            "id": "o4",
+            "text": "tragen"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "passen",
-          "Kleidung",
-          "Hemd",
-          "Hose"
-        ]
+          {
+            "id": "o1",
+            "text": "passen"
+          },
+          {
+            "id": "o2",
+            "text": "Kleidung"
+          },
+          {
+            "id": "o3",
+            "text": "Hemd"
+          },
+          {
+            "id": "o4",
+            "text": "Hose"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Kleidung",
-          "kaufen",
-          "Hemd",
-          "Hose"
-        ]
+          {
+            "id": "o1",
+            "text": "Kleidung"
+          },
+          {
+            "id": "o2",
+            "text": "kaufen"
+          },
+          {
+            "id": "o3",
+            "text": "Hemd"
+          },
+          {
+            "id": "o4",
+            "text": "Hose"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Hemd",
-          "Kleidung",
-          "heute",
-          "Hose"
-        ]
+          {
+            "id": "o1",
+            "text": "Hemd"
+          },
+          {
+            "id": "o2",
+            "text": "Kleidung"
+          },
+          {
+            "id": "o3",
+            "text": "heute"
+          },
+          {
+            "id": "o4",
+            "text": "Hose"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Hose",
-          "Kleidung",
-          "Hemd",
-          "zusammen"
-        ]
+          {
+            "id": "o1",
+            "text": "Hose"
+          },
+          {
+            "id": "o2",
+            "text": "Kleidung"
+          },
+          {
+            "id": "o3",
+            "text": "Hemd"
+          },
+          {
+            "id": "o4",
+            "text": "zusammen"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },
@@ -57406,121 +69396,277 @@
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Fest",
-          "Tradition",
-          "feiern",
-          "vorbereitet"
-        ]
+          {
+            "id": "o1",
+            "text": "Fest"
+          },
+          {
+            "id": "o2",
+            "text": "Tradition"
+          },
+          {
+            "id": "o3",
+            "text": "feiern"
+          },
+          {
+            "id": "o4",
+            "text": "vorbereitet"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Fest",
-          "Tradition",
-          "feiern",
-          "vorbereitet"
-        ]
+          {
+            "id": "o1",
+            "text": "Fest"
+          },
+          {
+            "id": "o2",
+            "text": "Tradition"
+          },
+          {
+            "id": "o3",
+            "text": "feiern"
+          },
+          {
+            "id": "o4",
+            "text": "vorbereitet"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Tradition",
-          "Fest",
-          "feiern",
-          "vorbereitet"
-        ]
+          {
+            "id": "o1",
+            "text": "Tradition"
+          },
+          {
+            "id": "o2",
+            "text": "Fest"
+          },
+          {
+            "id": "o3",
+            "text": "feiern"
+          },
+          {
+            "id": "o4",
+            "text": "vorbereitet"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "feiern",
-          "Fest",
-          "Tradition",
-          "vorbereitet"
-        ]
+          {
+            "id": "o1",
+            "text": "feiern"
+          },
+          {
+            "id": "o2",
+            "text": "Fest"
+          },
+          {
+            "id": "o3",
+            "text": "Tradition"
+          },
+          {
+            "id": "o4",
+            "text": "vorbereitet"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "besucht",
-          "Fest",
-          "Tradition",
-          "feiern"
-        ]
+          {
+            "id": "o1",
+            "text": "besucht"
+          },
+          {
+            "id": "o2",
+            "text": "Fest"
+          },
+          {
+            "id": "o3",
+            "text": "Tradition"
+          },
+          {
+            "id": "o4",
+            "text": "feiern"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Fest",
-          "gemeinsam",
-          "Tradition",
-          "feiern"
-        ]
+          {
+            "id": "o1",
+            "text": "Fest"
+          },
+          {
+            "id": "o2",
+            "text": "gemeinsam"
+          },
+          {
+            "id": "o3",
+            "text": "Tradition"
+          },
+          {
+            "id": "o4",
+            "text": "feiern"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Tradition",
-          "Fest",
-          "Reihenfolge",
-          "feiern"
-        ]
+          {
+            "id": "o1",
+            "text": "Tradition"
+          },
+          {
+            "id": "o2",
+            "text": "Fest"
+          },
+          {
+            "id": "o3",
+            "text": "Reihenfolge"
+          },
+          {
+            "id": "o4",
+            "text": "feiern"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "feiern",
-          "Fest",
-          "Tradition",
-          "früher"
-        ]
+          {
+            "id": "o1",
+            "text": "feiern"
+          },
+          {
+            "id": "o2",
+            "text": "Fest"
+          },
+          {
+            "id": "o3",
+            "text": "Tradition"
+          },
+          {
+            "id": "o4",
+            "text": "früher"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "danach",
-          "Fest",
-          "Tradition",
-          "feiern"
-        ]
+          {
+            "id": "o1",
+            "text": "danach"
+          },
+          {
+            "id": "o2",
+            "text": "Fest"
+          },
+          {
+            "id": "o3",
+            "text": "Tradition"
+          },
+          {
+            "id": "o4",
+            "text": "feiern"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Fest",
-          "Erinnerung",
-          "Tradition",
-          "feiern"
-        ]
+          {
+            "id": "o1",
+            "text": "Fest"
+          },
+          {
+            "id": "o2",
+            "text": "Erinnerung"
+          },
+          {
+            "id": "o3",
+            "text": "Tradition"
+          },
+          {
+            "id": "o4",
+            "text": "feiern"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Tradition",
-          "Fest",
-          "heute",
-          "feiern"
-        ]
+          {
+            "id": "o1",
+            "text": "Tradition"
+          },
+          {
+            "id": "o2",
+            "text": "Fest"
+          },
+          {
+            "id": "o3",
+            "text": "heute"
+          },
+          {
+            "id": "o4",
+            "text": "feiern"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "feiern",
-          "Fest",
-          "Tradition",
-          "zusammen"
-        ]
+          {
+            "id": "o1",
+            "text": "feiern"
+          },
+          {
+            "id": "o2",
+            "text": "Fest"
+          },
+          {
+            "id": "o3",
+            "text": "Tradition"
+          },
+          {
+            "id": "o4",
+            "text": "zusammen"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },
@@ -57688,121 +69834,277 @@
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Beziehung",
-          "zuhören",
-          "erklären",
-          "Nachricht"
-        ]
+          {
+            "id": "o1",
+            "text": "Beziehung"
+          },
+          {
+            "id": "o2",
+            "text": "zuhören"
+          },
+          {
+            "id": "o3",
+            "text": "erklären"
+          },
+          {
+            "id": "o4",
+            "text": "Nachricht"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Beziehung",
-          "zuhören",
-          "erklären",
-          "Nachricht"
-        ]
+          {
+            "id": "o1",
+            "text": "Beziehung"
+          },
+          {
+            "id": "o2",
+            "text": "zuhören"
+          },
+          {
+            "id": "o3",
+            "text": "erklären"
+          },
+          {
+            "id": "o4",
+            "text": "Nachricht"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "zuhören",
-          "Beziehung",
-          "erklären",
-          "Nachricht"
-        ]
+          {
+            "id": "o1",
+            "text": "zuhören"
+          },
+          {
+            "id": "o2",
+            "text": "Beziehung"
+          },
+          {
+            "id": "o3",
+            "text": "erklären"
+          },
+          {
+            "id": "o4",
+            "text": "Nachricht"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "erklären",
-          "Beziehung",
-          "zuhören",
-          "Nachricht"
-        ]
+          {
+            "id": "o1",
+            "text": "erklären"
+          },
+          {
+            "id": "o2",
+            "text": "Beziehung"
+          },
+          {
+            "id": "o3",
+            "text": "zuhören"
+          },
+          {
+            "id": "o4",
+            "text": "Nachricht"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Vereinbarung",
-          "Beziehung",
-          "zuhören",
-          "erklären"
-        ]
+          {
+            "id": "o1",
+            "text": "Vereinbarung"
+          },
+          {
+            "id": "o2",
+            "text": "Beziehung"
+          },
+          {
+            "id": "o3",
+            "text": "zuhören"
+          },
+          {
+            "id": "o4",
+            "text": "erklären"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Beziehung",
-          "Vertrauen",
-          "zuhören",
-          "erklären"
-        ]
+          {
+            "id": "o1",
+            "text": "Beziehung"
+          },
+          {
+            "id": "o2",
+            "text": "Vertrauen"
+          },
+          {
+            "id": "o3",
+            "text": "zuhören"
+          },
+          {
+            "id": "o4",
+            "text": "erklären"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "zuhören",
-          "Beziehung",
-          "Gespräch",
-          "erklären"
-        ]
+          {
+            "id": "o1",
+            "text": "zuhören"
+          },
+          {
+            "id": "o2",
+            "text": "Beziehung"
+          },
+          {
+            "id": "o3",
+            "text": "Gespräch"
+          },
+          {
+            "id": "o4",
+            "text": "erklären"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "erklären",
-          "Beziehung",
-          "zuhören",
-          "Meinung"
-        ]
+          {
+            "id": "o1",
+            "text": "erklären"
+          },
+          {
+            "id": "o2",
+            "text": "Beziehung"
+          },
+          {
+            "id": "o3",
+            "text": "zuhören"
+          },
+          {
+            "id": "o4",
+            "text": "Meinung"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "klären",
-          "Beziehung",
-          "zuhören",
-          "erklären"
-        ]
+          {
+            "id": "o1",
+            "text": "klären"
+          },
+          {
+            "id": "o2",
+            "text": "Beziehung"
+          },
+          {
+            "id": "o3",
+            "text": "zuhören"
+          },
+          {
+            "id": "o4",
+            "text": "erklären"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Beziehung",
-          "respektieren",
-          "zuhören",
-          "erklären"
-        ]
+          {
+            "id": "o1",
+            "text": "Beziehung"
+          },
+          {
+            "id": "o2",
+            "text": "respektieren"
+          },
+          {
+            "id": "o3",
+            "text": "zuhören"
+          },
+          {
+            "id": "o4",
+            "text": "erklären"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "zuhören",
-          "Beziehung",
-          "heute",
-          "erklären"
-        ]
+          {
+            "id": "o1",
+            "text": "zuhören"
+          },
+          {
+            "id": "o2",
+            "text": "Beziehung"
+          },
+          {
+            "id": "o3",
+            "text": "heute"
+          },
+          {
+            "id": "o4",
+            "text": "erklären"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "erklären",
-          "Beziehung",
-          "zuhören",
-          "zusammen"
-        ]
+          {
+            "id": "o1",
+            "text": "erklären"
+          },
+          {
+            "id": "o2",
+            "text": "Beziehung"
+          },
+          {
+            "id": "o3",
+            "text": "zuhören"
+          },
+          {
+            "id": "o4",
+            "text": "zusammen"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },
@@ -60082,93 +72384,198 @@
     "extra": {
       "grammarProfile": {
         "name": "Einladung: möchten und Uhrzeiten",
-        "definition": "Mit möchten formulierst du eine höfliche Einladung und nennst Uhrzeiten.",
-        "structure": "Möchtest du um acht Uhr kommen?",
-        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
+        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
+        "structure": "Subjekt + Verb + Ergänzung",
+        "function": "Über Personen, Orte und Alltag sprechen.",
         "examples": [
-          "Möchtest du um acht Uhr kommen?"
+          "Ich wohne im Viertel.",
+          "Leon spricht mit Anna."
         ]
       },
       "grammarTest": {
         "questions": [
           {
+            "id": "q1",
             "type": "mcq",
             "prompt": "Ergänze: Ich ___ im Viertel.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "wohne"
+              },
+              {
+                "id": "o2",
+                "text": "wohnt"
+              },
+              {
+                "id": "o3",
+                "text": "wohnen"
+              },
+              {
+                "id": "o4",
+                "text": "wohnst"
+              }
             ]
           },
           {
+            "id": "q2",
             "type": "mcq",
             "prompt": "Wähle den richtigen Satz.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Leon sprechen mit Anna."
+              },
+              {
+                "id": "o2",
+                "text": "Leon spricht mit Anna."
+              },
+              {
+                "id": "o3",
+                "text": "Leon spreche mit Anna."
+              },
+              {
+                "id": "o4",
+                "text": "Leon sprich mit Anna."
+              }
             ]
           },
           {
+            "id": "q3",
             "type": "mcq",
             "prompt": "Ergänze: Wir ___ jeden Tag Deutsch.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "lerne"
+              },
+              {
+                "id": "o2",
+                "text": "lernt"
+              },
+              {
+                "id": "o3",
+                "text": "lernen"
+              },
+              {
+                "id": "o4",
+                "text": "lernst"
+              }
             ]
           },
           {
+            "id": "q4",
             "type": "mcq",
             "prompt": "Welche Frage ist richtig?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Wo wohnst?"
+              },
+              {
+                "id": "o2",
+                "text": "Wo wohnen du?"
+              },
+              {
+                "id": "o3",
+                "text": "Wo du wohnst?"
+              },
+              {
+                "id": "o4",
+                "text": "Wo wohnst du?"
+              }
             ]
           },
           {
+            "id": "q5",
             "type": "mcq",
             "prompt": "Ergänze: Sie ___ eine Frage.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "stellt"
+              },
+              {
+                "id": "o2",
+                "text": "stelle"
+              },
+              {
+                "id": "o3",
+                "text": "stellen"
+              },
+              {
+                "id": "o4",
+                "text": "stellst"
+              }
             ]
           },
           {
+            "id": "q6",
             "type": "mcq",
             "prompt": "Wähle den Satz über ein Haus.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Das Haus sind hell."
+              },
+              {
+                "id": "o2",
+                "text": "Das Haus ist hell."
+              },
+              {
+                "id": "o3",
+                "text": "Die Haus ist hell."
+              },
+              {
+                "id": "o4",
+                "text": "Das Haus ist helle."
+              }
             ]
           },
           {
+            "id": "q7",
             "type": "mcq",
             "prompt": "Ergänze: Du ___ Kaffee.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "trinken"
+              },
+              {
+                "id": "o2",
+                "text": "trinkt"
+              },
+              {
+                "id": "o3",
+                "text": "trinkst"
+              },
+              {
+                "id": "o4",
+                "text": "trinke"
+              }
             ]
           },
           {
+            "id": "q8",
             "type": "mcq",
             "prompt": "Welcher Satz beschreibt eine Routine?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Jeden Morgen arbeitet ich im Zentrum."
+              },
+              {
+                "id": "o2",
+                "text": "Gestern arbeiten ich im Zentrum."
+              },
+              {
+                "id": "o3",
+                "text": "Morgen arbeitete ich im Zentrum."
+              },
+              {
+                "id": "o4",
+                "text": "Jeden Morgen arbeite ich im Zentrum."
+              }
             ]
           }
         ]
@@ -60177,91 +72584,203 @@
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
         "prompt": "Ergänze: Ich ___ im Viertel.",
         "options": [
-          "wohne",
-          "wohnt",
-          "wohnen",
-          "wohnst"
+          {
+            "id": "o1",
+            "text": "wohne"
+          },
+          {
+            "id": "o2",
+            "text": "wohnt"
+          },
+          {
+            "id": "o3",
+            "text": "wohnen"
+          },
+          {
+            "id": "o4",
+            "text": "wohnst"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q2",
         "type": "mcq",
         "prompt": "Wähle den richtigen Satz.",
         "options": [
-          "Leon sprechen mit Anna.",
-          "Leon spricht mit Anna.",
-          "Leon spreche mit Anna.",
-          "Leon sprich mit Anna."
+          {
+            "id": "o1",
+            "text": "Leon sprechen mit Anna."
+          },
+          {
+            "id": "o2",
+            "text": "Leon spricht mit Anna."
+          },
+          {
+            "id": "o3",
+            "text": "Leon spreche mit Anna."
+          },
+          {
+            "id": "o4",
+            "text": "Leon sprich mit Anna."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q3",
         "type": "mcq",
         "prompt": "Ergänze: Wir ___ jeden Tag Deutsch.",
         "options": [
-          "lerne",
-          "lernt",
-          "lernen",
-          "lernst"
+          {
+            "id": "o1",
+            "text": "lerne"
+          },
+          {
+            "id": "o2",
+            "text": "lernt"
+          },
+          {
+            "id": "o3",
+            "text": "lernen"
+          },
+          {
+            "id": "o4",
+            "text": "lernst"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q4",
         "type": "mcq",
         "prompt": "Welche Frage ist richtig?",
         "options": [
-          "Wo wohnst?",
-          "Wo wohnen du?",
-          "Wo du wohnst?",
-          "Wo wohnst du?"
+          {
+            "id": "o1",
+            "text": "Wo wohnst?"
+          },
+          {
+            "id": "o2",
+            "text": "Wo wohnen du?"
+          },
+          {
+            "id": "o3",
+            "text": "Wo du wohnst?"
+          },
+          {
+            "id": "o4",
+            "text": "Wo wohnst du?"
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q5",
         "type": "mcq",
         "prompt": "Ergänze: Sie ___ eine Frage.",
         "options": [
-          "stellt",
-          "stelle",
-          "stellen",
-          "stellst"
+          {
+            "id": "o1",
+            "text": "stellt"
+          },
+          {
+            "id": "o2",
+            "text": "stelle"
+          },
+          {
+            "id": "o3",
+            "text": "stellen"
+          },
+          {
+            "id": "o4",
+            "text": "stellst"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q6",
         "type": "mcq",
         "prompt": "Wähle den Satz über ein Haus.",
         "options": [
-          "Das Haus sind hell.",
-          "Das Haus ist hell.",
-          "Die Haus ist hell.",
-          "Das Haus ist helle."
+          {
+            "id": "o1",
+            "text": "Das Haus sind hell."
+          },
+          {
+            "id": "o2",
+            "text": "Das Haus ist hell."
+          },
+          {
+            "id": "o3",
+            "text": "Die Haus ist hell."
+          },
+          {
+            "id": "o4",
+            "text": "Das Haus ist helle."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q7",
         "type": "mcq",
         "prompt": "Ergänze: Du ___ Kaffee.",
         "options": [
-          "trinken",
-          "trinkt",
-          "trinkst",
-          "trinke"
+          {
+            "id": "o1",
+            "text": "trinken"
+          },
+          {
+            "id": "o2",
+            "text": "trinkt"
+          },
+          {
+            "id": "o3",
+            "text": "trinkst"
+          },
+          {
+            "id": "o4",
+            "text": "trinke"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
+        "id": "q8",
         "type": "mcq",
         "prompt": "Welcher Satz beschreibt eine Routine?",
         "options": [
-          "Jeden Morgen arbeitet ich im Zentrum.",
-          "Gestern arbeiten ich im Zentrum.",
-          "Morgen arbeitete ich im Zentrum.",
-          "Jeden Morgen arbeite ich im Zentrum."
+          {
+            "id": "o1",
+            "text": "Jeden Morgen arbeitet ich im Zentrum."
+          },
+          {
+            "id": "o2",
+            "text": "Gestern arbeiten ich im Zentrum."
+          },
+          {
+            "id": "o3",
+            "text": "Morgen arbeitete ich im Zentrum."
+          },
+          {
+            "id": "o4",
+            "text": "Jeden Morgen arbeite ich im Zentrum."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       }
     ]
@@ -60342,93 +72861,198 @@
     "extra": {
       "grammarProfile": {
         "name": "Wohnungssuche: preposiciones y comparativos",
-        "definition": "Combina preposiciones de lugar y comparativos para describir viviendas.",
-        "structure": "Die Wohnung ist größer als das Zimmer neben dem Park.",
-        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
+        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
+        "structure": "haben/sein + Partizip II",
+        "function": "Erfahrungen und Pläne erzählen.",
         "examples": [
-          "Die Wohnung ist größer als das Zimmer neben dem Park."
+          "Gestern habe ich das Museum besucht.",
+          "Danach haben wir zusammen gesprochen."
         ]
       },
       "grammarTest": {
         "questions": [
           {
+            "id": "q1",
             "type": "mcq",
             "prompt": "Ergänze: Gestern ___ ich das Museum ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "habe besucht"
+              },
+              {
+                "id": "o2",
+                "text": "besuche"
+              },
+              {
+                "id": "o3",
+                "text": "habe besuchen"
+              },
+              {
+                "id": "o4",
+                "text": "bin besucht"
+              }
             ]
           },
           {
+            "id": "q2",
             "type": "mcq",
             "prompt": "Wähle den richtigen Perfekt-Satz.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Wir haben zusammen essen."
+              },
+              {
+                "id": "o2",
+                "text": "Wir haben zusammen gegessen."
+              },
+              {
+                "id": "o3",
+                "text": "Wir sind zusammen gegessen."
+              },
+              {
+                "id": "o4",
+                "text": "Wir essen gestern zusammen."
+              }
             ]
           },
           {
+            "id": "q3",
             "type": "mcq",
             "prompt": "Ergänze: Marta ___ spät nach Hause ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "ist kommen"
+              },
+              {
+                "id": "o2",
+                "text": "hat gekommen"
+              },
+              {
+                "id": "o3",
+                "text": "ist gekommen"
+              },
+              {
+                "id": "o4",
+                "text": "kommt gestern"
+              }
             ]
           },
           {
+            "id": "q4",
             "type": "mcq",
             "prompt": "Welcher Satz zeigt eine Reihenfolge?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Zuerst haben wir gelernt, wenn sind wir gegangen."
+              },
+              {
+                "id": "o2",
+                "text": "Zuerst haben wir gelernt, weil sind wir gegangen."
+              },
+              {
+                "id": "o3",
+                "text": "Zuerst haben wir gelernt, obwohl sind wir gegangen."
+              },
+              {
+                "id": "o4",
+                "text": "Zuerst haben wir gelernt, dann sind wir gegangen."
+              }
             ]
           },
           {
+            "id": "q5",
             "type": "mcq",
             "prompt": "Ergänze: ___ du die Nachricht ___?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Hast gelesen"
+              },
+              {
+                "id": "o2",
+                "text": "Hast lesen"
+              },
+              {
+                "id": "o3",
+                "text": "Bist gelesen"
+              },
+              {
+                "id": "o4",
+                "text": "Liest gestern"
+              }
             ]
           },
           {
+            "id": "q6",
             "type": "mcq",
             "prompt": "Wähle den Perfekt-Satz mit dem richtigen Hilfsverb.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Meine Freunde sind den Bus genommen."
+              },
+              {
+                "id": "o2",
+                "text": "Meine Freunde haben den Bus genommen."
+              },
+              {
+                "id": "o3",
+                "text": "Meine Freunde haben den Bus nehmen."
+              },
+              {
+                "id": "o4",
+                "text": "Meine Freunde nehmen gestern den Bus."
+              }
             ]
           },
           {
+            "id": "q7",
             "type": "mcq",
             "prompt": "Ergänze: Wir ___ eine wichtige Erfahrung ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "haben machen"
+              },
+              {
+                "id": "o2",
+                "text": "sind gemacht"
+              },
+              {
+                "id": "o3",
+                "text": "haben gemacht"
+              },
+              {
+                "id": "o4",
+                "text": "machen gestern"
+              }
             ]
           },
           {
+            "id": "q8",
             "type": "mcq",
             "prompt": "Welcher Satz beschreibt eine abgeschlossene Handlung?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Am Samstag bin ich meine Cousine getroffen."
+              },
+              {
+                "id": "o2",
+                "text": "Am Samstag treffe ich meine Cousine morgen."
+              },
+              {
+                "id": "o3",
+                "text": "Am Samstag treffen meine Cousine."
+              },
+              {
+                "id": "o4",
+                "text": "Am Samstag habe ich meine Cousine getroffen."
+              }
             ]
           }
         ]
@@ -60437,91 +73061,203 @@
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
         "prompt": "Ergänze: Gestern ___ ich das Museum ___.",
         "options": [
-          "habe besucht",
-          "besuche",
-          "habe besuchen",
-          "bin besucht"
+          {
+            "id": "o1",
+            "text": "habe besucht"
+          },
+          {
+            "id": "o2",
+            "text": "besuche"
+          },
+          {
+            "id": "o3",
+            "text": "habe besuchen"
+          },
+          {
+            "id": "o4",
+            "text": "bin besucht"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q2",
         "type": "mcq",
         "prompt": "Wähle den richtigen Perfekt-Satz.",
         "options": [
-          "Wir haben zusammen essen.",
-          "Wir haben zusammen gegessen.",
-          "Wir sind zusammen gegessen.",
-          "Wir essen gestern zusammen."
+          {
+            "id": "o1",
+            "text": "Wir haben zusammen essen."
+          },
+          {
+            "id": "o2",
+            "text": "Wir haben zusammen gegessen."
+          },
+          {
+            "id": "o3",
+            "text": "Wir sind zusammen gegessen."
+          },
+          {
+            "id": "o4",
+            "text": "Wir essen gestern zusammen."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q3",
         "type": "mcq",
         "prompt": "Ergänze: Marta ___ spät nach Hause ___.",
         "options": [
-          "ist kommen",
-          "hat gekommen",
-          "ist gekommen",
-          "kommt gestern"
+          {
+            "id": "o1",
+            "text": "ist kommen"
+          },
+          {
+            "id": "o2",
+            "text": "hat gekommen"
+          },
+          {
+            "id": "o3",
+            "text": "ist gekommen"
+          },
+          {
+            "id": "o4",
+            "text": "kommt gestern"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q4",
         "type": "mcq",
         "prompt": "Welcher Satz zeigt eine Reihenfolge?",
         "options": [
-          "Zuerst haben wir gelernt, wenn sind wir gegangen.",
-          "Zuerst haben wir gelernt, weil sind wir gegangen.",
-          "Zuerst haben wir gelernt, obwohl sind wir gegangen.",
-          "Zuerst haben wir gelernt, dann sind wir gegangen."
+          {
+            "id": "o1",
+            "text": "Zuerst haben wir gelernt, wenn sind wir gegangen."
+          },
+          {
+            "id": "o2",
+            "text": "Zuerst haben wir gelernt, weil sind wir gegangen."
+          },
+          {
+            "id": "o3",
+            "text": "Zuerst haben wir gelernt, obwohl sind wir gegangen."
+          },
+          {
+            "id": "o4",
+            "text": "Zuerst haben wir gelernt, dann sind wir gegangen."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q5",
         "type": "mcq",
         "prompt": "Ergänze: ___ du die Nachricht ___?",
         "options": [
-          "Hast gelesen",
-          "Hast lesen",
-          "Bist gelesen",
-          "Liest gestern"
+          {
+            "id": "o1",
+            "text": "Hast gelesen"
+          },
+          {
+            "id": "o2",
+            "text": "Hast lesen"
+          },
+          {
+            "id": "o3",
+            "text": "Bist gelesen"
+          },
+          {
+            "id": "o4",
+            "text": "Liest gestern"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q6",
         "type": "mcq",
         "prompt": "Wähle den Perfekt-Satz mit dem richtigen Hilfsverb.",
         "options": [
-          "Meine Freunde sind den Bus genommen.",
-          "Meine Freunde haben den Bus genommen.",
-          "Meine Freunde haben den Bus nehmen.",
-          "Meine Freunde nehmen gestern den Bus."
+          {
+            "id": "o1",
+            "text": "Meine Freunde sind den Bus genommen."
+          },
+          {
+            "id": "o2",
+            "text": "Meine Freunde haben den Bus genommen."
+          },
+          {
+            "id": "o3",
+            "text": "Meine Freunde haben den Bus nehmen."
+          },
+          {
+            "id": "o4",
+            "text": "Meine Freunde nehmen gestern den Bus."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q7",
         "type": "mcq",
         "prompt": "Ergänze: Wir ___ eine wichtige Erfahrung ___.",
         "options": [
-          "haben machen",
-          "sind gemacht",
-          "haben gemacht",
-          "machen gestern"
+          {
+            "id": "o1",
+            "text": "haben machen"
+          },
+          {
+            "id": "o2",
+            "text": "sind gemacht"
+          },
+          {
+            "id": "o3",
+            "text": "haben gemacht"
+          },
+          {
+            "id": "o4",
+            "text": "machen gestern"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
+        "id": "q8",
         "type": "mcq",
         "prompt": "Welcher Satz beschreibt eine abgeschlossene Handlung?",
         "options": [
-          "Am Samstag bin ich meine Cousine getroffen.",
-          "Am Samstag treffe ich meine Cousine morgen.",
-          "Am Samstag treffen meine Cousine.",
-          "Am Samstag habe ich meine Cousine getroffen."
+          {
+            "id": "o1",
+            "text": "Am Samstag bin ich meine Cousine getroffen."
+          },
+          {
+            "id": "o2",
+            "text": "Am Samstag treffe ich meine Cousine morgen."
+          },
+          {
+            "id": "o3",
+            "text": "Am Samstag treffen meine Cousine."
+          },
+          {
+            "id": "o4",
+            "text": "Am Samstag habe ich meine Cousine getroffen."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       }
     ]
@@ -60605,9 +73341,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Gesellschaft: Konjunktiv II und Argumentation",
-        "definition": "Práctica guiada de Gesellschaft: Konjunktiv II und Argumentation.",
+        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
         "structure": "Meinung + weil/obwohl/deshalb + Begründung",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Eine Meinung ausdrücken und begründen.",
         "examples": [
           "Ich finde den Vorschlag sinnvoll.",
           "Trotzdem müssen wir die Ergebnisse prüfen."
@@ -60616,83 +73352,187 @@
       "grammarTest": {
         "questions": [
           {
+            "id": "q1",
             "type": "mcq",
             "prompt": "Ergänze: Ich finde, dass der Vorschlag sinnvoll ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "ist"
+              },
+              {
+                "id": "o2",
+                "text": "sind"
+              },
+              {
+                "id": "o3",
+                "text": "sein"
+              },
+              {
+                "id": "o4",
+                "text": "sei"
+              }
             ]
           },
           {
+            "id": "q2",
             "type": "mcq",
             "prompt": "Wähle den Konnektor für einen Gegensatz.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Ich möchte ausgehen, deshalb es regnet."
+              },
+              {
+                "id": "o2",
+                "text": "Ich möchte ausgehen, aber es regnet."
+              },
+              {
+                "id": "o3",
+                "text": "Ich möchte ausgehen, weil es regnet."
+              },
+              {
+                "id": "o4",
+                "text": "Ich möchte ausgehen, dann es regnet."
+              }
             ]
           },
           {
+            "id": "q3",
             "type": "mcq",
             "prompt": "Ergänze: Ich bleibe zu Hause, weil ich müde ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "sein"
+              },
+              {
+                "id": "o2",
+                "text": "ist"
+              },
+              {
+                "id": "o3",
+                "text": "bin"
+              },
+              {
+                "id": "o4",
+                "text": "bist"
+              }
             ]
           },
           {
+            "id": "q4",
             "type": "mcq",
             "prompt": "Welcher Satz drückt eine Meinung aus?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Das Projekt funktioniert warum?"
+              },
+              {
+                "id": "o2",
+                "text": "Das Projekt gestern funktioniert?"
+              },
+              {
+                "id": "o3",
+                "text": "Funktionieren das Projekt meiner Meinung."
+              },
+              {
+                "id": "o4",
+                "text": "Meiner Meinung nach funktioniert das Projekt."
+              }
             ]
           },
           {
+            "id": "q5",
             "type": "mcq",
             "prompt": "Ergänze: Obwohl es spät ___, arbeiten wir weiter.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "ist"
+              },
+              {
+                "id": "o2",
+                "text": "sind"
+              },
+              {
+                "id": "o3",
+                "text": "sein"
+              },
+              {
+                "id": "o4",
+                "text": "bist"
+              }
             ]
           },
           {
+            "id": "q6",
             "type": "mcq",
             "prompt": "Wähle eine logische Folge.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Wir haben wenig Zeit, aber planen wir die Arbeit."
+              },
+              {
+                "id": "o2",
+                "text": "Wir haben wenig Zeit, deshalb planen wir die Arbeit."
+              },
+              {
+                "id": "o3",
+                "text": "Wir haben wenig Zeit, weil planen wir die Arbeit."
+              },
+              {
+                "id": "o4",
+                "text": "Wir haben wenig Zeit, obwohl planen wir die Arbeit."
+              }
             ]
           },
           {
+            "id": "q7",
             "type": "mcq",
             "prompt": "Ergänze: Ich glaube, dass sie Recht ___.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "sein"
+              },
+              {
+                "id": "o2",
+                "text": "haben"
+              },
+              {
+                "id": "o3",
+                "text": "hat"
+              },
+              {
+                "id": "o4",
+                "text": "hatte"
+              }
             ]
           },
           {
+            "id": "q8",
             "type": "mcq",
             "prompt": "Welcher Satz begründet eine Wahl?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Ich nehme den Zug er nachhaltiger ist weil."
+              },
+              {
+                "id": "o2",
+                "text": "Ich nehme den Zug, aber er nachhaltiger ist."
+              },
+              {
+                "id": "o3",
+                "text": "Ich nehme den Zug, deshalb er nachhaltiger ist?"
+              },
+              {
+                "id": "o4",
+                "text": "Ich nehme den Zug, weil er nachhaltiger ist."
+              }
             ]
           }
         ]
@@ -60701,91 +73541,203 @@
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
         "prompt": "Ergänze: Ich finde, dass der Vorschlag sinnvoll ___.",
         "options": [
-          "ist",
-          "sind",
-          "sein",
-          "sei"
+          {
+            "id": "o1",
+            "text": "ist"
+          },
+          {
+            "id": "o2",
+            "text": "sind"
+          },
+          {
+            "id": "o3",
+            "text": "sein"
+          },
+          {
+            "id": "o4",
+            "text": "sei"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q2",
         "type": "mcq",
         "prompt": "Wähle den Konnektor für einen Gegensatz.",
         "options": [
-          "Ich möchte ausgehen, deshalb es regnet.",
-          "Ich möchte ausgehen, aber es regnet.",
-          "Ich möchte ausgehen, weil es regnet.",
-          "Ich möchte ausgehen, dann es regnet."
+          {
+            "id": "o1",
+            "text": "Ich möchte ausgehen, deshalb es regnet."
+          },
+          {
+            "id": "o2",
+            "text": "Ich möchte ausgehen, aber es regnet."
+          },
+          {
+            "id": "o3",
+            "text": "Ich möchte ausgehen, weil es regnet."
+          },
+          {
+            "id": "o4",
+            "text": "Ich möchte ausgehen, dann es regnet."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q3",
         "type": "mcq",
         "prompt": "Ergänze: Ich bleibe zu Hause, weil ich müde ___.",
         "options": [
-          "sein",
-          "ist",
-          "bin",
-          "bist"
+          {
+            "id": "o1",
+            "text": "sein"
+          },
+          {
+            "id": "o2",
+            "text": "ist"
+          },
+          {
+            "id": "o3",
+            "text": "bin"
+          },
+          {
+            "id": "o4",
+            "text": "bist"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q4",
         "type": "mcq",
         "prompt": "Welcher Satz drückt eine Meinung aus?",
         "options": [
-          "Das Projekt funktioniert warum?",
-          "Das Projekt gestern funktioniert?",
-          "Funktionieren das Projekt meiner Meinung.",
-          "Meiner Meinung nach funktioniert das Projekt."
+          {
+            "id": "o1",
+            "text": "Das Projekt funktioniert warum?"
+          },
+          {
+            "id": "o2",
+            "text": "Das Projekt gestern funktioniert?"
+          },
+          {
+            "id": "o3",
+            "text": "Funktionieren das Projekt meiner Meinung."
+          },
+          {
+            "id": "o4",
+            "text": "Meiner Meinung nach funktioniert das Projekt."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q5",
         "type": "mcq",
         "prompt": "Ergänze: Obwohl es spät ___, arbeiten wir weiter.",
         "options": [
-          "ist",
-          "sind",
-          "sein",
-          "bist"
+          {
+            "id": "o1",
+            "text": "ist"
+          },
+          {
+            "id": "o2",
+            "text": "sind"
+          },
+          {
+            "id": "o3",
+            "text": "sein"
+          },
+          {
+            "id": "o4",
+            "text": "bist"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q6",
         "type": "mcq",
         "prompt": "Wähle eine logische Folge.",
         "options": [
-          "Wir haben wenig Zeit, aber planen wir die Arbeit.",
-          "Wir haben wenig Zeit, deshalb planen wir die Arbeit.",
-          "Wir haben wenig Zeit, weil planen wir die Arbeit.",
-          "Wir haben wenig Zeit, obwohl planen wir die Arbeit."
+          {
+            "id": "o1",
+            "text": "Wir haben wenig Zeit, aber planen wir die Arbeit."
+          },
+          {
+            "id": "o2",
+            "text": "Wir haben wenig Zeit, deshalb planen wir die Arbeit."
+          },
+          {
+            "id": "o3",
+            "text": "Wir haben wenig Zeit, weil planen wir die Arbeit."
+          },
+          {
+            "id": "o4",
+            "text": "Wir haben wenig Zeit, obwohl planen wir die Arbeit."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q7",
         "type": "mcq",
         "prompt": "Ergänze: Ich glaube, dass sie Recht ___.",
         "options": [
-          "sein",
-          "haben",
-          "hat",
-          "hatte"
+          {
+            "id": "o1",
+            "text": "sein"
+          },
+          {
+            "id": "o2",
+            "text": "haben"
+          },
+          {
+            "id": "o3",
+            "text": "hat"
+          },
+          {
+            "id": "o4",
+            "text": "hatte"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
+        "id": "q8",
         "type": "mcq",
         "prompt": "Welcher Satz begründet eine Wahl?",
         "options": [
-          "Ich nehme den Zug er nachhaltiger ist weil.",
-          "Ich nehme den Zug, aber er nachhaltiger ist.",
-          "Ich nehme den Zug, deshalb er nachhaltiger ist?",
-          "Ich nehme den Zug, weil er nachhaltiger ist."
+          {
+            "id": "o1",
+            "text": "Ich nehme den Zug er nachhaltiger ist weil."
+          },
+          {
+            "id": "o2",
+            "text": "Ich nehme den Zug, aber er nachhaltiger ist."
+          },
+          {
+            "id": "o3",
+            "text": "Ich nehme den Zug, deshalb er nachhaltiger ist?"
+          },
+          {
+            "id": "o4",
+            "text": "Ich nehme den Zug, weil er nachhaltiger ist."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       }
     ]
@@ -62463,121 +75415,277 @@
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Geburtstag",
-          "Einladung",
-          "feiern",
-          "Uhr"
-        ]
+          {
+            "id": "o1",
+            "text": "Geburtstag"
+          },
+          {
+            "id": "o2",
+            "text": "Einladung"
+          },
+          {
+            "id": "o3",
+            "text": "feiern"
+          },
+          {
+            "id": "o4",
+            "text": "Uhr"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Geburtstag",
-          "Einladung",
-          "feiern",
-          "Uhr"
-        ]
+          {
+            "id": "o1",
+            "text": "Geburtstag"
+          },
+          {
+            "id": "o2",
+            "text": "Einladung"
+          },
+          {
+            "id": "o3",
+            "text": "feiern"
+          },
+          {
+            "id": "o4",
+            "text": "Uhr"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Einladung",
-          "Geburtstag",
-          "feiern",
-          "Uhr"
-        ]
+          {
+            "id": "o1",
+            "text": "Einladung"
+          },
+          {
+            "id": "o2",
+            "text": "Geburtstag"
+          },
+          {
+            "id": "o3",
+            "text": "feiern"
+          },
+          {
+            "id": "o4",
+            "text": "Uhr"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "feiern",
-          "Geburtstag",
-          "Einladung",
-          "Uhr"
-        ]
+          {
+            "id": "o1",
+            "text": "feiern"
+          },
+          {
+            "id": "o2",
+            "text": "Geburtstag"
+          },
+          {
+            "id": "o3",
+            "text": "Einladung"
+          },
+          {
+            "id": "o4",
+            "text": "Uhr"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "heute",
-          "Geburtstag",
-          "Einladung",
-          "feiern"
-        ]
+          {
+            "id": "o1",
+            "text": "heute"
+          },
+          {
+            "id": "o2",
+            "text": "Geburtstag"
+          },
+          {
+            "id": "o3",
+            "text": "Einladung"
+          },
+          {
+            "id": "o4",
+            "text": "feiern"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Geburtstag",
-          "morgen",
-          "Einladung",
-          "feiern"
-        ]
+          {
+            "id": "o1",
+            "text": "Geburtstag"
+          },
+          {
+            "id": "o2",
+            "text": "morgen"
+          },
+          {
+            "id": "o3",
+            "text": "Einladung"
+          },
+          {
+            "id": "o4",
+            "text": "feiern"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Einladung",
-          "Geburtstag",
-          "gern",
-          "feiern"
-        ]
+          {
+            "id": "o1",
+            "text": "Einladung"
+          },
+          {
+            "id": "o2",
+            "text": "Geburtstag"
+          },
+          {
+            "id": "o3",
+            "text": "gern"
+          },
+          {
+            "id": "o4",
+            "text": "feiern"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "feiern",
-          "Geburtstag",
-          "Einladung",
-          "kommen"
-        ]
+          {
+            "id": "o1",
+            "text": "feiern"
+          },
+          {
+            "id": "o2",
+            "text": "Geburtstag"
+          },
+          {
+            "id": "o3",
+            "text": "Einladung"
+          },
+          {
+            "id": "o4",
+            "text": "kommen"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "bringen",
-          "Geburtstag",
-          "Einladung",
-          "feiern"
-        ]
+          {
+            "id": "o1",
+            "text": "bringen"
+          },
+          {
+            "id": "o2",
+            "text": "Geburtstag"
+          },
+          {
+            "id": "o3",
+            "text": "Einladung"
+          },
+          {
+            "id": "o4",
+            "text": "feiern"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Geburtstag",
-          "Geschenk",
-          "Einladung",
-          "feiern"
-        ]
+          {
+            "id": "o1",
+            "text": "Geburtstag"
+          },
+          {
+            "id": "o2",
+            "text": "Geschenk"
+          },
+          {
+            "id": "o3",
+            "text": "Einladung"
+          },
+          {
+            "id": "o4",
+            "text": "feiern"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Einladung",
-          "Geburtstag",
-          "zusammen",
-          "feiern"
-        ]
+          {
+            "id": "o1",
+            "text": "Einladung"
+          },
+          {
+            "id": "o2",
+            "text": "Geburtstag"
+          },
+          {
+            "id": "o3",
+            "text": "zusammen"
+          },
+          {
+            "id": "o4",
+            "text": "feiern"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "feiern",
-          "Geburtstag",
-          "Einladung",
-          "Viertel"
-        ]
+          {
+            "id": "o1",
+            "text": "feiern"
+          },
+          {
+            "id": "o2",
+            "text": "Geburtstag"
+          },
+          {
+            "id": "o3",
+            "text": "Einladung"
+          },
+          {
+            "id": "o4",
+            "text": "Viertel"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },
@@ -62745,121 +75853,277 @@
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Wohnung",
-          "Zimmer",
-          "Miete",
-          "suchen"
-        ]
+          {
+            "id": "o1",
+            "text": "Wohnung"
+          },
+          {
+            "id": "o2",
+            "text": "Zimmer"
+          },
+          {
+            "id": "o3",
+            "text": "Miete"
+          },
+          {
+            "id": "o4",
+            "text": "suchen"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Wohnung",
-          "Zimmer",
-          "Miete",
-          "suchen"
-        ]
+          {
+            "id": "o1",
+            "text": "Wohnung"
+          },
+          {
+            "id": "o2",
+            "text": "Zimmer"
+          },
+          {
+            "id": "o3",
+            "text": "Miete"
+          },
+          {
+            "id": "o4",
+            "text": "suchen"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Zimmer",
-          "Wohnung",
-          "Miete",
-          "suchen"
-        ]
+          {
+            "id": "o1",
+            "text": "Zimmer"
+          },
+          {
+            "id": "o2",
+            "text": "Wohnung"
+          },
+          {
+            "id": "o3",
+            "text": "Miete"
+          },
+          {
+            "id": "o4",
+            "text": "suchen"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Miete",
-          "Wohnung",
-          "Zimmer",
-          "suchen"
-        ]
+          {
+            "id": "o1",
+            "text": "Miete"
+          },
+          {
+            "id": "o2",
+            "text": "Wohnung"
+          },
+          {
+            "id": "o3",
+            "text": "Zimmer"
+          },
+          {
+            "id": "o4",
+            "text": "suchen"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "neben",
-          "Wohnung",
-          "Zimmer",
-          "Miete"
-        ]
+          {
+            "id": "o1",
+            "text": "neben"
+          },
+          {
+            "id": "o2",
+            "text": "Wohnung"
+          },
+          {
+            "id": "o3",
+            "text": "Zimmer"
+          },
+          {
+            "id": "o4",
+            "text": "Miete"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Wohnung",
-          "über",
-          "Zimmer",
-          "Miete"
-        ]
+          {
+            "id": "o1",
+            "text": "Wohnung"
+          },
+          {
+            "id": "o2",
+            "text": "über"
+          },
+          {
+            "id": "o3",
+            "text": "Zimmer"
+          },
+          {
+            "id": "o4",
+            "text": "Miete"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Zimmer",
-          "Wohnung",
-          "unter",
-          "Miete"
-        ]
+          {
+            "id": "o1",
+            "text": "Zimmer"
+          },
+          {
+            "id": "o2",
+            "text": "Wohnung"
+          },
+          {
+            "id": "o3",
+            "text": "unter"
+          },
+          {
+            "id": "o4",
+            "text": "Miete"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Miete",
-          "Wohnung",
-          "Zimmer",
-          "größer"
-        ]
+          {
+            "id": "o1",
+            "text": "Miete"
+          },
+          {
+            "id": "o2",
+            "text": "Wohnung"
+          },
+          {
+            "id": "o3",
+            "text": "Zimmer"
+          },
+          {
+            "id": "o4",
+            "text": "größer"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "ruhiger",
-          "Wohnung",
-          "Zimmer",
-          "Miete"
-        ]
+          {
+            "id": "o1",
+            "text": "ruhiger"
+          },
+          {
+            "id": "o2",
+            "text": "Wohnung"
+          },
+          {
+            "id": "o3",
+            "text": "Zimmer"
+          },
+          {
+            "id": "o4",
+            "text": "Miete"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Wohnung",
-          "Besichtigung",
-          "Zimmer",
-          "Miete"
-        ]
+          {
+            "id": "o1",
+            "text": "Wohnung"
+          },
+          {
+            "id": "o2",
+            "text": "Besichtigung"
+          },
+          {
+            "id": "o3",
+            "text": "Zimmer"
+          },
+          {
+            "id": "o4",
+            "text": "Miete"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Zimmer",
-          "Wohnung",
-          "heute",
-          "Miete"
-        ]
+          {
+            "id": "o1",
+            "text": "Zimmer"
+          },
+          {
+            "id": "o2",
+            "text": "Wohnung"
+          },
+          {
+            "id": "o3",
+            "text": "heute"
+          },
+          {
+            "id": "o4",
+            "text": "Miete"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Miete",
-          "Wohnung",
-          "Zimmer",
-          "zusammen"
-        ]
+          {
+            "id": "o1",
+            "text": "Miete"
+          },
+          {
+            "id": "o2",
+            "text": "Wohnung"
+          },
+          {
+            "id": "o3",
+            "text": "Zimmer"
+          },
+          {
+            "id": "o4",
+            "text": "zusammen"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },
@@ -63027,121 +76291,277 @@
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Gesellschaft",
-          "mitwirken",
-          "Recht",
-          "Vorschlag"
-        ]
+          {
+            "id": "o1",
+            "text": "Gesellschaft"
+          },
+          {
+            "id": "o2",
+            "text": "mitwirken"
+          },
+          {
+            "id": "o3",
+            "text": "Recht"
+          },
+          {
+            "id": "o4",
+            "text": "Vorschlag"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Gesellschaft",
-          "mitwirken",
-          "Recht",
-          "Vorschlag"
-        ]
+          {
+            "id": "o1",
+            "text": "Gesellschaft"
+          },
+          {
+            "id": "o2",
+            "text": "mitwirken"
+          },
+          {
+            "id": "o3",
+            "text": "Recht"
+          },
+          {
+            "id": "o4",
+            "text": "Vorschlag"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "mitwirken",
-          "Gesellschaft",
-          "Recht",
-          "Vorschlag"
-        ]
+          {
+            "id": "o1",
+            "text": "mitwirken"
+          },
+          {
+            "id": "o2",
+            "text": "Gesellschaft"
+          },
+          {
+            "id": "o3",
+            "text": "Recht"
+          },
+          {
+            "id": "o4",
+            "text": "Vorschlag"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Recht",
-          "Gesellschaft",
-          "mitwirken",
-          "Vorschlag"
-        ]
+          {
+            "id": "o1",
+            "text": "Recht"
+          },
+          {
+            "id": "o2",
+            "text": "Gesellschaft"
+          },
+          {
+            "id": "o3",
+            "text": "mitwirken"
+          },
+          {
+            "id": "o4",
+            "text": "Vorschlag"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Gemeinschaft",
-          "Gesellschaft",
-          "mitwirken",
-          "Recht"
-        ]
+          {
+            "id": "o1",
+            "text": "Gemeinschaft"
+          },
+          {
+            "id": "o2",
+            "text": "Gesellschaft"
+          },
+          {
+            "id": "o3",
+            "text": "mitwirken"
+          },
+          {
+            "id": "o4",
+            "text": "Recht"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Gesellschaft",
-          "wählen",
-          "mitwirken",
-          "Recht"
-        ]
+          {
+            "id": "o1",
+            "text": "Gesellschaft"
+          },
+          {
+            "id": "o2",
+            "text": "wählen"
+          },
+          {
+            "id": "o3",
+            "text": "mitwirken"
+          },
+          {
+            "id": "o4",
+            "text": "Recht"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "mitwirken",
-          "Gesellschaft",
-          "freiwillig",
-          "Recht"
-        ]
+          {
+            "id": "o1",
+            "text": "mitwirken"
+          },
+          {
+            "id": "o2",
+            "text": "Gesellschaft"
+          },
+          {
+            "id": "o3",
+            "text": "freiwillig"
+          },
+          {
+            "id": "o4",
+            "text": "Recht"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Recht",
-          "Gesellschaft",
-          "mitwirken",
-          "Initiative"
-        ]
+          {
+            "id": "o1",
+            "text": "Recht"
+          },
+          {
+            "id": "o2",
+            "text": "Gesellschaft"
+          },
+          {
+            "id": "o3",
+            "text": "mitwirken"
+          },
+          {
+            "id": "o4",
+            "text": "Initiative"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "verbessern",
-          "Gesellschaft",
-          "mitwirken",
-          "Recht"
-        ]
+          {
+            "id": "o1",
+            "text": "verbessern"
+          },
+          {
+            "id": "o2",
+            "text": "Gesellschaft"
+          },
+          {
+            "id": "o3",
+            "text": "mitwirken"
+          },
+          {
+            "id": "o4",
+            "text": "Recht"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Gesellschaft",
-          "Verantwortung",
-          "mitwirken",
-          "Recht"
-        ]
+          {
+            "id": "o1",
+            "text": "Gesellschaft"
+          },
+          {
+            "id": "o2",
+            "text": "Verantwortung"
+          },
+          {
+            "id": "o3",
+            "text": "mitwirken"
+          },
+          {
+            "id": "o4",
+            "text": "Recht"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "mitwirken",
-          "Gesellschaft",
-          "heute",
-          "Recht"
-        ]
+          {
+            "id": "o1",
+            "text": "mitwirken"
+          },
+          {
+            "id": "o2",
+            "text": "Gesellschaft"
+          },
+          {
+            "id": "o3",
+            "text": "heute"
+          },
+          {
+            "id": "o4",
+            "text": "Recht"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Recht",
-          "Gesellschaft",
-          "mitwirken",
-          "zusammen"
-        ]
+          {
+            "id": "o1",
+            "text": "Recht"
+          },
+          {
+            "id": "o2",
+            "text": "Gesellschaft"
+          },
+          {
+            "id": "o3",
+            "text": "mitwirken"
+          },
+          {
+            "id": "o4",
+            "text": "zusammen"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },

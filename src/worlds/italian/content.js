@@ -46,7 +46,7 @@
     ],
     "reading": {
       "title": "Italiano A1 Reading",
-      "text": "Sofia è em Bologna. Hoje descobre contar una experiencia sencilla. Encontra Marco e diz: “Oggi ho imparato molto.”. Os dois falam com respeito e aprendem quatro palavras novas: oggi, domani, casa e esperienza.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.\n\nAl final, Sofia scrive una nota: “Oggi ho imparato molto.”.",
+      "text": "Sofia è a Bologna. Oggi impara a escribir un mensaje breve. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Oggi ho imparato molto.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: oggi, domani, casa e esperienza.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.\n\nAlla fine, Sofia scrive: “Oggi ho imparato molto.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco.",
       "questions": [
         "Dove è Sofia?",
         "Con chi parla Sofia?",
@@ -97,7 +97,7 @@
     ],
     "reading": {
       "title": "Italiano A2 Reading",
-      "text": "Sofia vive em Bologna e parla con Marco sobre cerrar el nivel con una experiencia personal. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “È stato un viaggio importante.” e spiega perché questa experiência è importante per il quartiere.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.\n\nAl final, Sofia scrive una nota: “È stato un viaggio importante.”.",
+      "text": "Sofia è a Bologna. Oggi impara a narrar una experiencia. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “È stato un viaggio importante.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: ricordo, incontro, cambiare e futuro.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.\n\nAlla fine, Sofia scrive: “È stato un viaggio importante.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco.",
       "questions": [
         "Dove è Sofia?",
         "Con chi parla Sofia?",
@@ -943,9 +943,9 @@
     "reading": {
       "title": "Benvenuti in Italia",
       "parts": [
-        "Sofia è em Bologna. Hoje descobre saluti e presentazioni a bologna. Encontra Marco e diz: “Ciao, come stai?”. Os dois falam com respeito e aprendem quatro palavras novas: ciao, buongiorno, piacere e grazie.",
-        "Marco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.",
-        "Al final, Sofia scrive una nota: “Ciao, come stai?”."
+        "Sofia è a Bologna. Oggi impara a salutare e presentarsi. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Ciao, come stai?”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: ciao, buongiorno, piacere e grazie.",
+        "Marco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.",
+        "Alla fine, Sofia scrive: “Ciao, come stai?”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
       ],
       "questions": [
         "Dove è Sofia?",
@@ -953,7 +953,7 @@
         "Quale frase usa Sofia?",
         "Perché l’esperienza è importante?"
       ],
-      "text": "Sofia è em Bologna. Hoje descobre saluti e presentazioni a bologna. Encontra Marco e diz: “Ciao, come stai?”. Os dois falam com respeito e aprendem quatro palavras novas: ciao, buongiorno, piacere e grazie.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.\n\nAl final, Sofia scrive una nota: “Ciao, come stai?”."
+      "text": "Sofia è a Bologna. Oggi impara a salutare e presentarsi. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Ciao, come stai?”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: ciao, buongiorno, piacere e grazie.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.\n\nAlla fine, Sofia scrive: “Ciao, come stai?”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
     },
     "transcript": "",
     "extra": null,
@@ -992,12 +992,12 @@
       {
         "id": "italian-a1-benvenuti-in-italia-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“Al final, Sofia scrive una nota: “_____, come stai?”.”",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo _____ con Marco.”",
         "options": [
-          "stai",
-          "nota",
+          "perché",
           "Sofia",
-          "Ciao"
+          "Bologna",
+          "domani"
         ]
       }
     ]
@@ -1023,9 +1023,9 @@
     "reading": {
       "title": "Vita in città",
       "parts": [
-        "Sofia vive em Bologna e parla con Marco sobre rutinas urbanas y servicios públicos. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “Di solito prendo l’autobus.” e spiega perché questa experiência è importante per il quartiere.",
-        "Marco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.",
-        "Al final, Sofia scrive una nota: “Di solito prendo l’autobus.”."
+        "Sofia è a Bologna. Oggi impara a describir una rutina. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Di solito prendo l’autobus.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: quartiere, fermata, ufficio e servizio.",
+        "Marco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.",
+        "Alla fine, Sofia scrive: “Di solito prendo l’autobus.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
       ],
       "questions": [
         "Dove è Sofia?",
@@ -1033,7 +1033,7 @@
         "Quale frase usa Sofia?",
         "Perché l’esperienza è importante?"
       ],
-      "text": "Sofia vive em Bologna e parla con Marco sobre rutinas urbanas y servicios públicos. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “Di solito prendo l’autobus.” e spiega perché questa experiência è importante per il quartiere.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.\n\nAl final, Sofia scrive una nota: “Di solito prendo l’autobus.”."
+      "text": "Sofia è a Bologna. Oggi impara a describir una rutina. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Di solito prendo l’autobus.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: quartiere, fermata, ufficio e servizio.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.\n\nAlla fine, Sofia scrive: “Di solito prendo l’autobus.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
     },
     "transcript": "",
     "extra": null,
@@ -1061,34 +1061,34 @@
       {
         "id": "italian-a2-vita-in-citta-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella lettura.\n\n“e spiega perché questa experiência è _____ per il quartiere.”",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“Durante la conversazione imparano _____ utili: quartiere, fermata, ufficio e servizio.”",
         "options": [
-          "ascoltando",
-          "servicios",
-          "importante",
-          "l’autobus"
+          "solito",
+          "prendo",
+          "parole",
+          "scuola"
         ]
       },
       {
         "id": "italian-a2-vita-in-citta-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“La conversazione mostra che la cultura si impara ascoltando e _____.”",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“Usano le parole nuove in piccole situazioni: al bar, a scuola o per _____.”",
         "options": [
-          "experiência",
-          "conversazione",
-          "importante",
-          "partecipando"
+          "solito",
+          "prendo",
+          "parole",
+          "strada"
         ]
       },
       {
         "id": "italian-a2-vita-in-citta-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“Al final, Sofia scrive una nota: “Di _____ prendo l’autobus.”.”",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“È _____ perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco.”",
         "options": [
-          "solito",
-          "prendo",
-          "spiega",
-          "perché"
+          "contenta",
+          "imparano",
+          "servizio",
+          "Bologna"
         ]
       }
     ]
@@ -1172,9 +1172,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Periodo ipotetico della possibilità",
-        "definition": "Práctica guiada de Periodo ipotetico della possibilità.",
+        "definition": "Connettori, opinioni e ipotesi aiutano a costruire un argomento.",
         "structure": "opinione + perché/tuttavia/quindi + motivazione",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Esprimere e giustificare un punto di vista.",
         "examples": [
           "Penso che la proposta sia utile.",
           "Tuttavia dobbiamo valutare i risultati."
@@ -1183,83 +1183,187 @@
       "grammarTest": {
         "questions": [
           {
+            "id": "q1",
             "type": "mcq",
             "prompt": "Completa: Penso che la proposta ___ utile.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "sia"
+              },
+              {
+                "id": "o2",
+                "text": "è"
+              },
+              {
+                "id": "o3",
+                "text": "essere"
+              },
+              {
+                "id": "o4",
+                "text": "sono"
+              }
             ]
           },
           {
+            "id": "q2",
             "type": "mcq",
             "prompt": "Scegli il connettore di contrasto.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Vorrei uscire, quindi piove."
+              },
+              {
+                "id": "o2",
+                "text": "Vorrei uscire, tuttavia piove."
+              },
+              {
+                "id": "o3",
+                "text": "Vorrei uscire, perché piove."
+              },
+              {
+                "id": "o4",
+                "text": "Vorrei uscire, infatti piove."
+              }
             ]
           },
           {
+            "id": "q3",
             "type": "mcq",
             "prompt": "Completa: Resto a casa perché ___ stanco.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "essere"
+              },
+              {
+                "id": "o2",
+                "text": "sia"
+              },
+              {
+                "id": "o3",
+                "text": "sono"
+              },
+              {
+                "id": "o4",
+                "text": "sarei"
+              }
             ]
           },
           {
+            "id": "q4",
             "type": "mcq",
             "prompt": "Quale frase esprime un’opinione?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Il progetto funziona perché?"
+              },
+              {
+                "id": "o2",
+                "text": "Il progetto ieri funziona?"
+              },
+              {
+                "id": "o3",
+                "text": "Funzionare progetto secondo me."
+              },
+              {
+                "id": "o4",
+                "text": "Secondo me, il progetto funziona."
+              }
             ]
           },
           {
+            "id": "q5",
             "type": "mcq",
             "prompt": "Completa: Sebbene ___ tardi, continuiamo.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "sia"
+              },
+              {
+                "id": "o2",
+                "text": "è"
+              },
+              {
+                "id": "o3",
+                "text": "essere"
+              },
+              {
+                "id": "o4",
+                "text": "sono"
+              }
             ]
           },
           {
+            "id": "q6",
             "type": "mcq",
             "prompt": "Scegli la conclusione logica.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Abbiamo poco tempo, tuttavia organizziamo il lavoro."
+              },
+              {
+                "id": "o2",
+                "text": "Abbiamo poco tempo, quindi organizziamo il lavoro."
+              },
+              {
+                "id": "o3",
+                "text": "Abbiamo poco tempo, perché organizziamo il lavoro."
+              },
+              {
+                "id": "o4",
+                "text": "Abbiamo poco tempo, se organizziamo il lavoro."
+              }
             ]
           },
           {
+            "id": "q7",
             "type": "mcq",
             "prompt": "Completa: Credo che loro ___ ragione.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "avere"
+              },
+              {
+                "id": "o2",
+                "text": "hanno"
+              },
+              {
+                "id": "o3",
+                "text": "abbiano"
+              },
+              {
+                "id": "o4",
+                "text": "avranno"
+              }
             ]
           },
           {
+            "id": "q8",
             "type": "mcq",
             "prompt": "Quale frase giustifica una scelta?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Scelgo il treno è più sostenibile perché?"
+              },
+              {
+                "id": "o2",
+                "text": "Scelgo il treno tuttavia è più sostenibile."
+              },
+              {
+                "id": "o3",
+                "text": "Scelgo il treno quindi è più sostenibile?"
+              },
+              {
+                "id": "o4",
+                "text": "Scelgo il treno perché è più sostenibile."
+              }
             ]
           }
         ]
@@ -1268,91 +1372,203 @@
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
         "prompt": "Completa: Penso che la proposta ___ utile.",
         "options": [
-          "sia",
-          "è",
-          "essere",
-          "sono"
+          {
+            "id": "o1",
+            "text": "sia"
+          },
+          {
+            "id": "o2",
+            "text": "è"
+          },
+          {
+            "id": "o3",
+            "text": "essere"
+          },
+          {
+            "id": "o4",
+            "text": "sono"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q2",
         "type": "mcq",
         "prompt": "Scegli il connettore di contrasto.",
         "options": [
-          "Vorrei uscire, quindi piove.",
-          "Vorrei uscire, tuttavia piove.",
-          "Vorrei uscire, perché piove.",
-          "Vorrei uscire, infatti piove."
+          {
+            "id": "o1",
+            "text": "Vorrei uscire, quindi piove."
+          },
+          {
+            "id": "o2",
+            "text": "Vorrei uscire, tuttavia piove."
+          },
+          {
+            "id": "o3",
+            "text": "Vorrei uscire, perché piove."
+          },
+          {
+            "id": "o4",
+            "text": "Vorrei uscire, infatti piove."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q3",
         "type": "mcq",
         "prompt": "Completa: Resto a casa perché ___ stanco.",
         "options": [
-          "essere",
-          "sia",
-          "sono",
-          "sarei"
+          {
+            "id": "o1",
+            "text": "essere"
+          },
+          {
+            "id": "o2",
+            "text": "sia"
+          },
+          {
+            "id": "o3",
+            "text": "sono"
+          },
+          {
+            "id": "o4",
+            "text": "sarei"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q4",
         "type": "mcq",
         "prompt": "Quale frase esprime un’opinione?",
         "options": [
-          "Il progetto funziona perché?",
-          "Il progetto ieri funziona?",
-          "Funzionare progetto secondo me.",
-          "Secondo me, il progetto funziona."
+          {
+            "id": "o1",
+            "text": "Il progetto funziona perché?"
+          },
+          {
+            "id": "o2",
+            "text": "Il progetto ieri funziona?"
+          },
+          {
+            "id": "o3",
+            "text": "Funzionare progetto secondo me."
+          },
+          {
+            "id": "o4",
+            "text": "Secondo me, il progetto funziona."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q5",
         "type": "mcq",
         "prompt": "Completa: Sebbene ___ tardi, continuiamo.",
         "options": [
-          "sia",
-          "è",
-          "essere",
-          "sono"
+          {
+            "id": "o1",
+            "text": "sia"
+          },
+          {
+            "id": "o2",
+            "text": "è"
+          },
+          {
+            "id": "o3",
+            "text": "essere"
+          },
+          {
+            "id": "o4",
+            "text": "sono"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q6",
         "type": "mcq",
         "prompt": "Scegli la conclusione logica.",
         "options": [
-          "Abbiamo poco tempo, tuttavia organizziamo il lavoro.",
-          "Abbiamo poco tempo, quindi organizziamo il lavoro.",
-          "Abbiamo poco tempo, perché organizziamo il lavoro.",
-          "Abbiamo poco tempo, se organizziamo il lavoro."
+          {
+            "id": "o1",
+            "text": "Abbiamo poco tempo, tuttavia organizziamo il lavoro."
+          },
+          {
+            "id": "o2",
+            "text": "Abbiamo poco tempo, quindi organizziamo il lavoro."
+          },
+          {
+            "id": "o3",
+            "text": "Abbiamo poco tempo, perché organizziamo il lavoro."
+          },
+          {
+            "id": "o4",
+            "text": "Abbiamo poco tempo, se organizziamo il lavoro."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q7",
         "type": "mcq",
         "prompt": "Completa: Credo che loro ___ ragione.",
         "options": [
-          "avere",
-          "hanno",
-          "abbiano",
-          "avranno"
+          {
+            "id": "o1",
+            "text": "avere"
+          },
+          {
+            "id": "o2",
+            "text": "hanno"
+          },
+          {
+            "id": "o3",
+            "text": "abbiano"
+          },
+          {
+            "id": "o4",
+            "text": "avranno"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q8",
         "type": "mcq",
         "prompt": "Quale frase giustifica una scelta?",
         "options": [
-          "Scelgo il treno è più sostenibile perché?",
-          "Scelgo il treno tuttavia è più sostenibile.",
-          "Scelgo il treno quindi è più sostenibile?",
-          "Scelgo il treno perché è più sostenibile."
+          {
+            "id": "o1",
+            "text": "Scelgo il treno è più sostenibile perché?"
+          },
+          {
+            "id": "o2",
+            "text": "Scelgo il treno tuttavia è più sostenibile."
+          },
+          {
+            "id": "o3",
+            "text": "Scelgo il treno quindi è più sostenibile?"
+          },
+          {
+            "id": "o4",
+            "text": "Scelgo il treno perché è più sostenibile."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       }
     ]
@@ -2968,121 +3184,277 @@
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "obiettivi",
-          "scadenza",
-          "squadra",
-          "migliorare"
-        ]
+          {
+            "id": "o1",
+            "text": "obiettivi"
+          },
+          {
+            "id": "o2",
+            "text": "scadenza"
+          },
+          {
+            "id": "o3",
+            "text": "squadra"
+          },
+          {
+            "id": "o4",
+            "text": "migliorare"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "obiettivi",
-          "scadenza",
-          "squadra",
-          "migliorare"
-        ]
+          {
+            "id": "o1",
+            "text": "obiettivi"
+          },
+          {
+            "id": "o2",
+            "text": "scadenza"
+          },
+          {
+            "id": "o3",
+            "text": "squadra"
+          },
+          {
+            "id": "o4",
+            "text": "migliorare"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "scadenza",
-          "obiettivi",
-          "squadra",
-          "migliorare"
-        ]
+          {
+            "id": "o1",
+            "text": "scadenza"
+          },
+          {
+            "id": "o2",
+            "text": "obiettivi"
+          },
+          {
+            "id": "o3",
+            "text": "squadra"
+          },
+          {
+            "id": "o4",
+            "text": "migliorare"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "squadra",
-          "obiettivi",
-          "scadenza",
-          "migliorare"
-        ]
+          {
+            "id": "o1",
+            "text": "squadra"
+          },
+          {
+            "id": "o2",
+            "text": "obiettivi"
+          },
+          {
+            "id": "o3",
+            "text": "scadenza"
+          },
+          {
+            "id": "o4",
+            "text": "migliorare"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "scegliere",
-          "obiettivi",
-          "scadenza",
-          "squadra"
-        ]
+          {
+            "id": "o1",
+            "text": "scegliere"
+          },
+          {
+            "id": "o2",
+            "text": "obiettivi"
+          },
+          {
+            "id": "o3",
+            "text": "scadenza"
+          },
+          {
+            "id": "o4",
+            "text": "squadra"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "obiettivi",
-          "risultato",
-          "scadenza",
-          "squadra"
-        ]
+          {
+            "id": "o1",
+            "text": "obiettivi"
+          },
+          {
+            "id": "o2",
+            "text": "risultato"
+          },
+          {
+            "id": "o3",
+            "text": "scadenza"
+          },
+          {
+            "id": "o4",
+            "text": "squadra"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "scadenza",
-          "obiettivi",
-          "responsabilità",
-          "squadra"
-        ]
+          {
+            "id": "o1",
+            "text": "scadenza"
+          },
+          {
+            "id": "o2",
+            "text": "obiettivi"
+          },
+          {
+            "id": "o3",
+            "text": "responsabilità"
+          },
+          {
+            "id": "o4",
+            "text": "squadra"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "squadra",
-          "obiettivi",
-          "scadenza",
-          "proposta"
-        ]
+          {
+            "id": "o1",
+            "text": "squadra"
+          },
+          {
+            "id": "o2",
+            "text": "obiettivi"
+          },
+          {
+            "id": "o3",
+            "text": "scadenza"
+          },
+          {
+            "id": "o4",
+            "text": "proposta"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "abitudine",
-          "obiettivi",
-          "scadenza",
-          "squadra"
-        ]
+          {
+            "id": "o1",
+            "text": "abitudine"
+          },
+          {
+            "id": "o2",
+            "text": "obiettivi"
+          },
+          {
+            "id": "o3",
+            "text": "scadenza"
+          },
+          {
+            "id": "o4",
+            "text": "squadra"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "obiettivi",
-          "fiducia",
-          "scadenza",
-          "squadra"
-        ]
+          {
+            "id": "o1",
+            "text": "obiettivi"
+          },
+          {
+            "id": "o2",
+            "text": "fiducia"
+          },
+          {
+            "id": "o3",
+            "text": "scadenza"
+          },
+          {
+            "id": "o4",
+            "text": "squadra"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "scadenza",
-          "obiettivi",
-          "oggi",
-          "squadra"
-        ]
+          {
+            "id": "o1",
+            "text": "scadenza"
+          },
+          {
+            "id": "o2",
+            "text": "obiettivi"
+          },
+          {
+            "id": "o3",
+            "text": "oggi"
+          },
+          {
+            "id": "o4",
+            "text": "squadra"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "squadra",
-          "obiettivi",
-          "scadenza",
-          "insieme"
-        ]
+          {
+            "id": "o1",
+            "text": "squadra"
+          },
+          {
+            "id": "o2",
+            "text": "obiettivi"
+          },
+          {
+            "id": "o3",
+            "text": "scadenza"
+          },
+          {
+            "id": "o4",
+            "text": "insieme"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },
@@ -5069,9 +5441,9 @@
     "reading": {
       "title": "Un caffè al bar",
       "parts": [
-        "Sofia è em Bologna. Hoje descobre un bar di quartiere e le cortesie quotidiane. Encontra Marco e diz: “Un caffè, per favore.”. Os dois falam com respeito e aprendem quatro palavras novas: caffè, acqua, per favore e grazie.",
-        "Marco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.",
-        "Al final, Sofia scrive una nota: “Un caffè, per favore.”."
+        "Sofia è a Bologna. Oggi impara a ordinare con cortesia. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Un caffè, per favore.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: caffè, acqua, per favore e grazie.",
+        "Marco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.",
+        "Alla fine, Sofia scrive: “Un caffè, per favore.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
       ],
       "questions": [
         "Dove è Sofia?",
@@ -5079,7 +5451,7 @@
         "Quale frase usa Sofia?",
         "Perché l’esperienza è importante?"
       ],
-      "text": "Sofia è em Bologna. Hoje descobre un bar di quartiere e le cortesie quotidiane. Encontra Marco e diz: “Un caffè, per favore.”. Os dois falam com respeito e aprendem quatro palavras novas: caffè, acqua, per favore e grazie.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.\n\nAl final, Sofia scrive una nota: “Un caffè, per favore.”."
+      "text": "Sofia è a Bologna. Oggi impara a ordinare con cortesia. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Un caffè, per favore.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: caffè, acqua, per favore e grazie.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.\n\nAlla fine, Sofia scrive: “Un caffè, per favore.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
     },
     "transcript": "",
     "extra": null,
@@ -5110,20 +5482,20 @@
         "prompt": "Scegli la parola mancante nella lettura.\n\n“Marco fa una domanda semplice e _____ risponde con una frase breve.”",
         "options": [
           "Marco",
-          "caffè",
+          "frase",
           "Sofia",
-          "frase"
+          "breve"
         ]
       },
       {
         "id": "italian-a1-un-caffe-al-bar-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“Al final, Sofia scrive una nota: “Un caffè, per _____.”.”",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo _____ con Marco.”",
         "options": [
-          "scrive",
+          "perché",
           "Sofia",
           "Bologna",
-          "favore"
+          "domani"
         ]
       }
     ]
@@ -5149,9 +5521,9 @@
     "reading": {
       "title": "Un fine settimana a Napoli",
       "parts": [
-        "Sofia vive em Bologna e parla con Marco sobre planificar una visita respetuosa. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “Vorrei visitare il museo.” e spiega perché questa experiência è importante per il quartiere.",
-        "Marco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.",
-        "Al final, Sofia scrive una nota: “Vorrei visitare il museo.”."
+        "Sofia è a Bologna. Oggi impara a hacer planes. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Vorrei visitare il museo.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: museo, passeggiata, prenotazione e visita.",
+        "Marco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.",
+        "Alla fine, Sofia scrive: “Vorrei visitare il museo.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
       ],
       "questions": [
         "Dove è Sofia?",
@@ -5159,7 +5531,7 @@
         "Quale frase usa Sofia?",
         "Perché l’esperienza è importante?"
       ],
-      "text": "Sofia vive em Bologna e parla con Marco sobre planificar una visita respetuosa. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “Vorrei visitare il museo.” e spiega perché questa experiência è importante per il quartiere.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.\n\nAl final, Sofia scrive una nota: “Vorrei visitare il museo.”."
+      "text": "Sofia è a Bologna. Oggi impara a hacer planes. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Vorrei visitare il museo.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: museo, passeggiata, prenotazione e visita.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.\n\nAlla fine, Sofia scrive: “Vorrei visitare il museo.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
     },
     "transcript": "",
     "extra": null,
@@ -5187,34 +5559,34 @@
       {
         "id": "italian-a2-un-fine-settimana-a-napoli-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella lettura.\n\n“e spiega perché questa experiência è _____ per il quartiere.”",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“Durante la conversazione imparano _____ utili: museo, passeggiata, prenotazione e visita.”",
         "options": [
-          "planificar",
-          "respetuosa",
-          "importante",
-          "ascoltando"
+          "Vorrei",
+          "visita",
+          "parole",
+          "scuola"
         ]
       },
       {
         "id": "italian-a2-un-fine-settimana-a-napoli-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“La conversazione mostra che la cultura si impara ascoltando e _____.”",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“Usano le parole nuove in piccole situazioni: al bar, a scuola o per _____.”",
         "options": [
-          "experiência",
-          "conversazione",
-          "planificar",
-          "partecipando"
+          "Vorrei",
+          "parole",
+          "visita",
+          "strada"
         ]
       },
       {
         "id": "italian-a2-un-fine-settimana-a-napoli-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“Al final, Sofia scrive una nota: “Vorrei _____ il museo.”.”",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“È _____ perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco.”",
         "options": [
+          "contenta",
           "visitare",
-          "Bologna",
-          "quartiere",
-          "cultura"
+          "imparano",
+          "Bologna"
         ]
       }
     ]
@@ -5298,9 +5670,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Pronomi combinati",
-        "definition": "Práctica guiada de Pronomi combinati.",
+        "definition": "Connettori, opinioni e ipotesi aiutano a costruire un argomento.",
         "structure": "opinione + perché/tuttavia/quindi + motivazione",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Esprimere e giustificare un punto di vista.",
         "examples": [
           "Penso che la proposta sia utile.",
           "Tuttavia dobbiamo valutare i risultati."
@@ -5309,83 +5681,187 @@
       "grammarTest": {
         "questions": [
           {
+            "id": "q1",
             "type": "mcq",
             "prompt": "Completa: Penso che la proposta ___ utile.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "sia"
+              },
+              {
+                "id": "o2",
+                "text": "è"
+              },
+              {
+                "id": "o3",
+                "text": "essere"
+              },
+              {
+                "id": "o4",
+                "text": "sono"
+              }
             ]
           },
           {
+            "id": "q2",
             "type": "mcq",
             "prompt": "Scegli il connettore di contrasto.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Vorrei uscire, quindi piove."
+              },
+              {
+                "id": "o2",
+                "text": "Vorrei uscire, tuttavia piove."
+              },
+              {
+                "id": "o3",
+                "text": "Vorrei uscire, perché piove."
+              },
+              {
+                "id": "o4",
+                "text": "Vorrei uscire, infatti piove."
+              }
             ]
           },
           {
+            "id": "q3",
             "type": "mcq",
             "prompt": "Completa: Resto a casa perché ___ stanco.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "essere"
+              },
+              {
+                "id": "o2",
+                "text": "sia"
+              },
+              {
+                "id": "o3",
+                "text": "sono"
+              },
+              {
+                "id": "o4",
+                "text": "sarei"
+              }
             ]
           },
           {
+            "id": "q4",
             "type": "mcq",
             "prompt": "Quale frase esprime un’opinione?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Il progetto funziona perché?"
+              },
+              {
+                "id": "o2",
+                "text": "Il progetto ieri funziona?"
+              },
+              {
+                "id": "o3",
+                "text": "Funzionare progetto secondo me."
+              },
+              {
+                "id": "o4",
+                "text": "Secondo me, il progetto funziona."
+              }
             ]
           },
           {
+            "id": "q5",
             "type": "mcq",
             "prompt": "Completa: Sebbene ___ tardi, continuiamo.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "sia"
+              },
+              {
+                "id": "o2",
+                "text": "è"
+              },
+              {
+                "id": "o3",
+                "text": "essere"
+              },
+              {
+                "id": "o4",
+                "text": "sono"
+              }
             ]
           },
           {
+            "id": "q6",
             "type": "mcq",
             "prompt": "Scegli la conclusione logica.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Abbiamo poco tempo, tuttavia organizziamo il lavoro."
+              },
+              {
+                "id": "o2",
+                "text": "Abbiamo poco tempo, quindi organizziamo il lavoro."
+              },
+              {
+                "id": "o3",
+                "text": "Abbiamo poco tempo, perché organizziamo il lavoro."
+              },
+              {
+                "id": "o4",
+                "text": "Abbiamo poco tempo, se organizziamo il lavoro."
+              }
             ]
           },
           {
+            "id": "q7",
             "type": "mcq",
             "prompt": "Completa: Credo che loro ___ ragione.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "avere"
+              },
+              {
+                "id": "o2",
+                "text": "hanno"
+              },
+              {
+                "id": "o3",
+                "text": "abbiano"
+              },
+              {
+                "id": "o4",
+                "text": "avranno"
+              }
             ]
           },
           {
+            "id": "q8",
             "type": "mcq",
             "prompt": "Quale frase giustifica una scelta?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Scelgo il treno è più sostenibile perché?"
+              },
+              {
+                "id": "o2",
+                "text": "Scelgo il treno tuttavia è più sostenibile."
+              },
+              {
+                "id": "o3",
+                "text": "Scelgo il treno quindi è più sostenibile?"
+              },
+              {
+                "id": "o4",
+                "text": "Scelgo il treno perché è più sostenibile."
+              }
             ]
           }
         ]
@@ -5394,91 +5870,203 @@
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
         "prompt": "Completa: Penso che la proposta ___ utile.",
         "options": [
-          "sia",
-          "è",
-          "essere",
-          "sono"
+          {
+            "id": "o1",
+            "text": "sia"
+          },
+          {
+            "id": "o2",
+            "text": "è"
+          },
+          {
+            "id": "o3",
+            "text": "essere"
+          },
+          {
+            "id": "o4",
+            "text": "sono"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q2",
         "type": "mcq",
         "prompt": "Scegli il connettore di contrasto.",
         "options": [
-          "Vorrei uscire, quindi piove.",
-          "Vorrei uscire, tuttavia piove.",
-          "Vorrei uscire, perché piove.",
-          "Vorrei uscire, infatti piove."
+          {
+            "id": "o1",
+            "text": "Vorrei uscire, quindi piove."
+          },
+          {
+            "id": "o2",
+            "text": "Vorrei uscire, tuttavia piove."
+          },
+          {
+            "id": "o3",
+            "text": "Vorrei uscire, perché piove."
+          },
+          {
+            "id": "o4",
+            "text": "Vorrei uscire, infatti piove."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q3",
         "type": "mcq",
         "prompt": "Completa: Resto a casa perché ___ stanco.",
         "options": [
-          "essere",
-          "sia",
-          "sono",
-          "sarei"
+          {
+            "id": "o1",
+            "text": "essere"
+          },
+          {
+            "id": "o2",
+            "text": "sia"
+          },
+          {
+            "id": "o3",
+            "text": "sono"
+          },
+          {
+            "id": "o4",
+            "text": "sarei"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q4",
         "type": "mcq",
         "prompt": "Quale frase esprime un’opinione?",
         "options": [
-          "Il progetto funziona perché?",
-          "Il progetto ieri funziona?",
-          "Funzionare progetto secondo me.",
-          "Secondo me, il progetto funziona."
+          {
+            "id": "o1",
+            "text": "Il progetto funziona perché?"
+          },
+          {
+            "id": "o2",
+            "text": "Il progetto ieri funziona?"
+          },
+          {
+            "id": "o3",
+            "text": "Funzionare progetto secondo me."
+          },
+          {
+            "id": "o4",
+            "text": "Secondo me, il progetto funziona."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q5",
         "type": "mcq",
         "prompt": "Completa: Sebbene ___ tardi, continuiamo.",
         "options": [
-          "sia",
-          "è",
-          "essere",
-          "sono"
+          {
+            "id": "o1",
+            "text": "sia"
+          },
+          {
+            "id": "o2",
+            "text": "è"
+          },
+          {
+            "id": "o3",
+            "text": "essere"
+          },
+          {
+            "id": "o4",
+            "text": "sono"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q6",
         "type": "mcq",
         "prompt": "Scegli la conclusione logica.",
         "options": [
-          "Abbiamo poco tempo, tuttavia organizziamo il lavoro.",
-          "Abbiamo poco tempo, quindi organizziamo il lavoro.",
-          "Abbiamo poco tempo, perché organizziamo il lavoro.",
-          "Abbiamo poco tempo, se organizziamo il lavoro."
+          {
+            "id": "o1",
+            "text": "Abbiamo poco tempo, tuttavia organizziamo il lavoro."
+          },
+          {
+            "id": "o2",
+            "text": "Abbiamo poco tempo, quindi organizziamo il lavoro."
+          },
+          {
+            "id": "o3",
+            "text": "Abbiamo poco tempo, perché organizziamo il lavoro."
+          },
+          {
+            "id": "o4",
+            "text": "Abbiamo poco tempo, se organizziamo il lavoro."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q7",
         "type": "mcq",
         "prompt": "Completa: Credo che loro ___ ragione.",
         "options": [
-          "avere",
-          "hanno",
-          "abbiano",
-          "avranno"
+          {
+            "id": "o1",
+            "text": "avere"
+          },
+          {
+            "id": "o2",
+            "text": "hanno"
+          },
+          {
+            "id": "o3",
+            "text": "abbiano"
+          },
+          {
+            "id": "o4",
+            "text": "avranno"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q8",
         "type": "mcq",
         "prompt": "Quale frase giustifica una scelta?",
         "options": [
-          "Scelgo il treno è più sostenibile perché?",
-          "Scelgo il treno tuttavia è più sostenibile.",
-          "Scelgo il treno quindi è più sostenibile?",
-          "Scelgo il treno perché è più sostenibile."
+          {
+            "id": "o1",
+            "text": "Scelgo il treno è più sostenibile perché?"
+          },
+          {
+            "id": "o2",
+            "text": "Scelgo il treno tuttavia è più sostenibile."
+          },
+          {
+            "id": "o3",
+            "text": "Scelgo il treno quindi è più sostenibile?"
+          },
+          {
+            "id": "o4",
+            "text": "Scelgo il treno perché è più sostenibile."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       }
     ]
@@ -7094,121 +7682,277 @@
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "itinerario",
-          "prenotazione",
-          "paesaggio",
-          "evitare"
-        ]
+          {
+            "id": "o1",
+            "text": "itinerario"
+          },
+          {
+            "id": "o2",
+            "text": "prenotazione"
+          },
+          {
+            "id": "o3",
+            "text": "paesaggio"
+          },
+          {
+            "id": "o4",
+            "text": "evitare"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "itinerario",
-          "prenotazione",
-          "paesaggio",
-          "evitare"
-        ]
+          {
+            "id": "o1",
+            "text": "itinerario"
+          },
+          {
+            "id": "o2",
+            "text": "prenotazione"
+          },
+          {
+            "id": "o3",
+            "text": "paesaggio"
+          },
+          {
+            "id": "o4",
+            "text": "evitare"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "prenotazione",
-          "itinerario",
-          "paesaggio",
-          "evitare"
-        ]
+          {
+            "id": "o1",
+            "text": "prenotazione"
+          },
+          {
+            "id": "o2",
+            "text": "itinerario"
+          },
+          {
+            "id": "o3",
+            "text": "paesaggio"
+          },
+          {
+            "id": "o4",
+            "text": "evitare"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "paesaggio",
-          "itinerario",
-          "prenotazione",
-          "evitare"
-        ]
+          {
+            "id": "o1",
+            "text": "paesaggio"
+          },
+          {
+            "id": "o2",
+            "text": "itinerario"
+          },
+          {
+            "id": "o3",
+            "text": "prenotazione"
+          },
+          {
+            "id": "o4",
+            "text": "evitare"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "consigliare",
-          "itinerario",
-          "prenotazione",
-          "paesaggio"
-        ]
+          {
+            "id": "o1",
+            "text": "consigliare"
+          },
+          {
+            "id": "o2",
+            "text": "itinerario"
+          },
+          {
+            "id": "o3",
+            "text": "prenotazione"
+          },
+          {
+            "id": "o4",
+            "text": "paesaggio"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "itinerario",
-          "esperienza",
-          "prenotazione",
-          "paesaggio"
-        ]
+          {
+            "id": "o1",
+            "text": "itinerario"
+          },
+          {
+            "id": "o2",
+            "text": "esperienza"
+          },
+          {
+            "id": "o3",
+            "text": "prenotazione"
+          },
+          {
+            "id": "o4",
+            "text": "paesaggio"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "prenotazione",
-          "itinerario",
-          "ospitale",
-          "paesaggio"
-        ]
+          {
+            "id": "o1",
+            "text": "prenotazione"
+          },
+          {
+            "id": "o2",
+            "text": "itinerario"
+          },
+          {
+            "id": "o3",
+            "text": "ospitale"
+          },
+          {
+            "id": "o4",
+            "text": "paesaggio"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "paesaggio",
-          "itinerario",
-          "prenotazione",
-          "spostamento"
-        ]
+          {
+            "id": "o1",
+            "text": "paesaggio"
+          },
+          {
+            "id": "o2",
+            "text": "itinerario"
+          },
+          {
+            "id": "o3",
+            "text": "prenotazione"
+          },
+          {
+            "id": "o4",
+            "text": "spostamento"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "sostenibile",
-          "itinerario",
-          "prenotazione",
-          "paesaggio"
-        ]
+          {
+            "id": "o1",
+            "text": "sostenibile"
+          },
+          {
+            "id": "o2",
+            "text": "itinerario"
+          },
+          {
+            "id": "o3",
+            "text": "prenotazione"
+          },
+          {
+            "id": "o4",
+            "text": "paesaggio"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "itinerario",
-          "ricordo",
-          "prenotazione",
-          "paesaggio"
-        ]
+          {
+            "id": "o1",
+            "text": "itinerario"
+          },
+          {
+            "id": "o2",
+            "text": "ricordo"
+          },
+          {
+            "id": "o3",
+            "text": "prenotazione"
+          },
+          {
+            "id": "o4",
+            "text": "paesaggio"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "prenotazione",
-          "itinerario",
-          "oggi",
-          "paesaggio"
-        ]
+          {
+            "id": "o1",
+            "text": "prenotazione"
+          },
+          {
+            "id": "o2",
+            "text": "itinerario"
+          },
+          {
+            "id": "o3",
+            "text": "oggi"
+          },
+          {
+            "id": "o4",
+            "text": "paesaggio"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "paesaggio",
-          "itinerario",
-          "prenotazione",
-          "insieme"
-        ]
+          {
+            "id": "o1",
+            "text": "paesaggio"
+          },
+          {
+            "id": "o2",
+            "text": "itinerario"
+          },
+          {
+            "id": "o3",
+            "text": "prenotazione"
+          },
+          {
+            "id": "o4",
+            "text": "insieme"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },
@@ -9195,9 +9939,9 @@
     "reading": {
       "title": "La famiglia a tavola",
       "parts": [
-        "Sofia è em Bologna. Hoje descobre una cena familiare e gli orari italiani. Encontra Marco e diz: “Ceniamo insieme.”. Os dois falam com respeito e aprendem quatro palavras novas: famiglia, cena, tavola e insieme.",
-        "Marco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.",
-        "Al final, Sofia scrive una nota: “Ceniamo insieme.”."
+        "Sofia è a Bologna. Oggi impara a parlare della famiglia. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Ceniamo insieme.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: famiglia, cena, tavola e insieme.",
+        "Marco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.",
+        "Alla fine, Sofia scrive: “Ceniamo insieme.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
       ],
       "questions": [
         "Dove è Sofia?",
@@ -9205,7 +9949,7 @@
         "Quale frase usa Sofia?",
         "Perché l’esperienza è importante?"
       ],
-      "text": "Sofia è em Bologna. Hoje descobre una cena familiare e gli orari italiani. Encontra Marco e diz: “Ceniamo insieme.”. Os dois falam com respeito e aprendem quatro palavras novas: famiglia, cena, tavola e insieme.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.\n\nAl final, Sofia scrive una nota: “Ceniamo insieme.”."
+      "text": "Sofia è a Bologna. Oggi impara a parlare della famiglia. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Ceniamo insieme.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: famiglia, cena, tavola e insieme.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.\n\nAlla fine, Sofia scrive: “Ceniamo insieme.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
     },
     "transcript": "",
     "extra": null,
@@ -9244,12 +9988,12 @@
       {
         "id": "italian-a1-la-famiglia-a-tavola-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“Al final, Sofia _____ una nota: “Ceniamo insieme.”.”",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo _____ con Marco.”",
         "options": [
+          "perché",
           "Sofia",
           "Bologna",
-          "Marco",
-          "scrive"
+          "domani"
         ]
       }
     ]
@@ -9275,9 +10019,9 @@
     "reading": {
       "title": "Ricette di famiglia",
       "parts": [
-        "Sofia vive em Bologna e parla con Marco sobre recetas, recuerdos y medidas. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “Prima taglio le verdure.” e spiega perché questa experiência è importante per il quartiere.",
-        "Marco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.",
-        "Al final, Sofia scrive una nota: “Prima taglio le verdure.”."
+        "Sofia è a Bologna. Oggi impara a explicar una secuencia. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Prima taglio le verdure.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: ricetta, ingrediente, prima e dopo.",
+        "Marco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.",
+        "Alla fine, Sofia scrive: “Prima taglio le verdure.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
       ],
       "questions": [
         "Dove è Sofia?",
@@ -9285,7 +10029,7 @@
         "Quale frase usa Sofia?",
         "Perché l’esperienza è importante?"
       ],
-      "text": "Sofia vive em Bologna e parla con Marco sobre recetas, recuerdos y medidas. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “Prima taglio le verdure.” e spiega perché questa experiência è importante per il quartiere.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.\n\nAl final, Sofia scrive una nota: “Prima taglio le verdure.”."
+      "text": "Sofia è a Bologna. Oggi impara a explicar una secuencia. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Prima taglio le verdure.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: ricetta, ingrediente, prima e dopo.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.\n\nAlla fine, Sofia scrive: “Prima taglio le verdure.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
     },
     "transcript": "",
     "extra": null,
@@ -9313,34 +10057,34 @@
       {
         "id": "italian-a2-ricette-di-famiglia-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella lettura.\n\n“e spiega perché questa experiência è _____ per il quartiere.”",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“Durante la conversazione imparano _____ utili: ricetta, ingrediente, prima e dopo.”",
         "options": [
-          "ascoltando",
-          "recuerdos",
-          "importante",
-          "experiência"
+          "taglio",
+          "scuola",
+          "parole",
+          "strada"
         ]
       },
       {
         "id": "italian-a2-ricette-di-famiglia-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“La conversazione mostra che la cultura si impara ascoltando e _____.”",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“Usano le parole nuove in piccole situazioni: al bar, a scuola o per _____.”",
         "options": [
-          "experiência",
-          "conversazione",
-          "importante",
-          "partecipando"
+          "taglio",
+          "parole",
+          "scuola",
+          "strada"
         ]
       },
       {
         "id": "italian-a2-ricette-di-famiglia-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“Al final, Sofia scrive una nota: “_____ taglio le verdure.”.”",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“È _____ perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco.”",
         "options": [
-          "Prima",
-          "Sofia",
-          "parla",
-          "Marco"
+          "contenta",
+          "imparano",
+          "Bologna",
+          "verdure"
         ]
       }
     ]
@@ -9424,9 +10168,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Congiuntivo presente",
-        "definition": "Práctica guiada de Congiuntivo presente.",
+        "definition": "Connettori, opinioni e ipotesi aiutano a costruire un argomento.",
         "structure": "opinione + perché/tuttavia/quindi + motivazione",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Esprimere e giustificare un punto di vista.",
         "examples": [
           "Penso che la proposta sia utile.",
           "Tuttavia dobbiamo valutare i risultati."
@@ -9435,83 +10179,187 @@
       "grammarTest": {
         "questions": [
           {
+            "id": "q1",
             "type": "mcq",
             "prompt": "Completa: Penso che la proposta ___ utile.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "sia"
+              },
+              {
+                "id": "o2",
+                "text": "è"
+              },
+              {
+                "id": "o3",
+                "text": "essere"
+              },
+              {
+                "id": "o4",
+                "text": "sono"
+              }
             ]
           },
           {
+            "id": "q2",
             "type": "mcq",
             "prompt": "Scegli il connettore di contrasto.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Vorrei uscire, quindi piove."
+              },
+              {
+                "id": "o2",
+                "text": "Vorrei uscire, tuttavia piove."
+              },
+              {
+                "id": "o3",
+                "text": "Vorrei uscire, perché piove."
+              },
+              {
+                "id": "o4",
+                "text": "Vorrei uscire, infatti piove."
+              }
             ]
           },
           {
+            "id": "q3",
             "type": "mcq",
             "prompt": "Completa: Resto a casa perché ___ stanco.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "essere"
+              },
+              {
+                "id": "o2",
+                "text": "sia"
+              },
+              {
+                "id": "o3",
+                "text": "sono"
+              },
+              {
+                "id": "o4",
+                "text": "sarei"
+              }
             ]
           },
           {
+            "id": "q4",
             "type": "mcq",
             "prompt": "Quale frase esprime un’opinione?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Il progetto funziona perché?"
+              },
+              {
+                "id": "o2",
+                "text": "Il progetto ieri funziona?"
+              },
+              {
+                "id": "o3",
+                "text": "Funzionare progetto secondo me."
+              },
+              {
+                "id": "o4",
+                "text": "Secondo me, il progetto funziona."
+              }
             ]
           },
           {
+            "id": "q5",
             "type": "mcq",
             "prompt": "Completa: Sebbene ___ tardi, continuiamo.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "sia"
+              },
+              {
+                "id": "o2",
+                "text": "è"
+              },
+              {
+                "id": "o3",
+                "text": "essere"
+              },
+              {
+                "id": "o4",
+                "text": "sono"
+              }
             ]
           },
           {
+            "id": "q6",
             "type": "mcq",
             "prompt": "Scegli la conclusione logica.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Abbiamo poco tempo, tuttavia organizziamo il lavoro."
+              },
+              {
+                "id": "o2",
+                "text": "Abbiamo poco tempo, quindi organizziamo il lavoro."
+              },
+              {
+                "id": "o3",
+                "text": "Abbiamo poco tempo, perché organizziamo il lavoro."
+              },
+              {
+                "id": "o4",
+                "text": "Abbiamo poco tempo, se organizziamo il lavoro."
+              }
             ]
           },
           {
+            "id": "q7",
             "type": "mcq",
             "prompt": "Completa: Credo che loro ___ ragione.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "avere"
+              },
+              {
+                "id": "o2",
+                "text": "hanno"
+              },
+              {
+                "id": "o3",
+                "text": "abbiano"
+              },
+              {
+                "id": "o4",
+                "text": "avranno"
+              }
             ]
           },
           {
+            "id": "q8",
             "type": "mcq",
             "prompt": "Quale frase giustifica una scelta?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Scelgo il treno è più sostenibile perché?"
+              },
+              {
+                "id": "o2",
+                "text": "Scelgo il treno tuttavia è più sostenibile."
+              },
+              {
+                "id": "o3",
+                "text": "Scelgo il treno quindi è più sostenibile?"
+              },
+              {
+                "id": "o4",
+                "text": "Scelgo il treno perché è più sostenibile."
+              }
             ]
           }
         ]
@@ -9520,91 +10368,203 @@
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
         "prompt": "Completa: Penso che la proposta ___ utile.",
         "options": [
-          "sia",
-          "è",
-          "essere",
-          "sono"
+          {
+            "id": "o1",
+            "text": "sia"
+          },
+          {
+            "id": "o2",
+            "text": "è"
+          },
+          {
+            "id": "o3",
+            "text": "essere"
+          },
+          {
+            "id": "o4",
+            "text": "sono"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q2",
         "type": "mcq",
         "prompt": "Scegli il connettore di contrasto.",
         "options": [
-          "Vorrei uscire, quindi piove.",
-          "Vorrei uscire, tuttavia piove.",
-          "Vorrei uscire, perché piove.",
-          "Vorrei uscire, infatti piove."
+          {
+            "id": "o1",
+            "text": "Vorrei uscire, quindi piove."
+          },
+          {
+            "id": "o2",
+            "text": "Vorrei uscire, tuttavia piove."
+          },
+          {
+            "id": "o3",
+            "text": "Vorrei uscire, perché piove."
+          },
+          {
+            "id": "o4",
+            "text": "Vorrei uscire, infatti piove."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q3",
         "type": "mcq",
         "prompt": "Completa: Resto a casa perché ___ stanco.",
         "options": [
-          "essere",
-          "sia",
-          "sono",
-          "sarei"
+          {
+            "id": "o1",
+            "text": "essere"
+          },
+          {
+            "id": "o2",
+            "text": "sia"
+          },
+          {
+            "id": "o3",
+            "text": "sono"
+          },
+          {
+            "id": "o4",
+            "text": "sarei"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q4",
         "type": "mcq",
         "prompt": "Quale frase esprime un’opinione?",
         "options": [
-          "Il progetto funziona perché?",
-          "Il progetto ieri funziona?",
-          "Funzionare progetto secondo me.",
-          "Secondo me, il progetto funziona."
+          {
+            "id": "o1",
+            "text": "Il progetto funziona perché?"
+          },
+          {
+            "id": "o2",
+            "text": "Il progetto ieri funziona?"
+          },
+          {
+            "id": "o3",
+            "text": "Funzionare progetto secondo me."
+          },
+          {
+            "id": "o4",
+            "text": "Secondo me, il progetto funziona."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q5",
         "type": "mcq",
         "prompt": "Completa: Sebbene ___ tardi, continuiamo.",
         "options": [
-          "sia",
-          "è",
-          "essere",
-          "sono"
+          {
+            "id": "o1",
+            "text": "sia"
+          },
+          {
+            "id": "o2",
+            "text": "è"
+          },
+          {
+            "id": "o3",
+            "text": "essere"
+          },
+          {
+            "id": "o4",
+            "text": "sono"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q6",
         "type": "mcq",
         "prompt": "Scegli la conclusione logica.",
         "options": [
-          "Abbiamo poco tempo, tuttavia organizziamo il lavoro.",
-          "Abbiamo poco tempo, quindi organizziamo il lavoro.",
-          "Abbiamo poco tempo, perché organizziamo il lavoro.",
-          "Abbiamo poco tempo, se organizziamo il lavoro."
+          {
+            "id": "o1",
+            "text": "Abbiamo poco tempo, tuttavia organizziamo il lavoro."
+          },
+          {
+            "id": "o2",
+            "text": "Abbiamo poco tempo, quindi organizziamo il lavoro."
+          },
+          {
+            "id": "o3",
+            "text": "Abbiamo poco tempo, perché organizziamo il lavoro."
+          },
+          {
+            "id": "o4",
+            "text": "Abbiamo poco tempo, se organizziamo il lavoro."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q7",
         "type": "mcq",
         "prompt": "Completa: Credo che loro ___ ragione.",
         "options": [
-          "avere",
-          "hanno",
-          "abbiano",
-          "avranno"
+          {
+            "id": "o1",
+            "text": "avere"
+          },
+          {
+            "id": "o2",
+            "text": "hanno"
+          },
+          {
+            "id": "o3",
+            "text": "abbiano"
+          },
+          {
+            "id": "o4",
+            "text": "avranno"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q8",
         "type": "mcq",
         "prompt": "Quale frase giustifica una scelta?",
         "options": [
-          "Scelgo il treno è più sostenibile perché?",
-          "Scelgo il treno tuttavia è più sostenibile.",
-          "Scelgo il treno quindi è più sostenibile?",
-          "Scelgo il treno perché è più sostenibile."
+          {
+            "id": "o1",
+            "text": "Scelgo il treno è più sostenibile perché?"
+          },
+          {
+            "id": "o2",
+            "text": "Scelgo il treno tuttavia è più sostenibile."
+          },
+          {
+            "id": "o3",
+            "text": "Scelgo il treno quindi è più sostenibile?"
+          },
+          {
+            "id": "o4",
+            "text": "Scelgo il treno perché è più sostenibile."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       }
     ]
@@ -11220,121 +12180,277 @@
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "benessere",
-          "riposo",
-          "allenamento",
-          "equilibrio"
-        ]
+          {
+            "id": "o1",
+            "text": "benessere"
+          },
+          {
+            "id": "o2",
+            "text": "riposo"
+          },
+          {
+            "id": "o3",
+            "text": "allenamento"
+          },
+          {
+            "id": "o4",
+            "text": "equilibrio"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "benessere",
-          "riposo",
-          "allenamento",
-          "equilibrio"
-        ]
+          {
+            "id": "o1",
+            "text": "benessere"
+          },
+          {
+            "id": "o2",
+            "text": "riposo"
+          },
+          {
+            "id": "o3",
+            "text": "allenamento"
+          },
+          {
+            "id": "o4",
+            "text": "equilibrio"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "riposo",
-          "benessere",
-          "allenamento",
-          "equilibrio"
-        ]
+          {
+            "id": "o1",
+            "text": "riposo"
+          },
+          {
+            "id": "o2",
+            "text": "benessere"
+          },
+          {
+            "id": "o3",
+            "text": "allenamento"
+          },
+          {
+            "id": "o4",
+            "text": "equilibrio"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "allenamento",
-          "benessere",
-          "riposo",
-          "equilibrio"
-        ]
+          {
+            "id": "o1",
+            "text": "allenamento"
+          },
+          {
+            "id": "o2",
+            "text": "benessere"
+          },
+          {
+            "id": "o3",
+            "text": "riposo"
+          },
+          {
+            "id": "o4",
+            "text": "equilibrio"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "migliorare",
-          "benessere",
-          "riposo",
-          "allenamento"
-        ]
+          {
+            "id": "o1",
+            "text": "migliorare"
+          },
+          {
+            "id": "o2",
+            "text": "benessere"
+          },
+          {
+            "id": "o3",
+            "text": "riposo"
+          },
+          {
+            "id": "o4",
+            "text": "allenamento"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "benessere",
-          "prevenire",
-          "riposo",
-          "allenamento"
-        ]
+          {
+            "id": "o1",
+            "text": "benessere"
+          },
+          {
+            "id": "o2",
+            "text": "prevenire"
+          },
+          {
+            "id": "o3",
+            "text": "riposo"
+          },
+          {
+            "id": "o4",
+            "text": "allenamento"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "riposo",
-          "benessere",
-          "abitudine",
-          "allenamento"
-        ]
+          {
+            "id": "o1",
+            "text": "riposo"
+          },
+          {
+            "id": "o2",
+            "text": "benessere"
+          },
+          {
+            "id": "o3",
+            "text": "abitudine"
+          },
+          {
+            "id": "o4",
+            "text": "allenamento"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "allenamento",
-          "benessere",
-          "riposo",
-          "energia"
-        ]
+          {
+            "id": "o1",
+            "text": "allenamento"
+          },
+          {
+            "id": "o2",
+            "text": "benessere"
+          },
+          {
+            "id": "o3",
+            "text": "riposo"
+          },
+          {
+            "id": "o4",
+            "text": "energia"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "consiglio",
-          "benessere",
-          "riposo",
-          "allenamento"
-        ]
+          {
+            "id": "o1",
+            "text": "consiglio"
+          },
+          {
+            "id": "o2",
+            "text": "benessere"
+          },
+          {
+            "id": "o3",
+            "text": "riposo"
+          },
+          {
+            "id": "o4",
+            "text": "allenamento"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "benessere",
-          "scelta",
-          "riposo",
-          "allenamento"
-        ]
+          {
+            "id": "o1",
+            "text": "benessere"
+          },
+          {
+            "id": "o2",
+            "text": "scelta"
+          },
+          {
+            "id": "o3",
+            "text": "riposo"
+          },
+          {
+            "id": "o4",
+            "text": "allenamento"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "riposo",
-          "benessere",
-          "oggi",
-          "allenamento"
-        ]
+          {
+            "id": "o1",
+            "text": "riposo"
+          },
+          {
+            "id": "o2",
+            "text": "benessere"
+          },
+          {
+            "id": "o3",
+            "text": "oggi"
+          },
+          {
+            "id": "o4",
+            "text": "allenamento"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "allenamento",
-          "benessere",
-          "riposo",
-          "insieme"
-        ]
+          {
+            "id": "o1",
+            "text": "allenamento"
+          },
+          {
+            "id": "o2",
+            "text": "benessere"
+          },
+          {
+            "id": "o3",
+            "text": "riposo"
+          },
+          {
+            "id": "o4",
+            "text": "insieme"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },
@@ -13321,9 +14437,9 @@
     "reading": {
       "title": "Il mercato del sabato",
       "parts": [
-        "Sofia è em Bologna. Hoje descobre frutta, verdura e prezzi al mercato. Encontra Marco e diz: “Quanto costa un chilo?”. Os dois falam com respeito e aprendem quatro palavras novas: pomodoro, mela, chilo e euro.",
-        "Marco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.",
-        "Al final, Sofia scrive una nota: “Quanto costa un chilo?”."
+        "Sofia è a Bologna. Oggi impara a comprare al mercato. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Quanto costa un chilo?”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: pomodoro, mela, chilo e euro.",
+        "Marco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.",
+        "Alla fine, Sofia scrive: “Quanto costa un chilo?”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
       ],
       "questions": [
         "Dove è Sofia?",
@@ -13331,7 +14447,7 @@
         "Quale frase usa Sofia?",
         "Perché l’esperienza è importante?"
       ],
-      "text": "Sofia è em Bologna. Hoje descobre frutta, verdura e prezzi al mercato. Encontra Marco e diz: “Quanto costa un chilo?”. Os dois falam com respeito e aprendem quatro palavras novas: pomodoro, mela, chilo e euro.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.\n\nAl final, Sofia scrive una nota: “Quanto costa un chilo?”."
+      "text": "Sofia è a Bologna. Oggi impara a comprare al mercato. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Quanto costa un chilo?”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: pomodoro, mela, chilo e euro.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.\n\nAlla fine, Sofia scrive: “Quanto costa un chilo?”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
     },
     "transcript": "",
     "extra": null,
@@ -13362,20 +14478,20 @@
         "prompt": "Scegli la parola mancante nella lettura.\n\n“Marco fa una domanda semplice e _____ risponde con una frase breve.”",
         "options": [
           "Marco",
-          "costa",
+          "frase",
           "Sofia",
-          "chilo"
+          "breve"
         ]
       },
       {
         "id": "italian-a1-il-mercato-del-sabato-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“Al final, Sofia scrive una nota: “_____ costa un chilo?”.”",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo _____ con Marco.”",
         "options": [
-          "scrive",
+          "perché",
           "Sofia",
           "Bologna",
-          "Quanto"
+          "domani"
         ]
       }
     ]
@@ -13401,9 +14517,9 @@
     "reading": {
       "title": "Il lavoro e il caffè",
       "parts": [
-        "Sofia vive em Bologna e parla con Marco sobre pausas laborales y registros de cortesía. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “Posso fare una pausa?” e spiega perché questa experiência è importante per il quartiere.",
-        "Marco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.",
-        "Al final, Sofia scrive una nota: “Posso fare una pausa?”."
+        "Sofia è a Bologna. Oggi impara a interactuar en el trabajo. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Posso fare una pausa?”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: collega, pausa, riunione e orario.",
+        "Marco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.",
+        "Alla fine, Sofia scrive: “Posso fare una pausa?”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
       ],
       "questions": [
         "Dove è Sofia?",
@@ -13411,7 +14527,7 @@
         "Quale frase usa Sofia?",
         "Perché l’esperienza è importante?"
       ],
-      "text": "Sofia vive em Bologna e parla con Marco sobre pausas laborales y registros de cortesía. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “Posso fare una pausa?” e spiega perché questa experiência è importante per il quartiere.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.\n\nAl final, Sofia scrive una nota: “Posso fare una pausa?”."
+      "text": "Sofia è a Bologna. Oggi impara a interactuar en el trabajo. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Posso fare una pausa?”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: collega, pausa, riunione e orario.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.\n\nAlla fine, Sofia scrive: “Posso fare una pausa?”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
     },
     "transcript": "",
     "extra": null,
@@ -13439,34 +14555,34 @@
       {
         "id": "italian-a2-il-lavoro-e-il-caffe-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella lettura.\n\n“e spiega perché questa experiência è _____ per il quartiere.”",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“Durante la conversazione imparano _____ utili: collega, pausa, riunione e orario.”",
         "options": [
-          "ascoltando",
-          "laborales",
-          "importante",
-          "registros"
+          "orario",
+          "scuola",
+          "parole",
+          "strada"
         ]
       },
       {
         "id": "italian-a2-il-lavoro-e-il-caffe-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“La conversazione mostra che la cultura si impara ascoltando e _____.”",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“Usano le parole nuove in piccole situazioni: al bar, a scuola o per _____.”",
         "options": [
-          "experiência",
-          "conversazione",
-          "importante",
-          "partecipando"
+          "parole",
+          "orario",
+          "scuola",
+          "strada"
         ]
       },
       {
         "id": "italian-a2-il-lavoro-e-il-caffe-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“Al final, Sofia _____ una nota: “Posso fare una pausa?”.”",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“È _____ perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco.”",
         "options": [
-          "scrive",
-          "pausas",
-          "spiega",
-          "perché"
+          "contenta",
+          "imparano",
+          "riunione",
+          "Bologna"
         ]
       }
     ]
@@ -13550,9 +14666,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Discorso indiretto",
-        "definition": "Práctica guiada de Discorso indiretto.",
+        "definition": "Connettori, opinioni e ipotesi aiutano a costruire un argomento.",
         "structure": "opinione + perché/tuttavia/quindi + motivazione",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Esprimere e giustificare un punto di vista.",
         "examples": [
           "Penso che la proposta sia utile.",
           "Tuttavia dobbiamo valutare i risultati."
@@ -13561,83 +14677,187 @@
       "grammarTest": {
         "questions": [
           {
+            "id": "q1",
             "type": "mcq",
             "prompt": "Completa: Penso che la proposta ___ utile.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "sia"
+              },
+              {
+                "id": "o2",
+                "text": "è"
+              },
+              {
+                "id": "o3",
+                "text": "essere"
+              },
+              {
+                "id": "o4",
+                "text": "sono"
+              }
             ]
           },
           {
+            "id": "q2",
             "type": "mcq",
             "prompt": "Scegli il connettore di contrasto.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Vorrei uscire, quindi piove."
+              },
+              {
+                "id": "o2",
+                "text": "Vorrei uscire, tuttavia piove."
+              },
+              {
+                "id": "o3",
+                "text": "Vorrei uscire, perché piove."
+              },
+              {
+                "id": "o4",
+                "text": "Vorrei uscire, infatti piove."
+              }
             ]
           },
           {
+            "id": "q3",
             "type": "mcq",
             "prompt": "Completa: Resto a casa perché ___ stanco.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "essere"
+              },
+              {
+                "id": "o2",
+                "text": "sia"
+              },
+              {
+                "id": "o3",
+                "text": "sono"
+              },
+              {
+                "id": "o4",
+                "text": "sarei"
+              }
             ]
           },
           {
+            "id": "q4",
             "type": "mcq",
             "prompt": "Quale frase esprime un’opinione?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Il progetto funziona perché?"
+              },
+              {
+                "id": "o2",
+                "text": "Il progetto ieri funziona?"
+              },
+              {
+                "id": "o3",
+                "text": "Funzionare progetto secondo me."
+              },
+              {
+                "id": "o4",
+                "text": "Secondo me, il progetto funziona."
+              }
             ]
           },
           {
+            "id": "q5",
             "type": "mcq",
             "prompt": "Completa: Sebbene ___ tardi, continuiamo.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "sia"
+              },
+              {
+                "id": "o2",
+                "text": "è"
+              },
+              {
+                "id": "o3",
+                "text": "essere"
+              },
+              {
+                "id": "o4",
+                "text": "sono"
+              }
             ]
           },
           {
+            "id": "q6",
             "type": "mcq",
             "prompt": "Scegli la conclusione logica.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Abbiamo poco tempo, tuttavia organizziamo il lavoro."
+              },
+              {
+                "id": "o2",
+                "text": "Abbiamo poco tempo, quindi organizziamo il lavoro."
+              },
+              {
+                "id": "o3",
+                "text": "Abbiamo poco tempo, perché organizziamo il lavoro."
+              },
+              {
+                "id": "o4",
+                "text": "Abbiamo poco tempo, se organizziamo il lavoro."
+              }
             ]
           },
           {
+            "id": "q7",
             "type": "mcq",
             "prompt": "Completa: Credo che loro ___ ragione.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "avere"
+              },
+              {
+                "id": "o2",
+                "text": "hanno"
+              },
+              {
+                "id": "o3",
+                "text": "abbiano"
+              },
+              {
+                "id": "o4",
+                "text": "avranno"
+              }
             ]
           },
           {
+            "id": "q8",
             "type": "mcq",
             "prompt": "Quale frase giustifica una scelta?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Scelgo il treno è più sostenibile perché?"
+              },
+              {
+                "id": "o2",
+                "text": "Scelgo il treno tuttavia è più sostenibile."
+              },
+              {
+                "id": "o3",
+                "text": "Scelgo il treno quindi è più sostenibile?"
+              },
+              {
+                "id": "o4",
+                "text": "Scelgo il treno perché è più sostenibile."
+              }
             ]
           }
         ]
@@ -13646,91 +14866,203 @@
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
         "prompt": "Completa: Penso che la proposta ___ utile.",
         "options": [
-          "sia",
-          "è",
-          "essere",
-          "sono"
+          {
+            "id": "o1",
+            "text": "sia"
+          },
+          {
+            "id": "o2",
+            "text": "è"
+          },
+          {
+            "id": "o3",
+            "text": "essere"
+          },
+          {
+            "id": "o4",
+            "text": "sono"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q2",
         "type": "mcq",
         "prompt": "Scegli il connettore di contrasto.",
         "options": [
-          "Vorrei uscire, quindi piove.",
-          "Vorrei uscire, tuttavia piove.",
-          "Vorrei uscire, perché piove.",
-          "Vorrei uscire, infatti piove."
+          {
+            "id": "o1",
+            "text": "Vorrei uscire, quindi piove."
+          },
+          {
+            "id": "o2",
+            "text": "Vorrei uscire, tuttavia piove."
+          },
+          {
+            "id": "o3",
+            "text": "Vorrei uscire, perché piove."
+          },
+          {
+            "id": "o4",
+            "text": "Vorrei uscire, infatti piove."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q3",
         "type": "mcq",
         "prompt": "Completa: Resto a casa perché ___ stanco.",
         "options": [
-          "essere",
-          "sia",
-          "sono",
-          "sarei"
+          {
+            "id": "o1",
+            "text": "essere"
+          },
+          {
+            "id": "o2",
+            "text": "sia"
+          },
+          {
+            "id": "o3",
+            "text": "sono"
+          },
+          {
+            "id": "o4",
+            "text": "sarei"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q4",
         "type": "mcq",
         "prompt": "Quale frase esprime un’opinione?",
         "options": [
-          "Il progetto funziona perché?",
-          "Il progetto ieri funziona?",
-          "Funzionare progetto secondo me.",
-          "Secondo me, il progetto funziona."
+          {
+            "id": "o1",
+            "text": "Il progetto funziona perché?"
+          },
+          {
+            "id": "o2",
+            "text": "Il progetto ieri funziona?"
+          },
+          {
+            "id": "o3",
+            "text": "Funzionare progetto secondo me."
+          },
+          {
+            "id": "o4",
+            "text": "Secondo me, il progetto funziona."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q5",
         "type": "mcq",
         "prompt": "Completa: Sebbene ___ tardi, continuiamo.",
         "options": [
-          "sia",
-          "è",
-          "essere",
-          "sono"
+          {
+            "id": "o1",
+            "text": "sia"
+          },
+          {
+            "id": "o2",
+            "text": "è"
+          },
+          {
+            "id": "o3",
+            "text": "essere"
+          },
+          {
+            "id": "o4",
+            "text": "sono"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q6",
         "type": "mcq",
         "prompt": "Scegli la conclusione logica.",
         "options": [
-          "Abbiamo poco tempo, tuttavia organizziamo il lavoro.",
-          "Abbiamo poco tempo, quindi organizziamo il lavoro.",
-          "Abbiamo poco tempo, perché organizziamo il lavoro.",
-          "Abbiamo poco tempo, se organizziamo il lavoro."
+          {
+            "id": "o1",
+            "text": "Abbiamo poco tempo, tuttavia organizziamo il lavoro."
+          },
+          {
+            "id": "o2",
+            "text": "Abbiamo poco tempo, quindi organizziamo il lavoro."
+          },
+          {
+            "id": "o3",
+            "text": "Abbiamo poco tempo, perché organizziamo il lavoro."
+          },
+          {
+            "id": "o4",
+            "text": "Abbiamo poco tempo, se organizziamo il lavoro."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q7",
         "type": "mcq",
         "prompt": "Completa: Credo che loro ___ ragione.",
         "options": [
-          "avere",
-          "hanno",
-          "abbiano",
-          "avranno"
+          {
+            "id": "o1",
+            "text": "avere"
+          },
+          {
+            "id": "o2",
+            "text": "hanno"
+          },
+          {
+            "id": "o3",
+            "text": "abbiano"
+          },
+          {
+            "id": "o4",
+            "text": "avranno"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q8",
         "type": "mcq",
         "prompt": "Quale frase giustifica una scelta?",
         "options": [
-          "Scelgo il treno è più sostenibile perché?",
-          "Scelgo il treno tuttavia è più sostenibile.",
-          "Scelgo il treno quindi è più sostenibile?",
-          "Scelgo il treno perché è più sostenibile."
+          {
+            "id": "o1",
+            "text": "Scelgo il treno è più sostenibile perché?"
+          },
+          {
+            "id": "o2",
+            "text": "Scelgo il treno tuttavia è più sostenibile."
+          },
+          {
+            "id": "o3",
+            "text": "Scelgo il treno quindi è più sostenibile?"
+          },
+          {
+            "id": "o4",
+            "text": "Scelgo il treno perché è più sostenibile."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       }
     ]
@@ -15346,121 +16678,277 @@
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "notizia",
-          "fonte",
-          "pubblico",
-          "opinione"
-        ]
+          {
+            "id": "o1",
+            "text": "notizia"
+          },
+          {
+            "id": "o2",
+            "text": "fonte"
+          },
+          {
+            "id": "o3",
+            "text": "pubblico"
+          },
+          {
+            "id": "o4",
+            "text": "opinione"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "notizia",
-          "fonte",
-          "pubblico",
-          "opinione"
-        ]
+          {
+            "id": "o1",
+            "text": "notizia"
+          },
+          {
+            "id": "o2",
+            "text": "fonte"
+          },
+          {
+            "id": "o3",
+            "text": "pubblico"
+          },
+          {
+            "id": "o4",
+            "text": "opinione"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "fonte",
-          "notizia",
-          "pubblico",
-          "opinione"
-        ]
+          {
+            "id": "o1",
+            "text": "fonte"
+          },
+          {
+            "id": "o2",
+            "text": "notizia"
+          },
+          {
+            "id": "o3",
+            "text": "pubblico"
+          },
+          {
+            "id": "o4",
+            "text": "opinione"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "pubblico",
-          "notizia",
-          "fonte",
-          "opinione"
-        ]
+          {
+            "id": "o1",
+            "text": "pubblico"
+          },
+          {
+            "id": "o2",
+            "text": "notizia"
+          },
+          {
+            "id": "o3",
+            "text": "fonte"
+          },
+          {
+            "id": "o4",
+            "text": "opinione"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "confrontare",
-          "notizia",
-          "fonte",
-          "pubblico"
-        ]
+          {
+            "id": "o1",
+            "text": "confrontare"
+          },
+          {
+            "id": "o2",
+            "text": "notizia"
+          },
+          {
+            "id": "o3",
+            "text": "fonte"
+          },
+          {
+            "id": "o4",
+            "text": "pubblico"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "notizia",
-          "dibattito",
-          "fonte",
-          "pubblico"
-        ]
+          {
+            "id": "o1",
+            "text": "notizia"
+          },
+          {
+            "id": "o2",
+            "text": "dibattito"
+          },
+          {
+            "id": "o3",
+            "text": "fonte"
+          },
+          {
+            "id": "o4",
+            "text": "pubblico"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "fonte",
-          "notizia",
-          "contenuto",
-          "pubblico"
-        ]
+          {
+            "id": "o1",
+            "text": "fonte"
+          },
+          {
+            "id": "o2",
+            "text": "notizia"
+          },
+          {
+            "id": "o3",
+            "text": "contenuto"
+          },
+          {
+            "id": "o4",
+            "text": "pubblico"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "pubblico",
-          "notizia",
-          "fonte",
-          "affidabile"
-        ]
+          {
+            "id": "o1",
+            "text": "pubblico"
+          },
+          {
+            "id": "o2",
+            "text": "notizia"
+          },
+          {
+            "id": "o3",
+            "text": "fonte"
+          },
+          {
+            "id": "o4",
+            "text": "affidabile"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "prospettiva",
-          "notizia",
-          "fonte",
-          "pubblico"
-        ]
+          {
+            "id": "o1",
+            "text": "prospettiva"
+          },
+          {
+            "id": "o2",
+            "text": "notizia"
+          },
+          {
+            "id": "o3",
+            "text": "fonte"
+          },
+          {
+            "id": "o4",
+            "text": "pubblico"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "notizia",
-          "comunicare",
-          "fonte",
-          "pubblico"
-        ]
+          {
+            "id": "o1",
+            "text": "notizia"
+          },
+          {
+            "id": "o2",
+            "text": "comunicare"
+          },
+          {
+            "id": "o3",
+            "text": "fonte"
+          },
+          {
+            "id": "o4",
+            "text": "pubblico"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "fonte",
-          "notizia",
-          "oggi",
-          "pubblico"
-        ]
+          {
+            "id": "o1",
+            "text": "fonte"
+          },
+          {
+            "id": "o2",
+            "text": "notizia"
+          },
+          {
+            "id": "o3",
+            "text": "oggi"
+          },
+          {
+            "id": "o4",
+            "text": "pubblico"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "pubblico",
-          "notizia",
-          "fonte",
-          "insieme"
-        ]
+          {
+            "id": "o1",
+            "text": "pubblico"
+          },
+          {
+            "id": "o2",
+            "text": "notizia"
+          },
+          {
+            "id": "o3",
+            "text": "fonte"
+          },
+          {
+            "id": "o4",
+            "text": "insieme"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },
@@ -17447,9 +18935,9 @@
     "reading": {
       "title": "In bicicletta",
       "parts": [
-        "Sofia è em Bologna. Hoje descobre moverse por la ciudad en bicicleta. Encontra Marco e diz: “Dov’è la stazione?”. Os dois falam com respeito e aprendem quatro palavras novas: strada, piazza, stazione e bicicletta.",
-        "Marco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.",
-        "Al final, Sofia scrive una nota: “Dov’è la stazione?”."
+        "Sofia è a Bologna. Oggi impara a chiedere indicazioni. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Dov’è la stazione?”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: strada, piazza, stazione e bicicletta.",
+        "Marco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.",
+        "Alla fine, Sofia scrive: “Dov’è la stazione?”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
       ],
       "questions": [
         "Dove è Sofia?",
@@ -17457,7 +18945,7 @@
         "Quale frase usa Sofia?",
         "Perché l’esperienza è importante?"
       ],
-      "text": "Sofia è em Bologna. Hoje descobre moverse por la ciudad en bicicleta. Encontra Marco e diz: “Dov’è la stazione?”. Os dois falam com respeito e aprendem quatro palavras novas: strada, piazza, stazione e bicicletta.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.\n\nAl final, Sofia scrive una nota: “Dov’è la stazione?”."
+      "text": "Sofia è a Bologna. Oggi impara a chiedere indicazioni. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Dov’è la stazione?”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: strada, piazza, stazione e bicicletta.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.\n\nAlla fine, Sofia scrive: “Dov’è la stazione?”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
     },
     "transcript": "",
     "extra": null,
@@ -17488,20 +18976,20 @@
         "prompt": "Scegli la parola mancante nella lettura.\n\n“Marco fa una domanda semplice e _____ risponde con una frase breve.”",
         "options": [
           "Marco",
-          "Dov’è",
+          "frase",
           "Sofia",
-          "frase"
+          "breve"
         ]
       },
       {
         "id": "italian-a1-in-bicicletta-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“Al final, Sofia _____ una nota: “Dov’è la stazione?”.”",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo _____ con Marco.”",
         "options": [
+          "perché",
           "Sofia",
           "Bologna",
-          "Marco",
-          "scrive"
+          "domani"
         ]
       }
     ]
@@ -17527,9 +19015,9 @@
     "reading": {
       "title": "Arte nel quartiere",
       "parts": [
-        "Sofia vive em Bologna e parla con Marco sobre arte local y espacios compartidos. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “La mostra era interessante.” e spiega perché questa experiência è importante per il quartiere.",
-        "Marco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.",
-        "Al final, Sofia scrive una nota: “La mostra era interessante.”."
+        "Sofia è a Bologna. Oggi impara a dar una opinión. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “La mostra era interessante.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: mostra, artista, piazza e opinione.",
+        "Marco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.",
+        "Alla fine, Sofia scrive: “La mostra era interessante.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
       ],
       "questions": [
         "Dove è Sofia?",
@@ -17537,7 +19025,7 @@
         "Quale frase usa Sofia?",
         "Perché l’esperienza è importante?"
       ],
-      "text": "Sofia vive em Bologna e parla con Marco sobre arte local y espacios compartidos. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “La mostra era interessante.” e spiega perché questa experiência è importante per il quartiere.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.\n\nAl final, Sofia scrive una nota: “La mostra era interessante.”."
+      "text": "Sofia è a Bologna. Oggi impara a dar una opinión. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “La mostra era interessante.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: mostra, artista, piazza e opinione.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.\n\nAlla fine, Sofia scrive: “La mostra era interessante.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
     },
     "transcript": "",
     "extra": null,
@@ -17565,34 +19053,34 @@
       {
         "id": "italian-a2-arte-nel-quartiere-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella lettura.\n\n“e spiega perché questa experiência è _____ per il quartiere.”",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“Durante la conversazione imparano _____ utili: mostra, artista, piazza e opinione.”",
         "options": [
-          "ascoltando",
-          "compartidos",
-          "importante",
-          "experiência"
+          "mostra",
+          "piazza",
+          "parole",
+          "scuola"
         ]
       },
       {
         "id": "italian-a2-arte-nel-quartiere-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“La conversazione mostra che la cultura si impara ascoltando e _____.”",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“Usano le parole nuove in piccole situazioni: al bar, a scuola o per _____.”",
         "options": [
-          "interessante",
-          "compartidos",
-          "experiência",
-          "partecipando"
+          "mostra",
+          "parole",
+          "piazza",
+          "strada"
         ]
       },
       {
         "id": "italian-a2-arte-nel-quartiere-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“Al final, Sofia scrive una nota: “La mostra era _____.”.”",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“È _____ perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco.”",
         "options": [
-          "interessante",
-          "partecipando",
-          "compartidos",
-          "experiência"
+          "contenta",
+          "imparano",
+          "opinione",
+          "Bologna"
         ]
       }
     ]
@@ -17676,9 +19164,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Passivo e si impersonale",
-        "definition": "Práctica guiada de Passivo e si impersonale.",
+        "definition": "Connettori, opinioni e ipotesi aiutano a costruire un argomento.",
         "structure": "opinione + perché/tuttavia/quindi + motivazione",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Esprimere e giustificare un punto di vista.",
         "examples": [
           "Penso che la proposta sia utile.",
           "Tuttavia dobbiamo valutare i risultati."
@@ -17687,83 +19175,187 @@
       "grammarTest": {
         "questions": [
           {
+            "id": "q1",
             "type": "mcq",
             "prompt": "Completa: Penso che la proposta ___ utile.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "sia"
+              },
+              {
+                "id": "o2",
+                "text": "è"
+              },
+              {
+                "id": "o3",
+                "text": "essere"
+              },
+              {
+                "id": "o4",
+                "text": "sono"
+              }
             ]
           },
           {
+            "id": "q2",
             "type": "mcq",
             "prompt": "Scegli il connettore di contrasto.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Vorrei uscire, quindi piove."
+              },
+              {
+                "id": "o2",
+                "text": "Vorrei uscire, tuttavia piove."
+              },
+              {
+                "id": "o3",
+                "text": "Vorrei uscire, perché piove."
+              },
+              {
+                "id": "o4",
+                "text": "Vorrei uscire, infatti piove."
+              }
             ]
           },
           {
+            "id": "q3",
             "type": "mcq",
             "prompt": "Completa: Resto a casa perché ___ stanco.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "essere"
+              },
+              {
+                "id": "o2",
+                "text": "sia"
+              },
+              {
+                "id": "o3",
+                "text": "sono"
+              },
+              {
+                "id": "o4",
+                "text": "sarei"
+              }
             ]
           },
           {
+            "id": "q4",
             "type": "mcq",
             "prompt": "Quale frase esprime un’opinione?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Il progetto funziona perché?"
+              },
+              {
+                "id": "o2",
+                "text": "Il progetto ieri funziona?"
+              },
+              {
+                "id": "o3",
+                "text": "Funzionare progetto secondo me."
+              },
+              {
+                "id": "o4",
+                "text": "Secondo me, il progetto funziona."
+              }
             ]
           },
           {
+            "id": "q5",
             "type": "mcq",
             "prompt": "Completa: Sebbene ___ tardi, continuiamo.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "sia"
+              },
+              {
+                "id": "o2",
+                "text": "è"
+              },
+              {
+                "id": "o3",
+                "text": "essere"
+              },
+              {
+                "id": "o4",
+                "text": "sono"
+              }
             ]
           },
           {
+            "id": "q6",
             "type": "mcq",
             "prompt": "Scegli la conclusione logica.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Abbiamo poco tempo, tuttavia organizziamo il lavoro."
+              },
+              {
+                "id": "o2",
+                "text": "Abbiamo poco tempo, quindi organizziamo il lavoro."
+              },
+              {
+                "id": "o3",
+                "text": "Abbiamo poco tempo, perché organizziamo il lavoro."
+              },
+              {
+                "id": "o4",
+                "text": "Abbiamo poco tempo, se organizziamo il lavoro."
+              }
             ]
           },
           {
+            "id": "q7",
             "type": "mcq",
             "prompt": "Completa: Credo che loro ___ ragione.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "avere"
+              },
+              {
+                "id": "o2",
+                "text": "hanno"
+              },
+              {
+                "id": "o3",
+                "text": "abbiano"
+              },
+              {
+                "id": "o4",
+                "text": "avranno"
+              }
             ]
           },
           {
+            "id": "q8",
             "type": "mcq",
             "prompt": "Quale frase giustifica una scelta?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Scelgo il treno è più sostenibile perché?"
+              },
+              {
+                "id": "o2",
+                "text": "Scelgo il treno tuttavia è più sostenibile."
+              },
+              {
+                "id": "o3",
+                "text": "Scelgo il treno quindi è più sostenibile?"
+              },
+              {
+                "id": "o4",
+                "text": "Scelgo il treno perché è più sostenibile."
+              }
             ]
           }
         ]
@@ -17772,91 +19364,203 @@
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
         "prompt": "Completa: Penso che la proposta ___ utile.",
         "options": [
-          "sia",
-          "è",
-          "essere",
-          "sono"
+          {
+            "id": "o1",
+            "text": "sia"
+          },
+          {
+            "id": "o2",
+            "text": "è"
+          },
+          {
+            "id": "o3",
+            "text": "essere"
+          },
+          {
+            "id": "o4",
+            "text": "sono"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q2",
         "type": "mcq",
         "prompt": "Scegli il connettore di contrasto.",
         "options": [
-          "Vorrei uscire, quindi piove.",
-          "Vorrei uscire, tuttavia piove.",
-          "Vorrei uscire, perché piove.",
-          "Vorrei uscire, infatti piove."
+          {
+            "id": "o1",
+            "text": "Vorrei uscire, quindi piove."
+          },
+          {
+            "id": "o2",
+            "text": "Vorrei uscire, tuttavia piove."
+          },
+          {
+            "id": "o3",
+            "text": "Vorrei uscire, perché piove."
+          },
+          {
+            "id": "o4",
+            "text": "Vorrei uscire, infatti piove."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q3",
         "type": "mcq",
         "prompt": "Completa: Resto a casa perché ___ stanco.",
         "options": [
-          "essere",
-          "sia",
-          "sono",
-          "sarei"
+          {
+            "id": "o1",
+            "text": "essere"
+          },
+          {
+            "id": "o2",
+            "text": "sia"
+          },
+          {
+            "id": "o3",
+            "text": "sono"
+          },
+          {
+            "id": "o4",
+            "text": "sarei"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q4",
         "type": "mcq",
         "prompt": "Quale frase esprime un’opinione?",
         "options": [
-          "Il progetto funziona perché?",
-          "Il progetto ieri funziona?",
-          "Funzionare progetto secondo me.",
-          "Secondo me, il progetto funziona."
+          {
+            "id": "o1",
+            "text": "Il progetto funziona perché?"
+          },
+          {
+            "id": "o2",
+            "text": "Il progetto ieri funziona?"
+          },
+          {
+            "id": "o3",
+            "text": "Funzionare progetto secondo me."
+          },
+          {
+            "id": "o4",
+            "text": "Secondo me, il progetto funziona."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q5",
         "type": "mcq",
         "prompt": "Completa: Sebbene ___ tardi, continuiamo.",
         "options": [
-          "sia",
-          "è",
-          "essere",
-          "sono"
+          {
+            "id": "o1",
+            "text": "sia"
+          },
+          {
+            "id": "o2",
+            "text": "è"
+          },
+          {
+            "id": "o3",
+            "text": "essere"
+          },
+          {
+            "id": "o4",
+            "text": "sono"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q6",
         "type": "mcq",
         "prompt": "Scegli la conclusione logica.",
         "options": [
-          "Abbiamo poco tempo, tuttavia organizziamo il lavoro.",
-          "Abbiamo poco tempo, quindi organizziamo il lavoro.",
-          "Abbiamo poco tempo, perché organizziamo il lavoro.",
-          "Abbiamo poco tempo, se organizziamo il lavoro."
+          {
+            "id": "o1",
+            "text": "Abbiamo poco tempo, tuttavia organizziamo il lavoro."
+          },
+          {
+            "id": "o2",
+            "text": "Abbiamo poco tempo, quindi organizziamo il lavoro."
+          },
+          {
+            "id": "o3",
+            "text": "Abbiamo poco tempo, perché organizziamo il lavoro."
+          },
+          {
+            "id": "o4",
+            "text": "Abbiamo poco tempo, se organizziamo il lavoro."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q7",
         "type": "mcq",
         "prompt": "Completa: Credo che loro ___ ragione.",
         "options": [
-          "avere",
-          "hanno",
-          "abbiano",
-          "avranno"
+          {
+            "id": "o1",
+            "text": "avere"
+          },
+          {
+            "id": "o2",
+            "text": "hanno"
+          },
+          {
+            "id": "o3",
+            "text": "abbiano"
+          },
+          {
+            "id": "o4",
+            "text": "avranno"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q8",
         "type": "mcq",
         "prompt": "Quale frase giustifica una scelta?",
         "options": [
-          "Scelgo il treno è più sostenibile perché?",
-          "Scelgo il treno tuttavia è più sostenibile.",
-          "Scelgo il treno quindi è più sostenibile?",
-          "Scelgo il treno perché è più sostenibile."
+          {
+            "id": "o1",
+            "text": "Scelgo il treno è più sostenibile perché?"
+          },
+          {
+            "id": "o2",
+            "text": "Scelgo il treno tuttavia è più sostenibile."
+          },
+          {
+            "id": "o3",
+            "text": "Scelgo il treno quindi è più sostenibile?"
+          },
+          {
+            "id": "o4",
+            "text": "Scelgo il treno perché è più sostenibile."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       }
     ]
@@ -19472,121 +21176,277 @@
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "rifiuto",
-          "raccolta",
-          "risorsa",
-          "ridurre"
-        ]
+          {
+            "id": "o1",
+            "text": "rifiuto"
+          },
+          {
+            "id": "o2",
+            "text": "raccolta"
+          },
+          {
+            "id": "o3",
+            "text": "risorsa"
+          },
+          {
+            "id": "o4",
+            "text": "ridurre"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "rifiuto",
-          "raccolta",
-          "risorsa",
-          "ridurre"
-        ]
+          {
+            "id": "o1",
+            "text": "rifiuto"
+          },
+          {
+            "id": "o2",
+            "text": "raccolta"
+          },
+          {
+            "id": "o3",
+            "text": "risorsa"
+          },
+          {
+            "id": "o4",
+            "text": "ridurre"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "raccolta",
-          "rifiuto",
-          "risorsa",
-          "ridurre"
-        ]
+          {
+            "id": "o1",
+            "text": "raccolta"
+          },
+          {
+            "id": "o2",
+            "text": "rifiuto"
+          },
+          {
+            "id": "o3",
+            "text": "risorsa"
+          },
+          {
+            "id": "o4",
+            "text": "ridurre"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "risorsa",
-          "rifiuto",
-          "raccolta",
-          "ridurre"
-        ]
+          {
+            "id": "o1",
+            "text": "risorsa"
+          },
+          {
+            "id": "o2",
+            "text": "rifiuto"
+          },
+          {
+            "id": "o3",
+            "text": "raccolta"
+          },
+          {
+            "id": "o4",
+            "text": "ridurre"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "quartiere",
-          "rifiuto",
-          "raccolta",
-          "risorsa"
-        ]
+          {
+            "id": "o1",
+            "text": "quartiere"
+          },
+          {
+            "id": "o2",
+            "text": "rifiuto"
+          },
+          {
+            "id": "o3",
+            "text": "raccolta"
+          },
+          {
+            "id": "o4",
+            "text": "risorsa"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "rifiuto",
-          "volontario",
-          "raccolta",
-          "risorsa"
-        ]
+          {
+            "id": "o1",
+            "text": "rifiuto"
+          },
+          {
+            "id": "o2",
+            "text": "volontario"
+          },
+          {
+            "id": "o3",
+            "text": "raccolta"
+          },
+          {
+            "id": "o4",
+            "text": "risorsa"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "raccolta",
-          "rifiuto",
-          "iniziativa",
-          "risorsa"
-        ]
+          {
+            "id": "o1",
+            "text": "raccolta"
+          },
+          {
+            "id": "o2",
+            "text": "rifiuto"
+          },
+          {
+            "id": "o3",
+            "text": "iniziativa"
+          },
+          {
+            "id": "o4",
+            "text": "risorsa"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "risorsa",
-          "rifiuto",
-          "raccolta",
-          "impatto"
-        ]
+          {
+            "id": "o1",
+            "text": "risorsa"
+          },
+          {
+            "id": "o2",
+            "text": "rifiuto"
+          },
+          {
+            "id": "o3",
+            "text": "raccolta"
+          },
+          {
+            "id": "o4",
+            "text": "impatto"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "migliorare",
-          "rifiuto",
-          "raccolta",
-          "risorsa"
-        ]
+          {
+            "id": "o1",
+            "text": "migliorare"
+          },
+          {
+            "id": "o2",
+            "text": "rifiuto"
+          },
+          {
+            "id": "o3",
+            "text": "raccolta"
+          },
+          {
+            "id": "o4",
+            "text": "risorsa"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "rifiuto",
-          "sostenere",
-          "raccolta",
-          "risorsa"
-        ]
+          {
+            "id": "o1",
+            "text": "rifiuto"
+          },
+          {
+            "id": "o2",
+            "text": "sostenere"
+          },
+          {
+            "id": "o3",
+            "text": "raccolta"
+          },
+          {
+            "id": "o4",
+            "text": "risorsa"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "raccolta",
-          "rifiuto",
-          "oggi",
-          "risorsa"
-        ]
+          {
+            "id": "o1",
+            "text": "raccolta"
+          },
+          {
+            "id": "o2",
+            "text": "rifiuto"
+          },
+          {
+            "id": "o3",
+            "text": "oggi"
+          },
+          {
+            "id": "o4",
+            "text": "risorsa"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "risorsa",
-          "rifiuto",
-          "raccolta",
-          "insieme"
-        ]
+          {
+            "id": "o1",
+            "text": "risorsa"
+          },
+          {
+            "id": "o2",
+            "text": "rifiuto"
+          },
+          {
+            "id": "o3",
+            "text": "raccolta"
+          },
+          {
+            "id": "o4",
+            "text": "insieme"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },
@@ -21573,9 +23433,9 @@
     "reading": {
       "title": "Scuola e amici",
       "parts": [
-        "Sofia è em Bologna. Hoje descobre la vida escolar y una merienda. Encontra Marco e diz: “Che materia ti piace?”. Os dois falam com respeito e aprendem quatro palavras novas: scuola, amico, lezione e compito.",
-        "Marco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.",
-        "Al final, Sofia scrive una nota: “Che materia ti piace?”."
+        "Sofia è a Bologna. Oggi impara a hablar de gustos. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Che materia ti piace?”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: scuola, amico, lezione e compito.",
+        "Marco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.",
+        "Alla fine, Sofia scrive: “Che materia ti piace?”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
       ],
       "questions": [
         "Dove è Sofia?",
@@ -21583,7 +23443,7 @@
         "Quale frase usa Sofia?",
         "Perché l’esperienza è importante?"
       ],
-      "text": "Sofia è em Bologna. Hoje descobre la vida escolar y una merienda. Encontra Marco e diz: “Che materia ti piace?”. Os dois falam com respeito e aprendem quatro palavras novas: scuola, amico, lezione e compito.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.\n\nAl final, Sofia scrive una nota: “Che materia ti piace?”."
+      "text": "Sofia è a Bologna. Oggi impara a hablar de gustos. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Che materia ti piace?”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: scuola, amico, lezione e compito.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.\n\nAlla fine, Sofia scrive: “Che materia ti piace?”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
     },
     "transcript": "",
     "extra": null,
@@ -21614,20 +23474,20 @@
         "prompt": "Scegli la parola mancante nella lettura.\n\n“Marco fa una domanda semplice e _____ risponde con una frase breve.”",
         "options": [
           "Marco",
-          "piace",
+          "frase",
           "Sofia",
-          "frase"
+          "breve"
         ]
       },
       {
         "id": "italian-a1-scuola-e-amici-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“Al final, Sofia _____ una nota: “Che materia ti piace?”.”",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo _____ con Marco.”",
         "options": [
+          "perché",
           "Sofia",
           "Bologna",
-          "Marco",
-          "scrive"
+          "domani"
         ]
       }
     ]
@@ -21653,9 +23513,9 @@
     "reading": {
       "title": "Viaggiare con responsabilità",
       "parts": [
-        "Sofia vive em Bologna e parla con Marco sobre viajar cuidando barrios y personas. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “Non voglio disturbare i residenti.” e spiega perché questa experiência è importante per il quartiere.",
-        "Marco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.",
-        "Al final, Sofia scrive una nota: “Non voglio disturbare i residenti.”."
+        "Sofia è a Bologna. Oggi impara a expresar intención. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Non voglio disturbare i residenti.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: residente, rispetto, mappa e scelta.",
+        "Marco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.",
+        "Alla fine, Sofia scrive: “Non voglio disturbare i residenti.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
       ],
       "questions": [
         "Dove è Sofia?",
@@ -21663,7 +23523,7 @@
         "Quale frase usa Sofia?",
         "Perché l’esperienza è importante?"
       ],
-      "text": "Sofia vive em Bologna e parla con Marco sobre viajar cuidando barrios y personas. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “Non voglio disturbare i residenti.” e spiega perché questa experiência è importante per il quartiere.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.\n\nAl final, Sofia scrive una nota: “Non voglio disturbare i residenti.”."
+      "text": "Sofia è a Bologna. Oggi impara a expresar intención. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Non voglio disturbare i residenti.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: residente, rispetto, mappa e scelta.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.\n\nAlla fine, Sofia scrive: “Non voglio disturbare i residenti.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
     },
     "transcript": "",
     "extra": null,
@@ -21691,34 +23551,34 @@
       {
         "id": "italian-a2-viaggiare-con-responsabilita-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella lettura.\n\n“e spiega perché questa experiência è _____ per il quartiere.”",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“Durante la conversazione imparano _____ utili: residente, rispetto, mappa e scelta.”",
         "options": [
-          "disturbare",
-          "ascoltando",
-          "importante",
-          "residenti"
+          "voglio",
+          "scelta",
+          "parole",
+          "scuola"
         ]
       },
       {
         "id": "italian-a2-viaggiare-con-responsabilita-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“La conversazione mostra che la cultura si impara ascoltando e _____.”",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“Usano le parole nuove in piccole situazioni: al bar, a scuola o per _____.”",
         "options": [
-          "experiência",
-          "conversazione",
-          "disturbare",
-          "partecipando"
+          "voglio",
+          "parole",
+          "scelta",
+          "strada"
         ]
       },
       {
         "id": "italian-a2-viaggiare-con-responsabilita-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“Al final, Sofia _____ una nota: “Non voglio disturbare i residenti.”.”",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“È _____ perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco.”",
         "options": [
-          "scrive",
-          "viajar",
-          "voglio",
-          "spiega"
+          "contenta",
+          "imparano",
+          "rispetto",
+          "Bologna"
         ]
       }
     ]
@@ -21802,9 +23662,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Trapassato prossimo",
-        "definition": "Práctica guiada de Trapassato prossimo.",
+        "definition": "Connettori, opinioni e ipotesi aiutano a costruire un argomento.",
         "structure": "opinione + perché/tuttavia/quindi + motivazione",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Esprimere e giustificare un punto di vista.",
         "examples": [
           "Penso che la proposta sia utile.",
           "Tuttavia dobbiamo valutare i risultati."
@@ -21813,83 +23673,187 @@
       "grammarTest": {
         "questions": [
           {
+            "id": "q1",
             "type": "mcq",
             "prompt": "Completa: Penso che la proposta ___ utile.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "sia"
+              },
+              {
+                "id": "o2",
+                "text": "è"
+              },
+              {
+                "id": "o3",
+                "text": "essere"
+              },
+              {
+                "id": "o4",
+                "text": "sono"
+              }
             ]
           },
           {
+            "id": "q2",
             "type": "mcq",
             "prompt": "Scegli il connettore di contrasto.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Vorrei uscire, quindi piove."
+              },
+              {
+                "id": "o2",
+                "text": "Vorrei uscire, tuttavia piove."
+              },
+              {
+                "id": "o3",
+                "text": "Vorrei uscire, perché piove."
+              },
+              {
+                "id": "o4",
+                "text": "Vorrei uscire, infatti piove."
+              }
             ]
           },
           {
+            "id": "q3",
             "type": "mcq",
             "prompt": "Completa: Resto a casa perché ___ stanco.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "essere"
+              },
+              {
+                "id": "o2",
+                "text": "sia"
+              },
+              {
+                "id": "o3",
+                "text": "sono"
+              },
+              {
+                "id": "o4",
+                "text": "sarei"
+              }
             ]
           },
           {
+            "id": "q4",
             "type": "mcq",
             "prompt": "Quale frase esprime un’opinione?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Il progetto funziona perché?"
+              },
+              {
+                "id": "o2",
+                "text": "Il progetto ieri funziona?"
+              },
+              {
+                "id": "o3",
+                "text": "Funzionare progetto secondo me."
+              },
+              {
+                "id": "o4",
+                "text": "Secondo me, il progetto funziona."
+              }
             ]
           },
           {
+            "id": "q5",
             "type": "mcq",
             "prompt": "Completa: Sebbene ___ tardi, continuiamo.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "sia"
+              },
+              {
+                "id": "o2",
+                "text": "è"
+              },
+              {
+                "id": "o3",
+                "text": "essere"
+              },
+              {
+                "id": "o4",
+                "text": "sono"
+              }
             ]
           },
           {
+            "id": "q6",
             "type": "mcq",
             "prompt": "Scegli la conclusione logica.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Abbiamo poco tempo, tuttavia organizziamo il lavoro."
+              },
+              {
+                "id": "o2",
+                "text": "Abbiamo poco tempo, quindi organizziamo il lavoro."
+              },
+              {
+                "id": "o3",
+                "text": "Abbiamo poco tempo, perché organizziamo il lavoro."
+              },
+              {
+                "id": "o4",
+                "text": "Abbiamo poco tempo, se organizziamo il lavoro."
+              }
             ]
           },
           {
+            "id": "q7",
             "type": "mcq",
             "prompt": "Completa: Credo che loro ___ ragione.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "avere"
+              },
+              {
+                "id": "o2",
+                "text": "hanno"
+              },
+              {
+                "id": "o3",
+                "text": "abbiano"
+              },
+              {
+                "id": "o4",
+                "text": "avranno"
+              }
             ]
           },
           {
+            "id": "q8",
             "type": "mcq",
             "prompt": "Quale frase giustifica una scelta?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Scelgo il treno è più sostenibile perché?"
+              },
+              {
+                "id": "o2",
+                "text": "Scelgo il treno tuttavia è più sostenibile."
+              },
+              {
+                "id": "o3",
+                "text": "Scelgo il treno quindi è più sostenibile?"
+              },
+              {
+                "id": "o4",
+                "text": "Scelgo il treno perché è più sostenibile."
+              }
             ]
           }
         ]
@@ -21898,91 +23862,203 @@
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
         "prompt": "Completa: Penso che la proposta ___ utile.",
         "options": [
-          "sia",
-          "è",
-          "essere",
-          "sono"
+          {
+            "id": "o1",
+            "text": "sia"
+          },
+          {
+            "id": "o2",
+            "text": "è"
+          },
+          {
+            "id": "o3",
+            "text": "essere"
+          },
+          {
+            "id": "o4",
+            "text": "sono"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q2",
         "type": "mcq",
         "prompt": "Scegli il connettore di contrasto.",
         "options": [
-          "Vorrei uscire, quindi piove.",
-          "Vorrei uscire, tuttavia piove.",
-          "Vorrei uscire, perché piove.",
-          "Vorrei uscire, infatti piove."
+          {
+            "id": "o1",
+            "text": "Vorrei uscire, quindi piove."
+          },
+          {
+            "id": "o2",
+            "text": "Vorrei uscire, tuttavia piove."
+          },
+          {
+            "id": "o3",
+            "text": "Vorrei uscire, perché piove."
+          },
+          {
+            "id": "o4",
+            "text": "Vorrei uscire, infatti piove."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q3",
         "type": "mcq",
         "prompt": "Completa: Resto a casa perché ___ stanco.",
         "options": [
-          "essere",
-          "sia",
-          "sono",
-          "sarei"
+          {
+            "id": "o1",
+            "text": "essere"
+          },
+          {
+            "id": "o2",
+            "text": "sia"
+          },
+          {
+            "id": "o3",
+            "text": "sono"
+          },
+          {
+            "id": "o4",
+            "text": "sarei"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q4",
         "type": "mcq",
         "prompt": "Quale frase esprime un’opinione?",
         "options": [
-          "Il progetto funziona perché?",
-          "Il progetto ieri funziona?",
-          "Funzionare progetto secondo me.",
-          "Secondo me, il progetto funziona."
+          {
+            "id": "o1",
+            "text": "Il progetto funziona perché?"
+          },
+          {
+            "id": "o2",
+            "text": "Il progetto ieri funziona?"
+          },
+          {
+            "id": "o3",
+            "text": "Funzionare progetto secondo me."
+          },
+          {
+            "id": "o4",
+            "text": "Secondo me, il progetto funziona."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q5",
         "type": "mcq",
         "prompt": "Completa: Sebbene ___ tardi, continuiamo.",
         "options": [
-          "sia",
-          "è",
-          "essere",
-          "sono"
+          {
+            "id": "o1",
+            "text": "sia"
+          },
+          {
+            "id": "o2",
+            "text": "è"
+          },
+          {
+            "id": "o3",
+            "text": "essere"
+          },
+          {
+            "id": "o4",
+            "text": "sono"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q6",
         "type": "mcq",
         "prompt": "Scegli la conclusione logica.",
         "options": [
-          "Abbiamo poco tempo, tuttavia organizziamo il lavoro.",
-          "Abbiamo poco tempo, quindi organizziamo il lavoro.",
-          "Abbiamo poco tempo, perché organizziamo il lavoro.",
-          "Abbiamo poco tempo, se organizziamo il lavoro."
+          {
+            "id": "o1",
+            "text": "Abbiamo poco tempo, tuttavia organizziamo il lavoro."
+          },
+          {
+            "id": "o2",
+            "text": "Abbiamo poco tempo, quindi organizziamo il lavoro."
+          },
+          {
+            "id": "o3",
+            "text": "Abbiamo poco tempo, perché organizziamo il lavoro."
+          },
+          {
+            "id": "o4",
+            "text": "Abbiamo poco tempo, se organizziamo il lavoro."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q7",
         "type": "mcq",
         "prompt": "Completa: Credo che loro ___ ragione.",
         "options": [
-          "avere",
-          "hanno",
-          "abbiano",
-          "avranno"
+          {
+            "id": "o1",
+            "text": "avere"
+          },
+          {
+            "id": "o2",
+            "text": "hanno"
+          },
+          {
+            "id": "o3",
+            "text": "abbiano"
+          },
+          {
+            "id": "o4",
+            "text": "avranno"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q8",
         "type": "mcq",
         "prompt": "Quale frase giustifica una scelta?",
         "options": [
-          "Scelgo il treno è più sostenibile perché?",
-          "Scelgo il treno tuttavia è più sostenibile.",
-          "Scelgo il treno quindi è più sostenibile?",
-          "Scelgo il treno perché è più sostenibile."
+          {
+            "id": "o1",
+            "text": "Scelgo il treno è più sostenibile perché?"
+          },
+          {
+            "id": "o2",
+            "text": "Scelgo il treno tuttavia è più sostenibile."
+          },
+          {
+            "id": "o3",
+            "text": "Scelgo il treno quindi è più sostenibile?"
+          },
+          {
+            "id": "o4",
+            "text": "Scelgo il treno perché è più sostenibile."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       }
     ]
@@ -23598,121 +25674,277 @@
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "memoria",
-          "infanzia",
-          "cambiamento",
-          "raccontare"
-        ]
+          {
+            "id": "o1",
+            "text": "memoria"
+          },
+          {
+            "id": "o2",
+            "text": "infanzia"
+          },
+          {
+            "id": "o3",
+            "text": "cambiamento"
+          },
+          {
+            "id": "o4",
+            "text": "raccontare"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "memoria",
-          "infanzia",
-          "cambiamento",
-          "raccontare"
-        ]
+          {
+            "id": "o1",
+            "text": "memoria"
+          },
+          {
+            "id": "o2",
+            "text": "infanzia"
+          },
+          {
+            "id": "o3",
+            "text": "cambiamento"
+          },
+          {
+            "id": "o4",
+            "text": "raccontare"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "infanzia",
-          "memoria",
-          "cambiamento",
-          "raccontare"
-        ]
+          {
+            "id": "o1",
+            "text": "infanzia"
+          },
+          {
+            "id": "o2",
+            "text": "memoria"
+          },
+          {
+            "id": "o3",
+            "text": "cambiamento"
+          },
+          {
+            "id": "o4",
+            "text": "raccontare"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "cambiamento",
-          "memoria",
-          "infanzia",
-          "raccontare"
-        ]
+          {
+            "id": "o1",
+            "text": "cambiamento"
+          },
+          {
+            "id": "o2",
+            "text": "memoria"
+          },
+          {
+            "id": "o3",
+            "text": "infanzia"
+          },
+          {
+            "id": "o4",
+            "text": "raccontare"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "passato",
-          "memoria",
-          "infanzia",
-          "cambiamento"
-        ]
+          {
+            "id": "o1",
+            "text": "passato"
+          },
+          {
+            "id": "o2",
+            "text": "memoria"
+          },
+          {
+            "id": "o3",
+            "text": "infanzia"
+          },
+          {
+            "id": "o4",
+            "text": "cambiamento"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "memoria",
-          "incontro",
-          "infanzia",
-          "cambiamento"
-        ]
+          {
+            "id": "o1",
+            "text": "memoria"
+          },
+          {
+            "id": "o2",
+            "text": "incontro"
+          },
+          {
+            "id": "o3",
+            "text": "infanzia"
+          },
+          {
+            "id": "o4",
+            "text": "cambiamento"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "infanzia",
-          "memoria",
-          "tradizione",
-          "cambiamento"
-        ]
+          {
+            "id": "o1",
+            "text": "infanzia"
+          },
+          {
+            "id": "o2",
+            "text": "memoria"
+          },
+          {
+            "id": "o3",
+            "text": "tradizione"
+          },
+          {
+            "id": "o4",
+            "text": "cambiamento"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "cambiamento",
-          "memoria",
-          "infanzia",
-          "generazione"
-        ]
+          {
+            "id": "o1",
+            "text": "cambiamento"
+          },
+          {
+            "id": "o2",
+            "text": "memoria"
+          },
+          {
+            "id": "o3",
+            "text": "infanzia"
+          },
+          {
+            "id": "o4",
+            "text": "generazione"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "imparare",
-          "memoria",
-          "infanzia",
-          "cambiamento"
-        ]
+          {
+            "id": "o1",
+            "text": "imparare"
+          },
+          {
+            "id": "o2",
+            "text": "memoria"
+          },
+          {
+            "id": "o3",
+            "text": "infanzia"
+          },
+          {
+            "id": "o4",
+            "text": "cambiamento"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "memoria",
-          "significato",
-          "infanzia",
-          "cambiamento"
-        ]
+          {
+            "id": "o1",
+            "text": "memoria"
+          },
+          {
+            "id": "o2",
+            "text": "significato"
+          },
+          {
+            "id": "o3",
+            "text": "infanzia"
+          },
+          {
+            "id": "o4",
+            "text": "cambiamento"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "infanzia",
-          "memoria",
-          "oggi",
-          "cambiamento"
-        ]
+          {
+            "id": "o1",
+            "text": "infanzia"
+          },
+          {
+            "id": "o2",
+            "text": "memoria"
+          },
+          {
+            "id": "o3",
+            "text": "oggi"
+          },
+          {
+            "id": "o4",
+            "text": "cambiamento"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "cambiamento",
-          "memoria",
-          "infanzia",
-          "insieme"
-        ]
+          {
+            "id": "o1",
+            "text": "cambiamento"
+          },
+          {
+            "id": "o2",
+            "text": "memoria"
+          },
+          {
+            "id": "o3",
+            "text": "infanzia"
+          },
+          {
+            "id": "o4",
+            "text": "insieme"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },
@@ -25699,9 +27931,9 @@
     "reading": {
       "title": "Una casa italiana",
       "parts": [
-        "Sofia è em Bologna. Hoje descobre habitaciones y vida en casa. Encontra Marco e diz: “La cucina è luminosa.”. Os dois falam com respeito e aprendem quatro palavras novas: cucina, camera, finestra e balcone.",
-        "Marco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.",
-        "Al final, Sofia scrive una nota: “La cucina è luminosa.”."
+        "Sofia è a Bologna. Oggi impara a describir una casa. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “La cucina è luminosa.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: cucina, camera, finestra e balcone.",
+        "Marco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.",
+        "Alla fine, Sofia scrive: “La cucina è luminosa.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
       ],
       "questions": [
         "Dove è Sofia?",
@@ -25709,7 +27941,7 @@
         "Quale frase usa Sofia?",
         "Perché l’esperienza è importante?"
       ],
-      "text": "Sofia è em Bologna. Hoje descobre habitaciones y vida en casa. Encontra Marco e diz: “La cucina è luminosa.”. Os dois falam com respeito e aprendem quatro palavras novas: cucina, camera, finestra e balcone.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.\n\nAl final, Sofia scrive una nota: “La cucina è luminosa.”."
+      "text": "Sofia è a Bologna. Oggi impara a describir una casa. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “La cucina è luminosa.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: cucina, camera, finestra e balcone.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.\n\nAlla fine, Sofia scrive: “La cucina è luminosa.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
     },
     "transcript": "",
     "extra": null,
@@ -25748,12 +27980,12 @@
       {
         "id": "italian-a1-una-casa-italiana-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“Al final, Sofia _____ una nota: “La cucina è luminosa.”.”",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo _____ con Marco.”",
         "options": [
-          "cucina",
+          "perché",
           "Sofia",
           "Bologna",
-          "scrive"
+          "domani"
         ]
       }
     ]
@@ -25779,9 +28011,9 @@
     "reading": {
       "title": "Sport e tempo libero",
       "parts": [
-        "Sofia vive em Bologna e parla con Marco sobre aficiones más allá de un solo deporte. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “Da giovane giocavo spesso.” e spiega perché questa experiência è importante per il quartiere.",
-        "Marco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.",
-        "Al final, Sofia scrive una nota: “Da giovane giocavo spesso.”."
+        "Sofia è a Bologna. Oggi impara a hablar del pasado. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Da giovane giocavo spesso.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: nuoto, corsa, squadra e allenamento.",
+        "Marco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.",
+        "Alla fine, Sofia scrive: “Da giovane giocavo spesso.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
       ],
       "questions": [
         "Dove è Sofia?",
@@ -25789,7 +28021,7 @@
         "Quale frase usa Sofia?",
         "Perché l’esperienza è importante?"
       ],
-      "text": "Sofia vive em Bologna e parla con Marco sobre aficiones más allá de un solo deporte. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “Da giovane giocavo spesso.” e spiega perché questa experiência è importante per il quartiere.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.\n\nAl final, Sofia scrive una nota: “Da giovane giocavo spesso.”."
+      "text": "Sofia è a Bologna. Oggi impara a hablar del pasado. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Da giovane giocavo spesso.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: nuoto, corsa, squadra e allenamento.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.\n\nAlla fine, Sofia scrive: “Da giovane giocavo spesso.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
     },
     "transcript": "",
     "extra": null,
@@ -25817,34 +28049,34 @@
       {
         "id": "italian-a2-sport-e-tempo-libero-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella lettura.\n\n“e spiega perché questa experiência è _____ per il quartiere.”",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“Durante la conversazione imparano _____ utili: nuoto, corsa, squadra e allenamento.”",
         "options": [
-          "ascoltando",
-          "aficiones",
-          "importante",
-          "experiência"
+          "spesso",
+          "scuola",
+          "parole",
+          "strada"
         ]
       },
       {
         "id": "italian-a2-sport-e-tempo-libero-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“La conversazione mostra che la cultura si impara ascoltando e _____.”",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“Usano le parole nuove in piccole situazioni: al bar, a scuola o per _____.”",
         "options": [
-          "experiência",
-          "conversazione",
-          "importante",
-          "partecipando"
+          "spesso",
+          "parole",
+          "scuola",
+          "strada"
         ]
       },
       {
         "id": "italian-a2-sport-e-tempo-libero-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“Al final, Sofia scrive una nota: “Da _____ giocavo spesso.”.”",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“È _____ perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco.”",
         "options": [
-          "giovane",
+          "contenta",
+          "imparano",
           "Bologna",
-          "deporte",
-          "giocavo"
+          "giovane"
         ]
       }
     ]
@@ -25928,9 +28160,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Connettori argomentativi",
-        "definition": "Práctica guiada de Connettori argomentativi.",
+        "definition": "Connettori, opinioni e ipotesi aiutano a costruire un argomento.",
         "structure": "opinione + perché/tuttavia/quindi + motivazione",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Esprimere e giustificare un punto di vista.",
         "examples": [
           "Penso che la proposta sia utile.",
           "Tuttavia dobbiamo valutare i risultati."
@@ -25939,83 +28171,187 @@
       "grammarTest": {
         "questions": [
           {
+            "id": "q1",
             "type": "mcq",
             "prompt": "Completa: Penso che la proposta ___ utile.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "sia"
+              },
+              {
+                "id": "o2",
+                "text": "è"
+              },
+              {
+                "id": "o3",
+                "text": "essere"
+              },
+              {
+                "id": "o4",
+                "text": "sono"
+              }
             ]
           },
           {
+            "id": "q2",
             "type": "mcq",
             "prompt": "Scegli il connettore di contrasto.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Vorrei uscire, quindi piove."
+              },
+              {
+                "id": "o2",
+                "text": "Vorrei uscire, tuttavia piove."
+              },
+              {
+                "id": "o3",
+                "text": "Vorrei uscire, perché piove."
+              },
+              {
+                "id": "o4",
+                "text": "Vorrei uscire, infatti piove."
+              }
             ]
           },
           {
+            "id": "q3",
             "type": "mcq",
             "prompt": "Completa: Resto a casa perché ___ stanco.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "essere"
+              },
+              {
+                "id": "o2",
+                "text": "sia"
+              },
+              {
+                "id": "o3",
+                "text": "sono"
+              },
+              {
+                "id": "o4",
+                "text": "sarei"
+              }
             ]
           },
           {
+            "id": "q4",
             "type": "mcq",
             "prompt": "Quale frase esprime un’opinione?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Il progetto funziona perché?"
+              },
+              {
+                "id": "o2",
+                "text": "Il progetto ieri funziona?"
+              },
+              {
+                "id": "o3",
+                "text": "Funzionare progetto secondo me."
+              },
+              {
+                "id": "o4",
+                "text": "Secondo me, il progetto funziona."
+              }
             ]
           },
           {
+            "id": "q5",
             "type": "mcq",
             "prompt": "Completa: Sebbene ___ tardi, continuiamo.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "sia"
+              },
+              {
+                "id": "o2",
+                "text": "è"
+              },
+              {
+                "id": "o3",
+                "text": "essere"
+              },
+              {
+                "id": "o4",
+                "text": "sono"
+              }
             ]
           },
           {
+            "id": "q6",
             "type": "mcq",
             "prompt": "Scegli la conclusione logica.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Abbiamo poco tempo, tuttavia organizziamo il lavoro."
+              },
+              {
+                "id": "o2",
+                "text": "Abbiamo poco tempo, quindi organizziamo il lavoro."
+              },
+              {
+                "id": "o3",
+                "text": "Abbiamo poco tempo, perché organizziamo il lavoro."
+              },
+              {
+                "id": "o4",
+                "text": "Abbiamo poco tempo, se organizziamo il lavoro."
+              }
             ]
           },
           {
+            "id": "q7",
             "type": "mcq",
             "prompt": "Completa: Credo che loro ___ ragione.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "avere"
+              },
+              {
+                "id": "o2",
+                "text": "hanno"
+              },
+              {
+                "id": "o3",
+                "text": "abbiano"
+              },
+              {
+                "id": "o4",
+                "text": "avranno"
+              }
             ]
           },
           {
+            "id": "q8",
             "type": "mcq",
             "prompt": "Quale frase giustifica una scelta?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Scelgo il treno è più sostenibile perché?"
+              },
+              {
+                "id": "o2",
+                "text": "Scelgo il treno tuttavia è più sostenibile."
+              },
+              {
+                "id": "o3",
+                "text": "Scelgo il treno quindi è più sostenibile?"
+              },
+              {
+                "id": "o4",
+                "text": "Scelgo il treno perché è più sostenibile."
+              }
             ]
           }
         ]
@@ -26024,91 +28360,203 @@
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
         "prompt": "Completa: Penso che la proposta ___ utile.",
         "options": [
-          "sia",
-          "è",
-          "essere",
-          "sono"
+          {
+            "id": "o1",
+            "text": "sia"
+          },
+          {
+            "id": "o2",
+            "text": "è"
+          },
+          {
+            "id": "o3",
+            "text": "essere"
+          },
+          {
+            "id": "o4",
+            "text": "sono"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q2",
         "type": "mcq",
         "prompt": "Scegli il connettore di contrasto.",
         "options": [
-          "Vorrei uscire, quindi piove.",
-          "Vorrei uscire, tuttavia piove.",
-          "Vorrei uscire, perché piove.",
-          "Vorrei uscire, infatti piove."
+          {
+            "id": "o1",
+            "text": "Vorrei uscire, quindi piove."
+          },
+          {
+            "id": "o2",
+            "text": "Vorrei uscire, tuttavia piove."
+          },
+          {
+            "id": "o3",
+            "text": "Vorrei uscire, perché piove."
+          },
+          {
+            "id": "o4",
+            "text": "Vorrei uscire, infatti piove."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q3",
         "type": "mcq",
         "prompt": "Completa: Resto a casa perché ___ stanco.",
         "options": [
-          "essere",
-          "sia",
-          "sono",
-          "sarei"
+          {
+            "id": "o1",
+            "text": "essere"
+          },
+          {
+            "id": "o2",
+            "text": "sia"
+          },
+          {
+            "id": "o3",
+            "text": "sono"
+          },
+          {
+            "id": "o4",
+            "text": "sarei"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q4",
         "type": "mcq",
         "prompt": "Quale frase esprime un’opinione?",
         "options": [
-          "Il progetto funziona perché?",
-          "Il progetto ieri funziona?",
-          "Funzionare progetto secondo me.",
-          "Secondo me, il progetto funziona."
+          {
+            "id": "o1",
+            "text": "Il progetto funziona perché?"
+          },
+          {
+            "id": "o2",
+            "text": "Il progetto ieri funziona?"
+          },
+          {
+            "id": "o3",
+            "text": "Funzionare progetto secondo me."
+          },
+          {
+            "id": "o4",
+            "text": "Secondo me, il progetto funziona."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q5",
         "type": "mcq",
         "prompt": "Completa: Sebbene ___ tardi, continuiamo.",
         "options": [
-          "sia",
-          "è",
-          "essere",
-          "sono"
+          {
+            "id": "o1",
+            "text": "sia"
+          },
+          {
+            "id": "o2",
+            "text": "è"
+          },
+          {
+            "id": "o3",
+            "text": "essere"
+          },
+          {
+            "id": "o4",
+            "text": "sono"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q6",
         "type": "mcq",
         "prompt": "Scegli la conclusione logica.",
         "options": [
-          "Abbiamo poco tempo, tuttavia organizziamo il lavoro.",
-          "Abbiamo poco tempo, quindi organizziamo il lavoro.",
-          "Abbiamo poco tempo, perché organizziamo il lavoro.",
-          "Abbiamo poco tempo, se organizziamo il lavoro."
+          {
+            "id": "o1",
+            "text": "Abbiamo poco tempo, tuttavia organizziamo il lavoro."
+          },
+          {
+            "id": "o2",
+            "text": "Abbiamo poco tempo, quindi organizziamo il lavoro."
+          },
+          {
+            "id": "o3",
+            "text": "Abbiamo poco tempo, perché organizziamo il lavoro."
+          },
+          {
+            "id": "o4",
+            "text": "Abbiamo poco tempo, se organizziamo il lavoro."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q7",
         "type": "mcq",
         "prompt": "Completa: Credo che loro ___ ragione.",
         "options": [
-          "avere",
-          "hanno",
-          "abbiano",
-          "avranno"
+          {
+            "id": "o1",
+            "text": "avere"
+          },
+          {
+            "id": "o2",
+            "text": "hanno"
+          },
+          {
+            "id": "o3",
+            "text": "abbiano"
+          },
+          {
+            "id": "o4",
+            "text": "avranno"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q8",
         "type": "mcq",
         "prompt": "Quale frase giustifica una scelta?",
         "options": [
-          "Scelgo il treno è più sostenibile perché?",
-          "Scelgo il treno tuttavia è più sostenibile.",
-          "Scelgo il treno quindi è più sostenibile?",
-          "Scelgo il treno perché è più sostenibile."
+          {
+            "id": "o1",
+            "text": "Scelgo il treno è più sostenibile perché?"
+          },
+          {
+            "id": "o2",
+            "text": "Scelgo il treno tuttavia è più sostenibile."
+          },
+          {
+            "id": "o3",
+            "text": "Scelgo il treno quindi è più sostenibile?"
+          },
+          {
+            "id": "o4",
+            "text": "Scelgo il treno perché è più sostenibile."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       }
     ]
@@ -27724,121 +30172,277 @@
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "progetto",
-          "ricerca",
-          "compito",
-          "collaborazione"
-        ]
+          {
+            "id": "o1",
+            "text": "progetto"
+          },
+          {
+            "id": "o2",
+            "text": "ricerca"
+          },
+          {
+            "id": "o3",
+            "text": "compito"
+          },
+          {
+            "id": "o4",
+            "text": "collaborazione"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "progetto",
-          "ricerca",
-          "compito",
-          "collaborazione"
-        ]
+          {
+            "id": "o1",
+            "text": "progetto"
+          },
+          {
+            "id": "o2",
+            "text": "ricerca"
+          },
+          {
+            "id": "o3",
+            "text": "compito"
+          },
+          {
+            "id": "o4",
+            "text": "collaborazione"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "ricerca",
-          "progetto",
-          "compito",
-          "collaborazione"
-        ]
+          {
+            "id": "o1",
+            "text": "ricerca"
+          },
+          {
+            "id": "o2",
+            "text": "progetto"
+          },
+          {
+            "id": "o3",
+            "text": "compito"
+          },
+          {
+            "id": "o4",
+            "text": "collaborazione"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "compito",
-          "progetto",
-          "ricerca",
-          "collaborazione"
-        ]
+          {
+            "id": "o1",
+            "text": "compito"
+          },
+          {
+            "id": "o2",
+            "text": "progetto"
+          },
+          {
+            "id": "o3",
+            "text": "ricerca"
+          },
+          {
+            "id": "o4",
+            "text": "collaborazione"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "presentare",
-          "progetto",
-          "ricerca",
-          "compito"
-        ]
+          {
+            "id": "o1",
+            "text": "presentare"
+          },
+          {
+            "id": "o2",
+            "text": "progetto"
+          },
+          {
+            "id": "o3",
+            "text": "ricerca"
+          },
+          {
+            "id": "o4",
+            "text": "compito"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "progetto",
-          "accordo",
-          "ricerca",
-          "compito"
-        ]
+          {
+            "id": "o1",
+            "text": "progetto"
+          },
+          {
+            "id": "o2",
+            "text": "accordo"
+          },
+          {
+            "id": "o3",
+            "text": "ricerca"
+          },
+          {
+            "id": "o4",
+            "text": "compito"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "ricerca",
-          "progetto",
-          "soluzione",
-          "compito"
-        ]
+          {
+            "id": "o1",
+            "text": "ricerca"
+          },
+          {
+            "id": "o2",
+            "text": "progetto"
+          },
+          {
+            "id": "o3",
+            "text": "soluzione"
+          },
+          {
+            "id": "o4",
+            "text": "compito"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "compito",
-          "progetto",
-          "ricerca",
-          "scopo"
-        ]
+          {
+            "id": "o1",
+            "text": "compito"
+          },
+          {
+            "id": "o2",
+            "text": "progetto"
+          },
+          {
+            "id": "o3",
+            "text": "ricerca"
+          },
+          {
+            "id": "o4",
+            "text": "scopo"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "partecipare",
-          "progetto",
-          "ricerca",
-          "compito"
-        ]
+          {
+            "id": "o1",
+            "text": "partecipare"
+          },
+          {
+            "id": "o2",
+            "text": "progetto"
+          },
+          {
+            "id": "o3",
+            "text": "ricerca"
+          },
+          {
+            "id": "o4",
+            "text": "compito"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "progetto",
-          "risultato",
-          "ricerca",
-          "compito"
-        ]
+          {
+            "id": "o1",
+            "text": "progetto"
+          },
+          {
+            "id": "o2",
+            "text": "risultato"
+          },
+          {
+            "id": "o3",
+            "text": "ricerca"
+          },
+          {
+            "id": "o4",
+            "text": "compito"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "ricerca",
-          "progetto",
-          "oggi",
-          "compito"
-        ]
+          {
+            "id": "o1",
+            "text": "ricerca"
+          },
+          {
+            "id": "o2",
+            "text": "progetto"
+          },
+          {
+            "id": "o3",
+            "text": "oggi"
+          },
+          {
+            "id": "o4",
+            "text": "compito"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "compito",
-          "progetto",
-          "ricerca",
-          "insieme"
-        ]
+          {
+            "id": "o1",
+            "text": "compito"
+          },
+          {
+            "id": "o2",
+            "text": "progetto"
+          },
+          {
+            "id": "o3",
+            "text": "ricerca"
+          },
+          {
+            "id": "o4",
+            "text": "insieme"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },
@@ -29825,9 +32429,9 @@
     "reading": {
       "title": "Il tempo e le stagioni",
       "parts": [
-        "Sofia è em Bologna. Hoje descobre el clima y las estaciones. Encontra Marco e diz: “Oggi fa caldo.”. Os dois falam com respeito e aprendem quatro palavras novas: sole, pioggia, caldo e freddo.",
-        "Marco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.",
-        "Al final, Sofia scrive una nota: “Oggi fa caldo.”."
+        "Sofia è a Bologna. Oggi impara a hablar del tiempo. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Oggi fa caldo.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: sole, pioggia, caldo e freddo.",
+        "Marco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.",
+        "Alla fine, Sofia scrive: “Oggi fa caldo.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
       ],
       "questions": [
         "Dove è Sofia?",
@@ -29835,7 +32439,7 @@
         "Quale frase usa Sofia?",
         "Perché l’esperienza è importante?"
       ],
-      "text": "Sofia è em Bologna. Hoje descobre el clima y las estaciones. Encontra Marco e diz: “Oggi fa caldo.”. Os dois falam com respeito e aprendem quatro palavras novas: sole, pioggia, caldo e freddo.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.\n\nAl final, Sofia scrive una nota: “Oggi fa caldo.”."
+      "text": "Sofia è a Bologna. Oggi impara a hablar del tiempo. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Oggi fa caldo.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: sole, pioggia, caldo e freddo.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.\n\nAlla fine, Sofia scrive: “Oggi fa caldo.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
     },
     "transcript": "",
     "extra": null,
@@ -29866,20 +32470,20 @@
         "prompt": "Scegli la parola mancante nella lettura.\n\n“Marco fa una domanda semplice e _____ risponde con una frase breve.”",
         "options": [
           "Marco",
-          "caldo",
+          "frase",
           "Sofia",
-          "frase"
+          "breve"
         ]
       },
       {
         "id": "italian-a1-il-tempo-e-le-stagioni-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“Al final, Sofia scrive una nota: “_____ fa caldo.”.”",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo _____ con Marco.”",
         "options": [
-          "nota",
+          "perché",
           "Sofia",
-          "Marco",
-          "Oggi"
+          "Bologna",
+          "domani"
         ]
       }
     ]
@@ -29905,9 +32509,9 @@
     "reading": {
       "title": "La salute ogni giorno",
       "parts": [
-        "Sofia vive em Bologna e parla con Marco sobre bienestar y farmacia. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “Mi fa male la gola.” e spiega perché questa experiência è importante per il quartiere.",
-        "Marco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.",
-        "Al final, Sofia scrive una nota: “Mi fa male la gola.”."
+        "Sofia è a Bologna. Oggi impara a expresar malestar simple. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Mi fa male la gola.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: farmacia, dolore, riposo e consiglio.",
+        "Marco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.",
+        "Alla fine, Sofia scrive: “Mi fa male la gola.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
       ],
       "questions": [
         "Dove è Sofia?",
@@ -29915,7 +32519,7 @@
         "Quale frase usa Sofia?",
         "Perché l’esperienza è importante?"
       ],
-      "text": "Sofia vive em Bologna e parla con Marco sobre bienestar y farmacia. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “Mi fa male la gola.” e spiega perché questa experiência è importante per il quartiere.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.\n\nAl final, Sofia scrive una nota: “Mi fa male la gola.”."
+      "text": "Sofia è a Bologna. Oggi impara a expresar malestar simple. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Mi fa male la gola.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: farmacia, dolore, riposo e consiglio.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.\n\nAlla fine, Sofia scrive: “Mi fa male la gola.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
     },
     "transcript": "",
     "extra": null,
@@ -29943,34 +32547,34 @@
       {
         "id": "italian-a2-la-salute-ogni-giorno-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella lettura.\n\n“e spiega perché questa experiência è _____ per il quartiere.”",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“Durante la conversazione imparano _____ utili: farmacia, dolore, riposo e consiglio.”",
         "options": [
-          "ascoltando",
-          "bienestar",
-          "importante",
-          "experiência"
+          "dolore",
+          "riposo",
+          "parole",
+          "scuola"
         ]
       },
       {
         "id": "italian-a2-la-salute-ogni-giorno-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“La conversazione mostra che la cultura si impara ascoltando e _____.”",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“Usano le parole nuove in piccole situazioni: al bar, a scuola o per _____.”",
         "options": [
-          "experiência",
-          "conversazione",
-          "importante",
-          "partecipando"
+          "parole",
+          "dolore",
+          "riposo",
+          "strada"
         ]
       },
       {
         "id": "italian-a2-la-salute-ogni-giorno-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“Al final, Sofia _____ una nota: “Mi fa male la gola.”.”",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“È _____ perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco.”",
         "options": [
-          "scrive",
-          "spiega",
-          "perché",
-          "mostra"
+          "contenta",
+          "imparano",
+          "farmacia",
+          "Bologna"
         ]
       }
     ]
@@ -30054,9 +32658,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Congiuntivo con opinione e dubbio",
-        "definition": "Práctica guiada de Congiuntivo con opinione e dubbio.",
+        "definition": "Connettori, opinioni e ipotesi aiutano a costruire un argomento.",
         "structure": "opinione + perché/tuttavia/quindi + motivazione",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Esprimere e giustificare un punto di vista.",
         "examples": [
           "Penso che la proposta sia utile.",
           "Tuttavia dobbiamo valutare i risultati."
@@ -30065,83 +32669,187 @@
       "grammarTest": {
         "questions": [
           {
+            "id": "q1",
             "type": "mcq",
             "prompt": "Completa: Penso che la proposta ___ utile.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "sia"
+              },
+              {
+                "id": "o2",
+                "text": "è"
+              },
+              {
+                "id": "o3",
+                "text": "essere"
+              },
+              {
+                "id": "o4",
+                "text": "sono"
+              }
             ]
           },
           {
+            "id": "q2",
             "type": "mcq",
             "prompt": "Scegli il connettore di contrasto.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Vorrei uscire, quindi piove."
+              },
+              {
+                "id": "o2",
+                "text": "Vorrei uscire, tuttavia piove."
+              },
+              {
+                "id": "o3",
+                "text": "Vorrei uscire, perché piove."
+              },
+              {
+                "id": "o4",
+                "text": "Vorrei uscire, infatti piove."
+              }
             ]
           },
           {
+            "id": "q3",
             "type": "mcq",
             "prompt": "Completa: Resto a casa perché ___ stanco.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "essere"
+              },
+              {
+                "id": "o2",
+                "text": "sia"
+              },
+              {
+                "id": "o3",
+                "text": "sono"
+              },
+              {
+                "id": "o4",
+                "text": "sarei"
+              }
             ]
           },
           {
+            "id": "q4",
             "type": "mcq",
             "prompt": "Quale frase esprime un’opinione?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Il progetto funziona perché?"
+              },
+              {
+                "id": "o2",
+                "text": "Il progetto ieri funziona?"
+              },
+              {
+                "id": "o3",
+                "text": "Funzionare progetto secondo me."
+              },
+              {
+                "id": "o4",
+                "text": "Secondo me, il progetto funziona."
+              }
             ]
           },
           {
+            "id": "q5",
             "type": "mcq",
             "prompt": "Completa: Sebbene ___ tardi, continuiamo.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "sia"
+              },
+              {
+                "id": "o2",
+                "text": "è"
+              },
+              {
+                "id": "o3",
+                "text": "essere"
+              },
+              {
+                "id": "o4",
+                "text": "sono"
+              }
             ]
           },
           {
+            "id": "q6",
             "type": "mcq",
             "prompt": "Scegli la conclusione logica.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Abbiamo poco tempo, tuttavia organizziamo il lavoro."
+              },
+              {
+                "id": "o2",
+                "text": "Abbiamo poco tempo, quindi organizziamo il lavoro."
+              },
+              {
+                "id": "o3",
+                "text": "Abbiamo poco tempo, perché organizziamo il lavoro."
+              },
+              {
+                "id": "o4",
+                "text": "Abbiamo poco tempo, se organizziamo il lavoro."
+              }
             ]
           },
           {
+            "id": "q7",
             "type": "mcq",
             "prompt": "Completa: Credo che loro ___ ragione.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "avere"
+              },
+              {
+                "id": "o2",
+                "text": "hanno"
+              },
+              {
+                "id": "o3",
+                "text": "abbiano"
+              },
+              {
+                "id": "o4",
+                "text": "avranno"
+              }
             ]
           },
           {
+            "id": "q8",
             "type": "mcq",
             "prompt": "Quale frase giustifica una scelta?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Scelgo il treno è più sostenibile perché?"
+              },
+              {
+                "id": "o2",
+                "text": "Scelgo il treno tuttavia è più sostenibile."
+              },
+              {
+                "id": "o3",
+                "text": "Scelgo il treno quindi è più sostenibile?"
+              },
+              {
+                "id": "o4",
+                "text": "Scelgo il treno perché è più sostenibile."
+              }
             ]
           }
         ]
@@ -30150,91 +32858,203 @@
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
         "prompt": "Completa: Penso che la proposta ___ utile.",
         "options": [
-          "sia",
-          "è",
-          "essere",
-          "sono"
+          {
+            "id": "o1",
+            "text": "sia"
+          },
+          {
+            "id": "o2",
+            "text": "è"
+          },
+          {
+            "id": "o3",
+            "text": "essere"
+          },
+          {
+            "id": "o4",
+            "text": "sono"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q2",
         "type": "mcq",
         "prompt": "Scegli il connettore di contrasto.",
         "options": [
-          "Vorrei uscire, quindi piove.",
-          "Vorrei uscire, tuttavia piove.",
-          "Vorrei uscire, perché piove.",
-          "Vorrei uscire, infatti piove."
+          {
+            "id": "o1",
+            "text": "Vorrei uscire, quindi piove."
+          },
+          {
+            "id": "o2",
+            "text": "Vorrei uscire, tuttavia piove."
+          },
+          {
+            "id": "o3",
+            "text": "Vorrei uscire, perché piove."
+          },
+          {
+            "id": "o4",
+            "text": "Vorrei uscire, infatti piove."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q3",
         "type": "mcq",
         "prompt": "Completa: Resto a casa perché ___ stanco.",
         "options": [
-          "essere",
-          "sia",
-          "sono",
-          "sarei"
+          {
+            "id": "o1",
+            "text": "essere"
+          },
+          {
+            "id": "o2",
+            "text": "sia"
+          },
+          {
+            "id": "o3",
+            "text": "sono"
+          },
+          {
+            "id": "o4",
+            "text": "sarei"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q4",
         "type": "mcq",
         "prompt": "Quale frase esprime un’opinione?",
         "options": [
-          "Il progetto funziona perché?",
-          "Il progetto ieri funziona?",
-          "Funzionare progetto secondo me.",
-          "Secondo me, il progetto funziona."
+          {
+            "id": "o1",
+            "text": "Il progetto funziona perché?"
+          },
+          {
+            "id": "o2",
+            "text": "Il progetto ieri funziona?"
+          },
+          {
+            "id": "o3",
+            "text": "Funzionare progetto secondo me."
+          },
+          {
+            "id": "o4",
+            "text": "Secondo me, il progetto funziona."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q5",
         "type": "mcq",
         "prompt": "Completa: Sebbene ___ tardi, continuiamo.",
         "options": [
-          "sia",
-          "è",
-          "essere",
-          "sono"
+          {
+            "id": "o1",
+            "text": "sia"
+          },
+          {
+            "id": "o2",
+            "text": "è"
+          },
+          {
+            "id": "o3",
+            "text": "essere"
+          },
+          {
+            "id": "o4",
+            "text": "sono"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q6",
         "type": "mcq",
         "prompt": "Scegli la conclusione logica.",
         "options": [
-          "Abbiamo poco tempo, tuttavia organizziamo il lavoro.",
-          "Abbiamo poco tempo, quindi organizziamo il lavoro.",
-          "Abbiamo poco tempo, perché organizziamo il lavoro.",
-          "Abbiamo poco tempo, se organizziamo il lavoro."
+          {
+            "id": "o1",
+            "text": "Abbiamo poco tempo, tuttavia organizziamo il lavoro."
+          },
+          {
+            "id": "o2",
+            "text": "Abbiamo poco tempo, quindi organizziamo il lavoro."
+          },
+          {
+            "id": "o3",
+            "text": "Abbiamo poco tempo, perché organizziamo il lavoro."
+          },
+          {
+            "id": "o4",
+            "text": "Abbiamo poco tempo, se organizziamo il lavoro."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q7",
         "type": "mcq",
         "prompt": "Completa: Credo che loro ___ ragione.",
         "options": [
-          "avere",
-          "hanno",
-          "abbiano",
-          "avranno"
+          {
+            "id": "o1",
+            "text": "avere"
+          },
+          {
+            "id": "o2",
+            "text": "hanno"
+          },
+          {
+            "id": "o3",
+            "text": "abbiano"
+          },
+          {
+            "id": "o4",
+            "text": "avranno"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q8",
         "type": "mcq",
         "prompt": "Quale frase giustifica una scelta?",
         "options": [
-          "Scelgo il treno è più sostenibile perché?",
-          "Scelgo il treno tuttavia è più sostenibile.",
-          "Scelgo il treno quindi è più sostenibile?",
-          "Scelgo il treno perché è più sostenibile."
+          {
+            "id": "o1",
+            "text": "Scelgo il treno è più sostenibile perché?"
+          },
+          {
+            "id": "o2",
+            "text": "Scelgo il treno tuttavia è più sostenibile."
+          },
+          {
+            "id": "o3",
+            "text": "Scelgo il treno quindi è più sostenibile?"
+          },
+          {
+            "id": "o4",
+            "text": "Scelgo il treno perché è più sostenibile."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       }
     ]
@@ -31850,121 +34670,277 @@
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "tecnologia",
-          "dispositivo",
-          "vantaggio",
-          "rischio"
-        ]
+          {
+            "id": "o1",
+            "text": "tecnologia"
+          },
+          {
+            "id": "o2",
+            "text": "dispositivo"
+          },
+          {
+            "id": "o3",
+            "text": "vantaggio"
+          },
+          {
+            "id": "o4",
+            "text": "rischio"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "tecnologia",
-          "dispositivo",
-          "vantaggio",
-          "rischio"
-        ]
+          {
+            "id": "o1",
+            "text": "tecnologia"
+          },
+          {
+            "id": "o2",
+            "text": "dispositivo"
+          },
+          {
+            "id": "o3",
+            "text": "vantaggio"
+          },
+          {
+            "id": "o4",
+            "text": "rischio"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "dispositivo",
-          "tecnologia",
-          "vantaggio",
-          "rischio"
-        ]
+          {
+            "id": "o1",
+            "text": "dispositivo"
+          },
+          {
+            "id": "o2",
+            "text": "tecnologia"
+          },
+          {
+            "id": "o3",
+            "text": "vantaggio"
+          },
+          {
+            "id": "o4",
+            "text": "rischio"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "vantaggio",
-          "tecnologia",
-          "dispositivo",
-          "rischio"
-        ]
+          {
+            "id": "o1",
+            "text": "vantaggio"
+          },
+          {
+            "id": "o2",
+            "text": "tecnologia"
+          },
+          {
+            "id": "o3",
+            "text": "dispositivo"
+          },
+          {
+            "id": "o4",
+            "text": "rischio"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "proteggere",
-          "tecnologia",
-          "dispositivo",
-          "vantaggio"
-        ]
+          {
+            "id": "o1",
+            "text": "proteggere"
+          },
+          {
+            "id": "o2",
+            "text": "tecnologia"
+          },
+          {
+            "id": "o3",
+            "text": "dispositivo"
+          },
+          {
+            "id": "o4",
+            "text": "vantaggio"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "tecnologia",
-          "abitudine",
-          "dispositivo",
-          "vantaggio"
-        ]
+          {
+            "id": "o1",
+            "text": "tecnologia"
+          },
+          {
+            "id": "o2",
+            "text": "abitudine"
+          },
+          {
+            "id": "o3",
+            "text": "dispositivo"
+          },
+          {
+            "id": "o4",
+            "text": "vantaggio"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "dispositivo",
-          "tecnologia",
-          "connessione",
-          "vantaggio"
-        ]
+          {
+            "id": "o1",
+            "text": "dispositivo"
+          },
+          {
+            "id": "o2",
+            "text": "tecnologia"
+          },
+          {
+            "id": "o3",
+            "text": "connessione"
+          },
+          {
+            "id": "o4",
+            "text": "vantaggio"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "vantaggio",
-          "tecnologia",
-          "dispositivo",
-          "informazione"
-        ]
+          {
+            "id": "o1",
+            "text": "vantaggio"
+          },
+          {
+            "id": "o2",
+            "text": "tecnologia"
+          },
+          {
+            "id": "o3",
+            "text": "dispositivo"
+          },
+          {
+            "id": "o4",
+            "text": "informazione"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "scegliere",
-          "tecnologia",
-          "dispositivo",
-          "vantaggio"
-        ]
+          {
+            "id": "o1",
+            "text": "scegliere"
+          },
+          {
+            "id": "o2",
+            "text": "tecnologia"
+          },
+          {
+            "id": "o3",
+            "text": "dispositivo"
+          },
+          {
+            "id": "o4",
+            "text": "vantaggio"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "tecnologia",
-          "equilibrio",
-          "dispositivo",
-          "vantaggio"
-        ]
+          {
+            "id": "o1",
+            "text": "tecnologia"
+          },
+          {
+            "id": "o2",
+            "text": "equilibrio"
+          },
+          {
+            "id": "o3",
+            "text": "dispositivo"
+          },
+          {
+            "id": "o4",
+            "text": "vantaggio"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "dispositivo",
-          "tecnologia",
-          "oggi",
-          "vantaggio"
-        ]
+          {
+            "id": "o1",
+            "text": "dispositivo"
+          },
+          {
+            "id": "o2",
+            "text": "tecnologia"
+          },
+          {
+            "id": "o3",
+            "text": "oggi"
+          },
+          {
+            "id": "o4",
+            "text": "vantaggio"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "vantaggio",
-          "tecnologia",
-          "dispositivo",
-          "insieme"
-        ]
+          {
+            "id": "o1",
+            "text": "vantaggio"
+          },
+          {
+            "id": "o2",
+            "text": "tecnologia"
+          },
+          {
+            "id": "o3",
+            "text": "dispositivo"
+          },
+          {
+            "id": "o4",
+            "text": "insieme"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },
@@ -33951,9 +36927,9 @@
     "reading": {
       "title": "Una festa di quartiere",
       "parts": [
-        "Sofia è em Bologna. Hoje descobre una pequeña fiesta comunitaria. Encontra Marco e diz: “Ci vediamo alla festa.”. Os dois falam com respeito e aprendem quatro palavras novas: festa, musica, vicino e sabato.",
-        "Marco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.",
-        "Al final, Sofia scrive una nota: “Ci vediamo alla festa.”."
+        "Sofia è a Bologna. Oggi impara a invitar y aceptar. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Ci vediamo alla festa.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: festa, musica, vicino e sabato.",
+        "Marco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.",
+        "Alla fine, Sofia scrive: “Ci vediamo alla festa.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
       ],
       "questions": [
         "Dove è Sofia?",
@@ -33961,7 +36937,7 @@
         "Quale frase usa Sofia?",
         "Perché l’esperienza è importante?"
       ],
-      "text": "Sofia è em Bologna. Hoje descobre una pequeña fiesta comunitaria. Encontra Marco e diz: “Ci vediamo alla festa.”. Os dois falam com respeito e aprendem quatro palavras novas: festa, musica, vicino e sabato.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.\n\nAl final, Sofia scrive una nota: “Ci vediamo alla festa.”."
+      "text": "Sofia è a Bologna. Oggi impara a invitar y aceptar. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Ci vediamo alla festa.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: festa, musica, vicino e sabato.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.\n\nAlla fine, Sofia scrive: “Ci vediamo alla festa.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
     },
     "transcript": "",
     "extra": null,
@@ -33992,20 +36968,20 @@
         "prompt": "Scegli la parola mancante nella lettura.\n\n“Marco fa una domanda semplice e _____ risponde con una frase breve.”",
         "options": [
           "Marco",
-          "festa",
+          "frase",
           "Sofia",
-          "frase"
+          "breve"
         ]
       },
       {
         "id": "italian-a1-una-festa-di-quartiere-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“Al final, Sofia scrive una nota: “Ci _____ alla festa.”.”",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo _____ con Marco.”",
         "options": [
+          "perché",
+          "Sofia",
           "Bologna",
-          "domanda",
-          "Encontra",
-          "vediamo"
+          "domani"
         ]
       }
     ]
@@ -34031,9 +37007,9 @@
     "reading": {
       "title": "Storie di migrazione",
       "parts": [
-        "Sofia vive em Bologna e parla con Marco sobre italia diversa: familias y trayectorias. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “La sua famiglia è arrivata anni fa.” e spiega perché questa experiência è importante per il quartiere.",
-        "Marco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.",
-        "Al final, Sofia scrive una nota: “La sua famiglia è arrivata anni fa.”."
+        "Sofia è a Bologna. Oggi impara a contar una historia sencilla. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “La sua famiglia è arrivata anni fa.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: famiglia, origine, arrivare e comunità.",
+        "Marco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.",
+        "Alla fine, Sofia scrive: “La sua famiglia è arrivata anni fa.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
       ],
       "questions": [
         "Dove è Sofia?",
@@ -34041,7 +37017,7 @@
         "Quale frase usa Sofia?",
         "Perché l’esperienza è importante?"
       ],
-      "text": "Sofia vive em Bologna e parla con Marco sobre italia diversa: familias y trayectorias. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “La sua famiglia è arrivata anni fa.” e spiega perché questa experiência è importante per il quartiere.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.\n\nAl final, Sofia scrive una nota: “La sua famiglia è arrivata anni fa.”."
+      "text": "Sofia è a Bologna. Oggi impara a contar una historia sencilla. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “La sua famiglia è arrivata anni fa.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: famiglia, origine, arrivare e comunità.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.\n\nAlla fine, Sofia scrive: “La sua famiglia è arrivata anni fa.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
     },
     "transcript": "",
     "extra": null,
@@ -34069,34 +37045,34 @@
       {
         "id": "italian-a2-storie-di-migrazione-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella lettura.\n\n“e spiega perché questa experiência è _____ per il quartiere.”",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“Durante la conversazione imparano _____ utili: famiglia, origine, arrivare e comunità.”",
         "options": [
-          "ascoltando",
-          "experiência",
-          "importante",
-          "quartiere"
+          "scuola",
+          "strada",
+          "parole",
+          "perché"
         ]
       },
       {
         "id": "italian-a2-storie-di-migrazione-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“La conversazione mostra che la cultura si impara ascoltando e _____.”",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“Usano le parole nuove in piccole situazioni: al bar, a scuola o per _____.”",
         "options": [
-          "trayectorias",
-          "experiência",
-          "conversazione",
-          "partecipando"
+          "parole",
+          "scuola",
+          "perché",
+          "strada"
         ]
       },
       {
         "id": "italian-a2-storie-di-migrazione-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“Al final, Sofia scrive una nota: “La sua famiglia è _____ anni fa.”.”",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“È _____ perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco.”",
         "options": [
-          "arrivata",
-          "familias",
+          "contenta",
           "famiglia",
-          "Bologna"
+          "arrivata",
+          "imparano"
         ]
       }
     ]
@@ -34180,9 +37156,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Comparativi complessi",
-        "definition": "Práctica guiada de Comparativi complessi.",
+        "definition": "Connettori, opinioni e ipotesi aiutano a costruire un argomento.",
         "structure": "opinione + perché/tuttavia/quindi + motivazione",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Esprimere e giustificare un punto di vista.",
         "examples": [
           "Penso che la proposta sia utile.",
           "Tuttavia dobbiamo valutare i risultati."
@@ -34191,83 +37167,187 @@
       "grammarTest": {
         "questions": [
           {
+            "id": "q1",
             "type": "mcq",
             "prompt": "Completa: Penso che la proposta ___ utile.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "sia"
+              },
+              {
+                "id": "o2",
+                "text": "è"
+              },
+              {
+                "id": "o3",
+                "text": "essere"
+              },
+              {
+                "id": "o4",
+                "text": "sono"
+              }
             ]
           },
           {
+            "id": "q2",
             "type": "mcq",
             "prompt": "Scegli il connettore di contrasto.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Vorrei uscire, quindi piove."
+              },
+              {
+                "id": "o2",
+                "text": "Vorrei uscire, tuttavia piove."
+              },
+              {
+                "id": "o3",
+                "text": "Vorrei uscire, perché piove."
+              },
+              {
+                "id": "o4",
+                "text": "Vorrei uscire, infatti piove."
+              }
             ]
           },
           {
+            "id": "q3",
             "type": "mcq",
             "prompt": "Completa: Resto a casa perché ___ stanco.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "essere"
+              },
+              {
+                "id": "o2",
+                "text": "sia"
+              },
+              {
+                "id": "o3",
+                "text": "sono"
+              },
+              {
+                "id": "o4",
+                "text": "sarei"
+              }
             ]
           },
           {
+            "id": "q4",
             "type": "mcq",
             "prompt": "Quale frase esprime un’opinione?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Il progetto funziona perché?"
+              },
+              {
+                "id": "o2",
+                "text": "Il progetto ieri funziona?"
+              },
+              {
+                "id": "o3",
+                "text": "Funzionare progetto secondo me."
+              },
+              {
+                "id": "o4",
+                "text": "Secondo me, il progetto funziona."
+              }
             ]
           },
           {
+            "id": "q5",
             "type": "mcq",
             "prompt": "Completa: Sebbene ___ tardi, continuiamo.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "sia"
+              },
+              {
+                "id": "o2",
+                "text": "è"
+              },
+              {
+                "id": "o3",
+                "text": "essere"
+              },
+              {
+                "id": "o4",
+                "text": "sono"
+              }
             ]
           },
           {
+            "id": "q6",
             "type": "mcq",
             "prompt": "Scegli la conclusione logica.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Abbiamo poco tempo, tuttavia organizziamo il lavoro."
+              },
+              {
+                "id": "o2",
+                "text": "Abbiamo poco tempo, quindi organizziamo il lavoro."
+              },
+              {
+                "id": "o3",
+                "text": "Abbiamo poco tempo, perché organizziamo il lavoro."
+              },
+              {
+                "id": "o4",
+                "text": "Abbiamo poco tempo, se organizziamo il lavoro."
+              }
             ]
           },
           {
+            "id": "q7",
             "type": "mcq",
             "prompt": "Completa: Credo che loro ___ ragione.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "avere"
+              },
+              {
+                "id": "o2",
+                "text": "hanno"
+              },
+              {
+                "id": "o3",
+                "text": "abbiano"
+              },
+              {
+                "id": "o4",
+                "text": "avranno"
+              }
             ]
           },
           {
+            "id": "q8",
             "type": "mcq",
             "prompt": "Quale frase giustifica una scelta?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Scelgo il treno è più sostenibile perché?"
+              },
+              {
+                "id": "o2",
+                "text": "Scelgo il treno tuttavia è più sostenibile."
+              },
+              {
+                "id": "o3",
+                "text": "Scelgo il treno quindi è più sostenibile?"
+              },
+              {
+                "id": "o4",
+                "text": "Scelgo il treno perché è più sostenibile."
+              }
             ]
           }
         ]
@@ -34276,91 +37356,203 @@
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
         "prompt": "Completa: Penso che la proposta ___ utile.",
         "options": [
-          "sia",
-          "è",
-          "essere",
-          "sono"
+          {
+            "id": "o1",
+            "text": "sia"
+          },
+          {
+            "id": "o2",
+            "text": "è"
+          },
+          {
+            "id": "o3",
+            "text": "essere"
+          },
+          {
+            "id": "o4",
+            "text": "sono"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q2",
         "type": "mcq",
         "prompt": "Scegli il connettore di contrasto.",
         "options": [
-          "Vorrei uscire, quindi piove.",
-          "Vorrei uscire, tuttavia piove.",
-          "Vorrei uscire, perché piove.",
-          "Vorrei uscire, infatti piove."
+          {
+            "id": "o1",
+            "text": "Vorrei uscire, quindi piove."
+          },
+          {
+            "id": "o2",
+            "text": "Vorrei uscire, tuttavia piove."
+          },
+          {
+            "id": "o3",
+            "text": "Vorrei uscire, perché piove."
+          },
+          {
+            "id": "o4",
+            "text": "Vorrei uscire, infatti piove."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q3",
         "type": "mcq",
         "prompt": "Completa: Resto a casa perché ___ stanco.",
         "options": [
-          "essere",
-          "sia",
-          "sono",
-          "sarei"
+          {
+            "id": "o1",
+            "text": "essere"
+          },
+          {
+            "id": "o2",
+            "text": "sia"
+          },
+          {
+            "id": "o3",
+            "text": "sono"
+          },
+          {
+            "id": "o4",
+            "text": "sarei"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q4",
         "type": "mcq",
         "prompt": "Quale frase esprime un’opinione?",
         "options": [
-          "Il progetto funziona perché?",
-          "Il progetto ieri funziona?",
-          "Funzionare progetto secondo me.",
-          "Secondo me, il progetto funziona."
+          {
+            "id": "o1",
+            "text": "Il progetto funziona perché?"
+          },
+          {
+            "id": "o2",
+            "text": "Il progetto ieri funziona?"
+          },
+          {
+            "id": "o3",
+            "text": "Funzionare progetto secondo me."
+          },
+          {
+            "id": "o4",
+            "text": "Secondo me, il progetto funziona."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q5",
         "type": "mcq",
         "prompt": "Completa: Sebbene ___ tardi, continuiamo.",
         "options": [
-          "sia",
-          "è",
-          "essere",
-          "sono"
+          {
+            "id": "o1",
+            "text": "sia"
+          },
+          {
+            "id": "o2",
+            "text": "è"
+          },
+          {
+            "id": "o3",
+            "text": "essere"
+          },
+          {
+            "id": "o4",
+            "text": "sono"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q6",
         "type": "mcq",
         "prompt": "Scegli la conclusione logica.",
         "options": [
-          "Abbiamo poco tempo, tuttavia organizziamo il lavoro.",
-          "Abbiamo poco tempo, quindi organizziamo il lavoro.",
-          "Abbiamo poco tempo, perché organizziamo il lavoro.",
-          "Abbiamo poco tempo, se organizziamo il lavoro."
+          {
+            "id": "o1",
+            "text": "Abbiamo poco tempo, tuttavia organizziamo il lavoro."
+          },
+          {
+            "id": "o2",
+            "text": "Abbiamo poco tempo, quindi organizziamo il lavoro."
+          },
+          {
+            "id": "o3",
+            "text": "Abbiamo poco tempo, perché organizziamo il lavoro."
+          },
+          {
+            "id": "o4",
+            "text": "Abbiamo poco tempo, se organizziamo il lavoro."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q7",
         "type": "mcq",
         "prompt": "Completa: Credo che loro ___ ragione.",
         "options": [
-          "avere",
-          "hanno",
-          "abbiano",
-          "avranno"
+          {
+            "id": "o1",
+            "text": "avere"
+          },
+          {
+            "id": "o2",
+            "text": "hanno"
+          },
+          {
+            "id": "o3",
+            "text": "abbiano"
+          },
+          {
+            "id": "o4",
+            "text": "avranno"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q8",
         "type": "mcq",
         "prompt": "Quale frase giustifica una scelta?",
         "options": [
-          "Scelgo il treno è più sostenibile perché?",
-          "Scelgo il treno tuttavia è più sostenibile.",
-          "Scelgo il treno quindi è più sostenibile?",
-          "Scelgo il treno perché è più sostenibile."
+          {
+            "id": "o1",
+            "text": "Scelgo il treno è più sostenibile perché?"
+          },
+          {
+            "id": "o2",
+            "text": "Scelgo il treno tuttavia è più sostenibile."
+          },
+          {
+            "id": "o3",
+            "text": "Scelgo il treno quindi è più sostenibile?"
+          },
+          {
+            "id": "o4",
+            "text": "Scelgo il treno perché è più sostenibile."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       }
     ]
@@ -35976,121 +39168,277 @@
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "trasporto",
-          "percorso",
-          "traffico",
-          "bicicletta"
-        ]
+          {
+            "id": "o1",
+            "text": "trasporto"
+          },
+          {
+            "id": "o2",
+            "text": "percorso"
+          },
+          {
+            "id": "o3",
+            "text": "traffico"
+          },
+          {
+            "id": "o4",
+            "text": "bicicletta"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "trasporto",
-          "percorso",
-          "traffico",
-          "bicicletta"
-        ]
+          {
+            "id": "o1",
+            "text": "trasporto"
+          },
+          {
+            "id": "o2",
+            "text": "percorso"
+          },
+          {
+            "id": "o3",
+            "text": "traffico"
+          },
+          {
+            "id": "o4",
+            "text": "bicicletta"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "percorso",
-          "trasporto",
-          "traffico",
-          "bicicletta"
-        ]
+          {
+            "id": "o1",
+            "text": "percorso"
+          },
+          {
+            "id": "o2",
+            "text": "trasporto"
+          },
+          {
+            "id": "o3",
+            "text": "traffico"
+          },
+          {
+            "id": "o4",
+            "text": "bicicletta"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "traffico",
-          "trasporto",
-          "percorso",
-          "bicicletta"
-        ]
+          {
+            "id": "o1",
+            "text": "traffico"
+          },
+          {
+            "id": "o2",
+            "text": "trasporto"
+          },
+          {
+            "id": "o3",
+            "text": "percorso"
+          },
+          {
+            "id": "o4",
+            "text": "bicicletta"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "migliorare",
-          "trasporto",
-          "percorso",
-          "traffico"
-        ]
+          {
+            "id": "o1",
+            "text": "migliorare"
+          },
+          {
+            "id": "o2",
+            "text": "trasporto"
+          },
+          {
+            "id": "o3",
+            "text": "percorso"
+          },
+          {
+            "id": "o4",
+            "text": "traffico"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "trasporto",
-          "accessibile",
-          "percorso",
-          "traffico"
-        ]
+          {
+            "id": "o1",
+            "text": "trasporto"
+          },
+          {
+            "id": "o2",
+            "text": "accessibile"
+          },
+          {
+            "id": "o3",
+            "text": "percorso"
+          },
+          {
+            "id": "o4",
+            "text": "traffico"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "percorso",
-          "trasporto",
-          "ritardo",
-          "traffico"
-        ]
+          {
+            "id": "o1",
+            "text": "percorso"
+          },
+          {
+            "id": "o2",
+            "text": "trasporto"
+          },
+          {
+            "id": "o3",
+            "text": "ritardo"
+          },
+          {
+            "id": "o4",
+            "text": "traffico"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "traffico",
-          "trasporto",
-          "percorso",
-          "servizio"
-        ]
+          {
+            "id": "o1",
+            "text": "traffico"
+          },
+          {
+            "id": "o2",
+            "text": "trasporto"
+          },
+          {
+            "id": "o3",
+            "text": "percorso"
+          },
+          {
+            "id": "o4",
+            "text": "servizio"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "proporre",
-          "trasporto",
-          "percorso",
-          "traffico"
-        ]
+          {
+            "id": "o1",
+            "text": "proporre"
+          },
+          {
+            "id": "o2",
+            "text": "trasporto"
+          },
+          {
+            "id": "o3",
+            "text": "percorso"
+          },
+          {
+            "id": "o4",
+            "text": "traffico"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "trasporto",
-          "quartiere",
-          "percorso",
-          "traffico"
-        ]
+          {
+            "id": "o1",
+            "text": "trasporto"
+          },
+          {
+            "id": "o2",
+            "text": "quartiere"
+          },
+          {
+            "id": "o3",
+            "text": "percorso"
+          },
+          {
+            "id": "o4",
+            "text": "traffico"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "percorso",
-          "trasporto",
-          "oggi",
-          "traffico"
-        ]
+          {
+            "id": "o1",
+            "text": "percorso"
+          },
+          {
+            "id": "o2",
+            "text": "trasporto"
+          },
+          {
+            "id": "o3",
+            "text": "oggi"
+          },
+          {
+            "id": "o4",
+            "text": "traffico"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "traffico",
-          "trasporto",
-          "percorso",
-          "insieme"
-        ]
+          {
+            "id": "o1",
+            "text": "traffico"
+          },
+          {
+            "id": "o2",
+            "text": "trasporto"
+          },
+          {
+            "id": "o3",
+            "text": "percorso"
+          },
+          {
+            "id": "o4",
+            "text": "insieme"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },
@@ -38077,9 +41425,9 @@
     "reading": {
       "title": "In treno",
       "parts": [
-        "Sofia è em Bologna. Hoje descobre un viaje corto en tren regional. Encontra Marco e diz: “Un biglietto per Firenze.”. Os dois falam com respeito e aprendem quatro palavras novas: treno, biglietto, binario e viaggio.",
-        "Marco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.",
-        "Al final, Sofia scrive una nota: “Un biglietto per Firenze.”."
+        "Sofia è a Bologna. Oggi impara a comprar un billete. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Un biglietto per Firenze.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: treno, biglietto, binario e viaggio.",
+        "Marco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.",
+        "Alla fine, Sofia scrive: “Un biglietto per Firenze.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
       ],
       "questions": [
         "Dove è Sofia?",
@@ -38087,7 +41435,7 @@
         "Quale frase usa Sofia?",
         "Perché l’esperienza è importante?"
       ],
-      "text": "Sofia è em Bologna. Hoje descobre un viaje corto en tren regional. Encontra Marco e diz: “Un biglietto per Firenze.”. Os dois falam com respeito e aprendem quatro palavras novas: treno, biglietto, binario e viaggio.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.\n\nAl final, Sofia scrive una nota: “Un biglietto per Firenze.”."
+      "text": "Sofia è a Bologna. Oggi impara a comprar un billete. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Un biglietto per Firenze.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: treno, biglietto, binario e viaggio.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.\n\nAlla fine, Sofia scrive: “Un biglietto per Firenze.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
     },
     "transcript": "",
     "extra": null,
@@ -38126,12 +41474,12 @@
       {
         "id": "italian-a1-in-treno-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“Al final, Sofia _____ una nota: “Un biglietto per Firenze.”.”",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo _____ con Marco.”",
         "options": [
+          "perché",
           "Sofia",
           "Bologna",
-          "Marco",
-          "scrive"
+          "domani"
         ]
       }
     ]
@@ -38157,9 +41505,9 @@
     "reading": {
       "title": "Un progetto di classe",
       "parts": [
-        "Sofia vive em Bologna e parla con Marco sobre colaborar para una propuesta local. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “Possiamo dividere i compiti.” e spiega perché questa experiência è importante per il quartiere.",
-        "Marco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.",
-        "Al final, Sofia scrive una nota: “Possiamo dividere i compiti.”."
+        "Sofia è a Bologna. Oggi impara a proponer y colaborar. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Possiamo dividere i compiti.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: progetto, compito, idea e gruppo.",
+        "Marco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.",
+        "Alla fine, Sofia scrive: “Possiamo dividere i compiti.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
       ],
       "questions": [
         "Dove è Sofia?",
@@ -38167,7 +41515,7 @@
         "Quale frase usa Sofia?",
         "Perché l’esperienza è importante?"
       ],
-      "text": "Sofia vive em Bologna e parla con Marco sobre colaborar para una propuesta local. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “Possiamo dividere i compiti.” e spiega perché questa experiência è importante per il quartiere.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.\n\nAl final, Sofia scrive una nota: “Possiamo dividere i compiti.”."
+      "text": "Sofia è a Bologna. Oggi impara a proponer y colaborar. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Possiamo dividere i compiti.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: progetto, compito, idea e gruppo.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.\n\nAlla fine, Sofia scrive: “Possiamo dividere i compiti.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
     },
     "transcript": "",
     "extra": null,
@@ -38195,34 +41543,34 @@
       {
         "id": "italian-a2-un-progetto-di-classe-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella lettura.\n\n“e spiega perché questa experiência è _____ per il quartiere.”",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“Durante la conversazione imparano _____ utili: progetto, compito, idea e gruppo.”",
         "options": [
-          "ascoltando",
-          "colaborar",
-          "importante",
-          "propuesta"
+          "gruppo",
+          "scuola",
+          "parole",
+          "strada"
         ]
       },
       {
         "id": "italian-a2-un-progetto-di-classe-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“La conversazione mostra che la cultura si impara ascoltando e _____.”",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“Usano le parole nuove in piccole situazioni: al bar, a scuola o per _____.”",
         "options": [
-          "experiência",
-          "conversazione",
-          "importante",
-          "partecipando"
+          "parole",
+          "gruppo",
+          "scuola",
+          "strada"
         ]
       },
       {
         "id": "italian-a2-un-progetto-di-classe-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“Al final, Sofia scrive una nota: “_____ dividere i compiti.”.”",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“È _____ perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco.”",
         "options": [
+          "contenta",
           "Possiamo",
           "dividere",
-          "Bologna",
-          "colaborar"
+          "imparano"
         ]
       }
     ]
@@ -38306,9 +41654,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Futuro anteriore e supposizioni",
-        "definition": "Práctica guiada de Futuro anteriore e supposizioni.",
+        "definition": "Connettori, opinioni e ipotesi aiutano a costruire un argomento.",
         "structure": "opinione + perché/tuttavia/quindi + motivazione",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Esprimere e giustificare un punto di vista.",
         "examples": [
           "Penso che la proposta sia utile.",
           "Tuttavia dobbiamo valutare i risultati."
@@ -38317,83 +41665,187 @@
       "grammarTest": {
         "questions": [
           {
+            "id": "q1",
             "type": "mcq",
             "prompt": "Completa: Penso che la proposta ___ utile.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "sia"
+              },
+              {
+                "id": "o2",
+                "text": "è"
+              },
+              {
+                "id": "o3",
+                "text": "essere"
+              },
+              {
+                "id": "o4",
+                "text": "sono"
+              }
             ]
           },
           {
+            "id": "q2",
             "type": "mcq",
             "prompt": "Scegli il connettore di contrasto.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Vorrei uscire, quindi piove."
+              },
+              {
+                "id": "o2",
+                "text": "Vorrei uscire, tuttavia piove."
+              },
+              {
+                "id": "o3",
+                "text": "Vorrei uscire, perché piove."
+              },
+              {
+                "id": "o4",
+                "text": "Vorrei uscire, infatti piove."
+              }
             ]
           },
           {
+            "id": "q3",
             "type": "mcq",
             "prompt": "Completa: Resto a casa perché ___ stanco.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "essere"
+              },
+              {
+                "id": "o2",
+                "text": "sia"
+              },
+              {
+                "id": "o3",
+                "text": "sono"
+              },
+              {
+                "id": "o4",
+                "text": "sarei"
+              }
             ]
           },
           {
+            "id": "q4",
             "type": "mcq",
             "prompt": "Quale frase esprime un’opinione?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Il progetto funziona perché?"
+              },
+              {
+                "id": "o2",
+                "text": "Il progetto ieri funziona?"
+              },
+              {
+                "id": "o3",
+                "text": "Funzionare progetto secondo me."
+              },
+              {
+                "id": "o4",
+                "text": "Secondo me, il progetto funziona."
+              }
             ]
           },
           {
+            "id": "q5",
             "type": "mcq",
             "prompt": "Completa: Sebbene ___ tardi, continuiamo.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "sia"
+              },
+              {
+                "id": "o2",
+                "text": "è"
+              },
+              {
+                "id": "o3",
+                "text": "essere"
+              },
+              {
+                "id": "o4",
+                "text": "sono"
+              }
             ]
           },
           {
+            "id": "q6",
             "type": "mcq",
             "prompt": "Scegli la conclusione logica.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Abbiamo poco tempo, tuttavia organizziamo il lavoro."
+              },
+              {
+                "id": "o2",
+                "text": "Abbiamo poco tempo, quindi organizziamo il lavoro."
+              },
+              {
+                "id": "o3",
+                "text": "Abbiamo poco tempo, perché organizziamo il lavoro."
+              },
+              {
+                "id": "o4",
+                "text": "Abbiamo poco tempo, se organizziamo il lavoro."
+              }
             ]
           },
           {
+            "id": "q7",
             "type": "mcq",
             "prompt": "Completa: Credo che loro ___ ragione.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "avere"
+              },
+              {
+                "id": "o2",
+                "text": "hanno"
+              },
+              {
+                "id": "o3",
+                "text": "abbiano"
+              },
+              {
+                "id": "o4",
+                "text": "avranno"
+              }
             ]
           },
           {
+            "id": "q8",
             "type": "mcq",
             "prompt": "Quale frase giustifica una scelta?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Scelgo il treno è più sostenibile perché?"
+              },
+              {
+                "id": "o2",
+                "text": "Scelgo il treno tuttavia è più sostenibile."
+              },
+              {
+                "id": "o3",
+                "text": "Scelgo il treno quindi è più sostenibile?"
+              },
+              {
+                "id": "o4",
+                "text": "Scelgo il treno perché è più sostenibile."
+              }
             ]
           }
         ]
@@ -38402,91 +41854,203 @@
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
         "prompt": "Completa: Penso che la proposta ___ utile.",
         "options": [
-          "sia",
-          "è",
-          "essere",
-          "sono"
+          {
+            "id": "o1",
+            "text": "sia"
+          },
+          {
+            "id": "o2",
+            "text": "è"
+          },
+          {
+            "id": "o3",
+            "text": "essere"
+          },
+          {
+            "id": "o4",
+            "text": "sono"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q2",
         "type": "mcq",
         "prompt": "Scegli il connettore di contrasto.",
         "options": [
-          "Vorrei uscire, quindi piove.",
-          "Vorrei uscire, tuttavia piove.",
-          "Vorrei uscire, perché piove.",
-          "Vorrei uscire, infatti piove."
+          {
+            "id": "o1",
+            "text": "Vorrei uscire, quindi piove."
+          },
+          {
+            "id": "o2",
+            "text": "Vorrei uscire, tuttavia piove."
+          },
+          {
+            "id": "o3",
+            "text": "Vorrei uscire, perché piove."
+          },
+          {
+            "id": "o4",
+            "text": "Vorrei uscire, infatti piove."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q3",
         "type": "mcq",
         "prompt": "Completa: Resto a casa perché ___ stanco.",
         "options": [
-          "essere",
-          "sia",
-          "sono",
-          "sarei"
+          {
+            "id": "o1",
+            "text": "essere"
+          },
+          {
+            "id": "o2",
+            "text": "sia"
+          },
+          {
+            "id": "o3",
+            "text": "sono"
+          },
+          {
+            "id": "o4",
+            "text": "sarei"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q4",
         "type": "mcq",
         "prompt": "Quale frase esprime un’opinione?",
         "options": [
-          "Il progetto funziona perché?",
-          "Il progetto ieri funziona?",
-          "Funzionare progetto secondo me.",
-          "Secondo me, il progetto funziona."
+          {
+            "id": "o1",
+            "text": "Il progetto funziona perché?"
+          },
+          {
+            "id": "o2",
+            "text": "Il progetto ieri funziona?"
+          },
+          {
+            "id": "o3",
+            "text": "Funzionare progetto secondo me."
+          },
+          {
+            "id": "o4",
+            "text": "Secondo me, il progetto funziona."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q5",
         "type": "mcq",
         "prompt": "Completa: Sebbene ___ tardi, continuiamo.",
         "options": [
-          "sia",
-          "è",
-          "essere",
-          "sono"
+          {
+            "id": "o1",
+            "text": "sia"
+          },
+          {
+            "id": "o2",
+            "text": "è"
+          },
+          {
+            "id": "o3",
+            "text": "essere"
+          },
+          {
+            "id": "o4",
+            "text": "sono"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q6",
         "type": "mcq",
         "prompt": "Scegli la conclusione logica.",
         "options": [
-          "Abbiamo poco tempo, tuttavia organizziamo il lavoro.",
-          "Abbiamo poco tempo, quindi organizziamo il lavoro.",
-          "Abbiamo poco tempo, perché organizziamo il lavoro.",
-          "Abbiamo poco tempo, se organizziamo il lavoro."
+          {
+            "id": "o1",
+            "text": "Abbiamo poco tempo, tuttavia organizziamo il lavoro."
+          },
+          {
+            "id": "o2",
+            "text": "Abbiamo poco tempo, quindi organizziamo il lavoro."
+          },
+          {
+            "id": "o3",
+            "text": "Abbiamo poco tempo, perché organizziamo il lavoro."
+          },
+          {
+            "id": "o4",
+            "text": "Abbiamo poco tempo, se organizziamo il lavoro."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q7",
         "type": "mcq",
         "prompt": "Completa: Credo che loro ___ ragione.",
         "options": [
-          "avere",
-          "hanno",
-          "abbiano",
-          "avranno"
+          {
+            "id": "o1",
+            "text": "avere"
+          },
+          {
+            "id": "o2",
+            "text": "hanno"
+          },
+          {
+            "id": "o3",
+            "text": "abbiano"
+          },
+          {
+            "id": "o4",
+            "text": "avranno"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q8",
         "type": "mcq",
         "prompt": "Quale frase giustifica una scelta?",
         "options": [
-          "Scelgo il treno è più sostenibile perché?",
-          "Scelgo il treno tuttavia è più sostenibile.",
-          "Scelgo il treno quindi è più sostenibile?",
-          "Scelgo il treno perché è più sostenibile."
+          {
+            "id": "o1",
+            "text": "Scelgo il treno è più sostenibile perché?"
+          },
+          {
+            "id": "o2",
+            "text": "Scelgo il treno tuttavia è più sostenibile."
+          },
+          {
+            "id": "o3",
+            "text": "Scelgo il treno quindi è più sostenibile?"
+          },
+          {
+            "id": "o4",
+            "text": "Scelgo il treno perché è più sostenibile."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       }
     ]
@@ -40102,121 +43666,277 @@
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "futuro",
-          "obiettivo",
-          "opportunità",
-          "decidere"
-        ]
+          {
+            "id": "o1",
+            "text": "futuro"
+          },
+          {
+            "id": "o2",
+            "text": "obiettivo"
+          },
+          {
+            "id": "o3",
+            "text": "opportunità"
+          },
+          {
+            "id": "o4",
+            "text": "decidere"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "futuro",
-          "obiettivo",
-          "opportunità",
-          "decidere"
-        ]
+          {
+            "id": "o1",
+            "text": "futuro"
+          },
+          {
+            "id": "o2",
+            "text": "obiettivo"
+          },
+          {
+            "id": "o3",
+            "text": "opportunità"
+          },
+          {
+            "id": "o4",
+            "text": "decidere"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "obiettivo",
-          "futuro",
-          "opportunità",
-          "decidere"
-        ]
+          {
+            "id": "o1",
+            "text": "obiettivo"
+          },
+          {
+            "id": "o2",
+            "text": "futuro"
+          },
+          {
+            "id": "o3",
+            "text": "opportunità"
+          },
+          {
+            "id": "o4",
+            "text": "decidere"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "opportunità",
-          "futuro",
-          "obiettivo",
-          "decidere"
-        ]
+          {
+            "id": "o1",
+            "text": "opportunità"
+          },
+          {
+            "id": "o2",
+            "text": "futuro"
+          },
+          {
+            "id": "o3",
+            "text": "obiettivo"
+          },
+          {
+            "id": "o4",
+            "text": "decidere"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "esperienza",
-          "futuro",
-          "obiettivo",
-          "opportunità"
-        ]
+          {
+            "id": "o1",
+            "text": "esperienza"
+          },
+          {
+            "id": "o2",
+            "text": "futuro"
+          },
+          {
+            "id": "o3",
+            "text": "obiettivo"
+          },
+          {
+            "id": "o4",
+            "text": "opportunità"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "futuro",
-          "formazione",
-          "obiettivo",
-          "opportunità"
-        ]
+          {
+            "id": "o1",
+            "text": "futuro"
+          },
+          {
+            "id": "o2",
+            "text": "formazione"
+          },
+          {
+            "id": "o3",
+            "text": "obiettivo"
+          },
+          {
+            "id": "o4",
+            "text": "opportunità"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "obiettivo",
-          "futuro",
-          "percorso",
-          "opportunità"
-        ]
+          {
+            "id": "o1",
+            "text": "obiettivo"
+          },
+          {
+            "id": "o2",
+            "text": "futuro"
+          },
+          {
+            "id": "o3",
+            "text": "percorso"
+          },
+          {
+            "id": "o4",
+            "text": "opportunità"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "opportunità",
-          "futuro",
-          "obiettivo",
-          "sperare"
-        ]
+          {
+            "id": "o1",
+            "text": "opportunità"
+          },
+          {
+            "id": "o2",
+            "text": "futuro"
+          },
+          {
+            "id": "o3",
+            "text": "obiettivo"
+          },
+          {
+            "id": "o4",
+            "text": "sperare"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "scelta",
-          "futuro",
-          "obiettivo",
-          "opportunità"
-        ]
+          {
+            "id": "o1",
+            "text": "scelta"
+          },
+          {
+            "id": "o2",
+            "text": "futuro"
+          },
+          {
+            "id": "o3",
+            "text": "obiettivo"
+          },
+          {
+            "id": "o4",
+            "text": "opportunità"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "futuro",
-          "raggiungere",
-          "obiettivo",
-          "opportunità"
-        ]
+          {
+            "id": "o1",
+            "text": "futuro"
+          },
+          {
+            "id": "o2",
+            "text": "raggiungere"
+          },
+          {
+            "id": "o3",
+            "text": "obiettivo"
+          },
+          {
+            "id": "o4",
+            "text": "opportunità"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "obiettivo",
-          "futuro",
-          "oggi",
-          "opportunità"
-        ]
+          {
+            "id": "o1",
+            "text": "obiettivo"
+          },
+          {
+            "id": "o2",
+            "text": "futuro"
+          },
+          {
+            "id": "o3",
+            "text": "oggi"
+          },
+          {
+            "id": "o4",
+            "text": "opportunità"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "opportunità",
-          "futuro",
-          "obiettivo",
-          "insieme"
-        ]
+          {
+            "id": "o1",
+            "text": "opportunità"
+          },
+          {
+            "id": "o2",
+            "text": "futuro"
+          },
+          {
+            "id": "o3",
+            "text": "obiettivo"
+          },
+          {
+            "id": "o4",
+            "text": "insieme"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },
@@ -42203,9 +45923,9 @@
     "reading": {
       "title": "Sapori d'Italia",
       "parts": [
-        "Sofia è em Bologna. Hoje descobre sabores regionales sin estereotipos. Encontra Marco e diz: “Mi piace questa zuppa.”. Os dois falam com respeito e aprendem quatro palavras novas: pane, zuppa, formaggio e gusto.",
-        "Marco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.",
-        "Al final, Sofia scrive una nota: “Mi piace questa zuppa.”."
+        "Sofia è a Bologna. Oggi impara a expresar preferencias. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Mi piace questa zuppa.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: pane, zuppa, formaggio e gusto.",
+        "Marco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.",
+        "Alla fine, Sofia scrive: “Mi piace questa zuppa.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
       ],
       "questions": [
         "Dove è Sofia?",
@@ -42213,7 +45933,7 @@
         "Quale frase usa Sofia?",
         "Perché l’esperienza è importante?"
       ],
-      "text": "Sofia è em Bologna. Hoje descobre sabores regionales sin estereotipos. Encontra Marco e diz: “Mi piace questa zuppa.”. Os dois falam com respeito e aprendem quatro palavras novas: pane, zuppa, formaggio e gusto.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.\n\nAl final, Sofia scrive una nota: “Mi piace questa zuppa.”."
+      "text": "Sofia è a Bologna. Oggi impara a expresar preferencias. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Mi piace questa zuppa.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: pane, zuppa, formaggio e gusto.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.\n\nAlla fine, Sofia scrive: “Mi piace questa zuppa.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
     },
     "transcript": "",
     "extra": null,
@@ -42244,20 +45964,20 @@
         "prompt": "Scegli la parola mancante nella lettura.\n\n“Marco fa una domanda semplice e _____ risponde con una frase breve.”",
         "options": [
           "Marco",
-          "piace",
+          "frase",
           "Sofia",
-          "zuppa"
+          "breve"
         ]
       },
       {
         "id": "italian-a1-sapori-d-italia-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“Al final, Sofia _____ una nota: “Mi piace questa zuppa.”.”",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo _____ con Marco.”",
         "options": [
+          "perché",
           "Sofia",
           "Bologna",
-          "Marco",
-          "scrive"
+          "domani"
         ]
       }
     ]
@@ -42283,9 +46003,9 @@
     "reading": {
       "title": "Ambiente e città",
       "parts": [
-        "Sofia vive em Bologna e parla con Marco sobre reciclaje y movilidad cotidiana. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “Vorrei usare meno plastica.” e spiega perché questa experiência è importante per il quartiere.",
-        "Marco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.",
-        "Al final, Sofia scrive una nota: “Vorrei usare meno plastica.”."
+        "Sofia è a Bologna. Oggi impara a hablar de hábitos. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Vorrei usare meno plastica.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: rifiuti, plastica, riciclare e ambiente.",
+        "Marco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.",
+        "Alla fine, Sofia scrive: “Vorrei usare meno plastica.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
       ],
       "questions": [
         "Dove è Sofia?",
@@ -42293,7 +46013,7 @@
         "Quale frase usa Sofia?",
         "Perché l’esperienza è importante?"
       ],
-      "text": "Sofia vive em Bologna e parla con Marco sobre reciclaje y movilidad cotidiana. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “Vorrei usare meno plastica.” e spiega perché questa experiência è importante per il quartiere.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.\n\nAl final, Sofia scrive una nota: “Vorrei usare meno plastica.”."
+      "text": "Sofia è a Bologna. Oggi impara a hablar de hábitos. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Vorrei usare meno plastica.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: rifiuti, plastica, riciclare e ambiente.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.\n\nAlla fine, Sofia scrive: “Vorrei usare meno plastica.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
     },
     "transcript": "",
     "extra": null,
@@ -42321,34 +46041,34 @@
       {
         "id": "italian-a2-ambiente-e-citta-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella lettura.\n\n“e spiega perché questa experiência è _____ per il quartiere.”",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“Durante la conversazione imparano _____ utili: rifiuti, plastica, riciclare e ambiente.”",
         "options": [
-          "ascoltando",
-          "reciclaje",
-          "importante",
-          "movilidad"
+          "Vorrei",
+          "scuola",
+          "parole",
+          "strada"
         ]
       },
       {
         "id": "italian-a2-ambiente-e-citta-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“La conversazione mostra che la cultura si impara ascoltando e _____.”",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“Usano le parole nuove in piccole situazioni: al bar, a scuola o per _____.”",
         "options": [
-          "experiência",
-          "conversazione",
-          "importante",
-          "partecipando"
+          "Vorrei",
+          "parole",
+          "scuola",
+          "strada"
         ]
       },
       {
         "id": "italian-a2-ambiente-e-citta-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“Al final, Sofia scrive una nota: “Vorrei usare meno _____.”.”",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“È _____ perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco.”",
         "options": [
+          "contenta",
           "plastica",
-          "Bologna",
-          "reciclaje",
-          "movilidad"
+          "imparano",
+          "ambiente"
         ]
       }
     ]
@@ -42432,9 +46152,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Relativi e comunicazione",
-        "definition": "Práctica guiada de Relativi e comunicazione.",
+        "definition": "Connettori, opinioni e ipotesi aiutano a costruire un argomento.",
         "structure": "opinione + perché/tuttavia/quindi + motivazione",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Esprimere e giustificare un punto di vista.",
         "examples": [
           "Penso che la proposta sia utile.",
           "Tuttavia dobbiamo valutare i risultati."
@@ -42443,83 +46163,187 @@
       "grammarTest": {
         "questions": [
           {
+            "id": "q1",
             "type": "mcq",
             "prompt": "Completa: Penso che la proposta ___ utile.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "sia"
+              },
+              {
+                "id": "o2",
+                "text": "è"
+              },
+              {
+                "id": "o3",
+                "text": "essere"
+              },
+              {
+                "id": "o4",
+                "text": "sono"
+              }
             ]
           },
           {
+            "id": "q2",
             "type": "mcq",
             "prompt": "Scegli il connettore di contrasto.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Vorrei uscire, quindi piove."
+              },
+              {
+                "id": "o2",
+                "text": "Vorrei uscire, tuttavia piove."
+              },
+              {
+                "id": "o3",
+                "text": "Vorrei uscire, perché piove."
+              },
+              {
+                "id": "o4",
+                "text": "Vorrei uscire, infatti piove."
+              }
             ]
           },
           {
+            "id": "q3",
             "type": "mcq",
             "prompt": "Completa: Resto a casa perché ___ stanco.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "essere"
+              },
+              {
+                "id": "o2",
+                "text": "sia"
+              },
+              {
+                "id": "o3",
+                "text": "sono"
+              },
+              {
+                "id": "o4",
+                "text": "sarei"
+              }
             ]
           },
           {
+            "id": "q4",
             "type": "mcq",
             "prompt": "Quale frase esprime un’opinione?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Il progetto funziona perché?"
+              },
+              {
+                "id": "o2",
+                "text": "Il progetto ieri funziona?"
+              },
+              {
+                "id": "o3",
+                "text": "Funzionare progetto secondo me."
+              },
+              {
+                "id": "o4",
+                "text": "Secondo me, il progetto funziona."
+              }
             ]
           },
           {
+            "id": "q5",
             "type": "mcq",
             "prompt": "Completa: Sebbene ___ tardi, continuiamo.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "sia"
+              },
+              {
+                "id": "o2",
+                "text": "è"
+              },
+              {
+                "id": "o3",
+                "text": "essere"
+              },
+              {
+                "id": "o4",
+                "text": "sono"
+              }
             ]
           },
           {
+            "id": "q6",
             "type": "mcq",
             "prompt": "Scegli la conclusione logica.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Abbiamo poco tempo, tuttavia organizziamo il lavoro."
+              },
+              {
+                "id": "o2",
+                "text": "Abbiamo poco tempo, quindi organizziamo il lavoro."
+              },
+              {
+                "id": "o3",
+                "text": "Abbiamo poco tempo, perché organizziamo il lavoro."
+              },
+              {
+                "id": "o4",
+                "text": "Abbiamo poco tempo, se organizziamo il lavoro."
+              }
             ]
           },
           {
+            "id": "q7",
             "type": "mcq",
             "prompt": "Completa: Credo che loro ___ ragione.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "avere"
+              },
+              {
+                "id": "o2",
+                "text": "hanno"
+              },
+              {
+                "id": "o3",
+                "text": "abbiano"
+              },
+              {
+                "id": "o4",
+                "text": "avranno"
+              }
             ]
           },
           {
+            "id": "q8",
             "type": "mcq",
             "prompt": "Quale frase giustifica una scelta?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Scelgo il treno è più sostenibile perché?"
+              },
+              {
+                "id": "o2",
+                "text": "Scelgo il treno tuttavia è più sostenibile."
+              },
+              {
+                "id": "o3",
+                "text": "Scelgo il treno quindi è più sostenibile?"
+              },
+              {
+                "id": "o4",
+                "text": "Scelgo il treno perché è più sostenibile."
+              }
             ]
           }
         ]
@@ -42528,91 +46352,203 @@
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
         "prompt": "Completa: Penso che la proposta ___ utile.",
         "options": [
-          "sia",
-          "è",
-          "essere",
-          "sono"
+          {
+            "id": "o1",
+            "text": "sia"
+          },
+          {
+            "id": "o2",
+            "text": "è"
+          },
+          {
+            "id": "o3",
+            "text": "essere"
+          },
+          {
+            "id": "o4",
+            "text": "sono"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q2",
         "type": "mcq",
         "prompt": "Scegli il connettore di contrasto.",
         "options": [
-          "Vorrei uscire, quindi piove.",
-          "Vorrei uscire, tuttavia piove.",
-          "Vorrei uscire, perché piove.",
-          "Vorrei uscire, infatti piove."
+          {
+            "id": "o1",
+            "text": "Vorrei uscire, quindi piove."
+          },
+          {
+            "id": "o2",
+            "text": "Vorrei uscire, tuttavia piove."
+          },
+          {
+            "id": "o3",
+            "text": "Vorrei uscire, perché piove."
+          },
+          {
+            "id": "o4",
+            "text": "Vorrei uscire, infatti piove."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q3",
         "type": "mcq",
         "prompt": "Completa: Resto a casa perché ___ stanco.",
         "options": [
-          "essere",
-          "sia",
-          "sono",
-          "sarei"
+          {
+            "id": "o1",
+            "text": "essere"
+          },
+          {
+            "id": "o2",
+            "text": "sia"
+          },
+          {
+            "id": "o3",
+            "text": "sono"
+          },
+          {
+            "id": "o4",
+            "text": "sarei"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q4",
         "type": "mcq",
         "prompt": "Quale frase esprime un’opinione?",
         "options": [
-          "Il progetto funziona perché?",
-          "Il progetto ieri funziona?",
-          "Funzionare progetto secondo me.",
-          "Secondo me, il progetto funziona."
+          {
+            "id": "o1",
+            "text": "Il progetto funziona perché?"
+          },
+          {
+            "id": "o2",
+            "text": "Il progetto ieri funziona?"
+          },
+          {
+            "id": "o3",
+            "text": "Funzionare progetto secondo me."
+          },
+          {
+            "id": "o4",
+            "text": "Secondo me, il progetto funziona."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q5",
         "type": "mcq",
         "prompt": "Completa: Sebbene ___ tardi, continuiamo.",
         "options": [
-          "sia",
-          "è",
-          "essere",
-          "sono"
+          {
+            "id": "o1",
+            "text": "sia"
+          },
+          {
+            "id": "o2",
+            "text": "è"
+          },
+          {
+            "id": "o3",
+            "text": "essere"
+          },
+          {
+            "id": "o4",
+            "text": "sono"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q6",
         "type": "mcq",
         "prompt": "Scegli la conclusione logica.",
         "options": [
-          "Abbiamo poco tempo, tuttavia organizziamo il lavoro.",
-          "Abbiamo poco tempo, quindi organizziamo il lavoro.",
-          "Abbiamo poco tempo, perché organizziamo il lavoro.",
-          "Abbiamo poco tempo, se organizziamo il lavoro."
+          {
+            "id": "o1",
+            "text": "Abbiamo poco tempo, tuttavia organizziamo il lavoro."
+          },
+          {
+            "id": "o2",
+            "text": "Abbiamo poco tempo, quindi organizziamo il lavoro."
+          },
+          {
+            "id": "o3",
+            "text": "Abbiamo poco tempo, perché organizziamo il lavoro."
+          },
+          {
+            "id": "o4",
+            "text": "Abbiamo poco tempo, se organizziamo il lavoro."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q7",
         "type": "mcq",
         "prompt": "Completa: Credo che loro ___ ragione.",
         "options": [
-          "avere",
-          "hanno",
-          "abbiano",
-          "avranno"
+          {
+            "id": "o1",
+            "text": "avere"
+          },
+          {
+            "id": "o2",
+            "text": "hanno"
+          },
+          {
+            "id": "o3",
+            "text": "abbiano"
+          },
+          {
+            "id": "o4",
+            "text": "avranno"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q8",
         "type": "mcq",
         "prompt": "Quale frase giustifica una scelta?",
         "options": [
-          "Scelgo il treno è più sostenibile perché?",
-          "Scelgo il treno tuttavia è più sostenibile.",
-          "Scelgo il treno quindi è più sostenibile?",
-          "Scelgo il treno perché è più sostenibile."
+          {
+            "id": "o1",
+            "text": "Scelgo il treno è più sostenibile perché?"
+          },
+          {
+            "id": "o2",
+            "text": "Scelgo il treno tuttavia è più sostenibile."
+          },
+          {
+            "id": "o3",
+            "text": "Scelgo il treno quindi è più sostenibile?"
+          },
+          {
+            "id": "o4",
+            "text": "Scelgo il treno perché è più sostenibile."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       }
     ]
@@ -44228,121 +48164,277 @@
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "relazione",
-          "ascoltare",
-          "spiegare",
-          "messaggio"
-        ]
+          {
+            "id": "o1",
+            "text": "relazione"
+          },
+          {
+            "id": "o2",
+            "text": "ascoltare"
+          },
+          {
+            "id": "o3",
+            "text": "spiegare"
+          },
+          {
+            "id": "o4",
+            "text": "messaggio"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "relazione",
-          "ascoltare",
-          "spiegare",
-          "messaggio"
-        ]
+          {
+            "id": "o1",
+            "text": "relazione"
+          },
+          {
+            "id": "o2",
+            "text": "ascoltare"
+          },
+          {
+            "id": "o3",
+            "text": "spiegare"
+          },
+          {
+            "id": "o4",
+            "text": "messaggio"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "ascoltare",
-          "relazione",
-          "spiegare",
-          "messaggio"
-        ]
+          {
+            "id": "o1",
+            "text": "ascoltare"
+          },
+          {
+            "id": "o2",
+            "text": "relazione"
+          },
+          {
+            "id": "o3",
+            "text": "spiegare"
+          },
+          {
+            "id": "o4",
+            "text": "messaggio"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "spiegare",
-          "relazione",
-          "ascoltare",
-          "messaggio"
-        ]
+          {
+            "id": "o1",
+            "text": "spiegare"
+          },
+          {
+            "id": "o2",
+            "text": "relazione"
+          },
+          {
+            "id": "o3",
+            "text": "ascoltare"
+          },
+          {
+            "id": "o4",
+            "text": "messaggio"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "accordo",
-          "relazione",
-          "ascoltare",
-          "spiegare"
-        ]
+          {
+            "id": "o1",
+            "text": "accordo"
+          },
+          {
+            "id": "o2",
+            "text": "relazione"
+          },
+          {
+            "id": "o3",
+            "text": "ascoltare"
+          },
+          {
+            "id": "o4",
+            "text": "spiegare"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "relazione",
-          "fiducia",
-          "ascoltare",
-          "spiegare"
-        ]
+          {
+            "id": "o1",
+            "text": "relazione"
+          },
+          {
+            "id": "o2",
+            "text": "fiducia"
+          },
+          {
+            "id": "o3",
+            "text": "ascoltare"
+          },
+          {
+            "id": "o4",
+            "text": "spiegare"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "ascoltare",
-          "relazione",
-          "conversazione",
-          "spiegare"
-        ]
+          {
+            "id": "o1",
+            "text": "ascoltare"
+          },
+          {
+            "id": "o2",
+            "text": "relazione"
+          },
+          {
+            "id": "o3",
+            "text": "conversazione"
+          },
+          {
+            "id": "o4",
+            "text": "spiegare"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "spiegare",
-          "relazione",
-          "ascoltare",
-          "opinione"
-        ]
+          {
+            "id": "o1",
+            "text": "spiegare"
+          },
+          {
+            "id": "o2",
+            "text": "relazione"
+          },
+          {
+            "id": "o3",
+            "text": "ascoltare"
+          },
+          {
+            "id": "o4",
+            "text": "opinione"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "chiarire",
-          "relazione",
-          "ascoltare",
-          "spiegare"
-        ]
+          {
+            "id": "o1",
+            "text": "chiarire"
+          },
+          {
+            "id": "o2",
+            "text": "relazione"
+          },
+          {
+            "id": "o3",
+            "text": "ascoltare"
+          },
+          {
+            "id": "o4",
+            "text": "spiegare"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "relazione",
-          "rispettare",
-          "ascoltare",
-          "spiegare"
-        ]
+          {
+            "id": "o1",
+            "text": "relazione"
+          },
+          {
+            "id": "o2",
+            "text": "rispettare"
+          },
+          {
+            "id": "o3",
+            "text": "ascoltare"
+          },
+          {
+            "id": "o4",
+            "text": "spiegare"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "ascoltare",
-          "relazione",
-          "oggi",
-          "spiegare"
-        ]
+          {
+            "id": "o1",
+            "text": "ascoltare"
+          },
+          {
+            "id": "o2",
+            "text": "relazione"
+          },
+          {
+            "id": "o3",
+            "text": "oggi"
+          },
+          {
+            "id": "o4",
+            "text": "spiegare"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "spiegare",
-          "relazione",
-          "ascoltare",
-          "insieme"
-        ]
+          {
+            "id": "o1",
+            "text": "spiegare"
+          },
+          {
+            "id": "o2",
+            "text": "relazione"
+          },
+          {
+            "id": "o3",
+            "text": "ascoltare"
+          },
+          {
+            "id": "o4",
+            "text": "insieme"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },
@@ -46329,9 +50421,9 @@
     "reading": {
       "title": "Un messaggio a casa",
       "parts": [
-        "Sofia è em Bologna. Hoje descobre contar una experiencia sencilla. Encontra Marco e diz: “Oggi ho imparato molto.”. Os dois falam com respeito e aprendem quatro palavras novas: oggi, domani, casa e esperienza.",
-        "Marco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.",
-        "Al final, Sofia scrive una nota: “Oggi ho imparato molto.”."
+        "Sofia è a Bologna. Oggi impara a escribir un mensaje breve. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Oggi ho imparato molto.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: oggi, domani, casa e esperienza.",
+        "Marco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.",
+        "Alla fine, Sofia scrive: “Oggi ho imparato molto.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
       ],
       "questions": [
         "Dove è Sofia?",
@@ -46339,7 +50431,7 @@
         "Quale frase usa Sofia?",
         "Perché l’esperienza è importante?"
       ],
-      "text": "Sofia è em Bologna. Hoje descobre contar una experiencia sencilla. Encontra Marco e diz: “Oggi ho imparato molto.”. Os dois falam com respeito e aprendem quatro palavras novas: oggi, domani, casa e esperienza.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.\n\nAl final, Sofia scrive una nota: “Oggi ho imparato molto.”."
+      "text": "Sofia è a Bologna. Oggi impara a escribir un mensaje breve. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “Oggi ho imparato molto.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: oggi, domani, casa e esperienza.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.\n\nAlla fine, Sofia scrive: “Oggi ho imparato molto.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
     },
     "transcript": "",
     "extra": null,
@@ -46370,20 +50462,20 @@
         "prompt": "Scegli la parola mancante nella lettura.\n\n“Marco fa una domanda semplice e _____ risponde con una frase breve.”",
         "options": [
           "Marco",
-          "molto",
+          "frase",
           "Sofia",
-          "frase"
+          "breve"
         ]
       },
       {
         "id": "italian-a1-un-messaggio-a-casa-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“Al final, Sofia _____ una nota: “Oggi ho imparato molto.”.”",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo _____ con Marco.”",
         "options": [
+          "perché",
           "Sofia",
           "Bologna",
-          "Marco",
-          "scrive"
+          "domani"
         ]
       }
     ]
@@ -46409,9 +50501,9 @@
     "reading": {
       "title": "Raccontare il proprio viaggio",
       "parts": [
-        "Sofia vive em Bologna e parla con Marco sobre cerrar el nivel con una experiencia personal. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “È stato un viaggio importante.” e spiega perché questa experiência è importante per il quartiere.",
-        "Marco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.",
-        "Al final, Sofia scrive una nota: “È stato un viaggio importante.”."
+        "Sofia è a Bologna. Oggi impara a narrar una experiencia. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “È stato un viaggio importante.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: ricordo, incontro, cambiare e futuro.",
+        "Marco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.",
+        "Alla fine, Sofia scrive: “È stato un viaggio importante.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
       ],
       "questions": [
         "Dove è Sofia?",
@@ -46419,7 +50511,7 @@
         "Quale frase usa Sofia?",
         "Perché l’esperienza è importante?"
       ],
-      "text": "Sofia vive em Bologna e parla con Marco sobre cerrar el nivel con una experiencia personal. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “È stato un viaggio importante.” e spiega perché questa experiência è importante per il quartiere.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.\n\nAl final, Sofia scrive una nota: “È stato un viaggio importante.”."
+      "text": "Sofia è a Bologna. Oggi impara a narrar una experiencia. Incontra Marco vicino a un luogo conosciuto del quartiere. Sofia dice: “È stato un viaggio importante.”. Marco risponde con un sorriso e i due parlano lentamente. Ascoltano le persone, osservano il luogo e ripetono frasi semplici. Durante la conversazione imparano parole utili: ricordo, incontro, cambiare e futuro.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. Usano le parole nuove in piccole situazioni: al bar, a scuola o per strada. Così ogni espressione ha un significato chiaro e facile da ricordare.\n\nAlla fine, Sofia scrive: “È stato un viaggio importante.”. È contenta perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco."
     },
     "transcript": "",
     "extra": null,
@@ -46447,34 +50539,34 @@
       {
         "id": "italian-a2-raccontare-il-proprio-viaggio-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella lettura.\n\n“e spiega perché questa experiência è _____ per il quartiere.”",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“Durante la conversazione imparano _____ utili: ricordo, incontro, cambiare e futuro.”",
         "options": [
-          "ascoltando",
-          "experiencia",
-          "importante",
-          "experiência"
+          "futuro",
+          "scuola",
+          "parole",
+          "strada"
         ]
       },
       {
         "id": "italian-a2-raccontare-il-proprio-viaggio-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“La conversazione mostra che la cultura si impara ascoltando e _____.”",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“Usano le parole nuove in piccole situazioni: al bar, a scuola o per _____.”",
         "options": [
-          "experiencia",
-          "experiência",
-          "conversazione",
-          "partecipando"
+          "parole",
+          "futuro",
+          "scuola",
+          "strada"
         ]
       },
       {
         "id": "italian-a2-raccontare-il-proprio-viaggio-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“Al final, Sofia scrive una nota: “È stato un viaggio _____.”.”",
+        "prompt": "Secondo il testo, quale parola va nello spazio?\n\n“È _____ perché può partecipare alla conversazione e vuole fare pratica di nuovo domani con Marco.”",
         "options": [
-          "importante",
-          "ascoltando",
-          "experiencia",
-          "experiência"
+          "contenta",
+          "imparano",
+          "incontro",
+          "cambiare"
         ]
       }
     ]
@@ -46558,9 +50650,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Cittadinanza: congiuntivo e proposte",
-        "definition": "Práctica guiada de Cittadinanza: congiuntivo e proposte.",
+        "definition": "Connettori, opinioni e ipotesi aiutano a costruire un argomento.",
         "structure": "opinione + perché/tuttavia/quindi + motivazione",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Esprimere e giustificare un punto di vista.",
         "examples": [
           "Penso che la proposta sia utile.",
           "Tuttavia dobbiamo valutare i risultati."
@@ -46569,83 +50661,187 @@
       "grammarTest": {
         "questions": [
           {
+            "id": "q1",
             "type": "mcq",
             "prompt": "Completa: Penso che la proposta ___ utile.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "sia"
+              },
+              {
+                "id": "o2",
+                "text": "è"
+              },
+              {
+                "id": "o3",
+                "text": "essere"
+              },
+              {
+                "id": "o4",
+                "text": "sono"
+              }
             ]
           },
           {
+            "id": "q2",
             "type": "mcq",
             "prompt": "Scegli il connettore di contrasto.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Vorrei uscire, quindi piove."
+              },
+              {
+                "id": "o2",
+                "text": "Vorrei uscire, tuttavia piove."
+              },
+              {
+                "id": "o3",
+                "text": "Vorrei uscire, perché piove."
+              },
+              {
+                "id": "o4",
+                "text": "Vorrei uscire, infatti piove."
+              }
             ]
           },
           {
+            "id": "q3",
             "type": "mcq",
             "prompt": "Completa: Resto a casa perché ___ stanco.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "essere"
+              },
+              {
+                "id": "o2",
+                "text": "sia"
+              },
+              {
+                "id": "o3",
+                "text": "sono"
+              },
+              {
+                "id": "o4",
+                "text": "sarei"
+              }
             ]
           },
           {
+            "id": "q4",
             "type": "mcq",
             "prompt": "Quale frase esprime un’opinione?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Il progetto funziona perché?"
+              },
+              {
+                "id": "o2",
+                "text": "Il progetto ieri funziona?"
+              },
+              {
+                "id": "o3",
+                "text": "Funzionare progetto secondo me."
+              },
+              {
+                "id": "o4",
+                "text": "Secondo me, il progetto funziona."
+              }
             ]
           },
           {
+            "id": "q5",
             "type": "mcq",
             "prompt": "Completa: Sebbene ___ tardi, continuiamo.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "sia"
+              },
+              {
+                "id": "o2",
+                "text": "è"
+              },
+              {
+                "id": "o3",
+                "text": "essere"
+              },
+              {
+                "id": "o4",
+                "text": "sono"
+              }
             ]
           },
           {
+            "id": "q6",
             "type": "mcq",
             "prompt": "Scegli la conclusione logica.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Abbiamo poco tempo, tuttavia organizziamo il lavoro."
+              },
+              {
+                "id": "o2",
+                "text": "Abbiamo poco tempo, quindi organizziamo il lavoro."
+              },
+              {
+                "id": "o3",
+                "text": "Abbiamo poco tempo, perché organizziamo il lavoro."
+              },
+              {
+                "id": "o4",
+                "text": "Abbiamo poco tempo, se organizziamo il lavoro."
+              }
             ]
           },
           {
+            "id": "q7",
             "type": "mcq",
             "prompt": "Completa: Credo che loro ___ ragione.",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "avere"
+              },
+              {
+                "id": "o2",
+                "text": "hanno"
+              },
+              {
+                "id": "o3",
+                "text": "abbiano"
+              },
+              {
+                "id": "o4",
+                "text": "avranno"
+              }
             ]
           },
           {
+            "id": "q8",
             "type": "mcq",
             "prompt": "Quale frase giustifica una scelta?",
             "options": [
-              {},
-              {},
-              {},
-              {}
+              {
+                "id": "o1",
+                "text": "Scelgo il treno è più sostenibile perché?"
+              },
+              {
+                "id": "o2",
+                "text": "Scelgo il treno tuttavia è più sostenibile."
+              },
+              {
+                "id": "o3",
+                "text": "Scelgo il treno quindi è più sostenibile?"
+              },
+              {
+                "id": "o4",
+                "text": "Scelgo il treno perché è più sostenibile."
+              }
             ]
           }
         ]
@@ -46654,91 +50850,203 @@
     },
     "exercises": [
       {
+        "id": "q1",
         "type": "mcq",
         "prompt": "Completa: Penso che la proposta ___ utile.",
         "options": [
-          "sia",
-          "è",
-          "essere",
-          "sono"
+          {
+            "id": "o1",
+            "text": "sia"
+          },
+          {
+            "id": "o2",
+            "text": "è"
+          },
+          {
+            "id": "o3",
+            "text": "essere"
+          },
+          {
+            "id": "o4",
+            "text": "sono"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q2",
         "type": "mcq",
         "prompt": "Scegli il connettore di contrasto.",
         "options": [
-          "Vorrei uscire, quindi piove.",
-          "Vorrei uscire, tuttavia piove.",
-          "Vorrei uscire, perché piove.",
-          "Vorrei uscire, infatti piove."
+          {
+            "id": "o1",
+            "text": "Vorrei uscire, quindi piove."
+          },
+          {
+            "id": "o2",
+            "text": "Vorrei uscire, tuttavia piove."
+          },
+          {
+            "id": "o3",
+            "text": "Vorrei uscire, perché piove."
+          },
+          {
+            "id": "o4",
+            "text": "Vorrei uscire, infatti piove."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q3",
         "type": "mcq",
         "prompt": "Completa: Resto a casa perché ___ stanco.",
         "options": [
-          "essere",
-          "sia",
-          "sono",
-          "sarei"
+          {
+            "id": "o1",
+            "text": "essere"
+          },
+          {
+            "id": "o2",
+            "text": "sia"
+          },
+          {
+            "id": "o3",
+            "text": "sono"
+          },
+          {
+            "id": "o4",
+            "text": "sarei"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q4",
         "type": "mcq",
         "prompt": "Quale frase esprime un’opinione?",
         "options": [
-          "Il progetto funziona perché?",
-          "Il progetto ieri funziona?",
-          "Funzionare progetto secondo me.",
-          "Secondo me, il progetto funziona."
+          {
+            "id": "o1",
+            "text": "Il progetto funziona perché?"
+          },
+          {
+            "id": "o2",
+            "text": "Il progetto ieri funziona?"
+          },
+          {
+            "id": "o3",
+            "text": "Funzionare progetto secondo me."
+          },
+          {
+            "id": "o4",
+            "text": "Secondo me, il progetto funziona."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q5",
         "type": "mcq",
         "prompt": "Completa: Sebbene ___ tardi, continuiamo.",
         "options": [
-          "sia",
-          "è",
-          "essere",
-          "sono"
+          {
+            "id": "o1",
+            "text": "sia"
+          },
+          {
+            "id": "o2",
+            "text": "è"
+          },
+          {
+            "id": "o3",
+            "text": "essere"
+          },
+          {
+            "id": "o4",
+            "text": "sono"
+          }
         ],
+        "correctOptionId": "o1",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q6",
         "type": "mcq",
         "prompt": "Scegli la conclusione logica.",
         "options": [
-          "Abbiamo poco tempo, tuttavia organizziamo il lavoro.",
-          "Abbiamo poco tempo, quindi organizziamo il lavoro.",
-          "Abbiamo poco tempo, perché organizziamo il lavoro.",
-          "Abbiamo poco tempo, se organizziamo il lavoro."
+          {
+            "id": "o1",
+            "text": "Abbiamo poco tempo, tuttavia organizziamo il lavoro."
+          },
+          {
+            "id": "o2",
+            "text": "Abbiamo poco tempo, quindi organizziamo il lavoro."
+          },
+          {
+            "id": "o3",
+            "text": "Abbiamo poco tempo, perché organizziamo il lavoro."
+          },
+          {
+            "id": "o4",
+            "text": "Abbiamo poco tempo, se organizziamo il lavoro."
+          }
         ],
+        "correctOptionId": "o2",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q7",
         "type": "mcq",
         "prompt": "Completa: Credo che loro ___ ragione.",
         "options": [
-          "avere",
-          "hanno",
-          "abbiano",
-          "avranno"
+          {
+            "id": "o1",
+            "text": "avere"
+          },
+          {
+            "id": "o2",
+            "text": "hanno"
+          },
+          {
+            "id": "o3",
+            "text": "abbiano"
+          },
+          {
+            "id": "o4",
+            "text": "avranno"
+          }
         ],
+        "correctOptionId": "o3",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
+        "id": "q8",
         "type": "mcq",
         "prompt": "Quale frase giustifica una scelta?",
         "options": [
-          "Scelgo il treno è più sostenibile perché?",
-          "Scelgo il treno tuttavia è più sostenibile.",
-          "Scelgo il treno quindi è più sostenibile?",
-          "Scelgo il treno perché è più sostenibile."
+          {
+            "id": "o1",
+            "text": "Scelgo il treno è più sostenibile perché?"
+          },
+          {
+            "id": "o2",
+            "text": "Scelgo il treno tuttavia è più sostenibile."
+          },
+          {
+            "id": "o3",
+            "text": "Scelgo il treno quindi è più sostenibile?"
+          },
+          {
+            "id": "o4",
+            "text": "Scelgo il treno perché è più sostenibile."
+          }
         ],
+        "correctOptionId": "o4",
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       }
     ]
@@ -48354,121 +52662,277 @@
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "cittadinanza",
-          "partecipare",
-          "diritto",
-          "proposta"
-        ]
+          {
+            "id": "o1",
+            "text": "cittadinanza"
+          },
+          {
+            "id": "o2",
+            "text": "partecipare"
+          },
+          {
+            "id": "o3",
+            "text": "diritto"
+          },
+          {
+            "id": "o4",
+            "text": "proposta"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "cittadinanza",
-          "partecipare",
-          "diritto",
-          "proposta"
-        ]
+          {
+            "id": "o1",
+            "text": "cittadinanza"
+          },
+          {
+            "id": "o2",
+            "text": "partecipare"
+          },
+          {
+            "id": "o3",
+            "text": "diritto"
+          },
+          {
+            "id": "o4",
+            "text": "proposta"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "partecipare",
-          "cittadinanza",
-          "diritto",
-          "proposta"
-        ]
+          {
+            "id": "o1",
+            "text": "partecipare"
+          },
+          {
+            "id": "o2",
+            "text": "cittadinanza"
+          },
+          {
+            "id": "o3",
+            "text": "diritto"
+          },
+          {
+            "id": "o4",
+            "text": "proposta"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "diritto",
-          "cittadinanza",
-          "partecipare",
-          "proposta"
-        ]
+          {
+            "id": "o1",
+            "text": "diritto"
+          },
+          {
+            "id": "o2",
+            "text": "cittadinanza"
+          },
+          {
+            "id": "o3",
+            "text": "partecipare"
+          },
+          {
+            "id": "o4",
+            "text": "proposta"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "comunità",
-          "cittadinanza",
-          "partecipare",
-          "diritto"
-        ]
+          {
+            "id": "o1",
+            "text": "comunità"
+          },
+          {
+            "id": "o2",
+            "text": "cittadinanza"
+          },
+          {
+            "id": "o3",
+            "text": "partecipare"
+          },
+          {
+            "id": "o4",
+            "text": "diritto"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "cittadinanza",
-          "scegliere",
-          "partecipare",
-          "diritto"
-        ]
+          {
+            "id": "o1",
+            "text": "cittadinanza"
+          },
+          {
+            "id": "o2",
+            "text": "scegliere"
+          },
+          {
+            "id": "o3",
+            "text": "partecipare"
+          },
+          {
+            "id": "o4",
+            "text": "diritto"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "partecipare",
-          "cittadinanza",
-          "volontario",
-          "diritto"
-        ]
+          {
+            "id": "o1",
+            "text": "partecipare"
+          },
+          {
+            "id": "o2",
+            "text": "cittadinanza"
+          },
+          {
+            "id": "o3",
+            "text": "volontario"
+          },
+          {
+            "id": "o4",
+            "text": "diritto"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "diritto",
-          "cittadinanza",
-          "partecipare",
-          "iniziativa"
-        ]
+          {
+            "id": "o1",
+            "text": "diritto"
+          },
+          {
+            "id": "o2",
+            "text": "cittadinanza"
+          },
+          {
+            "id": "o3",
+            "text": "partecipare"
+          },
+          {
+            "id": "o4",
+            "text": "iniziativa"
+          }
+        ],
+        "correctOptionId": "o4"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "migliorare",
-          "cittadinanza",
-          "partecipare",
-          "diritto"
-        ]
+          {
+            "id": "o1",
+            "text": "migliorare"
+          },
+          {
+            "id": "o2",
+            "text": "cittadinanza"
+          },
+          {
+            "id": "o3",
+            "text": "partecipare"
+          },
+          {
+            "id": "o4",
+            "text": "diritto"
+          }
+        ],
+        "correctOptionId": "o1"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "cittadinanza",
-          "responsabilità",
-          "partecipare",
-          "diritto"
-        ]
+          {
+            "id": "o1",
+            "text": "cittadinanza"
+          },
+          {
+            "id": "o2",
+            "text": "responsabilità"
+          },
+          {
+            "id": "o3",
+            "text": "partecipare"
+          },
+          {
+            "id": "o4",
+            "text": "diritto"
+          }
+        ],
+        "correctOptionId": "o2"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "partecipare",
-          "cittadinanza",
-          "oggi",
-          "diritto"
-        ]
+          {
+            "id": "o1",
+            "text": "partecipare"
+          },
+          {
+            "id": "o2",
+            "text": "cittadinanza"
+          },
+          {
+            "id": "o3",
+            "text": "oggi"
+          },
+          {
+            "id": "o4",
+            "text": "diritto"
+          }
+        ],
+        "correctOptionId": "o3"
       },
       {
         "type": "mcq",
         "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "diritto",
-          "cittadinanza",
-          "partecipare",
-          "insieme"
-        ]
+          {
+            "id": "o1",
+            "text": "diritto"
+          },
+          {
+            "id": "o2",
+            "text": "cittadinanza"
+          },
+          {
+            "id": "o3",
+            "text": "partecipare"
+          },
+          {
+            "id": "o4",
+            "text": "insieme"
+          }
+        ],
+        "correctOptionId": "o4"
       }
     ]
   },

@@ -5840,6 +5840,11 @@ function getCurrentUnitActivityForSkill(skill) {
 }
 
 function openLearningRouteTab(skill) {
+  if (skill === 'verbs') {
+    learningPathState.skillEntryContext = 'route';
+    openUnitSequenceStep('verbs');
+    return;
+  }
   if (skill === 'learn') {
     learningPathState.skillEntryContext = 'route';
     updateLearnHash('learn');
@@ -9899,6 +9904,7 @@ const SKILL_LABELS = {
   writing: 'Writing',
   grammar: 'Grammar',
   vocabulary: 'Vocabulary',
+  verbs: 'Verbs',
   dialogue: 'Dialogues'
 };
 
@@ -9915,6 +9921,7 @@ const SKILL_LABELS_FRENCH = {
   writing: 'Expression écrite',
   grammar: 'Grammaire',
   vocabulary: 'Vocabulaire',
+  verbs: 'Verbes',
   dialogue: 'Dialogues'
 };
 
@@ -9926,6 +9933,7 @@ const SKILL_LABELS_ITALIAN = {
   writing: 'Espressione scritta',
   grammar: 'Grammatica',
   vocabulary: 'Vocabolario',
+  verbs: 'Verbi',
   dialogue: 'Dialoghi'
 };
 const SKILL_LABELS_PORTUGUESE = {
@@ -9936,6 +9944,7 @@ const SKILL_LABELS_PORTUGUESE = {
   writing: 'Expressão escrita',
   grammar: 'Gramática',
   vocabulary: 'Vocabulário',
+  verbs: 'Verbos',
   dialogue: 'Diálogos'
 };
 const SKILL_LABELS_GERMAN = {
@@ -9946,6 +9955,7 @@ const SKILL_LABELS_GERMAN = {
   writing: 'Schriftlicher Ausdruck',
   grammar: 'Grammatik',
   vocabulary: 'Wortschatz',
+  verbs: 'Verben',
   dialogue: 'Dialoge'
 };
 
@@ -9965,14 +9975,24 @@ function getSkillLabel(skill, language = learningPathState.language) {
 // language's course is open. Cheap full-DOM sweep, called on every
 // navigation (showView) and language switch (setTargetLanguage).
 function updateLevelTabLabels() {
+  const isRouteContext =
+    learningPathState.skillEntryContext === 'route' &&
+    Boolean(learningPathState.unitId) &&
+    learningPathState.lessons.length > 0;
+  const routeSkills = isRouteContext
+    ? [...getUnitActivities(learningPathState.unitId).map((lesson) => lesson.skill), 'verbs']
+    : [];
   document.querySelectorAll('.level-tab[data-tab]').forEach((link) => {
+    // The static first tab is the route overview outside a unit. Inside a
+    // unit it becomes the seventh route stage (Verbs), so the visible tabs
+    // and the mission-strip markers always describe the same journey.
+    if (link.dataset.routeTab === 'true' || link.dataset.tab === 'learn') {
+      link.dataset.routeTab = 'true';
+      link.dataset.tab = isRouteContext ? 'verbs' : 'learn';
+    }
     const targetSkill = link.dataset.tab;
     link.textContent = getSkillLabel(targetSkill);
-    if (
-      learningPathState.skillEntryContext === 'route' &&
-      learningPathState.unitId &&
-      learningPathState.lessons.length
-    ) {
+    if (isRouteContext) {
       const targetLesson =
         targetSkill === 'learn'
           ? getActiveLearningLesson()
@@ -9991,6 +10011,15 @@ function updateLevelTabLabels() {
       link.href = `#${targetSkill}`;
     }
   });
+  if (isRouteContext && routeSkills.length) {
+    document.querySelectorAll('.level-tabs').forEach((tabs) => {
+      const links = [...tabs.querySelectorAll('.level-tab[data-tab]')];
+      routeSkills.forEach((skill) => {
+        const link = links.find((item) => item.dataset.tab === skill);
+        if (link) tabs.append(link);
+      });
+    });
+  }
   document.querySelectorAll('.skill-competency-card[data-skill]').forEach((card) => {
     const heading = card.querySelector('h3');
     if (heading) heading.textContent = getSkillLabel(card.dataset.skill);
@@ -10413,6 +10442,16 @@ function renderSkillView(skill) {
     if (!selected && learningPathState.unitId) {
       selected = activities.find((item) => item.unitId === learningPathState.unitId);
       if (selected) setActiveLesson(selected.slug);
+    }
+    // The route may be entered directly through a shared/deep skill URL.
+    // At that point its unit is restored only after showView() has initially
+    // painted the tab strip. Refresh it here once the selected activity is
+    // known, so English (and every other routed course) always shows the
+    // same seven-step order as the mission progress: Reading, Listening,
+    // Speaking, Grammar, Vocabulary, Writing and Verbs.
+    if (learningPathState.unitId) {
+      learningPathState.skillEntryContext = 'route';
+      updateLevelTabLabels();
     }
     section.dataset.activeLessonSlug = selected?.slug || '';
 
@@ -15855,7 +15894,7 @@ function normalizeVocabularyItem(
   };
 }
 
-// Card backs show 1-3 "contexts" (an L2 example sentence + optional L1
+// Card backs show two "contexts" (an L2 example sentence + optional L1
 // gloss). Real content today only has a single flat `example` string per
 // word, so that's wrapped into a one-item array here - a future `contexts`
 // array on the raw item (richer authored data) is used as-is when present,
@@ -15872,20 +15911,20 @@ function normalizeVocabContexts(item) {
           : [];
   const normalized = authored
     .filter((ctx) => ctx && (typeof ctx === 'string' || ctx.targetText || ctx.text))
-    .slice(0, 3)
+    .slice(0, 2)
     .map((ctx) => ({
       targetText: typeof ctx === 'string' ? ctx : ctx.targetText || ctx.text || '',
       supportText: ctx.supportText || ctx.translation || ''
     }));
-  // Older lessons often supplied just one sentence. Keep it as the first
-  // authentic example and add two short, practical variations instead of
-  // leaving most of the vocabulary card unused.
+  // Keep authored examples as the source of truth, then complete the card
+  // with a distinct real-life context. A vocabulary card should always give
+  // the learner two chances to see the word in use, never recycled filler.
   const seed = normalized[0]?.targetText || item.example || '';
   const word = item.targetWord || item.word || '';
   const language = item.language || learningPathState.language;
   const fallbacks = getVocabularyExampleFallbacks(word, seed, language);
   for (const text of fallbacks) {
-    if (normalized.length >= 3) break;
+    if (normalized.length >= 2) break;
     if (
       text &&
       !normalized.some((ctx) => ctx.targetText.toLocaleLowerCase() === text.toLocaleLowerCase())
@@ -15893,13 +15932,12 @@ function normalizeVocabContexts(item) {
       normalized.push({ targetText: text, supportText: '' });
     }
   }
-  return normalized.slice(0, 3);
+  return normalized.slice(0, 2);
 }
 
 function getVocabularyExampleFallbacks(word, seed, language) {
   const cleanWord = String(word || '').trim();
-  const cleanSeed = String(seed || '').trim();
-  const frenchKey = cleanWord
+  const wordKey = cleanWord
     .toLocaleLowerCase('fr-FR')
     .normalize('NFD')
     .replace(/[\u0300-\u036f]/g, '')
@@ -15921,10 +15959,50 @@ function getVocabularyExampleFallbacks(word, seed, language) {
     'je voudrais': ['Je voudrais un billet pour Lyon, s’il vous plaît.', 'Je voudrais réserver une table pour deux personnes.'],
     'combien ca coute': ['Combien ça coûte pour un aller-retour ?', 'Combien ça coûte, cette baguette ?']
   };
-  if (language === 'french' && practicalFrenchContexts[frenchKey]) {
-    return practicalFrenchContexts[frenchKey];
-  }
-  return [];
+  const practicalEnglishContexts = {
+    hello: ['Hello! Can I help you with something?', 'Hello, are you new here?'],
+    'good morning': ['Good morning! Did you sleep well?', 'Good morning, the bus is here.'],
+    name: ['My name is Leo. What’s your name?', 'Please write your name at the top of the form.'],
+    teacher: ['Our teacher explains the new words clearly.', 'I ask the teacher a question after class.'],
+    friend: ['My friend and I study together after school.', 'I’m meeting a friend at the café this afternoon.'],
+    'nice to meet you': ['Nice to meet you, Sofia. I’m Daniel.', 'It was nice to meet you. See you tomorrow!']
+  };
+  const curatedContexts =
+    language === 'french'
+      ? practicalFrenchContexts[wordKey]
+      : language === 'english'
+        ? practicalEnglishContexts[wordKey]
+        : null;
+  if (curatedContexts) return curatedContexts;
+
+  const quotedWord = `“${cleanWord}”`;
+  const contextualTemplates = {
+    english: [
+      `In class, I see ${quotedWord} in today’s activity.`,
+      `During a short conversation, I hear ${quotedWord} again.`
+    ],
+    french: [
+      `En classe, je vois ${quotedWord} dans l’activité du jour.`,
+      `Dans une courte conversation, j’entends encore ${quotedWord}.`
+    ],
+    spanish: [
+      `En clase, veo ${quotedWord} en la actividad de hoy.`,
+      `En una conversación breve, vuelvo a escuchar ${quotedWord}.`
+    ],
+    italian: [
+      `In classe, vedo ${quotedWord} nell’attività di oggi.`,
+      `In una breve conversazione, sento di nuovo ${quotedWord}.`
+    ],
+    portuguese: [
+      `Na aula, vejo ${quotedWord} na atividade de hoje.`,
+      `Em uma conversa curta, ouço ${quotedWord} novamente.`
+    ],
+    german: [
+      `Im Unterricht sehe ich ${quotedWord} in der heutigen Aufgabe.`,
+      `In einem kurzen Gespräch höre ich ${quotedWord} noch einmal.`
+    ]
+  };
+  return contextualTemplates[language] || contextualTemplates.english;
 }
 
 const VOCABULARY_L2_UI = {
@@ -16201,7 +16279,14 @@ function renderVocabCardHtml(item, { canSpeak, isFrench, showL1Translation = fal
             }
           </div>
           <div class="vocab-card-word-block">
-            <p class="vocab-card-target ${getVocabTargetSizeClass(item.targetWord)}">${escapeHtml(item.targetWord)}</p>
+            <div class="vocab-card-target-row">
+              <p class="vocab-card-target ${getVocabTargetSizeClass(item.targetWord)}">${escapeHtml(item.targetWord)}</p>
+              ${
+                canSpeak
+                  ? `<button type="button" class="vocab-card-audio-btn vocab-card-word-audio-btn" aria-label="${escapeHtml(speakAriaLabel)}" title="${escapeHtml(speakTitle(isFrench))}"><span aria-hidden="true">🔊</span></button>`
+                  : ''
+              }
+            </div>
             ${frontSupportHtml}
             ${item.phonetic ? `<p class="vocab-card-phonetic">${escapeHtml(item.phonetic)}</p>` : ''}
             ${item.learningMode === 'direct' && (item.simpleDefinition || item.definition) ? `<p class="vocab-card-catalogue-definition">${escapeHtml(item.simpleDefinition || item.definition)}</p>` : ''}
@@ -20877,6 +20962,11 @@ const INFOGRAPHIC_SCENES = [
 // points are chosen from visible, meaningful details in each scene rather
 // than repeating a label simply to increase the score.
 const INFOGRAPHIC_EXTRA_PARTS = {
+  supermarket: [['Cheese', 25, 53], ['Juice', 61, 59]],
+  airport: [['Backpack', 32, 47], ['Ticket', 40, 39]],
+  sports: [['Tennis ball', 74, 94]],
+  'city-map': [['Bus', 26, 84]],
+  family: [['Sofa', 14, 70], ['Photo', 82, 14]],
   'body-front': [
     ['Ear', 60, 16],
     ['Neck', 50, 20],
@@ -21020,6 +21110,11 @@ function ensureInfographicExtras() {
       const localizedWords = INFOGRAPHIC_LOCALIZATION[language]?.words?.[sceneIndex];
       if (localizedWords)
         localizedWords.push(...(labelsByScene[sceneId] || parts.map(([label]) => label)));
+    });
+    Object.entries(INFOGRAPHIC_NEW_SCENE_LOCALIZATION).forEach(([language, scenes]) => {
+      const localizedWords = scenes[sceneId]?.words;
+      if (localizedWords)
+        localizedWords.push(...(INFOGRAPHIC_NEW_EXTRA_LABELS[language]?.[sceneId] || parts.map(([label]) => label)));
     });
   });
 }
@@ -21225,11 +21320,21 @@ const INFOGRAPHIC_LOCALIZATION = {
 const INFOGRAPHIC_NEW_SCENE_LOCALIZATION = {
   spanish: {
     supermarket: { title: 'En el supermercado', words: ['Comprador/a', 'Carrito', 'Fruta', 'Verduras', 'Pan', 'Leche', 'Estante', 'Caja'] },
-    airport: { title: 'En el aeropuerto', words: ['Viajero/a', 'Pasaporte', 'Tarjeta de embarque', 'Maleta', 'Avión', 'Mostrador de facturación', 'Panel de salidas', 'Asiento'] }
+    airport: { title: 'En el aeropuerto', words: ['Viajero/a', 'Pasaporte', 'Tarjeta de embarque', 'Maleta', 'Avión', 'Mostrador de facturación', 'Panel de salidas', 'Asiento'] },
+    sports: { title: 'Los deportes', words: ['Jogging', 'Fútbol', 'Baloncesto', 'Béisbol', 'Bate de béisbol', 'Fútbol americano', 'Casco de fútbol americano', 'Tenis', 'Canasta'] },
+    nutrition: { title: 'Alimentación saludable', words: ['Fruta', 'Verduras', 'Agua', 'Leche', 'Cereales integrales', 'Pescado', 'Hamburguesa', 'Refresco', 'Dulces', 'Dona'] },
+    'city-map': { title: 'Por la ciudad', words: ['Puente', 'Escuela', 'Hospital', 'Parque', 'Supermercado', 'Parada de autobús', 'Banco', 'Restaurante', 'Semáforo'] },
+    family: { title: 'La familia', words: ['Madre', 'Padre', 'Abuela', 'Abuelo', 'Hermano', 'Hermana', 'Bebé', 'Perro'] },
+    'people-and-feelings': { title: 'Profesiones, colores y emociones', words: ['Médico/a', 'Profesor/a', 'Chef', 'Bombero/a', 'Feliz', 'Triste', 'Sorprendido/a', 'Enfadado/a', 'Rojo', 'Azul', 'Amarillo', 'Verde', 'Naranja', 'Morado'] }
   },
   french: {
     supermarket: { title: 'Au supermarché', words: ['Client(e)', 'Caddie', 'Fruits', 'Légumes', 'Pain', 'Lait', 'Rayon', 'Caisse'] },
-    airport: { title: 'À l’aéroport', words: ['Voyageur / voyageuse', 'Passeport', 'Carte d’embarquement', 'Valise', 'Avion', 'Comptoir d’enregistrement', 'Tableau des départs', 'Siège'] }
+    airport: { title: 'À l’aéroport', words: ['Voyageur / voyageuse', 'Passeport', 'Carte d’embarquement', 'Valise', 'Avion', 'Comptoir d’enregistrement', 'Tableau des départs', 'Siège'] },
+    sports: { title: 'Les sports', words: ['Jogging', 'Football', 'Basket-ball', 'Baseball', 'Batte de baseball', 'Football américain', 'Casque de football', 'Tennis', 'Panier'] },
+    nutrition: { title: 'L’alimentation saine', words: ['Fruits', 'Légumes', 'Eau', 'Lait', 'Céréales complètes', 'Poisson', 'Hamburger', 'Soda', 'Bonbons', 'Beignet'] },
+    'city-map': { title: 'En ville', words: ['Pont', 'École', 'Hôpital', 'Parc', 'Supermarché', 'Arrêt de bus', 'Banque', 'Restaurant', 'Feu de circulation'] },
+    family: { title: 'La famille', words: ['Mère', 'Père', 'Grand-mère', 'Grand-père', 'Frère', 'Sœur', 'Bébé', 'Chien'] },
+    'people-and-feelings': { title: 'Métiers, couleurs et émotions', words: ['Médecin', 'Professeur/e', 'Chef', 'Pompier', 'Heureux/euse', 'Triste', 'Surpris/e', 'En colère', 'Rouge', 'Bleu', 'Jaune', 'Vert', 'Orange', 'Violet'] }
   },
   italian: {
     supermarket: { title: 'Al supermercato', words: ['Cliente', 'Carrello', 'Frutta', 'Verdure', 'Pane', 'Latte', 'Scaffale', 'Cassa'] },
@@ -21242,12 +21347,30 @@ const INFOGRAPHIC_NEW_SCENE_LOCALIZATION = {
   },
   portuguese: {
     supermarket: { title: 'No supermercado', words: ['Cliente', 'Carrinho', 'Frutas', 'Verduras', 'Pão', 'Leite', 'Prateleira', 'Caixa'] },
-    airport: { title: 'No aeroporto', words: ['Viajante', 'Passaporte', 'Cartão de embarque', 'Mala', 'Avião', 'Balcão de check-in', 'Painel de partidas', 'Assento'] }
+    airport: { title: 'No aeroporto', words: ['Viajante', 'Passaporte', 'Cartão de embarque', 'Mala', 'Avião', 'Balcão de check-in', 'Painel de partidas', 'Assento'] },
+    sports: { title: 'Os esportes', words: ['Corrida', 'Futebol', 'Basquete', 'Beisebol', 'Taco de beisebol', 'Futebol americano', 'Capacete de futebol', 'Tênis', 'Cesta'] },
+    nutrition: { title: 'Alimentação saudável', words: ['Frutas', 'Verduras', 'Água', 'Leite', 'Cereais integrais', 'Peixe', 'Hambúrguer', 'Refrigerante', 'Doces', 'Rosquinha'] },
+    'city-map': { title: 'Pela cidade', words: ['Ponte', 'Escola', 'Hospital', 'Parque', 'Supermercado', 'Ponto de ônibus', 'Banco', 'Restaurante', 'Semáforo'] },
+    family: { title: 'A família', words: ['Mãe', 'Pai', 'Avó', 'Avô', 'Irmão', 'Irmã', 'Bebê', 'Cachorro'] },
+    'people-and-feelings': { title: 'Profissões, cores e emoções', words: ['Médico/a', 'Professor/a', 'Chef', 'Bombeiro/a', 'Feliz', 'Triste', 'Surpreso/a', 'Zangado/a', 'Vermelho', 'Azul', 'Amarelo', 'Verde', 'Laranja', 'Roxo'] }
   },
   german: {
     supermarket: { title: 'Im Supermarkt', words: ['Kunde / Kundin', 'Einkaufswagen', 'Obst', 'Gemüse', 'Brot', 'Milch', 'Regal', 'Kasse'] },
-    airport: { title: 'Am Flughafen', words: ['Reisende/r', 'Reisepass', 'Bordkarte', 'Koffer', 'Flugzeug', 'Check-in-Schalter', 'Abflugtafel', 'Sitz'] }
+    airport: { title: 'Am Flughafen', words: ['Reisende/r', 'Reisepass', 'Bordkarte', 'Koffer', 'Flugzeug', 'Check-in-Schalter', 'Abflugtafel', 'Sitz'] },
+    sports: { title: 'Sportarten', words: ['Jogging', 'Fußball', 'Basketball', 'Baseball', 'Baseballschläger', 'American Football', 'Footballhelm', 'Tennis', 'Korb'] },
+    nutrition: { title: 'Gesunde Ernährung', words: ['Obst', 'Gemüse', 'Wasser', 'Milch', 'Vollkorngetreide', 'Fisch', 'Hamburger', 'Limonade', 'Süßigkeiten', 'Donut'] },
+    'city-map': { title: 'In der Stadt', words: ['Brücke', 'Schule', 'Krankenhaus', 'Park', 'Supermarkt', 'Bushaltestelle', 'Bank', 'Restaurant', 'Ampel'] },
+    family: { title: 'Die Familie', words: ['Mutter', 'Vater', 'Großmutter', 'Großvater', 'Bruder', 'Schwester', 'Baby', 'Hund'] },
+    'people-and-feelings': { title: 'Berufe, Farben und Gefühle', words: ['Arzt / Ärztin', 'Lehrer/in', 'Koch / Köchin', 'Feuerwehrmann/-frau', 'Fröhlich', 'Traurig', 'Überrascht', 'Wütend', 'Rot', 'Blau', 'Gelb', 'Grün', 'Orange', 'Lila'] }
   }
+};
+
+const INFOGRAPHIC_NEW_EXTRA_LABELS = {
+  spanish: { supermarket: ['Queso', 'Jugo'], airport: ['Mochila', 'Boleto'], sports: ['Pelota de tenis'], 'city-map': ['Autobús'], family: ['Sofá', 'Foto'] },
+  french: { supermarket: ['Fromage', 'Jus'], airport: ['Sac à dos', 'Billet'], sports: ['Balle de tennis'], 'city-map': ['Bus'], family: ['Canapé', 'Photo'] },
+  italian: { supermarket: ['Formaggio', 'Succo'], airport: ['Zaino', 'Biglietto'], sports: ['Pallina da tennis'], 'city-map': ['Autobus'], family: ['Divano', 'Foto'] },
+  portuguese: { supermarket: ['Queijo', 'Suco'], airport: ['Mochila', 'Bilhete'], sports: ['Bola de tênis'], 'city-map': ['Ônibus'], family: ['Sofá', 'Foto'] },
+  german: { supermarket: ['Käse', 'Saft'], airport: ['Rucksack', 'Ticket'], sports: ['Tennisball'], 'city-map': ['Bus'], family: ['Sofa', 'Foto'] }
 };
 
 const INFOGRAPHIC_DEFAULT_UI = [
@@ -21395,6 +21518,30 @@ function infographicSceneArtwork(scene) {
   return `<foreignObject class="info-realistic-art" x="0" y="0" width="400" height="400"><div xmlns="http://www.w3.org/1999/xhtml" style="width:100%;height:100%;background:url('/images/infographics/topics/${safeSceneId}.png?v=20260811-redesign') center / contain no-repeat;"></div></foreignObject>`;
 }
 
+function getInfographicSceneGroup(sceneId) {
+  if (['body-front', 'body-rear', 'face', 'family', 'people-and-feelings'].includes(sceneId)) return 'people';
+  if (['food', 'nutrition', 'supermarket'].includes(sceneId)) return 'daily';
+  if (['city-map', 'airport', 'car', 'bicycle'].includes(sceneId)) return 'places';
+  return 'world';
+}
+
+function getInfographicSceneGroupLabels(language) {
+  return {
+    english: { people: 'People & body', daily: 'Daily life', places: 'Places & transport', world: 'World around us' },
+    spanish: { people: 'Personas y cuerpo', daily: 'Vida diaria', places: 'Lugares y transporte', world: 'El mundo' },
+    french: { people: 'Personnes et corps', daily: 'Vie quotidienne', places: 'Lieux et transports', world: 'Le monde' },
+    italian: { people: 'Persone e corpo', daily: 'Vita quotidiana', places: 'Luoghi e trasporti', world: 'Il mondo' },
+    portuguese: { people: 'Pessoas e corpo', daily: 'Vida diária', places: 'Lugares e transportes', world: 'O mundo' },
+    german: { people: 'Menschen und Körper', daily: 'Alltag', places: 'Orte und Verkehr', world: 'Die Welt' }
+  }[language] || { people: 'People & body', daily: 'Daily life', places: 'Places & transport', world: 'World around us' };
+}
+
+function renderInfographicScenePicker(activeScene, language) {
+  const labels = getInfographicSceneGroupLabels(language);
+  const groups = ['people', 'daily', 'places', 'world'];
+  return `<details class="infographic-scene-picker"><summary><span>${activeScene.icon}</span><strong>${escapeHtml(activeScene.title)}</strong><small>${language === 'spanish' ? 'Cambiar tema' : language === 'italian' ? 'Cambia tema' : language === 'portuguese' ? 'Mudar tema' : language === 'french' ? 'Changer de thème' : language === 'german' ? 'Thema wechseln' : 'Change topic'}</small></summary><div class="infographic-scene-menu">${groups.map((group) => `<section><h4>${labels[group]}</h4><div>${INFOGRAPHIC_SCENES.filter((item) => getInfographicSceneGroup(item.id) === group).map((item) => { const localized = getLocalizedInfographicScene(item, language); return `<button type="button" class="infographic-scene-btn${item.id === activeScene.id ? ' is-active' : ''}" data-info-scene="${item.id}"><span>${item.icon}</span>${escapeHtml(localized.title)}</button>`; }).join('')}</div></section>`).join('')}</div></details>`;
+}
+
 function renderInfographicApp() {
   const app = document.getElementById('infographicApp');
   if (!app) return;
@@ -21457,10 +21604,7 @@ function renderInfographicApp() {
         </div>
       </div>
     </div>
-    <nav class="infographic-scene-tabs" aria-label="${ui[0]}">${INFOGRAPHIC_SCENES.map((item) => {
-      const localized = getLocalizedInfographicScene(item, language);
-      return `<button type="button" class="infographic-scene-btn${item.id === scene.id ? ' is-active' : ''}" data-info-scene="${item.id}"><span>${item.icon}</span>${localized.title}</button>`;
-    }).join('')}</nav>
+    ${renderInfographicScenePicker(scene, language)}
     <div class="infographic-workbench">
       <article class="infographic-canvas-card">
         <header><div><span>${ui[0]}</span><h3>${scene.title}</h3></div><strong>${score}%</strong></header>
@@ -23743,7 +23887,7 @@ document.addEventListener('click', (event) => {
   const tab = event.target.closest('.level-tab[data-tab]');
   if (!tab || tab.closest('[hidden]')) return;
   const skill = tab.dataset.tab;
-  if (skill !== 'learn' && !SKILL_VIEWS.includes(skill)) return;
+  if (skill !== 'learn' && skill !== 'verbs' && !SKILL_VIEWS.includes(skill)) return;
   event.preventDefault();
   openLearningRouteTab(skill);
 });

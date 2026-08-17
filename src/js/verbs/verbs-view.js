@@ -386,7 +386,8 @@
 
   // The catalogue is intentionally a scan-first list, not a collection of
   // flash cards. Each row leads with the L2 verb, then keeps its
-  // pronunciation/audio beside it and the L1 translation underneath, so
+  // translation and phonetic transcription together, then places the audio
+  // control at the end of that transcription, so
   // students can move through a long catalogue
   // without an action panel repeated one thousand times.
   function renderVerbTileHtml(item, raw, { canSpeak }) {
@@ -405,10 +406,9 @@
           <div class="verb-catalogue-identity">
             <div class="verb-catalogue-word">
               <strong>${escapeHtml(item.targetWord)}</strong>
-              ${audioButton}
             </div>
             <span>${escapeHtml(sourceVerb)}</span>
-            ${item.phonetic ? `<small>${escapeHtml(item.phonetic)}</small>` : ''}
+            ${item.phonetic ? `<small>${escapeHtml(item.phonetic)}</small>` : ''}${audioButton}
           </div>
         </div>
         <div class="verb-catalogue-examples" aria-label="Dos ejemplos prácticos de ${escapeHtml(item.targetWord)}">

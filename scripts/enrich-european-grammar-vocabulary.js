@@ -14,7 +14,15 @@ const grammar = {
   portuguese: { A1:['O presente descreve rotinas e informações simples.','sujeito + verbo no presente','Falar de pessoas, lugares e hábitos.',['Eu moro no bairro.','Rafael fala com Luana.']], A2:['O pretérito perfeito conta ações concluídas; conectores organizam a narrativa.','sujeito + verbo no passado + conector','Contar experiências e planos.',['Ontem visitei o museu.','Depois conversamos juntos.']], B1:['Conectores, opiniões e hipóteses ajudam a construir um argumento.','opinião + porque/porém/portanto + justificativa','Expressar e justificar um ponto de vista.',['Acho que a proposta é útil.','Porém, devemos avaliar os resultados.']] },
   german: { A1:['Das Präsens beschreibt einfache Gewohnheiten und Fakten.','Subjekt + Verb + Ergänzung','Über Personen, Orte und Alltag sprechen.',['Ich wohne im Viertel.','Leon spricht mit Anna.']], A2:['Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.','haben/sein + Partizip II','Erfahrungen und Pläne erzählen.',['Gestern habe ich das Museum besucht.','Danach haben wir zusammen gesprochen.']], B1:['Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.','Meinung + weil/obwohl/deshalb + Begründung','Eine Meinung ausdrücken und begründen.',['Ich finde den Vorschlag sinnvoll.','Trotzdem müssen wir die Ergebnisse prüfen.']] }
 };
-function options(correct, distractors, index) { const values=[correct,...distractors].slice(0,4); const answer=index%4; [values[0],values[answer]]=[values[answer],values[0]]; return {options:values,answer}; }
+function options(correct, distractors, index) {
+  const values=[correct,...distractors].slice(0,4);
+  const answer=index%4;
+  [values[0],values[answer]]=[values[answer],values[0]];
+  return {
+    options:values.map((text, optionIndex)=>({id:`o${optionIndex+1}`,text})),
+    correctOptionId:`o${answer+1}`
+  };
+}
 function grammarQuestions(language, level, definition) {
   const sets = {
     italian: {
@@ -116,7 +124,7 @@ function grammarQuestions(language, level, definition) {
   };
   const templates = sets[language]?.[level] || [];
   return templates.map(([prompt, correct, distractors], index) => ({
-    type: 'mcq', prompt, ...options(correct, distractors, index), explanation: definition
+    id:`q${index+1}`, type: 'mcq', prompt, ...options(correct, distractors, index), explanation: definition
   }));
 }
 for (const lesson of lessons) {
