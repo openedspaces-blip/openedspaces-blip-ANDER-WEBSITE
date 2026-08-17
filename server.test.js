@@ -3,8 +3,9 @@ const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const path = require('node:path');
 const vm = require('node:vm');
-const { createServer } = require('./lib/server');
+const { createServer, buildLanguageLessonTest } = require('./lib/server');
 const { getLocalLessons } = require('./lib/lessonsData');
+const testUnits = require('./lib/seed-units.json');
 const { levelContent, languageContent } = require('./lib/uiContent');
 const { isAnyProviderConfigured: isTutorConfigured } = require('./lib/aiTutorService');
 const { isPremiumActive, LIMIT_MESSAGE } = require('./lib/voiceAccessService');
@@ -3894,6 +3895,52 @@ test('lesson Tests vary verb challenges while preserving four answer choices in 
     }
   } finally {
     server.close();
+  }
+});
+
+test('every published Test has one keyed answer and unambiguous vocabulary choices', async () => {
+  const supportedLevels = {
+    english: LEVELS,
+    french: LEVELS,
+    spanish: LEVELS,
+    italian: ['A1', 'A2', 'B1'],
+    portuguese: ['A1', 'A2', 'B1'],
+    german: ['A1', 'A2', 'B1']
+  };
+  for (const [language, levels] of Object.entries(supportedLevels)) {
+    for (const level of levels) {
+      const units = testUnits.filter((unit) => unit.target_language === language && unit.level === level);
+      for (const unit of units) {
+          const questions = buildLanguageLessonTest(language, level, unit.slug);
+          assert.equal(questions.length, 15, `${language}/${level}/${unit.slug} has 15 questions`);
+          assert.deepEqual(
+            questions.map((question) => question.area),
+            [...Array(9).fill('Grammar'), ...Array(3).fill('Vocabulary'), ...Array(3).fill('Verbs')],
+            `${language}/${level}/${unit.slug} keeps the 9/3/3 assessment structure`
+          );
+          for (const question of questions) {
+            assert.equal(question.options.length, 4, `${language}/${level}/${unit.slug}/${question.id} has four choices`);
+            const normalized = question.options.map((option) => String(option).trim().toLocaleLowerCase());
+            assert.ok(normalized.every(Boolean), `${language}/${level}/${unit.slug}/${question.id} has no empty choice`);
+            assert.equal(
+              new Set(normalized).size,
+              4,
+              `${language}/${level}/${unit.slug}/${question.id} has no duplicate choice`
+            );
+            assert.ok(
+              Number.isInteger(question.answer) && question.answer >= 0 && question.answer < question.options.length,
+              `${language}/${level}/${unit.slug}/${question.id} has one keyed listed answer`
+            );
+            if (question.area === 'Vocabulary') {
+              assert.doesNotMatch(
+                question.prompt,
+                /_{3,}|_____/,
+                `${language}/${level}/${unit.slug}/${question.id} does not use an ambiguous sentence blank`
+              );
+            }
+          }
+      }
+    }
   }
 });
 

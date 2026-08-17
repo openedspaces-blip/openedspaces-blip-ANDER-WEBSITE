@@ -792,7 +792,11 @@ async function loadCurrentSubscription({
 // personal name is intentionally kept out of the signed-in UI; it is only
 // used when the learner explicitly shares a Test result.
 function getDisplayName() {
-  const username = authStatus.user?.username;
+  // The profile is the durable source of an ANDERGO handle.  A restored
+  // session or an OAuth token can legitimately omit user_metadata.username,
+  // so consult the profile value already loaded for the signed-in learner
+  // before falling back to the neutral account label.
+  const username = authStatus.user?.username || dashboardPreferences?.username;
   if (typeof username === 'string' && username.trim()) return username.trim();
   return '';
 }
@@ -2320,6 +2324,26 @@ function renderDashboard(data) {
   }
 
   dashboardPreferences = data.preferences;
+  // Keep the compact header identity in sync after a reload as well as after
+  // a fresh password login.  This matters especially for social sign-in,
+  // where the access token may not carry the claimed ANDERGO username.
+  const profileUsername = data.preferences?.username;
+  if (
+    typeof profileUsername === 'string' &&
+    profileUsername.trim() &&
+    authStatus.user?.username !== profileUsername
+  ) {
+    authStatus.user = { ...authStatus.user, username: profileUsername };
+    if (authStatus.session?.access_token) {
+      localStorage.setItem(
+        'andergoSession',
+        JSON.stringify({ user: authStatus.user, session: authStatus.session })
+      );
+    }
+  }
+  // The dashboard can arrive without an entitlement payload during a
+  // transient service response; the name still needs to update in that case.
+  renderAuthState();
   // Defense-in-depth for shouldShowUsernameOnboarding()'s race-condition
   // rule: if the dashboard's own preferences (also carrying username)
   // resolve while the onboarding modal happens to still be open, close it
@@ -16653,7 +16677,10 @@ function renderVocabCardHtml(item, { canSpeak, isFrench, showL1Translation = fal
   const catalogueExamplesHtml = item.contexts.length
     ? `<ol class="vocab-card-catalogue-examples" aria-label="Ejemplos prácticos">
         ${item.contexts
-          .slice(0, 3)
+          // Two practical examples preserve useful context without turning a
+          // compact word card into a tall reading panel. Each remains
+          // independently playable.
+          .slice(0, 2)
           .map(
             (ctx, index) => `
           <li>
@@ -17184,12 +17211,16 @@ function getUsefulVocabularyExpressions(lesson, cards) {
 }
 
 function renderUsefulVocabularyExpressionsHtml(lesson, cards) {
-  const usefulTitle = learningPathState.language === 'french' ? 'Expressions utiles' : 'Expresiones útiles';
+  const isFrench = learningPathState.language === 'french';
+  const usefulTitle = isFrench ? 'Phrases et expressions utiles' : 'Frases y expresiones útiles';
   const expressions = getUsefulVocabularyExpressions(lesson, cards);
+  const canSpeak = supportsSpeech();
+  const locale = getPronunciationLocale(learningPathState.language);
+  const rate = getDefaultPronunciationRate(learningPathState.language, lesson.level);
   return `
     <section class="vocab-useful-expressions no-print">
       <div class="vocab-useful-expressions-heading">
-        <span>CIERRE DE VOCABULARIO</span>
+        <span>${isFrench ? 'ÉTAPE 2 · EN CONTEXTE' : 'PASO 2 · EN CONTEXTO'}</span>
         <h4>${escapeHtml(usefulTitle)}</h4>
       </div>
       <div class="vocab-useful-expressions-panel">
@@ -17197,9 +17228,16 @@ function renderUsefulVocabularyExpressionsHtml(lesson, cards) {
           expressions.length
             ? `<ul>${expressions
                 .map(
-                  (item) => `<li>
-                    <strong>${escapeHtml(item.text)}</strong>
-                    ${item.explanation ? `<span>${escapeHtml(item.explanation)}</span>` : ''}
+                  (item, index) => `<li class="vocab-expression-card">
+                    <span class="vocab-expression-card-index">${index + 1}</span>
+                    <div>
+                      <p>${escapeHtml(item.text)}${
+                        canSpeak
+                          ? `<button type="button" class="vocab-card-catalogue-example-audio" data-speak-text="${escapeHtml(item.text)}" data-speak-locale="${escapeHtml(locale)}" data-speak-rate="${rate}" aria-label="${isFrench ? 'Écouter la phrase' : 'Escuchar frase'}" title="${isFrench ? 'Écouter la phrase' : 'Escuchar frase'}">🔊</button>`
+                          : ''
+                      }</p>
+                      ${item.explanation ? `<small>${escapeHtml(item.explanation)}</small>` : ''}
+                    </div>
                   </li>`
                 )
                 .join('')}</ul>`

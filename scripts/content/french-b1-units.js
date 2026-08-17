@@ -1477,7 +1477,7 @@ const units = [
         exercises: [
           { type: 'mcq', prompt: 'Je suis triste que tu ___ ça de moi.', options: ['penses', 'pense', 'pensais', 'penseras'], answer: 0 },
           { type: 'mcq', prompt: 'Ça me dérange que tu ___ toujours le plan.', options: ['changes', 'change', 'changeais', 'changeras'], answer: 0 },
-          { type: 'mcq', prompt: 'Je suis content(e) que nous ___ un compromis.', options: ['trouvons', 'trouvions', 'trouverons', 'trouvions'], answer: 1 },
+          { type: 'mcq', prompt: 'Je suis content(e) que nous ___ un compromis.', options: ['trouvons', 'trouvions', 'trouverons', 'trouviez'], answer: 1 },
           { type: 'mcq', prompt: 'Quelle expression introduit le subjonctif ?', options: ['Je sais que', 'Je suis content que', 'Je vois que', 'Je pense que'], answer: 1 }
         ]
       }),
