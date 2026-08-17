@@ -16744,25 +16744,20 @@ function renderVocabCardHtml(item, { canSpeak, isFrench, showL1Translation = fal
         <div class="vocab-card-face vocab-card-front">
           <span class="vocab-card-compact-icon" aria-hidden="true">${escapeHtml(compactIconText || '•')}</span>
           <span class="vocab-card-level-badge">${escapeHtml(item.level || learningPathState.level)}</span>
-          <div class="vocab-card-header">
-            <span class="vocab-card-side-label">${escapeHtml(cardUi.front)}</span>
-            ${
-              canSpeak
-                ? `<button type="button" class="vocab-card-audio-btn" aria-label="${escapeHtml(speakAriaLabel)}" title="${escapeHtml(speakTitle(isFrench))}"><span aria-hidden="true">🔊</span></button>`
-                : ''
-            }
-          </div>
           <div class="vocab-card-word-block">
             <div class="vocab-card-target-row">
               <p class="vocab-card-target ${getVocabTargetSizeClass(item.targetWord)}">${escapeHtml(item.targetWord)}</p>
-              ${
-                canSpeak
-                  ? `<button type="button" class="vocab-card-audio-btn vocab-card-word-audio-btn" aria-label="${escapeHtml(speakAriaLabel)}" title="${escapeHtml(speakTitle(isFrench))}"><span aria-hidden="true">🔊</span></button>`
-                  : ''
-              }
             </div>
             ${frontSupportHtml}
-            ${item.phonetic ? `<p class="vocab-card-phonetic">${escapeHtml(item.phonetic)}</p>` : ''}
+            ${
+              item.phonetic
+                ? `<div class="vocab-card-pronunciation"><p class="vocab-card-phonetic">${escapeHtml(item.phonetic)}</p>${
+                    canSpeak
+                      ? `<button type="button" class="vocab-card-audio-btn vocab-card-word-audio-btn" aria-label="${escapeHtml(speakAriaLabel)}" title="${escapeHtml(speakTitle(isFrench))}"><span aria-hidden="true">🔊</span></button>`
+                      : ''
+                  }</div>`
+                : ''
+            }
             ${item.learningMode === 'direct' && (item.simpleDefinition || item.definition) ? `<p class="vocab-card-catalogue-definition">${escapeHtml(item.simpleDefinition || item.definition)}</p>` : ''}
             ${catalogueExamplesHtml}
           </div>
