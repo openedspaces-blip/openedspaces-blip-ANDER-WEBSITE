@@ -21,6 +21,23 @@
     background: rgba(255,255,255,.94);
   }
 
+  /* Keep the full brand visible in the app header instead of reducing it to
+     the product name alone. The subtitle is deliberately compact so it fits
+     alongside the account and menu controls on narrow phones. */
+  .brand-heading {
+    display: flex;
+    align-items: baseline;
+    gap: .28rem;
+    white-space: nowrap;
+  }
+  .brand-academy-name {
+    display: inline;
+    color: #526682;
+    font-size: .7rem;
+    font-weight: 700;
+    letter-spacing: 0;
+  }
+
   .mobile-header-tabs > .nav-learn-cta {
     min-height: 42px;
     border-radius: 12px;
