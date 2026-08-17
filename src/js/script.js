@@ -3447,6 +3447,15 @@ async function createOAuthBrowserClient() {
 
 async function beginGoogleOAuth(button) {
   if (button?.disabled) return;
+  // Google OAuth is an alternative sign-in path, never an extension of the
+  // username/password form. Clear stale credentials and an earlier password
+  // error before handing control to Google so the modal cannot suggest that
+  // the two login methods are being combined.
+  const activeForm = document.querySelector('.auth-form.active');
+  activeForm?.querySelectorAll('input[type="text"], input[type="email"], input[type="password"]').forEach((input) => {
+    input.value = '';
+  });
+  setAuthMessage('Continuando con Google…');
   if (button) {
     button.disabled = true;
     button.setAttribute('aria-busy', 'true');
