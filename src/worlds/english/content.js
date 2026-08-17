@@ -873,8 +873,8 @@
         "options": [
           "Mr. Green",
           "Mr. Leo",
-          "Mr. Ana",
-          "Mr. Class"
+          "Miss Ana",
+          "The class"
         ]
       },
       {
