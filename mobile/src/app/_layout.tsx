@@ -21,6 +21,7 @@ export default function TabLayout() {
   <Stack.Screen name="tutor" />
   <Stack.Screen name="game" />
   <Stack.Screen name="account" />
+  <Stack.Screen name="library" />
         </Stack>
       </GameProvider></AuthProvider>
     </ThemeProvider>

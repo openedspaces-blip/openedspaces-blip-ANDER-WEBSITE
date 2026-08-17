@@ -1124,10 +1124,16 @@ a:focus-visible {
   background: rgba(239, 68, 68, 0.06);
 }
 
-.auth-google-btn {
+.auth-oauth-buttons {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.65rem;
+}
+
+.auth-oauth-btn {
   display: flex;
   width: 100%;
-  min-height: 48px;
+  min-height: 46px;
   align-items: center;
   justify-content: center;
   gap: 0.7rem;
@@ -1143,12 +1149,12 @@ a:focus-visible {
   box-shadow: 0 2px 7px rgba(15, 23, 42, 0.06);
 }
 
-.auth-google-btn:hover {
+.auth-oauth-btn:hover {
   border-color: #b9c6d8;
   background: #f8fafc;
 }
 
-.auth-google-btn:disabled {
+.auth-oauth-btn:disabled {
   cursor: wait;
   opacity: 0.7;
 }
@@ -1165,6 +1171,20 @@ a:focus-visible {
   font-size: 0.85rem;
   font-weight: 900;
   text-shadow: 0 1px 1px rgba(15, 23, 42, 0.24);
+}
+
+.auth-facebook-mark {
+  display: grid;
+  width: 22px;
+  height: 22px;
+  place-items: center;
+  border-radius: 50%;
+  background: #1877f2;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 1.15rem;
+  font-weight: 900;
+  line-height: 1;
 }
 
 .auth-divider {
@@ -1592,7 +1612,7 @@ a:focus-visible {
     min-height: 44px;
   }
 
-  #authModal .auth-google-btn {
+  #authModal .auth-oauth-btn {
     min-height: 46px;
     font-size: 0.93rem;
   }
@@ -24499,6 +24519,65 @@ body {
   box-shadow: 0 10px 28px rgba(37, 99, 235, 0.1);
 }
 
+/* Mobile learning is about completing the next action quickly. Keep the
+   learning cards compact without shrinking controls below a comfortable
+   touch target. */
+@media (max-width: 640px) {
+  .lesson-workspace,
+  .skill-view-content,
+  .listening-content,
+  .reading-reader-card,
+  .grammar-test-card,
+  .writing-practice-card,
+  .speaking-action-card,
+  .mcq-question,
+  .reading-comp-question,
+  .grammar-test-question-item {
+    border-radius: 16px;
+  }
+
+  .lesson-workspace,
+  .skill-view-content,
+  .listening-content,
+  .reading-reader-card,
+  .grammar-test-card {
+    padding: 0.85rem;
+  }
+
+  .grammar-test-card {
+    gap: 0.7rem;
+  }
+
+  .writing-practice-card,
+  .speaking-action-card,
+  .mcq-question,
+  .reading-comp-question,
+  .grammar-test-question-item {
+    padding: 0.75rem;
+  }
+
+  .grammar-test-result-actions {
+    gap: 0.5rem;
+  }
+
+  .grammar-test-result-actions .primary-btn,
+  .grammar-test-result-actions .secondary-btn {
+    min-height: 42px;
+    padding: 0.65rem 0.8rem;
+    font-size: 0.82rem;
+  }
+
+  .unit-completion-card {
+    width: min(100% - 1rem, 430px);
+    padding: 1rem;
+    border-radius: 20px;
+  }
+
+  .unit-completion-results {
+    gap: 0.4rem;
+  }
+}
+
 @media (max-width: 640px) {
   .evaluation-summary {
     grid-template-columns: 78px minmax(0, 1fr);
@@ -32639,7 +32718,78 @@ body.tutor-robot-listening #tutor .tutor-hero-bot {
   }
 }
 
-.andergo-difference-section { display: grid; grid-template-columns: minmax(0, 0.84fr) minmax(0, 1.16fr); gap: clamp(1.25rem, 3vw, 3.5rem); align-items: center; padding: clamp(1.4rem, 4vw, 4rem); border: 1px solid #dbeafe; border-radius: 28px; background: linear-gradient(135deg, #f8fbff 0%, #eef7ff 100%); }
+/* Grammar lesson flow: understand one compact lesson, observe six real
+   examples, then move into the interactive challenge. */
+.grammar-lesson-block {
+  display: grid;
+  gap: 1rem;
+  margin: 1rem 0;
+  padding: clamp(1rem, 2.4vw, 1.5rem);
+  border: 1px solid rgba(37, 99, 235, .16);
+  border-radius: 20px;
+  background: linear-gradient(145deg, #fff, #f5f9ff);
+  box-shadow: 0 12px 28px rgba(30, 64, 175, .07);
+}
+
+.grammar-lesson-block-heading,
+.grammar-practical-examples > div,
+.grammar-lesson-ready {
+  display: flex;
+  align-items: center;
+  gap: .65rem;
+}
+
+.grammar-lesson-block-heading > span {
+  display: grid;
+  width: 2.5rem;
+  height: 2.5rem;
+  flex: 0 0 2.5rem;
+  place-items: center;
+  border-radius: 12px;
+  background: #e8f0ff;
+  font-size: 1.15rem;
+}
+
+.grammar-lesson-block small,
+.grammar-practical-examples small {
+  display: block;
+  color: var(--blue);
+  font-size: .67rem;
+  font-weight: 850;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+}
+
+.grammar-lesson-block h4,
+.grammar-lesson-block p {
+  margin: 0;
+}
+
+.grammar-lesson-block h4 { color: var(--navy-2); font-size: 1.05rem; }
+.grammar-lesson-brief { display: grid; gap: .65rem; color: #42516b; line-height: 1.58; }
+.grammar-lesson-pattern { padding: .7rem .8rem; border-left: 3px solid var(--blue); border-radius: 0 10px 10px 0; background: #edf4ff; color: #1e3a6c; }
+
+.grammar-practical-examples {
+  padding-top: .9rem;
+  border-top: 1px solid #e1eaf8;
+}
+
+.grammar-practical-examples > div { justify-content: space-between; }
+.grammar-practical-examples ol { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .55rem; margin: .7rem 0 0; padding: 0; list-style: none; }
+.grammar-practical-examples li { display: grid; grid-template-columns: 1.45rem minmax(0, 1fr); gap: .45rem; align-items: start; padding: .62rem; border: 1px solid #dce8fa; border-radius: 12px; background: #fff; color: #34445e; font-size: .88rem; line-height: 1.4; }
+.grammar-practical-examples li > span { display: grid; width: 1.45rem; height: 1.45rem; place-items: center; border-radius: 50%; background: #eff6ff; font-size: .7rem; }
+.grammar-lesson-forms { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .55rem; }
+.grammar-lesson-forms p { padding: .65rem; border-radius: 11px; background: #f8fbff; color: #4a5c77; font-size: .78rem; line-height: 1.42; }
+.grammar-lesson-ready { flex-wrap: wrap; padding-top: .1rem; color: var(--blue); font-size: .76rem; font-weight: 800; }
+
+@media (max-width: 640px) {
+  .grammar-lesson-block { gap: .75rem; margin: .75rem 0; padding: .8rem; border-radius: 15px; }
+  .grammar-practical-examples ol,
+  .grammar-lesson-forms { grid-template-columns: 1fr; }
+  .grammar-practical-examples li { font-size: .82rem; }
+}
+
+ .andergo-difference-section { display: grid; grid-template-columns: minmax(0, 0.84fr) minmax(0, 1.16fr); gap: clamp(1.25rem, 3vw, 3.5rem); align-items: center; padding: clamp(1.4rem, 4vw, 4rem); border: 1px solid #dbeafe; border-radius: 28px; background: linear-gradient(135deg, #f8fbff 0%, #eef7ff 100%); }
 .andergo-difference-copy h2 { max-width: 16ch; margin: 0.35rem 0 0.85rem; color: #13254a; font-size: clamp(1.8rem, 3.2vw, 3rem); line-height: 1.04; }
 .andergo-difference-copy > p { max-width: 60ch; color: #526682; font-size: 1rem; line-height: 1.65; }
 .andergo-difference-benefits { display: grid; gap: 0.65rem; margin: 1.15rem 0 0; padding: 0; list-style: none; }

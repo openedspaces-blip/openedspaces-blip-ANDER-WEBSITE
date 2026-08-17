@@ -1,62 +1,48 @@
-import { useRef, useState } from 'react';
-import { ActivityIndicator, Linking, Pressable, StyleSheet, View } from 'react-native';
+import { router } from 'expo-router';
+import { Pressable, ScrollView, StyleSheet, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { WebView, WebViewNavigation } from 'react-native-webview';
 import { ThemedText } from '@/components/themed-text';
+import { useAuth } from '@/context/auth';
+import { TargetLanguage, useGame } from '@/context/game';
 
-const ANDERGO_URL = 'https://andergo.online/';
+const LANGUAGES: { id: TargetLanguage; label: string; flag: string }[] = [
+  { id: 'english', label: 'Inglés', flag: '🇺🇸' }, { id: 'french', label: 'Francés', flag: '🇫🇷' },
+  { id: 'spanish', label: 'Español', flag: '🇪🇸' }, { id: 'italian', label: 'Italiano', flag: '🇮🇹' },
+];
+const MODES = [
+  { mode: 'speed', icon: '⚡', title: 'Relámpago', copy: 'Cinco respuestas, sin presión.' },
+  { mode: 'match', icon: '🧩', title: 'Parejas', copy: 'Une frases y significados.' },
+  { mode: 'order', icon: '🔤', title: 'Ordena', copy: 'Arma una frase a tu ritmo.' },
+  { mode: 'listen', icon: '🎧', title: 'Escucha', copy: 'Entrena tu oído jugando.' },
+];
 
-function isAndergoPage(url: string) {
-  try {
-    const host = new URL(url).hostname.toLowerCase();
-    return host === 'andergo.online' || host.endsWith('.andergo.online');
-  } catch {
-    return false;
-  }
-}
-
-/** The website is the product surface and source of truth: no parallel course. */
 export default function HomeScreen() {
-  const webView = useRef<WebView>(null);
-  const [loading, setLoading] = useState(true);
-  const [failed, setFailed] = useState(false);
-
-  const openExternalPage = (request: WebViewNavigation) => {
-    if (isAndergoPage(request.url)) return true;
-    Linking.openURL(request.url).catch(() => {});
-    return false;
-  };
-
-  return (
-    <View style={styles.screen}>
-      <SafeAreaView edges={['top', 'bottom']} style={styles.webContainer}>
-        <WebView
-          ref={webView}
-          source={{ uri: ANDERGO_URL }}
-          style={styles.webview}
-          originWhitelist={['https://*', 'http://*']}
-          javaScriptEnabled
-          domStorageEnabled
-          sharedCookiesEnabled
-          thirdPartyCookiesEnabled
-          allowsBackForwardNavigationGestures
-          onShouldStartLoadWithRequest={openExternalPage}
-          onLoadStart={() => { setLoading(true); setFailed(false); }}
-          onLoadEnd={() => setLoading(false)}
-          onError={() => { setLoading(false); setFailed(true); }}
-        />
-      </SafeAreaView>
-
-      {loading && !failed ? <View style={styles.loading} pointerEvents="none"><ActivityIndicator color="#2563EB" size="large" /><ThemedText style={styles.loadingText}>Abriendo tu academia…</ThemedText></View> : null}
-      {failed ? <View style={styles.error}><ThemedText style={styles.errorTitle}>No pudimos abrir ANDERGO</ThemedText><ThemedText style={styles.errorText}>Revisa tu conexión y vuelve a intentarlo.</ThemedText><Pressable onPress={() => webView.current?.reload()} style={styles.retry}><ThemedText style={styles.retryText}>Reintentar</ThemedText></Pressable></View> : null}
-    </View>
-  );
+  const auth = useAuth(); const game = useGame();
+  const current = LANGUAGES.find((language) => language.id === game.targetLanguage) ?? LANGUAGES[0];
+  const firstName = auth.session?.displayName?.split(' ')[0];
+  const play = (mode = 'speed') => router.push(`/game?mode=${mode}&language=${game.targetLanguage}` as never);
+  return <SafeAreaView style={s.safe} edges={['top']}><ScrollView style={s.screen} contentContainerStyle={s.content} showsVerticalScrollIndicator={false}>
+    <View style={s.topbar}><View><ThemedText style={s.eyebrow}>ANDERGO PLAY</ThemedText><ThemedText style={s.greeting}>{firstName ? `¡Hola, ${firstName}!` : 'Juega con los idiomas'}</ThemedText></View><Pressable onPress={() => router.push('/account' as never)} style={s.profile}><ThemedText style={s.profileText}>{firstName?.slice(0, 1).toUpperCase() ?? '☺'}</ThemedText></Pressable></View>
+    {!auth.session ? <Pressable onPress={() => router.push('/account' as never)} style={s.profilePrompt}><View style={s.promptIcon}><ThemedText style={s.promptIconText}>✦</ThemedText></View><View style={s.promptCopy}><ThemedText style={s.promptTitle}>Crea tu perfil gratuito</ThemedText><ThemedText style={s.promptText}>Guarda puntos, premios y tu racha.</ThemedText></View><ThemedText style={s.arrow}>›</ThemedText></Pressable> : null}
+    <View style={s.stats}><Stat value={String(game.xp)} label="XP" accent="#2563EB" /><Stat value={String(game.coins)} label="MONEDAS" accent="#D97706" /><Stat value={`${game.streak} 🔥`} label="RACHA" accent="#E11D48" /><Stat value={`${game.hearts}/5`} label="VIDAS" accent="#DB2777" /></View>
+    <View style={s.hero}><View style={s.glowOne} /><View style={s.glowTwo} /><ThemedText style={s.heroTag}>RETO DE HOY · {current.flag} {current.label.toUpperCase()}</ThemedText><ThemedText style={s.heroTitle}>Cinco minutos{'\n'}para una victoria.</ThemedText><ThemedText style={s.heroCopy}>Suma puntos, prueba palabras y vuelve cuando quieras.</ThemedText><Pressable onPress={() => play()} style={s.playButton}><ThemedText style={s.playButtonText}>Jugar ahora  →</ThemedText></Pressable></View>
+    <View style={s.sectionHead}><ThemedText style={s.sectionTitle}>Elige un idioma</ThemedText><ThemedText style={s.sectionHint}>Cámbialo cuando quieras</ThemedText></View>
+    <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={s.languages}>{LANGUAGES.map((language) => <Pressable key={language.id} onPress={() => game.setTargetLanguage(language.id)} style={[s.language, game.targetLanguage === language.id && s.languageActive]}><ThemedText style={s.flag}>{language.flag}</ThemedText><ThemedText style={[s.languageText, game.targetLanguage === language.id && s.languageTextActive]}>{language.label}</ThemedText></Pressable>)}</ScrollView>
+    <View style={s.sectionHead}><ThemedText style={s.sectionTitle}>¿A qué jugamos?</ThemedText><ThemedText style={s.sectionHint}>No hay un orden obligatorio</ThemedText></View>
+    <View style={s.modeGrid}>{MODES.map((item) => <Pressable key={item.mode} onPress={() => play(item.mode)} style={s.mode}><View style={s.modeIcon}><ThemedText style={s.modeEmoji}>{item.icon}</ThemedText></View><ThemedText style={s.modeTitle}>{item.title}</ThemedText><ThemedText style={s.modeCopy}>{item.copy}</ThemedText></Pressable>)}</View>
+    <Pressable onPress={() => router.push('/library' as never)} style={s.libraryCard}><View style={s.libraryIcon}><ThemedText style={s.libraryEmoji}>📚</ThemedText></View><View style={s.libraryCopy}><ThemedText style={s.libraryTitle}>Biblioteca ANDERGO</ThemedText><ThemedText style={s.libraryText}>Listenings, readings, verbos y vocabulario del proyecto.</ThemedText></View><ThemedText style={s.libraryArrow}>→</ThemedText></Pressable>
+    <Pressable onPress={() => router.push('/tutor' as never)} style={s.tutorCard}><View style={s.tutorAvatar}><ThemedText style={s.tutorEmoji}>💬</ThemedText></View><View style={s.tutorCopy}><ThemedText style={s.tutorTitle}>Habla con tu tutor</ThemedText><ThemedText style={s.tutorText}>Practica por texto o voz en {current.label.toLowerCase()}.</ThemedText></View><ThemedText style={s.tutorArrow}>→</ThemedText></Pressable>
+    <View style={s.bottomNav}><Nav active icon="⌂" label="Inicio" onPress={() => undefined} /><Nav icon="▤" label="Biblioteca" onPress={() => router.push('/library' as never)} /><Nav icon="◌" label="Tutor" onPress={() => router.push('/tutor' as never)} /><Nav icon="☺" label="Perfil" onPress={() => router.push('/account' as never)} /></View>
+  </ScrollView></SafeAreaView>;
 }
-
-const styles = StyleSheet.create({
-  screen: { flex: 1, backgroundColor: '#F4F7FC' },
-  webContainer: { flex: 1, backgroundColor: '#F4F7FC' },
-  webview: { flex: 1, backgroundColor: '#F4F7FC' }, loading: { ...StyleSheet.absoluteFill, alignItems: 'center', justifyContent: 'center', gap: 12, backgroundColor: 'rgba(244,247,252,0.94)' }, loadingText: { color: '#173F91', fontSize: 14, fontWeight: '800' },
-  error: { ...StyleSheet.absoluteFill, alignItems: 'center', justifyContent: 'center', gap: 10, padding: 30, backgroundColor: '#F4F7FC' }, errorTitle: { color: '#173F91', fontSize: 20, fontWeight: '900', textAlign: 'center' }, errorText: { color: '#64748B', fontSize: 14, lineHeight: 20, textAlign: 'center' },
-  retry: { minHeight: 50, marginTop: 8, paddingHorizontal: 24, alignItems: 'center', justifyContent: 'center', borderRadius: 16, backgroundColor: '#2563EB' }, retryText: { color: '#FFFFFF', fontSize: 14, fontWeight: '900' },
+function Stat({ value, label, accent }: { value: string; label: string; accent: string }) { return <View style={s.stat}><ThemedText style={[s.statValue, { color: accent }]}>{value}</ThemedText><ThemedText style={s.statLabel}>{label}</ThemedText></View>; }
+function Nav({ icon, label, active, onPress }: { icon: string; label: string; active?: boolean; onPress: () => void }) { return <Pressable onPress={onPress} style={s.navItem}><ThemedText style={[s.navIcon, active && s.navActive]}>{icon}</ThemedText><ThemedText style={[s.navLabel, active && s.navLabelActive]}>{label}</ThemedText></Pressable>; }
+const s = StyleSheet.create({
+  safe:{flex:1,backgroundColor:'#F6F8FD'},screen:{flex:1},content:{padding:20,paddingBottom:26,gap:18},topbar:{flexDirection:'row',alignItems:'center',justifyContent:'space-between'},eyebrow:{color:'#2563EB',fontSize:11,fontWeight:'900',letterSpacing:1.5},greeting:{color:'#172554',fontSize:26,fontWeight:'900',marginTop:3},profile:{height:46,width:46,borderRadius:17,alignItems:'center',justifyContent:'center',backgroundColor:'#172554',borderWidth:3,borderColor:'#BFDBFE'},profileText:{color:'#FFF',fontSize:20,fontWeight:'900'},
+  profilePrompt:{flexDirection:'row',alignItems:'center',padding:13,gap:11,borderRadius:18,backgroundColor:'#E8F0FF',borderWidth:1,borderColor:'#BFDBFE'},promptIcon:{height:36,width:36,borderRadius:12,backgroundColor:'#2563EB',alignItems:'center',justifyContent:'center'},promptIconText:{color:'#FFF',fontWeight:'900'},promptCopy:{flex:1},promptTitle:{color:'#173F91',fontWeight:'900',fontSize:14},promptText:{color:'#52647F',fontSize:12,marginTop:2},arrow:{color:'#2563EB',fontSize:28},
+  stats:{flexDirection:'row',borderRadius:18,backgroundColor:'#FFF',paddingVertical:10,shadowColor:'#172554',shadowOpacity:.06,shadowRadius:14,elevation:2},stat:{flex:1,alignItems:'center',gap:2},statValue:{fontSize:15,fontWeight:'900'},statLabel:{fontSize:8,fontWeight:'900',letterSpacing:.5,color:'#7C8AA3'},
+  hero:{overflow:'hidden',borderRadius:27,padding:24,backgroundColor:'#173F91',minHeight:255},glowOne:{position:'absolute',height:190,width:190,borderRadius:100,backgroundColor:'#0EA5E9',opacity:.48,right:-72,top:-54},glowTwo:{position:'absolute',height:120,width:120,borderRadius:80,backgroundColor:'#FBBF24',opacity:.23,right:34,bottom:-56},heroTag:{color:'#BFDBFE',fontSize:10,fontWeight:'900',letterSpacing:.55},heroTitle:{color:'#FFF',fontWeight:'900',fontSize:29,lineHeight:34,marginTop:13},heroCopy:{color:'#DBEAFE',fontSize:14,lineHeight:19,marginTop:9,maxWidth:'77%'},playButton:{alignSelf:'flex-start',marginTop:20,borderRadius:15,paddingHorizontal:18,paddingVertical:13,backgroundColor:'#FFF'},playButtonText:{color:'#1D4ED8',fontSize:14,fontWeight:'900'},
+  sectionHead:{flexDirection:'row',alignItems:'baseline',justifyContent:'space-between',marginTop:2},sectionTitle:{color:'#172554',fontSize:19,fontWeight:'900'},sectionHint:{color:'#8190A7',fontSize:10,fontWeight:'700'},languages:{gap:9,paddingRight:18},language:{minWidth:77,paddingVertical:11,paddingHorizontal:9,alignItems:'center',gap:5,borderRadius:17,backgroundColor:'#FFF',borderWidth:1,borderColor:'#E6EAF2'},languageActive:{backgroundColor:'#E8F0FF',borderColor:'#2563EB'},flag:{fontSize:21},languageText:{color:'#64748B',fontSize:10,fontWeight:'800'},languageTextActive:{color:'#1D4ED8'},
+  modeGrid:{flexDirection:'row',flexWrap:'wrap',gap:11},mode:{width:'48%',flexGrow:1,minHeight:137,padding:14,borderRadius:20,backgroundColor:'#FFF',borderWidth:1,borderColor:'#E7EBF2'},modeIcon:{height:38,width:38,borderRadius:13,alignItems:'center',justifyContent:'center',backgroundColor:'#E8F0FF'},modeEmoji:{fontSize:20},modeTitle:{color:'#172554',fontSize:15,fontWeight:'900',marginTop:12},modeCopy:{color:'#71809A',fontSize:11,lineHeight:15,marginTop:3},
+  libraryCard:{flexDirection:'row',alignItems:'center',padding:15,gap:12,borderRadius:20,backgroundColor:'#EEF8FF',borderWidth:1,borderColor:'#BCE5FF'},libraryIcon:{height:46,width:46,borderRadius:16,alignItems:'center',justifyContent:'center',backgroundColor:'#CBEFFF'},libraryEmoji:{fontSize:22},libraryCopy:{flex:1},libraryTitle:{color:'#0C4A6E',fontSize:15,fontWeight:'900'},libraryText:{color:'#39718C',fontSize:11,lineHeight:15,marginTop:3},libraryArrow:{color:'#0284C7',fontSize:22,fontWeight:'900'},tutorCard:{flexDirection:'row',alignItems:'center',padding:15,gap:12,borderRadius:20,backgroundColor:'#FFF5E7',borderWidth:1,borderColor:'#FDE5BF'},tutorAvatar:{height:46,width:46,borderRadius:16,alignItems:'center',justifyContent:'center',backgroundColor:'#FFDD9C'},tutorEmoji:{fontSize:22},tutorCopy:{flex:1},tutorTitle:{color:'#713F12',fontSize:15,fontWeight:'900'},tutorText:{color:'#9A6B2B',fontSize:11,lineHeight:15,marginTop:3},tutorArrow:{color:'#B45309',fontSize:22,fontWeight:'900'},bottomNav:{flexDirection:'row',justifyContent:'space-around',paddingTop:10,borderTopWidth:1,borderColor:'#E7EBF2'},navItem:{alignItems:'center',minWidth:47,gap:3},navIcon:{fontSize:19,color:'#94A3B8'},navActive:{color:'#2563EB'},navLabel:{color:'#94A3B8',fontSize:9,fontWeight:'800'},navLabelActive:{color:'#2563EB'},
 });

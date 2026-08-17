@@ -351,7 +351,6 @@
                 <span data-premium-monthly-price>USD 4.99</span> <small>/ mes</small>
               </p>
               <p class="price-annual">También disponible con facturación trimestral.</p>
-              <p class="azul-currency-note">Todos los pagos procesados mediante Azul se realizan en pesos dominicanos (DOP).</p>
               <div class="premium-badge-row">
                 <span class="premium-badge">Recorrido completo</span>
                 <span class="premium-badge">Currículo A1–C2</span>
@@ -1971,10 +1970,16 @@
         <div class="auth-forms">
           <form class="auth-form active" id="loginForm">
             <h3>Iniciar sesión</h3>
-            <button type="button" class="auth-google-btn" data-action="google-auth">
-              <span class="auth-google-mark" aria-hidden="true">G</span>
-              Continuar con Google
-            </button>
+            <div class="auth-oauth-buttons" aria-label="Acceso con redes sociales">
+              <button type="button" class="auth-oauth-btn" data-provider="google">
+                <span class="auth-google-mark" aria-hidden="true">G</span>
+                Google
+              </button>
+              <button type="button" class="auth-oauth-btn" data-provider="facebook">
+                <span class="auth-facebook-mark" aria-hidden="true">f</span>
+                Facebook
+              </button>
+            </div>
             <div class="auth-divider" aria-hidden="true"><span></span>o<span></span></div>
             <label for="loginIdentifier"
               >Nombre de usuario o correo electrónico
@@ -2032,10 +2037,16 @@
               </div>
 
             <div class="signup-step" id="signupStep1">
-                <button type="button" class="auth-google-btn" data-action="google-auth">
-                  <span class="auth-google-mark" aria-hidden="true">G</span>
-                  Registrarse con Google
-                </button>
+                <div class="auth-oauth-buttons" aria-label="Registro con redes sociales">
+                  <button type="button" class="auth-oauth-btn" data-provider="google">
+                    <span class="auth-google-mark" aria-hidden="true">G</span>
+                    Google
+                  </button>
+                  <button type="button" class="auth-oauth-btn" data-provider="facebook">
+                    <span class="auth-facebook-mark" aria-hidden="true">f</span>
+                    Facebook
+                  </button>
+                </div>
                 <div class="auth-divider" aria-hidden="true"><span></span>o<span></span></div>
                 <label for="signupUsername"
                   >Nombre de usuario

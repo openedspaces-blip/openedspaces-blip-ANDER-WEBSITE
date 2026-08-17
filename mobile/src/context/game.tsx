@@ -3,8 +3,10 @@ import { createContext, PropsWithChildren, useContext, useEffect, useMemo, useSt
 
 const STORAGE_KEY = 'andergo.game.v1';
 
+export type TargetLanguage = 'english' | 'french' | 'spanish' | 'italian';
+
 export type GameState = {
-  targetLanguage: 'english' | 'french' | 'spanish';
+  targetLanguage: TargetLanguage;
   xp: number;
   coins: number;
   streak: number;
@@ -45,7 +47,14 @@ export function GameProvider({ children }: PropsWithChildren) {
 
   useEffect(() => {
     AsyncStorage.getItem(STORAGE_KEY)
-      .then((value) => value && setState({ ...initialState, ...JSON.parse(value) }))
+      .then((value) => {
+        if (!value) return;
+        const saved = JSON.parse(value) as Partial<GameState>;
+        const validLanguage: TargetLanguage = ['english', 'french', 'spanish', 'italian'].includes(saved.targetLanguage ?? '')
+          ? saved.targetLanguage as TargetLanguage
+          : 'english';
+        setState({ ...initialState, ...saved, targetLanguage: validLanguage });
+      })
       .finally(() => setReady(true));
   }, []);
 

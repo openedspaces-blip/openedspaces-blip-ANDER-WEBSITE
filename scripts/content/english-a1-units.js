@@ -74,7 +74,7 @@ const units = [
           }
         },
         exercises: [
-          { type: 'mcq', prompt: 'Who is the teacher?', options: ['Mr. Green', 'Mr. Leo', 'Mr. Ana', 'Mr. Class'], answer: 0 },
+          { type: 'mcq', prompt: 'Who is the teacher?', options: ['Mr. Green', 'Mr. Leo', 'Miss Ana', 'The class'], answer: 0 },
           { type: 'mcq', prompt: 'Who does Ana sit next to?', options: ['Mr. Green', 'Leo', 'Sofia', 'Marco'], answer: 1 },
           { type: 'mcq', prompt: 'Where is Leo from?', options: ['Spain', 'Italy', 'France', 'Dominican Republic'], answer: 1 },
           { type: 'mcq', prompt: 'What do they practice at the end?', options: ['Numbers', 'Spelling their names with the alphabet', 'Colors', 'Drawing'], answer: 1 },

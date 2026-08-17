@@ -180,11 +180,11 @@ export async function loadLessonActivity(
 
 export function missionForSkill(skill: CurriculumLesson['skill']) {
   return ({
-    reading: { mode: 'story', icon: '📜', label: 'Crónica escondida', detail: 'Descubre la historia del territorio' },
-    listening: { mode: 'listen', icon: '🔮', label: 'Eco misterioso', detail: 'Descifra la voz que llega del camino' },
-    speaking: { mode: 'speak', icon: '🗣️', label: 'Puerta de la voz', detail: 'Usa tu voz para abrir el paso' },
-    writing: { mode: 'order', icon: '🗺️', label: 'Mapa fragmentado', detail: 'Reconstruye el mensaje secreto' },
-    grammar: { mode: 'review', icon: '🛡️', label: 'Guardián de las reglas', detail: 'Demuestra tu dominio para avanzar' },
-    vocabulary: { mode: 'match', icon: '🧩', label: 'Puente de palabras', detail: 'Encuentra las conexiones ocultas' },
-  } as const)[skill] ?? { mode: 'review', icon: '🧭', label: 'Misión del explorador', detail: 'Supera el reto para continuar' };
+    reading: { mode: 'story', icon: '📖', label: 'Reading', detail: 'Lee y juega con la historia' },
+    listening: { mode: 'listen', icon: '🎧', label: 'Listening', detail: 'Escucha y responde el reto' },
+    speaking: { mode: 'speak', icon: '🗣️', label: 'Habla', detail: 'Practica con tu voz' },
+    writing: { mode: 'order', icon: '🔤', label: 'Construye', detail: 'Ordena la frase' },
+    grammar: { mode: 'review', icon: '⚡', label: 'Verbos y reglas', detail: 'Pon a prueba lo que sabes' },
+    vocabulary: { mode: 'match', icon: '🧩', label: 'Vocabulario', detail: 'Encuentra las parejas' },
+  } as const)[skill] ?? { mode: 'review', icon: '🎲', label: 'Reto rápido', detail: 'Juega una ronda' };
 }

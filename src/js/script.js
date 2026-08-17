@@ -2972,8 +2972,8 @@ async function afterAuthSuccess() {
 }
 
 function attachAuthHandlers() {
-  document.querySelectorAll('[data-action="google-auth"]').forEach((button) => {
-    button.addEventListener('click', () => beginGoogleOAuth(button));
+  document.querySelectorAll('[data-provider]').forEach((button) => {
+    button.addEventListener('click', () => beginOAuth(button, button.dataset.provider));
   });
 
   document.getElementById('loginForm')?.addEventListener('submit', async (event) => {
@@ -3447,11 +3447,11 @@ async function createOAuthBrowserClient() {
   const response = await fetch(`${backendBaseUrl}/api/auth/client-config`);
   const clientConfig = await response.json().catch(() => null);
   if (!response.ok || !clientConfig?.supabaseUrl || !clientConfig?.supabaseAnonKey) {
-    throw new Error('El acceso con Google no está disponible en este momento.');
+    throw new Error('El acceso social no está disponible en este momento.');
   }
   await loadSupabaseJs();
   if (!window.supabase?.createClient) {
-    throw new Error('No pudimos preparar el acceso con Google.');
+    throw new Error('No pudimos preparar el acceso social.');
   }
   return window.supabase.createClient(clientConfig.supabaseUrl, clientConfig.supabaseAnonKey, {
     auth: {
@@ -3463,8 +3463,9 @@ async function createOAuthBrowserClient() {
   });
 }
 
-async function beginGoogleOAuth(button) {
+async function beginOAuth(button, provider) {
   if (button?.disabled) return;
+  const providerLabel = provider === 'facebook' ? 'Facebook' : 'Google';
   // Google OAuth is an alternative sign-in path, never an extension of the
   // username/password form. Clear stale credentials and an earlier password
   // error before handing control to Google so the modal cannot suggest that
@@ -3473,7 +3474,7 @@ async function beginGoogleOAuth(button) {
   activeForm?.querySelectorAll('input[type="text"], input[type="email"], input[type="password"]').forEach((input) => {
     input.value = '';
   });
-  setAuthMessage('Continuando con Google…');
+  setAuthMessage(`Continuando con ${providerLabel}…`);
   if (button) {
     button.disabled = true;
     button.setAttribute('aria-busy', 'true');
@@ -3481,9 +3482,9 @@ async function beginGoogleOAuth(button) {
   try {
     const client = await createOAuthBrowserClient();
     const redirectTo = new URL('/', window.location.origin);
-    redirectTo.searchParams.set('auth', 'google');
+    redirectTo.searchParams.set('auth', provider);
     const { error } = await client.auth.signInWithOAuth({
-      provider: 'google',
+      provider,
       options: { redirectTo: redirectTo.toString() }
     });
     if (error) throw error;
@@ -3492,11 +3493,11 @@ async function beginGoogleOAuth(button) {
       button.disabled = false;
       button.removeAttribute('aria-busy');
     }
-    setAuthMessage(error.message || 'No pudimos iniciar sesión con Google.', true);
+    setAuthMessage(error.message || `No pudimos iniciar sesión con ${providerLabel}.`, true);
   }
 }
 
-async function initGoogleOAuthCallback() {
+async function initOAuthCallback(provider) {
   try {
     const client = await createOAuthBrowserClient();
     let { data, error } = await client.auth.getSession();
@@ -3510,7 +3511,7 @@ async function initGoogleOAuthCallback() {
       data = exchanged.data;
       error = null;
     }
-    if (error || !data.session?.access_token) throw error || new Error('No recibimos una sesión de Google.');
+    if (error || !data.session?.access_token) throw error || new Error(`No recibimos una sesión de ${provider}.`);
 
     const response = await fetch(`${backendBaseUrl}/api/user`, {
       headers: { Authorization: `Bearer ${data.session.access_token}` }
@@ -3526,7 +3527,7 @@ async function initGoogleOAuthCallback() {
     history.replaceState(null, '', `${window.location.pathname}#home`);
     showView('home');
     openModal('login');
-    setAuthMessage(error.message || 'No pudimos completar el acceso con Google.', true);
+    setAuthMessage(error.message || `No pudimos completar el acceso con ${provider}.`, true);
   }
 }
 
@@ -15178,7 +15179,7 @@ function renderGrammarView(section, lesson) {
         <li><span>2</span><strong>${french ? 'Observer' : 'Observar'}</strong><small>${french ? 'Un exemple' : 'Un ejemplo'}</small></li>
         <li><span>3</span><strong>${french ? 'Pratiquer' : 'Practicar'}</strong><small>${french ? 'À votre rythme' : 'A tu ritmo'}</small></li>
       </ol>
-      ${renderGrammarConceptCards(lesson)}
+      ${renderGrammarLessonBlockHtml(lesson)}
       ${
         example
           ? `
@@ -15372,6 +15373,76 @@ function parseGrammarNoteSections(grammarNote) {
     .filter((section) => section.body);
 }
 
+// The authored notes contain examples in slightly different shapes across
+// levels. Gather them into one consistent six-example practice bank without
+// inventing language outside the curriculum.
+function collectGrammarPracticalExamples(lesson, minimum = 6) {
+  const sections = parseGrammarNoteSections(lesson.grammar);
+  const profile = lesson.extra?.grammarProfile || {};
+  const candidates = [
+    ...(Array.isArray(profile.examples) ? profile.examples : []),
+    ...sections
+      .filter((section) => section.key === 'examples')
+      .flatMap((section) => section.body.split(/\n+/)),
+    ...(Array.isArray(lesson.phrases) ? lesson.phrases : []),
+    ...(Array.isArray(lesson.dialogue) ? lesson.dialogue.map((line) => line?.line) : []),
+    ...(Array.isArray(lesson.vocabulary) ? lesson.vocabulary.map((item) => item?.example) : []),
+    ...(Array.isArray(lesson.extra?.grammarTest?.questions)
+      ? lesson.extra.grammarTest.questions.flatMap((question) =>
+          // Advanced lessons often put their real-world sentence models in
+          // a revision prompt. Quoted source sentences are authored examples
+          // too, and provide the last one or two models when a profile has 4.
+          [...String(question.prompt || '').matchAll(/[“"]([^”"]+)[”"]/g)].map((match) => match[1])
+        )
+      : [])
+  ];
+  const seen = new Set();
+  return candidates
+    .map((item) => String(item || '').replace(/^\s*(?:\d+[.)]|[-•])\s*/, '').trim())
+    .filter((item) => item && !seen.has(item.toLocaleLowerCase()))
+    .filter((item) => {
+      seen.add(item.toLocaleLowerCase());
+      return true;
+    })
+    .slice(0, Math.max(minimum, 6));
+}
+
+function renderGrammarLessonBlockHtml(lesson, { test = null } = {}) {
+  const french = isFrenchTargetLanguage();
+  const sections = parseGrammarNoteSections(lesson.grammar);
+  const sectionBody = (...keys) =>
+    sections.find((section) => keys.includes(section.key))?.body || '';
+  const profile = lesson.extra?.grammarProfile || {};
+  const brief =
+    profile.definition || profile.explanation || sectionBody('rule', 'goal', 'use') || lesson.description || '';
+  const structure = profile.structure || sectionBody('pattern') || '';
+  const examples = collectGrammarPracticalExamples(lesson);
+  const forms = [
+    profile.affirmative || sectionBody('affirmative'),
+    profile.negative || sectionBody('negative'),
+    profile.questions || sectionBody('questions')
+  ].filter(Boolean);
+
+  return `
+    <section class="grammar-lesson-block" aria-label="${french ? 'Leçon avant les exercices' : 'Lección antes de los ejercicios'}">
+      <div class="grammar-lesson-block-heading">
+        <span aria-hidden="true">📘</span>
+        <div><small>${french ? 'D’abord, comprenez' : 'Primero, comprende'}</small><h4>${french ? 'La règle en contexte' : 'La regla en contexto'}</h4></div>
+      </div>
+      <div class="grammar-lesson-brief">
+        ${brief ? `<p>${escapeHtml(brief).replace(/\n/g, '<br>')}</p>` : ''}
+        ${structure ? `<p class="grammar-lesson-pattern"><strong>${french ? 'Structure' : 'Estructura'}:</strong> ${escapeHtml(structure).replace(/\n/g, '<br>')}</p>` : ''}
+      </div>
+      <div class="grammar-practical-examples">
+        <div><small>${french ? 'Observez puis répétez' : 'Observa y repite'}</small><h4>${french ? '6 exemples pratiques' : '6 ejemplos prácticos'}</h4></div>
+        <ol>${examples.map((example) => `<li><span aria-hidden="true">💬</span><p>${escapeHtml(example)}</p></li>`).join('')}</ol>
+      </div>
+      ${forms.length ? `<div class="grammar-lesson-forms">${forms.map((form) => `<p>${escapeHtml(form).replace(/\n/g, '<br>')}</p>`).join('')}</div>` : ''}
+      ${test ? `<div class="grammar-lesson-ready"><span>🎮 ${test.questions.length} ${french ? 'défis interactifs' : 'retos interactivos'}</span><span>🎯 ${french ? 'Objectif' : 'Meta'}: ${test.passingScore || 70}/100</span></div>` : ''}
+    </section>
+  `;
+}
+
 function renderGrammarLessonContentHtml(lesson) {
   const sections = parseGrammarNoteSections(lesson.grammar);
   if (!sections.length) return '';
@@ -15403,7 +15474,7 @@ function renderGrammarLessonContentHtml(lesson) {
 // "Label: body" grammar_note sections, and renders the three sentence forms
 // as their own distinct block only when the lesson actually documents them
 // ("si aplica" - never fabricated).
-function renderGrammarQuickIntroHtml(lesson, test) {
+function renderLegacyGrammarQuickIntroHtml(lesson, test) {
   const french = isFrenchTargetLanguage();
   const sections = parseGrammarNoteSections(lesson.grammar);
   const sectionBody = (...keys) =>
@@ -15522,6 +15593,10 @@ function renderGrammarQuickIntroHtml(lesson, test) {
       </div>
     </section>
   `;
+}
+
+function renderGrammarQuickIntroHtml(lesson, test) {
+  return renderGrammarLessonBlockHtml(lesson, { test });
 }
 
 function renderGrammarTestView(content, lesson) {
@@ -15946,6 +16021,7 @@ function renderGrammarTestResultsHtml(lesson, test, runtime) {
       </p>
       <ul class="grammar-test-breakdown-list">${breakdownHtml}</ul>
       <div class="grammar-test-result-actions no-print">
+        <button type="button" class="secondary-btn grammar-test-share-btn">${feedback('Compartir logro', 'Share achievement', 'Partager le résultat')}</button>
         <button type="button" class="primary-btn hover-lift btn-press grammar-test-retry-btn">${feedback('Intentar de nuevo', 'Try again', 'Réessayer')}</button>
         <button type="button" class="secondary-btn skill-print-btn">${feedback('Descargar resultado en PDF', 'Download result as PDF', 'Télécharger le résultat en PDF')}</button>
       </div>
@@ -16865,7 +16941,10 @@ function renderVocabularyPracticePanelHtml(lesson) {
             )
             .join('')}
         </ul>
-        <button type="button" class="primary-btn vocab-practice-retry-btn">${feedback(`Practicar otras ${count} palabras`, `Practise ${count} more words`, `Pratiquer ${count} autres mots`)}</button>
+        <div class="grammar-test-result-actions no-print">
+          <button type="button" class="secondary-btn vocab-practice-share-btn">${feedback('Compartir logro', 'Share achievement', 'Partager le résultat')}</button>
+          <button type="button" class="primary-btn vocab-practice-retry-btn">${feedback(`Practicar otras ${count} palabras`, `Practise ${count} more words`, `Pratiquer ${count} autres mots`)}</button>
+        </div>
       </div>`;
   }
   const answered = Object.keys(runtime.answers).length;
@@ -17297,9 +17376,9 @@ function renderVocabularyView(section, lesson) {
       </div>
       <div class="vocab-catalogue-toolbar no-print">
         <label class="vocab-catalogue-search"><span>Buscar</span><input type="search" class="vocab-catalogue-search-input" value="${escapeHtml(vocabularyCatalogueFilters.search)}" placeholder="Buscar una palabra…" autocomplete="off"></label>
-        <label><span>Idioma</span><select class="vocab-catalogue-language-filter" aria-label="Idioma del vocabulario">${catalogueLanguages.map((language) => `<option value="${escapeHtml(language)}"${language === learningPathState.language ? ' selected' : ''}>${escapeHtml(languageDisplayNames[language])}</option>`).join('')}</select></label>
-        <label><span>Nivel</span><select class="vocab-catalogue-level-filter" aria-label="Nivel del vocabulario">${vocabularyLevels.map((level) => `<option value="${level}"${level === lesson.level ? ' selected' : ''}>${level}</option>`).join('')}</select></label>
-        <label><span>Categoría</span><select class="vocab-catalogue-category-filter"><option value="all">Todas las categorías</option>${categories.map((category) => `<option value="${escapeHtml(category)}"${vocabularyCatalogueFilters.category === category ? ' selected' : ''}>${escapeHtml(category)}</option>`).join('')}</select></label>
+        <label class="vocab-catalogue-language"><span>Idioma</span><select class="vocab-catalogue-language-filter" aria-label="Idioma del vocabulario">${catalogueLanguages.map((language) => `<option value="${escapeHtml(language)}"${language === learningPathState.language ? ' selected' : ''}>${escapeHtml(languageDisplayNames[language])}</option>`).join('')}</select></label>
+        <label class="vocab-catalogue-level"><span>Nivel</span><select class="vocab-catalogue-level-filter" aria-label="Nivel del vocabulario">${vocabularyLevels.map((level) => `<option value="${level}"${level === lesson.level ? ' selected' : ''}>${level}</option>`).join('')}</select></label>
+        <label class="vocab-catalogue-category"><span>Categoría</span><select class="vocab-catalogue-category-filter"><option value="all">Todas las categorías</option>${categories.map((category) => `<option value="${escapeHtml(category)}"${vocabularyCatalogueFilters.category === category ? ' selected' : ''}>${escapeHtml(category)}</option>`).join('')}</select></label>
       </div>
       <div class="vocab-catalogue-filter-row no-print">
         <span class="vocab-catalogue-active-level">${catalogueContextLabel}: <strong>${escapeHtml(lesson.level)}</strong>${isRouteVocabulary ? '' : ' · Puedes cambiar idioma y nivel libremente.'}</span>
@@ -17452,6 +17531,20 @@ document.addEventListener('click', (event) => {
         ? expressionsToggle.dataset.hideLabel
         : expressionsToggle.dataset.showLabel;
     }
+    return;
+  }
+
+  const shareButton = event.target.closest('.vocab-practice-share-btn');
+  if (shareButton) {
+    const context = getActiveVocabularyPracticeContext(shareButton);
+    const runtime = context && vocabPracticeState.get(context.lesson.slug);
+    if (!context || !runtime?.submitted) return;
+    shareAndergoAchievement({
+      title: 'Mi práctica de vocabulario ANDERGO',
+      text: `Completé la práctica de vocabulario “${context.lesson.title}” (${context.lesson.level}) en ANDERGO con ${runtime.score}/100. #ANDERGO`,
+      score: runtime.score,
+      subtitle: `${context.lesson.title} · Vocabulario · ${context.lesson.level}`
+    });
     return;
   }
 
@@ -20978,12 +21071,105 @@ function getLessonTestShareUrl() {
 async function shareLessonTestResult() {
   const unit = lessonTestState.units.find((item) => item.id === lessonTestState.unitId);
   const text = `Completé ${unit?.title || 'mi test'} (${lessonTestState.language === 'french' ? 'Français' : 'English'} ${lessonTestState.level}) en ANDERGO con ${lessonTestState.result?.score}/100.`;
-  const url = getLessonTestShareUrl();
-  if (navigator.share) {
-    await navigator.share({ title: 'Mi resultado ANDERGO', text, url }).catch(() => {});
-  } else {
-    await navigator.clipboard?.writeText(`${text} ${url}`);
-    showHomeToast('Enlace del resultado copiado.');
+  await shareAndergoAchievement({
+    title: 'Mi resultado ANDERGO',
+    text,
+    url: getLessonTestShareUrl(),
+    preserveUrl: true,
+    score: lessonTestState.result?.score,
+    subtitle: `${unit?.title || 'Mi test'} · ${lessonTestState.level}`
+  });
+}
+
+function wrapAchievementCardText(context, value, maxWidth, maxLines = 2) {
+  const words = String(value || '').split(/\s+/).filter(Boolean);
+  const lines = [];
+  let current = '';
+  words.forEach((word) => {
+    const candidate = current ? `${current} ${word}` : word;
+    if (context.measureText(candidate).width > maxWidth && current) {
+      if (lines.length < maxLines - 1) lines.push(current);
+      current = word;
+    } else {
+      current = candidate;
+    }
+  });
+  if (current && lines.length < maxLines) lines.push(current);
+  return lines;
+}
+
+async function createAchievementCard({ score, subtitle = '' } = {}) {
+  if (!Number.isFinite(Number(score)) || typeof document === 'undefined') return null;
+  const canvas = document.createElement('canvas');
+  canvas.width = 1200;
+  canvas.height = 630;
+  const context = canvas.getContext('2d');
+  if (!context) return null;
+  const gradient = context.createLinearGradient(0, 0, 1200, 630);
+  gradient.addColorStop(0, '#173fca');
+  gradient.addColorStop(0.58, '#1676e8');
+  gradient.addColorStop(1, '#12badc');
+  context.fillStyle = gradient;
+  context.fillRect(0, 0, canvas.width, canvas.height);
+  context.fillStyle = 'rgba(255,255,255,0.12)';
+  context.beginPath();
+  context.arc(1050, 90, 220, 0, Math.PI * 2);
+  context.fill();
+  context.beginPath();
+  context.arc(130, 610, 200, 0, Math.PI * 2);
+  context.fill();
+  context.fillStyle = 'rgba(255,255,255,0.9)';
+  context.font = '700 30px Inter, Arial, sans-serif';
+  context.fillText('ANDERGO · LANGUAGE ACADEMY', 72, 88);
+  context.fillStyle = '#ffffff';
+  context.font = '900 142px Inter, Arial, sans-serif';
+  context.fillText(`${Math.round(Number(score))}/100`, 72, 285);
+  context.font = '800 36px Inter, Arial, sans-serif';
+  context.fillText('MI LOGRO DE APRENDIZAJE', 77, 344);
+  context.fillStyle = 'rgba(255,255,255,0.9)';
+  context.font = '600 30px Inter, Arial, sans-serif';
+  wrapAchievementCardText(context, subtitle, 720).forEach((line, index) => {
+    context.fillText(line, 77, 426 + index * 40);
+  });
+  context.fillStyle = 'rgba(255,255,255,0.16)';
+  context.fillRect(77, 500, 550, 2);
+  context.fillStyle = '#ffffff';
+  context.font = '700 25px Inter, Arial, sans-serif';
+  context.fillText('Aprendo, practico y avanzo cada día.', 77, 555);
+  const blob = await new Promise((resolve) => canvas.toBlob(resolve, 'image/png'));
+  return blob ? new File([blob], 'mi-logro-andergo.png', { type: 'image/png' }) : null;
+}
+
+async function shareAndergoAchievement({
+  title = 'Mi logro en ANDERGO',
+  text = '',
+  url = window.location.href,
+  score = null,
+  subtitle = '',
+  preserveUrl = false
+} = {}) {
+  const shareUrl = new URL(url, window.location.origin);
+  if (!preserveUrl) {
+    shareUrl.search = '';
+    shareUrl.hash = '#learn';
+  }
+  try {
+    const card = await createAchievementCard({ score, subtitle });
+    const shareData = { title, text, url: shareUrl.toString() };
+    if (card && navigator.canShare?.({ files: [card] })) shareData.files = [card];
+    if (navigator.share) {
+      await navigator.share(shareData);
+      return;
+    }
+    await navigator.clipboard?.writeText(`${text} ${shareUrl}`.trim());
+    window.open(
+      `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl.toString())}`,
+      '_blank',
+      'noopener,noreferrer'
+    );
+    showHomeToast('Enlace copiado y Facebook abierto para compartir tu logro.');
+  } catch (error) {
+    if (error?.name !== 'AbortError') showHomeToast('No se pudo preparar el enlace para compartir.');
   }
 }
 
@@ -24337,6 +24523,7 @@ function showUnitCompletionPanel({ unitId, xpReward = 30 } = {}) {
         <span><strong>+${escapeHtml(String(xpReward))}</strong> XP</span>
       </div>
       <div class="unit-completion-actions">
+        <button type="button" class="secondary-btn unit-completion-share">Compartir logro</button>
         <button type="button" class="secondary-btn unit-completion-retry">${escapeHtml(copy.retry)}</button>
         ${
           nextUnit
@@ -24357,6 +24544,14 @@ function showUnitCompletionPanel({ unitId, xpReward = 30 } = {}) {
     close();
     history.pushState(null, '', '#progress');
     showView('progress');
+  });
+  overlay.querySelector('.unit-completion-share')?.addEventListener('click', () => {
+    shareAndergoAchievement({
+      title: 'Mi evaluación de unidad ANDERGO',
+      text: `Completé la unidad “${unit.title}” en ANDERGO con ${metrics.progressPercent}/100 y +${xpReward} XP. #ANDERGO`,
+      score: metrics.progressPercent,
+      subtitle: `${unit.title} · Evaluación de unidad`
+    });
   });
   overlay.querySelector('.unit-completion-retry')?.addEventListener('click', () => {
     close();
@@ -25334,6 +25529,19 @@ function enableHomepageActions() {
         lastResult: null
       });
       renderGrammarTestView(ctx.content, ctx.lesson);
+      return;
+    }
+
+    const grammarTestShareBtn = event.target.closest('.grammar-test-share-btn');
+    if (grammarTestShareBtn) {
+      const ctx = getGrammarTestContext(grammarTestShareBtn);
+      if (!ctx?.runtime.lastResult) return;
+      shareAndergoAchievement({
+        title: 'Mi ejercicio de gramática ANDERGO',
+        text: `Completé el ejercicio de gramática “${ctx.lesson.title}” (${ctx.lesson.level}) en ANDERGO con ${ctx.runtime.lastResult.score}/100. #ANDERGO`,
+        score: ctx.runtime.lastResult.score,
+        subtitle: `${ctx.lesson.title} · Gramática · ${ctx.lesson.level}`
+      });
       return;
     }
 
@@ -28453,8 +28661,8 @@ const isPasswordRecoveryLink =
 // params once it's here.
 const isEmailConfirmedLink =
   new URLSearchParams(window.location.search).get('auth') === 'confirmed';
-const isGoogleOAuthCallback =
-  new URLSearchParams(window.location.search).get('auth') === 'google';
+const oauthCallbackProvider = new URLSearchParams(window.location.search).get('auth');
+const isOAuthCallback = ['google', 'facebook'].includes(oauthCallbackProvider);
 
 if (isPasswordRecoveryLink) {
   showView('reset-password');
@@ -28462,9 +28670,9 @@ if (isPasswordRecoveryLink) {
 } else if (isEmailConfirmedLink) {
   showView('email-confirmed');
   initEmailConfirmedPage();
-} else if (isGoogleOAuthCallback) {
+} else if (isOAuthCallback) {
   showView('home');
-  initGoogleOAuthCallback();
+  initOAuthCallback(oauthCallbackProvider);
 } else {
   showView(getViewFromHash());
   // Direct/bookmarked load of #premium: resolves to the home view (see

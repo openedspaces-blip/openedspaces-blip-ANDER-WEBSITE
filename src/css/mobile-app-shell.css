@@ -354,3 +354,301 @@
   .skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck,
   .verb-catalogue-list { grid-template-columns: 1fr; }
 }
+
+/* Phone learning views: reserve the horizontal space for the lesson itself.
+   Catalogue cards used to be compressed into two narrow columns, which made
+   examples and conjugations difficult to scan.  A compact single column is
+   quicker to read and retains comfortable touch targets. */
+@media (max-width: 640px) {
+  .skill-view-section[data-skill='grammar'] .skill-print-area,
+  .grammar-test-card {
+    padding: .8rem;
+    border-radius: 16px;
+  }
+
+  .skill-view-section[data-skill='grammar'] .skill-print-area > h3 {
+    margin-bottom: .75rem;
+    font-size: 1.22rem;
+    line-height: 1.15;
+  }
+
+  .grammar-lesson-hero,
+  .grammar-test-hero,
+  .grammar-practice-header {
+    align-items: flex-start;
+    gap: .55rem;
+  }
+
+  .grammar-lesson-hero-icon,
+  .grammar-test-hero-icon {
+    flex-basis: 2.7rem;
+    width: 2.7rem;
+    height: 2.7rem;
+    border-radius: 13px;
+    font-size: 1.25rem;
+  }
+
+  .grammar-card-grid,
+  .grammar-example,
+  .grammar-lesson-sections-grid {
+    grid-template-columns: 1fr;
+    margin-bottom: .75rem;
+  }
+
+  .grammar-concept-card,
+  .grammar-example-target,
+  .grammar-example-bridge,
+  .grammar-exercise {
+    padding: .75rem;
+    border-radius: 13px;
+  }
+
+  .grammar-test-meta-list {
+    gap: .35rem;
+  }
+
+  .grammar-test-meta-list li {
+    padding: .3rem .55rem;
+    font-size: .7rem;
+  }
+
+  .grammar-test-progress-row {
+    gap: .5rem;
+  }
+
+  .grammar-test-option {
+    min-height: 46px;
+    padding: .62rem .7rem;
+    line-height: 1.3;
+  }
+
+  .grammar-test-start-btn,
+  .grammar-test-submit-btn {
+    width: 100%;
+    max-width: none;
+  }
+
+  .vocab-catalogue {
+    gap: .65rem;
+    padding: .75rem;
+    border-radius: 16px;
+  }
+
+  .vocab-catalogue-heading {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: .25rem;
+  }
+
+  .vocab-catalogue-heading h3 {
+    font-size: 1.2rem;
+  }
+
+  .vocab-catalogue-toolbar,
+  #verbs .verbs-toolbar {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: .5rem;
+    padding: .65rem;
+  }
+
+  .vocab-catalogue-search,
+  .vocab-catalogue-category,
+  #verbs .verbs-search-field {
+    grid-column: 1 / -1;
+  }
+
+  .vocab-catalogue-levels,
+  .vocab-catalogue-mastery,
+  .verbs-quick-filters {
+    flex-wrap: nowrap;
+    width: 100%;
+    padding-bottom: .3rem;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .vocab-catalogue-levels::-webkit-scrollbar,
+  .vocab-catalogue-mastery::-webkit-scrollbar,
+  .verbs-quick-filters::-webkit-scrollbar {
+    display: none;
+  }
+
+  .skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck,
+  .verb-catalogue-list {
+    grid-template-columns: 1fr;
+  }
+
+  .skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card,
+  .skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card.is-flipped {
+    /* The front/back faces are positioned inside the card, so a zero
+       minimum height collapses the entire catalogue into blank stripes. */
+    min-height: 252px;
+  }
+
+  .skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card-front {
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: .35rem .55rem;
+    padding: .72rem;
+  }
+
+  .skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card-word-block {
+    grid-column: 1;
+    grid-row: 1 / 3;
+  }
+
+  .skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card-header {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card-target,
+  .skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card-target--medium,
+  .skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card-target--long {
+    font-size: 1.05rem;
+  }
+
+  .vocab-card-catalogue-definition {
+    font-size: .72rem;
+    line-height: 1.35;
+  }
+
+  .vocab-card-catalogue-examples li {
+    font-size: .68rem;
+    line-height: 1.3;
+  }
+
+  .verb-catalogue-list {
+    gap: .5rem;
+    padding: 0;
+    border: 0;
+    background: transparent;
+  }
+
+  .verb-catalogue-row {
+    padding: .75rem;
+    border: 1px solid rgba(37, 99, 235, .14);
+    border-radius: 14px;
+  }
+
+  .verb-catalogue-forms {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: .35rem;
+  }
+
+  .verb-catalogue-forms span {
+    font-size: .58rem;
+  }
+
+  .verb-catalogue-forms strong {
+    font-size: .72rem;
+  }
+
+  .verb-catalogue-examples p {
+    font-size: .7rem;
+    line-height: 1.35;
+  }
+
+  .verb-catalogue-conjugate {
+    min-height: 42px;
+    font-size: .74rem;
+  }
+
+  /* Verbos is a reference tool on phones: keep its controls visible, but
+     reduce the introductory chrome and make each verb a compact scan row. */
+  #verbs.section {
+    width: min(100% - 1rem, 680px);
+    margin-block: .65rem;
+    padding: .7rem;
+    border-radius: 16px;
+  }
+
+  #verbs .verbs-language-switcher {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    align-items: center;
+    gap: .5rem;
+    margin: -.1rem 0 .55rem;
+    padding: .5rem .6rem;
+    border-radius: 12px;
+  }
+
+  #verbs .verbs-language-switcher label,
+  #verbs .verbs-language-switcher select {
+    font-size: .72rem;
+  }
+
+  #verbs .verbs-language-switcher select {
+    min-height: 38px;
+    padding: .35rem .45rem;
+  }
+
+  #verbs .unit-verbs-context {
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: .42rem .6rem;
+    margin-bottom: .55rem;
+    padding: .58rem;
+    border-radius: 13px;
+  }
+
+  #verbs .unit-verbs-copy > span,
+  #verbs .unit-verbs-score > span {
+    font-size: .58rem;
+  }
+
+  #verbs .unit-verbs-copy > strong { font-size: .92rem; }
+  #verbs .unit-verbs-copy p { display: none; }
+  #verbs .unit-verbs-score { min-width: 4.1rem; padding: .4rem .5rem; }
+  #verbs .unit-verbs-score strong { font-size: .82rem; }
+  #verbs .unit-verbs-context-actions { grid-column: 1 / -1; display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: .45rem; }
+  #verbs .unit-verbs-practice-btn,
+  #verbs .unit-verbs-more > summary { min-height: 38px; padding: .4rem .6rem; font-size: .72rem; }
+
+  #verbs .section-heading { margin: .35rem 0 .55rem; }
+  #verbs .section-heading h2 { font-size: 1.28rem; line-height: 1.08; }
+  #verbs .section-heading p { display: none; }
+  #verbs .verbs-catalogue-summary { margin-bottom: .45rem; padding: 0; }
+  #verbs .verbs-catalogue-summary > strong { font-size: 1rem; }
+  #verbs .verbs-catalogue-summary > span { font-size: .66rem; }
+
+  #verbs .skill-tabs { margin-inline: -.7rem; border-radius: 0; }
+  #verbs .skill-tab-button { min-height: 42px; padding: .42rem .25rem; font-size: .7rem; }
+
+  #verbs .verb-catalogue-row {
+    min-height: 0;
+    gap: .35rem .55rem;
+    padding: .58rem;
+  }
+
+  #verbs .verb-catalogue-head { grid-template-columns: 1.7rem minmax(0, 1fr) auto; gap: .4rem; }
+  #verbs .verb-catalogue-rank { width: 1.55rem; height: 1.55rem; font-size: .6rem; }
+  #verbs .verb-catalogue-identity > strong { font-size: .92rem; }
+  #verbs .verb-catalogue-identity > span,
+  #verbs .verb-catalogue-identity > small { font-size: .62rem; }
+  #verbs .verb-catalogue-audio { width: 1.7rem; height: 1.7rem; min-width: 1.7rem; }
+  #verbs .verb-catalogue-forms { gap: .25rem; padding-top: .38rem; }
+  #verbs .verb-catalogue-forms > div { padding: .35rem .3rem; }
+  #verbs .verb-catalogue-forms span { font-size: .5rem; }
+  #verbs .verb-catalogue-forms strong { font-size: .64rem; }
+  /* Even in the densest phone layout, C1–C2 learners need the authored
+     examples to understand a verb in context. Keep them visible, but make
+     the two short lines as compact as the rest of the scan card. */
+  #verbs .verb-catalogue-examples {
+    display: grid;
+    gap: .22rem;
+    padding-top: .38rem;
+  }
+  #verbs .verb-catalogue-examples > div {
+    grid-template-columns: .92rem minmax(0, 1fr);
+    gap: .28rem;
+  }
+  #verbs .verb-catalogue-examples > div > span {
+    width: .9rem;
+    height: .9rem;
+    font-size: .48rem;
+  }
+  #verbs .verb-catalogue-examples p {
+    font-size: .63rem;
+    line-height: 1.24;
+  }
+  #verbs .verb-catalogue-conjugate { min-height: 36px; margin-top: .1rem; padding: .32rem .5rem; font-size: .68rem; }
+  }

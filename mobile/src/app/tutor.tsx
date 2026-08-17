@@ -10,17 +10,18 @@ import { ThemedView } from '@/components/themed-view';
 import { useGame } from '@/context/game';
 
 type Message={role:'student'|'tutor';text:string};
-const CONFIG={english:{label:'Inglés',locale:'en-US',welcome:'Hello! I am your ANDERGO tutor. Tell me about your day.',suggestions:['Hello! My name is…','How are you?','Help me practice English']},french:{label:'Francés',locale:'fr-FR',welcome:'Bonjour ! Je suis ton tuteur ANDERGO. Parle-moi de ta journée.',suggestions:['Bonjour ! Je m’appelle…','Comment ça va ?','Aide-moi à pratiquer le français']},spanish:{label:'Español',locale:'es-ES',welcome:'¡Hola! Soy tu tutor ANDERGO. Cuéntame cómo fue tu día.',suggestions:['Hola, me llamo…','¿Cómo estás?','Ayúdame a practicar español']}} as const;
+const CONFIG={english:{label:'Inglés',locale:'en-US',welcome:'Hello! I am your ANDERGO tutor. Tell me about your day.',suggestions:['Hello! My name is…','How are you?','Help me practice English']},french:{label:'Francés',locale:'fr-FR',welcome:'Bonjour ! Je suis ton tuteur ANDERGO. Parle-moi de ta journée.',suggestions:['Bonjour ! Je m’appelle…','Comment ça va ?','Aide-moi à pratiquer le français']},spanish:{label:'Español',locale:'es-ES',welcome:'¡Hola! Soy tu tutor ANDERGO. Cuéntame cómo fue tu día.',suggestions:['Hola, me llamo…','¿Cómo estás?','Ayúdame a practicar español']},italian:{label:'Italiano',locale:'it-IT',welcome:'Ciao! Sono il tuo tutor ANDERGO. Raccontami della tua giornata.',suggestions:['Ciao! Mi chiamo…','Come stai?','Aiutami a praticare italiano']}} as const;
 
 function localReply(language:keyof typeof CONFIG,input:string){
  const text=input.toLowerCase();
  if(language==='french'){if(text.includes('comment')||text.includes('ça va'))return 'Ça va très bien, merci ! Et toi, comment vas-tu aujourd’hui ?';if(text.includes('m’appelle')||text.includes('appelle'))return 'Enchanté ! Ton introduction est très claire. De quelle ville viens-tu ?';return 'Très bien ! Continue en français. Peux-tu me donner un exemple avec cette expression ?';}
  if(language==='spanish'){if(text.includes('cómo estás'))return '¡Estoy muy bien, gracias! ¿Y tú, cómo te sientes hoy?';if(text.includes('me llamo'))return '¡Mucho gusto! Tu presentación está muy bien. ¿De qué ciudad eres?';return '¡Muy bien! Sigue practicando. ¿Puedes contarme un poco más?';}
+ if(language==='italian'){if(text.includes('come stai'))return 'Sto molto bene, grazie! E tu, come stai oggi?';if(text.includes('mi chiamo'))return 'Piacere di conoscerti! Di quale città sei?';return 'Benissimo! Continua in italiano. Puoi raccontarmi qualcosa in più?';}
  if(text.includes('how are'))return 'I am great, thank you! How are you feeling today?';if(text.includes('my name'))return 'Nice to meet you! Your introduction is correct. Where are you from?';return 'Good job! Keep speaking in English. Can you tell me a little more?';
 }
 
 export default function TutorScreen(){
- const game=useGame(); const config=CONFIG[game.targetLanguage]; const welcome=game.targetLanguage==='french'?'Bonjour ! Je suis Andergo Tutor. Parle-moi de ta journée.':game.targetLanguage==='spanish'?'¡Hola! Soy Andergo Tutor. Cuéntame cómo fue tu día.':'Hello! I am Andergo Tutor. Tell me about your day.'; const [messages,setMessages]=useState<Message[]>([{role:'tutor',text:welcome}]); const [input,setInput]=useState(''); const [listening,setListening]=useState(false); const [voiceError,setVoiceError]=useState(''); const suggestions=useMemo(()=>config.suggestions,[config]);
+ const game=useGame(); const config=CONFIG[game.targetLanguage]; const welcome=config.welcome; const [messages,setMessages]=useState<Message[]>([{role:'tutor',text:welcome}]); const [input,setInput]=useState(''); const [listening,setListening]=useState(false); const [voiceError,setVoiceError]=useState(''); const suggestions=useMemo(()=>config.suggestions,[config]);
  useSpeechRecognitionEvent('start',()=>{setListening(true);setVoiceError('');});
  useSpeechRecognitionEvent('end',()=>setListening(false));
  useSpeechRecognitionEvent('result',event=>{const transcript=event.results[0]?.transcript??'';setInput(transcript);if(event.isFinal&&transcript.trim())send(transcript);});
