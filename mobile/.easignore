@@ -1,0 +1,13 @@
+# Dependencies and local tooling are restored by EAS.
+node_modules/
+.expo/
+dist/
+.expo-export-check*/
+
+# Local Android artifacts are not part of the cloud build input.
+android/.gradle/
+android/app/build/
+
+# Local editor and diagnostic output.
+*.log
+.idea/

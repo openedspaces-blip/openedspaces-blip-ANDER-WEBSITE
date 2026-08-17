@@ -22,12 +22,12 @@ function localReply(language:keyof typeof CONFIG,input:string){
 
 export default function TutorScreen(){
  const game=useGame(); const config=CONFIG[game.targetLanguage]; const welcome=config.welcome; const [messages,setMessages]=useState<Message[]>([{role:'tutor',text:welcome}]); const [input,setInput]=useState(''); const [listening,setListening]=useState(false); const [voiceError,setVoiceError]=useState(''); const suggestions=useMemo(()=>config.suggestions,[config]);
+ function speak(text:string){Speech.stop();Speech.speak(text,{language:config.locale,rate:.82});}
+ function send(value=input){const clean=value.trim();if(!clean)return;const reply=localReply(game.targetLanguage,clean);setMessages(current=>[...current,{role:'student',text:clean},{role:'tutor',text:reply}]);setInput('');setTimeout(()=>speak(reply),250);}
  useSpeechRecognitionEvent('start',()=>{setListening(true);setVoiceError('');});
  useSpeechRecognitionEvent('end',()=>setListening(false));
  useSpeechRecognitionEvent('result',event=>{const transcript=event.results[0]?.transcript??'';setInput(transcript);if(event.isFinal&&transcript.trim())send(transcript);});
  useSpeechRecognitionEvent('error',event=>{setListening(false);setVoiceError(event.error==='not-allowed'?'Activa el permiso del micrófono para hablar.':'No pude escuchar con claridad. Inténtalo de nuevo.');});
- const speak=(text:string)=>{Speech.stop();Speech.speak(text,{language:config.locale,rate:.82});};
- const send=(value=input)=>{const clean=value.trim();if(!clean)return;const reply=localReply(game.targetLanguage,clean);setMessages(current=>[...current,{role:'student',text:clean},{role:'tutor',text:reply}]);setInput('');setTimeout(()=>speak(reply),250);};
  const talk=async()=>{if(listening){ExpoSpeechRecognitionModule.stop();return;}Speech.stop();const permission=await ExpoSpeechRecognitionModule.requestPermissionsAsync();if(!permission.granted){setVoiceError('Necesito permiso para usar el micrófono.');return;}ExpoSpeechRecognitionModule.start({lang:config.locale,interimResults:true,continuous:false,maxAlternatives:1});};
  return <ThemedView style={s.screen}><SafeAreaView style={s.safe}><KeyboardAvoidingView style={s.safe} behavior={Platform.OS==='ios'?'padding':undefined}>
   <View style={s.header}><Pressable onPress={()=>router.back()} style={s.back}><ThemedText style={s.backText}>‹</ThemedText></Pressable><Image source={require('@/assets/images/andergo-tutor-official.png')} style={s.avatar} contentFit="cover" contentPosition="top"/><View style={s.titleCopy}><ThemedText style={s.kicker}>ANDERGO TUTOR</ThemedText><ThemedText style={s.title}>Conversación en {config.label}</ThemedText><ThemedText style={s.online}>{listening?'● Escuchando…':'● Disponible para practicar'}</ThemedText></View></View>

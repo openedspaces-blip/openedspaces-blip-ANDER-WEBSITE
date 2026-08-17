@@ -788,16 +788,12 @@ async function loadCurrentSubscription({
   return latest;
 }
 
-// Public identity always prefers the claimed ANDERGO username. Never derive
-// a greeting from the email address: an address is private account data, not
-// the student's chosen display identity.
+// Public identity always uses the claimed ANDERGO username. A provider's
+// personal name is intentionally kept out of the signed-in UI; it is only
+// used when the learner explicitly shares a Test result.
 function getDisplayName() {
   const username = authStatus.user?.username;
   if (typeof username === 'string' && username.trim()) return username.trim();
-  const rawName = authStatus.user?.name;
-  const looksLikeName =
-    typeof rawName === 'string' && /^[\p{L}][\p{L}\s'-]{1,49}$/u.test(rawName.trim());
-  if (looksLikeName) return rawName.trim();
   return '';
 }
 
@@ -1768,7 +1764,7 @@ const PAYWALL_PREMIUM_HIGHLIGHTS = [
   'Tutor IA con 500 consultas al mes',
   'Conversación por voz y corrección de pronunciación',
   'Todos los idiomas y todos los niveles',
-  'Certificados y estadísticas completas'
+  'Certificado digital por nivel y estadísticas completas'
 ];
 
 // authStatus.entitlements is only ever populated from GET /api/dashboard
@@ -19188,46 +19184,9 @@ function openTutorDrawer(overrides = {}) {
   tutorDrawerContext = { ...TUTOR_DRAWER_DEFAULT_CONTEXT, ...overrides };
   tutorDrawerReturnFocus = document.activeElement;
 
-  // En una ruta de aprendizaje el Tutor se abre sobre la actividad. Así el
-  // estudiante conserva a la vista el Reading, ejercicio o respuesta que
-  // originó la consulta. El acceso general continúa usando la página completa.
-  if (tutorDrawerContext.contextScope === 'lesson') {
-    const drawer = document.getElementById('tutorDrawer');
-    if (!drawer) return;
-    const skillLabel = getSkillLabel(tutorDrawerContext.skill);
-    const skillEl = drawer.querySelector('[data-drawer-context="skill"]');
-    const levelEl = drawer.querySelector('[data-drawer-context="level"]');
-    const lessonEl = drawer.querySelector('[data-drawer-context="lesson"]');
-    const titleEl = document.getElementById('tutorDrawerTitle');
-    if (skillEl) skillEl.textContent = skillLabel;
-    if (levelEl) levelEl.textContent = learningPathState.level || 'N/A';
-    if (lessonEl) lessonEl.textContent = tutorDrawerContext.lessonTitle || 'Actividad actual';
-    if (titleEl) titleEl.textContent = `Tutor IA · ${skillLabel}`;
-
-    const conversationEl = document.getElementById('tutorDrawerConversation');
-    const onlyWelcomePlaceholder =
-      conversationEl?.children.length === 1 &&
-      conversationEl.firstElementChild?.classList.contains('tutor-welcome');
-    if (conversationEl && onlyWelcomePlaceholder) {
-      conversationEl.firstElementChild.textContent =
-        tutorDrawerContext.welcomeMessage ||
-        `Estoy contigo en “${tutorDrawerContext.lessonTitle || skillLabel}”. Puedo explicarte, darte una pista o practicar sin sacarte de la lección.`;
-    }
-
-    const prompt = document.getElementById('tutorDrawerPrompt');
-    if (prompt) prompt.value = overrides.prefill || '';
-    drawer.classList.add('is-route-assistant', 'open');
-    drawer.removeAttribute('inert');
-    drawer.setAttribute('aria-hidden', 'false');
-    document.body.classList.add('modal-open');
-    document.addEventListener('keydown', tutorDrawerFocusTrapHandler);
-    checkTutorConnection('tutorDrawerConnectionStatus');
-    refreshTutorUsageCounter();
-    updateTutorConversationToggleUI();
-    window.requestAnimationFrame(() => prompt?.focus());
-    return;
-  }
-
+  // A route question uses the full Tutor page, not the compact drawer. The
+  // activity context below stays attached, and its return link brings the
+  // learner straight back to the lesson that originated the question.
   if (window.location.hash !== '#tutor') tutorPageReturnHash = window.location.hash || '#learn';
 
   history.pushState(null, '', '#tutor');
@@ -21026,7 +20985,14 @@ async function gradeLessonTest(event) {
   form.querySelector('.tests-result')?.scrollIntoView({ behavior: 'smooth', block: 'center' });
 }
 
-function getLessonTestShareUrl() {
+function getTestShareName() {
+  const rawName = authStatus.user?.name;
+  return typeof rawName === 'string' && /^[\p{L}][\p{L}\s'-]{1,49}$/u.test(rawName.trim())
+    ? rawName.trim()
+    : '';
+}
+
+function getLessonTestShareUrl(learnerName = '') {
   const unit = lessonTestState.units.find((item) => item.id === lessonTestState.unitId);
   const payload = {
     language: lessonTestState.language,
@@ -21035,6 +21001,7 @@ function getLessonTestShareUrl() {
     score: lessonTestState.result?.score,
     total: 100
   };
+  if (learnerName) payload.name = learnerName;
   const url = new URL(window.location.href);
   url.hash = 'tests';
   url.searchParams.set('testResult', btoa(unescape(encodeURIComponent(JSON.stringify(payload)))));
@@ -21043,14 +21010,19 @@ function getLessonTestShareUrl() {
 
 async function shareLessonTestResult() {
   const unit = lessonTestState.units.find((item) => item.id === lessonTestState.unitId);
-  const text = `Completé ${unit?.title || 'mi test'} (${lessonTestState.language === 'french' ? 'Français' : 'English'} ${lessonTestState.level}) en ANDERGO con ${lessonTestState.result?.score}/100.`;
+  const learnerName = getTestShareName();
+  const testLabel = unit?.title || 'mi test';
+  const languageLabel = lessonTestState.language === 'french' ? 'Français' : 'English';
+  const text = learnerName
+    ? `${learnerName} completó ${testLabel} (${languageLabel} ${lessonTestState.level}) en ANDERGO con ${lessonTestState.result?.score}/100.`
+    : `Completé ${testLabel} (${languageLabel} ${lessonTestState.level}) en ANDERGO con ${lessonTestState.result?.score}/100.`;
   await shareAndergoAchievement({
-    title: 'Mi resultado ANDERGO',
+    title: learnerName ? `Resultado de ${learnerName}` : 'Mi resultado ANDERGO',
     text,
-    url: getLessonTestShareUrl(),
+    url: getLessonTestShareUrl(learnerName),
     preserveUrl: true,
     score: lessonTestState.result?.score,
-    subtitle: `${unit?.title || 'Mi test'} · ${lessonTestState.level}`
+    subtitle: `${learnerName ? `${learnerName} · ` : ''}${testLabel} · ${lessonTestState.level}`
   });
 }
 
@@ -21250,7 +21222,7 @@ async function loadTestsView() {
     try {
       const data = JSON.parse(decodeURIComponent(escape(atob(shared))));
       if (stage)
-        stage.innerHTML = `<div class="tests-shared-result"><span>Resultado compartido</span><strong>${escapeHtml(String(data.score))}/100</strong><h3>${escapeHtml(data.lesson)}</h3><p>${data.language === 'french' ? 'Français' : data.language === 'spanish' ? 'Español' : 'English'} · ${escapeHtml(data.level)}</p><button type="button" class="primary-btn" id="takeSharedTestBtn">Tomar un test</button></div>`;
+        stage.innerHTML = `<div class="tests-shared-result"><span>Resultado compartido</span><strong>${escapeHtml(String(data.score))}/100</strong><h3>${escapeHtml(data.lesson)}</h3><p>${data.name ? `${escapeHtml(String(data.name))} · ` : ''}${data.language === 'french' ? 'Français' : data.language === 'spanish' ? 'Español' : 'English'} · ${escapeHtml(data.level)}</p><button type="button" class="primary-btn" id="takeSharedTestBtn">Tomar un test</button></div>`;
       document.getElementById('takeSharedTestBtn')?.addEventListener('click', renderLessonTest);
     } catch {
       /* Ignore malformed public result links. */

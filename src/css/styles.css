@@ -19516,6 +19516,39 @@ footer small {
   font-size: 0.7rem;
 }
 
+/* Footer: keep the academy signature and essential links visible without
+   turning the close of every page into a second navigation screen. */
+.footer-brand strong {
+  display: flex;
+  flex-direction: column;
+  gap: 0.18rem;
+  letter-spacing: 0.11em;
+}
+
+.footer-brand strong span {
+  color: #d9e9ff;
+  font-size: 0.56em;
+  font-weight: 750;
+  letter-spacing: 0.08em;
+}
+
+@media (min-width: 641px) {
+  footer {
+    padding-top: 24px;
+    padding-bottom: 14px;
+  }
+
+  .footer-top {
+    gap: clamp(20px, 3vw, 38px);
+    margin-bottom: 12px;
+  }
+
+  .footer-links {
+    grid-template-columns: minmax(105px, 0.8fr) minmax(190px, 1.25fr) minmax(165px, 0.9fr);
+    gap: clamp(16px, 2.5vw, 32px);
+  }
+}
+
 @media (max-width: 900px) {
   .language-picker-section > .global-language-controls {
     align-items: stretch;
@@ -25849,7 +25882,9 @@ body {
 
 .tests-shell {
   display: grid;
-  grid-template-columns: minmax(250px, 280px) minmax(0, 1fr);
+  /* Keep the choices easy to scan, while giving the exam itself the widest
+     possible reading area on desktop. */
+  grid-template-columns: minmax(218px, 242px) minmax(0, 1fr);
   gap: 1.1rem;
   width: min(1640px, calc(100% - 2rem));
   margin: 0 auto;
@@ -25867,7 +25902,7 @@ body {
   align-self: start;
   display: grid;
   gap: 0.9rem;
-  padding: 1.25rem;
+  padding: 1rem;
   position: sticky;
   top: 96px;
 }

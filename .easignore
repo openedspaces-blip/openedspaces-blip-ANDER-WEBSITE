@@ -1,0 +1,20 @@
+# The Expo application lives exclusively in /mobile. Keep local and web-only
+# artifacts out of the Android build archive.
+node_modules/
+.deploy-worktree/
+.claude/
+.codex-deploy/
+.vercel/
+public/
+output/
+tmp/
+dist/
+downloads/
+*.log
+
+# The mobile project applies its own .easignore for generated files.
+mobile/node_modules/
+mobile/.expo/
+mobile/.expo-export-check*/
+mobile/android/.gradle/
+mobile/android/app/build/

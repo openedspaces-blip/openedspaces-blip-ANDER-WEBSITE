@@ -19,8 +19,8 @@ export type CurriculumLesson = {
   accessTier?: 'free' | 'premium';
   completed?: boolean;
   locked?: boolean;
-  vocabulary?: Array<{ word: string; translation: string; example?: string }>;
-  dialogue?: Array<{ speaker?: string; line: string; translation?: string }>;
+  vocabulary?: { word: string; translation: string; example?: string }[];
+  dialogue?: { speaker?: string; line: string; translation?: string }[];
   phrases?: string[];
   audioUrl?: string | null;
 };
@@ -46,7 +46,7 @@ export type LessonActivity = {
   officialAudioUrl?: string | null;
   slowAudioUrl?: string | null;
   transcript?: string | null;
-  pairs: Array<{ source: string; target: string; example?: string }>;
+  pairs: { source: string; target: string; example?: string }[];
   reading?: { title: string; text: string; questions: string[] } | null;
 };
 
@@ -56,7 +56,7 @@ export async function loadCurriculum(language: 'english' | 'french' | 'spanish',
     const routeResponse = await fetch(`${ANDERGO_API_URL}/api/lessons?language=${language}&level=${level}`, {
       headers: accessToken ? { Authorization: `Bearer ${accessToken}` } : {},
     });
-    const routePayload = await routeResponse.json().catch(() => null) as { lessons?: Array<Record<string, unknown>> } | null;
+    const routePayload = await routeResponse.json().catch(() => null) as { lessons?: Record<string, unknown>[] } | null;
     if (routeResponse.ok && Array.isArray(routePayload?.lessons)) {
       const lessons: CurriculumLesson[] = routePayload.lessons.map((lesson) => ({
         id: String(lesson.id ?? ''), slug: String(lesson.slug ?? ''), skill: lesson.skill as CurriculumLesson['skill'], title: String(lesson.title ?? ''),
@@ -79,13 +79,13 @@ export async function loadCurriculum(language: 'english' | 'french' | 'spanish',
       headers: { apikey: SUPABASE_PUBLISHABLE_KEY },
     });
     if (!response.ok) throw new Error(`Curriculum request failed: ${response.status}`);
-    const payload = (await response.json()) as Array<CurriculumLesson & {
+    const payload = (await response.json()) as (CurriculumLesson & {
       order_index?: number;
       xp_reward?: number;
       access_tier?: 'free' | 'premium';
       audio_url?: string | null;
       course_units?: { slug?: string; order_index?: number } | null;
-    }>;
+    })[];
     const lessons = Array.isArray(payload)
       ? payload.map((lesson) => ({
           id: lesson.id,
@@ -122,10 +122,10 @@ export async function loadLessonActivity(
       headers: { apikey: SUPABASE_PUBLISHABLE_KEY },
     });
     if (!response.ok) throw new Error(`Lesson request failed: ${response.status}`);
-    const row = ((await response.json()) as Array<{
+    const row = ((await response.json()) as {
       title: string; description?: string; mission?: string | null; grammar_note?: string | null;
       audio_url?: string | null; phrases?: string[] | null; lesson_sections?: LessonSection[] | null;
-    }>)[0];
+    }[])[0];
     if (!row) return null;
 
     const sections = [...(row.lesson_sections ?? [])].sort((a, b) => (a.order_index ?? 0) - (b.order_index ?? 0));

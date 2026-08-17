@@ -1657,92 +1657,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Lavoro e obiettivi», un piccolo gruppo della comunità parla di obiettivi, scadenza e _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Lavoro e obiettivi: parole»? “Nel tema Lavoro e obiettivi un…”",
             "options": [
               {
                 "id": "o1",
-                "text": "squadra"
+                "text": "Nel tema «Lavoro e obiettivi», un piccolo gruppo della comunità parla di obiettivi, scadenza e squadra."
               },
               {
                 "id": "o2",
-                "text": "un'esperienza"
+                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
               },
               {
                 "id": "o3",
-                "text": "collaborare"
+                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
               },
               {
                 "id": "o4",
-                "text": "tema"
+                "text": "Poi il gruppo riassume le idee più importanti."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Lavoro e obiettivi: parole»? “Ogni persona racconta un'esperienza…”",
             "options": [
               {
                 "id": "o1",
-                "text": "un'esperienza"
+                "text": "Nel tema «Lavoro e obiettivi», un piccolo gruppo della comunità parla di obiettivi, scadenza e squadra."
               },
               {
                 "id": "o2",
-                "text": "persona"
+                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
               },
               {
                 "id": "o3",
-                "text": "collaborare"
+                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
               },
               {
                 "id": "o4",
-                "text": "tema"
+                "text": "Poi il gruppo riassume le idee più importanti."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Lavoro e obiettivi: parole»? “Alla fine decidono di collaborare perché…”",
             "options": [
               {
                 "id": "o1",
-                "text": "un'esperienza"
+                "text": "Nel tema «Lavoro e obiettivi», un piccolo gruppo della comunità parla di obiettivi, scadenza e squadra."
               },
               {
                 "id": "o2",
-                "text": "collaborare"
+                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
               },
               {
                 "id": "o3",
-                "text": "perché"
+                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
               },
               {
                 "id": "o4",
-                "text": "migliorare"
+                "text": "Poi il gruppo riassume le idee più importanti."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Lavoro e obiettivi: parole»? “Poi il gruppo…”",
             "options": [
               {
                 "id": "o1",
-                "text": "un'esperienza"
+                "text": "Nel tema «Lavoro e obiettivi», un piccolo gruppo della comunità parla di obiettivi, scadenza e squadra."
               },
               {
                 "id": "o2",
-                "text": "collaborare"
+                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
               },
               {
                 "id": "o3",
-                "text": "migliorare"
+                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
               },
               {
                 "id": "o4",
-                "text": "gruppo"
+                "text": "Poi il gruppo riassume le idee più importanti."
               }
             ]
           }
@@ -1753,42 +1753,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Lavoro e obiettivi», un piccolo gruppo della comunità parla di obiettivi, scadenza e _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Lavoro e obiettivi: parole»? “Nel tema Lavoro e obiettivi un…”",
         "options": [
-          "squadra",
-          "un'esperienza",
-          "collaborare",
-          "tema"
+          "Nel tema «Lavoro e obiettivi», un piccolo gruppo della comunità parla di obiettivi, scadenza e squadra.",
+          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
+          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+          "Poi il gruppo riassume le idee più importanti."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Lavoro e obiettivi: parole»? “Ogni persona racconta un'esperienza…”",
         "options": [
-          "un'esperienza",
-          "persona",
-          "collaborare",
-          "tema"
+          "Nel tema «Lavoro e obiettivi», un piccolo gruppo della comunità parla di obiettivi, scadenza e squadra.",
+          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
+          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+          "Poi il gruppo riassume le idee più importanti."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Lavoro e obiettivi: parole»? “Alla fine decidono di collaborare perché…”",
         "options": [
-          "un'esperienza",
-          "collaborare",
-          "perché",
-          "migliorare"
+          "Nel tema «Lavoro e obiettivi», un piccolo gruppo della comunità parla di obiettivi, scadenza e squadra.",
+          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
+          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+          "Poi il gruppo riassume le idee più importanti."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Lavoro e obiettivi: parole»? “Poi il gruppo…”",
         "options": [
-          "un'esperienza",
-          "collaborare",
-          "migliorare",
-          "gruppo"
+          "Nel tema «Lavoro e obiettivi», un piccolo gruppo della comunità parla di obiettivi, scadenza e squadra.",
+          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
+          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+          "Poi il gruppo riassume le idee più importanti."
         ]
       }
     ]
@@ -2083,92 +2083,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Progetti e responsabilità, due partecipanti mettono a confronto le loro _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Progetti e responsabilità · Ascolto»? “In questa puntata dedicata a Progetti…”",
             "options": [
               {
                 "id": "o1",
-                "text": "posizioni"
+                "text": "In questa puntata dedicata a Progetti e responsabilità, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "responsabilità"
+                "text": "La prima osserva che scadenza non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "partecipanti"
+                "text": "L’altro aggiunge che incarico è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "essere"
+                "text": "Nel confronto emerge una possibile difficoltà: risorsa può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che incarico è utile solo se viene spiegato con esempi verificabili.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Progetti e responsabilità · Ascolto»? “L’altro aggiunge che incarico è…”",
             "options": [
               {
                 "id": "o1",
-                "text": "responsabilità"
+                "text": "In questa puntata dedicata a Progetti e responsabilità, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "aggiunge"
+                "text": "L’altro aggiunge che incarico è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o3",
-                "text": "partecipanti"
+                "text": "La prima osserva che scadenza non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o4",
-                "text": "isolatamente"
+                "text": "Nel confronto emerge una possibile difficoltà: risorsa può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: risorsa può cambiare la prospettiva di chi ascolta.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Progetti e responsabilità · Ascolto»? “Nel confronto emerge una possibile…”",
             "options": [
               {
                 "id": "o1",
-                "text": "responsabilità"
+                "text": "In questa puntata dedicata a Progetti e responsabilità, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "partecipanti"
+                "text": "La prima osserva che scadenza non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "possibile"
+                "text": "Nel confronto emerge una possibile difficoltà: risorsa può cambiare la prospettiva di chi ascolta."
               },
               {
                 "id": "o4",
-                "text": "essere"
+                "text": "L’altro aggiunge che incarico è utile solo se viene spiegato con esempi verificabili."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Progetti e responsabilità · Ascolto»? “Alla fine i partecipanti concordano su un…”",
             "options": [
               {
                 "id": "o1",
-                "text": "responsabilità"
+                "text": "In questa puntata dedicata a Progetti e responsabilità, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "partecipanti"
+                "text": "La prima osserva che scadenza non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "isolatamente"
+                "text": "L’altro aggiunge che incarico è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "scelte"
+                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
               }
             ]
           }
@@ -2188,42 +2188,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Progetti e responsabilità, due partecipanti mettono a confronto le loro _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Progetti e responsabilità · Ascolto»? “In questa puntata dedicata a Progetti…”",
         "options": [
-          "posizioni",
-          "responsabilità",
-          "partecipanti",
-          "essere"
+          "In questa puntata dedicata a Progetti e responsabilità, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che scadenza non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che incarico è utile solo se viene spiegato con esempi verificabili.",
+          "Nel confronto emerge una possibile difficoltà: risorsa può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che incarico è utile solo se viene spiegato con esempi verificabili.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Progetti e responsabilità · Ascolto»? “L’altro aggiunge che incarico è…”",
         "options": [
-          "responsabilità",
-          "aggiunge",
-          "partecipanti",
-          "isolatamente"
+          "In questa puntata dedicata a Progetti e responsabilità, due partecipanti mettono a confronto le loro posizioni.",
+          "L’altro aggiunge che incarico è utile solo se viene spiegato con esempi verificabili.",
+          "La prima osserva che scadenza non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: risorsa può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: risorsa può cambiare la prospettiva di chi ascolta.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Progetti e responsabilità · Ascolto»? “Nel confronto emerge una possibile…”",
         "options": [
-          "responsabilità",
-          "partecipanti",
-          "possibile",
-          "essere"
+          "In questa puntata dedicata a Progetti e responsabilità, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che scadenza non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: risorsa può cambiare la prospettiva di chi ascolta.",
+          "L’altro aggiunge che incarico è utile solo se viene spiegato con esempi verificabili."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Progetti e responsabilità · Ascolto»? “Alla fine i partecipanti concordano su un…”",
         "options": [
-          "responsabilità",
-          "partecipanti",
-          "isolatamente",
-          "scelte"
+          "In questa puntata dedicata a Progetti e responsabilità, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che scadenza non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che incarico è utile solo se viene spiegato con esempi verificabili.",
+          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
         ]
       }
     ]
@@ -2290,92 +2290,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Argomentazione pubblica, due partecipanti mettono a confronto le loro _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Argomentazione pubblica · Ascolto»? “In questa puntata dedicata a…”",
             "options": [
               {
                 "id": "o1",
-                "text": "posizioni"
+                "text": "In questa puntata dedicata a Argomentazione pubblica, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "Argomentazione"
+                "text": "La prima osserva che tesi non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "partecipanti"
+                "text": "L’altro aggiunge che obiezione è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "essere"
+                "text": "Nel confronto emerge una possibile difficoltà: evidenza può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che obiezione è utile solo se viene spiegato con esempi verificabili.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Argomentazione pubblica · Ascolto»? “L’altro aggiunge che obiezione è…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Argomentazione"
+                "text": "In questa puntata dedicata a Argomentazione pubblica, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "aggiunge"
+                "text": "L’altro aggiunge che obiezione è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o3",
-                "text": "partecipanti"
+                "text": "La prima osserva che tesi non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o4",
-                "text": "isolatamente"
+                "text": "Nel confronto emerge una possibile difficoltà: evidenza può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: evidenza può cambiare la prospettiva di chi ascolta.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Argomentazione pubblica · Ascolto»? “Nel confronto emerge una possibile…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Argomentazione"
+                "text": "In questa puntata dedicata a Argomentazione pubblica, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "partecipanti"
+                "text": "La prima osserva che tesi non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "possibile"
+                "text": "Nel confronto emerge una possibile difficoltà: evidenza può cambiare la prospettiva di chi ascolta."
               },
               {
                 "id": "o4",
-                "text": "essere"
+                "text": "L’altro aggiunge che obiezione è utile solo se viene spiegato con esempi verificabili."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Argomentazione pubblica · Ascolto»? “Alla fine i partecipanti concordano su un…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Argomentazione"
+                "text": "In questa puntata dedicata a Argomentazione pubblica, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "partecipanti"
+                "text": "La prima osserva che tesi non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "isolatamente"
+                "text": "L’altro aggiunge che obiezione è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "scelte"
+                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
               }
             ]
           }
@@ -2395,42 +2395,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Argomentazione pubblica, due partecipanti mettono a confronto le loro _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Argomentazione pubblica · Ascolto»? “In questa puntata dedicata a…”",
         "options": [
-          "posizioni",
-          "Argomentazione",
-          "partecipanti",
-          "essere"
+          "In questa puntata dedicata a Argomentazione pubblica, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che tesi non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che obiezione è utile solo se viene spiegato con esempi verificabili.",
+          "Nel confronto emerge una possibile difficoltà: evidenza può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che obiezione è utile solo se viene spiegato con esempi verificabili.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Argomentazione pubblica · Ascolto»? “L’altro aggiunge che obiezione è…”",
         "options": [
-          "Argomentazione",
-          "aggiunge",
-          "partecipanti",
-          "isolatamente"
+          "In questa puntata dedicata a Argomentazione pubblica, due partecipanti mettono a confronto le loro posizioni.",
+          "L’altro aggiunge che obiezione è utile solo se viene spiegato con esempi verificabili.",
+          "La prima osserva che tesi non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: evidenza può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: evidenza può cambiare la prospettiva di chi ascolta.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Argomentazione pubblica · Ascolto»? “Nel confronto emerge una possibile…”",
         "options": [
-          "Argomentazione",
-          "partecipanti",
-          "possibile",
-          "essere"
+          "In questa puntata dedicata a Argomentazione pubblica, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che tesi non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: evidenza può cambiare la prospettiva di chi ascolta.",
+          "L’altro aggiunge che obiezione è utile solo se viene spiegato con esempi verificabili."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Argomentazione pubblica · Ascolto»? “Alla fine i partecipanti concordano su un…”",
         "options": [
-          "Argomentazione",
-          "partecipanti",
-          "isolatamente",
-          "scelte"
+          "In questa puntata dedicata a Argomentazione pubblica, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che tesi non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che obiezione è utile solo se viene spiegato con esempi verificabili.",
+          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
         ]
       }
     ]
@@ -2497,92 +2497,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Linguaggio e persuasione, due partecipanti mettono a confronto le loro _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Linguaggio e persuasione · Ascolto»? “In questa puntata dedicata a Linguaggio…”",
             "options": [
               {
                 "id": "o1",
-                "text": "posizioni"
+                "text": "In questa puntata dedicata a Linguaggio e persuasione, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "partecipanti"
+                "text": "La prima osserva che retorica non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "essere"
+                "text": "L’altro aggiunge che premessa è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "isolatamente"
+                "text": "Nel confronto emerge una possibile difficoltà: inferenza può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che premessa è utile solo se viene spiegato con esempi verificabili.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Linguaggio e persuasione · Ascolto»? “L’altro aggiunge che premessa è…”",
             "options": [
               {
                 "id": "o1",
-                "text": "partecipanti"
+                "text": "In questa puntata dedicata a Linguaggio e persuasione, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "aggiunge"
+                "text": "L’altro aggiunge che premessa è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o3",
-                "text": "isolatamente"
+                "text": "La prima osserva che retorica non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o4",
-                "text": "verificabili"
+                "text": "Nel confronto emerge una possibile difficoltà: inferenza può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: inferenza può cambiare la prospettiva di chi ascolta.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Linguaggio e persuasione · Ascolto»? “Nel confronto emerge una possibile…”",
             "options": [
               {
                 "id": "o1",
-                "text": "partecipanti"
+                "text": "In questa puntata dedicata a Linguaggio e persuasione, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "essere"
+                "text": "La prima osserva che retorica non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "possibile"
+                "text": "Nel confronto emerge una possibile difficoltà: inferenza può cambiare la prospettiva di chi ascolta."
               },
               {
                 "id": "o4",
-                "text": "isolatamente"
+                "text": "L’altro aggiunge che premessa è utile solo se viene spiegato con esempi verificabili."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Linguaggio e persuasione · Ascolto»? “Alla fine i partecipanti concordano su un…”",
             "options": [
               {
                 "id": "o1",
-                "text": "partecipanti"
+                "text": "In questa puntata dedicata a Linguaggio e persuasione, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "isolatamente"
+                "text": "La prima osserva che retorica non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "verificabili"
+                "text": "L’altro aggiunge che premessa è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "scelte"
+                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
               }
             ]
           }
@@ -2602,42 +2602,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Linguaggio e persuasione, due partecipanti mettono a confronto le loro _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Linguaggio e persuasione · Ascolto»? “In questa puntata dedicata a Linguaggio…”",
         "options": [
-          "posizioni",
-          "partecipanti",
-          "essere",
-          "isolatamente"
+          "In questa puntata dedicata a Linguaggio e persuasione, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che retorica non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che premessa è utile solo se viene spiegato con esempi verificabili.",
+          "Nel confronto emerge una possibile difficoltà: inferenza può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che premessa è utile solo se viene spiegato con esempi verificabili.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Linguaggio e persuasione · Ascolto»? “L’altro aggiunge che premessa è…”",
         "options": [
-          "partecipanti",
-          "aggiunge",
-          "isolatamente",
-          "verificabili"
+          "In questa puntata dedicata a Linguaggio e persuasione, due partecipanti mettono a confronto le loro posizioni.",
+          "L’altro aggiunge che premessa è utile solo se viene spiegato con esempi verificabili.",
+          "La prima osserva che retorica non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: inferenza può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: inferenza può cambiare la prospettiva di chi ascolta.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Linguaggio e persuasione · Ascolto»? “Nel confronto emerge una possibile…”",
         "options": [
-          "partecipanti",
-          "essere",
-          "possibile",
-          "isolatamente"
+          "In questa puntata dedicata a Linguaggio e persuasione, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che retorica non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: inferenza può cambiare la prospettiva di chi ascolta.",
+          "L’altro aggiunge che premessa è utile solo se viene spiegato con esempi verificabili."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Linguaggio e persuasione · Ascolto»? “Alla fine i partecipanti concordano su un…”",
         "options": [
-          "partecipanti",
-          "isolatamente",
-          "verificabili",
-          "scelte"
+          "In questa puntata dedicata a Linguaggio e persuasione, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che retorica non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che premessa è utile solo se viene spiegato con esempi verificabili.",
+          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
         ]
       }
     ]
@@ -2695,92 +2695,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“_____, come stai?”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Benvenuti in Italia: ascolta»? “Ciao come stai…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Ciao"
+                "text": "Ciao, come stai?"
               },
               {
                 "id": "o2",
-                "text": "Parliamo"
+                "text": "Parliamo di ciao."
               },
               {
                 "id": "o3",
-                "text": "imparare"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "comunità"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“_____ di ciao.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Benvenuti in Italia: ascolta»? “Parliamo di ciao…”",
             "options": [
               {
                 "id": "o1",
-                "text": "piace"
+                "text": "Ciao, come stai?"
               },
               {
                 "id": "o2",
-                "text": "Parliamo"
+                "text": "Parliamo di ciao."
               },
               {
                 "id": "o3",
-                "text": "domani"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "pratica"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Benvenuti in Italia: ascolta»? “Mi piace imparare…”",
             "options": [
               {
                 "id": "o1",
-                "text": "piace"
+                "text": "Ciao, come stai?"
               },
               {
                 "id": "o2",
-                "text": "domani"
+                "text": "Parliamo di ciao."
               },
               {
                 "id": "o3",
-                "text": "comunità"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "pratica"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Benvenuti in Italia: ascolta»? “Facciamo pratica insieme…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Ciao"
+                "text": "Ciao, come stai?"
               },
               {
                 "id": "o2",
-                "text": "stai"
+                "text": "Parliamo di ciao."
               },
               {
                 "id": "o3",
-                "text": "piace"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "pratica"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           }
@@ -2791,42 +2791,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“_____, come stai?”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Benvenuti in Italia: ascolta»? “Ciao come stai…”",
         "options": [
-          "Ciao",
-          "Parliamo",
-          "imparare",
-          "comunità"
+          "Ciao, come stai?",
+          "Parliamo di ciao.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“_____ di ciao.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Benvenuti in Italia: ascolta»? “Parliamo di ciao…”",
         "options": [
-          "piace",
-          "Parliamo",
-          "domani",
-          "pratica"
+          "Ciao, come stai?",
+          "Parliamo di ciao.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Benvenuti in Italia: ascolta»? “Mi piace imparare…”",
         "options": [
-          "piace",
-          "domani",
-          "comunità",
-          "pratica"
+          "Ciao, come stai?",
+          "Parliamo di ciao.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Benvenuti in Italia: ascolta»? “Facciamo pratica insieme…”",
         "options": [
-          "Ciao",
-          "stai",
-          "piace",
-          "pratica"
+          "Ciao, come stai?",
+          "Parliamo di ciao.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       }
     ]
@@ -2884,92 +2884,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“Di solito prendo _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Vita in città: ascolta»? “Di solito prendo…”",
             "options": [
               {
                 "id": "o1",
-                "text": "l’autobus"
+                "text": "Di solito prendo l’autobus."
               },
               {
                 "id": "o2",
-                "text": "solito"
+                "text": "Parliamo di quartiere."
               },
               {
                 "id": "o3",
-                "text": "prendo"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "domani"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Vita in città: ascolta»? “Parliamo di quartiere…”",
             "options": [
               {
                 "id": "o1",
-                "text": "solito"
+                "text": "Di solito prendo l’autobus."
               },
               {
                 "id": "o2",
-                "text": "quartiere"
+                "text": "Parliamo di quartiere."
               },
               {
                 "id": "o3",
-                "text": "prendo"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "domani"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Vita in città: ascolta»? “Mi piace imparare…”",
             "options": [
               {
                 "id": "o1",
-                "text": "piace"
+                "text": "Di solito prendo l’autobus."
               },
               {
                 "id": "o2",
-                "text": "solito"
+                "text": "Parliamo di quartiere."
               },
               {
                 "id": "o3",
-                "text": "comunità"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "prendo"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Vita in città: ascolta»? “Facciamo pratica insieme…”",
             "options": [
               {
                 "id": "o1",
-                "text": "l’autobus"
+                "text": "Di solito prendo l’autobus."
               },
               {
                 "id": "o2",
-                "text": "quartiere"
+                "text": "Parliamo di quartiere."
               },
               {
                 "id": "o3",
-                "text": "piace"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "pratica"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           }
@@ -2980,42 +2980,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“Di solito prendo _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Vita in città: ascolta»? “Di solito prendo…”",
         "options": [
-          "l’autobus",
-          "solito",
-          "prendo",
-          "domani"
+          "Di solito prendo l’autobus.",
+          "Parliamo di quartiere.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Vita in città: ascolta»? “Parliamo di quartiere…”",
         "options": [
-          "solito",
-          "quartiere",
-          "prendo",
-          "domani"
+          "Di solito prendo l’autobus.",
+          "Parliamo di quartiere.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Vita in città: ascolta»? “Mi piace imparare…”",
         "options": [
-          "piace",
-          "solito",
-          "comunità",
-          "prendo"
+          "Di solito prendo l’autobus.",
+          "Parliamo di quartiere.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Vita in città: ascolta»? “Facciamo pratica insieme…”",
         "options": [
-          "l’autobus",
-          "quartiere",
-          "piace",
-          "pratica"
+          "Di solito prendo l’autobus.",
+          "Parliamo di quartiere.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       }
     ]
@@ -6155,92 +6155,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Viaggi consapevoli», un piccolo gruppo della comunità parla di itinerario, prenotazione e _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Viaggi consapevoli: parole»? “Nel tema Viaggi consapevoli un…”",
             "options": [
               {
                 "id": "o1",
-                "text": "paesaggio"
+                "text": "Nel tema «Viaggi consapevoli», un piccolo gruppo della comunità parla di itinerario, prenotazione e paesaggio."
               },
               {
                 "id": "o2",
-                "text": "un'esperienza"
+                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
               },
               {
                 "id": "o3",
-                "text": "Viaggi"
+                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
               },
               {
                 "id": "o4",
-                "text": "gruppo"
+                "text": "Poi il gruppo riassume le idee più importanti."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Viaggi consapevoli: parole»? “Ogni persona racconta un'esperienza…”",
             "options": [
               {
                 "id": "o1",
-                "text": "un'esperienza"
+                "text": "Nel tema «Viaggi consapevoli», un piccolo gruppo della comunità parla di itinerario, prenotazione e paesaggio."
               },
               {
                 "id": "o2",
-                "text": "persona"
+                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
               },
               {
                 "id": "o3",
-                "text": "prenotazione"
+                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
               },
               {
                 "id": "o4",
-                "text": "consapevoli"
+                "text": "Poi il gruppo riassume le idee più importanti."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Viaggi consapevoli: parole»? “Alla fine decidono di collaborare perché…”",
             "options": [
               {
                 "id": "o1",
-                "text": "un'esperienza"
+                "text": "Nel tema «Viaggi consapevoli», un piccolo gruppo della comunità parla di itinerario, prenotazione e paesaggio."
               },
               {
                 "id": "o2",
-                "text": "prenotazione"
+                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
               },
               {
                 "id": "o3",
-                "text": "perché"
+                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
               },
               {
                 "id": "o4",
-                "text": "consapevoli"
+                "text": "Poi il gruppo riassume le idee più importanti."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Viaggi consapevoli: parole»? “Poi il gruppo…”",
             "options": [
               {
                 "id": "o1",
-                "text": "un'esperienza"
+                "text": "Nel tema «Viaggi consapevoli», un piccolo gruppo della comunità parla di itinerario, prenotazione e paesaggio."
               },
               {
                 "id": "o2",
-                "text": "prenotazione"
+                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
               },
               {
                 "id": "o3",
-                "text": "consapevoli"
+                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
               },
               {
                 "id": "o4",
-                "text": "gruppo"
+                "text": "Poi il gruppo riassume le idee più importanti."
               }
             ]
           }
@@ -6251,42 +6251,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Viaggi consapevoli», un piccolo gruppo della comunità parla di itinerario, prenotazione e _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Viaggi consapevoli: parole»? “Nel tema Viaggi consapevoli un…”",
         "options": [
-          "paesaggio",
-          "un'esperienza",
-          "Viaggi",
-          "gruppo"
+          "Nel tema «Viaggi consapevoli», un piccolo gruppo della comunità parla di itinerario, prenotazione e paesaggio.",
+          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
+          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+          "Poi il gruppo riassume le idee più importanti."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Viaggi consapevoli: parole»? “Ogni persona racconta un'esperienza…”",
         "options": [
-          "un'esperienza",
-          "persona",
-          "prenotazione",
-          "consapevoli"
+          "Nel tema «Viaggi consapevoli», un piccolo gruppo della comunità parla di itinerario, prenotazione e paesaggio.",
+          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
+          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+          "Poi il gruppo riassume le idee più importanti."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Viaggi consapevoli: parole»? “Alla fine decidono di collaborare perché…”",
         "options": [
-          "un'esperienza",
-          "prenotazione",
-          "perché",
-          "consapevoli"
+          "Nel tema «Viaggi consapevoli», un piccolo gruppo della comunità parla di itinerario, prenotazione e paesaggio.",
+          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
+          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+          "Poi il gruppo riassume le idee più importanti."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Viaggi consapevoli: parole»? “Poi il gruppo…”",
         "options": [
-          "un'esperienza",
-          "prenotazione",
-          "consapevoli",
-          "gruppo"
+          "Nel tema «Viaggi consapevoli», un piccolo gruppo della comunità parla di itinerario, prenotazione e paesaggio.",
+          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
+          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+          "Poi il gruppo riassume le idee più importanti."
         ]
       }
     ]
@@ -6581,92 +6581,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Città e mobilità, due partecipanti mettono a confronto le loro _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Città e mobilità · Ascolto»? “In questa puntata dedicata a Città…”",
             "options": [
               {
                 "id": "o1",
-                "text": "posizioni"
+                "text": "In questa puntata dedicata a Città e mobilità, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "partecipanti"
+                "text": "La prima osserva che percorso non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "essere"
+                "text": "L’altro aggiunge che traffico è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "isolatamente"
+                "text": "Nel confronto emerge una possibile difficoltà: abbonamento può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che traffico è utile solo se viene spiegato con esempi verificabili.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Città e mobilità · Ascolto»? “L’altro aggiunge che traffico è…”",
             "options": [
               {
                 "id": "o1",
-                "text": "partecipanti"
+                "text": "In questa puntata dedicata a Città e mobilità, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "aggiunge"
+                "text": "L’altro aggiunge che traffico è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o3",
-                "text": "isolatamente"
+                "text": "La prima osserva che percorso non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o4",
-                "text": "verificabili"
+                "text": "Nel confronto emerge una possibile difficoltà: abbonamento può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: abbonamento può cambiare la prospettiva di chi ascolta.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Città e mobilità · Ascolto»? “Nel confronto emerge una possibile…”",
             "options": [
               {
                 "id": "o1",
-                "text": "partecipanti"
+                "text": "In questa puntata dedicata a Città e mobilità, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "essere"
+                "text": "La prima osserva che percorso non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "possibile"
+                "text": "Nel confronto emerge una possibile difficoltà: abbonamento può cambiare la prospettiva di chi ascolta."
               },
               {
                 "id": "o4",
-                "text": "isolatamente"
+                "text": "L’altro aggiunge che traffico è utile solo se viene spiegato con esempi verificabili."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Città e mobilità · Ascolto»? “Alla fine i partecipanti concordano su un…”",
             "options": [
               {
                 "id": "o1",
-                "text": "partecipanti"
+                "text": "In questa puntata dedicata a Città e mobilità, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "isolatamente"
+                "text": "La prima osserva che percorso non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "verificabili"
+                "text": "L’altro aggiunge che traffico è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "scelte"
+                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
               }
             ]
           }
@@ -6686,42 +6686,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Città e mobilità, due partecipanti mettono a confronto le loro _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Città e mobilità · Ascolto»? “In questa puntata dedicata a Città…”",
         "options": [
-          "posizioni",
-          "partecipanti",
-          "essere",
-          "isolatamente"
+          "In questa puntata dedicata a Città e mobilità, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che percorso non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che traffico è utile solo se viene spiegato con esempi verificabili.",
+          "Nel confronto emerge una possibile difficoltà: abbonamento può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che traffico è utile solo se viene spiegato con esempi verificabili.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Città e mobilità · Ascolto»? “L’altro aggiunge che traffico è…”",
         "options": [
-          "partecipanti",
-          "aggiunge",
-          "isolatamente",
-          "verificabili"
+          "In questa puntata dedicata a Città e mobilità, due partecipanti mettono a confronto le loro posizioni.",
+          "L’altro aggiunge che traffico è utile solo se viene spiegato con esempi verificabili.",
+          "La prima osserva che percorso non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: abbonamento può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: abbonamento può cambiare la prospettiva di chi ascolta.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Città e mobilità · Ascolto»? “Nel confronto emerge una possibile…”",
         "options": [
-          "partecipanti",
-          "essere",
-          "possibile",
-          "isolatamente"
+          "In questa puntata dedicata a Città e mobilità, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che percorso non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: abbonamento può cambiare la prospettiva di chi ascolta.",
+          "L’altro aggiunge che traffico è utile solo se viene spiegato con esempi verificabili."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Città e mobilità · Ascolto»? “Alla fine i partecipanti concordano su un…”",
         "options": [
-          "partecipanti",
-          "isolatamente",
-          "verificabili",
-          "scelte"
+          "In questa puntata dedicata a Città e mobilità, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che percorso non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che traffico è utile solo se viene spiegato con esempi verificabili.",
+          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
         ]
       }
     ]
@@ -6788,92 +6788,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Innovazione e società, due partecipanti mettono a confronto le loro _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Innovazione e società · Ascolto»? “In questa puntata dedicata a Innovazione…”",
             "options": [
               {
                 "id": "o1",
-                "text": "posizioni"
+                "text": "In questa puntata dedicata a Innovazione e società, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "partecipanti"
+                "text": "La prima osserva che innovazione non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "essere"
+                "text": "L’altro aggiunge che accesso è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "isolatamente"
+                "text": "Nel confronto emerge una possibile difficoltà: divario può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che accesso è utile solo se viene spiegato con esempi verificabili.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Innovazione e società · Ascolto»? “L’altro aggiunge che accesso è…”",
             "options": [
               {
                 "id": "o1",
-                "text": "partecipanti"
+                "text": "In questa puntata dedicata a Innovazione e società, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "aggiunge"
+                "text": "L’altro aggiunge che accesso è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o3",
-                "text": "isolatamente"
+                "text": "La prima osserva che innovazione non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o4",
-                "text": "verificabili"
+                "text": "Nel confronto emerge una possibile difficoltà: divario può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: divario può cambiare la prospettiva di chi ascolta.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Innovazione e società · Ascolto»? “Nel confronto emerge una possibile…”",
             "options": [
               {
                 "id": "o1",
-                "text": "partecipanti"
+                "text": "In questa puntata dedicata a Innovazione e società, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "essere"
+                "text": "La prima osserva che innovazione non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "possibile"
+                "text": "Nel confronto emerge una possibile difficoltà: divario può cambiare la prospettiva di chi ascolta."
               },
               {
                 "id": "o4",
-                "text": "isolatamente"
+                "text": "L’altro aggiunge che accesso è utile solo se viene spiegato con esempi verificabili."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Innovazione e società · Ascolto»? “Alla fine i partecipanti concordano su un…”",
             "options": [
               {
                 "id": "o1",
-                "text": "partecipanti"
+                "text": "In questa puntata dedicata a Innovazione e società, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "isolatamente"
+                "text": "La prima osserva che innovazione non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "verificabili"
+                "text": "L’altro aggiunge che accesso è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "scelte"
+                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
               }
             ]
           }
@@ -6893,42 +6893,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Innovazione e società, due partecipanti mettono a confronto le loro _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Innovazione e società · Ascolto»? “In questa puntata dedicata a Innovazione…”",
         "options": [
-          "posizioni",
-          "partecipanti",
-          "essere",
-          "isolatamente"
+          "In questa puntata dedicata a Innovazione e società, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che innovazione non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che accesso è utile solo se viene spiegato con esempi verificabili.",
+          "Nel confronto emerge una possibile difficoltà: divario può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che accesso è utile solo se viene spiegato con esempi verificabili.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Innovazione e società · Ascolto»? “L’altro aggiunge che accesso è…”",
         "options": [
-          "partecipanti",
-          "aggiunge",
-          "isolatamente",
-          "verificabili"
+          "In questa puntata dedicata a Innovazione e società, due partecipanti mettono a confronto le loro posizioni.",
+          "L’altro aggiunge che accesso è utile solo se viene spiegato con esempi verificabili.",
+          "La prima osserva che innovazione non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: divario può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: divario può cambiare la prospettiva di chi ascolta.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Innovazione e società · Ascolto»? “Nel confronto emerge una possibile…”",
         "options": [
-          "partecipanti",
-          "essere",
-          "possibile",
-          "isolatamente"
+          "In questa puntata dedicata a Innovazione e società, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che innovazione non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: divario può cambiare la prospettiva di chi ascolta.",
+          "L’altro aggiunge che accesso è utile solo se viene spiegato con esempi verificabili."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Innovazione e società · Ascolto»? “Alla fine i partecipanti concordano su un…”",
         "options": [
-          "partecipanti",
-          "isolatamente",
-          "verificabili",
-          "scelte"
+          "In questa puntata dedicata a Innovazione e società, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che innovazione non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che accesso è utile solo se viene spiegato con esempi verificabili.",
+          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
         ]
       }
     ]
@@ -6995,92 +6995,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Politiche pubbliche, due partecipanti mettono a confronto le loro _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Politiche pubbliche · Ascolto»? “In questa puntata dedicata a…”",
             "options": [
               {
                 "id": "o1",
-                "text": "posizioni"
+                "text": "In questa puntata dedicata a Politiche pubbliche, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "partecipanti"
+                "text": "La prima osserva che politica non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "essere"
+                "text": "L’altro aggiunge che impatto è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "isolatamente"
+                "text": "Nel confronto emerge una possibile difficoltà: criterio può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che impatto è utile solo se viene spiegato con esempi verificabili.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Politiche pubbliche · Ascolto»? “L’altro aggiunge che impatto è…”",
             "options": [
               {
                 "id": "o1",
-                "text": "partecipanti"
+                "text": "In questa puntata dedicata a Politiche pubbliche, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "aggiunge"
+                "text": "L’altro aggiunge che impatto è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o3",
-                "text": "isolatamente"
+                "text": "La prima osserva che politica non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o4",
-                "text": "verificabili"
+                "text": "Nel confronto emerge una possibile difficoltà: criterio può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: criterio può cambiare la prospettiva di chi ascolta.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Politiche pubbliche · Ascolto»? “Nel confronto emerge una possibile…”",
             "options": [
               {
                 "id": "o1",
-                "text": "partecipanti"
+                "text": "In questa puntata dedicata a Politiche pubbliche, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "essere"
+                "text": "La prima osserva che politica non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "possibile"
+                "text": "Nel confronto emerge una possibile difficoltà: criterio può cambiare la prospettiva di chi ascolta."
               },
               {
                 "id": "o4",
-                "text": "isolatamente"
+                "text": "L’altro aggiunge che impatto è utile solo se viene spiegato con esempi verificabili."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Politiche pubbliche · Ascolto»? “Alla fine i partecipanti concordano su un…”",
             "options": [
               {
                 "id": "o1",
-                "text": "partecipanti"
+                "text": "In questa puntata dedicata a Politiche pubbliche, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "isolatamente"
+                "text": "La prima osserva che politica non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "verificabili"
+                "text": "L’altro aggiunge che impatto è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "scelte"
+                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
               }
             ]
           }
@@ -7100,42 +7100,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Politiche pubbliche, due partecipanti mettono a confronto le loro _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Politiche pubbliche · Ascolto»? “In questa puntata dedicata a…”",
         "options": [
-          "posizioni",
-          "partecipanti",
-          "essere",
-          "isolatamente"
+          "In questa puntata dedicata a Politiche pubbliche, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che politica non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che impatto è utile solo se viene spiegato con esempi verificabili.",
+          "Nel confronto emerge una possibile difficoltà: criterio può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che impatto è utile solo se viene spiegato con esempi verificabili.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Politiche pubbliche · Ascolto»? “L’altro aggiunge che impatto è…”",
         "options": [
-          "partecipanti",
-          "aggiunge",
-          "isolatamente",
-          "verificabili"
+          "In questa puntata dedicata a Politiche pubbliche, due partecipanti mettono a confronto le loro posizioni.",
+          "L’altro aggiunge che impatto è utile solo se viene spiegato con esempi verificabili.",
+          "La prima osserva che politica non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: criterio può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: criterio può cambiare la prospettiva di chi ascolta.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Politiche pubbliche · Ascolto»? “Nel confronto emerge una possibile…”",
         "options": [
-          "partecipanti",
-          "essere",
-          "possibile",
-          "isolatamente"
+          "In questa puntata dedicata a Politiche pubbliche, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che politica non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: criterio può cambiare la prospettiva di chi ascolta.",
+          "L’altro aggiunge che impatto è utile solo se viene spiegato con esempi verificabili."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Politiche pubbliche · Ascolto»? “Alla fine i partecipanti concordano su un…”",
         "options": [
-          "partecipanti",
-          "isolatamente",
-          "verificabili",
-          "scelte"
+          "In questa puntata dedicata a Politiche pubbliche, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che politica non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che impatto è utile solo se viene spiegato con esempi verificabili.",
+          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
         ]
       }
     ]
@@ -7193,92 +7193,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“Un caffè, per _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Un caffè al bar: ascolta»? “Un caffè per…”",
             "options": [
               {
                 "id": "o1",
-                "text": "favore"
+                "text": "Un caffè, per favore."
               },
               {
                 "id": "o2",
-                "text": "per"
+                "text": "Parliamo di caffè."
               },
               {
                 "id": "o3",
-                "text": "con"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "Parliamo"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“_____ di caffè.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Un caffè al bar: ascolta»? “Parliamo di caffè…”",
             "options": [
               {
                 "id": "o1",
-                "text": "caffè"
+                "text": "Un caffè, per favore."
               },
               {
                 "id": "o2",
-                "text": "Parliamo"
+                "text": "Parliamo di caffè."
               },
               {
                 "id": "o3",
-                "text": "piace"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "favore"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Un caffè al bar: ascolta»? “Mi piace imparare…”",
             "options": [
               {
                 "id": "o1",
-                "text": "caffè"
+                "text": "Un caffè, per favore."
               },
               {
                 "id": "o2",
-                "text": "piace"
+                "text": "Parliamo di caffè."
               },
               {
                 "id": "o3",
-                "text": "comunità"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "favore"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Un caffè al bar: ascolta»? “Facciamo pratica insieme…”",
             "options": [
               {
                 "id": "o1",
-                "text": "caffè"
+                "text": "Un caffè, per favore."
               },
               {
                 "id": "o2",
-                "text": "piace"
+                "text": "Parliamo di caffè."
               },
               {
                 "id": "o3",
-                "text": "favore"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "pratica"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           }
@@ -7289,42 +7289,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“Un caffè, per _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Un caffè al bar: ascolta»? “Un caffè per…”",
         "options": [
-          "favore",
-          "per",
-          "con",
-          "Parliamo"
+          "Un caffè, per favore.",
+          "Parliamo di caffè.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“_____ di caffè.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Un caffè al bar: ascolta»? “Parliamo di caffè…”",
         "options": [
-          "caffè",
-          "Parliamo",
-          "piace",
-          "favore"
+          "Un caffè, per favore.",
+          "Parliamo di caffè.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Un caffè al bar: ascolta»? “Mi piace imparare…”",
         "options": [
-          "caffè",
-          "piace",
-          "comunità",
-          "favore"
+          "Un caffè, per favore.",
+          "Parliamo di caffè.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Un caffè al bar: ascolta»? “Facciamo pratica insieme…”",
         "options": [
-          "caffè",
-          "piace",
-          "favore",
-          "pratica"
+          "Un caffè, per favore.",
+          "Parliamo di caffè.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       }
     ]
@@ -7382,92 +7382,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“Vorrei _____ il museo.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Un fine settimana a Napoli: ascolta»? “Vorrei visitare il…”",
             "options": [
               {
                 "id": "o1",
-                "text": "visitare"
+                "text": "Vorrei visitare il museo."
               },
               {
                 "id": "o2",
-                "text": "museo"
+                "text": "Parliamo di museo."
               },
               {
                 "id": "o3",
-                "text": "piace"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "Vorrei"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“_____ di museo.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Un fine settimana a Napoli: ascolta»? “Parliamo di museo…”",
             "options": [
               {
                 "id": "o1",
-                "text": "museo"
+                "text": "Vorrei visitare il museo."
               },
               {
                 "id": "o2",
-                "text": "Parliamo"
+                "text": "Parliamo di museo."
               },
               {
                 "id": "o3",
-                "text": "piace"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "Vorrei"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Un fine settimana a Napoli: ascolta»? “Mi piace imparare…”",
             "options": [
               {
                 "id": "o1",
-                "text": "museo"
+                "text": "Vorrei visitare il museo."
               },
               {
                 "id": "o2",
-                "text": "piace"
+                "text": "Parliamo di museo."
               },
               {
                 "id": "o3",
-                "text": "comunità"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "Vorrei"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Un fine settimana a Napoli: ascolta»? “Facciamo pratica insieme…”",
             "options": [
               {
                 "id": "o1",
-                "text": "museo"
+                "text": "Vorrei visitare il museo."
               },
               {
                 "id": "o2",
-                "text": "piace"
+                "text": "Parliamo di museo."
               },
               {
                 "id": "o3",
-                "text": "Vorrei"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "pratica"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           }
@@ -7478,42 +7478,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“Vorrei _____ il museo.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Un fine settimana a Napoli: ascolta»? “Vorrei visitare il…”",
         "options": [
-          "visitare",
-          "museo",
-          "piace",
-          "Vorrei"
+          "Vorrei visitare il museo.",
+          "Parliamo di museo.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“_____ di museo.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Un fine settimana a Napoli: ascolta»? “Parliamo di museo…”",
         "options": [
-          "museo",
-          "Parliamo",
-          "piace",
-          "Vorrei"
+          "Vorrei visitare il museo.",
+          "Parliamo di museo.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Un fine settimana a Napoli: ascolta»? “Mi piace imparare…”",
         "options": [
-          "museo",
-          "piace",
-          "comunità",
-          "Vorrei"
+          "Vorrei visitare il museo.",
+          "Parliamo di museo.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Un fine settimana a Napoli: ascolta»? “Facciamo pratica insieme…”",
         "options": [
-          "museo",
-          "piace",
-          "Vorrei",
-          "pratica"
+          "Vorrei visitare il museo.",
+          "Parliamo di museo.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       }
     ]
@@ -10653,92 +10653,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Salute e benessere», un piccolo gruppo della comunità parla di benessere, riposo e _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Salute e benessere: parole»? “Nel tema Salute e benessere un…”",
             "options": [
               {
                 "id": "o1",
-                "text": "allenamento"
+                "text": "Nel tema «Salute e benessere», un piccolo gruppo della comunità parla di benessere, riposo e allenamento."
               },
               {
                 "id": "o2",
-                "text": "comunità"
+                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
               },
               {
                 "id": "o3",
-                "text": "racconta"
+                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
               },
               {
                 "id": "o4",
-                "text": "concreta"
+                "text": "Poi il gruppo riassume le idee più importanti."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Salute e benessere: parole»? “Ogni persona racconta un'esperienza…”",
             "options": [
               {
                 "id": "o1",
-                "text": "un'esperienza"
+                "text": "Nel tema «Salute e benessere», un piccolo gruppo della comunità parla di benessere, riposo e allenamento."
               },
               {
                 "id": "o2",
-                "text": "persona"
+                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
               },
               {
                 "id": "o3",
-                "text": "allenamento"
+                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
               },
               {
                 "id": "o4",
-                "text": "collaborare"
+                "text": "Poi il gruppo riassume le idee più importanti."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Salute e benessere: parole»? “Alla fine decidono di collaborare perché…”",
             "options": [
               {
                 "id": "o1",
-                "text": "un'esperienza"
+                "text": "Nel tema «Salute e benessere», un piccolo gruppo della comunità parla di benessere, riposo e allenamento."
               },
               {
                 "id": "o2",
-                "text": "allenamento"
+                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
               },
               {
                 "id": "o3",
-                "text": "perché"
+                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
               },
               {
                 "id": "o4",
-                "text": "collaborare"
+                "text": "Poi il gruppo riassume le idee più importanti."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Salute e benessere: parole»? “Poi il gruppo…”",
             "options": [
               {
                 "id": "o1",
-                "text": "un'esperienza"
+                "text": "Nel tema «Salute e benessere», un piccolo gruppo della comunità parla di benessere, riposo e allenamento."
               },
               {
                 "id": "o2",
-                "text": "allenamento"
+                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
               },
               {
                 "id": "o3",
-                "text": "collaborare"
+                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
               },
               {
                 "id": "o4",
-                "text": "gruppo"
+                "text": "Poi il gruppo riassume le idee più importanti."
               }
             ]
           }
@@ -10749,42 +10749,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Salute e benessere», un piccolo gruppo della comunità parla di benessere, riposo e _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Salute e benessere: parole»? “Nel tema Salute e benessere un…”",
         "options": [
-          "allenamento",
-          "comunità",
-          "racconta",
-          "concreta"
+          "Nel tema «Salute e benessere», un piccolo gruppo della comunità parla di benessere, riposo e allenamento.",
+          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
+          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+          "Poi il gruppo riassume le idee più importanti."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Salute e benessere: parole»? “Ogni persona racconta un'esperienza…”",
         "options": [
-          "un'esperienza",
-          "persona",
-          "allenamento",
-          "collaborare"
+          "Nel tema «Salute e benessere», un piccolo gruppo della comunità parla di benessere, riposo e allenamento.",
+          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
+          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+          "Poi il gruppo riassume le idee più importanti."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Salute e benessere: parole»? “Alla fine decidono di collaborare perché…”",
         "options": [
-          "un'esperienza",
-          "allenamento",
-          "perché",
-          "collaborare"
+          "Nel tema «Salute e benessere», un piccolo gruppo della comunità parla di benessere, riposo e allenamento.",
+          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
+          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+          "Poi il gruppo riassume le idee più importanti."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Salute e benessere: parole»? “Poi il gruppo…”",
         "options": [
-          "un'esperienza",
-          "allenamento",
-          "collaborare",
-          "gruppo"
+          "Nel tema «Salute e benessere», un piccolo gruppo della comunità parla di benessere, riposo e allenamento.",
+          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
+          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+          "Poi il gruppo riassume le idee più importanti."
         ]
       }
     ]
@@ -11079,92 +11079,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Lavoro e competenze, due partecipanti mettono a confronto le loro _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Lavoro e competenze · Ascolto»? “In questa puntata dedicata a Lavoro…”",
             "options": [
               {
                 "id": "o1",
-                "text": "posizioni"
+                "text": "In questa puntata dedicata a Lavoro e competenze, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "Lavoro"
+                "text": "La prima osserva che colloquio non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "partecipanti"
+                "text": "L’altro aggiunge che esperienza è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "essere"
+                "text": "Nel confronto emerge una possibile difficoltà: candidatura può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che esperienza è utile solo se viene spiegato con esempi verificabili.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Lavoro e competenze · Ascolto»? “L’altro aggiunge che esperienza è…”",
             "options": [
               {
                 "id": "o1",
-                "text": "partecipanti"
+                "text": "In questa puntata dedicata a Lavoro e competenze, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "aggiunge"
+                "text": "L’altro aggiunge che esperienza è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o3",
-                "text": "isolatamente"
+                "text": "La prima osserva che colloquio non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o4",
-                "text": "verificabili"
+                "text": "Nel confronto emerge una possibile difficoltà: candidatura può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: candidatura può cambiare la prospettiva di chi ascolta.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Lavoro e competenze · Ascolto»? “Nel confronto emerge una possibile…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Lavoro"
+                "text": "In questa puntata dedicata a Lavoro e competenze, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "partecipanti"
+                "text": "La prima osserva che colloquio non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "possibile"
+                "text": "Nel confronto emerge una possibile difficoltà: candidatura può cambiare la prospettiva di chi ascolta."
               },
               {
                 "id": "o4",
-                "text": "essere"
+                "text": "L’altro aggiunge che esperienza è utile solo se viene spiegato con esempi verificabili."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Lavoro e competenze · Ascolto»? “Alla fine i partecipanti concordano su un…”",
             "options": [
               {
                 "id": "o1",
-                "text": "partecipanti"
+                "text": "In questa puntata dedicata a Lavoro e competenze, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "isolatamente"
+                "text": "La prima osserva che colloquio non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "verificabili"
+                "text": "L’altro aggiunge che esperienza è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "scelte"
+                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
               }
             ]
           }
@@ -11184,42 +11184,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Lavoro e competenze, due partecipanti mettono a confronto le loro _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Lavoro e competenze · Ascolto»? “In questa puntata dedicata a Lavoro…”",
         "options": [
-          "posizioni",
-          "Lavoro",
-          "partecipanti",
-          "essere"
+          "In questa puntata dedicata a Lavoro e competenze, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che colloquio non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che esperienza è utile solo se viene spiegato con esempi verificabili.",
+          "Nel confronto emerge una possibile difficoltà: candidatura può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che esperienza è utile solo se viene spiegato con esempi verificabili.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Lavoro e competenze · Ascolto»? “L’altro aggiunge che esperienza è…”",
         "options": [
-          "partecipanti",
-          "aggiunge",
-          "isolatamente",
-          "verificabili"
+          "In questa puntata dedicata a Lavoro e competenze, due partecipanti mettono a confronto le loro posizioni.",
+          "L’altro aggiunge che esperienza è utile solo se viene spiegato con esempi verificabili.",
+          "La prima osserva che colloquio non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: candidatura può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: candidatura può cambiare la prospettiva di chi ascolta.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Lavoro e competenze · Ascolto»? “Nel confronto emerge una possibile…”",
         "options": [
-          "Lavoro",
-          "partecipanti",
-          "possibile",
-          "essere"
+          "In questa puntata dedicata a Lavoro e competenze, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che colloquio non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: candidatura può cambiare la prospettiva di chi ascolta.",
+          "L’altro aggiunge che esperienza è utile solo se viene spiegato con esempi verificabili."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Lavoro e competenze · Ascolto»? “Alla fine i partecipanti concordano su un…”",
         "options": [
-          "partecipanti",
-          "isolatamente",
-          "verificabili",
-          "scelte"
+          "In questa puntata dedicata a Lavoro e competenze, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che colloquio non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che esperienza è utile solo se viene spiegato con esempi verificabili.",
+          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
         ]
       }
     ]
@@ -11286,92 +11286,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Etica e decisioni, due partecipanti mettono a confronto le loro _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Etica e decisioni · Ascolto»? “In questa puntata dedicata a Etica…”",
             "options": [
               {
                 "id": "o1",
-                "text": "posizioni"
+                "text": "In questa puntata dedicata a Etica e decisioni, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "responsabilità"
+                "text": "La prima osserva che dilemma non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "partecipanti"
+                "text": "L’altro aggiunge che principio è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "essere"
+                "text": "Nel confronto emerge una possibile difficoltà: responsabilità può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che principio è utile solo se viene spiegato con esempi verificabili.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Etica e decisioni · Ascolto»? “L’altro aggiunge che principio è…”",
             "options": [
               {
                 "id": "o1",
-                "text": "responsabilità"
+                "text": "In questa puntata dedicata a Etica e decisioni, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "aggiunge"
+                "text": "L’altro aggiunge che principio è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o3",
-                "text": "partecipanti"
+                "text": "La prima osserva che dilemma non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o4",
-                "text": "isolatamente"
+                "text": "Nel confronto emerge una possibile difficoltà: responsabilità può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: responsabilità può cambiare la prospettiva di chi ascolta.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Etica e decisioni · Ascolto»? “Nel confronto emerge una possibile…”",
             "options": [
               {
                 "id": "o1",
-                "text": "responsabilità"
+                "text": "In questa puntata dedicata a Etica e decisioni, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "partecipanti"
+                "text": "La prima osserva che dilemma non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "possibile"
+                "text": "Nel confronto emerge una possibile difficoltà: responsabilità può cambiare la prospettiva di chi ascolta."
               },
               {
                 "id": "o4",
-                "text": "essere"
+                "text": "L’altro aggiunge che principio è utile solo se viene spiegato con esempi verificabili."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Etica e decisioni · Ascolto»? “Alla fine i partecipanti concordano su un…”",
             "options": [
               {
                 "id": "o1",
-                "text": "responsabilità"
+                "text": "In questa puntata dedicata a Etica e decisioni, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "partecipanti"
+                "text": "La prima osserva che dilemma non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "isolatamente"
+                "text": "L’altro aggiunge che principio è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "scelte"
+                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
               }
             ]
           }
@@ -11391,42 +11391,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Etica e decisioni, due partecipanti mettono a confronto le loro _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Etica e decisioni · Ascolto»? “In questa puntata dedicata a Etica…”",
         "options": [
-          "posizioni",
-          "responsabilità",
-          "partecipanti",
-          "essere"
+          "In questa puntata dedicata a Etica e decisioni, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che dilemma non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che principio è utile solo se viene spiegato con esempi verificabili.",
+          "Nel confronto emerge una possibile difficoltà: responsabilità può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che principio è utile solo se viene spiegato con esempi verificabili.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Etica e decisioni · Ascolto»? “L’altro aggiunge che principio è…”",
         "options": [
-          "responsabilità",
-          "aggiunge",
-          "partecipanti",
-          "isolatamente"
+          "In questa puntata dedicata a Etica e decisioni, due partecipanti mettono a confronto le loro posizioni.",
+          "L’altro aggiunge che principio è utile solo se viene spiegato con esempi verificabili.",
+          "La prima osserva che dilemma non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: responsabilità può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: responsabilità può cambiare la prospettiva di chi ascolta.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Etica e decisioni · Ascolto»? “Nel confronto emerge una possibile…”",
         "options": [
-          "responsabilità",
-          "partecipanti",
-          "possibile",
-          "essere"
+          "In questa puntata dedicata a Etica e decisioni, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che dilemma non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: responsabilità può cambiare la prospettiva di chi ascolta.",
+          "L’altro aggiunge che principio è utile solo se viene spiegato con esempi verificabili."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Etica e decisioni · Ascolto»? “Alla fine i partecipanti concordano su un…”",
         "options": [
-          "responsabilità",
-          "partecipanti",
-          "isolatamente",
-          "scelte"
+          "In questa puntata dedicata a Etica e decisioni, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che dilemma non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che principio è utile solo se viene spiegato con esempi verificabili.",
+          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
         ]
       }
     ]
@@ -11493,92 +11493,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Conoscenza e incertezza, due partecipanti mettono a confronto le loro _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Conoscenza e incertezza · Ascolto»? “In questa puntata dedicata a Conoscenza…”",
             "options": [
               {
                 "id": "o1",
-                "text": "posizioni"
+                "text": "In questa puntata dedicata a Conoscenza e incertezza, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "partecipanti"
+                "text": "La prima osserva che ipotesi non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "essere"
+                "text": "L’altro aggiunge che probabilità è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "isolatamente"
+                "text": "Nel confronto emerge una possibile difficoltà: evidenza può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che probabilità è utile solo se viene spiegato con esempi verificabili.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Conoscenza e incertezza · Ascolto»? “L’altro aggiunge che probabilità è…”",
             "options": [
               {
                 "id": "o1",
-                "text": "partecipanti"
+                "text": "In questa puntata dedicata a Conoscenza e incertezza, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "aggiunge"
+                "text": "L’altro aggiunge che probabilità è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o3",
-                "text": "isolatamente"
+                "text": "La prima osserva che ipotesi non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o4",
-                "text": "verificabili"
+                "text": "Nel confronto emerge una possibile difficoltà: evidenza può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: evidenza può cambiare la prospettiva di chi ascolta.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Conoscenza e incertezza · Ascolto»? “Nel confronto emerge una possibile…”",
             "options": [
               {
                 "id": "o1",
-                "text": "partecipanti"
+                "text": "In questa puntata dedicata a Conoscenza e incertezza, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "essere"
+                "text": "La prima osserva che ipotesi non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "possibile"
+                "text": "Nel confronto emerge una possibile difficoltà: evidenza può cambiare la prospettiva di chi ascolta."
               },
               {
                 "id": "o4",
-                "text": "isolatamente"
+                "text": "L’altro aggiunge che probabilità è utile solo se viene spiegato con esempi verificabili."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Conoscenza e incertezza · Ascolto»? “Alla fine i partecipanti concordano su un…”",
             "options": [
               {
                 "id": "o1",
-                "text": "partecipanti"
+                "text": "In questa puntata dedicata a Conoscenza e incertezza, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "isolatamente"
+                "text": "La prima osserva che ipotesi non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "verificabili"
+                "text": "L’altro aggiunge che probabilità è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "scelte"
+                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
               }
             ]
           }
@@ -11598,42 +11598,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Conoscenza e incertezza, due partecipanti mettono a confronto le loro _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Conoscenza e incertezza · Ascolto»? “In questa puntata dedicata a Conoscenza…”",
         "options": [
-          "posizioni",
-          "partecipanti",
-          "essere",
-          "isolatamente"
+          "In questa puntata dedicata a Conoscenza e incertezza, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che ipotesi non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che probabilità è utile solo se viene spiegato con esempi verificabili.",
+          "Nel confronto emerge una possibile difficoltà: evidenza può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che probabilità è utile solo se viene spiegato con esempi verificabili.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Conoscenza e incertezza · Ascolto»? “L’altro aggiunge che probabilità è…”",
         "options": [
-          "partecipanti",
-          "aggiunge",
-          "isolatamente",
-          "verificabili"
+          "In questa puntata dedicata a Conoscenza e incertezza, due partecipanti mettono a confronto le loro posizioni.",
+          "L’altro aggiunge che probabilità è utile solo se viene spiegato con esempi verificabili.",
+          "La prima osserva che ipotesi non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: evidenza può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: evidenza può cambiare la prospettiva di chi ascolta.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Conoscenza e incertezza · Ascolto»? “Nel confronto emerge una possibile…”",
         "options": [
-          "partecipanti",
-          "essere",
-          "possibile",
-          "isolatamente"
+          "In questa puntata dedicata a Conoscenza e incertezza, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che ipotesi non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: evidenza può cambiare la prospettiva di chi ascolta.",
+          "L’altro aggiunge che probabilità è utile solo se viene spiegato con esempi verificabili."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Conoscenza e incertezza · Ascolto»? “Alla fine i partecipanti concordano su un…”",
         "options": [
-          "partecipanti",
-          "isolatamente",
-          "verificabili",
-          "scelte"
+          "In questa puntata dedicata a Conoscenza e incertezza, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che ipotesi non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che probabilità è utile solo se viene spiegato con esempi verificabili.",
+          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
         ]
       }
     ]
@@ -11691,92 +11691,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“Ceniamo _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «La famiglia a tavola: ascolta»? “Ceniamo insieme…”",
             "options": [
               {
                 "id": "o1",
-                "text": "insieme"
+                "text": "Ceniamo insieme."
               },
               {
                 "id": "o2",
-                "text": "piace"
+                "text": "Parliamo di famiglia."
               },
               {
                 "id": "o3",
-                "text": "Parliamo"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "famiglia"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «La famiglia a tavola: ascolta»? “Parliamo di famiglia…”",
             "options": [
               {
                 "id": "o1",
-                "text": "piace"
+                "text": "Ceniamo insieme."
               },
               {
                 "id": "o2",
-                "text": "famiglia"
+                "text": "Parliamo di famiglia."
               },
               {
                 "id": "o3",
-                "text": "domani"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "Ceniamo"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «La famiglia a tavola: ascolta»? “Mi piace imparare…”",
             "options": [
               {
                 "id": "o1",
-                "text": "piace"
+                "text": "Ceniamo insieme."
               },
               {
                 "id": "o2",
-                "text": "domani"
+                "text": "Parliamo di famiglia."
               },
               {
                 "id": "o3",
-                "text": "comunità"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "Ceniamo"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «La famiglia a tavola: ascolta»? “Facciamo pratica insieme…”",
             "options": [
               {
                 "id": "o1",
-                "text": "piace"
+                "text": "Ceniamo insieme."
               },
               {
                 "id": "o2",
-                "text": "Parliamo"
+                "text": "Parliamo di famiglia."
               },
               {
                 "id": "o3",
-                "text": "famiglia"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "pratica"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           }
@@ -11787,42 +11787,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“Ceniamo _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «La famiglia a tavola: ascolta»? “Ceniamo insieme…”",
         "options": [
-          "insieme",
-          "piace",
-          "Parliamo",
-          "famiglia"
+          "Ceniamo insieme.",
+          "Parliamo di famiglia.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «La famiglia a tavola: ascolta»? “Parliamo di famiglia…”",
         "options": [
-          "piace",
-          "famiglia",
-          "domani",
-          "Ceniamo"
+          "Ceniamo insieme.",
+          "Parliamo di famiglia.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «La famiglia a tavola: ascolta»? “Mi piace imparare…”",
         "options": [
-          "piace",
-          "domani",
-          "comunità",
-          "Ceniamo"
+          "Ceniamo insieme.",
+          "Parliamo di famiglia.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «La famiglia a tavola: ascolta»? “Facciamo pratica insieme…”",
         "options": [
-          "piace",
-          "Parliamo",
-          "famiglia",
-          "pratica"
+          "Ceniamo insieme.",
+          "Parliamo di famiglia.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       }
     ]
@@ -11880,92 +11880,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“Prima taglio le _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Ricette di famiglia: ascolta»? “Prima taglio le…”",
             "options": [
               {
                 "id": "o1",
-                "text": "verdure"
+                "text": "Prima taglio le verdure."
               },
               {
                 "id": "o2",
-                "text": "Prima"
+                "text": "Parliamo di ricetta."
               },
               {
                 "id": "o3",
-                "text": "piace"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "taglio"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Ricette di famiglia: ascolta»? “Parliamo di ricetta…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Prima"
+                "text": "Prima taglio le verdure."
               },
               {
                 "id": "o2",
-                "text": "ricetta"
+                "text": "Parliamo di ricetta."
               },
               {
                 "id": "o3",
-                "text": "piace"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "taglio"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Ricette di famiglia: ascolta»? “Mi piace imparare…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Prima"
+                "text": "Prima taglio le verdure."
               },
               {
                 "id": "o2",
-                "text": "piace"
+                "text": "Parliamo di ricetta."
               },
               {
                 "id": "o3",
-                "text": "comunità"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "taglio"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Ricette di famiglia: ascolta»? “Facciamo pratica insieme…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Prima"
+                "text": "Prima taglio le verdure."
               },
               {
                 "id": "o2",
-                "text": "piace"
+                "text": "Parliamo di ricetta."
               },
               {
                 "id": "o3",
-                "text": "taglio"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "pratica"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           }
@@ -11976,42 +11976,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“Prima taglio le _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Ricette di famiglia: ascolta»? “Prima taglio le…”",
         "options": [
-          "verdure",
-          "Prima",
-          "piace",
-          "taglio"
+          "Prima taglio le verdure.",
+          "Parliamo di ricetta.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Ricette di famiglia: ascolta»? “Parliamo di ricetta…”",
         "options": [
-          "Prima",
-          "ricetta",
-          "piace",
-          "taglio"
+          "Prima taglio le verdure.",
+          "Parliamo di ricetta.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Ricette di famiglia: ascolta»? “Mi piace imparare…”",
         "options": [
-          "Prima",
-          "piace",
-          "comunità",
-          "taglio"
+          "Prima taglio le verdure.",
+          "Parliamo di ricetta.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Ricette di famiglia: ascolta»? “Facciamo pratica insieme…”",
         "options": [
-          "Prima",
-          "piace",
-          "taglio",
-          "pratica"
+          "Prima taglio le verdure.",
+          "Parliamo di ricetta.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       }
     ]
@@ -15151,92 +15151,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Cultura e media», un piccolo gruppo della comunità parla di notizia, fonte e _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Cultura e media: parole»? “Nel tema Cultura e media un…”",
             "options": [
               {
                 "id": "o1",
-                "text": "pubblico"
+                "text": "Nel tema «Cultura e media», un piccolo gruppo della comunità parla di notizia, fonte e pubblico."
               },
               {
                 "id": "o2",
-                "text": "un'esperienza"
+                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
               },
               {
                 "id": "o3",
-                "text": "media"
+                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
               },
               {
                 "id": "o4",
-                "text": "parla"
+                "text": "Poi il gruppo riassume le idee più importanti."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Cultura e media: parole»? “Ogni persona racconta un'esperienza…”",
             "options": [
               {
                 "id": "o1",
-                "text": "un'esperienza"
+                "text": "Nel tema «Cultura e media», un piccolo gruppo della comunità parla di notizia, fonte e pubblico."
               },
               {
                 "id": "o2",
-                "text": "persona"
+                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
               },
               {
                 "id": "o3",
-                "text": "collaborare"
+                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
               },
               {
                 "id": "o4",
-                "text": "tema"
+                "text": "Poi il gruppo riassume le idee più importanti."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Cultura e media: parole»? “Alla fine decidono di collaborare perché…”",
             "options": [
               {
                 "id": "o1",
-                "text": "un'esperienza"
+                "text": "Nel tema «Cultura e media», un piccolo gruppo della comunità parla di notizia, fonte e pubblico."
               },
               {
                 "id": "o2",
-                "text": "collaborare"
+                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
               },
               {
                 "id": "o3",
-                "text": "perché"
+                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
               },
               {
                 "id": "o4",
-                "text": "migliorare"
+                "text": "Poi il gruppo riassume le idee più importanti."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Cultura e media: parole»? “Poi il gruppo…”",
             "options": [
               {
                 "id": "o1",
-                "text": "un'esperienza"
+                "text": "Nel tema «Cultura e media», un piccolo gruppo della comunità parla di notizia, fonte e pubblico."
               },
               {
                 "id": "o2",
-                "text": "collaborare"
+                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
               },
               {
                 "id": "o3",
-                "text": "migliorare"
+                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
               },
               {
                 "id": "o4",
-                "text": "gruppo"
+                "text": "Poi il gruppo riassume le idee più importanti."
               }
             ]
           }
@@ -15247,42 +15247,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Cultura e media», un piccolo gruppo della comunità parla di notizia, fonte e _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Cultura e media: parole»? “Nel tema Cultura e media un…”",
         "options": [
-          "pubblico",
-          "un'esperienza",
-          "media",
-          "parla"
+          "Nel tema «Cultura e media», un piccolo gruppo della comunità parla di notizia, fonte e pubblico.",
+          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
+          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+          "Poi il gruppo riassume le idee più importanti."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Cultura e media: parole»? “Ogni persona racconta un'esperienza…”",
         "options": [
-          "un'esperienza",
-          "persona",
-          "collaborare",
-          "tema"
+          "Nel tema «Cultura e media», un piccolo gruppo della comunità parla di notizia, fonte e pubblico.",
+          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
+          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+          "Poi il gruppo riassume le idee più importanti."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Cultura e media: parole»? “Alla fine decidono di collaborare perché…”",
         "options": [
-          "un'esperienza",
-          "collaborare",
-          "perché",
-          "migliorare"
+          "Nel tema «Cultura e media», un piccolo gruppo della comunità parla di notizia, fonte e pubblico.",
+          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
+          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+          "Poi il gruppo riassume le idee più importanti."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Cultura e media: parole»? “Poi il gruppo…”",
         "options": [
-          "un'esperienza",
-          "collaborare",
-          "migliorare",
-          "gruppo"
+          "Nel tema «Cultura e media», un piccolo gruppo della comunità parla di notizia, fonte e pubblico.",
+          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
+          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+          "Poi il gruppo riassume le idee più importanti."
         ]
       }
     ]
@@ -15577,92 +15577,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Ambiente e consumi, due partecipanti mettono a confronto le loro _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Ambiente e consumi · Ascolto»? “In questa puntata dedicata a Ambiente…”",
             "options": [
               {
                 "id": "o1",
-                "text": "posizioni"
+                "text": "In questa puntata dedicata a Ambiente e consumi, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "partecipanti"
+                "text": "La prima osserva che impatto non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "essere"
+                "text": "L’altro aggiunge che raccolta è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "isolatamente"
+                "text": "Nel confronto emerge una possibile difficoltà: spreco può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che raccolta è utile solo se viene spiegato con esempi verificabili.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Ambiente e consumi · Ascolto»? “L’altro aggiunge che raccolta è…”",
             "options": [
               {
                 "id": "o1",
-                "text": "partecipanti"
+                "text": "In questa puntata dedicata a Ambiente e consumi, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "aggiunge"
+                "text": "L’altro aggiunge che raccolta è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o3",
-                "text": "isolatamente"
+                "text": "La prima osserva che impatto non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o4",
-                "text": "verificabili"
+                "text": "Nel confronto emerge una possibile difficoltà: spreco può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: spreco può cambiare la prospettiva di chi ascolta.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Ambiente e consumi · Ascolto»? “Nel confronto emerge una possibile…”",
             "options": [
               {
                 "id": "o1",
-                "text": "partecipanti"
+                "text": "In questa puntata dedicata a Ambiente e consumi, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "essere"
+                "text": "La prima osserva che impatto non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "possibile"
+                "text": "Nel confronto emerge una possibile difficoltà: spreco può cambiare la prospettiva di chi ascolta."
               },
               {
                 "id": "o4",
-                "text": "isolatamente"
+                "text": "L’altro aggiunge che raccolta è utile solo se viene spiegato con esempi verificabili."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Ambiente e consumi · Ascolto»? “Alla fine i partecipanti concordano su un…”",
             "options": [
               {
                 "id": "o1",
-                "text": "partecipanti"
+                "text": "In questa puntata dedicata a Ambiente e consumi, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "isolatamente"
+                "text": "La prima osserva che impatto non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "verificabili"
+                "text": "L’altro aggiunge che raccolta è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "scelte"
+                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
               }
             ]
           }
@@ -15682,42 +15682,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Ambiente e consumi, due partecipanti mettono a confronto le loro _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Ambiente e consumi · Ascolto»? “In questa puntata dedicata a Ambiente…”",
         "options": [
-          "posizioni",
-          "partecipanti",
-          "essere",
-          "isolatamente"
+          "In questa puntata dedicata a Ambiente e consumi, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che impatto non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che raccolta è utile solo se viene spiegato con esempi verificabili.",
+          "Nel confronto emerge una possibile difficoltà: spreco può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che raccolta è utile solo se viene spiegato con esempi verificabili.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Ambiente e consumi · Ascolto»? “L’altro aggiunge che raccolta è…”",
         "options": [
-          "partecipanti",
-          "aggiunge",
-          "isolatamente",
-          "verificabili"
+          "In questa puntata dedicata a Ambiente e consumi, due partecipanti mettono a confronto le loro posizioni.",
+          "L’altro aggiunge che raccolta è utile solo se viene spiegato con esempi verificabili.",
+          "La prima osserva che impatto non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: spreco può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: spreco può cambiare la prospettiva di chi ascolta.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Ambiente e consumi · Ascolto»? “Nel confronto emerge una possibile…”",
         "options": [
-          "partecipanti",
-          "essere",
-          "possibile",
-          "isolatamente"
+          "In questa puntata dedicata a Ambiente e consumi, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che impatto non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: spreco può cambiare la prospettiva di chi ascolta.",
+          "L’altro aggiunge che raccolta è utile solo se viene spiegato con esempi verificabili."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Ambiente e consumi · Ascolto»? “Alla fine i partecipanti concordano su un…”",
         "options": [
-          "partecipanti",
-          "isolatamente",
-          "verificabili",
-          "scelte"
+          "In questa puntata dedicata a Ambiente e consumi, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che impatto non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che raccolta è utile solo se viene spiegato con esempi verificabili.",
+          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
         ]
       }
     ]
@@ -15784,92 +15784,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Arte e interpretazione, due partecipanti mettono a confronto le loro _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Arte e interpretazione · Ascolto»? “In questa puntata dedicata a Arte…”",
             "options": [
               {
                 "id": "o1",
-                "text": "posizioni"
+                "text": "In questa puntata dedicata a Arte e interpretazione, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "interpretazione"
+                "text": "La prima osserva che opera non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "partecipanti"
+                "text": "L’altro aggiunge che linguaggio è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "essere"
+                "text": "Nel confronto emerge una possibile difficoltà: interpretazione può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che linguaggio è utile solo se viene spiegato con esempi verificabili.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Arte e interpretazione · Ascolto»? “L’altro aggiunge che linguaggio è…”",
             "options": [
               {
                 "id": "o1",
-                "text": "interpretazione"
+                "text": "In questa puntata dedicata a Arte e interpretazione, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "aggiunge"
+                "text": "L’altro aggiunge che linguaggio è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o3",
-                "text": "partecipanti"
+                "text": "La prima osserva che opera non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o4",
-                "text": "isolatamente"
+                "text": "Nel confronto emerge una possibile difficoltà: interpretazione può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: interpretazione può cambiare la prospettiva di chi ascolta.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Arte e interpretazione · Ascolto»? “Nel confronto emerge una possibile…”",
             "options": [
               {
                 "id": "o1",
-                "text": "interpretazione"
+                "text": "In questa puntata dedicata a Arte e interpretazione, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "partecipanti"
+                "text": "La prima osserva che opera non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "possibile"
+                "text": "Nel confronto emerge una possibile difficoltà: interpretazione può cambiare la prospettiva di chi ascolta."
               },
               {
                 "id": "o4",
-                "text": "essere"
+                "text": "L’altro aggiunge che linguaggio è utile solo se viene spiegato con esempi verificabili."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Arte e interpretazione · Ascolto»? “Alla fine i partecipanti concordano su un…”",
             "options": [
               {
                 "id": "o1",
-                "text": "interpretazione"
+                "text": "In questa puntata dedicata a Arte e interpretazione, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "partecipanti"
+                "text": "La prima osserva che opera non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "isolatamente"
+                "text": "L’altro aggiunge che linguaggio è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "scelte"
+                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
               }
             ]
           }
@@ -15889,42 +15889,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Arte e interpretazione, due partecipanti mettono a confronto le loro _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Arte e interpretazione · Ascolto»? “In questa puntata dedicata a Arte…”",
         "options": [
-          "posizioni",
-          "interpretazione",
-          "partecipanti",
-          "essere"
+          "In questa puntata dedicata a Arte e interpretazione, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che opera non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che linguaggio è utile solo se viene spiegato con esempi verificabili.",
+          "Nel confronto emerge una possibile difficoltà: interpretazione può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che linguaggio è utile solo se viene spiegato con esempi verificabili.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Arte e interpretazione · Ascolto»? “L’altro aggiunge che linguaggio è…”",
         "options": [
-          "interpretazione",
-          "aggiunge",
-          "partecipanti",
-          "isolatamente"
+          "In questa puntata dedicata a Arte e interpretazione, due partecipanti mettono a confronto le loro posizioni.",
+          "L’altro aggiunge che linguaggio è utile solo se viene spiegato con esempi verificabili.",
+          "La prima osserva che opera non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: interpretazione può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: interpretazione può cambiare la prospettiva di chi ascolta.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Arte e interpretazione · Ascolto»? “Nel confronto emerge una possibile…”",
         "options": [
-          "interpretazione",
-          "partecipanti",
-          "possibile",
-          "essere"
+          "In questa puntata dedicata a Arte e interpretazione, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che opera non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: interpretazione può cambiare la prospettiva di chi ascolta.",
+          "L’altro aggiunge che linguaggio è utile solo se viene spiegato con esempi verificabili."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Arte e interpretazione · Ascolto»? “Alla fine i partecipanti concordano su un…”",
         "options": [
-          "interpretazione",
-          "partecipanti",
-          "isolatamente",
-          "scelte"
+          "In questa puntata dedicata a Arte e interpretazione, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che opera non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che linguaggio è utile solo se viene spiegato con esempi verificabili.",
+          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
         ]
       }
     ]
@@ -15991,92 +15991,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Narrazione e identità, due partecipanti mettono a confronto le loro _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Narrazione e identità · Ascolto»? “In questa puntata dedicata a Narrazione…”",
             "options": [
               {
                 "id": "o1",
-                "text": "posizioni"
+                "text": "In questa puntata dedicata a Narrazione e identità, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "partecipanti"
+                "text": "La prima osserva che narrazione non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "essere"
+                "text": "L’altro aggiunge che memoria è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "isolatamente"
+                "text": "Nel confronto emerge una possibile difficoltà: voce può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che memoria è utile solo se viene spiegato con esempi verificabili.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Narrazione e identità · Ascolto»? “L’altro aggiunge che memoria è…”",
             "options": [
               {
                 "id": "o1",
-                "text": "partecipanti"
+                "text": "In questa puntata dedicata a Narrazione e identità, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "aggiunge"
+                "text": "L’altro aggiunge che memoria è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o3",
-                "text": "isolatamente"
+                "text": "La prima osserva che narrazione non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o4",
-                "text": "verificabili"
+                "text": "Nel confronto emerge una possibile difficoltà: voce può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: voce può cambiare la prospettiva di chi ascolta.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Narrazione e identità · Ascolto»? “Nel confronto emerge una possibile…”",
             "options": [
               {
                 "id": "o1",
-                "text": "partecipanti"
+                "text": "In questa puntata dedicata a Narrazione e identità, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "essere"
+                "text": "La prima osserva che narrazione non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "possibile"
+                "text": "Nel confronto emerge una possibile difficoltà: voce può cambiare la prospettiva di chi ascolta."
               },
               {
                 "id": "o4",
-                "text": "isolatamente"
+                "text": "L’altro aggiunge che memoria è utile solo se viene spiegato con esempi verificabili."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Narrazione e identità · Ascolto»? “Alla fine i partecipanti concordano su un…”",
             "options": [
               {
                 "id": "o1",
-                "text": "partecipanti"
+                "text": "In questa puntata dedicata a Narrazione e identità, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "isolatamente"
+                "text": "La prima osserva che narrazione non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "verificabili"
+                "text": "L’altro aggiunge che memoria è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "scelte"
+                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
               }
             ]
           }
@@ -16096,42 +16096,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Narrazione e identità, due partecipanti mettono a confronto le loro _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Narrazione e identità · Ascolto»? “In questa puntata dedicata a Narrazione…”",
         "options": [
-          "posizioni",
-          "partecipanti",
-          "essere",
-          "isolatamente"
+          "In questa puntata dedicata a Narrazione e identità, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che narrazione non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che memoria è utile solo se viene spiegato con esempi verificabili.",
+          "Nel confronto emerge una possibile difficoltà: voce può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che memoria è utile solo se viene spiegato con esempi verificabili.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Narrazione e identità · Ascolto»? “L’altro aggiunge che memoria è…”",
         "options": [
-          "partecipanti",
-          "aggiunge",
-          "isolatamente",
-          "verificabili"
+          "In questa puntata dedicata a Narrazione e identità, due partecipanti mettono a confronto le loro posizioni.",
+          "L’altro aggiunge che memoria è utile solo se viene spiegato con esempi verificabili.",
+          "La prima osserva che narrazione non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: voce può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: voce può cambiare la prospettiva di chi ascolta.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Narrazione e identità · Ascolto»? “Nel confronto emerge una possibile…”",
         "options": [
-          "partecipanti",
-          "essere",
-          "possibile",
-          "isolatamente"
+          "In questa puntata dedicata a Narrazione e identità, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che narrazione non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: voce può cambiare la prospettiva di chi ascolta.",
+          "L’altro aggiunge che memoria è utile solo se viene spiegato con esempi verificabili."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Narrazione e identità · Ascolto»? “Alla fine i partecipanti concordano su un…”",
         "options": [
-          "partecipanti",
-          "isolatamente",
-          "verificabili",
-          "scelte"
+          "In questa puntata dedicata a Narrazione e identità, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che narrazione non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che memoria è utile solo se viene spiegato con esempi verificabili.",
+          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
         ]
       }
     ]
@@ -16189,92 +16189,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“_____ costa un chilo?”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Il mercato del sabato: ascolta»? “Quanto costa un…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Quanto"
+                "text": "Quanto costa un chilo?"
               },
               {
                 "id": "o2",
-                "text": "con"
+                "text": "Parliamo di pomodoro."
               },
               {
                 "id": "o3",
-                "text": "Parliamo"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "pomodoro"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Il mercato del sabato: ascolta»? “Parliamo di pomodoro…”",
             "options": [
               {
                 "id": "o1",
-                "text": "costa"
+                "text": "Quanto costa un chilo?"
               },
               {
                 "id": "o2",
-                "text": "pomodoro"
+                "text": "Parliamo di pomodoro."
               },
               {
                 "id": "o3",
-                "text": "chilo"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "piace"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Il mercato del sabato: ascolta»? “Mi piace imparare…”",
             "options": [
               {
                 "id": "o1",
-                "text": "costa"
+                "text": "Quanto costa un chilo?"
               },
               {
                 "id": "o2",
-                "text": "chilo"
+                "text": "Parliamo di pomodoro."
               },
               {
                 "id": "o3",
-                "text": "comunità"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "piace"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Il mercato del sabato: ascolta»? “Facciamo pratica insieme…”",
             "options": [
               {
                 "id": "o1",
-                "text": "costa"
+                "text": "Quanto costa un chilo?"
               },
               {
                 "id": "o2",
-                "text": "chilo"
+                "text": "Parliamo di pomodoro."
               },
               {
                 "id": "o3",
-                "text": "piace"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "pratica"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           }
@@ -16285,42 +16285,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“_____ costa un chilo?”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Il mercato del sabato: ascolta»? “Quanto costa un…”",
         "options": [
-          "Quanto",
-          "con",
-          "Parliamo",
-          "pomodoro"
+          "Quanto costa un chilo?",
+          "Parliamo di pomodoro.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Il mercato del sabato: ascolta»? “Parliamo di pomodoro…”",
         "options": [
-          "costa",
-          "pomodoro",
-          "chilo",
-          "piace"
+          "Quanto costa un chilo?",
+          "Parliamo di pomodoro.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Il mercato del sabato: ascolta»? “Mi piace imparare…”",
         "options": [
-          "costa",
-          "chilo",
-          "comunità",
-          "piace"
+          "Quanto costa un chilo?",
+          "Parliamo di pomodoro.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Il mercato del sabato: ascolta»? “Facciamo pratica insieme…”",
         "options": [
-          "costa",
-          "chilo",
-          "piace",
-          "pratica"
+          "Quanto costa un chilo?",
+          "Parliamo di pomodoro.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       }
     ]
@@ -16378,92 +16378,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“_____ fare una pausa?”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Il lavoro e il caffè: ascolta»? “Posso fare una…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Posso"
+                "text": "Posso fare una pausa?"
               },
               {
                 "id": "o2",
-                "text": "Parliamo"
+                "text": "Parliamo di collega."
               },
               {
                 "id": "o3",
-                "text": "imparare"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "comunità"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Il lavoro e il caffè: ascolta»? “Parliamo di collega…”",
             "options": [
               {
                 "id": "o1",
-                "text": "fare"
+                "text": "Posso fare una pausa?"
               },
               {
                 "id": "o2",
-                "text": "collega"
+                "text": "Parliamo di collega."
               },
               {
                 "id": "o3",
-                "text": "Posso"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "pausa"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Il lavoro e il caffè: ascolta»? “Mi piace imparare…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Posso"
+                "text": "Posso fare una pausa?"
               },
               {
                 "id": "o2",
-                "text": "pausa"
+                "text": "Parliamo di collega."
               },
               {
                 "id": "o3",
-                "text": "comunità"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "piace"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Il lavoro e il caffè: ascolta»? “Facciamo pratica insieme…”",
             "options": [
               {
                 "id": "o1",
-                "text": "fare"
+                "text": "Posso fare una pausa?"
               },
               {
                 "id": "o2",
-                "text": "Posso"
+                "text": "Parliamo di collega."
               },
               {
                 "id": "o3",
-                "text": "pausa"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "pratica"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           }
@@ -16474,42 +16474,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“_____ fare una pausa?”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Il lavoro e il caffè: ascolta»? “Posso fare una…”",
         "options": [
-          "Posso",
-          "Parliamo",
-          "imparare",
-          "comunità"
+          "Posso fare una pausa?",
+          "Parliamo di collega.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Il lavoro e il caffè: ascolta»? “Parliamo di collega…”",
         "options": [
-          "fare",
-          "collega",
-          "Posso",
-          "pausa"
+          "Posso fare una pausa?",
+          "Parliamo di collega.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Il lavoro e il caffè: ascolta»? “Mi piace imparare…”",
         "options": [
-          "Posso",
-          "pausa",
-          "comunità",
-          "piace"
+          "Posso fare una pausa?",
+          "Parliamo di collega.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Il lavoro e il caffè: ascolta»? “Facciamo pratica insieme…”",
         "options": [
-          "fare",
-          "Posso",
-          "pausa",
-          "pratica"
+          "Posso fare una pausa?",
+          "Parliamo di collega.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       }
     ]
@@ -19649,92 +19649,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Ambiente nel quartiere», un piccolo gruppo della comunità parla di rifiuto, raccolta e _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Ambiente nel quartiere: parole»? “Nel tema Ambiente nel quartiere un…”",
             "options": [
               {
                 "id": "o1",
-                "text": "risorsa"
+                "text": "Nel tema «Ambiente nel quartiere», un piccolo gruppo della comunità parla di rifiuto, raccolta e risorsa."
               },
               {
                 "id": "o2",
-                "text": "un'esperienza"
+                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
               },
               {
                 "id": "o3",
-                "text": "collaborare"
+                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
               },
               {
                 "id": "o4",
-                "text": "tema"
+                "text": "Poi il gruppo riassume le idee più importanti."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Ambiente nel quartiere: parole»? “Ogni persona racconta un'esperienza…”",
             "options": [
               {
                 "id": "o1",
-                "text": "un'esperienza"
+                "text": "Nel tema «Ambiente nel quartiere», un piccolo gruppo della comunità parla di rifiuto, raccolta e risorsa."
               },
               {
                 "id": "o2",
-                "text": "persona"
+                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
               },
               {
                 "id": "o3",
-                "text": "collaborare"
+                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
               },
               {
                 "id": "o4",
-                "text": "tema"
+                "text": "Poi il gruppo riassume le idee più importanti."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Ambiente nel quartiere: parole»? “Alla fine decidono di collaborare perché…”",
             "options": [
               {
                 "id": "o1",
-                "text": "un'esperienza"
+                "text": "Nel tema «Ambiente nel quartiere», un piccolo gruppo della comunità parla di rifiuto, raccolta e risorsa."
               },
               {
                 "id": "o2",
-                "text": "collaborare"
+                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
               },
               {
                 "id": "o3",
-                "text": "perché"
+                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
               },
               {
                 "id": "o4",
-                "text": "migliorare"
+                "text": "Poi il gruppo riassume le idee più importanti."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Ambiente nel quartiere: parole»? “Poi il gruppo…”",
             "options": [
               {
                 "id": "o1",
-                "text": "un'esperienza"
+                "text": "Nel tema «Ambiente nel quartiere», un piccolo gruppo della comunità parla di rifiuto, raccolta e risorsa."
               },
               {
                 "id": "o2",
-                "text": "collaborare"
+                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
               },
               {
                 "id": "o3",
-                "text": "migliorare"
+                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
               },
               {
                 "id": "o4",
-                "text": "gruppo"
+                "text": "Poi il gruppo riassume le idee più importanti."
               }
             ]
           }
@@ -19745,42 +19745,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Ambiente nel quartiere», un piccolo gruppo della comunità parla di rifiuto, raccolta e _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Ambiente nel quartiere: parole»? “Nel tema Ambiente nel quartiere un…”",
         "options": [
-          "risorsa",
-          "un'esperienza",
-          "collaborare",
-          "tema"
+          "Nel tema «Ambiente nel quartiere», un piccolo gruppo della comunità parla di rifiuto, raccolta e risorsa.",
+          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
+          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+          "Poi il gruppo riassume le idee più importanti."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Ambiente nel quartiere: parole»? “Ogni persona racconta un'esperienza…”",
         "options": [
-          "un'esperienza",
-          "persona",
-          "collaborare",
-          "tema"
+          "Nel tema «Ambiente nel quartiere», un piccolo gruppo della comunità parla di rifiuto, raccolta e risorsa.",
+          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
+          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+          "Poi il gruppo riassume le idee più importanti."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Ambiente nel quartiere: parole»? “Alla fine decidono di collaborare perché…”",
         "options": [
-          "un'esperienza",
-          "collaborare",
-          "perché",
-          "migliorare"
+          "Nel tema «Ambiente nel quartiere», un piccolo gruppo della comunità parla di rifiuto, raccolta e risorsa.",
+          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
+          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+          "Poi il gruppo riassume le idee più importanti."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Ambiente nel quartiere: parole»? “Poi il gruppo…”",
         "options": [
-          "un'esperienza",
-          "collaborare",
-          "migliorare",
-          "gruppo"
+          "Nel tema «Ambiente nel quartiere», un piccolo gruppo della comunità parla di rifiuto, raccolta e risorsa.",
+          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
+          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+          "Poi il gruppo riassume le idee più importanti."
         ]
       }
     ]
@@ -20075,92 +20075,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Media e informazione, due partecipanti mettono a confronto le loro _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Media e informazione · Ascolto»? “In questa puntata dedicata a Media…”",
             "options": [
               {
                 "id": "o1",
-                "text": "posizioni"
+                "text": "In questa puntata dedicata a Media e informazione, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "informazione"
+                "text": "La prima osserva che fonte non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "partecipanti"
+                "text": "L’altro aggiunge che notizia è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "essere"
+                "text": "Nel confronto emerge una possibile difficoltà: verificare può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che notizia è utile solo se viene spiegato con esempi verificabili.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Media e informazione · Ascolto»? “L’altro aggiunge che notizia è…”",
             "options": [
               {
                 "id": "o1",
-                "text": "informazione"
+                "text": "In questa puntata dedicata a Media e informazione, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "aggiunge"
+                "text": "L’altro aggiunge che notizia è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o3",
-                "text": "partecipanti"
+                "text": "La prima osserva che fonte non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o4",
-                "text": "isolatamente"
+                "text": "Nel confronto emerge una possibile difficoltà: verificare può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: verificare può cambiare la prospettiva di chi ascolta.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Media e informazione · Ascolto»? “Nel confronto emerge una possibile…”",
             "options": [
               {
                 "id": "o1",
-                "text": "informazione"
+                "text": "In questa puntata dedicata a Media e informazione, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "partecipanti"
+                "text": "La prima osserva che fonte non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "possibile"
+                "text": "Nel confronto emerge una possibile difficoltà: verificare può cambiare la prospettiva di chi ascolta."
               },
               {
                 "id": "o4",
-                "text": "essere"
+                "text": "L’altro aggiunge che notizia è utile solo se viene spiegato con esempi verificabili."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Media e informazione · Ascolto»? “Alla fine i partecipanti concordano su un…”",
             "options": [
               {
                 "id": "o1",
-                "text": "informazione"
+                "text": "In questa puntata dedicata a Media e informazione, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "partecipanti"
+                "text": "La prima osserva che fonte non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "isolatamente"
+                "text": "L’altro aggiunge che notizia è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "scelte"
+                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
               }
             ]
           }
@@ -20180,42 +20180,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Media e informazione, due partecipanti mettono a confronto le loro _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Media e informazione · Ascolto»? “In questa puntata dedicata a Media…”",
         "options": [
-          "posizioni",
-          "informazione",
-          "partecipanti",
-          "essere"
+          "In questa puntata dedicata a Media e informazione, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che fonte non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che notizia è utile solo se viene spiegato con esempi verificabili.",
+          "Nel confronto emerge una possibile difficoltà: verificare può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che notizia è utile solo se viene spiegato con esempi verificabili.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Media e informazione · Ascolto»? “L’altro aggiunge che notizia è…”",
         "options": [
-          "informazione",
-          "aggiunge",
-          "partecipanti",
-          "isolatamente"
+          "In questa puntata dedicata a Media e informazione, due partecipanti mettono a confronto le loro posizioni.",
+          "L’altro aggiunge che notizia è utile solo se viene spiegato con esempi verificabili.",
+          "La prima osserva che fonte non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: verificare può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: verificare può cambiare la prospettiva di chi ascolta.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Media e informazione · Ascolto»? “Nel confronto emerge una possibile…”",
         "options": [
-          "informazione",
-          "partecipanti",
-          "possibile",
-          "essere"
+          "In questa puntata dedicata a Media e informazione, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che fonte non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: verificare può cambiare la prospettiva di chi ascolta.",
+          "L’altro aggiunge che notizia è utile solo se viene spiegato con esempi verificabili."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Media e informazione · Ascolto»? “Alla fine i partecipanti concordano su un…”",
         "options": [
-          "informazione",
-          "partecipanti",
-          "isolatamente",
-          "scelte"
+          "In questa puntata dedicata a Media e informazione, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che fonte non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che notizia è utile solo se viene spiegato con esempi verificabili.",
+          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
         ]
       }
     ]
@@ -20282,92 +20282,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Ricerca e metodo, due partecipanti mettono a confronto le loro _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Ricerca e metodo · Ascolto»? “In questa puntata dedicata a Ricerca…”",
             "options": [
               {
                 "id": "o1",
-                "text": "posizioni"
+                "text": "In questa puntata dedicata a Ricerca e metodo, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "metodo"
+                "text": "La prima osserva che ipotesi non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "partecipanti"
+                "text": "L’altro aggiunge che campione è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "essere"
+                "text": "Nel confronto emerge una possibile difficoltà: risultato può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che campione è utile solo se viene spiegato con esempi verificabili.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Ricerca e metodo · Ascolto»? “L’altro aggiunge che campione è…”",
             "options": [
               {
                 "id": "o1",
-                "text": "partecipanti"
+                "text": "In questa puntata dedicata a Ricerca e metodo, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "aggiunge"
+                "text": "L’altro aggiunge che campione è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o3",
-                "text": "isolatamente"
+                "text": "La prima osserva che ipotesi non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o4",
-                "text": "verificabili"
+                "text": "Nel confronto emerge una possibile difficoltà: risultato può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: risultato può cambiare la prospettiva di chi ascolta.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Ricerca e metodo · Ascolto»? “Nel confronto emerge una possibile…”",
             "options": [
               {
                 "id": "o1",
-                "text": "metodo"
+                "text": "In questa puntata dedicata a Ricerca e metodo, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "partecipanti"
+                "text": "La prima osserva che ipotesi non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "possibile"
+                "text": "Nel confronto emerge una possibile difficoltà: risultato può cambiare la prospettiva di chi ascolta."
               },
               {
                 "id": "o4",
-                "text": "essere"
+                "text": "L’altro aggiunge che campione è utile solo se viene spiegato con esempi verificabili."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Ricerca e metodo · Ascolto»? “Alla fine i partecipanti concordano su un…”",
             "options": [
               {
                 "id": "o1",
-                "text": "partecipanti"
+                "text": "In questa puntata dedicata a Ricerca e metodo, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "isolatamente"
+                "text": "La prima osserva che ipotesi non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "verificabili"
+                "text": "L’altro aggiunge che campione è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "scelte"
+                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
               }
             ]
           }
@@ -20387,42 +20387,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Ricerca e metodo, due partecipanti mettono a confronto le loro _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Ricerca e metodo · Ascolto»? “In questa puntata dedicata a Ricerca…”",
         "options": [
-          "posizioni",
-          "metodo",
-          "partecipanti",
-          "essere"
+          "In questa puntata dedicata a Ricerca e metodo, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che ipotesi non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che campione è utile solo se viene spiegato con esempi verificabili.",
+          "Nel confronto emerge una possibile difficoltà: risultato può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che campione è utile solo se viene spiegato con esempi verificabili.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Ricerca e metodo · Ascolto»? “L’altro aggiunge che campione è…”",
         "options": [
-          "partecipanti",
-          "aggiunge",
-          "isolatamente",
-          "verificabili"
+          "In questa puntata dedicata a Ricerca e metodo, due partecipanti mettono a confronto le loro posizioni.",
+          "L’altro aggiunge che campione è utile solo se viene spiegato con esempi verificabili.",
+          "La prima osserva che ipotesi non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: risultato può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: risultato può cambiare la prospettiva di chi ascolta.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Ricerca e metodo · Ascolto»? “Nel confronto emerge una possibile…”",
         "options": [
-          "metodo",
-          "partecipanti",
-          "possibile",
-          "essere"
+          "In questa puntata dedicata a Ricerca e metodo, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che ipotesi non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: risultato può cambiare la prospettiva di chi ascolta.",
+          "L’altro aggiunge che campione è utile solo se viene spiegato con esempi verificabili."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Ricerca e metodo · Ascolto»? “Alla fine i partecipanti concordano su un…”",
         "options": [
-          "partecipanti",
-          "isolatamente",
-          "verificabili",
-          "scelte"
+          "In questa puntata dedicata a Ricerca e metodo, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che ipotesi non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che campione è utile solo se viene spiegato con esempi verificabili.",
+          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
         ]
       }
     ]
@@ -20489,92 +20489,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Diritto e responsabilità, due partecipanti mettono a confronto le loro _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Diritto e responsabilità · Ascolto»? “In questa puntata dedicata a Diritto…”",
             "options": [
               {
                 "id": "o1",
-                "text": "posizioni"
+                "text": "In questa puntata dedicata a Diritto e responsabilità, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "responsabilità"
+                "text": "La prima osserva che diritto non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "partecipanti"
+                "text": "L’altro aggiunge che dovere è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "essere"
+                "text": "Nel confronto emerge una possibile difficoltà: principio può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che dovere è utile solo se viene spiegato con esempi verificabili.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Diritto e responsabilità · Ascolto»? “L’altro aggiunge che dovere è…”",
             "options": [
               {
                 "id": "o1",
-                "text": "responsabilità"
+                "text": "In questa puntata dedicata a Diritto e responsabilità, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "aggiunge"
+                "text": "L’altro aggiunge che dovere è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o3",
-                "text": "partecipanti"
+                "text": "La prima osserva che diritto non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o4",
-                "text": "isolatamente"
+                "text": "Nel confronto emerge una possibile difficoltà: principio può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: principio può cambiare la prospettiva di chi ascolta.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Diritto e responsabilità · Ascolto»? “Nel confronto emerge una possibile…”",
             "options": [
               {
                 "id": "o1",
-                "text": "responsabilità"
+                "text": "In questa puntata dedicata a Diritto e responsabilità, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "partecipanti"
+                "text": "La prima osserva che diritto non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "possibile"
+                "text": "Nel confronto emerge una possibile difficoltà: principio può cambiare la prospettiva di chi ascolta."
               },
               {
                 "id": "o4",
-                "text": "essere"
+                "text": "L’altro aggiunge che dovere è utile solo se viene spiegato con esempi verificabili."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Diritto e responsabilità · Ascolto»? “Alla fine i partecipanti concordano su un…”",
             "options": [
               {
                 "id": "o1",
-                "text": "responsabilità"
+                "text": "In questa puntata dedicata a Diritto e responsabilità, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "partecipanti"
+                "text": "La prima osserva che diritto non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "isolatamente"
+                "text": "L’altro aggiunge che dovere è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "scelte"
+                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
               }
             ]
           }
@@ -20594,42 +20594,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Diritto e responsabilità, due partecipanti mettono a confronto le loro _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Diritto e responsabilità · Ascolto»? “In questa puntata dedicata a Diritto…”",
         "options": [
-          "posizioni",
-          "responsabilità",
-          "partecipanti",
-          "essere"
+          "In questa puntata dedicata a Diritto e responsabilità, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che diritto non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che dovere è utile solo se viene spiegato con esempi verificabili.",
+          "Nel confronto emerge una possibile difficoltà: principio può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che dovere è utile solo se viene spiegato con esempi verificabili.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Diritto e responsabilità · Ascolto»? “L’altro aggiunge che dovere è…”",
         "options": [
-          "responsabilità",
-          "aggiunge",
-          "partecipanti",
-          "isolatamente"
+          "In questa puntata dedicata a Diritto e responsabilità, due partecipanti mettono a confronto le loro posizioni.",
+          "L’altro aggiunge che dovere è utile solo se viene spiegato con esempi verificabili.",
+          "La prima osserva che diritto non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: principio può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: principio può cambiare la prospettiva di chi ascolta.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Diritto e responsabilità · Ascolto»? “Nel confronto emerge una possibile…”",
         "options": [
-          "responsabilità",
-          "partecipanti",
-          "possibile",
-          "essere"
+          "In questa puntata dedicata a Diritto e responsabilità, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che diritto non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: principio può cambiare la prospettiva di chi ascolta.",
+          "L’altro aggiunge che dovere è utile solo se viene spiegato con esempi verificabili."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Diritto e responsabilità · Ascolto»? “Alla fine i partecipanti concordano su un…”",
         "options": [
-          "responsabilità",
-          "partecipanti",
-          "isolatamente",
-          "scelte"
+          "In questa puntata dedicata a Diritto e responsabilità, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che diritto non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che dovere è utile solo se viene spiegato con esempi verificabili.",
+          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
         ]
       }
     ]
@@ -20687,92 +20687,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“Dov’è la _____?”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «In bicicletta: ascolta»? “Dov’è la stazione…”",
             "options": [
               {
                 "id": "o1",
-                "text": "stazione"
+                "text": "Dov’è la stazione?"
               },
               {
                 "id": "o2",
-                "text": "Dov’è"
+                "text": "Parliamo di strada."
               },
               {
                 "id": "o3",
-                "text": "piace"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "strada"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «In bicicletta: ascolta»? “Parliamo di strada…”",
             "options": [
               {
                 "id": "o1",
-                "text": "con"
+                "text": "Dov’è la stazione?"
               },
               {
                 "id": "o2",
-                "text": "strada"
+                "text": "Parliamo di strada."
               },
               {
                 "id": "o3",
-                "text": "stazione"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "Parliamo"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «In bicicletta: ascolta»? “Mi piace imparare…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Dov’è"
+                "text": "Dov’è la stazione?"
               },
               {
                 "id": "o2",
-                "text": "piace"
+                "text": "Parliamo di strada."
               },
               {
                 "id": "o3",
-                "text": "comunità"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "strada"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «In bicicletta: ascolta»? “Facciamo pratica insieme…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Dov’è"
+                "text": "Dov’è la stazione?"
               },
               {
                 "id": "o2",
-                "text": "piace"
+                "text": "Parliamo di strada."
               },
               {
                 "id": "o3",
-                "text": "stazione"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "pratica"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           }
@@ -20783,42 +20783,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“Dov’è la _____?”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «In bicicletta: ascolta»? “Dov’è la stazione…”",
         "options": [
-          "stazione",
-          "Dov’è",
-          "piace",
-          "strada"
+          "Dov’è la stazione?",
+          "Parliamo di strada.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «In bicicletta: ascolta»? “Parliamo di strada…”",
         "options": [
-          "con",
-          "strada",
-          "stazione",
-          "Parliamo"
+          "Dov’è la stazione?",
+          "Parliamo di strada.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «In bicicletta: ascolta»? “Mi piace imparare…”",
         "options": [
-          "Dov’è",
-          "piace",
-          "comunità",
-          "strada"
+          "Dov’è la stazione?",
+          "Parliamo di strada.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «In bicicletta: ascolta»? “Facciamo pratica insieme…”",
         "options": [
-          "Dov’è",
-          "piace",
-          "stazione",
-          "pratica"
+          "Dov’è la stazione?",
+          "Parliamo di strada.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       }
     ]
@@ -20876,92 +20876,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“La mostra era _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Arte nel quartiere: ascolta»? “La mostra era…”",
             "options": [
               {
                 "id": "o1",
-                "text": "interessante"
+                "text": "La mostra era interessante."
               },
               {
                 "id": "o2",
-                "text": "mostra"
+                "text": "Parliamo di mostra."
               },
               {
                 "id": "o3",
-                "text": "era"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "Parliamo"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Arte nel quartiere: ascolta»? “Parliamo di mostra…”",
             "options": [
               {
                 "id": "o1",
-                "text": "interessante"
+                "text": "La mostra era interessante."
               },
               {
                 "id": "o2",
-                "text": "mostra"
+                "text": "Parliamo di mostra."
               },
               {
                 "id": "o3",
-                "text": "era"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "con"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Arte nel quartiere: ascolta»? “Mi piace imparare…”",
             "options": [
               {
                 "id": "o1",
-                "text": "interessante"
+                "text": "La mostra era interessante."
               },
               {
                 "id": "o2",
-                "text": "piace"
+                "text": "Parliamo di mostra."
               },
               {
                 "id": "o3",
-                "text": "comunità"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "mostra"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Arte nel quartiere: ascolta»? “Facciamo pratica insieme…”",
             "options": [
               {
                 "id": "o1",
-                "text": "interessante"
+                "text": "La mostra era interessante."
               },
               {
                 "id": "o2",
-                "text": "piace"
+                "text": "Parliamo di mostra."
               },
               {
                 "id": "o3",
-                "text": "mostra"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "pratica"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           }
@@ -20972,42 +20972,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“La mostra era _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Arte nel quartiere: ascolta»? “La mostra era…”",
         "options": [
-          "interessante",
-          "mostra",
-          "era",
-          "Parliamo"
+          "La mostra era interessante.",
+          "Parliamo di mostra.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Arte nel quartiere: ascolta»? “Parliamo di mostra…”",
         "options": [
-          "interessante",
-          "mostra",
-          "era",
-          "con"
+          "La mostra era interessante.",
+          "Parliamo di mostra.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Arte nel quartiere: ascolta»? “Mi piace imparare…”",
         "options": [
-          "interessante",
-          "piace",
-          "comunità",
-          "mostra"
+          "La mostra era interessante.",
+          "Parliamo di mostra.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Arte nel quartiere: ascolta»? “Facciamo pratica insieme…”",
         "options": [
-          "interessante",
-          "piace",
-          "mostra",
-          "pratica"
+          "La mostra era interessante.",
+          "Parliamo di mostra.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       }
     ]
@@ -24147,92 +24147,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Storie e memoria», un piccolo gruppo della comunità parla di memoria, infanzia e _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Storie e memoria: parole»? “Nel tema Storie e memoria un…”",
             "options": [
               {
                 "id": "o1",
-                "text": "cambiamento"
+                "text": "Nel tema «Storie e memoria», un piccolo gruppo della comunità parla di memoria, infanzia e cambiamento."
               },
               {
                 "id": "o2",
-                "text": "comunità"
+                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
               },
               {
                 "id": "o3",
-                "text": "infanzia"
+                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
               },
               {
                 "id": "o4",
-                "text": "racconta"
+                "text": "Poi il gruppo riassume le idee più importanti."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Storie e memoria: parole»? “Ogni persona racconta un'esperienza…”",
             "options": [
               {
                 "id": "o1",
-                "text": "un'esperienza"
+                "text": "Nel tema «Storie e memoria», un piccolo gruppo della comunità parla di memoria, infanzia e cambiamento."
               },
               {
                 "id": "o2",
-                "text": "persona"
+                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
               },
               {
                 "id": "o3",
-                "text": "cambiamento"
+                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
               },
               {
                 "id": "o4",
-                "text": "collaborare"
+                "text": "Poi il gruppo riassume le idee più importanti."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Storie e memoria: parole»? “Alla fine decidono di collaborare perché…”",
             "options": [
               {
                 "id": "o1",
-                "text": "un'esperienza"
+                "text": "Nel tema «Storie e memoria», un piccolo gruppo della comunità parla di memoria, infanzia e cambiamento."
               },
               {
                 "id": "o2",
-                "text": "cambiamento"
+                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
               },
               {
                 "id": "o3",
-                "text": "perché"
+                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
               },
               {
                 "id": "o4",
-                "text": "collaborare"
+                "text": "Poi il gruppo riassume le idee più importanti."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Storie e memoria: parole»? “Poi il gruppo…”",
             "options": [
               {
                 "id": "o1",
-                "text": "un'esperienza"
+                "text": "Nel tema «Storie e memoria», un piccolo gruppo della comunità parla di memoria, infanzia e cambiamento."
               },
               {
                 "id": "o2",
-                "text": "cambiamento"
+                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
               },
               {
                 "id": "o3",
-                "text": "collaborare"
+                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
               },
               {
                 "id": "o4",
-                "text": "gruppo"
+                "text": "Poi il gruppo riassume le idee più importanti."
               }
             ]
           }
@@ -24243,42 +24243,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Storie e memoria», un piccolo gruppo della comunità parla di memoria, infanzia e _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Storie e memoria: parole»? “Nel tema Storie e memoria un…”",
         "options": [
-          "cambiamento",
-          "comunità",
-          "infanzia",
-          "racconta"
+          "Nel tema «Storie e memoria», un piccolo gruppo della comunità parla di memoria, infanzia e cambiamento.",
+          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
+          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+          "Poi il gruppo riassume le idee più importanti."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Storie e memoria: parole»? “Ogni persona racconta un'esperienza…”",
         "options": [
-          "un'esperienza",
-          "persona",
-          "cambiamento",
-          "collaborare"
+          "Nel tema «Storie e memoria», un piccolo gruppo della comunità parla di memoria, infanzia e cambiamento.",
+          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
+          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+          "Poi il gruppo riassume le idee più importanti."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Storie e memoria: parole»? “Alla fine decidono di collaborare perché…”",
         "options": [
-          "un'esperienza",
-          "cambiamento",
-          "perché",
-          "collaborare"
+          "Nel tema «Storie e memoria», un piccolo gruppo della comunità parla di memoria, infanzia e cambiamento.",
+          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
+          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+          "Poi il gruppo riassume le idee più importanti."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Storie e memoria: parole»? “Poi il gruppo…”",
         "options": [
-          "un'esperienza",
-          "cambiamento",
-          "collaborare",
-          "gruppo"
+          "Nel tema «Storie e memoria», un piccolo gruppo della comunità parla di memoria, infanzia e cambiamento.",
+          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
+          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+          "Poi il gruppo riassume le idee più importanti."
         ]
       }
     ]
@@ -24573,92 +24573,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Salute e benessere, due partecipanti mettono a confronto le loro _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Salute e benessere · Ascolto»? “In questa puntata dedicata a Salute…”",
             "options": [
               {
                 "id": "o1",
-                "text": "posizioni"
+                "text": "In questa puntata dedicata a Salute e benessere, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "Salute"
+                "text": "La prima osserva che benessere non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "partecipanti"
+                "text": "L’altro aggiunge che prevenzione è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "essere"
+                "text": "Nel confronto emerge una possibile difficoltà: riposo può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che prevenzione è utile solo se viene spiegato con esempi verificabili.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Salute e benessere · Ascolto»? “L’altro aggiunge che prevenzione è…”",
             "options": [
               {
                 "id": "o1",
-                "text": "partecipanti"
+                "text": "In questa puntata dedicata a Salute e benessere, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "aggiunge"
+                "text": "L’altro aggiunge che prevenzione è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o3",
-                "text": "isolatamente"
+                "text": "La prima osserva che benessere non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o4",
-                "text": "verificabili"
+                "text": "Nel confronto emerge una possibile difficoltà: riposo può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: riposo può cambiare la prospettiva di chi ascolta.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Salute e benessere · Ascolto»? “Nel confronto emerge una possibile…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Salute"
+                "text": "In questa puntata dedicata a Salute e benessere, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "partecipanti"
+                "text": "La prima osserva che benessere non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "possibile"
+                "text": "Nel confronto emerge una possibile difficoltà: riposo può cambiare la prospettiva di chi ascolta."
               },
               {
                 "id": "o4",
-                "text": "essere"
+                "text": "L’altro aggiunge che prevenzione è utile solo se viene spiegato con esempi verificabili."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Salute e benessere · Ascolto»? “Alla fine i partecipanti concordano su un…”",
             "options": [
               {
                 "id": "o1",
-                "text": "partecipanti"
+                "text": "In questa puntata dedicata a Salute e benessere, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "isolatamente"
+                "text": "La prima osserva che benessere non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "verificabili"
+                "text": "L’altro aggiunge che prevenzione è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "scelte"
+                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
               }
             ]
           }
@@ -24678,42 +24678,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Salute e benessere, due partecipanti mettono a confronto le loro _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Salute e benessere · Ascolto»? “In questa puntata dedicata a Salute…”",
         "options": [
-          "posizioni",
-          "Salute",
-          "partecipanti",
-          "essere"
+          "In questa puntata dedicata a Salute e benessere, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che benessere non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che prevenzione è utile solo se viene spiegato con esempi verificabili.",
+          "Nel confronto emerge una possibile difficoltà: riposo può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che prevenzione è utile solo se viene spiegato con esempi verificabili.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Salute e benessere · Ascolto»? “L’altro aggiunge che prevenzione è…”",
         "options": [
-          "partecipanti",
-          "aggiunge",
-          "isolatamente",
-          "verificabili"
+          "In questa puntata dedicata a Salute e benessere, due partecipanti mettono a confronto le loro posizioni.",
+          "L’altro aggiunge che prevenzione è utile solo se viene spiegato con esempi verificabili.",
+          "La prima osserva che benessere non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: riposo può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: riposo può cambiare la prospettiva di chi ascolta.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Salute e benessere · Ascolto»? “Nel confronto emerge una possibile…”",
         "options": [
-          "Salute",
-          "partecipanti",
-          "possibile",
-          "essere"
+          "In questa puntata dedicata a Salute e benessere, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che benessere non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: riposo può cambiare la prospettiva di chi ascolta.",
+          "L’altro aggiunge che prevenzione è utile solo se viene spiegato con esempi verificabili."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Salute e benessere · Ascolto»? “Alla fine i partecipanti concordano su un…”",
         "options": [
-          "partecipanti",
-          "isolatamente",
-          "verificabili",
-          "scelte"
+          "In questa puntata dedicata a Salute e benessere, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che benessere non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che prevenzione è utile solo se viene spiegato con esempi verificabili.",
+          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
         ]
       }
     ]
@@ -24780,92 +24780,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Economia quotidiana, due partecipanti mettono a confronto le loro _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Economia quotidiana · Ascolto»? “In questa puntata dedicata a…”",
             "options": [
               {
                 "id": "o1",
-                "text": "posizioni"
+                "text": "In questa puntata dedicata a Economia quotidiana, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "partecipanti"
+                "text": "La prima osserva che bilancio non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "essere"
+                "text": "L’altro aggiunge che risparmio è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "isolatamente"
+                "text": "Nel confronto emerge una possibile difficoltà: investimento può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che risparmio è utile solo se viene spiegato con esempi verificabili.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Economia quotidiana · Ascolto»? “L’altro aggiunge che risparmio è…”",
             "options": [
               {
                 "id": "o1",
-                "text": "partecipanti"
+                "text": "In questa puntata dedicata a Economia quotidiana, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "aggiunge"
+                "text": "L’altro aggiunge che risparmio è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o3",
-                "text": "isolatamente"
+                "text": "La prima osserva che bilancio non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o4",
-                "text": "verificabili"
+                "text": "Nel confronto emerge una possibile difficoltà: investimento può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: investimento può cambiare la prospettiva di chi ascolta.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Economia quotidiana · Ascolto»? “Nel confronto emerge una possibile…”",
             "options": [
               {
                 "id": "o1",
-                "text": "partecipanti"
+                "text": "In questa puntata dedicata a Economia quotidiana, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "essere"
+                "text": "La prima osserva che bilancio non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "possibile"
+                "text": "Nel confronto emerge una possibile difficoltà: investimento può cambiare la prospettiva di chi ascolta."
               },
               {
                 "id": "o4",
-                "text": "isolatamente"
+                "text": "L’altro aggiunge che risparmio è utile solo se viene spiegato con esempi verificabili."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Economia quotidiana · Ascolto»? “Alla fine i partecipanti concordano su un…”",
             "options": [
               {
                 "id": "o1",
-                "text": "partecipanti"
+                "text": "In questa puntata dedicata a Economia quotidiana, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "isolatamente"
+                "text": "La prima osserva che bilancio non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "verificabili"
+                "text": "L’altro aggiunge che risparmio è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "scelte"
+                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
               }
             ]
           }
@@ -24885,42 +24885,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Economia quotidiana, due partecipanti mettono a confronto le loro _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Economia quotidiana · Ascolto»? “In questa puntata dedicata a…”",
         "options": [
-          "posizioni",
-          "partecipanti",
-          "essere",
-          "isolatamente"
+          "In questa puntata dedicata a Economia quotidiana, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che bilancio non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che risparmio è utile solo se viene spiegato con esempi verificabili.",
+          "Nel confronto emerge una possibile difficoltà: investimento può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che risparmio è utile solo se viene spiegato con esempi verificabili.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Economia quotidiana · Ascolto»? “L’altro aggiunge che risparmio è…”",
         "options": [
-          "partecipanti",
-          "aggiunge",
-          "isolatamente",
-          "verificabili"
+          "In questa puntata dedicata a Economia quotidiana, due partecipanti mettono a confronto le loro posizioni.",
+          "L’altro aggiunge che risparmio è utile solo se viene spiegato con esempi verificabili.",
+          "La prima osserva che bilancio non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: investimento può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: investimento può cambiare la prospettiva di chi ascolta.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Economia quotidiana · Ascolto»? “Nel confronto emerge una possibile…”",
         "options": [
-          "partecipanti",
-          "essere",
-          "possibile",
-          "isolatamente"
+          "In questa puntata dedicata a Economia quotidiana, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che bilancio non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: investimento può cambiare la prospettiva di chi ascolta.",
+          "L’altro aggiunge che risparmio è utile solo se viene spiegato con esempi verificabili."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Economia quotidiana · Ascolto»? “Alla fine i partecipanti concordano su un…”",
         "options": [
-          "partecipanti",
-          "isolatamente",
-          "verificabili",
-          "scelte"
+          "In questa puntata dedicata a Economia quotidiana, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che bilancio non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che risparmio è utile solo se viene spiegato con esempi verificabili.",
+          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
         ]
       }
     ]
@@ -24987,92 +24987,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Economia e disuguaglianza, due partecipanti mettono a confronto le loro _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Economia e disuguaglianza · Ascolto»? “In questa puntata dedicata a Economia…”",
             "options": [
               {
                 "id": "o1",
-                "text": "posizioni"
+                "text": "In questa puntata dedicata a Economia e disuguaglianza, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "disuguaglianza"
+                "text": "La prima osserva che disuguaglianza non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "partecipanti"
+                "text": "L’altro aggiunge che reddito è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "essere"
+                "text": "Nel confronto emerge una possibile difficoltà: indicatore può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che reddito è utile solo se viene spiegato con esempi verificabili.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Economia e disuguaglianza · Ascolto»? “L’altro aggiunge che reddito è…”",
             "options": [
               {
                 "id": "o1",
-                "text": "disuguaglianza"
+                "text": "In questa puntata dedicata a Economia e disuguaglianza, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "aggiunge"
+                "text": "L’altro aggiunge che reddito è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o3",
-                "text": "partecipanti"
+                "text": "La prima osserva che disuguaglianza non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o4",
-                "text": "isolatamente"
+                "text": "Nel confronto emerge una possibile difficoltà: indicatore può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: indicatore può cambiare la prospettiva di chi ascolta.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Economia e disuguaglianza · Ascolto»? “Nel confronto emerge una possibile…”",
             "options": [
               {
                 "id": "o1",
-                "text": "disuguaglianza"
+                "text": "In questa puntata dedicata a Economia e disuguaglianza, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "partecipanti"
+                "text": "La prima osserva che disuguaglianza non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "possibile"
+                "text": "Nel confronto emerge una possibile difficoltà: indicatore può cambiare la prospettiva di chi ascolta."
               },
               {
                 "id": "o4",
-                "text": "essere"
+                "text": "L’altro aggiunge che reddito è utile solo se viene spiegato con esempi verificabili."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Economia e disuguaglianza · Ascolto»? “Alla fine i partecipanti concordano su un…”",
             "options": [
               {
                 "id": "o1",
-                "text": "disuguaglianza"
+                "text": "In questa puntata dedicata a Economia e disuguaglianza, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "partecipanti"
+                "text": "La prima osserva che disuguaglianza non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "isolatamente"
+                "text": "L’altro aggiunge che reddito è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "scelte"
+                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
               }
             ]
           }
@@ -25092,42 +25092,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Economia e disuguaglianza, due partecipanti mettono a confronto le loro _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Economia e disuguaglianza · Ascolto»? “In questa puntata dedicata a Economia…”",
         "options": [
-          "posizioni",
-          "disuguaglianza",
-          "partecipanti",
-          "essere"
+          "In questa puntata dedicata a Economia e disuguaglianza, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che disuguaglianza non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che reddito è utile solo se viene spiegato con esempi verificabili.",
+          "Nel confronto emerge una possibile difficoltà: indicatore può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che reddito è utile solo se viene spiegato con esempi verificabili.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Economia e disuguaglianza · Ascolto»? “L’altro aggiunge che reddito è…”",
         "options": [
-          "disuguaglianza",
-          "aggiunge",
-          "partecipanti",
-          "isolatamente"
+          "In questa puntata dedicata a Economia e disuguaglianza, due partecipanti mettono a confronto le loro posizioni.",
+          "L’altro aggiunge che reddito è utile solo se viene spiegato con esempi verificabili.",
+          "La prima osserva che disuguaglianza non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: indicatore può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: indicatore può cambiare la prospettiva di chi ascolta.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Economia e disuguaglianza · Ascolto»? “Nel confronto emerge una possibile…”",
         "options": [
-          "disuguaglianza",
-          "partecipanti",
-          "possibile",
-          "essere"
+          "In questa puntata dedicata a Economia e disuguaglianza, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che disuguaglianza non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: indicatore può cambiare la prospettiva di chi ascolta.",
+          "L’altro aggiunge che reddito è utile solo se viene spiegato con esempi verificabili."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Economia e disuguaglianza · Ascolto»? “Alla fine i partecipanti concordano su un…”",
         "options": [
-          "disuguaglianza",
-          "partecipanti",
-          "isolatamente",
-          "scelte"
+          "In questa puntata dedicata a Economia e disuguaglianza, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che disuguaglianza non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che reddito è utile solo se viene spiegato con esempi verificabili.",
+          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
         ]
       }
     ]
@@ -25185,92 +25185,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“Che _____ ti piace?”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Scuola e amici: ascolta»? “Che materia ti…”",
             "options": [
               {
                 "id": "o1",
-                "text": "materia"
+                "text": "Che materia ti piace?"
               },
               {
                 "id": "o2",
-                "text": "piace"
+                "text": "Parliamo di scuola."
               },
               {
                 "id": "o3",
-                "text": "Parliamo"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "scuola"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Scuola e amici: ascolta»? “Parliamo di scuola…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Che"
+                "text": "Che materia ti piace?"
               },
               {
                 "id": "o2",
-                "text": "scuola"
+                "text": "Parliamo di scuola."
               },
               {
                 "id": "o3",
-                "text": "con"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "Parliamo"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Scuola e amici: ascolta»? “Mi piace imparare…”",
             "options": [
               {
                 "id": "o1",
-                "text": "piace"
+                "text": "Che materia ti piace?"
               },
               {
                 "id": "o2",
-                "text": "scuola"
+                "text": "Parliamo di scuola."
               },
               {
                 "id": "o3",
-                "text": "comunità"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "domani"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Scuola e amici: ascolta»? “Facciamo pratica insieme…”",
             "options": [
               {
                 "id": "o1",
-                "text": "piace"
+                "text": "Che materia ti piace?"
               },
               {
                 "id": "o2",
-                "text": "Parliamo"
+                "text": "Parliamo di scuola."
               },
               {
                 "id": "o3",
-                "text": "scuola"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "pratica"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           }
@@ -25281,42 +25281,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“Che _____ ti piace?”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Scuola e amici: ascolta»? “Che materia ti…”",
         "options": [
-          "materia",
-          "piace",
-          "Parliamo",
-          "scuola"
+          "Che materia ti piace?",
+          "Parliamo di scuola.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Scuola e amici: ascolta»? “Parliamo di scuola…”",
         "options": [
-          "Che",
-          "scuola",
-          "con",
-          "Parliamo"
+          "Che materia ti piace?",
+          "Parliamo di scuola.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Scuola e amici: ascolta»? “Mi piace imparare…”",
         "options": [
-          "piace",
-          "scuola",
-          "comunità",
-          "domani"
+          "Che materia ti piace?",
+          "Parliamo di scuola.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Scuola e amici: ascolta»? “Facciamo pratica insieme…”",
         "options": [
-          "piace",
-          "Parliamo",
-          "scuola",
-          "pratica"
+          "Che materia ti piace?",
+          "Parliamo di scuola.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       }
     ]
@@ -25374,92 +25374,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“Non voglio disturbare i _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Viaggiare con responsabilità: ascolta»? “Non voglio disturbare…”",
             "options": [
               {
                 "id": "o1",
-                "text": "residenti"
+                "text": "Non voglio disturbare i residenti."
               },
               {
                 "id": "o2",
-                "text": "voglio"
+                "text": "Parliamo di residente."
               },
               {
                 "id": "o3",
-                "text": "domani"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "pratica"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Viaggiare con responsabilità: ascolta»? “Parliamo di residente…”",
             "options": [
               {
                 "id": "o1",
-                "text": "voglio"
+                "text": "Non voglio disturbare i residenti."
               },
               {
                 "id": "o2",
-                "text": "residente"
+                "text": "Parliamo di residente."
               },
               {
                 "id": "o3",
-                "text": "domani"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "pratica"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Viaggiare con responsabilità: ascolta»? “Mi piace imparare…”",
             "options": [
               {
                 "id": "o1",
-                "text": "piace"
+                "text": "Non voglio disturbare i residenti."
               },
               {
                 "id": "o2",
-                "text": "voglio"
+                "text": "Parliamo di residente."
               },
               {
                 "id": "o3",
-                "text": "comunità"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "disturbare"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Viaggiare con responsabilità: ascolta»? “Facciamo pratica insieme…”",
             "options": [
               {
                 "id": "o1",
-                "text": "disturbare"
+                "text": "Non voglio disturbare i residenti."
               },
               {
                 "id": "o2",
-                "text": "residenti"
+                "text": "Parliamo di residente."
               },
               {
                 "id": "o3",
-                "text": "residente"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "pratica"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           }
@@ -25470,42 +25470,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“Non voglio disturbare i _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Viaggiare con responsabilità: ascolta»? “Non voglio disturbare…”",
         "options": [
-          "residenti",
-          "voglio",
-          "domani",
-          "pratica"
+          "Non voglio disturbare i residenti.",
+          "Parliamo di residente.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Viaggiare con responsabilità: ascolta»? “Parliamo di residente…”",
         "options": [
-          "voglio",
-          "residente",
-          "domani",
-          "pratica"
+          "Non voglio disturbare i residenti.",
+          "Parliamo di residente.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Viaggiare con responsabilità: ascolta»? “Mi piace imparare…”",
         "options": [
-          "piace",
-          "voglio",
-          "comunità",
-          "disturbare"
+          "Non voglio disturbare i residenti.",
+          "Parliamo di residente.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Viaggiare con responsabilità: ascolta»? “Facciamo pratica insieme…”",
         "options": [
-          "disturbare",
-          "residenti",
-          "residente",
-          "pratica"
+          "Non voglio disturbare i residenti.",
+          "Parliamo di residente.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       }
     ]
@@ -28645,92 +28645,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Progetti di classe», un piccolo gruppo della comunità parla di progetto, ricerca e _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Progetti di classe: parole»? “Nel tema Progetti di classe un…”",
             "options": [
               {
                 "id": "o1",
-                "text": "compito"
+                "text": "Nel tema «Progetti di classe», un piccolo gruppo della comunità parla di progetto, ricerca e compito."
               },
               {
                 "id": "o2",
-                "text": "un'esperienza"
+                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
               },
               {
                 "id": "o3",
-                "text": "collaborare"
+                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
               },
               {
                 "id": "o4",
-                "text": "tema"
+                "text": "Poi il gruppo riassume le idee più importanti."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Progetti di classe: parole»? “Ogni persona racconta un'esperienza…”",
             "options": [
               {
                 "id": "o1",
-                "text": "un'esperienza"
+                "text": "Nel tema «Progetti di classe», un piccolo gruppo della comunità parla di progetto, ricerca e compito."
               },
               {
                 "id": "o2",
-                "text": "persona"
+                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
               },
               {
                 "id": "o3",
-                "text": "collaborare"
+                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
               },
               {
                 "id": "o4",
-                "text": "tema"
+                "text": "Poi il gruppo riassume le idee più importanti."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Progetti di classe: parole»? “Alla fine decidono di collaborare perché…”",
             "options": [
               {
                 "id": "o1",
-                "text": "un'esperienza"
+                "text": "Nel tema «Progetti di classe», un piccolo gruppo della comunità parla di progetto, ricerca e compito."
               },
               {
                 "id": "o2",
-                "text": "collaborare"
+                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
               },
               {
                 "id": "o3",
-                "text": "perché"
+                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
               },
               {
                 "id": "o4",
-                "text": "migliorare"
+                "text": "Poi il gruppo riassume le idee più importanti."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Progetti di classe: parole»? “Poi il gruppo…”",
             "options": [
               {
                 "id": "o1",
-                "text": "un'esperienza"
+                "text": "Nel tema «Progetti di classe», un piccolo gruppo della comunità parla di progetto, ricerca e compito."
               },
               {
                 "id": "o2",
-                "text": "collaborare"
+                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
               },
               {
                 "id": "o3",
-                "text": "migliorare"
+                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
               },
               {
                 "id": "o4",
-                "text": "gruppo"
+                "text": "Poi il gruppo riassume le idee più importanti."
               }
             ]
           }
@@ -28741,42 +28741,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Progetti di classe», un piccolo gruppo della comunità parla di progetto, ricerca e _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Progetti di classe: parole»? “Nel tema Progetti di classe un…”",
         "options": [
-          "compito",
-          "un'esperienza",
-          "collaborare",
-          "tema"
+          "Nel tema «Progetti di classe», un piccolo gruppo della comunità parla di progetto, ricerca e compito.",
+          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
+          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+          "Poi il gruppo riassume le idee più importanti."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Progetti di classe: parole»? “Ogni persona racconta un'esperienza…”",
         "options": [
-          "un'esperienza",
-          "persona",
-          "collaborare",
-          "tema"
+          "Nel tema «Progetti di classe», un piccolo gruppo della comunità parla di progetto, ricerca e compito.",
+          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
+          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+          "Poi il gruppo riassume le idee più importanti."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Progetti di classe: parole»? “Alla fine decidono di collaborare perché…”",
         "options": [
-          "un'esperienza",
-          "collaborare",
-          "perché",
-          "migliorare"
+          "Nel tema «Progetti di classe», un piccolo gruppo della comunità parla di progetto, ricerca e compito.",
+          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
+          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+          "Poi il gruppo riassume le idee più importanti."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Progetti di classe: parole»? “Poi il gruppo…”",
         "options": [
-          "un'esperienza",
-          "collaborare",
-          "migliorare",
-          "gruppo"
+          "Nel tema «Progetti di classe», un piccolo gruppo della comunità parla di progetto, ricerca e compito.",
+          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
+          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+          "Poi il gruppo riassume le idee più importanti."
         ]
       }
     ]
@@ -29071,92 +29071,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Cultura e identità, due partecipanti mettono a confronto le loro _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Cultura e identità · Ascolto»? “In questa puntata dedicata a Cultura…”",
             "options": [
               {
                 "id": "o1",
-                "text": "posizioni"
+                "text": "In questa puntata dedicata a Cultura e identità, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "partecipanti"
+                "text": "La prima osserva che tradizione non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "essere"
+                "text": "L’altro aggiunge che appartenenza è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "isolatamente"
+                "text": "Nel confronto emerge una possibile difficoltà: prospettiva può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che appartenenza è utile solo se viene spiegato con esempi verificabili.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Cultura e identità · Ascolto»? “L’altro aggiunge che appartenenza è…”",
             "options": [
               {
                 "id": "o1",
-                "text": "partecipanti"
+                "text": "In questa puntata dedicata a Cultura e identità, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "aggiunge"
+                "text": "L’altro aggiunge che appartenenza è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o3",
-                "text": "isolatamente"
+                "text": "La prima osserva che tradizione non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o4",
-                "text": "appartenenza"
+                "text": "Nel confronto emerge una possibile difficoltà: prospettiva può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: prospettiva può cambiare la prospettiva di chi ascolta.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Cultura e identità · Ascolto»? “Nel confronto emerge una possibile…”",
             "options": [
               {
                 "id": "o1",
-                "text": "partecipanti"
+                "text": "In questa puntata dedicata a Cultura e identità, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "essere"
+                "text": "La prima osserva che tradizione non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "possibile"
+                "text": "Nel confronto emerge una possibile difficoltà: prospettiva può cambiare la prospettiva di chi ascolta."
               },
               {
                 "id": "o4",
-                "text": "isolatamente"
+                "text": "L’altro aggiunge che appartenenza è utile solo se viene spiegato con esempi verificabili."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Cultura e identità · Ascolto»? “Alla fine i partecipanti concordano su un…”",
             "options": [
               {
                 "id": "o1",
-                "text": "partecipanti"
+                "text": "In questa puntata dedicata a Cultura e identità, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "isolatamente"
+                "text": "La prima osserva che tradizione non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "appartenenza"
+                "text": "L’altro aggiunge che appartenenza è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "scelte"
+                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
               }
             ]
           }
@@ -29176,42 +29176,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Cultura e identità, due partecipanti mettono a confronto le loro _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Cultura e identità · Ascolto»? “In questa puntata dedicata a Cultura…”",
         "options": [
-          "posizioni",
-          "partecipanti",
-          "essere",
-          "isolatamente"
+          "In questa puntata dedicata a Cultura e identità, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che tradizione non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che appartenenza è utile solo se viene spiegato con esempi verificabili.",
+          "Nel confronto emerge una possibile difficoltà: prospettiva può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che appartenenza è utile solo se viene spiegato con esempi verificabili.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Cultura e identità · Ascolto»? “L’altro aggiunge che appartenenza è…”",
         "options": [
-          "partecipanti",
-          "aggiunge",
-          "isolatamente",
-          "appartenenza"
+          "In questa puntata dedicata a Cultura e identità, due partecipanti mettono a confronto le loro posizioni.",
+          "L’altro aggiunge che appartenenza è utile solo se viene spiegato con esempi verificabili.",
+          "La prima osserva che tradizione non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: prospettiva può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: prospettiva può cambiare la prospettiva di chi ascolta.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Cultura e identità · Ascolto»? “Nel confronto emerge una possibile…”",
         "options": [
-          "partecipanti",
-          "essere",
-          "possibile",
-          "isolatamente"
+          "In questa puntata dedicata a Cultura e identità, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che tradizione non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: prospettiva può cambiare la prospettiva di chi ascolta.",
+          "L’altro aggiunge che appartenenza è utile solo se viene spiegato con esempi verificabili."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Cultura e identità · Ascolto»? “Alla fine i partecipanti concordano su un…”",
         "options": [
-          "partecipanti",
-          "isolatamente",
-          "appartenenza",
-          "scelte"
+          "In questa puntata dedicata a Cultura e identità, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che tradizione non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che appartenenza è utile solo se viene spiegato con esempi verificabili.",
+          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
         ]
       }
     ]
@@ -29278,92 +29278,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Territori e memoria, due partecipanti mettono a confronto le loro _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Territori e memoria · Ascolto»? “In questa puntata dedicata a Territori…”",
             "options": [
               {
                 "id": "o1",
-                "text": "posizioni"
+                "text": "In questa puntata dedicata a Territori e memoria, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "trasformazione"
+                "text": "La prima osserva che memoria non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "partecipanti"
+                "text": "L’altro aggiunge che patrimonio è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "essere"
+                "text": "Nel confronto emerge una possibile difficoltà: trasformazione può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che patrimonio è utile solo se viene spiegato con esempi verificabili.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Territori e memoria · Ascolto»? “L’altro aggiunge che patrimonio è…”",
             "options": [
               {
                 "id": "o1",
-                "text": "trasformazione"
+                "text": "In questa puntata dedicata a Territori e memoria, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "aggiunge"
+                "text": "L’altro aggiunge che patrimonio è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o3",
-                "text": "partecipanti"
+                "text": "La prima osserva che memoria non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o4",
-                "text": "isolatamente"
+                "text": "Nel confronto emerge una possibile difficoltà: trasformazione può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: trasformazione può cambiare la prospettiva di chi ascolta.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Territori e memoria · Ascolto»? “Nel confronto emerge una possibile…”",
             "options": [
               {
                 "id": "o1",
-                "text": "trasformazione"
+                "text": "In questa puntata dedicata a Territori e memoria, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "partecipanti"
+                "text": "La prima osserva che memoria non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "possibile"
+                "text": "Nel confronto emerge una possibile difficoltà: trasformazione può cambiare la prospettiva di chi ascolta."
               },
               {
                 "id": "o4",
-                "text": "essere"
+                "text": "L’altro aggiunge che patrimonio è utile solo se viene spiegato con esempi verificabili."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Territori e memoria · Ascolto»? “Alla fine i partecipanti concordano su un…”",
             "options": [
               {
                 "id": "o1",
-                "text": "trasformazione"
+                "text": "In questa puntata dedicata a Territori e memoria, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "partecipanti"
+                "text": "La prima osserva che memoria non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "isolatamente"
+                "text": "L’altro aggiunge che patrimonio è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "scelte"
+                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
               }
             ]
           }
@@ -29383,42 +29383,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Territori e memoria, due partecipanti mettono a confronto le loro _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Territori e memoria · Ascolto»? “In questa puntata dedicata a Territori…”",
         "options": [
-          "posizioni",
-          "trasformazione",
-          "partecipanti",
-          "essere"
+          "In questa puntata dedicata a Territori e memoria, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che memoria non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che patrimonio è utile solo se viene spiegato con esempi verificabili.",
+          "Nel confronto emerge una possibile difficoltà: trasformazione può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che patrimonio è utile solo se viene spiegato con esempi verificabili.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Territori e memoria · Ascolto»? “L’altro aggiunge che patrimonio è…”",
         "options": [
-          "trasformazione",
-          "aggiunge",
-          "partecipanti",
-          "isolatamente"
+          "In questa puntata dedicata a Territori e memoria, due partecipanti mettono a confronto le loro posizioni.",
+          "L’altro aggiunge che patrimonio è utile solo se viene spiegato con esempi verificabili.",
+          "La prima osserva che memoria non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: trasformazione può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: trasformazione può cambiare la prospettiva di chi ascolta.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Territori e memoria · Ascolto»? “Nel confronto emerge una possibile…”",
         "options": [
-          "trasformazione",
-          "partecipanti",
-          "possibile",
-          "essere"
+          "In questa puntata dedicata a Territori e memoria, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che memoria non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: trasformazione può cambiare la prospettiva di chi ascolta.",
+          "L’altro aggiunge che patrimonio è utile solo se viene spiegato con esempi verificabili."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Territori e memoria · Ascolto»? “Alla fine i partecipanti concordano su un…”",
         "options": [
-          "trasformazione",
-          "partecipanti",
-          "isolatamente",
-          "scelte"
+          "In questa puntata dedicata a Territori e memoria, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che memoria non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che patrimonio è utile solo se viene spiegato con esempi verificabili.",
+          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
         ]
       }
     ]
@@ -29485,92 +29485,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Ambiente e futuro, due partecipanti mettono a confronto le loro _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Ambiente e futuro · Ascolto»? “In questa puntata dedicata a Ambiente…”",
             "options": [
               {
                 "id": "o1",
-                "text": "posizioni"
+                "text": "In questa puntata dedicata a Ambiente e futuro, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "futuro"
+                "text": "La prima osserva che scenario non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "partecipanti"
+                "text": "L’altro aggiunge che risorsa è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "essere"
+                "text": "Nel confronto emerge una possibile difficoltà: mitigare può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che risorsa è utile solo se viene spiegato con esempi verificabili.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Ambiente e futuro · Ascolto»? “L’altro aggiunge che risorsa è…”",
             "options": [
               {
                 "id": "o1",
-                "text": "partecipanti"
+                "text": "In questa puntata dedicata a Ambiente e futuro, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "aggiunge"
+                "text": "L’altro aggiunge che risorsa è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o3",
-                "text": "isolatamente"
+                "text": "La prima osserva che scenario non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o4",
-                "text": "verificabili"
+                "text": "Nel confronto emerge una possibile difficoltà: mitigare può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: mitigare può cambiare la prospettiva di chi ascolta.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Ambiente e futuro · Ascolto»? “Nel confronto emerge una possibile…”",
             "options": [
               {
                 "id": "o1",
-                "text": "futuro"
+                "text": "In questa puntata dedicata a Ambiente e futuro, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "partecipanti"
+                "text": "La prima osserva che scenario non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "possibile"
+                "text": "Nel confronto emerge una possibile difficoltà: mitigare può cambiare la prospettiva di chi ascolta."
               },
               {
                 "id": "o4",
-                "text": "essere"
+                "text": "L’altro aggiunge che risorsa è utile solo se viene spiegato con esempi verificabili."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Ambiente e futuro · Ascolto»? “Alla fine i partecipanti concordano su un…”",
             "options": [
               {
                 "id": "o1",
-                "text": "partecipanti"
+                "text": "In questa puntata dedicata a Ambiente e futuro, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "isolatamente"
+                "text": "La prima osserva che scenario non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "verificabili"
+                "text": "L’altro aggiunge che risorsa è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "scelte"
+                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
               }
             ]
           }
@@ -29590,42 +29590,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Ambiente e futuro, due partecipanti mettono a confronto le loro _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Ambiente e futuro · Ascolto»? “In questa puntata dedicata a Ambiente…”",
         "options": [
-          "posizioni",
-          "futuro",
-          "partecipanti",
-          "essere"
+          "In questa puntata dedicata a Ambiente e futuro, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che scenario non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che risorsa è utile solo se viene spiegato con esempi verificabili.",
+          "Nel confronto emerge una possibile difficoltà: mitigare può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che risorsa è utile solo se viene spiegato con esempi verificabili.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Ambiente e futuro · Ascolto»? “L’altro aggiunge che risorsa è…”",
         "options": [
-          "partecipanti",
-          "aggiunge",
-          "isolatamente",
-          "verificabili"
+          "In questa puntata dedicata a Ambiente e futuro, due partecipanti mettono a confronto le loro posizioni.",
+          "L’altro aggiunge che risorsa è utile solo se viene spiegato con esempi verificabili.",
+          "La prima osserva che scenario non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: mitigare può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: mitigare può cambiare la prospettiva di chi ascolta.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Ambiente e futuro · Ascolto»? “Nel confronto emerge una possibile…”",
         "options": [
-          "futuro",
-          "partecipanti",
-          "possibile",
-          "essere"
+          "In questa puntata dedicata a Ambiente e futuro, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che scenario non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: mitigare può cambiare la prospettiva di chi ascolta.",
+          "L’altro aggiunge che risorsa è utile solo se viene spiegato con esempi verificabili."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Ambiente e futuro · Ascolto»? “Alla fine i partecipanti concordano su un…”",
         "options": [
-          "partecipanti",
-          "isolatamente",
-          "verificabili",
-          "scelte"
+          "In questa puntata dedicata a Ambiente e futuro, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che scenario non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che risorsa è utile solo se viene spiegato con esempi verificabili.",
+          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
         ]
       }
     ]
@@ -29683,92 +29683,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“La cucina è _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Una casa italiana: ascolta»? “La cucina è…”",
             "options": [
               {
                 "id": "o1",
-                "text": "luminosa"
+                "text": "La cucina è luminosa."
               },
               {
                 "id": "o2",
-                "text": "piace"
+                "text": "Parliamo di cucina."
               },
               {
                 "id": "o3",
-                "text": "cucina"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "domani"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Una casa italiana: ascolta»? “Parliamo di cucina…”",
             "options": [
               {
                 "id": "o1",
-                "text": "con"
+                "text": "La cucina è luminosa."
               },
               {
                 "id": "o2",
-                "text": "cucina"
+                "text": "Parliamo di cucina."
               },
               {
                 "id": "o3",
-                "text": "luminosa"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "Parliamo"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Una casa italiana: ascolta»? “Mi piace imparare…”",
             "options": [
               {
                 "id": "o1",
-                "text": "piace"
+                "text": "La cucina è luminosa."
               },
               {
                 "id": "o2",
-                "text": "cucina"
+                "text": "Parliamo di cucina."
               },
               {
                 "id": "o3",
-                "text": "comunità"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "domani"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Una casa italiana: ascolta»? “Facciamo pratica insieme…”",
             "options": [
               {
                 "id": "o1",
-                "text": "piace"
+                "text": "La cucina è luminosa."
               },
               {
                 "id": "o2",
-                "text": "cucina"
+                "text": "Parliamo di cucina."
               },
               {
                 "id": "o3",
-                "text": "luminosa"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "pratica"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           }
@@ -29779,42 +29779,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“La cucina è _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Una casa italiana: ascolta»? “La cucina è…”",
         "options": [
-          "luminosa",
-          "piace",
-          "cucina",
-          "domani"
+          "La cucina è luminosa.",
+          "Parliamo di cucina.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Una casa italiana: ascolta»? “Parliamo di cucina…”",
         "options": [
-          "con",
-          "cucina",
-          "luminosa",
-          "Parliamo"
+          "La cucina è luminosa.",
+          "Parliamo di cucina.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Una casa italiana: ascolta»? “Mi piace imparare…”",
         "options": [
-          "piace",
-          "cucina",
-          "comunità",
-          "domani"
+          "La cucina è luminosa.",
+          "Parliamo di cucina.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Una casa italiana: ascolta»? “Facciamo pratica insieme…”",
         "options": [
-          "piace",
-          "cucina",
-          "luminosa",
-          "pratica"
+          "La cucina è luminosa.",
+          "Parliamo di cucina.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       }
     ]
@@ -29872,92 +29872,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“Da giovane giocavo _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Sport e tempo libero: ascolta»? “Da giovane giocavo…”",
             "options": [
               {
                 "id": "o1",
-                "text": "spesso"
+                "text": "Da giovane giocavo spesso."
               },
               {
                 "id": "o2",
-                "text": "con"
+                "text": "Parliamo di nuoto."
               },
               {
                 "id": "o3",
-                "text": "Parliamo"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "imparare"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“_____ di nuoto.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Sport e tempo libero: ascolta»? “Parliamo di nuoto…”",
             "options": [
               {
                 "id": "o1",
-                "text": "nuoto"
+                "text": "Da giovane giocavo spesso."
               },
               {
                 "id": "o2",
-                "text": "Parliamo"
+                "text": "Parliamo di nuoto."
               },
               {
                 "id": "o3",
-                "text": "piace"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "spesso"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Sport e tempo libero: ascolta»? “Mi piace imparare…”",
             "options": [
               {
                 "id": "o1",
-                "text": "nuoto"
+                "text": "Da giovane giocavo spesso."
               },
               {
                 "id": "o2",
-                "text": "piace"
+                "text": "Parliamo di nuoto."
               },
               {
                 "id": "o3",
-                "text": "comunità"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "spesso"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Sport e tempo libero: ascolta»? “Facciamo pratica insieme…”",
             "options": [
               {
                 "id": "o1",
-                "text": "nuoto"
+                "text": "Da giovane giocavo spesso."
               },
               {
                 "id": "o2",
-                "text": "piace"
+                "text": "Parliamo di nuoto."
               },
               {
                 "id": "o3",
-                "text": "spesso"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "pratica"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           }
@@ -29968,42 +29968,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“Da giovane giocavo _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Sport e tempo libero: ascolta»? “Da giovane giocavo…”",
         "options": [
-          "spesso",
-          "con",
-          "Parliamo",
-          "imparare"
+          "Da giovane giocavo spesso.",
+          "Parliamo di nuoto.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“_____ di nuoto.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Sport e tempo libero: ascolta»? “Parliamo di nuoto…”",
         "options": [
-          "nuoto",
-          "Parliamo",
-          "piace",
-          "spesso"
+          "Da giovane giocavo spesso.",
+          "Parliamo di nuoto.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Sport e tempo libero: ascolta»? “Mi piace imparare…”",
         "options": [
-          "nuoto",
-          "piace",
-          "comunità",
-          "spesso"
+          "Da giovane giocavo spesso.",
+          "Parliamo di nuoto.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Sport e tempo libero: ascolta»? “Facciamo pratica insieme…”",
         "options": [
-          "nuoto",
-          "piace",
-          "spesso",
-          "pratica"
+          "Da giovane giocavo spesso.",
+          "Parliamo di nuoto.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       }
     ]
@@ -33143,92 +33143,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Tecnologia quotidiana», un piccolo gruppo della comunità parla di tecnologia, dispositivo e _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Tecnologia quotidiana: parole»? “Nel tema Tecnologia quotidiana un…”",
             "options": [
               {
                 "id": "o1",
-                "text": "vantaggio"
+                "text": "Nel tema «Tecnologia quotidiana», un piccolo gruppo della comunità parla di tecnologia, dispositivo e vantaggio."
               },
               {
                 "id": "o2",
-                "text": "un'esperienza"
+                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
               },
               {
                 "id": "o3",
-                "text": "gruppo"
+                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
               },
               {
                 "id": "o4",
-                "text": "perché"
+                "text": "Poi il gruppo riassume le idee più importanti."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Tecnologia quotidiana: parole»? “Ogni persona racconta un'esperienza…”",
             "options": [
               {
                 "id": "o1",
-                "text": "un'esperienza"
+                "text": "Nel tema «Tecnologia quotidiana», un piccolo gruppo della comunità parla di tecnologia, dispositivo e vantaggio."
               },
               {
                 "id": "o2",
-                "text": "persona"
+                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
               },
               {
                 "id": "o3",
-                "text": "dispositivo"
+                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
               },
               {
                 "id": "o4",
-                "text": "collaborare"
+                "text": "Poi il gruppo riassume le idee più importanti."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Tecnologia quotidiana: parole»? “Alla fine decidono di collaborare perché…”",
             "options": [
               {
                 "id": "o1",
-                "text": "un'esperienza"
+                "text": "Nel tema «Tecnologia quotidiana», un piccolo gruppo della comunità parla di tecnologia, dispositivo e vantaggio."
               },
               {
                 "id": "o2",
-                "text": "dispositivo"
+                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
               },
               {
                 "id": "o3",
-                "text": "perché"
+                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
               },
               {
                 "id": "o4",
-                "text": "collaborare"
+                "text": "Poi il gruppo riassume le idee più importanti."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Tecnologia quotidiana: parole»? “Poi il gruppo…”",
             "options": [
               {
                 "id": "o1",
-                "text": "un'esperienza"
+                "text": "Nel tema «Tecnologia quotidiana», un piccolo gruppo della comunità parla di tecnologia, dispositivo e vantaggio."
               },
               {
                 "id": "o2",
-                "text": "dispositivo"
+                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
               },
               {
                 "id": "o3",
-                "text": "collaborare"
+                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
               },
               {
                 "id": "o4",
-                "text": "gruppo"
+                "text": "Poi il gruppo riassume le idee più importanti."
               }
             ]
           }
@@ -33239,42 +33239,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Tecnologia quotidiana», un piccolo gruppo della comunità parla di tecnologia, dispositivo e _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Tecnologia quotidiana: parole»? “Nel tema Tecnologia quotidiana un…”",
         "options": [
-          "vantaggio",
-          "un'esperienza",
-          "gruppo",
-          "perché"
+          "Nel tema «Tecnologia quotidiana», un piccolo gruppo della comunità parla di tecnologia, dispositivo e vantaggio.",
+          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
+          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+          "Poi il gruppo riassume le idee più importanti."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Tecnologia quotidiana: parole»? “Ogni persona racconta un'esperienza…”",
         "options": [
-          "un'esperienza",
-          "persona",
-          "dispositivo",
-          "collaborare"
+          "Nel tema «Tecnologia quotidiana», un piccolo gruppo della comunità parla di tecnologia, dispositivo e vantaggio.",
+          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
+          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+          "Poi il gruppo riassume le idee più importanti."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Tecnologia quotidiana: parole»? “Alla fine decidono di collaborare perché…”",
         "options": [
-          "un'esperienza",
-          "dispositivo",
-          "perché",
-          "collaborare"
+          "Nel tema «Tecnologia quotidiana», un piccolo gruppo della comunità parla di tecnologia, dispositivo e vantaggio.",
+          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
+          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+          "Poi il gruppo riassume le idee più importanti."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Tecnologia quotidiana: parole»? “Poi il gruppo…”",
         "options": [
-          "un'esperienza",
-          "dispositivo",
-          "collaborare",
-          "gruppo"
+          "Nel tema «Tecnologia quotidiana», un piccolo gruppo della comunità parla di tecnologia, dispositivo e vantaggio.",
+          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
+          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+          "Poi il gruppo riassume le idee più importanti."
         ]
       }
     ]
@@ -33569,92 +33569,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Tecnologia e privacy, due partecipanti mettono a confronto le loro _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Tecnologia e privacy · Ascolto»? “In questa puntata dedicata a Tecnologia…”",
             "options": [
               {
                 "id": "o1",
-                "text": "posizioni"
+                "text": "In questa puntata dedicata a Tecnologia e privacy, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "partecipanti"
+                "text": "La prima osserva che dispositivo non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "essere"
+                "text": "L’altro aggiunge che dati è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "isolatamente"
+                "text": "Nel confronto emerge una possibile difficoltà: proteggere può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che dati è utile solo se viene spiegato con esempi verificabili.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Tecnologia e privacy · Ascolto»? “L’altro aggiunge che dati è…”",
             "options": [
               {
                 "id": "o1",
-                "text": "partecipanti"
+                "text": "In questa puntata dedicata a Tecnologia e privacy, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "aggiunge"
+                "text": "L’altro aggiunge che dati è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o3",
-                "text": "isolatamente"
+                "text": "La prima osserva che dispositivo non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o4",
-                "text": "verificabili"
+                "text": "Nel confronto emerge una possibile difficoltà: proteggere può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: proteggere può cambiare la prospettiva di chi ascolta.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Tecnologia e privacy · Ascolto»? “Nel confronto emerge una possibile…”",
             "options": [
               {
                 "id": "o1",
-                "text": "partecipanti"
+                "text": "In questa puntata dedicata a Tecnologia e privacy, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "essere"
+                "text": "La prima osserva che dispositivo non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "possibile"
+                "text": "Nel confronto emerge una possibile difficoltà: proteggere può cambiare la prospettiva di chi ascolta."
               },
               {
                 "id": "o4",
-                "text": "isolatamente"
+                "text": "L’altro aggiunge che dati è utile solo se viene spiegato con esempi verificabili."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Tecnologia e privacy · Ascolto»? “Alla fine i partecipanti concordano su un…”",
             "options": [
               {
                 "id": "o1",
-                "text": "partecipanti"
+                "text": "In questa puntata dedicata a Tecnologia e privacy, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "isolatamente"
+                "text": "La prima osserva che dispositivo non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "verificabili"
+                "text": "L’altro aggiunge che dati è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "scelte"
+                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
               }
             ]
           }
@@ -33674,42 +33674,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Tecnologia e privacy, due partecipanti mettono a confronto le loro _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Tecnologia e privacy · Ascolto»? “In questa puntata dedicata a Tecnologia…”",
         "options": [
-          "posizioni",
-          "partecipanti",
-          "essere",
-          "isolatamente"
+          "In questa puntata dedicata a Tecnologia e privacy, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che dispositivo non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che dati è utile solo se viene spiegato con esempi verificabili.",
+          "Nel confronto emerge una possibile difficoltà: proteggere può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che dati è utile solo se viene spiegato con esempi verificabili.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Tecnologia e privacy · Ascolto»? “L’altro aggiunge che dati è…”",
         "options": [
-          "partecipanti",
-          "aggiunge",
-          "isolatamente",
-          "verificabili"
+          "In questa puntata dedicata a Tecnologia e privacy, due partecipanti mettono a confronto le loro posizioni.",
+          "L’altro aggiunge che dati è utile solo se viene spiegato con esempi verificabili.",
+          "La prima osserva che dispositivo non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: proteggere può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: proteggere può cambiare la prospettiva di chi ascolta.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Tecnologia e privacy · Ascolto»? “Nel confronto emerge una possibile…”",
         "options": [
-          "partecipanti",
-          "essere",
-          "possibile",
-          "isolatamente"
+          "In questa puntata dedicata a Tecnologia e privacy, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che dispositivo non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: proteggere può cambiare la prospettiva di chi ascolta.",
+          "L’altro aggiunge che dati è utile solo se viene spiegato con esempi verificabili."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Tecnologia e privacy · Ascolto»? “Alla fine i partecipanti concordano su un…”",
         "options": [
-          "partecipanti",
-          "isolatamente",
-          "verificabili",
-          "scelte"
+          "In questa puntata dedicata a Tecnologia e privacy, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che dispositivo non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che dati è utile solo se viene spiegato con esempi verificabili.",
+          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
         ]
       }
     ]
@@ -33776,92 +33776,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Comunicazione e registro, due partecipanti mettono a confronto le loro _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Comunicazione e registro · Ascolto»? “In questa puntata dedicata a Comunicazione…”",
             "options": [
               {
                 "id": "o1",
-                "text": "posizioni"
+                "text": "In questa puntata dedicata a Comunicazione e registro, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "Comunicazione"
+                "text": "La prima osserva che registro non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "partecipanti"
+                "text": "L’altro aggiunge che destinatario è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "essere"
+                "text": "Nel confronto emerge una possibile difficoltà: intenzione può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che destinatario è utile solo se viene spiegato con esempi verificabili.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Comunicazione e registro · Ascolto»? “L’altro aggiunge che destinatario è…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Comunicazione"
+                "text": "In questa puntata dedicata a Comunicazione e registro, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "aggiunge"
+                "text": "L’altro aggiunge che destinatario è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o3",
-                "text": "partecipanti"
+                "text": "La prima osserva che registro non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o4",
-                "text": "isolatamente"
+                "text": "Nel confronto emerge una possibile difficoltà: intenzione può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: intenzione può cambiare la prospettiva di chi ascolta.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Comunicazione e registro · Ascolto»? “Nel confronto emerge una possibile…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Comunicazione"
+                "text": "In questa puntata dedicata a Comunicazione e registro, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "partecipanti"
+                "text": "La prima osserva che registro non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "possibile"
+                "text": "Nel confronto emerge una possibile difficoltà: intenzione può cambiare la prospettiva di chi ascolta."
               },
               {
                 "id": "o4",
-                "text": "essere"
+                "text": "L’altro aggiunge che destinatario è utile solo se viene spiegato con esempi verificabili."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Comunicazione e registro · Ascolto»? “Alla fine i partecipanti concordano su un…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Comunicazione"
+                "text": "In questa puntata dedicata a Comunicazione e registro, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "partecipanti"
+                "text": "La prima osserva che registro non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "isolatamente"
+                "text": "L’altro aggiunge che destinatario è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "scelte"
+                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
               }
             ]
           }
@@ -33881,42 +33881,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Comunicazione e registro, due partecipanti mettono a confronto le loro _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Comunicazione e registro · Ascolto»? “In questa puntata dedicata a Comunicazione…”",
         "options": [
-          "posizioni",
-          "Comunicazione",
-          "partecipanti",
-          "essere"
+          "In questa puntata dedicata a Comunicazione e registro, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che registro non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che destinatario è utile solo se viene spiegato con esempi verificabili.",
+          "Nel confronto emerge una possibile difficoltà: intenzione può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che destinatario è utile solo se viene spiegato con esempi verificabili.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Comunicazione e registro · Ascolto»? “L’altro aggiunge che destinatario è…”",
         "options": [
-          "Comunicazione",
-          "aggiunge",
-          "partecipanti",
-          "isolatamente"
+          "In questa puntata dedicata a Comunicazione e registro, due partecipanti mettono a confronto le loro posizioni.",
+          "L’altro aggiunge che destinatario è utile solo se viene spiegato con esempi verificabili.",
+          "La prima osserva che registro non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: intenzione può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: intenzione può cambiare la prospettiva di chi ascolta.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Comunicazione e registro · Ascolto»? “Nel confronto emerge una possibile…”",
         "options": [
-          "Comunicazione",
-          "partecipanti",
-          "possibile",
-          "essere"
+          "In questa puntata dedicata a Comunicazione e registro, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che registro non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: intenzione può cambiare la prospettiva di chi ascolta.",
+          "L’altro aggiunge che destinatario è utile solo se viene spiegato con esempi verificabili."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Comunicazione e registro · Ascolto»? “Alla fine i partecipanti concordano su un…”",
         "options": [
-          "Comunicazione",
-          "partecipanti",
-          "isolatamente",
-          "scelte"
+          "In questa puntata dedicata a Comunicazione e registro, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che registro non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che destinatario è utile solo se viene spiegato con esempi verificabili.",
+          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
         ]
       }
     ]
@@ -33983,92 +33983,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Media e discorso, due partecipanti mettono a confronto le loro _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Media e discorso · Ascolto»? “In questa puntata dedicata a Media…”",
             "options": [
               {
                 "id": "o1",
-                "text": "posizioni"
+                "text": "In questa puntata dedicata a Media e discorso, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "partecipanti"
+                "text": "La prima osserva che cornice non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "essere"
+                "text": "L’altro aggiunge che narrazione è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "isolatamente"
+                "text": "Nel confronto emerge una possibile difficoltà: selezionare può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che narrazione è utile solo se viene spiegato con esempi verificabili.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Media e discorso · Ascolto»? “L’altro aggiunge che narrazione è…”",
             "options": [
               {
                 "id": "o1",
-                "text": "partecipanti"
+                "text": "In questa puntata dedicata a Media e discorso, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "aggiunge"
+                "text": "L’altro aggiunge che narrazione è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o3",
-                "text": "isolatamente"
+                "text": "La prima osserva che cornice non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o4",
-                "text": "verificabili"
+                "text": "Nel confronto emerge una possibile difficoltà: selezionare può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: selezionare può cambiare la prospettiva di chi ascolta.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Media e discorso · Ascolto»? “Nel confronto emerge una possibile…”",
             "options": [
               {
                 "id": "o1",
-                "text": "partecipanti"
+                "text": "In questa puntata dedicata a Media e discorso, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "essere"
+                "text": "La prima osserva che cornice non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "possibile"
+                "text": "Nel confronto emerge una possibile difficoltà: selezionare può cambiare la prospettiva di chi ascolta."
               },
               {
                 "id": "o4",
-                "text": "isolatamente"
+                "text": "L’altro aggiunge che narrazione è utile solo se viene spiegato con esempi verificabili."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Media e discorso · Ascolto»? “Alla fine i partecipanti concordano su un…”",
             "options": [
               {
                 "id": "o1",
-                "text": "partecipanti"
+                "text": "In questa puntata dedicata a Media e discorso, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "isolatamente"
+                "text": "La prima osserva che cornice non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "verificabili"
+                "text": "L’altro aggiunge che narrazione è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "scelte"
+                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
               }
             ]
           }
@@ -34088,42 +34088,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Media e discorso, due partecipanti mettono a confronto le loro _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Media e discorso · Ascolto»? “In questa puntata dedicata a Media…”",
         "options": [
-          "posizioni",
-          "partecipanti",
-          "essere",
-          "isolatamente"
+          "In questa puntata dedicata a Media e discorso, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che cornice non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che narrazione è utile solo se viene spiegato con esempi verificabili.",
+          "Nel confronto emerge una possibile difficoltà: selezionare può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che narrazione è utile solo se viene spiegato con esempi verificabili.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Media e discorso · Ascolto»? “L’altro aggiunge che narrazione è…”",
         "options": [
-          "partecipanti",
-          "aggiunge",
-          "isolatamente",
-          "verificabili"
+          "In questa puntata dedicata a Media e discorso, due partecipanti mettono a confronto le loro posizioni.",
+          "L’altro aggiunge che narrazione è utile solo se viene spiegato con esempi verificabili.",
+          "La prima osserva che cornice non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: selezionare può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: selezionare può cambiare la prospettiva di chi ascolta.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Media e discorso · Ascolto»? “Nel confronto emerge una possibile…”",
         "options": [
-          "partecipanti",
-          "essere",
-          "possibile",
-          "isolatamente"
+          "In questa puntata dedicata a Media e discorso, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che cornice non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: selezionare può cambiare la prospettiva di chi ascolta.",
+          "L’altro aggiunge che narrazione è utile solo se viene spiegato con esempi verificabili."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Media e discorso · Ascolto»? “Alla fine i partecipanti concordano su un…”",
         "options": [
-          "partecipanti",
-          "isolatamente",
-          "verificabili",
-          "scelte"
+          "In questa puntata dedicata a Media e discorso, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che cornice non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che narrazione è utile solo se viene spiegato con esempi verificabili.",
+          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
         ]
       }
     ]
@@ -34181,92 +34181,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“_____ fa caldo.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Il tempo e le stagioni: ascolta»? “Oggi fa caldo…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Oggi"
+                "text": "Oggi fa caldo."
               },
               {
                 "id": "o2",
-                "text": "Parliamo"
+                "text": "Parliamo di sole."
               },
               {
                 "id": "o3",
-                "text": "imparare"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "comunità"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“_____ di sole.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Il tempo e le stagioni: ascolta»? “Parliamo di sole…”",
             "options": [
               {
                 "id": "o1",
-                "text": "caldo"
+                "text": "Oggi fa caldo."
               },
               {
                 "id": "o2",
-                "text": "Parliamo"
+                "text": "Parliamo di sole."
               },
               {
                 "id": "o3",
-                "text": "piace"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "domani"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Il tempo e le stagioni: ascolta»? “Mi piace imparare…”",
             "options": [
               {
                 "id": "o1",
-                "text": "caldo"
+                "text": "Oggi fa caldo."
               },
               {
                 "id": "o2",
-                "text": "piace"
+                "text": "Parliamo di sole."
               },
               {
                 "id": "o3",
-                "text": "comunità"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "domani"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Il tempo e le stagioni: ascolta»? “Facciamo pratica insieme…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Oggi"
+                "text": "Oggi fa caldo."
               },
               {
                 "id": "o2",
-                "text": "sole"
+                "text": "Parliamo di sole."
               },
               {
                 "id": "o3",
-                "text": "caldo"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "pratica"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           }
@@ -34277,42 +34277,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“_____ fa caldo.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Il tempo e le stagioni: ascolta»? “Oggi fa caldo…”",
         "options": [
-          "Oggi",
-          "Parliamo",
-          "imparare",
-          "comunità"
+          "Oggi fa caldo.",
+          "Parliamo di sole.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“_____ di sole.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Il tempo e le stagioni: ascolta»? “Parliamo di sole…”",
         "options": [
-          "caldo",
-          "Parliamo",
-          "piace",
-          "domani"
+          "Oggi fa caldo.",
+          "Parliamo di sole.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Il tempo e le stagioni: ascolta»? “Mi piace imparare…”",
         "options": [
-          "caldo",
-          "piace",
-          "comunità",
-          "domani"
+          "Oggi fa caldo.",
+          "Parliamo di sole.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Il tempo e le stagioni: ascolta»? “Facciamo pratica insieme…”",
         "options": [
-          "Oggi",
-          "sole",
-          "caldo",
-          "pratica"
+          "Oggi fa caldo.",
+          "Parliamo di sole.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       }
     ]
@@ -34370,92 +34370,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“Mi fa male la _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «La salute ogni giorno: ascolta»? “Mi fa male…”",
             "options": [
               {
                 "id": "o1",
-                "text": "gola"
+                "text": "Mi fa male la gola."
               },
               {
                 "id": "o2",
-                "text": "Parliamo"
+                "text": "Parliamo di farmacia."
               },
               {
                 "id": "o3",
-                "text": "farmacia"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "imparare"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «La salute ogni giorno: ascolta»? “Parliamo di farmacia…”",
             "options": [
               {
                 "id": "o1",
-                "text": "piace"
+                "text": "Mi fa male la gola."
               },
               {
                 "id": "o2",
-                "text": "farmacia"
+                "text": "Parliamo di farmacia."
               },
               {
                 "id": "o3",
-                "text": "domani"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "pratica"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «La salute ogni giorno: ascolta»? “Mi piace imparare…”",
             "options": [
               {
                 "id": "o1",
-                "text": "piace"
+                "text": "Mi fa male la gola."
               },
               {
                 "id": "o2",
-                "text": "domani"
+                "text": "Parliamo di farmacia."
               },
               {
                 "id": "o3",
-                "text": "comunità"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "pratica"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «La salute ogni giorno: ascolta»? “Facciamo pratica insieme…”",
             "options": [
               {
                 "id": "o1",
-                "text": "male"
+                "text": "Mi fa male la gola."
               },
               {
                 "id": "o2",
-                "text": "gola"
+                "text": "Parliamo di farmacia."
               },
               {
                 "id": "o3",
-                "text": "piace"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "pratica"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           }
@@ -34466,42 +34466,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“Mi fa male la _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «La salute ogni giorno: ascolta»? “Mi fa male…”",
         "options": [
-          "gola",
-          "Parliamo",
-          "farmacia",
-          "imparare"
+          "Mi fa male la gola.",
+          "Parliamo di farmacia.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «La salute ogni giorno: ascolta»? “Parliamo di farmacia…”",
         "options": [
-          "piace",
-          "farmacia",
-          "domani",
-          "pratica"
+          "Mi fa male la gola.",
+          "Parliamo di farmacia.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «La salute ogni giorno: ascolta»? “Mi piace imparare…”",
         "options": [
-          "piace",
-          "domani",
-          "comunità",
-          "pratica"
+          "Mi fa male la gola.",
+          "Parliamo di farmacia.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «La salute ogni giorno: ascolta»? “Facciamo pratica insieme…”",
         "options": [
-          "male",
-          "gola",
-          "piace",
-          "pratica"
+          "Mi fa male la gola.",
+          "Parliamo di farmacia.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       }
     ]
@@ -37641,92 +37641,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Città e mobilità», un piccolo gruppo della comunità parla di trasporto, percorso e _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Città e mobilità: parole»? “Nel tema Città e mobilità un…”",
             "options": [
               {
                 "id": "o1",
-                "text": "traffico"
+                "text": "Nel tema «Città e mobilità», un piccolo gruppo della comunità parla di trasporto, percorso e traffico."
               },
               {
                 "id": "o2",
-                "text": "un'esperienza"
+                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
               },
               {
                 "id": "o3",
-                "text": "Città"
+                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
               },
               {
                 "id": "o4",
-                "text": "parla"
+                "text": "Poi il gruppo riassume le idee più importanti."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Città e mobilità: parole»? “Ogni persona racconta un'esperienza…”",
             "options": [
               {
                 "id": "o1",
-                "text": "un'esperienza"
+                "text": "Nel tema «Città e mobilità», un piccolo gruppo della comunità parla di trasporto, percorso e traffico."
               },
               {
                 "id": "o2",
-                "text": "persona"
+                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
               },
               {
                 "id": "o3",
-                "text": "collaborare"
+                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
               },
               {
                 "id": "o4",
-                "text": "tema"
+                "text": "Poi il gruppo riassume le idee più importanti."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Città e mobilità: parole»? “Alla fine decidono di collaborare perché…”",
             "options": [
               {
                 "id": "o1",
-                "text": "un'esperienza"
+                "text": "Nel tema «Città e mobilità», un piccolo gruppo della comunità parla di trasporto, percorso e traffico."
               },
               {
                 "id": "o2",
-                "text": "collaborare"
+                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
               },
               {
                 "id": "o3",
-                "text": "perché"
+                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
               },
               {
                 "id": "o4",
-                "text": "migliorare"
+                "text": "Poi il gruppo riassume le idee più importanti."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Città e mobilità: parole»? “Poi il gruppo…”",
             "options": [
               {
                 "id": "o1",
-                "text": "un'esperienza"
+                "text": "Nel tema «Città e mobilità», un piccolo gruppo della comunità parla di trasporto, percorso e traffico."
               },
               {
                 "id": "o2",
-                "text": "collaborare"
+                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
               },
               {
                 "id": "o3",
-                "text": "migliorare"
+                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
               },
               {
                 "id": "o4",
-                "text": "gruppo"
+                "text": "Poi il gruppo riassume le idee più importanti."
               }
             ]
           }
@@ -37737,42 +37737,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Città e mobilità», un piccolo gruppo della comunità parla di trasporto, percorso e _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Città e mobilità: parole»? “Nel tema Città e mobilità un…”",
         "options": [
-          "traffico",
-          "un'esperienza",
-          "Città",
-          "parla"
+          "Nel tema «Città e mobilità», un piccolo gruppo della comunità parla di trasporto, percorso e traffico.",
+          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
+          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+          "Poi il gruppo riassume le idee più importanti."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Città e mobilità: parole»? “Ogni persona racconta un'esperienza…”",
         "options": [
-          "un'esperienza",
-          "persona",
-          "collaborare",
-          "tema"
+          "Nel tema «Città e mobilità», un piccolo gruppo della comunità parla di trasporto, percorso e traffico.",
+          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
+          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+          "Poi il gruppo riassume le idee più importanti."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Città e mobilità: parole»? “Alla fine decidono di collaborare perché…”",
         "options": [
-          "un'esperienza",
-          "collaborare",
-          "perché",
-          "migliorare"
+          "Nel tema «Città e mobilità», un piccolo gruppo della comunità parla di trasporto, percorso e traffico.",
+          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
+          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+          "Poi il gruppo riassume le idee più importanti."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Città e mobilità: parole»? “Poi il gruppo…”",
         "options": [
-          "un'esperienza",
-          "collaborare",
-          "migliorare",
-          "gruppo"
+          "Nel tema «Città e mobilità», un piccolo gruppo della comunità parla di trasporto, percorso e traffico.",
+          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
+          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+          "Poi il gruppo riassume le idee più importanti."
         ]
       }
     ]
@@ -38067,92 +38067,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Viaggi consapevoli, due partecipanti mettono a confronto le loro _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Viaggi consapevoli · Ascolto»? “In questa puntata dedicata a…”",
             "options": [
               {
                 "id": "o1",
-                "text": "posizioni"
+                "text": "In questa puntata dedicata a Viaggi consapevoli, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "Viaggi"
+                "text": "La prima osserva che itinerario non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "partecipanti"
+                "text": "L’altro aggiunge che alloggio è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "essere"
+                "text": "Nel confronto emerge una possibile difficoltà: imprevisto può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che alloggio è utile solo se viene spiegato con esempi verificabili.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Viaggi consapevoli · Ascolto»? “L’altro aggiunge che alloggio è…”",
             "options": [
               {
                 "id": "o1",
-                "text": "partecipanti"
+                "text": "In questa puntata dedicata a Viaggi consapevoli, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "aggiunge"
+                "text": "L’altro aggiunge che alloggio è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o3",
-                "text": "isolatamente"
+                "text": "La prima osserva che itinerario non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o4",
-                "text": "verificabili"
+                "text": "Nel confronto emerge una possibile difficoltà: imprevisto può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: imprevisto può cambiare la prospettiva di chi ascolta.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Viaggi consapevoli · Ascolto»? “Nel confronto emerge una possibile…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Viaggi"
+                "text": "In questa puntata dedicata a Viaggi consapevoli, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "partecipanti"
+                "text": "La prima osserva che itinerario non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "possibile"
+                "text": "Nel confronto emerge una possibile difficoltà: imprevisto può cambiare la prospettiva di chi ascolta."
               },
               {
                 "id": "o4",
-                "text": "essere"
+                "text": "L’altro aggiunge che alloggio è utile solo se viene spiegato con esempi verificabili."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Viaggi consapevoli · Ascolto»? “Alla fine i partecipanti concordano su un…”",
             "options": [
               {
                 "id": "o1",
-                "text": "partecipanti"
+                "text": "In questa puntata dedicata a Viaggi consapevoli, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "isolatamente"
+                "text": "La prima osserva che itinerario non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "verificabili"
+                "text": "L’altro aggiunge che alloggio è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "scelte"
+                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
               }
             ]
           }
@@ -38172,42 +38172,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Viaggi consapevoli, due partecipanti mettono a confronto le loro _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Viaggi consapevoli · Ascolto»? “In questa puntata dedicata a…”",
         "options": [
-          "posizioni",
-          "Viaggi",
-          "partecipanti",
-          "essere"
+          "In questa puntata dedicata a Viaggi consapevoli, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che itinerario non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che alloggio è utile solo se viene spiegato con esempi verificabili.",
+          "Nel confronto emerge una possibile difficoltà: imprevisto può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che alloggio è utile solo se viene spiegato con esempi verificabili.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Viaggi consapevoli · Ascolto»? “L’altro aggiunge che alloggio è…”",
         "options": [
-          "partecipanti",
-          "aggiunge",
-          "isolatamente",
-          "verificabili"
+          "In questa puntata dedicata a Viaggi consapevoli, due partecipanti mettono a confronto le loro posizioni.",
+          "L’altro aggiunge che alloggio è utile solo se viene spiegato con esempi verificabili.",
+          "La prima osserva che itinerario non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: imprevisto può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: imprevisto può cambiare la prospettiva di chi ascolta.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Viaggi consapevoli · Ascolto»? “Nel confronto emerge una possibile…”",
         "options": [
-          "Viaggi",
-          "partecipanti",
-          "possibile",
-          "essere"
+          "In questa puntata dedicata a Viaggi consapevoli, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che itinerario non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: imprevisto può cambiare la prospettiva di chi ascolta.",
+          "L’altro aggiunge che alloggio è utile solo se viene spiegato con esempi verificabili."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Viaggi consapevoli · Ascolto»? “Alla fine i partecipanti concordano su un…”",
         "options": [
-          "partecipanti",
-          "isolatamente",
-          "verificabili",
-          "scelte"
+          "In questa puntata dedicata a Viaggi consapevoli, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che itinerario non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che alloggio è utile solo se viene spiegato con esempi verificabili.",
+          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
         ]
       }
     ]
@@ -38274,92 +38274,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Scienza e divulgazione, due partecipanti mettono a confronto le loro _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Scienza e divulgazione · Ascolto»? “In questa puntata dedicata a Scienza…”",
             "options": [
               {
                 "id": "o1",
-                "text": "posizioni"
+                "text": "In questa puntata dedicata a Scienza e divulgazione, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "divulgazione"
+                "text": "La prima osserva che fenomeno non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "partecipanti"
+                "text": "L’altro aggiunge che evidenza è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "essere"
+                "text": "Nel confronto emerge una possibile difficoltà: modello può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che evidenza è utile solo se viene spiegato con esempi verificabili.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Scienza e divulgazione · Ascolto»? “L’altro aggiunge che evidenza è…”",
             "options": [
               {
                 "id": "o1",
-                "text": "divulgazione"
+                "text": "In questa puntata dedicata a Scienza e divulgazione, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "aggiunge"
+                "text": "L’altro aggiunge che evidenza è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o3",
-                "text": "partecipanti"
+                "text": "La prima osserva che fenomeno non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o4",
-                "text": "isolatamente"
+                "text": "Nel confronto emerge una possibile difficoltà: modello può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: modello può cambiare la prospettiva di chi ascolta.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Scienza e divulgazione · Ascolto»? “Nel confronto emerge una possibile…”",
             "options": [
               {
                 "id": "o1",
-                "text": "divulgazione"
+                "text": "In questa puntata dedicata a Scienza e divulgazione, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "partecipanti"
+                "text": "La prima osserva che fenomeno non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "possibile"
+                "text": "Nel confronto emerge una possibile difficoltà: modello può cambiare la prospettiva di chi ascolta."
               },
               {
                 "id": "o4",
-                "text": "essere"
+                "text": "L’altro aggiunge che evidenza è utile solo se viene spiegato con esempi verificabili."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Scienza e divulgazione · Ascolto»? “Alla fine i partecipanti concordano su un…”",
             "options": [
               {
                 "id": "o1",
-                "text": "divulgazione"
+                "text": "In questa puntata dedicata a Scienza e divulgazione, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "partecipanti"
+                "text": "La prima osserva che fenomeno non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "isolatamente"
+                "text": "L’altro aggiunge che evidenza è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "scelte"
+                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
               }
             ]
           }
@@ -38379,42 +38379,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Scienza e divulgazione, due partecipanti mettono a confronto le loro _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Scienza e divulgazione · Ascolto»? “In questa puntata dedicata a Scienza…”",
         "options": [
-          "posizioni",
-          "divulgazione",
-          "partecipanti",
-          "essere"
+          "In questa puntata dedicata a Scienza e divulgazione, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che fenomeno non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che evidenza è utile solo se viene spiegato con esempi verificabili.",
+          "Nel confronto emerge una possibile difficoltà: modello può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che evidenza è utile solo se viene spiegato con esempi verificabili.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Scienza e divulgazione · Ascolto»? “L’altro aggiunge che evidenza è…”",
         "options": [
-          "divulgazione",
-          "aggiunge",
-          "partecipanti",
-          "isolatamente"
+          "In questa puntata dedicata a Scienza e divulgazione, due partecipanti mettono a confronto le loro posizioni.",
+          "L’altro aggiunge che evidenza è utile solo se viene spiegato con esempi verificabili.",
+          "La prima osserva che fenomeno non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: modello può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: modello può cambiare la prospettiva di chi ascolta.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Scienza e divulgazione · Ascolto»? “Nel confronto emerge una possibile…”",
         "options": [
-          "divulgazione",
-          "partecipanti",
-          "possibile",
-          "essere"
+          "In questa puntata dedicata a Scienza e divulgazione, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che fenomeno non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: modello può cambiare la prospettiva di chi ascolta.",
+          "L’altro aggiunge che evidenza è utile solo se viene spiegato con esempi verificabili."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Scienza e divulgazione · Ascolto»? “Alla fine i partecipanti concordano su un…”",
         "options": [
-          "divulgazione",
-          "partecipanti",
-          "isolatamente",
-          "scelte"
+          "In questa puntata dedicata a Scienza e divulgazione, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che fenomeno non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che evidenza è utile solo se viene spiegato con esempi verificabili.",
+          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
         ]
       }
     ]
@@ -38481,92 +38481,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Scienza e responsabilità, due partecipanti mettono a confronto le loro _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Scienza e responsabilità · Ascolto»? “In questa puntata dedicata a Scienza…”",
             "options": [
               {
                 "id": "o1",
-                "text": "posizioni"
+                "text": "In questa puntata dedicata a Scienza e responsabilità, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "responsabilità"
+                "text": "La prima osserva che metodo non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "partecipanti"
+                "text": "L’altro aggiunge che limite è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "metodo"
+                "text": "Nel confronto emerge una possibile difficoltà: replicare può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che limite è utile solo se viene spiegato con esempi verificabili.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Scienza e responsabilità · Ascolto»? “L’altro aggiunge che limite è…”",
             "options": [
               {
                 "id": "o1",
-                "text": "responsabilità"
+                "text": "In questa puntata dedicata a Scienza e responsabilità, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "aggiunge"
+                "text": "L’altro aggiunge che limite è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o3",
-                "text": "partecipanti"
+                "text": "La prima osserva che metodo non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o4",
-                "text": "isolatamente"
+                "text": "Nel confronto emerge una possibile difficoltà: replicare può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: replicare può cambiare la prospettiva di chi ascolta.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Scienza e responsabilità · Ascolto»? “Nel confronto emerge una possibile…”",
             "options": [
               {
                 "id": "o1",
-                "text": "responsabilità"
+                "text": "In questa puntata dedicata a Scienza e responsabilità, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "partecipanti"
+                "text": "La prima osserva che metodo non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "possibile"
+                "text": "Nel confronto emerge una possibile difficoltà: replicare può cambiare la prospettiva di chi ascolta."
               },
               {
                 "id": "o4",
-                "text": "metodo"
+                "text": "L’altro aggiunge che limite è utile solo se viene spiegato con esempi verificabili."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Scienza e responsabilità · Ascolto»? “Alla fine i partecipanti concordano su un…”",
             "options": [
               {
                 "id": "o1",
-                "text": "responsabilità"
+                "text": "In questa puntata dedicata a Scienza e responsabilità, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "partecipanti"
+                "text": "La prima osserva che metodo non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "isolatamente"
+                "text": "L’altro aggiunge che limite è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "scelte"
+                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
               }
             ]
           }
@@ -38586,42 +38586,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Scienza e responsabilità, due partecipanti mettono a confronto le loro _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Scienza e responsabilità · Ascolto»? “In questa puntata dedicata a Scienza…”",
         "options": [
-          "posizioni",
-          "responsabilità",
-          "partecipanti",
-          "metodo"
+          "In questa puntata dedicata a Scienza e responsabilità, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che metodo non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che limite è utile solo se viene spiegato con esempi verificabili.",
+          "Nel confronto emerge una possibile difficoltà: replicare può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che limite è utile solo se viene spiegato con esempi verificabili.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Scienza e responsabilità · Ascolto»? “L’altro aggiunge che limite è…”",
         "options": [
-          "responsabilità",
-          "aggiunge",
-          "partecipanti",
-          "isolatamente"
+          "In questa puntata dedicata a Scienza e responsabilità, due partecipanti mettono a confronto le loro posizioni.",
+          "L’altro aggiunge che limite è utile solo se viene spiegato con esempi verificabili.",
+          "La prima osserva che metodo non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: replicare può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: replicare può cambiare la prospettiva di chi ascolta.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Scienza e responsabilità · Ascolto»? “Nel confronto emerge una possibile…”",
         "options": [
-          "responsabilità",
-          "partecipanti",
-          "possibile",
-          "metodo"
+          "In questa puntata dedicata a Scienza e responsabilità, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che metodo non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: replicare può cambiare la prospettiva di chi ascolta.",
+          "L’altro aggiunge che limite è utile solo se viene spiegato con esempi verificabili."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Scienza e responsabilità · Ascolto»? “Alla fine i partecipanti concordano su un…”",
         "options": [
-          "responsabilità",
-          "partecipanti",
-          "isolatamente",
-          "scelte"
+          "In questa puntata dedicata a Scienza e responsabilità, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che metodo non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che limite è utile solo se viene spiegato con esempi verificabili.",
+          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
         ]
       }
     ]
@@ -38679,92 +38679,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“Ci _____ alla festa.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Una festa di quartiere: ascolta»? “Ci vediamo alla…”",
             "options": [
               {
                 "id": "o1",
-                "text": "vediamo"
+                "text": "Ci vediamo alla festa."
               },
               {
                 "id": "o2",
-                "text": "alla"
+                "text": "Parliamo di festa."
               },
               {
                 "id": "o3",
-                "text": "festa"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "piace"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“_____ di festa.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Una festa di quartiere: ascolta»? “Parliamo di festa…”",
             "options": [
               {
                 "id": "o1",
-                "text": "festa"
+                "text": "Ci vediamo alla festa."
               },
               {
                 "id": "o2",
-                "text": "Parliamo"
+                "text": "Parliamo di festa."
               },
               {
                 "id": "o3",
-                "text": "piace"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "domani"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Una festa di quartiere: ascolta»? “Mi piace imparare…”",
             "options": [
               {
                 "id": "o1",
-                "text": "festa"
+                "text": "Ci vediamo alla festa."
               },
               {
                 "id": "o2",
-                "text": "piace"
+                "text": "Parliamo di festa."
               },
               {
                 "id": "o3",
-                "text": "comunità"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "domani"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Una festa di quartiere: ascolta»? “Facciamo pratica insieme…”",
             "options": [
               {
                 "id": "o1",
-                "text": "alla"
+                "text": "Ci vediamo alla festa."
               },
               {
                 "id": "o2",
-                "text": "festa"
+                "text": "Parliamo di festa."
               },
               {
                 "id": "o3",
-                "text": "piace"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "pratica"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           }
@@ -38775,42 +38775,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“Ci _____ alla festa.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Una festa di quartiere: ascolta»? “Ci vediamo alla…”",
         "options": [
-          "vediamo",
-          "alla",
-          "festa",
-          "piace"
+          "Ci vediamo alla festa.",
+          "Parliamo di festa.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“_____ di festa.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Una festa di quartiere: ascolta»? “Parliamo di festa…”",
         "options": [
-          "festa",
-          "Parliamo",
-          "piace",
-          "domani"
+          "Ci vediamo alla festa.",
+          "Parliamo di festa.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Una festa di quartiere: ascolta»? “Mi piace imparare…”",
         "options": [
-          "festa",
-          "piace",
-          "comunità",
-          "domani"
+          "Ci vediamo alla festa.",
+          "Parliamo di festa.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Una festa di quartiere: ascolta»? “Facciamo pratica insieme…”",
         "options": [
-          "alla",
-          "festa",
-          "piace",
-          "pratica"
+          "Ci vediamo alla festa.",
+          "Parliamo di festa.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       }
     ]
@@ -38868,92 +38868,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“La sua famiglia è _____ anni fa.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Storie di migrazione: ascolta»? “La sua famiglia…”",
             "options": [
               {
                 "id": "o1",
-                "text": "arrivata"
+                "text": "La sua famiglia è arrivata anni fa."
               },
               {
                 "id": "o2",
-                "text": "piace"
+                "text": "Parliamo di famiglia."
               },
               {
                 "id": "o3",
-                "text": "domani"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "pratica"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Storie di migrazione: ascolta»? “Parliamo di famiglia…”",
             "options": [
               {
                 "id": "o1",
-                "text": "piace"
+                "text": "La sua famiglia è arrivata anni fa."
               },
               {
                 "id": "o2",
-                "text": "famiglia"
+                "text": "Parliamo di famiglia."
               },
               {
                 "id": "o3",
-                "text": "domani"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "pratica"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Storie di migrazione: ascolta»? “Mi piace imparare…”",
             "options": [
               {
                 "id": "o1",
-                "text": "piace"
+                "text": "La sua famiglia è arrivata anni fa."
               },
               {
                 "id": "o2",
-                "text": "domani"
+                "text": "Parliamo di famiglia."
               },
               {
                 "id": "o3",
-                "text": "comunità"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "pratica"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Storie di migrazione: ascolta»? “Facciamo pratica insieme…”",
             "options": [
               {
                 "id": "o1",
-                "text": "anni"
+                "text": "La sua famiglia è arrivata anni fa."
               },
               {
                 "id": "o2",
-                "text": "piace"
+                "text": "Parliamo di famiglia."
               },
               {
                 "id": "o3",
-                "text": "famiglia"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "pratica"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           }
@@ -38964,42 +38964,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“La sua famiglia è _____ anni fa.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Storie di migrazione: ascolta»? “La sua famiglia…”",
         "options": [
-          "arrivata",
-          "piace",
-          "domani",
-          "pratica"
+          "La sua famiglia è arrivata anni fa.",
+          "Parliamo di famiglia.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Storie di migrazione: ascolta»? “Parliamo di famiglia…”",
         "options": [
-          "piace",
-          "famiglia",
-          "domani",
-          "pratica"
+          "La sua famiglia è arrivata anni fa.",
+          "Parliamo di famiglia.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Storie di migrazione: ascolta»? “Mi piace imparare…”",
         "options": [
-          "piace",
-          "domani",
-          "comunità",
-          "pratica"
+          "La sua famiglia è arrivata anni fa.",
+          "Parliamo di famiglia.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Storie di migrazione: ascolta»? “Facciamo pratica insieme…”",
         "options": [
-          "anni",
-          "piace",
-          "famiglia",
-          "pratica"
+          "La sua famiglia è arrivata anni fa.",
+          "Parliamo di famiglia.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       }
     ]
@@ -42139,92 +42139,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Piani per il futuro», un piccolo gruppo della comunità parla di futuro, obiettivo e _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Piani per il futuro: parole»? “Nel tema Piani per il futuro…”",
             "options": [
               {
                 "id": "o1",
-                "text": "opportunità"
+                "text": "Nel tema «Piani per il futuro», un piccolo gruppo della comunità parla di futuro, obiettivo e opportunità."
               },
               {
                 "id": "o2",
-                "text": "comunità"
+                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
               },
               {
                 "id": "o3",
-                "text": "racconta"
+                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
               },
               {
                 "id": "o4",
-                "text": "concreta"
+                "text": "Poi il gruppo riassume le idee più importanti."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Piani per il futuro: parole»? “Ogni persona racconta un'esperienza…”",
             "options": [
               {
                 "id": "o1",
-                "text": "un'esperienza"
+                "text": "Nel tema «Piani per il futuro», un piccolo gruppo della comunità parla di futuro, obiettivo e opportunità."
               },
               {
                 "id": "o2",
-                "text": "persona"
+                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
               },
               {
                 "id": "o3",
-                "text": "opportunità"
+                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
               },
               {
                 "id": "o4",
-                "text": "collaborare"
+                "text": "Poi il gruppo riassume le idee più importanti."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Piani per il futuro: parole»? “Alla fine decidono di collaborare perché…”",
             "options": [
               {
                 "id": "o1",
-                "text": "un'esperienza"
+                "text": "Nel tema «Piani per il futuro», un piccolo gruppo della comunità parla di futuro, obiettivo e opportunità."
               },
               {
                 "id": "o2",
-                "text": "opportunità"
+                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
               },
               {
                 "id": "o3",
-                "text": "perché"
+                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
               },
               {
                 "id": "o4",
-                "text": "collaborare"
+                "text": "Poi il gruppo riassume le idee più importanti."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Piani per il futuro: parole»? “Poi il gruppo…”",
             "options": [
               {
                 "id": "o1",
-                "text": "un'esperienza"
+                "text": "Nel tema «Piani per il futuro», un piccolo gruppo della comunità parla di futuro, obiettivo e opportunità."
               },
               {
                 "id": "o2",
-                "text": "opportunità"
+                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
               },
               {
                 "id": "o3",
-                "text": "collaborare"
+                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
               },
               {
                 "id": "o4",
-                "text": "gruppo"
+                "text": "Poi il gruppo riassume le idee più importanti."
               }
             ]
           }
@@ -42235,42 +42235,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Piani per il futuro», un piccolo gruppo della comunità parla di futuro, obiettivo e _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Piani per il futuro: parole»? “Nel tema Piani per il futuro…”",
         "options": [
-          "opportunità",
-          "comunità",
-          "racconta",
-          "concreta"
+          "Nel tema «Piani per il futuro», un piccolo gruppo della comunità parla di futuro, obiettivo e opportunità.",
+          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
+          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+          "Poi il gruppo riassume le idee più importanti."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Piani per il futuro: parole»? “Ogni persona racconta un'esperienza…”",
         "options": [
-          "un'esperienza",
-          "persona",
-          "opportunità",
-          "collaborare"
+          "Nel tema «Piani per il futuro», un piccolo gruppo della comunità parla di futuro, obiettivo e opportunità.",
+          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
+          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+          "Poi il gruppo riassume le idee più importanti."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Piani per il futuro: parole»? “Alla fine decidono di collaborare perché…”",
         "options": [
-          "un'esperienza",
-          "opportunità",
-          "perché",
-          "collaborare"
+          "Nel tema «Piani per il futuro», un piccolo gruppo della comunità parla di futuro, obiettivo e opportunità.",
+          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
+          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+          "Poi il gruppo riassume le idee più importanti."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Piani per il futuro: parole»? “Poi il gruppo…”",
         "options": [
-          "un'esperienza",
-          "opportunità",
-          "collaborare",
-          "gruppo"
+          "Nel tema «Piani per il futuro», un piccolo gruppo della comunità parla di futuro, obiettivo e opportunità.",
+          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
+          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+          "Poi il gruppo riassume le idee più importanti."
         ]
       }
     ]
@@ -42565,92 +42565,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Relazioni e mediazione, due partecipanti mettono a confronto le loro _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Relazioni e mediazione · Ascolto»? “In questa puntata dedicata a Relazioni…”",
             "options": [
               {
                 "id": "o1",
-                "text": "posizioni"
+                "text": "In questa puntata dedicata a Relazioni e mediazione, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "partecipanti"
+                "text": "La prima osserva che equivoco non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "essere"
+                "text": "L’altro aggiunge che ascoltare è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "isolatamente"
+                "text": "Nel confronto emerge una possibile difficoltà: chiarire può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che ascoltare è utile solo se viene spiegato con esempi verificabili.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Relazioni e mediazione · Ascolto»? “L’altro aggiunge che ascoltare è…”",
             "options": [
               {
                 "id": "o1",
-                "text": "partecipanti"
+                "text": "In questa puntata dedicata a Relazioni e mediazione, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "aggiunge"
+                "text": "L’altro aggiunge che ascoltare è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o3",
-                "text": "isolatamente"
+                "text": "La prima osserva che equivoco non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o4",
-                "text": "verificabili"
+                "text": "Nel confronto emerge una possibile difficoltà: chiarire può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: chiarire può cambiare la prospettiva di chi ascolta.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Relazioni e mediazione · Ascolto»? “Nel confronto emerge una possibile…”",
             "options": [
               {
                 "id": "o1",
-                "text": "partecipanti"
+                "text": "In questa puntata dedicata a Relazioni e mediazione, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "essere"
+                "text": "La prima osserva che equivoco non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "possibile"
+                "text": "Nel confronto emerge una possibile difficoltà: chiarire può cambiare la prospettiva di chi ascolta."
               },
               {
                 "id": "o4",
-                "text": "isolatamente"
+                "text": "L’altro aggiunge che ascoltare è utile solo se viene spiegato con esempi verificabili."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Relazioni e mediazione · Ascolto»? “Alla fine i partecipanti concordano su un…”",
             "options": [
               {
                 "id": "o1",
-                "text": "partecipanti"
+                "text": "In questa puntata dedicata a Relazioni e mediazione, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "isolatamente"
+                "text": "La prima osserva che equivoco non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "verificabili"
+                "text": "L’altro aggiunge che ascoltare è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "scelte"
+                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
               }
             ]
           }
@@ -42670,42 +42670,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Relazioni e mediazione, due partecipanti mettono a confronto le loro _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Relazioni e mediazione · Ascolto»? “In questa puntata dedicata a Relazioni…”",
         "options": [
-          "posizioni",
-          "partecipanti",
-          "essere",
-          "isolatamente"
+          "In questa puntata dedicata a Relazioni e mediazione, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che equivoco non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che ascoltare è utile solo se viene spiegato con esempi verificabili.",
+          "Nel confronto emerge una possibile difficoltà: chiarire può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che ascoltare è utile solo se viene spiegato con esempi verificabili.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Relazioni e mediazione · Ascolto»? “L’altro aggiunge che ascoltare è…”",
         "options": [
-          "partecipanti",
-          "aggiunge",
-          "isolatamente",
-          "verificabili"
+          "In questa puntata dedicata a Relazioni e mediazione, due partecipanti mettono a confronto le loro posizioni.",
+          "L’altro aggiunge che ascoltare è utile solo se viene spiegato con esempi verificabili.",
+          "La prima osserva che equivoco non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: chiarire può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: chiarire può cambiare la prospettiva di chi ascolta.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Relazioni e mediazione · Ascolto»? “Nel confronto emerge una possibile…”",
         "options": [
-          "partecipanti",
-          "essere",
-          "possibile",
-          "isolatamente"
+          "In questa puntata dedicata a Relazioni e mediazione, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che equivoco non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: chiarire può cambiare la prospettiva di chi ascolta.",
+          "L’altro aggiunge che ascoltare è utile solo se viene spiegato con esempi verificabili."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Relazioni e mediazione · Ascolto»? “Alla fine i partecipanti concordano su un…”",
         "options": [
-          "partecipanti",
-          "isolatamente",
-          "verificabili",
-          "scelte"
+          "In questa puntata dedicata a Relazioni e mediazione, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che equivoco non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che ascoltare è utile solo se viene spiegato con esempi verificabili.",
+          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
         ]
       }
     ]
@@ -42772,92 +42772,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Conflitto e negoziazione, due partecipanti mettono a confronto le loro _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Conflitto e negoziazione · Ascolto»? “In questa puntata dedicata a Conflitto…”",
             "options": [
               {
                 "id": "o1",
-                "text": "posizioni"
+                "text": "In questa puntata dedicata a Conflitto e negoziazione, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "negoziazione"
+                "text": "La prima osserva che interesse non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "partecipanti"
+                "text": "L’altro aggiunge che compromesso è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "essere"
+                "text": "Nel confronto emerge una possibile difficoltà: vincolo può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che compromesso è utile solo se viene spiegato con esempi verificabili.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Conflitto e negoziazione · Ascolto»? “L’altro aggiunge che compromesso è…”",
             "options": [
               {
                 "id": "o1",
-                "text": "negoziazione"
+                "text": "In questa puntata dedicata a Conflitto e negoziazione, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "aggiunge"
+                "text": "L’altro aggiunge che compromesso è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o3",
-                "text": "partecipanti"
+                "text": "La prima osserva che interesse non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o4",
-                "text": "isolatamente"
+                "text": "Nel confronto emerge una possibile difficoltà: vincolo può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: vincolo può cambiare la prospettiva di chi ascolta.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Conflitto e negoziazione · Ascolto»? “Nel confronto emerge una possibile…”",
             "options": [
               {
                 "id": "o1",
-                "text": "negoziazione"
+                "text": "In questa puntata dedicata a Conflitto e negoziazione, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "partecipanti"
+                "text": "La prima osserva che interesse non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "possibile"
+                "text": "Nel confronto emerge una possibile difficoltà: vincolo può cambiare la prospettiva di chi ascolta."
               },
               {
                 "id": "o4",
-                "text": "essere"
+                "text": "L’altro aggiunge che compromesso è utile solo se viene spiegato con esempi verificabili."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Conflitto e negoziazione · Ascolto»? “Alla fine i partecipanti concordano su un…”",
             "options": [
               {
                 "id": "o1",
-                "text": "negoziazione"
+                "text": "In questa puntata dedicata a Conflitto e negoziazione, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "partecipanti"
+                "text": "La prima osserva che interesse non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "isolatamente"
+                "text": "L’altro aggiunge che compromesso è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "scelte"
+                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
               }
             ]
           }
@@ -42877,42 +42877,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Conflitto e negoziazione, due partecipanti mettono a confronto le loro _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Conflitto e negoziazione · Ascolto»? “In questa puntata dedicata a Conflitto…”",
         "options": [
-          "posizioni",
-          "negoziazione",
-          "partecipanti",
-          "essere"
+          "In questa puntata dedicata a Conflitto e negoziazione, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che interesse non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che compromesso è utile solo se viene spiegato con esempi verificabili.",
+          "Nel confronto emerge una possibile difficoltà: vincolo può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che compromesso è utile solo se viene spiegato con esempi verificabili.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Conflitto e negoziazione · Ascolto»? “L’altro aggiunge che compromesso è…”",
         "options": [
-          "negoziazione",
-          "aggiunge",
-          "partecipanti",
-          "isolatamente"
+          "In questa puntata dedicata a Conflitto e negoziazione, due partecipanti mettono a confronto le loro posizioni.",
+          "L’altro aggiunge che compromesso è utile solo se viene spiegato con esempi verificabili.",
+          "La prima osserva che interesse non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: vincolo può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: vincolo può cambiare la prospettiva di chi ascolta.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Conflitto e negoziazione · Ascolto»? “Nel confronto emerge una possibile…”",
         "options": [
-          "negoziazione",
-          "partecipanti",
-          "possibile",
-          "essere"
+          "In questa puntata dedicata a Conflitto e negoziazione, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che interesse non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: vincolo può cambiare la prospettiva di chi ascolta.",
+          "L’altro aggiunge che compromesso è utile solo se viene spiegato con esempi verificabili."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Conflitto e negoziazione · Ascolto»? “Alla fine i partecipanti concordano su un…”",
         "options": [
-          "negoziazione",
-          "partecipanti",
-          "isolatamente",
-          "scelte"
+          "In questa puntata dedicata a Conflitto e negoziazione, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che interesse non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che compromesso è utile solo se viene spiegato con esempi verificabili.",
+          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
         ]
       }
     ]
@@ -42979,92 +42979,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Filosofia quotidiana, due partecipanti mettono a confronto le loro _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Filosofia quotidiana · Ascolto»? “In questa puntata dedicata a…”",
             "options": [
               {
                 "id": "o1",
-                "text": "posizioni"
+                "text": "In questa puntata dedicata a Filosofia quotidiana, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "partecipanti"
+                "text": "La prima osserva che concetto non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "essere"
+                "text": "L’altro aggiunge che paradosso è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "isolatamente"
+                "text": "Nel confronto emerge una possibile difficoltà: argomentare può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che paradosso è utile solo se viene spiegato con esempi verificabili.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Filosofia quotidiana · Ascolto»? “L’altro aggiunge che paradosso è…”",
             "options": [
               {
                 "id": "o1",
-                "text": "partecipanti"
+                "text": "In questa puntata dedicata a Filosofia quotidiana, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "aggiunge"
+                "text": "L’altro aggiunge che paradosso è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o3",
-                "text": "isolatamente"
+                "text": "La prima osserva che concetto non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o4",
-                "text": "verificabili"
+                "text": "Nel confronto emerge una possibile difficoltà: argomentare può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: argomentare può cambiare la prospettiva di chi ascolta.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Filosofia quotidiana · Ascolto»? “Nel confronto emerge una possibile…”",
             "options": [
               {
                 "id": "o1",
-                "text": "partecipanti"
+                "text": "In questa puntata dedicata a Filosofia quotidiana, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "essere"
+                "text": "La prima osserva che concetto non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "possibile"
+                "text": "Nel confronto emerge una possibile difficoltà: argomentare può cambiare la prospettiva di chi ascolta."
               },
               {
                 "id": "o4",
-                "text": "isolatamente"
+                "text": "L’altro aggiunge che paradosso è utile solo se viene spiegato con esempi verificabili."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Filosofia quotidiana · Ascolto»? “Alla fine i partecipanti concordano su un…”",
             "options": [
               {
                 "id": "o1",
-                "text": "partecipanti"
+                "text": "In questa puntata dedicata a Filosofia quotidiana, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "isolatamente"
+                "text": "La prima osserva che concetto non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "verificabili"
+                "text": "L’altro aggiunge che paradosso è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "scelte"
+                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
               }
             ]
           }
@@ -43084,42 +43084,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Filosofia quotidiana, due partecipanti mettono a confronto le loro _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Filosofia quotidiana · Ascolto»? “In questa puntata dedicata a…”",
         "options": [
-          "posizioni",
-          "partecipanti",
-          "essere",
-          "isolatamente"
+          "In questa puntata dedicata a Filosofia quotidiana, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che concetto non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che paradosso è utile solo se viene spiegato con esempi verificabili.",
+          "Nel confronto emerge una possibile difficoltà: argomentare può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che paradosso è utile solo se viene spiegato con esempi verificabili.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Filosofia quotidiana · Ascolto»? “L’altro aggiunge che paradosso è…”",
         "options": [
-          "partecipanti",
-          "aggiunge",
-          "isolatamente",
-          "verificabili"
+          "In questa puntata dedicata a Filosofia quotidiana, due partecipanti mettono a confronto le loro posizioni.",
+          "L’altro aggiunge che paradosso è utile solo se viene spiegato con esempi verificabili.",
+          "La prima osserva che concetto non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: argomentare può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: argomentare può cambiare la prospettiva di chi ascolta.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Filosofia quotidiana · Ascolto»? “Nel confronto emerge una possibile…”",
         "options": [
-          "partecipanti",
-          "essere",
-          "possibile",
-          "isolatamente"
+          "In questa puntata dedicata a Filosofia quotidiana, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che concetto non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: argomentare può cambiare la prospettiva di chi ascolta.",
+          "L’altro aggiunge che paradosso è utile solo se viene spiegato con esempi verificabili."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Filosofia quotidiana · Ascolto»? “Alla fine i partecipanti concordano su un…”",
         "options": [
-          "partecipanti",
-          "isolatamente",
-          "verificabili",
-          "scelte"
+          "In questa puntata dedicata a Filosofia quotidiana, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che concetto non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che paradosso è utile solo se viene spiegato con esempi verificabili.",
+          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
         ]
       }
     ]
@@ -43177,92 +43177,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“Un biglietto per _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «In treno: ascolta»? “Un biglietto per…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Firenze"
+                "text": "Un biglietto per Firenze."
               },
               {
                 "id": "o2",
-                "text": "biglietto"
+                "text": "Parliamo di treno."
               },
               {
                 "id": "o3",
-                "text": "treno"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "piace"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“_____ di treno.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «In treno: ascolta»? “Parliamo di treno…”",
             "options": [
               {
                 "id": "o1",
-                "text": "treno"
+                "text": "Un biglietto per Firenze."
               },
               {
                 "id": "o2",
-                "text": "Parliamo"
+                "text": "Parliamo di treno."
               },
               {
                 "id": "o3",
-                "text": "piace"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "domani"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «In treno: ascolta»? “Mi piace imparare…”",
             "options": [
               {
                 "id": "o1",
-                "text": "treno"
+                "text": "Un biglietto per Firenze."
               },
               {
                 "id": "o2",
-                "text": "piace"
+                "text": "Parliamo di treno."
               },
               {
                 "id": "o3",
-                "text": "comunità"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "domani"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «In treno: ascolta»? “Facciamo pratica insieme…”",
             "options": [
               {
                 "id": "o1",
-                "text": "biglietto"
+                "text": "Un biglietto per Firenze."
               },
               {
                 "id": "o2",
-                "text": "treno"
+                "text": "Parliamo di treno."
               },
               {
                 "id": "o3",
-                "text": "piace"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "pratica"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           }
@@ -43273,42 +43273,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“Un biglietto per _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «In treno: ascolta»? “Un biglietto per…”",
         "options": [
-          "Firenze",
-          "biglietto",
-          "treno",
-          "piace"
+          "Un biglietto per Firenze.",
+          "Parliamo di treno.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“_____ di treno.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «In treno: ascolta»? “Parliamo di treno…”",
         "options": [
-          "treno",
-          "Parliamo",
-          "piace",
-          "domani"
+          "Un biglietto per Firenze.",
+          "Parliamo di treno.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «In treno: ascolta»? “Mi piace imparare…”",
         "options": [
-          "treno",
-          "piace",
-          "comunità",
-          "domani"
+          "Un biglietto per Firenze.",
+          "Parliamo di treno.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «In treno: ascolta»? “Facciamo pratica insieme…”",
         "options": [
-          "biglietto",
-          "treno",
-          "piace",
-          "pratica"
+          "Un biglietto per Firenze.",
+          "Parliamo di treno.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       }
     ]
@@ -43366,92 +43366,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“Possiamo dividere i _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Un progetto di classe: ascolta»? “Possiamo dividere i…”",
             "options": [
               {
                 "id": "o1",
-                "text": "compiti"
+                "text": "Possiamo dividere i compiti."
               },
               {
                 "id": "o2",
-                "text": "piace"
+                "text": "Parliamo di progetto."
               },
               {
                 "id": "o3",
-                "text": "Possiamo"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "dividere"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Un progetto di classe: ascolta»? “Parliamo di progetto…”",
             "options": [
               {
                 "id": "o1",
-                "text": "piace"
+                "text": "Possiamo dividere i compiti."
               },
               {
                 "id": "o2",
-                "text": "progetto"
+                "text": "Parliamo di progetto."
               },
               {
                 "id": "o3",
-                "text": "domani"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "compiti"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Un progetto di classe: ascolta»? “Mi piace imparare…”",
             "options": [
               {
                 "id": "o1",
-                "text": "piace"
+                "text": "Possiamo dividere i compiti."
               },
               {
                 "id": "o2",
-                "text": "domani"
+                "text": "Parliamo di progetto."
               },
               {
                 "id": "o3",
-                "text": "comunità"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "compiti"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Un progetto di classe: ascolta»? “Facciamo pratica insieme…”",
             "options": [
               {
                 "id": "o1",
-                "text": "piace"
+                "text": "Possiamo dividere i compiti."
               },
               {
                 "id": "o2",
-                "text": "Possiamo"
+                "text": "Parliamo di progetto."
               },
               {
                 "id": "o3",
-                "text": "dividere"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "pratica"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           }
@@ -43462,42 +43462,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“Possiamo dividere i _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Un progetto di classe: ascolta»? “Possiamo dividere i…”",
         "options": [
-          "compiti",
-          "piace",
-          "Possiamo",
-          "dividere"
+          "Possiamo dividere i compiti.",
+          "Parliamo di progetto.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Un progetto di classe: ascolta»? “Parliamo di progetto…”",
         "options": [
-          "piace",
-          "progetto",
-          "domani",
-          "compiti"
+          "Possiamo dividere i compiti.",
+          "Parliamo di progetto.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Un progetto di classe: ascolta»? “Mi piace imparare…”",
         "options": [
-          "piace",
-          "domani",
-          "comunità",
-          "compiti"
+          "Possiamo dividere i compiti.",
+          "Parliamo di progetto.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Un progetto di classe: ascolta»? “Facciamo pratica insieme…”",
         "options": [
-          "piace",
-          "Possiamo",
-          "dividere",
-          "pratica"
+          "Possiamo dividere i compiti.",
+          "Parliamo di progetto.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       }
     ]
@@ -46637,92 +46637,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Relazioni e comunicazione», un piccolo gruppo della comunità parla di relazione, ascoltare e _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Relazioni e comunicazione: parole»? “Nel tema Relazioni e comunicazione un…”",
             "options": [
               {
                 "id": "o1",
-                "text": "spiegare"
+                "text": "Nel tema «Relazioni e comunicazione», un piccolo gruppo della comunità parla di relazione, ascoltare e spiegare."
               },
               {
                 "id": "o2",
-                "text": "comunicazione"
+                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
               },
               {
                 "id": "o3",
-                "text": "un'esperienza"
+                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
               },
               {
                 "id": "o4",
-                "text": "parla"
+                "text": "Poi il gruppo riassume le idee più importanti."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Relazioni e comunicazione: parole»? “Ogni persona racconta un'esperienza…”",
             "options": [
               {
                 "id": "o1",
-                "text": "comunicazione"
+                "text": "Nel tema «Relazioni e comunicazione», un piccolo gruppo della comunità parla di relazione, ascoltare e spiegare."
               },
               {
                 "id": "o2",
-                "text": "persona"
+                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
               },
               {
                 "id": "o3",
-                "text": "un'esperienza"
+                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
               },
               {
                 "id": "o4",
-                "text": "collaborare"
+                "text": "Poi il gruppo riassume le idee più importanti."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Relazioni e comunicazione: parole»? “Alla fine decidono di collaborare perché…”",
             "options": [
               {
                 "id": "o1",
-                "text": "comunicazione"
+                "text": "Nel tema «Relazioni e comunicazione», un piccolo gruppo della comunità parla di relazione, ascoltare e spiegare."
               },
               {
                 "id": "o2",
-                "text": "un'esperienza"
+                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
               },
               {
                 "id": "o3",
-                "text": "perché"
+                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
               },
               {
                 "id": "o4",
-                "text": "collaborare"
+                "text": "Poi il gruppo riassume le idee più importanti."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Relazioni e comunicazione: parole»? “Poi il gruppo…”",
             "options": [
               {
                 "id": "o1",
-                "text": "comunicazione"
+                "text": "Nel tema «Relazioni e comunicazione», un piccolo gruppo della comunità parla di relazione, ascoltare e spiegare."
               },
               {
                 "id": "o2",
-                "text": "un'esperienza"
+                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
               },
               {
                 "id": "o3",
-                "text": "collaborare"
+                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
               },
               {
                 "id": "o4",
-                "text": "gruppo"
+                "text": "Poi il gruppo riassume le idee più importanti."
               }
             ]
           }
@@ -46733,42 +46733,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Relazioni e comunicazione», un piccolo gruppo della comunità parla di relazione, ascoltare e _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Relazioni e comunicazione: parole»? “Nel tema Relazioni e comunicazione un…”",
         "options": [
-          "spiegare",
-          "comunicazione",
-          "un'esperienza",
-          "parla"
+          "Nel tema «Relazioni e comunicazione», un piccolo gruppo della comunità parla di relazione, ascoltare e spiegare.",
+          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
+          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+          "Poi il gruppo riassume le idee più importanti."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Relazioni e comunicazione: parole»? “Ogni persona racconta un'esperienza…”",
         "options": [
-          "comunicazione",
-          "persona",
-          "un'esperienza",
-          "collaborare"
+          "Nel tema «Relazioni e comunicazione», un piccolo gruppo della comunità parla di relazione, ascoltare e spiegare.",
+          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
+          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+          "Poi il gruppo riassume le idee più importanti."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Relazioni e comunicazione: parole»? “Alla fine decidono di collaborare perché…”",
         "options": [
-          "comunicazione",
-          "un'esperienza",
-          "perché",
-          "collaborare"
+          "Nel tema «Relazioni e comunicazione», un piccolo gruppo della comunità parla di relazione, ascoltare e spiegare.",
+          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
+          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+          "Poi il gruppo riassume le idee più importanti."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Relazioni e comunicazione: parole»? “Poi il gruppo…”",
         "options": [
-          "comunicazione",
-          "un'esperienza",
-          "collaborare",
-          "gruppo"
+          "Nel tema «Relazioni e comunicazione», un piccolo gruppo della comunità parla di relazione, ascoltare e spiegare.",
+          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
+          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+          "Poi il gruppo riassume le idee più importanti."
         ]
       }
     ]
@@ -47063,92 +47063,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Cittadinanza attiva, due partecipanti mettono a confronto le loro _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Cittadinanza attiva · Ascolto»? “In questa puntata dedicata a…”",
             "options": [
               {
                 "id": "o1",
-                "text": "posizioni"
+                "text": "In questa puntata dedicata a Cittadinanza attiva, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "Cittadinanza"
+                "text": "La prima osserva che iniziativa non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "attiva"
+                "text": "L’altro aggiunge che quartiere è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "partecipanti"
+                "text": "Nel confronto emerge una possibile difficoltà: partecipare può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che quartiere è utile solo se viene spiegato con esempi verificabili.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Cittadinanza attiva · Ascolto»? “L’altro aggiunge che quartiere è…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Cittadinanza"
+                "text": "In questa puntata dedicata a Cittadinanza attiva, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "aggiunge"
+                "text": "L’altro aggiunge che quartiere è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o3",
-                "text": "partecipanti"
+                "text": "La prima osserva che iniziativa non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o4",
-                "text": "isolatamente"
+                "text": "Nel confronto emerge una possibile difficoltà: partecipare può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: partecipare può cambiare la prospettiva di chi ascolta.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Cittadinanza attiva · Ascolto»? “Nel confronto emerge una possibile…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Cittadinanza"
+                "text": "In questa puntata dedicata a Cittadinanza attiva, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "attiva"
+                "text": "La prima osserva che iniziativa non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "possibile"
+                "text": "Nel confronto emerge una possibile difficoltà: partecipare può cambiare la prospettiva di chi ascolta."
               },
               {
                 "id": "o4",
-                "text": "partecipanti"
+                "text": "L’altro aggiunge che quartiere è utile solo se viene spiegato con esempi verificabili."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Cittadinanza attiva · Ascolto»? “Alla fine i partecipanti concordano su un…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Cittadinanza"
+                "text": "In questa puntata dedicata a Cittadinanza attiva, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "partecipanti"
+                "text": "La prima osserva che iniziativa non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "isolatamente"
+                "text": "L’altro aggiunge che quartiere è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "scelte"
+                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
               }
             ]
           }
@@ -47168,42 +47168,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Cittadinanza attiva, due partecipanti mettono a confronto le loro _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Cittadinanza attiva · Ascolto»? “In questa puntata dedicata a…”",
         "options": [
-          "posizioni",
-          "Cittadinanza",
-          "attiva",
-          "partecipanti"
+          "In questa puntata dedicata a Cittadinanza attiva, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che iniziativa non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che quartiere è utile solo se viene spiegato con esempi verificabili.",
+          "Nel confronto emerge una possibile difficoltà: partecipare può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che quartiere è utile solo se viene spiegato con esempi verificabili.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Cittadinanza attiva · Ascolto»? “L’altro aggiunge che quartiere è…”",
         "options": [
-          "Cittadinanza",
-          "aggiunge",
-          "partecipanti",
-          "isolatamente"
+          "In questa puntata dedicata a Cittadinanza attiva, due partecipanti mettono a confronto le loro posizioni.",
+          "L’altro aggiunge che quartiere è utile solo se viene spiegato con esempi verificabili.",
+          "La prima osserva che iniziativa non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: partecipare può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: partecipare può cambiare la prospettiva di chi ascolta.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Cittadinanza attiva · Ascolto»? “Nel confronto emerge una possibile…”",
         "options": [
-          "Cittadinanza",
-          "attiva",
-          "possibile",
-          "partecipanti"
+          "In questa puntata dedicata a Cittadinanza attiva, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che iniziativa non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: partecipare può cambiare la prospettiva di chi ascolta.",
+          "L’altro aggiunge che quartiere è utile solo se viene spiegato con esempi verificabili."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Cittadinanza attiva · Ascolto»? “Alla fine i partecipanti concordano su un…”",
         "options": [
-          "Cittadinanza",
-          "partecipanti",
-          "isolatamente",
-          "scelte"
+          "In questa puntata dedicata a Cittadinanza attiva, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che iniziativa non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che quartiere è utile solo se viene spiegato con esempi verificabili.",
+          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
         ]
       }
     ]
@@ -47270,92 +47270,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Letteratura e voce, due partecipanti mettono a confronto le loro _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Letteratura e voce · Ascolto»? “In questa puntata dedicata a Letteratura…”",
             "options": [
               {
                 "id": "o1",
-                "text": "posizioni"
+                "text": "In questa puntata dedicata a Letteratura e voce, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "partecipanti"
+                "text": "La prima osserva che narratore non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "essere"
+                "text": "L’altro aggiunge che tono è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "isolatamente"
+                "text": "Nel confronto emerge una possibile difficoltà: metafora può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che tono è utile solo se viene spiegato con esempi verificabili.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Letteratura e voce · Ascolto»? “L’altro aggiunge che tono è…”",
             "options": [
               {
                 "id": "o1",
-                "text": "partecipanti"
+                "text": "In questa puntata dedicata a Letteratura e voce, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "aggiunge"
+                "text": "L’altro aggiunge che tono è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o3",
-                "text": "isolatamente"
+                "text": "La prima osserva che narratore non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o4",
-                "text": "verificabili"
+                "text": "Nel confronto emerge una possibile difficoltà: metafora può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: metafora può cambiare la prospettiva di chi ascolta.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Letteratura e voce · Ascolto»? “Nel confronto emerge una possibile…”",
             "options": [
               {
                 "id": "o1",
-                "text": "partecipanti"
+                "text": "In questa puntata dedicata a Letteratura e voce, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "essere"
+                "text": "La prima osserva che narratore non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "possibile"
+                "text": "Nel confronto emerge una possibile difficoltà: metafora può cambiare la prospettiva di chi ascolta."
               },
               {
                 "id": "o4",
-                "text": "isolatamente"
+                "text": "L’altro aggiunge che tono è utile solo se viene spiegato con esempi verificabili."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Letteratura e voce · Ascolto»? “Alla fine i partecipanti concordano su un…”",
             "options": [
               {
                 "id": "o1",
-                "text": "partecipanti"
+                "text": "In questa puntata dedicata a Letteratura e voce, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "isolatamente"
+                "text": "La prima osserva che narratore non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "verificabili"
+                "text": "L’altro aggiunge che tono è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "scelte"
+                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
               }
             ]
           }
@@ -47375,42 +47375,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Letteratura e voce, due partecipanti mettono a confronto le loro _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Letteratura e voce · Ascolto»? “In questa puntata dedicata a Letteratura…”",
         "options": [
-          "posizioni",
-          "partecipanti",
-          "essere",
-          "isolatamente"
+          "In questa puntata dedicata a Letteratura e voce, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che narratore non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che tono è utile solo se viene spiegato con esempi verificabili.",
+          "Nel confronto emerge una possibile difficoltà: metafora può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che tono è utile solo se viene spiegato con esempi verificabili.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Letteratura e voce · Ascolto»? “L’altro aggiunge che tono è…”",
         "options": [
-          "partecipanti",
-          "aggiunge",
-          "isolatamente",
-          "verificabili"
+          "In questa puntata dedicata a Letteratura e voce, due partecipanti mettono a confronto le loro posizioni.",
+          "L’altro aggiunge che tono è utile solo se viene spiegato con esempi verificabili.",
+          "La prima osserva che narratore non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: metafora può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: metafora può cambiare la prospettiva di chi ascolta.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Letteratura e voce · Ascolto»? “Nel confronto emerge una possibile…”",
         "options": [
-          "partecipanti",
-          "essere",
-          "possibile",
-          "isolatamente"
+          "In questa puntata dedicata a Letteratura e voce, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che narratore non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: metafora può cambiare la prospettiva di chi ascolta.",
+          "L’altro aggiunge che tono è utile solo se viene spiegato con esempi verificabili."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Letteratura e voce · Ascolto»? “Alla fine i partecipanti concordano su un…”",
         "options": [
-          "partecipanti",
-          "isolatamente",
-          "verificabili",
-          "scelte"
+          "In questa puntata dedicata a Letteratura e voce, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che narratore non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che tono è utile solo se viene spiegato con esempi verificabili.",
+          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
         ]
       }
     ]
@@ -47477,92 +47477,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Mediazione interculturale, due partecipanti mettono a confronto le loro _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Mediazione interculturale · Ascolto»? “In questa puntata dedicata a…”",
             "options": [
               {
                 "id": "o1",
-                "text": "posizioni"
+                "text": "In questa puntata dedicata a Mediazione interculturale, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "interculturale"
+                "text": "La prima osserva che mediazione non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "partecipanti"
+                "text": "L’altro aggiunge che contesto è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "essere"
+                "text": "Nel confronto emerge una possibile difficoltà: equivoco può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che contesto è utile solo se viene spiegato con esempi verificabili.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Mediazione interculturale · Ascolto»? “L’altro aggiunge che contesto è…”",
             "options": [
               {
                 "id": "o1",
-                "text": "interculturale"
+                "text": "In questa puntata dedicata a Mediazione interculturale, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "aggiunge"
+                "text": "L’altro aggiunge che contesto è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o3",
-                "text": "partecipanti"
+                "text": "La prima osserva che mediazione non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o4",
-                "text": "isolatamente"
+                "text": "Nel confronto emerge una possibile difficoltà: equivoco può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: equivoco può cambiare la prospettiva di chi ascolta.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Mediazione interculturale · Ascolto»? “Nel confronto emerge una possibile…”",
             "options": [
               {
                 "id": "o1",
-                "text": "interculturale"
+                "text": "In questa puntata dedicata a Mediazione interculturale, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "partecipanti"
+                "text": "La prima osserva che mediazione non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "possibile"
+                "text": "Nel confronto emerge una possibile difficoltà: equivoco può cambiare la prospettiva di chi ascolta."
               },
               {
                 "id": "o4",
-                "text": "essere"
+                "text": "L’altro aggiunge che contesto è utile solo se viene spiegato con esempi verificabili."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Mediazione interculturale · Ascolto»? “Alla fine i partecipanti concordano su un…”",
             "options": [
               {
                 "id": "o1",
-                "text": "interculturale"
+                "text": "In questa puntata dedicata a Mediazione interculturale, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "partecipanti"
+                "text": "La prima osserva che mediazione non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "isolatamente"
+                "text": "L’altro aggiunge che contesto è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "scelte"
+                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
               }
             ]
           }
@@ -47582,42 +47582,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Mediazione interculturale, due partecipanti mettono a confronto le loro _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Mediazione interculturale · Ascolto»? “In questa puntata dedicata a…”",
         "options": [
-          "posizioni",
-          "interculturale",
-          "partecipanti",
-          "essere"
+          "In questa puntata dedicata a Mediazione interculturale, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che mediazione non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che contesto è utile solo se viene spiegato con esempi verificabili.",
+          "Nel confronto emerge una possibile difficoltà: equivoco può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che contesto è utile solo se viene spiegato con esempi verificabili.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Mediazione interculturale · Ascolto»? “L’altro aggiunge che contesto è…”",
         "options": [
-          "interculturale",
-          "aggiunge",
-          "partecipanti",
-          "isolatamente"
+          "In questa puntata dedicata a Mediazione interculturale, due partecipanti mettono a confronto le loro posizioni.",
+          "L’altro aggiunge che contesto è utile solo se viene spiegato con esempi verificabili.",
+          "La prima osserva che mediazione non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: equivoco può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: equivoco può cambiare la prospettiva di chi ascolta.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Mediazione interculturale · Ascolto»? “Nel confronto emerge una possibile…”",
         "options": [
-          "interculturale",
-          "partecipanti",
-          "possibile",
-          "essere"
+          "In questa puntata dedicata a Mediazione interculturale, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che mediazione non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: equivoco può cambiare la prospettiva di chi ascolta.",
+          "L’altro aggiunge che contesto è utile solo se viene spiegato con esempi verificabili."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Mediazione interculturale · Ascolto»? “Alla fine i partecipanti concordano su un…”",
         "options": [
-          "interculturale",
-          "partecipanti",
-          "isolatamente",
-          "scelte"
+          "In questa puntata dedicata a Mediazione interculturale, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che mediazione non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che contesto è utile solo se viene spiegato con esempi verificabili.",
+          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
         ]
       }
     ]
@@ -47675,92 +47675,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“Mi piace questa _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Sapori d'Italia: ascolta»? “Mi piace questa…”",
             "options": [
               {
                 "id": "o1",
-                "text": "zuppa"
+                "text": "Mi piace questa zuppa."
               },
               {
                 "id": "o2",
-                "text": "Parliamo"
+                "text": "Parliamo di pane."
               },
               {
                 "id": "o3",
-                "text": "imparare"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "comunità"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“_____ di pane.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Sapori d'Italia: ascolta»? “Parliamo di pane…”",
             "options": [
               {
                 "id": "o1",
-                "text": "piace"
+                "text": "Mi piace questa zuppa."
               },
               {
                 "id": "o2",
-                "text": "Parliamo"
+                "text": "Parliamo di pane."
               },
               {
                 "id": "o3",
-                "text": "zuppa"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "domani"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Sapori d'Italia: ascolta»? “Mi piace imparare…”",
             "options": [
               {
                 "id": "o1",
-                "text": "piace"
+                "text": "Mi piace questa zuppa."
               },
               {
                 "id": "o2",
-                "text": "zuppa"
+                "text": "Parliamo di pane."
               },
               {
                 "id": "o3",
-                "text": "comunità"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "domani"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Sapori d'Italia: ascolta»? “Facciamo pratica insieme…”",
             "options": [
               {
                 "id": "o1",
-                "text": "pane"
+                "text": "Mi piace questa zuppa."
               },
               {
                 "id": "o2",
-                "text": "piace"
+                "text": "Parliamo di pane."
               },
               {
                 "id": "o3",
-                "text": "zuppa"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "pratica"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           }
@@ -47771,42 +47771,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“Mi piace questa _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Sapori d'Italia: ascolta»? “Mi piace questa…”",
         "options": [
-          "zuppa",
-          "Parliamo",
-          "imparare",
-          "comunità"
+          "Mi piace questa zuppa.",
+          "Parliamo di pane.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“_____ di pane.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Sapori d'Italia: ascolta»? “Parliamo di pane…”",
         "options": [
-          "piace",
-          "Parliamo",
-          "zuppa",
-          "domani"
+          "Mi piace questa zuppa.",
+          "Parliamo di pane.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Sapori d'Italia: ascolta»? “Mi piace imparare…”",
         "options": [
-          "piace",
-          "zuppa",
-          "comunità",
-          "domani"
+          "Mi piace questa zuppa.",
+          "Parliamo di pane.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Sapori d'Italia: ascolta»? “Facciamo pratica insieme…”",
         "options": [
-          "pane",
-          "piace",
-          "zuppa",
-          "pratica"
+          "Mi piace questa zuppa.",
+          "Parliamo di pane.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       }
     ]
@@ -47864,92 +47864,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“Vorrei usare meno _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Ambiente e città: ascolta»? “Vorrei usare meno…”",
             "options": [
               {
                 "id": "o1",
-                "text": "plastica"
+                "text": "Vorrei usare meno plastica."
               },
               {
                 "id": "o2",
-                "text": "usare"
+                "text": "Parliamo di rifiuti."
               },
               {
                 "id": "o3",
-                "text": "piace"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "Vorrei"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Ambiente e città: ascolta»? “Parliamo di rifiuti…”",
             "options": [
               {
                 "id": "o1",
-                "text": "meno"
+                "text": "Vorrei usare meno plastica."
               },
               {
                 "id": "o2",
-                "text": "rifiuti"
+                "text": "Parliamo di rifiuti."
               },
               {
                 "id": "o3",
-                "text": "usare"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "piace"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Ambiente e città: ascolta»? “Mi piace imparare…”",
             "options": [
               {
                 "id": "o1",
-                "text": "usare"
+                "text": "Vorrei usare meno plastica."
               },
               {
                 "id": "o2",
-                "text": "piace"
+                "text": "Parliamo di rifiuti."
               },
               {
                 "id": "o3",
-                "text": "comunità"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "Vorrei"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Ambiente e città: ascolta»? “Facciamo pratica insieme…”",
             "options": [
               {
                 "id": "o1",
-                "text": "meno"
+                "text": "Vorrei usare meno plastica."
               },
               {
                 "id": "o2",
-                "text": "usare"
+                "text": "Parliamo di rifiuti."
               },
               {
                 "id": "o3",
-                "text": "piace"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "pratica"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           }
@@ -47960,42 +47960,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“Vorrei usare meno _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Ambiente e città: ascolta»? “Vorrei usare meno…”",
         "options": [
-          "plastica",
-          "usare",
-          "piace",
-          "Vorrei"
+          "Vorrei usare meno plastica.",
+          "Parliamo di rifiuti.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Ambiente e città: ascolta»? “Parliamo di rifiuti…”",
         "options": [
-          "meno",
-          "rifiuti",
-          "usare",
-          "piace"
+          "Vorrei usare meno plastica.",
+          "Parliamo di rifiuti.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Ambiente e città: ascolta»? “Mi piace imparare…”",
         "options": [
-          "usare",
-          "piace",
-          "comunità",
-          "Vorrei"
+          "Vorrei usare meno plastica.",
+          "Parliamo di rifiuti.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Ambiente e città: ascolta»? “Facciamo pratica insieme…”",
         "options": [
-          "meno",
-          "usare",
-          "piace",
-          "pratica"
+          "Vorrei usare meno plastica.",
+          "Parliamo di rifiuti.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       }
     ]
@@ -51135,92 +51135,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Cittadinanza e partecipazione», un piccolo gruppo della comunità parla di cittadinanza, partecipare e _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Cittadinanza e partecipazione: parole»? “Nel tema Cittadinanza e partecipazione un…”",
             "options": [
               {
                 "id": "o1",
-                "text": "diritto"
+                "text": "Nel tema «Cittadinanza e partecipazione», un piccolo gruppo della comunità parla di cittadinanza, partecipare e diritto."
               },
               {
                 "id": "o2",
-                "text": "partecipazione"
+                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
               },
               {
                 "id": "o3",
-                "text": "un'esperienza"
+                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
               },
               {
                 "id": "o4",
-                "text": "Cittadinanza"
+                "text": "Poi il gruppo riassume le idee più importanti."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Cittadinanza e partecipazione: parole»? “Ogni persona racconta un'esperienza…”",
             "options": [
               {
                 "id": "o1",
-                "text": "partecipazione"
+                "text": "Nel tema «Cittadinanza e partecipazione», un piccolo gruppo della comunità parla di cittadinanza, partecipare e diritto."
               },
               {
                 "id": "o2",
-                "text": "persona"
+                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
               },
               {
                 "id": "o3",
-                "text": "un'esperienza"
+                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
               },
               {
                 "id": "o4",
-                "text": "Cittadinanza"
+                "text": "Poi il gruppo riassume le idee più importanti."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Cittadinanza e partecipazione: parole»? “Alla fine decidono di collaborare perché…”",
             "options": [
               {
                 "id": "o1",
-                "text": "partecipazione"
+                "text": "Nel tema «Cittadinanza e partecipazione», un piccolo gruppo della comunità parla di cittadinanza, partecipare e diritto."
               },
               {
                 "id": "o2",
-                "text": "un'esperienza"
+                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
               },
               {
                 "id": "o3",
-                "text": "perché"
+                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
               },
               {
                 "id": "o4",
-                "text": "Cittadinanza"
+                "text": "Poi il gruppo riassume le idee più importanti."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Cittadinanza e partecipazione: parole»? “Poi il gruppo…”",
             "options": [
               {
                 "id": "o1",
-                "text": "partecipazione"
+                "text": "Nel tema «Cittadinanza e partecipazione», un piccolo gruppo della comunità parla di cittadinanza, partecipare e diritto."
               },
               {
                 "id": "o2",
-                "text": "un'esperienza"
+                "text": "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta."
               },
               {
                 "id": "o3",
-                "text": "Cittadinanza"
+                "text": "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana."
               },
               {
                 "id": "o4",
-                "text": "gruppo"
+                "text": "Poi il gruppo riassume le idee più importanti."
               }
             ]
           }
@@ -51231,42 +51231,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Cittadinanza e partecipazione», un piccolo gruppo della comunità parla di cittadinanza, partecipare e _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Cittadinanza e partecipazione: parole»? “Nel tema Cittadinanza e partecipazione un…”",
         "options": [
-          "diritto",
-          "partecipazione",
-          "un'esperienza",
-          "Cittadinanza"
+          "Nel tema «Cittadinanza e partecipazione», un piccolo gruppo della comunità parla di cittadinanza, partecipare e diritto.",
+          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
+          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+          "Poi il gruppo riassume le idee più importanti."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Cittadinanza e partecipazione: parole»? “Ogni persona racconta un'esperienza…”",
         "options": [
-          "partecipazione",
-          "persona",
-          "un'esperienza",
-          "Cittadinanza"
+          "Nel tema «Cittadinanza e partecipazione», un piccolo gruppo della comunità parla di cittadinanza, partecipare e diritto.",
+          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
+          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+          "Poi il gruppo riassume le idee più importanti."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Cittadinanza e partecipazione: parole»? “Alla fine decidono di collaborare perché…”",
         "options": [
-          "partecipazione",
-          "un'esperienza",
-          "perché",
-          "Cittadinanza"
+          "Nel tema «Cittadinanza e partecipazione», un piccolo gruppo della comunità parla di cittadinanza, partecipare e diritto.",
+          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
+          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+          "Poi il gruppo riassume le idee più importanti."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Cittadinanza e partecipazione: parole»? “Poi il gruppo…”",
         "options": [
-          "partecipazione",
-          "un'esperienza",
-          "Cittadinanza",
-          "gruppo"
+          "Nel tema «Cittadinanza e partecipazione», un piccolo gruppo della comunità parla di cittadinanza, partecipare e diritto.",
+          "Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.",
+          "Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+          "Poi il gruppo riassume le idee più importanti."
         ]
       }
     ]
@@ -51561,92 +51561,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Bilanci e prospettive, due partecipanti mettono a confronto le loro _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Bilanci e prospettive · Ascolto»? “In questa puntata dedicata a Bilanci…”",
             "options": [
               {
                 "id": "o1",
-                "text": "posizioni"
+                "text": "In questa puntata dedicata a Bilanci e prospettive, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "partecipanti"
+                "text": "La prima osserva che traguardo non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "essere"
+                "text": "L’altro aggiunge che ostacolo è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "isolatamente"
+                "text": "Nel confronto emerge una possibile difficoltà: percorso può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che ostacolo è utile solo se viene spiegato con esempi verificabili.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Bilanci e prospettive · Ascolto»? “L’altro aggiunge che ostacolo è…”",
             "options": [
               {
                 "id": "o1",
-                "text": "partecipanti"
+                "text": "In questa puntata dedicata a Bilanci e prospettive, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "aggiunge"
+                "text": "L’altro aggiunge che ostacolo è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o3",
-                "text": "isolatamente"
+                "text": "La prima osserva che traguardo non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o4",
-                "text": "verificabili"
+                "text": "Nel confronto emerge una possibile difficoltà: percorso può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: percorso può cambiare la prospettiva di chi ascolta.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Bilanci e prospettive · Ascolto»? “Nel confronto emerge una possibile…”",
             "options": [
               {
                 "id": "o1",
-                "text": "partecipanti"
+                "text": "In questa puntata dedicata a Bilanci e prospettive, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "essere"
+                "text": "La prima osserva che traguardo non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "possibile"
+                "text": "Nel confronto emerge una possibile difficoltà: percorso può cambiare la prospettiva di chi ascolta."
               },
               {
                 "id": "o4",
-                "text": "isolatamente"
+                "text": "L’altro aggiunge che ostacolo è utile solo se viene spiegato con esempi verificabili."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Bilanci e prospettive · Ascolto»? “Alla fine i partecipanti concordano su un…”",
             "options": [
               {
                 "id": "o1",
-                "text": "partecipanti"
+                "text": "In questa puntata dedicata a Bilanci e prospettive, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "isolatamente"
+                "text": "La prima osserva che traguardo non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "verificabili"
+                "text": "L’altro aggiunge che ostacolo è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "scelte"
+                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
               }
             ]
           }
@@ -51666,42 +51666,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Bilanci e prospettive, due partecipanti mettono a confronto le loro _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Bilanci e prospettive · Ascolto»? “In questa puntata dedicata a Bilanci…”",
         "options": [
-          "posizioni",
-          "partecipanti",
-          "essere",
-          "isolatamente"
+          "In questa puntata dedicata a Bilanci e prospettive, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che traguardo non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che ostacolo è utile solo se viene spiegato con esempi verificabili.",
+          "Nel confronto emerge una possibile difficoltà: percorso può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che ostacolo è utile solo se viene spiegato con esempi verificabili.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Bilanci e prospettive · Ascolto»? “L’altro aggiunge che ostacolo è…”",
         "options": [
-          "partecipanti",
-          "aggiunge",
-          "isolatamente",
-          "verificabili"
+          "In questa puntata dedicata a Bilanci e prospettive, due partecipanti mettono a confronto le loro posizioni.",
+          "L’altro aggiunge che ostacolo è utile solo se viene spiegato con esempi verificabili.",
+          "La prima osserva che traguardo non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: percorso può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: percorso può cambiare la prospettiva di chi ascolta.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Bilanci e prospettive · Ascolto»? “Nel confronto emerge una possibile…”",
         "options": [
-          "partecipanti",
-          "essere",
-          "possibile",
-          "isolatamente"
+          "In questa puntata dedicata a Bilanci e prospettive, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che traguardo non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: percorso può cambiare la prospettiva di chi ascolta.",
+          "L’altro aggiunge che ostacolo è utile solo se viene spiegato con esempi verificabili."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Bilanci e prospettive · Ascolto»? “Alla fine i partecipanti concordano su un…”",
         "options": [
-          "partecipanti",
-          "isolatamente",
-          "verificabili",
-          "scelte"
+          "In questa puntata dedicata a Bilanci e prospettive, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che traguardo non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che ostacolo è utile solo se viene spiegato con esempi verificabili.",
+          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
         ]
       }
     ]
@@ -51768,92 +51768,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Progetto personale, due partecipanti mettono a confronto le loro _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Progetto personale · Ascolto»? “In questa puntata dedicata a…”",
             "options": [
               {
                 "id": "o1",
-                "text": "posizioni"
+                "text": "In questa puntata dedicata a Progetto personale, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "partecipanti"
+                "text": "La prima osserva che visione non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "essere"
+                "text": "L’altro aggiunge che strategia è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "isolatamente"
+                "text": "Nel confronto emerge una possibile difficoltà: risorsa può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che strategia è utile solo se viene spiegato con esempi verificabili.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Progetto personale · Ascolto»? “L’altro aggiunge che strategia è…”",
             "options": [
               {
                 "id": "o1",
-                "text": "partecipanti"
+                "text": "In questa puntata dedicata a Progetto personale, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "aggiunge"
+                "text": "L’altro aggiunge che strategia è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o3",
-                "text": "isolatamente"
+                "text": "La prima osserva che visione non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o4",
-                "text": "verificabili"
+                "text": "Nel confronto emerge una possibile difficoltà: risorsa può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: risorsa può cambiare la prospettiva di chi ascolta.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Progetto personale · Ascolto»? “Nel confronto emerge una possibile…”",
             "options": [
               {
                 "id": "o1",
-                "text": "partecipanti"
+                "text": "In questa puntata dedicata a Progetto personale, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "essere"
+                "text": "La prima osserva che visione non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "possibile"
+                "text": "Nel confronto emerge una possibile difficoltà: risorsa può cambiare la prospettiva di chi ascolta."
               },
               {
                 "id": "o4",
-                "text": "isolatamente"
+                "text": "L’altro aggiunge che strategia è utile solo se viene spiegato con esempi verificabili."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Progetto personale · Ascolto»? “Alla fine i partecipanti concordano su un…”",
             "options": [
               {
                 "id": "o1",
-                "text": "partecipanti"
+                "text": "In questa puntata dedicata a Progetto personale, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "isolatamente"
+                "text": "La prima osserva che visione non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "verificabili"
+                "text": "L’altro aggiunge che strategia è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "scelte"
+                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
               }
             ]
           }
@@ -51873,42 +51873,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Progetto personale, due partecipanti mettono a confronto le loro _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Progetto personale · Ascolto»? “In questa puntata dedicata a…”",
         "options": [
-          "posizioni",
-          "partecipanti",
-          "essere",
-          "isolatamente"
+          "In questa puntata dedicata a Progetto personale, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che visione non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che strategia è utile solo se viene spiegato con esempi verificabili.",
+          "Nel confronto emerge una possibile difficoltà: risorsa può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che strategia è utile solo se viene spiegato con esempi verificabili.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Progetto personale · Ascolto»? “L’altro aggiunge che strategia è…”",
         "options": [
-          "partecipanti",
-          "aggiunge",
-          "isolatamente",
-          "verificabili"
+          "In questa puntata dedicata a Progetto personale, due partecipanti mettono a confronto le loro posizioni.",
+          "L’altro aggiunge che strategia è utile solo se viene spiegato con esempi verificabili.",
+          "La prima osserva che visione non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: risorsa può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: risorsa può cambiare la prospettiva di chi ascolta.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Progetto personale · Ascolto»? “Nel confronto emerge una possibile…”",
         "options": [
-          "partecipanti",
-          "essere",
-          "possibile",
-          "isolatamente"
+          "In questa puntata dedicata a Progetto personale, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che visione non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: risorsa può cambiare la prospettiva di chi ascolta.",
+          "L’altro aggiunge che strategia è utile solo se viene spiegato con esempi verificabili."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Progetto personale · Ascolto»? “Alla fine i partecipanti concordano su un…”",
         "options": [
-          "partecipanti",
-          "isolatamente",
-          "verificabili",
-          "scelte"
+          "In questa puntata dedicata a Progetto personale, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che visione non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che strategia è utile solo se viene spiegato con esempi verificabili.",
+          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
         ]
       }
     ]
@@ -51975,92 +51975,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Sintesi e proposta, due partecipanti mettono a confronto le loro _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Sintesi e proposta · Ascolto»? “In questa puntata dedicata a Sintesi…”",
             "options": [
               {
                 "id": "o1",
-                "text": "posizioni"
+                "text": "In questa puntata dedicata a Sintesi e proposta, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "partecipanti"
+                "text": "La prima osserva che sintesi non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "essere"
+                "text": "L’altro aggiunge che fonte è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "isolatamente"
+                "text": "Nel confronto emerge una possibile difficoltà: priorità può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che fonte è utile solo se viene spiegato con esempi verificabili.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Sintesi e proposta · Ascolto»? “L’altro aggiunge che fonte è…”",
             "options": [
               {
                 "id": "o1",
-                "text": "partecipanti"
+                "text": "In questa puntata dedicata a Sintesi e proposta, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "aggiunge"
+                "text": "L’altro aggiunge che fonte è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o3",
-                "text": "isolatamente"
+                "text": "La prima osserva che sintesi non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o4",
-                "text": "verificabili"
+                "text": "Nel confronto emerge una possibile difficoltà: priorità può cambiare la prospettiva di chi ascolta."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: priorità può cambiare la prospettiva di chi ascolta.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Sintesi e proposta · Ascolto»? “Nel confronto emerge una possibile…”",
             "options": [
               {
                 "id": "o1",
-                "text": "partecipanti"
+                "text": "In questa puntata dedicata a Sintesi e proposta, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "essere"
+                "text": "La prima osserva che sintesi non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "possibile"
+                "text": "Nel confronto emerge una possibile difficoltà: priorità può cambiare la prospettiva di chi ascolta."
               },
               {
                 "id": "o4",
-                "text": "isolatamente"
+                "text": "L’altro aggiunge che fonte è utile solo se viene spiegato con esempi verificabili."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Sintesi e proposta · Ascolto»? “Alla fine i partecipanti concordano su un…”",
             "options": [
               {
                 "id": "o1",
-                "text": "partecipanti"
+                "text": "In questa puntata dedicata a Sintesi e proposta, due partecipanti mettono a confronto le loro posizioni."
               },
               {
                 "id": "o2",
-                "text": "isolatamente"
+                "text": "La prima osserva che sintesi non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
               },
               {
                 "id": "o3",
-                "text": "verificabili"
+                "text": "L’altro aggiunge che fonte è utile solo se viene spiegato con esempi verificabili."
               },
               {
                 "id": "o4",
-                "text": "scelte"
+                "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
               }
             ]
           }
@@ -52080,42 +52080,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Sintesi e proposta, due partecipanti mettono a confronto le loro _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Sintesi e proposta · Ascolto»? “In questa puntata dedicata a Sintesi…”",
         "options": [
-          "posizioni",
-          "partecipanti",
-          "essere",
-          "isolatamente"
+          "In questa puntata dedicata a Sintesi e proposta, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che sintesi non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che fonte è utile solo se viene spiegato con esempi verificabili.",
+          "Nel confronto emerge una possibile difficoltà: priorità può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che fonte è utile solo se viene spiegato con esempi verificabili.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Sintesi e proposta · Ascolto»? “L’altro aggiunge che fonte è…”",
         "options": [
-          "partecipanti",
-          "aggiunge",
-          "isolatamente",
-          "verificabili"
+          "In questa puntata dedicata a Sintesi e proposta, due partecipanti mettono a confronto le loro posizioni.",
+          "L’altro aggiunge che fonte è utile solo se viene spiegato con esempi verificabili.",
+          "La prima osserva che sintesi non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: priorità può cambiare la prospettiva di chi ascolta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: priorità può cambiare la prospettiva di chi ascolta.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Sintesi e proposta · Ascolto»? “Nel confronto emerge una possibile…”",
         "options": [
-          "partecipanti",
-          "essere",
-          "possibile",
-          "isolatamente"
+          "In questa puntata dedicata a Sintesi e proposta, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che sintesi non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "Nel confronto emerge una possibile difficoltà: priorità può cambiare la prospettiva di chi ascolta.",
+          "L’altro aggiunge che fonte è utile solo se viene spiegato con esempi verificabili."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Sintesi e proposta · Ascolto»? “Alla fine i partecipanti concordano su un…”",
         "options": [
-          "partecipanti",
-          "isolatamente",
-          "verificabili",
-          "scelte"
+          "In questa puntata dedicata a Sintesi e proposta, due partecipanti mettono a confronto le loro posizioni.",
+          "La prima osserva che sintesi non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto.",
+          "L’altro aggiunge che fonte è utile solo se viene spiegato con esempi verificabili.",
+          "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
         ]
       }
     ]
@@ -52173,92 +52173,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“Oggi ho _____ molto.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Un messaggio a casa: ascolta»? “Oggi ho imparato…”",
             "options": [
               {
                 "id": "o1",
-                "text": "imparato"
+                "text": "Oggi ho imparato molto."
               },
               {
                 "id": "o2",
-                "text": "molto"
+                "text": "Parliamo di oggi."
               },
               {
                 "id": "o3",
-                "text": "piace"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "domani"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“_____ di oggi.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Un messaggio a casa: ascolta»? “Parliamo di oggi…”",
             "options": [
               {
                 "id": "o1",
-                "text": "molto"
+                "text": "Oggi ho imparato molto."
               },
               {
                 "id": "o2",
-                "text": "Parliamo"
+                "text": "Parliamo di oggi."
               },
               {
                 "id": "o3",
-                "text": "piace"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "domani"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Un messaggio a casa: ascolta»? “Mi piace imparare…”",
             "options": [
               {
                 "id": "o1",
-                "text": "molto"
+                "text": "Oggi ho imparato molto."
               },
               {
                 "id": "o2",
-                "text": "piace"
+                "text": "Parliamo di oggi."
               },
               {
                 "id": "o3",
-                "text": "comunità"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "domani"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Un messaggio a casa: ascolta»? “Facciamo pratica insieme…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Oggi"
+                "text": "Oggi ho imparato molto."
               },
               {
                 "id": "o2",
-                "text": "molto"
+                "text": "Parliamo di oggi."
               },
               {
                 "id": "o3",
-                "text": "piace"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "pratica"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           }
@@ -52269,42 +52269,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“Oggi ho _____ molto.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Un messaggio a casa: ascolta»? “Oggi ho imparato…”",
         "options": [
-          "imparato",
-          "molto",
-          "piace",
-          "domani"
+          "Oggi ho imparato molto.",
+          "Parliamo di oggi.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“_____ di oggi.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Un messaggio a casa: ascolta»? “Parliamo di oggi…”",
         "options": [
-          "molto",
-          "Parliamo",
-          "piace",
-          "domani"
+          "Oggi ho imparato molto.",
+          "Parliamo di oggi.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Un messaggio a casa: ascolta»? “Mi piace imparare…”",
         "options": [
-          "molto",
-          "piace",
-          "comunità",
-          "domani"
+          "Oggi ho imparato molto.",
+          "Parliamo di oggi.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Un messaggio a casa: ascolta»? “Facciamo pratica insieme…”",
         "options": [
-          "Oggi",
-          "molto",
-          "piace",
-          "pratica"
+          "Oggi ho imparato molto.",
+          "Parliamo di oggi.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       }
     ]
@@ -52362,92 +52362,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“È stato un viaggio _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Raccontare il proprio viaggio: ascolta»? “È stato un…”",
             "options": [
               {
                 "id": "o1",
-                "text": "importante"
+                "text": "È stato un viaggio importante."
               },
               {
                 "id": "o2",
-                "text": "viaggio"
+                "text": "Parliamo di ricordo."
               },
               {
                 "id": "o3",
-                "text": "ricordo"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "pratica"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Raccontare il proprio viaggio: ascolta»? “Parliamo di ricordo…”",
             "options": [
               {
                 "id": "o1",
-                "text": "importante"
+                "text": "È stato un viaggio importante."
               },
               {
                 "id": "o2",
-                "text": "ricordo"
+                "text": "Parliamo di ricordo."
               },
               {
                 "id": "o3",
-                "text": "stato"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "piace"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Raccontare il proprio viaggio: ascolta»? “Mi piace imparare…”",
             "options": [
               {
                 "id": "o1",
-                "text": "stato"
+                "text": "È stato un viaggio importante."
               },
               {
                 "id": "o2",
-                "text": "piace"
+                "text": "Parliamo di ricordo."
               },
               {
                 "id": "o3",
-                "text": "comunità"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "importante"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
+            "prompt": "Quale affermazione completa questo momento dell’audio «Raccontare il proprio viaggio: ascolta»? “Facciamo pratica insieme…”",
             "options": [
               {
                 "id": "o1",
-                "text": "importante"
+                "text": "È stato un viaggio importante."
               },
               {
                 "id": "o2",
-                "text": "stato"
+                "text": "Parliamo di ricordo."
               },
               {
                 "id": "o3",
-                "text": "piace"
+                "text": "Mi piace imparare con la comunità."
               },
               {
                 "id": "o4",
-                "text": "pratica"
+                "text": "Facciamo pratica insieme domani."
               }
             ]
           }
@@ -52458,42 +52458,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“È stato un viaggio _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Raccontare il proprio viaggio: ascolta»? “È stato un…”",
         "options": [
-          "importante",
-          "viaggio",
-          "ricordo",
-          "pratica"
+          "È stato un viaggio importante.",
+          "Parliamo di ricordo.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Raccontare il proprio viaggio: ascolta»? “Parliamo di ricordo…”",
         "options": [
-          "importante",
-          "ricordo",
-          "stato",
-          "piace"
+          "È stato un viaggio importante.",
+          "Parliamo di ricordo.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Raccontare il proprio viaggio: ascolta»? “Mi piace imparare…”",
         "options": [
-          "stato",
-          "piace",
-          "comunità",
-          "importante"
+          "È stato un viaggio importante.",
+          "Parliamo di ricordo.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
+        "prompt": "Quale affermazione completa questo momento dell’audio «Raccontare il proprio viaggio: ascolta»? “Facciamo pratica insieme…”",
         "options": [
-          "importante",
-          "stato",
-          "piace",
-          "pratica"
+          "È stato un viaggio importante.",
+          "Parliamo di ricordo.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       }
     ]

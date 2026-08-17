@@ -1073,92 +1073,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complète ce détail de l’audio.\n\n“_____ !”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Bienvenue à Tours ! » ? “Bonjour…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Bonjour"
+                "text": "Bonjour !"
               },
               {
                 "id": "o2",
-                "text": "sympathiques"
+                "text": "Je m’appelle Camila et je suis dominicaine."
               },
               {
                 "id": "o3",
-                "text": "dominicaine"
+                "text": "Aujourd’hui, je suis à Tours pour mon premier jour d’école."
               },
               {
                 "id": "o4",
-                "text": "Aujourd’hui"
+                "text": "Je suis un peu nerveuse, mais je suis aussi très contente."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel mot complète la phrase entendue ?\n\n“Je suis un peu nerveuse, mais je suis aussi très _____.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Bienvenue à Tours ! » ? “Je suis un peu…”",
             "options": [
               {
                 "id": "o1",
-                "text": "sympathiques"
+                "text": "Bonjour !"
               },
               {
                 "id": "o2",
-                "text": "contente"
+                "text": "Je suis un peu nerveuse, mais je suis aussi très contente."
               },
               {
                 "id": "o3",
-                "text": "dominicaine"
+                "text": "Je m’appelle Camila et je suis dominicaine."
               },
               {
                 "id": "o4",
-                "text": "Aujourd’hui"
+                "text": "Aujourd’hui, je suis à Tours pour mon premier jour d’école."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“La professeure dit : « Vous êtes tous les _____.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Bienvenue à Tours ! » ? “La professeure dit…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Camila"
+                "text": "Bonjour !"
               },
               {
                 "id": "o2",
-                "text": "classe"
+                "text": "Je m’appelle Camila et je suis dominicaine."
               },
               {
                 "id": "o3",
-                "text": "bienvenus"
+                "text": "La professeure dit : « Vous êtes tous les bienvenus."
               },
               {
                 "id": "o4",
-                "text": "autres"
+                "text": "Aujourd’hui, je suis à Tours pour mon premier jour d’école."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“La professeure dit : « Vous êtes tous les bienvenus. » Nous sommes dans la même classe et nous sommes prêts à _____ le français.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Bienvenue à Tours ! » ? “La professeure dit Vous êtes tous les…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Camila"
+                "text": "Bonjour !"
               },
               {
                 "id": "o2",
-                "text": "classe"
+                "text": "Je m’appelle Camila et je suis dominicaine."
               },
               {
                 "id": "o3",
-                "text": "autres"
+                "text": "Aujourd’hui, je suis à Tours pour mon premier jour d’école."
               },
               {
                 "id": "o4",
-                "text": "apprendre"
+                "text": "La professeure dit : « Vous êtes tous les bienvenus. » Nous sommes dans la même classe et nous sommes prêts à apprendre le français."
               }
             ]
           }
@@ -1169,42 +1169,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complète ce détail de l’audio.\n\n“_____ !”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Bienvenue à Tours ! » ? “Bonjour…”",
         "options": [
-          "Bonjour",
-          "sympathiques",
-          "dominicaine",
-          "Aujourd’hui"
+          "Bonjour !",
+          "Je m’appelle Camila et je suis dominicaine.",
+          "Aujourd’hui, je suis à Tours pour mon premier jour d’école.",
+          "Je suis un peu nerveuse, mais je suis aussi très contente."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel mot complète la phrase entendue ?\n\n“Je suis un peu nerveuse, mais je suis aussi très _____.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Bienvenue à Tours ! » ? “Je suis un peu…”",
         "options": [
-          "sympathiques",
-          "contente",
-          "dominicaine",
-          "Aujourd’hui"
+          "Bonjour !",
+          "Je suis un peu nerveuse, mais je suis aussi très contente.",
+          "Je m’appelle Camila et je suis dominicaine.",
+          "Aujourd’hui, je suis à Tours pour mon premier jour d’école."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“La professeure dit : « Vous êtes tous les _____.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Bienvenue à Tours ! » ? “La professeure dit…”",
         "options": [
-          "Camila",
-          "classe",
-          "bienvenus",
-          "autres"
+          "Bonjour !",
+          "Je m’appelle Camila et je suis dominicaine.",
+          "La professeure dit : « Vous êtes tous les bienvenus.",
+          "Aujourd’hui, je suis à Tours pour mon premier jour d’école."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“La professeure dit : « Vous êtes tous les bienvenus. » Nous sommes dans la même classe et nous sommes prêts à _____ le français.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Bienvenue à Tours ! » ? “La professeure dit Vous êtes tous les…”",
         "options": [
-          "Camila",
-          "classe",
-          "autres",
-          "apprendre"
+          "Bonjour !",
+          "Je m’appelle Camila et je suis dominicaine.",
+          "Aujourd’hui, je suis à Tours pour mon premier jour d’école.",
+          "La professeure dit : « Vous êtes tous les bienvenus. » Nous sommes dans la même classe et nous sommes prêts à apprendre le français."
         ]
       }
     ]
@@ -1293,92 +1293,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complète ce détail de l’audio.\n\n“Samedi matin, Camila et Léa sont retournées au marché de _____.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Le panier oublié » ? “Samedi matin Camila et…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Tours"
+                "text": "Samedi matin, Camila et Léa sont retournées au marché de Tours."
               },
               {
                 "id": "o2",
-                "text": "supermarché"
+                "text": "Elles ont acheté deux kilos de fraises, des tomates et un fromage de chèvre."
               },
               {
                 "id": "o3",
-                "text": "retournées"
+                "text": "Camila a demandé combien coûtait chaque produit et elle a comparé les prix avec ceux du supermarché."
               },
               {
                 "id": "o4",
-                "text": "vingt-cinq"
+                "text": "Le marché était moins cher et les produits étaient plus frais."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel mot complète la phrase entendue ?\n\n“Le marché était moins cher et les _____ étaient plus frais.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Le panier oublié » ? “Le marché était moins…”",
             "options": [
               {
                 "id": "o1",
-                "text": "matin"
+                "text": "Samedi matin, Camila et Léa sont retournées au marché de Tours."
               },
               {
                 "id": "o2",
-                "text": "produits"
+                "text": "Le marché était moins cher et les produits étaient plus frais."
               },
               {
                 "id": "o3",
-                "text": "Tours"
+                "text": "Elles ont acheté deux kilos de fraises, des tomates et un fromage de chèvre."
               },
               {
                 "id": "o4",
-                "text": "kilos"
+                "text": "Camila a demandé combien coûtait chaque produit et elle a comparé les prix avec ceux du supermarché."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Sur le chemin du retour, _____ a vu que le panier était trop léger.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Le panier oublié » ? “Sur le chemin du retour…”",
             "options": [
               {
                 "id": "o1",
-                "text": "supermarché"
+                "text": "Samedi matin, Camila et Léa sont retournées au marché de Tours."
               },
               {
                 "id": "o2",
-                "text": "retournées"
+                "text": "Elles ont acheté deux kilos de fraises, des tomates et un fromage de chèvre."
               },
               {
                 "id": "o3",
-                "text": "Léa"
+                "text": "Sur le chemin du retour, Léa a vu que le panier était trop léger."
               },
               {
                 "id": "o4",
-                "text": "vingt-cinq"
+                "text": "Camila a demandé combien coûtait chaque produit et elle a comparé les prix avec ceux du supermarché."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Camila a récupéré le panier, la monnaie et le reçu, puis elle a remercié le _____ avec un grand sourire.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Le panier oublié » ? “Camila a récupéré le panier la monnaie…”",
             "options": [
               {
                 "id": "o1",
-                "text": "supermarché"
+                "text": "Samedi matin, Camila et Léa sont retournées au marché de Tours."
               },
               {
                 "id": "o2",
-                "text": "retournées"
+                "text": "Elles ont acheté deux kilos de fraises, des tomates et un fromage de chèvre."
               },
               {
                 "id": "o3",
-                "text": "deux"
+                "text": "Camila a demandé combien coûtait chaque produit et elle a comparé les prix avec ceux du supermarché."
               },
               {
                 "id": "o4",
-                "text": "vendeur"
+                "text": "Camila a récupéré le panier, la monnaie et le reçu, puis elle a remercié le vendeur avec un grand sourire."
               }
             ]
           }
@@ -1389,42 +1389,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complète ce détail de l’audio.\n\n“Samedi matin, Camila et Léa sont retournées au marché de _____.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Le panier oublié » ? “Samedi matin Camila et…”",
         "options": [
-          "Tours",
-          "supermarché",
-          "retournées",
-          "vingt-cinq"
+          "Samedi matin, Camila et Léa sont retournées au marché de Tours.",
+          "Elles ont acheté deux kilos de fraises, des tomates et un fromage de chèvre.",
+          "Camila a demandé combien coûtait chaque produit et elle a comparé les prix avec ceux du supermarché.",
+          "Le marché était moins cher et les produits étaient plus frais."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel mot complète la phrase entendue ?\n\n“Le marché était moins cher et les _____ étaient plus frais.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Le panier oublié » ? “Le marché était moins…”",
         "options": [
-          "matin",
-          "produits",
-          "Tours",
-          "kilos"
+          "Samedi matin, Camila et Léa sont retournées au marché de Tours.",
+          "Le marché était moins cher et les produits étaient plus frais.",
+          "Elles ont acheté deux kilos de fraises, des tomates et un fromage de chèvre.",
+          "Camila a demandé combien coûtait chaque produit et elle a comparé les prix avec ceux du supermarché."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Sur le chemin du retour, _____ a vu que le panier était trop léger.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Le panier oublié » ? “Sur le chemin du retour…”",
         "options": [
-          "supermarché",
-          "retournées",
-          "Léa",
-          "vingt-cinq"
+          "Samedi matin, Camila et Léa sont retournées au marché de Tours.",
+          "Elles ont acheté deux kilos de fraises, des tomates et un fromage de chèvre.",
+          "Sur le chemin du retour, Léa a vu que le panier était trop léger.",
+          "Camila a demandé combien coûtait chaque produit et elle a comparé les prix avec ceux du supermarché."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Camila a récupéré le panier, la monnaie et le reçu, puis elle a remercié le _____ avec un grand sourire.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Le panier oublié » ? “Camila a récupéré le panier la monnaie…”",
         "options": [
-          "supermarché",
-          "retournées",
-          "deux",
-          "vendeur"
+          "Samedi matin, Camila et Léa sont retournées au marché de Tours.",
+          "Elles ont acheté deux kilos de fraises, des tomates et un fromage de chèvre.",
+          "Camila a demandé combien coûtait chaque produit et elle a comparé les prix avec ceux du supermarché.",
+          "Camila a récupéré le panier, la monnaie et le reçu, puis elle a remercié le vendeur avec un grand sourire."
         ]
       }
     ]
@@ -1544,92 +1544,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complète ce détail de l’audio.\n\n“Personne ne viendra vous chercher si vous manquez trois _____ de cours.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Documentaire : L’autonomie, pierre angulaire de l’université française » ? “Personne ne viendra vous…”",
             "options": [
               {
                 "id": "o1",
-                "text": "semaines"
+                "text": "Personne ne viendra vous chercher si vous manquez trois semaines de cours."
               },
               {
                 "id": "o2",
-                "text": "responsabilités"
+                "text": "C'est en 2007, avec la loi relative aux libertés et responsabilités des universités, que la France a engagé une transformation profonde de son enseignement supérieur, dont les effets se font encore sentir aujourd'hui dans chaque amphithéâtre du pays."
               },
               {
                 "id": "o3",
-                "text": "transformation"
+                "text": "Contrairement au lycée, où l'élève est suivi de près, encadré par des professeurs principaux et des conseils de classe réguliers, l'université repose sur un principe radicalement différent : c'est à l'étudiant lui-même qu'il revient d'organiser son travail, de solliciter de l'aide en cas de difficulté et de construire, semestre après semestre, son propre parcours au sein d'unités d'enseignement souvent peu coordonnées entre elles."
               },
               {
                 "id": "o4",
-                "text": "d'enseignement"
+                "text": "Six notions permettent de suivre le raisonnement : un amphithéâtre, une unité d’enseignement, un syllabus, l’autonomie académique, décrocher et galvanisé."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel mot complète la phrase entendue ?\n\n“Contrairement au lycée, où _____ est suivi de près, encadré par des professeurs principaux et des conseils de classe réguliers, l'université repose sur un principe radicalement différent : c'est à l'étudiant lui-même qu'il revient d'organiser son travail, de solliciter de l'aide en cas de difficulté et de construire, semestre après semestre, son propre parcours au sein d'unités d'enseignement souvent peu coordonnées entre elles.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Documentaire : L’autonomie, pierre angulaire de l’université française » ? “Contrairement au lycée où l'élève est suivi…”",
             "options": [
               {
                 "id": "o1",
-                "text": "responsabilités"
+                "text": "Personne ne viendra vous chercher si vous manquez trois semaines de cours."
               },
               {
                 "id": "o2",
-                "text": "l'élève"
+                "text": "Contrairement au lycée, où l'élève est suivi de près, encadré par des professeurs principaux et des conseils de classe réguliers, l'université repose sur un principe radicalement différent : c'est à l'étudiant lui-même qu'il revient d'organiser son travail, de solliciter de l'aide en cas de difficulté et de construire, semestre après semestre, son propre parcours au sein d'unités d'enseignement souvent peu coordonnées entre elles."
               },
               {
                 "id": "o3",
-                "text": "transformation"
+                "text": "C'est en 2007, avec la loi relative aux libertés et responsabilités des universités, que la France a engagé une transformation profonde de son enseignement supérieur, dont les effets se font encore sentir aujourd'hui dans chaque amphithéâtre du pays."
               },
               {
                 "id": "o4",
-                "text": "d'enseignement"
+                "text": "Six notions permettent de suivre le raisonnement : un amphithéâtre, une unité d’enseignement, un syllabus, l’autonomie académique, décrocher et galvanisé."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“C’est la différence entre le lycée et l’université qui _____ d’abord les nouveaux étudiants, et c’est leur autonomie que les enseignants veulent développer.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Documentaire : L’autonomie, pierre angulaire de l’université française » ? “C’est la différence entre le lycée et…”",
             "options": [
               {
                 "id": "o1",
-                "text": "responsabilités"
+                "text": "Personne ne viendra vous chercher si vous manquez trois semaines de cours."
               },
               {
                 "id": "o2",
-                "text": "Personne"
+                "text": "C'est en 2007, avec la loi relative aux libertés et responsabilités des universités, que la France a engagé une transformation profonde de son enseignement supérieur, dont les effets se font encore sentir aujourd'hui dans chaque amphithéâtre du pays."
               },
               {
                 "id": "o3",
-                "text": "déstabilise"
+                "text": "C’est la différence entre le lycée et l’université qui déstabilise d’abord les nouveaux étudiants, et c’est leur autonomie que les enseignants veulent développer."
               },
               {
                 "id": "o4",
-                "text": "chercher"
+                "text": "Contrairement au lycée, où l'élève est suivi de près, encadré par des professeurs principaux et des conseils de classe réguliers, l'université repose sur un principe radicalement différent : c'est à l'étudiant lui-même qu'il revient d'organiser son travail, de solliciter de l'aide en cas de difficulté et de construire, semestre après semestre, son propre parcours au sein d'unités d'enseignement souvent peu coordonnées entre elles."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Documentaire : L’autonomie, pierre angulaire de l’université française » ? “Ce cadre permet enfin…”",
             "options": [
               {
                 "id": "o1",
-                "text": "responsabilités"
+                "text": "Personne ne viendra vous chercher si vous manquez trois semaines de cours."
               },
               {
                 "id": "o2",
-                "text": "transformation"
+                "text": "C'est en 2007, avec la loi relative aux libertés et responsabilités des universités, que la France a engagé une transformation profonde de son enseignement supérieur, dont les effets se font encore sentir aujourd'hui dans chaque amphithéâtre du pays."
               },
               {
                 "id": "o3",
-                "text": "d'enseignement"
+                "text": "Contrairement au lycée, où l'élève est suivi de près, encadré par des professeurs principaux et des conseils de classe réguliers, l'université repose sur un principe radicalement différent : c'est à l'étudiant lui-même qu'il revient d'organiser son travail, de solliciter de l'aide en cas de difficulté et de construire, semestre après semestre, son propre parcours au sein d'unités d'enseignement souvent peu coordonnées entre elles."
               },
               {
                 "id": "o4",
-                "text": "relier"
+                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
               }
             ]
           }
@@ -1640,42 +1640,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complète ce détail de l’audio.\n\n“Personne ne viendra vous chercher si vous manquez trois _____ de cours.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Documentaire : L’autonomie, pierre angulaire de l’université française » ? “Personne ne viendra vous…”",
         "options": [
-          "semaines",
-          "responsabilités",
-          "transformation",
-          "d'enseignement"
+          "Personne ne viendra vous chercher si vous manquez trois semaines de cours.",
+          "C'est en 2007, avec la loi relative aux libertés et responsabilités des universités, que la France a engagé une transformation profonde de son enseignement supérieur, dont les effets se font encore sentir aujourd'hui dans chaque amphithéâtre du pays.",
+          "Contrairement au lycée, où l'élève est suivi de près, encadré par des professeurs principaux et des conseils de classe réguliers, l'université repose sur un principe radicalement différent : c'est à l'étudiant lui-même qu'il revient d'organiser son travail, de solliciter de l'aide en cas de difficulté et de construire, semestre après semestre, son propre parcours au sein d'unités d'enseignement souvent peu coordonnées entre elles.",
+          "Six notions permettent de suivre le raisonnement : un amphithéâtre, une unité d’enseignement, un syllabus, l’autonomie académique, décrocher et galvanisé."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel mot complète la phrase entendue ?\n\n“Contrairement au lycée, où _____ est suivi de près, encadré par des professeurs principaux et des conseils de classe réguliers, l'université repose sur un principe radicalement différent : c'est à l'étudiant lui-même qu'il revient d'organiser son travail, de solliciter de l'aide en cas de difficulté et de construire, semestre après semestre, son propre parcours au sein d'unités d'enseignement souvent peu coordonnées entre elles.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Documentaire : L’autonomie, pierre angulaire de l’université française » ? “Contrairement au lycée où l'élève est suivi…”",
         "options": [
-          "responsabilités",
-          "l'élève",
-          "transformation",
-          "d'enseignement"
+          "Personne ne viendra vous chercher si vous manquez trois semaines de cours.",
+          "Contrairement au lycée, où l'élève est suivi de près, encadré par des professeurs principaux et des conseils de classe réguliers, l'université repose sur un principe radicalement différent : c'est à l'étudiant lui-même qu'il revient d'organiser son travail, de solliciter de l'aide en cas de difficulté et de construire, semestre après semestre, son propre parcours au sein d'unités d'enseignement souvent peu coordonnées entre elles.",
+          "C'est en 2007, avec la loi relative aux libertés et responsabilités des universités, que la France a engagé une transformation profonde de son enseignement supérieur, dont les effets se font encore sentir aujourd'hui dans chaque amphithéâtre du pays.",
+          "Six notions permettent de suivre le raisonnement : un amphithéâtre, une unité d’enseignement, un syllabus, l’autonomie académique, décrocher et galvanisé."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“C’est la différence entre le lycée et l’université qui _____ d’abord les nouveaux étudiants, et c’est leur autonomie que les enseignants veulent développer.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Documentaire : L’autonomie, pierre angulaire de l’université française » ? “C’est la différence entre le lycée et…”",
         "options": [
-          "responsabilités",
-          "Personne",
-          "déstabilise",
-          "chercher"
+          "Personne ne viendra vous chercher si vous manquez trois semaines de cours.",
+          "C'est en 2007, avec la loi relative aux libertés et responsabilités des universités, que la France a engagé une transformation profonde de son enseignement supérieur, dont les effets se font encore sentir aujourd'hui dans chaque amphithéâtre du pays.",
+          "C’est la différence entre le lycée et l’université qui déstabilise d’abord les nouveaux étudiants, et c’est leur autonomie que les enseignants veulent développer.",
+          "Contrairement au lycée, où l'élève est suivi de près, encadré par des professeurs principaux et des conseils de classe réguliers, l'université repose sur un principe radicalement différent : c'est à l'étudiant lui-même qu'il revient d'organiser son travail, de solliciter de l'aide en cas de difficulté et de construire, semestre après semestre, son propre parcours au sein d'unités d'enseignement souvent peu coordonnées entre elles."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Documentaire : L’autonomie, pierre angulaire de l’université française » ? “Ce cadre permet enfin…”",
         "options": [
-          "responsabilités",
-          "transformation",
-          "d'enseignement",
-          "relier"
+          "Personne ne viendra vous chercher si vous manquez trois semaines de cours.",
+          "C'est en 2007, avec la loi relative aux libertés et responsabilités des universités, que la France a engagé une transformation profonde de son enseignement supérieur, dont les effets se font encore sentir aujourd'hui dans chaque amphithéâtre du pays.",
+          "Contrairement au lycée, où l'élève est suivi de près, encadré par des professeurs principaux et des conseils de classe réguliers, l'université repose sur un principe radicalement différent : c'est à l'étudiant lui-même qu'il revient d'organiser son travail, de solliciter de l'aide en cas de difficulté et de construire, semestre après semestre, son propre parcours au sein d'unités d'enseignement souvent peu coordonnées entre elles.",
+          "Ce cadre permet enfin de relier les faits à une décision argumentée."
         ]
       }
     ]
@@ -1810,92 +1810,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complète ce détail de l’audio.\n\n“Un jury peine parfois à distinguer une image générée d’une œuvre humaine, ce qui relance une question ancienne sous une forme _____.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Documentaire : La machine peut-elle véritablement créer ? » ? “Un jury peine parfois à distinguer une…”",
             "options": [
               {
                 "id": "o1",
-                "text": "nouvelle"
+                "text": "Un jury peine parfois à distinguer une image générée d’une œuvre humaine, ce qui relance une question ancienne sous une forme nouvelle."
               },
               {
                 "id": "o2",
-                "text": "interchangeables"
+                "text": "La question « La machine peut-elle véritablement créer ? » occupe une place centrale dans l’analyse contemporaine."
               },
               {
                 "id": "o3",
-                "text": "d’entraînement"
+                "text": "Les systèmes génératifs composent désormais des images, des textes et des musiques dont la qualité formelle trompe régulièrement des juges humains, ce qui relance une question ancienne sous une forme nouvelle : produire une œuvre plausible équivaut-il à créer ?"
               },
               {
                 "id": "o4",
-                "text": "véritablement"
+                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel mot complète la phrase entendue ?\n\n“Une _____ sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Documentaire : La machine peut-elle véritablement créer ? » ? “Une réponse sérieuse doit distinguer ce que…”",
             "options": [
               {
                 "id": "o1",
-                "text": "interchangeables"
+                "text": "Un jury peine parfois à distinguer une image générée d’une œuvre humaine, ce qui relance une question ancienne sous une forme nouvelle."
               },
               {
                 "id": "o2",
-                "text": "réponse"
+                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
               },
               {
                 "id": "o3",
-                "text": "d’entraînement"
+                "text": "La question « La machine peut-elle véritablement créer ? » occupe une place centrale dans l’analyse contemporaine."
               },
               {
                 "id": "o4",
-                "text": "véritablement"
+                "text": "Les systèmes génératifs composent désormais des images, des textes et des musiques dont la qualité formelle trompe régulièrement des juges humains, ce qui relance une question ancienne sous une forme nouvelle : produire une œuvre plausible équivaut-il à créer ?"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Il semblerait qu’un modèle génératif _____ une œuvre plausible, mais il ne pourrait s’agir de créativité au sens plein que si un choix humain substantiel demeurait décelable.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Documentaire : La machine peut-elle véritablement créer ? » ? “Il semblerait qu’un modèle génératif produise une…”",
             "options": [
               {
                 "id": "o1",
-                "text": "interchangeables"
+                "text": "Un jury peine parfois à distinguer une image générée d’une œuvre humaine, ce qui relance une question ancienne sous une forme nouvelle."
               },
               {
                 "id": "o2",
-                "text": "d’entraînement"
+                "text": "La question « La machine peut-elle véritablement créer ? » occupe une place centrale dans l’analyse contemporaine."
               },
               {
                 "id": "o3",
-                "text": "produise"
+                "text": "Il semblerait qu’un modèle génératif produise une œuvre plausible, mais il ne pourrait s’agir de créativité au sens plein que si un choix humain substantiel demeurait décelable."
               },
               {
                 "id": "o4",
-                "text": "véritablement"
+                "text": "Les systèmes génératifs composent désormais des images, des textes et des musiques dont la qualité formelle trompe régulièrement des juges humains, ce qui relance une question ancienne sous une forme nouvelle : produire une œuvre plausible équivaut-il à créer ?"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Documentaire : La machine peut-elle véritablement créer ? » ? “Ce cadre permet enfin…”",
             "options": [
               {
                 "id": "o1",
-                "text": "interchangeables"
+                "text": "Un jury peine parfois à distinguer une image générée d’une œuvre humaine, ce qui relance une question ancienne sous une forme nouvelle."
               },
               {
                 "id": "o2",
-                "text": "d’entraînement"
+                "text": "La question « La machine peut-elle véritablement créer ? » occupe une place centrale dans l’analyse contemporaine."
               },
               {
                 "id": "o3",
-                "text": "véritablement"
+                "text": "Les systèmes génératifs composent désormais des images, des textes et des musiques dont la qualité formelle trompe régulièrement des juges humains, ce qui relance une question ancienne sous une forme nouvelle : produire une œuvre plausible équivaut-il à créer ?"
               },
               {
                 "id": "o4",
-                "text": "relier"
+                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
               }
             ]
           }
@@ -1906,42 +1906,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complète ce détail de l’audio.\n\n“Un jury peine parfois à distinguer une image générée d’une œuvre humaine, ce qui relance une question ancienne sous une forme _____.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Documentaire : La machine peut-elle véritablement créer ? » ? “Un jury peine parfois à distinguer une…”",
         "options": [
-          "nouvelle",
-          "interchangeables",
-          "d’entraînement",
-          "véritablement"
+          "Un jury peine parfois à distinguer une image générée d’une œuvre humaine, ce qui relance une question ancienne sous une forme nouvelle.",
+          "La question « La machine peut-elle véritablement créer ? » occupe une place centrale dans l’analyse contemporaine.",
+          "Les systèmes génératifs composent désormais des images, des textes et des musiques dont la qualité formelle trompe régulièrement des juges humains, ce qui relance une question ancienne sous une forme nouvelle : produire une œuvre plausible équivaut-il à créer ?",
+          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel mot complète la phrase entendue ?\n\n“Une _____ sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Documentaire : La machine peut-elle véritablement créer ? » ? “Une réponse sérieuse doit distinguer ce que…”",
         "options": [
-          "interchangeables",
-          "réponse",
-          "d’entraînement",
-          "véritablement"
+          "Un jury peine parfois à distinguer une image générée d’une œuvre humaine, ce qui relance une question ancienne sous une forme nouvelle.",
+          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.",
+          "La question « La machine peut-elle véritablement créer ? » occupe une place centrale dans l’analyse contemporaine.",
+          "Les systèmes génératifs composent désormais des images, des textes et des musiques dont la qualité formelle trompe régulièrement des juges humains, ce qui relance une question ancienne sous une forme nouvelle : produire une œuvre plausible équivaut-il à créer ?"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Il semblerait qu’un modèle génératif _____ une œuvre plausible, mais il ne pourrait s’agir de créativité au sens plein que si un choix humain substantiel demeurait décelable.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Documentaire : La machine peut-elle véritablement créer ? » ? “Il semblerait qu’un modèle génératif produise une…”",
         "options": [
-          "interchangeables",
-          "d’entraînement",
-          "produise",
-          "véritablement"
+          "Un jury peine parfois à distinguer une image générée d’une œuvre humaine, ce qui relance une question ancienne sous une forme nouvelle.",
+          "La question « La machine peut-elle véritablement créer ? » occupe une place centrale dans l’analyse contemporaine.",
+          "Il semblerait qu’un modèle génératif produise une œuvre plausible, mais il ne pourrait s’agir de créativité au sens plein que si un choix humain substantiel demeurait décelable.",
+          "Les systèmes génératifs composent désormais des images, des textes et des musiques dont la qualité formelle trompe régulièrement des juges humains, ce qui relance une question ancienne sous une forme nouvelle : produire une œuvre plausible équivaut-il à créer ?"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Documentaire : La machine peut-elle véritablement créer ? » ? “Ce cadre permet enfin…”",
         "options": [
-          "interchangeables",
-          "d’entraînement",
-          "véritablement",
-          "relier"
+          "Un jury peine parfois à distinguer une image générée d’une œuvre humaine, ce qui relance une question ancienne sous une forme nouvelle.",
+          "La question « La machine peut-elle véritablement créer ? » occupe une place centrale dans l’analyse contemporaine.",
+          "Les systèmes génératifs composent désormais des images, des textes et des musiques dont la qualité formelle trompe régulièrement des juges humains, ce qui relance une question ancienne sous une forme nouvelle : produire une œuvre plausible équivaut-il à créer ?",
+          "Ce cadre permet enfin de relier les faits à une décision argumentée."
         ]
       }
     ]
@@ -2040,92 +2040,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complète ce détail de l’audio.\n\n“Bienvenue dans notre podcast consacré aux projets _____.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Choisir son prochain projet » ? “Bienvenue dans notre…”",
             "options": [
               {
                 "id": "o1",
-                "text": "d’avenir"
+                "text": "Bienvenue dans notre podcast consacré aux projets d’avenir."
               },
               {
                 "id": "o2",
-                "text": "professionnel"
+                "text": "Aujourd’hui, je vous propose une méthode simple pour prendre une décision importante."
               },
               {
                 "id": "o3",
-                "text": "accordez-vous"
+                "text": "Commencez par noter votre objectif principal, puis observez les avantages et les difficultés de chaque possibilité."
               },
               {
                 "id": "o4",
-                "text": "développerez"
+                "text": "Si vous choisissez une formation, vous développerez peut-être de nouvelles compétences, mais vous devrez organiser votre temps."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel mot complète la phrase entendue ?\n\n“Si vous choisissez une _____, vous développerez peut-être de nouvelles compétences, mais vous devrez organiser votre temps.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Choisir son prochain projet » ? “Si vous choisissez une formation vous…”",
             "options": [
               {
                 "id": "o1",
-                "text": "professionnel"
+                "text": "Bienvenue dans notre podcast consacré aux projets d’avenir."
               },
               {
                 "id": "o2",
-                "text": "formation"
+                "text": "Si vous choisissez une formation, vous développerez peut-être de nouvelles compétences, mais vous devrez organiser votre temps."
               },
               {
                 "id": "o3",
-                "text": "accordez-vous"
+                "text": "Aujourd’hui, je vous propose une méthode simple pour prendre une décision importante."
               },
               {
                 "id": "o4",
-                "text": "simple"
+                "text": "Commencez par noter votre objectif principal, puis observez les avantages et les difficultés de chaque possibilité."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Parlez avec des personnes de confiance, _____ des informations précises et accordez-vous un délai.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Choisir son prochain projet » ? “Parlez avec des personnes de…”",
             "options": [
               {
                 "id": "o1",
-                "text": "professionnel"
+                "text": "Bienvenue dans notre podcast consacré aux projets d’avenir."
               },
               {
                 "id": "o2",
-                "text": "accordez-vous"
+                "text": "Aujourd’hui, je vous propose une méthode simple pour prendre une décision importante."
               },
               {
                 "id": "o3",
-                "text": "cherchez"
+                "text": "Parlez avec des personnes de confiance, cherchez des informations précises et accordez-vous un délai."
               },
               {
                 "id": "o4",
-                "text": "développerez"
+                "text": "Commencez par noter votre objectif principal, puis observez les avantages et les difficultés de chaque possibilité."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“L’avenir n’est pas toujours prévisible, mais un choix réfléchi permet de _____ avec plus de confiance.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Choisir son prochain projet » ? “L’avenir n’est pas toujours prévisible mais…”",
             "options": [
               {
                 "id": "o1",
-                "text": "professionnel"
+                "text": "Bienvenue dans notre podcast consacré aux projets d’avenir."
               },
               {
                 "id": "o2",
-                "text": "accordez-vous"
+                "text": "Aujourd’hui, je vous propose une méthode simple pour prendre une décision importante."
               },
               {
                 "id": "o3",
-                "text": "simple"
+                "text": "Commencez par noter votre objectif principal, puis observez les avantages et les difficultés de chaque possibilité."
               },
               {
                 "id": "o4",
-                "text": "commencer"
+                "text": "L’avenir n’est pas toujours prévisible, mais un choix réfléchi permet de commencer avec plus de confiance."
               }
             ]
           }
@@ -2136,42 +2136,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complète ce détail de l’audio.\n\n“Bienvenue dans notre podcast consacré aux projets _____.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Choisir son prochain projet » ? “Bienvenue dans notre…”",
         "options": [
-          "d’avenir",
-          "professionnel",
-          "accordez-vous",
-          "développerez"
+          "Bienvenue dans notre podcast consacré aux projets d’avenir.",
+          "Aujourd’hui, je vous propose une méthode simple pour prendre une décision importante.",
+          "Commencez par noter votre objectif principal, puis observez les avantages et les difficultés de chaque possibilité.",
+          "Si vous choisissez une formation, vous développerez peut-être de nouvelles compétences, mais vous devrez organiser votre temps."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel mot complète la phrase entendue ?\n\n“Si vous choisissez une _____, vous développerez peut-être de nouvelles compétences, mais vous devrez organiser votre temps.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Choisir son prochain projet » ? “Si vous choisissez une formation vous…”",
         "options": [
-          "professionnel",
-          "formation",
-          "accordez-vous",
-          "simple"
+          "Bienvenue dans notre podcast consacré aux projets d’avenir.",
+          "Si vous choisissez une formation, vous développerez peut-être de nouvelles compétences, mais vous devrez organiser votre temps.",
+          "Aujourd’hui, je vous propose une méthode simple pour prendre une décision importante.",
+          "Commencez par noter votre objectif principal, puis observez les avantages et les difficultés de chaque possibilité."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Parlez avec des personnes de confiance, _____ des informations précises et accordez-vous un délai.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Choisir son prochain projet » ? “Parlez avec des personnes de…”",
         "options": [
-          "professionnel",
-          "accordez-vous",
-          "cherchez",
-          "développerez"
+          "Bienvenue dans notre podcast consacré aux projets d’avenir.",
+          "Aujourd’hui, je vous propose une méthode simple pour prendre une décision importante.",
+          "Parlez avec des personnes de confiance, cherchez des informations précises et accordez-vous un délai.",
+          "Commencez par noter votre objectif principal, puis observez les avantages et les difficultés de chaque possibilité."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“L’avenir n’est pas toujours prévisible, mais un choix réfléchi permet de _____ avec plus de confiance.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Choisir son prochain projet » ? “L’avenir n’est pas toujours prévisible mais…”",
         "options": [
-          "professionnel",
-          "accordez-vous",
-          "simple",
-          "commencer"
+          "Bienvenue dans notre podcast consacré aux projets d’avenir.",
+          "Aujourd’hui, je vous propose une méthode simple pour prendre une décision importante.",
+          "Commencez par noter votre objectif principal, puis observez les avantages et les difficultés de chaque possibilité.",
+          "L’avenir n’est pas toujours prévisible, mais un choix réfléchi permet de commencer avec plus de confiance."
         ]
       }
     ]
@@ -2290,92 +2290,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complète ce détail de l’audio.\n\n“Quand mon avion a atterri à Saint-Domingue, j’ai ressenti une joie immédiate, mais aussi une étrange _____.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Le retour que j’avais imaginé » ? “Quand mon avion a atterri à…”",
             "options": [
               {
                 "id": "o1",
-                "text": "inquiétude"
+                "text": "Quand mon avion a atterri à Saint-Domingue, j’ai ressenti une joie immédiate, mais aussi une étrange inquiétude."
               },
               {
                 "id": "o2",
-                "text": "Saint-Domingue"
+                "text": "J’avais imaginé ces retrouvailles pendant des mois."
               },
               {
                 "id": "o3",
-                "text": "atterri"
+                "text": "Ma famille avait préparé un repas, mes amis avaient organisé une surprise et j’avais même dressé la liste des lieux que je voulais revoir."
               },
               {
                 "id": "o4",
-                "text": "étrange"
+                "text": "Pourtant, dès les premiers jours, j’ai compris que le retour ne serait pas aussi simple."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel mot complète la phrase entendue ?\n\n“Pourtant, dès les _____ jours, j’ai compris que le retour ne serait pas aussi simple.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Le retour que j’avais imaginé » ? “Pourtant dès les premiers jours…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Saint-Domingue"
+                "text": "Quand mon avion a atterri à Saint-Domingue, j’ai ressenti une joie immédiate, mais aussi une étrange inquiétude."
               },
               {
                 "id": "o2",
-                "text": "premiers"
+                "text": "Pourtant, dès les premiers jours, j’ai compris que le retour ne serait pas aussi simple."
               },
               {
                 "id": "o3",
-                "text": "retrouvailles"
+                "text": "J’avais imaginé ces retrouvailles pendant des mois."
               },
               {
                 "id": "o4",
-                "text": "conversations"
+                "text": "Ma famille avait préparé un repas, mes amis avaient organisé une surprise et j’avais même dressé la liste des lieux que je voulais revoir."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Ce mal du pays inversé m’a obligée à m’adapter une _____ fois.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Le retour que j’avais imaginé » ? “Ce mal du pays…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Saint-Domingue"
+                "text": "Quand mon avion a atterri à Saint-Domingue, j’ai ressenti une joie immédiate, mais aussi une étrange inquiétude."
               },
               {
                 "id": "o2",
-                "text": "retrouvailles"
+                "text": "J’avais imaginé ces retrouvailles pendant des mois."
               },
               {
                 "id": "o3",
-                "text": "nouvelle"
+                "text": "Ce mal du pays inversé m’a obligée à m’adapter une nouvelle fois."
               },
               {
                 "id": "o4",
-                "text": "conversations"
+                "text": "Ma famille avait préparé un repas, mes amis avaient organisé une surprise et j’avais même dressé la liste des lieux que je voulais revoir."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Mes expériences s’étaient ajoutées les unes aux autres et _____ maintenant une identité plus large.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Le retour que j’avais imaginé » ? “Mes expériences s’étaient ajoutées les…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Saint-Domingue"
+                "text": "Quand mon avion a atterri à Saint-Domingue, j’ai ressenti une joie immédiate, mais aussi une étrange inquiétude."
               },
               {
                 "id": "o2",
-                "text": "retrouvailles"
+                "text": "J’avais imaginé ces retrouvailles pendant des mois."
               },
               {
                 "id": "o3",
-                "text": "conversations"
+                "text": "Ma famille avait préparé un repas, mes amis avaient organisé une surprise et j’avais même dressé la liste des lieux que je voulais revoir."
               },
               {
                 "id": "o4",
-                "text": "formaient"
+                "text": "Mes expériences s’étaient ajoutées les unes aux autres et formaient maintenant une identité plus large."
               }
             ]
           }
@@ -2386,42 +2386,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complète ce détail de l’audio.\n\n“Quand mon avion a atterri à Saint-Domingue, j’ai ressenti une joie immédiate, mais aussi une étrange _____.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Le retour que j’avais imaginé » ? “Quand mon avion a atterri à…”",
         "options": [
-          "inquiétude",
-          "Saint-Domingue",
-          "atterri",
-          "étrange"
+          "Quand mon avion a atterri à Saint-Domingue, j’ai ressenti une joie immédiate, mais aussi une étrange inquiétude.",
+          "J’avais imaginé ces retrouvailles pendant des mois.",
+          "Ma famille avait préparé un repas, mes amis avaient organisé une surprise et j’avais même dressé la liste des lieux que je voulais revoir.",
+          "Pourtant, dès les premiers jours, j’ai compris que le retour ne serait pas aussi simple."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel mot complète la phrase entendue ?\n\n“Pourtant, dès les _____ jours, j’ai compris que le retour ne serait pas aussi simple.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Le retour que j’avais imaginé » ? “Pourtant dès les premiers jours…”",
         "options": [
-          "Saint-Domingue",
-          "premiers",
-          "retrouvailles",
-          "conversations"
+          "Quand mon avion a atterri à Saint-Domingue, j’ai ressenti une joie immédiate, mais aussi une étrange inquiétude.",
+          "Pourtant, dès les premiers jours, j’ai compris que le retour ne serait pas aussi simple.",
+          "J’avais imaginé ces retrouvailles pendant des mois.",
+          "Ma famille avait préparé un repas, mes amis avaient organisé une surprise et j’avais même dressé la liste des lieux que je voulais revoir."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Ce mal du pays inversé m’a obligée à m’adapter une _____ fois.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Le retour que j’avais imaginé » ? “Ce mal du pays…”",
         "options": [
-          "Saint-Domingue",
-          "retrouvailles",
-          "nouvelle",
-          "conversations"
+          "Quand mon avion a atterri à Saint-Domingue, j’ai ressenti une joie immédiate, mais aussi une étrange inquiétude.",
+          "J’avais imaginé ces retrouvailles pendant des mois.",
+          "Ce mal du pays inversé m’a obligée à m’adapter une nouvelle fois.",
+          "Ma famille avait préparé un repas, mes amis avaient organisé une surprise et j’avais même dressé la liste des lieux que je voulais revoir."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Mes expériences s’étaient ajoutées les unes aux autres et _____ maintenant une identité plus large.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Le retour que j’avais imaginé » ? “Mes expériences s’étaient ajoutées les…”",
         "options": [
-          "Saint-Domingue",
-          "retrouvailles",
-          "conversations",
-          "formaient"
+          "Quand mon avion a atterri à Saint-Domingue, j’ai ressenti une joie immédiate, mais aussi une étrange inquiétude.",
+          "J’avais imaginé ces retrouvailles pendant des mois.",
+          "Ma famille avait préparé un repas, mes amis avaient organisé une surprise et j’avais même dressé la liste des lieux que je voulais revoir.",
+          "Mes expériences s’étaient ajoutées les unes aux autres et formaient maintenant une identité plus large."
         ]
       }
     ]
@@ -6985,92 +6985,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complète ce détail de l’audio.\n\n“Je m’appelle Camila Rodríguez et j’ai _____ ans.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Ma présentation » ? “Je m’appelle Camila…”",
             "options": [
               {
                 "id": "o1",
-                "text": "dix-huit"
+                "text": "Je m’appelle Camila Rodríguez et j’ai dix-huit ans."
               },
               {
                 "id": "o2",
-                "text": "dominicaine"
+                "text": "Je suis dominicaine et j’habite maintenant à Tours."
               },
               {
                 "id": "o3",
-                "text": "Tours"
+                "text": "Je ne suis pas française, mais j’aime beaucoup la France."
               },
               {
                 "id": "o4",
-                "text": "parle"
+                "text": "Je parle espagnol et un peu anglais."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel mot complète la phrase entendue ?\n\n“Je ne suis pas française, mais _____ beaucoup la France.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Ma présentation » ? “Je ne suis pas…”",
             "options": [
               {
                 "id": "o1",
-                "text": "dominicaine"
+                "text": "Je m’appelle Camila Rodríguez et j’ai dix-huit ans."
               },
               {
                 "id": "o2",
-                "text": "j’aime"
+                "text": "Je ne suis pas française, mais j’aime beaucoup la France."
               },
               {
                 "id": "o3",
-                "text": "vocabulaire"
+                "text": "Je suis dominicaine et j’habite maintenant à Tours."
               },
               {
                 "id": "o4",
-                "text": "communiquer"
+                "text": "Je parle espagnol et un peu anglais."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Je suis _____ et je suis une personne calme et curieuse.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Ma présentation » ? “Je suis étudiante et…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Camila"
+                "text": "Je m’appelle Camila Rodríguez et j’ai dix-huit ans."
               },
               {
                 "id": "o2",
-                "text": "j’aime"
+                "text": "Je suis dominicaine et j’habite maintenant à Tours."
               },
               {
                 "id": "o3",
-                "text": "étudiante"
+                "text": "Je suis étudiante et je suis une personne calme et curieuse."
               },
               {
                 "id": "o4",
-                "text": "France"
+                "text": "Je ne suis pas française, mais j’aime beaucoup la France."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Mon objectif est simple : je veux parler français pour _____ avec de nouvelles personnes et mieux découvrir la culture française.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Ma présentation » ? “Mon objectif est simple je veux parler…”",
             "options": [
               {
                 "id": "o1",
-                "text": "dix-huit"
+                "text": "Je m’appelle Camila Rodríguez et j’ai dix-huit ans."
               },
               {
                 "id": "o2",
-                "text": "j’habite"
+                "text": "Je suis dominicaine et j’habite maintenant à Tours."
               },
               {
                 "id": "o3",
-                "text": "beaucoup"
+                "text": "Je ne suis pas française, mais j’aime beaucoup la France."
               },
               {
                 "id": "o4",
-                "text": "communiquer"
+                "text": "Mon objectif est simple : je veux parler français pour communiquer avec de nouvelles personnes et mieux découvrir la culture française."
               }
             ]
           }
@@ -7081,42 +7081,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complète ce détail de l’audio.\n\n“Je m’appelle Camila Rodríguez et j’ai _____ ans.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Ma présentation » ? “Je m’appelle Camila…”",
         "options": [
-          "dix-huit",
-          "dominicaine",
-          "Tours",
-          "parle"
+          "Je m’appelle Camila Rodríguez et j’ai dix-huit ans.",
+          "Je suis dominicaine et j’habite maintenant à Tours.",
+          "Je ne suis pas française, mais j’aime beaucoup la France.",
+          "Je parle espagnol et un peu anglais."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel mot complète la phrase entendue ?\n\n“Je ne suis pas française, mais _____ beaucoup la France.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Ma présentation » ? “Je ne suis pas…”",
         "options": [
-          "dominicaine",
-          "j’aime",
-          "vocabulaire",
-          "communiquer"
+          "Je m’appelle Camila Rodríguez et j’ai dix-huit ans.",
+          "Je ne suis pas française, mais j’aime beaucoup la France.",
+          "Je suis dominicaine et j’habite maintenant à Tours.",
+          "Je parle espagnol et un peu anglais."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Je suis _____ et je suis une personne calme et curieuse.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Ma présentation » ? “Je suis étudiante et…”",
         "options": [
-          "Camila",
-          "j’aime",
-          "étudiante",
-          "France"
+          "Je m’appelle Camila Rodríguez et j’ai dix-huit ans.",
+          "Je suis dominicaine et j’habite maintenant à Tours.",
+          "Je suis étudiante et je suis une personne calme et curieuse.",
+          "Je ne suis pas française, mais j’aime beaucoup la France."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Mon objectif est simple : je veux parler français pour _____ avec de nouvelles personnes et mieux découvrir la culture française.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Ma présentation » ? “Mon objectif est simple je veux parler…”",
         "options": [
-          "dix-huit",
-          "j’habite",
-          "beaucoup",
-          "communiquer"
+          "Je m’appelle Camila Rodríguez et j’ai dix-huit ans.",
+          "Je suis dominicaine et j’habite maintenant à Tours.",
+          "Je ne suis pas française, mais j’aime beaucoup la France.",
+          "Mon objectif est simple : je veux parler français pour communiquer avec de nouvelles personnes et mieux découvrir la culture française."
         ]
       }
     ]
@@ -7195,92 +7195,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complète ce détail de l’audio.\n\n“Pour l’anniversaire de Léa, Monsieur Lambert a réservé une table au Petit _____.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Une surprise pour Léa » ? “Pour l’anniversaire de Léa Monsieur…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Jardin"
+                "text": "Pour l’anniversaire de Léa, Monsieur Lambert a réservé une table au Petit Jardin."
               },
               {
                 "id": "o2",
-                "text": "l’anniversaire"
+                "text": "À vingt heures, le restaurant était complet, alors la famille a dû accepter une table à vingt et une heures trente."
               },
               {
                 "id": "o3",
-                "text": "Pourriez-vous"
+                "text": "Le serveur leur a apporté la carte et a expliqué qu’il fallait goûter les pâtes maison."
               },
               {
                 "id": "o4",
-                "text": "restaurant"
+                "text": "Camila ne mange jamais de poisson et Karim ne voulait plus de pizza, alors ils ont choisi deux plats différents."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel mot complète la phrase entendue ?\n\n“Le serveur leur a _____ la carte et a expliqué qu’il fallait goûter les pâtes maison.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Une surprise pour Léa » ? “Le serveur leur a apporté la…”",
             "options": [
               {
                 "id": "o1",
-                "text": "l’anniversaire"
+                "text": "Pour l’anniversaire de Léa, Monsieur Lambert a réservé une table au Petit Jardin."
               },
               {
                 "id": "o2",
-                "text": "apporté"
+                "text": "Le serveur leur a apporté la carte et a expliqué qu’il fallait goûter les pâtes maison."
               },
               {
                 "id": "o3",
-                "text": "Pourriez-vous"
+                "text": "À vingt heures, le restaurant était complet, alors la famille a dû accepter une table à vingt et une heures trente."
               },
               {
                 "id": "o4",
-                "text": "restaurant"
+                "text": "Camila ne mange jamais de poisson et Karim ne voulait plus de pizza, alors ils ont choisi deux plats différents."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Le serveur n’a rien oublié : il a rapporté la soupe _____, puis un dessert avec une bougie.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Une surprise pour Léa » ? “Le serveur n’a rien oublié il…”",
             "options": [
               {
                 "id": "o1",
-                "text": "l’anniversaire"
+                "text": "Pour l’anniversaire de Léa, Monsieur Lambert a réservé une table au Petit Jardin."
               },
               {
                 "id": "o2",
-                "text": "Pourriez-vous"
+                "text": "À vingt heures, le restaurant était complet, alors la famille a dû accepter une table à vingt et une heures trente."
               },
               {
                 "id": "o3",
-                "text": "chaude"
+                "text": "Le serveur n’a rien oublié : il a rapporté la soupe chaude, puis un dessert avec une bougie."
               },
               {
                 "id": "o4",
-                "text": "restaurant"
+                "text": "Le serveur leur a apporté la carte et a expliqué qu’il fallait goûter les pâtes maison."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Quand la soupe de Camila est arrivée froide, elle a demandé _____ : « Pourriez-vous la réchauffer ? » Le serveur n’a rien oublié : il a rapporté la soupe chaude, puis un dessert avec une bougie.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Une surprise pour Léa » ? “Quand la soupe de Camila est arrivée…”",
             "options": [
               {
                 "id": "o1",
-                "text": "l’anniversaire"
+                "text": "Pour l’anniversaire de Léa, Monsieur Lambert a réservé une table au Petit Jardin."
               },
               {
                 "id": "o2",
-                "text": "Pourriez-vous"
+                "text": "À vingt heures, le restaurant était complet, alors la famille a dû accepter une table à vingt et une heures trente."
               },
               {
                 "id": "o3",
-                "text": "table"
+                "text": "Le serveur leur a apporté la carte et a expliqué qu’il fallait goûter les pâtes maison."
               },
               {
                 "id": "o4",
-                "text": "poliment"
+                "text": "Quand la soupe de Camila est arrivée froide, elle a demandé poliment : « Pourriez-vous la réchauffer ? » Le serveur n’a rien oublié : il a rapporté la soupe chaude, puis un dessert avec une bougie."
               }
             ]
           }
@@ -7291,42 +7291,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complète ce détail de l’audio.\n\n“Pour l’anniversaire de Léa, Monsieur Lambert a réservé une table au Petit _____.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Une surprise pour Léa » ? “Pour l’anniversaire de Léa Monsieur…”",
         "options": [
-          "Jardin",
-          "l’anniversaire",
-          "Pourriez-vous",
-          "restaurant"
+          "Pour l’anniversaire de Léa, Monsieur Lambert a réservé une table au Petit Jardin.",
+          "À vingt heures, le restaurant était complet, alors la famille a dû accepter une table à vingt et une heures trente.",
+          "Le serveur leur a apporté la carte et a expliqué qu’il fallait goûter les pâtes maison.",
+          "Camila ne mange jamais de poisson et Karim ne voulait plus de pizza, alors ils ont choisi deux plats différents."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel mot complète la phrase entendue ?\n\n“Le serveur leur a _____ la carte et a expliqué qu’il fallait goûter les pâtes maison.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Une surprise pour Léa » ? “Le serveur leur a apporté la…”",
         "options": [
-          "l’anniversaire",
-          "apporté",
-          "Pourriez-vous",
-          "restaurant"
+          "Pour l’anniversaire de Léa, Monsieur Lambert a réservé une table au Petit Jardin.",
+          "Le serveur leur a apporté la carte et a expliqué qu’il fallait goûter les pâtes maison.",
+          "À vingt heures, le restaurant était complet, alors la famille a dû accepter une table à vingt et une heures trente.",
+          "Camila ne mange jamais de poisson et Karim ne voulait plus de pizza, alors ils ont choisi deux plats différents."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Le serveur n’a rien oublié : il a rapporté la soupe _____, puis un dessert avec une bougie.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Une surprise pour Léa » ? “Le serveur n’a rien oublié il…”",
         "options": [
-          "l’anniversaire",
-          "Pourriez-vous",
-          "chaude",
-          "restaurant"
+          "Pour l’anniversaire de Léa, Monsieur Lambert a réservé une table au Petit Jardin.",
+          "À vingt heures, le restaurant était complet, alors la famille a dû accepter une table à vingt et une heures trente.",
+          "Le serveur n’a rien oublié : il a rapporté la soupe chaude, puis un dessert avec une bougie.",
+          "Le serveur leur a apporté la carte et a expliqué qu’il fallait goûter les pâtes maison."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Quand la soupe de Camila est arrivée froide, elle a demandé _____ : « Pourriez-vous la réchauffer ? » Le serveur n’a rien oublié : il a rapporté la soupe chaude, puis un dessert avec une bougie.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Une surprise pour Léa » ? “Quand la soupe de Camila est arrivée…”",
         "options": [
-          "l’anniversaire",
-          "Pourriez-vous",
-          "table",
-          "poliment"
+          "Pour l’anniversaire de Léa, Monsieur Lambert a réservé une table au Petit Jardin.",
+          "À vingt heures, le restaurant était complet, alors la famille a dû accepter une table à vingt et une heures trente.",
+          "Le serveur leur a apporté la carte et a expliqué qu’il fallait goûter les pâtes maison.",
+          "Quand la soupe de Camila est arrivée froide, elle a demandé poliment : « Pourriez-vous la réchauffer ? » Le serveur n’a rien oublié : il a rapporté la soupe chaude, puis un dessert avec une bougie."
         ]
       }
     ]
@@ -7446,92 +7446,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complète ce détail de l’audio.\n\n“Un mot, deux syllabes, et pourtant des siècles de préjugés à déconstruire : c'est ainsi que l'on pourrait résumer, en une phrase, l'histoire des langues créoles _____.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Podcast : Créoles caribéens : d’une langue de la plantation à une langue de la nation » ? “Un mot deux syllabes et pourtant des…”",
             "options": [
               {
                 "id": "o1",
-                "text": "caribéennes"
+                "text": "Un mot, deux syllabes, et pourtant des siècles de préjugés à déconstruire : c'est ainsi que l'on pourrait résumer, en une phrase, l'histoire des langues créoles caribéennes."
               },
               {
                 "id": "o2",
-                "text": "interdisciplinaire"
+                "text": "C'est au cours des dix-septième et dix-huitième siècles, sur les habitations sucrières des Caraïbes, que sont nés les créoles à base lexicale française, notamment en Haïti, en Guadeloupe, en Martinique et dans les Petites Antilles."
               },
               {
                 "id": "o3",
-                "text": "syllabes"
+                "text": "Confrontées à un français administratif qu'elles ne maîtrisaient pas et entre elles souvent dépourvues d'une langue commune, les populations réduites en esclavage ont élaboré des systèmes linguistiques nouveaux, empruntant leur lexique en grande partie au français tout en développant une grammaire propre, largement influencée par les langues d'Afrique de l'Ouest."
               },
               {
                 "id": "o4",
-                "text": "pourtant"
+                "text": "Six notions permettent de suivre le raisonnement : une soutenance, la diversité linguistique, un consensus, une problématique, interdisciplinaire et univoque."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel mot complète la phrase entendue ?\n\n“Confrontées à un _____ administratif qu'elles ne maîtrisaient pas et entre elles souvent dépourvues d'une langue commune, les populations réduites en esclavage ont élaboré des systèmes linguistiques nouveaux, empruntant leur lexique en grande partie au français tout en développant une grammaire propre, largement influencée par les langues d'Afrique de l'Ouest.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Podcast : Créoles caribéens : d’une langue de la plantation à une langue de la nation » ? “Confrontées à un français administratif qu'elles ne…”",
             "options": [
               {
                 "id": "o1",
-                "text": "interdisciplinaire"
+                "text": "Un mot, deux syllabes, et pourtant des siècles de préjugés à déconstruire : c'est ainsi que l'on pourrait résumer, en une phrase, l'histoire des langues créoles caribéennes."
               },
               {
                 "id": "o2",
-                "text": "français"
+                "text": "Confrontées à un français administratif qu'elles ne maîtrisaient pas et entre elles souvent dépourvues d'une langue commune, les populations réduites en esclavage ont élaboré des systèmes linguistiques nouveaux, empruntant leur lexique en grande partie au français tout en développant une grammaire propre, largement influencée par les langues d'Afrique de l'Ouest."
               },
               {
                 "id": "o3",
-                "text": "administratif"
+                "text": "C'est au cours des dix-septième et dix-huitième siècles, sur les habitations sucrières des Caraïbes, que sont nés les créoles à base lexicale française, notamment en Haïti, en Guadeloupe, en Martinique et dans les Petites Antilles."
               },
               {
                 "id": "o4",
-                "text": "linguistiques"
+                "text": "Six notions permettent de suivre le raisonnement : une soutenance, la diversité linguistique, un consensus, une problématique, interdisciplinaire et univoque."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Le professeur avait répondu que la diversité des _____ enrichissait la problématique et il avait ajouté que le groupe trouverait un consensus.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Podcast : Créoles caribéens : d’une langue de la plantation à une langue de la nation » ? “Le professeur avait répondu que la diversité…”",
             "options": [
               {
                 "id": "o1",
-                "text": "interdisciplinaire"
+                "text": "Un mot, deux syllabes, et pourtant des siècles de préjugés à déconstruire : c'est ainsi que l'on pourrait résumer, en une phrase, l'histoire des langues créoles caribéennes."
               },
               {
                 "id": "o2",
-                "text": "administratif"
+                "text": "C'est au cours des dix-septième et dix-huitième siècles, sur les habitations sucrières des Caraïbes, que sont nés les créoles à base lexicale française, notamment en Haïti, en Guadeloupe, en Martinique et dans les Petites Antilles."
               },
               {
                 "id": "o3",
-                "text": "approches"
+                "text": "Le professeur avait répondu que la diversité des approches enrichissait la problématique et il avait ajouté que le groupe trouverait un consensus."
               },
               {
                 "id": "o4",
-                "text": "linguistiques"
+                "text": "Confrontées à un français administratif qu'elles ne maîtrisaient pas et entre elles souvent dépourvues d'une langue commune, les populations réduites en esclavage ont élaboré des systèmes linguistiques nouveaux, empruntant leur lexique en grande partie au français tout en développant une grammaire propre, largement influencée par les langues d'Afrique de l'Ouest."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Podcast : Créoles caribéens : d’une langue de la plantation à une langue de la nation » ? “Ce cadre permet enfin…”",
             "options": [
               {
                 "id": "o1",
-                "text": "interdisciplinaire"
+                "text": "Un mot, deux syllabes, et pourtant des siècles de préjugés à déconstruire : c'est ainsi que l'on pourrait résumer, en une phrase, l'histoire des langues créoles caribéennes."
               },
               {
                 "id": "o2",
-                "text": "administratif"
+                "text": "C'est au cours des dix-septième et dix-huitième siècles, sur les habitations sucrières des Caraïbes, que sont nés les créoles à base lexicale française, notamment en Haïti, en Guadeloupe, en Martinique et dans les Petites Antilles."
               },
               {
                 "id": "o3",
-                "text": "linguistiques"
+                "text": "Confrontées à un français administratif qu'elles ne maîtrisaient pas et entre elles souvent dépourvues d'une langue commune, les populations réduites en esclavage ont élaboré des systèmes linguistiques nouveaux, empruntant leur lexique en grande partie au français tout en développant une grammaire propre, largement influencée par les langues d'Afrique de l'Ouest."
               },
               {
                 "id": "o4",
-                "text": "relier"
+                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
               }
             ]
           }
@@ -7542,42 +7542,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complète ce détail de l’audio.\n\n“Un mot, deux syllabes, et pourtant des siècles de préjugés à déconstruire : c'est ainsi que l'on pourrait résumer, en une phrase, l'histoire des langues créoles _____.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Podcast : Créoles caribéens : d’une langue de la plantation à une langue de la nation » ? “Un mot deux syllabes et pourtant des…”",
         "options": [
-          "caribéennes",
-          "interdisciplinaire",
-          "syllabes",
-          "pourtant"
+          "Un mot, deux syllabes, et pourtant des siècles de préjugés à déconstruire : c'est ainsi que l'on pourrait résumer, en une phrase, l'histoire des langues créoles caribéennes.",
+          "C'est au cours des dix-septième et dix-huitième siècles, sur les habitations sucrières des Caraïbes, que sont nés les créoles à base lexicale française, notamment en Haïti, en Guadeloupe, en Martinique et dans les Petites Antilles.",
+          "Confrontées à un français administratif qu'elles ne maîtrisaient pas et entre elles souvent dépourvues d'une langue commune, les populations réduites en esclavage ont élaboré des systèmes linguistiques nouveaux, empruntant leur lexique en grande partie au français tout en développant une grammaire propre, largement influencée par les langues d'Afrique de l'Ouest.",
+          "Six notions permettent de suivre le raisonnement : une soutenance, la diversité linguistique, un consensus, une problématique, interdisciplinaire et univoque."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel mot complète la phrase entendue ?\n\n“Confrontées à un _____ administratif qu'elles ne maîtrisaient pas et entre elles souvent dépourvues d'une langue commune, les populations réduites en esclavage ont élaboré des systèmes linguistiques nouveaux, empruntant leur lexique en grande partie au français tout en développant une grammaire propre, largement influencée par les langues d'Afrique de l'Ouest.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Podcast : Créoles caribéens : d’une langue de la plantation à une langue de la nation » ? “Confrontées à un français administratif qu'elles ne…”",
         "options": [
-          "interdisciplinaire",
-          "français",
-          "administratif",
-          "linguistiques"
+          "Un mot, deux syllabes, et pourtant des siècles de préjugés à déconstruire : c'est ainsi que l'on pourrait résumer, en une phrase, l'histoire des langues créoles caribéennes.",
+          "Confrontées à un français administratif qu'elles ne maîtrisaient pas et entre elles souvent dépourvues d'une langue commune, les populations réduites en esclavage ont élaboré des systèmes linguistiques nouveaux, empruntant leur lexique en grande partie au français tout en développant une grammaire propre, largement influencée par les langues d'Afrique de l'Ouest.",
+          "C'est au cours des dix-septième et dix-huitième siècles, sur les habitations sucrières des Caraïbes, que sont nés les créoles à base lexicale française, notamment en Haïti, en Guadeloupe, en Martinique et dans les Petites Antilles.",
+          "Six notions permettent de suivre le raisonnement : une soutenance, la diversité linguistique, un consensus, une problématique, interdisciplinaire et univoque."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Le professeur avait répondu que la diversité des _____ enrichissait la problématique et il avait ajouté que le groupe trouverait un consensus.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Podcast : Créoles caribéens : d’une langue de la plantation à une langue de la nation » ? “Le professeur avait répondu que la diversité…”",
         "options": [
-          "interdisciplinaire",
-          "administratif",
-          "approches",
-          "linguistiques"
+          "Un mot, deux syllabes, et pourtant des siècles de préjugés à déconstruire : c'est ainsi que l'on pourrait résumer, en une phrase, l'histoire des langues créoles caribéennes.",
+          "C'est au cours des dix-septième et dix-huitième siècles, sur les habitations sucrières des Caraïbes, que sont nés les créoles à base lexicale française, notamment en Haïti, en Guadeloupe, en Martinique et dans les Petites Antilles.",
+          "Le professeur avait répondu que la diversité des approches enrichissait la problématique et il avait ajouté que le groupe trouverait un consensus.",
+          "Confrontées à un français administratif qu'elles ne maîtrisaient pas et entre elles souvent dépourvues d'une langue commune, les populations réduites en esclavage ont élaboré des systèmes linguistiques nouveaux, empruntant leur lexique en grande partie au français tout en développant une grammaire propre, largement influencée par les langues d'Afrique de l'Ouest."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Podcast : Créoles caribéens : d’une langue de la plantation à une langue de la nation » ? “Ce cadre permet enfin…”",
         "options": [
-          "interdisciplinaire",
-          "administratif",
-          "linguistiques",
-          "relier"
+          "Un mot, deux syllabes, et pourtant des siècles de préjugés à déconstruire : c'est ainsi que l'on pourrait résumer, en une phrase, l'histoire des langues créoles caribéennes.",
+          "C'est au cours des dix-septième et dix-huitième siècles, sur les habitations sucrières des Caraïbes, que sont nés les créoles à base lexicale française, notamment en Haïti, en Guadeloupe, en Martinique et dans les Petites Antilles.",
+          "Confrontées à un français administratif qu'elles ne maîtrisaient pas et entre elles souvent dépourvues d'une langue commune, les populations réduites en esclavage ont élaboré des systèmes linguistiques nouveaux, empruntant leur lexique en grande partie au français tout en développant une grammaire propre, largement influencée par les langues d'Afrique de l'Ouest.",
+          "Ce cadre permet enfin de relier les faits à une décision argumentée."
         ]
       }
     ]
@@ -7712,92 +7712,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complète ce détail de l’audio.\n\n“Chaque rapport annuel sur le climat répète le même constat : la trajectoire actuelle ne suffit pas encore à respecter les seuils fixés _____.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Podcast : Décarboner à temps : course contre une horloge incertaine » ? “Chaque rapport annuel sur le climat répète…”",
             "options": [
               {
                 "id": "o1",
-                "text": "collectivement"
+                "text": "Chaque rapport annuel sur le climat répète le même constat : la trajectoire actuelle ne suffit pas encore à respecter les seuils fixés collectivement."
               },
               {
                 "id": "o2",
-                "text": "trajectoire"
+                "text": "La question « Décarboner à temps : course contre une horloge incertaine » occupe une place centrale dans l’analyse contemporaine."
               },
               {
                 "id": "o3",
-                "text": "dépassement"
+                "text": "Le rapport de synthèse du GIEC publié en 2023 confirme que le réchauffement d’origine humaine a déjà atteint environ 1,1 degré depuis l’ère préindustrielle et que les trajectoires actuelles conduisent vers un dépassement probable, voire précoce, du seuil de 1,5 degré fixé par l’accord de Paris."
               },
               {
                 "id": "o4",
-                "text": "l’expliquer"
+                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel mot complète la phrase entendue ?\n\n“Une _____ sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Podcast : Décarboner à temps : course contre une horloge incertaine » ? “Une réponse sérieuse doit distinguer ce que…”",
             "options": [
               {
                 "id": "o1",
-                "text": "l’électrification"
+                "text": "Chaque rapport annuel sur le climat répète le même constat : la trajectoire actuelle ne suffit pas encore à respecter les seuils fixés collectivement."
               },
               {
                 "id": "o2",
-                "text": "réponse"
+                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
               },
               {
                 "id": "o3",
-                "text": "interchangeables"
+                "text": "La question « Décarboner à temps : course contre une horloge incertaine » occupe une place centrale dans l’analyse contemporaine."
               },
               {
                 "id": "o4",
-                "text": "préindustrielle"
+                "text": "Le rapport de synthèse du GIEC publié en 2023 confirme que le réchauffement d’origine humaine a déjà atteint environ 1,1 degré depuis l’ère préindustrielle et que les trajectoires actuelles conduisent vers un dépassement probable, voire précoce, du seuil de 1,5 degré fixé par l’accord de Paris."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Si la trajectoire actuelle des émissions _____ infléchie plus tôt, le seuil de 1,5 degré aurait pu rester atteignable sans mesures aussi coûteuses.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Podcast : Décarboner à temps : course contre une horloge incertaine » ? “Si la trajectoire actuelle des émissions s’était…”",
             "options": [
               {
                 "id": "o1",
-                "text": "l’électrification"
+                "text": "Chaque rapport annuel sur le climat répète le même constat : la trajectoire actuelle ne suffit pas encore à respecter les seuils fixés collectivement."
               },
               {
                 "id": "o2",
-                "text": "interchangeables"
+                "text": "La question « Décarboner à temps : course contre une horloge incertaine » occupe une place centrale dans l’analyse contemporaine."
               },
               {
                 "id": "o3",
-                "text": "s’était"
+                "text": "Si la trajectoire actuelle des émissions s’était infléchie plus tôt, le seuil de 1,5 degré aurait pu rester atteignable sans mesures aussi coûteuses."
               },
               {
                 "id": "o4",
-                "text": "préindustrielle"
+                "text": "Le rapport de synthèse du GIEC publié en 2023 confirme que le réchauffement d’origine humaine a déjà atteint environ 1,1 degré depuis l’ère préindustrielle et que les trajectoires actuelles conduisent vers un dépassement probable, voire précoce, du seuil de 1,5 degré fixé par l’accord de Paris."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Podcast : Décarboner à temps : course contre une horloge incertaine » ? “Ce cadre permet enfin…”",
             "options": [
               {
                 "id": "o1",
-                "text": "l’électrification"
+                "text": "Chaque rapport annuel sur le climat répète le même constat : la trajectoire actuelle ne suffit pas encore à respecter les seuils fixés collectivement."
               },
               {
                 "id": "o2",
-                "text": "interchangeables"
+                "text": "La question « Décarboner à temps : course contre une horloge incertaine » occupe une place centrale dans l’analyse contemporaine."
               },
               {
                 "id": "o3",
-                "text": "préindustrielle"
+                "text": "Le rapport de synthèse du GIEC publié en 2023 confirme que le réchauffement d’origine humaine a déjà atteint environ 1,1 degré depuis l’ère préindustrielle et que les trajectoires actuelles conduisent vers un dépassement probable, voire précoce, du seuil de 1,5 degré fixé par l’accord de Paris."
               },
               {
                 "id": "o4",
-                "text": "relier"
+                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
               }
             ]
           }
@@ -7808,42 +7808,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complète ce détail de l’audio.\n\n“Chaque rapport annuel sur le climat répète le même constat : la trajectoire actuelle ne suffit pas encore à respecter les seuils fixés _____.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Podcast : Décarboner à temps : course contre une horloge incertaine » ? “Chaque rapport annuel sur le climat répète…”",
         "options": [
-          "collectivement",
-          "trajectoire",
-          "dépassement",
-          "l’expliquer"
+          "Chaque rapport annuel sur le climat répète le même constat : la trajectoire actuelle ne suffit pas encore à respecter les seuils fixés collectivement.",
+          "La question « Décarboner à temps : course contre une horloge incertaine » occupe une place centrale dans l’analyse contemporaine.",
+          "Le rapport de synthèse du GIEC publié en 2023 confirme que le réchauffement d’origine humaine a déjà atteint environ 1,1 degré depuis l’ère préindustrielle et que les trajectoires actuelles conduisent vers un dépassement probable, voire précoce, du seuil de 1,5 degré fixé par l’accord de Paris.",
+          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel mot complète la phrase entendue ?\n\n“Une _____ sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Podcast : Décarboner à temps : course contre une horloge incertaine » ? “Une réponse sérieuse doit distinguer ce que…”",
         "options": [
-          "l’électrification",
-          "réponse",
-          "interchangeables",
-          "préindustrielle"
+          "Chaque rapport annuel sur le climat répète le même constat : la trajectoire actuelle ne suffit pas encore à respecter les seuils fixés collectivement.",
+          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.",
+          "La question « Décarboner à temps : course contre une horloge incertaine » occupe une place centrale dans l’analyse contemporaine.",
+          "Le rapport de synthèse du GIEC publié en 2023 confirme que le réchauffement d’origine humaine a déjà atteint environ 1,1 degré depuis l’ère préindustrielle et que les trajectoires actuelles conduisent vers un dépassement probable, voire précoce, du seuil de 1,5 degré fixé par l’accord de Paris."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Si la trajectoire actuelle des émissions _____ infléchie plus tôt, le seuil de 1,5 degré aurait pu rester atteignable sans mesures aussi coûteuses.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Podcast : Décarboner à temps : course contre une horloge incertaine » ? “Si la trajectoire actuelle des émissions s’était…”",
         "options": [
-          "l’électrification",
-          "interchangeables",
-          "s’était",
-          "préindustrielle"
+          "Chaque rapport annuel sur le climat répète le même constat : la trajectoire actuelle ne suffit pas encore à respecter les seuils fixés collectivement.",
+          "La question « Décarboner à temps : course contre une horloge incertaine » occupe une place centrale dans l’analyse contemporaine.",
+          "Si la trajectoire actuelle des émissions s’était infléchie plus tôt, le seuil de 1,5 degré aurait pu rester atteignable sans mesures aussi coûteuses.",
+          "Le rapport de synthèse du GIEC publié en 2023 confirme que le réchauffement d’origine humaine a déjà atteint environ 1,1 degré depuis l’ère préindustrielle et que les trajectoires actuelles conduisent vers un dépassement probable, voire précoce, du seuil de 1,5 degré fixé par l’accord de Paris."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Podcast : Décarboner à temps : course contre une horloge incertaine » ? “Ce cadre permet enfin…”",
         "options": [
-          "l’électrification",
-          "interchangeables",
-          "préindustrielle",
-          "relier"
+          "Chaque rapport annuel sur le climat répète le même constat : la trajectoire actuelle ne suffit pas encore à respecter les seuils fixés collectivement.",
+          "La question « Décarboner à temps : course contre une horloge incertaine » occupe une place centrale dans l’analyse contemporaine.",
+          "Le rapport de synthèse du GIEC publié en 2023 confirme que le réchauffement d’origine humaine a déjà atteint environ 1,1 degré depuis l’ère préindustrielle et que les trajectoires actuelles conduisent vers un dépassement probable, voire précoce, du seuil de 1,5 degré fixé par l’accord de Paris.",
+          "Ce cadre permet enfin de relier les faits à une décision argumentée."
         ]
       }
     ]
@@ -7942,92 +7942,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complète ce détail de l’audio.\n\n“Je m’appelle Élodie et, aujourd’hui, je vais vous parler de mon _____.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Avant, je n’osais pas » ? “Je m’appelle Élodie et…”",
             "options": [
               {
                 "id": "o1",
-                "text": "parcours"
+                "text": "Je m’appelle Élodie et, aujourd’hui, je vais vous parler de mon parcours."
               },
               {
                 "id": "o2",
-                "text": "représentation"
+                "text": "Quand j’étais adolescente, j’étais très timide et je restais souvent dans ma zone de confort."
               },
               {
                 "id": "o3",
-                "text": "complètement"
+                "text": "Je connaissais peu de personnes et je ne participais presque jamais aux activités de mon école."
               },
               {
                 "id": "o4",
-                "text": "aujourd’hui"
+                "text": "Un jour, une professeure m’a proposé de rejoindre un atelier de théâtre."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel mot complète la phrase entendue ?\n\n“Un jour, une professeure m’a _____ de rejoindre un atelier de théâtre.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Avant, je n’osais pas » ? “Un jour une professeure…”",
             "options": [
               {
                 "id": "o1",
-                "text": "représentation"
+                "text": "Je m’appelle Élodie et, aujourd’hui, je vais vous parler de mon parcours."
               },
               {
                 "id": "o2",
-                "text": "proposé"
+                "text": "Un jour, une professeure m’a proposé de rejoindre un atelier de théâtre."
               },
               {
                 "id": "o3",
-                "text": "complètement"
+                "text": "Quand j’étais adolescente, j’étais très timide et je restais souvent dans ma zone de confort."
               },
               {
                 "id": "o4",
-                "text": "aujourd’hui"
+                "text": "Je connaissais peu de personnes et je ne participais presque jamais aux activités de mon école."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“La première représentation a changé _____ chose en moi : j’ai compris que je pouvais dépasser mes inquiétudes.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Avant, je n’osais pas » ? “La première représentation a changé quelque…”",
             "options": [
               {
                 "id": "o1",
-                "text": "représentation"
+                "text": "Je m’appelle Élodie et, aujourd’hui, je vais vous parler de mon parcours."
               },
               {
                 "id": "o2",
-                "text": "complètement"
+                "text": "Quand j’étais adolescente, j’étais très timide et je restais souvent dans ma zone de confort."
               },
               {
                 "id": "o3",
-                "text": "quelque"
+                "text": "La première représentation a changé quelque chose en moi : j’ai compris que je pouvais dépasser mes inquiétudes."
               },
               {
                 "id": "o4",
-                "text": "aujourd’hui"
+                "text": "Je connaissais peu de personnes et je ne participais presque jamais aux activités de mon école."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Mon parcours me rappelle qu’un petit défi peut parfois transformer _____ notre manière de nous voir.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Avant, je n’osais pas » ? “Mon parcours me rappelle qu’un petit…”",
             "options": [
               {
                 "id": "o1",
-                "text": "parcours"
+                "text": "Je m’appelle Élodie et, aujourd’hui, je vais vous parler de mon parcours."
               },
               {
                 "id": "o2",
-                "text": "patience"
+                "text": "Quand j’étais adolescente, j’étais très timide et je restais souvent dans ma zone de confort."
               },
               {
                 "id": "o3",
-                "text": "respirer"
+                "text": "Je connaissais peu de personnes et je ne participais presque jamais aux activités de mon école."
               },
               {
                 "id": "o4",
-                "text": "durablement"
+                "text": "Mon parcours me rappelle qu’un petit défi peut parfois transformer durablement notre manière de nous voir."
               }
             ]
           }
@@ -8038,42 +8038,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complète ce détail de l’audio.\n\n“Je m’appelle Élodie et, aujourd’hui, je vais vous parler de mon _____.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Avant, je n’osais pas » ? “Je m’appelle Élodie et…”",
         "options": [
-          "parcours",
-          "représentation",
-          "complètement",
-          "aujourd’hui"
+          "Je m’appelle Élodie et, aujourd’hui, je vais vous parler de mon parcours.",
+          "Quand j’étais adolescente, j’étais très timide et je restais souvent dans ma zone de confort.",
+          "Je connaissais peu de personnes et je ne participais presque jamais aux activités de mon école.",
+          "Un jour, une professeure m’a proposé de rejoindre un atelier de théâtre."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel mot complète la phrase entendue ?\n\n“Un jour, une professeure m’a _____ de rejoindre un atelier de théâtre.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Avant, je n’osais pas » ? “Un jour une professeure…”",
         "options": [
-          "représentation",
-          "proposé",
-          "complètement",
-          "aujourd’hui"
+          "Je m’appelle Élodie et, aujourd’hui, je vais vous parler de mon parcours.",
+          "Un jour, une professeure m’a proposé de rejoindre un atelier de théâtre.",
+          "Quand j’étais adolescente, j’étais très timide et je restais souvent dans ma zone de confort.",
+          "Je connaissais peu de personnes et je ne participais presque jamais aux activités de mon école."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“La première représentation a changé _____ chose en moi : j’ai compris que je pouvais dépasser mes inquiétudes.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Avant, je n’osais pas » ? “La première représentation a changé quelque…”",
         "options": [
-          "représentation",
-          "complètement",
-          "quelque",
-          "aujourd’hui"
+          "Je m’appelle Élodie et, aujourd’hui, je vais vous parler de mon parcours.",
+          "Quand j’étais adolescente, j’étais très timide et je restais souvent dans ma zone de confort.",
+          "La première représentation a changé quelque chose en moi : j’ai compris que je pouvais dépasser mes inquiétudes.",
+          "Je connaissais peu de personnes et je ne participais presque jamais aux activités de mon école."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Mon parcours me rappelle qu’un petit défi peut parfois transformer _____ notre manière de nous voir.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Avant, je n’osais pas » ? “Mon parcours me rappelle qu’un petit…”",
         "options": [
-          "parcours",
-          "patience",
-          "respirer",
-          "durablement"
+          "Je m’appelle Élodie et, aujourd’hui, je vais vous parler de mon parcours.",
+          "Quand j’étais adolescente, j’étais très timide et je restais souvent dans ma zone de confort.",
+          "Je connaissais peu de personnes et je ne participais presque jamais aux activités de mon école.",
+          "Mon parcours me rappelle qu’un petit défi peut parfois transformer durablement notre manière de nous voir."
         ]
       }
     ]
@@ -8202,92 +8202,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complète ce détail de l’audio.\n\n“Une bonne lettre de motivation ne répète pas _____ le CV.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Construire une candidature convaincante » ? “Une bonne lettre de…”",
             "options": [
               {
                 "id": "o1",
-                "text": "simplement"
+                "text": "Une bonne lettre de motivation ne répète pas simplement le CV."
               },
               {
                 "id": "o2",
-                "text": "l’établissement"
+                "text": "Elle explique le lien entre votre parcours, la formation choisie et votre projet."
               },
               {
                 "id": "o3",
-                "text": "choisie"
+                "text": "Avant d’écrire, identifiez deux expériences capables de vous démarquer."
               },
               {
                 "id": "o4",
-                "text": "compris"
+                "text": "Il est important que vous ayez compris les objectifs du programme et que vous montriez précisément ce qu’il peut vous apporter."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel mot complète la phrase entendue ?\n\n“Évitez les _____ générales comme « J’ai toujours aimé apprendre ».”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Construire une candidature convaincante » ? “Évitez les déclarations…”",
             "options": [
               {
                 "id": "o1",
-                "text": "formation"
+                "text": "Une bonne lettre de motivation ne répète pas simplement le CV."
               },
               {
                 "id": "o2",
-                "text": "déclarations"
+                "text": "Évitez les déclarations générales comme « J’ai toujours aimé apprendre »."
               },
               {
                 "id": "o3",
-                "text": "démarquer"
+                "text": "Elle explique le lien entre votre parcours, la formation choisie et votre projet."
               },
               {
                 "id": "o4",
-                "text": "important"
+                "text": "Avant d’écrire, identifiez deux expériences capables de vous démarquer."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Le premier doit annoncer votre démarche ; le _____ apporte des preuves ; le dernier ouvre sur l’avenir.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Construire une candidature convaincante » ? “Le premier doit annoncer votre démarche…”",
             "options": [
               {
                 "id": "o1",
-                "text": "l’établissement"
+                "text": "Une bonne lettre de motivation ne répète pas simplement le CV."
               },
               {
                 "id": "o2",
-                "text": "déclarations"
+                "text": "Elle explique le lien entre votre parcours, la formation choisie et votre projet."
               },
               {
                 "id": "o3",
-                "text": "deuxième"
+                "text": "Le premier doit annoncer votre démarche ; le deuxième apporte des preuves ; le dernier ouvre sur l’avenir."
               },
               {
                 "id": "o4",
-                "text": "responsables"
+                "text": "Avant d’écrire, identifiez deux expériences capables de vous démarquer."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Elle permet au lecteur de comprendre ce que vous avez déjà construit et pourquoi cette _____ représente une étape cohérente.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Construire une candidature convaincante » ? “Elle permet au lecteur de comprendre ce…”",
             "options": [
               {
                 "id": "o1",
-                "text": "l’établissement"
+                "text": "Une bonne lettre de motivation ne répète pas simplement le CV."
               },
               {
                 "id": "o2",
-                "text": "lettre"
+                "text": "Elle explique le lien entre votre parcours, la formation choisie et votre projet."
               },
               {
                 "id": "o3",
-                "text": "répète"
+                "text": "Avant d’écrire, identifiez deux expériences capables de vous démarquer."
               },
               {
                 "id": "o4",
-                "text": "formation"
+                "text": "Elle permet au lecteur de comprendre ce que vous avez déjà construit et pourquoi cette formation représente une étape cohérente."
               }
             ]
           }
@@ -8298,42 +8298,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complète ce détail de l’audio.\n\n“Une bonne lettre de motivation ne répète pas _____ le CV.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Construire une candidature convaincante » ? “Une bonne lettre de…”",
         "options": [
-          "simplement",
-          "l’établissement",
-          "choisie",
-          "compris"
+          "Une bonne lettre de motivation ne répète pas simplement le CV.",
+          "Elle explique le lien entre votre parcours, la formation choisie et votre projet.",
+          "Avant d’écrire, identifiez deux expériences capables de vous démarquer.",
+          "Il est important que vous ayez compris les objectifs du programme et que vous montriez précisément ce qu’il peut vous apporter."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel mot complète la phrase entendue ?\n\n“Évitez les _____ générales comme « J’ai toujours aimé apprendre ».”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Construire une candidature convaincante » ? “Évitez les déclarations…”",
         "options": [
-          "formation",
-          "déclarations",
-          "démarquer",
-          "important"
+          "Une bonne lettre de motivation ne répète pas simplement le CV.",
+          "Évitez les déclarations générales comme « J’ai toujours aimé apprendre ».",
+          "Elle explique le lien entre votre parcours, la formation choisie et votre projet.",
+          "Avant d’écrire, identifiez deux expériences capables de vous démarquer."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Le premier doit annoncer votre démarche ; le _____ apporte des preuves ; le dernier ouvre sur l’avenir.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Construire une candidature convaincante » ? “Le premier doit annoncer votre démarche…”",
         "options": [
-          "l’établissement",
-          "déclarations",
-          "deuxième",
-          "responsables"
+          "Une bonne lettre de motivation ne répète pas simplement le CV.",
+          "Elle explique le lien entre votre parcours, la formation choisie et votre projet.",
+          "Le premier doit annoncer votre démarche ; le deuxième apporte des preuves ; le dernier ouvre sur l’avenir.",
+          "Avant d’écrire, identifiez deux expériences capables de vous démarquer."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Elle permet au lecteur de comprendre ce que vous avez déjà construit et pourquoi cette _____ représente une étape cohérente.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Construire une candidature convaincante » ? “Elle permet au lecteur de comprendre ce…”",
         "options": [
-          "l’établissement",
-          "lettre",
-          "répète",
-          "formation"
+          "Une bonne lettre de motivation ne répète pas simplement le CV.",
+          "Elle explique le lien entre votre parcours, la formation choisie et votre projet.",
+          "Avant d’écrire, identifiez deux expériences capables de vous démarquer.",
+          "Elle permet au lecteur de comprendre ce que vous avez déjà construit et pourquoi cette formation représente une étape cohérente."
         ]
       }
     ]
@@ -12684,92 +12684,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complète ce détail de l’audio.\n\n“Ma famille habite en République _____.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Ma famille et ma famille d’accueil » ? “Ma famille habite…”",
             "options": [
               {
                 "id": "o1",
-                "text": "dominicaine"
+                "text": "Ma famille habite en République dominicaine."
               },
               {
                 "id": "o2",
-                "text": "football"
+                "text": "Ma mère s’appelle Margarita et mon père s’appelle José."
               },
               {
                 "id": "o3",
-                "text": "j’habite"
+                "text": "Mon frère aime le football et ma petite sœur adore la musique."
               },
               {
                 "id": "o4",
-                "text": "nouvelle"
+                "text": "Mes parents me téléphonent souvent."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel mot complète la phrase entendue ?\n\n“Mes _____ me téléphonent souvent.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Ma famille et ma famille d’accueil » ? “Mes parents me…”",
             "options": [
               {
                 "id": "o1",
-                "text": "dominicaine"
+                "text": "Ma famille habite en République dominicaine."
               },
               {
                 "id": "o2",
-                "text": "parents"
+                "text": "Mes parents me téléphonent souvent."
               },
               {
                 "id": "o3",
-                "text": "téléphonent"
+                "text": "Ma mère s’appelle Margarita et mon père s’appelle José."
               },
               {
                 "id": "o4",
-                "text": "confortable"
+                "text": "Mon frère aime le football et ma petite sœur adore la musique."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“_____ est ma nouvelle amie et Paul est son petit frère.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Ma famille et ma famille d’accueil » ? “Léa est ma nouvelle…”",
             "options": [
               {
                 "id": "o1",
-                "text": "dominicaine"
+                "text": "Ma famille habite en République dominicaine."
               },
               {
                 "id": "o2",
-                "text": "téléphonent"
+                "text": "Ma mère s’appelle Margarita et mon père s’appelle José."
               },
               {
                 "id": "o3",
-                "text": "Léa"
+                "text": "Léa est ma nouvelle amie et Paul est son petit frère."
               },
               {
                 "id": "o4",
-                "text": "confortable"
+                "text": "Mon frère aime le football et ma petite sœur adore la musique."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ma famille me manque, mais ma famille d’accueil m’aide à me _____ bien en France.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Ma famille et ma famille d’accueil » ? “Ma famille me manque mais…”",
             "options": [
               {
                 "id": "o1",
-                "text": "dominicaine"
+                "text": "Ma famille habite en République dominicaine."
               },
               {
                 "id": "o2",
-                "text": "téléphonent"
+                "text": "Ma mère s’appelle Margarita et mon père s’appelle José."
               },
               {
                 "id": "o3",
-                "text": "confortable"
+                "text": "Mon frère aime le football et ma petite sœur adore la musique."
               },
               {
                 "id": "o4",
-                "text": "sentir"
+                "text": "Ma famille me manque, mais ma famille d’accueil m’aide à me sentir bien en France."
               }
             ]
           }
@@ -12780,42 +12780,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complète ce détail de l’audio.\n\n“Ma famille habite en République _____.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Ma famille et ma famille d’accueil » ? “Ma famille habite…”",
         "options": [
-          "dominicaine",
-          "football",
-          "j’habite",
-          "nouvelle"
+          "Ma famille habite en République dominicaine.",
+          "Ma mère s’appelle Margarita et mon père s’appelle José.",
+          "Mon frère aime le football et ma petite sœur adore la musique.",
+          "Mes parents me téléphonent souvent."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel mot complète la phrase entendue ?\n\n“Mes _____ me téléphonent souvent.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Ma famille et ma famille d’accueil » ? “Mes parents me…”",
         "options": [
-          "dominicaine",
-          "parents",
-          "téléphonent",
-          "confortable"
+          "Ma famille habite en République dominicaine.",
+          "Mes parents me téléphonent souvent.",
+          "Ma mère s’appelle Margarita et mon père s’appelle José.",
+          "Mon frère aime le football et ma petite sœur adore la musique."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“_____ est ma nouvelle amie et Paul est son petit frère.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Ma famille et ma famille d’accueil » ? “Léa est ma nouvelle…”",
         "options": [
-          "dominicaine",
-          "téléphonent",
-          "Léa",
-          "confortable"
+          "Ma famille habite en République dominicaine.",
+          "Ma mère s’appelle Margarita et mon père s’appelle José.",
+          "Léa est ma nouvelle amie et Paul est son petit frère.",
+          "Mon frère aime le football et ma petite sœur adore la musique."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ma famille me manque, mais ma famille d’accueil m’aide à me _____ bien en France.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Ma famille et ma famille d’accueil » ? “Ma famille me manque mais…”",
         "options": [
-          "dominicaine",
-          "téléphonent",
-          "confortable",
-          "sentir"
+          "Ma famille habite en République dominicaine.",
+          "Ma mère s’appelle Margarita et mon père s’appelle José.",
+          "Mon frère aime le football et ma petite sœur adore la musique.",
+          "Ma famille me manque, mais ma famille d’accueil m’aide à me sentir bien en France."
         ]
       }
     ]
@@ -12904,92 +12904,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complète ce détail de l’audio.\n\n“Camila doit retrouver Karim à la bibliothèque, mais elle _____ du bus un arrêt trop tôt.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Le mauvais arrêt » ? “Camila doit retrouver Karim à la…”",
             "options": [
               {
                 "id": "o1",
-                "text": "descend"
+                "text": "Camila doit retrouver Karim à la bibliothèque, mais elle descend du bus un arrêt trop tôt."
               },
               {
                 "id": "o2",
-                "text": "bibliothèque"
+                "text": "Elle regarde le plan et ne reconnaît pas le quartier."
               },
               {
                 "id": "o3",
-                "text": "boulangerie"
+                "text": "Une dame lui dit : « Continuez tout droit, tournez à gauche après la boulangerie, puis traversez la place. »"
               },
               {
                 "id": "o4",
-                "text": "indications"
+                "text": "Camila répète les indications pour ne pas les oublier."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel mot complète la phrase entendue ?\n\n“Camila _____ les indications pour ne pas les oublier.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Le mauvais arrêt » ? “Camila répète les…”",
             "options": [
               {
                 "id": "o1",
-                "text": "bibliothèque"
+                "text": "Camila doit retrouver Karim à la bibliothèque, mais elle descend du bus un arrêt trop tôt."
               },
               {
                 "id": "o2",
-                "text": "répète"
+                "text": "Camila répète les indications pour ne pas les oublier."
               },
               {
                 "id": "o3",
-                "text": "boulangerie"
+                "text": "Elle regarde le plan et ne reconnaît pas le quartier."
               },
               {
                 "id": "o4",
-                "text": "indications"
+                "text": "Une dame lui dit : « Continuez tout droit, tournez à gauche après la boulangerie, puis traversez la place. »"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Elle retrouve Karim devant _____ et lui montre son ticket de bus.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Le mauvais arrêt » ? “Elle retrouve Karim devant…”",
             "options": [
               {
                 "id": "o1",
-                "text": "bibliothèque"
+                "text": "Camila doit retrouver Karim à la bibliothèque, mais elle descend du bus un arrêt trop tôt."
               },
               {
                 "id": "o2",
-                "text": "Karim"
+                "text": "Elle regarde le plan et ne reconnaît pas le quartier."
               },
               {
                 "id": "o3",
-                "text": "l’entrée"
+                "text": "Elle retrouve Karim devant l’entrée et lui montre son ticket de bus."
               },
               {
                 "id": "o4",
-                "text": "arrêt"
+                "text": "Une dame lui dit : « Continuez tout droit, tournez à gauche après la boulangerie, puis traversez la place. »"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Un employé lui explique que la bibliothèque est près du musée : « Prenez la deuxième rue à _____ et continuez jusqu’au parc. » Cette fois, Camila suit chaque instruction.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Le mauvais arrêt » ? “Un employé lui explique que la bibliothèque…”",
             "options": [
               {
                 "id": "o1",
-                "text": "bibliothèque"
+                "text": "Camila doit retrouver Karim à la bibliothèque, mais elle descend du bus un arrêt trop tôt."
               },
               {
                 "id": "o2",
-                "text": "boulangerie"
+                "text": "Elle regarde le plan et ne reconnaît pas le quartier."
               },
               {
                 "id": "o3",
-                "text": "indications"
+                "text": "Une dame lui dit : « Continuez tout droit, tournez à gauche après la boulangerie, puis traversez la place. »"
               },
               {
                 "id": "o4",
-                "text": "droite"
+                "text": "Un employé lui explique que la bibliothèque est près du musée : « Prenez la deuxième rue à droite et continuez jusqu’au parc. » Cette fois, Camila suit chaque instruction."
               }
             ]
           }
@@ -13000,42 +13000,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complète ce détail de l’audio.\n\n“Camila doit retrouver Karim à la bibliothèque, mais elle _____ du bus un arrêt trop tôt.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Le mauvais arrêt » ? “Camila doit retrouver Karim à la…”",
         "options": [
-          "descend",
-          "bibliothèque",
-          "boulangerie",
-          "indications"
+          "Camila doit retrouver Karim à la bibliothèque, mais elle descend du bus un arrêt trop tôt.",
+          "Elle regarde le plan et ne reconnaît pas le quartier.",
+          "Une dame lui dit : « Continuez tout droit, tournez à gauche après la boulangerie, puis traversez la place. »",
+          "Camila répète les indications pour ne pas les oublier."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel mot complète la phrase entendue ?\n\n“Camila _____ les indications pour ne pas les oublier.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Le mauvais arrêt » ? “Camila répète les…”",
         "options": [
-          "bibliothèque",
-          "répète",
-          "boulangerie",
-          "indications"
+          "Camila doit retrouver Karim à la bibliothèque, mais elle descend du bus un arrêt trop tôt.",
+          "Camila répète les indications pour ne pas les oublier.",
+          "Elle regarde le plan et ne reconnaît pas le quartier.",
+          "Une dame lui dit : « Continuez tout droit, tournez à gauche après la boulangerie, puis traversez la place. »"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Elle retrouve Karim devant _____ et lui montre son ticket de bus.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Le mauvais arrêt » ? “Elle retrouve Karim devant…”",
         "options": [
-          "bibliothèque",
-          "Karim",
-          "l’entrée",
-          "arrêt"
+          "Camila doit retrouver Karim à la bibliothèque, mais elle descend du bus un arrêt trop tôt.",
+          "Elle regarde le plan et ne reconnaît pas le quartier.",
+          "Elle retrouve Karim devant l’entrée et lui montre son ticket de bus.",
+          "Une dame lui dit : « Continuez tout droit, tournez à gauche après la boulangerie, puis traversez la place. »"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Un employé lui explique que la bibliothèque est près du musée : « Prenez la deuxième rue à _____ et continuez jusqu’au parc. » Cette fois, Camila suit chaque instruction.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Le mauvais arrêt » ? “Un employé lui explique que la bibliothèque…”",
         "options": [
-          "bibliothèque",
-          "boulangerie",
-          "indications",
-          "droite"
+          "Camila doit retrouver Karim à la bibliothèque, mais elle descend du bus un arrêt trop tôt.",
+          "Elle regarde le plan et ne reconnaît pas le quartier.",
+          "Une dame lui dit : « Continuez tout droit, tournez à gauche après la boulangerie, puis traversez la place. »",
+          "Un employé lui explique que la bibliothèque est près du musée : « Prenez la deuxième rue à droite et continuez jusqu’au parc. » Cette fois, Camila suit chaque instruction."
         ]
       }
     ]
@@ -13160,92 +13160,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complète ce détail de l’audio.\n\n“Un chiffre, deux mots, trois traitements radicalement différents : voilà ce qu’a produit, au printemps 2023, l’annonce de la réforme des retraites en _____.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Éditorial : Une information, plusieurs récits » ? “Un chiffre deux mots trois traitements radicalement…”",
             "options": [
               {
                 "id": "o1",
-                "text": "France"
+                "text": "Un chiffre, deux mots, trois traitements radicalement différents : voilà ce qu’a produit, au printemps 2023, l’annonce de la réforme des retraites en France."
               },
               {
                 "id": "o2",
-                "text": "hiérarchisation"
+                "text": "Un quotidien national ouvrait son édition sur « une réforme d’équilibre budgétaire », quand un journal syndical titrait « un recul social imposé sans vote »."
               },
               {
                 "id": "o3",
-                "text": "manifestations"
+                "text": "Une chaîne d’information continue diffusait en boucle les images des manifestations, tandis qu’un hebdomadaire économique publiait un dossier chiffré sur l’espérance de vie et les régimes de retraite comparés en Europe."
               },
               {
                 "id": "o4",
-                "text": "démographiques"
+                "text": "Les rédactions citaient les mêmes projections démographiques du Conseil d’orientation des retraites ; aucune ne racontait tout à fait la même histoire."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel mot complète la phrase entendue ?\n\n“Les _____ citaient les mêmes projections démographiques du Conseil d’orientation des retraites ; aucune ne racontait tout à fait la même histoire.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Éditorial : Une information, plusieurs récits » ? “Les rédactions citaient les mêmes projections démographiques…”",
             "options": [
               {
                 "id": "o1",
-                "text": "hiérarchisation"
+                "text": "Un chiffre, deux mots, trois traitements radicalement différents : voilà ce qu’a produit, au printemps 2023, l’annonce de la réforme des retraites en France."
               },
               {
                 "id": "o2",
-                "text": "rédactions"
+                "text": "Les rédactions citaient les mêmes projections démographiques du Conseil d’orientation des retraites ; aucune ne racontait tout à fait la même histoire."
               },
               {
                 "id": "o3",
-                "text": "manifestations"
+                "text": "Un quotidien national ouvrait son édition sur « une réforme d’équilibre budgétaire », quand un journal syndical titrait « un recul social imposé sans vote »."
               },
               {
                 "id": "o4",
-                "text": "démographiques"
+                "text": "Une chaîne d’information continue diffusait en boucle les images des manifestations, tandis qu’un hebdomadaire économique publiait un dossier chiffré sur l’espérance de vie et les régimes de retraite comparés en Europe."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Elles ne constituent pas une simple liste : chacune _____ une étape, une tension ou une conséquence du problème.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Éditorial : Une information, plusieurs récits » ? “Elles ne constituent pas une simple…”",
             "options": [
               {
                 "id": "o1",
-                "text": "hiérarchisation"
+                "text": "Un chiffre, deux mots, trois traitements radicalement différents : voilà ce qu’a produit, au printemps 2023, l’annonce de la réforme des retraites en France."
               },
               {
                 "id": "o2",
-                "text": "manifestations"
+                "text": "Un quotidien national ouvrait son édition sur « une réforme d’équilibre budgétaire », quand un journal syndical titrait « un recul social imposé sans vote »."
               },
               {
                 "id": "o3",
-                "text": "éclaire"
+                "text": "Elles ne constituent pas une simple liste : chacune éclaire une étape, une tension ou une conséquence du problème."
               },
               {
                 "id": "o4",
-                "text": "démographiques"
+                "text": "Une chaîne d’information continue diffusait en boucle les images des manifestations, tandis qu’un hebdomadaire économique publiait un dossier chiffré sur l’espérance de vie et les régimes de retraite comparés en Europe."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Éditorial : Une information, plusieurs récits » ? “Ce cadre permet enfin…”",
             "options": [
               {
                 "id": "o1",
-                "text": "hiérarchisation"
+                "text": "Un chiffre, deux mots, trois traitements radicalement différents : voilà ce qu’a produit, au printemps 2023, l’annonce de la réforme des retraites en France."
               },
               {
                 "id": "o2",
-                "text": "manifestations"
+                "text": "Un quotidien national ouvrait son édition sur « une réforme d’équilibre budgétaire », quand un journal syndical titrait « un recul social imposé sans vote »."
               },
               {
                 "id": "o3",
-                "text": "démographiques"
+                "text": "Une chaîne d’information continue diffusait en boucle les images des manifestations, tandis qu’un hebdomadaire économique publiait un dossier chiffré sur l’espérance de vie et les régimes de retraite comparés en Europe."
               },
               {
                 "id": "o4",
-                "text": "relier"
+                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
               }
             ]
           }
@@ -13256,42 +13256,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complète ce détail de l’audio.\n\n“Un chiffre, deux mots, trois traitements radicalement différents : voilà ce qu’a produit, au printemps 2023, l’annonce de la réforme des retraites en _____.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Éditorial : Une information, plusieurs récits » ? “Un chiffre deux mots trois traitements radicalement…”",
         "options": [
-          "France",
-          "hiérarchisation",
-          "manifestations",
-          "démographiques"
+          "Un chiffre, deux mots, trois traitements radicalement différents : voilà ce qu’a produit, au printemps 2023, l’annonce de la réforme des retraites en France.",
+          "Un quotidien national ouvrait son édition sur « une réforme d’équilibre budgétaire », quand un journal syndical titrait « un recul social imposé sans vote ».",
+          "Une chaîne d’information continue diffusait en boucle les images des manifestations, tandis qu’un hebdomadaire économique publiait un dossier chiffré sur l’espérance de vie et les régimes de retraite comparés en Europe.",
+          "Les rédactions citaient les mêmes projections démographiques du Conseil d’orientation des retraites ; aucune ne racontait tout à fait la même histoire."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel mot complète la phrase entendue ?\n\n“Les _____ citaient les mêmes projections démographiques du Conseil d’orientation des retraites ; aucune ne racontait tout à fait la même histoire.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Éditorial : Une information, plusieurs récits » ? “Les rédactions citaient les mêmes projections démographiques…”",
         "options": [
-          "hiérarchisation",
-          "rédactions",
-          "manifestations",
-          "démographiques"
+          "Un chiffre, deux mots, trois traitements radicalement différents : voilà ce qu’a produit, au printemps 2023, l’annonce de la réforme des retraites en France.",
+          "Les rédactions citaient les mêmes projections démographiques du Conseil d’orientation des retraites ; aucune ne racontait tout à fait la même histoire.",
+          "Un quotidien national ouvrait son édition sur « une réforme d’équilibre budgétaire », quand un journal syndical titrait « un recul social imposé sans vote ».",
+          "Une chaîne d’information continue diffusait en boucle les images des manifestations, tandis qu’un hebdomadaire économique publiait un dossier chiffré sur l’espérance de vie et les régimes de retraite comparés en Europe."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Elles ne constituent pas une simple liste : chacune _____ une étape, une tension ou une conséquence du problème.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Éditorial : Une information, plusieurs récits » ? “Elles ne constituent pas une simple…”",
         "options": [
-          "hiérarchisation",
-          "manifestations",
-          "éclaire",
-          "démographiques"
+          "Un chiffre, deux mots, trois traitements radicalement différents : voilà ce qu’a produit, au printemps 2023, l’annonce de la réforme des retraites en France.",
+          "Un quotidien national ouvrait son édition sur « une réforme d’équilibre budgétaire », quand un journal syndical titrait « un recul social imposé sans vote ».",
+          "Elles ne constituent pas une simple liste : chacune éclaire une étape, une tension ou une conséquence du problème.",
+          "Une chaîne d’information continue diffusait en boucle les images des manifestations, tandis qu’un hebdomadaire économique publiait un dossier chiffré sur l’espérance de vie et les régimes de retraite comparés en Europe."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Éditorial : Une information, plusieurs récits » ? “Ce cadre permet enfin…”",
         "options": [
-          "hiérarchisation",
-          "manifestations",
-          "démographiques",
-          "relier"
+          "Un chiffre, deux mots, trois traitements radicalement différents : voilà ce qu’a produit, au printemps 2023, l’annonce de la réforme des retraites en France.",
+          "Un quotidien national ouvrait son édition sur « une réforme d’équilibre budgétaire », quand un journal syndical titrait « un recul social imposé sans vote ».",
+          "Une chaîne d’information continue diffusait en boucle les images des manifestations, tandis qu’un hebdomadaire économique publiait un dossier chiffré sur l’espérance de vie et les régimes de retraite comparés en Europe.",
+          "Ce cadre permet enfin de relier les faits à une décision argumentée."
         ]
       }
     ]
@@ -13426,92 +13426,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complète ce détail de l’audio.\n\n“Deux puissances dominantes ou plusieurs pôles rivaux : la structure même du pouvoir mondial influence-t-elle la fréquence des conflits qui _____ ?”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Éditorial : Un monde multipolaire est-il nécessairement plus instable ? » ? “Deux puissances dominantes ou plusieurs pôles rivaux…”",
             "options": [
               {
                 "id": "o1",
-                "text": "l’agitent"
+                "text": "Deux puissances dominantes ou plusieurs pôles rivaux : la structure même du pouvoir mondial influence-t-elle la fréquence des conflits qui l’agitent ?"
               },
               {
                 "id": "o2",
-                "text": "influence-t-elle"
+                "text": "La question « Un monde multipolaire est-il nécessairement plus instable ? » occupe une place centrale dans l’analyse contemporaine."
               },
               {
                 "id": "o3",
-                "text": "interchangeables"
+                "text": "L’annuaire 2024 du SIPRI relève une hausse continue et préoccupante des dépenses militaires mondiales et une multiplication des conflits armés actifs, ce qui a ravivé un débat ancien sur le lien entre la structure de la puissance internationale et la fréquence des affrontements."
               },
               {
                 "id": "o4",
-                "text": "multilatéralisme"
+                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel mot complète la phrase entendue ?\n\n“Une _____ sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Éditorial : Un monde multipolaire est-il nécessairement plus instable ? » ? “Une réponse sérieuse doit distinguer ce que…”",
             "options": [
               {
                 "id": "o1",
-                "text": "influence-t-elle"
+                "text": "Deux puissances dominantes ou plusieurs pôles rivaux : la structure même du pouvoir mondial influence-t-elle la fréquence des conflits qui l’agitent ?"
               },
               {
                 "id": "o2",
-                "text": "réponse"
+                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
               },
               {
                 "id": "o3",
-                "text": "interchangeables"
+                "text": "La question « Un monde multipolaire est-il nécessairement plus instable ? » occupe une place centrale dans l’analyse contemporaine."
               },
               {
                 "id": "o4",
-                "text": "multilatéralisme"
+                "text": "L’annuaire 2024 du SIPRI relève une hausse continue et préoccupante des dépenses militaires mondiales et une multiplication des conflits armés actifs, ce qui a ravivé un débat ancien sur le lien entre la structure de la puissance internationale et la fréquence des affrontements."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Selon certains analystes, la _____ multiplierait les frictions ; d’autres soutiennent au contraire qu’elle multiplie les canaux de médiation disponibles.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Éditorial : Un monde multipolaire est-il nécessairement plus instable ? » ? “Selon certains analystes la multipolarité multiplierait les…”",
             "options": [
               {
                 "id": "o1",
-                "text": "puissances"
+                "text": "Deux puissances dominantes ou plusieurs pôles rivaux : la structure même du pouvoir mondial influence-t-elle la fréquence des conflits qui l’agitent ?"
               },
               {
                 "id": "o2",
-                "text": "dominantes"
+                "text": "La question « Un monde multipolaire est-il nécessairement plus instable ? » occupe une place centrale dans l’analyse contemporaine."
               },
               {
                 "id": "o3",
-                "text": "multipolarité"
+                "text": "Selon certains analystes, la multipolarité multiplierait les frictions ; d’autres soutiennent au contraire qu’elle multiplie les canaux de médiation disponibles."
               },
               {
                 "id": "o4",
-                "text": "influence-t-elle"
+                "text": "L’annuaire 2024 du SIPRI relève une hausse continue et préoccupante des dépenses militaires mondiales et une multiplication des conflits armés actifs, ce qui a ravivé un débat ancien sur le lien entre la structure de la puissance internationale et la fréquence des affrontements."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Éditorial : Un monde multipolaire est-il nécessairement plus instable ? » ? “Ce cadre permet enfin…”",
             "options": [
               {
                 "id": "o1",
-                "text": "influence-t-elle"
+                "text": "Deux puissances dominantes ou plusieurs pôles rivaux : la structure même du pouvoir mondial influence-t-elle la fréquence des conflits qui l’agitent ?"
               },
               {
                 "id": "o2",
-                "text": "interchangeables"
+                "text": "La question « Un monde multipolaire est-il nécessairement plus instable ? » occupe une place centrale dans l’analyse contemporaine."
               },
               {
                 "id": "o3",
-                "text": "multilatéralisme"
+                "text": "L’annuaire 2024 du SIPRI relève une hausse continue et préoccupante des dépenses militaires mondiales et une multiplication des conflits armés actifs, ce qui a ravivé un débat ancien sur le lien entre la structure de la puissance internationale et la fréquence des affrontements."
               },
               {
                 "id": "o4",
-                "text": "relier"
+                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
               }
             ]
           }
@@ -13522,42 +13522,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complète ce détail de l’audio.\n\n“Deux puissances dominantes ou plusieurs pôles rivaux : la structure même du pouvoir mondial influence-t-elle la fréquence des conflits qui _____ ?”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Éditorial : Un monde multipolaire est-il nécessairement plus instable ? » ? “Deux puissances dominantes ou plusieurs pôles rivaux…”",
         "options": [
-          "l’agitent",
-          "influence-t-elle",
-          "interchangeables",
-          "multilatéralisme"
+          "Deux puissances dominantes ou plusieurs pôles rivaux : la structure même du pouvoir mondial influence-t-elle la fréquence des conflits qui l’agitent ?",
+          "La question « Un monde multipolaire est-il nécessairement plus instable ? » occupe une place centrale dans l’analyse contemporaine.",
+          "L’annuaire 2024 du SIPRI relève une hausse continue et préoccupante des dépenses militaires mondiales et une multiplication des conflits armés actifs, ce qui a ravivé un débat ancien sur le lien entre la structure de la puissance internationale et la fréquence des affrontements.",
+          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel mot complète la phrase entendue ?\n\n“Une _____ sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Éditorial : Un monde multipolaire est-il nécessairement plus instable ? » ? “Une réponse sérieuse doit distinguer ce que…”",
         "options": [
-          "influence-t-elle",
-          "réponse",
-          "interchangeables",
-          "multilatéralisme"
+          "Deux puissances dominantes ou plusieurs pôles rivaux : la structure même du pouvoir mondial influence-t-elle la fréquence des conflits qui l’agitent ?",
+          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.",
+          "La question « Un monde multipolaire est-il nécessairement plus instable ? » occupe une place centrale dans l’analyse contemporaine.",
+          "L’annuaire 2024 du SIPRI relève une hausse continue et préoccupante des dépenses militaires mondiales et une multiplication des conflits armés actifs, ce qui a ravivé un débat ancien sur le lien entre la structure de la puissance internationale et la fréquence des affrontements."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Selon certains analystes, la _____ multiplierait les frictions ; d’autres soutiennent au contraire qu’elle multiplie les canaux de médiation disponibles.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Éditorial : Un monde multipolaire est-il nécessairement plus instable ? » ? “Selon certains analystes la multipolarité multiplierait les…”",
         "options": [
-          "puissances",
-          "dominantes",
-          "multipolarité",
-          "influence-t-elle"
+          "Deux puissances dominantes ou plusieurs pôles rivaux : la structure même du pouvoir mondial influence-t-elle la fréquence des conflits qui l’agitent ?",
+          "La question « Un monde multipolaire est-il nécessairement plus instable ? » occupe une place centrale dans l’analyse contemporaine.",
+          "Selon certains analystes, la multipolarité multiplierait les frictions ; d’autres soutiennent au contraire qu’elle multiplie les canaux de médiation disponibles.",
+          "L’annuaire 2024 du SIPRI relève une hausse continue et préoccupante des dépenses militaires mondiales et une multiplication des conflits armés actifs, ce qui a ravivé un débat ancien sur le lien entre la structure de la puissance internationale et la fréquence des affrontements."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Éditorial : Un monde multipolaire est-il nécessairement plus instable ? » ? “Ce cadre permet enfin…”",
         "options": [
-          "influence-t-elle",
-          "interchangeables",
-          "multilatéralisme",
-          "relier"
+          "Deux puissances dominantes ou plusieurs pôles rivaux : la structure même du pouvoir mondial influence-t-elle la fréquence des conflits qui l’agitent ?",
+          "La question « Un monde multipolaire est-il nécessairement plus instable ? » occupe une place centrale dans l’analyse contemporaine.",
+          "L’annuaire 2024 du SIPRI relève une hausse continue et préoccupante des dépenses militaires mondiales et une multiplication des conflits armés actifs, ce qui a ravivé un débat ancien sur le lien entre la structure de la puissance internationale et la fréquence des affrontements.",
+          "Ce cadre permet enfin de relier les faits à une décision argumentée."
         ]
       }
     ]
@@ -13666,92 +13666,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complète ce détail de l’audio.\n\n“Bonjour et bienvenue dans cette capsule consacrée aux _____.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Cinq conseils pour mieux réviser » ? “Bonjour et bienvenue…”",
             "options": [
               {
                 "id": "o1",
-                "text": "révisions"
+                "text": "Bonjour et bienvenue dans cette capsule consacrée aux révisions."
               },
               {
                 "id": "o2",
-                "text": "l’organisation"
+                "text": "Si vous avez un examen bientôt, vous pourriez commencer par préparer un calendrier réaliste."
               },
               {
                 "id": "o3",
-                "text": "quarante-cinq"
+                "text": "Il vaudrait mieux étudier un peu chaque jour plutôt que tout revoir la veille."
               },
               {
                 "id": "o4",
-                "text": "examen"
+                "text": "Deuxième conseil : identifiez vos difficultés."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel mot complète la phrase entendue ?\n\n“Vous devriez _____ plus de temps aux notions que vous comprenez moins bien.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Cinq conseils pour mieux réviser » ? “Vous devriez consacrer plus de…”",
             "options": [
               {
                 "id": "o1",
-                "text": "l’organisation"
+                "text": "Bonjour et bienvenue dans cette capsule consacrée aux révisions."
               },
               {
                 "id": "o2",
-                "text": "consacrer"
+                "text": "Vous devriez consacrer plus de temps aux notions que vous comprenez moins bien."
               },
               {
                 "id": "o3",
-                "text": "quarante-cinq"
+                "text": "Si vous avez un examen bientôt, vous pourriez commencer par préparer un calendrier réaliste."
               },
               {
                 "id": "o4",
-                "text": "examen"
+                "text": "Il vaudrait mieux étudier un peu chaque jour plutôt que tout revoir la veille."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“_____, n’oubliez pas les pauses.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Cinq conseils pour mieux réviser » ? “Enfin n’oubliez pas…”",
             "options": [
               {
                 "id": "o1",
-                "text": "l’organisation"
+                "text": "Bonjour et bienvenue dans cette capsule consacrée aux révisions."
               },
               {
                 "id": "o2",
-                "text": "quarante-cinq"
+                "text": "Si vous avez un examen bientôt, vous pourriez commencer par préparer un calendrier réaliste."
               },
               {
                 "id": "o3",
-                "text": "Enfin"
+                "text": "Enfin, n’oubliez pas les pauses."
               },
               {
                 "id": "o4",
-                "text": "fonctionnent"
+                "text": "Il vaudrait mieux étudier un peu chaque jour plutôt que tout revoir la veille."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Essayez ces conseils pendant une semaine, puis observez ceux qui _____ le mieux pour vous.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Cinq conseils pour mieux réviser » ? “Essayez ces conseils pendant une…”",
             "options": [
               {
                 "id": "o1",
-                "text": "bienvenue"
+                "text": "Bonjour et bienvenue dans cette capsule consacrée aux révisions."
               },
               {
                 "id": "o2",
-                "text": "consacrée"
+                "text": "Si vous avez un examen bientôt, vous pourriez commencer par préparer un calendrier réaliste."
               },
               {
                 "id": "o3",
-                "text": "révisions"
+                "text": "Il vaudrait mieux étudier un peu chaque jour plutôt que tout revoir la veille."
               },
               {
                 "id": "o4",
-                "text": "fonctionnent"
+                "text": "Essayez ces conseils pendant une semaine, puis observez ceux qui fonctionnent le mieux pour vous."
               }
             ]
           }
@@ -13762,42 +13762,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complète ce détail de l’audio.\n\n“Bonjour et bienvenue dans cette capsule consacrée aux _____.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Cinq conseils pour mieux réviser » ? “Bonjour et bienvenue…”",
         "options": [
-          "révisions",
-          "l’organisation",
-          "quarante-cinq",
-          "examen"
+          "Bonjour et bienvenue dans cette capsule consacrée aux révisions.",
+          "Si vous avez un examen bientôt, vous pourriez commencer par préparer un calendrier réaliste.",
+          "Il vaudrait mieux étudier un peu chaque jour plutôt que tout revoir la veille.",
+          "Deuxième conseil : identifiez vos difficultés."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel mot complète la phrase entendue ?\n\n“Vous devriez _____ plus de temps aux notions que vous comprenez moins bien.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Cinq conseils pour mieux réviser » ? “Vous devriez consacrer plus de…”",
         "options": [
-          "l’organisation",
-          "consacrer",
-          "quarante-cinq",
-          "examen"
+          "Bonjour et bienvenue dans cette capsule consacrée aux révisions.",
+          "Vous devriez consacrer plus de temps aux notions que vous comprenez moins bien.",
+          "Si vous avez un examen bientôt, vous pourriez commencer par préparer un calendrier réaliste.",
+          "Il vaudrait mieux étudier un peu chaque jour plutôt que tout revoir la veille."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“_____, n’oubliez pas les pauses.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Cinq conseils pour mieux réviser » ? “Enfin n’oubliez pas…”",
         "options": [
-          "l’organisation",
-          "quarante-cinq",
-          "Enfin",
-          "fonctionnent"
+          "Bonjour et bienvenue dans cette capsule consacrée aux révisions.",
+          "Si vous avez un examen bientôt, vous pourriez commencer par préparer un calendrier réaliste.",
+          "Enfin, n’oubliez pas les pauses.",
+          "Il vaudrait mieux étudier un peu chaque jour plutôt que tout revoir la veille."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Essayez ces conseils pendant une semaine, puis observez ceux qui _____ le mieux pour vous.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Cinq conseils pour mieux réviser » ? “Essayez ces conseils pendant une…”",
         "options": [
-          "bienvenue",
-          "consacrée",
-          "révisions",
-          "fonctionnent"
+          "Bonjour et bienvenue dans cette capsule consacrée aux révisions.",
+          "Si vous avez un examen bientôt, vous pourriez commencer par préparer un calendrier réaliste.",
+          "Il vaudrait mieux étudier un peu chaque jour plutôt que tout revoir la veille.",
+          "Essayez ces conseils pendant une semaine, puis observez ceux qui fonctionnent le mieux pour vous."
         ]
       }
     ]
@@ -13911,92 +13911,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complète ce détail de l’audio.\n\n“Dans un débat de société, défendre un point de vue ne consiste pas à répéter une opinion plus fort que les _____.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Le débat public et ses règles » ? “Dans un débat de société défendre un…”",
             "options": [
               {
                 "id": "o1",
-                "text": "autres"
+                "text": "Dans un débat de société, défendre un point de vue ne consiste pas à répéter une opinion plus fort que les autres."
               },
               {
                 "id": "o2",
-                "text": "contre-arguments"
+                "text": "Une idée doit être expliquée, illustrée et confrontée à des contre-arguments."
               },
               {
                 "id": "o3",
-                "text": "participation"
+                "text": "Pourtant, sur de nombreuses plateformes, les messages sont sélectionnés par des algorithmes et les réactions les plus fortes sont souvent mises en avant."
               },
               {
                 "id": "o4",
-                "text": "compréhension"
+                "text": "Le débat est alors transformé en spectacle et certaines nuances sont perdues."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel mot complète la phrase entendue ?\n\n“Le débat est alors transformé en _____ et certaines nuances sont perdues.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Le débat public et ses règles » ? “Le débat est alors…”",
             "options": [
               {
                 "id": "o1",
-                "text": "contre-arguments"
+                "text": "Dans un débat de société, défendre un point de vue ne consiste pas à répéter une opinion plus fort que les autres."
               },
               {
                 "id": "o2",
-                "text": "spectacle"
+                "text": "Le débat est alors transformé en spectacle et certaines nuances sont perdues."
               },
               {
                 "id": "o3",
-                "text": "participation"
+                "text": "Une idée doit être expliquée, illustrée et confrontée à des contre-arguments."
               },
               {
                 "id": "o4",
-                "text": "compréhension"
+                "text": "Pourtant, sur de nombreuses plateformes, les messages sont sélectionnés par des algorithmes et les réactions les plus fortes sont souvent mises en avant."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Pour améliorer la discussion, chaque _____ devrait être accompagné d’une source identifiable.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Le débat public et ses règles » ? “Pour améliorer la discussion…”",
             "options": [
               {
                 "id": "o1",
-                "text": "contre-arguments"
+                "text": "Dans un débat de société, défendre un point de vue ne consiste pas à répéter une opinion plus fort que les autres."
               },
               {
                 "id": "o2",
-                "text": "participation"
+                "text": "Une idée doit être expliquée, illustrée et confrontée à des contre-arguments."
               },
               {
                 "id": "o3",
-                "text": "argument"
+                "text": "Pour améliorer la discussion, chaque argument devrait être accompagné d’une source identifiable."
               },
               {
                 "id": "o4",
-                "text": "compréhension"
+                "text": "Pourtant, sur de nombreuses plateformes, les messages sont sélectionnés par des algorithmes et les réactions les plus fortes sont souvent mises en avant."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Une démocratie a _____ de désaccords, mais elle a surtout besoin de règles qui permettent à ces désaccords de produire de la compréhension plutôt que de la méfiance.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Le débat public et ses règles » ? “Une démocratie a besoin de désaccords mais…”",
             "options": [
               {
                 "id": "o1",
-                "text": "contre-arguments"
+                "text": "Dans un débat de société, défendre un point de vue ne consiste pas à répéter une opinion plus fort que les autres."
               },
               {
                 "id": "o2",
-                "text": "participation"
+                "text": "Une idée doit être expliquée, illustrée et confrontée à des contre-arguments."
               },
               {
                 "id": "o3",
-                "text": "compréhension"
+                "text": "Pourtant, sur de nombreuses plateformes, les messages sont sélectionnés par des algorithmes et les réactions les plus fortes sont souvent mises en avant."
               },
               {
                 "id": "o4",
-                "text": "besoin"
+                "text": "Une démocratie a besoin de désaccords, mais elle a surtout besoin de règles qui permettent à ces désaccords de produire de la compréhension plutôt que de la méfiance."
               }
             ]
           }
@@ -14007,42 +14007,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complète ce détail de l’audio.\n\n“Dans un débat de société, défendre un point de vue ne consiste pas à répéter une opinion plus fort que les _____.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Le débat public et ses règles » ? “Dans un débat de société défendre un…”",
         "options": [
-          "autres",
-          "contre-arguments",
-          "participation",
-          "compréhension"
+          "Dans un débat de société, défendre un point de vue ne consiste pas à répéter une opinion plus fort que les autres.",
+          "Une idée doit être expliquée, illustrée et confrontée à des contre-arguments.",
+          "Pourtant, sur de nombreuses plateformes, les messages sont sélectionnés par des algorithmes et les réactions les plus fortes sont souvent mises en avant.",
+          "Le débat est alors transformé en spectacle et certaines nuances sont perdues."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel mot complète la phrase entendue ?\n\n“Le débat est alors transformé en _____ et certaines nuances sont perdues.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Le débat public et ses règles » ? “Le débat est alors…”",
         "options": [
-          "contre-arguments",
-          "spectacle",
-          "participation",
-          "compréhension"
+          "Dans un débat de société, défendre un point de vue ne consiste pas à répéter une opinion plus fort que les autres.",
+          "Le débat est alors transformé en spectacle et certaines nuances sont perdues.",
+          "Une idée doit être expliquée, illustrée et confrontée à des contre-arguments.",
+          "Pourtant, sur de nombreuses plateformes, les messages sont sélectionnés par des algorithmes et les réactions les plus fortes sont souvent mises en avant."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Pour améliorer la discussion, chaque _____ devrait être accompagné d’une source identifiable.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Le débat public et ses règles » ? “Pour améliorer la discussion…”",
         "options": [
-          "contre-arguments",
-          "participation",
-          "argument",
-          "compréhension"
+          "Dans un débat de société, défendre un point de vue ne consiste pas à répéter une opinion plus fort que les autres.",
+          "Une idée doit être expliquée, illustrée et confrontée à des contre-arguments.",
+          "Pour améliorer la discussion, chaque argument devrait être accompagné d’une source identifiable.",
+          "Pourtant, sur de nombreuses plateformes, les messages sont sélectionnés par des algorithmes et les réactions les plus fortes sont souvent mises en avant."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Une démocratie a _____ de désaccords, mais elle a surtout besoin de règles qui permettent à ces désaccords de produire de la compréhension plutôt que de la méfiance.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Le débat public et ses règles » ? “Une démocratie a besoin de désaccords mais…”",
         "options": [
-          "contre-arguments",
-          "participation",
-          "compréhension",
-          "besoin"
+          "Dans un débat de société, défendre un point de vue ne consiste pas à répéter une opinion plus fort que les autres.",
+          "Une idée doit être expliquée, illustrée et confrontée à des contre-arguments.",
+          "Pourtant, sur de nombreuses plateformes, les messages sont sélectionnés par des algorithmes et les réactions les plus fortes sont souvent mises en avant.",
+          "Une démocratie a besoin de désaccords, mais elle a surtout besoin de règles qui permettent à ces désaccords de produire de la compréhension plutôt que de la méfiance."
         ]
       }
     ]
@@ -18500,92 +18500,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complète ce détail de l’audio.\n\n“Mon école à Tours est grande et _____.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Mon école à Tours » ? “Mon école à…”",
             "options": [
               {
                 "id": "o1",
-                "text": "moderne"
+                "text": "Mon école à Tours est grande et moderne."
               },
               {
                 "id": "o2",
-                "text": "mathématiques"
+                "text": "Il y a une bibliothèque, une cantine, un gymnase et plusieurs salles de classe."
               },
               {
                 "id": "o3",
-                "text": "intéressantes"
+                "text": "Dans ma classe, il y a un tableau blanc, un ordinateur et vingt bureaux."
               },
               {
                 "id": "o4",
-                "text": "bibliothèque"
+                "text": "La professeure a un livre, des feuilles et des stylos."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel mot complète la phrase entendue ?\n\n“La professeure a un livre, des _____ et des stylos.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Mon école à Tours » ? “La professeure a un…”",
             "options": [
               {
                 "id": "o1",
-                "text": "mathématiques"
+                "text": "Mon école à Tours est grande et moderne."
               },
               {
                 "id": "o2",
-                "text": "feuilles"
+                "text": "La professeure a un livre, des feuilles et des stylos."
               },
               {
                 "id": "o3",
-                "text": "intéressantes"
+                "text": "Il y a une bibliothèque, une cantine, un gymnase et plusieurs salles de classe."
               },
               {
                 "id": "o4",
-                "text": "bibliothèque"
+                "text": "Dans ma classe, il y a un tableau blanc, un ordinateur et vingt bureaux."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Le matin, nous _____ le français et les mathématiques.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Mon école à Tours » ? “Le matin nous…”",
             "options": [
               {
                 "id": "o1",
-                "text": "mathématiques"
+                "text": "Mon école à Tours est grande et moderne."
               },
               {
                 "id": "o2",
-                "text": "intéressantes"
+                "text": "Il y a une bibliothèque, une cantine, un gymnase et plusieurs salles de classe."
               },
               {
                 "id": "o3",
-                "text": "étudions"
+                "text": "Le matin, nous étudions le français et les mathématiques."
               },
               {
                 "id": "o4",
-                "text": "bibliothèque"
+                "text": "Dans ma classe, il y a un tableau blanc, un ordinateur et vingt bureaux."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“J’aime l’école parce que les professeurs sont gentils et les activités sont _____.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Mon école à Tours » ? “J’aime l’école parce que les…”",
             "options": [
               {
                 "id": "o1",
-                "text": "ordinateur"
+                "text": "Mon école à Tours est grande et moderne."
               },
               {
                 "id": "o2",
-                "text": "professeure"
+                "text": "Il y a une bibliothèque, une cantine, un gymnase et plusieurs salles de classe."
               },
               {
                 "id": "o3",
-                "text": "professeurs"
+                "text": "Dans ma classe, il y a un tableau blanc, un ordinateur et vingt bureaux."
               },
               {
                 "id": "o4",
-                "text": "intéressantes"
+                "text": "J’aime l’école parce que les professeurs sont gentils et les activités sont intéressantes."
               }
             ]
           }
@@ -18596,42 +18596,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complète ce détail de l’audio.\n\n“Mon école à Tours est grande et _____.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Mon école à Tours » ? “Mon école à…”",
         "options": [
-          "moderne",
-          "mathématiques",
-          "intéressantes",
-          "bibliothèque"
+          "Mon école à Tours est grande et moderne.",
+          "Il y a une bibliothèque, une cantine, un gymnase et plusieurs salles de classe.",
+          "Dans ma classe, il y a un tableau blanc, un ordinateur et vingt bureaux.",
+          "La professeure a un livre, des feuilles et des stylos."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel mot complète la phrase entendue ?\n\n“La professeure a un livre, des _____ et des stylos.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Mon école à Tours » ? “La professeure a un…”",
         "options": [
-          "mathématiques",
-          "feuilles",
-          "intéressantes",
-          "bibliothèque"
+          "Mon école à Tours est grande et moderne.",
+          "La professeure a un livre, des feuilles et des stylos.",
+          "Il y a une bibliothèque, une cantine, un gymnase et plusieurs salles de classe.",
+          "Dans ma classe, il y a un tableau blanc, un ordinateur et vingt bureaux."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Le matin, nous _____ le français et les mathématiques.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Mon école à Tours » ? “Le matin nous…”",
         "options": [
-          "mathématiques",
-          "intéressantes",
-          "étudions",
-          "bibliothèque"
+          "Mon école à Tours est grande et moderne.",
+          "Il y a une bibliothèque, une cantine, un gymnase et plusieurs salles de classe.",
+          "Le matin, nous étudions le français et les mathématiques.",
+          "Dans ma classe, il y a un tableau blanc, un ordinateur et vingt bureaux."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“J’aime l’école parce que les professeurs sont gentils et les activités sont _____.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Mon école à Tours » ? “J’aime l’école parce que les…”",
         "options": [
-          "ordinateur",
-          "professeure",
-          "professeurs",
-          "intéressantes"
+          "Mon école à Tours est grande et moderne.",
+          "Il y a une bibliothèque, une cantine, un gymnase et plusieurs salles de classe.",
+          "Dans ma classe, il y a un tableau blanc, un ordinateur et vingt bureaux.",
+          "J’aime l’école parce que les professeurs sont gentils et les activités sont intéressantes."
         ]
       }
     ]
@@ -18720,92 +18720,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complète ce détail de l’audio.\n\n“Depuis deux jours, Camila se sent _____ et elle a mal à la gorge.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Une journée pour se reposer » ? “Depuis deux jours Camila se…”",
             "options": [
               {
                 "id": "o1",
-                "text": "fatiguée"
+                "text": "Depuis deux jours, Camila se sent fatiguée et elle a mal à la gorge."
               },
               {
                 "id": "o2",
-                "text": "l’accompagne"
+                "text": "Ce matin, elle a aussi un peu de fièvre."
               },
               {
                 "id": "o3",
-                "text": "consultation"
+                "text": "Madame Lambert prend un rendez-vous médical et l’accompagne chez le docteur Martin."
               },
               {
                 "id": "o4",
-                "text": "jours"
+                "text": "Le médecin examine Camila et lui demande où elle a mal."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel mot complète la phrase entendue ?\n\n“Le médecin _____ Camila et lui demande où elle a mal.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Une journée pour se reposer » ? “Le médecin examine Camila…”",
             "options": [
               {
                 "id": "o1",
-                "text": "l’accompagne"
+                "text": "Depuis deux jours, Camila se sent fatiguée et elle a mal à la gorge."
               },
               {
                 "id": "o2",
-                "text": "examine"
+                "text": "Le médecin examine Camila et lui demande où elle a mal."
               },
               {
                 "id": "o3",
-                "text": "consultation"
+                "text": "Ce matin, elle a aussi un peu de fièvre."
               },
               {
                 "id": "o4",
-                "text": "rendez-vous"
+                "text": "Madame Lambert prend un rendez-vous médical et l’accompagne chez le docteur Martin."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Le médecin lui conseille de se reposer, de boire _____ d’eau et de prendre un médicament trois fois par jour.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Une journée pour se reposer » ? “Le médecin lui conseille de se reposer…”",
             "options": [
               {
                 "id": "o1",
-                "text": "l’accompagne"
+                "text": "Depuis deux jours, Camila se sent fatiguée et elle a mal à la gorge."
               },
               {
                 "id": "o2",
-                "text": "consultation"
+                "text": "Ce matin, elle a aussi un peu de fièvre."
               },
               {
                 "id": "o3",
-                "text": "beaucoup"
+                "text": "Le médecin lui conseille de se reposer, de boire beaucoup d’eau et de prendre un médicament trois fois par jour."
               },
               {
                 "id": "o4",
-                "text": "jours"
+                "text": "Madame Lambert prend un rendez-vous médical et l’accompagne chez le docteur Martin."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Le soir, elle se sent déjà mieux et promet de rester au calme le _____.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Une journée pour se reposer » ? “Le soir elle se sent…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Depuis"
+                "text": "Depuis deux jours, Camila se sent fatiguée et elle a mal à la gorge."
               },
               {
                 "id": "o2",
-                "text": "Camila"
+                "text": "Ce matin, elle a aussi un peu de fièvre."
               },
               {
                 "id": "o3",
-                "text": "fièvre"
+                "text": "Madame Lambert prend un rendez-vous médical et l’accompagne chez le docteur Martin."
               },
               {
                 "id": "o4",
-                "text": "lendemain"
+                "text": "Le soir, elle se sent déjà mieux et promet de rester au calme le lendemain."
               }
             ]
           }
@@ -18816,42 +18816,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complète ce détail de l’audio.\n\n“Depuis deux jours, Camila se sent _____ et elle a mal à la gorge.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Une journée pour se reposer » ? “Depuis deux jours Camila se…”",
         "options": [
-          "fatiguée",
-          "l’accompagne",
-          "consultation",
-          "jours"
+          "Depuis deux jours, Camila se sent fatiguée et elle a mal à la gorge.",
+          "Ce matin, elle a aussi un peu de fièvre.",
+          "Madame Lambert prend un rendez-vous médical et l’accompagne chez le docteur Martin.",
+          "Le médecin examine Camila et lui demande où elle a mal."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel mot complète la phrase entendue ?\n\n“Le médecin _____ Camila et lui demande où elle a mal.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Une journée pour se reposer » ? “Le médecin examine Camila…”",
         "options": [
-          "l’accompagne",
-          "examine",
-          "consultation",
-          "rendez-vous"
+          "Depuis deux jours, Camila se sent fatiguée et elle a mal à la gorge.",
+          "Le médecin examine Camila et lui demande où elle a mal.",
+          "Ce matin, elle a aussi un peu de fièvre.",
+          "Madame Lambert prend un rendez-vous médical et l’accompagne chez le docteur Martin."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Le médecin lui conseille de se reposer, de boire _____ d’eau et de prendre un médicament trois fois par jour.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Une journée pour se reposer » ? “Le médecin lui conseille de se reposer…”",
         "options": [
-          "l’accompagne",
-          "consultation",
-          "beaucoup",
-          "jours"
+          "Depuis deux jours, Camila se sent fatiguée et elle a mal à la gorge.",
+          "Ce matin, elle a aussi un peu de fièvre.",
+          "Le médecin lui conseille de se reposer, de boire beaucoup d’eau et de prendre un médicament trois fois par jour.",
+          "Madame Lambert prend un rendez-vous médical et l’accompagne chez le docteur Martin."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Le soir, elle se sent déjà mieux et promet de rester au calme le _____.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Une journée pour se reposer » ? “Le soir elle se sent…”",
         "options": [
-          "Depuis",
-          "Camila",
-          "fièvre",
-          "lendemain"
+          "Depuis deux jours, Camila se sent fatiguée et elle a mal à la gorge.",
+          "Ce matin, elle a aussi un peu de fièvre.",
+          "Madame Lambert prend un rendez-vous médical et l’accompagne chez le docteur Martin.",
+          "Le soir, elle se sent déjà mieux et promet de rester au calme le lendemain."
         ]
       }
     ]
@@ -18976,92 +18976,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complète ce détail de l’audio.\n\n“Soumettre une page de Patrick Chamoiseau à un moteur de traduction neuronale, c’est observer en direct les limites d’une technologie par ailleurs _____.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Conférence : Traduire sans effacer la voix » ? “Soumettre une page de Patrick Chamoiseau à…”",
             "options": [
               {
                 "id": "o1",
-                "text": "impressionnante"
+                "text": "Soumettre une page de Patrick Chamoiseau à un moteur de traduction neuronale, c’est observer en direct les limites d’une technologie par ailleurs impressionnante."
               },
               {
                 "id": "o2",
-                "text": "martiniquais"
+                "text": "Le texte original mêle français standard, créole martiniquais et images empruntées à l’oralité des conteurs ; le résultat produit par la machine, lui, est grammaticalement impeccable, fluide et livré en une seconde."
               },
               {
                 "id": "o3",
-                "text": "raisonnement"
+                "text": "Pourtant, quelque chose s’y aplatit systématiquement : une expression créole intraduisible devient une formule neutre et interchangeable, et l’ironie d’une phrase se transforme, sans prévenir, en affirmation sérieuse."
               },
               {
                 "id": "o4",
-                "text": "sous-entendu"
+                "text": "Les défenseurs de ces outils rappellent, à juste titre, le temps qu’ils permettent de gagner : Google Translate traite aujourd’hui plus de cent milliards de mots par jour, un volume qu’aucune profession humaine ne pourrait absorber."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel mot complète la phrase entendue ?\n\n“Les _____ de ces outils rappellent, à juste titre, le temps qu’ils permettent de gagner : Google Translate traite aujourd’hui plus de cent milliards de mots par jour, un volume qu’aucune profession humaine ne pourrait absorber.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Conférence : Traduire sans effacer la voix » ? “Les défenseurs de ces outils rappellent à…”",
             "options": [
               {
                 "id": "o1",
-                "text": "grammaticalement"
+                "text": "Soumettre une page de Patrick Chamoiseau à un moteur de traduction neuronale, c’est observer en direct les limites d’une technologie par ailleurs impressionnante."
               },
               {
                 "id": "o2",
-                "text": "défenseurs"
+                "text": "Les défenseurs de ces outils rappellent, à juste titre, le temps qu’ils permettent de gagner : Google Translate traite aujourd’hui plus de cent milliards de mots par jour, un volume qu’aucune profession humaine ne pourrait absorber."
               },
               {
                 "id": "o3",
-                "text": "systématiquement"
+                "text": "Le texte original mêle français standard, créole martiniquais et images empruntées à l’oralité des conteurs ; le résultat produit par la machine, lui, est grammaticalement impeccable, fluide et livré en une seconde."
               },
               {
                 "id": "o4",
-                "text": "impressionnante"
+                "text": "Pourtant, quelque chose s’y aplatit systématiquement : une expression créole intraduisible devient une formule neutre et interchangeable, et l’ironie d’une phrase se transforme, sans prévenir, en affirmation sérieuse."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Elles ne constituent pas une simple liste : chacune _____ une étape, une tension ou une conséquence du problème.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Conférence : Traduire sans effacer la voix » ? “Elles ne constituent pas une simple…”",
             "options": [
               {
                 "id": "o1",
-                "text": "grammaticalement"
+                "text": "Soumettre une page de Patrick Chamoiseau à un moteur de traduction neuronale, c’est observer en direct les limites d’une technologie par ailleurs impressionnante."
               },
               {
                 "id": "o2",
-                "text": "systématiquement"
+                "text": "Le texte original mêle français standard, créole martiniquais et images empruntées à l’oralité des conteurs ; le résultat produit par la machine, lui, est grammaticalement impeccable, fluide et livré en une seconde."
               },
               {
                 "id": "o3",
-                "text": "éclaire"
+                "text": "Elles ne constituent pas une simple liste : chacune éclaire une étape, une tension ou une conséquence du problème."
               },
               {
                 "id": "o4",
-                "text": "impressionnante"
+                "text": "Pourtant, quelque chose s’y aplatit systématiquement : une expression créole intraduisible devient une formule neutre et interchangeable, et l’ironie d’une phrase se transforme, sans prévenir, en affirmation sérieuse."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Conférence : Traduire sans effacer la voix » ? “Ce cadre permet enfin…”",
             "options": [
               {
                 "id": "o1",
-                "text": "grammaticalement"
+                "text": "Soumettre une page de Patrick Chamoiseau à un moteur de traduction neuronale, c’est observer en direct les limites d’une technologie par ailleurs impressionnante."
               },
               {
                 "id": "o2",
-                "text": "systématiquement"
+                "text": "Le texte original mêle français standard, créole martiniquais et images empruntées à l’oralité des conteurs ; le résultat produit par la machine, lui, est grammaticalement impeccable, fluide et livré en une seconde."
               },
               {
                 "id": "o3",
-                "text": "impressionnante"
+                "text": "Pourtant, quelque chose s’y aplatit systématiquement : une expression créole intraduisible devient une formule neutre et interchangeable, et l’ironie d’une phrase se transforme, sans prévenir, en affirmation sérieuse."
               },
               {
                 "id": "o4",
-                "text": "relier"
+                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
               }
             ]
           }
@@ -19072,42 +19072,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complète ce détail de l’audio.\n\n“Soumettre une page de Patrick Chamoiseau à un moteur de traduction neuronale, c’est observer en direct les limites d’une technologie par ailleurs _____.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Conférence : Traduire sans effacer la voix » ? “Soumettre une page de Patrick Chamoiseau à…”",
         "options": [
-          "impressionnante",
-          "martiniquais",
-          "raisonnement",
-          "sous-entendu"
+          "Soumettre une page de Patrick Chamoiseau à un moteur de traduction neuronale, c’est observer en direct les limites d’une technologie par ailleurs impressionnante.",
+          "Le texte original mêle français standard, créole martiniquais et images empruntées à l’oralité des conteurs ; le résultat produit par la machine, lui, est grammaticalement impeccable, fluide et livré en une seconde.",
+          "Pourtant, quelque chose s’y aplatit systématiquement : une expression créole intraduisible devient une formule neutre et interchangeable, et l’ironie d’une phrase se transforme, sans prévenir, en affirmation sérieuse.",
+          "Les défenseurs de ces outils rappellent, à juste titre, le temps qu’ils permettent de gagner : Google Translate traite aujourd’hui plus de cent milliards de mots par jour, un volume qu’aucune profession humaine ne pourrait absorber."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel mot complète la phrase entendue ?\n\n“Les _____ de ces outils rappellent, à juste titre, le temps qu’ils permettent de gagner : Google Translate traite aujourd’hui plus de cent milliards de mots par jour, un volume qu’aucune profession humaine ne pourrait absorber.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Conférence : Traduire sans effacer la voix » ? “Les défenseurs de ces outils rappellent à…”",
         "options": [
-          "grammaticalement",
-          "défenseurs",
-          "systématiquement",
-          "impressionnante"
+          "Soumettre une page de Patrick Chamoiseau à un moteur de traduction neuronale, c’est observer en direct les limites d’une technologie par ailleurs impressionnante.",
+          "Les défenseurs de ces outils rappellent, à juste titre, le temps qu’ils permettent de gagner : Google Translate traite aujourd’hui plus de cent milliards de mots par jour, un volume qu’aucune profession humaine ne pourrait absorber.",
+          "Le texte original mêle français standard, créole martiniquais et images empruntées à l’oralité des conteurs ; le résultat produit par la machine, lui, est grammaticalement impeccable, fluide et livré en une seconde.",
+          "Pourtant, quelque chose s’y aplatit systématiquement : une expression créole intraduisible devient une formule neutre et interchangeable, et l’ironie d’une phrase se transforme, sans prévenir, en affirmation sérieuse."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Elles ne constituent pas une simple liste : chacune _____ une étape, une tension ou une conséquence du problème.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Conférence : Traduire sans effacer la voix » ? “Elles ne constituent pas une simple…”",
         "options": [
-          "grammaticalement",
-          "systématiquement",
-          "éclaire",
-          "impressionnante"
+          "Soumettre une page de Patrick Chamoiseau à un moteur de traduction neuronale, c’est observer en direct les limites d’une technologie par ailleurs impressionnante.",
+          "Le texte original mêle français standard, créole martiniquais et images empruntées à l’oralité des conteurs ; le résultat produit par la machine, lui, est grammaticalement impeccable, fluide et livré en une seconde.",
+          "Elles ne constituent pas une simple liste : chacune éclaire une étape, une tension ou une conséquence du problème.",
+          "Pourtant, quelque chose s’y aplatit systématiquement : une expression créole intraduisible devient une formule neutre et interchangeable, et l’ironie d’une phrase se transforme, sans prévenir, en affirmation sérieuse."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Conférence : Traduire sans effacer la voix » ? “Ce cadre permet enfin…”",
         "options": [
-          "grammaticalement",
-          "systématiquement",
-          "impressionnante",
-          "relier"
+          "Soumettre une page de Patrick Chamoiseau à un moteur de traduction neuronale, c’est observer en direct les limites d’une technologie par ailleurs impressionnante.",
+          "Le texte original mêle français standard, créole martiniquais et images empruntées à l’oralité des conteurs ; le résultat produit par la machine, lui, est grammaticalement impeccable, fluide et livré en une seconde.",
+          "Pourtant, quelque chose s’y aplatit systématiquement : une expression créole intraduisible devient une formule neutre et interchangeable, et l’ironie d’une phrase se transforme, sans prévenir, en affirmation sérieuse.",
+          "Ce cadre permet enfin de relier les faits à une décision argumentée."
         ]
       }
     ]
@@ -19242,92 +19242,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complète ce détail de l’audio.\n\n“Sur un même écran, un adolescent défile pendant des heures, ce qui inquiète autant que cela divise les chercheurs sur ses _____ réels.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Conférence : Les écrans rendent-ils vraiment malheureux ? » ? “Sur un même écran un adolescent défile…”",
             "options": [
               {
                 "id": "o1",
-                "text": "effets"
+                "text": "Sur un même écran, un adolescent défile pendant des heures, ce qui inquiète autant que cela divise les chercheurs sur ses effets réels."
               },
               {
                 "id": "o2",
-                "text": "interchangeables"
+                "text": "La question « Les écrans rendent-ils vraiment malheureux ? » occupe une place centrale dans l’analyse contemporaine."
               },
               {
                 "id": "o3",
-                "text": "statistiquement"
+                "text": "Le rapport mondial de l’OMS sur la santé mentale publié en 2023 signale une hausse des troubles anxieux et dépressifs chez les adolescents dans plusieurs régions du monde, une évolution que de nombreux commentateurs attribuent spontanément à la généralisation des réseaux sociaux, sans toujours distinguer corrélation temporelle et mécanisme causal démontré."
               },
               {
                 "id": "o4",
-                "text": "généralisation"
+                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel mot complète la phrase entendue ?\n\n“Une _____ sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Conférence : Les écrans rendent-ils vraiment malheureux ? » ? “Une réponse sérieuse doit distinguer ce que…”",
             "options": [
               {
                 "id": "o1",
-                "text": "interchangeables"
+                "text": "Sur un même écran, un adolescent défile pendant des heures, ce qui inquiète autant que cela divise les chercheurs sur ses effets réels."
               },
               {
                 "id": "o2",
-                "text": "réponse"
+                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
               },
               {
                 "id": "o3",
-                "text": "statistiquement"
+                "text": "La question « Les écrans rendent-ils vraiment malheureux ? » occupe une place centrale dans l’analyse contemporaine."
               },
               {
                 "id": "o4",
-                "text": "généralisation"
+                "text": "Le rapport mondial de l’OMS sur la santé mentale publié en 2023 signale une hausse des troubles anxieux et dépressifs chez les adolescents dans plusieurs régions du monde, une évolution que de nombreux commentateurs attribuent spontanément à la généralisation des réseaux sociaux, sans toujours distinguer corrélation temporelle et mécanisme causal démontré."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Pour autant que l’usage demeure actif _____ que passif, il n’est pas certain que le lien entre réseaux sociaux et mal-être soit aussi massif qu’on le prétend.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Conférence : Les écrans rendent-ils vraiment malheureux ? » ? “Pour autant que l’usage demeure actif plutôt…”",
             "options": [
               {
                 "id": "o1",
-                "text": "interchangeables"
+                "text": "Sur un même écran, un adolescent défile pendant des heures, ce qui inquiète autant que cela divise les chercheurs sur ses effets réels."
               },
               {
                 "id": "o2",
-                "text": "statistiquement"
+                "text": "La question « Les écrans rendent-ils vraiment malheureux ? » occupe une place centrale dans l’analyse contemporaine."
               },
               {
                 "id": "o3",
-                "text": "plutôt"
+                "text": "Pour autant que l’usage demeure actif plutôt que passif, il n’est pas certain que le lien entre réseaux sociaux et mal-être soit aussi massif qu’on le prétend."
               },
               {
                 "id": "o4",
-                "text": "généralisation"
+                "text": "Le rapport mondial de l’OMS sur la santé mentale publié en 2023 signale une hausse des troubles anxieux et dépressifs chez les adolescents dans plusieurs régions du monde, une évolution que de nombreux commentateurs attribuent spontanément à la généralisation des réseaux sociaux, sans toujours distinguer corrélation temporelle et mécanisme causal démontré."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Conférence : Les écrans rendent-ils vraiment malheureux ? » ? “Ce cadre permet enfin…”",
             "options": [
               {
                 "id": "o1",
-                "text": "interchangeables"
+                "text": "Sur un même écran, un adolescent défile pendant des heures, ce qui inquiète autant que cela divise les chercheurs sur ses effets réels."
               },
               {
                 "id": "o2",
-                "text": "statistiquement"
+                "text": "La question « Les écrans rendent-ils vraiment malheureux ? » occupe une place centrale dans l’analyse contemporaine."
               },
               {
                 "id": "o3",
-                "text": "généralisation"
+                "text": "Le rapport mondial de l’OMS sur la santé mentale publié en 2023 signale une hausse des troubles anxieux et dépressifs chez les adolescents dans plusieurs régions du monde, une évolution que de nombreux commentateurs attribuent spontanément à la généralisation des réseaux sociaux, sans toujours distinguer corrélation temporelle et mécanisme causal démontré."
               },
               {
                 "id": "o4",
-                "text": "relier"
+                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
               }
             ]
           }
@@ -19338,42 +19338,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complète ce détail de l’audio.\n\n“Sur un même écran, un adolescent défile pendant des heures, ce qui inquiète autant que cela divise les chercheurs sur ses _____ réels.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Conférence : Les écrans rendent-ils vraiment malheureux ? » ? “Sur un même écran un adolescent défile…”",
         "options": [
-          "effets",
-          "interchangeables",
-          "statistiquement",
-          "généralisation"
+          "Sur un même écran, un adolescent défile pendant des heures, ce qui inquiète autant que cela divise les chercheurs sur ses effets réels.",
+          "La question « Les écrans rendent-ils vraiment malheureux ? » occupe une place centrale dans l’analyse contemporaine.",
+          "Le rapport mondial de l’OMS sur la santé mentale publié en 2023 signale une hausse des troubles anxieux et dépressifs chez les adolescents dans plusieurs régions du monde, une évolution que de nombreux commentateurs attribuent spontanément à la généralisation des réseaux sociaux, sans toujours distinguer corrélation temporelle et mécanisme causal démontré.",
+          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel mot complète la phrase entendue ?\n\n“Une _____ sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Conférence : Les écrans rendent-ils vraiment malheureux ? » ? “Une réponse sérieuse doit distinguer ce que…”",
         "options": [
-          "interchangeables",
-          "réponse",
-          "statistiquement",
-          "généralisation"
+          "Sur un même écran, un adolescent défile pendant des heures, ce qui inquiète autant que cela divise les chercheurs sur ses effets réels.",
+          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.",
+          "La question « Les écrans rendent-ils vraiment malheureux ? » occupe une place centrale dans l’analyse contemporaine.",
+          "Le rapport mondial de l’OMS sur la santé mentale publié en 2023 signale une hausse des troubles anxieux et dépressifs chez les adolescents dans plusieurs régions du monde, une évolution que de nombreux commentateurs attribuent spontanément à la généralisation des réseaux sociaux, sans toujours distinguer corrélation temporelle et mécanisme causal démontré."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Pour autant que l’usage demeure actif _____ que passif, il n’est pas certain que le lien entre réseaux sociaux et mal-être soit aussi massif qu’on le prétend.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Conférence : Les écrans rendent-ils vraiment malheureux ? » ? “Pour autant que l’usage demeure actif plutôt…”",
         "options": [
-          "interchangeables",
-          "statistiquement",
-          "plutôt",
-          "généralisation"
+          "Sur un même écran, un adolescent défile pendant des heures, ce qui inquiète autant que cela divise les chercheurs sur ses effets réels.",
+          "La question « Les écrans rendent-ils vraiment malheureux ? » occupe une place centrale dans l’analyse contemporaine.",
+          "Pour autant que l’usage demeure actif plutôt que passif, il n’est pas certain que le lien entre réseaux sociaux et mal-être soit aussi massif qu’on le prétend.",
+          "Le rapport mondial de l’OMS sur la santé mentale publié en 2023 signale une hausse des troubles anxieux et dépressifs chez les adolescents dans plusieurs régions du monde, une évolution que de nombreux commentateurs attribuent spontanément à la généralisation des réseaux sociaux, sans toujours distinguer corrélation temporelle et mécanisme causal démontré."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Conférence : Les écrans rendent-ils vraiment malheureux ? » ? “Ce cadre permet enfin…”",
         "options": [
-          "interchangeables",
-          "statistiquement",
-          "généralisation",
-          "relier"
+          "Sur un même écran, un adolescent défile pendant des heures, ce qui inquiète autant que cela divise les chercheurs sur ses effets réels.",
+          "La question « Les écrans rendent-ils vraiment malheureux ? » occupe une place centrale dans l’analyse contemporaine.",
+          "Le rapport mondial de l’OMS sur la santé mentale publié en 2023 signale une hausse des troubles anxieux et dépressifs chez les adolescents dans plusieurs régions du monde, une évolution que de nombreux commentateurs attribuent spontanément à la généralisation des réseaux sociaux, sans toujours distinguer corrélation temporelle et mécanisme causal démontré.",
+          "Ce cadre permet enfin de relier les faits à une décision argumentée."
         ]
       }
     ]
@@ -19477,92 +19477,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complète ce détail de l’audio.\n\n“Vous avez obtenu un entretien _____ ou de stage ?”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Réussir un premier entretien » ? “Vous avez obtenu…”",
             "options": [
               {
                 "id": "o1",
-                "text": "d’embauche"
+                "text": "Vous avez obtenu un entretien d’embauche ou de stage ?"
               },
               {
                 "id": "o2",
-                "text": "l’organisation"
+                "text": "Voici quelques conseils pour vous préparer."
               },
               {
                 "id": "o3",
-                "text": "Relisez"
+                "text": "Relisez d’abord l’annonce et votre CV afin d’identifier les compétences recherchées."
               },
               {
                 "id": "o4",
-                "text": "d’abord"
+                "text": "Préparez deux ou trois exemples concrets qui montrent ce que vous savez faire."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel mot complète la phrase entendue ?\n\n“Le jour de l’entretien, _____ quelques minutes en avance et adoptez un langage professionnel.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Réussir un premier entretien » ? “Le jour de l’entretien arrivez…”",
             "options": [
               {
                 "id": "o1",
-                "text": "l’organisation"
+                "text": "Vous avez obtenu un entretien d’embauche ou de stage ?"
               },
               {
                 "id": "o2",
-                "text": "arrivez"
+                "text": "Le jour de l’entretien, arrivez quelques minutes en avance et adoptez un langage professionnel."
               },
               {
                 "id": "o3",
-                "text": "professionnel"
+                "text": "Voici quelques conseils pour vous préparer."
               },
               {
                 "id": "o4",
-                "text": "Pourriez-vous"
+                "text": "Relisez d’abord l’annonce et votre CV afin d’identifier les compétences recherchées."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Ne cherchez pas à réciter des réponses _____.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Réussir un premier entretien » ? “Ne cherchez pas…”",
             "options": [
               {
                 "id": "o1",
-                "text": "l’organisation"
+                "text": "Vous avez obtenu un entretien d’embauche ou de stage ?"
               },
               {
                 "id": "o2",
-                "text": "professionnel"
+                "text": "Voici quelques conseils pour vous préparer."
               },
               {
                 "id": "o3",
-                "text": "parfaites"
+                "text": "Ne cherchez pas à réciter des réponses parfaites."
               },
               {
                 "id": "o4",
-                "text": "Pourriez-vous"
+                "text": "Relisez d’abord l’annonce et votre CV afin d’identifier les compétences recherchées."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Au lieu de dire « Je veux ce poste », vous pourriez dire : « Je voudrais rejoindre votre équipe parce que ce stage correspond à mon _____. » Si une question n’est pas claire, demandez poliment : « Pourriez-vous la reformuler, s’il vous plaît ? » Vous pouvez aussi poser une question sur les missions ou l’organisation du travail.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Réussir un premier entretien » ? “Au lieu de dire Je veux ce…”",
             "options": [
               {
                 "id": "o1",
-                "text": "l’organisation"
+                "text": "Vous avez obtenu un entretien d’embauche ou de stage ?"
               },
               {
                 "id": "o2",
-                "text": "professionnel"
+                "text": "Voici quelques conseils pour vous préparer."
               },
               {
                 "id": "o3",
-                "text": "Pourriez-vous"
+                "text": "Relisez d’abord l’annonce et votre CV afin d’identifier les compétences recherchées."
               },
               {
                 "id": "o4",
-                "text": "projet"
+                "text": "Au lieu de dire « Je veux ce poste », vous pourriez dire : « Je voudrais rejoindre votre équipe parce que ce stage correspond à mon projet. » Si une question n’est pas claire, demandez poliment : « Pourriez-vous la reformuler, s’il vous plaît ? » Vous pouvez aussi poser une question sur les missions ou l’organisation du travail."
               }
             ]
           }
@@ -19573,42 +19573,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complète ce détail de l’audio.\n\n“Vous avez obtenu un entretien _____ ou de stage ?”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Réussir un premier entretien » ? “Vous avez obtenu…”",
         "options": [
-          "d’embauche",
-          "l’organisation",
-          "Relisez",
-          "d’abord"
+          "Vous avez obtenu un entretien d’embauche ou de stage ?",
+          "Voici quelques conseils pour vous préparer.",
+          "Relisez d’abord l’annonce et votre CV afin d’identifier les compétences recherchées.",
+          "Préparez deux ou trois exemples concrets qui montrent ce que vous savez faire."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel mot complète la phrase entendue ?\n\n“Le jour de l’entretien, _____ quelques minutes en avance et adoptez un langage professionnel.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Réussir un premier entretien » ? “Le jour de l’entretien arrivez…”",
         "options": [
-          "l’organisation",
-          "arrivez",
-          "professionnel",
-          "Pourriez-vous"
+          "Vous avez obtenu un entretien d’embauche ou de stage ?",
+          "Le jour de l’entretien, arrivez quelques minutes en avance et adoptez un langage professionnel.",
+          "Voici quelques conseils pour vous préparer.",
+          "Relisez d’abord l’annonce et votre CV afin d’identifier les compétences recherchées."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Ne cherchez pas à réciter des réponses _____.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Réussir un premier entretien » ? “Ne cherchez pas…”",
         "options": [
-          "l’organisation",
-          "professionnel",
-          "parfaites",
-          "Pourriez-vous"
+          "Vous avez obtenu un entretien d’embauche ou de stage ?",
+          "Voici quelques conseils pour vous préparer.",
+          "Ne cherchez pas à réciter des réponses parfaites.",
+          "Relisez d’abord l’annonce et votre CV afin d’identifier les compétences recherchées."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Au lieu de dire « Je veux ce poste », vous pourriez dire : « Je voudrais rejoindre votre équipe parce que ce stage correspond à mon _____. » Si une question n’est pas claire, demandez poliment : « Pourriez-vous la reformuler, s’il vous plaît ? » Vous pouvez aussi poser une question sur les missions ou l’organisation du travail.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Réussir un premier entretien » ? “Au lieu de dire Je veux ce…”",
         "options": [
-          "l’organisation",
-          "professionnel",
-          "Pourriez-vous",
-          "projet"
+          "Vous avez obtenu un entretien d’embauche ou de stage ?",
+          "Voici quelques conseils pour vous préparer.",
+          "Relisez d’abord l’annonce et votre CV afin d’identifier les compétences recherchées.",
+          "Au lieu de dire « Je veux ce poste », vous pourriez dire : « Je voudrais rejoindre votre équipe parce que ce stage correspond à mon projet. » Si une question n’est pas claire, demandez poliment : « Pourriez-vous la reformuler, s’il vous plaît ? » Vous pouvez aussi poser une question sur les missions ou l’organisation du travail."
         ]
       }
     ]
@@ -19727,92 +19727,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complète ce détail de l’audio.\n\n“En travaillant depuis chez elle pendant trois ans, Sarah a découvert les deux faces du _____.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Télétravail : autonomie ou isolement ? » ? “En travaillant depuis chez elle pendant…”",
             "options": [
               {
                 "id": "o1",
-                "text": "télétravail"
+                "text": "En travaillant depuis chez elle pendant trois ans, Sarah a découvert les deux faces du télétravail."
               },
               {
                 "id": "o2",
-                "text": "professionnelles"
+                "text": "Au début, elle appréciait le temps dont elle disposait le matin et la liberté avec laquelle elle organisait ses tâches."
               },
               {
                 "id": "o3",
-                "text": "progressivement"
+                "text": "Sa productivité avait augmenté, car elle était moins interrompue."
               },
               {
                 "id": "o4",
-                "text": "professionnelle"
+                "text": "Cependant, les journées sont progressivement devenues plus longues."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel mot complète la phrase entendue ?\n\n“Cependant, les _____ sont progressivement devenues plus longues.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Télétravail : autonomie ou isolement ? » ? “Cependant les journées…”",
             "options": [
               {
                 "id": "o1",
-                "text": "professionnelles"
+                "text": "En travaillant depuis chez elle pendant trois ans, Sarah a découvert les deux faces du télétravail."
               },
               {
                 "id": "o2",
-                "text": "journées"
+                "text": "Cependant, les journées sont progressivement devenues plus longues."
               },
               {
                 "id": "o3",
-                "text": "progressivement"
+                "text": "Au début, elle appréciait le temps dont elle disposait le matin et la liberté avec laquelle elle organisait ses tâches."
               },
               {
                 "id": "o4",
-                "text": "professionnelle"
+                "text": "Sa productivité avait augmenté, car elle était moins interrompue."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Sarah a alors proposé un fonctionnement _____ : deux jours au bureau, trois jours à distance et une réunion sans écran chaque mois.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Télétravail : autonomie ou isolement ? » ? “Sarah a alors proposé un fonctionnement hybride…”",
             "options": [
               {
                 "id": "o1",
-                "text": "professionnelles"
+                "text": "En travaillant depuis chez elle pendant trois ans, Sarah a découvert les deux faces du télétravail."
               },
               {
                 "id": "o2",
-                "text": "progressivement"
+                "text": "Au début, elle appréciait le temps dont elle disposait le matin et la liberté avec laquelle elle organisait ses tâches."
               },
               {
                 "id": "o3",
-                "text": "hybride"
+                "text": "Sarah a alors proposé un fonctionnement hybride : deux jours au bureau, trois jours à distance et une réunion sans écran chaque mois."
               },
               {
                 "id": "o4",
-                "text": "professionnelle"
+                "text": "Sa productivité avait augmenté, car elle était moins interrompue."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Son efficacité dépend des règles auxquelles _____ adhère, des outils dont elle dispose et de la capacité de chacun à protéger les limites entre vie professionnelle et vie personnelle.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Télétravail : autonomie ou isolement ? » ? “Son efficacité dépend des règles auxquelles l’équipe…”",
             "options": [
               {
                 "id": "o1",
-                "text": "professionnelles"
+                "text": "En travaillant depuis chez elle pendant trois ans, Sarah a découvert les deux faces du télétravail."
               },
               {
                 "id": "o2",
-                "text": "progressivement"
+                "text": "Au début, elle appréciait le temps dont elle disposait le matin et la liberté avec laquelle elle organisait ses tâches."
               },
               {
                 "id": "o3",
-                "text": "professionnelle"
+                "text": "Sa productivité avait augmenté, car elle était moins interrompue."
               },
               {
                 "id": "o4",
-                "text": "l’équipe"
+                "text": "Son efficacité dépend des règles auxquelles l’équipe adhère, des outils dont elle dispose et de la capacité de chacun à protéger les limites entre vie professionnelle et vie personnelle."
               }
             ]
           }
@@ -19823,42 +19823,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complète ce détail de l’audio.\n\n“En travaillant depuis chez elle pendant trois ans, Sarah a découvert les deux faces du _____.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Télétravail : autonomie ou isolement ? » ? “En travaillant depuis chez elle pendant…”",
         "options": [
-          "télétravail",
-          "professionnelles",
-          "progressivement",
-          "professionnelle"
+          "En travaillant depuis chez elle pendant trois ans, Sarah a découvert les deux faces du télétravail.",
+          "Au début, elle appréciait le temps dont elle disposait le matin et la liberté avec laquelle elle organisait ses tâches.",
+          "Sa productivité avait augmenté, car elle était moins interrompue.",
+          "Cependant, les journées sont progressivement devenues plus longues."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel mot complète la phrase entendue ?\n\n“Cependant, les _____ sont progressivement devenues plus longues.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Télétravail : autonomie ou isolement ? » ? “Cependant les journées…”",
         "options": [
-          "professionnelles",
-          "journées",
-          "progressivement",
-          "professionnelle"
+          "En travaillant depuis chez elle pendant trois ans, Sarah a découvert les deux faces du télétravail.",
+          "Cependant, les journées sont progressivement devenues plus longues.",
+          "Au début, elle appréciait le temps dont elle disposait le matin et la liberté avec laquelle elle organisait ses tâches.",
+          "Sa productivité avait augmenté, car elle était moins interrompue."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Sarah a alors proposé un fonctionnement _____ : deux jours au bureau, trois jours à distance et une réunion sans écran chaque mois.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Télétravail : autonomie ou isolement ? » ? “Sarah a alors proposé un fonctionnement hybride…”",
         "options": [
-          "professionnelles",
-          "progressivement",
-          "hybride",
-          "professionnelle"
+          "En travaillant depuis chez elle pendant trois ans, Sarah a découvert les deux faces du télétravail.",
+          "Au début, elle appréciait le temps dont elle disposait le matin et la liberté avec laquelle elle organisait ses tâches.",
+          "Sarah a alors proposé un fonctionnement hybride : deux jours au bureau, trois jours à distance et une réunion sans écran chaque mois.",
+          "Sa productivité avait augmenté, car elle était moins interrompue."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Son efficacité dépend des règles auxquelles _____ adhère, des outils dont elle dispose et de la capacité de chacun à protéger les limites entre vie professionnelle et vie personnelle.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Télétravail : autonomie ou isolement ? » ? “Son efficacité dépend des règles auxquelles l’équipe…”",
         "options": [
-          "professionnelles",
-          "progressivement",
-          "professionnelle",
-          "l’équipe"
+          "En travaillant depuis chez elle pendant trois ans, Sarah a découvert les deux faces du télétravail.",
+          "Au début, elle appréciait le temps dont elle disposait le matin et la liberté avec laquelle elle organisait ses tâches.",
+          "Sa productivité avait augmenté, car elle était moins interrompue.",
+          "Son efficacité dépend des règles auxquelles l’équipe adhère, des outils dont elle dispose et de la capacité de chacun à protéger les limites entre vie professionnelle et vie personnelle."
         ]
       }
     ]
@@ -24304,92 +24304,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complète ce détail de l’audio.\n\n“Chaque matin, je me réveille à six heures _____.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Ma journée à Tours » ? “Chaque matin je…”",
             "options": [
               {
                 "id": "o1",
-                "text": "trente"
+                "text": "Chaque matin, je me réveille à six heures trente."
               },
               {
                 "id": "o2",
-                "text": "quarante-cinq"
+                "text": "Je me lève, je me lave et je m’habille rapidement."
               },
               {
                 "id": "o3",
-                "text": "rapidement"
+                "text": "Ensuite, je prépare mon sac et je mange avec la famille Lambert."
               },
               {
                 "id": "o4",
-                "text": "commencent"
+                "text": "À sept heures quarante-cinq, je quitte la maison et je prends le bus."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel mot complète la phrase entendue ?\n\n“Ensuite, je _____ mon sac et je mange avec la famille Lambert.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Ma journée à Tours » ? “Ensuite je prépare mon…”",
             "options": [
               {
                 "id": "o1",
-                "text": "quarante-cinq"
+                "text": "Chaque matin, je me réveille à six heures trente."
               },
               {
                 "id": "o2",
-                "text": "prépare"
+                "text": "Ensuite, je prépare mon sac et je mange avec la famille Lambert."
               },
               {
                 "id": "o3",
-                "text": "lève"
+                "text": "Je me lève, je me lave et je m’habille rapidement."
               },
               {
                 "id": "o4",
-                "text": "lave"
+                "text": "À sept heures quarante-cinq, je quitte la maison et je prends le bus."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“À midi, je _____ avec Léa et Karim.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Ma journée à Tours » ? “À midi je…”",
             "options": [
               {
                 "id": "o1",
-                "text": "quarante-cinq"
+                "text": "Chaque matin, je me réveille à six heures trente."
               },
               {
                 "id": "o2",
-                "text": "lève"
+                "text": "Je me lève, je me lave et je m’habille rapidement."
               },
               {
                 "id": "o3",
-                "text": "déjeune"
+                "text": "À midi, je déjeune avec Léa et Karim."
               },
               {
                 "id": "o4",
-                "text": "lave"
+                "text": "Ensuite, je prépare mon sac et je mange avec la famille Lambert."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Le soir, je me repose, je prépare mes vêtements et je me couche vers dix heures _____.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Ma journée à Tours » ? “Le soir je me repose je…”",
             "options": [
               {
                 "id": "o1",
-                "text": "quarante-cinq"
+                "text": "Chaque matin, je me réveille à six heures trente."
               },
               {
                 "id": "o2",
-                "text": "rapidement"
+                "text": "Je me lève, je me lave et je m’habille rapidement."
               },
               {
                 "id": "o3",
-                "text": "commencent"
+                "text": "Ensuite, je prépare mon sac et je mange avec la famille Lambert."
               },
               {
                 "id": "o4",
-                "text": "trente"
+                "text": "Le soir, je me repose, je prépare mes vêtements et je me couche vers dix heures trente."
               }
             ]
           }
@@ -24400,42 +24400,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complète ce détail de l’audio.\n\n“Chaque matin, je me réveille à six heures _____.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Ma journée à Tours » ? “Chaque matin je…”",
         "options": [
-          "trente",
-          "quarante-cinq",
-          "rapidement",
-          "commencent"
+          "Chaque matin, je me réveille à six heures trente.",
+          "Je me lève, je me lave et je m’habille rapidement.",
+          "Ensuite, je prépare mon sac et je mange avec la famille Lambert.",
+          "À sept heures quarante-cinq, je quitte la maison et je prends le bus."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel mot complète la phrase entendue ?\n\n“Ensuite, je _____ mon sac et je mange avec la famille Lambert.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Ma journée à Tours » ? “Ensuite je prépare mon…”",
         "options": [
-          "quarante-cinq",
-          "prépare",
-          "lève",
-          "lave"
+          "Chaque matin, je me réveille à six heures trente.",
+          "Ensuite, je prépare mon sac et je mange avec la famille Lambert.",
+          "Je me lève, je me lave et je m’habille rapidement.",
+          "À sept heures quarante-cinq, je quitte la maison et je prends le bus."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“À midi, je _____ avec Léa et Karim.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Ma journée à Tours » ? “À midi je…”",
         "options": [
-          "quarante-cinq",
-          "lève",
-          "déjeune",
-          "lave"
+          "Chaque matin, je me réveille à six heures trente.",
+          "Je me lève, je me lave et je m’habille rapidement.",
+          "À midi, je déjeune avec Léa et Karim.",
+          "Ensuite, je prépare mon sac et je mange avec la famille Lambert."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Le soir, je me repose, je prépare mes vêtements et je me couche vers dix heures _____.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Ma journée à Tours » ? “Le soir je me repose je…”",
         "options": [
-          "quarante-cinq",
-          "rapidement",
-          "commencent",
-          "trente"
+          "Chaque matin, je me réveille à six heures trente.",
+          "Je me lève, je me lave et je m’habille rapidement.",
+          "Ensuite, je prépare mon sac et je mange avec la famille Lambert.",
+          "Le soir, je me repose, je prépare mes vêtements et je me couche vers dix heures trente."
         ]
       }
     ]
@@ -24524,92 +24524,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complète ce détail de l’audio.\n\n“Cette semaine, l’emploi du temps de Camila est très _____.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Une semaine bien organisée » ? “Cette semaine l’emploi du…”",
             "options": [
               {
                 "id": "o1",
-                "text": "chargé"
+                "text": "Cette semaine, l’emploi du temps de Camila est très chargé."
               },
               {
                 "id": "o2",
-                "text": "petit-déjeuner"
+                "text": "D’habitude, elle se réveille à sept heures, se lave et s’habille avant le petit-déjeuner."
               },
               {
                 "id": "o3",
-                "text": "bibliothèque"
+                "text": "Le lundi et le jeudi, elle a toujours cours jusqu’à dix-sept heures."
               },
               {
                 "id": "o4",
-                "text": "D’habitude"
+                "text": "Après l’école, elle fait souvent ses devoirs à la bibliothèque avec Karim."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel mot complète la phrase entendue ?\n\n“Après _____, elle fait souvent ses devoirs à la bibliothèque avec Karim.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Une semaine bien organisée » ? “Après l’école elle fait…”",
             "options": [
               {
                 "id": "o1",
-                "text": "petit-déjeuner"
+                "text": "Cette semaine, l’emploi du temps de Camila est très chargé."
               },
               {
                 "id": "o2",
-                "text": "l’école"
+                "text": "Après l’école, elle fait souvent ses devoirs à la bibliothèque avec Karim."
               },
               {
                 "id": "o3",
-                "text": "bibliothèque"
+                "text": "D’habitude, elle se réveille à sept heures, se lave et s’habille avant le petit-déjeuner."
               },
               {
                 "id": "o4",
-                "text": "très"
+                "text": "Le lundi et le jeudi, elle a toujours cours jusqu’à dix-sept heures."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Vendredi matin, Camila oublie son _____ à la maison et doit revenir le chercher.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Une semaine bien organisée » ? “Vendredi matin Camila oublie son…”",
             "options": [
               {
                 "id": "o1",
-                "text": "petit-déjeuner"
+                "text": "Cette semaine, l’emploi du temps de Camila est très chargé."
               },
               {
                 "id": "o2",
-                "text": "bibliothèque"
+                "text": "D’habitude, elle se réveille à sept heures, se lave et s’habille avant le petit-déjeuner."
               },
               {
                 "id": "o3",
-                "text": "cahier"
+                "text": "Vendredi matin, Camila oublie son cahier à la maison et doit revenir le chercher."
               },
               {
                 "id": "o4",
-                "text": "D’habitude"
+                "text": "Le lundi et le jeudi, elle a toujours cours jusqu’à dix-sept heures."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Grâce à cette nouvelle routine, elle arrive à l’heure et _____ davantage de ses activités.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Une semaine bien organisée » ? “Grâce à cette nouvelle routine…”",
             "options": [
               {
                 "id": "o1",
-                "text": "petit-déjeuner"
+                "text": "Cette semaine, l’emploi du temps de Camila est très chargé."
               },
               {
                 "id": "o2",
-                "text": "bibliothèque"
+                "text": "D’habitude, elle se réveille à sept heures, se lave et s’habille avant le petit-déjeuner."
               },
               {
                 "id": "o3",
-                "text": "très"
+                "text": "Le lundi et le jeudi, elle a toujours cours jusqu’à dix-sept heures."
               },
               {
                 "id": "o4",
-                "text": "profite"
+                "text": "Grâce à cette nouvelle routine, elle arrive à l’heure et profite davantage de ses activités."
               }
             ]
           }
@@ -24620,42 +24620,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complète ce détail de l’audio.\n\n“Cette semaine, l’emploi du temps de Camila est très _____.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Une semaine bien organisée » ? “Cette semaine l’emploi du…”",
         "options": [
-          "chargé",
-          "petit-déjeuner",
-          "bibliothèque",
-          "D’habitude"
+          "Cette semaine, l’emploi du temps de Camila est très chargé.",
+          "D’habitude, elle se réveille à sept heures, se lave et s’habille avant le petit-déjeuner.",
+          "Le lundi et le jeudi, elle a toujours cours jusqu’à dix-sept heures.",
+          "Après l’école, elle fait souvent ses devoirs à la bibliothèque avec Karim."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel mot complète la phrase entendue ?\n\n“Après _____, elle fait souvent ses devoirs à la bibliothèque avec Karim.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Une semaine bien organisée » ? “Après l’école elle fait…”",
         "options": [
-          "petit-déjeuner",
-          "l’école",
-          "bibliothèque",
-          "très"
+          "Cette semaine, l’emploi du temps de Camila est très chargé.",
+          "Après l’école, elle fait souvent ses devoirs à la bibliothèque avec Karim.",
+          "D’habitude, elle se réveille à sept heures, se lave et s’habille avant le petit-déjeuner.",
+          "Le lundi et le jeudi, elle a toujours cours jusqu’à dix-sept heures."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Vendredi matin, Camila oublie son _____ à la maison et doit revenir le chercher.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Une semaine bien organisée » ? “Vendredi matin Camila oublie son…”",
         "options": [
-          "petit-déjeuner",
-          "bibliothèque",
-          "cahier",
-          "D’habitude"
+          "Cette semaine, l’emploi du temps de Camila est très chargé.",
+          "D’habitude, elle se réveille à sept heures, se lave et s’habille avant le petit-déjeuner.",
+          "Vendredi matin, Camila oublie son cahier à la maison et doit revenir le chercher.",
+          "Le lundi et le jeudi, elle a toujours cours jusqu’à dix-sept heures."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Grâce à cette nouvelle routine, elle arrive à l’heure et _____ davantage de ses activités.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Une semaine bien organisée » ? “Grâce à cette nouvelle routine…”",
         "options": [
-          "petit-déjeuner",
-          "bibliothèque",
-          "très",
-          "profite"
+          "Cette semaine, l’emploi du temps de Camila est très chargé.",
+          "D’habitude, elle se réveille à sept heures, se lave et s’habille avant le petit-déjeuner.",
+          "Le lundi et le jeudi, elle a toujours cours jusqu’à dix-sept heures.",
+          "Grâce à cette nouvelle routine, elle arrive à l’heure et profite davantage de ses activités."
         ]
       }
     ]
@@ -24780,92 +24780,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complète ce détail de l’audio.\n\n“Une boîte à chaussures, cent trente-sept lettres, deux écritures qui se répondent pendant douze ans : c’est à partir d’un fonds de cette nature, aujourd’hui banal dans les centres d’archives régionales, que les historiens de la migration reconstituent depuis une trentaine d’années des trajectoires que la mémoire familiale a coutume de résumer en quelques mots — on partait, on réussissait, puis on _____.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Dossier d’actualité : Les archives de grand-mère » ? “Une boîte à chaussures cent trente-sept lettres…”",
             "options": [
               {
                 "id": "o1",
-                "text": "revenait"
+                "text": "Une boîte à chaussures, cent trente-sept lettres, deux écritures qui se répondent pendant douze ans : c’est à partir d’un fonds de cette nature, aujourd’hui banal dans les centres d’archives régionales, que les historiens de la migration reconstituent depuis une trentaine d’années des trajectoires que la mémoire familiale a coutume de résumer en quelques mots — on partait, on réussissait, puis on revenait."
               },
               {
                 "id": "o2",
-                "text": "particulièrement"
+                "text": "Les lettres échangées entre des personnes parties travailler en Europe dans les années soixante et soixante-dix racontent en réalité une autre histoire, traversée par la solitude, les emplois précaires et la crainte de décevoir des proches qui attendaient des nouvelles rassurantes."
               },
               {
                 "id": "o3",
-                "text": "reconstituent"
+                "text": "Les chercheurs en histoire orale s’intéressent tout particulièrement à ce que ces lettres taisent."
               },
               {
                 "id": "o4",
-                "text": "s’intéressent"
+                "text": "Six notions permettent de suivre le raisonnement : une archive, un récit linéaire, minimiser, un fragment, une constellation et combler un silence."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel mot complète la phrase entendue ?\n\n“Six _____ permettent de suivre le raisonnement : une archive, un récit linéaire, minimiser, un fragment, une constellation et combler un silence.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Dossier d’actualité : Les archives de grand-mère » ? “Six notions permettent de suivre le raisonnement…”",
             "options": [
               {
                 "id": "o1",
-                "text": "particulièrement"
+                "text": "Une boîte à chaussures, cent trente-sept lettres, deux écritures qui se répondent pendant douze ans : c’est à partir d’un fonds de cette nature, aujourd’hui banal dans les centres d’archives régionales, que les historiens de la migration reconstituent depuis une trentaine d’années des trajectoires que la mémoire familiale a coutume de résumer en quelques mots — on partait, on réussissait, puis on revenait."
               },
               {
                 "id": "o2",
-                "text": "notions"
+                "text": "Six notions permettent de suivre le raisonnement : une archive, un récit linéaire, minimiser, un fragment, une constellation et combler un silence."
               },
               {
                 "id": "o3",
-                "text": "reconstituent"
+                "text": "Les lettres échangées entre des personnes parties travailler en Europe dans les années soixante et soixante-dix racontent en réalité une autre histoire, traversée par la solitude, les emplois précaires et la crainte de décevoir des proches qui attendaient des nouvelles rassurantes."
               },
               {
                 "id": "o4",
-                "text": "s’intéressent"
+                "text": "Les chercheurs en histoire orale s’intéressent tout particulièrement à ce que ces lettres taisent."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“La grand-mère avait longtemps minimisé cette _____, puis elle confia qu’un fragment manquait au récit familial.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Dossier d’actualité : Les archives de grand-mère » ? “La grand-mère avait longtemps minimisé cette…”",
             "options": [
               {
                 "id": "o1",
-                "text": "particulièrement"
+                "text": "Une boîte à chaussures, cent trente-sept lettres, deux écritures qui se répondent pendant douze ans : c’est à partir d’un fonds de cette nature, aujourd’hui banal dans les centres d’archives régionales, que les historiens de la migration reconstituent depuis une trentaine d’années des trajectoires que la mémoire familiale a coutume de résumer en quelques mots — on partait, on réussissait, puis on revenait."
               },
               {
                 "id": "o2",
-                "text": "reconstituent"
+                "text": "Les lettres échangées entre des personnes parties travailler en Europe dans les années soixante et soixante-dix racontent en réalité une autre histoire, traversée par la solitude, les emplois précaires et la crainte de décevoir des proches qui attendaient des nouvelles rassurantes."
               },
               {
                 "id": "o3",
-                "text": "archive"
+                "text": "La grand-mère avait longtemps minimisé cette archive, puis elle confia qu’un fragment manquait au récit familial."
               },
               {
                 "id": "o4",
-                "text": "s’intéressent"
+                "text": "Les chercheurs en histoire orale s’intéressent tout particulièrement à ce que ces lettres taisent."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Dossier d’actualité : Les archives de grand-mère » ? “Ce cadre permet enfin…”",
             "options": [
               {
                 "id": "o1",
-                "text": "particulièrement"
+                "text": "Une boîte à chaussures, cent trente-sept lettres, deux écritures qui se répondent pendant douze ans : c’est à partir d’un fonds de cette nature, aujourd’hui banal dans les centres d’archives régionales, que les historiens de la migration reconstituent depuis une trentaine d’années des trajectoires que la mémoire familiale a coutume de résumer en quelques mots — on partait, on réussissait, puis on revenait."
               },
               {
                 "id": "o2",
-                "text": "reconstituent"
+                "text": "Les lettres échangées entre des personnes parties travailler en Europe dans les années soixante et soixante-dix racontent en réalité une autre histoire, traversée par la solitude, les emplois précaires et la crainte de décevoir des proches qui attendaient des nouvelles rassurantes."
               },
               {
                 "id": "o3",
-                "text": "s’intéressent"
+                "text": "Les chercheurs en histoire orale s’intéressent tout particulièrement à ce que ces lettres taisent."
               },
               {
                 "id": "o4",
-                "text": "relier"
+                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
               }
             ]
           }
@@ -24876,42 +24876,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complète ce détail de l’audio.\n\n“Une boîte à chaussures, cent trente-sept lettres, deux écritures qui se répondent pendant douze ans : c’est à partir d’un fonds de cette nature, aujourd’hui banal dans les centres d’archives régionales, que les historiens de la migration reconstituent depuis une trentaine d’années des trajectoires que la mémoire familiale a coutume de résumer en quelques mots — on partait, on réussissait, puis on _____.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Dossier d’actualité : Les archives de grand-mère » ? “Une boîte à chaussures cent trente-sept lettres…”",
         "options": [
-          "revenait",
-          "particulièrement",
-          "reconstituent",
-          "s’intéressent"
+          "Une boîte à chaussures, cent trente-sept lettres, deux écritures qui se répondent pendant douze ans : c’est à partir d’un fonds de cette nature, aujourd’hui banal dans les centres d’archives régionales, que les historiens de la migration reconstituent depuis une trentaine d’années des trajectoires que la mémoire familiale a coutume de résumer en quelques mots — on partait, on réussissait, puis on revenait.",
+          "Les lettres échangées entre des personnes parties travailler en Europe dans les années soixante et soixante-dix racontent en réalité une autre histoire, traversée par la solitude, les emplois précaires et la crainte de décevoir des proches qui attendaient des nouvelles rassurantes.",
+          "Les chercheurs en histoire orale s’intéressent tout particulièrement à ce que ces lettres taisent.",
+          "Six notions permettent de suivre le raisonnement : une archive, un récit linéaire, minimiser, un fragment, une constellation et combler un silence."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel mot complète la phrase entendue ?\n\n“Six _____ permettent de suivre le raisonnement : une archive, un récit linéaire, minimiser, un fragment, une constellation et combler un silence.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Dossier d’actualité : Les archives de grand-mère » ? “Six notions permettent de suivre le raisonnement…”",
         "options": [
-          "particulièrement",
-          "notions",
-          "reconstituent",
-          "s’intéressent"
+          "Une boîte à chaussures, cent trente-sept lettres, deux écritures qui se répondent pendant douze ans : c’est à partir d’un fonds de cette nature, aujourd’hui banal dans les centres d’archives régionales, que les historiens de la migration reconstituent depuis une trentaine d’années des trajectoires que la mémoire familiale a coutume de résumer en quelques mots — on partait, on réussissait, puis on revenait.",
+          "Six notions permettent de suivre le raisonnement : une archive, un récit linéaire, minimiser, un fragment, une constellation et combler un silence.",
+          "Les lettres échangées entre des personnes parties travailler en Europe dans les années soixante et soixante-dix racontent en réalité une autre histoire, traversée par la solitude, les emplois précaires et la crainte de décevoir des proches qui attendaient des nouvelles rassurantes.",
+          "Les chercheurs en histoire orale s’intéressent tout particulièrement à ce que ces lettres taisent."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“La grand-mère avait longtemps minimisé cette _____, puis elle confia qu’un fragment manquait au récit familial.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Dossier d’actualité : Les archives de grand-mère » ? “La grand-mère avait longtemps minimisé cette…”",
         "options": [
-          "particulièrement",
-          "reconstituent",
-          "archive",
-          "s’intéressent"
+          "Une boîte à chaussures, cent trente-sept lettres, deux écritures qui se répondent pendant douze ans : c’est à partir d’un fonds de cette nature, aujourd’hui banal dans les centres d’archives régionales, que les historiens de la migration reconstituent depuis une trentaine d’années des trajectoires que la mémoire familiale a coutume de résumer en quelques mots — on partait, on réussissait, puis on revenait.",
+          "Les lettres échangées entre des personnes parties travailler en Europe dans les années soixante et soixante-dix racontent en réalité une autre histoire, traversée par la solitude, les emplois précaires et la crainte de décevoir des proches qui attendaient des nouvelles rassurantes.",
+          "La grand-mère avait longtemps minimisé cette archive, puis elle confia qu’un fragment manquait au récit familial.",
+          "Les chercheurs en histoire orale s’intéressent tout particulièrement à ce que ces lettres taisent."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Dossier d’actualité : Les archives de grand-mère » ? “Ce cadre permet enfin…”",
         "options": [
-          "particulièrement",
-          "reconstituent",
-          "s’intéressent",
-          "relier"
+          "Une boîte à chaussures, cent trente-sept lettres, deux écritures qui se répondent pendant douze ans : c’est à partir d’un fonds de cette nature, aujourd’hui banal dans les centres d’archives régionales, que les historiens de la migration reconstituent depuis une trentaine d’années des trajectoires que la mémoire familiale a coutume de résumer en quelques mots — on partait, on réussissait, puis on revenait.",
+          "Les lettres échangées entre des personnes parties travailler en Europe dans les années soixante et soixante-dix racontent en réalité une autre histoire, traversée par la solitude, les emplois précaires et la crainte de décevoir des proches qui attendaient des nouvelles rassurantes.",
+          "Les chercheurs en histoire orale s’intéressent tout particulièrement à ce que ces lettres taisent.",
+          "Ce cadre permet enfin de relier les faits à une décision argumentée."
         ]
       }
     ]
@@ -25046,92 +25046,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complète ce détail de l’audio.\n\n“Pendant que l’extrême pauvreté recule, la part de richesse captée par les plus fortunés continue, elle, de progresser presque _____.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Dossier d’actualité : La croissance mondiale profite-t-elle à tous ? » ? “Pendant que l’extrême pauvreté recule la part…”",
             "options": [
               {
                 "id": "o1",
-                "text": "partout"
+                "text": "Pendant que l’extrême pauvreté recule, la part de richesse captée par les plus fortunés continue, elle, de progresser presque partout."
               },
               {
                 "id": "o2",
-                "text": "interchangeables"
+                "text": "La question « La croissance mondiale profite-t-elle à tous ? » occupe une place centrale dans l’analyse contemporaine."
               },
               {
                 "id": "o3",
-                "text": "profite-t-elle"
+                "text": "Le rapport Inequality Inc. publié par Oxfam en 2024 relève que les grandes fortunes mondiales ont continué de croître plus rapidement que le revenu moyen depuis la pandémie, ravivant un débat sur la capacité de la croissance économique globale à réduire durablement les écarts entre riches et pauvres."
               },
               {
                 "id": "o4",
-                "text": "redistribution"
+                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel mot complète la phrase entendue ?\n\n“Une _____ sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Dossier d’actualité : La croissance mondiale profite-t-elle à tous ? » ? “Une réponse sérieuse doit distinguer ce que…”",
             "options": [
               {
                 "id": "o1",
-                "text": "interchangeables"
+                "text": "Pendant que l’extrême pauvreté recule, la part de richesse captée par les plus fortunés continue, elle, de progresser presque partout."
               },
               {
                 "id": "o2",
-                "text": "réponse"
+                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
               },
               {
                 "id": "o3",
-                "text": "profite-t-elle"
+                "text": "La question « La croissance mondiale profite-t-elle à tous ? » occupe une place centrale dans l’analyse contemporaine."
               },
               {
                 "id": "o4",
-                "text": "redistribution"
+                "text": "Le rapport Inequality Inc. publié par Oxfam en 2024 relève que les grandes fortunes mondiales ont continué de croître plus rapidement que le revenu moyen depuis la pandémie, ravivant un débat sur la capacité de la croissance économique globale à réduire durablement les écarts entre riches et pauvres."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“La concentration de la richesse mondiale _____ par le rendement du capital, lequel a dépassé la croissance elle-même sur longue période.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Dossier d’actualité : La croissance mondiale profite-t-elle à tous ? » ? “La concentration de la richesse mondiale s’explique…”",
             "options": [
               {
                 "id": "o1",
-                "text": "interchangeables"
+                "text": "Pendant que l’extrême pauvreté recule, la part de richesse captée par les plus fortunés continue, elle, de progresser presque partout."
               },
               {
                 "id": "o2",
-                "text": "profite-t-elle"
+                "text": "La question « La croissance mondiale profite-t-elle à tous ? » occupe une place centrale dans l’analyse contemporaine."
               },
               {
                 "id": "o3",
-                "text": "s’explique"
+                "text": "La concentration de la richesse mondiale s’explique par le rendement du capital, lequel a dépassé la croissance elle-même sur longue période."
               },
               {
                 "id": "o4",
-                "text": "redistribution"
+                "text": "Le rapport Inequality Inc. publié par Oxfam en 2024 relève que les grandes fortunes mondiales ont continué de croître plus rapidement que le revenu moyen depuis la pandémie, ravivant un débat sur la capacité de la croissance économique globale à réduire durablement les écarts entre riches et pauvres."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Dossier d’actualité : La croissance mondiale profite-t-elle à tous ? » ? “Ce cadre permet enfin…”",
             "options": [
               {
                 "id": "o1",
-                "text": "interchangeables"
+                "text": "Pendant que l’extrême pauvreté recule, la part de richesse captée par les plus fortunés continue, elle, de progresser presque partout."
               },
               {
                 "id": "o2",
-                "text": "profite-t-elle"
+                "text": "La question « La croissance mondiale profite-t-elle à tous ? » occupe une place centrale dans l’analyse contemporaine."
               },
               {
                 "id": "o3",
-                "text": "redistribution"
+                "text": "Le rapport Inequality Inc. publié par Oxfam en 2024 relève que les grandes fortunes mondiales ont continué de croître plus rapidement que le revenu moyen depuis la pandémie, ravivant un débat sur la capacité de la croissance économique globale à réduire durablement les écarts entre riches et pauvres."
               },
               {
                 "id": "o4",
-                "text": "relier"
+                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
               }
             ]
           }
@@ -25142,42 +25142,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complète ce détail de l’audio.\n\n“Pendant que l’extrême pauvreté recule, la part de richesse captée par les plus fortunés continue, elle, de progresser presque _____.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Dossier d’actualité : La croissance mondiale profite-t-elle à tous ? » ? “Pendant que l’extrême pauvreté recule la part…”",
         "options": [
-          "partout",
-          "interchangeables",
-          "profite-t-elle",
-          "redistribution"
+          "Pendant que l’extrême pauvreté recule, la part de richesse captée par les plus fortunés continue, elle, de progresser presque partout.",
+          "La question « La croissance mondiale profite-t-elle à tous ? » occupe une place centrale dans l’analyse contemporaine.",
+          "Le rapport Inequality Inc. publié par Oxfam en 2024 relève que les grandes fortunes mondiales ont continué de croître plus rapidement que le revenu moyen depuis la pandémie, ravivant un débat sur la capacité de la croissance économique globale à réduire durablement les écarts entre riches et pauvres.",
+          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel mot complète la phrase entendue ?\n\n“Une _____ sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Dossier d’actualité : La croissance mondiale profite-t-elle à tous ? » ? “Une réponse sérieuse doit distinguer ce que…”",
         "options": [
-          "interchangeables",
-          "réponse",
-          "profite-t-elle",
-          "redistribution"
+          "Pendant que l’extrême pauvreté recule, la part de richesse captée par les plus fortunés continue, elle, de progresser presque partout.",
+          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.",
+          "La question « La croissance mondiale profite-t-elle à tous ? » occupe une place centrale dans l’analyse contemporaine.",
+          "Le rapport Inequality Inc. publié par Oxfam en 2024 relève que les grandes fortunes mondiales ont continué de croître plus rapidement que le revenu moyen depuis la pandémie, ravivant un débat sur la capacité de la croissance économique globale à réduire durablement les écarts entre riches et pauvres."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“La concentration de la richesse mondiale _____ par le rendement du capital, lequel a dépassé la croissance elle-même sur longue période.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Dossier d’actualité : La croissance mondiale profite-t-elle à tous ? » ? “La concentration de la richesse mondiale s’explique…”",
         "options": [
-          "interchangeables",
-          "profite-t-elle",
-          "s’explique",
-          "redistribution"
+          "Pendant que l’extrême pauvreté recule, la part de richesse captée par les plus fortunés continue, elle, de progresser presque partout.",
+          "La question « La croissance mondiale profite-t-elle à tous ? » occupe une place centrale dans l’analyse contemporaine.",
+          "La concentration de la richesse mondiale s’explique par le rendement du capital, lequel a dépassé la croissance elle-même sur longue période.",
+          "Le rapport Inequality Inc. publié par Oxfam en 2024 relève que les grandes fortunes mondiales ont continué de croître plus rapidement que le revenu moyen depuis la pandémie, ravivant un débat sur la capacité de la croissance économique globale à réduire durablement les écarts entre riches et pauvres."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Dossier d’actualité : La croissance mondiale profite-t-elle à tous ? » ? “Ce cadre permet enfin…”",
         "options": [
-          "interchangeables",
-          "profite-t-elle",
-          "redistribution",
-          "relier"
+          "Pendant que l’extrême pauvreté recule, la part de richesse captée par les plus fortunés continue, elle, de progresser presque partout.",
+          "La question « La croissance mondiale profite-t-elle à tous ? » occupe une place centrale dans l’analyse contemporaine.",
+          "Le rapport Inequality Inc. publié par Oxfam en 2024 relève que les grandes fortunes mondiales ont continué de croître plus rapidement que le revenu moyen depuis la pandémie, ravivant un débat sur la capacité de la croissance économique globale à réduire durablement les écarts entre riches et pauvres.",
+          "Ce cadre permet enfin de relier les faits à une décision argumentée."
         ]
       }
     ]
@@ -25271,92 +25271,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complète ce détail de l’audio.\n\n“Pour notre chronique interculturelle, je vais raconter les premières semaines de Lucie au _____.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Ce qui m’a surpris au Québec » ? “Pour notre chronique interculturelle je…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Québec"
+                "text": "Pour notre chronique interculturelle, je vais raconter les premières semaines de Lucie au Québec."
               },
               {
                 "id": "o2",
-                "text": "interculturelle"
+                "text": "Elle connaissait déjà le français, mais certaines habitudes l’ont surprise."
               },
               {
                 "id": "o3",
-                "text": "nécessairement"
+                "text": "En France, elle utilisait souvent des expressions que ses nouveaux amis comprenaient différemment, tandis qu’au Québec, elle découvrait un vocabulaire local très vivant."
               },
               {
                 "id": "o4",
-                "text": "comprenaient"
+                "text": "Elle a aussi remarqué que les relations avec les professeurs étaient plus détendues, alors que son ancienne université lui semblait plus formelle."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel mot complète la phrase entendue ?\n\n“Elle a aussi remarqué que les _____ avec les professeurs étaient plus détendues, alors que son ancienne université lui semblait plus formelle.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Ce qui m’a surpris au Québec » ? “Elle a aussi remarqué que les relations…”",
             "options": [
               {
                 "id": "o1",
-                "text": "interculturelle"
+                "text": "Pour notre chronique interculturelle, je vais raconter les premières semaines de Lucie au Québec."
               },
               {
                 "id": "o2",
-                "text": "relations"
+                "text": "Elle a aussi remarqué que les relations avec les professeurs étaient plus détendues, alors que son ancienne université lui semblait plus formelle."
               },
               {
                 "id": "o3",
-                "text": "nécessairement"
+                "text": "Elle connaissait déjà le français, mais certaines habitudes l’ont surprise."
               },
               {
                 "id": "o4",
-                "text": "Québec"
+                "text": "En France, elle utilisait souvent des expressions que ses nouveaux amis comprenaient différemment, tandis qu’au Québec, elle découvrait un vocabulaire local très vivant."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Puis elle a commencé à observer, à _____ des explications et à comparer sans juger.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Ce qui m’a surpris au Québec » ? “Puis elle a commencé à…”",
             "options": [
               {
                 "id": "o1",
-                "text": "interculturelle"
+                "text": "Pour notre chronique interculturelle, je vais raconter les premières semaines de Lucie au Québec."
               },
               {
                 "id": "o2",
-                "text": "nécessairement"
+                "text": "Elle connaissait déjà le français, mais certaines habitudes l’ont surprise."
               },
               {
                 "id": "o3",
-                "text": "demander"
+                "text": "Puis elle a commencé à observer, à demander des explications et à comparer sans juger."
               },
               {
                 "id": "o4",
-                "text": "comprenaient"
+                "text": "En France, elle utilisait souvent des expressions que ses nouveaux amis comprenaient différemment, tandis qu’au Québec, elle découvrait un vocabulaire local très vivant."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Aujourd’hui, elle apprécie cette expérience parce qu’elle lui permet de mieux _____ les autres, mais aussi de regarder sa propre culture avec un œil nouveau.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Ce qui m’a surpris au Québec » ? “Aujourd’hui elle apprécie cette expérience parce qu’elle…”",
             "options": [
               {
                 "id": "o1",
-                "text": "interculturelle"
+                "text": "Pour notre chronique interculturelle, je vais raconter les premières semaines de Lucie au Québec."
               },
               {
                 "id": "o2",
-                "text": "nécessairement"
+                "text": "Elle connaissait déjà le français, mais certaines habitudes l’ont surprise."
               },
               {
                 "id": "o3",
-                "text": "souvent"
+                "text": "En France, elle utilisait souvent des expressions que ses nouveaux amis comprenaient différemment, tandis qu’au Québec, elle découvrait un vocabulaire local très vivant."
               },
               {
                 "id": "o4",
-                "text": "comprendre"
+                "text": "Aujourd’hui, elle apprécie cette expérience parce qu’elle lui permet de mieux comprendre les autres, mais aussi de regarder sa propre culture avec un œil nouveau."
               }
             ]
           }
@@ -25367,42 +25367,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complète ce détail de l’audio.\n\n“Pour notre chronique interculturelle, je vais raconter les premières semaines de Lucie au _____.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Ce qui m’a surpris au Québec » ? “Pour notre chronique interculturelle je…”",
         "options": [
-          "Québec",
-          "interculturelle",
-          "nécessairement",
-          "comprenaient"
+          "Pour notre chronique interculturelle, je vais raconter les premières semaines de Lucie au Québec.",
+          "Elle connaissait déjà le français, mais certaines habitudes l’ont surprise.",
+          "En France, elle utilisait souvent des expressions que ses nouveaux amis comprenaient différemment, tandis qu’au Québec, elle découvrait un vocabulaire local très vivant.",
+          "Elle a aussi remarqué que les relations avec les professeurs étaient plus détendues, alors que son ancienne université lui semblait plus formelle."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel mot complète la phrase entendue ?\n\n“Elle a aussi remarqué que les _____ avec les professeurs étaient plus détendues, alors que son ancienne université lui semblait plus formelle.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Ce qui m’a surpris au Québec » ? “Elle a aussi remarqué que les relations…”",
         "options": [
-          "interculturelle",
-          "relations",
-          "nécessairement",
-          "Québec"
+          "Pour notre chronique interculturelle, je vais raconter les premières semaines de Lucie au Québec.",
+          "Elle a aussi remarqué que les relations avec les professeurs étaient plus détendues, alors que son ancienne université lui semblait plus formelle.",
+          "Elle connaissait déjà le français, mais certaines habitudes l’ont surprise.",
+          "En France, elle utilisait souvent des expressions que ses nouveaux amis comprenaient différemment, tandis qu’au Québec, elle découvrait un vocabulaire local très vivant."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Puis elle a commencé à observer, à _____ des explications et à comparer sans juger.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Ce qui m’a surpris au Québec » ? “Puis elle a commencé à…”",
         "options": [
-          "interculturelle",
-          "nécessairement",
-          "demander",
-          "comprenaient"
+          "Pour notre chronique interculturelle, je vais raconter les premières semaines de Lucie au Québec.",
+          "Elle connaissait déjà le français, mais certaines habitudes l’ont surprise.",
+          "Puis elle a commencé à observer, à demander des explications et à comparer sans juger.",
+          "En France, elle utilisait souvent des expressions que ses nouveaux amis comprenaient différemment, tandis qu’au Québec, elle découvrait un vocabulaire local très vivant."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Aujourd’hui, elle apprécie cette expérience parce qu’elle lui permet de mieux _____ les autres, mais aussi de regarder sa propre culture avec un œil nouveau.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Ce qui m’a surpris au Québec » ? “Aujourd’hui elle apprécie cette expérience parce qu’elle…”",
         "options": [
-          "interculturelle",
-          "nécessairement",
-          "souvent",
-          "comprendre"
+          "Pour notre chronique interculturelle, je vais raconter les premières semaines de Lucie au Québec.",
+          "Elle connaissait déjà le français, mais certaines habitudes l’ont surprise.",
+          "En France, elle utilisait souvent des expressions que ses nouveaux amis comprenaient différemment, tandis qu’au Québec, elle découvrait un vocabulaire local très vivant.",
+          "Aujourd’hui, elle apprécie cette expérience parce qu’elle lui permet de mieux comprendre les autres, mais aussi de regarder sa propre culture avec un œil nouveau."
         ]
       }
     ]
@@ -25521,92 +25521,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complète ce détail de l’audio.\n\n“Bienvenue dans notre podcast _____.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Pourquoi ce roman résonne encore » ? “Bienvenue dans notre…”",
             "options": [
               {
                 "id": "o1",
-                "text": "littéraire"
+                "text": "Bienvenue dans notre podcast littéraire."
               },
               {
                 "id": "o2",
-                "text": "autobiographique"
+                "text": "Cette semaine, nous revenons sur un roman francophone consacré à la mémoire et à l’exil."
               },
               {
                 "id": "o3",
-                "text": "progressivement"
+                "text": "Lors d’une rencontre, l’autrice avait expliqué qu’elle voulait donner une voix aux histoires silencieuses de sa famille."
               },
               {
                 "id": "o4",
-                "text": "interprétation"
+                "text": "Elle avait ajouté que le personnage principal n’était pas un portrait exact, mais une figure inspirée de plusieurs générations."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel mot complète la phrase entendue ?\n\n“Elle avait ajouté que le _____ principal n’était pas un portrait exact, mais une figure inspirée de plusieurs générations.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Pourquoi ce roman résonne encore » ? “Elle avait ajouté que le personnage principal…”",
             "options": [
               {
                 "id": "o1",
-                "text": "autobiographique"
+                "text": "Bienvenue dans notre podcast littéraire."
               },
               {
                 "id": "o2",
-                "text": "personnage"
+                "text": "Elle avait ajouté que le personnage principal n’était pas un portrait exact, mais une figure inspirée de plusieurs générations."
               },
               {
                 "id": "o3",
-                "text": "progressivement"
+                "text": "Cette semaine, nous revenons sur un roman francophone consacré à la mémoire et à l’exil."
               },
               {
                 "id": "o4",
-                "text": "interprétation"
+                "text": "Lors d’une rencontre, l’autrice avait expliqué qu’elle voulait donner une voix aux histoires silencieuses de sa famille."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Le thème récurrent de la maison résonne avec de _____ lecteurs, même lorsque leur propre parcours est différent.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Pourquoi ce roman résonne encore » ? “Le thème récurrent de la maison…”",
             "options": [
               {
                 "id": "o1",
-                "text": "autobiographique"
+                "text": "Bienvenue dans notre podcast littéraire."
               },
               {
                 "id": "o2",
-                "text": "progressivement"
+                "text": "Cette semaine, nous revenons sur un roman francophone consacré à la mémoire et à l’exil."
               },
               {
                 "id": "o3",
-                "text": "nombreux"
+                "text": "Le thème récurrent de la maison résonne avec de nombreux lecteurs, même lorsque leur propre parcours est différent."
               },
               {
                 "id": "o4",
-                "text": "interprétation"
+                "text": "Lors d’une rencontre, l’autrice avait expliqué qu’elle voulait donner une voix aux histoires silencieuses de sa famille."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“C’est précisément cette liberté qui permet à chaque _____ d’y reconnaître une part de son histoire et de construire sa propre relation avec le texte.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Pourquoi ce roman résonne encore » ? “C’est précisément cette liberté qui permet à…”",
             "options": [
               {
                 "id": "o1",
-                "text": "autobiographique"
+                "text": "Bienvenue dans notre podcast littéraire."
               },
               {
                 "id": "o2",
-                "text": "progressivement"
+                "text": "Cette semaine, nous revenons sur un roman francophone consacré à la mémoire et à l’exil."
               },
               {
                 "id": "o3",
-                "text": "interprétation"
+                "text": "Lors d’une rencontre, l’autrice avait expliqué qu’elle voulait donner une voix aux histoires silencieuses de sa famille."
               },
               {
                 "id": "o4",
-                "text": "lecteur"
+                "text": "C’est précisément cette liberté qui permet à chaque lecteur d’y reconnaître une part de son histoire et de construire sa propre relation avec le texte."
               }
             ]
           }
@@ -25617,42 +25617,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complète ce détail de l’audio.\n\n“Bienvenue dans notre podcast _____.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Pourquoi ce roman résonne encore » ? “Bienvenue dans notre…”",
         "options": [
-          "littéraire",
-          "autobiographique",
-          "progressivement",
-          "interprétation"
+          "Bienvenue dans notre podcast littéraire.",
+          "Cette semaine, nous revenons sur un roman francophone consacré à la mémoire et à l’exil.",
+          "Lors d’une rencontre, l’autrice avait expliqué qu’elle voulait donner une voix aux histoires silencieuses de sa famille.",
+          "Elle avait ajouté que le personnage principal n’était pas un portrait exact, mais une figure inspirée de plusieurs générations."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel mot complète la phrase entendue ?\n\n“Elle avait ajouté que le _____ principal n’était pas un portrait exact, mais une figure inspirée de plusieurs générations.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Pourquoi ce roman résonne encore » ? “Elle avait ajouté que le personnage principal…”",
         "options": [
-          "autobiographique",
-          "personnage",
-          "progressivement",
-          "interprétation"
+          "Bienvenue dans notre podcast littéraire.",
+          "Elle avait ajouté que le personnage principal n’était pas un portrait exact, mais une figure inspirée de plusieurs générations.",
+          "Cette semaine, nous revenons sur un roman francophone consacré à la mémoire et à l’exil.",
+          "Lors d’une rencontre, l’autrice avait expliqué qu’elle voulait donner une voix aux histoires silencieuses de sa famille."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Le thème récurrent de la maison résonne avec de _____ lecteurs, même lorsque leur propre parcours est différent.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Pourquoi ce roman résonne encore » ? “Le thème récurrent de la maison…”",
         "options": [
-          "autobiographique",
-          "progressivement",
-          "nombreux",
-          "interprétation"
+          "Bienvenue dans notre podcast littéraire.",
+          "Cette semaine, nous revenons sur un roman francophone consacré à la mémoire et à l’exil.",
+          "Le thème récurrent de la maison résonne avec de nombreux lecteurs, même lorsque leur propre parcours est différent.",
+          "Lors d’une rencontre, l’autrice avait expliqué qu’elle voulait donner une voix aux histoires silencieuses de sa famille."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“C’est précisément cette liberté qui permet à chaque _____ d’y reconnaître une part de son histoire et de construire sa propre relation avec le texte.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Pourquoi ce roman résonne encore » ? “C’est précisément cette liberté qui permet à…”",
         "options": [
-          "autobiographique",
-          "progressivement",
-          "interprétation",
-          "lecteur"
+          "Bienvenue dans notre podcast littéraire.",
+          "Cette semaine, nous revenons sur un roman francophone consacré à la mémoire et à l’exil.",
+          "Lors d’une rencontre, l’autrice avait expliqué qu’elle voulait donner une voix aux histoires silencieuses de sa famille.",
+          "C’est précisément cette liberté qui permet à chaque lecteur d’y reconnaître une part de son histoire et de construire sa propre relation avec le texte."
         ]
       }
     ]
@@ -30099,92 +30099,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complète ce détail de l’audio.\n\n“Aujourd’hui, nous sommes le samedi _____ mai.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « L’anniversaire de Léa » ? “Aujourd’hui nous sommes…”",
             "options": [
               {
                 "id": "o1",
-                "text": "quinze"
+                "text": "Aujourd’hui, nous sommes le samedi quinze mai."
               },
               {
                 "id": "o2",
-                "text": "l’anniversaire"
+                "text": "C’est l’anniversaire de Léa."
               },
               {
                 "id": "o3",
-                "text": "l’après-midi"
+                "text": "La fête commence à quatre heures de l’après-midi."
               },
               {
                 "id": "o4",
-                "text": "anniversaire"
+                "text": "Le matin, Camila et Paul préparent la décoration."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel mot complète la phrase entendue ?\n\n“Le matin, Camila et _____ préparent la décoration.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « L’anniversaire de Léa » ? “Le matin Camila…”",
             "options": [
               {
                 "id": "o1",
-                "text": "l’anniversaire"
+                "text": "Aujourd’hui, nous sommes le samedi quinze mai."
               },
               {
                 "id": "o2",
-                "text": "Paul"
+                "text": "Le matin, Camila et Paul préparent la décoration."
               },
               {
                 "id": "o3",
-                "text": "l’après-midi"
+                "text": "C’est l’anniversaire de Léa."
               },
               {
                 "id": "o4",
-                "text": "anniversaire"
+                "text": "La fête commence à quatre heures de l’après-midi."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Les invités arrivent à _____ heures.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « L’anniversaire de Léa » ? “Les invités arrivent…”",
             "options": [
               {
                 "id": "o1",
-                "text": "l’anniversaire"
+                "text": "Aujourd’hui, nous sommes le samedi quinze mai."
               },
               {
                 "id": "o2",
-                "text": "l’après-midi"
+                "text": "C’est l’anniversaire de Léa."
               },
               {
                 "id": "o3",
-                "text": "quatre"
+                "text": "Les invités arrivent à quatre heures."
               },
               {
                 "id": "o4",
-                "text": "anniversaire"
+                "text": "La fête commence à quatre heures de l’après-midi."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Le dimanche matin, Léa ouvre encore quelques cartes et _____ sa famille pour cette belle journée.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « L’anniversaire de Léa » ? “Le dimanche matin Léa ouvre encore…”",
             "options": [
               {
                 "id": "o1",
-                "text": "l’anniversaire"
+                "text": "Aujourd’hui, nous sommes le samedi quinze mai."
               },
               {
                 "id": "o2",
-                "text": "l’après-midi"
+                "text": "C’est l’anniversaire de Léa."
               },
               {
                 "id": "o3",
-                "text": "anniversaire"
+                "text": "La fête commence à quatre heures de l’après-midi."
               },
               {
                 "id": "o4",
-                "text": "remercie"
+                "text": "Le dimanche matin, Léa ouvre encore quelques cartes et remercie sa famille pour cette belle journée."
               }
             ]
           }
@@ -30195,42 +30195,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complète ce détail de l’audio.\n\n“Aujourd’hui, nous sommes le samedi _____ mai.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « L’anniversaire de Léa » ? “Aujourd’hui nous sommes…”",
         "options": [
-          "quinze",
-          "l’anniversaire",
-          "l’après-midi",
-          "anniversaire"
+          "Aujourd’hui, nous sommes le samedi quinze mai.",
+          "C’est l’anniversaire de Léa.",
+          "La fête commence à quatre heures de l’après-midi.",
+          "Le matin, Camila et Paul préparent la décoration."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel mot complète la phrase entendue ?\n\n“Le matin, Camila et _____ préparent la décoration.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « L’anniversaire de Léa » ? “Le matin Camila…”",
         "options": [
-          "l’anniversaire",
-          "Paul",
-          "l’après-midi",
-          "anniversaire"
+          "Aujourd’hui, nous sommes le samedi quinze mai.",
+          "Le matin, Camila et Paul préparent la décoration.",
+          "C’est l’anniversaire de Léa.",
+          "La fête commence à quatre heures de l’après-midi."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Les invités arrivent à _____ heures.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « L’anniversaire de Léa » ? “Les invités arrivent…”",
         "options": [
-          "l’anniversaire",
-          "l’après-midi",
-          "quatre",
-          "anniversaire"
+          "Aujourd’hui, nous sommes le samedi quinze mai.",
+          "C’est l’anniversaire de Léa.",
+          "Les invités arrivent à quatre heures.",
+          "La fête commence à quatre heures de l’après-midi."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Le dimanche matin, Léa ouvre encore quelques cartes et _____ sa famille pour cette belle journée.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « L’anniversaire de Léa » ? “Le dimanche matin Léa ouvre encore…”",
         "options": [
-          "l’anniversaire",
-          "l’après-midi",
-          "anniversaire",
-          "remercie"
+          "Aujourd’hui, nous sommes le samedi quinze mai.",
+          "C’est l’anniversaire de Léa.",
+          "La fête commence à quatre heures de l’après-midi.",
+          "Le dimanche matin, Léa ouvre encore quelques cartes et remercie sa famille pour cette belle journée."
         ]
       }
     ]
@@ -30314,92 +30314,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complète ce détail de l’audio.\n\n“Bonjour, je m’appelle Mamadou et je vais vous raconter mon premier voyage sans mes _____.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Le premier voyage de Mamadou » ? “Bonjour je m’appelle Mamadou et…”",
             "options": [
               {
                 "id": "o1",
-                "text": "parents"
+                "text": "Bonjour, je m’appelle Mamadou et je vais vous raconter mon premier voyage sans mes parents."
               },
               {
                 "id": "o2",
-                "text": "centre-ville"
+                "text": "L’été dernier, je suis parti de Lyon avec deux amis et nous sommes allés à Marseille en train."
               },
               {
                 "id": "o3",
-                "text": "inoubliable"
+                "text": "Nous sommes arrivés tôt le matin, puis nous sommes descendus jusqu’au Vieux-Port."
               },
               {
                 "id": "o4",
-                "text": "responsable"
+                "text": "Je suis monté dans un petit bateau pour découvrir les îles du Frioul."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel mot complète la phrase entendue ?\n\n“Nous sommes _____ tôt le matin, puis nous sommes descendus jusqu’au Vieux-Port.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Le premier voyage de Mamadou » ? “Nous sommes arrivés tôt…”",
             "options": [
               {
                 "id": "o1",
-                "text": "centre-ville"
+                "text": "Bonjour, je m’appelle Mamadou et je vais vous raconter mon premier voyage sans mes parents."
               },
               {
                 "id": "o2",
-                "text": "arrivés"
+                "text": "Nous sommes arrivés tôt le matin, puis nous sommes descendus jusqu’au Vieux-Port."
               },
               {
                 "id": "o3",
-                "text": "inoubliable"
+                "text": "L’été dernier, je suis parti de Lyon avec deux amis et nous sommes allés à Marseille en train."
               },
               {
                 "id": "o4",
-                "text": "responsable"
+                "text": "Je suis monté dans un petit bateau pour découvrir les îles du Frioul."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Le soir, nous _____ revenus au centre-ville et sommes entrés dans un restaurant familial.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Le premier voyage de Mamadou » ? “Le soir nous sommes revenus…”",
             "options": [
               {
                 "id": "o1",
-                "text": "centre-ville"
+                "text": "Bonjour, je m’appelle Mamadou et je vais vous raconter mon premier voyage sans mes parents."
               },
               {
                 "id": "o2",
-                "text": "inoubliable"
+                "text": "L’été dernier, je suis parti de Lyon avec deux amis et nous sommes allés à Marseille en train."
               },
               {
                 "id": "o3",
-                "text": "sommes"
+                "text": "Le soir, nous sommes revenus au centre-ville et sommes entrés dans un restaurant familial."
               },
               {
                 "id": "o4",
-                "text": "responsable"
+                "text": "Nous sommes arrivés tôt le matin, puis nous sommes descendus jusqu’au Vieux-Port."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Je me souviens de cette expérience inoubliable : pour la première fois, je me suis senti responsable de mon _____ voyage.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Le premier voyage de Mamadou » ? “Je me souviens de cette expérience inoubliable…”",
             "options": [
               {
                 "id": "o1",
-                "text": "centre-ville"
+                "text": "Bonjour, je m’appelle Mamadou et je vais vous raconter mon premier voyage sans mes parents."
               },
               {
                 "id": "o2",
-                "text": "inoubliable"
+                "text": "L’été dernier, je suis parti de Lyon avec deux amis et nous sommes allés à Marseille en train."
               },
               {
                 "id": "o3",
-                "text": "responsable"
+                "text": "Nous sommes arrivés tôt le matin, puis nous sommes descendus jusqu’au Vieux-Port."
               },
               {
                 "id": "o4",
-                "text": "propre"
+                "text": "Je me souviens de cette expérience inoubliable : pour la première fois, je me suis senti responsable de mon propre voyage."
               }
             ]
           }
@@ -30410,42 +30410,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complète ce détail de l’audio.\n\n“Bonjour, je m’appelle Mamadou et je vais vous raconter mon premier voyage sans mes _____.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Le premier voyage de Mamadou » ? “Bonjour je m’appelle Mamadou et…”",
         "options": [
-          "parents",
-          "centre-ville",
-          "inoubliable",
-          "responsable"
+          "Bonjour, je m’appelle Mamadou et je vais vous raconter mon premier voyage sans mes parents.",
+          "L’été dernier, je suis parti de Lyon avec deux amis et nous sommes allés à Marseille en train.",
+          "Nous sommes arrivés tôt le matin, puis nous sommes descendus jusqu’au Vieux-Port.",
+          "Je suis monté dans un petit bateau pour découvrir les îles du Frioul."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel mot complète la phrase entendue ?\n\n“Nous sommes _____ tôt le matin, puis nous sommes descendus jusqu’au Vieux-Port.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Le premier voyage de Mamadou » ? “Nous sommes arrivés tôt…”",
         "options": [
-          "centre-ville",
-          "arrivés",
-          "inoubliable",
-          "responsable"
+          "Bonjour, je m’appelle Mamadou et je vais vous raconter mon premier voyage sans mes parents.",
+          "Nous sommes arrivés tôt le matin, puis nous sommes descendus jusqu’au Vieux-Port.",
+          "L’été dernier, je suis parti de Lyon avec deux amis et nous sommes allés à Marseille en train.",
+          "Je suis monté dans un petit bateau pour découvrir les îles du Frioul."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Le soir, nous _____ revenus au centre-ville et sommes entrés dans un restaurant familial.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Le premier voyage de Mamadou » ? “Le soir nous sommes revenus…”",
         "options": [
-          "centre-ville",
-          "inoubliable",
-          "sommes",
-          "responsable"
+          "Bonjour, je m’appelle Mamadou et je vais vous raconter mon premier voyage sans mes parents.",
+          "L’été dernier, je suis parti de Lyon avec deux amis et nous sommes allés à Marseille en train.",
+          "Le soir, nous sommes revenus au centre-ville et sommes entrés dans un restaurant familial.",
+          "Nous sommes arrivés tôt le matin, puis nous sommes descendus jusqu’au Vieux-Port."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Je me souviens de cette expérience inoubliable : pour la première fois, je me suis senti responsable de mon _____ voyage.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Le premier voyage de Mamadou » ? “Je me souviens de cette expérience inoubliable…”",
         "options": [
-          "centre-ville",
-          "inoubliable",
-          "responsable",
-          "propre"
+          "Bonjour, je m’appelle Mamadou et je vais vous raconter mon premier voyage sans mes parents.",
+          "L’été dernier, je suis parti de Lyon avec deux amis et nous sommes allés à Marseille en train.",
+          "Nous sommes arrivés tôt le matin, puis nous sommes descendus jusqu’au Vieux-Port.",
+          "Je me souviens de cette expérience inoubliable : pour la première fois, je me suis senti responsable de mon propre voyage."
         ]
       }
     ]
@@ -30570,92 +30570,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complète ce détail de l’audio.\n\n“Chaque printemps depuis 2018, environ neuf cent mille lycéens formulent leurs vœux sur Parcoursup, la plateforme nationale d’admission postbac, et chaque printemps la même polémique ressurgit : l’algorithme serait-il un simple outil neutre, ou reproduit-il des inégalités antérieures à tout _____ ?”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Analyse : Le mérite en question » ? “Chaque printemps depuis 2018 environ neuf cent…”",
             "options": [
               {
                 "id": "o1",
-                "text": "classement"
+                "text": "Chaque printemps depuis 2018, environ neuf cent mille lycéens formulent leurs vœux sur Parcoursup, la plateforme nationale d’admission postbac, et chaque printemps la même polémique ressurgit : l’algorithme serait-il un simple outil neutre, ou reproduit-il des inégalités antérieures à tout classement ?"
               },
               {
                 "id": "o2",
-                "text": "administratives"
+                "text": "Le discours méritocratique repose sur une affirmation apparemment consensuelle — chacun devrait réussir grâce à son travail."
               },
               {
                 "id": "o3",
-                "text": "méritocratique"
+                "text": "Ce consensus se fissure dès lors que l’on considère que les résultats scolaires reflètent aussi les ressources disponibles avant même le dépôt du dossier : certains élèves disposent d’un logement calme, de temps libre et de réseaux familiaux informés sur les filières sélectives ; d’autres cumulent emploi salarié, temps de transport et démarches administratives complexes dès la classe de première."
               },
               {
                 "id": "o4",
-                "text": "environ"
+                "text": "Six notions permettent de suivre le raisonnement : la méritocratie, l’équité, déterministe, un justificatif, une égalité formelle et un effet inégal."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel mot complète la phrase entendue ?\n\n“Six _____ permettent de suivre le raisonnement : la méritocratie, l’équité, déterministe, un justificatif, une égalité formelle et un effet inégal.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Analyse : Le mérite en question » ? “Six notions permettent de suivre le raisonnement…”",
             "options": [
               {
                 "id": "o1",
-                "text": "administratives"
+                "text": "Chaque printemps depuis 2018, environ neuf cent mille lycéens formulent leurs vœux sur Parcoursup, la plateforme nationale d’admission postbac, et chaque printemps la même polémique ressurgit : l’algorithme serait-il un simple outil neutre, ou reproduit-il des inégalités antérieures à tout classement ?"
               },
               {
                 "id": "o2",
-                "text": "notions"
+                "text": "Six notions permettent de suivre le raisonnement : la méritocratie, l’équité, déterministe, un justificatif, une égalité formelle et un effet inégal."
               },
               {
                 "id": "o3",
-                "text": "méritocratique"
+                "text": "Le discours méritocratique repose sur une affirmation apparemment consensuelle — chacun devrait réussir grâce à son travail."
               },
               {
                 "id": "o4",
-                "text": "l’algorithme"
+                "text": "Ce consensus se fissure dès lors que l’on considère que les résultats scolaires reflètent aussi les ressources disponibles avant même le dépôt du dossier : certains élèves disposent d’un logement calme, de temps libre et de réseaux familiaux informés sur les filières sélectives ; d’autres cumulent emploi salarié, temps de transport et démarches administratives complexes dès la classe de première."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Certes, la méritocratie promet une _____ formelle ; néanmoins, des conditions de départ différentes produisent un effet inégal.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Analyse : Le mérite en question » ? “Certes la méritocratie promet une égalité…”",
             "options": [
               {
                 "id": "o1",
-                "text": "administratives"
+                "text": "Chaque printemps depuis 2018, environ neuf cent mille lycéens formulent leurs vœux sur Parcoursup, la plateforme nationale d’admission postbac, et chaque printemps la même polémique ressurgit : l’algorithme serait-il un simple outil neutre, ou reproduit-il des inégalités antérieures à tout classement ?"
               },
               {
                 "id": "o2",
-                "text": "méritocratique"
+                "text": "Le discours méritocratique repose sur une affirmation apparemment consensuelle — chacun devrait réussir grâce à son travail."
               },
               {
                 "id": "o3",
-                "text": "égalité"
+                "text": "Certes, la méritocratie promet une égalité formelle ; néanmoins, des conditions de départ différentes produisent un effet inégal."
               },
               {
                 "id": "o4",
-                "text": "l’algorithme"
+                "text": "Ce consensus se fissure dès lors que l’on considère que les résultats scolaires reflètent aussi les ressources disponibles avant même le dépôt du dossier : certains élèves disposent d’un logement calme, de temps libre et de réseaux familiaux informés sur les filières sélectives ; d’autres cumulent emploi salarié, temps de transport et démarches administratives complexes dès la classe de première."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Analyse : Le mérite en question » ? “Ce cadre permet enfin…”",
             "options": [
               {
                 "id": "o1",
-                "text": "administratives"
+                "text": "Chaque printemps depuis 2018, environ neuf cent mille lycéens formulent leurs vœux sur Parcoursup, la plateforme nationale d’admission postbac, et chaque printemps la même polémique ressurgit : l’algorithme serait-il un simple outil neutre, ou reproduit-il des inégalités antérieures à tout classement ?"
               },
               {
                 "id": "o2",
-                "text": "méritocratique"
+                "text": "Le discours méritocratique repose sur une affirmation apparemment consensuelle — chacun devrait réussir grâce à son travail."
               },
               {
                 "id": "o3",
-                "text": "l’algorithme"
+                "text": "Ce consensus se fissure dès lors que l’on considère que les résultats scolaires reflètent aussi les ressources disponibles avant même le dépôt du dossier : certains élèves disposent d’un logement calme, de temps libre et de réseaux familiaux informés sur les filières sélectives ; d’autres cumulent emploi salarié, temps de transport et démarches administratives complexes dès la classe de première."
               },
               {
                 "id": "o4",
-                "text": "relier"
+                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
               }
             ]
           }
@@ -30666,42 +30666,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complète ce détail de l’audio.\n\n“Chaque printemps depuis 2018, environ neuf cent mille lycéens formulent leurs vœux sur Parcoursup, la plateforme nationale d’admission postbac, et chaque printemps la même polémique ressurgit : l’algorithme serait-il un simple outil neutre, ou reproduit-il des inégalités antérieures à tout _____ ?”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Analyse : Le mérite en question » ? “Chaque printemps depuis 2018 environ neuf cent…”",
         "options": [
-          "classement",
-          "administratives",
-          "méritocratique",
-          "environ"
+          "Chaque printemps depuis 2018, environ neuf cent mille lycéens formulent leurs vœux sur Parcoursup, la plateforme nationale d’admission postbac, et chaque printemps la même polémique ressurgit : l’algorithme serait-il un simple outil neutre, ou reproduit-il des inégalités antérieures à tout classement ?",
+          "Le discours méritocratique repose sur une affirmation apparemment consensuelle — chacun devrait réussir grâce à son travail.",
+          "Ce consensus se fissure dès lors que l’on considère que les résultats scolaires reflètent aussi les ressources disponibles avant même le dépôt du dossier : certains élèves disposent d’un logement calme, de temps libre et de réseaux familiaux informés sur les filières sélectives ; d’autres cumulent emploi salarié, temps de transport et démarches administratives complexes dès la classe de première.",
+          "Six notions permettent de suivre le raisonnement : la méritocratie, l’équité, déterministe, un justificatif, une égalité formelle et un effet inégal."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel mot complète la phrase entendue ?\n\n“Six _____ permettent de suivre le raisonnement : la méritocratie, l’équité, déterministe, un justificatif, une égalité formelle et un effet inégal.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Analyse : Le mérite en question » ? “Six notions permettent de suivre le raisonnement…”",
         "options": [
-          "administratives",
-          "notions",
-          "méritocratique",
-          "l’algorithme"
+          "Chaque printemps depuis 2018, environ neuf cent mille lycéens formulent leurs vœux sur Parcoursup, la plateforme nationale d’admission postbac, et chaque printemps la même polémique ressurgit : l’algorithme serait-il un simple outil neutre, ou reproduit-il des inégalités antérieures à tout classement ?",
+          "Six notions permettent de suivre le raisonnement : la méritocratie, l’équité, déterministe, un justificatif, une égalité formelle et un effet inégal.",
+          "Le discours méritocratique repose sur une affirmation apparemment consensuelle — chacun devrait réussir grâce à son travail.",
+          "Ce consensus se fissure dès lors que l’on considère que les résultats scolaires reflètent aussi les ressources disponibles avant même le dépôt du dossier : certains élèves disposent d’un logement calme, de temps libre et de réseaux familiaux informés sur les filières sélectives ; d’autres cumulent emploi salarié, temps de transport et démarches administratives complexes dès la classe de première."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Certes, la méritocratie promet une _____ formelle ; néanmoins, des conditions de départ différentes produisent un effet inégal.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Analyse : Le mérite en question » ? “Certes la méritocratie promet une égalité…”",
         "options": [
-          "administratives",
-          "méritocratique",
-          "égalité",
-          "l’algorithme"
+          "Chaque printemps depuis 2018, environ neuf cent mille lycéens formulent leurs vœux sur Parcoursup, la plateforme nationale d’admission postbac, et chaque printemps la même polémique ressurgit : l’algorithme serait-il un simple outil neutre, ou reproduit-il des inégalités antérieures à tout classement ?",
+          "Le discours méritocratique repose sur une affirmation apparemment consensuelle — chacun devrait réussir grâce à son travail.",
+          "Certes, la méritocratie promet une égalité formelle ; néanmoins, des conditions de départ différentes produisent un effet inégal.",
+          "Ce consensus se fissure dès lors que l’on considère que les résultats scolaires reflètent aussi les ressources disponibles avant même le dépôt du dossier : certains élèves disposent d’un logement calme, de temps libre et de réseaux familiaux informés sur les filières sélectives ; d’autres cumulent emploi salarié, temps de transport et démarches administratives complexes dès la classe de première."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Analyse : Le mérite en question » ? “Ce cadre permet enfin…”",
         "options": [
-          "administratives",
-          "méritocratique",
-          "l’algorithme",
-          "relier"
+          "Chaque printemps depuis 2018, environ neuf cent mille lycéens formulent leurs vœux sur Parcoursup, la plateforme nationale d’admission postbac, et chaque printemps la même polémique ressurgit : l’algorithme serait-il un simple outil neutre, ou reproduit-il des inégalités antérieures à tout classement ?",
+          "Le discours méritocratique repose sur une affirmation apparemment consensuelle — chacun devrait réussir grâce à son travail.",
+          "Ce consensus se fissure dès lors que l’on considère que les résultats scolaires reflètent aussi les ressources disponibles avant même le dépôt du dossier : certains élèves disposent d’un logement calme, de temps libre et de réseaux familiaux informés sur les filières sélectives ; d’autres cumulent emploi salarié, temps de transport et démarches administratives complexes dès la classe de première.",
+          "Ce cadre permet enfin de relier les faits à une décision argumentée."
         ]
       }
     ]
@@ -30836,92 +30836,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complète ce détail de l’audio.\n\n“Un télescope capte la lumière filtrée par l’atmosphère d’une planète lointaine, et une question ancienne redevient soudain _____.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Analyse : Sommes-nous sur le point de détecter une vie extraterrestre ? » ? “Un télescope capte la lumière filtrée…”",
             "options": [
               {
                 "id": "o1",
-                "text": "concrète"
+                "text": "Un télescope capte la lumière filtrée par l’atmosphère d’une planète lointaine, et une question ancienne redevient soudain concrète."
               },
               {
                 "id": "o2",
-                "text": "interchangeables"
+                "text": "La question « Sommes-nous sur le point de détecter une vie extraterrestre ? » occupe une place centrale dans l’analyse contemporaine."
               },
               {
                 "id": "o3",
-                "text": "astrobiologique"
+                "text": "Plusieurs annonces récentes de détection de biosignatures potentielles dans l’atmosphère d’exoplanètes lointaines ont suscité un enthousiasme médiatique rapide, alors même que la communauté astrobiologique insiste sur la distance considérable séparant un signal prometteur d’une preuve établie de vie extraterrestre."
               },
               {
                 "id": "o4",
-                "text": "extraterrestre"
+                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel mot complète la phrase entendue ?\n\n“Une _____ sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Analyse : Sommes-nous sur le point de détecter une vie extraterrestre ? » ? “Une réponse sérieuse doit distinguer ce que…”",
             "options": [
               {
                 "id": "o1",
-                "text": "interchangeables"
+                "text": "Un télescope capte la lumière filtrée par l’atmosphère d’une planète lointaine, et une question ancienne redevient soudain concrète."
               },
               {
                 "id": "o2",
-                "text": "réponse"
+                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
               },
               {
                 "id": "o3",
-                "text": "astrobiologique"
+                "text": "La question « Sommes-nous sur le point de détecter une vie extraterrestre ? » occupe une place centrale dans l’analyse contemporaine."
               },
               {
                 "id": "o4",
-                "text": "extraterrestre"
+                "text": "Plusieurs annonces récentes de détection de biosignatures potentielles dans l’atmosphère d’exoplanètes lointaines ont suscité un enthousiasme médiatique rapide, alors même que la communauté astrobiologique insiste sur la distance considérable séparant un signal prometteur d’une preuve établie de vie extraterrestre."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Lorsque les astronomes auront _____ une biosignature de manière indépendante, ils pourront enfin distinguer une origine biologique d’une simple origine abiotique.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Analyse : Sommes-nous sur le point de détecter une vie extraterrestre ? » ? “Lorsque les astronomes auront confirmé une biosignature…”",
             "options": [
               {
                 "id": "o1",
-                "text": "interchangeables"
+                "text": "Un télescope capte la lumière filtrée par l’atmosphère d’une planète lointaine, et une question ancienne redevient soudain concrète."
               },
               {
                 "id": "o2",
-                "text": "astrobiologique"
+                "text": "La question « Sommes-nous sur le point de détecter une vie extraterrestre ? » occupe une place centrale dans l’analyse contemporaine."
               },
               {
                 "id": "o3",
-                "text": "confirmé"
+                "text": "Lorsque les astronomes auront confirmé une biosignature de manière indépendante, ils pourront enfin distinguer une origine biologique d’une simple origine abiotique."
               },
               {
                 "id": "o4",
-                "text": "extraterrestre"
+                "text": "Plusieurs annonces récentes de détection de biosignatures potentielles dans l’atmosphère d’exoplanètes lointaines ont suscité un enthousiasme médiatique rapide, alors même que la communauté astrobiologique insiste sur la distance considérable séparant un signal prometteur d’une preuve établie de vie extraterrestre."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Analyse : Sommes-nous sur le point de détecter une vie extraterrestre ? » ? “Ce cadre permet enfin…”",
             "options": [
               {
                 "id": "o1",
-                "text": "interchangeables"
+                "text": "Un télescope capte la lumière filtrée par l’atmosphère d’une planète lointaine, et une question ancienne redevient soudain concrète."
               },
               {
                 "id": "o2",
-                "text": "astrobiologique"
+                "text": "La question « Sommes-nous sur le point de détecter une vie extraterrestre ? » occupe une place centrale dans l’analyse contemporaine."
               },
               {
                 "id": "o3",
-                "text": "extraterrestre"
+                "text": "Plusieurs annonces récentes de détection de biosignatures potentielles dans l’atmosphère d’exoplanètes lointaines ont suscité un enthousiasme médiatique rapide, alors même que la communauté astrobiologique insiste sur la distance considérable séparant un signal prometteur d’une preuve établie de vie extraterrestre."
               },
               {
                 "id": "o4",
-                "text": "relier"
+                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
               }
             ]
           }
@@ -30932,42 +30932,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complète ce détail de l’audio.\n\n“Un télescope capte la lumière filtrée par l’atmosphère d’une planète lointaine, et une question ancienne redevient soudain _____.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Analyse : Sommes-nous sur le point de détecter une vie extraterrestre ? » ? “Un télescope capte la lumière filtrée…”",
         "options": [
-          "concrète",
-          "interchangeables",
-          "astrobiologique",
-          "extraterrestre"
+          "Un télescope capte la lumière filtrée par l’atmosphère d’une planète lointaine, et une question ancienne redevient soudain concrète.",
+          "La question « Sommes-nous sur le point de détecter une vie extraterrestre ? » occupe une place centrale dans l’analyse contemporaine.",
+          "Plusieurs annonces récentes de détection de biosignatures potentielles dans l’atmosphère d’exoplanètes lointaines ont suscité un enthousiasme médiatique rapide, alors même que la communauté astrobiologique insiste sur la distance considérable séparant un signal prometteur d’une preuve établie de vie extraterrestre.",
+          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel mot complète la phrase entendue ?\n\n“Une _____ sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Analyse : Sommes-nous sur le point de détecter une vie extraterrestre ? » ? “Une réponse sérieuse doit distinguer ce que…”",
         "options": [
-          "interchangeables",
-          "réponse",
-          "astrobiologique",
-          "extraterrestre"
+          "Un télescope capte la lumière filtrée par l’atmosphère d’une planète lointaine, et une question ancienne redevient soudain concrète.",
+          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.",
+          "La question « Sommes-nous sur le point de détecter une vie extraterrestre ? » occupe une place centrale dans l’analyse contemporaine.",
+          "Plusieurs annonces récentes de détection de biosignatures potentielles dans l’atmosphère d’exoplanètes lointaines ont suscité un enthousiasme médiatique rapide, alors même que la communauté astrobiologique insiste sur la distance considérable séparant un signal prometteur d’une preuve établie de vie extraterrestre."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Lorsque les astronomes auront _____ une biosignature de manière indépendante, ils pourront enfin distinguer une origine biologique d’une simple origine abiotique.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Analyse : Sommes-nous sur le point de détecter une vie extraterrestre ? » ? “Lorsque les astronomes auront confirmé une biosignature…”",
         "options": [
-          "interchangeables",
-          "astrobiologique",
-          "confirmé",
-          "extraterrestre"
+          "Un télescope capte la lumière filtrée par l’atmosphère d’une planète lointaine, et une question ancienne redevient soudain concrète.",
+          "La question « Sommes-nous sur le point de détecter une vie extraterrestre ? » occupe une place centrale dans l’analyse contemporaine.",
+          "Lorsque les astronomes auront confirmé une biosignature de manière indépendante, ils pourront enfin distinguer une origine biologique d’une simple origine abiotique.",
+          "Plusieurs annonces récentes de détection de biosignatures potentielles dans l’atmosphère d’exoplanètes lointaines ont suscité un enthousiasme médiatique rapide, alors même que la communauté astrobiologique insiste sur la distance considérable séparant un signal prometteur d’une preuve établie de vie extraterrestre."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Analyse : Sommes-nous sur le point de détecter une vie extraterrestre ? » ? “Ce cadre permet enfin…”",
         "options": [
-          "interchangeables",
-          "astrobiologique",
-          "extraterrestre",
-          "relier"
+          "Un télescope capte la lumière filtrée par l’atmosphère d’une planète lointaine, et une question ancienne redevient soudain concrète.",
+          "La question « Sommes-nous sur le point de détecter une vie extraterrestre ? » occupe une place centrale dans l’analyse contemporaine.",
+          "Plusieurs annonces récentes de détection de biosignatures potentielles dans l’atmosphère d’exoplanètes lointaines ont suscité un enthousiasme médiatique rapide, alors même que la communauté astrobiologique insiste sur la distance considérable séparant un signal prometteur d’une preuve établie de vie extraterrestre.",
+          "Ce cadre permet enfin de relier les faits à une décision argumentée."
         ]
       }
     ]
@@ -31061,92 +31061,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complète ce détail de l’audio.\n\n“Les réseaux sociaux occupent une place importante dans notre vie _____.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Réseaux sociaux : trouver l’équilibre » ? “Les réseaux sociaux occupent…”",
             "options": [
               {
                 "id": "o1",
-                "text": "quotidienne"
+                "text": "Les réseaux sociaux occupent une place importante dans notre vie quotidienne."
               },
               {
                 "id": "o2",
-                "text": "confidentialité"
+                "text": "D’une part, ils permettent de garder contact, de découvrir des projets et de partager rapidement une information."
               },
               {
                 "id": "o3",
-                "text": "occupent"
+                "text": "D’autre part, ils présentent des risques : comparaison permanente, perte de temps, désinformation et problèmes de vie privée."
               },
               {
                 "id": "o4",
-                "text": "partager"
+                "text": "Cependant, la technologie n’est pas seule responsable de ces difficultés."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel mot complète la phrase entendue ?\n\n“Cependant, la _____ n’est pas seule responsable de ces difficultés.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Réseaux sociaux : trouver l’équilibre » ? “Cependant la technologie n’est…”",
             "options": [
               {
                 "id": "o1",
-                "text": "confidentialité"
+                "text": "Les réseaux sociaux occupent une place importante dans notre vie quotidienne."
               },
               {
                 "id": "o2",
-                "text": "technologie"
+                "text": "Cependant, la technologie n’est pas seule responsable de ces difficultés."
               },
               {
                 "id": "o3",
-                "text": "occupent"
+                "text": "D’une part, ils permettent de garder contact, de découvrir des projets et de partager rapidement une information."
               },
               {
                 "id": "o4",
-                "text": "partager"
+                "text": "D’autre part, ils présentent des risques : comparaison permanente, perte de temps, désinformation et problèmes de vie privée."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Il faut aussi que les plateformes expliquent plus clairement _____ leurs algorithmes sélectionnent les contenus.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Réseaux sociaux : trouver l’équilibre » ? “Il faut aussi que les…”",
             "options": [
               {
                 "id": "o1",
-                "text": "confidentialité"
+                "text": "Les réseaux sociaux occupent une place importante dans notre vie quotidienne."
               },
               {
                 "id": "o2",
-                "text": "désinformation"
+                "text": "D’une part, ils permettent de garder contact, de découvrir des projets et de partager rapidement une information."
               },
               {
                 "id": "o3",
-                "text": "comment"
+                "text": "Il faut aussi que les plateformes expliquent plus clairement comment leurs algorithmes sélectionnent les contenus."
               },
               {
                 "id": "o4",
-                "text": "sélectionnent"
+                "text": "D’autre part, ils présentent des risques : comparaison permanente, perte de temps, désinformation et problèmes de vie privée."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“La question n’est donc pas seulement de savoir si les réseaux sont bons ou mauvais, mais de _____ quelles habitudes numériques protègent réellement notre attention et nos relations.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Réseaux sociaux : trouver l’équilibre » ? “La question n’est donc pas seulement de…”",
             "options": [
               {
                 "id": "o1",
-                "text": "confidentialité"
+                "text": "Les réseaux sociaux occupent une place importante dans notre vie quotidienne."
               },
               {
                 "id": "o2",
-                "text": "désinformation"
+                "text": "D’une part, ils permettent de garder contact, de découvrir des projets et de partager rapidement une information."
               },
               {
                 "id": "o3",
-                "text": "sélectionnent"
+                "text": "D’autre part, ils présentent des risques : comparaison permanente, perte de temps, désinformation et problèmes de vie privée."
               },
               {
                 "id": "o4",
-                "text": "décider"
+                "text": "La question n’est donc pas seulement de savoir si les réseaux sont bons ou mauvais, mais de décider quelles habitudes numériques protègent réellement notre attention et nos relations."
               }
             ]
           }
@@ -31157,42 +31157,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complète ce détail de l’audio.\n\n“Les réseaux sociaux occupent une place importante dans notre vie _____.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Réseaux sociaux : trouver l’équilibre » ? “Les réseaux sociaux occupent…”",
         "options": [
-          "quotidienne",
-          "confidentialité",
-          "occupent",
-          "partager"
+          "Les réseaux sociaux occupent une place importante dans notre vie quotidienne.",
+          "D’une part, ils permettent de garder contact, de découvrir des projets et de partager rapidement une information.",
+          "D’autre part, ils présentent des risques : comparaison permanente, perte de temps, désinformation et problèmes de vie privée.",
+          "Cependant, la technologie n’est pas seule responsable de ces difficultés."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel mot complète la phrase entendue ?\n\n“Cependant, la _____ n’est pas seule responsable de ces difficultés.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Réseaux sociaux : trouver l’équilibre » ? “Cependant la technologie n’est…”",
         "options": [
-          "confidentialité",
-          "technologie",
-          "occupent",
-          "partager"
+          "Les réseaux sociaux occupent une place importante dans notre vie quotidienne.",
+          "Cependant, la technologie n’est pas seule responsable de ces difficultés.",
+          "D’une part, ils permettent de garder contact, de découvrir des projets et de partager rapidement une information.",
+          "D’autre part, ils présentent des risques : comparaison permanente, perte de temps, désinformation et problèmes de vie privée."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Il faut aussi que les plateformes expliquent plus clairement _____ leurs algorithmes sélectionnent les contenus.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Réseaux sociaux : trouver l’équilibre » ? “Il faut aussi que les…”",
         "options": [
-          "confidentialité",
-          "désinformation",
-          "comment",
-          "sélectionnent"
+          "Les réseaux sociaux occupent une place importante dans notre vie quotidienne.",
+          "D’une part, ils permettent de garder contact, de découvrir des projets et de partager rapidement une information.",
+          "Il faut aussi que les plateformes expliquent plus clairement comment leurs algorithmes sélectionnent les contenus.",
+          "D’autre part, ils présentent des risques : comparaison permanente, perte de temps, désinformation et problèmes de vie privée."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“La question n’est donc pas seulement de savoir si les réseaux sont bons ou mauvais, mais de _____ quelles habitudes numériques protègent réellement notre attention et nos relations.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Réseaux sociaux : trouver l’équilibre » ? “La question n’est donc pas seulement de…”",
         "options": [
-          "confidentialité",
-          "désinformation",
-          "sélectionnent",
-          "décider"
+          "Les réseaux sociaux occupent une place importante dans notre vie quotidienne.",
+          "D’une part, ils permettent de garder contact, de découvrir des projets et de partager rapidement une information.",
+          "D’autre part, ils présentent des risques : comparaison permanente, perte de temps, désinformation et problèmes de vie privée.",
+          "La question n’est donc pas seulement de savoir si les réseaux sont bons ou mauvais, mais de décider quelles habitudes numériques protègent réellement notre attention et nos relations."
         ]
       }
     ]
@@ -31301,92 +31301,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complète ce détail de l’audio.\n\n“Le film « Une ville en silence » raconte vingt-quatre heures dans la vie de trois inconnus dont les chemins finissent par se _____.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Une ville en silence : notre critique » ? “Le film Une ville en silence raconte…”",
             "options": [
               {
                 "id": "o1",
-                "text": "croiser"
+                "text": "Le film « Une ville en silence » raconte vingt-quatre heures dans la vie de trois inconnus dont les chemins finissent par se croiser."
               },
               {
                 "id": "o2",
-                "text": "particulièrement"
+                "text": "Ce qui m’a d’abord marqué, c’est la mise en scène : la caméra observe les personnages à distance, sans musique, comme si la ville elle-même retenait son souffle."
               },
               {
                 "id": "o3",
-                "text": "rebondissement"
+                "text": "Ce que j’ai particulièrement apprécié, c’est la manière dont le scénario transforme des gestes ordinaires en indices."
               },
               {
                 "id": "o4",
-                "text": "volontairement"
+                "text": "Un ticket oublié et une porte mal fermée préparent un rebondissement que le spectateur ne comprend qu’à la fin."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel mot complète la phrase entendue ?\n\n“Un ticket _____ et une porte mal fermée préparent un rebondissement que le spectateur ne comprend qu’à la fin.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Une ville en silence : notre critique » ? “Un ticket oublié et une porte mal…”",
             "options": [
               {
                 "id": "o1",
-                "text": "particulièrement"
+                "text": "Le film « Une ville en silence » raconte vingt-quatre heures dans la vie de trois inconnus dont les chemins finissent par se croiser."
               },
               {
                 "id": "o2",
-                "text": "oublié"
+                "text": "Un ticket oublié et une porte mal fermée préparent un rebondissement que le spectateur ne comprend qu’à la fin."
               },
               {
                 "id": "o3",
-                "text": "rebondissement"
+                "text": "Ce qui m’a d’abord marqué, c’est la mise en scène : la caméra observe les personnages à distance, sans musique, comme si la ville elle-même retenait son souffle."
               },
               {
                 "id": "o4",
-                "text": "volontairement"
+                "text": "Ce que j’ai particulièrement apprécié, c’est la manière dont le scénario transforme des gestes ordinaires en indices."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Le rythme est parfois lent, mais cette lenteur me _____ nécessaire.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Une ville en silence : notre critique » ? “Le rythme est parfois…”",
             "options": [
               {
                 "id": "o1",
-                "text": "particulièrement"
+                "text": "Le film « Une ville en silence » raconte vingt-quatre heures dans la vie de trois inconnus dont les chemins finissent par se croiser."
               },
               {
                 "id": "o2",
-                "text": "rebondissement"
+                "text": "Ce qui m’a d’abord marqué, c’est la mise en scène : la caméra observe les personnages à distance, sans musique, comme si la ville elle-même retenait son souffle."
               },
               {
                 "id": "o3",
-                "text": "paraît"
+                "text": "Le rythme est parfois lent, mais cette lenteur me paraît nécessaire."
               },
               {
                 "id": "o4",
-                "text": "volontairement"
+                "text": "Ce que j’ai particulièrement apprécié, c’est la manière dont le scénario transforme des gestes ordinaires en indices."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Je le recommande aux spectateurs qui aiment observer, interpréter et _____ qu’une œuvre ne fournisse pas toutes les réponses.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Une ville en silence : notre critique » ? “Je le recommande aux spectateurs qui aiment…”",
             "options": [
               {
                 "id": "o1",
-                "text": "particulièrement"
+                "text": "Le film « Une ville en silence » raconte vingt-quatre heures dans la vie de trois inconnus dont les chemins finissent par se croiser."
               },
               {
                 "id": "o2",
-                "text": "rebondissement"
+                "text": "Ce qui m’a d’abord marqué, c’est la mise en scène : la caméra observe les personnages à distance, sans musique, comme si la ville elle-même retenait son souffle."
               },
               {
                 "id": "o3",
-                "text": "volontairement"
+                "text": "Ce que j’ai particulièrement apprécié, c’est la manière dont le scénario transforme des gestes ordinaires en indices."
               },
               {
                 "id": "o4",
-                "text": "accepter"
+                "text": "Je le recommande aux spectateurs qui aiment observer, interpréter et accepter qu’une œuvre ne fournisse pas toutes les réponses."
               }
             ]
           }
@@ -31397,42 +31397,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complète ce détail de l’audio.\n\n“Le film « Une ville en silence » raconte vingt-quatre heures dans la vie de trois inconnus dont les chemins finissent par se _____.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Une ville en silence : notre critique » ? “Le film Une ville en silence raconte…”",
         "options": [
-          "croiser",
-          "particulièrement",
-          "rebondissement",
-          "volontairement"
+          "Le film « Une ville en silence » raconte vingt-quatre heures dans la vie de trois inconnus dont les chemins finissent par se croiser.",
+          "Ce qui m’a d’abord marqué, c’est la mise en scène : la caméra observe les personnages à distance, sans musique, comme si la ville elle-même retenait son souffle.",
+          "Ce que j’ai particulièrement apprécié, c’est la manière dont le scénario transforme des gestes ordinaires en indices.",
+          "Un ticket oublié et une porte mal fermée préparent un rebondissement que le spectateur ne comprend qu’à la fin."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel mot complète la phrase entendue ?\n\n“Un ticket _____ et une porte mal fermée préparent un rebondissement que le spectateur ne comprend qu’à la fin.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Une ville en silence : notre critique » ? “Un ticket oublié et une porte mal…”",
         "options": [
-          "particulièrement",
-          "oublié",
-          "rebondissement",
-          "volontairement"
+          "Le film « Une ville en silence » raconte vingt-quatre heures dans la vie de trois inconnus dont les chemins finissent par se croiser.",
+          "Un ticket oublié et une porte mal fermée préparent un rebondissement que le spectateur ne comprend qu’à la fin.",
+          "Ce qui m’a d’abord marqué, c’est la mise en scène : la caméra observe les personnages à distance, sans musique, comme si la ville elle-même retenait son souffle.",
+          "Ce que j’ai particulièrement apprécié, c’est la manière dont le scénario transforme des gestes ordinaires en indices."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Le rythme est parfois lent, mais cette lenteur me _____ nécessaire.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Une ville en silence : notre critique » ? “Le rythme est parfois…”",
         "options": [
-          "particulièrement",
-          "rebondissement",
-          "paraît",
-          "volontairement"
+          "Le film « Une ville en silence » raconte vingt-quatre heures dans la vie de trois inconnus dont les chemins finissent par se croiser.",
+          "Ce qui m’a d’abord marqué, c’est la mise en scène : la caméra observe les personnages à distance, sans musique, comme si la ville elle-même retenait son souffle.",
+          "Le rythme est parfois lent, mais cette lenteur me paraît nécessaire.",
+          "Ce que j’ai particulièrement apprécié, c’est la manière dont le scénario transforme des gestes ordinaires en indices."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Je le recommande aux spectateurs qui aiment observer, interpréter et _____ qu’une œuvre ne fournisse pas toutes les réponses.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Une ville en silence : notre critique » ? “Je le recommande aux spectateurs qui aiment…”",
         "options": [
-          "particulièrement",
-          "rebondissement",
-          "volontairement",
-          "accepter"
+          "Le film « Une ville en silence » raconte vingt-quatre heures dans la vie de trois inconnus dont les chemins finissent par se croiser.",
+          "Ce qui m’a d’abord marqué, c’est la mise en scène : la caméra observe les personnages à distance, sans musique, comme si la ville elle-même retenait son souffle.",
+          "Ce que j’ai particulièrement apprécié, c’est la manière dont le scénario transforme des gestes ordinaires en indices.",
+          "Je le recommande aux spectateurs qui aiment observer, interpréter et accepter qu’une œuvre ne fournisse pas toutes les réponses."
         ]
       }
     ]
@@ -35842,92 +35842,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complète ce détail de l’audio.\n\n“Ce soir, la famille Lambert prépare un dîner _____.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Un dîner chez les Lambert » ? “Ce soir la…”",
             "options": [
               {
                 "id": "o1",
-                "text": "spécial"
+                "text": "Ce soir, la famille Lambert prépare un dîner spécial."
               },
               {
                 "id": "o2",
-                "text": "soir"
+                "text": "Madame Lambert cuisine du poulet, des légumes et du riz."
               },
               {
                 "id": "o3",
-                "text": "pain"
+                "text": "Monsieur Lambert prépare de la salade et Camila met du pain sur la table."
               },
               {
                 "id": "o4",
-                "text": "Paul"
+                "text": "Paul veut du jus d’orange, mais Léa préfère de l’eau."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel mot complète la phrase entendue ?\n\n“Paul veut du jus _____, mais Léa préfère de l’eau.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Un dîner chez les Lambert » ? “Paul veut du jus…”",
             "options": [
               {
                 "id": "o1",
-                "text": "dîner"
+                "text": "Ce soir, la famille Lambert prépare un dîner spécial."
               },
               {
                 "id": "o2",
-                "text": "d’orange"
+                "text": "Paul veut du jus d’orange, mais Léa préfère de l’eau."
               },
               {
                 "id": "o3",
-                "text": "table"
+                "text": "Madame Lambert cuisine du poulet, des légumes et du riz."
               },
               {
                 "id": "o4",
-                "text": "l’eau"
+                "text": "Monsieur Lambert prépare de la salade et Camila met du pain sur la table."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Elle aime beaucoup les légumes, mais elle préfère les _____.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Un dîner chez les Lambert » ? “Elle aime beaucoup les…”",
             "options": [
               {
                 "id": "o1",
-                "text": "dîner"
+                "text": "Ce soir, la famille Lambert prépare un dîner spécial."
               },
               {
                 "id": "o2",
-                "text": "table"
+                "text": "Madame Lambert cuisine du poulet, des légumes et du riz."
               },
               {
                 "id": "o3",
-                "text": "carottes"
+                "text": "Elle aime beaucoup les légumes, mais elle préfère les carottes."
               },
               {
                 "id": "o4",
-                "text": "l’eau"
+                "text": "Monsieur Lambert prépare de la salade et Camila met du pain sur la table."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Elle _____ la famille et dit qu’elle veut apprendre à préparer ce repas.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Un dîner chez les Lambert » ? “Elle remercie la famille et…”",
             "options": [
               {
                 "id": "o1",
-                "text": "dîner"
+                "text": "Ce soir, la famille Lambert prépare un dîner spécial."
               },
               {
                 "id": "o2",
-                "text": "table"
+                "text": "Madame Lambert cuisine du poulet, des légumes et du riz."
               },
               {
                 "id": "o3",
-                "text": "l’eau"
+                "text": "Monsieur Lambert prépare de la salade et Camila met du pain sur la table."
               },
               {
                 "id": "o4",
-                "text": "remercie"
+                "text": "Elle remercie la famille et dit qu’elle veut apprendre à préparer ce repas."
               }
             ]
           }
@@ -35938,42 +35938,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complète ce détail de l’audio.\n\n“Ce soir, la famille Lambert prépare un dîner _____.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Un dîner chez les Lambert » ? “Ce soir la…”",
         "options": [
-          "spécial",
-          "soir",
-          "pain",
-          "Paul"
+          "Ce soir, la famille Lambert prépare un dîner spécial.",
+          "Madame Lambert cuisine du poulet, des légumes et du riz.",
+          "Monsieur Lambert prépare de la salade et Camila met du pain sur la table.",
+          "Paul veut du jus d’orange, mais Léa préfère de l’eau."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel mot complète la phrase entendue ?\n\n“Paul veut du jus _____, mais Léa préfère de l’eau.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Un dîner chez les Lambert » ? “Paul veut du jus…”",
         "options": [
-          "dîner",
-          "d’orange",
-          "table",
-          "l’eau"
+          "Ce soir, la famille Lambert prépare un dîner spécial.",
+          "Paul veut du jus d’orange, mais Léa préfère de l’eau.",
+          "Madame Lambert cuisine du poulet, des légumes et du riz.",
+          "Monsieur Lambert prépare de la salade et Camila met du pain sur la table."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Elle aime beaucoup les légumes, mais elle préfère les _____.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Un dîner chez les Lambert » ? “Elle aime beaucoup les…”",
         "options": [
-          "dîner",
-          "table",
-          "carottes",
-          "l’eau"
+          "Ce soir, la famille Lambert prépare un dîner spécial.",
+          "Madame Lambert cuisine du poulet, des légumes et du riz.",
+          "Elle aime beaucoup les légumes, mais elle préfère les carottes.",
+          "Monsieur Lambert prépare de la salade et Camila met du pain sur la table."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Elle _____ la famille et dit qu’elle veut apprendre à préparer ce repas.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Un dîner chez les Lambert » ? “Elle remercie la famille et…”",
         "options": [
-          "dîner",
-          "table",
-          "l’eau",
-          "remercie"
+          "Ce soir, la famille Lambert prépare un dîner spécial.",
+          "Madame Lambert cuisine du poulet, des légumes et du riz.",
+          "Monsieur Lambert prépare de la salade et Camila met du pain sur la table.",
+          "Elle remercie la famille et dit qu’elle veut apprendre à préparer ce repas."
         ]
       }
     ]
@@ -36067,92 +36067,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complète ce détail de l’audio.\n\n“Vous cherchez une destination pour vos prochaines _____ ?”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Découvrez Saint-Louis du Sénégal » ? “Vous cherchez une…”",
             "options": [
               {
                 "id": "o1",
-                "text": "vacances"
+                "text": "Vous cherchez une destination pour vos prochaines vacances ?"
               },
               {
                 "id": "o2",
-                "text": "traditionnels"
+                "text": "Découvrez Saint-Louis, au nord du Sénégal."
               },
               {
                 "id": "o3",
-                "text": "destination"
+                "text": "Notre séjour va commencer par deux nuits à Dakar dans un hôtel confortable."
               },
               {
                 "id": "o4",
-                "text": "Saint-Louis"
+                "text": "Ensuite, vous allez rejoindre Saint-Louis en voiture et découvrir son centre historique."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel mot complète la phrase entendue ?\n\n“Ensuite, vous allez _____ Saint-Louis en voiture et découvrir son centre historique.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Découvrez Saint-Louis du Sénégal » ? “Ensuite vous allez rejoindre…”",
             "options": [
               {
                 "id": "o1",
-                "text": "traditionnels"
+                "text": "Vous cherchez une destination pour vos prochaines vacances ?"
               },
               {
                 "id": "o2",
-                "text": "rejoindre"
+                "text": "Ensuite, vous allez rejoindre Saint-Louis en voiture et découvrir son centre historique."
               },
               {
                 "id": "o3",
-                "text": "séjour"
+                "text": "Découvrez Saint-Louis, au nord du Sénégal."
               },
               {
                 "id": "o4",
-                "text": "centre"
+                "text": "Notre séjour va commencer par deux nuits à Dakar dans un hôtel confortable."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Notre équipe va réserver votre _____ et organiser les transports.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Découvrez Saint-Louis du Sénégal » ? “Notre équipe va réserver…”",
             "options": [
               {
                 "id": "o1",
-                "text": "traditionnels"
+                "text": "Vous cherchez une destination pour vos prochaines vacances ?"
               },
               {
                 "id": "o2",
-                "text": "destination"
+                "text": "Découvrez Saint-Louis, au nord du Sénégal."
               },
               {
                 "id": "o3",
-                "text": "chambre"
+                "text": "Notre équipe va réserver votre chambre et organiser les transports."
               },
               {
                 "id": "o4",
-                "text": "Saint-Louis"
+                "text": "Notre séjour va commencer par deux nuits à Dakar dans un hôtel confortable."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Réservez dès _____ votre prochain séjour.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Découvrez Saint-Louis du Sénégal » ? “Réservez dès aujourd’hui…”",
             "options": [
               {
                 "id": "o1",
-                "text": "cherchez"
+                "text": "Vous cherchez une destination pour vos prochaines vacances ?"
               },
               {
                 "id": "o2",
-                "text": "vacances"
+                "text": "Découvrez Saint-Louis, au nord du Sénégal."
               },
               {
                 "id": "o3",
-                "text": "réserver"
+                "text": "Notre séjour va commencer par deux nuits à Dakar dans un hôtel confortable."
               },
               {
                 "id": "o4",
-                "text": "aujourd’hui"
+                "text": "Réservez dès aujourd’hui votre prochain séjour."
               }
             ]
           }
@@ -36163,42 +36163,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complète ce détail de l’audio.\n\n“Vous cherchez une destination pour vos prochaines _____ ?”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Découvrez Saint-Louis du Sénégal » ? “Vous cherchez une…”",
         "options": [
-          "vacances",
-          "traditionnels",
-          "destination",
-          "Saint-Louis"
+          "Vous cherchez une destination pour vos prochaines vacances ?",
+          "Découvrez Saint-Louis, au nord du Sénégal.",
+          "Notre séjour va commencer par deux nuits à Dakar dans un hôtel confortable.",
+          "Ensuite, vous allez rejoindre Saint-Louis en voiture et découvrir son centre historique."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel mot complète la phrase entendue ?\n\n“Ensuite, vous allez _____ Saint-Louis en voiture et découvrir son centre historique.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Découvrez Saint-Louis du Sénégal » ? “Ensuite vous allez rejoindre…”",
         "options": [
-          "traditionnels",
-          "rejoindre",
-          "séjour",
-          "centre"
+          "Vous cherchez une destination pour vos prochaines vacances ?",
+          "Ensuite, vous allez rejoindre Saint-Louis en voiture et découvrir son centre historique.",
+          "Découvrez Saint-Louis, au nord du Sénégal.",
+          "Notre séjour va commencer par deux nuits à Dakar dans un hôtel confortable."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Notre équipe va réserver votre _____ et organiser les transports.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Découvrez Saint-Louis du Sénégal » ? “Notre équipe va réserver…”",
         "options": [
-          "traditionnels",
-          "destination",
-          "chambre",
-          "Saint-Louis"
+          "Vous cherchez une destination pour vos prochaines vacances ?",
+          "Découvrez Saint-Louis, au nord du Sénégal.",
+          "Notre équipe va réserver votre chambre et organiser les transports.",
+          "Notre séjour va commencer par deux nuits à Dakar dans un hôtel confortable."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Réservez dès _____ votre prochain séjour.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Découvrez Saint-Louis du Sénégal » ? “Réservez dès aujourd’hui…”",
         "options": [
-          "cherchez",
-          "vacances",
-          "réserver",
-          "aujourd’hui"
+          "Vous cherchez une destination pour vos prochaines vacances ?",
+          "Découvrez Saint-Louis, au nord du Sénégal.",
+          "Notre séjour va commencer par deux nuits à Dakar dans un hôtel confortable.",
+          "Réservez dès aujourd’hui votre prochain séjour."
         ]
       }
     ]
@@ -36313,92 +36313,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complète ce détail de l’audio.\n\n“Réduire le chauffage à dix-neuf degrés, éteindre l’éclairage extérieur après vingt-deux heures, décaler certains cours en visioconférence les jours de tension sur le réseau : ce sont les mesures très concrètes qu’une majorité d’universités françaises ont adoptées à partir de l’automne 2022, dans le cadre du plan national de sobriété énergétique lancé après la crise liée à la guerre en Ukraine, avec pour objectif affiché une baisse de dix pour cent de la _____ en deux ans.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Chronique : Le campus peut-il devenir sobre ? » ? “Réduire le chauffage à dix-neuf degrés éteindre…”",
             "options": [
               {
                 "id": "o1",
-                "text": "consommation"
+                "text": "Réduire le chauffage à dix-neuf degrés, éteindre l’éclairage extérieur après vingt-deux heures, décaler certains cours en visioconférence les jours de tension sur le réseau : ce sont les mesures très concrètes qu’une majorité d’universités françaises ont adoptées à partir de l’automne 2022, dans le cadre du plan national de sobriété énergétique lancé après la crise liée à la guerre en Ukraine, avec pour objectif affiché une baisse de dix pour cent de la consommation en deux ans."
               },
               {
                 "id": "o2",
-                "text": "chauffage"
+                "text": "Les premières propositions paraissaient simples sur le papier, jusqu’à ce que les usagers en décrivent les conséquences concrètes : une bibliothèque fermée plus tôt prive de lieu de travail les étudiants qui ne peuvent pas réviser chez eux ; certaines formations exigent des laboratoires par nature énergivores ; les étudiants les plus éloignés du campus dépendent de réseaux de transport encore peu fréquents en soirée."
               },
               {
                 "id": "o3",
-                "text": "extérieur"
+                "text": "Six notions permettent de suivre le raisonnement : la sobriété énergétique, énergivore, un arbitrage, structurel, un indicateur et proportionné."
               },
               {
                 "id": "o4",
-                "text": "visioconférence"
+                "text": "Elles ne constituent pas une simple liste : chacune éclaire une étape, une tension ou une conséquence du problème."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel mot complète la phrase entendue ?\n\n“Six _____ permettent de suivre le raisonnement : la sobriété énergétique, énergivore, un arbitrage, structurel, un indicateur et proportionné.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Chronique : Le campus peut-il devenir sobre ? » ? “Six notions permettent de suivre le…”",
             "options": [
               {
                 "id": "o1",
-                "text": "visioconférence"
+                "text": "Réduire le chauffage à dix-neuf degrés, éteindre l’éclairage extérieur après vingt-deux heures, décaler certains cours en visioconférence les jours de tension sur le réseau : ce sont les mesures très concrètes qu’une majorité d’universités françaises ont adoptées à partir de l’automne 2022, dans le cadre du plan national de sobriété énergétique lancé après la crise liée à la guerre en Ukraine, avec pour objectif affiché une baisse de dix pour cent de la consommation en deux ans."
               },
               {
                 "id": "o2",
-                "text": "notions"
+                "text": "Six notions permettent de suivre le raisonnement : la sobriété énergétique, énergivore, un arbitrage, structurel, un indicateur et proportionné."
               },
               {
                 "id": "o3",
-                "text": "responsabilités"
+                "text": "Les premières propositions paraissaient simples sur le papier, jusqu’à ce que les usagers en décrivent les conséquences concrètes : une bibliothèque fermée plus tôt prive de lieu de travail les étudiants qui ne peuvent pas réviser chez eux ; certaines formations exigent des laboratoires par nature énergivores ; les étudiants les plus éloignés du campus dépendent de réseaux de transport encore peu fréquents en soirée."
               },
               {
                 "id": "o4",
-                "text": "d’universités"
+                "text": "Elles ne constituent pas une simple liste : chacune éclaire une étape, une tension ou une conséquence du problème."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Si le campus avait mesuré plus tôt sa consommation, il _____ évité certains choix énergivores et aurait mieux réparti les coûts.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Chronique : Le campus peut-il devenir sobre ? » ? “Si le campus avait mesuré plus tôt…”",
             "options": [
               {
                 "id": "o1",
-                "text": "visioconférence"
+                "text": "Réduire le chauffage à dix-neuf degrés, éteindre l’éclairage extérieur après vingt-deux heures, décaler certains cours en visioconférence les jours de tension sur le réseau : ce sont les mesures très concrètes qu’une majorité d’universités françaises ont adoptées à partir de l’automne 2022, dans le cadre du plan national de sobriété énergétique lancé après la crise liée à la guerre en Ukraine, avec pour objectif affiché une baisse de dix pour cent de la consommation en deux ans."
               },
               {
                 "id": "o2",
-                "text": "responsabilités"
+                "text": "Les premières propositions paraissaient simples sur le papier, jusqu’à ce que les usagers en décrivent les conséquences concrètes : une bibliothèque fermée plus tôt prive de lieu de travail les étudiants qui ne peuvent pas réviser chez eux ; certaines formations exigent des laboratoires par nature énergivores ; les étudiants les plus éloignés du campus dépendent de réseaux de transport encore peu fréquents en soirée."
               },
               {
                 "id": "o3",
-                "text": "aurait"
+                "text": "Si le campus avait mesuré plus tôt sa consommation, il aurait évité certains choix énergivores et aurait mieux réparti les coûts."
               },
               {
                 "id": "o4",
-                "text": "d’universités"
+                "text": "Six notions permettent de suivre le raisonnement : la sobriété énergétique, énergivore, un arbitrage, structurel, un indicateur et proportionné."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Chronique : Le campus peut-il devenir sobre ? » ? “Ce cadre permet enfin…”",
             "options": [
               {
                 "id": "o1",
-                "text": "visioconférence"
+                "text": "Réduire le chauffage à dix-neuf degrés, éteindre l’éclairage extérieur après vingt-deux heures, décaler certains cours en visioconférence les jours de tension sur le réseau : ce sont les mesures très concrètes qu’une majorité d’universités françaises ont adoptées à partir de l’automne 2022, dans le cadre du plan national de sobriété énergétique lancé après la crise liée à la guerre en Ukraine, avec pour objectif affiché une baisse de dix pour cent de la consommation en deux ans."
               },
               {
                 "id": "o2",
-                "text": "responsabilités"
+                "text": "Les premières propositions paraissaient simples sur le papier, jusqu’à ce que les usagers en décrivent les conséquences concrètes : une bibliothèque fermée plus tôt prive de lieu de travail les étudiants qui ne peuvent pas réviser chez eux ; certaines formations exigent des laboratoires par nature énergivores ; les étudiants les plus éloignés du campus dépendent de réseaux de transport encore peu fréquents en soirée."
               },
               {
                 "id": "o3",
-                "text": "d’universités"
+                "text": "Six notions permettent de suivre le raisonnement : la sobriété énergétique, énergivore, un arbitrage, structurel, un indicateur et proportionné."
               },
               {
                 "id": "o4",
-                "text": "relier"
+                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
               }
             ]
           }
@@ -36409,42 +36409,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complète ce détail de l’audio.\n\n“Réduire le chauffage à dix-neuf degrés, éteindre l’éclairage extérieur après vingt-deux heures, décaler certains cours en visioconférence les jours de tension sur le réseau : ce sont les mesures très concrètes qu’une majorité d’universités françaises ont adoptées à partir de l’automne 2022, dans le cadre du plan national de sobriété énergétique lancé après la crise liée à la guerre en Ukraine, avec pour objectif affiché une baisse de dix pour cent de la _____ en deux ans.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Chronique : Le campus peut-il devenir sobre ? » ? “Réduire le chauffage à dix-neuf degrés éteindre…”",
         "options": [
-          "consommation",
-          "chauffage",
-          "extérieur",
-          "visioconférence"
+          "Réduire le chauffage à dix-neuf degrés, éteindre l’éclairage extérieur après vingt-deux heures, décaler certains cours en visioconférence les jours de tension sur le réseau : ce sont les mesures très concrètes qu’une majorité d’universités françaises ont adoptées à partir de l’automne 2022, dans le cadre du plan national de sobriété énergétique lancé après la crise liée à la guerre en Ukraine, avec pour objectif affiché une baisse de dix pour cent de la consommation en deux ans.",
+          "Les premières propositions paraissaient simples sur le papier, jusqu’à ce que les usagers en décrivent les conséquences concrètes : une bibliothèque fermée plus tôt prive de lieu de travail les étudiants qui ne peuvent pas réviser chez eux ; certaines formations exigent des laboratoires par nature énergivores ; les étudiants les plus éloignés du campus dépendent de réseaux de transport encore peu fréquents en soirée.",
+          "Six notions permettent de suivre le raisonnement : la sobriété énergétique, énergivore, un arbitrage, structurel, un indicateur et proportionné.",
+          "Elles ne constituent pas une simple liste : chacune éclaire une étape, une tension ou une conséquence du problème."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel mot complète la phrase entendue ?\n\n“Six _____ permettent de suivre le raisonnement : la sobriété énergétique, énergivore, un arbitrage, structurel, un indicateur et proportionné.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Chronique : Le campus peut-il devenir sobre ? » ? “Six notions permettent de suivre le…”",
         "options": [
-          "visioconférence",
-          "notions",
-          "responsabilités",
-          "d’universités"
+          "Réduire le chauffage à dix-neuf degrés, éteindre l’éclairage extérieur après vingt-deux heures, décaler certains cours en visioconférence les jours de tension sur le réseau : ce sont les mesures très concrètes qu’une majorité d’universités françaises ont adoptées à partir de l’automne 2022, dans le cadre du plan national de sobriété énergétique lancé après la crise liée à la guerre en Ukraine, avec pour objectif affiché une baisse de dix pour cent de la consommation en deux ans.",
+          "Six notions permettent de suivre le raisonnement : la sobriété énergétique, énergivore, un arbitrage, structurel, un indicateur et proportionné.",
+          "Les premières propositions paraissaient simples sur le papier, jusqu’à ce que les usagers en décrivent les conséquences concrètes : une bibliothèque fermée plus tôt prive de lieu de travail les étudiants qui ne peuvent pas réviser chez eux ; certaines formations exigent des laboratoires par nature énergivores ; les étudiants les plus éloignés du campus dépendent de réseaux de transport encore peu fréquents en soirée.",
+          "Elles ne constituent pas une simple liste : chacune éclaire une étape, une tension ou une conséquence du problème."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Si le campus avait mesuré plus tôt sa consommation, il _____ évité certains choix énergivores et aurait mieux réparti les coûts.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Chronique : Le campus peut-il devenir sobre ? » ? “Si le campus avait mesuré plus tôt…”",
         "options": [
-          "visioconférence",
-          "responsabilités",
-          "aurait",
-          "d’universités"
+          "Réduire le chauffage à dix-neuf degrés, éteindre l’éclairage extérieur après vingt-deux heures, décaler certains cours en visioconférence les jours de tension sur le réseau : ce sont les mesures très concrètes qu’une majorité d’universités françaises ont adoptées à partir de l’automne 2022, dans le cadre du plan national de sobriété énergétique lancé après la crise liée à la guerre en Ukraine, avec pour objectif affiché une baisse de dix pour cent de la consommation en deux ans.",
+          "Les premières propositions paraissaient simples sur le papier, jusqu’à ce que les usagers en décrivent les conséquences concrètes : une bibliothèque fermée plus tôt prive de lieu de travail les étudiants qui ne peuvent pas réviser chez eux ; certaines formations exigent des laboratoires par nature énergivores ; les étudiants les plus éloignés du campus dépendent de réseaux de transport encore peu fréquents en soirée.",
+          "Si le campus avait mesuré plus tôt sa consommation, il aurait évité certains choix énergivores et aurait mieux réparti les coûts.",
+          "Six notions permettent de suivre le raisonnement : la sobriété énergétique, énergivore, un arbitrage, structurel, un indicateur et proportionné."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Chronique : Le campus peut-il devenir sobre ? » ? “Ce cadre permet enfin…”",
         "options": [
-          "visioconférence",
-          "responsabilités",
-          "d’universités",
-          "relier"
+          "Réduire le chauffage à dix-neuf degrés, éteindre l’éclairage extérieur après vingt-deux heures, décaler certains cours en visioconférence les jours de tension sur le réseau : ce sont les mesures très concrètes qu’une majorité d’universités françaises ont adoptées à partir de l’automne 2022, dans le cadre du plan national de sobriété énergétique lancé après la crise liée à la guerre en Ukraine, avec pour objectif affiché une baisse de dix pour cent de la consommation en deux ans.",
+          "Les premières propositions paraissaient simples sur le papier, jusqu’à ce que les usagers en décrivent les conséquences concrètes : une bibliothèque fermée plus tôt prive de lieu de travail les étudiants qui ne peuvent pas réviser chez eux ; certaines formations exigent des laboratoires par nature énergivores ; les étudiants les plus éloignés du campus dépendent de réseaux de transport encore peu fréquents en soirée.",
+          "Six notions permettent de suivre le raisonnement : la sobriété énergétique, énergivore, un arbitrage, structurel, un indicateur et proportionné.",
+          "Ce cadre permet enfin de relier les faits à une décision argumentée."
         ]
       }
     ]
@@ -36579,92 +36579,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complète ce détail de l’audio.\n\n“Modifier un gène avant la naissance, entraîner un algorithme à diagnostiquer une maladie : deux frontières médicales avancent plus vite que leur cadre _____.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Chronique : Corriger le génome, corriger le jugement : deux frontières médicales » ? “Modifier un gène avant la naissance entraîner…”",
             "options": [
               {
                 "id": "o1",
-                "text": "éthique"
+                "text": "Modifier un gène avant la naissance, entraîner un algorithme à diagnostiquer une maladie : deux frontières médicales avancent plus vite que leur cadre éthique."
               },
               {
                 "id": "o2",
-                "text": "interchangeables"
+                "text": "La question « Corriger le génome, corriger le jugement : deux frontières médicales » occupe une place centrale dans l’analyse contemporaine."
               },
               {
                 "id": "o3",
-                "text": "diagnostiquer"
+                "text": "La condamnation en 2019 d’un chercheur chinois ayant modifié le génome de jumelles humaines avant leur naissance a rappelé que les outils d’édition génétique comme CRISPR permettent désormais des interventions dont les conséquences dépassent largement l’individu directement traité, posant une question de gouvernance encore largement irrésolue."
               },
               {
                 "id": "o4",
-                "text": "contemporaine"
+                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel mot complète la phrase entendue ?\n\n“Une _____ sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Chronique : Corriger le génome, corriger le jugement : deux frontières médicales » ? “Une réponse sérieuse doit distinguer ce que…”",
             "options": [
               {
                 "id": "o1",
-                "text": "interchangeables"
+                "text": "Modifier un gène avant la naissance, entraîner un algorithme à diagnostiquer une maladie : deux frontières médicales avancent plus vite que leur cadre éthique."
               },
               {
                 "id": "o2",
-                "text": "réponse"
+                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
               },
               {
                 "id": "o3",
-                "text": "diagnostiquer"
+                "text": "La question « Corriger le génome, corriger le jugement : deux frontières médicales » occupe une place centrale dans l’analyse contemporaine."
               },
               {
                 "id": "o4",
-                "text": "contemporaine"
+                "text": "La condamnation en 2019 d’un chercheur chinois ayant modifié le génome de jumelles humaines avant leur naissance a rappelé que les outils d’édition génétique comme CRISPR permettent désormais des interventions dont les conséquences dépassent largement l’individu directement traité, posant une question de gouvernance encore largement irrésolue."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Quoique l’édition somatique soit _____ bien maîtrisée, l’édition germinale demeure suspendue à un moratoire international informel.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Chronique : Corriger le génome, corriger le jugement : deux frontières médicales » ? “Quoique l’édition somatique soit désormais bien…”",
             "options": [
               {
                 "id": "o1",
-                "text": "interchangeables"
+                "text": "Modifier un gène avant la naissance, entraîner un algorithme à diagnostiquer une maladie : deux frontières médicales avancent plus vite que leur cadre éthique."
               },
               {
                 "id": "o2",
-                "text": "diagnostiquer"
+                "text": "La question « Corriger le génome, corriger le jugement : deux frontières médicales » occupe une place centrale dans l’analyse contemporaine."
               },
               {
                 "id": "o3",
-                "text": "désormais"
+                "text": "Quoique l’édition somatique soit désormais bien maîtrisée, l’édition germinale demeure suspendue à un moratoire international informel."
               },
               {
                 "id": "o4",
-                "text": "contemporaine"
+                "text": "La condamnation en 2019 d’un chercheur chinois ayant modifié le génome de jumelles humaines avant leur naissance a rappelé que les outils d’édition génétique comme CRISPR permettent désormais des interventions dont les conséquences dépassent largement l’individu directement traité, posant une question de gouvernance encore largement irrésolue."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Chronique : Corriger le génome, corriger le jugement : deux frontières médicales » ? “Ce cadre permet enfin…”",
             "options": [
               {
                 "id": "o1",
-                "text": "interchangeables"
+                "text": "Modifier un gène avant la naissance, entraîner un algorithme à diagnostiquer une maladie : deux frontières médicales avancent plus vite que leur cadre éthique."
               },
               {
                 "id": "o2",
-                "text": "diagnostiquer"
+                "text": "La question « Corriger le génome, corriger le jugement : deux frontières médicales » occupe une place centrale dans l’analyse contemporaine."
               },
               {
                 "id": "o3",
-                "text": "contemporaine"
+                "text": "La condamnation en 2019 d’un chercheur chinois ayant modifié le génome de jumelles humaines avant leur naissance a rappelé que les outils d’édition génétique comme CRISPR permettent désormais des interventions dont les conséquences dépassent largement l’individu directement traité, posant une question de gouvernance encore largement irrésolue."
               },
               {
                 "id": "o4",
-                "text": "relier"
+                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
               }
             ]
           }
@@ -36675,42 +36675,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complète ce détail de l’audio.\n\n“Modifier un gène avant la naissance, entraîner un algorithme à diagnostiquer une maladie : deux frontières médicales avancent plus vite que leur cadre _____.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Chronique : Corriger le génome, corriger le jugement : deux frontières médicales » ? “Modifier un gène avant la naissance entraîner…”",
         "options": [
-          "éthique",
-          "interchangeables",
-          "diagnostiquer",
-          "contemporaine"
+          "Modifier un gène avant la naissance, entraîner un algorithme à diagnostiquer une maladie : deux frontières médicales avancent plus vite que leur cadre éthique.",
+          "La question « Corriger le génome, corriger le jugement : deux frontières médicales » occupe une place centrale dans l’analyse contemporaine.",
+          "La condamnation en 2019 d’un chercheur chinois ayant modifié le génome de jumelles humaines avant leur naissance a rappelé que les outils d’édition génétique comme CRISPR permettent désormais des interventions dont les conséquences dépassent largement l’individu directement traité, posant une question de gouvernance encore largement irrésolue.",
+          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel mot complète la phrase entendue ?\n\n“Une _____ sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Chronique : Corriger le génome, corriger le jugement : deux frontières médicales » ? “Une réponse sérieuse doit distinguer ce que…”",
         "options": [
-          "interchangeables",
-          "réponse",
-          "diagnostiquer",
-          "contemporaine"
+          "Modifier un gène avant la naissance, entraîner un algorithme à diagnostiquer une maladie : deux frontières médicales avancent plus vite que leur cadre éthique.",
+          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.",
+          "La question « Corriger le génome, corriger le jugement : deux frontières médicales » occupe une place centrale dans l’analyse contemporaine.",
+          "La condamnation en 2019 d’un chercheur chinois ayant modifié le génome de jumelles humaines avant leur naissance a rappelé que les outils d’édition génétique comme CRISPR permettent désormais des interventions dont les conséquences dépassent largement l’individu directement traité, posant une question de gouvernance encore largement irrésolue."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Quoique l’édition somatique soit _____ bien maîtrisée, l’édition germinale demeure suspendue à un moratoire international informel.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Chronique : Corriger le génome, corriger le jugement : deux frontières médicales » ? “Quoique l’édition somatique soit désormais bien…”",
         "options": [
-          "interchangeables",
-          "diagnostiquer",
-          "désormais",
-          "contemporaine"
+          "Modifier un gène avant la naissance, entraîner un algorithme à diagnostiquer une maladie : deux frontières médicales avancent plus vite que leur cadre éthique.",
+          "La question « Corriger le génome, corriger le jugement : deux frontières médicales » occupe une place centrale dans l’analyse contemporaine.",
+          "Quoique l’édition somatique soit désormais bien maîtrisée, l’édition germinale demeure suspendue à un moratoire international informel.",
+          "La condamnation en 2019 d’un chercheur chinois ayant modifié le génome de jumelles humaines avant leur naissance a rappelé que les outils d’édition génétique comme CRISPR permettent désormais des interventions dont les conséquences dépassent largement l’individu directement traité, posant une question de gouvernance encore largement irrésolue."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Chronique : Corriger le génome, corriger le jugement : deux frontières médicales » ? “Ce cadre permet enfin…”",
         "options": [
-          "interchangeables",
-          "diagnostiquer",
-          "contemporaine",
-          "relier"
+          "Modifier un gène avant la naissance, entraîner un algorithme à diagnostiquer une maladie : deux frontières médicales avancent plus vite que leur cadre éthique.",
+          "La question « Corriger le génome, corriger le jugement : deux frontières médicales » occupe une place centrale dans l’analyse contemporaine.",
+          "La condamnation en 2019 d’un chercheur chinois ayant modifié le génome de jumelles humaines avant leur naissance a rappelé que les outils d’édition génétique comme CRISPR permettent désormais des interventions dont les conséquences dépassent largement l’individu directement traité, posant une question de gouvernance encore largement irrésolue.",
+          "Ce cadre permet enfin de relier les faits à une décision argumentée."
         ]
       }
     ]
@@ -36809,92 +36809,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complète ce détail de l’audio.\n\n“Cette minute santé s’adresse aux étudiants qui ressentent du stress avant un _____.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Une minute santé : apprivoiser le stress » ? “Cette minute santé s’adresse aux…”",
             "options": [
               {
                 "id": "o1",
-                "text": "examen"
+                "text": "Cette minute santé s’adresse aux étudiants qui ressentent du stress avant un examen."
               },
               {
                 "id": "o2",
-                "text": "reconnaissiez"
+                "text": "Tout d’abord, il faut que vous reconnaissiez les signes : sommeil difficile, respiration rapide, irritabilité ou manque de concentration."
               },
               {
                 "id": "o3",
-                "text": "concentration"
+                "text": "Ces réactions sont normales, mais il est important qu’elles ne contrôlent pas toute votre journée."
               },
               {
                 "id": "o4",
-                "text": "professionnel"
+                "text": "Il vaut mieux que vous prépariez un programme simple, avec des objectifs réalisables."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel mot complète la phrase entendue ?\n\n“Il vaut mieux que vous prépariez un _____ simple, avec des objectifs réalisables.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Une minute santé : apprivoiser le stress » ? “Il vaut mieux que vous…”",
             "options": [
               {
                 "id": "o1",
-                "text": "reconnaissiez"
+                "text": "Cette minute santé s’adresse aux étudiants qui ressentent du stress avant un examen."
               },
               {
                 "id": "o2",
-                "text": "programme"
+                "text": "Il vaut mieux que vous prépariez un programme simple, avec des objectifs réalisables."
               },
               {
                 "id": "o3",
-                "text": "concentration"
+                "text": "Tout d’abord, il faut que vous reconnaissiez les signes : sommeil difficile, respiration rapide, irritabilité ou manque de concentration."
               },
               {
                 "id": "o4",
-                "text": "professionnel"
+                "text": "Ces réactions sont normales, mais il est important qu’elles ne contrôlent pas toute votre journée."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Évitez de comparer votre rythme à celui des _____.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Une minute santé : apprivoiser le stress » ? “Évitez de comparer…”",
             "options": [
               {
                 "id": "o1",
-                "text": "reconnaissiez"
+                "text": "Cette minute santé s’adresse aux étudiants qui ressentent du stress avant un examen."
               },
               {
                 "id": "o2",
-                "text": "concentration"
+                "text": "Tout d’abord, il faut que vous reconnaissiez les signes : sommeil difficile, respiration rapide, irritabilité ou manque de concentration."
               },
               {
                 "id": "o3",
-                "text": "autres"
+                "text": "Évitez de comparer votre rythme à celui des autres."
               },
               {
                 "id": "o4",
-                "text": "professionnel"
+                "text": "Ces réactions sont normales, mais il est important qu’elles ne contrôlent pas toute votre journée."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“_____ de l’aide est une décision responsable, pas un signe de faiblesse.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Une minute santé : apprivoiser le stress » ? “Demander de l’aide est…”",
             "options": [
               {
                 "id": "o1",
-                "text": "reconnaissiez"
+                "text": "Cette minute santé s’adresse aux étudiants qui ressentent du stress avant un examen."
               },
               {
                 "id": "o2",
-                "text": "concentration"
+                "text": "Tout d’abord, il faut que vous reconnaissiez les signes : sommeil difficile, respiration rapide, irritabilité ou manque de concentration."
               },
               {
                 "id": "o3",
-                "text": "professionnel"
+                "text": "Ces réactions sont normales, mais il est important qu’elles ne contrôlent pas toute votre journée."
               },
               {
                 "id": "o4",
-                "text": "Demander"
+                "text": "Demander de l’aide est une décision responsable, pas un signe de faiblesse."
               }
             ]
           }
@@ -36905,42 +36905,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complète ce détail de l’audio.\n\n“Cette minute santé s’adresse aux étudiants qui ressentent du stress avant un _____.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Une minute santé : apprivoiser le stress » ? “Cette minute santé s’adresse aux…”",
         "options": [
-          "examen",
-          "reconnaissiez",
-          "concentration",
-          "professionnel"
+          "Cette minute santé s’adresse aux étudiants qui ressentent du stress avant un examen.",
+          "Tout d’abord, il faut que vous reconnaissiez les signes : sommeil difficile, respiration rapide, irritabilité ou manque de concentration.",
+          "Ces réactions sont normales, mais il est important qu’elles ne contrôlent pas toute votre journée.",
+          "Il vaut mieux que vous prépariez un programme simple, avec des objectifs réalisables."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel mot complète la phrase entendue ?\n\n“Il vaut mieux que vous prépariez un _____ simple, avec des objectifs réalisables.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Une minute santé : apprivoiser le stress » ? “Il vaut mieux que vous…”",
         "options": [
-          "reconnaissiez",
-          "programme",
-          "concentration",
-          "professionnel"
+          "Cette minute santé s’adresse aux étudiants qui ressentent du stress avant un examen.",
+          "Il vaut mieux que vous prépariez un programme simple, avec des objectifs réalisables.",
+          "Tout d’abord, il faut que vous reconnaissiez les signes : sommeil difficile, respiration rapide, irritabilité ou manque de concentration.",
+          "Ces réactions sont normales, mais il est important qu’elles ne contrôlent pas toute votre journée."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Évitez de comparer votre rythme à celui des _____.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Une minute santé : apprivoiser le stress » ? “Évitez de comparer…”",
         "options": [
-          "reconnaissiez",
-          "concentration",
-          "autres",
-          "professionnel"
+          "Cette minute santé s’adresse aux étudiants qui ressentent du stress avant un examen.",
+          "Tout d’abord, il faut que vous reconnaissiez les signes : sommeil difficile, respiration rapide, irritabilité ou manque de concentration.",
+          "Évitez de comparer votre rythme à celui des autres.",
+          "Ces réactions sont normales, mais il est important qu’elles ne contrôlent pas toute votre journée."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“_____ de l’aide est une décision responsable, pas un signe de faiblesse.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Une minute santé : apprivoiser le stress » ? “Demander de l’aide est…”",
         "options": [
-          "reconnaissiez",
-          "concentration",
-          "professionnel",
-          "Demander"
+          "Cette minute santé s’adresse aux étudiants qui ressentent du stress avant un examen.",
+          "Tout d’abord, il faut que vous reconnaissiez les signes : sommeil difficile, respiration rapide, irritabilité ou manque de concentration.",
+          "Ces réactions sont normales, mais il est important qu’elles ne contrôlent pas toute votre journée.",
+          "Demander de l’aide est une décision responsable, pas un signe de faiblesse."
         ]
       }
     ]
@@ -37064,92 +37064,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complète ce détail de l’audio.\n\n“Il y a quelques mois, j’ai été témoin d’une situation qui me fait encore _____.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Aurais-je dû intervenir ? » ? “Il y a quelques mois…”",
             "options": [
               {
                 "id": "o1",
-                "text": "réfléchir"
+                "text": "Il y a quelques mois, j’ai été témoin d’une situation qui me fait encore réfléchir."
               },
               {
                 "id": "o2",
-                "text": "immédiatement"
+                "text": "Dans mon entreprise, un collègue avait utilisé le travail d’une stagiaire sans mentionner son nom."
               },
               {
                 "id": "o3",
-                "text": "témoin"
+                "text": "Tout le monde semblait le savoir, mais personne ne disait rien."
               },
               {
                 "id": "o4",
-                "text": "encore"
+                "text": "J’hésitais entre protéger l’ambiance de l’équipe et défendre une valeur qui me semblait essentielle : reconnaître le travail de chacun."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel mot complète la phrase entendue ?\n\n“Si j’avais parlé _____, j’aurais peut-être évité que la situation dure.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Aurais-je dû intervenir ? » ? “Si j’avais parlé immédiatement…”",
             "options": [
               {
                 "id": "o1",
-                "text": "entreprise"
+                "text": "Il y a quelques mois, j’ai été témoin d’une situation qui me fait encore réfléchir."
               },
               {
                 "id": "o2",
-                "text": "immédiatement"
+                "text": "Si j’avais parlé immédiatement, j’aurais peut-être évité que la situation dure."
               },
               {
                 "id": "o3",
-                "text": "mentionner"
+                "text": "Dans mon entreprise, un collègue avait utilisé le travail d’une stagiaire sans mentionner son nom."
               },
               {
                 "id": "o4",
-                "text": "J’hésitais"
+                "text": "Tout le monde semblait le savoir, mais personne ne disait rien."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Elle a organisé une discussion et la contribution de la _____ a été reconnue.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Aurais-je dû intervenir ? » ? “Elle a organisé une discussion…”",
             "options": [
               {
                 "id": "o1",
-                "text": "immédiatement"
+                "text": "Il y a quelques mois, j’ai été témoin d’une situation qui me fait encore réfléchir."
               },
               {
                 "id": "o2",
-                "text": "témoin"
+                "text": "Dans mon entreprise, un collègue avait utilisé le travail d’une stagiaire sans mentionner son nom."
               },
               {
                 "id": "o3",
-                "text": "stagiaire"
+                "text": "Elle a organisé une discussion et la contribution de la stagiaire a été reconnue."
               },
               {
                 "id": "o4",
-                "text": "encore"
+                "text": "Tout le monde semblait le savoir, mais personne ne disait rien."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Mais nos valeurs deviennent concrètes seulement lorsque nous _____ d’agir malgré l’inconfort.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Aurais-je dû intervenir ? » ? “Mais nos valeurs deviennent…”",
             "options": [
               {
                 "id": "o1",
-                "text": "immédiatement"
+                "text": "Il y a quelques mois, j’ai été témoin d’une situation qui me fait encore réfléchir."
               },
               {
                 "id": "o2",
-                "text": "témoin"
+                "text": "Dans mon entreprise, un collègue avait utilisé le travail d’une stagiaire sans mentionner son nom."
               },
               {
                 "id": "o3",
-                "text": "encore"
+                "text": "Tout le monde semblait le savoir, mais personne ne disait rien."
               },
               {
                 "id": "o4",
-                "text": "acceptons"
+                "text": "Mais nos valeurs deviennent concrètes seulement lorsque nous acceptons d’agir malgré l’inconfort."
               }
             ]
           }
@@ -37160,42 +37160,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complète ce détail de l’audio.\n\n“Il y a quelques mois, j’ai été témoin d’une situation qui me fait encore _____.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Aurais-je dû intervenir ? » ? “Il y a quelques mois…”",
         "options": [
-          "réfléchir",
-          "immédiatement",
-          "témoin",
-          "encore"
+          "Il y a quelques mois, j’ai été témoin d’une situation qui me fait encore réfléchir.",
+          "Dans mon entreprise, un collègue avait utilisé le travail d’une stagiaire sans mentionner son nom.",
+          "Tout le monde semblait le savoir, mais personne ne disait rien.",
+          "J’hésitais entre protéger l’ambiance de l’équipe et défendre une valeur qui me semblait essentielle : reconnaître le travail de chacun."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel mot complète la phrase entendue ?\n\n“Si j’avais parlé _____, j’aurais peut-être évité que la situation dure.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Aurais-je dû intervenir ? » ? “Si j’avais parlé immédiatement…”",
         "options": [
-          "entreprise",
-          "immédiatement",
-          "mentionner",
-          "J’hésitais"
+          "Il y a quelques mois, j’ai été témoin d’une situation qui me fait encore réfléchir.",
+          "Si j’avais parlé immédiatement, j’aurais peut-être évité que la situation dure.",
+          "Dans mon entreprise, un collègue avait utilisé le travail d’une stagiaire sans mentionner son nom.",
+          "Tout le monde semblait le savoir, mais personne ne disait rien."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Elle a organisé une discussion et la contribution de la _____ a été reconnue.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Aurais-je dû intervenir ? » ? “Elle a organisé une discussion…”",
         "options": [
-          "immédiatement",
-          "témoin",
-          "stagiaire",
-          "encore"
+          "Il y a quelques mois, j’ai été témoin d’une situation qui me fait encore réfléchir.",
+          "Dans mon entreprise, un collègue avait utilisé le travail d’une stagiaire sans mentionner son nom.",
+          "Elle a organisé une discussion et la contribution de la stagiaire a été reconnue.",
+          "Tout le monde semblait le savoir, mais personne ne disait rien."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Mais nos valeurs deviennent concrètes seulement lorsque nous _____ d’agir malgré l’inconfort.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Aurais-je dû intervenir ? » ? “Mais nos valeurs deviennent…”",
         "options": [
-          "immédiatement",
-          "témoin",
-          "encore",
-          "acceptons"
+          "Il y a quelques mois, j’ai été témoin d’une situation qui me fait encore réfléchir.",
+          "Dans mon entreprise, un collègue avait utilisé le travail d’une stagiaire sans mentionner son nom.",
+          "Tout le monde semblait le savoir, mais personne ne disait rien.",
+          "Mais nos valeurs deviennent concrètes seulement lorsque nous acceptons d’agir malgré l’inconfort."
         ]
       }
     ]
@@ -41626,92 +41626,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complète ce détail de l’audio.\n\n“Ma chambre à Tours est petite, mais elle est très _____.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Ma chambre à Tours » ? “Ma chambre à Tours…”",
             "options": [
               {
                 "id": "o1",
-                "text": "agréable"
+                "text": "Ma chambre à Tours est petite, mais elle est très agréable."
               },
               {
                 "id": "o2",
-                "text": "Tours"
+                "text": "Il y a un lit près de la fenêtre et un bureau devant le lit."
               },
               {
                 "id": "o3",
-                "text": "lampe"
+                "text": "Sur le bureau, il y a une lampe, un ordinateur et trois cahiers."
               },
               {
                 "id": "o4",
-                "text": "trois"
+                "text": "Sous la chaise, il y a mon sac d’école."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel mot complète la phrase entendue ?\n\n“Sous la _____, il y a mon sac d’école.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Ma chambre à Tours » ? “Sous la chaise…”",
             "options": [
               {
                 "id": "o1",
-                "text": "ordinateur"
+                "text": "Ma chambre à Tours est petite, mais elle est très agréable."
               },
               {
                 "id": "o2",
-                "text": "chaise"
+                "text": "Sous la chaise, il y a mon sac d’école."
               },
               {
                 "id": "o3",
-                "text": "chaussures"
+                "text": "Il y a un lit près de la fenêtre et un bureau devant le lit."
               },
               {
                 "id": "o4",
-                "text": "est"
+                "text": "Sur le bureau, il y a une lampe, un ordinateur et trois cahiers."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“C’est mon coin _____ pour lire.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Ma chambre à Tours » ? “C’est mon coin…”",
             "options": [
               {
                 "id": "o1",
-                "text": "très"
+                "text": "Ma chambre à Tours est petite, mais elle est très agréable."
               },
               {
                 "id": "o2",
-                "text": "près"
+                "text": "Il y a un lit près de la fenêtre et un bureau devant le lit."
               },
               {
                 "id": "o3",
-                "text": "préféré"
+                "text": "C’est mon coin préféré pour lire."
               },
               {
                 "id": "o4",
-                "text": "ordinateur"
+                "text": "Sur le bureau, il y a une lampe, un ordinateur et trois cahiers."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“J’aime ma _____ parce qu’elle est calme et lumineuse.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Ma chambre à Tours » ? “J’aime ma chambre…”",
             "options": [
               {
                 "id": "o1",
-                "text": "très"
+                "text": "Ma chambre à Tours est petite, mais elle est très agréable."
               },
               {
                 "id": "o2",
-                "text": "près"
+                "text": "Il y a un lit près de la fenêtre et un bureau devant le lit."
               },
               {
                 "id": "o3",
-                "text": "ordinateur"
+                "text": "Sur le bureau, il y a une lampe, un ordinateur et trois cahiers."
               },
               {
                 "id": "o4",
-                "text": "chambre"
+                "text": "J’aime ma chambre parce qu’elle est calme et lumineuse."
               }
             ]
           }
@@ -41722,42 +41722,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complète ce détail de l’audio.\n\n“Ma chambre à Tours est petite, mais elle est très _____.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Ma chambre à Tours » ? “Ma chambre à Tours…”",
         "options": [
-          "agréable",
-          "Tours",
-          "lampe",
-          "trois"
+          "Ma chambre à Tours est petite, mais elle est très agréable.",
+          "Il y a un lit près de la fenêtre et un bureau devant le lit.",
+          "Sur le bureau, il y a une lampe, un ordinateur et trois cahiers.",
+          "Sous la chaise, il y a mon sac d’école."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel mot complète la phrase entendue ?\n\n“Sous la _____, il y a mon sac d’école.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Ma chambre à Tours » ? “Sous la chaise…”",
         "options": [
-          "ordinateur",
-          "chaise",
-          "chaussures",
-          "est"
+          "Ma chambre à Tours est petite, mais elle est très agréable.",
+          "Sous la chaise, il y a mon sac d’école.",
+          "Il y a un lit près de la fenêtre et un bureau devant le lit.",
+          "Sur le bureau, il y a une lampe, un ordinateur et trois cahiers."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“C’est mon coin _____ pour lire.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Ma chambre à Tours » ? “C’est mon coin…”",
         "options": [
-          "très",
-          "près",
-          "préféré",
-          "ordinateur"
+          "Ma chambre à Tours est petite, mais elle est très agréable.",
+          "Il y a un lit près de la fenêtre et un bureau devant le lit.",
+          "C’est mon coin préféré pour lire.",
+          "Sur le bureau, il y a une lampe, un ordinateur et trois cahiers."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“J’aime ma _____ parce qu’elle est calme et lumineuse.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Ma chambre à Tours » ? “J’aime ma chambre…”",
         "options": [
-          "très",
-          "près",
-          "ordinateur",
-          "chambre"
+          "Ma chambre à Tours est petite, mais elle est très agréable.",
+          "Il y a un lit près de la fenêtre et un bureau devant le lit.",
+          "Sur le bureau, il y a une lampe, un ordinateur et trois cahiers.",
+          "J’aime ma chambre parce qu’elle est calme et lumineuse."
         ]
       }
     ]
@@ -41851,92 +41851,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complète ce détail de l’audio.\n\n“Bonjour et bienvenue dans notre annonce immobilière de la _____.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Deux logements à louer à Nantes » ? “Bonjour et bienvenue dans…”",
             "options": [
               {
                 "id": "o1",
-                "text": "semaine"
+                "text": "Bonjour et bienvenue dans notre annonce immobilière de la semaine."
               },
               {
                 "id": "o2",
-                "text": "l’appartement"
+                "text": "Nous vous présentons deux logements à louer à Nantes."
               },
               {
                 "id": "o3",
-                "text": "centre-ville"
+                "text": "Le premier est un studio meublé au centre-ville."
               },
               {
                 "id": "o4",
-                "text": "colocataires"
+                "text": "Il y a une grande fenêtre et un coin cuisine, mais il n’y a pas de balcon."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel mot complète la phrase entendue ?\n\n“Il y a une grande _____ et un coin cuisine, mais il n’y a pas de balcon.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Deux logements à louer à Nantes » ? “Il y a une grande fenêtre…”",
             "options": [
               {
                 "id": "o1",
-                "text": "l’appartement"
+                "text": "Bonjour et bienvenue dans notre annonce immobilière de la semaine."
               },
               {
                 "id": "o2",
-                "text": "fenêtre"
+                "text": "Il y a une grande fenêtre et un coin cuisine, mais il n’y a pas de balcon."
               },
               {
                 "id": "o3",
-                "text": "centre-ville"
+                "text": "Nous vous présentons deux logements à louer à Nantes."
               },
               {
                 "id": "o4",
-                "text": "colocataires"
+                "text": "Le premier est un studio meublé au centre-ville."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“La chambre est plus petite que le studio, mais _____ est plus calme et beaucoup moins cher.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Deux logements à louer à Nantes » ? “La chambre est plus petite que…”",
             "options": [
               {
                 "id": "o1",
-                "text": "présentons"
+                "text": "Bonjour et bienvenue dans notre annonce immobilière de la semaine."
               },
               {
                 "id": "o2",
-                "text": "colocation"
+                "text": "Nous vous présentons deux logements à louer à Nantes."
               },
               {
                 "id": "o3",
-                "text": "l’appartement"
+                "text": "La chambre est plus petite que le studio, mais l’appartement est plus calme et beaucoup moins cher."
               },
               {
                 "id": "o4",
-                "text": "immobilière"
+                "text": "Le premier est un studio meublé au centre-ville."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Pour _____ l’un de ces logements, contactez notre agence avant vendredi.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Deux logements à louer à Nantes » ? “Pour visiter l’un de…”",
             "options": [
               {
                 "id": "o1",
-                "text": "l’appartement"
+                "text": "Bonjour et bienvenue dans notre annonce immobilière de la semaine."
               },
               {
                 "id": "o2",
-                "text": "centre-ville"
+                "text": "Nous vous présentons deux logements à louer à Nantes."
               },
               {
                 "id": "o3",
-                "text": "colocataires"
+                "text": "Le premier est un studio meublé au centre-ville."
               },
               {
                 "id": "o4",
-                "text": "visiter"
+                "text": "Pour visiter l’un de ces logements, contactez notre agence avant vendredi."
               }
             ]
           }
@@ -41947,42 +41947,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complète ce détail de l’audio.\n\n“Bonjour et bienvenue dans notre annonce immobilière de la _____.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Deux logements à louer à Nantes » ? “Bonjour et bienvenue dans…”",
         "options": [
-          "semaine",
-          "l’appartement",
-          "centre-ville",
-          "colocataires"
+          "Bonjour et bienvenue dans notre annonce immobilière de la semaine.",
+          "Nous vous présentons deux logements à louer à Nantes.",
+          "Le premier est un studio meublé au centre-ville.",
+          "Il y a une grande fenêtre et un coin cuisine, mais il n’y a pas de balcon."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel mot complète la phrase entendue ?\n\n“Il y a une grande _____ et un coin cuisine, mais il n’y a pas de balcon.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Deux logements à louer à Nantes » ? “Il y a une grande fenêtre…”",
         "options": [
-          "l’appartement",
-          "fenêtre",
-          "centre-ville",
-          "colocataires"
+          "Bonjour et bienvenue dans notre annonce immobilière de la semaine.",
+          "Il y a une grande fenêtre et un coin cuisine, mais il n’y a pas de balcon.",
+          "Nous vous présentons deux logements à louer à Nantes.",
+          "Le premier est un studio meublé au centre-ville."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“La chambre est plus petite que le studio, mais _____ est plus calme et beaucoup moins cher.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Deux logements à louer à Nantes » ? “La chambre est plus petite que…”",
         "options": [
-          "présentons",
-          "colocation",
-          "l’appartement",
-          "immobilière"
+          "Bonjour et bienvenue dans notre annonce immobilière de la semaine.",
+          "Nous vous présentons deux logements à louer à Nantes.",
+          "La chambre est plus petite que le studio, mais l’appartement est plus calme et beaucoup moins cher.",
+          "Le premier est un studio meublé au centre-ville."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Pour _____ l’un de ces logements, contactez notre agence avant vendredi.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Deux logements à louer à Nantes » ? “Pour visiter l’un de…”",
         "options": [
-          "l’appartement",
-          "centre-ville",
-          "colocataires",
-          "visiter"
+          "Bonjour et bienvenue dans notre annonce immobilière de la semaine.",
+          "Nous vous présentons deux logements à louer à Nantes.",
+          "Le premier est un studio meublé au centre-ville.",
+          "Pour visiter l’un de ces logements, contactez notre agence avant vendredi."
         ]
       }
     ]
@@ -42102,92 +42102,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complète ce détail de l’audio.\n\n“En 2020, l’Assemblée nationale française a inscrit la « glottophobie » — la discrimination fondée sur l’accent ou la façon de parler — dans la loi relative à la lutte contre les discriminations, aux côtés du sexisme et du _____.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Réflexion : Qui a le droit de bien parler ? » ? “En 2020 l’Assemblée nationale française a inscrit…”",
             "options": [
               {
                 "id": "o1",
-                "text": "racisme"
+                "text": "En 2020, l’Assemblée nationale française a inscrit la « glottophobie » — la discrimination fondée sur l’accent ou la façon de parler — dans la loi relative à la lutte contre les discriminations, aux côtés du sexisme et du racisme."
               },
               {
                 "id": "o2",
-                "text": "discriminations"
+                "text": "Ce vote, largement salué mais aussi moqué par certains éditorialistes, part d’un constat que les sociolinguistes documentent depuis des décennies : une prononciation jugée « fautive » n’entrave généralement en rien la compréhension mutuelle entre locuteurs."
               },
               {
                 "id": "o3",
-                "text": "sociolinguistes"
+                "text": "Ce n’est donc pas la prononciation elle-même qui pose problème lors des corrections répétées subies par certains locuteurs dès l’enfance, à l’école comme dans la vie professionnelle : c’est l’association implicite que la société établit entre une manière de parler et un supposé manque de sérieux ou de compétence."
               },
               {
                 "id": "o4",
-                "text": "professionnelle"
+                "text": "Six notions permettent de suivre le raisonnement : une norme linguistique, une variété, la légitimité, stigmatiser, un registre et en connaissance de cause."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel mot complète la phrase entendue ?\n\n“Ce n’est donc pas la prononciation _____ qui pose problème lors des corrections répétées subies par certains locuteurs dès l’enfance, à l’école comme dans la vie professionnelle : c’est l’association implicite que la société établit entre une manière de parler et un supposé manque de sérieux ou de compétence.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Réflexion : Qui a le droit de bien parler ? » ? “Ce n’est donc pas la prononciation elle-même…”",
             "options": [
               {
                 "id": "o1",
-                "text": "discriminations"
+                "text": "En 2020, l’Assemblée nationale française a inscrit la « glottophobie » — la discrimination fondée sur l’accent ou la façon de parler — dans la loi relative à la lutte contre les discriminations, aux côtés du sexisme et du racisme."
               },
               {
                 "id": "o2",
-                "text": "elle-même"
+                "text": "Ce n’est donc pas la prononciation elle-même qui pose problème lors des corrections répétées subies par certains locuteurs dès l’enfance, à l’école comme dans la vie professionnelle : c’est l’association implicite que la société établit entre une manière de parler et un supposé manque de sérieux ou de compétence."
               },
               {
                 "id": "o3",
-                "text": "sociolinguistes"
+                "text": "Ce vote, largement salué mais aussi moqué par certains éditorialistes, part d’un constat que les sociolinguistes documentent depuis des décennies : une prononciation jugée « fautive » n’entrave généralement en rien la compréhension mutuelle entre locuteurs."
               },
               {
                 "id": "o4",
-                "text": "professionnelle"
+                "text": "Six notions permettent de suivre le raisonnement : une norme linguistique, une variété, la légitimité, stigmatiser, un registre et en connaissance de cause."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“La norme linguistique dont l’institution se réclame n’est pas la seule _____ à laquelle les étudiants donnent une légitimité.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Réflexion : Qui a le droit de bien parler ? » ? “La norme linguistique dont l’institution se réclame…”",
             "options": [
               {
                 "id": "o1",
-                "text": "discriminations"
+                "text": "En 2020, l’Assemblée nationale française a inscrit la « glottophobie » — la discrimination fondée sur l’accent ou la façon de parler — dans la loi relative à la lutte contre les discriminations, aux côtés du sexisme et du racisme."
               },
               {
                 "id": "o2",
-                "text": "sociolinguistes"
+                "text": "Ce vote, largement salué mais aussi moqué par certains éditorialistes, part d’un constat que les sociolinguistes documentent depuis des décennies : une prononciation jugée « fautive » n’entrave généralement en rien la compréhension mutuelle entre locuteurs."
               },
               {
                 "id": "o3",
-                "text": "variété"
+                "text": "La norme linguistique dont l’institution se réclame n’est pas la seule variété à laquelle les étudiants donnent une légitimité."
               },
               {
                 "id": "o4",
-                "text": "professionnelle"
+                "text": "Ce n’est donc pas la prononciation elle-même qui pose problème lors des corrections répétées subies par certains locuteurs dès l’enfance, à l’école comme dans la vie professionnelle : c’est l’association implicite que la société établit entre une manière de parler et un supposé manque de sérieux ou de compétence."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Réflexion : Qui a le droit de bien parler ? » ? “Ce cadre permet enfin…”",
             "options": [
               {
                 "id": "o1",
-                "text": "discriminations"
+                "text": "En 2020, l’Assemblée nationale française a inscrit la « glottophobie » — la discrimination fondée sur l’accent ou la façon de parler — dans la loi relative à la lutte contre les discriminations, aux côtés du sexisme et du racisme."
               },
               {
                 "id": "o2",
-                "text": "sociolinguistes"
+                "text": "Ce vote, largement salué mais aussi moqué par certains éditorialistes, part d’un constat que les sociolinguistes documentent depuis des décennies : une prononciation jugée « fautive » n’entrave généralement en rien la compréhension mutuelle entre locuteurs."
               },
               {
                 "id": "o3",
-                "text": "professionnelle"
+                "text": "Ce n’est donc pas la prononciation elle-même qui pose problème lors des corrections répétées subies par certains locuteurs dès l’enfance, à l’école comme dans la vie professionnelle : c’est l’association implicite que la société établit entre une manière de parler et un supposé manque de sérieux ou de compétence."
               },
               {
                 "id": "o4",
-                "text": "relier"
+                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
               }
             ]
           }
@@ -42198,42 +42198,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complète ce détail de l’audio.\n\n“En 2020, l’Assemblée nationale française a inscrit la « glottophobie » — la discrimination fondée sur l’accent ou la façon de parler — dans la loi relative à la lutte contre les discriminations, aux côtés du sexisme et du _____.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Réflexion : Qui a le droit de bien parler ? » ? “En 2020 l’Assemblée nationale française a inscrit…”",
         "options": [
-          "racisme",
-          "discriminations",
-          "sociolinguistes",
-          "professionnelle"
+          "En 2020, l’Assemblée nationale française a inscrit la « glottophobie » — la discrimination fondée sur l’accent ou la façon de parler — dans la loi relative à la lutte contre les discriminations, aux côtés du sexisme et du racisme.",
+          "Ce vote, largement salué mais aussi moqué par certains éditorialistes, part d’un constat que les sociolinguistes documentent depuis des décennies : une prononciation jugée « fautive » n’entrave généralement en rien la compréhension mutuelle entre locuteurs.",
+          "Ce n’est donc pas la prononciation elle-même qui pose problème lors des corrections répétées subies par certains locuteurs dès l’enfance, à l’école comme dans la vie professionnelle : c’est l’association implicite que la société établit entre une manière de parler et un supposé manque de sérieux ou de compétence.",
+          "Six notions permettent de suivre le raisonnement : une norme linguistique, une variété, la légitimité, stigmatiser, un registre et en connaissance de cause."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel mot complète la phrase entendue ?\n\n“Ce n’est donc pas la prononciation _____ qui pose problème lors des corrections répétées subies par certains locuteurs dès l’enfance, à l’école comme dans la vie professionnelle : c’est l’association implicite que la société établit entre une manière de parler et un supposé manque de sérieux ou de compétence.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Réflexion : Qui a le droit de bien parler ? » ? “Ce n’est donc pas la prononciation elle-même…”",
         "options": [
-          "discriminations",
-          "elle-même",
-          "sociolinguistes",
-          "professionnelle"
+          "En 2020, l’Assemblée nationale française a inscrit la « glottophobie » — la discrimination fondée sur l’accent ou la façon de parler — dans la loi relative à la lutte contre les discriminations, aux côtés du sexisme et du racisme.",
+          "Ce n’est donc pas la prononciation elle-même qui pose problème lors des corrections répétées subies par certains locuteurs dès l’enfance, à l’école comme dans la vie professionnelle : c’est l’association implicite que la société établit entre une manière de parler et un supposé manque de sérieux ou de compétence.",
+          "Ce vote, largement salué mais aussi moqué par certains éditorialistes, part d’un constat que les sociolinguistes documentent depuis des décennies : une prononciation jugée « fautive » n’entrave généralement en rien la compréhension mutuelle entre locuteurs.",
+          "Six notions permettent de suivre le raisonnement : une norme linguistique, une variété, la légitimité, stigmatiser, un registre et en connaissance de cause."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“La norme linguistique dont l’institution se réclame n’est pas la seule _____ à laquelle les étudiants donnent une légitimité.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Réflexion : Qui a le droit de bien parler ? » ? “La norme linguistique dont l’institution se réclame…”",
         "options": [
-          "discriminations",
-          "sociolinguistes",
-          "variété",
-          "professionnelle"
+          "En 2020, l’Assemblée nationale française a inscrit la « glottophobie » — la discrimination fondée sur l’accent ou la façon de parler — dans la loi relative à la lutte contre les discriminations, aux côtés du sexisme et du racisme.",
+          "Ce vote, largement salué mais aussi moqué par certains éditorialistes, part d’un constat que les sociolinguistes documentent depuis des décennies : une prononciation jugée « fautive » n’entrave généralement en rien la compréhension mutuelle entre locuteurs.",
+          "La norme linguistique dont l’institution se réclame n’est pas la seule variété à laquelle les étudiants donnent une légitimité.",
+          "Ce n’est donc pas la prononciation elle-même qui pose problème lors des corrections répétées subies par certains locuteurs dès l’enfance, à l’école comme dans la vie professionnelle : c’est l’association implicite que la société établit entre une manière de parler et un supposé manque de sérieux ou de compétence."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Réflexion : Qui a le droit de bien parler ? » ? “Ce cadre permet enfin…”",
         "options": [
-          "discriminations",
-          "sociolinguistes",
-          "professionnelle",
-          "relier"
+          "En 2020, l’Assemblée nationale française a inscrit la « glottophobie » — la discrimination fondée sur l’accent ou la façon de parler — dans la loi relative à la lutte contre les discriminations, aux côtés du sexisme et du racisme.",
+          "Ce vote, largement salué mais aussi moqué par certains éditorialistes, part d’un constat que les sociolinguistes documentent depuis des décennies : une prononciation jugée « fautive » n’entrave généralement en rien la compréhension mutuelle entre locuteurs.",
+          "Ce n’est donc pas la prononciation elle-même qui pose problème lors des corrections répétées subies par certains locuteurs dès l’enfance, à l’école comme dans la vie professionnelle : c’est l’association implicite que la société établit entre une manière de parler et un supposé manque de sérieux ou de compétence.",
+          "Ce cadre permet enfin de relier les faits à une décision argumentée."
         ]
       }
     ]
@@ -42368,92 +42368,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complète ce détail de l’audio.\n\n“Une charge de travail qui ne diminue jamais, un sentiment d’épuisement qui s’installe durablement : l’individu _____ seul en cause ?”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Réflexion : L’épuisement professionnel est-il un problème individuel ou organisationnel ? » ? “Une charge de travail qui ne diminue…”",
             "options": [
               {
                 "id": "o1",
-                "text": "est-il"
+                "text": "Une charge de travail qui ne diminue jamais, un sentiment d’épuisement qui s’installe durablement : l’individu est-il seul en cause ?"
               },
               {
                 "id": "o2",
-                "text": "interchangeables"
+                "text": "La question « L’épuisement professionnel est-il un problème individuel ou organisationnel ? » occupe une place centrale dans l’analyse contemporaine."
               },
               {
                 "id": "o3",
-                "text": "organisationnel"
+                "text": "L’Organisation internationale du travail estimait dès 2019 que les risques psychosociaux liés au travail figuraient parmi les enjeux de santé au travail les plus coûteux et les plus sous-évalués, à une époque où le terme « burnout » n’avait pas encore intégré la classification internationale des maladies comme phénomène lié spécifiquement au contexte professionnel."
               },
               {
                 "id": "o4",
-                "text": "L’Organisation"
+                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel mot complète la phrase entendue ?\n\n“Une _____ sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Réflexion : L’épuisement professionnel est-il un problème individuel ou organisationnel ? » ? “Une réponse sérieuse doit distinguer ce que…”",
             "options": [
               {
                 "id": "o1",
-                "text": "interchangeables"
+                "text": "Une charge de travail qui ne diminue jamais, un sentiment d’épuisement qui s’installe durablement : l’individu est-il seul en cause ?"
               },
               {
                 "id": "o2",
-                "text": "réponse"
+                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
               },
               {
                 "id": "o3",
-                "text": "organisationnel"
+                "text": "La question « L’épuisement professionnel est-il un problème individuel ou organisationnel ? » occupe une place centrale dans l’analyse contemporaine."
               },
               {
                 "id": "o4",
-                "text": "L’Organisation"
+                "text": "L’Organisation internationale du travail estimait dès 2019 que les risques psychosociaux liés au travail figuraient parmi les enjeux de santé au travail les plus coûteux et les plus sous-évalués, à une époque où le terme « burnout » n’avait pas encore intégré la classification internationale des maladies comme phénomène lié spécifiquement au contexte professionnel."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“L’épuisement professionnel est décrit par l’OMS comme un _____ entre exigences et ressources, sans que la responsabilité en soit réduite à l’individu.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Réflexion : L’épuisement professionnel est-il un problème individuel ou organisationnel ? » ? “L’épuisement professionnel est décrit par l’OMS comme…”",
             "options": [
               {
                 "id": "o1",
-                "text": "interchangeables"
+                "text": "Une charge de travail qui ne diminue jamais, un sentiment d’épuisement qui s’installe durablement : l’individu est-il seul en cause ?"
               },
               {
                 "id": "o2",
-                "text": "sentiment"
+                "text": "La question « L’épuisement professionnel est-il un problème individuel ou organisationnel ? » occupe une place centrale dans l’analyse contemporaine."
               },
               {
                 "id": "o3",
-                "text": "déséquilibre"
+                "text": "L’épuisement professionnel est décrit par l’OMS comme un déséquilibre entre exigences et ressources, sans que la responsabilité en soit réduite à l’individu."
               },
               {
                 "id": "o4",
-                "text": "organisationnel"
+                "text": "L’Organisation internationale du travail estimait dès 2019 que les risques psychosociaux liés au travail figuraient parmi les enjeux de santé au travail les plus coûteux et les plus sous-évalués, à une époque où le terme « burnout » n’avait pas encore intégré la classification internationale des maladies comme phénomène lié spécifiquement au contexte professionnel."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Réflexion : L’épuisement professionnel est-il un problème individuel ou organisationnel ? » ? “Ce cadre permet enfin…”",
             "options": [
               {
                 "id": "o1",
-                "text": "interchangeables"
+                "text": "Une charge de travail qui ne diminue jamais, un sentiment d’épuisement qui s’installe durablement : l’individu est-il seul en cause ?"
               },
               {
                 "id": "o2",
-                "text": "organisationnel"
+                "text": "La question « L’épuisement professionnel est-il un problème individuel ou organisationnel ? » occupe une place centrale dans l’analyse contemporaine."
               },
               {
                 "id": "o3",
-                "text": "L’Organisation"
+                "text": "L’Organisation internationale du travail estimait dès 2019 que les risques psychosociaux liés au travail figuraient parmi les enjeux de santé au travail les plus coûteux et les plus sous-évalués, à une époque où le terme « burnout » n’avait pas encore intégré la classification internationale des maladies comme phénomène lié spécifiquement au contexte professionnel."
               },
               {
                 "id": "o4",
-                "text": "relier"
+                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
               }
             ]
           }
@@ -42464,42 +42464,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complète ce détail de l’audio.\n\n“Une charge de travail qui ne diminue jamais, un sentiment d’épuisement qui s’installe durablement : l’individu _____ seul en cause ?”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Réflexion : L’épuisement professionnel est-il un problème individuel ou organisationnel ? » ? “Une charge de travail qui ne diminue…”",
         "options": [
-          "est-il",
-          "interchangeables",
-          "organisationnel",
-          "L’Organisation"
+          "Une charge de travail qui ne diminue jamais, un sentiment d’épuisement qui s’installe durablement : l’individu est-il seul en cause ?",
+          "La question « L’épuisement professionnel est-il un problème individuel ou organisationnel ? » occupe une place centrale dans l’analyse contemporaine.",
+          "L’Organisation internationale du travail estimait dès 2019 que les risques psychosociaux liés au travail figuraient parmi les enjeux de santé au travail les plus coûteux et les plus sous-évalués, à une époque où le terme « burnout » n’avait pas encore intégré la classification internationale des maladies comme phénomène lié spécifiquement au contexte professionnel.",
+          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel mot complète la phrase entendue ?\n\n“Une _____ sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Réflexion : L’épuisement professionnel est-il un problème individuel ou organisationnel ? » ? “Une réponse sérieuse doit distinguer ce que…”",
         "options": [
-          "interchangeables",
-          "réponse",
-          "organisationnel",
-          "L’Organisation"
+          "Une charge de travail qui ne diminue jamais, un sentiment d’épuisement qui s’installe durablement : l’individu est-il seul en cause ?",
+          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.",
+          "La question « L’épuisement professionnel est-il un problème individuel ou organisationnel ? » occupe une place centrale dans l’analyse contemporaine.",
+          "L’Organisation internationale du travail estimait dès 2019 que les risques psychosociaux liés au travail figuraient parmi les enjeux de santé au travail les plus coûteux et les plus sous-évalués, à une époque où le terme « burnout » n’avait pas encore intégré la classification internationale des maladies comme phénomène lié spécifiquement au contexte professionnel."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“L’épuisement professionnel est décrit par l’OMS comme un _____ entre exigences et ressources, sans que la responsabilité en soit réduite à l’individu.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Réflexion : L’épuisement professionnel est-il un problème individuel ou organisationnel ? » ? “L’épuisement professionnel est décrit par l’OMS comme…”",
         "options": [
-          "interchangeables",
-          "sentiment",
-          "déséquilibre",
-          "organisationnel"
+          "Une charge de travail qui ne diminue jamais, un sentiment d’épuisement qui s’installe durablement : l’individu est-il seul en cause ?",
+          "La question « L’épuisement professionnel est-il un problème individuel ou organisationnel ? » occupe une place centrale dans l’analyse contemporaine.",
+          "L’épuisement professionnel est décrit par l’OMS comme un déséquilibre entre exigences et ressources, sans que la responsabilité en soit réduite à l’individu.",
+          "L’Organisation internationale du travail estimait dès 2019 que les risques psychosociaux liés au travail figuraient parmi les enjeux de santé au travail les plus coûteux et les plus sous-évalués, à une époque où le terme « burnout » n’avait pas encore intégré la classification internationale des maladies comme phénomène lié spécifiquement au contexte professionnel."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Réflexion : L’épuisement professionnel est-il un problème individuel ou organisationnel ? » ? “Ce cadre permet enfin…”",
         "options": [
-          "interchangeables",
-          "organisationnel",
-          "L’Organisation",
-          "relier"
+          "Une charge de travail qui ne diminue jamais, un sentiment d’épuisement qui s’installe durablement : l’individu est-il seul en cause ?",
+          "La question « L’épuisement professionnel est-il un problème individuel ou organisationnel ? » occupe une place centrale dans l’analyse contemporaine.",
+          "L’Organisation internationale du travail estimait dès 2019 que les risques psychosociaux liés au travail figuraient parmi les enjeux de santé au travail les plus coûteux et les plus sous-évalués, à une époque où le terme « burnout » n’avait pas encore intégré la classification internationale des maladies comme phénomène lié spécifiquement au contexte professionnel.",
+          "Ce cadre permet enfin de relier les faits à une décision argumentée."
         ]
       }
     ]
@@ -42593,92 +42593,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complète ce détail de l’audio.\n\n“Voici une initiative environnementale menée dans un collège de _____.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Une école réduit ses déchets » ? “Voici une initiative environnementale…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Bordeaux"
+                "text": "Voici une initiative environnementale menée dans un collège de Bordeaux."
               },
               {
                 "id": "o2",
-                "text": "environnementale"
+                "text": "Les élèves ont constaté que la cantine produisait beaucoup de déchets, notamment des bouteilles en plastique et des aliments non consommés."
               },
               {
                 "id": "o3",
-                "text": "représentaient"
+                "text": "Ils ont donc créé un projet de réduction des déchets."
               },
               {
                 "id": "o4",
-                "text": "réutilisable"
+                "text": "D’abord, chaque élève a reçu une gourde réutilisable, parce que les bouteilles représentaient une grande partie des poubelles."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel mot complète la phrase entendue ?\n\n“D’abord, _____ élève a reçu une gourde réutilisable, parce que les bouteilles représentaient une grande partie des poubelles.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Une école réduit ses déchets » ? “D’abord chaque élève a reçu une…”",
             "options": [
               {
                 "id": "o1",
-                "text": "environnementale"
+                "text": "Voici une initiative environnementale menée dans un collège de Bordeaux."
               },
               {
                 "id": "o2",
-                "text": "chaque"
+                "text": "D’abord, chaque élève a reçu une gourde réutilisable, parce que les bouteilles représentaient une grande partie des poubelles."
               },
               {
                 "id": "o3",
-                "text": "représentaient"
+                "text": "Les élèves ont constaté que la cantine produisait beaucoup de déchets, notamment des bouteilles en plastique et des aliments non consommés."
               },
               {
                 "id": "o4",
-                "text": "réutilisable"
+                "text": "Ils ont donc créé un projet de réduction des déchets."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Un groupe de volontaires organise aussi le _____ du papier et explique les nouvelles règles dans chaque classe.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Une école réduit ses déchets » ? “Un groupe de volontaires organise aussi…”",
             "options": [
               {
                 "id": "o1",
-                "text": "environnementale"
+                "text": "Voici une initiative environnementale menée dans un collège de Bordeaux."
               },
               {
                 "id": "o2",
-                "text": "représentaient"
+                "text": "Les élèves ont constaté que la cantine produisait beaucoup de déchets, notamment des bouteilles en plastique et des aliments non consommés."
               },
               {
                 "id": "o3",
-                "text": "recyclage"
+                "text": "Un groupe de volontaires organise aussi le recyclage du papier et explique les nouvelles règles dans chaque classe."
               },
               {
                 "id": "o4",
-                "text": "élèves"
+                "text": "Ils ont donc créé un projet de réduction des déchets."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce projet montre qu’une action locale peut _____ un résultat mesurable lorsque les élèves comprennent la cause du problème et participent directement à la solution.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Une école réduit ses déchets » ? “Ce projet montre qu’une action locale peut…”",
             "options": [
               {
                 "id": "o1",
-                "text": "environnementale"
+                "text": "Voici une initiative environnementale menée dans un collège de Bordeaux."
               },
               {
                 "id": "o2",
-                "text": "représentaient"
+                "text": "Les élèves ont constaté que la cantine produisait beaucoup de déchets, notamment des bouteilles en plastique et des aliments non consommés."
               },
               {
                 "id": "o3",
-                "text": "réutilisable"
+                "text": "Ils ont donc créé un projet de réduction des déchets."
               },
               {
                 "id": "o4",
-                "text": "produire"
+                "text": "Ce projet montre qu’une action locale peut produire un résultat mesurable lorsque les élèves comprennent la cause du problème et participent directement à la solution."
               }
             ]
           }
@@ -42689,42 +42689,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complète ce détail de l’audio.\n\n“Voici une initiative environnementale menée dans un collège de _____.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Une école réduit ses déchets » ? “Voici une initiative environnementale…”",
         "options": [
-          "Bordeaux",
-          "environnementale",
-          "représentaient",
-          "réutilisable"
+          "Voici une initiative environnementale menée dans un collège de Bordeaux.",
+          "Les élèves ont constaté que la cantine produisait beaucoup de déchets, notamment des bouteilles en plastique et des aliments non consommés.",
+          "Ils ont donc créé un projet de réduction des déchets.",
+          "D’abord, chaque élève a reçu une gourde réutilisable, parce que les bouteilles représentaient une grande partie des poubelles."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel mot complète la phrase entendue ?\n\n“D’abord, _____ élève a reçu une gourde réutilisable, parce que les bouteilles représentaient une grande partie des poubelles.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Une école réduit ses déchets » ? “D’abord chaque élève a reçu une…”",
         "options": [
-          "environnementale",
-          "chaque",
-          "représentaient",
-          "réutilisable"
+          "Voici une initiative environnementale menée dans un collège de Bordeaux.",
+          "D’abord, chaque élève a reçu une gourde réutilisable, parce que les bouteilles représentaient une grande partie des poubelles.",
+          "Les élèves ont constaté que la cantine produisait beaucoup de déchets, notamment des bouteilles en plastique et des aliments non consommés.",
+          "Ils ont donc créé un projet de réduction des déchets."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Un groupe de volontaires organise aussi le _____ du papier et explique les nouvelles règles dans chaque classe.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Une école réduit ses déchets » ? “Un groupe de volontaires organise aussi…”",
         "options": [
-          "environnementale",
-          "représentaient",
-          "recyclage",
-          "élèves"
+          "Voici une initiative environnementale menée dans un collège de Bordeaux.",
+          "Les élèves ont constaté que la cantine produisait beaucoup de déchets, notamment des bouteilles en plastique et des aliments non consommés.",
+          "Un groupe de volontaires organise aussi le recyclage du papier et explique les nouvelles règles dans chaque classe.",
+          "Ils ont donc créé un projet de réduction des déchets."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce projet montre qu’une action locale peut _____ un résultat mesurable lorsque les élèves comprennent la cause du problème et participent directement à la solution.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Une école réduit ses déchets » ? “Ce projet montre qu’une action locale peut…”",
         "options": [
-          "environnementale",
-          "représentaient",
-          "réutilisable",
-          "produire"
+          "Voici une initiative environnementale menée dans un collège de Bordeaux.",
+          "Les élèves ont constaté que la cantine produisait beaucoup de déchets, notamment des bouteilles en plastique et des aliments non consommés.",
+          "Ils ont donc créé un projet de réduction des déchets.",
+          "Ce projet montre qu’une action locale peut produire un résultat mesurable lorsque les élèves comprennent la cause du problème et participent directement à la solution."
         ]
       }
     ]
@@ -42833,92 +42833,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complète ce détail de l’audio.\n\n“Une équipe européenne vient de présenter un algorithme capable d’aider les médecins à repérer plus tôt certaines _____ rares.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « L’intelligence artificielle transforme le diagnostic » ? “Une équipe européenne vient de présenter un…”",
             "options": [
               {
                 "id": "o1",
-                "text": "maladies"
+                "text": "Une équipe européenne vient de présenter un algorithme capable d’aider les médecins à repérer plus tôt certaines maladies rares."
               },
               {
                 "id": "o2",
-                "text": "responsabilité"
+                "text": "Le système compare des milliers d’images médicales et signale les éléments qui méritent une attention particulière."
               },
               {
                 "id": "o3",
-                "text": "répercussions"
+                "text": "Il est possible que cette avancée réduise le temps nécessaire au diagnostic, notamment dans les hôpitaux qui manquent de spécialistes."
               },
               {
                 "id": "o4",
-                "text": "particulière"
+                "text": "Cependant, les chercheurs insistent sur un point : l’outil ne remplace pas la décision médicale."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel mot complète la phrase entendue ?\n\n“Cependant, les _____ insistent sur un point : l’outil ne remplace pas la décision médicale.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « L’intelligence artificielle transforme le diagnostic » ? “Cependant les chercheurs insistent sur…”",
             "options": [
               {
                 "id": "o1",
-                "text": "responsabilité"
+                "text": "Une équipe européenne vient de présenter un algorithme capable d’aider les médecins à repérer plus tôt certaines maladies rares."
               },
               {
                 "id": "o2",
-                "text": "chercheurs"
+                "text": "Cependant, les chercheurs insistent sur un point : l’outil ne remplace pas la décision médicale."
               },
               {
                 "id": "o3",
-                "text": "capable"
+                "text": "Le système compare des milliers d’images médicales et signale les éléments qui méritent une attention particulière."
               },
               {
                 "id": "o4",
-                "text": "d’aider"
+                "text": "Il est possible que cette avancée réduise le temps nécessaire au diagnostic, notamment dans les hôpitaux qui manquent de spécialistes."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Les répercussions concernent aussi la vie _____, car ces images contiennent des informations sensibles.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « L’intelligence artificielle transforme le diagnostic » ? “Les répercussions concernent aussi la…”",
             "options": [
               {
                 "id": "o1",
-                "text": "responsabilité"
+                "text": "Une équipe européenne vient de présenter un algorithme capable d’aider les médecins à repérer plus tôt certaines maladies rares."
               },
               {
                 "id": "o2",
-                "text": "répercussions"
+                "text": "Le système compare des milliers d’images médicales et signale les éléments qui méritent une attention particulière."
               },
               {
                 "id": "o3",
-                "text": "privée"
+                "text": "Les répercussions concernent aussi la vie privée, car ces images contiennent des informations sensibles."
               },
               {
                 "id": "o4",
-                "text": "particulière"
+                "text": "Il est possible que cette avancée réduise le temps nécessaire au diagnostic, notamment dans les hôpitaux qui manquent de spécialistes."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Selon eux, une attitude proactive consiste à tester _____ dans des conditions réelles tout en conservant une responsabilité humaine clairement identifiable.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « L’intelligence artificielle transforme le diagnostic » ? “Selon eux une attitude proactive consiste à…”",
             "options": [
               {
                 "id": "o1",
-                "text": "présenter"
+                "text": "Une équipe européenne vient de présenter un algorithme capable d’aider les médecins à repérer plus tôt certaines maladies rares."
               },
               {
                 "id": "o2",
-                "text": "certaines"
+                "text": "Le système compare des milliers d’images médicales et signale les éléments qui méritent une attention particulière."
               },
               {
                 "id": "o3",
-                "text": "médicales"
+                "text": "Il est possible que cette avancée réduise le temps nécessaire au diagnostic, notamment dans les hôpitaux qui manquent de spécialistes."
               },
               {
                 "id": "o4",
-                "text": "l’innovation"
+                "text": "Selon eux, une attitude proactive consiste à tester l’innovation dans des conditions réelles tout en conservant une responsabilité humaine clairement identifiable."
               }
             ]
           }
@@ -42929,42 +42929,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complète ce détail de l’audio.\n\n“Une équipe européenne vient de présenter un algorithme capable d’aider les médecins à repérer plus tôt certaines _____ rares.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « L’intelligence artificielle transforme le diagnostic » ? “Une équipe européenne vient de présenter un…”",
         "options": [
-          "maladies",
-          "responsabilité",
-          "répercussions",
-          "particulière"
+          "Une équipe européenne vient de présenter un algorithme capable d’aider les médecins à repérer plus tôt certaines maladies rares.",
+          "Le système compare des milliers d’images médicales et signale les éléments qui méritent une attention particulière.",
+          "Il est possible que cette avancée réduise le temps nécessaire au diagnostic, notamment dans les hôpitaux qui manquent de spécialistes.",
+          "Cependant, les chercheurs insistent sur un point : l’outil ne remplace pas la décision médicale."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel mot complète la phrase entendue ?\n\n“Cependant, les _____ insistent sur un point : l’outil ne remplace pas la décision médicale.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « L’intelligence artificielle transforme le diagnostic » ? “Cependant les chercheurs insistent sur…”",
         "options": [
-          "responsabilité",
-          "chercheurs",
-          "capable",
-          "d’aider"
+          "Une équipe européenne vient de présenter un algorithme capable d’aider les médecins à repérer plus tôt certaines maladies rares.",
+          "Cependant, les chercheurs insistent sur un point : l’outil ne remplace pas la décision médicale.",
+          "Le système compare des milliers d’images médicales et signale les éléments qui méritent une attention particulière.",
+          "Il est possible que cette avancée réduise le temps nécessaire au diagnostic, notamment dans les hôpitaux qui manquent de spécialistes."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Les répercussions concernent aussi la vie _____, car ces images contiennent des informations sensibles.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « L’intelligence artificielle transforme le diagnostic » ? “Les répercussions concernent aussi la…”",
         "options": [
-          "responsabilité",
-          "répercussions",
-          "privée",
-          "particulière"
+          "Une équipe européenne vient de présenter un algorithme capable d’aider les médecins à repérer plus tôt certaines maladies rares.",
+          "Le système compare des milliers d’images médicales et signale les éléments qui méritent une attention particulière.",
+          "Les répercussions concernent aussi la vie privée, car ces images contiennent des informations sensibles.",
+          "Il est possible que cette avancée réduise le temps nécessaire au diagnostic, notamment dans les hôpitaux qui manquent de spécialistes."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Selon eux, une attitude proactive consiste à tester _____ dans des conditions réelles tout en conservant une responsabilité humaine clairement identifiable.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « L’intelligence artificielle transforme le diagnostic » ? “Selon eux une attitude proactive consiste à…”",
         "options": [
-          "présenter",
-          "certaines",
-          "médicales",
-          "l’innovation"
+          "Une équipe européenne vient de présenter un algorithme capable d’aider les médecins à repérer plus tôt certaines maladies rares.",
+          "Le système compare des milliers d’images médicales et signale les éléments qui méritent une attention particulière.",
+          "Il est possible que cette avancée réduise le temps nécessaire au diagnostic, notamment dans les hôpitaux qui manquent de spécialistes.",
+          "Selon eux, une attitude proactive consiste à tester l’innovation dans des conditions réelles tout en conservant une responsabilité humaine clairement identifiable."
         ]
       }
     ]
@@ -47397,92 +47397,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complète ce détail de l’audio.\n\n“Samedi matin, Camila va au centre-ville avec _____.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Une promenade dans Tours » ? “Samedi matin Camila…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Léa"
+                "text": "Samedi matin, Camila va au centre-ville avec Léa."
               },
               {
                 "id": "o2",
-                "text": "centre-ville"
+                "text": "Elles vont d’abord à la banque, puis à la poste."
               },
               {
                 "id": "o3",
-                "text": "bibliothèque"
+                "text": "Ensuite, elles vont au marché pour acheter des fruits."
               },
               {
                 "id": "o4",
-                "text": "s’assoient"
+                "text": "Camila veut aussi aller aux magasins près de la grande place."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel mot complète la phrase entendue ?\n\n“Camila veut aussi aller aux _____ près de la grande place.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Une promenade dans Tours » ? “Camila veut aussi aller…”",
             "options": [
               {
                 "id": "o1",
-                "text": "centre-ville"
+                "text": "Samedi matin, Camila va au centre-ville avec Léa."
               },
               {
                 "id": "o2",
-                "text": "magasins"
+                "text": "Camila veut aussi aller aux magasins près de la grande place."
               },
               {
                 "id": "o3",
-                "text": "bibliothèque"
+                "text": "Elles vont d’abord à la banque, puis à la poste."
               },
               {
                 "id": "o4",
-                "text": "matin"
+                "text": "Ensuite, elles vont au marché pour acheter des fruits."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“» La _____ est à côté du musée.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Une promenade dans Tours » ? “La bibliothèque est…”",
             "options": [
               {
                 "id": "o1",
-                "text": "continuez"
+                "text": "Samedi matin, Camila va au centre-ville avec Léa."
               },
               {
                 "id": "o2",
-                "text": "découvrir"
+                "text": "Elles vont d’abord à la banque, puis à la poste."
               },
               {
                 "id": "o3",
-                "text": "bibliothèque"
+                "text": "» La bibliothèque est à côté du musée."
               },
               {
                 "id": "o4",
-                "text": "s’assoient"
+                "text": "Ensuite, elles vont au marché pour acheter des fruits."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Pour trouver la bibliothèque, Léa explique le chemin : « _____ tout droit, tournez à gauche, puis continuez jusqu’au parc. » La bibliothèque est à côté du musée.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Une promenade dans Tours » ? “Pour trouver la bibliothèque Léa explique le…”",
             "options": [
               {
                 "id": "o1",
-                "text": "centre-ville"
+                "text": "Samedi matin, Camila va au centre-ville avec Léa."
               },
               {
                 "id": "o2",
-                "text": "bibliothèque"
+                "text": "Elles vont d’abord à la banque, puis à la poste."
               },
               {
                 "id": "o3",
-                "text": "s’assoient"
+                "text": "Ensuite, elles vont au marché pour acheter des fruits."
               },
               {
                 "id": "o4",
-                "text": "Allez"
+                "text": "Pour trouver la bibliothèque, Léa explique le chemin : « Allez tout droit, tournez à gauche, puis continuez jusqu’au parc. » La bibliothèque est à côté du musée."
               }
             ]
           }
@@ -47493,42 +47493,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complète ce détail de l’audio.\n\n“Samedi matin, Camila va au centre-ville avec _____.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Une promenade dans Tours » ? “Samedi matin Camila…”",
         "options": [
-          "Léa",
-          "centre-ville",
-          "bibliothèque",
-          "s’assoient"
+          "Samedi matin, Camila va au centre-ville avec Léa.",
+          "Elles vont d’abord à la banque, puis à la poste.",
+          "Ensuite, elles vont au marché pour acheter des fruits.",
+          "Camila veut aussi aller aux magasins près de la grande place."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel mot complète la phrase entendue ?\n\n“Camila veut aussi aller aux _____ près de la grande place.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Une promenade dans Tours » ? “Camila veut aussi aller…”",
         "options": [
-          "centre-ville",
-          "magasins",
-          "bibliothèque",
-          "matin"
+          "Samedi matin, Camila va au centre-ville avec Léa.",
+          "Camila veut aussi aller aux magasins près de la grande place.",
+          "Elles vont d’abord à la banque, puis à la poste.",
+          "Ensuite, elles vont au marché pour acheter des fruits."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“» La _____ est à côté du musée.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Une promenade dans Tours » ? “La bibliothèque est…”",
         "options": [
-          "continuez",
-          "découvrir",
-          "bibliothèque",
-          "s’assoient"
+          "Samedi matin, Camila va au centre-ville avec Léa.",
+          "Elles vont d’abord à la banque, puis à la poste.",
+          "» La bibliothèque est à côté du musée.",
+          "Ensuite, elles vont au marché pour acheter des fruits."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Pour trouver la bibliothèque, Léa explique le chemin : « _____ tout droit, tournez à gauche, puis continuez jusqu’au parc. » La bibliothèque est à côté du musée.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Une promenade dans Tours » ? “Pour trouver la bibliothèque Léa explique le…”",
         "options": [
-          "centre-ville",
-          "bibliothèque",
-          "s’assoient",
-          "Allez"
+          "Samedi matin, Camila va au centre-ville avec Léa.",
+          "Elles vont d’abord à la banque, puis à la poste.",
+          "Ensuite, elles vont au marché pour acheter des fruits.",
+          "Pour trouver la bibliothèque, Léa explique le chemin : « Allez tout droit, tournez à gauche, puis continuez jusqu’au parc. » La bibliothèque est à côté du musée."
         ]
       }
     ]
@@ -47617,92 +47617,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complète ce détail de l’audio.\n\n“_____ à tous.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Le club média lance sa première émission » ? “Bonjour à tous…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Bonjour"
+                "text": "Bonjour à tous."
               },
               {
                 "id": "o2",
-                "text": "enregistrements"
+                "text": "Voici l’actualité culturelle du collège."
               },
               {
                 "id": "o3",
-                "text": "documentaire"
+                "text": "Le club média va lancer sa première émission de radio pendant la semaine culturelle."
               },
               {
                 "id": "o4",
-                "text": "l’actualité"
+                "text": "Au début, les membres avaient trois idées : Zoé préférait une courte série, Yanis aimait mieux un documentaire sur le quartier et Mei proposait une émission avec des interviews."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel mot complète la phrase entendue ?\n\n“Au début, les membres _____ trois idées : Zoé préférait une courte série, Yanis aimait mieux un documentaire sur le quartier et Mei proposait une émission avec des interviews.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Le club média lance sa première émission » ? “Au début les membres avaient trois idées…”",
             "options": [
               {
                 "id": "o1",
-                "text": "enregistrements"
+                "text": "Bonjour à tous."
               },
               {
                 "id": "o2",
-                "text": "avaient"
+                "text": "Au début, les membres avaient trois idées : Zoé préférait une courte série, Yanis aimait mieux un documentaire sur le quartier et Mei proposait une émission avec des interviews."
               },
               {
                 "id": "o3",
-                "text": "documentaire"
+                "text": "Voici l’actualité culturelle du collège."
               },
               {
                 "id": "o4",
-                "text": "l’actualité"
+                "text": "Le club média va lancer sa première émission de radio pendant la semaine culturelle."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“La série a reçu beaucoup de votes, mais elle _____ trop de temps.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Le club média lance sa première émission » ? “La série a reçu beaucoup…”",
             "options": [
               {
                 "id": "o1",
-                "text": "enregistrements"
+                "text": "Bonjour à tous."
               },
               {
                 "id": "o2",
-                "text": "lancer"
+                "text": "Voici l’actualité culturelle du collège."
               },
               {
                 "id": "o3",
-                "text": "demandait"
+                "text": "La série a reçu beaucoup de votes, mais elle demandait trop de temps."
               },
               {
                 "id": "o4",
-                "text": "courte"
+                "text": "Le club média va lancer sa première émission de radio pendant la semaine culturelle."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“La _____ émission sera disponible vendredi sur le site de l’école.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Le club média lance sa première émission » ? “La première émission sera…”",
             "options": [
               {
                 "id": "o1",
-                "text": "enregistrements"
+                "text": "Bonjour à tous."
               },
               {
                 "id": "o2",
-                "text": "documentaire"
+                "text": "Voici l’actualité culturelle du collège."
               },
               {
                 "id": "o3",
-                "text": "Voici"
+                "text": "Le club média va lancer sa première émission de radio pendant la semaine culturelle."
               },
               {
                 "id": "o4",
-                "text": "première"
+                "text": "La première émission sera disponible vendredi sur le site de l’école."
               }
             ]
           }
@@ -47713,42 +47713,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complète ce détail de l’audio.\n\n“_____ à tous.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Le club média lance sa première émission » ? “Bonjour à tous…”",
         "options": [
-          "Bonjour",
-          "enregistrements",
-          "documentaire",
-          "l’actualité"
+          "Bonjour à tous.",
+          "Voici l’actualité culturelle du collège.",
+          "Le club média va lancer sa première émission de radio pendant la semaine culturelle.",
+          "Au début, les membres avaient trois idées : Zoé préférait une courte série, Yanis aimait mieux un documentaire sur le quartier et Mei proposait une émission avec des interviews."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel mot complète la phrase entendue ?\n\n“Au début, les membres _____ trois idées : Zoé préférait une courte série, Yanis aimait mieux un documentaire sur le quartier et Mei proposait une émission avec des interviews.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Le club média lance sa première émission » ? “Au début les membres avaient trois idées…”",
         "options": [
-          "enregistrements",
-          "avaient",
-          "documentaire",
-          "l’actualité"
+          "Bonjour à tous.",
+          "Au début, les membres avaient trois idées : Zoé préférait une courte série, Yanis aimait mieux un documentaire sur le quartier et Mei proposait une émission avec des interviews.",
+          "Voici l’actualité culturelle du collège.",
+          "Le club média va lancer sa première émission de radio pendant la semaine culturelle."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“La série a reçu beaucoup de votes, mais elle _____ trop de temps.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Le club média lance sa première émission » ? “La série a reçu beaucoup…”",
         "options": [
-          "enregistrements",
-          "lancer",
-          "demandait",
-          "courte"
+          "Bonjour à tous.",
+          "Voici l’actualité culturelle du collège.",
+          "La série a reçu beaucoup de votes, mais elle demandait trop de temps.",
+          "Le club média va lancer sa première émission de radio pendant la semaine culturelle."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“La _____ émission sera disponible vendredi sur le site de l’école.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Le club média lance sa première émission » ? “La première émission sera…”",
         "options": [
-          "enregistrements",
-          "documentaire",
-          "Voici",
-          "première"
+          "Bonjour à tous.",
+          "Voici l’actualité culturelle du collège.",
+          "Le club média va lancer sa première émission de radio pendant la semaine culturelle.",
+          "La première émission sera disponible vendredi sur le site de l’école."
         ]
       }
     ]
@@ -47873,92 +47873,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complète ce détail de l’audio.\n\n“En mars 2020, l’Organisation mondiale de la santé déconseillait encore le port généralisé du masque en population générale ; six semaines plus tard, elle le recommandait _____.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Reportage : Ce que signifie ne pas encore savoir » ? “En mars 2020 l’Organisation mondiale de la…”",
             "options": [
               {
                 "id": "o1",
-                "text": "explicitement"
+                "text": "En mars 2020, l’Organisation mondiale de la santé déconseillait encore le port généralisé du masque en population générale ; six semaines plus tard, elle le recommandait explicitement."
               },
               {
                 "id": "o2",
-                "text": "généralisé"
+                "text": "Ce revirement, abondamment relayé et critiqué à l’époque, illustre une difficulté que les spécialistes de la communication scientifique connaissent bien : la différence entre deux phrases en apparence proches, « les chercheurs ne savent pas » et « les chercheurs évaluent plusieurs hypothèses en fonction des données disponibles »."
               },
               {
                 "id": "o3",
-                "text": "population"
+                "text": "Pour un public non spécialiste, elles semblent presque équivalentes ; elles décrivent en réalité des situations radicalement différentes."
               },
               {
                 "id": "o4",
-                "text": "revirement"
+                "text": "La première suggère un vide, la seconde un savoir en construction, organisé par des méthodes, des données et des critères de réfutation explicites."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel mot complète la phrase entendue ?\n\n“La première _____ un vide, la seconde un savoir en construction, organisé par des méthodes, des données et des critères de réfutation explicites.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Reportage : Ce que signifie ne pas encore savoir » ? “La première suggère un vide la seconde…”",
             "options": [
               {
                 "id": "o1",
-                "text": "l’Organisation"
+                "text": "En mars 2020, l’Organisation mondiale de la santé déconseillait encore le port généralisé du masque en population générale ; six semaines plus tard, elle le recommandait explicitement."
               },
               {
                 "id": "o2",
-                "text": "suggère"
+                "text": "La première suggère un vide, la seconde un savoir en construction, organisé par des méthodes, des données et des critères de réfutation explicites."
               },
               {
                 "id": "o3",
-                "text": "déconseillait"
+                "text": "Ce revirement, abondamment relayé et critiqué à l’époque, illustre une difficulté que les spécialistes de la communication scientifique connaissent bien : la différence entre deux phrases en apparence proches, « les chercheurs ne savent pas » et « les chercheurs évaluent plusieurs hypothèses en fonction des données disponibles »."
               },
               {
                 "id": "o4",
-                "text": "explicitement"
+                "text": "Pour un public non spécialiste, elles semblent presque équivalentes ; elles décrivent en réalité des situations radicalement différentes."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Elles ne constituent pas une simple liste : chacune _____ une étape, une tension ou une conséquence du problème.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Reportage : Ce que signifie ne pas encore savoir » ? “Elles ne constituent pas une simple…”",
             "options": [
               {
                 "id": "o1",
-                "text": "l’Organisation"
+                "text": "En mars 2020, l’Organisation mondiale de la santé déconseillait encore le port généralisé du masque en population générale ; six semaines plus tard, elle le recommandait explicitement."
               },
               {
                 "id": "o2",
-                "text": "déconseillait"
+                "text": "Ce revirement, abondamment relayé et critiqué à l’époque, illustre une difficulté que les spécialistes de la communication scientifique connaissent bien : la différence entre deux phrases en apparence proches, « les chercheurs ne savent pas » et « les chercheurs évaluent plusieurs hypothèses en fonction des données disponibles »."
               },
               {
                 "id": "o3",
-                "text": "éclaire"
+                "text": "Elles ne constituent pas une simple liste : chacune éclaire une étape, une tension ou une conséquence du problème."
               },
               {
                 "id": "o4",
-                "text": "explicitement"
+                "text": "Pour un public non spécialiste, elles semblent presque équivalentes ; elles décrivent en réalité des situations radicalement différentes."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Reportage : Ce que signifie ne pas encore savoir » ? “Ce cadre permet enfin…”",
             "options": [
               {
                 "id": "o1",
-                "text": "l’Organisation"
+                "text": "En mars 2020, l’Organisation mondiale de la santé déconseillait encore le port généralisé du masque en population générale ; six semaines plus tard, elle le recommandait explicitement."
               },
               {
                 "id": "o2",
-                "text": "déconseillait"
+                "text": "Ce revirement, abondamment relayé et critiqué à l’époque, illustre une difficulté que les spécialistes de la communication scientifique connaissent bien : la différence entre deux phrases en apparence proches, « les chercheurs ne savent pas » et « les chercheurs évaluent plusieurs hypothèses en fonction des données disponibles »."
               },
               {
                 "id": "o3",
-                "text": "explicitement"
+                "text": "Pour un public non spécialiste, elles semblent presque équivalentes ; elles décrivent en réalité des situations radicalement différentes."
               },
               {
                 "id": "o4",
-                "text": "relier"
+                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
               }
             ]
           }
@@ -47969,42 +47969,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complète ce détail de l’audio.\n\n“En mars 2020, l’Organisation mondiale de la santé déconseillait encore le port généralisé du masque en population générale ; six semaines plus tard, elle le recommandait _____.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Reportage : Ce que signifie ne pas encore savoir » ? “En mars 2020 l’Organisation mondiale de la…”",
         "options": [
-          "explicitement",
-          "généralisé",
-          "population",
-          "revirement"
+          "En mars 2020, l’Organisation mondiale de la santé déconseillait encore le port généralisé du masque en population générale ; six semaines plus tard, elle le recommandait explicitement.",
+          "Ce revirement, abondamment relayé et critiqué à l’époque, illustre une difficulté que les spécialistes de la communication scientifique connaissent bien : la différence entre deux phrases en apparence proches, « les chercheurs ne savent pas » et « les chercheurs évaluent plusieurs hypothèses en fonction des données disponibles ».",
+          "Pour un public non spécialiste, elles semblent presque équivalentes ; elles décrivent en réalité des situations radicalement différentes.",
+          "La première suggère un vide, la seconde un savoir en construction, organisé par des méthodes, des données et des critères de réfutation explicites."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel mot complète la phrase entendue ?\n\n“La première _____ un vide, la seconde un savoir en construction, organisé par des méthodes, des données et des critères de réfutation explicites.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Reportage : Ce que signifie ne pas encore savoir » ? “La première suggère un vide la seconde…”",
         "options": [
-          "l’Organisation",
-          "suggère",
-          "déconseillait",
-          "explicitement"
+          "En mars 2020, l’Organisation mondiale de la santé déconseillait encore le port généralisé du masque en population générale ; six semaines plus tard, elle le recommandait explicitement.",
+          "La première suggère un vide, la seconde un savoir en construction, organisé par des méthodes, des données et des critères de réfutation explicites.",
+          "Ce revirement, abondamment relayé et critiqué à l’époque, illustre une difficulté que les spécialistes de la communication scientifique connaissent bien : la différence entre deux phrases en apparence proches, « les chercheurs ne savent pas » et « les chercheurs évaluent plusieurs hypothèses en fonction des données disponibles ».",
+          "Pour un public non spécialiste, elles semblent presque équivalentes ; elles décrivent en réalité des situations radicalement différentes."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Elles ne constituent pas une simple liste : chacune _____ une étape, une tension ou une conséquence du problème.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Reportage : Ce que signifie ne pas encore savoir » ? “Elles ne constituent pas une simple…”",
         "options": [
-          "l’Organisation",
-          "déconseillait",
-          "éclaire",
-          "explicitement"
+          "En mars 2020, l’Organisation mondiale de la santé déconseillait encore le port généralisé du masque en population générale ; six semaines plus tard, elle le recommandait explicitement.",
+          "Ce revirement, abondamment relayé et critiqué à l’époque, illustre une difficulté que les spécialistes de la communication scientifique connaissent bien : la différence entre deux phrases en apparence proches, « les chercheurs ne savent pas » et « les chercheurs évaluent plusieurs hypothèses en fonction des données disponibles ».",
+          "Elles ne constituent pas une simple liste : chacune éclaire une étape, une tension ou une conséquence du problème.",
+          "Pour un public non spécialiste, elles semblent presque équivalentes ; elles décrivent en réalité des situations radicalement différentes."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Reportage : Ce que signifie ne pas encore savoir » ? “Ce cadre permet enfin…”",
         "options": [
-          "l’Organisation",
-          "déconseillait",
-          "explicitement",
-          "relier"
+          "En mars 2020, l’Organisation mondiale de la santé déconseillait encore le port généralisé du masque en population générale ; six semaines plus tard, elle le recommandait explicitement.",
+          "Ce revirement, abondamment relayé et critiqué à l’époque, illustre une difficulté que les spécialistes de la communication scientifique connaissent bien : la différence entre deux phrases en apparence proches, « les chercheurs ne savent pas » et « les chercheurs évaluent plusieurs hypothèses en fonction des données disponibles ».",
+          "Pour un public non spécialiste, elles semblent presque équivalentes ; elles décrivent en réalité des situations radicalement différentes.",
+          "Ce cadre permet enfin de relier les faits à une décision argumentée."
         ]
       }
     ]
@@ -48139,92 +48139,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complète ce détail de l’audio.\n\n“La plupart des personnes déplacées de force ne franchissent jamais un océan ; elles restent tout près de chez elles, dans un pays _____.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Reportage : Les frontières peuvent-elles contenir des mouvements structurels ? » ? “La plupart des personnes déplacées de force…”",
             "options": [
               {
                 "id": "o1",
-                "text": "voisin"
+                "text": "La plupart des personnes déplacées de force ne franchissent jamais un océan ; elles restent tout près de chez elles, dans un pays voisin."
               },
               {
                 "id": "o2",
-                "text": "l’externalisation"
+                "text": "La question « Les frontières peuvent-elles contenir des mouvements structurels ? » occupe une place centrale dans l’analyse contemporaine."
               },
               {
                 "id": "o3",
-                "text": "interchangeables"
+                "text": "Le rapport Global Trends du HCR pour 2023 recense plus de 117 millions de personnes déplacées de force dans le monde, un niveau sans précédent qui interroge la capacité des politiques frontalières nationales à répondre à des mouvements de population dont les causes dépassent largement le cadre d’un seul État."
               },
               {
                 "id": "o4",
-                "text": "non-refoulement"
+                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel mot complète la phrase entendue ?\n\n“Une _____ sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Reportage : Les frontières peuvent-elles contenir des mouvements structurels ? » ? “Une réponse sérieuse doit distinguer ce que…”",
             "options": [
               {
                 "id": "o1",
-                "text": "l’externalisation"
+                "text": "La plupart des personnes déplacées de force ne franchissent jamais un océan ; elles restent tout près de chez elles, dans un pays voisin."
               },
               {
                 "id": "o2",
-                "text": "réponse"
+                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
               },
               {
                 "id": "o3",
-                "text": "interchangeables"
+                "text": "La question « Les frontières peuvent-elles contenir des mouvements structurels ? » occupe une place centrale dans l’analyse contemporaine."
               },
               {
                 "id": "o4",
-                "text": "non-refoulement"
+                "text": "Le rapport Global Trends du HCR pour 2023 recense plus de 117 millions de personnes déplacées de force dans le monde, un niveau sans précédent qui interroge la capacité des politiques frontalières nationales à répondre à des mouvements de population dont les causes dépassent largement le cadre d’un seul État."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“La plupart des personnes déplacées, dont le _____ dépasse cent millions, restent dans un pays limitrophe plutôt que de rejoindre un pays riche.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Reportage : Les frontières peuvent-elles contenir des mouvements structurels ? » ? “La plupart des personnes déplacées dont le…”",
             "options": [
               {
                 "id": "o1",
-                "text": "l’externalisation"
+                "text": "La plupart des personnes déplacées de force ne franchissent jamais un océan ; elles restent tout près de chez elles, dans un pays voisin."
               },
               {
                 "id": "o2",
-                "text": "interchangeables"
+                "text": "La question « Les frontières peuvent-elles contenir des mouvements structurels ? » occupe une place centrale dans l’analyse contemporaine."
               },
               {
                 "id": "o3",
-                "text": "nombre"
+                "text": "La plupart des personnes déplacées, dont le nombre dépasse cent millions, restent dans un pays limitrophe plutôt que de rejoindre un pays riche."
               },
               {
                 "id": "o4",
-                "text": "non-refoulement"
+                "text": "Le rapport Global Trends du HCR pour 2023 recense plus de 117 millions de personnes déplacées de force dans le monde, un niveau sans précédent qui interroge la capacité des politiques frontalières nationales à répondre à des mouvements de population dont les causes dépassent largement le cadre d’un seul État."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Reportage : Les frontières peuvent-elles contenir des mouvements structurels ? » ? “Ce cadre permet enfin…”",
             "options": [
               {
                 "id": "o1",
-                "text": "l’externalisation"
+                "text": "La plupart des personnes déplacées de force ne franchissent jamais un océan ; elles restent tout près de chez elles, dans un pays voisin."
               },
               {
                 "id": "o2",
-                "text": "interchangeables"
+                "text": "La question « Les frontières peuvent-elles contenir des mouvements structurels ? » occupe une place centrale dans l’analyse contemporaine."
               },
               {
                 "id": "o3",
-                "text": "non-refoulement"
+                "text": "Le rapport Global Trends du HCR pour 2023 recense plus de 117 millions de personnes déplacées de force dans le monde, un niveau sans précédent qui interroge la capacité des politiques frontalières nationales à répondre à des mouvements de population dont les causes dépassent largement le cadre d’un seul État."
               },
               {
                 "id": "o4",
-                "text": "relier"
+                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
               }
             ]
           }
@@ -48235,42 +48235,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complète ce détail de l’audio.\n\n“La plupart des personnes déplacées de force ne franchissent jamais un océan ; elles restent tout près de chez elles, dans un pays _____.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Reportage : Les frontières peuvent-elles contenir des mouvements structurels ? » ? “La plupart des personnes déplacées de force…”",
         "options": [
-          "voisin",
-          "l’externalisation",
-          "interchangeables",
-          "non-refoulement"
+          "La plupart des personnes déplacées de force ne franchissent jamais un océan ; elles restent tout près de chez elles, dans un pays voisin.",
+          "La question « Les frontières peuvent-elles contenir des mouvements structurels ? » occupe une place centrale dans l’analyse contemporaine.",
+          "Le rapport Global Trends du HCR pour 2023 recense plus de 117 millions de personnes déplacées de force dans le monde, un niveau sans précédent qui interroge la capacité des politiques frontalières nationales à répondre à des mouvements de population dont les causes dépassent largement le cadre d’un seul État.",
+          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel mot complète la phrase entendue ?\n\n“Une _____ sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Reportage : Les frontières peuvent-elles contenir des mouvements structurels ? » ? “Une réponse sérieuse doit distinguer ce que…”",
         "options": [
-          "l’externalisation",
-          "réponse",
-          "interchangeables",
-          "non-refoulement"
+          "La plupart des personnes déplacées de force ne franchissent jamais un océan ; elles restent tout près de chez elles, dans un pays voisin.",
+          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.",
+          "La question « Les frontières peuvent-elles contenir des mouvements structurels ? » occupe une place centrale dans l’analyse contemporaine.",
+          "Le rapport Global Trends du HCR pour 2023 recense plus de 117 millions de personnes déplacées de force dans le monde, un niveau sans précédent qui interroge la capacité des politiques frontalières nationales à répondre à des mouvements de population dont les causes dépassent largement le cadre d’un seul État."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“La plupart des personnes déplacées, dont le _____ dépasse cent millions, restent dans un pays limitrophe plutôt que de rejoindre un pays riche.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Reportage : Les frontières peuvent-elles contenir des mouvements structurels ? » ? “La plupart des personnes déplacées dont le…”",
         "options": [
-          "l’externalisation",
-          "interchangeables",
-          "nombre",
-          "non-refoulement"
+          "La plupart des personnes déplacées de force ne franchissent jamais un océan ; elles restent tout près de chez elles, dans un pays voisin.",
+          "La question « Les frontières peuvent-elles contenir des mouvements structurels ? » occupe une place centrale dans l’analyse contemporaine.",
+          "La plupart des personnes déplacées, dont le nombre dépasse cent millions, restent dans un pays limitrophe plutôt que de rejoindre un pays riche.",
+          "Le rapport Global Trends du HCR pour 2023 recense plus de 117 millions de personnes déplacées de force dans le monde, un niveau sans précédent qui interroge la capacité des politiques frontalières nationales à répondre à des mouvements de population dont les causes dépassent largement le cadre d’un seul État."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Reportage : Les frontières peuvent-elles contenir des mouvements structurels ? » ? “Ce cadre permet enfin…”",
         "options": [
-          "l’externalisation",
-          "interchangeables",
-          "non-refoulement",
-          "relier"
+          "La plupart des personnes déplacées de force ne franchissent jamais un océan ; elles restent tout près de chez elles, dans un pays voisin.",
+          "La question « Les frontières peuvent-elles contenir des mouvements structurels ? » occupe une place centrale dans l’analyse contemporaine.",
+          "Le rapport Global Trends du HCR pour 2023 recense plus de 117 millions de personnes déplacées de force dans le monde, un niveau sans précédent qui interroge la capacité des politiques frontalières nationales à répondre à des mouvements de population dont les causes dépassent largement le cadre d’un seul État.",
+          "Ce cadre permet enfin de relier les faits à une décision argumentée."
         ]
       }
     ]
@@ -48389,92 +48389,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complète ce détail de l’audio.\n\n“Avant de partager une information, adoptez trois réflexes _____.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Les trois réflexes contre la désinformation » ? “Avant de partager…”",
             "options": [
               {
                 "id": "o1",
-                "text": "simples"
+                "text": "Avant de partager une information, adoptez trois réflexes simples."
               },
               {
                 "id": "o2",
-                "text": "désinformation"
+                "text": "Premier réflexe : identifiez la source."
               },
               {
                 "id": "o3",
-                "text": "responsabilité"
+                "text": "Un article sérieux indique généralement son auteur, sa date et les documents utilisés."
               },
               {
                 "id": "o4",
-                "text": "généralement"
+                "text": "Si ces éléments manquent, soyez prudent."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel mot complète la phrase entendue ?\n\n“Une _____ affirme peut-être qu’un événement exceptionnel a eu lieu, mais d’autres médias fiables doivent pouvoir le confirmer.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Les trois réflexes contre la désinformation » ? “Une publication affirme peut-être qu’un événement…”",
             "options": [
               {
                 "id": "o1",
-                "text": "partager"
+                "text": "Avant de partager une information, adoptez trois réflexes simples."
               },
               {
                 "id": "o2",
-                "text": "publication"
+                "text": "Une publication affirme peut-être qu’un événement exceptionnel a eu lieu, mais d’autres médias fiables doivent pouvoir le confirmer."
               },
               {
                 "id": "o3",
-                "text": "réflexes"
+                "text": "Premier réflexe : identifiez la source."
               },
               {
                 "id": "o4",
-                "text": "utilisés"
+                "text": "Un article sérieux indique généralement son auteur, sa date et les documents utilisés."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Des outils de recherche _____ souvent de retrouver sa première publication.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Les trois réflexes contre la désinformation » ? “Des outils de recherche…”",
             "options": [
               {
                 "id": "o1",
-                "text": "désinformation"
+                "text": "Avant de partager une information, adoptez trois réflexes simples."
               },
               {
                 "id": "o2",
-                "text": "responsabilité"
+                "text": "Premier réflexe : identifiez la source."
               },
               {
                 "id": "o3",
-                "text": "permettent"
+                "text": "Des outils de recherche permettent souvent de retrouver sa première publication."
               },
               {
                 "id": "o4",
-                "text": "adoptez"
+                "text": "Un article sérieux indique généralement son auteur, sa date et les documents utilisés."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Face à la _____, ralentir est déjà une forme de responsabilité.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Les trois réflexes contre la désinformation » ? “Face à la désinformation…”",
             "options": [
               {
                 "id": "o1",
-                "text": "information"
+                "text": "Avant de partager une information, adoptez trois réflexes simples."
               },
               {
                 "id": "o2",
-                "text": "publication"
+                "text": "Premier réflexe : identifiez la source."
               },
               {
                 "id": "o3",
-                "text": "influencent"
+                "text": "Un article sérieux indique généralement son auteur, sa date et les documents utilisés."
               },
               {
                 "id": "o4",
-                "text": "désinformation"
+                "text": "Face à la désinformation, ralentir est déjà une forme de responsabilité."
               }
             ]
           }
@@ -48485,42 +48485,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complète ce détail de l’audio.\n\n“Avant de partager une information, adoptez trois réflexes _____.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Les trois réflexes contre la désinformation » ? “Avant de partager…”",
         "options": [
-          "simples",
-          "désinformation",
-          "responsabilité",
-          "généralement"
+          "Avant de partager une information, adoptez trois réflexes simples.",
+          "Premier réflexe : identifiez la source.",
+          "Un article sérieux indique généralement son auteur, sa date et les documents utilisés.",
+          "Si ces éléments manquent, soyez prudent."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel mot complète la phrase entendue ?\n\n“Une _____ affirme peut-être qu’un événement exceptionnel a eu lieu, mais d’autres médias fiables doivent pouvoir le confirmer.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Les trois réflexes contre la désinformation » ? “Une publication affirme peut-être qu’un événement…”",
         "options": [
-          "partager",
-          "publication",
-          "réflexes",
-          "utilisés"
+          "Avant de partager une information, adoptez trois réflexes simples.",
+          "Une publication affirme peut-être qu’un événement exceptionnel a eu lieu, mais d’autres médias fiables doivent pouvoir le confirmer.",
+          "Premier réflexe : identifiez la source.",
+          "Un article sérieux indique généralement son auteur, sa date et les documents utilisés."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Des outils de recherche _____ souvent de retrouver sa première publication.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Les trois réflexes contre la désinformation » ? “Des outils de recherche…”",
         "options": [
-          "désinformation",
-          "responsabilité",
-          "permettent",
-          "adoptez"
+          "Avant de partager une information, adoptez trois réflexes simples.",
+          "Premier réflexe : identifiez la source.",
+          "Des outils de recherche permettent souvent de retrouver sa première publication.",
+          "Un article sérieux indique généralement son auteur, sa date et les documents utilisés."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Face à la _____, ralentir est déjà une forme de responsabilité.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Les trois réflexes contre la désinformation » ? “Face à la désinformation…”",
         "options": [
-          "information",
-          "publication",
-          "influencent",
-          "désinformation"
+          "Avant de partager une information, adoptez trois réflexes simples.",
+          "Premier réflexe : identifiez la source.",
+          "Un article sérieux indique généralement son auteur, sa date et les documents utilisés.",
+          "Face à la désinformation, ralentir est déjà une forme de responsabilité."
         ]
       }
     ]
@@ -48634,92 +48634,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complète ce détail de l’audio.\n\n“Dans les archives d’une petite ville, une équipe a retrouvé plusieurs cassettes enregistrées dans les années _____.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « La voix conservée dans une cassette » ? “Dans les archives d’une petite ville…”",
             "options": [
               {
                 "id": "o1",
-                "text": "quatre-vingt"
+                "text": "Dans les archives d’une petite ville, une équipe a retrouvé plusieurs cassettes enregistrées dans les années quatre-vingt."
               },
               {
                 "id": "o2",
-                "text": "plusieurs"
+                "text": "Celle qui attire aujourd’hui l’attention contient le témoignage d’Awa, une commerçante qui racontait l’évolution de son quartier."
               },
               {
                 "id": "o3",
-                "text": "cassettes"
+                "text": "Les rues qu’elle avait connues n’existent plus toutes, mais sa voix transmet une perspective absente des documents officiels."
               },
               {
                 "id": "o4",
-                "text": "racontait"
+                "text": "Elle décrit les fêtes, les difficultés économiques et les réseaux de solidarité auxquels les familles avaient participé."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel mot complète la phrase entendue ?\n\n“Elle décrit les fêtes, les _____ économiques et les réseaux de solidarité auxquels les familles avaient participé.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « La voix conservée dans une cassette » ? “Elle décrit les fêtes les difficultés…”",
             "options": [
               {
                 "id": "o1",
-                "text": "archives"
+                "text": "Dans les archives d’une petite ville, une équipe a retrouvé plusieurs cassettes enregistrées dans les années quatre-vingt."
               },
               {
                 "id": "o2",
-                "text": "difficultés"
+                "text": "Elle décrit les fêtes, les difficultés économiques et les réseaux de solidarité auxquels les familles avaient participé."
               },
               {
                 "id": "o3",
-                "text": "retrouvé"
+                "text": "Celle qui attire aujourd’hui l’attention contient le témoignage d’Awa, une commerçante qui racontait l’évolution de son quartier."
               },
               {
                 "id": "o4",
-                "text": "contient"
+                "text": "Les rues qu’elle avait connues n’existent plus toutes, mais sa voix transmet une perspective absente des documents officiels."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Ce travail montre que la mémoire _____ ne se limite pas aux grands événements.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « La voix conservée dans une cassette » ? “Ce travail montre que la…”",
             "options": [
               {
                 "id": "o1",
-                "text": "qu’elle"
+                "text": "Dans les archives d’une petite ville, une équipe a retrouvé plusieurs cassettes enregistrées dans les années quatre-vingt."
               },
               {
                 "id": "o2",
-                "text": "connues"
+                "text": "Celle qui attire aujourd’hui l’attention contient le témoignage d’Awa, une commerçante qui racontait l’évolution de son quartier."
               },
               {
                 "id": "o3",
-                "text": "collective"
+                "text": "Ce travail montre que la mémoire collective ne se limite pas aux grands événements."
               },
               {
                 "id": "o4",
-                "text": "absente"
+                "text": "Les rues qu’elle avait connues n’existent plus toutes, mais sa voix transmet une perspective absente des documents officiels."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Elle permet au contraire de comparer plusieurs points de vue et de _____ un héritage plus riche aux générations qui n’ont pas connu cette époque.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « La voix conservée dans une cassette » ? “Elle permet au contraire de comparer plusieurs…”",
             "options": [
               {
                 "id": "o1",
-                "text": "archives"
+                "text": "Dans les archives d’une petite ville, une équipe a retrouvé plusieurs cassettes enregistrées dans les années quatre-vingt."
               },
               {
                 "id": "o2",
-                "text": "retrouvé"
+                "text": "Celle qui attire aujourd’hui l’attention contient le témoignage d’Awa, une commerçante qui racontait l’évolution de son quartier."
               },
               {
                 "id": "o3",
-                "text": "contient"
+                "text": "Les rues qu’elle avait connues n’existent plus toutes, mais sa voix transmet une perspective absente des documents officiels."
               },
               {
                 "id": "o4",
-                "text": "transmettre"
+                "text": "Elle permet au contraire de comparer plusieurs points de vue et de transmettre un héritage plus riche aux générations qui n’ont pas connu cette époque."
               }
             ]
           }
@@ -48730,42 +48730,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complète ce détail de l’audio.\n\n“Dans les archives d’une petite ville, une équipe a retrouvé plusieurs cassettes enregistrées dans les années _____.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « La voix conservée dans une cassette » ? “Dans les archives d’une petite ville…”",
         "options": [
-          "quatre-vingt",
-          "plusieurs",
-          "cassettes",
-          "racontait"
+          "Dans les archives d’une petite ville, une équipe a retrouvé plusieurs cassettes enregistrées dans les années quatre-vingt.",
+          "Celle qui attire aujourd’hui l’attention contient le témoignage d’Awa, une commerçante qui racontait l’évolution de son quartier.",
+          "Les rues qu’elle avait connues n’existent plus toutes, mais sa voix transmet une perspective absente des documents officiels.",
+          "Elle décrit les fêtes, les difficultés économiques et les réseaux de solidarité auxquels les familles avaient participé."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel mot complète la phrase entendue ?\n\n“Elle décrit les fêtes, les _____ économiques et les réseaux de solidarité auxquels les familles avaient participé.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « La voix conservée dans une cassette » ? “Elle décrit les fêtes les difficultés…”",
         "options": [
-          "archives",
-          "difficultés",
-          "retrouvé",
-          "contient"
+          "Dans les archives d’une petite ville, une équipe a retrouvé plusieurs cassettes enregistrées dans les années quatre-vingt.",
+          "Elle décrit les fêtes, les difficultés économiques et les réseaux de solidarité auxquels les familles avaient participé.",
+          "Celle qui attire aujourd’hui l’attention contient le témoignage d’Awa, une commerçante qui racontait l’évolution de son quartier.",
+          "Les rues qu’elle avait connues n’existent plus toutes, mais sa voix transmet une perspective absente des documents officiels."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Ce travail montre que la mémoire _____ ne se limite pas aux grands événements.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « La voix conservée dans une cassette » ? “Ce travail montre que la…”",
         "options": [
-          "qu’elle",
-          "connues",
-          "collective",
-          "absente"
+          "Dans les archives d’une petite ville, une équipe a retrouvé plusieurs cassettes enregistrées dans les années quatre-vingt.",
+          "Celle qui attire aujourd’hui l’attention contient le témoignage d’Awa, une commerçante qui racontait l’évolution de son quartier.",
+          "Ce travail montre que la mémoire collective ne se limite pas aux grands événements.",
+          "Les rues qu’elle avait connues n’existent plus toutes, mais sa voix transmet une perspective absente des documents officiels."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Elle permet au contraire de comparer plusieurs points de vue et de _____ un héritage plus riche aux générations qui n’ont pas connu cette époque.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « La voix conservée dans une cassette » ? “Elle permet au contraire de comparer plusieurs…”",
         "options": [
-          "archives",
-          "retrouvé",
-          "contient",
-          "transmettre"
+          "Dans les archives d’une petite ville, une équipe a retrouvé plusieurs cassettes enregistrées dans les années quatre-vingt.",
+          "Celle qui attire aujourd’hui l’attention contient le témoignage d’Awa, une commerçante qui racontait l’évolution de son quartier.",
+          "Les rues qu’elle avait connues n’existent plus toutes, mais sa voix transmet une perspective absente des documents officiels.",
+          "Elle permet au contraire de comparer plusieurs points de vue et de transmettre un héritage plus riche aux générations qui n’ont pas connu cette époque."
         ]
       }
     ]
@@ -53175,92 +53175,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complète ce détail de l’audio.\n\n“Pendant mon temps libre, je peux faire plusieurs _____.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Mes activités préférées » ? “Pendant mon temps…”",
             "options": [
               {
                 "id": "o1",
-                "text": "activités"
+                "text": "Pendant mon temps libre, je peux faire plusieurs activités."
               },
               {
                 "id": "o2",
-                "text": "samedi"
+                "text": "Le samedi matin, je fais du vélo avec Léa dans le parc."
               },
               {
                 "id": "o3",
-                "text": "danser"
+                "text": "Karim joue au football avec ses amis et Paul joue aux jeux vidéo."
               },
               {
                 "id": "o4",
-                "text": "encore"
+                "text": "Moi, je sais danser et je fais de la danse deux fois par semaine."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel mot complète la phrase entendue ?\n\n“Karim joue au _____ avec ses amis et Paul joue aux jeux vidéo.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Mes activités préférées » ? “Karim joue au football avec…”",
             "options": [
               {
                 "id": "o1",
-                "text": "temps"
+                "text": "Pendant mon temps libre, je peux faire plusieurs activités."
               },
               {
                 "id": "o2",
-                "text": "football"
+                "text": "Karim joue au football avec ses amis et Paul joue aux jeux vidéo."
               },
               {
                 "id": "o3",
-                "text": "libre"
+                "text": "Le samedi matin, je fais du vélo avec Léa dans le parc."
               },
               {
                 "id": "o4",
-                "text": "faire"
+                "text": "Moi, je sais danser et je fais de la danse deux fois par semaine."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Je peux aussi jouer un peu de la guitare, mais je ne sais pas _____ jouer très bien.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Mes activités préférées » ? “Je peux aussi jouer un peu…”",
             "options": [
               {
                 "id": "o1",
-                "text": "mon"
+                "text": "Pendant mon temps libre, je peux faire plusieurs activités."
               },
               {
                 "id": "o2",
-                "text": "plusieurs"
+                "text": "Le samedi matin, je fais du vélo avec Léa dans le parc."
               },
               {
                 "id": "o3",
-                "text": "encore"
+                "text": "Je peux aussi jouer un peu de la guitare, mais je ne sais pas encore jouer très bien."
               },
               {
                 "id": "o4",
-                "text": "activités"
+                "text": "Karim joue au football avec ses amis et Paul joue aux jeux vidéo."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Mes loisirs m’aident à me détendre et à pratiquer le _____ avec mes nouveaux amis.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Mes activités préférées » ? “Mes loisirs m’aident à me…”",
             "options": [
               {
                 "id": "o1",
-                "text": "temps"
+                "text": "Pendant mon temps libre, je peux faire plusieurs activités."
               },
               {
                 "id": "o2",
-                "text": "libre"
+                "text": "Le samedi matin, je fais du vélo avec Léa dans le parc."
               },
               {
                 "id": "o3",
-                "text": "faire"
+                "text": "Karim joue au football avec ses amis et Paul joue aux jeux vidéo."
               },
               {
                 "id": "o4",
-                "text": "français"
+                "text": "Mes loisirs m’aident à me détendre et à pratiquer le français avec mes nouveaux amis."
               }
             ]
           }
@@ -53271,42 +53271,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complète ce détail de l’audio.\n\n“Pendant mon temps libre, je peux faire plusieurs _____.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Mes activités préférées » ? “Pendant mon temps…”",
         "options": [
-          "activités",
-          "samedi",
-          "danser",
-          "encore"
+          "Pendant mon temps libre, je peux faire plusieurs activités.",
+          "Le samedi matin, je fais du vélo avec Léa dans le parc.",
+          "Karim joue au football avec ses amis et Paul joue aux jeux vidéo.",
+          "Moi, je sais danser et je fais de la danse deux fois par semaine."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel mot complète la phrase entendue ?\n\n“Karim joue au _____ avec ses amis et Paul joue aux jeux vidéo.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Mes activités préférées » ? “Karim joue au football avec…”",
         "options": [
-          "temps",
-          "football",
-          "libre",
-          "faire"
+          "Pendant mon temps libre, je peux faire plusieurs activités.",
+          "Karim joue au football avec ses amis et Paul joue aux jeux vidéo.",
+          "Le samedi matin, je fais du vélo avec Léa dans le parc.",
+          "Moi, je sais danser et je fais de la danse deux fois par semaine."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Je peux aussi jouer un peu de la guitare, mais je ne sais pas _____ jouer très bien.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Mes activités préférées » ? “Je peux aussi jouer un peu…”",
         "options": [
-          "mon",
-          "plusieurs",
-          "encore",
-          "activités"
+          "Pendant mon temps libre, je peux faire plusieurs activités.",
+          "Le samedi matin, je fais du vélo avec Léa dans le parc.",
+          "Je peux aussi jouer un peu de la guitare, mais je ne sais pas encore jouer très bien.",
+          "Karim joue au football avec ses amis et Paul joue aux jeux vidéo."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Mes loisirs m’aident à me détendre et à pratiquer le _____ avec mes nouveaux amis.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Mes activités préférées » ? “Mes loisirs m’aident à me…”",
         "options": [
-          "temps",
-          "libre",
-          "faire",
-          "français"
+          "Pendant mon temps libre, je peux faire plusieurs activités.",
+          "Le samedi matin, je fais du vélo avec Léa dans le parc.",
+          "Karim joue au football avec ses amis et Paul joue aux jeux vidéo.",
+          "Mes loisirs m’aident à me détendre et à pratiquer le français avec mes nouveaux amis."
         ]
       }
     ]
@@ -53400,92 +53400,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complète ce détail de l’audio.\n\n“Bienvenue dans notre chronique sur les _____.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Comment garder une amitié à distance » ? “Bienvenue dans notre…”",
             "options": [
               {
                 "id": "o1",
-                "text": "relations"
+                "text": "Bienvenue dans notre chronique sur les relations."
               },
               {
                 "id": "o2",
-                "text": "correspondants"
+                "text": "Aujourd’hui, je vous explique comment deux correspondants gardent contact à distance."
               },
               {
                 "id": "o3",
-                "text": "Fort-de-France"
+                "text": "Noah vit à Bruxelles et Salomé habite en Martinique."
               },
               {
                 "id": "o4",
-                "text": "Salomé"
+                "text": "Ils se sont rencontrés grâce à un projet que leurs professeurs ont organisé."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel mot complète la phrase entendue ?\n\n“Ils se sont _____ grâce à un projet que leurs professeurs ont organisé.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Comment garder une amitié à distance » ? “Ils se sont rencontrés grâce…”",
             "options": [
               {
                 "id": "o1",
-                "text": "correspondants"
+                "text": "Bienvenue dans notre chronique sur les relations."
               },
               {
                 "id": "o2",
-                "text": "rencontrés"
+                "text": "Ils se sont rencontrés grâce à un projet que leurs professeurs ont organisé."
               },
               {
                 "id": "o3",
-                "text": "Fort-de-France"
+                "text": "Aujourd’hui, je vous explique comment deux correspondants gardent contact à distance."
               },
               {
                 "id": "o4",
-                "text": "comment"
+                "text": "Noah vit à Bruxelles et Salomé habite en Martinique."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Ils ne sont pas toujours d’accord : _____ préfère écrire, tandis que Salomé aime les appels vidéo.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Comment garder une amitié à distance » ? “Ils ne sont pas toujours d’accord…”",
             "options": [
               {
                 "id": "o1",
-                "text": "correspondants"
+                "text": "Bienvenue dans notre chronique sur les relations."
               },
               {
                 "id": "o2",
-                "text": "Fort-de-France"
+                "text": "Aujourd’hui, je vous explique comment deux correspondants gardent contact à distance."
               },
               {
                 "id": "o3",
-                "text": "Noah"
+                "text": "Ils ne sont pas toujours d’accord : Noah préfère écrire, tandis que Salomé aime les appels vidéo."
               },
               {
                 "id": "o4",
-                "text": "Aujourd’hui"
+                "text": "Noah vit à Bruxelles et Salomé habite en Martinique."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Leur conseil est simple : choisissez un rythme _____ et partagez des activités qui vous intéressent.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Comment garder une amitié à distance » ? “Leur conseil est simple choisissez…”",
             "options": [
               {
                 "id": "o1",
-                "text": "correspondants"
+                "text": "Bienvenue dans notre chronique sur les relations."
               },
               {
                 "id": "o2",
-                "text": "Fort-de-France"
+                "text": "Aujourd’hui, je vous explique comment deux correspondants gardent contact à distance."
               },
               {
                 "id": "o3",
-                "text": "notre"
+                "text": "Noah vit à Bruxelles et Salomé habite en Martinique."
               },
               {
                 "id": "o4",
-                "text": "réaliste"
+                "text": "Leur conseil est simple : choisissez un rythme réaliste et partagez des activités qui vous intéressent."
               }
             ]
           }
@@ -53496,42 +53496,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complète ce détail de l’audio.\n\n“Bienvenue dans notre chronique sur les _____.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Comment garder une amitié à distance » ? “Bienvenue dans notre…”",
         "options": [
-          "relations",
-          "correspondants",
-          "Fort-de-France",
-          "Salomé"
+          "Bienvenue dans notre chronique sur les relations.",
+          "Aujourd’hui, je vous explique comment deux correspondants gardent contact à distance.",
+          "Noah vit à Bruxelles et Salomé habite en Martinique.",
+          "Ils se sont rencontrés grâce à un projet que leurs professeurs ont organisé."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel mot complète la phrase entendue ?\n\n“Ils se sont _____ grâce à un projet que leurs professeurs ont organisé.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Comment garder une amitié à distance » ? “Ils se sont rencontrés grâce…”",
         "options": [
-          "correspondants",
-          "rencontrés",
-          "Fort-de-France",
-          "comment"
+          "Bienvenue dans notre chronique sur les relations.",
+          "Ils se sont rencontrés grâce à un projet que leurs professeurs ont organisé.",
+          "Aujourd’hui, je vous explique comment deux correspondants gardent contact à distance.",
+          "Noah vit à Bruxelles et Salomé habite en Martinique."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Ils ne sont pas toujours d’accord : _____ préfère écrire, tandis que Salomé aime les appels vidéo.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Comment garder une amitié à distance » ? “Ils ne sont pas toujours d’accord…”",
         "options": [
-          "correspondants",
-          "Fort-de-France",
-          "Noah",
-          "Aujourd’hui"
+          "Bienvenue dans notre chronique sur les relations.",
+          "Aujourd’hui, je vous explique comment deux correspondants gardent contact à distance.",
+          "Ils ne sont pas toujours d’accord : Noah préfère écrire, tandis que Salomé aime les appels vidéo.",
+          "Noah vit à Bruxelles et Salomé habite en Martinique."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Leur conseil est simple : choisissez un rythme _____ et partagez des activités qui vous intéressent.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Comment garder une amitié à distance » ? “Leur conseil est simple choisissez…”",
         "options": [
-          "correspondants",
-          "Fort-de-France",
-          "notre",
-          "réaliste"
+          "Bienvenue dans notre chronique sur les relations.",
+          "Aujourd’hui, je vous explique comment deux correspondants gardent contact à distance.",
+          "Noah vit à Bruxelles et Salomé habite en Martinique.",
+          "Leur conseil est simple : choisissez un rythme réaliste et partagez des activités qui vous intéressent."
         ]
       }
     ]
@@ -53656,92 +53656,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complète ce détail de l’audio.\n\n“En novembre 2014, l’installation « Exhibit B » du metteur en scène sud-africain Brett Bailey — une reconstitution de « zoos humains » coloniaux, jouée par des acteurs noirs immobiles dans des vitrines — devait s’ouvrir au théâtre Gérard-Philipe de _____.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Essai sonore : L’œuvre que personne ne voulait exposer » ? “En novembre 2014 l’installation Exhibit B du…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Saint-Denis"
+                "text": "En novembre 2014, l’installation « Exhibit B » du metteur en scène sud-africain Brett Bailey — une reconstitution de « zoos humains » coloniaux, jouée par des acteurs noirs immobiles dans des vitrines — devait s’ouvrir au théâtre Gérard-Philipe de Saint-Denis."
               },
               {
                 "id": "o2",
-                "text": "représentations"
+                "text": "Une pétition rassemblant plus de vingt mille signatures et des manifestations devant le théâtre ont conduit à l’annulation des dernières représentations."
               },
               {
                 "id": "o3",
-                "text": "journalistiques"
+                "text": "Le communiqué de la direction invoquait un risque pour la sécurité, sans jamais trancher sur le fond artistique du débat."
               },
               {
                 "id": "o4",
-                "text": "novembre"
+                "text": "Les enquêtes journalistiques menées sur cette affaire ont interrogé la direction, l’artiste et les collectifs antiracistes qui formulaient des critiques opposées : l’un jugeait l’œuvre nécessaire pour affronter la mémoire coloniale, l’autre y voyait une reconstitution déshumanisante rejouant, sans le vouloir, la logique qu’elle prétendait dénoncer."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel mot complète la phrase entendue ?\n\n“Les _____ journalistiques menées sur cette affaire ont interrogé la direction, l’artiste et les collectifs antiracistes qui formulaient des critiques opposées : l’un jugeait l’œuvre nécessaire pour affronter la mémoire coloniale, l’autre y voyait une reconstitution déshumanisante rejouant, sans le vouloir, la logique qu’elle prétendait dénoncer.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Essai sonore : L’œuvre que personne ne voulait exposer » ? “Les enquêtes journalistiques menées sur cette affaire…”",
             "options": [
               {
                 "id": "o1",
-                "text": "représentations"
+                "text": "En novembre 2014, l’installation « Exhibit B » du metteur en scène sud-africain Brett Bailey — une reconstitution de « zoos humains » coloniaux, jouée par des acteurs noirs immobiles dans des vitrines — devait s’ouvrir au théâtre Gérard-Philipe de Saint-Denis."
               },
               {
                 "id": "o2",
-                "text": "enquêtes"
+                "text": "Les enquêtes journalistiques menées sur cette affaire ont interrogé la direction, l’artiste et les collectifs antiracistes qui formulaient des critiques opposées : l’un jugeait l’œuvre nécessaire pour affronter la mémoire coloniale, l’autre y voyait une reconstitution déshumanisante rejouant, sans le vouloir, la logique qu’elle prétendait dénoncer."
               },
               {
                 "id": "o3",
-                "text": "journalistiques"
+                "text": "Une pétition rassemblant plus de vingt mille signatures et des manifestations devant le théâtre ont conduit à l’annulation des dernières représentations."
               },
               {
                 "id": "o4",
-                "text": "l’installation"
+                "text": "Le communiqué de la direction invoquait un risque pour la sécurité, sans jamais trancher sur le fond artistique du débat."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Elles ne constituent pas une simple liste : chacune _____ une étape, une tension ou une conséquence du problème.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Essai sonore : L’œuvre que personne ne voulait exposer » ? “Elles ne constituent pas une simple…”",
             "options": [
               {
                 "id": "o1",
-                "text": "représentations"
+                "text": "En novembre 2014, l’installation « Exhibit B » du metteur en scène sud-africain Brett Bailey — une reconstitution de « zoos humains » coloniaux, jouée par des acteurs noirs immobiles dans des vitrines — devait s’ouvrir au théâtre Gérard-Philipe de Saint-Denis."
               },
               {
                 "id": "o2",
-                "text": "journalistiques"
+                "text": "Une pétition rassemblant plus de vingt mille signatures et des manifestations devant le théâtre ont conduit à l’annulation des dernières représentations."
               },
               {
                 "id": "o3",
-                "text": "éclaire"
+                "text": "Elles ne constituent pas une simple liste : chacune éclaire une étape, une tension ou une conséquence du problème."
               },
               {
                 "id": "o4",
-                "text": "l’installation"
+                "text": "Le communiqué de la direction invoquait un risque pour la sécurité, sans jamais trancher sur le fond artistique du débat."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Essai sonore : L’œuvre que personne ne voulait exposer » ? “Ce cadre permet enfin…”",
             "options": [
               {
                 "id": "o1",
-                "text": "représentations"
+                "text": "En novembre 2014, l’installation « Exhibit B » du metteur en scène sud-africain Brett Bailey — une reconstitution de « zoos humains » coloniaux, jouée par des acteurs noirs immobiles dans des vitrines — devait s’ouvrir au théâtre Gérard-Philipe de Saint-Denis."
               },
               {
                 "id": "o2",
-                "text": "journalistiques"
+                "text": "Une pétition rassemblant plus de vingt mille signatures et des manifestations devant le théâtre ont conduit à l’annulation des dernières représentations."
               },
               {
                 "id": "o3",
-                "text": "l’installation"
+                "text": "Le communiqué de la direction invoquait un risque pour la sécurité, sans jamais trancher sur le fond artistique du débat."
               },
               {
                 "id": "o4",
-                "text": "relier"
+                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
               }
             ]
           }
@@ -53752,42 +53752,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complète ce détail de l’audio.\n\n“En novembre 2014, l’installation « Exhibit B » du metteur en scène sud-africain Brett Bailey — une reconstitution de « zoos humains » coloniaux, jouée par des acteurs noirs immobiles dans des vitrines — devait s’ouvrir au théâtre Gérard-Philipe de _____.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Essai sonore : L’œuvre que personne ne voulait exposer » ? “En novembre 2014 l’installation Exhibit B du…”",
         "options": [
-          "Saint-Denis",
-          "représentations",
-          "journalistiques",
-          "novembre"
+          "En novembre 2014, l’installation « Exhibit B » du metteur en scène sud-africain Brett Bailey — une reconstitution de « zoos humains » coloniaux, jouée par des acteurs noirs immobiles dans des vitrines — devait s’ouvrir au théâtre Gérard-Philipe de Saint-Denis.",
+          "Une pétition rassemblant plus de vingt mille signatures et des manifestations devant le théâtre ont conduit à l’annulation des dernières représentations.",
+          "Le communiqué de la direction invoquait un risque pour la sécurité, sans jamais trancher sur le fond artistique du débat.",
+          "Les enquêtes journalistiques menées sur cette affaire ont interrogé la direction, l’artiste et les collectifs antiracistes qui formulaient des critiques opposées : l’un jugeait l’œuvre nécessaire pour affronter la mémoire coloniale, l’autre y voyait une reconstitution déshumanisante rejouant, sans le vouloir, la logique qu’elle prétendait dénoncer."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel mot complète la phrase entendue ?\n\n“Les _____ journalistiques menées sur cette affaire ont interrogé la direction, l’artiste et les collectifs antiracistes qui formulaient des critiques opposées : l’un jugeait l’œuvre nécessaire pour affronter la mémoire coloniale, l’autre y voyait une reconstitution déshumanisante rejouant, sans le vouloir, la logique qu’elle prétendait dénoncer.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Essai sonore : L’œuvre que personne ne voulait exposer » ? “Les enquêtes journalistiques menées sur cette affaire…”",
         "options": [
-          "représentations",
-          "enquêtes",
-          "journalistiques",
-          "l’installation"
+          "En novembre 2014, l’installation « Exhibit B » du metteur en scène sud-africain Brett Bailey — une reconstitution de « zoos humains » coloniaux, jouée par des acteurs noirs immobiles dans des vitrines — devait s’ouvrir au théâtre Gérard-Philipe de Saint-Denis.",
+          "Les enquêtes journalistiques menées sur cette affaire ont interrogé la direction, l’artiste et les collectifs antiracistes qui formulaient des critiques opposées : l’un jugeait l’œuvre nécessaire pour affronter la mémoire coloniale, l’autre y voyait une reconstitution déshumanisante rejouant, sans le vouloir, la logique qu’elle prétendait dénoncer.",
+          "Une pétition rassemblant plus de vingt mille signatures et des manifestations devant le théâtre ont conduit à l’annulation des dernières représentations.",
+          "Le communiqué de la direction invoquait un risque pour la sécurité, sans jamais trancher sur le fond artistique du débat."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Elles ne constituent pas une simple liste : chacune _____ une étape, une tension ou une conséquence du problème.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Essai sonore : L’œuvre que personne ne voulait exposer » ? “Elles ne constituent pas une simple…”",
         "options": [
-          "représentations",
-          "journalistiques",
-          "éclaire",
-          "l’installation"
+          "En novembre 2014, l’installation « Exhibit B » du metteur en scène sud-africain Brett Bailey — une reconstitution de « zoos humains » coloniaux, jouée par des acteurs noirs immobiles dans des vitrines — devait s’ouvrir au théâtre Gérard-Philipe de Saint-Denis.",
+          "Une pétition rassemblant plus de vingt mille signatures et des manifestations devant le théâtre ont conduit à l’annulation des dernières représentations.",
+          "Elles ne constituent pas une simple liste : chacune éclaire une étape, une tension ou une conséquence du problème.",
+          "Le communiqué de la direction invoquait un risque pour la sécurité, sans jamais trancher sur le fond artistique du débat."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Essai sonore : L’œuvre que personne ne voulait exposer » ? “Ce cadre permet enfin…”",
         "options": [
-          "représentations",
-          "journalistiques",
-          "l’installation",
-          "relier"
+          "En novembre 2014, l’installation « Exhibit B » du metteur en scène sud-africain Brett Bailey — une reconstitution de « zoos humains » coloniaux, jouée par des acteurs noirs immobiles dans des vitrines — devait s’ouvrir au théâtre Gérard-Philipe de Saint-Denis.",
+          "Une pétition rassemblant plus de vingt mille signatures et des manifestations devant le théâtre ont conduit à l’annulation des dernières représentations.",
+          "Le communiqué de la direction invoquait un risque pour la sécurité, sans jamais trancher sur le fond artistique du débat.",
+          "Ce cadre permet enfin de relier les faits à une décision argumentée."
         ]
       }
     ]
@@ -53922,92 +53922,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complète ce détail de l’audio.\n\n“Un contenu trompeur se diffuse en quelques minutes, tandis que son démenti met des heures à atteindre le même _____.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Essai sonore : La désinformation détermine-t-elle réellement les élections ? » ? “Un contenu trompeur se diffuse en quelques…”",
             "options": [
               {
                 "id": "o1",
-                "text": "public"
+                "text": "Un contenu trompeur se diffuse en quelques minutes, tandis que son démenti met des heures à atteindre le même public."
               },
               {
                 "id": "o2",
-                "text": "détermine-t-elle"
+                "text": "La question « La désinformation détermine-t-elle réellement les élections ? » occupe une place centrale dans l’analyse contemporaine."
               },
               {
                 "id": "o3",
-                "text": "interchangeables"
+                "text": "Le Digital News Report 2024 de l’institut Reuters constate une érosion continue de la confiance dans les médias traditionnels dans de nombreux pays, une évolution souvent présentée comme la cause directe d’une vulnérabilité démocratique croissante face à la désinformation, alors que la relation causale précise entre exposition à un contenu trompeur et changement effectif du comportement électoral reste empiriquement plus incertaine que ne le suggère le débat public."
               },
               {
                 "id": "o4",
-                "text": "désinformation"
+                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel mot complète la phrase entendue ?\n\n“Une _____ sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Essai sonore : La désinformation détermine-t-elle réellement les élections ? » ? “Une réponse sérieuse doit distinguer ce que…”",
             "options": [
               {
                 "id": "o1",
-                "text": "détermine-t-elle"
+                "text": "Un contenu trompeur se diffuse en quelques minutes, tandis que son démenti met des heures à atteindre le même public."
               },
               {
                 "id": "o2",
-                "text": "réponse"
+                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
               },
               {
                 "id": "o3",
-                "text": "interchangeables"
+                "text": "La question « La désinformation détermine-t-elle réellement les élections ? » occupe une place centrale dans l’analyse contemporaine."
               },
               {
                 "id": "o4",
-                "text": "désinformation"
+                "text": "Le Digital News Report 2024 de l’institut Reuters constate une érosion continue de la confiance dans les médias traditionnels dans de nombreux pays, une évolution souvent présentée comme la cause directe d’une vulnérabilité démocratique croissante face à la désinformation, alors que la relation causale précise entre exposition à un contenu trompeur et changement effectif du comportement électoral reste empiriquement plus incertaine que ne le suggère le débat public."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Puisque la désinformation vise surtout des _____ déjà établies, dès lors la conversion massive d’électeurs indécis paraît moins probable qu’on ne le suppose.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Essai sonore : La désinformation détermine-t-elle réellement les élections ? » ? “Puisque la désinformation vise surtout des convictions…”",
             "options": [
               {
                 "id": "o1",
-                "text": "détermine-t-elle"
+                "text": "Un contenu trompeur se diffuse en quelques minutes, tandis que son démenti met des heures à atteindre le même public."
               },
               {
                 "id": "o2",
-                "text": "interchangeables"
+                "text": "La question « La désinformation détermine-t-elle réellement les élections ? » occupe une place centrale dans l’analyse contemporaine."
               },
               {
                 "id": "o3",
-                "text": "convictions"
+                "text": "Puisque la désinformation vise surtout des convictions déjà établies, dès lors la conversion massive d’électeurs indécis paraît moins probable qu’on ne le suppose."
               },
               {
                 "id": "o4",
-                "text": "trompeur"
+                "text": "Le Digital News Report 2024 de l’institut Reuters constate une érosion continue de la confiance dans les médias traditionnels dans de nombreux pays, une évolution souvent présentée comme la cause directe d’une vulnérabilité démocratique croissante face à la désinformation, alors que la relation causale précise entre exposition à un contenu trompeur et changement effectif du comportement électoral reste empiriquement plus incertaine que ne le suggère le débat public."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Essai sonore : La désinformation détermine-t-elle réellement les élections ? » ? “Ce cadre permet enfin…”",
             "options": [
               {
                 "id": "o1",
-                "text": "détermine-t-elle"
+                "text": "Un contenu trompeur se diffuse en quelques minutes, tandis que son démenti met des heures à atteindre le même public."
               },
               {
                 "id": "o2",
-                "text": "interchangeables"
+                "text": "La question « La désinformation détermine-t-elle réellement les élections ? » occupe une place centrale dans l’analyse contemporaine."
               },
               {
                 "id": "o3",
-                "text": "désinformation"
+                "text": "Le Digital News Report 2024 de l’institut Reuters constate une érosion continue de la confiance dans les médias traditionnels dans de nombreux pays, une évolution souvent présentée comme la cause directe d’une vulnérabilité démocratique croissante face à la désinformation, alors que la relation causale précise entre exposition à un contenu trompeur et changement effectif du comportement électoral reste empiriquement plus incertaine que ne le suggère le débat public."
               },
               {
                 "id": "o4",
-                "text": "relier"
+                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
               }
             ]
           }
@@ -54018,42 +54018,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complète ce détail de l’audio.\n\n“Un contenu trompeur se diffuse en quelques minutes, tandis que son démenti met des heures à atteindre le même _____.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Essai sonore : La désinformation détermine-t-elle réellement les élections ? » ? “Un contenu trompeur se diffuse en quelques…”",
         "options": [
-          "public",
-          "détermine-t-elle",
-          "interchangeables",
-          "désinformation"
+          "Un contenu trompeur se diffuse en quelques minutes, tandis que son démenti met des heures à atteindre le même public.",
+          "La question « La désinformation détermine-t-elle réellement les élections ? » occupe une place centrale dans l’analyse contemporaine.",
+          "Le Digital News Report 2024 de l’institut Reuters constate une érosion continue de la confiance dans les médias traditionnels dans de nombreux pays, une évolution souvent présentée comme la cause directe d’une vulnérabilité démocratique croissante face à la désinformation, alors que la relation causale précise entre exposition à un contenu trompeur et changement effectif du comportement électoral reste empiriquement plus incertaine que ne le suggère le débat public.",
+          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel mot complète la phrase entendue ?\n\n“Une _____ sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Essai sonore : La désinformation détermine-t-elle réellement les élections ? » ? “Une réponse sérieuse doit distinguer ce que…”",
         "options": [
-          "détermine-t-elle",
-          "réponse",
-          "interchangeables",
-          "désinformation"
+          "Un contenu trompeur se diffuse en quelques minutes, tandis que son démenti met des heures à atteindre le même public.",
+          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.",
+          "La question « La désinformation détermine-t-elle réellement les élections ? » occupe une place centrale dans l’analyse contemporaine.",
+          "Le Digital News Report 2024 de l’institut Reuters constate une érosion continue de la confiance dans les médias traditionnels dans de nombreux pays, une évolution souvent présentée comme la cause directe d’une vulnérabilité démocratique croissante face à la désinformation, alors que la relation causale précise entre exposition à un contenu trompeur et changement effectif du comportement électoral reste empiriquement plus incertaine que ne le suggère le débat public."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Puisque la désinformation vise surtout des _____ déjà établies, dès lors la conversion massive d’électeurs indécis paraît moins probable qu’on ne le suppose.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Essai sonore : La désinformation détermine-t-elle réellement les élections ? » ? “Puisque la désinformation vise surtout des convictions…”",
         "options": [
-          "détermine-t-elle",
-          "interchangeables",
-          "convictions",
-          "trompeur"
+          "Un contenu trompeur se diffuse en quelques minutes, tandis que son démenti met des heures à atteindre le même public.",
+          "La question « La désinformation détermine-t-elle réellement les élections ? » occupe une place centrale dans l’analyse contemporaine.",
+          "Puisque la désinformation vise surtout des convictions déjà établies, dès lors la conversion massive d’électeurs indécis paraît moins probable qu’on ne le suppose.",
+          "Le Digital News Report 2024 de l’institut Reuters constate une érosion continue de la confiance dans les médias traditionnels dans de nombreux pays, une évolution souvent présentée comme la cause directe d’une vulnérabilité démocratique croissante face à la désinformation, alors que la relation causale précise entre exposition à un contenu trompeur et changement effectif du comportement électoral reste empiriquement plus incertaine que ne le suggère le débat public."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Essai sonore : La désinformation détermine-t-elle réellement les élections ? » ? “Ce cadre permet enfin…”",
         "options": [
-          "détermine-t-elle",
-          "interchangeables",
-          "désinformation",
-          "relier"
+          "Un contenu trompeur se diffuse en quelques minutes, tandis que son démenti met des heures à atteindre le même public.",
+          "La question « La désinformation détermine-t-elle réellement les élections ? » occupe une place centrale dans l’analyse contemporaine.",
+          "Le Digital News Report 2024 de l’institut Reuters constate une érosion continue de la confiance dans les médias traditionnels dans de nombreux pays, une évolution souvent présentée comme la cause directe d’une vulnérabilité démocratique croissante face à la désinformation, alors que la relation causale précise entre exposition à un contenu trompeur et changement effectif du comportement électoral reste empiriquement plus incertaine que ne le suggère le débat public.",
+          "Ce cadre permet enfin de relier les faits à une décision argumentée."
         ]
       }
     ]
@@ -54152,92 +54152,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complète ce détail de l’audio.\n\n“Bienvenue dans notre podcast sur les _____.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Quand un désaccord devient utile » ? “Bienvenue dans notre…”",
             "options": [
               {
                 "id": "o1",
-                "text": "relations"
+                "text": "Bienvenue dans notre podcast sur les relations."
               },
               {
                 "id": "o2",
-                "text": "interprétation"
+                "text": "Aujourd’hui, nous parlons des désaccords."
               },
               {
                 "id": "o3",
-                "text": "immédiatement"
+                "text": "Un conflit commence souvent par une interprétation différente : une personne pense ne pas être écoutée, tandis que l’autre croit avoir été claire."
               },
               {
                 "id": "o4",
-                "text": "tandis"
+                "text": "Cela me dérange que certaines discussions deviennent immédiatement une compétition."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel mot complète la phrase entendue ?\n\n“Pour trouver un _____, il faut d’abord décrire les faits sans accuser.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Quand un désaccord devient utile » ? “Pour trouver un compromis…”",
             "options": [
               {
                 "id": "o1",
-                "text": "interprétation"
+                "text": "Bienvenue dans notre podcast sur les relations."
               },
               {
                 "id": "o2",
-                "text": "compromis"
+                "text": "Pour trouver un compromis, il faut d’abord décrire les faits sans accuser."
               },
               {
                 "id": "o3",
-                "text": "immédiatement"
+                "text": "Aujourd’hui, nous parlons des désaccords."
               },
               {
                 "id": "o4",
-                "text": "tandis"
+                "text": "Un conflit commence souvent par une interprétation différente : une personne pense ne pas être écoutée, tandis que l’autre croit avoir été claire."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“L’objectif n’est pas de prouver que l’un a raison et que _____ a tort, mais de chercher une solution acceptable.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Quand un désaccord devient utile » ? “L’objectif n’est pas de prouver que l’un…”",
             "options": [
               {
                 "id": "o1",
-                "text": "interprétation"
+                "text": "Bienvenue dans notre podcast sur les relations."
               },
               {
                 "id": "o2",
-                "text": "immédiatement"
+                "text": "Aujourd’hui, nous parlons des désaccords."
               },
               {
                 "id": "o3",
-                "text": "l’autre"
+                "text": "L’objectif n’est pas de prouver que l’un a raison et que l’autre a tort, mais de chercher une solution acceptable."
               },
               {
                 "id": "o4",
-                "text": "Aujourd’hui"
+                "text": "Un conflit commence souvent par une interprétation différente : une personne pense ne pas être écoutée, tandis que l’autre croit avoir été claire."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“On peut dire : « Je suis déçu que tu aies changé le projet sans me prévenir », plutôt que : « Tu ne respectes _____ personne. » Il est également utile que chacun explique ce dont il a besoin.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Quand un désaccord devient utile » ? “On peut dire Je suis déçu que…”",
             "options": [
               {
                 "id": "o1",
-                "text": "interprétation"
+                "text": "Bienvenue dans notre podcast sur les relations."
               },
               {
                 "id": "o2",
-                "text": "immédiatement"
+                "text": "Aujourd’hui, nous parlons des désaccords."
               },
               {
                 "id": "o3",
-                "text": "Aujourd’hui"
+                "text": "Un conflit commence souvent par une interprétation différente : une personne pense ne pas être écoutée, tandis que l’autre croit avoir été claire."
               },
               {
                 "id": "o4",
-                "text": "jamais"
+                "text": "On peut dire : « Je suis déçu que tu aies changé le projet sans me prévenir », plutôt que : « Tu ne respectes jamais personne. » Il est également utile que chacun explique ce dont il a besoin."
               }
             ]
           }
@@ -54248,42 +54248,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complète ce détail de l’audio.\n\n“Bienvenue dans notre podcast sur les _____.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Quand un désaccord devient utile » ? “Bienvenue dans notre…”",
         "options": [
-          "relations",
-          "interprétation",
-          "immédiatement",
-          "tandis"
+          "Bienvenue dans notre podcast sur les relations.",
+          "Aujourd’hui, nous parlons des désaccords.",
+          "Un conflit commence souvent par une interprétation différente : une personne pense ne pas être écoutée, tandis que l’autre croit avoir été claire.",
+          "Cela me dérange que certaines discussions deviennent immédiatement une compétition."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel mot complète la phrase entendue ?\n\n“Pour trouver un _____, il faut d’abord décrire les faits sans accuser.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Quand un désaccord devient utile » ? “Pour trouver un compromis…”",
         "options": [
-          "interprétation",
-          "compromis",
-          "immédiatement",
-          "tandis"
+          "Bienvenue dans notre podcast sur les relations.",
+          "Pour trouver un compromis, il faut d’abord décrire les faits sans accuser.",
+          "Aujourd’hui, nous parlons des désaccords.",
+          "Un conflit commence souvent par une interprétation différente : une personne pense ne pas être écoutée, tandis que l’autre croit avoir été claire."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“L’objectif n’est pas de prouver que l’un a raison et que _____ a tort, mais de chercher une solution acceptable.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Quand un désaccord devient utile » ? “L’objectif n’est pas de prouver que l’un…”",
         "options": [
-          "interprétation",
-          "immédiatement",
-          "l’autre",
-          "Aujourd’hui"
+          "Bienvenue dans notre podcast sur les relations.",
+          "Aujourd’hui, nous parlons des désaccords.",
+          "L’objectif n’est pas de prouver que l’un a raison et que l’autre a tort, mais de chercher une solution acceptable.",
+          "Un conflit commence souvent par une interprétation différente : une personne pense ne pas être écoutée, tandis que l’autre croit avoir été claire."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“On peut dire : « Je suis déçu que tu aies changé le projet sans me prévenir », plutôt que : « Tu ne respectes _____ personne. » Il est également utile que chacun explique ce dont il a besoin.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Quand un désaccord devient utile » ? “On peut dire Je suis déçu que…”",
         "options": [
-          "interprétation",
-          "immédiatement",
-          "Aujourd’hui",
-          "jamais"
+          "Bienvenue dans notre podcast sur les relations.",
+          "Aujourd’hui, nous parlons des désaccords.",
+          "Un conflit commence souvent par une interprétation différente : une personne pense ne pas être écoutée, tandis que l’autre croit avoir été claire.",
+          "On peut dire : « Je suis déçu que tu aies changé le projet sans me prévenir », plutôt que : « Tu ne respectes jamais personne. » Il est également utile que chacun explique ce dont il a besoin."
         ]
       }
     ]
@@ -54397,92 +54397,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complète ce détail de l’audio.\n\n“Dans une région côtière, des habitants, des scientifiques et des pêcheurs ont créé un partenariat pour restaurer la _____.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Une coalition pour restaurer la mangrove » ? “Dans une région côtière des habitants des…”",
             "options": [
               {
                 "id": "o1",
-                "text": "mangrove"
+                "text": "Dans une région côtière, des habitants, des scientifiques et des pêcheurs ont créé un partenariat pour restaurer la mangrove."
               },
               {
                 "id": "o2",
-                "text": "scientifiques"
+                "text": "Cet écosystème protège les côtes, abrite une biodiversité remarquable et contribue à la reproduction de nombreuses espèces."
               },
               {
                 "id": "o3",
-                "text": "constructions"
+                "text": "Pourtant, plusieurs zones ont été endommagées par les déchets et les constructions."
               },
               {
                 "id": "o4",
-                "text": "participation"
+                "text": "Les citoyens ont lancé une pétition afin que les autorités limitent les nouveaux projets près du rivage."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel mot complète la phrase entendue ?\n\n“Les _____ ont lancé une pétition afin que les autorités limitent les nouveaux projets près du rivage.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Une coalition pour restaurer la mangrove » ? “Les citoyens ont lancé une pétition…”",
             "options": [
               {
                 "id": "o1",
-                "text": "scientifiques"
+                "text": "Dans une région côtière, des habitants, des scientifiques et des pêcheurs ont créé un partenariat pour restaurer la mangrove."
               },
               {
                 "id": "o2",
-                "text": "citoyens"
+                "text": "Les citoyens ont lancé une pétition afin que les autorités limitent les nouveaux projets près du rivage."
               },
               {
                 "id": "o3",
-                "text": "constructions"
+                "text": "Cet écosystème protège les côtes, abrite une biodiversité remarquable et contribue à la reproduction de nombreuses espèces."
               },
               {
                 "id": "o4",
-                "text": "participation"
+                "text": "Pourtant, plusieurs zones ont été endommagées par les déchets et les constructions."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Certains responsables ne pensent pas que les _____ locales suffisent, car les pressions économiques restent importantes.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Une coalition pour restaurer la mangrove » ? “Certains responsables ne pensent pas que…”",
             "options": [
               {
                 "id": "o1",
-                "text": "scientifiques"
+                "text": "Dans une région côtière, des habitants, des scientifiques et des pêcheurs ont créé un partenariat pour restaurer la mangrove."
               },
               {
                 "id": "o2",
-                "text": "constructions"
+                "text": "Cet écosystème protège les côtes, abrite une biodiversité remarquable et contribue à la reproduction de nombreuses espèces."
               },
               {
                 "id": "o3",
-                "text": "actions"
+                "text": "Certains responsables ne pensent pas que les actions locales suffisent, car les pressions économiques restent importantes."
               },
               {
                 "id": "o4",
-                "text": "participation"
+                "text": "Pourtant, plusieurs zones ont été endommagées par les déchets et les constructions."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Le projet ne consiste donc pas seulement à planter des arbres : il _____ à construire un équilibre entre protection de la biodiversité, activité économique et participation des habitants.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Une coalition pour restaurer la mangrove » ? “Le projet ne consiste donc pas seulement…”",
             "options": [
               {
                 "id": "o1",
-                "text": "scientifiques"
+                "text": "Dans une région côtière, des habitants, des scientifiques et des pêcheurs ont créé un partenariat pour restaurer la mangrove."
               },
               {
                 "id": "o2",
-                "text": "constructions"
+                "text": "Cet écosystème protège les côtes, abrite une biodiversité remarquable et contribue à la reproduction de nombreuses espèces."
               },
               {
                 "id": "o3",
-                "text": "participation"
+                "text": "Pourtant, plusieurs zones ont été endommagées par les déchets et les constructions."
               },
               {
                 "id": "o4",
-                "text": "cherche"
+                "text": "Le projet ne consiste donc pas seulement à planter des arbres : il cherche à construire un équilibre entre protection de la biodiversité, activité économique et participation des habitants."
               }
             ]
           }
@@ -54493,42 +54493,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complète ce détail de l’audio.\n\n“Dans une région côtière, des habitants, des scientifiques et des pêcheurs ont créé un partenariat pour restaurer la _____.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Une coalition pour restaurer la mangrove » ? “Dans une région côtière des habitants des…”",
         "options": [
-          "mangrove",
-          "scientifiques",
-          "constructions",
-          "participation"
+          "Dans une région côtière, des habitants, des scientifiques et des pêcheurs ont créé un partenariat pour restaurer la mangrove.",
+          "Cet écosystème protège les côtes, abrite une biodiversité remarquable et contribue à la reproduction de nombreuses espèces.",
+          "Pourtant, plusieurs zones ont été endommagées par les déchets et les constructions.",
+          "Les citoyens ont lancé une pétition afin que les autorités limitent les nouveaux projets près du rivage."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel mot complète la phrase entendue ?\n\n“Les _____ ont lancé une pétition afin que les autorités limitent les nouveaux projets près du rivage.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Une coalition pour restaurer la mangrove » ? “Les citoyens ont lancé une pétition…”",
         "options": [
-          "scientifiques",
-          "citoyens",
-          "constructions",
-          "participation"
+          "Dans une région côtière, des habitants, des scientifiques et des pêcheurs ont créé un partenariat pour restaurer la mangrove.",
+          "Les citoyens ont lancé une pétition afin que les autorités limitent les nouveaux projets près du rivage.",
+          "Cet écosystème protège les côtes, abrite une biodiversité remarquable et contribue à la reproduction de nombreuses espèces.",
+          "Pourtant, plusieurs zones ont été endommagées par les déchets et les constructions."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Certains responsables ne pensent pas que les _____ locales suffisent, car les pressions économiques restent importantes.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Une coalition pour restaurer la mangrove » ? “Certains responsables ne pensent pas que…”",
         "options": [
-          "scientifiques",
-          "constructions",
-          "actions",
-          "participation"
+          "Dans une région côtière, des habitants, des scientifiques et des pêcheurs ont créé un partenariat pour restaurer la mangrove.",
+          "Cet écosystème protège les côtes, abrite une biodiversité remarquable et contribue à la reproduction de nombreuses espèces.",
+          "Certains responsables ne pensent pas que les actions locales suffisent, car les pressions économiques restent importantes.",
+          "Pourtant, plusieurs zones ont été endommagées par les déchets et les constructions."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Le projet ne consiste donc pas seulement à planter des arbres : il _____ à construire un équilibre entre protection de la biodiversité, activité économique et participation des habitants.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Une coalition pour restaurer la mangrove » ? “Le projet ne consiste donc pas seulement…”",
         "options": [
-          "scientifiques",
-          "constructions",
-          "participation",
-          "cherche"
+          "Dans une région côtière, des habitants, des scientifiques et des pêcheurs ont créé un partenariat pour restaurer la mangrove.",
+          "Cet écosystème protège les côtes, abrite une biodiversité remarquable et contribue à la reproduction de nombreuses espèces.",
+          "Pourtant, plusieurs zones ont été endommagées par les déchets et les constructions.",
+          "Le projet ne consiste donc pas seulement à planter des arbres : il cherche à construire un équilibre entre protection de la biodiversité, activité économique et participation des habitants."
         ]
       }
     ]
@@ -58861,92 +58861,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complète ce détail de l’audio.\n\n“Samedi après-midi, Camila va dans un magasin avec _____.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « La tenue de Camila » ? “Samedi après-midi Camila…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Léa"
+                "text": "Samedi après-midi, Camila va dans un magasin avec Léa."
               },
               {
                 "id": "o2",
-                "text": "confortables"
+                "text": "Elle cherche une tenue pour la fête de l’école."
               },
               {
                 "id": "o3",
-                "text": "après-midi"
+                "text": "Elle regarde un pantalon noir, une robe violette et des chaussures blanches."
               },
               {
                 "id": "o4",
-                "text": "chaussures"
+                "text": "Cette robe lui plaît beaucoup, mais elle est un peu chère."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel mot complète la phrase entendue ?\n\n“Camila _____ à la vendeuse : « Combien coûte cette robe ? »”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « La tenue de Camila » ? “Camila demande à…”",
             "options": [
               {
                 "id": "o1",
-                "text": "confortables"
+                "text": "Samedi après-midi, Camila va dans un magasin avec Léa."
               },
               {
                 "id": "o2",
-                "text": "demande"
+                "text": "Camila demande à la vendeuse : « Combien coûte cette robe ? »"
               },
               {
                 "id": "o3",
-                "text": "après-midi"
+                "text": "Elle cherche une tenue pour la fête de l’école."
               },
               {
                 "id": "o4",
-                "text": "fête"
+                "text": "Elle regarde un pantalon noir, une robe violette et des chaussures blanches."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“La robe est à sa _____ et les chaussures sont confortables.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « La tenue de Camila » ? “La robe est à…”",
             "options": [
               {
                 "id": "o1",
-                "text": "confortables"
+                "text": "Samedi après-midi, Camila va dans un magasin avec Léa."
               },
               {
                 "id": "o2",
-                "text": "après-midi"
+                "text": "Elle cherche une tenue pour la fête de l’école."
               },
               {
                 "id": "o3",
-                "text": "taille"
+                "text": "La robe est à sa taille et les chaussures sont confortables."
               },
               {
                 "id": "o4",
-                "text": "chaussures"
+                "text": "Elle regarde un pantalon noir, une robe violette et des chaussures blanches."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Camila demande à la vendeuse : « Combien coûte cette robe ? » La vendeuse _____ : « Elle coûte trente euros. » Camila essaie la robe et les chaussures.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « La tenue de Camila » ? “Camila demande à la vendeuse Combien coûte…”",
             "options": [
               {
                 "id": "o1",
-                "text": "confortables"
+                "text": "Samedi après-midi, Camila va dans un magasin avec Léa."
               },
               {
                 "id": "o2",
-                "text": "après-midi"
+                "text": "Elle cherche une tenue pour la fête de l’école."
               },
               {
                 "id": "o3",
-                "text": "chaussures"
+                "text": "Elle regarde un pantalon noir, une robe violette et des chaussures blanches."
               },
               {
                 "id": "o4",
-                "text": "répond"
+                "text": "Camila demande à la vendeuse : « Combien coûte cette robe ? » La vendeuse répond : « Elle coûte trente euros. » Camila essaie la robe et les chaussures."
               }
             ]
           }
@@ -58957,42 +58957,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complète ce détail de l’audio.\n\n“Samedi après-midi, Camila va dans un magasin avec _____.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « La tenue de Camila » ? “Samedi après-midi Camila…”",
         "options": [
-          "Léa",
-          "confortables",
-          "après-midi",
-          "chaussures"
+          "Samedi après-midi, Camila va dans un magasin avec Léa.",
+          "Elle cherche une tenue pour la fête de l’école.",
+          "Elle regarde un pantalon noir, une robe violette et des chaussures blanches.",
+          "Cette robe lui plaît beaucoup, mais elle est un peu chère."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel mot complète la phrase entendue ?\n\n“Camila _____ à la vendeuse : « Combien coûte cette robe ? »”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « La tenue de Camila » ? “Camila demande à…”",
         "options": [
-          "confortables",
-          "demande",
-          "après-midi",
-          "fête"
+          "Samedi après-midi, Camila va dans un magasin avec Léa.",
+          "Camila demande à la vendeuse : « Combien coûte cette robe ? »",
+          "Elle cherche une tenue pour la fête de l’école.",
+          "Elle regarde un pantalon noir, une robe violette et des chaussures blanches."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“La robe est à sa _____ et les chaussures sont confortables.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « La tenue de Camila » ? “La robe est à…”",
         "options": [
-          "confortables",
-          "après-midi",
-          "taille",
-          "chaussures"
+          "Samedi après-midi, Camila va dans un magasin avec Léa.",
+          "Elle cherche une tenue pour la fête de l’école.",
+          "La robe est à sa taille et les chaussures sont confortables.",
+          "Elle regarde un pantalon noir, une robe violette et des chaussures blanches."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Camila demande à la vendeuse : « Combien coûte cette robe ? » La vendeuse _____ : « Elle coûte trente euros. » Camila essaie la robe et les chaussures.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « La tenue de Camila » ? “Camila demande à la vendeuse Combien coûte…”",
         "options": [
-          "confortables",
-          "après-midi",
-          "chaussures",
-          "répond"
+          "Samedi après-midi, Camila va dans un magasin avec Léa.",
+          "Elle cherche une tenue pour la fête de l’école.",
+          "Elle regarde un pantalon noir, une robe violette et des chaussures blanches.",
+          "Camila demande à la vendeuse : « Combien coûte cette robe ? » La vendeuse répond : « Elle coûte trente euros. » Camila essaie la robe et les chaussures."
         ]
       }
     ]
@@ -59091,92 +59091,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complète ce détail de l’audio.\n\n“_____.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Information de la mairie » ? “Bonjour…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Bonjour"
+                "text": "Bonjour."
               },
               {
                 "id": "o2",
-                "text": "justificatif"
+                "text": "La mairie vous informe que les cartes municipales vont être renouvelées à partir de lundi."
               },
               {
                 "id": "o3",
-                "text": "l’après-midi"
+                "text": "Pour effectuer cette démarche, il faut remplir un formulaire et apporter une pièce d’identité ainsi qu’un justificatif de domicile récent."
               },
               {
                 "id": "o4",
-                "text": "municipales"
+                "text": "Vous pouvez télécharger le formulaire sur le site de la ville et y accéder depuis votre espace personnel."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel mot complète la phrase entendue ?\n\n“Vous pouvez _____ le formulaire sur le site de la ville et y accéder depuis votre espace personnel.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Information de la mairie » ? “Vous pouvez télécharger le formulaire sur…”",
             "options": [
               {
                 "id": "o1",
-                "text": "démarche"
+                "text": "Bonjour."
               },
               {
                 "id": "o2",
-                "text": "télécharger"
+                "text": "Vous pouvez télécharger le formulaire sur le site de la ville et y accéder depuis votre espace personnel."
               },
               {
                 "id": "o3",
-                "text": "apporter"
+                "text": "La mairie vous informe que les cartes municipales vont être renouvelées à partir de lundi."
               },
               {
                 "id": "o4",
-                "text": "domicile"
+                "text": "Pour effectuer cette démarche, il faut remplir un formulaire et apporter une pièce d’identité ainsi qu’un justificatif de domicile récent."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Le matin, vous pouvez venir sans _____.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Information de la mairie » ? “Le matin vous…”",
             "options": [
               {
                 "id": "o1",
-                "text": "démarche"
+                "text": "Bonjour."
               },
               {
                 "id": "o2",
-                "text": "apporter"
+                "text": "La mairie vous informe que les cartes municipales vont être renouvelées à partir de lundi."
               },
               {
                 "id": "o3",
-                "text": "rendez-vous"
+                "text": "Le matin, vous pouvez venir sans rendez-vous."
               },
               {
                 "id": "o4",
-                "text": "domicile"
+                "text": "Pour effectuer cette démarche, il faut remplir un formulaire et apporter une pièce d’identité ainsi qu’un justificatif de domicile récent."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Pour toute _____, contactez le service des cartes municipales.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Information de la mairie » ? “Pour toute question…”",
             "options": [
               {
                 "id": "o1",
-                "text": "justificatif"
+                "text": "Bonjour."
               },
               {
                 "id": "o2",
-                "text": "l’après-midi"
+                "text": "La mairie vous informe que les cartes municipales vont être renouvelées à partir de lundi."
               },
               {
                 "id": "o3",
-                "text": "municipales"
+                "text": "Pour effectuer cette démarche, il faut remplir un formulaire et apporter une pièce d’identité ainsi qu’un justificatif de domicile récent."
               },
               {
                 "id": "o4",
-                "text": "question"
+                "text": "Pour toute question, contactez le service des cartes municipales."
               }
             ]
           }
@@ -59187,42 +59187,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complète ce détail de l’audio.\n\n“_____.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Information de la mairie » ? “Bonjour…”",
         "options": [
-          "Bonjour",
-          "justificatif",
-          "l’après-midi",
-          "municipales"
+          "Bonjour.",
+          "La mairie vous informe que les cartes municipales vont être renouvelées à partir de lundi.",
+          "Pour effectuer cette démarche, il faut remplir un formulaire et apporter une pièce d’identité ainsi qu’un justificatif de domicile récent.",
+          "Vous pouvez télécharger le formulaire sur le site de la ville et y accéder depuis votre espace personnel."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel mot complète la phrase entendue ?\n\n“Vous pouvez _____ le formulaire sur le site de la ville et y accéder depuis votre espace personnel.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Information de la mairie » ? “Vous pouvez télécharger le formulaire sur…”",
         "options": [
-          "démarche",
-          "télécharger",
-          "apporter",
-          "domicile"
+          "Bonjour.",
+          "Vous pouvez télécharger le formulaire sur le site de la ville et y accéder depuis votre espace personnel.",
+          "La mairie vous informe que les cartes municipales vont être renouvelées à partir de lundi.",
+          "Pour effectuer cette démarche, il faut remplir un formulaire et apporter une pièce d’identité ainsi qu’un justificatif de domicile récent."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Le matin, vous pouvez venir sans _____.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Information de la mairie » ? “Le matin vous…”",
         "options": [
-          "démarche",
-          "apporter",
-          "rendez-vous",
-          "domicile"
+          "Bonjour.",
+          "La mairie vous informe que les cartes municipales vont être renouvelées à partir de lundi.",
+          "Le matin, vous pouvez venir sans rendez-vous.",
+          "Pour effectuer cette démarche, il faut remplir un formulaire et apporter une pièce d’identité ainsi qu’un justificatif de domicile récent."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Pour toute _____, contactez le service des cartes municipales.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Information de la mairie » ? “Pour toute question…”",
         "options": [
-          "justificatif",
-          "l’après-midi",
-          "municipales",
-          "question"
+          "Bonjour.",
+          "La mairie vous informe que les cartes municipales vont être renouvelées à partir de lundi.",
+          "Pour effectuer cette démarche, il faut remplir un formulaire et apporter une pièce d’identité ainsi qu’un justificatif de domicile récent.",
+          "Pour toute question, contactez le service des cartes municipales."
         ]
       }
     ]
@@ -59337,92 +59337,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complète ce détail de l’audio.\n\n“Plus de dix millions de personnes ont participé au programme Erasmus+ depuis sa création en 1987, et chaque année un nombre croissant d’étudiants français en fin de licence reçoivent, par ce biais ou par des accords bilatéraux comme celui qui lie certaines universités françaises à des établissements québécois, des propositions de mobilité internationale — master ou stage — au moment précis où leur réseau amical et professionnel local devient enfin _____.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Portrait : La proposition de Montréal » ? “Plus de dix millions de personnes ont…”",
             "options": [
               {
                 "id": "o1",
-                "text": "solide"
+                "text": "Plus de dix millions de personnes ont participé au programme Erasmus+ depuis sa création en 1987, et chaque année un nombre croissant d’étudiants français en fin de licence reçoivent, par ce biais ou par des accords bilatéraux comme celui qui lie certaines universités françaises à des établissements québécois, des propositions de mobilité internationale — master ou stage — au moment précis où leur réseau amical et professionnel local devient enfin solide."
               },
               {
                 "id": "o2",
-                "text": "établissements"
+                "text": "Les conseillers d’orientation universitaire observent que ce type de décision revient fréquemment dans leurs consultations : accepter signifie recommencer ailleurs ; refuser peut fermer une voie qui ne se représentera pas facilement."
               },
               {
                 "id": "o3",
-                "text": "internationale"
+                "text": "Six notions permettent de suivre le raisonnement : une voie, une unité de comparaison, irréversible, révisable, dramatiser et assumer une incertitude."
               },
               {
                 "id": "o4",
-                "text": "professionnel"
+                "text": "Elles ne constituent pas une simple liste : chacune éclaire une étape, une tension ou une conséquence du problème."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel mot complète la phrase entendue ?\n\n“Six _____ permettent de suivre le raisonnement : une voie, une unité de comparaison, irréversible, révisable, dramatiser et assumer une incertitude.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Portrait : La proposition de Montréal » ? “Six notions permettent de suivre le raisonnement…”",
             "options": [
               {
                 "id": "o1",
-                "text": "établissements"
+                "text": "Plus de dix millions de personnes ont participé au programme Erasmus+ depuis sa création en 1987, et chaque année un nombre croissant d’étudiants français en fin de licence reçoivent, par ce biais ou par des accords bilatéraux comme celui qui lie certaines universités françaises à des établissements québécois, des propositions de mobilité internationale — master ou stage — au moment précis où leur réseau amical et professionnel local devient enfin solide."
               },
               {
                 "id": "o2",
-                "text": "notions"
+                "text": "Six notions permettent de suivre le raisonnement : une voie, une unité de comparaison, irréversible, révisable, dramatiser et assumer une incertitude."
               },
               {
                 "id": "o3",
-                "text": "internationale"
+                "text": "Les conseillers d’orientation universitaire observent que ce type de décision revient fréquemment dans leurs consultations : accepter signifie recommencer ailleurs ; refuser peut fermer une voie qui ne se représentera pas facilement."
               },
               {
                 "id": "o4",
-                "text": "professionnel"
+                "text": "Elles ne constituent pas une simple liste : chacune éclaire une étape, une tension ou une conséquence du problème."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Lorsque l’étudiante aura comparé _____ voie, elle aura mieux distingué ce qui est révisable de ce qui paraît irréversible.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Portrait : La proposition de Montréal » ? “Lorsque l’étudiante aura comparé chaque voie elle…”",
             "options": [
               {
                 "id": "o1",
-                "text": "établissements"
+                "text": "Plus de dix millions de personnes ont participé au programme Erasmus+ depuis sa création en 1987, et chaque année un nombre croissant d’étudiants français en fin de licence reçoivent, par ce biais ou par des accords bilatéraux comme celui qui lie certaines universités françaises à des établissements québécois, des propositions de mobilité internationale — master ou stage — au moment précis où leur réseau amical et professionnel local devient enfin solide."
               },
               {
                 "id": "o2",
-                "text": "internationale"
+                "text": "Les conseillers d’orientation universitaire observent que ce type de décision revient fréquemment dans leurs consultations : accepter signifie recommencer ailleurs ; refuser peut fermer une voie qui ne se représentera pas facilement."
               },
               {
                 "id": "o3",
-                "text": "chaque"
+                "text": "Lorsque l’étudiante aura comparé chaque voie, elle aura mieux distingué ce qui est révisable de ce qui paraît irréversible."
               },
               {
                 "id": "o4",
-                "text": "professionnel"
+                "text": "Six notions permettent de suivre le raisonnement : une voie, une unité de comparaison, irréversible, révisable, dramatiser et assumer une incertitude."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Portrait : La proposition de Montréal » ? “Ce cadre permet enfin…”",
             "options": [
               {
                 "id": "o1",
-                "text": "établissements"
+                "text": "Plus de dix millions de personnes ont participé au programme Erasmus+ depuis sa création en 1987, et chaque année un nombre croissant d’étudiants français en fin de licence reçoivent, par ce biais ou par des accords bilatéraux comme celui qui lie certaines universités françaises à des établissements québécois, des propositions de mobilité internationale — master ou stage — au moment précis où leur réseau amical et professionnel local devient enfin solide."
               },
               {
                 "id": "o2",
-                "text": "internationale"
+                "text": "Les conseillers d’orientation universitaire observent que ce type de décision revient fréquemment dans leurs consultations : accepter signifie recommencer ailleurs ; refuser peut fermer une voie qui ne se représentera pas facilement."
               },
               {
                 "id": "o3",
-                "text": "professionnel"
+                "text": "Six notions permettent de suivre le raisonnement : une voie, une unité de comparaison, irréversible, révisable, dramatiser et assumer une incertitude."
               },
               {
                 "id": "o4",
-                "text": "relier"
+                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
               }
             ]
           }
@@ -59433,42 +59433,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complète ce détail de l’audio.\n\n“Plus de dix millions de personnes ont participé au programme Erasmus+ depuis sa création en 1987, et chaque année un nombre croissant d’étudiants français en fin de licence reçoivent, par ce biais ou par des accords bilatéraux comme celui qui lie certaines universités françaises à des établissements québécois, des propositions de mobilité internationale — master ou stage — au moment précis où leur réseau amical et professionnel local devient enfin _____.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Portrait : La proposition de Montréal » ? “Plus de dix millions de personnes ont…”",
         "options": [
-          "solide",
-          "établissements",
-          "internationale",
-          "professionnel"
+          "Plus de dix millions de personnes ont participé au programme Erasmus+ depuis sa création en 1987, et chaque année un nombre croissant d’étudiants français en fin de licence reçoivent, par ce biais ou par des accords bilatéraux comme celui qui lie certaines universités françaises à des établissements québécois, des propositions de mobilité internationale — master ou stage — au moment précis où leur réseau amical et professionnel local devient enfin solide.",
+          "Les conseillers d’orientation universitaire observent que ce type de décision revient fréquemment dans leurs consultations : accepter signifie recommencer ailleurs ; refuser peut fermer une voie qui ne se représentera pas facilement.",
+          "Six notions permettent de suivre le raisonnement : une voie, une unité de comparaison, irréversible, révisable, dramatiser et assumer une incertitude.",
+          "Elles ne constituent pas une simple liste : chacune éclaire une étape, une tension ou une conséquence du problème."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel mot complète la phrase entendue ?\n\n“Six _____ permettent de suivre le raisonnement : une voie, une unité de comparaison, irréversible, révisable, dramatiser et assumer une incertitude.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Portrait : La proposition de Montréal » ? “Six notions permettent de suivre le raisonnement…”",
         "options": [
-          "établissements",
-          "notions",
-          "internationale",
-          "professionnel"
+          "Plus de dix millions de personnes ont participé au programme Erasmus+ depuis sa création en 1987, et chaque année un nombre croissant d’étudiants français en fin de licence reçoivent, par ce biais ou par des accords bilatéraux comme celui qui lie certaines universités françaises à des établissements québécois, des propositions de mobilité internationale — master ou stage — au moment précis où leur réseau amical et professionnel local devient enfin solide.",
+          "Six notions permettent de suivre le raisonnement : une voie, une unité de comparaison, irréversible, révisable, dramatiser et assumer une incertitude.",
+          "Les conseillers d’orientation universitaire observent que ce type de décision revient fréquemment dans leurs consultations : accepter signifie recommencer ailleurs ; refuser peut fermer une voie qui ne se représentera pas facilement.",
+          "Elles ne constituent pas une simple liste : chacune éclaire une étape, une tension ou une conséquence du problème."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Lorsque l’étudiante aura comparé _____ voie, elle aura mieux distingué ce qui est révisable de ce qui paraît irréversible.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Portrait : La proposition de Montréal » ? “Lorsque l’étudiante aura comparé chaque voie elle…”",
         "options": [
-          "établissements",
-          "internationale",
-          "chaque",
-          "professionnel"
+          "Plus de dix millions de personnes ont participé au programme Erasmus+ depuis sa création en 1987, et chaque année un nombre croissant d’étudiants français en fin de licence reçoivent, par ce biais ou par des accords bilatéraux comme celui qui lie certaines universités françaises à des établissements québécois, des propositions de mobilité internationale — master ou stage — au moment précis où leur réseau amical et professionnel local devient enfin solide.",
+          "Les conseillers d’orientation universitaire observent que ce type de décision revient fréquemment dans leurs consultations : accepter signifie recommencer ailleurs ; refuser peut fermer une voie qui ne se représentera pas facilement.",
+          "Lorsque l’étudiante aura comparé chaque voie, elle aura mieux distingué ce qui est révisable de ce qui paraît irréversible.",
+          "Six notions permettent de suivre le raisonnement : une voie, une unité de comparaison, irréversible, révisable, dramatiser et assumer une incertitude."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Portrait : La proposition de Montréal » ? “Ce cadre permet enfin…”",
         "options": [
-          "établissements",
-          "internationale",
-          "professionnel",
-          "relier"
+          "Plus de dix millions de personnes ont participé au programme Erasmus+ depuis sa création en 1987, et chaque année un nombre croissant d’étudiants français en fin de licence reçoivent, par ce biais ou par des accords bilatéraux comme celui qui lie certaines universités françaises à des établissements québécois, des propositions de mobilité internationale — master ou stage — au moment précis où leur réseau amical et professionnel local devient enfin solide.",
+          "Les conseillers d’orientation universitaire observent que ce type de décision revient fréquemment dans leurs consultations : accepter signifie recommencer ailleurs ; refuser peut fermer une voie qui ne se représentera pas facilement.",
+          "Six notions permettent de suivre le raisonnement : une voie, une unité de comparaison, irréversible, révisable, dramatiser et assumer une incertitude.",
+          "Ce cadre permet enfin de relier les faits à une décision argumentée."
         ]
       }
     ]
@@ -59603,92 +59603,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complète ce détail de l’audio.\n\n“Une toile se vend à un prix record, tandis que la plupart des artistes vivants peinent à en tirer un revenu _____.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Portrait : Le marché de l’art fabrique-t-il la valeur artistique ? » ? “Une toile se vend à un prix…”",
             "options": [
               {
                 "id": "o1",
-                "text": "suffisant"
+                "text": "Une toile se vend à un prix record, tandis que la plupart des artistes vivants peinent à en tirer un revenu suffisant."
               },
               {
                 "id": "o2",
-                "text": "interchangeables"
+                "text": "La question « Le marché de l’art fabrique-t-il la valeur artistique ? » occupe une place centrale dans l’analyse contemporaine."
               },
               {
                 "id": "o3",
-                "text": "institutionnelle"
+                "text": "Le rapport annuel Art Basel et UBS constate régulièrement des ventes record pour un nombre restreint d’artistes contemporains déjà consacrés, tandis que la grande majorité des artistes vivants peinent à vivre de leur production, un contraste qui interroge le lien entre reconnaissance marchande et valeur artistique effectivement reconnue par la critique et les institutions."
               },
               {
                 "id": "o4",
-                "text": "financiarisation"
+                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel mot complète la phrase entendue ?\n\n“Une _____ sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Portrait : Le marché de l’art fabrique-t-il la valeur artistique ? » ? “Une réponse sérieuse doit distinguer ce que…”",
             "options": [
               {
                 "id": "o1",
-                "text": "interchangeables"
+                "text": "Une toile se vend à un prix record, tandis que la plupart des artistes vivants peinent à en tirer un revenu suffisant."
               },
               {
                 "id": "o2",
-                "text": "réponse"
+                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
               },
               {
                 "id": "o3",
-                "text": "institutionnelle"
+                "text": "La question « Le marché de l’art fabrique-t-il la valeur artistique ? » occupe une place centrale dans l’analyse contemporaine."
               },
               {
                 "id": "o4",
-                "text": "financiarisation"
+                "text": "Le rapport annuel Art Basel et UBS constate régulièrement des ventes record pour un nombre restreint d’artistes contemporains déjà consacrés, tandis que la grande majorité des artistes vivants peinent à vivre de leur production, un contraste qui interroge le lien entre reconnaissance marchande et valeur artistique effectivement reconnue par la critique et les institutions."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Les trois légitimations — critique, _____ et marchande — convergeant sur un même artiste, elles produisent un effet cumulatif difficile à inverser.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Portrait : Le marché de l’art fabrique-t-il la valeur artistique ? » ? “Les trois légitimations critique institutionnelle et marchande…”",
             "options": [
               {
                 "id": "o1",
-                "text": "fabrique-t-il"
+                "text": "Une toile se vend à un prix record, tandis que la plupart des artistes vivants peinent à en tirer un revenu suffisant."
               },
               {
                 "id": "o2",
-                "text": "contemporaine"
+                "text": "La question « Le marché de l’art fabrique-t-il la valeur artistique ? » occupe une place centrale dans l’analyse contemporaine."
               },
               {
                 "id": "o3",
-                "text": "institutionnelle"
+                "text": "Les trois légitimations — critique, institutionnelle et marchande — convergeant sur un même artiste, elles produisent un effet cumulatif difficile à inverser."
               },
               {
                 "id": "o4",
-                "text": "régulièrement"
+                "text": "Le rapport annuel Art Basel et UBS constate régulièrement des ventes record pour un nombre restreint d’artistes contemporains déjà consacrés, tandis que la grande majorité des artistes vivants peinent à vivre de leur production, un contraste qui interroge le lien entre reconnaissance marchande et valeur artistique effectivement reconnue par la critique et les institutions."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Portrait : Le marché de l’art fabrique-t-il la valeur artistique ? » ? “Ce cadre permet enfin…”",
             "options": [
               {
                 "id": "o1",
-                "text": "interchangeables"
+                "text": "Une toile se vend à un prix record, tandis que la plupart des artistes vivants peinent à en tirer un revenu suffisant."
               },
               {
                 "id": "o2",
-                "text": "institutionnelle"
+                "text": "La question « Le marché de l’art fabrique-t-il la valeur artistique ? » occupe une place centrale dans l’analyse contemporaine."
               },
               {
                 "id": "o3",
-                "text": "financiarisation"
+                "text": "Le rapport annuel Art Basel et UBS constate régulièrement des ventes record pour un nombre restreint d’artistes contemporains déjà consacrés, tandis que la grande majorité des artistes vivants peinent à vivre de leur production, un contraste qui interroge le lien entre reconnaissance marchande et valeur artistique effectivement reconnue par la critique et les institutions."
               },
               {
                 "id": "o4",
-                "text": "relier"
+                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
               }
             ]
           }
@@ -59699,42 +59699,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complète ce détail de l’audio.\n\n“Une toile se vend à un prix record, tandis que la plupart des artistes vivants peinent à en tirer un revenu _____.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Portrait : Le marché de l’art fabrique-t-il la valeur artistique ? » ? “Une toile se vend à un prix…”",
         "options": [
-          "suffisant",
-          "interchangeables",
-          "institutionnelle",
-          "financiarisation"
+          "Une toile se vend à un prix record, tandis que la plupart des artistes vivants peinent à en tirer un revenu suffisant.",
+          "La question « Le marché de l’art fabrique-t-il la valeur artistique ? » occupe une place centrale dans l’analyse contemporaine.",
+          "Le rapport annuel Art Basel et UBS constate régulièrement des ventes record pour un nombre restreint d’artistes contemporains déjà consacrés, tandis que la grande majorité des artistes vivants peinent à vivre de leur production, un contraste qui interroge le lien entre reconnaissance marchande et valeur artistique effectivement reconnue par la critique et les institutions.",
+          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel mot complète la phrase entendue ?\n\n“Une _____ sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Portrait : Le marché de l’art fabrique-t-il la valeur artistique ? » ? “Une réponse sérieuse doit distinguer ce que…”",
         "options": [
-          "interchangeables",
-          "réponse",
-          "institutionnelle",
-          "financiarisation"
+          "Une toile se vend à un prix record, tandis que la plupart des artistes vivants peinent à en tirer un revenu suffisant.",
+          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.",
+          "La question « Le marché de l’art fabrique-t-il la valeur artistique ? » occupe une place centrale dans l’analyse contemporaine.",
+          "Le rapport annuel Art Basel et UBS constate régulièrement des ventes record pour un nombre restreint d’artistes contemporains déjà consacrés, tandis que la grande majorité des artistes vivants peinent à vivre de leur production, un contraste qui interroge le lien entre reconnaissance marchande et valeur artistique effectivement reconnue par la critique et les institutions."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Les trois légitimations — critique, _____ et marchande — convergeant sur un même artiste, elles produisent un effet cumulatif difficile à inverser.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Portrait : Le marché de l’art fabrique-t-il la valeur artistique ? » ? “Les trois légitimations critique institutionnelle et marchande…”",
         "options": [
-          "fabrique-t-il",
-          "contemporaine",
-          "institutionnelle",
-          "régulièrement"
+          "Une toile se vend à un prix record, tandis que la plupart des artistes vivants peinent à en tirer un revenu suffisant.",
+          "La question « Le marché de l’art fabrique-t-il la valeur artistique ? » occupe une place centrale dans l’analyse contemporaine.",
+          "Les trois légitimations — critique, institutionnelle et marchande — convergeant sur un même artiste, elles produisent un effet cumulatif difficile à inverser.",
+          "Le rapport annuel Art Basel et UBS constate régulièrement des ventes record pour un nombre restreint d’artistes contemporains déjà consacrés, tandis que la grande majorité des artistes vivants peinent à vivre de leur production, un contraste qui interroge le lien entre reconnaissance marchande et valeur artistique effectivement reconnue par la critique et les institutions."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Portrait : Le marché de l’art fabrique-t-il la valeur artistique ? » ? “Ce cadre permet enfin…”",
         "options": [
-          "interchangeables",
-          "institutionnelle",
-          "financiarisation",
-          "relier"
+          "Une toile se vend à un prix record, tandis que la plupart des artistes vivants peinent à en tirer un revenu suffisant.",
+          "La question « Le marché de l’art fabrique-t-il la valeur artistique ? » occupe une place centrale dans l’analyse contemporaine.",
+          "Le rapport annuel Art Basel et UBS constate régulièrement des ventes record pour un nombre restreint d’artistes contemporains déjà consacrés, tandis que la grande majorité des artistes vivants peinent à vivre de leur production, un contraste qui interroge le lien entre reconnaissance marchande et valeur artistique effectivement reconnue par la critique et les institutions.",
+          "Ce cadre permet enfin de relier les faits à une décision argumentée."
         ]
       }
     ]
@@ -59858,92 +59858,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complète ce détail de l’audio.\n\n“Mireille crée des œuvres qui mélangent peinture, textile et enregistrements _____.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Le portrait sonore de Mireille » ? “Mireille crée des œuvres…”",
             "options": [
               {
                 "id": "o1",
-                "text": "sonores"
+                "text": "Mireille crée des œuvres qui mélangent peinture, textile et enregistrements sonores."
               },
               {
                 "id": "o2",
-                "text": "enregistrements"
+                "text": "Son processus créatif commence rarement dans un atelier."
               },
               {
                 "id": "o3",
-                "text": "interprétations"
+                "text": "Elle se promène, observe les couleurs d’un marché, écoute les conversations et collecte des matières ordinaires."
               },
               {
                 "id": "o4",
-                "text": "conversations"
+                "text": "Depuis quelques années, elle s’inspire de plus en plus des récits de migration de son quartier."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel mot complète la phrase entendue ?\n\n“Sa préparation _____ de moins en moins solitaire : elle invite des habitants à raconter un souvenir, puis transforme certains mots en motifs visuels.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Le portrait sonore de Mireille » ? “Sa préparation devient de moins en moins…”",
             "options": [
               {
                 "id": "o1",
-                "text": "enregistrements"
+                "text": "Mireille crée des œuvres qui mélangent peinture, textile et enregistrements sonores."
               },
               {
                 "id": "o2",
-                "text": "devient"
+                "text": "Sa préparation devient de moins en moins solitaire : elle invite des habitants à raconter un souvenir, puis transforme certains mots en motifs visuels."
               },
               {
                 "id": "o3",
-                "text": "interprétations"
+                "text": "Son processus créatif commence rarement dans un atelier."
               },
               {
                 "id": "o4",
-                "text": "conversations"
+                "text": "Elle se promène, observe les couleurs d’un marché, écoute les conversations et collecte des matières ordinaires."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Mireille affirme que le public _____ aussi au processus.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Le portrait sonore de Mireille » ? “Mireille affirme que…”",
             "options": [
               {
                 "id": "o1",
-                "text": "enregistrements"
+                "text": "Mireille crée des œuvres qui mélangent peinture, textile et enregistrements sonores."
               },
               {
                 "id": "o2",
-                "text": "interprétations"
+                "text": "Son processus créatif commence rarement dans un atelier."
               },
               {
                 "id": "o3",
-                "text": "participe"
+                "text": "Mireille affirme que le public participe aussi au processus."
               },
               {
                 "id": "o4",
-                "text": "conversations"
+                "text": "Elle se promène, observe les couleurs d’un marché, écoute les conversations et collecte des matières ordinaires."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Elle considère cette ouverture non comme une faiblesse, mais comme la partie la plus vivante de sa _____.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Le portrait sonore de Mireille » ? “Elle considère cette ouverture non comme…”",
             "options": [
               {
                 "id": "o1",
-                "text": "enregistrements"
+                "text": "Mireille crée des œuvres qui mélangent peinture, textile et enregistrements sonores."
               },
               {
                 "id": "o2",
-                "text": "interprétations"
+                "text": "Son processus créatif commence rarement dans un atelier."
               },
               {
                 "id": "o3",
-                "text": "conversations"
+                "text": "Elle se promène, observe les couleurs d’un marché, écoute les conversations et collecte des matières ordinaires."
               },
               {
                 "id": "o4",
-                "text": "création"
+                "text": "Elle considère cette ouverture non comme une faiblesse, mais comme la partie la plus vivante de sa création."
               }
             ]
           }
@@ -59954,42 +59954,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complète ce détail de l’audio.\n\n“Mireille crée des œuvres qui mélangent peinture, textile et enregistrements _____.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Le portrait sonore de Mireille » ? “Mireille crée des œuvres…”",
         "options": [
-          "sonores",
-          "enregistrements",
-          "interprétations",
-          "conversations"
+          "Mireille crée des œuvres qui mélangent peinture, textile et enregistrements sonores.",
+          "Son processus créatif commence rarement dans un atelier.",
+          "Elle se promène, observe les couleurs d’un marché, écoute les conversations et collecte des matières ordinaires.",
+          "Depuis quelques années, elle s’inspire de plus en plus des récits de migration de son quartier."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel mot complète la phrase entendue ?\n\n“Sa préparation _____ de moins en moins solitaire : elle invite des habitants à raconter un souvenir, puis transforme certains mots en motifs visuels.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Le portrait sonore de Mireille » ? “Sa préparation devient de moins en moins…”",
         "options": [
-          "enregistrements",
-          "devient",
-          "interprétations",
-          "conversations"
+          "Mireille crée des œuvres qui mélangent peinture, textile et enregistrements sonores.",
+          "Sa préparation devient de moins en moins solitaire : elle invite des habitants à raconter un souvenir, puis transforme certains mots en motifs visuels.",
+          "Son processus créatif commence rarement dans un atelier.",
+          "Elle se promène, observe les couleurs d’un marché, écoute les conversations et collecte des matières ordinaires."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Mireille affirme que le public _____ aussi au processus.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Le portrait sonore de Mireille » ? “Mireille affirme que…”",
         "options": [
-          "enregistrements",
-          "interprétations",
-          "participe",
-          "conversations"
+          "Mireille crée des œuvres qui mélangent peinture, textile et enregistrements sonores.",
+          "Son processus créatif commence rarement dans un atelier.",
+          "Mireille affirme que le public participe aussi au processus.",
+          "Elle se promène, observe les couleurs d’un marché, écoute les conversations et collecte des matières ordinaires."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Elle considère cette ouverture non comme une faiblesse, mais comme la partie la plus vivante de sa _____.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Le portrait sonore de Mireille » ? “Elle considère cette ouverture non comme…”",
         "options": [
-          "enregistrements",
-          "interprétations",
-          "conversations",
-          "création"
+          "Mireille crée des œuvres qui mélangent peinture, textile et enregistrements sonores.",
+          "Son processus créatif commence rarement dans un atelier.",
+          "Elle se promène, observe les couleurs d’un marché, écoute les conversations et collecte des matières ordinaires.",
+          "Elle considère cette ouverture non comme une faiblesse, mais comme la partie la plus vivante de sa création."
         ]
       }
     ]
@@ -63730,92 +63730,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complète ce détail de l’audio.\n\n“Vendredi soir, la famille Lambert prépare un voyage à _____.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Le week-end à Paris » ? “Vendredi soir la famille…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Paris"
+                "text": "Vendredi soir, la famille Lambert prépare un voyage à Paris."
               },
               {
                 "id": "o2",
-                "text": "inoubliable"
+                "text": "Camila regarde la météo : samedi matin, il va faire froid et il va pleuvoir."
               },
               {
                 "id": "o3",
-                "text": "parapluie"
+                "text": "Elle met donc un manteau et un parapluie dans son sac."
               },
               {
                 "id": "o4",
-                "text": "reprendre"
+                "text": "Le train va partir de la gare de Tours à huit heures et va arriver à Paris avant midi."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel mot complète la phrase entendue ?\n\n“Le train va partir de la gare de _____ à huit heures et va arriver à Paris avant midi.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Le week-end à Paris » ? “Le train va partir de la gare…”",
             "options": [
               {
                 "id": "o1",
-                "text": "inoubliable"
+                "text": "Vendredi soir, la famille Lambert prépare un voyage à Paris."
               },
               {
                 "id": "o2",
-                "text": "Tours"
+                "text": "Le train va partir de la gare de Tours à huit heures et va arriver à Paris avant midi."
               },
               {
                 "id": "o3",
-                "text": "parapluie"
+                "text": "Camila regarde la météo : samedi matin, il va faire froid et il va pleuvoir."
               },
               {
                 "id": "o4",
-                "text": "reprendre"
+                "text": "Elle met donc un manteau et un parapluie dans son sac."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Dimanche, il va faire beau et il y aura du _____.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Le week-end à Paris » ? “Dimanche il va faire…”",
             "options": [
               {
                 "id": "o1",
-                "text": "inoubliable"
+                "text": "Vendredi soir, la famille Lambert prépare un voyage à Paris."
               },
               {
                 "id": "o2",
-                "text": "met"
+                "text": "Camila regarde la météo : samedi matin, il va faire froid et il va pleuvoir."
               },
               {
                 "id": "o3",
-                "text": "soleil"
+                "text": "Dimanche, il va faire beau et il y aura du soleil."
               },
               {
                 "id": "o4",
-                "text": "parapluie"
+                "text": "Elle met donc un manteau et un parapluie dans son sac."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Camila pense que ce voyage va être _____.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Le week-end à Paris » ? “Camila pense que…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Vendredi"
+                "text": "Vendredi soir, la famille Lambert prépare un voyage à Paris."
               },
               {
                 "id": "o2",
-                "text": "pleuvoir"
+                "text": "Camila regarde la météo : samedi matin, il va faire froid et il va pleuvoir."
               },
               {
                 "id": "o3",
-                "text": "Dimanche"
+                "text": "Elle met donc un manteau et un parapluie dans son sac."
               },
               {
                 "id": "o4",
-                "text": "inoubliable"
+                "text": "Camila pense que ce voyage va être inoubliable."
               }
             ]
           }
@@ -63826,42 +63826,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complète ce détail de l’audio.\n\n“Vendredi soir, la famille Lambert prépare un voyage à _____.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Le week-end à Paris » ? “Vendredi soir la famille…”",
         "options": [
-          "Paris",
-          "inoubliable",
-          "parapluie",
-          "reprendre"
+          "Vendredi soir, la famille Lambert prépare un voyage à Paris.",
+          "Camila regarde la météo : samedi matin, il va faire froid et il va pleuvoir.",
+          "Elle met donc un manteau et un parapluie dans son sac.",
+          "Le train va partir de la gare de Tours à huit heures et va arriver à Paris avant midi."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel mot complète la phrase entendue ?\n\n“Le train va partir de la gare de _____ à huit heures et va arriver à Paris avant midi.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Le week-end à Paris » ? “Le train va partir de la gare…”",
         "options": [
-          "inoubliable",
-          "Tours",
-          "parapluie",
-          "reprendre"
+          "Vendredi soir, la famille Lambert prépare un voyage à Paris.",
+          "Le train va partir de la gare de Tours à huit heures et va arriver à Paris avant midi.",
+          "Camila regarde la météo : samedi matin, il va faire froid et il va pleuvoir.",
+          "Elle met donc un manteau et un parapluie dans son sac."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Dimanche, il va faire beau et il y aura du _____.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Le week-end à Paris » ? “Dimanche il va faire…”",
         "options": [
-          "inoubliable",
-          "met",
-          "soleil",
-          "parapluie"
+          "Vendredi soir, la famille Lambert prépare un voyage à Paris.",
+          "Camila regarde la météo : samedi matin, il va faire froid et il va pleuvoir.",
+          "Dimanche, il va faire beau et il y aura du soleil.",
+          "Elle met donc un manteau et un parapluie dans son sac."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Camila pense que ce voyage va être _____.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Le week-end à Paris » ? “Camila pense que…”",
         "options": [
-          "Vendredi",
-          "pleuvoir",
-          "Dimanche",
-          "inoubliable"
+          "Vendredi soir, la famille Lambert prépare un voyage à Paris.",
+          "Camila regarde la météo : samedi matin, il va faire froid et il va pleuvoir.",
+          "Elle met donc un manteau et un parapluie dans son sac.",
+          "Camila pense que ce voyage va être inoubliable."
         ]
       }
     ]
@@ -63955,92 +63955,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complète ce détail de l’audio.\n\n“Bonjour à _____ et à tous.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Appel aux bénévoles » ? “Bonjour à toutes…”",
             "options": [
               {
                 "id": "o1",
-                "text": "toutes"
+                "text": "Bonjour à toutes et à tous."
               },
               {
                 "id": "o2",
-                "text": "L’association"
+                "text": "L’association du quartier organise une collecte solidaire samedi prochain au centre culturel."
               },
               {
                 "id": "o3",
-                "text": "pourriez-vous"
+                "text": "Nous recherchons des vêtements chauds, des livres, des cahiers et du matériel scolaire en bon état."
               },
               {
                 "id": "o4",
-                "text": "participation"
+                "text": "Vous pourriez apporter vos dons entre neuf heures et quinze heures."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel mot complète la phrase entendue ?\n\n“Vous pourriez _____ vos dons entre neuf heures et quinze heures.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Appel aux bénévoles » ? “Vous pourriez apporter vos…”",
             "options": [
               {
                 "id": "o1",
-                "text": "L’association"
+                "text": "Bonjour à toutes et à tous."
               },
               {
                 "id": "o2",
-                "text": "apporter"
+                "text": "Vous pourriez apporter vos dons entre neuf heures et quinze heures."
               },
               {
                 "id": "o3",
-                "text": "pourriez-vous"
+                "text": "L’association du quartier organise une collecte solidaire samedi prochain au centre culturel."
               },
               {
                 "id": "o4",
-                "text": "participation"
+                "text": "Nous recherchons des vêtements chauds, des livres, des cahiers et du matériel scolaire en bon état."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Si vous souhaitez aider, pourriez-vous vous inscrire avant jeudi sur notre site ou par _____ ?”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Appel aux bénévoles » ? “Si vous souhaitez aider pourriez-vous…”",
             "options": [
               {
                 "id": "o1",
-                "text": "L’association"
+                "text": "Bonjour à toutes et à tous."
               },
               {
                 "id": "o2",
-                "text": "pourriez-vous"
+                "text": "L’association du quartier organise une collecte solidaire samedi prochain au centre culturel."
               },
               {
                 "id": "o3",
-                "text": "téléphone"
+                "text": "Si vous souhaitez aider, pourriez-vous vous inscrire avant jeudi sur notre site ou par téléphone ?"
               },
               {
                 "id": "o4",
-                "text": "participation"
+                "text": "Nous recherchons des vêtements chauds, des livres, des cahiers et du matériel scolaire en bon état."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Merci de votre participation et rendez-vous samedi au centre _____.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Appel aux bénévoles » ? “Merci de votre participation…”",
             "options": [
               {
                 "id": "o1",
-                "text": "L’association"
+                "text": "Bonjour à toutes et à tous."
               },
               {
                 "id": "o2",
-                "text": "pourriez-vous"
+                "text": "L’association du quartier organise une collecte solidaire samedi prochain au centre culturel."
               },
               {
                 "id": "o3",
-                "text": "participation"
+                "text": "Nous recherchons des vêtements chauds, des livres, des cahiers et du matériel scolaire en bon état."
               },
               {
                 "id": "o4",
-                "text": "culturel"
+                "text": "Merci de votre participation et rendez-vous samedi au centre culturel."
               }
             ]
           }
@@ -64051,42 +64051,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complète ce détail de l’audio.\n\n“Bonjour à _____ et à tous.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Appel aux bénévoles » ? “Bonjour à toutes…”",
         "options": [
-          "toutes",
-          "L’association",
-          "pourriez-vous",
-          "participation"
+          "Bonjour à toutes et à tous.",
+          "L’association du quartier organise une collecte solidaire samedi prochain au centre culturel.",
+          "Nous recherchons des vêtements chauds, des livres, des cahiers et du matériel scolaire en bon état.",
+          "Vous pourriez apporter vos dons entre neuf heures et quinze heures."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel mot complète la phrase entendue ?\n\n“Vous pourriez _____ vos dons entre neuf heures et quinze heures.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Appel aux bénévoles » ? “Vous pourriez apporter vos…”",
         "options": [
-          "L’association",
-          "apporter",
-          "pourriez-vous",
-          "participation"
+          "Bonjour à toutes et à tous.",
+          "Vous pourriez apporter vos dons entre neuf heures et quinze heures.",
+          "L’association du quartier organise une collecte solidaire samedi prochain au centre culturel.",
+          "Nous recherchons des vêtements chauds, des livres, des cahiers et du matériel scolaire en bon état."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Si vous souhaitez aider, pourriez-vous vous inscrire avant jeudi sur notre site ou par _____ ?”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Appel aux bénévoles » ? “Si vous souhaitez aider pourriez-vous…”",
         "options": [
-          "L’association",
-          "pourriez-vous",
-          "téléphone",
-          "participation"
+          "Bonjour à toutes et à tous.",
+          "L’association du quartier organise une collecte solidaire samedi prochain au centre culturel.",
+          "Si vous souhaitez aider, pourriez-vous vous inscrire avant jeudi sur notre site ou par téléphone ?",
+          "Nous recherchons des vêtements chauds, des livres, des cahiers et du matériel scolaire en bon état."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Merci de votre participation et rendez-vous samedi au centre _____.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Appel aux bénévoles » ? “Merci de votre participation…”",
         "options": [
-          "L’association",
-          "pourriez-vous",
-          "participation",
-          "culturel"
+          "Bonjour à toutes et à tous.",
+          "L’association du quartier organise une collecte solidaire samedi prochain au centre culturel.",
+          "Nous recherchons des vêtements chauds, des livres, des cahiers et du matériel scolaire en bon état.",
+          "Merci de votre participation et rendez-vous samedi au centre culturel."
         ]
       }
     ]
@@ -64206,92 +64206,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complète ce détail de l’audio.\n\n“Selon l’agence Campus France, plus de quatre cent mille étudiants internationaux ont été accueillis dans l’enseignement supérieur français lors d’une récente année universitaire — un chiffre en constante progression, qui explique la multiplication, dans de nombreuses universités, d’ateliers animés par d’anciens étudiants mobiles à destination des nouveaux _____.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Synthèse : Ce qu’un parcours d’intégration donne à transmettre » ? “Selon l’agence Campus France plus de quatre…”",
             "options": [
               {
                 "id": "o1",
-                "text": "arrivants"
+                "text": "Selon l’agence Campus France, plus de quatre cent mille étudiants internationaux ont été accueillis dans l’enseignement supérieur français lors d’une récente année universitaire — un chiffre en constante progression, qui explique la multiplication, dans de nombreuses universités, d’ateliers animés par d’anciens étudiants mobiles à destination des nouveaux arrivants."
               },
               {
                 "id": "o2",
-                "text": "l’administration"
+                "text": "Ces intervenants hésitent fréquemment devant le titre proposé par l’administration : « Réussir son intégration »."
               },
               {
                 "id": "o3",
-                "text": "internationaux"
+                "text": "Le mot réussite suggère un parcours mesurable et presque uniforme, alors que l’expérience de la mobilité internationale est le plus souvent faite d’avancées, de retours en arrière et de liens qui ne se laissent pas réduire à une méthode."
               },
               {
                 "id": "o4",
-                "text": "l’enseignement"
+                "text": "Six notions permettent de suivre le raisonnement : un parcours uniforme, un retour en arrière, un code implicite, dégager une idée, une manière de regarder et reproduire un chemin."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel mot complète la phrase entendue ?\n\n“Le mot réussite _____ un parcours mesurable et presque uniforme, alors que l’expérience de la mobilité internationale est le plus souvent faite d’avancées, de retours en arrière et de liens qui ne se laissent pas réduire à une méthode.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Synthèse : Ce qu’un parcours d’intégration donne à transmettre » ? “Le mot réussite suggère un parcours mesurable…”",
             "options": [
               {
                 "id": "o1",
-                "text": "l’administration"
+                "text": "Selon l’agence Campus France, plus de quatre cent mille étudiants internationaux ont été accueillis dans l’enseignement supérieur français lors d’une récente année universitaire — un chiffre en constante progression, qui explique la multiplication, dans de nombreuses universités, d’ateliers animés par d’anciens étudiants mobiles à destination des nouveaux arrivants."
               },
               {
                 "id": "o2",
-                "text": "suggère"
+                "text": "Le mot réussite suggère un parcours mesurable et presque uniforme, alors que l’expérience de la mobilité internationale est le plus souvent faite d’avancées, de retours en arrière et de liens qui ne se laissent pas réduire à une méthode."
               },
               {
                 "id": "o3",
-                "text": "internationaux"
+                "text": "Ces intervenants hésitent fréquemment devant le titre proposé par l’administration : « Réussir son intégration »."
               },
               {
                 "id": "o4",
-                "text": "l’enseignement"
+                "text": "Six notions permettent de suivre le raisonnement : un parcours uniforme, un retour en arrière, un code implicite, dégager une idée, une manière de regarder et reproduire un chemin."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Une ancienne étudiante _____ relit son parcours, puis elle en dégage une idée : celui-ci n’a jamais été uniforme.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Synthèse : Ce qu’un parcours d’intégration donne à transmettre » ? “Une ancienne étudiante mobile relit son…”",
             "options": [
               {
                 "id": "o1",
-                "text": "l’administration"
+                "text": "Selon l’agence Campus France, plus de quatre cent mille étudiants internationaux ont été accueillis dans l’enseignement supérieur français lors d’une récente année universitaire — un chiffre en constante progression, qui explique la multiplication, dans de nombreuses universités, d’ateliers animés par d’anciens étudiants mobiles à destination des nouveaux arrivants."
               },
               {
                 "id": "o2",
-                "text": "internationaux"
+                "text": "Ces intervenants hésitent fréquemment devant le titre proposé par l’administration : « Réussir son intégration »."
               },
               {
                 "id": "o3",
-                "text": "mobile"
+                "text": "Une ancienne étudiante mobile relit son parcours, puis elle en dégage une idée : celui-ci n’a jamais été uniforme."
               },
               {
                 "id": "o4",
-                "text": "l’enseignement"
+                "text": "Le mot réussite suggère un parcours mesurable et presque uniforme, alors que l’expérience de la mobilité internationale est le plus souvent faite d’avancées, de retours en arrière et de liens qui ne se laissent pas réduire à une méthode."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Synthèse : Ce qu’un parcours d’intégration donne à transmettre » ? “Ce cadre permet enfin…”",
             "options": [
               {
                 "id": "o1",
-                "text": "l’administration"
+                "text": "Selon l’agence Campus France, plus de quatre cent mille étudiants internationaux ont été accueillis dans l’enseignement supérieur français lors d’une récente année universitaire — un chiffre en constante progression, qui explique la multiplication, dans de nombreuses universités, d’ateliers animés par d’anciens étudiants mobiles à destination des nouveaux arrivants."
               },
               {
                 "id": "o2",
-                "text": "internationaux"
+                "text": "Ces intervenants hésitent fréquemment devant le titre proposé par l’administration : « Réussir son intégration »."
               },
               {
                 "id": "o3",
-                "text": "l’enseignement"
+                "text": "Le mot réussite suggère un parcours mesurable et presque uniforme, alors que l’expérience de la mobilité internationale est le plus souvent faite d’avancées, de retours en arrière et de liens qui ne se laissent pas réduire à une méthode."
               },
               {
                 "id": "o4",
-                "text": "relier"
+                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
               }
             ]
           }
@@ -64302,42 +64302,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complète ce détail de l’audio.\n\n“Selon l’agence Campus France, plus de quatre cent mille étudiants internationaux ont été accueillis dans l’enseignement supérieur français lors d’une récente année universitaire — un chiffre en constante progression, qui explique la multiplication, dans de nombreuses universités, d’ateliers animés par d’anciens étudiants mobiles à destination des nouveaux _____.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Synthèse : Ce qu’un parcours d’intégration donne à transmettre » ? “Selon l’agence Campus France plus de quatre…”",
         "options": [
-          "arrivants",
-          "l’administration",
-          "internationaux",
-          "l’enseignement"
+          "Selon l’agence Campus France, plus de quatre cent mille étudiants internationaux ont été accueillis dans l’enseignement supérieur français lors d’une récente année universitaire — un chiffre en constante progression, qui explique la multiplication, dans de nombreuses universités, d’ateliers animés par d’anciens étudiants mobiles à destination des nouveaux arrivants.",
+          "Ces intervenants hésitent fréquemment devant le titre proposé par l’administration : « Réussir son intégration ».",
+          "Le mot réussite suggère un parcours mesurable et presque uniforme, alors que l’expérience de la mobilité internationale est le plus souvent faite d’avancées, de retours en arrière et de liens qui ne se laissent pas réduire à une méthode.",
+          "Six notions permettent de suivre le raisonnement : un parcours uniforme, un retour en arrière, un code implicite, dégager une idée, une manière de regarder et reproduire un chemin."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel mot complète la phrase entendue ?\n\n“Le mot réussite _____ un parcours mesurable et presque uniforme, alors que l’expérience de la mobilité internationale est le plus souvent faite d’avancées, de retours en arrière et de liens qui ne se laissent pas réduire à une méthode.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Synthèse : Ce qu’un parcours d’intégration donne à transmettre » ? “Le mot réussite suggère un parcours mesurable…”",
         "options": [
-          "l’administration",
-          "suggère",
-          "internationaux",
-          "l’enseignement"
+          "Selon l’agence Campus France, plus de quatre cent mille étudiants internationaux ont été accueillis dans l’enseignement supérieur français lors d’une récente année universitaire — un chiffre en constante progression, qui explique la multiplication, dans de nombreuses universités, d’ateliers animés par d’anciens étudiants mobiles à destination des nouveaux arrivants.",
+          "Le mot réussite suggère un parcours mesurable et presque uniforme, alors que l’expérience de la mobilité internationale est le plus souvent faite d’avancées, de retours en arrière et de liens qui ne se laissent pas réduire à une méthode.",
+          "Ces intervenants hésitent fréquemment devant le titre proposé par l’administration : « Réussir son intégration ».",
+          "Six notions permettent de suivre le raisonnement : un parcours uniforme, un retour en arrière, un code implicite, dégager une idée, une manière de regarder et reproduire un chemin."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Une ancienne étudiante _____ relit son parcours, puis elle en dégage une idée : celui-ci n’a jamais été uniforme.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Synthèse : Ce qu’un parcours d’intégration donne à transmettre » ? “Une ancienne étudiante mobile relit son…”",
         "options": [
-          "l’administration",
-          "internationaux",
-          "mobile",
-          "l’enseignement"
+          "Selon l’agence Campus France, plus de quatre cent mille étudiants internationaux ont été accueillis dans l’enseignement supérieur français lors d’une récente année universitaire — un chiffre en constante progression, qui explique la multiplication, dans de nombreuses universités, d’ateliers animés par d’anciens étudiants mobiles à destination des nouveaux arrivants.",
+          "Ces intervenants hésitent fréquemment devant le titre proposé par l’administration : « Réussir son intégration ».",
+          "Une ancienne étudiante mobile relit son parcours, puis elle en dégage une idée : celui-ci n’a jamais été uniforme.",
+          "Le mot réussite suggère un parcours mesurable et presque uniforme, alors que l’expérience de la mobilité internationale est le plus souvent faite d’avancées, de retours en arrière et de liens qui ne se laissent pas réduire à une méthode."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Synthèse : Ce qu’un parcours d’intégration donne à transmettre » ? “Ce cadre permet enfin…”",
         "options": [
-          "l’administration",
-          "internationaux",
-          "l’enseignement",
-          "relier"
+          "Selon l’agence Campus France, plus de quatre cent mille étudiants internationaux ont été accueillis dans l’enseignement supérieur français lors d’une récente année universitaire — un chiffre en constante progression, qui explique la multiplication, dans de nombreuses universités, d’ateliers animés par d’anciens étudiants mobiles à destination des nouveaux arrivants.",
+          "Ces intervenants hésitent fréquemment devant le titre proposé par l’administration : « Réussir son intégration ».",
+          "Le mot réussite suggère un parcours mesurable et presque uniforme, alors que l’expérience de la mobilité internationale est le plus souvent faite d’avancées, de retours en arrière et de liens qui ne se laissent pas réduire à une méthode.",
+          "Ce cadre permet enfin de relier les faits à une décision argumentée."
         ]
       }
     ]
@@ -64472,92 +64472,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complète ce détail de l’audio.\n\n“Un algorithme paraît neutre parce qu’il calcule ; pourtant chaque variable qu’il retient _____ déjà un choix qui ne l’est pas.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Synthèse : Un algorithme peut-il être neutre ? » ? “Un algorithme paraît neutre parce qu’il calcule…”",
             "options": [
               {
                 "id": "o1",
-                "text": "traduit"
+                "text": "Un algorithme paraît neutre parce qu’il calcule ; pourtant chaque variable qu’il retient traduit déjà un choix qui ne l’est pas."
               },
               {
                 "id": "o2",
-                "text": "conséquentialisme"
+                "text": "La question « Un algorithme peut-il être neutre ? » occupe une place centrale dans l’analyse contemporaine."
               },
               {
                 "id": "o3",
-                "text": "interchangeables"
+                "text": "Le règlement européen sur l’intelligence artificielle, entré progressivement en application depuis 2024, part du principe que certains systèmes algorithmiques présentent un risque suffisant pour justifier une régulation spécifique, ce qui suppose implicitement qu’un algorithme n’est jamais un simple instrument technique neutre, mais un dispositif porteur de choix normatifs souvent invisibles à ses utilisateurs."
               },
               {
                 "id": "o4",
-                "text": "progressivement"
+                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel mot complète la phrase entendue ?\n\n“Une _____ sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Synthèse : Un algorithme peut-il être neutre ? » ? “Une réponse sérieuse doit distinguer ce que…”",
             "options": [
               {
                 "id": "o1",
-                "text": "conséquentialisme"
+                "text": "Un algorithme paraît neutre parce qu’il calcule ; pourtant chaque variable qu’il retient traduit déjà un choix qui ne l’est pas."
               },
               {
                 "id": "o2",
-                "text": "réponse"
+                "text": "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
               },
               {
                 "id": "o3",
-                "text": "interchangeables"
+                "text": "La question « Un algorithme peut-il être neutre ? » occupe une place centrale dans l’analyse contemporaine."
               },
               {
                 "id": "o4",
-                "text": "progressivement"
+                "text": "Le règlement européen sur l’intelligence artificielle, entré progressivement en application depuis 2024, part du principe que certains systèmes algorithmiques présentent un risque suffisant pour justifier une régulation spécifique, ce qui suppose implicitement qu’un algorithme n’est jamais un simple instrument technique neutre, mais un dispositif porteur de choix normatifs souvent invisibles à ses utilisateurs."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Il se pourrait qu’un système paraisse _____ alors même qu’il encoderait une hiérarchie de valeurs à travers le choix d’un simple proxy.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Synthèse : Un algorithme peut-il être neutre ? » ? “Il se pourrait qu’un système paraisse neutre…”",
             "options": [
               {
                 "id": "o1",
-                "text": "conséquentialisme"
+                "text": "Un algorithme paraît neutre parce qu’il calcule ; pourtant chaque variable qu’il retient traduit déjà un choix qui ne l’est pas."
               },
               {
                 "id": "o2",
-                "text": "interchangeables"
+                "text": "La question « Un algorithme peut-il être neutre ? » occupe une place centrale dans l’analyse contemporaine."
               },
               {
                 "id": "o3",
-                "text": "neutre"
+                "text": "Il se pourrait qu’un système paraisse neutre alors même qu’il encoderait une hiérarchie de valeurs à travers le choix d’un simple proxy."
               },
               {
                 "id": "o4",
-                "text": "progressivement"
+                "text": "Le règlement européen sur l’intelligence artificielle, entré progressivement en application depuis 2024, part du principe que certains systèmes algorithmiques présentent un risque suffisant pour justifier une régulation spécifique, ce qui suppose implicitement qu’un algorithme n’est jamais un simple instrument technique neutre, mais un dispositif porteur de choix normatifs souvent invisibles à ses utilisateurs."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Synthèse : Un algorithme peut-il être neutre ? » ? “Ce cadre permet enfin…”",
             "options": [
               {
                 "id": "o1",
-                "text": "conséquentialisme"
+                "text": "Un algorithme paraît neutre parce qu’il calcule ; pourtant chaque variable qu’il retient traduit déjà un choix qui ne l’est pas."
               },
               {
                 "id": "o2",
-                "text": "interchangeables"
+                "text": "La question « Un algorithme peut-il être neutre ? » occupe une place centrale dans l’analyse contemporaine."
               },
               {
                 "id": "o3",
-                "text": "progressivement"
+                "text": "Le règlement européen sur l’intelligence artificielle, entré progressivement en application depuis 2024, part du principe que certains systèmes algorithmiques présentent un risque suffisant pour justifier une régulation spécifique, ce qui suppose implicitement qu’un algorithme n’est jamais un simple instrument technique neutre, mais un dispositif porteur de choix normatifs souvent invisibles à ses utilisateurs."
               },
               {
                 "id": "o4",
-                "text": "relier"
+                "text": "Ce cadre permet enfin de relier les faits à une décision argumentée."
               }
             ]
           }
@@ -64568,42 +64568,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complète ce détail de l’audio.\n\n“Un algorithme paraît neutre parce qu’il calcule ; pourtant chaque variable qu’il retient _____ déjà un choix qui ne l’est pas.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Synthèse : Un algorithme peut-il être neutre ? » ? “Un algorithme paraît neutre parce qu’il calcule…”",
         "options": [
-          "traduit",
-          "conséquentialisme",
-          "interchangeables",
-          "progressivement"
+          "Un algorithme paraît neutre parce qu’il calcule ; pourtant chaque variable qu’il retient traduit déjà un choix qui ne l’est pas.",
+          "La question « Un algorithme peut-il être neutre ? » occupe une place centrale dans l’analyse contemporaine.",
+          "Le règlement européen sur l’intelligence artificielle, entré progressivement en application depuis 2024, part du principe que certains systèmes algorithmiques présentent un risque suffisant pour justifier une régulation spécifique, ce qui suppose implicitement qu’un algorithme n’est jamais un simple instrument technique neutre, mais un dispositif porteur de choix normatifs souvent invisibles à ses utilisateurs.",
+          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel mot complète la phrase entendue ?\n\n“Une _____ sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Synthèse : Un algorithme peut-il être neutre ? » ? “Une réponse sérieuse doit distinguer ce que…”",
         "options": [
-          "conséquentialisme",
-          "réponse",
-          "interchangeables",
-          "progressivement"
+          "Un algorithme paraît neutre parce qu’il calcule ; pourtant chaque variable qu’il retient traduit déjà un choix qui ne l’est pas.",
+          "Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et l’implication concrète que l’on souhaite en tirer.",
+          "La question « Un algorithme peut-il être neutre ? » occupe une place centrale dans l’analyse contemporaine.",
+          "Le règlement européen sur l’intelligence artificielle, entré progressivement en application depuis 2024, part du principe que certains systèmes algorithmiques présentent un risque suffisant pour justifier une régulation spécifique, ce qui suppose implicitement qu’un algorithme n’est jamais un simple instrument technique neutre, mais un dispositif porteur de choix normatifs souvent invisibles à ses utilisateurs."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Il se pourrait qu’un système paraisse _____ alors même qu’il encoderait une hiérarchie de valeurs à travers le choix d’un simple proxy.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Synthèse : Un algorithme peut-il être neutre ? » ? “Il se pourrait qu’un système paraisse neutre…”",
         "options": [
-          "conséquentialisme",
-          "interchangeables",
-          "neutre",
-          "progressivement"
+          "Un algorithme paraît neutre parce qu’il calcule ; pourtant chaque variable qu’il retient traduit déjà un choix qui ne l’est pas.",
+          "La question « Un algorithme peut-il être neutre ? » occupe une place centrale dans l’analyse contemporaine.",
+          "Il se pourrait qu’un système paraisse neutre alors même qu’il encoderait une hiérarchie de valeurs à travers le choix d’un simple proxy.",
+          "Le règlement européen sur l’intelligence artificielle, entré progressivement en application depuis 2024, part du principe que certains systèmes algorithmiques présentent un risque suffisant pour justifier une régulation spécifique, ce qui suppose implicitement qu’un algorithme n’est jamais un simple instrument technique neutre, mais un dispositif porteur de choix normatifs souvent invisibles à ses utilisateurs."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Ce cadre permet enfin de _____ les faits à une décision argumentée.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Synthèse : Un algorithme peut-il être neutre ? » ? “Ce cadre permet enfin…”",
         "options": [
-          "conséquentialisme",
-          "interchangeables",
-          "progressivement",
-          "relier"
+          "Un algorithme paraît neutre parce qu’il calcule ; pourtant chaque variable qu’il retient traduit déjà un choix qui ne l’est pas.",
+          "La question « Un algorithme peut-il être neutre ? » occupe une place centrale dans l’analyse contemporaine.",
+          "Le règlement européen sur l’intelligence artificielle, entré progressivement en application depuis 2024, part du principe que certains systèmes algorithmiques présentent un risque suffisant pour justifier une régulation spécifique, ce qui suppose implicitement qu’un algorithme n’est jamais un simple instrument technique neutre, mais un dispositif porteur de choix normatifs souvent invisibles à ses utilisateurs.",
+          "Ce cadre permet enfin de relier les faits à une décision argumentée."
         ]
       }
     ]
@@ -64717,92 +64717,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complète ce détail de l’audio.\n\n“Avec le recul, je mesure moins mon parcours par les résultats obtenus que par les décisions qui m’ont _____.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Avec le recul » ? “Avec le recul je mesure moins mon…”",
             "options": [
               {
                 "id": "o1",
-                "text": "transformée"
+                "text": "Avec le recul, je mesure moins mon parcours par les résultats obtenus que par les décisions qui m’ont transformée."
               },
               {
                 "id": "o2",
-                "text": "accomplissements"
+                "text": "Si je n’étais pas partie étudier ailleurs, je n’aurais probablement pas appris à vivre avec autant d’incertitude."
               },
               {
                 "id": "o3",
-                "text": "parcours"
+                "text": "J’avais imaginé que l’adaptation serait rapide ; en réalité, elle a demandé du temps, des erreurs et beaucoup de patience."
               },
               {
                 "id": "o4",
-                "text": "ailleurs"
+                "text": "Certains accomplissements sont visibles, comme un diplôme ou un projet terminé."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel mot complète la phrase entendue ?\n\n“Certains _____ sont visibles, comme un diplôme ou un projet terminé.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Avec le recul » ? “Certains accomplissements sont visibles…”",
             "options": [
               {
                 "id": "o1",
-                "text": "d’incertitude"
+                "text": "Avec le recul, je mesure moins mon parcours par les résultats obtenus que par les décisions qui m’ont transformée."
               },
               {
                 "id": "o2",
-                "text": "accomplissements"
+                "text": "Certains accomplissements sont visibles, comme un diplôme ou un projet terminé."
               },
               {
                 "id": "o3",
-                "text": "détermination"
+                "text": "Si je n’étais pas partie étudier ailleurs, je n’aurais probablement pas appris à vivre avec autant d’incertitude."
               },
               {
                 "id": "o4",
-                "text": "recul"
+                "text": "J’avais imaginé que l’adaptation serait rapide ; en réalité, elle a demandé du temps, des erreurs et beaucoup de patience."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Aujourd’hui, je suis déterminée à poursuivre mes _____, mais je ne veux plus confondre détermination et rigidité.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Avec le recul » ? “Aujourd’hui je suis déterminée à poursuivre…”",
             "options": [
               {
                 "id": "o1",
-                "text": "accomplissements"
+                "text": "Avec le recul, je mesure moins mon parcours par les résultats obtenus que par les décisions qui m’ont transformée."
               },
               {
                 "id": "o2",
-                "text": "d’incertitude"
+                "text": "Si je n’étais pas partie étudier ailleurs, je n’aurais probablement pas appris à vivre avec autant d’incertitude."
               },
               {
                 "id": "o3",
-                "text": "études"
+                "text": "Aujourd’hui, je suis déterminée à poursuivre mes études, mais je ne veux plus confondre détermination et rigidité."
               },
               {
                 "id": "o4",
-                "text": "détermination"
+                "text": "J’avais imaginé que l’adaptation serait rapide ; en réalité, elle a demandé du temps, des erreurs et beaucoup de patience."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Il ressemble plutôt à un point de départ conscient : je sais mieux ce que j’ai construit, ce qui reste _____ et la direction dans laquelle je souhaite avancer.”",
+            "prompt": "Quelle affirmation complète ce moment de l’audio « Avec le recul » ? “Il ressemble plutôt à un point de…”",
             "options": [
               {
                 "id": "o1",
-                "text": "accomplissements"
+                "text": "Avec le recul, je mesure moins mon parcours par les résultats obtenus que par les décisions qui m’ont transformée."
               },
               {
                 "id": "o2",
-                "text": "d’incertitude"
+                "text": "Si je n’étais pas partie étudier ailleurs, je n’aurais probablement pas appris à vivre avec autant d’incertitude."
               },
               {
                 "id": "o3",
-                "text": "détermination"
+                "text": "J’avais imaginé que l’adaptation serait rapide ; en réalité, elle a demandé du temps, des erreurs et beaucoup de patience."
               },
               {
                 "id": "o4",
-                "text": "fragile"
+                "text": "Il ressemble plutôt à un point de départ conscient : je sais mieux ce que j’ai construit, ce qui reste fragile et la direction dans laquelle je souhaite avancer."
               }
             ]
           }
@@ -64813,42 +64813,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complète ce détail de l’audio.\n\n“Avec le recul, je mesure moins mon parcours par les résultats obtenus que par les décisions qui m’ont _____.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Avec le recul » ? “Avec le recul je mesure moins mon…”",
         "options": [
-          "transformée",
-          "accomplissements",
-          "parcours",
-          "ailleurs"
+          "Avec le recul, je mesure moins mon parcours par les résultats obtenus que par les décisions qui m’ont transformée.",
+          "Si je n’étais pas partie étudier ailleurs, je n’aurais probablement pas appris à vivre avec autant d’incertitude.",
+          "J’avais imaginé que l’adaptation serait rapide ; en réalité, elle a demandé du temps, des erreurs et beaucoup de patience.",
+          "Certains accomplissements sont visibles, comme un diplôme ou un projet terminé."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel mot complète la phrase entendue ?\n\n“Certains _____ sont visibles, comme un diplôme ou un projet terminé.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Avec le recul » ? “Certains accomplissements sont visibles…”",
         "options": [
-          "d’incertitude",
-          "accomplissements",
-          "détermination",
-          "recul"
+          "Avec le recul, je mesure moins mon parcours par les résultats obtenus que par les décisions qui m’ont transformée.",
+          "Certains accomplissements sont visibles, comme un diplôme ou un projet terminé.",
+          "Si je n’étais pas partie étudier ailleurs, je n’aurais probablement pas appris à vivre avec autant d’incertitude.",
+          "J’avais imaginé que l’adaptation serait rapide ; en réalité, elle a demandé du temps, des erreurs et beaucoup de patience."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Choisis le mot manquant dans l’enregistrement.\n\n“Aujourd’hui, je suis déterminée à poursuivre mes _____, mais je ne veux plus confondre détermination et rigidité.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Avec le recul » ? “Aujourd’hui je suis déterminée à poursuivre…”",
         "options": [
-          "accomplissements",
-          "d’incertitude",
-          "études",
-          "détermination"
+          "Avec le recul, je mesure moins mon parcours par les résultats obtenus que par les décisions qui m’ont transformée.",
+          "Si je n’étais pas partie étudier ailleurs, je n’aurais probablement pas appris à vivre avec autant d’incertitude.",
+          "Aujourd’hui, je suis déterminée à poursuivre mes études, mais je ne veux plus confondre détermination et rigidité.",
+          "J’avais imaginé que l’adaptation serait rapide ; en réalité, elle a demandé du temps, des erreurs et beaucoup de patience."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel est le mot exact qui manque dans ce détail audio ?\n\n“Il ressemble plutôt à un point de départ conscient : je sais mieux ce que j’ai construit, ce qui reste _____ et la direction dans laquelle je souhaite avancer.”",
+        "prompt": "Quelle affirmation complète ce moment de l’audio « Avec le recul » ? “Il ressemble plutôt à un point de…”",
         "options": [
-          "accomplissements",
-          "d’incertitude",
-          "détermination",
-          "fragile"
+          "Avec le recul, je mesure moins mon parcours par les résultats obtenus que par les décisions qui m’ont transformée.",
+          "Si je n’étais pas partie étudier ailleurs, je n’aurais probablement pas appris à vivre avec autant d’incertitude.",
+          "J’avais imaginé que l’adaptation serait rapide ; en réalité, elle a demandé du temps, des erreurs et beaucoup de patience.",
+          "Il ressemble plutôt à un point de départ conscient : je sais mieux ce que j’ai construit, ce qui reste fragile et la direction dans laquelle je souhaite avancer."
         ]
       }
     ]

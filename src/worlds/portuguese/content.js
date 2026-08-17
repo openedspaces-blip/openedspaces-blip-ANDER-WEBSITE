@@ -1650,92 +1650,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Hoje, em uma conversa sobre Trabalho e planos, três colegas contam uma história que aconteceu em uma comunidade _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Trabalho e planos: palavras”? “Hoje em uma conversa sobre Trabalho e…”",
             "options": [
               {
                 "id": "o1",
-                "text": "brasileira"
+                "text": "Hoje, em uma conversa sobre Trabalho e planos, três colegas contam uma história que aconteceu em uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "compartilhados"
+                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
               },
               {
                 "id": "o3",
-                "text": "colegas"
+                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
               },
               {
                 "id": "o4",
-                "text": "pessoas"
+                "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A conversa não foi _____ fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Trabalho e planos: palavras”? “A conversa não foi sempre fácil cada…”",
             "options": [
               {
                 "id": "o1",
-                "text": "compartilhados"
+                "text": "Hoje, em uma conversa sobre Trabalho e planos, três colegas contam uma história que aconteceu em uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "sempre"
+                "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
               },
               {
                 "id": "o3",
-                "text": "trabalhadores"
+                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
               },
               {
                 "id": "o4",
-                "text": "participantes"
+                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Uma senhora que mora no bairro há muitos anos disse que se _____ respeitada por poder contar o que observa todos os dias.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Trabalho e planos: palavras”? “Uma senhora que mora no bairro há…”",
             "options": [
               {
                 "id": "o1",
-                "text": "compartilhados"
+                "text": "Hoje, em uma conversa sobre Trabalho e planos, três colegas contam uma história que aconteceu em uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "trabalhadores"
+                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
               },
               {
                 "id": "o3",
-                "text": "sentiu"
+                "text": "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias."
               },
               {
                 "id": "o4",
-                "text": "participantes"
+                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao terminar, os colegas concluíram que pequenos passos, quando são bem _____ e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Trabalho e planos: palavras”? “Ao terminar os colegas concluíram que pequenos…”",
             "options": [
               {
                 "id": "o1",
-                "text": "compartilhados"
+                "text": "Hoje, em uma conversa sobre Trabalho e planos, três colegas contam uma história que aconteceu em uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "colegas"
+                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
               },
               {
                 "id": "o3",
-                "text": "pessoas"
+                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
               },
               {
                 "id": "o4",
-                "text": "planejados"
+                "text": "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
               }
             ]
           }
@@ -1812,42 +1812,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Hoje, em uma conversa sobre Trabalho e planos, três colegas contam uma história que aconteceu em uma comunidade _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Trabalho e planos: palavras”? “Hoje em uma conversa sobre Trabalho e…”",
         "options": [
-          "brasileira",
-          "compartilhados",
-          "colegas",
-          "pessoas"
+          "Hoje, em uma conversa sobre Trabalho e planos, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
+          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
+          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes.",
+          "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A conversa não foi _____ fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Trabalho e planos: palavras”? “A conversa não foi sempre fácil cada…”",
         "options": [
-          "compartilhados",
-          "sempre",
-          "trabalhadores",
-          "participantes"
+          "Hoje, em uma conversa sobre Trabalho e planos, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
+          "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.",
+          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
+          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Uma senhora que mora no bairro há muitos anos disse que se _____ respeitada por poder contar o que observa todos os dias.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Trabalho e planos: palavras”? “Uma senhora que mora no bairro há…”",
         "options": [
-          "compartilhados",
-          "trabalhadores",
-          "sentiu",
-          "participantes"
+          "Hoje, em uma conversa sobre Trabalho e planos, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
+          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
+          "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.",
+          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao terminar, os colegas concluíram que pequenos passos, quando são bem _____ e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Trabalho e planos: palavras”? “Ao terminar os colegas concluíram que pequenos…”",
         "options": [
-          "compartilhados",
-          "colegas",
-          "pessoas",
-          "planejados"
+          "Hoje, em uma conversa sobre Trabalho e planos, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
+          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
+          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes.",
+          "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
         ]
       }
     ]
@@ -2172,92 +2172,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Projetos e responsabilidades, Marina e Caio visitam uma associação de moradores de Belo _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Projetos e responsabilidades · Compreensão oral”? “Neste episódio sobre Projetos e responsabilidades…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Horizonte"
+                "text": "Neste episódio sobre Projetos e responsabilidades, Marina e Caio visitam uma associação de moradores de Belo Horizonte."
               },
               {
                 "id": "o2",
-                "text": "responsabilidades"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "participantes"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "consequências"
+                "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Projetos e responsabilidades · Compreensão oral”? “Ela explica que antes de agir é…”",
             "options": [
               {
                 "id": "o1",
-                "text": "responsabilidades"
+                "text": "Neste episódio sobre Projetos e responsabilidades, Marina e Caio visitam uma associação de moradores de Belo Horizonte."
               },
               {
                 "id": "o2",
-                "text": "explica"
+                "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
               },
               {
                 "id": "o3",
-                "text": "participantes"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o4",
-                "text": "consequências"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Projetos e responsabilidades · Compreensão oral”? “Marina lembra que duas soluções podem…”",
             "options": [
               {
                 "id": "o1",
-                "text": "responsabilidades"
+                "text": "Neste episódio sobre Projetos e responsabilidades, Marina e Caio visitam uma associação de moradores de Belo Horizonte."
               },
               {
                 "id": "o2",
-                "text": "participantes"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "parecer"
+                "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
               },
               {
                 "id": "o4",
-                "text": "consequências"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Projetos e responsabilidades · Compreensão oral”? “A história mostra que uma…”",
             "options": [
               {
                 "id": "o1",
-                "text": "responsabilidades"
+                "text": "Neste episódio sobre Projetos e responsabilidades, Marina e Caio visitam uma associação de moradores de Belo Horizonte."
               },
               {
                 "id": "o2",
-                "text": "participantes"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "consequências"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "inspirar"
+                "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
               }
             ]
           }
@@ -2277,42 +2277,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Projetos e responsabilidades, Marina e Caio visitam uma associação de moradores de Belo _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Projetos e responsabilidades · Compreensão oral”? “Neste episódio sobre Projetos e responsabilidades…”",
         "options": [
-          "Horizonte",
-          "responsabilidades",
-          "participantes",
-          "consequências"
+          "Neste episódio sobre Projetos e responsabilidades, Marina e Caio visitam uma associação de moradores de Belo Horizonte.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Projetos e responsabilidades · Compreensão oral”? “Ela explica que antes de agir é…”",
         "options": [
-          "responsabilidades",
-          "explica",
-          "participantes",
-          "consequências"
+          "Neste episódio sobre Projetos e responsabilidades, Marina e Caio visitam uma associação de moradores de Belo Horizonte.",
+          "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Projetos e responsabilidades · Compreensão oral”? “Marina lembra que duas soluções podem…”",
         "options": [
-          "responsabilidades",
-          "participantes",
-          "parecer",
-          "consequências"
+          "Neste episódio sobre Projetos e responsabilidades, Marina e Caio visitam uma associação de moradores de Belo Horizonte.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Projetos e responsabilidades · Compreensão oral”? “A história mostra que uma…”",
         "options": [
-          "responsabilidades",
-          "participantes",
-          "consequências",
-          "inspirar"
+          "Neste episódio sobre Projetos e responsabilidades, Marina e Caio visitam uma associação de moradores de Belo Horizonte.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         ]
       }
     ]
@@ -2409,92 +2409,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Argumentação pública, Marina e Caio visitam uma comunidade _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Argumentação pública · Compreensão oral”? “Neste episódio sobre Argumentação…”",
             "options": [
               {
                 "id": "o1",
-                "text": "brasileira"
+                "text": "Neste episódio sobre Argumentação pública, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "pública"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "visitam"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "questão"
+                "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Argumentação pública · Compreensão oral”? “Ela explica que antes de agir é…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Argumentação pública, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "explica"
+                "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
               },
               {
                 "id": "o3",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o4",
-                "text": "Argumentação"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Argumentação pública · Compreensão oral”? “Marina lembra que duas soluções podem…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Argumentação pública, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "parecer"
+                "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
               },
               {
                 "id": "o4",
-                "text": "Argumentação"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Argumentação pública · Compreensão oral”? “A história mostra que uma…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Argumentação pública, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "Argumentação"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "inspirar"
+                "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
               }
             ]
           }
@@ -2514,42 +2514,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Argumentação pública, Marina e Caio visitam uma comunidade _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Argumentação pública · Compreensão oral”? “Neste episódio sobre Argumentação…”",
         "options": [
-          "brasileira",
-          "pública",
-          "visitam",
-          "questão"
+          "Neste episódio sobre Argumentação pública, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Argumentação pública · Compreensão oral”? “Ela explica que antes de agir é…”",
         "options": [
-          "participantes",
-          "explica",
-          "consequências",
-          "Argumentação"
+          "Neste episódio sobre Argumentação pública, Marina e Caio visitam uma comunidade brasileira.",
+          "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Argumentação pública · Compreensão oral”? “Marina lembra que duas soluções podem…”",
         "options": [
-          "participantes",
-          "consequências",
-          "parecer",
-          "Argumentação"
+          "Neste episódio sobre Argumentação pública, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Argumentação pública · Compreensão oral”? “A história mostra que uma…”",
         "options": [
-          "participantes",
-          "consequências",
-          "Argumentação",
-          "inspirar"
+          "Neste episódio sobre Argumentação pública, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         ]
       }
     ]
@@ -2646,92 +2646,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Linguagem e persuasão, Marina e Caio visitam uma comunidade _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Linguagem e persuasão · Compreensão oral”? “Neste episódio sobre Linguagem e…”",
             "options": [
               {
                 "id": "o1",
-                "text": "brasileira"
+                "text": "Neste episódio sobre Linguagem e persuasão, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "visitam"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "questão"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "pessoas"
+                "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Linguagem e persuasão · Compreensão oral”? “Ela explica que antes de agir é…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Linguagem e persuasão, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "explica"
+                "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
               },
               {
                 "id": "o3",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o4",
-                "text": "necessidades"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Linguagem e persuasão · Compreensão oral”? “Marina lembra que duas soluções podem…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Linguagem e persuasão, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "parecer"
+                "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
               },
               {
                 "id": "o4",
-                "text": "necessidades"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Linguagem e persuasão · Compreensão oral”? “A história mostra que uma…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Linguagem e persuasão, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "necessidades"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "inspirar"
+                "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
               }
             ]
           }
@@ -2751,42 +2751,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Linguagem e persuasão, Marina e Caio visitam uma comunidade _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Linguagem e persuasão · Compreensão oral”? “Neste episódio sobre Linguagem e…”",
         "options": [
-          "brasileira",
-          "visitam",
-          "questão",
-          "pessoas"
+          "Neste episódio sobre Linguagem e persuasão, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Linguagem e persuasão · Compreensão oral”? “Ela explica que antes de agir é…”",
         "options": [
-          "participantes",
-          "explica",
-          "consequências",
-          "necessidades"
+          "Neste episódio sobre Linguagem e persuasão, Marina e Caio visitam uma comunidade brasileira.",
+          "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Linguagem e persuasão · Compreensão oral”? “Marina lembra que duas soluções podem…”",
         "options": [
-          "participantes",
-          "consequências",
-          "parecer",
-          "necessidades"
+          "Neste episódio sobre Linguagem e persuasão, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Linguagem e persuasão · Compreensão oral”? “A história mostra que uma…”",
         "options": [
-          "participantes",
-          "consequências",
-          "necessidades",
-          "inspirar"
+          "Neste episódio sobre Linguagem e persuasão, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         ]
       }
     ]
@@ -2844,92 +2844,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Oi, tudo _____?”",
+            "prompt": "Qual afirmação completa este momento do áudio “Chegando ao Brasil: ouça”? “Oi tudo bem…”",
             "options": [
               {
                 "id": "o1",
-                "text": "bem"
+                "text": "Oi, tudo bem?"
               },
               {
                 "id": "o2",
-                "text": "comunidade"
+                "text": "Falamos de oi."
               },
               {
                 "id": "o3",
-                "text": "aprender"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "praticar"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“_____ de oi.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Chegando ao Brasil: ouça”? “Falamos de oi…”",
             "options": [
               {
                 "id": "o1",
-                "text": "tudo"
+                "text": "Oi, tudo bem?"
               },
               {
                 "id": "o2",
-                "text": "Falamos"
+                "text": "Falamos de oi."
               },
               {
                 "id": "o3",
-                "text": "comunidade"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "Gosto"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Chegando ao Brasil: ouça”? “Gosto de aprender…”",
             "options": [
               {
                 "id": "o1",
-                "text": "comunidade"
+                "text": "Oi, tudo bem?"
               },
               {
                 "id": "o2",
-                "text": "aprender"
+                "text": "Falamos de oi."
               },
               {
                 "id": "o3",
-                "text": "Gosto"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "praticar"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Chegando ao Brasil: ouça”? “Vamos praticar juntos…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Gosto"
+                "text": "Oi, tudo bem?"
               },
               {
                 "id": "o2",
-                "text": "Vamos"
+                "text": "Falamos de oi."
               },
               {
                 "id": "o3",
-                "text": "comunidade"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "praticar"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           }
@@ -2940,42 +2940,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Oi, tudo _____?”",
+        "prompt": "Qual afirmação completa este momento do áudio “Chegando ao Brasil: ouça”? “Oi tudo bem…”",
         "options": [
-          "bem",
-          "comunidade",
-          "aprender",
-          "praticar"
+          "Oi, tudo bem?",
+          "Falamos de oi.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“_____ de oi.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Chegando ao Brasil: ouça”? “Falamos de oi…”",
         "options": [
-          "tudo",
-          "Falamos",
-          "comunidade",
-          "Gosto"
+          "Oi, tudo bem?",
+          "Falamos de oi.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Chegando ao Brasil: ouça”? “Gosto de aprender…”",
         "options": [
-          "comunidade",
-          "aprender",
-          "Gosto",
-          "praticar"
+          "Oi, tudo bem?",
+          "Falamos de oi.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Chegando ao Brasil: ouça”? “Vamos praticar juntos…”",
         "options": [
-          "Gosto",
-          "Vamos",
-          "comunidade",
-          "praticar"
+          "Oi, tudo bem?",
+          "Falamos de oi.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       }
     ]
@@ -3033,92 +3033,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Normalmente vou de _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Rotina na cidade: ouça”? “Normalmente vou de…”",
             "options": [
               {
                 "id": "o1",
-                "text": "ônibus"
+                "text": "Normalmente vou de ônibus."
               },
               {
                 "id": "o2",
-                "text": "Normalmente"
+                "text": "Falamos de bairro."
               },
               {
                 "id": "o3",
-                "text": "comunidade"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "vou"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Falamos de _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Rotina na cidade: ouça”? “Falamos de bairro…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Normalmente"
+                "text": "Normalmente vou de ônibus."
               },
               {
                 "id": "o2",
-                "text": "bairro"
+                "text": "Falamos de bairro."
               },
               {
                 "id": "o3",
-                "text": "comunidade"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "vou"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Rotina na cidade: ouça”? “Gosto de aprender…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Normalmente"
+                "text": "Normalmente vou de ônibus."
               },
               {
                 "id": "o2",
-                "text": "comunidade"
+                "text": "Falamos de bairro."
               },
               {
                 "id": "o3",
-                "text": "Gosto"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "aprender"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Rotina na cidade: ouça”? “Vamos praticar juntos…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Normalmente"
+                "text": "Normalmente vou de ônibus."
               },
               {
                 "id": "o2",
-                "text": "Gosto"
+                "text": "Falamos de bairro."
               },
               {
                 "id": "o3",
-                "text": "Vamos"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "praticar"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           }
@@ -3129,42 +3129,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Normalmente vou de _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Rotina na cidade: ouça”? “Normalmente vou de…”",
         "options": [
-          "ônibus",
-          "Normalmente",
-          "comunidade",
-          "vou"
+          "Normalmente vou de ônibus.",
+          "Falamos de bairro.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Falamos de _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Rotina na cidade: ouça”? “Falamos de bairro…”",
         "options": [
-          "Normalmente",
-          "bairro",
-          "comunidade",
-          "vou"
+          "Normalmente vou de ônibus.",
+          "Falamos de bairro.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Rotina na cidade: ouça”? “Gosto de aprender…”",
         "options": [
-          "Normalmente",
-          "comunidade",
-          "Gosto",
-          "aprender"
+          "Normalmente vou de ônibus.",
+          "Falamos de bairro.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Rotina na cidade: ouça”? “Vamos praticar juntos…”",
         "options": [
-          "Normalmente",
-          "Gosto",
-          "Vamos",
-          "praticar"
+          "Normalmente vou de ônibus.",
+          "Falamos de bairro.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       }
     ]
@@ -6312,92 +6312,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Hoje, em uma conversa sobre Viagens com respeito, três colegas contam uma história que aconteceu em uma comunidade _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Viagens com respeito: palavras”? “Hoje em uma conversa sobre Viagens com…”",
             "options": [
               {
                 "id": "o1",
-                "text": "brasileira"
+                "text": "Hoje, em uma conversa sobre Viagens com respeito, três colegas contam uma história que aconteceu em uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "compartilhados"
+                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
               },
               {
                 "id": "o3",
-                "text": "Viagens"
+                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
               },
               {
                 "id": "o4",
-                "text": "colegas"
+                "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A conversa não foi _____ fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Viagens com respeito: palavras”? “A conversa não foi sempre fácil cada…”",
             "options": [
               {
                 "id": "o1",
-                "text": "compartilhados"
+                "text": "Hoje, em uma conversa sobre Viagens com respeito, três colegas contam uma história que aconteceu em uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "sempre"
+                "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
               },
               {
                 "id": "o3",
-                "text": "trabalhadores"
+                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
               },
               {
                 "id": "o4",
-                "text": "participantes"
+                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Uma senhora que mora no bairro há muitos anos disse que se _____ respeitada por poder contar o que observa todos os dias.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Viagens com respeito: palavras”? “Uma senhora que mora no bairro há…”",
             "options": [
               {
                 "id": "o1",
-                "text": "compartilhados"
+                "text": "Hoje, em uma conversa sobre Viagens com respeito, três colegas contam uma história que aconteceu em uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "trabalhadores"
+                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
               },
               {
                 "id": "o3",
-                "text": "sentiu"
+                "text": "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias."
               },
               {
                 "id": "o4",
-                "text": "participantes"
+                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao terminar, os colegas concluíram que pequenos passos, quando são bem _____ e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Viagens com respeito: palavras”? “Ao terminar os colegas concluíram que pequenos…”",
             "options": [
               {
                 "id": "o1",
-                "text": "compartilhados"
+                "text": "Hoje, em uma conversa sobre Viagens com respeito, três colegas contam uma história que aconteceu em uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "Viagens"
+                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
               },
               {
                 "id": "o3",
-                "text": "colegas"
+                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
               },
               {
                 "id": "o4",
-                "text": "planejados"
+                "text": "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
               }
             ]
           }
@@ -6474,42 +6474,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Hoje, em uma conversa sobre Viagens com respeito, três colegas contam uma história que aconteceu em uma comunidade _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Viagens com respeito: palavras”? “Hoje em uma conversa sobre Viagens com…”",
         "options": [
-          "brasileira",
-          "compartilhados",
-          "Viagens",
-          "colegas"
+          "Hoje, em uma conversa sobre Viagens com respeito, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
+          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
+          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes.",
+          "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A conversa não foi _____ fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Viagens com respeito: palavras”? “A conversa não foi sempre fácil cada…”",
         "options": [
-          "compartilhados",
-          "sempre",
-          "trabalhadores",
-          "participantes"
+          "Hoje, em uma conversa sobre Viagens com respeito, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
+          "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.",
+          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
+          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Uma senhora que mora no bairro há muitos anos disse que se _____ respeitada por poder contar o que observa todos os dias.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Viagens com respeito: palavras”? “Uma senhora que mora no bairro há…”",
         "options": [
-          "compartilhados",
-          "trabalhadores",
-          "sentiu",
-          "participantes"
+          "Hoje, em uma conversa sobre Viagens com respeito, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
+          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
+          "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.",
+          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao terminar, os colegas concluíram que pequenos passos, quando são bem _____ e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Viagens com respeito: palavras”? “Ao terminar os colegas concluíram que pequenos…”",
         "options": [
-          "compartilhados",
-          "Viagens",
-          "colegas",
-          "planejados"
+          "Hoje, em uma conversa sobre Viagens com respeito, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
+          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
+          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes.",
+          "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
         ]
       }
     ]
@@ -6834,92 +6834,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Cidade e mobilidade, Marina e Caio visitam um grupo de usuários de ônibus em São _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Cidade e mobilidade · Compreensão oral”? “Neste episódio sobre Cidade e mobilidade Marina…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Paulo"
+                "text": "Neste episódio sobre Cidade e mobilidade, Marina e Caio visitam um grupo de usuários de ônibus em São Paulo."
               },
               {
                 "id": "o2",
-                "text": "participantes"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "consequências"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "necessidades"
+                "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Cidade e mobilidade · Compreensão oral”? “Ela explica que antes de agir é…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Cidade e mobilidade, Marina e Caio visitam um grupo de usuários de ônibus em São Paulo."
               },
               {
                 "id": "o2",
-                "text": "explica"
+                "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
               },
               {
                 "id": "o3",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o4",
-                "text": "necessidades"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Cidade e mobilidade · Compreensão oral”? “Marina lembra que duas soluções podem…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Cidade e mobilidade, Marina e Caio visitam um grupo de usuários de ônibus em São Paulo."
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "parecer"
+                "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
               },
               {
                 "id": "o4",
-                "text": "necessidades"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Cidade e mobilidade · Compreensão oral”? “A história mostra que uma…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Cidade e mobilidade, Marina e Caio visitam um grupo de usuários de ônibus em São Paulo."
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "necessidades"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "inspirar"
+                "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
               }
             ]
           }
@@ -6939,42 +6939,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Cidade e mobilidade, Marina e Caio visitam um grupo de usuários de ônibus em São _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Cidade e mobilidade · Compreensão oral”? “Neste episódio sobre Cidade e mobilidade Marina…”",
         "options": [
-          "Paulo",
-          "participantes",
-          "consequências",
-          "necessidades"
+          "Neste episódio sobre Cidade e mobilidade, Marina e Caio visitam um grupo de usuários de ônibus em São Paulo.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Cidade e mobilidade · Compreensão oral”? “Ela explica que antes de agir é…”",
         "options": [
-          "participantes",
-          "explica",
-          "consequências",
-          "necessidades"
+          "Neste episódio sobre Cidade e mobilidade, Marina e Caio visitam um grupo de usuários de ônibus em São Paulo.",
+          "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Cidade e mobilidade · Compreensão oral”? “Marina lembra que duas soluções podem…”",
         "options": [
-          "participantes",
-          "consequências",
-          "parecer",
-          "necessidades"
+          "Neste episódio sobre Cidade e mobilidade, Marina e Caio visitam um grupo de usuários de ônibus em São Paulo.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Cidade e mobilidade · Compreensão oral”? “A história mostra que uma…”",
         "options": [
-          "participantes",
-          "consequências",
-          "necessidades",
-          "inspirar"
+          "Neste episódio sobre Cidade e mobilidade, Marina e Caio visitam um grupo de usuários de ônibus em São Paulo.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         ]
       }
     ]
@@ -7071,92 +7071,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Inovação e sociedade, Marina e Caio visitam uma comunidade _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Inovação e sociedade · Compreensão oral”? “Neste episódio sobre Inovação e…”",
             "options": [
               {
                 "id": "o1",
-                "text": "brasileira"
+                "text": "Neste episódio sobre Inovação e sociedade, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "visitam"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "questão"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "pessoas"
+                "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Inovação e sociedade · Compreensão oral”? “Ela explica que antes de agir é…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Inovação e sociedade, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "explica"
+                "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
               },
               {
                 "id": "o3",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o4",
-                "text": "necessidades"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Inovação e sociedade · Compreensão oral”? “Marina lembra que duas soluções podem…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Inovação e sociedade, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "parecer"
+                "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
               },
               {
                 "id": "o4",
-                "text": "necessidades"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Inovação e sociedade · Compreensão oral”? “A história mostra que uma…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Inovação e sociedade, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "necessidades"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "inspirar"
+                "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
               }
             ]
           }
@@ -7176,42 +7176,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Inovação e sociedade, Marina e Caio visitam uma comunidade _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Inovação e sociedade · Compreensão oral”? “Neste episódio sobre Inovação e…”",
         "options": [
-          "brasileira",
-          "visitam",
-          "questão",
-          "pessoas"
+          "Neste episódio sobre Inovação e sociedade, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Inovação e sociedade · Compreensão oral”? “Ela explica que antes de agir é…”",
         "options": [
-          "participantes",
-          "explica",
-          "consequências",
-          "necessidades"
+          "Neste episódio sobre Inovação e sociedade, Marina e Caio visitam uma comunidade brasileira.",
+          "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Inovação e sociedade · Compreensão oral”? “Marina lembra que duas soluções podem…”",
         "options": [
-          "participantes",
-          "consequências",
-          "parecer",
-          "necessidades"
+          "Neste episódio sobre Inovação e sociedade, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Inovação e sociedade · Compreensão oral”? “A história mostra que uma…”",
         "options": [
-          "participantes",
-          "consequências",
-          "necessidades",
-          "inspirar"
+          "Neste episódio sobre Inovação e sociedade, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         ]
       }
     ]
@@ -7308,92 +7308,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Políticas públicas, Marina e Caio visitam uma comunidade _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Políticas públicas · Compreensão oral”? “Neste episódio sobre Políticas…”",
             "options": [
               {
                 "id": "o1",
-                "text": "brasileira"
+                "text": "Neste episódio sobre Políticas públicas, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "visitam"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "questão"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "pessoas"
+                "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Políticas públicas · Compreensão oral”? “Ela explica que antes de agir é…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Políticas públicas, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "explica"
+                "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
               },
               {
                 "id": "o3",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o4",
-                "text": "necessidades"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Políticas públicas · Compreensão oral”? “Marina lembra que duas soluções podem…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Políticas públicas, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "parecer"
+                "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
               },
               {
                 "id": "o4",
-                "text": "necessidades"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Políticas públicas · Compreensão oral”? “A história mostra que uma…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Políticas públicas, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "necessidades"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "inspirar"
+                "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
               }
             ]
           }
@@ -7413,42 +7413,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Políticas públicas, Marina e Caio visitam uma comunidade _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Políticas públicas · Compreensão oral”? “Neste episódio sobre Políticas…”",
         "options": [
-          "brasileira",
-          "visitam",
-          "questão",
-          "pessoas"
+          "Neste episódio sobre Políticas públicas, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Políticas públicas · Compreensão oral”? “Ela explica que antes de agir é…”",
         "options": [
-          "participantes",
-          "explica",
-          "consequências",
-          "necessidades"
+          "Neste episódio sobre Políticas públicas, Marina e Caio visitam uma comunidade brasileira.",
+          "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Políticas públicas · Compreensão oral”? “Marina lembra que duas soluções podem…”",
         "options": [
-          "participantes",
-          "consequências",
-          "parecer",
-          "necessidades"
+          "Neste episódio sobre Políticas públicas, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Políticas públicas · Compreensão oral”? “A história mostra que uma…”",
         "options": [
-          "participantes",
-          "consequências",
-          "necessidades",
-          "inspirar"
+          "Neste episódio sobre Políticas públicas, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         ]
       }
     ]
@@ -7506,92 +7506,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Um café, por _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Um café na padaria: ouça”? “Um café por…”",
             "options": [
               {
                 "id": "o1",
-                "text": "favor"
+                "text": "Um café, por favor."
               },
               {
                 "id": "o2",
-                "text": "comunidade"
+                "text": "Falamos de café."
               },
               {
                 "id": "o3",
-                "text": "aprender"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "praticar"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“_____ de café.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Um café na padaria: ouça”? “Falamos de café…”",
             "options": [
               {
                 "id": "o1",
-                "text": "café"
+                "text": "Um café, por favor."
               },
               {
                 "id": "o2",
-                "text": "Falamos"
+                "text": "Falamos de café."
               },
               {
                 "id": "o3",
-                "text": "comunidade"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "favor"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Um café na padaria: ouça”? “Gosto de aprender…”",
             "options": [
               {
                 "id": "o1",
-                "text": "comunidade"
+                "text": "Um café, por favor."
               },
               {
                 "id": "o2",
-                "text": "aprender"
+                "text": "Falamos de café."
               },
               {
                 "id": "o3",
-                "text": "Gosto"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "praticar"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Um café na padaria: ouça”? “Vamos praticar juntos…”",
             "options": [
               {
                 "id": "o1",
-                "text": "favor"
+                "text": "Um café, por favor."
               },
               {
                 "id": "o2",
-                "text": "Gosto"
+                "text": "Falamos de café."
               },
               {
                 "id": "o3",
-                "text": "Vamos"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "praticar"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           }
@@ -7602,42 +7602,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Um café, por _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Um café na padaria: ouça”? “Um café por…”",
         "options": [
-          "favor",
-          "comunidade",
-          "aprender",
-          "praticar"
+          "Um café, por favor.",
+          "Falamos de café.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“_____ de café.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Um café na padaria: ouça”? “Falamos de café…”",
         "options": [
-          "café",
-          "Falamos",
-          "comunidade",
-          "favor"
+          "Um café, por favor.",
+          "Falamos de café.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Um café na padaria: ouça”? “Gosto de aprender…”",
         "options": [
-          "comunidade",
-          "aprender",
-          "Gosto",
-          "praticar"
+          "Um café, por favor.",
+          "Falamos de café.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Um café na padaria: ouça”? “Vamos praticar juntos…”",
         "options": [
-          "favor",
-          "Gosto",
-          "Vamos",
-          "praticar"
+          "Um café, por favor.",
+          "Falamos de café.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       }
     ]
@@ -7695,92 +7695,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Gostaria de _____ o museu.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Um fim de semana em Salvador: ouça”? “Gostaria de visitar…”",
             "options": [
               {
                 "id": "o1",
-                "text": "visitar"
+                "text": "Gostaria de visitar o museu."
               },
               {
                 "id": "o2",
-                "text": "comunidade"
+                "text": "Falamos de museu."
               },
               {
                 "id": "o3",
-                "text": "museu"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "Gosto"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“_____ de museu.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Um fim de semana em Salvador: ouça”? “Falamos de museu…”",
             "options": [
               {
                 "id": "o1",
-                "text": "comunidade"
+                "text": "Gostaria de visitar o museu."
               },
               {
                 "id": "o2",
-                "text": "Falamos"
+                "text": "Falamos de museu."
               },
               {
                 "id": "o3",
-                "text": "museu"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "Gosto"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Um fim de semana em Salvador: ouça”? “Gosto de aprender…”",
             "options": [
               {
                 "id": "o1",
-                "text": "comunidade"
+                "text": "Gostaria de visitar o museu."
               },
               {
                 "id": "o2",
-                "text": "Gostaria"
+                "text": "Falamos de museu."
               },
               {
                 "id": "o3",
-                "text": "Gosto"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "aprender"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Um fim de semana em Salvador: ouça”? “Vamos praticar juntos…”",
             "options": [
               {
                 "id": "o1",
-                "text": "museu"
+                "text": "Gostaria de visitar o museu."
               },
               {
                 "id": "o2",
-                "text": "Gosto"
+                "text": "Falamos de museu."
               },
               {
                 "id": "o3",
-                "text": "Vamos"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "praticar"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           }
@@ -7791,42 +7791,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Gostaria de _____ o museu.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Um fim de semana em Salvador: ouça”? “Gostaria de visitar…”",
         "options": [
-          "visitar",
-          "comunidade",
-          "museu",
-          "Gosto"
+          "Gostaria de visitar o museu.",
+          "Falamos de museu.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“_____ de museu.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Um fim de semana em Salvador: ouça”? “Falamos de museu…”",
         "options": [
-          "comunidade",
-          "Falamos",
-          "museu",
-          "Gosto"
+          "Gostaria de visitar o museu.",
+          "Falamos de museu.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Um fim de semana em Salvador: ouça”? “Gosto de aprender…”",
         "options": [
-          "comunidade",
-          "Gostaria",
-          "Gosto",
-          "aprender"
+          "Gostaria de visitar o museu.",
+          "Falamos de museu.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Um fim de semana em Salvador: ouça”? “Vamos praticar juntos…”",
         "options": [
-          "museu",
-          "Gosto",
-          "Vamos",
-          "praticar"
+          "Gostaria de visitar o museu.",
+          "Falamos de museu.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       }
     ]
@@ -10974,92 +10974,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Hoje, em uma conversa sobre Saúde e equilíbrio, três colegas contam uma história que aconteceu em uma comunidade _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Saúde e equilíbrio: palavras”? “Hoje em uma conversa sobre Saúde e…”",
             "options": [
               {
                 "id": "o1",
-                "text": "brasileira"
+                "text": "Hoje, em uma conversa sobre Saúde e equilíbrio, três colegas contam uma história que aconteceu em uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "compartilhados"
+                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
               },
               {
                 "id": "o3",
-                "text": "colegas"
+                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
               },
               {
                 "id": "o4",
-                "text": "pessoas"
+                "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A conversa não foi _____ fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Saúde e equilíbrio: palavras”? “A conversa não foi sempre fácil cada…”",
             "options": [
               {
                 "id": "o1",
-                "text": "compartilhados"
+                "text": "Hoje, em uma conversa sobre Saúde e equilíbrio, três colegas contam uma história que aconteceu em uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "sempre"
+                "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
               },
               {
                 "id": "o3",
-                "text": "trabalhadores"
+                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
               },
               {
                 "id": "o4",
-                "text": "participantes"
+                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Uma senhora que mora no bairro há muitos anos disse que se _____ respeitada por poder contar o que observa todos os dias.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Saúde e equilíbrio: palavras”? “Uma senhora que mora no bairro há…”",
             "options": [
               {
                 "id": "o1",
-                "text": "compartilhados"
+                "text": "Hoje, em uma conversa sobre Saúde e equilíbrio, três colegas contam uma história que aconteceu em uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "trabalhadores"
+                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
               },
               {
                 "id": "o3",
-                "text": "sentiu"
+                "text": "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias."
               },
               {
                 "id": "o4",
-                "text": "participantes"
+                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao terminar, os colegas concluíram que pequenos passos, quando são bem _____ e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Saúde e equilíbrio: palavras”? “Ao terminar os colegas concluíram que pequenos…”",
             "options": [
               {
                 "id": "o1",
-                "text": "compartilhados"
+                "text": "Hoje, em uma conversa sobre Saúde e equilíbrio, três colegas contam uma história que aconteceu em uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "colegas"
+                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
               },
               {
                 "id": "o3",
-                "text": "pessoas"
+                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
               },
               {
                 "id": "o4",
-                "text": "planejados"
+                "text": "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
               }
             ]
           }
@@ -11136,42 +11136,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Hoje, em uma conversa sobre Saúde e equilíbrio, três colegas contam uma história que aconteceu em uma comunidade _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Saúde e equilíbrio: palavras”? “Hoje em uma conversa sobre Saúde e…”",
         "options": [
-          "brasileira",
-          "compartilhados",
-          "colegas",
-          "pessoas"
+          "Hoje, em uma conversa sobre Saúde e equilíbrio, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
+          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
+          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes.",
+          "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A conversa não foi _____ fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Saúde e equilíbrio: palavras”? “A conversa não foi sempre fácil cada…”",
         "options": [
-          "compartilhados",
-          "sempre",
-          "trabalhadores",
-          "participantes"
+          "Hoje, em uma conversa sobre Saúde e equilíbrio, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
+          "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.",
+          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
+          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Uma senhora que mora no bairro há muitos anos disse que se _____ respeitada por poder contar o que observa todos os dias.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Saúde e equilíbrio: palavras”? “Uma senhora que mora no bairro há…”",
         "options": [
-          "compartilhados",
-          "trabalhadores",
-          "sentiu",
-          "participantes"
+          "Hoje, em uma conversa sobre Saúde e equilíbrio, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
+          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
+          "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.",
+          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao terminar, os colegas concluíram que pequenos passos, quando são bem _____ e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Saúde e equilíbrio: palavras”? “Ao terminar os colegas concluíram que pequenos…”",
         "options": [
-          "compartilhados",
-          "colegas",
-          "pessoas",
-          "planejados"
+          "Hoje, em uma conversa sobre Saúde e equilíbrio, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
+          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
+          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes.",
+          "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
         ]
       }
     ]
@@ -11496,92 +11496,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Trabalho e competências, Marina e Caio visitam uma cooperativa de costureiras em _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Trabalho e competências · Compreensão oral”? “Neste episódio sobre Trabalho e competências…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Recife"
+                "text": "Neste episódio sobre Trabalho e competências, Marina e Caio visitam uma cooperativa de costureiras em Recife."
               },
               {
                 "id": "o2",
-                "text": "participantes"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "consequências"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "competências"
+                "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Trabalho e competências · Compreensão oral”? “Ela explica que antes de agir é…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Trabalho e competências, Marina e Caio visitam uma cooperativa de costureiras em Recife."
               },
               {
                 "id": "o2",
-                "text": "explica"
+                "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
               },
               {
                 "id": "o3",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o4",
-                "text": "competências"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Trabalho e competências · Compreensão oral”? “Marina lembra que duas soluções podem…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Trabalho e competências, Marina e Caio visitam uma cooperativa de costureiras em Recife."
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "parecer"
+                "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
               },
               {
                 "id": "o4",
-                "text": "competências"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Trabalho e competências · Compreensão oral”? “A história mostra que uma…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Trabalho e competências, Marina e Caio visitam uma cooperativa de costureiras em Recife."
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "competências"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "inspirar"
+                "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
               }
             ]
           }
@@ -11601,42 +11601,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Trabalho e competências, Marina e Caio visitam uma cooperativa de costureiras em _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Trabalho e competências · Compreensão oral”? “Neste episódio sobre Trabalho e competências…”",
         "options": [
-          "Recife",
-          "participantes",
-          "consequências",
-          "competências"
+          "Neste episódio sobre Trabalho e competências, Marina e Caio visitam uma cooperativa de costureiras em Recife.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Trabalho e competências · Compreensão oral”? “Ela explica que antes de agir é…”",
         "options": [
-          "participantes",
-          "explica",
-          "consequências",
-          "competências"
+          "Neste episódio sobre Trabalho e competências, Marina e Caio visitam uma cooperativa de costureiras em Recife.",
+          "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Trabalho e competências · Compreensão oral”? “Marina lembra que duas soluções podem…”",
         "options": [
-          "participantes",
-          "consequências",
-          "parecer",
-          "competências"
+          "Neste episódio sobre Trabalho e competências, Marina e Caio visitam uma cooperativa de costureiras em Recife.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Trabalho e competências · Compreensão oral”? “A história mostra que uma…”",
         "options": [
-          "participantes",
-          "consequências",
-          "competências",
-          "inspirar"
+          "Neste episódio sobre Trabalho e competências, Marina e Caio visitam uma cooperativa de costureiras em Recife.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         ]
       }
     ]
@@ -11733,92 +11733,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Ética e decisões, Marina e Caio visitam uma comunidade _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Ética e decisões · Compreensão oral”? “Neste episódio sobre Ética e…”",
             "options": [
               {
                 "id": "o1",
-                "text": "brasileira"
+                "text": "Neste episódio sobre Ética e decisões, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "responsabilità"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "visitam"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "questão"
+                "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Ética e decisões · Compreensão oral”? “Ela explica que antes de agir é…”",
             "options": [
               {
                 "id": "o1",
-                "text": "responsabilità"
+                "text": "Neste episódio sobre Ética e decisões, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "explica"
+                "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
               },
               {
                 "id": "o3",
-                "text": "participantes"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o4",
-                "text": "consequências"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Ética e decisões · Compreensão oral”? “Marina lembra que duas soluções podem…”",
             "options": [
               {
                 "id": "o1",
-                "text": "responsabilità"
+                "text": "Neste episódio sobre Ética e decisões, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "participantes"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "parecer"
+                "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
               },
               {
                 "id": "o4",
-                "text": "consequências"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Ética e decisões · Compreensão oral”? “A história mostra que uma…”",
             "options": [
               {
                 "id": "o1",
-                "text": "responsabilità"
+                "text": "Neste episódio sobre Ética e decisões, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "participantes"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "consequências"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "inspirar"
+                "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
               }
             ]
           }
@@ -11838,42 +11838,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Ética e decisões, Marina e Caio visitam uma comunidade _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Ética e decisões · Compreensão oral”? “Neste episódio sobre Ética e…”",
         "options": [
-          "brasileira",
-          "responsabilità",
-          "visitam",
-          "questão"
+          "Neste episódio sobre Ética e decisões, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Ética e decisões · Compreensão oral”? “Ela explica que antes de agir é…”",
         "options": [
-          "responsabilità",
-          "explica",
-          "participantes",
-          "consequências"
+          "Neste episódio sobre Ética e decisões, Marina e Caio visitam uma comunidade brasileira.",
+          "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Ética e decisões · Compreensão oral”? “Marina lembra que duas soluções podem…”",
         "options": [
-          "responsabilità",
-          "participantes",
-          "parecer",
-          "consequências"
+          "Neste episódio sobre Ética e decisões, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Ética e decisões · Compreensão oral”? “A história mostra que uma…”",
         "options": [
-          "responsabilità",
-          "participantes",
-          "consequências",
-          "inspirar"
+          "Neste episódio sobre Ética e decisões, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         ]
       }
     ]
@@ -11970,92 +11970,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Conhecimento e incerteza, Marina e Caio visitam uma comunidade _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Conhecimento e incerteza · Compreensão oral”? “Neste episódio sobre Conhecimento e…”",
             "options": [
               {
                 "id": "o1",
-                "text": "brasileira"
+                "text": "Neste episódio sobre Conhecimento e incerteza, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "visitam"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "questão"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "pessoas"
+                "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Conhecimento e incerteza · Compreensão oral”? “Ela explica que antes de agir é…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Conhecimento e incerteza, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "explica"
+                "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
               },
               {
                 "id": "o3",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o4",
-                "text": "Conhecimento"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Conhecimento e incerteza · Compreensão oral”? “Marina lembra que duas soluções podem…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Conhecimento e incerteza, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "parecer"
+                "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
               },
               {
                 "id": "o4",
-                "text": "Conhecimento"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Conhecimento e incerteza · Compreensão oral”? “A história mostra que uma…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Conhecimento e incerteza, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "Conhecimento"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "inspirar"
+                "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
               }
             ]
           }
@@ -12075,42 +12075,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Conhecimento e incerteza, Marina e Caio visitam uma comunidade _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Conhecimento e incerteza · Compreensão oral”? “Neste episódio sobre Conhecimento e…”",
         "options": [
-          "brasileira",
-          "visitam",
-          "questão",
-          "pessoas"
+          "Neste episódio sobre Conhecimento e incerteza, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Conhecimento e incerteza · Compreensão oral”? “Ela explica que antes de agir é…”",
         "options": [
-          "participantes",
-          "explica",
-          "consequências",
-          "Conhecimento"
+          "Neste episódio sobre Conhecimento e incerteza, Marina e Caio visitam uma comunidade brasileira.",
+          "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Conhecimento e incerteza · Compreensão oral”? “Marina lembra que duas soluções podem…”",
         "options": [
-          "participantes",
-          "consequências",
-          "parecer",
-          "Conhecimento"
+          "Neste episódio sobre Conhecimento e incerteza, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Conhecimento e incerteza · Compreensão oral”? “A história mostra que uma…”",
         "options": [
-          "participantes",
-          "consequências",
-          "Conhecimento",
-          "inspirar"
+          "Neste episódio sobre Conhecimento e incerteza, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         ]
       }
     ]
@@ -12168,92 +12168,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“A família _____ junta.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Família e almoço: ouça”? “A família almoça…”",
             "options": [
               {
                 "id": "o1",
-                "text": "almoça"
+                "text": "A família almoça junta."
               },
               {
                 "id": "o2",
-                "text": "comunidade"
+                "text": "Falamos de família."
               },
               {
                 "id": "o3",
-                "text": "aprender"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "praticar"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Falamos de _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Família e almoço: ouça”? “Falamos de família…”",
             "options": [
               {
                 "id": "o1",
-                "text": "comunidade"
+                "text": "A família almoça junta."
               },
               {
                 "id": "o2",
-                "text": "família"
+                "text": "Falamos de família."
               },
               {
                 "id": "o3",
-                "text": "junta"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "Gosto"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Família e almoço: ouça”? “Gosto de aprender…”",
             "options": [
               {
                 "id": "o1",
-                "text": "comunidade"
+                "text": "A família almoça junta."
               },
               {
                 "id": "o2",
-                "text": "aprender"
+                "text": "Falamos de família."
               },
               {
                 "id": "o3",
-                "text": "Gosto"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "praticar"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Família e almoço: ouça”? “Vamos praticar juntos…”",
             "options": [
               {
                 "id": "o1",
-                "text": "junta"
+                "text": "A família almoça junta."
               },
               {
                 "id": "o2",
-                "text": "Gosto"
+                "text": "Falamos de família."
               },
               {
                 "id": "o3",
-                "text": "Vamos"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "praticar"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           }
@@ -12264,42 +12264,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“A família _____ junta.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Família e almoço: ouça”? “A família almoça…”",
         "options": [
-          "almoça",
-          "comunidade",
-          "aprender",
-          "praticar"
+          "A família almoça junta.",
+          "Falamos de família.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Falamos de _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Família e almoço: ouça”? “Falamos de família…”",
         "options": [
-          "comunidade",
-          "família",
-          "junta",
-          "Gosto"
+          "A família almoça junta.",
+          "Falamos de família.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Família e almoço: ouça”? “Gosto de aprender…”",
         "options": [
-          "comunidade",
-          "aprender",
-          "Gosto",
-          "praticar"
+          "A família almoça junta.",
+          "Falamos de família.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Família e almoço: ouça”? “Vamos praticar juntos…”",
         "options": [
-          "junta",
-          "Gosto",
-          "Vamos",
-          "praticar"
+          "A família almoça junta.",
+          "Falamos de família.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       }
     ]
@@ -12357,92 +12357,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Primeiro corto os _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Receitas e memórias: ouça”? “Primeiro corto os…”",
             "options": [
               {
                 "id": "o1",
-                "text": "legumes"
+                "text": "Primeiro corto os legumes."
               },
               {
                 "id": "o2",
-                "text": "comunidade"
+                "text": "Falamos de receita."
               },
               {
                 "id": "o3",
-                "text": "corto"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "Gosto"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Falamos de _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Receitas e memórias: ouça”? “Falamos de receita…”",
             "options": [
               {
                 "id": "o1",
-                "text": "comunidade"
+                "text": "Primeiro corto os legumes."
               },
               {
                 "id": "o2",
-                "text": "receita"
+                "text": "Falamos de receita."
               },
               {
                 "id": "o3",
-                "text": "corto"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "Gosto"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Receitas e memórias: ouça”? “Gosto de aprender…”",
             "options": [
               {
                 "id": "o1",
-                "text": "comunidade"
+                "text": "Primeiro corto os legumes."
               },
               {
                 "id": "o2",
-                "text": "Primeiro"
+                "text": "Falamos de receita."
               },
               {
                 "id": "o3",
-                "text": "Gosto"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "aprender"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Receitas e memórias: ouça”? “Vamos praticar juntos…”",
             "options": [
               {
                 "id": "o1",
-                "text": "corto"
+                "text": "Primeiro corto os legumes."
               },
               {
                 "id": "o2",
-                "text": "Gosto"
+                "text": "Falamos de receita."
               },
               {
                 "id": "o3",
-                "text": "Vamos"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "praticar"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           }
@@ -12453,42 +12453,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Primeiro corto os _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Receitas e memórias: ouça”? “Primeiro corto os…”",
         "options": [
-          "legumes",
-          "comunidade",
-          "corto",
-          "Gosto"
+          "Primeiro corto os legumes.",
+          "Falamos de receita.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Falamos de _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Receitas e memórias: ouça”? “Falamos de receita…”",
         "options": [
-          "comunidade",
-          "receita",
-          "corto",
-          "Gosto"
+          "Primeiro corto os legumes.",
+          "Falamos de receita.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Receitas e memórias: ouça”? “Gosto de aprender…”",
         "options": [
-          "comunidade",
-          "Primeiro",
-          "Gosto",
-          "aprender"
+          "Primeiro corto os legumes.",
+          "Falamos de receita.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Receitas e memórias: ouça”? “Vamos praticar juntos…”",
         "options": [
-          "corto",
-          "Gosto",
-          "Vamos",
-          "praticar"
+          "Primeiro corto os legumes.",
+          "Falamos de receita.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       }
     ]
@@ -15636,92 +15636,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Hoje, em uma conversa sobre Cultura e informação, três colegas contam uma história que aconteceu em uma comunidade _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Cultura e informação: palavras”? “Hoje em uma conversa sobre Cultura e…”",
             "options": [
               {
                 "id": "o1",
-                "text": "brasileira"
+                "text": "Hoje, em uma conversa sobre Cultura e informação, três colegas contam uma história que aconteceu em uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "compartilhados"
+                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
               },
               {
                 "id": "o3",
-                "text": "Cultura"
+                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
               },
               {
                 "id": "o4",
-                "text": "colegas"
+                "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A conversa não foi _____ fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Cultura e informação: palavras”? “A conversa não foi sempre fácil cada…”",
             "options": [
               {
                 "id": "o1",
-                "text": "compartilhados"
+                "text": "Hoje, em uma conversa sobre Cultura e informação, três colegas contam uma história que aconteceu em uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "sempre"
+                "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
               },
               {
                 "id": "o3",
-                "text": "trabalhadores"
+                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
               },
               {
                 "id": "o4",
-                "text": "participantes"
+                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Uma senhora que mora no bairro há muitos anos disse que se _____ respeitada por poder contar o que observa todos os dias.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Cultura e informação: palavras”? “Uma senhora que mora no bairro há…”",
             "options": [
               {
                 "id": "o1",
-                "text": "compartilhados"
+                "text": "Hoje, em uma conversa sobre Cultura e informação, três colegas contam uma história que aconteceu em uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "trabalhadores"
+                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
               },
               {
                 "id": "o3",
-                "text": "sentiu"
+                "text": "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias."
               },
               {
                 "id": "o4",
-                "text": "participantes"
+                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao terminar, os colegas concluíram que pequenos passos, quando são bem _____ e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Cultura e informação: palavras”? “Ao terminar os colegas concluíram que pequenos…”",
             "options": [
               {
                 "id": "o1",
-                "text": "compartilhados"
+                "text": "Hoje, em uma conversa sobre Cultura e informação, três colegas contam uma história que aconteceu em uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "Cultura"
+                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
               },
               {
                 "id": "o3",
-                "text": "colegas"
+                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
               },
               {
                 "id": "o4",
-                "text": "planejados"
+                "text": "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
               }
             ]
           }
@@ -15798,42 +15798,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Hoje, em uma conversa sobre Cultura e informação, três colegas contam uma história que aconteceu em uma comunidade _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Cultura e informação: palavras”? “Hoje em uma conversa sobre Cultura e…”",
         "options": [
-          "brasileira",
-          "compartilhados",
-          "Cultura",
-          "colegas"
+          "Hoje, em uma conversa sobre Cultura e informação, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
+          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
+          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes.",
+          "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A conversa não foi _____ fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Cultura e informação: palavras”? “A conversa não foi sempre fácil cada…”",
         "options": [
-          "compartilhados",
-          "sempre",
-          "trabalhadores",
-          "participantes"
+          "Hoje, em uma conversa sobre Cultura e informação, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
+          "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.",
+          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
+          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Uma senhora que mora no bairro há muitos anos disse que se _____ respeitada por poder contar o que observa todos os dias.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Cultura e informação: palavras”? “Uma senhora que mora no bairro há…”",
         "options": [
-          "compartilhados",
-          "trabalhadores",
-          "sentiu",
-          "participantes"
+          "Hoje, em uma conversa sobre Cultura e informação, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
+          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
+          "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.",
+          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao terminar, os colegas concluíram que pequenos passos, quando são bem _____ e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Cultura e informação: palavras”? “Ao terminar os colegas concluíram que pequenos…”",
         "options": [
-          "compartilhados",
-          "Cultura",
-          "colegas",
-          "planejados"
+          "Hoje, em uma conversa sobre Cultura e informação, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
+          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
+          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes.",
+          "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
         ]
       }
     ]
@@ -16158,92 +16158,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Ambiente e consumo, Marina e Caio visitam uma comunidade que recupera uma praça em _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Ambiente e consumo · Compreensão oral”? “Neste episódio sobre Ambiente e consumo…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Curitiba"
+                "text": "Neste episódio sobre Ambiente e consumo, Marina e Caio visitam uma comunidade que recupera uma praça em Curitiba."
               },
               {
                 "id": "o2",
-                "text": "participantes"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "consequências"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "necessidades"
+                "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Ambiente e consumo · Compreensão oral”? “Ela explica que antes de agir é…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Ambiente e consumo, Marina e Caio visitam uma comunidade que recupera uma praça em Curitiba."
               },
               {
                 "id": "o2",
-                "text": "explica"
+                "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
               },
               {
                 "id": "o3",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o4",
-                "text": "necessidades"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Ambiente e consumo · Compreensão oral”? “Marina lembra que duas soluções podem…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Ambiente e consumo, Marina e Caio visitam uma comunidade que recupera uma praça em Curitiba."
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "parecer"
+                "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
               },
               {
                 "id": "o4",
-                "text": "necessidades"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Ambiente e consumo · Compreensão oral”? “A história mostra que uma…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Ambiente e consumo, Marina e Caio visitam uma comunidade que recupera uma praça em Curitiba."
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "necessidades"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "inspirar"
+                "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
               }
             ]
           }
@@ -16263,42 +16263,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Ambiente e consumo, Marina e Caio visitam uma comunidade que recupera uma praça em _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Ambiente e consumo · Compreensão oral”? “Neste episódio sobre Ambiente e consumo…”",
         "options": [
-          "Curitiba",
-          "participantes",
-          "consequências",
-          "necessidades"
+          "Neste episódio sobre Ambiente e consumo, Marina e Caio visitam uma comunidade que recupera uma praça em Curitiba.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Ambiente e consumo · Compreensão oral”? “Ela explica que antes de agir é…”",
         "options": [
-          "participantes",
-          "explica",
-          "consequências",
-          "necessidades"
+          "Neste episódio sobre Ambiente e consumo, Marina e Caio visitam uma comunidade que recupera uma praça em Curitiba.",
+          "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Ambiente e consumo · Compreensão oral”? “Marina lembra que duas soluções podem…”",
         "options": [
-          "participantes",
-          "consequências",
-          "parecer",
-          "necessidades"
+          "Neste episódio sobre Ambiente e consumo, Marina e Caio visitam uma comunidade que recupera uma praça em Curitiba.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Ambiente e consumo · Compreensão oral”? “A história mostra que uma…”",
         "options": [
-          "participantes",
-          "consequências",
-          "necessidades",
-          "inspirar"
+          "Neste episódio sobre Ambiente e consumo, Marina e Caio visitam uma comunidade que recupera uma praça em Curitiba.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         ]
       }
     ]
@@ -16395,92 +16395,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Arte e interpretação, Marina e Caio visitam uma comunidade _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Arte e interpretação · Compreensão oral”? “Neste episódio sobre Arte e…”",
             "options": [
               {
                 "id": "o1",
-                "text": "brasileira"
+                "text": "Neste episódio sobre Arte e interpretação, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "interpretazione"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "interpretação"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "visitam"
+                "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Arte e interpretação · Compreensão oral”? “Ela explica que antes de agir é…”",
             "options": [
               {
                 "id": "o1",
-                "text": "interpretazione"
+                "text": "Neste episódio sobre Arte e interpretação, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "explica"
+                "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
               },
               {
                 "id": "o3",
-                "text": "interpretação"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o4",
-                "text": "participantes"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Arte e interpretação · Compreensão oral”? “Marina lembra que duas soluções podem…”",
             "options": [
               {
                 "id": "o1",
-                "text": "interpretazione"
+                "text": "Neste episódio sobre Arte e interpretação, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "interpretação"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "parecer"
+                "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
               },
               {
                 "id": "o4",
-                "text": "participantes"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Arte e interpretação · Compreensão oral”? “A história mostra que uma…”",
             "options": [
               {
                 "id": "o1",
-                "text": "interpretazione"
+                "text": "Neste episódio sobre Arte e interpretação, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "interpretação"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "participantes"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "inspirar"
+                "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
               }
             ]
           }
@@ -16500,42 +16500,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Arte e interpretação, Marina e Caio visitam uma comunidade _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Arte e interpretação · Compreensão oral”? “Neste episódio sobre Arte e…”",
         "options": [
-          "brasileira",
-          "interpretazione",
-          "interpretação",
-          "visitam"
+          "Neste episódio sobre Arte e interpretação, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Arte e interpretação · Compreensão oral”? “Ela explica que antes de agir é…”",
         "options": [
-          "interpretazione",
-          "explica",
-          "interpretação",
-          "participantes"
+          "Neste episódio sobre Arte e interpretação, Marina e Caio visitam uma comunidade brasileira.",
+          "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Arte e interpretação · Compreensão oral”? “Marina lembra que duas soluções podem…”",
         "options": [
-          "interpretazione",
-          "interpretação",
-          "parecer",
-          "participantes"
+          "Neste episódio sobre Arte e interpretação, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Arte e interpretação · Compreensão oral”? “A história mostra que uma…”",
         "options": [
-          "interpretazione",
-          "interpretação",
-          "participantes",
-          "inspirar"
+          "Neste episódio sobre Arte e interpretação, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         ]
       }
     ]
@@ -16632,92 +16632,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Narrativa e identidade, Marina e Caio visitam uma comunidade _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Narrativa e identidade · Compreensão oral”? “Neste episódio sobre Narrativa e…”",
             "options": [
               {
                 "id": "o1",
-                "text": "brasileira"
+                "text": "Neste episódio sobre Narrativa e identidade, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "visitam"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "questão"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "pessoas"
+                "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Narrativa e identidade · Compreensão oral”? “Ela explica que antes de agir é…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Narrativa e identidade, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "explica"
+                "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
               },
               {
                 "id": "o3",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o4",
-                "text": "necessidades"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Narrativa e identidade · Compreensão oral”? “Marina lembra que duas soluções podem…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Narrativa e identidade, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "parecer"
+                "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
               },
               {
                 "id": "o4",
-                "text": "necessidades"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Narrativa e identidade · Compreensão oral”? “A história mostra que uma…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Narrativa e identidade, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "necessidades"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "inspirar"
+                "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
               }
             ]
           }
@@ -16737,42 +16737,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Narrativa e identidade, Marina e Caio visitam uma comunidade _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Narrativa e identidade · Compreensão oral”? “Neste episódio sobre Narrativa e…”",
         "options": [
-          "brasileira",
-          "visitam",
-          "questão",
-          "pessoas"
+          "Neste episódio sobre Narrativa e identidade, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Narrativa e identidade · Compreensão oral”? “Ela explica que antes de agir é…”",
         "options": [
-          "participantes",
-          "explica",
-          "consequências",
-          "necessidades"
+          "Neste episódio sobre Narrativa e identidade, Marina e Caio visitam uma comunidade brasileira.",
+          "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Narrativa e identidade · Compreensão oral”? “Marina lembra que duas soluções podem…”",
         "options": [
-          "participantes",
-          "consequências",
-          "parecer",
-          "necessidades"
+          "Neste episódio sobre Narrativa e identidade, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Narrativa e identidade · Compreensão oral”? “A história mostra que uma…”",
         "options": [
-          "participantes",
-          "consequências",
-          "necessidades",
-          "inspirar"
+          "Neste episódio sobre Narrativa e identidade, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         ]
       }
     ]
@@ -16830,92 +16830,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“_____ custa um quilo?”",
+            "prompt": "Qual afirmação completa este momento do áudio “A feira do bairro: ouça”? “Quanto custa um…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Quanto"
+                "text": "Quanto custa um quilo?"
               },
               {
                 "id": "o2",
-                "text": "comunidade"
+                "text": "Falamos de banana."
               },
               {
                 "id": "o3",
-                "text": "aprender"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "praticar"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Falamos de _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “A feira do bairro: ouça”? “Falamos de banana…”",
             "options": [
               {
                 "id": "o1",
-                "text": "comunidade"
+                "text": "Quanto custa um quilo?"
               },
               {
                 "id": "o2",
-                "text": "banana"
+                "text": "Falamos de banana."
               },
               {
                 "id": "o3",
-                "text": "aprender"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "praticar"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
+            "prompt": "Qual afirmação completa este momento do áudio “A feira do bairro: ouça”? “Gosto de aprender…”",
             "options": [
               {
                 "id": "o1",
-                "text": "comunidade"
+                "text": "Quanto custa um quilo?"
               },
               {
                 "id": "o2",
-                "text": "aprender"
+                "text": "Falamos de banana."
               },
               {
                 "id": "o3",
-                "text": "Gosto"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "praticar"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
+            "prompt": "Qual afirmação completa este momento do áudio “A feira do bairro: ouça”? “Vamos praticar juntos…”",
             "options": [
               {
                 "id": "o1",
-                "text": "custa"
+                "text": "Quanto custa um quilo?"
               },
               {
                 "id": "o2",
-                "text": "quilo"
+                "text": "Falamos de banana."
               },
               {
                 "id": "o3",
-                "text": "Gosto"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "praticar"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           }
@@ -16926,42 +16926,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“_____ custa um quilo?”",
+        "prompt": "Qual afirmação completa este momento do áudio “A feira do bairro: ouça”? “Quanto custa um…”",
         "options": [
-          "Quanto",
-          "comunidade",
-          "aprender",
-          "praticar"
+          "Quanto custa um quilo?",
+          "Falamos de banana.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Falamos de _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “A feira do bairro: ouça”? “Falamos de banana…”",
         "options": [
-          "comunidade",
-          "banana",
-          "aprender",
-          "praticar"
+          "Quanto custa um quilo?",
+          "Falamos de banana.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
+        "prompt": "Qual afirmação completa este momento do áudio “A feira do bairro: ouça”? “Gosto de aprender…”",
         "options": [
-          "comunidade",
-          "aprender",
-          "Gosto",
-          "praticar"
+          "Quanto custa um quilo?",
+          "Falamos de banana.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
+        "prompt": "Qual afirmação completa este momento do áudio “A feira do bairro: ouça”? “Vamos praticar juntos…”",
         "options": [
-          "custa",
-          "quilo",
-          "Gosto",
-          "praticar"
+          "Quanto custa um quilo?",
+          "Falamos de banana.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       }
     ]
@@ -17019,92 +17019,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“_____ fazer uma pausa?”",
+            "prompt": "Qual afirmação completa este momento do áudio “Trabalho e pausa: ouça”? “Posso fazer uma…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Posso"
+                "text": "Posso fazer uma pausa?"
               },
               {
                 "id": "o2",
-                "text": "comunidade"
+                "text": "Falamos de colega."
               },
               {
                 "id": "o3",
-                "text": "aprender"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "praticar"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Falamos de _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Trabalho e pausa: ouça”? “Falamos de colega…”",
             "options": [
               {
                 "id": "o1",
-                "text": "comunidade"
+                "text": "Posso fazer uma pausa?"
               },
               {
                 "id": "o2",
-                "text": "colega"
+                "text": "Falamos de colega."
               },
               {
                 "id": "o3",
-                "text": "aprender"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "praticar"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Trabalho e pausa: ouça”? “Gosto de aprender…”",
             "options": [
               {
                 "id": "o1",
-                "text": "comunidade"
+                "text": "Posso fazer uma pausa?"
               },
               {
                 "id": "o2",
-                "text": "aprender"
+                "text": "Falamos de colega."
               },
               {
                 "id": "o3",
-                "text": "Gosto"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "praticar"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Trabalho e pausa: ouça”? “Vamos praticar juntos…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Posso"
+                "text": "Posso fazer uma pausa?"
               },
               {
                 "id": "o2",
-                "text": "fazer"
+                "text": "Falamos de colega."
               },
               {
                 "id": "o3",
-                "text": "pausa"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "praticar"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           }
@@ -17115,42 +17115,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“_____ fazer uma pausa?”",
+        "prompt": "Qual afirmação completa este momento do áudio “Trabalho e pausa: ouça”? “Posso fazer uma…”",
         "options": [
-          "Posso",
-          "comunidade",
-          "aprender",
-          "praticar"
+          "Posso fazer uma pausa?",
+          "Falamos de colega.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Falamos de _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Trabalho e pausa: ouça”? “Falamos de colega…”",
         "options": [
-          "comunidade",
-          "colega",
-          "aprender",
-          "praticar"
+          "Posso fazer uma pausa?",
+          "Falamos de colega.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Trabalho e pausa: ouça”? “Gosto de aprender…”",
         "options": [
-          "comunidade",
-          "aprender",
-          "Gosto",
-          "praticar"
+          "Posso fazer uma pausa?",
+          "Falamos de colega.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Trabalho e pausa: ouça”? “Vamos praticar juntos…”",
         "options": [
-          "Posso",
-          "fazer",
-          "pausa",
-          "praticar"
+          "Posso fazer uma pausa?",
+          "Falamos de colega.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       }
     ]
@@ -20298,92 +20298,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Hoje, em uma conversa sobre Ambiente no bairro, três colegas contam uma história que aconteceu em uma comunidade _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Ambiente no bairro: palavras”? “Hoje em uma conversa sobre Ambiente no…”",
             "options": [
               {
                 "id": "o1",
-                "text": "brasileira"
+                "text": "Hoje, em uma conversa sobre Ambiente no bairro, três colegas contam uma história que aconteceu em uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "compartilhados"
+                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
               },
               {
                 "id": "o3",
-                "text": "colegas"
+                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
               },
               {
                 "id": "o4",
-                "text": "pessoas"
+                "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A conversa não foi _____ fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Ambiente no bairro: palavras”? “A conversa não foi sempre fácil cada…”",
             "options": [
               {
                 "id": "o1",
-                "text": "compartilhados"
+                "text": "Hoje, em uma conversa sobre Ambiente no bairro, três colegas contam uma história que aconteceu em uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "sempre"
+                "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
               },
               {
                 "id": "o3",
-                "text": "trabalhadores"
+                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
               },
               {
                 "id": "o4",
-                "text": "participantes"
+                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Uma senhora que mora no bairro há muitos anos disse que se _____ respeitada por poder contar o que observa todos os dias.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Ambiente no bairro: palavras”? “Uma senhora que mora no bairro há…”",
             "options": [
               {
                 "id": "o1",
-                "text": "compartilhados"
+                "text": "Hoje, em uma conversa sobre Ambiente no bairro, três colegas contam uma história que aconteceu em uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "trabalhadores"
+                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
               },
               {
                 "id": "o3",
-                "text": "sentiu"
+                "text": "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias."
               },
               {
                 "id": "o4",
-                "text": "participantes"
+                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao terminar, os colegas concluíram que pequenos passos, quando são bem _____ e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Ambiente no bairro: palavras”? “Ao terminar os colegas concluíram que pequenos…”",
             "options": [
               {
                 "id": "o1",
-                "text": "compartilhados"
+                "text": "Hoje, em uma conversa sobre Ambiente no bairro, três colegas contam uma história que aconteceu em uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "colegas"
+                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
               },
               {
                 "id": "o3",
-                "text": "pessoas"
+                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
               },
               {
                 "id": "o4",
-                "text": "planejados"
+                "text": "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
               }
             ]
           }
@@ -20460,42 +20460,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Hoje, em uma conversa sobre Ambiente no bairro, três colegas contam uma história que aconteceu em uma comunidade _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Ambiente no bairro: palavras”? “Hoje em uma conversa sobre Ambiente no…”",
         "options": [
-          "brasileira",
-          "compartilhados",
-          "colegas",
-          "pessoas"
+          "Hoje, em uma conversa sobre Ambiente no bairro, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
+          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
+          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes.",
+          "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A conversa não foi _____ fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Ambiente no bairro: palavras”? “A conversa não foi sempre fácil cada…”",
         "options": [
-          "compartilhados",
-          "sempre",
-          "trabalhadores",
-          "participantes"
+          "Hoje, em uma conversa sobre Ambiente no bairro, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
+          "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.",
+          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
+          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Uma senhora que mora no bairro há muitos anos disse que se _____ respeitada por poder contar o que observa todos os dias.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Ambiente no bairro: palavras”? “Uma senhora que mora no bairro há…”",
         "options": [
-          "compartilhados",
-          "trabalhadores",
-          "sentiu",
-          "participantes"
+          "Hoje, em uma conversa sobre Ambiente no bairro, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
+          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
+          "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.",
+          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao terminar, os colegas concluíram que pequenos passos, quando são bem _____ e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Ambiente no bairro: palavras”? “Ao terminar os colegas concluíram que pequenos…”",
         "options": [
-          "compartilhados",
-          "colegas",
-          "pessoas",
-          "planejados"
+          "Hoje, em uma conversa sobre Ambiente no bairro, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
+          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
+          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes.",
+          "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
         ]
       }
     ]
@@ -20820,92 +20820,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Mídia e informação, Marina e Caio visitam uma rádio comunitária em _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Mídia e informação · Compreensão oral”? “Neste episódio sobre Mídia e…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Salvador"
+                "text": "Neste episódio sobre Mídia e informação, Marina e Caio visitam uma rádio comunitária em Salvador."
               },
               {
                 "id": "o2",
-                "text": "participantes"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "consequências"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "necessidades"
+                "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Mídia e informação · Compreensão oral”? “Ela explica que antes de agir é…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Mídia e informação, Marina e Caio visitam uma rádio comunitária em Salvador."
               },
               {
                 "id": "o2",
-                "text": "explica"
+                "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
               },
               {
                 "id": "o3",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o4",
-                "text": "necessidades"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Mídia e informação · Compreensão oral”? “Marina lembra que duas soluções podem…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Mídia e informação, Marina e Caio visitam uma rádio comunitária em Salvador."
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "parecer"
+                "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
               },
               {
                 "id": "o4",
-                "text": "necessidades"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Mídia e informação · Compreensão oral”? “A história mostra que uma…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Mídia e informação, Marina e Caio visitam uma rádio comunitária em Salvador."
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "necessidades"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "inspirar"
+                "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
               }
             ]
           }
@@ -20925,42 +20925,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Mídia e informação, Marina e Caio visitam uma rádio comunitária em _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Mídia e informação · Compreensão oral”? “Neste episódio sobre Mídia e…”",
         "options": [
-          "Salvador",
-          "participantes",
-          "consequências",
-          "necessidades"
+          "Neste episódio sobre Mídia e informação, Marina e Caio visitam uma rádio comunitária em Salvador.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Mídia e informação · Compreensão oral”? “Ela explica que antes de agir é…”",
         "options": [
-          "participantes",
-          "explica",
-          "consequências",
-          "necessidades"
+          "Neste episódio sobre Mídia e informação, Marina e Caio visitam uma rádio comunitária em Salvador.",
+          "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Mídia e informação · Compreensão oral”? “Marina lembra que duas soluções podem…”",
         "options": [
-          "participantes",
-          "consequências",
-          "parecer",
-          "necessidades"
+          "Neste episódio sobre Mídia e informação, Marina e Caio visitam uma rádio comunitária em Salvador.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Mídia e informação · Compreensão oral”? “A história mostra que uma…”",
         "options": [
-          "participantes",
-          "consequências",
-          "necessidades",
-          "inspirar"
+          "Neste episódio sobre Mídia e informação, Marina e Caio visitam uma rádio comunitária em Salvador.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         ]
       }
     ]
@@ -21057,92 +21057,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Pesquisa e método, Marina e Caio visitam uma comunidade _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Pesquisa e método · Compreensão oral”? “Neste episódio sobre Pesquisa e…”",
             "options": [
               {
                 "id": "o1",
-                "text": "brasileira"
+                "text": "Neste episódio sobre Pesquisa e método, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "visitam"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "questão"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "pessoas"
+                "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Pesquisa e método · Compreensão oral”? “Ela explica que antes de agir é…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Pesquisa e método, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "explica"
+                "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
               },
               {
                 "id": "o3",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o4",
-                "text": "necessidades"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Pesquisa e método · Compreensão oral”? “Marina lembra que duas soluções podem…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Pesquisa e método, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "parecer"
+                "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
               },
               {
                 "id": "o4",
-                "text": "necessidades"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Pesquisa e método · Compreensão oral”? “A história mostra que uma…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Pesquisa e método, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "necessidades"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "inspirar"
+                "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
               }
             ]
           }
@@ -21162,42 +21162,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Pesquisa e método, Marina e Caio visitam uma comunidade _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Pesquisa e método · Compreensão oral”? “Neste episódio sobre Pesquisa e…”",
         "options": [
-          "brasileira",
-          "visitam",
-          "questão",
-          "pessoas"
+          "Neste episódio sobre Pesquisa e método, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Pesquisa e método · Compreensão oral”? “Ela explica que antes de agir é…”",
         "options": [
-          "participantes",
-          "explica",
-          "consequências",
-          "necessidades"
+          "Neste episódio sobre Pesquisa e método, Marina e Caio visitam uma comunidade brasileira.",
+          "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Pesquisa e método · Compreensão oral”? “Marina lembra que duas soluções podem…”",
         "options": [
-          "participantes",
-          "consequências",
-          "parecer",
-          "necessidades"
+          "Neste episódio sobre Pesquisa e método, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Pesquisa e método · Compreensão oral”? “A história mostra que uma…”",
         "options": [
-          "participantes",
-          "consequências",
-          "necessidades",
-          "inspirar"
+          "Neste episódio sobre Pesquisa e método, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         ]
       }
     ]
@@ -21294,92 +21294,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Direito e responsabilidade, Marina e Caio visitam uma comunidade _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Direito e responsabilidade · Compreensão oral”? “Neste episódio sobre Direito e…”",
             "options": [
               {
                 "id": "o1",
-                "text": "brasileira"
+                "text": "Neste episódio sobre Direito e responsabilidade, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "responsabilidade"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "Direito"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "visitam"
+                "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Direito e responsabilidade · Compreensão oral”? “Ela explica que antes de agir é…”",
             "options": [
               {
                 "id": "o1",
-                "text": "responsabilidade"
+                "text": "Neste episódio sobre Direito e responsabilidade, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "explica"
+                "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
               },
               {
                 "id": "o3",
-                "text": "participantes"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o4",
-                "text": "consequências"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Direito e responsabilidade · Compreensão oral”? “Marina lembra que duas soluções podem…”",
             "options": [
               {
                 "id": "o1",
-                "text": "responsabilidade"
+                "text": "Neste episódio sobre Direito e responsabilidade, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "participantes"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "parecer"
+                "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
               },
               {
                 "id": "o4",
-                "text": "consequências"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Direito e responsabilidade · Compreensão oral”? “A história mostra que uma…”",
             "options": [
               {
                 "id": "o1",
-                "text": "responsabilidade"
+                "text": "Neste episódio sobre Direito e responsabilidade, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "participantes"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "consequências"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "inspirar"
+                "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
               }
             ]
           }
@@ -21399,42 +21399,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Direito e responsabilidade, Marina e Caio visitam uma comunidade _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Direito e responsabilidade · Compreensão oral”? “Neste episódio sobre Direito e…”",
         "options": [
-          "brasileira",
-          "responsabilidade",
-          "Direito",
-          "visitam"
+          "Neste episódio sobre Direito e responsabilidade, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Direito e responsabilidade · Compreensão oral”? “Ela explica que antes de agir é…”",
         "options": [
-          "responsabilidade",
-          "explica",
-          "participantes",
-          "consequências"
+          "Neste episódio sobre Direito e responsabilidade, Marina e Caio visitam uma comunidade brasileira.",
+          "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Direito e responsabilidade · Compreensão oral”? “Marina lembra que duas soluções podem…”",
         "options": [
-          "responsabilidade",
-          "participantes",
-          "parecer",
-          "consequências"
+          "Neste episódio sobre Direito e responsabilidade, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Direito e responsabilidade · Compreensão oral”? “A história mostra que uma…”",
         "options": [
-          "responsabilidade",
-          "participantes",
-          "consequências",
-          "inspirar"
+          "Neste episódio sobre Direito e responsabilidade, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         ]
       }
     ]
@@ -21492,92 +21492,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Onde fica a _____?”",
+            "prompt": "Qual afirmação completa este momento do áudio “Caminhos da cidade: ouça”? “Onde fica a…”",
             "options": [
               {
                 "id": "o1",
-                "text": "parada"
+                "text": "Onde fica a parada?"
               },
               {
                 "id": "o2",
-                "text": "comunidade"
+                "text": "Falamos de rua."
               },
               {
                 "id": "o3",
-                "text": "rua"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "Onde"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“_____ de rua.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Caminhos da cidade: ouça”? “Falamos de rua…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Onde"
+                "text": "Onde fica a parada?"
               },
               {
                 "id": "o2",
-                "text": "Falamos"
+                "text": "Falamos de rua."
               },
               {
                 "id": "o3",
-                "text": "fica"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "comunidade"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Caminhos da cidade: ouça”? “Gosto de aprender…”",
             "options": [
               {
                 "id": "o1",
-                "text": "comunidade"
+                "text": "Onde fica a parada?"
               },
               {
                 "id": "o2",
-                "text": "aprender"
+                "text": "Falamos de rua."
               },
               {
                 "id": "o3",
-                "text": "Gosto"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "praticar"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Caminhos da cidade: ouça”? “Vamos praticar juntos…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Gosto"
+                "text": "Onde fica a parada?"
               },
               {
                 "id": "o2",
-                "text": "Vamos"
+                "text": "Falamos de rua."
               },
               {
                 "id": "o3",
-                "text": "parada"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "praticar"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           }
@@ -21588,42 +21588,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Onde fica a _____?”",
+        "prompt": "Qual afirmação completa este momento do áudio “Caminhos da cidade: ouça”? “Onde fica a…”",
         "options": [
-          "parada",
-          "comunidade",
-          "rua",
-          "Onde"
+          "Onde fica a parada?",
+          "Falamos de rua.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“_____ de rua.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Caminhos da cidade: ouça”? “Falamos de rua…”",
         "options": [
-          "Onde",
-          "Falamos",
-          "fica",
-          "comunidade"
+          "Onde fica a parada?",
+          "Falamos de rua.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Caminhos da cidade: ouça”? “Gosto de aprender…”",
         "options": [
-          "comunidade",
-          "aprender",
-          "Gosto",
-          "praticar"
+          "Onde fica a parada?",
+          "Falamos de rua.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Caminhos da cidade: ouça”? “Vamos praticar juntos…”",
         "options": [
-          "Gosto",
-          "Vamos",
-          "parada",
-          "praticar"
+          "Onde fica a parada?",
+          "Falamos de rua.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       }
     ]
@@ -21681,92 +21681,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“A exposição foi _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Arte na comunidade: ouça”? “A exposição foi…”",
             "options": [
               {
                 "id": "o1",
-                "text": "interessante"
+                "text": "A exposição foi interessante."
               },
               {
                 "id": "o2",
-                "text": "exposição"
+                "text": "Falamos de exposição."
               },
               {
                 "id": "o3",
-                "text": "comunidade"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "foi"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Falamos de _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Arte na comunidade: ouça”? “Falamos de exposição…”",
             "options": [
               {
                 "id": "o1",
-                "text": "interessante"
+                "text": "A exposição foi interessante."
               },
               {
                 "id": "o2",
-                "text": "exposição"
+                "text": "Falamos de exposição."
               },
               {
                 "id": "o3",
-                "text": "juntos"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "amanhã"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Arte na comunidade: ouça”? “Gosto de aprender…”",
             "options": [
               {
                 "id": "o1",
-                "text": "interessante"
+                "text": "A exposição foi interessante."
               },
               {
                 "id": "o2",
-                "text": "comunidade"
+                "text": "Falamos de exposição."
               },
               {
                 "id": "o3",
-                "text": "Gosto"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "exposição"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Arte na comunidade: ouça”? “Vamos praticar juntos…”",
             "options": [
               {
                 "id": "o1",
-                "text": "interessante"
+                "text": "A exposição foi interessante."
               },
               {
                 "id": "o2",
-                "text": "Gosto"
+                "text": "Falamos de exposição."
               },
               {
                 "id": "o3",
-                "text": "Vamos"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "praticar"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           }
@@ -21777,42 +21777,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“A exposição foi _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Arte na comunidade: ouça”? “A exposição foi…”",
         "options": [
-          "interessante",
-          "exposição",
-          "comunidade",
-          "foi"
+          "A exposição foi interessante.",
+          "Falamos de exposição.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Falamos de _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Arte na comunidade: ouça”? “Falamos de exposição…”",
         "options": [
-          "interessante",
-          "exposição",
-          "juntos",
-          "amanhã"
+          "A exposição foi interessante.",
+          "Falamos de exposição.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Arte na comunidade: ouça”? “Gosto de aprender…”",
         "options": [
-          "interessante",
-          "comunidade",
-          "Gosto",
-          "exposição"
+          "A exposição foi interessante.",
+          "Falamos de exposição.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Arte na comunidade: ouça”? “Vamos praticar juntos…”",
         "options": [
-          "interessante",
-          "Gosto",
-          "Vamos",
-          "praticar"
+          "A exposição foi interessante.",
+          "Falamos de exposição.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       }
     ]
@@ -24960,92 +24960,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Hoje, em uma conversa sobre Histórias e memórias, três colegas contam uma história que aconteceu em uma comunidade _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Histórias e memórias: palavras”? “Hoje em uma conversa sobre Histórias e…”",
             "options": [
               {
                 "id": "o1",
-                "text": "brasileira"
+                "text": "Hoje, em uma conversa sobre Histórias e memórias, três colegas contam uma história que aconteceu em uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "compartilhados"
+                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
               },
               {
                 "id": "o3",
-                "text": "colegas"
+                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
               },
               {
                 "id": "o4",
-                "text": "pessoas"
+                "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A conversa não foi _____ fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Histórias e memórias: palavras”? “A conversa não foi sempre fácil cada…”",
             "options": [
               {
                 "id": "o1",
-                "text": "compartilhados"
+                "text": "Hoje, em uma conversa sobre Histórias e memórias, três colegas contam uma história que aconteceu em uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "sempre"
+                "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
               },
               {
                 "id": "o3",
-                "text": "trabalhadores"
+                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
               },
               {
                 "id": "o4",
-                "text": "participantes"
+                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Uma senhora que mora no bairro há muitos anos disse que se _____ respeitada por poder contar o que observa todos os dias.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Histórias e memórias: palavras”? “Uma senhora que mora no bairro há…”",
             "options": [
               {
                 "id": "o1",
-                "text": "compartilhados"
+                "text": "Hoje, em uma conversa sobre Histórias e memórias, três colegas contam uma história que aconteceu em uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "trabalhadores"
+                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
               },
               {
                 "id": "o3",
-                "text": "sentiu"
+                "text": "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias."
               },
               {
                 "id": "o4",
-                "text": "participantes"
+                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao terminar, os colegas concluíram que pequenos passos, quando são bem _____ e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Histórias e memórias: palavras”? “Ao terminar os colegas concluíram que pequenos…”",
             "options": [
               {
                 "id": "o1",
-                "text": "compartilhados"
+                "text": "Hoje, em uma conversa sobre Histórias e memórias, três colegas contam uma história que aconteceu em uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "colegas"
+                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
               },
               {
                 "id": "o3",
-                "text": "pessoas"
+                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
               },
               {
                 "id": "o4",
-                "text": "planejados"
+                "text": "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
               }
             ]
           }
@@ -25122,42 +25122,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Hoje, em uma conversa sobre Histórias e memórias, três colegas contam uma história que aconteceu em uma comunidade _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Histórias e memórias: palavras”? “Hoje em uma conversa sobre Histórias e…”",
         "options": [
-          "brasileira",
-          "compartilhados",
-          "colegas",
-          "pessoas"
+          "Hoje, em uma conversa sobre Histórias e memórias, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
+          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
+          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes.",
+          "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A conversa não foi _____ fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Histórias e memórias: palavras”? “A conversa não foi sempre fácil cada…”",
         "options": [
-          "compartilhados",
-          "sempre",
-          "trabalhadores",
-          "participantes"
+          "Hoje, em uma conversa sobre Histórias e memórias, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
+          "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.",
+          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
+          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Uma senhora que mora no bairro há muitos anos disse que se _____ respeitada por poder contar o que observa todos os dias.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Histórias e memórias: palavras”? “Uma senhora que mora no bairro há…”",
         "options": [
-          "compartilhados",
-          "trabalhadores",
-          "sentiu",
-          "participantes"
+          "Hoje, em uma conversa sobre Histórias e memórias, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
+          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
+          "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.",
+          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao terminar, os colegas concluíram que pequenos passos, quando são bem _____ e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Histórias e memórias: palavras”? “Ao terminar os colegas concluíram que pequenos…”",
         "options": [
-          "compartilhados",
-          "colegas",
-          "pessoas",
-          "planejados"
+          "Hoje, em uma conversa sobre Histórias e memórias, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
+          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
+          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes.",
+          "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
         ]
       }
     ]
@@ -25482,92 +25482,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Saúde e bem-estar, Marina e Caio visitam uma unidade de saúde de bairro em _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Saúde e bem-estar · Compreensão oral”? “Neste episódio sobre Saúde e bem-estar…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Fortaleza"
+                "text": "Neste episódio sobre Saúde e bem-estar, Marina e Caio visitam uma unidade de saúde de bairro em Fortaleza."
               },
               {
                 "id": "o2",
-                "text": "participantes"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "consequências"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "Marina"
+                "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Saúde e bem-estar · Compreensão oral”? “Ela explica que antes de agir é…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Saúde e bem-estar, Marina e Caio visitam uma unidade de saúde de bairro em Fortaleza."
               },
               {
                 "id": "o2",
-                "text": "explica"
+                "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
               },
               {
                 "id": "o3",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o4",
-                "text": "necessidades"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Saúde e bem-estar · Compreensão oral”? “Marina lembra que duas soluções podem…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Saúde e bem-estar, Marina e Caio visitam uma unidade de saúde de bairro em Fortaleza."
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "parecer"
+                "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
               },
               {
                 "id": "o4",
-                "text": "necessidades"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Saúde e bem-estar · Compreensão oral”? “A história mostra que uma…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Saúde e bem-estar, Marina e Caio visitam uma unidade de saúde de bairro em Fortaleza."
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "necessidades"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "inspirar"
+                "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
               }
             ]
           }
@@ -25587,42 +25587,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Saúde e bem-estar, Marina e Caio visitam uma unidade de saúde de bairro em _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Saúde e bem-estar · Compreensão oral”? “Neste episódio sobre Saúde e bem-estar…”",
         "options": [
-          "Fortaleza",
-          "participantes",
-          "consequências",
-          "Marina"
+          "Neste episódio sobre Saúde e bem-estar, Marina e Caio visitam uma unidade de saúde de bairro em Fortaleza.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Saúde e bem-estar · Compreensão oral”? “Ela explica que antes de agir é…”",
         "options": [
-          "participantes",
-          "explica",
-          "consequências",
-          "necessidades"
+          "Neste episódio sobre Saúde e bem-estar, Marina e Caio visitam uma unidade de saúde de bairro em Fortaleza.",
+          "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Saúde e bem-estar · Compreensão oral”? “Marina lembra que duas soluções podem…”",
         "options": [
-          "participantes",
-          "consequências",
-          "parecer",
-          "necessidades"
+          "Neste episódio sobre Saúde e bem-estar, Marina e Caio visitam uma unidade de saúde de bairro em Fortaleza.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Saúde e bem-estar · Compreensão oral”? “A história mostra que uma…”",
         "options": [
-          "participantes",
-          "consequências",
-          "necessidades",
-          "inspirar"
+          "Neste episódio sobre Saúde e bem-estar, Marina e Caio visitam uma unidade de saúde de bairro em Fortaleza.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         ]
       }
     ]
@@ -25719,92 +25719,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Economia cotidiana, Marina e Caio visitam uma comunidade _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Economia cotidiana · Compreensão oral”? “Neste episódio sobre Economia…”",
             "options": [
               {
                 "id": "o1",
-                "text": "brasileira"
+                "text": "Neste episódio sobre Economia cotidiana, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "visitam"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "questão"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "pessoas"
+                "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Economia cotidiana · Compreensão oral”? “Ela explica que antes de agir é…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Economia cotidiana, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "explica"
+                "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
               },
               {
                 "id": "o3",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o4",
-                "text": "necessidades"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Economia cotidiana · Compreensão oral”? “Marina lembra que duas soluções podem…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Economia cotidiana, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "parecer"
+                "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
               },
               {
                 "id": "o4",
-                "text": "necessidades"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Economia cotidiana · Compreensão oral”? “A história mostra que uma…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Economia cotidiana, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "necessidades"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "inspirar"
+                "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
               }
             ]
           }
@@ -25824,42 +25824,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Economia cotidiana, Marina e Caio visitam uma comunidade _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Economia cotidiana · Compreensão oral”? “Neste episódio sobre Economia…”",
         "options": [
-          "brasileira",
-          "visitam",
-          "questão",
-          "pessoas"
+          "Neste episódio sobre Economia cotidiana, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Economia cotidiana · Compreensão oral”? “Ela explica que antes de agir é…”",
         "options": [
-          "participantes",
-          "explica",
-          "consequências",
-          "necessidades"
+          "Neste episódio sobre Economia cotidiana, Marina e Caio visitam uma comunidade brasileira.",
+          "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Economia cotidiana · Compreensão oral”? “Marina lembra que duas soluções podem…”",
         "options": [
-          "participantes",
-          "consequências",
-          "parecer",
-          "necessidades"
+          "Neste episódio sobre Economia cotidiana, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Economia cotidiana · Compreensão oral”? “A história mostra que uma…”",
         "options": [
-          "participantes",
-          "consequências",
-          "necessidades",
-          "inspirar"
+          "Neste episódio sobre Economia cotidiana, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         ]
       }
     ]
@@ -25956,92 +25956,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Economia e desigualdade, Marina e Caio visitam uma comunidade _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Economia e desigualdade · Compreensão oral”? “Neste episódio sobre Economia e…”",
             "options": [
               {
                 "id": "o1",
-                "text": "brasileira"
+                "text": "Neste episódio sobre Economia e desigualdade, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "disuguaglianza"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "visitam"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "questão"
+                "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Economia e desigualdade · Compreensão oral”? “Ela explica que antes de agir é…”",
             "options": [
               {
                 "id": "o1",
-                "text": "disuguaglianza"
+                "text": "Neste episódio sobre Economia e desigualdade, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "explica"
+                "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
               },
               {
                 "id": "o3",
-                "text": "participantes"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o4",
-                "text": "consequências"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Economia e desigualdade · Compreensão oral”? “Marina lembra que duas soluções podem…”",
             "options": [
               {
                 "id": "o1",
-                "text": "disuguaglianza"
+                "text": "Neste episódio sobre Economia e desigualdade, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "participantes"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "parecer"
+                "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
               },
               {
                 "id": "o4",
-                "text": "consequências"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Economia e desigualdade · Compreensão oral”? “A história mostra que uma…”",
             "options": [
               {
                 "id": "o1",
-                "text": "disuguaglianza"
+                "text": "Neste episódio sobre Economia e desigualdade, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "participantes"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "consequências"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "inspirar"
+                "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
               }
             ]
           }
@@ -26061,42 +26061,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Economia e desigualdade, Marina e Caio visitam uma comunidade _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Economia e desigualdade · Compreensão oral”? “Neste episódio sobre Economia e…”",
         "options": [
-          "brasileira",
-          "disuguaglianza",
-          "visitam",
-          "questão"
+          "Neste episódio sobre Economia e desigualdade, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Economia e desigualdade · Compreensão oral”? “Ela explica que antes de agir é…”",
         "options": [
-          "disuguaglianza",
-          "explica",
-          "participantes",
-          "consequências"
+          "Neste episódio sobre Economia e desigualdade, Marina e Caio visitam uma comunidade brasileira.",
+          "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Economia e desigualdade · Compreensão oral”? “Marina lembra que duas soluções podem…”",
         "options": [
-          "disuguaglianza",
-          "participantes",
-          "parecer",
-          "consequências"
+          "Neste episódio sobre Economia e desigualdade, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Economia e desigualdade · Compreensão oral”? “A história mostra que uma…”",
         "options": [
-          "disuguaglianza",
-          "participantes",
-          "consequências",
-          "inspirar"
+          "Neste episódio sobre Economia e desigualdade, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         ]
       }
     ]
@@ -26154,92 +26154,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Qual _____ você gosta?”",
+            "prompt": "Qual afirmação completa este momento do áudio “Escola e amizade: ouça”? “Qual matéria você…”",
             "options": [
               {
                 "id": "o1",
-                "text": "matéria"
+                "text": "Qual matéria você gosta?"
               },
               {
                 "id": "o2",
-                "text": "Qual"
+                "text": "Falamos de escola."
               },
               {
                 "id": "o3",
-                "text": "você"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "comunidade"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Falamos de _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Escola e amizade: ouça”? “Falamos de escola…”",
             "options": [
               {
                 "id": "o1",
-                "text": "comunidade"
+                "text": "Qual matéria você gosta?"
               },
               {
                 "id": "o2",
-                "text": "escola"
+                "text": "Falamos de escola."
               },
               {
                 "id": "o3",
-                "text": "Qual"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "você"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Escola e amizade: ouça”? “Gosto de aprender…”",
             "options": [
               {
                 "id": "o1",
-                "text": "comunidade"
+                "text": "Qual matéria você gosta?"
               },
               {
                 "id": "o2",
-                "text": "aprender"
+                "text": "Falamos de escola."
               },
               {
                 "id": "o3",
-                "text": "Gosto"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "praticar"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Escola e amizade: ouça”? “Vamos praticar juntos…”",
             "options": [
               {
                 "id": "o1",
-                "text": "gosta"
+                "text": "Qual matéria você gosta?"
               },
               {
                 "id": "o2",
-                "text": "Gosto"
+                "text": "Falamos de escola."
               },
               {
                 "id": "o3",
-                "text": "Vamos"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "praticar"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           }
@@ -26250,42 +26250,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Qual _____ você gosta?”",
+        "prompt": "Qual afirmação completa este momento do áudio “Escola e amizade: ouça”? “Qual matéria você…”",
         "options": [
-          "matéria",
-          "Qual",
-          "você",
-          "comunidade"
+          "Qual matéria você gosta?",
+          "Falamos de escola.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Falamos de _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Escola e amizade: ouça”? “Falamos de escola…”",
         "options": [
-          "comunidade",
-          "escola",
-          "Qual",
-          "você"
+          "Qual matéria você gosta?",
+          "Falamos de escola.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Escola e amizade: ouça”? “Gosto de aprender…”",
         "options": [
-          "comunidade",
-          "aprender",
-          "Gosto",
-          "praticar"
+          "Qual matéria você gosta?",
+          "Falamos de escola.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Escola e amizade: ouça”? “Vamos praticar juntos…”",
         "options": [
-          "gosta",
-          "Gosto",
-          "Vamos",
-          "praticar"
+          "Qual matéria você gosta?",
+          "Falamos de escola.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       }
     ]
@@ -26343,92 +26343,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Não quero incomodar os _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Viajar com respeito: ouça”? “Não quero incomodar…”",
             "options": [
               {
                 "id": "o1",
-                "text": "moradores"
+                "text": "Não quero incomodar os moradores."
               },
               {
                 "id": "o2",
-                "text": "juntos"
+                "text": "Falamos de morador."
               },
               {
                 "id": "o3",
-                "text": "amanhã"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "Falamos"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Falamos de _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Viajar com respeito: ouça”? “Falamos de morador…”",
             "options": [
               {
                 "id": "o1",
-                "text": "comunidade"
+                "text": "Não quero incomodar os moradores."
               },
               {
                 "id": "o2",
-                "text": "morador"
+                "text": "Falamos de morador."
               },
               {
                 "id": "o3",
-                "text": "quero"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "incomodar"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Viajar com respeito: ouça”? “Gosto de aprender…”",
             "options": [
               {
                 "id": "o1",
-                "text": "comunidade"
+                "text": "Não quero incomodar os moradores."
               },
               {
                 "id": "o2",
-                "text": "incomodar"
+                "text": "Falamos de morador."
               },
               {
                 "id": "o3",
-                "text": "Gosto"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "moradores"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Viajar com respeito: ouça”? “Vamos praticar juntos…”",
             "options": [
               {
                 "id": "o1",
-                "text": "quero"
+                "text": "Não quero incomodar os moradores."
               },
               {
                 "id": "o2",
-                "text": "Gosto"
+                "text": "Falamos de morador."
               },
               {
                 "id": "o3",
-                "text": "Vamos"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "praticar"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           }
@@ -26439,42 +26439,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Não quero incomodar os _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Viajar com respeito: ouça”? “Não quero incomodar…”",
         "options": [
-          "moradores",
-          "juntos",
-          "amanhã",
-          "Falamos"
+          "Não quero incomodar os moradores.",
+          "Falamos de morador.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Falamos de _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Viajar com respeito: ouça”? “Falamos de morador…”",
         "options": [
-          "comunidade",
-          "morador",
-          "quero",
-          "incomodar"
+          "Não quero incomodar os moradores.",
+          "Falamos de morador.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Viajar com respeito: ouça”? “Gosto de aprender…”",
         "options": [
-          "comunidade",
-          "incomodar",
-          "Gosto",
-          "moradores"
+          "Não quero incomodar os moradores.",
+          "Falamos de morador.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Viajar com respeito: ouça”? “Vamos praticar juntos…”",
         "options": [
-          "quero",
-          "Gosto",
-          "Vamos",
-          "praticar"
+          "Não quero incomodar os moradores.",
+          "Falamos de morador.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       }
     ]
@@ -29622,92 +29622,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Hoje, em uma conversa sobre Projeto coletivo, três colegas contam uma história que aconteceu em uma comunidade _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Projeto coletivo: palavras”? “Hoje em uma conversa sobre Projeto…”",
             "options": [
               {
                 "id": "o1",
-                "text": "brasileira"
+                "text": "Hoje, em uma conversa sobre Projeto coletivo, três colegas contam uma história que aconteceu em uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "compartilhados"
+                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
               },
               {
                 "id": "o3",
-                "text": "Projeto"
+                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
               },
               {
                 "id": "o4",
-                "text": "colegas"
+                "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A conversa não foi _____ fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Projeto coletivo: palavras”? “A conversa não foi sempre fácil cada…”",
             "options": [
               {
                 "id": "o1",
-                "text": "compartilhados"
+                "text": "Hoje, em uma conversa sobre Projeto coletivo, três colegas contam uma história que aconteceu em uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "sempre"
+                "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
               },
               {
                 "id": "o3",
-                "text": "trabalhadores"
+                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
               },
               {
                 "id": "o4",
-                "text": "participantes"
+                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Uma senhora que mora no bairro há muitos anos disse que se _____ respeitada por poder contar o que observa todos os dias.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Projeto coletivo: palavras”? “Uma senhora que mora no bairro há…”",
             "options": [
               {
                 "id": "o1",
-                "text": "compartilhados"
+                "text": "Hoje, em uma conversa sobre Projeto coletivo, três colegas contam uma história que aconteceu em uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "trabalhadores"
+                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
               },
               {
                 "id": "o3",
-                "text": "sentiu"
+                "text": "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias."
               },
               {
                 "id": "o4",
-                "text": "participantes"
+                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao terminar, os colegas concluíram que pequenos passos, quando são bem _____ e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Projeto coletivo: palavras”? “Ao terminar os colegas concluíram que pequenos…”",
             "options": [
               {
                 "id": "o1",
-                "text": "compartilhados"
+                "text": "Hoje, em uma conversa sobre Projeto coletivo, três colegas contam uma história que aconteceu em uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "Projeto"
+                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
               },
               {
                 "id": "o3",
-                "text": "colegas"
+                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
               },
               {
                 "id": "o4",
-                "text": "planejados"
+                "text": "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
               }
             ]
           }
@@ -29784,42 +29784,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Hoje, em uma conversa sobre Projeto coletivo, três colegas contam uma história que aconteceu em uma comunidade _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Projeto coletivo: palavras”? “Hoje em uma conversa sobre Projeto…”",
         "options": [
-          "brasileira",
-          "compartilhados",
-          "Projeto",
-          "colegas"
+          "Hoje, em uma conversa sobre Projeto coletivo, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
+          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
+          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes.",
+          "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A conversa não foi _____ fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Projeto coletivo: palavras”? “A conversa não foi sempre fácil cada…”",
         "options": [
-          "compartilhados",
-          "sempre",
-          "trabalhadores",
-          "participantes"
+          "Hoje, em uma conversa sobre Projeto coletivo, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
+          "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.",
+          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
+          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Uma senhora que mora no bairro há muitos anos disse que se _____ respeitada por poder contar o que observa todos os dias.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Projeto coletivo: palavras”? “Uma senhora que mora no bairro há…”",
         "options": [
-          "compartilhados",
-          "trabalhadores",
-          "sentiu",
-          "participantes"
+          "Hoje, em uma conversa sobre Projeto coletivo, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
+          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
+          "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.",
+          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao terminar, os colegas concluíram que pequenos passos, quando são bem _____ e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Projeto coletivo: palavras”? “Ao terminar os colegas concluíram que pequenos…”",
         "options": [
-          "compartilhados",
-          "Projeto",
-          "colegas",
-          "planejados"
+          "Hoje, em uma conversa sobre Projeto coletivo, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
+          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
+          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes.",
+          "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
         ]
       }
     ]
@@ -30144,92 +30144,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Cultura e identidade, Marina e Caio visitam um centro cultural de periferia no Rio de _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Cultura e identidade · Compreensão oral”? “Neste episódio sobre Cultura e identidade Marina…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Janeiro"
+                "text": "Neste episódio sobre Cultura e identidade, Marina e Caio visitam um centro cultural de periferia no Rio de Janeiro."
               },
               {
                 "id": "o2",
-                "text": "participantes"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "consequências"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "pertencimento"
+                "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Cultura e identidade · Compreensão oral”? “Ela explica que antes de agir é…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Cultura e identidade, Marina e Caio visitam um centro cultural de periferia no Rio de Janeiro."
               },
               {
                 "id": "o2",
-                "text": "explica"
+                "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
               },
               {
                 "id": "o3",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o4",
-                "text": "pertencimento"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Cultura e identidade · Compreensão oral”? “Marina lembra que duas soluções podem…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Cultura e identidade, Marina e Caio visitam um centro cultural de periferia no Rio de Janeiro."
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "parecer"
+                "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
               },
               {
                 "id": "o4",
-                "text": "pertencimento"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Cultura e identidade · Compreensão oral”? “A história mostra que uma…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Cultura e identidade, Marina e Caio visitam um centro cultural de periferia no Rio de Janeiro."
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "pertencimento"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "inspirar"
+                "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
               }
             ]
           }
@@ -30249,42 +30249,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Cultura e identidade, Marina e Caio visitam um centro cultural de periferia no Rio de _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Cultura e identidade · Compreensão oral”? “Neste episódio sobre Cultura e identidade Marina…”",
         "options": [
-          "Janeiro",
-          "participantes",
-          "consequências",
-          "pertencimento"
+          "Neste episódio sobre Cultura e identidade, Marina e Caio visitam um centro cultural de periferia no Rio de Janeiro.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Cultura e identidade · Compreensão oral”? “Ela explica que antes de agir é…”",
         "options": [
-          "participantes",
-          "explica",
-          "consequências",
-          "pertencimento"
+          "Neste episódio sobre Cultura e identidade, Marina e Caio visitam um centro cultural de periferia no Rio de Janeiro.",
+          "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Cultura e identidade · Compreensão oral”? “Marina lembra que duas soluções podem…”",
         "options": [
-          "participantes",
-          "consequências",
-          "parecer",
-          "pertencimento"
+          "Neste episódio sobre Cultura e identidade, Marina e Caio visitam um centro cultural de periferia no Rio de Janeiro.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Cultura e identidade · Compreensão oral”? “A história mostra que uma…”",
         "options": [
-          "participantes",
-          "consequências",
-          "pertencimento",
-          "inspirar"
+          "Neste episódio sobre Cultura e identidade, Marina e Caio visitam um centro cultural de periferia no Rio de Janeiro.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         ]
       }
     ]
@@ -30381,92 +30381,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Territórios e memória, Marina e Caio visitam uma comunidade _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Territórios e memória · Compreensão oral”? “Neste episódio sobre Territórios e…”",
             "options": [
               {
                 "id": "o1",
-                "text": "brasileira"
+                "text": "Neste episódio sobre Territórios e memória, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "trasformazione"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "memória"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "visitam"
+                "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Territórios e memória · Compreensão oral”? “Ela explica que antes de agir é…”",
             "options": [
               {
                 "id": "o1",
-                "text": "trasformazione"
+                "text": "Neste episódio sobre Territórios e memória, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "explica"
+                "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
               },
               {
                 "id": "o3",
-                "text": "participantes"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o4",
-                "text": "consequências"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Territórios e memória · Compreensão oral”? “Marina lembra que duas soluções podem…”",
             "options": [
               {
                 "id": "o1",
-                "text": "trasformazione"
+                "text": "Neste episódio sobre Territórios e memória, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "participantes"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "parecer"
+                "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
               },
               {
                 "id": "o4",
-                "text": "consequências"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Territórios e memória · Compreensão oral”? “A história mostra que uma…”",
             "options": [
               {
                 "id": "o1",
-                "text": "trasformazione"
+                "text": "Neste episódio sobre Territórios e memória, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "participantes"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "consequências"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "inspirar"
+                "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
               }
             ]
           }
@@ -30486,42 +30486,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Territórios e memória, Marina e Caio visitam uma comunidade _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Territórios e memória · Compreensão oral”? “Neste episódio sobre Territórios e…”",
         "options": [
-          "brasileira",
-          "trasformazione",
-          "memória",
-          "visitam"
+          "Neste episódio sobre Territórios e memória, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Territórios e memória · Compreensão oral”? “Ela explica que antes de agir é…”",
         "options": [
-          "trasformazione",
-          "explica",
-          "participantes",
-          "consequências"
+          "Neste episódio sobre Territórios e memória, Marina e Caio visitam uma comunidade brasileira.",
+          "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Territórios e memória · Compreensão oral”? “Marina lembra que duas soluções podem…”",
         "options": [
-          "trasformazione",
-          "participantes",
-          "parecer",
-          "consequências"
+          "Neste episódio sobre Territórios e memória, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Territórios e memória · Compreensão oral”? “A história mostra que uma…”",
         "options": [
-          "trasformazione",
-          "participantes",
-          "consequências",
-          "inspirar"
+          "Neste episódio sobre Territórios e memória, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         ]
       }
     ]
@@ -30618,92 +30618,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Ambiente e futuro, Marina e Caio visitam uma comunidade _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Ambiente e futuro · Compreensão oral”? “Neste episódio sobre Ambiente e…”",
             "options": [
               {
                 "id": "o1",
-                "text": "brasileira"
+                "text": "Neste episódio sobre Ambiente e futuro, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "visitam"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "questão"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "pessoas"
+                "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Ambiente e futuro · Compreensão oral”? “Ela explica que antes de agir é…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Ambiente e futuro, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "explica"
+                "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
               },
               {
                 "id": "o3",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o4",
-                "text": "necessidades"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Ambiente e futuro · Compreensão oral”? “Marina lembra que duas soluções podem…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Ambiente e futuro, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "parecer"
+                "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
               },
               {
                 "id": "o4",
-                "text": "necessidades"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Ambiente e futuro · Compreensão oral”? “A história mostra que uma…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Ambiente e futuro, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "necessidades"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "inspirar"
+                "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
               }
             ]
           }
@@ -30723,42 +30723,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Ambiente e futuro, Marina e Caio visitam uma comunidade _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Ambiente e futuro · Compreensão oral”? “Neste episódio sobre Ambiente e…”",
         "options": [
-          "brasileira",
-          "visitam",
-          "questão",
-          "pessoas"
+          "Neste episódio sobre Ambiente e futuro, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Ambiente e futuro · Compreensão oral”? “Ela explica que antes de agir é…”",
         "options": [
-          "participantes",
-          "explica",
-          "consequências",
-          "necessidades"
+          "Neste episódio sobre Ambiente e futuro, Marina e Caio visitam uma comunidade brasileira.",
+          "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Ambiente e futuro · Compreensão oral”? “Marina lembra que duas soluções podem…”",
         "options": [
-          "participantes",
-          "consequências",
-          "parecer",
-          "necessidades"
+          "Neste episódio sobre Ambiente e futuro, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Ambiente e futuro · Compreensão oral”? “A história mostra que uma…”",
         "options": [
-          "participantes",
-          "consequências",
-          "necessidades",
-          "inspirar"
+          "Neste episódio sobre Ambiente e futuro, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         ]
       }
     ]
@@ -30816,92 +30816,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“A _____ é clara.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Casa e vizinhança: ouça”? “A cozinha é…”",
             "options": [
               {
                 "id": "o1",
-                "text": "cozinha"
+                "text": "A cozinha é clara."
               },
               {
                 "id": "o2",
-                "text": "comunidade"
+                "text": "Falamos de cozinha."
               },
               {
                 "id": "o3",
-                "text": "clara"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "Gosto"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Falamos de _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Casa e vizinhança: ouça”? “Falamos de cozinha…”",
             "options": [
               {
                 "id": "o1",
-                "text": "comunidade"
+                "text": "A cozinha é clara."
               },
               {
                 "id": "o2",
-                "text": "cozinha"
+                "text": "Falamos de cozinha."
               },
               {
                 "id": "o3",
-                "text": "clara"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "Gosto"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Casa e vizinhança: ouça”? “Gosto de aprender…”",
             "options": [
               {
                 "id": "o1",
-                "text": "comunidade"
+                "text": "A cozinha é clara."
               },
               {
                 "id": "o2",
-                "text": "aprender"
+                "text": "Falamos de cozinha."
               },
               {
                 "id": "o3",
-                "text": "Gosto"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "praticar"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Casa e vizinhança: ouça”? “Vamos praticar juntos…”",
             "options": [
               {
                 "id": "o1",
-                "text": "clara"
+                "text": "A cozinha é clara."
               },
               {
                 "id": "o2",
-                "text": "Gosto"
+                "text": "Falamos de cozinha."
               },
               {
                 "id": "o3",
-                "text": "Vamos"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "praticar"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           }
@@ -30912,42 +30912,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“A _____ é clara.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Casa e vizinhança: ouça”? “A cozinha é…”",
         "options": [
-          "cozinha",
-          "comunidade",
-          "clara",
-          "Gosto"
+          "A cozinha é clara.",
+          "Falamos de cozinha.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Falamos de _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Casa e vizinhança: ouça”? “Falamos de cozinha…”",
         "options": [
-          "comunidade",
-          "cozinha",
-          "clara",
-          "Gosto"
+          "A cozinha é clara.",
+          "Falamos de cozinha.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Casa e vizinhança: ouça”? “Gosto de aprender…”",
         "options": [
-          "comunidade",
-          "aprender",
-          "Gosto",
-          "praticar"
+          "A cozinha é clara.",
+          "Falamos de cozinha.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Casa e vizinhança: ouça”? “Vamos praticar juntos…”",
         "options": [
-          "clara",
-          "Gosto",
-          "Vamos",
-          "praticar"
+          "A cozinha é clara.",
+          "Falamos de cozinha.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       }
     ]
@@ -31005,92 +31005,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Quando era criança, eu _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Esporte e lazer: ouça”? “Quando era criança…”",
             "options": [
               {
                 "id": "o1",
-                "text": "nadava"
+                "text": "Quando era criança, eu nadava."
               },
               {
                 "id": "o2",
-                "text": "comunidade"
+                "text": "Falamos de natação."
               },
               {
                 "id": "o3",
-                "text": "era"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "aprender"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Falamos de _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Esporte e lazer: ouça”? “Falamos de natação…”",
             "options": [
               {
                 "id": "o1",
-                "text": "comunidade"
+                "text": "Quando era criança, eu nadava."
               },
               {
                 "id": "o2",
-                "text": "natação"
+                "text": "Falamos de natação."
               },
               {
                 "id": "o3",
-                "text": "Gosto"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "Vamos"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Esporte e lazer: ouça”? “Gosto de aprender…”",
             "options": [
               {
                 "id": "o1",
-                "text": "comunidade"
+                "text": "Quando era criança, eu nadava."
               },
               {
                 "id": "o2",
-                "text": "aprender"
+                "text": "Falamos de natação."
               },
               {
                 "id": "o3",
-                "text": "Gosto"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "praticar"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Esporte e lazer: ouça”? “Vamos praticar juntos…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Gosto"
+                "text": "Quando era criança, eu nadava."
               },
               {
                 "id": "o2",
-                "text": "Vamos"
+                "text": "Falamos de natação."
               },
               {
                 "id": "o3",
-                "text": "nadava"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "praticar"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           }
@@ -31101,42 +31101,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Quando era criança, eu _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Esporte e lazer: ouça”? “Quando era criança…”",
         "options": [
-          "nadava",
-          "comunidade",
-          "era",
-          "aprender"
+          "Quando era criança, eu nadava.",
+          "Falamos de natação.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Falamos de _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Esporte e lazer: ouça”? “Falamos de natação…”",
         "options": [
-          "comunidade",
-          "natação",
-          "Gosto",
-          "Vamos"
+          "Quando era criança, eu nadava.",
+          "Falamos de natação.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Esporte e lazer: ouça”? “Gosto de aprender…”",
         "options": [
-          "comunidade",
-          "aprender",
-          "Gosto",
-          "praticar"
+          "Quando era criança, eu nadava.",
+          "Falamos de natação.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Esporte e lazer: ouça”? “Vamos praticar juntos…”",
         "options": [
-          "Gosto",
-          "Vamos",
-          "nadava",
-          "praticar"
+          "Quando era criança, eu nadava.",
+          "Falamos de natação.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       }
     ]
@@ -34284,92 +34284,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Hoje, em uma conversa sobre Tecnologia no dia a dia, três colegas contam uma história que aconteceu em uma comunidade _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Tecnologia no dia a dia: palavras”? “Hoje em uma conversa sobre Tecnologia no…”",
             "options": [
               {
                 "id": "o1",
-                "text": "brasileira"
+                "text": "Hoje, em uma conversa sobre Tecnologia no dia a dia, três colegas contam uma história que aconteceu em uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "compartilhados"
+                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
               },
               {
                 "id": "o3",
-                "text": "colegas"
+                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
               },
               {
                 "id": "o4",
-                "text": "pessoas"
+                "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A conversa não foi _____ fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Tecnologia no dia a dia: palavras”? “A conversa não foi sempre fácil cada…”",
             "options": [
               {
                 "id": "o1",
-                "text": "compartilhados"
+                "text": "Hoje, em uma conversa sobre Tecnologia no dia a dia, três colegas contam uma história que aconteceu em uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "sempre"
+                "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
               },
               {
                 "id": "o3",
-                "text": "trabalhadores"
+                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
               },
               {
                 "id": "o4",
-                "text": "participantes"
+                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Uma senhora que mora no bairro há muitos anos disse que se _____ respeitada por poder contar o que observa todos os dias.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Tecnologia no dia a dia: palavras”? “Uma senhora que mora no bairro há…”",
             "options": [
               {
                 "id": "o1",
-                "text": "compartilhados"
+                "text": "Hoje, em uma conversa sobre Tecnologia no dia a dia, três colegas contam uma história que aconteceu em uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "trabalhadores"
+                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
               },
               {
                 "id": "o3",
-                "text": "sentiu"
+                "text": "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias."
               },
               {
                 "id": "o4",
-                "text": "participantes"
+                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao terminar, os colegas concluíram que pequenos passos, quando são bem _____ e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Tecnologia no dia a dia: palavras”? “Ao terminar os colegas concluíram que pequenos…”",
             "options": [
               {
                 "id": "o1",
-                "text": "compartilhados"
+                "text": "Hoje, em uma conversa sobre Tecnologia no dia a dia, três colegas contam uma história que aconteceu em uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "colegas"
+                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
               },
               {
                 "id": "o3",
-                "text": "pessoas"
+                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
               },
               {
                 "id": "o4",
-                "text": "planejados"
+                "text": "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
               }
             ]
           }
@@ -34446,42 +34446,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Hoje, em uma conversa sobre Tecnologia no dia a dia, três colegas contam uma história que aconteceu em uma comunidade _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Tecnologia no dia a dia: palavras”? “Hoje em uma conversa sobre Tecnologia no…”",
         "options": [
-          "brasileira",
-          "compartilhados",
-          "colegas",
-          "pessoas"
+          "Hoje, em uma conversa sobre Tecnologia no dia a dia, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
+          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
+          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes.",
+          "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A conversa não foi _____ fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Tecnologia no dia a dia: palavras”? “A conversa não foi sempre fácil cada…”",
         "options": [
-          "compartilhados",
-          "sempre",
-          "trabalhadores",
-          "participantes"
+          "Hoje, em uma conversa sobre Tecnologia no dia a dia, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
+          "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.",
+          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
+          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Uma senhora que mora no bairro há muitos anos disse que se _____ respeitada por poder contar o que observa todos os dias.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Tecnologia no dia a dia: palavras”? “Uma senhora que mora no bairro há…”",
         "options": [
-          "compartilhados",
-          "trabalhadores",
-          "sentiu",
-          "participantes"
+          "Hoje, em uma conversa sobre Tecnologia no dia a dia, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
+          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
+          "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.",
+          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao terminar, os colegas concluíram que pequenos passos, quando são bem _____ e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Tecnologia no dia a dia: palavras”? “Ao terminar os colegas concluíram que pequenos…”",
         "options": [
-          "compartilhados",
-          "colegas",
-          "pessoas",
-          "planejados"
+          "Hoje, em uma conversa sobre Tecnologia no dia a dia, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
+          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
+          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes.",
+          "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
         ]
       }
     ]
@@ -34806,92 +34806,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Tecnologia e privacidade, Marina e Caio visitam uma oficina de inclusão digital em _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Tecnologia e privacidade · Compreensão oral”? “Neste episódio sobre Tecnologia e privacidade…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Brasília"
+                "text": "Neste episódio sobre Tecnologia e privacidade, Marina e Caio visitam uma oficina de inclusão digital em Brasília."
               },
               {
                 "id": "o2",
-                "text": "participantes"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "consequências"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "necessidades"
+                "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Tecnologia e privacidade · Compreensão oral”? “Ela explica que antes de agir é…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Tecnologia e privacidade, Marina e Caio visitam uma oficina de inclusão digital em Brasília."
               },
               {
                 "id": "o2",
-                "text": "explica"
+                "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
               },
               {
                 "id": "o3",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o4",
-                "text": "necessidades"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Tecnologia e privacidade · Compreensão oral”? “Marina lembra que duas soluções podem…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Tecnologia e privacidade, Marina e Caio visitam uma oficina de inclusão digital em Brasília."
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "parecer"
+                "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
               },
               {
                 "id": "o4",
-                "text": "necessidades"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Tecnologia e privacidade · Compreensão oral”? “A história mostra que uma…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Tecnologia e privacidade, Marina e Caio visitam uma oficina de inclusão digital em Brasília."
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "necessidades"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "inspirar"
+                "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
               }
             ]
           }
@@ -34911,42 +34911,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Tecnologia e privacidade, Marina e Caio visitam uma oficina de inclusão digital em _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Tecnologia e privacidade · Compreensão oral”? “Neste episódio sobre Tecnologia e privacidade…”",
         "options": [
-          "Brasília",
-          "participantes",
-          "consequências",
-          "necessidades"
+          "Neste episódio sobre Tecnologia e privacidade, Marina e Caio visitam uma oficina de inclusão digital em Brasília.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Tecnologia e privacidade · Compreensão oral”? “Ela explica que antes de agir é…”",
         "options": [
-          "participantes",
-          "explica",
-          "consequências",
-          "necessidades"
+          "Neste episódio sobre Tecnologia e privacidade, Marina e Caio visitam uma oficina de inclusão digital em Brasília.",
+          "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Tecnologia e privacidade · Compreensão oral”? “Marina lembra que duas soluções podem…”",
         "options": [
-          "participantes",
-          "consequências",
-          "parecer",
-          "necessidades"
+          "Neste episódio sobre Tecnologia e privacidade, Marina e Caio visitam uma oficina de inclusão digital em Brasília.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Tecnologia e privacidade · Compreensão oral”? “A história mostra que uma…”",
         "options": [
-          "participantes",
-          "consequências",
-          "necessidades",
-          "inspirar"
+          "Neste episódio sobre Tecnologia e privacidade, Marina e Caio visitam uma oficina de inclusão digital em Brasília.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         ]
       }
     ]
@@ -35043,92 +35043,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Comunicação e registro, Marina e Caio visitam uma comunidade _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Comunicação e registro · Compreensão oral”? “Neste episódio sobre Comunicação e…”",
             "options": [
               {
                 "id": "o1",
-                "text": "brasileira"
+                "text": "Neste episódio sobre Comunicação e registro, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "visitam"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "questão"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "pessoas"
+                "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Comunicação e registro · Compreensão oral”? “Ela explica que antes de agir é…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Comunicação e registro, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "explica"
+                "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
               },
               {
                 "id": "o3",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o4",
-                "text": "necessidades"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Comunicação e registro · Compreensão oral”? “Marina lembra que duas soluções podem…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Comunicação e registro, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "parecer"
+                "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
               },
               {
                 "id": "o4",
-                "text": "necessidades"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Comunicação e registro · Compreensão oral”? “A história mostra que uma…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Comunicação e registro, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "necessidades"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "inspirar"
+                "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
               }
             ]
           }
@@ -35148,42 +35148,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Comunicação e registro, Marina e Caio visitam uma comunidade _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Comunicação e registro · Compreensão oral”? “Neste episódio sobre Comunicação e…”",
         "options": [
-          "brasileira",
-          "visitam",
-          "questão",
-          "pessoas"
+          "Neste episódio sobre Comunicação e registro, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Comunicação e registro · Compreensão oral”? “Ela explica que antes de agir é…”",
         "options": [
-          "participantes",
-          "explica",
-          "consequências",
-          "necessidades"
+          "Neste episódio sobre Comunicação e registro, Marina e Caio visitam uma comunidade brasileira.",
+          "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Comunicação e registro · Compreensão oral”? “Marina lembra que duas soluções podem…”",
         "options": [
-          "participantes",
-          "consequências",
-          "parecer",
-          "necessidades"
+          "Neste episódio sobre Comunicação e registro, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Comunicação e registro · Compreensão oral”? “A história mostra que uma…”",
         "options": [
-          "participantes",
-          "consequências",
-          "necessidades",
-          "inspirar"
+          "Neste episódio sobre Comunicação e registro, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         ]
       }
     ]
@@ -35280,92 +35280,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Mídia e discurso, Marina e Caio visitam uma comunidade _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Mídia e discurso · Compreensão oral”? “Neste episódio sobre Mídia e…”",
             "options": [
               {
                 "id": "o1",
-                "text": "brasileira"
+                "text": "Neste episódio sobre Mídia e discurso, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "visitam"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "questão"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "pessoas"
+                "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Mídia e discurso · Compreensão oral”? “Ela explica que antes de agir é…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Mídia e discurso, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "explica"
+                "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
               },
               {
                 "id": "o3",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o4",
-                "text": "necessidades"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Mídia e discurso · Compreensão oral”? “Marina lembra que duas soluções podem…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Mídia e discurso, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "parecer"
+                "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
               },
               {
                 "id": "o4",
-                "text": "necessidades"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Mídia e discurso · Compreensão oral”? “A história mostra que uma…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Mídia e discurso, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "necessidades"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "inspirar"
+                "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
               }
             ]
           }
@@ -35385,42 +35385,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Mídia e discurso, Marina e Caio visitam uma comunidade _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Mídia e discurso · Compreensão oral”? “Neste episódio sobre Mídia e…”",
         "options": [
-          "brasileira",
-          "visitam",
-          "questão",
-          "pessoas"
+          "Neste episódio sobre Mídia e discurso, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Mídia e discurso · Compreensão oral”? “Ela explica que antes de agir é…”",
         "options": [
-          "participantes",
-          "explica",
-          "consequências",
-          "necessidades"
+          "Neste episódio sobre Mídia e discurso, Marina e Caio visitam uma comunidade brasileira.",
+          "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Mídia e discurso · Compreensão oral”? “Marina lembra que duas soluções podem…”",
         "options": [
-          "participantes",
-          "consequências",
-          "parecer",
-          "necessidades"
+          "Neste episódio sobre Mídia e discurso, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Mídia e discurso · Compreensão oral”? “A história mostra que uma…”",
         "options": [
-          "participantes",
-          "consequências",
-          "necessidades",
-          "inspirar"
+          "Neste episódio sobre Mídia e discurso, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         ]
       }
     ]
@@ -35478,92 +35478,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Hoje está _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Tempo no Recife: ouça”? “Hoje está quente…”",
             "options": [
               {
                 "id": "o1",
-                "text": "quente"
+                "text": "Hoje está quente."
               },
               {
                 "id": "o2",
-                "text": "comunidade"
+                "text": "Falamos de sol."
               },
               {
                 "id": "o3",
-                "text": "sol"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "Hoje"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“_____ de sol.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Tempo no Recife: ouça”? “Falamos de sol…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoje"
+                "text": "Hoje está quente."
               },
               {
                 "id": "o2",
-                "text": "Falamos"
+                "text": "Falamos de sol."
               },
               {
                 "id": "o3",
-                "text": "comunidade"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "Gosto"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Tempo no Recife: ouça”? “Gosto de aprender…”",
             "options": [
               {
                 "id": "o1",
-                "text": "comunidade"
+                "text": "Hoje está quente."
               },
               {
                 "id": "o2",
-                "text": "aprender"
+                "text": "Falamos de sol."
               },
               {
                 "id": "o3",
-                "text": "Gosto"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "praticar"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Tempo no Recife: ouça”? “Vamos praticar juntos…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Gosto"
+                "text": "Hoje está quente."
               },
               {
                 "id": "o2",
-                "text": "Vamos"
+                "text": "Falamos de sol."
               },
               {
                 "id": "o3",
-                "text": "quente"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "praticar"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           }
@@ -35574,42 +35574,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Hoje está _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Tempo no Recife: ouça”? “Hoje está quente…”",
         "options": [
-          "quente",
-          "comunidade",
-          "sol",
-          "Hoje"
+          "Hoje está quente.",
+          "Falamos de sol.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“_____ de sol.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Tempo no Recife: ouça”? “Falamos de sol…”",
         "options": [
-          "Hoje",
-          "Falamos",
-          "comunidade",
-          "Gosto"
+          "Hoje está quente.",
+          "Falamos de sol.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Tempo no Recife: ouça”? “Gosto de aprender…”",
         "options": [
-          "comunidade",
-          "aprender",
-          "Gosto",
-          "praticar"
+          "Hoje está quente.",
+          "Falamos de sol.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Tempo no Recife: ouça”? “Vamos praticar juntos…”",
         "options": [
-          "Gosto",
-          "Vamos",
-          "quente",
-          "praticar"
+          "Hoje está quente.",
+          "Falamos de sol.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       }
     ]
@@ -35667,92 +35667,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Minha garganta está _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Saúde e bem-estar: ouça”? “Minha garganta está…”",
             "options": [
               {
                 "id": "o1",
-                "text": "doendo"
+                "text": "Minha garganta está doendo."
               },
               {
                 "id": "o2",
-                "text": "comunidade"
+                "text": "Falamos de farmácia."
               },
               {
                 "id": "o3",
-                "text": "garganta"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "farmácia"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Falamos de _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Saúde e bem-estar: ouça”? “Falamos de farmácia…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Minha"
+                "text": "Minha garganta está doendo."
               },
               {
                 "id": "o2",
-                "text": "farmácia"
+                "text": "Falamos de farmácia."
               },
               {
                 "id": "o3",
-                "text": "Gosto"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "Vamos"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Saúde e bem-estar: ouça”? “Gosto de aprender…”",
             "options": [
               {
                 "id": "o1",
-                "text": "comunidade"
+                "text": "Minha garganta está doendo."
               },
               {
                 "id": "o2",
-                "text": "garganta"
+                "text": "Falamos de farmácia."
               },
               {
                 "id": "o3",
-                "text": "Gosto"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "farmácia"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Saúde e bem-estar: ouça”? “Vamos praticar juntos…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Minha"
+                "text": "Minha garganta está doendo."
               },
               {
                 "id": "o2",
-                "text": "Gosto"
+                "text": "Falamos de farmácia."
               },
               {
                 "id": "o3",
-                "text": "Vamos"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "praticar"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           }
@@ -35763,42 +35763,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Minha garganta está _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Saúde e bem-estar: ouça”? “Minha garganta está…”",
         "options": [
-          "doendo",
-          "comunidade",
-          "garganta",
-          "farmácia"
+          "Minha garganta está doendo.",
+          "Falamos de farmácia.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Falamos de _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Saúde e bem-estar: ouça”? “Falamos de farmácia…”",
         "options": [
-          "Minha",
-          "farmácia",
-          "Gosto",
-          "Vamos"
+          "Minha garganta está doendo.",
+          "Falamos de farmácia.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Saúde e bem-estar: ouça”? “Gosto de aprender…”",
         "options": [
-          "comunidade",
-          "garganta",
-          "Gosto",
-          "farmácia"
+          "Minha garganta está doendo.",
+          "Falamos de farmácia.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Saúde e bem-estar: ouça”? “Vamos praticar juntos…”",
         "options": [
-          "Minha",
-          "Gosto",
-          "Vamos",
-          "praticar"
+          "Minha garganta está doendo.",
+          "Falamos de farmácia.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       }
     ]
@@ -38946,92 +38946,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Hoje, em uma conversa sobre Cidade e mobilidade, três colegas contam uma história que aconteceu em um grupo de usuários de ônibus em São _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Cidade e mobilidade: palavras”? “Hoje em uma conversa sobre Cidade e…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Paulo"
+                "text": "Hoje, em uma conversa sobre Cidade e mobilidade, três colegas contam uma história que aconteceu em um grupo de usuários de ônibus em São Paulo."
               },
               {
                 "id": "o2",
-                "text": "compartilhados"
+                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
               },
               {
                 "id": "o3",
-                "text": "trabalhadores"
+                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
               },
               {
                 "id": "o4",
-                "text": "participantes"
+                "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A conversa não foi _____ fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Cidade e mobilidade: palavras”? “A conversa não foi sempre fácil cada…”",
             "options": [
               {
                 "id": "o1",
-                "text": "compartilhados"
+                "text": "Hoje, em uma conversa sobre Cidade e mobilidade, três colegas contam uma história que aconteceu em um grupo de usuários de ônibus em São Paulo."
               },
               {
                 "id": "o2",
-                "text": "sempre"
+                "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
               },
               {
                 "id": "o3",
-                "text": "trabalhadores"
+                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
               },
               {
                 "id": "o4",
-                "text": "participantes"
+                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Uma senhora que mora no bairro há muitos anos disse que se _____ respeitada por poder contar o que observa todos os dias.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Cidade e mobilidade: palavras”? “Uma senhora que mora no bairro há…”",
             "options": [
               {
                 "id": "o1",
-                "text": "compartilhados"
+                "text": "Hoje, em uma conversa sobre Cidade e mobilidade, três colegas contam uma história que aconteceu em um grupo de usuários de ônibus em São Paulo."
               },
               {
                 "id": "o2",
-                "text": "trabalhadores"
+                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
               },
               {
                 "id": "o3",
-                "text": "sentiu"
+                "text": "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias."
               },
               {
                 "id": "o4",
-                "text": "participantes"
+                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao terminar, os colegas concluíram que pequenos passos, quando são bem _____ e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Cidade e mobilidade: palavras”? “Ao terminar os colegas concluíram que pequenos…”",
             "options": [
               {
                 "id": "o1",
-                "text": "compartilhados"
+                "text": "Hoje, em uma conversa sobre Cidade e mobilidade, três colegas contam uma história que aconteceu em um grupo de usuários de ônibus em São Paulo."
               },
               {
                 "id": "o2",
-                "text": "colegas"
+                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
               },
               {
                 "id": "o3",
-                "text": "pessoas"
+                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
               },
               {
                 "id": "o4",
-                "text": "planejados"
+                "text": "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
               }
             ]
           }
@@ -39108,42 +39108,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Hoje, em uma conversa sobre Cidade e mobilidade, três colegas contam uma história que aconteceu em um grupo de usuários de ônibus em São _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Cidade e mobilidade: palavras”? “Hoje em uma conversa sobre Cidade e…”",
         "options": [
-          "Paulo",
-          "compartilhados",
-          "trabalhadores",
-          "participantes"
+          "Hoje, em uma conversa sobre Cidade e mobilidade, três colegas contam uma história que aconteceu em um grupo de usuários de ônibus em São Paulo.",
+          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
+          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes.",
+          "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A conversa não foi _____ fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Cidade e mobilidade: palavras”? “A conversa não foi sempre fácil cada…”",
         "options": [
-          "compartilhados",
-          "sempre",
-          "trabalhadores",
-          "participantes"
+          "Hoje, em uma conversa sobre Cidade e mobilidade, três colegas contam uma história que aconteceu em um grupo de usuários de ônibus em São Paulo.",
+          "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.",
+          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
+          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Uma senhora que mora no bairro há muitos anos disse que se _____ respeitada por poder contar o que observa todos os dias.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Cidade e mobilidade: palavras”? “Uma senhora que mora no bairro há…”",
         "options": [
-          "compartilhados",
-          "trabalhadores",
-          "sentiu",
-          "participantes"
+          "Hoje, em uma conversa sobre Cidade e mobilidade, três colegas contam uma história que aconteceu em um grupo de usuários de ônibus em São Paulo.",
+          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
+          "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.",
+          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao terminar, os colegas concluíram que pequenos passos, quando são bem _____ e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Cidade e mobilidade: palavras”? “Ao terminar os colegas concluíram que pequenos…”",
         "options": [
-          "compartilhados",
-          "colegas",
-          "pessoas",
-          "planejados"
+          "Hoje, em uma conversa sobre Cidade e mobilidade, três colegas contam uma história que aconteceu em um grupo de usuários de ônibus em São Paulo.",
+          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
+          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes.",
+          "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
         ]
       }
     ]
@@ -39468,92 +39468,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Viagens conscientes, Marina e Caio visitam uma iniciativa de turismo comunitário na _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Viagens conscientes · Compreensão oral”? “Neste episódio sobre Viagens conscientes Marina…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Bahia"
+                "text": "Neste episódio sobre Viagens conscientes, Marina e Caio visitam uma iniciativa de turismo comunitário na Bahia."
               },
               {
                 "id": "o2",
-                "text": "participantes"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "consequências"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "necessidades"
+                "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Viagens conscientes · Compreensão oral”? “Ela explica que antes de agir é…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Viagens conscientes, Marina e Caio visitam uma iniciativa de turismo comunitário na Bahia."
               },
               {
                 "id": "o2",
-                "text": "explica"
+                "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
               },
               {
                 "id": "o3",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o4",
-                "text": "necessidades"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Viagens conscientes · Compreensão oral”? “Marina lembra que duas soluções podem…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Viagens conscientes, Marina e Caio visitam uma iniciativa de turismo comunitário na Bahia."
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "parecer"
+                "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
               },
               {
                 "id": "o4",
-                "text": "necessidades"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Viagens conscientes · Compreensão oral”? “A história mostra que uma…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Viagens conscientes, Marina e Caio visitam uma iniciativa de turismo comunitário na Bahia."
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "necessidades"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "inspirar"
+                "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
               }
             ]
           }
@@ -39573,42 +39573,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Viagens conscientes, Marina e Caio visitam uma iniciativa de turismo comunitário na _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Viagens conscientes · Compreensão oral”? “Neste episódio sobre Viagens conscientes Marina…”",
         "options": [
-          "Bahia",
-          "participantes",
-          "consequências",
-          "necessidades"
+          "Neste episódio sobre Viagens conscientes, Marina e Caio visitam uma iniciativa de turismo comunitário na Bahia.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Viagens conscientes · Compreensão oral”? “Ela explica que antes de agir é…”",
         "options": [
-          "participantes",
-          "explica",
-          "consequências",
-          "necessidades"
+          "Neste episódio sobre Viagens conscientes, Marina e Caio visitam uma iniciativa de turismo comunitário na Bahia.",
+          "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Viagens conscientes · Compreensão oral”? “Marina lembra que duas soluções podem…”",
         "options": [
-          "participantes",
-          "consequências",
-          "parecer",
-          "necessidades"
+          "Neste episódio sobre Viagens conscientes, Marina e Caio visitam uma iniciativa de turismo comunitário na Bahia.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Viagens conscientes · Compreensão oral”? “A história mostra que uma…”",
         "options": [
-          "participantes",
-          "consequências",
-          "necessidades",
-          "inspirar"
+          "Neste episódio sobre Viagens conscientes, Marina e Caio visitam uma iniciativa de turismo comunitário na Bahia.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         ]
       }
     ]
@@ -39705,92 +39705,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Ciência e divulgação, Marina e Caio visitam uma comunidade _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Ciência e divulgação · Compreensão oral”? “Neste episódio sobre Ciência e…”",
             "options": [
               {
                 "id": "o1",
-                "text": "brasileira"
+                "text": "Neste episódio sobre Ciência e divulgação, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "Ciência"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "visitam"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "questão"
+                "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Ciência e divulgação · Compreensão oral”? “Ela explica que antes de agir é…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Ciência e divulgação, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "explica"
+                "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
               },
               {
                 "id": "o3",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o4",
-                "text": "necessidades"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Ciência e divulgação · Compreensão oral”? “Marina lembra que duas soluções podem…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Ciência e divulgação, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "parecer"
+                "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
               },
               {
                 "id": "o4",
-                "text": "necessidades"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Ciência e divulgação · Compreensão oral”? “A história mostra que uma…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Ciência e divulgação, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "necessidades"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "inspirar"
+                "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
               }
             ]
           }
@@ -39810,42 +39810,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Ciência e divulgação, Marina e Caio visitam uma comunidade _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Ciência e divulgação · Compreensão oral”? “Neste episódio sobre Ciência e…”",
         "options": [
-          "brasileira",
-          "Ciência",
-          "visitam",
-          "questão"
+          "Neste episódio sobre Ciência e divulgação, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Ciência e divulgação · Compreensão oral”? “Ela explica que antes de agir é…”",
         "options": [
-          "participantes",
-          "explica",
-          "consequências",
-          "necessidades"
+          "Neste episódio sobre Ciência e divulgação, Marina e Caio visitam uma comunidade brasileira.",
+          "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Ciência e divulgação · Compreensão oral”? “Marina lembra que duas soluções podem…”",
         "options": [
-          "participantes",
-          "consequências",
-          "parecer",
-          "necessidades"
+          "Neste episódio sobre Ciência e divulgação, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Ciência e divulgação · Compreensão oral”? “A história mostra que uma…”",
         "options": [
-          "participantes",
-          "consequências",
-          "necessidades",
-          "inspirar"
+          "Neste episódio sobre Ciência e divulgação, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         ]
       }
     ]
@@ -39942,92 +39942,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Ciência e responsabilidade, Marina e Caio visitam uma comunidade _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Ciência e responsabilidade · Compreensão oral”? “Neste episódio sobre Ciência e…”",
             "options": [
               {
                 "id": "o1",
-                "text": "brasileira"
+                "text": "Neste episódio sobre Ciência e responsabilidade, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "responsabilidade"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "Ciência"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "visitam"
+                "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Ciência e responsabilidade · Compreensão oral”? “Ela explica que antes de agir é…”",
             "options": [
               {
                 "id": "o1",
-                "text": "responsabilidade"
+                "text": "Neste episódio sobre Ciência e responsabilidade, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "explica"
+                "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
               },
               {
                 "id": "o3",
-                "text": "participantes"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o4",
-                "text": "consequências"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Ciência e responsabilidade · Compreensão oral”? “Marina lembra que duas soluções podem…”",
             "options": [
               {
                 "id": "o1",
-                "text": "responsabilidade"
+                "text": "Neste episódio sobre Ciência e responsabilidade, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "participantes"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "parecer"
+                "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
               },
               {
                 "id": "o4",
-                "text": "consequências"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Ciência e responsabilidade · Compreensão oral”? “A história mostra que uma…”",
             "options": [
               {
                 "id": "o1",
-                "text": "responsabilidade"
+                "text": "Neste episódio sobre Ciência e responsabilidade, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "participantes"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "consequências"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "inspirar"
+                "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
               }
             ]
           }
@@ -40047,42 +40047,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Ciência e responsabilidade, Marina e Caio visitam uma comunidade _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Ciência e responsabilidade · Compreensão oral”? “Neste episódio sobre Ciência e…”",
         "options": [
-          "brasileira",
-          "responsabilidade",
-          "Ciência",
-          "visitam"
+          "Neste episódio sobre Ciência e responsabilidade, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Ciência e responsabilidade · Compreensão oral”? “Ela explica que antes de agir é…”",
         "options": [
-          "responsabilidade",
-          "explica",
-          "participantes",
-          "consequências"
+          "Neste episódio sobre Ciência e responsabilidade, Marina e Caio visitam uma comunidade brasileira.",
+          "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Ciência e responsabilidade · Compreensão oral”? “Marina lembra que duas soluções podem…”",
         "options": [
-          "responsabilidade",
-          "participantes",
-          "parecer",
-          "consequências"
+          "Neste episódio sobre Ciência e responsabilidade, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Ciência e responsabilidade · Compreensão oral”? “A história mostra que uma…”",
         "options": [
-          "responsabilidade",
-          "participantes",
-          "consequências",
-          "inspirar"
+          "Neste episódio sobre Ciência e responsabilidade, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         ]
       }
     ]
@@ -40140,92 +40140,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Vamos à roda no _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Uma roda cultural: ouça”? “Vamos à roda…”",
             "options": [
               {
                 "id": "o1",
-                "text": "sábado"
+                "text": "Vamos à roda no sábado."
               },
               {
                 "id": "o2",
-                "text": "comunidade"
+                "text": "Falamos de roda."
               },
               {
                 "id": "o3",
-                "text": "roda"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "aprender"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“_____ de roda.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Uma roda cultural: ouça”? “Falamos de roda…”",
             "options": [
               {
                 "id": "o1",
-                "text": "roda"
+                "text": "Vamos à roda no sábado."
               },
               {
                 "id": "o2",
-                "text": "Falamos"
+                "text": "Falamos de roda."
               },
               {
                 "id": "o3",
-                "text": "comunidade"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "Vamos"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Uma roda cultural: ouça”? “Gosto de aprender…”",
             "options": [
               {
                 "id": "o1",
-                "text": "comunidade"
+                "text": "Vamos à roda no sábado."
               },
               {
                 "id": "o2",
-                "text": "aprender"
+                "text": "Falamos de roda."
               },
               {
                 "id": "o3",
-                "text": "Gosto"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "praticar"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Uma roda cultural: ouça”? “Vamos praticar juntos…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Vamos"
+                "text": "Vamos à roda no sábado."
               },
               {
                 "id": "o2",
-                "text": "Gosto"
+                "text": "Falamos de roda."
               },
               {
                 "id": "o3",
-                "text": "sábado"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "praticar"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           }
@@ -40236,42 +40236,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Vamos à roda no _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Uma roda cultural: ouça”? “Vamos à roda…”",
         "options": [
-          "sábado",
-          "comunidade",
-          "roda",
-          "aprender"
+          "Vamos à roda no sábado.",
+          "Falamos de roda.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“_____ de roda.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Uma roda cultural: ouça”? “Falamos de roda…”",
         "options": [
-          "roda",
-          "Falamos",
-          "comunidade",
-          "Vamos"
+          "Vamos à roda no sábado.",
+          "Falamos de roda.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Uma roda cultural: ouça”? “Gosto de aprender…”",
         "options": [
-          "comunidade",
-          "aprender",
-          "Gosto",
-          "praticar"
+          "Vamos à roda no sábado.",
+          "Falamos de roda.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Uma roda cultural: ouça”? “Vamos praticar juntos…”",
         "options": [
-          "Vamos",
-          "Gosto",
-          "sábado",
-          "praticar"
+          "Vamos à roda no sábado.",
+          "Falamos de roda.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       }
     ]
@@ -40329,92 +40329,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“A família chegou há _____ anos.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Histórias de origem: ouça”? “A família chegou…”",
             "options": [
               {
                 "id": "o1",
-                "text": "muitos"
+                "text": "A família chegou há muitos anos."
               },
               {
                 "id": "o2",
-                "text": "comunidade"
+                "text": "Falamos de origem."
               },
               {
                 "id": "o3",
-                "text": "anos"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "aprender"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Falamos de _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Histórias de origem: ouça”? “Falamos de origem…”",
             "options": [
               {
                 "id": "o1",
-                "text": "comunidade"
+                "text": "A família chegou há muitos anos."
               },
               {
                 "id": "o2",
-                "text": "origem"
+                "text": "Falamos de origem."
               },
               {
                 "id": "o3",
-                "text": "anos"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "aprender"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Histórias de origem: ouça”? “Gosto de aprender…”",
             "options": [
               {
                 "id": "o1",
-                "text": "comunidade"
+                "text": "A família chegou há muitos anos."
               },
               {
                 "id": "o2",
-                "text": "aprender"
+                "text": "Falamos de origem."
               },
               {
                 "id": "o3",
-                "text": "Gosto"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "praticar"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Histórias de origem: ouça”? “Vamos praticar juntos…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Gosto"
+                "text": "A família chegou há muitos anos."
               },
               {
                 "id": "o2",
-                "text": "Vamos"
+                "text": "Falamos de origem."
               },
               {
                 "id": "o3",
-                "text": "chegou"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "praticar"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           }
@@ -40425,42 +40425,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“A família chegou há _____ anos.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Histórias de origem: ouça”? “A família chegou…”",
         "options": [
-          "muitos",
-          "comunidade",
-          "anos",
-          "aprender"
+          "A família chegou há muitos anos.",
+          "Falamos de origem.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Falamos de _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Histórias de origem: ouça”? “Falamos de origem…”",
         "options": [
-          "comunidade",
-          "origem",
-          "anos",
-          "aprender"
+          "A família chegou há muitos anos.",
+          "Falamos de origem.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Histórias de origem: ouça”? “Gosto de aprender…”",
         "options": [
-          "comunidade",
-          "aprender",
-          "Gosto",
-          "praticar"
+          "A família chegou há muitos anos.",
+          "Falamos de origem.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Histórias de origem: ouça”? “Vamos praticar juntos…”",
         "options": [
-          "Gosto",
-          "Vamos",
-          "chegou",
-          "praticar"
+          "A família chegou há muitos anos.",
+          "Falamos de origem.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       }
     ]
@@ -43608,92 +43608,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Hoje, em uma conversa sobre Planos para o futuro, três colegas contam uma história que aconteceu em uma comunidade _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Planos para o futuro: palavras”? “Hoje em uma conversa sobre Planos para…”",
             "options": [
               {
                 "id": "o1",
-                "text": "brasileira"
+                "text": "Hoje, em uma conversa sobre Planos para o futuro, três colegas contam uma história que aconteceu em uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "compartilhados"
+                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
               },
               {
                 "id": "o3",
-                "text": "colegas"
+                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
               },
               {
                 "id": "o4",
-                "text": "pessoas"
+                "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A conversa não foi _____ fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Planos para o futuro: palavras”? “A conversa não foi sempre fácil cada…”",
             "options": [
               {
                 "id": "o1",
-                "text": "compartilhados"
+                "text": "Hoje, em uma conversa sobre Planos para o futuro, três colegas contam uma história que aconteceu em uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "sempre"
+                "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
               },
               {
                 "id": "o3",
-                "text": "trabalhadores"
+                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
               },
               {
                 "id": "o4",
-                "text": "participantes"
+                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Uma senhora que mora no bairro há muitos anos disse que se _____ respeitada por poder contar o que observa todos os dias.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Planos para o futuro: palavras”? “Uma senhora que mora no bairro há…”",
             "options": [
               {
                 "id": "o1",
-                "text": "compartilhados"
+                "text": "Hoje, em uma conversa sobre Planos para o futuro, três colegas contam uma história que aconteceu em uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "trabalhadores"
+                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
               },
               {
                 "id": "o3",
-                "text": "sentiu"
+                "text": "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias."
               },
               {
                 "id": "o4",
-                "text": "participantes"
+                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao terminar, os colegas concluíram que pequenos passos, quando são bem _____ e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Planos para o futuro: palavras”? “Ao terminar os colegas concluíram que pequenos…”",
             "options": [
               {
                 "id": "o1",
-                "text": "compartilhados"
+                "text": "Hoje, em uma conversa sobre Planos para o futuro, três colegas contam uma história que aconteceu em uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "colegas"
+                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
               },
               {
                 "id": "o3",
-                "text": "pessoas"
+                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
               },
               {
                 "id": "o4",
-                "text": "planejados"
+                "text": "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
               }
             ]
           }
@@ -43770,42 +43770,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Hoje, em uma conversa sobre Planos para o futuro, três colegas contam uma história que aconteceu em uma comunidade _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Planos para o futuro: palavras”? “Hoje em uma conversa sobre Planos para…”",
         "options": [
-          "brasileira",
-          "compartilhados",
-          "colegas",
-          "pessoas"
+          "Hoje, em uma conversa sobre Planos para o futuro, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
+          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
+          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes.",
+          "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A conversa não foi _____ fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Planos para o futuro: palavras”? “A conversa não foi sempre fácil cada…”",
         "options": [
-          "compartilhados",
-          "sempre",
-          "trabalhadores",
-          "participantes"
+          "Hoje, em uma conversa sobre Planos para o futuro, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
+          "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.",
+          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
+          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Uma senhora que mora no bairro há muitos anos disse que se _____ respeitada por poder contar o que observa todos os dias.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Planos para o futuro: palavras”? “Uma senhora que mora no bairro há…”",
         "options": [
-          "compartilhados",
-          "trabalhadores",
-          "sentiu",
-          "participantes"
+          "Hoje, em uma conversa sobre Planos para o futuro, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
+          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
+          "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.",
+          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao terminar, os colegas concluíram que pequenos passos, quando são bem _____ e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Planos para o futuro: palavras”? “Ao terminar os colegas concluíram que pequenos…”",
         "options": [
-          "compartilhados",
-          "colegas",
-          "pessoas",
-          "planejados"
+          "Hoje, em uma conversa sobre Planos para o futuro, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
+          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
+          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes.",
+          "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
         ]
       }
     ]
@@ -44130,92 +44130,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Relações e mediação, Marina e Caio visitam uma escola pública em Porto _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Relações e mediação · Compreensão oral”? “Neste episódio sobre Relações e mediação…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Alegre"
+                "text": "Neste episódio sobre Relações e mediação, Marina e Caio visitam uma escola pública em Porto Alegre."
               },
               {
                 "id": "o2",
-                "text": "participantes"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "consequências"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "mal-entendido"
+                "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Relações e mediação · Compreensão oral”? “Ela explica que antes de agir é…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Relações e mediação, Marina e Caio visitam uma escola pública em Porto Alegre."
               },
               {
                 "id": "o2",
-                "text": "explica"
+                "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
               },
               {
                 "id": "o3",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o4",
-                "text": "mal-entendido"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Relações e mediação · Compreensão oral”? “Marina lembra que duas soluções podem…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Relações e mediação, Marina e Caio visitam uma escola pública em Porto Alegre."
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "parecer"
+                "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
               },
               {
                 "id": "o4",
-                "text": "mal-entendido"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Relações e mediação · Compreensão oral”? “A história mostra que uma…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Relações e mediação, Marina e Caio visitam uma escola pública em Porto Alegre."
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "mal-entendido"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "inspirar"
+                "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
               }
             ]
           }
@@ -44235,42 +44235,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Relações e mediação, Marina e Caio visitam uma escola pública em Porto _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Relações e mediação · Compreensão oral”? “Neste episódio sobre Relações e mediação…”",
         "options": [
-          "Alegre",
-          "participantes",
-          "consequências",
-          "mal-entendido"
+          "Neste episódio sobre Relações e mediação, Marina e Caio visitam uma escola pública em Porto Alegre.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Relações e mediação · Compreensão oral”? “Ela explica que antes de agir é…”",
         "options": [
-          "participantes",
-          "explica",
-          "consequências",
-          "mal-entendido"
+          "Neste episódio sobre Relações e mediação, Marina e Caio visitam uma escola pública em Porto Alegre.",
+          "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Relações e mediação · Compreensão oral”? “Marina lembra que duas soluções podem…”",
         "options": [
-          "participantes",
-          "consequências",
-          "parecer",
-          "mal-entendido"
+          "Neste episódio sobre Relações e mediação, Marina e Caio visitam uma escola pública em Porto Alegre.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Relações e mediação · Compreensão oral”? “A história mostra que uma…”",
         "options": [
-          "participantes",
-          "consequências",
-          "mal-entendido",
-          "inspirar"
+          "Neste episódio sobre Relações e mediação, Marina e Caio visitam uma escola pública em Porto Alegre.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         ]
       }
     ]
@@ -44367,92 +44367,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Conflito e negociação, Marina e Caio visitam uma comunidade _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Conflito e negociação · Compreensão oral”? “Neste episódio sobre Conflito e…”",
             "options": [
               {
                 "id": "o1",
-                "text": "brasileira"
+                "text": "Neste episódio sobre Conflito e negociação, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "visitam"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "questão"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "pessoas"
+                "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Conflito e negociação · Compreensão oral”? “Ela explica que antes de agir é…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Conflito e negociação, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "explica"
+                "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
               },
               {
                 "id": "o3",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o4",
-                "text": "necessidades"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Conflito e negociação · Compreensão oral”? “Marina lembra que duas soluções podem…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Conflito e negociação, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "parecer"
+                "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
               },
               {
                 "id": "o4",
-                "text": "necessidades"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Conflito e negociação · Compreensão oral”? “A história mostra que uma…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Conflito e negociação, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "necessidades"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "inspirar"
+                "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
               }
             ]
           }
@@ -44472,42 +44472,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Conflito e negociação, Marina e Caio visitam uma comunidade _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Conflito e negociação · Compreensão oral”? “Neste episódio sobre Conflito e…”",
         "options": [
-          "brasileira",
-          "visitam",
-          "questão",
-          "pessoas"
+          "Neste episódio sobre Conflito e negociação, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Conflito e negociação · Compreensão oral”? “Ela explica que antes de agir é…”",
         "options": [
-          "participantes",
-          "explica",
-          "consequências",
-          "necessidades"
+          "Neste episódio sobre Conflito e negociação, Marina e Caio visitam uma comunidade brasileira.",
+          "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Conflito e negociação · Compreensão oral”? “Marina lembra que duas soluções podem…”",
         "options": [
-          "participantes",
-          "consequências",
-          "parecer",
-          "necessidades"
+          "Neste episódio sobre Conflito e negociação, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Conflito e negociação · Compreensão oral”? “A história mostra que uma…”",
         "options": [
-          "participantes",
-          "consequências",
-          "necessidades",
-          "inspirar"
+          "Neste episódio sobre Conflito e negociação, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         ]
       }
     ]
@@ -44604,92 +44604,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Filosofia cotidiana, Marina e Caio visitam uma comunidade _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Filosofia cotidiana · Compreensão oral”? “Neste episódio sobre Filosofia…”",
             "options": [
               {
                 "id": "o1",
-                "text": "brasileira"
+                "text": "Neste episódio sobre Filosofia cotidiana, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "visitam"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "questão"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "pessoas"
+                "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Filosofia cotidiana · Compreensão oral”? “Ela explica que antes de agir é…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Filosofia cotidiana, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "explica"
+                "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
               },
               {
                 "id": "o3",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o4",
-                "text": "necessidades"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Filosofia cotidiana · Compreensão oral”? “Marina lembra que duas soluções podem…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Filosofia cotidiana, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "parecer"
+                "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
               },
               {
                 "id": "o4",
-                "text": "necessidades"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Filosofia cotidiana · Compreensão oral”? “A história mostra que uma…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Filosofia cotidiana, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "necessidades"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "inspirar"
+                "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
               }
             ]
           }
@@ -44709,42 +44709,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Filosofia cotidiana, Marina e Caio visitam uma comunidade _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Filosofia cotidiana · Compreensão oral”? “Neste episódio sobre Filosofia…”",
         "options": [
-          "brasileira",
-          "visitam",
-          "questão",
-          "pessoas"
+          "Neste episódio sobre Filosofia cotidiana, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Filosofia cotidiana · Compreensão oral”? “Ela explica que antes de agir é…”",
         "options": [
-          "participantes",
-          "explica",
-          "consequências",
-          "necessidades"
+          "Neste episódio sobre Filosofia cotidiana, Marina e Caio visitam uma comunidade brasileira.",
+          "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Filosofia cotidiana · Compreensão oral”? “Marina lembra que duas soluções podem…”",
         "options": [
-          "participantes",
-          "consequências",
-          "parecer",
-          "necessidades"
+          "Neste episódio sobre Filosofia cotidiana, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Filosofia cotidiana · Compreensão oral”? “A história mostra que uma…”",
         "options": [
-          "participantes",
-          "consequências",
-          "necessidades",
-          "inspirar"
+          "Neste episódio sobre Filosofia cotidiana, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         ]
       }
     ]
@@ -44802,92 +44802,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Um bilhete para o _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “De ônibus: ouça”? “Um bilhete para…”",
             "options": [
               {
                 "id": "o1",
-                "text": "centro"
+                "text": "Um bilhete para o centro."
               },
               {
                 "id": "o2",
-                "text": "comunidade"
+                "text": "Falamos de ônibus."
               },
               {
                 "id": "o3",
-                "text": "aprender"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "praticar"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Falamos de _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “De ônibus: ouça”? “Falamos de ônibus…”",
             "options": [
               {
                 "id": "o1",
-                "text": "comunidade"
+                "text": "Um bilhete para o centro."
               },
               {
                 "id": "o2",
-                "text": "ônibus"
+                "text": "Falamos de ônibus."
               },
               {
                 "id": "o3",
-                "text": "aprender"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "praticar"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
+            "prompt": "Qual afirmação completa este momento do áudio “De ônibus: ouça”? “Gosto de aprender…”",
             "options": [
               {
                 "id": "o1",
-                "text": "comunidade"
+                "text": "Um bilhete para o centro."
               },
               {
                 "id": "o2",
-                "text": "aprender"
+                "text": "Falamos de ônibus."
               },
               {
                 "id": "o3",
-                "text": "Gosto"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "praticar"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
+            "prompt": "Qual afirmação completa este momento do áudio “De ônibus: ouça”? “Vamos praticar juntos…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Gosto"
+                "text": "Um bilhete para o centro."
               },
               {
                 "id": "o2",
-                "text": "Vamos"
+                "text": "Falamos de ônibus."
               },
               {
                 "id": "o3",
-                "text": "centro"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "praticar"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           }
@@ -44898,42 +44898,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Um bilhete para o _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “De ônibus: ouça”? “Um bilhete para…”",
         "options": [
-          "centro",
-          "comunidade",
-          "aprender",
-          "praticar"
+          "Um bilhete para o centro.",
+          "Falamos de ônibus.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Falamos de _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “De ônibus: ouça”? “Falamos de ônibus…”",
         "options": [
-          "comunidade",
-          "ônibus",
-          "aprender",
-          "praticar"
+          "Um bilhete para o centro.",
+          "Falamos de ônibus.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
+        "prompt": "Qual afirmação completa este momento do áudio “De ônibus: ouça”? “Gosto de aprender…”",
         "options": [
-          "comunidade",
-          "aprender",
-          "Gosto",
-          "praticar"
+          "Um bilhete para o centro.",
+          "Falamos de ônibus.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
+        "prompt": "Qual afirmação completa este momento do áudio “De ônibus: ouça”? “Vamos praticar juntos…”",
         "options": [
-          "Gosto",
-          "Vamos",
-          "centro",
-          "praticar"
+          "Um bilhete para o centro.",
+          "Falamos de ônibus.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       }
     ]
@@ -44991,92 +44991,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Podemos dividir as _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Um projeto coletivo: ouça”? “Podemos dividir as…”",
             "options": [
               {
                 "id": "o1",
-                "text": "tarefas"
+                "text": "Podemos dividir as tarefas."
               },
               {
                 "id": "o2",
-                "text": "comunidade"
+                "text": "Falamos de projeto."
               },
               {
                 "id": "o3",
-                "text": "Gosto"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "Vamos"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Falamos de _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Um projeto coletivo: ouça”? “Falamos de projeto…”",
             "options": [
               {
                 "id": "o1",
-                "text": "comunidade"
+                "text": "Podemos dividir as tarefas."
               },
               {
                 "id": "o2",
-                "text": "projeto"
+                "text": "Falamos de projeto."
               },
               {
                 "id": "o3",
-                "text": "Gosto"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "Vamos"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Um projeto coletivo: ouça”? “Gosto de aprender…”",
             "options": [
               {
                 "id": "o1",
-                "text": "comunidade"
+                "text": "Podemos dividir as tarefas."
               },
               {
                 "id": "o2",
-                "text": "aprender"
+                "text": "Falamos de projeto."
               },
               {
                 "id": "o3",
-                "text": "Gosto"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "praticar"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Um projeto coletivo: ouça”? “Vamos praticar juntos…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Gosto"
+                "text": "Podemos dividir as tarefas."
               },
               {
                 "id": "o2",
-                "text": "Vamos"
+                "text": "Falamos de projeto."
               },
               {
                 "id": "o3",
-                "text": "comunidade"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "praticar"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           }
@@ -45087,42 +45087,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Podemos dividir as _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Um projeto coletivo: ouça”? “Podemos dividir as…”",
         "options": [
-          "tarefas",
-          "comunidade",
-          "Gosto",
-          "Vamos"
+          "Podemos dividir as tarefas.",
+          "Falamos de projeto.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Falamos de _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Um projeto coletivo: ouça”? “Falamos de projeto…”",
         "options": [
-          "comunidade",
-          "projeto",
-          "Gosto",
-          "Vamos"
+          "Podemos dividir as tarefas.",
+          "Falamos de projeto.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Um projeto coletivo: ouça”? “Gosto de aprender…”",
         "options": [
-          "comunidade",
-          "aprender",
-          "Gosto",
-          "praticar"
+          "Podemos dividir as tarefas.",
+          "Falamos de projeto.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Um projeto coletivo: ouça”? “Vamos praticar juntos…”",
         "options": [
-          "Gosto",
-          "Vamos",
-          "comunidade",
-          "praticar"
+          "Podemos dividir as tarefas.",
+          "Falamos de projeto.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       }
     ]
@@ -48270,92 +48270,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Hoje, em uma conversa sobre Relações e comunicação, três colegas contam uma história que aconteceu em uma comunidade _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Relações e comunicação: palavras”? “Hoje em uma conversa sobre Relações e…”",
             "options": [
               {
                 "id": "o1",
-                "text": "brasileira"
+                "text": "Hoje, em uma conversa sobre Relações e comunicação, três colegas contam uma história que aconteceu em uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "compartilhados"
+                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
               },
               {
                 "id": "o3",
-                "text": "colegas"
+                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
               },
               {
                 "id": "o4",
-                "text": "pessoas"
+                "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A conversa não foi _____ fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Relações e comunicação: palavras”? “A conversa não foi sempre fácil cada…”",
             "options": [
               {
                 "id": "o1",
-                "text": "compartilhados"
+                "text": "Hoje, em uma conversa sobre Relações e comunicação, três colegas contam uma história que aconteceu em uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "sempre"
+                "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
               },
               {
                 "id": "o3",
-                "text": "trabalhadores"
+                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
               },
               {
                 "id": "o4",
-                "text": "participantes"
+                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Uma senhora que mora no bairro há muitos anos disse que se _____ respeitada por poder contar o que observa todos os dias.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Relações e comunicação: palavras”? “Uma senhora que mora no bairro há…”",
             "options": [
               {
                 "id": "o1",
-                "text": "compartilhados"
+                "text": "Hoje, em uma conversa sobre Relações e comunicação, três colegas contam uma história que aconteceu em uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "trabalhadores"
+                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
               },
               {
                 "id": "o3",
-                "text": "sentiu"
+                "text": "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias."
               },
               {
                 "id": "o4",
-                "text": "participantes"
+                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao terminar, os colegas concluíram que pequenos passos, quando são bem _____ e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Relações e comunicação: palavras”? “Ao terminar os colegas concluíram que pequenos…”",
             "options": [
               {
                 "id": "o1",
-                "text": "compartilhados"
+                "text": "Hoje, em uma conversa sobre Relações e comunicação, três colegas contam uma história que aconteceu em uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "colegas"
+                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
               },
               {
                 "id": "o3",
-                "text": "pessoas"
+                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
               },
               {
                 "id": "o4",
-                "text": "planejados"
+                "text": "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
               }
             ]
           }
@@ -48432,42 +48432,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Hoje, em uma conversa sobre Relações e comunicação, três colegas contam uma história que aconteceu em uma comunidade _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Relações e comunicação: palavras”? “Hoje em uma conversa sobre Relações e…”",
         "options": [
-          "brasileira",
-          "compartilhados",
-          "colegas",
-          "pessoas"
+          "Hoje, em uma conversa sobre Relações e comunicação, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
+          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
+          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes.",
+          "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A conversa não foi _____ fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Relações e comunicação: palavras”? “A conversa não foi sempre fácil cada…”",
         "options": [
-          "compartilhados",
-          "sempre",
-          "trabalhadores",
-          "participantes"
+          "Hoje, em uma conversa sobre Relações e comunicação, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
+          "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.",
+          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
+          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Uma senhora que mora no bairro há muitos anos disse que se _____ respeitada por poder contar o que observa todos os dias.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Relações e comunicação: palavras”? “Uma senhora que mora no bairro há…”",
         "options": [
-          "compartilhados",
-          "trabalhadores",
-          "sentiu",
-          "participantes"
+          "Hoje, em uma conversa sobre Relações e comunicação, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
+          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
+          "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.",
+          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao terminar, os colegas concluíram que pequenos passos, quando são bem _____ e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Relações e comunicação: palavras”? “Ao terminar os colegas concluíram que pequenos…”",
         "options": [
-          "compartilhados",
-          "colegas",
-          "pessoas",
-          "planejados"
+          "Hoje, em uma conversa sobre Relações e comunicação, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
+          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
+          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes.",
+          "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
         ]
       }
     ]
@@ -48792,92 +48792,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Cidadania ativa, Marina e Caio visitam um conselho jovem de bairro em _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Cidadania ativa · Compreensão oral”? “Neste episódio sobre Cidadania ativa Marina…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Manaus"
+                "text": "Neste episódio sobre Cidadania ativa, Marina e Caio visitam um conselho jovem de bairro em Manaus."
               },
               {
                 "id": "o2",
-                "text": "participantes"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "consequências"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "necessidades"
+                "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Cidadania ativa · Compreensão oral”? “Ela explica que antes de agir é…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Cidadania ativa, Marina e Caio visitam um conselho jovem de bairro em Manaus."
               },
               {
                 "id": "o2",
-                "text": "explica"
+                "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
               },
               {
                 "id": "o3",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o4",
-                "text": "necessidades"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Cidadania ativa · Compreensão oral”? “Marina lembra que duas soluções podem…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Cidadania ativa, Marina e Caio visitam um conselho jovem de bairro em Manaus."
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "parecer"
+                "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
               },
               {
                 "id": "o4",
-                "text": "necessidades"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Cidadania ativa · Compreensão oral”? “A história mostra que uma…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Cidadania ativa, Marina e Caio visitam um conselho jovem de bairro em Manaus."
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "necessidades"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "inspirar"
+                "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
               }
             ]
           }
@@ -48897,42 +48897,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Cidadania ativa, Marina e Caio visitam um conselho jovem de bairro em _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Cidadania ativa · Compreensão oral”? “Neste episódio sobre Cidadania ativa Marina…”",
         "options": [
-          "Manaus",
-          "participantes",
-          "consequências",
-          "necessidades"
+          "Neste episódio sobre Cidadania ativa, Marina e Caio visitam um conselho jovem de bairro em Manaus.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Cidadania ativa · Compreensão oral”? “Ela explica que antes de agir é…”",
         "options": [
-          "participantes",
-          "explica",
-          "consequências",
-          "necessidades"
+          "Neste episódio sobre Cidadania ativa, Marina e Caio visitam um conselho jovem de bairro em Manaus.",
+          "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Cidadania ativa · Compreensão oral”? “Marina lembra que duas soluções podem…”",
         "options": [
-          "participantes",
-          "consequências",
-          "parecer",
-          "necessidades"
+          "Neste episódio sobre Cidadania ativa, Marina e Caio visitam um conselho jovem de bairro em Manaus.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Cidadania ativa · Compreensão oral”? “A história mostra que uma…”",
         "options": [
-          "participantes",
-          "consequências",
-          "necessidades",
-          "inspirar"
+          "Neste episódio sobre Cidadania ativa, Marina e Caio visitam um conselho jovem de bairro em Manaus.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         ]
       }
     ]
@@ -49029,92 +49029,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Literatura e voz, Marina e Caio visitam uma comunidade _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Literatura e voz · Compreensão oral”? “Neste episódio sobre Literatura e…”",
             "options": [
               {
                 "id": "o1",
-                "text": "brasileira"
+                "text": "Neste episódio sobre Literatura e voz, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "visitam"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "questão"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "pessoas"
+                "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Literatura e voz · Compreensão oral”? “Ela explica que antes de agir é…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Literatura e voz, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "explica"
+                "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
               },
               {
                 "id": "o3",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o4",
-                "text": "necessidades"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Literatura e voz · Compreensão oral”? “Marina lembra que duas soluções podem…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Literatura e voz, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "parecer"
+                "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
               },
               {
                 "id": "o4",
-                "text": "necessidades"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Literatura e voz · Compreensão oral”? “A história mostra que uma…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Literatura e voz, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "necessidades"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "inspirar"
+                "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
               }
             ]
           }
@@ -49134,42 +49134,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Literatura e voz, Marina e Caio visitam uma comunidade _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Literatura e voz · Compreensão oral”? “Neste episódio sobre Literatura e…”",
         "options": [
-          "brasileira",
-          "visitam",
-          "questão",
-          "pessoas"
+          "Neste episódio sobre Literatura e voz, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Literatura e voz · Compreensão oral”? “Ela explica que antes de agir é…”",
         "options": [
-          "participantes",
-          "explica",
-          "consequências",
-          "necessidades"
+          "Neste episódio sobre Literatura e voz, Marina e Caio visitam uma comunidade brasileira.",
+          "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Literatura e voz · Compreensão oral”? “Marina lembra que duas soluções podem…”",
         "options": [
-          "participantes",
-          "consequências",
-          "parecer",
-          "necessidades"
+          "Neste episódio sobre Literatura e voz, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Literatura e voz · Compreensão oral”? “A história mostra que uma…”",
         "options": [
-          "participantes",
-          "consequências",
-          "necessidades",
-          "inspirar"
+          "Neste episódio sobre Literatura e voz, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         ]
       }
     ]
@@ -49266,92 +49266,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Mediação intercultural, Marina e Caio visitam uma comunidade _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Mediação intercultural · Compreensão oral”? “Neste episódio sobre Mediação…”",
             "options": [
               {
                 "id": "o1",
-                "text": "brasileira"
+                "text": "Neste episódio sobre Mediação intercultural, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "intercultural"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "visitam"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "questão"
+                "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Mediação intercultural · Compreensão oral”? “Ela explica que antes de agir é…”",
             "options": [
               {
                 "id": "o1",
-                "text": "intercultural"
+                "text": "Neste episódio sobre Mediação intercultural, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "explica"
+                "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
               },
               {
                 "id": "o3",
-                "text": "participantes"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o4",
-                "text": "consequências"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Mediação intercultural · Compreensão oral”? “Marina lembra que duas soluções podem…”",
             "options": [
               {
                 "id": "o1",
-                "text": "intercultural"
+                "text": "Neste episódio sobre Mediação intercultural, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "participantes"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "parecer"
+                "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
               },
               {
                 "id": "o4",
-                "text": "consequências"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Mediação intercultural · Compreensão oral”? “A história mostra que uma…”",
             "options": [
               {
                 "id": "o1",
-                "text": "intercultural"
+                "text": "Neste episódio sobre Mediação intercultural, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "participantes"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "consequências"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "inspirar"
+                "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
               }
             ]
           }
@@ -49371,42 +49371,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Mediação intercultural, Marina e Caio visitam uma comunidade _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Mediação intercultural · Compreensão oral”? “Neste episódio sobre Mediação…”",
         "options": [
-          "brasileira",
-          "intercultural",
-          "visitam",
-          "questão"
+          "Neste episódio sobre Mediação intercultural, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Mediação intercultural · Compreensão oral”? “Ela explica que antes de agir é…”",
         "options": [
-          "intercultural",
-          "explica",
-          "participantes",
-          "consequências"
+          "Neste episódio sobre Mediação intercultural, Marina e Caio visitam uma comunidade brasileira.",
+          "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Mediação intercultural · Compreensão oral”? “Marina lembra que duas soluções podem…”",
         "options": [
-          "intercultural",
-          "participantes",
-          "parecer",
-          "consequências"
+          "Neste episódio sobre Mediação intercultural, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Mediação intercultural · Compreensão oral”? “A história mostra que uma…”",
         "options": [
-          "intercultural",
-          "participantes",
-          "consequências",
-          "inspirar"
+          "Neste episódio sobre Mediação intercultural, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         ]
       }
     ]
@@ -49464,92 +49464,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Eu gosto desta _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Sabores do Brasil: ouça”? “Eu gosto desta…”",
             "options": [
               {
                 "id": "o1",
-                "text": "sopa"
+                "text": "Eu gosto desta sopa."
               },
               {
                 "id": "o2",
-                "text": "comunidade"
+                "text": "Falamos de arroz."
               },
               {
                 "id": "o3",
-                "text": "aprender"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "praticar"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“_____ de arroz.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Sabores do Brasil: ouça”? “Falamos de arroz…”",
             "options": [
               {
                 "id": "o1",
-                "text": "sopa"
+                "text": "Eu gosto desta sopa."
               },
               {
                 "id": "o2",
-                "text": "Falamos"
+                "text": "Falamos de arroz."
               },
               {
                 "id": "o3",
-                "text": "comunidade"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "gosto"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Sabores do Brasil: ouça”? “Gosto de aprender…”",
             "options": [
               {
                 "id": "o1",
-                "text": "comunidade"
+                "text": "Eu gosto desta sopa."
               },
               {
                 "id": "o2",
-                "text": "aprender"
+                "text": "Falamos de arroz."
               },
               {
                 "id": "o3",
-                "text": "Gosto"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "praticar"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Sabores do Brasil: ouça”? “Vamos praticar juntos…”",
             "options": [
               {
                 "id": "o1",
-                "text": "gosto"
+                "text": "Eu gosto desta sopa."
               },
               {
                 "id": "o2",
-                "text": "desta"
+                "text": "Falamos de arroz."
               },
               {
                 "id": "o3",
-                "text": "arroz"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "praticar"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           }
@@ -49560,42 +49560,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Eu gosto desta _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Sabores do Brasil: ouça”? “Eu gosto desta…”",
         "options": [
-          "sopa",
-          "comunidade",
-          "aprender",
-          "praticar"
+          "Eu gosto desta sopa.",
+          "Falamos de arroz.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“_____ de arroz.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Sabores do Brasil: ouça”? “Falamos de arroz…”",
         "options": [
-          "sopa",
-          "Falamos",
-          "comunidade",
-          "gosto"
+          "Eu gosto desta sopa.",
+          "Falamos de arroz.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Sabores do Brasil: ouça”? “Gosto de aprender…”",
         "options": [
-          "comunidade",
-          "aprender",
-          "Gosto",
-          "praticar"
+          "Eu gosto desta sopa.",
+          "Falamos de arroz.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Sabores do Brasil: ouça”? “Vamos praticar juntos…”",
         "options": [
-          "gosto",
-          "desta",
-          "arroz",
-          "praticar"
+          "Eu gosto desta sopa.",
+          "Falamos de arroz.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       }
     ]
@@ -49653,92 +49653,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Quero usar menos _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Cidade e ambiente: ouça”? “Quero usar menos…”",
             "options": [
               {
                 "id": "o1",
-                "text": "plástico"
+                "text": "Quero usar menos plástico."
               },
               {
                 "id": "o2",
-                "text": "Quero"
+                "text": "Falamos de lixo."
               },
               {
                 "id": "o3",
-                "text": "menos"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "Gosto"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“_____ de lixo.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Cidade e ambiente: ouça”? “Falamos de lixo…”",
             "options": [
               {
                 "id": "o1",
-                "text": "usar"
+                "text": "Quero usar menos plástico."
               },
               {
                 "id": "o2",
-                "text": "Falamos"
+                "text": "Falamos de lixo."
               },
               {
                 "id": "o3",
-                "text": "lixo"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "comunidade"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Cidade e ambiente: ouça”? “Gosto de aprender…”",
             "options": [
               {
                 "id": "o1",
-                "text": "comunidade"
+                "text": "Quero usar menos plástico."
               },
               {
                 "id": "o2",
-                "text": "plástico"
+                "text": "Falamos de lixo."
               },
               {
                 "id": "o3",
-                "text": "Gosto"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "aprender"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Cidade e ambiente: ouça”? “Vamos praticar juntos…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Quero"
+                "text": "Quero usar menos plástico."
               },
               {
                 "id": "o2",
-                "text": "menos"
+                "text": "Falamos de lixo."
               },
               {
                 "id": "o3",
-                "text": "Gosto"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "praticar"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           }
@@ -49749,42 +49749,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Quero usar menos _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Cidade e ambiente: ouça”? “Quero usar menos…”",
         "options": [
-          "plástico",
-          "Quero",
-          "menos",
-          "Gosto"
+          "Quero usar menos plástico.",
+          "Falamos de lixo.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“_____ de lixo.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Cidade e ambiente: ouça”? “Falamos de lixo…”",
         "options": [
-          "usar",
-          "Falamos",
-          "lixo",
-          "comunidade"
+          "Quero usar menos plástico.",
+          "Falamos de lixo.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Cidade e ambiente: ouça”? “Gosto de aprender…”",
         "options": [
-          "comunidade",
-          "plástico",
-          "Gosto",
-          "aprender"
+          "Quero usar menos plástico.",
+          "Falamos de lixo.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Cidade e ambiente: ouça”? “Vamos praticar juntos…”",
         "options": [
-          "Quero",
-          "menos",
-          "Gosto",
-          "praticar"
+          "Quero usar menos plástico.",
+          "Falamos de lixo.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       }
     ]
@@ -52932,92 +52932,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Hoje, em uma conversa sobre Cidadania e participação, três colegas contam uma história que aconteceu em uma comunidade _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Cidadania e participação: palavras”? “Hoje em uma conversa sobre Cidadania e…”",
             "options": [
               {
                 "id": "o1",
-                "text": "brasileira"
+                "text": "Hoje, em uma conversa sobre Cidadania e participação, três colegas contam uma história que aconteceu em uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "compartilhados"
+                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
               },
               {
                 "id": "o3",
-                "text": "colegas"
+                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
               },
               {
                 "id": "o4",
-                "text": "pessoas"
+                "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A conversa não foi _____ fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Cidadania e participação: palavras”? “A conversa não foi sempre fácil cada…”",
             "options": [
               {
                 "id": "o1",
-                "text": "compartilhados"
+                "text": "Hoje, em uma conversa sobre Cidadania e participação, três colegas contam uma história que aconteceu em uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "sempre"
+                "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
               },
               {
                 "id": "o3",
-                "text": "trabalhadores"
+                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
               },
               {
                 "id": "o4",
-                "text": "participantes"
+                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Uma senhora que mora no bairro há muitos anos disse que se _____ respeitada por poder contar o que observa todos os dias.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Cidadania e participação: palavras”? “Uma senhora que mora no bairro há…”",
             "options": [
               {
                 "id": "o1",
-                "text": "compartilhados"
+                "text": "Hoje, em uma conversa sobre Cidadania e participação, três colegas contam uma história que aconteceu em uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "trabalhadores"
+                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
               },
               {
                 "id": "o3",
-                "text": "sentiu"
+                "text": "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias."
               },
               {
                 "id": "o4",
-                "text": "participantes"
+                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao terminar, os colegas concluíram que pequenos passos, quando são bem _____ e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Cidadania e participação: palavras”? “Ao terminar os colegas concluíram que pequenos…”",
             "options": [
               {
                 "id": "o1",
-                "text": "compartilhados"
+                "text": "Hoje, em uma conversa sobre Cidadania e participação, três colegas contam uma história que aconteceu em uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "colegas"
+                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
               },
               {
                 "id": "o3",
-                "text": "pessoas"
+                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
               },
               {
                 "id": "o4",
-                "text": "planejados"
+                "text": "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
               }
             ]
           }
@@ -53094,42 +53094,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Hoje, em uma conversa sobre Cidadania e participação, três colegas contam uma história que aconteceu em uma comunidade _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Cidadania e participação: palavras”? “Hoje em uma conversa sobre Cidadania e…”",
         "options": [
-          "brasileira",
-          "compartilhados",
-          "colegas",
-          "pessoas"
+          "Hoje, em uma conversa sobre Cidadania e participação, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
+          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
+          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes.",
+          "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A conversa não foi _____ fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Cidadania e participação: palavras”? “A conversa não foi sempre fácil cada…”",
         "options": [
-          "compartilhados",
-          "sempre",
-          "trabalhadores",
-          "participantes"
+          "Hoje, em uma conversa sobre Cidadania e participação, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
+          "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.",
+          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
+          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Uma senhora que mora no bairro há muitos anos disse que se _____ respeitada por poder contar o que observa todos os dias.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Cidadania e participação: palavras”? “Uma senhora que mora no bairro há…”",
         "options": [
-          "compartilhados",
-          "trabalhadores",
-          "sentiu",
-          "participantes"
+          "Hoje, em uma conversa sobre Cidadania e participação, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
+          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
+          "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.",
+          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao terminar, os colegas concluíram que pequenos passos, quando são bem _____ e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Cidadania e participação: palavras”? “Ao terminar os colegas concluíram que pequenos…”",
         "options": [
-          "compartilhados",
-          "colegas",
-          "pessoas",
-          "planejados"
+          "Hoje, em uma conversa sobre Cidadania e participação, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
+          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
+          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes.",
+          "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
         ]
       }
     ]
@@ -53454,92 +53454,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Balanços e perspectivas, Marina e Caio visitam uma rede de voluntários em _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Balanços e perspectivas · Compreensão oral”? “Neste episódio sobre Balanços e perspectivas…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Belém"
+                "text": "Neste episódio sobre Balanços e perspectivas, Marina e Caio visitam uma rede de voluntários em Belém."
               },
               {
                 "id": "o2",
-                "text": "participantes"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "consequências"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "perspectivas"
+                "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Balanços e perspectivas · Compreensão oral”? “Ela explica que antes de agir é…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Balanços e perspectivas, Marina e Caio visitam uma rede de voluntários em Belém."
               },
               {
                 "id": "o2",
-                "text": "explica"
+                "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
               },
               {
                 "id": "o3",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o4",
-                "text": "perspectivas"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Balanços e perspectivas · Compreensão oral”? “Marina lembra que duas soluções podem…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Balanços e perspectivas, Marina e Caio visitam uma rede de voluntários em Belém."
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "parecer"
+                "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
               },
               {
                 "id": "o4",
-                "text": "perspectivas"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Balanços e perspectivas · Compreensão oral”? “A história mostra que uma…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Balanços e perspectivas, Marina e Caio visitam uma rede de voluntários em Belém."
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "perspectivas"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "inspirar"
+                "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
               }
             ]
           }
@@ -53559,42 +53559,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Balanços e perspectivas, Marina e Caio visitam uma rede de voluntários em _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Balanços e perspectivas · Compreensão oral”? “Neste episódio sobre Balanços e perspectivas…”",
         "options": [
-          "Belém",
-          "participantes",
-          "consequências",
-          "perspectivas"
+          "Neste episódio sobre Balanços e perspectivas, Marina e Caio visitam uma rede de voluntários em Belém.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Balanços e perspectivas · Compreensão oral”? “Ela explica que antes de agir é…”",
         "options": [
-          "participantes",
-          "explica",
-          "consequências",
-          "perspectivas"
+          "Neste episódio sobre Balanços e perspectivas, Marina e Caio visitam uma rede de voluntários em Belém.",
+          "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Balanços e perspectivas · Compreensão oral”? “Marina lembra que duas soluções podem…”",
         "options": [
-          "participantes",
-          "consequências",
-          "parecer",
-          "perspectivas"
+          "Neste episódio sobre Balanços e perspectivas, Marina e Caio visitam uma rede de voluntários em Belém.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Balanços e perspectivas · Compreensão oral”? “A história mostra que uma…”",
         "options": [
-          "participantes",
-          "consequências",
-          "perspectivas",
-          "inspirar"
+          "Neste episódio sobre Balanços e perspectivas, Marina e Caio visitam uma rede de voluntários em Belém.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         ]
       }
     ]
@@ -53691,92 +53691,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Projeto pessoal, Marina e Caio visitam uma comunidade _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Projeto pessoal · Compreensão oral”? “Neste episódio sobre Projeto…”",
             "options": [
               {
                 "id": "o1",
-                "text": "brasileira"
+                "text": "Neste episódio sobre Projeto pessoal, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "Projeto"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "pessoal"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "visitam"
+                "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Projeto pessoal · Compreensão oral”? “Ela explica que antes de agir é…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Projeto pessoal, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "explica"
+                "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
               },
               {
                 "id": "o3",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o4",
-                "text": "necessidades"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Projeto pessoal · Compreensão oral”? “Marina lembra que duas soluções podem…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Projeto pessoal, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "parecer"
+                "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
               },
               {
                 "id": "o4",
-                "text": "necessidades"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Projeto pessoal · Compreensão oral”? “A história mostra que uma…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Projeto pessoal, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "necessidades"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "inspirar"
+                "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
               }
             ]
           }
@@ -53796,42 +53796,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Projeto pessoal, Marina e Caio visitam uma comunidade _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Projeto pessoal · Compreensão oral”? “Neste episódio sobre Projeto…”",
         "options": [
-          "brasileira",
-          "Projeto",
-          "pessoal",
-          "visitam"
+          "Neste episódio sobre Projeto pessoal, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Projeto pessoal · Compreensão oral”? “Ela explica que antes de agir é…”",
         "options": [
-          "participantes",
-          "explica",
-          "consequências",
-          "necessidades"
+          "Neste episódio sobre Projeto pessoal, Marina e Caio visitam uma comunidade brasileira.",
+          "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Projeto pessoal · Compreensão oral”? “Marina lembra que duas soluções podem…”",
         "options": [
-          "participantes",
-          "consequências",
-          "parecer",
-          "necessidades"
+          "Neste episódio sobre Projeto pessoal, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Projeto pessoal · Compreensão oral”? “A história mostra que uma…”",
         "options": [
-          "participantes",
-          "consequências",
-          "necessidades",
-          "inspirar"
+          "Neste episódio sobre Projeto pessoal, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         ]
       }
     ]
@@ -53928,92 +53928,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Síntese e proposta, Marina e Caio visitam uma comunidade _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Síntese e proposta · Compreensão oral”? “Neste episódio sobre Síntese e…”",
             "options": [
               {
                 "id": "o1",
-                "text": "brasileira"
+                "text": "Neste episódio sobre Síntese e proposta, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "Síntese"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "visitam"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "questão"
+                "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Síntese e proposta · Compreensão oral”? “Ela explica que antes de agir é…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Síntese e proposta, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "explica"
+                "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
               },
               {
                 "id": "o3",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o4",
-                "text": "necessidades"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Síntese e proposta · Compreensão oral”? “Marina lembra que duas soluções podem…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Síntese e proposta, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "parecer"
+                "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
               },
               {
                 "id": "o4",
-                "text": "necessidades"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Síntese e proposta · Compreensão oral”? “A história mostra que uma…”",
             "options": [
               {
                 "id": "o1",
-                "text": "participantes"
+                "text": "Neste episódio sobre Síntese e proposta, Marina e Caio visitam uma comunidade brasileira."
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
               },
               {
                 "id": "o3",
-                "text": "necessidades"
+                "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
               },
               {
                 "id": "o4",
-                "text": "inspirar"
+                "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
               }
             ]
           }
@@ -54033,42 +54033,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Síntese e proposta, Marina e Caio visitam uma comunidade _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Síntese e proposta · Compreensão oral”? “Neste episódio sobre Síntese e…”",
         "options": [
-          "brasileira",
-          "Síntese",
-          "visitam",
-          "questão"
+          "Neste episódio sobre Síntese e proposta, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Síntese e proposta · Compreensão oral”? “Ela explica que antes de agir é…”",
         "options": [
-          "participantes",
-          "explica",
-          "consequências",
-          "necessidades"
+          "Neste episódio sobre Síntese e proposta, Marina e Caio visitam uma comunidade brasileira.",
+          "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Síntese e proposta · Compreensão oral”? “Marina lembra que duas soluções podem…”",
         "options": [
-          "participantes",
-          "consequências",
-          "parecer",
-          "necessidades"
+          "Neste episódio sobre Síntese e proposta, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Síntese e proposta · Compreensão oral”? “A história mostra que uma…”",
         "options": [
-          "participantes",
-          "consequências",
-          "necessidades",
-          "inspirar"
+          "Neste episódio sobre Síntese e proposta, Marina e Caio visitam uma comunidade brasileira.",
+          "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia.",
+          "Marina conta que, no início, alguns participantes queriam resolver tudo depressa.",
+          "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         ]
       }
     ]
@@ -54126,92 +54126,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Hoje eu _____ muito.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Mensagem para casa: ouça”? “Hoje eu aprendi…”",
             "options": [
               {
                 "id": "o1",
-                "text": "aprendi"
+                "text": "Hoje eu aprendi muito."
               },
               {
                 "id": "o2",
-                "text": "Hoje"
+                "text": "Falamos de hoje."
               },
               {
                 "id": "o3",
-                "text": "comunidade"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "muito"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“_____ de hoje.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Mensagem para casa: ouça”? “Falamos de hoje…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoje"
+                "text": "Hoje eu aprendi muito."
               },
               {
                 "id": "o2",
-                "text": "Falamos"
+                "text": "Falamos de hoje."
               },
               {
                 "id": "o3",
-                "text": "comunidade"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "muito"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Mensagem para casa: ouça”? “Gosto de aprender…”",
             "options": [
               {
                 "id": "o1",
-                "text": "comunidade"
+                "text": "Hoje eu aprendi muito."
               },
               {
                 "id": "o2",
-                "text": "aprender"
+                "text": "Falamos de hoje."
               },
               {
                 "id": "o3",
-                "text": "Gosto"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "praticar"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Mensagem para casa: ouça”? “Vamos praticar juntos…”",
             "options": [
               {
                 "id": "o1",
-                "text": "muito"
+                "text": "Hoje eu aprendi muito."
               },
               {
                 "id": "o2",
-                "text": "Gosto"
+                "text": "Falamos de hoje."
               },
               {
                 "id": "o3",
-                "text": "Vamos"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "praticar"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           }
@@ -54222,42 +54222,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Hoje eu _____ muito.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Mensagem para casa: ouça”? “Hoje eu aprendi…”",
         "options": [
-          "aprendi",
-          "Hoje",
-          "comunidade",
-          "muito"
+          "Hoje eu aprendi muito.",
+          "Falamos de hoje.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“_____ de hoje.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Mensagem para casa: ouça”? “Falamos de hoje…”",
         "options": [
-          "Hoje",
-          "Falamos",
-          "comunidade",
-          "muito"
+          "Hoje eu aprendi muito.",
+          "Falamos de hoje.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Mensagem para casa: ouça”? “Gosto de aprender…”",
         "options": [
-          "comunidade",
-          "aprender",
-          "Gosto",
-          "praticar"
+          "Hoje eu aprendi muito.",
+          "Falamos de hoje.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Mensagem para casa: ouça”? “Vamos praticar juntos…”",
         "options": [
-          "muito",
-          "Gosto",
-          "Vamos",
-          "praticar"
+          "Hoje eu aprendi muito.",
+          "Falamos de hoje.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       }
     ]
@@ -54315,92 +54315,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Foi uma viagem _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Contar uma experiência: ouça”? “Foi uma viagem…”",
             "options": [
               {
                 "id": "o1",
-                "text": "importante"
+                "text": "Foi uma viagem importante."
               },
               {
                 "id": "o2",
-                "text": "Falamos"
+                "text": "Falamos de lembrança."
               },
               {
                 "id": "o3",
-                "text": "aprender"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "praticar"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Falamos de _____.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Contar uma experiência: ouça”? “Falamos de lembrança…”",
             "options": [
               {
                 "id": "o1",
-                "text": "viagem"
+                "text": "Foi uma viagem importante."
               },
               {
                 "id": "o2",
-                "text": "lembrança"
+                "text": "Falamos de lembrança."
               },
               {
                 "id": "o3",
-                "text": "juntos"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "amanhã"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Contar uma experiência: ouça”? “Gosto de aprender…”",
             "options": [
               {
                 "id": "o1",
-                "text": "importante"
+                "text": "Foi uma viagem importante."
               },
               {
                 "id": "o2",
-                "text": "comunidade"
+                "text": "Falamos de lembrança."
               },
               {
                 "id": "o3",
-                "text": "Gosto"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "lembrança"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
+            "prompt": "Qual afirmação completa este momento do áudio “Contar uma experiência: ouça”? “Vamos praticar juntos…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Gosto"
+                "text": "Foi uma viagem importante."
               },
               {
                 "id": "o2",
-                "text": "Vamos"
+                "text": "Falamos de lembrança."
               },
               {
                 "id": "o3",
-                "text": "viagem"
+                "text": "Gosto de aprender com a comunidade."
               },
               {
                 "id": "o4",
-                "text": "praticar"
+                "text": "Vamos praticar juntos amanhã."
               }
             ]
           }
@@ -54411,42 +54411,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Foi uma viagem _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Contar uma experiência: ouça”? “Foi uma viagem…”",
         "options": [
-          "importante",
-          "Falamos",
-          "aprender",
-          "praticar"
+          "Foi uma viagem importante.",
+          "Falamos de lembrança.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Falamos de _____.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Contar uma experiência: ouça”? “Falamos de lembrança…”",
         "options": [
-          "viagem",
-          "lembrança",
-          "juntos",
-          "amanhã"
+          "Foi uma viagem importante.",
+          "Falamos de lembrança.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“_____ de aprender com a comunidade.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Contar uma experiência: ouça”? “Gosto de aprender…”",
         "options": [
-          "importante",
-          "comunidade",
-          "Gosto",
-          "lembrança"
+          "Foi uma viagem importante.",
+          "Falamos de lembrança.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Vamos _____ juntos amanhã.”",
+        "prompt": "Qual afirmação completa este momento do áudio “Contar uma experiência: ouça”? “Vamos praticar juntos…”",
         "options": [
-          "Gosto",
-          "Vamos",
-          "viagem",
-          "praticar"
+          "Foi uma viagem importante.",
+          "Falamos de lembrança.",
+          "Gosto de aprender com a comunidade.",
+          "Vamos praticar juntos amanhã."
         ]
       }
     ]
