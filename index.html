@@ -136,19 +136,9 @@
         <span class="user-chip" hidden></span>
         <a class="login" href="#" data-action="open-auth" data-panel="login" data-i18n="loginBtn">Iniciar sesión</a>
         <a class="signup" href="#" data-action="open-auth" data-panel="signup" data-i18n="signupBtn">Comenzar gratis</a>
-        <button class="logout-btn" type="button" hidden data-i18n="logoutBtn">Salir</button>
+        <button class="logout-btn" type="button" hidden data-i18n="logoutBtn">Cerrar sesión</button>
       </div>
     </header>
-
-    <!-- Mobile-first learning launcher. Kept separate from the desktop menu so
-         the most useful study actions remain one tap away on a phone. -->
-    <nav class="mobile-learning-dock" aria-label="Accesos rápidos de aprendizaje">
-      <a href="#learn" class="is-current"><span aria-hidden="true">⌂</span><small>Inicio</small></a>
-      <a href="#learn"><span aria-hidden="true">◎</span><small>Ruta</small></a>
-      <a href="#tutor"><span aria-hidden="true">✦</span><small>Tutor</small></a>
-      <a href="#games"><span aria-hidden="true">◇</span><small>Práctica</small></a>
-      <a href="#progress"><span aria-hidden="true">↗</span><small>Progreso</small></a>
-    </nav>
 
     <main id="content">
       <section class="hero">
@@ -410,7 +400,7 @@
 
           </div>
 
-          <section class="account-plan-panel" data-account-plan-panel hidden aria-live="polite">
+          <section id="account-plan" class="account-plan-panel" data-account-plan-panel hidden aria-live="polite">
             <div>
               <span class="account-plan-eyebrow">ESTATUS DE TU CUENTA</span>
               <h3 data-account-plan-name>Free</h3>
@@ -2088,7 +2078,7 @@
                   </span>
                 </label>
                 <p class="password-strength" id="signupPasswordStrength" aria-live="polite"></p>
-                <p class="auth-field-hint">Usa al menos 8 caracteres, combinando letras y números.</p>
+                <p class="auth-field-hint">Usa al menos 8 caracteres, combinando letras y números. Ejemplo de formato: <strong>Verde!2026Sol</strong> — crea una diferente para ti.</p>
 
                 <label for="signupConfirmPassword"
                   >Confirmar contraseña

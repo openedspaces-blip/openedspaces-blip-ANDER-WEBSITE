@@ -804,7 +804,6 @@ function getDisplayName() {
 function renderAuthState() {
   const isSignedIn = Boolean(authStatus.session?.access_token);
   const name = getDisplayName();
-
   if (userChip) {
     userChip.hidden = !isSignedIn;
     const greeting = name || 'Mi cuenta';
@@ -3444,8 +3443,8 @@ function setupPasswordStrengthMeter(inputId, statusId) {
       { label: 'Débil', className: 'is-weak' },
       { label: 'Aceptable', className: 'is-fair' },
       { label: 'Buena', className: 'is-good' },
-      { label: 'Fuerte', className: 'is-strong' },
-      { label: 'Muy fuerte', className: 'is-strong' }
+      { label: 'Cumple los requisitos básicos', className: 'is-strong' },
+      { label: 'Muy segura', className: 'is-strong' }
     ];
     const level = levels[Math.min(score, levels.length - 1)];
     statusEl.textContent = level.label;
