@@ -1136,8 +1136,10 @@ a:focus-visible {
   background: #fff;
   color: #374151;
   font: inherit;
+  font-size: 0.95rem;
   font-weight: 800;
   cursor: pointer;
+  touch-action: manipulation;
   box-shadow: 0 2px 7px rgba(15, 23, 42, 0.06);
 }
 
@@ -1535,9 +1537,18 @@ a:focus-visible {
 }
 
 @media (max-width: 640px) {
+  #authModal {
+    place-items: end center;
+    padding: max(12px, env(safe-area-inset-top)) 12px max(12px, env(safe-area-inset-bottom));
+  }
+
   #authModal .auth-panel,
   #usernameOnboardingModal .auth-panel {
+    width: 100%;
+    max-width: 430px;
+    max-height: calc(100dvh - max(24px, env(safe-area-inset-top)) - max(24px, env(safe-area-inset-bottom)));
     padding: 16px;
+    border-radius: 20px;
   }
 
   #authModal .auth-form,
@@ -1572,6 +1583,15 @@ a:focus-visible {
   #usernameOnboardingModal .primary-btn,
   #usernameOnboardingModal .secondary-btn {
     min-height: 44px;
+  }
+
+  #authModal .auth-google-btn {
+    min-height: 50px;
+    font-size: 1rem;
+  }
+
+  #authModal .auth-divider {
+    margin: 0.65rem 0;
   }
 }
 
