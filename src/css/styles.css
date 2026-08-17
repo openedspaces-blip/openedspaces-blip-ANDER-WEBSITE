@@ -30063,7 +30063,6 @@ body {
     grid-template-columns: minmax(0, 1fr) auto auto;
     grid-template-areas:
       'brand actions toggle'
-      'mobiletabs mobiletabs mobiletabs'
       'menu menu menu';
     min-height: 64px;
     gap: 0.35rem;
@@ -30071,11 +30070,7 @@ body {
   }
 
   .mobile-header-tabs {
-    grid-area: mobiletabs;
-    display: block !important;
-    width: 100%;
-    padding: 0;
-    overflow: visible;
+    display: none !important;
   }
 
   .mobile-header-tabs > a {
