@@ -204,7 +204,7 @@
       aboutTitle: 'Sobre ANDERGO',
       aboutWhatTitle: 'Qué es ANDERGO',
       aboutWhatP1:
-        'ANDERGO es una plataforma para aprender inglés, francés, español, italiano, portugués y alemán mediante rutas claras. Inglés, francés y español llegan de A1 a C2; italiano, portugués y alemán están disponibles de A1 a B1. Cada unidad conecta Reading, Listening, Vocabulary, Grammar, Speaking, Writing y Verbos para que la práctica tenga una secuencia y un propósito.',
+        'ANDERGO es una plataforma para aprender inglés, francés, español, italiano, portugués y alemán mediante rutas claras. Inglés, francés y español llegan de A1 a C2; italiano, portugués y alemán están disponibles de A1 a B1. Cada unidad inicia con Vocabulary y continúa con Reading, Listening, Speaking, Writing, Grammar y Verbos para que la práctica tenga una secuencia y un propósito.',
       aboutWhatP2:
         'Empiezas por la actividad recomendada, practicas una habilidad a la vez y avanzas con apoyo del Tutor IA, el traductor contextual, audio y herramientas de repaso. Tu progreso, racha y objetivos se guardan en tu perfil para ayudarte a retomar desde donde quedaste.',
       aboutHowTitle: 'Cómo funciona',
@@ -220,7 +220,7 @@
       aboutStartFreeBtn: 'Comenzar gratis',
       aboutIncludesTitle: 'Qué incluye la plataforma',
       aboutIncludesItem1: 'Rutas de A1 a C2 en inglés, francés y español, y rutas A1–B1 en italiano, portugués y alemán.',
-      aboutIncludesItem2: 'Una secuencia por unidad: Reading, Listening, Vocabulary, Grammar, Speaking, Writing y Verbos.',
+      aboutIncludesItem2: 'Una secuencia por unidad: Vocabulary, Reading, Listening, Speaking, Writing, Grammar y Verbos.',
       aboutIncludesItem3: 'Tutor IA para explicaciones docentes, ejemplos, pistas y práctica guiada.',
       aboutIncludesItem4: 'Reproductor de escucha con repetir, saltar, velocidad y texto de apoyo cuando lo necesites.',
       aboutIncludesItem5: 'Traductor contextual, tarjetas de vocabulario y ejemplos para repasar en ambos sentidos.',
@@ -297,7 +297,7 @@
       aboutTitle: 'About ANDERGO',
       aboutWhatTitle: 'What ANDERGO is',
       aboutWhatP1:
-        'ANDERGO is a platform for learning English, French, Spanish, Italian, Portuguese and German through clear learning paths. English, French and Spanish run from A1 to C2; Italian, Portuguese and German are available from A1 to B1. Every unit connects Reading, Listening, Vocabulary, Grammar, Speaking, Writing and Verbs so practice follows a purposeful sequence.',
+        'ANDERGO is a platform for learning English, French, Spanish, Italian, Portuguese and German through clear learning paths. English, French and Spanish run from A1 to C2; Italian, Portuguese and German are available from A1 to B1. Every unit starts with Vocabulary, then continues with Reading, Listening, Speaking, Writing, Grammar and Verbs so practice follows a purposeful sequence.',
       aboutWhatP2:
         'Start with the recommended activity, practise one skill at a time, and move forward with support from the AI Tutor, contextual translator, audio and review tools. Your progress, streak and goals are saved in your profile so you can pick up where you left off.',
       aboutHowTitle: 'How it works',
@@ -305,7 +305,7 @@
       aboutStep1Title: '1. Choose your language and level',
       aboutStep1Text: 'Pick English, French or Spanish, and the A1–C2 level that fits you best.',
       aboutStep2Title: '2. Practice guided lessons',
-      aboutStep2Text: 'Follow a connected sequence: reading, listening, vocabulary, grammar, expression and verbs.',
+      aboutStep2Text: 'Follow a connected sequence: vocabulary, reading, listening, expression, grammar and verbs.',
       aboutStep3Title: '3. Talk with the AI Tutor',
       aboutStep3Text: 'Ask for step-by-step explanations, examples and hints without losing the thread of your lesson.',
       aboutStep4Title: '4. Track your real progress',
@@ -313,7 +313,7 @@
       aboutStartFreeBtn: 'Start for free',
       aboutIncludesTitle: 'What the platform includes',
       aboutIncludesItem1: 'A1-to-C2 paths in English, French and Spanish, plus A1-to-B1 paths in Italian, Portuguese and German.',
-      aboutIncludesItem2: 'A sequence in every unit: Reading, Listening, Vocabulary, Grammar, Speaking, Writing and Verbs.',
+      aboutIncludesItem2: 'A sequence in every unit: Vocabulary, Reading, Listening, Speaking, Writing, Grammar and Verbs.',
       aboutIncludesItem3: 'An AI Tutor for teacher-like explanations, examples, hints and guided practice.',
       aboutIncludesItem4: 'A listening player with replay, skipping, speed controls and support text when you need it.',
       aboutIncludesItem5: 'A contextual translator, vocabulary cards and examples for two-way review.',
@@ -390,7 +390,7 @@
       aboutTitle: "À propos d'ANDERGO",
       aboutWhatTitle: "Qu'est-ce qu'ANDERGO",
       aboutWhatP1:
-        "ANDERGO est une plateforme pour apprendre l'anglais, le français et l'espagnol grâce à des parcours clairs de A1 à C2. Chaque unité relie Reading, Listening, Vocabulary, Grammar, Speaking, Writing et Verbes afin que la pratique suive une progression cohérente.",
+        "ANDERGO est une plateforme pour apprendre l'anglais, le français et l'espagnol grâce à des parcours clairs de A1 à C2. Chaque unité commence par Vocabulary, puis continue avec Reading, Listening, Speaking, Writing, Grammar et Verbes afin que la pratique suive une progression cohérente.",
       aboutWhatP2:
         "Commencez par l'activité recommandée, travaillez une compétence à la fois et avancez avec le Tuteur IA, le traducteur contextuel, l'audio et les outils de révision. Votre progression, votre série et vos objectifs sont enregistrés dans votre profil pour reprendre là où vous vous êtes arrêté.",
       aboutHowTitle: 'Comment ça marche',
@@ -407,7 +407,7 @@
       aboutStartFreeBtn: 'Commencer gratuitement',
       aboutIncludesTitle: 'Ce que la plateforme inclut',
       aboutIncludesItem1: 'Des parcours complets de A1 à C2 en anglais, français et espagnol.',
-      aboutIncludesItem2: 'Une séquence dans chaque unité : Reading, Listening, Vocabulary, Grammar, Speaking, Writing et Verbes.',
+      aboutIncludesItem2: 'Une séquence dans chaque unité : Vocabulary, Reading, Listening, Speaking, Writing, Grammar et Verbes.',
       aboutIncludesItem3: 'Un Tuteur IA pour des explications pédagogiques, des exemples, des indices et une pratique guidée.',
       aboutIncludesItem4: "Un lecteur d'écoute avec répétition, saut, vitesse et texte d'appui selon vos besoins.",
       aboutIncludesItem5: 'Un traducteur contextuel, des cartes de vocabulaire et des exemples pour réviser dans les deux sens.',

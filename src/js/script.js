@@ -1779,6 +1779,14 @@ function isPremiumUser() {
   return Boolean(authStatus.entitlements?.isPremium);
 }
 
+// Premium is the user-facing entitlement and `hasFullAccess` is its route
+// access counterpart. Older dashboard payloads can contain the first field
+// before the second one, so a verified Premium account must still unlock its
+// route instead of leaving units visually locked.
+function hasFullRouteAccess(entitlements = authStatus.entitlements) {
+  return Boolean(entitlements?.hasFullAccess || entitlements?.isPremium);
+}
+
 // title/message let a caller override the two spots worded around a usage
 // cap ("Has alcanzado el límite...") for cases that aren't a cap at all -
 // e.g. a Premium-only lesson a Free account just tapped into (see the
@@ -2323,8 +2331,22 @@ function renderDashboard(data) {
   // up for an account that already has one.
   closeUsernameOnboardingIfNowSatisfied(data.preferences);
   if (data.entitlements) {
-    authStatus.entitlements = data.entitlements;
+    const hadFullRouteAccess = hasFullRouteAccess();
+    authStatus.entitlements = {
+      ...data.entitlements,
+      hasFullAccess: hasFullRouteAccess(data.entitlements)
+    };
     renderAuthState();
+    // A route may have rendered while the dashboard request was still in
+    // flight. Remove entitlement-based locks as soon as Premium is confirmed,
+    // so the account chip and the available units cannot disagree.
+    if (!hadFullRouteAccess && hasFullRouteAccess() && learningPathState.lessons.length) {
+      learningPathState.lessons = learningPathState.lessons.map((lesson) => ({
+        ...lesson,
+        locked: false
+      }));
+      renderLearningPath();
+    }
   }
   renderDashboardStats(data);
   renderDashboardGoal(data.goal, data.preferences);
@@ -5761,12 +5783,12 @@ async function loadTeacherCurriculumPanel() {
 }
 
 const UNIT_LEARNING_SEQUENCE = [
+  'vocabulary',
   'reading',
   'listening',
   'speaking',
   'writing',
-  'grammar',
-  'vocabulary'
+  'grammar'
 ];
 const UNIT_ROUTE_SKILLS = new Set(UNIT_LEARNING_SEQUENCE);
 
@@ -5847,7 +5869,7 @@ function renderUnitSequenceStepsHtml(unitId, currentSkill = '') {
     speaking: 'Hablar',
     writing: 'Escribir',
     grammar: 'Practicar',
-    vocabulary: 'Repasar'
+    vocabulary: 'Explorar'
   };
   const activities = getUnitActivities(unitId);
   const recommendedLesson =
@@ -5994,16 +6016,24 @@ function openLearningRouteTab(skill) {
   showView(skill);
 }
 
-// The primary Vocabulary link opens the expanded catalogue for the current
-// language and level. When a unit is already selected, it keeps the student
-// in that unit so the content remains aligned with the learning route.
+// Vocabulary always belongs to one lesson. From a unit, preserve that unit's
+// word set instead of replacing it with an unrelated level-wide catalogue.
 function openVocabularyFromMainNav() {
-  // The main navigation is the complete level catalogue. Unit Vocabulary
-  // remains reachable from the learning-route sequence, but must not limit
-  // the catalogue to that one lesson's handful of words.
+  const unitVocabulary = learningPathState.unitId
+    ? getUnitActivities(learningPathState.unitId).find((item) => item.skill === 'vocabulary')
+    : null;
+  if (unitVocabulary) {
+    openUnitSequenceStep('vocabulary', unitVocabulary.slug);
+    return;
+  }
   learningPathState.skillEntryContext = 'explore';
-  learningPathState.activeSlug = '';
-  learningPathState.unitId = '';
+  const vocabularyLessons = getSkillActivities('vocabulary');
+  const selectedVocabulary =
+    vocabularyLessons.find((item) => item.slug === learningPathState.activeSlug) ||
+    vocabularyLessons.find((item) => !item.locked && !item.completed) ||
+    vocabularyLessons.find((item) => !item.locked) ||
+    vocabularyLessons[0];
+  if (selectedVocabulary) setActiveLesson(selectedVocabulary.slug);
   history.pushState(null, '', '#vocabulary');
   showView('vocabulary');
 }
@@ -10576,9 +10606,8 @@ function renderSkillView(skill) {
     // The route may be entered directly through a shared/deep skill URL.
     // At that point its unit is restored only after showView() has initially
     // painted the tab strip. Refresh it here once the selected activity is
-    // known, so English (and every other routed course) always shows the
-    // same seven-step order as the mission progress: Reading, Listening,
-    // Speaking, Grammar, Vocabulary, Writing and Verbs.
+    // known, so every routed course shows the same seven-step order as the
+    // mission progress, beginning with Vocabulary.
     if (learningPathState.unitId) {
       learningPathState.skillEntryContext = 'route';
       updateLevelTabLabels();
@@ -10587,11 +10616,9 @@ function renderSkillView(skill) {
 
     if (!selected) {
       section.querySelector('.unit-learning-sequence')?.remove();
-      // Vocabulary is a central catalogue, like Verbos: opening it from the
-      // navigation must show the whole level's words and controls, not a
-      // grid of one Vocabulary activity per unit. A concrete lesson remains
-      // the context for print/practice metadata while its level bank supplies
-      // the visible cards.
+      // Vocabulary uses the selected lesson's authored word set. This keeps
+      // the global entry point and the route on one list, rather than showing
+      // a second, aggregate level catalogue.
       if (skill === 'vocabulary' && activities.length) {
         const catalogueLesson = activities[0];
         section.dataset.activeLessonSlug = catalogueLesson.slug;
@@ -16250,7 +16277,7 @@ function renderListeningComprehensionPanel(lesson) {
 // ---------------------------------------------------------------------
 // Shared vocabulary flashcard component. One normalizer + one render
 // function produce every vocab card in the app (English/French/Spanish,
-// every level/unit, the shuffled "review" order, and any future reuse) -
+// every level/unit, the shuffled order, and any future reuse) -
 // see renderVocabularyView() below. Never fork this per language.
 //
 // normalizeVocabularyItem() maps whatever shape a lesson's raw vocabulary
@@ -17145,15 +17172,17 @@ function getUsefulVocabularyExpressions(lesson, cards) {
   if (authored.length) return authored.slice(0, 8);
 
   // Older vocabulary lessons did not carry a dedicated phrases array.
-  // Their authored context sentences remain useful expressions, but stay
-  // presentation-only and are never passed to the question generator.
+  // Their authored example sentences become the closing expressions. Use
+  // those first, rather than the generated helper contexts on flashcards.
   const seen = new Set();
-  return cards
-    .flatMap((card) => card.contexts || [])
-    .map((context) => ({
+  const examples = cards.map((card) => ({ text: card.example || '', explanation: '' }));
+  const contexts = cards.flatMap((card) =>
+    (card.contexts || []).map((context) => ({
       text: context.targetText || '',
       explanation: context.supportText || ''
     }))
+  );
+  return [...examples, ...contexts]
     .filter((item) => {
       const key = item.text.trim().toLocaleLowerCase();
       if (!key || seen.has(key)) return false;
@@ -17164,15 +17193,15 @@ function getUsefulVocabularyExpressions(lesson, cards) {
 }
 
 function renderUsefulVocabularyExpressionsHtml(lesson, cards) {
-  const ui = getVocabularyL2Ui();
+  const usefulTitle = learningPathState.language === 'french' ? 'Expressions utiles' : 'Expresiones útiles';
   const expressions = getUsefulVocabularyExpressions(lesson, cards);
   return `
     <section class="vocab-useful-expressions no-print">
-      <button type="button" class="secondary-btn vocab-useful-expressions-toggle" aria-expanded="false" data-show-label="${escapeHtml(ui.show)}" data-hide-label="${escapeHtml(ui.hide)}">
-        <span class="vocab-useful-expressions-action">${escapeHtml(ui.show)}</span>
-        <span>${escapeHtml(ui.useful)}</span>
-      </button>
-      <div class="vocab-useful-expressions-panel" hidden>
+      <div class="vocab-useful-expressions-heading">
+        <span>CIERRE DE VOCABULARIO</span>
+        <h4>${escapeHtml(usefulTitle)}</h4>
+      </div>
+      <div class="vocab-useful-expressions-panel">
         ${
           expressions.length
             ? `<ul>${expressions
@@ -17183,10 +17212,42 @@ function renderUsefulVocabularyExpressionsHtml(lesson, cards) {
                   </li>`
                 )
                 .join('')}</ul>`
-            : `<p>${escapeHtml(ui.useful)}</p>`
+            : `<p>${escapeHtml(usefulTitle)}</p>`
         }
       </div>
     </section>`;
+}
+
+function renderVocabularyCardsByCategory(cards, order, { canSpeak, isFrench }) {
+  const groups = new Map();
+  order.forEach((cardIndex) => {
+    const card = cards[cardIndex];
+    if (!card) return;
+    const category = String(card.category || 'Palabras clave').trim() || 'Palabras clave';
+    if (!groups.has(category)) groups.set(category, []);
+    groups.get(category).push(card);
+  });
+  return [...groups.entries()]
+    .map(
+      ([category, groupCards]) => `
+        <section class="vocab-category-group" aria-label="${escapeHtml(category)}">
+          <div class="vocab-category-group-heading">
+            <span>${escapeHtml(category)}</span>
+            <small>${groupCards.length} ${groupCards.length === 1 ? 'palabra' : 'palabras'}</small>
+          </div>
+          <div class="vocab-card-deck">
+            ${groupCards
+              .map((card) =>
+                renderVocabCardHtml(
+                  { ...card, _displayIndex: cards.indexOf(card) },
+                  { canSpeak, isFrench, showL1Translation: true }
+                )
+              )
+              .join('')}
+          </div>
+        </section>`
+    )
+    .join('');
 }
 
 function isVocabularyTermExercise(exercise, cards) {
@@ -17246,79 +17307,32 @@ function renderVocabularyMissionHtml(lesson, cards, french) {
   `;
 }
 
-function getLevelVocabularyBank(lesson) {
-  const seen = new Set();
-  return learningPathState.lessons
-    .filter((item) => item.level === lesson.level && item.skill === 'vocabulary')
-    .flatMap((item) =>
-      (item.vocabulary || []).map((raw, index) =>
-        normalizeVocabularyItem(raw, {
-          language: learningPathState.language,
-          level: item.level,
-          lessonSlug: item.slug,
-          index
-        })
-      )
-    )
-    .filter((item) => {
-      const key = String(item.targetWord || '')
-        .normalize('NFD')
-        .replace(/[\u0300-\u036f]/g, '')
-        .toLocaleLowerCase()
-        .trim();
-      if (!key || seen.has(key)) return false;
-      seen.add(key);
-      return true;
-    });
-}
-
-function renderVocabularyLevelBankHtml(lesson, french) {
-  const bank = getLevelVocabularyBank(lesson);
-  if (bank.length <= 1) return '';
-  // This bank belongs to the language being learned (L2). Its translations
-  // remain in the learner's L1, rather than implying that every bank is English.
-  const languageLabels = {
-    english: 'inglés',
-    french: 'francés',
-    spanish: 'español',
-    german: 'alemán',
-    italian: 'italiano',
-    portuguese: 'portugués'
-  };
-  const languageLabel = languageLabels[learningPathState.language] || learningPathState.language;
-  return `
-    <details class="vocab-level-bank no-print">
-      <summary>${french ? 'Banque de vocabulaire du niveau' : `Banco de vocabulario de ${languageLabel}`} <span>${bank.length} ${french ? 'mots' : 'palabras'}</span></summary>
-      <p>${french ? 'Touchez un mot pour écouter sa prononciation.' : 'Toca una palabra para escuchar su pronunciación.'}</p>
-      <div class="vocab-level-bank-grid">
-        ${bank
-          .map(
-            (item) =>
-              `<button type="button" class="vocab-level-bank-item vocab-example-audio-btn" data-speak-text="${escapeHtml(item.audioText || item.targetWord)}" data-speak-locale="${escapeHtml(item.pronunciationLocale)}" data-speak-rate="${item.pronunciationRate}" aria-label="Escuchar ${escapeHtml(item.targetWord)}"><strong>${escapeHtml(item.targetWord)}</strong>${item.phonetic ? `<small>${escapeHtml(item.phonetic)}</small>` : ''}<span>${escapeHtml(item.translation)}</span></button>`
-          )
-          .join('')}
-      </div>
-    </details>`;
-}
-
 function renderVocabularyView(section, lesson) {
   const content = section.querySelector('.skill-view-content');
   if (!content) return;
-  // The global Vocabulary navigation is an explorer: its language and CEFR
-  // controls must describe the learner's selection, not the route they may
-  // have visited previously. Unit Vocabulary keeps the route context.
+  // Both the global Vocabulary entry point and the route reuse one authored
+  // list: the words belonging to the active lesson.
   const isRouteVocabulary =
     learningPathState.skillEntryContext === 'route' && Boolean(learningPathState.unitId);
   const catalogueContextLabel = isRouteVocabulary
-    ? 'Nivel de la ruta'
-    : 'Nivel seleccionado';
-  // Vocabulary navigation is a level catalogue, not a small card stack for
-  // the last unit the learner visited. Assemble every distinct word loaded
-  // for the current L2 + CEFR level so, for example, Italian A1 exposes all
-  // of its available A1 words when the user selects "Vocabulario".
-  const levelBank = getLevelVocabularyBank(lesson);
-  const rawCards = levelBank;
-  const catalogueKey = `${learningPathState.language}:${lesson.level}`;
+    ? 'Vocabulario de la unidad'
+    : 'Vocabulario de la lección';
+  const unitBank = (lesson.vocabulary || [])
+    .map((raw, index) =>
+      normalizeVocabularyItem(raw, {
+        language: learningPathState.language,
+        level: lesson.level,
+        lessonSlug: lesson.slug,
+        index
+      })
+    )
+    .filter(Boolean)
+    .map((card) => ({
+      ...card,
+      category: card.category || lesson.title || 'Palabras clave'
+    }));
+  const rawCards = unitBank;
+  const catalogueKey = `${learningPathState.language}:${lesson.level}:${lesson.slug}`;
   if (vocabCardOrder.length !== rawCards.length || vocabCardOrder.lessonSlug !== catalogueKey) {
     vocabCardOrder = rawCards.map((_, index) => index);
     vocabCardOrder.lessonSlug = catalogueKey;
@@ -17353,31 +17367,21 @@ function renderVocabularyView(section, lesson) {
     showAnswers: staff
   });
   const vocabularyUi = getVocabularyL2Ui();
-  const catalogueTotal = Math.max(cards.length, levelBank.length);
+  const catalogueTotal = cards.length;
   const masteredCount = cards.filter((card) => card.masteryStatus === 'mastered').length;
   const masteryPercent = cards.length ? Math.round((masteredCount / cards.length) * 100) : 0;
   const categories = [
     ...new Set(cards.map((card) => String(card.category || '').trim()).filter(Boolean))
   ];
-  const vocabularyLevels = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'].filter((level) =>
-    learningPathState.lessons.some((item) => item.level === level && item.skill === 'vocabulary')
-  );
-  const catalogueLanguages = Object.keys(languageDisplayNames).filter(
-    (language) =>
-      language !== 'ai' &&
-      LanguagePair?.isLanguagePairSupported(learningPathState.bridgeLanguage, language)
-  );
 
   content.innerHTML = `
     <section class="vocab-catalogue" aria-label="Catálogo de vocabulario">
       <div class="vocab-catalogue-heading">
-        <div><span>VOCABULARY · ${escapeHtml(lesson.level)}</span><h3>Amplía tu vocabulario paso a paso</h3></div>
+        <div><span>${isRouteVocabulary ? 'PASO 1 · VOCABULARY' : `VOCABULARY · ${escapeHtml(lesson.level)}`}</span><h3>Vocabulario de ${escapeHtml(lesson.title)}</h3></div>
         <p><strong>${masteredCount}</strong> de ${catalogueTotal} palabras dominadas</p>
       </div>
       <div class="vocab-catalogue-toolbar no-print">
         <label class="vocab-catalogue-search"><span>Buscar</span><input type="search" class="vocab-catalogue-search-input" value="${escapeHtml(vocabularyCatalogueFilters.search)}" placeholder="Buscar una palabra…" autocomplete="off"></label>
-        <label class="vocab-catalogue-language"><span>Idioma</span><select class="vocab-catalogue-language-filter" aria-label="Idioma del vocabulario">${catalogueLanguages.map((language) => `<option value="${escapeHtml(language)}"${language === learningPathState.language ? ' selected' : ''}>${escapeHtml(languageDisplayNames[language])}</option>`).join('')}</select></label>
-        <label class="vocab-catalogue-level"><span>Nivel</span><select class="vocab-catalogue-level-filter" aria-label="Nivel del vocabulario">${vocabularyLevels.map((level) => `<option value="${level}"${level === lesson.level ? ' selected' : ''}>${level}</option>`).join('')}</select></label>
         <label class="vocab-catalogue-category"><span>Categoría</span><select class="vocab-catalogue-category-filter"><option value="all">Todas las categorías</option>${categories.map((category) => `<option value="${escapeHtml(category)}"${vocabularyCatalogueFilters.category === category ? ' selected' : ''}>${escapeHtml(category)}</option>`).join('')}</select></label>
       </div>
       <div class="vocab-catalogue-filter-row no-print">
@@ -17411,16 +17415,10 @@ function renderVocabularyView(section, lesson) {
           : ''
       }
     </div>
-    <div class="vocab-card-deck vocab-catalogue-deck">
-      ${vocabCardOrder
-        .map((cardIndex) =>
-          renderVocabCardHtml(
-            { ...cards[cardIndex], _displayIndex: cardIndex },
-            { canSpeak, isFrench, showL1Translation: true }
-          )
-        )
-        .join('')}
+    <div class="vocab-catalogue-deck">
+      ${renderVocabularyCardsByCategory(cards, vocabCardOrder, { canSpeak, isFrench })}
     </div>
+    ${renderUsefulVocabularyExpressionsHtml(lesson, cards)}
     <div class="skill-view-tutor-cta no-print">
       <button type="button" class="primary-btn vocab-practice-start-btn">${french ? 'Pratiquer' : 'Practicar'} ${getVocabularyPracticeCount(lesson.level)} ${french ? 'mots' : 'palabras'}</button>
       <button type="button" class="secondary-btn open-tutor-btn" data-tutor-prompt="${french ? 'Aide-moi à pratiquer ce vocabulaire' : 'Ayúdame a practicar este vocabulario'} : ${escapeHtml(cards.map((c) => c.targetWord).join(', '))}" data-support-mode="practice" data-tutor-vocabulary="${escapeHtml(cards.map((c) => c.targetWord).join(', '))}">${french ? 'Pratiquer avec le Tutor IA' : 'Practicar con Tutor IA'}</button>
@@ -17498,6 +17496,9 @@ function applyVocabularyCatalogueFilters(section) {
     const matches = matchesMastery && matchesCategory && matchesSearch;
     card.hidden = !matches;
     if (matches) visible += 1;
+  });
+  section.querySelectorAll('.vocab-category-group').forEach((group) => {
+    group.hidden = !group.querySelector('.vocab-card:not([hidden])');
   });
   const counter = section.querySelector('.vocab-catalogue-visible-count');
   if (counter) counter.textContent = `${visible} ${visible === 1 ? 'palabra' : 'palabras'}`;
@@ -17631,34 +17632,6 @@ document.addEventListener('input', (event) => {
 });
 
 document.addEventListener('change', (event) => {
-  if (event.target.matches('.vocab-catalogue-language-filter')) {
-    const language = normalizeLanguageKey(event.target.value);
-    const level = normalizeCourseLevel(language, learningPathState.level);
-    if (!setTargetLanguage(language, { level })) {
-      event.target.value = learningPathState.language;
-      return;
-    }
-    learningPathState.skillEntryContext = 'explore';
-    learningPathState.activeSlug = '';
-    learningPathState.unitId = '';
-    // setTargetLanguage() starts the route request. Render this same expanded
-    // catalogue when it completes so switching a language never sends the
-    // learner back to the route overview.
-    loadLearningPath({ language, level }).then(() => renderSkillView('vocabulary'));
-    return;
-  }
-  if (event.target.matches('.vocab-catalogue-level-filter')) {
-    const level = normalizeCourseLevel(learningPathState.language, event.target.value);
-    if (level === learningPathState.level) return;
-    learningPathState.skillEntryContext = 'explore';
-    learningPathState.activeSlug = '';
-    learningPathState.unitId = '';
-    learningPathState.level = level;
-    loadLearningPath({ language: learningPathState.language, level }).then(() =>
-      renderSkillView('vocabulary')
-    );
-    return;
-  }
   if (!event.target.matches('.vocab-catalogue-category-filter')) return;
   vocabularyCatalogueFilters.category = event.target.value || 'all';
   applyVocabularyCatalogueFilters(event.target.closest('.skill-view-section'));
@@ -20199,7 +20172,7 @@ async function performLearningPathLoad(options = {}) {
       ? getUnitActivities(learningPathState.unitId)
       : [];
     const restoredFirstActivity =
-      restoredActivities.find((item) => item.skill === 'reading' && !item.locked) ||
+      restoredActivities.find((item) => item.skill === 'vocabulary' && !item.locked) ||
       restoredActivities.find((item) => !item.locked) ||
       restoredActivities[0];
     learningPathState.activeSlug = restoredFirstActivity?.slug || '';
@@ -20245,7 +20218,7 @@ async function performLearningPathLoad(options = {}) {
     )
       .filter((lesson) => !learningPathState.units.length || lesson.unitId)
       .map((lesson) =>
-        authStatus.entitlements?.hasFullAccess ? { ...lesson, locked: false } : lesson
+        hasFullRouteAccess() ? { ...lesson, locked: false } : lesson
       );
     await loadUnitVerbProgress();
     applyLoadedSelection();
@@ -24557,7 +24530,7 @@ function showUnitCompletionPanel({ unitId, xpReward = 30 } = {}) {
     close();
     const activities = getUnitActivities(unit.id);
     const lesson =
-      activities.find((item) => item.skill === 'reading' && !item.locked) ||
+      activities.find((item) => item.skill === 'vocabulary' && !item.locked) ||
       activities.find((item) => !item.locked) ||
       activities[0];
     if (lesson) openUnitSequenceStep(lesson.skill, lesson.slug);
@@ -24575,7 +24548,7 @@ function showUnitCompletionPanel({ unitId, xpReward = 30 } = {}) {
     selectUnit(selected.id, { render: false });
     const activities = getUnitActivities(selected.id);
     const lesson =
-      activities.find((item) => item.skill === 'reading' && !item.locked) ||
+      activities.find((item) => item.skill === 'vocabulary' && !item.locked) ||
       activities.find((item) => !item.locked) ||
       activities[0];
     if (lesson) openUnitSequenceStep(lesson.skill, lesson.slug);

@@ -14229,6 +14229,44 @@ footer small {
   margin-top: 1rem;
 }
 
+.vocab-useful-expressions-heading span,
+.vocab-category-group-heading span {
+  display: block;
+  color: var(--blue);
+  font-size: 0.72rem;
+  font-weight: 850;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.vocab-useful-expressions-heading h4 {
+  margin: 0.16rem 0 0;
+  font-size: 1.05rem;
+}
+
+.vocab-category-group {
+  display: grid;
+  gap: 0.65rem;
+}
+
+.vocab-category-group + .vocab-category-group {
+  margin-top: 1.1rem;
+}
+
+.vocab-category-group-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 0.1rem 0.1rem 0;
+}
+
+.vocab-category-group-heading small {
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 750;
+}
+
 .vocab-useful-expressions-toggle {
   justify-self: start;
   display: inline-flex;
