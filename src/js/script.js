@@ -22016,7 +22016,8 @@ function infographicSceneArtwork(scene) {
   const safeSceneId = INFOGRAPHIC_SCENES.some((item) => item.id === scene.id)
     ? scene.id
     : 'body-front';
-  return `<foreignObject class="info-realistic-art" x="0" y="0" width="400" height="400"><div xmlns="http://www.w3.org/1999/xhtml" style="width:100%;height:100%;background:url('/images/infographics/topics/${safeSceneId}.png?v=20260811-redesign') center / contain no-repeat;"></div></foreignObject>`;
+  const artworkFile = safeSceneId === 'weather' ? 'weather-v2' : safeSceneId;
+  return `<foreignObject class="info-realistic-art" x="0" y="0" width="400" height="400"><div xmlns="http://www.w3.org/1999/xhtml" style="width:100%;height:100%;background:url('/images/infographics/topics/${artworkFile}.png?v=20260817-ice') center / contain no-repeat;"></div></foreignObject>`;
 }
 
 function getInfographicSceneGroup(sceneId) {
