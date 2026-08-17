@@ -2392,7 +2392,14 @@ document.getElementById('goalsCrudBody')?.addEventListener('click', async (event
 function setAuthMessage(message, isError = false) {
   const note = document.querySelector('.auth-form.active .auth-note');
   if (!note) return;
-  note.textContent = message;
+  // Never expose a raw HTTP fallback ("Not found.") in the account UI.
+  // It is neither useful nor actionable for a learner and was particularly
+  // confusing after the Google button returned to this modal.
+  const rawMessage = String(message || '').trim();
+  const visibleMessage = /^not found\.?$/i.test(rawMessage)
+    ? 'No pudimos completar el acceso. Intenta de nuevo o usa tu correo y contraseña.'
+    : rawMessage;
+  note.textContent = visibleMessage;
   note.style.color = isError ? '#dc2626' : '#0f766e';
 }
 
