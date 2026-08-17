@@ -1132,6 +1132,23 @@ function getEffectiveInterfaceLanguage() {
 // without disturbing focus, scroll position or in-progress input. Also
 // refreshes the narrower language-pair-selector chrome (refreshLanguagePairChrome)
 // and <html lang> so the two interface-language mechanisms never disagree.
+const ANDERGO_DIFFERENCE_COPY = {
+  spanish: ['ANDERGO · REPÚBLICA DOMINICANA', 'Una forma conectada de aprender idiomas', 'Desde República Dominicana, reunimos rutas claras, práctica real y acompañamiento inteligente para ayudarte a comunicarte con confianza.', 'Seis idiomas en una sola plataforma.', 'Una ruta guiada por nivel y lección.', 'Tutor I.A. que corrige y continúa la conversación.', 'Práctica para leer, escuchar, hablar y escribir.'],
+  english: ['ANDERGO · DOMINICAN REPUBLIC', 'A connected way to learn languages', 'From the Dominican Republic, we bring together clear learning paths, real practice and intelligent support so you can communicate with confidence.', 'Six languages on one platform.', 'A guided path by level and lesson.', 'An AI Tutor that corrects and keeps the conversation going.', 'Practice reading, listening, speaking and writing.'],
+  french: ['ANDERGO · RÉPUBLIQUE DOMINICAINE', 'Une façon connectée d’apprendre les langues', 'Depuis la République dominicaine, nous réunissons des parcours clairs, une pratique réelle et un accompagnement intelligent pour vous aider à communiquer avec confiance.', 'Six langues sur une seule plateforme.', 'Un parcours guidé par niveau et leçon.', 'Un tuteur IA qui corrige et poursuit la conversation.', 'Pratiquez la lecture, l’écoute, l’expression orale et écrite.'],
+  italian: ['ANDERGO · REPUBBLICA DOMINICANA', 'Un modo connesso di imparare le lingue', 'Dalla Repubblica Dominicana riuniamo percorsi chiari, pratica reale e supporto intelligente per aiutarti a comunicare con sicurezza.', 'Sei lingue in un’unica piattaforma.', 'Un percorso guidato per livello e lezione.', 'Un Tutor IA che corregge e continua la conversazione.', 'Pratica lettura, ascolto, espressione orale e scrittura.'],
+  portuguese: ['ANDERGO · REPÚBLICA DOMINICANA', 'Uma forma conectada de aprender idiomas', 'Da República Dominicana, reunimos percursos claros, prática real e apoio inteligente para ajudar você a se comunicar com confiança.', 'Seis idiomas em uma única plataforma.', 'Um percurso guiado por nível e lição.', 'Tutor de IA que corrige e mantém a conversa.', 'Pratique leitura, escuta, fala e escrita.'],
+  german: ['ANDERGO · DOMINIKANISCHE REPUBLIK', 'Sprachen vernetzt lernen', 'Von der Dominikanischen Republik aus verbinden wir klare Lernwege, echte Praxis und intelligente Begleitung, damit du sicher kommunizieren kannst.', 'Sechs Sprachen auf einer Plattform.', 'Ein geführter Weg nach Niveau und Lektion.', 'Ein KI-Tutor, der korrigiert und das Gespräch fortsetzt.', 'Übe Lesen, Hören, Sprechen und Schreiben.']
+};
+
+function renderAndergoDifferenceCopy(language) {
+  const copy = ANDERGO_DIFFERENCE_COPY[language] || ANDERGO_DIFFERENCE_COPY.spanish;
+  document.querySelectorAll('[data-andergo-difference]').forEach((element) => {
+    const index = ['eyebrow', 'title', 'intro', 'benefit1', 'benefit2', 'benefit3', 'benefit4'].indexOf(element.dataset.andergoDifference);
+    if (index >= 0) element.textContent = copy[index];
+  });
+}
+
 function applyInterfaceLanguage(bridgeLanguage) {
   if (!LanguagePair) return;
   const interfaceLanguage = getEffectiveInterfaceLanguage() || bridgeLanguage;
@@ -1146,6 +1163,7 @@ function applyInterfaceLanguage(bridgeLanguage) {
     el.setAttribute('placeholder', LanguagePair.t(el.dataset.i18nPlaceholder, interfaceLanguage));
   });
   refreshLanguagePairChrome();
+  renderAndergoDifferenceCopy(interfaceLanguage);
   if (infographicState?.initialized) renderInfographicApp();
 }
 

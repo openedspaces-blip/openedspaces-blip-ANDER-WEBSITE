@@ -32639,6 +32639,16 @@ body.tutor-robot-listening #tutor .tutor-hero-bot {
   }
 }
 
+.andergo-difference-section { display: grid; grid-template-columns: minmax(0, 0.84fr) minmax(0, 1.16fr); gap: clamp(1.25rem, 3vw, 3.5rem); align-items: center; padding: clamp(1.4rem, 4vw, 4rem); border: 1px solid #dbeafe; border-radius: 28px; background: linear-gradient(135deg, #f8fbff 0%, #eef7ff 100%); }
+.andergo-difference-copy h2 { max-width: 16ch; margin: 0.35rem 0 0.85rem; color: #13254a; font-size: clamp(1.8rem, 3.2vw, 3rem); line-height: 1.04; }
+.andergo-difference-copy > p { max-width: 60ch; color: #526682; font-size: 1rem; line-height: 1.65; }
+.andergo-difference-benefits { display: grid; gap: 0.65rem; margin: 1.15rem 0 0; padding: 0; list-style: none; }
+.andergo-difference-benefits li { position: relative; padding-left: 1.5rem; color: #253b63; font-weight: 700; }
+.andergo-difference-benefits li::before { content: '✓'; position: absolute; left: 0; color: #1267e8; font-weight: 900; }
+.andergo-difference-art { margin: 0; overflow: hidden; border-radius: 24px; box-shadow: 0 18px 45px rgba(38, 98, 190, 0.16); }
+.andergo-difference-art img { display: block; width: 100%; height: auto; }
+@media (max-width: 800px) { .andergo-difference-section { grid-template-columns: 1fr; } .andergo-difference-copy h2 { max-width: none; } }
+
 /* Badge estándar del nuevo Tutor I.A.: retrato circular, legible y consistente
    en todas las pantallas. Estas reglas sustituyen el aro tipográfico anterior. */
 .tutor-fab {
