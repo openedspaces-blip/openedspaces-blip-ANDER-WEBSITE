@@ -25,17 +25,16 @@
      the product name alone. The subtitle is deliberately compact so it fits
      alongside the account and menu controls on narrow phones. */
   .brand-heading {
-    display: flex;
-    align-items: baseline;
-    gap: .28rem;
-    white-space: nowrap;
+    display: grid;
+    gap: .08rem;
+    line-height: 1;
   }
   .brand-academy-name {
-    display: inline;
+    display: block;
     color: #526682;
-    font-size: .7rem;
+    font-size: .66rem;
     font-weight: 700;
-    letter-spacing: 0;
+    letter-spacing: .01em;
   }
 
   .mobile-header-tabs > .nav-learn-cta {
@@ -219,6 +218,53 @@
     border-radius: 14px;
   }
   .path-unit-progress-track { left: 5.45rem; }
+
+  /* Vocabulary and verb cards keep the useful examples on phone screens,
+     but use a denser rhythm so more than one item is visible while browsing. */
+  .skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck {
+    gap: .55rem;
+  }
+  .skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card,
+  .skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card.is-flipped {
+    min-height: 0;
+  }
+  .skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card-front {
+    gap: .3rem;
+    padding: .62rem;
+  }
+  .vocab-card-level-badge { min-height: 1.45rem; padding: .15rem .4rem; font-size: .61rem; }
+  .skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card-front-support {
+    margin-block: .03rem .08rem;
+  }
+  .skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card-front-support p { font-size: .82rem; }
+  .vocab-card-catalogue-definition { font-size: .69rem; line-height: 1.26; }
+  .vocab-card-catalogue-examples { gap: .14rem; margin-top: .22rem; }
+  .vocab-card-catalogue-examples li { gap: .3rem; font-size: .66rem; line-height: 1.22; }
+  .vocab-card-catalogue-examples li > span { width: 1rem; height: 1rem; font-size: .56rem; }
+  .vocab-card-catalogue-examples small { margin-top: 0; font-size: .61rem; }
+  .vocab-card-catalogue-example-audio { width: 1.18rem; height: 1.18rem; margin-left: .22rem; font-size: .56rem; }
+  .skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card-front-footer {
+    gap: .35rem;
+    padding-top: .3rem;
+  }
+
+  .verb-catalogue-list { gap: .58rem; }
+  .verb-catalogue-row { gap: .52rem; padding: .68rem; border-radius: 14px; }
+  .verb-catalogue-head { grid-template-columns: 2rem minmax(0, 1fr); gap: .5rem; }
+  .verb-catalogue-rank { width: 1.9rem; height: 1.9rem; font-size: .74rem; }
+  .verb-catalogue-identity > strong,
+  .verb-catalogue-word > strong { font-size: 1rem; }
+  .verb-catalogue-identity > span { font-size: .7rem; }
+  .verb-catalogue-identity > small { font-size: .66rem; }
+  .verb-catalogue-audio { width: 1.75rem; height: 1.75rem; min-width: 1.75rem; }
+  .verb-catalogue-forms { gap: .38rem; padding-top: .5rem; }
+  .verb-catalogue-forms span { font-size: .56rem; }
+  .verb-catalogue-forms strong { font-size: .7rem; }
+  .verb-catalogue-examples { gap: .32rem; padding-top: .5rem; }
+  .verb-catalogue-examples > div { grid-template-columns: 1.1rem minmax(0, 1fr); gap: .35rem; }
+  .verb-catalogue-examples > div > span { width: 1.05rem; height: 1.05rem; font-size: .56rem; }
+  .verb-catalogue-examples p { gap: .3rem; font-size: .68rem; line-height: 1.25; }
+  .verb-catalogue-conjugate { min-height: 36px; padding: .4rem .55rem; font-size: .72rem; }
   .quick-stats { grid-template-columns: 1fr; gap:.55rem; margin-top: 1.1rem; }
   .quick-stats div { display:grid; grid-template-columns:1fr auto; align-items:center; gap:.5rem; padding:.75rem .85rem; border-radius:14px; }
   .quick-stats span { text-align:right; font-size:.69rem; }
