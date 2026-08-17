@@ -2947,6 +2947,10 @@ async function afterAuthSuccess() {
 }
 
 function attachAuthHandlers() {
+  document.querySelectorAll('[data-action="google-auth"]').forEach((button) => {
+    button.addEventListener('click', () => beginGoogleOAuth(button));
+  });
+
   document.getElementById('loginForm')?.addEventListener('submit', async (event) => {
     event.preventDefault();
     const submitBtn = event.target.querySelector('button[type="submit"]');
@@ -3408,10 +3412,78 @@ async function ensureUsernameAvailableForSubmit(inputId, statusId) {
 
 // Keep the client-side requirements aligned with authService's registration
 // guard. Supabase remains the authority, but the UI must never call a
-// password "Fuerte" when our own API will immediately reject it.
+// password compliant when our own API will immediately reject it.
 function meetsRegistrationPasswordRequirements(value) {
   const password = String(value || '');
   return password.length >= 8 && /[A-Za-z]/.test(password) && /\d/.test(password);
+}
+
+async function createOAuthBrowserClient() {
+  const response = await fetch(`${backendBaseUrl}/api/auth/client-config`);
+  const clientConfig = await response.json().catch(() => null);
+  if (!response.ok || !clientConfig?.supabaseUrl || !clientConfig?.supabaseAnonKey) {
+    throw new Error('El acceso con Google no está disponible en este momento.');
+  }
+  await loadSupabaseJs();
+  if (!window.supabase?.createClient) {
+    throw new Error('No pudimos preparar el acceso con Google.');
+  }
+  return window.supabase.createClient(clientConfig.supabaseUrl, clientConfig.supabaseAnonKey, {
+    auth: {
+      autoRefreshToken: false,
+      detectSessionInUrl: true,
+      persistSession: false,
+      flowType: 'implicit'
+    }
+  });
+}
+
+async function beginGoogleOAuth(button) {
+  if (button?.disabled) return;
+  if (button) {
+    button.disabled = true;
+    button.setAttribute('aria-busy', 'true');
+  }
+  try {
+    const client = await createOAuthBrowserClient();
+    const redirectTo = new URL('/', window.location.origin);
+    redirectTo.searchParams.set('auth', 'google');
+    const { error } = await client.auth.signInWithOAuth({
+      provider: 'google',
+      options: { redirectTo: redirectTo.toString() }
+    });
+    if (error) throw error;
+  } catch (error) {
+    if (button) {
+      button.disabled = false;
+      button.removeAttribute('aria-busy');
+    }
+    setAuthMessage(error.message || 'No pudimos iniciar sesión con Google.', true);
+  }
+}
+
+async function initGoogleOAuthCallback() {
+  try {
+    const client = await createOAuthBrowserClient();
+    const { data, error } = await client.auth.getSession();
+    if (error || !data.session?.access_token) throw error || new Error('No recibimos una sesión de Google.');
+
+    const response = await fetch(`${backendBaseUrl}/api/user`, {
+      headers: { Authorization: `Bearer ${data.session.access_token}` }
+    });
+    const payload = await response.json().catch(() => null);
+    if (!response.ok || !payload?.user) throw new Error(payload?.error || 'No pudimos abrir tu cuenta.');
+
+    saveSession(payload.user, data.session);
+    history.replaceState(null, '', `${window.location.pathname}#learn`);
+    showView('learn');
+    await afterAuthSuccess();
+  } catch (error) {
+    history.replaceState(null, '', `${window.location.pathname}#home`);
+    showView('home');
+    openModal('login');
+    setAuthMessage(error.message || 'No pudimos completar el acceso con Google.', true);
+  }
 }
 
 function setupPasswordStrengthMeter(inputId, statusId) {
@@ -28337,6 +28409,8 @@ const isPasswordRecoveryLink =
 // params once it's here.
 const isEmailConfirmedLink =
   new URLSearchParams(window.location.search).get('auth') === 'confirmed';
+const isGoogleOAuthCallback =
+  new URLSearchParams(window.location.search).get('auth') === 'google';
 
 if (isPasswordRecoveryLink) {
   showView('reset-password');
@@ -28344,6 +28418,9 @@ if (isPasswordRecoveryLink) {
 } else if (isEmailConfirmedLink) {
   showView('email-confirmed');
   initEmailConfirmedPage();
+} else if (isGoogleOAuthCallback) {
+  showView('home');
+  initGoogleOAuthCallback();
 } else {
   showView(getViewFromHash());
   // Direct/bookmarked load of #premium: resolves to the home view (see

@@ -1124,6 +1124,62 @@ a:focus-visible {
   background: rgba(239, 68, 68, 0.06);
 }
 
+.auth-google-btn {
+  display: flex;
+  width: 100%;
+  min-height: 48px;
+  align-items: center;
+  justify-content: center;
+  gap: 0.7rem;
+  border: 1px solid #d8dee9;
+  border-radius: 14px;
+  background: #fff;
+  color: #374151;
+  font: inherit;
+  font-weight: 800;
+  cursor: pointer;
+  box-shadow: 0 2px 7px rgba(15, 23, 42, 0.06);
+}
+
+.auth-google-btn:hover {
+  border-color: #b9c6d8;
+  background: #f8fafc;
+}
+
+.auth-google-btn:disabled {
+  cursor: wait;
+  opacity: 0.7;
+}
+
+.auth-google-mark {
+  display: grid;
+  width: 22px;
+  height: 22px;
+  place-items: center;
+  border-radius: 50%;
+  background: conic-gradient(from -45deg, #4285f4 0 25%, #34a853 0 50%, #fbbc05 0 75%, #ea4335 0);
+  color: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 0.85rem;
+  font-weight: 900;
+  text-shadow: 0 1px 1px rgba(15, 23, 42, 0.24);
+}
+
+.auth-divider {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 0.6rem;
+  margin: 0.85rem 0;
+  color: #94a3b8;
+  font-size: 0.78rem;
+}
+
+.auth-divider span {
+  height: 1px;
+  background: #e2e8f0;
+}
+
 .signup,
 .primary-btn {
   background: linear-gradient(135deg, var(--blue), var(--cyan));

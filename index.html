@@ -1961,6 +1961,11 @@
         <div class="auth-forms">
           <form class="auth-form active" id="loginForm">
             <h3>Iniciar sesión</h3>
+            <button type="button" class="auth-google-btn" data-action="google-auth">
+              <span class="auth-google-mark" aria-hidden="true">G</span>
+              Continuar con Google
+            </button>
+            <div class="auth-divider" aria-hidden="true"><span></span>o<span></span></div>
             <label for="loginIdentifier"
               >Nombre de usuario o correo electrónico
               <input
@@ -2016,7 +2021,12 @@
                 >
               </div>
 
-              <div class="signup-step" id="signupStep1">
+            <div class="signup-step" id="signupStep1">
+                <button type="button" class="auth-google-btn" data-action="google-auth">
+                  <span class="auth-google-mark" aria-hidden="true">G</span>
+                  Registrarse con Google
+                </button>
+                <div class="auth-divider" aria-hidden="true"><span></span>o<span></span></div>
                 <label for="signupUsername"
                   >Nombre de usuario
                   <input
