@@ -3499,7 +3499,17 @@ async function beginGoogleOAuth(button) {
 async function initGoogleOAuthCallback() {
   try {
     const client = await createOAuthBrowserClient();
-    const { data, error } = await client.auth.getSession();
+    let { data, error } = await client.auth.getSession();
+    // Google can return through Supabase's PKCE callback with a one-time
+    // `code` query parameter. Exchange it when a browser session has not
+    // already been restored (the implicit/hash return still works as-is).
+    const code = new URLSearchParams(window.location.search).get('code');
+    if (!data?.session && code) {
+      const exchanged = await client.auth.exchangeCodeForSession(code);
+      if (exchanged.error) throw exchanged.error;
+      data = exchanged.data;
+      error = null;
+    }
     if (error || !data.session?.access_token) throw error || new Error('No recibimos una sesión de Google.');
 
     const response = await fetch(`${backendBaseUrl}/api/user`, {
