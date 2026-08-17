@@ -1504,6 +1504,13 @@ a:focus-visible {
   z-index: 50;
 }
 
+/* The mobile header and dock are intentionally above page content. The
+   authentication dialog, however, must always be above both so its actions
+   remain visible and tappable. */
+#authModal {
+  z-index: 200;
+}
+
 .auth-modal.open {
   opacity: 1;
   pointer-events: auto;
