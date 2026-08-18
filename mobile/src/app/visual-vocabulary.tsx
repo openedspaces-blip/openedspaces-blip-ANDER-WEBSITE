@@ -5,6 +5,7 @@ import { Pressable, ScrollView, StyleSheet, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { ThemedText } from '@/components/themed-text';
 import { useGame } from '@/context/game';
+import { shuffle } from '@/utils/game-random';
 
 type Word = { spanish: string; english: string; french: string; italian: string };
 const TOPICS: { id: string; title: string; image: string; words: Word[] }[] = [
@@ -28,12 +29,12 @@ const TOPICS: { id: string; title: string; image: string; words: Word[] }[] = [
 const LANGUAGE_LABEL = { english: 'inglés', french: 'francés', spanish: 'español', italian: 'italiano' } as const;
 
 export default function VisualVocabularyScreen() {
-  const game = useGame(); const [topicIndex, setTopicIndex] = useState(0); const [round, setRound] = useState(0); const [selected, setSelected] = useState<string | null>(null); const [correct, setCorrect] = useState(0); const [done, setDone] = useState(false);
+  const game = useGame(); const [topicIndex, setTopicIndex] = useState(0); const [round, setRound] = useState(0); const [selected, setSelected] = useState<string | null>(null); const [correct, setCorrect] = useState(0); const [done, setDone] = useState(false); const [choicesSeed, setChoicesSeed] = useState(() => Math.random());
   const topic = TOPICS[topicIndex]; const word = topic.words[round]; const language = game.targetLanguage;
-  const options = useMemo(() => topic.words.map((item) => item[language]), [topic, language]);
+  const options = useMemo(() => shuffle(topic.words.map((item) => item[language]), choicesSeed + round), [topic, language, round, choicesSeed]);
   const choose = (answer: string) => { if (selected) return; setSelected(answer); if (answer === word[language]) setCorrect((value) => value + 1); };
-  const next = () => { if (round === topic.words.length - 1) { game.finishLesson(correct + (selected === word[language] ? 1 : 0), topic.words.length); setDone(true); return; } setRound((value) => value + 1); setSelected(null); };
-  const chooseTopic = (index: number) => { setTopicIndex(index); setRound(0); setSelected(null); setCorrect(0); setDone(false); };
+  const next = () => { if (round === topic.words.length - 1) { game.finishLesson(correct + (selected === word[language] ? 1 : 0), topic.words.length); setDone(true); return; } setRound((value) => value + 1); setSelected(null); setChoicesSeed((value) => value + 1); };
+  const chooseTopic = (index: number) => { setTopicIndex(index); setRound(0); setSelected(null); setCorrect(0); setDone(false); setChoicesSeed((value) => value + 1); };
   if (done) return <SafeAreaView style={s.safe}><View style={s.result}><ThemedText style={s.trophy}>🖼️</ThemedText><ThemedText style={s.kicker}>ÁLBUM COMPLETADO</ThemedText><ThemedText style={s.resultTitle}>{correct >= 3 ? '¡Muy buena vista!' : '¡Buen intento!'}</ThemedText><ThemedText style={s.resultText}>Ganaste XP y monedas por jugar con la infografía de {topic.title.toLowerCase()}.</ThemedText><Pressable onPress={() => chooseTopic((topicIndex + 1) % TOPICS.length)} style={s.primary}><ThemedText style={s.primaryText}>Abrir otra infografía</ThemedText></Pressable><Pressable onPress={() => router.replace('/')}><ThemedText style={s.home}>Volver al inicio</ThemedText></Pressable></View></SafeAreaView>;
   return <SafeAreaView style={s.safe} edges={['top']}><ScrollView contentContainerStyle={s.content} showsVerticalScrollIndicator={false}>
     <View style={s.top}><Pressable onPress={() => router.back()} style={s.close}><ThemedText style={s.closeText}>×</ThemedText></Pressable><View style={s.progress}><View style={[s.fill, { width: `${((round + 1) / topic.words.length) * 100}%` }]} /></View><ThemedText style={s.hearts}>❤️ {game.hearts}</ThemedText></View>
