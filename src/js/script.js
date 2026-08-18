@@ -19697,7 +19697,9 @@ async function sendTutorMessage({
 // Keep that resilience, but fetch only the selected language before its path
 // is rendered. A language is cached by the browser and by this promise map.
 const LANGUAGE_WORLD_SOURCES = Object.freeze({
-  english: '/src/worlds/english/content.js',
+  // Version the generated world so an already-open browser never keeps an
+  // obsolete lesson bundle after a curriculum correction is deployed.
+  english: '/src/worlds/english/content.js?v=20260817-reading-a1-options',
   french: '/src/worlds/french/content.js',
   spanish: '/src/worlds/spanish/content.js',
   italian: '/src/worlds/italian/content.js',
