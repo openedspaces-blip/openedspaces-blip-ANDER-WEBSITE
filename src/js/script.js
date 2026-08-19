@@ -16769,9 +16769,7 @@ function renderVocabCardHtml(item, { canSpeak, isFrench, showL1Translation = fal
     ? ''
     : rawTranslation;
   const frontSupportHtml = frontTranslation
-    ? `<div class="vocab-card-front-support" lang="${escapeHtml(bridgeLanguageToHtmlLang[item.bridgeLanguage] || '')}">
-        <p>${escapeHtml(frontTranslation)}</p>
-      </div>`
+    ? `<span class="vocab-card-front-support" lang="${escapeHtml(bridgeLanguageToHtmlLang[item.bridgeLanguage] || '')}">${escapeHtml(frontTranslation)}</span>`
     : '';
   const compactIconText = String(item.targetWord || '')
     .trim()
@@ -16790,13 +16788,13 @@ function renderVocabCardHtml(item, { canSpeak, isFrench, showL1Translation = fal
           <div class="vocab-card-word-block">
             <div class="vocab-card-target-row">
               <p class="vocab-card-target ${getVocabTargetSizeClass(item.targetWord)}">${escapeHtml(item.targetWord)}</p>
+              ${frontSupportHtml}
               ${
                 canSpeak
                   ? `<button type="button" class="vocab-card-audio-btn vocab-card-word-audio-btn" aria-label="${escapeHtml(speakAriaLabel)}" title="${escapeHtml(speakTitle(isFrench))}"><span aria-hidden="true">🔊</span></button>`
                   : ''
               }
             </div>
-            ${frontSupportHtml}
             ${
               item.phonetic
                 ? `<div class="vocab-card-pronunciation"><p class="vocab-card-phonetic">${escapeHtml(item.phonetic)}</p></div>`

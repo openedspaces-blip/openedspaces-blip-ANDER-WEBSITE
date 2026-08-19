@@ -14141,13 +14141,18 @@ footer small {
 /* L2 stays prominent; the bridge-language gloss is deliberately smaller so
    the learner sees support without losing the target-language focus. */
 .vocab-card-front-support {
-  max-width: 100%;
-  margin: -0.08rem 0 0;
+  flex: 0 1 42%;
+  min-width: 0;
+  max-width: 46%;
+  margin: 0;
   color: var(--muted);
   font-size: 0.78rem;
   font-weight: 650;
-  line-height: 1.35;
-  overflow-wrap: anywhere;
+  line-height: 1.2;
+  overflow: hidden;
+  text-align: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .vocab-card-phonetic {
@@ -30039,7 +30044,10 @@ body {
 }
 
 .skill-view-section[data-skill='vocabulary'] .vocab-card-front-support {
-  width: 100%;
+  flex: 0 1 42%;
+  min-width: 0;
+  width: auto;
+  max-width: 46%;
   overflow: hidden;
   font-size: 0.82rem;
   font-weight: 650;
