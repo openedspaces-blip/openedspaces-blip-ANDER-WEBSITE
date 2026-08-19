@@ -30022,12 +30022,15 @@ body {
 .skill-view-section[data-skill='vocabulary'] .vocab-card-target-row {
   display: flex;
   align-items: center;
+  justify-content: flex-start;
   width: 100%;
   gap: 0.45rem;
 }
 
 .skill-view-section[data-skill='vocabulary'] .vocab-card-target-row .vocab-card-target {
-  flex: 1 1 auto;
+  flex: 0 1 auto;
+  width: auto;
+  max-width: 58%;
   min-width: 0;
 }
 
@@ -30038,16 +30041,17 @@ body {
   width: 2.7rem;
   height: 2.7rem;
   flex: 0 0 2.7rem;
+  margin-left: auto;
   font-size: 1.2rem;
   border-color: rgba(37, 99, 235, 0.34);
   background: linear-gradient(135deg, #dbeafe, #cffafe);
 }
 
 .skill-view-section[data-skill='vocabulary'] .vocab-card-front-support {
-  flex: 0 1 42%;
+  flex: 0 1 auto;
   min-width: 0;
   width: auto;
-  max-width: 46%;
+  max-width: 30%;
   overflow: hidden;
   font-size: 0.82rem;
   font-weight: 650;
@@ -30326,7 +30330,23 @@ body {
 }
 
 .skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card-target-row {
+  justify-content: flex-start;
   gap: 0.3rem;
+}
+
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card-target {
+  flex: 0 1 auto;
+  width: auto;
+  max-width: 55%;
+}
+
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card-front-support {
+  flex: 0 1 auto;
+  max-width: 32%;
+}
+
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card-word-audio-btn {
+  margin-left: auto;
 }
 
 .skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card-word-audio-btn {
