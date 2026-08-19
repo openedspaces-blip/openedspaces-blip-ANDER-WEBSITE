@@ -5,7 +5,7 @@ const units = require('../lib/seed-units.json');
 const lessons = require('../lib/seed-lessons.json');
 
 const languages = ['italian', 'portuguese', 'german'];
-const levels = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
+const levels = ['A1', 'A2', 'B1'];
 const skills = ['reading', 'speaking', 'writing', 'grammar', 'vocabulary'];
 const failures = [];
 
@@ -25,4 +25,4 @@ if (failures.length) {
   console.error(failures.join('\n'));
   process.exit(1);
 }
-console.log('European non-listening routes verified: 3 languages × 6 levels × 12 units × 5 skills.');
+console.log('European non-listening routes verified: 3 languages × 3 levels (A1–B1) × 12 units × 5 skills.');

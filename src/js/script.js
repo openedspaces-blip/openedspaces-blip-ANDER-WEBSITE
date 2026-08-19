@@ -1767,7 +1767,7 @@ let paywallReturnFocus = null;
 const PAYWALL_PREMIUM_HIGHLIGHTS = [
   'Tutor IA con 500 consultas al mes',
   'Conversación por voz y corrección de pronunciación',
-  'Todos los idiomas y todos los niveles',
+  'Todos los niveles disponibles según el idioma',
   'Certificado digital por nivel y estadísticas completas'
 ];
 
@@ -6687,7 +6687,15 @@ function speakText(
   }
   try {
     window.speechSynthesis.cancel();
-    const utterance = new SpeechSynthesisUtterance(text);
+    // Some mobile browsers leave the shared synthesizer paused after a
+    // previous cancel. Resume it before queueing the new card utterance.
+    window.speechSynthesis.resume?.();
+    const Utterance = window.SpeechSynthesisUtterance;
+    if (typeof Utterance !== 'function') {
+      onEnd?.();
+      return null;
+    }
+    const utterance = new Utterance(text);
     utterance.lang = locale || getPronunciationLocale();
     const speechLanguage =
       Object.entries(LANGUAGE_LOCALES).find(([, value]) => value === utterance.lang)?.[0] ||
@@ -16777,12 +16785,12 @@ function renderVocabCardHtml(item, { canSpeak, isFrench, showL1Translation = fal
             </div>
             ${frontSupportHtml}
             ${
-              item.phonetic
-                ? `<div class="vocab-card-pronunciation"><p class="vocab-card-phonetic">${escapeHtml(item.phonetic)}</p>${
-                    canSpeak
-                      ? `<button type="button" class="vocab-card-audio-btn vocab-card-word-audio-btn" aria-label="${escapeHtml(speakAriaLabel)}" title="${escapeHtml(speakTitle(isFrench))}"><span aria-hidden="true">🔊</span></button>`
+              canSpeak
+                ? `<div class="vocab-card-pronunciation">${
+                    item.phonetic
+                      ? `<p class="vocab-card-phonetic">${escapeHtml(item.phonetic)}</p>`
                       : ''
-                  }</div>`
+                  }<button type="button" class="vocab-card-audio-btn vocab-card-word-audio-btn" aria-label="${escapeHtml(speakAriaLabel)}" title="${escapeHtml(speakTitle(isFrench))}"><span aria-hidden="true">🔊</span></button></div>`
                 : ''
             }
             ${item.learningMode === 'direct' && (item.simpleDefinition || item.definition) ? `<p class="vocab-card-catalogue-definition">${escapeHtml(item.simpleDefinition || item.definition)}</p>` : ''}
@@ -21294,13 +21302,13 @@ const INFOGRAPHIC_SCENES = [
     title: 'Human Body · Front',
     icon: '🧑',
     parts: [
-      ['Head', 50, 10],
-      ['Shoulder', 40, 24],
-      ['Chest', 50, 29],
-      ['Arm', 35, 39],
-      ['Hand', 31, 52],
-      ['Knee', 44, 66],
-      ['Foot', 43, 94]
+      ['Head', 50, 9],
+      ['Shoulder', 39, 25],
+      ['Chest', 50, 31],
+      ['Arm', 36, 41],
+      ['Hand', 31, 54],
+      ['Knee', 44, 68],
+      ['Foot', 43, 95]
     ]
   },
   {
@@ -21322,13 +21330,13 @@ const INFOGRAPHIC_SCENES = [
     title: 'Parts of a Car',
     icon: '🚗',
     parts: [
-      ['Windshield', 48, 37],
-      ['Door', 65, 51],
-      ['Mirror', 62, 36],
-      ['Hood', 30, 40],
-      ['Wheel', 68, 67],
-      ['Headlight', 27, 55],
-      ['Trunk', 88, 34]
+      ['Windshield', 44, 38],
+      ['Door', 70, 52],
+      ['Mirror', 67, 40],
+      ['Hood', 29, 48],
+      ['Wheel', 54, 70],
+      ['Headlight', 50, 55],
+      ['Trunk', 92, 47]
     ]
   },
   {
@@ -21336,13 +21344,13 @@ const INFOGRAPHIC_SCENES = [
     title: 'Parts of a House',
     icon: '🏠',
     parts: [
-      ['Roof', 45, 30],
-      ['Chimney', 69, 17],
-      ['Window', 67, 47],
-      ['Door', 49, 57],
-      ['Wall', 56, 40],
-      ['Porch', 45, 72],
-      ['Garden', 75, 82]
+      ['Roof', 57, 25],
+      ['Chimney', 26, 17],
+      ['Window', 30, 40],
+      ['Door', 50, 59],
+      ['Wall', 76, 45],
+      ['Porch', 50, 68],
+      ['Garden', 20, 83]
     ]
   },
   {
@@ -21350,13 +21358,13 @@ const INFOGRAPHIC_SCENES = [
     title: 'Parts of a Tree',
     icon: '🌳',
     parts: [
-      ['Crown', 42, 23],
-      ['Branch', 40, 36],
-      ['Leaf', 21, 28],
-      ['Trunk', 41, 61],
-      ['Bark', 82, 63],
-      ['Root', 42, 83],
-      ['Fruit', 54, 31]
+      ['Crown', 50, 24],
+      ['Branch', 38, 42],
+      ['Leaf', 25, 25],
+      ['Trunk', 50, 67],
+      ['Bark', 51, 70],
+      ['Root', 50, 92],
+      ['Fruit', 50, 30]
     ]
   },
   {
@@ -21394,9 +21402,9 @@ const INFOGRAPHIC_SCENES = [
     title: 'Parts of the Face',
     icon: '😊',
     parts: [
-      ['Hair', 50, 14],
+      ['Hair', 50, 12],
       ['Forehead', 50, 31],
-      ['Eye', 38, 44],
+      ['Eye', 40, 45],
       ['Ear', 26, 50],
       ['Nose', 50, 57],
       ['Mouth', 50, 69],
@@ -21425,13 +21433,13 @@ const INFOGRAPHIC_SCENES = [
     title: 'Parts of a Bicycle',
     icon: '🚲',
     parts: [
-      ['Handlebars', 71, 16],
-      ['Seat', 32, 19],
-      ['Frame', 52, 43],
-      ['Pedal', 48, 65],
-      ['Chain', 54, 84],
-      ['Wheel', 18, 54],
-      ['Tire', 82, 50]
+      ['Handlebars', 75, 22],
+      ['Seat', 32, 27],
+      ['Frame', 53, 47],
+      ['Pedal', 52, 67],
+      ['Chain', 43, 70],
+      ['Wheel', 18, 62],
+      ['Tire', 82, 62]
     ]
   },
   {
@@ -21519,19 +21527,19 @@ const INFOGRAPHIC_EXTRA_PARTS = {
     ['Foot', 55, 94]
   ],
   car: [
-    ['Bumper', 50, 61],
-    ['License plate', 49, 56],
+    ['Bumper', 48, 72],
+    ['License plate', 16, 61],
     ['Roof', 51, 27]
   ],
   house: [
-    ['Garage', 29, 61],
-    ['Balcony', 72, 58],
-    ['Path', 48, 84]
+    ['Garage', 75, 64],
+    ['Balcony', 50, 42],
+    ['Path', 49, 88]
   ],
   tree: [
-    ['Twig', 64, 26],
-    ['Apple', 64, 31],
-    ['Soil', 66, 88]
+    ['Twig', 65, 22],
+    ['Apple', 50, 30],
+    ['Soil', 66, 92]
   ],
   weather: [
     ['Fog', 51, 61],
@@ -21542,7 +21550,7 @@ const INFOGRAPHIC_EXTRA_PARTS = {
   face: [
     ['Eyebrow', 38, 39],
     ['Cheek', 35, 62],
-    ['Teeth', 50, 70]
+    ['Teeth', 50, 67]
   ],
   classroom: [
     ['Pen', 54, 57],
@@ -21550,9 +21558,9 @@ const INFOGRAPHIC_EXTRA_PARTS = {
     ['Lamp', 82, 30]
   ],
   bicycle: [
-    ['Spokes', 18, 54],
-    ['Brake', 76, 38],
-    ['Crank', 48, 58]
+    ['Spokes', 18, 62],
+    ['Brake', 75, 49],
+    ['Crank', 52, 67]
   ],
   clothing: [
     ['Belt', 50, 47],
@@ -21923,7 +21931,9 @@ const INFOGRAPHIC_DEFAULT_UI = [
   'Try again',
   'Perfect! All the parts are correct.'
 ];
-const INFOGRAPHIC_POINT_STORAGE_KEY = 'andergo_infographic_point_overrides_v2';
+// Versioned because v2 coordinates were calibrated against the old artwork
+// and would otherwise silently override the corrected canonical points.
+const INFOGRAPHIC_POINT_STORAGE_KEY = 'andergo_infographic_point_overrides_v3';
 const infographicState = {
   sceneId: 'body-front',
   selectedLabel: '',

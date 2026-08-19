@@ -8,6 +8,7 @@ Estructura recomendada:
 - `worlds/spanish/content.js` — Mundo Español.
 - `worlds/french/content.js` — Mundo Français.
 - `worlds/italian/content.js` — Mundo Italiano.
+- `worlds/portuguese/content.js` — Mundo Português.
 - `worlds/german/content.js` — Mundo Deutsch.
 
 Cada mundo puede crecer con subcarpetas futuras, por ejemplo:

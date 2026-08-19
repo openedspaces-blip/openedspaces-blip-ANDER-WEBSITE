@@ -1,6 +1,6 @@
 # ANDERGO Update 04 — Backend, Gamificación y 5 Mundos Completos
 
-### (incluye Fase 2: contenido de lecciones a la par en los 5 idiomas)
+### (incluye rutas diferenciadas: A1–C2 en English, Español y Français; A1–B1 en Italiano, Português y Deutsch)
 
 ## Dónde insertar
 
@@ -49,7 +49,7 @@ No borres `.git`, `.env`, `supabase/` (el resto de su contenido), `SUPABASE_RUN_
 
 ## Qué se corrigió
 
-- **Pestañas de Italiano y Alemán estaban completamente vacías de contenido por nivel** (`levelContent` no existía para esos dos idiomas en `script.js`): al hacer clic en A2–C2 no pasaba nada. Ahora los 5 idiomas tienen las 6 habilidades completas en los 6 niveles (A1–C2).
+- **La cobertura curricular ahora se comunica por idioma**: English, Español y Français mantienen rutas A1–C2; Italiano, Português y Deutsch se ofrecen inicialmente hasta B1. El frontend ya limita los niveles disponibles mediante `COURSE_LEVELS_BY_LANGUAGE`, evitando presentar B2–C2 como rutas publicadas para esos tres idiomas.
 - **Bug de contenido cruzado**: la pestaña de Francés mostraba un texto de lectura en italiano (copiado por error). Corregido.
 - **`worlds/*/content.js` no existían**: `index.html` ya los cargaba con `<script src="worlds/...">`, pero como no existían, esas etiquetas fallaban en silencio en la consola del navegador. Ahora existen y están completos.
 - **`server_test.js` vs `server.test.js`**: `package.json` corre `node --test server.test.js`, pero el archivo se llamaba `server_test.js`. `npm test` no encontraba nada. Renombrado.
@@ -113,8 +113,8 @@ No borres `.git`, `.env`, `supabase/` (el resto de su contenido), `SUPABASE_RUN_
 
 ## Fase 2 (completada en esta entrega)
 
-- `lib/lessonsData.js` y los 5 `worlds/*/content.js` ahora tienen **36 lecciones por idioma** (6 niveles × 6 habilidades), con contenido diferenciado para listening, speaking, reading, writing, grammar y vocabulary en A1–C2.
-- Validado de punta a punta: los 5 idiomas devuelven exactamente 36 lecciones en total por idioma, repartidas en los 6 niveles (vía API y vía respaldo local), la insignia "Políglota" se desbloquea correctamente al completar lecciones en 2 idiomas distintos, y el bloqueo premium funciona igual en los 5 mundos.
+- Las rutas publicadas se organizan por cobertura diferenciada: English, Español y Français cuentan con **36 lecciones por idioma** (6 niveles × 6 habilidades); Italiano, Português y Deutsch se presentan inicialmente hasta B1 mientras se completa la revisión editorial de niveles superiores.
+- Validado curricularmente: las rutas europeas de Italiano, Português y Deutsch se verifican para A1–B1 en cinco habilidades no auditivas; English, Español y Français mantienen la cobertura completa A1–C2. La insignia "Políglota" y el bloqueo Premium siguen funcionando por idioma.
 
 ## Qué sigue (fase 3 sugerida)
 
