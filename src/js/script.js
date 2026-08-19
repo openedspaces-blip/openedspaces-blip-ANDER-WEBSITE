@@ -890,7 +890,8 @@ function formatSubscriptionDate(value) {
 
 function renderAccountPlanStatus(summary = currentSubscriptionSummary) {
   const panel = document.querySelector('[data-account-plan-panel]');
-    if (!panel) return; 
+  if (!panel) return;
+
   const signedIn = Boolean(authStatus.session?.access_token);
   panel.hidden = !signedIn;
   if (!signedIn) return;
@@ -16789,15 +16790,16 @@ function renderVocabCardHtml(item, { canSpeak, isFrench, showL1Translation = fal
           <div class="vocab-card-word-block">
             <div class="vocab-card-target-row">
               <p class="vocab-card-target ${getVocabTargetSizeClass(item.targetWord)}">${escapeHtml(item.targetWord)}</p>
+              ${
+                canSpeak
+                  ? `<button type="button" class="vocab-card-audio-btn vocab-card-word-audio-btn" aria-label="${escapeHtml(speakAriaLabel)}" title="${escapeHtml(speakTitle(isFrench))}"><span aria-hidden="true">🔊</span></button>`
+                  : ''
+              }
             </div>
             ${frontSupportHtml}
             ${
-              canSpeak
-                ? `<div class="vocab-card-pronunciation">${
-                    item.phonetic
-                      ? `<p class="vocab-card-phonetic">${escapeHtml(item.phonetic)}</p>`
-                      : ''
-                  }<button type="button" class="vocab-card-audio-btn vocab-card-word-audio-btn" aria-label="${escapeHtml(speakAriaLabel)}" title="${escapeHtml(speakTitle(isFrench))}"><span aria-hidden="true">🔊</span></button></div>`
+              item.phonetic
+                ? `<div class="vocab-card-pronunciation"><p class="vocab-card-phonetic">${escapeHtml(item.phonetic)}</p></div>`
                 : ''
             }
             ${item.learningMode === 'direct' && (item.simpleDefinition || item.definition) ? `<p class="vocab-card-catalogue-definition">${escapeHtml(item.simpleDefinition || item.definition)}</p>` : ''}
