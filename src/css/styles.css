@@ -4477,6 +4477,27 @@ a:focus-visible {
   font-size: 1.08rem;
 }
 
+.about-creator-profile-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin-top: 0.35rem;
+  color: var(--blue, #2563eb);
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.about-creator-profile-link::after {
+  content: '↗';
+  font-size: 0.95em;
+}
+
+.about-creator-profile-link:hover,
+.about-creator-profile-link:focus-visible {
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}
+
 .about-contact-block {
   grid-row: 4;
   display: grid;

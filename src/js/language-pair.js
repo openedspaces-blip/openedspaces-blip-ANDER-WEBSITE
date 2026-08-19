@@ -228,9 +228,10 @@
       aboutIncludesItem7: 'Acceso Premium para desbloquear contenido adicional.',
       aboutCreatorTitle: 'Sobre el creador',
       aboutCreatorP1:
-        'ANDERGO fue creado por Anderson Almánzar de la Cruz, docente de inglés y especialista en Lingüística Aplicada al Idioma Inglés. La plataforma nace con el propósito de ofrecer una experiencia de aprendizaje de idiomas más práctica, accesible, interactiva y centrada en el progreso real de cada estudiante.',
+        'ANDERGO fue creado por Anderson Almánzar de la Cruz, docente dominicano de lenguas extranjeras y especialista en la enseñanza del inglés. Entre 2012 y 2020 ejerció como maestro de lenguas extranjeras en el nivel secundario del Ministerio de Educación de la República Dominicana. También cursó estudios de Maestría en Lingüística Aplicada al Idioma Inglés en la Universidad Autónoma de Santo Domingo (UASD) entre 2016 y 2020.',
       aboutCreatorP2:
-        'Con años de experiencia como docente de inglés, Anderson ha dedicado su carrera a la enseñanza de idiomas con un enfoque cercano y práctico, siempre atento a los retos reales que enfrenta un estudiante al aprender un idioma nuevo. Ese interés por la enseñanza dio forma a la visión educativa de ANDERGO: una plataforma donde cada persona practica de verdad, recibe retroalimentación clara y avanza a su propio ritmo. Su compromiso es ofrecer una educación de idiomas accesible y de calidad para cualquier persona, sin importar dónde se encuentre.',
+        'Originario de San Francisco de Macorís y radicado en Nagua, Anderson combina su experiencia de aula con una visión práctica de la tecnología educativa. ANDERGO nace de esa trayectoria: una plataforma donde cada estudiante puede practicar de forma guiada, recibir retroalimentación clara y convertir el estudio constante en progreso visible. Su propósito es acercar una educación de idiomas accesible, rigurosa y humana a personas de cualquier lugar.',
+      aboutCreatorProfileLink: 'Conoce más sobre el autor',
       aboutContactTitle: 'Contacto y soporte',
       aboutContactIntro: 'Para consultas, asistencia técnica o reportar un problema, escríbenos a',
       aboutContactBtn: 'Contactar soporte',
@@ -321,9 +322,10 @@
       aboutIncludesItem7: 'Premium access to unlock additional content.',
       aboutCreatorTitle: 'About the creator',
       aboutCreatorP1:
-        'ANDERGO was created by Anderson Almánzar de la Cruz, an English teacher and specialist in Applied Linguistics for the English Language. The platform was born to offer a more practical, accessible, interactive language-learning experience centered on every student’s real progress.',
+        'ANDERGO was created by Anderson Almánzar de la Cruz, a Dominican foreign-language teacher and specialist in English-language education. From 2012 to 2020, he worked as a secondary-level foreign-language teacher at the Ministry of Education of the Dominican Republic. He also pursued a Master’s degree in Applied Linguistics for the English Language at the Universidad Autónoma de Santo Domingo (UASD) from 2016 to 2020.',
       aboutCreatorP2:
-        "With years of experience teaching English, Anderson has devoted his career to language teaching with a close, practical approach, always attentive to the real challenges a student faces when learning a new language. That interest in teaching shaped ANDERGO's educational vision: a platform where every person practices for real, gets clear feedback and moves forward at their own pace. His commitment is to offer accessible, quality language education to anyone, wherever they are.",
+        'Originally from San Francisco de Macorís and based in Nagua, Anderson combines classroom experience with a practical vision of educational technology. ANDERGO grew from that journey: a platform where learners can practise through guided activities, receive clear feedback and turn consistent study into visible progress. His purpose is to bring accessible, rigorous and human language education to learners wherever they are.',
+      aboutCreatorProfileLink: 'Learn more about the creator',
       aboutContactTitle: 'Contact and support',
       aboutContactIntro: 'For questions, technical help or to report an issue, write to us at',
       aboutContactBtn: 'Contact support',
@@ -415,9 +417,10 @@
       aboutIncludesItem7: 'Un accès Premium pour débloquer du contenu supplémentaire.',
       aboutCreatorTitle: 'À propos du créateur',
       aboutCreatorP1:
-        "ANDERGO a été créé par Anderson Almánzar de la Cruz, professeur d'anglais et spécialiste en linguistique appliquée à l'anglais. La plateforme est née dans le but d'offrir une expérience d'apprentissage des langues plus pratique, accessible, interactive et centrée sur les progrès réels de chaque étudiant.",
+        "ANDERGO a été créée par Anderson Almánzar de la Cruz, enseignant dominicain de langues étrangères et spécialiste de l'enseignement de l'anglais. De 2012 à 2020, il a travaillé comme enseignant de langues étrangères au niveau secondaire au Ministère de l'Éducation de la République dominicaine. Il a également suivi des études de master en linguistique appliquée à la langue anglaise à l'Universidad Autónoma de Santo Domingo (UASD), de 2016 à 2020.",
       aboutCreatorP2:
-        "Fort de plusieurs années d'expérience en tant que professeur d'anglais, Anderson a consacré sa carrière à l'enseignement des langues avec une approche proche et pratique, toujours attentif aux défis réels que rencontre un étudiant en apprenant une nouvelle langue. Cet intérêt pour l'enseignement a façonné la vision éducative d'ANDERGO : une plateforme où chaque personne pratique réellement, reçoit des retours clairs et progresse à son propre rythme. Son engagement est d'offrir une éducation linguistique accessible et de qualité à tous, où qu'ils se trouvent.",
+        "Originaire de San Francisco de Macorís et établi à Nagua, Anderson associe son expérience en classe à une vision pratique de la technologie éducative. ANDERGO est née de ce parcours : une plateforme où les apprenants peuvent pratiquer de manière guidée, recevoir des retours clairs et transformer la régularité en progrès visible. Son objectif est de rapprocher une éducation linguistique accessible, rigoureuse et humaine des apprenants, où qu'ils se trouvent.",
+      aboutCreatorProfileLink: "En savoir plus sur le créateur",
       aboutContactTitle: 'Contact et assistance',
       aboutContactIntro: "Pour toute question, assistance technique ou signalement d'un problème, écrivez-nous à",
       aboutContactBtn: "Contacter l'assistance",

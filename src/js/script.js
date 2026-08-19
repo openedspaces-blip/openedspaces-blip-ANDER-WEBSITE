@@ -890,7 +890,7 @@ function formatSubscriptionDate(value) {
 
 function renderAccountPlanStatus(summary = currentSubscriptionSummary) {
   const panel = document.querySelector('[data-account-plan-panel]');
-  if (!panel) return;
+    if (!panel) return; 
   const signedIn = Boolean(authStatus.session?.access_token);
   panel.hidden = !signedIn;
   if (!signedIn) return;
@@ -8816,6 +8816,10 @@ let translatorDictation = {
   timeoutId: null
 };
 
+// Hands-free translator: wait until the learner has been silent for 1.8s
+// before stopping recognition and sending the translation request.
+const TRANSLATOR_SILENCE_DELAY_MS = 1800;
+
 // Set by setupTranslator() once the Traductor view's runTranslation() closure
 // exists - lets startTranslatorDictation() (defined earlier in the file,
 // outside that closure) trigger the same auto-translate-after-silence flow
@@ -8828,7 +8832,7 @@ let translateTranslatorInputNow = null;
 // overwrite the textarea or auto-translate a second time.
 let translatorDictationManualSendSuppressed = false;
 
-// Set right before the ~2s-silence auto-translate (voice dictation only,
+// Set right before the 1.8s-silence auto-translate (voice dictation only,
 // never Enter/the Traducir button) - runTranslation() reads and clears this
 // once, so only a translation that was actually triggered by speaking gets
 // its result read aloud automatically afterwards.
@@ -8909,7 +8913,7 @@ async function startTranslatorDictation() {
   // so it falls back to Spanish - most likely tongue for this app's users.
   recognition.lang = DICTATION_LANGUAGE_CODES[sourceSelect?.value] || 'es-ES';
   recognition.interimResults = true;
-  // Stays open (instead of stopping after one phrase) so the ~2s-silence
+  // Stays open (instead of stopping after one phrase) so the 1.8s-silence
   // timer below decides when the student is actually done talking, same
   // pattern as the Tutor's mic (startTutorDictation).
   recognition.continuous = !isMobileVoiceDevice();
@@ -8920,8 +8924,8 @@ async function startTranslatorDictation() {
   let finalTranscript = '';
   let hadError = false;
   // Only starts counting once the student has actually said something
-  // (first 'result'), and restarts on every new result - "esperar ~2
-  // segundos sin nueva voz" / "cancelar el temporizador si vuelve a hablar".
+  // (first 'result') and restarts on every new result, so the timer is canceled
+  // immediately if the learner speaks again.
   let silenceTimerId = null;
 
   const micBtn = document.getElementById('translatorDictateBtn');
@@ -8947,7 +8951,10 @@ async function startTranslatorDictation() {
     textarea.dispatchEvent(new Event('input'));
 
     if (silenceTimerId) window.clearTimeout(silenceTimerId);
-    silenceTimerId = window.setTimeout(() => stopTranslatorDictation(), 2000);
+    silenceTimerId = window.setTimeout(
+      () => stopTranslatorDictation(),
+      TRANSLATOR_SILENCE_DELAY_MS
+    );
   });
 
   recognition.addEventListener('error', (event) => {
@@ -21941,46 +21948,12 @@ const infographicState = {
   initialized: false,
   language: '',
   selectedLanguage: '',
-  feedback: '',
-  editMode: false,
-  editingPoint: null,
-  pointOverrides: {}
+  feedback: ''
 };
 
-function loadInfographicPointOverrides() {
-  try {
-    const stored = JSON.parse(localStorage.getItem(INFOGRAPHIC_POINT_STORAGE_KEY) || '{}');
-    return stored && typeof stored === 'object' && !Array.isArray(stored) ? stored : {};
-  } catch {
-    return {};
-  }
-}
-
-function saveInfographicPointOverrides() {
-  localStorage.setItem(
-    INFOGRAPHIC_POINT_STORAGE_KEY,
-    JSON.stringify(infographicState.pointOverrides)
-  );
-}
-
-function getInfographicPoint(sceneId, index, fallbackX, fallbackY) {
-  const override = infographicState.pointOverrides?.[sceneId]?.[index];
-  const x = Number(override?.x);
-  const y = Number(override?.y);
-  return Number.isFinite(x) && Number.isFinite(y)
-    ? { x: Math.max(0, Math.min(100, x)), y: Math.max(0, Math.min(100, y)) }
-    : { x: fallbackX, y: fallbackY };
-}
-
-function setInfographicPoint(sceneId, index, x, y) {
-  infographicState.pointOverrides[sceneId] ||= {};
-  infographicState.pointOverrides[sceneId][index] = {
-    x: Number(Math.max(0, Math.min(100, x)).toFixed(2)),
-    y: Number(Math.max(0, Math.min(100, y)).toFixed(2))
-  };
-}
 
 function renderInfographicHotspot(name, x, y, index, answer, sceneId, label = name) {
+    return `<g class="info-hotspot info-hotspot--leader${isDense ? ' is-dense' : ''}${answer ? ' is-filled' : ''}${isCorrect ? ' is-correct' : ''}" data-info-slot="${index}" data-info-point-label="${escapeHtml(label)}" tabindex="0" role="button" aria-label="Point ${index + 1}: ${answer || 'empty'}"`;
   const isCorrect = answer === name;
   const isDense = ['solar-system', 'tree'].includes(sceneId);
   const radius = isDense ? 8 : 10;
@@ -22113,37 +22086,8 @@ function renderInfographicApp() {
   const labels = [...scene.parts.map(([id, label]) => ({ id, label }))].sort((a, b) =>
     a.label.localeCompare(b.label)
   );
-  // Point calibration is a local authoring tool. It does not alter shared
-  // learning data: the editor only stores coordinates in this browser until
-  // the author copies them for inclusion in the canonical scene map.
-  const canEditPoints = true;
-  const editLabel =
-    language === 'french'
-      ? 'Ajuster les points'
-      : language === 'english'
-        ? 'Adjust points'
-        : 'Ajustar puntos';
-  const saveLabel =
-    language === 'french'
-      ? 'Enregistrer'
-      : language === 'english'
-        ? 'Save points'
-        : 'Guardar puntos';
-  const copyLabel =
-    language === 'french'
-      ? 'Copier les coordonnées'
-      : language === 'english'
-        ? 'Copy coordinates'
-        : 'Copiar coordenadas';
-  const restoreLabel =
-    language === 'french'
-      ? 'Restaurer'
-      : language === 'english'
-        ? 'Restore defaults'
-        : 'Restaurar originales';
   app.innerHTML = `
     <div class="infographic-toolbar">
-      ${canEditPoints ? `<button type="button" class="secondary-btn infographic-edit-toggle${infographicState.editMode ? ' is-active' : ''}" aria-pressed="${infographicState.editMode}">⊙ ${editLabel}</button>` : ''}
       <div class="infographic-language-picker" role="group" aria-label="${language === 'spanish' ? 'Idioma de las infografías' : language === 'french' ? 'Langue des infographies' : language === 'italian' ? 'Lingua delle infografiche' : language === 'portuguese' ? 'Idioma dos infográficos' : language === 'german' ? 'Sprache der Infografiken' : 'Infographic language'}">
         <span class="infographic-language-label">${language === 'spanish' ? 'Idioma de práctica' : language === 'french' ? 'Langue de pratique' : language === 'italian' ? 'Lingua di pratica' : language === 'portuguese' ? 'Idioma de prática' : language === 'german' ? 'Übungssprache' : 'Practice language'}</span>
         <div class="infographic-language-options">
@@ -22160,14 +22104,12 @@ function renderInfographicApp() {
     <div class="infographic-workbench">
       <article class="infographic-canvas-card">
         <header><div><span>${ui[0]}</span><h3>${scene.title}</h3></div><strong>${score}%</strong></header>
-        ${infographicState.editMode ? `<div class="infographic-editor-note"><strong>Arrastra cada punto azul</strong><span>${infographicState.feedback || 'Colócalo exactamente sobre la parte indicada. También puedes afinarlo con las flechas del teclado; al terminar, copia las coordenadas para enviármelas e incorporarlas como valores oficiales.'}</span></div>` : ''}
-        <svg class="infographic-canvas${infographicState.editMode ? ' is-point-editor' : ''}" viewBox="0 0 400 400" role="img" aria-label="${scene.title}">${infographicSceneArtwork(scene)}${scene.parts
+        <svg class="infographic-canvas" viewBox="0 0 400 400" role="img" aria-label="${scene.title}">${infographicSceneArtwork(scene)}${scene.parts
           .map(([id, label, x, y], index) => {
-            const point = getInfographicPoint(scene.id, index, x, y);
             return renderInfographicHotspot(
               id,
-              point.x,
-              point.y,
+              x,
+              y,
               index,
               answers[index],
               scene.id,
@@ -22175,24 +22117,14 @@ function renderInfographicApp() {
             );
           })
           .join('')}</svg>
-        ${infographicState.editMode ? `<div class="infographic-editor-actions"><button type="button" class="primary-btn infographic-save-points">✓ ${saveLabel}</button><button type="button" class="secondary-btn infographic-copy-points">${copyLabel}</button><button type="button" class="secondary-btn infographic-restore-points">${restoreLabel}</button></div>` : ''}
       </article>
-      <aside class="infographic-label-panel"><span class="infographic-kicker">${infographicState.editMode ? 'Editor de puntos' : ui[1]}</span><h3>${infographicState.editMode ? 'Coordenadas de esta imagen' : ui[2]}</h3><p>${infographicState.editMode ? 'Los valores se actualizan mientras mueves cada punto.' : ui[3]}</p><div class="infographic-word-bank">${
-        scene.parts
-          .map(([id, label, x, y], index) => {
-            const point = getInfographicPoint(scene.id, index, x, y);
-            return infographicState.editMode
-              ? `<div class="infographic-word infographic-coordinate-row"><span>${index + 1}. ${label}</span><small>${point.x.toFixed(1)}%, ${point.y.toFixed(1)}%</small></div>`
-              : '';
-          })
-          .join('') ||
-        labels
+      <aside class="infographic-label-panel"><span class="infographic-kicker">${ui[1]}</span><h3>${ui[2]}</h3><p>${ui[3]}</p><div class="infographic-word-bank">${labels
           .map(
             ({ id, label }) =>
               `<button type="button" draggable="true" class="infographic-word${infographicState.selectedLabel === id ? ' is-selected' : ''}${placed.has(id) ? ' is-used' : ''}" data-info-label="${id}" data-info-speech="${label}">🔊 ${label}</button>`
           )
           .join('')
-      }</div>${!infographicState.editMode && infographicState.feedback ? `<p class="infographic-answer-feedback">${infographicState.feedback}</p>` : ''}${!infographicState.editMode ? `<div class="infographic-score"><span>${ui[4]}</span><strong>${completed}/${scene.parts.length} · ${score}%</strong><div><i style="width:${score}%"></i></div></div><button type="button" class="secondary-btn infographic-reset-btn">${ui[5]}</button>${score === 100 ? `<div class="infographic-success">🏆 ${ui[6]}</div>` : ''}` : ''}</aside>
+      }</div>${infographicState.feedback ? `<p class="infographic-answer-feedback">${infographicState.feedback}</p>` : ''}<div class="infographic-score"><span>${ui[4]}</span><strong>${completed}/${scene.parts.length} · ${score}%</strong><div><i style="width:${score}%"></i></div></div><button type="button" class="secondary-btn infographic-reset-btn">${ui[5]}</button>${score === 100 ? `<div class="infographic-success">🏆 ${ui[6]}</div>` : ''}</aside>
     </div>`;
 }
 
@@ -22202,37 +22134,8 @@ function initInfographicApp() {
     return;
   }
   infographicState.initialized = true;
-  infographicState.pointOverrides = loadInfographicPointOverrides();
   const app = document.getElementById('infographicApp');
   app?.addEventListener('click', (event) => {
-    if (event.target.closest('.infographic-edit-toggle')) {
-      infographicState.editMode = !infographicState.editMode;
-      infographicState.selectedLabel = '';
-      infographicState.feedback = '';
-      renderInfographicApp();
-      return;
-    }
-    if (event.target.closest('.infographic-save-points')) {
-      saveInfographicPointOverrides();
-      infographicState.feedback = 'Puntos guardados en este dispositivo.';
-      renderInfographicApp();
-      return;
-    }
-    if (event.target.closest('.infographic-copy-points')) {
-      const scenePoints = infographicState.pointOverrides[infographicState.sceneId] || {};
-      navigator.clipboard?.writeText(
-        JSON.stringify({ [infographicState.sceneId]: scenePoints }, null, 2)
-      );
-      infographicState.feedback = 'Coordenadas copiadas.';
-      renderInfographicApp();
-      return;
-    }
-    if (event.target.closest('.infographic-restore-points')) {
-      delete infographicState.pointOverrides[infographicState.sceneId];
-      saveInfographicPointOverrides();
-      renderInfographicApp();
-      return;
-    }
     const languageBtn = event.target.closest('[data-info-language]');
     if (languageBtn) {
       infographicState.selectedLanguage = languageBtn.dataset.infoLanguage;
@@ -22265,7 +22168,6 @@ function initInfographicApp() {
       return;
     }
     const slot = event.target.closest('[data-info-slot]');
-    if (slot && infographicState.editMode) return;
     if (slot && infographicState.selectedLabel) {
       const scene = getLocalizedInfographicScene(
         INFOGRAPHIC_SCENES.find((item) => item.id === infographicState.sceneId)
@@ -22305,59 +22207,6 @@ function initInfographicApp() {
     if (!slot) return;
     event.preventDefault();
     slot.dispatchEvent(new MouseEvent('click', { bubbles: true }));
-  });
-  const moveEditingPoint = (event) => {
-    if (!infographicState.editMode || infographicState.editingPoint === null) return;
-    const svg = app.querySelector('.infographic-canvas');
-    if (!svg) return;
-    const matrix = svg.getScreenCTM();
-    if (!matrix) return;
-    const pointer = new DOMPoint(event.clientX, event.clientY).matrixTransform(matrix.inverse());
-    const x = (pointer.x / 400) * 100;
-    const y = (pointer.y / 400) * 100;
-    setInfographicPoint(infographicState.sceneId, infographicState.editingPoint, x, y);
-    renderInfographicApp();
-  };
-  app?.addEventListener('pointerdown', (event) => {
-    if (!infographicState.editMode) return;
-    const slot = event.target.closest('[data-info-slot]');
-    if (!slot) return;
-    event.preventDefault();
-    infographicState.editingPoint = Number(slot.dataset.infoSlot);
-    moveEditingPoint(event);
-  });
-  app?.addEventListener('pointermove', moveEditingPoint);
-  const finishEditingPoint = () => {
-    if (infographicState.editingPoint === null) return;
-    infographicState.editingPoint = null;
-    saveInfographicPointOverrides();
-  };
-  app?.addEventListener('pointerup', finishEditingPoint);
-  app?.addEventListener('pointercancel', finishEditingPoint);
-  app?.addEventListener('keydown', (event) => {
-    if (
-      !infographicState.editMode ||
-      !['ArrowLeft', 'ArrowRight', 'ArrowUp', 'ArrowDown'].includes(event.key)
-    )
-      return;
-    const slot = event.target.closest('[data-info-slot]');
-    if (!slot) return;
-    event.preventDefault();
-    const scene =
-      INFOGRAPHIC_SCENES.find((item) => item.id === infographicState.sceneId) ||
-      INFOGRAPHIC_SCENES[0];
-    const index = Number(slot.dataset.infoSlot);
-    const [, , fallbackX, fallbackY] = scene.parts[index];
-    const point = getInfographicPoint(scene.id, index, fallbackX, fallbackY);
-    const step = event.shiftKey ? 1 : 0.25;
-    const nextX =
-      point.x + (event.key === 'ArrowLeft' ? -step : event.key === 'ArrowRight' ? step : 0);
-    const nextY =
-      point.y + (event.key === 'ArrowUp' ? -step : event.key === 'ArrowDown' ? step : 0);
-    setInfographicPoint(scene.id, index, nextX, nextY);
-    saveInfographicPointOverrides();
-    renderInfographicApp();
-    app.querySelector(`[data-info-slot="${index}"]`)?.focus();
   });
   renderInfographicApp();
 }
