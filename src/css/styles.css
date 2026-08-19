@@ -30221,22 +30221,21 @@ body {
   line-height: 1.25;
 }
 .skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card-front-support {
-  display: grid;
-  justify-items: start;
-  gap: 0.04rem;
-  overflow: visible;
-  margin: 0.04rem 0 0.1rem;
-  color: #2563eb;
-  text-overflow: clip;
-  white-space: normal;
-}
-.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card-front-support p {
+  display: block;
+  flex: 0 1 42%;
+  min-width: 0;
+  max-width: 46%;
+  overflow: hidden;
   margin: 0;
   color: #2563eb;
   font-size: 0.8rem;
   font-weight: 850;
-  line-height: 1.25;
+  line-height: 1.2;
+  text-align: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
+
 .vocab-card-catalogue-examples {
   display: grid;
   gap: 0.12rem;
