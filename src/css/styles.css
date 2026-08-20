@@ -30152,6 +30152,20 @@ body {
   cursor: default;
 }
 
+/* C1/C2 vocabulary is frequently longer. Larger cards prevent words and
+   expressions from being cut off while preserving the catalogue rhythm. */
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card[data-vocab-level='C1'],
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card[data-vocab-level='C2'] {
+  height: 218px;
+  min-height: 218px;
+}
+
+/* C2 adds a full bridge-language translation beneath the French expression. */
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card[data-vocab-level='C2'] {
+  height: 244px;
+  min-height: 244px;
+}
+
 .skill-view-section[data-skill='vocabulary']
   .vocab-catalogue-deck
   .vocab-card--static
@@ -30331,20 +30345,38 @@ body {
   min-height: 184px;
 }
 
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card[data-vocab-level='C1'].is-flipped,
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card[data-vocab-level='C2'].is-flipped {
+  height: 244px;
+  min-height: 244px;
+}
+
 .skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card-target-row {
   justify-content: flex-start;
   gap: 0.3rem;
+  flex-wrap: wrap;
 }
 
 .skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card-target {
   flex: 0 1 auto;
-  width: auto;
-  max-width: 55%;
+  width: calc(100% - 2.2rem);
+  max-width: none;
+  overflow: visible;
+  text-overflow: clip;
+  white-space: normal;
+  overflow-wrap: anywhere;
 }
 
 .skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card-front-support {
   flex: 0 1 auto;
-  max-width: 32%;
+  flex-basis: 100%;
+  width: 100%;
+  max-width: none;
+  overflow: visible;
+  margin-top: 0.05rem;
+  text-overflow: clip;
+  white-space: normal;
+  overflow-wrap: anywhere;
 }
 
 .skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card-word-audio-btn {

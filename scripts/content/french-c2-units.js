@@ -286,7 +286,9 @@ function vocabularyItems(topic) {
     translation: definition,
     definition,
     simpleDefinition: definition,
-    example: `Dans cette unité, « ${word} » permet de formuler une distinction avec précision.`,
+    // Compact enough for a study card, but still uses an abstract academic
+    // relation rather than simplifying the C2 register.
+    example: `« ${word} » structure l’argumentation avec précision.`,
     partOfSpeech: word.includes(' ') ? 'expression ou groupe nominal' : 'nom ou verbe'
   }));
 }
