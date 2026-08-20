@@ -3500,8 +3500,16 @@ async function createOAuthBrowserClient() {
     auth: {
       autoRefreshToken: false,
       detectSessionInUrl: true,
-      persistSession: false,
-      flowType: 'implicit'
+      // Social providers return through Supabase with an authorization code.
+      // PKCE stores its short-lived verifier until that redirect comes back;
+      // disabling persistence here discarded it and made exchangeCodeForSession
+      // fail after a successful Google/Facebook approval. sessionStorage keeps
+      // the verifier on this browser tab only, without creating a durable
+      // Supabase session outside ANDERGO's own saveSession flow.
+      persistSession: true,
+      storage: window.sessionStorage,
+      storageKey: 'andergo-oauth-session',
+      flowType: 'pkce'
     }
   });
 }
