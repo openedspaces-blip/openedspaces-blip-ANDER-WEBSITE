@@ -5012,7 +5012,7 @@
     "vocabulary": [
       {
         "word": "algoritmo",
-        "translation": "English support: algoritmo",
+        "translation": "algorithm",
         "definition": "Término clave para comprender «Cómo los algoritmos deciden lo que ves cada día» y analizar investigar cómo las plataformas ordenan noticias, videos y recomendaciones.",
         "example": "Aunque «algoritmo» parece una decisión individual, conviene considerar «recomendación» y «perfil». Esta frase sitúa «algoritmo» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -5020,7 +5020,7 @@
       },
       {
         "word": "recomendación",
-        "translation": "English support: recomendación",
+        "translation": "recommendation",
         "definition": "Término clave para comprender «Cómo los algoritmos deciden lo que ves cada día» y analizar investigar cómo las plataformas ordenan noticias, videos y recomendaciones.",
         "example": "Aunque «algoritmo» parece una decisión individual, conviene considerar «recomendación» y «perfil». Esta frase sitúa «recomendación» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -5028,7 +5028,7 @@
       },
       {
         "word": "perfil",
-        "translation": "English support: perfil",
+        "translation": "profile",
         "definition": "Término clave para comprender «Cómo los algoritmos deciden lo que ves cada día» y analizar investigar cómo las plataformas ordenan noticias, videos y recomendaciones.",
         "example": "Aunque «algoritmo» parece una decisión individual, conviene considerar «recomendación» y «perfil». Esta frase sitúa «perfil» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -5036,7 +5036,7 @@
       },
       {
         "word": "atención",
-        "translation": "English support: atención",
+        "translation": "attention",
         "definition": "Término clave para comprender «Cómo los algoritmos deciden lo que ves cada día» y analizar investigar cómo las plataformas ordenan noticias, videos y recomendaciones.",
         "example": "Aunque «algoritmo» parece una decisión individual, conviene considerar «recomendación» y «perfil». Esta frase sitúa «atención» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -5044,7 +5044,7 @@
       },
       {
         "word": "sesgo",
-        "translation": "English support: sesgo",
+        "translation": "bias",
         "definition": "Término clave para comprender «Cómo los algoritmos deciden lo que ves cada día» y analizar investigar cómo las plataformas ordenan noticias, videos y recomendaciones.",
         "example": "Aunque «algoritmo» parece una decisión individual, conviene considerar «recomendación» y «perfil». Esta frase sitúa «sesgo» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -5052,7 +5052,7 @@
       },
       {
         "word": "opacidad",
-        "translation": "English support: opacidad",
+        "translation": "opacity / lack of transparency",
         "definition": "Término clave para comprender «Cómo los algoritmos deciden lo que ves cada día» y analizar investigar cómo las plataformas ordenan noticias, videos y recomendaciones.",
         "example": "Aunque «algoritmo» parece una decisión individual, conviene considerar «recomendación» y «perfil». Esta frase sitúa «opacidad» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",

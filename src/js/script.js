@@ -11997,6 +11997,69 @@ function renderReadingIllustrationHtml(lesson) {
   `;
 }
 
+// A reading can now offer several thematic routes without changing the lesson
+// URL or its progress. Content authors may provide reading.variants with their
+// own text/questions; older lessons receive three useful, full-length lenses
+// over the existing article until their bespoke variants are authored.
+const readingTopicSelections = new Map();
+
+function getReadingTopicChoices(lesson) {
+  const authored = Array.isArray(lesson.reading?.variants)
+    ? lesson.reading.variants.filter((variant) => variant && (variant.text || variant.parts))
+    : [];
+  return authored.slice(0, 3);
+}
+
+function getSelectedReadingTopic(lesson) {
+  const choices = getReadingTopicChoices(lesson);
+  if (!choices.length) return null;
+  const selectedId = readingTopicSelections.get(lesson.slug);
+  return choices.find((choice) => choice.id === selectedId) || choices[0];
+}
+
+function getReadingLessonForTopic(lesson) {
+  const topic = getSelectedReadingTopic(lesson);
+  if (!topic) return lesson;
+  const reading = {
+    ...(lesson.reading || {}),
+    ...(topic || {})
+  };
+  // Legacy lessons deliberately keep their complete original reading. The
+  // topic changes the practical lens, while authored variants replace the
+  // body, questions and references through the object spread above.
+  return {
+    ...lesson,
+    reading,
+    title: topic?.title || lesson.title,
+    description: topic?.description || lesson.description
+  };
+}
+
+function renderReadingTopicSelector(lesson) {
+  const choices = getReadingTopicChoices(lesson);
+  if (choices.length < 2) return '';
+  const selected = getSelectedReadingTopic(lesson);
+  return `
+    <section class="reading-topic-selector no-print" aria-label="Elige un enfoque de lectura">
+      <div class="reading-topic-selector-heading">
+        <span>Elige una temática</span>
+        <strong>Tres maneras prácticas de explorar la lección</strong>
+      </div>
+      <div class="reading-topic-options" role="tablist" aria-label="Temáticas de Reading">
+        ${choices
+          .map(
+            (topic) => `
+              <button type="button" class="reading-topic-option${topic.id === selected.id ? ' is-active' : ''}" data-reading-topic="${escapeHtml(topic.id)}" data-lesson-slug="${escapeHtml(lesson.slug)}" role="tab" aria-selected="${String(topic.id === selected.id)}">
+                <strong>${escapeHtml(topic.label || topic.title)}</strong>
+                <span>${escapeHtml(topic.description || 'Lee, analiza y aplica las ideas principales.')}</span>
+              </button>`
+          )
+          .join('')}
+      </div>
+    </section>
+  `;
+}
+
 function getIntroductionEditorial(lesson) {
   const topic = String(lesson.title || lesson.description || 'este tema').trim();
   // Vocabulary and Reading are sibling activities in one unit. Borrow the
@@ -12541,6 +12604,9 @@ function renderReadingEditorialPrelude(lesson) {
 function renderReadingView(section, lesson) {
   const content = section.querySelector('.skill-view-content');
   if (!content) return;
+  // A thematic choice is still one Reading activity in the learning route.
+  // The selected variant only replaces the material being read/heard.
+  lesson = getReadingLessonForTopic(lesson);
   const { total, attempted } = getExerciseProgress(lesson);
   const pct = total ? Math.round((attempted / total) * 100) : 0;
   const allParagraphs = getReadingParagraphs(lesson);
@@ -12626,6 +12692,7 @@ function renderReadingView(section, lesson) {
             : ''
         }
         ${audioPlayerHtml}
+        ${renderReadingTopicSelector(lesson)}
         <div class="reading-display-controls no-print" aria-label="${french ? 'Réglages de lecture' : 'Ajustes de lectura'}">
           <span class="reading-display-label">${french ? 'Taille du texte' : 'Tamaño del texto'}</span>
           <div class="reading-size-controls" role="group" aria-label="${french ? 'Taille du texte' : 'Tamaño del texto'}">
@@ -14500,8 +14567,8 @@ function renderSpeakingModeTabsHtml(activeMode) {
   `;
 }
 
-function renderSpeakingCorrectorHtml() {
-  return `
+function renderSpeakingCorrectorHtml(idPrefix = 'corrector') {
+  const markup = `
     <div class="translator-panel corrector-panel speaking-corrector-panel">
       <div class="translator-controls">
         <label for="correctorLangSelect">Idioma del texto
@@ -14540,6 +14607,12 @@ function renderSpeakingCorrectorHtml() {
         </div>
       </div>
     </div>`;
+  return idPrefix === 'corrector'
+    ? markup
+    : markup
+        .replaceAll('for="corrector', `for="${idPrefix}`)
+        .replaceAll('id="corrector', `id="${idPrefix}`)
+        .replaceAll('aria-controls="corrector', `aria-controls="${idPrefix}`);
 }
 
 function renderSpeakingSttHtml(lesson) {
@@ -16613,8 +16686,8 @@ function normalizeVocabContexts(item) {
       supportText: ctx.supportText || ctx.translation || ''
     }));
   // Keep authored examples as the source of truth, then complete the card
-  // with a distinct real-life context. A vocabulary card should always give
-  // the learner two chances to see the word in use, never recycled filler.
+  // with a distinct motivational context. A vocabulary card should always
+  // offer one real-life use and one encouraging reason to keep practicing.
   const seed = normalized[0]?.targetText || item.example || '';
   const word = item.targetWord || item.word || '';
   const language = item.language || learningPathState.language;
@@ -16674,28 +16747,28 @@ function getVocabularyExampleFallbacks(word, seed, language) {
   const quotedWord = `“${cleanWord}”`;
   const contextualTemplates = {
     english: [
-      `In class, I see ${quotedWord} in today’s activity.`,
-      `During a short conversation, I hear ${quotedWord} again.`
+      `Every new word, including ${quotedWord}, brings me closer to speaking with confidence.`,
+      `I repeat ${quotedWord} patiently; steady practice opens new doors.`
     ],
     french: [
-      `En classe, je vois ${quotedWord} dans l’activité du jour.`,
-      `Dans une courte conversation, j’entends encore ${quotedWord}.`
+      `Chaque mot nouveau, comme ${quotedWord}, me rapproche d’une expression plus assurée.`,
+      `Je répète ${quotedWord} avec patience : la pratique ouvre de nouvelles portes.`
     ],
     spanish: [
-      `En clase, veo ${quotedWord} en la actividad de hoy.`,
-      `En una conversación breve, vuelvo a escuchar ${quotedWord}.`
+      `Cada palabra nueva, como ${quotedWord}, me acerca a expresarme con confianza.`,
+      `Repito ${quotedWord} con paciencia: la práctica constante abre nuevas puertas.`
     ],
     italian: [
-      `In classe, vedo ${quotedWord} nell’attività di oggi.`,
-      `In una breve conversazione, sento di nuovo ${quotedWord}.`
+      `Ogni parola nuova, come ${quotedWord}, mi avvicina a parlare con fiducia.`,
+      `Ripeto ${quotedWord} con pazienza: la pratica costante apre nuove porte.`
     ],
     portuguese: [
-      `Na aula, vejo ${quotedWord} na atividade de hoje.`,
-      `Em uma conversa curta, ouço ${quotedWord} novamente.`
+      `Cada palavra nova, como ${quotedWord}, me aproxima de falar com confiança.`,
+      `Repito ${quotedWord} com paciência: a prática constante abre novas portas.`
     ],
     german: [
-      `Im Unterricht sehe ich ${quotedWord} in der heutigen Aufgabe.`,
-      `In einem kurzen Gespräch höre ich ${quotedWord} noch einmal.`
+      `Jedes neue Wort, auch ${quotedWord}, bringt mich dem selbstbewussten Sprechen näher.`,
+      `Ich wiederhole ${quotedWord} geduldig; regelmäßiges Üben öffnet neue Türen.`
     ]
   };
   return contextualTemplates[language] || contextualTemplates.english;
@@ -21678,8 +21751,8 @@ const INFOGRAPHIC_SCENES = [
       ['Vegetables', 14, 68],
       ['Bread', 92, 78],
       ['Milk', 92, 31],
-      ['Shelf', 47, 38],
-      ['Checkout', 68, 52]
+      ['Shelf', 90, 52],
+      ['Checkout', 69, 38]
     ]
   },
   {
@@ -21708,7 +21781,7 @@ const INFOGRAPHIC_SCENES = [
 // points are chosen from visible, meaningful details in each scene rather
 // than repeating a label simply to increase the score.
 const INFOGRAPHIC_EXTRA_PARTS = {
-  supermarket: [['Cheese', 53, 39], ['Juice', 58, 40]],
+  supermarket: [['Cheese', 31, 25], ['Juice', 61, 66]],
   airport: [['Backpack', 29, 48], ['Ticket', 36, 37]],
   sports: [['Tennis ball', 78, 93]],
   'city-map': [['Bus', 27, 77]],
@@ -22130,7 +22203,7 @@ const INFOGRAPHIC_DEFAULT_UI = [
 ];
 // Versioned because v2 coordinates were calibrated against the old artwork
 // and would otherwise silently override the corrected canonical points.
-const INFOGRAPHIC_POINT_STORAGE_KEY = 'andergo_infographic_point_overrides_v3';
+const INFOGRAPHIC_POINT_STORAGE_KEY = 'andergo_infographic_point_overrides_v4';
 const infographicState = {
   sceneId: 'body-front',
   selectedLabel: '',
@@ -22286,7 +22359,7 @@ function getInfographicSceneGroupLabels(language) {
 function renderInfographicScenePicker(activeScene, language) {
   const labels = getInfographicSceneGroupLabels(language);
   const groups = ['people', 'daily', 'places', 'world'];
-  return `<details class="infographic-scene-picker"><summary><span>${activeScene.icon}</span><strong>${escapeHtml(activeScene.title)}</strong><small>${language === 'spanish' ? 'Cambiar tema' : language === 'italian' ? 'Cambia tema' : language === 'portuguese' ? 'Mudar tema' : language === 'french' ? 'Changer de thème' : language === 'german' ? 'Thema wechseln' : 'Change topic'}</small></summary><div class="infographic-scene-menu">${groups.map((group) => `<section><h4>${labels[group]}</h4><div>${INFOGRAPHIC_SCENES.filter((item) => getInfographicSceneGroup(item.id) === group).map((item) => { const localized = getLocalizedInfographicScene(item, language); return `<button type="button" class="infographic-scene-btn${item.id === activeScene.id ? ' is-active' : ''}" data-info-scene="${item.id}"><span>${item.icon}</span>${escapeHtml(localized.title)}</button>`; }).join('')}</div></section>`).join('')}</div></details>`;
+  return `<details class="infographic-scene-picker"><summary><span class="infographic-scene-current"><span aria-hidden="true">${activeScene.icon}</span><strong>${escapeHtml(activeScene.title)}</strong></span><span class="infographic-scene-change">${language === 'spanish' ? 'Cambiar tema' : language === 'italian' ? 'Cambia tema' : language === 'portuguese' ? 'Mudar tema' : language === 'french' ? 'Changer de thème' : language === 'german' ? 'Thema wechseln' : 'Change topic'}</span><span class="infographic-scene-summary-spacer" aria-hidden="true"></span></summary><div class="infographic-scene-menu">${groups.map((group) => `<section><h4>${labels[group]}</h4><div>${INFOGRAPHIC_SCENES.filter((item) => getInfographicSceneGroup(item.id) === group).map((item) => { const localized = getLocalizedInfographicScene(item, language); return `<button type="button" class="infographic-scene-btn${item.id === activeScene.id ? ' is-active' : ''}" data-info-scene="${item.id}"><span>${item.icon}</span>${escapeHtml(localized.title)}</button>`; }).join('')}</div></section>`).join('')}</div></details>`;
 }
 
 function renderInfographicApp() {
@@ -25201,6 +25274,19 @@ function enableHomepageActions() {
       return;
     }
 
+    const readingTopicOption = event.target.closest('.reading-topic-option');
+    if (readingTopicOption) {
+      const slug = readingTopicOption.dataset.lessonSlug;
+      const topicId = readingTopicOption.dataset.readingTopic;
+      const lesson = learningPathState.lessons.find((item) => item.slug === slug);
+      if (!lesson || !getReadingTopicChoices(lesson).some((topic) => topic.id === topicId)) return;
+      readingTopicSelections.set(slug, topicId);
+      // Alternative themes never add route requirements or reset progress.
+      if (SKILL_VIEWS.includes(getViewFromHash())) renderSkillView(getViewFromHash());
+      else renderLessonWorkspace();
+      return;
+    }
+
     const readingCompOption = event.target.closest('.reading-comp-option');
     if (readingCompOption) {
       if (readingCompOption.disabled) return;
@@ -27054,11 +27140,12 @@ function openTranslator(overrides = {}) {
   if (toolTab) activateSkillTab(toolTab, { scroll: false });
 
   if (mode === 'corrector' || mode === 'phonetics') {
+    const isCorrector = mode === 'corrector';
     const languageSelect = document.getElementById(
-      mode === 'corrector' ? 'correctorLangSelect' : 'phoneticsLangSelect'
+      isCorrector ? 'translatorCorrectorLangSelect' : 'phoneticsLangSelect'
     );
     const toolInput = document.getElementById(
-      mode === 'corrector' ? 'correctorInput' : 'phoneticsInput'
+      isCorrector ? 'translatorCorrectorInput' : 'phoneticsInput'
     );
     const toolLanguage = overrides.toolLanguage || learningPathState.language;
     if (languageSelect && [...languageSelect.options].some((opt) => opt.value === toolLanguage)) {
@@ -27108,6 +27195,12 @@ function populateTranslatorLanguageSelects() {
 }
 
 function setupTranslator() {
+  const correctorMount = document.getElementById('translatorCorrectorMount');
+  if (correctorMount && !correctorMount.dataset.initialized) {
+    correctorMount.innerHTML = renderSpeakingCorrectorHtml('translatorCorrector');
+    correctorMount.dataset.initialized = 'true';
+    setupCorrector('translatorCorrector');
+  }
   populateTranslatorLanguageSelects();
   const sourceSelect = document.getElementById('translatorSourceLang');
   const targetSelect = document.getElementById('translatorTargetLang');
@@ -28086,19 +28179,20 @@ function setupInterpreter() {
   renderTurns();
 }
 
-function setupCorrector() {
-  const langSelect = document.getElementById('correctorLangSelect');
-  const input = document.getElementById('correctorInput');
-  const output = document.getElementById('correctorOutput');
-  const charCount = document.getElementById('correctorCharCount');
-  const clearBtn = document.getElementById('correctorClearBtn');
-  const talkBtn = document.getElementById('correctorTalkBtn');
-  const copyBtn = document.getElementById('correctorCopyBtn');
-  const listenBtn = document.getElementById('correctorListenBtn');
-  const applyBtn = document.getElementById('correctorApplyBtn');
-  const submitBtn = document.getElementById('correctorSubmitBtn');
-  const status = document.getElementById('correctorStatus');
-  const suggestionsList = document.getElementById('correctorSuggestions');
+function setupCorrector(idPrefix = 'corrector') {
+  const byId = (suffix) => document.getElementById(`${idPrefix}${suffix}`);
+  const langSelect = byId('LangSelect');
+  const input = byId('Input');
+  const output = byId('Output');
+  const charCount = byId('CharCount');
+  const clearBtn = byId('ClearBtn');
+  const talkBtn = byId('TalkBtn');
+  const copyBtn = byId('CopyBtn');
+  const listenBtn = byId('ListenBtn');
+  const applyBtn = byId('ApplyBtn');
+  const submitBtn = byId('SubmitBtn');
+  const status = byId('Status');
+  const suggestionsList = byId('Suggestions');
   if (!input || !output || !submitBtn || !status) return;
 
   const MAX_LENGTH = Number(input.getAttribute('maxlength')) || 1000;

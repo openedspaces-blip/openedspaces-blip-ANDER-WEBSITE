@@ -1431,12 +1431,13 @@
           >‹ Volver a la lección</a
         >
 
-        <!-- Corrector (Fase 3) is a separate mode, never a "target language" -
-             its own tab/panel, never mixed into the Traducir call above. -->
+        <!-- Each tool keeps its own purpose and controls inside the shared
+             ANDERGO Translator workspace. -->
         <div class="skill-tabs is-open" id="translatorTabs">
           <div class="skill-tab-list">
-            <button class="skill-tab-button active" type="button" data-skill="translate">Traducir</button>
+            <button class="skill-tab-button active" type="button" data-skill="translate">Traductor</button>
             <button class="skill-tab-button" type="button" data-skill="interpreter">Intérprete</button>
+            <button class="skill-tab-button" type="button" data-skill="corrector">Corrector</button>
             <button class="skill-tab-button" type="button" data-skill="phonetics">Fonética</button>
           </div>
 
@@ -1635,6 +1636,10 @@
               </div>
             </div>
           </div>
+        </div>
+
+        <div class="skill-panel" data-skill="corrector">
+          <div id="translatorCorrectorMount"></div>
         </div>
 
         <div class="skill-panel" data-skill="phonetics">

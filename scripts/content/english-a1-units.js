@@ -27,8 +27,8 @@ const units = [
   // ---------------------------------------------------------------
   {
     slug: 'hello',
-    title: 'Hello!',
-    titleEs: '¡Hola!',
+    title: 'Introducing Yourself',
+    titleEs: 'Presentarte',
     description: 'Greetings, introductions and the alphabet.',
     order: 1,
     unitOverview: {
@@ -45,10 +45,10 @@ const units = [
     },
     activities: {
       reading: activity('reading', {
-        title: 'Hello, Class!',
+        title: 'Introducing Yourself',
         description: 'A short text about a student\'s first day of English class, in three parts.',
         reading: {
-          title: 'Hello, Class!',
+          title: 'Introducing Yourself',
           illustration: {
             src: '/assets/readings/english/a1/hello-class.webp',
             alt: 'Ana meets her new classmates on the first day of English class'
