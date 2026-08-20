@@ -12727,6 +12727,7 @@ function isWritingPracticeAnswerCorrect(task, value) {
 function buildWritingPractice(lesson) {
   const french = isFrenchTargetLanguage();
   const targetLanguage = learningPathState.language;
+  const level = String(lesson.level || 'A1').toUpperCase();
   const fallback = french
     ? [
         "Je m'appelle Camila.",
@@ -12751,14 +12752,15 @@ function buildWritingPractice(lesson) {
     ...(lesson.dialogue || []).map((item) => item.line),
     ...(lesson.vocabulary || []).map((item) => item.example),
     ...(lesson.phrases || []).filter((item) => !String(item).includes('...')),
-    lesson.description
+    lesson.description,
+    lesson.title
   ]
     .filter(Boolean)
     .flatMap((text) => String(text).split(/(?<=[.!?])\s+/))
     .map((text) => text.replace(/\s+/g, ' ').trim())
     .filter((text) => {
       const words = text.split(/\s+/).filter(Boolean);
-      return words.length >= 3 && words.length <= 14 && text.length <= 110;
+      return words.length >= 3 && words.length <= 24 && text.length <= 180;
     });
   const sentences = [
     ...new Map(
@@ -12778,7 +12780,6 @@ function buildWritingPractice(lesson) {
       prompt: sentence.replace(answer, '_____')
     };
   };
-  const firstGap = makeGap(sentences[0]);
   const correctionWord = makeGap(sentences[1], 1).answer;
   const mistakeWord = makeGap(sentences[2], 0).answer;
   const fillGap = makeGap(sentences[3], 1);
@@ -12799,12 +12800,66 @@ function buildWritingPractice(lesson) {
       ? [...orderedTokens.slice(1), orderedTokens[0]]
       : [...orderedTokens].reverse();
 
+  // The first challenge must test actual writing, not isolated spelling. Its
+  // length grows with CEFR level and keeps the unit topic in view, including
+  // the advanced Writing lessons whose source material is intentionally brief.
+  const dictationLength = {
+    A1: [3, 5, 4],
+    A2: [4, 8, 6],
+    B1: [6, 11, 8],
+    B2: [8, 14, 11],
+    C1: [10, 17, 14],
+    C2: [12, 22, 17]
+  }[level] || [4, 9, 7];
+  const [minDictationWords, maxDictationWords, idealDictationWords] = dictationLength;
+  const wordCount = (text) => String(text || '').trim().split(/\s+/).filter(Boolean).length;
+  const dictationOptions = [...candidates, ...fallback];
+  const matchedDictation = dictationOptions
+    .filter((text) => {
+      const count = wordCount(text);
+      return count >= minDictationWords && count <= maxDictationWords;
+    })
+    .sort((a, b) => Math.abs(wordCount(a) - idealDictationWords) - Math.abs(wordCount(b) - idealDictationWords))[0];
+  const topic = String(lesson.title || '')
+    .replace(/^(?:Writing|Write|Escribe|Écris|Écrire)\s*[·:–-]\s*/iu, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+  const topicForSentence = topic ? topic.charAt(0).toLocaleLowerCase() + topic.slice(1) : '';
+  const advancedDictation = {
+    spanish: level === 'C2'
+      ? `El texto analiza críticamente ${topicForSentence || 'el tema de la unidad'}.`
+      : `El texto explica ${topicForSentence || 'el tema de la unidad'}.`,
+    french: level === 'C2'
+      ? `Le texte analyse de manière critique ${topicForSentence || 'le thème de l’unité'}.`
+      : `Le texte explique ${topicForSentence || 'le thème de l’unité'}.`,
+    english: level === 'C2'
+      ? `The text critically examines ${topicForSentence || 'the unit topic'}.`
+      : `The text explains ${topicForSentence || 'the unit topic'}.`,
+    italian: level === 'C2'
+      ? `Il testo analizza criticamente ${topicForSentence || 'il tema dell’unità'}.`
+      : `Il testo spiega ${topicForSentence || 'il tema dell’unità'}.`,
+    portuguese: level === 'C2'
+      ? `O texto analisa criticamente ${topicForSentence || 'o tema da unidade'}.`
+      : `O texto explica ${topicForSentence || 'o tema da unidade'}.`,
+    german: level === 'C2'
+      ? `Der Text analysiert kritisch ${topicForSentence || 'das Thema der Einheit'}.`
+      : `Der Text erklärt ${topicForSentence || 'das Thema der Einheit'}.`
+  }[targetLanguage] || `The text explains ${topicForSentence || 'the unit topic'}.`;
+  const dictationText =
+    matchedDictation && (level === 'A1' || level === 'A2' || wordCount(matchedDictation) >= minDictationWords)
+      ? matchedDictation
+      : advancedDictation;
+
   return [
     {
       type: 'dictation',
-      label: french ? 'Écouter un mot' : 'Escuchar una palabra',
-      prompt: french ? 'Écoutez et écrivez le mot.' : 'Escucha y escribe la palabra.',
-      answer: firstGap.answer
+      label: french ? 'Écouter la phrase' : 'Escuchar el dictado',
+      prompt: french
+        ? `Écoutez et écrivez la phrase complète (${minDictationWords} à ${maxDictationWords} mots).`
+        : `Escucha y escribe la frase completa (${minDictationWords} a ${maxDictationWords} palabras).`,
+      answer: dictationText,
+      playLabel: french ? 'Écouter la phrase' : 'Escuchar la frase',
+      placeholder: french ? 'Écrivez la phrase entendue' : 'Escribe la frase que escuchas'
     },
     {
       type: 'correct-word',
@@ -12982,8 +13037,8 @@ function renderWritingView(section, lesson) {
         ? `<div class="writing-practice-options">${task.options.map((option) => `<button type="button" data-writing-answer="${escapeHtml(option)}">${escapeHtml(option)}</button>`).join('')}</div>`
         : task.type === 'order'
           ? `<div class="writing-order-answer" aria-label="${french ? 'Phrase construite' : 'Oración construida'}"></div><div class="writing-token-bank">${task.tokens.map((token, index) => `<button type="button" data-writing-token-index="${index}">${escapeHtml(token)}</button>`).join('')}</div><button type="button" class="writing-order-reset">${french ? 'Effacer' : 'Borrar'}</button>`
-          : task.type === 'dictation'
-            ? `<button type="button" class="secondary-btn writing-dictation-play">🔊 ${french ? 'Écouter le mot' : 'Escuchar la palabra'}</button><input class="writing-practice-input" type="text" autocomplete="off" placeholder="${french ? 'Écrivez le mot entendu' : 'Escribe la palabra que escuchas'}" />`
+        : task.type === 'dictation'
+            ? `<button type="button" class="secondary-btn writing-dictation-play">🔊 ${escapeHtml(task.playLabel)}</button><input class="writing-practice-input" type="text" autocomplete="off" placeholder="${escapeHtml(task.placeholder)}" />`
             : `<input class="writing-practice-input" type="text" autocomplete="off" placeholder="${task.type === 'find-mistake' ? (french ? 'Écrivez la forme correcte' : 'Escribe la forma correcta') : task.type === 'correct-word' ? (french ? 'Écrivez le mot correct' : 'Escribe la palabra correcta') : french ? 'Écrivez le mot manquant' : 'Escribe la palabra que falta'}" />`;
 
     stage.innerHTML = `
