@@ -33163,3 +33163,32 @@ body.tutor-robot-listening #tutor .tutor-hero-bot {
     height: 12px;
   }
 }
+
+/* Useful expressions: keep the full phrase visible above its bridge-language translation. */
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card--expression .vocab-card-target-row {
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 0.12rem 0.3rem;
+}
+
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card--expression .vocab-card-target {
+  flex: 1 1 100%;
+  width: 100%;
+  max-width: 100%;
+  overflow: visible;
+  text-overflow: clip;
+  white-space: normal;
+}
+
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card--expression .vocab-card-front-support {
+  flex: 1 1 100%;
+  width: 100%;
+  max-width: 100%;
+  overflow: visible;
+  white-space: normal;
+  line-height: 1.18;
+}
+
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card--expression .vocab-card-word-audio-btn {
+  margin-left: auto;
+}

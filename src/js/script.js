@@ -16778,9 +16778,10 @@ function renderVocabCardHtml(item, { canSpeak, isFrench, showL1Translation = fal
     .map((part) => part.charAt(0))
     .join('')
     .toLocaleUpperCase();
+  const isUsefulExpression = item.category === 'expression' || /\s/.test(String(item.targetWord || '').trim());
 
   return `
-    <div class="vocab-card vocab-card--static" data-index="${item._displayIndex}" data-card-id="${escapeHtml(item.id)}" data-vocab-word="${escapeHtml(`${item.targetWord} ${item.translation || ''} ${item.phonetic || ''}`.toLocaleLowerCase())}" data-vocab-category="${escapeHtml(item.category || '')}" data-mastery="${escapeHtml(item.masteryStatus)}" data-learning-mode="${escapeHtml(item.learningMode)}" data-static="true" data-is-french="${isFrench}" data-speak-text="${escapeHtml(item.audioText)}" data-speak-locale="${escapeHtml(item.pronunciationLocale)}" data-speak-rate="${item.pronunciationRate}" aria-label="${escapeHtml(item.targetWord)}">
+    <div class="vocab-card vocab-card--static${isUsefulExpression ? ' vocab-card--expression' : ''}" data-index="${item._displayIndex}" data-card-id="${escapeHtml(item.id)}" data-vocab-word="${escapeHtml(`${item.targetWord} ${item.translation || ''} ${item.phonetic || ''}`.toLocaleLowerCase())}" data-vocab-category="${escapeHtml(item.category || '')}" data-mastery="${escapeHtml(item.masteryStatus)}" data-learning-mode="${escapeHtml(item.learningMode)}" data-static="true" data-is-french="${isFrench}" data-speak-text="${escapeHtml(item.audioText)}" data-speak-locale="${escapeHtml(item.pronunciationLocale)}" data-speak-rate="${item.pronunciationRate}" aria-label="${escapeHtml(item.targetWord)}">
       <div class="vocab-card-inner">
         <div class="vocab-card-face vocab-card-front">
           <span class="vocab-card-compact-icon" aria-hidden="true">${escapeHtml(compactIconText || '•')}</span>
