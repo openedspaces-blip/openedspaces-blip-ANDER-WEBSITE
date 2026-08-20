@@ -3322,6 +3322,100 @@
           "juntos · conversación",
           "juntos · práctica"
         ]
+      },
+      {
+        "word": "prioridade",
+        "translation": "prioridad",
+        "example": "A prioridade é terminar o relatório até sexta."
+      },
+      {
+        "word": "planejamento",
+        "translation": "planificación",
+        "example": "O planejamento ajudou a distribuir tarefas."
+      },
+      {
+        "word": "recurso",
+        "translation": "recurso",
+        "example": "Precisamos mais recursos para concluir o projeto."
+      },
+      {
+        "word": "antecipar",
+        "translation": "adelantar",
+        "example": "Podemos antecipar a reunião para amanhã."
+      },
+      {
+        "word": "contingência",
+        "translation": "contingencia",
+        "example": "Criamos um plano de contingência para imprevistos."
+      },
+      {
+        "word": "delegar",
+        "translation": "delegar",
+        "example": "Vou delegar essa tarefa ao colega."
+      },
+      {
+        "word": "prático",
+        "translation": "práctico",
+        "example": "Precisamos de uma solução prática e rápida."
+      },
+      {
+        "word": "revisar",
+        "translation": "revisar",
+        "example": "Vamos revisar o cronograma hoje."
+      },
+      {
+        "word": "compromisso",
+        "translation": "compromiso",
+        "example": "Tenho um compromisso com o cliente na terça."
+      },
+      {
+        "word": "viável",
+        "translation": "viable",
+        "example": "A proposta parece viável financeiramente."
+      },
+      {
+        "word": "Pode me ajudar?",
+        "translation": "¿Puede ayudarme?",
+        "example": "Pode me ajudar com o relatório?",
+        "category": "expression"
+      },
+      {
+        "word": "Na minha opinião",
+        "translation": "En mi opinión",
+        "example": "Na minha opinião, devemos priorizar isso.",
+        "category": "expression"
+      },
+      {
+        "word": "Concordo com você",
+        "translation": "Estoy de acuerdo contigo",
+        "example": "Concordo com você, é melhor começar agora.",
+        "category": "expression"
+      },
+      {
+        "word": "Tenho uma dúvida",
+        "translation": "Tengo una duda",
+        "example": "Tenho uma dúvida sobre o prazo.",
+        "category": "expression"
+      },
+      {
+        "word": "agendar",
+        "translation": "agendar",
+        "example": "Preciso agendar a próxima reunião."
+      },
+      {
+        "word": "fluxo de trabalho",
+        "translation": "flujo de trabajo",
+        "example": "O fluxo de trabalho precisa ser mais claro."
+      },
+      {
+        "word": "solução",
+        "translation": "solución",
+        "example": "Encontramos uma solução para o problema."
+      },
+      {
+        "word": "otimizar",
+        "translation": "optimizar",
+        "example": "Precisamos otimizar o processo de aprovação."
       }
     ],
     "dialogue": [],
@@ -4411,6 +4505,137 @@
         "word": "valutare",
         "translation": "evaluar",
         "example": "A discussão esclarece o papel de valutare."
+      },
+      {
+        "word": "prazo",
+        "translation": "plazo",
+        "example": "Qual é o prazo para entregar o relatório?"
+      },
+      {
+        "word": "tarefa",
+        "translation": "tarea",
+        "example": "Distribuí as tarefas entre a equipe."
+      },
+      {
+        "word": "responsabilidade",
+        "translation": "responsabilidad",
+        "example": "Assumo a responsabilidade por esse projeto."
+      },
+      {
+        "word": "objetivo",
+        "translation": "objetivo",
+        "example": "Nosso objetivo é reduzir custos em 10%."
+      },
+      {
+        "word": "meta",
+        "translation": "meta",
+        "example": "A meta mensal é concluir cinco entregas."
+      },
+      {
+        "word": "cronograma",
+        "translation": "cronograma",
+        "example": "Atualizei o cronograma com as novas datas."
+      },
+      {
+        "word": "estimativa",
+        "translation": "estimación",
+        "example": "A estimativa de tempo mudou após a análise."
+      },
+      {
+        "word": "viabilidade",
+        "translation": "viabilidad",
+        "example": "Avaliei a viabilidade técnica do plano."
+      },
+      {
+        "word": "escopo",
+        "translation": "alcance",
+        "example": "O escopo do projeto inclui três fases."
+      },
+      {
+        "word": "orçamento",
+        "translation": "presupuesto",
+        "example": "O orçamento foi aprovado pelo comitê."
+      },
+      {
+        "word": "risco",
+        "translation": "riesgo",
+        "example": "Identificamos um risco relacionado ao fornecedor."
+      },
+      {
+        "word": "mitigação",
+        "translation": "mitigación",
+        "example": "Propusemos ações de mitigação para reduzir riscos."
+      },
+      {
+        "word": "acompanhamento",
+        "translation": "seguimiento",
+        "example": "O acompanhamento semanal ajuda a detectar desvios."
+      },
+      {
+        "word": "feedback",
+        "translation": "retroalimentación",
+        "example": "Peça feedback sobre o protótipo."
+      },
+      {
+        "word": "alinhamento",
+        "translation": "alineamiento",
+        "example": "Buscamos alinhamento entre as áreas envolvidas."
+      },
+      {
+        "word": "indicador",
+        "translation": "indicador",
+        "example": "Definimos indicadores para medir o progresso."
+      },
+      {
+        "word": "marco",
+        "translation": "hito",
+        "example": "O próximo marco é a entrega da versão beta."
+      },
+      {
+        "word": "dependência",
+        "translation": "dependencia",
+        "example": "Há uma dependência externa com o fornecedor."
+      },
+      {
+        "word": "impacto",
+        "translation": "impacto",
+        "example": "Avaliei o impacto das mudanças no cliente."
+      },
+      {
+        "word": "Pode me ajudar com isso?",
+        "translation": "¿Puedes ayudarme con esto?",
+        "example": "Pode me ajudar com isso?",
+        "category": "expression"
+      },
+      {
+        "word": "Na minha opinião, ...",
+        "translation": "En mi opinión, ...",
+        "example": "Na minha opinião, essa estratégia é viável.",
+        "category": "expression"
+      },
+      {
+        "word": "Concordo com você.",
+        "translation": "Estoy de acuerdo contigo.",
+        "example": "Concordo com você sobre os prazos.",
+        "category": "expression"
+      },
+      {
+        "word": "Tenho uma dúvida sobre...",
+        "translation": "Tengo una duda sobre...",
+        "example": "Tenho uma dúvida sobre os critérios de aceite.",
+        "category": "expression"
+      },
+      {
+        "word": "Por favor, poderia revisar isto?",
+        "translation": "Por favor, ¿podrías revisar esto?",
+        "example": "Por favor, poderia revisar este cronograma?",
+        "category": "expression"
+      },
+      {
+        "word": "Isso acontece porque...",
+        "translation": "Esto ocurre porque...",
+        "example": "Isso acontece porque faltaram recursos.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -4524,6 +4749,136 @@
         "word": "sfumatura",
         "translation": "matiz",
         "example": "A discussão esclarece o papel de sfumatura."
+      },
+      {
+        "word": "argumento",
+        "translation": "argumento",
+        "example": "O argumento central do texto é bem fundamentado."
+      },
+      {
+        "word": "tese",
+        "translation": "tesis",
+        "example": "A tese apresentada no debate provocou controvérsias."
+      },
+      {
+        "word": "premissa",
+        "translation": "premisa",
+        "example": "A premissa que sustenta o raciocínio precisa ser clara."
+      },
+      {
+        "word": "conclusão",
+        "translation": "conclusión",
+        "example": "Chegamos à conclusão após analisar os dados."
+      },
+      {
+        "word": "contra-argumento",
+        "translation": "contraargumento",
+        "example": "Ela trouxe um contra-argumento convincente."
+      },
+      {
+        "word": "falácia",
+        "translation": "falacia",
+        "example": "Identificamos uma falácia no raciocínio dele."
+      },
+      {
+        "word": "coerência",
+        "translation": "coherencia",
+        "example": "A coerência entre as ideias reforça a persuasão."
+      },
+      {
+        "word": "consistência",
+        "translation": "consistencia",
+        "example": "A consistência dos dados sustenta a conclusão."
+      },
+      {
+        "word": "persuasão",
+        "translation": "persuasión",
+        "example": "A persuasão eficaz evita manipulações."
+      },
+      {
+        "word": "retórica",
+        "translation": "retórica",
+        "example": "A retórica usada no discurso era articulada."
+      },
+      {
+        "word": "evidenciar",
+        "translation": "evidenciar",
+        "example": "É preciso evidenciar as fontes dos argumentos."
+      },
+      {
+        "word": "corroborar",
+        "translation": "corroborar",
+        "example": "Estudos recentes corroboram essa hipótese."
+      },
+      {
+        "word": "refutar",
+        "translation": "refutar",
+        "example": "O pesquisador conseguiu refutar a objeção com dados robustos."
+      },
+      {
+        "word": "implicação",
+        "translation": "implicación",
+        "example": "As implicações políticas da proposta são profundas."
+      },
+      {
+        "word": "pertinência",
+        "translation": "pertinencia",
+        "example": "A pertinência do argumento foi questionada durante a audiência."
+      },
+      {
+        "word": "sutileza",
+        "translation": "matiz",
+        "example": "A sutileza na argumentação mostra domínio do tema."
+      },
+      {
+        "word": "dedução",
+        "translation": "deducción",
+        "example": "A dedução lógica levou à conclusão final."
+      },
+      {
+        "word": "indução",
+        "translation": "inducción",
+        "example": "A indução a partir dos casos analisados parece válida."
+      },
+      {
+        "word": "objetividade",
+        "translation": "objetividad",
+        "example": "Manter a objetividade ajuda a convencer a audiência."
+      },
+      {
+        "word": "parcialidade",
+        "translation": "parcialidad",
+        "example": "A parcialidade do autor diminui sua credibilidade."
+      },
+      {
+        "word": "Pode me ajudar a revisar este argumento?",
+        "translation": "¿Puedes ayudarme a revisar este argumento?",
+        "example": "Pode me ajudar a revisar este argumento antes da apresentação?",
+        "category": "expression"
+      },
+      {
+        "word": "Na minha opinião,",
+        "translation": "En mi opinión,",
+        "example": "Na minha opinião, o projeto precisa de mais dados.",
+        "category": "expression"
+      },
+      {
+        "word": "Concordo plenamente",
+        "translation": "Concuerdo plenamente",
+        "example": "Concordo plenamente com o ponto sobre transparência.",
+        "category": "expression"
+      },
+      {
+        "word": "Tenho dúvidas quanto a isso",
+        "translation": "Tengo dudas al respecto",
+        "example": "Tenho dúvidas quanto a isso; a evidência não é suficiente.",
+        "category": "expression"
+      },
+      {
+        "word": "Por favor, considere que...",
+        "translation": "Por favor, considere que...",
+        "example": "Por favor, considere que os resultados ainda são preliminares.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -4637,6 +4992,137 @@
         "word": "persuasivo",
         "translation": "persuasivo",
         "example": "A discussão esclarece o papel de persuasivo."
+      },
+      {
+        "word": "argumentação",
+        "translation": "argumentación",
+        "example": "A argumentação do relatório foi sólida e bem estruturada."
+      },
+      {
+        "word": "coerência",
+        "translation": "coherencia",
+        "example": "A coerência entre ideias facilita a compreensão do público."
+      },
+      {
+        "word": "coesão",
+        "translation": "cohesión",
+        "example": "A coesão textual reforça a credibilidade do orador."
+      },
+      {
+        "word": "falácia",
+        "translation": "falacia",
+        "example": "Ele identificou uma falácia no raciocínio adversário."
+      },
+      {
+        "word": "apelo",
+        "translation": "llamamiento",
+        "example": "O apelo emocional foi decisivo para mobilizar a audiência."
+      },
+      {
+        "word": "enunciação",
+        "translation": "enunciación",
+        "example": "A enunciação clara evita ambiguidades no discurso."
+      },
+      {
+        "word": "metáfora",
+        "translation": "metáfora",
+        "example": "A metáfora utilizada intensificou a mensagem central."
+      },
+      {
+        "word": "ironia",
+        "translation": "ironía",
+        "example": "A ironia sutil colocou em xeque os argumentos contrários."
+      },
+      {
+        "word": "subtexto",
+        "translation": "subtexto",
+        "example": "O subtexto do anúncio sugeria mudanças imediatas."
+      },
+      {
+        "word": "mitigar",
+        "translation": "mitigar",
+        "example": "Ele procurou mitigar objeções com dados empíricos."
+      },
+      {
+        "word": "contundente",
+        "translation": "contundente",
+        "example": "O argumento mais contundente foi apresentado no final."
+      },
+      {
+        "word": "plausível",
+        "translation": "plausible",
+        "example": "A hipótese mais plausível requer menos pressupostos."
+      },
+      {
+        "word": "sublinhar",
+        "translation": "subrayar",
+        "example": "Sublinhar os benefícios ajuda a convencer os indecisos."
+      },
+      {
+        "word": "concessão",
+        "translation": "concesión",
+        "example": "Fazer uma concessão estratégica pode aumentar a confiança do interlocutor."
+      },
+      {
+        "word": "objeção",
+        "translation": "objeción",
+        "example": "Ele respondeu a cada objeção com exemplos concretos."
+      },
+      {
+        "word": "concisão",
+        "translation": "concisión",
+        "example": "A concisão do discurso economizou tempo e manteve o foco."
+      },
+      {
+        "word": "dialética",
+        "translation": "dialéctica",
+        "example": "A dialética do debate explorou diferentes perspectivas."
+      },
+      {
+        "word": "viés",
+        "translation": "sesgo",
+        "example": "Reconhecer o próprio viés é sinal de maturidade argumentativa."
+      },
+      {
+        "word": "enquadramento",
+        "translation": "encuadre",
+        "example": "O enquadramento da questão orientou a interpretação do público."
+      },
+      {
+        "word": "Você poderia me ajudar?",
+        "translation": "¿Podrías ayudarme?",
+        "example": "Você poderia me ajudar a sintetizar os pontos principais?",
+        "category": "expression"
+      },
+      {
+        "word": "Na minha opinião,",
+        "translation": "En mi opinión,",
+        "example": "Na minha opinião, a solução proposta é insustentável.",
+        "category": "expression"
+      },
+      {
+        "word": "Concordo plenamente.",
+        "translation": "Concuerdo plenamente.",
+        "example": "Concordo plenamente com os argumentos apresentados.",
+        "category": "expression"
+      },
+      {
+        "word": "Tenho uma dúvida.",
+        "translation": "Tengo una duda.",
+        "example": "Tenho uma dúvida sobre a metodologia sugerida.",
+        "category": "expression"
+      },
+      {
+        "word": "Por gentileza,",
+        "translation": "Por favor,",
+        "example": "Por gentileza, reveja os dados antes de publicar.",
+        "category": "expression"
+      },
+      {
+        "word": "Como consequência,",
+        "translation": "Como consecuencia,",
+        "example": "Como consequência, muitos aderiram à proposta.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -7984,6 +8470,100 @@
           "juntos · conversación",
           "juntos · práctica"
         ]
+      },
+      {
+        "word": "itinerário",
+        "translation": "itinerario",
+        "example": "O itinerário inclui duas cidades."
+      },
+      {
+        "word": "check-in",
+        "translation": "registro",
+        "example": "Fiz o check-in online."
+      },
+      {
+        "word": "guia local",
+        "translation": "guía local",
+        "example": "Contratamos um guia local para o bairro."
+      },
+      {
+        "word": "voluntariado",
+        "translation": "voluntariado",
+        "example": "Participamos de um voluntariado ambiental."
+      },
+      {
+        "word": "ecoturismo",
+        "translation": "ecoturismo",
+        "example": "O ecoturismo respeita o meio ambiente."
+      },
+      {
+        "word": "respeito",
+        "translation": "respeto",
+        "example": "O respeito pelas comunidades é essencial."
+      },
+      {
+        "word": "cultura",
+        "translation": "cultura",
+        "example": "Aprendemos sobre a cultura local."
+      },
+      {
+        "word": "costume",
+        "translation": "costumbre",
+        "example": "É importante conhecer os costumes."
+      },
+      {
+        "word": "reciclagem",
+        "translation": "reciclaje",
+        "example": "Leve sacos para a reciclagem."
+      },
+      {
+        "word": "transporte público",
+        "translation": "transporte público",
+        "example": "Usamos transporte público para nos deslocar."
+      },
+      {
+        "word": "regra",
+        "translation": "regla",
+        "example": "Siga as regras do parque."
+      },
+      {
+        "word": "planejar",
+        "translation": "planear",
+        "example": "Vamos planejar a viagem com antecedência."
+      },
+      {
+        "word": "orçamento",
+        "translation": "presupuesto",
+        "example": "Meu orçamento é limitado para essa viagem."
+      },
+      {
+        "word": "segurança",
+        "translation": "seguridad",
+        "example": "Priorize a segurança do grupo."
+      },
+      {
+        "word": "Poderia me ajudar?",
+        "translation": "¿Podría ayudarme?",
+        "example": "Poderia me ajudar com a rota?",
+        "category": "expression"
+      },
+      {
+        "word": "Na minha opinião",
+        "translation": "En mi opinión",
+        "example": "Na minha opinião, devemos visitar o mercado.",
+        "category": "expression"
+      },
+      {
+        "word": "Concordo",
+        "translation": "Estoy de acuerdo",
+        "example": "Concordo, é melhor sair cedo.",
+        "category": "expression"
+      },
+      {
+        "word": "Tenho uma dúvida",
+        "translation": "Tengo una duda",
+        "example": "Tenho uma dúvida sobre os horários.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -9073,6 +9653,136 @@
         "word": "ridurre",
         "translation": "reducir",
         "example": "A discussão esclarece o papel de ridurre."
+      },
+      {
+        "word": "deslocamento",
+        "translation": "desplazamiento",
+        "example": "O deslocamento diário até o trabalho consome muito tempo."
+      },
+      {
+        "word": "transporte público",
+        "translation": "transporte público",
+        "example": "O transporte público deve ser eficiente e pontual."
+      },
+      {
+        "word": "ciclovia",
+        "translation": "ciclovía",
+        "example": "Construíram uma ciclovia segura ao longo da avenida."
+      },
+      {
+        "word": "congestionamento",
+        "translation": "congestión",
+        "example": "O congestionamento piora nas horas de pico."
+      },
+      {
+        "word": "calçada",
+        "translation": "acera",
+        "example": "A calçada está danificada e dificulta a circulação."
+      },
+      {
+        "word": "faixa de pedestres",
+        "translation": "cruce peatonal",
+        "example": "Os carros não respeitam a faixa de pedestres aqui."
+      },
+      {
+        "word": "integração tarifária",
+        "translation": "integración tarifaria",
+        "example": "A integração tarifária reduz o custo das viagens."
+      },
+      {
+        "word": "intermodalidade",
+        "translation": "intermodalidad",
+        "example": "A intermodalidade facilita a conexão entre ônibus e metrô."
+      },
+      {
+        "word": "sustentabilidade",
+        "translation": "sustentabilidad",
+        "example": "Precisamos planejar a cidade com foco na sustentabilidade."
+      },
+      {
+        "word": "emissões",
+        "translation": "emisiones",
+        "example": "As emissões de veículos são um problema de saúde pública."
+      },
+      {
+        "word": "planejamento urbano",
+        "translation": "planificación urbana",
+        "example": "O planejamento urbano deve priorizar espaços públicos."
+      },
+      {
+        "word": "mobilidade ativa",
+        "translation": "movilidad activa",
+        "example": "A mobilidade ativa inclui caminhar e andar de bicicleta."
+      },
+      {
+        "word": "carsharing",
+        "translation": "servicio de coche compartido",
+        "example": "O carsharing diminui a necessidade de ter um carro próprio."
+      },
+      {
+        "word": "aplicativo de mobilidade",
+        "translation": "aplicación de movilidad",
+        "example": "O aplicativo de mobilidade mostra rotas em tempo real."
+      },
+      {
+        "word": "tarifa",
+        "translation": "tarifa",
+        "example": "A tarifa do ônibus aumentou no último mês."
+      },
+      {
+        "word": "ônibus elétrico",
+        "translation": "autobús eléctrico",
+        "example": "O município testou um ônibus elétrico na linha central."
+      },
+      {
+        "word": "custo-benefício",
+        "translation": "relación costo-beneficio",
+        "example": "Devemos avaliar o custo-benefício das mudanças propostas."
+      },
+      {
+        "word": "segurança viária",
+        "translation": "seguridad vial",
+        "example": "Melhorar a segurança viária reduz acidentes."
+      },
+      {
+        "word": "acessibilidade",
+        "translation": "accesibilidad",
+        "example": "A acessibilidade das estações precisa ser revista."
+      },
+      {
+        "word": "rotas alternativas",
+        "translation": "rutas alternativas",
+        "example": "Oferecer rotas alternativas pode reduzir o trânsito no centro."
+      },
+      {
+        "word": "Pode me ajudar?",
+        "translation": "¿Puede ayudarme?",
+        "example": "Pode me ajudar a comparar essas soluções para a mobilidade?",
+        "category": "expression"
+      },
+      {
+        "word": "Na minha opinião",
+        "translation": "En mi opinión",
+        "example": "Na minha opinião, investir em ciclovias traz mais benefícios.",
+        "category": "expression"
+      },
+      {
+        "word": "Concordo com você",
+        "translation": "Estoy de acuerdo contigo",
+        "example": "Concordo com você, precisamos reduzir as emissões agora.",
+        "category": "expression"
+      },
+      {
+        "word": "Tenho dúvida sobre",
+        "translation": "Tengo duda sobre",
+        "example": "Tenho dúvida sobre o impacto financeiro dessa proposta.",
+        "category": "expression"
+      },
+      {
+        "word": "Por favor, poderia explicar o motivo?",
+        "translation": "Por favor, ¿podría explicar la razón?",
+        "example": "Por favor, poderia explicar o motivo da mudança no itinerário?",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -9186,6 +9896,137 @@
         "word": "conseguenza",
         "translation": "consecuencia",
         "example": "A discussão esclarece o papel de conseguenza."
+      },
+      {
+        "word": "inovação",
+        "translation": "innovación",
+        "example": "A inovação tecnológica transformou o setor energético."
+      },
+      {
+        "word": "viabilidade",
+        "translation": "viabilidad",
+        "example": "Avaliei a viabilidade do projeto antes de propor mudanças."
+      },
+      {
+        "word": "escalabilidade",
+        "translation": "escalabilidad",
+        "example": "Precisamos garantir a escalabilidade da solução."
+      },
+      {
+        "word": "sustentabilidade",
+        "translation": "sostenibilidad",
+        "example": "A sustentabilidade deve orientar nossas escolhas."
+      },
+      {
+        "word": "stakeholders",
+        "translation": "partes interesadas",
+        "example": "Os stakeholders foram consultados durante o planejamento."
+      },
+      {
+        "word": "implementação",
+        "translation": "implementación",
+        "example": "A implementação exigiu ajustes no cronograma."
+      },
+      {
+        "word": "mitigação",
+        "translation": "mitigación",
+        "example": "Propus medidas de mitigação para os riscos identificados."
+      },
+      {
+        "word": "viés",
+        "translation": "sesgo",
+        "example": "É essencial identificar qualquer viés nos dados."
+      },
+      {
+        "word": "transparência",
+        "translation": "transparencia",
+        "example": "A transparência nas decisões fortalece a confiança pública."
+      },
+      {
+        "word": "equidade",
+        "translation": "equidad",
+        "example": "Devemos priorizar a equidade no acesso às tecnologias."
+      },
+      {
+        "word": "inclusão",
+        "translation": "inclusión",
+        "example": "Programas de inclusão digital ampliaram o acesso nas comunidades."
+      },
+      {
+        "word": "paradigma",
+        "translation": "paradigma",
+        "example": "O projeto propõe um novo paradigma de participação cidadã."
+      },
+      {
+        "word": "disrupção",
+        "translation": "disrupción",
+        "example": "A disrupção causada pela inovação exigiu regulação."
+      },
+      {
+        "word": "protótipo",
+        "translation": "prototipo",
+        "example": "Construímos um protótipo para testar as hipóteses."
+      },
+      {
+        "word": "interoperabilidade",
+        "translation": "interoperabilidad",
+        "example": "A interoperabilidade entre plataformas é crucial."
+      },
+      {
+        "word": "governança",
+        "translation": "gobernanza",
+        "example": "A governança deve garantir padrões éticos."
+      },
+      {
+        "word": "regulamentação",
+        "translation": "regulación",
+        "example": "A regulamentação vigente limita algumas soluções propostas."
+      },
+      {
+        "word": "ética",
+        "translation": "ética",
+        "example": "A ética orienta a pesquisa com dados pessoais."
+      },
+      {
+        "word": "análise de custo-benefício",
+        "translation": "análisis costo-beneficio",
+        "example": "A análise de custo-benefício favoreceu a implementação parcial."
+      },
+      {
+        "word": "Poderia me ajudar a avaliar isto?",
+        "translation": "¿Podría ayudarme a evaluar esto?",
+        "example": "Poderia me ajudar a avaliar isto?",
+        "category": "expression"
+      },
+      {
+        "word": "A meu ver,",
+        "translation": "A mi parecer,",
+        "example": "A meu ver, a solução precisa de mais dados.",
+        "category": "expression"
+      },
+      {
+        "word": "Concordo parcialmente.",
+        "translation": "Concuerdo parcialmente.",
+        "example": "Concordo parcialmente com os argumentos apresentados.",
+        "category": "expression"
+      },
+      {
+        "word": "Tenho reservas quanto à...",
+        "translation": "Tengo reservas respecto a...",
+        "example": "Tenho reservas quanto à metodologia proposta.",
+        "category": "expression"
+      },
+      {
+        "word": "Com todo respeito,",
+        "translation": "Con todo respeto,",
+        "example": "Com todo respeito, essa alternativa subestima os custos.",
+        "category": "expression"
+      },
+      {
+        "word": "Isso implica que...",
+        "translation": "Eso implica que...",
+        "example": "Isso implica que teremos de revisar o orçamento.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -9299,6 +10140,137 @@
         "word": "monitorare",
         "translation": "supervisar",
         "example": "A discussão esclarece o papel de monitorare."
+      },
+      {
+        "word": "sustentabilidade",
+        "translation": "sustentabilidad",
+        "example": "A sustentabilidade deve nortear as políticas públicas."
+      },
+      {
+        "word": "equidade",
+        "translation": "equidad",
+        "example": "Garantir equidade entre regiões é um desafio."
+      },
+      {
+        "word": "efetividade",
+        "translation": "efectividad",
+        "example": "Precisamos comprovar a efetividade do programa."
+      },
+      {
+        "word": "viabilidade",
+        "translation": "viabilidad",
+        "example": "Avaliaram a viabilidade financeira do projeto."
+      },
+      {
+        "word": "implementação",
+        "translation": "implementación",
+        "example": "A implementação demandou ajustes legais."
+      },
+      {
+        "word": "avaliação",
+        "translation": "evaluación",
+        "example": "A avaliação será concluída em seis meses."
+      },
+      {
+        "word": "custo-benefício",
+        "translation": "costo-beneficio",
+        "example": "O estudo de custo-benefício orientou a decisão."
+      },
+      {
+        "word": "indicadores",
+        "translation": "indicadores",
+        "example": "Os indicadores mostram tendência de queda."
+      },
+      {
+        "word": "transparência",
+        "translation": "transparencia",
+        "example": "Exigimos transparência na prestação de contas."
+      },
+      {
+        "word": "participação cidadã",
+        "translation": "participación ciudadana",
+        "example": "A participação cidadã fortalece as decisões."
+      },
+      {
+        "word": "governança",
+        "translation": "gobernanza",
+        "example": "A governança intersetorial é essencial."
+      },
+      {
+        "word": "alocação de recursos",
+        "translation": "asignación de recursos",
+        "example": "A alocação de recursos foi revista."
+      },
+      {
+        "word": "políticas redistributivas",
+        "translation": "políticas redistributivas",
+        "example": "As políticas redistributivas reduziram desigualdades."
+      },
+      {
+        "word": "análise custo-eficácia",
+        "translation": "análisis costo-eficacia",
+        "example": "Realizaram uma análise custo-eficácia antes de decidir."
+      },
+      {
+        "word": "aderência",
+        "translation": "adhesión",
+        "example": "A aderência ao protocolo foi satisfatória."
+      },
+      {
+        "word": "mitigação",
+        "translation": "mitigación",
+        "example": "As medidas de mitigação reduziram os riscos."
+      },
+      {
+        "word": "externalidade",
+        "translation": "externalidad",
+        "example": "A externalidade negativa foi internalizada."
+      },
+      {
+        "word": "marco regulatório",
+        "translation": "marco regulatorio",
+        "example": "Precisamos atualizar o marco regulatório."
+      },
+      {
+        "word": "escalabilidade",
+        "translation": "escalabilidad",
+        "example": "Estudaram a escalabilidade da solução."
+      },
+      {
+        "word": "Pode me ajudar?",
+        "translation": "¿Puede ayudarme?",
+        "example": "Pode me ajudar a revisar a proposta?",
+        "category": "expression"
+      },
+      {
+        "word": "Na minha opinião",
+        "translation": "En mi opinión",
+        "example": "Na minha opinião, devemos priorizar a educação.",
+        "category": "expression"
+      },
+      {
+        "word": "Concordo plenamente",
+        "translation": "Estoy completamente de acuerdo",
+        "example": "Concordo plenamente com a avaliação baseada em dados.",
+        "category": "expression"
+      },
+      {
+        "word": "Tenho uma dúvida",
+        "translation": "Tengo una duda",
+        "example": "Tenho uma dúvida sobre o método de coleta.",
+        "category": "expression"
+      },
+      {
+        "word": "Com licença",
+        "translation": "Con permiso",
+        "example": "Com licença, posso fazer uma pergunta?",
+        "category": "expression"
+      },
+      {
+        "word": "Como consequência",
+        "translation": "Como consecuencia",
+        "example": "Como consequência, houve redução na desigualdade.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -12646,6 +13618,102 @@
           "juntos · conversación",
           "juntos · práctica"
         ]
+      },
+      {
+        "word": "alimentação",
+        "translation": "alimentación",
+        "example": "Uma alimentação equilibrada melhora a saúde."
+      },
+      {
+        "word": "hidratação",
+        "translation": "hidratación",
+        "example": "Beber água regularmente ajuda na hidratação."
+      },
+      {
+        "word": "sono",
+        "translation": "sueño",
+        "example": "Ter uma boa noite de sono é essencial."
+      },
+      {
+        "word": "meditação",
+        "translation": "meditación",
+        "example": "Faço meditação por dez minutos todas as manhãs."
+      },
+      {
+        "word": "estresse",
+        "translation": "estrés",
+        "example": "O estresse afeta o sono e a concentração."
+      },
+      {
+        "word": "ansiedade",
+        "translation": "ansiedad",
+        "example": "Ela aprendeu técnicas para controlar a ansiedade."
+      },
+      {
+        "word": "rotina",
+        "translation": "rutina",
+        "example": "Criar uma rotina facilita mudanças de hábito."
+      },
+      {
+        "word": "alongamento",
+        "translation": "estiramiento",
+        "example": "O alongamento antes do exercício ajuda a prevenir lesões."
+      },
+      {
+        "word": "postura",
+        "translation": "postura",
+        "example": "Manter boa postura reduz dores nas costas."
+      },
+      {
+        "word": "caminhada",
+        "translation": "caminata",
+        "example": "Uma caminhada diária melhora o humor."
+      },
+      {
+        "word": "respiração",
+        "translation": "respiración",
+        "example": "Praticar respiração profunda reduz a ansiedade."
+      },
+      {
+        "word": "autocuidado",
+        "translation": "autocuidado",
+        "example": "O autocuidado inclui descansar e dizer não quando preciso."
+      },
+      {
+        "word": "Você pode me ajudar?",
+        "translation": "¿Puedes ayudarme?",
+        "example": "Você pode me ajudar a organizar minha rotina?",
+        "category": "expression"
+      },
+      {
+        "word": "Na minha opinião",
+        "translation": "En mi opinión",
+        "example": "Na minha opinião, começar devagar é melhor.",
+        "category": "expression"
+      },
+      {
+        "word": "Concordo com você",
+        "translation": "Estoy de acuerdo contigo",
+        "example": "Concordo com você; isso facilita o progresso.",
+        "category": "expression"
+      },
+      {
+        "word": "Tenho uma dúvida",
+        "translation": "Tengo una duda",
+        "example": "Tenho uma dúvida sobre os horários de exercícios.",
+        "category": "expression"
+      },
+      {
+        "word": "Com licença",
+        "translation": "Con permiso / Disculpe",
+        "example": "Com licença, posso entrar?",
+        "category": "expression"
+      },
+      {
+        "word": "Por causa de",
+        "translation": "a causa de",
+        "example": "Por causa do trabalho, não dormi bem.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -13735,6 +14803,137 @@
         "word": "migliorare",
         "translation": "mejorar",
         "example": "A discussão esclarece o papel de migliorare."
+      },
+      {
+        "word": "competência",
+        "translation": "competencia",
+        "example": "A competência técnica é essencial para a vaga."
+      },
+      {
+        "word": "habilidade",
+        "translation": "habilidad",
+        "example": "Ele demonstrou habilidade para resolver conflitos."
+      },
+      {
+        "word": "qualificação",
+        "translation": "cualificación",
+        "example": "As qualificações exigidas estão no anúncio."
+      },
+      {
+        "word": "formação",
+        "translation": "formación",
+        "example": "Sua formação é em engenharia."
+      },
+      {
+        "word": "perfil profissional",
+        "translation": "perfil profesional",
+        "example": "O perfil profissional combina com a cultura da empresa."
+      },
+      {
+        "word": "referência",
+        "translation": "referencia",
+        "example": "Posso fornecer referências do meu último emprego."
+      },
+      {
+        "word": "responsabilidade",
+        "translation": "responsabilidad",
+        "example": "A responsabilidade pela entrega é do coordenador."
+      },
+      {
+        "word": "liderança",
+        "translation": "liderazgo",
+        "example": "Ela tem experiência em liderança de equipes."
+      },
+      {
+        "word": "autonomia",
+        "translation": "autonomía",
+        "example": "A função exige autonomia na tomada de decisões."
+      },
+      {
+        "word": "proatividade",
+        "translation": "proactividad",
+        "example": "Demonstrou proatividade ao propor melhorias."
+      },
+      {
+        "word": "resiliência",
+        "translation": "resiliencia",
+        "example": "A resiliência ajuda a lidar com pressão."
+      },
+      {
+        "word": "feedback",
+        "translation": "retroalimentación",
+        "example": "Peça feedback ao seu gestor após o projeto."
+      },
+      {
+        "word": "desempenho",
+        "translation": "desempeño",
+        "example": "Avaliam o desempenho trimestralmente."
+      },
+      {
+        "word": "avaliação",
+        "translation": "evaluación",
+        "example": "A avaliação incluiu entrevistas e testes."
+      },
+      {
+        "word": "entrevista de emprego",
+        "translation": "entrevista de trabajo",
+        "example": "A entrevista de emprego foi marcada para sexta."
+      },
+      {
+        "word": "pretensão salarial",
+        "translation": "pretensión salarial",
+        "example": "Qual é a sua pretensão salarial?"
+      },
+      {
+        "word": "benefícios",
+        "translation": "beneficios",
+        "example": "Oferecemos benefícios como vale-refeição."
+      },
+      {
+        "word": "vaga",
+        "translation": "vacante",
+        "example": "A vaga exige fluência em inglês."
+      },
+      {
+        "word": "currículo",
+        "translation": "currículum",
+        "example": "Atualize seu currículo antes de candidatar-se."
+      },
+      {
+        "word": "Na minha opinião",
+        "translation": "En mi opinión",
+        "example": "Na minha opinião, devemos priorizar o projeto X.",
+        "category": "expression"
+      },
+      {
+        "word": "Pode me ajudar com isso?",
+        "translation": "¿Me puede ayudar con esto?",
+        "example": "Pode me ajudar com isso? Preciso preparar a apresentação.",
+        "category": "expression"
+      },
+      {
+        "word": "Concordo plenamente",
+        "translation": "Estoy totalmente de acuerdo",
+        "example": "Concordo plenamente com a proposta apresentada.",
+        "category": "expression"
+      },
+      {
+        "word": "Tenho uma dúvida",
+        "translation": "Tengo una duda",
+        "example": "Tenho uma dúvida sobre os prazos do projeto.",
+        "category": "expression"
+      },
+      {
+        "word": "Com licença",
+        "translation": "Disculpe / Con permiso",
+        "example": "Com licença, posso fazer uma pergunta rápida?",
+        "category": "expression"
+      },
+      {
+        "word": "Por esse motivo",
+        "translation": "Por ese motivo",
+        "example": "Por esse motivo, recomendo outra abordagem.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -13848,6 +15047,135 @@
         "word": "equità",
         "translation": "equidad",
         "example": "A discussão esclarece o papel de equità."
+      },
+      {
+        "word": "consenso",
+        "translation": "consenso",
+        "example": "Chegamos a um consenso após debater todas as opções."
+      },
+      {
+        "word": "consequencialismo",
+        "translation": "consecuencialismo",
+        "example": "O consequencialismo avalia ações pelos seus resultados."
+      },
+      {
+        "word": "deontologia",
+        "translation": "deontología",
+        "example": "A deontologia enfatiza deveres e regras profissionais."
+      },
+      {
+        "word": "autonomia",
+        "translation": "autonomía",
+        "example": "Respeitar a autonomia do paciente é fundamental."
+      },
+      {
+        "word": "transparência",
+        "translation": "transparencia",
+        "example": "Exigimos transparência nas decisões institucionais."
+      },
+      {
+        "word": "conflito de interesses",
+        "translation": "conflicto de intereses",
+        "example": "O pesquisador declarou um conflito de interesses."
+      },
+      {
+        "word": "responsabilidade",
+        "translation": "responsabilidad",
+        "example": "Assumo a responsabilidade pelas consequências."
+      },
+      {
+        "word": "imparcialidade",
+        "translation": "imparcialidad",
+        "example": "Um juiz deve mostrar imparcialidade em todas as fases."
+      },
+      {
+        "word": "moralidade",
+        "translation": "moralidad",
+        "example": "A moralidade das ações varia conforme a cultura."
+      },
+      {
+        "word": "ética aplicada",
+        "translation": "ética aplicada",
+        "example": "A ética aplicada orienta decisões em situações concretas."
+      },
+      {
+        "word": "normativa",
+        "translation": "normativa",
+        "example": "A normativa da instituição define procedimentos éticos."
+      },
+      {
+        "word": "avaliação crítica",
+        "translation": "evaluación crítica",
+        "example": "A avaliação crítica dos argumentos é essencial."
+      },
+      {
+        "word": "argumentação",
+        "translation": "argumentación",
+        "example": "A argumentação sólida convenceu o comitê."
+      },
+      {
+        "word": "consistência",
+        "translation": "consistencia",
+        "example": "Precisamos garantir a consistência das políticas."
+      },
+      {
+        "word": "pragmatismo",
+        "translation": "pragmatismo",
+        "example": "O pragmatismo na decisão privilegiou resultados imediatos."
+      },
+      {
+        "word": "ponderação",
+        "translation": "ponderación",
+        "example": "Houve uma ponderação cuidadosa dos prós e contras."
+      },
+      {
+        "word": "viés",
+        "translation": "sesgo",
+        "example": "Devemos identificar qualquer viés nos dados."
+      },
+      {
+        "word": "jurisprudência",
+        "translation": "jurisprudencia",
+        "example": "A jurisprudência recente influenciou a decisão."
+      },
+      {
+        "word": "deontológico",
+        "translation": "deontológico",
+        "example": "O código de conduta deontológico proíbe esse comportamento."
+      },
+      {
+        "word": "ética profissional",
+        "translation": "ética profesional",
+        "example": "A ética profissional exige confidencialidade."
+      },
+      {
+        "word": "Pode me ajudar a avaliar isto?",
+        "translation": "¿Puede ayudarme a evaluar esto?",
+        "example": "Pode me ajudar a avaliar isto antes da reunião?",
+        "category": "expression"
+      },
+      {
+        "word": "Na minha opinião",
+        "translation": "En mi opinión",
+        "example": "Na minha opinião, devemos priorizar a transparência.",
+        "category": "expression"
+      },
+      {
+        "word": "Concordo plenamente",
+        "translation": "Concuerdo plenamente",
+        "example": "Concordo plenamente com os argumentos apresentados.",
+        "category": "expression"
+      },
+      {
+        "word": "Tenho dúvidas quanto a isso",
+        "translation": "Tengo dudas al respecto",
+        "example": "Tenho dúvidas quanto a isso; precisamos de mais dados.",
+        "category": "expression"
+      },
+      {
+        "word": "legitimidade",
+        "translation": "legitimidad",
+        "example": "A legitimidade do processo foi questionada publicamente."
       }
     ],
     "dialogue": [],
@@ -13961,6 +15289,136 @@
         "word": "cautela",
         "translation": "cautela",
         "example": "A discussão esclarece o papel de cautela."
+      },
+      {
+        "word": "plausível",
+        "translation": "plausible",
+        "example": "A explicação parece plausível, mas carece de provas."
+      },
+      {
+        "word": "verossímil",
+        "translation": "verosímil",
+        "example": "O relato não me soa verossímil."
+      },
+      {
+        "word": "conjectura",
+        "translation": "conjetura",
+        "example": "A conclusão permanece uma conjectura até novas evidências."
+      },
+      {
+        "word": "corroboração",
+        "translation": "corroboración",
+        "example": "A corroboração dos dados fortaleceu a hipótese."
+      },
+      {
+        "word": "corroborar",
+        "translation": "corroborar",
+        "example": "Precisamos corroborar essas afirmações com fontes independentes."
+      },
+      {
+        "word": "inferência",
+        "translation": "inferencia",
+        "example": "A inferência foi feita a partir de amostras limitadas."
+      },
+      {
+        "word": "dedução",
+        "translation": "deducción",
+        "example": "A dedução lógica levou à hipótese alternativa."
+      },
+      {
+        "word": "indução",
+        "translation": "inducción",
+        "example": "A teoria surgiu por indução de casos observados."
+      },
+      {
+        "word": "falácia",
+        "translation": "falacia",
+        "example": "Identificaram uma falácia no raciocínio apresentado."
+      },
+      {
+        "word": "viés",
+        "translation": "sesgo",
+        "example": "O estudo pode estar sujeito a viés de confirmação."
+      },
+      {
+        "word": "parcialidade",
+        "translation": "parcialidad",
+        "example": "A parcialidade do autor compromete a análise crítica."
+      },
+      {
+        "word": "consistência",
+        "translation": "consistencia",
+        "example": "A consistência dos resultados é um ponto a favor da teoria."
+      },
+      {
+        "word": "coerência",
+        "translation": "coherencia",
+        "example": "A coerência interna do relatório é essencial para aceitá-lo."
+      },
+      {
+        "word": "contradição",
+        "translation": "contradicción",
+        "example": "Há uma contradição entre os dados e a conclusão proposta."
+      },
+      {
+        "word": "pressupor",
+        "translation": "presuponer",
+        "example": "Não devemos pressupor intenções sem evidência clara."
+      },
+      {
+        "word": "plausibilidade",
+        "translation": "plausibilidad",
+        "example": "A plausibilidade do argumento será avaliada pelo comitê."
+      },
+      {
+        "word": "suscitar",
+        "translation": "suscitar",
+        "example": "O relatório suscitou várias questões metodológicas."
+      },
+      {
+        "word": "mitigar",
+        "translation": "mitigar",
+        "example": "Foram adotadas medidas para mitigar possíveis vieses."
+      },
+      {
+        "word": "criterioso",
+        "translation": "criterioso",
+        "example": "Seja criterioso ao escolher as evidências a citar."
+      },
+      {
+        "word": "embasamento",
+        "translation": "fundamento",
+        "example": "O embasamento teórico do artigo é sólido."
+      },
+      {
+        "word": "Poderia me esclarecer um ponto?",
+        "translation": "¿Podría aclararme un punto?",
+        "example": "Poderia me esclarecer um ponto antes de continuarmos?",
+        "category": "expression"
+      },
+      {
+        "word": "A meu ver,",
+        "translation": "A mi juicio,",
+        "example": "A meu ver, os dados não justificam a conclusão final.",
+        "category": "expression"
+      },
+      {
+        "word": "Concordo em parte.",
+        "translation": "Estoy de acuerdo en parte.",
+        "example": "Concordo em parte, embora faltem evidências replicáveis.",
+        "category": "expression"
+      },
+      {
+        "word": "Tenho sérias reservas.",
+        "translation": "Tengo serias reservas.",
+        "example": "Tenho sérias reservas sobre a validade das medições.",
+        "category": "expression"
+      },
+      {
+        "word": "Se me permite,",
+        "translation": "Si me permite,",
+        "example": "Se me permite, gostaria de acrescentar um ponto metodológico.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -17308,6 +18766,102 @@
           "juntos · conversación",
           "juntos · práctica"
         ]
+      },
+      {
+        "word": "mídia",
+        "translation": "medios (de comunicación)",
+        "example": "A mídia publicou vários artigos sobre o evento."
+      },
+      {
+        "word": "reportagem",
+        "translation": "reportaje",
+        "example": "Li uma reportagem interessante hoje."
+      },
+      {
+        "word": "entrevista",
+        "translation": "entrevista",
+        "example": "A entrevista foi ao ar ontem."
+      },
+      {
+        "word": "veracidade",
+        "translation": "veracidad",
+        "example": "É importante checar a veracidade das informações."
+      },
+      {
+        "word": "viés",
+        "translation": "sesgo",
+        "example": "O texto mostra um viés claro."
+      },
+      {
+        "word": "análise",
+        "translation": "análisis",
+        "example": "Preciso de uma análise mais profunda."
+      },
+      {
+        "word": "crítica",
+        "translation": "crítica",
+        "example": "A crítica do filme foi positiva."
+      },
+      {
+        "word": "divulgação",
+        "translation": "divulgación",
+        "example": "A divulgação do relatório foi rápida."
+      },
+      {
+        "word": "sensacionalismo",
+        "translation": "sensacionalismo",
+        "example": "Evite o sensacionalismo nas notícias."
+      },
+      {
+        "word": "imparcial",
+        "translation": "imparcial",
+        "example": "O jornal tentou ser imparcial."
+      },
+      {
+        "word": "fonte primária",
+        "translation": "fuente primaria",
+        "example": "Usei a fonte primária para confirmar os fatos."
+      },
+      {
+        "word": "editorial",
+        "translation": "editorial",
+        "example": "O editorial defende mudanças culturais."
+      },
+      {
+        "word": "Na minha opinião",
+        "translation": "en mi opinión",
+        "example": "Na minha opinião, a cultura local é muito rica.",
+        "category": "expression"
+      },
+      {
+        "word": "Você pode me ajudar?",
+        "translation": "¿puedes ayudarme?",
+        "example": "Você pode me ajudar a encontrar a fonte?",
+        "category": "expression"
+      },
+      {
+        "word": "Concordo com você",
+        "translation": "concuerdo contigo",
+        "example": "Concordo com você sobre a importância da educação.",
+        "category": "expression"
+      },
+      {
+        "word": "Tenho dúvidas",
+        "translation": "tengo dudas",
+        "example": "Tenho dúvidas sobre a veracidade dessa notícia.",
+        "category": "expression"
+      },
+      {
+        "word": "Desculpe, pode repetir?",
+        "translation": "Disculpe, ¿puede repetir?",
+        "example": "Desculpe, pode repetir o nome do autor?",
+        "category": "expression"
+      },
+      {
+        "word": "Depende do contexto",
+        "translation": "depende del contexto",
+        "example": "Depende do contexto, a opinião pode variar.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -18397,6 +19951,137 @@
         "word": "abitudine",
         "translation": "hábito",
         "example": "A discussão esclarece o papel de abitudine."
+      },
+      {
+        "word": "consumo",
+        "translation": "consumo",
+        "example": "O consumo de plástico aumentou nos últimos anos."
+      },
+      {
+        "word": "reciclagem",
+        "translation": "reciclaje",
+        "example": "A reciclagem reduz a quantidade de lixo no aterro."
+      },
+      {
+        "word": "emissão",
+        "translation": "emisión",
+        "example": "A emissão de gases deve ser monitorada para reduzir impactos climáticos."
+      },
+      {
+        "word": "pegada de carbono",
+        "translation": "huella de carbono",
+        "example": "Reduzir viagens de avião diminui a pegada de carbono pessoal."
+      },
+      {
+        "word": "renovável",
+        "translation": "renovable",
+        "example": "Energia renovável vem do sol, vento ou água."
+      },
+      {
+        "word": "poluição",
+        "translation": "contaminación",
+        "example": "A poluição do ar afeta a qualidade de vida nas cidades."
+      },
+      {
+        "word": "compostagem",
+        "translation": "compostaje",
+        "example": "A compostagem transforma restos de comida em adubo útil."
+      },
+      {
+        "word": "durável",
+        "translation": "duradero",
+        "example": "Produtos duráveis reduzem a necessidade de substituição constante."
+      },
+      {
+        "word": "eficiência",
+        "translation": "eficiencia",
+        "example": "A eficiência energética diminui o consumo de eletricidade."
+      },
+      {
+        "word": "reciclar",
+        "translation": "reciclar",
+        "example": "Precisamos reciclar vidro e papel corretamente."
+      },
+      {
+        "word": "reduzir",
+        "translation": "reducir",
+        "example": "Reduzir embalagens é uma estratégia eficaz para menos lixo."
+      },
+      {
+        "word": "reutilizar",
+        "translation": "reutilizar",
+        "example": "Reutilizar sacolas evita o descarte de plástico."
+      },
+      {
+        "word": "biodegradável",
+        "translation": "biodegradable",
+        "example": "Material biodegradável se decompõe mais rapidamente no solo."
+      },
+      {
+        "word": "ecossistema",
+        "translation": "ecosistema",
+        "example": "A preservação do ecossistema garante serviços essenciais à sociedade."
+      },
+      {
+        "word": "desperdício",
+        "translation": "desperdicio",
+        "example": "O desperdício de alimentos poderia ser evitado com melhor planejamento."
+      },
+      {
+        "word": "ciclo de vida",
+        "translation": "ciclo de vida",
+        "example": "Avaliar o ciclo de vida ajuda a escolher produtos menos poluentes."
+      },
+      {
+        "word": "agricultura sustentável",
+        "translation": "agricultura sostenible",
+        "example": "A agricultura sustentável protege o solo e a biodiversidade."
+      },
+      {
+        "word": "consumo consciente",
+        "translation": "consumo consciente",
+        "example": "O consumo consciente prioriza qualidade em vez de quantidade."
+      },
+      {
+        "word": "logística reversa",
+        "translation": "logística inversa",
+        "example": "A logística reversa facilita a devolução e reciclagem de embalagens."
+      },
+      {
+        "word": "Você pode me ajudar?",
+        "translation": "¿Puedes ayudarme?",
+        "example": "Você pode me ajudar a separar o lixo corretamente?",
+        "category": "expression"
+      },
+      {
+        "word": "Na minha opinião",
+        "translation": "En mi opinión",
+        "example": "Na minha opinião, reduzir o uso de plástico é prioritário.",
+        "category": "expression"
+      },
+      {
+        "word": "Concordo plenamente",
+        "translation": "Concuerdo plenamente",
+        "example": "Concordo plenamente, é preciso políticas públicas eficazes.",
+        "category": "expression"
+      },
+      {
+        "word": "Tenho uma dúvida",
+        "translation": "Tengo una duda",
+        "example": "Tenho uma dúvida sobre como comprovar a origem sustentável do produto.",
+        "category": "expression"
+      },
+      {
+        "word": "Com licença, posso falar?",
+        "translation": "Con permiso, ¿puedo hablar?",
+        "example": "Com licença, posso falar sobre alternativas mais sustentáveis?",
+        "category": "expression"
+      },
+      {
+        "word": "Isso acontece porque",
+        "translation": "Esto sucede porque",
+        "example": "Isso acontece porque muitos produtos têm embalagens desnecessárias.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -18510,6 +20195,136 @@
         "word": "contrasto",
         "translation": "contraste",
         "example": "A discussão esclarece o papel de contrasto."
+      },
+      {
+        "word": "justificar",
+        "translation": "justificar",
+        "example": "É preciso justificar a escolha com argumentos sólidos."
+      },
+      {
+        "word": "argumento",
+        "translation": "argumento",
+        "example": "O argumento principal baseia-se em evidências históricas."
+      },
+      {
+        "word": "evidência",
+        "translation": "evidencia",
+        "example": "Apresentei a evidência que sustenta a interpretação."
+      },
+      {
+        "word": "coerência",
+        "translation": "coherencia",
+        "example": "A coerência interna da obra fortalece minha leitura."
+      },
+      {
+        "word": "persuasão",
+        "translation": "persuasión",
+        "example": "A persuasão do crítico convenceu parte do público."
+      },
+      {
+        "word": "contexto",
+        "translation": "contexto",
+        "example": "O contexto social explica algumas escolhas estéticas."
+      },
+      {
+        "word": "subtexto",
+        "translation": "subtexto",
+        "example": "O subtexto revela intenções não ditas pelo autor."
+      },
+      {
+        "word": "nuance",
+        "translation": "matiz",
+        "example": "Notei uma nuance irônica no diálogo."
+      },
+      {
+        "word": "metáfora",
+        "translation": "metáfora",
+        "example": "A metáfora central liga imagem e sentimento."
+      },
+      {
+        "word": "análise",
+        "translation": "análisis",
+        "example": "A análise detalhada expõe contradições."
+      },
+      {
+        "word": "hipótese",
+        "translation": "hipótesis",
+        "example": "Levantei a hipótese de uma leitura política."
+      },
+      {
+        "word": "contraponto",
+        "translation": "contrapunto",
+        "example": "O contraponto entre cor e som é intencional."
+      },
+      {
+        "word": "fundamentar",
+        "translation": "fundamentar",
+        "example": "Devemos fundamentar nossa conclusão em fontes confiáveis."
+      },
+      {
+        "word": "demonstrar",
+        "translation": "demostrar",
+        "example": "O autor demonstra sua tese por meio de exemplos."
+      },
+      {
+        "word": "inferência",
+        "translation": "inferencia",
+        "example": "A inferência do leitor enriquece a interpretação."
+      },
+      {
+        "word": "pressuposto",
+        "translation": "supuesto",
+        "example": "Esse pressuposto precisa ser questionado."
+      },
+      {
+        "word": "plausível",
+        "translation": "plausible",
+        "example": "Uma interpretação plausível deve explicar as falhas."
+      },
+      {
+        "word": "implicação",
+        "translation": "implicación",
+        "example": "As implicações éticas não podem ser ignoradas."
+      },
+      {
+        "word": "ambiguidade",
+        "translation": "ambigüedad",
+        "example": "A ambiguidade do final permite leituras diversas."
+      },
+      {
+        "word": "perspectiva",
+        "translation": "perspectiva",
+        "example": "Considerar outra perspectiva enriquece a análise."
+      },
+      {
+        "word": "Na minha opinião,",
+        "translation": "En mi opinión,",
+        "example": "Na minha opinião, a cena final sintetiza o tema.",
+        "category": "expression"
+      },
+      {
+        "word": "Concordo plenamente",
+        "translation": "Concuerdo plenamente",
+        "example": "Concordo plenamente com a interpretação apresentada.",
+        "category": "expression"
+      },
+      {
+        "word": "Tenho dúvidas sobre...",
+        "translation": "Tengo dudas sobre...",
+        "example": "Tenho dúvidas sobre a afirmação de que tudo é simbólico.",
+        "category": "expression"
+      },
+      {
+        "word": "Poderia esclarecer isto?",
+        "translation": "¿Podría aclarar esto?",
+        "example": "Poderia esclarecer isto com um exemplo concreto?",
+        "category": "expression"
+      },
+      {
+        "word": "Isso se deve a...",
+        "translation": "Esto se debe a...",
+        "example": "Isso se deve a escolhas formais do artista.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -18623,6 +20438,137 @@
         "word": "appartenenza",
         "translation": "pertenencia",
         "example": "A discussão esclarece o papel de appartenenza."
+      },
+      {
+        "word": "autobiografia",
+        "translation": "autobiografía",
+        "example": "A autobiografia revela as escolhas do narrador."
+      },
+      {
+        "word": "identidade",
+        "translation": "identidad",
+        "example": "A identidade se constrói a partir de histórias vividas."
+      },
+      {
+        "word": "narrador",
+        "translation": "narrador",
+        "example": "O narrador não é necessariamente confiável."
+      },
+      {
+        "word": "perspectiva",
+        "translation": "perspectiva",
+        "example": "Mudar a perspectiva altera a interpretação dos fatos."
+      },
+      {
+        "word": "subjetividade",
+        "translation": "subjetividad",
+        "example": "A subjetividade influencia a seleção de memórias."
+      },
+      {
+        "word": "confiabilidade",
+        "translation": "confiabilidad",
+        "example": "Avaliei a confiabilidade do testemunho."
+      },
+      {
+        "word": "verossimilhança",
+        "translation": "verosimilitud",
+        "example": "A verossimilhança do relato convence o leitor."
+      },
+      {
+        "word": "fidedigno",
+        "translation": "fiable",
+        "example": "Um narrador fidedigno evita omissões intencionais."
+      },
+      {
+        "word": "reconstrução",
+        "translation": "reconstrucción",
+        "example": "A reconstrução do passado exige fontes cruzadas."
+      },
+      {
+        "word": "rememorar",
+        "translation": "recordar",
+        "example": "Ao rememorar, ela adicionou detalhes emotivos."
+      },
+      {
+        "word": "oralidade",
+        "translation": "oralidad",
+        "example": "A oralidade preserva as variações de voz."
+      },
+      {
+        "word": "testemunho",
+        "translation": "testimonio",
+        "example": "O testemunho emocionado comoveu a plateia."
+      },
+      {
+        "word": "legado",
+        "translation": "legado",
+        "example": "O legado cultural molda identidades coletivas."
+      },
+      {
+        "word": "rastro",
+        "translation": "rastro",
+        "example": "O rastro das lembranças aparece em suas cartas."
+      },
+      {
+        "word": "fragmento",
+        "translation": "fragmento",
+        "example": "Cada fragmento revela uma versão diferente."
+      },
+      {
+        "word": "coerência",
+        "translation": "coherencia",
+        "example": "A coerência interna sustenta a credibilidade do texto."
+      },
+      {
+        "word": "hipótese",
+        "translation": "hipótesis",
+        "example": "Levantei a hipótese de que havia uma omissão."
+      },
+      {
+        "word": "intertextualidade",
+        "translation": "intertextualidad",
+        "example": "A intertextualidade enriquece a interpretação do discurso."
+      },
+      {
+        "word": "autenticidade",
+        "translation": "autenticidad",
+        "example": "Buscamos a autenticidade nas memórias relatadas."
+      },
+      {
+        "word": "Você pode me ajudar a avaliar este exemplo?",
+        "translation": "¿Puedes ayudarme a evaluar este ejemplo?",
+        "example": "Você pode me ajudar a avaliar este exemplo?",
+        "category": "expression"
+      },
+      {
+        "word": "Na minha opinião, esse trecho evidencia a identidade do narrador.",
+        "translation": "En mi opinión, ese pasaje evidencia la identidad del narrador.",
+        "example": "Na minha opinião, esse trecho evidencia a identidade do narrador.",
+        "category": "expression"
+      },
+      {
+        "word": "Concordo plenamente com o seu argumento.",
+        "translation": "Concuerdo plenamente con tu argumento.",
+        "example": "Concordo plenamente com o seu argumento.",
+        "category": "expression"
+      },
+      {
+        "word": "Tenho dúvidas sobre a veracidade desta afirmação.",
+        "translation": "Tengo dudas sobre la veracidad de esta afirmación.",
+        "example": "Tenho dúvidas sobre a veracidade desta afirmação.",
+        "category": "expression"
+      },
+      {
+        "word": "Com licença, poderia esclarecer a sua justificativa?",
+        "translation": "Con permiso, ¿podrías aclarar tu justificación?",
+        "example": "Com licença, poderia esclarecer a sua justificativa?",
+        "category": "expression"
+      },
+      {
+        "word": "Por essa razão, concluí que o exemplo é convincente.",
+        "translation": "Por esa razón, concluí que el ejemplo es convincente.",
+        "example": "Por essa razão, concluí que o exemplo é convincente.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -21970,6 +23916,100 @@
           "juntos · conversación",
           "juntos · práctica"
         ]
+      },
+      {
+        "word": "lixo",
+        "translation": "basura",
+        "example": "Coloque o lixo no contêiner correto."
+      },
+      {
+        "word": "reciclagem",
+        "translation": "reciclaje",
+        "example": "A reciclagem reduz o consumo de recursos."
+      },
+      {
+        "word": "compostagem",
+        "translation": "compostaje",
+        "example": "Fazemos compostagem dos restos de comida."
+      },
+      {
+        "word": "separar",
+        "translation": "separar",
+        "example": "É importante separar o plástico do papel."
+      },
+      {
+        "word": "poluição",
+        "translation": "contaminación",
+        "example": "A poluição do ar afeta a saúde das pessoas."
+      },
+      {
+        "word": "entulho",
+        "translation": "escombros",
+        "example": "O entulho deve ser levado ao ponto de recolha."
+      },
+      {
+        "word": "saneamento",
+        "translation": "saneamiento",
+        "example": "O bairro precisa de melhores sistemas de saneamento."
+      },
+      {
+        "word": "cooperativa",
+        "translation": "cooperativa",
+        "example": "A cooperativa organiza a coleta seletiva."
+      },
+      {
+        "word": "praça",
+        "translation": "plaza",
+        "example": "A praça precisa de mais árvores."
+      },
+      {
+        "word": "calçada",
+        "translation": "acera",
+        "example": "A calçada foi ocupada por lixo e caixas."
+      },
+      {
+        "word": "denúncia",
+        "translation": "denuncia",
+        "example": "Você pode fazer uma denúncia ao serviço municipal."
+      },
+      {
+        "word": "sensibilizar",
+        "translation": "sensibilizar/concientizar",
+        "example": "Queremos sensibilizar os vizinhos para reciclar."
+      },
+      {
+        "word": "plantio",
+        "translation": "plantación",
+        "example": "O plantio de árvores começou no sábado."
+      },
+      {
+        "word": "mutirão",
+        "translation": "jornada comunitaria",
+        "example": "Fizemos um mutirão para limpar o terreno."
+      },
+      {
+        "word": "Você pode me ajudar?",
+        "translation": "¿Puedes ayudarme?",
+        "example": "Você pode me ajudar com a limpeza do terreno?",
+        "category": "expression"
+      },
+      {
+        "word": "Na minha opinião",
+        "translation": "En mi opinión",
+        "example": "Na minha opinião, precisamos de mais lixeiras.",
+        "category": "expression"
+      },
+      {
+        "word": "Concordo",
+        "translation": "Estoy de acuerdo",
+        "example": "Concordo, precisamos agir logo.",
+        "category": "expression"
+      },
+      {
+        "word": "Tenho uma dúvida",
+        "translation": "Tengo una duda",
+        "example": "Tenho uma dúvida sobre a coleta de recicláveis.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -23059,6 +25099,136 @@
         "word": "pregiudizio",
         "translation": "sesgo",
         "example": "A discussão esclarece o papel de pregiudizio."
+      },
+      {
+        "word": "jornalismo",
+        "translation": "periodismo",
+        "example": "O jornalismo investigativo revelou novas provas."
+      },
+      {
+        "word": "reportagem",
+        "translation": "reportaje",
+        "example": "A reportagem destacou os impactos ambientais."
+      },
+      {
+        "word": "apuração",
+        "translation": "averiguación",
+        "example": "A apuração dos fatos levou semanas."
+      },
+      {
+        "word": "checagem",
+        "translation": "verificación",
+        "example": "A checagem de dados confirma a declaração."
+      },
+      {
+        "word": "desinformação",
+        "translation": "desinformación",
+        "example": "Desinformação circulou rapidamente nas redes."
+      },
+      {
+        "word": "boato",
+        "translation": "rumor",
+        "example": "O boato não tinha fontes confiáveis."
+      },
+      {
+        "word": "viés",
+        "translation": "sesgo",
+        "example": "O viés da cobertura influenciou a opinião pública."
+      },
+      {
+        "word": "parcialidade",
+        "translation": "parcialidad",
+        "example": "Reconhecer a parcialidade ajuda na análise crítica."
+      },
+      {
+        "word": "imparcialidade",
+        "translation": "imparcialidad",
+        "example": "A imparcialidade é um princípio jornalístico."
+      },
+      {
+        "word": "informante anônimo",
+        "translation": "informante anónimo",
+        "example": "O informante anônimo forneceu documentos importantes."
+      },
+      {
+        "word": "credibilidade",
+        "translation": "credibilidad",
+        "example": "A credibilidade do veículo caiu após o erro."
+      },
+      {
+        "word": "contexto",
+        "translation": "contexto",
+        "example": "Sem contexto, a citação fica distorcida."
+      },
+      {
+        "word": "síntese",
+        "translation": "síntesis",
+        "example": "Faça uma síntese dos argumentos principais."
+      },
+      {
+        "word": "argumentação",
+        "translation": "argumentación",
+        "example": "A argumentação do artigo é clara e bem estruturada."
+      },
+      {
+        "word": "evidência",
+        "translation": "evidencia",
+        "example": "Precisamos de evidência antes de tirar conclusões."
+      },
+      {
+        "word": "origem",
+        "translation": "origen",
+        "example": "Verifique a origem da informação antes de compartilhar."
+      },
+      {
+        "word": "algoritmo",
+        "translation": "algoritmo",
+        "example": "O algoritmo prioriza conteúdos populares nas timelines."
+      },
+      {
+        "word": "manipulação",
+        "translation": "manipulación",
+        "example": "A manipulação de imagens compromete a veracidade."
+      },
+      {
+        "word": "transparência",
+        "translation": "transparencia",
+        "example": "A transparência das fontes aumenta a confiança."
+      },
+      {
+        "word": "plataforma",
+        "translation": "plataforma",
+        "example": "A plataforma divulgou uma nota sobre o caso."
+      },
+      {
+        "word": "Você pode me ajudar a verificar isso?",
+        "translation": "¿Me puedes ayudar a verificar esto?",
+        "example": "Você pode me ajudar a verificar isso?",
+        "category": "expression"
+      },
+      {
+        "word": "Na minha opinião,",
+        "translation": "En mi opinión,",
+        "example": "Na minha opinião, a matéria carece de fontes.",
+        "category": "expression"
+      },
+      {
+        "word": "Concordo com você.",
+        "translation": "Estoy de acuerdo contigo.",
+        "example": "Concordo com você sobre a importância da checagem.",
+        "category": "expression"
+      },
+      {
+        "word": "Tenho dúvidas sobre a fonte.",
+        "translation": "Tengo dudas sobre la fuente.",
+        "example": "Tenho dúvidas sobre a fonte citada no artigo.",
+        "category": "expression"
+      },
+      {
+        "word": "Por favor, poderia citar a origem?",
+        "translation": "Por favor, ¿podrías citar el origen?",
+        "example": "Por favor, poderia citar a origem dos dados?",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -23172,6 +25342,139 @@
         "word": "limite",
         "translation": "límite",
         "example": "A discussão esclarece o papel de limite."
+      },
+      {
+        "word": "metodologia",
+        "translation": "metodología",
+        "example": "A metodologia adotada no estudo é explicada no capítulo dois."
+      },
+      {
+        "word": "variável",
+        "translation": "variable",
+        "example": "Controlamos a variável para reduzir a interferência."
+      },
+      {
+        "word": "amostragem",
+        "translation": "muestreo",
+        "example": "A amostragem foi estratificada por região."
+      },
+      {
+        "word": "validade",
+        "translation": "validez",
+        "example": "A validade dos instrumentos foi testada antes do levantamento."
+      },
+      {
+        "word": "confiabilidade",
+        "translation": "confiabilidad",
+        "example": "A confiabilidade do questionário foi avaliada com alfa de Cronbach."
+      },
+      {
+        "word": "viés",
+        "translation": "sesgo",
+        "example": "Devemos minimizar o viés na seleção da amostra."
+      },
+      {
+        "word": "replicação",
+        "translation": "replicación",
+        "example": "A replicação do experimento confirma os resultados."
+      },
+      {
+        "word": "análise",
+        "translation": "análisis",
+        "example": "A análise dos dados revelou padrões consistentes."
+      },
+      {
+        "word": "síntese",
+        "translation": "síntesis",
+        "example": "A síntese das evidências resume os pontos principais."
+      },
+      {
+        "word": "inferência",
+        "translation": "inferencia",
+        "example": "A inferência estatística sustentou nossas conclusões."
+      },
+      {
+        "word": "correlação",
+        "translation": "correlación",
+        "example": "Encontramos uma correlação moderada entre as variáveis."
+      },
+      {
+        "word": "causalidade",
+        "translation": "causalidad",
+        "example": "Estabelecer causalidade exige controles rigorosos."
+      },
+      {
+        "word": "instrumento",
+        "translation": "instrumento",
+        "example": "O instrumento de coleta foi validado previamente."
+      },
+      {
+        "word": "estudo piloto",
+        "translation": "estudio piloto",
+        "example": "Realizamos um estudo piloto para ajustar o protocolo."
+      },
+      {
+        "word": "protocolo",
+        "translation": "protocolo",
+        "example": "O protocolo descreve as etapas da pesquisa."
+      },
+      {
+        "word": "codificação",
+        "translation": "codificación",
+        "example": "A codificação dos dados qualitativos foi feita em pares."
+      },
+      {
+        "word": "lacuna",
+        "translation": "brecha",
+        "example": "Identificamos uma lacuna na literatura sobre o tema."
+      },
+      {
+        "word": "Pode me ajudar com os dados?",
+        "translation": "¿Puede ayudarme con los datos?",
+        "example": "Pode me ajudar com os dados?",
+        "category": "expression"
+      },
+      {
+        "word": "Na minha opinião,",
+        "translation": "En mi opinión,",
+        "example": "Na minha opinião, o desenho não controla todas as variáveis.",
+        "category": "expression"
+      },
+      {
+        "word": "Concordo plenamente.",
+        "translation": "Estoy totalmente de acuerdo.",
+        "example": "Concordo plenamente.",
+        "category": "expression"
+      },
+      {
+        "word": "Tenho dúvidas quanto à...",
+        "translation": "Tengo dudas respecto a...",
+        "example": "Tenho dúvidas quanto à interpretação dos resultados.",
+        "category": "expression"
+      },
+      {
+        "word": "Por favor, poderia esclarecer?",
+        "translation": "Por favor, ¿podría aclarar?",
+        "example": "Por favor, poderia esclarecer?",
+        "category": "expression"
+      },
+      {
+        "word": "Devido à...",
+        "translation": "Debido a...",
+        "example": "Devido à amostragem limitada, os resultados são preliminares.",
+        "category": "expression"
+      },
+      {
+        "word": "Como consequência,",
+        "translation": "Como consecuencia,",
+        "example": "Como consequência, revisamos as conclusões.",
+        "category": "expression"
+      },
+      {
+        "word": "Ao mesmo tempo,",
+        "translation": "Al mismo tiempo,",
+        "example": "Ao mesmo tempo, consideramos fatores externos.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -23285,6 +25588,139 @@
         "word": "responsabilità",
         "translation": "responsabilidad",
         "example": "A discussão esclarece o papel de responsabilità."
+      },
+      {
+        "word": "jurisprudência",
+        "translation": "jurisprudencia",
+        "example": "A jurisprudência do tribunal favorece a tese do autor."
+      },
+      {
+        "word": "constitucionalidade",
+        "translation": "constitucionalidad",
+        "example": "O juiz questionou a constitucionalidade da norma."
+      },
+      {
+        "word": "indenização",
+        "translation": "indemnización",
+        "example": "A vítima pleiteou indenização pelos danos morais."
+      },
+      {
+        "word": "ônus",
+        "translation": "carga de la prueba",
+        "example": "O ônus da prova cabe à parte demandante."
+      },
+      {
+        "word": "responsabilização",
+        "translation": "responsabilización",
+        "example": "A responsabilização do gestor ocorreu após apuração dos fatos."
+      },
+      {
+        "word": "negligência",
+        "translation": "negligencia",
+        "example": "A negligência profissional configurou culpa grave."
+      },
+      {
+        "word": "dolo",
+        "translation": "dolo",
+        "example": "Foi comprovado o dolo na celebração do contrato."
+      },
+      {
+        "word": "prescrição",
+        "translation": "prescripción",
+        "example": "A ação foi extinta por prescrição."
+      },
+      {
+        "word": "recurso",
+        "translation": "recurso",
+        "example": "O advogado interpôs recurso ao tribunal superior."
+      },
+      {
+        "word": "acórdão",
+        "translation": "fallo colegiado",
+        "example": "O acórdão confirmou a sentença de primeira instância."
+      },
+      {
+        "word": "preceito",
+        "translation": "precepto",
+        "example": "O preceito constitucional é claro sobre a matéria."
+      },
+      {
+        "word": "prerrogativa",
+        "translation": "prerrogativa",
+        "example": "O defensor alegou prerrogativas institucionais."
+      },
+      {
+        "word": "coibir",
+        "translation": "cohibir; reprimir",
+        "example": "As normas visam coibir práticas abusivas."
+      },
+      {
+        "word": "compliance",
+        "translation": "cumplimiento normativo",
+        "example": "A empresa investiu em compliance para prevenir irregularidades."
+      },
+      {
+        "word": "sanção",
+        "translation": "sanción",
+        "example": "A sanção administrativa pode ser aplicada ao infrator."
+      },
+      {
+        "word": "vinculante",
+        "translation": "vinculante",
+        "example": "A decisão tem caráter vinculante para as instâncias inferiores."
+      },
+      {
+        "word": "imputação",
+        "translation": "imputación",
+        "example": "A imputação dos fatos ocorreu após investigação preliminar."
+      },
+      {
+        "word": "Pode me auxiliar com este caso?",
+        "translation": "¿Puede ayudarme con este caso?",
+        "example": "Pode me auxiliar com este caso? Preciso revisar os documentos antes da audiência.",
+        "category": "expression"
+      },
+      {
+        "word": "Na minha opinião,",
+        "translation": "En mi opinión,",
+        "example": "Na minha opinião, a prova documental é insuficiente.",
+        "category": "expression"
+      },
+      {
+        "word": "Concordo plenamente.",
+        "translation": "Concuerdo plenamente.",
+        "example": "Concordo plenamente com a interpretação do relator.",
+        "category": "expression"
+      },
+      {
+        "word": "Tenho dúvidas quanto à aplicabilidade.",
+        "translation": "Tengo dudas sobre su aplicabilidad.",
+        "example": "Tenho dúvidas quanto à aplicabilidade da norma ao caso concreto.",
+        "category": "expression"
+      },
+      {
+        "word": "Com todo respeito,",
+        "translation": "Con todo respeto,",
+        "example": "Com todo respeito, discordo da conclusão apresentada.",
+        "category": "expression"
+      },
+      {
+        "word": "Em virtude de",
+        "translation": "En virtud de / Debido a",
+        "example": "Em virtude de nova prova, reabre-se o processo.",
+        "category": "expression"
+      },
+      {
+        "word": "Como consequência,",
+        "translation": "Como consecuencia,",
+        "example": "Como consequência, impôs-se a reparação integral.",
+        "category": "expression"
+      },
+      {
+        "word": "No prazo estabelecido,",
+        "translation": "Dentro del plazo establecido,",
+        "example": "No prazo estabelecido, a parte apresentou as alegações finais.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -26632,6 +29068,102 @@
           "juntos · conversación",
           "juntos · práctica"
         ]
+      },
+      {
+        "word": "saudade",
+        "translation": "nostalgia",
+        "example": "Sinto saudade dos verões da infância."
+      },
+      {
+        "word": "lembrança",
+        "translation": "recuerdo",
+        "example": "Guardei uma lembrança daquele dia."
+      },
+      {
+        "word": "lembrar",
+        "translation": "recordar",
+        "example": "É fácil lembrar dos detalhes agora."
+      },
+      {
+        "word": "relato",
+        "translation": "relato",
+        "example": "Ela fez um relato emocionante."
+      },
+      {
+        "word": "biografia",
+        "translation": "biografía",
+        "example": "Ele escreveu a biografia da avó."
+      },
+      {
+        "word": "testemunho",
+        "translation": "testimonio",
+        "example": "O testemunho trouxe mais informações."
+      },
+      {
+        "word": "arquivo",
+        "translation": "archivo",
+        "example": "Encontrei fotos no arquivo da família."
+      },
+      {
+        "word": "época",
+        "translation": "época",
+        "example": "Naquela época, morávamos na cidade."
+      },
+      {
+        "word": "celebração",
+        "translation": "celebración",
+        "example": "Fizemos uma celebração simples."
+      },
+      {
+        "word": "reencontro",
+        "translation": "reencuentro",
+        "example": "O reencontro foi emocionante."
+      },
+      {
+        "word": "registro",
+        "translation": "registro",
+        "example": "Conservamos um registro dos acontecimentos."
+      },
+      {
+        "word": "detalhe",
+        "translation": "detalle",
+        "example": "Preste atenção em cada detalhe."
+      },
+      {
+        "word": "Você pode me ajudar?",
+        "translation": "¿Puedes ayudarme?",
+        "example": "Você pode me ajudar?",
+        "category": "expression"
+      },
+      {
+        "word": "Na minha opinião,",
+        "translation": "En mi opinión,",
+        "example": "Na minha opinião, essa história é verdadeira.",
+        "category": "expression"
+      },
+      {
+        "word": "Concordo com você.",
+        "translation": "Estoy de acuerdo contigo.",
+        "example": "Concordo com você sobre as lembranças.",
+        "category": "expression"
+      },
+      {
+        "word": "Tenho uma dúvida.",
+        "translation": "Tengo una duda.",
+        "example": "Tenho uma dúvida sobre as datas.",
+        "category": "expression"
+      },
+      {
+        "word": "Com licença.",
+        "translation": "Con permiso.",
+        "example": "Com licença, posso ver suas fotos?",
+        "category": "expression"
+      },
+      {
+        "word": "Por isso,",
+        "translation": "Por eso,",
+        "example": "Ele guardou as cartas; por isso, lembramos melhor do passado.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -27721,6 +30253,135 @@
         "word": "consiglio",
         "translation": "consejo",
         "example": "A discussão esclarece o papel de consiglio."
+      },
+      {
+        "word": "objetivo",
+        "translation": "objetivo",
+        "example": "Meu objetivo é reduzir o estresse em três meses."
+      },
+      {
+        "word": "meta",
+        "translation": "meta",
+        "example": "Estabelecemos metas realistas para melhorar a saúde."
+      },
+      {
+        "word": "prioridade",
+        "translation": "prioridad",
+        "example": "A prioridade é dormir bem todas as noites."
+      },
+      {
+        "word": "estratégia",
+        "translation": "estrategia",
+        "example": "Precisamos de uma estratégia para aumentar a atividade física."
+      },
+      {
+        "word": "justificar",
+        "translation": "justificar",
+        "example": "Ele precisou justificar a escolha do tratamento."
+      },
+      {
+        "word": "argumento",
+        "translation": "argumento",
+        "example": "Apresentei um argumento baseado em estudos recentes."
+      },
+      {
+        "word": "evidência",
+        "translation": "evidencia",
+        "example": "Há evidências de que a atividade regular melhora o humor."
+      },
+      {
+        "word": "benefício",
+        "translation": "beneficio",
+        "example": "O maior benefício é a melhora na qualidade de vida."
+      },
+      {
+        "word": "risco",
+        "translation": "riesgo",
+        "example": "Todo tratamento envolve algum risco."
+      },
+      {
+        "word": "consequência",
+        "translation": "consecuencia",
+        "example": "A consequência do sedentarismo pode ser a obesidade."
+      },
+      {
+        "word": "adesão",
+        "translation": "adherencia",
+        "example": "A adesão ao plano é fundamental para o sucesso."
+      },
+      {
+        "word": "motivação",
+        "translation": "motivación",
+        "example": "A motivação dos pacientes aumentou com o apoio."
+      },
+      {
+        "word": "suporte",
+        "translation": "apoyo",
+        "example": "O suporte da família é essencial."
+      },
+      {
+        "word": "acompanhamento",
+        "translation": "seguimiento",
+        "example": "O acompanhamento médico foi agendado mensalmente."
+      },
+      {
+        "word": "diagnóstico",
+        "translation": "diagnóstico",
+        "example": "O diagnóstico foi concluído após exames."
+      },
+      {
+        "word": "tratamento",
+        "translation": "tratamiento",
+        "example": "O tratamento inclui terapia e mudanças de hábito."
+      },
+      {
+        "word": "eficácia",
+        "translation": "eficacia",
+        "example": "A eficácia do programa foi comprovada."
+      },
+      {
+        "word": "custo-benefício",
+        "translation": "costo-beneficio",
+        "example": "Avaliamos o custo-benefício da intervenção."
+      },
+      {
+        "word": "hábito",
+        "translation": "hábito",
+        "example": "Criar um hábito de caminhada diária ajuda."
+      },
+      {
+        "word": "sono",
+        "translation": "sueño",
+        "example": "Melhorar o sono reduz a fadiga."
+      },
+      {
+        "word": "alimentação",
+        "translation": "alimentación",
+        "example": "A alimentação balanceada é essencial para a saúde."
+      },
+      {
+        "word": "Você pode me ajudar?",
+        "translation": "¿Me puede ayudar?",
+        "example": "Você pode me ajudar a decidir qual objetivo priorizar?",
+        "category": "expression"
+      },
+      {
+        "word": "Na minha opinião",
+        "translation": "En mi opinión",
+        "example": "Na minha opinião, a prevenção deveria ser prioridade.",
+        "category": "expression"
+      },
+      {
+        "word": "Concordo plenamente",
+        "translation": "Estoy completamente de acuerdo",
+        "example": "Concordo plenamente com essa estratégia de prevenção.",
+        "category": "expression"
+      },
+      {
+        "word": "Tenho dúvidas",
+        "translation": "Tengo dudas",
+        "example": "Tenho dúvidas sobre a eficácia desse método.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -27834,6 +30495,136 @@
         "word": "sostenere",
         "translation": "sostener",
         "example": "A discussão esclarece o papel de sostenere."
+      },
+      {
+        "word": "Você pode me ajudar?",
+        "translation": "¿Puedes ayudarme?",
+        "example": "Você pode me ajudar a analisar estes números?",
+        "category": "expression"
+      },
+      {
+        "word": "Por favor, poderia explicar?",
+        "translation": "Por favor, ¿podría explicar?",
+        "example": "Por favor, poderia explicar o critério usado?",
+        "category": "expression"
+      },
+      {
+        "word": "Na minha opinião,",
+        "translation": "En mi opinión,",
+        "example": "Na minha opinião, devemos cortar custos onde for possível.",
+        "category": "expression"
+      },
+      {
+        "word": "Concordo plenamente.",
+        "translation": "Concuerdo plenamente.",
+        "example": "Concordo plenamente com a proposta apresentada.",
+        "category": "expression"
+      },
+      {
+        "word": "Tenho uma dúvida.",
+        "translation": "Tengo una duda.",
+        "example": "Tenho uma dúvida sobre a estimativa de receita.",
+        "category": "expression"
+      },
+      {
+        "word": "objetivo",
+        "translation": "objetivo",
+        "example": "Nosso objetivo é reduzir custos em 10% até o fim do trimestre."
+      },
+      {
+        "word": "orçamento",
+        "translation": "presupuesto",
+        "example": "O orçamento precisa contemplar reservas para imprevistos."
+      },
+      {
+        "word": "fluxo de caixa",
+        "translation": "flujo de caja",
+        "example": "O fluxo de caixa mostra quando teremos liquidez."
+      },
+      {
+        "word": "liquidez",
+        "translation": "liquidez",
+        "example": "A liquidez da empresa garante pagamentos em dia."
+      },
+      {
+        "word": "solvência",
+        "translation": "solvencia",
+        "example": "A solvência indica a capacidade de honrar dívidas."
+      },
+      {
+        "word": "margem operacional",
+        "translation": "margen operativo",
+        "example": "A margem operacional precisa ser otimizada."
+      },
+      {
+        "word": "custo de oportunidade",
+        "translation": "costo de oportunidad",
+        "example": "Devemos avaliar o custo de oportunidade de cada projeto."
+      },
+      {
+        "word": "rentabilidade",
+        "translation": "rentabilidad",
+        "example": "A rentabilidade esperada justifica a aplicação de recursos."
+      },
+      {
+        "word": "alocação",
+        "translation": "asignación",
+        "example": "A alocação eficiente de recursos reduz desperdício."
+      },
+      {
+        "word": "diversificação",
+        "translation": "diversificación",
+        "example": "A diversificação da carteira reduz risco."
+      },
+      {
+        "word": "projeção",
+        "translation": "proyección",
+        "example": "A projeção de vendas foi revisada para cima."
+      },
+      {
+        "word": "cenário",
+        "translation": "escenario",
+        "example": "Consideramos um cenário conservador nas estimativas."
+      },
+      {
+        "word": "contingência",
+        "translation": "contingencia",
+        "example": "Criamos um plano de contingência para perdas inesperadas."
+      },
+      {
+        "word": "viabilidade",
+        "translation": "viabilidad",
+        "example": "A viabilidade do projeto depende do fluxo de caixa."
+      },
+      {
+        "word": "sustentabilidade",
+        "translation": "sustentabilidad",
+        "example": "A sustentabilidade financeira é prioridade no planejamento."
+      },
+      {
+        "word": "eficiência",
+        "translation": "eficiencia",
+        "example": "Melhorar a eficiência operacional reduz custos."
+      },
+      {
+        "word": "indicador-chave",
+        "translation": "indicador clave",
+        "example": "O indicador-chave será a margem líquida."
+      },
+      {
+        "word": "compromisso",
+        "translation": "compromiso",
+        "example": "Assumimos o compromisso de reduzir desperdício em seis meses."
+      },
+      {
+        "word": "negociação",
+        "translation": "negociación",
+        "example": "A negociação com fornecedores reduziu custos."
+      },
+      {
+        "word": "participação de mercado",
+        "translation": "participación de mercado",
+        "example": "A participação de mercado aumentou após a campanha."
       }
     ],
     "dialogue": [],
@@ -27947,6 +30738,138 @@
         "word": "intervenire",
         "translation": "intervenir",
         "example": "A discussão esclarece o papel de intervenire."
+      },
+      {
+        "word": "desigualdade",
+        "translation": "desigualdad",
+        "example": "A desigualdade social aumenta a tensão política."
+      },
+      {
+        "word": "renda",
+        "translation": "ingresos",
+        "example": "A renda per capita varia entre regiões."
+      },
+      {
+        "word": "indicador",
+        "translation": "indicador",
+        "example": "Usamos o índice de Gini como indicador de desigualdade."
+      },
+      {
+        "word": "tributação",
+        "translation": "tributación",
+        "example": "A tributação progressiva pode reduzir a desigualdade."
+      },
+      {
+        "word": "progressividade",
+        "translation": "progresividad (fiscal)",
+        "example": "A progressividade do imposto é essencial para justiça fiscal."
+      },
+      {
+        "word": "concentração",
+        "translation": "concentración",
+        "example": "A concentração de riqueza prejudica a mobilidade social."
+      },
+      {
+        "word": "redistribuição",
+        "translation": "redistribución",
+        "example": "A redistribuição de recursos visa reduzir a pobreza extrema."
+      },
+      {
+        "word": "equidade",
+        "translation": "equidad",
+        "example": "Políticas públicas devem priorizar a equidade de oportunidades."
+      },
+      {
+        "word": "pobreza",
+        "translation": "pobreza",
+        "example": "Erradicar a pobreza é um objetivo de longo prazo."
+      },
+      {
+        "word": "pobreza multidimensional",
+        "translation": "pobreza multidimensional",
+        "example": "Analisar pobreza multidimensional revela carências além da renda."
+      },
+      {
+        "word": "mobilidade social",
+        "translation": "movilidad social",
+        "example": "A educação é crucial para melhorar a mobilidade social."
+      },
+      {
+        "word": "bem-estar",
+        "translation": "bienestar",
+        "example": "O bem-estar da população é métrica de sucesso de políticas."
+      },
+      {
+        "word": "exclusão social",
+        "translation": "exclusión social",
+        "example": "A exclusão social limita o acesso a serviços essenciais."
+      },
+      {
+        "word": "subsídio",
+        "translation": "subsidio",
+        "example": "O subsídio ao transporte beneficia famílias de baixa renda."
+      },
+      {
+        "word": "assistência social",
+        "translation": "asistencia social",
+        "example": "A assistência social protege grupos vulneráveis."
+      },
+      {
+        "word": "política fiscal",
+        "translation": "política fiscal",
+        "example": "A política fiscal deve equilibrar crescimento e equidade."
+      },
+      {
+        "word": "setor informal",
+        "translation": "sector informal",
+        "example": "Muitos trabalhadores dependem do setor informal."
+      },
+      {
+        "word": "investimento público",
+        "translation": "inversión pública",
+        "example": "O investimento público em educação é prioridade."
+      },
+      {
+        "word": "Poderia me ajudar a analisar esses dados?",
+        "translation": "¿Podría ayudarme a analizar estos datos?",
+        "example": "Poderia me ajudar a analisar esses dados antes da reunião?",
+        "category": "expression"
+      },
+      {
+        "word": "Na minha opinião",
+        "translation": "En mi opinión",
+        "example": "Na minha opinião, devemos priorizar políticas redistributivas.",
+        "category": "expression"
+      },
+      {
+        "word": "Concordo parcialmente",
+        "translation": "Concuerdo parcialmente",
+        "example": "Concordo parcialmente, mas faltam evidências empíricas.",
+        "category": "expression"
+      },
+      {
+        "word": "Tenho dúvidas quanto à",
+        "translation": "Tengo dudas respecto a",
+        "example": "Tenho dúvidas quanto à eficácia desse mecanismo de subsídio.",
+        "category": "expression"
+      },
+      {
+        "word": "Por favor, poderia esclarecer",
+        "translation": "Por favor, podría aclarar",
+        "example": "Por favor, poderia esclarecer o critério de seleção dos beneficiários?",
+        "category": "expression"
+      },
+      {
+        "word": "Devido à",
+        "translation": "Debido a",
+        "example": "Devido à crise econômica, a arrecadação caiu significativamente.",
+        "category": "expression"
+      },
+      {
+        "word": "Como resultado",
+        "translation": "Como resultado",
+        "example": "Como resultado, observamos redução nas taxas de pobreza.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -31294,6 +34217,102 @@
           "juntos · conversación",
           "juntos · práctica"
         ]
+      },
+      {
+        "word": "planejamento",
+        "translation": "planificación",
+        "example": "O planejamento é essencial para o projeto."
+      },
+      {
+        "word": "prazo",
+        "translation": "plazo",
+        "example": "O prazo final é na próxima sexta-feira."
+      },
+      {
+        "word": "equipe",
+        "translation": "equipo",
+        "example": "Nossa equipe se reuniu hoje de manhã."
+      },
+      {
+        "word": "reunião",
+        "translation": "reunión",
+        "example": "Marcamos uma reunião para discutir ideias."
+      },
+      {
+        "word": "líder",
+        "translation": "líder",
+        "example": "O líder delegou as tarefas."
+      },
+      {
+        "word": "voluntário",
+        "translation": "voluntario",
+        "example": "Precisamos de um voluntário para organizar o evento."
+      },
+      {
+        "word": "divisão",
+        "translation": "división",
+        "example": "A divisão do trabalho foi justa."
+      },
+      {
+        "word": "cronograma",
+        "translation": "cronograma",
+        "example": "Vou atualizar o cronograma semanalmente."
+      },
+      {
+        "word": "recurso",
+        "translation": "recurso",
+        "example": "Temos recursos limitados para este projeto."
+      },
+      {
+        "word": "comunicação",
+        "translation": "comunicación",
+        "example": "A comunicação entre os membros melhorou."
+      },
+      {
+        "word": "feedback",
+        "translation": "retroalimentación",
+        "example": "Ela pediu feedback sobre a proposta."
+      },
+      {
+        "word": "prioridade",
+        "translation": "prioridad",
+        "example": "A prioridade agora é terminar a pesquisa."
+      },
+      {
+        "word": "Pode me ajudar?",
+        "translation": "¿Puedes ayudarme?",
+        "example": "Pode me ajudar com esta tarefa, por favor?",
+        "category": "expression"
+      },
+      {
+        "word": "Eu acho que...",
+        "translation": "Yo creo que...",
+        "example": "Eu acho que devemos focar no objetivo.",
+        "category": "expression"
+      },
+      {
+        "word": "Concordo",
+        "translation": "De acuerdo",
+        "example": "Concordo, é uma boa solução.",
+        "category": "expression"
+      },
+      {
+        "word": "Tenho uma dúvida",
+        "translation": "Tengo una duda",
+        "example": "Tenho uma dúvida sobre o cronograma.",
+        "category": "expression"
+      },
+      {
+        "word": "Por favor",
+        "translation": "Por favor",
+        "example": "Por favor, envie o relatório até amanhã.",
+        "category": "expression"
+      },
+      {
+        "word": "Por isso",
+        "translation": "Por eso",
+        "example": "Por isso, precisamos ajustar o plano.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -32383,6 +35402,137 @@
         "word": "dialogo",
         "translation": "diálogo",
         "example": "A discussão esclarece o papel de dialogo."
+      },
+      {
+        "word": "patrimônio",
+        "translation": "patrimonio",
+        "example": "O patrimônio histórico precisa ser preservado."
+      },
+      {
+        "word": "identidade",
+        "translation": "identidad",
+        "example": "A identidade cultural varia entre regiões."
+      },
+      {
+        "word": "diversidade",
+        "translation": "diversidad",
+        "example": "A diversidade enriquece o debate público."
+      },
+      {
+        "word": "herança",
+        "translation": "herencia",
+        "example": "A herança indígena é visível na culinária local."
+      },
+      {
+        "word": "comunidade",
+        "translation": "comunidad",
+        "example": "A comunidade organizou um evento sobre memória."
+      },
+      {
+        "word": "tradição",
+        "translation": "tradición",
+        "example": "A tradição se mantém nas festas populares."
+      },
+      {
+        "word": "representação",
+        "translation": "representación",
+        "example": "A representação no cinema ajuda a construir identidade."
+      },
+      {
+        "word": "pluralidade",
+        "translation": "pluralidad",
+        "example": "A pluralidade de opiniões fortalece as decisões."
+      },
+      {
+        "word": "integração",
+        "translation": "integración",
+        "example": "A integração entre gerações é essencial."
+      },
+      {
+        "word": "pertencimento",
+        "translation": "pertenencia",
+        "example": "O pertencimento influencia o engajamento social."
+      },
+      {
+        "word": "valorização",
+        "translation": "valoración",
+        "example": "A valorização das manifestações locais gera orgulho."
+      },
+      {
+        "word": "debate",
+        "translation": "debate",
+        "example": "O debate sobre identidade deve incluir jovens."
+      },
+      {
+        "word": "estereótipo",
+        "translation": "estereotipo",
+        "example": "Devemos questionar estereótipos culturais."
+      },
+      {
+        "word": "resistência",
+        "translation": "resistencia",
+        "example": "A resistência cultural protege saberes tradicionais."
+      },
+      {
+        "word": "assimilação",
+        "translation": "asimilación",
+        "example": "A assimilação pode levar à perda de línguas."
+      },
+      {
+        "word": "argumentação",
+        "translation": "argumentación",
+        "example": "Use argumentação clara ao comparar soluções."
+      },
+      {
+        "word": "evidência",
+        "translation": "evidencia",
+        "example": "Apresente evidências para sustentar sua proposta."
+      },
+      {
+        "word": "persuasão",
+        "translation": "persuasión",
+        "example": "A persuasão depende de dados e exemplos concretos."
+      },
+      {
+        "word": "critério",
+        "translation": "criterio",
+        "example": "Estabeleça critérios objetivos para a avaliação."
+      },
+      {
+        "word": "Você pode me ajudar?",
+        "translation": "¿Puedes ayudarme?",
+        "example": "Você pode me ajudar a avaliar essas propostas?",
+        "category": "expression"
+      },
+      {
+        "word": "Na minha opinião,",
+        "translation": "En mi opinión,",
+        "example": "Na minha opinião, a educação cultural deve ser prioridade.",
+        "category": "expression"
+      },
+      {
+        "word": "Concordo plenamente.",
+        "translation": "Estoy totalmente de acuerdo.",
+        "example": "Concordo plenamente com a proposta de inclusão.",
+        "category": "expression"
+      },
+      {
+        "word": "Tenho uma dúvida.",
+        "translation": "Tengo una duda.",
+        "example": "Tenho uma dúvida sobre os critérios apresentados.",
+        "category": "expression"
+      },
+      {
+        "word": "Com licença, posso intervir?",
+        "translation": "Con permiso, ¿puedo intervenir?",
+        "example": "Com licença, posso intervir para esclarecer um ponto?",
+        "category": "expression"
+      },
+      {
+        "word": "Como consequência,",
+        "translation": "Como consecuencia,",
+        "example": "Como consequência, muitas tradições foram esquecidas.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -32496,6 +35646,138 @@
         "word": "radice",
         "translation": "raíz",
         "example": "A discussão esclarece o papel de radice."
+      },
+      {
+        "word": "território",
+        "translation": "territorio",
+        "example": "O território da região inclui áreas urbanas e rurais."
+      },
+      {
+        "word": "legado cultural",
+        "translation": "legado cultural",
+        "example": "O legado cultural daquela comunidade é visível nas festas locais."
+      },
+      {
+        "word": "conservação",
+        "translation": "conservación",
+        "example": "A conservação dos monumentos exige planejamento contínuo."
+      },
+      {
+        "word": "restauro",
+        "translation": "restauración",
+        "example": "O restauro do casario histórico começou no ano passado."
+      },
+      {
+        "word": "intervenção",
+        "translation": "intervención",
+        "example": "A intervenção propõe integrar moradia social e áreas históricas."
+      },
+      {
+        "word": "zoneamento",
+        "translation": "zonificación",
+        "example": "O zoneamento define usos permitidos para cada área."
+      },
+      {
+        "word": "identidade territorial",
+        "translation": "identidad territorial",
+        "example": "A identidade territorial fica marcada pela arquitetura local."
+      },
+      {
+        "word": "lembranças comunitárias",
+        "translation": "recuerdos comunitarios",
+        "example": "As lembranças comunitárias fortalecem laços entre moradores."
+      },
+      {
+        "word": "narrativa",
+        "translation": "narrativa",
+        "example": "A narrativa histórica precisa incluir vozes marginalizadas."
+      },
+      {
+        "word": "arquivo",
+        "translation": "archivo",
+        "example": "O arquivo municipal guarda documentos essenciais para pesquisas."
+      },
+      {
+        "word": "testemunho",
+        "translation": "testimonio",
+        "example": "O testemunho dos moradores ajudou a entender a ocupação do lugar."
+      },
+      {
+        "word": "contraste",
+        "translation": "contraste",
+        "example": "O contraste entre antigo e novo é evidente no centro."
+      },
+      {
+        "word": "sustentabilidade",
+        "translation": "sustentabilidad",
+        "example": "A sustentabilidade orienta decisões sobre uso do solo."
+      },
+      {
+        "word": "coesão social",
+        "translation": "cohesión social",
+        "example": "Projetos culturais promovem a coesão social no bairro."
+      },
+      {
+        "word": "reabilitação",
+        "translation": "rehabilitación",
+        "example": "A reabilitação dos espaços públicos é prioridade para o plano."
+      },
+      {
+        "word": "avaliação de impacto",
+        "translation": "evaluación de impacto",
+        "example": "A avaliação de impacto considerou aspectos ambientais e culturais."
+      },
+      {
+        "word": "argumento",
+        "translation": "argumento",
+        "example": "Cada argumento deve estar bem fundamentado e documentado."
+      },
+      {
+        "word": "consenso",
+        "translation": "consenso",
+        "example": "Buscar consenso entre stakeholders é essencial."
+      },
+      {
+        "word": "Pode me ajudar a comparar essas propostas?",
+        "translation": "¿Puede ayudarme a comparar estas propuestas?",
+        "example": "Pode me ajudar a comparar essas propostas?",
+        "category": "expression"
+      },
+      {
+        "word": "Na minha opinião, esta solução é mais viável.",
+        "translation": "En mi opinión, esta solución es más viable.",
+        "example": "Na minha opinião, esta solução é mais viável.",
+        "category": "expression"
+      },
+      {
+        "word": "Concordo plenamente com esse argumento.",
+        "translation": "Concuerdo plenamente con ese argumento.",
+        "example": "Concordo plenamente com esse argumento.",
+        "category": "expression"
+      },
+      {
+        "word": "Tenho dúvidas quanto à eficácia dessa medida.",
+        "translation": "Tengo dudas sobre la eficacia de esa medida.",
+        "example": "Tenho dúvidas quanto à eficácia dessa medida.",
+        "category": "expression"
+      },
+      {
+        "word": "Por favor, explique os critérios usados.",
+        "translation": "Por favor, explique los criterios utilizados.",
+        "example": "Por favor, explique os critérios usados.",
+        "category": "expression"
+      },
+      {
+        "word": "Isso decorre de escolhas anteriores.",
+        "translation": "Esto se debe a elecciones anteriores.",
+        "example": "Isso decorre de escolhas anteriores.",
+        "category": "expression"
+      },
+      {
+        "word": "Como consequência, a área perdia funções tradicionais.",
+        "translation": "Como consecuencia, la zona perdía funciones tradicionales.",
+        "example": "Como consequência, a área perdia funções tradicionais.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -32609,6 +35891,137 @@
         "word": "interdipendenza",
         "translation": "interdependencia",
         "example": "A discussão esclarece o papel de interdipendenza."
+      },
+      {
+        "word": "sustentabilidade",
+        "translation": "sustentabilidad",
+        "example": "A sustentabilidade deve orientar qualquer estratégia de longo prazo."
+      },
+      {
+        "word": "resiliência",
+        "translation": "resiliencia",
+        "example": "A resiliência das comunidades costeiras é essencial diante das mudanças climáticas."
+      },
+      {
+        "word": "descarbonização",
+        "translation": "descarbonización",
+        "example": "A descarbonização da matriz energética reduz emissões de gases de efeito estufa."
+      },
+      {
+        "word": "energia renovável",
+        "translation": "energía renovable",
+        "example": "Investir em energia renovável diminui a dependência de combustíveis fósseis."
+      },
+      {
+        "word": "neutralidade de carbono",
+        "translation": "neutralidad de carbono",
+        "example": "Alcançar a neutralidade de carbono exige metas claras e monitoramento contínuo."
+      },
+      {
+        "word": "pegada de carbono",
+        "translation": "huella de carbono",
+        "example": "Devemos calcular a pegada de carbono antes de propor a solução."
+      },
+      {
+        "word": "economia circular",
+        "translation": "economía circular",
+        "example": "A economia circular prioriza reutilização e redução de resíduos."
+      },
+      {
+        "word": "governança climática",
+        "translation": "gobernanza climática",
+        "example": "Uma boa governança climática envolve transparência e participação pública."
+      },
+      {
+        "word": "incentivo fiscal",
+        "translation": "incentivo fiscal",
+        "example": "Um incentivo fiscal pode acelerar a adoção de tecnologias limpas."
+      },
+      {
+        "word": "avaliação de impacto",
+        "translation": "evaluación de impacto",
+        "example": "A avaliação de impacto considerou fatores sociais e ambientais."
+      },
+      {
+        "word": "compensação ambiental",
+        "translation": "compensación ambiental",
+        "example": "A compensação ambiental não substitui ações de redução de emissões."
+      },
+      {
+        "word": "externalidade",
+        "translation": "externalidad",
+        "example": "A poluição é uma externalidade que nem sempre aparece no balanço financeiro."
+      },
+      {
+        "word": "adaptação climática",
+        "translation": "adaptación climática",
+        "example": "A adaptação climática envolve redesenhar infraestruturas vulneráveis."
+      },
+      {
+        "word": "capacidade adaptativa",
+        "translation": "capacidad adaptativa",
+        "example": "Comunidades com maior capacidade adaptativa respondem melhor a extremos climáticos."
+      },
+      {
+        "word": "precaução",
+        "translation": "precaución",
+        "example": "O princípio da precaução recomenda medidas preventivas diante da incerteza."
+      },
+      {
+        "word": "trade-off",
+        "translation": "compensación",
+        "example": "Há um trade-off entre desenvolvimento econômico e conservação ambiental."
+      },
+      {
+        "word": "custos irrecuperáveis",
+        "translation": "costos hundidos",
+        "example": "Evitar custos irrecuperáveis exige planejamento de longo prazo."
+      },
+      {
+        "word": "monitoramento",
+        "translation": "monitoreo",
+        "example": "O monitoramento contínuo permite avaliar a eficácia das medidas."
+      },
+      {
+        "word": "indicador",
+        "translation": "indicador",
+        "example": "Precisamos definir indicadores claros para comparar soluções."
+      },
+      {
+        "word": "Poderia me ajudar a analisar os impactos?",
+        "translation": "¿Podría ayudarme a analizar los impactos?",
+        "example": "Poderia me ajudar a analisar os impactos deste projeto antes de decidir?",
+        "category": "expression"
+      },
+      {
+        "word": "A meu ver,",
+        "translation": "A mi parecer,",
+        "example": "A meu ver, a proposta carece de análise custo-benefício detalhada.",
+        "category": "expression"
+      },
+      {
+        "word": "Concordo plenamente.",
+        "translation": "Concuerdo plenamente.",
+        "example": "Concordo plenamente: a prevenção é mais eficiente que a remediação.",
+        "category": "expression"
+      },
+      {
+        "word": "Tenho reservas quanto a isso.",
+        "translation": "Tengo reservas respecto a eso.",
+        "example": "Tenho reservas quanto a isso porque os dados são insuficientes.",
+        "category": "expression"
+      },
+      {
+        "word": "Por gentileza, poderia expor os critérios?",
+        "translation": "Por favor, ¿podría exponer los criterios?",
+        "example": "Por gentileza, poderia expor os critérios usados na comparação?",
+        "category": "expression"
+      },
+      {
+        "word": "Como consequência,",
+        "translation": "Como consecuencia,",
+        "example": "Como consequência, aumentará a vulnerabilidade das comunidades ribeirinhas.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -35956,6 +39369,103 @@
           "juntos · conversación",
           "juntos · práctica"
         ]
+      },
+      {
+        "word": "aplicativo",
+        "translation": "aplicación (app)",
+        "example": "Instalei um aplicativo de finanças no celular."
+      },
+      {
+        "word": "privacidade",
+        "translation": "privacidad",
+        "example": "A privacidade dos meus dados me preocupa."
+      },
+      {
+        "word": "senha",
+        "translation": "contraseña",
+        "example": "Mudei a senha do meu e-mail ontem."
+      },
+      {
+        "word": "atualizar",
+        "translation": "actualizar",
+        "example": "Preciso atualizar o sistema antes de usar."
+      },
+      {
+        "word": "armazenamento",
+        "translation": "almacenamiento",
+        "example": "O armazenamento do celular está quase cheio."
+      },
+      {
+        "word": "nuvem",
+        "translation": "nube",
+        "example": "Salvei o documento na nuvem para acessar depois."
+      },
+      {
+        "word": "notificação",
+        "translation": "notificación",
+        "example": "Desativei as notificações durante a reunião."
+      },
+      {
+        "word": "viciar",
+        "translation": "volver adicto",
+        "example": "Jogos sem limite podem viciar os jovens."
+      },
+      {
+        "word": "ferramenta",
+        "translation": "herramienta",
+        "example": "Essa ferramenta facilita o trabalho em equipe."
+      },
+      {
+        "word": "segurança",
+        "translation": "seguridad",
+        "example": "A segurança online depende de senhas fortes."
+      },
+      {
+        "word": "consciência",
+        "translation": "conciencia",
+        "example": "Precisamos ter consciência do tempo de tela."
+      },
+      {
+        "word": "Você pode me ajudar?",
+        "translation": "¿Puedes ayudarme?",
+        "example": "Você pode me ajudar a configurar este aplicativo?",
+        "category": "expression"
+      },
+      {
+        "word": "Na minha opinião",
+        "translation": "En mi opinión",
+        "example": "Na minha opinião, limites são importantes para crianças.",
+        "category": "expression"
+      },
+      {
+        "word": "Concordo com você",
+        "translation": "Estoy de acuerdo contigo",
+        "example": "Concordo com você sobre os riscos das redes sociais.",
+        "category": "expression"
+      },
+      {
+        "word": "Tenho dúvidas",
+        "translation": "Tengo dudas",
+        "example": "Tenho dúvidas sobre a configuração de privacidade.",
+        "category": "expression"
+      },
+      {
+        "word": "Por favor, explique",
+        "translation": "Por favor, explíquelo",
+        "example": "Por favor, explique o motivo da atualização automática.",
+        "category": "expression"
+      },
+      {
+        "word": "Isso pode causar...",
+        "translation": "Esto puede causar...",
+        "example": "Isso pode causar perda de dados se não fizer backup.",
+        "category": "expression"
+      },
+      {
+        "word": "Podemos conversar mais tarde?",
+        "translation": "¿Podemos hablar más tarde?",
+        "example": "Podemos conversar mais tarde sobre a política de uso?",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -37045,6 +40555,135 @@
         "word": "rischio",
         "translation": "riesgo",
         "example": "A discussão esclarece o papel de rischio."
+      },
+      {
+        "word": "privacidade",
+        "translation": "privacidad",
+        "example": "A privacidade dos usuários deve ser respeitada."
+      },
+      {
+        "word": "segurança",
+        "translation": "seguridad",
+        "example": "A segurança dos dados é prioridade na nossa empresa."
+      },
+      {
+        "word": "criptografia",
+        "translation": "criptografía",
+        "example": "O aplicativo usa criptografia para proteger mensagens."
+      },
+      {
+        "word": "vigilância",
+        "translation": "vigilancia",
+        "example": "A vigilância em espaços públicos gera debates públicos."
+      },
+      {
+        "word": "coleta",
+        "translation": "recolección",
+        "example": "A coleta de dados exige justificativa clara."
+      },
+      {
+        "word": "anonimato",
+        "translation": "anonimato",
+        "example": "O anonimato pode proteger denunciantes vulneráveis."
+      },
+      {
+        "word": "rastreamento",
+        "translation": "rastreo",
+        "example": "O rastreamento por cookies acompanha a navegação."
+      },
+      {
+        "word": "consentimento",
+        "translation": "consentimiento",
+        "example": "O consentimento deve ser informado e explícito."
+      },
+      {
+        "word": "transparência",
+        "translation": "transparencia",
+        "example": "Exigimos transparência nas práticas de processamento de dados."
+      },
+      {
+        "word": "política de privacidade",
+        "translation": "política de privacidad",
+        "example": "Leia a política de privacidade antes de criar a conta."
+      },
+      {
+        "word": "lei de proteção de dados",
+        "translation": "ley de protección de datos",
+        "example": "A lei de proteção de dados estabelece multas para vazamentos."
+      },
+      {
+        "word": "cibersegurança",
+        "translation": "ciberseguridad",
+        "example": "Investimos em cibersegurança para prevenir ataques."
+      },
+      {
+        "word": "vazamento",
+        "translation": "filtración de datos",
+        "example": "Houve um vazamento de informações pessoais ontem."
+      },
+      {
+        "word": "vulnerabilidade",
+        "translation": "vulnerabilidad",
+        "example": "Encontraram uma vulnerabilidade no sistema e corrigiram."
+      },
+      {
+        "word": "auditoria",
+        "translation": "auditoría",
+        "example": "Realizamos uma auditoria anual de privacidade."
+      },
+      {
+        "word": "autenticação",
+        "translation": "autenticación",
+        "example": "Ative a autenticação de dois fatores na sua conta."
+      },
+      {
+        "word": "permissão",
+        "translation": "permiso",
+        "example": "O app solicita permissão para acessar a câmera."
+      },
+      {
+        "word": "anonimização",
+        "translation": "anonimización",
+        "example": "A anonimização dos registros reduz riscos legais."
+      },
+      {
+        "word": "algoritmo",
+        "translation": "algoritmo",
+        "example": "O algoritmo seleciona quais notícias aparecem no feed."
+      },
+      {
+        "word": "viés",
+        "translation": "sesgo",
+        "example": "É importante detectar viés nos conjuntos de dados."
+      },
+      {
+        "word": "monitoramento",
+        "translation": "monitoreo",
+        "example": "O monitoramento constante precisa de justificativa ética."
+      },
+      {
+        "word": "Pode me ajudar?",
+        "translation": "¿Puede ayudarme?",
+        "example": "Pode me ajudar a configurar as permissões do app?",
+        "category": "expression"
+      },
+      {
+        "word": "Na minha opinião",
+        "translation": "En mi opinión",
+        "example": "Na minha opinião, a criptografia é essencial para privacidade.",
+        "category": "expression"
+      },
+      {
+        "word": "Concordo",
+        "translation": "Estoy de acuerdo",
+        "example": "Concordo com a necessidade de transparência nas políticas.",
+        "category": "expression"
+      },
+      {
+        "word": "Tenho dúvidas",
+        "translation": "Tengo dudas",
+        "example": "Tenho dúvidas sobre como os dados serão compartilhados.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -37158,6 +40797,137 @@
         "word": "implicito",
         "translation": "implícito",
         "example": "A discussão esclarece o papel de implicito."
+      },
+      {
+        "word": "arguir",
+        "translation": "refutar",
+        "example": "Ele consegue arguir seus pontos com exemplos concretos."
+      },
+      {
+        "word": "contradizer",
+        "translation": "contradecir",
+        "example": "Não é prudente contradizer uma fonte sem evidências."
+      },
+      {
+        "word": "fundamentar",
+        "translation": "fundamentar",
+        "example": "Precisamos fundamentar a proposta em dados atuais."
+      },
+      {
+        "word": "coerente",
+        "translation": "coherente",
+        "example": "O texto apresenta um raciocínio coerente do início ao fim."
+      },
+      {
+        "word": "contraponto",
+        "translation": "contrapunto",
+        "example": "Apresentei um contraponto para enriquecer a discussão."
+      },
+      {
+        "word": "sustentar",
+        "translation": "sostener",
+        "example": "Ela soube sustentar a argumentação durante o debate."
+      },
+      {
+        "word": "evidência",
+        "translation": "evidencia",
+        "example": "A evidência disponível não confirma a hipótese inicial."
+      },
+      {
+        "word": "suposição",
+        "translation": "suposición",
+        "example": "A conclusão parte de uma suposição não verificada."
+      },
+      {
+        "word": "viés",
+        "translation": "sesgo",
+        "example": "Devemos identificar possíveis viéses nas fontes consultadas."
+      },
+      {
+        "word": "objetividade",
+        "translation": "objetividad",
+        "example": "A objetividade fortalece a credibilidade do artigo."
+      },
+      {
+        "word": "subjetividade",
+        "translation": "subjetividad",
+        "example": "A subjetividade do autor aparece em várias passagens."
+      },
+      {
+        "word": "tom",
+        "translation": "tono",
+        "example": "Escolha um tom adequado ao público-alvo."
+      },
+      {
+        "word": "clareza",
+        "translation": "claridad",
+        "example": "A clareza nas frases facilita a compreensão crítica."
+      },
+      {
+        "word": "precisão",
+        "translation": "precisión",
+        "example": "Verificaram os números para garantir a precisão do relatório."
+      },
+      {
+        "word": "contextualizar",
+        "translation": "contextualizar",
+        "example": "É essencial contextualizar os dados historicamente."
+      },
+      {
+        "word": "argumentação",
+        "translation": "argumentación",
+        "example": "A argumentação do ensaio segue uma linha lógica consistente."
+      },
+      {
+        "word": "sintetizar",
+        "translation": "sintetizar",
+        "example": "Procure sintetizar os pontos-chave na conclusão."
+      },
+      {
+        "word": "citar",
+        "translation": "citar",
+        "example": "Lembre-se de citar todas as fontes consultadas."
+      },
+      {
+        "word": "referência",
+        "translation": "referencia",
+        "example": "Inclua referências atualizadas ao final do texto."
+      },
+      {
+        "word": "Na minha opinião",
+        "translation": "en mi opinión",
+        "example": "Na minha opinião, a análise precisa considerar outras variáveis.",
+        "category": "expression"
+      },
+      {
+        "word": "Concordo plenamente",
+        "translation": "concuerdo plenamente",
+        "example": "Concordo plenamente com sua avaliação sobre o impacto social.",
+        "category": "expression"
+      },
+      {
+        "word": "Tenho minhas dúvidas",
+        "translation": "tengo mis dudas",
+        "example": "Tenho minhas dúvidas quanto à validade da amostra.",
+        "category": "expression"
+      },
+      {
+        "word": "Por favor, poderia esclarecer?",
+        "translation": "por favor, ¿podría aclarar?",
+        "example": "Por favor, poderia esclarecer como os dados foram coletados?",
+        "category": "expression"
+      },
+      {
+        "word": "Por conseguinte",
+        "translation": "por consiguiente",
+        "example": "Os resultados são inconsistentes; por conseguinte, é necessário revisar a metodologia.",
+        "category": "expression"
+      },
+      {
+        "word": "Você pode me ajudar?",
+        "translation": "¿Puedes ayudarme?",
+        "example": "Você pode me ajudar a formular uma resposta mais concisa?",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -37271,6 +41041,136 @@
         "word": "interpretare",
         "translation": "interpretar",
         "example": "A discussão esclarece o papel de interpretare."
+      },
+      {
+        "word": "fonte",
+        "translation": "fuente",
+        "example": "A confiabilidade da fonte é essencial para avaliar a notícia."
+      },
+      {
+        "word": "viés",
+        "translation": "sesgo",
+        "example": "Devemos identificar o viés do autor ao analisar o artigo."
+      },
+      {
+        "word": "retórica",
+        "translation": "retórica",
+        "example": "A retórica utilizada enfatiza emoções mais do que fatos."
+      },
+      {
+        "word": "falácia",
+        "translation": "falacia",
+        "example": "A conclusão se baseia numa falácia de generalização."
+      },
+      {
+        "word": "evidência",
+        "translation": "evidencia",
+        "example": "Apresentei evidências que sustentam minha tese."
+      },
+      {
+        "word": "contraponto",
+        "translation": "contrapunto",
+        "example": "O contraponto trouxe equilíbrio ao debate."
+      },
+      {
+        "word": "coerência",
+        "translation": "coherencia",
+        "example": "A coerência interna do argumento é convincente."
+      },
+      {
+        "word": "premissa",
+        "translation": "premisa",
+        "example": "A premissa do texto precisa ser questionada."
+      },
+      {
+        "word": "conclusão",
+        "translation": "conclusión",
+        "example": "Chegamos à conclusão após analisar os dados."
+      },
+      {
+        "word": "consistência",
+        "translation": "consistencia",
+        "example": "A consistência dos argumentos fortalece a posição."
+      },
+      {
+        "word": "checar fatos",
+        "translation": "verificar datos",
+        "example": "Antes de compartilhar, sempre checo fatos."
+      },
+      {
+        "word": "isenção",
+        "translation": "imparcialidad",
+        "example": "A isenção da cobertura jornalística foi questionada."
+      },
+      {
+        "word": "parcialidade",
+        "translation": "parcialidad",
+        "example": "A parcialidade é perceptível no tom do texto."
+      },
+      {
+        "word": "spin",
+        "translation": "manipulación informativa",
+        "example": "O spin político moldou a percepção pública."
+      },
+      {
+        "word": "frame",
+        "translation": "marco interpretativo",
+        "example": "O frame adotado pela matéria favorece uma leitura negativa."
+      },
+      {
+        "word": "sensacionalismo",
+        "translation": "sensacionalismo",
+        "example": "O sensacionalismo distorce fatos para atrair audiência."
+      },
+      {
+        "word": "argumentos ad hominem",
+        "translation": "argumentos ad hominem",
+        "example": "Recusar o debate por ataques ad hominem enfraquece a argumentação."
+      },
+      {
+        "word": "evidência empírica",
+        "translation": "evidencia empírica",
+        "example": "Citei evidência empírica para sustentar a hipótese."
+      },
+      {
+        "word": "verossimilhança",
+        "translation": "verosimilitud",
+        "example": "A verossimilhança do relato não garante sua veracidade."
+      },
+      {
+        "word": "contextualizar",
+        "translation": "contextualizar",
+        "example": "É preciso contextualizar os dados históricos."
+      },
+      {
+        "word": "Você pode me ajudar a checar esta informação?",
+        "translation": "¿Puedes ayudarme a verificar esta información?",
+        "example": "Você pode me ajudar a checar esta informação?",
+        "category": "expression"
+      },
+      {
+        "word": "Na minha opinião,",
+        "translation": "En mi opinión,",
+        "example": "Na minha opinião, a análise precisa de mais contexto.",
+        "category": "expression"
+      },
+      {
+        "word": "Concordo em parte",
+        "translation": "Concuerdo en parte",
+        "example": "Concordo em parte, mas faltam dados concretos.",
+        "category": "expression"
+      },
+      {
+        "word": "Tenho dúvidas sobre isso",
+        "translation": "Tengo dudas sobre esto",
+        "example": "Tenho dúvidas sobre isso; onde estão as fontes primárias?",
+        "category": "expression"
+      },
+      {
+        "word": "Com todo o respeito,",
+        "translation": "Con todo respeto,",
+        "example": "Com todo o respeito, acho que a interpretação é tendenciosa.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -40618,6 +44518,102 @@
           "juntos · conversación",
           "juntos · práctica"
         ]
+      },
+      {
+        "word": "ônibus",
+        "translation": "autobús",
+        "example": "O ônibus passa a cada quinze minutos."
+      },
+      {
+        "word": "metrô",
+        "translation": "metro",
+        "example": "O metrô é rápido nos horários de pico."
+      },
+      {
+        "word": "carro",
+        "translation": "auto",
+        "example": "Prefiro ir de carro quando chove."
+      },
+      {
+        "word": "moto",
+        "translation": "moto",
+        "example": "A moto é ágil no trânsito congestionado."
+      },
+      {
+        "word": "pedestre",
+        "translation": "peatón",
+        "example": "O pedestre atravessou pela faixa."
+      },
+      {
+        "word": "calçada",
+        "translation": "acera",
+        "example": "A calçada está em bom estado."
+      },
+      {
+        "word": "faixa de pedestres",
+        "translation": "cruce peatonal",
+        "example": "Pare na faixa de pedestres."
+      },
+      {
+        "word": "semáforo",
+        "translation": "semáforo",
+        "example": "O semáforo virou verde."
+      },
+      {
+        "word": "estacionamento",
+        "translation": "estacionamiento",
+        "example": "O estacionamento fica atrás do prédio."
+      },
+      {
+        "word": "ciclofaixa",
+        "translation": "ciclovía",
+        "example": "A cidade abriu uma nova ciclofaixa."
+      },
+      {
+        "word": "tarifa",
+        "translation": "tarifa",
+        "example": "A tarifa do transporte aumentou."
+      },
+      {
+        "word": "aplicativo",
+        "translation": "aplicación (app)",
+        "example": "Usei um aplicativo para chamar um carro."
+      },
+      {
+        "word": "Pode me ajudar?",
+        "translation": "¿Puede ayudarme?",
+        "example": "Pode me ajudar a achar a estação de metrô?",
+        "category": "expression"
+      },
+      {
+        "word": "Na minha opinião",
+        "translation": "En mi opinión",
+        "example": "Na minha opinião, a ciclovia precisa de melhorias.",
+        "category": "expression"
+      },
+      {
+        "word": "Concordo com você",
+        "translation": "Estoy de acuerdo contigo",
+        "example": "Concordo com você sobre ampliar o transporte público.",
+        "category": "expression"
+      },
+      {
+        "word": "Tenho uma dúvida",
+        "translation": "Tengo una duda",
+        "example": "Tenho uma dúvida sobre o horário do ônibus.",
+        "category": "expression"
+      },
+      {
+        "word": "Com licença",
+        "translation": "Con permiso",
+        "example": "Com licença, posso passar?",
+        "category": "expression"
+      },
+      {
+        "word": "Por causa de",
+        "translation": "debido a",
+        "example": "O ônibus atrasou por causa do acidente.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -41707,6 +45703,136 @@
         "word": "rispettare",
         "translation": "respetar",
         "example": "A discussão esclarece o papel de rispettare."
+      },
+      {
+        "word": "sustentabilidade",
+        "translation": "sostenibilidad",
+        "example": "A sustentabilidade orienta minhas escolhas durante a viagem."
+      },
+      {
+        "word": "turismo responsável",
+        "translation": "turismo responsable",
+        "example": "Opto por turismo responsável para beneficiar comunidades locais."
+      },
+      {
+        "word": "impacto ambiental",
+        "translation": "impacto ambiental",
+        "example": "Avalio o impacto ambiental antes de reservar transporte."
+      },
+      {
+        "word": "compensação de carbono",
+        "translation": "compensación de carbono",
+        "example": "Fiz a compensação de carbono das minhas passagens aéreas."
+      },
+      {
+        "word": "consumo local",
+        "translation": "consumo local",
+        "example": "Prefiro consumo local para fortalecer a economia da região."
+      },
+      {
+        "word": "hospedagem ecológica",
+        "translation": "alojamiento ecológico",
+        "example": "Escolhemos hospedagem ecológica por suas práticas sustentáveis."
+      },
+      {
+        "word": "turismo comunitário",
+        "translation": "turismo comunitario",
+        "example": "O turismo comunitário permite conhecer a cultura sem explorar moradores."
+      },
+      {
+        "word": "transporte público",
+        "translation": "transporte público",
+        "example": "Uso transporte público para reduzir emissões e conhecer melhor a cidade."
+      },
+      {
+        "word": "slow travel",
+        "translation": "viajar despacio",
+        "example": "Pratico slow travel para aproveitar cada lugar com calma."
+      },
+      {
+        "word": "itinerário flexível",
+        "translation": "itinerario flexible",
+        "example": "Mantenho um itinerário flexível para lidar com imprevistos e oportunidades locais."
+      },
+      {
+        "word": "respeito cultural",
+        "translation": "respeto cultural",
+        "example": "O respeito cultural exige aprender costumes antes de visitar."
+      },
+      {
+        "word": "comunicação intercultural",
+        "translation": "comunicación intercultural",
+        "example": "A comunicação intercultural facilita trocas mais autênticas com moradores."
+      },
+      {
+        "word": "voluntariado",
+        "translation": "voluntariado",
+        "example": "Participei de voluntariado para contribuir com projetos locais."
+      },
+      {
+        "word": "origem dos produtos",
+        "translation": "origen de los productos",
+        "example": "Verifico a origem dos produtos para evitar consumo de itens exploratórios."
+      },
+      {
+        "word": "pegada ecológica",
+        "translation": "huella ecológica",
+        "example": "Reduzi minha pegada ecológica escolhendo refeições vegetarianas."
+      },
+      {
+        "word": "seguro viagem",
+        "translation": "seguro de viaje",
+        "example": "Contratei seguro viagem porque cobre emergências e cancelamentos."
+      },
+      {
+        "word": "documentação digital",
+        "translation": "documentación digital",
+        "example": "Levo documentação digital por segurança e facilidade de acesso."
+      },
+      {
+        "word": "planejamento antecipado",
+        "translation": "planificación anticipada",
+        "example": "O planejamento antecipado evita decisões impulsivas que prejudicam destinos."
+      },
+      {
+        "word": "reduzir desperdício",
+        "translation": "reducir desperdicio",
+        "example": "Procuro reduzir desperdício usando garrafa reutilizável."
+      },
+      {
+        "word": "economia circular",
+        "translation": "economía circular",
+        "example": "A economia circular incentiva reciclagem e aproveitamento local."
+      },
+      {
+        "word": "Você pode me ajudar?",
+        "translation": "¿Puede ayudarme?",
+        "example": "Você pode me ajudar a encontrar transporte sustentável até o centro?",
+        "category": "expression"
+      },
+      {
+        "word": "Na minha opinião,",
+        "translation": "En mi opinión,",
+        "example": "Na minha opinião, apoiar negócios locais é essencial.",
+        "category": "expression"
+      },
+      {
+        "word": "Concordo plenamente.",
+        "translation": "Concuerdo plenamente.",
+        "example": "Concordo plenamente — reduzir plásticos melhora a experiência para todos.",
+        "category": "expression"
+      },
+      {
+        "word": "Tenho uma dúvida.",
+        "translation": "Tengo una duda.",
+        "example": "Tenho uma dúvida sobre as regras de etiqueta neste vilarejo.",
+        "category": "expression"
+      },
+      {
+        "word": "Com licença, posso entrar?",
+        "translation": "Disculpe, ¿puedo entrar?",
+        "example": "Com licença, posso entrar na feira para conhecer os artesãos?",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -41820,6 +45946,137 @@
         "word": "precisione",
         "translation": "precisión",
         "example": "A discussão esclarece o papel de precisione."
+      },
+      {
+        "word": "hipótese",
+        "translation": "hipótesis",
+        "example": "A hipótese principal será testada com dados longitudinais."
+      },
+      {
+        "word": "metodologia",
+        "translation": "metodología",
+        "example": "A metodologia descreve as etapas e os procedimentos do estudo."
+      },
+      {
+        "word": "validação",
+        "translation": "validación",
+        "example": "A validação dos resultados exige experimentos independentes."
+      },
+      {
+        "word": "reprodutibilidade",
+        "translation": "reproducibilidad",
+        "example": "A reprodutibilidade aumenta a confiança nas análises."
+      },
+      {
+        "word": "correlação",
+        "translation": "correlación",
+        "example": "Uma correlação entre variáveis foi observada no conjunto de dados."
+      },
+      {
+        "word": "causalidade",
+        "translation": "causalidad",
+        "example": "Estabelecer causalidade requer desenhos experimentais controlados."
+      },
+      {
+        "word": "viés",
+        "translation": "sesgo",
+        "example": "Precisamos reduzir o viés na coleta e na interpretação dos dados."
+      },
+      {
+        "word": "amostragem",
+        "translation": "muestreo",
+        "example": "A amostragem aleatória foi adotada para garantir representatividade."
+      },
+      {
+        "word": "paradigma",
+        "translation": "paradigma",
+        "example": "Esse paradigma explica padrões emergentes em diferentes estudos."
+      },
+      {
+        "word": "revisão por pares",
+        "translation": "revisión por pares",
+        "example": "A revisão por pares apontou pontos a aperfeiçoar no manuscrito."
+      },
+      {
+        "word": "consenso",
+        "translation": "consenso",
+        "example": "Existe um consenso entre os pesquisadores sobre a hipótese."
+      },
+      {
+        "word": "transparência",
+        "translation": "transparencia",
+        "example": "A transparência nos métodos facilita a verificação independente."
+      },
+      {
+        "word": "replicação",
+        "translation": "replicación",
+        "example": "A replicação foi realizada por um grupo externo."
+      },
+      {
+        "word": "inferência",
+        "translation": "inferencia",
+        "example": "A inferência estatística baseou-se em modelos adequados."
+      },
+      {
+        "word": "significância",
+        "translation": "significancia",
+        "example": "A significância dos resultados foi avaliada com testes robustos."
+      },
+      {
+        "word": "protocolo",
+        "translation": "protocolo",
+        "example": "O protocolo detalha os critérios de inclusão dos participantes."
+      },
+      {
+        "word": "limitações",
+        "translation": "limitaciones",
+        "example": "As limitações do estudo foram discutidas na seção final."
+      },
+      {
+        "word": "divulgação científica",
+        "translation": "divulgación científica",
+        "example": "A divulgação científica buscou traduzir os achados para o público."
+      },
+      {
+        "word": "impacto",
+        "translation": "impacto",
+        "example": "O impacto potencial da pesquisa foi avaliado qualitativamente."
+      },
+      {
+        "word": "Você pode me ajudar?",
+        "translation": "¿Me puedes ayudar?",
+        "example": "Você pode me ajudar a interpretar estes dados?",
+        "category": "expression"
+      },
+      {
+        "word": "Na minha opinião",
+        "translation": "En mi opinión",
+        "example": "Na minha opinião, os autores subestimaram a variabilidade.",
+        "category": "expression"
+      },
+      {
+        "word": "Concordo plenamente",
+        "translation": "Estoy totalmente de acuerdo",
+        "example": "Concordo plenamente com a interpretação dos resultados.",
+        "category": "expression"
+      },
+      {
+        "word": "Tenho uma dúvida",
+        "translation": "Tengo una duda",
+        "example": "Tenho uma dúvida sobre a escolha do indicador.",
+        "category": "expression"
+      },
+      {
+        "word": "Isso se deve a...",
+        "translation": "Esto se debe a...",
+        "example": "Isso se deve à baixa sensibilidade do instrumento.",
+        "category": "expression"
+      },
+      {
+        "word": "Como consequência",
+        "translation": "Como consecuencia",
+        "example": "Como consequência, revisamos a conclusão do artigo.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -41933,6 +46190,137 @@
         "word": "rigore",
         "translation": "rigor",
         "example": "A discussão esclarece o papel de rigore."
+      },
+      {
+        "word": "ética",
+        "translation": "ética",
+        "example": "A ética orienta nossas escolhas na pesquisa científica."
+      },
+      {
+        "word": "responsabilidade",
+        "translation": "responsabilidad",
+        "example": "A responsabilidade do pesquisador inclui transparência nos dados."
+      },
+      {
+        "word": "transparência",
+        "translation": "transparencia",
+        "example": "A transparência nos métodos facilita a verificação de resultados."
+      },
+      {
+        "word": "reprodutibilidade",
+        "translation": "reproducibilidad",
+        "example": "A reprodutibilidade é fundamental para validar um experimento."
+      },
+      {
+        "word": "evidência",
+        "translation": "evidencia",
+        "example": "Devemos apresentar evidência sólida antes de tirar conclusões."
+      },
+      {
+        "word": "metodologia",
+        "translation": "metodología",
+        "example": "A metodologia descrita permite entender como os resultados foram obtidos."
+      },
+      {
+        "word": "viés",
+        "translation": "sesgo",
+        "example": "É preciso identificar qualquer viés que possa afetar os dados."
+      },
+      {
+        "word": "conflito de interesses",
+        "translation": "conflicto de intereses",
+        "example": "Declarar conflito de interesses é uma prática de integridade."
+      },
+      {
+        "word": "consentimento informado",
+        "translation": "consentimiento informado",
+        "example": "O consentimento informado protege os participantes da pesquisa."
+      },
+      {
+        "word": "integridade",
+        "translation": "integridad",
+        "example": "A integridade científica exige registro claro dos procedimentos."
+      },
+      {
+        "word": "validação",
+        "translation": "validación",
+        "example": "A validação independente fortalece a confiança nos resultados."
+      },
+      {
+        "word": "amostragem",
+        "translation": "muestreo",
+        "example": "A amostragem deve ser representativa da população estudada."
+      },
+      {
+        "word": "estatística",
+        "translation": "estadística",
+        "example": "Uma análise estatística adequada evita interpretações equivocadas."
+      },
+      {
+        "word": "significância",
+        "translation": "significancia (estadística)",
+        "example": "A significância estatística não garante relevância prática."
+      },
+      {
+        "word": "causalidade",
+        "translation": "causalidad",
+        "example": "Demonstrar causalidade requer evidências e controle de variáveis."
+      },
+      {
+        "word": "correlação",
+        "translation": "correlación",
+        "example": "Correlação não implica causalidade."
+      },
+      {
+        "word": "protocolo",
+        "translation": "protocolo",
+        "example": "Seguir o protocolo reduz erros sistemáticos."
+      },
+      {
+        "word": "revisão por pares",
+        "translation": "revisión por pares",
+        "example": "A revisão por pares ajuda a detectar falhas metodológicas."
+      },
+      {
+        "word": "comunicar resultados",
+        "translation": "comunicar resultados",
+        "example": "Precisamos comunicar resultados com clareza e precisão.",
+        "category": "expression"
+      },
+      {
+        "word": "Você pode me ajudar?",
+        "translation": "¿Me puede ayudar?",
+        "example": "Você pode me ajudar com a análise estatística?",
+        "category": "expression"
+      },
+      {
+        "word": "na minha opinião",
+        "translation": "en mi opinión",
+        "example": "Na minha opinião, os dados exigem uma reavaliação do protocolo.",
+        "category": "expression"
+      },
+      {
+        "word": "concordo plenamente",
+        "translation": "estoy totalmente de acuerdo",
+        "example": "Concordo plenamente com a necessidade de transparência.",
+        "category": "expression"
+      },
+      {
+        "word": "tenho dúvidas sobre",
+        "translation": "tengo dudas sobre",
+        "example": "Tenho dúvidas sobre a validade dessa amostragem.",
+        "category": "expression"
+      },
+      {
+        "word": "por conseguinte",
+        "translation": "por consiguiente",
+        "example": "Os resultados foram inconsistentes; por conseguinte, precisamos replicar o estudo.",
+        "category": "expression"
+      },
+      {
+        "word": "comitê de ética",
+        "translation": "comité de ética",
+        "example": "O projeto foi aprovado pelo comitê de ética."
       }
     ],
     "dialogue": [],
@@ -45280,6 +49668,102 @@
           "juntos · conversación",
           "juntos · práctica"
         ]
+      },
+      {
+        "word": "plano",
+        "translation": "plan",
+        "example": "Meu plano para o próximo ano é estudar outro idioma."
+      },
+      {
+        "word": "meta",
+        "translation": "meta",
+        "example": "Minha meta é terminar o curso em seis meses."
+      },
+      {
+        "word": "previsão",
+        "translation": "previsión",
+        "example": "A previsão é que eu comece o trabalho em março."
+      },
+      {
+        "word": "possibilidade",
+        "translation": "posibilidad",
+        "example": "Há possibilidade de mudar de cidade no futuro."
+      },
+      {
+        "word": "projeto",
+        "translation": "proyecto",
+        "example": "Estou desenvolvendo um projeto para abrir uma pequena empresa."
+      },
+      {
+        "word": "ambição",
+        "translation": "ambición",
+        "example": "Minha ambição é crescer na minha carreira."
+      },
+      {
+        "word": "prazo",
+        "translation": "plazo",
+        "example": "O prazo para inscrição é dia 15."
+      },
+      {
+        "word": "orçamento",
+        "translation": "presupuesto",
+        "example": "Preciso revisar o orçamento do curso."
+      },
+      {
+        "word": "mudança",
+        "translation": "cambio",
+        "example": "A mudança será difícil, mas necessária."
+      },
+      {
+        "word": "compromisso",
+        "translation": "compromiso",
+        "example": "Tenho um compromisso profissional na próxima semana."
+      },
+      {
+        "word": "desafio",
+        "translation": "desafío",
+        "example": "O maior desafio é conciliar trabalho e estudo."
+      },
+      {
+        "word": "apoio",
+        "translation": "apoyo",
+        "example": "Posso contar com o apoio da minha família."
+      },
+      {
+        "word": "Você pode me ajudar?",
+        "translation": "¿Me puedes ayudar?",
+        "example": "Você pode me ajudar com essa tarefa, por favor?",
+        "category": "expression"
+      },
+      {
+        "word": "Na minha opinião,",
+        "translation": "En mi opinión,",
+        "example": "Na minha opinião, devemos definir prioridades antes de começar.",
+        "category": "expression"
+      },
+      {
+        "word": "Concordo com você.",
+        "translation": "Estoy de acuerdo contigo.",
+        "example": "Concordo com você sobre a importância do planejamento.",
+        "category": "expression"
+      },
+      {
+        "word": "Não tenho certeza.",
+        "translation": "No estoy seguro.",
+        "example": "Não tenho certeza se consigo terminar até o prazo.",
+        "category": "expression"
+      },
+      {
+        "word": "Se você quiser, posso ajudar.",
+        "translation": "Si quieres, puedo ayudarte.",
+        "example": "Se você quiser, posso ajudar a revisar seu currículo.",
+        "category": "expression"
+      },
+      {
+        "word": "Por que não tentamos?",
+        "translation": "¿Por qué no lo intentamos?",
+        "example": "Por que não tentamos uma abordagem diferente no próximo mês?",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -46369,6 +50853,137 @@
         "word": "mediare",
         "translation": "mediar",
         "example": "A discussão esclarece o papel de mediare."
+      },
+      {
+        "word": "conflito",
+        "translation": "conflicto",
+        "example": "O conflito entre as equipes prejudicou o projeto."
+      },
+      {
+        "word": "consenso",
+        "translation": "consenso",
+        "example": "Buscamos um consenso antes de decidir."
+      },
+      {
+        "word": "negociação",
+        "translation": "negociación",
+        "example": "A negociação durou três horas."
+      },
+      {
+        "word": "interesse",
+        "translation": "interés",
+        "example": "Mostre seu interesse pelas propostas alheias."
+      },
+      {
+        "word": "compromisso",
+        "translation": "compromiso",
+        "example": "Assumi um compromisso com a equipe."
+      },
+      {
+        "word": "posição",
+        "translation": "posición",
+        "example": "Explique sua posição de forma clara."
+      },
+      {
+        "word": "argumento",
+        "translation": "argumento",
+        "example": "Apresente seu argumento com exemplos."
+      },
+      {
+        "word": "contraproposta",
+        "translation": "contrapropuesta",
+        "example": "Enviei uma contraproposta por escrito."
+      },
+      {
+        "word": "facilitar",
+        "translation": "facilitar",
+        "example": "Posso facilitar a conversa entre as partes."
+      },
+      {
+        "word": "mediador",
+        "translation": "mediador",
+        "example": "O mediador ajudou a reduzir a tensão."
+      },
+      {
+        "word": "sintetizar",
+        "translation": "sintetizar",
+        "example": "Preciso sintetizar os pontos principais."
+      },
+      {
+        "word": "parafrasear",
+        "translation": "parafrasear",
+        "example": "Parafraseie para confirmar que entendeu."
+      },
+      {
+        "word": "intervir",
+        "translation": "intervenir",
+        "example": "Ele interveio para esclarecer um mal-entendido."
+      },
+      {
+        "word": "retomar",
+        "translation": "retomar",
+        "example": "Vamos retomar o assunto na próxima reunião."
+      },
+      {
+        "word": "esclarecer",
+        "translation": "aclarar",
+        "example": "É importante esclarecer os pontos ambíguos."
+      },
+      {
+        "word": "pontuar",
+        "translation": "señalar",
+        "example": "Ele pontuou os riscos do projeto."
+      },
+      {
+        "word": "conceder",
+        "translation": "conceder",
+        "example": "Tivemos que conceder alguns pontos para avançar."
+      },
+      {
+        "word": "objeção",
+        "translation": "objeción",
+        "example": "Houve uma objeção à proposta inicial."
+      },
+      {
+        "word": "conciliar",
+        "translation": "conciliar",
+        "example": "É possível conciliar interesses distintos."
+      },
+      {
+        "word": "escuta ativa",
+        "translation": "escucha activa",
+        "example": "A escuta ativa melhora a mediação.",
+        "category": "expression"
+      },
+      {
+        "word": "Pode me ajudar?",
+        "translation": "¿Puedes ayudarme?",
+        "example": "Pode me ajudar a resumir os argumentos?",
+        "category": "expression"
+      },
+      {
+        "word": "Na minha opinião,",
+        "translation": "En mi opinión,",
+        "example": "Na minha opinião, devemos priorizar a solução.",
+        "category": "expression"
+      },
+      {
+        "word": "Concordo com você.",
+        "translation": "Estoy de acuerdo contigo.",
+        "example": "Concordo com você em vários pontos.",
+        "category": "expression"
+      },
+      {
+        "word": "Tenho uma dúvida.",
+        "translation": "Tengo una duda.",
+        "example": "Tenho uma dúvida sobre sua proposta.",
+        "category": "expression"
+      },
+      {
+        "word": "Com licença",
+        "translation": "Con permiso",
+        "example": "Com licença, posso falar agora?",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -46482,6 +51097,135 @@
         "word": "mediazione",
         "translation": "mediación",
         "example": "A discussão esclarece o papel de mediazione."
+      },
+      {
+        "word": "impasse",
+        "translation": "estancamiento",
+        "example": "Chegamos a um impasse durante as negociações."
+      },
+      {
+        "word": "consenso",
+        "translation": "consenso",
+        "example": "Precisamos atingir um consenso antes de prosseguir."
+      },
+      {
+        "word": "concessão",
+        "translation": "concesión",
+        "example": "A concessão de prazos aliviou a tensão entre as partes."
+      },
+      {
+        "word": "ceder",
+        "translation": "ceder",
+        "example": "Ele não quis ceder em nenhum ponto."
+      },
+      {
+        "word": "barganha",
+        "translation": "negociación",
+        "example": "A barganha envolveu ajustes nos custos e nos prazos."
+      },
+      {
+        "word": "aliança",
+        "translation": "alianza",
+        "example": "Formaram uma aliança para fortalecer a posição nas negociações."
+      },
+      {
+        "word": "arbitragem",
+        "translation": "arbitraje",
+        "example": "Optaram pela arbitragem para resolver a disputa rapidamente."
+      },
+      {
+        "word": "impugnação",
+        "translation": "impugnación",
+        "example": "Há uma impugnação formal ao contrato apresentado."
+      },
+      {
+        "word": "cláusula",
+        "translation": "cláusula",
+        "example": "Revise a cláusula de confidencialidade com cuidado."
+      },
+      {
+        "word": "salvaguarda",
+        "translation": "salvaguarda",
+        "example": "Inserimos uma salvaguarda contra violações contratuais."
+      },
+      {
+        "word": "alinhamento",
+        "translation": "alineación",
+        "example": "O alinhamento entre departamentos foi decisivo para o acordo."
+      },
+      {
+        "word": "assertivo",
+        "translation": "asertivo",
+        "example": "Adote um tom assertivo ao expor suas propostas."
+      },
+      {
+        "word": "escalonamento",
+        "translation": "escalamiento",
+        "example": "O escalonamento do problema exigiu a intervenção da diretoria."
+      },
+      {
+        "word": "mitigação",
+        "translation": "mitigación",
+        "example": "Propuseram medidas de mitigação dos riscos financeiros."
+      },
+      {
+        "word": "contrapartida",
+        "translation": "contrapartida",
+        "example": "Oferecemos uma contrapartida em troca da redução de preço."
+      },
+      {
+        "word": "romper",
+        "translation": "romper",
+        "example": "Romper o contrato acarretaria perdas significativas para ambos."
+      },
+      {
+        "word": "ponderar",
+        "translation": "sopesar",
+        "example": "É importante ponderar as consequências antes de decidir."
+      },
+      {
+        "word": "posicionamento",
+        "translation": "posicionamiento",
+        "example": "Seu posicionamento foi claro e bem fundamentado."
+      },
+      {
+        "word": "justificativa",
+        "translation": "justificación",
+        "example": "Apresente uma justificativa convincente para a alteração."
+      },
+      {
+        "word": "estratégia",
+        "translation": "estrategia",
+        "example": "Desenvolveram uma estratégia de comunicação para a negociação."
+      },
+      {
+        "word": "mediação",
+        "translation": "mediación",
+        "example": "A mediação auxiliou as partes a encontrar soluções práticas."
+      },
+      {
+        "word": "Pode me ajudar com isso?",
+        "translation": "¿Puedes ayudarme con esto?",
+        "example": "Pode me ajudar com isso?",
+        "category": "expression"
+      },
+      {
+        "word": "Na minha opinião",
+        "translation": "En mi opinión",
+        "example": "Na minha opinião, deveríamos rever o prazo.",
+        "category": "expression"
+      },
+      {
+        "word": "Concordo parcialmente.",
+        "translation": "Estoy parcialmente de acuerdo.",
+        "example": "Concordo parcialmente com os termos apresentados.",
+        "category": "expression"
+      },
+      {
+        "word": "Tenho dúvidas quanto à viabilidade",
+        "translation": "Tengo dudas acerca de la viabilidad",
+        "example": "Tenho dúvidas quanto à viabilidade do plano apresentado.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -46595,6 +51339,137 @@
         "word": "coerente",
         "translation": "coherente",
         "example": "A discussão esclarece o papel de coerente."
+      },
+      {
+        "word": "abstração",
+        "translation": "abstracción",
+        "example": "A abstração permite focar nas ideias essenciais."
+      },
+      {
+        "word": "conjectura",
+        "translation": "conjetura",
+        "example": "Minha conjectura é que o problema é estrutural."
+      },
+      {
+        "word": "disenso",
+        "translation": "disenso",
+        "example": "Há disenso entre os autores sobre essa hipótese."
+      },
+      {
+        "word": "dialética",
+        "translation": "dialéctica",
+        "example": "A dialética entre teoria e prática é evidente."
+      },
+      {
+        "word": "heurística",
+        "translation": "heurística",
+        "example": "Empregamos heurísticas para testar hipóteses complexas."
+      },
+      {
+        "word": "sintetizar",
+        "translation": "sintetizar",
+        "example": "Consigo sintetizar os pontos principais em um parágrafo."
+      },
+      {
+        "word": "justificação",
+        "translation": "justificación",
+        "example": "A justificação dos métodos carece de detalhes."
+      },
+      {
+        "word": "falácia",
+        "translation": "falacia",
+        "example": "Detectaram uma falácia no argumento central."
+      },
+      {
+        "word": "matiz",
+        "translation": "matiz",
+        "example": "O argumento ganha um novo matiz com essa evidência."
+      },
+      {
+        "word": "coerência",
+        "translation": "coherencia",
+        "example": "A coerência interna do texto é impressionante."
+      },
+      {
+        "word": "contraponto",
+        "translation": "contrapunto",
+        "example": "Ele apresentou um contraponto que alterou o debate."
+      },
+      {
+        "word": "implicação",
+        "translation": "implicación",
+        "example": "As implicações práticas ainda não foram avaliadas."
+      },
+      {
+        "word": "epistemologia",
+        "translation": "epistemología",
+        "example": "A epistemologia orienta a escolha dos critérios de verdade."
+      },
+      {
+        "word": "axioma",
+        "translation": "axioma",
+        "example": "O teorema parte de um axioma simples."
+      },
+      {
+        "word": "paradigma",
+        "translation": "paradigma",
+        "example": "Mudanças de paradigma exigem revisão dos pressupostos."
+      },
+      {
+        "word": "pragmático",
+        "translation": "pragmático",
+        "example": "Adotei um tom mais pragmático na análise."
+      },
+      {
+        "word": "teleológico",
+        "translation": "teleológico",
+        "example": "O argumento teleológico pressupõe um propósito."
+      },
+      {
+        "word": "retórica",
+        "translation": "retórica",
+        "example": "A retórica persuasiva não substitui evidências sólidas."
+      },
+      {
+        "word": "pressuposto",
+        "translation": "suposición",
+        "example": "É preciso explicitar todo pressuposto antes de avaliar."
+      },
+      {
+        "word": "Pode me ajudar?",
+        "translation": "¿Puedes ayudarme?",
+        "example": "Pode me ajudar a condensar este argumento?",
+        "category": "expression"
+      },
+      {
+        "word": "Na minha opinião",
+        "translation": "En mi opinión",
+        "example": "Na minha opinião, faltam evidências empíricas.",
+        "category": "expression"
+      },
+      {
+        "word": "Concordo plenamente",
+        "translation": "Concuerdo plenamente",
+        "example": "Concordo plenamente com a sua conclusão.",
+        "category": "expression"
+      },
+      {
+        "word": "Tenho dúvidas quanto a",
+        "translation": "Tengo dudas sobre",
+        "example": "Tenho dúvidas quanto à aplicabilidade do modelo.",
+        "category": "expression"
+      },
+      {
+        "word": "Com licença",
+        "translation": "Con permiso",
+        "example": "Com licença, poderia comentar um ponto?",
+        "category": "expression"
+      },
+      {
+        "word": "Por conseguinte",
+        "translation": "Por consiguiente",
+        "example": "Por conseguinte, a tese não se sustenta.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -49942,6 +54817,101 @@
           "juntos · conversación",
           "juntos · práctica"
         ]
+      },
+      {
+        "word": "dialogar",
+        "translation": "dialogar",
+        "example": "Precisamos dialogar sobre o problema."
+      },
+      {
+        "word": "debate",
+        "translation": "debate",
+        "example": "O debate foi produtivo."
+      },
+      {
+        "word": "sugerir",
+        "translation": "sugerir",
+        "example": "Posso sugerir uma solução?"
+      },
+      {
+        "word": "discordar",
+        "translation": "estar en desacuerdo",
+        "example": "Eu discordo dessa ideia."
+      },
+      {
+        "word": "apoio",
+        "translation": "apoyo",
+        "example": "Preciso do seu apoio."
+      },
+      {
+        "word": "ajuda",
+        "translation": "ayuda",
+        "example": "Peça ajuda quando precisar."
+      },
+      {
+        "word": "amizade",
+        "translation": "amistad",
+        "example": "Nossa amizade é importante."
+      },
+      {
+        "word": "compreender",
+        "translation": "comprender",
+        "example": "Consigo compreender seu ponto de vista."
+      },
+      {
+        "word": "mal-entendido",
+        "translation": "malentendido",
+        "example": "Houve um mal-entendido ontem."
+      },
+      {
+        "word": "reconhecer",
+        "translation": "reconocer",
+        "example": "É importante reconhecer os erros."
+      },
+      {
+        "word": "silêncio",
+        "translation": "silencio",
+        "example": "Houve um silêncio na reunião."
+      },
+      {
+        "word": "feedback",
+        "translation": "retroalimentación / comentario",
+        "example": "Posso dar um feedback sobre seu texto."
+      },
+      {
+        "word": "intenção",
+        "translation": "intención",
+        "example": "Minha intenção não é ofender."
+      },
+      {
+        "word": "Posso ajudar?",
+        "translation": "¿Puedo ayudar?",
+        "example": "Posso ajudar com isso?",
+        "category": "expression"
+      },
+      {
+        "word": "Na minha opinião",
+        "translation": "En mi opinión",
+        "example": "Na minha opinião, devemos tentar outra abordagem.",
+        "category": "expression"
+      },
+      {
+        "word": "Concordo com você",
+        "translation": "Estoy de acuerdo contigo",
+        "example": "Concordo com você nessa questão.",
+        "category": "expression"
+      },
+      {
+        "word": "Tenho uma dúvida",
+        "translation": "Tengo una duda",
+        "example": "Tenho uma dúvida sobre o prazo.",
+        "category": "expression"
+      },
+      {
+        "word": "Sinto muito",
+        "translation": "Lo siento",
+        "example": "Sinto muito pelo erro.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -51031,6 +56001,137 @@
         "word": "beneficio",
         "translation": "beneficio",
         "example": "A discussão esclarece o papel de beneficio."
+      },
+      {
+        "word": "iniciativa",
+        "translation": "iniciativa",
+        "example": "A iniciativa partiu dos moradores do bairro."
+      },
+      {
+        "word": "bairro",
+        "translation": "barrio",
+        "example": "O bairro organizou uma reunião sobre segurança."
+      },
+      {
+        "word": "participar",
+        "translation": "participar",
+        "example": "Todo cidadão deve participar das decisões locais."
+      },
+      {
+        "word": "cidadania",
+        "translation": "ciudadanía",
+        "example": "A cidadania ativa fortalece a comunidade."
+      },
+      {
+        "word": "engajamento",
+        "translation": "participación activa",
+        "example": "O engajamento dos jovens aumentou este ano."
+      },
+      {
+        "word": "voluntariado",
+        "translation": "voluntariado",
+        "example": "O voluntariado ajudou a distribuir alimentos."
+      },
+      {
+        "word": "mobilização",
+        "translation": "movilización",
+        "example": "A mobilização reuniu centenas de pessoas."
+      },
+      {
+        "word": "fiscalização",
+        "translation": "supervisión",
+        "example": "A fiscalização garante o uso correto dos recursos."
+      },
+      {
+        "word": "transparência",
+        "translation": "transparencia",
+        "example": "A transparência aumenta a confiança pública."
+      },
+      {
+        "word": "responsabilidade",
+        "translation": "responsabilidad",
+        "example": "Assumir responsabilidade é essencial na liderança."
+      },
+      {
+        "word": "inclusão",
+        "translation": "inclusión",
+        "example": "As políticas devem promover a inclusão social."
+      },
+      {
+        "word": "direitos",
+        "translation": "derechos",
+        "example": "Conhecer os direitos facilita exigir mudanças."
+      },
+      {
+        "word": "deveres",
+        "translation": "deberes",
+        "example": "Cumprir os deveres fortalece a democracia."
+      },
+      {
+        "word": "reivindicação",
+        "translation": "reivindicación",
+        "example": "A reivindicação por serviços públicos é legítima."
+      },
+      {
+        "word": "petição",
+        "translation": "petición",
+        "example": "A petição online reuniu milhares de assinaturas."
+      },
+      {
+        "word": "consulta pública",
+        "translation": "consulta pública",
+        "example": "A consulta pública ficou aberta por duas semanas."
+      },
+      {
+        "word": "representante",
+        "translation": "representante",
+        "example": "Escolhemos um representante para a assembleia."
+      },
+      {
+        "word": "orçamento participativo",
+        "translation": "presupuesto participativo",
+        "example": "O orçamento participativo prioriza projetos da comunidade."
+      },
+      {
+        "word": "votação",
+        "translation": "votación",
+        "example": "A votação decidiu o destino dos recursos."
+      },
+      {
+        "word": "Pode me ajudar?",
+        "translation": "¿Me puede ayudar?",
+        "example": "Pode me ajudar a revisar a proposta?",
+        "category": "expression"
+      },
+      {
+        "word": "Na minha opinião,",
+        "translation": "En mi opinión,",
+        "example": "Na minha opinião, precisamos priorizar a educação.",
+        "category": "expression"
+      },
+      {
+        "word": "Concordo plenamente",
+        "translation": "Estoy totalmente de acuerdo",
+        "example": "Concordo plenamente com seu argumento.",
+        "category": "expression"
+      },
+      {
+        "word": "Tenho uma dúvida",
+        "translation": "Tengo una duda",
+        "example": "Tenho uma dúvida sobre o orçamento.",
+        "category": "expression"
+      },
+      {
+        "word": "Com licença, posso falar?",
+        "translation": "Con permiso, ¿puedo hablar?",
+        "example": "Com licença, posso falar na reunião?",
+        "category": "expression"
+      },
+      {
+        "word": "Por esse motivo,",
+        "translation": "Por ese motivo,",
+        "example": "Por esse motivo, propomos mudanças no regulamento.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -51144,6 +56245,137 @@
         "word": "ambiguità",
         "translation": "ambigüedad",
         "example": "A discussão esclarece o papel de ambiguità."
+      },
+      {
+        "word": "narrador",
+        "translation": "narrador",
+        "example": "O narrador revela informações aos poucos."
+      },
+      {
+        "word": "focalização",
+        "translation": "focalización",
+        "example": "A focalização altera a perspectiva da história."
+      },
+      {
+        "word": "voz narrativa",
+        "translation": "voz narrativa",
+        "example": "A voz narrativa combina ironia e distância crítica."
+      },
+      {
+        "word": "registro",
+        "translation": "registro (nivel de lenguaje)",
+        "example": "O registro formal confere autoridade ao texto."
+      },
+      {
+        "word": "argumento",
+        "translation": "argumento",
+        "example": "O argumento principal sustenta a tese."
+      },
+      {
+        "word": "tese",
+        "translation": "tesis",
+        "example": "A tese do ensaio é claramente defendida."
+      },
+      {
+        "word": "contra-argumento",
+        "translation": "contraargumento",
+        "example": "Ele apresentou um contra-argumento convincente."
+      },
+      {
+        "word": "retórica",
+        "translation": "retórica",
+        "example": "O autor recorre à retórica persuasiva."
+      },
+      {
+        "word": "ethos",
+        "translation": "ethos (credibilidad del hablante)",
+        "example": "O autor constrói ethos ao citar especialistas."
+      },
+      {
+        "word": "pathos",
+        "translation": "pathos (apelar a las emociones)",
+        "example": "O uso do pathos intensifica a empatia do leitor."
+      },
+      {
+        "word": "logos",
+        "translation": "logos (razón y lógica)",
+        "example": "O logos aparece nas estatísticas e na lógica do texto."
+      },
+      {
+        "word": "transição",
+        "translation": "transición",
+        "example": "A transição entre parágrafos é suave e coerente."
+      },
+      {
+        "word": "coesão",
+        "translation": "cohesión",
+        "example": "A coesão textual garante o fluxo de ideias."
+      },
+      {
+        "word": "conectivo",
+        "translation": "conectivo",
+        "example": "Use conectivos para explicitar relações de causa e consequência."
+      },
+      {
+        "word": "implicatura",
+        "translation": "implicatura",
+        "example": "A implicatura sugere críticas sem dizê-las diretamente."
+      },
+      {
+        "word": "conotação",
+        "translation": "connotación",
+        "example": "A conotação das palavras cria camadas de sentido."
+      },
+      {
+        "word": "denotação",
+        "translation": "denotación",
+        "example": "A denotação refere-se ao sentido literal."
+      },
+      {
+        "word": "ironia",
+        "translation": "ironía",
+        "example": "A ironia sublinha a crítica social do texto."
+      },
+      {
+        "word": "ambivalência",
+        "translation": "ambivalencia",
+        "example": "A ambivalência das personagens cria tensão moral."
+      },
+      {
+        "word": "Na minha opinião",
+        "translation": "En mi opinión",
+        "example": "Na minha opinião, o romance exagera o melodrama.",
+        "category": "expression"
+      },
+      {
+        "word": "Você poderia me ajudar com isto?",
+        "translation": "¿Podrías ayudarme con esto?",
+        "example": "Você poderia me ajudar com isto?",
+        "category": "expression"
+      },
+      {
+        "word": "Concordo plenamente",
+        "translation": "Concuerdo plenamente",
+        "example": "Concordo plenamente com sua análise da voz narrativa.",
+        "category": "expression"
+      },
+      {
+        "word": "Tenho dúvidas quanto a isso",
+        "translation": "Tengo dudas al respecto",
+        "example": "Tenho dúvidas quanto a isso; a evidência não é suficiente.",
+        "category": "expression"
+      },
+      {
+        "word": "Por favor, poderia esclarecer seu ponto?",
+        "translation": "Por favor, ¿podría aclarar su punto?",
+        "example": "Por favor, poderia esclarecer seu ponto sobre a coerência?",
+        "category": "expression"
+      },
+      {
+        "word": "Como consequência",
+        "translation": "Como consecuencia",
+        "example": "Como consequência, a tese perde força sem dados concretos.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -51257,6 +56489,135 @@
         "word": "reciprocità",
         "translation": "reciprocidad",
         "example": "A discussão esclarece o papel de reciprocità."
+      },
+      {
+        "word": "objetivo",
+        "translation": "objetivo",
+        "example": "Nosso objetivo é encontrar uma solução sustentável."
+      },
+      {
+        "word": "justificar",
+        "translation": "justificar",
+        "example": "Preciso justificar minha proposta com dados claros."
+      },
+      {
+        "word": "argumentar",
+        "translation": "argumentar",
+        "example": "É essencial argumentar com exemplos concretos."
+      },
+      {
+        "word": "conciliar",
+        "translation": "conciliar",
+        "example": "Vamos tentar conciliar os interesses das partes."
+      },
+      {
+        "word": "mediador",
+        "translation": "mediador",
+        "example": "O mediador facilitou a comunicação entre os grupos."
+      },
+      {
+        "word": "perspectiva",
+        "translation": "perspectiva",
+        "example": "Cada interlocutor trouxe uma perspectiva diferente."
+      },
+      {
+        "word": "contraproposta",
+        "translation": "contrapropuesta",
+        "example": "Apresentei uma contraproposta razoável."
+      },
+      {
+        "word": "consenso",
+        "translation": "consenso",
+        "example": "Buscamos um consenso sobre os critérios."
+      },
+      {
+        "word": "empatia",
+        "translation": "empatía",
+        "example": "Demonstrar empatia melhora o diálogo."
+      },
+      {
+        "word": "sintetizar",
+        "translation": "sintetizar",
+        "example": "Consegui sintetizar os pontos-chave da reunião."
+      },
+      {
+        "word": "validar",
+        "translation": "validar",
+        "example": "É importante validar as preocupações do outro."
+      },
+      {
+        "word": "impasse",
+        "translation": "punto muerto",
+        "example": "Houve um impasse sobre o prazo."
+      },
+      {
+        "word": "interlocutor",
+        "translation": "interlocutor",
+        "example": "O interlocutor esclareceu suas prioridades."
+      },
+      {
+        "word": "contextualizar",
+        "translation": "contextualizar",
+        "example": "Preciso contextualizar a proposta historicamente."
+      },
+      {
+        "word": "pragmática",
+        "translation": "pragmática",
+        "example": "A análise pragmática ajuda a interpretar intenções."
+      },
+      {
+        "word": "tolerância",
+        "translation": "tolerancia",
+        "example": "A tolerância cultural é essencial na mediação."
+      },
+      {
+        "word": "negociação",
+        "translation": "negociación",
+        "example": "A negociação exigiu flexibilidade e argumentos claros."
+      },
+      {
+        "word": "facilitar",
+        "translation": "facilitar",
+        "example": "Vou facilitar a próxima sessão de diálogo."
+      },
+      {
+        "word": "escuta ativa",
+        "translation": "escucha activa",
+        "example": "Praticar escuta ativa reduz mal-entendidos."
+      },
+      {
+        "word": "alinhamento",
+        "translation": "alineamiento",
+        "example": "Precisamos de alinhamento sobre prioridades."
+      },
+      {
+        "word": "clareza",
+        "translation": "claridad",
+        "example": "A clareza dos argumentos convenceu o grupo."
+      },
+      {
+        "word": "Você pode me ajudar?",
+        "translation": "¿Puedes ayudarme?",
+        "example": "Você pode me ajudar a esclarecer esse ponto?",
+        "category": "expression"
+      },
+      {
+        "word": "Na minha opinião,",
+        "translation": "En mi opinión,",
+        "example": "Na minha opinião, devemos priorizar a proposta A.",
+        "category": "expression"
+      },
+      {
+        "word": "Concordo plenamente.",
+        "translation": "Concuerdo plenamente.",
+        "example": "Concordo plenamente com os critérios apresentados.",
+        "category": "expression"
+      },
+      {
+        "word": "Tenho uma dúvida.",
+        "translation": "Tengo una duda.",
+        "example": "Tenho uma dúvida sobre o impacto dessa medida.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -54604,6 +59965,102 @@
           "juntos · conversación",
           "juntos · práctica"
         ]
+      },
+      {
+        "word": "votar",
+        "translation": "votar",
+        "example": "Os moradores vão votar amanhã."
+      },
+      {
+        "word": "assembleia",
+        "translation": "asamblea",
+        "example": "Vou participar da assembleia do bairro."
+      },
+      {
+        "word": "debate",
+        "translation": "debate",
+        "example": "Houve um debate sobre segurança no parque."
+      },
+      {
+        "word": "comitê",
+        "translation": "comité",
+        "example": "O comitê organizou a limpeza do parque."
+      },
+      {
+        "word": "consulta pública",
+        "translation": "consulta pública",
+        "example": "A prefeitura abriu uma consulta pública sobre o projeto."
+      },
+      {
+        "word": "campanha",
+        "translation": "campaña",
+        "example": "A campanha arrecadou alimentos para famílias."
+      },
+      {
+        "word": "representante",
+        "translation": "representante",
+        "example": "Ela foi eleita representante dos moradores."
+      },
+      {
+        "word": "colaboração",
+        "translation": "colaboración",
+        "example": "A colaboração entre vizinhos facilitou o trabalho."
+      },
+      {
+        "word": "reunião",
+        "translation": "reunión",
+        "example": "Marcaram uma reunião para discutir o projeto."
+      },
+      {
+        "word": "protesto",
+        "translation": "protesta",
+        "example": "Houve um protesto pacífico na praça central."
+      },
+      {
+        "word": "recursos",
+        "translation": "recursos",
+        "example": "Os recursos para o projeto são limitados."
+      },
+      {
+        "word": "benefício",
+        "translation": "beneficio",
+        "example": "O projeto trouxe benefício para a comunidade."
+      },
+      {
+        "word": "Pode me ajudar?",
+        "translation": "¿Puedes ayudarme?",
+        "example": "Pode me ajudar a organizar a reunião?",
+        "category": "expression"
+      },
+      {
+        "word": "Na minha opinião,",
+        "translation": "En mi opinión,",
+        "example": "Na minha opinião, devemos começar pelo parque.",
+        "category": "expression"
+      },
+      {
+        "word": "Concordo com você",
+        "translation": "Estoy de acuerdo contigo",
+        "example": "Concordo com você sobre a prioridade das ações.",
+        "category": "expression"
+      },
+      {
+        "word": "Tenho uma dúvida",
+        "translation": "Tengo una duda",
+        "example": "Tenho uma dúvida sobre o cronograma da campanha.",
+        "category": "expression"
+      },
+      {
+        "word": "Com licença",
+        "translation": "Con permiso",
+        "example": "Com licença, posso falar com o comitê?",
+        "category": "expression"
+      },
+      {
+        "word": "E se fizéssemos...",
+        "translation": "¿Y si hiciéramos...?",
+        "example": "E se fizéssemos uma limpeza no fim de semana?",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -55693,6 +61150,138 @@
         "word": "raggiungere",
         "translation": "alcanzar",
         "example": "A discussão esclarece o papel de raggiungere."
+      },
+      {
+        "word": "viabilidade",
+        "translation": "viabilidad",
+        "example": "A viabilidade do projeto foi avaliada nesta reunião."
+      },
+      {
+        "word": "custo-benefício",
+        "translation": "costo-beneficio",
+        "example": "Precisamos analisar o custo-benefício antes de decidir."
+      },
+      {
+        "word": "impacto",
+        "translation": "impacto",
+        "example": "O impacto no orçamento ainda é incerto."
+      },
+      {
+        "word": "sustentabilidade",
+        "translation": "sustentabilidad",
+        "example": "A sustentabilidade deve orientar nossa escolha."
+      },
+      {
+        "word": "vantagem",
+        "translation": "ventaja",
+        "example": "Uma vantagem dessa solução é a rapidez de implementação."
+      },
+      {
+        "word": "desvantagem",
+        "translation": "desventaja",
+        "example": "A principal desvantagem é o custo inicial alto."
+      },
+      {
+        "word": "compensação",
+        "translation": "compensación",
+        "example": "Há uma compensação entre qualidade e velocidade."
+      },
+      {
+        "word": "critério",
+        "translation": "criterio",
+        "example": "Definimos um critério claro para avaliar as propostas."
+      },
+      {
+        "word": "priorização",
+        "translation": "priorización",
+        "example": "A priorização das tarefas reduzirá o risco de atraso."
+      },
+      {
+        "word": "implementação",
+        "translation": "implementación",
+        "example": "A implementação exigirá recursos extras."
+      },
+      {
+        "word": "mitigação",
+        "translation": "mitigación",
+        "example": "Propusemos medidas de mitigação para o risco identificado."
+      },
+      {
+        "word": "curva de aprendizado",
+        "translation": "curva de aprendizaje",
+        "example": "A curva de aprendizado dessa ferramenta é íngreme."
+      },
+      {
+        "word": "risco",
+        "translation": "riesgo",
+        "example": "O risco de falha técnica é moderado."
+      },
+      {
+        "word": "robustez",
+        "translation": "robustez",
+        "example": "Buscamos a robustez da solução em testes reais."
+      },
+      {
+        "word": "escalabilidade",
+        "translation": "escalabilidad",
+        "example": "A escalabilidade será fundamental para o crescimento."
+      },
+      {
+        "word": "eficiência",
+        "translation": "eficiencia",
+        "example": "Essa abordagem melhora a eficiência operacional."
+      },
+      {
+        "word": "eficácia",
+        "translation": "eficacia",
+        "example": "Precisamos comprovar a eficácia antes de avançar."
+      },
+      {
+        "word": "justificativa",
+        "translation": "justificación",
+        "example": "Envie a justificativa por escrito para o comitê."
+      },
+      {
+        "word": "Na minha opinião",
+        "translation": "En mi opinión",
+        "example": "Na minha opinião, essa proposta é a mais equilibrada.",
+        "category": "expression"
+      },
+      {
+        "word": "Você pode me ajudar com...",
+        "translation": "¿Puedes ayudarme con...?",
+        "example": "Você pode me ajudar com a análise dos custos?",
+        "category": "expression"
+      },
+      {
+        "word": "Concordo em parte",
+        "translation": "Estoy de acuerdo en parte",
+        "example": "Concordo em parte, mas precisamos de dados adicionais.",
+        "category": "expression"
+      },
+      {
+        "word": "Tenho dúvidas sobre...",
+        "translation": "Tengo dudas sobre...",
+        "example": "Tenho dúvidas sobre a estimativa de prazo.",
+        "category": "expression"
+      },
+      {
+        "word": "Por favor, poderia",
+        "translation": "Por favor, ¿podría...?",
+        "example": "Por favor, poderia explicar o critério usado?",
+        "category": "expression"
+      },
+      {
+        "word": "Isso se deve a",
+        "translation": "Esto se debe a",
+        "example": "Isso se deve a limitações no orçamento.",
+        "category": "expression"
+      },
+      {
+        "word": "Como consequência",
+        "translation": "Como consecuencia",
+        "example": "Como consequência, teremos que adiar a entrega.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -55806,6 +61395,136 @@
         "word": "coerenza",
         "translation": "coherencia",
         "example": "A discussão esclarece o papel de coerenza."
+      },
+      {
+        "word": "análise",
+        "translation": "análisis",
+        "example": "Fiz uma análise comparativa das duas soluções."
+      },
+      {
+        "word": "viabilidade",
+        "translation": "viabilidad",
+        "example": "A viabilidade do projeto depende do orçamento."
+      },
+      {
+        "word": "custo-benefício",
+        "translation": "costo-beneficio",
+        "example": "Devemos avaliar o custo-benefício de cada alternativa."
+      },
+      {
+        "word": "eficácia",
+        "translation": "eficacia",
+        "example": "A eficácia da solução foi comprovada em testes."
+      },
+      {
+        "word": "eficiência",
+        "translation": "eficiencia",
+        "example": "Buscamos uma solução que maximize a eficiência operacional."
+      },
+      {
+        "word": "impacto",
+        "translation": "impacto",
+        "example": "O impacto ambiental também é um critério relevante."
+      },
+      {
+        "word": "sustentabilidade",
+        "translation": "sustentabilidad",
+        "example": "Priorize opções que garantam sustentabilidade a longo prazo."
+      },
+      {
+        "word": "riscos",
+        "translation": "riesgos",
+        "example": "Identificamos os principais riscos do plano."
+      },
+      {
+        "word": "mitigar",
+        "translation": "mitigar",
+        "example": "Precisamos mitigar os riscos antes da implementação."
+      },
+      {
+        "word": "implementação",
+        "translation": "implementación",
+        "example": "A implementação requer treinamento da equipe."
+      },
+      {
+        "word": "evidência",
+        "translation": "evidencia",
+        "example": "Há evidências claras que suportam essa proposta."
+      },
+      {
+        "word": "dados",
+        "translation": "datos",
+        "example": "Os dados mostram uma tendência favorável."
+      },
+      {
+        "word": "benchmarking",
+        "translation": "análisis comparativo",
+        "example": "Fizemos benchmarking com empresas do setor."
+      },
+      {
+        "word": "proposta",
+        "translation": "propuesta",
+        "example": "Enviei a proposta com os argumentos técnicos."
+      },
+      {
+        "word": "alternativa",
+        "translation": "alternativa",
+        "example": "Apresente outra alternativa com menos risco."
+      },
+      {
+        "word": "partes interessadas",
+        "translation": "partes interesadas",
+        "example": "Reuni com as partes interessadas para alinhar expectativas."
+      },
+      {
+        "word": "qualitativo",
+        "translation": "cualitativo",
+        "example": "Fizemos uma avaliação qualitativa dos resultados."
+      },
+      {
+        "word": "quantitativo",
+        "translation": "cuantitativo",
+        "example": "Também apresentamos dados quantitativos sobre desempenho."
+      },
+      {
+        "word": "sintetizar",
+        "translation": "sintetizar",
+        "example": "Consigo sintetizar os argumentos em dois pontos."
+      },
+      {
+        "word": "contrapor",
+        "translation": "contraponer",
+        "example": "É útil contrapor as duas propostas para clarear diferenças."
+      },
+      {
+        "word": "Você pode me ajudar com isso?",
+        "translation": "¿Puedes ayudarme con esto?",
+        "example": "Você pode me ajudar com isso durante a reunião?",
+        "category": "expression"
+      },
+      {
+        "word": "Na minha opinião,",
+        "translation": "En mi opinión,",
+        "example": "Na minha opinião, essa alternativa é mais sustentável.",
+        "category": "expression"
+      },
+      {
+        "word": "Concordo plenamente.",
+        "translation": "Concuerdo plenamente.",
+        "example": "Concordo plenamente com os critérios apresentados.",
+        "category": "expression"
+      },
+      {
+        "word": "Tenho uma dúvida.",
+        "translation": "Tengo una duda.",
+        "example": "Tenho uma dúvida sobre a metodologia proposta.",
+        "category": "expression"
+      },
+      {
+        "word": "Por favor, poderia explicar melhor?",
+        "translation": "Por favor, ¿podría explicar mejor?",
+        "example": "Por favor, poderia explicar melhor os critérios de avaliação?",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -55919,6 +61638,137 @@
         "word": "realizzabile",
         "translation": "realizable",
         "example": "A discussão esclarece o papel de realizzabile."
+      },
+      {
+        "word": "viabilidade",
+        "translation": "viabilidad",
+        "example": "A viabilidade do projeto foi avaliada em três meses."
+      },
+      {
+        "word": "custo-benefício",
+        "translation": "costo-beneficio",
+        "example": "Devemos analisar o custo-benefício antes de decidir."
+      },
+      {
+        "word": "compensação",
+        "translation": "compensación",
+        "example": "Há uma compensação entre velocidade e precisão."
+      },
+      {
+        "word": "metodologia",
+        "translation": "metodología",
+        "example": "A metodologia adotada inclui testes e simulações."
+      },
+      {
+        "word": "escopo",
+        "translation": "alcance",
+        "example": "O escopo da proposta abrange três fases."
+      },
+      {
+        "word": "paradigma",
+        "translation": "paradigma",
+        "example": "Esse paradigma exige uma mudança de mentalidade."
+      },
+      {
+        "word": "convergência",
+        "translation": "convergencia",
+        "example": "Observamos convergência entre os indicadores."
+      },
+      {
+        "word": "divergência",
+        "translation": "divergencia",
+        "example": "Existe divergência nas estimativas de custo."
+      },
+      {
+        "word": "consenso",
+        "translation": "consenso",
+        "example": "Alcançamos consenso sobre a prioridade das ações."
+      },
+      {
+        "word": "implicação",
+        "translation": "implicación",
+        "example": "A implicação financeira é significativa."
+      },
+      {
+        "word": "sustentabilidade",
+        "translation": "sustentabilidad",
+        "example": "A sustentabilidade do modelo foi comprovada."
+      },
+      {
+        "word": "mitigação",
+        "translation": "mitigación",
+        "example": "Propõe-se a mitigação dos riscos ambientais."
+      },
+      {
+        "word": "resiliência",
+        "translation": "resiliencia",
+        "example": "A resiliência da equipe foi decisiva."
+      },
+      {
+        "word": "referência",
+        "translation": "referencia",
+        "example": "Utilizamos a referência do setor como parâmetro."
+      },
+      {
+        "word": "pragmatismo",
+        "translation": "pragmatismo",
+        "example": "O pragmatismo favoreceu uma solução imediata."
+      },
+      {
+        "word": "robustez",
+        "translation": "robustez",
+        "example": "A robustez do sistema reduz falhas operacionais."
+      },
+      {
+        "word": "eficácia",
+        "translation": "eficacia",
+        "example": "Medimos a eficácia das ações trimestralmente."
+      },
+      {
+        "word": "eficiência",
+        "translation": "eficiencia",
+        "example": "Devemos melhorar a eficiência dos processos."
+      },
+      {
+        "word": "viés",
+        "translation": "sesgo",
+        "example": "Detectamos um viés nos dados coletados."
+      },
+      {
+        "word": "Poderia me ajudar com isso?",
+        "translation": "¿Podría ayudarme con esto?",
+        "example": "Poderia me ajudar com isso durante a reunião?",
+        "category": "expression"
+      },
+      {
+        "word": "Na minha opinião,",
+        "translation": "En mi opinión,",
+        "example": "Na minha opinião, a solução B é mais sustentável.",
+        "category": "expression"
+      },
+      {
+        "word": "Concordo plenamente",
+        "translation": "Estoy completamente de acuerdo",
+        "example": "Concordo plenamente com a avaliação técnica.",
+        "category": "expression"
+      },
+      {
+        "word": "Tenho dúvidas quanto à",
+        "translation": "Tengo dudas respecto a",
+        "example": "Tenho dúvidas quanto à estimativa de prazos.",
+        "category": "expression"
+      },
+      {
+        "word": "Por gentileza,",
+        "translation": "Por favor,",
+        "example": "Por gentileza, envie o relatório até sexta.",
+        "category": "expression"
+      },
+      {
+        "word": "Em consequência disso,",
+        "translation": "En consecuencia,",
+        "example": "Em consequência disso, ajustamos o cronograma.",
+        "category": "expression"
       }
     ],
     "dialogue": [],

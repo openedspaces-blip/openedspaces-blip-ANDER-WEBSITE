@@ -4377,6 +4377,102 @@
           "zusammen · conversación",
           "zusammen · práctica"
         ]
+      },
+      {
+        "word": "der Vorname",
+        "translation": "nombre (de pila)",
+        "example": "Wie ist dein Vorname?"
+      },
+      {
+        "word": "der Nachname",
+        "translation": "apellido",
+        "example": "Wie ist dein Nachname?"
+      },
+      {
+        "word": "die Adresse",
+        "translation": "dirección",
+        "example": "Kann ich deine Adresse haben?"
+      },
+      {
+        "word": "die Telefonnummer",
+        "translation": "número de teléfono",
+        "example": "Ich habe deine Telefonnummer nicht."
+      },
+      {
+        "word": "die E-Mail-Adresse",
+        "translation": "correo electrónico",
+        "example": "Schreib mir deine E‑Mail‑Adresse, bitte."
+      },
+      {
+        "word": "die Stadt",
+        "translation": "ciudad",
+        "example": "In welcher Stadt wohnst du?"
+      },
+      {
+        "word": "sprechen",
+        "translation": "hablar",
+        "example": "Ich spreche ein bisschen Deutsch."
+      },
+      {
+        "word": "verstehen",
+        "translation": "entender",
+        "example": "Ich verstehe dich gut."
+      },
+      {
+        "word": "die Frage",
+        "translation": "pregunta",
+        "example": "Ich habe eine Frage."
+      },
+      {
+        "word": "antworten",
+        "translation": "responder",
+        "example": "Bitte antworte kurz."
+      },
+      {
+        "word": "freundlich",
+        "translation": "amable",
+        "example": "Die Lehrerin ist sehr freundlich."
+      },
+      {
+        "word": "kennenlernen",
+        "translation": "conocer, conocer a alguien",
+        "example": "Ich möchte dich kennenlernen."
+      },
+      {
+        "word": "Wie heißt du?",
+        "translation": "¿Cómo te llamas?",
+        "example": "Wie heißt du?",
+        "category": "expression"
+      },
+      {
+        "word": "Wie geht's?",
+        "translation": "¿Cómo estás?",
+        "example": "Wie geht's? Gut, danke.",
+        "category": "expression"
+      },
+      {
+        "word": "Freut mich",
+        "translation": "Mucho gusto",
+        "example": "Freut mich, dich kennenzulernen.",
+        "category": "expression"
+      },
+      {
+        "word": "Entschuldigung",
+        "translation": "Perdón",
+        "example": "Entschuldigung, können Sie das wiederholen?",
+        "category": "expression"
+      },
+      {
+        "word": "Kannst du mir helfen?",
+        "translation": "¿Puedes ayudarme?",
+        "example": "Kannst du mir helfen? Ich suche die Straße.",
+        "category": "expression"
+      },
+      {
+        "word": "Ich verstehe nicht",
+        "translation": "No entiendo",
+        "example": "Ich verstehe nicht, bitte langsam sprechen.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -4815,6 +4911,101 @@
           "zusammen · conversación",
           "zusammen · práctica"
         ]
+      },
+      {
+        "word": "die Verabredung",
+        "translation": "la cita",
+        "example": "Hast du heute eine Verabredung?"
+      },
+      {
+        "word": "der Zeitplan",
+        "translation": "el horario",
+        "example": "Mein Zeitplan ist diese Woche voll."
+      },
+      {
+        "word": "die Erinnerung",
+        "translation": "el recordatorio",
+        "example": "Ich stelle die Erinnerung auf neun Uhr."
+      },
+      {
+        "word": "die Uhrzeit",
+        "translation": "la hora",
+        "example": "Welche Uhrzeit passt dir?"
+      },
+      {
+        "word": "der Morgen",
+        "translation": "la mañana",
+        "example": "Am Morgen trinke ich Kaffee."
+      },
+      {
+        "word": "der Nachmittag",
+        "translation": "la tarde",
+        "example": "Am Nachmittag habe ich Zeit."
+      },
+      {
+        "word": "die Gewohnheit",
+        "translation": "el hábito",
+        "example": "Frühes Aufstehen ist meine Gewohnheit."
+      },
+      {
+        "word": "regelmäßig",
+        "translation": "regularmente",
+        "example": "Ich übe regelmäßig Deutsch."
+      },
+      {
+        "word": "absagen",
+        "translation": "cancelar",
+        "example": "Ich muss den Termin absagen."
+      },
+      {
+        "word": "bestätigen",
+        "translation": "confirmar",
+        "example": "Bitte bestätige den Termin per E-Mail."
+      },
+      {
+        "word": "die Verspätung",
+        "translation": "el retraso",
+        "example": "Entschuldigung für die Verspätung."
+      },
+      {
+        "word": "der Terminvorschlag",
+        "translation": "la propuesta de cita",
+        "example": "Der Terminvorschlag passt mir gut."
+      },
+      {
+        "word": "die Uhr",
+        "translation": "el reloj",
+        "example": "Die Uhr zeigt zehn Uhr an."
+      },
+      {
+        "word": "Kannst du mir helfen?",
+        "translation": "¿Puedes ayudarme?",
+        "example": "Kannst du mir helfen, den Termin zu finden?",
+        "category": "expression"
+      },
+      {
+        "word": "Ich denke, dass...",
+        "translation": "Pienso que...",
+        "example": "Ich denke, dass zehn Uhr besser ist.",
+        "category": "expression"
+      },
+      {
+        "word": "Einverstanden",
+        "translation": "De acuerdo",
+        "example": "Einverstanden, dann treffen wir uns um drei.",
+        "category": "expression"
+      },
+      {
+        "word": "Ich bin mir nicht sicher",
+        "translation": "No estoy seguro",
+        "example": "Ich bin mir nicht sicher wegen der Uhrzeit.",
+        "category": "expression"
+      },
+      {
+        "word": "Könnten wir den Termin ändern?",
+        "translation": "¿Podríamos cambiar la cita?",
+        "example": "Könnten wir den Termin auf morgen ändern?",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -5253,6 +5444,102 @@
           "zusammen · conversación",
           "zusammen · práctica"
         ]
+      },
+      {
+        "word": "die Priorität",
+        "translation": "la prioridad",
+        "example": "Die Priorität ist die Kundenzufriedenheit."
+      },
+      {
+        "word": "der Zeitplan",
+        "translation": "el cronograma",
+        "example": "Der Zeitplan wurde diese Woche aktualisiert."
+      },
+      {
+        "word": "die Planung",
+        "translation": "la planificación",
+        "example": "Die Planung dauert noch zwei Tage."
+      },
+      {
+        "word": "koordinieren",
+        "translation": "coordinar",
+        "example": "Ich koordiniere die Aufgaben im Projekt."
+      },
+      {
+        "word": "delegieren",
+        "translation": "delegar",
+        "example": "Du kannst diese Aufgabe delegieren."
+      },
+      {
+        "word": "die Aufgabe",
+        "translation": "la tarea",
+        "example": "Diese Aufgabe ist bis Freitag zu erledigen."
+      },
+      {
+        "word": "die Sitzung",
+        "translation": "la reunión",
+        "example": "Die Sitzung beginnt um neun Uhr."
+      },
+      {
+        "word": "die Strategie",
+        "translation": "la estrategia",
+        "example": "Unsere Strategie fokussiert auf Effizienz."
+      },
+      {
+        "word": "die Lösung",
+        "translation": "la solución",
+        "example": "Wir müssen eine schnelle Lösung finden."
+      },
+      {
+        "word": "der Kompromiss",
+        "translation": "el compromiso / compromiso mutuo",
+        "example": "Ein Kompromiss war notwendig für das Projekt."
+      },
+      {
+        "word": "die Ressource",
+        "translation": "el recurso",
+        "example": "Die Ressource Personal ist begrenzt."
+      },
+      {
+        "word": "effizient",
+        "translation": "eficiente",
+        "example": "Wir arbeiten effizient, um Zeit zu sparen."
+      },
+      {
+        "word": "Kannst du mir helfen?",
+        "translation": "¿Puedes ayudarme?",
+        "example": "Kannst du mir helfen, das Meeting vorzubereiten?",
+        "category": "expression"
+      },
+      {
+        "word": "Meiner Meinung nach",
+        "translation": "En mi opinión",
+        "example": "Meiner Meinung nach sollten wir die Prioritäten ändern.",
+        "category": "expression"
+      },
+      {
+        "word": "Ich stimme zu.",
+        "translation": "Estoy de acuerdo.",
+        "example": "Ich stimme zu, das ist der beste Plan.",
+        "category": "expression"
+      },
+      {
+        "word": "Ich bin nicht sicher, ob...",
+        "translation": "No estoy seguro de si...",
+        "example": "Ich bin nicht sicher, ob das Budget reicht.",
+        "category": "expression"
+      },
+      {
+        "word": "Könnten wir das später besprechen?",
+        "translation": "¿Podríamos hablar de esto más tarde?",
+        "example": "Könnten wir das später besprechen, wenn alle da sind?",
+        "category": "expression"
+      },
+      {
+        "word": "Das liegt daran, dass...",
+        "translation": "Eso se debe a que...",
+        "example": "Das liegt daran, dass wir weniger Ressourcen haben.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -6402,6 +6689,136 @@
         "word": "valutare",
         "translation": "evaluar",
         "example": "Die Diskussion klärt die Rolle von valutare."
+      },
+      {
+        "word": "die Frist",
+        "translation": "plazo",
+        "example": "Die Frist für die Bewerbung endet nächste Woche."
+      },
+      {
+        "word": "das Ziel",
+        "translation": "objetivo",
+        "example": "Das Ziel des Projekts ist die Markteinführung im Herbst."
+      },
+      {
+        "word": "die Verantwortung",
+        "translation": "responsabilidad",
+        "example": "Die Verantwortung für Qualität darf nicht unterschätzt werden."
+      },
+      {
+        "word": "zuständig sein",
+        "translation": "estar a cargo",
+        "example": "Für die technische Umsetzung ist das Team zuständig."
+      },
+      {
+        "word": "die Priorität",
+        "translation": "prioridad",
+        "example": "Die Priorität liegt auf Kundenzufriedenheit."
+      },
+      {
+        "word": "die Ressource",
+        "translation": "recurso",
+        "example": "Die Ressource Zeit ist knapp."
+      },
+      {
+        "word": "koordinieren",
+        "translation": "coordinar",
+        "example": "Ich koordiniere die Aufgabenverteilung."
+      },
+      {
+        "word": "bewerten",
+        "translation": "evaluar",
+        "example": "Wir müssen die Risiken bewerten."
+      },
+      {
+        "word": "die Priorisierung",
+        "translation": "priorización",
+        "example": "Die Priorisierung der Aufgaben ist entscheidend."
+      },
+      {
+        "word": "das Budget",
+        "translation": "presupuesto",
+        "example": "Das Budget wurde für das nächste Quartal genehmigt."
+      },
+      {
+        "word": "realisierbar",
+        "translation": "realizable",
+        "example": "Das Ziel ist realisierbar innerhalb von drei Monaten."
+      },
+      {
+        "word": "die Stakeholder",
+        "translation": "partes interesadas",
+        "example": "Die Stakeholder müssen über Änderungen informiert werden."
+      },
+      {
+        "word": "die Kommunikation",
+        "translation": "comunicación",
+        "example": "Klare Kommunikation reduziert Missverständnisse."
+      },
+      {
+        "word": "das Protokoll",
+        "translation": "acta",
+        "example": "Bitte lesen Sie das Protokoll vom letzten Treffen."
+      },
+      {
+        "word": "der Meilenstein",
+        "translation": "hito",
+        "example": "Der nächste Meilenstein ist die Fertigstellung des Prototyps."
+      },
+      {
+        "word": "die Qualitätssicherung",
+        "translation": "aseguramiento de la calidad",
+        "example": "Die Qualitätssicherung prüft alle Produkte vor der Auslieferung."
+      },
+      {
+        "word": "priorisieren",
+        "translation": "priorizar",
+        "example": "Wir müssen die Aufgaben nach Dringlichkeit priorisieren."
+      },
+      {
+        "word": "die Umsetzung",
+        "translation": "implementación",
+        "example": "Die Umsetzung des Plans beginnt morgen."
+      },
+      {
+        "word": "die Verzögerung",
+        "translation": "retraso",
+        "example": "Die Verzögerung beeinträchtigt den Zeitplan."
+      },
+      {
+        "word": "der Zeitplan",
+        "translation": "cronograma",
+        "example": "Der Zeitplan muss angepasst werden."
+      },
+      {
+        "word": "Rückmeldung geben",
+        "translation": "dar retroalimentación",
+        "example": "Bitte geben Sie bis Freitag eine Rückmeldung.",
+        "category": "expression"
+      },
+      {
+        "word": "Könnten Sie mir helfen?",
+        "translation": "¿Podría ayudarme?",
+        "example": "Könnten Sie mir helfen, die Prioritäten zu klären?",
+        "category": "expression"
+      },
+      {
+        "word": "Meiner Meinung nach",
+        "translation": "en mi opinión",
+        "example": "Meiner Meinung nach sollten wir mehr Ressourcen einsetzen.",
+        "category": "expression"
+      },
+      {
+        "word": "Ich stimme zu",
+        "translation": "estoy de acuerdo",
+        "example": "Ich stimme zu, das ist die beste Lösung.",
+        "category": "expression"
+      },
+      {
+        "word": "Ich habe Bedenken",
+        "translation": "tengo reservas",
+        "example": "Ich habe Bedenken bezüglich des Budgets.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -6515,6 +6932,137 @@
         "word": "sfumatura",
         "translation": "matiz",
         "example": "Die Diskussion klärt die Rolle von sfumatura."
+      },
+      {
+        "word": "das Argument",
+        "translation": "el argumento",
+        "example": "Das starke Argument überzeugte die Mehrheit."
+      },
+      {
+        "word": "die These",
+        "translation": "la tesis",
+        "example": "Die These wurde klar formuliert."
+      },
+      {
+        "word": "das Gegenargument",
+        "translation": "el contraargumento",
+        "example": "Er brachte ein überzeugendes Gegenargument vor."
+      },
+      {
+        "word": "die Begründung",
+        "translation": "la justificación",
+        "example": "Die Begründung für die Entscheidung war nachvollziehbar."
+      },
+      {
+        "word": "die Prämisse",
+        "translation": "la premisa",
+        "example": "Die Prämisse ist nicht ausreichend belegt."
+      },
+      {
+        "word": "die Schlussfolgerung",
+        "translation": "la conclusión",
+        "example": "Aus den Ergebnissen ziehe ich diese Schlussfolgerung."
+      },
+      {
+        "word": "der Beleg",
+        "translation": "la prueba",
+        "example": "Für seine Behauptung fehlt ein valider Beleg."
+      },
+      {
+        "word": "die Kohärenz",
+        "translation": "la coherencia",
+        "example": "Die Kohärenz des Textes ist eindrucksvoll."
+      },
+      {
+        "word": "die Rhetorik",
+        "translation": "la retórica",
+        "example": "Gute Rhetorik verstärkt die Wirkung einer Rede."
+      },
+      {
+        "word": "die Überzeugungskraft",
+        "translation": "la fuerza persuasiva",
+        "example": "Ihre Argumente hatten große Überzeugungskraft."
+      },
+      {
+        "word": "die Perspektive",
+        "translation": "la perspectiva",
+        "example": "Wir sollten die Perspektive der Betroffenen berücksichtigen."
+      },
+      {
+        "word": "der Einwand",
+        "translation": "la objeción",
+        "example": "Gibt es gegen diesen Vorschlag noch einen Einwand?"
+      },
+      {
+        "word": "die Widerlegung",
+        "translation": "la refutación",
+        "example": "Die Widerlegung seiner These war fundiert."
+      },
+      {
+        "word": "die Präzisierung",
+        "translation": "la precisión",
+        "example": "Eine Präzisierung des Begriffs erscheint nötig."
+      },
+      {
+        "word": "die Argumentationsstruktur",
+        "translation": "la estructura argumentativa",
+        "example": "Die Argumentationsstruktur ist logisch aufgebaut."
+      },
+      {
+        "word": "der Sachverhalt",
+        "translation": "el hecho / la situación fáctica",
+        "example": "Der Sachverhalt wurde korrekt dargestellt."
+      },
+      {
+        "word": "die Moderation",
+        "translation": "la moderación / conducción de la discusión",
+        "example": "Die Moderation leitete die Runde sachlich."
+      },
+      {
+        "word": "die Diskussionsrunde",
+        "translation": "la mesa redonda",
+        "example": "Die Diskussionsrunde dauerte eine Stunde."
+      },
+      {
+        "word": "das Publikum",
+        "translation": "el público",
+        "example": "Das Publikum reagierte mit Applaus."
+      },
+      {
+        "word": "Könnten Sie mir kurz helfen?",
+        "translation": "¿Podría ayudarme un momento?",
+        "example": "Könnten Sie mir kurz helfen?",
+        "category": "expression"
+      },
+      {
+        "word": "Meiner Meinung nach...",
+        "translation": "En mi opinión...",
+        "example": "Meiner Meinung nach ist die Begründung stichhaltig.",
+        "category": "expression"
+      },
+      {
+        "word": "Da stimme ich Ihnen zu.",
+        "translation": "Estoy de acuerdo con usted.",
+        "example": "Da stimme ich Ihnen zu, das ist ein wichtiger Punkt.",
+        "category": "expression"
+      },
+      {
+        "word": "Das bezweifle ich.",
+        "translation": "Lo dudo.",
+        "example": "Das bezweifle ich, weil die Daten widersprüchlich sind.",
+        "category": "expression"
+      },
+      {
+        "word": "Entschuldigen Sie die Unterbrechung.",
+        "translation": "Disculpe la interrupción.",
+        "example": "Entschuldigen Sie die Unterbrechung, darf ich etwas hinzufügen?",
+        "category": "expression"
+      },
+      {
+        "word": "Daraus folgt, dass...",
+        "translation": "De ello se deduce que...",
+        "example": "Daraus folgt, dass wir unsere These revidieren müssen.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -6628,6 +7176,137 @@
         "word": "persuasivo",
         "translation": "persuasivo",
         "example": "Die Diskussion klärt die Rolle von persuasivo."
+      },
+      {
+        "word": "die Überzeugung",
+        "translation": "la convicción",
+        "example": "Seine Überzeugung gründete sich auf belastbaren Fakten."
+      },
+      {
+        "word": "überzeugen",
+        "translation": "convencer",
+        "example": "Sie konnte das Komitee mit ihren Argumenten überzeugen."
+      },
+      {
+        "word": "schlüssig",
+        "translation": "concluyente; coherente",
+        "example": "Ihr Argument war schlüssig und gut strukturiert."
+      },
+      {
+        "word": "plausibel",
+        "translation": "plausible",
+        "example": "Die Erklärung klang plausibel, aber nicht endgültig."
+      },
+      {
+        "word": "der Einwand",
+        "translation": "la objeción",
+        "example": "Ein häufiger Einwand betrifft die Methodik der Studie."
+      },
+      {
+        "word": "die Widerlegung",
+        "translation": "la refutación",
+        "example": "Die Widerlegung seiner These war klar und präzise."
+      },
+      {
+        "word": "die Prämisse",
+        "translation": "la premisa",
+        "example": "Die Prämisse des Arguments ist jedoch fragwürdig."
+      },
+      {
+        "word": "deduktiv",
+        "translation": "deductivo",
+        "example": "Die Argumentation folgte einem deduktiven Muster."
+      },
+      {
+        "word": "induktiv",
+        "translation": "inductivo",
+        "example": "Die Analyse arbeitete induktiv und zog allgemeine Schlüsse."
+      },
+      {
+        "word": "die Nuance",
+        "translation": "el matiz",
+        "example": "Man muss die Nuancen in der Formulierung beachten."
+      },
+      {
+        "word": "die Implikation",
+        "translation": "la implicación",
+        "example": "Die Implikation dieser Aussage ist politisch relevant."
+      },
+      {
+        "word": "rhetorisch",
+        "translation": "retórico",
+        "example": "Die rhetorische Frage blieb unbeantwortet."
+      },
+      {
+        "word": "die Evidenz",
+        "translation": "la evidencia",
+        "example": "Ohne klare Evidenz bleiben die Behauptungen spekulativ."
+      },
+      {
+        "word": "die Kohärenz",
+        "translation": "la coherencia",
+        "example": "Die Kohärenz des Textes überzeugte die Fachkollegen."
+      },
+      {
+        "word": "die Intention",
+        "translation": "la intención",
+        "example": "Die Intention des Autors war deutlich ersichtlich."
+      },
+      {
+        "word": "überzeugend",
+        "translation": "convincente",
+        "example": "Sein Vortrag war inhaltlich und rhetorisch überzeugend."
+      },
+      {
+        "word": "manipulierend",
+        "translation": "manipulador",
+        "example": "Manipulierende Strategien untergraben die Glaubwürdigkeit."
+      },
+      {
+        "word": "kontextualisieren",
+        "translation": "contextualizar",
+        "example": "Wir müssen die Aussage historisch kontextualisieren."
+      },
+      {
+        "word": "die Gegenargumentation",
+        "translation": "la contraargumentación",
+        "example": "Die Gegenargumentation wurde sorgfältig vorbereitet."
+      },
+      {
+        "word": "Könnten Sie mir kurz helfen?",
+        "translation": "¿Podría ayudarme brevemente?",
+        "example": "Könnten Sie mir kurz helfen? Ich möchte das Argument prüfen.",
+        "category": "expression"
+      },
+      {
+        "word": "Meiner Meinung nach",
+        "translation": "en mi opinión",
+        "example": "Meiner Meinung nach gelingt die Argumentation nicht vollständig.",
+        "category": "expression"
+      },
+      {
+        "word": "Da bin ich ganz Ihrer Meinung",
+        "translation": "estoy totalmente de acuerdo con usted",
+        "example": "Da bin ich ganz Ihrer Meinung; das ist nachvollziehbar.",
+        "category": "expression"
+      },
+      {
+        "word": "Darf ich kurz nachhaken?",
+        "translation": "¿Puedo preguntar brevemente?",
+        "example": "Darf ich kurz nachhaken? Wie definieren Sie hier 'Beweis'?",
+        "category": "expression"
+      },
+      {
+        "word": "Mit Verlaub",
+        "translation": "con todo respeto",
+        "example": "Mit Verlaub, das Argument übersieht einen zentralen Punkt.",
+        "category": "expression"
+      },
+      {
+        "word": "Aus diesem Grund",
+        "translation": "por este motivo",
+        "example": "Aus diesem Grund sollten wir die Schlussfolgerung überdenken.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -10834,6 +11513,102 @@
           "zusammen · conversación",
           "zusammen · práctica"
         ]
+      },
+      {
+        "word": "die Speisekarte",
+        "translation": "el menú",
+        "example": "Kann ich die Speisekarte sehen?"
+      },
+      {
+        "word": "der Kellner",
+        "translation": "el mesero",
+        "example": "Der Kellner bringt die Getränke."
+      },
+      {
+        "word": "die Bedienung",
+        "translation": "el servicio",
+        "example": "Die Bedienung ist freundlich."
+      },
+      {
+        "word": "der Kuchen",
+        "translation": "el pastel",
+        "example": "Der Kuchen ist frisch."
+      },
+      {
+        "word": "die Tasse",
+        "translation": "la taza",
+        "example": "Die Tasse ist heiß."
+      },
+      {
+        "word": "das Glas",
+        "translation": "el vaso",
+        "example": "Das Glas ist voll."
+      },
+      {
+        "word": "die Suppe",
+        "translation": "la sopa",
+        "example": "Die Suppe ist warm."
+      },
+      {
+        "word": "das Stück",
+        "translation": "el pedazo",
+        "example": "Ein Stück Kuchen, bitte."
+      },
+      {
+        "word": "bar",
+        "translation": "en efectivo",
+        "example": "Ich zahle bar."
+      },
+      {
+        "word": "die Kreditkarte",
+        "translation": "la tarjeta de crédito",
+        "example": "Ich zahle mit der Kreditkarte."
+      },
+      {
+        "word": "der Zucker",
+        "translation": "el azúcar",
+        "example": "Ich nehme Zucker."
+      },
+      {
+        "word": "bestellen",
+        "translation": "pedir",
+        "example": "Ich bestelle einen Kaffee."
+      },
+      {
+        "word": "Entschuldigung, können Sie mir helfen?",
+        "translation": "Disculpe, ¿puede ayudarme?",
+        "example": "Entschuldigung, können Sie mir helfen?",
+        "category": "expression"
+      },
+      {
+        "word": "Ich hätte gern die Rechnung.",
+        "translation": "Quisiera la cuenta.",
+        "example": "Ich hätte gern die Rechnung, bitte.",
+        "category": "expression"
+      },
+      {
+        "word": "Zusammen oder getrennt?",
+        "translation": "¿Juntos o por separado?",
+        "example": "Zusammen oder getrennt?",
+        "category": "expression"
+      },
+      {
+        "word": "Das schmeckt gut.",
+        "translation": "Está rico.",
+        "example": "Das schmeckt gut.",
+        "category": "expression"
+      },
+      {
+        "word": "Kann ich bitte zahlen?",
+        "translation": "¿Puedo pagar, por favor?",
+        "example": "Kann ich bitte zahlen?",
+        "category": "expression"
+      },
+      {
+        "word": "Darf ich noch etwas bestellen?",
+        "translation": "¿Puedo pedir algo más?",
+        "example": "Darf ich noch etwas bestellen?",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -11272,6 +12047,100 @@
           "zusammen · conversación",
           "zusammen · práctica"
         ]
+      },
+      {
+        "word": "die Küche",
+        "translation": "la cocina",
+        "example": "Die Küche ist groß und hell."
+      },
+      {
+        "word": "das Schlafzimmer",
+        "translation": "el dormitorio",
+        "example": "Das Schlafzimmer hat ein großes Fenster."
+      },
+      {
+        "word": "der Balkon",
+        "translation": "el balcón",
+        "example": "Auf dem Balkon stehen zwei Pflanzen."
+      },
+      {
+        "word": "die Terrasse",
+        "translation": "la terraza",
+        "example": "Die Terrasse ist ideal zum Entspannen."
+      },
+      {
+        "word": "der Aufzug",
+        "translation": "el ascensor",
+        "example": "Im Haus gibt es einen Aufzug."
+      },
+      {
+        "word": "der Keller",
+        "translation": "el sótano",
+        "example": "Der Keller ist trocken und sauber."
+      },
+      {
+        "word": "die Heizung",
+        "translation": "la calefacción",
+        "example": "Die Heizung funktioniert gut."
+      },
+      {
+        "word": "die Nebenkosten",
+        "translation": "los gastos de servicios",
+        "example": "Die Nebenkosten sind hoch im Winter."
+      },
+      {
+        "word": "der Vertrag",
+        "translation": "el contrato",
+        "example": "Der Vertrag läuft ein Jahr."
+      },
+      {
+        "word": "renovieren",
+        "translation": "renovar",
+        "example": "Wir wollen die Küche renovieren."
+      },
+      {
+        "word": "möbliert",
+        "translation": "amueblado",
+        "example": "Die Wohnung ist komplett möbliert."
+      },
+      {
+        "word": "unmöbliert",
+        "translation": "sin amueblar",
+        "example": "Die Wohnung ist unmöbliert und günstig."
+      },
+      {
+        "word": "die Lage",
+        "translation": "la ubicación",
+        "example": "Die Lage der Wohnung ist zentral."
+      },
+      {
+        "word": "die Nachbarschaft",
+        "translation": "el vecindario",
+        "example": "Die Nachbarschaft ist freundlich."
+      },
+      {
+        "word": "Können Sie mir kurz beim Umzug helfen?",
+        "translation": "¿Puede ayudarme un momento con la mudanza?",
+        "example": "Können Sie mir kurz beim Umzug helfen?",
+        "category": "expression"
+      },
+      {
+        "word": "Was denken Sie darüber?",
+        "translation": "¿Qué piensa al respecto?",
+        "example": "Was denken Sie darüber, diese Wohnung zu nehmen?",
+        "category": "expression"
+      },
+      {
+        "word": "Ich bin damit einverstanden.",
+        "translation": "Estoy de acuerdo.",
+        "example": "Ich bin damit einverstanden, die Möbel zu teilen.",
+        "category": "expression"
+      },
+      {
+        "word": "Könnte ich bitte mehr Informationen zur Miete bekommen?",
+        "translation": "¿Podría por favor recibir más información sobre la renta?",
+        "example": "Könnte ich bitte mehr Informationen zur Miete bekommen?",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -11710,6 +12579,100 @@
           "zusammen · conversación",
           "zusammen · práctica"
         ]
+      },
+      {
+        "word": "der Reiseführer",
+        "translation": "el guía turístico",
+        "example": "Der Reiseführer empfiehlt eine lokale Tour."
+      },
+      {
+        "word": "das Gepäck",
+        "translation": "el equipaje",
+        "example": "Ich habe nur leichtes Gepäck."
+      },
+      {
+        "word": "die Unterkunft",
+        "translation": "el alojamiento",
+        "example": "Die Unterkunft ist zentral gelegen."
+      },
+      {
+        "word": "die Reiseversicherung",
+        "translation": "el seguro de viaje",
+        "example": "Wir sollten eine Reiseversicherung abschließen."
+      },
+      {
+        "word": "die Sehenswürdigkeit",
+        "translation": "el lugar turístico",
+        "example": "Diese Sehenswürdigkeit ist sehr bekannt."
+      },
+      {
+        "word": "die Route",
+        "translation": "la ruta",
+        "example": "Die Route führt durch zwei Dörfer."
+      },
+      {
+        "word": "lokal",
+        "translation": "local",
+        "example": "Wir essen gern in lokalen Restaurants."
+      },
+      {
+        "word": "die Kosten",
+        "translation": "los costos",
+        "example": "Die Kosten sind im Angebot enthalten."
+      },
+      {
+        "word": "mieten",
+        "translation": "rentar, alquilar",
+        "example": "Wir wollen ein Fahrrad mieten."
+      },
+      {
+        "word": "sparen",
+        "translation": "ahorrar",
+        "example": "Ich spare Wasser beim Duschen."
+      },
+      {
+        "word": "verantwortungsbewusst",
+        "translation": "responsable, consciente",
+        "example": "Ich reise verantwortungsbewusst."
+      },
+      {
+        "word": "der Umweltschutz",
+        "translation": "la protección del medio ambiente",
+        "example": "Der Umweltschutz ist uns wichtig."
+      },
+      {
+        "word": "die Stornierung",
+        "translation": "la cancelación",
+        "example": "Die Stornierung kostet oft eine Gebühr."
+      },
+      {
+        "word": "die Freiwilligenarbeit",
+        "translation": "el trabajo voluntario",
+        "example": "Freiwilligenarbeit vor Ort ist bereichernd."
+      },
+      {
+        "word": "Kannst du mir helfen?",
+        "translation": "¿Puedes ayudarme?",
+        "example": "Kannst du mir helfen, diese Unterkunft zu finden?",
+        "category": "expression"
+      },
+      {
+        "word": "Meiner Meinung nach...",
+        "translation": "En mi opinión...",
+        "example": "Meiner Meinung nach sollten wir öffentliche Verkehrsmittel nutzen.",
+        "category": "expression"
+      },
+      {
+        "word": "Ich stimme zu.",
+        "translation": "Estoy de acuerdo.",
+        "example": "Ich stimme zu: weniger Plastik ist besser.",
+        "category": "expression"
+      },
+      {
+        "word": "Ich bin mir nicht sicher.",
+        "translation": "No estoy seguro.",
+        "example": "Ich bin mir nicht sicher, ob das die beste Option ist.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -12859,6 +13822,136 @@
         "word": "ridurre",
         "translation": "reducir",
         "example": "Die Diskussion klärt die Rolle von ridurre."
+      },
+      {
+        "word": "der Verkehr",
+        "translation": "el tráfico",
+        "example": "Der Verkehr ist heute besonders dicht."
+      },
+      {
+        "word": "die U-Bahn",
+        "translation": "el metro",
+        "example": "Die U-Bahn fährt alle fünf Minuten."
+      },
+      {
+        "word": "der Bus",
+        "translation": "el autobús",
+        "example": "Der Bus kommt in zehn Minuten."
+      },
+      {
+        "word": "die Straßenbahn",
+        "translation": "el tranvía",
+        "example": "Die Straßenbahn fährt durch die Innenstadt."
+      },
+      {
+        "word": "das Fahrrad",
+        "translation": "la bicicleta",
+        "example": "Das Fahrrad ist oft schneller im Zentrum."
+      },
+      {
+        "word": "der Fahrradweg",
+        "translation": "el carril para bicicletas",
+        "example": "Der Fahrradweg ist gut ausgeschildert."
+      },
+      {
+        "word": "die Haltestelle",
+        "translation": "la parada",
+        "example": "An der Haltestelle steigen viele Fahrgäste aus."
+      },
+      {
+        "word": "die Fahrkarte",
+        "translation": "el boleto",
+        "example": "Kannst du mir eine Fahrkarte kaufen?"
+      },
+      {
+        "word": "die Monatskarte",
+        "translation": "el abono mensual",
+        "example": "Mit der Monatskarte fahre ich deutlich günstiger."
+      },
+      {
+        "word": "das Carsharing",
+        "translation": "el servicio de coche compartido",
+        "example": "Carsharing ist in der Stadt sehr beliebt."
+      },
+      {
+        "word": "die Fahrgemeinschaft",
+        "translation": "viaje compartido en auto",
+        "example": "Wir bilden eine Fahrgemeinschaft zur Arbeit."
+      },
+      {
+        "word": "die Parkgebühr",
+        "translation": "la tarifa de estacionamiento",
+        "example": "Die Parkgebühren sind in der Innenstadt hoch."
+      },
+      {
+        "word": "das Parkhaus",
+        "translation": "el estacionamiento cubierto",
+        "example": "Das Parkhaus ist nur wenige Minuten vom Bahnhof entfernt."
+      },
+      {
+        "word": "der Fußgänger",
+        "translation": "el peatón",
+        "example": "Die Fußgänger haben Vorrang an dieser Kreuzung."
+      },
+      {
+        "word": "die Kreuzung",
+        "translation": "la intersección",
+        "example": "An der Kreuzung gibt es oft Staus."
+      },
+      {
+        "word": "die Verkehrsregel",
+        "translation": "la regla de tránsito",
+        "example": "Wir müssen die Verkehrsregeln beachten."
+      },
+      {
+        "word": "die Umweltzone",
+        "translation": "la zona de bajas emisiones",
+        "example": "In der Umweltzone gelten strenge Emissionsstandards."
+      },
+      {
+        "word": "die Innenstadt",
+        "translation": "el centro de la ciudad",
+        "example": "Die Innenstadt ist am Wochenende sehr belebt."
+      },
+      {
+        "word": "der Pendler",
+        "translation": "persona que viaja diariamente al trabajo",
+        "example": "Viele Pendler bevorzugen das Fahrrad."
+      },
+      {
+        "word": "die Infrastruktur",
+        "translation": "la infraestructura",
+        "example": "Die Infrastruktur der Stadt wird jetzt verbessert."
+      },
+      {
+        "word": "Könnten Sie mir helfen?",
+        "translation": "¿Podría ayudarme, por favor?",
+        "example": "Könnten Sie mir helfen?",
+        "category": "expression"
+      },
+      {
+        "word": "Meiner Meinung nach sollten wir mehr Radwege bauen.",
+        "translation": "En mi opinión deberíamos construir más carriles para bicicletas.",
+        "example": "Meiner Meinung nach sollten wir mehr Radwege bauen.",
+        "category": "expression"
+      },
+      {
+        "word": "Da stimme ich Ihnen zu.",
+        "translation": "Estoy de acuerdo con usted.",
+        "example": "Da stimme ich Ihnen zu.",
+        "category": "expression"
+      },
+      {
+        "word": "Ich bin mir nicht sicher.",
+        "translation": "No estoy seguro.",
+        "example": "Ich bin mir nicht sicher.",
+        "category": "expression"
+      },
+      {
+        "word": "Entschuldigen Sie die Störung.",
+        "translation": "Disculpe la molestia.",
+        "example": "Entschuldigen Sie die Störung.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -12972,6 +14065,137 @@
         "word": "conseguenza",
         "translation": "consecuencia",
         "example": "Die Diskussion klärt die Rolle von conseguenza."
+      },
+      {
+        "word": "die Innovation",
+        "translation": "la innovación",
+        "example": "Die Innovation im Energiesektor verändert Arbeitsmärkte."
+      },
+      {
+        "word": "die Digitalisierung",
+        "translation": "la digitalización",
+        "example": "Die Digitalisierung erleichtert den Datenaustausch."
+      },
+      {
+        "word": "die Chancengleichheit",
+        "translation": "la igualdad de oportunidades",
+        "example": "Die Chancengleichheit ist zentral für sozialen Fortschritt."
+      },
+      {
+        "word": "die Regulierung",
+        "translation": "la regulación",
+        "example": "Die Regulierung schützt Verbraucher und Markt."
+      },
+      {
+        "word": "die Auswirkung",
+        "translation": "el impacto",
+        "example": "Die Auswirkung der Maßnahme ist noch unklar."
+      },
+      {
+        "word": "die Nachhaltigkeit",
+        "translation": "la sostenibilidad",
+        "example": "Die Nachhaltigkeit muss in jeder Entscheidung berücksichtigt werden."
+      },
+      {
+        "word": "die Implementierung",
+        "translation": "la implementación",
+        "example": "Die Implementierung des Programms verlief planmäßig."
+      },
+      {
+        "word": "die Bewertung",
+        "translation": "la evaluación",
+        "example": "Die Bewertung der Optionen folgte festen Kriterien."
+      },
+      {
+        "word": "die Interessengruppe",
+        "translation": "el grupo de interés",
+        "example": "Die Interessengruppe forderte mehr Transparenz."
+      },
+      {
+        "word": "die Evidenz",
+        "translation": "la evidencia",
+        "example": "Die Evidenz stützt diese These."
+      },
+      {
+        "word": "nachvollziehbar",
+        "translation": "comprensible",
+        "example": "Die Argumentation ist nachvollziehbar."
+      },
+      {
+        "word": "plausibel",
+        "translation": "plausible",
+        "example": "Ihre Erklärung klingt plausibel."
+      },
+      {
+        "word": "abwägen",
+        "translation": "sopesar",
+        "example": "Wir müssen Vor- und Nachteile sorgfältig abwägen."
+      },
+      {
+        "word": "priorisieren",
+        "translation": "priorizar",
+        "example": "Man sollte dringende Aufgaben priorisieren."
+      },
+      {
+        "word": "konsequent",
+        "translation": "consecuente",
+        "example": "Ein konsequentes Vorgehen erhöht die Erfolgschancen."
+      },
+      {
+        "word": "umsetzen",
+        "translation": "implementar",
+        "example": "Die geplanten Maßnahmen lassen sich praktisch umsetzen."
+      },
+      {
+        "word": "die Skalierbarkeit",
+        "translation": "la escalabilidad",
+        "example": "Die Skalierbarkeit der Lösung ist entscheidend."
+      },
+      {
+        "word": "die Effizienz",
+        "translation": "la eficiencia",
+        "example": "Mehr Automatisierung steigert die Effizienz."
+      },
+      {
+        "word": "die Barrierefreiheit",
+        "translation": "la accesibilidad",
+        "example": "Die Barrierefreiheit gewährleistet Teilhabe für alle."
+      },
+      {
+        "word": "Könnten Sie mir dabei helfen?",
+        "translation": "¿Podría ayudarme con esto?",
+        "example": "Könnten Sie mir dabei helfen, die Daten zu vergleichen?",
+        "category": "expression"
+      },
+      {
+        "word": "Meiner Meinung nach...",
+        "translation": "En mi opinión...",
+        "example": "Meiner Meinung nach ist diese Lösung praktikabler.",
+        "category": "expression"
+      },
+      {
+        "word": "Da stimme ich Ihnen zu.",
+        "translation": "Estoy de acuerdo con usted.",
+        "example": "Da stimme ich Ihnen zu; das ist ein wichtiger Punkt.",
+        "category": "expression"
+      },
+      {
+        "word": "Ich habe Bedenken bezüglich...",
+        "translation": "Tengo reservas con respecto a...",
+        "example": "Ich habe Bedenken bezüglich der langfristigen Kosten.",
+        "category": "expression"
+      },
+      {
+        "word": "Darf ich kurz etwas anmerken?",
+        "translation": "¿Puedo comentar algo brevemente?",
+        "example": "Darf ich kurz etwas anmerken, bevor wir entscheiden?",
+        "category": "expression"
+      },
+      {
+        "word": "Infolgedessen...",
+        "translation": "Como consecuencia...",
+        "example": "Infolgedessen musste das Projekt überarbeitet werden.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -13085,6 +14309,137 @@
         "word": "monitorare",
         "translation": "supervisar",
         "example": "Die Diskussion klärt die Rolle von monitorare."
+      },
+      {
+        "word": "die Governance",
+        "translation": "gobernanza",
+        "example": "Die Governance des Projekts legt Entscheidungswege fest."
+      },
+      {
+        "word": "die Evidenzbasierung",
+        "translation": "política basada en evidencia",
+        "example": "Die Evidenzbasierung der Reform erhöht ihre Legitimität."
+      },
+      {
+        "word": "die Kohärenz",
+        "translation": "coherencia",
+        "example": "Die Kohärenz zwischen Bundes- und Landespolitik fehlt oft."
+      },
+      {
+        "word": "die Rechtsgrundlage",
+        "translation": "base legal",
+        "example": "Die Rechtsgrundlage für die Maßnahme ist unklar."
+      },
+      {
+        "word": "der Interessenkonflikt",
+        "translation": "conflicto de intereses",
+        "example": "Ein Interessenkonflikt wurde im Ausschuss offengelegt."
+      },
+      {
+        "word": "die Partizipation",
+        "translation": "participación ciudadana",
+        "example": "Die Partizipation der Bürgerinnen stärkt die Akzeptanz."
+      },
+      {
+        "word": "die Ressourcenallokation",
+        "translation": "asignación de recursos",
+        "example": "Die Ressourcenallokation entscheidet über Prioritäten."
+      },
+      {
+        "word": "die Interventionslogik",
+        "translation": "lógica de intervención",
+        "example": "Die Interventionslogik muss klar dokumentiert sein."
+      },
+      {
+        "word": "die Evaluierung",
+        "translation": "evaluación",
+        "example": "Die Evaluierung zeigte deutliche Wirkungseffekte."
+      },
+      {
+        "word": "die Implementierung",
+        "translation": "implementación, ejecución",
+        "example": "Die Implementierung verzögerte sich wegen Formalia."
+      },
+      {
+        "word": "der Haushalt",
+        "translation": "presupuesto público",
+        "example": "Der Haushalt für das nächste Jahr wurde debattiert."
+      },
+      {
+        "word": "die Verantwortungskette",
+        "translation": "cadena de responsabilidad",
+        "example": "Die Verantwortungskette im Verfahren ist nicht eindeutig."
+      },
+      {
+        "word": "die Sanktionsmechanismen",
+        "translation": "mecanismos de sanción",
+        "example": "Die Sanktionsmechanismen sind in der Verordnung geregelt."
+      },
+      {
+        "word": "die Interessengruppe",
+        "translation": "grupo de interés",
+        "example": "Eine Interessengruppe lobbyierte gegen die Neuregelung."
+      },
+      {
+        "word": "die Transparenzpflicht",
+        "translation": "obligación de transparencia",
+        "example": "Die Transparenzpflicht verpflichtet Behörden zur Offenlegung."
+      },
+      {
+        "word": "die Politikberatung",
+        "translation": "asesoría en políticas públicas",
+        "example": "Die Politikberatung lieferte mehrere Varianten."
+      },
+      {
+        "word": "die Mittelzuweisung",
+        "translation": "asignación de fondos",
+        "example": "Die Mittelzuweisung erfolgt nach festgelegten Kriterien."
+      },
+      {
+        "word": "die Kohäsionspolitik",
+        "translation": "política de cohesión",
+        "example": "Die Kohäsionspolitik zielt auf regionale Ausgewogenheit."
+      },
+      {
+        "word": "abwägen",
+        "translation": "ponderar, sopesar",
+        "example": "Wir müssen Vor- und Nachteile sorgfältig abwägen."
+      },
+      {
+        "word": "Könnten Sie mir dabei helfen?",
+        "translation": "¿Podría ayudarme con esto?",
+        "example": "Könnten Sie mir dabei helfen, die Auswirkungen zu quantifizieren?",
+        "category": "expression"
+      },
+      {
+        "word": "Meiner Ansicht nach...",
+        "translation": "En mi opinión...",
+        "example": "Meiner Ansicht nach sollten wir mehr Evidenz verlangen.",
+        "category": "expression"
+      },
+      {
+        "word": "Dem stimme ich zu.",
+        "translation": "Estoy de acuerdo.",
+        "example": "Dem stimme ich zu; die Daten sprechen dafür.",
+        "category": "expression"
+      },
+      {
+        "word": "Ich habe Bedenken, ob...",
+        "translation": "Tengo dudas sobre si...",
+        "example": "Ich habe Bedenken, ob die Maßnahme kurzfristig wirksam ist.",
+        "category": "expression"
+      },
+      {
+        "word": "Darf ich kurz etwas anmerken?",
+        "translation": "¿Puedo comentar algo brevemente?",
+        "example": "Darf ich kurz etwas anmerken, bevor wir abstimmen?",
+        "category": "expression"
+      },
+      {
+        "word": "Das hat zur Folge, dass...",
+        "translation": "Eso tiene como consecuencia que...",
+        "example": "Das hat zur Folge, dass zusätzliche Prüfungen nötig sind.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -17291,6 +18646,100 @@
           "Viertel · conversación",
           "Viertel · práctica"
         ]
+      },
+      {
+        "word": "die Schwester",
+        "translation": "la hermana",
+        "example": "Die Schwester hilft im Haus."
+      },
+      {
+        "word": "die Eltern",
+        "translation": "los padres",
+        "example": "Die Eltern sind zu Besuch."
+      },
+      {
+        "word": "der Sohn",
+        "translation": "el hijo",
+        "example": "Der Sohn spielt im Garten."
+      },
+      {
+        "word": "die Tochter",
+        "translation": "la hija",
+        "example": "Die Tochter malt ein Bild."
+      },
+      {
+        "word": "die Oma",
+        "translation": "la abuela",
+        "example": "Die Oma backt Kuchen."
+      },
+      {
+        "word": "der Opa",
+        "translation": "el abuelo",
+        "example": "Der Opa liest ein Buch."
+      },
+      {
+        "word": "das Haus",
+        "translation": "la casa",
+        "example": "Das Haus hat viele Fenster."
+      },
+      {
+        "word": "die Wohnung",
+        "translation": "el departamento",
+        "example": "Die Wohnung ist hell."
+      },
+      {
+        "word": "das Badezimmer",
+        "translation": "el baño",
+        "example": "Das Badezimmer ist neu."
+      },
+      {
+        "word": "das Wohnzimmer",
+        "translation": "la sala de estar",
+        "example": "Im Wohnzimmer steht ein Sofa."
+      },
+      {
+        "word": "der Garten",
+        "translation": "el jardín",
+        "example": "Der Garten hat viele Blumen."
+      },
+      {
+        "word": "der Tisch",
+        "translation": "la mesa",
+        "example": "Der Tisch ist aus Holz."
+      },
+      {
+        "word": "der Stuhl",
+        "translation": "la silla",
+        "example": "Der Stuhl ist bequem."
+      },
+      {
+        "word": "schlafen",
+        "translation": "dormir",
+        "example": "Ich schlafe gut."
+      },
+      {
+        "word": "Kannst du mir helfen?",
+        "translation": "¿Puedes ayudarme?",
+        "example": "Kannst du mir helfen?",
+        "category": "expression"
+      },
+      {
+        "word": "Ich finde das schön.",
+        "translation": "Me parece bonito.",
+        "example": "Ich finde das schön.",
+        "category": "expression"
+      },
+      {
+        "word": "Ich stimme zu.",
+        "translation": "Estoy de acuerdo.",
+        "example": "Ich stimme zu.",
+        "category": "expression"
+      },
+      {
+        "word": "Vielleicht später?",
+        "translation": "¿Quizás más tarde?",
+        "example": "Vielleicht später?",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -17729,6 +19178,102 @@
           "zusammen · conversación",
           "zusammen · práctica"
         ]
+      },
+      {
+        "word": "die Erkältung",
+        "translation": "el resfriado",
+        "example": "Ich habe eine Erkältung."
+      },
+      {
+        "word": "das Fieber",
+        "translation": "la fiebre",
+        "example": "Ich habe Fieber."
+      },
+      {
+        "word": "die Halsschmerzen",
+        "translation": "el dolor de garganta",
+        "example": "Ich habe Halsschmerzen."
+      },
+      {
+        "word": "der Husten",
+        "translation": "la tos",
+        "example": "Ich habe Husten."
+      },
+      {
+        "word": "die Tablette",
+        "translation": "la pastilla",
+        "example": "Nehmen Sie eine Tablette."
+      },
+      {
+        "word": "die Salbe",
+        "translation": "la pomada",
+        "example": "Ich brauche eine Salbe."
+      },
+      {
+        "word": "untersuchen",
+        "translation": "examinar",
+        "example": "Der Arzt untersucht mich."
+      },
+      {
+        "word": "verschreiben",
+        "translation": "recetar",
+        "example": "Der Arzt hat mir etwas verschrieben."
+      },
+      {
+        "word": "einnehmen",
+        "translation": "tomar (medicina)",
+        "example": "Sie müssen das Medikament dreimal täglich einnehmen."
+      },
+      {
+        "word": "die Untersuchung",
+        "translation": "el examen médico",
+        "example": "Die Untersuchung dauert kurz."
+      },
+      {
+        "word": "der Notfall",
+        "translation": "la emergencia",
+        "example": "Im Notfall rufen Sie den Notarzt."
+      },
+      {
+        "word": "die Praxis",
+        "translation": "el consultorio",
+        "example": "Die Praxis ist heute geschlossen."
+      },
+      {
+        "word": "Können Sie mir helfen?",
+        "translation": "¿Puede ayudarme?",
+        "example": "Können Sie mir helfen?",
+        "category": "expression"
+      },
+      {
+        "word": "Meiner Meinung nach...",
+        "translation": "En mi opinión...",
+        "example": "Meiner Meinung nach sollten Sie sich ausruhen.",
+        "category": "expression"
+      },
+      {
+        "word": "Da stimme ich zu.",
+        "translation": "Estoy de acuerdo.",
+        "example": "Da stimme ich zu.",
+        "category": "expression"
+      },
+      {
+        "word": "Ich bin mir nicht sicher.",
+        "translation": "No estoy seguro.",
+        "example": "Ich bin mir nicht sicher.",
+        "category": "expression"
+      },
+      {
+        "word": "Gute Besserung!",
+        "translation": "¡Que te mejores!",
+        "example": "Gute Besserung!",
+        "category": "expression"
+      },
+      {
+        "word": "Deshalb sollten Sie...",
+        "translation": "Por eso debería...",
+        "example": "Deshalb sollten Sie mehr trinken.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -18167,6 +19712,100 @@
           "zusammen · conversación",
           "zusammen · práctica"
         ]
+      },
+      {
+        "word": "die Entspannung",
+        "translation": "la relajación",
+        "example": "Die Entspannung hilft gegen Stress."
+      },
+      {
+        "word": "der Schlaf",
+        "translation": "el sueño",
+        "example": "Der Schlaf ist wichtig für die Gesundheit."
+      },
+      {
+        "word": "die Ernährung",
+        "translation": "la alimentación",
+        "example": "Eine ausgewogene Ernährung stärkt das Immunsystem."
+      },
+      {
+        "word": "das Stressmanagement",
+        "translation": "la gestión del estrés",
+        "example": "Das Stressmanagement reduziert Beschwerden."
+      },
+      {
+        "word": "die Achtsamkeit",
+        "translation": "la atención plena",
+        "example": "Die Achtsamkeit hilft, im Moment zu bleiben."
+      },
+      {
+        "word": "reduzieren",
+        "translation": "reducir",
+        "example": "Ich möchte meinen Zuckerkonsum reduzieren."
+      },
+      {
+        "word": "regelmäßig",
+        "translation": "regularmente",
+        "example": "Ich mache regelmäßig Sport."
+      },
+      {
+        "word": "die Entlastung",
+        "translation": "el alivio",
+        "example": "Die Entlastung durch Pausen ist wichtig."
+      },
+      {
+        "word": "die Motivation",
+        "translation": "la motivación",
+        "example": "Meine Motivation für Veränderungen ist hoch."
+      },
+      {
+        "word": "die Unterstützung",
+        "translation": "el apoyo",
+        "example": "Die Unterstützung von Freunden ist wichtig."
+      },
+      {
+        "word": "Kannst du mir helfen?",
+        "translation": "¿Puedes ayudarme?",
+        "example": "Kannst du mir helfen, einen Plan zu machen?",
+        "category": "expression"
+      },
+      {
+        "word": "Meiner Meinung nach...",
+        "translation": "En mi opinión...",
+        "example": "Meiner Meinung nach sind kleine Schritte besser.",
+        "category": "expression"
+      },
+      {
+        "word": "Ich stimme zu.",
+        "translation": "Estoy de acuerdo.",
+        "example": "Ich stimme zu, regelmäßige Pausen sind notwendig.",
+        "category": "expression"
+      },
+      {
+        "word": "Ich bin mir nicht sicher.",
+        "translation": "No estoy seguro.",
+        "example": "Ich bin mir nicht sicher, ob das für mich passt.",
+        "category": "expression"
+      },
+      {
+        "word": "der Termin",
+        "translation": "la cita/turno",
+        "example": "Ich habe einen Termin beim Arzt."
+      },
+      {
+        "word": "die Verhaltensänderung",
+        "translation": "el cambio de comportamiento",
+        "example": "Die Verhaltensänderung braucht Zeit."
+      },
+      {
+        "word": "die Ursache",
+        "translation": "la causa",
+        "example": "Die Ursache von Müdigkeit kann Stress sein."
+      },
+      {
+        "word": "deshalb",
+        "translation": "por eso/por lo tanto",
+        "example": "Ich schlafe mehr, deshalb habe ich mehr Energie."
       }
     ],
     "dialogue": [],
@@ -19316,6 +20955,137 @@
         "word": "migliorare",
         "translation": "mejorar",
         "example": "Die Diskussion klärt die Rolle von migliorare."
+      },
+      {
+        "word": "die Kompetenz",
+        "translation": "la competencia",
+        "example": "Die Kompetenz in interkultureller Kommunikation ist heute sehr gefragt."
+      },
+      {
+        "word": "die Fähigkeit",
+        "translation": "la habilidad",
+        "example": "Seine Fähigkeit, unter Druck ruhig zu bleiben, beeindruckt das Team."
+      },
+      {
+        "word": "die Qualifikation",
+        "translation": "la cualificación",
+        "example": "Ihre Qualifikation passt perfekt zur ausgeschriebenen Stelle."
+      },
+      {
+        "word": "das Vorstellungsgespräch",
+        "translation": "la entrevista de trabajo",
+        "example": "Das Vorstellungsgespräch dauert ungefähr 45 Minuten."
+      },
+      {
+        "word": "die Bewerbung",
+        "translation": "la solicitud de empleo",
+        "example": "Die Bewerbung sollte ein Anschreiben und einen Lebenslauf enthalten."
+      },
+      {
+        "word": "sich bewerben",
+        "translation": "postularse",
+        "example": "Sie hat sich online auf mehrere Positionen beworben."
+      },
+      {
+        "word": "die Stelle",
+        "translation": "el puesto (de trabajo)",
+        "example": "Die Stelle ist ab sofort zu besetzen."
+      },
+      {
+        "word": "die Weiterbildung",
+        "translation": "la formación continua",
+        "example": "Eine Weiterbildung im Bereich IT erhöht die Chancen."
+      },
+      {
+        "word": "die Stärke",
+        "translation": "la fortaleza",
+        "example": "Eine klare Kommunikation ist eine ihrer größten Stärken."
+      },
+      {
+        "word": "die Schwäche",
+        "translation": "la debilidad",
+        "example": "Er nennt offen seine Schwäche und zeigt, wie er daran arbeitet."
+      },
+      {
+        "word": "die Selbstreflexion",
+        "translation": "la autorreflexión",
+        "example": "Die Selbstreflexion nach Projekten fördert die persönliche Entwicklung."
+      },
+      {
+        "word": "bewerten",
+        "translation": "evaluar",
+        "example": "HR muss Bewerber fair und transparent bewerten."
+      },
+      {
+        "word": "die Leistungsbeurteilung",
+        "translation": "la evaluación del desempeño",
+        "example": "Die jährliche Leistungsbeurteilung wurde verschoben."
+      },
+      {
+        "word": "begründen",
+        "translation": "justificar",
+        "example": "Bitte begründen Sie Ihre Entscheidung mit zwei konkreten Beispielen."
+      },
+      {
+        "word": "die Priorität",
+        "translation": "la prioridad",
+        "example": "Diese Aufgabe hat kurzfristig höchste Priorität."
+      },
+      {
+        "word": "die Zielsetzung",
+        "translation": "la fijación de objetivos",
+        "example": "Die Zielsetzung für das Quartal wurde klar formuliert."
+      },
+      {
+        "word": "die Rückmeldung",
+        "translation": "la retroalimentación",
+        "example": "Ich habe heute eine positive Rückmeldung erhalten."
+      },
+      {
+        "word": "konstruktiv",
+        "translation": "constructivo",
+        "example": "Geben Sie konstruktive Vorschläge statt pauschaler Kritik."
+      },
+      {
+        "word": "die Verantwortung",
+        "translation": "la responsabilidad",
+        "example": "Die Verantwortung für das Budget liegt beim Projektleiter."
+      },
+      {
+        "word": "Könnten Sie mir bitte helfen?",
+        "translation": "¿Podría ayudarme, por favor?",
+        "example": "Könnten Sie mir bitte beim Ausfüllen des Formulars helfen?",
+        "category": "expression"
+      },
+      {
+        "word": "Meiner Meinung nach...",
+        "translation": "En mi opinión...",
+        "example": "Meiner Meinung nach sollten wir die Prioritäten neu bewerten.",
+        "category": "expression"
+      },
+      {
+        "word": "Da stimme ich zu.",
+        "translation": "Estoy de acuerdo.",
+        "example": "Da stimme ich zu; das Argument ist überzeugend.",
+        "category": "expression"
+      },
+      {
+        "word": "Könnten Sie das näher erläutern?",
+        "translation": "¿Podría explicar eso con más detalle?",
+        "example": "Könnten Sie das näher erläutern, damit alle es verstehen?",
+        "category": "expression"
+      },
+      {
+        "word": "Darf ich kurz etwas anmerken?",
+        "translation": "¿Puedo comentar algo brevemente?",
+        "example": "Darf ich kurz etwas anmerken? Ein Zwischenziel wäre hilfreich.",
+        "category": "expression"
+      },
+      {
+        "word": "Wie wäre es, wenn...",
+        "translation": "¿Qué tal si...?",
+        "example": "Wie wäre es, wenn wir die Deadline um eine Woche verschieben?",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -19429,6 +21199,136 @@
         "word": "equità",
         "translation": "equidad",
         "example": "Die Diskussion klärt die Rolle von equità."
+      },
+      {
+        "word": "die Verantwortung",
+        "translation": "la responsabilidad",
+        "example": "Die Verantwortung für die Entscheidung trägt das Gremium."
+      },
+      {
+        "word": "das Gewissen",
+        "translation": "la conciencia",
+        "example": "Sein Gewissen hinderte ihn daran, die Lüge fortzusetzen."
+      },
+      {
+        "word": "die Integrität",
+        "translation": "la integridad",
+        "example": "Ihre Integrität wurde nie infrage gestellt."
+      },
+      {
+        "word": "die Pflicht",
+        "translation": "el deber",
+        "example": "Er erfüllte seine Pflicht trotz Widerstands."
+      },
+      {
+        "word": "der Interessenkonflikt",
+        "translation": "el conflicto de intereses",
+        "example": "Ein Interessenkonflikt kann die Urteilskraft beeinträchtigen."
+      },
+      {
+        "word": "die Folgenabschätzung",
+        "translation": "la evaluación de las consecuencias",
+        "example": "Vor einer Entscheidung ist eine sorgfältige Folgenabschätzung nötig."
+      },
+      {
+        "word": "die Abwägung",
+        "translation": "la ponderación",
+        "example": "Die Abwägung von Risiken und Chancen ist entscheidend."
+      },
+      {
+        "word": "die Gerechtigkeit",
+        "translation": "la justicia",
+        "example": "Die Gerechtigkeit verlangt transparente Regeln."
+      },
+      {
+        "word": "die Konsequenz",
+        "translation": "la consecuencia",
+        "example": "Die Konsequenz aus der Analyse ist unmissverständlich."
+      },
+      {
+        "word": "die Tugend",
+        "translation": "la virtud",
+        "example": "Geduld gilt als wichtige Tugend in ethischen Debatten."
+      },
+      {
+        "word": "die Norm",
+        "translation": "la norma",
+        "example": "Die gesellschaftliche Norm beeinflusst moralische Urteile."
+      },
+      {
+        "word": "die Rechenschaftspflicht",
+        "translation": "la rendición de cuentas",
+        "example": "Die Rechenschaftspflicht stärkt das Vertrauen der Bevölkerung."
+      },
+      {
+        "word": "die Ethik",
+        "translation": "la ética",
+        "example": "Unternehmen diskutieren zunehmend ihre Ethik."
+      },
+      {
+        "word": "der Utilitarismus",
+        "translation": "el utilitarismo",
+        "example": "Der Utilitarismus misst Handlungen am größtmöglichen Nutzen."
+      },
+      {
+        "word": "die Deontologie",
+        "translation": "la deontología",
+        "example": "Die Deontologie betont Pflichten statt Konsequenzen."
+      },
+      {
+        "word": "die Ambivalenz",
+        "translation": "la ambivalencia",
+        "example": "Oft herrscht eine moralische Ambivalenz in praktischen Fällen."
+      },
+      {
+        "word": "die Legitimität",
+        "translation": "la legitimidad",
+        "example": "Die Legitimität der Maßnahme wurde angezweifelt."
+      },
+      {
+        "word": "die Solidarität",
+        "translation": "la solidaridad",
+        "example": "Solidarität war ein zentrales Argument der Debatte."
+      },
+      {
+        "word": "die Transparenz",
+        "translation": "la transparencia",
+        "example": "Mehr Transparenz ist für die Öffentlichkeit unerlässlich."
+      },
+      {
+        "word": "der Konsens",
+        "translation": "el consenso",
+        "example": "Ein Konsens wurde nach langen Verhandlungen erreicht."
+      },
+      {
+        "word": "Könnten Sie mir helfen?",
+        "translation": "¿Podría ayudarme?",
+        "example": "Könnten Sie mir helfen, das Für und Wider zu erläutern?",
+        "category": "expression"
+      },
+      {
+        "word": "Meiner Ansicht nach...",
+        "translation": "En mi opinión...",
+        "example": "Meiner Ansicht nach sollte das Wohl aller Vorrang haben.",
+        "category": "expression"
+      },
+      {
+        "word": "Da stimme ich zu.",
+        "translation": "Estoy de acuerdo.",
+        "example": "Da stimme ich zu; das Argument ist überzeugend.",
+        "category": "expression"
+      },
+      {
+        "word": "Ich habe Bedenken bezüglich...",
+        "translation": "Tengo reservas respecto a...",
+        "example": "Ich habe Bedenken bezüglich der finanziellen Belastung.",
+        "category": "expression"
+      },
+      {
+        "word": "Mit Verlaub, ...",
+        "translation": "Con todo respeto, ...",
+        "example": "Mit Verlaub, das Vorgehen erscheint mir problematisch.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -19542,6 +21442,135 @@
         "word": "cautela",
         "translation": "cautela",
         "example": "Die Diskussion klärt die Rolle von cautela."
+      },
+      {
+        "word": "die Plausibilität",
+        "translation": "plausibilidad",
+        "example": "Die Plausibilität seiner Erklärung überzeugt mich nicht."
+      },
+      {
+        "word": "die Gewissheit",
+        "translation": "certeza",
+        "example": "Absolute Gewissheit gibt es selten in komplexen Fragen."
+      },
+      {
+        "word": "die Unsicherheit",
+        "translation": "incertidumbre",
+        "example": "Trotz der Unsicherheit blieb das Team konzentriert."
+      },
+      {
+        "word": "die Spekulation",
+        "translation": "especulación",
+        "example": "Unbegründete Spekulationen sollten vermieden werden."
+      },
+      {
+        "word": "die Indizienkette",
+        "translation": "cadena de indicios",
+        "example": "Die Indizienkette legt ein kausales Muster nahe."
+      },
+      {
+        "word": "die Widerspruchsfreiheit",
+        "translation": "coherencia interna",
+        "example": "Die Widerspruchsfreiheit der Aussagen ist wichtig."
+      },
+      {
+        "word": "die Hypothese",
+        "translation": "hipótesis",
+        "example": "Die Hypothese muss empirisch überprüft werden."
+      },
+      {
+        "word": "die Wahrscheinlichkeit",
+        "translation": "probabilidad",
+        "example": "Die Wahrscheinlichkeit eines Fehlers ist gering."
+      },
+      {
+        "word": "schlussfolgern",
+        "translation": "concluir",
+        "example": "Aus diesen Daten kann man schlussfolgern, dass die Ursache komplex ist."
+      },
+      {
+        "word": "ableiten",
+        "translation": "derivar; extraer",
+        "example": "Man kann klare Kriterien aus den Ergebnissen ableiten."
+      },
+      {
+        "word": "belegen",
+        "translation": "respaldar; demostrar",
+        "example": "Die Studie belegt den Zusammenhang."
+      },
+      {
+        "word": "widerlegen",
+        "translation": "refutar",
+        "example": "Neue Daten konnten die Theorie widerlegen."
+      },
+      {
+        "word": "die Evidenz",
+        "translation": "evidencia",
+        "example": "Die Evidenz spricht gegen die Annahme."
+      },
+      {
+        "word": "die Inkonsistenz",
+        "translation": "inconsistencia",
+        "example": "Eine Inkonsistenz im Bericht erschwert die Interpretation."
+      },
+      {
+        "word": "plausibel",
+        "translation": "plausible",
+        "example": "Sein Argument erscheint plausibel."
+      },
+      {
+        "word": "fundiert",
+        "translation": "fundado; bien fundamentado",
+        "example": "Eine fundierte Analyse berücksichtigt alle Faktoren."
+      },
+      {
+        "word": "die Methodik",
+        "translation": "metodología",
+        "example": "Die Methodik beeinflusst die Schlussfolgerungen."
+      },
+      {
+        "word": "die Unsicherheitsabschätzung",
+        "translation": "estimación de la incertidumbre",
+        "example": "Die Unsicherheitsabschätzung ist Teil des Abschlussberichts."
+      },
+      {
+        "word": "das Indiz",
+        "translation": "indicio",
+        "example": "Ein einzelnes Indiz ist selten aussagekräftig."
+      },
+      {
+        "word": "die Redundanz",
+        "translation": "redundancia",
+        "example": "Technische Redundanz erhöht die Zuverlässigkeit."
+      },
+      {
+        "word": "differenzieren",
+        "translation": "diferenciar",
+        "example": "Wir müssen zwischen Ursache und Korrelation differenzieren."
+      },
+      {
+        "word": "Meiner Meinung nach",
+        "translation": "en mi opinión",
+        "example": "Meiner Meinung nach ist die Schlussfolgerung nicht überzeugend.",
+        "category": "expression"
+      },
+      {
+        "word": "Da bin ich ganz Ihrer Meinung.",
+        "translation": "estoy totalmente de acuerdo con usted",
+        "example": "Da bin ich ganz Ihrer Meinung; die Daten sind schwach.",
+        "category": "expression"
+      },
+      {
+        "word": "Könnten Sie mir dabei helfen?",
+        "translation": "¿Podría ayudarme con esto?",
+        "example": "Könnten Sie mir dabei helfen, die Analyse zu überprüfen?",
+        "category": "expression"
+      },
+      {
+        "word": "Ich habe Zweifel an...",
+        "translation": "tengo dudas sobre...",
+        "example": "Ich habe Zweifel an der Validität dieser Messmethode.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -23748,6 +25777,100 @@
           "zusammen · conversación",
           "zusammen · práctica"
         ]
+      },
+      {
+        "word": "der Supermarkt",
+        "translation": "supermercado",
+        "example": "Ich kaufe im Supermarkt ein."
+      },
+      {
+        "word": "die Bäckerei",
+        "translation": "panadería",
+        "example": "Die Bäckerei ist in der Nähe."
+      },
+      {
+        "word": "das Brot",
+        "translation": "pan",
+        "example": "Ich möchte das Brot, bitte."
+      },
+      {
+        "word": "die Rechnung",
+        "translation": "la cuenta",
+        "example": "Kann ich die Rechnung bekommen?"
+      },
+      {
+        "word": "der Verkäufer",
+        "translation": "el vendedor",
+        "example": "Der Verkäufer hilft mir."
+      },
+      {
+        "word": "die Kasse",
+        "translation": "la caja",
+        "example": "Wir bezahlen an der Kasse."
+      },
+      {
+        "word": "das Angebot",
+        "translation": "oferta",
+        "example": "Das Angebot ist gut."
+      },
+      {
+        "word": "Wie viel kostet das?",
+        "translation": "¿Cuánto cuesta eso?",
+        "example": "Wie viel kostet das?",
+        "category": "expression"
+      },
+      {
+        "word": "Kann ich Ihnen helfen?",
+        "translation": "¿Puedo ayudarle?",
+        "example": "Kann ich Ihnen helfen?",
+        "category": "expression"
+      },
+      {
+        "word": "Ich nehme das.",
+        "translation": "Lo tomo.",
+        "example": "Ich nehme das.",
+        "category": "expression"
+      },
+      {
+        "word": "Haben Sie das?",
+        "translation": "¿Tiene eso?",
+        "example": "Haben Sie das?",
+        "category": "expression"
+      },
+      {
+        "word": "der Apfel",
+        "translation": "manzana",
+        "example": "Der Apfel ist rot."
+      },
+      {
+        "word": "die Milch",
+        "translation": "leche",
+        "example": "Die Milch steht im Regal."
+      },
+      {
+        "word": "die Tomate",
+        "translation": "tomate",
+        "example": "Ich möchte eine Tomate."
+      },
+      {
+        "word": "zahlen",
+        "translation": "pagar",
+        "example": "Wir müssen an der Kasse zahlen."
+      },
+      {
+        "word": "frisch",
+        "translation": "fresco",
+        "example": "Die Tomaten sind frisch."
+      },
+      {
+        "word": "das Kilo",
+        "translation": "el kilo",
+        "example": "Ich nehme ein Kilo Äpfel."
+      },
+      {
+        "word": "die Qualität",
+        "translation": "calidad",
+        "example": "Die Qualität ist gut."
       }
     ],
     "dialogue": [],
@@ -24186,6 +26309,101 @@
           "zusammen · conversación",
           "zusammen · práctica"
         ]
+      },
+      {
+        "word": "der Arbeitgeber",
+        "translation": "el empleador",
+        "example": "Der Arbeitgeber hat die Stellenanzeige veröffentlicht."
+      },
+      {
+        "word": "die Firma",
+        "translation": "la empresa",
+        "example": "Die Firma sucht neue Mitarbeiter."
+      },
+      {
+        "word": "der Chef",
+        "translation": "el jefe",
+        "example": "Der Chef ist sehr freundlich."
+      },
+      {
+        "word": "der Mitarbeiter",
+        "translation": "el empleado",
+        "example": "Die Mitarbeiter arbeiten im Team."
+      },
+      {
+        "word": "die Stelle",
+        "translation": "el puesto",
+        "example": "Ich habe eine interessante Stelle gefunden."
+      },
+      {
+        "word": "arbeiten",
+        "translation": "trabajar",
+        "example": "Ich arbeite von neun bis fünf."
+      },
+      {
+        "word": "die Arbeitszeit",
+        "translation": "el horario de trabajo",
+        "example": "Die Arbeitszeit ist flexibel."
+      },
+      {
+        "word": "das Gehalt",
+        "translation": "el salario",
+        "example": "Das Gehalt wird monatlich bezahlt."
+      },
+      {
+        "word": "die Verantwortung",
+        "translation": "la responsabilidad",
+        "example": "Sie hat viel Verantwortung im Job."
+      },
+      {
+        "word": "organisieren",
+        "translation": "organizar",
+        "example": "Wir müssen das Meeting organisieren."
+      },
+      {
+        "word": "Können Sie mir helfen?",
+        "translation": "¿Puede ayudarme?",
+        "example": "Können Sie mir helfen? Ich verstehe die Aufgabe nicht.",
+        "category": "expression"
+      },
+      {
+        "word": "Meiner Meinung nach",
+        "translation": "en mi opinión",
+        "example": "Meiner Meinung nach ist Weiterbildung wichtig.",
+        "category": "expression"
+      },
+      {
+        "word": "Da stimme ich zu.",
+        "translation": "Estoy de acuerdo.",
+        "example": "Da stimme ich zu, das ist sinnvoll.",
+        "category": "expression"
+      },
+      {
+        "word": "Ich bin mir nicht sicher.",
+        "translation": "No estoy seguro.",
+        "example": "Ich bin mir nicht sicher, ob das passt.",
+        "category": "expression"
+      },
+      {
+        "word": "Entschuldigung, haben Sie einen Moment?",
+        "translation": "Disculpe, ¿tiene un momento?",
+        "example": "Entschuldigung, haben Sie einen Moment? Ich habe eine Frage.",
+        "category": "expression"
+      },
+      {
+        "word": "die Besprechung",
+        "translation": "la reunión",
+        "example": "Die Besprechung beginnt um zehn Uhr."
+      },
+      {
+        "word": "die Fortbildung",
+        "translation": "la capacitación",
+        "example": "Die Fortbildung verbessert meine Fähigkeiten."
+      },
+      {
+        "word": "pünktlich",
+        "translation": "puntual",
+        "example": "Er ist immer pünktlich zur Arbeit."
       }
     ],
     "dialogue": [],
@@ -24624,6 +26842,100 @@
           "zusammen · conversación",
           "zusammen · práctica"
         ]
+      },
+      {
+        "word": "die Kultur",
+        "translation": "la cultura",
+        "example": "Die Kultur eines Landes prägt seine Traditionen."
+      },
+      {
+        "word": "das Medium",
+        "translation": "el medio (de comunicación)",
+        "example": "Das Medium erreicht ein großes Publikum."
+      },
+      {
+        "word": "die Presse",
+        "translation": "la prensa",
+        "example": "Die Presse berichtet täglich über Politik und Kultur."
+      },
+      {
+        "word": "der Journalist",
+        "translation": "el periodista",
+        "example": "Der Journalist recherchiert gründlich für seinen Artikel."
+      },
+      {
+        "word": "berichten",
+        "translation": "informar, reportar",
+        "example": "Lokale Zeitungen berichten über das Konzert."
+      },
+      {
+        "word": "veröffentlichen",
+        "translation": "publicar",
+        "example": "Die Redaktion wird das Interview nächste Woche veröffentlichen."
+      },
+      {
+        "word": "die Kritik",
+        "translation": "la crítica",
+        "example": "Die Kritik zum Theaterstück war überwiegend positiv."
+      },
+      {
+        "word": "kritisch",
+        "translation": "crítico/a",
+        "example": "Man sollte kritisch mit Informationen umgehen."
+      },
+      {
+        "word": "die Rezension",
+        "translation": "la reseña",
+        "example": "Ich habe eine Rezension über den neuen Roman gelesen."
+      },
+      {
+        "word": "die Sendung",
+        "translation": "el programa (de TV/radio)",
+        "example": "Die Sendung beginnt um 20 Uhr."
+      },
+      {
+        "word": "das Fernsehen",
+        "translation": "la televisión",
+        "example": "Im Fernsehen lief eine interessante Debatte."
+      },
+      {
+        "word": "abonnieren",
+        "translation": "suscribirse",
+        "example": "Viele Nutzer abonnieren Nachrichtenkanäle online."
+      },
+      {
+        "word": "die Zensur",
+        "translation": "la censura",
+        "example": "In einigen Ländern ist die Zensur sehr streng."
+      },
+      {
+        "word": "informativ",
+        "translation": "informativo/a",
+        "example": "Der Beitrag war kurz und informativ."
+      },
+      {
+        "word": "Können Sie mir helfen?",
+        "translation": "¿Puede ayudarme?",
+        "example": "Können Sie mir helfen, die Quelle zu finden?",
+        "category": "expression"
+      },
+      {
+        "word": "Ich denke, dass...",
+        "translation": "Creo que...",
+        "example": "Ich denke, dass kulturelle Bildung wichtig ist.",
+        "category": "expression"
+      },
+      {
+        "word": "Da stimme ich zu.",
+        "translation": "Estoy de acuerdo con eso.",
+        "example": "Da stimme ich zu; das war ein guter Beitrag.",
+        "category": "expression"
+      },
+      {
+        "word": "Ich bin mir nicht sicher.",
+        "translation": "No estoy seguro/a.",
+        "example": "Ich bin mir nicht sicher, ob die Information korrekt ist.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -25773,6 +28085,136 @@
         "word": "abitudine",
         "translation": "hábito",
         "example": "Die Diskussion klärt die Rolle von abitudine."
+      },
+      {
+        "word": "der Verbrauch",
+        "translation": "el consumo",
+        "example": "Der Stromverbrauch im Haushalt ist in letzter Zeit gestiegen."
+      },
+      {
+        "word": "der Konsument",
+        "translation": "el consumidor",
+        "example": "Der Konsument entscheidet oft nach dem Preis."
+      },
+      {
+        "word": "die Produktion",
+        "translation": "la producción",
+        "example": "Die Produktion von Verpackungen braucht viele Ressourcen."
+      },
+      {
+        "word": "die Verpackung",
+        "translation": "el envase / el embalaje",
+        "example": "Die Verpackung sollte möglichst recycelbar sein."
+      },
+      {
+        "word": "die Ressource",
+        "translation": "el recurso",
+        "example": "Wasser ist eine knappe Ressource in vielen Regionen."
+      },
+      {
+        "word": "die erneuerbare Energie",
+        "translation": "la energía renovable",
+        "example": "Die erneuerbare Energie reduziert die Abhängigkeit von fossilen Brennstoffen."
+      },
+      {
+        "word": "die Emission",
+        "translation": "la emisión",
+        "example": "Fahrzeuge verursachen viele schädliche Emissionen."
+      },
+      {
+        "word": "der CO2-Ausstoß",
+        "translation": "las emisiones de CO2",
+        "example": "Der CO2-Ausstoß muss für das Klima reduziert werden."
+      },
+      {
+        "word": "die Abfalltrennung",
+        "translation": "la separación de residuos",
+        "example": "In unserer Stadt ist die Abfalltrennung verpflichtend."
+      },
+      {
+        "word": "die Wiederverwendung",
+        "translation": "la reutilización",
+        "example": "Die Wiederverwendung von Glasflaschen spart Energie."
+      },
+      {
+        "word": "die Recyclingquote",
+        "translation": "la tasa de reciclaje",
+        "example": "Die Recyclingquote ist in den letzten Jahren gestiegen."
+      },
+      {
+        "word": "die Entsorgung",
+        "translation": "la eliminación de residuos",
+        "example": "Eine korrekte Entsorgung gefährlicher Stoffe ist wichtig."
+      },
+      {
+        "word": "der Beitrag",
+        "translation": "la contribución",
+        "example": "Jeder kleine Beitrag hilft beim Umweltschutz."
+      },
+      {
+        "word": "die Herkunft",
+        "translation": "el origen",
+        "example": "Die Herkunft der Rohstoffe ist schwer nachzuverfolgen."
+      },
+      {
+        "word": "die Lieferkette",
+        "translation": "la cadena de suministro",
+        "example": "Transparente Lieferketten fördern nachhaltigen Konsum."
+      },
+      {
+        "word": "die Nachhaltigkeit",
+        "translation": "la sostenibilidad",
+        "example": "Nachhaltigkeit sollte bei jeder Produktentwicklung berücksichtigt werden."
+      },
+      {
+        "word": "das Gleichgewicht",
+        "translation": "el equilibrio",
+        "example": "Ein ökologisches Gleichgewicht ist für das Ökosystem entscheidend."
+      },
+      {
+        "word": "die Verantwortung",
+        "translation": "la responsabilidad",
+        "example": "Unternehmen tragen Verantwortung für ihre Emissionen."
+      },
+      {
+        "word": "reduzieren",
+        "translation": "reducir",
+        "example": "Wir müssen Plastikmüll deutlich reduzieren."
+      },
+      {
+        "word": "vermeiden",
+        "translation": "evitar",
+        "example": "Man sollte Einwegprodukte möglichst vermeiden."
+      },
+      {
+        "word": "Könnten Sie mir bitte helfen?",
+        "translation": "¿Podría ayudarme, por favor?",
+        "example": "Könnten Sie mir bitte helfen, die Recyclingregeln zu verstehen?",
+        "category": "expression"
+      },
+      {
+        "word": "Meiner Meinung nach...",
+        "translation": "En mi opinión...",
+        "example": "Meiner Meinung nach sollten Städte mehr Radwege bauen.",
+        "category": "expression"
+      },
+      {
+        "word": "Da stimme ich zu.",
+        "translation": "Estoy de acuerdo.",
+        "example": "Da stimme ich zu, gemeinsamer Konsum ist sinnvoller.",
+        "category": "expression"
+      },
+      {
+        "word": "Ich habe Bedenken wegen...",
+        "translation": "Tengo dudas/reservas sobre...",
+        "example": "Ich habe Bedenken wegen der langen Transportwege.",
+        "category": "expression"
+      },
+      {
+        "word": "Entschuldigen Sie die Störung.",
+        "translation": "Disculpe la molestia.",
+        "example": "Entschuldigen Sie die Störung, können Sie kurz zuhören?",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -25886,6 +28328,135 @@
         "word": "contrasto",
         "translation": "contraste",
         "example": "Die Diskussion klärt die Rolle von contrasto."
+      },
+      {
+        "word": "die Darstellung",
+        "translation": "la representación",
+        "example": "Die Darstellung des Konflikts ist ambivalent."
+      },
+      {
+        "word": "die Perspektive",
+        "translation": "la perspectiva",
+        "example": "Aus dieser Perspektive erscheint die Szene anders."
+      },
+      {
+        "word": "die Ambivalenz",
+        "translation": "la ambivalencia",
+        "example": "Die Ambivalenz der Figuren fordert eine genaue Analyse."
+      },
+      {
+        "word": "die Ästhetik",
+        "translation": "la estética",
+        "example": "Die Ästhetik des Gemäldes ist minimalistisch."
+      },
+      {
+        "word": "die Intention",
+        "translation": "la intención",
+        "example": "Die Intention der Künstlerin bleibt offen."
+      },
+      {
+        "word": "die Bildsprache",
+        "translation": "el lenguaje visual",
+        "example": "Die Bildsprache vermittelt starke Metaphern."
+      },
+      {
+        "word": "die Metapher",
+        "translation": "la metáfora",
+        "example": "Die Metapher im Text eröffnet neue Deutungen."
+      },
+      {
+        "word": "die Allegorie",
+        "translation": "la alegoría",
+        "example": "Die Allegorie verweist auf historische Ereignisse."
+      },
+      {
+        "word": "die Intertextualität",
+        "translation": "la intertextualidad",
+        "example": "Die Intertextualität des Romans ist komplex."
+      },
+      {
+        "word": "die Rezeption",
+        "translation": "la recepción",
+        "example": "Die Rezeption der Ausstellung war kontrovers."
+      },
+      {
+        "word": "die Subtilität",
+        "translation": "la sutileza",
+        "example": "Die Subtilität der Farbwahl ist bemerkenswert."
+      },
+      {
+        "word": "die Nuance",
+        "translation": "el matiz",
+        "example": "Jede Nuance im Tonfall zählt."
+      },
+      {
+        "word": "interpretieren",
+        "translation": "interpretar",
+        "example": "Man muss das Werk differenziert interpretieren."
+      },
+      {
+        "word": "begründen",
+        "translation": "fundamentar",
+        "example": "Bitte begründen Sie Ihre These mit konkreten Beispielen."
+      },
+      {
+        "word": "die These",
+        "translation": "la tesis",
+        "example": "Die These stützt sich auf umfangreiche Forschung."
+      },
+      {
+        "word": "die Evidenz",
+        "translation": "la evidencia",
+        "example": "Die Evidenz wird im Text kritisch gewürdigt."
+      },
+      {
+        "word": "analysieren",
+        "translation": "analizar",
+        "example": "Wir analysieren die Symbolik des Bildes."
+      },
+      {
+        "word": "kontextualisieren",
+        "translation": "contextualizar",
+        "example": "Es ist wichtig, das Werk historisch zu kontextualisieren."
+      },
+      {
+        "word": "Meiner Ansicht nach",
+        "translation": "en mi opinión",
+        "example": "Meiner Ansicht nach stärkt das Werk die Debatte.",
+        "category": "expression"
+      },
+      {
+        "word": "Könnten Sie mir helfen?",
+        "translation": "¿Podría ayudarme?",
+        "example": "Könnten Sie mir helfen, das Bild zu analysieren?",
+        "category": "expression"
+      },
+      {
+        "word": "Da stimme ich zu",
+        "translation": "estoy de acuerdo con eso",
+        "example": "Da stimme ich zu; die Begründung ist überzeugend.",
+        "category": "expression"
+      },
+      {
+        "word": "Ich habe Zweifel, ob",
+        "translation": "tengo dudas de que",
+        "example": "Ich habe Zweifel, ob diese Interpretation alle Aspekte erfasst.",
+        "category": "expression"
+      },
+      {
+        "word": "die Ursache",
+        "translation": "la causa",
+        "example": "Die Ursache für die Veränderung bleibt spekulativ."
+      },
+      {
+        "word": "folgern",
+        "translation": "inferir / concluir",
+        "example": "Aus dem Detail lässt sich nichts Allgemeines folgern."
+      },
+      {
+        "word": "das Stilmittel",
+        "translation": "el recurso estilístico",
+        "example": "Das Stilmittel der Wiederholung erzeugt Spannung."
       }
     ],
     "dialogue": [],
@@ -25999,6 +28570,137 @@
         "word": "appartenenza",
         "translation": "pertenencia",
         "example": "Die Diskussion klärt die Rolle von appartenenza."
+      },
+      {
+        "word": "die Erzählperspektive",
+        "translation": "la perspectiva narrativa",
+        "example": "Die Erzählperspektive beeinflusst, welche Informationen der Leser erhält."
+      },
+      {
+        "word": "die Identitätskonstruktion",
+        "translation": "la construcción de la identidad",
+        "example": "Die Identitätskonstruktion der Protagonistin entwickelt sich in Rückblenden."
+      },
+      {
+        "word": "begründen",
+        "translation": "justificar, fundamentar",
+        "example": "Ich kann diese These mit empirischen Daten begründen."
+      },
+      {
+        "word": "die Evidenz",
+        "translation": "la evidencia",
+        "example": "Die vorgelegte Evidenz reicht nicht aus."
+      },
+      {
+        "word": "die Kohärenz",
+        "translation": "la coherencia",
+        "example": "Die Kohärenz zwischen den Kapiteln ist entscheidend."
+      },
+      {
+        "word": "plausibel",
+        "translation": "plausible",
+        "example": "Sein Argument erscheint zunächst plausibel."
+      },
+      {
+        "word": "die Zuschreibung",
+        "translation": "la atribución",
+        "example": "Die Zuschreibung von Eigenschaften verändert die Wahrnehmung der Figur."
+      },
+      {
+        "word": "die Ambivalenz",
+        "translation": "la ambivalencia",
+        "example": "Die Ambivalenz der Reaktion bleibt bewusst offen."
+      },
+      {
+        "word": "die Subjektivität",
+        "translation": "la subjetividad",
+        "example": "Die Subjektivität des Erzählers erschwert eine objektive Analyse."
+      },
+      {
+        "word": "die Authentizität",
+        "translation": "la autenticidad",
+        "example": "Die Authentizität des Berichts wurde überprüft."
+      },
+      {
+        "word": "deuten",
+        "translation": "interpretar",
+        "example": "Man kann das Verhalten als Ausdruck von Angst deuten."
+      },
+      {
+        "word": "hervorheben",
+        "translation": "resaltar",
+        "example": "Im Schlusskapitel hebt die Autorin die zentralen Motive hervor."
+      },
+      {
+        "word": "der Argumentationsstrang",
+        "translation": "la línea argumentativa",
+        "example": "Der Argumentationsstrang verliert sich bei zu vielen Abschweifungen."
+      },
+      {
+        "word": "evidenzbasiert",
+        "translation": "basado en evidencia",
+        "example": "Eine evidenzbasierte Herangehensweise stärkt die Argumentation."
+      },
+      {
+        "word": "der Kontextbezug",
+        "translation": "la referencia al contexto",
+        "example": "Ohne klaren Kontextbezug sind Aussagen schwer einzuordnen."
+      },
+      {
+        "word": "differenzieren",
+        "translation": "diferenciar",
+        "example": "Wir sollten Ursache und Wirkung sorgfältig differenzieren."
+      },
+      {
+        "word": "die Perspektivübernahme",
+        "translation": "la adopción de perspectiva",
+        "example": "Die Perspektivübernahme ermöglicht empathischere Deutungen."
+      },
+      {
+        "word": "schlüssig",
+        "translation": "coherente, concluyente",
+        "example": "Die Schlussfolgerung ist überzeugend und schlüssig."
+      },
+      {
+        "word": "belegen",
+        "translation": "respaldar, demostrar",
+        "example": "Können Sie diese Behauptung mit Quellen belegen?"
+      },
+      {
+        "word": "Könnten Sie mir kurz helfen?",
+        "translation": "¿Podría ayudarme un momento?",
+        "example": "Könnten Sie mir kurz helfen, den Text zu analysieren?",
+        "category": "expression"
+      },
+      {
+        "word": "Meiner Ansicht nach...",
+        "translation": "En mi opinión...",
+        "example": "Meiner Ansicht nach bleibt die Begründung unzureichend.",
+        "category": "expression"
+      },
+      {
+        "word": "Das leuchtet mir ein.",
+        "translation": "Eso tiene sentido para mí.",
+        "example": "Ihre Erklärung leuchtet mir ein.",
+        "category": "expression"
+      },
+      {
+        "word": "Daran habe ich Zweifel.",
+        "translation": "Tengo dudas sobre eso.",
+        "example": "Daran habe ich Zweifel, weil die Methodik fehlt.",
+        "category": "expression"
+      },
+      {
+        "word": "Um ehrlich zu sein, ...",
+        "translation": "A decir verdad...",
+        "example": "Um ehrlich zu sein, finde ich die Darstellung einseitig.",
+        "category": "expression"
+      },
+      {
+        "word": "Aus diesem Grund...",
+        "translation": "Por esta razón...",
+        "example": "Aus diesem Grund empfehle ich eine Neuauswertung.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -30205,6 +32907,100 @@
           "zusammen · conversación",
           "zusammen · práctica"
         ]
+      },
+      {
+        "word": "der Supermarkt",
+        "translation": "el supermercado",
+        "example": "Der Supermarkt ist neben dem Park."
+      },
+      {
+        "word": "das Café",
+        "translation": "la cafetería",
+        "example": "Wir treffen uns im Café."
+      },
+      {
+        "word": "die Bank",
+        "translation": "el banco",
+        "example": "Die Bank ist an der Ecke."
+      },
+      {
+        "word": "die Post",
+        "translation": "la oficina de correos",
+        "example": "Ich muss zur Post gehen."
+      },
+      {
+        "word": "das Krankenhaus",
+        "translation": "el hospital",
+        "example": "Das Krankenhaus ist nicht weit."
+      },
+      {
+        "word": "die Kirche",
+        "translation": "la iglesia",
+        "example": "Die Kirche liegt am Platz."
+      },
+      {
+        "word": "der Park",
+        "translation": "el parque",
+        "example": "Der Park ist groß."
+      },
+      {
+        "word": "das Rathaus",
+        "translation": "el ayuntamiento",
+        "example": "Das Rathaus ist geschlossen."
+      },
+      {
+        "word": "die Haltestelle",
+        "translation": "la parada",
+        "example": "Die Haltestelle ist gegenüber dem Supermarkt."
+      },
+      {
+        "word": "die Ampel",
+        "translation": "el semáforo",
+        "example": "An der Ampel gehen wir geradeaus."
+      },
+      {
+        "word": "die Ecke",
+        "translation": "la esquina",
+        "example": "Treffen wir uns an der Ecke?"
+      },
+      {
+        "word": "der Platz",
+        "translation": "la plaza",
+        "example": "Der Platz ist sehr schön."
+      },
+      {
+        "word": "die Fußgängerzone",
+        "translation": "la zona peatonal",
+        "example": "In der Fußgängerzone gibt es viele Läden."
+      },
+      {
+        "word": "das Museum",
+        "translation": "el museo",
+        "example": "Das Museum ist im Stadtzentrum."
+      },
+      {
+        "word": "Entschuldigung, können Sie mir helfen?",
+        "translation": "Disculpe, ¿me puede ayudar?",
+        "example": "Entschuldigung, können Sie mir helfen?",
+        "category": "expression"
+      },
+      {
+        "word": "Wie komme ich zum Museum?",
+        "translation": "¿Cómo llego al museo?",
+        "example": "Wie komme ich zum Museum?",
+        "category": "expression"
+      },
+      {
+        "word": "Ich glaube, das ist hier links.",
+        "translation": "Creo que está aquí a la izquierda.",
+        "example": "Ich glaube, das ist hier links.",
+        "category": "expression"
+      },
+      {
+        "word": "Das stimmt.",
+        "translation": "Eso es cierto.",
+        "example": "Das stimmt.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -30643,6 +33439,102 @@
           "zusammen · conversación",
           "zusammen · práctica"
         ]
+      },
+      {
+        "word": "der Rucksack",
+        "translation": "la mochila",
+        "example": "Ich packe den Rucksack für die Reise."
+      },
+      {
+        "word": "das Gepäck",
+        "translation": "el equipaje",
+        "example": "Das Gepäck ist schwer."
+      },
+      {
+        "word": "die Sehenswürdigkeit",
+        "translation": "la atracción turística",
+        "example": "Wir besuchen eine Sehenswürdigkeit in der Stadt."
+      },
+      {
+        "word": "die Abfahrt",
+        "translation": "la salida (de un transporte)",
+        "example": "Die Abfahrt des Zuges ist um neun Uhr."
+      },
+      {
+        "word": "die Ankunft",
+        "translation": "la llegada",
+        "example": "Die Ankunft war spät am Abend."
+      },
+      {
+        "word": "die Fahrkarte",
+        "translation": "el boleto",
+        "example": "Ich kaufe die Fahrkarte am Schalter."
+      },
+      {
+        "word": "der Pass",
+        "translation": "el pasaporte",
+        "example": "Ich habe meinen Pass dabei."
+      },
+      {
+        "word": "buchen",
+        "translation": "reservar",
+        "example": "Ich buche das Hotel online."
+      },
+      {
+        "word": "fahren",
+        "translation": "viajar (en vehículo)",
+        "example": "Wir fahren mit dem Zug."
+      },
+      {
+        "word": "fliegen",
+        "translation": "viajar en avión",
+        "example": "Letztes Jahr bin ich mit dem Flugzeug geflogen."
+      },
+      {
+        "word": "das Abenteuer",
+        "translation": "la aventura",
+        "example": "Diese Reise war ein echtes Abenteuer."
+      },
+      {
+        "word": "das Souvenir",
+        "translation": "el recuerdo",
+        "example": "Ich kaufe ein Souvenir für meine Familie."
+      },
+      {
+        "word": "Können Sie mir helfen?",
+        "translation": "¿Puede ayudarme?",
+        "example": "Können Sie mir helfen, den Bahnhof zu finden?",
+        "category": "expression"
+      },
+      {
+        "word": "Meiner Meinung nach",
+        "translation": "En mi opinión",
+        "example": "Meiner Meinung nach war die Stadt sehr schön.",
+        "category": "expression"
+      },
+      {
+        "word": "Ich stimme zu",
+        "translation": "Estoy de acuerdo",
+        "example": "Ich stimme zu, das Museum war interessant.",
+        "category": "expression"
+      },
+      {
+        "word": "Vielleicht",
+        "translation": "quizás",
+        "example": "Vielleicht bleiben wir länger.",
+        "category": "expression"
+      },
+      {
+        "word": "Entschuldigung, können Sie das wiederholen?",
+        "translation": "Disculpe, ¿puede repetir eso?",
+        "example": "Entschuldigung, können Sie das bitte wiederholen?",
+        "category": "expression"
+      },
+      {
+        "word": "deshalb",
+        "translation": "por eso",
+        "example": "Ich war müde, deshalb blieb ich im Hotel.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -31081,6 +33973,102 @@
           "zusammen · conversación",
           "zusammen · práctica"
         ]
+      },
+      {
+        "word": "die Mülltrennung",
+        "translation": "la separación de la basura",
+        "example": "Die Mülltrennung ist im Haus wichtig."
+      },
+      {
+        "word": "der Kompost",
+        "translation": "el compost",
+        "example": "Der Kompost steht hinter dem Haus."
+      },
+      {
+        "word": "die Energieeinsparung",
+        "translation": "el ahorro de energía",
+        "example": "Die Energieeinsparung reduziert die Kosten."
+      },
+      {
+        "word": "erneuerbar",
+        "translation": "renovable",
+        "example": "Wir nutzen erneuerbare Energiequellen."
+      },
+      {
+        "word": "die Luftqualität",
+        "translation": "la calidad del aire",
+        "example": "Die Luftqualität in der Stadt hat sich verbessert."
+      },
+      {
+        "word": "die Grünfläche",
+        "translation": "el área verde",
+        "example": "Die Grünfläche neben der Schule ist schön."
+      },
+      {
+        "word": "die Baumpflanzung",
+        "translation": "la plantación de árboles",
+        "example": "Die Baumpflanzung findet am Sonntag statt."
+      },
+      {
+        "word": "der Verkehr",
+        "translation": "el tráfico",
+        "example": "Der Verkehr vor dem Haus ist sehr laut."
+      },
+      {
+        "word": "der Fahrradweg",
+        "translation": "el carril bici",
+        "example": "Der Fahrradweg macht das Fahren sicherer."
+      },
+      {
+        "word": "die Solaranlage",
+        "translation": "la instalación solar",
+        "example": "Die Solaranlage auf dem Dach produziert Strom."
+      },
+      {
+        "word": "das Bewusstsein",
+        "translation": "la conciencia",
+        "example": "Das Bewusstsein für Recycling wächst im Viertel."
+      },
+      {
+        "word": "der Lärm",
+        "translation": "el ruido",
+        "example": "Der Lärm von der Straße stört die Anwohner."
+      },
+      {
+        "word": "Könnten Sie mir helfen?",
+        "translation": "¿Podría ayudarme?",
+        "example": "Könnten Sie mir helfen, den Müll zu trennen?",
+        "category": "expression"
+      },
+      {
+        "word": "Meiner Meinung nach",
+        "translation": "En mi opinión",
+        "example": "Meiner Meinung nach sollten wir mehr Pflanzen setzen.",
+        "category": "expression"
+      },
+      {
+        "word": "Ich stimme zu",
+        "translation": "Estoy de acuerdo",
+        "example": "Ich stimme zu, das ist eine gute Idee.",
+        "category": "expression"
+      },
+      {
+        "word": "Ich bin nicht sicher",
+        "translation": "No estoy seguro/a",
+        "example": "Ich bin nicht sicher, ob die Lösung funktioniert.",
+        "category": "expression"
+      },
+      {
+        "word": "Wäre es möglich, eine Versammlung zu planen?",
+        "translation": "¿Sería posible planear una reunión?",
+        "example": "Wäre es möglich, eine Versammlung mit allen Nachbarn zu planen?",
+        "category": "expression"
+      },
+      {
+        "word": "Können wir das gemeinsam organisieren?",
+        "translation": "¿Podemos organizarlo juntos?",
+        "example": "Können wir das gemeinsam organisieren und Helfer finden?",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -32230,6 +35218,137 @@
         "word": "pregiudizio",
         "translation": "sesgo",
         "example": "Die Diskussion klärt die Rolle von pregiudizio."
+      },
+      {
+        "word": "die Quelle",
+        "translation": "la fuente",
+        "example": "Die Quelle ist vertrauenswürdig."
+      },
+      {
+        "word": "der Artikel",
+        "translation": "el artículo",
+        "example": "Der Artikel fasst die Studie zusammen."
+      },
+      {
+        "word": "die Überschrift",
+        "translation": "el titular",
+        "example": "Die Überschrift ist irreführend."
+      },
+      {
+        "word": "der Bericht",
+        "translation": "el informe",
+        "example": "Der Bericht enthält klare Argumente."
+      },
+      {
+        "word": "das Medium",
+        "translation": "el medio (de comunicación)",
+        "example": "Das Medium erreicht viele Leser."
+      },
+      {
+        "word": "die Redaktion",
+        "translation": "la redacción",
+        "example": "Die Redaktion prüft Quellen sorgfältig."
+      },
+      {
+        "word": "die Darstellung",
+        "translation": "la presentación",
+        "example": "Die Darstellung ist sachlich und knapp."
+      },
+      {
+        "word": "die These",
+        "translation": "la tesis",
+        "example": "Die These wird logisch begründet."
+      },
+      {
+        "word": "die Argumentation",
+        "translation": "la argumentación",
+        "example": "Die Argumentation überzeugt viele Leser."
+      },
+      {
+        "word": "das Argument",
+        "translation": "el argumento",
+        "example": "Das Argument ist klar formuliert."
+      },
+      {
+        "word": "die Begründung",
+        "translation": "la justificación",
+        "example": "Die Begründung fehlt im Text."
+      },
+      {
+        "word": "die Schlussfolgerung",
+        "translation": "la conclusión",
+        "example": "Die Schlussfolgerung ist nachvollziehbar."
+      },
+      {
+        "word": "die Zusammenfassung",
+        "translation": "el resumen",
+        "example": "Die Zusammenfassung ist kurz und präzise."
+      },
+      {
+        "word": "die Objektivität",
+        "translation": "la objetividad",
+        "example": "Die Objektivität sollte gewahrt bleiben."
+      },
+      {
+        "word": "die Verzerrung",
+        "translation": "el sesgo",
+        "example": "Die Verzerrung beeinträchtigt die Wahrnehmung."
+      },
+      {
+        "word": "die Perspektive",
+        "translation": "la perspectiva",
+        "example": "Die Perspektive des Autors ist wichtig."
+      },
+      {
+        "word": "die Glaubwürdigkeit",
+        "translation": "la credibilidad",
+        "example": "Die Glaubwürdigkeit der Quelle ist entscheidend."
+      },
+      {
+        "word": "überprüfen",
+        "translation": "verificar",
+        "example": "Wir müssen die Fakten überprüfen."
+      },
+      {
+        "word": "analysieren",
+        "translation": "analizar",
+        "example": "Die Studierenden analysieren den Text."
+      },
+      {
+        "word": "Könnten Sie mir helfen?",
+        "translation": "¿Podría ayudarme?",
+        "example": "Könnten Sie mir helfen, die Quelle zu finden?",
+        "category": "expression"
+      },
+      {
+        "word": "Meiner Meinung nach",
+        "translation": "en mi opinión",
+        "example": "Meiner Meinung nach fehlt die Begründung.",
+        "category": "expression"
+      },
+      {
+        "word": "Da stimme ich zu",
+        "translation": "estoy de acuerdo",
+        "example": "Da stimme ich zu; die Fakten sind klar.",
+        "category": "expression"
+      },
+      {
+        "word": "Ich habe Zweifel daran",
+        "translation": "tengo dudas al respecto",
+        "example": "Ich habe Zweifel daran, dass die Studie repräsentativ ist.",
+        "category": "expression"
+      },
+      {
+        "word": "Entschuldigen Sie bitte",
+        "translation": "Disculpe, por favor",
+        "example": "Entschuldigen Sie bitte, können Sie das wiederholen?",
+        "category": "expression"
+      },
+      {
+        "word": "Das ist der Grund, warum...",
+        "translation": "esa es la razón por la que...",
+        "example": "Das ist der Grund, warum die Quelle wichtig ist.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -32343,6 +35462,137 @@
         "word": "limite",
         "translation": "límite",
         "example": "Die Diskussion klärt die Rolle von limite."
+      },
+      {
+        "word": "die Hypothese",
+        "translation": "la hipótesis",
+        "example": "Die Hypothese wurde klar formuliert."
+      },
+      {
+        "word": "die Stichprobe",
+        "translation": "la muestra",
+        "example": "Die Stichprobe umfasst 200 Teilnehmende."
+      },
+      {
+        "word": "das Ergebnis",
+        "translation": "el resultado",
+        "example": "Das Ergebnis stützt unsere Vermutung."
+      },
+      {
+        "word": "nachweisen",
+        "translation": "demostrar",
+        "example": "Wir müssen den Effekt statistisch nachweisen."
+      },
+      {
+        "word": "die Variable",
+        "translation": "la variable",
+        "example": "Diese Variable beeinflusst das Ergebnis."
+      },
+      {
+        "word": "die Methodik",
+        "translation": "la metodología",
+        "example": "Die Methodik ist im Anhang beschrieben."
+      },
+      {
+        "word": "die Validität",
+        "translation": "la validez",
+        "example": "Die Validität der Daten ist entscheidend."
+      },
+      {
+        "word": "die Reliabilität",
+        "translation": "la confiabilidad",
+        "example": "Die Reliabilität wurde durch Wiederholung geprüft."
+      },
+      {
+        "word": "die Stichprobengröße",
+        "translation": "el tamaño de la muestra",
+        "example": "Die Stichprobengröße war ausreichend."
+      },
+      {
+        "word": "die Datenauswertung",
+        "translation": "el análisis de datos",
+        "example": "Die Datenauswertung dauert noch an."
+      },
+      {
+        "word": "die Korrelation",
+        "translation": "la correlación",
+        "example": "Eine starke Korrelation wurde gefunden."
+      },
+      {
+        "word": "die Kausalität",
+        "translation": "la causalidad",
+        "example": "Kausalität lässt sich nicht ohne Kontrollen behaupten."
+      },
+      {
+        "word": "die Operationalisierung",
+        "translation": "la operacionalización",
+        "example": "Die Operationalisierung der Variablen ist notwendig."
+      },
+      {
+        "word": "die Signifikanz",
+        "translation": "la significancia",
+        "example": "Die Signifikanz liegt unter 0,05."
+      },
+      {
+        "word": "die Kontrollgruppe",
+        "translation": "el grupo de control",
+        "example": "Die Kontrollgruppe erhielt kein Treatment."
+      },
+      {
+        "word": "zusammenfassen",
+        "translation": "resumir",
+        "example": "Fassen Sie die wichtigsten Befunde zusammen."
+      },
+      {
+        "word": "interpretieren",
+        "translation": "interpretar",
+        "example": "Die Daten müssen sorgfältig interpretiert werden."
+      },
+      {
+        "word": "ableiten",
+        "translation": "inferir",
+        "example": "Aus den Ergebnissen lässt sich eine Schlussfolgerung ableiten."
+      },
+      {
+        "word": "der Zusammenhang",
+        "translation": "la relación",
+        "example": "Der Zusammenhang ist statistisch signifikant."
+      },
+      {
+        "word": "Könnten Sie mir helfen?",
+        "translation": "¿Podría ayudarme?",
+        "example": "Könnten Sie mir helfen, die Daten zu überprüfen?",
+        "category": "expression"
+      },
+      {
+        "word": "Meiner Meinung nach",
+        "translation": "en mi opinión",
+        "example": "Meiner Meinung nach ist die Methode angemessen.",
+        "category": "expression"
+      },
+      {
+        "word": "Ich stimme dem zu",
+        "translation": "estoy de acuerdo",
+        "example": "Ich stimme dem Ergebnis zu.",
+        "category": "expression"
+      },
+      {
+        "word": "Ich habe Zweifel daran",
+        "translation": "tengo dudas al respecto",
+        "example": "Ich habe Zweifel an der Validität.",
+        "category": "expression"
+      },
+      {
+        "word": "Darf ich kurz etwas anmerken?",
+        "translation": "¿Puedo decir algo brevemente?",
+        "example": "Darf ich kurz etwas anmerken? Die Methode könnte verbessert werden.",
+        "category": "expression"
+      },
+      {
+        "word": "Infolgedessen",
+        "translation": "como consecuencia",
+        "example": "Infolgedessen sind die Ergebnisse konsistent.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -32456,6 +35706,138 @@
         "word": "responsabilità",
         "translation": "responsabilidad",
         "example": "Die Diskussion klärt die Rolle von responsabilità."
+      },
+      {
+        "word": "die Haftung",
+        "translation": "responsabilidad legal",
+        "example": "Die Haftung des Unternehmens ist vertraglich geregelt."
+      },
+      {
+        "word": "die Pflicht",
+        "translation": "el deber",
+        "example": "Die Pflicht zur Aufklärung besteht unabhängig vom Vertrag."
+      },
+      {
+        "word": "die Klage",
+        "translation": "la demanda judicial",
+        "example": "Die Klage wurde vor dem Landgericht eingereicht."
+      },
+      {
+        "word": "der Tatbestand",
+        "translation": "hecho constitutivo",
+        "example": "Der Tatbestand erfüllt alle gesetzlichen Voraussetzungen."
+      },
+      {
+        "word": "die Rechtsgrundlage",
+        "translation": "base legal",
+        "example": "Die Rechtsgrundlage für die Maßnahme fehlt."
+      },
+      {
+        "word": "die Sanktion",
+        "translation": "la sanción",
+        "example": "Die Sanktion kann eine Geldbuße oder eine Freiheitsstrafe sein."
+      },
+      {
+        "word": "die Schadensersatzpflicht",
+        "translation": "obligación de indemnizar",
+        "example": "Die Schadensersatzpflicht ergibt sich aus dem Verschulden."
+      },
+      {
+        "word": "die Fürsorgepflicht",
+        "translation": "deber de cuidado",
+        "example": "Die Fürsorgepflicht des Arbeitgebers ist gesetzlich verankert."
+      },
+      {
+        "word": "die Gewährleistung",
+        "translation": "garantía legal",
+        "example": "Die Gewährleistung gilt in der Regel für zwei Jahre."
+      },
+      {
+        "word": "die Verjährung",
+        "translation": "prescripción",
+        "example": "Die Verjährung hindert die Durchsetzung der Ansprüche."
+      },
+      {
+        "word": "die Compliance",
+        "translation": "cumplimiento normativo",
+        "example": "Compliance ist für internationale Konzerne entscheidend."
+      },
+      {
+        "word": "die Haftpflichtversicherung",
+        "translation": "seguro de responsabilidad civil",
+        "example": "Die Haftpflichtversicherung deckt fremde Schäden ab."
+      },
+      {
+        "word": "die Zuständigkeit",
+        "translation": "competencia jurisdiccional",
+        "example": "Die Zuständigkeit des Gerichts ist vorab zu klären."
+      },
+      {
+        "word": "der Präzedenzfall",
+        "translation": "caso precedente",
+        "example": "Der Präzedenzfall beeinflusste die spätere Rechtsprechung."
+      },
+      {
+        "word": "die Rechtswirkung",
+        "translation": "efecto jurídico",
+        "example": "Die Rechtswirkung der Vereinbarung ist umstritten."
+      },
+      {
+        "word": "die Rechtswidrigkeit",
+        "translation": "ilegalidad",
+        "example": "Die Rechtswidrigkeit des Handelns steht zur Debatte."
+      },
+      {
+        "word": "die Rechtsfolge",
+        "translation": "consecuencia jurídica",
+        "example": "Die Rechtsfolge ist im Gesetz klar beschrieben."
+      },
+      {
+        "word": "die Legitimation",
+        "translation": "legitimación",
+        "example": "Die Legitimation des Klägers muss nachgewiesen werden."
+      },
+      {
+        "word": "Könnten Sie mir dabei helfen?",
+        "translation": "¿Podría ayudarme con esto?",
+        "example": "Könnten Sie mir dabei helfen, das Argument klar zu strukturieren?",
+        "category": "expression"
+      },
+      {
+        "word": "Meiner Meinung nach",
+        "translation": "En mi opinión",
+        "example": "Meiner Meinung nach fehlt eine ausreichende Rechtsgrundlage.",
+        "category": "expression"
+      },
+      {
+        "word": "Ich stimme dem zu",
+        "translation": "Estoy de acuerdo con eso",
+        "example": "Ich stimme dem zu, weil die Beweise eindeutig sind.",
+        "category": "expression"
+      },
+      {
+        "word": "Ich habe Bedenken",
+        "translation": "Tengo dudas",
+        "example": "Ich habe Bedenken hinsichtlich der Haftung im konkreten Fall.",
+        "category": "expression"
+      },
+      {
+        "word": "Darf ich kurz nachfragen?",
+        "translation": "¿Puedo preguntar brevemente?",
+        "example": "Darf ich kurz nachfragen, welche Frist hier relevant ist?",
+        "category": "expression"
+      },
+      {
+        "word": "Aus diesem Grund",
+        "translation": "Por esta razón",
+        "example": "Aus diesem Grund sollten wir die Alternative prüfen.",
+        "category": "expression"
+      },
+      {
+        "word": "Vielen Dank für Ihre Unterstützung",
+        "translation": "Muchas gracias por su apoyo",
+        "example": "Vielen Dank für Ihre Unterstützung bei der Klärung der Rechtslage.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -36662,6 +40044,102 @@
           "Frage · conversación",
           "Frage · práctica"
         ]
+      },
+      {
+        "word": "die Pause",
+        "translation": "el recreo",
+        "example": "In der Pause spielen wir Fußball."
+      },
+      {
+        "word": "das Buch",
+        "translation": "el libro",
+        "example": "Ich lese das Buch."
+      },
+      {
+        "word": "der Stift",
+        "translation": "el lápiz",
+        "example": "Der Stift ist blau."
+      },
+      {
+        "word": "die Tafel",
+        "translation": "la pizarra",
+        "example": "Die Tafel ist sauber."
+      },
+      {
+        "word": "der Computer",
+        "translation": "la computadora",
+        "example": "Der Computer ist neu."
+      },
+      {
+        "word": "die Aufgabe",
+        "translation": "la tarea",
+        "example": "Die Aufgabe ist leicht."
+      },
+      {
+        "word": "das Heft",
+        "translation": "el cuaderno",
+        "example": "Ich schreibe ins Heft."
+      },
+      {
+        "word": "der Schüler",
+        "translation": "el alumno",
+        "example": "Der Schüler hört zu."
+      },
+      {
+        "word": "schreiben",
+        "translation": "escribir",
+        "example": "Ich schreibe einen Text."
+      },
+      {
+        "word": "lesen",
+        "translation": "leer",
+        "example": "Wir lesen ein Buch."
+      },
+      {
+        "word": "fragen",
+        "translation": "preguntar",
+        "example": "Er fragt den Lehrer."
+      },
+      {
+        "word": "helfen",
+        "translation": "ayudar",
+        "example": "Ich helfe dir."
+      },
+      {
+        "word": "Kannst du mir helfen?",
+        "translation": "¿Puedes ayudarme?",
+        "example": "Kannst du mir helfen, das zu verstehen?",
+        "category": "expression"
+      },
+      {
+        "word": "Ich finde...",
+        "translation": "Yo creo que...",
+        "example": "Ich finde Mathe interessant.",
+        "category": "expression"
+      },
+      {
+        "word": "Ich bin einverstanden.",
+        "translation": "Estoy de acuerdo.",
+        "example": "Ich bin einverstanden mit dir.",
+        "category": "expression"
+      },
+      {
+        "word": "Ich weiß nicht.",
+        "translation": "No sé.",
+        "example": "Ich weiß die Antwort nicht.",
+        "category": "expression"
+      },
+      {
+        "word": "Entschuldigung, darf ich etwas fragen?",
+        "translation": "Disculpa, ¿puedo preguntar algo?",
+        "example": "Entschuldigung, darf ich etwas fragen?",
+        "category": "expression"
+      },
+      {
+        "word": "Warum?",
+        "translation": "¿Por qué?",
+        "example": "Warum ist die Hausaufgabe schwer?",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -37100,6 +40578,100 @@
           "Viertel · conversación",
           "Viertel · práctica"
         ]
+      },
+      {
+        "word": "der Apfel",
+        "translation": "la manzana",
+        "example": "Der Apfel ist frisch."
+      },
+      {
+        "word": "die Suppe",
+        "translation": "la sopa",
+        "example": "Die Suppe ist warm."
+      },
+      {
+        "word": "das Gemüse",
+        "translation": "las verduras",
+        "example": "Ich mag das Gemüse."
+      },
+      {
+        "word": "das Öl",
+        "translation": "el aceite",
+        "example": "Gib etwas Öl in die Pfanne."
+      },
+      {
+        "word": "der Zucker",
+        "translation": "el azúcar",
+        "example": "Zu viel Zucker ist ungesund."
+      },
+      {
+        "word": "backen",
+        "translation": "hornear",
+        "example": "Wir backen einen Kuchen."
+      },
+      {
+        "word": "braten",
+        "translation": "freír/asar",
+        "example": "Ich brate das Fleisch."
+      },
+      {
+        "word": "schneiden",
+        "translation": "cortar",
+        "example": "Schneide das Gemüse klein."
+      },
+      {
+        "word": "mischen",
+        "translation": "mezclar",
+        "example": "Mische die Zutaten."
+      },
+      {
+        "word": "servieren",
+        "translation": "servir",
+        "example": "Servieren Sie die Suppe heiß."
+      },
+      {
+        "word": "die Zubereitung",
+        "translation": "la preparación",
+        "example": "Die Zubereitung dauert 20 Minuten."
+      },
+      {
+        "word": "die Portion",
+        "translation": "la porción",
+        "example": "Eine Portion ist genug."
+      },
+      {
+        "word": "würzig",
+        "translation": "sabroso, bien sazonado",
+        "example": "Die Sauce ist sehr würzig."
+      },
+      {
+        "word": "süß",
+        "translation": "dulce",
+        "example": "Der Kuchen ist zu süß."
+      },
+      {
+        "word": "Kannst du mir helfen?",
+        "translation": "¿Puedes ayudarme?",
+        "example": "Kannst du mir helfen, das Gemüse zu schneiden?",
+        "category": "expression"
+      },
+      {
+        "word": "Meiner Meinung nach...",
+        "translation": "En mi opinión...",
+        "example": "Meiner Meinung nach ist das Rezept gut.",
+        "category": "expression"
+      },
+      {
+        "word": "Das stimmt.",
+        "translation": "Es cierto.",
+        "example": "Das stimmt, das Essen ist lecker.",
+        "category": "expression"
+      },
+      {
+        "word": "Ich bin mir nicht sicher.",
+        "translation": "No estoy seguro/a.",
+        "example": "Ich bin mir nicht sicher, ob ich genug Zutaten habe.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -37538,6 +41110,102 @@
           "zusammen · conversación",
           "zusammen · práctica"
         ]
+      },
+      {
+        "word": "die Geschichte",
+        "translation": "la historia",
+        "example": "Erzähl mir eine kurze Geschichte."
+      },
+      {
+        "word": "das Erlebnis",
+        "translation": "la experiencia (vivencia)",
+        "example": "Das war ein aufregendes Erlebnis."
+      },
+      {
+        "word": "das Tagebuch",
+        "translation": "el diario",
+        "example": "Sie schreibt jeden Abend in ihr Tagebuch."
+      },
+      {
+        "word": "der Ort",
+        "translation": "el lugar",
+        "example": "Der Ort weckt viele Erinnerungen."
+      },
+      {
+        "word": "die Stimmung",
+        "translation": "el ambiente",
+        "example": "Die Stimmung auf dem Fest war fröhlich."
+      },
+      {
+        "word": "die Wahrnehmung",
+        "translation": "la percepción",
+        "example": "Unsere Wahrnehmung verändert sich mit der Zeit."
+      },
+      {
+        "word": "das Foto",
+        "translation": "la foto",
+        "example": "Das Foto zeigt meine Familie."
+      },
+      {
+        "word": "das Familienfest",
+        "translation": "la reunión familiar",
+        "example": "Beim Familienfest erzählten wir alte Geschichten."
+      },
+      {
+        "word": "sich erinnern an",
+        "translation": "recordar",
+        "example": "Ich erinnere mich an den Sommer."
+      },
+      {
+        "word": "das Gespräch",
+        "translation": "la conversación",
+        "example": "Das Gespräch hat mir geholfen, vieles zu verstehen."
+      },
+      {
+        "word": "die Quelle",
+        "translation": "la fuente",
+        "example": "Das Foto ist eine wichtige Quelle."
+      },
+      {
+        "word": "die Erfahrung",
+        "translation": "la experiencia (aprendida)",
+        "example": "Aus dieser Erfahrung habe ich gelernt."
+      },
+      {
+        "word": "Kannst du mir helfen?",
+        "translation": "¿Puedes ayudarme?",
+        "example": "Kannst du mir helfen, das Foto zu finden?",
+        "category": "expression"
+      },
+      {
+        "word": "Meiner Meinung nach...",
+        "translation": "En mi opinión...",
+        "example": "Meiner Meinung nach sollten wir die Geschichte aufschreiben.",
+        "category": "expression"
+      },
+      {
+        "word": "Das stimmt.",
+        "translation": "Eso es correcto.",
+        "example": "Das stimmt, so habe ich es auch erlebt.",
+        "category": "expression"
+      },
+      {
+        "word": "Ich bin mir nicht sicher.",
+        "translation": "No estoy seguro/a.",
+        "example": "Ich bin mir nicht sicher, ob das wirklich so war.",
+        "category": "expression"
+      },
+      {
+        "word": "Entschuldigung, könnten Sie das wiederholen?",
+        "translation": "Disculpe, ¿podría repetir eso?",
+        "example": "Entschuldigung, könnten Sie das wiederholen? Ich habe es nicht verstanden.",
+        "category": "expression"
+      },
+      {
+        "word": "Deshalb...",
+        "translation": "Por eso...",
+        "example": "Deshalb bewahre ich die alten Briefe auf.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -38687,6 +42355,135 @@
         "word": "consiglio",
         "translation": "consejo",
         "example": "Die Diskussion klärt die Rolle von consiglio."
+      },
+      {
+        "word": "die Gesundheit",
+        "translation": "la salud",
+        "example": "Die Gesundheit sollte immer Priorität haben."
+      },
+      {
+        "word": "das Wohlbefinden",
+        "translation": "el bienestar",
+        "example": "Regelmäßige Bewegung fördert das Wohlbefinden."
+      },
+      {
+        "word": "der Stress",
+        "translation": "el estrés",
+        "example": "Zu viel Stress kann das Immunsystem schwächen."
+      },
+      {
+        "word": "die Prävention",
+        "translation": "la prevención",
+        "example": "Prävention ist oft kostengünstiger als Behandlung."
+      },
+      {
+        "word": "die Erholung",
+        "translation": "el descanso",
+        "example": "Nach dem Urlaub brauche ich mehr Erholung."
+      },
+      {
+        "word": "das Gleichgewicht",
+        "translation": "el equilibrio",
+        "example": "Ein gutes Gleichgewicht zwischen Arbeit und Freizeit ist wichtig."
+      },
+      {
+        "word": "die Ernährung",
+        "translation": "la alimentación",
+        "example": "Eine ausgewogene Ernährung unterstützt die Gesundheit."
+      },
+      {
+        "word": "die Bewegung",
+        "translation": "la actividad física",
+        "example": "Tägliche Bewegung verbessert die körperliche Fitness."
+      },
+      {
+        "word": "die Schlafqualität",
+        "translation": "la calidad del sueño",
+        "example": "Die Schlafqualität beeinflusst die Konzentration am Tag."
+      },
+      {
+        "word": "sich erholen",
+        "translation": "recuperarse",
+        "example": "Ich erhole mich nach der Arbeit beim Spaziergang."
+      },
+      {
+        "word": "entspannen",
+        "translation": "relajarse",
+        "example": "Am Abend entspanne ich mich mit Musik."
+      },
+      {
+        "word": "gesundheitsbewusst",
+        "translation": "consciente de la salud",
+        "example": "Immer mehr Menschen werden gesundheitsbewusster."
+      },
+      {
+        "word": "die Therapie",
+        "translation": "la terapia",
+        "example": "Die Therapie hat ihr geholfen, schmerzfrei zu leben."
+      },
+      {
+        "word": "die Nebenwirkung",
+        "translation": "el efecto secundario",
+        "example": "Bei dem Medikament traten wenige Nebenwirkungen auf."
+      },
+      {
+        "word": "die Vorsichtsmaßnahme",
+        "translation": "la medida de precaución",
+        "example": "Händewaschen ist eine einfache Vorsichtsmaßnahme."
+      },
+      {
+        "word": "das Immunsystem",
+        "translation": "el sistema inmunológico",
+        "example": "Das Immunsystem schützt vor Infektionen."
+      },
+      {
+        "word": "die Belastung",
+        "translation": "la carga",
+        "example": "Hohe Arbeitsbelastung führt oft zu Erschöpfung."
+      },
+      {
+        "word": "die Selbstfürsorge",
+        "translation": "el autocuidado",
+        "example": "Selbstfürsorge beinhaltet regelmäßige Pausen und gesunde Ernährung."
+      },
+      {
+        "word": "das Risiko",
+        "translation": "el riesgo",
+        "example": "Gute Hygiene reduziert das Risiko von Infektionen."
+      },
+      {
+        "word": "die Motivation",
+        "translation": "la motivación",
+        "example": "Motivation ist wichtig, um regelmäßig Sport zu treiben."
+      },
+      {
+        "word": "nachhaltig",
+        "translation": "sostenible",
+        "example": "Nachhaltige Gewohnheiten verbessern langfristig das Wohlbefinden."
+      },
+      {
+        "word": "Könnten Sie mir bitte helfen?",
+        "translation": "¿Podría ayudarme, por favor?",
+        "example": "Könnten Sie mir bitte helfen, einen Termin beim Hausarzt zu vereinbaren?",
+        "category": "expression"
+      },
+      {
+        "word": "Meiner Meinung nach...",
+        "translation": "En mi opinión...",
+        "example": "Meiner Meinung nach sollte Prävention stärker gefördert werden.",
+        "category": "expression"
+      },
+      {
+        "word": "Da stimme ich zu.",
+        "translation": "Estoy de acuerdo con eso.",
+        "example": "Da stimme ich zu, ausreichend Schlaf ist entscheidend.",
+        "category": "expression"
+      },
+      {
+        "word": "Ich bin mir nicht sicher.",
+        "translation": "No estoy seguro.",
+        "example": "Ich bin mir nicht sicher, ob dieses Supplement nötig ist.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -38800,6 +42597,136 @@
         "word": "sostenere",
         "translation": "sostener",
         "example": "Die Diskussion klärt die Rolle von sostenere."
+      },
+      {
+        "word": "die Inflation",
+        "translation": "la inflación",
+        "example": "Die Inflation erhöht die Preise für Lebensmittel."
+      },
+      {
+        "word": "der Haushalt",
+        "translation": "el presupuesto del hogar",
+        "example": "Der Haushalt muss die Ausgaben im Blick behalten."
+      },
+      {
+        "word": "die Ausgaben",
+        "translation": "los gastos",
+        "example": "Die Ausgaben sind diesen Monat unerwartet gestiegen."
+      },
+      {
+        "word": "die Einnahmen",
+        "translation": "los ingresos",
+        "example": "Die Einnahmen reichen nicht aus, um die Rechnung zu bezahlen."
+      },
+      {
+        "word": "die Rücklage",
+        "translation": "la reserva de ahorro",
+        "example": "Wir legen eine Rücklage für Notfälle an."
+      },
+      {
+        "word": "sparen",
+        "translation": "ahorrar",
+        "example": "Man sollte frühzeitig für die Rente sparen."
+      },
+      {
+        "word": "investieren",
+        "translation": "invertir",
+        "example": "Sie plant, langfristig in grüne Fonds zu investieren."
+      },
+      {
+        "word": "die Rendite",
+        "translation": "la rentabilidad",
+        "example": "Die erwartete Rendite liegt bei fünf Prozent."
+      },
+      {
+        "word": "der Zinssatz",
+        "translation": "la tasa de interés",
+        "example": "Ein hoher Zinssatz verteuert den Kredit."
+      },
+      {
+        "word": "die Liquidität",
+        "translation": "la liquidez",
+        "example": "Unternehmen müssen ihre Liquidität sichern."
+      },
+      {
+        "word": "die Verschuldung",
+        "translation": "el endeudamiento",
+        "example": "Die Verschuldung des Haushalts ist gesunken."
+      },
+      {
+        "word": "die Tilgung",
+        "translation": "la amortización / el pago de la deuda",
+        "example": "Die Tilgung des Kredits erfolgt monatlich."
+      },
+      {
+        "word": "die Diversifikation",
+        "translation": "la diversificación",
+        "example": "Eine Diversifikation reduziert das Risiko im Portfolio."
+      },
+      {
+        "word": "die Opportunitätskosten",
+        "translation": "el costo de oportunidad",
+        "example": "Die Opportunitätskosten sollten bei jeder Wahl abgewogen werden."
+      },
+      {
+        "word": "die Effizienz",
+        "translation": "la eficiencia",
+        "example": "Effizienzsteigerungen senken langfristig die Kosten."
+      },
+      {
+        "word": "die Nachhaltigkeit",
+        "translation": "la sostenibilidad",
+        "example": "Nachhaltigkeit beeinflusst zunehmend Konsumentscheidungen."
+      },
+      {
+        "word": "die Subvention",
+        "translation": "la subvención",
+        "example": "Die Subvention soll erneuerbare Energien fördern."
+      },
+      {
+        "word": "die Steuerlast",
+        "translation": "la carga impositiva",
+        "example": "Eine hohe Steuerlast schmälert das verfügbare Einkommen."
+      },
+      {
+        "word": "das Budget",
+        "translation": "el presupuesto",
+        "example": "Das Budget für das Projekt ist begrenzt."
+      },
+      {
+        "word": "die Kosten-Nutzen-Analyse",
+        "translation": "el análisis costo-beneficio",
+        "example": "Vor großen Ausgaben führen wir eine Kosten-Nutzen-Analyse durch."
+      },
+      {
+        "word": "Könnten Sie mir dabei helfen?",
+        "translation": "¿Podría ayudarme con esto?",
+        "example": "Könnten Sie mir dabei helfen, das Budget zu überprüfen?",
+        "category": "expression"
+      },
+      {
+        "word": "Meiner Meinung nach...",
+        "translation": "En mi opinión...",
+        "example": "Meiner Meinung nach sollten wir zuerst die Fixkosten senken.",
+        "category": "expression"
+      },
+      {
+        "word": "Da bin ich ganz Ihrer Meinung.",
+        "translation": "Estoy totalmente de acuerdo con usted.",
+        "example": "Da bin ich ganz Ihrer Meinung; das ist eine nachhaltige Lösung.",
+        "category": "expression"
+      },
+      {
+        "word": "Darf ich kurz nachfragen?",
+        "translation": "¿Puedo preguntar brevemente?",
+        "example": "Darf ich kurz nachfragen, wie Sie die Rendite berechnet haben?",
+        "category": "expression"
+      },
+      {
+        "word": "Könnten Sie das bitte erläutern?",
+        "translation": "¿Podría explicarlo, por favor?",
+        "example": "Könnten Sie das bitte erläutern, damit alle den Plan verstehen?",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -38913,6 +42840,136 @@
         "word": "intervenire",
         "translation": "intervenir",
         "example": "Die Diskussion klärt die Rolle von intervenire."
+      },
+      {
+        "word": "die Einkommensungleichheit",
+        "translation": "la desigualdad de ingresos",
+        "example": "Die Einkommensungleichheit verschärft soziale Spannungen."
+      },
+      {
+        "word": "die Umverteilung",
+        "translation": "la redistribución",
+        "example": "Eine progressive Steuerpolitik fördert die Umverteilung von Vermögen."
+      },
+      {
+        "word": "das Bruttoinlandsprodukt (BIP)",
+        "translation": "el producto interno bruto (PIB)",
+        "example": "Das BIP stieg im letzten Quartal um 1,2 Prozent."
+      },
+      {
+        "word": "der Mindestlohn",
+        "translation": "el salario mínimo",
+        "example": "Der Mindestlohn soll Armut und prekäre Beschäftigung reduzieren."
+      },
+      {
+        "word": "die Steuerprogression",
+        "translation": "la progresividad fiscal",
+        "example": "Die Steuerprogression sorgt dafür, dass höhere Einkommen stärker belastet werden."
+      },
+      {
+        "word": "die Vermögenssteuer",
+        "translation": "el impuesto al patrimonio",
+        "example": "Eine Vermögenssteuer kann zur Finanzierung sozialer Leistungen beitragen."
+      },
+      {
+        "word": "die Sozialleistung",
+        "translation": "la prestación social",
+        "example": "Die Sozialleistungen wurden zur Stabilisierung der Kaufkraft erhöht."
+      },
+      {
+        "word": "die Staatsverschuldung",
+        "translation": "la deuda pública",
+        "example": "Die Staatsverschuldung stieg infolge umfangreicher Konjunkturpakete."
+      },
+      {
+        "word": "die Fiskalpolitik",
+        "translation": "la política fiscal",
+        "example": "Die Fiskalpolitik zielt auf Investitionen und Beschäftigungsförderung."
+      },
+      {
+        "word": "die Geldpolitik",
+        "translation": "la política monetaria",
+        "example": "Die Geldpolitik der Zentralbank beeinflusst Zinssätze und Inflation."
+      },
+      {
+        "word": "das Marktversagen",
+        "translation": "el fallo del mercado",
+        "example": "Umweltverschmutzung ist ein klassisches Beispiel für Marktversagen."
+      },
+      {
+        "word": "die Allokation",
+        "translation": "la asignación (de recursos)",
+        "example": "Effiziente Allokation der Ressourcen ist für Wachstum entscheidend."
+      },
+      {
+        "word": "die Chancengleichheit",
+        "translation": "la igualdad de oportunidades",
+        "example": "Chancengleichheit beginnt mit Zugang zu hochwertiger Bildung."
+      },
+      {
+        "word": "die soziale Mobilität",
+        "translation": "la movilidad social",
+        "example": "Hohe soziale Mobilität erlaubt Aufstieg unabhängig von der Herkunft."
+      },
+      {
+        "word": "die Verteilungsgerechtigkeit",
+        "translation": "la justicia distributiva",
+        "example": "Die Debatte dreht sich oft um Verteilungsgerechtigkeit und Effizienz."
+      },
+      {
+        "word": "der Wohlstand",
+        "translation": "la prosperidad",
+        "example": "Längerfristiges Wachstum soll den allgemeinen Wohlstand erhöhen."
+      },
+      {
+        "word": "die Armutsquote",
+        "translation": "la tasa de pobreza",
+        "example": "Die Armutsquote sank nach den Reformen leicht."
+      },
+      {
+        "word": "die Lohnlücke",
+        "translation": "la brecha salarial",
+        "example": "Die Lohnlücke zwischen Geschlechtern bleibt in vielen Branchen bestehen."
+      },
+      {
+        "word": "die Externalität",
+        "translation": "la externalidad",
+        "example": "Negative Externalitäten wie Luftverschmutzung erfordern Regulierung."
+      },
+      {
+        "word": "die Skaleneffekte",
+        "translation": "las economías de escala",
+        "example": "Skaleneffekte senken die Stückkosten großer Hersteller."
+      },
+      {
+        "word": "Könnten Sie das erläutern?",
+        "translation": "¿Podría explicar eso?",
+        "example": "Könnten Sie das erläutern?",
+        "category": "expression"
+      },
+      {
+        "word": "Meiner Ansicht nach ist das nicht ausreichend.",
+        "translation": "En mi opinión, eso no es suficiente.",
+        "example": "Meiner Ansicht nach ist das nicht ausreichend.",
+        "category": "expression"
+      },
+      {
+        "word": "Ich stimme dem grundsätzlich zu.",
+        "translation": "Estoy de acuerdo en principio.",
+        "example": "Ich stimme dem grundsätzlich zu.",
+        "category": "expression"
+      },
+      {
+        "word": "Daran habe ich Zweifel.",
+        "translation": "Tengo dudas al respecto.",
+        "example": "Daran habe ich Zweifel.",
+        "category": "expression"
+      },
+      {
+        "word": "Vielen Dank für Ihre Einschätzung.",
+        "translation": "Muchas gracias por su valoración.",
+        "example": "Vielen Dank für Ihre Einschätzung.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -43119,6 +47176,100 @@
           "zusammen · conversación",
           "zusammen · práctica"
         ]
+      },
+      {
+        "word": "die Küche",
+        "translation": "la cocina",
+        "example": "Die Küche ist sauber."
+      },
+      {
+        "word": "das Bett",
+        "translation": "la cama",
+        "example": "Das Bett ist bequem."
+      },
+      {
+        "word": "der Tisch",
+        "translation": "la mesa",
+        "example": "Der Tisch steht im Wohnzimmer."
+      },
+      {
+        "word": "die Tür",
+        "translation": "la puerta",
+        "example": "Mach bitte die Tür zu."
+      },
+      {
+        "word": "das Badezimmer",
+        "translation": "el baño",
+        "example": "Das Badezimmer ist klein."
+      },
+      {
+        "word": "die Wohnung",
+        "translation": "el departamento",
+        "example": "Meine Wohnung ist neu."
+      },
+      {
+        "word": "der Stuhl",
+        "translation": "la silla",
+        "example": "Der Stuhl ist kaputt."
+      },
+      {
+        "word": "das Fenster",
+        "translation": "la ventana",
+        "example": "Bitte öffne das Fenster."
+      },
+      {
+        "word": "aufräumen",
+        "translation": "ordenar",
+        "example": "Ich räume mein Zimmer auf."
+      },
+      {
+        "word": "putzen",
+        "translation": "limpiar",
+        "example": "Ich putze die Küche."
+      },
+      {
+        "word": "waschen",
+        "translation": "lavar",
+        "example": "Ich wasche die Wäsche."
+      },
+      {
+        "word": "duschen",
+        "translation": "ducharse",
+        "example": "Ich dusche morgens."
+      },
+      {
+        "word": "Zähne putzen",
+        "translation": "cepillarse los dientes",
+        "example": "Ich putze mir die Zähne."
+      },
+      {
+        "word": "fernsehen",
+        "translation": "ver televisión",
+        "example": "Am Abend sehe ich fern."
+      },
+      {
+        "word": "Kannst du mir helfen?",
+        "translation": "¿Puedes ayudarme?",
+        "example": "Kannst du mir helfen?",
+        "category": "expression"
+      },
+      {
+        "word": "Ich stimme zu.",
+        "translation": "Estoy de acuerdo.",
+        "example": "Ich stimme dir zu.",
+        "category": "expression"
+      },
+      {
+        "word": "Ich bin nicht sicher.",
+        "translation": "No estoy seguro/a.",
+        "example": "Ich bin nicht sicher.",
+        "category": "expression"
+      },
+      {
+        "word": "Danke schön.",
+        "translation": "Muchas gracias.",
+        "example": "Danke schön!",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -43557,6 +47708,102 @@
           "zusammen · conversación",
           "zusammen · práctica"
         ]
+      },
+      {
+        "word": "die Natur",
+        "translation": "la naturaleza",
+        "example": "Die Natur ist wichtig für unsere Gesundheit."
+      },
+      {
+        "word": "das Wasser",
+        "translation": "el agua",
+        "example": "Das Wasser im See ist klar."
+      },
+      {
+        "word": "die Luft",
+        "translation": "el aire",
+        "example": "Die Luft in der Stadt ist oft verschmutzt."
+      },
+      {
+        "word": "der Wald",
+        "translation": "el bosque",
+        "example": "Im Wald hört man viele Vögel."
+      },
+      {
+        "word": "das Recycling",
+        "translation": "el reciclaje",
+        "example": "Das Recycling spart Ressourcen."
+      },
+      {
+        "word": "recyceln",
+        "translation": "reciclar",
+        "example": "Wir recyceln Glas und Papier."
+      },
+      {
+        "word": "kompostieren",
+        "translation": "compostar",
+        "example": "Wir kompostieren Küchenabfälle."
+      },
+      {
+        "word": "die Solarenergie",
+        "translation": "la energía solar",
+        "example": "Die Solarenergie kommt von der Sonne."
+      },
+      {
+        "word": "nachhaltig",
+        "translation": "sostenible",
+        "example": "Nachhaltig leben ist gut für die Zukunft."
+      },
+      {
+        "word": "vermeiden",
+        "translation": "evitar",
+        "example": "Ich versuche, Einwegplastik zu vermeiden."
+      },
+      {
+        "word": "der Verbrauch",
+        "translation": "el consumo",
+        "example": "Der Verbrauch von Wasser steigt im Sommer."
+      },
+      {
+        "word": "die öffentlichen Verkehrsmittel",
+        "translation": "el transporte público",
+        "example": "Ich fahre mit den öffentlichen Verkehrsmitteln zur Arbeit."
+      },
+      {
+        "word": "Können Sie mir helfen?",
+        "translation": "¿Puede ayudarme?",
+        "example": "Können Sie mir beim Recycling helfen?",
+        "category": "expression"
+      },
+      {
+        "word": "Meiner Meinung nach...",
+        "translation": "En mi opinión...",
+        "example": "Meiner Meinung nach sollten wir weniger Plastik verwenden.",
+        "category": "expression"
+      },
+      {
+        "word": "Ich stimme zu.",
+        "translation": "Estoy de acuerdo.",
+        "example": "Ich stimme zu, das ist eine gute Idee.",
+        "category": "expression"
+      },
+      {
+        "word": "Ich bin nicht sicher.",
+        "translation": "No estoy seguro/a.",
+        "example": "Ich bin nicht sicher, ob das Plastik recycelbar ist.",
+        "category": "expression"
+      },
+      {
+        "word": "Entschuldigung, darf ich fragen?",
+        "translation": "Disculpe, ¿puedo preguntar?",
+        "example": "Entschuldigung, darf ich fragen, wo die Sammelstelle ist?",
+        "category": "expression"
+      },
+      {
+        "word": "Wegen der Umwelt...",
+        "translation": "Por el bien del medio ambiente...",
+        "example": "Wegen der Umwelt benutze ich eine wiederverwendbare Flasche.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -43995,6 +48242,101 @@
           "zusammen · conversación",
           "zusammen · práctica"
         ]
+      },
+      {
+        "word": "das Team",
+        "translation": "el equipo",
+        "example": "Das Team trifft sich morgen."
+      },
+      {
+        "word": "der Zeitplan",
+        "translation": "el cronograma",
+        "example": "Wir müssen den Zeitplan anpassen."
+      },
+      {
+        "word": "die Frist",
+        "translation": "la fecha límite",
+        "example": "Die Frist endet nächste Woche."
+      },
+      {
+        "word": "der Fortschritt",
+        "translation": "el progreso",
+        "example": "Wir besprechen den Fortschritt regelmäßig."
+      },
+      {
+        "word": "die Rolle",
+        "translation": "el rol",
+        "example": "Jede Person hat eine Rolle im Projekt."
+      },
+      {
+        "word": "zuordnen",
+        "translation": "asignar",
+        "example": "Wir ordnen die Aufgaben zu."
+      },
+      {
+        "word": "abstimmen",
+        "translation": "votar",
+        "example": "Wir stimmen über den Vorschlag ab."
+      },
+      {
+        "word": "der Vorschlag",
+        "translation": "la propuesta",
+        "example": "Ich habe einen Vorschlag für die Struktur."
+      },
+      {
+        "word": "die Priorität",
+        "translation": "la prioridad",
+        "example": "Die Priorität ist die wichtigste Aufgabe."
+      },
+      {
+        "word": "koordinieren",
+        "translation": "coordinar",
+        "example": "Wer koordiniert das Projekt?"
+      },
+      {
+        "word": "das Treffen",
+        "translation": "la reunión",
+        "example": "Das Treffen beginnt um zehn Uhr."
+      },
+      {
+        "word": "die Rückmeldung",
+        "translation": "la retroalimentación",
+        "example": "Ich brauche eine Rückmeldung bis Freitag."
+      },
+      {
+        "word": "beraten",
+        "translation": "consultar/discutir",
+        "example": "Wir beraten das weitere Vorgehen."
+      },
+      {
+        "word": "Kannst du mir helfen?",
+        "translation": "¿Puedes ayudarme?",
+        "example": "Kannst du mir helfen mit der Präsentation?",
+        "category": "expression"
+      },
+      {
+        "word": "Meiner Meinung nach",
+        "translation": "En mi opinión",
+        "example": "Meiner Meinung nach ist das eine gute Idee.",
+        "category": "expression"
+      },
+      {
+        "word": "Ich bin einverstanden",
+        "translation": "Estoy de acuerdo",
+        "example": "Ich bin einverstanden mit dem Plan.",
+        "category": "expression"
+      },
+      {
+        "word": "Hast du einen Vorschlag?",
+        "translation": "¿Tienes alguna propuesta?",
+        "example": "Hast du einen Vorschlag für die Aufgabenverteilung?",
+        "category": "expression"
+      },
+      {
+        "word": "Entschuldigung, darf ich etwas sagen?",
+        "translation": "Disculpa, ¿puedo decir algo?",
+        "example": "Entschuldigung, darf ich etwas sagen zum Ablauf?",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -45144,6 +49486,136 @@
         "word": "dialogo",
         "translation": "diálogo",
         "example": "Die Diskussion klärt die Rolle von dialogo."
+      },
+      {
+        "word": "die Kultur",
+        "translation": "la cultura",
+        "example": "Die Kultur eines Landes beeinflusst seine Werte."
+      },
+      {
+        "word": "die Identität",
+        "translation": "la identidad",
+        "example": "Die Identität junger Menschen verändert sich durch Migration."
+      },
+      {
+        "word": "das Erbe",
+        "translation": "el legado",
+        "example": "Das kulturelle Erbe muss geschützt werden."
+      },
+      {
+        "word": "die Zugehörigkeit",
+        "translation": "el sentido de pertenencia",
+        "example": "Die Zugehörigkeit zu einer Gemeinschaft stärkt das Selbstwertgefühl."
+      },
+      {
+        "word": "die Perspektive",
+        "translation": "la perspectiva",
+        "example": "Aus einer anderen Perspektive wirkt das Problem einfacher."
+      },
+      {
+        "word": "die Vielfalt",
+        "translation": "la diversidad",
+        "example": "Die Vielfalt der Traditionen bereichert das tägliche Leben."
+      },
+      {
+        "word": "die Integration",
+        "translation": "la integración",
+        "example": "Die Integration verlangt Geduld und Offenheit."
+      },
+      {
+        "word": "die Herkunft",
+        "translation": "el origen",
+        "example": "Die Herkunft prägt oft Sprache und Bräuche."
+      },
+      {
+        "word": "sich identifizieren mit",
+        "translation": "identificarse con",
+        "example": "Viele Menschen identifizieren sich mit mehreren Kulturen."
+      },
+      {
+        "word": "die Norm",
+        "translation": "la norma",
+        "example": "Normen können Verhalten und Erwartungen steuern."
+      },
+      {
+        "word": "der Wert",
+        "translation": "el valor",
+        "example": "Respekt ist ein zentraler Wert in der Gesellschaft."
+      },
+      {
+        "word": "anpassen",
+        "translation": "adaptarse",
+        "example": "Neuankömmlinge müssen sich an neue Regeln anpassen."
+      },
+      {
+        "word": "bewahren",
+        "translation": "conservar",
+        "example": "Wir sollten lokale Bräuche bewahren."
+      },
+      {
+        "word": "vermitteln",
+        "translation": "transmitir",
+        "example": "Schulen vermitteln oft kulturelles Wissen."
+      },
+      {
+        "word": "kritisch denken",
+        "translation": "pensar críticamente",
+        "example": "Es ist wichtig, kritisch zu denken, bevor man urteilt."
+      },
+      {
+        "word": "abwägen",
+        "translation": "sopesar",
+        "example": "Man muss Vor- und Nachteile sorgfältig abwägen."
+      },
+      {
+        "word": "die Debatte",
+        "translation": "el debate",
+        "example": "In der Debatte wurden mehrere Lösungen vorgeschlagen."
+      },
+      {
+        "word": "das Argument",
+        "translation": "el argumento",
+        "example": "Sein bestes Argument überzeugte das Publikum."
+      },
+      {
+        "word": "daher",
+        "translation": "por lo tanto",
+        "example": "Sie sprechen zwei Sprachen, daher verstehen sie verschiedene Perspektiven besser."
+      },
+      {
+        "word": "obwohl",
+        "translation": "aunque",
+        "example": "Obwohl die Meinungen unterschiedlich sind, bleibt der Respekt wichtig."
+      },
+      {
+        "word": "Meiner Meinung nach...",
+        "translation": "en mi opinión...",
+        "example": "Meiner Meinung nach fördert kultureller Austausch Verständnis.",
+        "category": "expression"
+      },
+      {
+        "word": "Könnten Sie mir helfen?",
+        "translation": "¿Podría ayudarme?",
+        "example": "Könnten Sie mir helfen? Ich suche Informationen zur lokalen Kultur.",
+        "category": "expression"
+      },
+      {
+        "word": "Das stimmt",
+        "translation": "eso es cierto",
+        "example": "Das stimmt, gemeinsame Traditionen verbinden Menschen.",
+        "category": "expression"
+      },
+      {
+        "word": "Ich bin mir nicht sicher",
+        "translation": "no estoy seguro",
+        "example": "Ich bin mir nicht sicher, ob diese Regel noch aktuell ist.",
+        "category": "expression"
+      },
+      {
+        "word": "Entschuldigen Sie",
+        "translation": "disculpe",
+        "example": "Entschuldigen Sie, dürfen wir eine Frage zur Ausstellung stellen?",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -45257,6 +49729,137 @@
         "word": "radice",
         "translation": "raíz",
         "example": "Die Diskussion klärt die Rolle von radice."
+      },
+      {
+        "word": "der Erinnerungsort",
+        "translation": "lugar de memoria",
+        "example": "Der Erinnerungsort verknüpft Geschichte und Gegenwart."
+      },
+      {
+        "word": "das Denkmal",
+        "translation": "monumento",
+        "example": "Das Denkmal erinnert an die Gefallenen."
+      },
+      {
+        "word": "die Gedenkstätte",
+        "translation": "sitio de memoria",
+        "example": "Die Gedenkstätte fördert die Auseinandersetzung mit der Vergangenheit."
+      },
+      {
+        "word": "das Mahnmal",
+        "translation": "monumento recordatorio",
+        "example": "Das Mahnmal mahnt zur Wachsamkeit gegen das Vergessen."
+      },
+      {
+        "word": "die Erinnerungskultur",
+        "translation": "cultura de la memoria",
+        "example": "Die Erinnerungskultur prägt den öffentlichen Diskurs."
+      },
+      {
+        "word": "das kollektive Gedächtnis",
+        "translation": "memoria colectiva",
+        "example": "Das kollektive Gedächtnis beeinflusst politische Entscheidungen."
+      },
+      {
+        "word": "die Überlieferung",
+        "translation": "transmisión",
+        "example": "Die Überlieferung trägt lokale Geschichten weiter."
+      },
+      {
+        "word": "bewahren",
+        "translation": "preservar, conservar",
+        "example": "Wir müssen das historische Stadtbild bewahren."
+      },
+      {
+        "word": "restaurieren",
+        "translation": "restaurar",
+        "example": "Fachleute restaurieren die beschädigte Fassade."
+      },
+      {
+        "word": "die Restaurierung",
+        "translation": "restauración",
+        "example": "Die Restaurierung dauerte mehrere Jahre."
+      },
+      {
+        "word": "die Spur",
+        "translation": "rastro, vestigio",
+        "example": "Es sind noch Spuren der ursprünglichen Bebauung sichtbar."
+      },
+      {
+        "word": "die Identitätsbildung",
+        "translation": "formación de identidad",
+        "example": "Die Identitätsbildung einer Gemeinschaft ist komplex."
+      },
+      {
+        "word": "die Vergangenheitsbewältigung",
+        "translation": "superación del pasado",
+        "example": "Die Vergangenheitsbewältigung erfordert Offenheit."
+      },
+      {
+        "word": "die Kontinuität",
+        "translation": "continuidad",
+        "example": "Die Kontinuität in der Pflege historischer Orte ist wichtig."
+      },
+      {
+        "word": "die Diskontinuität",
+        "translation": "discontinuidad",
+        "example": "Die Diskontinuität der Nutzung veränderte das Stadtbild."
+      },
+      {
+        "word": "die Topographie",
+        "translation": "topografía",
+        "example": "Die Topographie der Stadt erklärt viele Erinnerungsmuster."
+      },
+      {
+        "word": "der Kontext",
+        "translation": "contexto",
+        "example": "Im historischen Kontext gewinnt der Ort an Bedeutung."
+      },
+      {
+        "word": "die Quellenkritik",
+        "translation": "crítica de fuentes",
+        "example": "Quellenkritik ist für verlässliche Interpretationen unerlässlich."
+      },
+      {
+        "word": "Könnten Sie mir bei der Quellenrecherche helfen?",
+        "translation": "¿Podría ayudarme con la búsqueda de fuentes?",
+        "example": "Könnten Sie mir bei der Quellenrecherche helfen?",
+        "category": "expression"
+      },
+      {
+        "word": "Meiner Meinung nach sollten wir das Denkmal erhalten.",
+        "translation": "En mi opinión deberíamos conservar el monumento.",
+        "example": "Meiner Meinung nach sollten wir das Denkmal erhalten.",
+        "category": "expression"
+      },
+      {
+        "word": "Da bin ich ganz Ihrer Meinung.",
+        "translation": "Estoy totalmente de acuerdo con usted.",
+        "example": "Da bin ich ganz Ihrer Meinung.",
+        "category": "expression"
+      },
+      {
+        "word": "Ich habe Bedenken bezüglich der Umgestaltung.",
+        "translation": "Tengo reservas respecto a la remodelación.",
+        "example": "Ich habe Bedenken bezüglich der Umgestaltung.",
+        "category": "expression"
+      },
+      {
+        "word": "Würden Sie bitte Rücksicht nehmen?",
+        "translation": "¿Podría por favor mostrar consideración?",
+        "example": "Würden Sie bitte Rücksicht nehmen?",
+        "category": "expression"
+      },
+      {
+        "word": "Aufgrund der historischen Bedeutung ist Vorsicht geboten.",
+        "translation": "Debido a la importancia histórica se requiere precaución.",
+        "example": "Aufgrund der historischen Bedeutung ist Vorsicht geboten.",
+        "category": "expression"
+      },
+      {
+        "word": "die Erinnerungspraxis",
+        "translation": "prácticas de la memoria",
+        "example": "Die Erinnerungspraxis variiert je nach Generation."
       }
     ],
     "dialogue": [],
@@ -45370,6 +49973,137 @@
         "word": "interdipendenza",
         "translation": "interdependencia",
         "example": "Die Diskussion klärt die Rolle von interdipendenza."
+      },
+      {
+        "word": "die Nachhaltigkeit",
+        "translation": "sostenibilidad",
+        "example": "Die Nachhaltigkeit muss in allen Politikbereichen verankert werden."
+      },
+      {
+        "word": "die Resilienz",
+        "translation": "resiliencia",
+        "example": "Die Resilienz von Ökosystemen ist zentral für die Anpassung an Extreme."
+      },
+      {
+        "word": "das Emissionsbudget",
+        "translation": "presupuesto de emisiones",
+        "example": "Das Emissionsbudget für die nächste Dekade ist begrenzt und muss gerecht verteilt werden."
+      },
+      {
+        "word": "die Dekarbonisierung",
+        "translation": "descarbonización",
+        "example": "Die Dekarbonisierung der Industrie erfordert technologische und politische Maßnahmen."
+      },
+      {
+        "word": "die Kreislaufwirtschaft",
+        "translation": "economía circular",
+        "example": "Die Kreislaufwirtschaft reduziert Abfall und schont Ressourcen."
+      },
+      {
+        "word": "die Biodiversität",
+        "translation": "biodiversidad",
+        "example": "Der Verlust der Biodiversität gefährdet Nahrungssysteme und Ökosystemfunktionen."
+      },
+      {
+        "word": "die Ökosystemdienstleistung",
+        "translation": "servicio ecosistémico",
+        "example": "Wälder leisten wichtige Ökosystemdienstleistungen wie Klimaregulation und Wasserspeicherung."
+      },
+      {
+        "word": "emittieren",
+        "translation": "emitir",
+        "example": "Viele Verkehrssektoren emittieren weiterhin große Mengen CO2."
+      },
+      {
+        "word": "kompensieren",
+        "translation": "compensar",
+        "example": "Unternehmen kompensieren unvermeidbare Emissionen durch Aufforstungsprojekte."
+      },
+      {
+        "word": "abmildern",
+        "translation": "mitigar, atenuar",
+        "example": "Gezielte Infrastrukturinvestitionen können die Folgen extremer Wetterereignisse abmildern."
+      },
+      {
+        "word": "die Anpassungsstrategie",
+        "translation": "estrategia de adaptación",
+        "example": "Die Anpassungsstrategie berücksichtigt vulnerable Bevölkerungsgruppen und Infrastrukturen."
+      },
+      {
+        "word": "vorausschauend",
+        "translation": "previsor, con visión de futuro",
+        "example": "Ein vorausschauender Plan bezieht Klimaprojektionen systematisch ein."
+      },
+      {
+        "word": "die Energiewende",
+        "translation": "transición energética",
+        "example": "Die Energiewende erfordert den Ausbau erneuerbarer Energien und Speichertechnologien."
+      },
+      {
+        "word": "die Ressourcenallokation",
+        "translation": "asignación de recursos",
+        "example": "Eine transparente Ressourcenallokation stärkt die Effizienz von Klimaschutzmaßnahmen."
+      },
+      {
+        "word": "die Umweltbilanz",
+        "translation": "balance ambiental",
+        "example": "Die Umweltbilanz des Projekts wurde von unabhängigen Gutachtern geprüft."
+      },
+      {
+        "word": "die Anreizstruktur",
+        "translation": "estructura de incentivos",
+        "example": "Eine geeignete Anreizstruktur kann nachhaltige Innovationen fördern."
+      },
+      {
+        "word": "antizipieren",
+        "translation": "anticipar",
+        "example": "Politiken müssen mögliche Risiken frühzeitig antizipieren, um wirksam zu sein."
+      },
+      {
+        "word": "die Vulnerabilität",
+        "translation": "vulnerabilidad",
+        "example": "Die Vulnerabilität ländlicher Gemeinden steigt mit zunehmender Trockenheit."
+      },
+      {
+        "word": "präventiv",
+        "translation": "preventivo",
+        "example": "Präventive Maßnahmen reduzieren langfristig Kosten und Schäden."
+      },
+      {
+        "word": "Könnten Sie mir helfen?",
+        "translation": "¿Podría ayudarme?",
+        "example": "Könnten Sie mir helfen, die Emissionsdaten für das Projekt zu analysieren?",
+        "category": "expression"
+      },
+      {
+        "word": "Meiner Ansicht nach",
+        "translation": "En mi opinión",
+        "example": "Meiner Ansicht nach sind integrierte Konzepte für eine nachhaltige Entwicklung unerlässlich.",
+        "category": "expression"
+      },
+      {
+        "word": "Dem stimme ich zu",
+        "translation": "Estoy de acuerdo con eso",
+        "example": "Dem stimme ich zu; nur so lassen sich langfristige Ziele erreichen.",
+        "category": "expression"
+      },
+      {
+        "word": "Ich bezweifle, dass...",
+        "translation": "Dudo que...",
+        "example": "Ich bezweifle, dass kurzfristige Maßnahmen allein den Temperaturanstieg begrenzen werden.",
+        "category": "expression"
+      },
+      {
+        "word": "Darf ich kurz etwas anmerken?",
+        "translation": "¿Puedo señalar algo brevemente?",
+        "example": "Darf ich kurz etwas anmerken? Die Daten deuten auf alternative Prioritäten hin.",
+        "category": "expression"
+      },
+      {
+        "word": "Infolgedessen",
+        "translation": "Como consecuencia",
+        "example": "Infolgedessen stiegen die Kosten für Reparaturen erheblich.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -49576,6 +54310,102 @@
           "Viertel · conversación",
           "Viertel · práctica"
         ]
+      },
+      {
+        "word": "der Wind",
+        "translation": "el viento",
+        "example": "Der Wind ist heute stark."
+      },
+      {
+        "word": "die Wolke",
+        "translation": "la nube",
+        "example": "Die Wolke ist dunkel."
+      },
+      {
+        "word": "der Schnee",
+        "translation": "la nieve",
+        "example": "Der Schnee liegt auf den Straßen."
+      },
+      {
+        "word": "der Herbst",
+        "translation": "el otoño",
+        "example": "Im Herbst wird es kühler."
+      },
+      {
+        "word": "der Frühling",
+        "translation": "la primavera",
+        "example": "Im Frühling blühen viele Blumen."
+      },
+      {
+        "word": "die Temperatur",
+        "translation": "la temperatura",
+        "example": "Die Temperatur ist niedrig."
+      },
+      {
+        "word": "der Regenschirm",
+        "translation": "el paraguas",
+        "example": "Nimm den Regenschirm mit."
+      },
+      {
+        "word": "die Mütze",
+        "translation": "el gorro",
+        "example": "Sie trägt eine warme Mütze."
+      },
+      {
+        "word": "die Handschuhe",
+        "translation": "los guantes",
+        "example": "Ich finde meine Handschuhe nicht."
+      },
+      {
+        "word": "die Stiefel",
+        "translation": "las botas",
+        "example": "Die Stiefel sind nass."
+      },
+      {
+        "word": "das T-Shirt",
+        "translation": "la camiseta",
+        "example": "Er trägt ein neues T-Shirt."
+      },
+      {
+        "word": "wolkig",
+        "translation": "nublado",
+        "example": "Der Himmel ist heute wolkig."
+      },
+      {
+        "word": "Kannst du mir helfen?",
+        "translation": "¿Puedes ayudarme?",
+        "example": "Kannst du mir helfen?",
+        "category": "expression"
+      },
+      {
+        "word": "Ich finde das Wetter schön.",
+        "translation": "Me parece bonito el clima.",
+        "example": "Ich finde das Wetter heute schön.",
+        "category": "expression"
+      },
+      {
+        "word": "Ich stimme zu.",
+        "translation": "Estoy de acuerdo.",
+        "example": "Ich stimme zu.",
+        "category": "expression"
+      },
+      {
+        "word": "Ich bin mir nicht sicher.",
+        "translation": "No estoy seguro.",
+        "example": "Ich bin mir nicht sicher, ob es regnet.",
+        "category": "expression"
+      },
+      {
+        "word": "Bitte",
+        "translation": "por favor",
+        "example": "Bitte, nimm den Regenschirm.",
+        "category": "expression"
+      },
+      {
+        "word": "Kein Problem.",
+        "translation": "No hay problema.",
+        "example": "Kein Problem, ich helfe dir.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -50014,6 +54844,101 @@
           "zusammen · conversación",
           "zusammen · práctica"
         ]
+      },
+      {
+        "word": "das Fernsehen",
+        "translation": "la televisión",
+        "example": "Ich sehe abends das Fernsehen."
+      },
+      {
+        "word": "der Artikel",
+        "translation": "el artículo",
+        "example": "Der Artikel ist interessant."
+      },
+      {
+        "word": "die Sendung",
+        "translation": "el programa",
+        "example": "Die Sendung beginnt um acht."
+      },
+      {
+        "word": "das Radio",
+        "translation": "la radio",
+        "example": "Ich höre morgens das Radio."
+      },
+      {
+        "word": "das Video",
+        "translation": "el video",
+        "example": "Das Video ist kurz."
+      },
+      {
+        "word": "der Bericht",
+        "translation": "el informe",
+        "example": "Der Bericht ist sachlich."
+      },
+      {
+        "word": "die Schlagzeile",
+        "translation": "el titular",
+        "example": "Die Schlagzeile ist wichtig."
+      },
+      {
+        "word": "die Quelle",
+        "translation": "la fuente",
+        "example": "Die Quelle ist zuverlässig."
+      },
+      {
+        "word": "das Interview",
+        "translation": "la entrevista",
+        "example": "Das Interview ist interessant."
+      },
+      {
+        "word": "der Journalist",
+        "translation": "el periodista",
+        "example": "Der Journalist stellt viele Fragen."
+      },
+      {
+        "word": "teilen",
+        "translation": "compartir",
+        "example": "Ich teile den Link mit dir."
+      },
+      {
+        "word": "abonnieren",
+        "translation": "suscribirse",
+        "example": "Ich habe den Kanal abonniert."
+      },
+      {
+        "word": "kommentieren",
+        "translation": "comentar",
+        "example": "Viele Leute kommentieren den Beitrag."
+      },
+      {
+        "word": "Kannst du mir helfen?",
+        "translation": "¿Puedes ayudarme?",
+        "example": "Kannst du mir helfen? Ich finde den Artikel nicht.",
+        "category": "expression"
+      },
+      {
+        "word": "Meiner Meinung nach",
+        "translation": "En mi opinión",
+        "example": "Meiner Meinung nach ist die Sendung gut.",
+        "category": "expression"
+      },
+      {
+        "word": "Ich stimme dir zu",
+        "translation": "Estoy de acuerdo contigo",
+        "example": "Ich stimme dir zu, das ist wichtig.",
+        "category": "expression"
+      },
+      {
+        "word": "Wirklich?",
+        "translation": "¿De verdad?",
+        "example": "Wirklich? Das wusste ich nicht.",
+        "category": "expression"
+      },
+      {
+        "word": "Entschuldigung, können Sie das wiederholen?",
+        "translation": "Disculpe, ¿puede repetir eso?",
+        "example": "Entschuldigung, können Sie das wiederholen? Ich habe es nicht verstanden.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -50452,6 +55377,100 @@
           "zusammen · conversación",
           "zusammen · práctica"
         ]
+      },
+      {
+        "word": "der Computer",
+        "translation": "la computadora",
+        "example": "Der Computer startet schnell."
+      },
+      {
+        "word": "das Smartphone",
+        "translation": "el teléfono inteligente",
+        "example": "Viele Menschen benutzen heute ein Smartphone."
+      },
+      {
+        "word": "die Batterie",
+        "translation": "la batería",
+        "example": "Die Batterie hält nicht lange."
+      },
+      {
+        "word": "der Akku",
+        "translation": "la batería recargable",
+        "example": "Der Akku ist nach zwei Stunden voll."
+      },
+      {
+        "word": "aktualisieren",
+        "translation": "actualizar",
+        "example": "Bitte aktualisiere die App."
+      },
+      {
+        "word": "die Einstellung",
+        "translation": "la configuración",
+        "example": "Die Einstellung ist zu kompliziert."
+      },
+      {
+        "word": "synchronisieren",
+        "translation": "sincronizar",
+        "example": "Ich synchronisiere meine Daten mit der Cloud."
+      },
+      {
+        "word": "die Privatsphäre",
+        "translation": "la privacidad",
+        "example": "Die App respektiert die Privatsphäre der Nutzer."
+      },
+      {
+        "word": "die Sicherheit",
+        "translation": "la seguridad",
+        "example": "Die Sicherheit der Daten ist entscheidend."
+      },
+      {
+        "word": "nachhaltig",
+        "translation": "sostenible",
+        "example": "Wir sollten nachhaltige Geräte wählen."
+      },
+      {
+        "word": "effizient",
+        "translation": "eficiente",
+        "example": "Ein effizienter Stromverbrauch spart Geld."
+      },
+      {
+        "word": "die Bedienung",
+        "translation": "el manejo, la operación",
+        "example": "Die Bedienung des Geräts ist einfach."
+      },
+      {
+        "word": "die Kosten",
+        "translation": "los costos",
+        "example": "Die Kosten für Reparaturen sind hoch."
+      },
+      {
+        "word": "die Folge",
+        "translation": "la consecuencia",
+        "example": "Eine schlechte Sicherung hat ernste Folgen."
+      },
+      {
+        "word": "Kannst du mir helfen?",
+        "translation": "¿Puedes ayudarme?",
+        "example": "Kannst du mir helfen, das Gerät einzurichten?",
+        "category": "expression"
+      },
+      {
+        "word": "Meiner Meinung nach...",
+        "translation": "En mi opinión...",
+        "example": "Meiner Meinung nach ist diese Technik nützlich.",
+        "category": "expression"
+      },
+      {
+        "word": "Da bin ich ganz deiner Meinung.",
+        "translation": "Estoy totalmente de acuerdo contigo.",
+        "example": "Da bin ich ganz deiner Meinung: Sicherheit geht vor.",
+        "category": "expression"
+      },
+      {
+        "word": "Ich bin nicht sicher, ob...",
+        "translation": "No estoy seguro de si...",
+        "example": "Ich bin nicht sicher, ob wir das neue System brauchen.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -51601,6 +56620,135 @@
         "word": "rischio",
         "translation": "riesgo",
         "example": "Die Diskussion klärt die Rolle von rischio."
+      },
+      {
+        "word": "die Privatsphäre",
+        "translation": "la privacidad",
+        "example": "Die Privatsphäre der Nutzer muss geschützt werden."
+      },
+      {
+        "word": "der Datenschutz",
+        "translation": "la protección de datos",
+        "example": "Der Datenschutz ist in diesem Unternehmen wichtig."
+      },
+      {
+        "word": "das Passwort",
+        "translation": "la contraseña",
+        "example": "Ändern Sie das Passwort regelmäßig."
+      },
+      {
+        "word": "die Verschlüsselung",
+        "translation": "el cifrado",
+        "example": "Die Verschlüsselung schützt sensible Informationen."
+      },
+      {
+        "word": "verschlüsseln",
+        "translation": "cifrar",
+        "example": "Wir müssen die Dateien verschlüsseln."
+      },
+      {
+        "word": "die Authentifizierung",
+        "translation": "la autenticación",
+        "example": "Die Authentifizierung erfolgt per Zwei-Faktor."
+      },
+      {
+        "word": "die Firewall",
+        "translation": "el cortafuegos",
+        "example": "Die Firewall blockiert unerwünschten Zugriff."
+      },
+      {
+        "word": "das Sicherheitsupdate",
+        "translation": "la actualización de seguridad",
+        "example": "Installieren Sie das Sicherheitsupdate sofort."
+      },
+      {
+        "word": "der Algorithmus",
+        "translation": "el algoritmo",
+        "example": "Der Algorithmus entscheidet über die Empfehlung."
+      },
+      {
+        "word": "die Überwachung",
+        "translation": "la vigilancia",
+        "example": "Die Überwachung darf nicht die Privatsphäre verletzen."
+      },
+      {
+        "word": "die Einwilligung",
+        "translation": "el consentimiento",
+        "example": "Die Einwilligung muss informiert und freiwillig sein."
+      },
+      {
+        "word": "speichern",
+        "translation": "almacenar",
+        "example": "Wir speichern die Daten lokal und in der Cloud."
+      },
+      {
+        "word": "die Cloud",
+        "translation": "la nube",
+        "example": "Viele Unternehmen nutzen die Cloud für Backups."
+      },
+      {
+        "word": "das Datenleck",
+        "translation": "la fuga de datos",
+        "example": "Bei einem Datenleck informieren wir sofort die Betroffenen."
+      },
+      {
+        "word": "anonymisieren",
+        "translation": "anonimizar",
+        "example": "Bitte anonymisieren Sie die persönlichen Angaben."
+      },
+      {
+        "word": "die Transparenz",
+        "translation": "la transparencia",
+        "example": "Transparenz schafft Vertrauen bei den Nutzern."
+      },
+      {
+        "word": "überwachen",
+        "translation": "vigilar",
+        "example": "Die Firma überwacht den Netzwerkverkehr."
+      },
+      {
+        "word": "das Nutzerprofil",
+        "translation": "el perfil de usuario",
+        "example": "Das Nutzerprofil enthält Präferenzen und Einstellungen."
+      },
+      {
+        "word": "die Datenverarbeitung",
+        "translation": "el procesamiento de datos",
+        "example": "Die Datenverarbeitung erfolgt automatisiert."
+      },
+      {
+        "word": "die Richtlinie",
+        "translation": "la política de empresa / la normativa",
+        "example": "Die Richtlinie regelt den Umgang mit Daten."
+      },
+      {
+        "word": "das Einverständnis widerrufen",
+        "translation": "revocar el consentimiento",
+        "example": "Betroffene können das Einverständnis jederzeit widerrufen."
+      },
+      {
+        "word": "Könnten Sie mir bitte helfen?",
+        "translation": "¿Podría ayudarme, por favor?",
+        "example": "Könnten Sie mir bitte helfen?",
+        "category": "expression"
+      },
+      {
+        "word": "Meiner Meinung nach ist Datenschutz prioritär.",
+        "translation": "En mi opinión, la protección de datos es prioritaria.",
+        "example": "Meiner Meinung nach ist Datenschutz prioritär.",
+        "category": "expression"
+      },
+      {
+        "word": "Da stimme ich Ihnen zu.",
+        "translation": "Estoy de acuerdo con usted.",
+        "example": "Da stimme ich Ihnen zu.",
+        "category": "expression"
+      },
+      {
+        "word": "Haben Sie das überprüft?",
+        "translation": "¿Lo ha verificado?",
+        "example": "Haben Sie das überprüft?",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -51714,6 +56862,136 @@
         "word": "implicito",
         "translation": "implícito",
         "example": "Die Diskussion klärt die Rolle von implicito."
+      },
+      {
+        "word": "das Register",
+        "translation": "el registro (lingüístico)",
+        "example": "Das Register dieser Rede ist sehr formell."
+      },
+      {
+        "word": "der Tonfall",
+        "translation": "el tono (de voz)",
+        "example": "Ihr Tonfall verrät Unmut."
+      },
+      {
+        "word": "die Zielgruppe",
+        "translation": "el público objetivo",
+        "example": "Die Zielgruppe der Kampagne sind junge Erwachsene."
+      },
+      {
+        "word": "die Höflichkeitsform",
+        "translation": "la forma de cortesía",
+        "example": "In offiziellen Schreiben verwende ich die Höflichkeitsform."
+      },
+      {
+        "word": "die Umgangssprache",
+        "translation": "el lenguaje coloquial",
+        "example": "In der Umgangssprache werden viele Ausdrücke verkürzt."
+      },
+      {
+        "word": "argumentieren",
+        "translation": "argumentar",
+        "example": "Er kann seine Position klar und logisch argumentieren."
+      },
+      {
+        "word": "die Begründung",
+        "translation": "la justificación",
+        "example": "Bitte geben Sie eine präzise Begründung an."
+      },
+      {
+        "word": "die Perspektive",
+        "translation": "la perspectiva",
+        "example": "Wir sollten die Perspektive der Betroffenen berücksichtigen."
+      },
+      {
+        "word": "kritisch",
+        "translation": "crítico/a",
+        "example": "Sie analysierte den Text sehr kritisch."
+      },
+      {
+        "word": "die Evidenz",
+        "translation": "la evidencia",
+        "example": "Für diese These fehlt die empirische Evidenz."
+      },
+      {
+        "word": "die Schlussfolgerung",
+        "translation": "la conclusión",
+        "example": "Aus den Ergebnissen ziehe ich folgende Schlussfolgerung."
+      },
+      {
+        "word": "widerlegen",
+        "translation": "refutar",
+        "example": "Er konnte das Gegenargument überzeugend widerlegen."
+      },
+      {
+        "word": "überzeugen",
+        "translation": "convencer",
+        "example": "Ihre Ausführungen haben mich überzeugt."
+      },
+      {
+        "word": "die Relevanz",
+        "translation": "la relevancia",
+        "example": "Die Relevanz dieses Beispiels ist nicht zu unterschätzen."
+      },
+      {
+        "word": "implizit",
+        "translation": "implícito/a",
+        "example": "Viele Aussagen enthalten nur implizite Annahmen."
+      },
+      {
+        "word": "kontextualisieren",
+        "translation": "contextualizar",
+        "example": "Wir müssen die These im historischen Kontext kontextualisieren."
+      },
+      {
+        "word": "präzisieren",
+        "translation": "precisar, especificar",
+        "example": "Könnten Sie Ihre Aussage bitte präzisieren?"
+      },
+      {
+        "word": "die Nuance",
+        "translation": "el matiz",
+        "example": "Die Nuance in seiner Formulierung ist entscheidend."
+      },
+      {
+        "word": "der Diskurs",
+        "translation": "el discurso (debate intelectual)",
+        "example": "Im wissenschaftlichen Diskurs gelten strenge Kriterien."
+      },
+      {
+        "word": "die Adressatenorientierung",
+        "translation": "la orientación al destinatario",
+        "example": "Gute Texte zeigen klare Adressatenorientierung."
+      },
+      {
+        "word": "Könnten Sie mir bitte helfen?",
+        "translation": "¿Podría ayudarme, por favor?",
+        "example": "Könnten Sie mir bitte helfen, die Argumente zu strukturieren?",
+        "category": "expression"
+      },
+      {
+        "word": "Meiner Meinung nach",
+        "translation": "En mi opinión",
+        "example": "Meiner Meinung nach berücksichtigt die Analyse alle relevanten Faktoren.",
+        "category": "expression"
+      },
+      {
+        "word": "Da bin ich ganz Ihrer Meinung.",
+        "translation": "Estoy totalmente de acuerdo con usted.",
+        "example": "Da bin ich ganz Ihrer Meinung: Eine klare Struktur ist zentral.",
+        "category": "expression"
+      },
+      {
+        "word": "Ich habe Zweifel, ob...",
+        "translation": "Dudo si...",
+        "example": "Ich habe Zweifel, ob die Stichprobe repräsentativ ist.",
+        "category": "expression"
+      },
+      {
+        "word": "Vielen Dank im Voraus.",
+        "translation": "Muchas gracias de antemano.",
+        "example": "Vielen Dank im Voraus für Ihre kritische Rückmeldung.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -51827,6 +57105,137 @@
         "word": "interpretare",
         "translation": "interpretar",
         "example": "Die Diskussion klärt die Rolle von interpretare."
+      },
+      {
+        "word": "die Einordnung",
+        "translation": "la clasificación / contextualización",
+        "example": "Die Einordnung der Studie beeinflusst die öffentliche Debatte."
+      },
+      {
+        "word": "die Quellenkritik",
+        "translation": "el análisis crítico de las fuentes",
+        "example": "Die Quellenkritik gehört zur journalistischen Sorgfaltspflicht."
+      },
+      {
+        "word": "die Glaubwürdigkeit",
+        "translation": "la credibilidad",
+        "example": "Die Glaubwürdigkeit des Autors ist umstritten."
+      },
+      {
+        "word": "die Verzerrung",
+        "translation": "la distorsión",
+        "example": "Die Verzerrung der Daten verfälscht das Ergebnis."
+      },
+      {
+        "word": "das Framing",
+        "translation": "el encuadre (framing)",
+        "example": "Das Framing der Meldung lenkt die öffentliche Aufmerksamkeit."
+      },
+      {
+        "word": "die Polarisierung",
+        "translation": "la polarización",
+        "example": "Die Polarisierung erschwert einen sachlichen Austausch."
+      },
+      {
+        "word": "die Transparenz",
+        "translation": "la transparencia",
+        "example": "Die Transparenz der Methodik ist entscheidend für die Bewertung."
+      },
+      {
+        "word": "die Nachvollziehbarkeit",
+        "translation": "la comprensibilidad / posibilidad de seguimiento",
+        "example": "Die Nachvollziehbarkeit der Argumente erhöht die Überzeugungskraft."
+      },
+      {
+        "word": "die Ambiguität",
+        "translation": "la ambigüedad",
+        "example": "Die Ambiguität des Begriffs führt zu Missverständnissen."
+      },
+      {
+        "word": "die Evidenz",
+        "translation": "la evidencia",
+        "example": "Die Evidenz stützt die zentrale These der Untersuchung."
+      },
+      {
+        "word": "die Methodik",
+        "translation": "la metodología",
+        "example": "Die Methodik der Untersuchung sollte klar dokumentiert werden."
+      },
+      {
+        "word": "die Rhetorik",
+        "translation": "la retórica",
+        "example": "Die Rhetorik des Kommentars wirkt zum Teil manipulativ."
+      },
+      {
+        "word": "die Subtilität",
+        "translation": "la sutileza",
+        "example": "Die Subtilität seiner Formulierungen ist für den Diskurs wichtig."
+      },
+      {
+        "word": "die Rezeption",
+        "translation": "la recepción",
+        "example": "Die Rezeption des Artikels variierte stark zwischen den Zielgruppen."
+      },
+      {
+        "word": "die Legitimität",
+        "translation": "la legitimidad",
+        "example": "Die Legitimität der Quelle muss kritisch geprüft werden."
+      },
+      {
+        "word": "die Zuverlässigkeit",
+        "translation": "la fiabilidad",
+        "example": "Die Zuverlässigkeit der Daten ist für unsere Bewertung zentral."
+      },
+      {
+        "word": "bewerten",
+        "translation": "evaluar",
+        "example": "Wir müssen die Quellen sorgfältig bewerten, bevor wir urteilen."
+      },
+      {
+        "word": "hinterfragen",
+        "translation": "cuestionar (críticamente)",
+        "example": "Man sollte gängige Annahmen konsequent hinterfragen."
+      },
+      {
+        "word": "abwägen",
+        "translation": "sopesar",
+        "example": "Beim Diskurs muss man Chancen und Risiken abwägen."
+      },
+      {
+        "word": "Könnten Sie mir dabei helfen?",
+        "translation": "¿Podría ayudarme con esto?",
+        "example": "Könnten Sie mir dabei helfen, die Quelle zu prüfen?",
+        "category": "expression"
+      },
+      {
+        "word": "Meiner Ansicht nach...",
+        "translation": "En mi opinión...",
+        "example": "Meiner Ansicht nach fehlen belastbare Belege für diese Behauptung.",
+        "category": "expression"
+      },
+      {
+        "word": "Dem kann ich zustimmen.",
+        "translation": "Estoy de acuerdo con eso.",
+        "example": "Dem kann ich zustimmen; das Argument ist gut begründet.",
+        "category": "expression"
+      },
+      {
+        "word": "Ich habe da meine Zweifel.",
+        "translation": "Tengo mis dudas al respecto.",
+        "example": "Ich habe da meine Zweifel, ob die Studie repräsentativ ist.",
+        "category": "expression"
+      },
+      {
+        "word": "Darf ich kurz etwas anmerken?",
+        "translation": "¿Puedo comentar algo brevemente?",
+        "example": "Darf ich kurz etwas anmerken? Die Argumentation übersieht einen wichtigen Punkt.",
+        "category": "expression"
+      },
+      {
+        "word": "Das ist die Folge davon, dass...",
+        "translation": "Eso es la consecuencia de que...",
+        "example": "Das ist die Folge davon, dass Informationen selektiv präsentiert wurden.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -56033,6 +61442,102 @@
           "zusammen · conversación",
           "zusammen · práctica"
         ]
+      },
+      {
+        "word": "das Konzert",
+        "translation": "el concierto",
+        "example": "Wir gehen morgen ins Konzert."
+      },
+      {
+        "word": "die Musik",
+        "translation": "la música",
+        "example": "Ich höre gern Musik."
+      },
+      {
+        "word": "tanzen",
+        "translation": "bailar",
+        "example": "Wir tanzen am Abend."
+      },
+      {
+        "word": "das Buch",
+        "translation": "el libro",
+        "example": "Das Buch ist interessant."
+      },
+      {
+        "word": "malen",
+        "translation": "pintar",
+        "example": "Sie malt ein Bild."
+      },
+      {
+        "word": "fotografieren",
+        "translation": "tomar fotos",
+        "example": "Er fotografiert die Stadt."
+      },
+      {
+        "word": "der Freund",
+        "translation": "el amigo",
+        "example": "Mein Freund spielt Gitarre."
+      },
+      {
+        "word": "die Gitarre",
+        "translation": "la guitarra",
+        "example": "Sie spielt die Gitarre."
+      },
+      {
+        "word": "spielen",
+        "translation": "jugar/tocar",
+        "example": "Die Kinder spielen im Park."
+      },
+      {
+        "word": "wandern",
+        "translation": "hacer senderismo",
+        "example": "Wir wandern am Berg."
+      },
+      {
+        "word": "das Fahrrad",
+        "translation": "la bicicleta",
+        "example": "Er fährt mit dem Fahrrad."
+      },
+      {
+        "word": "schwimmen",
+        "translation": "nadar",
+        "example": "Im Sommer schwimme ich im See."
+      },
+      {
+        "word": "Kannst du mir helfen?",
+        "translation": "¿Puedes ayudarme?",
+        "example": "Kannst du mir beim Spiel helfen?",
+        "category": "expression"
+      },
+      {
+        "word": "Ich finde das toll.",
+        "translation": "Me parece genial.",
+        "example": "Ich finde das toll, dass du tanzt.",
+        "category": "expression"
+      },
+      {
+        "word": "Ich stimme zu.",
+        "translation": "Estoy de acuerdo.",
+        "example": "Ich stimme zu, das ist eine gute Idee.",
+        "category": "expression"
+      },
+      {
+        "word": "Ich bin nicht sicher.",
+        "translation": "No estoy seguro/a.",
+        "example": "Ich bin nicht sicher, ob ich komme.",
+        "category": "expression"
+      },
+      {
+        "word": "Entschuldigung, darf ich mitmachen?",
+        "translation": "Disculpa, ¿puedo participar?",
+        "example": "Entschuldigung, darf ich mitmachen?",
+        "category": "expression"
+      },
+      {
+        "word": "Was machst du gern?",
+        "translation": "¿Qué te gusta hacer?",
+        "example": "Was machst du gern am Wochenende?",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -56471,6 +61976,102 @@
           "zusammen · conversación",
           "zusammen · práctica"
         ]
+      },
+      {
+        "word": "der Plan",
+        "translation": "el plan",
+        "example": "Der Plan hilft mir, regelmäßig zu lernen."
+      },
+      {
+        "word": "die Aufgabe",
+        "translation": "la tarea",
+        "example": "Die Aufgabe war interessant und kurz."
+      },
+      {
+        "word": "das Zielniveau",
+        "translation": "el nivel objetivo",
+        "example": "Ich möchte das Zielniveau B1 erreichen."
+      },
+      {
+        "word": "der Zeitplan",
+        "translation": "el horario",
+        "example": "Der Zeitplan zeigt, wann ich lerne."
+      },
+      {
+        "word": "die Motivation",
+        "translation": "la motivación",
+        "example": "Meine Motivation steigt, wenn ich Fortschritte sehe."
+      },
+      {
+        "word": "die Wiederholung",
+        "translation": "la repetición",
+        "example": "Die Wiederholung hilft mir, Wörter zu behalten."
+      },
+      {
+        "word": "die Pause",
+        "translation": "la pausa",
+        "example": "Ich mache eine kurze Pause nach 45 Minuten."
+      },
+      {
+        "word": "die Notiz",
+        "translation": "la nota",
+        "example": "Ich schreibe eine Notiz zu neuen Verben."
+      },
+      {
+        "word": "planen",
+        "translation": "planear",
+        "example": "Ich plane meine Lernzeit jeden Abend."
+      },
+      {
+        "word": "wiederholen",
+        "translation": "repasar",
+        "example": "Ich wiederhole die Grammatik jeden Tag."
+      },
+      {
+        "word": "merken",
+        "translation": "memorizar",
+        "example": "Ich merke mir neue Wörter mit Karteikarten."
+      },
+      {
+        "word": "sich konzentrieren",
+        "translation": "concentrarse",
+        "example": "Ich kann mich besser konzentrieren, wenn es ruhig ist."
+      },
+      {
+        "word": "Kannst du mir helfen?",
+        "translation": "¿Puedes ayudarme?",
+        "example": "Kannst du mir beim Üben helfen?",
+        "category": "expression"
+      },
+      {
+        "word": "Meiner Meinung nach",
+        "translation": "En mi opinión",
+        "example": "Meiner Meinung nach ist tägliches Lernen besser.",
+        "category": "expression"
+      },
+      {
+        "word": "Ich bin nicht sicher",
+        "translation": "No estoy seguro/a",
+        "example": "Ich bin nicht sicher, ob die Antwort richtig ist.",
+        "category": "expression"
+      },
+      {
+        "word": "Das ist eine gute Idee",
+        "translation": "Es una buena idea",
+        "example": "Das ist eine gute Idee: jeden Tag zehn Minuten lesen.",
+        "category": "expression"
+      },
+      {
+        "word": "Entschuldigung, können Sie das wiederholen?",
+        "translation": "Disculpe, ¿puede repetir eso?",
+        "example": "Entschuldigung, können Sie das bitte wiederholen?",
+        "category": "expression"
+      },
+      {
+        "word": "Deshalb",
+        "translation": "por eso",
+        "example": "Ich habe viel gelernt, deshalb habe ich die Prüfung bestanden.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -56909,6 +62510,102 @@
           "zusammen · conversación",
           "zusammen · práctica"
         ]
+      },
+      {
+        "word": "die Haltestelle",
+        "translation": "la parada (de transporte)",
+        "example": "Die Haltestelle ist nur zwei Minuten entfernt."
+      },
+      {
+        "word": "die U-Bahn",
+        "translation": "el metro",
+        "example": "Die U-Bahn kommt alle zehn Minuten."
+      },
+      {
+        "word": "der Fahrplan",
+        "translation": "el horario",
+        "example": "Der Fahrplan ist online verfügbar."
+      },
+      {
+        "word": "die Fahrkarte",
+        "translation": "el boleto",
+        "example": "Ich kaufe die Fahrkarte am Automaten."
+      },
+      {
+        "word": "der Radweg",
+        "translation": "la ciclovía",
+        "example": "Der Radweg ist gut ausgebaut."
+      },
+      {
+        "word": "das Carsharing",
+        "translation": "autos compartidos",
+        "example": "Das Carsharing ist in unserer Stadt beliebt."
+      },
+      {
+        "word": "der Parkplatz",
+        "translation": "el estacionamiento",
+        "example": "Der Parkplatz ist oft voll."
+      },
+      {
+        "word": "das Elektroauto",
+        "translation": "el auto eléctrico",
+        "example": "Das Elektroauto reduziert die Emissionen."
+      },
+      {
+        "word": "umweltfreundlich",
+        "translation": "ecológico",
+        "example": "Die neue Buslinie ist umweltfreundlich."
+      },
+      {
+        "word": "die Fußgängerzone",
+        "translation": "la zona peatonal",
+        "example": "In der Fußgängerzone gibt es viele Cafés."
+      },
+      {
+        "word": "die Emissionen",
+        "translation": "las emisiones",
+        "example": "Die Emissionen werden Schritt für Schritt reduziert."
+      },
+      {
+        "word": "die Verkehrsplanung",
+        "translation": "la planificación del tráfico",
+        "example": "Die Verkehrsplanung berücksichtigt Fahrradwege."
+      },
+      {
+        "word": "Können Sie mir helfen?",
+        "translation": "¿Puede ayudarme?",
+        "example": "Können Sie mir helfen? Ich suche die nächste Haltestelle.",
+        "category": "expression"
+      },
+      {
+        "word": "Meiner Meinung nach sind öffentliche Verkehrsmittel wichtig.",
+        "translation": "En mi opinión, el transporte público es importante.",
+        "example": "Meiner Meinung nach sind öffentliche Verkehrsmittel wichtig.",
+        "category": "expression"
+      },
+      {
+        "word": "Da bin ich einverstanden.",
+        "translation": "Estoy de acuerdo.",
+        "example": "Da bin ich einverstanden — die Fahrradwege sollten erweitert werden.",
+        "category": "expression"
+      },
+      {
+        "word": "Ich bin mir nicht sicher.",
+        "translation": "No estoy seguro/a.",
+        "example": "Ich bin mir nicht sicher, ob das die schnellste Strecke ist.",
+        "category": "expression"
+      },
+      {
+        "word": "Entschuldigung, wie komme ich zur Haltestelle?",
+        "translation": "Disculpe, ¿cómo llego a la parada?",
+        "example": "Entschuldigung, wie komme ich zur Haltestelle?",
+        "category": "expression"
+      },
+      {
+        "word": "Deshalb fahre ich früher.",
+        "translation": "Por eso salgo más temprano.",
+        "example": "Deshalb fahre ich früher, um Staus zu vermeiden.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -58058,6 +63755,137 @@
         "word": "rispettare",
         "translation": "respetar",
         "example": "Die Diskussion klärt die Rolle von rispettare."
+      },
+      {
+        "word": "nachhaltig",
+        "translation": "sostenible",
+        "example": "Ich bevorzuge nachhaltig geplante Reisen."
+      },
+      {
+        "word": "der Umweltschutz",
+        "translation": "la protección del medio ambiente",
+        "example": "Der Umweltschutz sollte bei allen Aktivitäten berücksichtigt werden."
+      },
+      {
+        "word": "die CO2-Bilanz",
+        "translation": "la huella de CO2",
+        "example": "Wir sollten die CO2-Bilanz unserer Reise berechnen."
+      },
+      {
+        "word": "die Anreise",
+        "translation": "el traslado hasta el destino",
+        "example": "Die Anreise mit dem Zug ist umweltfreundlicher."
+      },
+      {
+        "word": "die Abreise",
+        "translation": "la partida",
+        "example": "Die Abreise ist für Sonntagmorgen geplant."
+      },
+      {
+        "word": "die Reiseroute",
+        "translation": "la ruta de viaje / el itinerario",
+        "example": "Die Reiseroute lässt sich bei Bedarf anpassen."
+      },
+      {
+        "word": "das Reiseziel",
+        "translation": "el destino de viaje",
+        "example": "Unser Reiseziel liegt an der Nordseeküste."
+      },
+      {
+        "word": "die Sehenswürdigkeit",
+        "translation": "el lugar de interés turístico",
+        "example": "Diese Sehenswürdigkeit zieht jedes Jahr viele Besucher an."
+      },
+      {
+        "word": "der Aufenthalt",
+        "translation": "la estancia",
+        "example": "Der Aufenthalt umfasst vier Nächte in der Hauptstadt."
+      },
+      {
+        "word": "die Verpflegung",
+        "translation": "la alimentación / comidas incluidas",
+        "example": "Die Verpflegung während der Tour ist regional und saisonal."
+      },
+      {
+        "word": "die Reiseversicherung",
+        "translation": "el seguro de viaje",
+        "example": "Eine Reiseversicherung deckt unerwartete Kosten ab."
+      },
+      {
+        "word": "die Reservierung",
+        "translation": "la reserva",
+        "example": "Die Reservierung für das Hotel muss bestätigt werden."
+      },
+      {
+        "word": "pauschal",
+        "translation": "todo incluido / paquete",
+        "example": "Viele buchen eine pauschale Reise für einfachere Planung."
+      },
+      {
+        "word": "flexibel",
+        "translation": "flexible",
+        "example": "Bei schlechtem Wetter bleiben flexible Pläne hilfreich."
+      },
+      {
+        "word": "die Verantwortung",
+        "translation": "la responsabilidad",
+        "example": "Jeder Reisende trägt Verantwortung für lokale Gemeinden."
+      },
+      {
+        "word": "begründen",
+        "translation": "justificar / fundamentar",
+        "example": "Bitte begründen Sie Ihre Wahl kurz und klar."
+      },
+      {
+        "word": "abwägen",
+        "translation": "sopesar / ponderar",
+        "example": "Man muss Vor- und Nachteile sorgfältig abwägen."
+      },
+      {
+        "word": "die Sicherheit",
+        "translation": "la seguridad",
+        "example": "Die Sicherheit der Teilnehmer hat oberste Priorität."
+      },
+      {
+        "word": "die Erfahrung",
+        "translation": "la experiencia",
+        "example": "Die Reise bot viele neue kulturelle Erfahrungen."
+      },
+      {
+        "word": "Könnten Sie mir bitte helfen?",
+        "translation": "¿Podría ayudarme, por favor?",
+        "example": "Könnten Sie mir bitte helfen, die beste Verbindung zu finden?",
+        "category": "expression"
+      },
+      {
+        "word": "Meiner Meinung nach...",
+        "translation": "En mi opinión...",
+        "example": "Meiner Meinung nach ist nachhaltiges Reisen langfristig besser.",
+        "category": "expression"
+      },
+      {
+        "word": "Da stimme ich zu.",
+        "translation": "Estoy de acuerdo.",
+        "example": "Da stimme ich zu, weil das lokale Angebot fair ist.",
+        "category": "expression"
+      },
+      {
+        "word": "Ich bin mir nicht sicher.",
+        "translation": "No estoy seguro/a.",
+        "example": "Ich bin mir nicht sicher, ob das Wetter bleibt.",
+        "category": "expression"
+      },
+      {
+        "word": "Entschuldigen Sie bitte, haben Sie einen Moment?",
+        "translation": "Disculpe, ¿tiene un momento, por favor?",
+        "example": "Entschuldigen Sie bitte, haben Sie einen Moment für eine Frage?",
+        "category": "expression"
+      },
+      {
+        "word": "Aus diesem Grund...",
+        "translation": "Por esta razón...",
+        "example": "Aus diesem Grund wählen viele Reisende öffentliche Verkehrsmittel.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -58171,6 +63999,135 @@
         "word": "precisione",
         "translation": "precisión",
         "example": "Die Diskussion klärt die Rolle von precisione."
+      },
+      {
+        "word": "die Hypothese",
+        "translation": "la hipótesis",
+        "example": "Die Hypothese erklärt das beobachtete Muster."
+      },
+      {
+        "word": "das Experiment",
+        "translation": "el experimento",
+        "example": "Das Experiment wurde unter kontrollierten Bedingungen durchgeführt."
+      },
+      {
+        "word": "die Methode",
+        "translation": "el método",
+        "example": "Die Methode wurde im Artikel ausführlich beschrieben."
+      },
+      {
+        "word": "die Begründung",
+        "translation": "la justificación",
+        "example": "Die Begründung für die These ist überzeugend."
+      },
+      {
+        "word": "die Argumentation",
+        "translation": "la argumentación",
+        "example": "Die Argumentation folgt einer klaren Struktur."
+      },
+      {
+        "word": "nachvollziehbar",
+        "translation": "comprensible",
+        "example": "Seine Schlussfolgerung ist nachvollziehbar."
+      },
+      {
+        "word": "der Gegenbeweis",
+        "translation": "la refutación",
+        "example": "Der Gegenbeweis widerlegt die ursprüngliche Annahme."
+      },
+      {
+        "word": "validieren",
+        "translation": "validar",
+        "example": "Die Ergebnisse müssen durch weitere Studien validiert werden."
+      },
+      {
+        "word": "die Reproduzierbarkeit",
+        "translation": "la reproducibilidad",
+        "example": "Die Reproduzierbarkeit der Messungen ist gesichert."
+      },
+      {
+        "word": "die These",
+        "translation": "la tesis",
+        "example": "Die These stützt sich auf empirische Daten."
+      },
+      {
+        "word": "präzisieren",
+        "translation": "precisar",
+        "example": "Könnten Sie Ihre Aussage präzisieren?"
+      },
+      {
+        "word": "plausibel",
+        "translation": "plausible",
+        "example": "Diese Erklärung wirkt plausibel."
+      },
+      {
+        "word": "der Kontext",
+        "translation": "el contexto",
+        "example": "Im Kontext der Studie verändert sich die Interpretation."
+      },
+      {
+        "word": "die Korrelation",
+        "translation": "la correlación",
+        "example": "Zwischen beiden Variablen besteht eine Korrelation."
+      },
+      {
+        "word": "die Kausalität",
+        "translation": "la causalidad",
+        "example": "Kausalität kann nicht allein aus Korrelationen gefolgert werden."
+      },
+      {
+        "word": "das Protokoll",
+        "translation": "el protocolo",
+        "example": "Das Protokoll dokumentiert alle Versuchsschritte."
+      },
+      {
+        "word": "transparent",
+        "translation": "transparente",
+        "example": "Transparente Methoden stärken das Vertrauen in die Ergebnisse."
+      },
+      {
+        "word": "die Fragestellung",
+        "translation": "la pregunta de investigación",
+        "example": "Die Fragestellung bestimmt das Forschungsdesign."
+      },
+      {
+        "word": "widersprechen",
+        "translation": "contradecir",
+        "example": "Neue Daten widersprechen der bisherigen Interpretation."
+      },
+      {
+        "word": "die Stichprobe",
+        "translation": "la muestra (estadística)",
+        "example": "Die Stichprobe umfasste 500 Teilnehmende."
+      },
+      {
+        "word": "das Fazit",
+        "translation": "la conclusión",
+        "example": "Das Fazit der Studie ist zurückhaltend formuliert."
+      },
+      {
+        "word": "Meiner Meinung nach",
+        "translation": "en mi opinión",
+        "example": "Meiner Meinung nach sind die Schlussfolgerungen gut begründet.",
+        "category": "expression"
+      },
+      {
+        "word": "Könnten Sie mir helfen?",
+        "translation": "¿Podría ayudarme?",
+        "example": "Könnten Sie mir helfen, die Daten zu interpretieren?",
+        "category": "expression"
+      },
+      {
+        "word": "Ich stimme zu",
+        "translation": "estoy de acuerdo",
+        "example": "Ich stimme zu: weitere Untersuchungen sind nötig.",
+        "category": "expression"
+      },
+      {
+        "word": "Ich habe Zweifel",
+        "translation": "tengo dudas",
+        "example": "Ich habe Zweifel an der Verallgemeinerbarkeit der Ergebnisse.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -58284,6 +64241,135 @@
         "word": "rigore",
         "translation": "rigor",
         "example": "Die Diskussion klärt die Rolle von rigore."
+      },
+      {
+        "word": "die Evidenz",
+        "translation": "evidencia",
+        "example": "Die Evidenz stützt die Schlussfolgerung."
+      },
+      {
+        "word": "die Hypothese",
+        "translation": "hipótesis",
+        "example": "Die Hypothese wurde experimentell überprüft."
+      },
+      {
+        "word": "die Kausalität",
+        "translation": "causalidad",
+        "example": "Die Studie versucht, Kausalität nachzuweisen."
+      },
+      {
+        "word": "die Validität",
+        "translation": "validez",
+        "example": "Die Validität der Messungen ist entscheidend."
+      },
+      {
+        "word": "die Reliabilität",
+        "translation": "fiabilidad",
+        "example": "Die Reliabilität der Ergebnisse muss gesichert sein."
+      },
+      {
+        "word": "die Reproduzierbarkeit",
+        "translation": "reproducibilidad",
+        "example": "Die Reproduzierbarkeit erhöht das Vertrauen in die Ergebnisse."
+      },
+      {
+        "word": "die Falsifizierbarkeit",
+        "translation": "falsificabilidad",
+        "example": "Falsifizierbarkeit ist ein Kriterium wissenschaftlicher Theorien."
+      },
+      {
+        "word": "die Stichprobe",
+        "translation": "muestra",
+        "example": "Die Stichprobe war statistisch repräsentativ."
+      },
+      {
+        "word": "die Signifikanz",
+        "translation": "significancia",
+        "example": "Die Signifikanz war p < 0,05."
+      },
+      {
+        "word": "die Operationalisierung",
+        "translation": "operacionalización",
+        "example": "Die Operationalisierung der Variablen ist klar beschrieben."
+      },
+      {
+        "word": "das Peer-Review",
+        "translation": "revisión por pares",
+        "example": "Die Arbeit wurde einem Peer-Review unterzogen."
+      },
+      {
+        "word": "der Interessenkonflikt",
+        "translation": "conflicto de interés",
+        "example": "Ein offener Interessenkonflikt kann die Forschung verzerren."
+      },
+      {
+        "word": "die Transparenz",
+        "translation": "transparencia",
+        "example": "Transparenz in der Methodik ist unerlässlich."
+      },
+      {
+        "word": "die Methodik",
+        "translation": "metodología",
+        "example": "Die Methodik umfasst qualitative und quantitative Ansätze."
+      },
+      {
+        "word": "die Ethik",
+        "translation": "ética",
+        "example": "Die Ethikkommission genehmigte das Forschungsdesign."
+      },
+      {
+        "word": "die Verantwortlichkeit",
+        "translation": "responsabilidad",
+        "example": "Die Verantwortlichkeit liegt beim leitenden Forscher."
+      },
+      {
+        "word": "die Folgenabschätzung",
+        "translation": "evaluación de consecuencias",
+        "example": "Eine Folgenabschätzung klärt mögliche Risiken."
+      },
+      {
+        "word": "die Datensicherheit",
+        "translation": "seguridad de datos",
+        "example": "Die Datensicherheit wurde durch Verschlüsselung gewährleistet."
+      },
+      {
+        "word": "die Plausibilität",
+        "translation": "plausibilidad",
+        "example": "Die Plausibilität der Ergebnisse überzeugt mich."
+      },
+      {
+        "word": "die Robustheit",
+        "translation": "robustez",
+        "example": "Die Robustheit der Analyse wurde durch Sensitivitätsprüfungen gezeigt."
+      },
+      {
+        "word": "die Interdisziplinarität",
+        "translation": "interdisciplinariedad",
+        "example": "Interdisziplinarität fördert innovative Ansätze."
+      },
+      {
+        "word": "Könnten Sie das bitte begründen?",
+        "translation": "¿Podría justificar eso, por favor?",
+        "example": "Könnten Sie das bitte begründen, damit wir die Argumente prüfen können?",
+        "category": "expression"
+      },
+      {
+        "word": "Meiner Ansicht nach",
+        "translation": "En mi opinión",
+        "example": "Meiner Ansicht nach sind die Daten unvollständig.",
+        "category": "expression"
+      },
+      {
+        "word": "Ich stimme dem zu.",
+        "translation": "Estoy de acuerdo.",
+        "example": "Ich stimme dem zu, weil die Methodik stringent ist.",
+        "category": "expression"
+      },
+      {
+        "word": "Daran habe ich Zweifel.",
+        "translation": "Tengo dudas al respecto.",
+        "example": "Daran habe ich Zweifel, solange die Stichprobe klein bleibt.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -62490,6 +68576,101 @@
           "zusammen · conversación",
           "zusammen · práctica"
         ]
+      },
+      {
+        "word": "der Bus",
+        "translation": "el autobús",
+        "example": "Der Bus kommt in zehn Minuten."
+      },
+      {
+        "word": "die Haltestelle",
+        "translation": "la parada",
+        "example": "Die Haltestelle ist hier."
+      },
+      {
+        "word": "der Flughafen",
+        "translation": "el aeropuerto",
+        "example": "Der Flughafen ist groß."
+      },
+      {
+        "word": "der Flug",
+        "translation": "el vuelo",
+        "example": "Der Flug dauert zwei Stunden."
+      },
+      {
+        "word": "buchen",
+        "translation": "reservar",
+        "example": "Ich buche ein Hotel."
+      },
+      {
+        "word": "umsteigen",
+        "translation": "hacer transbordo",
+        "example": "Ich muss umsteigen."
+      },
+      {
+        "word": "der Fahrplan",
+        "translation": "el horario",
+        "example": "Der Fahrplan ist wichtig."
+      },
+      {
+        "word": "die Plattform",
+        "translation": "el andén",
+        "example": "Die Plattform ist Nummer drei."
+      },
+      {
+        "word": "der Platz",
+        "translation": "el asiento",
+        "example": "Ich suche meinen Platz."
+      },
+      {
+        "word": "der Pass",
+        "translation": "el pasaporte",
+        "example": "Ich habe meinen Pass."
+      },
+      {
+        "word": "die Adresse",
+        "translation": "la dirección",
+        "example": "Hast du die Adresse?"
+      },
+      {
+        "word": "spät",
+        "translation": "tarde",
+        "example": "Ich bin spät."
+      },
+      {
+        "word": "früh",
+        "translation": "temprano",
+        "example": "Wir müssen früh los."
+      },
+      {
+        "word": "Können Sie mir helfen?",
+        "translation": "¿Puede ayudarme?",
+        "example": "Können Sie mir helfen?",
+        "category": "expression"
+      },
+      {
+        "word": "Wie viel kostet das?",
+        "translation": "¿Cuánto cuesta esto?",
+        "example": "Wie viel kostet das?",
+        "category": "expression"
+      },
+      {
+        "word": "Ich habe eine Frage.",
+        "translation": "Tengo una pregunta.",
+        "example": "Ich habe eine Frage.",
+        "category": "expression"
+      },
+      {
+        "word": "Einverstanden.",
+        "translation": "De acuerdo.",
+        "example": "Einverstanden.",
+        "category": "expression"
+      },
+      {
+        "word": "Danke schön.",
+        "translation": "Muchas gracias.",
+        "example": "Danke schön.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -62928,6 +69109,102 @@
           "zusammen · conversación",
           "zusammen · práctica"
         ]
+      },
+      {
+        "word": "die Behörde",
+        "translation": "la autoridad (oficina administrativa)",
+        "example": "Ich rufe die Behörde an."
+      },
+      {
+        "word": "der Antrag",
+        "translation": "la solicitud",
+        "example": "Ich fülle den Antrag aus."
+      },
+      {
+        "word": "die Öffnungszeiten",
+        "translation": "el horario de atención",
+        "example": "Die Öffnungszeiten sind von neun bis fünf."
+      },
+      {
+        "word": "der Schalter",
+        "translation": "la ventanilla / el mostrador",
+        "example": "Am Schalter frage ich nach Informationen."
+      },
+      {
+        "word": "die Warteschlange",
+        "translation": "la fila",
+        "example": "Die Warteschlange ist sehr lang."
+      },
+      {
+        "word": "verspäten",
+        "translation": "llegar tarde / retrasarse",
+        "example": "Der Bus verspätet sich."
+      },
+      {
+        "word": "die Reparatur",
+        "translation": "la reparación",
+        "example": "Die Reparatur dauert zwei Tage."
+      },
+      {
+        "word": "die Rechnung",
+        "translation": "la factura",
+        "example": "Ich bezahle die Rechnung."
+      },
+      {
+        "word": "der Handwerker",
+        "translation": "el técnico / el reparador",
+        "example": "Der Handwerker kommt morgen."
+      },
+      {
+        "word": "die Beschwerde",
+        "translation": "la queja",
+        "example": "Ich habe eine Beschwerde."
+      },
+      {
+        "word": "die öffentlichen Verkehrsmittel",
+        "translation": "el transporte público",
+        "example": "Die öffentlichen Verkehrsmittel sind praktisch."
+      },
+      {
+        "word": "die Fahrkarte",
+        "translation": "el boleto / el pasaje",
+        "example": "Ich kaufe eine Fahrkarte."
+      },
+      {
+        "word": "Können Sie mir helfen?",
+        "translation": "¿Puede ayudarme?",
+        "example": "Können Sie mir helfen, bitte?",
+        "category": "expression"
+      },
+      {
+        "word": "Ich habe eine Frage.",
+        "translation": "Tengo una pregunta.",
+        "example": "Entschuldigung, ich habe eine Frage.",
+        "category": "expression"
+      },
+      {
+        "word": "Wie komme ich zum Bahnhof?",
+        "translation": "¿Cómo llego a la estación?",
+        "example": "Wie komme ich zum Bahnhof?",
+        "category": "expression"
+      },
+      {
+        "word": "Vielen Dank für Ihre Hilfe.",
+        "translation": "Muchas gracias por su ayuda.",
+        "example": "Vielen Dank für Ihre Hilfe.",
+        "category": "expression"
+      },
+      {
+        "word": "Ich bin mir nicht sicher.",
+        "translation": "No estoy seguro.",
+        "example": "Ich bin mir nicht sicher.",
+        "category": "expression"
+      },
+      {
+        "word": "Kann ich mit Karte bezahlen?",
+        "translation": "¿Puedo pagar con tarjeta?",
+        "example": "Kann ich mit Karte bezahlen?",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -63366,6 +69643,100 @@
           "zusammen · conversación",
           "zusammen · práctica"
         ]
+      },
+      {
+        "word": "der Plan",
+        "translation": "el plan",
+        "example": "Ich habe einen Plan für nächstes Jahr."
+      },
+      {
+        "word": "die Chance",
+        "translation": "la oportunidad",
+        "example": "Diese Stelle ist eine gute Chance für meine Karriere."
+      },
+      {
+        "word": "das Risiko",
+        "translation": "el riesgo",
+        "example": "Das Risiko ist hoch, aber es lohnt sich."
+      },
+      {
+        "word": "die Perspektive",
+        "translation": "la perspectiva",
+        "example": "Die Perspektive auf dem Arbeitsmarkt ist positiv."
+      },
+      {
+        "word": "der Traum",
+        "translation": "el sueño",
+        "example": "Mein Traum ist, im Ausland zu studieren."
+      },
+      {
+        "word": "sparen",
+        "translation": "ahorrar",
+        "example": "Ich spare Geld für ein Auslandssemester."
+      },
+      {
+        "word": "planen",
+        "translation": "planear",
+        "example": "Wir planen eine Reise nach Deutschland."
+      },
+      {
+        "word": "vorbereiten",
+        "translation": "preparar",
+        "example": "Ich bereite mich auf das Bewerbungsgespräch vor."
+      },
+      {
+        "word": "die Priorität",
+        "translation": "la prioridad",
+        "example": "Die Familie hat für mich große Priorität."
+      },
+      {
+        "word": "flexibel",
+        "translation": "flexible",
+        "example": "Ich bin flexibel bei den Arbeitszeiten."
+      },
+      {
+        "word": "die Frist",
+        "translation": "la fecha límite",
+        "example": "Die Frist für die Bewerbung ist nächsten Monat."
+      },
+      {
+        "word": "der Erfolg",
+        "translation": "el éxito",
+        "example": "Harte Arbeit führt oft zum Erfolg."
+      },
+      {
+        "word": "der Rat",
+        "translation": "el consejo",
+        "example": "Kannst du mir einen Rat geben?"
+      },
+      {
+        "word": "Könntest du mir helfen?",
+        "translation": "¿Podrías ayudarme?",
+        "example": "Könntest du mir beim Bewerbungsschreiben helfen?",
+        "category": "expression"
+      },
+      {
+        "word": "Meiner Meinung nach",
+        "translation": "en mi opinión",
+        "example": "Meiner Meinung nach ist Weiterbildung wichtig.",
+        "category": "expression"
+      },
+      {
+        "word": "Da stimme ich zu",
+        "translation": "estoy de acuerdo",
+        "example": "Da stimme ich zu, das ist eine gute Idee.",
+        "category": "expression"
+      },
+      {
+        "word": "Ich bin mir nicht sicher",
+        "translation": "no estoy seguro/a",
+        "example": "Ich bin mir nicht sicher, ob ich den Job annehmen soll.",
+        "category": "expression"
+      },
+      {
+        "word": "die Alternative",
+        "translation": "la alternativa",
+        "example": "Als Alternative könnten wir ein Praktikum machen."
       }
     ],
     "dialogue": [],
@@ -64515,6 +70886,137 @@
         "word": "mediare",
         "translation": "mediar",
         "example": "Die Diskussion klärt die Rolle von mediare."
+      },
+      {
+        "word": "zusammenfassen",
+        "translation": "resumir",
+        "example": "Kannst du das Ergebnis kurz zusammenfassen?"
+      },
+      {
+        "word": "die Zusammenfassung",
+        "translation": "el resumen",
+        "example": "Die Zusammenfassung enthält die wichtigsten Punkte."
+      },
+      {
+        "word": "der Zusammenhang",
+        "translation": "la relación / el contexto",
+        "example": "Der Zusammenhang zwischen Ursache und Wirkung ist wichtig."
+      },
+      {
+        "word": "die Argumentation",
+        "translation": "la argumentación",
+        "example": "Eine klare Argumentation stärkt die Präsentation."
+      },
+      {
+        "word": "das Argument",
+        "translation": "el argumento",
+        "example": "Sein Argument überzeugte die Mehrheit."
+      },
+      {
+        "word": "die These",
+        "translation": "la tesis",
+        "example": "Die These muss sorgfältig begründet werden."
+      },
+      {
+        "word": "die Begründung",
+        "translation": "la justificación",
+        "example": "Bitte geben Sie eine kurze Begründung an."
+      },
+      {
+        "word": "der Einwand",
+        "translation": "la objeción",
+        "example": "Es gab einen Einwand gegen den Vorschlag."
+      },
+      {
+        "word": "entkräften",
+        "translation": "refutar / debilitar (un argumento)",
+        "example": "Sie konnte den Einwand schnell entkräften."
+      },
+      {
+        "word": "schlüssig",
+        "translation": "concluyente / coherente",
+        "example": "Das Ergebnis ist schlüssig erklärt worden."
+      },
+      {
+        "word": "prägnant",
+        "translation": "conciso",
+        "example": "Eine prägnante Formulierung wirkt überzeugend."
+      },
+      {
+        "word": "verdeutlichen",
+        "translation": "aclarar / ilustrar",
+        "example": "Ein Beispiel kann den Punkt verdeutlichen."
+      },
+      {
+        "word": "hervorheben",
+        "translation": "destacar",
+        "example": "Ich möchte die wichtigsten Aspekte hervorheben."
+      },
+      {
+        "word": "die Schlussfolgerung",
+        "translation": "la conclusión",
+        "example": "Aus den Daten zog sie eine klare Schlussfolgerung."
+      },
+      {
+        "word": "die Relevanz",
+        "translation": "la relevancia",
+        "example": "Die Relevanz dieses Arguments ist offensichtlich."
+      },
+      {
+        "word": "belegen",
+        "translation": "respaldar / demostrar",
+        "example": "Können Sie die Behauptung mit Quellen belegen?"
+      },
+      {
+        "word": "kompromissfähig",
+        "translation": "dispuesto a llegar a un compromiso",
+        "example": "In Verhandlungen sollte man kompromissfähig bleiben."
+      },
+      {
+        "word": "der Konsens",
+        "translation": "el consenso",
+        "example": "Am Ende wurde ein Konsens gefunden."
+      },
+      {
+        "word": "die Perspektive",
+        "translation": "la perspectiva",
+        "example": "Berücksichtigen Sie auch die Perspektive der anderen."
+      },
+      {
+        "word": "Könnten Sie mir bitte helfen?",
+        "translation": "¿Podría ayudarme, por favor?",
+        "example": "Könnten Sie mir bitte helfen, das Dokument zu verstehen?",
+        "category": "expression"
+      },
+      {
+        "word": "Meiner Meinung nach",
+        "translation": "en mi opinión",
+        "example": "Meiner Meinung nach sollten wir die Reihenfolge ändern.",
+        "category": "expression"
+      },
+      {
+        "word": "Da bin ich einverstanden",
+        "translation": "estoy de acuerdo",
+        "example": "Da bin ich einverstanden; das ist ein guter Kompromiss.",
+        "category": "expression"
+      },
+      {
+        "word": "Daran habe ich Zweifel",
+        "translation": "tengo dudas sobre eso",
+        "example": "Daran habe ich Zweifel, weil die Daten unvollständig sind.",
+        "category": "expression"
+      },
+      {
+        "word": "Darf ich kurz etwas hinzufügen?",
+        "translation": "¿Puedo agregar algo brevemente?",
+        "example": "Darf ich kurz etwas hinzufügen, bevor wir abstimmen?",
+        "category": "expression"
+      },
+      {
+        "word": "Aus diesem Grund",
+        "translation": "por esta razón",
+        "example": "Aus diesem Grund schlage ich eine Änderung vor.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -64628,6 +71130,135 @@
         "word": "mediazione",
         "translation": "mediación",
         "example": "Die Diskussion klärt die Rolle von mediazione."
+      },
+      {
+        "word": "der Konsens",
+        "translation": "consenso",
+        "example": "Wir sollten einen Konsens finden, bevor wir fortfahren."
+      },
+      {
+        "word": "der Kompromiss",
+        "translation": "compromiso",
+        "example": "Ein Kompromiss erfordert Zugeständnisse von beiden Seiten."
+      },
+      {
+        "word": "die Verhandlungsstrategie",
+        "translation": "estrategia de negociación",
+        "example": "Die Verhandlungsstrategie muss flexibel sein."
+      },
+      {
+        "word": "die Eskalation",
+        "translation": "escalada",
+        "example": "Die Eskalation des Streits gefährdet die Zusammenarbeit."
+      },
+      {
+        "word": "die Schlichtung",
+        "translation": "conciliación",
+        "example": "Eine Schlichtung kann den Konflikt entschärfen."
+      },
+      {
+        "word": "das Gegenargument",
+        "translation": "contraargumento",
+        "example": "Sein Gegenargument war gut begründet."
+      },
+      {
+        "word": "die Präzisierung",
+        "translation": "aclaración",
+        "example": "Eine Präzisierung der Forderungen ist nötig."
+      },
+      {
+        "word": "die Sachlichkeit",
+        "translation": "objetividad",
+        "example": "Sachlichkeit hilft, Eskalationen zu vermeiden."
+      },
+      {
+        "word": "die Position",
+        "translation": "posición",
+        "example": "Jede Partei verteidigt ihre Position hartnäckig."
+      },
+      {
+        "word": "klarstellen",
+        "translation": "aclarar",
+        "example": "Ich möchte kurz die Fakten klarstellen."
+      },
+      {
+        "word": "überbrücken",
+        "translation": "superar (diferencias)",
+        "example": "Wir müssen die Differenzen überbrücken."
+      },
+      {
+        "word": "der Einwand",
+        "translation": "objeción",
+        "example": "Ihr Einwand wurde im Protokoll notiert."
+      },
+      {
+        "word": "nachgeben",
+        "translation": "ceder",
+        "example": "Er war nicht bereit, nachzugeben."
+      },
+      {
+        "word": "sich durchsetzen",
+        "translation": "imponerse; hacerse valer",
+        "example": "Letzten Endes setzte sich die stärkere Argumentation durch."
+      },
+      {
+        "word": "zusammenfassen",
+        "translation": "resumir",
+        "example": "Fassen Sie bitte zum Schluss die wichtigsten Punkte zusammen."
+      },
+      {
+        "word": "die Schlussfolgerung",
+        "translation": "conclusión",
+        "example": "Aus diesen Fakten ziehe ich die Schlussfolgerung, dass wir nachverhandeln müssen."
+      },
+      {
+        "word": "die Begründung",
+        "translation": "justificación",
+        "example": "Die Begründung für den Vorschlag war überzeugend."
+      },
+      {
+        "word": "aufgrund",
+        "translation": "debido a",
+        "example": "Aufgrund neuer Informationen muss das Angebot überarbeitet werden."
+      },
+      {
+        "word": "infolgedessen",
+        "translation": "por consiguiente",
+        "example": "Infolgedessen wurden zusätzliche Verhandlungen nötig."
+      },
+      {
+        "word": "strittig",
+        "translation": "controvertido; en disputa",
+        "example": "Der Punkt ist rechtlich strittig."
+      },
+      {
+        "word": "differenzieren",
+        "translation": "diferenciar; matizar",
+        "example": "Man muss zwischen Absicht und Folge differenzieren."
+      },
+      {
+        "word": "Ich habe Bedenken",
+        "translation": "Tengo reservas / tengo dudas",
+        "example": "Ich habe Bedenken hinsichtlich der vorgeschlagenen Frist.",
+        "category": "expression"
+      },
+      {
+        "word": "Könnten Sie mir kurz helfen?",
+        "translation": "¿Podría ayudarme un momento?",
+        "example": "Könnten Sie mir kurz helfen, dieses Argument zu prüfen?",
+        "category": "expression"
+      },
+      {
+        "word": "Meiner Meinung nach",
+        "translation": "En mi opinión",
+        "example": "Meiner Meinung nach überwiegen die Vorteile.",
+        "category": "expression"
+      },
+      {
+        "word": "Da stimme ich Ihnen zu.",
+        "translation": "Estoy de acuerdo con usted.",
+        "example": "Da stimme ich Ihnen zu; das ist ein wichtiger Punkt.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -64741,6 +71372,138 @@
         "word": "coerente",
         "translation": "coherente",
         "example": "Die Diskussion klärt die Rolle von coerente."
+      },
+      {
+        "word": "die Zusammenfassung",
+        "translation": "el resumen",
+        "example": "Die Zusammenfassung betont die wichtigsten Argumente."
+      },
+      {
+        "word": "die Schlussfolgerung",
+        "translation": "la conclusión",
+        "example": "Die Schlussfolgerung folgt logisch aus den Prämissen."
+      },
+      {
+        "word": "die These",
+        "translation": "la tesis",
+        "example": "Die These lautet, dass Sprache Denken formt."
+      },
+      {
+        "word": "die Antithese",
+        "translation": "la antítesis",
+        "example": "Die Antithese konfrontiert die ursprüngliche These."
+      },
+      {
+        "word": "die Prämisse",
+        "translation": "la premisa",
+        "example": "Diese Prämisse muss überprüft werden."
+      },
+      {
+        "word": "der Grundsatz",
+        "translation": "el principio",
+        "example": "Ein zentraler Grundsatz ist die Nachvollziehbarkeit."
+      },
+      {
+        "word": "die Kohärenz",
+        "translation": "la coherencia",
+        "example": "Die Kohärenz der Argumente überzeugt mich."
+      },
+      {
+        "word": "die Argumentationsstruktur",
+        "translation": "la estructura argumentativa",
+        "example": "Die Argumentationsstruktur ist klar und logisch."
+      },
+      {
+        "word": "die Evidenz",
+        "translation": "la evidencia",
+        "example": "Die Evidenz stützt die vorgebrachten Behauptungen."
+      },
+      {
+        "word": "die Widerlegung",
+        "translation": "la refutación",
+        "example": "Die Widerlegung war sorgfältig begründet."
+      },
+      {
+        "word": "das Argument",
+        "translation": "el argumento",
+        "example": "Dieses Argument ist schwer zu widerlegen."
+      },
+      {
+        "word": "die Relevanz",
+        "translation": "la relevancia",
+        "example": "Die Relevanz dieses Punktes lässt sich nicht leugnen."
+      },
+      {
+        "word": "die Perspektive",
+        "translation": "la perspectiva",
+        "example": "Aus meiner Perspektive ist das Problem komplex."
+      },
+      {
+        "word": "das Fazit",
+        "translation": "la conclusión final",
+        "example": "Das Fazit fasst die Diskussion knapp zusammen."
+      },
+      {
+        "word": "die Präzision",
+        "translation": "la precisión",
+        "example": "Die Präzision in der Formulierung ist entscheidend."
+      },
+      {
+        "word": "die Nuance",
+        "translation": "el matiz",
+        "example": "Eine kleine Nuance verändert die Bedeutung."
+      },
+      {
+        "word": "der Einwand",
+        "translation": "la objeción",
+        "example": "Ein häufiger Einwand betrifft die Datenbasis."
+      },
+      {
+        "word": "der Beleg",
+        "translation": "la prueba",
+        "example": "Der Beleg wurde transparent dargelegt."
+      },
+      {
+        "word": "Könnten Sie mir kurz helfen?",
+        "translation": "¿Podría ayudarme un momento?",
+        "example": "Könnten Sie mir kurz helfen, die Schlussfolgerung klarer zu formulieren?",
+        "category": "expression"
+      },
+      {
+        "word": "Meiner Ansicht nach",
+        "translation": "en mi opinión",
+        "example": "Meiner Ansicht nach fehlt hier eine prägnante Schlussfolgerung.",
+        "category": "expression"
+      },
+      {
+        "word": "Da stimme ich zu.",
+        "translation": "estoy de acuerdo",
+        "example": "Da stimme ich zu, das Argument ist überzeugend.",
+        "category": "expression"
+      },
+      {
+        "word": "Darf ich kurz nachfragen?",
+        "translation": "¿Puedo preguntar rápidamente?",
+        "example": "Darf ich kurz nachfragen, auf welche Evidenz Sie sich beziehen?",
+        "category": "expression"
+      },
+      {
+        "word": "Aus diesem Grund",
+        "translation": "por esta razón",
+        "example": "Aus diesem Grund sollten wir die Prämissen genauer prüfen.",
+        "category": "expression"
+      },
+      {
+        "word": "Im Großen und Ganzen",
+        "translation": "en líneas generales",
+        "example": "Im Großen und Ganzen ist die Argumentation stimmig.",
+        "category": "expression"
+      },
+      {
+        "word": "Wie würden Sie das kurz zusammenfassen?",
+        "translation": "¿Cómo lo resumiría brevemente?",
+        "example": "Wie würden Sie das kurz zusammenfassen?",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -68947,6 +75710,102 @@
           "zusammen · conversación",
           "zusammen · práctica"
         ]
+      },
+      {
+        "word": "die Jacke",
+        "translation": "la chaqueta",
+        "example": "Die Jacke ist warm."
+      },
+      {
+        "word": "der Mantel",
+        "translation": "el abrigo",
+        "example": "Der Mantel ist lang."
+      },
+      {
+        "word": "die Schuhe",
+        "translation": "los zapatos",
+        "example": "Die Schuhe sind neu."
+      },
+      {
+        "word": "die Socken",
+        "translation": "los calcetines",
+        "example": "Die Socken sind bunt."
+      },
+      {
+        "word": "der Hut",
+        "translation": "el sombrero",
+        "example": "Der Hut ist elegant."
+      },
+      {
+        "word": "die Bluse",
+        "translation": "la blusa",
+        "example": "Die Bluse hat eine schöne Farbe."
+      },
+      {
+        "word": "der Rock",
+        "translation": "la falda",
+        "example": "Der Rock ist kurz."
+      },
+      {
+        "word": "der Pullover",
+        "translation": "el suéter",
+        "example": "Der Pullover ist warm."
+      },
+      {
+        "word": "die Jeans",
+        "translation": "los jeans",
+        "example": "Die Jeans ist bequem."
+      },
+      {
+        "word": "die Tasche",
+        "translation": "la bolsa",
+        "example": "Die Tasche ist groß."
+      },
+      {
+        "word": "die Mütze",
+        "translation": "el gorro",
+        "example": "Die Mütze ist warm."
+      },
+      {
+        "word": "die Sandalen",
+        "translation": "las sandalias",
+        "example": "Die Sandalen sind bequem."
+      },
+      {
+        "word": "Kannst du mir helfen?",
+        "translation": "¿Puedes ayudarme?",
+        "example": "Kannst du mir helfen, die richtige Größe zu finden?",
+        "category": "expression"
+      },
+      {
+        "word": "Ich finde das schön.",
+        "translation": "Creo que eso es bonito.",
+        "example": "Ich finde diese Jacke schön.",
+        "category": "expression"
+      },
+      {
+        "word": "Ich stimme zu.",
+        "translation": "Estoy de acuerdo.",
+        "example": "Ich stimme zu, die Farbe ist schön.",
+        "category": "expression"
+      },
+      {
+        "word": "Vielleicht",
+        "translation": "Quizás",
+        "example": "Vielleicht probiere ich die Jacke an.",
+        "category": "expression"
+      },
+      {
+        "word": "Bitte",
+        "translation": "Por favor",
+        "example": "Bitte, zeig mir die blaue Jacke.",
+        "category": "expression"
+      },
+      {
+        "word": "Wie viel kostet das?",
+        "translation": "¿Cuánto cuesta esto?",
+        "example": "Wie viel kostet das T-Shirt?",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -69385,6 +76244,102 @@
           "zusammen · conversación",
           "zusammen · práctica"
         ]
+      },
+      {
+        "word": "der Brauch",
+        "translation": "la costumbre",
+        "example": "Der Brauch wird jedes Jahr gepflegt."
+      },
+      {
+        "word": "das Feuerwerk",
+        "translation": "los fuegos artificiales",
+        "example": "Das Feuerwerk war bunt und laut."
+      },
+      {
+        "word": "die Dekoration",
+        "translation": "la decoración",
+        "example": "Die Dekoration war bunt und einfach."
+      },
+      {
+        "word": "die Einladung",
+        "translation": "la invitación",
+        "example": "Ich habe die Einladung gestern bekommen."
+      },
+      {
+        "word": "einladen",
+        "translation": "invitar",
+        "example": "Wir laden unsere Freunde zur Feier ein."
+      },
+      {
+        "word": "das Geschenk",
+        "translation": "el regalo",
+        "example": "Das Geschenk war schön verpackt."
+      },
+      {
+        "word": "schenken",
+        "translation": "regalar",
+        "example": "Sie schenkt ihrem Bruder ein Fotoalbum."
+      },
+      {
+        "word": "der Umzug",
+        "translation": "el desfile",
+        "example": "Der Umzug beginnt am Samstagmorgen."
+      },
+      {
+        "word": "die Feierlichkeit",
+        "translation": "la celebración",
+        "example": "Die Feierlichkeit war feierlich und ruhig."
+      },
+      {
+        "word": "die Gemeinschaft",
+        "translation": "la comunidad",
+        "example": "Die Gemeinschaft hat zusammen gegessen."
+      },
+      {
+        "word": "das Ritual",
+        "translation": "el ritual",
+        "example": "Das Ritual dauert etwa eine Stunde."
+      },
+      {
+        "word": "der Ablauf",
+        "translation": "el desarrollo",
+        "example": "Der Ablauf der Feier war gut geplant."
+      },
+      {
+        "word": "Kannst du mir helfen?",
+        "translation": "¿Puedes ayudarme?",
+        "example": "Kannst du mir helfen, die Tische zu dekorieren?",
+        "category": "expression"
+      },
+      {
+        "word": "Meiner Meinung nach...",
+        "translation": "En mi opinión...",
+        "example": "Meiner Meinung nach war die Feier sehr gelungen.",
+        "category": "expression"
+      },
+      {
+        "word": "Ich stimme zu.",
+        "translation": "Estoy de acuerdo.",
+        "example": "Ich stimme zu, das Essen war lecker.",
+        "category": "expression"
+      },
+      {
+        "word": "Ich bin mir nicht sicher.",
+        "translation": "No estoy seguro.",
+        "example": "Ich bin mir nicht sicher, ob alle gekommen sind.",
+        "category": "expression"
+      },
+      {
+        "word": "Entschuldigung, darf ich etwas sagen?",
+        "translation": "Disculpe, ¿puedo decir algo?",
+        "example": "Entschuldigung, darf ich etwas sagen? Ich habe eine Idee.",
+        "category": "expression"
+      },
+      {
+        "word": "Wegen des Wetters",
+        "translation": "Debido al clima",
+        "example": "Wegen des Wetters konnten wir nicht feiern.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -69823,6 +76778,102 @@
           "zusammen · conversación",
           "zusammen · práctica"
         ]
+      },
+      {
+        "word": "der Konflikt",
+        "translation": "el conflicto",
+        "example": "Der Konflikt wurde offen besprochen."
+      },
+      {
+        "word": "die Kommunikation",
+        "translation": "la comunicación",
+        "example": "Gute Kommunikation ist wichtig in Beziehungen."
+      },
+      {
+        "word": "die Nähe",
+        "translation": "la cercanía",
+        "example": "Ich spüre die Nähe zu meiner Schwester."
+      },
+      {
+        "word": "die Distanz",
+        "translation": "la distancia",
+        "example": "Manchmal braucht man Distanz."
+      },
+      {
+        "word": "die Unterstützung",
+        "translation": "el apoyo",
+        "example": "Ich brauche deine Unterstützung."
+      },
+      {
+        "word": "die Empathie",
+        "translation": "la empatía",
+        "example": "Empathie hilft, andere zu verstehen."
+      },
+      {
+        "word": "der Kompromiss",
+        "translation": "el compromiso",
+        "example": "Wir haben einen Kompromiss gefunden."
+      },
+      {
+        "word": "die Ehrlichkeit",
+        "translation": "la sinceridad",
+        "example": "Ehrlichkeit stärkt das Vertrauen."
+      },
+      {
+        "word": "das Missverständnis",
+        "translation": "el malentendido",
+        "example": "Das Missverständnis klärten wir sofort."
+      },
+      {
+        "word": "die Privatsphäre",
+        "translation": "la privacidad",
+        "example": "Bitte respektiere meine Privatsphäre."
+      },
+      {
+        "word": "die Grenze",
+        "translation": "el límite",
+        "example": "Jeder hat seine Grenzen."
+      },
+      {
+        "word": "die Rückmeldung",
+        "translation": "la retroalimentación",
+        "example": "Ich freue mich auf deine Rückmeldung."
+      },
+      {
+        "word": "Kannst du mir helfen?",
+        "translation": "¿Puedes ayudarme?",
+        "example": "Kannst du mir helfen, das Problem zu lösen?",
+        "category": "expression"
+      },
+      {
+        "word": "Meiner Meinung nach",
+        "translation": "En mi opinión",
+        "example": "Meiner Meinung nach sollten wir ehrlich sein.",
+        "category": "expression"
+      },
+      {
+        "word": "Da bin ich einverstanden.",
+        "translation": "Estoy de acuerdo.",
+        "example": "Da bin ich einverstanden, das ist fair.",
+        "category": "expression"
+      },
+      {
+        "word": "Ich bin mir nicht sicher.",
+        "translation": "No estoy seguro/a.",
+        "example": "Ich bin mir nicht sicher, ob das stimmt.",
+        "category": "expression"
+      },
+      {
+        "word": "Danke für die Information.",
+        "translation": "Gracias por la información.",
+        "example": "Danke für die Information, das hilft mir weiter.",
+        "category": "expression"
+      },
+      {
+        "word": "Deshalb",
+        "translation": "por eso",
+        "example": "Er hat zu spät geantwortet, deshalb gab es ein Missverständnis.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -70972,6 +78023,135 @@
         "word": "beneficio",
         "translation": "beneficio",
         "example": "Die Diskussion klärt die Rolle von beneficio."
+      },
+      {
+        "word": "die Bürgerschaft",
+        "translation": "la ciudadanía",
+        "example": "Die Bürgerschaft forderte mehr Mitbestimmung."
+      },
+      {
+        "word": "das Engagement",
+        "translation": "el compromiso (participación)",
+        "example": "Das Engagement vieler Freiwilliger beeindruckt die Gemeinde."
+      },
+      {
+        "word": "die Beteiligung",
+        "translation": "la participación",
+        "example": "Die Beteiligung an der öffentlichen Debatte war hoch."
+      },
+      {
+        "word": "sich engagieren",
+        "translation": "comprometerse/participar activamente",
+        "example": "Viele Anwohner engagieren sich für bessere Verkehrsregeln."
+      },
+      {
+        "word": "die Mitbestimmung",
+        "translation": "la co-decisión/la participación en decisiones",
+        "example": "Die Mitbestimmung der Bürger verbessert die Entscheidungen."
+      },
+      {
+        "word": "das Gemeinwohl",
+        "translation": "el bien común",
+        "example": "Das Gemeinwohl sollte bei allen Maßnahmen berücksichtigt werden."
+      },
+      {
+        "word": "die Initiative",
+        "translation": "la iniciativa",
+        "example": "Die Initiative zur Begrünung des Viertels fand breite Unterstützung."
+      },
+      {
+        "word": "der Vorschlag",
+        "translation": "la propuesta",
+        "example": "Ihr Vorschlag wurde auf der Sitzung diskutiert."
+      },
+      {
+        "word": "die Beratung",
+        "translation": "la consulta/el asesoramiento",
+        "example": "In der Beratung wurden mehrere Alternativen geprüft."
+      },
+      {
+        "word": "die Abstimmung",
+        "translation": "la votación",
+        "example": "Die Abstimmung zeigt die Prioritäten der Gemeinschaft."
+      },
+      {
+        "word": "das Recht",
+        "translation": "el derecho",
+        "example": "Jeder hat das Recht, seine Meinung zu äußern."
+      },
+      {
+        "word": "die Verantwortung",
+        "translation": "la responsabilidad",
+        "example": "Die Verantwortung für das Projekt teilen mehrere Organisationen."
+      },
+      {
+        "word": "die Anhörung",
+        "translation": "la audiencia pública",
+        "example": "Die Anhörung fand gestern im Rathaus statt."
+      },
+      {
+        "word": "der Kompromiss",
+        "translation": "el compromiso/consenso",
+        "example": "Ein Kompromiss half, den Streit zu beenden."
+      },
+      {
+        "word": "die Petition",
+        "translation": "la petición",
+        "example": "Die Petition sammelte innerhalb einer Woche viele Unterschriften."
+      },
+      {
+        "word": "die Lobbyarbeit",
+        "translation": "el cabildeo",
+        "example": "Transparente Lobbyarbeit ist für demokratische Prozesse wichtig."
+      },
+      {
+        "word": "die Transparenz",
+        "translation": "la transparencia",
+        "example": "Mehr Transparenz schafft Vertrauen zwischen Verwaltung und Bürgern."
+      },
+      {
+        "word": "die Nachhaltigkeit",
+        "translation": "la sostenibilidad",
+        "example": "Nachhaltigkeit spielt bei städtischen Projekten eine zentrale Rolle."
+      },
+      {
+        "word": "die Ressource",
+        "translation": "el recurso",
+        "example": "Zeit und Geld sind begrenzte Ressourcen für die Initiative."
+      },
+      {
+        "word": "das Netzwerk",
+        "translation": "la red",
+        "example": "Das Netzwerk verbindet lokale Initiativen und Vereine."
+      },
+      {
+        "word": "die Kooperation",
+        "translation": "la cooperación",
+        "example": "Eine Kooperation mit Schulen stärkt Bildungsprojekte."
+      },
+      {
+        "word": "Könnten Sie mir bitte helfen?",
+        "translation": "¿Podría ayudarme, por favor?",
+        "example": "Könnten Sie mir bitte helfen, die Petition zu unterschreiben?",
+        "category": "expression"
+      },
+      {
+        "word": "Meiner Meinung nach",
+        "translation": "En mi opinión",
+        "example": "Meiner Meinung nach sollten wir zuerst die Fakten klären.",
+        "category": "expression"
+      },
+      {
+        "word": "Ich stimme zu.",
+        "translation": "Estoy de acuerdo.",
+        "example": "Ich stimme zu, das ist ein sinnvoller Vorschlag.",
+        "category": "expression"
+      },
+      {
+        "word": "Ich bin mir nicht sicher.",
+        "translation": "No estoy seguro/a.",
+        "example": "Ich bin mir nicht sicher, ob diese Maßnahme ausreicht.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -71085,6 +78265,135 @@
         "word": "ambiguità",
         "translation": "ambigüedad",
         "example": "Die Diskussion klärt die Rolle von ambiguità."
+      },
+      {
+        "word": "der Erzähler",
+        "translation": "el narrador",
+        "example": "Der Erzähler kommentiert das Geschehen."
+      },
+      {
+        "word": "die Stimme",
+        "translation": "la voz",
+        "example": "Die Stimme der Protagonistin prägt den Ton des Textes."
+      },
+      {
+        "word": "die Perspektive",
+        "translation": "la perspectiva",
+        "example": "Die Perspektive wechselt zwischen erster und dritter Person."
+      },
+      {
+        "word": "die Erzählung",
+        "translation": "la narración",
+        "example": "Die Erzählung folgt keiner linearen Chronologie."
+      },
+      {
+        "word": "das Stilmittel",
+        "translation": "el recurso estilístico",
+        "example": "Das Stilmittel der Wiederholung erzeugt einen Rhythmus."
+      },
+      {
+        "word": "die Ironie",
+        "translation": "la ironía",
+        "example": "Die Ironie wird sehr subtil eingesetzt."
+      },
+      {
+        "word": "das Motiv",
+        "translation": "el motivo (literario)",
+        "example": "Das Motiv der Einsamkeit zieht sich durch den Roman."
+      },
+      {
+        "word": "die Figur",
+        "translation": "el personaje",
+        "example": "Die Figur bleibt ambivalent und vielschichtig."
+      },
+      {
+        "word": "die Prosa",
+        "translation": "la prosa",
+        "example": "Die Prosa wirkt knapp und präzise."
+      },
+      {
+        "word": "die Lyrik",
+        "translation": "la lírica",
+        "example": "In der Lyrik spielt Klang oft eine zentrale Rolle."
+      },
+      {
+        "word": "die Dramaturgie",
+        "translation": "la dramaturgia",
+        "example": "Die Dramaturgie des Stücks steigert die Spannung."
+      },
+      {
+        "word": "die These",
+        "translation": "la tesis",
+        "example": "Die These des Essays ist klar formuliert."
+      },
+      {
+        "word": "die Argumentation",
+        "translation": "la argumentación",
+        "example": "Die Argumentation stützt sich auf solide Belege."
+      },
+      {
+        "word": "begründen",
+        "translation": "fundamentar, justificar",
+        "example": "Kannst du deine Interpretation kurz begründen?"
+      },
+      {
+        "word": "plausibel",
+        "translation": "plausible",
+        "example": "Seine Schlussfolgerung erscheint plausibel."
+      },
+      {
+        "word": "die Kohärenz",
+        "translation": "la coherencia",
+        "example": "Die Kohärenz des Textes überzeugt nicht in allen Abschnitten."
+      },
+      {
+        "word": "die Kontinuität",
+        "translation": "la continuidad",
+        "example": "Die Kontinuität der Handlung wurde bewusst unterbrochen."
+      },
+      {
+        "word": "die Ambivalenz",
+        "translation": "la ambivalencia",
+        "example": "Die Ambivalenz der Hauptfigur verleiht dem Roman Tiefe."
+      },
+      {
+        "word": "die Rhetorik",
+        "translation": "la retórica",
+        "example": "Die Rhetorik des Vortrags ist prägnant."
+      },
+      {
+        "word": "die Fokalisierung",
+        "translation": "la focalización (punto de vista)",
+        "example": "Die Fokalisierung verschiebt sich im zweiten Kapitel."
+      },
+      {
+        "word": "hervorheben",
+        "translation": "resaltar",
+        "example": "Der Autor hebt das zentrale Motiv im ersten Abschnitt hervor."
+      },
+      {
+        "word": "Könnten Sie mir kurz helfen?",
+        "translation": "¿Podría ayudarme brevemente?",
+        "example": "Könnten Sie mir kurz helfen, dieses Zitat zu interpretieren?",
+        "category": "expression"
+      },
+      {
+        "word": "Meiner Meinung nach...",
+        "translation": "En mi opinión...",
+        "example": "Meiner Meinung nach fehlt ein klares Gegenargument.",
+        "category": "expression"
+      },
+      {
+        "word": "Da stimme ich zu.",
+        "translation": "Estoy de acuerdo con eso.",
+        "example": "Da stimme ich zu; das Argument ist gut begründet.",
+        "category": "expression"
+      },
+      {
+        "word": "Ich habe Zweifel, ob...",
+        "translation": "Dudo que...",
+        "example": "Ich habe Zweifel, ob diese Interpretation alle Belege berücksichtigt.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -71198,6 +78507,136 @@
         "word": "reciprocità",
         "translation": "reciprocidad",
         "example": "Die Diskussion klärt die Rolle von reciprocità."
+      },
+      {
+        "word": "die Perspektivübernahme",
+        "translation": "adopción de perspectivas",
+        "example": "Die Perspektivübernahme erleichtert das Verständnis kultureller Unterschiede."
+      },
+      {
+        "word": "die Interkulturalität",
+        "translation": "interculturalidad",
+        "example": "Interkulturalität prägt moderne Arbeitsumfelder."
+      },
+      {
+        "word": "die kulturelle Sensibilität",
+        "translation": "sensibilidad cultural",
+        "example": "Die kulturelle Sensibilität hilft, unbeabsichtigte Beleidigungen zu vermeiden."
+      },
+      {
+        "word": "die implizite Bedeutung",
+        "translation": "significado implícito",
+        "example": "Die implizite Bedeutung kann in anderen Kulturen anders wahrgenommen werden."
+      },
+      {
+        "word": "das nonverbale Signal",
+        "translation": "señal no verbal",
+        "example": "Das nonverbale Signal verrät oft mehr als Worte."
+      },
+      {
+        "word": "die kontrastive Analyse",
+        "translation": "análisis contrastivo",
+        "example": "Die kontrastive Analyse zeigt Unterschiede in Redewendungen."
+      },
+      {
+        "word": "die kommunikative Kompetenz",
+        "translation": "competencia comunicativa",
+        "example": "Die kommunikative Kompetenz ist für Verhandlungen entscheidend."
+      },
+      {
+        "word": "der interkulturelle Dialog",
+        "translation": "diálogo intercultural",
+        "example": "Der interkulturelle Dialog fördert gegenseitiges Verständnis."
+      },
+      {
+        "word": "die Missverständnisprävention",
+        "translation": "prevención de malentendidos",
+        "example": "Missverständnisprävention erfordert klare Begriffserklärungen."
+      },
+      {
+        "word": "kontextualisieren",
+        "translation": "contextualizar",
+        "example": "Man muss Beispiele kontextualisieren, um Missverständnisse zu vermeiden."
+      },
+      {
+        "word": "erläutern",
+        "translation": "explicar, aclarar",
+        "example": "Bitte erläutern Sie Ihr Ziel mit konkreten Argumenten."
+      },
+      {
+        "word": "die Argumentationsstruktur",
+        "translation": "estructura argumentativa",
+        "example": "Eine klare Argumentationsstruktur stärkt die Überzeugungskraft."
+      },
+      {
+        "word": "die rhetorischen Mittel",
+        "translation": "recursos retóricos",
+        "example": "Die rhetorischen Mittel müssen kultursensibel gewählt werden."
+      },
+      {
+        "word": "die Anpassungsfähigkeit",
+        "translation": "capacidad de adaptación",
+        "example": "Anpassungsfähigkeit ist für interkulturelle Vermittlung unerlässlich."
+      },
+      {
+        "word": "das konsequente Nachfragen",
+        "translation": "búsqueda constante de aclaraciones",
+        "example": "Konsequentes Nachfragen klärt implizite Annahmen."
+      },
+      {
+        "word": "die Rückmeldung",
+        "translation": "retroalimentación",
+        "example": "Die Rückmeldung half, kulturelle Missverständnisse zu erkennen."
+      },
+      {
+        "word": "das Stereotyp",
+        "translation": "estereotipo",
+        "example": "Es ist wichtig, das Stereotyp nicht zu reproduzieren."
+      },
+      {
+        "word": "feinfühlig",
+        "translation": "sensible, con tacto",
+        "example": "Feinfühliges Verhalten verbessert die Gesprächsatmosphäre."
+      },
+      {
+        "word": "die Konventionen",
+        "translation": "convenciones",
+        "example": "Die Konventionen im Geschäftsleben variieren stark zwischen Kulturen."
+      },
+      {
+        "word": "zweckgerichtet",
+        "translation": "orientado al objetivo",
+        "example": "Eine zweckgerichtete Argumentation überzeugt oft schneller."
+      },
+      {
+        "word": "Könnten Sie mir kurz helfen?",
+        "translation": "¿Podría ayudarme un momento?",
+        "example": "Könnten Sie mir kurz helfen, die Bedeutung dieses Beispiels zu erläutern?",
+        "category": "expression"
+      },
+      {
+        "word": "Meiner Meinung nach",
+        "translation": "En mi opinión",
+        "example": "Meiner Meinung nach sollten wir kulturelle Hintergründe erläutern.",
+        "category": "expression"
+      },
+      {
+        "word": "Ich stimme dem zu",
+        "translation": "Estoy de acuerdo",
+        "example": "Ich stimme dem zu, weil gemeinsame Normen Vertrauen schaffen.",
+        "category": "expression"
+      },
+      {
+        "word": "Darf ich kurz nachfragen?",
+        "translation": "¿Puedo preguntar brevemente?",
+        "example": "Darf ich kurz nachfragen, wie diese Geste interpretiert wird?",
+        "category": "expression"
+      },
+      {
+        "word": "Könnten Sie das bitte näher erläutern?",
+        "translation": "¿Podría explicar eso con más detalle, por favor?",
+        "example": "Könnten Sie das bitte näher erläutern, damit alle Teilnehmenden folgen können?",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -75404,6 +82843,101 @@
           "Viertel · conversación",
           "Viertel · práctica"
         ]
+      },
+      {
+        "word": "die Feier",
+        "translation": "la celebración",
+        "example": "Die Feier beginnt um sieben Uhr."
+      },
+      {
+        "word": "der Gast",
+        "translation": "el invitado",
+        "example": "Der Gast bringt ein Geschenk."
+      },
+      {
+        "word": "die Karte",
+        "translation": "la tarjeta",
+        "example": "Ich schreibe eine Karte."
+      },
+      {
+        "word": "die Stunde",
+        "translation": "la hora (duración)",
+        "example": "In einer Stunde sind wir da."
+      },
+      {
+        "word": "halb",
+        "translation": "y media",
+        "example": "Die Party ist um halb acht."
+      },
+      {
+        "word": "vor",
+        "translation": "antes de",
+        "example": "Es ist zehn Minuten vor sechs."
+      },
+      {
+        "word": "nach",
+        "translation": "después de",
+        "example": "Viertel nach drei ist gut."
+      },
+      {
+        "word": "pünktlich",
+        "translation": "puntual",
+        "example": "Bitte sei pünktlich."
+      },
+      {
+        "word": "um",
+        "translation": "a las",
+        "example": "Die Party ist um neun Uhr."
+      },
+      {
+        "word": "mitbringen",
+        "translation": "traer",
+        "example": "Kannst du Kuchen mitbringen?"
+      },
+      {
+        "word": "absagen",
+        "translation": "cancelar",
+        "example": "Ich muss leider absagen."
+      },
+      {
+        "word": "zusagen",
+        "translation": "aceptar",
+        "example": "Ich sage zu."
+      },
+      {
+        "word": "sagen",
+        "translation": "decir",
+        "example": "Sag mir die Uhrzeit."
+      },
+      {
+        "word": "Ich bin dabei.",
+        "translation": "Yo voy / Estoy dentro",
+        "example": "Du kommst zur Party? — Ja, ich bin dabei.",
+        "category": "expression"
+      },
+      {
+        "word": "Herzlichen Glückwunsch!",
+        "translation": "¡Felicidades!",
+        "example": "Herzlichen Glückwunsch zum Geburtstag!",
+        "category": "expression"
+      },
+      {
+        "word": "Kannst du das wiederholen?",
+        "translation": "¿Puedes repetir eso?",
+        "example": "Entschuldigung, kannst du das wiederholen?",
+        "category": "expression"
+      },
+      {
+        "word": "Wie spät ist es?",
+        "translation": "¿Qué hora es?",
+        "example": "Entschuldigung, wie spät ist es?",
+        "category": "expression"
+      },
+      {
+        "word": "Bitte sag mir Bescheid.",
+        "translation": "Por favor avísame.",
+        "example": "Bitte sag mir Bescheid, ob du kommst.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -75842,6 +83376,100 @@
           "zusammen · conversación",
           "zusammen · práctica"
         ]
+      },
+      {
+        "word": "der Balkon",
+        "translation": "el balcón",
+        "example": "Die Wohnung hat einen Balkon."
+      },
+      {
+        "word": "die Küche",
+        "translation": "la cocina",
+        "example": "Die Küche ist groß."
+      },
+      {
+        "word": "das Bad",
+        "translation": "el baño",
+        "example": "Das Bad ist neu."
+      },
+      {
+        "word": "der Aufzug",
+        "translation": "el ascensor",
+        "example": "Im Haus gibt es einen Aufzug."
+      },
+      {
+        "word": "die Heizung",
+        "translation": "la calefacción",
+        "example": "Die Heizung funktioniert gut."
+      },
+      {
+        "word": "die Nebenkosten",
+        "translation": "los gastos de servicios",
+        "example": "Die Nebenkosten sind hoch."
+      },
+      {
+        "word": "die Kaltmiete",
+        "translation": "alquiler base (sin servicios)",
+        "example": "Die Kaltmiete beträgt 400 Euro."
+      },
+      {
+        "word": "die Warmmiete",
+        "translation": "alquiler con servicios incluidos",
+        "example": "Die Warmmiete ist 550 Euro."
+      },
+      {
+        "word": "der Mietvertrag",
+        "translation": "contrato de alquiler",
+        "example": "Bitte lesen Sie den Mietvertrag."
+      },
+      {
+        "word": "der Makler",
+        "translation": "agente inmobiliario",
+        "example": "Der Makler zeigt uns die Wohnung."
+      },
+      {
+        "word": "frei",
+        "translation": "disponible",
+        "example": "Das Zimmer ist ab Juni frei."
+      },
+      {
+        "word": "möbliert",
+        "translation": "amueblado",
+        "example": "Die Wohnung wird möbliert vermietet."
+      },
+      {
+        "word": "unmöbliert",
+        "translation": "sin muebles",
+        "example": "Ich suche eine unmöblierte Wohnung."
+      },
+      {
+        "word": "der Quadratmeter",
+        "translation": "metro cuadrado",
+        "example": "Die Wohnung hat 45 Quadratmeter."
+      },
+      {
+        "word": "Ist das noch frei?",
+        "translation": "¿Sigue disponible?",
+        "example": "Ist das Zimmer noch frei?",
+        "category": "expression"
+      },
+      {
+        "word": "Könnten Sie mir helfen?",
+        "translation": "¿Podría ayudarme?",
+        "example": "Könnten Sie mir helfen, die Wohnung zu finden?",
+        "category": "expression"
+      },
+      {
+        "word": "Ich finde die Lage gut.",
+        "translation": "Creo que la ubicación es buena.",
+        "example": "Ich finde die Lage sehr gut.",
+        "category": "expression"
+      },
+      {
+        "word": "Das passt mir.",
+        "translation": "Me queda bien.",
+        "example": "Der Termin passt mir.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -76280,6 +83908,100 @@
           "zusammen · conversación",
           "zusammen · práctica"
         ]
+      },
+      {
+        "word": "die Beteiligung",
+        "translation": "la participación",
+        "example": "Die Beteiligung an der Diskussion war groß."
+      },
+      {
+        "word": "die Abstimmung",
+        "translation": "la votación",
+        "example": "Die Abstimmung findet morgen statt."
+      },
+      {
+        "word": "die Debatte",
+        "translation": "el debate",
+        "example": "In der Debatte wurden Argumente ausgetauscht."
+      },
+      {
+        "word": "die Petition",
+        "translation": "la petición",
+        "example": "Wir haben eine Petition für mehr Grünflächen gestartet."
+      },
+      {
+        "word": "das Engagement",
+        "translation": "el compromiso",
+        "example": "Ihr Engagement hilft der Gemeinde sehr."
+      },
+      {
+        "word": "die Stimme",
+        "translation": "el voto",
+        "example": "Jede Stimme zählt bei der Abstimmung."
+      },
+      {
+        "word": "diskutieren",
+        "translation": "debatir",
+        "example": "Wir sollten die Idee offen diskutieren."
+      },
+      {
+        "word": "organisieren",
+        "translation": "organizar",
+        "example": "Freiwillige organisieren die Veranstaltung."
+      },
+      {
+        "word": "informieren",
+        "translation": "informar",
+        "example": "Bitte informieren Sie die Nachbarn über die Änderung."
+      },
+      {
+        "word": "die Demonstration",
+        "translation": "la manifestación",
+        "example": "Die Demonstration war gut organisiert."
+      },
+      {
+        "word": "nachhaltig",
+        "translation": "sostenible",
+        "example": "Nachhaltige Lösungen sind langfristig wichtig."
+      },
+      {
+        "word": "fördern",
+        "translation": "fomentar",
+        "example": "Die Stadt will lokale Initiativen fördern."
+      },
+      {
+        "word": "die Zusammenarbeit",
+        "translation": "la colaboración",
+        "example": "Die Zusammenarbeit zwischen Schulen ist wichtig."
+      },
+      {
+        "word": "die Beschwerde",
+        "translation": "la queja",
+        "example": "Er hat eine Beschwerde beim Amt eingereicht."
+      },
+      {
+        "word": "Könnten Sie mir helfen?",
+        "translation": "¿Podría ayudarme?",
+        "example": "Könnten Sie mir helfen, das Formular auszufüllen?",
+        "category": "expression"
+      },
+      {
+        "word": "Meiner Meinung nach",
+        "translation": "En mi opinión",
+        "example": "Meiner Meinung nach sollten wir zustimmen.",
+        "category": "expression"
+      },
+      {
+        "word": "Ich bin damit einverstanden",
+        "translation": "Estoy de acuerdo",
+        "example": "Ich bin damit einverstanden, den Vorschlag zu unterstützen.",
+        "category": "expression"
+      },
+      {
+        "word": "Haben Sie Bedenken?",
+        "translation": "¿Tiene alguna objeción?",
+        "example": "Haben Sie Bedenken, bevor wir abstimmen?",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -77429,6 +85151,137 @@
         "word": "raggiungere",
         "translation": "alcanzar",
         "example": "Die Diskussion klärt die Rolle von raggiungere."
+      },
+      {
+        "word": "die Bilanz",
+        "translation": "balance, resultado final",
+        "example": "Die Bilanz zeigt unsere Stärken und Schwächen."
+      },
+      {
+        "word": "die Perspektive",
+        "translation": "perspectiva",
+        "example": "Aus einer anderen Perspektive wirkt die Lösung einfacher."
+      },
+      {
+        "word": "der Vergleich",
+        "translation": "comparación",
+        "example": "Ein direkter Vergleich hilft bei der Entscheidung."
+      },
+      {
+        "word": "vergleichen",
+        "translation": "comparar",
+        "example": "Wir müssen die Optionen sorgfältig vergleichen."
+      },
+      {
+        "word": "die Lösung",
+        "translation": "solución",
+        "example": "Die Lösung berücksichtigt verschiedene Argumente."
+      },
+      {
+        "word": "das Argument",
+        "translation": "argumento",
+        "example": "Sein wichtigstes Argument ist die Kostenersparnis."
+      },
+      {
+        "word": "die Argumentation",
+        "translation": "argumentación",
+        "example": "Ihre Argumentation war klar und sachlich."
+      },
+      {
+        "word": "überzeugend",
+        "translation": "convincente",
+        "example": "Ihre Belege sind sehr überzeugend."
+      },
+      {
+        "word": "abwägen",
+        "translation": "sopesar / ponderar",
+        "example": "Wir müssen die Vor- und Nachteile abwägen."
+      },
+      {
+        "word": "die Priorität",
+        "translation": "prioridad",
+        "example": "Die Priorität liegt auf der langfristigen Lösung."
+      },
+      {
+        "word": "der Kompromiss",
+        "translation": "compromiso (solución intermedia)",
+        "example": "Ein Kompromiss kann beide Seiten zufriedenstellen."
+      },
+      {
+        "word": "die Chance",
+        "translation": "oportunidad",
+        "example": "Diese Veränderung bietet neue Chancen."
+      },
+      {
+        "word": "das Risiko",
+        "translation": "riesgo",
+        "example": "Das Risiko sollte realistisch eingeschätzt werden."
+      },
+      {
+        "word": "nachhaltig",
+        "translation": "sostenible / duradero",
+        "example": "Wir brauchen eine nachhaltige Strategie."
+      },
+      {
+        "word": "zeitnah",
+        "translation": "lo antes posible / a la brevedad",
+        "example": "Wir sollten zeitnah eine Entscheidung treffen."
+      },
+      {
+        "word": "detailliert",
+        "translation": "detallado",
+        "example": "Bitte liefern Sie einen detaillierten Plan."
+      },
+      {
+        "word": "der Nachweis",
+        "translation": "evidencia, prueba",
+        "example": "Der Nachweis der Wirksamkeit ist überzeugend."
+      },
+      {
+        "word": "die Ursache",
+        "translation": "causa",
+        "example": "Die Ursache des Problems ist noch unklar."
+      },
+      {
+        "word": "die Folge",
+        "translation": "consecuencia",
+        "example": "Als Folge entstanden zusätzliche Kosten."
+      },
+      {
+        "word": "Könntest du mir dabei helfen?",
+        "translation": "¿Podrías ayudarme con esto?",
+        "example": "Könntest du mir dabei helfen, die Bilanz zu prüfen?",
+        "category": "expression"
+      },
+      {
+        "word": "Meiner Meinung nach",
+        "translation": "En mi opinión",
+        "example": "Meiner Meinung nach ist dieser Plan besser.",
+        "category": "expression"
+      },
+      {
+        "word": "Da bin ich anderer Meinung",
+        "translation": "Estoy en desacuerdo",
+        "example": "Da bin ich anderer Meinung; das Risiko ist größer.",
+        "category": "expression"
+      },
+      {
+        "word": "Ich bin mir nicht sicher, ob ...",
+        "translation": "No estoy seguro si ...",
+        "example": "Ich bin mir nicht sicher, ob das Budget ausreicht.",
+        "category": "expression"
+      },
+      {
+        "word": "Entschuldigung, könnten Sie das wiederholen?",
+        "translation": "Disculpe, ¿podría repetir eso?",
+        "example": "Entschuldigung, könnten Sie das wiederholen? Ich habe den letzten Punkt nicht verstanden.",
+        "category": "expression"
+      },
+      {
+        "word": "Aus diesem Grund",
+        "translation": "Por esa razón / Por ello",
+        "example": "Aus diesem Grund schlage ich den Kompromiss vor.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -77542,6 +85395,137 @@
         "word": "coerenza",
         "translation": "coherencia",
         "example": "Die Diskussion klärt die Rolle von coerenza."
+      },
+      {
+        "word": "vergleichen",
+        "translation": "comparar",
+        "example": "Wir vergleichen die Optionen anhand klarer Kriterien."
+      },
+      {
+        "word": "der Vergleich",
+        "translation": "la comparación",
+        "example": "Der Vergleich zeigt deutliche Vor- und Nachteile."
+      },
+      {
+        "word": "das Pro und Kontra",
+        "translation": "pros y contras",
+        "example": "Das Pro und Kontra hilft bei der Entscheidungsfindung."
+      },
+      {
+        "word": "das Argument",
+        "translation": "el argumento",
+        "example": "Sein Argument stützte sich auf aktuelle Studien."
+      },
+      {
+        "word": "das Gegenargument",
+        "translation": "la contraargumentación",
+        "example": "Als Gegenargument nannte sie die hohen Kosten."
+      },
+      {
+        "word": "die Evidenz",
+        "translation": "la evidencia",
+        "example": "Die Evidenz belegt, dass die Lösung funktioniert."
+      },
+      {
+        "word": "die Plausibilität",
+        "translation": "la plausibilidad",
+        "example": "Die Plausibilität der These ist schwer zu widerlegen."
+      },
+      {
+        "word": "priorisieren",
+        "translation": "priorizar",
+        "example": "Wir müssen die Aufgaben nach Dringlichkeit priorisieren."
+      },
+      {
+        "word": "die Priorität",
+        "translation": "la prioridad",
+        "example": "Die Priorität liegt auf der nachhaltigen Umsetzung."
+      },
+      {
+        "word": "die Interessengruppe",
+        "translation": "el grupo de interés",
+        "example": "Mehrere Interessengruppen wurden zu der Diskussion eingeladen."
+      },
+      {
+        "word": "die Konsequenz",
+        "translation": "la consecuencia",
+        "example": "Eine Konsequenz der Wahl wäre ein reduziertes Budget."
+      },
+      {
+        "word": "die Ursache",
+        "translation": "la causa",
+        "example": "Die Analyse identifizierte die Hauptursache des Problems."
+      },
+      {
+        "word": "ableiten",
+        "translation": "deducir",
+        "example": "Aus den Daten lassen sich klare Schlüsse ableiten."
+      },
+      {
+        "word": "begründen",
+        "translation": "justificar",
+        "example": "Bitte begründen Sie Ihre Empfehlung kurz."
+      },
+      {
+        "word": "fundiert",
+        "translation": "bien fundamentado",
+        "example": "Ihre Analyse ist sachlich und fundiert."
+      },
+      {
+        "word": "überzeugend",
+        "translation": "convincente",
+        "example": "Er legte überzeugend dar, warum diese Lösung sinnvoll ist."
+      },
+      {
+        "word": "die Alternative",
+        "translation": "la alternativa",
+        "example": "Wir sollten mindestens eine realistische Alternative prüfen."
+      },
+      {
+        "word": "die Machbarkeit",
+        "translation": "la viabilidad",
+        "example": "Die Machbarkeit des Plans wurde geprüft."
+      },
+      {
+        "word": "die Ressource",
+        "translation": "el recurso",
+        "example": "Die Ressource Zeit steht nur begrenzt zur Verfügung."
+      },
+      {
+        "word": "Könnten Sie mir kurz helfen?",
+        "translation": "¿Podría ayudarme brevemente?",
+        "example": "Könnten Sie mir kurz helfen, diese Prioritätenliste zu ordnen?",
+        "category": "expression"
+      },
+      {
+        "word": "Meiner Ansicht nach",
+        "translation": "en mi opinión",
+        "example": "Meiner Ansicht nach ist die zweite Option langfristig vorteilhafter.",
+        "category": "expression"
+      },
+      {
+        "word": "Da bin ich ganz Ihrer Meinung.",
+        "translation": "Estoy totalmente de acuerdo con usted.",
+        "example": "Da bin ich ganz Ihrer Meinung; das sollten wir umsetzen.",
+        "category": "expression"
+      },
+      {
+        "word": "Daran habe ich Zweifel.",
+        "translation": "Tengo dudas sobre eso.",
+        "example": "Daran habe ich Zweifel, denn die Daten sind unvollständig.",
+        "category": "expression"
+      },
+      {
+        "word": "Wäre es in Ordnung, wenn...",
+        "translation": "¿Estaría bien si...?",
+        "example": "Wäre es in Ordnung, wenn wir die Deadline um eine Woche verschieben?",
+        "category": "expression"
+      },
+      {
+        "word": "Aus diesem Grund",
+        "translation": "por esta razón",
+        "example": "Aus diesem Grund empfehle ich die Alternative B.",
+        "category": "expression"
       }
     ],
     "dialogue": [],
@@ -77655,6 +85639,137 @@
         "word": "realizzabile",
         "translation": "realizable",
         "example": "Die Diskussion klärt die Rolle von realizzabile."
+      },
+      {
+        "word": "die Synthese",
+        "translation": "la síntesis",
+        "example": "Die Synthese der Argumente führt zu einem klaren Plan."
+      },
+      {
+        "word": "die Quelle",
+        "translation": "la fuente",
+        "example": "Bitte überprüfe die Quelle der Daten."
+      },
+      {
+        "word": "die Priorität",
+        "translation": "la prioridad",
+        "example": "Diese Aufgabe hat höchste Priorität."
+      },
+      {
+        "word": "formulieren",
+        "translation": "formular; expresar",
+        "example": "Formulieren Sie einen präzisen Vorschlag."
+      },
+      {
+        "word": "realisierbar",
+        "translation": "realizable; factible",
+        "example": "Ist dieser Plan realisierbar?"
+      },
+      {
+        "word": "abwägen",
+        "translation": "sopesar; ponderar",
+        "example": "Wir müssen Vor- und Nachteile sorgfältig abwägen."
+      },
+      {
+        "word": "der Kompromiss",
+        "translation": "el compromiso; acuerdo intermedio",
+        "example": "Ein Kompromiss könnte beide Interessen berücksichtigen."
+      },
+      {
+        "word": "die Konsistenz",
+        "translation": "la consistencia",
+        "example": "Achte auf die Konsistenz deiner Argumentation."
+      },
+      {
+        "word": "nachvollziehbar",
+        "translation": "comprensible; lógico",
+        "example": "Deine Schlussfolgerung ist nachvollziehbar."
+      },
+      {
+        "word": "konkretisieren",
+        "translation": "concretar; especificar",
+        "example": "Könnten Sie die Maßnahmen konkretisieren?"
+      },
+      {
+        "word": "begründet",
+        "translation": "fundado; justificado",
+        "example": "Sein Einwand ist gut begründet."
+      },
+      {
+        "word": "der Vorschlag",
+        "translation": "la propuesta",
+        "example": "Der Vorschlag enthält fünf konkrete Schritte."
+      },
+      {
+        "word": "die Alternative",
+        "translation": "la alternativa",
+        "example": "Wir sollten zumindest eine praktikable Alternative prüfen."
+      },
+      {
+        "word": "gegenüberstellen",
+        "translation": "contrastar; comparar",
+        "example": "Stellen Sie die Optionen gegenüber."
+      },
+      {
+        "word": "gewichten",
+        "translation": "ponderar; asignar peso",
+        "example": "Wir müssen die Kriterien nach Wichtigkeit gewichten."
+      },
+      {
+        "word": "die Evidenz",
+        "translation": "la evidencia",
+        "example": "Die Evidenz stützt die vorgeschlagene Maßnahme."
+      },
+      {
+        "word": "prägnant",
+        "translation": "conciso",
+        "example": "Formulieren Sie ein prägnantes Fazit."
+      },
+      {
+        "word": "Könnten Sie mir dabei helfen?",
+        "translation": "¿Podría ayudarme con esto?",
+        "example": "Könnten Sie mir dabei helfen?",
+        "category": "expression"
+      },
+      {
+        "word": "Meiner Meinung nach...",
+        "translation": "En mi opinión...",
+        "example": "Meiner Meinung nach sollten wir zuerst die Daten analysieren.",
+        "category": "expression"
+      },
+      {
+        "word": "Dem stimme ich zu.",
+        "translation": "Estoy de acuerdo con eso.",
+        "example": "Dem stimme ich zu; das ist sachlich begründet.",
+        "category": "expression"
+      },
+      {
+        "word": "Ich habe Bedenken bezüglich...",
+        "translation": "Tengo dudas respecto a...",
+        "example": "Ich habe Bedenken bezüglich der Kosten.",
+        "category": "expression"
+      },
+      {
+        "word": "Aufgrund von...",
+        "translation": "Debido a...",
+        "example": "Aufgrund von Zeitmangel schlage ich eine Priorisierung vor.",
+        "category": "expression"
+      },
+      {
+        "word": "Daraus folgt, dass...",
+        "translation": "De ello se sigue que...",
+        "example": "Daraus folgt, dass wir den Zeitplan anpassen müssen.",
+        "category": "expression"
+      },
+      {
+        "word": "die Umsetzbarkeit",
+        "translation": "la viabilidad; factibilidad de implementación",
+        "example": "Die Umsetzbarkeit hängt vom Budget ab."
+      },
+      {
+        "word": "die Stakeholder",
+        "translation": "las partes interesadas",
+        "example": "Die Stakeholder müssen frühzeitig informiert werden."
       }
     ],
     "dialogue": [],

@@ -21310,13 +21310,13 @@ const INFOGRAPHIC_SCENES = [
     title: 'Human Body · Front',
     icon: '🧑',
     parts: [
-      ['Head', 50, 9],
-      ['Shoulder', 39, 25],
-      ['Chest', 50, 31],
-      ['Arm', 36, 41],
-      ['Hand', 31, 54],
-      ['Knee', 44, 68],
-      ['Foot', 43, 95]
+      ['Head', 50, 9.5],
+      ['Shoulder', 40, 24],
+      ['Chest', 50, 32],
+      ['Arm', 37, 40],
+      ['Hand', 32, 55],
+      ['Knee', 44, 69],
+      ['Foot', 42, 95]
     ]
   },
   {
@@ -21324,13 +21324,13 @@ const INFOGRAPHIC_SCENES = [
     title: 'Human Body · Rear',
     icon: '🧑',
     parts: [
-      ['Head', 50, 8],
-      ['Neck', 50, 16],
-      ['Back', 50, 32],
-      ['Elbow', 64, 37],
-      ['Waist', 50, 49],
+      ['Head', 50, 10],
+      ['Neck', 50, 18],
+      ['Back', 50, 30],
+      ['Elbow', 63, 38],
+      ['Waist', 50, 45],
       ['Leg', 45, 75],
-      ['Heel', 42, 94]
+      ['Heel', 43, 94]
     ]
   },
   {
@@ -21338,13 +21338,13 @@ const INFOGRAPHIC_SCENES = [
     title: 'Parts of a Car',
     icon: '🚗',
     parts: [
-      ['Windshield', 44, 38],
-      ['Door', 70, 52],
-      ['Mirror', 67, 40],
-      ['Hood', 29, 48],
-      ['Wheel', 54, 70],
-      ['Headlight', 50, 55],
-      ['Trunk', 92, 47]
+      ['Windshield', 45, 35],
+      ['Door', 75, 50],
+      ['Mirror', 71, 38],
+      ['Hood', 30, 48],
+      ['Wheel', 58, 65],
+      ['Headlight', 42, 53],
+      ['Trunk', 95, 40]
     ]
   },
   {
@@ -21352,13 +21352,13 @@ const INFOGRAPHIC_SCENES = [
     title: 'Parts of a House',
     icon: '🏠',
     parts: [
-      ['Roof', 57, 25],
-      ['Chimney', 26, 17],
-      ['Window', 30, 40],
-      ['Door', 50, 59],
-      ['Wall', 76, 45],
-      ['Porch', 50, 68],
-      ['Garden', 20, 83]
+      ['Roof', 55, 20],
+      ['Chimney', 27, 16],
+      ['Window', 28, 34],
+      ['Door', 51, 57],
+      ['Wall', 85, 58],
+      ['Porch', 45, 68],
+      ['Garden', 15, 75]
     ]
   },
   {
@@ -21367,12 +21367,12 @@ const INFOGRAPHIC_SCENES = [
     icon: '🌳',
     parts: [
       ['Crown', 50, 24],
-      ['Branch', 38, 42],
-      ['Leaf', 25, 25],
-      ['Trunk', 50, 67],
+      ['Branch', 39, 42],
+      ['Leaf', 28, 20],
+      ['Trunk', 51, 67],
       ['Bark', 51, 70],
-      ['Root', 50, 92],
-      ['Fruit', 50, 30]
+      ['Root', 51, 92],
+      ['Fruit', 25, 43]
     ]
   },
   {
@@ -21380,13 +21380,13 @@ const INFOGRAPHIC_SCENES = [
     title: 'The Weather',
     icon: '⛅',
     parts: [
-      ['Sun', 21, 17],
-      ['Cloud', 65, 18],
-      ['Rain', 30, 47],
-      ['Lightning', 67, 48],
-      ['Wind', 24, 72],
-      ['Snow', 55, 75],
-      ['Rainbow', 81, 79]
+      ['Sun', 18, 18],
+      ['Cloud', 50, 19],
+      ['Rain', 82, 26],
+      ['Lightning', 16, 50],
+      ['Wind', 48, 50],
+      ['Snow', 88, 52],
+      ['Rainbow', 18, 80]
     ]
   },
   {
@@ -21394,15 +21394,15 @@ const INFOGRAPHIC_SCENES = [
     title: 'The Solar System',
     icon: '🪐',
     parts: [
-      ['Sun', 12, 33],
-      ['Mercury', 35, 31],
-      ['Venus', 51, 31],
-      ['Earth', 69, 31],
-      ['Mars', 86, 31],
-      ['Jupiter', 17, 68],
-      ['Saturn', 42, 68],
-      ['Uranus', 69, 69],
-      ['Neptune', 88, 69]
+      ['Sun', 17.5, 33.5],
+      ['Mercury', 40.9, 34.8],
+      ['Venus', 55.5, 34.8],
+      ['Earth', 73.4, 34.8],
+      ['Mars', 90.5, 34.8],
+      ['Jupiter', 15, 68],
+      ['Saturn', 44.6, 68.9],
+      ['Uranus', 72.4, 69.5],
+      ['Neptune', 90.8, 69.7]
     ]
   },
   {
@@ -21424,13 +21424,13 @@ const INFOGRAPHIC_SCENES = [
     title: 'The Classroom',
     icon: '🏫',
     parts: [
-      ['Board', 58, 25],
-      ['Clock', 85, 23],
-      ['Desk', 48, 61],
-      ['Chair', 75, 58],
-      ['Book', 35, 55],
-      ['Window', 19, 35],
-      ['Backpack', 68, 78]
+      ['Board', 60, 37],
+      ['Clock', 59.3, 17.8],
+      ['Desk', 37, 70],
+      ['Chair', 73.8, 69.1],
+      ['Book', 36.8, 59.3],
+      ['Window', 14.5, 34.3],
+      ['Backpack', 84.1, 81.6]
     ]
   },
   // This is a photographic scene with a separate chain close-up at the
@@ -21441,13 +21441,13 @@ const INFOGRAPHIC_SCENES = [
     title: 'Parts of a Bicycle',
     icon: '🚲',
     parts: [
-      ['Handlebars', 75, 22],
-      ['Seat', 32, 27],
+      ['Handlebars', 72, 23],
+      ['Seat', 33, 28],
       ['Frame', 53, 47],
-      ['Pedal', 52, 67],
-      ['Chain', 43, 70],
+      ['Pedal', 51, 67],
+      ['Chain', 28, 71],
       ['Wheel', 18, 62],
-      ['Tire', 82, 62]
+      ['Tire', 82, 82]
     ]
   },
   {
@@ -21455,13 +21455,13 @@ const INFOGRAPHIC_SCENES = [
     title: 'Clothing',
     icon: '👕',
     parts: [
-      ['Shirt', 22, 27],
-      ['Trousers', 51, 27],
-      ['Dress', 80, 29],
-      ['Jacket', 23, 65],
-      ['Shoes', 52, 72],
-      ['Hat', 80, 67],
-      ['Socks', 87, 86]
+      ['Shirt', 21.4, 23.3],
+      ['Trousers', 50.8, 33.4],
+      ['Dress', 79.7, 28.2],
+      ['Jacket', 21, 57.8],
+      ['Shoes', 82.5, 63.5],
+      ['Hat', 13.4, 85.8],
+      ['Socks', 32.4, 85.2]
     ]
   },
   {
@@ -21469,13 +21469,13 @@ const INFOGRAPHIC_SCENES = [
     title: 'Basic Foods',
     icon: '🥖',
     parts: [
-      ['Bread', 22, 22],
-      ['Milk', 73, 18],
-      ['Cheese', 23, 47],
-      ['Rice', 73, 43],
-      ['Egg', 15, 73],
-      ['Chicken', 48, 73],
-      ['Fish', 80, 76]
+      ['Bread', 20.7, 17.9],
+      ['Milk', 50, 17.1],
+      ['Cheese', 79.5, 17.6],
+      ['Rice', 19.8, 44],
+      ['Egg', 49.7, 44.6],
+      ['Chicken', 79.4, 45.3],
+      ['Fish', 20.1, 67.5]
     ]
   },
   {
@@ -21483,14 +21483,14 @@ const INFOGRAPHIC_SCENES = [
     title: 'At the Supermarket',
     icon: '🛒',
     parts: [
-      ['Shopper', 50, 38],
-      ['Shopping cart', 50, 70],
-      ['Fruit', 18, 42],
-      ['Vegetables', 18, 70],
-      ['Bread', 88, 52],
-      ['Milk', 91, 30],
-      ['Shelf', 51, 31],
-      ['Checkout', 68, 49]
+      ['Shopper', 51, 38],
+      ['Shopping cart', 50, 69],
+      ['Fruit', 14, 39],
+      ['Vegetables', 14, 68],
+      ['Bread', 92, 78],
+      ['Milk', 92, 31],
+      ['Shelf', 47, 38],
+      ['Checkout', 68, 52]
     ]
   },
   {
@@ -21498,87 +21498,87 @@ const INFOGRAPHIC_SCENES = [
     title: 'At the Airport',
     icon: '✈️',
     parts: [
-      ['Traveler', 41, 43],
-      ['Passport', 40, 37],
-      ['Boarding pass', 41, 34],
-      ['Suitcase', 53, 74],
-      ['Airplane', 11, 47],
-      ['Check-in counter', 85, 49],
-      ['Departure board', 70, 18],
-      ['Seat', 13, 64]
+      ['Traveler', 40, 40],
+      ['Passport', 36, 40],
+      ['Boarding pass', 36, 36],
+      ['Suitcase', 54, 78],
+      ['Airplane', 13, 45],
+      ['Check-in counter', 86, 58],
+      ['Departure board', 75, 16],
+      ['Seat', 8, 63]
     ]
   },
-  { id: 'sports', title: 'Sports', icon: '⚽', parts: [['Jogging', 22, 34], ['Football / soccer', 48, 54], ['Basketball', 82, 54], ['Baseball', 16, 70], ['Baseball bat', 8, 83], ['American football', 48, 70], ['Football helmet', 67, 70], ['Tennis', 52, 88], ['Basketball hoop', 72, 16]] },
-  { id: 'nutrition', title: 'Food Choices', icon: '🥗', parts: [['Fruit', 19, 17], ['Vegetables', 18, 35], ['Water', 8, 57], ['Milk', 22, 63], ['Whole grains', 23, 77], ['Fish', 34, 92], ['Burger', 73, 20], ['Soda', 78, 48], ['Candy', 77, 65], ['Doughnut', 84, 87]] },
-  { id: 'city-map', title: 'Around the City', icon: '🗺️', parts: [['Bridge', 8, 25], ['School', 49, 17], ['Hospital', 84, 28], ['Park', 48, 43], ['Supermarket', 12, 53], ['Bus stop', 12, 78], ['Bank', 80, 54], ['Restaurant', 83, 80], ['Traffic light', 50, 63]] },
-  { id: 'family', title: 'The Family', icon: '👪', parts: [['Mother', 19, 49], ['Father', 41, 30], ['Grandmother', 58, 52], ['Grandfather', 82, 28], ['Brother', 39, 72], ['Sister', 56, 75], ['Baby', 22, 56], ['Dog', 82, 71]] },
-  { id: 'people-and-feelings', title: 'People, Colours and Feelings', icon: '🙂', parts: [['Doctor', 12, 24], ['Teacher', 37, 24], ['Chef', 62, 24], ['Firefighter', 88, 24], ['Happy', 12, 64], ['Sad', 38, 64], ['Surprised', 62, 64], ['Angry', 88, 64], ['Red', 10, 89], ['Blue', 28, 89], ['Yellow', 45, 89], ['Green', 61, 89], ['Orange', 78, 89], ['Purple', 92, 89]] }
+  { id: 'sports', title: 'Sports', icon: '⚽', parts: [['Jogging', 21, 28], ['Football / soccer', 47, 55], ['Basketball', 85, 57], ['Baseball', 22, 74], ['Baseball bat', 14, 81], ['American football', 47, 71], ['Football helmet', 71, 69], ['Tennis', 55, 87], ['Basketball hoop', 71, 18]] },
+  { id: 'nutrition', title: 'Food Choices', icon: '🥗', parts: [['Fruit', 20, 13], ['Vegetables', 18, 34], ['Water', 8, 55], ['Milk', 22, 58], ['Whole grains', 22, 76], ['Fish', 28, 90], ['Burger', 74, 17], ['Soda', 82, 40], ['Candy', 80, 60], ['Doughnut', 86, 83]] },
+  { id: 'city-map', title: 'Around the City', icon: '🗺️', parts: [['Bridge', 8, 22], ['School', 57, 12], ['Hospital', 87, 24], ['Park', 42, 40], ['Supermarket', 12, 48], ['Bus stop', 14, 75], ['Bank', 88, 56], ['Restaurant', 85, 83], ['Traffic light', 50, 63]] },
+  { id: 'family', title: 'The Family', icon: '👪', parts: [['Mother', 13, 44], ['Father', 37, 28], ['Grandmother', 63, 48], ['Grandfather', 84, 28], ['Brother', 40, 71], ['Sister', 60, 73], ['Baby', 22, 51], ['Dog', 80, 73]] },
+  { id: 'people-and-feelings', title: 'People, Colours and Feelings', icon: '🙂', parts: [['Doctor', 12.5, 25], ['Teacher', 37.5, 25], ['Chef', 62.5, 25], ['Firefighter', 87.5, 25], ['Happy', 12.5, 65], ['Sad', 37.5, 65], ['Surprised', 62.5, 65], ['Angry', 87.5, 65], ['Red', 8, 90], ['Blue', 26.5, 89], ['Yellow', 43.5, 88], ['Green', 58.5, 88], ['Orange', 73, 89], ['Purple', 91, 88]] }
 ];
 
 // Every visual dictionary offers ten or more useful words. These additional
 // points are chosen from visible, meaningful details in each scene rather
 // than repeating a label simply to increase the score.
 const INFOGRAPHIC_EXTRA_PARTS = {
-  supermarket: [['Cheese', 25, 53], ['Juice', 61, 59]],
-  airport: [['Backpack', 32, 47], ['Ticket', 40, 39]],
-  sports: [['Tennis ball', 74, 94]],
-  'city-map': [['Bus', 26, 84]],
-  family: [['Sofa', 14, 70], ['Photo', 82, 14]],
+  supermarket: [['Cheese', 53, 39], ['Juice', 58, 40]],
+  airport: [['Backpack', 29, 48], ['Ticket', 36, 37]],
+  sports: [['Tennis ball', 78, 93]],
+  'city-map': [['Bus', 27, 77]],
+  family: [['Sofa', 10, 65], ['Photo', 72, 35]],
   'body-front': [
     ['Ear', 44, 14],
-    ['Neck', 50, 20],
+    ['Neck', 50, 19],
     ['Stomach', 50, 43]
   ],
   'body-rear': [
-    ['Shoulder', 40, 24],
-    ['Hand', 68, 51],
-    ['Foot', 55, 94]
+    ['Shoulder', 42, 24],
+    ['Hand', 66, 54],
+    ['Foot', 57, 94]
   ],
   car: [
-    ['Bumper', 48, 72],
-    ['License plate', 16, 61],
-    ['Roof', 51, 27]
+    ['Bumper', 25, 68],
+    ['License plate', 16, 64],
+    ['Roof', 55, 26]
   ],
   house: [
-    ['Garage', 75, 64],
-    ['Balcony', 50, 42],
-    ['Path', 49, 88]
+    ['Garage', 74, 62],
+    ['Balcony', 49, 40],
+    ['Path', 35, 79]
   ],
   tree: [
     ['Twig', 65, 22],
-    ['Apple', 50, 30],
-    ['Soil', 66, 92]
+    ['Apple', 52, 30],
+    ['Soil', 69, 96]
   ],
   weather: [
-    ['Fog', 51, 61],
-    ['Storm', 78, 37],
-    ['Ice', 42, 80]
+    ['Fog', 48, 86],
+    ['Storm', 82, 78],
+    ['Ice', 84, 63]
   ],
-  'solar-system': [['Pluto', 95, 72]],
+  'solar-system': [['Pluto', 92.5, 90.9]],
   face: [
     ['Eyebrow', 38, 39],
     ['Cheek', 35, 62],
     ['Teeth', 50, 67]
   ],
   classroom: [
-    ['Pen', 54, 57],
-    ['Ruler', 43, 59],
-    ['Lamp', 82, 30]
+    ['Pen', 48.3, 61.3],
+    ['Ruler', 53.6, 61.6],
+    ['Lamp', 24.3, 51.2]
   ],
   bicycle: [
-    ['Spokes', 18, 62],
-    ['Brake', 75, 49],
-    ['Crank', 52, 67]
+    ['Spokes', 80, 60],
+    ['Brake', 74, 43],
+    ['Crank', 44, 65]
   ],
   clothing: [
-    ['Belt', 50, 47],
-    ['Bag', 16, 83],
-    ['Gloves', 84, 81]
+    ['Belt', 49, 85.4],
+    ['Bag', 67.5, 82.7],
+    ['Gloves', 87.4, 85.1]
   ],
   food: [
-    ['Plate', 50, 49],
-    ['Bowl', 51, 65],
-    ['Table', 50, 89]
+    ['Plate', 51.4, 66.8],
+    ['Bowl', 82.2, 68.4],
+    ['Table', 49.7, 87.1]
   ]
 };
 
