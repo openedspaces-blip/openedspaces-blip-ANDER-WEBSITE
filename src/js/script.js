@@ -1613,8 +1613,7 @@ function resolveVocabTranslation(item, bridgeLanguage = learningPathState.bridge
   const targetLanguage = item?.language || item?.targetLanguage || learningPathState.language;
   const translation = getAuthoredSpanishVocabGloss(item, targetLanguage) || item?.translation || '';
   if (!translation || isVocabularyTranslationPlaceholder(translation)) return '';
-  if (bridgeLanguage === 'spanish') return translation;
-  return `${translation} (referencia en español)`;
+  return translation;
 }
 
 function renderMcqItem(question, index, languageKey) {
@@ -5812,7 +5811,6 @@ async function loadTeacherCurriculumPanel() {
 }
 
 const UNIT_LEARNING_SEQUENCE = [
-  'introduction',
   'vocabulary',
   'reading',
   'listening',
@@ -5820,7 +5818,7 @@ const UNIT_LEARNING_SEQUENCE = [
   'writing',
   'grammar'
 ];
-const UNIT_ROUTE_SKILLS = new Set(UNIT_LEARNING_SEQUENCE.filter((skill) => skill !== 'introduction'));
+const UNIT_ROUTE_SKILLS = new Set(UNIT_LEARNING_SEQUENCE);
 
 function unitSkillOrder(skill) {
   const index = UNIT_LEARNING_SEQUENCE.indexOf(String(skill || '').toLowerCase());
@@ -5902,10 +5900,7 @@ function renderUnitSequenceStepsHtml(unitId, currentSkill = '') {
     vocabulary: 'Explorar'
   };
   const activities = getUnitActivities(unitId);
-  const vocabularyLesson = activities.find((lesson) => lesson.skill === 'vocabulary');
-  const routeActivities = vocabularyLesson
-    ? [{ ...vocabularyLesson, skill: 'introduction', completed: false }, ...activities]
-    : activities;
+  const routeActivities = activities;
   const recommendedLesson =
     routeActivities.find((lesson) => !lesson.completed && !lesson.locked) || routeActivities[0] || null;
   const steps = routeActivities
@@ -6413,10 +6408,7 @@ function renderSkillUnitSequence(section, lesson) {
   const content = section.querySelector('.skill-view-content');
   if (!content) return;
   const activities = getUnitActivities(lesson.unitId);
-  const vocabularyLesson = activities.find((item) => item.skill === 'vocabulary');
-  const routeActivities = vocabularyLesson
-    ? [{ ...vocabularyLesson, skill: 'introduction', completed: false }, ...activities]
-    : activities;
+  const routeActivities = activities;
   const currentIndex = Math.max(
     0,
     routeActivities.findIndex(
@@ -10211,25 +10203,12 @@ function getSkillLabel(skill, language = learningPathState.language) {
 // language's course is open. Cheap full-DOM sweep, called on every
 // navigation (showView) and language switch (setTargetLanguage).
 function updateLevelTabLabels() {
-  // Introduction is a supplementary route stop rather than an authored
-  // lesson row. Add its link to the shared tab strips once, keeping the
-  // static HTML for the six existing skill views compact and in sync.
-  document.querySelectorAll('.level-tabs').forEach((tabs) => {
-    if (tabs.querySelector('.level-tab[data-tab="introduction"]')) return;
-    const introductionLink = document.createElement('a');
-    introductionLink.href = '#introduction';
-    introductionLink.className = 'level-tab';
-    introductionLink.dataset.tab = 'introduction';
-    introductionLink.textContent = 'Introduction';
-    const vocabularyLink = tabs.querySelector('.level-tab[data-tab="vocabulary"]');
-    tabs.insertBefore(introductionLink, vocabularyLink || null);
-  });
   const isRouteContext =
     learningPathState.skillEntryContext === 'route' &&
     Boolean(learningPathState.unitId) &&
     learningPathState.lessons.length > 0;
   const routeSkills = isRouteContext
-    ? ['introduction', ...getUnitActivities(learningPathState.unitId).map((lesson) => lesson.skill), 'verbs']
+    ? [...getUnitActivities(learningPathState.unitId).map((lesson) => lesson.skill), 'verbs']
     : [];
   document.querySelectorAll('.level-tab[data-tab]').forEach((link) => {
     // The static first tab is the route overview outside a unit. Inside a
@@ -10243,9 +10222,7 @@ function updateLevelTabLabels() {
     link.textContent = getSkillLabel(targetSkill);
     if (isRouteContext) {
       const targetLesson =
-        targetSkill === 'introduction'
-          ? getUnitActivities(learningPathState.unitId).find((lesson) => lesson.skill === 'vocabulary')
-          : targetSkill === 'learn'
+        targetSkill === 'learn'
           ? getActiveLearningLesson()
           : getUnitActivities(learningPathState.unitId).find(
               (lesson) => lesson.skill === targetSkill
@@ -12079,12 +12056,13 @@ function renderIntroductionView(section, lesson) {
   const audioPlayerHtml = renderReadingAudioPlayerHtml(readingSpeechPlayer.getSnapshot());
   const illustrationHtml = renderIntroductionIllustrationHtml(lesson);
   const targetVocabulary = lesson.slug;
+  const editorialTitle = String(lesson.title || '').replace(/^vocabulario\s*[·•]\s*/i, '');
   content.innerHTML = `
     <article class="introduction-editorial">
       <header class="introduction-editorial-header">
-        <p>INTRODUCTION · EDITORIAL</p>
-        <h3>${escapeHtml(lesson.title)}</h3>
-        <strong>Una mirada informada antes de aprender las palabras clave.</strong>
+        <p>ANTES DE EMPEZAR · INTRODUCCIÓN</p>
+        <h3>${escapeHtml(editorialTitle)}</h3>
+        <strong>Conoce el tema, escucha una idea central y prepárate para practicar.</strong>
       </header>
       <div class="introduction-editorial-audio">${audioPlayerHtml}</div>
       <div class="introduction-editorial-body">
@@ -12092,8 +12070,8 @@ function renderIntroductionView(section, lesson) {
         ${paragraphs.map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join('')}
       </div>
       <footer class="introduction-editorial-footer">
-        <span>Escucha, reflexiona y continúa con el vocabulario de esta lección.</span>
-        <button type="button" class="primary-btn introduction-continue-btn" data-vocabulary-slug="${escapeHtml(targetVocabulary)}">Continuar a Vocabulary <span aria-hidden="true">→</span></button>
+        <span>Cuando estés listo, continúa con las palabras y actividades de la lección.</span>
+        <button type="button" class="primary-btn introduction-continue-btn" data-vocabulary-slug="${escapeHtml(targetVocabulary)}">Empezar a practicar <span aria-hidden="true">→</span></button>
       </footer>
     </article>`;
   readingSpeechPlayer.setHandlers({
