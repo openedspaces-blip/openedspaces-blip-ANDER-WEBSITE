@@ -16352,12 +16352,20 @@ function normalizeVocabularyItem(
           learningMode
         })
       : null;
+  const frenchC2NeedsSpanishGloss =
+    targetLanguage === 'french' &&
+    level === 'C2' &&
+    item.translation &&
+    item.translation === (item.definition || item.simpleDefinition);
   return {
     id,
     targetWord,
     // Never show a translation in direct mode, even if the raw item still
     // carries legacy `translation` data (spec §5: "No mostrar traducción").
-    translation: support ? '' : resolveVocabTranslation(item, resolvedBridge),
+    // French C2 stores an L2 definition in `translation` for its exercises.
+    // Its card receives a real Spanish gloss asynchronously instead of
+    // presenting that French definition as a translation.
+    translation: support || frenchC2NeedsSpanishGloss ? '' : resolveVocabTranslation(item, resolvedBridge),
     example: item.example || '',
     // Direct mode prefers directSupport's own (up to 3) context examples
     // over the single legacy `example` string, when authored (spec §6: max
@@ -16848,7 +16856,11 @@ const vocabPracticeState = new Map();
 const vocabPracticeSources = new Map();
 
 async function loadMissingAdvancedVocabTranslations(cards, lessonSlug = '') {
-  const missing = cards.filter((card) => card.isAdvancedDirect && !card.l1Translation);
+  const missing = cards.filter(
+    (card) =>
+      !card.l1Translation &&
+      (card.isAdvancedDirect || (card.targetLanguage === 'french' && card.level === 'C2'))
+  );
   if (
     !missing.length ||
     learningPathState.language === 'spanish' ||
@@ -17499,7 +17511,10 @@ function renderVocabularyView(section, lesson) {
   `;
   applyVocabularyCatalogueFilters(section);
   renderSavedVocabularyShelf(content, lesson);
-  if (advancedDirect && cards.some((card) => !card.l1Translation)) {
+  const needsFrenchC2Gloss = cards.some(
+    (card) => card.targetLanguage === 'french' && card.level === 'C2' && !card.l1Translation
+  );
+  if ((advancedDirect || needsFrenchC2Gloss) && cards.some((card) => !card.l1Translation)) {
     void loadMissingAdvancedVocabTranslations(cards, lesson.slug).then((changed) => {
       if (changed && vocabTranslationLessonSlug === lesson.slug && section.isConnected) {
         renderVocabularyView(section, lesson);
