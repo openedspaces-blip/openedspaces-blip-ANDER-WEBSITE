@@ -33417,3 +33417,11 @@ body.tutor-robot-listening #tutor .tutor-hero-bot {
 .skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card--expression .vocab-card-word-audio-btn {
   margin-left: auto;
 }
+.tests-section-label {
+  margin: 0.4rem 0 -0.35rem;
+  color: #245fc8;
+  font-size: 0.72rem;
+  font-weight: 850;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}

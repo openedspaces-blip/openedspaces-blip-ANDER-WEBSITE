@@ -21131,9 +21131,12 @@ function testLanguageLabel(language) {
 }
 
 function syncTestLevelOptions() {
-  const language = document.getElementById('testLanguageSelect')?.value || 'english';
   const level = document.getElementById('testLevelSelect');
-  syncCourseLevelSelect(level, language, { compact: true, includePreA1: false });
+  if (!level) return;
+  const requested = level.value;
+  const levels = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
+  level.innerHTML = levels.map((item) => `<option value="${item}">${item}</option>`).join('');
+  level.value = levels.includes(requested) ? requested : 'A1';
 }
 
 function renderLessonTest() {
@@ -21163,11 +21166,21 @@ function renderLessonTest() {
       return `<li>${sentence}</li>`;
     })
     .join('');
+  const questionHtml = lessonTestState.questions.map((question, index) => {
+    const previousArea = lessonTestState.questions[index - 1]?.area;
+    const startsArea = index === 0 || question.area !== previousArea;
+    const blockHint = question.area === 'Grammar'
+      ? 'Preguntas 1–9 · Gramática'
+      : question.area === 'Vocabulary'
+        ? 'Preguntas 10–12 · Vocabulario'
+        : 'Preguntas 13–15 · Verbos';
+    return `${startsArea ? `<p class="tests-section-label">${blockHint}</p>` : ''}<fieldset class="tests-question${['C1', 'C2'].includes(lessonTestState.level) ? ' tests-question--advanced' : ''}" data-question-index="${index}" data-question-id="${escapeHtml(question.id)}"><legend><span>${index + 1}</span><small class="tests-question-area">${escapeHtml(question.area)}</small>${escapeHtml(question.prompt)}</legend><div>${question.options.map((option, optionIndex) => `<label><input type="radio" name="test-${index}" value="${optionIndex}"><span class="tests-option-content"><strong class="tests-option-letter" aria-hidden="true">${String.fromCharCode(97 + optionIndex)})</strong><span class="tests-option-text">${escapeHtml(option)}</span></span></label>`).join('')}</div><p class="tests-item-feedback" aria-live="polite"></p></fieldset>`;
+  }).join('');
   stage.innerHTML = `<div class="tests-paper" id="lessonTestPaper">
-    <header class="tests-paper-head"><div><span>${lessonTestState.language === 'french' ? 'Français' : lessonTestState.language === 'spanish' ? 'Español' : 'English'} · ${escapeHtml(lessonTestState.level)}</span><h3>${escapeHtml(unit.grammarTitle || unit.title || `Lesson ${unit.order}`)}</h3><p>${totalQuestions} ${lessonTestState.language === 'spanish' ? 'preguntas' : 'questions'} · corrección inmediata</p>${grammarExamplesHtml ? `<div class="tests-grammar-examples"><strong>Ejemplos prácticos</strong><ol>${grammarExamplesHtml}</ol></div>` : ''}</div><strong>100<small>puntos</small></strong></header>
+    <header class="tests-paper-head"><div><span>${escapeHtml(testLanguageLabel(lessonTestState.language))} · ${escapeHtml(lessonTestState.level)}</span><h3>${escapeHtml(unit.grammarTitle || unit.title || `Lesson ${unit.order}`)}</h3><p>${totalQuestions} preguntas · 9 de gramática, 3 de vocabulario y 3 de verbos</p>${grammarExamplesHtml ? `<div class="tests-grammar-examples"><strong>Ejemplos prácticos</strong><ol>${grammarExamplesHtml}</ol></div>` : ''}</div><strong>100<small>puntos</small></strong></header>
     <nav class="tests-challenge-map" aria-label="Progreso del reto">${lessonTestState.questions.map((_, index) => `<button type="button" class="tests-challenge-map-item" data-test-jump="${index}" aria-label="Ir a la pregunta ${index + 1}">${index + 1}</button>`).join('')}<span class="tests-challenge-progress" id="testsChallengeProgress">0/${totalQuestions} respondidas</span></nav>
     <p class="tests-global-instruction">Elige en cada pregunta la opción que mejor complete o responda la situación.</p>
-    <form id="lessonTestForm" class="tests-question-list">${lessonTestState.questions.map((question, index) => `<fieldset class="tests-question${['C1', 'C2'].includes(lessonTestState.level) ? ' tests-question--advanced' : ''}" data-question-index="${index}" data-question-id="${escapeHtml(question.id)}"><legend><span>${index + 1}</span>${escapeHtml(question.prompt)}</legend><div>${question.options.map((option, optionIndex) => `<label><input type="radio" name="test-${index}" value="${optionIndex}"><span class="tests-option-content"><strong class="tests-option-letter" aria-hidden="true">${String.fromCharCode(97 + optionIndex)})</strong><span class="tests-option-text">${escapeHtml(option)}</span></span></label>`).join('')}</div><p class="tests-item-feedback" aria-live="polite"></p></fieldset>`).join('')}
+    <form id="lessonTestForm" class="tests-question-list">${questionHtml}
       <button type="submit" class="primary-btn tests-submit" disabled>Evaluar resultado total · 0/${lessonTestState.questions.length}</button>
       <div class="tests-export-actions no-print" aria-label="Opciones de descarga del examen">
         <button type="button" class="secondary-btn" data-test-action="pdf">Descargar PDF</button>
@@ -21581,7 +21594,7 @@ async function loadTestsView() {
     .join('');
   lessonTestState.unitId = lessonSelect.value || lessonTestState.units[0]?.id || '';
   if (stage && !new URLSearchParams(window.location.search).get('testResult')) {
-    stage.innerHTML = `<div class="tests-welcome"><span aria-hidden="true">✓</span><h3>Tests de ${testLanguageLabel(lessonTestState.language)} listos</h3><p>Selecciona un tema gramatical y pulsa «Comenzar test».</p></div>`;
+    stage.innerHTML = `<div class="tests-welcome"><span aria-hidden="true">✓</span><h3>Tests de ${testLanguageLabel(lessonTestState.language)} listos</h3><p>Selecciona una unidad y pulsa «Comenzar test». Cada examen tiene 9 preguntas de gramática, 3 de vocabulario y 3 de verbos.</p></div>`;
   }
   const shared = new URLSearchParams(window.location.search).get('testResult');
   if (shared) {
