@@ -87,8 +87,11 @@ No borres `.git`, `.env`, `supabase/` (el resto de su contenido), `SUPABASE_RUN_
   - `SUPABASE_ANON_KEY` (o `SUPABASE_KEY` como alias)
   - `SUPABASE_SERVICE_ROLE_KEY`
   - `SUPABASE_DATABASE_URL` (solo si vas a correr `npm run db:setup`)
-  - `OPENAI_API_KEY` (solo para `npm run audio:generate`, no la usa el AI Tutor)
+  - `OPENAI_API_KEY` (respaldo del AI Tutor y para `npm run audio:generate`)
   - `OPENAI_MODEL` (opcional; por defecto `gpt-4.1-mini`)
+  - `GROQ_API_KEY` (ruta rápida y económica principal del AI Tutor)
+  - `GROQ_MODEL` (opcional; por defecto `openai/gpt-oss-20b`)
+  - `CEREBRAS_API_KEY` (respaldo de streaming del AI Tutor)
   - `GEMINI_API_KEY` (para activar el AI Tutor real, gratis en https://aistudio.google.com/apikey)
   - `GEMINI_MODEL` (opcional; por defecto `gemini-flash-latest`)
   - `DEV_TOKEN_SECRET`
