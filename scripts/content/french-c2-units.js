@@ -3,6 +3,7 @@
 // du CECR C2 : inférer l'implicite, maîtriser les connotations et garder un
 // contrôle grammatical constant dans un discours conceptuellement dense.
 
+const { enrichAdvancedVocabulary, usefulExpressions } = require('./advanced-vocabulary');
 const DEFAULTS = {
   reading: { duration: 28, xp: 55 },
   vocabulary: { duration: 18, xp: 40 },
@@ -281,7 +282,7 @@ function readingParts(topic) {
 }
 
 function vocabularyItems(topic) {
-  return [...topic.vocabulary, ...sharedVocabulary].map(([word, definition]) => ({
+  return enrichAdvancedVocabulary([...topic.vocabulary, ...sharedVocabulary].map(([word, definition]) => ({
     word,
     translation: definition,
     definition,
@@ -290,7 +291,7 @@ function vocabularyItems(topic) {
     // relation rather than simplifying the C2 register.
     example: `« ${word} » structure l’argumentation avec précision.`,
     partOfSpeech: word.includes(' ') ? 'expression ou groupe nominal' : 'nom ou verbe'
-  }));
+  })), { language: 'french', topic: topic.title.toLowerCase() });
 }
 
 function vocabularyExercises(items) {
@@ -529,6 +530,7 @@ function buildUnit(topic, index) {
         title: `Le lexique de l’unité : ${topic.title}`,
         description: `Vocabulaire C2 pour analyser ${topic.title.toLowerCase()}.`,
         vocabulary,
+        phrases: usefulExpressions('french', topic.title.toLowerCase()),
         exercises: vocabularyExercises(vocabulary)
       }),
       grammar: activity('grammar', {

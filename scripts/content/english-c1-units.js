@@ -2,6 +2,7 @@
 // Mirrors English B2's exact course shape: 12 units, each containing
 // Reading + Vocabulary + Grammar, with 10/8/8 assessed questions.
 
+const { enrichAdvancedVocabulary, usefulExpressions } = require('./advanced-vocabulary');
 const topics = [
   {
     slug: 'antimicrobial-resistance',
@@ -421,13 +422,13 @@ function buildReadingExercises(topic) {
 }
 
 function buildVocabulary(topic) {
-  return topic.words.map(([word, translation, definition]) => ({
+  return enrichAdvancedVocabulary(topic.words.map(([word, translation, definition]) => ({
     word,
     translation,
     definition,
     example: `The article uses “${word}” to analyse ${topic.title.toLowerCase()} precisely.`,
     partOfSpeech: word.includes(' ') ? 'phrase' : 'noun'
-  }));
+  })), { language: 'english', topic: topic.title.toLowerCase() });
 }
 
 function buildVocabularyExercises(items) {
@@ -548,8 +549,9 @@ function buildUnit(topic, index) {
       }),
       vocabulary: activity('vocabulary', {
         title: `Vocabulary: ${topic.title}`,
-        description: `Eight current scientific-social terms used in “${topic.readingTitle}”.`,
+        description: `30 current scientific-social terms and useful expressions used in “${topic.readingTitle}”.`,
         vocabulary,
+        phrases: usefulExpressions('english', topic.title.toLowerCase()),
         exercises: buildVocabularyExercises(vocabulary)
       }),
       grammar: activity('grammar', {

@@ -1,5 +1,6 @@
 // English C2: extended interdisciplinary essays, high-precision vocabulary
 // and grammar for nuanced academic/professional argument. Full L2 immersion.
+const { enrichAdvancedVocabulary, usefulExpressions } = require('./advanced-vocabulary');
 const legacyTopics = [
   ['epistemic-fragmentation','Epistemic Fragmentation and Public Knowledge','When Facts Lose Their Common Ground',
     'Public disagreement increasingly concerns not only conclusions but the institutions, methods and witnesses considered credible.',
@@ -197,7 +198,7 @@ function vocab(topic) {
       partOfSpeech:words[i].includes(' ')?'phrase':'noun'
     });
   }
-  return out;
+  return enrichAdvancedVocabulary(out, { language: 'english', topic: topic[1].toLowerCase() });
 }
 
 function grammarExercises(topic) {
@@ -394,7 +395,7 @@ function buildUnit(topic,index) {
         `Why does the essay defend this institutional response: ${response}`,
         `What evidence would justify revising the conclusion of “${readingTitle}”?`
       ],references:referencesByTopic[slug]||[]},exercises:readingExercises}),
-      vocabulary:activity('vocabulary',{title:`Conceptual Vocabulary: ${title}`,description:'Twelve high-precision terms defined and practised entirely in English.',vocabulary,exercises:vocabularyExercises}),
+      vocabulary:activity('vocabulary',{title:`Conceptual Vocabulary: ${title}`,description:'30 high-precision terms and useful expressions practised entirely in English.',vocabulary,phrases:usefulExpressions('english', title.toLowerCase()),exercises:vocabularyExercises}),
       grammar:activity('grammar',{title:grammar,description:`Use ${grammar} to analyse “${readingTitle}”.`,grammarNote:`Goal: ${purpose}.\n\nRule: ${rule}\n\nContext: Apply the structure to the claims, counterarguments and qualifications in “${readingTitle}”.`,phrases:gExercises.slice(0,4).map(x=>x.options[x.answer]),grammarProfile:{name:grammar,context:`Grammar connected to the C2 essay “${readingTitle}”.`,definition:rule,explanation:rule,structure:`Core structure: ${rule}`,purpose,function:purpose,examples:gExercises.slice(0,4).map(x=>x.options[x.answer])},exercises:gExercises,grammarTest:test(topic,gExercises)})
     }
   };

@@ -9,6 +9,7 @@
 // Consumed by scripts/build-french-c1-seed.js, which only emits the 3
 // activities each unit actually has (not the usual 7).
 
+const { enrichAdvancedVocabulary, usefulExpressions } = require('./advanced-vocabulary');
 const DEFAULTS = {
   reading: { duration: 20, xp: 40 },
   vocabulary: { duration: 12, xp: 30 },
@@ -79,14 +80,15 @@ const units = [
       vocabulary: activity('vocabulary', {
         title: 'Le vocabulaire de la vie universitaire',
         description: 'Le vocabulaire essentiel pour décrire l’environnement et les exigences universitaires françaises.',
-        vocabulary: [
+        vocabulary: enrichAdvancedVocabulary([
           { word: 'un amphithéâtre', translation: 'un auditorio/aula magna', example: 'Le cours magistral a lieu dans un grand amphithéâtre.' },
           { word: 'une unité d’enseignement', translation: 'una asignatura/módulo', example: 'Cette unité d’enseignement porte sur la linguistique appliquée.' },
           { word: 'un syllabus', translation: 'un programa de curso', example: 'Le professeur a distribué le syllabus dès le premier cours.' },
           { word: 'l’autonomie académique', translation: 'la autonomía académica', example: 'L’université exige une grande autonomie académique de ses étudiants.' },
           { word: 'décrocher (familier, scolaire)', translation: 'quedarse atrás/desconectar', example: 'Certains étudiants décrochent dès les premières semaines.' },
           { word: 'galvanisé(e)', translation: 'galvanizado/a, entusiasmado/a', example: 'Elle rentre chez elle galvanisée par cette première journée.' }
-        ],
+        ], { language: 'french', topic: 'la vie universitaire' }),
+        phrases: usefulExpressions('french', 'la vie universitaire'),
         exercises: [
           { type: 'mcq', prompt: 'Que signifie « un amphithéâtre » dans un contexte universitaire ?', options: ['Un gimnasio', 'Un auditorio/aula magna', 'Una biblioteca', 'Un laboratorio'], answer: 1 },
           { type: 'mcq', prompt: 'Que signifie « décrocher » dans un contexte scolaire ?', options: ['Aprobar con éxito', 'Quedarse atrás/desconectar', 'Graduarse', 'Faltar una vez'], answer: 1 },
@@ -168,14 +170,15 @@ const units = [
       vocabulary: activity('vocabulary', {
         title: 'Le vocabulaire académique avancé',
         description: 'Le vocabulaire essentiel pour décrire un travail de recherche universitaire collectif.',
-        vocabulary: [
+        vocabulary: enrichAdvancedVocabulary([
           { word: 'une soutenance', translation: 'una defensa (académica)', example: 'La soutenance de l’exposé a eu lieu devant toute la classe.' },
           { word: 'la diversité linguistique', translation: 'la diversidad lingüística', example: 'Les Caraïbes sont marquées par une grande diversité linguistique.' },
           { word: 'un consensus', translation: 'un consenso', example: 'Le groupe a fini par trouver un consensus.' },
           { word: 'une problématique', translation: 'una problemática/enfoque de investigación', example: 'La problématique choisie était particulièrement complexe.' },
           { word: 'interdisciplinaire', translation: 'interdisciplinario/a', example: 'Le professeur encourageait une approche interdisciplinaire.' },
           { word: 'univoque', translation: 'unívoco/a, de un solo sentido', example: 'Il vaut mieux éviter une approche trop univoque.' }
-        ],
+        ], { language: 'french', topic: 'la diversité linguistique' }),
+        phrases: usefulExpressions('french', 'la diversité linguistique'),
         exercises: [
           { type: 'mcq', prompt: 'Que signifie « une soutenance » dans un contexte académique ?', options: ['Un examen escrito', 'Una defensa oral de un trabajo', 'Una biblioteca', 'Un descanso entre clases'], answer: 1 },
           { type: 'mcq', prompt: 'Que signifie « un consensus » ?', options: ['Un desacuerdo total', 'Un consenso, un acuerdo colectivo', 'Un examen final', 'Una crítica'], answer: 1 },

@@ -3,6 +3,7 @@
 // and intentionally exposes only Reading, Vocabulary and Grammar, matching
 // the scoped C1 course design.
 
+const { enrichAdvancedVocabulary, usefulExpressions } = require('./advanced-vocabulary');
 const DEFAULTS = {
   reading: { duration: 20, xp: 40 },
   vocabulary: { duration: 14, xp: 35 },
@@ -565,10 +566,10 @@ const sharedVocabulary = [
 ];
 
 function vocabularyItems(plan) {
-  return [...plan.vocabulary, ...sharedVocabulary].map(([word, translation, example]) => ({
+  return enrichAdvancedVocabulary([...plan.vocabulary, ...sharedVocabulary].map(([word, translation, example]) => ({
     word, translation, definition: translation, example,
     partOfSpeech: word.includes(' ') ? 'expression' : 'nom ou verbe'
-  }));
+  })), { language: 'french', topic: plan.title.toLowerCase() });
 }
 
 function vocabularyExercises(items) {
@@ -644,6 +645,7 @@ function buildUnit(plan, offset) {
         title: `Le lexique de l’unité : ${plan.title}`,
         description: `Vocabulaire C1 pour analyser ${plan.title.toLowerCase()}.`,
         vocabulary: vocab,
+        phrases: usefulExpressions('french', plan.title.toLowerCase()),
         exercises: vocabularyExercises(vocab)
       }),
       grammar: activity('grammar', {
