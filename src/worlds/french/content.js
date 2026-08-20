@@ -5770,7 +5770,7 @@
       },
       {
         "word": "le mal du pays",
-        "translation": "la nostalgia del país",
+        "translation": "la nostalgia por su país",
         "example": "Elle a ressenti le mal du pays pendant son séjour en France."
       },
       {
@@ -11490,7 +11490,7 @@
       },
       {
         "word": "un dossier de candidature",
-        "translation": "un expediente de solicitud",
+        "translation": "el expediente de candidatura",
         "example": "Mon dossier de candidature est complet."
       },
       {
@@ -11580,7 +11580,7 @@
       },
       {
         "word": "devenir",
-        "translation": "convertirse en",
+        "translation": "llegar a ser / convertirse en",
         "example": "Je suis devenue plus confiante."
       },
       {
@@ -23226,7 +23226,7 @@
       },
       {
         "word": "postuler",
-        "translation": "postular/aplicar",
+        "translation": "postularse",
         "example": "J’ai postulé pour un stage à la bibliothèque."
       },
       {
@@ -46302,7 +46302,7 @@
       },
       {
         "word": "l’environnement",
-        "translation": "el medioambiente",
+        "translation": "el medio ambiente",
         "example": "Il faut protéger l’environnement."
       },
       {
@@ -57861,7 +57861,7 @@
       },
       {
         "word": "trouver un compromis",
-        "translation": "encontrar un compromiso",
+        "translation": "llegar a un acuerdo",
         "example": "Nous avons trouvé un compromis ensemble."
       },
       {
