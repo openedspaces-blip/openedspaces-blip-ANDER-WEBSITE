@@ -1079,18 +1079,18 @@
   // without inventing content at render time. The verb form itself always
   // comes from the deterministic conjugation engine below.
   const FR_CORE_EXAMPLES = {
-    être: ['Je suis prêt pour le cours.', 'Je ne suis pas disponible ce matin.', 'Est-ce que tu es prêt ?'],
-    avoir: ['J’ai un rendez-vous à quinze heures.', 'Je n’ai pas mon carnet avec moi.', 'Est-ce que vous avez une question ?'],
-    faire: ['Je fais les courses après le travail.', 'Je ne fais pas de sport aujourd’hui.', 'Qu’est-ce que tu fais ce week-end ?'],
-    dire: ['Elle dit la réponse à voix haute.', 'Je ne dis pas son secret.', 'Qu’est-ce que le professeur dit ?'],
-    aller: ['Nous allons au marché samedi matin.', 'Il ne va pas à l’école en voiture.', 'Où vas-tu après le cours ?'],
-    voir: ['Je vois mes amis au café.', 'Nous ne voyons pas la gare d’ici.', 'Est-ce que tu vois le panneau ?'],
-    savoir: ['Je sais où se trouve la bibliothèque.', 'Je ne sais pas encore la réponse.', 'Est-ce que vous savez nager ?'],
-    pouvoir: ['Tu peux prendre le bus numéro cinq.', 'Je ne peux pas rester ce soir.', 'Est-ce qu’on peut entrer maintenant ?'],
-    vouloir: ['Je veux réserver une table pour deux.', 'Nous ne voulons pas être en retard.', 'Qu’est-ce que tu veux boire ?'],
-    venir: ['Je viens au cours après le travail.', 'Elle ne vient pas ce matin.', 'Est-ce que vous venez avec nous ?'],
-    devoir: ['Je dois envoyer le dossier avant midi.', 'Tu ne dois pas oublier ton passeport.', 'Est-ce que je dois apporter quelque chose ?'],
-    prendre: ['Je prends le bus pour aller au centre.', 'Il ne prend pas de sucre dans son café.', 'Quel train est-ce que vous prenez ?']
+    être: ['Nous sommes appelés à aimer notre prochain.', 'Je ne suis pas seul dans les jours difficiles.', 'Sommes-nous prêts à servir avec joie ?'],
+    avoir: ['J’ai de l’espoir pour demain.', 'Je n’ai pas besoin de tout comprendre pour avancer.', 'Avez-vous un cœur reconnaissant aujourd’hui ?'],
+    faire: ['Nous faisons le bien sans attendre les applaudissements.', 'Je ne fais pas la paix avec la rancune.', 'Que faisons-nous pour aider notre voisin ?'],
+    dire: ['Je dis la vérité avec amour.', 'Je ne dis pas des mots qui blessent.', 'Que disons-nous quand quelqu’un a besoin d’encouragement ?'],
+    aller: ['Nous allons en paix quand nous faisons confiance à Dieu.', 'Je ne vais pas laisser la peur décider à ma place.', 'Où allons-nous pour apporter de l’espérance ?'],
+    voir: ['Je vois la grâce dans les petits gestes.', 'Nous ne voyons pas toujours le chemin entier.', 'Voyez-vous une occasion de servir aujourd’hui ?'],
+    savoir: ['Je sais que la fidélité compte dans les petites choses.', 'Je ne sais pas tout, mais je peux continuer à apprendre.', 'Savez-vous écouter avant de répondre ?'],
+    pouvoir: ['Nous pouvons persévérer quand nos forces sont renouvelées.', 'Je ne peux pas tout contrôler, et c’est une bonne nouvelle.', 'Peut-on choisir la patience aujourd’hui ?'],
+    vouloir: ['Je veux aimer avec des actes, pas seulement avec des mots.', 'Nous ne voulons pas oublier ceux qui souffrent.', 'Que voulez-vous semer autour de vous ?'],
+    venir: ['Je viens avec un cœur disposé à aider.', 'Elle ne vient pas pour juger, mais pour soutenir.', 'Venez-vous partager un peu d’espérance ?'],
+    devoir: ['Je dois prendre soin de ce qui m’a été confié.', 'Tu ne dois pas confondre la hâte avec la sagesse.', 'Devons-nous nous arrêter pour remercier ?'],
+    prendre: ['Je prends le temps d’écouter avant de répondre.', 'Il ne prend pas la gentillesse pour une faiblesse.', 'Quelle décision prenez-vous avec foi ?']
   };
   // The wider catalogue is generated from conjugated forms. Rotate the
   // grammatical person in its three card examples so learners see the
@@ -1126,9 +1126,9 @@
     const negative=FR_EXAMPLE_PERSONS[(index+2)%FR_EXAMPLE_PERSONS.length];
     const interrogative=FR_EXAMPLE_PERSONS[(index+4)%FR_EXAMPLE_PERSONS.length];
     return {
-      affirmative:frenchCardSentence(affirmative,present[affirmative.index]),
-      negative:frenchCardSentence(negative,present[negative.index],true),
-      interrogative:frenchCardSentence(interrogative,present[interrogative.index],false,true)
+      affirmative:`${frenchCardSentence(affirmative,present[affirmative.index])} La bonté se voit dans les gestes simples.`,
+      negative:`${frenchCardSentence(negative,present[negative.index],true)} Nous ne sommes pas seuls sur le chemin.`,
+      interrogative:`${frenchCardSentence(interrogative,present[interrogative.index],false,true)} Comment pouvons-nous servir avec amour ?`
     };
   }
   // Corrected here explicitly to keep the ranked list readable above.
@@ -1431,12 +1431,76 @@
       pronunciation:FR_IPA[inf]||'',audioText:inf,examples:curatedExamples?{affirmative:curatedExamples[0],negative:curatedExamples[1],interrogative:curatedExamples[2]}:buildFrenchCardExamples(present,index),
       commonCollocations:[],synonyms:[],antonyms:[],notes:`${group===1?'1er':group===2?'2e':'3e'} groupe · #${index+1} par fréquence d’usage.`};
   }
+
+  // Contextual Spanish examples replace the old mechanically generated
+  // “Yo verbo hoy”, which produced incorrect sentences such as “Yo soy hoy”.
+  // Each context is deliberately short, natural and reusable across the
+  // affirmative, negative and question forms shown on the verb card.
+  const ES_EXAMPLE_CONTEXTS = {
+    tener:'tiempo para terminarlo',hacer:'la compra al salir del trabajo',poder:'resolverlo hoy',decir:'la verdad',ir:'a la biblioteca después de clase',ver:'el mensaje esta tarde',dar:'una respuesta clara',
+    saber:'cómo llegar al museo',querer:'reservar una mesa',llegar:'a tiempo a la reunión',pasar:'la tarde con mi familia',deber:'enviar el formulario hoy',poner:'las llaves sobre la mesa',parecer:'cansado después del viaje',quedar:'con mis amigos el sábado',creer:'que la propuesta funcionará',hablar:'con la profesora después de clase',llevar:'el portátil a la oficina',dejar:'el abrigo en la entrada',seguir:'las instrucciones con atención',encontrar:'mi cuaderno en la mochila',llamar:'a mi madre por la noche',venir:'al curso en autobús',pensar:'en una solución viable',salir:'temprano de casa',volver:'a casa antes de cenar',tomar:'el tren de las ocho',conocer:'bien este barrio',vivir:'cerca del parque',sentir:'más confianza al hablar',tratar:'de explicar la idea con claridad',mirar:'el mapa antes de salir',contar:'la historia completa',empezar:'la tarea después de comer',esperar:'el autobús en la esquina',buscar:'una respuesta fiable',existir:'por una razón concreta',entrar:'por la puerta principal',trabajar:'desde casa los viernes',escribir:'un correo breve',perder:'el recibo con facilidad',producir:'un informe cada semana',entender:'la explicación ahora',pedir:'una cita para mañana',recibir:'noticias de mi familia',recordar:'el nombre de la calle',terminar:'el proyecto esta semana',permitir:'el acceso a los estudiantes',aparecer:'en la pantalla principal',conseguir:'una plaza en el curso',comenzar:'la reunión a las nueve',servir:'el desayuno a las ocho',sacar:'una foto del paisaje',necesitar:'más información',mantener:'la calma en situaciones difíciles',leer:'las instrucciones antes de empezar',caer:'con frecuencia en ese error',cambiar:'de opinión cuando hay pruebas',presentar:'el proyecto al equipo',crear:'una solución útil',abrir:'la ventana para ventilar',considerar:'todas las alternativas',oír:'la música desde aquí',acabar:'el informe antes del plazo',convertir:'una idea en un plan',ganar:'experiencia con cada proyecto',formar:'parte del equipo',traer:'los documentos mañana',partir:'de viaje el lunes',aceptar:'la propuesta con gusto',realizar:'el trabajo con cuidado',suponer:'que habrá tiempo suficiente',comprender:'la diferencia ahora',lograr:'un buen resultado',explicar:'el proceso paso a paso',preguntar:'por el horario',tocar:'la guitarra los fines de semana',reconocer:'mi error sin problema',estudiar:'una hora cada tarde',alcanzar:'la meta prevista',dirigir:'la reunión con calma',correr:'por el parque al amanecer',utilizar:'la aplicación para organizarme',pagar:'con tarjeta',ayudar:'a mis compañeros',jugar:'al ajedrez los domingos',escuchar:'el pódcast en el tren',cumplir:'mis compromisos',ofrecer:'mi ayuda cuando hace falta',descubrir:'algo nuevo cada día',levantar:'la mano para participar',intentar:'mejorar mi pronunciación',
+    desarrollar:'una idea con ejemplos',mejorar:'con práctica constante',incluir:'los datos relevantes',continuar:'con el ejercicio',compartir:'el archivo con el grupo',aprender:'algo nuevo cada semana',enseñar:'el proceso con paciencia',construir:'un plan realista',enviar:'el mensaje ahora',elegir:'la opción más adecuada',comprar:'fruta en el mercado',vender:'productos locales',dormir:'ocho horas cuando puedo',comer:'algo ligero al mediodía',beber:'agua durante el día',caminar:'hasta la estación',conducir:'con prudencia',viajar:'en tren cuando tengo tiempo',cocinar:'para mi familia',limpiar:'mi espacio de trabajo'
+  };
+  const ES_SPECIAL_EXAMPLES = {
+    ser:['Soy responsable del proyecto.', 'No soy la persona indicada.', '¿Soy responsable de esta tarea?'],
+    haber:['He terminado el informe.', 'No he recibido la confirmación.', '¿He enviado el documento correcto?'],
+    estar:['Estoy en la biblioteca.', 'No estoy disponible esta tarde.', '¿Estoy en la sala correcta?'],
+    gustar:['Me gusta aprender con ejemplos reales.', 'No me gusta llegar tarde.', '¿Me gusta esta canción?'],
+    ocurrir:['Me ocurre a veces cuando estoy cansado.', 'No me ocurre con frecuencia.', '¿Me ocurre solo a mí?'],
+    resultar:['Me resulta útil este método.', 'No me resulta difícil seguirlo.', '¿Me resulta clara la explicación?'],
+    morir:['La planta muere sin agua.', 'La planta no muere con cuidado.', '¿Muere la planta sin luz?'],
+    nacer:['Nací en República Dominicana.', 'No nací en esta ciudad.', '¿Nací aquí o en otra provincia?']
+  };
+  // The highest-frequency verbs also carry short, practical truths: students
+  // practise a real conjugation while meeting an idea worth remembering.
+  // Several are concise biblical paraphrases (not long quotations), so they
+  // remain readable learning examples for the verb cards.
+  const ES_PRACTICAL_TRUTHS = {
+    ser:['Somos creados con dignidad y propósito.', 'No somos robots; incluso los lunes merecen paciencia.', '¿Somos coherentes con lo que decimos?'],
+    haber:['Hay esperanza nueva cada mañana.', 'No hay atajo mágico; el café, por desgracia, no cuenta.', '¿Hay algo que puedas mejorar hoy?'],
+    estar:['Estamos acompañados incluso en los días difíciles.', 'No estamos organizados todo el tiempo, aunque la agenda finja lo contrario.', '¿Estamos cuidando lo que importa?'],
+    tener:['Tenemos un propósito que va más allá de la prisa.', 'No tenemos que saberlo todo para empezar; qué alivio.', '¿Tenemos claro nuestro siguiente paso?'],
+    hacer:['Hacemos el bien aunque nadie esté mirando.', 'No hacemos grandes cosas sin empezar por una, incluso si es lunes.', '¿Hacemos espacio para lo importante?'],
+    poder:['Podemos perseverar cuando recibimos nuevas fuerzas.', 'No podemos controlar todo; ya bastante trabajo da la bandeja de entrada.', '¿Podemos dar un paso más hoy?'],
+    decir:['Decimos la verdad con amor.', 'No decimos todo con palabras; a veces el silencio entrega el informe.', '¿Decimos gracias con suficiente frecuencia?'],
+    ir:['Vamos en paz cuando confiamos en el camino correcto.', 'No vamos a encontrar el camino si seguimos discutiendo con el GPS.', '¿Vamos hacia la vida que queremos construir?'],
+    ver:['Vemos la gracia cuando servimos a los demás.', 'No vemos el mundo igual después de aprender; tampoco el correo sin abrir.', '¿Vemos una oportunidad donde antes había un obstáculo?'],
+    dar:['Damos con alegría y sin esperar recompensa.', 'No damos lo mejor por obligación; tampoco por una reunión sin agenda.', '¿Damos tiempo a quienes más queremos?'],
+    saber:['Sabemos más cuando reconocemos lo que ignoramos.', 'No sabemos cuánto podemos lograr hasta intentarlo.', '¿Sabemos escuchar antes de responder?'],
+    querer:['Queremos al prójimo como deseamos ser tratados.', 'No queremos crecer sin aceptar el esfuerzo; sería un excelente atajo.', '¿Queremos convertir esta idea en una acción?'],
+    llegar:['Llegamos más lejos con paciencia y disciplina.', 'No llegamos tarde a nuestra propia vida.', '¿Llegamos a tiempo para lo que importa?'],
+    deber:['Debemos cuidar lo que no se puede reemplazar.', 'No debemos confundir prisa con progreso; el calendario ya lo intenta.', '¿Debemos detenernos para pensar mejor?'],
+    hablar:['Hablamos para entendernos, no solo para responder.', 'No hablamos igual cuando escuchamos de verdad.', '¿Hablamos con la misma honestidad que exigimos?'],
+    pensar:['Pensamos mejor cuando dejamos espacio para dudar.', 'No pensamos con claridad cuando decidimos desde el miedo.', '¿Pensamos en las consecuencias de nuestras decisiones?'],
+    vivir:['Vivimos mejor cuando compartimos lo que aprendemos.', 'No vivimos plenamente si olvidamos cuidar a los demás.', '¿Vivimos de acuerdo con nuestros valores?'],
+    aprender:['Aprendemos cuando convertimos la curiosidad en hábito.', 'No aprendemos de verdad si tememos equivocarnos; el error ya tomó asistencia.', '¿Aprendemos algo que nos acerque a nuestros objetivos?']
+  };
+  function buildSpanishCardExamples(inf, present) {
+    if (ES_PRACTICAL_TRUTHS[inf]) {
+      const [affirmative, negative, interrogative] = ES_PRACTICAL_TRUTHS[inf];
+      return { affirmative, negative, interrogative };
+    }
+    if (ES_SPECIAL_EXAMPLES[inf]) {
+      const [affirmative, negative, interrogative] = ES_SPECIAL_EXAMPLES[inf];
+      return {
+        affirmative: `${affirmative} La bondad se muestra en los detalles.`,
+        negative: `${negative} No caminamos solos.`,
+        interrogative: `${interrogative} ¿Cómo podemos servir con amor?`
+      };
+    }
+    const context = ES_EXAMPLE_CONTEXTS[inf] || 'con atención';
+    return {
+      affirmative: `Yo ${present[0]} ${context}. La bondad se muestra en los detalles.`,
+      negative: `Yo no ${present[0]} ${context}. No caminamos solos.`,
+      interrogative: `¿${present[0].charAt(0).toUpperCase()}${present[0].slice(1)} ${context}? ¿Cómo podemos servir con amor?`
+    };
+  }
   function buildSpanish([inf,en,fr],index){
     const forms=engines.spanish.principalForms(inf),present=spanishPresent(inf),ending=inf.slice(-2);
     const group=ending==='ar'?'verbos en -ar':ending==='er'?'verbos en -er':'verbos en -ir';
     return{id:`verb-spanish-${inf}`,language:'spanish',rank:index+1,infinitive:inf,regular:!ES_PRESENT[inf]&&!ES_PRET[inf],group,level:level(index+1),forms,
       translation:{english:en,french:fr,spanish:`Definición: ${en}.`},directDefinition:{spanish:`Verbo frecuente que significa « ${en} » en inglés.`,english:`A frequent Spanish verb meaning “${en}”.`},
-      pronunciation:'',audioText:inf,examples:{affirmative:`Yo ${present[0]} hoy.`,negative:`Yo no ${present[0]} hoy.`,interrogative:`¿Yo ${present[0]} hoy?`},
+      pronunciation:'',audioText:inf,examples:buildSpanishCardExamples(inf,present),
       commonCollocations:[],synonyms:[],antonyms:[],notes:`Pertenece al grupo de ${group}.`};
   }
   window.ANDERGO_VERBS_DATA=window.ANDERGO_VERBS_DATA||{};

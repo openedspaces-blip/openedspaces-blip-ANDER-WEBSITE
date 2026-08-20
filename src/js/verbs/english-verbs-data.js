@@ -220,5 +220,41 @@
     collocations: [], synonyms: [], antonyms: [], notes: '', tags: []
   }));
 
+  // Short Christian paraphrases for the most common verbs: these remain
+  // practical language examples, not long quotations.
+  const CHRISTIAN_EXAMPLES = {
+    be: ['We are called to love our neighbours.', 'I am not alone on difficult days.', 'Are we ready to serve with joy?'],
+    have: ['I have hope for tomorrow.', 'I do not have to understand everything to move forward.', 'Do you have a thankful heart today?'],
+    do: ['We do good without needing applause.', "We don't let fear make every decision.", 'Do we make time to help someone today?'],
+    say: ['We speak the truth with love.', "We don't use words to wound people.", 'Do we say thank you often enough?'],
+    go: ['We go in peace when we trust God.', "We don't have to walk the whole road alone.", 'Do we go where we can bring hope?'],
+    see: ['We see grace in small acts of kindness.', "We don't always see the whole path.", 'Do you see a chance to serve today?'],
+    know: ['We know that faithfulness matters in small things.', "We don't know everything, and we can still learn.", 'Do we know how to listen before we answer?'],
+    think: ['We think carefully before we judge others.', "We don't let worry become our only voice.", 'Do we think about what truly matters?'],
+    love: ['We love through actions, not only words.', "We don't love only when it is easy.", 'Do we love our neighbours as ourselves?'],
+    hope: ['We hope because each morning brings new mercy.', "We don't lose hope when the answer takes time.", 'Do we hope with patience and courage?']
+  };
+  RAW.forEach((entry) => {
+    if (CHRISTIAN_EXAMPLES[entry.infinitive]) entry.ex = CHRISTIAN_EXAMPLES[entry.infinitive];
+  });
+  const CHRISTIAN_REFLECTIONS_BY_CATEGORY = {
+    state: ['God is faithful in every season.', 'Fear does not have the final word.', 'Where can we bring peace today?'],
+    action: ['Love becomes visible through faithful actions.', 'We do not have to hurry to do what is right.', 'How can this action serve someone else?'],
+    communication: ['Words can carry truth, grace, and courage.', 'We do not use language to tear people down.', 'Can our words bring peace today?'],
+    movement: ['Each faithful step can lead us toward hope.', 'We do not walk the road alone.', 'Where can we bring hope today?'],
+    cognition: ['Wisdom begins with humility and listening.', 'We do not need every answer before we act with love.', 'What can we learn before we respond?'],
+    emotion: ['Love grows through patience and faithful care.', 'We do not let difficult feelings define our whole story.', 'Can compassion guide our next step?'],
+    social: ['Serving others is one way to share grace.', 'We do not have to carry every burden alone.', 'How can we strengthen someone today?'],
+    possession: ['What we receive can become a blessing when we share it.', 'We do not measure life only by what we own.', 'What can we offer with gratitude today?'],
+    time: ['Patience gives room for good things to grow.', 'We do not lose hope when the answer takes time.', 'Can we wait with trust today?'],
+    creation: ['Good work can become an act of service.', 'We do not create only for applause.', 'What can we build to bless others?'],
+    general: ['Faithfulness in small things matters.', 'We do not have to be perfect to do good.', 'What is one loving step we can take today?']
+  };
+  RAW.forEach((entry) => {
+    if (CHRISTIAN_EXAMPLES[entry.infinitive]) return;
+    const reflections = CHRISTIAN_REFLECTIONS_BY_CATEGORY[entry.category] || CHRISTIAN_REFLECTIONS_BY_CATEGORY.general;
+    entry.ex = entry.ex.map((example, index) => `${example} ${reflections[index]}`);
+  });
+
   window.ANDERGO_VERBS_DATA.english = RAW.map(verb);
 })();
