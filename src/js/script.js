@@ -21524,7 +21524,7 @@ const INFOGRAPHIC_EXTRA_PARTS = {
   'city-map': [['Bus', 26, 84]],
   family: [['Sofa', 14, 70], ['Photo', 82, 14]],
   'body-front': [
-    ['Ear', 60, 16],
+    ['Ear', 44, 16],
     ['Neck', 50, 20],
     ['Stomach', 50, 43]
   ],
