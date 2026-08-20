@@ -1424,10 +1424,10 @@
   function buildFrench([inf,en,es,group],index){
     const forms=engines.french.principalForms(inf),present=frenchPresent(inf);
     const curatedExamples=FR_CORE_EXAMPLES[inf];
-    const spanishGloss=es||'Verbo francés de uso frecuente';
-    const englishGloss=en||'Common French verb';
+    const spanishGloss=es||'Traducción pendiente';
+    const englishGloss=en||'Translation pending';
     return{id:`verb-french-${inf}`,language:'french',rank:index+1,infinitive:inf,regular:group!==3,group:`${group}${group===1?'er':group===2?'e':'e'} groupe`,level:level(index+1),forms,
-      translation:{spanish:spanishGloss,english:englishGloss},directDefinition:{french:es?`Verbe fréquent qui signifie « ${es} » en espagnol.`:'Verbe français fréquent : ouvre la fiche pour les exemples et la conjugaison.',english:en?`A frequent French verb meaning “${en}”.`:'A frequent French verb: open the detail for examples and conjugation.'},
+      translation:{spanish:spanishGloss,english:englishGloss},directDefinition:{french:es?`Verbe fréquent qui signifie « ${es} » en espagnol.`:'Traduction en attente pour ce verbe français.',english:en?`A frequent French verb meaning “${en}”.`:'A frequent French verb: open the detail for examples and conjugation.'},
       pronunciation:FR_IPA[inf]||'',audioText:inf,examples:curatedExamples?{affirmative:curatedExamples[0],negative:curatedExamples[1],interrogative:curatedExamples[2]}:buildFrenchCardExamples(present,index),
       commonCollocations:[],synonyms:[],antonyms:[],notes:`${group===1?'1er':group===2?'2e':'3e'} groupe · #${index+1} par fréquence d’usage.`};
   }
