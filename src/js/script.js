@@ -21953,7 +21953,6 @@ const infographicState = {
 
 
 function renderInfographicHotspot(name, x, y, index, answer, sceneId, label = name) {
-    return `<g class="info-hotspot info-hotspot--leader${isDense ? ' is-dense' : ''}${answer ? ' is-filled' : ''}${isCorrect ? ' is-correct' : ''}" data-info-slot="${index}" data-info-point-label="${escapeHtml(label)}" tabindex="0" role="button" aria-label="Point ${index + 1}: ${answer || 'empty'}"`;
   const isCorrect = answer === name;
   const isDense = ['solar-system', 'tree'].includes(sceneId);
   const radius = isDense ? 8 : 10;
