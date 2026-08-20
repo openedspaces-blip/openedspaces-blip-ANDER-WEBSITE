@@ -16747,28 +16747,28 @@ function getVocabularyExampleFallbacks(word, seed, language) {
   const quotedWord = `“${cleanWord}”`;
   const contextualTemplates = {
     english: [
-      `Every new word, including ${quotedWord}, brings me closer to speaking with confidence.`,
-      `I repeat ${quotedWord} patiently; steady practice opens new doors.`
+      `In today’s conversation, I use ${quotedWord} to share an idea with confidence.`,
+      `I write ${quotedWord} in my notebook and use it again tomorrow; each step strengthens my voice.`
     ],
     french: [
-      `Chaque mot nouveau, comme ${quotedWord}, me rapproche d’une expression plus assurée.`,
-      `Je répète ${quotedWord} avec patience : la pratique ouvre de nouvelles portes.`
+      `Dans la conversation d’aujourd’hui, j’utilise ${quotedWord} pour exprimer une idée avec assurance.`,
+      `J’écris ${quotedWord} dans mon cahier et je le réutilise demain : chaque pas renforce ma voix.`
     ],
     spanish: [
-      `Cada palabra nueva, como ${quotedWord}, me acerca a expresarme con confianza.`,
-      `Repito ${quotedWord} con paciencia: la práctica constante abre nuevas puertas.`
+      `En la conversación de hoy, uso ${quotedWord} para expresar una idea con confianza.`,
+      `Anoto ${quotedWord} en mi cuaderno y la uso mañana: cada paso fortalece mi voz.`
     ],
     italian: [
-      `Ogni parola nuova, come ${quotedWord}, mi avvicina a parlare con fiducia.`,
-      `Ripeto ${quotedWord} con pazienza: la pratica costante apre nuove porte.`
+      `Nella conversazione di oggi uso ${quotedWord} per esprimere un’idea con fiducia.`,
+      `Scrivo ${quotedWord} nel mio quaderno e la riuso domani: ogni passo rafforza la mia voce.`
     ],
     portuguese: [
-      `Cada palavra nova, como ${quotedWord}, me aproxima de falar com confiança.`,
-      `Repito ${quotedWord} com paciência: a prática constante abre novas portas.`
+      `Na conversa de hoje, uso ${quotedWord} para expressar uma ideia com confiança.`,
+      `Escrevo ${quotedWord} no meu caderno e a uso amanhã: cada passo fortalece a minha voz.`
     ],
     german: [
-      `Jedes neue Wort, auch ${quotedWord}, bringt mich dem selbstbewussten Sprechen näher.`,
-      `Ich wiederhole ${quotedWord} geduldig; regelmäßiges Üben öffnet neue Türen.`
+      `Im heutigen Gespräch benutze ich ${quotedWord}, um selbstbewusst eine Idee auszudrücken.`,
+      `Ich schreibe ${quotedWord} in mein Heft und benutze es morgen wieder; jeder Schritt stärkt meine Stimme.`
     ]
   };
   return contextualTemplates[language] || contextualTemplates.english;
