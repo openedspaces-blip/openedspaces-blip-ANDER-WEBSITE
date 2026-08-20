@@ -17036,7 +17036,7 @@ function renderVocabCardHtml(item, { canSpeak, isFrench, showL1Translation = fal
   const isUsefulExpression = item.category === 'expression' || /\s/.test(String(item.targetWord || '').trim());
 
   return `
-    <div class="vocab-card vocab-card--static${isUsefulExpression ? ' vocab-card--expression' : ''}" data-index="${item._displayIndex}" data-card-id="${escapeHtml(item.id)}" data-vocab-word="${escapeHtml(`${item.targetWord} ${item.translation || ''} ${item.phonetic || ''}`.toLocaleLowerCase())}" data-vocab-category="${escapeHtml(item.category || '')}" data-mastery="${escapeHtml(item.masteryStatus)}" data-learning-mode="${escapeHtml(item.learningMode)}" data-static="true" data-is-french="${isFrench}" data-speak-text="${escapeHtml(item.audioText)}" data-speak-locale="${escapeHtml(item.pronunciationLocale)}" data-speak-rate="${item.pronunciationRate}" aria-label="${escapeHtml(item.targetWord)}">
+    <div class="vocab-card vocab-card--static${isUsefulExpression ? ' vocab-card--expression' : ''}" data-index="${item._displayIndex}" data-card-id="${escapeHtml(item.id)}" data-vocab-word="${escapeHtml(`${item.targetWord} ${item.translation || ''} ${item.phonetic || ''}`.toLocaleLowerCase())}" data-vocab-category="${escapeHtml(item.category || '')}" data-vocab-level="${escapeHtml(item.level || learningPathState.level || '')}" data-mastery="${escapeHtml(item.masteryStatus)}" data-learning-mode="${escapeHtml(item.learningMode)}" data-static="true" data-is-french="${isFrench}" data-speak-text="${escapeHtml(item.audioText)}" data-speak-locale="${escapeHtml(item.pronunciationLocale)}" data-speak-rate="${item.pronunciationRate}" aria-label="${escapeHtml(item.targetWord)}">
       <div class="vocab-card-inner">
         <div class="vocab-card-face vocab-card-front">
           <span class="vocab-card-compact-icon" aria-hidden="true">${escapeHtml(compactIconText || '•')}</span>
@@ -17452,7 +17452,13 @@ function collectAllGrammarTestAnswers(content, test, runtime) {
 }
 
 function getUsefulVocabularyExpressions(lesson, cards) {
-  const authored = (lesson.phrases || [])
+  const unitKey = lesson.unitId || lesson.unitSlug || lesson.slug;
+  const relatedLessons = (learningPathState.lessons || []).filter(
+    (candidate) => (candidate.unitId || candidate.unitSlug || candidate.slug) === unitKey
+  );
+  const unitLessons = relatedLessons.length ? relatedLessons : [lesson];
+  const authored = unitLessons
+    .flatMap((candidate) => candidate.phrases || [])
     .map((phrase) =>
       typeof phrase === 'string'
         ? { text: phrase, explanation: '' }
@@ -17483,6 +17489,75 @@ function getUsefulVocabularyExpressions(lesson, cards) {
       return true;
     })
     .slice(0, 6);
+}
+
+const VOCABULARY_MINIMUM_PER_UNIT = 30;
+const VOCABULARY_STOP_WORDS = new Set(
+  'the and for with from this that have has are was were you your our their into about after before every each they them then than when where which who what will would should could been being through while como para por con una uno las los del que en es son fue ser se su sus esta este estas estos al ya muy más menos entre sobre desde hacia pero porque cuando donde quien cual qué como how le la les des une un du de et est sont dans sur pour avec que qui au aux ce ces son sa ses nous vous ils elles mais ou il elle und oder aber der die das den dem ein eine einen einer eines ist sind war waren ich du wir ihr nicht noch auch im in zu vom von mit für auf aus bei als sich es man mein deine seine unsere eure italiano il lo gli della delle dei una uno non che per con del nel nella sui portugiesisch português não uma um os as dos das no na em para com como'.split(
+    /\s+/
+  )
+);
+
+function getVocabularyUnitLessons(lesson) {
+  const unitKey = lesson.unitId || lesson.unitSlug || lesson.slug;
+  const matches = (learningPathState.lessons || []).filter(
+    (candidate) => (candidate.unitId || candidate.unitSlug || candidate.slug) === unitKey
+  );
+  return matches.length ? matches : [lesson];
+}
+
+function getUnitVocabularyCorpus(lessons) {
+  return lessons
+    .flatMap((candidate) => [
+      candidate.reading?.text,
+      ...(candidate.reading?.parts || []),
+      candidate.transcript,
+      candidate.description,
+      candidate.intro,
+      candidate.mission,
+      candidate.grammar,
+      ...(candidate.dialogue || []).map((line) => line?.line || line?.text || ''),
+      ...(candidate.phrases || []).map((phrase) =>
+        typeof phrase === 'string' ? phrase : phrase?.text || phrase?.expression || ''
+      )
+    ])
+    .filter(Boolean)
+    .join(' ');
+}
+
+function buildVocabularyUnitBank(lesson) {
+  const lessons = getVocabularyUnitLessons(lesson);
+  const seen = new Set();
+  const bank = [];
+  const add = (item) => {
+    const word = String(item?.word || item?.targetWord || '').trim();
+    const key = word.toLocaleLowerCase();
+    if (!word || seen.has(key)) return;
+    seen.add(key);
+    bank.push(item);
+  };
+
+  // The catalogue quota represents *words*. Useful expressions are rendered
+  // separately below, so a sentence never consumes one of the 30 slots.
+  lessons.forEach((candidate) => (candidate.vocabulary || []).forEach(add));
+
+  const corpus = getUnitVocabularyCorpus(lessons);
+  const sentences = corpus.match(/[^.!?]+[.!?]?/g) || [corpus];
+  const candidates = corpus.match(/[\p{L}][\p{L}'’-]{2,}/gu) || [];
+  candidates.forEach((word) => {
+    if (bank.length >= VOCABULARY_MINIMUM_PER_UNIT) return;
+    const key = word.toLocaleLowerCase();
+    if (VOCABULARY_STOP_WORDS.has(key) || seen.has(key)) return;
+    const example = sentences.find((sentence) => sentence.toLocaleLowerCase().includes(key))?.trim() || '';
+    add({
+      word,
+      translation: '',
+      example,
+      category: 'Vocabulario en contexto',
+      source: 'unit-context'
+    });
+  });
+  return bank.slice(0, VOCABULARY_MINIMUM_PER_UNIT);
 }
 
 function renderUsefulVocabularyExpressionsHtml(lesson, cards) {
@@ -17621,7 +17696,7 @@ function renderVocabularyView(section, lesson) {
   const catalogueContextLabel = isRouteVocabulary
     ? 'Vocabulario de la unidad'
     : 'Vocabulario de la lección';
-  const unitBank = (lesson.vocabulary || [])
+  const unitBank = buildVocabularyUnitBank(lesson)
     .map((raw, index) =>
       normalizeVocabularyItem(raw, {
         language: learningPathState.language,

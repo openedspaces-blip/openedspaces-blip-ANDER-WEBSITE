@@ -30311,18 +30311,18 @@ body {
   cursor: default;
 }
 
-/* C1/C2 vocabulary is frequently longer. Larger cards prevent words and
-   expressions from being cut off while preserving the catalogue rhythm. */
+/* C1/C2 vocabulary is frequently longer. A modest extra height, combined
+   with denser type below, keeps the catalogue compact and readable. */
 .skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card[data-vocab-level='C1'],
 .skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card[data-vocab-level='C2'] {
-  height: 218px;
-  min-height: 218px;
+  height: 196px;
+  min-height: 196px;
 }
 
-/* C2 adds a full bridge-language translation beneath the French expression. */
+/* C2 can add a full bridge-language translation beneath an expression. */
 .skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card[data-vocab-level='C2'] {
-  height: 244px;
-  min-height: 244px;
+  height: 204px;
+  min-height: 204px;
 }
 
 .skill-view-section[data-skill='vocabulary']
@@ -30506,8 +30506,8 @@ body {
 
 .skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card[data-vocab-level='C1'].is-flipped,
 .skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card[data-vocab-level='C2'].is-flipped {
-  height: 244px;
-  min-height: 244px;
+  height: 204px;
+  min-height: 204px;
 }
 
 .skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card-target-row {
@@ -30547,6 +30547,40 @@ body {
   height: 1.75rem;
   flex-basis: 1.75rem;
   font-size: 0.76rem;
+}
+
+/* Advanced vocabulary is denser by nature. Keep C1/C2 cards readable
+   without letting long definitions or examples force oversized rows. */
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card[data-vocab-level='C1'] .vocab-card-target,
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card[data-vocab-level='C2'] .vocab-card-target {
+  font-size: 0.98rem;
+  line-height: 1.12;
+}
+
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card[data-vocab-level='C1'] .vocab-card-front-support,
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card[data-vocab-level='C2'] .vocab-card-front-support {
+  font-size: 0.68rem;
+  line-height: 1.14;
+}
+
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card[data-vocab-level='C1'] .vocab-card-phonetic,
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card[data-vocab-level='C2'] .vocab-card-phonetic {
+  font-size: 0.62rem;
+}
+
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card[data-vocab-level='C1'] .vocab-card-catalogue-definition,
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card[data-vocab-level='C2'] .vocab-card-catalogue-definition,
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card[data-vocab-level='C1'] .vocab-card-catalogue-examples li,
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card[data-vocab-level='C2'] .vocab-card-catalogue-examples li {
+  font-size: 0.56rem;
+  line-height: 1.14;
+}
+
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card[data-vocab-level='C1'] .vocab-card-catalogue-examples li > span,
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card[data-vocab-level='C2'] .vocab-card-catalogue-examples li > span {
+  width: 0.9rem;
+  height: 0.9rem;
+  font-size: 0.48rem;
 }
 
 @media (max-width: 1180px) {
