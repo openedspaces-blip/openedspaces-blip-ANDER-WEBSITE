@@ -5804,6 +5804,7 @@ async function loadTeacherCurriculumPanel() {
 }
 
 const UNIT_LEARNING_SEQUENCE = [
+  'introduction',
   'vocabulary',
   'reading',
   'listening',
@@ -5811,7 +5812,7 @@ const UNIT_LEARNING_SEQUENCE = [
   'writing',
   'grammar'
 ];
-const UNIT_ROUTE_SKILLS = new Set(UNIT_LEARNING_SEQUENCE);
+const UNIT_ROUTE_SKILLS = new Set(UNIT_LEARNING_SEQUENCE.filter((skill) => skill !== 'introduction'));
 
 function unitSkillOrder(skill) {
   const index = UNIT_LEARNING_SEQUENCE.indexOf(String(skill || '').toLowerCase());
@@ -5893,9 +5894,13 @@ function renderUnitSequenceStepsHtml(unitId, currentSkill = '') {
     vocabulary: 'Explorar'
   };
   const activities = getUnitActivities(unitId);
+  const vocabularyLesson = activities.find((lesson) => lesson.skill === 'vocabulary');
+  const routeActivities = vocabularyLesson
+    ? [{ ...vocabularyLesson, skill: 'introduction', completed: false }, ...activities]
+    : activities;
   const recommendedLesson =
-    activities.find((lesson) => !lesson.completed && !lesson.locked) || activities[0] || null;
-  const steps = activities
+    routeActivities.find((lesson) => !lesson.completed && !lesson.locked) || routeActivities[0] || null;
+  const steps = routeActivities
     .map((lesson, index) => {
       const isCurrent = lesson.skill === currentSkill;
       const isRecommended = !currentSkill && lesson.slug === recommendedLesson?.slug;
@@ -5932,7 +5937,7 @@ function renderUnitSequenceStepsHtml(unitId, currentSkill = '') {
       `;
     })
     .join('');
-  const verbsNumber = activities.length + 1;
+  const verbsNumber = routeActivities.length + 1;
   const verbProgress = learningPathState.verbProgressByUnit[unitId];
   const verbState =
     currentSkill === 'verbs'
@@ -5981,6 +5986,13 @@ function openUnitSequenceStep(skill, lessonSlug = '') {
     renderSkillView('speaking');
     return;
   }
+  if (skill === 'introduction' && lessonSlug) {
+    setActiveLesson(lessonSlug);
+    updateLearnHash('introduction');
+    showView('introduction');
+    renderSkillView('introduction');
+    return;
+  }
   if (!SKILL_VIEWS.includes(skill) || !lessonSlug) return;
   const targetLesson = learningPathState.lessons.find((item) => item.slug === lessonSlug);
   if (targetLesson?.locked) {
@@ -5999,6 +6011,7 @@ function openUnitSequenceStep(skill, lessonSlug = '') {
 // header still described Listening. Keep every route entry point on this
 // shared selection path instead.
 function getCurrentUnitActivityForSkill(skill) {
+  if (skill === 'introduction') skill = 'vocabulary';
   if (!SKILL_VIEWS.includes(skill) || !hasUnits()) return null;
   const activeLesson = learningPathState.lessons.find(
     (lesson) => lesson.slug === learningPathState.activeSlug
@@ -6023,6 +6036,14 @@ function openLearningRouteTab(skill) {
     updateLearnHash('learn');
     showView('learn');
     return;
+  }
+
+  if (skill === 'introduction') {
+    const vocabularyLesson = getCurrentUnitActivityForSkill('vocabulary');
+    if (vocabularyLesson) {
+      openUnitSequenceStep('introduction', vocabularyLesson.slug);
+      return;
+    }
   }
 
   const targetLesson = getCurrentUnitActivityForSkill(skill);
@@ -6384,19 +6405,25 @@ function renderSkillUnitSequence(section, lesson) {
   const content = section.querySelector('.skill-view-content');
   if (!content) return;
   const activities = getUnitActivities(lesson.unitId);
+  const vocabularyLesson = activities.find((item) => item.skill === 'vocabulary');
+  const routeActivities = vocabularyLesson
+    ? [{ ...vocabularyLesson, skill: 'introduction', completed: false }, ...activities]
+    : activities;
   const currentIndex = Math.max(
     0,
-    activities.findIndex((item) => item.slug === lesson.slug)
+    routeActivities.findIndex(
+      (item) => item.slug === lesson.slug && item.skill === lesson.skill
+    )
   );
-  const nextLesson = activities.slice(currentIndex + 1).find((item) => !item.locked) || null;
-  const total = activities.length + 1;
+  const nextLesson = routeActivities.slice(currentIndex + 1).find((item) => !item.locked) || null;
+  const total = routeActivities.length + 1;
   const routeProgress = total > 1 ? Math.round((currentIndex / (total - 1)) * 100) : 0;
   const minutes = getLessonDurationMinutes(lesson);
   const xp = lesson.xpReward ?? lesson.xp_reward ?? 20;
   const verbProgress = learningPathState.verbProgressByUnit[lesson.unitId];
   const markersHtml = [
-    ...activities.map((activity, index) => {
-      const current = activity.slug === lesson.slug;
+    ...routeActivities.map((activity, index) => {
+      const current = activity.slug === lesson.slug && activity.skill === lesson.skill;
       const state = current ? 'current' : activity.completed ? 'completed' : 'available';
       return `
         <button type="button" class="unit-route-marker unit-route-marker--${state}" data-sequence-skill="${escapeHtml(activity.skill)}" data-lesson-slug="${escapeHtml(activity.slug)}" ${current ? 'aria-current="step"' : ''} aria-label="${escapeHtml(`${index + 1}. ${getSkillLabel(activity.skill)}`)}">
@@ -6405,8 +6432,8 @@ function renderSkillUnitSequence(section, lesson) {
         </button>`;
     }),
     `
-      <button type="button" class="unit-route-marker unit-route-marker--${verbProgress?.status === 'completed' ? 'completed' : 'available'}" data-sequence-skill="verbs" aria-label="${activities.length + 1}. Verbos">
-        <span>${verbProgress?.status === 'completed' ? '✓' : activities.length + 1}</span>
+      <button type="button" class="unit-route-marker unit-route-marker--${verbProgress?.status === 'completed' ? 'completed' : 'available'}" data-sequence-skill="verbs" aria-label="${routeActivities.length + 1}. Verbos">
+        <span>${verbProgress?.status === 'completed' ? '✓' : routeActivities.length + 1}</span>
         <small>Verbos</small>
       </button>`
   ].join('');
@@ -10094,6 +10121,7 @@ function renderLearningPath() {
 
 const SKILL_LABELS = {
   learn: 'Ruta',
+  introduction: 'Introduction',
   listening: 'Listening',
   speaking: 'Speaking',
   reading: 'Reading',
@@ -10111,6 +10139,7 @@ const SKILL_LABELS = {
 // language keeps the SKILL_LABELS map above unchanged.
 const SKILL_LABELS_FRENCH = {
   learn: 'Parcours',
+  introduction: 'Introduction',
   listening: 'Compréhension orale',
   speaking: 'Expression orale',
   reading: 'Lecture',
@@ -10123,6 +10152,7 @@ const SKILL_LABELS_FRENCH = {
 
 const SKILL_LABELS_ITALIAN = {
   learn: 'Percorso',
+  introduction: 'Introduzione',
   listening: 'Ascolto',
   speaking: 'Espressione orale',
   reading: 'Lettura',
@@ -10134,6 +10164,7 @@ const SKILL_LABELS_ITALIAN = {
 };
 const SKILL_LABELS_PORTUGUESE = {
   learn: 'Percurso',
+  introduction: 'Introdução',
   listening: 'Compreensão oral',
   speaking: 'Expressão oral',
   reading: 'Leitura',
@@ -10145,6 +10176,7 @@ const SKILL_LABELS_PORTUGUESE = {
 };
 const SKILL_LABELS_GERMAN = {
   learn: 'Lernweg',
+  introduction: 'Einführung',
   listening: 'Hörverstehen',
   speaking: 'Mündlicher Ausdruck',
   reading: 'Lesen',
@@ -10171,12 +10203,25 @@ function getSkillLabel(skill, language = learningPathState.language) {
 // language's course is open. Cheap full-DOM sweep, called on every
 // navigation (showView) and language switch (setTargetLanguage).
 function updateLevelTabLabels() {
+  // Introduction is a supplementary route stop rather than an authored
+  // lesson row. Add its link to the shared tab strips once, keeping the
+  // static HTML for the six existing skill views compact and in sync.
+  document.querySelectorAll('.level-tabs').forEach((tabs) => {
+    if (tabs.querySelector('.level-tab[data-tab="introduction"]')) return;
+    const introductionLink = document.createElement('a');
+    introductionLink.href = '#introduction';
+    introductionLink.className = 'level-tab';
+    introductionLink.dataset.tab = 'introduction';
+    introductionLink.textContent = 'Introduction';
+    const vocabularyLink = tabs.querySelector('.level-tab[data-tab="vocabulary"]');
+    tabs.insertBefore(introductionLink, vocabularyLink || null);
+  });
   const isRouteContext =
     learningPathState.skillEntryContext === 'route' &&
     Boolean(learningPathState.unitId) &&
     learningPathState.lessons.length > 0;
   const routeSkills = isRouteContext
-    ? [...getUnitActivities(learningPathState.unitId).map((lesson) => lesson.skill), 'verbs']
+    ? ['introduction', ...getUnitActivities(learningPathState.unitId).map((lesson) => lesson.skill), 'verbs']
     : [];
   document.querySelectorAll('.level-tab[data-tab]').forEach((link) => {
     // The static first tab is the route overview outside a unit. Inside a
@@ -10190,7 +10235,9 @@ function updateLevelTabLabels() {
     link.textContent = getSkillLabel(targetSkill);
     if (isRouteContext) {
       const targetLesson =
-        targetSkill === 'learn'
+        targetSkill === 'introduction'
+          ? getUnitActivities(learningPathState.unitId).find((lesson) => lesson.skill === 'vocabulary')
+          : targetSkill === 'learn'
           ? getActiveLearningLesson()
           : getUnitActivities(learningPathState.unitId).find(
               (lesson) => lesson.skill === targetSkill
@@ -10456,6 +10503,7 @@ async function applyChangeCombination() {
 }
 
 const SKILL_VIEW_RENDERERS = {
+  introduction: (section, lesson) => renderIntroductionView(section, lesson),
   listening: (section, lesson) => renderListeningView(section, lesson),
   reading: (section, lesson) => renderReadingView(section, lesson),
   writing: (section, lesson) => renderWritingView(section, lesson),
@@ -10629,7 +10677,8 @@ function renderSkillView(skill) {
   }
 
   if (hasUnits()) {
-    const activities = getSkillActivities(skill);
+    const sourceSkill = skill === 'introduction' ? 'vocabulary' : skill;
+    const activities = getSkillActivities(sourceSkill);
     let selected = activities.find((item) => item.slug === learningPathState.activeSlug);
     // A tab change made from inside the learning route should resolve to the
     // matching activity in the same unit. Previously the active slug still
@@ -10671,10 +10720,13 @@ function renderSkillView(skill) {
 
     updateSkillViewBackLink(section, skill, learningPathState.skillEntryContext === 'explore');
     section.classList.toggle('is-route-activity', learningPathState.skillEntryContext === 'route');
-    renderSkillUnitSequence(section, selected);
+    renderSkillUnitSequence(
+      section,
+      skill === 'introduction' ? { ...selected, skill: 'introduction' } : selected
+    );
     SKILL_VIEW_RENDERERS[skill]?.(section, selected);
     compactLearningToolbars(section);
-    renderUnitActivityFooter(section, selected);
+    if (skill !== 'introduction') renderUnitActivityFooter(section, selected);
     return;
   }
 
@@ -11958,6 +12010,87 @@ function renderReadingIllustrationHtml(lesson) {
       <span class="reading-illustration-sprite" role="img" aria-label="${escapeHtml(alt)}" style="--reading-illustration-image:url('${escapeHtml(spriteImage)}');--reading-illustration-position:${spritePosition};">${customImage}</span>
     </figure>
   `;
+}
+
+function getIntroductionEditorial(lesson) {
+  const topic = String(lesson.title || lesson.description || 'este tema').trim();
+  // Vocabulary and Reading are sibling activities in one unit. Borrow the
+  // Reading's authored opening so every introduction starts from the real
+  // story, person, event or dilemma of that lesson instead of a generic
+  // topic label. This preserves the essays themselves while giving the
+  // route a narrative doorway into their most interesting ideas.
+  const relatedReading = learningPathState.lessons.find(
+    (item) => item.unitId === lesson.unitId && item.skill === 'reading'
+  );
+  const sourceParagraphs = relatedReading ? getReadingParagraphs(relatedReading) : [];
+  const storyOpening = String(
+    sourceParagraphs[0] || relatedReading?.description || lesson.description || ''
+  ).trim();
+  const storyDevelopment = String(sourceParagraphs[1] || '').trim();
+  const editorialByLanguage = {
+    spanish: [
+      storyOpening || `Toda conversación importante comienza por comprender bien ${topic}. Antes de elegir una postura, conviene mirar con calma los hechos, las personas implicadas y las consecuencias que pueden quedar fuera de la primera impresión.`,
+      storyDevelopment || 'Esta historia abre una pregunta que merece tiempo: ¿qué decisiones, intereses y consecuencias quedan detrás de lo que vemos a primera vista? La información no solo sirve para saber más; también nos enseña a actuar con mayor responsabilidad.',
+      'La fe cristiana nos recuerda que cada persona tiene dignidad y que la sabiduría se expresa en la verdad, la justicia y el cuidado del prójimo. Informarnos bien no es acumular datos: es aprender a mirar con conciencia y a usar nuestra libertad para el bien común.'
+    ],
+    english: [
+      storyOpening || `Every important conversation begins by understanding ${topic} well. Before taking a position, it helps to look carefully at the facts, the people involved, and the consequences that a first impression can hide.`,
+      storyDevelopment || 'This story opens a question worth taking seriously: what decisions, interests, and consequences sit behind what we first see? Information does more than help us know more; it also teaches us to act responsibly.',
+      'Christian faith reminds us that every person has dignity and that wisdom appears in truth, justice, and care for our neighbour. Learning well is not collecting facts; it is learning to use our freedom for the common good.'
+    ],
+    french: [
+      storyOpening || `Toute conversation importante commence par une bonne compréhension de ${topic}. Avant de prendre position, il faut observer les faits, les personnes concernées et les conséquences qu’une première impression peut dissimuler.`,
+      storyDevelopment || 'Cette histoire ouvre une question qui mérite notre attention : quelles décisions, quels intérêts et quelles conséquences se cachent derrière ce que nous voyons d’abord ? L’information ne sert pas seulement à en savoir davantage ; elle nous apprend aussi à agir avec responsabilité.',
+      'La foi chrétienne nous rappelle que chaque personne possède une dignité et que la sagesse se manifeste dans la vérité, la justice et le soin du prochain. Bien apprendre, ce n’est pas accumuler des faits : c’est employer sa liberté pour le bien commun.'
+    ]
+  };
+  return editorialByLanguage[learningPathState.language] || editorialByLanguage.spanish;
+}
+
+function renderIntroductionIllustrationHtml(lesson) {
+  const { src, alt, theme } = resolveReadingIllustration(lesson);
+  return `
+    <figure class="introduction-editorial-illustration no-print">
+      <span class="introduction-editorial-illustration-art" role="img" aria-label="${escapeHtml(alt)}" style="--reading-illustration-image:url('${escapeHtml(READING_THEME_ATLAS)}');--reading-illustration-position:${theme.position};">
+        ${src ? `<img src="${escapeHtml(src)}" alt="" loading="lazy" onerror="this.remove();">` : ''}
+      </span>
+      <figcaption>Imagen editorial de la lección</figcaption>
+    </figure>`;
+}
+
+function renderIntroductionView(section, lesson) {
+  const content = section.querySelector('.skill-view-content');
+  if (!content || !lesson) return;
+  const paragraphs = getIntroductionEditorial(lesson);
+  const editorialLesson = {
+    ...lesson,
+    slug: `${lesson.slug}-introduction`,
+    reading: { text: paragraphs.join(' ') }
+  };
+  readingSpeechPlayer.attach(editorialLesson, learningPathState.language);
+  const audioPlayerHtml = renderReadingAudioPlayerHtml(readingSpeechPlayer.getSnapshot());
+  const illustrationHtml = renderIntroductionIllustrationHtml(lesson);
+  const targetVocabulary = lesson.slug;
+  content.innerHTML = `
+    <article class="introduction-editorial">
+      <header class="introduction-editorial-header">
+        <p>INTRODUCTION · EDITORIAL</p>
+        <h3>${escapeHtml(lesson.title)}</h3>
+        <strong>Una mirada informada antes de aprender las palabras clave.</strong>
+      </header>
+      <div class="introduction-editorial-audio">${audioPlayerHtml}</div>
+      <div class="introduction-editorial-body">
+        ${illustrationHtml}
+        ${paragraphs.map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join('')}
+      </div>
+      <footer class="introduction-editorial-footer">
+        <span>Escucha, reflexiona y continúa con el vocabulario de esta lección.</span>
+        <button type="button" class="primary-btn introduction-continue-btn" data-vocabulary-slug="${escapeHtml(targetVocabulary)}">Continuar a Vocabulary <span aria-hidden="true">→</span></button>
+      </footer>
+    </article>`;
+  readingSpeechPlayer.setHandlers({
+    onUpdate: (snapshot) => updateReadingPlayerUI(section, snapshot)
+  });
 }
 
 // ---------------------------------------------------------------------
@@ -20692,7 +20825,7 @@ mobileActivityMedia.addEventListener?.('change', () => {
 // content inside #learning-path's small lesson-workspace card) - listed
 // once here since several places (router, card click handler, header
 // renderer) all need to agree on the same set.
-const SKILL_VIEWS = ['listening', 'speaking', 'reading', 'writing', 'grammar', 'vocabulary'];
+const SKILL_VIEWS = ['introduction', 'listening', 'speaking', 'reading', 'writing', 'grammar', 'vocabulary'];
 
 const lessonTestState = {
   language: 'english',
@@ -24097,6 +24230,7 @@ const VIEW_SECTIONS = {
   downloads: ['#downloads'],
   about: ['#about'],
   verbs: ['#verbs'],
+  introduction: ['#introduction'],
   listening: ['#listening'],
   speaking: ['#speaking'],
   reading: ['#reading'],
@@ -24126,6 +24260,7 @@ const VIEW_TITLE_SELECTORS = {
   downloads: '#downloads h2',
   about: '#about h2',
   verbs: '#verbs h2',
+  introduction: '#introduction .level-tab[data-tab="introduction"]',
   listening: '#listening .level-tab[data-tab="listening"]',
   speaking: '#speaking .level-tab[data-tab="speaking"]',
   reading: '#reading .level-tab[data-tab="reading"]',
@@ -24404,6 +24539,13 @@ window.addEventListener('hashchange', () => {
 // leave the hash/tab on one activity while the mission strip still refers to
 // another one.
 document.addEventListener('click', (event) => {
+  const introductionContinue = event.target.closest('.introduction-continue-btn');
+  if (introductionContinue) {
+    event.preventDefault();
+    const vocabularySlug = introductionContinue.dataset.vocabularySlug;
+    if (vocabularySlug) openUnitSequenceStep('vocabulary', vocabularySlug);
+    return;
+  }
   const mainVocabularyLink = event.target.closest('.nav-group-member > a[href="#vocabulary"]');
   if (mainVocabularyLink) {
     event.preventDefault();

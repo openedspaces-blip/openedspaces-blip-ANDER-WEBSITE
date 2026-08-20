@@ -9847,6 +9847,112 @@ footer small {
   line-height: 1.38;
 }
 
+/* Introduction is an editorial companion to the lesson, not another full
+   Reading card. Its artwork behaves like a magazine spot illustration: a
+   compact visual in the upper-left corner, with the article flowing beside
+   and below it instead of becoming a dominant banner. */
+.introduction-editorial {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: clamp(1.35rem, 3.4vw, 3.4rem);
+  border: 1px solid rgba(37, 99, 235, 0.16);
+  border-radius: 28px;
+  background: linear-gradient(135deg, #fff 0%, #fbfdff 68%, #edf8ff 100%);
+  box-shadow: 0 18px 48px rgba(30, 64, 175, 0.08);
+}
+
+.introduction-editorial-header {
+  max-width: 790px;
+  padding-bottom: 1.4rem;
+  border-bottom: 1px solid rgba(37, 99, 235, 0.13);
+}
+
+.introduction-editorial-header p {
+  margin: 0 0 0.65rem;
+  color: var(--blue);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+}
+
+.introduction-editorial-header h3 {
+  margin: 0;
+  color: var(--navy);
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  line-height: 1.06;
+  letter-spacing: -0.045em;
+}
+
+.introduction-editorial-header strong {
+  display: block;
+  margin-top: 0.9rem;
+  color: #526784;
+  font-size: 1.04rem;
+  line-height: 1.55;
+}
+
+.introduction-editorial-audio { margin: 1.35rem 0 1.6rem; }
+.introduction-editorial-audio .reading-audio-player { margin: 0; }
+
+.introduction-editorial-body {
+  color: #24324a;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: clamp(1.08rem, 1.7vw, 1.27rem);
+  line-height: 1.78;
+}
+
+.introduction-editorial-body::after { content: ''; display: block; clear: both; }
+.introduction-editorial-body p { margin: 0 0 1.15rem; }
+
+.introduction-editorial-illustration {
+  float: left;
+  width: min(37%, 270px);
+  margin: 0.2rem 1.45rem 0.7rem 0;
+}
+
+.introduction-editorial-illustration-art {
+  display: block;
+  aspect-ratio: 1 / 0.82;
+  overflow: hidden;
+  border: 1px solid rgba(37, 99, 235, 0.18);
+  border-radius: 18px;
+  background-image: var(--reading-illustration-image);
+  background-position: var(--reading-illustration-position, 0% 0%);
+  background-repeat: no-repeat;
+  background-size: 400% 300%;
+  box-shadow: 0 12px 28px rgba(15, 23, 42, 0.14);
+}
+
+.introduction-editorial-illustration-art img { width: 100%; height: 100%; object-fit: cover; }
+
+.introduction-editorial-illustration figcaption {
+  margin-top: 0.45rem;
+  color: #667893;
+  font-family: Arial, sans-serif;
+  font-size: 0.72rem;
+  line-height: 1.35;
+}
+
+.introduction-editorial-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  clear: both;
+  margin-top: 1.7rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid rgba(37, 99, 235, 0.13);
+  color: #60728f;
+  font-size: 0.92rem;
+}
+
+@media (max-width: 640px) {
+  .introduction-editorial { padding: 1.2rem; border-radius: 20px; }
+  .introduction-editorial-illustration { width: 44%; margin-right: 1rem; }
+  .introduction-editorial-footer { align-items: stretch; flex-direction: column; }
+  .introduction-editorial-footer .primary-btn { width: 100%; }
+}
+
 @media (max-width: 640px) {
   .reading-editorial-prelude {
     padding: 0.75rem;
