@@ -16744,34 +16744,12 @@ function getVocabularyExampleFallbacks(word, seed, language) {
         : null;
   if (curatedContexts) return curatedContexts;
 
-  const quotedWord = `“${cleanWord}”`;
-  const contextualTemplates = {
-    english: [
-      `In today’s conversation, I use ${quotedWord} to share an idea with confidence.`,
-      `I write ${quotedWord} in my notebook and use it again tomorrow; each step strengthens my voice.`
-    ],
-    french: [
-      `Dans la conversation d’aujourd’hui, j’utilise ${quotedWord} pour exprimer une idée avec assurance.`,
-      `J’écris ${quotedWord} dans mon cahier et je le réutilise demain : chaque pas renforce ma voix.`
-    ],
-    spanish: [
-      `En la conversación de hoy, uso ${quotedWord} para expresar una idea con confianza.`,
-      `Anoto ${quotedWord} en mi cuaderno y la uso mañana: cada paso fortalece mi voz.`
-    ],
-    italian: [
-      `Nella conversazione di oggi uso ${quotedWord} per esprimere un’idea con fiducia.`,
-      `Scrivo ${quotedWord} nel mio quaderno e la riuso domani: ogni passo rafforza la mia voce.`
-    ],
-    portuguese: [
-      `Na conversa de hoje, uso ${quotedWord} para expressar uma ideia com confiança.`,
-      `Escrevo ${quotedWord} no meu caderno e a uso amanhã: cada passo fortalece a minha voz.`
-    ],
-    german: [
-      `Im heutigen Gespräch benutze ich ${quotedWord}, um selbstbewusst eine Idee auszudrücken.`,
-      `Ich schreibe ${quotedWord} in mein Heft und benutze es morgen wieder; jeder Schritt stärkt meine Stimme.`
-    ]
-  };
-  return contextualTemplates[language] || contextualTemplates.english;
+  // A generic template would mention a vocabulary form without using it
+  // naturally (and would be ungrammatical for many verbs, adjectives and
+  // multi-word expressions). It is better to show the authored sentence
+  // alone than fabricate a pseudo-example. New second examples are authored
+  // per word so they can be both practical and motivating.
+  return [];
 }
 
 const VOCABULARY_L2_UI = {
