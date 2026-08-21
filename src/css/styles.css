@@ -30358,8 +30358,8 @@ body {
 
 /* C2 can add a full bridge-language translation beneath an expression. */
 .skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card[data-vocab-level='C2'] {
-  height: 204px;
-  min-height: 204px;
+  height: 244px;
+  min-height: 244px;
 }
 
 .skill-view-section[data-skill='vocabulary']
@@ -30541,10 +30541,14 @@ body {
   min-height: 184px;
 }
 
-.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card[data-vocab-level='C1'].is-flipped,
-.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card[data-vocab-level='C2'].is-flipped {
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card[data-vocab-level='C1'].is-flipped {
   height: 204px;
   min-height: 204px;
+}
+
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card[data-vocab-level='C2'].is-flipped {
+  height: 244px;
+  min-height: 244px;
 }
 
 .skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card-target-row {
@@ -30627,6 +30631,7 @@ body {
 @media (min-width: 1025px) and (max-width: 1540px) {
   .navbar:has(.user-chip:not([hidden])) {
     min-height: 70px;
+    justify-content: flex-start;
     gap: 0.65rem;
     padding-inline: clamp(1.25rem, 2.5vw, 2.5rem);
   }
@@ -30651,6 +30656,7 @@ body {
 
   .navbar:has(.user-chip:not([hidden])) .menu {
     min-width: 0;
+    margin-left: clamp(0.9rem, 1.8vw, 1.8rem);
     gap: 0.08rem;
     padding: 0.22rem;
     font-size: clamp(0.76rem, 0.83vw, 0.84rem);
@@ -30668,6 +30674,7 @@ body {
 
   .navbar:has(.user-chip:not([hidden])) .nav-actions {
     min-width: 0;
+    margin-left: auto;
     gap: 0.45rem;
   }
 
