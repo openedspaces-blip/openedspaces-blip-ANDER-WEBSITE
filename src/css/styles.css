@@ -22790,6 +22790,15 @@ footer small {
   font-size: 0.78rem;
   font-weight: 720;
 }
+
+.verb-catalogue-definition {
+  width: 100%;
+  margin: 0.05rem 0 0;
+  color: #52627e;
+  font-size: 0.73rem;
+  line-height: 1.28;
+}
+
 .verb-catalogue-identity > small {
   color: var(--muted);
   font-size: 0.72rem;

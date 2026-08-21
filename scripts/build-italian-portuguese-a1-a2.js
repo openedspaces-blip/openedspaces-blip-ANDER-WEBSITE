@@ -142,6 +142,78 @@ const GRAMMAR_TOPICS = {
 };
 
 function mcq(prompt, right, wrong) { return { type: 'mcq', prompt, options: [right, ...wrong], answer: 0 }; }
+function gradedQuestion(id, prompt, correct, distractors, index, difficulty) {
+  const answer = index % 4;
+  const options = [...distractors.slice(0, 3)];
+  options.splice(answer, 0, correct);
+  return {
+    id,
+    type: 'mcq',
+    prompt,
+    options: options.map((text, optionIndex) => ({ id: ['a', 'b', 'c', 'd'][optionIndex], text })),
+    correctOptionId: ['a', 'b', 'c', 'd'][answer],
+    difficulty
+  };
+}
+
+function buildItalianLevelTest({ slug, level, grammarName, grammarExample, words }) {
+  const [w1, w2, w3, w4] = words;
+  const grammarPrompts = [
+    ['Scegli la frase corretta.', grammarExample],
+    ['Quale forma è corretta in questo contesto?', grammarExample],
+    ['Completa la frase con la struttura studiata.', grammarExample],
+    ['Quale opzione usa la grammatica della lezione?', grammarExample],
+    ['Individua la frase più naturale.', grammarExample],
+    ['Quale frase mantiene il significato corretto?', grammarExample],
+    ['Scegli la forma verbale appropriata.', grammarExample],
+    ['Quale risposta è grammaticalmente corretta?', grammarExample],
+    [`Applica “${grammarName}” in una frase.`, grammarExample]
+  ];
+  const grammar = grammarPrompts.map(([prompt, correct], index) =>
+    gradedQuestion(
+      `${slug}-grammar-${index + 1}`,
+      prompt,
+      correct,
+      ['Io è a scuola.', 'Noi è molto contenti.', 'Lei sono ieri al museo.'],
+      index,
+      index < 3 ? 'recognition' : index < 6 ? 'application' : 'control'
+    )
+  );
+  const vocabulary = [w1, w2, w3].map((word, index) =>
+    gradedQuestion(
+      `${slug}-vocabulary-${index + 10}`,
+      `Quale parola appartiene al tema della lezione?`,
+      word,
+      [w4, 'aeroporto', 'computer'].filter((item) => item !== word),
+      index + 9,
+      'vocabulary'
+    )
+  );
+  const verbs = [
+    ['Io ___ italiano ogni giorno.', 'studio'],
+    ['Noi ___ insieme dopo la lezione.', 'parliamo'],
+    ['Lei ___ una frase completa.', 'scrive']
+  ].map(([prompt, correct], index) =>
+    gradedQuestion(
+      `${slug}-verb-${index + 13}`,
+      prompt,
+      correct,
+      ['studia', 'parlate', 'scrivono'],
+      index + 12,
+      'verbs'
+    )
+  );
+  return {
+    id: `italian-${level.toLowerCase()}-${slug}-final-test`,
+    passingScore: 70,
+    sections: [
+      { id: 'grammar', label: 'Grammatica', from: 1, to: 9 },
+      { id: 'vocabulary', label: 'Vocabolario', from: 10, to: 12 },
+      { id: 'verbs', label: 'Verbi', from: 13, to: 15 }
+    ],
+    questions: [...grammar, ...vocabulary, ...verbs]
+  };
+}
 function buildUnit(language, level, raw, order) {
   const c = CULTURES[language]; const [slug, title, culture, phrase, goal, words] = raw;
   const [w1, w2, w3, w4] = words.split(', '); const isA2 = level === 'A2';
@@ -176,7 +248,7 @@ function buildUnit(language, level, raw, order) {
     listening: base('listening', { title: `${title}: ${copy.listen}`, description: 'Escucha un diálogo cultural corto.', intro: `Escucha una situación sobre ${culture.toLowerCase()}.`, dialogue: [{speaker:c.person,line:phrase,translation:'Expresión del día.'},{speaker:c.friend,line:pt ? `Falamos de ${w1}.` : `Parliamo di ${w1}.`,translation:'Hablemos del tema.'},{speaker:c.person,line:pt ? `Gosto de aprender com a ${copy.community}.` : `Mi piace imparare con la ${copy.community}.`,translation:'Me gusta aprender con la comunidad.'},{speaker:c.friend,line:pt ? `Vamos praticar juntos amanhã.` : `Facciamo pratica insieme domani.`,translation:'Practiquemos juntos mañana.'}], transcript: `${phrase} ${pt ? `Falamos de ${w1}. Gosto de aprender com a ${copy.community}. Vamos praticar juntos amanhã.` : `Parliamo di ${w1}. Mi piace imparare con la ${copy.community}. Facciamo pratica insieme domani.`}`, phrases:[phrase, w1, w2], exercises:[mcq('¿Qué expresión escuchas?', phrase, [w1,w2,w3])] }),
     speaking: base('speaking', { title: `${title}: ${copy.speak}`, description: `Practica ${goal}.`, mission:`Di ${phrase} y añade una frase sobre ${culture.toLowerCase()}.`, phrases:[phrase, pt ? `Gosto de ${w1}.` : `Mi piace ${w1}.`, copy.learn], exercises:[{type:'speaking',prompt:`Habla 30 segundos: ${goal}. Usa «${phrase}».`,answer:'Oral practice'}] }),
     writing: base('writing', { title: `${title}: ${copy.write}`, description:'Escribe un mensaje cultural breve.', mission:`Escribe 4 frases sobre ${culture.toLowerCase()} y usa ${w1} y ${w2}.`, phrases:[phrase, pt ? `Hoje aprendi ${w1}.` : `Oggi ho imparato ${w1}.`], exercises:[{type:'writing',prompt:`Escribe un mensaje de 40-60 palabras sobre ${culture.toLowerCase()}.`,answer:'Open answer'}] }),
-    grammar: base('grammar', { title: grammarName, description: grammarFunction, mission: `Aprende ${grammarName.toLowerCase()} y úsalo en una frase sobre ${culture.toLowerCase()}.`, grammarNote: grammarDefinition, phrases:[grammarExample, phrase], extra: { grammarProfile: { name: grammarName, definition: grammarDefinition, structure: grammarExample, function: grammarFunction, examples: [grammarExample, phrase] } }, exercises:[mcq('Elige el ejemplo que corresponde al tema.', grammarExample, [phrase, w1, w2]),mcq('Elige una palabra del tema.',w1,[w2,w3,w4]),mcq('Completa una frase cultural.',w2,[w1,w3,w4]),mcq('¿Qué opción se usa en este contexto?',phrase,[w3,w4,w1])] }),
+    grammar: base('grammar', { title: grammarName, description: grammarFunction, mission: `Aprende ${grammarName.toLowerCase()} y úsalo en una frase sobre ${culture.toLowerCase()}.`, grammarNote: grammarDefinition, phrases:[grammarExample, phrase], extra: { grammarProfile: { name: grammarName, definition: grammarDefinition, structure: grammarExample, function: grammarFunction, examples: [grammarExample, phrase] }, ...(language === 'italian' ? { grammarTest: buildItalianLevelTest({ slug, level, grammarName, grammarExample, words: [w1, w2, w3, w4] }) } : {}) }, exercises:[mcq('Elige el ejemplo que corresponde al tema.', grammarExample, [phrase, w1, w2]),mcq('Elige una palabra del tema.',w1,[w2,w3,w4]),mcq('Completa una frase cultural.',w2,[w1,w3,w4]),mcq('¿Qué opción se usa en este contexto?',phrase,[w3,w4,w1])] }),
     vocabulary: base('vocabulary', { title:`${title}: ${copy.words}`, description:'Vocabulario para el reto.', vocabulary:vocab, exercises:[mcq('¿Qué palabra pertenece a la unidad?',w1,['computadora','laboratorio','satélite'])] })
   }};
 }
