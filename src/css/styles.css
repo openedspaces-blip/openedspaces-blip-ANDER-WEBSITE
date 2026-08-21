@@ -10238,6 +10238,31 @@ footer small {
   color: #ffe8a3;
 }
 
+/* The flags cover has a deep navy lower field. Keep every editorial label
+   in high-contrast white so the message reads immediately over the image. */
+.hero-cover-art:has(> img[src*='andergo-cover-flags']) .hero-cover-shine {
+  background:
+    linear-gradient(180deg, rgba(5, 18, 55, 0.03) 28%, rgba(5, 18, 55, 0.72) 100%),
+    linear-gradient(90deg, rgba(4, 14, 45, 0.24), transparent 58%);
+}
+
+.hero-cover-art:has(> img[src*='andergo-cover-flags']) .hero-cover-greetings {
+  color: #fff;
+  font-size: clamp(0.68rem, 1.3vw, 0.86rem);
+  text-shadow: 0 2px 12px rgba(1, 8, 30, 0.96);
+}
+
+.hero-cover-art:has(> img[src*='andergo-cover-flags']) .hero-cover-caption,
+.hero-cover-art:has(> img[src*='andergo-cover-flags']) .hero-cover-caption strong,
+.hero-cover-art:has(> img[src*='andergo-cover-flags']) .hero-cover-caption > span {
+  color: #fff;
+  text-shadow: 0 3px 18px rgba(1, 8, 30, 0.96);
+}
+
+.hero-cover-art:has(> img[src*='andergo-cover-flags']) .hero-cover-caption strong {
+  -webkit-text-stroke: 0.35px rgba(1, 8, 30, 0.4);
+}
+
 /* Speaking: dialogue, writing corrector and guided Tutor conversation. */
 #speaking .speaking-action-grid {
   grid-template-columns: repeat(3, minmax(0, 1fr));
