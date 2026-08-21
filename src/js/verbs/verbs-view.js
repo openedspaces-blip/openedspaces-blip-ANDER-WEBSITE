@@ -394,13 +394,14 @@
     const supportText = item.learningMode === 'direct' ? item.simpleDefinition : item.translation;
     const sourceVerb = supportText || item.targetWord;
     const practicalExamples = practicalCatalogueExamples(raw);
+    const hasExamples = practicalExamples.length > 0;
     const audioOpts = { locale: item.pronunciationLocale, rate: item.pronunciationRate };
     const audioButton = canSpeak
       ? `<button type="button" class="vocab-example-audio-btn verb-tile-audio-btn verb-catalogue-audio" data-speak-text="${escapeHtml(item.audioText)}" data-speak-locale="${escapeHtml(item.pronunciationLocale)}" data-speak-rate="${item.pronunciationRate}" aria-label="Escuchar la pronunciación de ${escapeHtml(item.targetWord)}" title="Escuchar pronunciación"><span aria-hidden="true">🔊</span></button>`
       : '';
 
     return `
-      <article class="verb-catalogue-row" data-verb-id="${escapeHtml(item.id)}" data-verb-level="${escapeHtml(raw.level || '')}" data-speak-text="${escapeHtml(item.audioText)}" data-speak-locale="${escapeHtml(item.pronunciationLocale)}" data-speak-rate="${item.pronunciationRate}" aria-label="Toca la tarjeta para escuchar la pronunciación de ${escapeHtml(item.targetWord)}">
+      <article class="verb-catalogue-row${hasExamples ? '' : ' verb-catalogue-row--compact'}" data-verb-id="${escapeHtml(item.id)}" data-verb-level="${escapeHtml(raw.level || '')}" data-speak-text="${escapeHtml(item.audioText)}" data-speak-locale="${escapeHtml(item.pronunciationLocale)}" data-speak-rate="${item.pronunciationRate}" aria-label="Toca la tarjeta para escuchar la pronunciación de ${escapeHtml(item.targetWord)}">
         <div class="verb-catalogue-head">
           <span class="verb-catalogue-rank">${item.frequencyRank}</span>
           <div class="verb-catalogue-identity">
@@ -411,9 +412,13 @@
             ${item.phonetic ? `<small>${escapeHtml(item.phonetic)}</small>` : ''}${audioButton}
           </div>
         </div>
-        <div class="verb-catalogue-examples" aria-label="Dos ejemplos prácticos de ${escapeHtml(item.targetWord)}">
-          ${practicalExamples.map((example, index) => `<div><span>${index + 1}</span><p>${escapeHtml(example)} ${canSpeak ? conjugatorAudioBtnHtml(example, audioOpts) : ''}</p></div>`).join('')}
-        </div>
+        ${
+          hasExamples
+            ? `<div class="verb-catalogue-examples" aria-label="Dos ejemplos prácticos de ${escapeHtml(item.targetWord)}">
+                ${practicalExamples.map((example, index) => `<div><span>${index + 1}</span><p>${escapeHtml(example)} ${canSpeak ? conjugatorAudioBtnHtml(example, audioOpts) : ''}</p></div>`).join('')}
+              </div>`
+            : ''
+        }
         <button type="button" class="verb-catalogue-conjugate verb-conjugate-btn" data-verb-id="${escapeHtml(item.id)}" aria-label="Ver conjugación de ${escapeHtml(item.targetWord)}">Ver conjugación <span aria-hidden="true">→</span></button>
       </article>`;
   }

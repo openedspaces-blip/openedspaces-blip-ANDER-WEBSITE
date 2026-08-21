@@ -22899,9 +22899,31 @@ footer small {
   background: #fff;
 }
 
-/* Advanced catalogues can contain longer terms and definitions.  Keep the
-   conjugation action present but discreet, so it does not read like a full
-   card-wide CTA after every C1/C2 entry. */
+/* Entries without an authored example remain useful reference rows instead
+   of looking like incomplete cards: identity on the left, conjugation on the
+   right, with no empty example band between them. */
+.verb-catalogue-row--compact {
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  min-height: 86px;
+}
+
+.verb-catalogue-row--compact .verb-catalogue-head {
+  grid-column: 1;
+}
+
+.verb-catalogue-row--compact .verb-catalogue-conjugate {
+  grid-column: 2;
+  grid-row: 1;
+  width: fit-content;
+  min-height: 30px;
+  margin: 0;
+}
+
+/* B2 and above keep the same scan-friendly card language as B1: a two-column
+   grid, concise head and two examples.  Their longer terms need a discreet
+   conjugation action instead of a second card-wide band. */
+.verb-catalogue-row[data-verb-level='B2'] .verb-catalogue-conjugate,
 .verb-catalogue-row[data-verb-level='C1'] .verb-catalogue-conjugate,
 .verb-catalogue-row[data-verb-level='C2'] .verb-catalogue-conjugate {
   width: fit-content;
