@@ -400,7 +400,7 @@
       : '';
 
     return `
-      <article class="verb-catalogue-row" data-verb-id="${escapeHtml(item.id)}" data-speak-text="${escapeHtml(item.audioText)}" data-speak-locale="${escapeHtml(item.pronunciationLocale)}" data-speak-rate="${item.pronunciationRate}" aria-label="Toca la tarjeta para escuchar la pronunciación de ${escapeHtml(item.targetWord)}">
+      <article class="verb-catalogue-row" data-verb-id="${escapeHtml(item.id)}" data-verb-level="${escapeHtml(raw.level || '')}" data-speak-text="${escapeHtml(item.audioText)}" data-speak-locale="${escapeHtml(item.pronunciationLocale)}" data-speak-rate="${item.pronunciationRate}" aria-label="Toca la tarjeta para escuchar la pronunciación de ${escapeHtml(item.targetWord)}">
         <div class="verb-catalogue-head">
           <span class="verb-catalogue-rank">${item.frequencyRank}</span>
           <div class="verb-catalogue-identity">

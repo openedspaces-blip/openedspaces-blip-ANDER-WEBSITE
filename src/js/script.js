@@ -17630,8 +17630,53 @@ function getUnitVocabularyCorpus(lessons) {
     .join(' ');
 }
 
+// A vocabulary target must be useful on its own.  Do not fill a lesson with
+// mechanically extracted fragments such as “but”, proper names or pieces of a
+// quotation: they inflate the counter without giving the learner anything they
+// can deliberately use.  Units with a foundational communicative purpose use
+// an authored bank; useful expressions are still displayed in their own block.
+const CURATED_VOCABULARY_BANKS = {
+  'english|A1|greeting words': [
+    ['Hello', 'Hola', 'Saludos'], ['Hi', 'Hola', 'Saludos'],
+    ['Good morning', 'Buenos días', 'Saludos'], ['Good afternoon', 'Buenas tardes', 'Saludos'],
+    ['Good evening', 'Buenas noches (al saludar)', 'Saludos'], ['Goodbye', 'Adiós', 'Saludos'],
+    ['See you later', 'Nos vemos luego', 'Saludos'], ['Please', 'Por favor', 'Cortesía'],
+    ['Thank you', 'Gracias', 'Cortesía'], ["You're welcome", 'De nada', 'Cortesía'],
+    ['Excuse me', 'Disculpe / Con permiso', 'Cortesía'], ['Sorry', 'Lo siento', 'Cortesía'],
+    ['Yes', 'Sí', 'Cortesía'], ['No', 'No', 'Cortesía'],
+    ['Name', 'Nombre', 'Presentación'], ['First name', 'Nombre de pila', 'Presentación'],
+    ['Last name', 'Apellido', 'Presentación'], ['Teacher', 'Profesor/a', 'Personas y aula'],
+    ['Student', 'Estudiante', 'Personas y aula'], ['Class', 'Clase', 'Personas y aula'],
+    ['Friend', 'Amigo/a', 'Personas y aula'], ['New', 'Nuevo/a', 'Personas y aula'],
+    ['Nice', 'Agradable', 'Presentación'], ['Meet', 'Conocer', 'Presentación'],
+    ['How are you?', '¿Cómo estás?', 'Presentación'], ['Where are you from?', '¿De dónde eres?', 'Presentación'],
+    ["I'm from…", 'Soy de…', 'Presentación'], ['Country', 'País', 'Presentación'],
+    ['Dominican Republic', 'República Dominicana', 'Presentación'], ['English', 'Inglés', 'Personas y aula']
+  ]
+};
+
+function getCuratedVocabularyBank(lesson) {
+  const key = `${learningPathState.language || ''}|${lesson.level || learningPathState.level || ''}|${String(lesson.title || '').trim().toLocaleLowerCase()}`;
+  const entries = CURATED_VOCABULARY_BANKS[key];
+  if (!entries) return null;
+  return entries.map(([word, translation, category]) => ({
+    word,
+    translation,
+    category,
+    source: 'authored-unit-vocabulary',
+    contexts: [
+      { targetText: `${word}${/[?.!]$/.test(word) ? '' : '.'}` },
+      { targetText: `Use “${word}” in a short conversation.` }
+    ]
+  }));
+}
+
 function buildVocabularyUnitBank(lesson) {
+  const curated = getCuratedVocabularyBank(lesson);
+  if (curated) return curated;
   const lessons = getVocabularyUnitLessons(lesson);
+  const corpus = getUnitVocabularyCorpus(lessons);
+  const sentences = corpus.match(/[^.!?]+[.!?]?/g) || [corpus];
   const seen = new Set();
   const bank = [];
   const add = (item) => {
@@ -17639,15 +17684,18 @@ function buildVocabularyUnitBank(lesson) {
     const key = word.toLocaleLowerCase();
     if (!word || seen.has(key)) return;
     seen.add(key);
-    bank.push(item);
+    const example = String(item?.example || '').trim();
+    const contextualExample =
+      example ||
+      sentences.find((sentence) => sentence.toLocaleLowerCase().includes(key))?.trim() ||
+      '';
+    bank.push(contextualExample === example ? item : { ...item, example: contextualExample });
   };
 
   // The catalogue quota represents *words*. Useful expressions are rendered
   // separately below, so a sentence never consumes one of the 30 slots.
   lessons.forEach((candidate) => (candidate.vocabulary || []).forEach(add));
 
-  const corpus = getUnitVocabularyCorpus(lessons);
-  const sentences = corpus.match(/[^.!?]+[.!?]?/g) || [corpus];
   const candidates = corpus.match(/[\p{L}][\p{L}'’-]{2,}/gu) || [];
   const isAdvancedLevel = ['C1', 'C2'].includes(lesson.level || learningPathState.level || '');
   const minimumContextWordLength = isAdvancedLevel ? 4 : 3;
@@ -21865,13 +21913,13 @@ const INFOGRAPHIC_SCENES = [
     title: 'Parts of the Face',
     icon: '😊',
     parts: [
-      ['Hair', 50, 12],
-      ['Forehead', 50, 31],
+      ['Hair', 50, 16],
+      ['Forehead', 50, 34],
       ['Eye', 40, 45],
       ['Ear', 26, 50],
       ['Nose', 50, 57],
       ['Mouth', 50, 69],
-      ['Chin', 50, 83]
+      ['Chin', 50, 81]
     ]
   },
   {
@@ -21899,10 +21947,10 @@ const INFOGRAPHIC_SCENES = [
       ['Handlebars', 72, 23],
       ['Seat', 33, 28],
       ['Frame', 53, 47],
-      ['Pedal', 51, 67],
-      ['Chain', 28, 71],
+      ['Pedal', 53, 59],
+      ['Chain', 31, 60],
       ['Wheel', 18, 62],
-      ['Tire', 82, 82]
+      ['Tire', 82, 77]
     ]
   },
   {
@@ -21953,20 +22001,20 @@ const INFOGRAPHIC_SCENES = [
     title: 'At the Airport',
     icon: '✈️',
     parts: [
-      ['Traveler', 40, 40],
-      ['Passport', 36, 40],
-      ['Boarding pass', 36, 36],
-      ['Suitcase', 54, 78],
-      ['Airplane', 13, 45],
-      ['Check-in counter', 86, 58],
+      ['Traveler', 40, 46],
+      ['Passport', 37, 40],
+      ['Boarding pass', 37, 36],
+      ['Suitcase', 54, 80],
+      ['Airplane', 14, 43],
+      ['Check-in counter', 85, 47],
       ['Departure board', 75, 16],
-      ['Seat', 8, 63]
+      ['Seat', 8, 67]
     ]
   },
   { id: 'sports', title: 'Sports', icon: '⚽', parts: [['Jogging', 21, 28], ['Football / soccer', 47, 55], ['Basketball', 85, 57], ['Baseball', 22, 74], ['Baseball bat', 14, 81], ['American football', 47, 71], ['Football helmet', 71, 69], ['Tennis', 55, 87], ['Basketball hoop', 71, 18]] },
   { id: 'nutrition', title: 'Food Choices', icon: '🥗', parts: [['Fruit', 20, 13], ['Vegetables', 18, 34], ['Water', 8, 55], ['Milk', 22, 58], ['Whole grains', 22, 76], ['Fish', 28, 90], ['Burger', 74, 17], ['Soda', 82, 40], ['Candy', 80, 60], ['Doughnut', 86, 83]] },
   { id: 'city-map', title: 'Around the City', icon: '🗺️', parts: [['Bridge', 8, 22], ['School', 57, 12], ['Hospital', 87, 24], ['Park', 42, 40], ['Supermarket', 12, 48], ['Bus stop', 14, 75], ['Bank', 88, 56], ['Restaurant', 85, 83], ['Traffic light', 50, 63]] },
-  { id: 'family', title: 'The Family', icon: '👪', parts: [['Mother', 13, 44], ['Father', 37, 28], ['Grandmother', 63, 48], ['Grandfather', 84, 28], ['Brother', 40, 71], ['Sister', 60, 73], ['Baby', 22, 51], ['Dog', 80, 73]] },
+  { id: 'family', title: 'The Family', icon: '👪', parts: [['Mother', 20, 46], ['Father', 38, 29], ['Grandmother', 59, 48], ['Grandfather', 81, 25], ['Brother', 40, 72], ['Sister', 58, 73], ['Baby', 22, 50], ['Dog', 83, 69]] },
   { id: 'people-and-feelings', title: 'People, Colours and Feelings', icon: '🙂', parts: [['Doctor', 12.5, 25], ['Teacher', 37.5, 25], ['Chef', 62.5, 25], ['Firefighter', 87.5, 25], ['Happy', 12.5, 65], ['Sad', 37.5, 65], ['Surprised', 62.5, 65], ['Angry', 87.5, 65], ['Red', 8, 90], ['Blue', 26.5, 89], ['Yellow', 43.5, 88], ['Green', 58.5, 88], ['Orange', 73, 89], ['Purple', 91, 88]] }
 ];
 
@@ -21975,7 +22023,7 @@ const INFOGRAPHIC_SCENES = [
 // than repeating a label simply to increase the score.
 const INFOGRAPHIC_EXTRA_PARTS = {
   supermarket: [['Cheese', 46, 65], ['Juice', 90, 35]],
-  airport: [['Backpack', 29, 48], ['Ticket', 36, 37]],
+  airport: [['Backpack', 31, 42], ['Ticket', 37, 36]],
   sports: [['Tennis ball', 78, 93]],
   'city-map': [['Bus', 27, 77]],
   family: [['Sofa', 10, 65], ['Photo', 72, 35]],

@@ -1357,12 +1357,11 @@
     "extra": {
       "grammarProfile": {
         "name": "sein, haben und Personalpronomen",
-        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
-        "structure": "Subjekt + Verb + Ergänzung",
-        "function": "Über Personen, Orte und Alltag sprechen.",
+        "definition": "Verwende sein für Identität und haben für Besitz; Personalpronomen ersetzen Namen.",
+        "structure": "Ich heiße Ana. Ich bin aus der Dominikanischen Republik.",
+        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
         "examples": [
-          "Ich wohne im Viertel.",
-          "Leon spricht mit Anna."
+          "Ich heiße Ana. Ich bin aus der Dominikanischen Republik."
         ]
       },
       "grammarTest": {
@@ -1834,12 +1833,11 @@
     "extra": {
       "grammarProfile": {
         "name": "Perfekt und Zeitangaben",
-        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
-        "structure": "haben/sein + Partizip II",
-        "function": "Erfahrungen und Pläne erzählen.",
+        "definition": "Verwende das Perfekt für abgeschlossene Ereignisse und Zeitangaben für die Reihenfolge.",
+        "structure": "Gestern habe ich einen Termin vereinbart.",
+        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
         "examples": [
-          "Gestern habe ich das Museum besucht.",
-          "Danach haben wir zusammen gesprochen."
+          "Gestern habe ich einen Termin vereinbart."
         ]
       },
       "grammarTest": {
@@ -2314,9 +2312,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Konjunktiv II für Wünsche",
-        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
+        "definition": "Práctica guiada de Konjunktiv II für Wünsche.",
         "structure": "Meinung + weil/obwohl/deshalb + Begründung",
-        "function": "Eine Meinung ausdrücken und begründen.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Ich finde den Vorschlag sinnvoll.",
           "Trotzdem müssen wir die Ergebnisse prüfen."
@@ -8493,12 +8491,11 @@
     "extra": {
       "grammarProfile": {
         "name": "möchten, bestellen und Akkusativ",
-        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
-        "structure": "Subjekt + Verb + Ergänzung",
-        "function": "Über Personen, Orte und Alltag sprechen.",
+        "definition": "Mit möchten bestellst du höflich; viele Speisen und Getränke stehen im Akkusativ.",
+        "structure": "Ich möchte einen Kaffee, bitte.",
+        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
         "examples": [
-          "Ich wohne im Viertel.",
-          "Leon spricht mit Anna."
+          "Ich möchte einen Kaffee, bitte."
         ]
       },
       "grammarTest": {
@@ -8970,12 +8967,11 @@
     "extra": {
       "grammarProfile": {
         "name": "Wechselpräpositionen",
-        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
-        "structure": "haben/sein + Partizip II",
-        "function": "Erfahrungen und Pläne erzählen.",
+        "definition": "in, an, auf y otras preposiciones usan acusativo para movimiento y dativo para posición.",
+        "structure": "Ich gehe in die Wohnung. Ich bin in der Wohnung.",
+        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
         "examples": [
-          "Gestern habe ich das Museum besucht.",
-          "Danach haben wir zusammen gesprochen."
+          "Ich gehe in die Wohnung. Ich bin in der Wohnung."
         ]
       },
       "grammarTest": {
@@ -9450,9 +9446,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Relativsätze",
-        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
+        "definition": "Práctica guiada de Relativsätze.",
         "structure": "Meinung + weil/obwohl/deshalb + Begründung",
-        "function": "Eine Meinung ausdrücken und begründen.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Ich finde den Vorschlag sinnvoll.",
           "Trotzdem müssen wir die Ergebnisse prüfen."
@@ -15626,12 +15622,11 @@
     "extra": {
       "grammarProfile": {
         "name": "Possessivartikel und Plural",
-        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
-        "structure": "Subjekt + Verb + Ergänzung",
-        "function": "Über Personen, Orte und Alltag sprechen.",
+        "definition": "mein/dein zeigen Zugehörigkeit; Nomen haben Singular und Plural.",
+        "structure": "Das ist meine Familie. Meine Brüder wohnen hier.",
+        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
         "examples": [
-          "Ich wohne im Viertel.",
-          "Leon spricht mit Anna."
+          "Das ist meine Familie. Meine Brüder wohnen hier."
         ]
       },
       "grammarTest": {
@@ -16103,12 +16098,11 @@
     "extra": {
       "grammarProfile": {
         "name": "Modalverben im Präteritum",
-        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
-        "structure": "haben/sein + Partizip II",
-        "function": "Erfahrungen und Pläne erzählen.",
+        "definition": "konnte, musste y wollte describen posibilidad, obligación o deseo en el pasado.",
+        "structure": "Ich musste zum Arzt gehen.",
+        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
         "examples": [
-          "Gestern habe ich das Museum besucht.",
-          "Danach haben wir zusammen gesprochen."
+          "Ich musste zum Arzt gehen."
         ]
       },
       "grammarTest": {
@@ -16583,9 +16577,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Passiv im Präsens",
-        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
+        "definition": "Práctica guiada de Passiv im Präsens.",
         "structure": "Meinung + weil/obwohl/deshalb + Begründung",
-        "function": "Eine Meinung ausdrücken und begründen.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Ich finde den Vorschlag sinnvoll.",
           "Trotzdem müssen wir die Ergebnisse prüfen."
@@ -22757,12 +22751,11 @@
     "extra": {
       "grammarProfile": {
         "name": "kein / nicht und Mengenangaben",
-        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
-        "structure": "Subjekt + Verb + Ergänzung",
-        "function": "Über Personen, Orte und Alltag sprechen.",
+        "definition": "kein verneint Nomen, nicht verneint Verben oder Eigenschaften.",
+        "structure": "Ich habe kein Brot. Das ist nicht teuer.",
+        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
         "examples": [
-          "Ich wohne im Viertel.",
-          "Leon spricht mit Anna."
+          "Ich habe kein Brot. Das ist nicht teuer."
         ]
       },
       "grammarTest": {
@@ -23234,12 +23227,11 @@
     "extra": {
       "grammarProfile": {
         "name": "Nebensätze mit weil und dass",
-        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
-        "structure": "haben/sein + Partizip II",
-        "function": "Erfahrungen und Pläne erzählen.",
+        "definition": "En una oración subordinada, el verbo conjugado va al final.",
+        "structure": "Ich bleibe zu Hause, weil ich krank bin.",
+        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
         "examples": [
-          "Gestern habe ich das Museum besucht.",
-          "Danach haben wir zusammen gesprochen."
+          "Ich bleibe zu Hause, weil ich krank bin."
         ]
       },
       "grammarTest": {
@@ -23714,9 +23706,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Indirekte Fragen",
-        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
+        "definition": "Práctica guiada de Indirekte Fragen.",
         "structure": "Meinung + weil/obwohl/deshalb + Begründung",
-        "function": "Eine Meinung ausdrücken und begründen.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Ich finde den Vorschlag sinnvoll.",
           "Trotzdem müssen wir die Ergebnisse prüfen."
@@ -29887,12 +29879,11 @@
     "extra": {
       "grammarProfile": {
         "name": "können und Wegbeschreibung",
-        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
-        "structure": "Subjekt + Verb + Ergänzung",
-        "function": "Über Personen, Orte und Alltag sprechen.",
+        "definition": "können steht auf Position zwei, der Infinitiv am Satzende.",
+        "structure": "Kannst du mir helfen? Du kannst geradeaus gehen.",
+        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
         "examples": [
-          "Ich wohne im Viertel.",
-          "Leon spricht mit Anna."
+          "Kannst du mir helfen? Du kannst geradeaus gehen."
         ]
       },
       "grammarTest": {
@@ -30364,12 +30355,11 @@
     "extra": {
       "grammarProfile": {
         "name": "Perfekt mit sein",
-        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
-        "structure": "haben/sein + Partizip II",
-        "function": "Erfahrungen und Pläne erzählen.",
+        "definition": "Los verbos de movimiento o cambio suelen formar el Perfekt con sein.",
+        "structure": "Wir sind nach Berlin gefahren.",
+        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
         "examples": [
-          "Gestern habe ich das Museum besucht.",
-          "Danach haben wir zusammen gesprochen."
+          "Wir sind nach Berlin gefahren."
         ]
       },
       "grammarTest": {
@@ -30844,9 +30834,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Konnektoren: obwohl, trotzdem und daher",
-        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
+        "definition": "Práctica guiada de Konnektoren: obwohl, trotzdem und daher.",
         "structure": "Meinung + weil/obwohl/deshalb + Begründung",
-        "function": "Eine Meinung ausdrücken und begründen.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Ich finde den Vorschlag sinnvoll.",
           "Trotzdem müssen wir die Ergebnisse prüfen."
@@ -37024,12 +37014,11 @@
     "extra": {
       "grammarProfile": {
         "name": "Präsens trennbarer Verben",
-        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
-        "structure": "Subjekt + Verb + Ergänzung",
-        "function": "Über Personen, Orte und Alltag sprechen.",
+        "definition": "Bei trennbaren Verben steht die Vorsilbe am Satzende.",
+        "structure": "Ich stehe um sieben Uhr auf.",
+        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
         "examples": [
-          "Ich wohne im Viertel.",
-          "Leon spricht mit Anna."
+          "Ich stehe um sieben Uhr auf."
         ]
       },
       "grammarTest": {
@@ -37501,12 +37490,11 @@
     "extra": {
       "grammarProfile": {
         "name": "Dativ und Akkusativ",
-        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
-        "structure": "haben/sein + Partizip II",
-        "function": "Erfahrungen und Pläne erzählen.",
+        "definition": "El dativo suele marcar a la persona y el acusativo la cosa.",
+        "structure": "Ich gebe dem Freund ein Buch.",
+        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
         "examples": [
-          "Gestern habe ich das Museum besucht.",
-          "Danach haben wir zusammen gesprochen."
+          "Ich gebe dem Freund ein Buch."
         ]
       },
       "grammarTest": {
@@ -37981,9 +37969,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Plusquamperfekt",
-        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
+        "definition": "Práctica guiada de Plusquamperfekt.",
         "structure": "Meinung + weil/obwohl/deshalb + Begründung",
-        "function": "Eine Meinung ausdrücken und begründen.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Ich finde den Vorschlag sinnvoll.",
           "Trotzdem müssen wir die Ergebnisse prüfen."
@@ -44156,12 +44144,11 @@
     "extra": {
       "grammarProfile": {
         "name": "Akkusativartikel im Alltag",
-        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
-        "structure": "Subjekt + Verb + Ergänzung",
-        "function": "Über Personen, Orte und Alltag sprechen.",
+        "definition": "Der Akkusativ verändert den bestimmten und unbestimmten Artikel.",
+        "structure": "Ich sehe den Tisch und kaufe einen Stuhl.",
+        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
         "examples": [
-          "Ich wohne im Viertel.",
-          "Leon spricht mit Anna."
+          "Ich sehe den Tisch und kaufe einen Stuhl."
         ]
       },
       "grammarTest": {
@@ -44633,12 +44620,11 @@
     "extra": {
       "grammarProfile": {
         "name": "Komparativ und Superlativ",
-        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
-        "structure": "haben/sein + Partizip II",
-        "function": "Erfahrungen und Pläne erzählen.",
+        "definition": "Usa -er y am ...-sten para comparar.",
+        "structure": "Der Park ist größer als der Platz.",
+        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
         "examples": [
-          "Gestern habe ich das Museum besucht.",
-          "Danach haben wir zusammen gesprochen."
+          "Der Park ist größer als der Platz."
         ]
       },
       "grammarTest": {
@@ -45113,9 +45099,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Partizipien als Adjektive",
-        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
+        "definition": "Práctica guiada de Partizipien als Adjektive.",
         "structure": "Meinung + weil/obwohl/deshalb + Begründung",
-        "function": "Eine Meinung ausdrücken und begründen.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Ich finde den Vorschlag sinnvoll.",
           "Trotzdem müssen wir die Ergebnisse prüfen."
@@ -51290,12 +51276,11 @@
     "extra": {
       "grammarProfile": {
         "name": "Wetter, es gibt und Zeitangaben",
-        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
-        "structure": "Subjekt + Verb + Ergänzung",
-        "function": "Über Personen, Orte und Alltag sprechen.",
+        "definition": "Es gibt nennt etwas Vorhandenes; Zeitangaben strukturieren den Satz.",
+        "structure": "Heute gibt es Regen. Im Sommer ist es warm.",
+        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
         "examples": [
-          "Ich wohne im Viertel.",
-          "Leon spricht mit Anna."
+          "Heute gibt es Regen. Im Sommer ist es warm."
         ]
       },
       "grammarTest": {
@@ -51767,12 +51752,11 @@
     "extra": {
       "grammarProfile": {
         "name": "Reflexive Verben",
-        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
-        "structure": "haben/sein + Partizip II",
-        "function": "Erfahrungen und Pläne erzählen.",
+        "definition": "Los verbos reflexivos se usan con mich, dich, sich, uns o euch.",
+        "structure": "Ich interessiere mich für Musik.",
+        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
         "examples": [
-          "Gestern habe ich das Museum besucht.",
-          "Danach haben wir zusammen gesprochen."
+          "Ich interessiere mich für Musik."
         ]
       },
       "grammarTest": {
@@ -52247,9 +52231,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Meinung und Argumentation",
-        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
+        "definition": "Práctica guiada de Meinung und Argumentation.",
         "structure": "Meinung + weil/obwohl/deshalb + Begründung",
-        "function": "Eine Meinung ausdrücken und begründen.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Ich finde den Vorschlag sinnvoll.",
           "Trotzdem müssen wir die Ergebnisse prüfen."
@@ -58422,12 +58406,11 @@
     "extra": {
       "grammarProfile": {
         "name": "gern, lieber und Freizeit",
-        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
-        "structure": "Subjekt + Verb + Ergänzung",
-        "function": "Über Personen, Orte und Alltag sprechen.",
+        "definition": "gern und lieber drücken Vorlieben aus.",
+        "structure": "Ich lese gern, aber ich spiele lieber Fußball.",
+        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
         "examples": [
-          "Ich wohne im Viertel.",
-          "Leon spricht mit Anna."
+          "Ich lese gern, aber ich spiele lieber Fußball."
         ]
       },
       "grammarTest": {
@@ -58899,12 +58882,11 @@
     "extra": {
       "grammarProfile": {
         "name": "zu + Infinitiv",
-        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
-        "structure": "haben/sein + Partizip II",
-        "function": "Erfahrungen und Pläne erzählen.",
+        "definition": "zu + infinitivo expresa intención, plan o necesidad.",
+        "structure": "Ich versuche, jeden Tag zu üben.",
+        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
         "examples": [
-          "Gestern habe ich das Museum besucht.",
-          "Danach haben wir zusammen gesprochen."
+          "Ich versuche, jeden Tag zu üben."
         ]
       },
       "grammarTest": {
@@ -59379,9 +59361,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Futur I und Vermutungen",
-        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
+        "definition": "Práctica guiada de Futur I und Vermutungen.",
         "structure": "Meinung + weil/obwohl/deshalb + Begründung",
-        "function": "Eine Meinung ausdrücken und begründen.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Ich finde den Vorschlag sinnvoll.",
           "Trotzdem müssen wir die Ergebnisse prüfen."
@@ -65556,12 +65538,11 @@
     "extra": {
       "grammarProfile": {
         "name": "Perfekt mit haben",
-        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
-        "structure": "Subjekt + Verb + Ergänzung",
-        "function": "Über Personen, Orte und Alltag sprechen.",
+        "definition": "Das Perfekt bildet man mit haben und Partizip II.",
+        "structure": "Ich habe ein Ticket gekauft.",
+        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
         "examples": [
-          "Ich wohne im Viertel.",
-          "Leon spricht mit Anna."
+          "Ich habe ein Ticket gekauft."
         ]
       },
       "grammarTest": {
@@ -66033,12 +66014,11 @@
     "extra": {
       "grammarProfile": {
         "name": "Konjunktiv II: höfliche Bitten",
-        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
-        "structure": "haben/sein + Partizip II",
-        "function": "Erfahrungen und Pläne erzählen.",
+        "definition": "würde, könnte y hätte hacen las peticiones más corteses.",
+        "structure": "Könnten Sie mir bitte helfen?",
+        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
         "examples": [
-          "Gestern habe ich das Museum besucht.",
-          "Danach haben wir zusammen gesprochen."
+          "Könnten Sie mir bitte helfen?"
         ]
       },
       "grammarTest": {
@@ -66513,9 +66493,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Verben mit Präpositionen",
-        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
+        "definition": "Práctica guiada de Verben mit Präpositionen.",
         "structure": "Meinung + weil/obwohl/deshalb + Begründung",
-        "function": "Eine Meinung ausdrücken und begründen.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Ich finde den Vorschlag sinnvoll.",
           "Trotzdem müssen wir die Ergebnisse prüfen."
@@ -72690,12 +72670,11 @@
     "extra": {
       "grammarProfile": {
         "name": "Adjektive und Farben",
-        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
-        "structure": "Subjekt + Verb + Ergänzung",
-        "function": "Über Personen, Orte und Alltag sprechen.",
+        "definition": "Adjektive beschreiben Nomen und folgen häufig dem Nomen.",
+        "structure": "Das blaue Hemd ist schön.",
+        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
         "examples": [
-          "Ich wohne im Viertel.",
-          "Leon spricht mit Anna."
+          "Das blaue Hemd ist schön."
         ]
       },
       "grammarTest": {
@@ -73167,12 +73146,11 @@
     "extra": {
       "grammarProfile": {
         "name": "Perfekt y conectores de secuencia",
-        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
-        "structure": "haben/sein + Partizip II",
-        "function": "Erfahrungen und Pläne erzählen.",
+        "definition": "Primero, después y al final organizan una historia en pasado.",
+        "structure": "Zuerst haben wir gegessen, dann haben wir gefeiert.",
+        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
         "examples": [
-          "Gestern habe ich das Museum besucht.",
-          "Danach haben wir zusammen gesprochen."
+          "Zuerst haben wir gegessen, dann haben wir gefeiert."
         ]
       },
       "grammarTest": {
@@ -73647,9 +73625,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Beziehungen: Relativsätze und indirekte Fragen",
-        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
+        "definition": "Práctica guiada de Beziehungen: Relativsätze und indirekte Fragen.",
         "structure": "Meinung + weil/obwohl/deshalb + Begründung",
-        "function": "Eine Meinung ausdrücken und begründen.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Ich finde den Vorschlag sinnvoll.",
           "Trotzdem müssen wir die Ergebnisse prüfen."
@@ -79823,12 +79801,11 @@
     "extra": {
       "grammarProfile": {
         "name": "Einladung: möchten und Uhrzeiten",
-        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
-        "structure": "Subjekt + Verb + Ergänzung",
-        "function": "Über Personen, Orte und Alltag sprechen.",
+        "definition": "Mit möchten formulierst du eine höfliche Einladung und nennst Uhrzeiten.",
+        "structure": "Möchtest du um acht Uhr kommen?",
+        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
         "examples": [
-          "Ich wohne im Viertel.",
-          "Leon spricht mit Anna."
+          "Möchtest du um acht Uhr kommen?"
         ]
       },
       "grammarTest": {
@@ -80300,12 +80277,11 @@
     "extra": {
       "grammarProfile": {
         "name": "Wohnungssuche: preposiciones y comparativos",
-        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
-        "structure": "haben/sein + Partizip II",
-        "function": "Erfahrungen und Pläne erzählen.",
+        "definition": "Combina preposiciones de lugar y comparativos para describir viviendas.",
+        "structure": "Die Wohnung ist größer als das Zimmer neben dem Park.",
+        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
         "examples": [
-          "Gestern habe ich das Museum besucht.",
-          "Danach haben wir zusammen gesprochen."
+          "Die Wohnung ist größer als das Zimmer neben dem Park."
         ]
       },
       "grammarTest": {
@@ -80780,9 +80756,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Gesellschaft: Konjunktiv II und Argumentation",
-        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
+        "definition": "Práctica guiada de Gesellschaft: Konjunktiv II und Argumentation.",
         "structure": "Meinung + weil/obwohl/deshalb + Begründung",
-        "function": "Eine Meinung ausdrücken und begründen.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Ich finde den Vorschlag sinnvoll.",
           "Trotzdem müssen wir die Ergebnisse prüfen."

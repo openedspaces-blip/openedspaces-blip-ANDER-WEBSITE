@@ -1172,197 +1172,375 @@
     "extra": {
       "grammarProfile": {
         "name": "Periodo ipotetico della possibilità",
-        "definition": "Connettori, opinioni e ipotesi aiutano a costruire un argomento.",
+        "definition": "Práctica guiada de Periodo ipotetico della possibilità.",
         "structure": "opinione + perché/tuttavia/quindi + motivazione",
-        "function": "Esprimere e giustificare un punto di vista.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Penso che la proposta sia utile.",
           "Tuttavia dobbiamo valutare i risultati."
         ]
       },
       "grammarTest": {
+        "id": "italian-b1-lavoro-e-obiettivi-final-test",
+        "passingScore": 70,
         "questions": [
           {
-            "id": "q1",
+            "id": "italian-b1-lavoro-e-obiettivi-grammar-1",
             "type": "mcq",
-            "prompt": "Completa: Penso che la proposta ___ utile.",
+            "prompt": "Scegli la frase più corretta per “Periodo ipotetico della possibilità”.",
+            "difficulty": "recognition",
             "options": [
               {
-                "id": "o1",
-                "text": "sia"
+                "id": "a",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "è"
+                "id": "b",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "essere"
+                "id": "c",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "sono"
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q2",
+            "id": "italian-b1-lavoro-e-obiettivi-grammar-2",
             "type": "mcq",
-            "prompt": "Scegli il connettore di contrasto.",
+            "prompt": "Scegli la frase più corretta per “Periodo ipotetico della possibilità”.",
+            "difficulty": "recognition",
             "options": [
               {
-                "id": "o1",
-                "text": "Vorrei uscire, quindi piove."
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "Vorrei uscire, tuttavia piove."
+                "id": "b",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "Vorrei uscire, perché piove."
+                "id": "c",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "Vorrei uscire, infatti piove."
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q3",
+            "id": "italian-b1-lavoro-e-obiettivi-grammar-3",
             "type": "mcq",
-            "prompt": "Completa: Resto a casa perché ___ stanco.",
+            "prompt": "Scegli la frase più corretta per “Periodo ipotetico della possibilità”.",
+            "difficulty": "recognition",
             "options": [
               {
-                "id": "o1",
-                "text": "essere"
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "sia"
+                "id": "b",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "sono"
+                "id": "c",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "sarei"
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q4",
+            "id": "italian-b1-lavoro-e-obiettivi-grammar-4",
             "type": "mcq",
-            "prompt": "Quale frase esprime un’opinione?",
+            "prompt": "Scegli la frase più corretta per “Periodo ipotetico della possibilità”.",
+            "difficulty": "application",
             "options": [
               {
-                "id": "o1",
-                "text": "Il progetto funziona perché?"
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "Il progetto ieri funziona?"
+                "id": "b",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "Funzionare progetto secondo me."
+                "id": "c",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "Secondo me, il progetto funziona."
+                "id": "d",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q5",
+            "id": "italian-b1-lavoro-e-obiettivi-grammar-5",
             "type": "mcq",
-            "prompt": "Completa: Sebbene ___ tardi, continuiamo.",
+            "prompt": "Scegli la frase più corretta per “Periodo ipotetico della possibilità”.",
+            "difficulty": "application",
             "options": [
               {
-                "id": "o1",
-                "text": "sia"
+                "id": "a",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "è"
+                "id": "b",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "essere"
+                "id": "c",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "sono"
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q6",
+            "id": "italian-b1-lavoro-e-obiettivi-grammar-6",
             "type": "mcq",
-            "prompt": "Scegli la conclusione logica.",
+            "prompt": "Scegli la frase più corretta per “Periodo ipotetico della possibilità”.",
+            "difficulty": "application",
             "options": [
               {
-                "id": "o1",
-                "text": "Abbiamo poco tempo, tuttavia organizziamo il lavoro."
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "Abbiamo poco tempo, quindi organizziamo il lavoro."
+                "id": "b",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "Abbiamo poco tempo, perché organizziamo il lavoro."
+                "id": "c",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "Abbiamo poco tempo, se organizziamo il lavoro."
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q7",
+            "id": "italian-b1-lavoro-e-obiettivi-grammar-7",
             "type": "mcq",
-            "prompt": "Completa: Credo che loro ___ ragione.",
+            "prompt": "Scegli la frase più corretta per “Periodo ipotetico della possibilità”.",
+            "difficulty": "control",
             "options": [
               {
-                "id": "o1",
-                "text": "avere"
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "hanno"
+                "id": "b",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "abbiano"
+                "id": "c",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "avranno"
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q8",
+            "id": "italian-b1-lavoro-e-obiettivi-grammar-8",
             "type": "mcq",
-            "prompt": "Quale frase giustifica una scelta?",
+            "prompt": "Scegli la frase più corretta per “Periodo ipotetico della possibilità”.",
+            "difficulty": "control",
             "options": [
               {
-                "id": "o1",
-                "text": "Scelgo il treno è più sostenibile perché?"
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "Scelgo il treno tuttavia è più sostenibile."
+                "id": "b",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "Scelgo il treno quindi è più sostenibile?"
+                "id": "c",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "Scelgo il treno perché è più sostenibile."
+                "id": "d",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-lavoro-e-obiettivi-grammar-9",
+            "type": "mcq",
+            "prompt": "Scegli la frase più corretta per “Periodo ipotetico della possibilità”.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
+              },
+              {
+                "id": "b",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
+              },
+              {
+                "id": "c",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
+              },
+              {
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-lavoro-e-obiettivi-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene alla lezione “Lavoro e obiettivi”?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "migliorare"
+              },
+              {
+                "id": "b",
+                "text": "obiettivi"
+              },
+              {
+                "id": "c",
+                "text": "aeroporto"
+              },
+              {
+                "id": "d",
+                "text": "satellite"
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-lavoro-e-obiettivi-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene alla lezione “Lavoro e obiettivi”?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "migliorare"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "scadenza"
+              },
+              {
+                "id": "d",
+                "text": "satellite"
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-lavoro-e-obiettivi-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene alla lezione “Lavoro e obiettivi”?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "migliorare"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "satellite"
+              },
+              {
+                "id": "d",
+                "text": "squadra"
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-lavoro-e-obiettivi-verbs-13",
+            "type": "mcq",
+            "prompt": "Noi ___ una soluzione dopo aver ascoltato tutti.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "proponiamo"
+              },
+              {
+                "id": "b",
+                "text": "propongono"
+              },
+              {
+                "id": "c",
+                "text": "valutano"
+              },
+              {
+                "id": "d",
+                "text": "spiega"
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-lavoro-e-obiettivi-verbs-14",
+            "type": "mcq",
+            "prompt": "Lei ___ le conseguenze prima di decidere.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "propongono"
+              },
+              {
+                "id": "b",
+                "text": "valuta"
+              },
+              {
+                "id": "c",
+                "text": "valutano"
+              },
+              {
+                "id": "d",
+                "text": "spiega"
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-lavoro-e-obiettivi-verbs-15",
+            "type": "mcq",
+            "prompt": "Loro ___ le ragioni della scelta con chiarezza.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "propongono"
+              },
+              {
+                "id": "b",
+                "text": "valutano"
+              },
+              {
+                "id": "c",
+                "text": "spiegano"
+              },
+              {
+                "id": "d",
+                "text": "spiega"
               }
             ]
           }
@@ -5078,7 +5256,372 @@
           "Ciao, come stai?"
         ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "id": "italian-a1-benvenuti-in-italia-final-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "benvenuti-in-italia-grammar-1",
+            "type": "mcq",
+            "prompt": "Scegli la frase corretta.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "Sono Sofia. / Sto a Bologna."
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "benvenuti-in-italia-grammar-2",
+            "type": "mcq",
+            "prompt": "Quale forma è corretta in questo contesto?",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Sono Sofia. / Sto a Bologna."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "benvenuti-in-italia-grammar-3",
+            "type": "mcq",
+            "prompt": "Completa la frase con la struttura studiata.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Sono Sofia. / Sto a Bologna."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "benvenuti-in-italia-grammar-4",
+            "type": "mcq",
+            "prompt": "Quale opzione usa la grammatica della lezione?",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Lei sono ieri al museo."
+              },
+              {
+                "id": "d",
+                "text": "Sono Sofia. / Sto a Bologna."
+              }
+            ]
+          },
+          {
+            "id": "benvenuti-in-italia-grammar-5",
+            "type": "mcq",
+            "prompt": "Individua la frase più naturale.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "Sono Sofia. / Sto a Bologna."
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "benvenuti-in-italia-grammar-6",
+            "type": "mcq",
+            "prompt": "Quale frase mantiene il significato corretto?",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Sono Sofia. / Sto a Bologna."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "benvenuti-in-italia-grammar-7",
+            "type": "mcq",
+            "prompt": "Scegli la forma verbale appropriata.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Sono Sofia. / Sto a Bologna."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "benvenuti-in-italia-grammar-8",
+            "type": "mcq",
+            "prompt": "Quale risposta è grammaticalmente corretta?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Lei sono ieri al museo."
+              },
+              {
+                "id": "d",
+                "text": "Sono Sofia. / Sto a Bologna."
+              }
+            ]
+          },
+          {
+            "id": "benvenuti-in-italia-grammar-9",
+            "type": "mcq",
+            "prompt": "Applica “Essere e stare: presentarsi” in una frase.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Sono Sofia. / Sto a Bologna."
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "benvenuti-in-italia-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "grazie"
+              },
+              {
+                "id": "b",
+                "text": "ciao"
+              },
+              {
+                "id": "c",
+                "text": "aeroporto"
+              },
+              {
+                "id": "d",
+                "text": "computer"
+              }
+            ]
+          },
+          {
+            "id": "benvenuti-in-italia-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "grazie"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "buongiorno"
+              },
+              {
+                "id": "d",
+                "text": "computer"
+              }
+            ]
+          },
+          {
+            "id": "benvenuti-in-italia-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "grazie"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "computer"
+              },
+              {
+                "id": "d",
+                "text": "piacere"
+              }
+            ]
+          },
+          {
+            "id": "benvenuti-in-italia-verb-13",
+            "type": "mcq",
+            "prompt": "Io ___ italiano ogni giorno.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studio"
+              },
+              {
+                "id": "b",
+                "text": "studia"
+              },
+              {
+                "id": "c",
+                "text": "parlate"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          },
+          {
+            "id": "benvenuti-in-italia-verb-14",
+            "type": "mcq",
+            "prompt": "Noi ___ insieme dopo la lezione.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studia"
+              },
+              {
+                "id": "b",
+                "text": "parliamo"
+              },
+              {
+                "id": "c",
+                "text": "parlate"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          },
+          {
+            "id": "benvenuti-in-italia-verb-15",
+            "type": "mcq",
+            "prompt": "Lei ___ una frase completa.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studia"
+              },
+              {
+                "id": "b",
+                "text": "parlate"
+              },
+              {
+                "id": "c",
+                "text": "scrive"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
@@ -5158,7 +5701,372 @@
           "Di solito prendo l’autobus."
         ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "id": "italian-a2-vita-in-citta-final-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "vita-in-citta-grammar-1",
+            "type": "mcq",
+            "prompt": "Scegli la frase corretta.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "Di solito prendo l’autobus."
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "vita-in-citta-grammar-2",
+            "type": "mcq",
+            "prompt": "Quale forma è corretta in questo contesto?",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Di solito prendo l’autobus."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "vita-in-citta-grammar-3",
+            "type": "mcq",
+            "prompt": "Completa la frase con la struttura studiata.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Di solito prendo l’autobus."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "vita-in-citta-grammar-4",
+            "type": "mcq",
+            "prompt": "Quale opzione usa la grammatica della lezione?",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Lei sono ieri al museo."
+              },
+              {
+                "id": "d",
+                "text": "Di solito prendo l’autobus."
+              }
+            ]
+          },
+          {
+            "id": "vita-in-citta-grammar-5",
+            "type": "mcq",
+            "prompt": "Individua la frase più naturale.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "Di solito prendo l’autobus."
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "vita-in-citta-grammar-6",
+            "type": "mcq",
+            "prompt": "Quale frase mantiene il significato corretto?",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Di solito prendo l’autobus."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "vita-in-citta-grammar-7",
+            "type": "mcq",
+            "prompt": "Scegli la forma verbale appropriata.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Di solito prendo l’autobus."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "vita-in-citta-grammar-8",
+            "type": "mcq",
+            "prompt": "Quale risposta è grammaticalmente corretta?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Lei sono ieri al museo."
+              },
+              {
+                "id": "d",
+                "text": "Di solito prendo l’autobus."
+              }
+            ]
+          },
+          {
+            "id": "vita-in-citta-grammar-9",
+            "type": "mcq",
+            "prompt": "Applica “Avverbi di frequenza” in una frase.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Di solito prendo l’autobus."
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "vita-in-citta-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "servizio"
+              },
+              {
+                "id": "b",
+                "text": "quartiere"
+              },
+              {
+                "id": "c",
+                "text": "aeroporto"
+              },
+              {
+                "id": "d",
+                "text": "computer"
+              }
+            ]
+          },
+          {
+            "id": "vita-in-citta-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "servizio"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "fermata"
+              },
+              {
+                "id": "d",
+                "text": "computer"
+              }
+            ]
+          },
+          {
+            "id": "vita-in-citta-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "servizio"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "computer"
+              },
+              {
+                "id": "d",
+                "text": "ufficio"
+              }
+            ]
+          },
+          {
+            "id": "vita-in-citta-verb-13",
+            "type": "mcq",
+            "prompt": "Io ___ italiano ogni giorno.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studio"
+              },
+              {
+                "id": "b",
+                "text": "studia"
+              },
+              {
+                "id": "c",
+                "text": "parlate"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          },
+          {
+            "id": "vita-in-citta-verb-14",
+            "type": "mcq",
+            "prompt": "Noi ___ insieme dopo la lezione.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studia"
+              },
+              {
+                "id": "b",
+                "text": "parliamo"
+              },
+              {
+                "id": "c",
+                "text": "parlate"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          },
+          {
+            "id": "vita-in-citta-verb-15",
+            "type": "mcq",
+            "prompt": "Lei ___ una frase completa.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studia"
+              },
+              {
+                "id": "b",
+                "text": "parlate"
+              },
+              {
+                "id": "c",
+                "text": "scrive"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
@@ -6158,197 +7066,375 @@
     "extra": {
       "grammarProfile": {
         "name": "Pronomi combinati",
-        "definition": "Connettori, opinioni e ipotesi aiutano a costruire un argomento.",
+        "definition": "Práctica guiada de Pronomi combinati.",
         "structure": "opinione + perché/tuttavia/quindi + motivazione",
-        "function": "Esprimere e giustificare un punto di vista.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Penso che la proposta sia utile.",
           "Tuttavia dobbiamo valutare i risultati."
         ]
       },
       "grammarTest": {
+        "id": "italian-b1-viaggi-consapevoli-final-test",
+        "passingScore": 70,
         "questions": [
           {
-            "id": "q1",
+            "id": "italian-b1-viaggi-consapevoli-grammar-1",
             "type": "mcq",
-            "prompt": "Completa: Penso che la proposta ___ utile.",
+            "prompt": "Scegli la frase più corretta per “Pronomi combinati”.",
+            "difficulty": "recognition",
             "options": [
               {
-                "id": "o1",
-                "text": "sia"
+                "id": "a",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "è"
+                "id": "b",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "essere"
+                "id": "c",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "sono"
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q2",
+            "id": "italian-b1-viaggi-consapevoli-grammar-2",
             "type": "mcq",
-            "prompt": "Scegli il connettore di contrasto.",
+            "prompt": "Scegli la frase più corretta per “Pronomi combinati”.",
+            "difficulty": "recognition",
             "options": [
               {
-                "id": "o1",
-                "text": "Vorrei uscire, quindi piove."
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "Vorrei uscire, tuttavia piove."
+                "id": "b",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "Vorrei uscire, perché piove."
+                "id": "c",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "Vorrei uscire, infatti piove."
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q3",
+            "id": "italian-b1-viaggi-consapevoli-grammar-3",
             "type": "mcq",
-            "prompt": "Completa: Resto a casa perché ___ stanco.",
+            "prompt": "Scegli la frase più corretta per “Pronomi combinati”.",
+            "difficulty": "recognition",
             "options": [
               {
-                "id": "o1",
-                "text": "essere"
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "sia"
+                "id": "b",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "sono"
+                "id": "c",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "sarei"
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q4",
+            "id": "italian-b1-viaggi-consapevoli-grammar-4",
             "type": "mcq",
-            "prompt": "Quale frase esprime un’opinione?",
+            "prompt": "Scegli la frase più corretta per “Pronomi combinati”.",
+            "difficulty": "application",
             "options": [
               {
-                "id": "o1",
-                "text": "Il progetto funziona perché?"
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "Il progetto ieri funziona?"
+                "id": "b",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "Funzionare progetto secondo me."
+                "id": "c",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "Secondo me, il progetto funziona."
+                "id": "d",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q5",
+            "id": "italian-b1-viaggi-consapevoli-grammar-5",
             "type": "mcq",
-            "prompt": "Completa: Sebbene ___ tardi, continuiamo.",
+            "prompt": "Scegli la frase più corretta per “Pronomi combinati”.",
+            "difficulty": "application",
             "options": [
               {
-                "id": "o1",
-                "text": "sia"
+                "id": "a",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "è"
+                "id": "b",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "essere"
+                "id": "c",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "sono"
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q6",
+            "id": "italian-b1-viaggi-consapevoli-grammar-6",
             "type": "mcq",
-            "prompt": "Scegli la conclusione logica.",
+            "prompt": "Scegli la frase più corretta per “Pronomi combinati”.",
+            "difficulty": "application",
             "options": [
               {
-                "id": "o1",
-                "text": "Abbiamo poco tempo, tuttavia organizziamo il lavoro."
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "Abbiamo poco tempo, quindi organizziamo il lavoro."
+                "id": "b",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "Abbiamo poco tempo, perché organizziamo il lavoro."
+                "id": "c",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "Abbiamo poco tempo, se organizziamo il lavoro."
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q7",
+            "id": "italian-b1-viaggi-consapevoli-grammar-7",
             "type": "mcq",
-            "prompt": "Completa: Credo che loro ___ ragione.",
+            "prompt": "Scegli la frase più corretta per “Pronomi combinati”.",
+            "difficulty": "control",
             "options": [
               {
-                "id": "o1",
-                "text": "avere"
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "hanno"
+                "id": "b",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "abbiano"
+                "id": "c",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "avranno"
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q8",
+            "id": "italian-b1-viaggi-consapevoli-grammar-8",
             "type": "mcq",
-            "prompt": "Quale frase giustifica una scelta?",
+            "prompt": "Scegli la frase più corretta per “Pronomi combinati”.",
+            "difficulty": "control",
             "options": [
               {
-                "id": "o1",
-                "text": "Scelgo il treno è più sostenibile perché?"
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "Scelgo il treno tuttavia è più sostenibile."
+                "id": "b",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "Scelgo il treno quindi è più sostenibile?"
+                "id": "c",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "Scelgo il treno perché è più sostenibile."
+                "id": "d",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-viaggi-consapevoli-grammar-9",
+            "type": "mcq",
+            "prompt": "Scegli la frase più corretta per “Pronomi combinati”.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
+              },
+              {
+                "id": "b",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
+              },
+              {
+                "id": "c",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
+              },
+              {
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-viaggi-consapevoli-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene alla lezione “Viaggi consapevoli”?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "evitare"
+              },
+              {
+                "id": "b",
+                "text": "itinerario"
+              },
+              {
+                "id": "c",
+                "text": "aeroporto"
+              },
+              {
+                "id": "d",
+                "text": "satellite"
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-viaggi-consapevoli-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene alla lezione “Viaggi consapevoli”?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "evitare"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "prenotazione"
+              },
+              {
+                "id": "d",
+                "text": "satellite"
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-viaggi-consapevoli-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene alla lezione “Viaggi consapevoli”?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "evitare"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "satellite"
+              },
+              {
+                "id": "d",
+                "text": "paesaggio"
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-viaggi-consapevoli-verbs-13",
+            "type": "mcq",
+            "prompt": "Noi ___ una soluzione dopo aver ascoltato tutti.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "proponiamo"
+              },
+              {
+                "id": "b",
+                "text": "propongono"
+              },
+              {
+                "id": "c",
+                "text": "valutano"
+              },
+              {
+                "id": "d",
+                "text": "spiega"
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-viaggi-consapevoli-verbs-14",
+            "type": "mcq",
+            "prompt": "Lei ___ le conseguenze prima di decidere.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "propongono"
+              },
+              {
+                "id": "b",
+                "text": "valuta"
+              },
+              {
+                "id": "c",
+                "text": "valutano"
+              },
+              {
+                "id": "d",
+                "text": "spiega"
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-viaggi-consapevoli-verbs-15",
+            "type": "mcq",
+            "prompt": "Loro ___ le ragioni della scelta con chiarezza.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "propongono"
+              },
+              {
+                "id": "b",
+                "text": "valutano"
+              },
+              {
+                "id": "c",
+                "text": "spiegano"
+              },
+              {
+                "id": "d",
+                "text": "spiega"
               }
             ]
           }
@@ -10066,7 +11152,372 @@
           "Un caffè, per favore."
         ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "id": "italian-a1-un-caffe-al-bar-final-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "un-caffe-al-bar-grammar-1",
+            "type": "mcq",
+            "prompt": "Scegli la frase corretta.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "un caffè / un’acqua / i panini"
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "un-caffe-al-bar-grammar-2",
+            "type": "mcq",
+            "prompt": "Quale forma è corretta in questo contesto?",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "un caffè / un’acqua / i panini"
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "un-caffe-al-bar-grammar-3",
+            "type": "mcq",
+            "prompt": "Completa la frase con la struttura studiata.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "un caffè / un’acqua / i panini"
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "un-caffe-al-bar-grammar-4",
+            "type": "mcq",
+            "prompt": "Quale opzione usa la grammatica della lezione?",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Lei sono ieri al museo."
+              },
+              {
+                "id": "d",
+                "text": "un caffè / un’acqua / i panini"
+              }
+            ]
+          },
+          {
+            "id": "un-caffe-al-bar-grammar-5",
+            "type": "mcq",
+            "prompt": "Individua la frase più naturale.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "un caffè / un’acqua / i panini"
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "un-caffe-al-bar-grammar-6",
+            "type": "mcq",
+            "prompt": "Quale frase mantiene il significato corretto?",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "un caffè / un’acqua / i panini"
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "un-caffe-al-bar-grammar-7",
+            "type": "mcq",
+            "prompt": "Scegli la forma verbale appropriata.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "un caffè / un’acqua / i panini"
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "un-caffe-al-bar-grammar-8",
+            "type": "mcq",
+            "prompt": "Quale risposta è grammaticalmente corretta?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Lei sono ieri al museo."
+              },
+              {
+                "id": "d",
+                "text": "un caffè / un’acqua / i panini"
+              }
+            ]
+          },
+          {
+            "id": "un-caffe-al-bar-grammar-9",
+            "type": "mcq",
+            "prompt": "Applica “Articoli e genere” in una frase.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "un caffè / un’acqua / i panini"
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "un-caffe-al-bar-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "grazie"
+              },
+              {
+                "id": "b",
+                "text": "caffè"
+              },
+              {
+                "id": "c",
+                "text": "aeroporto"
+              },
+              {
+                "id": "d",
+                "text": "computer"
+              }
+            ]
+          },
+          {
+            "id": "un-caffe-al-bar-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "grazie"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "acqua"
+              },
+              {
+                "id": "d",
+                "text": "computer"
+              }
+            ]
+          },
+          {
+            "id": "un-caffe-al-bar-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "grazie"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "computer"
+              },
+              {
+                "id": "d",
+                "text": "per favore"
+              }
+            ]
+          },
+          {
+            "id": "un-caffe-al-bar-verb-13",
+            "type": "mcq",
+            "prompt": "Io ___ italiano ogni giorno.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studio"
+              },
+              {
+                "id": "b",
+                "text": "studia"
+              },
+              {
+                "id": "c",
+                "text": "parlate"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          },
+          {
+            "id": "un-caffe-al-bar-verb-14",
+            "type": "mcq",
+            "prompt": "Noi ___ insieme dopo la lezione.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studia"
+              },
+              {
+                "id": "b",
+                "text": "parliamo"
+              },
+              {
+                "id": "c",
+                "text": "parlate"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          },
+          {
+            "id": "un-caffe-al-bar-verb-15",
+            "type": "mcq",
+            "prompt": "Lei ___ una frase completa.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studia"
+              },
+              {
+                "id": "b",
+                "text": "parlate"
+              },
+              {
+                "id": "c",
+                "text": "scrive"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
@@ -10146,7 +11597,372 @@
           "Vorrei visitare il museo."
         ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "id": "italian-a2-un-fine-settimana-a-napoli-final-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "un-fine-settimana-a-napoli-grammar-1",
+            "type": "mcq",
+            "prompt": "Scegli la frase corretta.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "Sto per visitare il museo."
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "un-fine-settimana-a-napoli-grammar-2",
+            "type": "mcq",
+            "prompt": "Quale forma è corretta in questo contesto?",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Sto per visitare il museo."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "un-fine-settimana-a-napoli-grammar-3",
+            "type": "mcq",
+            "prompt": "Completa la frase con la struttura studiata.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Sto per visitare il museo."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "un-fine-settimana-a-napoli-grammar-4",
+            "type": "mcq",
+            "prompt": "Quale opzione usa la grammatica della lezione?",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Lei sono ieri al museo."
+              },
+              {
+                "id": "d",
+                "text": "Sto per visitare il museo."
+              }
+            ]
+          },
+          {
+            "id": "un-fine-settimana-a-napoli-grammar-5",
+            "type": "mcq",
+            "prompt": "Individua la frase più naturale.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "Sto per visitare il museo."
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "un-fine-settimana-a-napoli-grammar-6",
+            "type": "mcq",
+            "prompt": "Quale frase mantiene il significato corretto?",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Sto per visitare il museo."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "un-fine-settimana-a-napoli-grammar-7",
+            "type": "mcq",
+            "prompt": "Scegli la forma verbale appropriata.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Sto per visitare il museo."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "un-fine-settimana-a-napoli-grammar-8",
+            "type": "mcq",
+            "prompt": "Quale risposta è grammaticalmente corretta?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Lei sono ieri al museo."
+              },
+              {
+                "id": "d",
+                "text": "Sto per visitare il museo."
+              }
+            ]
+          },
+          {
+            "id": "un-fine-settimana-a-napoli-grammar-9",
+            "type": "mcq",
+            "prompt": "Applica “Futuro con stare per” in una frase.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Sto per visitare il museo."
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "un-fine-settimana-a-napoli-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "visita"
+              },
+              {
+                "id": "b",
+                "text": "museo"
+              },
+              {
+                "id": "c",
+                "text": "aeroporto"
+              },
+              {
+                "id": "d",
+                "text": "computer"
+              }
+            ]
+          },
+          {
+            "id": "un-fine-settimana-a-napoli-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "visita"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "passeggiata"
+              },
+              {
+                "id": "d",
+                "text": "computer"
+              }
+            ]
+          },
+          {
+            "id": "un-fine-settimana-a-napoli-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "visita"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "computer"
+              },
+              {
+                "id": "d",
+                "text": "prenotazione"
+              }
+            ]
+          },
+          {
+            "id": "un-fine-settimana-a-napoli-verb-13",
+            "type": "mcq",
+            "prompt": "Io ___ italiano ogni giorno.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studio"
+              },
+              {
+                "id": "b",
+                "text": "studia"
+              },
+              {
+                "id": "c",
+                "text": "parlate"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          },
+          {
+            "id": "un-fine-settimana-a-napoli-verb-14",
+            "type": "mcq",
+            "prompt": "Noi ___ insieme dopo la lezione.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studia"
+              },
+              {
+                "id": "b",
+                "text": "parliamo"
+              },
+              {
+                "id": "c",
+                "text": "parlate"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          },
+          {
+            "id": "un-fine-settimana-a-napoli-verb-15",
+            "type": "mcq",
+            "prompt": "Lei ___ una frase completa.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studia"
+              },
+              {
+                "id": "b",
+                "text": "parlate"
+              },
+              {
+                "id": "c",
+                "text": "scrive"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
@@ -11146,197 +12962,375 @@
     "extra": {
       "grammarProfile": {
         "name": "Congiuntivo presente",
-        "definition": "Connettori, opinioni e ipotesi aiutano a costruire un argomento.",
+        "definition": "Práctica guiada de Congiuntivo presente.",
         "structure": "opinione + perché/tuttavia/quindi + motivazione",
-        "function": "Esprimere e giustificare un punto di vista.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Penso che la proposta sia utile.",
           "Tuttavia dobbiamo valutare i risultati."
         ]
       },
       "grammarTest": {
+        "id": "italian-b1-salute-e-benessere-final-test",
+        "passingScore": 70,
         "questions": [
           {
-            "id": "q1",
+            "id": "italian-b1-salute-e-benessere-grammar-1",
             "type": "mcq",
-            "prompt": "Completa: Penso che la proposta ___ utile.",
+            "prompt": "Scegli la frase più corretta per “Congiuntivo presente”.",
+            "difficulty": "recognition",
             "options": [
               {
-                "id": "o1",
-                "text": "sia"
+                "id": "a",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "è"
+                "id": "b",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "essere"
+                "id": "c",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "sono"
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q2",
+            "id": "italian-b1-salute-e-benessere-grammar-2",
             "type": "mcq",
-            "prompt": "Scegli il connettore di contrasto.",
+            "prompt": "Scegli la frase più corretta per “Congiuntivo presente”.",
+            "difficulty": "recognition",
             "options": [
               {
-                "id": "o1",
-                "text": "Vorrei uscire, quindi piove."
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "Vorrei uscire, tuttavia piove."
+                "id": "b",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "Vorrei uscire, perché piove."
+                "id": "c",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "Vorrei uscire, infatti piove."
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q3",
+            "id": "italian-b1-salute-e-benessere-grammar-3",
             "type": "mcq",
-            "prompt": "Completa: Resto a casa perché ___ stanco.",
+            "prompt": "Scegli la frase più corretta per “Congiuntivo presente”.",
+            "difficulty": "recognition",
             "options": [
               {
-                "id": "o1",
-                "text": "essere"
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "sia"
+                "id": "b",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "sono"
+                "id": "c",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "sarei"
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q4",
+            "id": "italian-b1-salute-e-benessere-grammar-4",
             "type": "mcq",
-            "prompt": "Quale frase esprime un’opinione?",
+            "prompt": "Scegli la frase più corretta per “Congiuntivo presente”.",
+            "difficulty": "application",
             "options": [
               {
-                "id": "o1",
-                "text": "Il progetto funziona perché?"
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "Il progetto ieri funziona?"
+                "id": "b",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "Funzionare progetto secondo me."
+                "id": "c",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "Secondo me, il progetto funziona."
+                "id": "d",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q5",
+            "id": "italian-b1-salute-e-benessere-grammar-5",
             "type": "mcq",
-            "prompt": "Completa: Sebbene ___ tardi, continuiamo.",
+            "prompt": "Scegli la frase più corretta per “Congiuntivo presente”.",
+            "difficulty": "application",
             "options": [
               {
-                "id": "o1",
-                "text": "sia"
+                "id": "a",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "è"
+                "id": "b",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "essere"
+                "id": "c",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "sono"
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q6",
+            "id": "italian-b1-salute-e-benessere-grammar-6",
             "type": "mcq",
-            "prompt": "Scegli la conclusione logica.",
+            "prompt": "Scegli la frase più corretta per “Congiuntivo presente”.",
+            "difficulty": "application",
             "options": [
               {
-                "id": "o1",
-                "text": "Abbiamo poco tempo, tuttavia organizziamo il lavoro."
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "Abbiamo poco tempo, quindi organizziamo il lavoro."
+                "id": "b",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "Abbiamo poco tempo, perché organizziamo il lavoro."
+                "id": "c",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "Abbiamo poco tempo, se organizziamo il lavoro."
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q7",
+            "id": "italian-b1-salute-e-benessere-grammar-7",
             "type": "mcq",
-            "prompt": "Completa: Credo che loro ___ ragione.",
+            "prompt": "Scegli la frase più corretta per “Congiuntivo presente”.",
+            "difficulty": "control",
             "options": [
               {
-                "id": "o1",
-                "text": "avere"
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "hanno"
+                "id": "b",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "abbiano"
+                "id": "c",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "avranno"
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q8",
+            "id": "italian-b1-salute-e-benessere-grammar-8",
             "type": "mcq",
-            "prompt": "Quale frase giustifica una scelta?",
+            "prompt": "Scegli la frase più corretta per “Congiuntivo presente”.",
+            "difficulty": "control",
             "options": [
               {
-                "id": "o1",
-                "text": "Scelgo il treno è più sostenibile perché?"
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "Scelgo il treno tuttavia è più sostenibile."
+                "id": "b",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "Scelgo il treno quindi è più sostenibile?"
+                "id": "c",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "Scelgo il treno perché è più sostenibile."
+                "id": "d",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-salute-e-benessere-grammar-9",
+            "type": "mcq",
+            "prompt": "Scegli la frase più corretta per “Congiuntivo presente”.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
+              },
+              {
+                "id": "b",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
+              },
+              {
+                "id": "c",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
+              },
+              {
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-salute-e-benessere-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene alla lezione “Salute e benessere”?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "equilibrio"
+              },
+              {
+                "id": "b",
+                "text": "benessere"
+              },
+              {
+                "id": "c",
+                "text": "aeroporto"
+              },
+              {
+                "id": "d",
+                "text": "satellite"
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-salute-e-benessere-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene alla lezione “Salute e benessere”?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "equilibrio"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "riposo"
+              },
+              {
+                "id": "d",
+                "text": "satellite"
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-salute-e-benessere-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene alla lezione “Salute e benessere”?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "equilibrio"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "satellite"
+              },
+              {
+                "id": "d",
+                "text": "allenamento"
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-salute-e-benessere-verbs-13",
+            "type": "mcq",
+            "prompt": "Noi ___ una soluzione dopo aver ascoltato tutti.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "proponiamo"
+              },
+              {
+                "id": "b",
+                "text": "propongono"
+              },
+              {
+                "id": "c",
+                "text": "valutano"
+              },
+              {
+                "id": "d",
+                "text": "spiega"
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-salute-e-benessere-verbs-14",
+            "type": "mcq",
+            "prompt": "Lei ___ le conseguenze prima di decidere.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "propongono"
+              },
+              {
+                "id": "b",
+                "text": "valuta"
+              },
+              {
+                "id": "c",
+                "text": "valutano"
+              },
+              {
+                "id": "d",
+                "text": "spiega"
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-salute-e-benessere-verbs-15",
+            "type": "mcq",
+            "prompt": "Loro ___ le ragioni della scelta con chiarezza.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "propongono"
+              },
+              {
+                "id": "b",
+                "text": "valutano"
+              },
+              {
+                "id": "c",
+                "text": "spiegano"
+              },
+              {
+                "id": "d",
+                "text": "spiega"
               }
             ]
           }
@@ -15052,7 +17046,372 @@
           "Ceniamo insieme."
         ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "id": "italian-a1-la-famiglia-a-tavola-final-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "la-famiglia-a-tavola-grammar-1",
+            "type": "mcq",
+            "prompt": "Scegli la frase corretta.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "La famiglia cena insieme."
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "la-famiglia-a-tavola-grammar-2",
+            "type": "mcq",
+            "prompt": "Quale forma è corretta in questo contesto?",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "La famiglia cena insieme."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "la-famiglia-a-tavola-grammar-3",
+            "type": "mcq",
+            "prompt": "Completa la frase con la struttura studiata.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "La famiglia cena insieme."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "la-famiglia-a-tavola-grammar-4",
+            "type": "mcq",
+            "prompt": "Quale opzione usa la grammatica della lezione?",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Lei sono ieri al museo."
+              },
+              {
+                "id": "d",
+                "text": "La famiglia cena insieme."
+              }
+            ]
+          },
+          {
+            "id": "la-famiglia-a-tavola-grammar-5",
+            "type": "mcq",
+            "prompt": "Individua la frase più naturale.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "La famiglia cena insieme."
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "la-famiglia-a-tavola-grammar-6",
+            "type": "mcq",
+            "prompt": "Quale frase mantiene il significato corretto?",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "La famiglia cena insieme."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "la-famiglia-a-tavola-grammar-7",
+            "type": "mcq",
+            "prompt": "Scegli la forma verbale appropriata.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "La famiglia cena insieme."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "la-famiglia-a-tavola-grammar-8",
+            "type": "mcq",
+            "prompt": "Quale risposta è grammaticalmente corretta?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Lei sono ieri al museo."
+              },
+              {
+                "id": "d",
+                "text": "La famiglia cena insieme."
+              }
+            ]
+          },
+          {
+            "id": "la-famiglia-a-tavola-grammar-9",
+            "type": "mcq",
+            "prompt": "Applica “Presente indicativo” in una frase.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "La famiglia cena insieme."
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "la-famiglia-a-tavola-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "insieme"
+              },
+              {
+                "id": "b",
+                "text": "famiglia"
+              },
+              {
+                "id": "c",
+                "text": "aeroporto"
+              },
+              {
+                "id": "d",
+                "text": "computer"
+              }
+            ]
+          },
+          {
+            "id": "la-famiglia-a-tavola-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "insieme"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "cena"
+              },
+              {
+                "id": "d",
+                "text": "computer"
+              }
+            ]
+          },
+          {
+            "id": "la-famiglia-a-tavola-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "insieme"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "computer"
+              },
+              {
+                "id": "d",
+                "text": "tavola"
+              }
+            ]
+          },
+          {
+            "id": "la-famiglia-a-tavola-verb-13",
+            "type": "mcq",
+            "prompt": "Io ___ italiano ogni giorno.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studio"
+              },
+              {
+                "id": "b",
+                "text": "studia"
+              },
+              {
+                "id": "c",
+                "text": "parlate"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          },
+          {
+            "id": "la-famiglia-a-tavola-verb-14",
+            "type": "mcq",
+            "prompt": "Noi ___ insieme dopo la lezione.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studia"
+              },
+              {
+                "id": "b",
+                "text": "parliamo"
+              },
+              {
+                "id": "c",
+                "text": "parlate"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          },
+          {
+            "id": "la-famiglia-a-tavola-verb-15",
+            "type": "mcq",
+            "prompt": "Lei ___ una frase completa.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studia"
+              },
+              {
+                "id": "b",
+                "text": "parlate"
+              },
+              {
+                "id": "c",
+                "text": "scrive"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
@@ -15132,7 +17491,372 @@
           "Prima taglio le verdure."
         ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "id": "italian-a2-ricette-di-famiglia-final-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "ricette-di-famiglia-grammar-1",
+            "type": "mcq",
+            "prompt": "Scegli la frase corretta.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "Prima taglio le verdure, poi cucino."
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "ricette-di-famiglia-grammar-2",
+            "type": "mcq",
+            "prompt": "Quale forma è corretta in questo contesto?",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Prima taglio le verdure, poi cucino."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "ricette-di-famiglia-grammar-3",
+            "type": "mcq",
+            "prompt": "Completa la frase con la struttura studiata.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Prima taglio le verdure, poi cucino."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "ricette-di-famiglia-grammar-4",
+            "type": "mcq",
+            "prompt": "Quale opzione usa la grammatica della lezione?",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Lei sono ieri al museo."
+              },
+              {
+                "id": "d",
+                "text": "Prima taglio le verdure, poi cucino."
+              }
+            ]
+          },
+          {
+            "id": "ricette-di-famiglia-grammar-5",
+            "type": "mcq",
+            "prompt": "Individua la frase più naturale.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "Prima taglio le verdure, poi cucino."
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "ricette-di-famiglia-grammar-6",
+            "type": "mcq",
+            "prompt": "Quale frase mantiene il significato corretto?",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Prima taglio le verdure, poi cucino."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "ricette-di-famiglia-grammar-7",
+            "type": "mcq",
+            "prompt": "Scegli la forma verbale appropriata.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Prima taglio le verdure, poi cucino."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "ricette-di-famiglia-grammar-8",
+            "type": "mcq",
+            "prompt": "Quale risposta è grammaticalmente corretta?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Lei sono ieri al museo."
+              },
+              {
+                "id": "d",
+                "text": "Prima taglio le verdure, poi cucino."
+              }
+            ]
+          },
+          {
+            "id": "ricette-di-famiglia-grammar-9",
+            "type": "mcq",
+            "prompt": "Applica “Connettori di sequenza” in una frase.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Prima taglio le verdure, poi cucino."
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "ricette-di-famiglia-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "dopo"
+              },
+              {
+                "id": "b",
+                "text": "ricetta"
+              },
+              {
+                "id": "c",
+                "text": "aeroporto"
+              },
+              {
+                "id": "d",
+                "text": "computer"
+              }
+            ]
+          },
+          {
+            "id": "ricette-di-famiglia-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "dopo"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "ingrediente"
+              },
+              {
+                "id": "d",
+                "text": "computer"
+              }
+            ]
+          },
+          {
+            "id": "ricette-di-famiglia-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "dopo"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "computer"
+              },
+              {
+                "id": "d",
+                "text": "prima"
+              }
+            ]
+          },
+          {
+            "id": "ricette-di-famiglia-verb-13",
+            "type": "mcq",
+            "prompt": "Io ___ italiano ogni giorno.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studio"
+              },
+              {
+                "id": "b",
+                "text": "studia"
+              },
+              {
+                "id": "c",
+                "text": "parlate"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          },
+          {
+            "id": "ricette-di-famiglia-verb-14",
+            "type": "mcq",
+            "prompt": "Noi ___ insieme dopo la lezione.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studia"
+              },
+              {
+                "id": "b",
+                "text": "parliamo"
+              },
+              {
+                "id": "c",
+                "text": "parlate"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          },
+          {
+            "id": "ricette-di-famiglia-verb-15",
+            "type": "mcq",
+            "prompt": "Lei ___ una frase completa.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studia"
+              },
+              {
+                "id": "b",
+                "text": "parlate"
+              },
+              {
+                "id": "c",
+                "text": "scrive"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
@@ -16132,197 +18856,375 @@
     "extra": {
       "grammarProfile": {
         "name": "Discorso indiretto",
-        "definition": "Connettori, opinioni e ipotesi aiutano a costruire un argomento.",
+        "definition": "Práctica guiada de Discorso indiretto.",
         "structure": "opinione + perché/tuttavia/quindi + motivazione",
-        "function": "Esprimere e giustificare un punto di vista.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Penso che la proposta sia utile.",
           "Tuttavia dobbiamo valutare i risultati."
         ]
       },
       "grammarTest": {
+        "id": "italian-b1-cultura-e-media-final-test",
+        "passingScore": 70,
         "questions": [
           {
-            "id": "q1",
+            "id": "italian-b1-cultura-e-media-grammar-1",
             "type": "mcq",
-            "prompt": "Completa: Penso che la proposta ___ utile.",
+            "prompt": "Scegli la frase più corretta per “Discorso indiretto”.",
+            "difficulty": "recognition",
             "options": [
               {
-                "id": "o1",
-                "text": "sia"
+                "id": "a",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "è"
+                "id": "b",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "essere"
+                "id": "c",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "sono"
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q2",
+            "id": "italian-b1-cultura-e-media-grammar-2",
             "type": "mcq",
-            "prompt": "Scegli il connettore di contrasto.",
+            "prompt": "Scegli la frase più corretta per “Discorso indiretto”.",
+            "difficulty": "recognition",
             "options": [
               {
-                "id": "o1",
-                "text": "Vorrei uscire, quindi piove."
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "Vorrei uscire, tuttavia piove."
+                "id": "b",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "Vorrei uscire, perché piove."
+                "id": "c",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "Vorrei uscire, infatti piove."
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q3",
+            "id": "italian-b1-cultura-e-media-grammar-3",
             "type": "mcq",
-            "prompt": "Completa: Resto a casa perché ___ stanco.",
+            "prompt": "Scegli la frase più corretta per “Discorso indiretto”.",
+            "difficulty": "recognition",
             "options": [
               {
-                "id": "o1",
-                "text": "essere"
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "sia"
+                "id": "b",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "sono"
+                "id": "c",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "sarei"
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q4",
+            "id": "italian-b1-cultura-e-media-grammar-4",
             "type": "mcq",
-            "prompt": "Quale frase esprime un’opinione?",
+            "prompt": "Scegli la frase più corretta per “Discorso indiretto”.",
+            "difficulty": "application",
             "options": [
               {
-                "id": "o1",
-                "text": "Il progetto funziona perché?"
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "Il progetto ieri funziona?"
+                "id": "b",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "Funzionare progetto secondo me."
+                "id": "c",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "Secondo me, il progetto funziona."
+                "id": "d",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q5",
+            "id": "italian-b1-cultura-e-media-grammar-5",
             "type": "mcq",
-            "prompt": "Completa: Sebbene ___ tardi, continuiamo.",
+            "prompt": "Scegli la frase più corretta per “Discorso indiretto”.",
+            "difficulty": "application",
             "options": [
               {
-                "id": "o1",
-                "text": "sia"
+                "id": "a",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "è"
+                "id": "b",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "essere"
+                "id": "c",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "sono"
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q6",
+            "id": "italian-b1-cultura-e-media-grammar-6",
             "type": "mcq",
-            "prompt": "Scegli la conclusione logica.",
+            "prompt": "Scegli la frase più corretta per “Discorso indiretto”.",
+            "difficulty": "application",
             "options": [
               {
-                "id": "o1",
-                "text": "Abbiamo poco tempo, tuttavia organizziamo il lavoro."
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "Abbiamo poco tempo, quindi organizziamo il lavoro."
+                "id": "b",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "Abbiamo poco tempo, perché organizziamo il lavoro."
+                "id": "c",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "Abbiamo poco tempo, se organizziamo il lavoro."
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q7",
+            "id": "italian-b1-cultura-e-media-grammar-7",
             "type": "mcq",
-            "prompt": "Completa: Credo che loro ___ ragione.",
+            "prompt": "Scegli la frase più corretta per “Discorso indiretto”.",
+            "difficulty": "control",
             "options": [
               {
-                "id": "o1",
-                "text": "avere"
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "hanno"
+                "id": "b",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "abbiano"
+                "id": "c",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "avranno"
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q8",
+            "id": "italian-b1-cultura-e-media-grammar-8",
             "type": "mcq",
-            "prompt": "Quale frase giustifica una scelta?",
+            "prompt": "Scegli la frase più corretta per “Discorso indiretto”.",
+            "difficulty": "control",
             "options": [
               {
-                "id": "o1",
-                "text": "Scelgo il treno è più sostenibile perché?"
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "Scelgo il treno tuttavia è più sostenibile."
+                "id": "b",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "Scelgo il treno quindi è più sostenibile?"
+                "id": "c",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "Scelgo il treno perché è più sostenibile."
+                "id": "d",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-cultura-e-media-grammar-9",
+            "type": "mcq",
+            "prompt": "Scegli la frase più corretta per “Discorso indiretto”.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
+              },
+              {
+                "id": "b",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
+              },
+              {
+                "id": "c",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
+              },
+              {
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-cultura-e-media-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene alla lezione “Cultura e media”?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "opinione"
+              },
+              {
+                "id": "b",
+                "text": "notizia"
+              },
+              {
+                "id": "c",
+                "text": "aeroporto"
+              },
+              {
+                "id": "d",
+                "text": "satellite"
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-cultura-e-media-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene alla lezione “Cultura e media”?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "opinione"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "fonte"
+              },
+              {
+                "id": "d",
+                "text": "satellite"
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-cultura-e-media-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene alla lezione “Cultura e media”?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "opinione"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "satellite"
+              },
+              {
+                "id": "d",
+                "text": "pubblico"
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-cultura-e-media-verbs-13",
+            "type": "mcq",
+            "prompt": "Noi ___ una soluzione dopo aver ascoltato tutti.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "proponiamo"
+              },
+              {
+                "id": "b",
+                "text": "propongono"
+              },
+              {
+                "id": "c",
+                "text": "valutano"
+              },
+              {
+                "id": "d",
+                "text": "spiega"
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-cultura-e-media-verbs-14",
+            "type": "mcq",
+            "prompt": "Lei ___ le conseguenze prima di decidere.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "propongono"
+              },
+              {
+                "id": "b",
+                "text": "valuta"
+              },
+              {
+                "id": "c",
+                "text": "valutano"
+              },
+              {
+                "id": "d",
+                "text": "spiega"
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-cultura-e-media-verbs-15",
+            "type": "mcq",
+            "prompt": "Loro ___ le ragioni della scelta con chiarezza.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "propongono"
+              },
+              {
+                "id": "b",
+                "text": "valutano"
+              },
+              {
+                "id": "c",
+                "text": "spiegano"
+              },
+              {
+                "id": "d",
+                "text": "spiega"
               }
             ]
           }
@@ -20036,7 +22938,372 @@
           "Quanto costa un chilo?"
         ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "id": "italian-a1-il-mercato-del-sabato-final-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "il-mercato-del-sabato-grammar-1",
+            "type": "mcq",
+            "prompt": "Scegli la frase corretta.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "Quanto costa un chilo?"
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "il-mercato-del-sabato-grammar-2",
+            "type": "mcq",
+            "prompt": "Quale forma è corretta in questo contesto?",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Quanto costa un chilo?"
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "il-mercato-del-sabato-grammar-3",
+            "type": "mcq",
+            "prompt": "Completa la frase con la struttura studiata.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Quanto costa un chilo?"
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "il-mercato-del-sabato-grammar-4",
+            "type": "mcq",
+            "prompt": "Quale opzione usa la grammatica della lezione?",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Lei sono ieri al museo."
+              },
+              {
+                "id": "d",
+                "text": "Quanto costa un chilo?"
+              }
+            ]
+          },
+          {
+            "id": "il-mercato-del-sabato-grammar-5",
+            "type": "mcq",
+            "prompt": "Individua la frase più naturale.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "Quanto costa un chilo?"
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "il-mercato-del-sabato-grammar-6",
+            "type": "mcq",
+            "prompt": "Quale frase mantiene il significato corretto?",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Quanto costa un chilo?"
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "il-mercato-del-sabato-grammar-7",
+            "type": "mcq",
+            "prompt": "Scegli la forma verbale appropriata.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Quanto costa un chilo?"
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "il-mercato-del-sabato-grammar-8",
+            "type": "mcq",
+            "prompt": "Quale risposta è grammaticalmente corretta?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Lei sono ieri al museo."
+              },
+              {
+                "id": "d",
+                "text": "Quanto costa un chilo?"
+              }
+            ]
+          },
+          {
+            "id": "il-mercato-del-sabato-grammar-9",
+            "type": "mcq",
+            "prompt": "Applica “Domande con quanto e quale” in una frase.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Quanto costa un chilo?"
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "il-mercato-del-sabato-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "euro"
+              },
+              {
+                "id": "b",
+                "text": "pomodoro"
+              },
+              {
+                "id": "c",
+                "text": "aeroporto"
+              },
+              {
+                "id": "d",
+                "text": "computer"
+              }
+            ]
+          },
+          {
+            "id": "il-mercato-del-sabato-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "euro"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "mela"
+              },
+              {
+                "id": "d",
+                "text": "computer"
+              }
+            ]
+          },
+          {
+            "id": "il-mercato-del-sabato-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "euro"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "computer"
+              },
+              {
+                "id": "d",
+                "text": "chilo"
+              }
+            ]
+          },
+          {
+            "id": "il-mercato-del-sabato-verb-13",
+            "type": "mcq",
+            "prompt": "Io ___ italiano ogni giorno.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studio"
+              },
+              {
+                "id": "b",
+                "text": "studia"
+              },
+              {
+                "id": "c",
+                "text": "parlate"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          },
+          {
+            "id": "il-mercato-del-sabato-verb-14",
+            "type": "mcq",
+            "prompt": "Noi ___ insieme dopo la lezione.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studia"
+              },
+              {
+                "id": "b",
+                "text": "parliamo"
+              },
+              {
+                "id": "c",
+                "text": "parlate"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          },
+          {
+            "id": "il-mercato-del-sabato-verb-15",
+            "type": "mcq",
+            "prompt": "Lei ___ una frase completa.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studia"
+              },
+              {
+                "id": "b",
+                "text": "parlate"
+              },
+              {
+                "id": "c",
+                "text": "scrive"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
@@ -20116,7 +23383,372 @@
           "Posso fare una pausa?"
         ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "id": "italian-a2-il-lavoro-e-il-caffe-final-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "il-lavoro-e-il-caffe-grammar-1",
+            "type": "mcq",
+            "prompt": "Scegli la frase corretta.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "Posso fare una pausa?"
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "il-lavoro-e-il-caffe-grammar-2",
+            "type": "mcq",
+            "prompt": "Quale forma è corretta in questo contesto?",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Posso fare una pausa?"
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "il-lavoro-e-il-caffe-grammar-3",
+            "type": "mcq",
+            "prompt": "Completa la frase con la struttura studiata.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Posso fare una pausa?"
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "il-lavoro-e-il-caffe-grammar-4",
+            "type": "mcq",
+            "prompt": "Quale opzione usa la grammatica della lezione?",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Lei sono ieri al museo."
+              },
+              {
+                "id": "d",
+                "text": "Posso fare una pausa?"
+              }
+            ]
+          },
+          {
+            "id": "il-lavoro-e-il-caffe-grammar-5",
+            "type": "mcq",
+            "prompt": "Individua la frase più naturale.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "Posso fare una pausa?"
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "il-lavoro-e-il-caffe-grammar-6",
+            "type": "mcq",
+            "prompt": "Quale frase mantiene il significato corretto?",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Posso fare una pausa?"
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "il-lavoro-e-il-caffe-grammar-7",
+            "type": "mcq",
+            "prompt": "Scegli la forma verbale appropriata.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Posso fare una pausa?"
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "il-lavoro-e-il-caffe-grammar-8",
+            "type": "mcq",
+            "prompt": "Quale risposta è grammaticalmente corretta?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Lei sono ieri al museo."
+              },
+              {
+                "id": "d",
+                "text": "Posso fare una pausa?"
+              }
+            ]
+          },
+          {
+            "id": "il-lavoro-e-il-caffe-grammar-9",
+            "type": "mcq",
+            "prompt": "Applica “Potere e dovere” in una frase.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Posso fare una pausa?"
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "il-lavoro-e-il-caffe-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "orario"
+              },
+              {
+                "id": "b",
+                "text": "collega"
+              },
+              {
+                "id": "c",
+                "text": "aeroporto"
+              },
+              {
+                "id": "d",
+                "text": "computer"
+              }
+            ]
+          },
+          {
+            "id": "il-lavoro-e-il-caffe-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "orario"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "pausa"
+              },
+              {
+                "id": "d",
+                "text": "computer"
+              }
+            ]
+          },
+          {
+            "id": "il-lavoro-e-il-caffe-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "orario"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "computer"
+              },
+              {
+                "id": "d",
+                "text": "riunione"
+              }
+            ]
+          },
+          {
+            "id": "il-lavoro-e-il-caffe-verb-13",
+            "type": "mcq",
+            "prompt": "Io ___ italiano ogni giorno.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studio"
+              },
+              {
+                "id": "b",
+                "text": "studia"
+              },
+              {
+                "id": "c",
+                "text": "parlate"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          },
+          {
+            "id": "il-lavoro-e-il-caffe-verb-14",
+            "type": "mcq",
+            "prompt": "Noi ___ insieme dopo la lezione.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studia"
+              },
+              {
+                "id": "b",
+                "text": "parliamo"
+              },
+              {
+                "id": "c",
+                "text": "parlate"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          },
+          {
+            "id": "il-lavoro-e-il-caffe-verb-15",
+            "type": "mcq",
+            "prompt": "Lei ___ una frase completa.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studia"
+              },
+              {
+                "id": "b",
+                "text": "parlate"
+              },
+              {
+                "id": "c",
+                "text": "scrive"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
@@ -21116,197 +24748,375 @@
     "extra": {
       "grammarProfile": {
         "name": "Passivo e si impersonale",
-        "definition": "Connettori, opinioni e ipotesi aiutano a costruire un argomento.",
+        "definition": "Práctica guiada de Passivo e si impersonale.",
         "structure": "opinione + perché/tuttavia/quindi + motivazione",
-        "function": "Esprimere e giustificare un punto di vista.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Penso che la proposta sia utile.",
           "Tuttavia dobbiamo valutare i risultati."
         ]
       },
       "grammarTest": {
+        "id": "italian-b1-ambiente-nel-quartiere-final-test",
+        "passingScore": 70,
         "questions": [
           {
-            "id": "q1",
+            "id": "italian-b1-ambiente-nel-quartiere-grammar-1",
             "type": "mcq",
-            "prompt": "Completa: Penso che la proposta ___ utile.",
+            "prompt": "Scegli la frase più corretta per “Passivo e si impersonale”.",
+            "difficulty": "recognition",
             "options": [
               {
-                "id": "o1",
-                "text": "sia"
+                "id": "a",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "è"
+                "id": "b",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "essere"
+                "id": "c",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "sono"
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q2",
+            "id": "italian-b1-ambiente-nel-quartiere-grammar-2",
             "type": "mcq",
-            "prompt": "Scegli il connettore di contrasto.",
+            "prompt": "Scegli la frase più corretta per “Passivo e si impersonale”.",
+            "difficulty": "recognition",
             "options": [
               {
-                "id": "o1",
-                "text": "Vorrei uscire, quindi piove."
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "Vorrei uscire, tuttavia piove."
+                "id": "b",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "Vorrei uscire, perché piove."
+                "id": "c",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "Vorrei uscire, infatti piove."
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q3",
+            "id": "italian-b1-ambiente-nel-quartiere-grammar-3",
             "type": "mcq",
-            "prompt": "Completa: Resto a casa perché ___ stanco.",
+            "prompt": "Scegli la frase più corretta per “Passivo e si impersonale”.",
+            "difficulty": "recognition",
             "options": [
               {
-                "id": "o1",
-                "text": "essere"
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "sia"
+                "id": "b",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "sono"
+                "id": "c",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "sarei"
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q4",
+            "id": "italian-b1-ambiente-nel-quartiere-grammar-4",
             "type": "mcq",
-            "prompt": "Quale frase esprime un’opinione?",
+            "prompt": "Scegli la frase più corretta per “Passivo e si impersonale”.",
+            "difficulty": "application",
             "options": [
               {
-                "id": "o1",
-                "text": "Il progetto funziona perché?"
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "Il progetto ieri funziona?"
+                "id": "b",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "Funzionare progetto secondo me."
+                "id": "c",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "Secondo me, il progetto funziona."
+                "id": "d",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q5",
+            "id": "italian-b1-ambiente-nel-quartiere-grammar-5",
             "type": "mcq",
-            "prompt": "Completa: Sebbene ___ tardi, continuiamo.",
+            "prompt": "Scegli la frase più corretta per “Passivo e si impersonale”.",
+            "difficulty": "application",
             "options": [
               {
-                "id": "o1",
-                "text": "sia"
+                "id": "a",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "è"
+                "id": "b",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "essere"
+                "id": "c",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "sono"
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q6",
+            "id": "italian-b1-ambiente-nel-quartiere-grammar-6",
             "type": "mcq",
-            "prompt": "Scegli la conclusione logica.",
+            "prompt": "Scegli la frase più corretta per “Passivo e si impersonale”.",
+            "difficulty": "application",
             "options": [
               {
-                "id": "o1",
-                "text": "Abbiamo poco tempo, tuttavia organizziamo il lavoro."
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "Abbiamo poco tempo, quindi organizziamo il lavoro."
+                "id": "b",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "Abbiamo poco tempo, perché organizziamo il lavoro."
+                "id": "c",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "Abbiamo poco tempo, se organizziamo il lavoro."
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q7",
+            "id": "italian-b1-ambiente-nel-quartiere-grammar-7",
             "type": "mcq",
-            "prompt": "Completa: Credo che loro ___ ragione.",
+            "prompt": "Scegli la frase più corretta per “Passivo e si impersonale”.",
+            "difficulty": "control",
             "options": [
               {
-                "id": "o1",
-                "text": "avere"
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "hanno"
+                "id": "b",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "abbiano"
+                "id": "c",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "avranno"
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q8",
+            "id": "italian-b1-ambiente-nel-quartiere-grammar-8",
             "type": "mcq",
-            "prompt": "Quale frase giustifica una scelta?",
+            "prompt": "Scegli la frase più corretta per “Passivo e si impersonale”.",
+            "difficulty": "control",
             "options": [
               {
-                "id": "o1",
-                "text": "Scelgo il treno è più sostenibile perché?"
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "Scelgo il treno tuttavia è più sostenibile."
+                "id": "b",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "Scelgo il treno quindi è più sostenibile?"
+                "id": "c",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "Scelgo il treno perché è più sostenibile."
+                "id": "d",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-ambiente-nel-quartiere-grammar-9",
+            "type": "mcq",
+            "prompt": "Scegli la frase più corretta per “Passivo e si impersonale”.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
+              },
+              {
+                "id": "b",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
+              },
+              {
+                "id": "c",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
+              },
+              {
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-ambiente-nel-quartiere-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene alla lezione “Ambiente nel quartiere”?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "ridurre"
+              },
+              {
+                "id": "b",
+                "text": "rifiuto"
+              },
+              {
+                "id": "c",
+                "text": "aeroporto"
+              },
+              {
+                "id": "d",
+                "text": "satellite"
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-ambiente-nel-quartiere-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene alla lezione “Ambiente nel quartiere”?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "ridurre"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "raccolta"
+              },
+              {
+                "id": "d",
+                "text": "satellite"
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-ambiente-nel-quartiere-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene alla lezione “Ambiente nel quartiere”?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "ridurre"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "satellite"
+              },
+              {
+                "id": "d",
+                "text": "risorsa"
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-ambiente-nel-quartiere-verbs-13",
+            "type": "mcq",
+            "prompt": "Noi ___ una soluzione dopo aver ascoltato tutti.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "proponiamo"
+              },
+              {
+                "id": "b",
+                "text": "propongono"
+              },
+              {
+                "id": "c",
+                "text": "valutano"
+              },
+              {
+                "id": "d",
+                "text": "spiega"
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-ambiente-nel-quartiere-verbs-14",
+            "type": "mcq",
+            "prompt": "Lei ___ le conseguenze prima di decidere.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "propongono"
+              },
+              {
+                "id": "b",
+                "text": "valuta"
+              },
+              {
+                "id": "c",
+                "text": "valutano"
+              },
+              {
+                "id": "d",
+                "text": "spiega"
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-ambiente-nel-quartiere-verbs-15",
+            "type": "mcq",
+            "prompt": "Loro ___ le ragioni della scelta con chiarezza.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "propongono"
+              },
+              {
+                "id": "b",
+                "text": "valutano"
+              },
+              {
+                "id": "c",
+                "text": "spiegano"
+              },
+              {
+                "id": "d",
+                "text": "spiega"
               }
             ]
           }
@@ -25020,7 +28830,372 @@
           "Dov’è la stazione?"
         ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "id": "italian-a1-in-bicicletta-final-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "in-bicicletta-grammar-1",
+            "type": "mcq",
+            "prompt": "Scegli la frase corretta.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "Dov’è la stazione?"
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "in-bicicletta-grammar-2",
+            "type": "mcq",
+            "prompt": "Quale forma è corretta in questo contesto?",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Dov’è la stazione?"
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "in-bicicletta-grammar-3",
+            "type": "mcq",
+            "prompt": "Completa la frase con la struttura studiata.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Dov’è la stazione?"
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "in-bicicletta-grammar-4",
+            "type": "mcq",
+            "prompt": "Quale opzione usa la grammatica della lezione?",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Lei sono ieri al museo."
+              },
+              {
+                "id": "d",
+                "text": "Dov’è la stazione?"
+              }
+            ]
+          },
+          {
+            "id": "in-bicicletta-grammar-5",
+            "type": "mcq",
+            "prompt": "Individua la frase più naturale.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "Dov’è la stazione?"
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "in-bicicletta-grammar-6",
+            "type": "mcq",
+            "prompt": "Quale frase mantiene il significato corretto?",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Dov’è la stazione?"
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "in-bicicletta-grammar-7",
+            "type": "mcq",
+            "prompt": "Scegli la forma verbale appropriata.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Dov’è la stazione?"
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "in-bicicletta-grammar-8",
+            "type": "mcq",
+            "prompt": "Quale risposta è grammaticalmente corretta?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Lei sono ieri al museo."
+              },
+              {
+                "id": "d",
+                "text": "Dov’è la stazione?"
+              }
+            ]
+          },
+          {
+            "id": "in-bicicletta-grammar-9",
+            "type": "mcq",
+            "prompt": "Applica “Dov’è? e preposizioni di luogo” in una frase.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Dov’è la stazione?"
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "in-bicicletta-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "bicicletta"
+              },
+              {
+                "id": "b",
+                "text": "strada"
+              },
+              {
+                "id": "c",
+                "text": "aeroporto"
+              },
+              {
+                "id": "d",
+                "text": "computer"
+              }
+            ]
+          },
+          {
+            "id": "in-bicicletta-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "bicicletta"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "piazza"
+              },
+              {
+                "id": "d",
+                "text": "computer"
+              }
+            ]
+          },
+          {
+            "id": "in-bicicletta-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "bicicletta"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "computer"
+              },
+              {
+                "id": "d",
+                "text": "stazione"
+              }
+            ]
+          },
+          {
+            "id": "in-bicicletta-verb-13",
+            "type": "mcq",
+            "prompt": "Io ___ italiano ogni giorno.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studio"
+              },
+              {
+                "id": "b",
+                "text": "studia"
+              },
+              {
+                "id": "c",
+                "text": "parlate"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          },
+          {
+            "id": "in-bicicletta-verb-14",
+            "type": "mcq",
+            "prompt": "Noi ___ insieme dopo la lezione.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studia"
+              },
+              {
+                "id": "b",
+                "text": "parliamo"
+              },
+              {
+                "id": "c",
+                "text": "parlate"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          },
+          {
+            "id": "in-bicicletta-verb-15",
+            "type": "mcq",
+            "prompt": "Lei ___ una frase completa.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studia"
+              },
+              {
+                "id": "b",
+                "text": "parlate"
+              },
+              {
+                "id": "c",
+                "text": "scrive"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
@@ -25100,7 +29275,372 @@
           "La mostra era interessante."
         ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "id": "italian-a2-arte-nel-quartiere-final-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "arte-nel-quartiere-grammar-1",
+            "type": "mcq",
+            "prompt": "Scegli la frase corretta.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "La mostra era interessante."
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "arte-nel-quartiere-grammar-2",
+            "type": "mcq",
+            "prompt": "Quale forma è corretta in questo contesto?",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "La mostra era interessante."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "arte-nel-quartiere-grammar-3",
+            "type": "mcq",
+            "prompt": "Completa la frase con la struttura studiata.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "La mostra era interessante."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "arte-nel-quartiere-grammar-4",
+            "type": "mcq",
+            "prompt": "Quale opzione usa la grammatica della lezione?",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Lei sono ieri al museo."
+              },
+              {
+                "id": "d",
+                "text": "La mostra era interessante."
+              }
+            ]
+          },
+          {
+            "id": "arte-nel-quartiere-grammar-5",
+            "type": "mcq",
+            "prompt": "Individua la frase più naturale.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "La mostra era interessante."
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "arte-nel-quartiere-grammar-6",
+            "type": "mcq",
+            "prompt": "Quale frase mantiene il significato corretto?",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "La mostra era interessante."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "arte-nel-quartiere-grammar-7",
+            "type": "mcq",
+            "prompt": "Scegli la forma verbale appropriata.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "La mostra era interessante."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "arte-nel-quartiere-grammar-8",
+            "type": "mcq",
+            "prompt": "Quale risposta è grammaticalmente corretta?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Lei sono ieri al museo."
+              },
+              {
+                "id": "d",
+                "text": "La mostra era interessante."
+              }
+            ]
+          },
+          {
+            "id": "arte-nel-quartiere-grammar-9",
+            "type": "mcq",
+            "prompt": "Applica “Passato prossimo e imperfetto” in una frase.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "La mostra era interessante."
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "arte-nel-quartiere-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "opinione"
+              },
+              {
+                "id": "b",
+                "text": "mostra"
+              },
+              {
+                "id": "c",
+                "text": "aeroporto"
+              },
+              {
+                "id": "d",
+                "text": "computer"
+              }
+            ]
+          },
+          {
+            "id": "arte-nel-quartiere-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "opinione"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "artista"
+              },
+              {
+                "id": "d",
+                "text": "computer"
+              }
+            ]
+          },
+          {
+            "id": "arte-nel-quartiere-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "opinione"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "computer"
+              },
+              {
+                "id": "d",
+                "text": "piazza"
+              }
+            ]
+          },
+          {
+            "id": "arte-nel-quartiere-verb-13",
+            "type": "mcq",
+            "prompt": "Io ___ italiano ogni giorno.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studio"
+              },
+              {
+                "id": "b",
+                "text": "studia"
+              },
+              {
+                "id": "c",
+                "text": "parlate"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          },
+          {
+            "id": "arte-nel-quartiere-verb-14",
+            "type": "mcq",
+            "prompt": "Noi ___ insieme dopo la lezione.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studia"
+              },
+              {
+                "id": "b",
+                "text": "parliamo"
+              },
+              {
+                "id": "c",
+                "text": "parlate"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          },
+          {
+            "id": "arte-nel-quartiere-verb-15",
+            "type": "mcq",
+            "prompt": "Lei ___ una frase completa.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studia"
+              },
+              {
+                "id": "b",
+                "text": "parlate"
+              },
+              {
+                "id": "c",
+                "text": "scrive"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
@@ -26100,197 +30640,375 @@
     "extra": {
       "grammarProfile": {
         "name": "Trapassato prossimo",
-        "definition": "Connettori, opinioni e ipotesi aiutano a costruire un argomento.",
+        "definition": "Práctica guiada de Trapassato prossimo.",
         "structure": "opinione + perché/tuttavia/quindi + motivazione",
-        "function": "Esprimere e giustificare un punto di vista.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Penso che la proposta sia utile.",
           "Tuttavia dobbiamo valutare i risultati."
         ]
       },
       "grammarTest": {
+        "id": "italian-b1-storie-e-memoria-final-test",
+        "passingScore": 70,
         "questions": [
           {
-            "id": "q1",
+            "id": "italian-b1-storie-e-memoria-grammar-1",
             "type": "mcq",
-            "prompt": "Completa: Penso che la proposta ___ utile.",
+            "prompt": "Scegli la frase più corretta per “Trapassato prossimo”.",
+            "difficulty": "recognition",
             "options": [
               {
-                "id": "o1",
-                "text": "sia"
+                "id": "a",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "è"
+                "id": "b",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "essere"
+                "id": "c",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "sono"
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q2",
+            "id": "italian-b1-storie-e-memoria-grammar-2",
             "type": "mcq",
-            "prompt": "Scegli il connettore di contrasto.",
+            "prompt": "Scegli la frase più corretta per “Trapassato prossimo”.",
+            "difficulty": "recognition",
             "options": [
               {
-                "id": "o1",
-                "text": "Vorrei uscire, quindi piove."
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "Vorrei uscire, tuttavia piove."
+                "id": "b",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "Vorrei uscire, perché piove."
+                "id": "c",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "Vorrei uscire, infatti piove."
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q3",
+            "id": "italian-b1-storie-e-memoria-grammar-3",
             "type": "mcq",
-            "prompt": "Completa: Resto a casa perché ___ stanco.",
+            "prompt": "Scegli la frase più corretta per “Trapassato prossimo”.",
+            "difficulty": "recognition",
             "options": [
               {
-                "id": "o1",
-                "text": "essere"
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "sia"
+                "id": "b",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "sono"
+                "id": "c",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "sarei"
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q4",
+            "id": "italian-b1-storie-e-memoria-grammar-4",
             "type": "mcq",
-            "prompt": "Quale frase esprime un’opinione?",
+            "prompt": "Scegli la frase più corretta per “Trapassato prossimo”.",
+            "difficulty": "application",
             "options": [
               {
-                "id": "o1",
-                "text": "Il progetto funziona perché?"
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "Il progetto ieri funziona?"
+                "id": "b",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "Funzionare progetto secondo me."
+                "id": "c",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "Secondo me, il progetto funziona."
+                "id": "d",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q5",
+            "id": "italian-b1-storie-e-memoria-grammar-5",
             "type": "mcq",
-            "prompt": "Completa: Sebbene ___ tardi, continuiamo.",
+            "prompt": "Scegli la frase più corretta per “Trapassato prossimo”.",
+            "difficulty": "application",
             "options": [
               {
-                "id": "o1",
-                "text": "sia"
+                "id": "a",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "è"
+                "id": "b",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "essere"
+                "id": "c",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "sono"
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q6",
+            "id": "italian-b1-storie-e-memoria-grammar-6",
             "type": "mcq",
-            "prompt": "Scegli la conclusione logica.",
+            "prompt": "Scegli la frase più corretta per “Trapassato prossimo”.",
+            "difficulty": "application",
             "options": [
               {
-                "id": "o1",
-                "text": "Abbiamo poco tempo, tuttavia organizziamo il lavoro."
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "Abbiamo poco tempo, quindi organizziamo il lavoro."
+                "id": "b",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "Abbiamo poco tempo, perché organizziamo il lavoro."
+                "id": "c",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "Abbiamo poco tempo, se organizziamo il lavoro."
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q7",
+            "id": "italian-b1-storie-e-memoria-grammar-7",
             "type": "mcq",
-            "prompt": "Completa: Credo che loro ___ ragione.",
+            "prompt": "Scegli la frase più corretta per “Trapassato prossimo”.",
+            "difficulty": "control",
             "options": [
               {
-                "id": "o1",
-                "text": "avere"
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "hanno"
+                "id": "b",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "abbiano"
+                "id": "c",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "avranno"
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q8",
+            "id": "italian-b1-storie-e-memoria-grammar-8",
             "type": "mcq",
-            "prompt": "Quale frase giustifica una scelta?",
+            "prompt": "Scegli la frase più corretta per “Trapassato prossimo”.",
+            "difficulty": "control",
             "options": [
               {
-                "id": "o1",
-                "text": "Scelgo il treno è più sostenibile perché?"
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "Scelgo il treno tuttavia è più sostenibile."
+                "id": "b",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "Scelgo il treno quindi è più sostenibile?"
+                "id": "c",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "Scelgo il treno perché è più sostenibile."
+                "id": "d",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-storie-e-memoria-grammar-9",
+            "type": "mcq",
+            "prompt": "Scegli la frase più corretta per “Trapassato prossimo”.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
+              },
+              {
+                "id": "b",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
+              },
+              {
+                "id": "c",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
+              },
+              {
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-storie-e-memoria-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene alla lezione “Storie e memoria”?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "raccontare"
+              },
+              {
+                "id": "b",
+                "text": "memoria"
+              },
+              {
+                "id": "c",
+                "text": "aeroporto"
+              },
+              {
+                "id": "d",
+                "text": "satellite"
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-storie-e-memoria-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene alla lezione “Storie e memoria”?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "raccontare"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "infanzia"
+              },
+              {
+                "id": "d",
+                "text": "satellite"
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-storie-e-memoria-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene alla lezione “Storie e memoria”?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "raccontare"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "satellite"
+              },
+              {
+                "id": "d",
+                "text": "cambiamento"
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-storie-e-memoria-verbs-13",
+            "type": "mcq",
+            "prompt": "Noi ___ una soluzione dopo aver ascoltato tutti.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "proponiamo"
+              },
+              {
+                "id": "b",
+                "text": "propongono"
+              },
+              {
+                "id": "c",
+                "text": "valutano"
+              },
+              {
+                "id": "d",
+                "text": "spiega"
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-storie-e-memoria-verbs-14",
+            "type": "mcq",
+            "prompt": "Lei ___ le conseguenze prima di decidere.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "propongono"
+              },
+              {
+                "id": "b",
+                "text": "valuta"
+              },
+              {
+                "id": "c",
+                "text": "valutano"
+              },
+              {
+                "id": "d",
+                "text": "spiega"
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-storie-e-memoria-verbs-15",
+            "type": "mcq",
+            "prompt": "Loro ___ le ragioni della scelta con chiarezza.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "propongono"
+              },
+              {
+                "id": "b",
+                "text": "valutano"
+              },
+              {
+                "id": "c",
+                "text": "spiegano"
+              },
+              {
+                "id": "d",
+                "text": "spiega"
               }
             ]
           }
@@ -30004,7 +34722,372 @@
           "Che materia ti piace?"
         ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "id": "italian-a1-scuola-e-amici-final-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "scuola-e-amici-grammar-1",
+            "type": "mcq",
+            "prompt": "Scegli la frase corretta.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "Mi piace studiare italiano."
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "scuola-e-amici-grammar-2",
+            "type": "mcq",
+            "prompt": "Quale forma è corretta in questo contesto?",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Mi piace studiare italiano."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "scuola-e-amici-grammar-3",
+            "type": "mcq",
+            "prompt": "Completa la frase con la struttura studiata.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Mi piace studiare italiano."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "scuola-e-amici-grammar-4",
+            "type": "mcq",
+            "prompt": "Quale opzione usa la grammatica della lezione?",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Lei sono ieri al museo."
+              },
+              {
+                "id": "d",
+                "text": "Mi piace studiare italiano."
+              }
+            ]
+          },
+          {
+            "id": "scuola-e-amici-grammar-5",
+            "type": "mcq",
+            "prompt": "Individua la frase più naturale.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "Mi piace studiare italiano."
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "scuola-e-amici-grammar-6",
+            "type": "mcq",
+            "prompt": "Quale frase mantiene il significato corretto?",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Mi piace studiare italiano."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "scuola-e-amici-grammar-7",
+            "type": "mcq",
+            "prompt": "Scegli la forma verbale appropriata.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Mi piace studiare italiano."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "scuola-e-amici-grammar-8",
+            "type": "mcq",
+            "prompt": "Quale risposta è grammaticalmente corretta?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Lei sono ieri al museo."
+              },
+              {
+                "id": "d",
+                "text": "Mi piace studiare italiano."
+              }
+            ]
+          },
+          {
+            "id": "scuola-e-amici-grammar-9",
+            "type": "mcq",
+            "prompt": "Applica “Piacere e infinito” in una frase.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Mi piace studiare italiano."
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "scuola-e-amici-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "compito"
+              },
+              {
+                "id": "b",
+                "text": "scuola"
+              },
+              {
+                "id": "c",
+                "text": "aeroporto"
+              },
+              {
+                "id": "d",
+                "text": "computer"
+              }
+            ]
+          },
+          {
+            "id": "scuola-e-amici-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "compito"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "amico"
+              },
+              {
+                "id": "d",
+                "text": "computer"
+              }
+            ]
+          },
+          {
+            "id": "scuola-e-amici-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "compito"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "computer"
+              },
+              {
+                "id": "d",
+                "text": "lezione"
+              }
+            ]
+          },
+          {
+            "id": "scuola-e-amici-verb-13",
+            "type": "mcq",
+            "prompt": "Io ___ italiano ogni giorno.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studio"
+              },
+              {
+                "id": "b",
+                "text": "studia"
+              },
+              {
+                "id": "c",
+                "text": "parlate"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          },
+          {
+            "id": "scuola-e-amici-verb-14",
+            "type": "mcq",
+            "prompt": "Noi ___ insieme dopo la lezione.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studia"
+              },
+              {
+                "id": "b",
+                "text": "parliamo"
+              },
+              {
+                "id": "c",
+                "text": "parlate"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          },
+          {
+            "id": "scuola-e-amici-verb-15",
+            "type": "mcq",
+            "prompt": "Lei ___ una frase completa.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studia"
+              },
+              {
+                "id": "b",
+                "text": "parlate"
+              },
+              {
+                "id": "c",
+                "text": "scrive"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
@@ -30084,7 +35167,372 @@
           "Non voglio disturbare i residenti."
         ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "id": "italian-a2-viaggiare-con-responsabilita-final-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "viaggiare-con-responsabilita-grammar-1",
+            "type": "mcq",
+            "prompt": "Scegli la frase corretta.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "Non voglio disturbare i residenti."
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "viaggiare-con-responsabilita-grammar-2",
+            "type": "mcq",
+            "prompt": "Quale forma è corretta in questo contesto?",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Non voglio disturbare i residenti."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "viaggiare-con-responsabilita-grammar-3",
+            "type": "mcq",
+            "prompt": "Completa la frase con la struttura studiata.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Non voglio disturbare i residenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "viaggiare-con-responsabilita-grammar-4",
+            "type": "mcq",
+            "prompt": "Quale opzione usa la grammatica della lezione?",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Lei sono ieri al museo."
+              },
+              {
+                "id": "d",
+                "text": "Non voglio disturbare i residenti."
+              }
+            ]
+          },
+          {
+            "id": "viaggiare-con-responsabilita-grammar-5",
+            "type": "mcq",
+            "prompt": "Individua la frase più naturale.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "Non voglio disturbare i residenti."
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "viaggiare-con-responsabilita-grammar-6",
+            "type": "mcq",
+            "prompt": "Quale frase mantiene il significato corretto?",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Non voglio disturbare i residenti."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "viaggiare-con-responsabilita-grammar-7",
+            "type": "mcq",
+            "prompt": "Scegli la forma verbale appropriata.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Non voglio disturbare i residenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "viaggiare-con-responsabilita-grammar-8",
+            "type": "mcq",
+            "prompt": "Quale risposta è grammaticalmente corretta?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Lei sono ieri al museo."
+              },
+              {
+                "id": "d",
+                "text": "Non voglio disturbare i residenti."
+              }
+            ]
+          },
+          {
+            "id": "viaggiare-con-responsabilita-grammar-9",
+            "type": "mcq",
+            "prompt": "Applica “Volere e non voler disturbare” in una frase.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Non voglio disturbare i residenti."
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "viaggiare-con-responsabilita-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "scelta"
+              },
+              {
+                "id": "b",
+                "text": "residente"
+              },
+              {
+                "id": "c",
+                "text": "aeroporto"
+              },
+              {
+                "id": "d",
+                "text": "computer"
+              }
+            ]
+          },
+          {
+            "id": "viaggiare-con-responsabilita-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "scelta"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "rispetto"
+              },
+              {
+                "id": "d",
+                "text": "computer"
+              }
+            ]
+          },
+          {
+            "id": "viaggiare-con-responsabilita-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "scelta"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "computer"
+              },
+              {
+                "id": "d",
+                "text": "mappa"
+              }
+            ]
+          },
+          {
+            "id": "viaggiare-con-responsabilita-verb-13",
+            "type": "mcq",
+            "prompt": "Io ___ italiano ogni giorno.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studio"
+              },
+              {
+                "id": "b",
+                "text": "studia"
+              },
+              {
+                "id": "c",
+                "text": "parlate"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          },
+          {
+            "id": "viaggiare-con-responsabilita-verb-14",
+            "type": "mcq",
+            "prompt": "Noi ___ insieme dopo la lezione.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studia"
+              },
+              {
+                "id": "b",
+                "text": "parliamo"
+              },
+              {
+                "id": "c",
+                "text": "parlate"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          },
+          {
+            "id": "viaggiare-con-responsabilita-verb-15",
+            "type": "mcq",
+            "prompt": "Lei ___ una frase completa.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studia"
+              },
+              {
+                "id": "b",
+                "text": "parlate"
+              },
+              {
+                "id": "c",
+                "text": "scrive"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
@@ -31084,197 +36532,375 @@
     "extra": {
       "grammarProfile": {
         "name": "Connettori argomentativi",
-        "definition": "Connettori, opinioni e ipotesi aiutano a costruire un argomento.",
+        "definition": "Práctica guiada de Connettori argomentativi.",
         "structure": "opinione + perché/tuttavia/quindi + motivazione",
-        "function": "Esprimere e giustificare un punto di vista.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Penso che la proposta sia utile.",
           "Tuttavia dobbiamo valutare i risultati."
         ]
       },
       "grammarTest": {
+        "id": "italian-b1-progetti-di-classe-final-test",
+        "passingScore": 70,
         "questions": [
           {
-            "id": "q1",
+            "id": "italian-b1-progetti-di-classe-grammar-1",
             "type": "mcq",
-            "prompt": "Completa: Penso che la proposta ___ utile.",
+            "prompt": "Scegli la frase più corretta per “Connettori argomentativi”.",
+            "difficulty": "recognition",
             "options": [
               {
-                "id": "o1",
-                "text": "sia"
+                "id": "a",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "è"
+                "id": "b",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "essere"
+                "id": "c",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "sono"
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q2",
+            "id": "italian-b1-progetti-di-classe-grammar-2",
             "type": "mcq",
-            "prompt": "Scegli il connettore di contrasto.",
+            "prompt": "Scegli la frase più corretta per “Connettori argomentativi”.",
+            "difficulty": "recognition",
             "options": [
               {
-                "id": "o1",
-                "text": "Vorrei uscire, quindi piove."
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "Vorrei uscire, tuttavia piove."
+                "id": "b",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "Vorrei uscire, perché piove."
+                "id": "c",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "Vorrei uscire, infatti piove."
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q3",
+            "id": "italian-b1-progetti-di-classe-grammar-3",
             "type": "mcq",
-            "prompt": "Completa: Resto a casa perché ___ stanco.",
+            "prompt": "Scegli la frase più corretta per “Connettori argomentativi”.",
+            "difficulty": "recognition",
             "options": [
               {
-                "id": "o1",
-                "text": "essere"
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "sia"
+                "id": "b",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "sono"
+                "id": "c",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "sarei"
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q4",
+            "id": "italian-b1-progetti-di-classe-grammar-4",
             "type": "mcq",
-            "prompt": "Quale frase esprime un’opinione?",
+            "prompt": "Scegli la frase più corretta per “Connettori argomentativi”.",
+            "difficulty": "application",
             "options": [
               {
-                "id": "o1",
-                "text": "Il progetto funziona perché?"
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "Il progetto ieri funziona?"
+                "id": "b",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "Funzionare progetto secondo me."
+                "id": "c",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "Secondo me, il progetto funziona."
+                "id": "d",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q5",
+            "id": "italian-b1-progetti-di-classe-grammar-5",
             "type": "mcq",
-            "prompt": "Completa: Sebbene ___ tardi, continuiamo.",
+            "prompt": "Scegli la frase più corretta per “Connettori argomentativi”.",
+            "difficulty": "application",
             "options": [
               {
-                "id": "o1",
-                "text": "sia"
+                "id": "a",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "è"
+                "id": "b",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "essere"
+                "id": "c",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "sono"
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q6",
+            "id": "italian-b1-progetti-di-classe-grammar-6",
             "type": "mcq",
-            "prompt": "Scegli la conclusione logica.",
+            "prompt": "Scegli la frase più corretta per “Connettori argomentativi”.",
+            "difficulty": "application",
             "options": [
               {
-                "id": "o1",
-                "text": "Abbiamo poco tempo, tuttavia organizziamo il lavoro."
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "Abbiamo poco tempo, quindi organizziamo il lavoro."
+                "id": "b",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "Abbiamo poco tempo, perché organizziamo il lavoro."
+                "id": "c",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "Abbiamo poco tempo, se organizziamo il lavoro."
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q7",
+            "id": "italian-b1-progetti-di-classe-grammar-7",
             "type": "mcq",
-            "prompt": "Completa: Credo che loro ___ ragione.",
+            "prompt": "Scegli la frase più corretta per “Connettori argomentativi”.",
+            "difficulty": "control",
             "options": [
               {
-                "id": "o1",
-                "text": "avere"
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "hanno"
+                "id": "b",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "abbiano"
+                "id": "c",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "avranno"
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q8",
+            "id": "italian-b1-progetti-di-classe-grammar-8",
             "type": "mcq",
-            "prompt": "Quale frase giustifica una scelta?",
+            "prompt": "Scegli la frase più corretta per “Connettori argomentativi”.",
+            "difficulty": "control",
             "options": [
               {
-                "id": "o1",
-                "text": "Scelgo il treno è più sostenibile perché?"
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "Scelgo il treno tuttavia è più sostenibile."
+                "id": "b",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "Scelgo il treno quindi è più sostenibile?"
+                "id": "c",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "Scelgo il treno perché è più sostenibile."
+                "id": "d",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-progetti-di-classe-grammar-9",
+            "type": "mcq",
+            "prompt": "Scegli la frase più corretta per “Connettori argomentativi”.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
+              },
+              {
+                "id": "b",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
+              },
+              {
+                "id": "c",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
+              },
+              {
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-progetti-di-classe-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene alla lezione “Progetti di classe”?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "collaborazione"
+              },
+              {
+                "id": "b",
+                "text": "progetto"
+              },
+              {
+                "id": "c",
+                "text": "aeroporto"
+              },
+              {
+                "id": "d",
+                "text": "satellite"
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-progetti-di-classe-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene alla lezione “Progetti di classe”?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "collaborazione"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "ricerca"
+              },
+              {
+                "id": "d",
+                "text": "satellite"
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-progetti-di-classe-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene alla lezione “Progetti di classe”?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "collaborazione"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "satellite"
+              },
+              {
+                "id": "d",
+                "text": "compito"
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-progetti-di-classe-verbs-13",
+            "type": "mcq",
+            "prompt": "Noi ___ una soluzione dopo aver ascoltato tutti.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "proponiamo"
+              },
+              {
+                "id": "b",
+                "text": "propongono"
+              },
+              {
+                "id": "c",
+                "text": "valutano"
+              },
+              {
+                "id": "d",
+                "text": "spiega"
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-progetti-di-classe-verbs-14",
+            "type": "mcq",
+            "prompt": "Lei ___ le conseguenze prima di decidere.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "propongono"
+              },
+              {
+                "id": "b",
+                "text": "valuta"
+              },
+              {
+                "id": "c",
+                "text": "valutano"
+              },
+              {
+                "id": "d",
+                "text": "spiega"
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-progetti-di-classe-verbs-15",
+            "type": "mcq",
+            "prompt": "Loro ___ le ragioni della scelta con chiarezza.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "propongono"
+              },
+              {
+                "id": "b",
+                "text": "valutano"
+              },
+              {
+                "id": "c",
+                "text": "spiegano"
+              },
+              {
+                "id": "d",
+                "text": "spiega"
               }
             ]
           }
@@ -34986,7 +40612,372 @@
           "La cucina è luminosa."
         ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "id": "italian-a1-una-casa-italiana-final-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "una-casa-italiana-grammar-1",
+            "type": "mcq",
+            "prompt": "Scegli la frase corretta.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "La cucina è luminosa."
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "una-casa-italiana-grammar-2",
+            "type": "mcq",
+            "prompt": "Quale forma è corretta in questo contesto?",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "La cucina è luminosa."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "una-casa-italiana-grammar-3",
+            "type": "mcq",
+            "prompt": "Completa la frase con la struttura studiata.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "La cucina è luminosa."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "una-casa-italiana-grammar-4",
+            "type": "mcq",
+            "prompt": "Quale opzione usa la grammatica della lezione?",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Lei sono ieri al museo."
+              },
+              {
+                "id": "d",
+                "text": "La cucina è luminosa."
+              }
+            ]
+          },
+          {
+            "id": "una-casa-italiana-grammar-5",
+            "type": "mcq",
+            "prompt": "Individua la frase più naturale.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "La cucina è luminosa."
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "una-casa-italiana-grammar-6",
+            "type": "mcq",
+            "prompt": "Quale frase mantiene il significato corretto?",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "La cucina è luminosa."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "una-casa-italiana-grammar-7",
+            "type": "mcq",
+            "prompt": "Scegli la forma verbale appropriata.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "La cucina è luminosa."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "una-casa-italiana-grammar-8",
+            "type": "mcq",
+            "prompt": "Quale risposta è grammaticalmente corretta?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Lei sono ieri al museo."
+              },
+              {
+                "id": "d",
+                "text": "La cucina è luminosa."
+              }
+            ]
+          },
+          {
+            "id": "una-casa-italiana-grammar-9",
+            "type": "mcq",
+            "prompt": "Applica “Aggettivi e accordo” in una frase.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "La cucina è luminosa."
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "una-casa-italiana-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "balcone"
+              },
+              {
+                "id": "b",
+                "text": "cucina"
+              },
+              {
+                "id": "c",
+                "text": "aeroporto"
+              },
+              {
+                "id": "d",
+                "text": "computer"
+              }
+            ]
+          },
+          {
+            "id": "una-casa-italiana-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "balcone"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "camera"
+              },
+              {
+                "id": "d",
+                "text": "computer"
+              }
+            ]
+          },
+          {
+            "id": "una-casa-italiana-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "balcone"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "computer"
+              },
+              {
+                "id": "d",
+                "text": "finestra"
+              }
+            ]
+          },
+          {
+            "id": "una-casa-italiana-verb-13",
+            "type": "mcq",
+            "prompt": "Io ___ italiano ogni giorno.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studio"
+              },
+              {
+                "id": "b",
+                "text": "studia"
+              },
+              {
+                "id": "c",
+                "text": "parlate"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          },
+          {
+            "id": "una-casa-italiana-verb-14",
+            "type": "mcq",
+            "prompt": "Noi ___ insieme dopo la lezione.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studia"
+              },
+              {
+                "id": "b",
+                "text": "parliamo"
+              },
+              {
+                "id": "c",
+                "text": "parlate"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          },
+          {
+            "id": "una-casa-italiana-verb-15",
+            "type": "mcq",
+            "prompt": "Lei ___ una frase completa.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studia"
+              },
+              {
+                "id": "b",
+                "text": "parlate"
+              },
+              {
+                "id": "c",
+                "text": "scrive"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
@@ -35066,7 +41057,372 @@
           "Da giovane giocavo spesso."
         ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "id": "italian-a2-sport-e-tempo-libero-final-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "sport-e-tempo-libero-grammar-1",
+            "type": "mcq",
+            "prompt": "Scegli la frase corretta.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "Da giovane giocavo spesso."
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "sport-e-tempo-libero-grammar-2",
+            "type": "mcq",
+            "prompt": "Quale forma è corretta in questo contesto?",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Da giovane giocavo spesso."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "sport-e-tempo-libero-grammar-3",
+            "type": "mcq",
+            "prompt": "Completa la frase con la struttura studiata.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Da giovane giocavo spesso."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "sport-e-tempo-libero-grammar-4",
+            "type": "mcq",
+            "prompt": "Quale opzione usa la grammatica della lezione?",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Lei sono ieri al museo."
+              },
+              {
+                "id": "d",
+                "text": "Da giovane giocavo spesso."
+              }
+            ]
+          },
+          {
+            "id": "sport-e-tempo-libero-grammar-5",
+            "type": "mcq",
+            "prompt": "Individua la frase più naturale.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "Da giovane giocavo spesso."
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "sport-e-tempo-libero-grammar-6",
+            "type": "mcq",
+            "prompt": "Quale frase mantiene il significato corretto?",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Da giovane giocavo spesso."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "sport-e-tempo-libero-grammar-7",
+            "type": "mcq",
+            "prompt": "Scegli la forma verbale appropriata.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Da giovane giocavo spesso."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "sport-e-tempo-libero-grammar-8",
+            "type": "mcq",
+            "prompt": "Quale risposta è grammaticalmente corretta?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Lei sono ieri al museo."
+              },
+              {
+                "id": "d",
+                "text": "Da giovane giocavo spesso."
+              }
+            ]
+          },
+          {
+            "id": "sport-e-tempo-libero-grammar-9",
+            "type": "mcq",
+            "prompt": "Applica “Imperfetto per le abitudini” in una frase.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Da giovane giocavo spesso."
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "sport-e-tempo-libero-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "allenamento"
+              },
+              {
+                "id": "b",
+                "text": "nuoto"
+              },
+              {
+                "id": "c",
+                "text": "aeroporto"
+              },
+              {
+                "id": "d",
+                "text": "computer"
+              }
+            ]
+          },
+          {
+            "id": "sport-e-tempo-libero-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "allenamento"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "corsa"
+              },
+              {
+                "id": "d",
+                "text": "computer"
+              }
+            ]
+          },
+          {
+            "id": "sport-e-tempo-libero-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "allenamento"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "computer"
+              },
+              {
+                "id": "d",
+                "text": "squadra"
+              }
+            ]
+          },
+          {
+            "id": "sport-e-tempo-libero-verb-13",
+            "type": "mcq",
+            "prompt": "Io ___ italiano ogni giorno.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studio"
+              },
+              {
+                "id": "b",
+                "text": "studia"
+              },
+              {
+                "id": "c",
+                "text": "parlate"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          },
+          {
+            "id": "sport-e-tempo-libero-verb-14",
+            "type": "mcq",
+            "prompt": "Noi ___ insieme dopo la lezione.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studia"
+              },
+              {
+                "id": "b",
+                "text": "parliamo"
+              },
+              {
+                "id": "c",
+                "text": "parlate"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          },
+          {
+            "id": "sport-e-tempo-libero-verb-15",
+            "type": "mcq",
+            "prompt": "Lei ___ una frase completa.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studia"
+              },
+              {
+                "id": "b",
+                "text": "parlate"
+              },
+              {
+                "id": "c",
+                "text": "scrive"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
@@ -36066,197 +42422,375 @@
     "extra": {
       "grammarProfile": {
         "name": "Congiuntivo con opinione e dubbio",
-        "definition": "Connettori, opinioni e ipotesi aiutano a costruire un argomento.",
+        "definition": "Práctica guiada de Congiuntivo con opinione e dubbio.",
         "structure": "opinione + perché/tuttavia/quindi + motivazione",
-        "function": "Esprimere e giustificare un punto di vista.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Penso che la proposta sia utile.",
           "Tuttavia dobbiamo valutare i risultati."
         ]
       },
       "grammarTest": {
+        "id": "italian-b1-tecnologia-quotidiana-final-test",
+        "passingScore": 70,
         "questions": [
           {
-            "id": "q1",
+            "id": "italian-b1-tecnologia-quotidiana-grammar-1",
             "type": "mcq",
-            "prompt": "Completa: Penso che la proposta ___ utile.",
+            "prompt": "Scegli la frase più corretta per “Congiuntivo con opinione e dubbio”.",
+            "difficulty": "recognition",
             "options": [
               {
-                "id": "o1",
-                "text": "sia"
+                "id": "a",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "è"
+                "id": "b",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "essere"
+                "id": "c",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "sono"
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q2",
+            "id": "italian-b1-tecnologia-quotidiana-grammar-2",
             "type": "mcq",
-            "prompt": "Scegli il connettore di contrasto.",
+            "prompt": "Scegli la frase più corretta per “Congiuntivo con opinione e dubbio”.",
+            "difficulty": "recognition",
             "options": [
               {
-                "id": "o1",
-                "text": "Vorrei uscire, quindi piove."
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "Vorrei uscire, tuttavia piove."
+                "id": "b",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "Vorrei uscire, perché piove."
+                "id": "c",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "Vorrei uscire, infatti piove."
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q3",
+            "id": "italian-b1-tecnologia-quotidiana-grammar-3",
             "type": "mcq",
-            "prompt": "Completa: Resto a casa perché ___ stanco.",
+            "prompt": "Scegli la frase più corretta per “Congiuntivo con opinione e dubbio”.",
+            "difficulty": "recognition",
             "options": [
               {
-                "id": "o1",
-                "text": "essere"
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "sia"
+                "id": "b",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "sono"
+                "id": "c",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "sarei"
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q4",
+            "id": "italian-b1-tecnologia-quotidiana-grammar-4",
             "type": "mcq",
-            "prompt": "Quale frase esprime un’opinione?",
+            "prompt": "Scegli la frase più corretta per “Congiuntivo con opinione e dubbio”.",
+            "difficulty": "application",
             "options": [
               {
-                "id": "o1",
-                "text": "Il progetto funziona perché?"
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "Il progetto ieri funziona?"
+                "id": "b",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "Funzionare progetto secondo me."
+                "id": "c",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "Secondo me, il progetto funziona."
+                "id": "d",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q5",
+            "id": "italian-b1-tecnologia-quotidiana-grammar-5",
             "type": "mcq",
-            "prompt": "Completa: Sebbene ___ tardi, continuiamo.",
+            "prompt": "Scegli la frase più corretta per “Congiuntivo con opinione e dubbio”.",
+            "difficulty": "application",
             "options": [
               {
-                "id": "o1",
-                "text": "sia"
+                "id": "a",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "è"
+                "id": "b",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "essere"
+                "id": "c",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "sono"
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q6",
+            "id": "italian-b1-tecnologia-quotidiana-grammar-6",
             "type": "mcq",
-            "prompt": "Scegli la conclusione logica.",
+            "prompt": "Scegli la frase più corretta per “Congiuntivo con opinione e dubbio”.",
+            "difficulty": "application",
             "options": [
               {
-                "id": "o1",
-                "text": "Abbiamo poco tempo, tuttavia organizziamo il lavoro."
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "Abbiamo poco tempo, quindi organizziamo il lavoro."
+                "id": "b",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "Abbiamo poco tempo, perché organizziamo il lavoro."
+                "id": "c",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "Abbiamo poco tempo, se organizziamo il lavoro."
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q7",
+            "id": "italian-b1-tecnologia-quotidiana-grammar-7",
             "type": "mcq",
-            "prompt": "Completa: Credo che loro ___ ragione.",
+            "prompt": "Scegli la frase più corretta per “Congiuntivo con opinione e dubbio”.",
+            "difficulty": "control",
             "options": [
               {
-                "id": "o1",
-                "text": "avere"
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "hanno"
+                "id": "b",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "abbiano"
+                "id": "c",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "avranno"
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q8",
+            "id": "italian-b1-tecnologia-quotidiana-grammar-8",
             "type": "mcq",
-            "prompt": "Quale frase giustifica una scelta?",
+            "prompt": "Scegli la frase più corretta per “Congiuntivo con opinione e dubbio”.",
+            "difficulty": "control",
             "options": [
               {
-                "id": "o1",
-                "text": "Scelgo il treno è più sostenibile perché?"
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "Scelgo il treno tuttavia è più sostenibile."
+                "id": "b",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "Scelgo il treno quindi è più sostenibile?"
+                "id": "c",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "Scelgo il treno perché è più sostenibile."
+                "id": "d",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-tecnologia-quotidiana-grammar-9",
+            "type": "mcq",
+            "prompt": "Scegli la frase più corretta per “Congiuntivo con opinione e dubbio”.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
+              },
+              {
+                "id": "b",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
+              },
+              {
+                "id": "c",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
+              },
+              {
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-tecnologia-quotidiana-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene alla lezione “Tecnologia quotidiana”?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "rischio"
+              },
+              {
+                "id": "b",
+                "text": "tecnologia"
+              },
+              {
+                "id": "c",
+                "text": "aeroporto"
+              },
+              {
+                "id": "d",
+                "text": "satellite"
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-tecnologia-quotidiana-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene alla lezione “Tecnologia quotidiana”?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "rischio"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "dispositivo"
+              },
+              {
+                "id": "d",
+                "text": "satellite"
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-tecnologia-quotidiana-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene alla lezione “Tecnologia quotidiana”?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "rischio"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "satellite"
+              },
+              {
+                "id": "d",
+                "text": "vantaggio"
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-tecnologia-quotidiana-verbs-13",
+            "type": "mcq",
+            "prompt": "Noi ___ una soluzione dopo aver ascoltato tutti.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "proponiamo"
+              },
+              {
+                "id": "b",
+                "text": "propongono"
+              },
+              {
+                "id": "c",
+                "text": "valutano"
+              },
+              {
+                "id": "d",
+                "text": "spiega"
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-tecnologia-quotidiana-verbs-14",
+            "type": "mcq",
+            "prompt": "Lei ___ le conseguenze prima di decidere.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "propongono"
+              },
+              {
+                "id": "b",
+                "text": "valuta"
+              },
+              {
+                "id": "c",
+                "text": "valutano"
+              },
+              {
+                "id": "d",
+                "text": "spiega"
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-tecnologia-quotidiana-verbs-15",
+            "type": "mcq",
+            "prompt": "Loro ___ le ragioni della scelta con chiarezza.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "propongono"
+              },
+              {
+                "id": "b",
+                "text": "valutano"
+              },
+              {
+                "id": "c",
+                "text": "spiegano"
+              },
+              {
+                "id": "d",
+                "text": "spiega"
               }
             ]
           }
@@ -39971,7 +46505,372 @@
           "Oggi fa caldo."
         ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "id": "italian-a1-il-tempo-e-le-stagioni-final-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "il-tempo-e-le-stagioni-grammar-1",
+            "type": "mcq",
+            "prompt": "Scegli la frase corretta.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "Oggi fa caldo."
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "il-tempo-e-le-stagioni-grammar-2",
+            "type": "mcq",
+            "prompt": "Quale forma è corretta in questo contesto?",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Oggi fa caldo."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "il-tempo-e-le-stagioni-grammar-3",
+            "type": "mcq",
+            "prompt": "Completa la frase con la struttura studiata.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Oggi fa caldo."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "il-tempo-e-le-stagioni-grammar-4",
+            "type": "mcq",
+            "prompt": "Quale opzione usa la grammatica della lezione?",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Lei sono ieri al museo."
+              },
+              {
+                "id": "d",
+                "text": "Oggi fa caldo."
+              }
+            ]
+          },
+          {
+            "id": "il-tempo-e-le-stagioni-grammar-5",
+            "type": "mcq",
+            "prompt": "Individua la frase più naturale.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "Oggi fa caldo."
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "il-tempo-e-le-stagioni-grammar-6",
+            "type": "mcq",
+            "prompt": "Quale frase mantiene il significato corretto?",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Oggi fa caldo."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "il-tempo-e-le-stagioni-grammar-7",
+            "type": "mcq",
+            "prompt": "Scegli la forma verbale appropriata.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Oggi fa caldo."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "il-tempo-e-le-stagioni-grammar-8",
+            "type": "mcq",
+            "prompt": "Quale risposta è grammaticalmente corretta?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Lei sono ieri al museo."
+              },
+              {
+                "id": "d",
+                "text": "Oggi fa caldo."
+              }
+            ]
+          },
+          {
+            "id": "il-tempo-e-le-stagioni-grammar-9",
+            "type": "mcq",
+            "prompt": "Applica “Fare e c’è per il tempo” in una frase.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Oggi fa caldo."
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "il-tempo-e-le-stagioni-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "freddo"
+              },
+              {
+                "id": "b",
+                "text": "sole"
+              },
+              {
+                "id": "c",
+                "text": "aeroporto"
+              },
+              {
+                "id": "d",
+                "text": "computer"
+              }
+            ]
+          },
+          {
+            "id": "il-tempo-e-le-stagioni-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "freddo"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "pioggia"
+              },
+              {
+                "id": "d",
+                "text": "computer"
+              }
+            ]
+          },
+          {
+            "id": "il-tempo-e-le-stagioni-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "freddo"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "computer"
+              },
+              {
+                "id": "d",
+                "text": "caldo"
+              }
+            ]
+          },
+          {
+            "id": "il-tempo-e-le-stagioni-verb-13",
+            "type": "mcq",
+            "prompt": "Io ___ italiano ogni giorno.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studio"
+              },
+              {
+                "id": "b",
+                "text": "studia"
+              },
+              {
+                "id": "c",
+                "text": "parlate"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          },
+          {
+            "id": "il-tempo-e-le-stagioni-verb-14",
+            "type": "mcq",
+            "prompt": "Noi ___ insieme dopo la lezione.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studia"
+              },
+              {
+                "id": "b",
+                "text": "parliamo"
+              },
+              {
+                "id": "c",
+                "text": "parlate"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          },
+          {
+            "id": "il-tempo-e-le-stagioni-verb-15",
+            "type": "mcq",
+            "prompt": "Lei ___ una frase completa.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studia"
+              },
+              {
+                "id": "b",
+                "text": "parlate"
+              },
+              {
+                "id": "c",
+                "text": "scrive"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
@@ -40051,7 +46950,372 @@
           "Mi fa male la gola."
         ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "id": "italian-a2-la-salute-ogni-giorno-final-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "la-salute-ogni-giorno-grammar-1",
+            "type": "mcq",
+            "prompt": "Scegli la frase corretta.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "Mi fa male la gola."
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "la-salute-ogni-giorno-grammar-2",
+            "type": "mcq",
+            "prompt": "Quale forma è corretta in questo contesto?",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Mi fa male la gola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "la-salute-ogni-giorno-grammar-3",
+            "type": "mcq",
+            "prompt": "Completa la frase con la struttura studiata.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Mi fa male la gola."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "la-salute-ogni-giorno-grammar-4",
+            "type": "mcq",
+            "prompt": "Quale opzione usa la grammatica della lezione?",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Lei sono ieri al museo."
+              },
+              {
+                "id": "d",
+                "text": "Mi fa male la gola."
+              }
+            ]
+          },
+          {
+            "id": "la-salute-ogni-giorno-grammar-5",
+            "type": "mcq",
+            "prompt": "Individua la frase più naturale.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "Mi fa male la gola."
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "la-salute-ogni-giorno-grammar-6",
+            "type": "mcq",
+            "prompt": "Quale frase mantiene il significato corretto?",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Mi fa male la gola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "la-salute-ogni-giorno-grammar-7",
+            "type": "mcq",
+            "prompt": "Scegli la forma verbale appropriata.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Mi fa male la gola."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "la-salute-ogni-giorno-grammar-8",
+            "type": "mcq",
+            "prompt": "Quale risposta è grammaticalmente corretta?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Lei sono ieri al museo."
+              },
+              {
+                "id": "d",
+                "text": "Mi fa male la gola."
+              }
+            ]
+          },
+          {
+            "id": "la-salute-ogni-giorno-grammar-9",
+            "type": "mcq",
+            "prompt": "Applica “Mi fa male” in una frase.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Mi fa male la gola."
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "la-salute-ogni-giorno-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "consiglio"
+              },
+              {
+                "id": "b",
+                "text": "farmacia"
+              },
+              {
+                "id": "c",
+                "text": "aeroporto"
+              },
+              {
+                "id": "d",
+                "text": "computer"
+              }
+            ]
+          },
+          {
+            "id": "la-salute-ogni-giorno-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "consiglio"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "dolore"
+              },
+              {
+                "id": "d",
+                "text": "computer"
+              }
+            ]
+          },
+          {
+            "id": "la-salute-ogni-giorno-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "consiglio"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "computer"
+              },
+              {
+                "id": "d",
+                "text": "riposo"
+              }
+            ]
+          },
+          {
+            "id": "la-salute-ogni-giorno-verb-13",
+            "type": "mcq",
+            "prompt": "Io ___ italiano ogni giorno.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studio"
+              },
+              {
+                "id": "b",
+                "text": "studia"
+              },
+              {
+                "id": "c",
+                "text": "parlate"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          },
+          {
+            "id": "la-salute-ogni-giorno-verb-14",
+            "type": "mcq",
+            "prompt": "Noi ___ insieme dopo la lezione.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studia"
+              },
+              {
+                "id": "b",
+                "text": "parliamo"
+              },
+              {
+                "id": "c",
+                "text": "parlate"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          },
+          {
+            "id": "la-salute-ogni-giorno-verb-15",
+            "type": "mcq",
+            "prompt": "Lei ___ una frase completa.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studia"
+              },
+              {
+                "id": "b",
+                "text": "parlate"
+              },
+              {
+                "id": "c",
+                "text": "scrive"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
@@ -41051,197 +48315,375 @@
     "extra": {
       "grammarProfile": {
         "name": "Comparativi complessi",
-        "definition": "Connettori, opinioni e ipotesi aiutano a costruire un argomento.",
+        "definition": "Práctica guiada de Comparativi complessi.",
         "structure": "opinione + perché/tuttavia/quindi + motivazione",
-        "function": "Esprimere e giustificare un punto di vista.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Penso che la proposta sia utile.",
           "Tuttavia dobbiamo valutare i risultati."
         ]
       },
       "grammarTest": {
+        "id": "italian-b1-citta-e-mobilita-final-test",
+        "passingScore": 70,
         "questions": [
           {
-            "id": "q1",
+            "id": "italian-b1-citta-e-mobilita-grammar-1",
             "type": "mcq",
-            "prompt": "Completa: Penso che la proposta ___ utile.",
+            "prompt": "Scegli la frase più corretta per “Comparativi complessi”.",
+            "difficulty": "recognition",
             "options": [
               {
-                "id": "o1",
-                "text": "sia"
+                "id": "a",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "è"
+                "id": "b",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "essere"
+                "id": "c",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "sono"
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q2",
+            "id": "italian-b1-citta-e-mobilita-grammar-2",
             "type": "mcq",
-            "prompt": "Scegli il connettore di contrasto.",
+            "prompt": "Scegli la frase più corretta per “Comparativi complessi”.",
+            "difficulty": "recognition",
             "options": [
               {
-                "id": "o1",
-                "text": "Vorrei uscire, quindi piove."
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "Vorrei uscire, tuttavia piove."
+                "id": "b",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "Vorrei uscire, perché piove."
+                "id": "c",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "Vorrei uscire, infatti piove."
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q3",
+            "id": "italian-b1-citta-e-mobilita-grammar-3",
             "type": "mcq",
-            "prompt": "Completa: Resto a casa perché ___ stanco.",
+            "prompt": "Scegli la frase più corretta per “Comparativi complessi”.",
+            "difficulty": "recognition",
             "options": [
               {
-                "id": "o1",
-                "text": "essere"
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "sia"
+                "id": "b",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "sono"
+                "id": "c",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "sarei"
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q4",
+            "id": "italian-b1-citta-e-mobilita-grammar-4",
             "type": "mcq",
-            "prompt": "Quale frase esprime un’opinione?",
+            "prompt": "Scegli la frase più corretta per “Comparativi complessi”.",
+            "difficulty": "application",
             "options": [
               {
-                "id": "o1",
-                "text": "Il progetto funziona perché?"
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "Il progetto ieri funziona?"
+                "id": "b",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "Funzionare progetto secondo me."
+                "id": "c",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "Secondo me, il progetto funziona."
+                "id": "d",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q5",
+            "id": "italian-b1-citta-e-mobilita-grammar-5",
             "type": "mcq",
-            "prompt": "Completa: Sebbene ___ tardi, continuiamo.",
+            "prompt": "Scegli la frase più corretta per “Comparativi complessi”.",
+            "difficulty": "application",
             "options": [
               {
-                "id": "o1",
-                "text": "sia"
+                "id": "a",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "è"
+                "id": "b",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "essere"
+                "id": "c",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "sono"
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q6",
+            "id": "italian-b1-citta-e-mobilita-grammar-6",
             "type": "mcq",
-            "prompt": "Scegli la conclusione logica.",
+            "prompt": "Scegli la frase più corretta per “Comparativi complessi”.",
+            "difficulty": "application",
             "options": [
               {
-                "id": "o1",
-                "text": "Abbiamo poco tempo, tuttavia organizziamo il lavoro."
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "Abbiamo poco tempo, quindi organizziamo il lavoro."
+                "id": "b",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "Abbiamo poco tempo, perché organizziamo il lavoro."
+                "id": "c",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "Abbiamo poco tempo, se organizziamo il lavoro."
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q7",
+            "id": "italian-b1-citta-e-mobilita-grammar-7",
             "type": "mcq",
-            "prompt": "Completa: Credo che loro ___ ragione.",
+            "prompt": "Scegli la frase più corretta per “Comparativi complessi”.",
+            "difficulty": "control",
             "options": [
               {
-                "id": "o1",
-                "text": "avere"
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "hanno"
+                "id": "b",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "abbiano"
+                "id": "c",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "avranno"
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q8",
+            "id": "italian-b1-citta-e-mobilita-grammar-8",
             "type": "mcq",
-            "prompt": "Quale frase giustifica una scelta?",
+            "prompt": "Scegli la frase più corretta per “Comparativi complessi”.",
+            "difficulty": "control",
             "options": [
               {
-                "id": "o1",
-                "text": "Scelgo il treno è più sostenibile perché?"
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "Scelgo il treno tuttavia è più sostenibile."
+                "id": "b",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "Scelgo il treno quindi è più sostenibile?"
+                "id": "c",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "Scelgo il treno perché è più sostenibile."
+                "id": "d",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-citta-e-mobilita-grammar-9",
+            "type": "mcq",
+            "prompt": "Scegli la frase più corretta per “Comparativi complessi”.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
+              },
+              {
+                "id": "b",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
+              },
+              {
+                "id": "c",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
+              },
+              {
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-citta-e-mobilita-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene alla lezione “Città e mobilità”?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "bicicletta"
+              },
+              {
+                "id": "b",
+                "text": "trasporto"
+              },
+              {
+                "id": "c",
+                "text": "aeroporto"
+              },
+              {
+                "id": "d",
+                "text": "satellite"
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-citta-e-mobilita-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene alla lezione “Città e mobilità”?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "bicicletta"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "percorso"
+              },
+              {
+                "id": "d",
+                "text": "satellite"
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-citta-e-mobilita-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene alla lezione “Città e mobilità”?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "bicicletta"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "satellite"
+              },
+              {
+                "id": "d",
+                "text": "traffico"
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-citta-e-mobilita-verbs-13",
+            "type": "mcq",
+            "prompt": "Noi ___ una soluzione dopo aver ascoltato tutti.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "proponiamo"
+              },
+              {
+                "id": "b",
+                "text": "propongono"
+              },
+              {
+                "id": "c",
+                "text": "valutano"
+              },
+              {
+                "id": "d",
+                "text": "spiega"
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-citta-e-mobilita-verbs-14",
+            "type": "mcq",
+            "prompt": "Lei ___ le conseguenze prima di decidere.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "propongono"
+              },
+              {
+                "id": "b",
+                "text": "valuta"
+              },
+              {
+                "id": "c",
+                "text": "valutano"
+              },
+              {
+                "id": "d",
+                "text": "spiega"
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-citta-e-mobilita-verbs-15",
+            "type": "mcq",
+            "prompt": "Loro ___ le ragioni della scelta con chiarezza.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "propongono"
+              },
+              {
+                "id": "b",
+                "text": "valutano"
+              },
+              {
+                "id": "c",
+                "text": "spiegano"
+              },
+              {
+                "id": "d",
+                "text": "spiega"
               }
             ]
           }
@@ -44954,7 +52396,372 @@
           "Ci vediamo alla festa."
         ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "id": "italian-a1-una-festa-di-quartiere-final-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "una-festa-di-quartiere-grammar-1",
+            "type": "mcq",
+            "prompt": "Scegli la frase corretta.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "Ci vediamo alla festa."
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "una-festa-di-quartiere-grammar-2",
+            "type": "mcq",
+            "prompt": "Quale forma è corretta in questo contesto?",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Ci vediamo alla festa."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "una-festa-di-quartiere-grammar-3",
+            "type": "mcq",
+            "prompt": "Completa la frase con la struttura studiata.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Ci vediamo alla festa."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "una-festa-di-quartiere-grammar-4",
+            "type": "mcq",
+            "prompt": "Quale opzione usa la grammatica della lezione?",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Lei sono ieri al museo."
+              },
+              {
+                "id": "d",
+                "text": "Ci vediamo alla festa."
+              }
+            ]
+          },
+          {
+            "id": "una-festa-di-quartiere-grammar-5",
+            "type": "mcq",
+            "prompt": "Individua la frase più naturale.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "Ci vediamo alla festa."
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "una-festa-di-quartiere-grammar-6",
+            "type": "mcq",
+            "prompt": "Quale frase mantiene il significato corretto?",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Ci vediamo alla festa."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "una-festa-di-quartiere-grammar-7",
+            "type": "mcq",
+            "prompt": "Scegli la forma verbale appropriata.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Ci vediamo alla festa."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "una-festa-di-quartiere-grammar-8",
+            "type": "mcq",
+            "prompt": "Quale risposta è grammaticalmente corretta?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Lei sono ieri al museo."
+              },
+              {
+                "id": "d",
+                "text": "Ci vediamo alla festa."
+              }
+            ]
+          },
+          {
+            "id": "una-festa-di-quartiere-grammar-9",
+            "type": "mcq",
+            "prompt": "Applica “Andare a e in” in una frase.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Ci vediamo alla festa."
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "una-festa-di-quartiere-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "sabato"
+              },
+              {
+                "id": "b",
+                "text": "festa"
+              },
+              {
+                "id": "c",
+                "text": "aeroporto"
+              },
+              {
+                "id": "d",
+                "text": "computer"
+              }
+            ]
+          },
+          {
+            "id": "una-festa-di-quartiere-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "sabato"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "musica"
+              },
+              {
+                "id": "d",
+                "text": "computer"
+              }
+            ]
+          },
+          {
+            "id": "una-festa-di-quartiere-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "sabato"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "computer"
+              },
+              {
+                "id": "d",
+                "text": "vicino"
+              }
+            ]
+          },
+          {
+            "id": "una-festa-di-quartiere-verb-13",
+            "type": "mcq",
+            "prompt": "Io ___ italiano ogni giorno.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studio"
+              },
+              {
+                "id": "b",
+                "text": "studia"
+              },
+              {
+                "id": "c",
+                "text": "parlate"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          },
+          {
+            "id": "una-festa-di-quartiere-verb-14",
+            "type": "mcq",
+            "prompt": "Noi ___ insieme dopo la lezione.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studia"
+              },
+              {
+                "id": "b",
+                "text": "parliamo"
+              },
+              {
+                "id": "c",
+                "text": "parlate"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          },
+          {
+            "id": "una-festa-di-quartiere-verb-15",
+            "type": "mcq",
+            "prompt": "Lei ___ una frase completa.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studia"
+              },
+              {
+                "id": "b",
+                "text": "parlate"
+              },
+              {
+                "id": "c",
+                "text": "scrive"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
@@ -45034,7 +52841,372 @@
           "La sua famiglia è arrivata anni fa."
         ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "id": "italian-a2-storie-di-migrazione-final-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "storie-di-migrazione-grammar-1",
+            "type": "mcq",
+            "prompt": "Scegli la frase corretta.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "La famiglia vive qui da anni."
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "storie-di-migrazione-grammar-2",
+            "type": "mcq",
+            "prompt": "Quale forma è corretta in questo contesto?",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "La famiglia vive qui da anni."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "storie-di-migrazione-grammar-3",
+            "type": "mcq",
+            "prompt": "Completa la frase con la struttura studiata.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "La famiglia vive qui da anni."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "storie-di-migrazione-grammar-4",
+            "type": "mcq",
+            "prompt": "Quale opzione usa la grammatica della lezione?",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Lei sono ieri al museo."
+              },
+              {
+                "id": "d",
+                "text": "La famiglia vive qui da anni."
+              }
+            ]
+          },
+          {
+            "id": "storie-di-migrazione-grammar-5",
+            "type": "mcq",
+            "prompt": "Individua la frase più naturale.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "La famiglia vive qui da anni."
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "storie-di-migrazione-grammar-6",
+            "type": "mcq",
+            "prompt": "Quale frase mantiene il significato corretto?",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "La famiglia vive qui da anni."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "storie-di-migrazione-grammar-7",
+            "type": "mcq",
+            "prompt": "Scegli la forma verbale appropriata.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "La famiglia vive qui da anni."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "storie-di-migrazione-grammar-8",
+            "type": "mcq",
+            "prompt": "Quale risposta è grammaticalmente corretta?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Lei sono ieri al museo."
+              },
+              {
+                "id": "d",
+                "text": "La famiglia vive qui da anni."
+              }
+            ]
+          },
+          {
+            "id": "storie-di-migrazione-grammar-9",
+            "type": "mcq",
+            "prompt": "Applica “Da + tempo” in una frase.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "La famiglia vive qui da anni."
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "storie-di-migrazione-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "comunità"
+              },
+              {
+                "id": "b",
+                "text": "famiglia"
+              },
+              {
+                "id": "c",
+                "text": "aeroporto"
+              },
+              {
+                "id": "d",
+                "text": "computer"
+              }
+            ]
+          },
+          {
+            "id": "storie-di-migrazione-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "comunità"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "origine"
+              },
+              {
+                "id": "d",
+                "text": "computer"
+              }
+            ]
+          },
+          {
+            "id": "storie-di-migrazione-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "comunità"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "computer"
+              },
+              {
+                "id": "d",
+                "text": "arrivare"
+              }
+            ]
+          },
+          {
+            "id": "storie-di-migrazione-verb-13",
+            "type": "mcq",
+            "prompt": "Io ___ italiano ogni giorno.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studio"
+              },
+              {
+                "id": "b",
+                "text": "studia"
+              },
+              {
+                "id": "c",
+                "text": "parlate"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          },
+          {
+            "id": "storie-di-migrazione-verb-14",
+            "type": "mcq",
+            "prompt": "Noi ___ insieme dopo la lezione.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studia"
+              },
+              {
+                "id": "b",
+                "text": "parliamo"
+              },
+              {
+                "id": "c",
+                "text": "parlate"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          },
+          {
+            "id": "storie-di-migrazione-verb-15",
+            "type": "mcq",
+            "prompt": "Lei ___ una frase completa.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studia"
+              },
+              {
+                "id": "b",
+                "text": "parlate"
+              },
+              {
+                "id": "c",
+                "text": "scrive"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
@@ -46034,197 +54206,375 @@
     "extra": {
       "grammarProfile": {
         "name": "Futuro anteriore e supposizioni",
-        "definition": "Connettori, opinioni e ipotesi aiutano a costruire un argomento.",
+        "definition": "Práctica guiada de Futuro anteriore e supposizioni.",
         "structure": "opinione + perché/tuttavia/quindi + motivazione",
-        "function": "Esprimere e giustificare un punto di vista.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Penso che la proposta sia utile.",
           "Tuttavia dobbiamo valutare i risultati."
         ]
       },
       "grammarTest": {
+        "id": "italian-b1-piani-per-il-futuro-final-test",
+        "passingScore": 70,
         "questions": [
           {
-            "id": "q1",
+            "id": "italian-b1-piani-per-il-futuro-grammar-1",
             "type": "mcq",
-            "prompt": "Completa: Penso che la proposta ___ utile.",
+            "prompt": "Scegli la frase più corretta per “Futuro anteriore e supposizioni”.",
+            "difficulty": "recognition",
             "options": [
               {
-                "id": "o1",
-                "text": "sia"
+                "id": "a",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "è"
+                "id": "b",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "essere"
+                "id": "c",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "sono"
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q2",
+            "id": "italian-b1-piani-per-il-futuro-grammar-2",
             "type": "mcq",
-            "prompt": "Scegli il connettore di contrasto.",
+            "prompt": "Scegli la frase più corretta per “Futuro anteriore e supposizioni”.",
+            "difficulty": "recognition",
             "options": [
               {
-                "id": "o1",
-                "text": "Vorrei uscire, quindi piove."
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "Vorrei uscire, tuttavia piove."
+                "id": "b",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "Vorrei uscire, perché piove."
+                "id": "c",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "Vorrei uscire, infatti piove."
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q3",
+            "id": "italian-b1-piani-per-il-futuro-grammar-3",
             "type": "mcq",
-            "prompt": "Completa: Resto a casa perché ___ stanco.",
+            "prompt": "Scegli la frase più corretta per “Futuro anteriore e supposizioni”.",
+            "difficulty": "recognition",
             "options": [
               {
-                "id": "o1",
-                "text": "essere"
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "sia"
+                "id": "b",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "sono"
+                "id": "c",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "sarei"
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q4",
+            "id": "italian-b1-piani-per-il-futuro-grammar-4",
             "type": "mcq",
-            "prompt": "Quale frase esprime un’opinione?",
+            "prompt": "Scegli la frase più corretta per “Futuro anteriore e supposizioni”.",
+            "difficulty": "application",
             "options": [
               {
-                "id": "o1",
-                "text": "Il progetto funziona perché?"
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "Il progetto ieri funziona?"
+                "id": "b",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "Funzionare progetto secondo me."
+                "id": "c",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "Secondo me, il progetto funziona."
+                "id": "d",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q5",
+            "id": "italian-b1-piani-per-il-futuro-grammar-5",
             "type": "mcq",
-            "prompt": "Completa: Sebbene ___ tardi, continuiamo.",
+            "prompt": "Scegli la frase più corretta per “Futuro anteriore e supposizioni”.",
+            "difficulty": "application",
             "options": [
               {
-                "id": "o1",
-                "text": "sia"
+                "id": "a",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "è"
+                "id": "b",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "essere"
+                "id": "c",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "sono"
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q6",
+            "id": "italian-b1-piani-per-il-futuro-grammar-6",
             "type": "mcq",
-            "prompt": "Scegli la conclusione logica.",
+            "prompt": "Scegli la frase più corretta per “Futuro anteriore e supposizioni”.",
+            "difficulty": "application",
             "options": [
               {
-                "id": "o1",
-                "text": "Abbiamo poco tempo, tuttavia organizziamo il lavoro."
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "Abbiamo poco tempo, quindi organizziamo il lavoro."
+                "id": "b",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "Abbiamo poco tempo, perché organizziamo il lavoro."
+                "id": "c",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "Abbiamo poco tempo, se organizziamo il lavoro."
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q7",
+            "id": "italian-b1-piani-per-il-futuro-grammar-7",
             "type": "mcq",
-            "prompt": "Completa: Credo che loro ___ ragione.",
+            "prompt": "Scegli la frase più corretta per “Futuro anteriore e supposizioni”.",
+            "difficulty": "control",
             "options": [
               {
-                "id": "o1",
-                "text": "avere"
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "hanno"
+                "id": "b",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "abbiano"
+                "id": "c",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "avranno"
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q8",
+            "id": "italian-b1-piani-per-il-futuro-grammar-8",
             "type": "mcq",
-            "prompt": "Quale frase giustifica una scelta?",
+            "prompt": "Scegli la frase più corretta per “Futuro anteriore e supposizioni”.",
+            "difficulty": "control",
             "options": [
               {
-                "id": "o1",
-                "text": "Scelgo il treno è più sostenibile perché?"
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "Scelgo il treno tuttavia è più sostenibile."
+                "id": "b",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "Scelgo il treno quindi è più sostenibile?"
+                "id": "c",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "Scelgo il treno perché è più sostenibile."
+                "id": "d",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-piani-per-il-futuro-grammar-9",
+            "type": "mcq",
+            "prompt": "Scegli la frase più corretta per “Futuro anteriore e supposizioni”.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
+              },
+              {
+                "id": "b",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
+              },
+              {
+                "id": "c",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
+              },
+              {
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-piani-per-il-futuro-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene alla lezione “Piani per il futuro”?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "decidere"
+              },
+              {
+                "id": "b",
+                "text": "futuro"
+              },
+              {
+                "id": "c",
+                "text": "aeroporto"
+              },
+              {
+                "id": "d",
+                "text": "satellite"
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-piani-per-il-futuro-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene alla lezione “Piani per il futuro”?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "decidere"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "obiettivo"
+              },
+              {
+                "id": "d",
+                "text": "satellite"
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-piani-per-il-futuro-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene alla lezione “Piani per il futuro”?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "decidere"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "satellite"
+              },
+              {
+                "id": "d",
+                "text": "opportunità"
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-piani-per-il-futuro-verbs-13",
+            "type": "mcq",
+            "prompt": "Noi ___ una soluzione dopo aver ascoltato tutti.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "proponiamo"
+              },
+              {
+                "id": "b",
+                "text": "propongono"
+              },
+              {
+                "id": "c",
+                "text": "valutano"
+              },
+              {
+                "id": "d",
+                "text": "spiega"
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-piani-per-il-futuro-verbs-14",
+            "type": "mcq",
+            "prompt": "Lei ___ le conseguenze prima di decidere.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "propongono"
+              },
+              {
+                "id": "b",
+                "text": "valuta"
+              },
+              {
+                "id": "c",
+                "text": "valutano"
+              },
+              {
+                "id": "d",
+                "text": "spiega"
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-piani-per-il-futuro-verbs-15",
+            "type": "mcq",
+            "prompt": "Loro ___ le ragioni della scelta con chiarezza.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "propongono"
+              },
+              {
+                "id": "b",
+                "text": "valutano"
+              },
+              {
+                "id": "c",
+                "text": "spiegano"
+              },
+              {
+                "id": "d",
+                "text": "spiega"
               }
             ]
           }
@@ -49939,7 +58289,372 @@
           "Un biglietto per Firenze."
         ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "id": "italian-a1-in-treno-final-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "in-treno-grammar-1",
+            "type": "mcq",
+            "prompt": "Scegli la frase corretta.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "Vorrei un biglietto."
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "in-treno-grammar-2",
+            "type": "mcq",
+            "prompt": "Quale forma è corretta in questo contesto?",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Vorrei un biglietto."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "in-treno-grammar-3",
+            "type": "mcq",
+            "prompt": "Completa la frase con la struttura studiata.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Vorrei un biglietto."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "in-treno-grammar-4",
+            "type": "mcq",
+            "prompt": "Quale opzione usa la grammatica della lezione?",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Lei sono ieri al museo."
+              },
+              {
+                "id": "d",
+                "text": "Vorrei un biglietto."
+              }
+            ]
+          },
+          {
+            "id": "in-treno-grammar-5",
+            "type": "mcq",
+            "prompt": "Individua la frase più naturale.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "Vorrei un biglietto."
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "in-treno-grammar-6",
+            "type": "mcq",
+            "prompt": "Quale frase mantiene il significato corretto?",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Vorrei un biglietto."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "in-treno-grammar-7",
+            "type": "mcq",
+            "prompt": "Scegli la forma verbale appropriata.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Vorrei un biglietto."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "in-treno-grammar-8",
+            "type": "mcq",
+            "prompt": "Quale risposta è grammaticalmente corretta?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Lei sono ieri al museo."
+              },
+              {
+                "id": "d",
+                "text": "Vorrei un biglietto."
+              }
+            ]
+          },
+          {
+            "id": "in-treno-grammar-9",
+            "type": "mcq",
+            "prompt": "Applica “Volere e potere” in una frase.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Vorrei un biglietto."
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "in-treno-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "viaggio"
+              },
+              {
+                "id": "b",
+                "text": "treno"
+              },
+              {
+                "id": "c",
+                "text": "aeroporto"
+              },
+              {
+                "id": "d",
+                "text": "computer"
+              }
+            ]
+          },
+          {
+            "id": "in-treno-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "viaggio"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "biglietto"
+              },
+              {
+                "id": "d",
+                "text": "computer"
+              }
+            ]
+          },
+          {
+            "id": "in-treno-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "viaggio"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "computer"
+              },
+              {
+                "id": "d",
+                "text": "binario"
+              }
+            ]
+          },
+          {
+            "id": "in-treno-verb-13",
+            "type": "mcq",
+            "prompt": "Io ___ italiano ogni giorno.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studio"
+              },
+              {
+                "id": "b",
+                "text": "studia"
+              },
+              {
+                "id": "c",
+                "text": "parlate"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          },
+          {
+            "id": "in-treno-verb-14",
+            "type": "mcq",
+            "prompt": "Noi ___ insieme dopo la lezione.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studia"
+              },
+              {
+                "id": "b",
+                "text": "parliamo"
+              },
+              {
+                "id": "c",
+                "text": "parlate"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          },
+          {
+            "id": "in-treno-verb-15",
+            "type": "mcq",
+            "prompt": "Lei ___ una frase completa.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studia"
+              },
+              {
+                "id": "b",
+                "text": "parlate"
+              },
+              {
+                "id": "c",
+                "text": "scrive"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
@@ -50019,7 +58734,372 @@
           "Possiamo dividere i compiti."
         ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "id": "italian-a2-un-progetto-di-classe-final-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "un-progetto-di-classe-grammar-1",
+            "type": "mcq",
+            "prompt": "Scegli la frase corretta.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "Possiamo dividere i compiti."
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "un-progetto-di-classe-grammar-2",
+            "type": "mcq",
+            "prompt": "Quale forma è corretta in questo contesto?",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Possiamo dividere i compiti."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "un-progetto-di-classe-grammar-3",
+            "type": "mcq",
+            "prompt": "Completa la frase con la struttura studiata.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Possiamo dividere i compiti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "un-progetto-di-classe-grammar-4",
+            "type": "mcq",
+            "prompt": "Quale opzione usa la grammatica della lezione?",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Lei sono ieri al museo."
+              },
+              {
+                "id": "d",
+                "text": "Possiamo dividere i compiti."
+              }
+            ]
+          },
+          {
+            "id": "un-progetto-di-classe-grammar-5",
+            "type": "mcq",
+            "prompt": "Individua la frase più naturale.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "Possiamo dividere i compiti."
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "un-progetto-di-classe-grammar-6",
+            "type": "mcq",
+            "prompt": "Quale frase mantiene il significato corretto?",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Possiamo dividere i compiti."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "un-progetto-di-classe-grammar-7",
+            "type": "mcq",
+            "prompt": "Scegli la forma verbale appropriata.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Possiamo dividere i compiti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "un-progetto-di-classe-grammar-8",
+            "type": "mcq",
+            "prompt": "Quale risposta è grammaticalmente corretta?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Lei sono ieri al museo."
+              },
+              {
+                "id": "d",
+                "text": "Possiamo dividere i compiti."
+              }
+            ]
+          },
+          {
+            "id": "un-progetto-di-classe-grammar-9",
+            "type": "mcq",
+            "prompt": "Applica “Possiamo + infinito” in una frase.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Possiamo dividere i compiti."
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "un-progetto-di-classe-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "gruppo"
+              },
+              {
+                "id": "b",
+                "text": "progetto"
+              },
+              {
+                "id": "c",
+                "text": "aeroporto"
+              },
+              {
+                "id": "d",
+                "text": "computer"
+              }
+            ]
+          },
+          {
+            "id": "un-progetto-di-classe-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "gruppo"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "compito"
+              },
+              {
+                "id": "d",
+                "text": "computer"
+              }
+            ]
+          },
+          {
+            "id": "un-progetto-di-classe-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "gruppo"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "computer"
+              },
+              {
+                "id": "d",
+                "text": "idea"
+              }
+            ]
+          },
+          {
+            "id": "un-progetto-di-classe-verb-13",
+            "type": "mcq",
+            "prompt": "Io ___ italiano ogni giorno.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studio"
+              },
+              {
+                "id": "b",
+                "text": "studia"
+              },
+              {
+                "id": "c",
+                "text": "parlate"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          },
+          {
+            "id": "un-progetto-di-classe-verb-14",
+            "type": "mcq",
+            "prompt": "Noi ___ insieme dopo la lezione.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studia"
+              },
+              {
+                "id": "b",
+                "text": "parliamo"
+              },
+              {
+                "id": "c",
+                "text": "parlate"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          },
+          {
+            "id": "un-progetto-di-classe-verb-15",
+            "type": "mcq",
+            "prompt": "Lei ___ una frase completa.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studia"
+              },
+              {
+                "id": "b",
+                "text": "parlate"
+              },
+              {
+                "id": "c",
+                "text": "scrive"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
@@ -51019,197 +60099,375 @@
     "extra": {
       "grammarProfile": {
         "name": "Relativi e comunicazione",
-        "definition": "Connettori, opinioni e ipotesi aiutano a costruire un argomento.",
+        "definition": "Práctica guiada de Relativi e comunicazione.",
         "structure": "opinione + perché/tuttavia/quindi + motivazione",
-        "function": "Esprimere e giustificare un punto di vista.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Penso che la proposta sia utile.",
           "Tuttavia dobbiamo valutare i risultati."
         ]
       },
       "grammarTest": {
+        "id": "italian-b1-relazioni-e-comunicazione-final-test",
+        "passingScore": 70,
         "questions": [
           {
-            "id": "q1",
+            "id": "italian-b1-relazioni-e-comunicazione-grammar-1",
             "type": "mcq",
-            "prompt": "Completa: Penso che la proposta ___ utile.",
+            "prompt": "Scegli la frase più corretta per “Relativi e comunicazione”.",
+            "difficulty": "recognition",
             "options": [
               {
-                "id": "o1",
-                "text": "sia"
+                "id": "a",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "è"
+                "id": "b",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "essere"
+                "id": "c",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "sono"
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q2",
+            "id": "italian-b1-relazioni-e-comunicazione-grammar-2",
             "type": "mcq",
-            "prompt": "Scegli il connettore di contrasto.",
+            "prompt": "Scegli la frase più corretta per “Relativi e comunicazione”.",
+            "difficulty": "recognition",
             "options": [
               {
-                "id": "o1",
-                "text": "Vorrei uscire, quindi piove."
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "Vorrei uscire, tuttavia piove."
+                "id": "b",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "Vorrei uscire, perché piove."
+                "id": "c",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "Vorrei uscire, infatti piove."
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q3",
+            "id": "italian-b1-relazioni-e-comunicazione-grammar-3",
             "type": "mcq",
-            "prompt": "Completa: Resto a casa perché ___ stanco.",
+            "prompt": "Scegli la frase più corretta per “Relativi e comunicazione”.",
+            "difficulty": "recognition",
             "options": [
               {
-                "id": "o1",
-                "text": "essere"
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "sia"
+                "id": "b",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "sono"
+                "id": "c",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "sarei"
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q4",
+            "id": "italian-b1-relazioni-e-comunicazione-grammar-4",
             "type": "mcq",
-            "prompt": "Quale frase esprime un’opinione?",
+            "prompt": "Scegli la frase più corretta per “Relativi e comunicazione”.",
+            "difficulty": "application",
             "options": [
               {
-                "id": "o1",
-                "text": "Il progetto funziona perché?"
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "Il progetto ieri funziona?"
+                "id": "b",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "Funzionare progetto secondo me."
+                "id": "c",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "Secondo me, il progetto funziona."
+                "id": "d",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q5",
+            "id": "italian-b1-relazioni-e-comunicazione-grammar-5",
             "type": "mcq",
-            "prompt": "Completa: Sebbene ___ tardi, continuiamo.",
+            "prompt": "Scegli la frase più corretta per “Relativi e comunicazione”.",
+            "difficulty": "application",
             "options": [
               {
-                "id": "o1",
-                "text": "sia"
+                "id": "a",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "è"
+                "id": "b",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "essere"
+                "id": "c",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "sono"
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q6",
+            "id": "italian-b1-relazioni-e-comunicazione-grammar-6",
             "type": "mcq",
-            "prompt": "Scegli la conclusione logica.",
+            "prompt": "Scegli la frase più corretta per “Relativi e comunicazione”.",
+            "difficulty": "application",
             "options": [
               {
-                "id": "o1",
-                "text": "Abbiamo poco tempo, tuttavia organizziamo il lavoro."
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "Abbiamo poco tempo, quindi organizziamo il lavoro."
+                "id": "b",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "Abbiamo poco tempo, perché organizziamo il lavoro."
+                "id": "c",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "Abbiamo poco tempo, se organizziamo il lavoro."
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q7",
+            "id": "italian-b1-relazioni-e-comunicazione-grammar-7",
             "type": "mcq",
-            "prompt": "Completa: Credo che loro ___ ragione.",
+            "prompt": "Scegli la frase più corretta per “Relativi e comunicazione”.",
+            "difficulty": "control",
             "options": [
               {
-                "id": "o1",
-                "text": "avere"
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "hanno"
+                "id": "b",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "abbiano"
+                "id": "c",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "avranno"
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q8",
+            "id": "italian-b1-relazioni-e-comunicazione-grammar-8",
             "type": "mcq",
-            "prompt": "Quale frase giustifica una scelta?",
+            "prompt": "Scegli la frase più corretta per “Relativi e comunicazione”.",
+            "difficulty": "control",
             "options": [
               {
-                "id": "o1",
-                "text": "Scelgo il treno è più sostenibile perché?"
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "Scelgo il treno tuttavia è più sostenibile."
+                "id": "b",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "Scelgo il treno quindi è più sostenibile?"
+                "id": "c",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "Scelgo il treno perché è più sostenibile."
+                "id": "d",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-relazioni-e-comunicazione-grammar-9",
+            "type": "mcq",
+            "prompt": "Scegli la frase più corretta per “Relativi e comunicazione”.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
+              },
+              {
+                "id": "b",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
+              },
+              {
+                "id": "c",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
+              },
+              {
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-relazioni-e-comunicazione-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene alla lezione “Relazioni e comunicazione”?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "messaggio"
+              },
+              {
+                "id": "b",
+                "text": "relazione"
+              },
+              {
+                "id": "c",
+                "text": "aeroporto"
+              },
+              {
+                "id": "d",
+                "text": "satellite"
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-relazioni-e-comunicazione-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene alla lezione “Relazioni e comunicazione”?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "messaggio"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "ascoltare"
+              },
+              {
+                "id": "d",
+                "text": "satellite"
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-relazioni-e-comunicazione-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene alla lezione “Relazioni e comunicazione”?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "messaggio"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "satellite"
+              },
+              {
+                "id": "d",
+                "text": "spiegare"
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-relazioni-e-comunicazione-verbs-13",
+            "type": "mcq",
+            "prompt": "Noi ___ una soluzione dopo aver ascoltato tutti.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "proponiamo"
+              },
+              {
+                "id": "b",
+                "text": "propongono"
+              },
+              {
+                "id": "c",
+                "text": "valutano"
+              },
+              {
+                "id": "d",
+                "text": "spiega"
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-relazioni-e-comunicazione-verbs-14",
+            "type": "mcq",
+            "prompt": "Lei ___ le conseguenze prima di decidere.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "propongono"
+              },
+              {
+                "id": "b",
+                "text": "valuta"
+              },
+              {
+                "id": "c",
+                "text": "valutano"
+              },
+              {
+                "id": "d",
+                "text": "spiega"
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-relazioni-e-comunicazione-verbs-15",
+            "type": "mcq",
+            "prompt": "Loro ___ le ragioni della scelta con chiarezza.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "propongono"
+              },
+              {
+                "id": "b",
+                "text": "valutano"
+              },
+              {
+                "id": "c",
+                "text": "spiegano"
+              },
+              {
+                "id": "d",
+                "text": "spiega"
               }
             ]
           }
@@ -54926,7 +64184,372 @@
           "Mi piace questa zuppa."
         ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "id": "italian-a1-sapori-d-italia-final-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "sapori-d-italia-grammar-1",
+            "type": "mcq",
+            "prompt": "Scegli la frase corretta.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "Mi piace questa zuppa."
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "sapori-d-italia-grammar-2",
+            "type": "mcq",
+            "prompt": "Quale forma è corretta in questo contesto?",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Mi piace questa zuppa."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "sapori-d-italia-grammar-3",
+            "type": "mcq",
+            "prompt": "Completa la frase con la struttura studiata.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Mi piace questa zuppa."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "sapori-d-italia-grammar-4",
+            "type": "mcq",
+            "prompt": "Quale opzione usa la grammatica della lezione?",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Lei sono ieri al museo."
+              },
+              {
+                "id": "d",
+                "text": "Mi piace questa zuppa."
+              }
+            ]
+          },
+          {
+            "id": "sapori-d-italia-grammar-5",
+            "type": "mcq",
+            "prompt": "Individua la frase più naturale.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "Mi piace questa zuppa."
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "sapori-d-italia-grammar-6",
+            "type": "mcq",
+            "prompt": "Quale frase mantiene il significato corretto?",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Mi piace questa zuppa."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "sapori-d-italia-grammar-7",
+            "type": "mcq",
+            "prompt": "Scegli la forma verbale appropriata.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Mi piace questa zuppa."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "sapori-d-italia-grammar-8",
+            "type": "mcq",
+            "prompt": "Quale risposta è grammaticalmente corretta?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Lei sono ieri al museo."
+              },
+              {
+                "id": "d",
+                "text": "Mi piace questa zuppa."
+              }
+            ]
+          },
+          {
+            "id": "sapori-d-italia-grammar-9",
+            "type": "mcq",
+            "prompt": "Applica “Mi piace e preferisco” in una frase.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Mi piace questa zuppa."
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "sapori-d-italia-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "gusto"
+              },
+              {
+                "id": "b",
+                "text": "pane"
+              },
+              {
+                "id": "c",
+                "text": "aeroporto"
+              },
+              {
+                "id": "d",
+                "text": "computer"
+              }
+            ]
+          },
+          {
+            "id": "sapori-d-italia-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "gusto"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "zuppa"
+              },
+              {
+                "id": "d",
+                "text": "computer"
+              }
+            ]
+          },
+          {
+            "id": "sapori-d-italia-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "gusto"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "computer"
+              },
+              {
+                "id": "d",
+                "text": "formaggio"
+              }
+            ]
+          },
+          {
+            "id": "sapori-d-italia-verb-13",
+            "type": "mcq",
+            "prompt": "Io ___ italiano ogni giorno.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studio"
+              },
+              {
+                "id": "b",
+                "text": "studia"
+              },
+              {
+                "id": "c",
+                "text": "parlate"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          },
+          {
+            "id": "sapori-d-italia-verb-14",
+            "type": "mcq",
+            "prompt": "Noi ___ insieme dopo la lezione.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studia"
+              },
+              {
+                "id": "b",
+                "text": "parliamo"
+              },
+              {
+                "id": "c",
+                "text": "parlate"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          },
+          {
+            "id": "sapori-d-italia-verb-15",
+            "type": "mcq",
+            "prompt": "Lei ___ una frase completa.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studia"
+              },
+              {
+                "id": "b",
+                "text": "parlate"
+              },
+              {
+                "id": "c",
+                "text": "scrive"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
@@ -55006,7 +64629,372 @@
           "Vorrei usare meno plastica."
         ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "id": "italian-a2-ambiente-e-citta-final-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "ambiente-e-citta-grammar-1",
+            "type": "mcq",
+            "prompt": "Scegli la frase corretta.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "Vorrei usare meno plastica."
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "ambiente-e-citta-grammar-2",
+            "type": "mcq",
+            "prompt": "Quale forma è corretta in questo contesto?",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Vorrei usare meno plastica."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "ambiente-e-citta-grammar-3",
+            "type": "mcq",
+            "prompt": "Completa la frase con la struttura studiata.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Vorrei usare meno plastica."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "ambiente-e-citta-grammar-4",
+            "type": "mcq",
+            "prompt": "Quale opzione usa la grammatica della lezione?",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Lei sono ieri al museo."
+              },
+              {
+                "id": "d",
+                "text": "Vorrei usare meno plastica."
+              }
+            ]
+          },
+          {
+            "id": "ambiente-e-citta-grammar-5",
+            "type": "mcq",
+            "prompt": "Individua la frase più naturale.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "Vorrei usare meno plastica."
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "ambiente-e-citta-grammar-6",
+            "type": "mcq",
+            "prompt": "Quale frase mantiene il significato corretto?",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Vorrei usare meno plastica."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "ambiente-e-citta-grammar-7",
+            "type": "mcq",
+            "prompt": "Scegli la forma verbale appropriata.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Vorrei usare meno plastica."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "ambiente-e-citta-grammar-8",
+            "type": "mcq",
+            "prompt": "Quale risposta è grammaticalmente corretta?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Lei sono ieri al museo."
+              },
+              {
+                "id": "d",
+                "text": "Vorrei usare meno plastica."
+              }
+            ]
+          },
+          {
+            "id": "ambiente-e-citta-grammar-9",
+            "type": "mcq",
+            "prompt": "Applica “Comparativi” in una frase.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Vorrei usare meno plastica."
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "ambiente-e-citta-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "ambiente"
+              },
+              {
+                "id": "b",
+                "text": "rifiuti"
+              },
+              {
+                "id": "c",
+                "text": "aeroporto"
+              },
+              {
+                "id": "d",
+                "text": "computer"
+              }
+            ]
+          },
+          {
+            "id": "ambiente-e-citta-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "ambiente"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "plastica"
+              },
+              {
+                "id": "d",
+                "text": "computer"
+              }
+            ]
+          },
+          {
+            "id": "ambiente-e-citta-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "ambiente"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "computer"
+              },
+              {
+                "id": "d",
+                "text": "riciclare"
+              }
+            ]
+          },
+          {
+            "id": "ambiente-e-citta-verb-13",
+            "type": "mcq",
+            "prompt": "Io ___ italiano ogni giorno.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studio"
+              },
+              {
+                "id": "b",
+                "text": "studia"
+              },
+              {
+                "id": "c",
+                "text": "parlate"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          },
+          {
+            "id": "ambiente-e-citta-verb-14",
+            "type": "mcq",
+            "prompt": "Noi ___ insieme dopo la lezione.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studia"
+              },
+              {
+                "id": "b",
+                "text": "parliamo"
+              },
+              {
+                "id": "c",
+                "text": "parlate"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          },
+          {
+            "id": "ambiente-e-citta-verb-15",
+            "type": "mcq",
+            "prompt": "Lei ___ una frase completa.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studia"
+              },
+              {
+                "id": "b",
+                "text": "parlate"
+              },
+              {
+                "id": "c",
+                "text": "scrive"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
@@ -56006,197 +65994,375 @@
     "extra": {
       "grammarProfile": {
         "name": "Cittadinanza: congiuntivo e proposte",
-        "definition": "Connettori, opinioni e ipotesi aiutano a costruire un argomento.",
+        "definition": "Práctica guiada de Cittadinanza: congiuntivo e proposte.",
         "structure": "opinione + perché/tuttavia/quindi + motivazione",
-        "function": "Esprimere e giustificare un punto di vista.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Penso che la proposta sia utile.",
           "Tuttavia dobbiamo valutare i risultati."
         ]
       },
       "grammarTest": {
+        "id": "italian-b1-cittadinanza-e-partecipazione-final-test",
+        "passingScore": 70,
         "questions": [
           {
-            "id": "q1",
+            "id": "italian-b1-cittadinanza-e-partecipazione-grammar-1",
             "type": "mcq",
-            "prompt": "Completa: Penso che la proposta ___ utile.",
+            "prompt": "Scegli la frase più corretta per “Cittadinanza: congiuntivo e proposte”.",
+            "difficulty": "recognition",
             "options": [
               {
-                "id": "o1",
-                "text": "sia"
+                "id": "a",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "è"
+                "id": "b",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "essere"
+                "id": "c",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "sono"
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q2",
+            "id": "italian-b1-cittadinanza-e-partecipazione-grammar-2",
             "type": "mcq",
-            "prompt": "Scegli il connettore di contrasto.",
+            "prompt": "Scegli la frase più corretta per “Cittadinanza: congiuntivo e proposte”.",
+            "difficulty": "recognition",
             "options": [
               {
-                "id": "o1",
-                "text": "Vorrei uscire, quindi piove."
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "Vorrei uscire, tuttavia piove."
+                "id": "b",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "Vorrei uscire, perché piove."
+                "id": "c",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "Vorrei uscire, infatti piove."
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q3",
+            "id": "italian-b1-cittadinanza-e-partecipazione-grammar-3",
             "type": "mcq",
-            "prompt": "Completa: Resto a casa perché ___ stanco.",
+            "prompt": "Scegli la frase più corretta per “Cittadinanza: congiuntivo e proposte”.",
+            "difficulty": "recognition",
             "options": [
               {
-                "id": "o1",
-                "text": "essere"
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "sia"
+                "id": "b",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "sono"
+                "id": "c",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "sarei"
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q4",
+            "id": "italian-b1-cittadinanza-e-partecipazione-grammar-4",
             "type": "mcq",
-            "prompt": "Quale frase esprime un’opinione?",
+            "prompt": "Scegli la frase più corretta per “Cittadinanza: congiuntivo e proposte”.",
+            "difficulty": "application",
             "options": [
               {
-                "id": "o1",
-                "text": "Il progetto funziona perché?"
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "Il progetto ieri funziona?"
+                "id": "b",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "Funzionare progetto secondo me."
+                "id": "c",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "Secondo me, il progetto funziona."
+                "id": "d",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q5",
+            "id": "italian-b1-cittadinanza-e-partecipazione-grammar-5",
             "type": "mcq",
-            "prompt": "Completa: Sebbene ___ tardi, continuiamo.",
+            "prompt": "Scegli la frase più corretta per “Cittadinanza: congiuntivo e proposte”.",
+            "difficulty": "application",
             "options": [
               {
-                "id": "o1",
-                "text": "sia"
+                "id": "a",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "è"
+                "id": "b",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "essere"
+                "id": "c",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "sono"
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q6",
+            "id": "italian-b1-cittadinanza-e-partecipazione-grammar-6",
             "type": "mcq",
-            "prompt": "Scegli la conclusione logica.",
+            "prompt": "Scegli la frase più corretta per “Cittadinanza: congiuntivo e proposte”.",
+            "difficulty": "application",
             "options": [
               {
-                "id": "o1",
-                "text": "Abbiamo poco tempo, tuttavia organizziamo il lavoro."
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "Abbiamo poco tempo, quindi organizziamo il lavoro."
+                "id": "b",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "Abbiamo poco tempo, perché organizziamo il lavoro."
+                "id": "c",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "Abbiamo poco tempo, se organizziamo il lavoro."
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q7",
+            "id": "italian-b1-cittadinanza-e-partecipazione-grammar-7",
             "type": "mcq",
-            "prompt": "Completa: Credo che loro ___ ragione.",
+            "prompt": "Scegli la frase più corretta per “Cittadinanza: congiuntivo e proposte”.",
+            "difficulty": "control",
             "options": [
               {
-                "id": "o1",
-                "text": "avere"
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "hanno"
+                "id": "b",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "abbiano"
+                "id": "c",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "avranno"
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               }
             ]
           },
           {
-            "id": "q8",
+            "id": "italian-b1-cittadinanza-e-partecipazione-grammar-8",
             "type": "mcq",
-            "prompt": "Quale frase giustifica una scelta?",
+            "prompt": "Scegli la frase più corretta per “Cittadinanza: congiuntivo e proposte”.",
+            "difficulty": "control",
             "options": [
               {
-                "id": "o1",
-                "text": "Scelgo il treno è più sostenibile perché?"
+                "id": "a",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o2",
-                "text": "Scelgo il treno tuttavia è più sostenibile."
+                "id": "b",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
               },
               {
-                "id": "o3",
-                "text": "Scelgo il treno quindi è più sostenibile?"
+                "id": "c",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
               },
               {
-                "id": "o4",
-                "text": "Scelgo il treno perché è più sostenibile."
+                "id": "d",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-cittadinanza-e-partecipazione-grammar-9",
+            "type": "mcq",
+            "prompt": "Scegli la frase più corretta per “Cittadinanza: congiuntivo e proposte”.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Penso che la proposta sia utile, benché richieda ulteriori verifiche."
+              },
+              {
+                "id": "b",
+                "text": "Penso che la proposta è utile, benché richiede ulteriori verifiche."
+              },
+              {
+                "id": "c",
+                "text": "Penso la proposta sia utile, benché richiede ulteriori verifiche."
+              },
+              {
+                "id": "d",
+                "text": "Penso che la proposta utile, benché richieda ulteriori verifiche."
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-cittadinanza-e-partecipazione-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene alla lezione “Cittadinanza e partecipazione”?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "proposta"
+              },
+              {
+                "id": "b",
+                "text": "cittadinanza"
+              },
+              {
+                "id": "c",
+                "text": "aeroporto"
+              },
+              {
+                "id": "d",
+                "text": "satellite"
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-cittadinanza-e-partecipazione-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene alla lezione “Cittadinanza e partecipazione”?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "proposta"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "partecipare"
+              },
+              {
+                "id": "d",
+                "text": "satellite"
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-cittadinanza-e-partecipazione-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene alla lezione “Cittadinanza e partecipazione”?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "proposta"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "satellite"
+              },
+              {
+                "id": "d",
+                "text": "diritto"
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-cittadinanza-e-partecipazione-verbs-13",
+            "type": "mcq",
+            "prompt": "Noi ___ una soluzione dopo aver ascoltato tutti.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "proponiamo"
+              },
+              {
+                "id": "b",
+                "text": "propongono"
+              },
+              {
+                "id": "c",
+                "text": "valutano"
+              },
+              {
+                "id": "d",
+                "text": "spiega"
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-cittadinanza-e-partecipazione-verbs-14",
+            "type": "mcq",
+            "prompt": "Lei ___ le conseguenze prima di decidere.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "propongono"
+              },
+              {
+                "id": "b",
+                "text": "valuta"
+              },
+              {
+                "id": "c",
+                "text": "valutano"
+              },
+              {
+                "id": "d",
+                "text": "spiega"
+              }
+            ]
+          },
+          {
+            "id": "italian-b1-cittadinanza-e-partecipazione-verbs-15",
+            "type": "mcq",
+            "prompt": "Loro ___ le ragioni della scelta con chiarezza.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "propongono"
+              },
+              {
+                "id": "b",
+                "text": "valutano"
+              },
+              {
+                "id": "c",
+                "text": "spiegano"
+              },
+              {
+                "id": "d",
+                "text": "spiega"
               }
             ]
           }
@@ -59910,7 +70076,372 @@
           "Oggi ho imparato molto."
         ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "id": "italian-a1-un-messaggio-a-casa-final-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "un-messaggio-a-casa-grammar-1",
+            "type": "mcq",
+            "prompt": "Scegli la frase corretta.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "Oggi ho imparato molto."
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "un-messaggio-a-casa-grammar-2",
+            "type": "mcq",
+            "prompt": "Quale forma è corretta in questo contesto?",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Oggi ho imparato molto."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "un-messaggio-a-casa-grammar-3",
+            "type": "mcq",
+            "prompt": "Completa la frase con la struttura studiata.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Oggi ho imparato molto."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "un-messaggio-a-casa-grammar-4",
+            "type": "mcq",
+            "prompt": "Quale opzione usa la grammatica della lezione?",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Lei sono ieri al museo."
+              },
+              {
+                "id": "d",
+                "text": "Oggi ho imparato molto."
+              }
+            ]
+          },
+          {
+            "id": "un-messaggio-a-casa-grammar-5",
+            "type": "mcq",
+            "prompt": "Individua la frase più naturale.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "Oggi ho imparato molto."
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "un-messaggio-a-casa-grammar-6",
+            "type": "mcq",
+            "prompt": "Quale frase mantiene il significato corretto?",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Oggi ho imparato molto."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "un-messaggio-a-casa-grammar-7",
+            "type": "mcq",
+            "prompt": "Scegli la forma verbale appropriata.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Oggi ho imparato molto."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "un-messaggio-a-casa-grammar-8",
+            "type": "mcq",
+            "prompt": "Quale risposta è grammaticalmente corretta?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Lei sono ieri al museo."
+              },
+              {
+                "id": "d",
+                "text": "Oggi ho imparato molto."
+              }
+            ]
+          },
+          {
+            "id": "un-messaggio-a-casa-grammar-9",
+            "type": "mcq",
+            "prompt": "Applica “Passato prossimo” in una frase.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Oggi ho imparato molto."
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "un-messaggio-a-casa-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "esperienza"
+              },
+              {
+                "id": "b",
+                "text": "oggi"
+              },
+              {
+                "id": "c",
+                "text": "aeroporto"
+              },
+              {
+                "id": "d",
+                "text": "computer"
+              }
+            ]
+          },
+          {
+            "id": "un-messaggio-a-casa-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "esperienza"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "domani"
+              },
+              {
+                "id": "d",
+                "text": "computer"
+              }
+            ]
+          },
+          {
+            "id": "un-messaggio-a-casa-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "esperienza"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "computer"
+              },
+              {
+                "id": "d",
+                "text": "casa"
+              }
+            ]
+          },
+          {
+            "id": "un-messaggio-a-casa-verb-13",
+            "type": "mcq",
+            "prompt": "Io ___ italiano ogni giorno.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studio"
+              },
+              {
+                "id": "b",
+                "text": "studia"
+              },
+              {
+                "id": "c",
+                "text": "parlate"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          },
+          {
+            "id": "un-messaggio-a-casa-verb-14",
+            "type": "mcq",
+            "prompt": "Noi ___ insieme dopo la lezione.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studia"
+              },
+              {
+                "id": "b",
+                "text": "parliamo"
+              },
+              {
+                "id": "c",
+                "text": "parlate"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          },
+          {
+            "id": "un-messaggio-a-casa-verb-15",
+            "type": "mcq",
+            "prompt": "Lei ___ una frase completa.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studia"
+              },
+              {
+                "id": "b",
+                "text": "parlate"
+              },
+              {
+                "id": "c",
+                "text": "scrive"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
@@ -59990,7 +70521,372 @@
           "È stato un viaggio importante."
         ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "id": "italian-a2-raccontare-il-proprio-viaggio-final-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "raccontare-il-proprio-viaggio-grammar-1",
+            "type": "mcq",
+            "prompt": "Scegli la frase corretta.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "È stato un viaggio importante."
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "raccontare-il-proprio-viaggio-grammar-2",
+            "type": "mcq",
+            "prompt": "Quale forma è corretta in questo contesto?",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "È stato un viaggio importante."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "raccontare-il-proprio-viaggio-grammar-3",
+            "type": "mcq",
+            "prompt": "Completa la frase con la struttura studiata.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "È stato un viaggio importante."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "raccontare-il-proprio-viaggio-grammar-4",
+            "type": "mcq",
+            "prompt": "Quale opzione usa la grammatica della lezione?",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Lei sono ieri al museo."
+              },
+              {
+                "id": "d",
+                "text": "È stato un viaggio importante."
+              }
+            ]
+          },
+          {
+            "id": "raccontare-il-proprio-viaggio-grammar-5",
+            "type": "mcq",
+            "prompt": "Individua la frase più naturale.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "È stato un viaggio importante."
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "raccontare-il-proprio-viaggio-grammar-6",
+            "type": "mcq",
+            "prompt": "Quale frase mantiene il significato corretto?",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "È stato un viaggio importante."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "raccontare-il-proprio-viaggio-grammar-7",
+            "type": "mcq",
+            "prompt": "Scegli la forma verbale appropriata.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "È stato un viaggio importante."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "raccontare-il-proprio-viaggio-grammar-8",
+            "type": "mcq",
+            "prompt": "Quale risposta è grammaticalmente corretta?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "b",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "c",
+                "text": "Lei sono ieri al museo."
+              },
+              {
+                "id": "d",
+                "text": "È stato un viaggio importante."
+              }
+            ]
+          },
+          {
+            "id": "raccontare-il-proprio-viaggio-grammar-9",
+            "type": "mcq",
+            "prompt": "Applica “Passato prossimo per esperienze” in una frase.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "È stato un viaggio importante."
+              },
+              {
+                "id": "b",
+                "text": "Io è a scuola."
+              },
+              {
+                "id": "c",
+                "text": "Noi è molto contenti."
+              },
+              {
+                "id": "d",
+                "text": "Lei sono ieri al museo."
+              }
+            ]
+          },
+          {
+            "id": "raccontare-il-proprio-viaggio-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "futuro"
+              },
+              {
+                "id": "b",
+                "text": "ricordo"
+              },
+              {
+                "id": "c",
+                "text": "aeroporto"
+              },
+              {
+                "id": "d",
+                "text": "computer"
+              }
+            ]
+          },
+          {
+            "id": "raccontare-il-proprio-viaggio-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "futuro"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "incontro"
+              },
+              {
+                "id": "d",
+                "text": "computer"
+              }
+            ]
+          },
+          {
+            "id": "raccontare-il-proprio-viaggio-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "futuro"
+              },
+              {
+                "id": "b",
+                "text": "aeroporto"
+              },
+              {
+                "id": "c",
+                "text": "computer"
+              },
+              {
+                "id": "d",
+                "text": "cambiare"
+              }
+            ]
+          },
+          {
+            "id": "raccontare-il-proprio-viaggio-verb-13",
+            "type": "mcq",
+            "prompt": "Io ___ italiano ogni giorno.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studio"
+              },
+              {
+                "id": "b",
+                "text": "studia"
+              },
+              {
+                "id": "c",
+                "text": "parlate"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          },
+          {
+            "id": "raccontare-il-proprio-viaggio-verb-14",
+            "type": "mcq",
+            "prompt": "Noi ___ insieme dopo la lezione.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studia"
+              },
+              {
+                "id": "b",
+                "text": "parliamo"
+              },
+              {
+                "id": "c",
+                "text": "parlate"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          },
+          {
+            "id": "raccontare-il-proprio-viaggio-verb-15",
+            "type": "mcq",
+            "prompt": "Lei ___ una frase completa.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "studia"
+              },
+              {
+                "id": "b",
+                "text": "parlate"
+              },
+              {
+                "id": "c",
+                "text": "scrive"
+              },
+              {
+                "id": "d",
+                "text": "scrivono"
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [

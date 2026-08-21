@@ -1063,14 +1063,14 @@
         ]
       },
       {
-        "id": "portuguese-a2-rotina-na-cidade-reading-comprehension-4",
+        "id": "portuguese-a2-rotina-na-cidade-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“_____ usam as palavras novas em pequenas situações: no café, na escola ou na rua.”",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
         "options": [
-          "usam",
-          "café",
-          "pode",
-          "Eles"
+          "Ela",
+          "diz",
+          "vou",
+          "rua"
         ]
       },
       {
@@ -1165,9 +1165,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Período condicional",
-        "definition": "Conectores, opiniões e hipóteses ajudam a construir um argumento.",
+        "definition": "Práctica guiada de Período condicional.",
         "structure": "opinião + porque/porém/portanto + justificativa",
-        "function": "Expressar e justificar um ponto de vista.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Acho que a proposta é útil.",
           "Porém, devemos avaliar os resultados."
@@ -1641,7 +1641,7 @@
     ],
     "dialogue": [],
     "reading": null,
-    "transcript": "Hoje, em uma conversa sobre Trabalho e planos, três colegas contam uma história que aconteceu em uma comunidade brasileira. A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda. Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes. A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.\n\nUma das participantes explicou que as palavras «Aprendemos: meta.», «Aprendemos: prazo.» e «Aprendemos: equipe.» ajudaram o grupo a organizar as ideias. Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte. Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar. Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.\n\nNo encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta. Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos. Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.",
+    "transcript": "No tema «Trabalho e planos», um pequeno grupo da comunidade conversa sobre meta, prazo e equipe. Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta. No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana. Depois, o grupo resume as ideias mais importantes.",
     "extra": {
       "listeningComprehension": {
         "id": "portuguese-b1-trabalho-e-planos-listening-listening-comprehension",
@@ -1650,204 +1650,138 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Trabalho e planos: palavras”? “Hoje em uma conversa sobre Trabalho e…”",
+            "prompt": "Qual afirmação completa este momento do áudio “Trabalho e planos: palavras”? “No tema Trabalho e planos um…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoje, em uma conversa sobre Trabalho e planos, três colegas contam uma história que aconteceu em uma comunidade brasileira."
+                "text": "No tema «Trabalho e planos», um pequeno grupo da comunidade conversa sobre meta, prazo e equipe."
               },
               {
                 "id": "o2",
-                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
               },
               {
                 "id": "o3",
-                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
               },
               {
                 "id": "o4",
-                "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
+                "text": "Depois, o grupo resume as ideias mais importantes."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Trabalho e planos: palavras”? “A conversa não foi sempre fácil cada…”",
+            "prompt": "Qual afirmação completa este momento do áudio “Trabalho e planos: palavras”? “Cada pessoa conta uma experiência…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoje, em uma conversa sobre Trabalho e planos, três colegas contam uma história que aconteceu em uma comunidade brasileira."
+                "text": "No tema «Trabalho e planos», um pequeno grupo da comunidade conversa sobre meta, prazo e equipe."
               },
               {
                 "id": "o2",
-                "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
               },
               {
                 "id": "o3",
-                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
               },
               {
                 "id": "o4",
-                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+                "text": "Depois, o grupo resume as ideias mais importantes."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Trabalho e planos: palavras”? “Uma senhora que mora no bairro há…”",
+            "prompt": "Qual afirmação completa este momento do áudio “Trabalho e planos: palavras”? “No final decidem colaborar porque…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoje, em uma conversa sobre Trabalho e planos, três colegas contam uma história que aconteceu em uma comunidade brasileira."
+                "text": "No tema «Trabalho e planos», um pequeno grupo da comunidade conversa sobre meta, prazo e equipe."
               },
               {
                 "id": "o2",
-                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
               },
               {
                 "id": "o3",
-                "text": "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias."
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
               },
               {
                 "id": "o4",
-                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+                "text": "Depois, o grupo resume as ideias mais importantes."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Trabalho e planos: palavras”? “Ao terminar os colegas concluíram que pequenos…”",
+            "prompt": "Qual afirmação completa este momento do áudio “Trabalho e planos: palavras”? “Depois o grupo…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoje, em uma conversa sobre Trabalho e planos, três colegas contam uma história que aconteceu em uma comunidade brasileira."
+                "text": "No tema «Trabalho e planos», um pequeno grupo da comunidade conversa sobre meta, prazo e equipe."
               },
               {
                 "id": "o2",
-                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
               },
               {
                 "id": "o3",
-                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
               },
               {
                 "id": "o4",
-                "text": "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
+                "text": "Depois, o grupo resume as ideias mais importantes."
               }
             ]
           }
         ]
-      },
-      "mainTranscript": "Hoje, em uma conversa sobre Trabalho e planos, três colegas contam uma história que aconteceu em uma comunidade brasileira. A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda. Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes. A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.\n\nUma das participantes explicou que as palavras «Aprendemos: meta.», «Aprendemos: prazo.» e «Aprendemos: equipe.» ajudaram o grupo a organizar as ideias. Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte. Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar. Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.\n\nNo encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta. Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos. Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.",
-      "transcriptSegments": [
-        {
-          "id": "segment-01",
-          "order": 1,
-          "text": "Hoje, em uma conversa sobre Trabalho e planos, três colegas contam uma história que aconteceu em uma comunidade brasileira."
-        },
-        {
-          "id": "segment-02",
-          "order": 2,
-          "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
-        },
-        {
-          "id": "segment-03",
-          "order": 3,
-          "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
-        },
-        {
-          "id": "segment-04",
-          "order": 4,
-          "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
-        },
-        {
-          "id": "segment-05",
-          "order": 5,
-          "text": "Uma das participantes explicou que as palavras «Aprendemos: meta.», «Aprendemos: prazo.» e «Aprendemos: equipe.» ajudaram o grupo a organizar as ideias."
-        },
-        {
-          "id": "segment-06",
-          "order": 6,
-          "text": "Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte."
-        },
-        {
-          "id": "segment-07",
-          "order": 7,
-          "text": "Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar."
-        },
-        {
-          "id": "segment-08",
-          "order": 8,
-          "text": "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias."
-        },
-        {
-          "id": "segment-09",
-          "order": 9,
-          "text": "No encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta."
-        },
-        {
-          "id": "segment-10",
-          "order": 10,
-          "text": "Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos."
-        },
-        {
-          "id": "segment-11",
-          "order": 11,
-          "text": "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
-        }
-      ],
-      "audioProduction": {
-        "status": "script-ready",
-        "language": "portuguese",
-        "level": "B1",
-        "voice": "native narrator",
-        "normalSpeed": true,
-        "slowSpeed": true
       },
       "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Trabalho e planos: palavras”? “Hoje em uma conversa sobre Trabalho e…”",
+        "prompt": "Qual afirmação completa este momento do áudio “Trabalho e planos: palavras”? “No tema Trabalho e planos um…”",
         "options": [
-          "Hoje, em uma conversa sobre Trabalho e planos, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
-          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
-          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes.",
-          "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
+          "No tema «Trabalho e planos», um pequeno grupo da comunidade conversa sobre meta, prazo e equipe.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Trabalho e planos: palavras”? “A conversa não foi sempre fácil cada…”",
+        "prompt": "Qual afirmação completa este momento do áudio “Trabalho e planos: palavras”? “Cada pessoa conta uma experiência…”",
         "options": [
-          "Hoje, em uma conversa sobre Trabalho e planos, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
-          "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.",
-          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
-          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+          "No tema «Trabalho e planos», um pequeno grupo da comunidade conversa sobre meta, prazo e equipe.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Trabalho e planos: palavras”? “Uma senhora que mora no bairro há…”",
+        "prompt": "Qual afirmação completa este momento do áudio “Trabalho e planos: palavras”? “No final decidem colaborar porque…”",
         "options": [
-          "Hoje, em uma conversa sobre Trabalho e planos, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
-          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
-          "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.",
-          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+          "No tema «Trabalho e planos», um pequeno grupo da comunidade conversa sobre meta, prazo e equipe.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Trabalho e planos: palavras”? “Ao terminar os colegas concluíram que pequenos…”",
+        "prompt": "Qual afirmação completa este momento do áudio “Trabalho e planos: palavras”? “Depois o grupo…”",
         "options": [
-          "Hoje, em uma conversa sobre Trabalho e planos, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
-          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
-          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes.",
-          "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
+          "No tema «Trabalho e planos», um pequeno grupo da comunidade conversa sobre meta, prazo e equipe.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
         ]
       }
     ]
@@ -6211,13 +6145,13 @@
         ]
       },
       {
-        "id": "portuguese-a2-um-fim-de-semana-em-salvador-reading-comprehension-4",
+        "id": "portuguese-a2-um-fim-de-semana-em-salvador-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“_____ usam as palavras novas em pequenas situações: no café, na escola ou na rua.”",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
         "options": [
-          "usam",
-          "café",
-          "pode",
+          "Ela",
+          "diz",
+          "rua",
           "Eles"
         ]
       },
@@ -6313,9 +6247,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Pronomes oblíquos",
-        "definition": "Conectores, opiniões e hipóteses ajudam a construir um argumento.",
+        "definition": "Práctica guiada de Pronomes oblíquos.",
         "structure": "opinião + porque/porém/portanto + justificativa",
-        "function": "Expressar e justificar um ponto de vista.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Acho que a proposta é útil.",
           "Porém, devemos avaliar os resultados."
@@ -6789,7 +6723,7 @@
     ],
     "dialogue": [],
     "reading": null,
-    "transcript": "Hoje, em uma conversa sobre Viagens com respeito, três colegas contam uma história que aconteceu em uma comunidade brasileira. A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda. Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes. A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.\n\nUma das participantes explicou que as palavras «Aprendemos: roteiro.», «Aprendemos: reserva.» e «Aprendemos: paisagem.» ajudaram o grupo a organizar as ideias. Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte. Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar. Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.\n\nNo encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta. Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos. Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.",
+    "transcript": "No tema «Viagens com respeito», um pequeno grupo da comunidade conversa sobre roteiro, reserva e paisagem. Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta. No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana. Depois, o grupo resume as ideias mais importantes.",
     "extra": {
       "listeningComprehension": {
         "id": "portuguese-b1-viagens-com-respeito-listening-listening-comprehension",
@@ -6798,204 +6732,138 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Viagens com respeito: palavras”? “Hoje em uma conversa sobre Viagens com…”",
+            "prompt": "Qual afirmação completa este momento do áudio “Viagens com respeito: palavras”? “No tema Viagens com respeito um…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoje, em uma conversa sobre Viagens com respeito, três colegas contam uma história que aconteceu em uma comunidade brasileira."
+                "text": "No tema «Viagens com respeito», um pequeno grupo da comunidade conversa sobre roteiro, reserva e paisagem."
               },
               {
                 "id": "o2",
-                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
               },
               {
                 "id": "o3",
-                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
               },
               {
                 "id": "o4",
-                "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
+                "text": "Depois, o grupo resume as ideias mais importantes."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Viagens com respeito: palavras”? “A conversa não foi sempre fácil cada…”",
+            "prompt": "Qual afirmação completa este momento do áudio “Viagens com respeito: palavras”? “Cada pessoa conta uma experiência…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoje, em uma conversa sobre Viagens com respeito, três colegas contam uma história que aconteceu em uma comunidade brasileira."
+                "text": "No tema «Viagens com respeito», um pequeno grupo da comunidade conversa sobre roteiro, reserva e paisagem."
               },
               {
                 "id": "o2",
-                "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
               },
               {
                 "id": "o3",
-                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
               },
               {
                 "id": "o4",
-                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+                "text": "Depois, o grupo resume as ideias mais importantes."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Viagens com respeito: palavras”? “Uma senhora que mora no bairro há…”",
+            "prompt": "Qual afirmação completa este momento do áudio “Viagens com respeito: palavras”? “No final decidem colaborar porque…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoje, em uma conversa sobre Viagens com respeito, três colegas contam uma história que aconteceu em uma comunidade brasileira."
+                "text": "No tema «Viagens com respeito», um pequeno grupo da comunidade conversa sobre roteiro, reserva e paisagem."
               },
               {
                 "id": "o2",
-                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
               },
               {
                 "id": "o3",
-                "text": "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias."
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
               },
               {
                 "id": "o4",
-                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+                "text": "Depois, o grupo resume as ideias mais importantes."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Viagens com respeito: palavras”? “Ao terminar os colegas concluíram que pequenos…”",
+            "prompt": "Qual afirmação completa este momento do áudio “Viagens com respeito: palavras”? “Depois o grupo…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoje, em uma conversa sobre Viagens com respeito, três colegas contam uma história que aconteceu em uma comunidade brasileira."
+                "text": "No tema «Viagens com respeito», um pequeno grupo da comunidade conversa sobre roteiro, reserva e paisagem."
               },
               {
                 "id": "o2",
-                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
               },
               {
                 "id": "o3",
-                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
               },
               {
                 "id": "o4",
-                "text": "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
+                "text": "Depois, o grupo resume as ideias mais importantes."
               }
             ]
           }
         ]
-      },
-      "mainTranscript": "Hoje, em uma conversa sobre Viagens com respeito, três colegas contam uma história que aconteceu em uma comunidade brasileira. A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda. Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes. A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.\n\nUma das participantes explicou que as palavras «Aprendemos: roteiro.», «Aprendemos: reserva.» e «Aprendemos: paisagem.» ajudaram o grupo a organizar as ideias. Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte. Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar. Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.\n\nNo encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta. Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos. Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.",
-      "transcriptSegments": [
-        {
-          "id": "segment-01",
-          "order": 1,
-          "text": "Hoje, em uma conversa sobre Viagens com respeito, três colegas contam uma história que aconteceu em uma comunidade brasileira."
-        },
-        {
-          "id": "segment-02",
-          "order": 2,
-          "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
-        },
-        {
-          "id": "segment-03",
-          "order": 3,
-          "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
-        },
-        {
-          "id": "segment-04",
-          "order": 4,
-          "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
-        },
-        {
-          "id": "segment-05",
-          "order": 5,
-          "text": "Uma das participantes explicou que as palavras «Aprendemos: roteiro.», «Aprendemos: reserva.» e «Aprendemos: paisagem.» ajudaram o grupo a organizar as ideias."
-        },
-        {
-          "id": "segment-06",
-          "order": 6,
-          "text": "Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte."
-        },
-        {
-          "id": "segment-07",
-          "order": 7,
-          "text": "Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar."
-        },
-        {
-          "id": "segment-08",
-          "order": 8,
-          "text": "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias."
-        },
-        {
-          "id": "segment-09",
-          "order": 9,
-          "text": "No encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta."
-        },
-        {
-          "id": "segment-10",
-          "order": 10,
-          "text": "Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos."
-        },
-        {
-          "id": "segment-11",
-          "order": 11,
-          "text": "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
-        }
-      ],
-      "audioProduction": {
-        "status": "script-ready",
-        "language": "portuguese",
-        "level": "B1",
-        "voice": "native narrator",
-        "normalSpeed": true,
-        "slowSpeed": true
       },
       "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Viagens com respeito: palavras”? “Hoje em uma conversa sobre Viagens com…”",
+        "prompt": "Qual afirmação completa este momento do áudio “Viagens com respeito: palavras”? “No tema Viagens com respeito um…”",
         "options": [
-          "Hoje, em uma conversa sobre Viagens com respeito, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
-          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
-          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes.",
-          "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
+          "No tema «Viagens com respeito», um pequeno grupo da comunidade conversa sobre roteiro, reserva e paisagem.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Viagens com respeito: palavras”? “A conversa não foi sempre fácil cada…”",
+        "prompt": "Qual afirmação completa este momento do áudio “Viagens com respeito: palavras”? “Cada pessoa conta uma experiência…”",
         "options": [
-          "Hoje, em uma conversa sobre Viagens com respeito, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
-          "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.",
-          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
-          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+          "No tema «Viagens com respeito», um pequeno grupo da comunidade conversa sobre roteiro, reserva e paisagem.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Viagens com respeito: palavras”? “Uma senhora que mora no bairro há…”",
+        "prompt": "Qual afirmação completa este momento do áudio “Viagens com respeito: palavras”? “No final decidem colaborar porque…”",
         "options": [
-          "Hoje, em uma conversa sobre Viagens com respeito, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
-          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
-          "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.",
-          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+          "No tema «Viagens com respeito», um pequeno grupo da comunidade conversa sobre roteiro, reserva e paisagem.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Viagens com respeito: palavras”? “Ao terminar os colegas concluíram que pequenos…”",
+        "prompt": "Qual afirmação completa este momento do áudio “Viagens com respeito: palavras”? “Depois o grupo…”",
         "options": [
-          "Hoje, em uma conversa sobre Viagens com respeito, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
-          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
-          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes.",
-          "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
+          "No tema «Viagens com respeito», um pequeno grupo da comunidade conversa sobre roteiro, reserva e paisagem.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
         ]
       }
     ]
@@ -11359,13 +11227,13 @@
         ]
       },
       {
-        "id": "portuguese-a2-receitas-e-memorias-reading-comprehension-4",
+        "id": "portuguese-a2-receitas-e-memorias-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“_____ usam as palavras novas em pequenas situações: no café, na escola ou na rua.”",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
         "options": [
-          "usam",
-          "café",
-          "pode",
+          "Ela",
+          "diz",
+          "rua",
           "Eles"
         ]
       },
@@ -11461,9 +11329,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Subjuntivo presente",
-        "definition": "Conectores, opiniões e hipóteses ajudam a construir um argumento.",
+        "definition": "Práctica guiada de Subjuntivo presente.",
         "structure": "opinião + porque/porém/portanto + justificativa",
-        "function": "Expressar e justificar um ponto de vista.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Acho que a proposta é útil.",
           "Porém, devemos avaliar os resultados."
@@ -11937,7 +11805,7 @@
     ],
     "dialogue": [],
     "reading": null,
-    "transcript": "Hoje, em uma conversa sobre Saúde e equilíbrio, três colegas contam uma história que aconteceu em uma comunidade brasileira. A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda. Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes. A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.\n\nUma das participantes explicou que as palavras «Aprendemos: bem-estar.», «Aprendemos: descanso.» e «Aprendemos: exercício.» ajudaram o grupo a organizar as ideias. Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte. Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar. Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.\n\nNo encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta. Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos. Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.",
+    "transcript": "No tema «Saúde e equilíbrio», um pequeno grupo da comunidade conversa sobre bem-estar, descanso e exercício. Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta. No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana. Depois, o grupo resume as ideias mais importantes.",
     "extra": {
       "listeningComprehension": {
         "id": "portuguese-b1-saude-e-equilibrio-listening-listening-comprehension",
@@ -11946,204 +11814,138 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Saúde e equilíbrio: palavras”? “Hoje em uma conversa sobre Saúde e…”",
+            "prompt": "Qual afirmação completa este momento do áudio “Saúde e equilíbrio: palavras”? “No tema Saúde e equilíbrio um…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoje, em uma conversa sobre Saúde e equilíbrio, três colegas contam uma história que aconteceu em uma comunidade brasileira."
+                "text": "No tema «Saúde e equilíbrio», um pequeno grupo da comunidade conversa sobre bem-estar, descanso e exercício."
               },
               {
                 "id": "o2",
-                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
               },
               {
                 "id": "o3",
-                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
               },
               {
                 "id": "o4",
-                "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
+                "text": "Depois, o grupo resume as ideias mais importantes."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Saúde e equilíbrio: palavras”? “A conversa não foi sempre fácil cada…”",
+            "prompt": "Qual afirmação completa este momento do áudio “Saúde e equilíbrio: palavras”? “Cada pessoa conta uma experiência…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoje, em uma conversa sobre Saúde e equilíbrio, três colegas contam uma história que aconteceu em uma comunidade brasileira."
+                "text": "No tema «Saúde e equilíbrio», um pequeno grupo da comunidade conversa sobre bem-estar, descanso e exercício."
               },
               {
                 "id": "o2",
-                "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
               },
               {
                 "id": "o3",
-                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
               },
               {
                 "id": "o4",
-                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+                "text": "Depois, o grupo resume as ideias mais importantes."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Saúde e equilíbrio: palavras”? “Uma senhora que mora no bairro há…”",
+            "prompt": "Qual afirmação completa este momento do áudio “Saúde e equilíbrio: palavras”? “No final decidem colaborar porque…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoje, em uma conversa sobre Saúde e equilíbrio, três colegas contam uma história que aconteceu em uma comunidade brasileira."
+                "text": "No tema «Saúde e equilíbrio», um pequeno grupo da comunidade conversa sobre bem-estar, descanso e exercício."
               },
               {
                 "id": "o2",
-                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
               },
               {
                 "id": "o3",
-                "text": "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias."
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
               },
               {
                 "id": "o4",
-                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+                "text": "Depois, o grupo resume as ideias mais importantes."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Saúde e equilíbrio: palavras”? “Ao terminar os colegas concluíram que pequenos…”",
+            "prompt": "Qual afirmação completa este momento do áudio “Saúde e equilíbrio: palavras”? “Depois o grupo…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoje, em uma conversa sobre Saúde e equilíbrio, três colegas contam uma história que aconteceu em uma comunidade brasileira."
+                "text": "No tema «Saúde e equilíbrio», um pequeno grupo da comunidade conversa sobre bem-estar, descanso e exercício."
               },
               {
                 "id": "o2",
-                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
               },
               {
                 "id": "o3",
-                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
               },
               {
                 "id": "o4",
-                "text": "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
+                "text": "Depois, o grupo resume as ideias mais importantes."
               }
             ]
           }
         ]
-      },
-      "mainTranscript": "Hoje, em uma conversa sobre Saúde e equilíbrio, três colegas contam uma história que aconteceu em uma comunidade brasileira. A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda. Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes. A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.\n\nUma das participantes explicou que as palavras «Aprendemos: bem-estar.», «Aprendemos: descanso.» e «Aprendemos: exercício.» ajudaram o grupo a organizar as ideias. Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte. Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar. Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.\n\nNo encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta. Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos. Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.",
-      "transcriptSegments": [
-        {
-          "id": "segment-01",
-          "order": 1,
-          "text": "Hoje, em uma conversa sobre Saúde e equilíbrio, três colegas contam uma história que aconteceu em uma comunidade brasileira."
-        },
-        {
-          "id": "segment-02",
-          "order": 2,
-          "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
-        },
-        {
-          "id": "segment-03",
-          "order": 3,
-          "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
-        },
-        {
-          "id": "segment-04",
-          "order": 4,
-          "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
-        },
-        {
-          "id": "segment-05",
-          "order": 5,
-          "text": "Uma das participantes explicou que as palavras «Aprendemos: bem-estar.», «Aprendemos: descanso.» e «Aprendemos: exercício.» ajudaram o grupo a organizar as ideias."
-        },
-        {
-          "id": "segment-06",
-          "order": 6,
-          "text": "Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte."
-        },
-        {
-          "id": "segment-07",
-          "order": 7,
-          "text": "Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar."
-        },
-        {
-          "id": "segment-08",
-          "order": 8,
-          "text": "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias."
-        },
-        {
-          "id": "segment-09",
-          "order": 9,
-          "text": "No encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta."
-        },
-        {
-          "id": "segment-10",
-          "order": 10,
-          "text": "Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos."
-        },
-        {
-          "id": "segment-11",
-          "order": 11,
-          "text": "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
-        }
-      ],
-      "audioProduction": {
-        "status": "script-ready",
-        "language": "portuguese",
-        "level": "B1",
-        "voice": "native narrator",
-        "normalSpeed": true,
-        "slowSpeed": true
       },
       "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Saúde e equilíbrio: palavras”? “Hoje em uma conversa sobre Saúde e…”",
+        "prompt": "Qual afirmação completa este momento do áudio “Saúde e equilíbrio: palavras”? “No tema Saúde e equilíbrio um…”",
         "options": [
-          "Hoje, em uma conversa sobre Saúde e equilíbrio, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
-          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
-          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes.",
-          "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
+          "No tema «Saúde e equilíbrio», um pequeno grupo da comunidade conversa sobre bem-estar, descanso e exercício.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Saúde e equilíbrio: palavras”? “A conversa não foi sempre fácil cada…”",
+        "prompt": "Qual afirmação completa este momento do áudio “Saúde e equilíbrio: palavras”? “Cada pessoa conta uma experiência…”",
         "options": [
-          "Hoje, em uma conversa sobre Saúde e equilíbrio, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
-          "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.",
-          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
-          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+          "No tema «Saúde e equilíbrio», um pequeno grupo da comunidade conversa sobre bem-estar, descanso e exercício.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Saúde e equilíbrio: palavras”? “Uma senhora que mora no bairro há…”",
+        "prompt": "Qual afirmação completa este momento do áudio “Saúde e equilíbrio: palavras”? “No final decidem colaborar porque…”",
         "options": [
-          "Hoje, em uma conversa sobre Saúde e equilíbrio, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
-          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
-          "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.",
-          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+          "No tema «Saúde e equilíbrio», um pequeno grupo da comunidade conversa sobre bem-estar, descanso e exercício.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Saúde e equilíbrio: palavras”? “Ao terminar os colegas concluíram que pequenos…”",
+        "prompt": "Qual afirmação completa este momento do áudio “Saúde e equilíbrio: palavras”? “Depois o grupo…”",
         "options": [
-          "Hoje, em uma conversa sobre Saúde e equilíbrio, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
-          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
-          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes.",
-          "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
+          "No tema «Saúde e equilíbrio», um pequeno grupo da comunidade conversa sobre bem-estar, descanso e exercício.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
         ]
       }
     ]
@@ -16507,13 +16309,13 @@
         ]
       },
       {
-        "id": "portuguese-a2-trabalho-e-pausa-reading-comprehension-4",
+        "id": "portuguese-a2-trabalho-e-pausa-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“_____ usam as palavras novas em pequenas situações: no café, na escola ou na rua.”",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
         "options": [
-          "usam",
-          "café",
-          "pode",
+          "Ela",
+          "diz",
+          "rua",
           "Eles"
         ]
       },
@@ -16609,9 +16411,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Discurso indireto",
-        "definition": "Conectores, opiniões e hipóteses ajudam a construir um argumento.",
+        "definition": "Práctica guiada de Discurso indireto.",
         "structure": "opinião + porque/porém/portanto + justificativa",
-        "function": "Expressar e justificar um ponto de vista.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Acho que a proposta é útil.",
           "Porém, devemos avaliar os resultados."
@@ -17085,7 +16887,7 @@
     ],
     "dialogue": [],
     "reading": null,
-    "transcript": "Hoje, em uma conversa sobre Cultura e informação, três colegas contam uma história que aconteceu em uma comunidade brasileira. A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda. Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes. A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.\n\nUma das participantes explicou que as palavras «Aprendemos: notícia.», «Aprendemos: fonte.» e «Aprendemos: público.» ajudaram o grupo a organizar as ideias. Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte. Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar. Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.\n\nNo encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta. Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos. Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.",
+    "transcript": "No tema «Cultura e informação», um pequeno grupo da comunidade conversa sobre notícia, fonte e público. Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta. No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana. Depois, o grupo resume as ideias mais importantes.",
     "extra": {
       "listeningComprehension": {
         "id": "portuguese-b1-cultura-e-informacao-listening-listening-comprehension",
@@ -17094,204 +16896,138 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Cultura e informação: palavras”? “Hoje em uma conversa sobre Cultura e…”",
+            "prompt": "Qual afirmação completa este momento do áudio “Cultura e informação: palavras”? “No tema Cultura e informação um…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoje, em uma conversa sobre Cultura e informação, três colegas contam uma história que aconteceu em uma comunidade brasileira."
+                "text": "No tema «Cultura e informação», um pequeno grupo da comunidade conversa sobre notícia, fonte e público."
               },
               {
                 "id": "o2",
-                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
               },
               {
                 "id": "o3",
-                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
               },
               {
                 "id": "o4",
-                "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
+                "text": "Depois, o grupo resume as ideias mais importantes."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Cultura e informação: palavras”? “A conversa não foi sempre fácil cada…”",
+            "prompt": "Qual afirmação completa este momento do áudio “Cultura e informação: palavras”? “Cada pessoa conta uma experiência…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoje, em uma conversa sobre Cultura e informação, três colegas contam uma história que aconteceu em uma comunidade brasileira."
+                "text": "No tema «Cultura e informação», um pequeno grupo da comunidade conversa sobre notícia, fonte e público."
               },
               {
                 "id": "o2",
-                "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
               },
               {
                 "id": "o3",
-                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
               },
               {
                 "id": "o4",
-                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+                "text": "Depois, o grupo resume as ideias mais importantes."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Cultura e informação: palavras”? “Uma senhora que mora no bairro há…”",
+            "prompt": "Qual afirmação completa este momento do áudio “Cultura e informação: palavras”? “No final decidem colaborar porque…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoje, em uma conversa sobre Cultura e informação, três colegas contam uma história que aconteceu em uma comunidade brasileira."
+                "text": "No tema «Cultura e informação», um pequeno grupo da comunidade conversa sobre notícia, fonte e público."
               },
               {
                 "id": "o2",
-                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
               },
               {
                 "id": "o3",
-                "text": "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias."
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
               },
               {
                 "id": "o4",
-                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+                "text": "Depois, o grupo resume as ideias mais importantes."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Cultura e informação: palavras”? “Ao terminar os colegas concluíram que pequenos…”",
+            "prompt": "Qual afirmação completa este momento do áudio “Cultura e informação: palavras”? “Depois o grupo…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoje, em uma conversa sobre Cultura e informação, três colegas contam uma história que aconteceu em uma comunidade brasileira."
+                "text": "No tema «Cultura e informação», um pequeno grupo da comunidade conversa sobre notícia, fonte e público."
               },
               {
                 "id": "o2",
-                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
               },
               {
                 "id": "o3",
-                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
               },
               {
                 "id": "o4",
-                "text": "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
+                "text": "Depois, o grupo resume as ideias mais importantes."
               }
             ]
           }
         ]
-      },
-      "mainTranscript": "Hoje, em uma conversa sobre Cultura e informação, três colegas contam uma história que aconteceu em uma comunidade brasileira. A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda. Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes. A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.\n\nUma das participantes explicou que as palavras «Aprendemos: notícia.», «Aprendemos: fonte.» e «Aprendemos: público.» ajudaram o grupo a organizar as ideias. Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte. Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar. Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.\n\nNo encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta. Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos. Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.",
-      "transcriptSegments": [
-        {
-          "id": "segment-01",
-          "order": 1,
-          "text": "Hoje, em uma conversa sobre Cultura e informação, três colegas contam uma história que aconteceu em uma comunidade brasileira."
-        },
-        {
-          "id": "segment-02",
-          "order": 2,
-          "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
-        },
-        {
-          "id": "segment-03",
-          "order": 3,
-          "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
-        },
-        {
-          "id": "segment-04",
-          "order": 4,
-          "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
-        },
-        {
-          "id": "segment-05",
-          "order": 5,
-          "text": "Uma das participantes explicou que as palavras «Aprendemos: notícia.», «Aprendemos: fonte.» e «Aprendemos: público.» ajudaram o grupo a organizar as ideias."
-        },
-        {
-          "id": "segment-06",
-          "order": 6,
-          "text": "Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte."
-        },
-        {
-          "id": "segment-07",
-          "order": 7,
-          "text": "Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar."
-        },
-        {
-          "id": "segment-08",
-          "order": 8,
-          "text": "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias."
-        },
-        {
-          "id": "segment-09",
-          "order": 9,
-          "text": "No encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta."
-        },
-        {
-          "id": "segment-10",
-          "order": 10,
-          "text": "Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos."
-        },
-        {
-          "id": "segment-11",
-          "order": 11,
-          "text": "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
-        }
-      ],
-      "audioProduction": {
-        "status": "script-ready",
-        "language": "portuguese",
-        "level": "B1",
-        "voice": "native narrator",
-        "normalSpeed": true,
-        "slowSpeed": true
       },
       "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Cultura e informação: palavras”? “Hoje em uma conversa sobre Cultura e…”",
+        "prompt": "Qual afirmação completa este momento do áudio “Cultura e informação: palavras”? “No tema Cultura e informação um…”",
         "options": [
-          "Hoje, em uma conversa sobre Cultura e informação, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
-          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
-          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes.",
-          "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
+          "No tema «Cultura e informação», um pequeno grupo da comunidade conversa sobre notícia, fonte e público.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Cultura e informação: palavras”? “A conversa não foi sempre fácil cada…”",
+        "prompt": "Qual afirmação completa este momento do áudio “Cultura e informação: palavras”? “Cada pessoa conta uma experiência…”",
         "options": [
-          "Hoje, em uma conversa sobre Cultura e informação, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
-          "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.",
-          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
-          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+          "No tema «Cultura e informação», um pequeno grupo da comunidade conversa sobre notícia, fonte e público.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Cultura e informação: palavras”? “Uma senhora que mora no bairro há…”",
+        "prompt": "Qual afirmação completa este momento do áudio “Cultura e informação: palavras”? “No final decidem colaborar porque…”",
         "options": [
-          "Hoje, em uma conversa sobre Cultura e informação, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
-          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
-          "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.",
-          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+          "No tema «Cultura e informação», um pequeno grupo da comunidade conversa sobre notícia, fonte e público.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Cultura e informação: palavras”? “Ao terminar os colegas concluíram que pequenos…”",
+        "prompt": "Qual afirmação completa este momento do áudio “Cultura e informação: palavras”? “Depois o grupo…”",
         "options": [
-          "Hoje, em uma conversa sobre Cultura e informação, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
-          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
-          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes.",
-          "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
+          "No tema «Cultura e informação», um pequeno grupo da comunidade conversa sobre notícia, fonte e público.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
         ]
       }
     ]
@@ -21657,14 +21393,14 @@
         ]
       },
       {
-        "id": "portuguese-a2-arte-na-comunidade-reading-comprehension-4",
+        "id": "portuguese-a2-arte-na-comunidade-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“_____ usam as palavras novas em pequenas situações: no café, na escola ou na rua.”",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
         "options": [
-          "usam",
-          "café",
-          "pode",
-          "Eles"
+          "Ela",
+          "diz",
+          "foi",
+          "rua"
         ]
       },
       {
@@ -21759,9 +21495,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Voz passiva e índice de indeterminação",
-        "definition": "Conectores, opiniões e hipóteses ajudam a construir um argumento.",
+        "definition": "Práctica guiada de Voz passiva e índice de indeterminação.",
         "structure": "opinião + porque/porém/portanto + justificativa",
-        "function": "Expressar e justificar um ponto de vista.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Acho que a proposta é útil.",
           "Porém, devemos avaliar os resultados."
@@ -22235,7 +21971,7 @@
     ],
     "dialogue": [],
     "reading": null,
-    "transcript": "Hoje, em uma conversa sobre Ambiente no bairro, três colegas contam uma história que aconteceu em uma comunidade brasileira. A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda. Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes. A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.\n\nUma das participantes explicou que as palavras «Aprendemos: resíduo.», «Aprendemos: coleta.» e «Aprendemos: recurso.» ajudaram o grupo a organizar as ideias. Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte. Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar. Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.\n\nNo encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta. Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos. Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.",
+    "transcript": "No tema «Ambiente no bairro», um pequeno grupo da comunidade conversa sobre resíduo, coleta e recurso. Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta. No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana. Depois, o grupo resume as ideias mais importantes.",
     "extra": {
       "listeningComprehension": {
         "id": "portuguese-b1-ambiente-no-bairro-listening-listening-comprehension",
@@ -22244,204 +21980,138 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Ambiente no bairro: palavras”? “Hoje em uma conversa sobre Ambiente no…”",
+            "prompt": "Qual afirmação completa este momento do áudio “Ambiente no bairro: palavras”? “No tema Ambiente no bairro um…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoje, em uma conversa sobre Ambiente no bairro, três colegas contam uma história que aconteceu em uma comunidade brasileira."
+                "text": "No tema «Ambiente no bairro», um pequeno grupo da comunidade conversa sobre resíduo, coleta e recurso."
               },
               {
                 "id": "o2",
-                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
               },
               {
                 "id": "o3",
-                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
               },
               {
                 "id": "o4",
-                "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
+                "text": "Depois, o grupo resume as ideias mais importantes."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Ambiente no bairro: palavras”? “A conversa não foi sempre fácil cada…”",
+            "prompt": "Qual afirmação completa este momento do áudio “Ambiente no bairro: palavras”? “Cada pessoa conta uma experiência…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoje, em uma conversa sobre Ambiente no bairro, três colegas contam uma história que aconteceu em uma comunidade brasileira."
+                "text": "No tema «Ambiente no bairro», um pequeno grupo da comunidade conversa sobre resíduo, coleta e recurso."
               },
               {
                 "id": "o2",
-                "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
               },
               {
                 "id": "o3",
-                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
               },
               {
                 "id": "o4",
-                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+                "text": "Depois, o grupo resume as ideias mais importantes."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Ambiente no bairro: palavras”? “Uma senhora que mora no bairro há…”",
+            "prompt": "Qual afirmação completa este momento do áudio “Ambiente no bairro: palavras”? “No final decidem colaborar porque…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoje, em uma conversa sobre Ambiente no bairro, três colegas contam uma história que aconteceu em uma comunidade brasileira."
+                "text": "No tema «Ambiente no bairro», um pequeno grupo da comunidade conversa sobre resíduo, coleta e recurso."
               },
               {
                 "id": "o2",
-                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
               },
               {
                 "id": "o3",
-                "text": "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias."
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
               },
               {
                 "id": "o4",
-                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+                "text": "Depois, o grupo resume as ideias mais importantes."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Ambiente no bairro: palavras”? “Ao terminar os colegas concluíram que pequenos…”",
+            "prompt": "Qual afirmação completa este momento do áudio “Ambiente no bairro: palavras”? “Depois o grupo…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoje, em uma conversa sobre Ambiente no bairro, três colegas contam uma história que aconteceu em uma comunidade brasileira."
+                "text": "No tema «Ambiente no bairro», um pequeno grupo da comunidade conversa sobre resíduo, coleta e recurso."
               },
               {
                 "id": "o2",
-                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
               },
               {
                 "id": "o3",
-                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
               },
               {
                 "id": "o4",
-                "text": "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
+                "text": "Depois, o grupo resume as ideias mais importantes."
               }
             ]
           }
         ]
-      },
-      "mainTranscript": "Hoje, em uma conversa sobre Ambiente no bairro, três colegas contam uma história que aconteceu em uma comunidade brasileira. A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda. Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes. A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.\n\nUma das participantes explicou que as palavras «Aprendemos: resíduo.», «Aprendemos: coleta.» e «Aprendemos: recurso.» ajudaram o grupo a organizar as ideias. Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte. Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar. Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.\n\nNo encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta. Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos. Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.",
-      "transcriptSegments": [
-        {
-          "id": "segment-01",
-          "order": 1,
-          "text": "Hoje, em uma conversa sobre Ambiente no bairro, três colegas contam uma história que aconteceu em uma comunidade brasileira."
-        },
-        {
-          "id": "segment-02",
-          "order": 2,
-          "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
-        },
-        {
-          "id": "segment-03",
-          "order": 3,
-          "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
-        },
-        {
-          "id": "segment-04",
-          "order": 4,
-          "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
-        },
-        {
-          "id": "segment-05",
-          "order": 5,
-          "text": "Uma das participantes explicou que as palavras «Aprendemos: resíduo.», «Aprendemos: coleta.» e «Aprendemos: recurso.» ajudaram o grupo a organizar as ideias."
-        },
-        {
-          "id": "segment-06",
-          "order": 6,
-          "text": "Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte."
-        },
-        {
-          "id": "segment-07",
-          "order": 7,
-          "text": "Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar."
-        },
-        {
-          "id": "segment-08",
-          "order": 8,
-          "text": "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias."
-        },
-        {
-          "id": "segment-09",
-          "order": 9,
-          "text": "No encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta."
-        },
-        {
-          "id": "segment-10",
-          "order": 10,
-          "text": "Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos."
-        },
-        {
-          "id": "segment-11",
-          "order": 11,
-          "text": "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
-        }
-      ],
-      "audioProduction": {
-        "status": "script-ready",
-        "language": "portuguese",
-        "level": "B1",
-        "voice": "native narrator",
-        "normalSpeed": true,
-        "slowSpeed": true
       },
       "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Ambiente no bairro: palavras”? “Hoje em uma conversa sobre Ambiente no…”",
+        "prompt": "Qual afirmação completa este momento do áudio “Ambiente no bairro: palavras”? “No tema Ambiente no bairro um…”",
         "options": [
-          "Hoje, em uma conversa sobre Ambiente no bairro, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
-          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
-          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes.",
-          "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
+          "No tema «Ambiente no bairro», um pequeno grupo da comunidade conversa sobre resíduo, coleta e recurso.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Ambiente no bairro: palavras”? “A conversa não foi sempre fácil cada…”",
+        "prompt": "Qual afirmação completa este momento do áudio “Ambiente no bairro: palavras”? “Cada pessoa conta uma experiência…”",
         "options": [
-          "Hoje, em uma conversa sobre Ambiente no bairro, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
-          "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.",
-          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
-          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+          "No tema «Ambiente no bairro», um pequeno grupo da comunidade conversa sobre resíduo, coleta e recurso.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Ambiente no bairro: palavras”? “Uma senhora que mora no bairro há…”",
+        "prompt": "Qual afirmação completa este momento do áudio “Ambiente no bairro: palavras”? “No final decidem colaborar porque…”",
         "options": [
-          "Hoje, em uma conversa sobre Ambiente no bairro, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
-          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
-          "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.",
-          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+          "No tema «Ambiente no bairro», um pequeno grupo da comunidade conversa sobre resíduo, coleta e recurso.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Ambiente no bairro: palavras”? “Ao terminar os colegas concluíram que pequenos…”",
+        "prompt": "Qual afirmação completa este momento do áudio “Ambiente no bairro: palavras”? “Depois o grupo…”",
         "options": [
-          "Hoje, em uma conversa sobre Ambiente no bairro, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
-          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
-          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes.",
-          "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
+          "No tema «Ambiente no bairro», um pequeno grupo da comunidade conversa sobre resíduo, coleta e recurso.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
         ]
       }
     ]
@@ -26809,14 +26479,14 @@
         ]
       },
       {
-        "id": "portuguese-a2-viajar-com-respeito-reading-comprehension-4",
+        "id": "portuguese-a2-viajar-com-respeito-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“_____ usam as palavras novas em pequenas situações: no café, na escola ou na rua.”",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
         "options": [
-          "mapa",
-          "usam",
-          "café",
-          "Eles"
+          "Ela",
+          "diz",
+          "Não",
+          "rua"
         ]
       },
       {
@@ -26911,9 +26581,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Mais-que-perfeito e narrativa",
-        "definition": "Conectores, opiniões e hipóteses ajudam a construir um argumento.",
+        "definition": "Práctica guiada de Mais-que-perfeito e narrativa.",
         "structure": "opinião + porque/porém/portanto + justificativa",
-        "function": "Expressar e justificar um ponto de vista.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Acho que a proposta é útil.",
           "Porém, devemos avaliar os resultados."
@@ -27387,7 +27057,7 @@
     ],
     "dialogue": [],
     "reading": null,
-    "transcript": "Hoje, em uma conversa sobre Histórias e memórias, três colegas contam uma história que aconteceu em uma comunidade brasileira. A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda. Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes. A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.\n\nUma das participantes explicou que as palavras «Aprendemos: memória.», «Aprendemos: infância.» e «Aprendemos: mudança.» ajudaram o grupo a organizar as ideias. Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte. Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar. Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.\n\nNo encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta. Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos. Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.",
+    "transcript": "No tema «Histórias e memórias», um pequeno grupo da comunidade conversa sobre memória, infância e mudança. Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta. No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana. Depois, o grupo resume as ideias mais importantes.",
     "extra": {
       "listeningComprehension": {
         "id": "portuguese-b1-historias-e-memorias-listening-listening-comprehension",
@@ -27396,204 +27066,138 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Histórias e memórias: palavras”? “Hoje em uma conversa sobre Histórias e…”",
+            "prompt": "Qual afirmação completa este momento do áudio “Histórias e memórias: palavras”? “No tema Histórias e memórias um…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoje, em uma conversa sobre Histórias e memórias, três colegas contam uma história que aconteceu em uma comunidade brasileira."
+                "text": "No tema «Histórias e memórias», um pequeno grupo da comunidade conversa sobre memória, infância e mudança."
               },
               {
                 "id": "o2",
-                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
               },
               {
                 "id": "o3",
-                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
               },
               {
                 "id": "o4",
-                "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
+                "text": "Depois, o grupo resume as ideias mais importantes."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Histórias e memórias: palavras”? “A conversa não foi sempre fácil cada…”",
+            "prompt": "Qual afirmação completa este momento do áudio “Histórias e memórias: palavras”? “Cada pessoa conta uma experiência…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoje, em uma conversa sobre Histórias e memórias, três colegas contam uma história que aconteceu em uma comunidade brasileira."
+                "text": "No tema «Histórias e memórias», um pequeno grupo da comunidade conversa sobre memória, infância e mudança."
               },
               {
                 "id": "o2",
-                "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
               },
               {
                 "id": "o3",
-                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
               },
               {
                 "id": "o4",
-                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+                "text": "Depois, o grupo resume as ideias mais importantes."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Histórias e memórias: palavras”? “Uma senhora que mora no bairro há…”",
+            "prompt": "Qual afirmação completa este momento do áudio “Histórias e memórias: palavras”? “No final decidem colaborar porque…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoje, em uma conversa sobre Histórias e memórias, três colegas contam uma história que aconteceu em uma comunidade brasileira."
+                "text": "No tema «Histórias e memórias», um pequeno grupo da comunidade conversa sobre memória, infância e mudança."
               },
               {
                 "id": "o2",
-                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
               },
               {
                 "id": "o3",
-                "text": "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias."
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
               },
               {
                 "id": "o4",
-                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+                "text": "Depois, o grupo resume as ideias mais importantes."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Histórias e memórias: palavras”? “Ao terminar os colegas concluíram que pequenos…”",
+            "prompt": "Qual afirmação completa este momento do áudio “Histórias e memórias: palavras”? “Depois o grupo…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoje, em uma conversa sobre Histórias e memórias, três colegas contam uma história que aconteceu em uma comunidade brasileira."
+                "text": "No tema «Histórias e memórias», um pequeno grupo da comunidade conversa sobre memória, infância e mudança."
               },
               {
                 "id": "o2",
-                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
               },
               {
                 "id": "o3",
-                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
               },
               {
                 "id": "o4",
-                "text": "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
+                "text": "Depois, o grupo resume as ideias mais importantes."
               }
             ]
           }
         ]
-      },
-      "mainTranscript": "Hoje, em uma conversa sobre Histórias e memórias, três colegas contam uma história que aconteceu em uma comunidade brasileira. A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda. Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes. A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.\n\nUma das participantes explicou que as palavras «Aprendemos: memória.», «Aprendemos: infância.» e «Aprendemos: mudança.» ajudaram o grupo a organizar as ideias. Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte. Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar. Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.\n\nNo encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta. Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos. Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.",
-      "transcriptSegments": [
-        {
-          "id": "segment-01",
-          "order": 1,
-          "text": "Hoje, em uma conversa sobre Histórias e memórias, três colegas contam uma história que aconteceu em uma comunidade brasileira."
-        },
-        {
-          "id": "segment-02",
-          "order": 2,
-          "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
-        },
-        {
-          "id": "segment-03",
-          "order": 3,
-          "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
-        },
-        {
-          "id": "segment-04",
-          "order": 4,
-          "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
-        },
-        {
-          "id": "segment-05",
-          "order": 5,
-          "text": "Uma das participantes explicou que as palavras «Aprendemos: memória.», «Aprendemos: infância.» e «Aprendemos: mudança.» ajudaram o grupo a organizar as ideias."
-        },
-        {
-          "id": "segment-06",
-          "order": 6,
-          "text": "Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte."
-        },
-        {
-          "id": "segment-07",
-          "order": 7,
-          "text": "Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar."
-        },
-        {
-          "id": "segment-08",
-          "order": 8,
-          "text": "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias."
-        },
-        {
-          "id": "segment-09",
-          "order": 9,
-          "text": "No encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta."
-        },
-        {
-          "id": "segment-10",
-          "order": 10,
-          "text": "Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos."
-        },
-        {
-          "id": "segment-11",
-          "order": 11,
-          "text": "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
-        }
-      ],
-      "audioProduction": {
-        "status": "script-ready",
-        "language": "portuguese",
-        "level": "B1",
-        "voice": "native narrator",
-        "normalSpeed": true,
-        "slowSpeed": true
       },
       "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Histórias e memórias: palavras”? “Hoje em uma conversa sobre Histórias e…”",
+        "prompt": "Qual afirmação completa este momento do áudio “Histórias e memórias: palavras”? “No tema Histórias e memórias um…”",
         "options": [
-          "Hoje, em uma conversa sobre Histórias e memórias, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
-          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
-          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes.",
-          "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
+          "No tema «Histórias e memórias», um pequeno grupo da comunidade conversa sobre memória, infância e mudança.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Histórias e memórias: palavras”? “A conversa não foi sempre fácil cada…”",
+        "prompt": "Qual afirmação completa este momento do áudio “Histórias e memórias: palavras”? “Cada pessoa conta uma experiência…”",
         "options": [
-          "Hoje, em uma conversa sobre Histórias e memórias, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
-          "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.",
-          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
-          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+          "No tema «Histórias e memórias», um pequeno grupo da comunidade conversa sobre memória, infância e mudança.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Histórias e memórias: palavras”? “Uma senhora que mora no bairro há…”",
+        "prompt": "Qual afirmação completa este momento do áudio “Histórias e memórias: palavras”? “No final decidem colaborar porque…”",
         "options": [
-          "Hoje, em uma conversa sobre Histórias e memórias, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
-          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
-          "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.",
-          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+          "No tema «Histórias e memórias», um pequeno grupo da comunidade conversa sobre memória, infância e mudança.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Histórias e memórias: palavras”? “Ao terminar os colegas concluíram que pequenos…”",
+        "prompt": "Qual afirmação completa este momento do áudio “Histórias e memórias: palavras”? “Depois o grupo…”",
         "options": [
-          "Hoje, em uma conversa sobre Histórias e memórias, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
-          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
-          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes.",
-          "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
+          "No tema «Histórias e memórias», um pequeno grupo da comunidade conversa sobre memória, infância e mudança.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
         ]
       }
     ]
@@ -31958,14 +31562,14 @@
         ]
       },
       {
-        "id": "portuguese-a2-esporte-e-lazer-reading-comprehension-4",
+        "id": "portuguese-a2-esporte-e-lazer-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“_____ usam as palavras novas em pequenas situações: no café, na escola ou na rua.”",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
         "options": [
-          "usam",
-          "café",
-          "pode",
-          "Eles"
+          "Ela",
+          "diz",
+          "era",
+          "rua"
         ]
       },
       {
@@ -32060,9 +31664,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Conectores argumentativos",
-        "definition": "Conectores, opiniões e hipóteses ajudam a construir um argumento.",
+        "definition": "Práctica guiada de Conectores argumentativos.",
         "structure": "opinião + porque/porém/portanto + justificativa",
-        "function": "Expressar e justificar um ponto de vista.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Acho que a proposta é útil.",
           "Porém, devemos avaliar os resultados."
@@ -32536,7 +32140,7 @@
     ],
     "dialogue": [],
     "reading": null,
-    "transcript": "Hoje, em uma conversa sobre Projeto coletivo, três colegas contam uma história que aconteceu em uma comunidade brasileira. A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda. Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes. A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.\n\nUma das participantes explicou que as palavras «Aprendemos: projeto.», «Aprendemos: pesquisa.» e «Aprendemos: tarefa.» ajudaram o grupo a organizar as ideias. Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte. Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar. Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.\n\nNo encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta. Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos. Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.",
+    "transcript": "No tema «Projeto coletivo», um pequeno grupo da comunidade conversa sobre projeto, pesquisa e tarefa. Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta. No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana. Depois, o grupo resume as ideias mais importantes.",
     "extra": {
       "listeningComprehension": {
         "id": "portuguese-b1-projeto-coletivo-listening-listening-comprehension",
@@ -32545,204 +32149,138 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Projeto coletivo: palavras”? “Hoje em uma conversa sobre Projeto…”",
+            "prompt": "Qual afirmação completa este momento do áudio “Projeto coletivo: palavras”? “No tema Projeto coletivo um…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoje, em uma conversa sobre Projeto coletivo, três colegas contam uma história que aconteceu em uma comunidade brasileira."
+                "text": "No tema «Projeto coletivo», um pequeno grupo da comunidade conversa sobre projeto, pesquisa e tarefa."
               },
               {
                 "id": "o2",
-                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
               },
               {
                 "id": "o3",
-                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
               },
               {
                 "id": "o4",
-                "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
+                "text": "Depois, o grupo resume as ideias mais importantes."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Projeto coletivo: palavras”? “A conversa não foi sempre fácil cada…”",
+            "prompt": "Qual afirmação completa este momento do áudio “Projeto coletivo: palavras”? “Cada pessoa conta uma experiência…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoje, em uma conversa sobre Projeto coletivo, três colegas contam uma história que aconteceu em uma comunidade brasileira."
+                "text": "No tema «Projeto coletivo», um pequeno grupo da comunidade conversa sobre projeto, pesquisa e tarefa."
               },
               {
                 "id": "o2",
-                "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
               },
               {
                 "id": "o3",
-                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
               },
               {
                 "id": "o4",
-                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+                "text": "Depois, o grupo resume as ideias mais importantes."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Projeto coletivo: palavras”? “Uma senhora que mora no bairro há…”",
+            "prompt": "Qual afirmação completa este momento do áudio “Projeto coletivo: palavras”? “No final decidem colaborar porque…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoje, em uma conversa sobre Projeto coletivo, três colegas contam uma história que aconteceu em uma comunidade brasileira."
+                "text": "No tema «Projeto coletivo», um pequeno grupo da comunidade conversa sobre projeto, pesquisa e tarefa."
               },
               {
                 "id": "o2",
-                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
               },
               {
                 "id": "o3",
-                "text": "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias."
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
               },
               {
                 "id": "o4",
-                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+                "text": "Depois, o grupo resume as ideias mais importantes."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Projeto coletivo: palavras”? “Ao terminar os colegas concluíram que pequenos…”",
+            "prompt": "Qual afirmação completa este momento do áudio “Projeto coletivo: palavras”? “Depois o grupo…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoje, em uma conversa sobre Projeto coletivo, três colegas contam uma história que aconteceu em uma comunidade brasileira."
+                "text": "No tema «Projeto coletivo», um pequeno grupo da comunidade conversa sobre projeto, pesquisa e tarefa."
               },
               {
                 "id": "o2",
-                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
               },
               {
                 "id": "o3",
-                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
               },
               {
                 "id": "o4",
-                "text": "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
+                "text": "Depois, o grupo resume as ideias mais importantes."
               }
             ]
           }
         ]
-      },
-      "mainTranscript": "Hoje, em uma conversa sobre Projeto coletivo, três colegas contam uma história que aconteceu em uma comunidade brasileira. A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda. Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes. A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.\n\nUma das participantes explicou que as palavras «Aprendemos: projeto.», «Aprendemos: pesquisa.» e «Aprendemos: tarefa.» ajudaram o grupo a organizar as ideias. Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte. Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar. Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.\n\nNo encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta. Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos. Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.",
-      "transcriptSegments": [
-        {
-          "id": "segment-01",
-          "order": 1,
-          "text": "Hoje, em uma conversa sobre Projeto coletivo, três colegas contam uma história que aconteceu em uma comunidade brasileira."
-        },
-        {
-          "id": "segment-02",
-          "order": 2,
-          "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
-        },
-        {
-          "id": "segment-03",
-          "order": 3,
-          "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
-        },
-        {
-          "id": "segment-04",
-          "order": 4,
-          "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
-        },
-        {
-          "id": "segment-05",
-          "order": 5,
-          "text": "Uma das participantes explicou que as palavras «Aprendemos: projeto.», «Aprendemos: pesquisa.» e «Aprendemos: tarefa.» ajudaram o grupo a organizar as ideias."
-        },
-        {
-          "id": "segment-06",
-          "order": 6,
-          "text": "Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte."
-        },
-        {
-          "id": "segment-07",
-          "order": 7,
-          "text": "Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar."
-        },
-        {
-          "id": "segment-08",
-          "order": 8,
-          "text": "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias."
-        },
-        {
-          "id": "segment-09",
-          "order": 9,
-          "text": "No encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta."
-        },
-        {
-          "id": "segment-10",
-          "order": 10,
-          "text": "Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos."
-        },
-        {
-          "id": "segment-11",
-          "order": 11,
-          "text": "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
-        }
-      ],
-      "audioProduction": {
-        "status": "script-ready",
-        "language": "portuguese",
-        "level": "B1",
-        "voice": "native narrator",
-        "normalSpeed": true,
-        "slowSpeed": true
       },
       "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Projeto coletivo: palavras”? “Hoje em uma conversa sobre Projeto…”",
+        "prompt": "Qual afirmação completa este momento do áudio “Projeto coletivo: palavras”? “No tema Projeto coletivo um…”",
         "options": [
-          "Hoje, em uma conversa sobre Projeto coletivo, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
-          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
-          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes.",
-          "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
+          "No tema «Projeto coletivo», um pequeno grupo da comunidade conversa sobre projeto, pesquisa e tarefa.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Projeto coletivo: palavras”? “A conversa não foi sempre fácil cada…”",
+        "prompt": "Qual afirmação completa este momento do áudio “Projeto coletivo: palavras”? “Cada pessoa conta uma experiência…”",
         "options": [
-          "Hoje, em uma conversa sobre Projeto coletivo, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
-          "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.",
-          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
-          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+          "No tema «Projeto coletivo», um pequeno grupo da comunidade conversa sobre projeto, pesquisa e tarefa.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Projeto coletivo: palavras”? “Uma senhora que mora no bairro há…”",
+        "prompt": "Qual afirmação completa este momento do áudio “Projeto coletivo: palavras”? “No final decidem colaborar porque…”",
         "options": [
-          "Hoje, em uma conversa sobre Projeto coletivo, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
-          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
-          "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.",
-          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+          "No tema «Projeto coletivo», um pequeno grupo da comunidade conversa sobre projeto, pesquisa e tarefa.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Projeto coletivo: palavras”? “Ao terminar os colegas concluíram que pequenos…”",
+        "prompt": "Qual afirmação completa este momento do áudio “Projeto coletivo: palavras”? “Depois o grupo…”",
         "options": [
-          "Hoje, em uma conversa sobre Projeto coletivo, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
-          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
-          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes.",
-          "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
+          "No tema «Projeto coletivo», um pequeno grupo da comunidade conversa sobre projeto, pesquisa e tarefa.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
         ]
       }
     ]
@@ -37110,14 +36648,14 @@
         ]
       },
       {
-        "id": "portuguese-a2-saude-e-bem-estar-reading-comprehension-4",
+        "id": "portuguese-a2-saude-e-bem-estar-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“_____ usam as palavras novas em pequenas situações: no café, na escola ou na rua.”",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
         "options": [
-          "usam",
-          "café",
-          "pode",
-          "Eles"
+          "Ela",
+          "diz",
+          "dor",
+          "rua"
         ]
       },
       {
@@ -37212,9 +36750,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Subjuntivo e opinião",
-        "definition": "Conectores, opiniões e hipóteses ajudam a construir um argumento.",
+        "definition": "Práctica guiada de Subjuntivo e opinião.",
         "structure": "opinião + porque/porém/portanto + justificativa",
-        "function": "Expressar e justificar um ponto de vista.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Acho que a proposta é útil.",
           "Porém, devemos avaliar os resultados."
@@ -37688,7 +37226,7 @@
     ],
     "dialogue": [],
     "reading": null,
-    "transcript": "Hoje, em uma conversa sobre Tecnologia no dia a dia, três colegas contam uma história que aconteceu em uma comunidade brasileira. A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda. Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes. A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.\n\nUma das participantes explicou que as palavras «Aprendemos: tecnologia.», «Aprendemos: aparelho.» e «Aprendemos: vantagem.» ajudaram o grupo a organizar as ideias. Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte. Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar. Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.\n\nNo encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta. Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos. Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.",
+    "transcript": "No tema «Tecnologia no dia a dia», um pequeno grupo da comunidade conversa sobre tecnologia, aparelho e vantagem. Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta. No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana. Depois, o grupo resume as ideias mais importantes.",
     "extra": {
       "listeningComprehension": {
         "id": "portuguese-b1-tecnologia-no-dia-a-dia-listening-listening-comprehension",
@@ -37697,204 +37235,138 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Tecnologia no dia a dia: palavras”? “Hoje em uma conversa sobre Tecnologia no…”",
+            "prompt": "Qual afirmação completa este momento do áudio “Tecnologia no dia a dia: palavras”? “No tema Tecnologia no dia a…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoje, em uma conversa sobre Tecnologia no dia a dia, três colegas contam uma história que aconteceu em uma comunidade brasileira."
+                "text": "No tema «Tecnologia no dia a dia», um pequeno grupo da comunidade conversa sobre tecnologia, aparelho e vantagem."
               },
               {
                 "id": "o2",
-                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
               },
               {
                 "id": "o3",
-                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
               },
               {
                 "id": "o4",
-                "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
+                "text": "Depois, o grupo resume as ideias mais importantes."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Tecnologia no dia a dia: palavras”? “A conversa não foi sempre fácil cada…”",
+            "prompt": "Qual afirmação completa este momento do áudio “Tecnologia no dia a dia: palavras”? “Cada pessoa conta uma experiência…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoje, em uma conversa sobre Tecnologia no dia a dia, três colegas contam uma história que aconteceu em uma comunidade brasileira."
+                "text": "No tema «Tecnologia no dia a dia», um pequeno grupo da comunidade conversa sobre tecnologia, aparelho e vantagem."
               },
               {
                 "id": "o2",
-                "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
               },
               {
                 "id": "o3",
-                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
               },
               {
                 "id": "o4",
-                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+                "text": "Depois, o grupo resume as ideias mais importantes."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Tecnologia no dia a dia: palavras”? “Uma senhora que mora no bairro há…”",
+            "prompt": "Qual afirmação completa este momento do áudio “Tecnologia no dia a dia: palavras”? “No final decidem colaborar porque…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoje, em uma conversa sobre Tecnologia no dia a dia, três colegas contam uma história que aconteceu em uma comunidade brasileira."
+                "text": "No tema «Tecnologia no dia a dia», um pequeno grupo da comunidade conversa sobre tecnologia, aparelho e vantagem."
               },
               {
                 "id": "o2",
-                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
               },
               {
                 "id": "o3",
-                "text": "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias."
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
               },
               {
                 "id": "o4",
-                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+                "text": "Depois, o grupo resume as ideias mais importantes."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Tecnologia no dia a dia: palavras”? “Ao terminar os colegas concluíram que pequenos…”",
+            "prompt": "Qual afirmação completa este momento do áudio “Tecnologia no dia a dia: palavras”? “Depois o grupo…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoje, em uma conversa sobre Tecnologia no dia a dia, três colegas contam uma história que aconteceu em uma comunidade brasileira."
+                "text": "No tema «Tecnologia no dia a dia», um pequeno grupo da comunidade conversa sobre tecnologia, aparelho e vantagem."
               },
               {
                 "id": "o2",
-                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
               },
               {
                 "id": "o3",
-                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
               },
               {
                 "id": "o4",
-                "text": "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
+                "text": "Depois, o grupo resume as ideias mais importantes."
               }
             ]
           }
         ]
-      },
-      "mainTranscript": "Hoje, em uma conversa sobre Tecnologia no dia a dia, três colegas contam uma história que aconteceu em uma comunidade brasileira. A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda. Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes. A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.\n\nUma das participantes explicou que as palavras «Aprendemos: tecnologia.», «Aprendemos: aparelho.» e «Aprendemos: vantagem.» ajudaram o grupo a organizar as ideias. Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte. Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar. Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.\n\nNo encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta. Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos. Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.",
-      "transcriptSegments": [
-        {
-          "id": "segment-01",
-          "order": 1,
-          "text": "Hoje, em uma conversa sobre Tecnologia no dia a dia, três colegas contam uma história que aconteceu em uma comunidade brasileira."
-        },
-        {
-          "id": "segment-02",
-          "order": 2,
-          "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
-        },
-        {
-          "id": "segment-03",
-          "order": 3,
-          "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
-        },
-        {
-          "id": "segment-04",
-          "order": 4,
-          "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
-        },
-        {
-          "id": "segment-05",
-          "order": 5,
-          "text": "Uma das participantes explicou que as palavras «Aprendemos: tecnologia.», «Aprendemos: aparelho.» e «Aprendemos: vantagem.» ajudaram o grupo a organizar as ideias."
-        },
-        {
-          "id": "segment-06",
-          "order": 6,
-          "text": "Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte."
-        },
-        {
-          "id": "segment-07",
-          "order": 7,
-          "text": "Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar."
-        },
-        {
-          "id": "segment-08",
-          "order": 8,
-          "text": "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias."
-        },
-        {
-          "id": "segment-09",
-          "order": 9,
-          "text": "No encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta."
-        },
-        {
-          "id": "segment-10",
-          "order": 10,
-          "text": "Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos."
-        },
-        {
-          "id": "segment-11",
-          "order": 11,
-          "text": "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
-        }
-      ],
-      "audioProduction": {
-        "status": "script-ready",
-        "language": "portuguese",
-        "level": "B1",
-        "voice": "native narrator",
-        "normalSpeed": true,
-        "slowSpeed": true
       },
       "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Tecnologia no dia a dia: palavras”? “Hoje em uma conversa sobre Tecnologia no…”",
+        "prompt": "Qual afirmação completa este momento do áudio “Tecnologia no dia a dia: palavras”? “No tema Tecnologia no dia a…”",
         "options": [
-          "Hoje, em uma conversa sobre Tecnologia no dia a dia, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
-          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
-          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes.",
-          "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
+          "No tema «Tecnologia no dia a dia», um pequeno grupo da comunidade conversa sobre tecnologia, aparelho e vantagem.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Tecnologia no dia a dia: palavras”? “A conversa não foi sempre fácil cada…”",
+        "prompt": "Qual afirmação completa este momento do áudio “Tecnologia no dia a dia: palavras”? “Cada pessoa conta uma experiência…”",
         "options": [
-          "Hoje, em uma conversa sobre Tecnologia no dia a dia, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
-          "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.",
-          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
-          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+          "No tema «Tecnologia no dia a dia», um pequeno grupo da comunidade conversa sobre tecnologia, aparelho e vantagem.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Tecnologia no dia a dia: palavras”? “Uma senhora que mora no bairro há…”",
+        "prompt": "Qual afirmação completa este momento do áudio “Tecnologia no dia a dia: palavras”? “No final decidem colaborar porque…”",
         "options": [
-          "Hoje, em uma conversa sobre Tecnologia no dia a dia, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
-          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
-          "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.",
-          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+          "No tema «Tecnologia no dia a dia», um pequeno grupo da comunidade conversa sobre tecnologia, aparelho e vantagem.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Tecnologia no dia a dia: palavras”? “Ao terminar os colegas concluíram que pequenos…”",
+        "prompt": "Qual afirmação completa este momento do áudio “Tecnologia no dia a dia: palavras”? “Depois o grupo…”",
         "options": [
-          "Hoje, em uma conversa sobre Tecnologia no dia a dia, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
-          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
-          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes.",
-          "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
+          "No tema «Tecnologia no dia a dia», um pequeno grupo da comunidade conversa sobre tecnologia, aparelho e vantagem.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
         ]
       }
     ]
@@ -42259,14 +41731,14 @@
         ]
       },
       {
-        "id": "portuguese-a2-historias-de-origem-reading-comprehension-4",
+        "id": "portuguese-a2-historias-de-origem-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“_____ usam as palavras novas em pequenas situações: no café, na escola ou na rua.”",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
         "options": [
-          "anos",
-          "usam",
-          "café",
-          "Eles"
+          "Ela",
+          "diz",
+          "rua",
+          "anos"
         ]
       },
       {
@@ -42361,9 +41833,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Comparação e consequência",
-        "definition": "Conectores, opiniões e hipóteses ajudam a construir um argumento.",
+        "definition": "Práctica guiada de Comparação e consequência.",
         "structure": "opinião + porque/porém/portanto + justificativa",
-        "function": "Expressar e justificar um ponto de vista.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Acho que a proposta é útil.",
           "Porém, devemos avaliar os resultados."
@@ -42837,7 +42309,7 @@
     ],
     "dialogue": [],
     "reading": null,
-    "transcript": "Hoje, em uma conversa sobre Cidade e mobilidade, três colegas contam uma história que aconteceu em um grupo de usuários de ônibus em São Paulo. A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda. Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes. A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.\n\nUma das participantes explicou que as palavras «Aprendemos: transporte.», «Aprendemos: caminho.» e «Aprendemos: trânsito.» ajudaram o grupo a organizar as ideias. Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte. Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar. Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.\n\nNo encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta. Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos. Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.",
+    "transcript": "No tema «Cidade e mobilidade», um pequeno grupo da comunidade conversa sobre transporte, caminho e trânsito. Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta. No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana. Depois, o grupo resume as ideias mais importantes.",
     "extra": {
       "listeningComprehension": {
         "id": "portuguese-b1-cidade-e-mobilidade-listening-listening-comprehension",
@@ -42846,204 +42318,138 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Cidade e mobilidade: palavras”? “Hoje em uma conversa sobre Cidade e…”",
+            "prompt": "Qual afirmação completa este momento do áudio “Cidade e mobilidade: palavras”? “No tema Cidade e mobilidade um…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoje, em uma conversa sobre Cidade e mobilidade, três colegas contam uma história que aconteceu em um grupo de usuários de ônibus em São Paulo."
+                "text": "No tema «Cidade e mobilidade», um pequeno grupo da comunidade conversa sobre transporte, caminho e trânsito."
               },
               {
                 "id": "o2",
-                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
               },
               {
                 "id": "o3",
-                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
               },
               {
                 "id": "o4",
-                "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
+                "text": "Depois, o grupo resume as ideias mais importantes."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Cidade e mobilidade: palavras”? “A conversa não foi sempre fácil cada…”",
+            "prompt": "Qual afirmação completa este momento do áudio “Cidade e mobilidade: palavras”? “Cada pessoa conta uma experiência…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoje, em uma conversa sobre Cidade e mobilidade, três colegas contam uma história que aconteceu em um grupo de usuários de ônibus em São Paulo."
+                "text": "No tema «Cidade e mobilidade», um pequeno grupo da comunidade conversa sobre transporte, caminho e trânsito."
               },
               {
                 "id": "o2",
-                "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
               },
               {
                 "id": "o3",
-                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
               },
               {
                 "id": "o4",
-                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+                "text": "Depois, o grupo resume as ideias mais importantes."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Cidade e mobilidade: palavras”? “Uma senhora que mora no bairro há…”",
+            "prompt": "Qual afirmação completa este momento do áudio “Cidade e mobilidade: palavras”? “No final decidem colaborar porque…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoje, em uma conversa sobre Cidade e mobilidade, três colegas contam uma história que aconteceu em um grupo de usuários de ônibus em São Paulo."
+                "text": "No tema «Cidade e mobilidade», um pequeno grupo da comunidade conversa sobre transporte, caminho e trânsito."
               },
               {
                 "id": "o2",
-                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
               },
               {
                 "id": "o3",
-                "text": "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias."
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
               },
               {
                 "id": "o4",
-                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+                "text": "Depois, o grupo resume as ideias mais importantes."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Cidade e mobilidade: palavras”? “Ao terminar os colegas concluíram que pequenos…”",
+            "prompt": "Qual afirmação completa este momento do áudio “Cidade e mobilidade: palavras”? “Depois o grupo…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoje, em uma conversa sobre Cidade e mobilidade, três colegas contam uma história que aconteceu em um grupo de usuários de ônibus em São Paulo."
+                "text": "No tema «Cidade e mobilidade», um pequeno grupo da comunidade conversa sobre transporte, caminho e trânsito."
               },
               {
                 "id": "o2",
-                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
               },
               {
                 "id": "o3",
-                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
               },
               {
                 "id": "o4",
-                "text": "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
+                "text": "Depois, o grupo resume as ideias mais importantes."
               }
             ]
           }
         ]
-      },
-      "mainTranscript": "Hoje, em uma conversa sobre Cidade e mobilidade, três colegas contam uma história que aconteceu em um grupo de usuários de ônibus em São Paulo. A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda. Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes. A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.\n\nUma das participantes explicou que as palavras «Aprendemos: transporte.», «Aprendemos: caminho.» e «Aprendemos: trânsito.» ajudaram o grupo a organizar as ideias. Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte. Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar. Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.\n\nNo encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta. Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos. Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.",
-      "transcriptSegments": [
-        {
-          "id": "segment-01",
-          "order": 1,
-          "text": "Hoje, em uma conversa sobre Cidade e mobilidade, três colegas contam uma história que aconteceu em um grupo de usuários de ônibus em São Paulo."
-        },
-        {
-          "id": "segment-02",
-          "order": 2,
-          "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
-        },
-        {
-          "id": "segment-03",
-          "order": 3,
-          "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
-        },
-        {
-          "id": "segment-04",
-          "order": 4,
-          "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
-        },
-        {
-          "id": "segment-05",
-          "order": 5,
-          "text": "Uma das participantes explicou que as palavras «Aprendemos: transporte.», «Aprendemos: caminho.» e «Aprendemos: trânsito.» ajudaram o grupo a organizar as ideias."
-        },
-        {
-          "id": "segment-06",
-          "order": 6,
-          "text": "Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte."
-        },
-        {
-          "id": "segment-07",
-          "order": 7,
-          "text": "Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar."
-        },
-        {
-          "id": "segment-08",
-          "order": 8,
-          "text": "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias."
-        },
-        {
-          "id": "segment-09",
-          "order": 9,
-          "text": "No encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta."
-        },
-        {
-          "id": "segment-10",
-          "order": 10,
-          "text": "Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos."
-        },
-        {
-          "id": "segment-11",
-          "order": 11,
-          "text": "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
-        }
-      ],
-      "audioProduction": {
-        "status": "script-ready",
-        "language": "portuguese",
-        "level": "B1",
-        "voice": "native narrator",
-        "normalSpeed": true,
-        "slowSpeed": true
       },
       "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Cidade e mobilidade: palavras”? “Hoje em uma conversa sobre Cidade e…”",
+        "prompt": "Qual afirmação completa este momento do áudio “Cidade e mobilidade: palavras”? “No tema Cidade e mobilidade um…”",
         "options": [
-          "Hoje, em uma conversa sobre Cidade e mobilidade, três colegas contam uma história que aconteceu em um grupo de usuários de ônibus em São Paulo.",
-          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
-          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes.",
-          "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
+          "No tema «Cidade e mobilidade», um pequeno grupo da comunidade conversa sobre transporte, caminho e trânsito.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Cidade e mobilidade: palavras”? “A conversa não foi sempre fácil cada…”",
+        "prompt": "Qual afirmação completa este momento do áudio “Cidade e mobilidade: palavras”? “Cada pessoa conta uma experiência…”",
         "options": [
-          "Hoje, em uma conversa sobre Cidade e mobilidade, três colegas contam uma história que aconteceu em um grupo de usuários de ônibus em São Paulo.",
-          "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.",
-          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
-          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+          "No tema «Cidade e mobilidade», um pequeno grupo da comunidade conversa sobre transporte, caminho e trânsito.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Cidade e mobilidade: palavras”? “Uma senhora que mora no bairro há…”",
+        "prompt": "Qual afirmação completa este momento do áudio “Cidade e mobilidade: palavras”? “No final decidem colaborar porque…”",
         "options": [
-          "Hoje, em uma conversa sobre Cidade e mobilidade, três colegas contam uma história que aconteceu em um grupo de usuários de ônibus em São Paulo.",
-          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
-          "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.",
-          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+          "No tema «Cidade e mobilidade», um pequeno grupo da comunidade conversa sobre transporte, caminho e trânsito.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Cidade e mobilidade: palavras”? “Ao terminar os colegas concluíram que pequenos…”",
+        "prompt": "Qual afirmação completa este momento do áudio “Cidade e mobilidade: palavras”? “Depois o grupo…”",
         "options": [
-          "Hoje, em uma conversa sobre Cidade e mobilidade, três colegas contam uma história que aconteceu em um grupo de usuários de ônibus em São Paulo.",
-          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
-          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes.",
-          "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
+          "No tema «Cidade e mobilidade», um pequeno grupo da comunidade conversa sobre transporte, caminho e trânsito.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
         ]
       }
     ]
@@ -47409,13 +46815,13 @@
         ]
       },
       {
-        "id": "portuguese-a2-um-projeto-coletivo-reading-comprehension-4",
+        "id": "portuguese-a2-um-projeto-coletivo-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“_____ usam as palavras novas em pequenas situações: no café, na escola ou na rua.”",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
         "options": [
-          "usam",
-          "café",
-          "pode",
+          "Ela",
+          "diz",
+          "rua",
           "Eles"
         ]
       },
@@ -47511,9 +46917,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Futuro do subjuntivo",
-        "definition": "Conectores, opiniões e hipóteses ajudam a construir um argumento.",
+        "definition": "Práctica guiada de Futuro do subjuntivo.",
         "structure": "opinião + porque/porém/portanto + justificativa",
-        "function": "Expressar e justificar um ponto de vista.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Acho que a proposta é útil.",
           "Porém, devemos avaliar os resultados."
@@ -47987,7 +47393,7 @@
     ],
     "dialogue": [],
     "reading": null,
-    "transcript": "Hoje, em uma conversa sobre Planos para o futuro, três colegas contam uma história que aconteceu em uma comunidade brasileira. A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda. Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes. A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.\n\nUma das participantes explicou que as palavras «Aprendemos: futuro.», «Aprendemos: objetivo.» e «Aprendemos: oportunidade.» ajudaram o grupo a organizar as ideias. Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte. Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar. Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.\n\nNo encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta. Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos. Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.",
+    "transcript": "No tema «Planos para o futuro», um pequeno grupo da comunidade conversa sobre futuro, objetivo e oportunidade. Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta. No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana. Depois, o grupo resume as ideias mais importantes.",
     "extra": {
       "listeningComprehension": {
         "id": "portuguese-b1-planos-para-o-futuro-listening-listening-comprehension",
@@ -47996,204 +47402,138 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Planos para o futuro: palavras”? “Hoje em uma conversa sobre Planos para…”",
+            "prompt": "Qual afirmação completa este momento do áudio “Planos para o futuro: palavras”? “No tema Planos para o futuro…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoje, em uma conversa sobre Planos para o futuro, três colegas contam uma história que aconteceu em uma comunidade brasileira."
+                "text": "No tema «Planos para o futuro», um pequeno grupo da comunidade conversa sobre futuro, objetivo e oportunidade."
               },
               {
                 "id": "o2",
-                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
               },
               {
                 "id": "o3",
-                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
               },
               {
                 "id": "o4",
-                "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
+                "text": "Depois, o grupo resume as ideias mais importantes."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Planos para o futuro: palavras”? “A conversa não foi sempre fácil cada…”",
+            "prompt": "Qual afirmação completa este momento do áudio “Planos para o futuro: palavras”? “Cada pessoa conta uma experiência…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoje, em uma conversa sobre Planos para o futuro, três colegas contam uma história que aconteceu em uma comunidade brasileira."
+                "text": "No tema «Planos para o futuro», um pequeno grupo da comunidade conversa sobre futuro, objetivo e oportunidade."
               },
               {
                 "id": "o2",
-                "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
               },
               {
                 "id": "o3",
-                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
               },
               {
                 "id": "o4",
-                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+                "text": "Depois, o grupo resume as ideias mais importantes."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Planos para o futuro: palavras”? “Uma senhora que mora no bairro há…”",
+            "prompt": "Qual afirmação completa este momento do áudio “Planos para o futuro: palavras”? “No final decidem colaborar porque…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoje, em uma conversa sobre Planos para o futuro, três colegas contam uma história que aconteceu em uma comunidade brasileira."
+                "text": "No tema «Planos para o futuro», um pequeno grupo da comunidade conversa sobre futuro, objetivo e oportunidade."
               },
               {
                 "id": "o2",
-                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
               },
               {
                 "id": "o3",
-                "text": "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias."
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
               },
               {
                 "id": "o4",
-                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+                "text": "Depois, o grupo resume as ideias mais importantes."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Planos para o futuro: palavras”? “Ao terminar os colegas concluíram que pequenos…”",
+            "prompt": "Qual afirmação completa este momento do áudio “Planos para o futuro: palavras”? “Depois o grupo…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoje, em uma conversa sobre Planos para o futuro, três colegas contam uma história que aconteceu em uma comunidade brasileira."
+                "text": "No tema «Planos para o futuro», um pequeno grupo da comunidade conversa sobre futuro, objetivo e oportunidade."
               },
               {
                 "id": "o2",
-                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
               },
               {
                 "id": "o3",
-                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
               },
               {
                 "id": "o4",
-                "text": "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
+                "text": "Depois, o grupo resume as ideias mais importantes."
               }
             ]
           }
         ]
-      },
-      "mainTranscript": "Hoje, em uma conversa sobre Planos para o futuro, três colegas contam uma história que aconteceu em uma comunidade brasileira. A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda. Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes. A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.\n\nUma das participantes explicou que as palavras «Aprendemos: futuro.», «Aprendemos: objetivo.» e «Aprendemos: oportunidade.» ajudaram o grupo a organizar as ideias. Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte. Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar. Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.\n\nNo encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta. Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos. Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.",
-      "transcriptSegments": [
-        {
-          "id": "segment-01",
-          "order": 1,
-          "text": "Hoje, em uma conversa sobre Planos para o futuro, três colegas contam uma história que aconteceu em uma comunidade brasileira."
-        },
-        {
-          "id": "segment-02",
-          "order": 2,
-          "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
-        },
-        {
-          "id": "segment-03",
-          "order": 3,
-          "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
-        },
-        {
-          "id": "segment-04",
-          "order": 4,
-          "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
-        },
-        {
-          "id": "segment-05",
-          "order": 5,
-          "text": "Uma das participantes explicou que as palavras «Aprendemos: futuro.», «Aprendemos: objetivo.» e «Aprendemos: oportunidade.» ajudaram o grupo a organizar as ideias."
-        },
-        {
-          "id": "segment-06",
-          "order": 6,
-          "text": "Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte."
-        },
-        {
-          "id": "segment-07",
-          "order": 7,
-          "text": "Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar."
-        },
-        {
-          "id": "segment-08",
-          "order": 8,
-          "text": "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias."
-        },
-        {
-          "id": "segment-09",
-          "order": 9,
-          "text": "No encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta."
-        },
-        {
-          "id": "segment-10",
-          "order": 10,
-          "text": "Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos."
-        },
-        {
-          "id": "segment-11",
-          "order": 11,
-          "text": "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
-        }
-      ],
-      "audioProduction": {
-        "status": "script-ready",
-        "language": "portuguese",
-        "level": "B1",
-        "voice": "native narrator",
-        "normalSpeed": true,
-        "slowSpeed": true
       },
       "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Planos para o futuro: palavras”? “Hoje em uma conversa sobre Planos para…”",
+        "prompt": "Qual afirmação completa este momento do áudio “Planos para o futuro: palavras”? “No tema Planos para o futuro…”",
         "options": [
-          "Hoje, em uma conversa sobre Planos para o futuro, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
-          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
-          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes.",
-          "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
+          "No tema «Planos para o futuro», um pequeno grupo da comunidade conversa sobre futuro, objetivo e oportunidade.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Planos para o futuro: palavras”? “A conversa não foi sempre fácil cada…”",
+        "prompt": "Qual afirmação completa este momento do áudio “Planos para o futuro: palavras”? “Cada pessoa conta uma experiência…”",
         "options": [
-          "Hoje, em uma conversa sobre Planos para o futuro, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
-          "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.",
-          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
-          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+          "No tema «Planos para o futuro», um pequeno grupo da comunidade conversa sobre futuro, objetivo e oportunidade.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Planos para o futuro: palavras”? “Uma senhora que mora no bairro há…”",
+        "prompt": "Qual afirmação completa este momento do áudio “Planos para o futuro: palavras”? “No final decidem colaborar porque…”",
         "options": [
-          "Hoje, em uma conversa sobre Planos para o futuro, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
-          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
-          "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.",
-          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+          "No tema «Planos para o futuro», um pequeno grupo da comunidade conversa sobre futuro, objetivo e oportunidade.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Planos para o futuro: palavras”? “Ao terminar os colegas concluíram que pequenos…”",
+        "prompt": "Qual afirmação completa este momento do áudio “Planos para o futuro: palavras”? “Depois o grupo…”",
         "options": [
-          "Hoje, em uma conversa sobre Planos para o futuro, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
-          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
-          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes.",
-          "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
+          "No tema «Planos para o futuro», um pequeno grupo da comunidade conversa sobre futuro, objetivo e oportunidade.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
         ]
       }
     ]
@@ -52558,14 +51898,14 @@
         ]
       },
       {
-        "id": "portuguese-a2-cidade-e-ambiente-reading-comprehension-4",
+        "id": "portuguese-a2-cidade-e-ambiente-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“_____ usam as palavras novas em pequenas situações: no café, na escola ou na rua.”",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
         "options": [
-          "usar",
-          "lixo",
-          "usam",
-          "Eles"
+          "Ela",
+          "diz",
+          "rua",
+          "usar"
         ]
       },
       {
@@ -52660,9 +52000,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Relações: pronomes e discurso indireto",
-        "definition": "Conectores, opiniões e hipóteses ajudam a construir um argumento.",
+        "definition": "Práctica guiada de Relações: pronomes e discurso indireto.",
         "structure": "opinião + porque/porém/portanto + justificativa",
-        "function": "Expressar e justificar um ponto de vista.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Acho que a proposta é útil.",
           "Porém, devemos avaliar os resultados."
@@ -53136,7 +52476,7 @@
     ],
     "dialogue": [],
     "reading": null,
-    "transcript": "Hoje, em uma conversa sobre Relações e comunicação, três colegas contam uma história que aconteceu em uma comunidade brasileira. A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda. Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes. A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.\n\nUma das participantes explicou que as palavras «Aprendemos: relação.», «Aprendemos: escutar.» e «Aprendemos: explicar.» ajudaram o grupo a organizar as ideias. Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte. Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar. Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.\n\nNo encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta. Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos. Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.",
+    "transcript": "No tema «Relações e comunicação», um pequeno grupo da comunidade conversa sobre relação, escutar e explicar. Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta. No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana. Depois, o grupo resume as ideias mais importantes.",
     "extra": {
       "listeningComprehension": {
         "id": "portuguese-b1-relacoes-e-comunicacao-listening-listening-comprehension",
@@ -53145,204 +52485,138 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Relações e comunicação: palavras”? “Hoje em uma conversa sobre Relações e…”",
+            "prompt": "Qual afirmação completa este momento do áudio “Relações e comunicação: palavras”? “No tema Relações e comunicação um…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoje, em uma conversa sobre Relações e comunicação, três colegas contam uma história que aconteceu em uma comunidade brasileira."
+                "text": "No tema «Relações e comunicação», um pequeno grupo da comunidade conversa sobre relação, escutar e explicar."
               },
               {
                 "id": "o2",
-                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
               },
               {
                 "id": "o3",
-                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
               },
               {
                 "id": "o4",
-                "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
+                "text": "Depois, o grupo resume as ideias mais importantes."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Relações e comunicação: palavras”? “A conversa não foi sempre fácil cada…”",
+            "prompt": "Qual afirmação completa este momento do áudio “Relações e comunicação: palavras”? “Cada pessoa conta uma experiência…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoje, em uma conversa sobre Relações e comunicação, três colegas contam uma história que aconteceu em uma comunidade brasileira."
+                "text": "No tema «Relações e comunicação», um pequeno grupo da comunidade conversa sobre relação, escutar e explicar."
               },
               {
                 "id": "o2",
-                "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
               },
               {
                 "id": "o3",
-                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
               },
               {
                 "id": "o4",
-                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+                "text": "Depois, o grupo resume as ideias mais importantes."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Relações e comunicação: palavras”? “Uma senhora que mora no bairro há…”",
+            "prompt": "Qual afirmação completa este momento do áudio “Relações e comunicação: palavras”? “No final decidem colaborar porque…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoje, em uma conversa sobre Relações e comunicação, três colegas contam uma história que aconteceu em uma comunidade brasileira."
+                "text": "No tema «Relações e comunicação», um pequeno grupo da comunidade conversa sobre relação, escutar e explicar."
               },
               {
                 "id": "o2",
-                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
               },
               {
                 "id": "o3",
-                "text": "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias."
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
               },
               {
                 "id": "o4",
-                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+                "text": "Depois, o grupo resume as ideias mais importantes."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Relações e comunicação: palavras”? “Ao terminar os colegas concluíram que pequenos…”",
+            "prompt": "Qual afirmação completa este momento do áudio “Relações e comunicação: palavras”? “Depois o grupo…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoje, em uma conversa sobre Relações e comunicação, três colegas contam uma história que aconteceu em uma comunidade brasileira."
+                "text": "No tema «Relações e comunicação», um pequeno grupo da comunidade conversa sobre relação, escutar e explicar."
               },
               {
                 "id": "o2",
-                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
               },
               {
                 "id": "o3",
-                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
               },
               {
                 "id": "o4",
-                "text": "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
+                "text": "Depois, o grupo resume as ideias mais importantes."
               }
             ]
           }
         ]
-      },
-      "mainTranscript": "Hoje, em uma conversa sobre Relações e comunicação, três colegas contam uma história que aconteceu em uma comunidade brasileira. A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda. Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes. A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.\n\nUma das participantes explicou que as palavras «Aprendemos: relação.», «Aprendemos: escutar.» e «Aprendemos: explicar.» ajudaram o grupo a organizar as ideias. Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte. Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar. Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.\n\nNo encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta. Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos. Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.",
-      "transcriptSegments": [
-        {
-          "id": "segment-01",
-          "order": 1,
-          "text": "Hoje, em uma conversa sobre Relações e comunicação, três colegas contam uma história que aconteceu em uma comunidade brasileira."
-        },
-        {
-          "id": "segment-02",
-          "order": 2,
-          "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
-        },
-        {
-          "id": "segment-03",
-          "order": 3,
-          "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
-        },
-        {
-          "id": "segment-04",
-          "order": 4,
-          "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
-        },
-        {
-          "id": "segment-05",
-          "order": 5,
-          "text": "Uma das participantes explicou que as palavras «Aprendemos: relação.», «Aprendemos: escutar.» e «Aprendemos: explicar.» ajudaram o grupo a organizar as ideias."
-        },
-        {
-          "id": "segment-06",
-          "order": 6,
-          "text": "Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte."
-        },
-        {
-          "id": "segment-07",
-          "order": 7,
-          "text": "Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar."
-        },
-        {
-          "id": "segment-08",
-          "order": 8,
-          "text": "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias."
-        },
-        {
-          "id": "segment-09",
-          "order": 9,
-          "text": "No encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta."
-        },
-        {
-          "id": "segment-10",
-          "order": 10,
-          "text": "Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos."
-        },
-        {
-          "id": "segment-11",
-          "order": 11,
-          "text": "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
-        }
-      ],
-      "audioProduction": {
-        "status": "script-ready",
-        "language": "portuguese",
-        "level": "B1",
-        "voice": "native narrator",
-        "normalSpeed": true,
-        "slowSpeed": true
       },
       "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Relações e comunicação: palavras”? “Hoje em uma conversa sobre Relações e…”",
+        "prompt": "Qual afirmação completa este momento do áudio “Relações e comunicação: palavras”? “No tema Relações e comunicação um…”",
         "options": [
-          "Hoje, em uma conversa sobre Relações e comunicação, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
-          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
-          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes.",
-          "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
+          "No tema «Relações e comunicação», um pequeno grupo da comunidade conversa sobre relação, escutar e explicar.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Relações e comunicação: palavras”? “A conversa não foi sempre fácil cada…”",
+        "prompt": "Qual afirmação completa este momento do áudio “Relações e comunicação: palavras”? “Cada pessoa conta uma experiência…”",
         "options": [
-          "Hoje, em uma conversa sobre Relações e comunicação, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
-          "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.",
-          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
-          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+          "No tema «Relações e comunicação», um pequeno grupo da comunidade conversa sobre relação, escutar e explicar.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Relações e comunicação: palavras”? “Uma senhora que mora no bairro há…”",
+        "prompt": "Qual afirmação completa este momento do áudio “Relações e comunicação: palavras”? “No final decidem colaborar porque…”",
         "options": [
-          "Hoje, em uma conversa sobre Relações e comunicação, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
-          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
-          "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.",
-          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+          "No tema «Relações e comunicação», um pequeno grupo da comunidade conversa sobre relação, escutar e explicar.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Relações e comunicação: palavras”? “Ao terminar os colegas concluíram que pequenos…”",
+        "prompt": "Qual afirmação completa este momento do áudio “Relações e comunicação: palavras”? “Depois o grupo…”",
         "options": [
-          "Hoje, em uma conversa sobre Relações e comunicação, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
-          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
-          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes.",
-          "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
+          "No tema «Relações e comunicação», um pequeno grupo da comunidade conversa sobre relação, escutar e explicar.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
         ]
       }
     ]
@@ -57706,14 +56980,14 @@
         ]
       },
       {
-        "id": "portuguese-a2-contar-uma-experiencia-reading-comprehension-4",
+        "id": "portuguese-a2-contar-uma-experiencia-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“_____ usam as palavras novas em pequenas situações: no café, na escola ou na rua.”",
+        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“_____ está contente porque pode participar da conversa e quer praticar de novo amanhã com Rafael.”",
         "options": [
-          "usam",
-          "café",
-          "pode",
-          "Eles"
+          "Ela",
+          "diz",
+          "Foi",
+          "rua"
         ]
       },
       {
@@ -57808,9 +57082,9 @@
     "extra": {
       "grammarProfile": {
         "name": "Cidadania: subjuntivo e propostas",
-        "definition": "Conectores, opiniões e hipóteses ajudam a construir um argumento.",
+        "definition": "Práctica guiada de Cidadania: subjuntivo e propostas.",
         "structure": "opinião + porque/porém/portanto + justificativa",
-        "function": "Expressar e justificar um ponto de vista.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Acho que a proposta é útil.",
           "Porém, devemos avaliar os resultados."
@@ -58284,7 +57558,7 @@
     ],
     "dialogue": [],
     "reading": null,
-    "transcript": "Hoje, em uma conversa sobre Cidadania e participação, três colegas contam uma história que aconteceu em uma comunidade brasileira. A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda. Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes. A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.\n\nUma das participantes explicou que as palavras «Aprendemos: cidadania.», «Aprendemos: participar.» e «Aprendemos: direito.» ajudaram o grupo a organizar as ideias. Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte. Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar. Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.\n\nNo encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta. Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos. Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.",
+    "transcript": "No tema «Cidadania e participação», um pequeno grupo da comunidade conversa sobre cidadania, participar e direito. Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta. No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana. Depois, o grupo resume as ideias mais importantes.",
     "extra": {
       "listeningComprehension": {
         "id": "portuguese-b1-cidadania-e-participacao-listening-listening-comprehension",
@@ -58293,204 +57567,138 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Cidadania e participação: palavras”? “Hoje em uma conversa sobre Cidadania e…”",
+            "prompt": "Qual afirmação completa este momento do áudio “Cidadania e participação: palavras”? “No tema Cidadania e participação um…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoje, em uma conversa sobre Cidadania e participação, três colegas contam uma história que aconteceu em uma comunidade brasileira."
+                "text": "No tema «Cidadania e participação», um pequeno grupo da comunidade conversa sobre cidadania, participar e direito."
               },
               {
                 "id": "o2",
-                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
               },
               {
                 "id": "o3",
-                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
               },
               {
                 "id": "o4",
-                "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
+                "text": "Depois, o grupo resume as ideias mais importantes."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Cidadania e participação: palavras”? “A conversa não foi sempre fácil cada…”",
+            "prompt": "Qual afirmação completa este momento do áudio “Cidadania e participação: palavras”? “Cada pessoa conta uma experiência…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoje, em uma conversa sobre Cidadania e participação, três colegas contam uma história que aconteceu em uma comunidade brasileira."
+                "text": "No tema «Cidadania e participação», um pequeno grupo da comunidade conversa sobre cidadania, participar e direito."
               },
               {
                 "id": "o2",
-                "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
               },
               {
                 "id": "o3",
-                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
               },
               {
                 "id": "o4",
-                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+                "text": "Depois, o grupo resume as ideias mais importantes."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Cidadania e participação: palavras”? “Uma senhora que mora no bairro há…”",
+            "prompt": "Qual afirmação completa este momento do áudio “Cidadania e participação: palavras”? “No final decidem colaborar porque…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoje, em uma conversa sobre Cidadania e participação, três colegas contam uma história que aconteceu em uma comunidade brasileira."
+                "text": "No tema «Cidadania e participação», um pequeno grupo da comunidade conversa sobre cidadania, participar e direito."
               },
               {
                 "id": "o2",
-                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
               },
               {
                 "id": "o3",
-                "text": "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias."
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
               },
               {
                 "id": "o4",
-                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+                "text": "Depois, o grupo resume as ideias mais importantes."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual afirmação completa este momento do áudio “Cidadania e participação: palavras”? “Ao terminar os colegas concluíram que pequenos…”",
+            "prompt": "Qual afirmação completa este momento do áudio “Cidadania e participação: palavras”? “Depois o grupo…”",
             "options": [
               {
                 "id": "o1",
-                "text": "Hoje, em uma conversa sobre Cidadania e participação, três colegas contam uma história que aconteceu em uma comunidade brasileira."
+                "text": "No tema «Cidadania e participação», um pequeno grupo da comunidade conversa sobre cidadania, participar e direito."
               },
               {
                 "id": "o2",
-                "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
               },
               {
                 "id": "o3",
-                "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
               },
               {
                 "id": "o4",
-                "text": "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
+                "text": "Depois, o grupo resume as ideias mais importantes."
               }
             ]
           }
         ]
-      },
-      "mainTranscript": "Hoje, em uma conversa sobre Cidadania e participação, três colegas contam uma história que aconteceu em uma comunidade brasileira. A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda. Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes. A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.\n\nUma das participantes explicou que as palavras «Aprendemos: cidadania.», «Aprendemos: participar.» e «Aprendemos: direito.» ajudaram o grupo a organizar as ideias. Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte. Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar. Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.\n\nNo encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta. Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos. Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.",
-      "transcriptSegments": [
-        {
-          "id": "segment-01",
-          "order": 1,
-          "text": "Hoje, em uma conversa sobre Cidadania e participação, três colegas contam uma história que aconteceu em uma comunidade brasileira."
-        },
-        {
-          "id": "segment-02",
-          "order": 2,
-          "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
-        },
-        {
-          "id": "segment-03",
-          "order": 3,
-          "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
-        },
-        {
-          "id": "segment-04",
-          "order": 4,
-          "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
-        },
-        {
-          "id": "segment-05",
-          "order": 5,
-          "text": "Uma das participantes explicou que as palavras «Aprendemos: cidadania.», «Aprendemos: participar.» e «Aprendemos: direito.» ajudaram o grupo a organizar as ideias."
-        },
-        {
-          "id": "segment-06",
-          "order": 6,
-          "text": "Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte."
-        },
-        {
-          "id": "segment-07",
-          "order": 7,
-          "text": "Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar."
-        },
-        {
-          "id": "segment-08",
-          "order": 8,
-          "text": "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias."
-        },
-        {
-          "id": "segment-09",
-          "order": 9,
-          "text": "No encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta."
-        },
-        {
-          "id": "segment-10",
-          "order": 10,
-          "text": "Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos."
-        },
-        {
-          "id": "segment-11",
-          "order": 11,
-          "text": "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
-        }
-      ],
-      "audioProduction": {
-        "status": "script-ready",
-        "language": "portuguese",
-        "level": "B1",
-        "voice": "native narrator",
-        "normalSpeed": true,
-        "slowSpeed": true
       },
       "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Cidadania e participação: palavras”? “Hoje em uma conversa sobre Cidadania e…”",
+        "prompt": "Qual afirmação completa este momento do áudio “Cidadania e participação: palavras”? “No tema Cidadania e participação um…”",
         "options": [
-          "Hoje, em uma conversa sobre Cidadania e participação, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
-          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
-          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes.",
-          "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
+          "No tema «Cidadania e participação», um pequeno grupo da comunidade conversa sobre cidadania, participar e direito.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Cidadania e participação: palavras”? “A conversa não foi sempre fácil cada…”",
+        "prompt": "Qual afirmação completa este momento do áudio “Cidadania e participação: palavras”? “Cada pessoa conta uma experiência…”",
         "options": [
-          "Hoje, em uma conversa sobre Cidadania e participação, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
-          "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.",
-          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
-          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+          "No tema «Cidadania e participação», um pequeno grupo da comunidade conversa sobre cidadania, participar e direito.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Cidadania e participação: palavras”? “Uma senhora que mora no bairro há…”",
+        "prompt": "Qual afirmação completa este momento do áudio “Cidadania e participação: palavras”? “No final decidem colaborar porque…”",
         "options": [
-          "Hoje, em uma conversa sobre Cidadania e participação, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
-          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
-          "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.",
-          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+          "No tema «Cidadania e participação», um pequeno grupo da comunidade conversa sobre cidadania, participar e direito.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual afirmação completa este momento do áudio “Cidadania e participação: palavras”? “Ao terminar os colegas concluíram que pequenos…”",
+        "prompt": "Qual afirmação completa este momento do áudio “Cidadania e participação: palavras”? “Depois o grupo…”",
         "options": [
-          "Hoje, em uma conversa sobre Cidadania e participação, três colegas contam uma história que aconteceu em uma comunidade brasileira.",
-          "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda.",
-          "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes.",
-          "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
+          "No tema «Cidadania e participação», um pequeno grupo da comunidade conversa sobre cidadania, participar e direito.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
         ]
       }
     ]

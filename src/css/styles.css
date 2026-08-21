@@ -22899,6 +22899,20 @@ footer small {
   background: #fff;
 }
 
+/* Advanced catalogues can contain longer terms and definitions.  Keep the
+   conjugation action present but discreet, so it does not read like a full
+   card-wide CTA after every C1/C2 entry. */
+.verb-catalogue-row[data-verb-level='C1'] .verb-catalogue-conjugate,
+.verb-catalogue-row[data-verb-level='C2'] .verb-catalogue-conjugate {
+  width: fit-content;
+  min-height: 28px;
+  justify-self: end;
+  padding: 0.28rem 0.55rem;
+  border-radius: 8px;
+  background: #f7faff;
+  font-size: 0.72rem;
+}
+
 @media (max-width: 760px) {
   #verbs .verbs-toolbar {
     grid-template-columns: 1fr 1fr;
@@ -30401,7 +30415,8 @@ body {
 }
 
 .skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card-front {
-  display: block;
+  display: flex;
+  flex-direction: column;
   padding: 0.52rem 0.58rem;
 }
 
@@ -30447,7 +30462,8 @@ body {
   display: none;
 }
 .skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card-front-footer {
-  margin-top: 0.26rem;
+  margin-top: auto;
+  flex-shrink: 0;
   align-items: center;
   justify-content: space-between;
   gap: 0.35rem;
