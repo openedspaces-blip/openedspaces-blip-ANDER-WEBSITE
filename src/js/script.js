@@ -12102,66 +12102,7 @@ function getReadingTopicChoices(lesson) {
   const authored = Array.isArray(lesson.reading?.variants)
     ? lesson.reading.variants.filter((variant) => variant && (variant.text || variant.parts))
     : [];
-  if (authored.length >= 3) return authored.slice(0, 3);
-
-  // Every unit offers three readings. Older source rows contained a single
-  // continuous article, so divide its authored paragraphs into three coherent
-  // reading sections until bespoke variants are supplied by the curriculum.
-  // This preserves the original prose verbatim while making all three texts
-  // visible and selectable in the Reading activity.
-  const paragraphs = getReadingParagraphs(lesson);
-  const source =
-    paragraphs.length >= 3
-      ? paragraphs
-      : splitReadingSentences(paragraphs.join(' ')).filter(Boolean);
-  if (source.length < 3) return authored;
-  const labels = {
-    spanish: [
-      ['Lectura 1 · Contexto', 'Presenta el tema y sus ideas clave.'],
-      ['Lectura 2 · Desarrollo', 'Profundiza en los argumentos y detalles.'],
-      ['Lectura 3 · Análisis', 'Cierra con consecuencias, perspectivas o conclusión.']
-    ],
-    english: [
-      ['Reading 1 · Context', 'Introduces the topic and its key ideas.'],
-      ['Reading 2 · Development', 'Develops the arguments and details.'],
-      ['Reading 3 · Analysis', 'Concludes with implications, perspectives or a final idea.']
-    ],
-    french: [
-      ['Lecture 1 · Contexte', 'Présente le sujet et ses idées essentielles.'],
-      ['Lecture 2 · Développement', 'Approfondit les arguments et les détails.'],
-      ['Lecture 3 · Analyse', 'Conclut avec des conséquences, des perspectives ou une idée finale.']
-    ],
-    italian: [
-      ['Lettura 1 · Contesto', 'Presenta il tema e le idee chiave.'],
-      ['Lettura 2 · Sviluppo', 'Approfondisce argomenti e dettagli.'],
-      ['Lettura 3 · Analisi', 'Conclude con conseguenze, prospettive o un’idea finale.']
-    ],
-    portuguese: [
-      ['Leitura 1 · Contexto', 'Apresenta o tema e as ideias principais.'],
-      ['Leitura 2 · Desenvolvimento', 'Aprofunda os argumentos e os detalhes.'],
-      ['Leitura 3 · Análise', 'Conclui com consequências, perspetivas ou uma ideia final.']
-    ],
-    german: [
-      ['Lesetext 1 · Kontext', 'Stellt das Thema und seine Kernideen vor.'],
-      ['Lesetext 2 · Vertiefung', 'Vertieft die Argumente und Einzelheiten.'],
-      ['Lesetext 3 · Analyse', 'Schließt mit Folgen, Perspektiven oder einem Fazit.']
-    ]
-  }[learningPathState.language] || [
-    ['Reading 1 · Context', 'Introduces the topic and its key ideas.'],
-    ['Reading 2 · Development', 'Develops the arguments and details.'],
-    ['Reading 3 · Analysis', 'Concludes with implications, perspectives or a final idea.']
-  ];
-  const chunkSize = Math.ceil(source.length / 3);
-  return labels.map(([label, description], index) => {
-    const text = source.slice(index * chunkSize, (index + 1) * chunkSize).join('\n\n');
-    return {
-      id: `reading-${index + 1}`,
-      label,
-      title: `${lesson.title} · ${label}`,
-      description,
-      text
-    };
-  }).filter((variant) => variant.text);
+  return authored.slice(0, 3);
 }
 
 function getSelectedReadingTopic(lesson) {
@@ -12197,7 +12138,7 @@ function renderReadingTopicSelector(lesson) {
     <section class="reading-topic-selector no-print" aria-label="Elige un enfoque de lectura">
       <div class="reading-topic-selector-heading">
         <span>Elige una temática</span>
-        <strong>Tres lecturas de la unidad</strong>
+        <strong>Tres maneras prácticas de explorar la lección</strong>
       </div>
       <div class="reading-topic-options" role="tablist" aria-label="Temáticas de Reading">
         ${choices
