@@ -17557,6 +17557,10 @@ function collectAllGrammarTestAnswers(content, test, runtime) {
 }
 
 function getUsefulVocabularyExpressions(lesson, cards) {
+  const a1Expressions = lesson.level === 'A1' && learningPathState.language === 'english'
+    ? CURATED_ENGLISH_A1_EXPRESSIONS[String(lesson.title || '').trim().toLocaleLowerCase()]
+    : null;
+  if (a1Expressions?.length) return a1Expressions.map((text) => ({ text, explanation: '' }));
   const unitKey = lesson.unitId || lesson.unitSlug || lesson.slug;
   const relatedLessons = (learningPathState.lessons || []).filter(
     (candidate) => (candidate.unitId || candidate.unitSlug || candidate.slug) === unitKey
@@ -17655,9 +17659,36 @@ const CURATED_VOCABULARY_BANKS = {
   ]
 };
 
+// A1 must never be padded with names or isolated fragments from a reading.
+// Each remaining unit starts with its eight authored core words and adds 22
+// topic-specific words, giving learners a dependable 30-word bank.
+const CURATED_ENGLISH_A1_ADDITIONS = {
+  'feelings and countries': [['angry','enojado/a'],['excited','emocionado/a'],['scared','asustado/a'],['fine','bien'],['worried','preocupado/a'],['hungry','hambriento/a'],['thirsty','sediento/a'],['sleepy','con sueño'],['excuse','perdón'],['live','vivir'],['from','de'],['city','ciudad'],['nationality','nacionalidad'],['speak','hablar'],['language','idioma'],['people','personas'],['home','hogar'],['welcome','bienvenido/a'],['today','hoy'],['okay','está bien'],['feel','sentirse'],['different','diferente']],
+  'family members': [['parents','padres'],['son','hijo'],['daughter','hija'],['husband','esposo'],['wife','esposa'],['aunt','tía'],['uncle','tío'],['cousin','primo/a'],['baby','bebé'],['child','niño/a'],['children','niños/as'],['family','familia'],['love','amar'],['together','juntos'],['old','mayor'],['young','joven'],['people','personas'],['pet','mascota'],['dog','perro'],['cat','gato'],['photo','foto'],['meet','conocer']],
+  'school objects and subjects': [['book','libro'],['pen','bolígrafo'],['eraser','borrador'],['ruler','regla'],['backpack','mochila'],['chair','silla'],['table','mesa'],['computer','computadora'],['board','pizarra'],['English','inglés'],['math','matemáticas'],['science','ciencias'],['music','música'],['art','arte'],['lesson','lección'],['question','pregunta'],['answer','respuesta'],['write','escribir'],['read','leer'],['open','abrir'],['close','cerrar'],['listen','escuchar']],
+  'daily actions': [['brush my teeth','cepillarme los dientes'],['take a shower','darse una ducha'],['get dressed','vestirse'],['go to school','ir a la escuela'],['have lunch','almorzar'],['go home','ir a casa'],['study','estudiar'],['play','jugar'],['watch TV','ver televisión'],['go to bed','irse a dormir'],['morning','mañana'],['afternoon','tarde'],['evening','noche'],['every day','todos los días'],['usually','normalmente'],['always','siempre'],['sometimes','a veces'],['then','después'],['before','antes'],['after','después de'],['early','temprano'],['late','tarde']],
+  'days, months and time words': [['today','hoy'],['tomorrow','mañana'],['yesterday','ayer'],['Tuesday','martes'],['Wednesday','miércoles'],['Thursday','jueves'],['Friday','viernes'],['Saturday','sábado'],['Sunday','domingo'],['January','enero'],['February','febrero'],['March','marzo'],['April','abril'],['May','mayo'],['June','junio'],['July','julio'],['August','agosto'],['September','septiembre'],['October','octubre'],['November','noviembre'],['December','diciembre'],['time','hora']],
+  'food and drink words': [['bread','pan'],['milk','leche'],['coffee','café'],['tea','té'],['apple','manzana'],['banana','banana'],['egg','huevo'],['cheese','queso'],['fish','pescado'],['meat','carne'],['salad','ensalada'],['soup','sopa'],['breakfast','desayuno'],['lunch','almuerzo'],['hungry','hambriento/a'],['thirsty','sediento/a'],['want','querer'],['like','gustar'],['glass','vaso'],['cup','taza'],['bottle','botella'],['menu','menú']],
+  'rooms and furniture': [['house','casa'],['door','puerta'],['window','ventana'],['floor','piso'],['wall','pared'],['table','mesa'],['chair','silla'],['lamp','lámpara'],['TV','televisión'],['fridge','nevera'],['cooker','estufa'],['shower','ducha'],['garden','jardín'],['upstairs','arriba'],['downstairs','abajo'],['big','grande'],['small','pequeño/a'],['clean','limpio/a'],['inside','dentro'],['outside','fuera'],['there is','hay'],['where','dónde']],
+  'places in town': [['hospital','hospital'],['restaurant','restaurante'],['library','biblioteca'],['bus stop','parada de autobús'],['street','calle'],['corner','esquina'],['left','izquierda'],['right','derecha'],['near','cerca'],['far','lejos'],['next to','al lado de'],['opposite','enfrente de'],['between','entre'],['turn','girar'],['go straight','seguir recto'],['map','mapa'],['ticket','boleto'],['open','abierto'],['closed','cerrado'],['busy','ocupado'],['help','ayuda'],['where is','dónde está']],
+  'hobbies and sports': [['music','música'],['dance','bailar'],['sing','cantar'],['draw','dibujar'],['cook','cocinar'],['run','correr'],['ride a bike','montar bicicleta'],['tennis','tenis'],['volleyball','voleibol'],['game','juego'],['weekend','fin de semana'],['with friends','con amigos'],['at home','en casa'],['outside','afuera'],['fun','divertido'],['favorite','favorito/a'],['can','poder'],['want to','querer'],['often','a menudo'],['never','nunca'],['club','club'],['team','equipo']],
+  'clothes and colors': [['red','rojo'],['blue','azul'],['green','verde'],['black','negro'],['white','blanco'],['yellow','amarillo'],['jacket','chaqueta'],['skirt','falda'],['shorts','pantalones cortos'],['socks','calcetines'],['hat','sombrero'],['bag','bolso'],['wear','llevar puesto'],['try on','probarse'],['buy','comprar'],['cheap','barato'],['expensive','caro'],['small','pequeño/a'],['large','grande'],['medium','mediano'],['cash','efectivo'],['shop','tienda']],
+  'weather and travel words': [['cloudy','nublado'],['windy','ventoso'],['warm','cálido'],['cool','fresco'],['snow','nieve'],['umbrella','paraguas'],['coat','abrigo'],['beach','playa'],['mountain','montaña'],['hotel','hotel'],['airport','aeropuerto'],['plane','avión'],['train','tren'],['bus','autobús'],['suitcase','maleta'],['passport','pasaporte'],['visit','visitar'],['holiday','vacaciones'],['go','ir'],['come','venir'],['weather','clima'],['travel','viajar']]
+};
+
+const CURATED_ENGLISH_A1_EXPRESSIONS = {
+  'greeting words': ['Hello! Nice to meet you.', 'How are you today?', 'I am from the Dominican Republic.', 'Please, can you help me?', 'Thank you. You’re welcome.'],
+  'feelings and countries': ['I am happy today.', 'I am from Santo Domingo.', 'How do you feel?', 'I speak Spanish and English.', 'Welcome to my country.'],
+  'family members': ['This is my family.', 'She is my sister.', 'We live together.', 'I love my grandparents.', 'Do you have a pet?'],
+  'school objects and subjects': ['Open your book, please.', 'I have a new notebook.', 'What is your favorite subject?', 'Write the answer here.', 'Listen to the teacher.'],
+  'daily actions': ['I wake up at seven.', 'I go to school every day.', 'I have dinner at home.', 'What time do you go to bed?', 'I usually study in the evening.']
+};
+
 function getCuratedVocabularyBank(lesson) {
   const key = `${learningPathState.language || ''}|${lesson.level || learningPathState.level || ''}|${String(lesson.title || '').trim().toLocaleLowerCase()}`;
-  const entries = CURATED_VOCABULARY_BANKS[key];
+  const entries = CURATED_VOCABULARY_BANKS[key] || (lesson.level === 'A1' && learningPathState.language === 'english'
+    ? [...(lesson.vocabulary || []).map((item) => [item.word, item.translation || '', 'Tema de la lección']), ...(CURATED_ENGLISH_A1_ADDITIONS[String(lesson.title || '').trim().toLocaleLowerCase()] || [])]
+    : null);
   if (!entries) return null;
   return entries.map(([word, translation, category]) => ({
     word,
@@ -17697,6 +17728,7 @@ function buildVocabularyUnitBank(lesson) {
   lessons.forEach((candidate) => (candidate.vocabulary || []).forEach(add));
 
   const candidates = corpus.match(/[\p{L}][\p{L}'’-]{2,}/gu) || [];
+  if (['A1', 'A2'].includes(lesson.level || learningPathState.level || '')) return bank;
   const isAdvancedLevel = ['C1', 'C2'].includes(lesson.level || learningPathState.level || '');
   const minimumContextWordLength = isAdvancedLevel ? 4 : 3;
   candidates.forEach((word) => {

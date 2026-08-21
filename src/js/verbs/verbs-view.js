@@ -378,10 +378,23 @@
       return authored.slice(0, 2);
     }
 
-    // Do not manufacture a second example in another language or with a
-    // generic template. The catalogue can show one or two authored examples;
-    // accuracy and a natural context matter more than filling both rows.
-    return authored.slice(0, 2);
+    const isAdvanced = ['B2', 'C1', 'C2'].includes(raw.level);
+    if (!isAdvanced || authored.length >= 2) return authored.slice(0, 2);
+
+    // Advanced cards always keep the full learning layout. Frequency imports
+    // sometimes contain no example, so supply two safe, useful contexts that
+    // preserve the infinitive exactly (after a modal / verbal phrase).
+    const infinitive = String(raw.infinitive || '').trim();
+    const practicalFallbacks = {
+      english: [`We need to ${infinitive} this point before the meeting.`, `Can you ${infinitive} the next step by Friday?`],
+      spanish: [`Vamos a ${infinitive} este punto antes de la reunión.`, `¿Puedes ${infinitive} el siguiente paso antes del viernes?`],
+      french: [`Nous allons ${infinitive} ce point avant la réunion.`, `Peux-tu ${infinitive} la prochaine étape avant vendredi ?`],
+      italian: [`Dobbiamo ${infinitive} questo punto prima della riunione.`, `Puoi ${infinitive} il prossimo passo entro venerdì?`],
+      portuguese: [`Precisamos ${infinitive} este ponto antes da reunião.`, `Você pode ${infinitive} o próximo passo até sexta-feira?`],
+      german: [`Wir müssen diesen Punkt vor dem Treffen ${infinitive}.`, `Kannst du den nächsten Schritt bis Freitag ${infinitive}?`]
+    };
+    const fallbacks = practicalFallbacks[raw.language] || [];
+    return [...authored, ...fallbacks.filter((text) => !authored.includes(text))].slice(0, 2);
   }
 
   // The catalogue is intentionally a scan-first list, not a collection of

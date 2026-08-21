@@ -22920,19 +22920,18 @@ footer small {
   margin: 0;
 }
 
-/* B2 and above keep the same scan-friendly card language as B1: a two-column
-   grid, concise head and two examples.  Their longer terms need a discreet
-   conjugation action instead of a second card-wide band. */
+/* B2 and above use the complete practice card: practical examples first,
+   followed by a clear full-width conjugation action. */
 .verb-catalogue-row[data-verb-level='B2'] .verb-catalogue-conjugate,
 .verb-catalogue-row[data-verb-level='C1'] .verb-catalogue-conjugate,
 .verb-catalogue-row[data-verb-level='C2'] .verb-catalogue-conjugate {
-  width: fit-content;
-  min-height: 28px;
-  justify-self: end;
-  padding: 0.28rem 0.55rem;
-  border-radius: 8px;
-  background: #f7faff;
-  font-size: 0.72rem;
+  width: 100%;
+  min-height: 34px;
+  justify-self: stretch;
+  padding: 0.38rem 0.6rem;
+  border-radius: 9px;
+  background: #fff;
+  font-size: inherit;
 }
 
 @media (max-width: 760px) {
@@ -30767,6 +30766,24 @@ body {
     min-height: 38px;
     padding: 0.45rem 0.68rem;
     font-size: 0.76rem;
+  }
+}
+
+/* On wide signed-in headers, flex's default space-between leaves an overly
+   large empty corridor between the brand and the learning navigation. Keep
+   the route controls anchored just after the brand, while the account and
+   logout controls continue to reserve the far right edge. */
+@media (min-width: 1541px) {
+  .navbar:has(.user-chip:not([hidden])) {
+    justify-content: flex-start;
+  }
+
+  .navbar:has(.user-chip:not([hidden])) .menu {
+    margin-right: 0;
+  }
+
+  .navbar:has(.user-chip:not([hidden])) .nav-actions {
+    margin-left: auto;
   }
 }
 
