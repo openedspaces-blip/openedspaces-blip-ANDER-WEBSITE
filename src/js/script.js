@@ -1599,6 +1599,14 @@ function isVocabularyTranslationPlaceholder(value) {
   );
 }
 
+function isGeneratedVocabularySupport(value, word = '') {
+  const match = /^english support:\s*(.+)$/i.exec(String(value || '').trim());
+  return Boolean(
+    match &&
+      match[1].trim().toLocaleLowerCase() === String(word || '').trim().toLocaleLowerCase()
+  );
+}
+
 function getAuthoredSpanishVocabGloss(item, targetLanguage) {
   if (!isVocabularyTranslationPlaceholder(item?.translation)) return '';
   const word = String(item.word || item.targetWord || '')
@@ -1612,7 +1620,12 @@ function getAuthoredSpanishVocabGloss(item, targetLanguage) {
 function resolveVocabTranslation(item, bridgeLanguage = learningPathState.bridgeLanguage) {
   const targetLanguage = item?.language || item?.targetLanguage || learningPathState.language;
   const translation = getAuthoredSpanishVocabGloss(item, targetLanguage) || item?.translation || '';
-  if (!translation || isVocabularyTranslationPlaceholder(translation)) return '';
+  if (
+    !translation ||
+    isVocabularyTranslationPlaceholder(translation) ||
+    isGeneratedVocabularySupport(translation, item?.word || item?.targetWord)
+  )
+    return '';
   return translation;
 }
 
@@ -9242,7 +9255,7 @@ const FRENCH_A1_UNIT_ARTWORK = {
   3: { emoji: '👪', label: 'familia y amistades', tone: 'rose' },
   4: { emoji: '🏫', label: 'vida en la escuela', tone: 'violet' },
   5: { emoji: '⏰', label: 'rutina diaria', tone: 'blue' },
-  6: { emoji: '📅', label: 'horas, fechas y cumpleaños', tone: 'rose' },
+  6: { emoji: '🏛️', label: 'fechas, efemérides y 14 de julio', tone: 'sun' },
   7: { emoji: '🍽️', label: 'comidas en familia', tone: 'orange' },
   8: { emoji: '🏡', label: 'casa y habitación', tone: 'mint' },
   9: { emoji: '🗺️', label: 'ciudad y orientación', tone: 'sky' },
@@ -9430,7 +9443,14 @@ const UNIT_SLUG_ARTWORK = {
     emoji: '⚖️',
     label: 'philosophie de la technologie et éthique algorithmique',
     tone: 'sky'
-  }
+  },
+  // Efemérides y tradiciones are curriculum themes, not decoration. These
+  // route labels make their place visible before the learner opens Reading.
+  'fourth-of-july': { emoji: '📅', label: 'efemérides, historia y ciudadanía', tone: 'sun' },
+  'cultura-y-tradiciones': { emoji: '🎭', label: 'tradiciones, Carnaval y memoria', tone: 'violet' },
+  'una-festa-di-quartiere': { emoji: '🎉', label: 'fiestas y ciudadanía italiana', tone: 'sun' },
+  'uma-roda-cultural': { emoji: '🥁', label: 'cultura afrobrasileña y memoria', tone: 'violet' },
+  'feste-und-traditionen': { emoji: '🏛️', label: 'fiestas, tradición e historia alemana', tone: 'sun' }
 };
 
 // Original route illustrations are generated as compact 4x3 sheets. This
@@ -12003,6 +12023,55 @@ function renderReadingIllustrationHtml(lesson) {
 // over the existing article until their bespoke variants are authored.
 const readingTopicSelections = new Map();
 
+// Cultural readings need more than an attractive title: the commemorative
+// date gives learners the historical frame that makes a festival, memory or
+// public tradition meaningful. These cards appear only beside the reading
+// that treats the event, never as detached calendar trivia.
+const READING_CULTURAL_CALENDAR = Object.freeze({
+  'english-b2-fourth-of-july-reading': {
+    date: '4 July · Independence Day',
+    title: 'Freedom, citizenship and memory',
+    text: 'The date marks the United States Declaration of Independence in 1776. Reading it critically also opens space to consider whose freedom was delayed and how civic ideals continue to be debated.'
+  },
+  'french-a1-l-heure-et-les-dates-reading': {
+    date: '14 juillet · Fête nationale française',
+    title: 'A date with a civic history',
+    text: 'The celebration recalls the storming of the Bastille in 1789. It is an opportunity to connect a public holiday with ideas of citizenship, liberty and the historical changes that shaped France.'
+  },
+  'spanish-b1-cultura-y-tradiciones-reading': {
+    date: 'Febrero y marzo · Carnaval dominicano',
+    title: 'Tradición, memoria y comunidad',
+    text: 'Carnival dates change each year, but the celebration connects local communities with masks, music and historical characters such as the Diablo Cojuelo. It is a living cultural memory, not only a spectacle.'
+  },
+  'italian-a1-una-festa-di-quartiere-reading': {
+    date: '2 giugno · Festa della Repubblica',
+    title: 'Una festa e la vita civica',
+    text: 'La Festa della Repubblica ricorda il referendum del 1946. Aiuta a collegare una celebrazione pubblica alla comunità, alla partecipazione e alla storia contemporanea dell’Italia.'
+  },
+  'portuguese-a1-uma-roda-cultural-reading': {
+    date: '20 de novembro · Dia da Consciência Negra',
+    title: 'Música, memoria e identidade',
+    text: 'No Brasil, a data convida a reconhecer as contribuições afro-brasileiras e a memória de Zumbi dos Palmares. Uma roda cultural pode ser um espaço de música, encontro e história compartilhada.'
+  },
+  'german-a2-feste-und-traditionen-reading': {
+    date: '3. Oktober · Tag der Deutschen Einheit',
+    title: 'Erinnerung und gemeinsames Leben',
+    text: 'Der Tag der Deutschen Einheit erinnert an die Wiedervereinigung Deutschlands im Jahr 1990. Er verbindet eine öffentliche Feier mit Fragen nach Geschichte, Erinnerung und Zusammenleben.'
+  }
+});
+
+function renderReadingCulturalContextHtml(lesson) {
+  const context = READING_CULTURAL_CALENDAR[lesson?.slug];
+  if (!context) return '';
+  return `
+    <aside class="reading-cultural-context no-print" aria-label="Efeméride y contexto cultural">
+      <span>EFEMÉRIDE Y CONTEXTO</span>
+      <strong>${escapeHtml(context.date)}</strong>
+      <h4>${escapeHtml(context.title)}</h4>
+      <p>${escapeHtml(context.text)}</p>
+    </aside>`;
+}
+
 function getReadingTopicChoices(lesson) {
   const authored = Array.isArray(lesson.reading?.variants)
     ? lesson.reading.variants.filter((variant) => variant && (variant.text || variant.parts))
@@ -12660,6 +12729,7 @@ function renderReadingView(section, lesson) {
   const audioPlayerHtml = renderReadingAudioPlayerHtml(audioSnapshot);
   const illustrationHtml = renderReadingIllustrationHtml(lesson);
   const editorialPreludeHtml = renderReadingEditorialPrelude(lesson);
+  const culturalContextHtml = renderReadingCulturalContextHtml(lesson);
   const durationLabel = lesson.estimatedMinutes ? `${lesson.estimatedMinutes} min · ` : '';
   // Full reading text + vocabulary word list, reused as context for both the
   // Tutor shortcuts (data-tutor-transcript/-vocabulary) and the "Traducir
@@ -12721,6 +12791,7 @@ function renderReadingView(section, lesson) {
           ${illustrationHtml}
         </div>
         ${editorialPreludeHtml}
+        ${culturalContextHtml}
         <article class="reading-text">${renderReadingParagraphsHtml(paragraphs)}</article>
         ${referencesHtml}
         <p class="reading-selection-hint reading-selection-hint--footer no-print">
@@ -16879,6 +16950,29 @@ function getVocabTargetSizeClass(targetWord = '') {
   return '';
 }
 
+function usesAdvancedVocabularyDefinition(item) {
+  return (
+    ['C1', 'C2'].includes(item.level || learningPathState.level || '') &&
+    ['english', 'french', 'spanish'].includes(item.targetLanguage)
+  );
+}
+
+function getConciseVocabularyDefinition(item) {
+  const authored = String(item.simpleDefinition || item.definition || '')
+    .replace(/\s+/g, ' ')
+    .trim();
+  if (!authored) return '';
+
+  // Some older Spanish entries stored a full lesson description as the
+  // definition. Keep its useful subject clause, not the repetitive preface.
+  const stripped = authored.replace(/^Término clave para comprender «[^»]+» y analizar\s*/i, '');
+  const firstSentence = stripped.split(/(?<=[.!?])\s+/)[0].trim();
+  const limit = 118;
+  if (firstSentence.length <= limit) return firstSentence;
+  const boundary = firstSentence.lastIndexOf(' ', limit - 1);
+  return `${firstSentence.slice(0, boundary > 52 ? boundary : limit).trim()}…`;
+}
+
 function renderVocabCardHtml(item, { canSpeak, isFrench, showL1Translation = false }) {
   const meta = VOCAB_MASTERY_META[item.masteryStatus] || VOCAB_MASTERY_META.new;
   const frenchStatusLabels = {
@@ -16921,9 +17015,11 @@ function renderVocabCardHtml(item, { canSpeak, isFrench, showL1Translation = fal
     hint: 'Tap to reveal',
     mode: 'Direct method'
   };
+  const useAdvancedDefinition = usesAdvancedVocabularyDefinition(item);
+  const conciseDefinition = useAdvancedDefinition ? getConciseVocabularyDefinition(item) : '';
   const firstContext = item.contexts[0];
   const additionalContexts = item.contexts.slice(1);
-  const catalogueExamplesHtml = item.contexts.length
+  const catalogueExamplesHtml = !useAdvancedDefinition && item.contexts.length
     ? `<ol class="vocab-card-catalogue-examples" aria-label="Ejemplos prácticos">
         ${item.contexts
           // Two practical examples preserve useful context without turning a
@@ -17034,7 +17130,11 @@ function renderVocabCardHtml(item, { canSpeak, isFrench, showL1Translation = fal
                 ? `<div class="vocab-card-pronunciation"><p class="vocab-card-phonetic">${escapeHtml(item.phonetic)}</p></div>`
                 : ''
             }
-            ${item.learningMode === 'direct' && (item.simpleDefinition || item.definition) ? `<p class="vocab-card-catalogue-definition">${escapeHtml(item.simpleDefinition || item.definition)}</p>` : ''}
+            ${
+              conciseDefinition || (item.learningMode === 'direct' && (item.simpleDefinition || item.definition))
+                ? `<p class="vocab-card-catalogue-definition">${escapeHtml(conciseDefinition || item.simpleDefinition || item.definition)}</p>`
+                : ''
+            }
             ${catalogueExamplesHtml}
           </div>
           <div class="vocab-card-front-footer">
@@ -17084,16 +17184,17 @@ async function loadMissingAdvancedVocabTranslations(cards, lessonSlug = '') {
   const missing = cards.filter(
     (card) =>
       !card.l1Translation &&
-      (card.isAdvancedDirect || (card.targetLanguage === 'french' && card.level === 'C2'))
+      usesAdvancedVocabularyDefinition(card)
   );
-  if (
-    !missing.length ||
-    learningPathState.language === 'spanish' ||
-    (lessonSlug && vocabL1TranslationRequests.has(lessonSlug))
-  )
-    return false;
+  if (!missing.length || (lessonSlug && vocabL1TranslationRequests.has(lessonSlug))) return false;
   if (lessonSlug) vocabL1TranslationRequests.add(lessonSlug);
   let changed = false;
+  const translationLanguage =
+    learningPathState.bridgeLanguage && learningPathState.bridgeLanguage !== learningPathState.language
+      ? learningPathState.bridgeLanguage
+      : learningPathState.language === 'spanish'
+        ? 'english'
+        : 'spanish';
   await Promise.all(
     missing.map(async (card) => {
       try {
@@ -17102,7 +17203,7 @@ async function loadMissingAdvancedVocabTranslations(cards, lessonSlug = '') {
           {
             text: card.targetWord,
             sourceLanguage: learningPathState.language,
-            targetLanguage: 'spanish'
+            targetLanguage: translationLanguage
           },
           { auth: true }
         );
@@ -17811,10 +17912,10 @@ function renderVocabularyView(section, lesson) {
   `;
   applyVocabularyCatalogueFilters(section);
   renderSavedVocabularyShelf(content, lesson);
-  const needsFrenchC2Gloss = cards.some(
-    (card) => card.targetLanguage === 'french' && card.level === 'C2' && !card.l1Translation
+  const needsAdvancedGloss = cards.some(
+    (card) => usesAdvancedVocabularyDefinition(card) && !card.l1Translation
   );
-  if ((advancedDirect || needsFrenchC2Gloss) && cards.some((card) => !card.l1Translation)) {
+  if (needsAdvancedGloss) {
     void loadMissingAdvancedVocabTranslations(cards, lesson.slug).then((changed) => {
       if (changed && vocabTranslationLessonSlug === lesson.slug && section.isConnected) {
         renderVocabularyView(section, lesson);
@@ -27451,8 +27552,10 @@ function setupTranslator() {
     }
     // Small visual tag per suggestion kind - autocompletado has none (the
     // default/expected case), corrección ortográfica gets ✎, predicción
-    // contextual gets →, puntuación gets ·, so they stay visually distinct.
-    const typeGlyph = { spelling: '✎ ', contextual: '→ ', punctuation: '· ' };
+    // Contextual and spelling suggestions need a cue; punctuation already
+    // communicates itself. A leading dot made shortcuts such as “.” and “,”
+    // look like accidental duplicate punctuation.
+    const typeGlyph = { spelling: '✎ ', contextual: '→ ' };
     suggestionsList.innerHTML = items
       .map(
         (item, index) => `
@@ -28311,7 +28414,7 @@ function setupCorrector(idPrefix = 'corrector') {
       hideSuggestions();
       return;
     }
-    const typeGlyph = { spelling: '✎ ', contextual: '→ ', punctuation: '· ' };
+    const typeGlyph = { spelling: '✎ ', contextual: '→ ' };
     suggestionsList.innerHTML = items
       .map(
         (item, index) => `
