@@ -30595,6 +30595,91 @@ body {
   font-size: 0.48rem;
 }
 
+/* C2 uses a clear three-step hierarchy: term, translation and concise
+   definition. The card remains compact but no longer resembles a dense
+   list of examples. */
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card[data-vocab-level='C2'] {
+  position: relative;
+  overflow: hidden;
+  border-color: #c6dafe;
+  background: linear-gradient(145deg, #ffffff 0%, #f8fbff 100%);
+  box-shadow: 0 10px 24px rgba(37, 99, 235, 0.1);
+}
+
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card[data-vocab-level='C2']::before {
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 4px;
+  background: linear-gradient(180deg, #2563eb, #06b6d4);
+  content: '';
+}
+
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card[data-vocab-level='C2'] .vocab-card-front {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  padding: 0.68rem 0.78rem 0.58rem 0.92rem;
+}
+
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card[data-vocab-level='C2'] .vocab-card-level-badge {
+  min-width: 2.35rem;
+  min-height: 1.3rem;
+  margin-left: auto;
+  background: #dbeafe;
+  font-size: 0.62rem;
+}
+
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card[data-vocab-level='C2'] .vocab-card-word-block {
+  flex: 1;
+  padding-top: 0.12rem;
+}
+
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card[data-vocab-level='C2'] .vocab-card-target {
+  color: #10213f;
+  font-size: 1.08rem;
+  font-weight: 900;
+  letter-spacing: -0.025em;
+}
+
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card[data-vocab-level='C2'] .vocab-card-front-support {
+  width: fit-content;
+  max-width: 100%;
+  margin-top: 0.3rem;
+  padding: 0.18rem 0.45rem;
+  border-radius: 999px;
+  background: #eaf2ff;
+  color: #1d4ed8;
+  font-size: 0.66rem;
+  font-weight: 850;
+}
+
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card[data-vocab-level='C2'] .vocab-card-catalogue-definition {
+  display: -webkit-box;
+  overflow: hidden;
+  margin-top: 0.46rem;
+  padding: 0.42rem 0.48rem;
+  border-left: 2px solid #60a5fa;
+  border-radius: 0 7px 7px 0;
+  background: rgba(239, 246, 255, 0.76);
+  color: #334155;
+  font-size: 0.61rem;
+  line-height: 1.24;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card[data-vocab-level='C2'] .vocab-card-front-footer {
+  margin-top: 0.38rem;
+  padding-top: 0.38rem;
+}
+
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card[data-vocab-level='C2'] .vocab-card-catalogue-actions button {
+  height: 24px;
+  min-height: 24px;
+  padding-inline: 0.46rem;
+  border-radius: 8px;
+}
+
 @media (max-width: 1180px) {
   .skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck {
     grid-template-columns: repeat(2, minmax(0, 1fr));
