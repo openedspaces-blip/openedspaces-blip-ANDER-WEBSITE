@@ -132,8 +132,12 @@ function grammarPrompt(language, level, words) {
 }
 
 function italianB1FinalTest(unit, grammarName) {
-  const [slug, title, objective, vocabularyLine] = unit;
-  const words = vocabularyLine.split(', ').map((word) => word.trim()).filter(Boolean);
+  const slug = unit.slug;
+  const title = unit.title;
+  const objective = unit.description || unit.title_es || '';
+  const words = Array.isArray(unit.unit_overview?.vocabulary)
+    ? unit.unit_overview.vocabulary.map((word) => String(word).trim()).filter(Boolean)
+    : [];
   const optionIds = ['a', 'b', 'c', 'd'];
   const question = (section, number, prompt, correct, distractors, difficulty) => {
     const answer = (number - 1) % 4;
