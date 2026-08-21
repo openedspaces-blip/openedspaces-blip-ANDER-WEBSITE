@@ -104,6 +104,91 @@
     existingSpanish.add(infinitive);
   }
   data.english = (data.english || []).concat(addEnglish).slice(0, 1200);
+  // C2 is a precision band, not simply the last hundred items in a frequency
+  // list. The former rank-only cut-off put everyday actions such as “heal”,
+  // “scratch” and “chat” beside genuinely advanced verbs. Keep those in C1
+  // and reserve C2 for verbs normally needed in academic, professional and
+  // nuanced argumentative discourse.
+  const englishC2PrecisionVerbs = new Set([
+    'abolish', 'absorb', 'accomplish', 'acknowledge', 'acquire', 'advocate',
+    'allocate', 'amend', 'analyse', 'anticipate', 'assess', 'assure',
+    'clarify', 'classify', 'collapse', 'compile', 'conceal', 'compel',
+    'compensate', 'consolidate', 'confront', 'conserve', 'convey', 'cooperate',
+    'criticise', 'cultivate', 'dedicate', 'demonstrate', 'derive', 'devote',
+    'diagnose', 'dismiss', 'distribute', 'dominate', 'eliminate', 'emphasise',
+    'embark', 'enhance', 'entail', 'establish', 'estimate', 'evaluate',
+    'evolve', 'exceed', 'exclude', 'execute', 'facilitate', 'flourish',
+    'foster', 'fulfil', 'generate', 'govern', 'guarantee', 'highlight',
+    'illustrate', 'implement', 'imply', 'impose', 'incorporate', 'induce',
+    'initiate', 'inquire', 'inspire', 'integrate', 'interpret', 'intervene',
+    'investigate', 'isolate', 'justify', 'maintain', 'manufacture', 'minimise',
+    'modify', 'monitor', 'motivate', 'negotiate', 'obscure', 'obtain',
+    'overcome', 'perceive', 'persuade', 'predict', 'presume', 'prevail',
+    'prohibit', 'propose', 'pursue', 'quantify', 'regulate', 'reinforce',
+    'reproduce', 'resolve', 'reveal', 'specify', 'stimulate', 'submit',
+    'sustain', 'transform', 'trigger', 'undergo', 'undertake', 'utilise',
+    'warrant', 'withdraw'
+  ]);
+  const englishC2Translations = {
+    maintain: 'mantener', establish: 'establecer', obtain: 'obtener', assess: 'evaluar',
+    reveal: 'revelar', overcome: 'superar', demonstrate: 'demostrar', persuade: 'persuadir',
+    investigate: 'investigar', justify: 'justificar', acquire: 'adquirir', generate: 'generar',
+    pursue: 'perseguir', impose: 'imponer', undertake: 'emprender', illustrate: 'ilustrar',
+    withdraw: 'retirar', implement: 'implementar', resolve: 'resolver', imply: 'implicar',
+    acknowledge: 'reconocer', guarantee: 'garantizar', enhance: 'mejorar', monitor: 'supervisar',
+    propose: 'proponer', predict: 'predecir', exclude: 'excluir', interpret: 'interpretar',
+    negotiate: 'negociar', analyse: 'analizar', specify: 'especificar', sustain: 'sostener',
+    submit: 'presentar', fulfil: 'cumplir', convey: 'transmitir', incorporate: 'incorporar',
+    eliminate: 'eliminar', evaluate: 'evaluar', exceed: 'superar', stimulate: 'estimular',
+    facilitate: 'facilitar', dominate: 'dominar', intervene: 'intervenir', emphasise: 'enfatizar',
+    estimate: 'estimar', assure: 'asegurar', derive: 'derivar', clarify: 'aclarar',
+    reinforce: 'reforzar', transform: 'transformar', perceive: 'percibir', compensate: 'compensar',
+    dismiss: 'descartar', highlight: 'destacar', absorb: 'absorber', integrate: 'integrar',
+    modify: 'modificar', anticipate: 'anticipar', confront: 'afrontar', conceal: 'ocultar',
+    regulate: 'regular', induce: 'inducir', reproduce: 'reproducir', undergo: 'someterse a',
+    distribute: 'distribuir', minimise: 'minimizar', devote: 'dedicar', govern: 'gobernar',
+    abolish: 'abolir', initiate: 'iniciar', presume: 'presumir', evolve: 'evolucionar',
+    foster: 'fomentar', allocate: 'asignar', prevail: 'prevalecer', collapse: 'colapsar',
+    flourish: 'prosperar', criticise: 'criticar', inspire: 'inspirar', amend: 'enmendar',
+    embark: 'embarcarse', entail: 'implicar', execute: 'ejecutar', consolidate: 'consolidar',
+    isolate: 'aislar', warrant: 'justificar', manufacture: 'fabricar', obscure: 'oscurecer',
+    classify: 'clasificar', accomplish: 'lograr', advocate: 'defender', compel: 'obligar',
+    compile: 'compilar', conserve: 'conservar', cooperate: 'cooperar', cultivate: 'cultivar',
+    dedicate: 'dedicar', diagnose: 'diagnosticar', inquire: 'indagar', motivate: 'motivar',
+    prohibit: 'prohibir', quantify: 'cuantificar', trigger: 'desencadenar', utilise: 'utilizar'
+  };
+  // Corrections for common verbs that landed in a higher band only because
+  // their source rank was late. These are taught earlier in the route, while
+  // the remaining C1 bank retains specialised and stylistically marked use.
+  const englishLevelCorrections = {
+    catch: 'A2', choose: 'A2', explain: 'A2', remember: 'A2', sell: 'A2', break: 'A2',
+    boil: 'A2', colour: 'A2', pin: 'A2', march: 'A2', desire: 'A2', suck: 'A2',
+    picture: 'A2', crash: 'A2', plug: 'A2', trap: 'A2', decorate: 'A2', tick: 'A2',
+    dip: 'A2', row: 'A2', twist: 'A2', spill: 'A2', wave: 'A2', bounce: 'A2',
+    shine: 'B1', unite: 'B1', import: 'B1', spring: 'B1', rebuild: 'B1',
+    praise: 'B1', track: 'B1', interview: 'B1', price: 'B1', depart: 'B1',
+    bury: 'B1', interrupt: 'B1', edit: 'B1', heal: 'B1', cash: 'B1', round: 'B1',
+    signal: 'B1', level: 'B1', board: 'B1', invent: 'B1', seal: 'B1',
+    transport: 'B1', assign: 'B1', campaign: 'B1', surround: 'B1', debate: 'B1',
+    upgrade: 'B1', profit: 'B1', file: 'B1', contrast: 'B1', chuck: 'B1',
+    subscribe: 'B1', educate: 'B1', divorce: 'B1', spin: 'B1', creep: 'B1',
+    interest: 'B1', blend: 'B1', revise: 'B1', explode: 'B1', drown: 'B1',
+    strip: 'B1', grade: 'B1', value: 'B1', soften: 'B1', postpone: 'B1',
+    position: 'B1', insure: 'B1', master: 'B2', terminate: 'B2', weaken: 'B2',
+    widen: 'B2', resource: 'B2', inherit: 'B2', disrupt: 'B2', overlook: 'B2',
+    mature: 'B2', attribute: 'B2', dwell: 'B2', award: 'B2', notify: 'B2',
+    instruct: 'B2', strain: 'B2', comprehend: 'B2', stock: 'B2', cling: 'B2',
+    summon: 'B2', flee: 'B2', tighten: 'B2', disguise: 'B2', elect: 'B2',
+    divert: 'B2', park: 'A1', chat: 'A1', scratch: 'A1', pause: 'A1', empty: 'A1'
+  };
+  data.english.forEach((verb) => {
+    if (verb.level === 'C2') verb.level = 'C1';
+    if (englishLevelCorrections[verb.infinitive]) verb.level = englishLevelCorrections[verb.infinitive];
+    if (englishC2PrecisionVerbs.has(verb.infinitive)) {
+      verb.level = 'C2';
+      verb.translation = { ...verb.translation, spanish: englishC2Translations[verb.infinitive] };
+    }
+  });
   const insure = data.english.find((verb) => verb.infinitive === 'insure');
   if (insure) {
     insure.regular = true;

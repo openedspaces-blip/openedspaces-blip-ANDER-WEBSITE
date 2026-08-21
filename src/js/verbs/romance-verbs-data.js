@@ -1505,6 +1505,79 @@
   }
   window.ANDERGO_VERBS_DATA=window.ANDERGO_VERBS_DATA||{};
   window.ANDERGO_VERBS_DATA.french=FR_ALL.map(buildFrench);
+  // CEFR placement cannot be a pure frequency cut-off. The final source band
+  // included everyday verbs such as « téléphoner », « flotter » and
+  // « désirer » in C2. Keep them in the earlier route and make C2 a focused
+  // bank for precise academic, institutional and argumentative use.
+  const FRENCH_C2_PRECISION_VERBS = new Set([
+    'abroger','abolir','accentuer','aggraver','analyser','anticiper',
+    'apprécier','argumenter','attribuer','clarifier','consolider','constater',
+    'constituer','contraindre','contester','contribuer','convaincre','débattre',
+    'déclencher','déduire','définir','déléguer','démontrer','dénoncer','développer',
+    'diagnostiquer','différencier','diffuser','dissuader','divulguer','écarter',
+    'élaborer','élargir','émerger','encourager','endosser','engager','enrichir',
+    'envisager','établir','étayer','évaluer','évoquer','examiner','exclure',
+    'exécuter','exercer','expliciter','exploiter','exprimer','faciliter','favoriser',
+    'financer','formuler','générer','garantir','gouverner','illustrer','impliquer',
+    'imposer','inciter','inclure','incorporer','indemniser','induire','initier',
+    'intégrer','interpréter','intervenir','invoquer','justifier','maîtriser','minimiser',
+    'mobiliser','modifier','négocier','nuancer','objecter','obtenir','percevoir',
+    'persuader','préserver','présider','prévoir','privilégier','promouvoir','proposer',
+    'poursuivre','prévenir','procéder','proclamer','quantifier','réaffirmer','réduire',
+    'réguler','renforcer','renoncer','restituer','restructurer','résumer','révéler',
+    'réviser','sceller','solliciter','soumettre','souligner','structurer','suggérer',
+    'susciter','soutenir','synthétiser','transmettre','valoriser','vérifier'
+  ]);
+  const FRENCH_C2_TRANSLATIONS = {
+    obtenir:'obtener', renforcer:'reforzar', établir:'establecer', promouvoir:'promover',
+    réduire:'reducir', examiner:'examinar', garantir:'garantizar', modifier:'modificar',
+    évaluer:'evaluar', faciliter:'facilitar', soutenir:'sostener', poursuivre:'perseguir',
+    développer:'desarrollar', élaborer:'elaborar', encourager:'fomentar', définir:'definir',
+    prévenir:'prevenir', favoriser:'favorecer', vérifier:'verificar', transmettre:'transmitir',
+    intégrer:'integrar', inclure:'incluir', exercer:'ejercer', proposer:'proponer',
+    engager:'comprometer', souligner:'subrayar', financer:'financiar', envisager:'contemplar',
+    exprimer:'expresar', analyser:'analizar', prévoir:'prever', exécuter:'ejecutar',
+    générer:'generar', constituer:'constituir', préserver:'preservar', soumettre:'someter',
+    intervenir:'intervenir', imposer:'imponer', contribuer:'contribuir', élargir:'ampliar',
+    diffuser:'difundir', exploiter:'explotar', justifier:'justificar', constater:'constatar',
+    démontrer:'demostrar', formuler:'formular', négocier:'negociar', convaincre:'convencer',
+    procéder:'proceder', apprécier:'apreciar', mobiliser:'movilizar', inciter:'incitar',
+    consolider:'consolidar', débattre:'debatir', attribuer:'atribuir', exclure:'excluir',
+    réviser:'revisar', clarifier:'aclarar', susciter:'suscitar', incorporer:'incorporar',
+    réguler:'regular', impliquer:'implicar', maîtriser:'dominar', interpréter:'interpretar',
+    minimiser:'minimizar', solliciter:'solicitar', révéler:'revelar', déclencher:'desencadenar',
+    dénoncer:'denunciar', évoquer:'evocar', réaffirmer:'reafirmar', invoquer:'invocar',
+    enrichir:'enriquecer', induire:'inducir', déduire:'deducir', privilégier:'privilegiar',
+    percevoir:'percibir', écarter:'descartar', illustrer:'ilustrar', suggérer:'sugerir',
+    contester:'impugnar', étayer:'fundamentar', divulguer:'divulgar', aggraver:'agravar',
+    abolir:'abolir', diagnostiquer:'diagnosticar', quantifier:'cuantificar', résumer:'resumir',
+    renoncer:'renunciar', anticiper:'anticipar', valoriser:'valorizar', dissuader:'disuadir',
+    gouverner:'gobernar', persuader:'persuadir', initier:'iniciar', contraindre:'obligar',
+    différencier:'diferenciar', restructurer:'reestructurar', indemniser:'indemnizar',
+    présider:'presidir', abroger:'derogar', accentuer:'acentuar', structurer:'estructurar',
+    sceller:'sellar', restituer:'restituir', déléguer:'delegar', proclamer:'proclamar'
+  };
+  const FRENCH_LEVEL_CORRECTIONS = {
+    'équilibrer':'B1','pêcher':'A2','calmer':'A2','dessiner':'A2','cuisiner':'A2',
+    'nager':'A2','lâcher':'B1','deviner':'B1','déménager':'A2','sourire':'A1',
+    'mélanger':'A2','frapper':'A2','danser':'A1','chauffer':'A2','baisser':'A2',
+    'raconter':'A2','réviser':'B1','réunir':'B1','célébrer':'A2','pratiquer':'B1',
+    'apaiser':'B2','échouer':'B1','fréquenter':'B1','dialoguer':'B1','obéir':'A2',
+    'embarquer':'B1','énumérer':'B2','balayer':'A2','promener':'A2','gonfler':'A2',
+    'crever':'B1','trahir':'B2','effrayer':'A2','coucher':'A2','croiser':'A2',
+    'désirer':'A2','encadrer':'B1','exagérer':'B1','exister':'A2','fixer':'A2',
+    'flotter':'B1','hésiter':'B1','instruire':'B2','oser':'B1','plonger':'A2',
+    'situer':'B1','songer':'B1','tarder':'B1','téléphoner':'A1','tirer':'A2',
+    'traduire':'B1'
+  };
+  window.ANDERGO_VERBS_DATA.french.forEach((verb) => {
+    if (verb.level === 'C2') verb.level = 'C1';
+    if (FRENCH_LEVEL_CORRECTIONS[verb.infinitive]) verb.level = FRENCH_LEVEL_CORRECTIONS[verb.infinitive];
+    if (FRENCH_C2_PRECISION_VERBS.has(verb.infinitive)) {
+      verb.level = 'C2';
+      verb.translation = { ...verb.translation, spanish: FRENCH_C2_TRANSLATIONS[verb.infinitive] };
+    }
+  });
   window.ANDERGO_VERBS_DATA.spanish=ES.map(buildSpanish);
   window.AndergoVerbConjugations=window.AndergoVerbConjugations||{};
   window.AndergoVerbConjugations.french=engines.french;

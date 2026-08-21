@@ -16,4 +16,34 @@
       .map((verb, index) => ({ ...verb, rank: curated.length + index + 1 }));
     data[language] = [...curated, ...additions];
   });
+
+  // A frequency tail is not a CEFR curriculum. Rebuild the C2 bands around
+  // precise institutional, academic and argumentative verbs, then send the
+  // everyday tail entries back to C1 or below.
+  const precisionBands = {
+    italian: new Set(['accumulare','acquisire','adeguare','aggravare','analizzare','anticipare','articolare','attestare','attribuire','classificare','consolidare','contestare','contribuire','coordinare','decretare','dedurre','delegare','delineare','dimostrare','disporre','distinguere','divulgare','elaborare','emettere','enfatizzare','escludere','eseguire','esercitare','esplicitare','estendere','formulare','garantire','gestire','implicare','imporre','individuare','influenzare','integrare','interpretare','intervenire','istituire','monitorare','negoziare','perseguire','presupporre','prevenire','promuovere','quantificare','regolare','rilevare','ristrutturare','salvaguardare','sancire','sintetizzare','sottolineare','specificare','stabilire','strutturare','sostenere','suscitare','tutelare','verificare','vincolare']),
+    portuguese: new Set(['abolir','aprofundar','agravar','analisar','antecipar','argumentar','assegurar','atribuir','avaliar','consolidar','constituir','contribuir','coordenar','demonstrar','denunciar','desenvolver','determinar','diferenciar','difundir','elaborar','enfatizar','estabelecer','estimar','evidenciar','excluir','executar','exercer','explorar','facilitar','favorecer','formular','fundamentar','gerar','garantir','governar','identificar','implementar','implicar','impor','incluir','incorporar','induzir','influenciar','integrar','interpretar','intervir','investigar','justificar','limitar','manter','modificar','monitorar','negociar','obter','perceber','prever','promover','propor','prosseguir','quantificar','reafirmar','reduzir','regular','reforçar','restringir','resumir','revelar','sustentar','transmitir','utilizar','validar','verificar','viabilizar']),
+    german: new Set(['abschätzen','ableiten','abwägen','anerkennen','anordnen','anpassen','anstreben','ausarbeiten','auswerten','beitragen','begründen','behaupten','beschleunigen','beschränken','beschreiben','bestätigen','bewerten','beweisen','beziehen','darstellen','definieren','deuten','differenzieren','durchführen','einbeziehen','einfordern','einschätzen','entlasten','entwickeln','ermitteln','erörtern','etablieren','fördern','gewährleisten','gestalten','hervorheben','hinterfragen','implementieren','beeinflussen','integrieren','interpretieren','untersuchen','übermitteln','überwinden','rechtfertigen','regulieren','berücksichtigen','verfügen','veranlassen','veranschaulichen','verfeinern','verhandeln','verhindern','verifizieren','verknüpfen','verlagern','vermitteln','voraussetzen','widerlegen','widersprechen','zusammenfassen'])
+  };
+  const levelCorrections = {
+    italian: { riscrivere:'B1', sorvegliare:'B2', inaugurare:'B2', infastidire:'B1', rifugiare:'B1', sfiorare:'B1', cavalcare:'B1', raddoppiare:'B1', ridire:'A2', sedurre:'B2', vigilare:'B2', appassionare:'B1', twittare:'A2', lodare:'B1', piantare:'A2', sudare:'A2', masticare:'A2' },
+    portuguese: { ferver:'B1', pairar:'B2', acenar:'A2', chefiar:'B1', navegar:'A2', cansar:'A2', improvisar:'B1', fotografar:'A2', estacionar:'A2', coçar:'A1', florescer:'B1' },
+    german: { lecken:'A2', vögeln:'B2', basteln:'A2', heulen:'A2', klettern:'A2', reparieren:'A2', füttern:'A2', gratulieren:'A2', herkommen:'A2', kapieren:'A2', kontaktieren:'B1', leihen:'A2', platzen:'B1', wegnehmen:'A2', flirten:'A2', klatschen:'A2', klopfen:'A1', marschieren:'A2', schweben:'B1', zugreifen:'B1', anzünden:'A2', anschreiben:'B1', beschützen:'A2', einbrechen:'B1' }
+  };
+  const portugueseC2Translations = {
+    manter:'mantener', incluir:'incluir', constituir:'constituir', obter:'obtener', desenvolver:'desarrollar', utilizar:'utilizar', estabelecer:'establecer', perceber:'percibir', garantir:'garantizar', revelar:'revelar', prever:'prever', determinar:'determinar', reduzir:'reducir', verificar:'verificar', gerar:'generar', promover:'promover', integrar:'integrar', propor:'proponer', atribuir:'atribuir', exercer:'ejercer', analisar:'analizar', demonstrar:'demostrar', contribuir:'contribuir', identificar:'identificar', limitar:'limitar', assegurar:'asegurar', avaliar:'evaluar', justificar:'justificar', impor:'imponer', transmitir:'transmitir', prosseguir:'proseguir', executar:'ejecutar', influenciar:'influir', sustentar:'sostener', estimar:'estimar', negociar:'negociar', explorar:'explorar', facilitar:'facilitar', interpretar:'interpretar', reforçar:'reforzar', implicar:'implicar', denunciar:'denunciar', investigar:'investigar', governar:'gobernar', modificar:'modificar', argumentar:'argumentar', regular:'regular', antecipar:'anticipar', intervir:'intervenir', incorporar:'incorporar', excluir:'excluir', elaborar:'elaborar', resumir:'resumir', formular:'formular', favorecer:'favorecer', coordenar:'coordinar', agravar:'agravar', consolidar:'consolidar', induzir:'inducir', evidenciar:'evidenciar', restringir:'restringir', reafirmar:'reafirmar', aprofundar:'profundizar', enfatizar:'enfatizar', diferenciar:'diferenciar', implementar:'implementar', viabilizar:'hacer viable'
+  };
+  Object.entries(precisionBands).forEach(([language, verbs]) => {
+    (data[language] || []).forEach((verb) => {
+      if (verb.level === 'C2') verb.level = 'C1';
+      if (levelCorrections[language]?.[verb.infinitive]) verb.level = levelCorrections[language][verb.infinitive];
+      if (verbs.has(verb.infinitive)) {
+        verb.level = 'C2';
+        if (language === 'portuguese') {
+          verb.translation = { ...verb.translation, spanish: portugueseC2Translations[verb.infinitive] };
+          verb.directDefinition = { ...verb.directDefinition, portuguese: portugueseC2Translations[verb.infinitive] };
+        }
+      }
+    });
+  });
 })();
