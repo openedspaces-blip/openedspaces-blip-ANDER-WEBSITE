@@ -30620,6 +30620,87 @@ body {
   font-size: 0.48rem;
 }
 
+/* Signed-in header: on ordinary laptop and desktop widths the member menu
+   has nine primary destinations plus the account chip.  Keep everything on
+   one calm, readable line instead of letting the account label run outside
+   the viewport.  The full label remains available through the chip title. */
+@media (min-width: 1025px) and (max-width: 1540px) {
+  .navbar:has(.user-chip:not([hidden])) {
+    min-height: 70px;
+    gap: 0.65rem;
+    padding-inline: clamp(1.25rem, 2.5vw, 2.5rem);
+  }
+
+  .navbar:has(.user-chip:not([hidden])) .brand {
+    gap: 0.55rem;
+  }
+
+  .navbar:has(.user-chip:not([hidden])) .brand-logo-symbol {
+    width: 46px;
+    height: 46px;
+    border-radius: 14px;
+  }
+
+  .navbar:has(.user-chip:not([hidden])) .brand-heading {
+    font-size: 0.88rem;
+  }
+
+  .navbar:has(.user-chip:not([hidden])) .brand-name > p {
+    display: none;
+  }
+
+  .navbar:has(.user-chip:not([hidden])) .menu {
+    min-width: 0;
+    gap: 0.08rem;
+    padding: 0.22rem;
+    font-size: clamp(0.76rem, 0.83vw, 0.84rem);
+  }
+
+  .navbar:has(.user-chip:not([hidden])) .menu a,
+  .navbar:has(.user-chip:not([hidden])) .nav-more summary {
+    min-height: 36px;
+    padding: 0.45rem clamp(0.42rem, 0.58vw, 0.66rem);
+  }
+
+  .navbar:has(.user-chip:not([hidden])) .menu .nav-learn-cta {
+    padding: 0.42rem clamp(0.58rem, 0.72vw, 0.78rem);
+  }
+
+  .navbar:has(.user-chip:not([hidden])) .nav-actions {
+    min-width: 0;
+    gap: 0.45rem;
+  }
+
+  .navbar:has(.user-chip:not([hidden])) .user-chip {
+    min-width: 0;
+    max-width: clamp(9.5rem, 13vw, 11.5rem);
+    min-height: 38px;
+    padding: 0.48rem 0.7rem;
+    font-size: 0.74rem;
+  }
+
+  .navbar:has(.user-chip:not([hidden])) .user-chip-greeting {
+    display: none;
+  }
+
+  .navbar:has(.user-chip:not([hidden])) .user-chip-identity {
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .navbar:has(.user-chip:not([hidden])) .user-chip-status {
+    flex: 0 0 auto;
+    font-size: 0.9em;
+  }
+
+  .navbar:has(.user-chip:not([hidden])) .logout-btn {
+    min-height: 38px;
+    padding: 0.45rem 0.68rem;
+    font-size: 0.76rem;
+  }
+}
+
 /* C2 uses a clear three-step hierarchy: term, translation and concise
    definition. The card remains compact but no longer resembles a dense
    list of examples. */

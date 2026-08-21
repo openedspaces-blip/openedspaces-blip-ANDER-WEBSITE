@@ -17598,7 +17598,7 @@ function getUsefulVocabularyExpressions(lesson, cards) {
 
 const VOCABULARY_MINIMUM_PER_UNIT = 30;
 const VOCABULARY_STOP_WORDS = new Set(
-  'the and for with from this that have has are was were you your our their into about after before every each they them then than when where which who what will would should could been being through while como para por con una uno las los del que en es son fue ser se su sus esta este estas estos al ya muy más menos entre sobre desde hacia pero porque cuando donde quien cual qué como how le la les des une un du de et est sont dans sur pour avec que qui au aux ce ces son sa ses nous vous ils elles mais ou il elle und oder aber der die das den dem ein eine einen einer eines ist sind war waren ich du wir ihr nicht noch auch im in zu vom von mit für auf aus bei als sich es man mein deine seine unsere eure italiano il lo gli della delle dei una uno non che per con del nel nella sui portugiesisch português não uma um os as dos das no na em para com como'.split(
+  'the and for with from this that have has are was were you your our their into about after before every each they them then than when where which who what will would should could been being through while during same more most much very only also just than then well still already being been does do did make makes made take takes took give gives given get gets got use uses used como para por con una uno las los del que en es son fue ser se su sus esta este estas estos al ya muy más menos entre sobre desde hacia pero porque cuando donde quien cual qué durante mismo puede pueden debe deben deja dejan sigue siguen siendo sabe saben hacer hecho tener tiene tienen usa usan utilizar como how le la les des une un du de et est sont dans sur pour avec que qui au aux ce ces son sa ses nous vous ils elles mais ou il elle pendant même peut peuvent doit doivent laisse laissent reste restent être avoir fait faire donner utiliser und oder aber der die das den dem ein eine einen einer eines ist sind war waren ich du wir ihr nicht noch auch im in zu vom von mit für auf aus bei als sich es man mein deine seine unsere eure italiano il lo gli della delle dei una uno non che per con del nel nella sui portugiesisch português não uma um os as dos das no na em para com como'.split(
     /\s+/
   )
 );
@@ -17649,10 +17649,17 @@ function buildVocabularyUnitBank(lesson) {
   const corpus = getUnitVocabularyCorpus(lessons);
   const sentences = corpus.match(/[^.!?]+[.!?]?/g) || [corpus];
   const candidates = corpus.match(/[\p{L}][\p{L}'’-]{2,}/gu) || [];
+  const isAdvancedLevel = ['C1', 'C2'].includes(lesson.level || learningPathState.level || '');
+  const minimumContextWordLength = isAdvancedLevel ? 4 : 3;
   candidates.forEach((word) => {
     if (bank.length >= VOCABULARY_MINIMUM_PER_UNIT) return;
     const key = word.toLocaleLowerCase();
-    if (VOCABULARY_STOP_WORDS.has(key) || seen.has(key)) return;
+    if (
+      word.length < minimumContextWordLength ||
+      VOCABULARY_STOP_WORDS.has(key) ||
+      seen.has(key)
+    )
+      return;
     const example = sentences.find((sentence) => sentence.toLocaleLowerCase().includes(key))?.trim() || '';
     add({
       word,
@@ -20157,12 +20164,12 @@ async function sendTutorMessage({
 const LANGUAGE_WORLD_SOURCES = Object.freeze({
   // Version the generated world so an already-open browser never keeps an
   // obsolete lesson bundle after a curriculum correction is deployed.
-  english: '/src/worlds/english/content.js?v=20260817-reading-a1-options',
-  french: '/src/worlds/french/content.js',
-  spanish: '/src/worlds/spanish/content.js',
-  italian: '/src/worlds/italian/content.js',
-  portuguese: '/src/worlds/portuguese/content.js',
-  german: '/src/worlds/german/content.js'
+  english: '/src/worlds/english/content.js?v=20260820-vocabulary-30',
+  french: '/src/worlds/french/content.js?v=20260820-vocabulary-30',
+  spanish: '/src/worlds/spanish/content.js?v=20260820-vocabulary-30',
+  italian: '/src/worlds/italian/content.js?v=20260820-vocabulary-30',
+  portuguese: '/src/worlds/portuguese/content.js?v=20260820-vocabulary-30',
+  german: '/src/worlds/german/content.js?v=20260820-vocabulary-30'
 });
 const languageWorldLoads = new Map();
 
