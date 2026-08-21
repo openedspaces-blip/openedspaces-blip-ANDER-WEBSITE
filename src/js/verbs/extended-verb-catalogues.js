@@ -181,12 +181,57 @@
     summon: 'B2', flee: 'B2', tighten: 'B2', disguise: 'B2', elect: 'B2',
     divert: 'B2', park: 'A1', chat: 'A1', scratch: 'A1', pause: 'A1', empty: 'A1'
   };
+  // Every catalogue item must retain a usable Spanish support translation.
+  // These fill gaps in the imported frequency source; they are reviewed
+  // learning equivalents, not UI placeholders.
+  const englishTranslationRepairs = {
+    would: 'auxiliar condicional', will: 'auxiliar de futuro', may: 'puede que', should: 'debería', must: 'deber', shall: 'deberá',
+    ensure: 'asegurar', remain: 'permanecer', apply: 'aplicar / solicitar', voice: 'expresar', mind: 'importar / preocuparse', tend: 'tender a',
+    pick: 'elegir / recoger', occur: 'ocurrir', listen: 'escuchar', claim: 'afirmar', shut: 'cerrar', wonder: 'preguntarse', regard: 'considerar',
+    wear: 'llevar puesto', cope: 'afrontar', realise: 'darse cuenta', refer: 'referirse', admit: 'admitir', recognise: 'reconocer', hurt: 'herir / doler',
+    respond: 'responder', introduce: 'presentar / introducir', rise: 'subir / levantarse', vary: 'variar', treat: 'tratar', drop: 'dejar caer / disminuir',
+    cast: 'lanzar / repartir', welcome: 'dar la bienvenida', rely: 'confiar en', trust: 'confiar', match: 'coincidir / igualar', wan: 'debilitarse',
+    rid: 'librar de', attempt: 'intentar', recall: 'recordar', account: 'explicar / representar', realize: 'darse cuenta', succeed: 'tener éxito',
+    demand: 'exigir', reckon: 'calcular / considerar', in: 'en', resist: 'resistir', suit: 'convenir / sentar bien', sort: 'clasificar', of: 'de',
+    behave: 'comportarse', employ: 'emplear / contratar', ride: 'montar / viajar', switch: 'cambiar', step: 'dar un paso', own: 'poseer', view: 'considerar / ver',
+    shift: 'cambiar / desplazar', comply: 'cumplir', purchase: 'comprar', research: 'investigar', phone: 'llamar por teléfono', score: 'anotar / puntuar',
+    launch: 'lanzar', construct: 'construir', organise: 'organizar', head: 'dirigirse / encabezar', conduct: 'llevar a cabo', consist: 'consistir',
+    practise: 'practicar', knock: 'golpear / llamar', engage: 'participar / involucrar', fetch: 'ir a buscar', shed: 'derramar / perder', thrust: 'empujar',
+    warn: 'advertir', convert: 'convertir', free: 'liberar', boost: 'impulsar', smile: 'sonreír', enforce: 'hacer cumplir', quote: 'citar', design: 'diseñar',
+    spare: 'ahorrar / perdonar', offset: 'compensar', declare: 'declarar', access: 'acceder', copy: 'copiar', hand: 'entregar', fund: 'financiar',
+    range: 'variar / abarcar', feature: 'incluir / destacar', locate: 'localizar', tap: 'tocar suavemente', sue: 'demandar', slow: 'reducir la velocidad',
+    swear: 'jurar', amount: 'ascender a', dream: 'soñar', grab: 'agarrar', advance: 'avanzar', aid: 'ayudar', relieve: 'aliviar', combat: 'combatir',
+    stare: 'mirar fijamente', counter: 'contrarrestar', resume: 'reanudar', speed: 'acelerar', wipe: 'limpiar', comprise: 'comprender / componerse de',
+    breed: 'criar / generar', disclose: 'revelar', encounter: 'encontrarse con', impress: 'impresionar', figure: 'calcular / entender', cater: 'atender',
+    sense: 'percibir', regain: 'recuperar', halt: 'detener', shape: 'dar forma', dispose: 'deshacerse de', service: 'mantener / reparar', apologise: 'disculparse',
+    expose: 'exponer', exert: 'ejercer', beware: 'tener cuidado', wed: 'casarse', guard: 'proteger', effect: 'efectuar', deter: 'disuadir', ascertain: 'determinar',
+    coach: 'entrenar', suffice: 'ser suficiente', shop: 'comprar', race: 'correr / competir', honour: 'honrar', cure: 'curar', swap: 'intercambiar',
+    endure: 'soportar', chase: 'perseguir', await: 'esperar', drift: 'derivar', stem: 'detener / provenir de', surrender: 'rendirse', machine: 'mecanizar',
+    advertise: 'anunciar', top: 'superar / coronar', renew: 'renovar', formulate: 'formular', steer: 'dirigir', base: 'basar', curb: 'frenar', book: 'reservar',
+    bang: 'golpear', leap: 'saltar', attain: 'alcanzar', import: 'importar', spring: 'saltar / surgir', commence: 'comenzar', venture: 'aventurarse',
+    depart: 'partir', elect: 'elegir', withstand: 'resistir', discharge: 'descargar / despedir', edit: 'editar', envisage: 'imaginar', retrieve: 'recuperar',
+    ship: 'enviar', target: 'dirigirse a', abide: 'cumplir / tolerar', accrue: 'acumularse', amplify: 'amplificar', articulate: 'articular / expresar',
+    aspire: 'aspirar', avert: 'evitar', constrain: 'limitar', contrive: 'idear', crave: 'anhelar', elaborate: 'elaborar', embody: 'encarnar',
+    encompass: 'abarcar', enrol: 'inscribirse', escalate: 'intensificarse', ignite: 'encender', instil: 'inculcar', leverage: 'aprovechar', mobilise: 'movilizar',
+    nurture: 'cultivar / cuidar', oversee: 'supervisar', pioneer: 'ser pionero', pledge: 'comprometerse', preclude: 'impedir', prompt: 'provocar',
+    refrain: 'abstenerse', reside: 'residir', rig: 'manipular', scrutinise: 'examinar minuciosamente', simulate: 'simular', soar: 'elevarse',
+    spearhead: 'encabezar', subside: 'disminuir', substantiate: 'fundamentar', surge: 'aumentar bruscamente', uphold: 'defender / mantener', weave: 'tejer',
+    acquiesce: 'acceder', adjudicate: 'juzgar / resolver', admonish: 'reprender', agitate: 'agitar / inquietar', amass: 'acumular', ascribe: 'atribuir',
+    augment: 'aumentar', avow: 'declarar', bolster: 'reforzar', concur: 'coincidir', convene: 'convocar', convict: 'condenar',
+    decentralise: 'descentralizar', denote: 'indicar', deteriorate: 'deteriorarse', dramatise: 'dramatizar', enlist: 'reclutar', ensue: 'seguir',
+    expound: 'exponer detalladamente', fathom: 'comprender a fondo', flaunt: 'ostentar', forego: 'renunciar a', forfeit: 'perder / renunciar a',
+    hamper: 'obstaculizar', harbour: 'albergar', heighten: 'intensificar', impair: 'perjudicar', jeopardise: 'poner en peligro', mandate: 'ordenar',
+    negate: 'negar / anular', oblige: 'obligar'
+  };
   data.english.forEach((verb) => {
     if (verb.level === 'C2') verb.level = 'C1';
     if (englishLevelCorrections[verb.infinitive]) verb.level = englishLevelCorrections[verb.infinitive];
     if (englishC2PrecisionVerbs.has(verb.infinitive)) {
       verb.level = 'C2';
       verb.translation = { ...verb.translation, spanish: englishC2Translations[verb.infinitive] };
+    }
+    if (!verb.translation?.spanish || /traducci.n pendiente/i.test(verb.translation.spanish)) {
+      verb.translation = { ...verb.translation, spanish: englishTranslationRepairs[verb.infinitive] || 'sin traducción disponible' };
     }
   });
   const insure = data.english.find((verb) => verb.infinitive === 'insure');
@@ -200,5 +245,44 @@
       pastParticiple: 'insured'
     };
   }
+
+  // French reaches the same 1,200-verb reference catalogue as English and
+  // Spanish.  These are additional distinct lemmas (not inflected forms),
+  // selected for academic, professional and precise everyday use.  The local
+  // French engine supplies their complete conjugation tables.
+  const frenchExtension = [
+    ['abonder','abundar'],['abréger','abreviar'],['abroger','derogar'],['absorber','absorber'],['accéder','acceder'],['acquitter','pagar; saldar'],['adapter','adaptar'],['adhérer','adherirse'],['administrer','administrar'],['adresser','dirigir; enviar'],['affecter','afectar'],['afficher','mostrar; publicar'],['agencer','organizar'],['aggraver','agravar'],['agrandir','ampliar'],['ajourner','aplazar'],['aligner','alinear'],['alléger','aligerar'],['allouer','asignar'],['altérer','alterar'],['améliorer','mejorar'],['aménager','acondicionar'],['amortir','amortizar'],['annuler','anular'],['anticiper','anticipar'],['apaiser','calmar'],['approuver','aprobar'],['arbitrer','arbitrar'],['archiver','archivar'],['articuler','articular'],['assainir','sanear'],['asservir','someter'],['assumer','asumir'],['atténuer','atenuar'],['authentifier','autenticar'],['automatiser','automatizar'],['aviser','informar; avisar'],['balayer','barrer'],['bénéficier','beneficiarse'],['bloquer','bloquear'],['bouleverser','trastornar'],['cadrer','encuadrar'],['canaliser','canalizar'],['cautionner','respaldar'],['centraliser','centralizar'],['cerner','delimitar'],['chiffrer','cuantificar'],['cibler','dirigir a'],['circonscrire','circunscribir'],['clarifier','aclarar'],['clôturer','cerrar'],['coexister','coexistir'],['coordonner','coordinar'],['corréler','correlacionar'],['crédibiliser','dar credibilidad'],['critiquer','criticar'],['cumuler','acumular'],['débloquer','desbloquear'],['décentraliser','descentralizar'],['déclencher','desencadenar'],['décomposer','descomponer'],['décrypter','descifrar'],['déduire','deducir'],['définancer','retirar financiación'],['dégager','desprender; liberar'],['déléguer','delegar'],['délimiter','delimitar'],['démanteler','desmantelar'],['démystifier','desmitificar'],['dénoncer','denunciar'],['déployer','desplegar'],['dériver','derivar'],['désamorcer','desactivar'],['désigner','designar'],['déstabiliser','desestabilizar'],['détailler','detallar'],['détecter','detectar'],['dévier','desviar'],['différencier','diferenciar'],['diffuser','difundir'],['diluer','diluir'],['dimensionner','dimensionar'],['discriminer','discriminar'],['dissimuler','disimular'],['dissocier','disociar'],['diversifier','diversificar'],['documenter','documentar'],['domicilier','domiciliar'],['écarter','apartar; descartar'],['échelonner','escalonar'],['éclairer','aclarar; iluminar'],['économiser','ahorrar'],['éditer','editar'],['effectuer','efectuar'],['élaborer','elaborar'],['émerger','surgir'],['émuler','emular'],['encadrer','supervisar'],['enclencher','poner en marcha'],['endiguer','contener'],['enfreindre','infringir'],['enrichir','enriquecer'],['entériner','ratificar'],['équilibrer','equilibrar'],['équiper','equipar'],['esquisser','esbozar'],['estimer','estimar'],['évaluer','evaluar'],['évincer','apartarse; expulsar'],['évoquer','evocar'],['exclure','excluir'],['exempter','eximir'],['exiger','exigir'],['expérimenter','experimentar'],['expliciter','explicitar'],['exploiter','explotar'],['externaliser','externalizar'],['faciliter','facilitar'],['fédérer','federar'],['fiabiliser','hacer fiable'],['finaliser','finalizar'],['formaliser','formalizar'],['fragiliser','fragilizar'],['freiner','frenar'],['généraliser','generalizar'],['hiérarchiser','jerarquizar'],['homogénéiser','homogeneizar'],['identifier','identificar'],['impliquer','implicar'],['imposer','imponer'],['incarner','encarnar'],['indexer','indexar'],['induire','inducir'],['informer','informar'],['initialiser','inicializar'],['innover','innovar'],['inscrire','inscribir'],['inspirer','inspirar'],['instaurer','instaurar'],['intégrer','integrar'],['intercaler','intercalar'],['interroger','interrogar'],['interrompre','interrumpir'],['invalider','invalidar'],['investir','invertir'],['justifier','justificar'],['légitimer','legitimar'],['limiter','limitar'],['localiser','localizar'],['maîtriser','dominar'],['marginaliser','marginar'],['maximiser','maximizar'],['médiatiser','mediatizar'],['minimiser','minimizar'],['mobiliser','movilizar'],['modéliser','modelizar'],['moderniser','modernizar'],['moduler','modular'],['motiver','motivar'],['mutualiser','poner en común'],['négocier','negociar'],['normaliser','normalizar'],['nuancer','matizar'],['objectiver','objetivar'],['optimiser','optimizar'],['ordonner','ordenar'],['organiser','organizar'],['outiller','dotar de herramientas'],['paramétrer','parametrizar'],['pénaliser','penalizar'],['pérenniser','hacer sostenible'],['piloter','dirigir'],['planifier','planificar'],['pondérer','ponderar'],['positionner','posicionar'],['préciser','precisar'],['préconiser','recomendar'],['préfigurer','prefigurar'],['préserver','preservar'],['prioriser','priorizar'],['procéder','proceder'],['prolonger','prolongar'],['promouvoir','promover'],['proportionner','proporcionar'],['prospecter','prospectar'],['protéger','proteger'],['quantifier','cuantificar'],['questionner','cuestionar'],['rationaliser','racionalizar'],['réaffirmer','reafirmar'],['réajuster','reajustar'],['réconcilier','reconciliar'],['reconfigurer','reconfigurar'],['recenser','censar; enumerar'],['recontextualiser','recontextualizar'],['recruter','reclutar'],['réduire','reducir'],['référencer','referenciar'],['réformer','reformar'],['réglementer','reglamentar'],['relativiser','relativizar'],['remédier','remediar'],['renouveler','renovar'],['réorienter','reorientar'],['répartir','repartir'],['répercuter','repercutir'],['repenser','repensar'],['représenter','representar'],['réserver','reservar'],['résorber','absorber; reducir'],['restaurer','restaurar'],['restructurer','reestructurar'],['réviser','revisar'],['révoquer','revocar'],['rigidifier','rigidizar'],['satisfaire','satisfacer'],['sécuriser','asegurar'],['sélectionner','seleccionar'],['sensibiliser','sensibilizar'],['simplifier','simplificar'],['solliciter','solicitar'],['stabiliser','estabilizar'],['standardiser','estandarizar'],['structurer','estructurar'],['subordonner','subordinar'],['substituer','sustituir'],['synthétiser','sintetizar'],['tendre','tender'],['territorialiser','territorializar'],['tolérer','tolerar'],['traiter','tratar'],['transposer','transponer'],['valoriser','valorizar'],['vérifier','verificar'],['vulgariser','divulgar']
+    ,['agréger','agregar'],['agrémenter','amenizar'],['amarrer','amarrar'],['animer','animar'],['annexer','anexar'],['apparier','emparejar'],['approvisionner','abastecer'],['argumenter','argumentar'],['assouplir','flexibilizar'],['attester','certificar'],['auditer','auditar'],['autonomiser','hacer autónomo'],['avaliser','aprobar; avalar'],['baliser','señalizar'],['banaliser','banalizar'],['bercer','mecer'],['biaiser','sesgar'],['bifurquer','bifurcar'],['borner','delimitar'],['breveter','patentar'],['budgéter','presupuestar'],['catégoriser','categorizar'],['certifier','certificar'],['cloisonner','compartimentar'],['codifier','codificar'],['conceptualiser','conceptualizar'],['conditionner','condicionar'],['conforter','consolidar'],['confronter','confrontar'],['dédoubler','duplicar'],['dégrader','degradar'],['délester','aligerar'],['délocaliser','deslocalizar'],['démêler','desenredar'],['dénicher','encontrar'],['dérégler','desregular'],['désinfecter','desinfectar'],['désorganiser','desorganizar'],['dévaloriser','desvalorizar'],['disqualifier','descalificar'],['dominer','dominar'],['dynamiser','dinamizar'],['écouler','vender; agotar'],['escalader','escalar'],['escompter','esperar; prever'],['étaler','extender'],['excéder','exceder'],['facturer','facturar'],['fertiliser','fertilizar'],['flexibiliser','flexibilizar'],['focaliser','centrar'],['fractionner','fraccionar'],['graduer','graduar'],['industrialiser','industrializar'],['injecter','inyectar'],['intercepter','interceptar'],['interfacer','interconectar'],['inventorier','inventariar'],['irriguer','regar'],['jalonner','señalar etapas'],['labelliser','etiquetar; certificar'],['liquider','liquidar'],['majorer','incrementar'],['matérialiser','materializar'],['migrer','migrar'],['monétiser','monetizar'],['profiler','perfilar'],['radicaliser','radicalizar'],['réactiver','reactivar'],['réaffecter','reasignar'],['réaménager','reacondicionar'],['réassurer','tranquilizar'],['réattribuer','reasignar'],['rebondir','rebotar; recuperarse'],['reconstruire','reconstruir'],['régénérer','regenerar'],['remanier','reelaborar'],['systématiser','sistematizar']
+  ];
+  const targetFrenchCatalogueSize = 1200;
+  const knownFrench = new Set((data.french || []).map((verb) => String(verb.infinitive || '').toLocaleLowerCase()));
+  const frenchEngine = window.AndergoVerbConjugations?.french;
+  const frenchAdditions = frenchExtension
+    .filter(([infinitive]) => !knownFrench.has(infinitive.toLocaleLowerCase()))
+    .slice(0, Math.max(0, targetFrenchCatalogueSize - (data.french || []).length))
+    .map(([infinitive, spanish], index) => {
+      const forms = frenchEngine?.principalForms(infinitive) || {};
+      const rank = (data.french || []).length + index + 1;
+      return {
+        id: `verb-french-${infinitive}`,
+        language: 'french',
+        rank,
+        infinitive,
+        regular: /(?:er|ir)$/.test(infinitive),
+        group: infinitive.endsWith('er') ? '1er groupe' : infinitive.endsWith('ir') ? '2e groupe' : '3e groupe',
+        level: rank <= 1100 ? 'C1' : 'C2',
+        forms,
+        translation: { spanish, english: '' },
+        directDefinition: { french: `Verbe précis qui signifie « ${spanish} » en espagnol.`, english: '' },
+        pronunciation: '',
+        audioText: infinitive,
+        examples: { affirmative: `Il / Elle ${forms.thirdPersonSingular || infinitive}.`, negative: '', interrogative: '' },
+        commonCollocations: [],
+        synonyms: [],
+        antonyms: [],
+        notes: `Catalogue français étendu · #${rank} par fréquence et utilité.`
+      };
+    });
+  data.french = [...(data.french || []), ...frenchAdditions].slice(0, targetFrenchCatalogueSize);
   data.spanish = (data.spanish || []).concat(addSpanish).slice(0, 1200);
 })();

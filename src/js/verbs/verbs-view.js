@@ -384,50 +384,6 @@
     return authored.slice(0, 2);
   }
 
-  // A translation names the equivalent word; this short line explains the
-  // idea behind it. It is especially useful in the advanced catalogue, where
-  // a one-word translation can hide an important nuance.
-  const ENGLISH_VERB_DEFINITIONS = {
-    obtain: 'To get something, usually through effort or a process.',
-    assess: 'To examine something in order to judge its quality, value, or risk.',
-    reveal: 'To make something previously hidden known or visible.',
-    overcome: 'To succeed in dealing with a difficulty, fear, or obstacle.',
-    demonstrate: 'To show that something is true by using facts or examples.',
-    persuade: 'To make someone agree with an idea or decide to do something.',
-    investigate: 'To examine a matter carefully in order to discover the truth.',
-    justify: 'To give reasons that explain or defend a decision.',
-    maintain: 'To keep something in good condition or continue to hold a position.',
-    establish: 'To create or set up something firmly and permanently.',
-    acquire: 'To gain a skill, knowledge, or possession.',
-    implement: 'To put a plan, decision, or policy into action.',
-    imply: 'To suggest something without saying it directly.',
-    negotiate: 'To discuss in order to reach an agreement.',
-    sustain: 'To keep something going over a period of time.',
-    undertake: 'To accept responsibility for an important task.',
-    withdraw: 'To remove something or leave a place or situation.'
-  };
-
-  const ENGLISH_ADVANCED_USAGE = {
-    B2: 'Used to express a more specific action or idea in English.',
-    C1: 'Used in precise, often formal English to describe actions, changes, or ideas.',
-    C2: 'Used in highly precise English, especially in analytical, academic, or professional contexts.'
-  };
-
-  function catalogueDefinition(raw, item) {
-    const authoredDefinition = raw.directDefinition?.[item.targetLanguage]
-      || raw.directDefinition?.english
-      || raw.definition?.[item.targetLanguage]
-      || '';
-    if (authoredDefinition && !/^translation pending/i.test(authoredDefinition)) return authoredDefinition;
-
-    if (raw.language === 'english') {
-      return ENGLISH_VERB_DEFINITIONS[raw.infinitive]
-        || ENGLISH_ADVANCED_USAGE[raw.level]
-        || '';
-    }
-    return '';
-  }
-
   // The catalogue is intentionally a scan-first list, not a collection of
   // flash cards. Each row leads with the L2 verb, then keeps its
   // translation and phonetic transcription together, then places the audio
@@ -436,7 +392,6 @@
   // without an action panel repeated one thousand times.
   function renderVerbTileHtml(item, raw, { canSpeak }) {
     const supportText = item.learningMode === 'direct' ? item.simpleDefinition : item.translation;
-    const definition = catalogueDefinition(raw, item);
     const sourceVerb = supportText || item.targetWord;
     const practicalExamples = practicalCatalogueExamples(raw);
     const audioOpts = { locale: item.pronunciationLocale, rate: item.pronunciationRate };
@@ -453,7 +408,6 @@
               <strong>${escapeHtml(item.targetWord)}</strong>
             </div>
             <span>${escapeHtml(sourceVerb)}</span>
-            ${definition ? `<p class="verb-catalogue-definition">${escapeHtml(definition)}</p>` : ''}
             ${item.phonetic ? `<small>${escapeHtml(item.phonetic)}</small>` : ''}${audioButton}
           </div>
         </div>

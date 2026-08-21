@@ -21301,17 +21301,10 @@ function renderLessonTest() {
     })
     .join('');
   const questionHtml = lessonTestState.questions.map((question, index) => {
-    const previousArea = lessonTestState.questions[index - 1]?.area;
-    const startsArea = index === 0 || question.area !== previousArea;
-    const blockHint = question.area === 'Grammar'
-      ? 'Preguntas 1–9 · Gramática'
-      : question.area === 'Vocabulary'
-        ? 'Preguntas 10–12 · Vocabulario'
-        : 'Preguntas 13–15 · Verbos';
-    return `${startsArea ? `<p class="tests-section-label">${blockHint}</p>` : ''}<fieldset class="tests-question${['C1', 'C2'].includes(lessonTestState.level) ? ' tests-question--advanced' : ''}" data-question-index="${index}" data-question-id="${escapeHtml(question.id)}"><legend><span>${index + 1}</span><small class="tests-question-area">${escapeHtml(question.area)}</small>${escapeHtml(question.prompt)}</legend><div>${question.options.map((option, optionIndex) => `<label><input type="radio" name="test-${index}" value="${optionIndex}"><span class="tests-option-content"><strong class="tests-option-letter" aria-hidden="true">${String.fromCharCode(97 + optionIndex)})</strong><span class="tests-option-text">${escapeHtml(option)}</span></span></label>`).join('')}</div><p class="tests-item-feedback" aria-live="polite"></p></fieldset>`;
+    return `<fieldset class="tests-question${['C1', 'C2'].includes(lessonTestState.level) ? ' tests-question--advanced' : ''}" data-question-index="${index}" data-question-id="${escapeHtml(question.id)}"><legend><span>${index + 1}</span>${escapeHtml(question.prompt)}</legend><div>${question.options.map((option, optionIndex) => `<label><input type="radio" name="test-${index}" value="${optionIndex}"><span class="tests-option-content"><strong class="tests-option-letter" aria-hidden="true">${String.fromCharCode(97 + optionIndex)})</strong><span class="tests-option-text">${escapeHtml(option)}</span></span></label>`).join('')}</div><p class="tests-item-feedback" aria-live="polite"></p></fieldset>`;
   }).join('');
   stage.innerHTML = `<div class="tests-paper" id="lessonTestPaper">
-    <header class="tests-paper-head"><div><span>${escapeHtml(testLanguageLabel(lessonTestState.language))} · ${escapeHtml(lessonTestState.level)}</span><h3>${escapeHtml(unit.grammarTitle || unit.title || `Lesson ${unit.order}`)}</h3><p>${totalQuestions} preguntas · 9 de gramática, 3 de vocabulario y 3 de verbos</p>${grammarExamplesHtml ? `<div class="tests-grammar-examples"><strong>Ejemplos prácticos</strong><ol>${grammarExamplesHtml}</ol></div>` : ''}</div><strong>100<small>puntos</small></strong></header>
+    <header class="tests-paper-head"><div><span>${escapeHtml(testLanguageLabel(lessonTestState.language))} · ${escapeHtml(lessonTestState.level)}</span><h3>${escapeHtml(unit.grammarTitle || unit.title || `Lesson ${unit.order}`)}</h3><p>${totalQuestions} preguntas para completar a tu ritmo.</p>${grammarExamplesHtml ? `<div class="tests-grammar-examples"><strong>Ejemplos prácticos</strong><ol>${grammarExamplesHtml}</ol></div>` : ''}</div><strong>100<small>puntos</small></strong></header>
     <nav class="tests-challenge-map" aria-label="Progreso del reto">${lessonTestState.questions.map((_, index) => `<button type="button" class="tests-challenge-map-item" data-test-jump="${index}" aria-label="Ir a la pregunta ${index + 1}">${index + 1}</button>`).join('')}<span class="tests-challenge-progress" id="testsChallengeProgress">0/${totalQuestions} respondidas</span></nav>
     <p class="tests-global-instruction">Elige en cada pregunta la opción que mejor complete o responda la situación.</p>
     <form id="lessonTestForm" class="tests-question-list">${questionHtml}
@@ -21945,14 +21938,14 @@ const INFOGRAPHIC_SCENES = [
     title: 'At the Supermarket',
     icon: '🛒',
     parts: [
-      ['Shopper', 51, 38],
-      ['Shopping cart', 50, 69],
-      ['Fruit', 14, 39],
-      ['Vegetables', 14, 68],
-      ['Bread', 92, 78],
-      ['Milk', 92, 31],
-      ['Shelf', 90, 52],
-      ['Checkout', 69, 38]
+      ['Shopper', 50, 42],
+      ['Shopping cart', 50, 71],
+      ['Fruit', 15, 38],
+      ['Vegetables', 15, 68],
+      ['Bread', 90, 75],
+      ['Milk', 90, 24],
+      ['Shelf', 50, 36],
+      ['Checkout', 71, 46]
     ]
   },
   {
@@ -21981,7 +21974,7 @@ const INFOGRAPHIC_SCENES = [
 // points are chosen from visible, meaningful details in each scene rather
 // than repeating a label simply to increase the score.
 const INFOGRAPHIC_EXTRA_PARTS = {
-  supermarket: [['Cheese', 31, 25], ['Juice', 61, 66]],
+  supermarket: [['Cheese', 46, 65], ['Juice', 90, 35]],
   airport: [['Backpack', 29, 48], ['Ticket', 36, 37]],
   sports: [['Tennis ball', 78, 93]],
   'city-map': [['Bus', 27, 77]],
@@ -22403,7 +22396,7 @@ const INFOGRAPHIC_DEFAULT_UI = [
 ];
 // Versioned because v2 coordinates were calibrated against the old artwork
 // and would otherwise silently override the corrected canonical points.
-const INFOGRAPHIC_POINT_STORAGE_KEY = 'andergo_infographic_point_overrides_v4';
+const INFOGRAPHIC_POINT_STORAGE_KEY = 'andergo_infographic_point_overrides_v5';
 const infographicState = {
   sceneId: 'body-front',
   selectedLabel: '',
@@ -22534,7 +22527,11 @@ function infographicSceneArtwork(scene) {
   const safeSceneId = INFOGRAPHIC_SCENES.some((item) => item.id === scene.id)
     ? scene.id
     : 'body-front';
-  const artworkFile = safeSceneId === 'weather' ? 'weather-v2' : safeSceneId;
+  const artworkFile = safeSceneId === 'weather'
+    ? 'weather-v2'
+    : safeSceneId === 'supermarket'
+      ? 'supermarket-animated-v1'
+      : safeSceneId;
   return `<foreignObject class="info-realistic-art" x="0" y="0" width="400" height="400"><div xmlns="http://www.w3.org/1999/xhtml" style="width:100%;height:100%;background:url('/images/infographics/topics/${artworkFile}.png?v=20260817-ice') center / contain no-repeat;"></div></foreignObject>`;
 }
 

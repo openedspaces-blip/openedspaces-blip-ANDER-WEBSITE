@@ -6338,6 +6338,13 @@ footer small {
   font-size: 0.82rem;
 }
 
+@media (min-width: 821px) {
+  /* Give the account chip its own breathing room in the desktop header. */
+  .navbar .menu {
+    margin-right: clamp(1.5rem, 2.5vw, 3.5rem);
+  }
+}
+
 .global-language-controls {
   padding: 0.45rem clamp(24px, 5vw, 88px);
   background: rgba(248, 251, 255, 0.94);
@@ -10260,7 +10267,12 @@ footer small {
 }
 
 .hero-cover-art:has(> img[src*='andergo-cover-flags']) .hero-cover-caption strong {
-  -webkit-text-stroke: 0.35px rgba(1, 8, 30, 0.4);
+  /* Keep the editorial title white, but define it against the navy cover. */
+  -webkit-text-stroke: 1.15px #081b4b;
+  paint-order: stroke fill;
+  text-shadow:
+    0 3px 18px rgba(1, 8, 30, 0.96),
+    0 1px 0 #081b4b;
 }
 
 /* Speaking: dialogue, writing corrector and guided Tutor conversation. */
@@ -22791,14 +22803,6 @@ footer small {
   font-weight: 720;
 }
 
-.verb-catalogue-definition {
-  width: 100%;
-  margin: 0.05rem 0 0;
-  color: #52627e;
-  font-size: 0.73rem;
-  line-height: 1.28;
-}
-
 .verb-catalogue-identity > small {
   color: var(--muted);
   font-size: 0.72rem;
@@ -27001,6 +27005,17 @@ body {
     fill 0.15s ease;
   transform-box: fill-box;
   transform-origin: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .info-hotspot:not(.is-correct) .info-hotspot-number {
+    animation: infographic-hotspot-float 2.8s ease-in-out infinite;
+  }
+}
+
+@keyframes infographic-hotspot-float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-2px); }
 }
 .info-hotspot:hover .info-hotspot-number,
 .info-hotspot:focus .info-hotspot-number {

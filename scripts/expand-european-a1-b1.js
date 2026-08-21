@@ -131,6 +131,60 @@ function grammarPrompt(language, level, words) {
   return { prompt: `Welcher Satz verwendet „${word}“ richtig?`, options: [`Die Gruppe spricht über ${word}.`, `Die Gruppe ${word} spricht über.`, `${word} die über Gruppe spricht.`, `Spricht Gruppe die ${word} über.`] };
 }
 
+function italianB1FinalTest(unit, grammarName) {
+  const [slug, title, objective, vocabularyLine] = unit;
+  const words = vocabularyLine.split(', ').map((word) => word.trim()).filter(Boolean);
+  const optionIds = ['a', 'b', 'c', 'd'];
+  const question = (section, number, prompt, correct, distractors, difficulty) => {
+    const answer = (number - 1) % 4;
+    const options = [...distractors.slice(0, 3)];
+    options.splice(answer, 0, correct);
+    return {
+      id: `italian-b1-${slug}-${section}-${number}`,
+      type: 'mcq',
+      prompt,
+      options: options.map((text, index) => ({ id: optionIds[index], text })),
+      correctOptionId: optionIds[answer],
+      difficulty
+    };
+  };
+  const grammar = Array.from({ length: 9 }, (_, index) =>
+    question(
+      'grammar', index + 1,
+      `Scegli la frase più corretta per “${grammarName}”.`,
+      `Penso che la proposta sia utile, benché richieda ulteriori verifiche.`,
+      ['Penso che la proposta è utile, benché richiede ulteriori verifiche.', 'Penso la proposta sia utile, benché richiede ulteriori verifiche.', 'Penso che la proposta utile, benché richieda ulteriori verifiche.'],
+      index < 3 ? 'recognition' : index < 6 ? 'application' : 'control'
+    )
+  );
+  const vocabulary = words.slice(0, 3).map((word, index) =>
+    question(
+      'vocabulary', index + 10,
+      `Quale parola appartiene alla lezione “${title}”?`,
+      word,
+      [words[3] || 'contesto', 'aeroporto', 'satellite'].filter((item) => item !== word),
+      'vocabulary'
+    )
+  );
+  const verbs = [
+    ['Noi ___ una soluzione dopo aver ascoltato tutti.', 'proponiamo'],
+    ['Lei ___ le conseguenze prima di decidere.', 'valuta'],
+    ['Loro ___ le ragioni della scelta con chiarezza.', 'spiegano']
+  ].map(([prompt, correct], index) =>
+    question('verbs', index + 13, prompt, correct, ['propongono', 'valutano', 'spiega'], 'verbs')
+  );
+  return {
+    id: `italian-b1-${slug}-final-test`,
+    passingScore: 70,
+    sections: [
+      { id: 'grammar', label: 'Grammatica', from: 1, to: 9 },
+      { id: 'vocabulary', label: 'Vocabolario', from: 10, to: 12 },
+      { id: 'verbs', label: 'Verbi', from: 13, to: 15 }
+    ],
+    questions: [...grammar, ...vocabulary, ...verbs]
+  };
+}
+
 function makeLesson(language, level, unit, skill, order) {
   const [slug, title, objective, vocabularyLine] = unit;
   const words = vocabularyLine.split(', ');
@@ -341,6 +395,9 @@ for (const [language, levelNames] of Object.entries(grammarNames)) {
           definition: `Práctica guiada de ${name}.`,
           function: 'Usar la estructura con precisión en contextos cotidianos.'
         };
+        if (language === 'italian') {
+          lesson.content_json.extra.grammarTest = italianB1FinalTest(unit, name);
+        }
       }
       // Italian and Portuguese maintain their richer authoring profiles in
       // their dedicated curriculum builder. This pass only enriches German.
