@@ -5333,6 +5333,41 @@ footer small {
   }
 }
 
+/* At the desktop breakpoint where the header uses two rows, make the split
+   explicit so the account controls and learning destinations never read as
+   one crowded group. */
+@media (min-width: 1181px) and (max-width: 1280px) {
+  .navbar {
+    grid-template-areas:
+      'brand actions'
+      'divider divider'
+      'menu menu';
+    grid-template-rows: auto 1px auto;
+  }
+
+  .navbar::after {
+    content: 'ANDERGO';
+    grid-area: divider;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1px;
+    color: #2563eb;
+    background: linear-gradient(
+      90deg,
+      transparent 0,
+      rgba(37, 99, 235, 0.42) 18%,
+      rgba(14, 165, 233, 0.7) 50%,
+      rgba(37, 99, 235, 0.42) 82%,
+      transparent 100%
+    );
+    font-size: 0.55rem;
+    font-weight: 900;
+    letter-spacing: 0.22em;
+    line-height: 1;
+  }
+}
+
 /* Compact desktop: keep the complete member navigation on one slim row.
    This range commonly appears on laptops and on wide monitors using browser
    zoom, where the previous two-row header consumed too much reading space. */
