@@ -6179,18 +6179,27 @@ function renderReadingLibrary() {
 
   const units = new Map(learningPathState.units.map((unit) => [unit.id, unit]));
   host.innerHTML = `
-    <header class="reading-library-header">
-      <span class="reading-library-kicker">BIBLIOTECA · PRÁCTICA LIBRE</span>
-      <h2 tabindex="-1">Lecturas</h2>
-      <p>Elige una unidad y abre cualquiera de sus tres lecturas: texto principal, conversación y aplicación práctica.</p>
-      <div class="reading-library-selectors" aria-label="Filtros de la biblioteca">
+    <div class="tests-shell reading-library-layout">
+      <aside class="tests-sidebar reading-library-sidebar" aria-label="Seleccionar lecturas">
+        <span class="tests-eyebrow">Biblioteca de lecturas</span>
+        <h3>Elige tu lectura</h3>
         <label>Idioma<select id="readingLibraryLanguage">${languageOptions}</select></label>
         <label>Nivel<select id="readingLibraryLevel">${levelOptions}</select></label>
-      </div>
-      <p class="reading-library-access-note">${escapeHtml(getReadingLibraryFreeCopy(level))}</p>
-    </header>
-    <div class="reading-library-units">
-      ${readings
+        <div class="tests-spec">
+          <strong>${escapeHtml(languageDisplayNames[language])} · ${escapeHtml(level)}</strong>
+          <span>${readings.length} unidades disponibles</span>
+          <span>Cada unidad incluye tres lecturas.</span>
+        </div>
+        <p class="reading-library-access-note">${escapeHtml(getReadingLibraryFreeCopy(level))}</p>
+      </aside>
+      <article class="tests-stage reading-library-stage">
+        <header class="reading-library-header">
+          <span class="reading-library-kicker">LECTURAS · ${escapeHtml(level)}</span>
+          <h2 tabindex="-1">Lecturas de ${escapeHtml(languageDisplayNames[language])}</h2>
+          <p>Selecciona una unidad y abre el texto principal, la conversación o la práctica guiada.</p>
+        </header>
+        <div class="reading-library-units">
+          ${readings
         .map((lesson) => {
           const unit = units.get(lesson.unitId) || {};
           const unitOrder = Number(lesson.unitOrder || unit.order || 1);
@@ -6224,6 +6233,8 @@ function renderReadingLibrary() {
             </article>`;
         })
         .join('')}
+        </div>
+      </article>
     </div>`;
 
   const rerender = async () => {

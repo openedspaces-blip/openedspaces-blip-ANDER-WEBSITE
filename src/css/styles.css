@@ -34161,6 +34161,24 @@ body.tutor-robot-listening #tutor .tutor-hero-bot {
   background: linear-gradient(135deg, #f5f8ff 0%, #fff 52%, #eef7ff 100%);
 }
 
+.reading-library-layout {
+  align-items: start;
+}
+
+.reading-library-sidebar .reading-library-access-note {
+  margin: 0 !important;
+  border-radius: 12px;
+  line-height: 1.4;
+}
+
+.reading-library-stage {
+  min-height: 0;
+}
+
+.reading-library-stage .reading-library-header {
+  margin-bottom: 1.1rem;
+}
+
 .reading-library-shell {
   width: min(1180px, calc(100% - 2rem));
   margin: 0 auto;
