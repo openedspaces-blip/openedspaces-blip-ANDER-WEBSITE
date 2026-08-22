@@ -34229,3 +34229,52 @@ body.tutor-robot-listening #tutor .tutor-hero-bot {
   .reading-library-cards { grid-template-columns: 1fr; }
   .reading-library-card { min-height: 126px; }
 }
+
+/* Keep the signed-in two-row header compact at browser zoom levels where the
+   desktop navigation needs an extra row. */
+@media (min-width: 1181px) and (max-width: 1280px) {
+  .navbar:has(.user-chip:not([hidden])) {
+    min-height: 0;
+    gap: 0.24rem 0.75rem;
+    padding: 0.35rem clamp(1rem, 2vw, 1.75rem) 0.3rem;
+  }
+
+  .navbar:has(.user-chip:not([hidden])) .brand-logo-symbol {
+    width: 38px;
+    height: 38px;
+    border-radius: 11px;
+  }
+
+  .navbar:has(.user-chip:not([hidden])) .brand-heading {
+    font-size: 0.8rem;
+  }
+
+  .navbar:has(.user-chip:not([hidden])) .menu {
+    gap: 0;
+    margin: 0;
+    padding: 0.06rem;
+    font-size: 0.7rem;
+  }
+
+  .navbar:has(.user-chip:not([hidden])) .menu a,
+  .navbar:has(.user-chip:not([hidden])) .nav-more summary {
+    min-height: 30px;
+    padding: 0.3rem 0.48rem;
+  }
+
+  .navbar:has(.user-chip:not([hidden])) .menu .nav-learn-cta {
+    padding: 0.3rem 0.58rem;
+  }
+
+  .navbar:has(.user-chip:not([hidden])) .user-chip,
+  .navbar:has(.user-chip:not([hidden])) .logout-btn {
+    min-height: 32px;
+    padding: 0.35rem 0.62rem;
+    font-size: 0.7rem;
+  }
+
+  .navbar:has(.user-chip:not([hidden]))::after {
+    opacity: 0.72;
+    font-size: 0.46rem;
+  }
+}
