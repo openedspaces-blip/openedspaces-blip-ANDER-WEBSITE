@@ -1446,7 +1446,8 @@ function swapLearningPathLanguages() {
 // bridge language - never fabricate a translation that isn't real data.
 // A few early Italian route records used curriculum categories (for example,
 // “palabra cultural”) in the translation field. They are not learner-facing
-// meanings, so replace the authored placeholders with this compact L1 glossary.
+// meanings, so replace placeholders and blank context-only entries with this
+// compact L1 glossary before requesting a remaining translation on demand.
 const ITALIAN_SPANISH_CORE_GLOSSES = {
   ciao: 'hola',
   buongiorno: 'buenos días',
@@ -1538,7 +1539,15 @@ const ITALIAN_SPANISH_CORE_GLOSSES = {
   ricordo: 'recuerdo',
   incontro: 'encuentro',
   cambiare: 'cambiar',
-  futuro: 'futuro'
+  futuro: 'futuro',
+  presentazioni: 'presentaciones',
+  dialogo: 'diálogo',
+  cultura: 'cultura',
+  corto: 'corto; breve',
+  come: 'cómo',
+  stai: 'estás',
+  salutare: 'saludar',
+  presentarsi: 'presentarse'
 };
 
 // The early Portuguese catalogue used curricular categories in `translation`
@@ -1611,10 +1620,11 @@ function isGeneratedVocabularySupport(value, word = '') {
 }
 
 function getAuthoredSpanishVocabGloss(item, targetLanguage) {
-  if (!isVocabularyTranslationPlaceholder(item?.translation)) return '';
   const word = String(item.word || item.targetWord || '')
     .trim()
     .toLocaleLowerCase();
+  const needsGloss = !String(item?.translation || '').trim() || isVocabularyTranslationPlaceholder(item?.translation);
+  if (!needsGloss) return '';
   if (targetLanguage === 'italian') return ITALIAN_SPANISH_CORE_GLOSSES[word] || '';
   if (targetLanguage === 'portuguese') return PORTUGUESE_SPANISH_A1_GLOSSES[word] || '';
   return '';
@@ -17437,7 +17447,7 @@ async function loadMissingAdvancedVocabTranslations(cards, lessonSlug = '') {
   const missing = cards.filter(
     (card) =>
       !card.l1Translation &&
-      usesAdvancedVocabularyDefinition(card)
+      ((!card.translation && card.learningMode !== 'direct') || usesAdvancedVocabularyDefinition(card))
   );
   if (!missing.length || (lessonSlug && vocabL1TranslationRequests.has(lessonSlug))) return false;
   if (lessonSlug) vocabL1TranslationRequests.add(lessonSlug);
@@ -18273,10 +18283,12 @@ function renderVocabularyView(section, lesson) {
   `;
   applyVocabularyCatalogueFilters(section);
   renderSavedVocabularyShelf(content, lesson);
-  const needsAdvancedGloss = cards.some(
-    (card) => usesAdvancedVocabularyDefinition(card) && !card.l1Translation
+  const needsL1Gloss = cards.some(
+    (card) =>
+      !card.l1Translation &&
+      ((!card.translation && card.learningMode !== 'direct') || usesAdvancedVocabularyDefinition(card))
   );
-  if (needsAdvancedGloss) {
+  if (needsL1Gloss) {
     void loadMissingAdvancedVocabTranslations(cards, lesson.slug).then((changed) => {
       if (changed && vocabTranslationLessonSlug === lesson.slug && section.isConnected) {
         renderVocabularyView(section, lesson);

@@ -486,35 +486,52 @@
     const authored = [examples.affirmative, examples.interrogative, examples.negative]
       .map((text) => String(text || '').trim())
       .filter((text, index, list) => text && list.indexOf(text) === index);
-    if (raw.language === 'english' && VARIED_ENGLISH_EXAMPLES[raw.infinitive]) {
-      return authored.slice(0, 2);
-    }
+    if (authored.length >= 2) return authored.slice(0, 2);
 
-    const isAdvanced = ['B2', 'C1', 'C2'].includes(raw.level);
-    if (!isAdvanced || authored.length >= 2) return authored.slice(0, 2);
-
-    // Advanced cards always keep the full learning layout. Frequency imports
-    // sometimes contain no example, so supply two safe, useful contexts that
-    // preserve the infinitive exactly (after a modal / verbal phrase).
+    // Every catalogue row must remain a real learning card, independently of
+    // level. Frequency imports often only provide one sentence (or none), so
+    // complete them with two useful, language-native frames.  The infinitive
+    // stays after a modal/verbal phrase, which also works for irregular and
+    // separable verbs.  A stable selection avoids every card reading alike.
     const infinitive = String(raw.infinitive || '').trim();
     if (raw.language === 'english') {
       const tailored = ADVANCED_ENGLISH_EXAMPLES[infinitive];
       if (tailored) return [...authored, ...tailored.filter((text) => !authored.includes(text))].slice(0, 2);
 
-      // A stable index avoids duplicated cards for imported B2/C1/C2 items
-      // while keeping the rendered content consistent between visits.
       const index = [...infinitive].reduce((total, character) => total + character.charCodeAt(0), 0) % ADVANCED_ENGLISH_CONTEXTS.length;
       const varied = ADVANCED_ENGLISH_CONTEXTS[index].map((text) => text.replace('{verb}', infinitive));
       return [...authored, ...varied.filter((text) => !authored.includes(text))].slice(0, 2);
     }
-    const practicalFallbacks = {
-      spanish: [`Vamos a ${infinitive} este punto antes de la reunión.`, `¿Puedes ${infinitive} el siguiente paso antes del viernes?`],
-      french: [`Nous allons ${infinitive} ce point avant la réunion.`, `Peux-tu ${infinitive} la prochaine étape avant vendredi ?`],
-      italian: [`Dobbiamo ${infinitive} questo punto prima della riunione.`, `Puoi ${infinitive} il prossimo passo entro venerdì?`],
-      portuguese: [`Precisamos ${infinitive} este ponto antes da reunião.`, `Você pode ${infinitive} o próximo passo até sexta-feira?`],
-      german: [`Wir müssen diesen Punkt vor dem Treffen ${infinitive}.`, `Kannst du den nächsten Schritt bis Freitag ${infinitive}?`]
+    const practicalFallbackSets = {
+      spanish: [
+        [`Vamos a ${infinitive} este punto antes de la reunión.`, `¿Puedes ${infinitive} el siguiente paso antes del viernes?`],
+        [`Necesitamos ${infinitive} con calma para tomar una buena decisión.`, `Hoy podemos ${infinitive} esta tarea juntos.`],
+        [`Es importante ${infinitive} cuando la situación lo requiere.`, `¿Cuándo te resulta más fácil ${infinitive}?`]
+      ],
+      french: [
+        [`Nous allons ${infinitive} ce point avant la réunion.`, `Peux-tu ${infinitive} la prochaine étape avant vendredi ?`],
+        [`Il faut ${infinitive} avec attention pour bien décider.`, `Aujourd’hui, nous pouvons ${infinitive} cette tâche ensemble.`],
+        [`C’est utile de ${infinitive} dans cette situation.`, `Quand est-ce plus facile de ${infinitive} ?`]
+      ],
+      italian: [
+        [`Dobbiamo ${infinitive} questo punto prima della riunione.`, `Puoi ${infinitive} il prossimo passo entro venerdì?`],
+        [`È importante ${infinitive} con attenzione in questa situazione.`, `Oggi possiamo ${infinitive} questo compito insieme.`],
+        [`Cerchiamo di ${infinitive} prima di prendere una decisione.`, `Quando è più facile ${infinitive}?`]
+      ],
+      portuguese: [
+        [`Precisamos ${infinitive} este ponto antes da reunião.`, `Você pode ${infinitive} o próximo passo até sexta-feira?`],
+        [`É importante ${infinitive} com atenção nesta situação.`, `Hoje podemos ${infinitive} esta tarefa juntos.`],
+        [`Vamos tentar ${infinitive} antes de tomar uma decisão.`, `Quando é mais fácil ${infinitive}?`]
+      ],
+      german: [
+        [`Wir müssen diesen Punkt vor dem Treffen ${infinitive}.`, `Kannst du den nächsten Schritt bis Freitag ${infinitive}?`],
+        [`Es ist wichtig, in dieser Situation sorgfältig zu ${infinitive}.`, `Heute können wir diese Aufgabe gemeinsam ${infinitive}.`],
+        [`Wir versuchen, vor einer Entscheidung zu ${infinitive}.`, `Wann ist es leichter, zu ${infinitive}?`]
+      ]
     };
-    const fallbacks = practicalFallbacks[raw.language] || [];
+    const sets = practicalFallbackSets[raw.language] || [];
+    const index = stableVerbIndex(raw, sets.length || 1);
+    const fallbacks = sets[index] || [];
     return [...authored, ...fallbacks.filter((text) => !authored.includes(text))].slice(0, 2);
   }
 
