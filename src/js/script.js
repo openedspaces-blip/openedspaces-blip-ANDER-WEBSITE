@@ -1137,18 +1137,74 @@ function getEffectiveInterfaceLanguage() {
 // refreshes the narrower language-pair-selector chrome (refreshLanguagePairChrome)
 // and <html lang> so the two interface-language mechanisms never disagree.
 const ANDERGO_DIFFERENCE_COPY = {
-  spanish: ['ANDERGO · REPÚBLICA DOMINICANA', 'Una forma conectada de aprender idiomas', 'Desde República Dominicana, reunimos rutas claras, práctica real y acompañamiento inteligente para ayudarte a comunicarte con confianza.', 'Seis idiomas en una sola plataforma.', 'Una ruta guiada por nivel y lección.', 'Tutor I.A. que corrige y continúa la conversación.', 'Práctica para leer, escuchar, hablar y escribir.'],
-  english: ['ANDERGO · DOMINICAN REPUBLIC', 'A connected way to learn languages', 'From the Dominican Republic, we bring together clear learning paths, real practice and intelligent support so you can communicate with confidence.', 'Six languages on one platform.', 'A guided path by level and lesson.', 'An AI Tutor that corrects and keeps the conversation going.', 'Practice reading, listening, speaking and writing.'],
-  french: ['ANDERGO · RÉPUBLIQUE DOMINICAINE', 'Une façon connectée d’apprendre les langues', 'Depuis la République dominicaine, nous réunissons des parcours clairs, une pratique réelle et un accompagnement intelligent pour vous aider à communiquer avec confiance.', 'Six langues sur une seule plateforme.', 'Un parcours guidé par niveau et leçon.', 'Un tuteur IA qui corrige et poursuit la conversation.', 'Pratiquez la lecture, l’écoute, l’expression orale et écrite.'],
-  italian: ['ANDERGO · REPUBBLICA DOMINICANA', 'Un modo connesso di imparare le lingue', 'Dalla Repubblica Dominicana riuniamo percorsi chiari, pratica reale e supporto intelligente per aiutarti a comunicare con sicurezza.', 'Sei lingue in un’unica piattaforma.', 'Un percorso guidato per livello e lezione.', 'Un Tutor IA che corregge e continua la conversazione.', 'Pratica lettura, ascolto, espressione orale e scrittura.'],
-  portuguese: ['ANDERGO · REPÚBLICA DOMINICANA', 'Uma forma conectada de aprender idiomas', 'Da República Dominicana, reunimos percursos claros, prática real e apoio inteligente para ajudar você a se comunicar com confiança.', 'Seis idiomas em uma única plataforma.', 'Um percurso guiado por nível e lição.', 'Tutor de IA que corrige e mantém a conversa.', 'Pratique leitura, escuta, fala e escrita.'],
-  german: ['ANDERGO · DOMINIKANISCHE REPUBLIK', 'Sprachen vernetzt lernen', 'Von der Dominikanischen Republik aus verbinden wir klare Lernwege, echte Praxis und intelligente Begleitung, damit du sicher kommunizieren kannst.', 'Sechs Sprachen auf einer Plattform.', 'Ein geführter Weg nach Niveau und Lektion.', 'Ein KI-Tutor, der korrigiert und das Gespräch fortsetzt.', 'Übe Lesen, Hören, Sprechen und Schreiben.']
+  spanish: [
+    'ANDERGO · REPÚBLICA DOMINICANA',
+    'Una forma conectada de aprender idiomas',
+    'Desde República Dominicana, reunimos rutas claras, práctica real y acompañamiento inteligente para ayudarte a comunicarte con confianza.',
+    'Seis idiomas en una sola plataforma.',
+    'Una ruta guiada por nivel y lección.',
+    'Tutor I.A. que corrige y continúa la conversación.',
+    'Práctica para leer, escuchar, hablar y escribir.'
+  ],
+  english: [
+    'ANDERGO · DOMINICAN REPUBLIC',
+    'A connected way to learn languages',
+    'From the Dominican Republic, we bring together clear learning paths, real practice and intelligent support so you can communicate with confidence.',
+    'Six languages on one platform.',
+    'A guided path by level and lesson.',
+    'An AI Tutor that corrects and keeps the conversation going.',
+    'Practice reading, listening, speaking and writing.'
+  ],
+  french: [
+    'ANDERGO · RÉPUBLIQUE DOMINICAINE',
+    'Une façon connectée d’apprendre les langues',
+    'Depuis la République dominicaine, nous réunissons des parcours clairs, une pratique réelle et un accompagnement intelligent pour vous aider à communiquer avec confiance.',
+    'Six langues sur une seule plateforme.',
+    'Un parcours guidé par niveau et leçon.',
+    'Un tuteur IA qui corrige et poursuit la conversation.',
+    'Pratiquez la lecture, l’écoute, l’expression orale et écrite.'
+  ],
+  italian: [
+    'ANDERGO · REPUBBLICA DOMINICANA',
+    'Un modo connesso di imparare le lingue',
+    'Dalla Repubblica Dominicana riuniamo percorsi chiari, pratica reale e supporto intelligente per aiutarti a comunicare con sicurezza.',
+    'Sei lingue in un’unica piattaforma.',
+    'Un percorso guidato per livello e lezione.',
+    'Un Tutor IA che corregge e continua la conversazione.',
+    'Pratica lettura, ascolto, espressione orale e scrittura.'
+  ],
+  portuguese: [
+    'ANDERGO · REPÚBLICA DOMINICANA',
+    'Uma forma conectada de aprender idiomas',
+    'Da República Dominicana, reunimos percursos claros, prática real e apoio inteligente para ajudar você a se comunicar com confiança.',
+    'Seis idiomas em uma única plataforma.',
+    'Um percurso guiado por nível e lição.',
+    'Tutor de IA que corrige e mantém a conversa.',
+    'Pratique leitura, escuta, fala e escrita.'
+  ],
+  german: [
+    'ANDERGO · DOMINIKANISCHE REPUBLIK',
+    'Sprachen vernetzt lernen',
+    'Von der Dominikanischen Republik aus verbinden wir klare Lernwege, echte Praxis und intelligente Begleitung, damit du sicher kommunizieren kannst.',
+    'Sechs Sprachen auf einer Plattform.',
+    'Ein geführter Weg nach Niveau und Lektion.',
+    'Ein KI-Tutor, der korrigiert und das Gespräch fortsetzt.',
+    'Übe Lesen, Hören, Sprechen und Schreiben.'
+  ]
 };
 
 function renderAndergoDifferenceCopy(language) {
   const copy = ANDERGO_DIFFERENCE_COPY[language] || ANDERGO_DIFFERENCE_COPY.spanish;
   document.querySelectorAll('[data-andergo-difference]').forEach((element) => {
-    const index = ['eyebrow', 'title', 'intro', 'benefit1', 'benefit2', 'benefit3', 'benefit4'].indexOf(element.dataset.andergoDifference);
+    const index = [
+      'eyebrow',
+      'title',
+      'intro',
+      'benefit1',
+      'benefit2',
+      'benefit3',
+      'benefit4'
+    ].indexOf(element.dataset.andergoDifference);
     if (index >= 0) element.textContent = copy[index];
   });
 }
@@ -1560,7 +1616,7 @@ const PORTUGUESE_SPANISH_A1_GLOSSES = {
   prazer: 'mucho gusto',
   obrigada: 'gracias',
   café: 'café',
-  'pão': 'pan',
+  pão: 'pan',
   água: 'agua',
   'por favor': 'por favor',
   família: 'familia',
@@ -1615,7 +1671,10 @@ function isGeneratedVocabularySupport(value, word = '') {
   const match = /^english support:\s*(.+)$/i.exec(String(value || '').trim());
   return Boolean(
     match &&
-      match[1].trim().toLocaleLowerCase() === String(word || '').trim().toLocaleLowerCase()
+    match[1].trim().toLocaleLowerCase() ===
+      String(word || '')
+        .trim()
+        .toLocaleLowerCase()
   );
 }
 
@@ -1623,7 +1682,9 @@ function getAuthoredSpanishVocabGloss(item, targetLanguage) {
   const word = String(item.word || item.targetWord || '')
     .trim()
     .toLocaleLowerCase();
-  const needsGloss = !String(item?.translation || '').trim() || isVocabularyTranslationPlaceholder(item?.translation);
+  const needsGloss =
+    !String(item?.translation || '').trim() ||
+    isVocabularyTranslationPlaceholder(item?.translation);
   if (!needsGloss) return '';
   if (targetLanguage === 'italian') return ITALIAN_SPANISH_CORE_GLOSSES[word] || '';
   if (targetLanguage === 'portuguese') return PORTUGUESE_SPANISH_A1_GLOSSES[word] || '';
@@ -3547,9 +3608,11 @@ async function beginOAuth(button, provider) {
   // error before handing control to Google so the modal cannot suggest that
   // the two login methods are being combined.
   const activeForm = document.querySelector('.auth-form.active');
-  activeForm?.querySelectorAll('input[type="text"], input[type="email"], input[type="password"]').forEach((input) => {
-    input.value = '';
-  });
+  activeForm
+    ?.querySelectorAll('input[type="text"], input[type="email"], input[type="password"]')
+    .forEach((input) => {
+      input.value = '';
+    });
   setAuthMessage(`Continuando con ${providerLabel}…`);
   if (button) {
     button.disabled = true;
@@ -3613,13 +3676,15 @@ async function initOAuthCallback(provider) {
       data = exchanged.data;
       error = null;
     }
-    if (error || !data.session?.access_token) throw error || new Error(`No recibimos una sesión de ${provider}.`);
+    if (error || !data.session?.access_token)
+      throw error || new Error(`No recibimos una sesión de ${provider}.`);
 
     const response = await fetch(`${backendBaseUrl}/api/user`, {
       headers: { Authorization: `Bearer ${data.session.access_token}` }
     });
     const payload = await response.json().catch(() => null);
-    if (!response.ok || !payload?.user) throw new Error(payload?.error || 'No pudimos abrir tu cuenta.');
+    if (!response.ok || !payload?.user)
+      throw new Error(payload?.error || 'No pudimos abrir tu cuenta.');
 
     saveSession(payload.user, data.session);
     history.replaceState(null, '', `${window.location.pathname}#learn`);
@@ -5954,7 +6019,9 @@ function renderUnitSequenceStepsHtml(unitId, currentSkill = '') {
   const activities = getUnitActivities(unitId);
   const routeActivities = activities;
   const recommendedLesson =
-    routeActivities.find((lesson) => !lesson.completed && !lesson.locked) || routeActivities[0] || null;
+    routeActivities.find((lesson) => !lesson.completed && !lesson.locked) ||
+    routeActivities[0] ||
+    null;
   const steps = routeActivities
     .map((lesson, index) => {
       const isCurrent = lesson.skill === currentSkill;
@@ -6139,7 +6206,12 @@ function openVocabularyFromMainNav() {
 // lets learners choose a language, level and unit, while each unit remains a
 // single access product: its three readings always open or lock together.
 const READING_LIBRARY_LANGUAGES = Object.freeze([
-  'english', 'spanish', 'french', 'italian', 'portuguese', 'german'
+  'english',
+  'spanish',
+  'french',
+  'italian',
+  'portuguese',
+  'german'
 ]);
 
 function getReadingLibraryFreeCopy(level) {
@@ -6169,12 +6241,10 @@ function renderReadingLibrary() {
   const readings = getSkillActivities('reading').sort(
     (a, b) => Number(a.unitOrder || 0) - Number(b.unitOrder || 0)
   );
-  const languageOptions = READING_LIBRARY_LANGUAGES
-    .map(
-      (key) =>
-        `<option value="${escapeHtml(key)}" ${key === language ? 'selected' : ''}>${escapeHtml(languageDisplayNames[key])}</option>`
-    )
-    .join('');
+  const languageOptions = READING_LIBRARY_LANGUAGES.map(
+    (key) =>
+      `<option value="${escapeHtml(key)}" ${key === language ? 'selected' : ''}>${escapeHtml(languageDisplayNames[key])}</option>`
+  ).join('');
   const levelOptions = getAvailableCourseLevels(language, { includePreA1: false })
     .map(
       (item) =>
@@ -6183,7 +6253,8 @@ function renderReadingLibrary() {
     .join('');
 
   if (!readings.length) {
-    host.innerHTML = '<p class="skill-graph-empty">No hay lecturas disponibles para esta combinación todavía.</p>';
+    host.innerHTML =
+      '<p class="skill-graph-empty">No hay lecturas disponibles para esta combinación todavía.</p>';
     return;
   }
 
@@ -6256,7 +6327,8 @@ function renderReadingLibrary() {
       if (lesson.locked && !isPremiumUser()) {
         openPaywallModal({
           title: 'Esta unidad de Lecturas es Premium.',
-          message: 'Premium desbloquea las tres lecturas complementarias de esta unidad y el resto del nivel.'
+          message:
+            'Premium desbloquea las tres lecturas complementarias de esta unidad y el resto del nivel.'
         });
         return;
       }
@@ -6594,9 +6666,7 @@ function renderSkillUnitSequence(section, lesson) {
   const routeActivities = activities;
   const currentIndex = Math.max(
     0,
-    routeActivities.findIndex(
-      (item) => item.slug === lesson.slug && item.skill === lesson.skill
-    )
+    routeActivities.findIndex((item) => item.slug === lesson.slug && item.skill === lesson.skill)
   );
   const nextLesson = routeActivities.slice(currentIndex + 1).find((item) => !item.locked) || null;
   const total = routeActivities.length + 1;
@@ -9617,10 +9687,18 @@ const UNIT_SLUG_ARTWORK = {
   // Efemérides y tradiciones are curriculum themes, not decoration. These
   // route labels make their place visible before the learner opens Reading.
   'fourth-of-july': { emoji: '📅', label: 'efemérides, historia y ciudadanía', tone: 'sun' },
-  'cultura-y-tradiciones': { emoji: '🎭', label: 'tradiciones, Carnaval y memoria', tone: 'violet' },
+  'cultura-y-tradiciones': {
+    emoji: '🎭',
+    label: 'tradiciones, Carnaval y memoria',
+    tone: 'violet'
+  },
   'una-festa-di-quartiere': { emoji: '🎉', label: 'fiestas y ciudadanía italiana', tone: 'sun' },
   'uma-roda-cultural': { emoji: '🥁', label: 'cultura afrobrasileña y memoria', tone: 'violet' },
-  'feste-und-traditionen': { emoji: '🏛️', label: 'fiestas, tradición e historia alemana', tone: 'sun' }
+  'feste-und-traditionen': {
+    emoji: '🏛️',
+    label: 'fiestas, tradición e historia alemana',
+    tone: 'sun'
+  }
 };
 
 // Original route illustrations are generated as compact 4x3 sheets. This
@@ -11221,14 +11299,12 @@ function renderReadingTranslationResult(popover, state, translation) {
   popover
     .querySelector('.reading-translation-close')
     ?.addEventListener('click', () => closeReadingTranslationPopover({ clearSelection: true }));
-  popover
-    .querySelector('.reading-translation-listen')
-    ?.addEventListener('click', () =>
-      speakText(state.term, {
-        locale,
-        rate: getDefaultPronunciationRate(state.sourceLanguage, state.lesson?.level)
-      })
-    );
+  popover.querySelector('.reading-translation-listen')?.addEventListener('click', () =>
+    speakText(state.term, {
+      locale,
+      rate: getDefaultPronunciationRate(state.sourceLanguage, state.lesson?.level)
+    })
+  );
   popover.querySelector('.reading-translation-open')?.addEventListener('click', () => {
     openTranslator({
       text: state.term,
@@ -11796,7 +11872,18 @@ const READING_ILLUSTRATION_THEMES = [
       'quartier',
       'comunidad',
       'voluntario',
-      'barrio'
+      'barrio',
+      'comunita',
+      'quartiere',
+      'gemeinsam',
+      'gemeinschaft',
+      'bairro',
+      'cidadania',
+      'cittadinanza',
+      'repubblica',
+      'indipendenza',
+      'unita',
+      'unidade'
     ]
   },
   {
@@ -11815,7 +11902,18 @@ const READING_ILLUSTRATION_THEMES = [
       'cultura',
       'arte',
       'música',
-      'película'
+      'película',
+      'festa',
+      'fest',
+      'karneval',
+      'carnevale',
+      'carnaval',
+      'maschere',
+      'musica',
+      'tradicão',
+      'tradicao',
+      'tradizione',
+      'tradition'
     ]
   },
   {
@@ -12250,34 +12348,88 @@ const READING_CULTURAL_CALENDAR = Object.freeze({
 // lesson data, always take precedence over these programme texts.
 const READING_COMPANION_PROGRAMME = Object.freeze({
   english: [
-    ['Thanksgiving and community', 'Thanksgiving is observed in November in the United States. Families often share a meal, but many communities also organise food collections and volunteer work. The date can be a starting point for talking about gratitude, history and different family traditions.'],
-    ['St Patrick’s Day', 'St Patrick’s Day is celebrated on 17 March in Ireland and in many communities around the world. Music, parades and the colour green are familiar symbols, while the day also invites learners to discover Irish history and culture.'],
-    ['Guy Fawkes Night', 'On 5 November, many people in the United Kingdom remember Guy Fawkes Night with lights and fireworks. It is a useful example of how a historical event can become a modern community tradition.']
+    [
+      'Thanksgiving and community',
+      'Thanksgiving is observed in November in the United States. Families often share a meal, but many communities also organise food collections and volunteer work. The date can be a starting point for talking about gratitude, history and different family traditions.'
+    ],
+    [
+      'St Patrick’s Day',
+      'St Patrick’s Day is celebrated on 17 March in Ireland and in many communities around the world. Music, parades and the colour green are familiar symbols, while the day also invites learners to discover Irish history and culture.'
+    ],
+    [
+      'Guy Fawkes Night',
+      'On 5 November, many people in the United Kingdom remember Guy Fawkes Night with lights and fireworks. It is a useful example of how a historical event can become a modern community tradition.'
+    ]
   ],
   spanish: [
-    ['Carnaval dominicano', 'El Carnaval dominicano reúne música, comparsas y personajes como el Diablo Cojuelo. Se celebra especialmente en febrero y conecta la fiesta con la memoria, la creatividad y la identidad de cada comunidad.'],
-    ['Día de la Independencia', 'El 27 de febrero la República Dominicana conmemora su independencia. Los actos escolares, la bandera y las historias familiares ayudan a relacionar una efeméride con la ciudadanía y la vida cotidiana.'],
-    ['Noche de San Juan', 'En muchas comunidades hispanas, la noche de San Juan se vive con música, reuniones y ritos junto al agua. Las costumbres cambian según el lugar, pero la celebración conserva un fuerte sentido de encuentro.']
+    [
+      'Carnaval dominicano',
+      'El Carnaval dominicano reúne música, comparsas y personajes como el Diablo Cojuelo. Se celebra especialmente en febrero y conecta la fiesta con la memoria, la creatividad y la identidad de cada comunidad.'
+    ],
+    [
+      'Día de la Independencia',
+      'El 27 de febrero la República Dominicana conmemora su independencia. Los actos escolares, la bandera y las historias familiares ayudan a relacionar una efeméride con la ciudadanía y la vida cotidiana.'
+    ],
+    [
+      'Noche de San Juan',
+      'En muchas comunidades hispanas, la noche de San Juan se vive con música, reuniones y ritos junto al agua. Las costumbres cambian según el lugar, pero la celebración conserva un fuerte sentido de encuentro.'
+    ]
   ],
   french: [
-    ['La Fête de la Musique', 'Le 21 juin, la Fête de la Musique transforme souvent les rues et les places en scènes ouvertes. Des musiciens amateurs et professionnels y partagent des styles très différents avec le public.'],
-    ['Le 14 juillet', 'Le 14 juillet est la fête nationale française. Les défilés et les feux d’artifice rappellent l’histoire civique du pays, mais la journée est aussi un moment de rencontre dans les villes et les villages.'],
-    ['La Chandeleur', 'À la Chandeleur, le 2 février, beaucoup de familles préparent des crêpes. Cette coutume simple permet de parler de cuisine, de gestes transmis et de la place des traditions dans la vie quotidienne.']
+    [
+      'La Fête de la Musique',
+      'Le 21 juin, la Fête de la Musique transforme souvent les rues et les places en scènes ouvertes. Des musiciens amateurs et professionnels y partagent des styles très différents avec le public.'
+    ],
+    [
+      'Le 14 juillet',
+      'Le 14 juillet est la fête nationale française. Les défilés et les feux d’artifice rappellent l’histoire civique du pays, mais la journée est aussi un moment de rencontre dans les villes et les villages.'
+    ],
+    [
+      'La Chandeleur',
+      'À la Chandeleur, le 2 février, beaucoup de familles préparent des crêpes. Cette coutume simple permet de parler de cuisine, de gestes transmis et de la place des traditions dans la vie quotidienne.'
+    ]
   ],
   italian: [
-    ['La Festa della Repubblica', 'Il 2 giugno l’Italia celebra la Festa della Repubblica. La ricorrenza ricorda il referendum del 1946 e collega una giornata pubblica alla partecipazione, alla storia e alla vita civica.'],
-    ['Il Carnevale di Venezia', 'Il Carnevale di Venezia è conosciuto per le maschere e i costumi. Dietro le immagini famose ci sono artigiani, spettacoli e una lunga tradizione che dà vita alla città durante l’inverno.'],
-    ['Ferragosto', 'Ferragosto, il 15 agosto, è per molte famiglie italiane un momento di riposo e di viaggio. Le abitudini cambiano da regione a regione, ma il pranzo insieme resta un simbolo importante.']
+    [
+      'La Festa della Repubblica',
+      'Il 2 giugno l’Italia celebra la Festa della Repubblica. La ricorrenza ricorda il referendum del 1946 e collega una giornata pubblica alla partecipazione, alla storia e alla vita civica.'
+    ],
+    [
+      'Il Carnevale di Venezia',
+      'Il Carnevale di Venezia è conosciuto per le maschere e i costumi. Dietro le immagini famose ci sono artigiani, spettacoli e una lunga tradizione che dà vita alla città durante l’inverno.'
+    ],
+    [
+      'Ferragosto',
+      'Ferragosto, il 15 agosto, è per molte famiglie italiane un momento di riposo e di viaggio. Le abitudini cambiano da regione a regione, ma il pranzo insieme resta un simbolo importante.'
+    ]
   ],
   portuguese: [
-    ['Festa Junina', 'As festas juninas reúnem música, comidas típicas e danças em muitas cidades brasileiras. Elas mostram como uma tradição pode criar encontro entre gerações, escolas e bairros.'],
-    ['Dia da Consciência Negra', 'No dia 20 de novembro, o Brasil reconhece o Dia da Consciência Negra. A data valoriza as contribuições afro-brasileiras e convida a conhecer histórias, artistas e comunidades.'],
-    ['Carnaval e comunidade', 'O Carnaval brasileiro é conhecido pela música e pelos desfiles, mas também inclui blocos de bairro e iniciativas comunitárias. Cada cidade cria maneiras próprias de celebrar e participar.']
+    [
+      'Festa Junina',
+      'As festas juninas reúnem música, comidas típicas e danças em muitas cidades brasileiras. Elas mostram como uma tradição pode criar encontro entre gerações, escolas e bairros.'
+    ],
+    [
+      'Dia da Consciência Negra',
+      'No dia 20 de novembro, o Brasil reconhece o Dia da Consciência Negra. A data valoriza as contribuições afro-brasileiras e convida a conhecer histórias, artistas e comunidades.'
+    ],
+    [
+      'Carnaval e comunidade',
+      'O Carnaval brasileiro é conhecido pela música e pelos desfiles, mas também inclui blocos de bairro e iniciativas comunitárias. Cada cidade cria maneiras próprias de celebrar e participar.'
+    ]
   ],
   german: [
-    ['Tag der Deutschen Einheit', 'Am 3. Oktober erinnert der Tag der Deutschen Einheit an die Wiedervereinigung Deutschlands. Die Feier verbindet Geschichte, Erinnerung und die Frage, wie Menschen heute zusammenleben.'],
-    ['Karneval', 'Karneval wird in verschiedenen Regionen Deutschlands auf unterschiedliche Weise gefeiert. Kostüme, Musik und Umzüge schaffen eine festliche Atmosphäre und zeigen lokale Eigenarten.'],
-    ['Weihnachtsmärkte', 'In der Adventszeit besuchen viele Menschen Weihnachtsmärkte. Dort treffen sich Handwerk, Essen, Musik und alte Gewohnheiten; zugleich hat jede Stadt ihre eigenen kleinen Traditionen.']
+    [
+      'Tag der Deutschen Einheit',
+      'Am 3. Oktober erinnert der Tag der Deutschen Einheit an die Wiedervereinigung Deutschlands. Die Feier verbindet Geschichte, Erinnerung und die Frage, wie Menschen heute zusammenleben.'
+    ],
+    [
+      'Karneval',
+      'Karneval wird in verschiedenen Regionen Deutschlands auf unterschiedliche Weise gefeiert. Kostüme, Musik und Umzüge schaffen eine festliche Atmosphäre und zeigen lokale Eigenarten.'
+    ],
+    [
+      'Weihnachtsmärkte',
+      'In der Adventszeit besuchen viele Menschen Weihnachtsmärkte. Dort treffen sich Handwerk, Essen, Musik und alte Gewohnheiten; zugleich hat jede Stadt ihre eigenen kleinen Traditionen.'
+    ]
   ]
 });
 
@@ -12317,92 +12469,104 @@ function buildComparableCompanionReading({ lesson, title, seedText, kind }) {
     (lesson.reading?.parts || []).join('\n\n') ||
     getReadingParagraphs(lesson).join('\n\n');
   const targetWords = Math.max(1, readingWordCount(primaryText));
-  const topic = String(lesson.title || lesson.description || '').replace(/\s*·\s*(Reading|Lectura|Lecture|Lettura|Leitura|Lesen).*$/i, '').trim();
+  const topic = String(lesson.title || lesson.description || '')
+    .replace(/\s*·\s*(Reading|Lectura|Lecture|Lettura|Leitura|Lesen).*$/i, '')
+    .trim();
   const frames = {
-    english: kind === 'culture'
-      ? [
-          `${title} offers a concrete way to observe how public memory is kept alive in everyday life.`,
-          `People of different ages take part, share stories and connect the event with their neighbourhood.`,
-          `For a learner, this is useful language practice: notices, conversations and small gestures all give meaning to the celebration.`,
-          `The tradition is not identical everywhere, so comparing personal experiences helps us avoid simple stereotypes.`
-        ]
-      : [
-          `In this situation, people use ${topic} to solve a real and manageable problem together.`,
-          `They listen carefully, explain their reasons and choose a next step that everyone can understand.`,
-          `The exchange shows how ordinary language becomes useful when people need to cooperate in a community.`,
-          `Different viewpoints remain possible, but respectful questions make the final decision clearer.`
-        ],
-    spanish: kind === 'culture'
-      ? [
-          `${title} permite observar cómo la memoria pública se mantiene viva en la vida cotidiana.`,
-          `Personas de distintas edades participan, comparten historias y relacionan la fecha con su comunidad.`,
-          `Para quien aprende la lengua, los avisos, las conversaciones y los pequeños gestos dan un contexto real a las palabras.`,
-          `La tradición cambia según el lugar; comparar experiencias ayuda a evitar explicaciones demasiado simples.`
-        ]
-      : [
-          `En esta situación, un grupo utiliza ${topic} para resolver juntos un problema concreto.`,
-          `Escuchan con atención, explican sus razones y eligen un siguiente paso que todos pueden comprender.`,
-          `El intercambio muestra que la lengua cotidiana sirve para cooperar y participar en una comunidad.`,
-          `Pueden existir puntos de vista distintos, pero las preguntas respetuosas aclaran la decisión final.`
-        ],
-    french: kind === 'culture'
-      ? [
-          `${title} permet d’observer comment une mémoire publique reste présente dans la vie quotidienne.`,
-          `Des personnes de différents âges participent, partagent des récits et relient la date à leur quartier.`,
-          `Pour l’apprenant, les affiches, les échanges et les gestes ordinaires donnent un contexte réel aux mots nouveaux.`,
-          `La tradition varie selon les lieux : comparer les expériences évite les explications trop simples.`
-        ]
-      : [
-          `Dans cette situation, un groupe utilise ${topic} pour résoudre ensemble un problème concret.`,
-          `Les participants écoutent avec attention, expliquent leurs raisons et choisissent une prochaine étape compréhensible.`,
-          `L’échange montre que la langue quotidienne permet de coopérer et de participer à la vie collective.`,
-          `Les points de vue peuvent rester différents, mais des questions respectueuses clarifient la décision finale.`
-        ],
-    italian: kind === 'culture'
-      ? [
-          `${title} permette di osservare come una memoria pubblica resti presente nella vita quotidiana.`,
-          `Persone di età diverse partecipano, condividono racconti e collegano la data al proprio quartiere.`,
-          `Per chi studia la lingua, avvisi, conversazioni e piccoli gesti danno alle parole un contesto reale.`,
-          `La tradizione cambia da luogo a luogo; confrontare le esperienze evita spiegazioni troppo semplici.`
-        ]
-      : [
-          `In questa situazione, un gruppo usa ${topic} per risolvere insieme un problema concreto.`,
-          `I partecipanti ascoltano con attenzione, spiegano le proprie ragioni e scelgono un passo comprensibile per tutti.`,
-          `Lo scambio mostra che la lingua quotidiana serve a collaborare e a partecipare alla vita della comunità.`,
-          `I punti di vista possono restare diversi, ma le domande rispettose rendono più chiara la decisione finale.`
-        ],
-    portuguese: kind === 'culture'
-      ? [
-          `${title} permite observar como uma memória pública continua presente na vida cotidiana.`,
-          `Pessoas de diferentes idades participam, compartilham histórias e ligam a data ao próprio bairro.`,
-          `Para quem aprende a língua, avisos, conversas e pequenos gestos dão às palavras um contexto real.`,
-          `A tradição muda conforme o lugar; comparar experiências evita explicações demasiado simples.`
-        ]
-      : [
-          `Nesta situação, um grupo usa ${topic} para resolver junto um problema concreto.`,
-          `As pessoas escutam com atenção, explicam suas razões e escolhem um próximo passo compreensível para todos.`,
-          `A troca mostra que a língua cotidiana serve para colaborar e participar da vida da comunidade.`,
-          `Os pontos de vista podem continuar diferentes, mas perguntas respeitosas deixam a decisão final mais clara.`
-        ],
-    german: kind === 'culture'
-      ? [
-          `${title} zeigt, wie öffentliche Erinnerung im Alltag lebendig bleiben kann.`,
-          `Menschen unterschiedlichen Alters nehmen teil, erzählen Geschichten und verbinden das Datum mit ihrem Stadtteil.`,
-          `Für Lernende geben Hinweise, Gespräche und kleine Gesten den neuen Wörtern einen echten Zusammenhang.`,
-          `Die Tradition ist je nach Ort anders; ein Vergleich der Erfahrungen verhindert zu einfache Erklärungen.`
-        ]
-      : [
-          `In dieser Situation nutzt eine Gruppe ${topic}, um gemeinsam ein konkretes Problem zu lösen.`,
-          `Die Beteiligten hören genau zu, begründen ihre Ideen und wählen einen nächsten Schritt, den alle verstehen können.`,
-          `Der Austausch zeigt, dass Alltagssprache hilft, zusammenzuarbeiten und am Leben der Gemeinschaft teilzunehmen.`,
-          `Unterschiedliche Sichtweisen bleiben möglich, doch respektvolle Fragen machen die Entscheidung klarer.`
-        ]
+    english:
+      kind === 'culture'
+        ? [
+            `${title} offers a concrete way to observe how public memory is kept alive in everyday life.`,
+            `People of different ages take part, share stories and connect the event with their neighbourhood.`,
+            `For a learner, this is useful language practice: notices, conversations and small gestures all give meaning to the celebration.`,
+            `The tradition is not identical everywhere, so comparing personal experiences helps us avoid simple stereotypes.`
+          ]
+        : [
+            `In this situation, people use ${topic} to solve a real and manageable problem together.`,
+            `They listen carefully, explain their reasons and choose a next step that everyone can understand.`,
+            `The exchange shows how ordinary language becomes useful when people need to cooperate in a community.`,
+            `Different viewpoints remain possible, but respectful questions make the final decision clearer.`
+          ],
+    spanish:
+      kind === 'culture'
+        ? [
+            `${title} permite observar cómo la memoria pública se mantiene viva en la vida cotidiana.`,
+            `Personas de distintas edades participan, comparten historias y relacionan la fecha con su comunidad.`,
+            `Para quien aprende la lengua, los avisos, las conversaciones y los pequeños gestos dan un contexto real a las palabras.`,
+            `La tradición cambia según el lugar; comparar experiencias ayuda a evitar explicaciones demasiado simples.`
+          ]
+        : [
+            `En esta situación, un grupo utiliza ${topic} para resolver juntos un problema concreto.`,
+            `Escuchan con atención, explican sus razones y eligen un siguiente paso que todos pueden comprender.`,
+            `El intercambio muestra que la lengua cotidiana sirve para cooperar y participar en una comunidad.`,
+            `Pueden existir puntos de vista distintos, pero las preguntas respetuosas aclaran la decisión final.`
+          ],
+    french:
+      kind === 'culture'
+        ? [
+            `${title} permet d’observer comment une mémoire publique reste présente dans la vie quotidienne.`,
+            `Des personnes de différents âges participent, partagent des récits et relient la date à leur quartier.`,
+            `Pour l’apprenant, les affiches, les échanges et les gestes ordinaires donnent un contexte réel aux mots nouveaux.`,
+            `La tradition varie selon les lieux : comparer les expériences évite les explications trop simples.`
+          ]
+        : [
+            `Dans cette situation, un groupe utilise ${topic} pour résoudre ensemble un problème concret.`,
+            `Les participants écoutent avec attention, expliquent leurs raisons et choisissent une prochaine étape compréhensible.`,
+            `L’échange montre que la langue quotidienne permet de coopérer et de participer à la vie collective.`,
+            `Les points de vue peuvent rester différents, mais des questions respectueuses clarifient la décision finale.`
+          ],
+    italian:
+      kind === 'culture'
+        ? [
+            `${title} permette di osservare come una memoria pubblica resti presente nella vita quotidiana.`,
+            `Persone di età diverse partecipano, condividono racconti e collegano la data al proprio quartiere.`,
+            `Per chi studia la lingua, avvisi, conversazioni e piccoli gesti danno alle parole un contesto reale.`,
+            `La tradizione cambia da luogo a luogo; confrontare le esperienze evita spiegazioni troppo semplici.`
+          ]
+        : [
+            `In questa situazione, un gruppo usa ${topic} per risolvere insieme un problema concreto.`,
+            `I partecipanti ascoltano con attenzione, spiegano le proprie ragioni e scelgono un passo comprensibile per tutti.`,
+            `Lo scambio mostra che la lingua quotidiana serve a collaborare e a partecipare alla vita della comunità.`,
+            `I punti di vista possono restare diversi, ma le domande rispettose rendono più chiara la decisione finale.`
+          ],
+    portuguese:
+      kind === 'culture'
+        ? [
+            `${title} permite observar como uma memória pública continua presente na vida cotidiana.`,
+            `Pessoas de diferentes idades participam, compartilham histórias e ligam a data ao próprio bairro.`,
+            `Para quem aprende a língua, avisos, conversas e pequenos gestos dão às palavras um contexto real.`,
+            `A tradição muda conforme o lugar; comparar experiências evita explicações demasiado simples.`
+          ]
+        : [
+            `Nesta situação, um grupo usa ${topic} para resolver junto um problema concreto.`,
+            `As pessoas escutam com atenção, explicam suas razões e escolhem um próximo passo compreensível para todos.`,
+            `A troca mostra que a língua cotidiana serve para colaborar e participar da vida da comunidade.`,
+            `Os pontos de vista podem continuar diferentes, mas perguntas respeitosas deixam a decisão final mais clara.`
+          ],
+    german:
+      kind === 'culture'
+        ? [
+            `${title} zeigt, wie öffentliche Erinnerung im Alltag lebendig bleiben kann.`,
+            `Menschen unterschiedlichen Alters nehmen teil, erzählen Geschichten und verbinden das Datum mit ihrem Stadtteil.`,
+            `Für Lernende geben Hinweise, Gespräche und kleine Gesten den neuen Wörtern einen echten Zusammenhang.`,
+            `Die Tradition ist je nach Ort anders; ein Vergleich der Erfahrungen verhindert zu einfache Erklärungen.`
+          ]
+        : [
+            `In dieser Situation nutzt eine Gruppe ${topic}, um gemeinsam ein konkretes Problem zu lösen.`,
+            `Die Beteiligten hören genau zu, begründen ihre Ideen und wählen einen nächsten Schritt, den alle verstehen können.`,
+            `Der Austausch zeigt, dass Alltagssprache hilft, zusammenzuarbeiten und am Leben der Gemeinschaft teilzunehmen.`,
+            `Unterschiedliche Sichtweisen bleiben möglich, doch respektvolle Fragen machen die Entscheidung klarer.`
+          ]
   };
   const anchorCount = ['B2', 'C1', 'C2'].includes(lesson.level || learningPathState.level) ? 2 : 1;
   const complexityAnchors = splitReadingSentences(primaryText)
     .sort((left, right) => readingWordCount(right) - readingWordCount(left))
     .slice(0, anchorCount);
-  const source = [String(seedText || '').trim(), ...(frames[language] || frames.english), ...complexityAnchors].filter(Boolean);
+  const source = [
+    String(seedText || '').trim(),
+    ...(frames[language] || frames.english),
+    ...complexityAnchors
+  ].filter(Boolean);
   const sentences = [];
   let words = 0;
   let index = 0;
@@ -12425,30 +12589,92 @@ function buildComparableCompanionReading({ lesson, title, seedText, kind }) {
   return limitReadingWords(text, Math.ceil(targetWords * 1.08));
 }
 
-function getCompanionIllustrationThemeIndex(lesson, offset) {
-  const mainTheme = getReadingIllustrationTheme(lesson).index || 0;
-  return (mainTheme + offset) % READING_ILLUSTRATION_THEMES.length;
+function getCompanionIllustrationThemeIndex({ lesson, kind, title, seedText }) {
+  // Companion readings are independent texts. Never derive their picture by
+  // adding an arbitrary offset to the unit's main theme: that is how a civic
+  // Italian celebration previously acquired a science-lab image. Select the
+  // illustration from the companion's own title and source instead.
+  const source = `${title || ''} ${seedText || ''}`
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase();
+  const has = (...terms) => terms.some((term) => source.includes(term));
+
+  if (has('ferragosto', 'viaggio', 'travel', 'voyage', 'reise')) return 4; // travel
+  if (has('festa della repubblica', 'indipendenza', 'independence', 'unita', 'unity')) return 6; // civic community
+  if (has('carnevale', 'carnaval', 'karneval', 'maschere', 'music', 'musica', 'musique')) return 7; // arts & culture
+  if (has('thanksgiving', 'st patrick', 'guy fawkes', 'consciência negra', 'consciência negra'))
+    return 6;
+  if (kind === 'culture') return 7;
+  return getReadingIllustrationTheme(lesson).index || 0;
 }
 
 function buildProgrammeReadingVariants(lesson) {
   const language = learningPathState.language || lesson.language || 'english';
   const programme = READING_COMPANION_PROGRAMME[language] || READING_COMPANION_PROGRAMME.english;
-  const unitOrder = Number(lesson.unitOrder || Math.floor(Number(lesson.orderIndex || 10) / 10) || 1);
+  const unitOrder = Number(
+    lesson.unitOrder || Math.floor(Number(lesson.orderIndex || 10) / 10) || 1
+  );
   const [culturalTitle, culturalText] = programme[(Math.max(1, unitOrder) - 1) % programme.length];
-  const topic = String(lesson.title || lesson.description || 'the unit topic').replace(/\s*·\s*(Reading|Lectura|Lecture|Lettura|Leitura|Lesen).*$/i, '');
+  const topic = String(lesson.title || lesson.description || 'the unit topic').replace(
+    /\s*·\s*(Reading|Lectura|Lecture|Lettura|Leitura|Lesen).*$/i,
+    ''
+  );
   const practiceSeed = {
-    english: `A small group uses ${topic} in a real situation.`, spanish: `Un pequeño grupo usa ${topic} en una situación real.`,
-    french: `Un petit groupe utilise ${topic} dans une situation réelle.`, italian: `Un piccolo gruppo usa ${topic} in una situazione reale.`,
-    portuguese: `Um pequeno grupo usa ${topic} em uma situação real.`, german: `Eine kleine Gruppe nutzt ${topic} in einer echten Situation.`
+    english: `A small group uses ${topic} in a real situation.`,
+    spanish: `Un pequeño grupo usa ${topic} en una situación real.`,
+    french: `Un petit groupe utilise ${topic} dans une situation réelle.`,
+    italian: `Un piccolo gruppo usa ${topic} in una situazione reale.`,
+    portuguese: `Um pequeno grupo usa ${topic} em uma situação real.`,
+    german: `Eine kleine Gruppe nutzt ${topic} in einer echten Situation.`
   };
   const labels = {
-    english: ['Culture & memory', 'Real-life practice'], spanish: ['Cultura y efeméride', 'Aplicación práctica'],
-    french: ['Culture et mémoire', 'Application pratique'], italian: ['Cultura e memoria', 'Applicazione pratica'],
-    portuguese: ['Cultura e memória', 'Aplicação prática'], german: ['Kultur und Erinnerung', 'Praktische Anwendung']
+    english: ['Culture & memory', 'Real-life practice'],
+    spanish: ['Cultura y efeméride', 'Aplicación práctica'],
+    french: ['Culture et mémoire', 'Application pratique'],
+    italian: ['Cultura e memoria', 'Applicazione pratica'],
+    portuguese: ['Cultura e memória', 'Aplicação prática'],
+    german: ['Kultur und Erinnerung', 'Praktische Anwendung']
   }[language] || ['Culture & memory', 'Real-life practice'];
   return [
-    { id: 'cultural-reading', label: `${labels[0]} · ${culturalTitle}`, title: culturalTitle, description: 'Fiesta, tradición o efeméride vinculada a la lengua.', text: buildComparableCompanionReading({ lesson, title: culturalTitle, seedText: culturalText, kind: 'culture' }), exercises: [], illustrationThemeIndex: getCompanionIllustrationThemeIndex(lesson, 3) },
-    { id: 'practice-reading', label: `${labels[1]} · ${topic}`, title: topic, description: 'Una situación cotidiana para aplicar el tema de la unidad.', text: buildComparableCompanionReading({ lesson, title: topic, seedText: practiceSeed[language] || practiceSeed.english, kind: 'practice' }), exercises: [], illustrationThemeIndex: getCompanionIllustrationThemeIndex(lesson, 6) }
+    {
+      id: 'cultural-reading',
+      label: `${labels[0]} · ${culturalTitle}`,
+      title: culturalTitle,
+      description: 'Fiesta, tradición o efeméride vinculada a la lengua.',
+      text: buildComparableCompanionReading({
+        lesson,
+        title: culturalTitle,
+        seedText: culturalText,
+        kind: 'culture'
+      }),
+      exercises: [],
+      illustrationThemeIndex: getCompanionIllustrationThemeIndex({
+        lesson,
+        kind: 'culture',
+        title: culturalTitle,
+        seedText: culturalText
+      })
+    },
+    {
+      id: 'practice-reading',
+      label: `${labels[1]} · ${topic}`,
+      title: topic,
+      description: 'Una situación cotidiana para aplicar el tema de la unidad.',
+      text: buildComparableCompanionReading({
+        lesson,
+        title: topic,
+        seedText: practiceSeed[language] || practiceSeed.english,
+        kind: 'practice'
+      }),
+      exercises: [],
+      illustrationThemeIndex: getCompanionIllustrationThemeIndex({
+        lesson,
+        kind: 'practice',
+        title: topic,
+        seedText: practiceSeed[language] || practiceSeed.english
+      })
+    }
   ];
 }
 
@@ -12480,16 +12706,18 @@ function getReadingTopicChoices(lesson) {
     text: primaryText,
     exercises: lesson.exercises || []
   };
-  const variants = (authored.length ? authored : buildProgrammeReadingVariants(lesson)).map((variant, index) => ({
-    ...variant,
-    id: variant.id || `reading-variant-${index + 1}`,
-    label: variant.label || variant.title || `Lectura ${index + 2}`,
-    title: variant.title || lesson.title,
-    description: variant.description || '',
-    // A variant must bring its own exercises. Falling back to the main
-    // reading's questions would grade a different text and is misleading.
-    exercises: Array.isArray(variant.exercises) ? variant.exercises : []
-  }));
+  const variants = (authored.length ? authored : buildProgrammeReadingVariants(lesson)).map(
+    (variant, index) => ({
+      ...variant,
+      id: variant.id || `reading-variant-${index + 1}`,
+      label: variant.label || variant.title || `Lectura ${index + 2}`,
+      title: variant.title || lesson.title,
+      description: variant.description || '',
+      // A variant must bring its own exercises. Falling back to the main
+      // reading's questions would grade a different text and is misleading.
+      exercises: Array.isArray(variant.exercises) ? variant.exercises : []
+    })
+  );
   return [primary, ...variants].filter(
     (topic, index, list) =>
       topic.text &&
@@ -12541,7 +12769,8 @@ function renderReadingTopicSelector(lesson) {
   }
   const choices = getReadingTopicChoices(lesson);
   if (choices.length < 2) return '';
-  const heading = choices.length === 2 ? 'Dos lecturas de la unidad' : `${choices.length} lecturas de la unidad`;
+  const heading =
+    choices.length === 2 ? 'Dos lecturas de la unidad' : `${choices.length} lecturas de la unidad`;
   return `
     <section class="reading-topic-selector no-print" aria-label="Elige una lectura de la unidad">
       <div class="reading-topic-selector-heading">
@@ -12580,18 +12809,24 @@ function getIntroductionEditorial(lesson) {
   const storyDevelopment = String(sourceParagraphs[1] || '').trim();
   const editorialByLanguage = {
     spanish: [
-      storyOpening || `Toda conversación importante comienza por comprender bien ${topic}. Antes de elegir una postura, conviene mirar con calma los hechos, las personas implicadas y las consecuencias que pueden quedar fuera de la primera impresión.`,
-      storyDevelopment || 'Esta historia abre una pregunta que merece tiempo: ¿qué decisiones, intereses y consecuencias quedan detrás de lo que vemos a primera vista? La información no solo sirve para saber más; también nos enseña a actuar con mayor responsabilidad.',
+      storyOpening ||
+        `Toda conversación importante comienza por comprender bien ${topic}. Antes de elegir una postura, conviene mirar con calma los hechos, las personas implicadas y las consecuencias que pueden quedar fuera de la primera impresión.`,
+      storyDevelopment ||
+        'Esta historia abre una pregunta que merece tiempo: ¿qué decisiones, intereses y consecuencias quedan detrás de lo que vemos a primera vista? La información no solo sirve para saber más; también nos enseña a actuar con mayor responsabilidad.',
       'La fe cristiana nos recuerda que cada persona tiene dignidad y que la sabiduría se expresa en la verdad, la justicia y el cuidado del prójimo. Informarnos bien no es acumular datos: es aprender a mirar con conciencia y a usar nuestra libertad para el bien común.'
     ],
     english: [
-      storyOpening || `Every important conversation begins by understanding ${topic} well. Before taking a position, it helps to look carefully at the facts, the people involved, and the consequences that a first impression can hide.`,
-      storyDevelopment || 'This story opens a question worth taking seriously: what decisions, interests, and consequences sit behind what we first see? Information does more than help us know more; it also teaches us to act responsibly.',
+      storyOpening ||
+        `Every important conversation begins by understanding ${topic} well. Before taking a position, it helps to look carefully at the facts, the people involved, and the consequences that a first impression can hide.`,
+      storyDevelopment ||
+        'This story opens a question worth taking seriously: what decisions, interests, and consequences sit behind what we first see? Information does more than help us know more; it also teaches us to act responsibly.',
       'Christian faith reminds us that every person has dignity and that wisdom appears in truth, justice, and care for our neighbour. Learning well is not collecting facts; it is learning to use our freedom for the common good.'
     ],
     french: [
-      storyOpening || `Toute conversation importante commence par une bonne compréhension de ${topic}. Avant de prendre position, il faut observer les faits, les personnes concernées et les conséquences qu’une première impression peut dissimuler.`,
-      storyDevelopment || 'Cette histoire ouvre une question qui mérite notre attention : quelles décisions, quels intérêts et quelles conséquences se cachent derrière ce que nous voyons d’abord ? L’information ne sert pas seulement à en savoir davantage ; elle nous apprend aussi à agir avec responsabilité.',
+      storyOpening ||
+        `Toute conversation importante commence par une bonne compréhension de ${topic}. Avant de prendre position, il faut observer les faits, les personnes concernées et les conséquences qu’une première impression peut dissimuler.`,
+      storyDevelopment ||
+        'Cette histoire ouvre une question qui mérite notre attention : quelles décisions, quels intérêts et quelles conséquences se cachent derrière ce que nous voyons d’abord ? L’information ne sert pas seulement à en savoir davantage ; elle nous apprend aussi à agir avec responsabilité.',
       'La foi chrétienne nous rappelle que chaque personne possède une dignité et que la sagesse se manifeste dans la vérité, la justice et le soin du prochain. Bien apprendre, ce n’est pas accumuler des faits : c’est employer sa liberté pour le bien commun.'
     ]
   };
@@ -13388,41 +13623,56 @@ function buildWritingPractice(lesson) {
     C2: [12, 22, 17]
   }[level] || [4, 9, 7];
   const [minDictationWords, maxDictationWords, idealDictationWords] = dictationLength;
-  const wordCount = (text) => String(text || '').trim().split(/\s+/).filter(Boolean).length;
+  const wordCount = (text) =>
+    String(text || '')
+      .trim()
+      .split(/\s+/)
+      .filter(Boolean).length;
   const dictationOptions = [...candidates, ...fallback];
   const matchedDictation = dictationOptions
     .filter((text) => {
       const count = wordCount(text);
       return count >= minDictationWords && count <= maxDictationWords;
     })
-    .sort((a, b) => Math.abs(wordCount(a) - idealDictationWords) - Math.abs(wordCount(b) - idealDictationWords))[0];
+    .sort(
+      (a, b) =>
+        Math.abs(wordCount(a) - idealDictationWords) - Math.abs(wordCount(b) - idealDictationWords)
+    )[0];
   const topic = String(lesson.title || '')
     .replace(/^(?:Writing|Write|Escribe|Écris|Écrire)\s*[·:–-]\s*/iu, '')
     .replace(/\s+/g, ' ')
     .trim();
   const topicForSentence = topic ? topic.charAt(0).toLocaleLowerCase() + topic.slice(1) : '';
-  const advancedDictation = {
-    spanish: level === 'C2'
-      ? `El texto analiza críticamente ${topicForSentence || 'el tema de la unidad'}.`
-      : `El texto explica ${topicForSentence || 'el tema de la unidad'}.`,
-    french: level === 'C2'
-      ? `Le texte analyse de manière critique ${topicForSentence || 'le thème de l’unité'}.`
-      : `Le texte explique ${topicForSentence || 'le thème de l’unité'}.`,
-    english: level === 'C2'
-      ? `The text critically examines ${topicForSentence || 'the unit topic'}.`
-      : `The text explains ${topicForSentence || 'the unit topic'}.`,
-    italian: level === 'C2'
-      ? `Il testo analizza criticamente ${topicForSentence || 'il tema dell’unità'}.`
-      : `Il testo spiega ${topicForSentence || 'il tema dell’unità'}.`,
-    portuguese: level === 'C2'
-      ? `O texto analisa criticamente ${topicForSentence || 'o tema da unidade'}.`
-      : `O texto explica ${topicForSentence || 'o tema da unidade'}.`,
-    german: level === 'C2'
-      ? `Der Text analysiert kritisch ${topicForSentence || 'das Thema der Einheit'}.`
-      : `Der Text erklärt ${topicForSentence || 'das Thema der Einheit'}.`
-  }[targetLanguage] || `The text explains ${topicForSentence || 'the unit topic'}.`;
+  const advancedDictation =
+    {
+      spanish:
+        level === 'C2'
+          ? `El texto analiza críticamente ${topicForSentence || 'el tema de la unidad'}.`
+          : `El texto explica ${topicForSentence || 'el tema de la unidad'}.`,
+      french:
+        level === 'C2'
+          ? `Le texte analyse de manière critique ${topicForSentence || 'le thème de l’unité'}.`
+          : `Le texte explique ${topicForSentence || 'le thème de l’unité'}.`,
+      english:
+        level === 'C2'
+          ? `The text critically examines ${topicForSentence || 'the unit topic'}.`
+          : `The text explains ${topicForSentence || 'the unit topic'}.`,
+      italian:
+        level === 'C2'
+          ? `Il testo analizza criticamente ${topicForSentence || 'il tema dell’unità'}.`
+          : `Il testo spiega ${topicForSentence || 'il tema dell’unità'}.`,
+      portuguese:
+        level === 'C2'
+          ? `O texto analisa criticamente ${topicForSentence || 'o tema da unidade'}.`
+          : `O texto explica ${topicForSentence || 'o tema da unidade'}.`,
+      german:
+        level === 'C2'
+          ? `Der Text analysiert kritisch ${topicForSentence || 'das Thema der Einheit'}.`
+          : `Der Text erklärt ${topicForSentence || 'das Thema der Einheit'}.`
+    }[targetLanguage] || `The text explains ${topicForSentence || 'the unit topic'}.`;
   const dictationText =
-    matchedDictation && (level === 'A1' || level === 'A2' || wordCount(matchedDictation) >= minDictationWords)
+    matchedDictation &&
+    (level === 'A1' || level === 'A2' || wordCount(matchedDictation) >= minDictationWords)
       ? matchedDictation
       : advancedDictation;
 
@@ -13613,7 +13863,7 @@ function renderWritingView(section, lesson) {
         ? `<div class="writing-practice-options">${task.options.map((option) => `<button type="button" data-writing-answer="${escapeHtml(option)}">${escapeHtml(option)}</button>`).join('')}</div>`
         : task.type === 'order'
           ? `<div class="writing-order-answer" aria-label="${french ? 'Phrase construite' : 'Oración construida'}"></div><div class="writing-token-bank">${task.tokens.map((token, index) => `<button type="button" data-writing-token-index="${index}">${escapeHtml(token)}</button>`).join('')}</div><button type="button" class="writing-order-reset">${french ? 'Effacer' : 'Borrar'}</button>`
-        : task.type === 'dictation'
+          : task.type === 'dictation'
             ? `<button type="button" class="secondary-btn writing-dictation-play">🔊 ${escapeHtml(task.playLabel)}</button><input class="writing-practice-input" type="text" autocomplete="off" placeholder="${escapeHtml(task.placeholder)}" />`
             : `<input class="writing-practice-input" type="text" autocomplete="off" placeholder="${task.type === 'find-mistake' ? (french ? 'Écrivez la forme correcte' : 'Escribe la forma correcta') : task.type === 'correct-word' ? (french ? 'Écrivez le mot correct' : 'Escribe la palabra correcta') : french ? 'Écrivez le mot manquant' : 'Escribe la palabra que falta'}" />`;
 
@@ -15858,7 +16108,7 @@ function renderGrammarConceptCards(lesson) {
       icon: '💡',
       tone: 'idea',
       label: french ? 'Définition' : 'Tema gramatical',
-      title: french ? 'Comprendre la règle' : (profile.name || 'Comprende la regla'),
+      title: french ? 'Comprendre la règle' : profile.name || 'Comprende la regla',
       body: profile.definition || profile.explanation || sectionBody('rule') || sentences[0] || note
     },
     {
@@ -16219,7 +16469,11 @@ function collectGrammarPracticalExamples(lesson, minimum = 6) {
   ];
   const seen = new Set();
   return candidates
-    .map((item) => String(item || '').replace(/^\s*(?:\d+[.)]|[-•])\s*/, '').trim())
+    .map((item) =>
+      String(item || '')
+        .replace(/^\s*(?:\d+[.)]|[-•])\s*/, '')
+        .trim()
+    )
     .filter((item) => item && !seen.has(item.toLocaleLowerCase()))
     .filter((item) => {
       seen.add(item.toLocaleLowerCase());
@@ -16235,7 +16489,11 @@ function renderGrammarLessonBlockHtml(lesson, { test = null } = {}) {
     sections.find((section) => keys.includes(section.key))?.body || '';
   const profile = lesson.extra?.grammarProfile || {};
   const brief =
-    profile.definition || profile.explanation || sectionBody('rule', 'goal', 'use') || lesson.description || '';
+    profile.definition ||
+    profile.explanation ||
+    sectionBody('rule', 'goal', 'use') ||
+    lesson.description ||
+    '';
   const structure = profile.structure || sectionBody('pattern') || '';
   const examples = collectGrammarPracticalExamples(lesson);
   const forms = [
@@ -17124,7 +17382,8 @@ function normalizeVocabularyItem(
     // French C2 stores an L2 definition in `translation` for its exercises.
     // Its card receives a real Spanish gloss asynchronously instead of
     // presenting that French definition as a translation.
-    translation: support || frenchC2NeedsSpanishGloss ? '' : resolveVocabTranslation(item, resolvedBridge),
+    translation:
+      support || frenchC2NeedsSpanishGloss ? '' : resolveVocabTranslation(item, resolvedBridge),
     example: item.example || '',
     // Direct mode prefers directSupport's own (up to 3) context examples
     // over the single legacy `example` string, when authored (spec §6: max
@@ -17227,26 +17486,53 @@ function getVocabularyExampleFallbacks(word, seed, language) {
     .replace(/\s+/g, ' ')
     .trim();
   const practicalFrenchContexts = {
-    bonjour: ['À l’accueil, je dis bonjour à Madame Martin.', 'Avant de monter dans le bus, il me dit bonjour.'],
-    salut: ['En arrivant au cours, Karim lance : « Salut ! »', 'Après la classe, je lui dis salut.'],
-    merci: ['Léa reçoit mon message et je lui dis merci.', 'Pour votre aide à la pharmacie, merci beaucoup.'],
+    bonjour: [
+      'À l’accueil, je dis bonjour à Madame Martin.',
+      'Avant de monter dans le bus, il me dit bonjour.'
+    ],
+    salut: [
+      'En arrivant au cours, Karim lance : « Salut ! »',
+      'Après la classe, je lui dis salut.'
+    ],
+    merci: [
+      'Léa reçoit mon message et je lui dis merci.',
+      'Pour votre aide à la pharmacie, merci beaucoup.'
+    ],
     'sil te plait': ['Tu peux fermer la fenêtre, s’il te plaît ?', 'Un croissant, s’il te plaît.'],
-    enchante: ['Quand je rencontre ma voisine, je dis : « Enchantée. »', 'Nous faisons connaissance : enchanté !'],
+    enchante: [
+      'Quand je rencontre ma voisine, je dis : « Enchantée. »',
+      'Nous faisons connaissance : enchanté !'
+    ],
     'au revoir': ['À la fin du cours, on se dit au revoir.', 'Bonne route, et au revoir !'],
     'excusez-moi': ['Excusez-moi, où se trouve la sortie ?', 'Excusez-moi, ce siège est libre ?'],
     pardon: ['Pardon, je n’ai pas bien entendu.', 'Pardon, je descends au prochain arrêt.'],
     oui: ['Oui, je voudrais prendre rendez-vous.', 'Oui, la carte bancaire est acceptée.'],
     non: ['Non, merci, je regarde seulement.', 'Non, ce n’est pas la bonne adresse.'],
-    'je voudrais': ['Je voudrais un billet pour Lyon, s’il vous plaît.', 'Je voudrais réserver une table pour deux personnes.'],
-    'combien ca coute': ['Combien ça coûte pour un aller-retour ?', 'Combien ça coûte, cette baguette ?']
+    'je voudrais': [
+      'Je voudrais un billet pour Lyon, s’il vous plaît.',
+      'Je voudrais réserver une table pour deux personnes.'
+    ],
+    'combien ca coute': [
+      'Combien ça coûte pour un aller-retour ?',
+      'Combien ça coûte, cette baguette ?'
+    ]
   };
   const practicalEnglishContexts = {
     hello: ['Hello! Can I help you with something?', 'Hello, are you new here?'],
     'good morning': ['Good morning! Did you sleep well?', 'Good morning, the bus is here.'],
     name: ['My name is Leo. What’s your name?', 'Please write your name at the top of the form.'],
-    teacher: ['Our teacher explains the new words clearly.', 'I ask the teacher a question after class.'],
-    friend: ['My friend and I study together after school.', 'I’m meeting a friend at the café this afternoon.'],
-    'nice to meet you': ['Nice to meet you, Sofia. I’m Daniel.', 'It was nice to meet you. See you tomorrow!']
+    teacher: [
+      'Our teacher explains the new words clearly.',
+      'I ask the teacher a question after class.'
+    ],
+    friend: [
+      'My friend and I study together after school.',
+      'I’m meeting a friend at the café this afternoon.'
+    ],
+    'nice to meet you': [
+      'Nice to meet you, Sofia. I’m Daniel.',
+      'It was nice to meet you. See you tomorrow!'
+    ]
   };
   const curatedContexts =
     language === 'french'
@@ -17460,8 +17746,9 @@ function renderVocabCardHtml(item, { canSpeak, isFrench, showL1Translation = fal
   const conciseDefinition = useAdvancedDefinition ? getConciseVocabularyDefinition(item) : '';
   const firstContext = item.contexts[0];
   const additionalContexts = item.contexts.slice(1);
-  const catalogueExamplesHtml = !useAdvancedDefinition && item.contexts.length
-    ? `<ol class="vocab-card-catalogue-examples" aria-label="Ejemplos prácticos">
+  const catalogueExamplesHtml =
+    !useAdvancedDefinition && item.contexts.length
+      ? `<ol class="vocab-card-catalogue-examples" aria-label="Ejemplos prácticos">
         ${item.contexts
           // Two practical examples preserve useful context without turning a
           // compact word card into a tall reading panel. Each remains
@@ -17478,7 +17765,7 @@ function renderVocabCardHtml(item, { canSpeak, isFrench, showL1Translation = fal
           )
           .join('')}
       </ol>`
-    : '';
+      : '';
   const contextsHtml = firstContext
     ? `<div class="vocab-card-contexts">
         ${renderVocabularyContextHtml(firstContext, item, canSpeak, isFrench)}
@@ -17548,7 +17835,8 @@ function renderVocabCardHtml(item, { canSpeak, isFrench, showL1Translation = fal
     .map((part) => part.charAt(0))
     .join('')
     .toLocaleUpperCase();
-  const isUsefulExpression = item.category === 'expression' || /\s/.test(String(item.targetWord || '').trim());
+  const isUsefulExpression =
+    item.category === 'expression' || /\s/.test(String(item.targetWord || '').trim());
 
   return `
     <div class="vocab-card vocab-card--static${isUsefulExpression ? ' vocab-card--expression' : ''}" data-index="${item._displayIndex}" data-card-id="${escapeHtml(item.id)}" data-vocab-word="${escapeHtml(`${item.targetWord} ${item.translation || ''} ${item.phonetic || ''}`.toLocaleLowerCase())}" data-vocab-category="${escapeHtml(item.category || '')}" data-vocab-level="${escapeHtml(item.level || learningPathState.level || '')}" data-mastery="${escapeHtml(item.masteryStatus)}" data-learning-mode="${escapeHtml(item.learningMode)}" data-static="true" data-is-french="${isFrench}" data-speak-text="${escapeHtml(item.audioText)}" data-speak-locale="${escapeHtml(item.pronunciationLocale)}" data-speak-rate="${item.pronunciationRate}" aria-label="${escapeHtml(item.targetWord)}">
@@ -17571,7 +17859,8 @@ function renderVocabCardHtml(item, { canSpeak, isFrench, showL1Translation = fal
                 : ''
             }
             ${
-              conciseDefinition || (item.learningMode === 'direct' && (item.simpleDefinition || item.definition))
+              conciseDefinition ||
+              (item.learningMode === 'direct' && (item.simpleDefinition || item.definition))
                 ? `<p class="vocab-card-catalogue-definition">${escapeHtml(conciseDefinition || item.simpleDefinition || item.definition)}</p>`
                 : ''
             }
@@ -17624,13 +17913,15 @@ async function loadMissingAdvancedVocabTranslations(cards, lessonSlug = '') {
   const missing = cards.filter(
     (card) =>
       !card.l1Translation &&
-      ((!card.translation && card.learningMode !== 'direct') || usesAdvancedVocabularyDefinition(card))
+      ((!card.translation && card.learningMode !== 'direct') ||
+        usesAdvancedVocabularyDefinition(card))
   );
   if (!missing.length || (lessonSlug && vocabL1TranslationRequests.has(lessonSlug))) return false;
   if (lessonSlug) vocabL1TranslationRequests.add(lessonSlug);
   let changed = false;
   const translationLanguage =
-    learningPathState.bridgeLanguage && learningPathState.bridgeLanguage !== learningPathState.language
+    learningPathState.bridgeLanguage &&
+    learningPathState.bridgeLanguage !== learningPathState.language
       ? learningPathState.bridgeLanguage
       : learningPathState.language === 'spanish'
         ? 'english'
@@ -17971,9 +18262,14 @@ function collectAllGrammarTestAnswers(content, test, runtime) {
 }
 
 function getUsefulVocabularyExpressions(lesson, cards) {
-  const a1Expressions = lesson.level === 'A1' && learningPathState.language === 'english'
-    ? CURATED_ENGLISH_A1_EXPRESSIONS[String(lesson.title || '').trim().toLocaleLowerCase()]
-    : null;
+  const a1Expressions =
+    lesson.level === 'A1' && learningPathState.language === 'english'
+      ? CURATED_ENGLISH_A1_EXPRESSIONS[
+          String(lesson.title || '')
+            .trim()
+            .toLocaleLowerCase()
+        ]
+      : null;
   if (a1Expressions?.length) return a1Expressions.map((text) => ({ text, explanation: '' }));
   const unitKey = lesson.unitId || lesson.unitSlug || lesson.slug;
   const relatedLessons = (learningPathState.lessons || []).filter(
@@ -18072,21 +18368,36 @@ function isLikelyVocabularyProperName(word, corpus) {
 // an authored bank; useful expressions are still displayed in their own block.
 const CURATED_VOCABULARY_BANKS = {
   'english|A1|greeting words': [
-    ['Hello', 'Hola', 'Saludos'], ['Hi', 'Hola', 'Saludos'],
-    ['Good morning', 'Buenos días', 'Saludos'], ['Good afternoon', 'Buenas tardes', 'Saludos'],
-    ['Good evening', 'Buenas noches (al saludar)', 'Saludos'], ['Goodbye', 'Adiós', 'Saludos'],
-    ['See you later', 'Nos vemos luego', 'Saludos'], ['Please', 'Por favor', 'Cortesía'],
-    ['Thank you', 'Gracias', 'Cortesía'], ["You're welcome", 'De nada', 'Cortesía'],
-    ['Excuse me', 'Disculpe / Con permiso', 'Cortesía'], ['Sorry', 'Lo siento', 'Cortesía'],
-    ['Yes', 'Sí', 'Cortesía'], ['No', 'No', 'Cortesía'],
-    ['Name', 'Nombre', 'Presentación'], ['First name', 'Nombre de pila', 'Presentación'],
-    ['Last name', 'Apellido', 'Presentación'], ['Teacher', 'Profesor/a', 'Personas y aula'],
-    ['Student', 'Estudiante', 'Personas y aula'], ['Class', 'Clase', 'Personas y aula'],
-    ['Friend', 'Amigo/a', 'Personas y aula'], ['New', 'Nuevo/a', 'Personas y aula'],
-    ['Nice', 'Agradable', 'Presentación'], ['Meet', 'Conocer', 'Presentación'],
-    ['How are you?', '¿Cómo estás?', 'Presentación'], ['Where are you from?', '¿De dónde eres?', 'Presentación'],
-    ["I'm from…", 'Soy de…', 'Presentación'], ['Country', 'País', 'Presentación'],
-    ['Nationality', 'Nacionalidad', 'Presentación'], ['English', 'Inglés', 'Personas y aula']
+    ['Hello', 'Hola', 'Saludos'],
+    ['Hi', 'Hola', 'Saludos'],
+    ['Good morning', 'Buenos días', 'Saludos'],
+    ['Good afternoon', 'Buenas tardes', 'Saludos'],
+    ['Good evening', 'Buenas noches (al saludar)', 'Saludos'],
+    ['Goodbye', 'Adiós', 'Saludos'],
+    ['See you later', 'Nos vemos luego', 'Saludos'],
+    ['Please', 'Por favor', 'Cortesía'],
+    ['Thank you', 'Gracias', 'Cortesía'],
+    ["You're welcome", 'De nada', 'Cortesía'],
+    ['Excuse me', 'Disculpe / Con permiso', 'Cortesía'],
+    ['Sorry', 'Lo siento', 'Cortesía'],
+    ['Yes', 'Sí', 'Cortesía'],
+    ['No', 'No', 'Cortesía'],
+    ['Name', 'Nombre', 'Presentación'],
+    ['First name', 'Nombre de pila', 'Presentación'],
+    ['Last name', 'Apellido', 'Presentación'],
+    ['Teacher', 'Profesor/a', 'Personas y aula'],
+    ['Student', 'Estudiante', 'Personas y aula'],
+    ['Class', 'Clase', 'Personas y aula'],
+    ['Friend', 'Amigo/a', 'Personas y aula'],
+    ['New', 'Nuevo/a', 'Personas y aula'],
+    ['Nice', 'Agradable', 'Presentación'],
+    ['Meet', 'Conocer', 'Presentación'],
+    ['How are you?', '¿Cómo estás?', 'Presentación'],
+    ['Where are you from?', '¿De dónde eres?', 'Presentación'],
+    ["I'm from…", 'Soy de…', 'Presentación'],
+    ['Country', 'País', 'Presentación'],
+    ['Nationality', 'Nacionalidad', 'Presentación'],
+    ['English', 'Inglés', 'Personas y aula']
   ]
 };
 
@@ -18094,32 +18405,332 @@ const CURATED_VOCABULARY_BANKS = {
 // Each remaining unit starts with its eight authored core words and adds 22
 // topic-specific words, giving learners a dependable 30-word bank.
 const CURATED_ENGLISH_A1_ADDITIONS = {
-  'feelings and countries': [['angry','enojado/a'],['excited','emocionado/a'],['scared','asustado/a'],['fine','bien'],['worried','preocupado/a'],['hungry','hambriento/a'],['thirsty','sediento/a'],['sleepy','con sueño'],['excuse','perdón'],['live','vivir'],['from','de'],['city','ciudad'],['nationality','nacionalidad'],['speak','hablar'],['language','idioma'],['people','personas'],['home','hogar'],['welcome','bienvenido/a'],['today','hoy'],['okay','está bien'],['feel','sentirse'],['different','diferente']],
-  'family members': [['parents','padres'],['son','hijo'],['daughter','hija'],['husband','esposo'],['wife','esposa'],['aunt','tía'],['uncle','tío'],['cousin','primo/a'],['baby','bebé'],['child','niño/a'],['children','niños/as'],['family','familia'],['love','amar'],['together','juntos'],['old','mayor'],['young','joven'],['people','personas'],['pet','mascota'],['dog','perro'],['cat','gato'],['photo','foto'],['meet','conocer']],
-  'school objects and subjects': [['book','libro'],['pen','bolígrafo'],['eraser','borrador'],['ruler','regla'],['backpack','mochila'],['chair','silla'],['table','mesa'],['computer','computadora'],['board','pizarra'],['English','inglés'],['math','matemáticas'],['science','ciencias'],['music','música'],['art','arte'],['lesson','lección'],['question','pregunta'],['answer','respuesta'],['write','escribir'],['read','leer'],['open','abrir'],['close','cerrar'],['listen','escuchar']],
-  'daily actions': [['brush my teeth','cepillarme los dientes'],['take a shower','darse una ducha'],['get dressed','vestirse'],['go to school','ir a la escuela'],['have lunch','almorzar'],['go home','ir a casa'],['study','estudiar'],['play','jugar'],['watch TV','ver televisión'],['go to bed','irse a dormir'],['morning','mañana'],['afternoon','tarde'],['evening','noche'],['every day','todos los días'],['usually','normalmente'],['always','siempre'],['sometimes','a veces'],['then','después'],['before','antes'],['after','después de'],['early','temprano'],['late','tarde']],
-  'days, months and time words': [['today','hoy'],['tomorrow','mañana'],['yesterday','ayer'],['Tuesday','martes'],['Wednesday','miércoles'],['Thursday','jueves'],['Friday','viernes'],['Saturday','sábado'],['Sunday','domingo'],['January','enero'],['February','febrero'],['March','marzo'],['April','abril'],['May','mayo'],['June','junio'],['July','julio'],['August','agosto'],['September','septiembre'],['October','octubre'],['November','noviembre'],['December','diciembre'],['time','hora']],
-  'food and drink words': [['bread','pan'],['milk','leche'],['coffee','café'],['tea','té'],['apple','manzana'],['banana','banana'],['egg','huevo'],['cheese','queso'],['fish','pescado'],['meat','carne'],['salad','ensalada'],['soup','sopa'],['breakfast','desayuno'],['lunch','almuerzo'],['hungry','hambriento/a'],['thirsty','sediento/a'],['want','querer'],['like','gustar'],['glass','vaso'],['cup','taza'],['bottle','botella'],['menu','menú']],
-  'rooms and furniture': [['house','casa'],['door','puerta'],['window','ventana'],['floor','piso'],['wall','pared'],['table','mesa'],['chair','silla'],['lamp','lámpara'],['TV','televisión'],['fridge','nevera'],['cooker','estufa'],['shower','ducha'],['garden','jardín'],['upstairs','arriba'],['downstairs','abajo'],['big','grande'],['small','pequeño/a'],['clean','limpio/a'],['inside','dentro'],['outside','fuera'],['there is','hay'],['where','dónde']],
-  'places in town': [['hospital','hospital'],['restaurant','restaurante'],['library','biblioteca'],['bus stop','parada de autobús'],['street','calle'],['corner','esquina'],['left','izquierda'],['right','derecha'],['near','cerca'],['far','lejos'],['next to','al lado de'],['opposite','enfrente de'],['between','entre'],['turn','girar'],['go straight','seguir recto'],['map','mapa'],['ticket','boleto'],['open','abierto'],['closed','cerrado'],['busy','ocupado'],['help','ayuda'],['where is','dónde está']],
-  'hobbies and sports': [['music','música'],['dance','bailar'],['sing','cantar'],['draw','dibujar'],['cook','cocinar'],['run','correr'],['ride a bike','montar bicicleta'],['tennis','tenis'],['volleyball','voleibol'],['game','juego'],['weekend','fin de semana'],['with friends','con amigos'],['at home','en casa'],['outside','afuera'],['fun','divertido'],['favorite','favorito/a'],['can','poder'],['want to','querer'],['often','a menudo'],['never','nunca'],['club','club'],['team','equipo']],
-  'clothes and colors': [['red','rojo'],['blue','azul'],['green','verde'],['black','negro'],['white','blanco'],['yellow','amarillo'],['jacket','chaqueta'],['skirt','falda'],['shorts','pantalones cortos'],['socks','calcetines'],['hat','sombrero'],['bag','bolso'],['wear','llevar puesto'],['try on','probarse'],['buy','comprar'],['cheap','barato'],['expensive','caro'],['small','pequeño/a'],['large','grande'],['medium','mediano'],['cash','efectivo'],['shop','tienda']],
-  'weather and travel words': [['cloudy','nublado'],['windy','ventoso'],['warm','cálido'],['cool','fresco'],['snow','nieve'],['umbrella','paraguas'],['coat','abrigo'],['beach','playa'],['mountain','montaña'],['hotel','hotel'],['airport','aeropuerto'],['plane','avión'],['train','tren'],['bus','autobús'],['suitcase','maleta'],['passport','pasaporte'],['visit','visitar'],['holiday','vacaciones'],['go','ir'],['come','venir'],['weather','clima'],['travel','viajar']]
+  'feelings and countries': [
+    ['angry', 'enojado/a'],
+    ['excited', 'emocionado/a'],
+    ['scared', 'asustado/a'],
+    ['fine', 'bien'],
+    ['worried', 'preocupado/a'],
+    ['hungry', 'hambriento/a'],
+    ['thirsty', 'sediento/a'],
+    ['sleepy', 'con sueño'],
+    ['excuse', 'perdón'],
+    ['live', 'vivir'],
+    ['from', 'de'],
+    ['city', 'ciudad'],
+    ['nationality', 'nacionalidad'],
+    ['speak', 'hablar'],
+    ['language', 'idioma'],
+    ['people', 'personas'],
+    ['home', 'hogar'],
+    ['welcome', 'bienvenido/a'],
+    ['today', 'hoy'],
+    ['okay', 'está bien'],
+    ['feel', 'sentirse'],
+    ['different', 'diferente']
+  ],
+  'family members': [
+    ['parents', 'padres'],
+    ['son', 'hijo'],
+    ['daughter', 'hija'],
+    ['husband', 'esposo'],
+    ['wife', 'esposa'],
+    ['aunt', 'tía'],
+    ['uncle', 'tío'],
+    ['cousin', 'primo/a'],
+    ['baby', 'bebé'],
+    ['child', 'niño/a'],
+    ['children', 'niños/as'],
+    ['family', 'familia'],
+    ['love', 'amar'],
+    ['together', 'juntos'],
+    ['old', 'mayor'],
+    ['young', 'joven'],
+    ['people', 'personas'],
+    ['pet', 'mascota'],
+    ['dog', 'perro'],
+    ['cat', 'gato'],
+    ['photo', 'foto'],
+    ['meet', 'conocer']
+  ],
+  'school objects and subjects': [
+    ['book', 'libro'],
+    ['pen', 'bolígrafo'],
+    ['eraser', 'borrador'],
+    ['ruler', 'regla'],
+    ['backpack', 'mochila'],
+    ['chair', 'silla'],
+    ['table', 'mesa'],
+    ['computer', 'computadora'],
+    ['board', 'pizarra'],
+    ['English', 'inglés'],
+    ['math', 'matemáticas'],
+    ['science', 'ciencias'],
+    ['music', 'música'],
+    ['art', 'arte'],
+    ['lesson', 'lección'],
+    ['question', 'pregunta'],
+    ['answer', 'respuesta'],
+    ['write', 'escribir'],
+    ['read', 'leer'],
+    ['open', 'abrir'],
+    ['close', 'cerrar'],
+    ['listen', 'escuchar']
+  ],
+  'daily actions': [
+    ['brush my teeth', 'cepillarme los dientes'],
+    ['take a shower', 'darse una ducha'],
+    ['get dressed', 'vestirse'],
+    ['go to school', 'ir a la escuela'],
+    ['have lunch', 'almorzar'],
+    ['go home', 'ir a casa'],
+    ['study', 'estudiar'],
+    ['play', 'jugar'],
+    ['watch TV', 'ver televisión'],
+    ['go to bed', 'irse a dormir'],
+    ['morning', 'mañana'],
+    ['afternoon', 'tarde'],
+    ['evening', 'noche'],
+    ['every day', 'todos los días'],
+    ['usually', 'normalmente'],
+    ['always', 'siempre'],
+    ['sometimes', 'a veces'],
+    ['then', 'después'],
+    ['before', 'antes'],
+    ['after', 'después de'],
+    ['early', 'temprano'],
+    ['late', 'tarde']
+  ],
+  'days, months and time words': [
+    ['today', 'hoy'],
+    ['tomorrow', 'mañana'],
+    ['yesterday', 'ayer'],
+    ['Tuesday', 'martes'],
+    ['Wednesday', 'miércoles'],
+    ['Thursday', 'jueves'],
+    ['Friday', 'viernes'],
+    ['Saturday', 'sábado'],
+    ['Sunday', 'domingo'],
+    ['January', 'enero'],
+    ['February', 'febrero'],
+    ['March', 'marzo'],
+    ['April', 'abril'],
+    ['May', 'mayo'],
+    ['June', 'junio'],
+    ['July', 'julio'],
+    ['August', 'agosto'],
+    ['September', 'septiembre'],
+    ['October', 'octubre'],
+    ['November', 'noviembre'],
+    ['December', 'diciembre'],
+    ['time', 'hora']
+  ],
+  'food and drink words': [
+    ['bread', 'pan'],
+    ['milk', 'leche'],
+    ['coffee', 'café'],
+    ['tea', 'té'],
+    ['apple', 'manzana'],
+    ['banana', 'banana'],
+    ['egg', 'huevo'],
+    ['cheese', 'queso'],
+    ['fish', 'pescado'],
+    ['meat', 'carne'],
+    ['salad', 'ensalada'],
+    ['soup', 'sopa'],
+    ['breakfast', 'desayuno'],
+    ['lunch', 'almuerzo'],
+    ['hungry', 'hambriento/a'],
+    ['thirsty', 'sediento/a'],
+    ['want', 'querer'],
+    ['like', 'gustar'],
+    ['glass', 'vaso'],
+    ['cup', 'taza'],
+    ['bottle', 'botella'],
+    ['menu', 'menú']
+  ],
+  'rooms and furniture': [
+    ['house', 'casa'],
+    ['door', 'puerta'],
+    ['window', 'ventana'],
+    ['floor', 'piso'],
+    ['wall', 'pared'],
+    ['table', 'mesa'],
+    ['chair', 'silla'],
+    ['lamp', 'lámpara'],
+    ['TV', 'televisión'],
+    ['fridge', 'nevera'],
+    ['cooker', 'estufa'],
+    ['shower', 'ducha'],
+    ['garden', 'jardín'],
+    ['upstairs', 'arriba'],
+    ['downstairs', 'abajo'],
+    ['big', 'grande'],
+    ['small', 'pequeño/a'],
+    ['clean', 'limpio/a'],
+    ['inside', 'dentro'],
+    ['outside', 'fuera'],
+    ['there is', 'hay'],
+    ['where', 'dónde']
+  ],
+  'places in town': [
+    ['hospital', 'hospital'],
+    ['restaurant', 'restaurante'],
+    ['library', 'biblioteca'],
+    ['bus stop', 'parada de autobús'],
+    ['street', 'calle'],
+    ['corner', 'esquina'],
+    ['left', 'izquierda'],
+    ['right', 'derecha'],
+    ['near', 'cerca'],
+    ['far', 'lejos'],
+    ['next to', 'al lado de'],
+    ['opposite', 'enfrente de'],
+    ['between', 'entre'],
+    ['turn', 'girar'],
+    ['go straight', 'seguir recto'],
+    ['map', 'mapa'],
+    ['ticket', 'boleto'],
+    ['open', 'abierto'],
+    ['closed', 'cerrado'],
+    ['busy', 'ocupado'],
+    ['help', 'ayuda'],
+    ['where is', 'dónde está']
+  ],
+  'hobbies and sports': [
+    ['music', 'música'],
+    ['dance', 'bailar'],
+    ['sing', 'cantar'],
+    ['draw', 'dibujar'],
+    ['cook', 'cocinar'],
+    ['run', 'correr'],
+    ['ride a bike', 'montar bicicleta'],
+    ['tennis', 'tenis'],
+    ['volleyball', 'voleibol'],
+    ['game', 'juego'],
+    ['weekend', 'fin de semana'],
+    ['with friends', 'con amigos'],
+    ['at home', 'en casa'],
+    ['outside', 'afuera'],
+    ['fun', 'divertido'],
+    ['favorite', 'favorito/a'],
+    ['can', 'poder'],
+    ['want to', 'querer'],
+    ['often', 'a menudo'],
+    ['never', 'nunca'],
+    ['club', 'club'],
+    ['team', 'equipo']
+  ],
+  'clothes and colors': [
+    ['red', 'rojo'],
+    ['blue', 'azul'],
+    ['green', 'verde'],
+    ['black', 'negro'],
+    ['white', 'blanco'],
+    ['yellow', 'amarillo'],
+    ['jacket', 'chaqueta'],
+    ['skirt', 'falda'],
+    ['shorts', 'pantalones cortos'],
+    ['socks', 'calcetines'],
+    ['hat', 'sombrero'],
+    ['bag', 'bolso'],
+    ['wear', 'llevar puesto'],
+    ['try on', 'probarse'],
+    ['buy', 'comprar'],
+    ['cheap', 'barato'],
+    ['expensive', 'caro'],
+    ['small', 'pequeño/a'],
+    ['large', 'grande'],
+    ['medium', 'mediano'],
+    ['cash', 'efectivo'],
+    ['shop', 'tienda']
+  ],
+  'weather and travel words': [
+    ['cloudy', 'nublado'],
+    ['windy', 'ventoso'],
+    ['warm', 'cálido'],
+    ['cool', 'fresco'],
+    ['snow', 'nieve'],
+    ['umbrella', 'paraguas'],
+    ['coat', 'abrigo'],
+    ['beach', 'playa'],
+    ['mountain', 'montaña'],
+    ['hotel', 'hotel'],
+    ['airport', 'aeropuerto'],
+    ['plane', 'avión'],
+    ['train', 'tren'],
+    ['bus', 'autobús'],
+    ['suitcase', 'maleta'],
+    ['passport', 'pasaporte'],
+    ['visit', 'visitar'],
+    ['holiday', 'vacaciones'],
+    ['go', 'ir'],
+    ['come', 'venir'],
+    ['weather', 'clima'],
+    ['travel', 'viajar']
+  ]
 };
 
 const CURATED_ENGLISH_A1_EXPRESSIONS = {
-  'greeting words': ['Hello! Nice to meet you.', 'How are you today?', 'I am from the Dominican Republic.', 'Please, can you help me?', 'Thank you. You’re welcome.'],
-  'feelings and countries': ['I am happy today.', 'I am from Santo Domingo.', 'How do you feel?', 'I speak Spanish and English.', 'Welcome to my country.'],
-  'family members': ['This is my family.', 'She is my sister.', 'We live together.', 'I love my grandparents.', 'Do you have a pet?'],
-  'school objects and subjects': ['Open your book, please.', 'I have a new notebook.', 'What is your favorite subject?', 'Write the answer here.', 'Listen to the teacher.'],
-  'daily actions': ['I wake up at seven.', 'I go to school every day.', 'I have dinner at home.', 'What time do you go to bed?', 'I usually study in the evening.']
+  'greeting words': [
+    'Hello! Nice to meet you.',
+    'How are you today?',
+    'I am from the Dominican Republic.',
+    'Please, can you help me?',
+    'Thank you. You’re welcome.'
+  ],
+  'feelings and countries': [
+    'I am happy today.',
+    'I am from Santo Domingo.',
+    'How do you feel?',
+    'I speak Spanish and English.',
+    'Welcome to my country.'
+  ],
+  'family members': [
+    'This is my family.',
+    'She is my sister.',
+    'We live together.',
+    'I love my grandparents.',
+    'Do you have a pet?'
+  ],
+  'school objects and subjects': [
+    'Open your book, please.',
+    'I have a new notebook.',
+    'What is your favorite subject?',
+    'Write the answer here.',
+    'Listen to the teacher.'
+  ],
+  'daily actions': [
+    'I wake up at seven.',
+    'I go to school every day.',
+    'I have dinner at home.',
+    'What time do you go to bed?',
+    'I usually study in the evening.'
+  ]
 };
 
 function getCuratedVocabularyBank(lesson) {
-  const key = `${learningPathState.language || ''}|${lesson.level || learningPathState.level || ''}|${String(lesson.title || '').trim().toLocaleLowerCase()}`;
-  const entries = CURATED_VOCABULARY_BANKS[key] || (lesson.level === 'A1' && learningPathState.language === 'english'
-    ? [...(lesson.vocabulary || []).map((item) => [item.word, item.translation || '', 'Tema de la lección']), ...(CURATED_ENGLISH_A1_ADDITIONS[String(lesson.title || '').trim().toLocaleLowerCase()] || [])]
-    : null);
+  const key = `${learningPathState.language || ''}|${lesson.level || learningPathState.level || ''}|${String(
+    lesson.title || ''
+  )
+    .trim()
+    .toLocaleLowerCase()}`;
+  const entries =
+    CURATED_VOCABULARY_BANKS[key] ||
+    (lesson.level === 'A1' && learningPathState.language === 'english'
+      ? [
+          ...(lesson.vocabulary || []).map((item) => [
+            item.word,
+            item.translation || '',
+            'Tema de la lección'
+          ]),
+          ...(CURATED_ENGLISH_A1_ADDITIONS[
+            String(lesson.title || '')
+              .trim()
+              .toLocaleLowerCase()
+          ] || [])
+        ]
+      : null);
   if (!entries) return null;
   return entries.map(([word, translation, category]) => ({
     word,
@@ -18169,13 +18780,10 @@ function buildVocabularyUnitBank(lesson) {
   candidates.forEach((word) => {
     if (bank.length >= VOCABULARY_MINIMUM_PER_UNIT) return;
     const key = word.toLocaleLowerCase();
-    if (
-      word.length < minimumContextWordLength ||
-      VOCABULARY_STOP_WORDS.has(key) ||
-      seen.has(key)
-    )
+    if (word.length < minimumContextWordLength || VOCABULARY_STOP_WORDS.has(key) || seen.has(key))
       return;
-    const example = sentences.find((sentence) => sentence.toLocaleLowerCase().includes(key))?.trim() || '';
+    const example =
+      sentences.find((sentence) => sentence.toLocaleLowerCase().includes(key))?.trim() || '';
     add({
       word,
       translation: '',
@@ -18463,7 +19071,8 @@ function renderVocabularyView(section, lesson) {
   const needsL1Gloss = cards.some(
     (card) =>
       !card.l1Translation &&
-      ((!card.translation && card.learningMode !== 'direct') || usesAdvancedVocabularyDefinition(card))
+      ((!card.translation && card.learningMode !== 'direct') ||
+        usesAdvancedVocabularyDefinition(card))
   );
   if (needsL1Gloss) {
     void loadMissingAdvancedVocabTranslations(cards, lesson.slug).then((changed) => {
@@ -21194,9 +21803,7 @@ async function performLearningPathLoad(options = {}) {
       learningPathState.level
     )
       .filter((lesson) => !learningPathState.units.length || lesson.unitId)
-      .map((lesson) =>
-        hasFullRouteAccess() ? { ...lesson, locked: false } : lesson
-      );
+      .map((lesson) => (hasFullRouteAccess() ? { ...lesson, locked: false } : lesson));
     await loadUnitVerbProgress();
     applyLoadedSelection();
     updatePathLessonSelect(learningPathState.unitId || options.restoreUnitId);
@@ -21571,7 +22178,8 @@ function syncActivityFullscreenLabels() {
   document.querySelectorAll('.activity-fullscreen-toggle').forEach((button) => {
     button.setAttribute('aria-pressed', String(isFullscreen));
     const label = button.querySelector('[data-fullscreen-label]');
-    if (label) label.textContent = isFullscreen ? 'Salir de pantalla completa' : 'Pantalla completa';
+    if (label)
+      label.textContent = isFullscreen ? 'Salir de pantalla completa' : 'Pantalla completa';
   });
 }
 
@@ -21672,8 +22280,8 @@ function syncMobileActivityFocus(viewId) {
     title.textContent = isTestActivity
       ? `ANDERGO · Tests · ${testLanguageLabel(lessonTestState.language)} ${lessonTestState.level}`
       : isVerbActivity
-      ? 'ANDERGO · Verbos'
-      : `ANDERGO · ${getSkillLabel(viewId)}${lesson?.title ? ` · ${lesson.title}` : ''}`;
+        ? 'ANDERGO · Verbos'
+        : `ANDERGO · ${getSkillLabel(viewId)}${lesson?.title ? ` · ${lesson.title}` : ''}`;
   }
   const focusLabel = topbar.querySelector('[data-focus-label]');
   if (focusLabel) focusLabel.textContent = desktopEnabled ? 'Vista normal' : 'Modo enfoque';
@@ -21697,7 +22305,15 @@ mobileActivityMedia.addEventListener?.('change', () => {
 // content inside #learning-path's small lesson-workspace card) - listed
 // once here since several places (router, card click handler, header
 // renderer) all need to agree on the same set.
-const SKILL_VIEWS = ['introduction', 'listening', 'speaking', 'reading', 'writing', 'grammar', 'vocabulary'];
+const SKILL_VIEWS = [
+  'introduction',
+  'listening',
+  'speaking',
+  'reading',
+  'writing',
+  'grammar',
+  'vocabulary'
+];
 
 const lessonTestState = {
   language: 'english',
@@ -21795,7 +22411,10 @@ function getLessonTestQuestions(unitId) {
   const expressionQuestions = expressionPool
     .map((expression, index) => {
       const options = shuffleTestItems(
-        [expression, ...expressionPool.filter((item) => item !== expression).slice(index, index + 3)],
+        [
+          expression,
+          ...expressionPool.filter((item) => item !== expression).slice(index, index + 3)
+        ],
         index + words.length * 2
       ).slice(0, 4);
       if (options.length < 4 || !options.includes(expression)) return null;
@@ -21816,10 +22435,7 @@ function getLessonTestQuestions(unitId) {
     ...vocabularyQuestions,
     ...reverseVocabularyQuestions,
     ...expressionQuestions
-  ].slice(
-    0,
-    LESSON_TEST_MIN_QUESTIONS
-  );
+  ].slice(0, LESSON_TEST_MIN_QUESTIONS);
 }
 
 const TEST_LANGUAGE_LABELS = {
@@ -21871,9 +22487,11 @@ function renderLessonTest() {
       return `<li>${sentence}</li>`;
     })
     .join('');
-  const questionHtml = lessonTestState.questions.map((question, index) => {
-    return `<fieldset class="tests-question${['C1', 'C2'].includes(lessonTestState.level) ? ' tests-question--advanced' : ''}" data-question-index="${index}" data-question-id="${escapeHtml(question.id)}"><legend><span>${index + 1}</span>${escapeHtml(question.prompt)}</legend><div>${question.options.map((option, optionIndex) => `<label><input type="radio" name="test-${index}" value="${optionIndex}"><span class="tests-option-content"><strong class="tests-option-letter" aria-hidden="true">${String.fromCharCode(97 + optionIndex)})</strong><span class="tests-option-text">${escapeHtml(option)}</span></span></label>`).join('')}</div><p class="tests-item-feedback" aria-live="polite"></p></fieldset>`;
-  }).join('');
+  const questionHtml = lessonTestState.questions
+    .map((question, index) => {
+      return `<fieldset class="tests-question${['C1', 'C2'].includes(lessonTestState.level) ? ' tests-question--advanced' : ''}" data-question-index="${index}" data-question-id="${escapeHtml(question.id)}"><legend><span>${index + 1}</span>${escapeHtml(question.prompt)}</legend><div>${question.options.map((option, optionIndex) => `<label><input type="radio" name="test-${index}" value="${optionIndex}"><span class="tests-option-content"><strong class="tests-option-letter" aria-hidden="true">${String.fromCharCode(97 + optionIndex)})</strong><span class="tests-option-text">${escapeHtml(option)}</span></span></label>`).join('')}</div><p class="tests-item-feedback" aria-live="polite"></p></fieldset>`;
+    })
+    .join('');
   stage.innerHTML = `<div class="tests-paper" id="lessonTestPaper">
     <header class="tests-paper-head"><div><span>${escapeHtml(testLanguageLabel(lessonTestState.language))} · ${escapeHtml(lessonTestState.level)}</span><h3>${escapeHtml(unit.grammarTitle || unit.title || `Lesson ${unit.order}`)}</h3><p>${totalQuestions} preguntas para completar a tu ritmo.</p>${grammarExamplesHtml ? `<div class="tests-grammar-examples"><strong>Ejemplos prácticos</strong><ol>${grammarExamplesHtml}</ol></div>` : ''}</div><strong>100<small>puntos</small></strong></header>
     <nav class="tests-challenge-map" aria-label="Progreso del reto">${lessonTestState.questions.map((_, index) => `<button type="button" class="tests-challenge-map-item" data-test-jump="${index}" aria-label="Ir a la pregunta ${index + 1}">${index + 1}</button>`).join('')}<span class="tests-challenge-progress" id="testsChallengeProgress">0/${totalQuestions} respondidas</span></nav>
@@ -22105,7 +22723,9 @@ async function shareLessonTestResult() {
 }
 
 function wrapAchievementCardText(context, value, maxWidth, maxLines = 2) {
-  const words = String(value || '').split(/\s+/).filter(Boolean);
+  const words = String(value || '')
+    .split(/\s+/)
+    .filter(Boolean);
   const lines = [];
   let current = '';
   words.forEach((word) => {
@@ -22192,7 +22812,8 @@ async function shareAndergoAchievement({
     );
     showHomeToast('Enlace copiado y Facebook abierto para compartir tu logro.');
   } catch (error) {
-    if (error?.name !== 'AbortError') showHomeToast('No se pudo preparar el enlace para compartir.');
+    if (error?.name !== 'AbortError')
+      showHomeToast('No se pudo preparar el enlace para compartir.');
   }
 }
 
@@ -22567,22 +23188,111 @@ const INFOGRAPHIC_SCENES = [
       ['Seat', 8, 67]
     ]
   },
-  { id: 'sports', title: 'Sports', icon: '⚽', parts: [['Jogging', 21, 28], ['Football / soccer', 47, 55], ['Basketball', 85, 57], ['Baseball', 22, 74], ['Baseball bat', 14, 81], ['American football', 47, 71], ['Football helmet', 71, 69], ['Tennis', 55, 87], ['Basketball hoop', 71, 18]] },
-  { id: 'nutrition', title: 'Food Choices', icon: '🥗', parts: [['Fruit', 20, 13], ['Vegetables', 18, 34], ['Water', 8, 55], ['Milk', 22, 58], ['Whole grains', 22, 76], ['Fish', 28, 90], ['Burger', 74, 17], ['Soda', 82, 40], ['Candy', 80, 60], ['Doughnut', 86, 83]] },
-  { id: 'city-map', title: 'Around the City', icon: '🗺️', parts: [['Bridge', 8, 22], ['School', 57, 12], ['Hospital', 87, 24], ['Park', 42, 40], ['Supermarket', 12, 48], ['Bus stop', 14, 75], ['Bank', 88, 56], ['Restaurant', 85, 83], ['Traffic light', 50, 63]] },
-  { id: 'family', title: 'The Family', icon: '👪', parts: [['Mother', 20, 46], ['Father', 38, 29], ['Grandmother', 59, 48], ['Grandfather', 81, 25], ['Brother', 40, 72], ['Sister', 58, 73], ['Baby', 22, 50], ['Dog', 83, 69]] },
-  { id: 'people-and-feelings', title: 'People, Colours and Feelings', icon: '🙂', parts: [['Doctor', 12.5, 25], ['Teacher', 37.5, 25], ['Chef', 62.5, 25], ['Firefighter', 87.5, 25], ['Happy', 12.5, 65], ['Sad', 37.5, 65], ['Surprised', 62.5, 65], ['Angry', 87.5, 65], ['Red', 8, 90], ['Blue', 26.5, 89], ['Yellow', 43.5, 88], ['Green', 58.5, 88], ['Orange', 73, 89], ['Purple', 91, 88]] }
+  {
+    id: 'sports',
+    title: 'Sports',
+    icon: '⚽',
+    parts: [
+      ['Jogging', 21, 28],
+      ['Football / soccer', 47, 55],
+      ['Basketball', 85, 57],
+      ['Baseball', 22, 74],
+      ['Baseball bat', 14, 81],
+      ['American football', 47, 71],
+      ['Football helmet', 71, 69],
+      ['Tennis', 55, 87],
+      ['Basketball hoop', 71, 18]
+    ]
+  },
+  {
+    id: 'nutrition',
+    title: 'Food Choices',
+    icon: '🥗',
+    parts: [
+      ['Fruit', 20, 13],
+      ['Vegetables', 18, 34],
+      ['Water', 8, 55],
+      ['Milk', 22, 58],
+      ['Whole grains', 22, 76],
+      ['Fish', 28, 90],
+      ['Burger', 74, 17],
+      ['Soda', 82, 40],
+      ['Candy', 80, 60],
+      ['Doughnut', 86, 83]
+    ]
+  },
+  {
+    id: 'city-map',
+    title: 'Around the City',
+    icon: '🗺️',
+    parts: [
+      ['Bridge', 8, 22],
+      ['School', 57, 12],
+      ['Hospital', 87, 24],
+      ['Park', 42, 40],
+      ['Supermarket', 12, 48],
+      ['Bus stop', 14, 75],
+      ['Bank', 88, 56],
+      ['Restaurant', 85, 83],
+      ['Traffic light', 50, 63]
+    ]
+  },
+  {
+    id: 'family',
+    title: 'The Family',
+    icon: '👪',
+    parts: [
+      ['Mother', 20, 46],
+      ['Father', 38, 29],
+      ['Grandmother', 59, 48],
+      ['Grandfather', 81, 25],
+      ['Brother', 40, 72],
+      ['Sister', 58, 73],
+      ['Baby', 22, 50],
+      ['Dog', 83, 69]
+    ]
+  },
+  {
+    id: 'people-and-feelings',
+    title: 'People, Colours and Feelings',
+    icon: '🙂',
+    parts: [
+      ['Doctor', 12.5, 25],
+      ['Teacher', 37.5, 25],
+      ['Chef', 62.5, 25],
+      ['Firefighter', 87.5, 25],
+      ['Happy', 12.5, 65],
+      ['Sad', 37.5, 65],
+      ['Surprised', 62.5, 65],
+      ['Angry', 87.5, 65],
+      ['Red', 8, 90],
+      ['Blue', 26.5, 89],
+      ['Yellow', 43.5, 88],
+      ['Green', 58.5, 88],
+      ['Orange', 73, 89],
+      ['Purple', 91, 88]
+    ]
+  }
 ];
 
 // Every visual dictionary offers ten or more useful words. These additional
 // points are chosen from visible, meaningful details in each scene rather
 // than repeating a label simply to increase the score.
 const INFOGRAPHIC_EXTRA_PARTS = {
-  supermarket: [['Cheese', 46, 65], ['Juice', 90, 35]],
-  airport: [['Backpack', 31, 42], ['Ticket', 37, 36]],
+  supermarket: [
+    ['Cheese', 46, 65],
+    ['Juice', 90, 35]
+  ],
+  airport: [
+    ['Backpack', 31, 42],
+    ['Ticket', 37, 36]
+  ],
   sports: [['Tennis ball', 78, 93]],
   'city-map': [['Bus', 27, 77]],
-  family: [['Sofa', 10, 65], ['Photo', 72, 35]],
+  family: [
+    ['Sofa', 10, 65],
+    ['Photo', 72, 35]
+  ],
   'body-front': [
     ['Ear', 44, 14],
     ['Neck', 50, 19],
@@ -22730,7 +23440,9 @@ function ensureInfographicExtras() {
     Object.entries(INFOGRAPHIC_NEW_SCENE_LOCALIZATION).forEach(([language, scenes]) => {
       const localizedWords = scenes[sceneId]?.words;
       if (localizedWords)
-        localizedWords.push(...(INFOGRAPHIC_NEW_EXTRA_LABELS[language]?.[sceneId] || parts.map(([label]) => label)));
+        localizedWords.push(
+          ...(INFOGRAPHIC_NEW_EXTRA_LABELS[language]?.[sceneId] || parts.map(([label]) => label))
+        );
     });
   });
 }
@@ -22935,58 +23647,477 @@ const INFOGRAPHIC_LOCALIZATION = {
 
 const INFOGRAPHIC_NEW_SCENE_LOCALIZATION = {
   spanish: {
-    supermarket: { title: 'En el supermercado', words: ['Comprador/a', 'Carrito', 'Fruta', 'Verduras', 'Pan', 'Leche', 'Estante', 'Caja'] },
-    airport: { title: 'En el aeropuerto', words: ['Viajero/a', 'Pasaporte', 'Tarjeta de embarque', 'Maleta', 'Avión', 'Mostrador de facturación', 'Panel de salidas', 'Asiento'] },
-    sports: { title: 'Los deportes', words: ['Jogging', 'Fútbol', 'Baloncesto', 'Béisbol', 'Bate de béisbol', 'Fútbol americano', 'Casco de fútbol americano', 'Tenis', 'Canasta'] },
-    nutrition: { title: 'Alimentación saludable', words: ['Fruta', 'Verduras', 'Agua', 'Leche', 'Cereales integrales', 'Pescado', 'Hamburguesa', 'Refresco', 'Dulces', 'Dona'] },
-    'city-map': { title: 'Por la ciudad', words: ['Puente', 'Escuela', 'Hospital', 'Parque', 'Supermercado', 'Parada de autobús', 'Banco', 'Restaurante', 'Semáforo'] },
-    family: { title: 'La familia', words: ['Madre', 'Padre', 'Abuela', 'Abuelo', 'Hermano', 'Hermana', 'Bebé', 'Perro'] },
-    'people-and-feelings': { title: 'Profesiones, colores y emociones', words: ['Médico/a', 'Profesor/a', 'Chef', 'Bombero/a', 'Feliz', 'Triste', 'Sorprendido/a', 'Enfadado/a', 'Rojo', 'Azul', 'Amarillo', 'Verde', 'Naranja', 'Morado'] }
+    supermarket: {
+      title: 'En el supermercado',
+      words: ['Comprador/a', 'Carrito', 'Fruta', 'Verduras', 'Pan', 'Leche', 'Estante', 'Caja']
+    },
+    airport: {
+      title: 'En el aeropuerto',
+      words: [
+        'Viajero/a',
+        'Pasaporte',
+        'Tarjeta de embarque',
+        'Maleta',
+        'Avión',
+        'Mostrador de facturación',
+        'Panel de salidas',
+        'Asiento'
+      ]
+    },
+    sports: {
+      title: 'Los deportes',
+      words: [
+        'Jogging',
+        'Fútbol',
+        'Baloncesto',
+        'Béisbol',
+        'Bate de béisbol',
+        'Fútbol americano',
+        'Casco de fútbol americano',
+        'Tenis',
+        'Canasta'
+      ]
+    },
+    nutrition: {
+      title: 'Alimentación saludable',
+      words: [
+        'Fruta',
+        'Verduras',
+        'Agua',
+        'Leche',
+        'Cereales integrales',
+        'Pescado',
+        'Hamburguesa',
+        'Refresco',
+        'Dulces',
+        'Dona'
+      ]
+    },
+    'city-map': {
+      title: 'Por la ciudad',
+      words: [
+        'Puente',
+        'Escuela',
+        'Hospital',
+        'Parque',
+        'Supermercado',
+        'Parada de autobús',
+        'Banco',
+        'Restaurante',
+        'Semáforo'
+      ]
+    },
+    family: {
+      title: 'La familia',
+      words: ['Madre', 'Padre', 'Abuela', 'Abuelo', 'Hermano', 'Hermana', 'Bebé', 'Perro']
+    },
+    'people-and-feelings': {
+      title: 'Profesiones, colores y emociones',
+      words: [
+        'Médico/a',
+        'Profesor/a',
+        'Chef',
+        'Bombero/a',
+        'Feliz',
+        'Triste',
+        'Sorprendido/a',
+        'Enfadado/a',
+        'Rojo',
+        'Azul',
+        'Amarillo',
+        'Verde',
+        'Naranja',
+        'Morado'
+      ]
+    }
   },
   french: {
-    supermarket: { title: 'Au supermarché', words: ['Client(e)', 'Caddie', 'Fruits', 'Légumes', 'Pain', 'Lait', 'Rayon', 'Caisse'] },
-    airport: { title: 'À l’aéroport', words: ['Voyageur / voyageuse', 'Passeport', 'Carte d’embarquement', 'Valise', 'Avion', 'Comptoir d’enregistrement', 'Tableau des départs', 'Siège'] },
-    sports: { title: 'Les sports', words: ['Jogging', 'Football', 'Basket-ball', 'Baseball', 'Batte de baseball', 'Football américain', 'Casque de football', 'Tennis', 'Panier'] },
-    nutrition: { title: 'L’alimentation saine', words: ['Fruits', 'Légumes', 'Eau', 'Lait', 'Céréales complètes', 'Poisson', 'Hamburger', 'Soda', 'Bonbons', 'Beignet'] },
-    'city-map': { title: 'En ville', words: ['Pont', 'École', 'Hôpital', 'Parc', 'Supermarché', 'Arrêt de bus', 'Banque', 'Restaurant', 'Feu de circulation'] },
-    family: { title: 'La famille', words: ['Mère', 'Père', 'Grand-mère', 'Grand-père', 'Frère', 'Sœur', 'Bébé', 'Chien'] },
-    'people-and-feelings': { title: 'Métiers, couleurs et émotions', words: ['Médecin', 'Professeur/e', 'Chef', 'Pompier', 'Heureux/euse', 'Triste', 'Surpris/e', 'En colère', 'Rouge', 'Bleu', 'Jaune', 'Vert', 'Orange', 'Violet'] }
+    supermarket: {
+      title: 'Au supermarché',
+      words: ['Client(e)', 'Caddie', 'Fruits', 'Légumes', 'Pain', 'Lait', 'Rayon', 'Caisse']
+    },
+    airport: {
+      title: 'À l’aéroport',
+      words: [
+        'Voyageur / voyageuse',
+        'Passeport',
+        'Carte d’embarquement',
+        'Valise',
+        'Avion',
+        'Comptoir d’enregistrement',
+        'Tableau des départs',
+        'Siège'
+      ]
+    },
+    sports: {
+      title: 'Les sports',
+      words: [
+        'Jogging',
+        'Football',
+        'Basket-ball',
+        'Baseball',
+        'Batte de baseball',
+        'Football américain',
+        'Casque de football',
+        'Tennis',
+        'Panier'
+      ]
+    },
+    nutrition: {
+      title: 'L’alimentation saine',
+      words: [
+        'Fruits',
+        'Légumes',
+        'Eau',
+        'Lait',
+        'Céréales complètes',
+        'Poisson',
+        'Hamburger',
+        'Soda',
+        'Bonbons',
+        'Beignet'
+      ]
+    },
+    'city-map': {
+      title: 'En ville',
+      words: [
+        'Pont',
+        'École',
+        'Hôpital',
+        'Parc',
+        'Supermarché',
+        'Arrêt de bus',
+        'Banque',
+        'Restaurant',
+        'Feu de circulation'
+      ]
+    },
+    family: {
+      title: 'La famille',
+      words: ['Mère', 'Père', 'Grand-mère', 'Grand-père', 'Frère', 'Sœur', 'Bébé', 'Chien']
+    },
+    'people-and-feelings': {
+      title: 'Métiers, couleurs et émotions',
+      words: [
+        'Médecin',
+        'Professeur/e',
+        'Chef',
+        'Pompier',
+        'Heureux/euse',
+        'Triste',
+        'Surpris/e',
+        'En colère',
+        'Rouge',
+        'Bleu',
+        'Jaune',
+        'Vert',
+        'Orange',
+        'Violet'
+      ]
+    }
   },
   italian: {
-    supermarket: { title: 'Al supermercato', words: ['Cliente', 'Carrello', 'Frutta', 'Verdure', 'Pane', 'Latte', 'Scaffale', 'Cassa'] },
-    airport: { title: 'All’aeroporto', words: ['Viaggiatore / viaggiatrice', 'Passaporto', 'Carta d’imbarco', 'Valigia', 'Aereo', 'Banco del check-in', 'Tabellone delle partenze', 'Sedile'] }
-    ,sports: { title: 'Gli sport', words: ['Jogging', 'Calcio', 'Pallacanestro', 'Baseball', 'Mazza da baseball', 'Football americano', 'Casco da football', 'Tennis', 'Canestro'] },
-    nutrition: { title: 'Scelte alimentari', words: ['Frutta', 'Verdure', 'Acqua', 'Latte', 'Cereali integrali', 'Pesce', 'Hamburger', 'Bibita gassata', 'Caramelle', 'Ciambella'] },
-    'city-map': { title: 'In città', words: ['Ponte', 'Scuola', 'Ospedale', 'Parco', 'Supermercato', 'Fermata dell’autobus', 'Banca', 'Ristorante', 'Semaforo'] },
-    family: { title: 'La famiglia', words: ['Madre', 'Padre', 'Nonna', 'Nonno', 'Fratello', 'Sorella', 'Bebè', 'Cane'] },
-    'people-and-feelings': { title: 'Persone, colori ed emozioni', words: ['Medico', 'Insegnante', 'Cuoco', 'Pompiere', 'Felice', 'Triste', 'Sorpreso/a', 'Arrabbiato/a', 'Rosso', 'Blu', 'Giallo', 'Verde', 'Arancione', 'Viola'] }
+    supermarket: {
+      title: 'Al supermercato',
+      words: ['Cliente', 'Carrello', 'Frutta', 'Verdure', 'Pane', 'Latte', 'Scaffale', 'Cassa']
+    },
+    airport: {
+      title: 'All’aeroporto',
+      words: [
+        'Viaggiatore / viaggiatrice',
+        'Passaporto',
+        'Carta d’imbarco',
+        'Valigia',
+        'Aereo',
+        'Banco del check-in',
+        'Tabellone delle partenze',
+        'Sedile'
+      ]
+    },
+    sports: {
+      title: 'Gli sport',
+      words: [
+        'Jogging',
+        'Calcio',
+        'Pallacanestro',
+        'Baseball',
+        'Mazza da baseball',
+        'Football americano',
+        'Casco da football',
+        'Tennis',
+        'Canestro'
+      ]
+    },
+    nutrition: {
+      title: 'Scelte alimentari',
+      words: [
+        'Frutta',
+        'Verdure',
+        'Acqua',
+        'Latte',
+        'Cereali integrali',
+        'Pesce',
+        'Hamburger',
+        'Bibita gassata',
+        'Caramelle',
+        'Ciambella'
+      ]
+    },
+    'city-map': {
+      title: 'In città',
+      words: [
+        'Ponte',
+        'Scuola',
+        'Ospedale',
+        'Parco',
+        'Supermercato',
+        'Fermata dell’autobus',
+        'Banca',
+        'Ristorante',
+        'Semaforo'
+      ]
+    },
+    family: {
+      title: 'La famiglia',
+      words: ['Madre', 'Padre', 'Nonna', 'Nonno', 'Fratello', 'Sorella', 'Bebè', 'Cane']
+    },
+    'people-and-feelings': {
+      title: 'Persone, colori ed emozioni',
+      words: [
+        'Medico',
+        'Insegnante',
+        'Cuoco',
+        'Pompiere',
+        'Felice',
+        'Triste',
+        'Sorpreso/a',
+        'Arrabbiato/a',
+        'Rosso',
+        'Blu',
+        'Giallo',
+        'Verde',
+        'Arancione',
+        'Viola'
+      ]
+    }
   },
   portuguese: {
-    supermarket: { title: 'No supermercado', words: ['Cliente', 'Carrinho', 'Frutas', 'Verduras', 'Pão', 'Leite', 'Prateleira', 'Caixa'] },
-    airport: { title: 'No aeroporto', words: ['Viajante', 'Passaporte', 'Cartão de embarque', 'Mala', 'Avião', 'Balcão de check-in', 'Painel de partidas', 'Assento'] },
-    sports: { title: 'Os esportes', words: ['Corrida', 'Futebol', 'Basquete', 'Beisebol', 'Taco de beisebol', 'Futebol americano', 'Capacete de futebol', 'Tênis', 'Cesta'] },
-    nutrition: { title: 'Alimentação saudável', words: ['Frutas', 'Verduras', 'Água', 'Leite', 'Cereais integrais', 'Peixe', 'Hambúrguer', 'Refrigerante', 'Doces', 'Rosquinha'] },
-    'city-map': { title: 'Pela cidade', words: ['Ponte', 'Escola', 'Hospital', 'Parque', 'Supermercado', 'Ponto de ônibus', 'Banco', 'Restaurante', 'Semáforo'] },
-    family: { title: 'A família', words: ['Mãe', 'Pai', 'Avó', 'Avô', 'Irmão', 'Irmã', 'Bebê', 'Cachorro'] },
-    'people-and-feelings': { title: 'Profissões, cores e emoções', words: ['Médico/a', 'Professor/a', 'Chef', 'Bombeiro/a', 'Feliz', 'Triste', 'Surpreso/a', 'Zangado/a', 'Vermelho', 'Azul', 'Amarelo', 'Verde', 'Laranja', 'Roxo'] }
+    supermarket: {
+      title: 'No supermercado',
+      words: ['Cliente', 'Carrinho', 'Frutas', 'Verduras', 'Pão', 'Leite', 'Prateleira', 'Caixa']
+    },
+    airport: {
+      title: 'No aeroporto',
+      words: [
+        'Viajante',
+        'Passaporte',
+        'Cartão de embarque',
+        'Mala',
+        'Avião',
+        'Balcão de check-in',
+        'Painel de partidas',
+        'Assento'
+      ]
+    },
+    sports: {
+      title: 'Os esportes',
+      words: [
+        'Corrida',
+        'Futebol',
+        'Basquete',
+        'Beisebol',
+        'Taco de beisebol',
+        'Futebol americano',
+        'Capacete de futebol',
+        'Tênis',
+        'Cesta'
+      ]
+    },
+    nutrition: {
+      title: 'Alimentação saudável',
+      words: [
+        'Frutas',
+        'Verduras',
+        'Água',
+        'Leite',
+        'Cereais integrais',
+        'Peixe',
+        'Hambúrguer',
+        'Refrigerante',
+        'Doces',
+        'Rosquinha'
+      ]
+    },
+    'city-map': {
+      title: 'Pela cidade',
+      words: [
+        'Ponte',
+        'Escola',
+        'Hospital',
+        'Parque',
+        'Supermercado',
+        'Ponto de ônibus',
+        'Banco',
+        'Restaurante',
+        'Semáforo'
+      ]
+    },
+    family: {
+      title: 'A família',
+      words: ['Mãe', 'Pai', 'Avó', 'Avô', 'Irmão', 'Irmã', 'Bebê', 'Cachorro']
+    },
+    'people-and-feelings': {
+      title: 'Profissões, cores e emoções',
+      words: [
+        'Médico/a',
+        'Professor/a',
+        'Chef',
+        'Bombeiro/a',
+        'Feliz',
+        'Triste',
+        'Surpreso/a',
+        'Zangado/a',
+        'Vermelho',
+        'Azul',
+        'Amarelo',
+        'Verde',
+        'Laranja',
+        'Roxo'
+      ]
+    }
   },
   german: {
-    supermarket: { title: 'Im Supermarkt', words: ['Kunde / Kundin', 'Einkaufswagen', 'Obst', 'Gemüse', 'Brot', 'Milch', 'Regal', 'Kasse'] },
-    airport: { title: 'Am Flughafen', words: ['Reisende/r', 'Reisepass', 'Bordkarte', 'Koffer', 'Flugzeug', 'Check-in-Schalter', 'Abflugtafel', 'Sitz'] },
-    sports: { title: 'Sportarten', words: ['Jogging', 'Fußball', 'Basketball', 'Baseball', 'Baseballschläger', 'American Football', 'Footballhelm', 'Tennis', 'Korb'] },
-    nutrition: { title: 'Gesunde Ernährung', words: ['Obst', 'Gemüse', 'Wasser', 'Milch', 'Vollkorngetreide', 'Fisch', 'Hamburger', 'Limonade', 'Süßigkeiten', 'Donut'] },
-    'city-map': { title: 'In der Stadt', words: ['Brücke', 'Schule', 'Krankenhaus', 'Park', 'Supermarkt', 'Bushaltestelle', 'Bank', 'Restaurant', 'Ampel'] },
-    family: { title: 'Die Familie', words: ['Mutter', 'Vater', 'Großmutter', 'Großvater', 'Bruder', 'Schwester', 'Baby', 'Hund'] },
-    'people-and-feelings': { title: 'Berufe, Farben und Gefühle', words: ['Arzt / Ärztin', 'Lehrer/in', 'Koch / Köchin', 'Feuerwehrmann/-frau', 'Fröhlich', 'Traurig', 'Überrascht', 'Wütend', 'Rot', 'Blau', 'Gelb', 'Grün', 'Orange', 'Lila'] }
+    supermarket: {
+      title: 'Im Supermarkt',
+      words: [
+        'Kunde / Kundin',
+        'Einkaufswagen',
+        'Obst',
+        'Gemüse',
+        'Brot',
+        'Milch',
+        'Regal',
+        'Kasse'
+      ]
+    },
+    airport: {
+      title: 'Am Flughafen',
+      words: [
+        'Reisende/r',
+        'Reisepass',
+        'Bordkarte',
+        'Koffer',
+        'Flugzeug',
+        'Check-in-Schalter',
+        'Abflugtafel',
+        'Sitz'
+      ]
+    },
+    sports: {
+      title: 'Sportarten',
+      words: [
+        'Jogging',
+        'Fußball',
+        'Basketball',
+        'Baseball',
+        'Baseballschläger',
+        'American Football',
+        'Footballhelm',
+        'Tennis',
+        'Korb'
+      ]
+    },
+    nutrition: {
+      title: 'Gesunde Ernährung',
+      words: [
+        'Obst',
+        'Gemüse',
+        'Wasser',
+        'Milch',
+        'Vollkorngetreide',
+        'Fisch',
+        'Hamburger',
+        'Limonade',
+        'Süßigkeiten',
+        'Donut'
+      ]
+    },
+    'city-map': {
+      title: 'In der Stadt',
+      words: [
+        'Brücke',
+        'Schule',
+        'Krankenhaus',
+        'Park',
+        'Supermarkt',
+        'Bushaltestelle',
+        'Bank',
+        'Restaurant',
+        'Ampel'
+      ]
+    },
+    family: {
+      title: 'Die Familie',
+      words: ['Mutter', 'Vater', 'Großmutter', 'Großvater', 'Bruder', 'Schwester', 'Baby', 'Hund']
+    },
+    'people-and-feelings': {
+      title: 'Berufe, Farben und Gefühle',
+      words: [
+        'Arzt / Ärztin',
+        'Lehrer/in',
+        'Koch / Köchin',
+        'Feuerwehrmann/-frau',
+        'Fröhlich',
+        'Traurig',
+        'Überrascht',
+        'Wütend',
+        'Rot',
+        'Blau',
+        'Gelb',
+        'Grün',
+        'Orange',
+        'Lila'
+      ]
+    }
   }
 };
 
 const INFOGRAPHIC_NEW_EXTRA_LABELS = {
-  spanish: { supermarket: ['Queso', 'Jugo'], airport: ['Mochila', 'Boleto'], sports: ['Pelota de tenis'], 'city-map': ['Autobús'], family: ['Sofá', 'Foto'] },
-  french: { supermarket: ['Fromage', 'Jus'], airport: ['Sac à dos', 'Billet'], sports: ['Balle de tennis'], 'city-map': ['Bus'], family: ['Canapé', 'Photo'] },
-  italian: { supermarket: ['Formaggio', 'Succo'], airport: ['Zaino', 'Biglietto'], sports: ['Pallina da tennis'], 'city-map': ['Autobus'], family: ['Divano', 'Foto'] },
-  portuguese: { supermarket: ['Queijo', 'Suco'], airport: ['Mochila', 'Bilhete'], sports: ['Bola de tênis'], 'city-map': ['Ônibus'], family: ['Sofá', 'Foto'] },
-  german: { supermarket: ['Käse', 'Saft'], airport: ['Rucksack', 'Ticket'], sports: ['Tennisball'], 'city-map': ['Bus'], family: ['Sofa', 'Foto'] }
+  spanish: {
+    supermarket: ['Queso', 'Jugo'],
+    airport: ['Mochila', 'Boleto'],
+    sports: ['Pelota de tenis'],
+    'city-map': ['Autobús'],
+    family: ['Sofá', 'Foto']
+  },
+  french: {
+    supermarket: ['Fromage', 'Jus'],
+    airport: ['Sac à dos', 'Billet'],
+    sports: ['Balle de tennis'],
+    'city-map': ['Bus'],
+    family: ['Canapé', 'Photo']
+  },
+  italian: {
+    supermarket: ['Formaggio', 'Succo'],
+    airport: ['Zaino', 'Biglietto'],
+    sports: ['Pallina da tennis'],
+    'city-map': ['Autobus'],
+    family: ['Divano', 'Foto']
+  },
+  portuguese: {
+    supermarket: ['Queijo', 'Suco'],
+    airport: ['Mochila', 'Bilhete'],
+    sports: ['Bola de tênis'],
+    'city-map': ['Ônibus'],
+    family: ['Sofá', 'Foto']
+  },
+  german: {
+    supermarket: ['Käse', 'Saft'],
+    airport: ['Rucksack', 'Ticket'],
+    sports: ['Tennisball'],
+    'city-map': ['Bus'],
+    family: ['Sofa', 'Foto']
+  }
 };
 
 const INFOGRAPHIC_DEFAULT_UI = [
@@ -23024,7 +24155,10 @@ function loadInfographicPointOverrides() {
 }
 
 function saveInfographicPointOverrides() {
-  localStorage.setItem(INFOGRAPHIC_POINT_STORAGE_KEY, JSON.stringify(infographicState.pointOverrides));
+  localStorage.setItem(
+    INFOGRAPHIC_POINT_STORAGE_KEY,
+    JSON.stringify(infographicState.pointOverrides)
+  );
 }
 
 function getInfographicPoint(sceneId, index, fallbackX, fallbackY) {
@@ -23043,7 +24177,6 @@ function setInfographicPoint(sceneId, index, x, y) {
     y: Number(Math.max(0, Math.min(100, y)).toFixed(2))
   };
 }
-
 
 function renderInfographicHotspot(name, x, y, index, answer, sceneId, label = name) {
   const isCorrect = answer === name;
@@ -23083,7 +24216,10 @@ function getLocalizedInfographicScene(baseScene, language = getEffectiveInterfac
   const sceneIndex = INFOGRAPHIC_SCENES.findIndex((scene) => scene.id === baseScene.id);
   const localized = INFOGRAPHIC_LOCALIZATION[language];
   const sceneLocalization = INFOGRAPHIC_NEW_SCENE_LOCALIZATION[language]?.[baseScene.id];
-  const labels = sceneLocalization?.words || localized?.words?.[sceneIndex] || baseScene.parts.map(([name]) => name);
+  const labels =
+    sceneLocalization?.words ||
+    localized?.words?.[sceneIndex] ||
+    baseScene.parts.map(([name]) => name);
   return {
     ...baseScene,
     title: sceneLocalization?.title || localized?.titles?.[sceneIndex] || baseScene.title,
@@ -23131,36 +24267,87 @@ function infographicSceneArtwork(scene) {
   const safeSceneId = INFOGRAPHIC_SCENES.some((item) => item.id === scene.id)
     ? scene.id
     : 'body-front';
-  const artworkFile = safeSceneId === 'weather'
-    ? 'weather-v2'
-    : safeSceneId === 'supermarket'
-      ? 'supermarket-animated-v1'
-      : safeSceneId;
+  const artworkFile =
+    safeSceneId === 'weather'
+      ? 'weather-v2'
+      : safeSceneId === 'supermarket'
+        ? 'supermarket-animated-v1'
+        : safeSceneId;
   return `<foreignObject class="info-realistic-art" x="0" y="0" width="400" height="400"><div xmlns="http://www.w3.org/1999/xhtml" style="width:100%;height:100%;background:url('/images/infographics/topics/${artworkFile}.png?v=20260817-ice') center / contain no-repeat;"></div></foreignObject>`;
 }
 
 function getInfographicSceneGroup(sceneId) {
-  if (['body-front', 'body-rear', 'face', 'family', 'people-and-feelings'].includes(sceneId)) return 'people';
+  if (['body-front', 'body-rear', 'face', 'family', 'people-and-feelings'].includes(sceneId))
+    return 'people';
   if (['food', 'nutrition', 'supermarket'].includes(sceneId)) return 'daily';
   if (['city-map', 'airport', 'car', 'bicycle'].includes(sceneId)) return 'places';
   return 'world';
 }
 
 function getInfographicSceneGroupLabels(language) {
-  return {
-    english: { people: 'People & body', daily: 'Daily life', places: 'Places & transport', world: 'World around us' },
-    spanish: { people: 'Personas y cuerpo', daily: 'Vida diaria', places: 'Lugares y transporte', world: 'El mundo' },
-    french: { people: 'Personnes et corps', daily: 'Vie quotidienne', places: 'Lieux et transports', world: 'Le monde' },
-    italian: { people: 'Persone e corpo', daily: 'Vita quotidiana', places: 'Luoghi e trasporti', world: 'Il mondo' },
-    portuguese: { people: 'Pessoas e corpo', daily: 'Vida diária', places: 'Lugares e transportes', world: 'O mundo' },
-    german: { people: 'Menschen und Körper', daily: 'Alltag', places: 'Orte und Verkehr', world: 'Die Welt' }
-  }[language] || { people: 'People & body', daily: 'Daily life', places: 'Places & transport', world: 'World around us' };
+  return (
+    {
+      english: {
+        people: 'People & body',
+        daily: 'Daily life',
+        places: 'Places & transport',
+        world: 'World around us'
+      },
+      spanish: {
+        people: 'Personas y cuerpo',
+        daily: 'Vida diaria',
+        places: 'Lugares y transporte',
+        world: 'El mundo'
+      },
+      french: {
+        people: 'Personnes et corps',
+        daily: 'Vie quotidienne',
+        places: 'Lieux et transports',
+        world: 'Le monde'
+      },
+      italian: {
+        people: 'Persone e corpo',
+        daily: 'Vita quotidiana',
+        places: 'Luoghi e trasporti',
+        world: 'Il mondo'
+      },
+      portuguese: {
+        people: 'Pessoas e corpo',
+        daily: 'Vida diária',
+        places: 'Lugares e transportes',
+        world: 'O mundo'
+      },
+      german: {
+        people: 'Menschen und Körper',
+        daily: 'Alltag',
+        places: 'Orte und Verkehr',
+        world: 'Die Welt'
+      }
+    }[language] || {
+      people: 'People & body',
+      daily: 'Daily life',
+      places: 'Places & transport',
+      world: 'World around us'
+    }
+  );
 }
 
 function renderInfographicScenePicker(activeScene, language) {
   const labels = getInfographicSceneGroupLabels(language);
   const groups = ['people', 'daily', 'places', 'world'];
-  return `<details class="infographic-scene-picker"><summary><span class="infographic-scene-current"><span aria-hidden="true">${activeScene.icon}</span><strong>${escapeHtml(activeScene.title)}</strong></span><span class="infographic-scene-change">${language === 'spanish' ? 'Cambiar tema' : language === 'italian' ? 'Cambia tema' : language === 'portuguese' ? 'Mudar tema' : language === 'french' ? 'Changer de thème' : language === 'german' ? 'Thema wechseln' : 'Change topic'}</span><span class="infographic-scene-summary-spacer" aria-hidden="true"></span></summary><div class="infographic-scene-menu">${groups.map((group) => `<section><h4>${labels[group]}</h4><div>${INFOGRAPHIC_SCENES.filter((item) => getInfographicSceneGroup(item.id) === group).map((item) => { const localized = getLocalizedInfographicScene(item, language); return `<button type="button" class="infographic-scene-btn${item.id === activeScene.id ? ' is-active' : ''}" data-info-scene="${item.id}"><span>${item.icon}</span>${escapeHtml(localized.title)}</button>`; }).join('')}</div></section>`).join('')}</div></details>`;
+  return `<details class="infographic-scene-picker"><summary><span class="infographic-scene-current"><span aria-hidden="true">${activeScene.icon}</span><strong>${escapeHtml(activeScene.title)}</strong></span><span class="infographic-scene-change">${language === 'spanish' ? 'Cambiar tema' : language === 'italian' ? 'Cambia tema' : language === 'portuguese' ? 'Mudar tema' : language === 'french' ? 'Changer de thème' : language === 'german' ? 'Thema wechseln' : 'Change topic'}</span><span class="infographic-scene-summary-spacer" aria-hidden="true"></span></summary><div class="infographic-scene-menu">${groups
+    .map(
+      (group) =>
+        `<section><h4>${labels[group]}</h4><div>${INFOGRAPHIC_SCENES.filter(
+          (item) => getInfographicSceneGroup(item.id) === group
+        )
+          .map((item) => {
+            const localized = getLocalizedInfographicScene(item, language);
+            return `<button type="button" class="infographic-scene-btn${item.id === activeScene.id ? ' is-active' : ''}" data-info-scene="${item.id}"><span>${item.icon}</span>${escapeHtml(localized.title)}</button>`;
+          })
+          .join('')}</div></section>`
+    )
+    .join('')}</div></details>`;
 }
 
 function renderInfographicApp() {
@@ -23183,11 +24370,32 @@ function renderInfographicApp() {
     a.label.localeCompare(b.label)
   );
   const canEditPoints =
-    isStaffEntitled() || new URLSearchParams(window.location.search).get('infographicEditor') === '1';
-  const editLabel = language === 'french' ? 'Ajuster les points' : language === 'english' ? 'Adjust points' : 'Ajustar puntos';
-  const saveLabel = language === 'french' ? 'Enregistrer' : language === 'english' ? 'Save points' : 'Guardar puntos';
-  const copyLabel = language === 'french' ? 'Copier les coordonnées' : language === 'english' ? 'Copy coordinates' : 'Copiar coordenadas';
-  const restoreLabel = language === 'french' ? 'Restaurer' : language === 'english' ? 'Restore defaults' : 'Restaurar originales';
+    isStaffEntitled() ||
+    new URLSearchParams(window.location.search).get('infographicEditor') === '1';
+  const editLabel =
+    language === 'french'
+      ? 'Ajuster les points'
+      : language === 'english'
+        ? 'Adjust points'
+        : 'Ajustar puntos';
+  const saveLabel =
+    language === 'french'
+      ? 'Enregistrer'
+      : language === 'english'
+        ? 'Save points'
+        : 'Guardar puntos';
+  const copyLabel =
+    language === 'french'
+      ? 'Copier les coordonnées'
+      : language === 'english'
+        ? 'Copy coordinates'
+        : 'Copiar coordenadas';
+  const restoreLabel =
+    language === 'french'
+      ? 'Restaurer'
+      : language === 'english'
+        ? 'Restore defaults'
+        : 'Restaurar originales';
   app.innerHTML = `
     <div class="infographic-toolbar">
       ${canEditPoints ? `<button type="button" class="secondary-btn infographic-edit-toggle${infographicState.editMode ? ' is-active' : ''}" aria-pressed="${infographicState.editMode}">⊙ ${editLabel}</button>` : ''}
@@ -23211,24 +24419,34 @@ function renderInfographicApp() {
         <svg class="infographic-canvas${infographicState.editMode ? ' is-point-editor' : ''}" viewBox="0 0 400 400" role="img" aria-label="${scene.title}">${infographicSceneArtwork(scene)}${scene.parts
           .map(([id, label, x, y], index) => {
             const point = getInfographicPoint(scene.id, index, x, y);
-            return renderInfographicHotspot(id, point.x, point.y, index, answers[index], scene.id, label);
+            return renderInfographicHotspot(
+              id,
+              point.x,
+              point.y,
+              index,
+              answers[index],
+              scene.id,
+              label
+            );
           })
           .join('')}</svg>
         ${infographicState.editMode ? `<div class="infographic-editor-actions"><button type="button" class="primary-btn infographic-save-points">✓ ${saveLabel}</button><button type="button" class="secondary-btn infographic-copy-points">${copyLabel}</button><button type="button" class="secondary-btn infographic-restore-points">${restoreLabel}</button></div>` : ''}
       </article>
-      <aside class="infographic-label-panel"><span class="infographic-kicker">${infographicState.editMode ? 'Editor de puntos' : ui[1]}</span><h3>${infographicState.editMode ? 'Coordenadas de esta imagen' : ui[2]}</h3><p>${infographicState.editMode ? 'Los valores se actualizan mientras mueves cada punto.' : ui[3]}</p><div class="infographic-word-bank">${infographicState.editMode
-        ? scene.parts
-            .map(([id, label, x, y], index) => {
-              const point = getInfographicPoint(scene.id, index, x, y);
-              return `<div class="infographic-word infographic-coordinate-row" data-info-coordinate="${index}"><span>${index + 1}. ${escapeHtml(label)}</span><small>${point.x.toFixed(1)}%, ${point.y.toFixed(1)}%</small></div>`;
-            })
-            .join('')
-        : labels
-            .map(
-              ({ id, label }) =>
-                `<button type="button" draggable="true" class="infographic-word${infographicState.selectedLabel === id ? ' is-selected' : ''}${placed.has(id) ? ' is-used' : ''}" data-info-label="${id}" data-info-speech="${label}">🔊 ${label}</button>`
-            )
-            .join('')}</div>${!infographicState.editMode && infographicState.feedback ? `<p class="infographic-answer-feedback">${infographicState.feedback}</p>` : ''}${!infographicState.editMode ? `<div class="infographic-score"><span>${ui[4]}</span><strong>${completed}/${scene.parts.length} · ${score}%</strong><div><i style="width:${score}%"></i></div></div><button type="button" class="secondary-btn infographic-reset-btn">${ui[5]}</button>${score === 100 ? `<div class="infographic-success">🏆 ${ui[6]}</div>` : ''}` : ''}</aside>
+      <aside class="infographic-label-panel"><span class="infographic-kicker">${infographicState.editMode ? 'Editor de puntos' : ui[1]}</span><h3>${infographicState.editMode ? 'Coordenadas de esta imagen' : ui[2]}</h3><p>${infographicState.editMode ? 'Los valores se actualizan mientras mueves cada punto.' : ui[3]}</p><div class="infographic-word-bank">${
+        infographicState.editMode
+          ? scene.parts
+              .map(([id, label, x, y], index) => {
+                const point = getInfographicPoint(scene.id, index, x, y);
+                return `<div class="infographic-word infographic-coordinate-row" data-info-coordinate="${index}"><span>${index + 1}. ${escapeHtml(label)}</span><small>${point.x.toFixed(1)}%, ${point.y.toFixed(1)}%</small></div>`;
+              })
+              .join('')
+          : labels
+              .map(
+                ({ id, label }) =>
+                  `<button type="button" draggable="true" class="infographic-word${infographicState.selectedLabel === id ? ' is-selected' : ''}${placed.has(id) ? ' is-used' : ''}" data-info-label="${id}" data-info-speech="${label}">🔊 ${label}</button>`
+              )
+              .join('')
+      }</div>${!infographicState.editMode && infographicState.feedback ? `<p class="infographic-answer-feedback">${infographicState.feedback}</p>` : ''}${!infographicState.editMode ? `<div class="infographic-score"><span>${ui[4]}</span><strong>${completed}/${scene.parts.length} · ${score}%</strong><div><i style="width:${score}%"></i></div></div><button type="button" class="secondary-btn infographic-reset-btn">${ui[5]}</button>${score === 100 ? `<div class="infographic-success">🏆 ${ui[6]}</div>` : ''}` : ''}</aside>
     </div>`;
 }
 
@@ -23260,7 +24478,8 @@ function initInfographicApp() {
       const payload = JSON.stringify({ [infographicState.sceneId]: scenePoints }, null, 2);
       const copied = navigator.clipboard?.writeText?.(payload);
       if (copied?.catch) copied.catch(() => {});
-      infographicState.feedback = 'Coordenadas copiadas. Pégalas en un mensaje para guardarlas en el código.';
+      infographicState.feedback =
+        'Coordenadas copiadas. Pégalas en un mensaje para guardarlas en el código.';
       renderInfographicApp();
       return;
     }
@@ -23294,15 +24513,21 @@ function initInfographicApp() {
       infographicState.selectedLabel = word.dataset.infoLabel;
       infographicState.feedback = '';
       const speechLanguage = infographicState.language || getEffectiveInterfaceLanguage();
-      const speechLocale = speechLanguage === 'english' ? 'en-US' : LANGUAGE_LOCALES[speechLanguage] || 'es-419';
-      speakText(word.dataset.infoSpeech, { locale: speechLocale, exactLocaleOnly: speechLanguage === 'english' });
+      const speechLocale =
+        speechLanguage === 'english' ? 'en-US' : LANGUAGE_LOCALES[speechLanguage] || 'es-419';
+      speakText(word.dataset.infoSpeech, {
+        locale: speechLocale,
+        exactLocaleOnly: speechLanguage === 'english'
+      });
       renderInfographicApp();
       return;
     }
     const slot = event.target.closest('[data-info-slot]');
     if (slot && infographicState.editMode) return;
     if (slot && infographicState.selectedLabel) {
-      const scene = getLocalizedInfographicScene(INFOGRAPHIC_SCENES.find((item) => item.id === infographicState.sceneId));
+      const scene = getLocalizedInfographicScene(
+        INFOGRAPHIC_SCENES.find((item) => item.id === infographicState.sceneId)
+      );
       const index = Number(slot.dataset.infoSlot);
       infographicState.answers[scene.id] ||= {};
       if (scene.parts[index][0] === infographicState.selectedLabel) {
@@ -23346,7 +24571,12 @@ function initInfographicApp() {
     const matrix = svg.getScreenCTM();
     if (!matrix) return;
     const pointer = new DOMPoint(event.clientX, event.clientY).matrixTransform(matrix.inverse());
-    setInfographicPoint(infographicState.sceneId, infographicState.editingPoint, (pointer.x / 400) * 100, (pointer.y / 400) * 100);
+    setInfographicPoint(
+      infographicState.sceneId,
+      infographicState.editingPoint,
+      (pointer.x / 400) * 100,
+      (pointer.y / 400) * 100
+    );
     renderInfographicApp();
   };
   app?.addEventListener('pointerdown', (event) => {
@@ -23367,16 +24597,27 @@ function initInfographicApp() {
   app?.addEventListener('pointerup', finishEditingPoint);
   app?.addEventListener('pointercancel', finishEditingPoint);
   app?.addEventListener('keydown', (event) => {
-    if (!infographicState.editMode || !['ArrowLeft', 'ArrowRight', 'ArrowUp', 'ArrowDown'].includes(event.key)) return;
+    if (
+      !infographicState.editMode ||
+      !['ArrowLeft', 'ArrowRight', 'ArrowUp', 'ArrowDown'].includes(event.key)
+    )
+      return;
     const slot = event.target.closest('[data-info-slot]');
     if (!slot) return;
     event.preventDefault();
-    const scene = INFOGRAPHIC_SCENES.find((item) => item.id === infographicState.sceneId) || INFOGRAPHIC_SCENES[0];
+    const scene =
+      INFOGRAPHIC_SCENES.find((item) => item.id === infographicState.sceneId) ||
+      INFOGRAPHIC_SCENES[0];
     const index = Number(slot.dataset.infoSlot);
     const [, , fallbackX, fallbackY] = scene.parts[index];
     const point = getInfographicPoint(scene.id, index, fallbackX, fallbackY);
     const step = event.shiftKey ? 1 : 0.25;
-    setInfographicPoint(scene.id, index, point.x + (event.key === 'ArrowLeft' ? -step : event.key === 'ArrowRight' ? step : 0), point.y + (event.key === 'ArrowUp' ? -step : event.key === 'ArrowDown' ? step : 0));
+    setInfographicPoint(
+      scene.id,
+      index,
+      point.x + (event.key === 'ArrowLeft' ? -step : event.key === 'ArrowRight' ? step : 0),
+      point.y + (event.key === 'ArrowUp' ? -step : event.key === 'ArrowDown' ? step : 0)
+    );
     saveInfographicPointOverrides();
     renderInfographicApp();
     app.querySelector(`[data-info-slot="${index}"]`)?.focus();
@@ -24245,7 +25486,11 @@ function recordGamesReviewWord(word) {
   const term = String(word?.term || word || '').trim();
   if (!term) return;
   const key = normalizeGameText(term);
-  const previous = gamesState.reviewWords.get(key) || { term, translation: word?.translation || '', misses: 0 };
+  const previous = gamesState.reviewWords.get(key) || {
+    term,
+    translation: word?.translation || '',
+    misses: 0
+  };
   gamesState.reviewWords.set(key, { ...previous, misses: previous.misses + 1 });
 }
 
@@ -24258,7 +25503,9 @@ function updateGamesMissionUi() {
     const active = !complete && gameId === next;
     item.classList.toggle('is-complete', complete);
     item.classList.toggle('is-active', active);
-    item.querySelector('[data-mission-status]')?.replaceChildren(complete ? '✓' : active ? 'Ahora' : 'Luego');
+    item
+      .querySelector('[data-mission-status]')
+      ?.replaceChildren(complete ? '✓' : active ? 'Ahora' : 'Luego');
   });
   const progress = document.querySelector('#gamesApp .games-mission-progress');
   if (progress) progress.textContent = `${gamesState.missionCompleted.size}/${steps.length} retos`;
@@ -24514,7 +25761,13 @@ function renderGamesView() {
   app.innerHTML = `
     <section class="games-daily-mission" aria-label="Misión diaria">
       <div class="games-mission-intro"><span>✦ Misión diaria</span><strong>Una vuelta breve, tres formas de recordar.</strong><small class="games-mission-progress">${gamesState.missionCompleted.size}/${missionSteps.length} retos</small></div>
-      <div class="games-mission-steps">${missionSteps.map((gameId, index) => { const done = gamesState.missionCompleted.has(gameId); const active = !done && gameId === nextMissionGame; return `<button type="button" class="games-mission-step${done ? ' is-complete' : ''}${active ? ' is-active' : ''}" data-mission-game="${gameId}"><b>${index + 1}</b><span>${escapeHtml(getGamesMissionStepLabel(gameId))}</span><small data-mission-status>${done ? '✓' : active ? 'Ahora' : 'Luego'}</small></button>`; }).join('')}</div>
+      <div class="games-mission-steps">${missionSteps
+        .map((gameId, index) => {
+          const done = gamesState.missionCompleted.has(gameId);
+          const active = !done && gameId === nextMissionGame;
+          return `<button type="button" class="games-mission-step${done ? ' is-complete' : ''}${active ? ' is-active' : ''}" data-mission-game="${gameId}"><b>${index + 1}</b><span>${escapeHtml(getGamesMissionStepLabel(gameId))}</span><small data-mission-status>${done ? '✓' : active ? 'Ahora' : 'Luego'}</small></button>`;
+        })
+        .join('')}</div>
     </section>
     <div class="games-topbar">
       <div class="games-language-picker" aria-label="Idioma para jugar"><span>Jugar en</span>${Object.entries(
@@ -24641,7 +25894,11 @@ function renderSelectedGame() {
 }
 
 function renderAudioSprintGame(content, words) {
-  const roundWords = getGameRoundWords(words, Math.max(4, getGamesDifficulty().audioQuestions + 1), 2);
+  const roundWords = getGameRoundWords(
+    words,
+    Math.max(4, getGamesDifficulty().audioQuestions + 1),
+    2
+  );
   const questions = roundWords.slice(0, getGamesDifficulty().audioQuestions);
   let questionIndex = 0;
   let correct = 0;
@@ -24663,7 +25920,8 @@ function renderAudioSprintGame(content, words) {
       button.addEventListener('click', () => {
         if (answered) return;
         answered = true;
-        const isCorrect = normalizeGameText(button.dataset.audioTerm) === normalizeGameText(item.term);
+        const isCorrect =
+          normalizeGameText(button.dataset.audioTerm) === normalizeGameText(item.term);
         button.classList.add(isCorrect ? 'is-correct' : 'is-wrong');
         if (isCorrect) {
           correct += 1;
@@ -24676,13 +25934,17 @@ function renderAudioSprintGame(content, words) {
               option.classList.add('is-correct');
             }
           });
-          setGamesFeedback(`La respuesta era «${item.translation}». La verás de nuevo en tu repaso.`, 'is-wrong');
+          setGamesFeedback(
+            `La respuesta era «${item.translation}». La verás de nuevo en tu repaso.`,
+            'is-wrong'
+          );
         }
         setGamesRoundProgress(questionIndex + 1, questions.length);
         const next = document.createElement('button');
         next.type = 'button';
         next.className = 'primary-btn games-audio-next';
-        next.textContent = questionIndex + 1 === questions.length ? 'Ver resultado →' : 'Siguiente →';
+        next.textContent =
+          questionIndex + 1 === questions.length ? 'Ver resultado →' : 'Siguiente →';
         next.addEventListener('click', () => {
           questionIndex += 1;
           answered = false;
@@ -24971,7 +26233,10 @@ function renderCrosswordGame(content, topic, bridgeTopic) {
     `<section><h4>${heading}</h4><ol>${puzzle.placed
       .filter((entry) => entry.orientation === orientation)
       .sort((a, b) => a.number - b.number)
-      .map((entry) => `<li value="${entry.number}"><button type="button" class="games-crossword-clue" data-crossword-entry="${entry.id}">${escapeHtml(entry.clue)}</button></li>`)
+      .map(
+        (entry) =>
+          `<li value="${entry.number}"><button type="button" class="games-crossword-clue" data-crossword-entry="${entry.id}">${escapeHtml(entry.clue)}</button></li>`
+      )
       .join('')}</ol></section>`;
   content.innerHTML = `<div class="games-crossword-layout"><div class="games-crossword-grid" style="--crossword-columns:${columnCount}" aria-label="Crucigrama: ${escapeHtml(topic.title)}">${gridHtml}</div><div class="games-crossword-clues">${cluesHtml('across', 'Horizontal')}${cluesHtml('down', 'Vertical')}</div></div><div class="games-action-row"><button type="button" class="primary-btn games-check-crossword">Comprobar</button><button type="button" class="secondary-btn games-clear-crossword">Borrar</button></div>`;
   const inputs = [...content.querySelectorAll('[data-crossword-solution]')];
@@ -25002,15 +26267,17 @@ function renderCrosswordGame(content, topic, bridgeTopic) {
       input.closest('.games-crossword-cell')?.classList.toggle('is-active-word', isInEntry);
     });
     if (focus) {
-      const nextPosition = entry.positions.find((position) => {
-        const cell = inputsByPosition.get(puzzle.key(position.row, position.column));
-        return cell && !cell.value;
-      }) || entry.positions[0];
+      const nextPosition =
+        entry.positions.find((position) => {
+          const cell = inputsByPosition.get(puzzle.key(position.row, position.column));
+          return cell && !cell.value;
+        }) || entry.positions[0];
       inputsByPosition.get(puzzle.key(nextPosition.row, nextPosition.column))?.focus();
     }
   };
   const entryForInput = (input, toggle = false) => {
-    const candidates = entriesByPosition.get(`${input.dataset.crosswordRow}:${input.dataset.crosswordColumn}`) || [];
+    const candidates =
+      entriesByPosition.get(`${input.dataset.crosswordRow}:${input.dataset.crosswordColumn}`) || [];
     if (!candidates.length) return null;
     if (toggle && candidates.length > 1 && activeEntry && candidates.includes(activeEntry))
       return candidates[(candidates.indexOf(activeEntry) + 1) % candidates.length];
@@ -25019,7 +26286,9 @@ function renderCrosswordGame(content, topic, bridgeTopic) {
   };
   setActiveEntry(activeEntry);
   content.querySelectorAll('.games-crossword-clue').forEach((clue) => {
-    clue.addEventListener('click', () => setActiveEntry(entriesById.get(clue.dataset.crosswordEntry), { focus: true }));
+    clue.addEventListener('click', () =>
+      setActiveEntry(entriesById.get(clue.dataset.crosswordEntry), { focus: true })
+    );
   });
   inputs.forEach((input) => {
     input.addEventListener('focus', () => setActiveEntry(entryForInput(input)));
@@ -25038,7 +26307,8 @@ function renderCrosswordGame(content, topic, bridgeTopic) {
           String(position.column) === input.dataset.crosswordColumn
       );
       const nextPosition = activeEntry.positions[currentIndex + 1];
-      if (nextPosition) inputsByPosition.get(puzzle.key(nextPosition.row, nextPosition.column))?.focus();
+      if (nextPosition)
+        inputsByPosition.get(puzzle.key(nextPosition.row, nextPosition.column))?.focus();
     });
     input.addEventListener('keydown', (event) => {
       if (event.key !== 'Backspace' || input.value || !activeEntry) return;
@@ -25048,7 +26318,8 @@ function renderCrosswordGame(content, topic, bridgeTopic) {
           String(position.column) === input.dataset.crosswordColumn
       );
       const previousPosition = activeEntry.positions[currentIndex - 1];
-      if (previousPosition) inputsByPosition.get(puzzle.key(previousPosition.row, previousPosition.column))?.focus();
+      if (previousPosition)
+        inputsByPosition.get(puzzle.key(previousPosition.row, previousPosition.column))?.focus();
     });
   });
   content.querySelector('.games-check-crossword')?.addEventListener('click', () => {
@@ -28863,7 +30134,10 @@ function setupInterpreter() {
     portuguese: 'Português'
   };
 
-  let recognition = null;
+  let mediaRecorder = null;
+  let voiceSocket = null;
+  let microphoneStream = null;
+  let activeVoiceTurn = null;
   let activeButton = null;
   let busy = false;
   let handsFree = false;
@@ -28947,11 +30221,20 @@ function setupInterpreter() {
     // the learner explicitly pressed Stop.
     playbackToken += 1;
     try {
-      recognition?.stop();
+      mediaRecorder?.stop();
     } catch {
       /* inactive */
     }
-    recognition = null;
+    try {
+      voiceSocket?.close();
+    } catch {
+      /* inactive */
+    }
+    microphoneStream?.getTracks().forEach((track) => track.stop());
+    mediaRecorder = null;
+    voiceSocket = null;
+    microphoneStream = null;
+    activeVoiceTurn = null;
     activeButton?.classList.remove('is-listening');
     activeButton = null;
     window.speechSynthesis?.cancel();
@@ -29041,20 +30324,30 @@ function setupInterpreter() {
     });
   }
 
+  const blobToBase64 = async (blob) => {
+    const bytes = new Uint8Array(await blob.arrayBuffer());
+    let binary = '';
+    for (let index = 0; index < bytes.length; index += 0x8000) {
+      binary += String.fromCharCode(...bytes.subarray(index, index + 0x8000));
+    }
+    return btoa(binary);
+  };
+
+  const base64ToBytes = (value) => {
+    const binary = atob(value);
+    const bytes = new Uint8Array(binary.length);
+    for (let index = 0; index < binary.length; index += 1) bytes[index] = binary.charCodeAt(index);
+    return bytes;
+  };
+
+  function finishVoiceTurn() {
+    if (!mediaRecorder || mediaRecorder.state === 'inactive') return;
+    setStatus('Terminando la interpretación…', 'is-loading');
+    mediaRecorder.stop();
+  }
+
   async function startTurn(side) {
-    if (busy || recognition) return;
-    const Ctor = getSpeechRecognitionCtor();
-    if (!Ctor) {
-      setStatus('El reconocimiento de voz no está disponible en este navegador.', 'is-unavailable');
-      return;
-    }
-    try {
-      await ensureMicrophonePermission();
-    } catch (error) {
-      setTurnControls();
-      setStatus(microphonePermissionMessage(error), 'is-unavailable');
-      return;
-    }
+    if (busy || mediaRecorder || voiceSocket) return;
     const sourceLanguage = side === 'a' ? langA.value : langB.value;
     const targetLanguage = side === 'a' ? langB.value : langA.value;
     if (sourceLanguage === targetLanguage) {
@@ -29063,38 +30356,175 @@ function setupInterpreter() {
       return;
     }
     const button = side === 'a' ? talkA : talkB;
-    const instance = new Ctor();
-    instance.lang =
-      DICTATION_LANGUAGE_CODES[sourceLanguage] || LANGUAGE_LOCALES[sourceLanguage] || 'es-ES';
-    instance.interimResults = true;
-    instance.continuous = false;
-    recognition = instance;
-    activeButton = button;
-    setTurnControls(side);
-    button.classList.add('is-listening');
-    setStatus(`Escuchando ${languageLabel(sourceLanguage)}…`, 'is-loading');
-    let transcript = '';
-    instance.addEventListener('result', (event) => {
-      transcript = Array.from(event.results)
-        .map((result) => result[0].transcript)
-        .join(' ')
-        .trim();
-      setStatus(transcript || `Escuchando ${languageLabel(sourceLanguage)}…`, 'is-loading');
-    });
-    instance.addEventListener('error', (event) => {
-      if (event.error !== 'aborted')
-        setStatus('No pude escuchar con claridad. Inténtalo de nuevo.', 'is-unavailable');
-    });
-    instance.addEventListener('end', () => {
-      button.classList.remove('is-listening');
-      if (recognition !== instance) return;
-      recognition = null;
-      activeButton = null;
+    if (!window.MediaRecorder || !navigator.mediaDevices?.getUserMedia) {
+      setStatus('Este navegador no admite el intérprete de voz en tiempo real.', 'is-unavailable');
+      return;
+    }
+    if (!MediaRecorder.isTypeSupported('audio/webm;codecs=opus')) {
+      setStatus(
+        'Este navegador no admite el formato de audio requerido por DeepL Voice.',
+        'is-unavailable'
+      );
+      return;
+    }
+    try {
+      const session = await postJson(
+        '/api/interpreter/session',
+        { sourceLanguage, targetLanguage },
+        { auth: true }
+      );
+      if (!session.ok || !session.streamingUrl || !session.token)
+        throw new Error(session.message || 'No se pudo iniciar el intérprete.');
+      const stream = await navigator.mediaDevices.getUserMedia({
+        audio: { channelCount: 1, echoCancellation: true, noiseSuppression: true }
+      });
+      const socketUrl = new URL(session.streamingUrl);
+      socketUrl.searchParams.set('token', session.token);
+      const socket = new WebSocket(socketUrl);
+      const recorder = new MediaRecorder(stream, {
+        mimeType: 'audio/webm;codecs=opus',
+        audioBitsPerSecond: 32000
+      });
+      const turn = {
+        side,
+        sourceLanguage,
+        targetLanguage,
+        sourceFinal: '',
+        sourceTentative: '',
+        targetFinal: '',
+        targetTentative: '',
+        audioChunks: [],
+        audioType: 'audio/webm;codecs=opus'
+      };
+      microphoneStream = stream;
+      voiceSocket = socket;
+      mediaRecorder = recorder;
+      activeVoiceTurn = turn;
+      activeButton = button;
+      busy = true;
+      setTurnControls(side);
+      button.classList.add('is-listening');
+      setStatus(`Conectando DeepL Voice para ${languageLabel(sourceLanguage)}…`, 'is-loading');
+
+      recorder.addEventListener('dataavailable', async (event) => {
+        if (!event.data?.size || socket.readyState !== WebSocket.OPEN) return;
+        socket.send(
+          JSON.stringify({ source_media_chunk: { data: await blobToBase64(event.data) } })
+        );
+      });
+      recorder.addEventListener('stop', () => {
+        microphoneStream?.getTracks().forEach((track) => track.stop());
+        if (socket.readyState === WebSocket.OPEN)
+          socket.send(JSON.stringify({ end_of_source_media: {} }));
+      });
+      socket.addEventListener('open', () => {
+        if (voiceSocket !== socket) return;
+        recorder.start(200);
+        setStatus(`Escuchando ${languageLabel(sourceLanguage)} con DeepL Voice…`, 'is-loading');
+      });
+      socket.addEventListener('message', async (event) => {
+        if (voiceSocket !== socket) return;
+        const message = JSON.parse(event.data);
+        if (message.error) {
+          stop();
+          setStatus(
+            message.error.error_message || 'DeepL Voice no pudo procesar el audio.',
+            'is-unavailable'
+          );
+          return;
+        }
+        if (message.source_transcript_update) {
+          const update = message.source_transcript_update;
+          turn.sourceFinal += (update.concluded || []).map((item) => item.text).join('');
+          turn.sourceTentative = (update.tentative || []).map((item) => item.text).join('');
+          setStatus(
+            (turn.sourceFinal + turn.sourceTentative).trim() ||
+              `Escuchando ${languageLabel(sourceLanguage)}…`,
+            'is-loading'
+          );
+        }
+        if (message.target_transcript_update) {
+          const update = message.target_transcript_update;
+          turn.targetFinal += (update.concluded || []).map((item) => item.text).join('');
+          turn.targetTentative = (update.tentative || []).map((item) => item.text).join('');
+        }
+        if (message.target_media_chunk) {
+          const audio = message.target_media_chunk;
+          if (audio.content_type) turn.audioType = audio.content_type.replace(/;$/, '');
+          (audio.data || []).forEach((chunk) => turn.audioChunks.push(base64ToBytes(chunk)));
+        }
+        if (message.end_of_stream) {
+          const original = (turn.sourceFinal + turn.sourceTentative).trim();
+          const translation = (turn.targetFinal + turn.targetTentative).trim();
+          if (!original || !translation) {
+            stop();
+            setStatus('No se pudo obtener una interpretación del audio.', 'is-unavailable');
+            return;
+          }
+          button.classList.remove('is-listening');
+          mediaRecorder = null;
+          voiceSocket = null;
+          microphoneStream = null;
+          activeVoiceTurn = null;
+          turns.push({ side, original, translation, sourceLanguage, targetLanguage });
+          if (turns.length > INTERPRETER_HISTORY_LIMIT)
+            turns.splice(0, turns.length - INTERPRETER_HISTORY_LIMIT);
+          renderTurns();
+          setStatus(`Reproduciendo ${languageLabel(targetLanguage)}…`, 'is-success');
+          const finishTurn = () => {
+            busy = false;
+            setTurnControls();
+            const l1Side = getL1Side();
+            if (handsFree && l1Side && side === l1Side) startTurn(l1Side);
+            else setStatus('Listo. Toca el idioma que va a hablar.', 'is-success');
+          };
+          if (turn.audioChunks.length) {
+            const audio = new Audio(
+              URL.createObjectURL(new Blob(turn.audioChunks, { type: turn.audioType }))
+            );
+            audio.onended = () => {
+              URL.revokeObjectURL(audio.src);
+              finishTurn();
+            };
+            audio.onerror = () => {
+              URL.revokeObjectURL(audio.src);
+              speakText(translation, {
+                locale: LANGUAGE_LOCALES[targetLanguage],
+                onEnd: finishTurn
+              });
+            };
+            await audio.play().catch(() =>
+              speakText(translation, {
+                locale: LANGUAGE_LOCALES[targetLanguage],
+                onEnd: finishTurn
+              })
+            );
+          } else
+            speakText(translation, { locale: LANGUAGE_LOCALES[targetLanguage], onEnd: finishTurn });
+        }
+      });
+      socket.addEventListener('error', () =>
+        setStatus('Se perdió la conexión con DeepL Voice.', 'is-unavailable')
+      );
+      socket.addEventListener('close', () => {
+        if (voiceSocket === socket && !turn.targetFinal) {
+          button.classList.remove('is-listening');
+          mediaRecorder = null;
+          voiceSocket = null;
+          microphoneStream?.getTracks().forEach((track) => track.stop());
+          microphoneStream = null;
+          setTurnControls();
+        }
+      });
+    } catch (error) {
+      microphoneStream?.getTracks().forEach((track) => track.stop());
+      mediaRecorder = null;
+      voiceSocket = null;
+      microphoneStream = null;
+      activeVoiceTurn = null;
       setTurnControls();
-      if (transcript) translateTurn(transcript, sourceLanguage, targetLanguage, side);
-      else setStatus('Toca Hablar e inténtalo de nuevo.');
-    });
-    instance.start();
+      setStatus(error.message || 'No se pudo iniciar el intérprete de voz.', 'is-unavailable');
+    }
   }
 
   talkA.addEventListener('click', () => startTurn('a'));
@@ -29104,7 +30534,10 @@ function setupInterpreter() {
     if (!repeatButton) return;
     repeatTranslation(Number(repeatButton.dataset.interpreterRepeat));
   });
-  stopBtn?.addEventListener('click', stop);
+  stopBtn?.addEventListener('click', () => {
+    if (mediaRecorder?.state === 'recording') finishVoiceTurn();
+    else stop();
+  });
   handsFreeBtn?.addEventListener('click', () => {
     handsFree = !handsFree;
     renderHandsFreeState();
@@ -29318,11 +30751,15 @@ function setupCorrector(idPrefix = 'corrector') {
         const alternativesHtml = lastCorrection.alternatives.length
           ? `<section class="corrector-alternatives" aria-label="Otras formas de decirlo">
               <span class="corrector-result-label">También podrías decir…</span>
-              ${lastCorrection.alternatives.map((alternative, index) => `
+              ${lastCorrection.alternatives
+                .map(
+                  (alternative, index) => `
                 <article class="corrector-alternative">
                   <div><strong>${escapeHtml(alternative.label)}</strong><p>${escapeHtml(alternative.text)}</p>${alternative.reason ? `<small>${escapeHtml(alternative.reason)}</small>` : ''}</div>
                   <button type="button" class="secondary-btn corrector-use-alternative" data-corrector-alternative="${index}">Usar</button>
-                </article>`).join('')}
+                </article>`
+                )
+                .join('')}
             </section>`
           : '';
         output.innerHTML = `
@@ -29432,7 +30869,8 @@ function setupCorrector(idPrefix = 'corrector') {
 
   output.addEventListener('click', (event) => {
     const button = event.target.closest('.corrector-use-alternative');
-    const alternative = lastCorrection?.alternatives?.[Number(button?.dataset.correctorAlternative)];
+    const alternative =
+      lastCorrection?.alternatives?.[Number(button?.dataset.correctorAlternative)];
     if (!alternative?.text) return;
     input.value = alternative.text;
     updateCharCount();

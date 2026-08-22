@@ -23,13 +23,11 @@ function mcqQuestion(level, unitSlug, exercise, index) {
   };
 }
 
-function correctionQuestion(level, unitSlug, exercise, index) {
+function contextualQuestion(level, unitSlug, exercise, index) {
   const options = exercise.options || [];
   const correct = String(options[exercise.answer] || '').trim();
-  const incorrect = String(options.find((_, optionIndex) => optionIndex !== exercise.answer) || '').trim();
   const correctedSentence = completedPrompt(exercise.prompt, correct);
-  const incorrectSentence = completedPrompt(exercise.prompt, incorrect);
-  const hasSentence = Boolean(correctedSentence && incorrectSentence);
+  const hasSentence = Boolean(correctedSentence);
 
   const candidateTexts = hasSentence
     ? options.map((option) => completedPrompt(exercise.prompt, option))
@@ -38,30 +36,15 @@ function correctionQuestion(level, unitSlug, exercise, index) {
     id: `french-${level.toLowerCase()}-${unitSlug}-grammar-q${index + 5}`,
     type: 'mcq',
     prompt: hasSentence
-      ? `Quelle version corrige entièrement la phrase « ${incorrectSentence} » ?`
-      : `Quelle réponse corrige l’erreur « ${incorrect} » dans ce contexte : « ${exercise.prompt} » ?`,
+      ? `Selon la structure étudiée, quelle phrase exprime correctement l’idée suivante : « ${correctedSentence} » ?`
+      : `Selon la structure étudiée, quelle réponse convient dans ce contexte : « ${exercise.prompt} » ?`,
     options: candidateTexts.map((text, optionIndex) => ({
       id: OPTION_IDS[optionIndex] || `o${optionIndex + 1}`,
       text
     })),
     correctOptionId: OPTION_IDS[exercise.answer] || `o${exercise.answer + 1}`,
     explanation: hasSentence
-      ? `La phrase correcte est : « ${correctedSentence} »`
-      : `La bonne réponse est « ${correct} ».`,
-    difficulty: 'precision'
-  };
-
-  /* Legacy written-correction shape retained below for source history. */
-
-  return {
-    id: `french-${level.toLowerCase()}-${unitSlug}-grammar-q${index + 5}`,
-    type: 'fill_blank',
-    prompt: hasSentence
-      ? `🚨 Chasse à l'erreur ! Corrige la phrase suivante : « ${incorrectSentence} »`
-      : `🚨 Chasse à l'erreur ! Remplace la réponse incorrecte « ${incorrect} » par la bonne réponse à cette question : « ${exercise.prompt} »`,
-    acceptedAnswers: hasSentence ? [correct, correctedSentence] : [correct],
-    explanation: hasSentence
-      ? `La phrase correcte est : « ${correctedSentence} »`
+      ? `La bonne réponse est : « ${correctedSentence} »`
       : `La bonne réponse est « ${correct} ».`,
     difficulty: 'precision'
   };
@@ -93,7 +76,7 @@ function buildFrenchGrammarTest(level, unitSlug, exercises) {
     passingScore: 70,
     questions: [
       ...core.map((exercise, index) => mcqQuestion(level, unitSlug, exercise, index)),
-      ...core.map((exercise, index) => correctionQuestion(level, unitSlug, exercise, index))
+      ...core.map((exercise, index) => contextualQuestion(level, unitSlug, exercise, index))
     ]
   };
 }
@@ -102,8 +85,6 @@ function ensureFrenchGrammarTests(units, level) {
   for (const unit of units || []) {
     const grammar = unit.activities?.grammar;
     if (!grammar) continue;
-    if (grammar.grammarTest?.questions?.length === 8) continue;
-
     const test = buildFrenchGrammarTest(level, unit.slug, grammar.exercises);
     if (test) grammar.grammarTest = test;
   }

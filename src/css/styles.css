@@ -31132,6 +31132,194 @@ body {
   }
 }
 
+/* Local curriculum search: a focused command panel that searches only the
+   static lessons already delivered by Andergo. */
+.global-search-trigger {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  min-height: 40px;
+  padding: 0.48rem 0.72rem;
+  border: 1px solid rgba(37, 99, 235, 0.17);
+  border-radius: 999px;
+  color: #1d4ed8;
+  background: rgba(255, 255, 255, 0.78);
+  font: inherit;
+  font-size: 0.78rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.global-search-trigger:hover,
+.global-search-trigger:focus-visible {
+  outline: none;
+  border-color: rgba(37, 99, 235, 0.42);
+  background: #eff6ff;
+}
+
+.global-search-panel {
+  position: fixed;
+  inset: 0;
+  z-index: 120;
+}
+
+.global-search-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.46);
+  backdrop-filter: blur(5px);
+}
+
+.global-search-dialog {
+  position: relative;
+  width: min(92vw, 720px);
+  max-height: min(78vh, 720px);
+  margin: min(12vh, 7rem) auto 0;
+  padding: 1.25rem;
+  overflow: auto;
+  border: 1px solid rgba(147, 197, 253, 0.78);
+  border-radius: 24px;
+  background: #fff;
+  box-shadow: 0 28px 90px rgba(15, 23, 42, 0.28);
+}
+
+.global-search-heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.global-search-heading span,
+.global-search-result-meta {
+  display: block;
+  color: #2563eb;
+  font-size: 0.68rem;
+  font-weight: 900;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+.global-search-heading h2 {
+  margin-top: 0.15rem;
+  color: #10203d;
+  font-size: clamp(1.2rem, 2vw, 1.55rem);
+  line-height: 1.2;
+}
+
+.global-search-close {
+  width: 34px;
+  height: 34px;
+  border: 1px solid #dbeafe;
+  border-radius: 50%;
+  color: #475569;
+  background: #fff;
+  font-size: 1.35rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.global-search-field {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  margin-top: 1rem;
+  padding: 0.15rem 0.8rem;
+  border: 1px solid #bfdbfe;
+  border-radius: 14px;
+  background: #f8fbff;
+  color: #2563eb;
+}
+
+.global-search-field input {
+  width: 100%;
+  min-height: 46px;
+  border: 0;
+  outline: 0;
+  color: #10203d;
+  background: transparent;
+  font: inherit;
+  font-size: 0.98rem;
+}
+
+.global-search-hint {
+  margin: 0.75rem 0 0;
+  color: #64748b;
+  font-size: 0.78rem;
+  line-height: 1.45;
+}
+
+.global-search-results {
+  display: grid;
+  gap: 0.55rem;
+  margin-top: 1rem;
+}
+
+.global-search-result {
+  width: 100%;
+  padding: 0.78rem 0.88rem;
+  border: 1px solid #e0ecff;
+  border-radius: 14px;
+  text-align: left;
+  color: #10203d;
+  background: #fff;
+  cursor: pointer;
+}
+
+.global-search-result:hover,
+.global-search-result:focus-visible {
+  outline: none;
+  border-color: #93c5fd;
+  background: #f8fbff;
+  box-shadow: 0 8px 18px rgba(37, 99, 235, 0.09);
+}
+
+.global-search-result strong,
+.global-search-result small {
+  display: block;
+}
+
+.global-search-result strong {
+  margin-top: 0.2rem;
+  font-size: 0.94rem;
+}
+
+.global-search-result small {
+  margin-top: 0.18rem;
+  color: #64748b;
+  font-size: 0.77rem;
+  line-height: 1.35;
+}
+
+.global-search-empty {
+  display: grid;
+  gap: 0.35rem;
+  padding: 1.1rem;
+  border: 1px dashed #bfdbfe;
+  border-radius: 14px;
+  color: #64748b;
+  background: #f8fbff;
+  font-size: 0.85rem;
+}
+
+.global-search-empty strong { color: #1e3a5f; }
+.global-search-empty button {
+  border: 0;
+  color: #2563eb;
+  background: transparent;
+  font: inherit;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+body.global-search-open { overflow: hidden; }
+
+@media (max-width: 720px) {
+  .global-search-trigger span:last-child { display: none; }
+  .global-search-trigger { width: 40px; justify-content: center; padding: 0; }
+  .global-search-dialog { width: calc(100vw - 1.25rem); margin-top: 4.5rem; padding: 1rem; }
+}
+
 /* C2 uses a clear three-step hierarchy: term, translation and concise
    definition. The card remains compact but no longer resembles a dense
    list of examples. */
@@ -34408,8 +34596,36 @@ body.tutor-robot-listening #tutor .tutor-hero-bot {
     font-size: 0.7rem;
   }
 
-  .navbar:has(.user-chip:not([hidden]))::after {
+.navbar:has(.user-chip:not([hidden]))::after {
     opacity: 0.72;
     font-size: 0.46rem;
   }
+}
+
+/* Compact catalogue rhythm: preserve the verb, L1 support and both practical
+   examples, while removing the oversized action band that made cards feel
+   taller than their learning content. */
+#verbs .verb-catalogue-list { gap: .62rem; }
+#verbs .verb-catalogue-row { gap: .38rem; padding: .58rem .65rem; border-radius: 15px; }
+#verbs .verb-catalogue-head { gap: .42rem; }
+#verbs .verb-catalogue-identity > span { line-height: 1.2; }
+#verbs .verb-catalogue-examples { gap: .22rem; padding-top: .34rem; }
+#verbs .verb-catalogue-examples > div { gap: .28rem; }
+#verbs .verb-catalogue-examples p { line-height: 1.28; }
+#verbs .verb-catalogue-conjugate,
+#verbs .verb-catalogue-row[data-verb-level='B2'] .verb-catalogue-conjugate,
+#verbs .verb-catalogue-row[data-verb-level='C1'] .verb-catalogue-conjugate,
+#verbs .verb-catalogue-row[data-verb-level='C2'] .verb-catalogue-conjugate {
+  width: fit-content;
+  min-height: 27px;
+  justify-self: end;
+  gap: .25rem;
+  margin-top: .02rem;
+  padding: .18rem .35rem;
+  border-color: transparent;
+  border-radius: 7px;
+  background: transparent;
+  color: #3366c7;
+  font-size: .66rem;
+  font-weight: 760;
 }

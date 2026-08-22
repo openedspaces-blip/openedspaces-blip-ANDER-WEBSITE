@@ -39,6 +39,7 @@ const REQUIRED_FILES = [
   // below).
   'src/js/translator-languages.js',
   'src/js/translator-predictive.js',
+  'src/js/global-search.js',
   'src/js/app-install.js',
   'service-worker.js',
   'favicon.svg',
@@ -132,6 +133,7 @@ function main() {
     ...GAMIFICATION_FILES,
     ...VERBS_FILES,
     'src/js/script.js',
+    'src/js/global-search.js',
     'src/js/username-rules.js',
     'src/js/language-pair.js',
     'lib/server.js'

@@ -663,3 +663,32 @@
   }
   #verbs .verb-catalogue-conjugate { min-height: 36px; margin-top: .1rem; padding: .32rem .5rem; font-size: .68rem; }
   }
+
+/* Final mobile density pass.  It follows every legacy breakpoint so a card
+   remains information-complete while the repeated framing stays compact. */
+@media (max-width: 640px) {
+  .skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card,
+  .skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card.is-flipped { min-height: 180px; }
+  .skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card-front,
+  .skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card-back { gap: .28rem; padding: .48rem .52rem; }
+  .skill-view-section[data-skill='grammar'] .grammar-concept-card { min-height: 0; padding: .62rem; }
+  .skill-view-section[data-skill='grammar'] .grammar-concept-card-heading { margin-bottom: .38rem; }
+  .skill-view-section[data-skill='grammar'] .grammar-concept-icon { width: 2rem; height: 2rem; font-size: .96rem; }
+  .skill-view-section[data-skill='grammar'] .grammar-concept-card > span { margin-bottom: .3rem; padding: .18rem .4rem; font-size: .59rem; }
+  .skill-view-section[data-skill='grammar'] .grammar-concept-card h4 { margin-bottom: .28rem; font-size: .88rem; }
+  .skill-view-section[data-skill='grammar'] .grammar-concept-card p { font-size: .74rem; line-height: 1.35; }
+  #verbs .verb-catalogue-list { gap: .42rem; }
+  #verbs .verb-catalogue-row { gap: .28rem; padding: .48rem .52rem; border-radius: 12px; }
+  #verbs .verb-catalogue-examples { gap: .16rem; padding-top: .28rem; }
+  #verbs .verb-catalogue-examples p { font-size: .61rem; line-height: 1.18; }
+  #verbs .verb-catalogue-conjugate,
+  #verbs .verb-catalogue-row[data-verb-level='B2'] .verb-catalogue-conjugate,
+  #verbs .verb-catalogue-row[data-verb-level='C1'] .verb-catalogue-conjugate,
+  #verbs .verb-catalogue-row[data-verb-level='C2'] .verb-catalogue-conjugate {
+    width: fit-content;
+    min-height: 25px;
+    margin: 0;
+    padding: .14rem .28rem;
+    font-size: .6rem;
+  }
+}

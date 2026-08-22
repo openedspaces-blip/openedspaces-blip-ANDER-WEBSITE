@@ -1634,9 +1634,9 @@ const units = [
         grammarNote: '« De plus en plus » et « de moins en moins » expriment une évolution progressive : « Elle se sent de plus en plus libre. » « Autant que » compare deux intensités égales : « Sa préparation compte autant que son écoute. »',
         phrases: ['De plus en plus...', 'De moins en moins...', 'Autant que...', 'Plus elle avance, plus elle...'],
         exercises: [
-          { type: 'mcq', prompt: 'Elle se sent ___ libre dans son travail au fil du temps.', options: ['de plus en plus', 'de moins en moins', 'autant que', 'aussi'], answer: 0 },
-          { type: 'mcq', prompt: 'Sa préparation compte ___ sa capacité d’écoute.', options: ['plus que', 'autant que', 'moins que', 'aussi bon que'], answer: 1 },
-          { type: 'mcq', prompt: 'Elle reçoit ___ ce genre de remarque aujourd’hui.', options: ['de plus en plus', 'de moins en moins', 'aussi', 'que'], answer: 1 },
+          { type: 'mcq', prompt: 'Sa liberté augmente progressivement : elle se sent ___ libre dans son travail au fil du temps.', options: ['de plus en plus', 'de moins en moins', 'autant que', 'aussi'], answer: 0 },
+          { type: 'mcq', prompt: 'Sa préparation et sa capacité d’écoute ont la même importance : sa préparation compte ___ sa capacité d’écoute.', options: ['plus que', 'autant que', 'moins que', 'aussi bon que'], answer: 1 },
+          { type: 'mcq', prompt: 'Elle reçoit aujourd’hui moins souvent ce genre de remarque : elle en reçoit ___.', options: ['de plus en plus', 'de moins en moins', 'aussi', 'que'], answer: 1 },
           { type: 'mcq', prompt: 'Quelle structure exprime une évolution progressive ?', options: ['Plus... que', 'De plus en plus', 'Aussi... que', 'Moins... que'], answer: 1 }
         ]
       }),
