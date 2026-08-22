@@ -34313,6 +34313,22 @@ body.tutor-robot-listening #tutor .tutor-hero-bot {
   padding: 0.95rem 1.15rem 1.15rem;
 }
 
+.reading-library-cards--catalog {
+  padding: 0;
+}
+
+.reading-library-cards--catalog .reading-library-card {
+  min-height: 138px;
+  padding: 0.78rem;
+}
+
+.reading-library-card-unit {
+  color: #47709f;
+  font-size: 0.68rem;
+  font-weight: 800;
+  line-height: 1.25;
+}
+
 .reading-library-card {
   display: grid;
   min-height: 165px;

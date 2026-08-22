@@ -6178,6 +6178,19 @@ function renderReadingLibrary() {
   }
 
   const units = new Map(learningPathState.units.map((unit) => [unit.id, unit]));
+  const readingEntries = readings.flatMap((lesson) => {
+    const unit = units.get(lesson.unitId) || {};
+    const unitOrder = Number(lesson.unitOrder || unit.order || 1);
+    const locked = Boolean(lesson.locked && !isPremiumUser());
+    return getReadingTopicChoices(lesson).map((topic, index) => ({
+      lesson,
+      unit,
+      unitOrder,
+      topic,
+      topicOrder: index + 1,
+      locked
+    }));
+  });
   host.innerHTML = `
     <div class="tests-shell reading-library-layout">
       <aside class="tests-sidebar reading-library-sidebar" aria-label="Seleccionar lecturas">
@@ -6187,8 +6200,8 @@ function renderReadingLibrary() {
         <label>Nivel<select id="readingLibraryLevel">${levelOptions}</select></label>
         <div class="tests-spec">
           <strong>${escapeHtml(languageDisplayNames[language])} · ${escapeHtml(level)}</strong>
-          <span>${readings.length} unidades disponibles</span>
-          <span>Cada unidad incluye tres lecturas.</span>
+          <span>${readingEntries.length} lecturas disponibles</span>
+          <span>Lista completa del nivel en tres columnas.</span>
         </div>
         <p class="reading-library-access-note">${escapeHtml(getReadingLibraryFreeCopy(level))}</p>
       </aside>
@@ -6196,43 +6209,21 @@ function renderReadingLibrary() {
         <header class="reading-library-header">
           <span class="reading-library-kicker">LECTURAS · ${escapeHtml(level)}</span>
           <h2 tabindex="-1">Lecturas de ${escapeHtml(languageDisplayNames[language])}</h2>
-          <p>Selecciona una unidad y abre el texto principal, la conversación o la práctica guiada.</p>
+          <p>Explora las ${readingEntries.length} lecturas de este nivel y abre la que quieras practicar.</p>
         </header>
-        <div class="reading-library-units">
-          ${readings
-        .map((lesson) => {
-          const unit = units.get(lesson.unitId) || {};
-          const unitOrder = Number(lesson.unitOrder || unit.order || 1);
-          const locked = Boolean(lesson.locked && !isPremiumUser());
-          const topics = getReadingTopicChoices(lesson);
-          const artwork = getUnitArtwork(unitOrder ? { ...unit, order: unitOrder } : unit);
-          return `
-            <article class="reading-library-unit${locked ? ' is-locked' : ''}">
-              <div class="reading-library-unit-heading">
-                <span class="reading-library-unit-icon" aria-hidden="true">${artwork.emoji || '📖'}</span>
-                <div>
-                  <span>UNIDAD ${unitOrder}</span>
-                  <h3>${escapeHtml(unit.title || lesson.title)}</h3>
-                  <p>${escapeHtml(unit.titleEs || lesson.description || 'Tres lecturas para practicar el tema de la unidad.')}</p>
-                </div>
-                ${locked ? '<strong class="reading-library-lock">🔒 Premium</strong>' : '<strong class="reading-library-open">Disponible</strong>'}
-              </div>
-              <div class="reading-library-cards">
-                ${topics
-                  .map(
-                    (topic, index) => `
-                      <button type="button" class="reading-library-card${locked ? ' is-locked' : ''}" data-reading-library-lesson="${escapeHtml(lesson.slug)}" data-reading-library-topic="${escapeHtml(topic.id)}" ${locked ? 'aria-label="Lectura bloqueada: disponible en Premium"' : ''}>
-                        <span class="reading-library-card-index">0${index + 1}</span>
-                        <strong>${escapeHtml((topic.label || `Lectura ${index + 1}`).replace(/^Lectura\s*\d+\s*·\s*/i, ''))}</strong>
-                        <small>${escapeHtml(topic.description || 'Lee y practica las ideas principales.')}</small>
-                        <em>${locked ? 'Desbloquear con Premium →' : 'Abrir lectura →'}</em>
-                      </button>`
-                  )
-                  .join('')}
-              </div>
-            </article>`;
-        })
-        .join('')}
+        <div class="reading-library-cards reading-library-cards--catalog">
+          ${readingEntries
+            .map(
+              ({ lesson, unit, unitOrder, topic, topicOrder, locked }) => `
+                <button type="button" class="reading-library-card${locked ? ' is-locked' : ''}" data-reading-library-lesson="${escapeHtml(lesson.slug)}" data-reading-library-topic="${escapeHtml(topic.id)}" ${locked ? 'aria-label="Lectura bloqueada: disponible en Premium"' : ''}>
+                  <span class="reading-library-card-index">${unitOrder}.${topicOrder}</span>
+                  <small class="reading-library-card-unit">Unidad ${unitOrder} · ${escapeHtml(unit.title || lesson.title)}</small>
+                  <strong>${escapeHtml((topic.label || `Lectura ${topicOrder}`).replace(/^Lectura\s*\d+\s*·\s*/i, ''))}</strong>
+                  <small>${escapeHtml(topic.description || 'Lee y practica las ideas principales.')}</small>
+                  <em>${locked ? 'Desbloquear con Premium →' : 'Abrir lectura →'}</em>
+                </button>`
+            )
+            .join('')}
         </div>
       </article>
     </div>`;
