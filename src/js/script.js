@@ -3162,7 +3162,7 @@ function attachAuthHandlers() {
       return;
     }
     if (!meetsRegistrationPasswordRequirements(password)) {
-      setAuthMessage('Usa al menos 8 caracteres e incluye al menos una letra y un número.', true);
+      setAuthMessage('Usa al menos 8 caracteres con letras y números.', true);
       return;
     }
 
@@ -6120,6 +6120,132 @@ function openVocabularyFromMainNav() {
   if (selectedVocabulary) setActiveLesson(selectedVocabulary.slug);
   history.pushState(null, '', '#vocabulary');
   showView('vocabulary');
+}
+
+// The Reading library is intentionally separate from the guided route. It
+// lets learners choose a language, level and unit, while each unit remains a
+// single access product: its three readings always open or lock together.
+function getReadingLibraryFreeCopy(level) {
+  return String(level || '').toUpperCase() === 'A1'
+    ? 'Free incluye las unidades 1–4 de A1 (sus tres lecturas).'
+    : 'Free incluye las unidades 1–3 de este nivel (sus tres lecturas).';
+}
+
+function renderReadingLibrary() {
+  const host = document.getElementById('readingLibraryContent');
+  if (!host) return;
+  const language = learningPathState.language;
+  const level = learningPathState.level;
+  if (!learningPathState.lessons.length) {
+    host.innerHTML = '<p class="skill-graph-empty">Preparando biblioteca de lecturas…</p>';
+    loadLearningPath({ language, level })
+      .then(() => {
+        if (getViewFromHash() === 'readings') renderReadingLibrary();
+      })
+      .catch((error) => {
+        if (getViewFromHash() === 'readings') {
+          host.innerHTML = `<p class="skill-graph-empty">${escapeHtml(error.message || 'No se pudieron cargar las lecturas.')}</p>`;
+        }
+      });
+    return;
+  }
+  const readings = getSkillActivities('reading').sort(
+    (a, b) => Number(a.unitOrder || 0) - Number(b.unitOrder || 0)
+  );
+  const languageOptions = Object.keys(languageDisplayNames)
+    .filter((key) => key !== 'ai')
+    .map(
+      (key) =>
+        `<option value="${escapeHtml(key)}" ${key === language ? 'selected' : ''}>${escapeHtml(languageDisplayNames[key])}</option>`
+    )
+    .join('');
+  const levelOptions = getAvailableCourseLevels(language, { includePreA1: false })
+    .map(
+      (item) =>
+        `<option value="${escapeHtml(item)}" ${item === level ? 'selected' : ''}>${escapeHtml(item)}</option>`
+    )
+    .join('');
+
+  if (!readings.length) {
+    host.innerHTML = '<p class="skill-graph-empty">No hay lecturas disponibles para esta combinación todavía.</p>';
+    return;
+  }
+
+  const units = new Map(learningPathState.units.map((unit) => [unit.id, unit]));
+  host.innerHTML = `
+    <header class="reading-library-header">
+      <span class="reading-library-kicker">BIBLIOTECA · PRÁCTICA LIBRE</span>
+      <h2 tabindex="-1">Lecturas</h2>
+      <p>Elige una unidad y abre cualquiera de sus tres lecturas: texto principal, conversación y aplicación práctica.</p>
+      <div class="reading-library-selectors" aria-label="Filtros de la biblioteca">
+        <label>Idioma<select id="readingLibraryLanguage">${languageOptions}</select></label>
+        <label>Nivel<select id="readingLibraryLevel">${levelOptions}</select></label>
+      </div>
+      <p class="reading-library-access-note">${escapeHtml(getReadingLibraryFreeCopy(level))}</p>
+    </header>
+    <div class="reading-library-units">
+      ${readings
+        .map((lesson) => {
+          const unit = units.get(lesson.unitId) || {};
+          const unitOrder = Number(lesson.unitOrder || unit.order || 1);
+          const locked = Boolean(lesson.locked && !isPremiumUser());
+          const topics = getReadingTopicChoices(lesson);
+          const artwork = getUnitArtwork(unitOrder ? { ...unit, order: unitOrder } : unit);
+          return `
+            <article class="reading-library-unit${locked ? ' is-locked' : ''}">
+              <div class="reading-library-unit-heading">
+                <span class="reading-library-unit-icon" aria-hidden="true">${artwork.emoji || '📖'}</span>
+                <div>
+                  <span>UNIDAD ${unitOrder}</span>
+                  <h3>${escapeHtml(unit.title || lesson.title)}</h3>
+                  <p>${escapeHtml(unit.titleEs || lesson.description || 'Tres lecturas para practicar el tema de la unidad.')}</p>
+                </div>
+                ${locked ? '<strong class="reading-library-lock">🔒 Premium</strong>' : '<strong class="reading-library-open">Disponible</strong>'}
+              </div>
+              <div class="reading-library-cards">
+                ${topics
+                  .map(
+                    (topic, index) => `
+                      <button type="button" class="reading-library-card${locked ? ' is-locked' : ''}" data-reading-library-lesson="${escapeHtml(lesson.slug)}" data-reading-library-topic="${escapeHtml(topic.id)}" ${locked ? 'aria-label="Lectura bloqueada: disponible en Premium"' : ''}>
+                        <span class="reading-library-card-index">0${index + 1}</span>
+                        <strong>${escapeHtml((topic.label || `Lectura ${index + 1}`).replace(/^Lectura\s*\d+\s*·\s*/i, ''))}</strong>
+                        <small>${escapeHtml(topic.description || 'Lee y practica las ideas principales.')}</small>
+                        <em>${locked ? 'Desbloquear con Premium →' : 'Abrir lectura →'}</em>
+                      </button>`
+                  )
+                  .join('')}
+              </div>
+            </article>`;
+        })
+        .join('')}
+    </div>`;
+
+  const rerender = async () => {
+    const nextLanguage = host.querySelector('#readingLibraryLanguage')?.value || language;
+    const nextLevel = host.querySelector('#readingLibraryLevel')?.value || level;
+    host.innerHTML = '<p class="skill-graph-empty">Actualizando lecturas…</p>';
+    await loadLearningPath({ language: nextLanguage, level: nextLevel });
+    renderReadingLibrary();
+  };
+  host.querySelector('#readingLibraryLanguage')?.addEventListener('change', rerender);
+  host.querySelector('#readingLibraryLevel')?.addEventListener('change', rerender);
+  host.querySelectorAll('[data-reading-library-lesson]').forEach((button) => {
+    button.addEventListener('click', () => {
+      const lesson = learningPathState.lessons.find(
+        (item) => item.slug === button.dataset.readingLibraryLesson
+      );
+      if (!lesson) return;
+      if (lesson.locked && !isPremiumUser()) {
+        openPaywallModal({
+          title: 'Esta unidad de Lecturas es Premium.',
+          message: 'Premium desbloquea las tres lecturas complementarias de esta unidad y el resto del nivel.'
+        });
+        return;
+      }
+      readingTopicSelections.set(lesson.slug, button.dataset.readingLibraryTopic || 'main-reading');
+      openUnitSequenceStep('reading', lesson.slug);
+    });
+  });
 }
 
 // Each activity used to expose every optional Tutor, translator and download
@@ -12102,7 +12228,79 @@ function getReadingTopicChoices(lesson) {
   const authored = Array.isArray(lesson.reading?.variants)
     ? lesson.reading.variants.filter((variant) => variant && (variant.text || variant.parts))
     : [];
-  return authored.slice(0, 3);
+  if (authored.length >= 3) return authored.slice(0, 3);
+  // A unit exposes three independent reading materials. Older authored
+  // units stored the complementary material under their sibling activities
+  // (Listening and Speaking/Writing) instead of `reading.variants`.
+  // Surface them here as actual texts, never as artificial slices of the
+  // same article or the old Context / Development / Analysis tabs.
+  const activities = getUnitActivities(lesson.unitId || lesson.unitSlug || '');
+  const asText = (activity) => {
+    if (!activity) return '';
+    const reading = activity.reading || {};
+    const candidates = [
+      reading.text,
+      ...(reading.parts || []),
+      activity.mainTranscript,
+      activity.transcript,
+      ...(activity.transcriptSegments || []).map((segment) => segment?.text),
+      ...(activity.dialogue || []).map((line) => line?.line || line?.text),
+      ...(activity.phrases || []).map((phrase) =>
+        typeof phrase === 'string' ? phrase : phrase?.text || phrase?.expression || ''
+      )
+    ]
+      .map((value) => String(value || '').trim())
+      .filter(Boolean);
+    return candidates.join('\n\n');
+  };
+  const primaryText = asText(lesson) || getReadingParagraphs(lesson).join('\n\n');
+  const companions = activities
+    .filter((activity) => activity?.slug !== lesson.slug && ['listening', 'speaking', 'writing'].includes(activity?.skill))
+    .map((activity) => ({ activity, text: asText(activity) }))
+    .filter(({ text }) => text.length >= 24);
+  const listening = companions.find(({ activity }) => activity.skill === 'listening') || companions[0];
+  const practical =
+    companions.find(({ activity }) => ['speaking', 'writing'].includes(activity.skill)) ||
+    companions.find(({ activity }) => activity !== listening?.activity) ||
+    null;
+  const makeTopic = (id, position, source, fallbackText, description) => {
+    const title = source?.activity?.title || lesson.title;
+    return {
+      id,
+      // The selector must announce the real title of every alternative,
+      // rather than hiding it behind a generic content type.
+      label: `Lectura ${position} · ${title}`,
+      title,
+      description: source?.activity?.description || description,
+      text: source?.text || fallbackText,
+    // Use the companion material's own checks when it has them; never grade
+    // it with questions authored for the main article.
+      exercises: source?.activity?.exercises || []
+    };
+  };
+  return [
+    {
+      id: 'main-reading',
+      label: `Lectura 1 · ${lesson.title}`,
+      title: lesson.title,
+      description: lesson.description,
+      text: primaryText
+    },
+    makeTopic(
+      'conversation-reading',
+      2,
+      listening,
+      primaryText,
+      'Lee una conversación vinculada al tema de la unidad.'
+    ),
+    makeTopic(
+      'practical-reading',
+      3,
+      practical,
+      primaryText,
+      'Lee un texto práctico para aplicar el tema de la unidad.'
+    )
+  ].filter((topic, index, list) => topic.text && (index === 0 || !list.slice(0, index).some((previous) => previous.text === topic.text)));
 }
 
 function getSelectedReadingTopic(lesson) {
@@ -12126,7 +12324,8 @@ function getReadingLessonForTopic(lesson) {
     ...lesson,
     reading,
     title: topic?.title || lesson.title,
-    description: topic?.description || lesson.description
+    description: topic?.description || lesson.description,
+    exercises: Array.isArray(topic?.exercises) ? topic.exercises : lesson.exercises
   };
 }
 
@@ -12135,10 +12334,10 @@ function renderReadingTopicSelector(lesson) {
   if (choices.length < 2) return '';
   const selected = getSelectedReadingTopic(lesson);
   return `
-    <section class="reading-topic-selector no-print" aria-label="Elige un enfoque de lectura">
+    <section class="reading-topic-selector no-print" aria-label="Elige una lectura de la unidad">
       <div class="reading-topic-selector-heading">
-        <span>Elige una temática</span>
-        <strong>Tres maneras prácticas de explorar la lección</strong>
+        <span>ELIGE UNA LECTURA</span>
+        <strong>Tres lecturas de la unidad</strong>
       </div>
       <div class="reading-topic-options" role="tablist" aria-label="Temáticas de Reading">
         ${choices
@@ -17618,13 +17817,22 @@ function getVocabularyUnitLessons(lesson) {
 function getUnitVocabularyCorpus(lessons) {
   return lessons
     .flatMap((candidate) => [
-      candidate.reading?.text,
-      ...(candidate.reading?.parts || []),
-      candidate.transcript,
       candidate.description,
       candidate.intro,
       candidate.mission,
       candidate.grammar,
+      candidate.objective,
+      candidate.instructions,
+      ...(candidate.vocabulary || []).flatMap((item) => [
+        item?.word,
+        item?.translation,
+        item?.definition,
+        item?.simpleDefinition,
+        item?.example,
+        ...(item?.contexts || []).map((context) =>
+          typeof context === 'string' ? context : context?.targetText || context?.text || ''
+        )
+      ]),
       ...(candidate.dialogue || []).map((line) => line?.line || line?.text || ''),
       ...(candidate.phrases || []).map((phrase) =>
         typeof phrase === 'string' ? phrase : phrase?.text || phrase?.expression || ''
@@ -17632,6 +17840,14 @@ function getUnitVocabularyCorpus(lessons) {
     ])
     .filter(Boolean)
     .join(' ');
+}
+
+function isLikelyVocabularyProperName(word, corpus) {
+  const value = String(word || '').trim();
+  if (!value || /\s/.test(value) || !/^\p{Lu}/u.test(value)) return false;
+  const escaped = value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const matches = [...String(corpus || '').matchAll(new RegExp(`\\b${escaped}\\b`, 'giu'))];
+  return matches.length > 0 && matches.every((match) => /^\p{Lu}/u.test(match[0]));
 }
 
 // A vocabulary target must be useful on its own.  Do not fill a lesson with
@@ -17655,7 +17871,7 @@ const CURATED_VOCABULARY_BANKS = {
     ['Nice', 'Agradable', 'Presentación'], ['Meet', 'Conocer', 'Presentación'],
     ['How are you?', '¿Cómo estás?', 'Presentación'], ['Where are you from?', '¿De dónde eres?', 'Presentación'],
     ["I'm from…", 'Soy de…', 'Presentación'], ['Country', 'País', 'Presentación'],
-    ['Dominican Republic', 'República Dominicana', 'Presentación'], ['English', 'Inglés', 'Personas y aula']
+    ['Nationality', 'Nacionalidad', 'Presentación'], ['English', 'Inglés', 'Personas y aula']
   ]
 };
 
@@ -17713,7 +17929,7 @@ function buildVocabularyUnitBank(lesson) {
   const add = (item) => {
     const word = String(item?.word || item?.targetWord || '').trim();
     const key = word.toLocaleLowerCase();
-    if (!word || seen.has(key)) return;
+    if (!word || seen.has(key) || isLikelyVocabularyProperName(word, corpus)) return;
     seen.add(key);
     const example = String(item?.example || '').trim();
     const contextualExample =
@@ -17727,8 +17943,12 @@ function buildVocabularyUnitBank(lesson) {
   // separately below, so a sentence never consumes one of the 30 slots.
   lessons.forEach((candidate) => (candidate.vocabulary || []).forEach(add));
 
+  // All levels follow the same 30-word contract.  Early A1/A2 units used
+  // to stop here, leaving visibly incomplete banks whenever the original
+  // authoring pass supplied fewer terms.  The remaining candidates come
+  // only from authored lesson support (definition, example, dialogue and
+  // unit metadata), never from the Reading passage.
   const candidates = corpus.match(/[\p{L}][\p{L}'’-]{2,}/gu) || [];
-  if (['A1', 'A2'].includes(lesson.level || learningPathState.level || '')) return bank;
   const isAdvancedLevel = ['C1', 'C2'].includes(lesson.level || learningPathState.level || '');
   const minimumContextWordLength = isAdvancedLevel ? 4 : 3;
   candidates.forEach((word) => {
@@ -20345,10 +20565,11 @@ function getLocalFallbackLessons(language, level) {
       .filter((unit) => unit.level === level)
       .map((unit) => [unit.id || unit.slug, Number(unit.order) || 1])
   );
-  // Introductory access: units 1–3 for A1–B2 and units 1–2 for C1–C2.
+  // Free access is intentionally governed by unit, never by individual
+  // activities: A1 includes units 1–4 and A2–C2 include units 1–3.
   // This mirrors lib/accessPolicyService.js, which remains the enforcement
   // source for server-loaded lessons.
-  const freeUnitLimit = ['C1', 'C2'].includes(level) ? 2 : 3;
+  const freeUnitLimit = level === 'A1' ? 4 : 3;
   return (
     lessons
       .filter((lesson) => lesson.level === level)
@@ -22997,7 +23218,13 @@ const GAMES_CATALOG = [
     title: 'Ahorcado',
     hint: 'Descubre una palabra antes de perder tus intentos.'
   },
-  { id: 'match', icon: '🃏', title: 'Parejas', hint: 'Une cada palabra con su significado.' }
+  { id: 'match', icon: '🃏', title: 'Parejas', hint: 'Une cada palabra con su significado.' },
+  {
+    id: 'audio-sprint',
+    icon: '🎧',
+    title: 'Escucha y elige',
+    hint: 'Escucha una palabra y elige su significado antes de continuar.'
+  }
 ];
 const gamesState = {
   language: 'english',
@@ -23014,7 +23241,9 @@ const gamesState = {
   timerPaused: false,
   timerFinished: false,
   timerInterval: null,
-  timerAutoPaused: false
+  timerAutoPaused: false,
+  missionCompleted: new Set(),
+  reviewWords: new Map()
 };
 // Compatibility vocabulary for older content/tests: easy: { label: 'Fácil'
 // and challenge: { label: 'Desafío'. The learner-facing scale is now the
@@ -23036,7 +23265,8 @@ const GAME_DIFFICULTIES = {
     hangmanLives: 8,
     hangmanHintPenalty: 0,
     matchPairs: 4,
-    matchDelay: 1050
+    matchDelay: 1050,
+    audioQuestions: 3
   },
   normal: {
     label: 'Medio',
@@ -23053,7 +23283,8 @@ const GAME_DIFFICULTIES = {
     hangmanLives: 6,
     hangmanHintPenalty: 1,
     matchPairs: 5,
-    matchDelay: 800
+    matchDelay: 800,
+    audioQuestions: 5
   },
   challenge: {
     label: 'Difícil',
@@ -23074,7 +23305,8 @@ const GAME_DIFFICULTIES = {
     hangmanLongWords: true,
     hangmanHintPenalty: null,
     matchPairs: 6,
-    matchDelay: 550
+    matchDelay: 550,
+    audioQuestions: 6
   }
 };
 
@@ -23698,6 +23930,72 @@ function recordGameSuccess() {
   document.querySelector('#gamesApp .games-score-value')?.replaceChildren(String(gamesState.score));
 }
 
+function getGamesMissionSteps() {
+  return ['match', 'audio-sprint', 'word-search'];
+}
+
+function getGamesMissionStepLabel(gameId) {
+  return GAMES_CATALOG.find((game) => game.id === gameId)?.title || 'Reto';
+}
+
+function recordGamesReviewWord(word) {
+  const term = String(word?.term || word || '').trim();
+  if (!term) return;
+  const key = normalizeGameText(term);
+  const previous = gamesState.reviewWords.get(key) || { term, translation: word?.translation || '', misses: 0 };
+  gamesState.reviewWords.set(key, { ...previous, misses: previous.misses + 1 });
+}
+
+function updateGamesMissionUi() {
+  const steps = getGamesMissionSteps();
+  const next = steps.find((step) => !gamesState.missionCompleted.has(step));
+  document.querySelectorAll('#gamesApp [data-mission-game]').forEach((item) => {
+    const gameId = item.dataset.missionGame;
+    const complete = gamesState.missionCompleted.has(gameId);
+    const active = !complete && gameId === next;
+    item.classList.toggle('is-complete', complete);
+    item.classList.toggle('is-active', active);
+    item.querySelector('[data-mission-status]')?.replaceChildren(complete ? '✓' : active ? 'Ahora' : 'Luego');
+  });
+  const progress = document.querySelector('#gamesApp .games-mission-progress');
+  if (progress) progress.textContent = `${gamesState.missionCompleted.size}/${steps.length} retos`;
+}
+
+function completeGamesMissionStep() {
+  const steps = getGamesMissionSteps();
+  const next = steps.find((step) => !gamesState.missionCompleted.has(step));
+  if (next !== gamesState.gameId) return { completed: false, allDone: false };
+  gamesState.missionCompleted.add(next);
+  updateGamesMissionUi();
+  return { completed: true, allDone: gamesState.missionCompleted.size === steps.length };
+}
+
+function renderGamesCompletionCard(summary) {
+  const card = document.querySelector('#gamesApp .games-completion-card');
+  if (!card) return;
+  const mission = completeGamesMissionStep();
+  const nextGame = getGamesMissionSteps().find((step) => !gamesState.missionCompleted.has(step));
+  const reviewWords = [...gamesState.reviewWords.values()]
+    .sort((a, b) => b.misses - a.misses)
+    .slice(0, 3);
+  card.hidden = false;
+  card.innerHTML = `<div><span class="games-completion-kicker">${mission.allDone ? '🏆 Misión diaria completada' : '✦ Reto completado'}</span><strong>${mission.allDone ? '¡Excelente trabajo! Volverás mañana con una nueva combinación.' : mission.completed ? `Siguiente: ${escapeHtml(getGamesMissionStepLabel(nextGame))}` : 'Sigue explorando los retos de hoy.'}</strong><small>${escapeHtml(summary || 'Tu progreso se guardó en esta sesión.')}</small></div><div class="games-completion-actions">${reviewWords.length ? `<button type="button" class="secondary-btn games-review-words">Repasar ${reviewWords.length} palabra${reviewWords.length === 1 ? '' : 's'}</button>` : ''}${nextGame && mission.completed ? `<button type="button" class="primary-btn games-next-mission" data-next-game="${nextGame}">Continuar misión →</button>` : '<button type="button" class="secondary-btn games-new-round">Nuevo reto</button>'}</div>`;
+  card.querySelector('.games-next-mission')?.addEventListener('click', () => {
+    gamesState.gameId = card.querySelector('.games-next-mission').dataset.nextGame;
+    gamesState.round += 1;
+    renderGamesView();
+  });
+  card.querySelector('.games-review-words')?.addEventListener('click', () => {
+    gamesState.gameId = 'audio-sprint';
+    gamesState.round += 1;
+    renderGamesView();
+  });
+  card.querySelector('.games-new-round')?.addEventListener('click', () => {
+    gamesState.round += 1;
+    renderGamesView();
+  });
+}
+
 function gameButtonHtml(game) {
   return `<button type="button" class="games-type-btn" data-game-id="${game.id}" aria-pressed="${String(gamesState.gameId === game.id)}">${game.icon} ${game.title}</button>`;
 }
@@ -23874,6 +24172,7 @@ function finishGamesTimer(success = true) {
   const result = document.querySelector('#gamesApp .games-timer-result');
   if (result) result.textContent = summary;
   updateGamesTimerUi();
+  if (success) renderGamesCompletionCard(summary);
   return summary;
 }
 
@@ -23907,7 +24206,13 @@ function renderGamesView() {
   };
   const game = GAMES_CATALOG.find((item) => item.id === gamesState.gameId) || GAMES_CATALOG[0];
   const difficulty = getGamesDifficulty();
+  const missionSteps = getGamesMissionSteps();
+  const nextMissionGame = missionSteps.find((step) => !gamesState.missionCompleted.has(step));
   app.innerHTML = `
+    <section class="games-daily-mission" aria-label="Misión diaria">
+      <div class="games-mission-intro"><span>✦ Misión diaria</span><strong>Una vuelta breve, tres formas de recordar.</strong><small class="games-mission-progress">${gamesState.missionCompleted.size}/${missionSteps.length} retos</small></div>
+      <div class="games-mission-steps">${missionSteps.map((gameId, index) => { const done = gamesState.missionCompleted.has(gameId); const active = !done && gameId === nextMissionGame; return `<button type="button" class="games-mission-step${done ? ' is-complete' : ''}${active ? ' is-active' : ''}" data-mission-game="${gameId}"><b>${index + 1}</b><span>${escapeHtml(getGamesMissionStepLabel(gameId))}</span><small data-mission-status>${done ? '✓' : active ? 'Ahora' : 'Luego'}</small></button>`; }).join('')}</div>
+    </section>
     <div class="games-topbar">
       <div class="games-language-picker" aria-label="Idioma para jugar"><span>Jugar en</span>${Object.entries(
         languageLabels
@@ -23931,7 +24236,7 @@ function renderGamesView() {
     <div class="games-difficulty-summary games-difficulty-summary--${gamesState.difficulty}"><span aria-hidden="true">${difficulty.icon}</span><div><strong>${difficulty.label} · ${difficulty.cefr}</strong><small>${difficulty.description}</small></div><b>+${difficulty.points} puntos por acierto</b></div>
     <div class="games-play-shell">
       <div class="games-score-strip" role="region" aria-label="Controles y estado de la partida"><div class="games-score-primary"><span><small>Puntos</small><strong class="games-score-value">${gamesState.score}</strong></span><span><small>Idioma</small><strong>${languageLabels[gamesState.language]}</strong></span><span><small>Nivel</small><strong>${difficulty.label}</strong></span><span><small>Reto</small><strong class="games-round-value">${gamesState.round + 1}</strong></span></div><div class="games-round-meter"><span>Progreso <strong class="games-round-progress-label">0/0 · 0%</strong></span><progress class="games-round-progress" value="0" max="1" aria-label="Progreso de la ronda"></progress></div><div class="games-timer-controls"><label><span>Tiempo</span><select class="games-timer-mode" aria-label="Modo del cronómetro"><option value="stopwatch" ${gamesState.timerMode === 'stopwatch' ? 'selected' : ''}>Cronómetro</option><option value="120" ${gamesState.timerMode === '120' ? 'selected' : ''}>2 minutos</option><option value="180" ${gamesState.timerMode === '180' ? 'selected' : ''}>3 minutos</option><option value="300" ${gamesState.timerMode === '300' ? 'selected' : ''}>5 minutos</option><option value="off" ${gamesState.timerMode === 'off' ? 'selected' : ''}>Sin tiempo</option></select></label><strong class="games-timer-display">00:00</strong><button type="button" class="games-timer-pause" aria-pressed="false">Ⅱ Pausar</button><button type="button" class="secondary-btn games-new-round">↻ Nuevo reto</button><small class="games-timer-result" aria-live="polite"></small></div></div>
-      <div class="games-board"><div class="games-game-card"><div class="games-game-heading"><div><span>${game.icon} Juego de vocabulario</span><h3>${game.title}</h3><p>${game.hint}</p></div></div><div class="games-game-content"></div><p class="games-feedback" aria-live="polite"></p></div></div>
+      <div class="games-board"><div class="games-game-card"><div class="games-game-heading"><div><span>${game.icon} Juego de vocabulario</span><h3>${game.title}</h3><p>${game.hint}</p></div></div><div class="games-game-content"></div><p class="games-feedback" aria-live="polite"></p><section class="games-completion-card" hidden aria-live="polite"></section></div></div>
     </div>
   `;
   app.querySelectorAll('[data-game-language]').forEach((button) =>
@@ -23941,6 +24246,13 @@ function renderGamesView() {
       gamesState.language = nextLanguage;
       gamesState.vocabulary = [];
       await loadGamesView();
+    })
+  );
+  app.querySelectorAll('[data-mission-game]').forEach((button) =>
+    button.addEventListener('click', () => {
+      gamesState.gameId = button.dataset.missionGame;
+      gamesState.round += 1;
+      renderGamesView();
     })
   );
   app.querySelectorAll('[data-game-id]').forEach((button) =>
@@ -24021,7 +24333,65 @@ function renderSelectedGame() {
   if (gamesState.gameId === 'word-search') return renderWordSearchGame(stage, words);
   if (gamesState.gameId === 'crossword') return renderCrosswordGame(stage, topic, bridgeTopic);
   if (gamesState.gameId === 'hangman') return renderHangmanGame(stage, words);
+  if (gamesState.gameId === 'audio-sprint') return renderAudioSprintGame(stage, words);
   renderMatchGame(stage, words);
+}
+
+function renderAudioSprintGame(content, words) {
+  const roundWords = getGameRoundWords(words, Math.max(4, getGamesDifficulty().audioQuestions + 1), 2);
+  const questions = roundWords.slice(0, getGamesDifficulty().audioQuestions);
+  let questionIndex = 0;
+  let correct = 0;
+  let answered = false;
+  setGamesRoundProgress(0, questions.length);
+
+  const draw = () => {
+    const item = questions[questionIndex];
+    const options = [...roundWords]
+      .filter((word) => word.term !== item.term)
+      .slice(0, 3)
+      .concat(item)
+      .sort(() => Math.random() - 0.5);
+    content.innerHTML = `<div class="games-audio-sprint"><div class="games-audio-prompt"><span>🎧 Escucha y responde</span><strong>Pregunta ${questionIndex + 1} de ${questions.length}</strong><small>Escucha la palabra y elige su significado.</small><button type="button" class="primary-btn games-audio-play">▶ Escuchar</button></div><div class="games-audio-options">${options.map((option) => `<button type="button" class="games-audio-option" data-audio-term="${escapeHtml(option.term)}">${escapeHtml(option.translation)}</button>`).join('')}</div><div class="games-action-row"><button type="button" class="secondary-btn games-audio-repeat">🔊 Repetir audio</button></div></div>`;
+    const play = () => speakText(item.term, { locale: getGamesLocale() });
+    content.querySelector('.games-audio-play')?.addEventListener('click', play);
+    content.querySelector('.games-audio-repeat')?.addEventListener('click', play);
+    content.querySelectorAll('[data-audio-term]').forEach((button) =>
+      button.addEventListener('click', () => {
+        if (answered) return;
+        answered = true;
+        const isCorrect = normalizeGameText(button.dataset.audioTerm) === normalizeGameText(item.term);
+        button.classList.add(isCorrect ? 'is-correct' : 'is-wrong');
+        if (isCorrect) {
+          correct += 1;
+          recordGameSuccess();
+          setGamesFeedback('¡Correcto! Esa es la palabra que escuchaste.', 'is-correct');
+        } else {
+          recordGamesReviewWord(item);
+          content.querySelector(`[data-audio-term="${CSS.escape(item.term)}"]`)?.classList.add('is-correct');
+          setGamesFeedback(`La respuesta era «${item.translation}». La verás de nuevo en tu repaso.`, 'is-wrong');
+        }
+        setGamesRoundProgress(questionIndex + 1, questions.length);
+        const next = document.createElement('button');
+        next.type = 'button';
+        next.className = 'primary-btn games-audio-next';
+        next.textContent = questionIndex + 1 === questions.length ? 'Ver resultado →' : 'Siguiente →';
+        next.addEventListener('click', () => {
+          questionIndex += 1;
+          answered = false;
+          if (questionIndex >= questions.length) {
+            const timing = finishGamesTimer(true);
+            content.innerHTML = `<div class="games-audio-result"><span>🎯</span><strong>${correct}/${questions.length} respuestas correctas</strong><p>${correct === questions.length ? '¡Ronda perfecta! Tu oído está listo para el siguiente reto.' : 'Buen trabajo. Las palabras difíciles están listas para repasarse.'}</p><small>${escapeHtml(timing)}</small></div>`;
+            return;
+          }
+          draw();
+        });
+        content.querySelector('.games-action-row')?.append(next);
+      })
+    );
+    window.setTimeout(play, 250);
+  };
+  draw();
 }
 
 function renderWordSearchGame(content, words) {
@@ -24484,6 +24854,7 @@ function renderHangmanGame(content, words) {
           setGamesFeedback(`¡Ganaste! ${item.term}. ${timing}`, 'is-correct');
         } else if (misses >= maximumMisses) {
           finished = true;
+          recordGamesReviewWord(item);
           const timing = finishGamesTimer(false);
           setGamesFeedback(
             `La palabra era «${item.term}». ${timing} Pulsa Nuevo reto.`,
@@ -24513,6 +24884,7 @@ function renderHangmanGame(content, words) {
         setGamesFeedback(`¡Completaste la palabra! ${item.term}. ${timing}`, 'is-correct');
       } else if (misses >= maximumMisses) {
         finished = true;
+        recordGamesReviewWord(item);
         const timing = finishGamesTimer(false);
         setGamesFeedback(`Sin intentos. La palabra era «${item.term}». ${timing}`, 'is-wrong');
       }
@@ -24572,6 +24944,10 @@ function renderMatchGame(content, words) {
         }
       } else {
         locked = true;
+        recordGamesReviewWord({
+          term: previous.querySelector('.games-match-value')?.textContent || '',
+          translation: ''
+        });
         setGamesFeedback('No forman pareja. Memoriza su posición.', 'is-wrong');
         window.setTimeout(() => {
           previous.classList.remove('is-selected', 'is-revealed');
@@ -24618,6 +24994,7 @@ const VIEW_SECTIONS = {
   tests: ['#tests'],
   infographics: ['#infographics'],
   games: ['#games'],
+  readings: ['#readings'],
   downloads: ['#downloads'],
   about: ['#about'],
   verbs: ['#verbs'],
@@ -24648,6 +25025,7 @@ const VIEW_TITLE_SELECTORS = {
   tests: '#tests h2',
   infographics: '#infographics h2',
   games: '#games h2',
+  readings: '#readings h2',
   downloads: '#downloads h2',
   about: '#about h2',
   verbs: '#verbs h2',
@@ -24863,6 +25241,7 @@ function showView(viewId) {
   if (resolved === 'tests') loadTestsView();
   if (resolved === 'infographics') initInfographicApp();
   if (resolved === 'games') loadGamesView();
+  if (resolved === 'readings') renderReadingLibrary();
   if (resolved === 'progress' || resolved === 'goals') loadDashboard();
   if (resolved === 'security') loadSecurityStatus();
   if (resolved === 'teacher-curriculum') loadTeacherCurriculumPanel();

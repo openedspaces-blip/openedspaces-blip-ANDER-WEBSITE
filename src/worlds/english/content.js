@@ -45,7 +45,7 @@
       ],
       [
         "Mission",
-        "A short text about a student's first day of English class, in three parts."
+        "A student shares their first day in English class."
       ]
     ],
     "reading": {
@@ -99,7 +99,7 @@
       ],
       [
         "Mission",
-        "Sarah's normal weekly routine changes when her sister comes to visit - a single full-length A2 reading about everyday life, habits, and one memorable weekend."
+        "Sarah's usual routine changes when her sister comes to visit for a memorable weekend."
       ]
     ],
     "reading": {
@@ -343,8 +343,8 @@
     "xpReward": 30,
     "orderIndex": 10,
     "estimatedMinutes": 15,
-    "description": "Sarah's normal weekly routine changes when her sister comes to visit - a single full-length A2 reading about everyday life, habits, and one memorable weekend.",
-    "intro": "Sarah's normal weekly routine changes when her sister comes to visit - a single full-length A2 reading about everyday life, habits, and one memorable weekend.",
+    "description": "Sarah's usual routine changes when her sister comes to visit for a memorable weekend.",
+    "intro": "Sarah's usual routine changes when her sister comes to visit for a memorable weekend.",
     "mission": "",
     "grammar": "",
     "phrases": [],
@@ -824,21 +824,21 @@
     "level": "A1",
     "skill": "reading",
     "unitId": "hello",
-    "title": "Hello, Class!",
+    "title": "Introducing Yourself",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 25,
     "orderIndex": 10,
     "estimatedMinutes": 10,
-    "description": "A short text about a student's first day of English class, in three parts.",
-    "intro": "A short text about a student's first day of English class, in three parts.",
+    "description": "A student shares their first day in English class.",
+    "intro": "A student shares their first day in English class.",
     "mission": "",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Hello, Class!",
+      "title": "Introducing Yourself",
       "illustration": {
         "src": "/assets/readings/english/a1/hello-class.webp",
         "alt": "Ana meets her new classmates on the first day of English class"
@@ -905,6 +905,40 @@
           "Spelling their names with the alphabet",
           "Colors",
           "Drawing"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: Ana is a little nervous on her first day.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: Leo is Ana's teacher.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: Ana and Leo shake hands.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Choose the best word: Mr. Green has a big smile and a very ___ voice.",
+        "options": [
+          "angry",
+          "friendly",
+          "sad",
+          "tired"
         ]
       }
     ]
@@ -2343,98 +2377,98 @@
       },
       "dictationSegmentCount": 3,
       "listeningComprehension": {
-        "id": "english-a1-hello-listening-listening-comprehension",
+        "id": "english-a1-hello-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which statement completes this moment from “Nice to Meet You”? “Hello…”",
+            "prompt": "What is the speaker's name?",
             "options": [
               {
                 "id": "o1",
-                "text": "Hello!"
+                "text": "Ana"
               },
               {
                 "id": "o2",
-                "text": "My name is Ana."
+                "text": "Leo"
               },
               {
                 "id": "o3",
-                "text": "I am eighteen years old, and I am from the Dominican Republic."
+                "text": "Sofia"
               },
               {
                 "id": "o4",
-                "text": "Today is my first English class."
+                "text": "Marco"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement completes this moment from “Nice to Meet You”? “I feel a little…”",
+            "prompt": "How old is Ana?",
             "options": [
               {
                 "id": "o1",
-                "text": "Hello!"
+                "text": "Sixteen"
               },
               {
                 "id": "o2",
-                "text": "I feel a little nervous, but I am also excited."
+                "text": "Eighteen"
               },
               {
                 "id": "o3",
-                "text": "My name is Ana."
+                "text": "Twenty"
               },
               {
                 "id": "o4",
-                "text": "I am eighteen years old, and I am from the Dominican Republic."
+                "text": "Twenty-two"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement completes this moment from “Nice to Meet You”? “Leo is from…”",
+            "prompt": "Where is Leo from?",
             "options": [
               {
                 "id": "o1",
-                "text": "Hello!"
+                "text": "Spain"
               },
               {
                 "id": "o2",
-                "text": "My name is Ana."
+                "text": "Italy"
               },
               {
                 "id": "o3",
-                "text": "Leo is from Italy."
+                "text": "France"
               },
               {
                 "id": "o4",
-                "text": "I am eighteen years old, and I am from the Dominican Republic."
+                "text": "The Dominican Republic"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which statement completes this moment from “Nice to Meet You”? “At the end we say…”",
+            "prompt": "What do Ana and Leo say before they leave?",
             "options": [
               {
                 "id": "o1",
-                "text": "Hello!"
+                "text": "Good night."
               },
               {
                 "id": "o2",
-                "text": "My name is Ana."
+                "text": "See you tomorrow."
               },
               {
                 "id": "o3",
-                "text": "I am eighteen years old, and I am from the Dominican Republic."
+                "text": "Welcome home."
               },
               {
                 "id": "o4",
-                "text": "At the end, we say, “Nice to meet you” and “See you tomorrow."
+                "text": "Have a good trip."
               }
             ]
           }
@@ -2445,42 +2479,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which statement completes this moment from “Nice to Meet You”? “Hello…”",
+        "prompt": "What is the speaker's name?",
         "options": [
-          "Hello!",
-          "My name is Ana.",
-          "I am eighteen years old, and I am from the Dominican Republic.",
-          "Today is my first English class."
+          "Ana",
+          "Leo",
+          "Sofia",
+          "Marco"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement completes this moment from “Nice to Meet You”? “I feel a little…”",
+        "prompt": "How old is Ana?",
         "options": [
-          "Hello!",
-          "I feel a little nervous, but I am also excited.",
-          "My name is Ana.",
-          "I am eighteen years old, and I am from the Dominican Republic."
+          "Sixteen",
+          "Eighteen",
+          "Twenty",
+          "Twenty-two"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement completes this moment from “Nice to Meet You”? “Leo is from…”",
+        "prompt": "Where is Leo from?",
         "options": [
-          "Hello!",
-          "My name is Ana.",
-          "Leo is from Italy.",
-          "I am eighteen years old, and I am from the Dominican Republic."
+          "Spain",
+          "Italy",
+          "France",
+          "The Dominican Republic"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement completes this moment from “Nice to Meet You”? “At the end we say…”",
+        "prompt": "What do Ana and Leo say before they leave?",
         "options": [
-          "Hello!",
-          "My name is Ana.",
-          "I am eighteen years old, and I am from the Dominican Republic.",
-          "At the end, we say, “Nice to meet you” and “See you tomorrow."
+          "Good night.",
+          "See you tomorrow.",
+          "Welcome home.",
+          "Have a good trip."
         ]
       }
     ]
@@ -7163,8 +7197,8 @@
     "xpReward": 25,
     "orderIndex": 20,
     "estimatedMinutes": 10,
-    "description": "A short profile text about a student from the Dominican Republic, in three parts.",
-    "intro": "A short profile text about a student from the Dominican Republic, in three parts.",
+    "description": "Meet a student from the Dominican Republic.",
+    "intro": "Meet a student from the Dominican Republic.",
     "mission": "",
     "grammar": "",
     "phrases": [],
@@ -7234,6 +7268,40 @@
           "His classmates",
           "His sister",
           "Mr. Green"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: Marco is tired today.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: Marco's favorite color is blue.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: Marco's family is having a party tonight.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Choose the best word: My city is big and ___, with many parks.",
+        "options": [
+          "colorful",
+          "boring",
+          "empty",
+          "cold"
         ]
       }
     ]
@@ -8663,13 +8731,13 @@
       },
       "dictationSegmentCount": 3,
       "listeningComprehension": {
-        "id": "english-a1-about-me-listening-listening-comprehension",
+        "id": "english-a1-about-me-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which statement completes this moment from “This Is Me”? “My name is…”",
+            "prompt": "Which detail opens the story?",
             "options": [
               {
                 "id": "o1",
@@ -8677,34 +8745,34 @@
               },
               {
                 "id": "o2",
-                "text": "I am nineteen years old, and I live in Santo Domingo."
+                "text": "I want to improve my English because I would like to travel and meet people from different countries."
               },
               {
                 "id": "o3",
-                "text": "I am a student, and I study English at a language school."
+                "text": "On weekends, I visit my grandparents or play soccer with my friends."
               },
               {
                 "id": "o4",
-                "text": "I speak Spanish, and I understand a little English."
+                "text": "I like music, soccer, and video games."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement completes this moment from “This Is Me”? “I speak Spanish…”",
+            "prompt": "What happens next in the story?",
             "options": [
               {
                 "id": "o1",
-                "text": "My name is Daniel."
+                "text": "I want to improve my English because I would like to travel and meet people from different countries."
               },
               {
                 "id": "o2",
-                "text": "I speak Spanish, and I understand a little English."
+                "text": "On weekends, I visit my grandparents or play soccer with my friends."
               },
               {
                 "id": "o3",
-                "text": "I am nineteen years old, and I live in Santo Domingo."
+                "text": "I like music, soccer, and video games."
               },
               {
                 "id": "o4",
@@ -8715,15 +8783,15 @@
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement completes this moment from “This Is Me”? “My favorite color is…”",
+            "prompt": "Which event happens later in the story?",
             "options": [
               {
                 "id": "o1",
-                "text": "My name is Daniel."
+                "text": "I am nineteen years old, and I live in Santo Domingo."
               },
               {
                 "id": "o2",
-                "text": "I am nineteen years old, and I live in Santo Domingo."
+                "text": "I am a student, and I study English at a language school."
               },
               {
                 "id": "o3",
@@ -8731,30 +8799,30 @@
               },
               {
                 "id": "o4",
-                "text": "I am a student, and I study English at a language school."
+                "text": "My name is Daniel."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which statement completes this moment from “This Is Me”? “I want to improve my English…”",
+            "prompt": "How does the story end?",
             "options": [
               {
                 "id": "o1",
-                "text": "My name is Daniel."
-              },
-              {
-                "id": "o2",
-                "text": "I am nineteen years old, and I live in Santo Domingo."
-              },
-              {
-                "id": "o3",
                 "text": "I am a student, and I study English at a language school."
               },
               {
-                "id": "o4",
+                "id": "o2",
                 "text": "I want to improve my English because I would like to travel and meet people from different countries."
+              },
+              {
+                "id": "o3",
+                "text": "My name is Daniel."
+              },
+              {
+                "id": "o4",
+                "text": "I am nineteen years old, and I live in Santo Domingo."
               }
             ]
           }
@@ -8765,42 +8833,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which statement completes this moment from “This Is Me”? “My name is…”",
+        "prompt": "Which detail opens the story?",
         "options": [
           "My name is Daniel.",
-          "I am nineteen years old, and I live in Santo Domingo.",
-          "I am a student, and I study English at a language school.",
-          "I speak Spanish, and I understand a little English."
+          "I want to improve my English because I would like to travel and meet people from different countries.",
+          "On weekends, I visit my grandparents or play soccer with my friends.",
+          "I like music, soccer, and video games."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement completes this moment from “This Is Me”? “I speak Spanish…”",
+        "prompt": "What happens next in the story?",
         "options": [
-          "My name is Daniel.",
-          "I speak Spanish, and I understand a little English.",
-          "I am nineteen years old, and I live in Santo Domingo.",
+          "I want to improve my English because I would like to travel and meet people from different countries.",
+          "On weekends, I visit my grandparents or play soccer with my friends.",
+          "I like music, soccer, and video games.",
           "I am a student, and I study English at a language school."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement completes this moment from “This Is Me”? “My favorite color is…”",
+        "prompt": "Which event happens later in the story?",
         "options": [
-          "My name is Daniel.",
           "I am nineteen years old, and I live in Santo Domingo.",
+          "I am a student, and I study English at a language school.",
           "My favorite color is blue, and my favorite food is pizza.",
-          "I am a student, and I study English at a language school."
+          "My name is Daniel."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement completes this moment from “This Is Me”? “I want to improve my English…”",
+        "prompt": "How does the story end?",
         "options": [
-          "My name is Daniel.",
-          "I am nineteen years old, and I live in Santo Domingo.",
           "I am a student, and I study English at a language school.",
-          "I want to improve my English because I would like to travel and meet people from different countries."
+          "I want to improve my English because I would like to travel and meet people from different countries.",
+          "My name is Daniel.",
+          "I am nineteen years old, and I live in Santo Domingo."
         ]
       }
     ]
@@ -13381,8 +13449,8 @@
     "xpReward": 25,
     "orderIndex": 30,
     "estimatedMinutes": 10,
-    "description": "A short text about Ana's family members, in three parts.",
-    "intro": "A short text about Ana's family members, in three parts.",
+    "description": "Ana introduces the people in her family.",
+    "intro": "Ana introduces the people in her family.",
     "mission": "",
     "grammar": "",
     "phrases": [],
@@ -13452,6 +13520,40 @@
           "Soccer",
           "Cooking",
           "Reading"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: Sofia loves music.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: The family lives in a big city apartment.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: Rosa cooks for the family.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Choose the best word: Rosa is very ___; she cooks delicious food for us.",
+        "options": [
+          "kind",
+          "angry",
+          "lazy",
+          "sad"
         ]
       }
     ]
@@ -14871,13 +14973,13 @@
       },
       "dictationSegmentCount": 3,
       "listeningComprehension": {
-        "id": "english-a1-family-and-friends-listening-listening-comprehension",
+        "id": "english-a1-family-and-friends-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which statement completes this moment from “My Family Photo”? “This is a…”",
+            "prompt": "Which detail opens the story?",
             "options": [
               {
                 "id": "o1",
@@ -14885,84 +14987,84 @@
               },
               {
                 "id": "o2",
-                "text": "My mother’s name is Laura, and my father’s name is Carlos."
+                "text": "My family is busy, but we are very close and happy."
               },
               {
                 "id": "o3",
-                "text": "My mother is a nurse, and my father is a teacher."
+                "text": "On Sundays, we eat lunch together at home."
               },
               {
                 "id": "o4",
-                "text": "I have one brother and one sister."
+                "text": "We also have a small dog named Coco."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement completes this moment from “My Family Photo”? “I have one…”",
+            "prompt": "What happens next in the story?",
             "options": [
               {
                 "id": "o1",
-                "text": "This is a photo of my family."
+                "text": "My family is busy, but we are very close and happy."
               },
               {
                 "id": "o2",
-                "text": "I have one brother and one sister."
+                "text": "On Sundays, we eat lunch together at home."
               },
               {
                 "id": "o3",
-                "text": "My mother’s name is Laura, and my father’s name is Carlos."
+                "text": "We also have a small dog named Coco."
               },
               {
                 "id": "o4",
-                "text": "My mother is a nurse, and my father is a teacher."
+                "text": "I have one brother and one sister."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement completes this moment from “My Family Photo”? “She loves drawing…”",
+            "prompt": "Which event happens later in the story?",
             "options": [
               {
                 "id": "o1",
-                "text": "This is a photo of my family."
-              },
-              {
-                "id": "o2",
                 "text": "My mother’s name is Laura, and my father’s name is Carlos."
               },
               {
+                "id": "o2",
+                "text": "My mother is a nurse, and my father is a teacher."
+              },
+              {
                 "id": "o3",
-                "text": "She loves drawing and dancing."
+                "text": "My sister, Emma, is ten years old."
               },
               {
                 "id": "o4",
-                "text": "My mother is a nurse, and my father is a teacher."
+                "text": "This is a photo of my family."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which statement completes this moment from “My Family Photo”? “My family is busy…”",
+            "prompt": "How does the story end?",
             "options": [
               {
                 "id": "o1",
-                "text": "This is a photo of my family."
-              },
-              {
-                "id": "o2",
-                "text": "My mother’s name is Laura, and my father’s name is Carlos."
-              },
-              {
-                "id": "o3",
                 "text": "My mother is a nurse, and my father is a teacher."
               },
               {
-                "id": "o4",
+                "id": "o2",
                 "text": "My family is busy, but we are very close and happy."
+              },
+              {
+                "id": "o3",
+                "text": "This is a photo of my family."
+              },
+              {
+                "id": "o4",
+                "text": "My mother’s name is Laura, and my father’s name is Carlos."
               }
             ]
           }
@@ -14973,42 +15075,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which statement completes this moment from “My Family Photo”? “This is a…”",
+        "prompt": "Which detail opens the story?",
         "options": [
           "This is a photo of my family.",
-          "My mother’s name is Laura, and my father’s name is Carlos.",
-          "My mother is a nurse, and my father is a teacher.",
+          "My family is busy, but we are very close and happy.",
+          "On Sundays, we eat lunch together at home.",
+          "We also have a small dog named Coco."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What happens next in the story?",
+        "options": [
+          "My family is busy, but we are very close and happy.",
+          "On Sundays, we eat lunch together at home.",
+          "We also have a small dog named Coco.",
           "I have one brother and one sister."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement completes this moment from “My Family Photo”? “I have one…”",
+        "prompt": "Which event happens later in the story?",
         "options": [
-          "This is a photo of my family.",
-          "I have one brother and one sister.",
-          "My mother’s name is Laura, and my father’s name is Carlos.",
-          "My mother is a nurse, and my father is a teacher."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which statement completes this moment from “My Family Photo”? “She loves drawing…”",
-        "options": [
-          "This is a photo of my family.",
-          "My mother’s name is Laura, and my father’s name is Carlos.",
-          "She loves drawing and dancing.",
-          "My mother is a nurse, and my father is a teacher."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which statement completes this moment from “My Family Photo”? “My family is busy…”",
-        "options": [
-          "This is a photo of my family.",
           "My mother’s name is Laura, and my father’s name is Carlos.",
           "My mother is a nurse, and my father is a teacher.",
-          "My family is busy, but we are very close and happy."
+          "My sister, Emma, is ten years old.",
+          "This is a photo of my family."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "How does the story end?",
+        "options": [
+          "My mother is a nurse, and my father is a teacher.",
+          "My family is busy, but we are very close and happy.",
+          "This is a photo of my family.",
+          "My mother’s name is Laura, and my father’s name is Carlos."
         ]
       }
     ]
@@ -19589,8 +19691,8 @@
     "xpReward": 25,
     "orderIndex": 40,
     "estimatedMinutes": 10,
-    "description": "A short text describing a classroom and school subjects, in three parts.",
-    "intro": "A short text describing a classroom and school subjects, in three parts.",
+    "description": "Explore a classroom and its school subjects.",
+    "intro": "Explore a classroom and its school subjects.",
     "mission": "",
     "grammar": "",
     "phrases": [],
@@ -19660,6 +19762,40 @@
           "Draw and paint",
           "Use computers",
           "Read books"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: The classroom walls are yellow.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: There is a computer in the classroom.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: Math is always easy for the writer.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Choose the best word: The classroom is big and ___, with yellow walls.",
+        "options": [
+          "bright",
+          "dark",
+          "small",
+          "empty"
         ]
       }
     ]
@@ -21089,13 +21225,13 @@
       },
       "dictationSegmentCount": 3,
       "listeningComprehension": {
-        "id": "english-a1-my-school-listening-listening-comprehension",
+        "id": "english-a1-my-school-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which statement completes this moment from “My First School Day”? “Today is my…”",
+            "prompt": "Which detail opens the story?",
             "options": [
               {
                 "id": "o1",
@@ -21103,11 +21239,34 @@
               },
               {
                 "id": "o2",
-                "text": "My classroom is large and bright."
+                "text": "I feel happy because my new school is interesting."
               },
               {
                 "id": "o3",
-                "text": "There are twenty desks, a whiteboard, and a computer."
+                "text": "At lunchtime, I eat with Mia."
+              },
+              {
+                "id": "o4",
+                "text": "After English, we have math and science."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "What happens next in the story?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "I feel happy because my new school is interesting."
+              },
+              {
+                "id": "o2",
+                "text": "At lunchtime, I eat with Mia."
+              },
+              {
+                "id": "o3",
+                "text": "After English, we have math and science."
               },
               {
                 "id": "o4",
@@ -21116,71 +21275,48 @@
             ]
           },
           {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "Which statement completes this moment from “My First School Day”? “She is kind…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Today is my first day at a new school."
-              },
-              {
-                "id": "o2",
-                "text": "She is kind and friendly."
-              },
-              {
-                "id": "o3",
-                "text": "My classroom is large and bright."
-              },
-              {
-                "id": "o4",
-                "text": "There are twenty desks, a whiteboard, and a computer."
-              }
-            ]
-          },
-          {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement completes this moment from “My First School Day”? “Our first class…”",
+            "prompt": "Which event happens later in the story?",
             "options": [
               {
                 "id": "o1",
-                "text": "Today is my first day at a new school."
-              },
-              {
-                "id": "o2",
                 "text": "My classroom is large and bright."
               },
               {
+                "id": "o2",
+                "text": "There are twenty desks, a whiteboard, and a computer."
+              },
+              {
                 "id": "o3",
-                "text": "Our first class is English."
+                "text": "In my school bag, I have two notebooks, three pencils, a ruler, and an English book."
               },
               {
                 "id": "o4",
-                "text": "There are twenty desks, a whiteboard, and a computer."
+                "text": "Today is my first day at a new school."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which statement completes this moment from “My First School Day”? “My teacher’s name…”",
+            "prompt": "How does the story end?",
             "options": [
               {
                 "id": "o1",
-                "text": "Today is my first day at a new school."
-              },
-              {
-                "id": "o2",
-                "text": "My classroom is large and bright."
-              },
-              {
-                "id": "o3",
                 "text": "There are twenty desks, a whiteboard, and a computer."
               },
               {
+                "id": "o2",
+                "text": "I feel happy because my new school is interesting."
+              },
+              {
+                "id": "o3",
+                "text": "Today is my first day at a new school."
+              },
+              {
                 "id": "o4",
-                "text": "My teacher’s name is Mrs."
+                "text": "My classroom is large and bright."
               }
             ]
           }
@@ -21191,42 +21327,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which statement completes this moment from “My First School Day”? “Today is my…”",
+        "prompt": "Which detail opens the story?",
         "options": [
           "Today is my first day at a new school.",
-          "My classroom is large and bright.",
-          "There are twenty desks, a whiteboard, and a computer.",
+          "I feel happy because my new school is interesting.",
+          "At lunchtime, I eat with Mia.",
+          "After English, we have math and science."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What happens next in the story?",
+        "options": [
+          "I feel happy because my new school is interesting.",
+          "At lunchtime, I eat with Mia.",
+          "After English, we have math and science.",
           "My teacher’s name is Mrs. Brown."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement completes this moment from “My First School Day”? “She is kind…”",
+        "prompt": "Which event happens later in the story?",
         "options": [
-          "Today is my first day at a new school.",
-          "She is kind and friendly.",
-          "My classroom is large and bright.",
-          "There are twenty desks, a whiteboard, and a computer."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which statement completes this moment from “My First School Day”? “Our first class…”",
-        "options": [
-          "Today is my first day at a new school.",
-          "My classroom is large and bright.",
-          "Our first class is English.",
-          "There are twenty desks, a whiteboard, and a computer."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which statement completes this moment from “My First School Day”? “My teacher’s name…”",
-        "options": [
-          "Today is my first day at a new school.",
           "My classroom is large and bright.",
           "There are twenty desks, a whiteboard, and a computer.",
-          "My teacher’s name is Mrs."
+          "In my school bag, I have two notebooks, three pencils, a ruler, and an English book.",
+          "Today is my first day at a new school."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "How does the story end?",
+        "options": [
+          "There are twenty desks, a whiteboard, and a computer.",
+          "I feel happy because my new school is interesting.",
+          "Today is my first day at a new school.",
+          "My classroom is large and bright."
         ]
       }
     ]
@@ -25807,8 +25943,8 @@
     "xpReward": 25,
     "orderIndex": 50,
     "estimatedMinutes": 10,
-    "description": "A short text about Ana's daily routine, in three parts.",
-    "intro": "A short text about Ana's daily routine, in three parts.",
+    "description": "Ana describes her everyday routine.",
+    "intro": "Ana describes her everyday routine.",
     "mission": "",
     "grammar": "",
     "phrases": [],
@@ -25878,6 +26014,40 @@
           "Seven o'clock",
           "Eight o'clock",
           "Nine o'clock"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: She walks to school alone.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: She has English, Math and Science in the morning.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: She goes to bed at eight thirty.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Choose the best word: We talk about our day and ___ a lot at dinner.",
+        "options": [
+          "laugh",
+          "cry",
+          "sleep",
+          "cook"
         ]
       }
     ]
@@ -27302,13 +27472,13 @@
       },
       "dictationSegmentCount": 3,
       "listeningComprehension": {
-        "id": "english-a1-daily-routine-listening-listening-comprehension",
+        "id": "english-a1-daily-routine-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which statement completes this moment from “My Busy Morning”? “I wake up…”",
+            "prompt": "Which detail opens the story?",
             "options": [
               {
                 "id": "o1",
@@ -27316,34 +27486,34 @@
               },
               {
                 "id": "o2",
-                "text": "First, I get out of bed and take a shower."
+                "text": "I am sometimes tired in the morning, but I like seeing my friends and learning new things."
               },
               {
                 "id": "o3",
-                "text": "Then I get dressed and brush my teeth."
+                "text": "My classes start at eight o’clock."
               },
               {
                 "id": "o4",
-                "text": "At seven o’clock, I eat breakfast with my family."
+                "text": "I leave home at seven thirty and take the bus to school."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement completes this moment from “My Busy Morning”? “At seven o’clock…”",
+            "prompt": "What happens next in the story?",
             "options": [
               {
                 "id": "o1",
-                "text": "I wake up at six thirty every morning."
+                "text": "I am sometimes tired in the morning, but I like seeing my friends and learning new things."
               },
               {
                 "id": "o2",
-                "text": "At seven o’clock, I eat breakfast with my family."
+                "text": "My classes start at eight o’clock."
               },
               {
                 "id": "o3",
-                "text": "First, I get out of bed and take a shower."
+                "text": "I leave home at seven thirty and take the bus to school."
               },
               {
                 "id": "o4",
@@ -27354,15 +27524,15 @@
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement completes this moment from “My Busy Morning”? “After breakfast I put…”",
+            "prompt": "Which event happens later in the story?",
             "options": [
               {
                 "id": "o1",
-                "text": "I wake up at six thirty every morning."
+                "text": "First, I get out of bed and take a shower."
               },
               {
                 "id": "o2",
-                "text": "First, I get out of bed and take a shower."
+                "text": "Then I get dressed and brush my teeth."
               },
               {
                 "id": "o3",
@@ -27370,30 +27540,30 @@
               },
               {
                 "id": "o4",
-                "text": "Then I get dressed and brush my teeth."
+                "text": "I wake up at six thirty every morning."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which statement completes this moment from “My Busy Morning”? “I am sometimes tired in the…”",
+            "prompt": "How does the story end?",
             "options": [
               {
                 "id": "o1",
-                "text": "I wake up at six thirty every morning."
-              },
-              {
-                "id": "o2",
-                "text": "First, I get out of bed and take a shower."
-              },
-              {
-                "id": "o3",
                 "text": "Then I get dressed and brush my teeth."
               },
               {
-                "id": "o4",
+                "id": "o2",
                 "text": "I am sometimes tired in the morning, but I like seeing my friends and learning new things."
+              },
+              {
+                "id": "o3",
+                "text": "I wake up at six thirty every morning."
+              },
+              {
+                "id": "o4",
+                "text": "First, I get out of bed and take a shower."
               }
             ]
           }
@@ -27404,42 +27574,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which statement completes this moment from “My Busy Morning”? “I wake up…”",
+        "prompt": "Which detail opens the story?",
         "options": [
           "I wake up at six thirty every morning.",
-          "First, I get out of bed and take a shower.",
-          "Then I get dressed and brush my teeth.",
-          "At seven o’clock, I eat breakfast with my family."
+          "I am sometimes tired in the morning, but I like seeing my friends and learning new things.",
+          "My classes start at eight o’clock.",
+          "I leave home at seven thirty and take the bus to school."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement completes this moment from “My Busy Morning”? “At seven o’clock…”",
+        "prompt": "What happens next in the story?",
         "options": [
-          "I wake up at six thirty every morning.",
-          "At seven o’clock, I eat breakfast with my family.",
-          "First, I get out of bed and take a shower.",
+          "I am sometimes tired in the morning, but I like seeing my friends and learning new things.",
+          "My classes start at eight o’clock.",
+          "I leave home at seven thirty and take the bus to school.",
           "Then I get dressed and brush my teeth."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement completes this moment from “My Busy Morning”? “After breakfast I put…”",
+        "prompt": "Which event happens later in the story?",
         "options": [
-          "I wake up at six thirty every morning.",
           "First, I get out of bed and take a shower.",
+          "Then I get dressed and brush my teeth.",
           "After breakfast, I put my books in my school bag.",
-          "Then I get dressed and brush my teeth."
+          "I wake up at six thirty every morning."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement completes this moment from “My Busy Morning”? “I am sometimes tired in the…”",
+        "prompt": "How does the story end?",
         "options": [
-          "I wake up at six thirty every morning.",
-          "First, I get out of bed and take a shower.",
           "Then I get dressed and brush my teeth.",
-          "I am sometimes tired in the morning, but I like seeing my friends and learning new things."
+          "I am sometimes tired in the morning, but I like seeing my friends and learning new things.",
+          "I wake up at six thirty every morning.",
+          "First, I get out of bed and take a shower."
         ]
       }
     ]
@@ -32020,8 +32190,8 @@
     "xpReward": 25,
     "orderIndex": 60,
     "estimatedMinutes": 10,
-    "description": "A short text about a student's weekly schedule, in three parts.",
-    "intro": "A short text about a student's weekly schedule, in three parts.",
+    "description": "A student talks about their weekly schedule.",
+    "intro": "A student talks about their weekly schedule.",
     "mission": "",
     "grammar": "",
     "phrases": [],
@@ -32091,6 +32261,40 @@
           "Two o'clock",
           "Three o'clock",
           "Four o'clock"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: Math class is on Tuesday and Thursday.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: The writer's birthday is in July.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: There are no classes in July and August.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Choose the best word: Sunday is a ___ day; my family rests.",
+        "options": [
+          "quiet",
+          "noisy",
+          "busy",
+          "short"
         ]
       }
     ]
@@ -33529,13 +33733,13 @@
       },
       "dictationSegmentCount": 3,
       "listeningComprehension": {
-        "id": "english-a1-time-and-dates-listening-listening-comprehension",
+        "id": "english-a1-time-and-dates-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which statement completes this moment from “An Important Day”? “Today is Monday…”",
+            "prompt": "Which detail opens the story?",
             "options": [
               {
                 "id": "o1",
@@ -33543,34 +33747,34 @@
               },
               {
                 "id": "o2",
-                "text": "It is an important day for Sofia because she has an English test."
+                "text": "She is tired, but she is happy because she thinks she did well on her test."
               },
               {
                 "id": "o3",
-                "text": "Her test starts at ten o’clock in the morning."
+                "text": "Sofia goes home at four thirty."
               },
               {
                 "id": "o4",
-                "text": "She arrives at school at nine fifteen."
+                "text": "In the afternoon, there is a school activity at two o’clock."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement completes this moment from “An Important Day”? “She arrives at…”",
+            "prompt": "What happens next in the story?",
             "options": [
               {
                 "id": "o1",
-                "text": "Today is Monday, March twelfth."
+                "text": "She is tired, but she is happy because she thinks she did well on her test."
               },
               {
                 "id": "o2",
-                "text": "She arrives at school at nine fifteen."
+                "text": "Sofia goes home at four thirty."
               },
               {
                 "id": "o3",
-                "text": "It is an important day for Sofia because she has an English test."
+                "text": "In the afternoon, there is a school activity at two o’clock."
               },
               {
                 "id": "o4",
@@ -33581,15 +33785,15 @@
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement completes this moment from “An Important Day”? “At twelve thirty…”",
+            "prompt": "Which event happens later in the story?",
             "options": [
               {
                 "id": "o1",
-                "text": "Today is Monday, March twelfth."
+                "text": "It is an important day for Sofia because she has an English test."
               },
               {
                 "id": "o2",
-                "text": "It is an important day for Sofia because she has an English test."
+                "text": "Her test starts at ten o’clock in the morning."
               },
               {
                 "id": "o3",
@@ -33597,30 +33801,30 @@
               },
               {
                 "id": "o4",
-                "text": "Her test starts at ten o’clock in the morning."
+                "text": "Today is Monday, March twelfth."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which statement completes this moment from “An Important Day”? “She is tired but she is…”",
+            "prompt": "How does the story end?",
             "options": [
               {
                 "id": "o1",
-                "text": "Today is Monday, March twelfth."
-              },
-              {
-                "id": "o2",
-                "text": "It is an important day for Sofia because she has an English test."
-              },
-              {
-                "id": "o3",
                 "text": "Her test starts at ten o’clock in the morning."
               },
               {
-                "id": "o4",
+                "id": "o2",
                 "text": "She is tired, but she is happy because she thinks she did well on her test."
+              },
+              {
+                "id": "o3",
+                "text": "Today is Monday, March twelfth."
+              },
+              {
+                "id": "o4",
+                "text": "It is an important day for Sofia because she has an English test."
               }
             ]
           }
@@ -33631,42 +33835,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which statement completes this moment from “An Important Day”? “Today is Monday…”",
+        "prompt": "Which detail opens the story?",
         "options": [
           "Today is Monday, March twelfth.",
-          "It is an important day for Sofia because she has an English test.",
-          "Her test starts at ten o’clock in the morning.",
-          "She arrives at school at nine fifteen."
+          "She is tired, but she is happy because she thinks she did well on her test.",
+          "Sofia goes home at four thirty.",
+          "In the afternoon, there is a school activity at two o’clock."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement completes this moment from “An Important Day”? “She arrives at…”",
+        "prompt": "What happens next in the story?",
         "options": [
-          "Today is Monday, March twelfth.",
-          "She arrives at school at nine fifteen.",
-          "It is an important day for Sofia because she has an English test.",
+          "She is tired, but she is happy because she thinks she did well on her test.",
+          "Sofia goes home at four thirty.",
+          "In the afternoon, there is a school activity at two o’clock.",
           "Her test starts at ten o’clock in the morning."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement completes this moment from “An Important Day”? “At twelve thirty…”",
+        "prompt": "Which event happens later in the story?",
         "options": [
-          "Today is Monday, March twelfth.",
           "It is an important day for Sofia because she has an English test.",
+          "Her test starts at ten o’clock in the morning.",
           "At twelve thirty, she has lunch with her friends.",
-          "Her test starts at ten o’clock in the morning."
+          "Today is Monday, March twelfth."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement completes this moment from “An Important Day”? “She is tired but she is…”",
+        "prompt": "How does the story end?",
         "options": [
-          "Today is Monday, March twelfth.",
-          "It is an important day for Sofia because she has an English test.",
           "Her test starts at ten o’clock in the morning.",
-          "She is tired, but she is happy because she thinks she did well on her test."
+          "She is tired, but she is happy because she thinks she did well on her test.",
+          "Today is Monday, March twelfth.",
+          "It is an important day for Sofia because she has an English test."
         ]
       }
     ]
@@ -38247,8 +38451,8 @@
     "xpReward": 25,
     "orderIndex": 70,
     "estimatedMinutes": 10,
-    "description": "A short text about what a student eats for lunch, in three parts.",
-    "intro": "A short text about what a student eats for lunch, in three parts.",
+    "description": "A student chooses what to eat for lunch.",
+    "intro": "A student chooses what to eat for lunch.",
     "mission": "",
     "grammar": "",
     "phrases": [],
@@ -38318,6 +38522,40 @@
           "Every afternoon",
           "At night",
           "Never"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: The writer's favorite meal is lunch.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: The writer drinks coffee every day.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: The brother eats fish two or three times a week.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Choose the best word: We eat together and ___ about our morning.",
+        "options": [
+          "talk",
+          "sleep",
+          "run",
+          "paint"
         ]
       }
     ]
@@ -39731,13 +39969,13 @@
       },
       "dictationSegmentCount": 3,
       "listeningComprehension": {
-        "id": "english-a1-food-and-drinks-listening-listening-comprehension",
+        "id": "english-a1-food-and-drinks-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which statement completes this moment from “Lunch at a Café”? “Julia goes to…”",
+            "prompt": "Which detail opens the story?",
             "options": [
               {
                 "id": "o1",
@@ -39745,53 +39983,53 @@
               },
               {
                 "id": "o2",
-                "text": "She looks at the menu and chooses a chicken sandwich and a salad."
+                "text": "It is a simple but very nice lunch."
               },
               {
                 "id": "o3",
-                "text": "She also orders a glass of orange juice."
+                "text": "They pay the bill and leave the café."
               },
               {
                 "id": "o4",
-                "text": "Her friend Mark orders a hamburger, French fries, and some water."
+                "text": "After lunch, they share a small piece of chocolate cake."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement completes this moment from “Lunch at a Café”? “Her friend Mark orders…”",
+            "prompt": "What happens next in the story?",
             "options": [
               {
                 "id": "o1",
-                "text": "Julia goes to a small café for lunch."
+                "text": "It is a simple but very nice lunch."
               },
               {
                 "id": "o2",
-                "text": "Her friend Mark orders a hamburger, French fries, and some water."
+                "text": "They pay the bill and leave the café."
               },
               {
                 "id": "o3",
-                "text": "She looks at the menu and chooses a chicken sandwich and a salad."
+                "text": "After lunch, they share a small piece of chocolate cake."
               },
               {
                 "id": "o4",
-                "text": "She also orders a glass of orange juice."
+                "text": "Her friend Mark orders a hamburger, French fries, and some water."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement completes this moment from “Lunch at a Café”? “Mark enjoys his…”",
+            "prompt": "Which event happens later in the story?",
             "options": [
               {
                 "id": "o1",
-                "text": "Julia goes to a small café for lunch."
+                "text": "She looks at the menu and chooses a chicken sandwich and a salad."
               },
               {
                 "id": "o2",
-                "text": "She looks at the menu and chooses a chicken sandwich and a salad."
+                "text": "She also orders a glass of orange juice."
               },
               {
                 "id": "o3",
@@ -39799,30 +40037,30 @@
               },
               {
                 "id": "o4",
-                "text": "She also orders a glass of orange juice."
+                "text": "Julia goes to a small café for lunch."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which statement completes this moment from “Lunch at a Café”? “It is a…”",
+            "prompt": "How does the story end?",
             "options": [
               {
                 "id": "o1",
-                "text": "Julia goes to a small café for lunch."
-              },
-              {
-                "id": "o2",
-                "text": "She looks at the menu and chooses a chicken sandwich and a salad."
-              },
-              {
-                "id": "o3",
                 "text": "She also orders a glass of orange juice."
               },
               {
-                "id": "o4",
+                "id": "o2",
                 "text": "It is a simple but very nice lunch."
+              },
+              {
+                "id": "o3",
+                "text": "Julia goes to a small café for lunch."
+              },
+              {
+                "id": "o4",
+                "text": "She looks at the menu and chooses a chicken sandwich and a salad."
               }
             ]
           }
@@ -39833,42 +40071,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which statement completes this moment from “Lunch at a Café”? “Julia goes to…”",
+        "prompt": "Which detail opens the story?",
         "options": [
           "Julia goes to a small café for lunch.",
-          "She looks at the menu and chooses a chicken sandwich and a salad.",
-          "She also orders a glass of orange juice.",
+          "It is a simple but very nice lunch.",
+          "They pay the bill and leave the café.",
+          "After lunch, they share a small piece of chocolate cake."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What happens next in the story?",
+        "options": [
+          "It is a simple but very nice lunch.",
+          "They pay the bill and leave the café.",
+          "After lunch, they share a small piece of chocolate cake.",
           "Her friend Mark orders a hamburger, French fries, and some water."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement completes this moment from “Lunch at a Café”? “Her friend Mark orders…”",
+        "prompt": "Which event happens later in the story?",
         "options": [
-          "Julia goes to a small café for lunch.",
-          "Her friend Mark orders a hamburger, French fries, and some water.",
-          "She looks at the menu and chooses a chicken sandwich and a salad.",
-          "She also orders a glass of orange juice."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which statement completes this moment from “Lunch at a Café”? “Mark enjoys his…”",
-        "options": [
-          "Julia goes to a small café for lunch.",
-          "She looks at the menu and chooses a chicken sandwich and a salad.",
-          "Mark enjoys his hamburger too.",
-          "She also orders a glass of orange juice."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which statement completes this moment from “Lunch at a Café”? “It is a…”",
-        "options": [
-          "Julia goes to a small café for lunch.",
           "She looks at the menu and chooses a chicken sandwich and a salad.",
           "She also orders a glass of orange juice.",
-          "It is a simple but very nice lunch."
+          "Mark enjoys his hamburger too.",
+          "Julia goes to a small café for lunch."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "How does the story end?",
+        "options": [
+          "She also orders a glass of orange juice.",
+          "It is a simple but very nice lunch.",
+          "Julia goes to a small café for lunch.",
+          "She looks at the menu and chooses a chicken sandwich and a salad."
         ]
       }
     ]
@@ -44449,8 +44687,8 @@
     "xpReward": 25,
     "orderIndex": 80,
     "estimatedMinutes": 10,
-    "description": "A short text describing the rooms in a house, in three parts.",
-    "intro": "A short text describing the rooms in a house, in three parts.",
+    "description": "Discover the rooms in a home.",
+    "intro": "Discover the rooms in a home.",
     "mission": "",
     "grammar": "",
     "phrases": [],
@@ -44520,6 +44758,40 @@
           "Her sister",
           "Her father",
           "Nobody"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: The kitchen is always warm.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: The house has ten rooms.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: The family watches movies in the living room.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Choose the best word: Our house is small, but very ___.",
+        "options": [
+          "comfortable",
+          "cold",
+          "empty",
+          "dangerous"
         ]
       }
     ]
@@ -45933,13 +46205,13 @@
       },
       "dictationSegmentCount": 3,
       "listeningComprehension": {
-        "id": "english-a1-my-home-listening-listening-comprehension",
+        "id": "english-a1-my-home-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which statement completes this moment from “Where Is My Backpack?”? “Lucas is getting ready…”",
+            "prompt": "Which detail opens the story?",
             "options": [
               {
                 "id": "o1",
@@ -45947,53 +46219,53 @@
               },
               {
                 "id": "o2",
-                "text": "He looks in his bedroom, under the bed, and next to his desk."
+                "text": "He does not want to be late for school."
               },
               {
                 "id": "o3",
-                "text": "The backpack is not there."
+                "text": "He puts his books inside the backpack and leaves quickly."
               },
               {
                 "id": "o4",
-                "text": "He goes to the living room and looks behind the sofa."
+                "text": "Lucas remembers that he did his homework there last night."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement completes this moment from “Where Is My Backpack?”? “He goes to the…”",
+            "prompt": "What happens next in the story?",
             "options": [
               {
                 "id": "o1",
-                "text": "Lucas is getting ready for school, but he cannot find his backpack."
+                "text": "He does not want to be late for school."
               },
               {
                 "id": "o2",
-                "text": "He goes to the living room and looks behind the sofa."
+                "text": "He puts his books inside the backpack and leaves quickly."
               },
               {
                 "id": "o3",
-                "text": "He looks in his bedroom, under the bed, and next to his desk."
+                "text": "Lucas remembers that he did his homework there last night."
               },
               {
                 "id": "o4",
-                "text": "The backpack is not there."
+                "text": "He goes to the living room and looks behind the sofa."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement completes this moment from “Where Is My Backpack?”? “His backpack is under…”",
+            "prompt": "Which event happens later in the story?",
             "options": [
               {
                 "id": "o1",
-                "text": "Lucas is getting ready for school, but he cannot find his backpack."
+                "text": "He looks in his bedroom, under the bed, and next to his desk."
               },
               {
                 "id": "o2",
-                "text": "He looks in his bedroom, under the bed, and next to his desk."
+                "text": "The backpack is not there."
               },
               {
                 "id": "o3",
@@ -46001,30 +46273,30 @@
               },
               {
                 "id": "o4",
-                "text": "The backpack is not there."
+                "text": "Lucas is getting ready for school, but he cannot find his backpack."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which statement completes this moment from “Where Is My Backpack?”? “He does not…”",
+            "prompt": "How does the story end?",
             "options": [
               {
                 "id": "o1",
-                "text": "Lucas is getting ready for school, but he cannot find his backpack."
-              },
-              {
-                "id": "o2",
-                "text": "He looks in his bedroom, under the bed, and next to his desk."
-              },
-              {
-                "id": "o3",
                 "text": "The backpack is not there."
               },
               {
-                "id": "o4",
+                "id": "o2",
                 "text": "He does not want to be late for school."
+              },
+              {
+                "id": "o3",
+                "text": "Lucas is getting ready for school, but he cannot find his backpack."
+              },
+              {
+                "id": "o4",
+                "text": "He looks in his bedroom, under the bed, and next to his desk."
               }
             ]
           }
@@ -46035,42 +46307,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which statement completes this moment from “Where Is My Backpack?”? “Lucas is getting ready…”",
+        "prompt": "Which detail opens the story?",
         "options": [
           "Lucas is getting ready for school, but he cannot find his backpack.",
-          "He looks in his bedroom, under the bed, and next to his desk.",
-          "The backpack is not there.",
+          "He does not want to be late for school.",
+          "He puts his books inside the backpack and leaves quickly.",
+          "Lucas remembers that he did his homework there last night."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What happens next in the story?",
+        "options": [
+          "He does not want to be late for school.",
+          "He puts his books inside the backpack and leaves quickly.",
+          "Lucas remembers that he did his homework there last night.",
           "He goes to the living room and looks behind the sofa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement completes this moment from “Where Is My Backpack?”? “He goes to the…”",
+        "prompt": "Which event happens later in the story?",
         "options": [
-          "Lucas is getting ready for school, but he cannot find his backpack.",
-          "He goes to the living room and looks behind the sofa.",
-          "He looks in his bedroom, under the bed, and next to his desk.",
-          "The backpack is not there."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which statement completes this moment from “Where Is My Backpack?”? “His backpack is under…”",
-        "options": [
-          "Lucas is getting ready for school, but he cannot find his backpack.",
-          "He looks in his bedroom, under the bed, and next to his desk.",
-          "His backpack is under the kitchen table, next to a chair.",
-          "The backpack is not there."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which statement completes this moment from “Where Is My Backpack?”? “He does not…”",
-        "options": [
-          "Lucas is getting ready for school, but he cannot find his backpack.",
           "He looks in his bedroom, under the bed, and next to his desk.",
           "The backpack is not there.",
-          "He does not want to be late for school."
+          "His backpack is under the kitchen table, next to a chair.",
+          "Lucas is getting ready for school, but he cannot find his backpack."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "How does the story end?",
+        "options": [
+          "The backpack is not there.",
+          "He does not want to be late for school.",
+          "Lucas is getting ready for school, but he cannot find his backpack.",
+          "He looks in his bedroom, under the bed, and next to his desk."
         ]
       }
     ]
@@ -50651,8 +50923,8 @@
     "xpReward": 25,
     "orderIndex": 90,
     "estimatedMinutes": 10,
-    "description": "A short text about the places near a student's home, in three parts.",
-    "intro": "A short text about the places near a student's home, in three parts.",
+    "description": "A student describes the places near home.",
+    "intro": "A student describes the places near home.",
     "mission": "",
     "grammar": "",
     "phrases": [],
@@ -50726,6 +50998,40 @@
           "A bookstore",
           "A bank",
           "A hospital"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: The bakery smells good in the morning.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: The writer walks to school alone.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: The market is quiet and empty on Saturdays.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Choose the best word: The market is busy and ___, with many sellers.",
+        "options": [
+          "colorful",
+          "boring",
+          "silent",
+          "empty"
         ]
       }
     ]
@@ -52154,13 +52460,13 @@
       },
       "dictationSegmentCount": 3,
       "listeningComprehension": {
-        "id": "english-a1-my-town-listening-listening-comprehension",
+        "id": "english-a1-my-town-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which statement completes this moment from “A Walk Through My Town”? “My town is small…”",
+            "prompt": "Which detail opens the story?",
             "options": [
               {
                 "id": "o1",
@@ -52168,34 +52474,34 @@
               },
               {
                 "id": "o2",
-                "text": "There is a bank next to the post office."
+                "text": "I like my town because it is quiet, friendly, and easy to explore."
               },
               {
                 "id": "o3",
-                "text": "Across from the bank, there is a supermarket."
+                "text": "After reading, we sometimes buy ice cream near the park."
               },
               {
                 "id": "o4",
-                "text": "The pharmacy is between the bakery and the bus station."
+                "text": "The library is behind the town hall."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement completes this moment from “A Walk Through My Town”? “The pharmacy is between…”",
+            "prompt": "What happens next in the story?",
             "options": [
               {
                 "id": "o1",
-                "text": "My town is small, but it has many useful places."
+                "text": "I like my town because it is quiet, friendly, and easy to explore."
               },
               {
                 "id": "o2",
-                "text": "The pharmacy is between the bakery and the bus station."
+                "text": "After reading, we sometimes buy ice cream near the park."
               },
               {
                 "id": "o3",
-                "text": "There is a bank next to the post office."
+                "text": "The library is behind the town hall."
               },
               {
                 "id": "o4",
@@ -52206,15 +52512,15 @@
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement completes this moment from “A Walk Through My Town”? “On Saturdays I walk…”",
+            "prompt": "Which event happens later in the story?",
             "options": [
               {
                 "id": "o1",
-                "text": "My town is small, but it has many useful places."
+                "text": "There is a bank next to the post office."
               },
               {
                 "id": "o2",
-                "text": "There is a bank next to the post office."
+                "text": "Across from the bank, there is a supermarket."
               },
               {
                 "id": "o3",
@@ -52222,30 +52528,30 @@
               },
               {
                 "id": "o4",
-                "text": "Across from the bank, there is a supermarket."
+                "text": "My town is small, but it has many useful places."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which statement completes this moment from “A Walk Through My Town”? “I like my town because…”",
+            "prompt": "How does the story end?",
             "options": [
               {
                 "id": "o1",
-                "text": "My town is small, but it has many useful places."
-              },
-              {
-                "id": "o2",
-                "text": "There is a bank next to the post office."
-              },
-              {
-                "id": "o3",
                 "text": "Across from the bank, there is a supermarket."
               },
               {
-                "id": "o4",
+                "id": "o2",
                 "text": "I like my town because it is quiet, friendly, and easy to explore."
+              },
+              {
+                "id": "o3",
+                "text": "My town is small, but it has many useful places."
+              },
+              {
+                "id": "o4",
+                "text": "There is a bank next to the post office."
               }
             ]
           }
@@ -52256,42 +52562,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which statement completes this moment from “A Walk Through My Town”? “My town is small…”",
+        "prompt": "Which detail opens the story?",
         "options": [
           "My town is small, but it has many useful places.",
-          "There is a bank next to the post office.",
-          "Across from the bank, there is a supermarket.",
-          "The pharmacy is between the bakery and the bus station."
+          "I like my town because it is quiet, friendly, and easy to explore.",
+          "After reading, we sometimes buy ice cream near the park.",
+          "The library is behind the town hall."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement completes this moment from “A Walk Through My Town”? “The pharmacy is between…”",
+        "prompt": "What happens next in the story?",
         "options": [
-          "My town is small, but it has many useful places.",
-          "The pharmacy is between the bakery and the bus station.",
-          "There is a bank next to the post office.",
+          "I like my town because it is quiet, friendly, and easy to explore.",
+          "After reading, we sometimes buy ice cream near the park.",
+          "The library is behind the town hall.",
           "Across from the bank, there is a supermarket."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement completes this moment from “A Walk Through My Town”? “On Saturdays I walk…”",
+        "prompt": "Which event happens later in the story?",
         "options": [
-          "My town is small, but it has many useful places.",
           "There is a bank next to the post office.",
+          "Across from the bank, there is a supermarket.",
           "On Saturdays, I walk to the library with my sister.",
-          "Across from the bank, there is a supermarket."
+          "My town is small, but it has many useful places."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement completes this moment from “A Walk Through My Town”? “I like my town because…”",
+        "prompt": "How does the story end?",
         "options": [
-          "My town is small, but it has many useful places.",
-          "There is a bank next to the post office.",
           "Across from the bank, there is a supermarket.",
-          "I like my town because it is quiet, friendly, and easy to explore."
+          "I like my town because it is quiet, friendly, and easy to explore.",
+          "My town is small, but it has many useful places.",
+          "There is a bank next to the post office."
         ]
       }
     ]
@@ -56872,8 +57178,8 @@
     "xpReward": 25,
     "orderIndex": 100,
     "estimatedMinutes": 10,
-    "description": "A short text about how a student spends the weekend, in three parts.",
-    "intro": "A short text about how a student spends the weekend, in three parts.",
+    "description": "A student shares their weekend plans.",
+    "intro": "A student shares their weekend plans.",
     "mission": "",
     "grammar": "",
     "phrases": [],
@@ -56943,6 +57249,40 @@
           "Sunday morning",
           "Sunday evening",
           "Friday night"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: The writer plays soccer for two hours on weekends.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: The sister never plays guitar.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: The family eats popcorn on movie night.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Choose the best word: Sunday morning is only for ___ and having a big breakfast.",
+        "options": [
+          "relaxing",
+          "working",
+          "studying",
+          "shopping"
         ]
       }
     ]
@@ -58351,13 +58691,13 @@
       },
       "dictationSegmentCount": 3,
       "listeningComprehension": {
-        "id": "english-a1-free-time-listening-listening-comprehension",
+        "id": "english-a1-free-time-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which statement completes this moment from “My Favorite Weekend Activities”? “On weekends I…”",
+            "prompt": "Which detail opens the story?",
             "options": [
               {
                 "id": "o1",
@@ -58365,53 +58705,30 @@
               },
               {
                 "id": "o2",
-                "text": "On Saturday morning, I play basketball with my friends at the park."
+                "text": "I enjoy my weekends because I can relax, spend time with people I love, and do my favorite activities."
               },
               {
                 "id": "o3",
-                "text": "In the afternoon, I listen to music and read adventure stories."
+                "text": "In the evening, I prepare my school bag and check my homework."
               },
               {
                 "id": "o4",
-                "text": "Sometimes I watch a movie with my family."
+                "text": "My grandmother makes a delicious lunch, and my grandfather tells funny stories."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement completes this moment from “My Favorite Weekend Activities”? “In the afternoon I…”",
+            "prompt": "What happens next in the story?",
             "options": [
               {
                 "id": "o1",
-                "text": "On weekends, I have more free time."
+                "text": "I enjoy my weekends because I can relax, spend time with people I love, and do my favorite activities."
               },
               {
                 "id": "o2",
-                "text": "In the afternoon, I listen to music and read adventure stories."
-              },
-              {
-                "id": "o3",
-                "text": "On Saturday morning, I play basketball with my friends at the park."
-              },
-              {
-                "id": "o4",
-                "text": "Sometimes I watch a movie with my family."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Which statement completes this moment from “My Favorite Weekend Activities”? “My grandmother makes a…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "On weekends, I have more free time."
-              },
-              {
-                "id": "o2",
-                "text": "On Saturday morning, I play basketball with my friends at the park."
+                "text": "In the evening, I prepare my school bag and check my homework."
               },
               {
                 "id": "o3",
@@ -58424,25 +58741,48 @@
             ]
           },
           {
-            "id": "q4",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement completes this moment from “My Favorite Weekend Activities”? “I enjoy my weekends because I can…”",
+            "prompt": "Which event happens later in the story?",
             "options": [
               {
                 "id": "o1",
-                "text": "On weekends, I have more free time."
-              },
-              {
-                "id": "o2",
                 "text": "On Saturday morning, I play basketball with my friends at the park."
               },
               {
+                "id": "o2",
+                "text": "I enjoy my weekends because I can relax, spend time with people I love, and do my favorite activities."
+              },
+              {
                 "id": "o3",
-                "text": "In the afternoon, I listen to music and read adventure stories."
+                "text": "On Sunday, I usually visit my grandparents."
               },
               {
                 "id": "o4",
+                "text": "On weekends, I have more free time."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "How does the story end?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "In the afternoon, I listen to music and read adventure stories."
+              },
+              {
+                "id": "o2",
                 "text": "I enjoy my weekends because I can relax, spend time with people I love, and do my favorite activities."
+              },
+              {
+                "id": "o3",
+                "text": "On weekends, I have more free time."
+              },
+              {
+                "id": "o4",
+                "text": "On Saturday morning, I play basketball with my friends at the park."
               }
             ]
           }
@@ -58453,42 +58793,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which statement completes this moment from “My Favorite Weekend Activities”? “On weekends I…”",
+        "prompt": "Which detail opens the story?",
         "options": [
           "On weekends, I have more free time.",
-          "On Saturday morning, I play basketball with my friends at the park.",
-          "In the afternoon, I listen to music and read adventure stories.",
-          "Sometimes I watch a movie with my family."
+          "I enjoy my weekends because I can relax, spend time with people I love, and do my favorite activities.",
+          "In the evening, I prepare my school bag and check my homework.",
+          "My grandmother makes a delicious lunch, and my grandfather tells funny stories."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement completes this moment from “My Favorite Weekend Activities”? “In the afternoon I…”",
+        "prompt": "What happens next in the story?",
         "options": [
-          "On weekends, I have more free time.",
-          "In the afternoon, I listen to music and read adventure stories.",
-          "On Saturday morning, I play basketball with my friends at the park.",
-          "Sometimes I watch a movie with my family."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which statement completes this moment from “My Favorite Weekend Activities”? “My grandmother makes a…”",
-        "options": [
-          "On weekends, I have more free time.",
-          "On Saturday morning, I play basketball with my friends at the park.",
+          "I enjoy my weekends because I can relax, spend time with people I love, and do my favorite activities.",
+          "In the evening, I prepare my school bag and check my homework.",
           "My grandmother makes a delicious lunch, and my grandfather tells funny stories.",
           "In the afternoon, I listen to music and read adventure stories."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement completes this moment from “My Favorite Weekend Activities”? “I enjoy my weekends because I can…”",
+        "prompt": "Which event happens later in the story?",
         "options": [
-          "On weekends, I have more free time.",
           "On Saturday morning, I play basketball with my friends at the park.",
+          "I enjoy my weekends because I can relax, spend time with people I love, and do my favorite activities.",
+          "On Sunday, I usually visit my grandparents.",
+          "On weekends, I have more free time."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "How does the story end?",
+        "options": [
           "In the afternoon, I listen to music and read adventure stories.",
-          "I enjoy my weekends because I can relax, spend time with people I love, and do my favorite activities."
+          "I enjoy my weekends because I can relax, spend time with people I love, and do my favorite activities.",
+          "On weekends, I have more free time.",
+          "On Saturday morning, I play basketball with my friends at the park."
         ]
       }
     ]
@@ -62980,8 +63320,8 @@
     "xpReward": 25,
     "orderIndex": 110,
     "estimatedMinutes": 10,
-    "description": "A short text about shopping for new clothes, in three parts.",
-    "intro": "A short text about shopping for new clothes, in three parts.",
+    "description": "A student goes shopping for new clothes.",
+    "intro": "A student goes shopping for new clothes.",
     "mission": "",
     "grammar": "",
     "phrases": [],
@@ -63051,6 +63391,40 @@
           "The shop assistant",
           "The writer's friend",
           "Nobody"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: The store was big and colorful.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: The old shoes were too big.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: The writer is going to wear the new clothes tomorrow.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Choose the best word: I felt happy and ___ in my new clothes.",
+        "options": [
+          "confident",
+          "tired",
+          "worried",
+          "sick"
         ]
       }
     ]
@@ -64223,13 +64597,13 @@
       },
       "dictationSegmentCount": 3,
       "listeningComprehension": {
-        "id": "english-a1-clothes-and-shopping-listening-listening-comprehension",
+        "id": "english-a1-clothes-and-shopping-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which statement completes this moment from “A New Shirt”? “Maria needs a…”",
+            "prompt": "Which detail opens the story?",
             "options": [
               {
                 "id": "o1",
@@ -64237,53 +64611,53 @@
               },
               {
                 "id": "o2",
-                "text": "She goes to a clothing store with her mother."
+                "text": "She buys the white shirt and a pair of black pants for the party."
               },
               {
                 "id": "o3",
-                "text": "Maria sees a blue shirt that she really likes."
+                "text": "Maria tries it on and likes it very much."
               },
               {
                 "id": "o4",
-                "text": "The shirt is twenty-five dollars."
+                "text": "It costs only eighteen dollars."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement completes this moment from “A New Shirt”? “The shirt is…”",
+            "prompt": "What happens next in the story?",
             "options": [
               {
                 "id": "o1",
-                "text": "Maria needs a new shirt for a family party."
+                "text": "She buys the white shirt and a pair of black pants for the party."
               },
               {
                 "id": "o2",
-                "text": "The shirt is twenty-five dollars."
+                "text": "Maria tries it on and likes it very much."
               },
               {
                 "id": "o3",
-                "text": "She goes to a clothing store with her mother."
+                "text": "It costs only eighteen dollars."
               },
               {
                 "id": "o4",
-                "text": "Maria sees a blue shirt that she really likes."
+                "text": "The shirt is twenty-five dollars."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement completes this moment from “A New Shirt”? “Her mother finds…”",
+            "prompt": "Which event happens later in the story?",
             "options": [
               {
                 "id": "o1",
-                "text": "Maria needs a new shirt for a family party."
+                "text": "She goes to a clothing store with her mother."
               },
               {
                 "id": "o2",
-                "text": "She goes to a clothing store with her mother."
+                "text": "Maria sees a blue shirt that she really likes."
               },
               {
                 "id": "o3",
@@ -64291,30 +64665,30 @@
               },
               {
                 "id": "o4",
-                "text": "Maria sees a blue shirt that she really likes."
+                "text": "Maria needs a new shirt for a family party."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which statement completes this moment from “A New Shirt”? “She buys the white shirt…”",
+            "prompt": "How does the story end?",
             "options": [
               {
                 "id": "o1",
-                "text": "Maria needs a new shirt for a family party."
-              },
-              {
-                "id": "o2",
-                "text": "She goes to a clothing store with her mother."
-              },
-              {
-                "id": "o3",
                 "text": "Maria sees a blue shirt that she really likes."
               },
               {
-                "id": "o4",
+                "id": "o2",
                 "text": "She buys the white shirt and a pair of black pants for the party."
+              },
+              {
+                "id": "o3",
+                "text": "Maria needs a new shirt for a family party."
+              },
+              {
+                "id": "o4",
+                "text": "She goes to a clothing store with her mother."
               }
             ]
           }
@@ -64325,42 +64699,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which statement completes this moment from “A New Shirt”? “Maria needs a…”",
+        "prompt": "Which detail opens the story?",
         "options": [
           "Maria needs a new shirt for a family party.",
-          "She goes to a clothing store with her mother.",
-          "Maria sees a blue shirt that she really likes.",
+          "She buys the white shirt and a pair of black pants for the party.",
+          "Maria tries it on and likes it very much.",
+          "It costs only eighteen dollars."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What happens next in the story?",
+        "options": [
+          "She buys the white shirt and a pair of black pants for the party.",
+          "Maria tries it on and likes it very much.",
+          "It costs only eighteen dollars.",
           "The shirt is twenty-five dollars."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement completes this moment from “A New Shirt”? “The shirt is…”",
+        "prompt": "Which event happens later in the story?",
         "options": [
-          "Maria needs a new shirt for a family party.",
-          "The shirt is twenty-five dollars.",
-          "She goes to a clothing store with her mother.",
-          "Maria sees a blue shirt that she really likes."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which statement completes this moment from “A New Shirt”? “Her mother finds…”",
-        "options": [
-          "Maria needs a new shirt for a family party.",
-          "She goes to a clothing store with her mother.",
-          "Her mother finds a similar white shirt on sale.",
-          "Maria sees a blue shirt that she really likes."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which statement completes this moment from “A New Shirt”? “She buys the white shirt…”",
-        "options": [
-          "Maria needs a new shirt for a family party.",
           "She goes to a clothing store with her mother.",
           "Maria sees a blue shirt that she really likes.",
-          "She buys the white shirt and a pair of black pants for the party."
+          "Her mother finds a similar white shirt on sale.",
+          "Maria needs a new shirt for a family party."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "How does the story end?",
+        "options": [
+          "Maria sees a blue shirt that she really likes.",
+          "She buys the white shirt and a pair of black pants for the party.",
+          "Maria needs a new shirt for a family party.",
+          "She goes to a clothing store with her mother."
         ]
       }
     ]
@@ -68054,8 +68428,8 @@
     "xpReward": 25,
     "orderIndex": 120,
     "estimatedMinutes": 10,
-    "description": "A short text about a family trip and the weather, in three parts.",
-    "intro": "A short text about a family trip and the weather, in three parts.",
+    "description": "A family takes a trip and talks about the weather.",
+    "intro": "A family takes a trip and talks about the weather.",
     "mission": "",
     "grammar": "",
     "phrases": [],
@@ -68125,6 +68499,40 @@
           "A small cabin",
           "A tent",
           "Their car"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: The nights in the mountains are cold.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: This is not the writer's first time in the mountains.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "True or false: The family is going to bring a camera.",
+        "options": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Choose the best word: My brother says there are beautiful ___ and many trails.",
+        "options": [
+          "views",
+          "shoes",
+          "phones",
+          "prices"
         ]
       }
     ]
@@ -69287,13 +69695,13 @@
       },
       "dictationSegmentCount": 3,
       "listeningComprehension": {
-        "id": "english-a1-weather-and-travel-listening-listening-comprehension",
+        "id": "english-a1-weather-and-travel-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Which statement completes this moment from “A Day at the Beach”? “It is Saturday morning…”",
+            "prompt": "Which detail opens the story?",
             "options": [
               {
                 "id": "o1",
@@ -69301,53 +69709,30 @@
               },
               {
                 "id": "o2",
-                "text": "Sofia and her family decide to go to the beach."
+                "text": "The family packs their things and goes home before the rain begins."
               },
               {
                 "id": "o3",
-                "text": "They pack towels, water, food, and sunscreen."
+                "text": "At two o’clock, dark clouds appear."
               },
               {
                 "id": "o4",
-                "text": "The weather forecast says it may rain in the afternoon, so they also take an umbrella."
+                "text": "Sofia swims in the sea and plays with her brother."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Which statement completes this moment from “A Day at the Beach”? “They pack towels…”",
+            "prompt": "What happens next in the story?",
             "options": [
               {
                 "id": "o1",
-                "text": "It is Saturday morning, and the weather is sunny and warm."
+                "text": "The family packs their things and goes home before the rain begins."
               },
               {
                 "id": "o2",
-                "text": "They pack towels, water, food, and sunscreen."
-              },
-              {
-                "id": "o3",
-                "text": "Sofia and her family decide to go to the beach."
-              },
-              {
-                "id": "o4",
-                "text": "The weather forecast says it may rain in the afternoon, so they also take an umbrella."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Which statement completes this moment from “A Day at the Beach”? “Sofia swims in the…”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "It is Saturday morning, and the weather is sunny and warm."
-              },
-              {
-                "id": "o2",
-                "text": "Sofia and her family decide to go to the beach."
+                "text": "At two o’clock, dark clouds appear."
               },
               {
                 "id": "o3",
@@ -69360,25 +69745,48 @@
             ]
           },
           {
-            "id": "q4",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "Which statement completes this moment from “A Day at the Beach”? “The family packs their…”",
+            "prompt": "Which event happens later in the story?",
             "options": [
               {
                 "id": "o1",
-                "text": "It is Saturday morning, and the weather is sunny and warm."
-              },
-              {
-                "id": "o2",
                 "text": "Sofia and her family decide to go to the beach."
               },
               {
+                "id": "o2",
+                "text": "The family packs their things and goes home before the rain begins."
+              },
+              {
                 "id": "o3",
-                "text": "They pack towels, water, food, and sunscreen."
+                "text": "They leave home at nine o’clock and arrive at the beach one hour later."
               },
               {
                 "id": "o4",
+                "text": "It is Saturday morning, and the weather is sunny and warm."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "How does the story end?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "They pack towels, water, food, and sunscreen."
+              },
+              {
+                "id": "o2",
                 "text": "The family packs their things and goes home before the rain begins."
+              },
+              {
+                "id": "o3",
+                "text": "It is Saturday morning, and the weather is sunny and warm."
+              },
+              {
+                "id": "o4",
+                "text": "Sofia and her family decide to go to the beach."
               }
             ]
           }
@@ -69389,42 +69797,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Which statement completes this moment from “A Day at the Beach”? “It is Saturday morning…”",
+        "prompt": "Which detail opens the story?",
         "options": [
           "It is Saturday morning, and the weather is sunny and warm.",
-          "Sofia and her family decide to go to the beach.",
-          "They pack towels, water, food, and sunscreen.",
-          "The weather forecast says it may rain in the afternoon, so they also take an umbrella."
+          "The family packs their things and goes home before the rain begins.",
+          "At two o’clock, dark clouds appear.",
+          "Sofia swims in the sea and plays with her brother."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement completes this moment from “A Day at the Beach”? “They pack towels…”",
+        "prompt": "What happens next in the story?",
         "options": [
-          "It is Saturday morning, and the weather is sunny and warm.",
-          "They pack towels, water, food, and sunscreen.",
-          "Sofia and her family decide to go to the beach.",
-          "The weather forecast says it may rain in the afternoon, so they also take an umbrella."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which statement completes this moment from “A Day at the Beach”? “Sofia swims in the…”",
-        "options": [
-          "It is Saturday morning, and the weather is sunny and warm.",
-          "Sofia and her family decide to go to the beach.",
+          "The family packs their things and goes home before the rain begins.",
+          "At two o’clock, dark clouds appear.",
           "Sofia swims in the sea and plays with her brother.",
           "They pack towels, water, food, and sunscreen."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which statement completes this moment from “A Day at the Beach”? “The family packs their…”",
+        "prompt": "Which event happens later in the story?",
         "options": [
-          "It is Saturday morning, and the weather is sunny and warm.",
           "Sofia and her family decide to go to the beach.",
+          "The family packs their things and goes home before the rain begins.",
+          "They leave home at nine o’clock and arrive at the beach one hour later.",
+          "It is Saturday morning, and the weather is sunny and warm."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "How does the story end?",
+        "options": [
           "They pack towels, water, food, and sunscreen.",
-          "The family packs their things and goes home before the rain begins."
+          "The family packs their things and goes home before the rain begins.",
+          "It is Saturday morning, and the weather is sunny and warm.",
+          "Sofia and her family decide to go to the beach."
         ]
       }
     ]
@@ -72858,8 +73266,8 @@
     "id": "hello",
     "slug": "hello",
     "level": "A1",
-    "title": "Hello!",
-    "titleEs": "¡Hola!",
+    "title": "Introducing Yourself",
+    "titleEs": "Presentarte",
     "description": "Greetings, introductions and the alphabet.",
     "order": 1,
     "unitOverview": {

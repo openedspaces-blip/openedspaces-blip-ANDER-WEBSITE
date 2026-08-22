@@ -30780,6 +30780,9 @@ body {
 
   .navbar:has(.user-chip:not([hidden])) .menu {
     margin-right: 0;
+    /* The brand and account controls retain their columns, so shift only
+       the route strip into the otherwise empty middle corridor. */
+    transform: translateX(clamp(-5rem, -4vw, -3.25rem));
   }
 
   .navbar:has(.user-chip:not([hidden])) .nav-actions {
@@ -33750,4 +33753,178 @@ body.tutor-robot-listening #tutor .tutor-hero-bot {
   color: #53657e;
   font-size: 0.9rem;
   line-height: 1.55;
+}
+
+.reading-library-section {
+  background: linear-gradient(135deg, #f5f8ff 0%, #fff 52%, #eef7ff 100%);
+}
+
+.reading-library-shell {
+  width: min(1180px, calc(100% - 2rem));
+  margin: 0 auto;
+  padding: 2.2rem 0 4rem;
+}
+
+.reading-library-header {
+  max-width: 760px;
+  margin-bottom: 1.55rem;
+}
+
+.reading-library-kicker,
+.reading-library-unit-heading > div > span {
+  color: #2465dc;
+  font-size: 0.72rem;
+  font-weight: 900;
+  letter-spacing: 0.09em;
+}
+
+.reading-library-header h2 {
+  margin: 0.32rem 0 0.55rem;
+  color: #122044;
+  font-size: clamp(2rem, 4vw, 3.1rem);
+}
+
+.reading-library-header > p {
+  margin: 0;
+  color: #52627b;
+  font-size: 1rem;
+  line-height: 1.55;
+}
+
+.reading-library-selectors {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-top: 1.15rem;
+}
+
+.reading-library-selectors label {
+  display: grid;
+  gap: 0.35rem;
+  color: #314460;
+  font-size: 0.78rem;
+  font-weight: 850;
+}
+
+.reading-library-selectors select {
+  min-width: 180px;
+  border: 1px solid #cddfff;
+  border-radius: 11px;
+  background: #fff;
+  color: #142342;
+  font: inherit;
+  padding: 0.64rem 2.1rem 0.64rem 0.72rem;
+}
+
+.reading-library-access-note {
+  display: inline-block;
+  margin-top: 0.9rem !important;
+  padding: 0.45rem 0.7rem;
+  border-radius: 999px;
+  background: #eaf2ff;
+  color: #245bc3 !important;
+  font-size: 0.82rem !important;
+  font-weight: 750;
+}
+
+.reading-library-units {
+  display: grid;
+  gap: 1rem;
+}
+
+.reading-library-unit {
+  overflow: hidden;
+  border: 1px solid #d9e5fb;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.94);
+  box-shadow: 0 9px 26px rgba(29, 67, 132, 0.06);
+}
+
+.reading-library-unit-heading {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  gap: 0.82rem;
+  align-items: center;
+  padding: 1rem 1.15rem;
+  border-bottom: 1px solid #e7eefb;
+}
+
+.reading-library-unit-icon {
+  display: grid;
+  width: 2.65rem;
+  height: 2.65rem;
+  place-items: center;
+  border-radius: 12px;
+  background: #edf4ff;
+  font-size: 1.35rem;
+}
+
+.reading-library-unit-heading h3,
+.reading-library-unit-heading p {
+  margin: 0;
+}
+
+.reading-library-unit-heading h3 {
+  color: #142342;
+  font-size: 1.05rem;
+}
+
+.reading-library-unit-heading p {
+  margin-top: 0.18rem;
+  color: #63728a;
+  font-size: 0.86rem;
+}
+
+.reading-library-open,
+.reading-library-lock {
+  border-radius: 999px;
+  padding: 0.42rem 0.65rem;
+  font-size: 0.76rem;
+  white-space: nowrap;
+}
+
+.reading-library-open { background: #e8f8ef; color: #187348; }
+.reading-library-lock { background: #f2f4f8; color: #59677d; }
+
+.reading-library-cards {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.8rem;
+  padding: 0.95rem 1.15rem 1.15rem;
+}
+
+.reading-library-card {
+  display: grid;
+  min-height: 165px;
+  align-content: start;
+  gap: 0.42rem;
+  border: 1px solid #d4e2fb;
+  border-radius: 15px;
+  background: #fbfdff;
+  color: #15284a;
+  cursor: pointer;
+  padding: 0.9rem;
+  text-align: left;
+  transition: transform 150ms ease, border-color 150ms ease, box-shadow 150ms ease;
+}
+
+.reading-library-card:hover:not(.is-locked) {
+  transform: translateY(-2px);
+  border-color: #75a6ff;
+  box-shadow: 0 8px 18px rgba(38, 99, 215, 0.12);
+}
+
+.reading-library-card-index { color: #2670e6; font-weight: 900; }
+.reading-library-card strong { font-size: 1rem; }
+.reading-library-card small { color: #61708a; line-height: 1.42; }
+.reading-library-card em { margin-top: auto; color: #1f5ed0; font-size: 0.84rem; font-style: normal; font-weight: 850; }
+.reading-library-card.is-locked { background: #f7f8fa; border-color: #e3e7ee; color: #69778d; }
+.reading-library-card.is-locked em { color: #667389; }
+
+@media (max-width: 720px) {
+  .reading-library-shell { width: min(100% - 1.2rem, 1180px); padding-top: 1.35rem; }
+  .reading-library-unit-heading { grid-template-columns: auto minmax(0, 1fr); }
+  .reading-library-open, .reading-library-lock { grid-column: 2; justify-self: start; }
+  .reading-library-cards { grid-template-columns: 1fr; }
+  .reading-library-card { min-height: 126px; }
 }

@@ -46,7 +46,7 @@ const units = [
     activities: {
       reading: activity('reading', {
         title: 'Introducing Yourself',
-        description: 'A short text about a student\'s first day of English class, in three parts.',
+        description: 'A student shares their first day in English class.',
         reading: {
           title: 'Introducing Yourself',
           illustration: {
@@ -646,7 +646,7 @@ const units = [
     activities: {
       reading: activity('reading', {
         title: 'My Profile',
-        description: 'A short profile text about a student from the Dominican Republic, in three parts.',
+        description: 'Meet a student from the Dominican Republic.',
         reading: {
           title: 'My Profile',
           parts: [
@@ -969,7 +969,7 @@ const units = [
     activities: {
       reading: activity('reading', {
         title: 'My Family',
-        description: 'A short text about Ana\'s family members, in three parts.',
+        description: 'Ana introduces the people in her family.',
         reading: {
           title: 'My Family',
           parts: [
@@ -1294,7 +1294,7 @@ const units = [
     activities: {
       reading: activity('reading', {
         title: 'My Classroom',
-        description: 'A short text describing a classroom and school subjects, in three parts.',
+        description: 'Explore a classroom and its school subjects.',
         reading: {
           title: 'My Classroom',
           parts: [
@@ -1619,7 +1619,7 @@ const units = [
     activities: {
       reading: activity('reading', {
         title: 'A Normal Day',
-        description: 'A short text about Ana\'s daily routine, in three parts.',
+        description: 'Ana describes her everyday routine.',
         reading: {
           title: 'A Normal Day',
           parts: [
@@ -1942,7 +1942,7 @@ const units = [
     activities: {
       reading: activity('reading', {
         title: 'My Weekly Schedule',
-        description: 'A short text about a student\'s weekly schedule, in three parts.',
+        description: 'A student talks about their weekly schedule.',
         reading: {
           title: 'My Weekly Schedule',
           parts: [
@@ -2265,7 +2265,7 @@ const units = [
     activities: {
       reading: activity('reading', {
         title: 'Lunch at School',
-        description: 'A short text about what a student eats for lunch, in three parts.',
+        description: 'A student chooses what to eat for lunch.',
         reading: {
           title: 'Lunch at School',
           parts: [
@@ -2589,7 +2589,7 @@ const units = [
     activities: {
       reading: activity('reading', {
         title: 'My House',
-        description: 'A short text describing the rooms in a house, in three parts.',
+        description: 'Discover the rooms in a home.',
         reading: {
           title: 'My House',
           parts: [
@@ -2913,7 +2913,7 @@ const units = [
     activities: {
       reading: activity('reading', {
         title: 'My Neighborhood',
-        description: 'A short text about the places near a student\'s home, in three parts.',
+        description: 'A student describes the places near home.',
         reading: {
           title: 'My Neighborhood',
           illustration: {
@@ -3240,7 +3240,7 @@ const units = [
     activities: {
       reading: activity('reading', {
         title: 'My Weekend',
-        description: 'A short text about how a student spends the weekend, in three parts.',
+        description: 'A student shares their weekend plans.',
         reading: {
           title: 'My Weekend',
           parts: [
@@ -3562,7 +3562,7 @@ const units = [
     activities: {
       reading: activity('reading', {
         title: 'At the Clothing Store',
-        description: 'A short text about shopping for new clothes, in three parts.',
+        description: 'A student goes shopping for new clothes.',
         reading: {
           title: 'At the Clothing Store',
           parts: [
@@ -3886,7 +3886,7 @@ const units = [
     activities: {
       reading: activity('reading', {
         title: 'Our Trip to the Mountains',
-        description: 'A short text about a family trip and the weather, in three parts.',
+        description: 'A family takes a trip and talks about the weather.',
         reading: {
           title: 'Our Trip to the Mountains',
           parts: [

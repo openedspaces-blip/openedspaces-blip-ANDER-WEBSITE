@@ -65,7 +65,7 @@ const units = [
       reading: activity('reading', {
         title: 'A Busy Week in Manchester',
         description:
-          "Sarah's normal weekly routine changes when her sister comes to visit - a single full-length A2 reading about everyday life, habits, and one memorable weekend.",
+          "Sarah's usual routine changes when her sister comes to visit for a memorable weekend.",
         reading: {
           title: 'A Busy Week in Manchester',
           illustration: {

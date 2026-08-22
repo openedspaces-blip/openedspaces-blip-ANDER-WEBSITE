@@ -102,73 +102,17 @@ function copyDirectoryEnsuringDir(srcDir, destDir) {
 }
 
 function main() {
-  console.log('Preparing canonical English B1-B2 Listening transcripts...');
-  execSync(
-    `node "${path.join(ROOT, 'scripts', 'prepare-english-b1-b2-audio-transcripts.js')}"`,
-    { stdio: 'inherit' }
-  );
-
   // The expanded catalogue is checked in as a browser-ready static asset.
   // Its authoring sources are intentionally local-only, so deployment builds
   // validate the published catalogue instead of attempting a network rebuild.
   console.log('Checking expanded European verb catalogues...');
   assertExists('src/js/verbs/european-verb-catalogues.js');
 
-  console.log('Preparing canonical English C1-C2 Listening transcripts...');
-  execSync(
-    `node "${path.join(ROOT, 'scripts', 'prepare-english-c1-c2-audio-transcripts.js')}"`,
-    { stdio: 'inherit' }
-  );
-
-  console.log('Preparing canonical Spanish A1-A2 Listening transcripts...');
-  execSync(
-    `node "${path.join(ROOT, 'scripts', 'prepare-spanish-a1-a2-audio-transcripts.js')}"`,
-    { stdio: 'inherit' }
-  );
-
-  console.log('Preparing canonical Spanish B1-B2 Listening transcripts...');
-  execSync(
-    `node "${path.join(ROOT, 'scripts', 'prepare-spanish-b1-b2-audio-transcripts.js')}"`,
-    { stdio: 'inherit' }
-  );
-
-  console.log('Refreshing contextual Listening questions...');
-  execSync(`node "${path.join(ROOT, 'scripts', 'refresh-all-listening-comprehension.js')}"`, {
-    stdio: 'inherit'
-  });
-
-  console.log('Normalizing Reading comprehension questions...');
-  execSync(`node "${path.join(ROOT, 'scripts', 'normalize-reading-comprehension.js')}"`, {
-    stdio: 'inherit'
-  });
-
-  console.log('Aligning B1-C2 Grammar with each level and unit...');
-  execSync(`node "${path.join(ROOT, 'scripts', 'align-upper-level-grammar.js')}"`, {
-    stdio: 'inherit'
-  });
-
-  // Fills any French/Spanish Grammar lesson missing extra.grammarProfile
-  // (definition/structure/function/examples) - without it, the pre-exercise
-  // explanation card that renderGrammarQuickIntroHtml shows in the frontend
-  // falls back to parsing lesson.grammar's free-text notes, which only
-  // recognizes English/French section labels (Rule:/Goal:/Pattern:...) and
-  // silently renders empty for Spanish notes (Foco:/Uso:/Modelo:...).
-  // grammarProfile fields only fill gaps (`existing.field || fallback`);
-  // Spanish's extra.grammarTest is regenerated from content.exercises on
-  // every run, but that source doesn't change between builds, so the
-  // result is deterministic and stable, not a content downgrade.
-  console.log('Normalizing French and Spanish Grammar profiles...');
-  execSync(`node "${path.join(ROOT, 'scripts', 'normalize-french-grammar.js')}"`, {
-    stdio: 'inherit'
-  });
-  execSync(`node "${path.join(ROOT, 'scripts', 'normalize-spanish-grammar.js')}"`, {
-    stdio: 'inherit'
-  });
-
-  console.log('Validating comprehension question limits...');
-  execSync(`node "${path.join(ROOT, 'scripts', 'validate-comprehension-question-counts.js')}"`, {
-    stdio: 'inherit'
-  });
+  // A build must be reproducible and must never rewrite curriculum sources.
+  // Content preparation/normalization scripts are explicit authoring tasks;
+  // running them here previously made a deployment change lesson ordering and
+  // overwrite seed data. The versioned seeds are the sole input to this build.
+  console.log('Using versioned curriculum sources without rewriting them...');
 
   console.log('Syncing generated language worlds...');
   execSync(`node "${path.join(ROOT, 'scripts', 'sync-worlds-from-seed.js')}"`, {

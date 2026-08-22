@@ -353,6 +353,57 @@
     begin: ['The workshop begins with a short quiz.', "The movie doesn't begin until eight.", 'When does the next course begin?']
   };
 
+  // Imported upper-level verbs do not always arrive with their own contexts.
+  // These examples keep the catalogue useful without making every C2 card
+  // sound as if it belongs to the same meeting.
+  const ADVANCED_ENGLISH_EXAMPLES = {
+    maintain: ['The foundation must maintain public trust through transparent reporting.', 'She maintained a calm tone while the discussion became difficult.'],
+    establish: ['The research team established a clear link between sleep and memory.', 'Before launching the programme, the school established shared guidelines.'],
+    obtain: ['Applicants must obtain written consent before using interview data.', 'The archive helped the historian obtain evidence from the original records.'],
+    assess: ['The panel will assess the proposal against transparent criteria.', 'Doctors assess both the symptoms and the patient’s daily routine.'],
+    reveal: ['The audit revealed gaps that had gone unnoticed for years.', 'Her response revealed how carefully she had considered the issue.'],
+    overcome: ['The community overcame the disruption by coordinating local support.', 'He gradually overcame his fear of speaking before an audience.'],
+    demonstrate: ['The experiment demonstrates why small changes can produce large effects.', 'She demonstrated her argument with evidence from several sources.'],
+    persuade: ['The evidence persuaded the council to reconsider the original plan.', 'He tried to persuade the group without dismissing their concerns.'],
+    investigate: ['Journalists investigated how the decision affected nearby communities.', 'The team is investigating whether the pattern appears elsewhere.'],
+    justify: ['The benefits must justify the long-term cost of the project.', 'No emergency can justify ignoring basic human dignity.'],
+    acquire: ['Researchers acquire reliable data before drawing conclusions.', 'She acquired the confidence to challenge an unfair assumption.'],
+    advocate: ['Several doctors advocate earlier support for vulnerable families.', 'She advocated a solution that protected both sides.'],
+    analyse: ['Students analyse the source before accepting its conclusion.', 'The committee analysed the risks from more than one perspective.'],
+    clarify: ['Please clarify which parts of the policy will change.', 'The example clarifies a distinction that often confuses learners.'],
+    compile: ['The editor compiled testimonies from across the region.', 'We compiled the findings into a clear public report.'],
+    confront: ['The city must confront the causes, not merely the symptoms.', 'She confronted the mistake honestly and proposed a remedy.'],
+    convey: ['A well-chosen image can convey an idea without oversimplifying it.', 'His silence conveyed concern rather than indifference.'],
+    cultivate: ['Good teachers cultivate curiosity as well as accuracy.', 'The garden project cultivated patience among the children.'],
+    derive: ['The conclusion derives from evidence, not from speculation.', 'The community derived practical lessons from the difficult season.'],
+    enhance: ['Regular feedback can enhance both confidence and precision.', 'Trees enhance the square by providing shade and cleaner air.'],
+    evaluate: ['The charity evaluates its impact before expanding a programme.', 'We should evaluate the claim before sharing it widely.'],
+    facilitate: ['Clear instructions facilitate a smoother transition for everyone.', 'The mediator facilitated a conversation that neither side could begin alone.'],
+    foster: ['The course fosters independence instead of rewarding memorisation alone.', 'Small acts of attention foster trust within a team.'],
+    fulfil: ['The scholarship helped her fulfil a long-held ambition.', 'The service fulfils a real need in the neighbourhood.'],
+    implement: ['The city will implement the policy in phases to protect residents.', 'A good plan fails unless people can implement it responsibly.'],
+    imply: ['The report implies that the change will affect several departments.', 'Silence does not necessarily imply agreement.'],
+    integrate: ['The school integrated digital tools without abandoning discussion.', 'New residents were invited to integrate into the local community.'],
+    interpret: ['Readers may interpret the ending in more than one way.', 'The lawyer interpreted the rule in light of its original purpose.'],
+    negotiate: ['The two sides negotiated terms that protected both communities.', 'She learned to negotiate firmly without losing respect.'],
+    perceive: ['Children often perceive unfairness before adults acknowledge it.', 'The public perceived the decision as a sign of renewed trust.'],
+    pursue: ['He chose to pursue the question rather than accept an easy answer.', 'The organisation pursues lasting change through local partnerships.'],
+    regulate: ['Independent bodies regulate the industry to protect consumers.', 'She regulated her breathing before addressing the crowded room.'],
+    reinforce: ['Consistent practice reinforces what learners already understand.', 'The final example reinforces the article’s central argument.'],
+    resolve: ['The mediator helped both families resolve the dispute respectfully.', 'We cannot resolve a complex problem by ignoring its history.'],
+    sustain: ['Small habits can sustain progress when motivation fades.', 'The organisation needs stable funding to sustain its outreach.'],
+    transform: ['A thoughtful question can transform the direction of a lesson.', 'The renovation transformed an abandoned building into a community centre.'],
+    undertake: ['The university undertook a review of its admissions process.', 'We should not undertake major changes without listening first.'],
+    withdraw: ['The company withdrew the claim after new evidence emerged.', 'He chose to withdraw from the debate rather than misrepresent the facts.']
+  };
+
+  const ADVANCED_ENGLISH_CONTEXTS = [
+    ['The team will {verb} the proposal before the final review.', 'New evidence may {verb} the direction of the project.'],
+    ['The committee chose to {verb} its approach after hearing local concerns.', 'A careful process can {verb} confidence in the final result.'],
+    ['Researchers continue to {verb} the issue from several perspectives.', 'The next report will {verb} the wider implications of this decision.'],
+    ['The organisation must {verb} its response with care and transparency.', 'A responsible leader knows when to {verb} a difficult situation.']
+  ];
+
   function displayExamples(raw) {
     return raw.language === 'english' && VARIED_ENGLISH_EXAMPLES[raw.infinitive]
       ? {
@@ -385,8 +436,17 @@
     // sometimes contain no example, so supply two safe, useful contexts that
     // preserve the infinitive exactly (after a modal / verbal phrase).
     const infinitive = String(raw.infinitive || '').trim();
+    if (raw.language === 'english') {
+      const tailored = ADVANCED_ENGLISH_EXAMPLES[infinitive];
+      if (tailored) return [...authored, ...tailored.filter((text) => !authored.includes(text))].slice(0, 2);
+
+      // A stable index avoids duplicated cards for imported B2/C1/C2 items
+      // while keeping the rendered content consistent between visits.
+      const index = [...infinitive].reduce((total, character) => total + character.charCodeAt(0), 0) % ADVANCED_ENGLISH_CONTEXTS.length;
+      const varied = ADVANCED_ENGLISH_CONTEXTS[index].map((text) => text.replace('{verb}', infinitive));
+      return [...authored, ...varied.filter((text) => !authored.includes(text))].slice(0, 2);
+    }
     const practicalFallbacks = {
-      english: [`We need to ${infinitive} this point before the meeting.`, `Can you ${infinitive} the next step by Friday?`],
       spanish: [`Vamos a ${infinitive} este punto antes de la reunión.`, `¿Puedes ${infinitive} el siguiente paso antes del viernes?`],
       french: [`Nous allons ${infinitive} ce point avant la réunion.`, `Peux-tu ${infinitive} la prochaine étape avant vendredi ?`],
       italian: [`Dobbiamo ${infinitive} questo punto prima della riunione.`, `Puoi ${infinitive} il prossimo passo entro venerdì?`],

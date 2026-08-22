@@ -4146,7 +4146,372 @@
         "function": "organizzare un progetto e negoziare le responsabilità",
         "examples": []
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "id": "italian-b2-progetti-e-responsabilita-grammar-final-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "italian-b2-progetti-e-responsabilita-grammar-grammar-1",
+            "type": "mcq",
+            "prompt": "È necessario che il gruppo ___ le conseguenze prima di decidere.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "valuti"
+              },
+              {
+                "id": "b",
+                "text": "valuta"
+              },
+              {
+                "id": "c",
+                "text": "valutare"
+              },
+              {
+                "id": "d",
+                "text": "valutano"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-progetti-e-responsabilita-grammar-grammar-2",
+            "type": "mcq",
+            "prompt": "Sebbene il termine ___ vicino, possiamo riorganizzare le risorse.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "è"
+              },
+              {
+                "id": "b",
+                "text": "sia"
+              },
+              {
+                "id": "c",
+                "text": "essere"
+              },
+              {
+                "id": "d",
+                "text": "sono"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-progetti-e-responsabilita-grammar-grammar-3",
+            "type": "mcq",
+            "prompt": "La proposta è valida, purché ___ sostenibile.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "rimane"
+              },
+              {
+                "id": "b",
+                "text": "rimanere"
+              },
+              {
+                "id": "c",
+                "text": "rimanga"
+              },
+              {
+                "id": "d",
+                "text": "rimangono"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-progetti-e-responsabilita-grammar-grammar-4",
+            "type": "mcq",
+            "prompt": "Nonostante le difficoltà, il progetto ___ nei tempi previsti.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "proseguire"
+              },
+              {
+                "id": "b",
+                "text": "proseguono"
+              },
+              {
+                "id": "c",
+                "text": "proseguito"
+              },
+              {
+                "id": "d",
+                "text": "prosegue"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-progetti-e-responsabilita-grammar-grammar-5",
+            "type": "mcq",
+            "prompt": "È preferibile che ogni incarico ___ con chiarezza.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "venga definito"
+              },
+              {
+                "id": "b",
+                "text": "viene definito"
+              },
+              {
+                "id": "c",
+                "text": "venire definito"
+              },
+              {
+                "id": "d",
+                "text": "vengono definiti"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-progetti-e-responsabilita-grammar-grammar-6",
+            "type": "mcq",
+            "prompt": "Il coordinatore spiega la scelta affinché tutti la ___.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "comprendono"
+              },
+              {
+                "id": "b",
+                "text": "comprendano"
+              },
+              {
+                "id": "c",
+                "text": "comprendere"
+              },
+              {
+                "id": "d",
+                "text": "comprende"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-progetti-e-responsabilita-grammar-grammar-7",
+            "type": "mcq",
+            "prompt": "La squadra ha agito con cautela, ___ mancavano alcuni dati.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "quindi"
+              },
+              {
+                "id": "b",
+                "text": "infatti"
+              },
+              {
+                "id": "c",
+                "text": "benché"
+              },
+              {
+                "id": "d",
+                "text": "perciò"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-progetti-e-responsabilita-grammar-grammar-8",
+            "type": "mcq",
+            "prompt": "Prima di procedere, occorre ___ le alternative.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "valuta"
+              },
+              {
+                "id": "b",
+                "text": "valutando"
+              },
+              {
+                "id": "c",
+                "text": "valutato"
+              },
+              {
+                "id": "d",
+                "text": "valutare"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-progetti-e-responsabilita-grammar-grammar-9",
+            "type": "mcq",
+            "prompt": "Quale frase usa un registro formale appropriato?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Le chiediamo di confermare la disponibilità entro venerdì."
+              },
+              {
+                "id": "b",
+                "text": "Ti chiediamo confermare disponibilità entro venerdì."
+              },
+              {
+                "id": "c",
+                "text": "Chiediamo a te di confermi entro venerdì."
+              },
+              {
+                "id": "d",
+                "text": "Le chiediamo che conferma la disponibilità entro venerdì."
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-progetti-e-responsabilita-grammar-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "incarico"
+              },
+              {
+                "id": "b",
+                "text": "scadenza"
+              },
+              {
+                "id": "c",
+                "text": "risorsa"
+              },
+              {
+                "id": "d",
+                "text": "coordinare"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-progetti-e-responsabilita-grammar-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "scadenza"
+              },
+              {
+                "id": "b",
+                "text": "risorsa"
+              },
+              {
+                "id": "c",
+                "text": "incarico"
+              },
+              {
+                "id": "d",
+                "text": "coordinare"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-progetti-e-responsabilita-grammar-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "scadenza"
+              },
+              {
+                "id": "b",
+                "text": "incarico"
+              },
+              {
+                "id": "c",
+                "text": "coordinare"
+              },
+              {
+                "id": "d",
+                "text": "risorsa"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-progetti-e-responsabilita-grammar-verb-13",
+            "type": "mcq",
+            "prompt": "È importante che il gruppo ___ ogni conseguenza.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "valuti"
+              },
+              {
+                "id": "b",
+                "text": "valuta"
+              },
+              {
+                "id": "c",
+                "text": "valutare"
+              },
+              {
+                "id": "d",
+                "text": "valutano"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-progetti-e-responsabilita-grammar-verb-14",
+            "type": "mcq",
+            "prompt": "Noi ___ le risorse prima dell’incontro.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "coordinerà"
+              },
+              {
+                "id": "b",
+                "text": "coordineremo"
+              },
+              {
+                "id": "c",
+                "text": "coordinare"
+              },
+              {
+                "id": "d",
+                "text": "coordinato"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-progetti-e-responsabilita-grammar-verb-15",
+            "type": "mcq",
+            "prompt": "Il responsabile ___ un incarico preciso a ciascuno.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "assegnano"
+              },
+              {
+                "id": "b",
+                "text": "assegnare"
+              },
+              {
+                "id": "c",
+                "text": "assegnerà"
+              },
+              {
+                "id": "d",
+                "text": "assegnato"
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
@@ -4259,7 +4624,372 @@
         "function": "costruire un argomento equilibrato",
         "examples": []
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "id": "italian-c1-argomentazione-pubblica-grammar-final-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "italian-c1-argomentazione-pubblica-grammar-grammar-1",
+            "type": "mcq",
+            "prompt": "Pur ___ l’obiezione, l’autore sostiene la tesi con evidenze verificabili.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "riconoscendo"
+              },
+              {
+                "id": "b",
+                "text": "riconosce"
+              },
+              {
+                "id": "c",
+                "text": "riconoscere"
+              },
+              {
+                "id": "d",
+                "text": "riconosciuto"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-argomentazione-pubblica-grammar-grammar-2",
+            "type": "mcq",
+            "prompt": "Non si può concludere nulla finché i dati non ___.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "sono verificati"
+              },
+              {
+                "id": "b",
+                "text": "siano stati verificati"
+              },
+              {
+                "id": "c",
+                "text": "essere verificati"
+              },
+              {
+                "id": "d",
+                "text": "saranno verificano"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-argomentazione-pubblica-grammar-grammar-3",
+            "type": "mcq",
+            "prompt": "L’autrice formula la tesi in modo che non ___ ambiguità.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "lascia"
+              },
+              {
+                "id": "b",
+                "text": "lasciare"
+              },
+              {
+                "id": "c",
+                "text": "lasci"
+              },
+              {
+                "id": "d",
+                "text": "lasciano"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-argomentazione-pubblica-grammar-grammar-4",
+            "type": "mcq",
+            "prompt": "La relazione distingue tra un fatto dimostrato e un’ipotesi che ___ ulteriori prove.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "richiedere"
+              },
+              {
+                "id": "b",
+                "text": "richiedano"
+              },
+              {
+                "id": "c",
+                "text": "richiesta"
+              },
+              {
+                "id": "d",
+                "text": "richiede"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-argomentazione-pubblica-grammar-grammar-5",
+            "type": "mcq",
+            "prompt": "Benché il ragionamento ___ convincente, manca una fonte indipendente.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "appaia"
+              },
+              {
+                "id": "b",
+                "text": "appare"
+              },
+              {
+                "id": "c",
+                "text": "apparire"
+              },
+              {
+                "id": "d",
+                "text": "appaiono"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-argomentazione-pubblica-grammar-grammar-6",
+            "type": "mcq",
+            "prompt": "Il portavoce ha riformulato la posizione senza ___ il dissenso.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "minimizza"
+              },
+              {
+                "id": "b",
+                "text": "minimizzare"
+              },
+              {
+                "id": "c",
+                "text": "minimizzato"
+              },
+              {
+                "id": "d",
+                "text": "minimizzando"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-argomentazione-pubblica-grammar-grammar-7",
+            "type": "mcq",
+            "prompt": "Quale connettore introduce una concessione?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Pertanto"
+              },
+              {
+                "id": "b",
+                "text": "Infatti"
+              },
+              {
+                "id": "c",
+                "text": "Tuttavia"
+              },
+              {
+                "id": "d",
+                "text": "Di conseguenza"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-argomentazione-pubblica-grammar-grammar-8",
+            "type": "mcq",
+            "prompt": "La conclusione è credibile solo se ___ dalle evidenze.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "sostiene"
+              },
+              {
+                "id": "b",
+                "text": "sostenere"
+              },
+              {
+                "id": "c",
+                "text": "sono sostenuti"
+              },
+              {
+                "id": "d",
+                "text": "è sostenuta"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-argomentazione-pubblica-grammar-grammar-9",
+            "type": "mcq",
+            "prompt": "Quale frase mantiene un registro argomentativo preciso?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "La tesi richiede una distinzione tra correlazione e causalità."
+              },
+              {
+                "id": "b",
+                "text": "La tesi è super perché sembra vera."
+              },
+              {
+                "id": "c",
+                "text": "La tesi dice cose molto importanti, punto."
+              },
+              {
+                "id": "d",
+                "text": "La tesi ha una cosa che forse va bene."
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-argomentazione-pubblica-grammar-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "obiezione"
+              },
+              {
+                "id": "b",
+                "text": "tesi"
+              },
+              {
+                "id": "c",
+                "text": "evidenza"
+              },
+              {
+                "id": "d",
+                "text": "confutare"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-argomentazione-pubblica-grammar-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "tesi"
+              },
+              {
+                "id": "b",
+                "text": "evidenza"
+              },
+              {
+                "id": "c",
+                "text": "obiezione"
+              },
+              {
+                "id": "d",
+                "text": "confutare"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-argomentazione-pubblica-grammar-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "tesi"
+              },
+              {
+                "id": "b",
+                "text": "obiezione"
+              },
+              {
+                "id": "c",
+                "text": "confutare"
+              },
+              {
+                "id": "d",
+                "text": "evidenza"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-argomentazione-pubblica-grammar-verb-13",
+            "type": "mcq",
+            "prompt": "Benché l’autore ___ un’obiezione, la sua tesi resta coerente.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "riconosca"
+              },
+              {
+                "id": "b",
+                "text": "riconosce"
+              },
+              {
+                "id": "c",
+                "text": "riconoscere"
+              },
+              {
+                "id": "d",
+                "text": "riconoscono"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-argomentazione-pubblica-grammar-verb-14",
+            "type": "mcq",
+            "prompt": "Le evidenze ___ la conclusione con precisione.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "sostiene"
+              },
+              {
+                "id": "b",
+                "text": "sostengono"
+              },
+              {
+                "id": "c",
+                "text": "sostenere"
+              },
+              {
+                "id": "d",
+                "text": "sostenuto"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-argomentazione-pubblica-grammar-verb-15",
+            "type": "mcq",
+            "prompt": "Il relatore ___ la propria posizione alla luce dei dati.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "riformulare"
+              },
+              {
+                "id": "b",
+                "text": "riformulano"
+              },
+              {
+                "id": "c",
+                "text": "riformula"
+              },
+              {
+                "id": "d",
+                "text": "riformulato"
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
@@ -4372,7 +5102,372 @@
         "function": "analizzare strategie persuasive",
         "examples": []
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "id": "italian-c2-linguaggio-e-persuasione-grammar-final-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "italian-c2-linguaggio-e-persuasione-grammar-grammar-1",
+            "type": "mcq",
+            "prompt": "La formulazione attenuata non elimina la premessa, ma ne ___ l’inferenza implicita.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "precisa"
+              },
+              {
+                "id": "b",
+                "text": "precisare"
+              },
+              {
+                "id": "c",
+                "text": "precisano"
+              },
+              {
+                "id": "d",
+                "text": "precisato"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-linguaggio-e-persuasione-grammar-grammar-2",
+            "type": "mcq",
+            "prompt": "Sarebbe improprio affermare che un solo indizio ___ una conclusione definitiva.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "giustifica"
+              },
+              {
+                "id": "b",
+                "text": "giustifichi"
+              },
+              {
+                "id": "c",
+                "text": "giustificare"
+              },
+              {
+                "id": "d",
+                "text": "giustificano"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-linguaggio-e-persuasione-grammar-grammar-3",
+            "type": "mcq",
+            "prompt": "L’autore ricorre a una concessione affinché la tesi non ___ categorica.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "risulta"
+              },
+              {
+                "id": "b",
+                "text": "risultare"
+              },
+              {
+                "id": "c",
+                "text": "risulti"
+              },
+              {
+                "id": "d",
+                "text": "risultano"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-linguaggio-e-persuasione-grammar-grammar-4",
+            "type": "mcq",
+            "prompt": "Il testo lascia intendere, senza dirlo esplicitamente, che la premessa ___ discussa.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "può essere stata"
+              },
+              {
+                "id": "b",
+                "text": "potere essere"
+              },
+              {
+                "id": "c",
+                "text": "possono essere"
+              },
+              {
+                "id": "d",
+                "text": "può essere"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-linguaggio-e-persuasione-grammar-grammar-5",
+            "type": "mcq",
+            "prompt": "Quale riformulazione conserva il grado di certezza?",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "I dati sembrano suggerire una tendenza, non una prova definitiva."
+              },
+              {
+                "id": "b",
+                "text": "I dati dimostrano tutto senza dubbio."
+              },
+              {
+                "id": "c",
+                "text": "I dati sono certamente una prova totale."
+              },
+              {
+                "id": "d",
+                "text": "I dati dicono una cosa sicura sempre."
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-linguaggio-e-persuasione-grammar-grammar-6",
+            "type": "mcq",
+            "prompt": "La scelta lessicale è persuasiva, pur non ___ il dissenso.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "cancella"
+              },
+              {
+                "id": "b",
+                "text": "cancellando"
+              },
+              {
+                "id": "c",
+                "text": "cancellare"
+              },
+              {
+                "id": "d",
+                "text": "cancellata"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-linguaggio-e-persuasione-grammar-grammar-7",
+            "type": "mcq",
+            "prompt": "Una premessa è rilevante nella misura in cui ___ la conclusione.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "sostenere"
+              },
+              {
+                "id": "b",
+                "text": "sostengono"
+              },
+              {
+                "id": "c",
+                "text": "sostiene"
+              },
+              {
+                "id": "d",
+                "text": "sostenuta"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-linguaggio-e-persuasione-grammar-grammar-8",
+            "type": "mcq",
+            "prompt": "Quale espressione attenua correttamente un’affermazione?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "È sicuro al cento per cento che…"
+              },
+              {
+                "id": "b",
+                "text": "È ovvio per tutti che…"
+              },
+              {
+                "id": "c",
+                "text": "Non esiste alcun dubbio che…"
+              },
+              {
+                "id": "d",
+                "text": "È plausibile ipotizzare che…"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-linguaggio-e-persuasione-grammar-grammar-9",
+            "type": "mcq",
+            "prompt": "L’inferenza è valida solo se non ___ oltre quanto le prove consentono.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "si spinge"
+              },
+              {
+                "id": "b",
+                "text": "si spingere"
+              },
+              {
+                "id": "c",
+                "text": "si spingono"
+              },
+              {
+                "id": "d",
+                "text": "si spinta"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-linguaggio-e-persuasione-grammar-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "premessa"
+              },
+              {
+                "id": "b",
+                "text": "retorica"
+              },
+              {
+                "id": "c",
+                "text": "inferenza"
+              },
+              {
+                "id": "d",
+                "text": "attenuare"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-linguaggio-e-persuasione-grammar-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "retorica"
+              },
+              {
+                "id": "b",
+                "text": "inferenza"
+              },
+              {
+                "id": "c",
+                "text": "premessa"
+              },
+              {
+                "id": "d",
+                "text": "attenuare"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-linguaggio-e-persuasione-grammar-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "retorica"
+              },
+              {
+                "id": "b",
+                "text": "premessa"
+              },
+              {
+                "id": "c",
+                "text": "attenuare"
+              },
+              {
+                "id": "d",
+                "text": "inferenza"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-linguaggio-e-persuasione-grammar-verb-13",
+            "type": "mcq",
+            "prompt": "Non si può ___ una conclusione da un unico indizio.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "dedurre"
+              },
+              {
+                "id": "b",
+                "text": "deduce"
+              },
+              {
+                "id": "c",
+                "text": "deducono"
+              },
+              {
+                "id": "d",
+                "text": "dedotto"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-linguaggio-e-persuasione-grammar-verb-14",
+            "type": "mcq",
+            "prompt": "La formulazione ___ il tono senza alterare il significato.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "attenuare"
+              },
+              {
+                "id": "b",
+                "text": "attenua"
+              },
+              {
+                "id": "c",
+                "text": "attenuano"
+              },
+              {
+                "id": "d",
+                "text": "attenuato"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-linguaggio-e-persuasione-grammar-verb-15",
+            "type": "mcq",
+            "prompt": "L’autore ___ una premessa prima di sviluppare l’argomento.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "esplicitare"
+              },
+              {
+                "id": "b",
+                "text": "esplicitano"
+              },
+              {
+                "id": "c",
+                "text": "esplicita"
+              },
+              {
+                "id": "d",
+                "text": "esplicitato"
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
@@ -10040,7 +11135,372 @@
         "function": "confrontare soluzioni di mobilità urbana",
         "examples": []
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "id": "italian-b2-citta-e-mobilita-grammar-final-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "italian-b2-citta-e-mobilita-grammar-grammar-1",
+            "type": "mcq",
+            "prompt": "È necessario che il gruppo ___ le conseguenze prima di decidere.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "valuti"
+              },
+              {
+                "id": "b",
+                "text": "valuta"
+              },
+              {
+                "id": "c",
+                "text": "valutare"
+              },
+              {
+                "id": "d",
+                "text": "valutano"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-citta-e-mobilita-grammar-grammar-2",
+            "type": "mcq",
+            "prompt": "Sebbene il termine ___ vicino, possiamo riorganizzare le risorse.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "è"
+              },
+              {
+                "id": "b",
+                "text": "sia"
+              },
+              {
+                "id": "c",
+                "text": "essere"
+              },
+              {
+                "id": "d",
+                "text": "sono"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-citta-e-mobilita-grammar-grammar-3",
+            "type": "mcq",
+            "prompt": "La proposta è valida, purché ___ sostenibile.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "rimane"
+              },
+              {
+                "id": "b",
+                "text": "rimanere"
+              },
+              {
+                "id": "c",
+                "text": "rimanga"
+              },
+              {
+                "id": "d",
+                "text": "rimangono"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-citta-e-mobilita-grammar-grammar-4",
+            "type": "mcq",
+            "prompt": "Nonostante le difficoltà, il progetto ___ nei tempi previsti.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "proseguire"
+              },
+              {
+                "id": "b",
+                "text": "proseguono"
+              },
+              {
+                "id": "c",
+                "text": "proseguito"
+              },
+              {
+                "id": "d",
+                "text": "prosegue"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-citta-e-mobilita-grammar-grammar-5",
+            "type": "mcq",
+            "prompt": "È preferibile che ogni incarico ___ con chiarezza.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "venga definito"
+              },
+              {
+                "id": "b",
+                "text": "viene definito"
+              },
+              {
+                "id": "c",
+                "text": "venire definito"
+              },
+              {
+                "id": "d",
+                "text": "vengono definiti"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-citta-e-mobilita-grammar-grammar-6",
+            "type": "mcq",
+            "prompt": "Il coordinatore spiega la scelta affinché tutti la ___.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "comprendono"
+              },
+              {
+                "id": "b",
+                "text": "comprendano"
+              },
+              {
+                "id": "c",
+                "text": "comprendere"
+              },
+              {
+                "id": "d",
+                "text": "comprende"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-citta-e-mobilita-grammar-grammar-7",
+            "type": "mcq",
+            "prompt": "La squadra ha agito con cautela, ___ mancavano alcuni dati.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "quindi"
+              },
+              {
+                "id": "b",
+                "text": "infatti"
+              },
+              {
+                "id": "c",
+                "text": "benché"
+              },
+              {
+                "id": "d",
+                "text": "perciò"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-citta-e-mobilita-grammar-grammar-8",
+            "type": "mcq",
+            "prompt": "Prima di procedere, occorre ___ le alternative.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "valuta"
+              },
+              {
+                "id": "b",
+                "text": "valutando"
+              },
+              {
+                "id": "c",
+                "text": "valutato"
+              },
+              {
+                "id": "d",
+                "text": "valutare"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-citta-e-mobilita-grammar-grammar-9",
+            "type": "mcq",
+            "prompt": "Quale frase usa un registro formale appropriato?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Le chiediamo di confermare la disponibilità entro venerdì."
+              },
+              {
+                "id": "b",
+                "text": "Ti chiediamo confermare disponibilità entro venerdì."
+              },
+              {
+                "id": "c",
+                "text": "Chiediamo a te di confermi entro venerdì."
+              },
+              {
+                "id": "d",
+                "text": "Le chiediamo che conferma la disponibilità entro venerdì."
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-citta-e-mobilita-grammar-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "traffico"
+              },
+              {
+                "id": "b",
+                "text": "percorso"
+              },
+              {
+                "id": "c",
+                "text": "abbonamento"
+              },
+              {
+                "id": "d",
+                "text": "accessibile"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-citta-e-mobilita-grammar-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "percorso"
+              },
+              {
+                "id": "b",
+                "text": "abbonamento"
+              },
+              {
+                "id": "c",
+                "text": "traffico"
+              },
+              {
+                "id": "d",
+                "text": "accessibile"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-citta-e-mobilita-grammar-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "percorso"
+              },
+              {
+                "id": "b",
+                "text": "traffico"
+              },
+              {
+                "id": "c",
+                "text": "accessibile"
+              },
+              {
+                "id": "d",
+                "text": "abbonamento"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-citta-e-mobilita-grammar-verb-13",
+            "type": "mcq",
+            "prompt": "È importante che il gruppo ___ ogni conseguenza.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "valuti"
+              },
+              {
+                "id": "b",
+                "text": "valuta"
+              },
+              {
+                "id": "c",
+                "text": "valutare"
+              },
+              {
+                "id": "d",
+                "text": "valutano"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-citta-e-mobilita-grammar-verb-14",
+            "type": "mcq",
+            "prompt": "Noi ___ le risorse prima dell’incontro.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "coordinerà"
+              },
+              {
+                "id": "b",
+                "text": "coordineremo"
+              },
+              {
+                "id": "c",
+                "text": "coordinare"
+              },
+              {
+                "id": "d",
+                "text": "coordinato"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-citta-e-mobilita-grammar-verb-15",
+            "type": "mcq",
+            "prompt": "Il responsabile ___ un incarico preciso a ciascuno.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "assegnano"
+              },
+              {
+                "id": "b",
+                "text": "assegnare"
+              },
+              {
+                "id": "c",
+                "text": "assegnerà"
+              },
+              {
+                "id": "d",
+                "text": "assegnato"
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
@@ -10153,7 +11613,372 @@
         "function": "analizzare gli effetti dell’innovazione",
         "examples": []
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "id": "italian-c1-innovazione-e-societa-grammar-final-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "italian-c1-innovazione-e-societa-grammar-grammar-1",
+            "type": "mcq",
+            "prompt": "Pur ___ l’obiezione, l’autore sostiene la tesi con evidenze verificabili.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "riconoscendo"
+              },
+              {
+                "id": "b",
+                "text": "riconosce"
+              },
+              {
+                "id": "c",
+                "text": "riconoscere"
+              },
+              {
+                "id": "d",
+                "text": "riconosciuto"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-innovazione-e-societa-grammar-grammar-2",
+            "type": "mcq",
+            "prompt": "Non si può concludere nulla finché i dati non ___.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "sono verificati"
+              },
+              {
+                "id": "b",
+                "text": "siano stati verificati"
+              },
+              {
+                "id": "c",
+                "text": "essere verificati"
+              },
+              {
+                "id": "d",
+                "text": "saranno verificano"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-innovazione-e-societa-grammar-grammar-3",
+            "type": "mcq",
+            "prompt": "L’autrice formula la tesi in modo che non ___ ambiguità.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "lascia"
+              },
+              {
+                "id": "b",
+                "text": "lasciare"
+              },
+              {
+                "id": "c",
+                "text": "lasci"
+              },
+              {
+                "id": "d",
+                "text": "lasciano"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-innovazione-e-societa-grammar-grammar-4",
+            "type": "mcq",
+            "prompt": "La relazione distingue tra un fatto dimostrato e un’ipotesi che ___ ulteriori prove.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "richiedere"
+              },
+              {
+                "id": "b",
+                "text": "richiedano"
+              },
+              {
+                "id": "c",
+                "text": "richiesta"
+              },
+              {
+                "id": "d",
+                "text": "richiede"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-innovazione-e-societa-grammar-grammar-5",
+            "type": "mcq",
+            "prompt": "Benché il ragionamento ___ convincente, manca una fonte indipendente.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "appaia"
+              },
+              {
+                "id": "b",
+                "text": "appare"
+              },
+              {
+                "id": "c",
+                "text": "apparire"
+              },
+              {
+                "id": "d",
+                "text": "appaiono"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-innovazione-e-societa-grammar-grammar-6",
+            "type": "mcq",
+            "prompt": "Il portavoce ha riformulato la posizione senza ___ il dissenso.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "minimizza"
+              },
+              {
+                "id": "b",
+                "text": "minimizzare"
+              },
+              {
+                "id": "c",
+                "text": "minimizzato"
+              },
+              {
+                "id": "d",
+                "text": "minimizzando"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-innovazione-e-societa-grammar-grammar-7",
+            "type": "mcq",
+            "prompt": "Quale connettore introduce una concessione?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Pertanto"
+              },
+              {
+                "id": "b",
+                "text": "Infatti"
+              },
+              {
+                "id": "c",
+                "text": "Tuttavia"
+              },
+              {
+                "id": "d",
+                "text": "Di conseguenza"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-innovazione-e-societa-grammar-grammar-8",
+            "type": "mcq",
+            "prompt": "La conclusione è credibile solo se ___ dalle evidenze.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "sostiene"
+              },
+              {
+                "id": "b",
+                "text": "sostenere"
+              },
+              {
+                "id": "c",
+                "text": "sono sostenuti"
+              },
+              {
+                "id": "d",
+                "text": "è sostenuta"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-innovazione-e-societa-grammar-grammar-9",
+            "type": "mcq",
+            "prompt": "Quale frase mantiene un registro argomentativo preciso?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "La tesi richiede una distinzione tra correlazione e causalità."
+              },
+              {
+                "id": "b",
+                "text": "La tesi è super perché sembra vera."
+              },
+              {
+                "id": "c",
+                "text": "La tesi dice cose molto importanti, punto."
+              },
+              {
+                "id": "d",
+                "text": "La tesi ha una cosa che forse va bene."
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-innovazione-e-societa-grammar-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "accesso"
+              },
+              {
+                "id": "b",
+                "text": "innovazione"
+              },
+              {
+                "id": "c",
+                "text": "divario"
+              },
+              {
+                "id": "d",
+                "text": "regolare"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-innovazione-e-societa-grammar-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "innovazione"
+              },
+              {
+                "id": "b",
+                "text": "divario"
+              },
+              {
+                "id": "c",
+                "text": "accesso"
+              },
+              {
+                "id": "d",
+                "text": "regolare"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-innovazione-e-societa-grammar-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "innovazione"
+              },
+              {
+                "id": "b",
+                "text": "accesso"
+              },
+              {
+                "id": "c",
+                "text": "regolare"
+              },
+              {
+                "id": "d",
+                "text": "divario"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-innovazione-e-societa-grammar-verb-13",
+            "type": "mcq",
+            "prompt": "Benché l’autore ___ un’obiezione, la sua tesi resta coerente.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "riconosca"
+              },
+              {
+                "id": "b",
+                "text": "riconosce"
+              },
+              {
+                "id": "c",
+                "text": "riconoscere"
+              },
+              {
+                "id": "d",
+                "text": "riconoscono"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-innovazione-e-societa-grammar-verb-14",
+            "type": "mcq",
+            "prompt": "Le evidenze ___ la conclusione con precisione.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "sostiene"
+              },
+              {
+                "id": "b",
+                "text": "sostengono"
+              },
+              {
+                "id": "c",
+                "text": "sostenere"
+              },
+              {
+                "id": "d",
+                "text": "sostenuto"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-innovazione-e-societa-grammar-verb-15",
+            "type": "mcq",
+            "prompt": "Il relatore ___ la propria posizione alla luce dei dati.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "riformulare"
+              },
+              {
+                "id": "b",
+                "text": "riformulano"
+              },
+              {
+                "id": "c",
+                "text": "riformula"
+              },
+              {
+                "id": "d",
+                "text": "riformulato"
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
@@ -10266,7 +12091,372 @@
         "function": "valutare una politica pubblica con criteri espliciti",
         "examples": []
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "id": "italian-c2-politiche-pubbliche-grammar-final-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "italian-c2-politiche-pubbliche-grammar-grammar-1",
+            "type": "mcq",
+            "prompt": "La formulazione attenuata non elimina la premessa, ma ne ___ l’inferenza implicita.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "precisa"
+              },
+              {
+                "id": "b",
+                "text": "precisare"
+              },
+              {
+                "id": "c",
+                "text": "precisano"
+              },
+              {
+                "id": "d",
+                "text": "precisato"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-politiche-pubbliche-grammar-grammar-2",
+            "type": "mcq",
+            "prompt": "Sarebbe improprio affermare che un solo indizio ___ una conclusione definitiva.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "giustifica"
+              },
+              {
+                "id": "b",
+                "text": "giustifichi"
+              },
+              {
+                "id": "c",
+                "text": "giustificare"
+              },
+              {
+                "id": "d",
+                "text": "giustificano"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-politiche-pubbliche-grammar-grammar-3",
+            "type": "mcq",
+            "prompt": "L’autore ricorre a una concessione affinché la tesi non ___ categorica.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "risulta"
+              },
+              {
+                "id": "b",
+                "text": "risultare"
+              },
+              {
+                "id": "c",
+                "text": "risulti"
+              },
+              {
+                "id": "d",
+                "text": "risultano"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-politiche-pubbliche-grammar-grammar-4",
+            "type": "mcq",
+            "prompt": "Il testo lascia intendere, senza dirlo esplicitamente, che la premessa ___ discussa.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "può essere stata"
+              },
+              {
+                "id": "b",
+                "text": "potere essere"
+              },
+              {
+                "id": "c",
+                "text": "possono essere"
+              },
+              {
+                "id": "d",
+                "text": "può essere"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-politiche-pubbliche-grammar-grammar-5",
+            "type": "mcq",
+            "prompt": "Quale riformulazione conserva il grado di certezza?",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "I dati sembrano suggerire una tendenza, non una prova definitiva."
+              },
+              {
+                "id": "b",
+                "text": "I dati dimostrano tutto senza dubbio."
+              },
+              {
+                "id": "c",
+                "text": "I dati sono certamente una prova totale."
+              },
+              {
+                "id": "d",
+                "text": "I dati dicono una cosa sicura sempre."
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-politiche-pubbliche-grammar-grammar-6",
+            "type": "mcq",
+            "prompt": "La scelta lessicale è persuasiva, pur non ___ il dissenso.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "cancella"
+              },
+              {
+                "id": "b",
+                "text": "cancellando"
+              },
+              {
+                "id": "c",
+                "text": "cancellare"
+              },
+              {
+                "id": "d",
+                "text": "cancellata"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-politiche-pubbliche-grammar-grammar-7",
+            "type": "mcq",
+            "prompt": "Una premessa è rilevante nella misura in cui ___ la conclusione.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "sostenere"
+              },
+              {
+                "id": "b",
+                "text": "sostengono"
+              },
+              {
+                "id": "c",
+                "text": "sostiene"
+              },
+              {
+                "id": "d",
+                "text": "sostenuta"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-politiche-pubbliche-grammar-grammar-8",
+            "type": "mcq",
+            "prompt": "Quale espressione attenua correttamente un’affermazione?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "È sicuro al cento per cento che…"
+              },
+              {
+                "id": "b",
+                "text": "È ovvio per tutti che…"
+              },
+              {
+                "id": "c",
+                "text": "Non esiste alcun dubbio che…"
+              },
+              {
+                "id": "d",
+                "text": "È plausibile ipotizzare che…"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-politiche-pubbliche-grammar-grammar-9",
+            "type": "mcq",
+            "prompt": "L’inferenza è valida solo se non ___ oltre quanto le prove consentono.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "si spinge"
+              },
+              {
+                "id": "b",
+                "text": "si spingere"
+              },
+              {
+                "id": "c",
+                "text": "si spingono"
+              },
+              {
+                "id": "d",
+                "text": "si spinta"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-politiche-pubbliche-grammar-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "impatto"
+              },
+              {
+                "id": "b",
+                "text": "politica"
+              },
+              {
+                "id": "c",
+                "text": "criterio"
+              },
+              {
+                "id": "d",
+                "text": "attuare"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-politiche-pubbliche-grammar-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "politica"
+              },
+              {
+                "id": "b",
+                "text": "criterio"
+              },
+              {
+                "id": "c",
+                "text": "impatto"
+              },
+              {
+                "id": "d",
+                "text": "attuare"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-politiche-pubbliche-grammar-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "politica"
+              },
+              {
+                "id": "b",
+                "text": "impatto"
+              },
+              {
+                "id": "c",
+                "text": "attuare"
+              },
+              {
+                "id": "d",
+                "text": "criterio"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-politiche-pubbliche-grammar-verb-13",
+            "type": "mcq",
+            "prompt": "Non si può ___ una conclusione da un unico indizio.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "dedurre"
+              },
+              {
+                "id": "b",
+                "text": "deduce"
+              },
+              {
+                "id": "c",
+                "text": "deducono"
+              },
+              {
+                "id": "d",
+                "text": "dedotto"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-politiche-pubbliche-grammar-verb-14",
+            "type": "mcq",
+            "prompt": "La formulazione ___ il tono senza alterare il significato.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "attenuare"
+              },
+              {
+                "id": "b",
+                "text": "attenua"
+              },
+              {
+                "id": "c",
+                "text": "attenuano"
+              },
+              {
+                "id": "d",
+                "text": "attenuato"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-politiche-pubbliche-grammar-verb-15",
+            "type": "mcq",
+            "prompt": "L’autore ___ una premessa prima di sviluppare l’argomento.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "esplicitare"
+              },
+              {
+                "id": "b",
+                "text": "esplicitano"
+              },
+              {
+                "id": "c",
+                "text": "esplicita"
+              },
+              {
+                "id": "d",
+                "text": "esplicitato"
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
@@ -15938,7 +18128,372 @@
         "function": "descrivere competenze e prospettive professionali",
         "examples": []
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "id": "italian-b2-lavoro-e-competenze-grammar-final-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "italian-b2-lavoro-e-competenze-grammar-grammar-1",
+            "type": "mcq",
+            "prompt": "È necessario che il gruppo ___ le conseguenze prima di decidere.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "valuti"
+              },
+              {
+                "id": "b",
+                "text": "valuta"
+              },
+              {
+                "id": "c",
+                "text": "valutare"
+              },
+              {
+                "id": "d",
+                "text": "valutano"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-lavoro-e-competenze-grammar-grammar-2",
+            "type": "mcq",
+            "prompt": "Sebbene il termine ___ vicino, possiamo riorganizzare le risorse.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "è"
+              },
+              {
+                "id": "b",
+                "text": "sia"
+              },
+              {
+                "id": "c",
+                "text": "essere"
+              },
+              {
+                "id": "d",
+                "text": "sono"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-lavoro-e-competenze-grammar-grammar-3",
+            "type": "mcq",
+            "prompt": "La proposta è valida, purché ___ sostenibile.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "rimane"
+              },
+              {
+                "id": "b",
+                "text": "rimanere"
+              },
+              {
+                "id": "c",
+                "text": "rimanga"
+              },
+              {
+                "id": "d",
+                "text": "rimangono"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-lavoro-e-competenze-grammar-grammar-4",
+            "type": "mcq",
+            "prompt": "Nonostante le difficoltà, il progetto ___ nei tempi previsti.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "proseguire"
+              },
+              {
+                "id": "b",
+                "text": "proseguono"
+              },
+              {
+                "id": "c",
+                "text": "proseguito"
+              },
+              {
+                "id": "d",
+                "text": "prosegue"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-lavoro-e-competenze-grammar-grammar-5",
+            "type": "mcq",
+            "prompt": "È preferibile che ogni incarico ___ con chiarezza.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "venga definito"
+              },
+              {
+                "id": "b",
+                "text": "viene definito"
+              },
+              {
+                "id": "c",
+                "text": "venire definito"
+              },
+              {
+                "id": "d",
+                "text": "vengono definiti"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-lavoro-e-competenze-grammar-grammar-6",
+            "type": "mcq",
+            "prompt": "Il coordinatore spiega la scelta affinché tutti la ___.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "comprendono"
+              },
+              {
+                "id": "b",
+                "text": "comprendano"
+              },
+              {
+                "id": "c",
+                "text": "comprendere"
+              },
+              {
+                "id": "d",
+                "text": "comprende"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-lavoro-e-competenze-grammar-grammar-7",
+            "type": "mcq",
+            "prompt": "La squadra ha agito con cautela, ___ mancavano alcuni dati.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "quindi"
+              },
+              {
+                "id": "b",
+                "text": "infatti"
+              },
+              {
+                "id": "c",
+                "text": "benché"
+              },
+              {
+                "id": "d",
+                "text": "perciò"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-lavoro-e-competenze-grammar-grammar-8",
+            "type": "mcq",
+            "prompt": "Prima di procedere, occorre ___ le alternative.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "valuta"
+              },
+              {
+                "id": "b",
+                "text": "valutando"
+              },
+              {
+                "id": "c",
+                "text": "valutato"
+              },
+              {
+                "id": "d",
+                "text": "valutare"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-lavoro-e-competenze-grammar-grammar-9",
+            "type": "mcq",
+            "prompt": "Quale frase usa un registro formale appropriato?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Le chiediamo di confermare la disponibilità entro venerdì."
+              },
+              {
+                "id": "b",
+                "text": "Ti chiediamo confermare disponibilità entro venerdì."
+              },
+              {
+                "id": "c",
+                "text": "Chiediamo a te di confermi entro venerdì."
+              },
+              {
+                "id": "d",
+                "text": "Le chiediamo che conferma la disponibilità entro venerdì."
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-lavoro-e-competenze-grammar-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "esperienza"
+              },
+              {
+                "id": "b",
+                "text": "colloquio"
+              },
+              {
+                "id": "c",
+                "text": "candidatura"
+              },
+              {
+                "id": "d",
+                "text": "affidabile"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-lavoro-e-competenze-grammar-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "colloquio"
+              },
+              {
+                "id": "b",
+                "text": "candidatura"
+              },
+              {
+                "id": "c",
+                "text": "esperienza"
+              },
+              {
+                "id": "d",
+                "text": "affidabile"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-lavoro-e-competenze-grammar-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "colloquio"
+              },
+              {
+                "id": "b",
+                "text": "esperienza"
+              },
+              {
+                "id": "c",
+                "text": "affidabile"
+              },
+              {
+                "id": "d",
+                "text": "candidatura"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-lavoro-e-competenze-grammar-verb-13",
+            "type": "mcq",
+            "prompt": "È importante che il gruppo ___ ogni conseguenza.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "valuti"
+              },
+              {
+                "id": "b",
+                "text": "valuta"
+              },
+              {
+                "id": "c",
+                "text": "valutare"
+              },
+              {
+                "id": "d",
+                "text": "valutano"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-lavoro-e-competenze-grammar-verb-14",
+            "type": "mcq",
+            "prompt": "Noi ___ le risorse prima dell’incontro.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "coordinerà"
+              },
+              {
+                "id": "b",
+                "text": "coordineremo"
+              },
+              {
+                "id": "c",
+                "text": "coordinare"
+              },
+              {
+                "id": "d",
+                "text": "coordinato"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-lavoro-e-competenze-grammar-verb-15",
+            "type": "mcq",
+            "prompt": "Il responsabile ___ un incarico preciso a ciascuno.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "assegnano"
+              },
+              {
+                "id": "b",
+                "text": "assegnare"
+              },
+              {
+                "id": "c",
+                "text": "assegnerà"
+              },
+              {
+                "id": "d",
+                "text": "assegnato"
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
@@ -16051,7 +18606,372 @@
         "function": "valutare un dilemma da diverse prospettive",
         "examples": []
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "id": "italian-c1-etica-e-decisioni-grammar-final-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "italian-c1-etica-e-decisioni-grammar-grammar-1",
+            "type": "mcq",
+            "prompt": "Pur ___ l’obiezione, l’autore sostiene la tesi con evidenze verificabili.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "riconoscendo"
+              },
+              {
+                "id": "b",
+                "text": "riconosce"
+              },
+              {
+                "id": "c",
+                "text": "riconoscere"
+              },
+              {
+                "id": "d",
+                "text": "riconosciuto"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-etica-e-decisioni-grammar-grammar-2",
+            "type": "mcq",
+            "prompt": "Non si può concludere nulla finché i dati non ___.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "sono verificati"
+              },
+              {
+                "id": "b",
+                "text": "siano stati verificati"
+              },
+              {
+                "id": "c",
+                "text": "essere verificati"
+              },
+              {
+                "id": "d",
+                "text": "saranno verificano"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-etica-e-decisioni-grammar-grammar-3",
+            "type": "mcq",
+            "prompt": "L’autrice formula la tesi in modo che non ___ ambiguità.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "lascia"
+              },
+              {
+                "id": "b",
+                "text": "lasciare"
+              },
+              {
+                "id": "c",
+                "text": "lasci"
+              },
+              {
+                "id": "d",
+                "text": "lasciano"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-etica-e-decisioni-grammar-grammar-4",
+            "type": "mcq",
+            "prompt": "La relazione distingue tra un fatto dimostrato e un’ipotesi che ___ ulteriori prove.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "richiedere"
+              },
+              {
+                "id": "b",
+                "text": "richiedano"
+              },
+              {
+                "id": "c",
+                "text": "richiesta"
+              },
+              {
+                "id": "d",
+                "text": "richiede"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-etica-e-decisioni-grammar-grammar-5",
+            "type": "mcq",
+            "prompt": "Benché il ragionamento ___ convincente, manca una fonte indipendente.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "appaia"
+              },
+              {
+                "id": "b",
+                "text": "appare"
+              },
+              {
+                "id": "c",
+                "text": "apparire"
+              },
+              {
+                "id": "d",
+                "text": "appaiono"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-etica-e-decisioni-grammar-grammar-6",
+            "type": "mcq",
+            "prompt": "Il portavoce ha riformulato la posizione senza ___ il dissenso.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "minimizza"
+              },
+              {
+                "id": "b",
+                "text": "minimizzare"
+              },
+              {
+                "id": "c",
+                "text": "minimizzato"
+              },
+              {
+                "id": "d",
+                "text": "minimizzando"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-etica-e-decisioni-grammar-grammar-7",
+            "type": "mcq",
+            "prompt": "Quale connettore introduce una concessione?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Pertanto"
+              },
+              {
+                "id": "b",
+                "text": "Infatti"
+              },
+              {
+                "id": "c",
+                "text": "Tuttavia"
+              },
+              {
+                "id": "d",
+                "text": "Di conseguenza"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-etica-e-decisioni-grammar-grammar-8",
+            "type": "mcq",
+            "prompt": "La conclusione è credibile solo se ___ dalle evidenze.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "sostiene"
+              },
+              {
+                "id": "b",
+                "text": "sostenere"
+              },
+              {
+                "id": "c",
+                "text": "sono sostenuti"
+              },
+              {
+                "id": "d",
+                "text": "è sostenuta"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-etica-e-decisioni-grammar-grammar-9",
+            "type": "mcq",
+            "prompt": "Quale frase mantiene un registro argomentativo preciso?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "La tesi richiede una distinzione tra correlazione e causalità."
+              },
+              {
+                "id": "b",
+                "text": "La tesi è super perché sembra vera."
+              },
+              {
+                "id": "c",
+                "text": "La tesi dice cose molto importanti, punto."
+              },
+              {
+                "id": "d",
+                "text": "La tesi ha una cosa che forse va bene."
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-etica-e-decisioni-grammar-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "principio"
+              },
+              {
+                "id": "b",
+                "text": "dilemma"
+              },
+              {
+                "id": "c",
+                "text": "responsabilità"
+              },
+              {
+                "id": "d",
+                "text": "giustificare"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-etica-e-decisioni-grammar-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "dilemma"
+              },
+              {
+                "id": "b",
+                "text": "responsabilità"
+              },
+              {
+                "id": "c",
+                "text": "principio"
+              },
+              {
+                "id": "d",
+                "text": "giustificare"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-etica-e-decisioni-grammar-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "dilemma"
+              },
+              {
+                "id": "b",
+                "text": "principio"
+              },
+              {
+                "id": "c",
+                "text": "giustificare"
+              },
+              {
+                "id": "d",
+                "text": "responsabilità"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-etica-e-decisioni-grammar-verb-13",
+            "type": "mcq",
+            "prompt": "Benché l’autore ___ un’obiezione, la sua tesi resta coerente.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "riconosca"
+              },
+              {
+                "id": "b",
+                "text": "riconosce"
+              },
+              {
+                "id": "c",
+                "text": "riconoscere"
+              },
+              {
+                "id": "d",
+                "text": "riconoscono"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-etica-e-decisioni-grammar-verb-14",
+            "type": "mcq",
+            "prompt": "Le evidenze ___ la conclusione con precisione.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "sostiene"
+              },
+              {
+                "id": "b",
+                "text": "sostengono"
+              },
+              {
+                "id": "c",
+                "text": "sostenere"
+              },
+              {
+                "id": "d",
+                "text": "sostenuto"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-etica-e-decisioni-grammar-verb-15",
+            "type": "mcq",
+            "prompt": "Il relatore ___ la propria posizione alla luce dei dati.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "riformulare"
+              },
+              {
+                "id": "b",
+                "text": "riformulano"
+              },
+              {
+                "id": "c",
+                "text": "riformula"
+              },
+              {
+                "id": "d",
+                "text": "riformulato"
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
@@ -16164,7 +19084,372 @@
         "function": "esprimere gradi di certezza e dubbio",
         "examples": []
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "id": "italian-c2-conoscenza-e-incertezza-grammar-final-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "italian-c2-conoscenza-e-incertezza-grammar-grammar-1",
+            "type": "mcq",
+            "prompt": "La formulazione attenuata non elimina la premessa, ma ne ___ l’inferenza implicita.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "precisa"
+              },
+              {
+                "id": "b",
+                "text": "precisare"
+              },
+              {
+                "id": "c",
+                "text": "precisano"
+              },
+              {
+                "id": "d",
+                "text": "precisato"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-conoscenza-e-incertezza-grammar-grammar-2",
+            "type": "mcq",
+            "prompt": "Sarebbe improprio affermare che un solo indizio ___ una conclusione definitiva.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "giustifica"
+              },
+              {
+                "id": "b",
+                "text": "giustifichi"
+              },
+              {
+                "id": "c",
+                "text": "giustificare"
+              },
+              {
+                "id": "d",
+                "text": "giustificano"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-conoscenza-e-incertezza-grammar-grammar-3",
+            "type": "mcq",
+            "prompt": "L’autore ricorre a una concessione affinché la tesi non ___ categorica.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "risulta"
+              },
+              {
+                "id": "b",
+                "text": "risultare"
+              },
+              {
+                "id": "c",
+                "text": "risulti"
+              },
+              {
+                "id": "d",
+                "text": "risultano"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-conoscenza-e-incertezza-grammar-grammar-4",
+            "type": "mcq",
+            "prompt": "Il testo lascia intendere, senza dirlo esplicitamente, che la premessa ___ discussa.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "può essere stata"
+              },
+              {
+                "id": "b",
+                "text": "potere essere"
+              },
+              {
+                "id": "c",
+                "text": "possono essere"
+              },
+              {
+                "id": "d",
+                "text": "può essere"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-conoscenza-e-incertezza-grammar-grammar-5",
+            "type": "mcq",
+            "prompt": "Quale riformulazione conserva il grado di certezza?",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "I dati sembrano suggerire una tendenza, non una prova definitiva."
+              },
+              {
+                "id": "b",
+                "text": "I dati dimostrano tutto senza dubbio."
+              },
+              {
+                "id": "c",
+                "text": "I dati sono certamente una prova totale."
+              },
+              {
+                "id": "d",
+                "text": "I dati dicono una cosa sicura sempre."
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-conoscenza-e-incertezza-grammar-grammar-6",
+            "type": "mcq",
+            "prompt": "La scelta lessicale è persuasiva, pur non ___ il dissenso.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "cancella"
+              },
+              {
+                "id": "b",
+                "text": "cancellando"
+              },
+              {
+                "id": "c",
+                "text": "cancellare"
+              },
+              {
+                "id": "d",
+                "text": "cancellata"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-conoscenza-e-incertezza-grammar-grammar-7",
+            "type": "mcq",
+            "prompt": "Una premessa è rilevante nella misura in cui ___ la conclusione.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "sostenere"
+              },
+              {
+                "id": "b",
+                "text": "sostengono"
+              },
+              {
+                "id": "c",
+                "text": "sostiene"
+              },
+              {
+                "id": "d",
+                "text": "sostenuta"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-conoscenza-e-incertezza-grammar-grammar-8",
+            "type": "mcq",
+            "prompt": "Quale espressione attenua correttamente un’affermazione?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "È sicuro al cento per cento che…"
+              },
+              {
+                "id": "b",
+                "text": "È ovvio per tutti che…"
+              },
+              {
+                "id": "c",
+                "text": "Non esiste alcun dubbio che…"
+              },
+              {
+                "id": "d",
+                "text": "È plausibile ipotizzare che…"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-conoscenza-e-incertezza-grammar-grammar-9",
+            "type": "mcq",
+            "prompt": "L’inferenza è valida solo se non ___ oltre quanto le prove consentono.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "si spinge"
+              },
+              {
+                "id": "b",
+                "text": "si spingere"
+              },
+              {
+                "id": "c",
+                "text": "si spingono"
+              },
+              {
+                "id": "d",
+                "text": "si spinta"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-conoscenza-e-incertezza-grammar-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "probabilità"
+              },
+              {
+                "id": "b",
+                "text": "ipotesi"
+              },
+              {
+                "id": "c",
+                "text": "evidenza"
+              },
+              {
+                "id": "d",
+                "text": "presumere"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-conoscenza-e-incertezza-grammar-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "ipotesi"
+              },
+              {
+                "id": "b",
+                "text": "evidenza"
+              },
+              {
+                "id": "c",
+                "text": "probabilità"
+              },
+              {
+                "id": "d",
+                "text": "presumere"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-conoscenza-e-incertezza-grammar-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "ipotesi"
+              },
+              {
+                "id": "b",
+                "text": "probabilità"
+              },
+              {
+                "id": "c",
+                "text": "presumere"
+              },
+              {
+                "id": "d",
+                "text": "evidenza"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-conoscenza-e-incertezza-grammar-verb-13",
+            "type": "mcq",
+            "prompt": "Non si può ___ una conclusione da un unico indizio.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "dedurre"
+              },
+              {
+                "id": "b",
+                "text": "deduce"
+              },
+              {
+                "id": "c",
+                "text": "deducono"
+              },
+              {
+                "id": "d",
+                "text": "dedotto"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-conoscenza-e-incertezza-grammar-verb-14",
+            "type": "mcq",
+            "prompt": "La formulazione ___ il tono senza alterare il significato.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "attenuare"
+              },
+              {
+                "id": "b",
+                "text": "attenua"
+              },
+              {
+                "id": "c",
+                "text": "attenuano"
+              },
+              {
+                "id": "d",
+                "text": "attenuato"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-conoscenza-e-incertezza-grammar-verb-15",
+            "type": "mcq",
+            "prompt": "L’autore ___ una premessa prima di sviluppare l’argomento.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "esplicitare"
+              },
+              {
+                "id": "b",
+                "text": "esplicitano"
+              },
+              {
+                "id": "c",
+                "text": "esplicita"
+              },
+              {
+                "id": "d",
+                "text": "esplicitato"
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
@@ -21831,7 +25116,372 @@
         "function": "argomentare scelte di consumo responsabile",
         "examples": []
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "id": "italian-b2-ambiente-e-consumi-grammar-final-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "italian-b2-ambiente-e-consumi-grammar-grammar-1",
+            "type": "mcq",
+            "prompt": "È necessario che il gruppo ___ le conseguenze prima di decidere.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "valuti"
+              },
+              {
+                "id": "b",
+                "text": "valuta"
+              },
+              {
+                "id": "c",
+                "text": "valutare"
+              },
+              {
+                "id": "d",
+                "text": "valutano"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-ambiente-e-consumi-grammar-grammar-2",
+            "type": "mcq",
+            "prompt": "Sebbene il termine ___ vicino, possiamo riorganizzare le risorse.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "è"
+              },
+              {
+                "id": "b",
+                "text": "sia"
+              },
+              {
+                "id": "c",
+                "text": "essere"
+              },
+              {
+                "id": "d",
+                "text": "sono"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-ambiente-e-consumi-grammar-grammar-3",
+            "type": "mcq",
+            "prompt": "La proposta è valida, purché ___ sostenibile.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "rimane"
+              },
+              {
+                "id": "b",
+                "text": "rimanere"
+              },
+              {
+                "id": "c",
+                "text": "rimanga"
+              },
+              {
+                "id": "d",
+                "text": "rimangono"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-ambiente-e-consumi-grammar-grammar-4",
+            "type": "mcq",
+            "prompt": "Nonostante le difficoltà, il progetto ___ nei tempi previsti.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "proseguire"
+              },
+              {
+                "id": "b",
+                "text": "proseguono"
+              },
+              {
+                "id": "c",
+                "text": "proseguito"
+              },
+              {
+                "id": "d",
+                "text": "prosegue"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-ambiente-e-consumi-grammar-grammar-5",
+            "type": "mcq",
+            "prompt": "È preferibile che ogni incarico ___ con chiarezza.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "venga definito"
+              },
+              {
+                "id": "b",
+                "text": "viene definito"
+              },
+              {
+                "id": "c",
+                "text": "venire definito"
+              },
+              {
+                "id": "d",
+                "text": "vengono definiti"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-ambiente-e-consumi-grammar-grammar-6",
+            "type": "mcq",
+            "prompt": "Il coordinatore spiega la scelta affinché tutti la ___.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "comprendono"
+              },
+              {
+                "id": "b",
+                "text": "comprendano"
+              },
+              {
+                "id": "c",
+                "text": "comprendere"
+              },
+              {
+                "id": "d",
+                "text": "comprende"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-ambiente-e-consumi-grammar-grammar-7",
+            "type": "mcq",
+            "prompt": "La squadra ha agito con cautela, ___ mancavano alcuni dati.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "quindi"
+              },
+              {
+                "id": "b",
+                "text": "infatti"
+              },
+              {
+                "id": "c",
+                "text": "benché"
+              },
+              {
+                "id": "d",
+                "text": "perciò"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-ambiente-e-consumi-grammar-grammar-8",
+            "type": "mcq",
+            "prompt": "Prima di procedere, occorre ___ le alternative.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "valuta"
+              },
+              {
+                "id": "b",
+                "text": "valutando"
+              },
+              {
+                "id": "c",
+                "text": "valutato"
+              },
+              {
+                "id": "d",
+                "text": "valutare"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-ambiente-e-consumi-grammar-grammar-9",
+            "type": "mcq",
+            "prompt": "Quale frase usa un registro formale appropriato?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Le chiediamo di confermare la disponibilità entro venerdì."
+              },
+              {
+                "id": "b",
+                "text": "Ti chiediamo confermare disponibilità entro venerdì."
+              },
+              {
+                "id": "c",
+                "text": "Chiediamo a te di confermi entro venerdì."
+              },
+              {
+                "id": "d",
+                "text": "Le chiediamo che conferma la disponibilità entro venerdì."
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-ambiente-e-consumi-grammar-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "raccolta"
+              },
+              {
+                "id": "b",
+                "text": "impatto"
+              },
+              {
+                "id": "c",
+                "text": "spreco"
+              },
+              {
+                "id": "d",
+                "text": "sostenibile"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-ambiente-e-consumi-grammar-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "impatto"
+              },
+              {
+                "id": "b",
+                "text": "spreco"
+              },
+              {
+                "id": "c",
+                "text": "raccolta"
+              },
+              {
+                "id": "d",
+                "text": "sostenibile"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-ambiente-e-consumi-grammar-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "impatto"
+              },
+              {
+                "id": "b",
+                "text": "raccolta"
+              },
+              {
+                "id": "c",
+                "text": "sostenibile"
+              },
+              {
+                "id": "d",
+                "text": "spreco"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-ambiente-e-consumi-grammar-verb-13",
+            "type": "mcq",
+            "prompt": "È importante che il gruppo ___ ogni conseguenza.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "valuti"
+              },
+              {
+                "id": "b",
+                "text": "valuta"
+              },
+              {
+                "id": "c",
+                "text": "valutare"
+              },
+              {
+                "id": "d",
+                "text": "valutano"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-ambiente-e-consumi-grammar-verb-14",
+            "type": "mcq",
+            "prompt": "Noi ___ le risorse prima dell’incontro.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "coordinerà"
+              },
+              {
+                "id": "b",
+                "text": "coordineremo"
+              },
+              {
+                "id": "c",
+                "text": "coordinare"
+              },
+              {
+                "id": "d",
+                "text": "coordinato"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-ambiente-e-consumi-grammar-verb-15",
+            "type": "mcq",
+            "prompt": "Il responsabile ___ un incarico preciso a ciascuno.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "assegnano"
+              },
+              {
+                "id": "b",
+                "text": "assegnare"
+              },
+              {
+                "id": "c",
+                "text": "assegnerà"
+              },
+              {
+                "id": "d",
+                "text": "assegnato"
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
@@ -21944,7 +25594,372 @@
         "function": "interpretare un’opera e difendere una lettura",
         "examples": []
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "id": "italian-c1-arte-e-interpretazione-grammar-final-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "italian-c1-arte-e-interpretazione-grammar-grammar-1",
+            "type": "mcq",
+            "prompt": "Pur ___ l’obiezione, l’autore sostiene la tesi con evidenze verificabili.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "riconoscendo"
+              },
+              {
+                "id": "b",
+                "text": "riconosce"
+              },
+              {
+                "id": "c",
+                "text": "riconoscere"
+              },
+              {
+                "id": "d",
+                "text": "riconosciuto"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-arte-e-interpretazione-grammar-grammar-2",
+            "type": "mcq",
+            "prompt": "Non si può concludere nulla finché i dati non ___.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "sono verificati"
+              },
+              {
+                "id": "b",
+                "text": "siano stati verificati"
+              },
+              {
+                "id": "c",
+                "text": "essere verificati"
+              },
+              {
+                "id": "d",
+                "text": "saranno verificano"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-arte-e-interpretazione-grammar-grammar-3",
+            "type": "mcq",
+            "prompt": "L’autrice formula la tesi in modo che non ___ ambiguità.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "lascia"
+              },
+              {
+                "id": "b",
+                "text": "lasciare"
+              },
+              {
+                "id": "c",
+                "text": "lasci"
+              },
+              {
+                "id": "d",
+                "text": "lasciano"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-arte-e-interpretazione-grammar-grammar-4",
+            "type": "mcq",
+            "prompt": "La relazione distingue tra un fatto dimostrato e un’ipotesi che ___ ulteriori prove.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "richiedere"
+              },
+              {
+                "id": "b",
+                "text": "richiedano"
+              },
+              {
+                "id": "c",
+                "text": "richiesta"
+              },
+              {
+                "id": "d",
+                "text": "richiede"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-arte-e-interpretazione-grammar-grammar-5",
+            "type": "mcq",
+            "prompt": "Benché il ragionamento ___ convincente, manca una fonte indipendente.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "appaia"
+              },
+              {
+                "id": "b",
+                "text": "appare"
+              },
+              {
+                "id": "c",
+                "text": "apparire"
+              },
+              {
+                "id": "d",
+                "text": "appaiono"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-arte-e-interpretazione-grammar-grammar-6",
+            "type": "mcq",
+            "prompt": "Il portavoce ha riformulato la posizione senza ___ il dissenso.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "minimizza"
+              },
+              {
+                "id": "b",
+                "text": "minimizzare"
+              },
+              {
+                "id": "c",
+                "text": "minimizzato"
+              },
+              {
+                "id": "d",
+                "text": "minimizzando"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-arte-e-interpretazione-grammar-grammar-7",
+            "type": "mcq",
+            "prompt": "Quale connettore introduce una concessione?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Pertanto"
+              },
+              {
+                "id": "b",
+                "text": "Infatti"
+              },
+              {
+                "id": "c",
+                "text": "Tuttavia"
+              },
+              {
+                "id": "d",
+                "text": "Di conseguenza"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-arte-e-interpretazione-grammar-grammar-8",
+            "type": "mcq",
+            "prompt": "La conclusione è credibile solo se ___ dalle evidenze.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "sostiene"
+              },
+              {
+                "id": "b",
+                "text": "sostenere"
+              },
+              {
+                "id": "c",
+                "text": "sono sostenuti"
+              },
+              {
+                "id": "d",
+                "text": "è sostenuta"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-arte-e-interpretazione-grammar-grammar-9",
+            "type": "mcq",
+            "prompt": "Quale frase mantiene un registro argomentativo preciso?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "La tesi richiede una distinzione tra correlazione e causalità."
+              },
+              {
+                "id": "b",
+                "text": "La tesi è super perché sembra vera."
+              },
+              {
+                "id": "c",
+                "text": "La tesi dice cose molto importanti, punto."
+              },
+              {
+                "id": "d",
+                "text": "La tesi ha una cosa che forse va bene."
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-arte-e-interpretazione-grammar-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "linguaggio"
+              },
+              {
+                "id": "b",
+                "text": "opera"
+              },
+              {
+                "id": "c",
+                "text": "interpretazione"
+              },
+              {
+                "id": "d",
+                "text": "evocare"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-arte-e-interpretazione-grammar-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "opera"
+              },
+              {
+                "id": "b",
+                "text": "interpretazione"
+              },
+              {
+                "id": "c",
+                "text": "linguaggio"
+              },
+              {
+                "id": "d",
+                "text": "evocare"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-arte-e-interpretazione-grammar-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "opera"
+              },
+              {
+                "id": "b",
+                "text": "linguaggio"
+              },
+              {
+                "id": "c",
+                "text": "evocare"
+              },
+              {
+                "id": "d",
+                "text": "interpretazione"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-arte-e-interpretazione-grammar-verb-13",
+            "type": "mcq",
+            "prompt": "Benché l’autore ___ un’obiezione, la sua tesi resta coerente.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "riconosca"
+              },
+              {
+                "id": "b",
+                "text": "riconosce"
+              },
+              {
+                "id": "c",
+                "text": "riconoscere"
+              },
+              {
+                "id": "d",
+                "text": "riconoscono"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-arte-e-interpretazione-grammar-verb-14",
+            "type": "mcq",
+            "prompt": "Le evidenze ___ la conclusione con precisione.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "sostiene"
+              },
+              {
+                "id": "b",
+                "text": "sostengono"
+              },
+              {
+                "id": "c",
+                "text": "sostenere"
+              },
+              {
+                "id": "d",
+                "text": "sostenuto"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-arte-e-interpretazione-grammar-verb-15",
+            "type": "mcq",
+            "prompt": "Il relatore ___ la propria posizione alla luce dei dati.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "riformulare"
+              },
+              {
+                "id": "b",
+                "text": "riformulano"
+              },
+              {
+                "id": "c",
+                "text": "riformula"
+              },
+              {
+                "id": "d",
+                "text": "riformulato"
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
@@ -22057,7 +26072,372 @@
         "function": "valutare come una narrazione costruisce identità",
         "examples": []
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "id": "italian-c2-narrazione-e-identita-grammar-final-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "italian-c2-narrazione-e-identita-grammar-grammar-1",
+            "type": "mcq",
+            "prompt": "La formulazione attenuata non elimina la premessa, ma ne ___ l’inferenza implicita.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "precisa"
+              },
+              {
+                "id": "b",
+                "text": "precisare"
+              },
+              {
+                "id": "c",
+                "text": "precisano"
+              },
+              {
+                "id": "d",
+                "text": "precisato"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-narrazione-e-identita-grammar-grammar-2",
+            "type": "mcq",
+            "prompt": "Sarebbe improprio affermare che un solo indizio ___ una conclusione definitiva.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "giustifica"
+              },
+              {
+                "id": "b",
+                "text": "giustifichi"
+              },
+              {
+                "id": "c",
+                "text": "giustificare"
+              },
+              {
+                "id": "d",
+                "text": "giustificano"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-narrazione-e-identita-grammar-grammar-3",
+            "type": "mcq",
+            "prompt": "L’autore ricorre a una concessione affinché la tesi non ___ categorica.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "risulta"
+              },
+              {
+                "id": "b",
+                "text": "risultare"
+              },
+              {
+                "id": "c",
+                "text": "risulti"
+              },
+              {
+                "id": "d",
+                "text": "risultano"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-narrazione-e-identita-grammar-grammar-4",
+            "type": "mcq",
+            "prompt": "Il testo lascia intendere, senza dirlo esplicitamente, che la premessa ___ discussa.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "può essere stata"
+              },
+              {
+                "id": "b",
+                "text": "potere essere"
+              },
+              {
+                "id": "c",
+                "text": "possono essere"
+              },
+              {
+                "id": "d",
+                "text": "può essere"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-narrazione-e-identita-grammar-grammar-5",
+            "type": "mcq",
+            "prompt": "Quale riformulazione conserva il grado di certezza?",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "I dati sembrano suggerire una tendenza, non una prova definitiva."
+              },
+              {
+                "id": "b",
+                "text": "I dati dimostrano tutto senza dubbio."
+              },
+              {
+                "id": "c",
+                "text": "I dati sono certamente una prova totale."
+              },
+              {
+                "id": "d",
+                "text": "I dati dicono una cosa sicura sempre."
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-narrazione-e-identita-grammar-grammar-6",
+            "type": "mcq",
+            "prompt": "La scelta lessicale è persuasiva, pur non ___ il dissenso.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "cancella"
+              },
+              {
+                "id": "b",
+                "text": "cancellando"
+              },
+              {
+                "id": "c",
+                "text": "cancellare"
+              },
+              {
+                "id": "d",
+                "text": "cancellata"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-narrazione-e-identita-grammar-grammar-7",
+            "type": "mcq",
+            "prompt": "Una premessa è rilevante nella misura in cui ___ la conclusione.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "sostenere"
+              },
+              {
+                "id": "b",
+                "text": "sostengono"
+              },
+              {
+                "id": "c",
+                "text": "sostiene"
+              },
+              {
+                "id": "d",
+                "text": "sostenuta"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-narrazione-e-identita-grammar-grammar-8",
+            "type": "mcq",
+            "prompt": "Quale espressione attenua correttamente un’affermazione?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "È sicuro al cento per cento che…"
+              },
+              {
+                "id": "b",
+                "text": "È ovvio per tutti che…"
+              },
+              {
+                "id": "c",
+                "text": "Non esiste alcun dubbio che…"
+              },
+              {
+                "id": "d",
+                "text": "È plausibile ipotizzare che…"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-narrazione-e-identita-grammar-grammar-9",
+            "type": "mcq",
+            "prompt": "L’inferenza è valida solo se non ___ oltre quanto le prove consentono.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "si spinge"
+              },
+              {
+                "id": "b",
+                "text": "si spingere"
+              },
+              {
+                "id": "c",
+                "text": "si spingono"
+              },
+              {
+                "id": "d",
+                "text": "si spinta"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-narrazione-e-identita-grammar-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "memoria"
+              },
+              {
+                "id": "b",
+                "text": "narrazione"
+              },
+              {
+                "id": "c",
+                "text": "voce"
+              },
+              {
+                "id": "d",
+                "text": "rielaborare"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-narrazione-e-identita-grammar-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "narrazione"
+              },
+              {
+                "id": "b",
+                "text": "voce"
+              },
+              {
+                "id": "c",
+                "text": "memoria"
+              },
+              {
+                "id": "d",
+                "text": "rielaborare"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-narrazione-e-identita-grammar-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "narrazione"
+              },
+              {
+                "id": "b",
+                "text": "memoria"
+              },
+              {
+                "id": "c",
+                "text": "rielaborare"
+              },
+              {
+                "id": "d",
+                "text": "voce"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-narrazione-e-identita-grammar-verb-13",
+            "type": "mcq",
+            "prompt": "Non si può ___ una conclusione da un unico indizio.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "dedurre"
+              },
+              {
+                "id": "b",
+                "text": "deduce"
+              },
+              {
+                "id": "c",
+                "text": "deducono"
+              },
+              {
+                "id": "d",
+                "text": "dedotto"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-narrazione-e-identita-grammar-verb-14",
+            "type": "mcq",
+            "prompt": "La formulazione ___ il tono senza alterare il significato.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "attenuare"
+              },
+              {
+                "id": "b",
+                "text": "attenua"
+              },
+              {
+                "id": "c",
+                "text": "attenuano"
+              },
+              {
+                "id": "d",
+                "text": "attenuato"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-narrazione-e-identita-grammar-verb-15",
+            "type": "mcq",
+            "prompt": "L’autore ___ una premessa prima di sviluppare l’argomento.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "esplicitare"
+              },
+              {
+                "id": "b",
+                "text": "esplicitano"
+              },
+              {
+                "id": "c",
+                "text": "esplicita"
+              },
+              {
+                "id": "d",
+                "text": "esplicitato"
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
@@ -27721,7 +32101,372 @@
         "function": "valutare fonti e notizie in modo critico",
         "examples": []
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "id": "italian-b2-media-e-informazione-grammar-final-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "italian-b2-media-e-informazione-grammar-grammar-1",
+            "type": "mcq",
+            "prompt": "È necessario che il gruppo ___ le conseguenze prima di decidere.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "valuti"
+              },
+              {
+                "id": "b",
+                "text": "valuta"
+              },
+              {
+                "id": "c",
+                "text": "valutare"
+              },
+              {
+                "id": "d",
+                "text": "valutano"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-media-e-informazione-grammar-grammar-2",
+            "type": "mcq",
+            "prompt": "Sebbene il termine ___ vicino, possiamo riorganizzare le risorse.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "è"
+              },
+              {
+                "id": "b",
+                "text": "sia"
+              },
+              {
+                "id": "c",
+                "text": "essere"
+              },
+              {
+                "id": "d",
+                "text": "sono"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-media-e-informazione-grammar-grammar-3",
+            "type": "mcq",
+            "prompt": "La proposta è valida, purché ___ sostenibile.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "rimane"
+              },
+              {
+                "id": "b",
+                "text": "rimanere"
+              },
+              {
+                "id": "c",
+                "text": "rimanga"
+              },
+              {
+                "id": "d",
+                "text": "rimangono"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-media-e-informazione-grammar-grammar-4",
+            "type": "mcq",
+            "prompt": "Nonostante le difficoltà, il progetto ___ nei tempi previsti.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "proseguire"
+              },
+              {
+                "id": "b",
+                "text": "proseguono"
+              },
+              {
+                "id": "c",
+                "text": "proseguito"
+              },
+              {
+                "id": "d",
+                "text": "prosegue"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-media-e-informazione-grammar-grammar-5",
+            "type": "mcq",
+            "prompt": "È preferibile che ogni incarico ___ con chiarezza.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "venga definito"
+              },
+              {
+                "id": "b",
+                "text": "viene definito"
+              },
+              {
+                "id": "c",
+                "text": "venire definito"
+              },
+              {
+                "id": "d",
+                "text": "vengono definiti"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-media-e-informazione-grammar-grammar-6",
+            "type": "mcq",
+            "prompt": "Il coordinatore spiega la scelta affinché tutti la ___.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "comprendono"
+              },
+              {
+                "id": "b",
+                "text": "comprendano"
+              },
+              {
+                "id": "c",
+                "text": "comprendere"
+              },
+              {
+                "id": "d",
+                "text": "comprende"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-media-e-informazione-grammar-grammar-7",
+            "type": "mcq",
+            "prompt": "La squadra ha agito con cautela, ___ mancavano alcuni dati.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "quindi"
+              },
+              {
+                "id": "b",
+                "text": "infatti"
+              },
+              {
+                "id": "c",
+                "text": "benché"
+              },
+              {
+                "id": "d",
+                "text": "perciò"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-media-e-informazione-grammar-grammar-8",
+            "type": "mcq",
+            "prompt": "Prima di procedere, occorre ___ le alternative.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "valuta"
+              },
+              {
+                "id": "b",
+                "text": "valutando"
+              },
+              {
+                "id": "c",
+                "text": "valutato"
+              },
+              {
+                "id": "d",
+                "text": "valutare"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-media-e-informazione-grammar-grammar-9",
+            "type": "mcq",
+            "prompt": "Quale frase usa un registro formale appropriato?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Le chiediamo di confermare la disponibilità entro venerdì."
+              },
+              {
+                "id": "b",
+                "text": "Ti chiediamo confermare disponibilità entro venerdì."
+              },
+              {
+                "id": "c",
+                "text": "Chiediamo a te di confermi entro venerdì."
+              },
+              {
+                "id": "d",
+                "text": "Le chiediamo che conferma la disponibilità entro venerdì."
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-media-e-informazione-grammar-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "notizia"
+              },
+              {
+                "id": "b",
+                "text": "fonte"
+              },
+              {
+                "id": "c",
+                "text": "verificare"
+              },
+              {
+                "id": "d",
+                "text": "affidabilità"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-media-e-informazione-grammar-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "fonte"
+              },
+              {
+                "id": "b",
+                "text": "verificare"
+              },
+              {
+                "id": "c",
+                "text": "notizia"
+              },
+              {
+                "id": "d",
+                "text": "affidabilità"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-media-e-informazione-grammar-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "fonte"
+              },
+              {
+                "id": "b",
+                "text": "notizia"
+              },
+              {
+                "id": "c",
+                "text": "affidabilità"
+              },
+              {
+                "id": "d",
+                "text": "verificare"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-media-e-informazione-grammar-verb-13",
+            "type": "mcq",
+            "prompt": "È importante che il gruppo ___ ogni conseguenza.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "valuti"
+              },
+              {
+                "id": "b",
+                "text": "valuta"
+              },
+              {
+                "id": "c",
+                "text": "valutare"
+              },
+              {
+                "id": "d",
+                "text": "valutano"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-media-e-informazione-grammar-verb-14",
+            "type": "mcq",
+            "prompt": "Noi ___ le risorse prima dell’incontro.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "coordinerà"
+              },
+              {
+                "id": "b",
+                "text": "coordineremo"
+              },
+              {
+                "id": "c",
+                "text": "coordinare"
+              },
+              {
+                "id": "d",
+                "text": "coordinato"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-media-e-informazione-grammar-verb-15",
+            "type": "mcq",
+            "prompt": "Il responsabile ___ un incarico preciso a ciascuno.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "assegnano"
+              },
+              {
+                "id": "b",
+                "text": "assegnare"
+              },
+              {
+                "id": "c",
+                "text": "assegnerà"
+              },
+              {
+                "id": "d",
+                "text": "assegnato"
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
@@ -27834,7 +32579,372 @@
         "function": "presentare una ricerca con rigore",
         "examples": []
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "id": "italian-c1-ricerca-e-metodo-grammar-final-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "italian-c1-ricerca-e-metodo-grammar-grammar-1",
+            "type": "mcq",
+            "prompt": "Pur ___ l’obiezione, l’autore sostiene la tesi con evidenze verificabili.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "riconoscendo"
+              },
+              {
+                "id": "b",
+                "text": "riconosce"
+              },
+              {
+                "id": "c",
+                "text": "riconoscere"
+              },
+              {
+                "id": "d",
+                "text": "riconosciuto"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-ricerca-e-metodo-grammar-grammar-2",
+            "type": "mcq",
+            "prompt": "Non si può concludere nulla finché i dati non ___.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "sono verificati"
+              },
+              {
+                "id": "b",
+                "text": "siano stati verificati"
+              },
+              {
+                "id": "c",
+                "text": "essere verificati"
+              },
+              {
+                "id": "d",
+                "text": "saranno verificano"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-ricerca-e-metodo-grammar-grammar-3",
+            "type": "mcq",
+            "prompt": "L’autrice formula la tesi in modo che non ___ ambiguità.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "lascia"
+              },
+              {
+                "id": "b",
+                "text": "lasciare"
+              },
+              {
+                "id": "c",
+                "text": "lasci"
+              },
+              {
+                "id": "d",
+                "text": "lasciano"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-ricerca-e-metodo-grammar-grammar-4",
+            "type": "mcq",
+            "prompt": "La relazione distingue tra un fatto dimostrato e un’ipotesi che ___ ulteriori prove.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "richiedere"
+              },
+              {
+                "id": "b",
+                "text": "richiedano"
+              },
+              {
+                "id": "c",
+                "text": "richiesta"
+              },
+              {
+                "id": "d",
+                "text": "richiede"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-ricerca-e-metodo-grammar-grammar-5",
+            "type": "mcq",
+            "prompt": "Benché il ragionamento ___ convincente, manca una fonte indipendente.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "appaia"
+              },
+              {
+                "id": "b",
+                "text": "appare"
+              },
+              {
+                "id": "c",
+                "text": "apparire"
+              },
+              {
+                "id": "d",
+                "text": "appaiono"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-ricerca-e-metodo-grammar-grammar-6",
+            "type": "mcq",
+            "prompt": "Il portavoce ha riformulato la posizione senza ___ il dissenso.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "minimizza"
+              },
+              {
+                "id": "b",
+                "text": "minimizzare"
+              },
+              {
+                "id": "c",
+                "text": "minimizzato"
+              },
+              {
+                "id": "d",
+                "text": "minimizzando"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-ricerca-e-metodo-grammar-grammar-7",
+            "type": "mcq",
+            "prompt": "Quale connettore introduce una concessione?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Pertanto"
+              },
+              {
+                "id": "b",
+                "text": "Infatti"
+              },
+              {
+                "id": "c",
+                "text": "Tuttavia"
+              },
+              {
+                "id": "d",
+                "text": "Di conseguenza"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-ricerca-e-metodo-grammar-grammar-8",
+            "type": "mcq",
+            "prompt": "La conclusione è credibile solo se ___ dalle evidenze.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "sostiene"
+              },
+              {
+                "id": "b",
+                "text": "sostenere"
+              },
+              {
+                "id": "c",
+                "text": "sono sostenuti"
+              },
+              {
+                "id": "d",
+                "text": "è sostenuta"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-ricerca-e-metodo-grammar-grammar-9",
+            "type": "mcq",
+            "prompt": "Quale frase mantiene un registro argomentativo preciso?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "La tesi richiede una distinzione tra correlazione e causalità."
+              },
+              {
+                "id": "b",
+                "text": "La tesi è super perché sembra vera."
+              },
+              {
+                "id": "c",
+                "text": "La tesi dice cose molto importanti, punto."
+              },
+              {
+                "id": "d",
+                "text": "La tesi ha una cosa che forse va bene."
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-ricerca-e-metodo-grammar-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "campione"
+              },
+              {
+                "id": "b",
+                "text": "ipotesi"
+              },
+              {
+                "id": "c",
+                "text": "risultato"
+              },
+              {
+                "id": "d",
+                "text": "dimostrare"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-ricerca-e-metodo-grammar-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "ipotesi"
+              },
+              {
+                "id": "b",
+                "text": "risultato"
+              },
+              {
+                "id": "c",
+                "text": "campione"
+              },
+              {
+                "id": "d",
+                "text": "dimostrare"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-ricerca-e-metodo-grammar-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "ipotesi"
+              },
+              {
+                "id": "b",
+                "text": "campione"
+              },
+              {
+                "id": "c",
+                "text": "dimostrare"
+              },
+              {
+                "id": "d",
+                "text": "risultato"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-ricerca-e-metodo-grammar-verb-13",
+            "type": "mcq",
+            "prompt": "Benché l’autore ___ un’obiezione, la sua tesi resta coerente.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "riconosca"
+              },
+              {
+                "id": "b",
+                "text": "riconosce"
+              },
+              {
+                "id": "c",
+                "text": "riconoscere"
+              },
+              {
+                "id": "d",
+                "text": "riconoscono"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-ricerca-e-metodo-grammar-verb-14",
+            "type": "mcq",
+            "prompt": "Le evidenze ___ la conclusione con precisione.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "sostiene"
+              },
+              {
+                "id": "b",
+                "text": "sostengono"
+              },
+              {
+                "id": "c",
+                "text": "sostenere"
+              },
+              {
+                "id": "d",
+                "text": "sostenuto"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-ricerca-e-metodo-grammar-verb-15",
+            "type": "mcq",
+            "prompt": "Il relatore ___ la propria posizione alla luce dei dati.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "riformulare"
+              },
+              {
+                "id": "b",
+                "text": "riformulano"
+              },
+              {
+                "id": "c",
+                "text": "riformula"
+              },
+              {
+                "id": "d",
+                "text": "riformulato"
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
@@ -27947,7 +33057,372 @@
         "function": "discutere responsabilità individuale e collettiva",
         "examples": []
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "id": "italian-c2-diritto-e-responsabilita-grammar-final-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "italian-c2-diritto-e-responsabilita-grammar-grammar-1",
+            "type": "mcq",
+            "prompt": "La formulazione attenuata non elimina la premessa, ma ne ___ l’inferenza implicita.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "precisa"
+              },
+              {
+                "id": "b",
+                "text": "precisare"
+              },
+              {
+                "id": "c",
+                "text": "precisano"
+              },
+              {
+                "id": "d",
+                "text": "precisato"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-diritto-e-responsabilita-grammar-grammar-2",
+            "type": "mcq",
+            "prompt": "Sarebbe improprio affermare che un solo indizio ___ una conclusione definitiva.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "giustifica"
+              },
+              {
+                "id": "b",
+                "text": "giustifichi"
+              },
+              {
+                "id": "c",
+                "text": "giustificare"
+              },
+              {
+                "id": "d",
+                "text": "giustificano"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-diritto-e-responsabilita-grammar-grammar-3",
+            "type": "mcq",
+            "prompt": "L’autore ricorre a una concessione affinché la tesi non ___ categorica.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "risulta"
+              },
+              {
+                "id": "b",
+                "text": "risultare"
+              },
+              {
+                "id": "c",
+                "text": "risulti"
+              },
+              {
+                "id": "d",
+                "text": "risultano"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-diritto-e-responsabilita-grammar-grammar-4",
+            "type": "mcq",
+            "prompt": "Il testo lascia intendere, senza dirlo esplicitamente, che la premessa ___ discussa.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "può essere stata"
+              },
+              {
+                "id": "b",
+                "text": "potere essere"
+              },
+              {
+                "id": "c",
+                "text": "possono essere"
+              },
+              {
+                "id": "d",
+                "text": "può essere"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-diritto-e-responsabilita-grammar-grammar-5",
+            "type": "mcq",
+            "prompt": "Quale riformulazione conserva il grado di certezza?",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "I dati sembrano suggerire una tendenza, non una prova definitiva."
+              },
+              {
+                "id": "b",
+                "text": "I dati dimostrano tutto senza dubbio."
+              },
+              {
+                "id": "c",
+                "text": "I dati sono certamente una prova totale."
+              },
+              {
+                "id": "d",
+                "text": "I dati dicono una cosa sicura sempre."
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-diritto-e-responsabilita-grammar-grammar-6",
+            "type": "mcq",
+            "prompt": "La scelta lessicale è persuasiva, pur non ___ il dissenso.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "cancella"
+              },
+              {
+                "id": "b",
+                "text": "cancellando"
+              },
+              {
+                "id": "c",
+                "text": "cancellare"
+              },
+              {
+                "id": "d",
+                "text": "cancellata"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-diritto-e-responsabilita-grammar-grammar-7",
+            "type": "mcq",
+            "prompt": "Una premessa è rilevante nella misura in cui ___ la conclusione.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "sostenere"
+              },
+              {
+                "id": "b",
+                "text": "sostengono"
+              },
+              {
+                "id": "c",
+                "text": "sostiene"
+              },
+              {
+                "id": "d",
+                "text": "sostenuta"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-diritto-e-responsabilita-grammar-grammar-8",
+            "type": "mcq",
+            "prompt": "Quale espressione attenua correttamente un’affermazione?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "È sicuro al cento per cento che…"
+              },
+              {
+                "id": "b",
+                "text": "È ovvio per tutti che…"
+              },
+              {
+                "id": "c",
+                "text": "Non esiste alcun dubbio che…"
+              },
+              {
+                "id": "d",
+                "text": "È plausibile ipotizzare che…"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-diritto-e-responsabilita-grammar-grammar-9",
+            "type": "mcq",
+            "prompt": "L’inferenza è valida solo se non ___ oltre quanto le prove consentono.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "si spinge"
+              },
+              {
+                "id": "b",
+                "text": "si spingere"
+              },
+              {
+                "id": "c",
+                "text": "si spingono"
+              },
+              {
+                "id": "d",
+                "text": "si spinta"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-diritto-e-responsabilita-grammar-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "dovere"
+              },
+              {
+                "id": "b",
+                "text": "diritto"
+              },
+              {
+                "id": "c",
+                "text": "principio"
+              },
+              {
+                "id": "d",
+                "text": "tutelare"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-diritto-e-responsabilita-grammar-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "diritto"
+              },
+              {
+                "id": "b",
+                "text": "principio"
+              },
+              {
+                "id": "c",
+                "text": "dovere"
+              },
+              {
+                "id": "d",
+                "text": "tutelare"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-diritto-e-responsabilita-grammar-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "diritto"
+              },
+              {
+                "id": "b",
+                "text": "dovere"
+              },
+              {
+                "id": "c",
+                "text": "tutelare"
+              },
+              {
+                "id": "d",
+                "text": "principio"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-diritto-e-responsabilita-grammar-verb-13",
+            "type": "mcq",
+            "prompt": "Non si può ___ una conclusione da un unico indizio.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "dedurre"
+              },
+              {
+                "id": "b",
+                "text": "deduce"
+              },
+              {
+                "id": "c",
+                "text": "deducono"
+              },
+              {
+                "id": "d",
+                "text": "dedotto"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-diritto-e-responsabilita-grammar-verb-14",
+            "type": "mcq",
+            "prompt": "La formulazione ___ il tono senza alterare il significato.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "attenuare"
+              },
+              {
+                "id": "b",
+                "text": "attenua"
+              },
+              {
+                "id": "c",
+                "text": "attenuano"
+              },
+              {
+                "id": "d",
+                "text": "attenuato"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-diritto-e-responsabilita-grammar-verb-15",
+            "type": "mcq",
+            "prompt": "L’autore ___ una premessa prima di sviluppare l’argomento.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "esplicitare"
+              },
+              {
+                "id": "b",
+                "text": "esplicitano"
+              },
+              {
+                "id": "c",
+                "text": "esplicita"
+              },
+              {
+                "id": "d",
+                "text": "esplicitato"
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
@@ -33614,7 +39089,372 @@
         "function": "proporre abitudini equilibrate",
         "examples": []
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "id": "italian-b2-salute-e-benessere-grammar-final-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "italian-b2-salute-e-benessere-grammar-grammar-1",
+            "type": "mcq",
+            "prompt": "È necessario che il gruppo ___ le conseguenze prima di decidere.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "valuti"
+              },
+              {
+                "id": "b",
+                "text": "valuta"
+              },
+              {
+                "id": "c",
+                "text": "valutare"
+              },
+              {
+                "id": "d",
+                "text": "valutano"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-salute-e-benessere-grammar-grammar-2",
+            "type": "mcq",
+            "prompt": "Sebbene il termine ___ vicino, possiamo riorganizzare le risorse.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "è"
+              },
+              {
+                "id": "b",
+                "text": "sia"
+              },
+              {
+                "id": "c",
+                "text": "essere"
+              },
+              {
+                "id": "d",
+                "text": "sono"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-salute-e-benessere-grammar-grammar-3",
+            "type": "mcq",
+            "prompt": "La proposta è valida, purché ___ sostenibile.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "rimane"
+              },
+              {
+                "id": "b",
+                "text": "rimanere"
+              },
+              {
+                "id": "c",
+                "text": "rimanga"
+              },
+              {
+                "id": "d",
+                "text": "rimangono"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-salute-e-benessere-grammar-grammar-4",
+            "type": "mcq",
+            "prompt": "Nonostante le difficoltà, il progetto ___ nei tempi previsti.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "proseguire"
+              },
+              {
+                "id": "b",
+                "text": "proseguono"
+              },
+              {
+                "id": "c",
+                "text": "proseguito"
+              },
+              {
+                "id": "d",
+                "text": "prosegue"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-salute-e-benessere-grammar-grammar-5",
+            "type": "mcq",
+            "prompt": "È preferibile che ogni incarico ___ con chiarezza.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "venga definito"
+              },
+              {
+                "id": "b",
+                "text": "viene definito"
+              },
+              {
+                "id": "c",
+                "text": "venire definito"
+              },
+              {
+                "id": "d",
+                "text": "vengono definiti"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-salute-e-benessere-grammar-grammar-6",
+            "type": "mcq",
+            "prompt": "Il coordinatore spiega la scelta affinché tutti la ___.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "comprendono"
+              },
+              {
+                "id": "b",
+                "text": "comprendano"
+              },
+              {
+                "id": "c",
+                "text": "comprendere"
+              },
+              {
+                "id": "d",
+                "text": "comprende"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-salute-e-benessere-grammar-grammar-7",
+            "type": "mcq",
+            "prompt": "La squadra ha agito con cautela, ___ mancavano alcuni dati.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "quindi"
+              },
+              {
+                "id": "b",
+                "text": "infatti"
+              },
+              {
+                "id": "c",
+                "text": "benché"
+              },
+              {
+                "id": "d",
+                "text": "perciò"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-salute-e-benessere-grammar-grammar-8",
+            "type": "mcq",
+            "prompt": "Prima di procedere, occorre ___ le alternative.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "valuta"
+              },
+              {
+                "id": "b",
+                "text": "valutando"
+              },
+              {
+                "id": "c",
+                "text": "valutato"
+              },
+              {
+                "id": "d",
+                "text": "valutare"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-salute-e-benessere-grammar-grammar-9",
+            "type": "mcq",
+            "prompt": "Quale frase usa un registro formale appropriato?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Le chiediamo di confermare la disponibilità entro venerdì."
+              },
+              {
+                "id": "b",
+                "text": "Ti chiediamo confermare disponibilità entro venerdì."
+              },
+              {
+                "id": "c",
+                "text": "Chiediamo a te di confermi entro venerdì."
+              },
+              {
+                "id": "d",
+                "text": "Le chiediamo che conferma la disponibilità entro venerdì."
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-salute-e-benessere-grammar-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "prevenzione"
+              },
+              {
+                "id": "b",
+                "text": "benessere"
+              },
+              {
+                "id": "c",
+                "text": "riposo"
+              },
+              {
+                "id": "d",
+                "text": "equilibrio"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-salute-e-benessere-grammar-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "benessere"
+              },
+              {
+                "id": "b",
+                "text": "riposo"
+              },
+              {
+                "id": "c",
+                "text": "prevenzione"
+              },
+              {
+                "id": "d",
+                "text": "equilibrio"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-salute-e-benessere-grammar-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "benessere"
+              },
+              {
+                "id": "b",
+                "text": "prevenzione"
+              },
+              {
+                "id": "c",
+                "text": "equilibrio"
+              },
+              {
+                "id": "d",
+                "text": "riposo"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-salute-e-benessere-grammar-verb-13",
+            "type": "mcq",
+            "prompt": "È importante che il gruppo ___ ogni conseguenza.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "valuti"
+              },
+              {
+                "id": "b",
+                "text": "valuta"
+              },
+              {
+                "id": "c",
+                "text": "valutare"
+              },
+              {
+                "id": "d",
+                "text": "valutano"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-salute-e-benessere-grammar-verb-14",
+            "type": "mcq",
+            "prompt": "Noi ___ le risorse prima dell’incontro.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "coordinerà"
+              },
+              {
+                "id": "b",
+                "text": "coordineremo"
+              },
+              {
+                "id": "c",
+                "text": "coordinare"
+              },
+              {
+                "id": "d",
+                "text": "coordinato"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-salute-e-benessere-grammar-verb-15",
+            "type": "mcq",
+            "prompt": "Il responsabile ___ un incarico preciso a ciascuno.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "assegnano"
+              },
+              {
+                "id": "b",
+                "text": "assegnare"
+              },
+              {
+                "id": "c",
+                "text": "assegnerà"
+              },
+              {
+                "id": "d",
+                "text": "assegnato"
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
@@ -33727,7 +39567,372 @@
         "function": "spiegare decisioni economiche comuni",
         "examples": []
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "id": "italian-c1-economia-quotidiana-grammar-final-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "italian-c1-economia-quotidiana-grammar-grammar-1",
+            "type": "mcq",
+            "prompt": "Pur ___ l’obiezione, l’autore sostiene la tesi con evidenze verificabili.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "riconoscendo"
+              },
+              {
+                "id": "b",
+                "text": "riconosce"
+              },
+              {
+                "id": "c",
+                "text": "riconoscere"
+              },
+              {
+                "id": "d",
+                "text": "riconosciuto"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-economia-quotidiana-grammar-grammar-2",
+            "type": "mcq",
+            "prompt": "Non si può concludere nulla finché i dati non ___.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "sono verificati"
+              },
+              {
+                "id": "b",
+                "text": "siano stati verificati"
+              },
+              {
+                "id": "c",
+                "text": "essere verificati"
+              },
+              {
+                "id": "d",
+                "text": "saranno verificano"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-economia-quotidiana-grammar-grammar-3",
+            "type": "mcq",
+            "prompt": "L’autrice formula la tesi in modo che non ___ ambiguità.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "lascia"
+              },
+              {
+                "id": "b",
+                "text": "lasciare"
+              },
+              {
+                "id": "c",
+                "text": "lasci"
+              },
+              {
+                "id": "d",
+                "text": "lasciano"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-economia-quotidiana-grammar-grammar-4",
+            "type": "mcq",
+            "prompt": "La relazione distingue tra un fatto dimostrato e un’ipotesi che ___ ulteriori prove.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "richiedere"
+              },
+              {
+                "id": "b",
+                "text": "richiedano"
+              },
+              {
+                "id": "c",
+                "text": "richiesta"
+              },
+              {
+                "id": "d",
+                "text": "richiede"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-economia-quotidiana-grammar-grammar-5",
+            "type": "mcq",
+            "prompt": "Benché il ragionamento ___ convincente, manca una fonte indipendente.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "appaia"
+              },
+              {
+                "id": "b",
+                "text": "appare"
+              },
+              {
+                "id": "c",
+                "text": "apparire"
+              },
+              {
+                "id": "d",
+                "text": "appaiono"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-economia-quotidiana-grammar-grammar-6",
+            "type": "mcq",
+            "prompt": "Il portavoce ha riformulato la posizione senza ___ il dissenso.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "minimizza"
+              },
+              {
+                "id": "b",
+                "text": "minimizzare"
+              },
+              {
+                "id": "c",
+                "text": "minimizzato"
+              },
+              {
+                "id": "d",
+                "text": "minimizzando"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-economia-quotidiana-grammar-grammar-7",
+            "type": "mcq",
+            "prompt": "Quale connettore introduce una concessione?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Pertanto"
+              },
+              {
+                "id": "b",
+                "text": "Infatti"
+              },
+              {
+                "id": "c",
+                "text": "Tuttavia"
+              },
+              {
+                "id": "d",
+                "text": "Di conseguenza"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-economia-quotidiana-grammar-grammar-8",
+            "type": "mcq",
+            "prompt": "La conclusione è credibile solo se ___ dalle evidenze.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "sostiene"
+              },
+              {
+                "id": "b",
+                "text": "sostenere"
+              },
+              {
+                "id": "c",
+                "text": "sono sostenuti"
+              },
+              {
+                "id": "d",
+                "text": "è sostenuta"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-economia-quotidiana-grammar-grammar-9",
+            "type": "mcq",
+            "prompt": "Quale frase mantiene un registro argomentativo preciso?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "La tesi richiede una distinzione tra correlazione e causalità."
+              },
+              {
+                "id": "b",
+                "text": "La tesi è super perché sembra vera."
+              },
+              {
+                "id": "c",
+                "text": "La tesi dice cose molto importanti, punto."
+              },
+              {
+                "id": "d",
+                "text": "La tesi ha una cosa che forse va bene."
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-economia-quotidiana-grammar-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "risparmio"
+              },
+              {
+                "id": "b",
+                "text": "bilancio"
+              },
+              {
+                "id": "c",
+                "text": "investimento"
+              },
+              {
+                "id": "d",
+                "text": "variare"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-economia-quotidiana-grammar-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "bilancio"
+              },
+              {
+                "id": "b",
+                "text": "investimento"
+              },
+              {
+                "id": "c",
+                "text": "risparmio"
+              },
+              {
+                "id": "d",
+                "text": "variare"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-economia-quotidiana-grammar-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "bilancio"
+              },
+              {
+                "id": "b",
+                "text": "risparmio"
+              },
+              {
+                "id": "c",
+                "text": "variare"
+              },
+              {
+                "id": "d",
+                "text": "investimento"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-economia-quotidiana-grammar-verb-13",
+            "type": "mcq",
+            "prompt": "Benché l’autore ___ un’obiezione, la sua tesi resta coerente.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "riconosca"
+              },
+              {
+                "id": "b",
+                "text": "riconosce"
+              },
+              {
+                "id": "c",
+                "text": "riconoscere"
+              },
+              {
+                "id": "d",
+                "text": "riconoscono"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-economia-quotidiana-grammar-verb-14",
+            "type": "mcq",
+            "prompt": "Le evidenze ___ la conclusione con precisione.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "sostiene"
+              },
+              {
+                "id": "b",
+                "text": "sostengono"
+              },
+              {
+                "id": "c",
+                "text": "sostenere"
+              },
+              {
+                "id": "d",
+                "text": "sostenuto"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-economia-quotidiana-grammar-verb-15",
+            "type": "mcq",
+            "prompt": "Il relatore ___ la propria posizione alla luce dei dati.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "riformulare"
+              },
+              {
+                "id": "b",
+                "text": "riformulano"
+              },
+              {
+                "id": "c",
+                "text": "riformula"
+              },
+              {
+                "id": "d",
+                "text": "riformulato"
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
@@ -33840,7 +40045,372 @@
         "function": "interpretare dati e disuguaglianze",
         "examples": []
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "id": "italian-c2-economia-e-disuguaglianza-grammar-final-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "italian-c2-economia-e-disuguaglianza-grammar-grammar-1",
+            "type": "mcq",
+            "prompt": "La formulazione attenuata non elimina la premessa, ma ne ___ l’inferenza implicita.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "precisa"
+              },
+              {
+                "id": "b",
+                "text": "precisare"
+              },
+              {
+                "id": "c",
+                "text": "precisano"
+              },
+              {
+                "id": "d",
+                "text": "precisato"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-economia-e-disuguaglianza-grammar-grammar-2",
+            "type": "mcq",
+            "prompt": "Sarebbe improprio affermare che un solo indizio ___ una conclusione definitiva.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "giustifica"
+              },
+              {
+                "id": "b",
+                "text": "giustifichi"
+              },
+              {
+                "id": "c",
+                "text": "giustificare"
+              },
+              {
+                "id": "d",
+                "text": "giustificano"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-economia-e-disuguaglianza-grammar-grammar-3",
+            "type": "mcq",
+            "prompt": "L’autore ricorre a una concessione affinché la tesi non ___ categorica.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "risulta"
+              },
+              {
+                "id": "b",
+                "text": "risultare"
+              },
+              {
+                "id": "c",
+                "text": "risulti"
+              },
+              {
+                "id": "d",
+                "text": "risultano"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-economia-e-disuguaglianza-grammar-grammar-4",
+            "type": "mcq",
+            "prompt": "Il testo lascia intendere, senza dirlo esplicitamente, che la premessa ___ discussa.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "può essere stata"
+              },
+              {
+                "id": "b",
+                "text": "potere essere"
+              },
+              {
+                "id": "c",
+                "text": "possono essere"
+              },
+              {
+                "id": "d",
+                "text": "può essere"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-economia-e-disuguaglianza-grammar-grammar-5",
+            "type": "mcq",
+            "prompt": "Quale riformulazione conserva il grado di certezza?",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "I dati sembrano suggerire una tendenza, non una prova definitiva."
+              },
+              {
+                "id": "b",
+                "text": "I dati dimostrano tutto senza dubbio."
+              },
+              {
+                "id": "c",
+                "text": "I dati sono certamente una prova totale."
+              },
+              {
+                "id": "d",
+                "text": "I dati dicono una cosa sicura sempre."
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-economia-e-disuguaglianza-grammar-grammar-6",
+            "type": "mcq",
+            "prompt": "La scelta lessicale è persuasiva, pur non ___ il dissenso.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "cancella"
+              },
+              {
+                "id": "b",
+                "text": "cancellando"
+              },
+              {
+                "id": "c",
+                "text": "cancellare"
+              },
+              {
+                "id": "d",
+                "text": "cancellata"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-economia-e-disuguaglianza-grammar-grammar-7",
+            "type": "mcq",
+            "prompt": "Una premessa è rilevante nella misura in cui ___ la conclusione.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "sostenere"
+              },
+              {
+                "id": "b",
+                "text": "sostengono"
+              },
+              {
+                "id": "c",
+                "text": "sostiene"
+              },
+              {
+                "id": "d",
+                "text": "sostenuta"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-economia-e-disuguaglianza-grammar-grammar-8",
+            "type": "mcq",
+            "prompt": "Quale espressione attenua correttamente un’affermazione?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "È sicuro al cento per cento che…"
+              },
+              {
+                "id": "b",
+                "text": "È ovvio per tutti che…"
+              },
+              {
+                "id": "c",
+                "text": "Non esiste alcun dubbio che…"
+              },
+              {
+                "id": "d",
+                "text": "È plausibile ipotizzare che…"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-economia-e-disuguaglianza-grammar-grammar-9",
+            "type": "mcq",
+            "prompt": "L’inferenza è valida solo se non ___ oltre quanto le prove consentono.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "si spinge"
+              },
+              {
+                "id": "b",
+                "text": "si spingere"
+              },
+              {
+                "id": "c",
+                "text": "si spingono"
+              },
+              {
+                "id": "d",
+                "text": "si spinta"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-economia-e-disuguaglianza-grammar-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "reddito"
+              },
+              {
+                "id": "b",
+                "text": "disuguaglianza"
+              },
+              {
+                "id": "c",
+                "text": "indicatore"
+              },
+              {
+                "id": "d",
+                "text": "distribuire"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-economia-e-disuguaglianza-grammar-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "disuguaglianza"
+              },
+              {
+                "id": "b",
+                "text": "indicatore"
+              },
+              {
+                "id": "c",
+                "text": "reddito"
+              },
+              {
+                "id": "d",
+                "text": "distribuire"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-economia-e-disuguaglianza-grammar-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "disuguaglianza"
+              },
+              {
+                "id": "b",
+                "text": "reddito"
+              },
+              {
+                "id": "c",
+                "text": "distribuire"
+              },
+              {
+                "id": "d",
+                "text": "indicatore"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-economia-e-disuguaglianza-grammar-verb-13",
+            "type": "mcq",
+            "prompt": "Non si può ___ una conclusione da un unico indizio.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "dedurre"
+              },
+              {
+                "id": "b",
+                "text": "deduce"
+              },
+              {
+                "id": "c",
+                "text": "deducono"
+              },
+              {
+                "id": "d",
+                "text": "dedotto"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-economia-e-disuguaglianza-grammar-verb-14",
+            "type": "mcq",
+            "prompt": "La formulazione ___ il tono senza alterare il significato.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "attenuare"
+              },
+              {
+                "id": "b",
+                "text": "attenua"
+              },
+              {
+                "id": "c",
+                "text": "attenuano"
+              },
+              {
+                "id": "d",
+                "text": "attenuato"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-economia-e-disuguaglianza-grammar-verb-15",
+            "type": "mcq",
+            "prompt": "L’autore ___ una premessa prima di sviluppare l’argomento.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "esplicitare"
+              },
+              {
+                "id": "b",
+                "text": "esplicitano"
+              },
+              {
+                "id": "c",
+                "text": "esplicita"
+              },
+              {
+                "id": "d",
+                "text": "esplicitato"
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
@@ -39506,7 +46076,372 @@
         "function": "presentare pratiche culturali con rispetto",
         "examples": []
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "id": "italian-b2-cultura-e-identita-grammar-final-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "italian-b2-cultura-e-identita-grammar-grammar-1",
+            "type": "mcq",
+            "prompt": "È necessario che il gruppo ___ le conseguenze prima di decidere.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "valuti"
+              },
+              {
+                "id": "b",
+                "text": "valuta"
+              },
+              {
+                "id": "c",
+                "text": "valutare"
+              },
+              {
+                "id": "d",
+                "text": "valutano"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-cultura-e-identita-grammar-grammar-2",
+            "type": "mcq",
+            "prompt": "Sebbene il termine ___ vicino, possiamo riorganizzare le risorse.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "è"
+              },
+              {
+                "id": "b",
+                "text": "sia"
+              },
+              {
+                "id": "c",
+                "text": "essere"
+              },
+              {
+                "id": "d",
+                "text": "sono"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-cultura-e-identita-grammar-grammar-3",
+            "type": "mcq",
+            "prompt": "La proposta è valida, purché ___ sostenibile.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "rimane"
+              },
+              {
+                "id": "b",
+                "text": "rimanere"
+              },
+              {
+                "id": "c",
+                "text": "rimanga"
+              },
+              {
+                "id": "d",
+                "text": "rimangono"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-cultura-e-identita-grammar-grammar-4",
+            "type": "mcq",
+            "prompt": "Nonostante le difficoltà, il progetto ___ nei tempi previsti.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "proseguire"
+              },
+              {
+                "id": "b",
+                "text": "proseguono"
+              },
+              {
+                "id": "c",
+                "text": "proseguito"
+              },
+              {
+                "id": "d",
+                "text": "prosegue"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-cultura-e-identita-grammar-grammar-5",
+            "type": "mcq",
+            "prompt": "È preferibile che ogni incarico ___ con chiarezza.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "venga definito"
+              },
+              {
+                "id": "b",
+                "text": "viene definito"
+              },
+              {
+                "id": "c",
+                "text": "venire definito"
+              },
+              {
+                "id": "d",
+                "text": "vengono definiti"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-cultura-e-identita-grammar-grammar-6",
+            "type": "mcq",
+            "prompt": "Il coordinatore spiega la scelta affinché tutti la ___.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "comprendono"
+              },
+              {
+                "id": "b",
+                "text": "comprendano"
+              },
+              {
+                "id": "c",
+                "text": "comprendere"
+              },
+              {
+                "id": "d",
+                "text": "comprende"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-cultura-e-identita-grammar-grammar-7",
+            "type": "mcq",
+            "prompt": "La squadra ha agito con cautela, ___ mancavano alcuni dati.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "quindi"
+              },
+              {
+                "id": "b",
+                "text": "infatti"
+              },
+              {
+                "id": "c",
+                "text": "benché"
+              },
+              {
+                "id": "d",
+                "text": "perciò"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-cultura-e-identita-grammar-grammar-8",
+            "type": "mcq",
+            "prompt": "Prima di procedere, occorre ___ le alternative.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "valuta"
+              },
+              {
+                "id": "b",
+                "text": "valutando"
+              },
+              {
+                "id": "c",
+                "text": "valutato"
+              },
+              {
+                "id": "d",
+                "text": "valutare"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-cultura-e-identita-grammar-grammar-9",
+            "type": "mcq",
+            "prompt": "Quale frase usa un registro formale appropriato?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Le chiediamo di confermare la disponibilità entro venerdì."
+              },
+              {
+                "id": "b",
+                "text": "Ti chiediamo confermare disponibilità entro venerdì."
+              },
+              {
+                "id": "c",
+                "text": "Chiediamo a te di confermi entro venerdì."
+              },
+              {
+                "id": "d",
+                "text": "Le chiediamo che conferma la disponibilità entro venerdì."
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-cultura-e-identita-grammar-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "appartenenza"
+              },
+              {
+                "id": "b",
+                "text": "tradizione"
+              },
+              {
+                "id": "c",
+                "text": "prospettiva"
+              },
+              {
+                "id": "d",
+                "text": "valorizzare"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-cultura-e-identita-grammar-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "tradizione"
+              },
+              {
+                "id": "b",
+                "text": "prospettiva"
+              },
+              {
+                "id": "c",
+                "text": "appartenenza"
+              },
+              {
+                "id": "d",
+                "text": "valorizzare"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-cultura-e-identita-grammar-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "tradizione"
+              },
+              {
+                "id": "b",
+                "text": "appartenenza"
+              },
+              {
+                "id": "c",
+                "text": "valorizzare"
+              },
+              {
+                "id": "d",
+                "text": "prospettiva"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-cultura-e-identita-grammar-verb-13",
+            "type": "mcq",
+            "prompt": "È importante che il gruppo ___ ogni conseguenza.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "valuti"
+              },
+              {
+                "id": "b",
+                "text": "valuta"
+              },
+              {
+                "id": "c",
+                "text": "valutare"
+              },
+              {
+                "id": "d",
+                "text": "valutano"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-cultura-e-identita-grammar-verb-14",
+            "type": "mcq",
+            "prompt": "Noi ___ le risorse prima dell’incontro.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "coordinerà"
+              },
+              {
+                "id": "b",
+                "text": "coordineremo"
+              },
+              {
+                "id": "c",
+                "text": "coordinare"
+              },
+              {
+                "id": "d",
+                "text": "coordinato"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-cultura-e-identita-grammar-verb-15",
+            "type": "mcq",
+            "prompt": "Il responsabile ___ un incarico preciso a ciascuno.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "assegnano"
+              },
+              {
+                "id": "b",
+                "text": "assegnare"
+              },
+              {
+                "id": "c",
+                "text": "assegnerà"
+              },
+              {
+                "id": "d",
+                "text": "assegnato"
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
@@ -39619,7 +46554,372 @@
         "function": "collegare memoria, territorio e cambiamento",
         "examples": []
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "id": "italian-c1-territori-e-memoria-grammar-final-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "italian-c1-territori-e-memoria-grammar-grammar-1",
+            "type": "mcq",
+            "prompt": "Pur ___ l’obiezione, l’autore sostiene la tesi con evidenze verificabili.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "riconoscendo"
+              },
+              {
+                "id": "b",
+                "text": "riconosce"
+              },
+              {
+                "id": "c",
+                "text": "riconoscere"
+              },
+              {
+                "id": "d",
+                "text": "riconosciuto"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-territori-e-memoria-grammar-grammar-2",
+            "type": "mcq",
+            "prompt": "Non si può concludere nulla finché i dati non ___.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "sono verificati"
+              },
+              {
+                "id": "b",
+                "text": "siano stati verificati"
+              },
+              {
+                "id": "c",
+                "text": "essere verificati"
+              },
+              {
+                "id": "d",
+                "text": "saranno verificano"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-territori-e-memoria-grammar-grammar-3",
+            "type": "mcq",
+            "prompt": "L’autrice formula la tesi in modo che non ___ ambiguità.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "lascia"
+              },
+              {
+                "id": "b",
+                "text": "lasciare"
+              },
+              {
+                "id": "c",
+                "text": "lasci"
+              },
+              {
+                "id": "d",
+                "text": "lasciano"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-territori-e-memoria-grammar-grammar-4",
+            "type": "mcq",
+            "prompt": "La relazione distingue tra un fatto dimostrato e un’ipotesi che ___ ulteriori prove.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "richiedere"
+              },
+              {
+                "id": "b",
+                "text": "richiedano"
+              },
+              {
+                "id": "c",
+                "text": "richiesta"
+              },
+              {
+                "id": "d",
+                "text": "richiede"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-territori-e-memoria-grammar-grammar-5",
+            "type": "mcq",
+            "prompt": "Benché il ragionamento ___ convincente, manca una fonte indipendente.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "appaia"
+              },
+              {
+                "id": "b",
+                "text": "appare"
+              },
+              {
+                "id": "c",
+                "text": "apparire"
+              },
+              {
+                "id": "d",
+                "text": "appaiono"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-territori-e-memoria-grammar-grammar-6",
+            "type": "mcq",
+            "prompt": "Il portavoce ha riformulato la posizione senza ___ il dissenso.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "minimizza"
+              },
+              {
+                "id": "b",
+                "text": "minimizzare"
+              },
+              {
+                "id": "c",
+                "text": "minimizzato"
+              },
+              {
+                "id": "d",
+                "text": "minimizzando"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-territori-e-memoria-grammar-grammar-7",
+            "type": "mcq",
+            "prompt": "Quale connettore introduce una concessione?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Pertanto"
+              },
+              {
+                "id": "b",
+                "text": "Infatti"
+              },
+              {
+                "id": "c",
+                "text": "Tuttavia"
+              },
+              {
+                "id": "d",
+                "text": "Di conseguenza"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-territori-e-memoria-grammar-grammar-8",
+            "type": "mcq",
+            "prompt": "La conclusione è credibile solo se ___ dalle evidenze.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "sostiene"
+              },
+              {
+                "id": "b",
+                "text": "sostenere"
+              },
+              {
+                "id": "c",
+                "text": "sono sostenuti"
+              },
+              {
+                "id": "d",
+                "text": "è sostenuta"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-territori-e-memoria-grammar-grammar-9",
+            "type": "mcq",
+            "prompt": "Quale frase mantiene un registro argomentativo preciso?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "La tesi richiede una distinzione tra correlazione e causalità."
+              },
+              {
+                "id": "b",
+                "text": "La tesi è super perché sembra vera."
+              },
+              {
+                "id": "c",
+                "text": "La tesi dice cose molto importanti, punto."
+              },
+              {
+                "id": "d",
+                "text": "La tesi ha una cosa che forse va bene."
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-territori-e-memoria-grammar-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "patrimonio"
+              },
+              {
+                "id": "b",
+                "text": "memoria"
+              },
+              {
+                "id": "c",
+                "text": "trasformazione"
+              },
+              {
+                "id": "d",
+                "text": "preservare"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-territori-e-memoria-grammar-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "memoria"
+              },
+              {
+                "id": "b",
+                "text": "trasformazione"
+              },
+              {
+                "id": "c",
+                "text": "patrimonio"
+              },
+              {
+                "id": "d",
+                "text": "preservare"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-territori-e-memoria-grammar-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "memoria"
+              },
+              {
+                "id": "b",
+                "text": "patrimonio"
+              },
+              {
+                "id": "c",
+                "text": "preservare"
+              },
+              {
+                "id": "d",
+                "text": "trasformazione"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-territori-e-memoria-grammar-verb-13",
+            "type": "mcq",
+            "prompt": "Benché l’autore ___ un’obiezione, la sua tesi resta coerente.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "riconosca"
+              },
+              {
+                "id": "b",
+                "text": "riconosce"
+              },
+              {
+                "id": "c",
+                "text": "riconoscere"
+              },
+              {
+                "id": "d",
+                "text": "riconoscono"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-territori-e-memoria-grammar-verb-14",
+            "type": "mcq",
+            "prompt": "Le evidenze ___ la conclusione con precisione.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "sostiene"
+              },
+              {
+                "id": "b",
+                "text": "sostengono"
+              },
+              {
+                "id": "c",
+                "text": "sostenere"
+              },
+              {
+                "id": "d",
+                "text": "sostenuto"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-territori-e-memoria-grammar-verb-15",
+            "type": "mcq",
+            "prompt": "Il relatore ___ la propria posizione alla luce dei dati.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "riformulare"
+              },
+              {
+                "id": "b",
+                "text": "riformulano"
+              },
+              {
+                "id": "c",
+                "text": "riformula"
+              },
+              {
+                "id": "d",
+                "text": "riformulato"
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
@@ -39732,7 +47032,372 @@
         "function": "argomentare scenari ambientali complessi",
         "examples": []
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "id": "italian-c2-ambiente-e-futuro-grammar-final-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "italian-c2-ambiente-e-futuro-grammar-grammar-1",
+            "type": "mcq",
+            "prompt": "La formulazione attenuata non elimina la premessa, ma ne ___ l’inferenza implicita.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "precisa"
+              },
+              {
+                "id": "b",
+                "text": "precisare"
+              },
+              {
+                "id": "c",
+                "text": "precisano"
+              },
+              {
+                "id": "d",
+                "text": "precisato"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-ambiente-e-futuro-grammar-grammar-2",
+            "type": "mcq",
+            "prompt": "Sarebbe improprio affermare che un solo indizio ___ una conclusione definitiva.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "giustifica"
+              },
+              {
+                "id": "b",
+                "text": "giustifichi"
+              },
+              {
+                "id": "c",
+                "text": "giustificare"
+              },
+              {
+                "id": "d",
+                "text": "giustificano"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-ambiente-e-futuro-grammar-grammar-3",
+            "type": "mcq",
+            "prompt": "L’autore ricorre a una concessione affinché la tesi non ___ categorica.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "risulta"
+              },
+              {
+                "id": "b",
+                "text": "risultare"
+              },
+              {
+                "id": "c",
+                "text": "risulti"
+              },
+              {
+                "id": "d",
+                "text": "risultano"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-ambiente-e-futuro-grammar-grammar-4",
+            "type": "mcq",
+            "prompt": "Il testo lascia intendere, senza dirlo esplicitamente, che la premessa ___ discussa.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "può essere stata"
+              },
+              {
+                "id": "b",
+                "text": "potere essere"
+              },
+              {
+                "id": "c",
+                "text": "possono essere"
+              },
+              {
+                "id": "d",
+                "text": "può essere"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-ambiente-e-futuro-grammar-grammar-5",
+            "type": "mcq",
+            "prompt": "Quale riformulazione conserva il grado di certezza?",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "I dati sembrano suggerire una tendenza, non una prova definitiva."
+              },
+              {
+                "id": "b",
+                "text": "I dati dimostrano tutto senza dubbio."
+              },
+              {
+                "id": "c",
+                "text": "I dati sono certamente una prova totale."
+              },
+              {
+                "id": "d",
+                "text": "I dati dicono una cosa sicura sempre."
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-ambiente-e-futuro-grammar-grammar-6",
+            "type": "mcq",
+            "prompt": "La scelta lessicale è persuasiva, pur non ___ il dissenso.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "cancella"
+              },
+              {
+                "id": "b",
+                "text": "cancellando"
+              },
+              {
+                "id": "c",
+                "text": "cancellare"
+              },
+              {
+                "id": "d",
+                "text": "cancellata"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-ambiente-e-futuro-grammar-grammar-7",
+            "type": "mcq",
+            "prompt": "Una premessa è rilevante nella misura in cui ___ la conclusione.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "sostenere"
+              },
+              {
+                "id": "b",
+                "text": "sostengono"
+              },
+              {
+                "id": "c",
+                "text": "sostiene"
+              },
+              {
+                "id": "d",
+                "text": "sostenuta"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-ambiente-e-futuro-grammar-grammar-8",
+            "type": "mcq",
+            "prompt": "Quale espressione attenua correttamente un’affermazione?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "È sicuro al cento per cento che…"
+              },
+              {
+                "id": "b",
+                "text": "È ovvio per tutti che…"
+              },
+              {
+                "id": "c",
+                "text": "Non esiste alcun dubbio che…"
+              },
+              {
+                "id": "d",
+                "text": "È plausibile ipotizzare che…"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-ambiente-e-futuro-grammar-grammar-9",
+            "type": "mcq",
+            "prompt": "L’inferenza è valida solo se non ___ oltre quanto le prove consentono.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "si spinge"
+              },
+              {
+                "id": "b",
+                "text": "si spingere"
+              },
+              {
+                "id": "c",
+                "text": "si spingono"
+              },
+              {
+                "id": "d",
+                "text": "si spinta"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-ambiente-e-futuro-grammar-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "risorsa"
+              },
+              {
+                "id": "b",
+                "text": "scenario"
+              },
+              {
+                "id": "c",
+                "text": "mitigare"
+              },
+              {
+                "id": "d",
+                "text": "adattamento"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-ambiente-e-futuro-grammar-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "scenario"
+              },
+              {
+                "id": "b",
+                "text": "mitigare"
+              },
+              {
+                "id": "c",
+                "text": "risorsa"
+              },
+              {
+                "id": "d",
+                "text": "adattamento"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-ambiente-e-futuro-grammar-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "scenario"
+              },
+              {
+                "id": "b",
+                "text": "risorsa"
+              },
+              {
+                "id": "c",
+                "text": "adattamento"
+              },
+              {
+                "id": "d",
+                "text": "mitigare"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-ambiente-e-futuro-grammar-verb-13",
+            "type": "mcq",
+            "prompt": "Non si può ___ una conclusione da un unico indizio.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "dedurre"
+              },
+              {
+                "id": "b",
+                "text": "deduce"
+              },
+              {
+                "id": "c",
+                "text": "deducono"
+              },
+              {
+                "id": "d",
+                "text": "dedotto"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-ambiente-e-futuro-grammar-verb-14",
+            "type": "mcq",
+            "prompt": "La formulazione ___ il tono senza alterare il significato.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "attenuare"
+              },
+              {
+                "id": "b",
+                "text": "attenua"
+              },
+              {
+                "id": "c",
+                "text": "attenuano"
+              },
+              {
+                "id": "d",
+                "text": "attenuato"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-ambiente-e-futuro-grammar-verb-15",
+            "type": "mcq",
+            "prompt": "L’autore ___ una premessa prima di sviluppare l’argomento.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "esplicitare"
+              },
+              {
+                "id": "b",
+                "text": "esplicitano"
+              },
+              {
+                "id": "c",
+                "text": "esplicita"
+              },
+              {
+                "id": "d",
+                "text": "esplicitato"
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
@@ -45396,7 +53061,372 @@
         "function": "discutere benefici e rischi digitali",
         "examples": []
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "id": "italian-b2-tecnologia-e-privacy-grammar-final-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "italian-b2-tecnologia-e-privacy-grammar-grammar-1",
+            "type": "mcq",
+            "prompt": "È necessario che il gruppo ___ le conseguenze prima di decidere.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "valuti"
+              },
+              {
+                "id": "b",
+                "text": "valuta"
+              },
+              {
+                "id": "c",
+                "text": "valutare"
+              },
+              {
+                "id": "d",
+                "text": "valutano"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-tecnologia-e-privacy-grammar-grammar-2",
+            "type": "mcq",
+            "prompt": "Sebbene il termine ___ vicino, possiamo riorganizzare le risorse.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "è"
+              },
+              {
+                "id": "b",
+                "text": "sia"
+              },
+              {
+                "id": "c",
+                "text": "essere"
+              },
+              {
+                "id": "d",
+                "text": "sono"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-tecnologia-e-privacy-grammar-grammar-3",
+            "type": "mcq",
+            "prompt": "La proposta è valida, purché ___ sostenibile.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "rimane"
+              },
+              {
+                "id": "b",
+                "text": "rimanere"
+              },
+              {
+                "id": "c",
+                "text": "rimanga"
+              },
+              {
+                "id": "d",
+                "text": "rimangono"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-tecnologia-e-privacy-grammar-grammar-4",
+            "type": "mcq",
+            "prompt": "Nonostante le difficoltà, il progetto ___ nei tempi previsti.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "proseguire"
+              },
+              {
+                "id": "b",
+                "text": "proseguono"
+              },
+              {
+                "id": "c",
+                "text": "proseguito"
+              },
+              {
+                "id": "d",
+                "text": "prosegue"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-tecnologia-e-privacy-grammar-grammar-5",
+            "type": "mcq",
+            "prompt": "È preferibile che ogni incarico ___ con chiarezza.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "venga definito"
+              },
+              {
+                "id": "b",
+                "text": "viene definito"
+              },
+              {
+                "id": "c",
+                "text": "venire definito"
+              },
+              {
+                "id": "d",
+                "text": "vengono definiti"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-tecnologia-e-privacy-grammar-grammar-6",
+            "type": "mcq",
+            "prompt": "Il coordinatore spiega la scelta affinché tutti la ___.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "comprendono"
+              },
+              {
+                "id": "b",
+                "text": "comprendano"
+              },
+              {
+                "id": "c",
+                "text": "comprendere"
+              },
+              {
+                "id": "d",
+                "text": "comprende"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-tecnologia-e-privacy-grammar-grammar-7",
+            "type": "mcq",
+            "prompt": "La squadra ha agito con cautela, ___ mancavano alcuni dati.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "quindi"
+              },
+              {
+                "id": "b",
+                "text": "infatti"
+              },
+              {
+                "id": "c",
+                "text": "benché"
+              },
+              {
+                "id": "d",
+                "text": "perciò"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-tecnologia-e-privacy-grammar-grammar-8",
+            "type": "mcq",
+            "prompt": "Prima di procedere, occorre ___ le alternative.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "valuta"
+              },
+              {
+                "id": "b",
+                "text": "valutando"
+              },
+              {
+                "id": "c",
+                "text": "valutato"
+              },
+              {
+                "id": "d",
+                "text": "valutare"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-tecnologia-e-privacy-grammar-grammar-9",
+            "type": "mcq",
+            "prompt": "Quale frase usa un registro formale appropriato?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Le chiediamo di confermare la disponibilità entro venerdì."
+              },
+              {
+                "id": "b",
+                "text": "Ti chiediamo confermare disponibilità entro venerdì."
+              },
+              {
+                "id": "c",
+                "text": "Chiediamo a te di confermi entro venerdì."
+              },
+              {
+                "id": "d",
+                "text": "Le chiediamo che conferma la disponibilità entro venerdì."
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-tecnologia-e-privacy-grammar-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "dati"
+              },
+              {
+                "id": "b",
+                "text": "dispositivo"
+              },
+              {
+                "id": "c",
+                "text": "proteggere"
+              },
+              {
+                "id": "d",
+                "text": "consenso"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-tecnologia-e-privacy-grammar-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "dispositivo"
+              },
+              {
+                "id": "b",
+                "text": "proteggere"
+              },
+              {
+                "id": "c",
+                "text": "dati"
+              },
+              {
+                "id": "d",
+                "text": "consenso"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-tecnologia-e-privacy-grammar-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "dispositivo"
+              },
+              {
+                "id": "b",
+                "text": "dati"
+              },
+              {
+                "id": "c",
+                "text": "consenso"
+              },
+              {
+                "id": "d",
+                "text": "proteggere"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-tecnologia-e-privacy-grammar-verb-13",
+            "type": "mcq",
+            "prompt": "È importante che il gruppo ___ ogni conseguenza.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "valuti"
+              },
+              {
+                "id": "b",
+                "text": "valuta"
+              },
+              {
+                "id": "c",
+                "text": "valutare"
+              },
+              {
+                "id": "d",
+                "text": "valutano"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-tecnologia-e-privacy-grammar-verb-14",
+            "type": "mcq",
+            "prompt": "Noi ___ le risorse prima dell’incontro.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "coordinerà"
+              },
+              {
+                "id": "b",
+                "text": "coordineremo"
+              },
+              {
+                "id": "c",
+                "text": "coordinare"
+              },
+              {
+                "id": "d",
+                "text": "coordinato"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-tecnologia-e-privacy-grammar-verb-15",
+            "type": "mcq",
+            "prompt": "Il responsabile ___ un incarico preciso a ciascuno.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "assegnano"
+              },
+              {
+                "id": "b",
+                "text": "assegnare"
+              },
+              {
+                "id": "c",
+                "text": "assegnerà"
+              },
+              {
+                "id": "d",
+                "text": "assegnato"
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
@@ -45509,7 +53539,372 @@
         "function": "adattare il registro a destinatari diversi",
         "examples": []
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "id": "italian-c1-comunicazione-e-registro-grammar-final-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "italian-c1-comunicazione-e-registro-grammar-grammar-1",
+            "type": "mcq",
+            "prompt": "Pur ___ l’obiezione, l’autore sostiene la tesi con evidenze verificabili.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "riconoscendo"
+              },
+              {
+                "id": "b",
+                "text": "riconosce"
+              },
+              {
+                "id": "c",
+                "text": "riconoscere"
+              },
+              {
+                "id": "d",
+                "text": "riconosciuto"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-comunicazione-e-registro-grammar-grammar-2",
+            "type": "mcq",
+            "prompt": "Non si può concludere nulla finché i dati non ___.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "sono verificati"
+              },
+              {
+                "id": "b",
+                "text": "siano stati verificati"
+              },
+              {
+                "id": "c",
+                "text": "essere verificati"
+              },
+              {
+                "id": "d",
+                "text": "saranno verificano"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-comunicazione-e-registro-grammar-grammar-3",
+            "type": "mcq",
+            "prompt": "L’autrice formula la tesi in modo che non ___ ambiguità.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "lascia"
+              },
+              {
+                "id": "b",
+                "text": "lasciare"
+              },
+              {
+                "id": "c",
+                "text": "lasci"
+              },
+              {
+                "id": "d",
+                "text": "lasciano"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-comunicazione-e-registro-grammar-grammar-4",
+            "type": "mcq",
+            "prompt": "La relazione distingue tra un fatto dimostrato e un’ipotesi che ___ ulteriori prove.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "richiedere"
+              },
+              {
+                "id": "b",
+                "text": "richiedano"
+              },
+              {
+                "id": "c",
+                "text": "richiesta"
+              },
+              {
+                "id": "d",
+                "text": "richiede"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-comunicazione-e-registro-grammar-grammar-5",
+            "type": "mcq",
+            "prompt": "Benché il ragionamento ___ convincente, manca una fonte indipendente.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "appaia"
+              },
+              {
+                "id": "b",
+                "text": "appare"
+              },
+              {
+                "id": "c",
+                "text": "apparire"
+              },
+              {
+                "id": "d",
+                "text": "appaiono"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-comunicazione-e-registro-grammar-grammar-6",
+            "type": "mcq",
+            "prompt": "Il portavoce ha riformulato la posizione senza ___ il dissenso.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "minimizza"
+              },
+              {
+                "id": "b",
+                "text": "minimizzare"
+              },
+              {
+                "id": "c",
+                "text": "minimizzato"
+              },
+              {
+                "id": "d",
+                "text": "minimizzando"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-comunicazione-e-registro-grammar-grammar-7",
+            "type": "mcq",
+            "prompt": "Quale connettore introduce una concessione?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Pertanto"
+              },
+              {
+                "id": "b",
+                "text": "Infatti"
+              },
+              {
+                "id": "c",
+                "text": "Tuttavia"
+              },
+              {
+                "id": "d",
+                "text": "Di conseguenza"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-comunicazione-e-registro-grammar-grammar-8",
+            "type": "mcq",
+            "prompt": "La conclusione è credibile solo se ___ dalle evidenze.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "sostiene"
+              },
+              {
+                "id": "b",
+                "text": "sostenere"
+              },
+              {
+                "id": "c",
+                "text": "sono sostenuti"
+              },
+              {
+                "id": "d",
+                "text": "è sostenuta"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-comunicazione-e-registro-grammar-grammar-9",
+            "type": "mcq",
+            "prompt": "Quale frase mantiene un registro argomentativo preciso?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "La tesi richiede una distinzione tra correlazione e causalità."
+              },
+              {
+                "id": "b",
+                "text": "La tesi è super perché sembra vera."
+              },
+              {
+                "id": "c",
+                "text": "La tesi dice cose molto importanti, punto."
+              },
+              {
+                "id": "d",
+                "text": "La tesi ha una cosa che forse va bene."
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-comunicazione-e-registro-grammar-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "destinatario"
+              },
+              {
+                "id": "b",
+                "text": "registro"
+              },
+              {
+                "id": "c",
+                "text": "intenzione"
+              },
+              {
+                "id": "d",
+                "text": "formulare"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-comunicazione-e-registro-grammar-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "registro"
+              },
+              {
+                "id": "b",
+                "text": "intenzione"
+              },
+              {
+                "id": "c",
+                "text": "destinatario"
+              },
+              {
+                "id": "d",
+                "text": "formulare"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-comunicazione-e-registro-grammar-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "registro"
+              },
+              {
+                "id": "b",
+                "text": "destinatario"
+              },
+              {
+                "id": "c",
+                "text": "formulare"
+              },
+              {
+                "id": "d",
+                "text": "intenzione"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-comunicazione-e-registro-grammar-verb-13",
+            "type": "mcq",
+            "prompt": "Benché l’autore ___ un’obiezione, la sua tesi resta coerente.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "riconosca"
+              },
+              {
+                "id": "b",
+                "text": "riconosce"
+              },
+              {
+                "id": "c",
+                "text": "riconoscere"
+              },
+              {
+                "id": "d",
+                "text": "riconoscono"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-comunicazione-e-registro-grammar-verb-14",
+            "type": "mcq",
+            "prompt": "Le evidenze ___ la conclusione con precisione.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "sostiene"
+              },
+              {
+                "id": "b",
+                "text": "sostengono"
+              },
+              {
+                "id": "c",
+                "text": "sostenere"
+              },
+              {
+                "id": "d",
+                "text": "sostenuto"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-comunicazione-e-registro-grammar-verb-15",
+            "type": "mcq",
+            "prompt": "Il relatore ___ la propria posizione alla luce dei dati.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "riformulare"
+              },
+              {
+                "id": "b",
+                "text": "riformulano"
+              },
+              {
+                "id": "c",
+                "text": "riformula"
+              },
+              {
+                "id": "d",
+                "text": "riformulato"
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
@@ -45622,7 +54017,372 @@
         "function": "analizzare il discorso pubblico nei media",
         "examples": []
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "id": "italian-c2-media-e-discorso-grammar-final-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "italian-c2-media-e-discorso-grammar-grammar-1",
+            "type": "mcq",
+            "prompt": "La formulazione attenuata non elimina la premessa, ma ne ___ l’inferenza implicita.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "precisa"
+              },
+              {
+                "id": "b",
+                "text": "precisare"
+              },
+              {
+                "id": "c",
+                "text": "precisano"
+              },
+              {
+                "id": "d",
+                "text": "precisato"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-media-e-discorso-grammar-grammar-2",
+            "type": "mcq",
+            "prompt": "Sarebbe improprio affermare che un solo indizio ___ una conclusione definitiva.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "giustifica"
+              },
+              {
+                "id": "b",
+                "text": "giustifichi"
+              },
+              {
+                "id": "c",
+                "text": "giustificare"
+              },
+              {
+                "id": "d",
+                "text": "giustificano"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-media-e-discorso-grammar-grammar-3",
+            "type": "mcq",
+            "prompt": "L’autore ricorre a una concessione affinché la tesi non ___ categorica.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "risulta"
+              },
+              {
+                "id": "b",
+                "text": "risultare"
+              },
+              {
+                "id": "c",
+                "text": "risulti"
+              },
+              {
+                "id": "d",
+                "text": "risultano"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-media-e-discorso-grammar-grammar-4",
+            "type": "mcq",
+            "prompt": "Il testo lascia intendere, senza dirlo esplicitamente, che la premessa ___ discussa.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "può essere stata"
+              },
+              {
+                "id": "b",
+                "text": "potere essere"
+              },
+              {
+                "id": "c",
+                "text": "possono essere"
+              },
+              {
+                "id": "d",
+                "text": "può essere"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-media-e-discorso-grammar-grammar-5",
+            "type": "mcq",
+            "prompt": "Quale riformulazione conserva il grado di certezza?",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "I dati sembrano suggerire una tendenza, non una prova definitiva."
+              },
+              {
+                "id": "b",
+                "text": "I dati dimostrano tutto senza dubbio."
+              },
+              {
+                "id": "c",
+                "text": "I dati sono certamente una prova totale."
+              },
+              {
+                "id": "d",
+                "text": "I dati dicono una cosa sicura sempre."
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-media-e-discorso-grammar-grammar-6",
+            "type": "mcq",
+            "prompt": "La scelta lessicale è persuasiva, pur non ___ il dissenso.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "cancella"
+              },
+              {
+                "id": "b",
+                "text": "cancellando"
+              },
+              {
+                "id": "c",
+                "text": "cancellare"
+              },
+              {
+                "id": "d",
+                "text": "cancellata"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-media-e-discorso-grammar-grammar-7",
+            "type": "mcq",
+            "prompt": "Una premessa è rilevante nella misura in cui ___ la conclusione.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "sostenere"
+              },
+              {
+                "id": "b",
+                "text": "sostengono"
+              },
+              {
+                "id": "c",
+                "text": "sostiene"
+              },
+              {
+                "id": "d",
+                "text": "sostenuta"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-media-e-discorso-grammar-grammar-8",
+            "type": "mcq",
+            "prompt": "Quale espressione attenua correttamente un’affermazione?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "È sicuro al cento per cento che…"
+              },
+              {
+                "id": "b",
+                "text": "È ovvio per tutti che…"
+              },
+              {
+                "id": "c",
+                "text": "Non esiste alcun dubbio che…"
+              },
+              {
+                "id": "d",
+                "text": "È plausibile ipotizzare che…"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-media-e-discorso-grammar-grammar-9",
+            "type": "mcq",
+            "prompt": "L’inferenza è valida solo se non ___ oltre quanto le prove consentono.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "si spinge"
+              },
+              {
+                "id": "b",
+                "text": "si spingere"
+              },
+              {
+                "id": "c",
+                "text": "si spingono"
+              },
+              {
+                "id": "d",
+                "text": "si spinta"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-media-e-discorso-grammar-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "narrazione"
+              },
+              {
+                "id": "b",
+                "text": "cornice"
+              },
+              {
+                "id": "c",
+                "text": "selezionare"
+              },
+              {
+                "id": "d",
+                "text": "visibilità"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-media-e-discorso-grammar-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "cornice"
+              },
+              {
+                "id": "b",
+                "text": "selezionare"
+              },
+              {
+                "id": "c",
+                "text": "narrazione"
+              },
+              {
+                "id": "d",
+                "text": "visibilità"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-media-e-discorso-grammar-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "cornice"
+              },
+              {
+                "id": "b",
+                "text": "narrazione"
+              },
+              {
+                "id": "c",
+                "text": "visibilità"
+              },
+              {
+                "id": "d",
+                "text": "selezionare"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-media-e-discorso-grammar-verb-13",
+            "type": "mcq",
+            "prompt": "Non si può ___ una conclusione da un unico indizio.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "dedurre"
+              },
+              {
+                "id": "b",
+                "text": "deduce"
+              },
+              {
+                "id": "c",
+                "text": "deducono"
+              },
+              {
+                "id": "d",
+                "text": "dedotto"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-media-e-discorso-grammar-verb-14",
+            "type": "mcq",
+            "prompt": "La formulazione ___ il tono senza alterare il significato.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "attenuare"
+              },
+              {
+                "id": "b",
+                "text": "attenua"
+              },
+              {
+                "id": "c",
+                "text": "attenuano"
+              },
+              {
+                "id": "d",
+                "text": "attenuato"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-media-e-discorso-grammar-verb-15",
+            "type": "mcq",
+            "prompt": "L’autore ___ una premessa prima di sviluppare l’argomento.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "esplicitare"
+              },
+              {
+                "id": "b",
+                "text": "esplicitano"
+              },
+              {
+                "id": "c",
+                "text": "esplicita"
+              },
+              {
+                "id": "d",
+                "text": "esplicitato"
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
@@ -51288,7 +60048,372 @@
         "function": "raccontare un viaggio e formulare raccomandazioni",
         "examples": []
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "id": "italian-b2-viaggi-consapevoli-grammar-final-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "italian-b2-viaggi-consapevoli-grammar-grammar-1",
+            "type": "mcq",
+            "prompt": "È necessario che il gruppo ___ le conseguenze prima di decidere.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "valuti"
+              },
+              {
+                "id": "b",
+                "text": "valuta"
+              },
+              {
+                "id": "c",
+                "text": "valutare"
+              },
+              {
+                "id": "d",
+                "text": "valutano"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-viaggi-consapevoli-grammar-grammar-2",
+            "type": "mcq",
+            "prompt": "Sebbene il termine ___ vicino, possiamo riorganizzare le risorse.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "è"
+              },
+              {
+                "id": "b",
+                "text": "sia"
+              },
+              {
+                "id": "c",
+                "text": "essere"
+              },
+              {
+                "id": "d",
+                "text": "sono"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-viaggi-consapevoli-grammar-grammar-3",
+            "type": "mcq",
+            "prompt": "La proposta è valida, purché ___ sostenibile.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "rimane"
+              },
+              {
+                "id": "b",
+                "text": "rimanere"
+              },
+              {
+                "id": "c",
+                "text": "rimanga"
+              },
+              {
+                "id": "d",
+                "text": "rimangono"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-viaggi-consapevoli-grammar-grammar-4",
+            "type": "mcq",
+            "prompt": "Nonostante le difficoltà, il progetto ___ nei tempi previsti.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "proseguire"
+              },
+              {
+                "id": "b",
+                "text": "proseguono"
+              },
+              {
+                "id": "c",
+                "text": "proseguito"
+              },
+              {
+                "id": "d",
+                "text": "prosegue"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-viaggi-consapevoli-grammar-grammar-5",
+            "type": "mcq",
+            "prompt": "È preferibile che ogni incarico ___ con chiarezza.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "venga definito"
+              },
+              {
+                "id": "b",
+                "text": "viene definito"
+              },
+              {
+                "id": "c",
+                "text": "venire definito"
+              },
+              {
+                "id": "d",
+                "text": "vengono definiti"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-viaggi-consapevoli-grammar-grammar-6",
+            "type": "mcq",
+            "prompt": "Il coordinatore spiega la scelta affinché tutti la ___.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "comprendono"
+              },
+              {
+                "id": "b",
+                "text": "comprendano"
+              },
+              {
+                "id": "c",
+                "text": "comprendere"
+              },
+              {
+                "id": "d",
+                "text": "comprende"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-viaggi-consapevoli-grammar-grammar-7",
+            "type": "mcq",
+            "prompt": "La squadra ha agito con cautela, ___ mancavano alcuni dati.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "quindi"
+              },
+              {
+                "id": "b",
+                "text": "infatti"
+              },
+              {
+                "id": "c",
+                "text": "benché"
+              },
+              {
+                "id": "d",
+                "text": "perciò"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-viaggi-consapevoli-grammar-grammar-8",
+            "type": "mcq",
+            "prompt": "Prima di procedere, occorre ___ le alternative.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "valuta"
+              },
+              {
+                "id": "b",
+                "text": "valutando"
+              },
+              {
+                "id": "c",
+                "text": "valutato"
+              },
+              {
+                "id": "d",
+                "text": "valutare"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-viaggi-consapevoli-grammar-grammar-9",
+            "type": "mcq",
+            "prompt": "Quale frase usa un registro formale appropriato?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Le chiediamo di confermare la disponibilità entro venerdì."
+              },
+              {
+                "id": "b",
+                "text": "Ti chiediamo confermare disponibilità entro venerdì."
+              },
+              {
+                "id": "c",
+                "text": "Chiediamo a te di confermi entro venerdì."
+              },
+              {
+                "id": "d",
+                "text": "Le chiediamo che conferma la disponibilità entro venerdì."
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-viaggi-consapevoli-grammar-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "alloggio"
+              },
+              {
+                "id": "b",
+                "text": "itinerario"
+              },
+              {
+                "id": "c",
+                "text": "imprevisto"
+              },
+              {
+                "id": "d",
+                "text": "consigliare"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-viaggi-consapevoli-grammar-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "itinerario"
+              },
+              {
+                "id": "b",
+                "text": "imprevisto"
+              },
+              {
+                "id": "c",
+                "text": "alloggio"
+              },
+              {
+                "id": "d",
+                "text": "consigliare"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-viaggi-consapevoli-grammar-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "itinerario"
+              },
+              {
+                "id": "b",
+                "text": "alloggio"
+              },
+              {
+                "id": "c",
+                "text": "consigliare"
+              },
+              {
+                "id": "d",
+                "text": "imprevisto"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-viaggi-consapevoli-grammar-verb-13",
+            "type": "mcq",
+            "prompt": "È importante che il gruppo ___ ogni conseguenza.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "valuti"
+              },
+              {
+                "id": "b",
+                "text": "valuta"
+              },
+              {
+                "id": "c",
+                "text": "valutare"
+              },
+              {
+                "id": "d",
+                "text": "valutano"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-viaggi-consapevoli-grammar-verb-14",
+            "type": "mcq",
+            "prompt": "Noi ___ le risorse prima dell’incontro.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "coordinerà"
+              },
+              {
+                "id": "b",
+                "text": "coordineremo"
+              },
+              {
+                "id": "c",
+                "text": "coordinare"
+              },
+              {
+                "id": "d",
+                "text": "coordinato"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-viaggi-consapevoli-grammar-verb-15",
+            "type": "mcq",
+            "prompt": "Il responsabile ___ un incarico preciso a ciascuno.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "assegnano"
+              },
+              {
+                "id": "b",
+                "text": "assegnare"
+              },
+              {
+                "id": "c",
+                "text": "assegnerà"
+              },
+              {
+                "id": "d",
+                "text": "assegnato"
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
@@ -51401,7 +60526,372 @@
         "function": "rendere comprensibile un tema complesso",
         "examples": []
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "id": "italian-c1-scienza-e-divulgazione-grammar-final-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "italian-c1-scienza-e-divulgazione-grammar-grammar-1",
+            "type": "mcq",
+            "prompt": "Pur ___ l’obiezione, l’autore sostiene la tesi con evidenze verificabili.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "riconoscendo"
+              },
+              {
+                "id": "b",
+                "text": "riconosce"
+              },
+              {
+                "id": "c",
+                "text": "riconoscere"
+              },
+              {
+                "id": "d",
+                "text": "riconosciuto"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-scienza-e-divulgazione-grammar-grammar-2",
+            "type": "mcq",
+            "prompt": "Non si può concludere nulla finché i dati non ___.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "sono verificati"
+              },
+              {
+                "id": "b",
+                "text": "siano stati verificati"
+              },
+              {
+                "id": "c",
+                "text": "essere verificati"
+              },
+              {
+                "id": "d",
+                "text": "saranno verificano"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-scienza-e-divulgazione-grammar-grammar-3",
+            "type": "mcq",
+            "prompt": "L’autrice formula la tesi in modo che non ___ ambiguità.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "lascia"
+              },
+              {
+                "id": "b",
+                "text": "lasciare"
+              },
+              {
+                "id": "c",
+                "text": "lasci"
+              },
+              {
+                "id": "d",
+                "text": "lasciano"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-scienza-e-divulgazione-grammar-grammar-4",
+            "type": "mcq",
+            "prompt": "La relazione distingue tra un fatto dimostrato e un’ipotesi che ___ ulteriori prove.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "richiedere"
+              },
+              {
+                "id": "b",
+                "text": "richiedano"
+              },
+              {
+                "id": "c",
+                "text": "richiesta"
+              },
+              {
+                "id": "d",
+                "text": "richiede"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-scienza-e-divulgazione-grammar-grammar-5",
+            "type": "mcq",
+            "prompt": "Benché il ragionamento ___ convincente, manca una fonte indipendente.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "appaia"
+              },
+              {
+                "id": "b",
+                "text": "appare"
+              },
+              {
+                "id": "c",
+                "text": "apparire"
+              },
+              {
+                "id": "d",
+                "text": "appaiono"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-scienza-e-divulgazione-grammar-grammar-6",
+            "type": "mcq",
+            "prompt": "Il portavoce ha riformulato la posizione senza ___ il dissenso.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "minimizza"
+              },
+              {
+                "id": "b",
+                "text": "minimizzare"
+              },
+              {
+                "id": "c",
+                "text": "minimizzato"
+              },
+              {
+                "id": "d",
+                "text": "minimizzando"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-scienza-e-divulgazione-grammar-grammar-7",
+            "type": "mcq",
+            "prompt": "Quale connettore introduce una concessione?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Pertanto"
+              },
+              {
+                "id": "b",
+                "text": "Infatti"
+              },
+              {
+                "id": "c",
+                "text": "Tuttavia"
+              },
+              {
+                "id": "d",
+                "text": "Di conseguenza"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-scienza-e-divulgazione-grammar-grammar-8",
+            "type": "mcq",
+            "prompt": "La conclusione è credibile solo se ___ dalle evidenze.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "sostiene"
+              },
+              {
+                "id": "b",
+                "text": "sostenere"
+              },
+              {
+                "id": "c",
+                "text": "sono sostenuti"
+              },
+              {
+                "id": "d",
+                "text": "è sostenuta"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-scienza-e-divulgazione-grammar-grammar-9",
+            "type": "mcq",
+            "prompt": "Quale frase mantiene un registro argomentativo preciso?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "La tesi richiede una distinzione tra correlazione e causalità."
+              },
+              {
+                "id": "b",
+                "text": "La tesi è super perché sembra vera."
+              },
+              {
+                "id": "c",
+                "text": "La tesi dice cose molto importanti, punto."
+              },
+              {
+                "id": "d",
+                "text": "La tesi ha una cosa che forse va bene."
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-scienza-e-divulgazione-grammar-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "evidenza"
+              },
+              {
+                "id": "b",
+                "text": "fenomeno"
+              },
+              {
+                "id": "c",
+                "text": "modello"
+              },
+              {
+                "id": "d",
+                "text": "divulgare"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-scienza-e-divulgazione-grammar-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "fenomeno"
+              },
+              {
+                "id": "b",
+                "text": "modello"
+              },
+              {
+                "id": "c",
+                "text": "evidenza"
+              },
+              {
+                "id": "d",
+                "text": "divulgare"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-scienza-e-divulgazione-grammar-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "fenomeno"
+              },
+              {
+                "id": "b",
+                "text": "evidenza"
+              },
+              {
+                "id": "c",
+                "text": "divulgare"
+              },
+              {
+                "id": "d",
+                "text": "modello"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-scienza-e-divulgazione-grammar-verb-13",
+            "type": "mcq",
+            "prompt": "Benché l’autore ___ un’obiezione, la sua tesi resta coerente.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "riconosca"
+              },
+              {
+                "id": "b",
+                "text": "riconosce"
+              },
+              {
+                "id": "c",
+                "text": "riconoscere"
+              },
+              {
+                "id": "d",
+                "text": "riconoscono"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-scienza-e-divulgazione-grammar-verb-14",
+            "type": "mcq",
+            "prompt": "Le evidenze ___ la conclusione con precisione.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "sostiene"
+              },
+              {
+                "id": "b",
+                "text": "sostengono"
+              },
+              {
+                "id": "c",
+                "text": "sostenere"
+              },
+              {
+                "id": "d",
+                "text": "sostenuto"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-scienza-e-divulgazione-grammar-verb-15",
+            "type": "mcq",
+            "prompt": "Il relatore ___ la propria posizione alla luce dei dati.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "riformulare"
+              },
+              {
+                "id": "b",
+                "text": "riformulano"
+              },
+              {
+                "id": "c",
+                "text": "riformula"
+              },
+              {
+                "id": "d",
+                "text": "riformulato"
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
@@ -51514,7 +61004,372 @@
         "function": "comunicare limiti e implicazioni della ricerca",
         "examples": []
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "id": "italian-c2-scienza-e-responsabilita-grammar-final-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "italian-c2-scienza-e-responsabilita-grammar-grammar-1",
+            "type": "mcq",
+            "prompt": "La formulazione attenuata non elimina la premessa, ma ne ___ l’inferenza implicita.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "precisa"
+              },
+              {
+                "id": "b",
+                "text": "precisare"
+              },
+              {
+                "id": "c",
+                "text": "precisano"
+              },
+              {
+                "id": "d",
+                "text": "precisato"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-scienza-e-responsabilita-grammar-grammar-2",
+            "type": "mcq",
+            "prompt": "Sarebbe improprio affermare che un solo indizio ___ una conclusione definitiva.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "giustifica"
+              },
+              {
+                "id": "b",
+                "text": "giustifichi"
+              },
+              {
+                "id": "c",
+                "text": "giustificare"
+              },
+              {
+                "id": "d",
+                "text": "giustificano"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-scienza-e-responsabilita-grammar-grammar-3",
+            "type": "mcq",
+            "prompt": "L’autore ricorre a una concessione affinché la tesi non ___ categorica.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "risulta"
+              },
+              {
+                "id": "b",
+                "text": "risultare"
+              },
+              {
+                "id": "c",
+                "text": "risulti"
+              },
+              {
+                "id": "d",
+                "text": "risultano"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-scienza-e-responsabilita-grammar-grammar-4",
+            "type": "mcq",
+            "prompt": "Il testo lascia intendere, senza dirlo esplicitamente, che la premessa ___ discussa.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "può essere stata"
+              },
+              {
+                "id": "b",
+                "text": "potere essere"
+              },
+              {
+                "id": "c",
+                "text": "possono essere"
+              },
+              {
+                "id": "d",
+                "text": "può essere"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-scienza-e-responsabilita-grammar-grammar-5",
+            "type": "mcq",
+            "prompt": "Quale riformulazione conserva il grado di certezza?",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "I dati sembrano suggerire una tendenza, non una prova definitiva."
+              },
+              {
+                "id": "b",
+                "text": "I dati dimostrano tutto senza dubbio."
+              },
+              {
+                "id": "c",
+                "text": "I dati sono certamente una prova totale."
+              },
+              {
+                "id": "d",
+                "text": "I dati dicono una cosa sicura sempre."
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-scienza-e-responsabilita-grammar-grammar-6",
+            "type": "mcq",
+            "prompt": "La scelta lessicale è persuasiva, pur non ___ il dissenso.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "cancella"
+              },
+              {
+                "id": "b",
+                "text": "cancellando"
+              },
+              {
+                "id": "c",
+                "text": "cancellare"
+              },
+              {
+                "id": "d",
+                "text": "cancellata"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-scienza-e-responsabilita-grammar-grammar-7",
+            "type": "mcq",
+            "prompt": "Una premessa è rilevante nella misura in cui ___ la conclusione.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "sostenere"
+              },
+              {
+                "id": "b",
+                "text": "sostengono"
+              },
+              {
+                "id": "c",
+                "text": "sostiene"
+              },
+              {
+                "id": "d",
+                "text": "sostenuta"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-scienza-e-responsabilita-grammar-grammar-8",
+            "type": "mcq",
+            "prompt": "Quale espressione attenua correttamente un’affermazione?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "È sicuro al cento per cento che…"
+              },
+              {
+                "id": "b",
+                "text": "È ovvio per tutti che…"
+              },
+              {
+                "id": "c",
+                "text": "Non esiste alcun dubbio che…"
+              },
+              {
+                "id": "d",
+                "text": "È plausibile ipotizzare che…"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-scienza-e-responsabilita-grammar-grammar-9",
+            "type": "mcq",
+            "prompt": "L’inferenza è valida solo se non ___ oltre quanto le prove consentono.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "si spinge"
+              },
+              {
+                "id": "b",
+                "text": "si spingere"
+              },
+              {
+                "id": "c",
+                "text": "si spingono"
+              },
+              {
+                "id": "d",
+                "text": "si spinta"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-scienza-e-responsabilita-grammar-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "limite"
+              },
+              {
+                "id": "b",
+                "text": "metodo"
+              },
+              {
+                "id": "c",
+                "text": "replicare"
+              },
+              {
+                "id": "d",
+                "text": "implicazione"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-scienza-e-responsabilita-grammar-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "metodo"
+              },
+              {
+                "id": "b",
+                "text": "replicare"
+              },
+              {
+                "id": "c",
+                "text": "limite"
+              },
+              {
+                "id": "d",
+                "text": "implicazione"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-scienza-e-responsabilita-grammar-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "metodo"
+              },
+              {
+                "id": "b",
+                "text": "limite"
+              },
+              {
+                "id": "c",
+                "text": "implicazione"
+              },
+              {
+                "id": "d",
+                "text": "replicare"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-scienza-e-responsabilita-grammar-verb-13",
+            "type": "mcq",
+            "prompt": "Non si può ___ una conclusione da un unico indizio.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "dedurre"
+              },
+              {
+                "id": "b",
+                "text": "deduce"
+              },
+              {
+                "id": "c",
+                "text": "deducono"
+              },
+              {
+                "id": "d",
+                "text": "dedotto"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-scienza-e-responsabilita-grammar-verb-14",
+            "type": "mcq",
+            "prompt": "La formulazione ___ il tono senza alterare il significato.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "attenuare"
+              },
+              {
+                "id": "b",
+                "text": "attenua"
+              },
+              {
+                "id": "c",
+                "text": "attenuano"
+              },
+              {
+                "id": "d",
+                "text": "attenuato"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-scienza-e-responsabilita-grammar-verb-15",
+            "type": "mcq",
+            "prompt": "L’autore ___ una premessa prima di sviluppare l’argomento.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "esplicitare"
+              },
+              {
+                "id": "b",
+                "text": "esplicitano"
+              },
+              {
+                "id": "c",
+                "text": "esplicita"
+              },
+              {
+                "id": "d",
+                "text": "esplicitato"
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
@@ -57181,7 +67036,372 @@
         "function": "gestire un disaccordo con tatto",
         "examples": []
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "id": "italian-b2-relazioni-e-mediazione-grammar-final-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "italian-b2-relazioni-e-mediazione-grammar-grammar-1",
+            "type": "mcq",
+            "prompt": "È necessario che il gruppo ___ le conseguenze prima di decidere.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "valuti"
+              },
+              {
+                "id": "b",
+                "text": "valuta"
+              },
+              {
+                "id": "c",
+                "text": "valutare"
+              },
+              {
+                "id": "d",
+                "text": "valutano"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-relazioni-e-mediazione-grammar-grammar-2",
+            "type": "mcq",
+            "prompt": "Sebbene il termine ___ vicino, possiamo riorganizzare le risorse.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "è"
+              },
+              {
+                "id": "b",
+                "text": "sia"
+              },
+              {
+                "id": "c",
+                "text": "essere"
+              },
+              {
+                "id": "d",
+                "text": "sono"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-relazioni-e-mediazione-grammar-grammar-3",
+            "type": "mcq",
+            "prompt": "La proposta è valida, purché ___ sostenibile.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "rimane"
+              },
+              {
+                "id": "b",
+                "text": "rimanere"
+              },
+              {
+                "id": "c",
+                "text": "rimanga"
+              },
+              {
+                "id": "d",
+                "text": "rimangono"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-relazioni-e-mediazione-grammar-grammar-4",
+            "type": "mcq",
+            "prompt": "Nonostante le difficoltà, il progetto ___ nei tempi previsti.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "proseguire"
+              },
+              {
+                "id": "b",
+                "text": "proseguono"
+              },
+              {
+                "id": "c",
+                "text": "proseguito"
+              },
+              {
+                "id": "d",
+                "text": "prosegue"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-relazioni-e-mediazione-grammar-grammar-5",
+            "type": "mcq",
+            "prompt": "È preferibile che ogni incarico ___ con chiarezza.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "venga definito"
+              },
+              {
+                "id": "b",
+                "text": "viene definito"
+              },
+              {
+                "id": "c",
+                "text": "venire definito"
+              },
+              {
+                "id": "d",
+                "text": "vengono definiti"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-relazioni-e-mediazione-grammar-grammar-6",
+            "type": "mcq",
+            "prompt": "Il coordinatore spiega la scelta affinché tutti la ___.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "comprendono"
+              },
+              {
+                "id": "b",
+                "text": "comprendano"
+              },
+              {
+                "id": "c",
+                "text": "comprendere"
+              },
+              {
+                "id": "d",
+                "text": "comprende"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-relazioni-e-mediazione-grammar-grammar-7",
+            "type": "mcq",
+            "prompt": "La squadra ha agito con cautela, ___ mancavano alcuni dati.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "quindi"
+              },
+              {
+                "id": "b",
+                "text": "infatti"
+              },
+              {
+                "id": "c",
+                "text": "benché"
+              },
+              {
+                "id": "d",
+                "text": "perciò"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-relazioni-e-mediazione-grammar-grammar-8",
+            "type": "mcq",
+            "prompt": "Prima di procedere, occorre ___ le alternative.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "valuta"
+              },
+              {
+                "id": "b",
+                "text": "valutando"
+              },
+              {
+                "id": "c",
+                "text": "valutato"
+              },
+              {
+                "id": "d",
+                "text": "valutare"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-relazioni-e-mediazione-grammar-grammar-9",
+            "type": "mcq",
+            "prompt": "Quale frase usa un registro formale appropriato?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Le chiediamo di confermare la disponibilità entro venerdì."
+              },
+              {
+                "id": "b",
+                "text": "Ti chiediamo confermare disponibilità entro venerdì."
+              },
+              {
+                "id": "c",
+                "text": "Chiediamo a te di confermi entro venerdì."
+              },
+              {
+                "id": "d",
+                "text": "Le chiediamo che conferma la disponibilità entro venerdì."
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-relazioni-e-mediazione-grammar-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "ascoltare"
+              },
+              {
+                "id": "b",
+                "text": "equivoco"
+              },
+              {
+                "id": "c",
+                "text": "chiarire"
+              },
+              {
+                "id": "d",
+                "text": "accordo"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-relazioni-e-mediazione-grammar-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "equivoco"
+              },
+              {
+                "id": "b",
+                "text": "chiarire"
+              },
+              {
+                "id": "c",
+                "text": "ascoltare"
+              },
+              {
+                "id": "d",
+                "text": "accordo"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-relazioni-e-mediazione-grammar-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "equivoco"
+              },
+              {
+                "id": "b",
+                "text": "ascoltare"
+              },
+              {
+                "id": "c",
+                "text": "accordo"
+              },
+              {
+                "id": "d",
+                "text": "chiarire"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-relazioni-e-mediazione-grammar-verb-13",
+            "type": "mcq",
+            "prompt": "È importante che il gruppo ___ ogni conseguenza.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "valuti"
+              },
+              {
+                "id": "b",
+                "text": "valuta"
+              },
+              {
+                "id": "c",
+                "text": "valutare"
+              },
+              {
+                "id": "d",
+                "text": "valutano"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-relazioni-e-mediazione-grammar-verb-14",
+            "type": "mcq",
+            "prompt": "Noi ___ le risorse prima dell’incontro.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "coordinerà"
+              },
+              {
+                "id": "b",
+                "text": "coordineremo"
+              },
+              {
+                "id": "c",
+                "text": "coordinare"
+              },
+              {
+                "id": "d",
+                "text": "coordinato"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-relazioni-e-mediazione-grammar-verb-15",
+            "type": "mcq",
+            "prompt": "Il responsabile ___ un incarico preciso a ciascuno.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "assegnano"
+              },
+              {
+                "id": "b",
+                "text": "assegnare"
+              },
+              {
+                "id": "c",
+                "text": "assegnerà"
+              },
+              {
+                "id": "d",
+                "text": "assegnato"
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
@@ -57294,7 +67514,372 @@
         "function": "negoziare una soluzione sostenibile",
         "examples": []
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "id": "italian-c1-conflitto-e-negoziazione-grammar-final-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "italian-c1-conflitto-e-negoziazione-grammar-grammar-1",
+            "type": "mcq",
+            "prompt": "Pur ___ l’obiezione, l’autore sostiene la tesi con evidenze verificabili.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "riconoscendo"
+              },
+              {
+                "id": "b",
+                "text": "riconosce"
+              },
+              {
+                "id": "c",
+                "text": "riconoscere"
+              },
+              {
+                "id": "d",
+                "text": "riconosciuto"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-conflitto-e-negoziazione-grammar-grammar-2",
+            "type": "mcq",
+            "prompt": "Non si può concludere nulla finché i dati non ___.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "sono verificati"
+              },
+              {
+                "id": "b",
+                "text": "siano stati verificati"
+              },
+              {
+                "id": "c",
+                "text": "essere verificati"
+              },
+              {
+                "id": "d",
+                "text": "saranno verificano"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-conflitto-e-negoziazione-grammar-grammar-3",
+            "type": "mcq",
+            "prompt": "L’autrice formula la tesi in modo che non ___ ambiguità.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "lascia"
+              },
+              {
+                "id": "b",
+                "text": "lasciare"
+              },
+              {
+                "id": "c",
+                "text": "lasci"
+              },
+              {
+                "id": "d",
+                "text": "lasciano"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-conflitto-e-negoziazione-grammar-grammar-4",
+            "type": "mcq",
+            "prompt": "La relazione distingue tra un fatto dimostrato e un’ipotesi che ___ ulteriori prove.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "richiedere"
+              },
+              {
+                "id": "b",
+                "text": "richiedano"
+              },
+              {
+                "id": "c",
+                "text": "richiesta"
+              },
+              {
+                "id": "d",
+                "text": "richiede"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-conflitto-e-negoziazione-grammar-grammar-5",
+            "type": "mcq",
+            "prompt": "Benché il ragionamento ___ convincente, manca una fonte indipendente.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "appaia"
+              },
+              {
+                "id": "b",
+                "text": "appare"
+              },
+              {
+                "id": "c",
+                "text": "apparire"
+              },
+              {
+                "id": "d",
+                "text": "appaiono"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-conflitto-e-negoziazione-grammar-grammar-6",
+            "type": "mcq",
+            "prompt": "Il portavoce ha riformulato la posizione senza ___ il dissenso.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "minimizza"
+              },
+              {
+                "id": "b",
+                "text": "minimizzare"
+              },
+              {
+                "id": "c",
+                "text": "minimizzato"
+              },
+              {
+                "id": "d",
+                "text": "minimizzando"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-conflitto-e-negoziazione-grammar-grammar-7",
+            "type": "mcq",
+            "prompt": "Quale connettore introduce una concessione?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Pertanto"
+              },
+              {
+                "id": "b",
+                "text": "Infatti"
+              },
+              {
+                "id": "c",
+                "text": "Tuttavia"
+              },
+              {
+                "id": "d",
+                "text": "Di conseguenza"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-conflitto-e-negoziazione-grammar-grammar-8",
+            "type": "mcq",
+            "prompt": "La conclusione è credibile solo se ___ dalle evidenze.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "sostiene"
+              },
+              {
+                "id": "b",
+                "text": "sostenere"
+              },
+              {
+                "id": "c",
+                "text": "sono sostenuti"
+              },
+              {
+                "id": "d",
+                "text": "è sostenuta"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-conflitto-e-negoziazione-grammar-grammar-9",
+            "type": "mcq",
+            "prompt": "Quale frase mantiene un registro argomentativo preciso?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "La tesi richiede una distinzione tra correlazione e causalità."
+              },
+              {
+                "id": "b",
+                "text": "La tesi è super perché sembra vera."
+              },
+              {
+                "id": "c",
+                "text": "La tesi dice cose molto importanti, punto."
+              },
+              {
+                "id": "d",
+                "text": "La tesi ha una cosa che forse va bene."
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-conflitto-e-negoziazione-grammar-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "compromesso"
+              },
+              {
+                "id": "b",
+                "text": "interesse"
+              },
+              {
+                "id": "c",
+                "text": "vincolo"
+              },
+              {
+                "id": "d",
+                "text": "conciliare"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-conflitto-e-negoziazione-grammar-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "interesse"
+              },
+              {
+                "id": "b",
+                "text": "vincolo"
+              },
+              {
+                "id": "c",
+                "text": "compromesso"
+              },
+              {
+                "id": "d",
+                "text": "conciliare"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-conflitto-e-negoziazione-grammar-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "interesse"
+              },
+              {
+                "id": "b",
+                "text": "compromesso"
+              },
+              {
+                "id": "c",
+                "text": "conciliare"
+              },
+              {
+                "id": "d",
+                "text": "vincolo"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-conflitto-e-negoziazione-grammar-verb-13",
+            "type": "mcq",
+            "prompt": "Benché l’autore ___ un’obiezione, la sua tesi resta coerente.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "riconosca"
+              },
+              {
+                "id": "b",
+                "text": "riconosce"
+              },
+              {
+                "id": "c",
+                "text": "riconoscere"
+              },
+              {
+                "id": "d",
+                "text": "riconoscono"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-conflitto-e-negoziazione-grammar-verb-14",
+            "type": "mcq",
+            "prompt": "Le evidenze ___ la conclusione con precisione.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "sostiene"
+              },
+              {
+                "id": "b",
+                "text": "sostengono"
+              },
+              {
+                "id": "c",
+                "text": "sostenere"
+              },
+              {
+                "id": "d",
+                "text": "sostenuto"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-conflitto-e-negoziazione-grammar-verb-15",
+            "type": "mcq",
+            "prompt": "Il relatore ___ la propria posizione alla luce dei dati.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "riformulare"
+              },
+              {
+                "id": "b",
+                "text": "riformulano"
+              },
+              {
+                "id": "c",
+                "text": "riformula"
+              },
+              {
+                "id": "d",
+                "text": "riformulato"
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
@@ -57407,7 +67992,372 @@
         "function": "esaminare una domanda astratta con esempi",
         "examples": []
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "id": "italian-c2-filosofia-quotidiana-grammar-final-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "italian-c2-filosofia-quotidiana-grammar-grammar-1",
+            "type": "mcq",
+            "prompt": "La formulazione attenuata non elimina la premessa, ma ne ___ l’inferenza implicita.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "precisa"
+              },
+              {
+                "id": "b",
+                "text": "precisare"
+              },
+              {
+                "id": "c",
+                "text": "precisano"
+              },
+              {
+                "id": "d",
+                "text": "precisato"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-filosofia-quotidiana-grammar-grammar-2",
+            "type": "mcq",
+            "prompt": "Sarebbe improprio affermare che un solo indizio ___ una conclusione definitiva.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "giustifica"
+              },
+              {
+                "id": "b",
+                "text": "giustifichi"
+              },
+              {
+                "id": "c",
+                "text": "giustificare"
+              },
+              {
+                "id": "d",
+                "text": "giustificano"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-filosofia-quotidiana-grammar-grammar-3",
+            "type": "mcq",
+            "prompt": "L’autore ricorre a una concessione affinché la tesi non ___ categorica.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "risulta"
+              },
+              {
+                "id": "b",
+                "text": "risultare"
+              },
+              {
+                "id": "c",
+                "text": "risulti"
+              },
+              {
+                "id": "d",
+                "text": "risultano"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-filosofia-quotidiana-grammar-grammar-4",
+            "type": "mcq",
+            "prompt": "Il testo lascia intendere, senza dirlo esplicitamente, che la premessa ___ discussa.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "può essere stata"
+              },
+              {
+                "id": "b",
+                "text": "potere essere"
+              },
+              {
+                "id": "c",
+                "text": "possono essere"
+              },
+              {
+                "id": "d",
+                "text": "può essere"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-filosofia-quotidiana-grammar-grammar-5",
+            "type": "mcq",
+            "prompt": "Quale riformulazione conserva il grado di certezza?",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "I dati sembrano suggerire una tendenza, non una prova definitiva."
+              },
+              {
+                "id": "b",
+                "text": "I dati dimostrano tutto senza dubbio."
+              },
+              {
+                "id": "c",
+                "text": "I dati sono certamente una prova totale."
+              },
+              {
+                "id": "d",
+                "text": "I dati dicono una cosa sicura sempre."
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-filosofia-quotidiana-grammar-grammar-6",
+            "type": "mcq",
+            "prompt": "La scelta lessicale è persuasiva, pur non ___ il dissenso.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "cancella"
+              },
+              {
+                "id": "b",
+                "text": "cancellando"
+              },
+              {
+                "id": "c",
+                "text": "cancellare"
+              },
+              {
+                "id": "d",
+                "text": "cancellata"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-filosofia-quotidiana-grammar-grammar-7",
+            "type": "mcq",
+            "prompt": "Una premessa è rilevante nella misura in cui ___ la conclusione.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "sostenere"
+              },
+              {
+                "id": "b",
+                "text": "sostengono"
+              },
+              {
+                "id": "c",
+                "text": "sostiene"
+              },
+              {
+                "id": "d",
+                "text": "sostenuta"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-filosofia-quotidiana-grammar-grammar-8",
+            "type": "mcq",
+            "prompt": "Quale espressione attenua correttamente un’affermazione?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "È sicuro al cento per cento che…"
+              },
+              {
+                "id": "b",
+                "text": "È ovvio per tutti che…"
+              },
+              {
+                "id": "c",
+                "text": "Non esiste alcun dubbio che…"
+              },
+              {
+                "id": "d",
+                "text": "È plausibile ipotizzare che…"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-filosofia-quotidiana-grammar-grammar-9",
+            "type": "mcq",
+            "prompt": "L’inferenza è valida solo se non ___ oltre quanto le prove consentono.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "si spinge"
+              },
+              {
+                "id": "b",
+                "text": "si spingere"
+              },
+              {
+                "id": "c",
+                "text": "si spingono"
+              },
+              {
+                "id": "d",
+                "text": "si spinta"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-filosofia-quotidiana-grammar-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "paradosso"
+              },
+              {
+                "id": "b",
+                "text": "concetto"
+              },
+              {
+                "id": "c",
+                "text": "argomentare"
+              },
+              {
+                "id": "d",
+                "text": "premessa"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-filosofia-quotidiana-grammar-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "concetto"
+              },
+              {
+                "id": "b",
+                "text": "argomentare"
+              },
+              {
+                "id": "c",
+                "text": "paradosso"
+              },
+              {
+                "id": "d",
+                "text": "premessa"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-filosofia-quotidiana-grammar-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "concetto"
+              },
+              {
+                "id": "b",
+                "text": "paradosso"
+              },
+              {
+                "id": "c",
+                "text": "premessa"
+              },
+              {
+                "id": "d",
+                "text": "argomentare"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-filosofia-quotidiana-grammar-verb-13",
+            "type": "mcq",
+            "prompt": "Non si può ___ una conclusione da un unico indizio.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "dedurre"
+              },
+              {
+                "id": "b",
+                "text": "deduce"
+              },
+              {
+                "id": "c",
+                "text": "deducono"
+              },
+              {
+                "id": "d",
+                "text": "dedotto"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-filosofia-quotidiana-grammar-verb-14",
+            "type": "mcq",
+            "prompt": "La formulazione ___ il tono senza alterare il significato.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "attenuare"
+              },
+              {
+                "id": "b",
+                "text": "attenua"
+              },
+              {
+                "id": "c",
+                "text": "attenuano"
+              },
+              {
+                "id": "d",
+                "text": "attenuato"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-filosofia-quotidiana-grammar-verb-15",
+            "type": "mcq",
+            "prompt": "L’autore ___ una premessa prima di sviluppare l’argomento.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "esplicitare"
+              },
+              {
+                "id": "b",
+                "text": "esplicitano"
+              },
+              {
+                "id": "c",
+                "text": "esplicita"
+              },
+              {
+                "id": "d",
+                "text": "esplicitato"
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
@@ -63074,7 +74024,372 @@
         "function": "presentare una proposta per la comunità",
         "examples": []
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "id": "italian-b2-cittadinanza-attiva-grammar-final-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "italian-b2-cittadinanza-attiva-grammar-grammar-1",
+            "type": "mcq",
+            "prompt": "È necessario che il gruppo ___ le conseguenze prima di decidere.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "valuti"
+              },
+              {
+                "id": "b",
+                "text": "valuta"
+              },
+              {
+                "id": "c",
+                "text": "valutare"
+              },
+              {
+                "id": "d",
+                "text": "valutano"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-cittadinanza-attiva-grammar-grammar-2",
+            "type": "mcq",
+            "prompt": "Sebbene il termine ___ vicino, possiamo riorganizzare le risorse.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "è"
+              },
+              {
+                "id": "b",
+                "text": "sia"
+              },
+              {
+                "id": "c",
+                "text": "essere"
+              },
+              {
+                "id": "d",
+                "text": "sono"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-cittadinanza-attiva-grammar-grammar-3",
+            "type": "mcq",
+            "prompt": "La proposta è valida, purché ___ sostenibile.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "rimane"
+              },
+              {
+                "id": "b",
+                "text": "rimanere"
+              },
+              {
+                "id": "c",
+                "text": "rimanga"
+              },
+              {
+                "id": "d",
+                "text": "rimangono"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-cittadinanza-attiva-grammar-grammar-4",
+            "type": "mcq",
+            "prompt": "Nonostante le difficoltà, il progetto ___ nei tempi previsti.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "proseguire"
+              },
+              {
+                "id": "b",
+                "text": "proseguono"
+              },
+              {
+                "id": "c",
+                "text": "proseguito"
+              },
+              {
+                "id": "d",
+                "text": "prosegue"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-cittadinanza-attiva-grammar-grammar-5",
+            "type": "mcq",
+            "prompt": "È preferibile che ogni incarico ___ con chiarezza.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "venga definito"
+              },
+              {
+                "id": "b",
+                "text": "viene definito"
+              },
+              {
+                "id": "c",
+                "text": "venire definito"
+              },
+              {
+                "id": "d",
+                "text": "vengono definiti"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-cittadinanza-attiva-grammar-grammar-6",
+            "type": "mcq",
+            "prompt": "Il coordinatore spiega la scelta affinché tutti la ___.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "comprendono"
+              },
+              {
+                "id": "b",
+                "text": "comprendano"
+              },
+              {
+                "id": "c",
+                "text": "comprendere"
+              },
+              {
+                "id": "d",
+                "text": "comprende"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-cittadinanza-attiva-grammar-grammar-7",
+            "type": "mcq",
+            "prompt": "La squadra ha agito con cautela, ___ mancavano alcuni dati.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "quindi"
+              },
+              {
+                "id": "b",
+                "text": "infatti"
+              },
+              {
+                "id": "c",
+                "text": "benché"
+              },
+              {
+                "id": "d",
+                "text": "perciò"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-cittadinanza-attiva-grammar-grammar-8",
+            "type": "mcq",
+            "prompt": "Prima di procedere, occorre ___ le alternative.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "valuta"
+              },
+              {
+                "id": "b",
+                "text": "valutando"
+              },
+              {
+                "id": "c",
+                "text": "valutato"
+              },
+              {
+                "id": "d",
+                "text": "valutare"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-cittadinanza-attiva-grammar-grammar-9",
+            "type": "mcq",
+            "prompt": "Quale frase usa un registro formale appropriato?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Le chiediamo di confermare la disponibilità entro venerdì."
+              },
+              {
+                "id": "b",
+                "text": "Ti chiediamo confermare disponibilità entro venerdì."
+              },
+              {
+                "id": "c",
+                "text": "Chiediamo a te di confermi entro venerdì."
+              },
+              {
+                "id": "d",
+                "text": "Le chiediamo che conferma la disponibilità entro venerdì."
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-cittadinanza-attiva-grammar-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "quartiere"
+              },
+              {
+                "id": "b",
+                "text": "iniziativa"
+              },
+              {
+                "id": "c",
+                "text": "partecipare"
+              },
+              {
+                "id": "d",
+                "text": "proposta"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-cittadinanza-attiva-grammar-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "iniziativa"
+              },
+              {
+                "id": "b",
+                "text": "partecipare"
+              },
+              {
+                "id": "c",
+                "text": "quartiere"
+              },
+              {
+                "id": "d",
+                "text": "proposta"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-cittadinanza-attiva-grammar-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "iniziativa"
+              },
+              {
+                "id": "b",
+                "text": "quartiere"
+              },
+              {
+                "id": "c",
+                "text": "proposta"
+              },
+              {
+                "id": "d",
+                "text": "partecipare"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-cittadinanza-attiva-grammar-verb-13",
+            "type": "mcq",
+            "prompt": "È importante che il gruppo ___ ogni conseguenza.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "valuti"
+              },
+              {
+                "id": "b",
+                "text": "valuta"
+              },
+              {
+                "id": "c",
+                "text": "valutare"
+              },
+              {
+                "id": "d",
+                "text": "valutano"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-cittadinanza-attiva-grammar-verb-14",
+            "type": "mcq",
+            "prompt": "Noi ___ le risorse prima dell’incontro.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "coordinerà"
+              },
+              {
+                "id": "b",
+                "text": "coordineremo"
+              },
+              {
+                "id": "c",
+                "text": "coordinare"
+              },
+              {
+                "id": "d",
+                "text": "coordinato"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-cittadinanza-attiva-grammar-verb-15",
+            "type": "mcq",
+            "prompt": "Il responsabile ___ un incarico preciso a ciascuno.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "assegnano"
+              },
+              {
+                "id": "b",
+                "text": "assegnare"
+              },
+              {
+                "id": "c",
+                "text": "assegnerà"
+              },
+              {
+                "id": "d",
+                "text": "assegnato"
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
@@ -63187,7 +74502,372 @@
         "function": "riconoscere punto di vista e stile",
         "examples": []
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "id": "italian-c1-letteratura-e-voce-grammar-final-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "italian-c1-letteratura-e-voce-grammar-grammar-1",
+            "type": "mcq",
+            "prompt": "Pur ___ l’obiezione, l’autore sostiene la tesi con evidenze verificabili.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "riconoscendo"
+              },
+              {
+                "id": "b",
+                "text": "riconosce"
+              },
+              {
+                "id": "c",
+                "text": "riconoscere"
+              },
+              {
+                "id": "d",
+                "text": "riconosciuto"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-letteratura-e-voce-grammar-grammar-2",
+            "type": "mcq",
+            "prompt": "Non si può concludere nulla finché i dati non ___.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "sono verificati"
+              },
+              {
+                "id": "b",
+                "text": "siano stati verificati"
+              },
+              {
+                "id": "c",
+                "text": "essere verificati"
+              },
+              {
+                "id": "d",
+                "text": "saranno verificano"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-letteratura-e-voce-grammar-grammar-3",
+            "type": "mcq",
+            "prompt": "L’autrice formula la tesi in modo che non ___ ambiguità.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "lascia"
+              },
+              {
+                "id": "b",
+                "text": "lasciare"
+              },
+              {
+                "id": "c",
+                "text": "lasci"
+              },
+              {
+                "id": "d",
+                "text": "lasciano"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-letteratura-e-voce-grammar-grammar-4",
+            "type": "mcq",
+            "prompt": "La relazione distingue tra un fatto dimostrato e un’ipotesi che ___ ulteriori prove.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "richiedere"
+              },
+              {
+                "id": "b",
+                "text": "richiedano"
+              },
+              {
+                "id": "c",
+                "text": "richiesta"
+              },
+              {
+                "id": "d",
+                "text": "richiede"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-letteratura-e-voce-grammar-grammar-5",
+            "type": "mcq",
+            "prompt": "Benché il ragionamento ___ convincente, manca una fonte indipendente.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "appaia"
+              },
+              {
+                "id": "b",
+                "text": "appare"
+              },
+              {
+                "id": "c",
+                "text": "apparire"
+              },
+              {
+                "id": "d",
+                "text": "appaiono"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-letteratura-e-voce-grammar-grammar-6",
+            "type": "mcq",
+            "prompt": "Il portavoce ha riformulato la posizione senza ___ il dissenso.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "minimizza"
+              },
+              {
+                "id": "b",
+                "text": "minimizzare"
+              },
+              {
+                "id": "c",
+                "text": "minimizzato"
+              },
+              {
+                "id": "d",
+                "text": "minimizzando"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-letteratura-e-voce-grammar-grammar-7",
+            "type": "mcq",
+            "prompt": "Quale connettore introduce una concessione?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Pertanto"
+              },
+              {
+                "id": "b",
+                "text": "Infatti"
+              },
+              {
+                "id": "c",
+                "text": "Tuttavia"
+              },
+              {
+                "id": "d",
+                "text": "Di conseguenza"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-letteratura-e-voce-grammar-grammar-8",
+            "type": "mcq",
+            "prompt": "La conclusione è credibile solo se ___ dalle evidenze.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "sostiene"
+              },
+              {
+                "id": "b",
+                "text": "sostenere"
+              },
+              {
+                "id": "c",
+                "text": "sono sostenuti"
+              },
+              {
+                "id": "d",
+                "text": "è sostenuta"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-letteratura-e-voce-grammar-grammar-9",
+            "type": "mcq",
+            "prompt": "Quale frase mantiene un registro argomentativo preciso?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "La tesi richiede una distinzione tra correlazione e causalità."
+              },
+              {
+                "id": "b",
+                "text": "La tesi è super perché sembra vera."
+              },
+              {
+                "id": "c",
+                "text": "La tesi dice cose molto importanti, punto."
+              },
+              {
+                "id": "d",
+                "text": "La tesi ha una cosa che forse va bene."
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-letteratura-e-voce-grammar-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "tono"
+              },
+              {
+                "id": "b",
+                "text": "narratore"
+              },
+              {
+                "id": "c",
+                "text": "metafora"
+              },
+              {
+                "id": "d",
+                "text": "suggerire"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-letteratura-e-voce-grammar-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "narratore"
+              },
+              {
+                "id": "b",
+                "text": "metafora"
+              },
+              {
+                "id": "c",
+                "text": "tono"
+              },
+              {
+                "id": "d",
+                "text": "suggerire"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-letteratura-e-voce-grammar-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "narratore"
+              },
+              {
+                "id": "b",
+                "text": "tono"
+              },
+              {
+                "id": "c",
+                "text": "suggerire"
+              },
+              {
+                "id": "d",
+                "text": "metafora"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-letteratura-e-voce-grammar-verb-13",
+            "type": "mcq",
+            "prompt": "Benché l’autore ___ un’obiezione, la sua tesi resta coerente.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "riconosca"
+              },
+              {
+                "id": "b",
+                "text": "riconosce"
+              },
+              {
+                "id": "c",
+                "text": "riconoscere"
+              },
+              {
+                "id": "d",
+                "text": "riconoscono"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-letteratura-e-voce-grammar-verb-14",
+            "type": "mcq",
+            "prompt": "Le evidenze ___ la conclusione con precisione.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "sostiene"
+              },
+              {
+                "id": "b",
+                "text": "sostengono"
+              },
+              {
+                "id": "c",
+                "text": "sostenere"
+              },
+              {
+                "id": "d",
+                "text": "sostenuto"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-letteratura-e-voce-grammar-verb-15",
+            "type": "mcq",
+            "prompt": "Il relatore ___ la propria posizione alla luce dei dati.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "riformulare"
+              },
+              {
+                "id": "b",
+                "text": "riformulano"
+              },
+              {
+                "id": "c",
+                "text": "riformula"
+              },
+              {
+                "id": "d",
+                "text": "riformulato"
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
@@ -63300,7 +74980,372 @@
         "function": "mediare tra prospettive culturali differenti",
         "examples": []
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "id": "italian-c2-mediazione-interculturale-grammar-final-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "italian-c2-mediazione-interculturale-grammar-grammar-1",
+            "type": "mcq",
+            "prompt": "La formulazione attenuata non elimina la premessa, ma ne ___ l’inferenza implicita.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "precisa"
+              },
+              {
+                "id": "b",
+                "text": "precisare"
+              },
+              {
+                "id": "c",
+                "text": "precisano"
+              },
+              {
+                "id": "d",
+                "text": "precisato"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-mediazione-interculturale-grammar-grammar-2",
+            "type": "mcq",
+            "prompt": "Sarebbe improprio affermare che un solo indizio ___ una conclusione definitiva.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "giustifica"
+              },
+              {
+                "id": "b",
+                "text": "giustifichi"
+              },
+              {
+                "id": "c",
+                "text": "giustificare"
+              },
+              {
+                "id": "d",
+                "text": "giustificano"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-mediazione-interculturale-grammar-grammar-3",
+            "type": "mcq",
+            "prompt": "L’autore ricorre a una concessione affinché la tesi non ___ categorica.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "risulta"
+              },
+              {
+                "id": "b",
+                "text": "risultare"
+              },
+              {
+                "id": "c",
+                "text": "risulti"
+              },
+              {
+                "id": "d",
+                "text": "risultano"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-mediazione-interculturale-grammar-grammar-4",
+            "type": "mcq",
+            "prompt": "Il testo lascia intendere, senza dirlo esplicitamente, che la premessa ___ discussa.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "può essere stata"
+              },
+              {
+                "id": "b",
+                "text": "potere essere"
+              },
+              {
+                "id": "c",
+                "text": "possono essere"
+              },
+              {
+                "id": "d",
+                "text": "può essere"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-mediazione-interculturale-grammar-grammar-5",
+            "type": "mcq",
+            "prompt": "Quale riformulazione conserva il grado di certezza?",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "I dati sembrano suggerire una tendenza, non una prova definitiva."
+              },
+              {
+                "id": "b",
+                "text": "I dati dimostrano tutto senza dubbio."
+              },
+              {
+                "id": "c",
+                "text": "I dati sono certamente una prova totale."
+              },
+              {
+                "id": "d",
+                "text": "I dati dicono una cosa sicura sempre."
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-mediazione-interculturale-grammar-grammar-6",
+            "type": "mcq",
+            "prompt": "La scelta lessicale è persuasiva, pur non ___ il dissenso.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "cancella"
+              },
+              {
+                "id": "b",
+                "text": "cancellando"
+              },
+              {
+                "id": "c",
+                "text": "cancellare"
+              },
+              {
+                "id": "d",
+                "text": "cancellata"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-mediazione-interculturale-grammar-grammar-7",
+            "type": "mcq",
+            "prompt": "Una premessa è rilevante nella misura in cui ___ la conclusione.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "sostenere"
+              },
+              {
+                "id": "b",
+                "text": "sostengono"
+              },
+              {
+                "id": "c",
+                "text": "sostiene"
+              },
+              {
+                "id": "d",
+                "text": "sostenuta"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-mediazione-interculturale-grammar-grammar-8",
+            "type": "mcq",
+            "prompt": "Quale espressione attenua correttamente un’affermazione?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "È sicuro al cento per cento che…"
+              },
+              {
+                "id": "b",
+                "text": "È ovvio per tutti che…"
+              },
+              {
+                "id": "c",
+                "text": "Non esiste alcun dubbio che…"
+              },
+              {
+                "id": "d",
+                "text": "È plausibile ipotizzare che…"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-mediazione-interculturale-grammar-grammar-9",
+            "type": "mcq",
+            "prompt": "L’inferenza è valida solo se non ___ oltre quanto le prove consentono.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "si spinge"
+              },
+              {
+                "id": "b",
+                "text": "si spingere"
+              },
+              {
+                "id": "c",
+                "text": "si spingono"
+              },
+              {
+                "id": "d",
+                "text": "si spinta"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-mediazione-interculturale-grammar-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "contesto"
+              },
+              {
+                "id": "b",
+                "text": "mediazione"
+              },
+              {
+                "id": "c",
+                "text": "equivoco"
+              },
+              {
+                "id": "d",
+                "text": "riconoscere"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-mediazione-interculturale-grammar-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "mediazione"
+              },
+              {
+                "id": "b",
+                "text": "equivoco"
+              },
+              {
+                "id": "c",
+                "text": "contesto"
+              },
+              {
+                "id": "d",
+                "text": "riconoscere"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-mediazione-interculturale-grammar-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "mediazione"
+              },
+              {
+                "id": "b",
+                "text": "contesto"
+              },
+              {
+                "id": "c",
+                "text": "riconoscere"
+              },
+              {
+                "id": "d",
+                "text": "equivoco"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-mediazione-interculturale-grammar-verb-13",
+            "type": "mcq",
+            "prompt": "Non si può ___ una conclusione da un unico indizio.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "dedurre"
+              },
+              {
+                "id": "b",
+                "text": "deduce"
+              },
+              {
+                "id": "c",
+                "text": "deducono"
+              },
+              {
+                "id": "d",
+                "text": "dedotto"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-mediazione-interculturale-grammar-verb-14",
+            "type": "mcq",
+            "prompt": "La formulazione ___ il tono senza alterare il significato.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "attenuare"
+              },
+              {
+                "id": "b",
+                "text": "attenua"
+              },
+              {
+                "id": "c",
+                "text": "attenuano"
+              },
+              {
+                "id": "d",
+                "text": "attenuato"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-mediazione-interculturale-grammar-verb-15",
+            "type": "mcq",
+            "prompt": "L’autore ___ una premessa prima di sviluppare l’argomento.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "esplicitare"
+              },
+              {
+                "id": "b",
+                "text": "esplicitano"
+              },
+              {
+                "id": "c",
+                "text": "esplicita"
+              },
+              {
+                "id": "d",
+                "text": "esplicitato"
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
@@ -68968,7 +81013,372 @@
         "function": "riflettere sui risultati e definire obiettivi",
         "examples": []
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "id": "italian-b2-bilanci-e-prospettive-grammar-final-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "italian-b2-bilanci-e-prospettive-grammar-grammar-1",
+            "type": "mcq",
+            "prompt": "È necessario che il gruppo ___ le conseguenze prima di decidere.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "valuti"
+              },
+              {
+                "id": "b",
+                "text": "valuta"
+              },
+              {
+                "id": "c",
+                "text": "valutare"
+              },
+              {
+                "id": "d",
+                "text": "valutano"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-bilanci-e-prospettive-grammar-grammar-2",
+            "type": "mcq",
+            "prompt": "Sebbene il termine ___ vicino, possiamo riorganizzare le risorse.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "è"
+              },
+              {
+                "id": "b",
+                "text": "sia"
+              },
+              {
+                "id": "c",
+                "text": "essere"
+              },
+              {
+                "id": "d",
+                "text": "sono"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-bilanci-e-prospettive-grammar-grammar-3",
+            "type": "mcq",
+            "prompt": "La proposta è valida, purché ___ sostenibile.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "rimane"
+              },
+              {
+                "id": "b",
+                "text": "rimanere"
+              },
+              {
+                "id": "c",
+                "text": "rimanga"
+              },
+              {
+                "id": "d",
+                "text": "rimangono"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-bilanci-e-prospettive-grammar-grammar-4",
+            "type": "mcq",
+            "prompt": "Nonostante le difficoltà, il progetto ___ nei tempi previsti.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "proseguire"
+              },
+              {
+                "id": "b",
+                "text": "proseguono"
+              },
+              {
+                "id": "c",
+                "text": "proseguito"
+              },
+              {
+                "id": "d",
+                "text": "prosegue"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-bilanci-e-prospettive-grammar-grammar-5",
+            "type": "mcq",
+            "prompt": "È preferibile che ogni incarico ___ con chiarezza.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "venga definito"
+              },
+              {
+                "id": "b",
+                "text": "viene definito"
+              },
+              {
+                "id": "c",
+                "text": "venire definito"
+              },
+              {
+                "id": "d",
+                "text": "vengono definiti"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-bilanci-e-prospettive-grammar-grammar-6",
+            "type": "mcq",
+            "prompt": "Il coordinatore spiega la scelta affinché tutti la ___.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "comprendono"
+              },
+              {
+                "id": "b",
+                "text": "comprendano"
+              },
+              {
+                "id": "c",
+                "text": "comprendere"
+              },
+              {
+                "id": "d",
+                "text": "comprende"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-bilanci-e-prospettive-grammar-grammar-7",
+            "type": "mcq",
+            "prompt": "La squadra ha agito con cautela, ___ mancavano alcuni dati.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "quindi"
+              },
+              {
+                "id": "b",
+                "text": "infatti"
+              },
+              {
+                "id": "c",
+                "text": "benché"
+              },
+              {
+                "id": "d",
+                "text": "perciò"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-bilanci-e-prospettive-grammar-grammar-8",
+            "type": "mcq",
+            "prompt": "Prima di procedere, occorre ___ le alternative.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "valuta"
+              },
+              {
+                "id": "b",
+                "text": "valutando"
+              },
+              {
+                "id": "c",
+                "text": "valutato"
+              },
+              {
+                "id": "d",
+                "text": "valutare"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-bilanci-e-prospettive-grammar-grammar-9",
+            "type": "mcq",
+            "prompt": "Quale frase usa un registro formale appropriato?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Le chiediamo di confermare la disponibilità entro venerdì."
+              },
+              {
+                "id": "b",
+                "text": "Ti chiediamo confermare disponibilità entro venerdì."
+              },
+              {
+                "id": "c",
+                "text": "Chiediamo a te di confermi entro venerdì."
+              },
+              {
+                "id": "d",
+                "text": "Le chiediamo che conferma la disponibilità entro venerdì."
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-bilanci-e-prospettive-grammar-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "ostacolo"
+              },
+              {
+                "id": "b",
+                "text": "traguardo"
+              },
+              {
+                "id": "c",
+                "text": "percorso"
+              },
+              {
+                "id": "d",
+                "text": "priorità"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-bilanci-e-prospettive-grammar-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "traguardo"
+              },
+              {
+                "id": "b",
+                "text": "percorso"
+              },
+              {
+                "id": "c",
+                "text": "ostacolo"
+              },
+              {
+                "id": "d",
+                "text": "priorità"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-bilanci-e-prospettive-grammar-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "traguardo"
+              },
+              {
+                "id": "b",
+                "text": "ostacolo"
+              },
+              {
+                "id": "c",
+                "text": "priorità"
+              },
+              {
+                "id": "d",
+                "text": "percorso"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-bilanci-e-prospettive-grammar-verb-13",
+            "type": "mcq",
+            "prompt": "È importante che il gruppo ___ ogni conseguenza.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "valuti"
+              },
+              {
+                "id": "b",
+                "text": "valuta"
+              },
+              {
+                "id": "c",
+                "text": "valutare"
+              },
+              {
+                "id": "d",
+                "text": "valutano"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-bilanci-e-prospettive-grammar-verb-14",
+            "type": "mcq",
+            "prompt": "Noi ___ le risorse prima dell’incontro.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "coordinerà"
+              },
+              {
+                "id": "b",
+                "text": "coordineremo"
+              },
+              {
+                "id": "c",
+                "text": "coordinare"
+              },
+              {
+                "id": "d",
+                "text": "coordinato"
+              }
+            ]
+          },
+          {
+            "id": "italian-b2-bilanci-e-prospettive-grammar-verb-15",
+            "type": "mcq",
+            "prompt": "Il responsabile ___ un incarico preciso a ciascuno.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "assegnano"
+              },
+              {
+                "id": "b",
+                "text": "assegnare"
+              },
+              {
+                "id": "c",
+                "text": "assegnerà"
+              },
+              {
+                "id": "d",
+                "text": "assegnato"
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
@@ -69081,7 +81491,372 @@
         "function": "presentare un progetto con una visione coerente",
         "examples": []
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "id": "italian-c1-progetto-personale-grammar-final-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "italian-c1-progetto-personale-grammar-grammar-1",
+            "type": "mcq",
+            "prompt": "Pur ___ l’obiezione, l’autore sostiene la tesi con evidenze verificabili.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "riconoscendo"
+              },
+              {
+                "id": "b",
+                "text": "riconosce"
+              },
+              {
+                "id": "c",
+                "text": "riconoscere"
+              },
+              {
+                "id": "d",
+                "text": "riconosciuto"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-progetto-personale-grammar-grammar-2",
+            "type": "mcq",
+            "prompt": "Non si può concludere nulla finché i dati non ___.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "sono verificati"
+              },
+              {
+                "id": "b",
+                "text": "siano stati verificati"
+              },
+              {
+                "id": "c",
+                "text": "essere verificati"
+              },
+              {
+                "id": "d",
+                "text": "saranno verificano"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-progetto-personale-grammar-grammar-3",
+            "type": "mcq",
+            "prompt": "L’autrice formula la tesi in modo che non ___ ambiguità.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "lascia"
+              },
+              {
+                "id": "b",
+                "text": "lasciare"
+              },
+              {
+                "id": "c",
+                "text": "lasci"
+              },
+              {
+                "id": "d",
+                "text": "lasciano"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-progetto-personale-grammar-grammar-4",
+            "type": "mcq",
+            "prompt": "La relazione distingue tra un fatto dimostrato e un’ipotesi che ___ ulteriori prove.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "richiedere"
+              },
+              {
+                "id": "b",
+                "text": "richiedano"
+              },
+              {
+                "id": "c",
+                "text": "richiesta"
+              },
+              {
+                "id": "d",
+                "text": "richiede"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-progetto-personale-grammar-grammar-5",
+            "type": "mcq",
+            "prompt": "Benché il ragionamento ___ convincente, manca una fonte indipendente.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "appaia"
+              },
+              {
+                "id": "b",
+                "text": "appare"
+              },
+              {
+                "id": "c",
+                "text": "apparire"
+              },
+              {
+                "id": "d",
+                "text": "appaiono"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-progetto-personale-grammar-grammar-6",
+            "type": "mcq",
+            "prompt": "Il portavoce ha riformulato la posizione senza ___ il dissenso.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "minimizza"
+              },
+              {
+                "id": "b",
+                "text": "minimizzare"
+              },
+              {
+                "id": "c",
+                "text": "minimizzato"
+              },
+              {
+                "id": "d",
+                "text": "minimizzando"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-progetto-personale-grammar-grammar-7",
+            "type": "mcq",
+            "prompt": "Quale connettore introduce una concessione?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "Pertanto"
+              },
+              {
+                "id": "b",
+                "text": "Infatti"
+              },
+              {
+                "id": "c",
+                "text": "Tuttavia"
+              },
+              {
+                "id": "d",
+                "text": "Di conseguenza"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-progetto-personale-grammar-grammar-8",
+            "type": "mcq",
+            "prompt": "La conclusione è credibile solo se ___ dalle evidenze.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "sostiene"
+              },
+              {
+                "id": "b",
+                "text": "sostenere"
+              },
+              {
+                "id": "c",
+                "text": "sono sostenuti"
+              },
+              {
+                "id": "d",
+                "text": "è sostenuta"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-progetto-personale-grammar-grammar-9",
+            "type": "mcq",
+            "prompt": "Quale frase mantiene un registro argomentativo preciso?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "La tesi richiede una distinzione tra correlazione e causalità."
+              },
+              {
+                "id": "b",
+                "text": "La tesi è super perché sembra vera."
+              },
+              {
+                "id": "c",
+                "text": "La tesi dice cose molto importanti, punto."
+              },
+              {
+                "id": "d",
+                "text": "La tesi ha una cosa che forse va bene."
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-progetto-personale-grammar-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "strategia"
+              },
+              {
+                "id": "b",
+                "text": "visione"
+              },
+              {
+                "id": "c",
+                "text": "risorsa"
+              },
+              {
+                "id": "d",
+                "text": "realizzare"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-progetto-personale-grammar-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "visione"
+              },
+              {
+                "id": "b",
+                "text": "risorsa"
+              },
+              {
+                "id": "c",
+                "text": "strategia"
+              },
+              {
+                "id": "d",
+                "text": "realizzare"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-progetto-personale-grammar-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "visione"
+              },
+              {
+                "id": "b",
+                "text": "strategia"
+              },
+              {
+                "id": "c",
+                "text": "realizzare"
+              },
+              {
+                "id": "d",
+                "text": "risorsa"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-progetto-personale-grammar-verb-13",
+            "type": "mcq",
+            "prompt": "Benché l’autore ___ un’obiezione, la sua tesi resta coerente.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "riconosca"
+              },
+              {
+                "id": "b",
+                "text": "riconosce"
+              },
+              {
+                "id": "c",
+                "text": "riconoscere"
+              },
+              {
+                "id": "d",
+                "text": "riconoscono"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-progetto-personale-grammar-verb-14",
+            "type": "mcq",
+            "prompt": "Le evidenze ___ la conclusione con precisione.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "sostiene"
+              },
+              {
+                "id": "b",
+                "text": "sostengono"
+              },
+              {
+                "id": "c",
+                "text": "sostenere"
+              },
+              {
+                "id": "d",
+                "text": "sostenuto"
+              }
+            ]
+          },
+          {
+            "id": "italian-c1-progetto-personale-grammar-verb-15",
+            "type": "mcq",
+            "prompt": "Il relatore ___ la propria posizione alla luce dei dati.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "riformulare"
+              },
+              {
+                "id": "b",
+                "text": "riformulano"
+              },
+              {
+                "id": "c",
+                "text": "riformula"
+              },
+              {
+                "id": "d",
+                "text": "riformulato"
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
@@ -69194,7 +81969,372 @@
         "function": "sintetizzare fonti e formulare una proposta",
         "examples": []
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "id": "italian-c2-sintesi-e-proposta-grammar-final-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "italian-c2-sintesi-e-proposta-grammar-grammar-1",
+            "type": "mcq",
+            "prompt": "La formulazione attenuata non elimina la premessa, ma ne ___ l’inferenza implicita.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "precisa"
+              },
+              {
+                "id": "b",
+                "text": "precisare"
+              },
+              {
+                "id": "c",
+                "text": "precisano"
+              },
+              {
+                "id": "d",
+                "text": "precisato"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-sintesi-e-proposta-grammar-grammar-2",
+            "type": "mcq",
+            "prompt": "Sarebbe improprio affermare che un solo indizio ___ una conclusione definitiva.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "giustifica"
+              },
+              {
+                "id": "b",
+                "text": "giustifichi"
+              },
+              {
+                "id": "c",
+                "text": "giustificare"
+              },
+              {
+                "id": "d",
+                "text": "giustificano"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-sintesi-e-proposta-grammar-grammar-3",
+            "type": "mcq",
+            "prompt": "L’autore ricorre a una concessione affinché la tesi non ___ categorica.",
+            "difficulty": "recognition",
+            "options": [
+              {
+                "id": "a",
+                "text": "risulta"
+              },
+              {
+                "id": "b",
+                "text": "risultare"
+              },
+              {
+                "id": "c",
+                "text": "risulti"
+              },
+              {
+                "id": "d",
+                "text": "risultano"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-sintesi-e-proposta-grammar-grammar-4",
+            "type": "mcq",
+            "prompt": "Il testo lascia intendere, senza dirlo esplicitamente, che la premessa ___ discussa.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "può essere stata"
+              },
+              {
+                "id": "b",
+                "text": "potere essere"
+              },
+              {
+                "id": "c",
+                "text": "possono essere"
+              },
+              {
+                "id": "d",
+                "text": "può essere"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-sintesi-e-proposta-grammar-grammar-5",
+            "type": "mcq",
+            "prompt": "Quale riformulazione conserva il grado di certezza?",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "I dati sembrano suggerire una tendenza, non una prova definitiva."
+              },
+              {
+                "id": "b",
+                "text": "I dati dimostrano tutto senza dubbio."
+              },
+              {
+                "id": "c",
+                "text": "I dati sono certamente una prova totale."
+              },
+              {
+                "id": "d",
+                "text": "I dati dicono una cosa sicura sempre."
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-sintesi-e-proposta-grammar-grammar-6",
+            "type": "mcq",
+            "prompt": "La scelta lessicale è persuasiva, pur non ___ il dissenso.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "cancella"
+              },
+              {
+                "id": "b",
+                "text": "cancellando"
+              },
+              {
+                "id": "c",
+                "text": "cancellare"
+              },
+              {
+                "id": "d",
+                "text": "cancellata"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-sintesi-e-proposta-grammar-grammar-7",
+            "type": "mcq",
+            "prompt": "Una premessa è rilevante nella misura in cui ___ la conclusione.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "sostenere"
+              },
+              {
+                "id": "b",
+                "text": "sostengono"
+              },
+              {
+                "id": "c",
+                "text": "sostiene"
+              },
+              {
+                "id": "d",
+                "text": "sostenuta"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-sintesi-e-proposta-grammar-grammar-8",
+            "type": "mcq",
+            "prompt": "Quale espressione attenua correttamente un’affermazione?",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "È sicuro al cento per cento che…"
+              },
+              {
+                "id": "b",
+                "text": "È ovvio per tutti che…"
+              },
+              {
+                "id": "c",
+                "text": "Non esiste alcun dubbio che…"
+              },
+              {
+                "id": "d",
+                "text": "È plausibile ipotizzare che…"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-sintesi-e-proposta-grammar-grammar-9",
+            "type": "mcq",
+            "prompt": "L’inferenza è valida solo se non ___ oltre quanto le prove consentono.",
+            "difficulty": "control",
+            "options": [
+              {
+                "id": "a",
+                "text": "si spinge"
+              },
+              {
+                "id": "b",
+                "text": "si spingere"
+              },
+              {
+                "id": "c",
+                "text": "si spingono"
+              },
+              {
+                "id": "d",
+                "text": "si spinta"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-sintesi-e-proposta-grammar-vocabulary-10",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "fonte"
+              },
+              {
+                "id": "b",
+                "text": "sintesi"
+              },
+              {
+                "id": "c",
+                "text": "priorità"
+              },
+              {
+                "id": "d",
+                "text": "formulare"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-sintesi-e-proposta-grammar-vocabulary-11",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "sintesi"
+              },
+              {
+                "id": "b",
+                "text": "priorità"
+              },
+              {
+                "id": "c",
+                "text": "fonte"
+              },
+              {
+                "id": "d",
+                "text": "formulare"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-sintesi-e-proposta-grammar-vocabulary-12",
+            "type": "mcq",
+            "prompt": "Quale parola appartiene al tema della lezione?",
+            "difficulty": "vocabulary",
+            "options": [
+              {
+                "id": "a",
+                "text": "sintesi"
+              },
+              {
+                "id": "b",
+                "text": "fonte"
+              },
+              {
+                "id": "c",
+                "text": "formulare"
+              },
+              {
+                "id": "d",
+                "text": "priorità"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-sintesi-e-proposta-grammar-verb-13",
+            "type": "mcq",
+            "prompt": "Non si può ___ una conclusione da un unico indizio.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "dedurre"
+              },
+              {
+                "id": "b",
+                "text": "deduce"
+              },
+              {
+                "id": "c",
+                "text": "deducono"
+              },
+              {
+                "id": "d",
+                "text": "dedotto"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-sintesi-e-proposta-grammar-verb-14",
+            "type": "mcq",
+            "prompt": "La formulazione ___ il tono senza alterare il significato.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "attenuare"
+              },
+              {
+                "id": "b",
+                "text": "attenua"
+              },
+              {
+                "id": "c",
+                "text": "attenuano"
+              },
+              {
+                "id": "d",
+                "text": "attenuato"
+              }
+            ]
+          },
+          {
+            "id": "italian-c2-sintesi-e-proposta-grammar-verb-15",
+            "type": "mcq",
+            "prompt": "L’autore ___ una premessa prima di sviluppare l’argomento.",
+            "difficulty": "verbs",
+            "options": [
+              {
+                "id": "a",
+                "text": "esplicitare"
+              },
+              {
+                "id": "b",
+                "text": "esplicitano"
+              },
+              {
+                "id": "c",
+                "text": "esplicita"
+              },
+              {
+                "id": "d",
+                "text": "esplicitato"
+              }
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
