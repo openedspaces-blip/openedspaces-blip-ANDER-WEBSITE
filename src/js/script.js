@@ -6074,8 +6074,10 @@ function renderUnitSequenceStepsHtml(unitId, currentSkill = '') {
     </button>`;
 }
 
-function openUnitSequenceStep(skill, lessonSlug = '') {
-  learningPathState.skillEntryContext = 'route';
+function openUnitSequenceStep(skill, lessonSlug = '', options = {}) {
+  // The Reading library can open a concrete alternative text without turning
+  // it into a route step. All route controls retain the established default.
+  learningPathState.skillEntryContext = options.entryContext === 'explore' ? 'explore' : 'route';
   if (skill === 'verbs') {
     const verbLanguage = ['english', 'french', 'spanish'].includes(learningPathState.language)
       ? learningPathState.language
@@ -6363,7 +6365,7 @@ function renderReadingLibrary() {
         return;
       }
       readingTopicSelections.set(lesson.slug, button.dataset.readingLibraryTopic || 'main-reading');
-      openUnitSequenceStep('reading', lesson.slug);
+      openUnitSequenceStep('reading', lesson.slug, { entryContext: 'explore' });
     });
   });
 }
@@ -10976,8 +10978,7 @@ function renderSkillView(skill) {
     // painted the tab strip. Refresh it here once the selected activity is
     // known, so every routed course shows the same seven-step order as the
     // mission progress, beginning with Vocabulary.
-    if (learningPathState.unitId) {
-      learningPathState.skillEntryContext = 'route';
+    if (learningPathState.unitId && learningPathState.skillEntryContext === 'route') {
       updateLevelTabLabels();
     }
     section.dataset.activeLessonSlug = selected?.slug || '';
@@ -12807,16 +12808,17 @@ function getReadingTopicChoices(lesson) {
 function getSelectedReadingTopic(lesson) {
   const choices = getReadingTopicChoices(lesson);
   if (!choices.length) return null;
+  // The route always teaches the principal reading. A prior optional library
+  // selection must never replace the text required by the unit sequence.
+  if (learningPathState.skillEntryContext === 'route') return choices[0];
   const selectedId = readingTopicSelections.get(lesson.slug);
   return choices.find((choice) => choice.id === selectedId) || choices[0];
 }
 
 function readingNeedsRouteTopicChoice(lesson) {
-  return (
-    learningPathState.skillEntryContext === 'route' &&
-    getReadingTopicChoices(lesson).length > 1 &&
-    !readingTopicSelections.has(lesson.slug)
-  );
+  // A route has one required Reading activity: its authored main text.
+  // Complementary texts are optional practice and belong in the library.
+  return false;
 }
 
 function getReadingLessonForTopic(lesson) {
@@ -12846,11 +12848,9 @@ function getReadingLessonForTopic(lesson) {
 }
 
 function renderReadingTopicSelector(lesson) {
-  // The route offers the three equivalent readings before the learner starts.
-  // Once one is chosen, the reader stays focused on that text.  The separate
-  // Reading library already has its own language/level selector and opens a
-  // concrete choice directly, so it never repeats this route-only screen.
-  if (learningPathState.skillEntryContext !== 'route' || readingTopicSelections.has(lesson.slug)) {
+  // The three-text picker is library-only. Route Reading is deliberately
+  // direct: it starts on the primary text, with no preliminary decision.
+  if (learningPathState.skillEntryContext !== 'explore' || readingTopicSelections.has(lesson.slug)) {
     return '';
   }
   const choices = getReadingTopicChoices(lesson);
